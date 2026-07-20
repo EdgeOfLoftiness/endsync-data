@@ -2,8 +2,8 @@
   "label": "MI FU",
   "guideCharId": "mifu",
   "tagline": {
-    "es": "Mi Fu como main DPS de Crush Physical. Tres equipos para preparar Físico antes de Contingency Contract: core puro con Ardelia o Lifeng, y un híbrido con Rossi de enabler.",
-    "en": "Mi Fu as a Physical Crush main DPS. Three teams to prep Physical before Contingency Contract: a pure core with Ardelia or Lifeng, and a Rossi hybrid with Rossi playing enabler."
+    "es": "Mi Fu como main DPS de Crush Physical. Cuatro equipos: el core de Maygi con Ardelia o Lifeng, su híbrido con Rossi de enabler, y la rompehielo económica de YZ con Estella y Alesh.",
+    "en": "Mi Fu as a Physical Crush main DPS. Four teams: Maygi's core with Ardelia or Lifeng, her Rossi hybrid with Rossi as enabler, and YZ's budget icebreaker with Estella and Alesh."
   },
   "comps": [
     {
@@ -1670,6 +1670,512 @@
             "line": {
               "es": "Oblivion + Pulser Labs.",
               "en": "Oblivion + Pulser Labs."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": {
+        "es": "YZ — Rompehielo económica",
+        "en": "YZ — Budget Icebreaker"
+      },
+      "subtitle": {
+        "es": "Mi Fu · Chen Qianyu · Estella · Alesh",
+        "en": "Mi Fu · Chen Qianyu · Estella · Alesh"
+      },
+      "blurb": {
+        "es": "La rompehielo de bajo costo de YZ para rosters con poca inversión: Alesh congela, el equipo apila 4 Vulnerability sin gastar las Ultimates de daño, y Mi Fu descarga su Crush. Un bucle infinito estable donde cada ronda se juega igual.",
+        "en": "YZ's budget icebreaker for low-investment rosters: Alesh freezes, the team stacks 4 Vulnerability without spending the damage Ultimates, and Mi Fu unloads her Crush. A stable infinite loop where every round plays the same."
+      },
+      "guideVideoId": "mf3",
+      "overview": {
+        "es": "Equipo pensado para jugadores con el roster poco desarrollado: muy buen desempeño en los modos de prueba, buen daño a baja inversión y operación muy simple. Es una rompehielo de un solo núcleo — aunque el nombre venga del hielo, la mayor parte del daño la pone Mi Fu; Estella y Alesh no piden gran desarrollo y el costo total es bajo. Su mayor virtud es el bucle: una secuencia infinita y estable donde cada ronda de daño es básicamente idéntica, así que casi nunca se descompone porque el boss cambie de fase o una skill llegue tarde. Arranque frío y caliente solo difieren en el PRIMER skill: en frío abre la Battle Skill de Estella (1 Cryo Infliction); en caliente, la Ultimate de Alesh.",
+        "en": "A team built for players with an underdeveloped roster: performs great in the trial modes, does solid damage at low investment and is very simple to pilot. It is a single-core icebreaker — despite the ice name, most of the damage comes from Mi Fu; Estella and Alesh need little development and the total cost is low. Its greatest virtue is the loop: a stable infinite sequence where every damage round is basically identical, so it almost never falls apart because the boss phases or a skill comes back late. Cold and hot starts differ only in the FIRST skill: cold opens with Estella's Battle Skill (1 Cryo Infliction); hot, with Alesh's Ultimate."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Baja",
+          "en": "Low"
+        },
+        "content": {
+          "es": "General / Rosters nuevos",
+          "en": "General / New rosters"
+        },
+        "tags": [
+          {
+            "es": "Físico",
+            "en": "Physical",
+            "jp": "物理",
+            "zh": "物理"
+          },
+          {
+            "es": "Triturar",
+            "en": "Crush",
+            "jp": "猛撃",
+            "zh": "猛击"
+          },
+          {
+            "es": "Bajo costo",
+            "en": "Budget"
+          },
+          {
+            "es": "Bucle estable",
+            "en": "Stable loop"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "Muy barata: Estella y Alesh rinden con desarrollo mínimo.",
+          "en": "Very cheap: Estella and Alesh deliver with minimal development."
+        },
+        {
+          "es": "Bucle infinito estable — cada ronda se juega exactamente igual.",
+          "en": "Stable infinite loop — every round plays exactly the same."
+        },
+        {
+          "es": "Casi inmune a los imprevistos: fases del boss o skills tardías no desarman el ciclo.",
+          "en": "Nearly immune to surprises: boss phases or late skills don't dismantle the cycle."
+        },
+        {
+          "es": "Las Ultimates de Mi Fu y Chen quedan LIBRES como herramientas (Stagger, reponer capas).",
+          "en": "Mi Fu's and Chen's Ultimates stay FREE as tools (Stagger, topping up layers)."
+        }
+      ],
+      "cons": [
+        {
+          "es": "Umbral de recarga exigente en Alesh: ~204.82% incluso a P4 para una Ultimate por ronda.",
+          "en": "Demanding recharge threshold on Alesh: ~204.82% even at P4 for one Ultimate per round."
+        },
+        {
+          "es": "Estella necesita cerrar su recarga: una pieza artificiada, o un arma de carga (umbral 182.61%).",
+          "en": "Estella needs to close her recharge: one artificed piece, or a charge weapon (182.61% threshold)."
+        },
+        {
+          "es": "La tercera ronda espera a que la Ultimate de Alesh vuelva, idealmente con una barra de SP o más.",
+          "en": "Round three waits for Alesh's Ultimate to return, ideally with one SP bar or more."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "title": {
+            "es": "La cadena de hielo",
+            "en": "The ice chain"
+          },
+          "body": {
+            "es": "La Ultimate de Alesh deja 1 Cryo Infliction y su Battle Skill la detona para congelar al enemigo (Solidification) — de ahí el nombre rompehielo. Sobre ese objetivo congelado cae todo el resto de la ronda.",
+            "en": "Alesh's Ultimate leaves 1 Cryo Infliction and her Battle Skill detonates it to freeze the enemy (Solidification) — hence the icebreaker name. The rest of the round lands on that frozen target."
+          }
+        },
+        {
+          "title": {
+            "es": "Cuatro capas sin gastar las Ultimates de daño",
+            "en": "Four layers without spending the damage Ultimates"
+          },
+          "body": {
+            "es": "El Combo de Estella pone la 1ª Vulnerability, los Combos de Chen y Alesh la 2ª (y devuelven SP al equipo), la Battle Skill de Chen la 3ª y la Ultimate de Estella la 4ª. Como las capas alcanzan solas, las Ultimates de Mi Fu y Chen no entran al bucle.",
+            "en": "Estella's Combo supplies the 1st Vulnerability, Chen's and Alesh's Combos the 2nd (refunding team SP), Chen's Battle Skill the 3rd and Estella's Ultimate the 4th. Since the layers suffice on their own, Mi Fu's and Chen's Ultimates stay out of the loop."
+          }
+        },
+        {
+          "title": {
+            "es": "Ultimates libres = herramientas",
+            "en": "Free Ultimates = tools"
+          },
+          "body": {
+            "es": "La Ultimate de Chen se guarda para el Stagger del boss (pega más ahí); la de Mi Fu se usa según la situación: completar el Stagger o reponer una capa de Vulnerability cuando falte.",
+            "en": "Chen's Ultimate is saved for the boss's Stagger (it hits harder there); Mi Fu's is used situationally: completing the Stagger or topping up a Vulnerability layer when one is missing."
+          }
+        },
+        {
+          "title": {
+            "es": "Dónde mirar tu recarga",
+            "en": "Where to check your recharge"
+          },
+          "body": {
+            "es": "El equipo depende de que Estella y Alesh lleguen a su umbral de recarga de Ultimate. Para verlo: ficha del personaje → bajo el nombre, el valor de capacidad → los tres puntos → baja hasta «eficiencia de recarga de Ultimate».",
+            "en": "The team depends on Estella and Alesh meeting their Ultimate recharge threshold. To check it: character sheet → under the name, the capability value → the three dots → scroll to «Ultimate recharge efficiency»."
+          }
+        },
+        {
+          "title": {
+            "es": "Frío y caliente: solo cambia el primer skill",
+            "en": "Cold and hot: only the first skill changes"
+          },
+          "body": {
+            "es": "En arranque frío la primera Cryo Infliction la pone la Battle Skill de Estella; en caliente, la Ultimate de Alesh. Todo lo demás — orden de skills y ritmo — es idéntico.",
+            "en": "On a cold start the first Cryo Infliction comes from Estella's Battle Skill; on a hot start, from Alesh's Ultimate. Everything else — skill order and rhythm — is identical."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Congelar",
+            "en": "Freeze"
+          },
+          "action": {
+            "es": "Alesh abre la ronda: su Ultimate deja la Cryo Infliction y su Battle Skill la detona para congelar al objetivo.",
+            "en": "Alesh opens the round: her Ultimate leaves the Cryo Infliction and her Battle Skill detonates it to freeze the target."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Alesh — Ultimate: 1 Cryo Infliction en el boss.",
+                "en": "Alesh — Ultimate: 1 Cryo Infliction on the boss."
+              },
+              "key": true,
+              "note": {
+                "es": "En arranque frío este primer paso es la Battle Skill de Estella; el resto no cambia.",
+                "en": "On a cold start this first step is Estella's Battle Skill; the rest doesn't change."
+              }
+            },
+            {
+              "do": {
+                "es": "Alesh — Battle Skill: detona la Infliction y congela (Solidification).",
+                "en": "Alesh — Battle Skill: detonates the Infliction and freezes (Solidification)."
+              },
+              "key": true
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Cuatro capas",
+            "en": "Four layers"
+          },
+          "action": {
+            "es": "Los Combos y la Battle Skill de Chen apilan las tres primeras Vulnerability y la Ultimate de Estella pone la cuarta.",
+            "en": "The Combos and Chen's Battle Skill stack the first three Vulnerability and Estella's Ultimate adds the fourth."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Se proca el Combo de Estella: úsalo — 1ª Vulnerability.",
+                "en": "Estella's Combo procs: use it — 1st Vulnerability."
+              }
+            },
+            {
+              "do": {
+                "es": "Combos de Chen Qianyu y Alesh — 2ª Vulnerability y SP de vuelta para el equipo.",
+                "en": "Chen Qianyu's and Alesh's Combos — 2nd Vulnerability and SP back for the team."
+              }
+            },
+            {
+              "do": {
+                "es": "Chen Qianyu — Battle Skill: 3ª Vulnerability.",
+                "en": "Chen Qianyu — Battle Skill: 3rd Vulnerability."
+              }
+            },
+            {
+              "do": {
+                "es": "Estella — Ultimate: 4ª Vulnerability.",
+                "en": "Estella — Ultimate: 4th Vulnerability."
+              },
+              "key": true
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Crush de Mi Fu",
+            "en": "Mi Fu's Crush"
+          },
+          "action": {
+            "es": "El Combo de Mi Fu deja Physical Susceptibility y desbloquea la 2ª parte de su Battle Skill: Crush de 4 stacks y 3ª parte de remate. Las Ultimates de Mi Fu y Chen quedan fuera del bucle.",
+            "en": "Mi Fu's Combo leaves Physical Susceptibility and unlocks part 2 of her Battle Skill: 4-stack Crush and part 3 to finish. Mi Fu's and Chen's Ultimates stay out of the loop."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Se proca el Combo de Mi Fu: úsalo — Physical Susceptibility y desbloquea la 2ª parte.",
+                "en": "Mi Fu's Combo procs: use it — Physical Susceptibility and unlocks part 2."
+              }
+            },
+            {
+              "do": {
+                "es": "Mi Fu — 2ª parte de la Battle Skill: Crush de 4 stacks.",
+                "en": "Mi Fu — Battle Skill part 2: 4-stack Crush."
+              },
+              "key": true
+            },
+            {
+              "do": {
+                "es": "Mi Fu — 3ª parte: daño adicional. Fin de la ronda.",
+                "en": "Mi Fu — part 3: extra damage. End of the round."
+              }
+            },
+            {
+              "do": {
+                "es": "La Ultimate de Chen va LIBRE: guárdala para el Stagger del boss. La de Mi Fu, para reponer capas o completar Stagger.",
+                "en": "Chen's Ultimate goes FREE: save it for the boss's Stagger. Mi Fu's, for topping up layers or completing Stagger."
+              },
+              "note": {
+                "es": "Con las capas del bucle alcanza: ninguna de las dos hace falta dentro del ciclo.",
+                "en": "The loop's layers are enough: neither is needed inside the cycle."
+              }
+            }
+          ],
+          "tip": {
+            "es": "Desde la tercera ronda, espera a que la Ultimate de Alesh esté lista — idealmente con una barra de SP o más. Su Battle Skill procará los tres Combos de golpe.",
+            "en": "From round three on, wait until Alesh's Ultimate is ready — ideally with one SP bar or more. Her Battle Skill will proc all three Combos at once."
+          }
+        }
+      ],
+      "rotationVariants": [
+        {
+          "name": {
+            "es": "Arranque frío",
+            "en": "Cold start"
+          },
+          "description": {
+            "es": "Sin las Ultimates cargadas, solo cambia el primer skill: la Cryo Infliction inicial la pone la Battle Skill de Estella en vez de la Ultimate de Alesh. Todo lo demás es idéntico.",
+            "en": "Without charged Ultimates, only the first skill changes: the opening Cryo Infliction comes from Estella's Battle Skill instead of Alesh's Ultimate. Everything else is identical."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Apertura fría",
+                "en": "Cold opener"
+              },
+              "action": {
+                "es": "Estella pone la primera Cryo Infliction con su Battle Skill y el bucle continúa igual.",
+                "en": "Estella supplies the first Cryo Infliction with her Battle Skill and the loop continues unchanged."
+              },
+              "steps": [
+                {
+                  "do": {
+                    "es": "Estella — Battle Skill: 1 Cryo Infliction.",
+                    "en": "Estella — Battle Skill: 1 Cryo Infliction."
+                  },
+                  "key": true
+                },
+                {
+                  "do": {
+                    "es": "Sigue el bucle normal: Alesh detona (congela), capas, Crush de Mi Fu.",
+                    "en": "Continue the normal loop: Alesh detonates (freeze), layers, Mi Fu's Crush."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "mifu",
+          "order": "Battle Skill",
+          "note": {
+            "es": "La subida principal va a su Battle Skill.",
+            "en": "The main investment goes into her Battle Skill."
+          }
+        },
+        {
+          "charId": "estella",
+          "order": "Combo Skill",
+          "note": {
+            "es": "Solo su Combo: a rango 1–9 da 10% de Physical Susceptibility al equipo; con especialización 1 o más, 15%. El resto puede quedarse sin subir.",
+            "en": "Only her Combo: at rank 1–9 it gives the team 10% Physical Susceptibility; at specialization 1 or higher, 15%. The rest can stay unleveled."
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Meter las Ultimates de Mi Fu o Chen al bucle: van fuera — Chen al Stagger, Mi Fu a reponer capas.",
+          "en": "Folding Mi Fu's or Chen's Ultimate into the loop: they go outside — Chen for Stagger, Mi Fu for topping up layers."
+        },
+        {
+          "es": "Arrancar la tercera ronda sin la Ultimate de Alesh lista y al menos una barra de SP.",
+          "en": "Starting round three without Alesh's Ultimate ready and at least one SP bar."
+        },
+        {
+          "es": "Ignorar los umbrales de recarga: Alesh ~204.82% incluso a P4; Estella 182.61% si va sin pieza artificiada.",
+          "en": "Ignoring the recharge thresholds: Alesh ~204.82% even at P4; Estella 182.61% if she runs without an artificed piece."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "Maygi — Físico (Ardelia / Lifeng)",
+            "en": "Maygi — Physical (Ardelia / Lifeng)"
+          },
+          "verdict": {
+            "es": "Las de Maygi exprimen más DPS con Pog y piden más desarrollo y manejo; esta cambia techo por costo y estabilidad: rinde con Estella y Alesh a inversión mínima y su ronda se repite idéntica. Ideal como puerta de entrada al arquetipo físico de Mi Fu.",
+            "en": "Maygi's squeeze more DPS with Pog and ask for more development and piloting; this one trades ceiling for cost and stability: it delivers with minimal-investment Estella and Alesh, and its round repeats identically. An ideal entry point into Mi Fu's physical archetype."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "mifu",
+          "role": "Carry",
+          "weaponId": "wpn_claym_0017",
+          "gearRec": [
+            "grizzled_edge_armor",
+            "grizzled_edge_gauntlets",
+            "grizzled_edge_push_knife",
+            "swordmancer_nav_beacon"
+          ],
+          "weaponNote": {
+            "es": "Arma promocional (Amaranthine Tassel) > Exemplar > Phantom Pain.",
+            "en": "Signature weapon (Amaranthine Tassel) > Exemplar > Phantom Pain."
+          },
+          "gearNote": {
+            "es": "3 piezas de Grizzled Edge + Swordmancer NAV Beacon. Un build que puedes artificiar con confianza.",
+            "en": "3pc Grizzled Edge + Swordmancer NAV Beacon. A build you can artifice with confidence."
+          },
+          "deepNote": {
+            "es": "El único núcleo del equipo: aunque la comp se llame rompehielo, la mayor parte del daño es suyo. Su Ultimate queda libre para reponer capas de Vulnerability o completar el Stagger.",
+            "en": "The team's single core: even though the comp is called icebreaker, most of the damage is hers. Her Ultimate stays free to top up Vulnerability layers or complete the Stagger."
+          }
+        },
+        {
+          "id": "chenqianyu",
+          "role": "Enabler",
+          "gearRec": null,
+          "gearNote": {
+            "es": "A un equipo físico le conviene tener uno o dos operadores con set Swordmancer: Chen lo viste completo, con armadura de recarga o de daño físico — cualquiera de las dos vale. El video no fija arma para ella.",
+            "en": "A physical team wants one or two Swordmancer wearers: Chen wears the full set, with a recharge or a physical-damage armor — either works. The video doesn't lock in a weapon for her."
+          },
+          "deepNote": {
+            "es": "Aporta la 2ª y 3ª Vulnerability con Combo y Battle Skill. Su Ultimate no entra al bucle: guárdala para el Stagger del boss, donde pega más.",
+            "en": "She supplies the 2nd and 3rd Vulnerability with Combo and Battle Skill. Her Ultimate stays out of the loop: save it for the boss's Stagger, where it hits harder."
+          }
+        },
+        {
+          "id": "estella",
+          "role": "Enabler",
+          "gearRec": null,
+          "weaponNote": {
+            "es": "Su arma casi no importa: a nivel 1 basta. Si no quieres artificiar la pieza de recarga, dale Chimeric Justice o Beacon of Duty (traen recarga de serie; umbral a desarrollo pleno 182.61%) y el gear queda sin artificing.",
+            "en": "Her weapon barely matters: level 1 is enough. If you don't want to artifice the recharge piece, give her Chimeric Justice or Beacon of Duty (they carry recharge natively; 182.61% threshold at full development) and the gear needs no artificing."
+          },
+          "gearNote": {
+            "es": "3 piezas de Eternal Xiranite + armadura Swordmancer de recarga: encaja su atributo principal y le da una Ultimate por ronda. El set completo queda un pelo corto de recarga — con artificiar UNA pieza alcanza.",
+            "en": "3pc Eternal Xiranite + a Swordmancer recharge armor: it fits her main attribute and gives her one Ultimate per round. The full set falls a hair short on recharge — artificing ONE piece is enough."
+          },
+          "deepNote": {
+            "es": "Aquí es una herramienta de Vulnerability: su Combo pone la 1ª capa (y 10–15% de Physical Susceptibility al equipo según el rango) y su Ultimate la 4ª. En arranque frío, su Battle Skill abre la ronda con la Cryo Infliction.",
+            "en": "Here she is a Vulnerability tool: her Combo supplies the 1st layer (plus 10–15% team Physical Susceptibility depending on rank) and her Ultimate the 4th. On cold starts, her Battle Skill opens the round with the Cryo Infliction."
+          }
+        },
+        {
+          "id": "alesh",
+          "role": "Buffer",
+          "weaponId": "wpn_sword_0007",
+          "gearRec": null,
+          "weaponNote": {
+            "es": "Fortmaker trae recarga de serie y reduce el artificing necesario. Con Thermite Cutter (sin línea de recarga) tendrás que artificiar algo más de gear para compensar.",
+            "en": "Fortmaker carries recharge natively and reduces the artificing needed. With Thermite Cutter (no recharge line) you'll have to artifice a bit more gear to compensate."
+          },
+          "gearNote": {
+            "es": "Piezas sueltas de recarga + guantes de Eternal Xiranite. Apila recarga y también Intellect: sube la probabilidad de pescar el Rare Fin de su Combo (el buff de ATK para todo el equipo). Su umbral es muy alto: ~204.82% incluso a P4 para una Ultimate por ronda — cuerpo entero de recarga.",
+            "en": "Loose recharge pieces + Eternal Xiranite gloves. Stack recharge and also Intellect: it raises the chance of fishing the Rare Fin on her Combo (the team-wide ATK buff). Her threshold is very high: ~204.82% even at P4 for one Ultimate per round — full-body recharge."
+          },
+          "deepNote": {
+            "es": "La congeladora del equipo: su Ultimate deja la Cryo Infliction y su Battle Skill la detona (Solidification), procando además los Combos. Su Combo devuelve SP y puede pescar el buff de ATK de equipo.",
+            "en": "The team's freezer: her Ultimate leaves the Cryo Infliction and her Battle Skill detonates it (Solidification), also proccing the Combos. Her Combo refunds SP and can fish the team ATK buff."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Todo gira alrededor de dos umbrales de recarga: Estella y Alesh necesitan su Ultimate cada ronda. Mi Fu va a daño puro; Chen viste Swordmancer por el equipo.",
+          "en": "Everything revolves around two recharge thresholds: Estella and Alesh need their Ultimate every round. Mi Fu goes pure damage; Chen wears Swordmancer for the team."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "No quieres artificiar la pieza de recarga de Estella",
+              "en": "You don't want to artifice Estella's recharge piece"
+            },
+            "swap": {
+              "es": "Dale Chimeric Justice o Beacon of Duty: traen recarga de serie (umbral 182.61%) y el gear queda tal cual.",
+              "en": "Give her Chimeric Justice or Beacon of Duty: they carry native recharge (182.61% threshold) and the gear stays as is."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Alesh con Thermite Cutter en vez de Fortmaker",
+              "en": "Alesh with Thermite Cutter instead of Fortmaker"
+            },
+            "swap": {
+              "es": "Thermite no trae línea de recarga: artificia un poco más el gear para compensar el umbral (~204.82% a P4).",
+              "en": "Thermite has no recharge line: artifice the gear a bit more to compensate the threshold (~204.82% at P4)."
+            }
+          }
+        ]
+      },
+      "simple": {
+        "whatItDoes": {
+          "es": "Alesh congela, el equipo apila 4 Vulnerability con Combos y skills (sin gastar las Ultimates de daño) y Mi Fu descarga su Crush de 4 stacks. Cada ronda se juega igual.",
+          "en": "Alesh freezes, the team stacks 4 Vulnerability with Combos and skills (without spending the damage Ultimates) and Mi Fu unloads her 4-stack Crush. Every round plays the same."
+        },
+        "steps": [
+          {
+            "do": {
+              "es": "Alesh — Ultimate (Cryo Infliction) y Battle Skill (congela).",
+              "en": "Alesh — Ultimate (Cryo Infliction) and Battle Skill (freeze)."
+            },
+            "who": "alesh"
+          },
+          {
+            "do": {
+              "es": "Combo de Estella (1ª capa); Combos de Chen y Alesh (2ª + SP).",
+              "en": "Estella's Combo (1st layer); Chen's and Alesh's Combos (2nd + SP)."
+            },
+            "who": "estella"
+          },
+          {
+            "do": {
+              "es": "Battle Skill de Chen (3ª) y Ultimate de Estella (4ª).",
+              "en": "Chen's Battle Skill (3rd) and Estella's Ultimate (4th)."
+            },
+            "who": "chenqianyu"
+          },
+          {
+            "do": {
+              "es": "Combo de Mi Fu (Susceptibility) → 2ª parte de la Battle Skill: Crush → 3ª parte.",
+              "en": "Mi Fu's Combo (Susceptibility) → Battle Skill part 2: Crush → part 3."
+            },
+            "who": "mifu"
+          },
+          {
+            "do": {
+              "es": "Ultimates de Chen y Mi Fu libres: Stagger y reposición de capas.",
+              "en": "Chen's and Mi Fu's Ultimates stay free: Stagger and layer top-ups."
+            },
+            "who": "mifu"
+          }
+        ],
+        "gear": [
+          {
+            "id": "mifu",
+            "line": {
+              "es": "Arma promocional + 3pc Grizzled Edge con Swordmancer NAV Beacon.",
+              "en": "Signature weapon + 3pc Grizzled Edge with Swordmancer NAV Beacon."
+            }
+          },
+          {
+            "id": "chenqianyu",
+            "line": {
+              "es": "Set Swordmancer + armadura de recarga o de daño físico.",
+              "en": "Swordmancer set + recharge or physical-damage armor."
+            }
+          },
+          {
+            "id": "estella",
+            "line": {
+              "es": "3pc Eternal Xiranite + armadura Swordmancer de recarga (una pieza artificiada, o arma de carga).",
+              "en": "3pc Eternal Xiranite + Swordmancer recharge armor (one artificed piece, or a charge weapon)."
+            }
+          },
+          {
+            "id": "alesh",
+            "line": {
+              "es": "Fortmaker + piezas de recarga y guantes Eternal Xiranite; apila recarga e Intellect.",
+              "en": "Fortmaker + recharge pieces and Eternal Xiranite gloves; stack recharge and Intellect."
             }
           }
         ]
