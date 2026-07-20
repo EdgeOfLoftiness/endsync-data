@@ -1,0 +1,3785 @@
+{
+ "weapons": {
+  "Lupine Scarlet": {
+   "operator": "rossi",
+   "passive": "Fracture: Gnashing Wolves",
+   "leadingAtkByDupe": [
+    25.6,
+    29.44,
+    33.28,
+    37.12,
+    40.96,
+    44.8
+   ],
+   "buffs": [
+    {
+     "id": "lupine_wolven16",
+     "src": "Wolven Blood (16 stacks)",
+     "target": "self",
+     "pendingModel": "crit-proc probabilístico (acumula al infligir Critical DMG con skill, hasta 16 stacks); NO derivable de un timeline ideal → toggle-solo del calc de Daño, inerte en la Rotación a propósito. Candidato EV-movible",
+     "cond": {
+      "es": "tras infligir Critical DMG con skill; acumula a 16 stacks; +per-stack x16 + bono a 16 stacks, 20s",
+      "en": "after dealing Critical DMG with a skill; stacks up to 16; +per-stack x16 + bonus at 16 stacks, 20s"
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "physical",
+       "byDupe": [
+        0.64,
+        0.736,
+        0.832,
+        0.928,
+        1.024,
+        1.12
+       ]
+      },
+      {
+       "type": "dmgAdd",
+       "element": "heat",
+       "byDupe": [
+        0.64,
+        0.736,
+        0.832,
+        0.928,
+        1.024,
+        1.12
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "Blessing of Lustrous Carmine": {
+   "operator": "camille",
+   "passive": "Flow: Absolver of Guilt",
+   "buffs": [
+    {
+     "id": "carmine_flow_atk",
+     "src": "Flow - SP recovery (team ATK)",
+     "target": "team",
+     "cond": {
+      "es": "cuando una skill del portador recupera SP; +ATK a todo el equipo 20s",
+      "en": "when the wielder's skill recovers SP; team +ATK for 20s"
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byDupe": [
+        0.096,
+        0.108,
+        0.12,
+        0.132,
+        0.144,
+        0.168
+       ]
+      }
+     ],
+     "trigger": {
+      "onSpRecover": true
+     },
+     "durS": 20,
+     "noStack": true
+    },
+    {
+     "id": "carmine_flow_heat",
+     "src": "Flow - Heat Infliction (team Heat DMG)",
+     "target": "team",
+     "cond": {
+      "es": "cuando una skill del portador aplica Heat Infliction; +Heat DMG Dealt a todo el equipo 20s",
+      "en": "when the wielder's skill applies Heat Infliction; team +Heat DMG Dealt for 20s"
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "heat",
+       "byDupe": [
+        0.096,
+        0.108,
+        0.12,
+        0.132,
+        0.144,
+        0.168
+       ]
+      }
+     ],
+     "trigger": {
+      "onApplyInfliction": "heat_infl"
+     },
+     "durS": 20,
+     "noStack": true
+    }
+   ]
+  },
+  "JET": {
+   "operator": "avywenna",
+   "passive": "Suppression: Astrophysics",
+   "buffs": [
+    {
+     "id": "jet_supp_perm",
+     "src": "Suppression (permanent)",
+     "target": "self",
+     "permanent": true,
+     "replacesLeading": true,
+     "cond": {
+      "es": "Arts DMG Dealt permanente de la pasiva (escala por nodo de esencia).",
+      "en": "Permanent Arts DMG Dealt from the passive (scales per essence node)."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "arts",
+       "byNode": [
+        0.12,
+        0.144,
+        0.168,
+        0.192,
+        0.216,
+        0.24,
+        0.264,
+        0.288,
+        0.336
+       ]
+      }
+     ]
+    },
+    {
+     "id": "jet_supp_battle",
+     "src": "Suppression (after Battle Skill)",
+     "target": "self",
+     "anchor": "battle_skill",
+     "durS": 15,
+     "noStack": true,
+     "cond": {
+      "es": "Al castear una battle skill: Arts DMG Dealt +valor por 15s (no se apila consigo mismo).",
+      "en": "When the wielder casts a battle skill: Arts DMG Dealt +value for 15s (does not stack with itself)."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "arts",
+       "byNode": [
+        0.12,
+        0.144,
+        0.168,
+        0.192,
+        0.216,
+        0.24,
+        0.264,
+        0.288,
+        0.336
+       ]
+      }
+     ]
+    },
+    {
+     "id": "jet_supp_combo",
+     "src": "Suppression (after Combo Skill)",
+     "target": "self",
+     "anchor": "combo_skill",
+     "durS": 15,
+     "noStack": true,
+     "cond": {
+      "es": "Al castear una combo skill: Arts DMG Dealt +valor por 15s (efecto separado del de battle skill; no se apila consigo mismo).",
+      "en": "When the wielder casts a combo skill: Arts DMG Dealt +value for 15s (separate effect from the battle-skill one; does not stack with itself)."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "arts",
+       "byNode": [
+        0.12,
+        0.144,
+        0.168,
+        0.192,
+        0.216,
+        0.24,
+        0.264,
+        0.288,
+        0.336
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "Wild Wanderer": {
+   "operator": "perlica",
+   "passive": "Infliction: Wilderness Cluster",
+   "buffs": [
+    {
+     "id": "ww_cluster",
+     "src": "Wilderness Cluster",
+     "target": "team",
+     "trigger": {
+      "onApplyReaction": "electrification"
+     },
+     "durS": 15,
+     "noStack": true,
+     "cond": {
+      "es": "Cuando el portador aplica Electrification: el equipo gana Physical DMG Dealt y Electric DMG Dealt +valor por 15s (no se apila consigo mismo). El Arts Intensity +10..28 de la pasiva ya está contado aparte.",
+      "en": "When the wielder applies Electrification: the team gains Physical DMG Dealt and Electric DMG Dealt +value for 15s (does not stack with itself). The passive's Arts Intensity +10..28 is already counted separately."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "physical",
+       "byNode": [
+        0.08,
+        0.096,
+        0.112,
+        0.128,
+        0.144,
+        0.16,
+        0.176,
+        0.192,
+        0.224
+       ]
+      },
+      {
+       "type": "dmgAdd",
+       "element": "electric",
+       "byNode": [
+        0.08,
+        0.096,
+        0.112,
+        0.128,
+        0.144,
+        0.16,
+        0.176,
+        0.192,
+        0.224
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "Forgeborn Scathe": {
+   "operator": "laevatain",
+   "passive": "Twilight: Blazing Wail",
+   "buffs": [
+    {
+     "id": "forgeborn_scathe_heat",
+     "src": "Forgeborn Scathe",
+     "target": "self",
+     "cond": {
+      "es": "Bonificación de daño Heat permanente.",
+      "en": "Permanent Heat DMG bonus."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "heat",
+       "byNode": [
+        0.16,
+        0.192,
+        0.224,
+        0.256,
+        0.288,
+        0.32,
+        0.352,
+        0.384,
+        0.448
+       ]
+      }
+     ],
+     "permanent": true,
+     "replacesLeading": true
+    },
+    {
+     "id": "forgeborn_scathe_ba",
+     "src": "Forgeborn Scathe",
+     "target": "self",
+     "cond": {
+      "es": "Tras lanzar la Definitiva, +DMG de Ataque Básico por 20s.",
+      "en": "After casting Ultimate, +Basic Attack DMG for 20s."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "slot": "basic_attack",
+       "byNode": [
+        0.75,
+        0.9,
+        1.05,
+        1.2,
+        1.35,
+        1.5,
+        1.65,
+        1.8,
+        2.1
+       ]
+      }
+     ],
+     "anchor": "ultimate",
+     "durS": 20,
+     "noStack": true
+    }
+   ]
+  },
+  "Never Rest": {
+   "operator": "",
+   "passive": "Flow: Reincarnation",
+   "buffs": [
+    {
+     "id": "never_rest_lead",
+     "src": "Never Rest",
+     "target": "self",
+     "cond": {
+      "es": "Bonus permanente de daño físico.",
+      "en": "Permanent Physical DMG Dealt bonus."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "physical",
+       "byNode": [
+        0.16,
+        0.192,
+        0.224,
+        0.256,
+        0.288,
+        0.32,
+        0.352,
+        0.384,
+        0.448
+       ]
+      }
+     ],
+     "permanent": true,
+     "replacesLeading": true
+    },
+    {
+     "id": "never_rest_self",
+     "src": "Never Rest",
+     "target": "self",
+     "cond": {
+      "es": "Tras recuperar SP con sus skills: portador +8% Physical (nodo 4); el cálculo lo reparte mitad propia y mitad de equipo (el portador suma ambas). Apila a 5; duración por stack independiente (30s).",
+      "en": "After recovering SP with own skills: wielder +8% Physical (node 4); the calculation splits it half self and half team (the wielder adds both). Stacks to 5; per-stack duration counted separately (30s)."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "physical",
+       "byNode": [
+        0.025,
+        0.03,
+        0.035,
+        0.04,
+        0.045,
+        0.05,
+        0.055,
+        0.06,
+        0.07
+       ]
+      }
+     ],
+     "trigger": {
+      "onSpRecover": true,
+      "maxStacks": 5
+     },
+     "durS": 30
+    },
+    {
+     "id": "never_rest_team",
+     "src": "Never Rest",
+     "target": "team",
+     "cond": {
+      "es": "Tras que el portador recupere SP con sus skills: el resto del equipo gana la mitad (+4% a nodo 4). Apila a 5; duración por stack independiente (30s).",
+      "en": "After the wielder recovers SP with their own skills: the rest of the team gains half (+4% at node 4). Stacks to 5; per-stack duration counted separately (30s)."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "physical",
+       "byNode": [
+        0.025,
+        0.03,
+        0.035,
+        0.04,
+        0.045,
+        0.05,
+        0.055,
+        0.06,
+        0.07
+       ]
+      }
+     ],
+     "trigger": {
+      "onSpRecover": true,
+      "maxStacks": 5
+     },
+     "durS": 30
+    }
+   ]
+  },
+  "Thermite Cutter": {
+   "operator": "",
+   "passive": "Flow: Thermal Release",
+   "buffs": [
+    {
+     "id": "thermite_cutter_atk",
+     "src": "Thermite Cutter",
+     "target": "self",
+     "cond": {
+      "es": "ATK +16% permanente",
+      "en": "Permanent ATK +16%"
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.1,
+        0.12,
+        0.14,
+        0.16,
+        0.18,
+        0.2,
+        0.22,
+        0.24,
+        0.28
+       ]
+      }
+     ],
+     "permanent": true,
+     "replacesLeading": true
+    },
+    {
+     "id": "thermite_cutter_team_atk",
+     "src": "Thermite Cutter",
+     "target": "team",
+     "cond": {
+      "es": "Tras recuperar SP la skill del portador, el equipo entero gana ATK +8% por 20s. Apila a 2; duración por stack independiente.",
+      "en": "After the wielder's skill recovers SP, the entire team gains ATK +8% for 20s. Stacks to 2; per-stack duration counted separately."
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.05,
+        0.06,
+        0.07,
+        0.08,
+        0.09,
+        0.1,
+        0.11,
+        0.12,
+        0.14
+       ]
+      }
+     ],
+     "trigger": {
+      "onSpRecover": true,
+      "maxStacks": 2
+     },
+     "durS": 20
+    }
+   ]
+  },
+  "Exemplar": {
+   "operator": "",
+   "passive": "Suppression: Stacked Hew",
+   "buffs": [
+    {
+     "id": "exemplar_phys_leading",
+     "src": "Exemplar",
+     "target": "self",
+     "cond": {
+      "es": "Bonificacion permanente de DMG Fisico.",
+      "en": "Permanent Physical DMG dealt bonus."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "physical",
+       "byNode": [
+        0.1,
+        0.12,
+        0.14,
+        0.16,
+        0.18,
+        0.2,
+        0.22,
+        0.24,
+        0.28
+       ]
+      }
+     ],
+     "permanent": true,
+     "replacesLeading": true
+    },
+    {
+     "id": "exemplar_phys_onhit",
+     "src": "Exemplar",
+     "target": "self",
+     "cond": {
+      "es": "Tras impactar con Habilidad de Combate o Definitiva: +DMG Fisico durante 30s (hasta 3 acumulaciones).",
+      "en": "After Battle Skill or Ultimate hits: +Physical DMG for 30s (up to 3 stacks)."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "physical",
+       "byNode": [
+        0.1,
+        0.12,
+        0.14,
+        0.16,
+        0.18,
+        0.2,
+        0.22,
+        0.24,
+        0.28
+       ]
+      }
+     ],
+     "anchor": "battle_skill",
+     "durS": 30,
+     "noStack": true
+    }
+   ]
+  },
+  "Khravengger": {
+   "operator": "lastrite",
+   "passive": "Detonate: Bonechilling",
+   "buffs": [
+    {
+     "id": "khravengger_all_skill",
+     "src": "Khravengger",
+     "target": "self",
+     "cond": {
+      "es": "Aumenta el DMG de todas las habilidades.",
+      "en": "Increases DMG dealt by all skills."
+     },
+     "mods": [
+      {
+       "type": "dmgMult",
+       "slot": "skill",
+       "byNode": [
+        0.2,
+        0.24,
+        0.28,
+        0.32,
+        0.36,
+        0.4,
+        0.44,
+        0.48,
+        0.56
+       ]
+      }
+     ],
+     "permanent": true,
+     "replacesLeading": true
+    },
+    {
+     "id": "khravengger_battle_cryo",
+     "src": "Khravengger",
+     "target": "self",
+     "cond": {
+      "es": "Cuando la Habilidad de Combate aplica Inflicción de Cryo: +DMG de Cryo 15s.",
+      "en": "When Battle Skill applies Cryo Infliction: +Cryo DMG dealt for 15s."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "cryo",
+       "byNode": [
+        0.1,
+        0.12,
+        0.14,
+        0.16,
+        0.18,
+        0.2,
+        0.22,
+        0.24,
+        0.28
+       ]
+      }
+     ],
+     "trigger": {
+      "onApplyInfliction": "cryo_infl"
+     },
+     "durS": 15,
+     "noStack": true
+    },
+    {
+     "id": "khravengger_combo_cryo",
+     "src": "Khravengger",
+     "target": "self",
+     "cond": {
+      "es": "Cuando la Habilidad Combo golpea a un enemigo con Inflicción de Cryo: +DMG de Cryo 15s.",
+      "en": "When Combo Skill DMG hits an enemy with Cryo Infliction: +Cryo DMG dealt for 15s."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "cryo",
+       "byNode": [
+        0.2,
+        0.24,
+        0.28,
+        0.32,
+        0.36,
+        0.4,
+        0.44,
+        0.48,
+        0.56
+       ]
+      }
+     ],
+     "anchor": "combo_skill",
+     "durS": 15,
+     "noStack": true
+    }
+   ]
+  },
+  "Phantom Pain": {
+   "operator": "",
+   "passive": "Suppression: Layered Suffering",
+   "buffs": [
+    {
+     "id": "phantom_pain_flat",
+     "src": "Phantom Pain",
+     "target": "self",
+     "cond": {
+      "es": "Bonificación de daño físico permanente.",
+      "en": "Permanent Physical DMG dealt bonus."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "physical",
+       "byNode": [
+        0.07,
+        0.084,
+        0.098,
+        0.112,
+        0.126,
+        0.14,
+        0.154,
+        0.168,
+        0.196
+       ]
+      }
+     ],
+     "permanent": true,
+     "replacesLeading": true
+    },
+    {
+     "id": "phantom_pain_oncast",
+     "src": "Phantom Pain",
+     "target": "self",
+     "cond": {
+      "es": "Al lanzar habilidad de combate (o de combo): +daño físico durante 20s, hasta 3 acumulaciones.",
+      "en": "On casting a battle skill (or combo skill): +Physical DMG dealt for 20s, up to 3 stacks."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "physical",
+       "byNode": [
+        0.055,
+        0.066,
+        0.077,
+        0.088,
+        0.099,
+        0.11,
+        0.121,
+        0.132,
+        0.154
+       ]
+      }
+     ],
+     "anchor": "battle_skill",
+     "durS": 20,
+     "noStack": true
+    }
+   ]
+  },
+  "Brigand's Calling": {
+   "operator": "tangtang",
+   "passive": "Detonate: Brigand's Bane",
+   "buffs": [
+    {
+     "id": "brigands_calling_cryo",
+     "src": "Brigand's Calling",
+     "target": "self",
+     "cond": {
+      "es": "Permanente",
+      "en": "Permanent"
+     },
+     "permanent": true,
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "cryo",
+       "byNode": [
+        0.16,
+        0.192,
+        0.224,
+        0.256,
+        0.288,
+        0.32,
+        0.352,
+        0.384,
+        0.448
+       ]
+      }
+     ]
+    },
+    {
+     "id": "brigands_calling_cryo_infl",
+     "src": "Brigand's Calling",
+     "target": "self",
+     "cond": {
+      "es": "Tras aplicar Inflicción Cryo con habilidad de combate o definitiva",
+      "en": "After applying Cryo Infliction via battle skill or ultimate"
+     },
+     "trigger": {
+      "onApplyInfliction": "cryo_infl"
+     },
+     "durS": 20,
+     "noStack": true,
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "cryo",
+       "byNode": [
+        0.2,
+        0.24,
+        0.28,
+        0.32,
+        0.36,
+        0.4,
+        0.44,
+        0.48,
+        0.56
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "Clannibal": {
+   "operator": "",
+   "passive": "Infliction: Vicious Purge",
+   "buffs": [
+    {
+     "id": "clannibal_arts_amp",
+     "src": "Clannibal",
+     "target": "self",
+     "cond": {
+      "es": "Bonus permanente de dano Arts.",
+      "en": "Permanent Arts DMG amp."
+     },
+     "permanent": true,
+     "replacesLeading": true,
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "arts",
+       "byNode": [
+        0.12,
+        0.144,
+        0.168,
+        0.192,
+        0.216,
+        0.24,
+        0.264,
+        0.288,
+        0.336
+       ]
+      }
+     ]
+    },
+    {
+     "id": "clannibal_arts_taken",
+     "src": "Clannibal",
+     "target": "team",
+     "cond": {
+      "es": "Tras consumir una Reaccion Arts, el enemigo recibe +dano Arts (del elemento indicado) 15s.",
+      "en": "After consuming an Arts Reaction, target enemy takes more Arts DMG (of the specified element) for 15s."
+     },
+     "trigger": {
+      "onConsume": [
+       "combustion",
+       "electrification",
+       "solidification",
+       "corrosion"
+      ]
+     },
+     "durS": 15,
+     "noStack": true,
+     "mods": [
+      {
+       "type": "enemyDmgTaken",
+       "element": "arts",
+       "byNode": [
+        0.1,
+        0.12,
+        0.14,
+        0.16,
+        0.18,
+        0.2,
+        0.22,
+        0.24,
+        0.28
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "Home Longing": {
+   "operator": "",
+   "passive": "Suppression: Olden Moon",
+   "buffs": [
+    {
+     "id": "home_longing_atk",
+     "src": "Home Longing",
+     "target": "self",
+     "cond": {
+      "es": "Pasiva permanente de ataque",
+      "en": "Permanent ATK boost"
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.07,
+        0.084,
+        0.098,
+        0.112,
+        0.126,
+        0.14,
+        0.154,
+        0.168,
+        0.196
+       ]
+      }
+     ],
+     "permanent": true,
+     "replacesLeading": true
+    },
+    {
+     "id": "home_longing_combo_next_bs",
+     "src": "Home Longing",
+     "target": "self",
+     "cond": {
+      "es": "Tras usar Habilidad de Combo, la siguiente Habilidad de Batalla gana DMG de Hielo y Naturaleza (20s, acumula 2)",
+      "en": "After casting a Combo Skill, the next Battle Skill gains Cryo and Nature DMG dealt (20s, stacks to 2)"
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "cryo",
+       "byNode": [
+        0.08,
+        0.096,
+        0.112,
+        0.128,
+        0.144,
+        0.16,
+        0.176,
+        0.192,
+        0.224
+       ]
+      },
+      {
+       "type": "dmgAdd",
+       "element": "nature",
+       "byNode": [
+        0.08,
+        0.096,
+        0.112,
+        0.128,
+        0.144,
+        0.16,
+        0.176,
+        0.192,
+        0.224
+       ]
+      }
+     ],
+     "trigger": {
+      "onCast": "combo_skill",
+      "untilNext": "battle_skill",
+      "maxStacks": 2
+     },
+     "durS": 20
+    }
+   ]
+  },
+  "Navigator": {
+   "operator": "",
+   "passive": "Infliction: Lone and Distant Sail",
+   "buffs": [
+    {
+     "id": "navigator_crit_lead",
+     "src": "Navigator",
+     "target": "self",
+     "cond": {
+      "es": "Pasivo permanente del arma",
+      "en": "Permanent weapon passive"
+     },
+     "permanent": true,
+     "replacesLeading": true,
+     "mods": [
+      {
+       "type": "critRate",
+       "byNode": [
+        0.035,
+        0.042,
+        0.049,
+        0.056,
+        0.063,
+        0.07,
+        0.077,
+        0.084,
+        0.098
+       ]
+      }
+     ]
+    },
+    {
+     "id": "navigator_solidification",
+     "src": "Navigator",
+     "target": "self",
+     "cond": {
+      "es": "Al aplicar Solidificacion a enemigos (valores base; se duplican si lo activa el portador)",
+      "en": "When Solidification is applied to enemies (base values; doubled if triggered by the wielder)"
+     },
+     "trigger": {
+      "onApplyReaction": "solidification"
+     },
+     "durS": 15,
+     "noStack": true,
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "cryo",
+       "byNode": [
+        0.035,
+        0.042,
+        0.049,
+        0.056,
+        0.063,
+        0.07,
+        0.077,
+        0.084,
+        0.098
+       ]
+      },
+      {
+       "type": "dmgAdd",
+       "element": "nature",
+       "byNode": [
+        0.035,
+        0.042,
+        0.049,
+        0.056,
+        0.063,
+        0.07,
+        0.077,
+        0.084,
+        0.098
+       ]
+      },
+      {
+       "type": "critRate",
+       "byNode": [
+        0.02,
+        0.024,
+        0.028,
+        0.032,
+        0.036,
+        0.04,
+        0.044,
+        0.048,
+        0.056
+       ]
+      }
+     ]
+    },
+    {
+     "id": "navigator_corrosion",
+     "src": "Navigator",
+     "target": "self",
+     "cond": {
+      "es": "Al aplicar Corrosion a enemigos (valores base; se duplican si lo activa el portador)",
+      "en": "When Corrosion is applied to enemies (base values; doubled if triggered by the wielder)"
+     },
+     "trigger": {
+      "onApplyReaction": "corrosion"
+     },
+     "durS": 15,
+     "noStack": true,
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "cryo",
+       "byNode": [
+        0.035,
+        0.042,
+        0.049,
+        0.056,
+        0.063,
+        0.07,
+        0.077,
+        0.084,
+        0.098
+       ]
+      },
+      {
+       "type": "dmgAdd",
+       "element": "nature",
+       "byNode": [
+        0.035,
+        0.042,
+        0.049,
+        0.056,
+        0.063,
+        0.07,
+        0.077,
+        0.084,
+        0.098
+       ]
+      },
+      {
+       "type": "critRate",
+       "byNode": [
+        0.02,
+        0.024,
+        0.028,
+        0.032,
+        0.036,
+        0.04,
+        0.044,
+        0.048,
+        0.056
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "Lone Barge": {
+   "operator": "zhuangfangyi",
+   "passive": "Suppression: Streaming Blitz",
+   "buffs": [
+    {
+     "id": "lone_barge_electric_dealt",
+     "src": "Lone Barge",
+     "target": "self",
+     "cond": {
+      "es": "Electric DMG Dealt permanente.",
+      "en": "Permanent Electric DMG Dealt."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "electric",
+       "byNode": [
+        0.16,
+        0.192,
+        0.224,
+        0.256,
+        0.288,
+        0.32,
+        0.352,
+        0.384,
+        0.448
+       ]
+      }
+     ],
+     "permanent": true,
+     "replacesLeading": true
+    },
+    {
+     "id": "lone_barge_bs_on_consume",
+     "src": "Lone Barge",
+     "target": "self",
+     "cond": {
+      "es": "La habilidad de combate consume Reacciones de Arts.",
+      "en": "Battle skill consumes Arts Reactions."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "electric",
+       "slot": "battle_skill",
+       "byNode": [
+        0.2,
+        0.24,
+        0.28,
+        0.32,
+        0.36,
+        0.4,
+        0.44,
+        0.48,
+        0.56
+       ]
+      }
+     ],
+     "trigger": {
+      "onConsume": [
+       "combustion",
+       "electrification",
+       "solidification",
+       "corrosion"
+      ]
+     },
+     "durS": 20,
+     "noStack": true
+    },
+    {
+     "id": "lone_barge_bs_on_ult",
+     "src": "Lone Barge",
+     "target": "self",
+     "cond": {
+      "es": "Tras lanzar la definitiva.",
+      "en": "After casting ultimate."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "electric",
+       "slot": "battle_skill",
+       "byNode": [
+        0.4,
+        0.48,
+        0.56,
+        0.64,
+        0.72,
+        0.8,
+        0.88,
+        0.96,
+        1.12
+       ]
+      }
+     ],
+     "anchor": "ultimate",
+     "durS": 25,
+     "noStack": true
+    }
+   ]
+  },
+  "Delivery Guaranteed": {
+   "operator": "gilberta",
+   "passive": "Pursuit: Duty Fulfilled",
+   "buffs": [
+    {
+     "id": "delivery_guaranteed_nature",
+     "src": "Delivery Guaranteed",
+     "target": "self",
+     "cond": {
+      "es": "Bonus permanente de DMG Nature del portador.",
+      "en": "Wielder's permanent Nature DMG bonus."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "nature",
+       "byNode": [
+        0.16,
+        0.192,
+        0.224,
+        0.256,
+        0.288,
+        0.32,
+        0.352,
+        0.384,
+        0.448
+       ]
+      }
+     ],
+     "permanent": true,
+     "replacesLeading": true
+    },
+    {
+     "id": "delivery_guaranteed_lifted_team",
+     "src": "Delivery Guaranteed",
+     "target": "team",
+     "cond": {
+      "es": "Tras aplicar Lifted con la Habilidad de Combo del portador, el equipo gana DMG Arts.",
+      "en": "After the wielder's combo skill applies Lifted, the team gains Arts DMG."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "arts",
+       "byNode": [
+        0.12,
+        0.144,
+        0.168,
+        0.192,
+        0.216,
+        0.24,
+        0.264,
+        0.288,
+        0.336
+       ]
+      }
+     ],
+     "anchor": "combo_skill",
+     "durS": 15,
+     "noStack": true
+    }
+   ]
+  },
+  "Dreams of the Starry Beach": {
+   "operator": "ardelia",
+   "passive": "Infliction: Tidal Murmurs",
+   "buffs": [
+    {
+     "id": "dreams_starry_beach_arts_taken",
+     "src": "Dreams of the Starry Beach",
+     "target": "team",
+     "cond": {
+      "es": "Tras consumir Corrosión, el enemigo objetivo recibe +Daño Arts recibido durante 25s (no acumulable).",
+      "en": "After consuming Corrosion, target enemy suffers +Arts DMG Taken for 25s (does not stack)."
+     },
+     "mods": [
+      {
+       "type": "enemyDmgTaken",
+       "element": "arts",
+       "byNode": [
+        0.1,
+        0.12,
+        0.14,
+        0.16,
+        0.18,
+        0.2,
+        0.22,
+        0.24,
+        0.28
+       ]
+      }
+     ],
+     "trigger": {
+      "onConsume": [
+       "corrosion"
+      ]
+     },
+     "durS": 25,
+     "noStack": true
+    }
+   ]
+  },
+  "Oblivion": {
+   "operator": "",
+   "passive": "Twilight: Humiliation",
+   "buffs": [
+    {
+     "id": "oblivion_crit",
+     "src": "Oblivion",
+     "target": "self",
+     "cond": {
+      "es": "Aumento permanente de Prob. Crítica.",
+      "en": "Permanent Critical Rate increase."
+     },
+     "mods": [
+      {
+       "type": "critRate",
+       "byNode": [
+        0.05,
+        0.06,
+        0.07,
+        0.08,
+        0.09,
+        0.1,
+        0.11,
+        0.12,
+        0.14
+       ]
+      }
+     ],
+     "permanent": true,
+     "replacesLeading": true
+    },
+    {
+     "id": "oblivion_ult_arts",
+     "src": "Oblivion",
+     "target": "self",
+     "cond": {
+      "es": "Tras lanzar el Ultimate: Daño de Artes aumentado durante 15s.",
+      "en": "After casting Ultimate: Arts DMG dealt increased for 15s."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "arts",
+       "byNode": [
+        0.24,
+        0.288,
+        0.336,
+        0.384,
+        0.432,
+        0.48,
+        0.528,
+        0.576,
+        0.672
+       ]
+      }
+     ],
+     "anchor": "ultimate",
+     "durS": 15,
+     "noStack": true
+    },
+    {
+     "id": "oblivion_combo_arts",
+     "src": "Oblivion",
+     "target": "self",
+     "cond": {
+      "es": "Tras lanzar la Habilidad de Combo: Daño de Artes aumentado durante 15s.",
+      "en": "After casting Combo Skill: Arts DMG dealt increased for 15s."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "arts",
+       "byNode": [
+        0.12,
+        0.144,
+        0.168,
+        0.192,
+        0.216,
+        0.24,
+        0.264,
+        0.288,
+        0.336
+       ]
+      }
+     ],
+     "anchor": "combo_skill",
+     "durS": 15,
+     "noStack": true
+    }
+   ]
+  },
+  "Opus: Etch Figure": {
+   "operator": "",
+   "passive": "Suppression: Tillite Etchings",
+   "buffs": [
+    {
+     "id": "opus_etch_atk",
+     "src": "Opus: Etch Figure",
+     "target": "self",
+     "cond": {
+      "es": "Pasiva del arma (permanente).",
+      "en": "Weapon passive (permanent)."
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.07,
+        0.084,
+        0.098,
+        0.112,
+        0.126,
+        0.14,
+        0.154,
+        0.168,
+        0.196
+       ]
+      }
+     ],
+     "permanent": true,
+     "replacesLeading": true
+    },
+    {
+     "id": "opus_etch_arts",
+     "src": "Opus: Etch Figure",
+     "target": "team",
+     "cond": {
+      "es": "Cuando la Habilidad de Combate del portador aplica Aflicción Naturaleza.",
+      "en": "When the wielder's Battle Skill applies a Nature Infliction."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "arts",
+       "byNode": [
+        0.05,
+        0.06,
+        0.07,
+        0.08,
+        0.09,
+        0.1,
+        0.11,
+        0.12,
+        0.14
+       ]
+      }
+     ],
+     "trigger": {
+      "onApplyInfliction": "nature_infl"
+     },
+     "durS": 15,
+     "noStack": true
+    }
+   ]
+  },
+  "Finchaser 3.0": {
+   "operator": "",
+   "passive": "Suppression: Fin Chaser's Intent",
+   "buffs": [
+    {
+     "id": "finchaser3_atk",
+     "src": "Finchaser 3.0",
+     "target": "self",
+     "cond": {
+      "es": "Siempre activo",
+      "en": "Always active"
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.05,
+        0.06,
+        0.07,
+        0.08,
+        0.09,
+        0.1,
+        0.11,
+        0.12,
+        0.14
+       ]
+      }
+     ],
+     "permanent": true,
+     "replacesLeading": true
+    },
+    {
+     "id": "finchaser3_cryo_taken",
+     "src": "Finchaser 3.0",
+     "target": "team",
+     "cond": {
+      "es": "Cuando la habilidad de combate del portador aplica Solidificacion",
+      "en": "When the wielder's Battle Skill applies Solidification"
+     },
+     "mods": [
+      {
+       "type": "enemyDmgTaken",
+       "element": "cryo",
+       "byNode": [
+        0.07,
+        0.084,
+        0.098,
+        0.112,
+        0.126,
+        0.14,
+        0.154,
+        0.168,
+        0.196
+       ]
+      }
+     ],
+     "trigger": {
+      "onApplyReaction": "solidification"
+     },
+     "durS": 15,
+     "noStack": true
+    }
+   ]
+  },
+  "Fortmaker": {
+   "operator": "",
+   "passive": "Inspiring: Back to the Broken City",
+   "buffs": [
+    {
+     "id": "fortmaker_leading",
+     "src": "Fortmaker",
+     "target": "self",
+     "cond": {
+      "es": "Siempre activo",
+      "en": "Always active"
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.05,
+        0.06,
+        0.07,
+        0.08,
+        0.09,
+        0.1,
+        0.11,
+        0.12,
+        0.14
+       ]
+      }
+     ],
+     "permanent": true,
+     "replacesLeading": true
+    },
+    {
+     "id": "fortmaker_ai",
+     "src": "Fortmaker",
+     "target": "self",
+     "cond": {
+      "es": "Arts Intensity +valor por nodo (2ª oración de la pasiva — antes se perdía).",
+      "en": "Arts Intensity +value by node (2nd sentence of the passive — previously lost)."
+     },
+     "mods": [
+      {
+       "type": "artsInt",
+       "byNode": [
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+        60,
+        70
+       ]
+      }
+     ],
+     "permanent": true
+    }
+   ]
+  },
+  "OBJ Edge of Lightness": {
+   "operator": "",
+   "passive": "Flow: Unbridled Edge",
+   "buffs": [
+    {
+     "id": "obj_edge_of_lightness_sp",
+     "src": "OBJ Edge of Lightness",
+     "target": "team",
+     "cond": {
+      "es": "Tras recuperar SP con la habilidad del portador, el equipo gana Daño Heat y Daño Electric +8.4% por 20s (hasta 3 acumulaciones independientes).",
+      "en": "After the wielder recovers SP by their own skill, the entire team gains Heat DMG Dealt and Electric DMG Dealt +8.4% for 20s (up to 3 separately-counted stacks)."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "heat",
+       "byNode": [
+        0.03,
+        0.036,
+        0.042,
+        0.048,
+        0.054,
+        0.06,
+        0.066,
+        0.072,
+        0.084
+       ]
+      },
+      {
+       "type": "dmgAdd",
+       "element": "electric",
+       "byNode": [
+        0.03,
+        0.036,
+        0.042,
+        0.048,
+        0.054,
+        0.06,
+        0.066,
+        0.072,
+        0.084
+       ]
+      }
+     ],
+     "trigger": {
+      "onSpRecover": true
+     },
+     "durS": 20,
+     "noStack": true
+    }
+   ]
+  },
+  "Sundering Steel": {
+   "operator": "",
+   "passive": "Combative: Anthem of Cinder",
+   "buffs": [
+    {
+     "id": "sundering_steel_atk",
+     "src": "Sundering Steel",
+     "target": "self",
+     "cond": {
+      "es": "ATK base del arma",
+      "en": "Base weapon ATK"
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.05,
+        0.06,
+        0.07,
+        0.08,
+        0.09,
+        0.1,
+        0.11,
+        0.12,
+        0.14
+       ]
+      }
+     ],
+     "permanent": true,
+     "replacesLeading": true
+    },
+    {
+     "id": "sundering_steel_physstatus",
+     "src": "Sundering Steel",
+     "target": "self",
+     "cond": {
+      "es": "Tras infligir un Estado Fisico",
+      "en": "After dealing a Physical Status"
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.075,
+        0.09,
+        0.105,
+        0.12,
+        0.135,
+        0.15,
+        0.165,
+        0.18,
+        0.21
+       ]
+      }
+     ],
+     "trigger": {
+      "onApplyInfliction": "physical_infl"
+     },
+     "durS": 20,
+     "noStack": true
+    }
+   ]
+  },
+  "Twelve Questions": {
+   "operator": "",
+   "passive": "Infliction: Sincere Interrogation",
+   "buffs": [
+    {
+     "id": "twelve_questions_atk",
+     "src": "Twelve Questions",
+     "target": "self",
+     "cond": {
+      "es": "Tras consumir una Reacción de Arts, ATK +N% durante 20s (máx. 2 acumulaciones, duración por separado)",
+      "en": "After consuming an Arts Reaction, ATK +N% for 20s (max 2 stacks, durations counted separately)"
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.075,
+        0.09,
+        0.105,
+        0.12,
+        0.135,
+        0.15,
+        0.165,
+        0.18,
+        0.21
+       ]
+      }
+     ],
+     "trigger": {
+      "onConsume": [
+       "electrification",
+       "corrosion",
+       "solidification",
+       "combustion"
+      ]
+     },
+     "durS": 20,
+     "noStack": true
+    }
+   ]
+  },
+  "Cohesive Traction": {
+   "operator": "",
+   "passive": "Suppression: Concentric Circles",
+   "buffs": [
+    {
+     "id": "cohesive_traction_combo_dmg",
+     "src": "Cohesive Traction",
+     "target": "self",
+     "cond": {
+      "es": "Aumento permanente de DMG de Habilidad de Combo",
+      "en": "Permanent Combo Skill DMG dealt boost"
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "slot": "combo_skill",
+       "byNode": [
+        0.1,
+        0.12,
+        0.14,
+        0.16,
+        0.18,
+        0.2,
+        0.22,
+        0.24,
+        0.28
+       ]
+      }
+     ],
+     "permanent": true,
+     "replacesLeading": true
+    },
+    {
+     "id": "cohesive_traction_combo_next_bs",
+     "src": "Cohesive Traction",
+     "target": "self",
+     "cond": {
+      "es": "Tras usar Habilidad de Combo, la siguiente Habilidad de Batalla gana DMG de Electricidad (30s, acumula 3)",
+      "en": "After casting a Combo Skill, the next Battle Skill gains Electric DMG dealt (30s, stacks to 3)"
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "electric",
+       "slot": "battle_skill",
+       "byNode": [
+        0.1,
+        0.12,
+        0.14,
+        0.16,
+        0.18,
+        0.2,
+        0.22,
+        0.24,
+        0.28
+       ]
+      }
+     ],
+     "trigger": {
+      "onCast": "combo_skill",
+      "untilNext": "battle_skill",
+      "maxStacks": 3
+     },
+     "durS": 30
+    }
+   ]
+  },
+  "OBJ Razorhorn": {
+   "operator": "estella",
+   "passive": "Infliction: Conquest of Icy Peaks",
+   "buffs": [
+    {
+     "id": "obj_razorhorn_solid_atk",
+     "src": "OBJ Razorhorn",
+     "target": "self",
+     "cond": {
+      "es": "Tras consumir Solidificacion: ATK +33.6% durante 15s",
+      "en": "After consuming Solidification: ATK +33.6% for 15s"
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.12,
+        0.144,
+        0.168,
+        0.192,
+        0.216,
+        0.24,
+        0.264,
+        0.288,
+        0.336
+       ]
+      }
+     ],
+     "trigger": {
+      "onConsume": [
+       "solidification"
+      ]
+     },
+     "durS": 15,
+     "noStack": true
+    }
+   ]
+  },
+  "Stanza of Memorials": {
+   "operator": "",
+   "passive": "Twilight: Lustrous Pyre",
+   "buffs": [
+    {
+     "id": "stanza_ult_atk",
+     "src": "Stanza of Memorials",
+     "target": "team",
+     "cond": {
+      "es": "Tras el Ultimate del portador, los operadores de OTRO elemento que el portador ganan ATK +[máx +22.4%] 20s. No acumulable (efectos del mismo nombre). BiS F2P de Ardelia/Gilberta (Nature): buffea a todo el equipo no-Nature.",
+      "en": "After the wielder casts an Ultimate, operators whose element differs from the wielder gain ATK +[max +22.4%] for 20s. Effects of the same name cannot stack. F2P BiS for Ardelia/Gilberta (Nature): buffs the whole non-Nature team."
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.08,
+        0.096,
+        0.112,
+        0.128,
+        0.144,
+        0.16,
+        0.176,
+        0.192,
+        0.224
+       ]
+      }
+     ],
+     "anchor": "ultimate",
+     "durS": 20,
+     "noStack": true,
+     "teamElementDiff": true
+    }
+   ]
+  },
+  "Umbral Torch": {
+   "operator": "",
+   "passive": "Infliction: Covetous Buildup",
+   "buffs": [
+    {
+     "id": "umbral_torch_atk",
+     "src": "Covetous Buildup (permanent)",
+     "target": "self",
+     "permanent": true,
+     "replacesLeading": true,
+     "cond": {
+      "es": "ATK permanente de la pasiva (escala por nodo de esencia).",
+      "en": "Permanent ATK from the passive (scales per essence node)."
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.07,
+        0.084,
+        0.098,
+        0.112,
+        0.126,
+        0.14,
+        0.154,
+        0.168,
+        0.196
+       ]
+      }
+     ]
+    },
+    {
+     "id": "umbral_torch_covetous",
+     "src": "Covetous Buildup",
+     "target": "self",
+     "trigger": {
+      "onApplyReaction": [
+       "combustion",
+       "corrosion"
+      ]
+     },
+     "durS": 20,
+     "noStack": true,
+     "cond": {
+      "es": "Cuando se aplica Combustion o Corrosion a un enemigo, el portador gana Heat DMG Dealt y Nature DMG Dealt +valor por 20s. Max 2 stacks (duracion contada por separado); solo se activa una vez cada 0.1s.",
+      "en": "Whenever Combustion or Corrosion is applied to an enemy, the wielder gains Heat and Nature DMG Dealt +value for 20s. Max 2 stacks (duration counted separately); triggers once every 0.1s."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "heat",
+       "byNode": [
+        0.08,
+        0.096,
+        0.112,
+        0.128,
+        0.144,
+        0.16,
+        0.176,
+        0.192,
+        0.224
+       ]
+      },
+      {
+       "type": "dmgAdd",
+       "element": "nature",
+       "byNode": [
+        0.08,
+        0.096,
+        0.112,
+        0.128,
+        0.144,
+        0.16,
+        0.176,
+        0.192,
+        0.224
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "White Night Nova": {
+   "operator": null,
+   "passive": "Arts DMG Bonus: +19.20%. After the wielder applies Combustion or Electrification, the wielder gains Arts DMG dealt +19.2% and Arts Intensity +40 for 15s. Effects of the same name cannot stack.",
+   "buffs": [
+    {
+     "id": "wpn_sword_0014_arts_flat",
+     "src": "White Night Nova",
+     "target": "self",
+     "cond": {
+      "es": "Bonif. de DMG de Artes permanente.",
+      "en": "Permanent Arts DMG Dealt bonus."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "arts",
+       "byNode": [
+        0.12,
+        0.144,
+        0.168,
+        0.192,
+        0.216,
+        0.24,
+        0.264,
+        0.288,
+        0.336
+       ]
+      }
+     ],
+     "permanent": true,
+     "replacesLeading": true
+    },
+    {
+     "id": "wpn_sword_0014_arts_react",
+     "src": "White Night Nova",
+     "target": "self",
+     "cond": {
+      "es": "Tras aplicar Combustion o Electrification, DMG de Artes durante 15s (no acumula).",
+      "en": "After applying Combustion or Electrification, Arts DMG Dealt for 15s (no stack)."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "arts",
+       "byNode": [
+        0.12,
+        0.144,
+        0.168,
+        0.192,
+        0.216,
+        0.24,
+        0.264,
+        0.288,
+        0.336
+       ]
+      }
+     ],
+     "trigger": {
+      "onApplyReaction": [
+       "combustion",
+       "electrification"
+      ]
+     },
+     "durS": 15,
+     "noStack": true
+    }
+   ],
+   "deferredWindows": [
+    {
+     "window": "On applying Combustion or Electrification, wielder also gains Arts Intensity +N for 15s (node-4 +40, node-9 +70)",
+     "reason": "no artsInt mod type"
+    }
+   ]
+  },
+  "Wedge": {
+   "operator": null,
+   "passive": "Arts DMG Dealt +33.6%. After the wielder casts a Battle Skill, the wielder gains Arts DMG Dealt +22.4% for 15s. When the wielder's Battle Skill applies an Arts Reaction, the wielder gains Arts DMG Dealt +44.8% for 15s. The two effects apply separately and do not stack with themselves.",
+   "buffs": [
+    {
+     "id": "wedge_base_arts",
+     "src": "Wedge",
+     "target": "self",
+     "cond": {
+      "es": "Bonus permanente de daño Arts",
+      "en": "Permanent Arts DMG Dealt bonus"
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "arts",
+       "byNode": [
+        0.12,
+        0.144,
+        0.168,
+        0.192,
+        0.216,
+        0.24,
+        0.264,
+        0.288,
+        0.336
+       ]
+      }
+     ],
+     "permanent": true,
+     "replacesLeading": true
+    },
+    {
+     "id": "wedge_bs_cast",
+     "src": "Wedge",
+     "target": "self",
+     "cond": {
+      "es": "Tras lanzar una Habilidad de Combate",
+      "en": "After casting a Battle Skill"
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "arts",
+       "byNode": [
+        0.08,
+        0.096,
+        0.112,
+        0.128,
+        0.144,
+        0.16,
+        0.176,
+        0.192,
+        0.224
+       ]
+      }
+     ],
+     "anchor": "battle_skill",
+     "durS": 15,
+     "noStack": true
+    },
+    {
+     "id": "wedge_bs_reaction",
+     "src": "Wedge",
+     "target": "self",
+     "cond": {
+      "es": "Cuando la Habilidad de Combate aplica una Reacción Arts",
+      "en": "When the Battle Skill applies an Arts Reaction"
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "arts",
+       "byNode": [
+        0.16,
+        0.192,
+        0.224,
+        0.256,
+        0.288,
+        0.32,
+        0.352,
+        0.384,
+        0.448
+       ]
+      }
+     ],
+     "trigger": {
+      "onApplyReaction": [
+       "combustion",
+       "electrification",
+       "solidification",
+       "corrosion"
+      ]
+     },
+     "durS": 15,
+     "noStack": true
+    }
+   ]
+  },
+  "Beacon of Duty": {
+   "operator": null,
+   "passive": "Heat DMG Bonus: +19.6%. When the wielder's skill applies Heat Infliction, the wielder gains Physical and Heat DMG dealt +22.4% for 20s. When the wielder's skill applies Heat Susceptibility, the entire team gains Physical and Heat DMG dealt +11.2% for 30s. The two effects apply separately and do not stack with themselves.",
+   "buffs": [
+    {
+     "id": "wpn_lance_beacon_heat_lead",
+     "src": "Beacon of Duty",
+     "target": "self",
+     "cond": {
+      "es": "Bono permanente de daño Heat",
+      "en": "Permanent Heat DMG bonus"
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "heat",
+       "byNode": [
+        0.07,
+        0.084,
+        0.098,
+        0.112,
+        0.126,
+        0.14,
+        0.154,
+        0.168,
+        0.196
+       ]
+      }
+     ],
+     "permanent": true,
+     "replacesLeading": true
+    },
+    {
+     "id": "wpn_lance_beacon_heat_infl",
+     "src": "Beacon of Duty",
+     "target": "self",
+     "cond": {
+      "es": "Cuando la skill del portador aplica Heat Infliction",
+      "en": "When the wielder's skill applies Heat Infliction"
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "physical",
+       "byNode": [
+        0.08,
+        0.096,
+        0.112,
+        0.128,
+        0.144,
+        0.16,
+        0.176,
+        0.192,
+        0.224
+       ]
+      },
+      {
+       "type": "dmgAdd",
+       "element": "heat",
+       "byNode": [
+        0.08,
+        0.096,
+        0.112,
+        0.128,
+        0.144,
+        0.16,
+        0.176,
+        0.192,
+        0.224
+       ]
+      }
+     ],
+     "trigger": {
+      "onApplyInfliction": "heat_infl"
+     },
+     "durS": 20,
+     "noStack": true
+    }
+   ],
+   "deferredWindows": [
+    {
+     "cond": {
+      "es": "Cuando la skill del portador aplica Heat Susceptibility, todo el equipo gana Physical y Heat DMG Dealt +11.2% durante 30s",
+      "en": "When the wielder's skill applies Heat Susceptibility, the entire team gains Physical and Heat DMG Dealt +11.2% for 30s"
+     },
+     "target": "team",
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "physical",
+       "byNode": [
+        4,
+        4.8,
+        5.6,
+        6.4,
+        7.2,
+        8,
+        8.8,
+        9.6,
+        11.2
+       ]
+      },
+      {
+       "type": "dmgAdd",
+       "element": "heat",
+       "byNode": [
+        4,
+        4.8,
+        5.6,
+        6.4,
+        7.2,
+        8,
+        8.8,
+        9.6,
+        11.2
+       ]
+      }
+     ],
+     "durS": 30,
+     "reason": "gate = wielder APPLIES Heat Susceptibility; onApplyBuff (applying a Susceptibility) is a still-missing primitive"
+    }
+   ]
+  },
+  "Rapid Ascent": {
+   "operator": "",
+   "passive": "Twilight: Azure Clouds",
+   "buffs": [
+    {
+     "id": "rapid_ascent_phys_bs_ult",
+     "src": "Rapid Ascent",
+     "target": "self",
+     "cond": {
+      "es": "Habilidades de combate y definitivas ganan Daño Físico infligido +N%",
+      "en": "Battle Skills and Ultimates gain Physical DMG Dealt +N%"
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "physical",
+       "slot": "battle_skill",
+       "byNode": [
+        0.15,
+        0.18,
+        0.21,
+        0.24,
+        0.27,
+        0.3,
+        0.33,
+        0.36,
+        0.42
+       ]
+      },
+      {
+       "type": "dmgAdd",
+       "element": "physical",
+       "slot": "ultimate",
+       "byNode": [
+        0.15,
+        0.18,
+        0.21,
+        0.24,
+        0.27,
+        0.3,
+        0.33,
+        0.36,
+        0.42
+       ]
+      }
+     ],
+     "permanent": true,
+     "replacesLeading": true
+    }
+   ],
+   "deferredWindows": [
+    {
+     "cond": {
+      "es": "Contra enemigos Aturdidos, las habilidades de combate y definitivas también ganan Daño infligido +N%",
+      "en": "Against Staggered enemies, Battle Skills and Ultimates also gain DMG Dealt +N%"
+     },
+     "byNode": [
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      110,
+      120,
+      140
+     ],
+     "reason": "enemy-state gate (Staggered) — whenState for enemy states not reliable yet"
+    }
+   ]
+  },
+  "Glorious Memory": {
+   "operator": null,
+   "passive": "ATK +19.6%. When the wielder's skill applies Vulnerability, during the next ultimate cast within 30s, the wielder gains DMG Dealt +33.6%. Max stacks for effects of the same name: 3. Duration of each stack is counted separately. Effect is only triggered once every 0.5s.",
+   "buffs": [
+    {
+     "id": "wpn_sword_0017_atk",
+     "src": "Glorious Memory",
+     "target": "self",
+     "cond": {
+      "es": "Siempre activo",
+      "en": "Always active"
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.07,
+        0.084,
+        0.098,
+        0.112,
+        0.126,
+        0.14,
+        0.154,
+        0.168,
+        0.196
+       ]
+      }
+     ],
+     "permanent": true,
+     "replacesLeading": true
+    }
+   ],
+   "deferredWindows": [
+    {
+     "desc": "When the wielder's skill applies Vulnerability, during the next ultimate cast within 30s: DMG Dealt +33.6% (dmgAdd). Max 3 stacks (separately timed), triggers once/0.5s.",
+     "byNode": [
+      12,
+      14.4,
+      16.8,
+      19.2,
+      21.6,
+      24,
+      26.4,
+      28.8,
+      33.6
+     ],
+     "reason": "next-Ultimate anchor gated on APPLYING Vulnerability — requires onApplyBuff primitive (applying a Susceptibility/Vulnerability is not supported; it is not a reaction so cannot map to onApplyReaction+anchor)"
+    }
+   ]
+  },
+  "Opus: The Living": {
+   "operator": null,
+   "passive": "Critical Rate: +8.40%. After the wielder applies an Arts Reaction, ATK +21% for 20s. Max stacks for effects of the same name: 2. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+   "buffs": [
+    {
+     "id": "opus_the_living_critrate",
+     "src": "Opus: The Living",
+     "target": "self",
+     "cond": {
+      "es": "Siempre activo",
+      "en": "Always active"
+     },
+     "mods": [
+      {
+       "type": "critRate",
+       "byNode": [
+        0.03,
+        0.036,
+        0.042,
+        0.048,
+        0.054,
+        0.06,
+        0.066,
+        0.072,
+        0.084
+       ]
+      }
+     ],
+     "permanent": true,
+     "replacesLeading": true
+    },
+    {
+     "id": "opus_the_living_reaction_atk",
+     "src": "Opus: The Living",
+     "target": "self",
+     "cond": {
+      "es": "Tras aplicar una Reaccion de Artes; hasta 2 acumulaciones (duracion por acumulacion)",
+      "en": "After the wielder applies an Arts Reaction; up to 2 stacks (each stack timed separately)"
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.075,
+        0.09,
+        0.105,
+        0.12,
+        0.135,
+        0.15,
+        0.165,
+        0.18,
+        0.21
+       ]
+      }
+     ],
+     "trigger": {
+      "onApplyReaction": [
+       "combustion",
+       "electrification",
+       "solidification",
+       "corrosion"
+      ]
+     },
+     "durS": 20
+    }
+   ]
+  },
+  "Rational Farewell": {
+   "operator": null,
+   "passive": "Battle Skill DMG Bonus: +28%. After the wielder's combo skill applies Arts Burst or Combusted, ATK +44.8% for 15s. Effects of the same name cannot stack.",
+   "buffs": [
+    {
+     "id": "rational_farewell_bs_dmg",
+     "src": "Rational Farewell",
+     "target": "self",
+     "cond": {
+      "es": "Bonificacion de dano de Habilidad de Combate",
+      "en": "Battle Skill DMG Dealt"
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "slot": "battle_skill",
+       "byNode": [
+        0.1,
+        0.12,
+        0.14,
+        0.16,
+        0.18,
+        0.2,
+        0.22,
+        0.24,
+        0.28
+       ]
+      }
+     ],
+     "permanent": true
+    },
+    {
+     "id": "rational_farewell_burst",
+     "src": "Rational Farewell",
+     "target": "self",
+     "cond": {
+      "es": "Cuando el combo aplica Arts Burst o Combustion: ATK +valor 15s (no acumula).",
+      "en": "When the combo applies Arts Burst or Combustion: ATK +value for 15s (non-stacking)."
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.16,
+        0.192,
+        0.224,
+        0.256,
+        0.288,
+        0.32,
+        0.352,
+        0.384,
+        0.448
+       ]
+      }
+     ],
+     "trigger": {
+      "onApplyReaction": [
+       "burst",
+       "combustion"
+      ]
+     },
+     "durS": 15,
+     "noStack": true
+    }
+   ]
+  },
+  "Detonation Unit": {
+   "operator": "",
+   "passive": "Detonate: Imposing Champion",
+   "buffs": [
+    {
+     "id": "detonation_unit_burst",
+     "src": "Detonation Unit",
+     "target": "team",
+     "cond": {
+      "es": "Al aplicar un Arts Burst: el enemigo recibe +Arts DMG 15s (no acumula).",
+      "en": "On applying an Arts Burst: the enemy takes +Arts DMG for 15s (non-stacking)."
+     },
+     "mods": [
+      {
+       "type": "enemyDmgTaken",
+       "element": "arts",
+       "byNode": [
+        0.09,
+        0.108,
+        0.126,
+        0.144,
+        0.162,
+        0.18,
+        0.198,
+        0.216,
+        0.252
+       ]
+      }
+     ],
+     "trigger": {
+      "onApplyReaction": "burst"
+     },
+     "durS": 15,
+     "noStack": true
+    }
+   ]
+  },
+  "Seeker of Dark Lung": {
+   "operator": "",
+   "passive": "Detonate: Seeker of the Esoteric",
+   "buffs": [
+    {
+     "id": "seeker_dark_lung_burst",
+     "src": "Seeker of Dark Lung",
+     "target": "self",
+     "cond": {
+      "es": "Al aplicar un Arts Burst: ATK +valor por 30s (máx 3 stacks; el cálculo cuenta 1).",
+      "en": "On applying an Arts Burst: ATK +value for 30s (max 3 stacks; the calculation counts 1)."
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.06,
+        0.072,
+        0.084,
+        0.096,
+        0.108,
+        0.12,
+        0.132,
+        0.144,
+        0.168
+       ]
+      }
+     ],
+     "trigger": {
+      "onApplyReaction": "burst"
+     },
+     "durS": 30,
+     "noStack": true
+    }
+   ]
+  },
+  "OBJ Arts Identifier": {
+   "operator": "",
+   "passive": "Pursuit: Transcendent Arts",
+   "buffs": [
+    {
+     "id": "obj_arts_identifier_burst",
+     "src": "OBJ Arts Identifier",
+     "target": "team",
+     "cond": {
+      "es": "Al aplicar Arts Burst o un Estado Físico (Crush/Breach): equipo +Heat y +Electric DMG 15s (no acumula).",
+      "en": "On applying Arts Burst or a Physical Status (Crush/Breach): team +Heat and +Electric DMG for 15s (non-stacking)."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "heat",
+       "byNode": [
+        0.08,
+        0.096,
+        0.112,
+        0.128,
+        0.144,
+        0.16,
+        0.176,
+        0.192,
+        0.224
+       ]
+      },
+      {
+       "type": "dmgAdd",
+       "element": "electric",
+       "byNode": [
+        0.08,
+        0.096,
+        0.112,
+        0.128,
+        0.144,
+        0.16,
+        0.176,
+        0.192,
+        0.224
+       ]
+      }
+     ],
+     "trigger": {
+      "onApplyReaction": [
+       "burst",
+       "crush",
+       "breach"
+      ]
+     },
+     "durS": 15,
+     "noStack": true
+    }
+   ]
+  },
+  "Sundered Prince": {
+   "operator": "",
+   "passive": "Crusher: Princely Deterrence",
+   "buffs": [
+    {
+     "id": "sundered_prince_finalstrike",
+     "src": "Sundered Prince",
+     "target": "self",
+     "cond": {
+      "es": "Tras un Final Strike: ATK +valor por 8s (no acumula). El doble + Stagger del operador controlado no está incluido en el cálculo.",
+      "en": "After a Final Strike: ATK +value for 8s (non-stacking). The controlled operator's doubled value + Stagger is not included in the calculation."
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.1,
+        0.12,
+        0.14,
+        0.16,
+        0.18,
+        0.2,
+        0.22,
+        0.24,
+        0.28
+       ]
+      }
+     ],
+     "trigger": {
+      "onFinalStrike": true
+     },
+     "durS": 8,
+     "noStack": true
+    }
+   ]
+  },
+  "Eminent Repute": {
+   "operator": "pogranichnik",
+   "passive": "Brutality: Disciplinarian",
+   "buffs": [
+    {
+     "id": "eminent_repute_atk",
+     "src": "Eminent Repute",
+     "target": "self",
+     "cond": {
+      "es": "ATK +valor (término inicial de la pasiva, por nodo).",
+      "en": "ATK +value (leading term of the passive, by node)."
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.1,
+        0.12,
+        0.14,
+        0.16,
+        0.18,
+        0.2,
+        0.22,
+        0.24,
+        0.28
+       ]
+      }
+     ],
+     "permanent": true,
+     "replacesLeading": true
+    },
+    {
+     "id": "eminent_repute_consume",
+     "src": "Eminent Repute",
+     "target": "self",
+     "cond": {
+      "es": "Al consumir Vulnerability (Crush/Breach): portador ATK +[8%+4%×stacks] (nodo 4), 20s, no acumula. Modelado mitad self + mitad team (el portador suma ambas = total del texto).",
+      "en": "On consuming Vulnerability (Crush/Breach): wielder ATK +[8%+4%×stacks] (node 4), 20s, non-stacking. Modeled half self + half team (the wielder adds both = the text's total)."
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "perStack": {
+        "base": [
+         0.025,
+         0.03,
+         0.035,
+         0.04,
+         0.045,
+         0.05,
+         0.055,
+         0.06,
+         0.07
+        ],
+        "per": [
+         0.0125,
+         0.015,
+         0.0175,
+         0.02,
+         0.0225,
+         0.025,
+         0.0275,
+         0.03,
+         0.035
+        ]
+       }
+      }
+     ],
+     "trigger": {
+      "onApplyReaction": [
+       "crush",
+       "breach"
+      ]
+     },
+     "durS": 20,
+     "noStack": true
+    },
+    {
+     "id": "eminent_repute_consume_team",
+     "src": "Eminent Repute",
+     "target": "team",
+     "cond": {
+      "es": "El resto del equipo gana la MITAD del buff: ATK +[4%+2%×stacks] (nodo 4), 20s, no acumula.",
+      "en": "The rest of the team gains HALF the buff: ATK +[4%+2%×stacks] (node 4), 20s, non-stacking."
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "perStack": {
+        "base": [
+         0.025,
+         0.03,
+         0.035,
+         0.04,
+         0.045,
+         0.05,
+         0.055,
+         0.06,
+         0.07
+        ],
+        "per": [
+         0.0125,
+         0.015,
+         0.0175,
+         0.02,
+         0.0225,
+         0.025,
+         0.0275,
+         0.03,
+         0.035
+        ]
+       }
+      }
+     ],
+     "trigger": {
+      "onApplyReaction": [
+       "crush",
+       "breach"
+      ]
+     },
+     "durS": 20,
+     "noStack": true
+    }
+   ]
+  },
+  "Amaranthine Tassel": {
+   "operator": "dapan",
+   "passive": "Combative: Amaranthine Cleave",
+   "buffs": [
+    {
+     "id": "amaranthine_phys",
+     "src": "Amaranthine Tassel",
+     "target": "self",
+     "cond": {
+      "es": "Physical DMG Dealt +valor (término inicial de la pasiva, por nodo).",
+      "en": "Physical DMG Dealt +value (leading term of the passive, by node)."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "physical",
+       "byNode": [
+        0.16,
+        0.192,
+        0.224,
+        0.256,
+        0.288,
+        0.32,
+        0.352,
+        0.384,
+        0.448
+       ]
+      }
+     ],
+     "permanent": true,
+     "replacesLeading": true
+    },
+    {
+     "id": "amaranthine_crush",
+     "src": "Amaranthine Tassel",
+     "target": "self",
+     "cond": {
+      "es": "Al aplicar Crush: Physical DMG +[base+per×stacks consumidos] 30s (no acumula). AI+84 al aplicar Phys Susceptibility: diferida.",
+      "en": "On applying Crush: Physical DMG +[base+per×stacks consumed] 30s (non-stacking). AI+84 on Phys Susceptibility: deferred."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "physical",
+       "perStack": {
+        "base": [
+         0.09,
+         0.108,
+         0.126,
+         0.144,
+         0.162,
+         0.18,
+         0.198,
+         0.216,
+         0.252
+        ],
+        "per": [
+         0.03,
+         0.036,
+         0.042,
+         0.048,
+         0.054,
+         0.06,
+         0.066,
+         0.072,
+         0.084
+        ]
+       }
+      }
+     ],
+     "trigger": {
+      "onApplyReaction": "crush"
+     },
+     "durS": 30,
+     "noStack": true
+    }
+   ]
+  },
+  "Ancient Canal": {
+   "operator": "dapan",
+   "passive": "Brutality: Lands of Yore",
+   "buffs": [
+    {
+     "id": "ancient_canal_ai",
+     "src": "Ancient Canal",
+     "target": "self",
+     "cond": {
+      "es": "Arts Intensity +valor (término inicial de la pasiva, por nodo).",
+      "en": "Arts Intensity +value (leading term of the passive, per node)."
+     },
+     "mods": [
+      {
+       "type": "artsInt",
+       "byNode": [
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        28
+       ]
+      }
+     ],
+     "permanent": true,
+     "replacesLeading": true
+    },
+    {
+     "id": "ancient_canal_consume",
+     "src": "Ancient Canal",
+     "target": "self",
+     "cond": {
+      "es": "Al consumir Vulnerability (Crush/Breach): Physical DMG +[per×stacks] 20s (no acumula).",
+      "en": "On consuming Vulnerability (Crush/Breach): Physical DMG +[per×stacks] 20s (non-stacking)."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "physical",
+       "perStack": {
+        "base": 0,
+        "per": [
+         0.05,
+         0.06,
+         0.07,
+         0.08,
+         0.09,
+         0.1,
+         0.11,
+         0.12,
+         0.14
+        ]
+       }
+      }
+     ],
+     "trigger": {
+      "onApplyReaction": [
+       "crush",
+       "breach"
+      ]
+     },
+     "durS": 20,
+     "noStack": true
+    }
+   ]
+  },
+  "OBJ Velocitous": {
+   "operator": "yvonne",
+   "passive": "Detonate: Rapid Strike",
+   "buffs": [
+    {
+     "id": "obj_velocitous_atk",
+     "src": "OBJ Velocitous",
+     "target": "self",
+     "cond": {
+      "es": "ATK +valor (término inicial de la pasiva, por nodo).",
+      "en": "ATK +value (leading term of the passive, by node)."
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.05,
+        0.06,
+        0.07,
+        0.08,
+        0.09,
+        0.1,
+        0.11,
+        0.12,
+        0.14
+       ]
+      }
+     ],
+     "permanent": true,
+     "replacesLeading": true
+    },
+    {
+     "id": "obj_velocitous_consume",
+     "src": "OBJ Velocitous",
+     "target": "self",
+     "cond": {
+      "es": "Al consumir una Arts Infliction (cualquier reacción Arts): Nature DMG +[per×stacks consumidos] 20s (no acumula).",
+      "en": "On consuming an Arts Infliction (any Arts reaction): Nature DMG +[per×stacks consumed] 20s (non-stacking)."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "nature",
+       "perStack": {
+        "base": 0,
+        "per": [
+         0.05,
+         0.06,
+         0.07,
+         0.08,
+         0.09,
+         0.1,
+         0.11,
+         0.12,
+         0.14
+        ]
+       }
+      }
+     ],
+     "trigger": {
+      "onApplyReaction": [
+       "combustion",
+       "electrification",
+       "solidification",
+       "corrosion"
+      ]
+     },
+     "durS": 20,
+     "noStack": true
+    }
+   ]
+  },
+  "Valiant": {
+   "operator": "",
+   "passive": "Combative: Virtuous Gain",
+   "buffs": [
+    {
+     "id": "valiant_atk",
+     "src": "Valiant",
+     "target": "self",
+     "cond": {
+      "es": "ATK +valor (término inicial de la pasiva, por nodo).",
+      "en": "ATK +value (leading term of the passive, by node)."
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.1,
+        0.12,
+        0.14,
+        0.16,
+        0.18,
+        0.2,
+        0.22,
+        0.24,
+        0.28
+       ]
+      }
+     ],
+     "permanent": true,
+     "replacesLeading": true
+    },
+    {
+     "id": "valiant_hit_vuln",
+     "src": "Valiant",
+     "target": "self",
+     "cond": {
+      "es": "Al aplicar un Physical Status (Vulnerability): golpe extra de X% ATK físico. Mismo set de eventos que Steel Oath.",
+      "en": "On applying a Physical Status (Vulnerability): extra hit of X% ATK Physical. Same event set as Steel Oath."
+     },
+     "mods": [
+      {
+       "type": "addedHit",
+       "element": "physical",
+       "byNode": [
+        1.2,
+        1.44,
+        1.68,
+        1.92,
+        2.16,
+        2.4,
+        2.64,
+        2.88,
+        3.36
+       ]
+      }
+     ],
+     "trigger": {
+      "onApplyInfliction": "vulnerability"
+     }
+    },
+    {
+     "id": "valiant_hit_physreact",
+     "src": "Valiant",
+     "target": "self",
+     "cond": {
+      "es": "Al aplicar un Physical Status (Crush/Breach): golpe extra de X% ATK físico. Mismo set de eventos que Steel Oath.",
+      "en": "On applying a Physical Status (Crush/Breach): extra hit of X% ATK Physical. Same event set as Steel Oath."
+     },
+     "mods": [
+      {
+       "type": "addedHit",
+       "element": "physical",
+       "byNode": [
+        1.2,
+        1.44,
+        1.68,
+        1.92,
+        2.16,
+        2.4,
+        2.64,
+        2.88,
+        3.36
+       ]
+      }
+     ],
+     "trigger": {
+      "onApplyReaction": [
+       "crush",
+       "breach"
+      ]
+     }
+    }
+   ]
+  },
+  "Chimeric Justice": {
+   "operator": "",
+   "passive": "Brutality: Cemented Fury",
+   "buffs": [
+    {
+     "id": "chimeric_justice_crit",
+     "src": "Chimeric Justice",
+     "target": "self",
+     "cond": {
+      "es": "Critical Rate +valor (término inicial de la pasiva, por nodo).",
+      "en": "Critical Rate +value (leading term of the passive, by node)."
+     },
+     "mods": [
+      {
+       "type": "critRate",
+       "byNode": [
+        0.03,
+        0.036,
+        0.042,
+        0.048,
+        0.054,
+        0.06,
+        0.066,
+        0.072,
+        0.084
+       ]
+      }
+     ],
+     "permanent": true,
+     "replacesLeading": true
+    },
+    {
+     "id": "chimeric_justice_vuln",
+     "src": "Chimeric Justice",
+     "target": "self",
+     "cond": {
+      "es": "Al aplicar Vulnerability: ATK +valor 15s (no acumula). La precondición «enemigo sin stacks» no se gatea (aprox: cada apply).",
+      "en": "On applying Vulnerability: ATK +value 15s (non-stacking). The \"enemy with no stacks\" precondition is not gated (approx: every apply)."
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.15,
+        0.18,
+        0.21,
+        0.24,
+        0.27,
+        0.3,
+        0.33,
+        0.36,
+        0.42
+       ]
+      }
+     ],
+     "trigger": {
+      "onApplyInfliction": "vulnerability"
+     },
+     "durS": 15,
+     "noStack": true
+    }
+   ]
+  },
+  "Grand Vision": {
+   "operator": "",
+   "passive": "Infliction: Long Time Wish",
+   "buffs": [
+    {
+     "id": "grand_vision_ai",
+     "src": "Grand Vision",
+     "target": "self",
+     "cond": {
+      "es": "Arts Intensity +valor (término inicial de la pasiva, por nodo).",
+      "en": "Arts Intensity +value (leading term of the passive, per node)."
+     },
+     "mods": [
+      {
+       "type": "artsInt",
+       "byNode": [
+        30,
+        36,
+        42,
+        48,
+        54,
+        60,
+        66,
+        72,
+        84
+       ]
+      }
+     ],
+     "permanent": true,
+     "replacesLeading": true
+    },
+    {
+     "id": "grand_vision_solid",
+     "src": "Grand Vision",
+     "target": "self",
+     "cond": {
+      "es": "Al aplicar Solidification: Physical DMG en Battle/Ult por 20s (aproximación del «next cast»). Los Originium Crystals no están incluidos en el cálculo.",
+      "en": "On applying Solidification: Physical DMG on Battle/Ult for 20s (approximation of the \"next cast\"). Originium Crystals are not included in the calculation."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "physical",
+       "slot": "battle_skill",
+       "byNode": [
+        0.36,
+        0.432,
+        0.504,
+        0.576,
+        0.648,
+        0.72,
+        0.792,
+        0.864,
+        1.008
+       ]
+      },
+      {
+       "type": "dmgAdd",
+       "element": "physical",
+       "slot": "ultimate",
+       "byNode": [
+        0.36,
+        0.432,
+        0.504,
+        0.576,
+        0.648,
+        0.72,
+        0.792,
+        0.864,
+        1.008
+       ]
+      }
+     ],
+     "trigger": {
+      "onApplyReaction": "solidification"
+     },
+     "durS": 20,
+     "noStack": true
+    }
+   ]
+  },
+  "Aspirant": {
+   "operator": "chenqianyu",
+   "passive": "Twilight: Imposing Peak",
+   "buffs": [
+    {
+     "id": "aspirant_ultdmg",
+     "src": "Aspirant",
+     "target": "self",
+     "cond": {
+      "es": "Ultimate DMG +valor (término inicial de la pasiva, por nodo).",
+      "en": "Ultimate DMG +value (leading term of the passive, by node)."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "slot": "ultimate",
+       "byNode": [
+        0.16,
+        0.192,
+        0.224,
+        0.256,
+        0.288,
+        0.32,
+        0.352,
+        0.384,
+        0.448
+       ]
+      }
+     ],
+     "permanent": true,
+     "replacesLeading": true
+    },
+    {
+     "id": "aspirant_lift",
+     "src": "Aspirant",
+     "target": "self",
+     "cond": {
+      "es": "Al aplicar Lifted: Physical DMG en la próxima Ult por 30s (aproximado por ventana). Apila a 3.",
+      "en": "On applying Lifted: Physical DMG on the next Ultimate for 30s (window approximation). Stacks to 3."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "physical",
+       "slot": "ultimate",
+       "byNode": [
+        0.12,
+        0.144,
+        0.168,
+        0.192,
+        0.216,
+        0.24,
+        0.264,
+        0.288,
+        0.336
+       ]
+      }
+     ],
+     "trigger": {
+      "onApplyCC": "lift",
+      "maxStacks": 3
+     },
+     "durS": 30
+    }
+   ]
+  },
+  "Mountain Bearer": {
+   "operator": "",
+   "passive": "Efficacy: Weight of Mountain",
+   "buffs": [
+    {
+     "id": "mountain_bearer_vsvuln",
+     "src": "Mountain Bearer",
+     "target": "self",
+     "cond": {
+      "es": "Contra enemigos con Vulnerability: DMG +valor (todo elemento), por nodo.",
+      "en": "Against Vulnerability enemies: DMG +value (all elements), by node."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "byNode": [
+        0.2,
+        0.24,
+        0.28,
+        0.32,
+        0.36,
+        0.4,
+        0.44,
+        0.48,
+        0.56
+       ]
+      }
+     ],
+     "whenState": "vulnerability"
+    },
+    {
+     "id": "mountain_bearer_attr",
+     "src": "Mountain Bearer",
+     "target": "self",
+     "pendingModel": "All Attributes +% por 15s al aplicar Vulnerability/Phys Susceptibility con la battle skill: buff de ATRIBUTOS disparado — laneStats es estático (los atributos no cambian a mitad de rotación) → diferido",
+     "cond": {
+      "es": "Battle aplica Vulnerability o Phys Susceptibility: All Attributes +% 15s (×2 stacks) — diferido (atributos dinámicos).",
+      "en": "Battle applies Vulnerability or Phys Susceptibility: All Attributes +% 15s (×2 stacks) — deferred (dynamic attributes)."
+     },
+     "mods": []
+    }
+   ]
+  },
+  "Artzy Tyrannical": {
+   "operator": "yvonne",
+   "passive": "Fracture: Artzy Exaggeration",
+   "buffs": [
+    {
+     "id": "artzy_cryo",
+     "src": "Artzy Tyrannical",
+     "target": "self",
+     "cond": {
+      "es": "Cryo DMG +valor (término inicial de la pasiva, por nodo).",
+      "en": "Cryo DMG +value (leading term of the passive, by node)."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "cryo",
+       "byNode": [
+        0.16,
+        0.192,
+        0.224,
+        0.256,
+        0.288,
+        0.32,
+        0.352,
+        0.384,
+        0.448
+       ]
+      }
+     ],
+     "permanent": true,
+     "replacesLeading": true
+    },
+    {
+     "id": "artzy_oncrit",
+     "src": "Artzy Tyrannical (on-crit)",
+     "target": "self",
+     "pendingModel": "on-crit probabilístico (crítico con Battle/Combo) — NO derivable de un timeline ideal → toggle-solo del calc de Daño, inerte en la Rotación a propósito (misma clase que Wolven Blood)",
+     "cond": {
+      "es": "Tras crítico con Battle/Combo: Cryo DMG +valor 30s (máx 3 stacks) — toggle, no simulado.",
+      "en": "After a crit with Battle/Combo: Cryo DMG +value 30s (max 3 stacks) — toggle, not simulated."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "cryo",
+       "byNode": [
+        0.14,
+        0.168,
+        0.196,
+        0.224,
+        0.252,
+        0.28,
+        0.308,
+        0.336,
+        0.392
+       ]
+      }
+     ],
+     "durS": 30
+    }
+   ]
+  },
+  "Flickers in the Mist": {
+   "operator": "",
+   "passive": "Efficacy: Overlapping Flickers",
+   "buffs": [
+    {
+     "id": "flickers_atk",
+     "src": "Flickers in the Mist",
+     "target": "self",
+     "cond": {
+      "es": "ATK +valor (término inicial de la pasiva, por nodo).",
+      "en": "ATK +value (leading term of the passive, by node)."
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.07,
+        0.084,
+        0.098,
+        0.112,
+        0.126,
+        0.14,
+        0.154,
+        0.168,
+        0.196
+       ]
+      }
+     ],
+     "permanent": true,
+     "replacesLeading": true
+    },
+    {
+     "id": "flickers_amp",
+     "src": "Flickers in the Mist",
+     "target": "self",
+     "cond": {
+      "es": "Al recibir Electric Amp: Electric DMG +valor por 30s (máx 3; el cálculo cuenta por lo bajo).",
+      "en": "On gaining Electric Amp: Electric DMG +value for 30s (max 3; the calculation under-counts)."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "electric",
+       "byNode": [
+        0.055,
+        0.066,
+        0.077,
+        0.088,
+        0.099,
+        0.11,
+        0.121,
+        0.132,
+        0.154
+       ]
+      }
+     ],
+     "trigger": {
+      "onGainBuff": {
+       "type": "dmgAmp",
+       "element": "electric"
+      }
+     },
+     "durS": 30,
+     "noStack": true
+    }
+   ]
+  },
+  "Chivalric Virtues": {
+   "operator": "xaihi",
+   "passive": "Medicant: Blight Fervor",
+   "buffs": [
+    {
+     "id": "chivalric_heal_atk",
+     "src": "Chivalric Virtues",
+     "target": "team",
+     "cond": {
+      "es": "Al curar con una skill propia: TODO el equipo gana ATK +valor por 15s (no acumula). La Treatment Efficiency queda fuera del cálculo de daño.",
+      "en": "On healing with an own skill: the WHOLE team gains ATK +value for 15s (non-stacking). Treatment Efficiency is not part of the damage calculation."
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.09,
+        0.108,
+        0.126,
+        0.144,
+        0.162,
+        0.18,
+        0.198,
+        0.216,
+        0.252
+       ]
+      }
+     ],
+     "trigger": {
+      "onHeal": true
+     },
+     "durS": 15,
+     "noStack": true
+    }
+   ]
+  },
+  "Monaihe": {
+   "operator": "",
+   "passive": "Inspiring: Mortise-and-Tenon Analysis",
+   "buffs": [
+    {
+     "id": "monaihe_ai",
+     "src": "Monaihe",
+     "target": "self",
+     "cond": {
+      "es": "Arts Intensity +valor por nodo (segunda parte de la pasiva). El atributo principal inicial entra fijo.",
+      "en": "Arts Intensity +value per node (the passive's second term). The leading Main Attribute enters as a fixed value."
+     },
+     "mods": [
+      {
+       "type": "artsInt",
+       "byNode": [
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+        60,
+        70
+       ]
+      }
+     ],
+     "permanent": true
+    }
+   ]
+  },
+  "Former Finery": {
+   "operator": "",
+   "passive": "Efficacy: Mincing Therapy",
+   "buffs": []
+  },
+  "Thunderberge": {
+   "operator": "",
+   "passive": "Medicant: Eye of Talos",
+   "buffs": []
+  },
+  "Finishing Call": {
+   "operator": "",
+   "passive": "Medicant: Glory of Knighthood",
+   "buffs": []
+  },
+  "OBJ Heavy Burden": {
+   "operator": "",
+   "passive": "Efficacy: Tenacious Will",
+   "buffs": []
+  },
+  "Freedom to Proselytize": {
+   "operator": "",
+   "passive": "Medicant: Redemption of Faith",
+   "buffs": []
+  },
+  "Type 42: Solemn Phalanx": {
+   "operator": "arcane",
+   "passive": "Detonate: Debilitating Assault",
+   "leadingAtkByDupe": [
+    25.6,
+    28.8,
+    32,
+    35.2,
+    38.4,
+    44.8
+   ],
+   "buffs": [
+    {
+     "id": "t42_int_artsdmg",
+     "src": "Detonate — Arts Infliction (INT)",
+     "target": "self",
+     "mode": "int",
+     "cond": {
+      "es": "INT ≥ Will: al aplicar Arts Infliction con skill propia, el portador gana Arts DMG Dealt +% por 20s (no acumula).",
+      "en": "INT ≥ Will: on applying Arts Infliction with own skill, the wielder gains Arts DMG Dealt +% for 20s (non-stacking)."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "arts",
+       "byNode": [
+        0.2,
+        0.24,
+        0.28,
+        0.32,
+        0.36,
+        0.4,
+        0.44,
+        0.48,
+        0.56
+       ]
+      }
+     ],
+     "trigger": {
+      "onApplyInfliction": "arts"
+     },
+     "durS": 20,
+     "noStack": true
+    },
+    {
+     "id": "t42_int_atk",
+     "src": "Detonate — Arts Susceptibility (INT)",
+     "target": "self",
+     "mode": "int",
+     "pendingModel": "trigger 'al aplicar Arts Susceptibility' no existe en el vocabulario del sim (Arcane INT la aplica con el combo) → toggle del calc por ahora.",
+     "cond": {
+      "es": "INT ≥ Will: al aplicar Arts Susceptibility con skill propia, el portador gana ATK +% por 20s (no acumula).",
+      "en": "INT ≥ Will: on applying Arts Susceptibility with own skill, the wielder gains ATK +% for 20s (non-stacking)."
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.2,
+        0.24,
+        0.28,
+        0.32,
+        0.36,
+        0.4,
+        0.44,
+        0.48,
+        0.56
+       ]
+      }
+     ],
+     "durS": 20,
+     "noStack": true
+    },
+    {
+     "id": "t42_will_taken",
+     "src": "Detonate — Arts DMG Taken (WILL)",
+     "target": "team",
+     "mode": "will",
+     "cond": {
+      "es": "Will > INT: al aplicar Arts Burst O Arts Susceptibility con skill propia, el enemigo recibe +Arts DMG por 25s (no acumula; una sola instancia aunque disparen ambas rutas).",
+      "en": "Will > INT: on applying Arts Burst OR Arts Susceptibility with own skill, the enemy takes +Arts DMG for 25s (non-stacking; single instance even if both routes trigger)."
+     },
+     "mods": [
+      {
+       "type": "enemyDmgTaken",
+       "element": "arts",
+       "byNode": [
+        0.06,
+        0.072,
+        0.084,
+        0.096,
+        0.108,
+        0.12,
+        0.132,
+        0.144,
+        0.168
+       ]
+      }
+     ],
+     "trigger": {
+      "onApplyReaction": "burst"
+     },
+     "durS": 25,
+     "noStack": true
+    }
+   ]
+  },
+  "Junction Point": {
+   "passive": "Efficacy: Feedback Loop",
+   "buffs": [
+    {
+     "id": "jp_nature_lead",
+     "src": "Feedback Loop — Nature DMG (permanente)",
+     "target": "self",
+     "permanent": true,
+     "replacesLeading": true,
+     "cond": {
+      "es": "Nature DMG Dealt permanente de la pasiva (escala por nodo de esencia).",
+      "en": "Permanent Nature DMG Dealt from the passive (scales per essence node)."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "nature",
+       "byNode": [
+        0.07,
+        0.084,
+        0.098,
+        0.112,
+        0.126,
+        0.14,
+        0.154,
+        0.168,
+        0.196
+       ]
+      }
+     ]
+    },
+    {
+     "id": "jp_feedback_team",
+     "src": "Feedback Loop — combo aplica Susc/Infliction (equipo)",
+     "target": "team",
+     "anchor": "combo_skill",
+     "durS": 20,
+     "noStack": true,
+     "cond": {
+      "es": "Al aplicar Arts Susceptibility o Arts Infliction con la combo skill: el equipo gana ATK +% por 20s. En el juego apila hasta 2 (duración separada); el cálculo cuenta 1 stack.",
+      "en": "On applying Arts Susceptibility or Arts Infliction with the combo skill: the team gains ATK +% for 20s. In the game it stacks to 2 (separate durations); the calculation counts 1 stack."
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.015,
+        0.018,
+        0.021,
+        0.024,
+        0.027,
+        0.03,
+        0.033,
+        0.036,
+        0.042
+       ]
+      }
+     ]
+    },
+    {
+     "id": "jp_feedback_self",
+     "src": "Feedback Loop — combo aplica Susc/Infliction (extra del portador)",
+     "target": "self",
+     "anchor": "combo_skill",
+     "durS": 20,
+     "noStack": true,
+     "cond": {
+      "es": "El portador gana el ATK completo del texto: este buff aporta el EXTRA sobre la parte de equipo (propio + equipo = total). 20s; el cálculo cuenta 1 stack.",
+      "en": "The wielder gains the full ATK of the text: this buff carries the EXTRA over the team share (self + team = total). 20s; the calculation counts 1 stack."
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.045,
+        0.054,
+        0.063,
+        0.072,
+        0.081,
+        0.09,
+        0.099,
+        0.108,
+        0.126
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "Farsight": {
+   "passive": "Assault: Vision for Tomorrow",
+   "buffs": [
+    {
+     "id": "fars_dream_team",
+     "src": "Dream Striving (inicio de combate)",
+     "target": "team",
+     "durS": 20,
+     "noStack": true,
+     "pendingModel": "ventana al ENTRAR en combate — sin vocabulario de inicio-de-combate en el sim (anchors: battle/combo/ult) → toggle-solo del calc de Daño. La Arts Intensity +28 de la ventana tampoco es representable (artsInt es permanent-only, misma limitación que Amaranthine/White Night Nova).",
+     "cond": {
+      "es": "Al entrar en combate: el equipo gana DMG Dealt +%, Arts Intensity (+10..28, no incluida en el cálculo) y DEF +% por 20s; al expirar cura 122 HP al equipo (la DEF y la cura quedan fuera del cálculo de daño). No acumula.",
+      "en": "On entering battle: the team gains DMG Dealt +%, Arts Intensity (+10..28, not included in the calculation) and DEF +% for 20s; on expiry it restores 122 HP to the team (DEF and the heal are outside the damage calculation). Non-stacking."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "byNode": [
+        0.05,
+        0.06,
+        0.07,
+        0.08,
+        0.09,
+        0.1,
+        0.11,
+        0.12,
+        0.14
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

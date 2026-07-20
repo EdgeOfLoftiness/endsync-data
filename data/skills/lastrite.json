@@ -1,0 +1,465 @@
+{
+  "id": "lastrite",
+  "name": "Last Rite",
+  "ranks": 12,
+  "skills": {
+    "basic_attack": {
+      "name": "Dance of Rime",
+      "stats": [
+        {
+          "name": "BATK SEQ 1 Multiplier",
+          "unit": "%",
+          "values": [
+            30,
+            33,
+            36,
+            39,
+            42,
+            45,
+            48,
+            51,
+            54,
+            62,
+            62,
+            68
+          ]
+        },
+        {
+          "name": "BATK SEQ 2 Multiplier",
+          "unit": "%",
+          "values": [
+            55,
+            61,
+            66,
+            72,
+            77,
+            83,
+            88,
+            94,
+            99,
+            106,
+            114,
+            124
+          ]
+        },
+        {
+          "name": "BATK SEQ 3 Multiplier",
+          "unit": "%",
+          "values": [
+            68,
+            75,
+            82,
+            88,
+            95,
+            102,
+            109,
+            116,
+            122,
+            131,
+            141,
+            153
+          ]
+        },
+        {
+          "name": "BATK SEQ 4 Multiplier",
+          "unit": "%",
+          "values": [
+            90,
+            99,
+            108,
+            117,
+            126,
+            135,
+            144,
+            153,
+            162,
+            173,
+            187,
+            203
+          ]
+        },
+        {
+          "name": "Finisher ATK Multiplier",
+          "unit": "%",
+          "values": [
+            400,
+            440,
+            480,
+            520,
+            560,
+            600,
+            640,
+            680,
+            720,
+            770,
+            830,
+            900
+          ]
+        },
+        {
+          "name": "Dive ATK Multiplier",
+          "unit": "%",
+          "values": [
+            80,
+            88,
+            96,
+            104,
+            112,
+            120,
+            128,
+            136,
+            144,
+            154,
+            166,
+            180
+          ]
+        }
+      ]
+    },
+    "battle_skill": {
+      "name": "Esoteric Legacy of Seš'qa",
+      "stats": [
+        {
+          "name": "SP Cost",
+          "values": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "Mirage Additional ATK DMG Multiplier",
+          "unit": "%",
+          "values": [
+            142,
+            156,
+            171,
+            185,
+            199,
+            213,
+            228,
+            242,
+            256,
+            274,
+            295,
+            320
+          ]
+        },
+        {
+          "name": "SP Return",
+          "values": [
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "name": "Duration (s)",
+          "values": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ]
+        },
+        {
+          "name": "Ultimate Energy Gain",
+          "values": [
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16
+          ]
+        }
+      ]
+    },
+    "combo_skill": {
+      "name": "Winter's Devourer",
+      "stats": [
+        {
+          "name": "Cooldown",
+          "values": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            8
+          ]
+        },
+        {
+          "name": "Ice Shard DMG Multiplier",
+          "unit": "%",
+          "values": [
+            71,
+            78,
+            85,
+            92,
+            99,
+            107,
+            114,
+            121,
+            128,
+            137,
+            147,
+            160
+          ]
+        },
+        {
+          "name": "Slash Base DMG Multiplier",
+          "unit": "%",
+          "values": [
+            71,
+            78,
+            85,
+            92,
+            99,
+            107,
+            114,
+            121,
+            128,
+            137,
+            147,
+            160
+          ]
+        },
+        {
+          "name": "Slash Stagger",
+          "values": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ]
+        },
+        {
+          "name": "Bonus DMG Multiplier per Infliction Stack",
+          "unit": "%",
+          "values": [
+            107,
+            117,
+            128,
+            139,
+            149,
+            160,
+            171,
+            181,
+            192,
+            205,
+            221,
+            240
+          ]
+        },
+        {
+          "name": "Base Ultimate Energy Gain",
+          "values": [
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40
+          ]
+        },
+        {
+          "name": "Additional Ultimate Energy Gain per Infliction Stack",
+          "values": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ]
+        }
+      ]
+    },
+    "ultimate": {
+      "name": "Vigil Services",
+      "stats": [
+        {
+          "name": "Ultimate Energy Cost",
+          "values": [
+            240,
+            240,
+            240,
+            240,
+            240,
+            240,
+            240,
+            240,
+            240,
+            240,
+            240,
+            240
+          ]
+        },
+        {
+          "name": "SEQ 1 DMG Multiplier",
+          "unit": "%",
+          "values": [
+            178,
+            196,
+            213,
+            231,
+            249,
+            267,
+            284,
+            302,
+            320,
+            342,
+            369,
+            400
+          ]
+        },
+        {
+          "name": "SEQ 1 Stagger",
+          "values": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "name": "SEQ 2 DMG Multiplier",
+          "unit": "%",
+          "values": [
+            178,
+            196,
+            213,
+            231,
+            249,
+            267,
+            284,
+            302,
+            320,
+            342,
+            369,
+            400
+          ]
+        },
+        {
+          "name": "SEQ 2 Stagger",
+          "values": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "name": "SEQ 3 DMG Multiplier",
+          "unit": "%",
+          "values": [
+            356,
+            391,
+            427,
+            462,
+            498,
+            533,
+            569,
+            604,
+            640,
+            684,
+            738,
+            800
+          ]
+        },
+        {
+          "name": "SEQ 3 Stagger",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ]
+    }
+  }
+}

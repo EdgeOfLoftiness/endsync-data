@@ -1,0 +1,412 @@
+{
+ "sets": {
+  "Bonekrusha": {
+   "buffs": [
+    {
+     "id": "set_bonekrusha_smash",
+     "src": "Bonekrusha 3pc · Bonekrushing Smash",
+     "target": "self",
+     "cond": {
+      "es": "Tras lanzar combo skill (solo el portador): +30% DMG al siguiente battle skill (máx 2 stacks)",
+      "en": "After casting a combo skill (wearer only): +30% DMG to the next battle skill (max 2 stacks)"
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "slot": "battle_skill",
+       "value": 0.3
+      }
+     ],
+     "trigger": {
+      "onCast": "combo_skill",
+      "untilNext": "battle_skill",
+      "maxStacks": 2
+     }
+    }
+   ]
+  },
+  "Xiranflow": {
+   "buffs": [
+    {
+     "id": "set_xiranflow_react",
+     "src": "Xiranflow (3pc)",
+     "target": "self",
+     "cond": {
+      "es": "Al consumir Electrification o Corrosion: Electric y Nature DMG +[15%×nivel de la reacción, máx 3] por 25s. Si consumes varias veces en esos 25s, el cálculo cuenta por lo bajo.",
+      "en": "On consuming Electrification or Corrosion: Electric & Nature DMG +[15%×reaction level, max 3] for 25s. If you consume several times within those 25s, the calculation under-counts."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "electric",
+       "perStack": {
+        "base": 0,
+        "per": 0.15,
+        "cap": 3
+       }
+      },
+      {
+       "type": "dmgAdd",
+       "element": "nature",
+       "perStack": {
+        "base": 0,
+        "per": 0.15,
+        "cap": 3
+       }
+      }
+     ],
+     "trigger": {
+      "onConsume": [
+       "electrification",
+       "corrosion"
+      ]
+     },
+     "durS": 25,
+     "noStack": true
+    }
+   ]
+  },
+  "Aethertech": {
+   "buffs": [
+    {
+     "id": "set_aethertech_vuln",
+     "src": "Aethertech (3pc)",
+     "target": "self",
+     "cond": {
+      "es": "Al aplicar Vulnerability: Physical DMG +8% 15s, apila hasta máx 4 stacks (+32% al tope). Deriva del nº de aplicaciones activas: min(aplicaciones, 4)×8%. El +16% adicional al tope de Vulnerability → diferido.",
+      "en": "On applying Vulnerability: Physical DMG +8% 15s, stacks up to max 4 stacks (+32% at cap). Derives from the number of active applications: min(applications, 4)×8%. The extra +16% at the Vulnerability cap → deferred."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "physical",
+       "value": 0.08
+      }
+     ],
+     "trigger": {
+      "onApplyInfliction": "vulnerability",
+      "maxStacks": 4
+     },
+     "durS": 15
+    }
+   ]
+  },
+  "Type 50 Yinglung": {
+   "buffs": [
+    {
+     "id": "set_yinglung_edge",
+     "src": "Type 50 Yinglung 3pc · Yinglung's Edge",
+     "target": "self",
+     "cond": {
+      "es": "Cuando un aliado lanza battle skill: +20% DMG al siguiente combo skill (máx 3 stacks)",
+      "en": "When an ally casts battle skill: +20% DMG to the next combo skill (max 3 stacks)"
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "slot": "combo_skill",
+       "value": 0.2
+      }
+     ],
+     "trigger": {
+      "onCast": "battle_skill",
+      "untilNext": "combo_skill",
+      "maxStacks": 3,
+      "ally": true
+     }
+    }
+   ]
+  },
+  "MI Security": {
+   "buffs": [
+    {
+     "id": "set_mi_crit",
+     "src": "MI Security 3pc · al critear",
+     "target": "self",
+     "pendingModel": "crit-proc probabilístico (ATK/Crit por stack al critear); NO derivable de un timeline ideal → toggle-solo del calc de Daño. Inerte en la Rotación a propósito (no hay path toggle para sets). Candidato EV-movible",
+     "cond": {
+      "es": "Al critear: +5% ATK por stack (máx 5 = +25%); a stacks máx, +5% Crit Rate extra",
+      "en": "On crit: +5% ATK per stack (max 5 = +25%); at max stacks, +5% extra Crit Rate"
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "value": 0.25
+      },
+      {
+       "type": "critRate",
+       "value": 0.05
+      }
+     ]
+    }
+   ]
+  },
+  "Pulser Labs": {
+   "buffs": [
+    {
+     "id": "set_pulser_elec",
+     "src": "Pulser Labs 3pc · Electrification",
+     "target": "self",
+     "cond": {
+      "es": "Al aplicar Electrification: +50% Electric DMG 10s",
+      "en": "On applying Electrification: +50% Electric DMG 10s"
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "electric",
+       "value": 0.5
+      }
+     ],
+     "trigger": {
+      "onApplyReaction": "electrification"
+     },
+     "durS": 10,
+     "noStack": true
+    },
+    {
+     "id": "set_pulser_cryo",
+     "src": "Pulser Labs 3pc · Solidification",
+     "target": "self",
+     "cond": {
+      "es": "Al aplicar Solidification: +50% Cryo DMG 10s",
+      "en": "On applying Solidification: +50% Cryo DMG 10s"
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "cryo",
+       "value": 0.5
+      }
+     ],
+     "trigger": {
+      "onApplyReaction": "solidification"
+     },
+     "durS": 10,
+     "noStack": true
+    }
+   ]
+  },
+  "Hot Work": {
+   "buffs": [
+    {
+     "id": "set_hotwork_heat",
+     "src": "Hot Work 3pc · Combustion",
+     "target": "self",
+     "cond": {
+      "es": "Al aplicar Combustion: +50% Heat DMG 10s",
+      "en": "On applying Combustion: +50% Heat DMG 10s"
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "heat",
+       "value": 0.5
+      }
+     ],
+     "trigger": {
+      "onApplyReaction": "combustion"
+     },
+     "durS": 10,
+     "noStack": true
+    },
+    {
+     "id": "set_hotwork_nature",
+     "src": "Hot Work 3pc · Corrosion",
+     "target": "self",
+     "cond": {
+      "es": "Al aplicar Corrosion: +50% Nature DMG 10s",
+      "en": "On applying Corrosion: +50% Nature DMG 10s"
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "nature",
+       "value": 0.5
+      }
+     ],
+     "trigger": {
+      "onApplyReaction": "corrosion"
+     },
+     "durS": 10,
+     "noStack": true
+    }
+   ]
+  },
+  "Qingbo": {
+   "buffs": [
+    {
+     "id": "set_qingbo_combo",
+     "src": "Qingbo 3pc · tras combo skill",
+     "target": "self",
+     "cond": {
+      "es": "Tras lanzar combo skill: +20% Skill DMG (toda skill) 15s",
+      "en": "After casting combo skill: +20% Skill DMG (all skills) 15s"
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "value": 0.2
+      }
+     ],
+     "anchor": "combo_skill",
+     "durS": 15,
+     "noStack": true
+    }
+   ]
+  },
+  "Frontiers": {
+   "buffs": [
+    {
+     "id": "set_frontiers_sp",
+     "src": "Frontiers 3pc · al recuperar SP",
+     "target": "team",
+     "cond": {
+      "es": "Al recuperar SP con una skill: +16% DMG al equipo 12s (no acumulable)",
+      "en": "On recovering SP with a skill: +16% team DMG 12s (non-stacking)"
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "value": 0.16
+      }
+     ],
+     "trigger": {
+      "onSpRecover": true
+     },
+     "durS": 12,
+     "noStack": true
+    }
+   ]
+  },
+  "Tide Surge": {
+   "buffs": [
+    {
+     "id": "set_tidesurge_arts",
+     "src": "Tide Surge 3pc · Arts Infliction",
+     "target": "self",
+     "cond": {
+      "es": "Tras aplicar 2+ stacks de Arts Infliction: +35% Arts DMG 15s",
+      "en": "After applying 2+ stacks of Arts Infliction: +35% Arts DMG 15s"
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "arts",
+       "value": 0.35
+      }
+     ],
+     "trigger": {
+      "onArtsStacks": 2
+     },
+     "durS": 15,
+     "noStack": true
+    }
+   ]
+  },
+  "Eternal Xiranite": {
+   "buffs": [
+    {
+     "id": "set_eternal_team",
+     "src": "Eternal Xiranite 3pc · Amp/Protect/Suscept/Weaken",
+     "target": "team",
+     "pendingModel": "onApplyBuff/onApplyDebuff (aplicar Amp/Protected/Susceptible/Weakened al equipo). Susceptibility es rastreable (enemySusc) pero Amp/Protected/Weakened no se emiten como eventos → un parcial solo-Susc sesga; diferido hasta modelar los 4.",
+     "cond": {
+      "es": "Al aplicar Amp/Protected/Susceptible/Weakened: +16% DMG Dealt a los demás aliados 15s (no acumulable)",
+      "en": "On applying Amp/Protected/Susceptible/Weakened: +16% DMG Dealt to other allies 15s (non-stacking)"
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "value": 0.16
+      }
+     ]
+    }
+   ]
+  },
+  "Grizzled Edge": {
+   "buffs": [
+    {
+     "id": "set_grizzled_crush",
+     "src": "Grizzled Edge (3pc)",
+     "target": "self",
+     "cond": {
+      "es": "Al aplicar Crush/Breach: Physical DMG +[6%×stacks de Vulnerability consumidos] 20s (no acumula). El ×1.5 (vs Phys Susc/Staggered/Crystals) → diferido.",
+      "en": "On applying Crush/Breach: Physical DMG +[6%×Vulnerability stacks consumed] 20s (non-stacking). The ×1.5 (vs Phys Susc/Staggered/Crystals) → deferred."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "physical",
+       "perStack": {
+        "base": 0,
+        "per": 0.06
+       }
+      }
+     ],
+     "trigger": {
+      "onApplyReaction": [
+       "crush",
+       "breach"
+      ]
+     },
+     "durS": 20,
+     "noStack": true
+    }
+   ]
+  },
+  "Swordmancer": {
+   "buffs": [
+    {
+     "id": "set_swordmancer_hit",
+     "src": "Swordmancer (3pc)",
+     "target": "self",
+     "cond": {
+      "es": "Al aplicar un Physical Status: golpe extra de 250% ATK físico (cooldown 15s). Los 10 Stagger → diferido.",
+      "en": "On applying a Physical Status: extra hit of 250% ATK Physical (15s cooldown). The 10 Stagger → deferred."
+     },
+     "mods": [
+      {
+       "type": "addedHit",
+       "element": "physical",
+       "value": 2.5
+      }
+     ],
+     "trigger": {
+      "onApplyPhysStatus": true,
+      "cooldownS": 15
+     }
+    }
+   ]
+  },
+  "Redeemer": {
+   "buffs": []
+  },
+  "LYNX": {
+   "buffs": []
+  },
+  "Rift Trekker": {
+   "buffs": []
+  },
+  "AIC Fieldwork": {
+   "buffs": [
+    {
+     "id": "set_aic_dmg",
+     "src": "AIC Fieldwork 3pc (permanente)",
+     "target": "self",
+     "permanent": true,
+     "cond": {
+      "es": "3pc: DMG Dealt +20% a TODO tipo de daño, permanente (sin gatillo). La reducción de daño 10% es defensiva y queda fuera del cálculo; la UGE +10% ya está contada aparte.",
+      "en": "3pc: DMG Dealt +20% for ALL damage types, permanent (no trigger). The 10% DMG Reduction is defensive and outside the calculation; the +10% UGE is already counted separately."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "value": 0.2
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

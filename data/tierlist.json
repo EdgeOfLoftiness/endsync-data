@@ -1,0 +1,632 @@
+{
+ "version": 4,
+ "config": {
+  "scale": 1000,
+  "dmgDivisor": 29.7,
+  "supValueScale": 10,
+  "thresholds": [
+   [
+    "S+",
+    900
+   ],
+   [
+    "S",
+    770
+   ],
+   [
+    "A",
+    660
+   ],
+   [
+    "B",
+    400
+   ],
+   [
+    "C",
+    250
+   ],
+   [
+    "D",
+    0
+   ]
+  ],
+  "coverageFactor": {
+   "aoe_st": 1.12,
+   "aoe": 1,
+   "st": 1
+  },
+  "scarcityMax": 30,
+  "flex": {
+   "universal": 25,
+   "flex": 15,
+   "locked": 0,
+   "default": 8
+  },
+  "def": {
+   "mitig": {
+    "Shield": 25,
+    "Protection": 25,
+    "Weaken": 15
+   },
+   "aliases": {
+    "Weakness": "Weaken"
+   },
+   "cc": {
+    "Knock Down": 15,
+    "Solidification": 12,
+    "Lift": 10,
+    "Slow": 8
+   },
+   "defenderBonus": 10,
+   "rawCap": 55,
+   "rarity": {
+    "4": 0.7,
+    "5": 0.85,
+    "6": 1
+   },
+   "secondaryWeight": 0.4
+  },
+  "dmgCoverageTags": [
+   "aoe_st",
+   "aoe",
+   "st"
+  ],
+  "supArchetypeTags": [
+   "enabler",
+   "buffer"
+  ]
+ },
+ "methodology": {
+  "es": "La letra no se tira a ojo: sale de un puntaje oculto (0–1000) que solo sirve para ubicar al operador. Esto es lo que pesa.\n\nDAÑO: mide a cada carry por su techo y por cuánto puede hacer SOLO, sin depender de un andamiaje de soportes. Se parte del equipo ideal — arma promocional sin duplicados, set y nivel 90 — y se sacan el ATK efectivo y el bono de daño de su elemento con esos números reales: el palo de stats. Encima va un coeficiente de burst que ya no se pone a ojo: se mide corriendo una rotación completa en la calculadora de Daño contra un jefe de referencia, con crítico promedio y sus keystones y condicionales activos, para recoger lo que el stat no ve (rotación, crítico, buffs condicionales). Es su techo con buen equipo detrás, no su promedio. Cuánto DEPENDE de ese equipo para llegar ahí lo dice la etiqueta de complejidad de abajo.\n\nSOPORTE: se mide al revés — cuánto LEVANTA al equipo. ATK%, daño recibido/Susceptibility, Amp, el SP que devuelve y su capacidad de habilitar el daño de los carries. Encima va un plus por capacidad defensiva (escudos, reducción de daño, control) que, si es grande, sostiene por sí solo a una unidad de pura defensa.\n\nMISMA VARA PARA TODOS: los 6★ se cuentan a Potencial 0 (sin copias) y los 4★/5★ a Potencial 5 (al máximo), porque conseguir copias de un 6★ es prácticamente imposible fuera de su banner, mientras que las de un 4★/5★ se juntan solas. El arma promocional y el equipo se asumen al máximo.\n\nESCASEZ y FLEXIBILIDAD se suman aparte. ESCASEZ: si casi nadie más cubre su elemento+rol, sube; en cuanto llega otro que hace lo mismo, baja sola. FLEXIBILIDAD: en cuántas composiciones entra. Así un universal puntúa por servir en todo y un especialista por ser el único en lo suyo.\n\nLos duales salen en ambas columnas; la faceta secundaria, solo si llega al menos a tier A — un daño o soporte flojo no merece una segunda aparición. No verás el puntaje de cada uno: para eso está la letra, y dentro de cada tier el orden de izquierda a derecha va del más fuerte al más flojo. La complejidad y las etiquetas se explican abajo.\n\nPENDIENTE: la próxima capa de afinado es medir el daño de cada carry dentro de su equipo de prueba en la línea de rotación; todavía no todos tienen equipo armado, así que por ahora el daño se compara en igualdad de condiciones contra el mismo jefe.",
+  "en": "The letter isn't a gut call: it comes from a hidden score (0–1000) that only exists to place the operator. Here's what counts.\n\nDAMAGE: rates each carry by its ceiling and by how much it can do ON ITS OWN, without leaning on a scaffold of supports. Start from the ideal loadout — signature weapon at 0 dupes, set, level 90 — and pull the effective ATK and the operator's elemental damage bonus from those real numbers: the stat stick. On top sits a burst coefficient that is no longer eyeballed: it's measured by running a full rotation in the Damage calculator against a reference boss, with average crit and the operator's keystones and conditionals active, to capture what the stat can't see (rotation, crit, conditional buffs). It's their ceiling with a good team behind them, not their average. How much they DEPEND on that team to get there is what the complexity tag below tells you.\n\nSUPPORT: measured the other way around — how much they LIFT the team. ATK%, DMG taken/Susceptibility, Amp, the SP they return and their ability to enable the carries' damage. On top sits a bonus for defensive capability (shields, damage reduction, control) that, when large, can carry a pure-defense unit on its own.\n\nONE YARDSTICK FOR ALL: 6★ are counted at Potential 0 (no copies) and 4★/5★ at Potential 5 (maxed), because copies of a 6★ are nearly impossible to get outside its banner, while 4★/5★ copies pile up on their own. The signature weapon and gear are assumed maxed.\n\nSCARCITY and FLEXIBILITY are added separately. SCARCITY: if almost no one else covers their element+role, it rises; the moment someone else does the same, it drops on its own. FLEXIBILITY: how many comps take them. So a universal scores for fitting everywhere and a specialist for being the only one in their lane.\n\nDual operators show in both columns; the secondary facet only if it reaches at least tier A — weak damage or support doesn't earn a second appearance. You won't see anyone's score: that's what the letter is for, and within each tier the left-to-right order runs from strongest to weakest. Complexity and the tags are explained below.\n\nPENDING: the next refinement layer is measuring each carry's damage inside its test team on the rotation timeline; not every carry has a team built yet, so for now damage is compared on equal footing against the same boss."
+ },
+ "ops": {
+  "laevatain": {
+   "difficulty": "high",
+   "tags": [
+    "aoe_st",
+    "sig"
+   ],
+   "dmgProfile": {
+    "weapon": "Forgeborn Scathe",
+    "set": null,
+    "burst": 3.282,
+    "coverage": "aoe_st"
+   },
+   "cap": {
+    "es": "Hypercarry de Heat que vive de su Ultimate: convierte el Heat Infliction del equipo en stacks de Melting Flame con sus Final Strikes, los gasta en un Battle Skill Mejorado que le devuelve una marea de energía, y lo cobra todo en Twilight, 15 s en los que sus básicos se vuelven barridos AoE enormes. Cubre oleadas (la Combustión se esparce) y jefes. Lo que cuesta: rotación densa y dependencia de enablers de Heat.",
+    "en": "Heat hypercarry built around her Ultimate: she turns the team's Heat Infliction into Melting Flame stacks with her Final Strikes, spends them on an Enhanced Battle Skill that floods her with energy, and cashes it all in on Twilight — 15s where her basics become huge AoE sweeps. Covers crowds (Combustion spreads) and bosses. The cost: a dense rotation and reliance on Heat enablers."
+   },
+   "pin": {
+    "dmg": "S+"
+   }
+  },
+  "avywenna": {
+   "difficulty": "high",
+   "tags": [
+    "st",
+    "sig"
+   ],
+   "dmgProfile": {
+    "weapon": "JET",
+    "set": null,
+    "burst": 2.162,
+    "coverage": "st"
+   },
+   "cap": {
+    "es": "Especialista anti-jefe: clava Thunderlances por el campo con sus Combos y las recoge todas de golpe con el Battle Skill, cuyo daño de retorno escala como Battle Skill. Casi todo su daño cae en ese recall, en una ventana muy corta, así que el posicionamiento lo es todo. Lo que cuesta: sufre contra grupos (cobertura ST) y comparte nicho de Electric con Zhuang Fangyi y Arclight, por lo que no recibe bono de unicidad.",
+    "en": "Anti-boss specialist: scatters Thunderlances across the field with her Combos and recalls them all at once with her Battle Skill, whose return damage scales as Battle Skill. Almost all her damage lands on that recall, in a very short window, so positioning is everything. The cost: she struggles against crowds (ST coverage) and shares the Electric niche with Zhuang Fangyi and Arclight, so she gets no uniqueness bonus."
+   },
+   "pin": {
+    "dmg": "B"
+   }
+  },
+  "zhuangfangyi": {
+   "difficulty": "high",
+   "tags": [
+    "aoe_st",
+    "sig"
+   ],
+   "dmgProfile": {
+    "weapon": "Lone Barge",
+    "set": null,
+    "burst": 1.656,
+    "coverage": "aoe_st"
+   },
+   "cap": {
+    "es": "Carry de Electric de gama alta: consume Electrification, despliega Sunderblades y se transmuta en Empyrean of Truth para potenciar sus básicos. El set-up es de los más complejos del juego, pero una vez en Empyrean su daño es difícilmente igualable. Techo altísimo y flexible dentro de comps eléctricas.",
+    "en": "Top-end Electric carry: consumes Electrification, deploys Sunderblades and transforms into Empyrean of Truth to empower her basics. The set-up is one of the most complex in the game, but once in Empyrean her damage is hard to match. Very high ceiling and flexible within Electric comps."
+   },
+   "pin": {
+    "dmg": "S+"
+   }
+  },
+  "yvonne": {
+   "difficulty": "high",
+   "tags": [
+    "st",
+    "sig"
+   ],
+   "dmgProfile": {
+    "weapon": "Artzy Tyrannical",
+    "set": null,
+    "burst": 3.889,
+    "coverage": "st"
+   },
+   "cap": {
+    "es": "Hypercarry de Cryo a crítico, construida entera alrededor de su Ultimate: no aplica Inflictions sola, así que el equipo le pone Cryo en el jefe, ella las consume con su Battle Skill para forzar Solidification y generar energía, y lo cobra todo en una lluvia de balas de 220. Enorme contra jefes. Lo que cuesta: pide setup de Cryo/Nature y bastante mano.",
+    "en": "Crit-based Cryo hypercarry built entirely around her Ultimate: she can't apply Inflictions alone, so the team puts Cryo on the boss, she consumes it with her Battle Skill to force Solidification and generate energy, and cashes it all in on a 220-energy bullet storm. Huge against bosses. The cost: she needs Cryo/Nature setup and a steady hand."
+   },
+   "pin": {
+    "dmg": "S+"
+   }
+  },
+  "lastrite": {
+   "difficulty": "high",
+   "tags": [
+    "locked",
+    "st",
+    "subdps",
+    "sig"
+   ],
+   "dmgProfile": {
+    "weapon": "Khravengger",
+    "set": null,
+    "burst": 4.032,
+    "coverage": "st"
+   },
+   "cap": {
+    "es": "El mayor techo de burst del juego, con la rotación más estricta. Acumula stacks de Cryo Infliction y su Combo de 4 stacks los detona fuera de pantalla con sus Mirages: el detonador ideal junto a Yvonne o Xaihi. La A penaliza dificultad + ST + lock; dentro de su nicho es S.",
+    "en": "The highest burst ceiling in the game, with the strictest rotation. She stacks Cryo Infliction and her 4-stack Combo detonates it off-screen with her Mirages: the ideal detonator alongside Yvonne or Xaihi. The A penalizes difficulty + ST + lock; within her niche she's S."
+   },
+   "pin": {
+    "dmg": "S"
+   }
+  },
+  "endministrator": {
+   "difficulty": "med",
+   "tags": [
+    "aoe_st"
+   ],
+   "dmgProfile": {
+    "weapon": "Grand Vision",
+    "set": null,
+    "burst": 1.867,
+    "coverage": "aoe_st"
+   },
+   "cap": {
+    "es": "El MC: aplica Crush y siembra Originium Crystals que sellan al enemigo y le meten Physical Susceptibility, que se autoamplifica. Su techo depende de tener activa la cadena Vulnerability → Breach (Chen Qianyu + Pogranichnik); con ella es el carry de Físico más potente. Su arma promocional es Grand Vision (sinergia con Originium Crystals) y es muy flexible. Con la llegada de Mi Fu dejó de ser el único carry Physical AoE+ST y cae a su valor real.",
+    "en": "The MC: applies Crush and seeds Originium Crystals that seal the enemy and apply self-amplifying Physical Susceptibility. His ceiling depends on the Vulnerability → Breach chain being live (Chen Qianyu + Pogranichnik); with it he's the strongest Physical carry. His signature weapon is Grand Vision (synergizing with Originium Crystals) and he's very flexible. With Mi Fu's arrival he's no longer the only Physical AoE+ST carry and drops to his real value."
+   },
+   "pin": {
+    "dmg": "A"
+   }
+  },
+  "mifu": {
+   "difficulty": "med",
+   "tags": [
+    "aoe_st",
+    "sig"
+   ],
+   "dmgProfile": {
+    "weapon": "Amaranthine Tassel",
+    "set": null,
+    "burst": 2.833,
+    "coverage": "aoe_st"
+   },
+   "cap": {
+    "es": "Carry de Físico a Crush: consume Vulnerability para detonar World Splitter, se autoaplica Physical Susceptibility con su Combo y reparte Lift con el Ultimate. Cobertura AoE+ST y un autoescudo (Vigilant Fury) que la deja jugar agresiva. Lo que cuesta: depende de stacks de Vulnerability y de un enabler que se los alimente.",
+    "en": "Physical Crush carry: consumes Vulnerability to detonate World Splitter, self-applies Physical Susceptibility with her Combo and hands out Lift with her Ultimate. AoE+ST coverage plus a self-shield (Vigilant Fury) that lets her play aggressive. The cost: she relies on Vulnerability stacks and an enabler to feed them."
+   },
+   "pin": {
+    "dmg": "S"
+   }
+  },
+  "arclight": {
+   "difficulty": "med",
+   "tags": [
+    "st",
+    "sig"
+   ],
+   "dmgProfile": {
+    "weapon": "Thermite Cutter",
+    "set": null,
+    "burst": 2.76,
+    "coverage": "st"
+   },
+   "cap": {
+    "es": "Asesina de blink: se teletransporta junto al enemigo y consume Electrification para un burst de un solo objetivo. En comps eléctricas también funciona como motor de SP, reciclando la Electrification que reparten Perlica o Avywenna. Buena sub-carry de Electric.",
+    "en": "Blink assassin: teleports beside the enemy and consumes Electrification for single-target burst. In Electric comps she also doubles as an SP engine, recycling the Electrification Perlica or Avywenna leave behind. A solid Electric sub-carry."
+   },
+   "pin": {
+    "dmg": "B"
+   }
+  },
+  "estella": {
+   "difficulty": "low",
+   "tags": [
+    "aoe",
+    "4star"
+   ],
+   "dmgProfile": {
+    "weapon": "OBJ Razorhorn",
+    "set": null,
+    "burst": 4.189,
+    "coverage": "aoe"
+   },
+   "cap": {
+    "es": "Pick de presupuesto excelente: híbrida de Cryo y Físico con un loop de Shatter que devuelve SP, más Lift y Freeze con apoyo de Cryo. Sub-DPS que rinde muy por encima de su rareza y aguanta como carry secundario.",
+    "en": "Excellent budget pick: a Cryo/Physical hybrid with a Shatter loop that returns SP, plus Lift and Freeze with Cryo support. A sub-DPS that punches well above its rarity and holds up as a secondary carry."
+   },
+   "pin": {
+    "dmg": "B"
+   }
+  },
+  "ember": {
+   "difficulty": "low",
+   "tags": [
+    "aoe",
+    "buffer"
+   ],
+   "dmgProfile": {
+    "weapon": "Thunderberge",
+    "set": null,
+    "burst": 2.041,
+    "coverage": "aoe"
+   },
+   "baseSup": 18,
+   "cap": {
+    "es": "Bruiser-tanque: Knock Down y escudos para todo el equipo. Su daño es bajo; su valor real es defensivo y de utilidad, no de DPS.",
+    "en": "Tanky bruiser: Knock Down and team-wide shields. Her damage is low; her real value is defensive and utility, not DPS."
+   },
+   "pin": {
+    "dmg": "C",
+    "sup": "B"
+   }
+  },
+  "gilberta": {
+   "difficulty": "med",
+   "tags": [
+    "universal",
+    "buffer"
+   ],
+   "baseSup": 90,
+   "cap": {
+    "es": "Buffer de Nature T0 y casi universal: su Battle Skill es un pozo de gravedad que agrupa y aplica Corrosión, y su Ultimate deja una Susceptibility de Arts brutal que multiplica el burst siguiente. Además reparte Vulnerability gratis que arranca a varios carries y encadena su Combo con el de Perlica. Pieza centralizadora que sube el techo de medio meta.",
+    "en": "T0, near-universal Nature buffer: her Battle Skill is a gravity well that groups and applies Corrosion, and her Ultimate leaves a brutal Arts Susceptibility that multiplies the following burst. She also hands out free Vulnerability that kickstarts several carries and chains her Combo with Perlica's. A centralizing piece that raises half the meta's ceiling."
+   },
+   "pin": {
+    "sup": "S+"
+   }
+  },
+  "perlica": {
+   "difficulty": "low",
+   "tags": [
+    "universal",
+    "enabler",
+    "subdps"
+   ],
+   "baseSup": 90,
+   "cap": {
+    "es": "Enabler universal: dispara el Combo de casi cualquier carry de Arts (ignora las Inflictions previas), fuerza Electrification sin coste de SP y staggea de forma fiable. Su Electrification aplica Arts DMG Taken, un multiplicador raro y separado que amplifica a todo el equipo. Encaja en ~90 % de las comps y también puede sub-DPS.",
+    "en": "Universal enabler: triggers the Combo of nearly any Arts carry (ignoring existing Inflictions), forces SP-free Electrification and staggers reliably. Her Electrification applies Arts DMG Taken, a rare separate multiplier that amplifies the whole team. She fits ~90% of comps and can also sub-DPS."
+   },
+   "pin": {
+    "sup": "S+"
+   }
+  },
+  "tangtang": {
+   "difficulty": "med",
+   "tags": [
+    "dual",
+    "enabler",
+    "aoe"
+   ],
+   "dmgProfile": {
+    "weapon": "Brigand's Calling",
+    "set": null,
+    "burst": 2.467,
+    "coverage": "aoe"
+   },
+   "baseSup": 90,
+   "cap": {
+    "es": "Paquete dual completo: un aura de Whirlpool que buffea a los aliados cercanos, OLDEN STARE que inmoviliza, y su propio daño de Cryo. Soporte premium que además puede cargar equipos de Cryo, donde es de los mejores enablers disponibles.",
+    "en": "The complete dual package: a Whirlpool aura that buffs nearby allies, OLDEN STARE that locks enemies down, and her own Cryo damage. A premium support that can also carry Cryo teams, where she's one of the best enablers available."
+   },
+   "pin": {
+    "dmg": "B",
+    "sup": "S+"
+   }
+  },
+  "pogranichnik": {
+   "difficulty": "med",
+   "tags": [
+    "dual",
+    "enabler",
+    "st"
+   ],
+   "dmgProfile": {
+    "weapon": "Thermite Cutter",
+    "set": null,
+    "burst": 2.055,
+    "coverage": "st"
+   },
+   "baseSup": 90,
+   "cap": {
+    "es": "El backbone de Físico: genera Vulnerability, aplica Breach y, con su Ultimate, abre una ventana que recupera mucho SP y buffea al equipo — el motor económico de toda comp física. Como sub-DPS pega fuerte, pero brilla habilitando: sin él, las cadenas de Breach se quedan sin recursos.",
+    "en": "The Physical backbone: builds Vulnerability, applies Breach and, with his Ultimate, opens a window that recovers lots of SP and buffs the team — the economic engine of every Physical comp. He hits hard as a sub-DPS, but shines as an enabler: without him, Breach chains run out of resources."
+   },
+   "pin": {
+    "dmg": "B",
+    "sup": "S+"
+   }
+  },
+  "antal": {
+   "difficulty": "low",
+   "tags": [
+    "flex",
+    "buffer",
+    "4star"
+   ],
+   "baseSup": 82,
+   "cap": {
+    "es": "La batería de Amp: reparte Electric y Heat Amp a todo el equipo, más Susceptibility y algo de cura, por muy poco SP (100 cada 60 s). Su Amp es un multiplicador separado del resto, así que se apila sin competir; un GOAT de presupuesto, semi-flexible por sus dos elementos.",
+    "en": "The Amp battery: hands the whole team Electric and Heat Amp, plus Susceptibility and a bit of healing, for very little SP (100 every 60s). Its Amp is a separate multiplier from everything else, so it stacks without competing; a budget GOAT, semi-flexible thanks to its two elements."
+   },
+   "pin": {
+    "sup": "S"
+   }
+  },
+  "wulfgard": {
+   "difficulty": "low",
+   "tags": [
+    "locked",
+    "enabler"
+   ],
+   "baseSup": 82,
+   "cap": {
+    "es": "El enabler de Heat: su Battle Skill aplica Heat single-target y se puede spamear, su Combo lo aplica gratis en área, y su Ultimate deja Combustión bajo demanda. Encerrado en Heat, pero es el motor que mantiene el bucle de toda comp de fuego — y consume Arts Inflictions de paso.",
+    "en": "The Heat enabler: his Battle Skill applies single-target Heat and can be spammed, his Combo applies it free in an area, and his Ultimate drops Combustion on demand. Locked to Heat, but the engine that keeps every fire comp's loop alive — and consumes Arts Inflictions along the way."
+   },
+   "pin": {
+    "sup": "S"
+   }
+  },
+  "camille": {
+   "difficulty": "med",
+   "tags": [
+    "locked",
+    "enabler"
+   ],
+   "baseSup": 82,
+   "cap": {
+    "es": "El enabler premium de Heat: sus Firefang Vesperwings aplican Heat Infliction y dejan Weakness y Heat Susceptibility sobre el objetivo mientras sobrevuelan, y su Combo devuelve SP cada vez que se consume una Heat Infliction. El Ultimate abre 15 s de Hunter Pursuit — dashes sin coste de SP que reciclan aún más SP y energía — y sus curas propias alimentan Link y un buff de Heat DMG que comparte en parte con el equipo. Encerrado en Heat, pero ahí lo habilita todo.",
+    "en": "The premium Heat enabler: his Firefang Vesperwings apply Heat Infliction and leave Weakness and Heat Susceptibility on the target while they hover, and his Combo returns SP every time a Heat Infliction is consumed. His Ultimate opens 15s of Hunter Pursuit — SP-free dashes that recycle even more SP and energy — and his self-heals feed Link and a Heat DMG buff he partially shares with the team. Locked to Heat, but there he enables everything."
+   },
+   "pin": {
+    "sup": "S"
+   }
+  },
+  "arcane": {
+   "difficulty": "med",
+   "tags": [
+    "dual",
+    "enabler",
+    "flex",
+    "subdps"
+   ],
+   "dmgProfile": {
+    "weapon": "Type 42: Solemn Phalanx",
+    "set": null,
+    "burst": 1.763,
+    "coverage": "aoe_st"
+   },
+   "baseSup": 88,
+   "cap": {
+    "es": "Dos operadoras en una (Array Arcana): con INT ≥ Will es la main-C de Nature — bucle de Imprison detonado con la battle skill, Corrosion forzada de 25 s con herencia de valores y una ult en dos partes con hasta 40% de Arts Amp. Con Will > INT se vuelve soporte de cualquier equipo Arts: capas extra del elemento del equipo, Nature/Cryo Susceptibility escalada por Will (tope 12.8% a 640), agrupamiento y la cámara lenta de Imprison. Lo que cuesta: el modo depende del build (gap base de 55 puntos) y el tope de soporte pide invertir en Will.",
+    "en": "Two operators in one (Array Arcana): with INT ≥ Will she is the Nature main-C — an Imprison loop detonated by the battle skill, 25s forced Corrosion with value inheritance and a two-part ultimate with up to 40% Arts Amp. With Will > INT she turns into a support for any Arts team: extra stacks of the team's element, Will-scaled Nature/Cryo Susceptibility (12.8% cap at 640), grouping and the Imprison slow-mo. The cost: the mode depends on the build (55-point base gap) and the support cap asks for Will investment."
+   },
+   "pin": {
+    "dmg": "A",
+    "sup": "S+"
+   },
+   "facetModes": {
+    "dmg": "INT",
+    "sup": "WILL"
+   }
+  },
+  "lifeng": {
+   "difficulty": "med",
+   "tags": [
+    "flex",
+    "enabler"
+   ],
+   "baseSup": 82,
+   "cap": {
+    "es": "Enabler de Físico premium: su Knock Down carga Vulnerability, reparte Link al equipo y trae un escalado de ATK enorme. Pega como \"4.º DPS oportunista\" cuando Breach está activo y abre ventanas con su stagger.",
+    "en": "Premium Physical enabler: his Knock Down builds Vulnerability, hands the team Link and brings huge ATK scaling. He hits as an \"opportunistic 4th DPS\" when Breach is up and opens windows with his stagger."
+   },
+   "pin": {
+    "sup": "S"
+   }
+  },
+  "xaihi": {
+   "difficulty": "low",
+   "tags": [
+    "locked",
+    "enabler",
+    "5star"
+   ],
+   "baseSup": 82,
+   "cap": {
+    "es": "El soporte de Cryo: reparte Cryo y Nature Amp al equipo, acumula Cryo Infliction y cura en pasiva, todo sin pedir mucho a cambio. Esencial en Cryo; comparte el nicho de enabler de Cryo con Alesh, así que su base la sostiene en S sin bono de escasez.",
+    "en": "The Cryo support: hands the team Cryo and Nature Amp, stacks Cryo Infliction and heals passively, all without asking much in return. Essential in Cryo; she shares the Cryo enabler niche with Alesh, so her base holds her at S without a scarcity bonus."
+   },
+   "pin": {
+    "sup": "S"
+   }
+  },
+  "snowshine": {
+   "difficulty": "low",
+   "tags": [
+    "flex",
+    "buffer"
+   ],
+   "baseSup": 62,
+   "cap": {
+    "es": "Soporte defensivo casi universal: escudos y Protection, cura, Cryo Infliction y un buff de Cryo DMG con Susceptibility. Glue de supervivencia que encaja en muchos equipos cuando hace falta aguantar sin perder utilidad.",
+    "en": "Near-universal defensive support: shields and Protection, healing, Cryo Infliction and a Cryo DMG buff with Susceptibility. A survivability glue that fits many teams when you need to hold without losing utility."
+   },
+   "pin": {
+    "sup": "S"
+   }
+  },
+  "chenqianyu": {
+   "difficulty": "low",
+   "tags": [
+    "flex",
+    "enabler"
+   ],
+   "baseSup": 74,
+   "cap": {
+    "es": "Enabler de Físico no-negociable: su Lift carga la Vulnerability más alta del juego, además de stagger y un buff de ATK. Su Combo tiene cooldown corto y se reactiva casi solo, así que sostiene la cadena de debuffs que alimenta a carries como Da Pan, Endministrator y Pogranichnik.",
+    "en": "Non-negotiable Physical enabler: her Lift builds the highest Vulnerability in the game, plus stagger and an ATK buff. Her Combo has a short cooldown and refreshes almost on its own, sustaining the debuff chain that feeds carries like Da Pan, Endministrator and Pogranichnik."
+   },
+   "pin": {
+    "sup": "A"
+   }
+  },
+  "ardelia": {
+   "difficulty": "low",
+   "tags": [
+    "flex",
+    "buffer"
+   ],
+   "baseSup": 74,
+   "cap": {
+    "es": "Buffer de Nature versátil: su Combo regala Corrosión sin coste y su Battle Skill la consume para estampar una Susceptibility de Físico y Arts de 30 s que sube el daño de todos los elementos. Encima cura con las ovejas de Friendly Presence, así que aporta multiplicador y sustain a la vez — útil incluso fuera de comps Nature.",
+    "en": "Versatile Nature buffer: her Combo gifts free Corrosion and her Battle Skill consumes it to stamp a 30s Physical+Arts Susceptibility that raises every element's damage. On top of that her Friendly Presence sheep heal, so she brings a multiplier and sustain at once — useful even outside Nature comps."
+   },
+   "pin": {
+    "sup": "A"
+   }
+  },
+  "alesh": {
+   "difficulty": "low",
+   "tags": [
+    "locked",
+    "enabler"
+   ],
+   "baseSup": 72,
+   "cap": {
+    "es": "Glue de Cryo accesible: mantiene Cryo Infliction siempre activo, consume Solidification y recicla SP para el equipo. Un enabler de Cryo fiable y barato, aunque encerrado en ese único elemento.",
+    "en": "Accessible Cryo glue: keeps Cryo Infliction up at all times, consumes Solidification and recycles SP for the team. A reliable, cheap Cryo enabler, though locked into that single element."
+   },
+   "pin": {
+    "sup": "A"
+   }
+  },
+  "rossi": {
+   "difficulty": "med",
+   "tags": [
+    "dual",
+    "enabler",
+    "flex"
+   ],
+   "dmgProfile": {
+    "weapon": "Lupine Scarlet",
+    "set": null,
+    "burst": 3.065,
+    "coverage": "st"
+   },
+   "baseSup": 74,
+   "cap": {
+    "es": "Enabler que carrea: reparte Vulnerability y Lift, marca con Razor Clawmark (sube el Físico y el Heat DMG Taken del objetivo) y se autocura. Híbrida de Heat y Físico, redonda en ambas facetas aunque no hace pico en ninguna. Es el ejemplar de voz de las guías.",
+    "en": "An enabler that carries: hands out Vulnerability and Lift, marks with Razor Clawmark (raising the target's Physical and Heat DMG taken) and self-heals. A Heat/Physical hybrid, well-rounded in both facets though peaking in neither. She's the voice exemplar of the guides."
+   },
+   "pin": {
+    "dmg": "S",
+    "sup": "A"
+   }
+  },
+  "akekuri": {
+   "difficulty": "low",
+   "tags": [
+    "dual",
+    "enabler",
+    "4star"
+   ],
+   "dmgProfile": {
+    "weapon": "Thermite Cutter",
+    "set": null,
+    "burst": 1.639,
+    "coverage": "st"
+   },
+   "baseSup": 72,
+   "cap": {
+    "es": "Enabler de Heat de presupuesto: aplica Heat Infliction en área, Link y SP a bajo coste. Su Link escala el daño de Battle Skill del carry (clave con Avywenna y Laevatain) y es el pick accesible de las comps de fuego. También puede pelear de cerca como sub-DPS.",
+    "en": "Budget Heat enabler: applies area Heat Infliction, Link and SP at low cost. Her Link scales the carry's Battle Skill damage (key with Avywenna and Laevatain) and makes her the accessible pick for fire comps. She can also brawl up close as a sub-DPS."
+   },
+   "pin": {
+    "dmg": "C",
+    "sup": "A"
+   }
+  },
+  "dapan": {
+   "difficulty": "low",
+   "tags": [
+    "dual",
+    "buffer",
+    "st",
+    "5star"
+   ],
+   "dmgProfile": {
+    "weapon": "Exemplar",
+    "set": null,
+    "burst": 1.61,
+    "coverage": "st"
+   },
+   "baseSup": 60,
+   "cap": {
+    "es": "Wok de Crush y Lift: sub-DPS de Físico de presupuesto que protege mientras pega. Aplica Crush y reparte Vulnerability al equipo, y sus escudos dejan jugar agresivo sin vigilar el HP — valor ofensivo y defensivo en el mismo hueco.",
+    "en": "Wok of Crush and Lift: a budget Physical sub-DPS that protects while it hits. He applies Crush and feeds the team Vulnerability, and his shields let you play aggressive without watching your HP — offense and defense in the same slot."
+   },
+   "pin": {
+    "dmg": "B",
+    "sup": "B"
+   }
+  },
+  "fluorite": {
+   "difficulty": "low",
+   "tags": [
+    "locked",
+    "buffer",
+    "4star"
+   ],
+   "baseSup": 58,
+   "cap": {
+    "es": "Relleno de Nature de presupuesto: Slow, Nature Infliction y explosiones de Arts. Su Combo apila Cryo Infliction muy rápido, lo que la hace un acelerador útil para carries de stacks como Last Rite. Sub-DPS/soporte para comps de Nature o Cryo.",
+    "en": "Budget Nature filler: Slow, Nature Infliction and Arts explosions. Her Combo stacks Cryo Infliction very fast, making her a handy accelerant for stack carries like Last Rite. A sub-DPS/support for Nature or Cryo comps."
+   },
+   "pin": {
+    "sup": "B"
+   }
+  },
+  "catcher": {
+   "difficulty": "low",
+   "tags": [
+    "flex",
+    "enabler",
+    "4star"
+   ],
+   "baseSup": 40,
+   "cap": {
+    "es": "Muro de presupuesto: escudos y Protection para aguantar, más SP, Weaken, Vulnerability y Knock Down. La defensa accesible para cuando el contenido pega y hace falta sostener la línea.",
+    "en": "Budget wall: shields and Protection to hold the line, plus SP, Weaken, Vulnerability and Knock Down. The accessible defense for when content hits hard and you need to hold."
+   },
+   "pin": {
+    "sup": "B"
+   }
+  }
+ }
+}

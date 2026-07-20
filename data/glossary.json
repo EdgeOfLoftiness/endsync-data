@@ -1,0 +1,523 @@
+{
+  "version": 1,
+  "terms": [
+    {
+      "id": "carry",
+      "cat": "role",
+      "match": ["carry", "main dps", "main carry"],
+      "label": { "es": "Carry / DPS principal", "en": "Carry / Main DPS" },
+      "body": { "es": "El operador que hace la mayor parte del daño del equipo. Todo el resto del equipo existe para potenciarlo y crear sus ventanas de daño.", "en": "The operator that deals most of the team's damage. The rest of the team exists to empower it and open its damage windows." }
+    },
+    {
+      "id": "dps",
+      "cat": "role",
+      "match": ["dps"],
+      "label": { "es": "DPS", "en": "DPS" },
+      "body": { "es": "Damage Per Second. Operador cuyo rol es infligir daño. Suele ser el foco de inversión del equipo.", "en": "Damage Per Second. An operator whose role is dealing damage. Usually the team's main investment focus." }
+    },
+    {
+      "id": "subdps",
+      "cat": "role",
+      "match": ["sub-dps", "subdps", "sub dps", "sub-carry"],
+      "label": { "es": "Sub-DPS", "en": "Sub-DPS" },
+      "body": { "es": "Operador que aporta daño secundario significativo además del carry, normalmente activando reacciones o rellenando los huecos de la rotación.", "en": "An operator that adds significant secondary damage alongside the carry, usually triggering reactions or filling the rotation's gaps." }
+    },
+    {
+      "id": "enabler",
+      "cat": "role",
+      "match": ["enabler", "enablers", "habilitador"],
+      "label": { "es": "Enabler", "en": "Enabler" },
+      "body": { "es": "Operador que prepara el terreno para el carry: aplica Inflictions/estados, genera SP y crea las condiciones del burst. Por sí solo hace poco daño, pero sin él el carry no rinde.", "en": "An operator that sets up the carry: applies Inflictions/statuses, generates SP and creates the burst conditions. Deals little on its own, but the carry underperforms without it." }
+    },
+    {
+      "id": "buffer",
+      "cat": "role",
+      "match": ["buffer", "buffers"],
+      "label": { "es": "Buffer", "en": "Buffer" },
+      "body": { "es": "Operador que potencia las estadísticas del equipo (ATK, daño, velocidad…). Sus buffs solo valen si hay un carry que los aproveche.", "en": "An operator that boosts the team's stats (ATK, damage, speed…). Its buffs only matter if there's a carry to make use of them." }
+    },
+    {
+      "id": "support",
+      "cat": "role",
+      "match": ["support", "supports", "soporte", "soportes"],
+      "label": { "es": "Support / Soporte", "en": "Support" },
+      "body": { "es": "Operador de apoyo: cura, escudos, utilidad o buffs. Mantiene al equipo vivo y funcionando para que el carry pueda concentrarse en el daño.", "en": "A support operator: healing, shields, utility or buffs. Keeps the team alive and running so the carry can focus on damage." }
+    },
+    {
+      "id": "healer",
+      "cat": "role",
+      "match": ["healer", "healers", "sanador", "sanadora"],
+      "label": { "es": "Healer / Sanador", "en": "Healer" },
+      "body": { "es": "Operador cuya función principal es restaurar la salud del equipo. Imprescindible en composiciones sin auto-sustain (sustainless).", "en": "An operator whose main job is restoring the team's health. Essential in comps without self-sustain (sustainless)." }
+    },
+    {
+      "id": "flex",
+      "cat": "role",
+      "match": ["flex"],
+      "label": { "es": "Flex", "en": "Flex" },
+      "body": { "es": "Espacio flexible del equipo: puedes meter al operador que prefieras según el contenido (más daño, más utilidad o más sustain).", "en": "A flexible team slot: drop in whichever operator you prefer for the content (more damage, utility or sustain)." }
+    },
+    {
+      "id": "sp",
+      "cat": "mechanic",
+      "match": ["sp"],
+      "label": { "es": "SP (Skill Points)", "en": "SP (Skill Points)" },
+      "body": { "es": "Recurso que se gasta para usar Battle Skills. Muchos equipos giran en torno a generar SP en bucle para sostener la rotación.", "en": "Resource spent to use Battle Skills. Many teams revolve around looping SP generation to sustain the rotation." }
+    },
+    {
+      "id": "stagger",
+      "cat": "mechanic",
+      "match": ["stagger", "staggered", "aturdimiento"],
+      "label": { "es": "Tambaleo", "en": "Stagger" },
+      "body": { "es": "Barra de tambaleo del enemigo. Al llenarla, el enemigo queda vulnerable un tiempo y abre una ventana larga de daño para el equipo.", "en": "The enemy's stagger gauge. Filling it leaves the enemy vulnerable for a while, opening a long damage window for the team." }
+    },
+    {
+      "id": "infliction",
+      "cat": "mechanic",
+      "match": ["infliction", "inflictions", "aflicción", "aflicciones"],
+      "label": { "es": "Imposición", "en": "Infliction", "jp": "付術", "zh": "附术" },
+      "body": { "es": "Estado elemental aplicado al enemigo (p. ej. Burning, Freeze). Acumularlos y romperlos dispara reacciones y es el motor de daño de muchas comps.", "en": "An elemental status applied to the enemy (e.g. Burning, Freeze). Stacking and breaking them triggers reactions and powers many comps." }
+    },
+    {
+      "id": "susceptibility",
+      "cat": "mechanic",
+      "match": ["susceptibility", "susceptibilidad"],
+      "label": { "es": "Susceptibility", "en": "Susceptibility" },
+      "body": { "es": "Debuff que aumenta el daño que recibe el enemigo. Aplicarlo justo antes del burst multiplica el daño de toda la ventana.", "en": "A debuff that increases the damage the enemy takes. Applying it right before the burst multiplies all the window's damage." }
+    },
+    {
+      "id": "ultimate",
+      "cat": "mechanic",
+      "match": ["ultimate", "ulti", "ult", "definitiva"],
+      "label": { "es": "Ultimate / Ulti", "en": "Ultimate / Ult" },
+      "body": { "es": "Habilidad más poderosa del operador, cargada con energía. Suele abrir o cerrar la ventana de burst del equipo.", "en": "The operator's most powerful ability, charged with energy. Usually opens or closes the team's burst window." }
+    },
+    {
+      "id": "combo_skill",
+      "cat": "mechanic",
+      "match": ["combo skill", "combo"],
+      "label": { "es": "Habilidad de combo", "en": "Combo Skill", "jp": "連携技", "zh": "连携技" },
+      "body": { "es": "Habilidad que se dispara al encadenar acciones o al cumplir una condición (no cuesta SP). Clave para los cancels y los enlaces entre operadores.", "en": "A skill triggered by chaining actions or meeting a condition (no SP cost). Key for cancels and links between operators." }
+    },
+    {
+      "id": "battle_skill",
+      "cat": "mechanic",
+      "match": ["battle skill", "bs"],
+      "label": { "es": "Battle Skill (BS)", "en": "Battle Skill (BS)" },
+      "body": { "es": "Habilidad activa que cuesta SP. Es la herramienta principal de daño/utilidad que repites durante la rotación.", "en": "An active skill that costs SP. The main damage/utility tool you repeat throughout the rotation." }
+    },
+    {
+      "id": "basic_attack",
+      "cat": "mechanic",
+      "match": ["basic attack", "ataque básico", "auto attack"],
+      "label": { "es": "Ataque básico", "en": "Basic Attack", "jp": "通常攻撃" },
+      "body": { "es": "Ataque normal sin coste. Genera recursos (SP, Energize) y enlaza con las habilidades para mantener la cadena.", "en": "Your free normal attack. Generates resources (SP, Energize) and links into skills to keep the chain going." }
+    },
+    {
+      "id": "energize",
+      "cat": "mechanic",
+      "match": ["energize", "energized", "energizado"],
+      "label": { "es": "Energize", "en": "Energize" },
+      "body": { "es": "Recurso que se acumula al moverte y atacar. Al llenar los stacks, tu siguiente ataque se potencia (más daño, curación o buff según el operador).", "en": "A resource built up by moving and attacking. When stacks fill, your next attack is empowered (more damage, healing or a buff depending on the operator)." }
+    },
+    {
+      "id": "burst",
+      "cat": "mechanic",
+      "match": ["burst", "ventana de burst", "burst window"],
+      "label": { "es": "Burst", "en": "Burst" },
+      "body": { "es": "La ventana corta donde concentras todo el daño del equipo (buffs + ultimates + reacciones alineados). El objetivo de casi toda la rotación es maximizarla.", "en": "The short window where you concentrate the team's whole damage (buffs + ultimates + reactions aligned). Most of the rotation aims to maximize it." }
+    },
+    {
+      "id": "cooldown",
+      "cat": "mechanic",
+      "match": ["cooldown", "cd", "enfriamiento"],
+      "label": { "es": "Cooldown (CD)", "en": "Cooldown (CD)" },
+      "body": { "es": "Tiempo de espera tras usar una habilidad antes de poder repetirla. Gestionar los CDs es clave para no romper la rotación.", "en": "The wait time after using a skill before you can use it again. Managing CDs is key to not breaking the rotation." }
+    },
+    {
+      "id": "bis",
+      "cat": "stat",
+      "match": ["bis", "best in slot"],
+      "label": { "es": "BiS (Best in Slot)", "en": "BiS (Best in Slot)" },
+      "body": { "es": "La mejor opción posible para un operador en ese hueco (arma, set de equipo, pieza). No siempre es obligatoria: a veces hay alternativas casi igual de buenas.", "en": "The best possible option for an operator in that slot (weapon, gear set, piece). Not always mandatory: sometimes there are near-equal alternatives." }
+    },
+    {
+      "id": "signature_weapon",
+      "cat": "stat",
+      "match": ["signature weapon", "arma promocional", "arma firma", "arma insignia"],
+      "label": { "es": "Arma promocional (Signature)", "en": "Signature Weapon" },
+      "body": { "es": "El arma diseñada específicamente para un operador, normalmente su mejor opción. Suele ser un 6★ con un pasivo hecho a su medida.", "en": "The weapon designed specifically for an operator, usually its best option. Typically a 6★ with a passive tailored to it." }
+    },
+    {
+      "id": "essence",
+      "cat": "stat",
+      "match": ["essence", "esencia", "flawless"],
+      "label": { "es": "Essence / Esencia", "en": "Essence" },
+      "body": { "es": "Sistema de grabado del arma que sube sus stats. \"Flawless\" es el grabado al máximo (9/9/9), el tope de inversión del arma.", "en": "The weapon etching system that raises its stats. \"Flawless\" is the max etch (9/9/9), the weapon's investment ceiling." }
+    },
+    {
+      "id": "potential",
+      "cat": "stat",
+      "match": ["potential", "potencial", "dupes", "duplicados"],
+      "label": { "es": "Potencial / Dupes", "en": "Potential / Dupes" },
+      "body": { "es": "Mejoras que se desbloquean al obtener copias del mismo operador. Aumentan stats o potencian habilidades. No suelen ser obligatorias para que el operador funcione.", "en": "Upgrades unlocked by getting copies of the same operator. They raise stats or empower skills. Usually not required for the operator to function." }
+    },
+    {
+      "id": "amp",
+      "cat": "mechanic",
+      "match": ["amp", "amps", "amplificación", "amplificacion"],
+      "label": { "es": "Amp / Amplificación", "en": "Amp / Amplification" },
+      "body": { "es": "Los buffs que multiplican el daño que TÚ haces: ATK%, DMG%, Crit. Es la otra mitad del combo con Susceptibility (que sube el daño que el enemigo RECIBE). Un buen apoyo mantiene ambos arriba justo en la ventana de burst.", "en": "The buffs that multiply the damage YOU deal: ATK%, DMG%, Crit. It's the other half of the combo with Susceptibility (which raises the damage the enemy TAKES). A good support keeps both up right in the burst window." }
+    },
+    {
+      "id": "vulnerability",
+      "cat": "mechanic",
+      "match": ["vulnerability", "vulnerabilidad"],
+      "label": { "es": "Vulnerability", "en": "Vulnerability" },
+      "body": { "es": "Marca con stacks (máx 4) que dejan los ataques físicos, Lift y Knock Down sobre el enemigo. Crush y Breach los consumen todos de golpe para pegar daño Physical masivo. Es el recurso central de las comps físicas.", "en": "Stacks (max 4) left on the enemy by Physical attacks, Lift and Knock Down. Crush and Breach consume them all at once for massive Physical DMG. The central resource of Physical comps." }
+    },
+    {
+      "id": "final_strike",
+      "cat": "mechanic",
+      "match": ["final strike", "final strikes", "golpe final"],
+      "label": { "es": "Golpe final", "en": "Final Strike", "jp": "重攻撃", "zh": "重击" },
+      "body": { "es": "El último golpe de la cadena de ataque básico. Como operador controlado aplica Stagger, y muchos talentos se disparan justo con él. Cerrar la secuencia en Final Strike evita perder daño y recursos.", "en": "The last hit of the basic-attack chain. As the controlled operator it applies Stagger, and many talents key off it. Ending the sequence on a Final Strike avoids losing damage and resources." }
+    },
+    {
+      "id": "combustion",
+      "cat": "mechanic",
+      "match": ["combustion", "combustión"],
+      "label": { "es": "Combustion", "en": "Combustion" },
+      "body": { "es": "La reacción de Heat: se dispara al aplicar Heat sobre un enemigo que ya tiene otra Infliction. Causa una explosión y un fuerte daño por segundo (DoT). Es el disparador de daño de las comps de fuego.", "en": "The Heat reaction: triggered by applying Heat onto an enemy that already has another Infliction. It causes an explosion and strong damage-over-time (DoT). The damage trigger of fire comps." }
+    },
+    {
+      "id": "corrosion",
+      "cat": "mechanic",
+      "match": ["corrosion", "corrosión"],
+      "label": { "es": "Corrosion", "en": "Corrosion" },
+      "body": { "es": "La reacción de Nature: baja la RESISTENCIA del enemigo con el tiempo (con rampa), así que recibe más daño elemental. Motor de las comps de Nature y un amplificador para el resto del equipo. (La DEFENSA no se reduce en Endfield — es 100 fija; Corrosión toca la resistencia, no la DEF.)", "en": "The Nature reaction: lowers the enemy's RESISTANCE over time (ramping up), so it takes more elemental damage. The engine of Nature comps and an amplifier for the rest of the team. (DEFENSE is never reduced in Endfield — it's a fixed 100; Corrosion touches resistance, not DEF.)" }
+    },
+    {
+      "id": "solidification",
+      "cat": "mechanic",
+      "match": ["solidification", "solidificación", "solidificacion"],
+      "label": { "es": "Solidification", "en": "Solidification" },
+      "body": { "es": "La reacción de Cryo: congela por completo al enemigo y lo frena. Un enemigo Solidificado se puede romper con daño Physical (Shatter) para un golpe enorme. Es el núcleo de las comps de hielo (Yvonne, Last Rite).", "en": "The Cryo reaction: fully freezes the enemy and stops it. A Solidified enemy can be broken with Physical damage (Shatter) for a huge hit. The core of ice comps (Yvonne, Last Rite)." }
+    },
+    {
+      "id": "electrification",
+      "cat": "mechanic",
+      "match": ["electrification", "electrificación", "electrificacion"],
+      "label": { "es": "Electrification", "en": "Electrification" },
+      "body": { "es": "La reacción de Electric: el enemigo recibe más Arts DMG de todos tus ataques. Acumular y mantener Electrification arriba multiplica el daño de las comps eléctricas.", "en": "The Electric reaction: the enemy takes more Arts DMG from all your attacks. Stacking and keeping Electrification up multiplies the damage of Electric comps." }
+    },
+    {
+      "id": "crush",
+      "cat": "mechanic",
+      "match": ["crush"],
+      "label": { "es": "Triturar", "en": "Crush", "jp": "猛撃", "zh": "猛击" },
+      "body": { "es": "Golpe físico que consume TODOS los stacks de Vulnerability del enemigo para pegar daño Physical masivo — cuantos más consume, más daño. Es el remate de daño puro de los carries físicos.", "en": "A Physical hit that consumes ALL the enemy's Vulnerability stacks for massive Physical DMG — the more it consumes, the more damage. The raw finisher of Physical carries." }
+    },
+    {
+      "id": "breach",
+      "cat": "mechanic",
+      "match": ["breach"],
+      "label": { "es": "Brecha", "en": "Breach", "jp": "破砕", "zh": "碎甲" },
+      "body": { "es": "Hermano de Crush: consume todos los stacks de Vulnerability, pega daño Physical y además deja al enemigo recibiendo MÁS daño Physical un rato. Más stacks = más daño, más duración y debuff más fuerte.", "en": "Crush's sibling: consumes all Vulnerability stacks, deals Physical DMG and also leaves the enemy taking MORE Physical DMG for a while. More stacks = more damage, longer duration and a stronger debuff." }
+    },
+    {
+      "id": "shatter",
+      "cat": "mechanic",
+      "match": ["shatter", "shatters", "shattering"],
+      "label": { "es": "Quebrar", "en": "Shatter", "jp": "粉砕", "zh": "碎冰" },
+      "body": { "es": "Romper a un enemigo Solidificado golpeándolo con daño Physical: estalla en un golpe Physical enorme y termina el congelamiento. Operadores Cryo como Estella viven de encadenar Shatters baratos.", "en": "Breaking a Solidified enemy by hitting it with Physical damage: it bursts for a huge Physical hit and ends the freeze. Cryo operators like Estella thrive on chaining cheap Shatters." }
+    },
+    {
+      "id": "lift",
+      "cat": "mechanic",
+      "match": ["lift", "lifts", "lifting"],
+      "label": { "es": "Levantar", "en": "Lift", "jp": "浮遊", "zh": "击飞" },
+      "body": { "es": "Control de masas que levanta al enemigo (lo interrumpe y lo expone) y, mientras conecta, va acumulando Vulnerability. Doble función: frena al enemigo y carga los stacks que luego consumen Crush/Breach.", "en": "A crowd-control that lifts the enemy (interrupting and exposing it) and, while it connects, keeps stacking Vulnerability. Double duty: stops the enemy and builds the stacks Crush/Breach later consume." }
+    },
+    {
+      "id": "heat_infliction",
+      "cat": "mechanic",
+      "match": ["heat infliction"],
+      "label": { "es": "Imp. de cal.", "en": "Heat Infliction", "jp": "灼熱付着", "zh": "灼热附着" },
+      "body": { "es": "El estado elemental de Heat sobre el enemigo. Al combinarse con otra Infliction dispara Combustion (explosión + daño por segundo). La chispa de las comps de fuego.", "en": "The Heat elemental status on the enemy. Combined with another Infliction it triggers Combustion (explosion + damage-over-time). The spark of fire comps." }
+    },
+    {
+      "id": "cryo_infliction",
+      "cat": "mechanic",
+      "match": ["cryo infliction"],
+      "label": { "es": "Imp. crio.", "en": "Cryo Infliction", "jp": "寒冷付着", "zh": "寒冷附着" },
+      "body": { "es": "El estado elemental de Cryo. Acumularlo lleva a Solidification (congela al enemigo), que luego se rompe con daño Physical (Shatter). Núcleo de las comps de hielo.", "en": "The Cryo elemental status. Stacking it leads to Solidification (freezes the enemy), later broken with Physical damage (Shatter). Core of ice comps." }
+    },
+    {
+      "id": "electric_infliction",
+      "cat": "mechanic",
+      "match": ["electric infliction"],
+      "label": { "es": "Imp. elec.", "en": "Electric Infliction", "jp": "電磁付着", "zh": "电磁附着" },
+      "body": { "es": "El estado elemental de Electric. Lleva a Electrification, que hace que el enemigo reciba más Arts DMG de tus ataques.", "en": "The Electric elemental status. Leads to Electrification, making the enemy take more Arts DMG from your attacks." }
+    },
+    {
+      "id": "nature_infliction",
+      "cat": "mechanic",
+      "match": ["nature infliction"],
+      "label": { "es": "Imp. de nat.", "en": "Nature Infliction", "jp": "自然付着", "zh": "自然附着" },
+      "body": { "es": "El estado elemental de Nature. Lleva a Corrosion, que reduce la DEF del enemigo (recibe más daño de todo).", "en": "The Nature elemental status. Leads to Corrosion, lowering the enemy's DEF (it takes more damage from everything)." }
+    },
+    {
+      "id": "arts_infliction",
+      "cat": "mechanic",
+      "match": ["arts infliction", "arts inflictions"],
+      "label": { "es": "Imposición de artes", "en": "Arts Infliction", "jp": "アーツ付着", "zh": "法术附着" },
+      "body": { "es": "El estado de Aether/Arts sobre el enemigo. Alimenta las reacciones Arts; algunos operadores (p. ej. Rossi) lo consumen para daño o efectos extra.", "en": "The Aether/Arts status on the enemy. Feeds Arts reactions; some operators (e.g. Rossi) consume it for extra damage or effects." }
+    },
+    {
+      "id": "physical_status",
+      "cat": "mechanic",
+      "match": ["physical status"],
+      "label": { "es": "Estado físico", "en": "Physical Status", "jp": "物理異常", "zh": "物理异常" },
+      "body": { "es": "Los estados físicos del enemigo, sobre todo stacks de Vulnerability (de Lift, Knock Down y golpes físicos). Crush y Breach los consumen para daño Physical masivo.", "en": "The enemy's physical statuses, mainly Vulnerability stacks (from Lift, Knock Down and physical hits). Crush and Breach consume them for massive Physical DMG." }
+    },
+    {
+      "id": "physical_susceptibility",
+      "cat": "mechanic",
+      "match": ["physical susceptibility"],
+      "label": { "es": "Physical Susceptibility", "en": "Physical Susceptibility" },
+      "body": { "es": "Debuff que aumenta el daño Physical que recibe el enemigo. Se alinea con el burst físico para multiplicar el remate.", "en": "Debuff that increases the Physical DMG the enemy takes. Lined up with the physical burst to multiply the finisher." }
+    },
+    {
+      "id": "arts_susceptibility",
+      "cat": "mechanic",
+      "match": ["arts susceptibility"],
+      "label": { "es": "Suscep. a art.", "en": "Arts Susceptibility", "jp": "アーツ脆弱", "zh": "法术脆弱" },
+      "body": { "es": "Debuff que aumenta TODO el daño Arts (= no físico: Heat/Cryo/Electric/Nature/Aether) que recibe el enemigo. Amplifica a toda carry elemental (no a las físicas); efectos del mismo tipo apilan. Por eso operadores como Gilberta son top-tier.", "en": "Debuff that increases ALL Arts DMG (= non-physical: Heat/Cryo/Electric/Nature/Aether) the enemy takes. Boosts every elemental carry (not physical ones); same-type effects stack. This is why operators like Gilberta are top-tier." }
+    },
+    {
+      "id": "electric_susceptibility",
+      "cat": "mechanic",
+      "match": ["electric susceptibility", "electric susceptible"],
+      "label": { "es": "Susceptibilidad eléctrica", "en": "Electric Susceptibility" },
+      "body": { "es": "Debuff que aumenta el daño Electric que recibe el enemigo.", "en": "Debuff that increases the Electric DMG the enemy takes." }
+    },
+    {
+      "id": "cryo_susceptibility",
+      "cat": "mechanic",
+      "match": ["cryo susceptibility"],
+      "label": { "es": "Susceptibilidad criogénica", "en": "Cryo Susceptibility", "jp": "寒冷脆弱", "zh": "寒冷脆弱" },
+      "body": { "es": "Debuff que aumenta el daño Cryo que recibe el enemigo.", "en": "Debuff that increases the Cryo DMG the enemy takes." }
+    },
+    {
+      "id": "heat_susceptibility",
+      "cat": "mechanic",
+      "match": ["heat susceptibility"],
+      "label": { "es": "Susceptibilidad al calor", "en": "Heat Susceptibility" },
+      "body": { "es": "Debuff que aumenta el daño Heat que recibe el enemigo.", "en": "Debuff that increases the Heat DMG the enemy takes." }
+    },
+    {
+      "id": "electric_amp",
+      "cat": "mechanic",
+      "match": ["electric amp"],
+      "label": { "es": "Amp eléctrico", "en": "Electric Amp" },
+      "body": { "es": "Buff que aumenta el daño Electric que TÚ infliges. La mitad ofensiva que se combina con la Susceptibility del enemigo.", "en": "Buff that increases the Electric DMG YOU deal. The offensive half that pairs with the enemy's Susceptibility." }
+    },
+    {
+      "id": "heat_amp",
+      "cat": "mechanic",
+      "match": ["heat amp"],
+      "label": { "es": "Amp de calor", "en": "Heat Amp" },
+      "body": { "es": "Buff que aumenta el daño Heat que TÚ infliges.", "en": "Buff that increases the Heat DMG YOU deal." }
+    },
+    {
+      "id": "cryo_amp",
+      "cat": "mechanic",
+      "match": ["cryo amp"],
+      "label": { "es": "Amplific. criogénico", "en": "Cryo Amp", "jp": "寒冷増幅", "zh": "寒冷增幅" },
+      "body": { "es": "Buff que aumenta el daño Cryo que TÚ infliges.", "en": "Buff that increases the Cryo DMG YOU deal." }
+    },
+    {
+      "id": "nature_amp",
+      "cat": "mechanic",
+      "match": ["nature amp"],
+      "label": { "es": "Amplific. de naturaleza", "en": "Nature Amp", "jp": "自然増幅", "zh": "自然增幅" },
+      "body": { "es": "Buff que aumenta el daño Nature que TÚ infliges.", "en": "Buff that increases the Nature DMG YOU deal." }
+    },
+    {
+      "id": "arts_amp",
+      "cat": "mechanic",
+      "match": ["arts amp"],
+      "label": { "es": "Amp de artes", "en": "Arts Amp" },
+      "body": { "es": "Buff que aumenta TODO el daño Arts (= no físico: Heat/Cryo/Electric/Nature/Aether) que TÚ infliges.", "en": "Buff that increases ALL Arts DMG (= non-physical: Heat/Cryo/Electric/Nature/Aether) YOU deal." }
+    },
+    {
+      "id": "knock_down",
+      "cat": "mechanic",
+      "match": ["knock down", "knockdown"],
+      "label": { "es": "Derribar", "en": "Knock Down", "jp": "転倒", "zh": "倒地" },
+      "body": { "es": "Control que derriba a los enemigos del área. Como golpe físico, también acumula Vulnerability.", "en": "Crowd-control that knocks down enemies in the area. As a physical hit, it also stacks Vulnerability." }
+    },
+    {
+      "id": "link",
+      "cat": "mechanic",
+      "match": ["link"],
+      "label": { "es": "Enlace", "en": "Link", "jp": "リンク", "zh": "连击" },
+      "body": { "es": "Estado que enlaza al operador con el equipo (p. ej. el ultimate de Wulfgard): comparte o propaga efectos mientras está activo.", "en": "A state that links the operator with the team (e.g. Wulfgard's ultimate): shares or spreads effects while active." }
+    },
+    {
+      "id": "protection",
+      "cat": "mechanic",
+      "match": ["protection", "protected"],
+      "label": { "es": "Protección", "en": "Protection", "jp": "加護効果", "zh": "庇护效果" },
+      "body": { "es": "Buff defensivo que reduce el daño que reciben el operador y los aliados cercanos durante un tiempo.", "en": "A defensive buff that reduces the damage the operator and nearby allies take for a while." }
+    },
+    {
+      "id": "shield",
+      "cat": "mechanic",
+      "match": ["shield", "shields", "escudo"],
+      "label": { "es": "Escudo", "en": "Shield", "jp": "シールド", "zh": "护盾" },
+      "body": { "es": "Escudo que absorbe daño hasta romperse. Mantiene vivo al equipo en comps sin healer dedicado.", "en": "A shield that absorbs damage until it breaks. Keeps the team alive in comps without a dedicated healer." }
+    },
+    {
+      "id": "slow",
+      "cat": "mechanic",
+      "match": ["slow", "slowed"],
+      "label": { "es": "Ralentizar", "en": "Slow", "jp": "スロー", "zh": "缓速" },
+      "body": { "es": "Ralentiza al enemigo (movimiento y acciones), lo que facilita esquivar y encadenar la rotación.", "en": "Slows the enemy (movement and actions), making it easier to dodge and chain the rotation." }
+    },
+    {
+      "id": "weaken",
+      "cat": "mechanic",
+      "match": ["weaken", "weakened", "weakness", "weaknesses"],
+      "label": { "es": "Weaken / Weakness", "en": "Weaken / Weakness" },
+      "body": { "es": "Debuff que reduce el daño que inflige el enemigo: mitigación para todo el equipo. Algunos operadores (p. ej. Camille) lo etiquetan como \"Weakness\" — es el mismo estado.", "en": "A debuff that reduces the damage the enemy deals: mitigation for the whole team. Some operators (e.g. Camille) label it \"Weakness\" — it's the same status." }
+    },
+    {
+      "id": "dispel",
+      "cat": "mechanic",
+      "match": ["dispel", "dispels"],
+      "label": { "es": "Disipar", "en": "Dispel", "jp": "浄化", "zh": "净化" },
+      "body": { "es": "Limpia estados: quita Inflictions o reacciones de los aliados (p. ej. descongelar) o elimina efectos del enemigo, según la habilidad.", "en": "Cleanses statuses: removes Inflictions or reactions from allies (e.g. un-freeze) or strips effects off the enemy, depending on the skill." }
+    },
+    {
+      "id": "originium_crystals",
+      "cat": "mechanic",
+      "match": ["originium crystals", "originium crystal"],
+      "label": { "es": "Originium Crystals", "en": "Originium Crystals" },
+      "body": { "es": "Cristales de Originium que quedan sobre un objetivo; ciertos operadores los consumen para disparar daño o efectos.", "en": "Originium Crystals left on a target; certain operators consume them to trigger damage or effects." }
+    },
+    {
+      "id": "arts_reaction",
+      "cat": "mechanic",
+      "match": ["arts reaction"],
+      "label": { "es": "Reacción a artes", "en": "Arts Reaction", "jp": "アーツ異常", "zh": "法术异常" },
+      "body": { "es": "La reacción del elemento Aether/Arts: un estado que se acumula sobre el objetivo y puede consumirse para daño o efectos extra.", "en": "The Aether/Arts elemental reaction: a state built on the target that can be consumed for extra damage or effects." }
+    },
+    {
+      "id": "lifted",
+      "cat": "mechanic",
+      "match": ["lifted", "levitado", "airborne", "en el aire"],
+      "label": { "es": "Levantado", "en": "Lifted", "jp": "浮遊", "zh": "击飞" },
+      "body": { "es": "El estado del enemigo mientras está en el aire por un Lift: interrumpido, expuesto y acumulando golpes. Es la ventana donde encadenas daño físico antes de rematar con Crush/Breach.", "en": "The state of an enemy while airborne from a Lift: interrupted, exposed and stacking hits. It's the window where you chain physical damage before finishing with Crush/Breach." }
+    },
+    {
+      "id": "arts_burst",
+      "cat": "mechanic",
+      "match": ["arts burst"],
+      "label": { "es": "Ráfaga de artes", "en": "Arts Burst", "jp": "アーツ爆発", "zh": "法术爆发" },
+      "body": { "es": "Re-aplicar el MISMO elemento Arts sobre un objetivo ya afectado: detona un golpe extra fijo (≈160%) y suma un stack de inflicción (máx 4). No escala con el nº de inflicciones, a diferencia de la Arts Reaction de cambiar de elemento.", "en": "Re-applying the SAME Arts element on an already-afflicted target: detonates a fixed extra hit (~160%) and adds an infliction stack (max 4). Unlike a cross-element Arts Reaction, it doesn't scale with the number of inflictions." }
+    },
+    {
+      "id": "arts_intensity",
+      "cat": "mechanic",
+      "match": ["arts intensity", "intensidad de arts", "intensidad arts"],
+      "label": { "es": "Intensidad de artes", "en": "Arts Intensity", "jp": "アーツ強度", "zh": "源石技艺强度" },
+      "body": { "es": "Stat que potencia las reacciones: cada punto = +1% de daño de reacción, y además refuerza los debuffs de Corrosión/Breach/Electrification. No afecta al daño de skill directo. Clave en las comps que viven de reacciones.", "en": "A stat that powers reactions: each point = +1% reaction damage, and it also strengthens Corrosion/Breach/Electrification debuffs. It does NOT affect direct skill damage. Key for reaction-based comps." }
+    },
+    {
+      "id": "resistance",
+      "cat": "mechanic",
+      "match": ["resistance", "resistencia", "res"],
+      "label": { "es": "Resistance / Resistencia", "en": "Resistance" },
+      "body": { "es": "Mitigación elemental del objetivo, aparte de la DEFENSA. En enemigos se muestra por LETRAS (D = neutral, C = resiste algo, B = resiste más); en operadores, en % (de Agility/Intellect). Se reduce con Corrosión o se ignora con ciertas skills.", "en": "The target's elemental mitigation, separate from DEFENSE. On enemies it's shown as LETTERS (D = neutral, C = some, B = more); on operators as % (from Agility/Intellect). Lowered by Corrosion or bypassed by certain skills." }
+    },
+    {
+      "id": "resistance_shred",
+      "cat": "mechanic",
+      "match": ["resistance shred", "res shred", "resistance down", "shred", "shredear", "reducción de resistencia"],
+      "label": { "es": "Resistance Shred / Reducción de resistencia", "en": "Resistance Shred" },
+      "body": { "es": "Bajar la resistencia elemental del enemigo para que reciba más daño de ese elemento. La fuente principal es Corrosión (con rampa en el tiempo) y el Resistance Ignore plano de algunas skills. Es el único 'shred' real del juego: la DEFENSA no se reduce (es 100 fija).", "en": "Lowering the enemy's elemental resistance so it takes more of that element. The main sources are Corrosion (ramping over time) and flat Resistance Ignore on some skills. It's the game's only real 'shred': DEFENSE is never reduced (a fixed 100)." }
+    },
+    {
+      "id": "resistance_ignore",
+      "cat": "mechanic",
+      "match": ["resistance ignore", "ignore resistance", "ignorar resistencia", "res ignore", "penetración", "penetration"],
+      "label": { "es": "Resistance Ignore", "en": "Resistance Ignore" },
+      "body": { "es": "Ignorar parte de la resistencia elemental del enemigo para ESE daño, sin reducírsela al resto del equipo. Plano y de skill concreta (p. ej. Laevatain con heat, Zhuang Fangyi con electric).", "en": "Ignoring part of the enemy's elemental resistance for THAT damage, without lowering it for the rest of the team. Flat and skill-specific (e.g. Laevatain for heat, Zhuang Fangyi for electric)." }
+    },
+    {
+      "id": "defense",
+      "cat": "mechanic",
+      "match": ["defense", "defensa", "def"],
+      "label": { "es": "Defensa", "en": "Defense" },
+      "body": { "es": "Mitigación plana del objetivo. TODOS los enemigos tienen 100 de DEF base (−50% de daño) y no escala con nivel; sigue la curva 100/(DEF+100). Solo baja con Breach, que la lleva a NEGATIVO y dispara el daño.", "en": "The target's flat mitigation. ALL enemies have 100 base DEF (−50% damage) and it doesn't scale with level; follows the 100/(DEF+100) curve. Only Breach lowers it — pushing it NEGATIVE and spiking damage." }
+    },
+    {
+      "id": "crit",
+      "cat": "mechanic",
+      "match": ["crit", "critical", "crítico", "critico", "crit rate", "crit dmg"],
+      "label": { "es": "Crítico", "en": "Crit", "jp": "会心", "zh": "暴击" },
+      "body": { "es": "Golpe crítico. Dos stats: Crit Rate (probabilidad, base 5%) y Crit DMG (daño extra, base +50%). En los cálculos se usan como valor esperado: ×(1 + Rate × DMG).", "en": "Critical hit. Two stats: Crit Rate (chance, base 5%) and Crit DMG (extra damage, base +50%). Calculations use the expected value: ×(1 + Rate × DMG)." }
+    },
+    {
+      "id": "finisher",
+      "cat": "mechanic",
+      "match": ["finisher", "remate", "finisher attack"],
+      "label": { "es": "Remate", "en": "Finisher", "jp": "終撃", "zh": "处决" },
+      "body": { "es": "Ataque especial de remate contra un enemigo en Stagger: añade un multiplicador extra que escala con el TIER del enemigo (normal ×1.0 → jefe/leader hasta ×1.75). Recompensa romper el Stagger en el momento justo.", "en": "A special finishing attack against a Staggered enemy: adds an extra multiplier that scales with the enemy TIER (normal ×1.0 → boss/leader up to ×1.75). Rewards breaking Stagger at the right moment." }
+    },
+    {
+      "id": "super_armor",
+      "cat": "mechanic",
+      "match": ["super armor", "superarmor", "súper armadura", "poise", "armadura de estabilidad"],
+      "label": { "es": "Super Armor / Súper armadura", "en": "Super Armor" },
+      "body": { "es": "La 'estabilidad' del enemigo: resiste interrupciones y regula cuánto cuesta llenar su barra de Stagger. Cuanta más Super Armor, más cuesta tambalearlo.", "en": "The enemy's 'poise': it resists interruption and governs how hard it is to fill its Stagger bar. More Super Armor = harder to stagger." }
+    },
+    {
+      "id": "dive",
+      "cat": "mechanic",
+      "match": ["dive", "plunge", "ataque en picado", "picado"],
+      "label": { "es": "Dive / Picado", "en": "Dive" },
+      "body": { "es": "Ataque en picado (desde el aire o tras un dash). Tiene su propio multiplicador y elemento por operador, y suele encadenarse con la secuencia de básicos o aprovechar a un enemigo en Lift.", "en": "A dive/plunge attack (from the air or after a dash). It has its own multiplier and element per operator, and usually chains from the basic-attack sequence or capitalizes on a Lifted enemy." }
+    },
+    {
+      "id": "debuff_consumption",
+      "cat": "mechanic",
+      "match": ["debuff consumption"],
+      "label": { "es": "Consumo de debilitaciones", "en": "Debuff Consumption", "jp": "状態消費", "zh": "状态消耗" },
+      "body": { "es": "Mecánica de kit en la que el operador CONSUME un estado que ya está sobre el enemigo (Corrosión, una Inflicción elemental, Vulnerability, Electrification, Originium Crystals o una Arts Reaction) para disparar un golpe extra, un efecto adicional o recuperar SP. Suele pagar más cuantos más stacks consume. Ej.: Ardelia consume Corrosión, Alesh el Cryo Infliction, Pogranichnik los stacks de Vulnerability.", "en": "A kit mechanic where the operator CONSUMES a status already on the enemy (Corrosion, an elemental Infliction, Vulnerability, Electrification, Originium Crystals or an Arts Reaction) to trigger an extra hit, an added effect or to refund SP. It usually pays out more the more stacks it consumes. E.g. Ardelia consumes Corrosion, Alesh the Cryo Infliction, Pogranichnik the Vulnerability stacks." }
+    },
+    {
+      "id": "sp_return",
+      "cat": "mechanic",
+      "match": ["sp return"],
+      "label": { "es": "SP Return / Devolución de SP", "en": "SP Return" },
+      "body": { "es": "Devolución de Skill Points al fondo común del equipo, normalmente al golpear, derrotar a un enemigo o cumplir una condición (a veces escalada por los stacks consumidos). Sostiene el bucle de SP de la rotación para que el equipo pueda repetir Battle Skills sin quedarse seco.", "en": "A refund of Skill Points back into the team's shared pool, usually on hit, on kill or when a condition is met (sometimes scaled by the stacks consumed). It sustains the rotation's SP loop so the team can keep casting Battle Skills without running dry." }
+    },
+    {
+      "id": "stagger_node",
+      "cat": "mechanic",
+      "match": ["stagger node", "stagger nodes"],
+      "label": { "es": "Nodo de tambaleo", "en": "Stagger Node", "jp": "ブレイク点", "zh": "失衡节点" },
+      "body": { "es": "Un punto marcado en la barra de Stagger del enemigo. Al alcanzarlo (o al tambalear por completo al enemigo) se disparan ciertas habilidades, como la Combo de Akekuri. Permite encadenar daño sin tener que llenar toda la barra.", "en": "A marked point on the enemy's Stagger gauge. Reaching it (or fully staggering the enemy) triggers certain skills, such as Akekuri's combo. It lets you chain damage without having to fill the whole bar." }
+    },
+    {
+      "id": "arts_dmg_immunity",
+      "cat": "mechanic",
+      "match": ["arts dmg immunity", "arts damage immunity"],
+      "label": { "es": "Inmunidad a Arts DMG", "en": "Arts DMG Immunity" },
+      "body": { "es": "Probabilidad de IGNORAR por completo un golpe de daño Arts entrante (todo lo no físico: Heat/Cryo/Electric/Nature/Aether). Es un rasgo defensivo de algunos operadores (p. ej. Fluorite), útil contra enemigos de daño elemental.", "en": "A chance to fully IGNORE an incoming Arts damage hit (everything non-physical: Heat/Cryo/Electric/Nature/Aether). A defensive trait on some operators (e.g. Fluorite), useful against elemental-damage enemies." }
+    }
+  ]
+}

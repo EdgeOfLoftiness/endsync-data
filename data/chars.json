@@ -1,0 +1,639 @@
+[
+  {
+    "id": "akekuri",
+    "name": "Akekuri",
+    "cls": "Vanguard",
+    "el": "Heat",
+    "r": 4,
+    "role": "Enabler",
+    "icon": "<img src='assets/characters/akekuri_card.webp' class='char-av-img'>",
+    "signature_weapon": "wpn_sword_0012",
+    "support_bis_weapons": [],
+    "recommended_set": "Frontiers",
+    "recommended_gear": [
+      "frontiers_protection_suit",
+      "frontiers_fiber_gloves_t1",
+      "frontiers_extra_o2_tube_t1",
+      "redeemer_seal"
+    ],
+    "name_es": "Akekuri",
+    "name_jp": "アケクリ"
+  },
+  {
+    "id": "alesh",
+    "name": "Alesh",
+    "cls": "Vanguard",
+    "el": "Cryo",
+    "r": 5,
+    "role": "Enabler",
+    "icon": "<img src='assets/characters/alesh_card.webp' class='char-av-img'>",
+    "signature_weapon": "wpn_sword_0012",
+    "recommended_set": "Frontiers",
+    "recommended_gear": [
+      "frontiers_protection_suit",
+      "frontiers_fiber_gloves_t1",
+      "frontiers_extra_o2_tube_t1",
+      "redeemer_seal"
+    ],
+    "name_es": "Alesh",
+    "name_jp": "アレッシュ",
+    "name_zh": "阿列什"
+  },
+  {
+    "id": "antal",
+    "name": "Antal",
+    "cls": "Supporter",
+    "el": "Electric",
+    "r": 4,
+    "role": "Buffer",
+    "icon": "<img src='assets/characters/antal_card.webp' class='char-av-img'>",
+    "signature_weapon": "wpn_funnel_0008",
+    "recommended_set": "Eternal Xiranite",
+    "recommended_gear": [
+      "tide_fall_light_armor",
+      "eternal_xiranite_gloves",
+      "eternal_xiranite_power_core",
+      "eternal_xiranite_power_core"
+    ],
+    "name_es": "Antal",
+    "name_jp": "アンタル",
+    "name_zh": "安塔尔"
+  },
+  {
+    "id": "arclight",
+    "name": "Arclight",
+    "cls": "Vanguard",
+    "el": "Electric",
+    "r": 5,
+    "role": "Damage",
+    "icon": "<img src='assets/characters/arclight_card.webp' class='char-av-img'>",
+    "signature_weapon": "wpn_sword_0012",
+    "support_bis_weapons": [],
+    "recommended_set": "Frontiers",
+    "recommended_gear": [
+      "frontiers_protection_suit",
+      "frontiers_fiber_gloves_t1",
+      "frontiers_extra_o2_tube_t1",
+      "redeemer_seal"
+    ],
+    "name_es": "Arclight",
+    "name_jp": "アークライト",
+    "name_zh": "弧光"
+  },
+  {
+    "id": "ardelia",
+    "name": "Ardelia",
+    "cls": "Supporter",
+    "el": "Nature",
+    "r": 6,
+    "role": "Buffer",
+    "icon": "<img src='assets/characters/ardelia_card.webp' class='char-av-img'>",
+    "signature_weapon": "wpn_funnel_0013",
+    "recommended_set": "Eternal Xiranite",
+    "recommended_gear": [
+      "bonekrusha_poncho_t1",
+      "eternal_xiranite_gloves_t1",
+      "eternal_xiranite_auxiliary_arm",
+      "eternal_xiranite_auxiliary_arm"
+    ],
+    "name_es": "Ardelia",
+    "name_jp": "アルデリア",
+    "name_zh": "艾尔黛拉"
+  },
+  {
+    "id": "avywenna",
+    "name": "Avywenna",
+    "cls": "Striker",
+    "el": "Electric",
+    "r": 5,
+    "role": "Damage",
+    "icon": "<img src='assets/characters/avywenna_card.webp' class='char-av-img'>",
+    "signature_weapon": "wpn_lance_0011",
+    "support_bis_weapons": [],
+    "recommended_set": "Bonekrusha",
+    "name_es": "Avywenna",
+    "name_jp": "アイビーエナ",
+    "name_zh": "艾维文娜"
+  },
+  {
+    "id": "catcher",
+    "name": "Catcher",
+    "cls": "Defender",
+    "el": "Physical",
+    "r": 4,
+    "role": "Enabler",
+    "icon": "<img src='assets/characters/catcher_card.webp' class='char-av-img'>",
+    "signature_weapon": "wpn_claym_0015",
+    "recommended_set": "Eternal Xiranite",
+    "recommended_gear": [
+      "tide_fall_light_armor",
+      "eternal_xiranite_gloves",
+      "eternal_xiranite_power_core",
+      "eternal_xiranite_power_core"
+    ],
+    "name_es": "Catcher",
+    "name_jp": "キャッチャー",
+    "name_zh": "卡契尔"
+  },
+  {
+    "id": "chenqianyu",
+    "name": "Chen Qianyu",
+    "cls": "Guard",
+    "el": "Physical",
+    "r": 5,
+    "role": "Enabler",
+    "icon": "<img src='assets/characters/chenqianyu_card.webp' class='char-av-img'>",
+    "signature_weapon": "wpn_sword_0011",
+    "recommended_set": "Qingbo",
+    "recommended_gear": [
+      "swordmancer_heavy_armor_t1",
+      "qingbo_gauntlets",
+      "qingbo_positioning_kit_t1",
+      "qingbo_positioning_kit_t1"
+    ],
+    "name_es": "Chen Qianyu",
+    "name_jp": "チェン・センユー",
+    "name_zh": "陈千语"
+  },
+  {
+    "id": "dapan",
+    "name": "Da Pan",
+    "cls": "Striker",
+    "el": "Physical",
+    "r": 5,
+    "role": "Buffer",
+    "icon": "<img src='assets/characters/dapan_card.webp' class='char-av-img'>",
+    "signature_weapon": "wpn_claym_0004",
+    "recommended_set": "Grizzled Edge",
+    "recommended_gear": [
+      "grizzled_edge_armor",
+      "grizzled_edge_gauntlets",
+      "grizzled_edge_push_knife",
+      "swordmancer_nav_beacon"
+    ]
+  },
+  {
+    "id": "ember",
+    "name": "Ember",
+    "cls": "Defender",
+    "el": "Heat",
+    "r": 6,
+    "role": "Buffer",
+    "icon": "<img src='assets/characters/ember_card.webp' class='char-av-img'>",
+    "signature_weapon": "wpn_claym_0007",
+    "support_bis_weapons": [],
+    "recommended_set": "LYNX",
+    "recommended_gear": [
+      "lynx_heavy_armor",
+      "lynx_gloves",
+      "eternal_xiranite_power_core",
+      "lynx_aegis_injector"
+    ],
+    "name_es": "Ember",
+    "name_jp": "エンバー",
+    "name_zh": "余烬"
+  },
+  {
+    "id": "endministrator",
+    "name": "Endministrator",
+    "cls": "Guard",
+    "el": "Physical",
+    "r": 6,
+    "role": "Damage",
+    "icon": "<img src='assets/characters/endministrator_card.webp' class='char-av-img'>",
+    "signature_weapon": "wpn_sword_0021",
+    "support_bis_weapons": [],
+    "recommended_set": "Grizzled Edge",
+    "recommended_gear": [
+      "swordmancer_heavy_armor_t1",
+      "grizzled_edge_gauntlets_t1",
+      "grizzled_edge_push_knife_t1",
+      "grizzled_edge_push_knife_t1"
+    ],
+    "name_es": "Endministrator",
+    "name_jp": "管理人",
+    "name_zh": "管理员"
+  },
+  {
+    "id": "estella",
+    "name": "Estella",
+    "cls": "Guard",
+    "el": "Cryo",
+    "r": 4,
+    "role": "Damage",
+    "icon": "<img src='assets/characters/estella_card.webp' class='char-av-img'>",
+    "signature_weapon": "wpn_lance_0013",
+    "support_bis_weapons": [],
+    "recommended_set": "Type 50 Yinglung",
+    "recommended_gear": [
+      "type_50_yinglung_light_armor",
+      "swordmancer_tac_gloves",
+      "type_50_yinglung_radar",
+      "type_50_yinglung_radar"
+    ],
+    "name_es": "Estella",
+    "name_jp": "エステーラ",
+    "name_zh": "埃特拉"
+  },
+  {
+    "id": "zhuangfangyi",
+    "name": "Zhuang Fangyi",
+    "cls": "Striker",
+    "el": "Electric",
+    "r": 6,
+    "role": "Damage",
+    "icon": "<img src='assets/characters/zhuangfangyi_card.webp' class='char-av-img'>",
+    "signature_weapon": "wpn_funnel_0015",
+    "support_bis_weapons": [],
+    "recommended_set": "Xiranflow",
+    "recommended_gear": [
+      "xiranflow_light_armor",
+      "xiranflow_gloves",
+      "xiranflow_baton",
+      "lynx_slab"
+    ],
+    "name_es": "Zhuang Fangyi",
+    "name_jp": "ゾアン・ファンイ",
+    "name_zh": "庄方宜"
+  },
+  {
+    "id": "fluorite",
+    "name": "Fluorite",
+    "cls": "Caster",
+    "el": "Nature",
+    "r": 4,
+    "role": "Buffer",
+    "icon": "<img src='assets/characters/fluorite_card.webp' class='char-av-img'>",
+    "signature_weapon": "wpn_pistol_0012",
+    "recommended_gear": [
+      "tide_fall_light_armor",
+      "lynx_gloves",
+      "redeemer_seal",
+      "redeemer_seal"
+    ],
+    "name_es": "Fluorite",
+    "name_jp": "フローライト",
+    "name_zh": "萤石"
+  },
+  {
+    "id": "gilberta",
+    "name": "Gilberta",
+    "cls": "Supporter",
+    "el": "Nature",
+    "r": 6,
+    "role": "Buffer",
+    "icon": "<img src='assets/characters/gilberta_card.webp' class='char-av-img'>",
+    "signature_weapon": "wpn_funnel_0011",
+    "recommended_set": "Eternal Xiranite",
+    "recommended_gear": [
+      "eternal_xiranite_armor",
+      "eternal_xiranite_gloves_t1",
+      "eternal_xiranite_auxiliary_arm",
+      "eternal_xiranite_auxiliary_arm"
+    ],
+    "name_es": "Gilberta",
+    "name_jp": "ギルベルタ",
+    "name_zh": "洁尔佩塔"
+  },
+  {
+    "id": "laevatain",
+    "name": "Laevatain",
+    "cls": "Striker",
+    "el": "Heat",
+    "r": 6,
+    "role": "Damage",
+    "icon": "<img src='assets/characters/laevatain_card.webp' class='char-av-img'>",
+    "signature_weapon": "wpn_sword_0006",
+    "support_bis_weapons": [
+      "wpn_sword_0012"
+    ],
+    "recommended_set": "Hot Work",
+    "recommended_gear": [
+      "redeemer_armor",
+      "hot_work_gauntlets",
+      "hot_work_pyrometer",
+      "hot_work_pyrometer"
+    ],
+    "name_es": "Laevatain",
+    "name_jp": "レーヴァテイン",
+    "name_zh": "莱万汀"
+  },
+  {
+    "id": "lastrite",
+    "name": "Last Rite",
+    "cls": "Striker",
+    "el": "Cryo",
+    "r": 6,
+    "role": "Damage",
+    "icon": "<img src='assets/characters/lastrite_card.webp' class='char-av-img'>",
+    "signature_weapon": "wpn_claym_0013",
+    "support_bis_weapons": [],
+    "recommended_set": "Tide Surge",
+    "recommended_gear": [
+      "aethertech_plating",
+      "tide_surge_gauntlets",
+      "hanging_river_o2_tube",
+      "hanging_river_o2_tube"
+    ],
+    "name_es": "Last Rite",
+    "name_jp": "ラストライト",
+    "name_zh": "别礼"
+  },
+  {
+    "id": "lifeng",
+    "name": "Lifeng",
+    "cls": "Guard",
+    "el": "Physical",
+    "r": 6,
+    "role": "Enabler",
+    "icon": "<img src='assets/characters/lifeng_card.webp' class='char-av-img'>",
+    "signature_weapon": "wpn_lance_0012",
+    "recommended_set": "Swordmancer",
+    "recommended_gear": [
+      "swordmancer_heavy_armor_t1",
+      "frontiers_fiber_gloves_t1",
+      "swordmancer_flint",
+      "swordmancer_flint"
+    ],
+    "name_es": "Lifeng",
+    "name_jp": "リーフォン",
+    "name_zh": "黎风"
+  },
+  {
+    "id": "perlica",
+    "name": "Perlica",
+    "cls": "Caster",
+    "el": "Electric",
+    "r": 5,
+    "role": "Buffer",
+    "icon": "<img src='assets/characters/perlica_card.webp' class='char-av-img'>",
+    "signature_weapon": "wpn_funnel_0008",
+    "recommended_set": "Pulser Labs",
+    "recommended_gear": [
+      "pulser_labs_disruptor_suit",
+      "aethertech_gloves",
+      "pulser_labs_calibrator",
+      "pulser_labs_calibrator"
+    ],
+    "name_es": "Perlica",
+    "name_jp": "ペリカ",
+    "name_zh": "佩丽卡"
+  },
+  {
+    "id": "pogranichnik",
+    "name": "Pogranichnik",
+    "cls": "Vanguard",
+    "el": "Physical",
+    "r": 6,
+    "role": "Buffer",
+    "icon": "<img src='assets/characters/pogranichnik_card.webp' class='char-av-img'>",
+    "signature_weapon": "wpn_sword_0012",
+    "recommended_set": "Frontiers",
+    "recommended_gear": [
+      "frontiers_protection_suit",
+      "frontiers_fiber_gloves_t1",
+      "frontiers_o2_tube",
+      "hot_work_power_cartridge"
+    ],
+    "name_es": "Pogranichnik",
+    "name_jp": "ポグラニチニク",
+    "name_zh": "骏卫"
+  },
+  {
+    "id": "rossi",
+    "name": "Rossi",
+    "cls": "Guard",
+    "el": "Physical",
+    "r": 6,
+    "role": "Enabler",
+    "icon": "<img src='assets/characters/rossi_card.webp' class='char-av-img'>",
+    "signature_weapon": "wpn_sword_0022",
+    "support_bis_weapons": [],
+    "recommended_set": "MI Security",
+    "recommended_gear": [
+      "mi_security_armor_t1",
+      "redeemer_gloves",
+      "mi_security_scope_t1",
+      "mi_security_scope_t1"
+    ],
+    "name_es": "Rossi",
+    "name_jp": "ロッシ"
+  },
+  {
+    "id": "snowshine",
+    "name": "Snowshine",
+    "cls": "Defender",
+    "el": "Cryo",
+    "r": 5,
+    "role": "Buffer",
+    "icon": "<img src='assets/characters/snowshine_card.webp' class='char-av-img'>",
+    "signature_weapon": "wpn_claym_0012",
+    "recommended_set": "Eternal Xiranite",
+    "recommended_gear": [
+      "bonekrusha_poncho_t1",
+      "eternal_xiranite_gloves_t1",
+      "eternal_xiranite_auxiliary_arm",
+      "eternal_xiranite_auxiliary_arm"
+    ],
+    "name_es": "Snowshine",
+    "name_jp": "スノーシャイン",
+    "name_zh": "昼雪"
+  },
+  {
+    "id": "tangtang",
+    "name": "Tangtang",
+    "cls": "Caster",
+    "el": "Cryo",
+    "r": 6,
+    "role": "Enabler",
+    "icon": "<img src='assets/characters/tangtang_card.webp' class='char-av-img'>",
+    "signature_weapon": "wpn_pistol_0011",
+    "recommended_set": "Qingbo",
+    "recommended_gear": [
+      "qingbo_heavy_armor",
+      "qingbo_gauntlets",
+      "qingbo_positioning_kit",
+      "qingbo_positioning_kit"
+    ],
+    "name_es": "Tangtang",
+    "name_jp": "タンタン",
+    "name_zh": "汤汤"
+  },
+  {
+    "id": "wulfgard",
+    "name": "Wulfgard",
+    "cls": "Caster",
+    "el": "Heat",
+    "r": 5,
+    "role": "Enabler",
+    "icon": "<img src='assets/characters/wulfgard_card.webp' class='char-av-img'>",
+    "signature_weapon": "wpn_pistol_0009",
+    "recommended_gear": [
+      "type_50_yinglung_heavy_armor_t1",
+      "lynx_gloves",
+      "redeemer_seal",
+      "redeemer_seal"
+    ],
+    "name_es": "Wulfgard",
+    "name_jp": "ウルフガード",
+    "name_zh": "狼卫"
+  },
+  {
+    "id": "xaihi",
+    "name": "Xaihi",
+    "cls": "Supporter",
+    "el": "Cryo",
+    "r": 5,
+    "role": "Enabler",
+    "icon": "<img src='assets/characters/xaihi_card.webp' class='char-av-img'>",
+    "signature_weapon": "wpn_funnel_0008",
+    "recommended_set": "Eternal Xiranite",
+    "recommended_gear": [
+      "redeemer_armor",
+      "eternal_xiranite_gloves_t1",
+      "eternal_xiranite_auxiliary_arm",
+      "eternal_xiranite_auxiliary_arm"
+    ],
+    "name_es": "Xaihi",
+    "name_jp": "ザイヒ",
+    "name_zh": "赛希"
+  },
+  {
+    "id": "yvonne",
+    "name": "Yvonne",
+    "cls": "Striker",
+    "el": "Cryo",
+    "r": 6,
+    "role": "Damage",
+    "icon": "<img src='assets/characters/yvonne_card.webp' class='char-av-img'>",
+    "signature_weapon": "wpn_pistol_0010",
+    "support_bis_weapons": [],
+    "recommended_set": "MI Security",
+    "recommended_gear": [
+      "mi_security_overalls",
+      "mi_security_hands_ppe",
+      "mi_security_toolkit",
+      "mi_security_toolkit"
+    ],
+    "name_es": "Yvonne",
+    "name_jp": "イヴォンヌ",
+    "name_zh": "伊冯"
+  },
+  {
+    "id": "mifu",
+    "name": "Mi Fu",
+    "cls": "Guard",
+    "el": "Physical",
+    "r": 6,
+    "role": "Damage",
+    "icon": "<img src='assets/characters/mifu_card.webp' class='char-av-img'>",
+    "signature_weapon": "wpn_claym_0017",
+    "support_bis_weapons": [],
+    "recommended_set": "Swordmancer",
+    "name_es": "Mi Fu",
+    "name_jp": "ミ・フ",
+    "name_zh": "弭弗"
+  },
+  {
+    "id": "camille",
+    "name": "Camille",
+    "cls": "Vanguard",
+    "el": "Heat",
+    "r": 6,
+    "role": "Enabler",
+    "icon": "<img src='assets/characters/camille_card.webp' class='char-av-img'>",
+    "signature_weapon": "wpn_lance_carmine",
+    "support_bis_weapons": [
+      "wpn_lance_beacon"
+    ],
+    "recommended_set": "Frontiers",
+    "recommended_gear": [
+      "frontiers_protection_suit",
+      "frontiers_fiber_gloves_t1",
+      "frontiers_extra_o2_tube",
+      "redeemer_seal"
+    ],
+    "name_es": "Camille",
+    "name_jp": "カミーユ",
+    "name_zh": "卡缪"
+  },
+  {
+    "id": "arcane",
+    "name": "Arcane",
+    "cls": "Caster",
+    "el": "Nature",
+    "r": 6,
+    "role": "Damage",
+    "icon": "<img src='assets/characters/arcane_card.webp' class='char-av-img'>",
+    "signature_weapon": "wpn_funnel_0016",
+    "support_bis_weapons": [],
+    "recommended_set": "Hot Work",
+    "recommended_gear": [
+      "hot_work_exo_rig",
+      "hot_work_hands_ppe",
+      "hot_work_insulation_slab",
+      "lynx_slab"
+    ],
+    "builds": [
+      {
+        "label": {
+          "es": "Forma INT — Daño",
+          "en": "INT form — Damage"
+        },
+        "mode": "int",
+        "set": "Hot Work",
+        "gear": [
+          "hot_work_exo_rig",
+          "hot_work_hands_ppe",
+          "hot_work_insulation_slab",
+          "lynx_slab"
+        ],
+        "alts": [
+          "wpn_funnel_0009"
+        ],
+        "note": {
+          "es": "Modo daño. Subestadísticas: Intellect (mantenlo por encima del Will para no salir de la forma) y Will. El cuarto slot es una LYNX Slab suelta por el atributo principal.",
+          "en": "Damage mode. Substats: Intellect (keep it above Will so you stay in form) and Will. The fourth slot is a loose LYNX Slab for the main attribute."
+        }
+      },
+      {
+        "label": {
+          "es": "Forma WILL — Soporte",
+          "en": "WILL form — Support"
+        },
+        "mode": "will",
+        "set": "Eternal Xiranite",
+        "gear": [
+          "eternal_xiranite_light_armor",
+          "eternal_xiranite_wraps",
+          "eternal_xiranite_bracing_slab",
+          "eternal_xiranite_bracing_slab"
+        ],
+        "alts": [
+          "wpn_funnel_0008",
+          "wpn_funnel_0005",
+          "wpn_funnel_0006"
+        ],
+        "note": {
+          "es": "Modo soporte. Subestadística: Will (apílalo para entrar y mantener la forma, hasta 640). Con 640 de Will o si necesitas más carga, cambia una Bracing Slab por la Auxiliary Arm.",
+          "en": "Support mode. Substat: Will (stack it to enter and hold the form, up to 640). At 640 Will or if you need more charge, swap a Bracing Slab for the Auxiliary Arm."
+        }
+      }
+    ],
+    "name_es": "Arcane",
+    "name_jp": "オクギ",
+    "name_zh": "诀"
+  },
+  {
+    "id": "liino",
+    "name": "Liino",
+    "cls": "Supporter",
+    "el": "Electric",
+    "r": 6,
+    "role": "Buffer",
+    "icon": "<img src='assets/characters/liino_card.webp' class='char-av-img'>",
+    "name_es": "Liino",
+    "name_jp": "リーノ",
+    "name_zh": "梨诺"
+  }
+]

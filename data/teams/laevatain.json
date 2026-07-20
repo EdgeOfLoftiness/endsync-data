@@ -1,0 +1,243 @@
+{
+  "label": "LAEVATAIN",
+  "guideCharId": "laevatain",
+  "tagline": {
+    "es": "Carry de Heat (Striker). Su motor son los 4 stacks Molten: los soportes cuelgan Heat en el enemigo y Laevatain la absorbe con heavies para convertirla en Molten; a 4 Molten suelta su Enhanced Battle Skill, y su Ult abre la ventana de quema.",
+    "en": "Heat carry (Striker). His engine is the 4 Molten stacks: supports apply Heat to the enemy and Laevatain absorbs it with heavies to turn it into Molten; at 4 Molten he fires his Enhanced Battle Skill, and his Ultimate opens the burn window."
+  },
+  "comps": [
+    {
+      "name": { "es": "YZ-月咒 - Fuego Laevatain", "en": "YZ-月咒 - Laevatain Fire" },
+      "subtitle": { "es": "Dos ejes de carga para llenar la Ult de Laevatain y reventar: eje simple (estable) o avanzado (más rápido)", "en": "Two charge rotations to fill Laevatain's Ultimate and burst: simple axis (stable) or advanced (faster)" },
+      "guideVideoId": "laevb1",
+      "blurb": {
+        "es": "Equipo de fuego con Laevatain de carry, Camille y Wulfgard cargando Heat y Ardelia (小羊) armando la ventana. El plan: dos ejes de carga idénticos para llenar la Ult de Laevatain, luego Ardelia cuelga Weakness, todos abren Ult y se quema. YZ presenta dos versiones: el eje simple (estable, sin requisitos de potencial) y el eje avanzado (arranque más rápido cancelando el Combo de Wulfgard con su Ult para ahorrar 100 SP; pide a Wulfgard a M5).",
+        "en": "Fire team with Laevatain as carry, Camille and Wulfgard loading Heat and Ardelia (小羊) arming the window. The plan: two identical charge rotations to fill Laevatain's Ultimate, then Ardelia applies Weakness, everyone ults and you burn. YZ shows two versions: the simple axis (stable, no dupe requirements) and the advanced axis (faster startup by cancelling Wulfgard's Combo with his Ultimate to save 100 SP; needs Wulfgard at M5)."
+      },
+      "overview": {
+        "es": "El carry (主控) es Laevatain y su básico NO puede parar: hay que dar heavies sin descanso para absorber la Heat que los soportes cuelgan en el enemigo y convertirla en stacks Molten. Cada ronda de carga cuelga 3 capas de Heat (Battle Skill de Camille → Combo de Wulfgard → Battle Skill de Camille), el heavy las absorbe, y con los Combos de Ardelia, Camille y Laevatain llegas a 4 Molten para soltar el Enhanced Battle Skill. Repites dos rondas idénticas para llenar la Ult de Laevatain; después Ardelia aplica Corrosion → Weakness (+ vulnerabilidad de su arma promocional), todos abren Ult y arranca la quema con Enhanced Battle Skills, gestión de Link de Camille y su Hunter Pursuit.",
+        "en": "The carry (主控) is Laevatain and his basic attack must NOT stop: you weave heavies non-stop to absorb the Heat the supports hang on the enemy and turn it into Molten stacks. Each charge round applies 3 Heat layers (Camille's Battle Skill → Wulfgard's Combo → Camille's Battle Skill), the heavy absorbs them, and with Ardelia's, Camille's and Laevatain's Combos you reach 4 Molten to fire the Enhanced Battle Skill. You repeat two identical rounds to fill Laevatain's Ultimate; then Ardelia applies Corrosion → Weakness (+ her signature weapon's vulnerability), everyone ults and the burn begins with Enhanced Battle Skills, Camille's Link management and his Hunter Pursuit."
+      },
+      "playstyle": {
+        "difficulty": { "es": "Media (avanzado: Alta)", "en": "Mid (advanced: High)" },
+        "tags": [
+          { "es": "Calor", "en": "Heat", "jp": "灼熱", "zh": "灼热" },
+          { "es": "Burst", "en": "Burst" },
+          { "es": "Molten", "en": "Molten" },
+          { "es": "Dos ejes (simple/avanzado)", "en": "Two axes (simple/advanced)" },
+          { "es": "Cold start largo", "en": "Long cold start" }
+        ]
+      },
+      "pros": [
+        { "es": "Dos modos: el eje simple es estable y no pide potenciales; el avanzado arranca más rápido. Eliges según tu práctica e inversión.", "en": "Two modes: the simple axis is stable and needs no dupes; the advanced one starts faster. Pick by your practice and investment." },
+        { "es": "El motor Molten convierte la Heat que cargan los soportes en Enhanced Battle Skills muy fuertes.", "en": "The Molten engine turns the Heat the supports load into very strong Enhanced Battle Skills." },
+        { "es": "Antes de la quema se apila mucho amp: Link de Camille + Weakness de Ardelia + la vulnerabilidad de su arma promocional.", "en": "A lot of amp stacks before the burn: Camille's Link + Ardelia's Weakness + her signature weapon's vulnerability." },
+        { "es": "Cómodo de SP: Camille devuelve técnica y las rondas de carga se autoabastecen.", "en": "SP-comfy: Camille refunds SP and the charge rounds sustain themselves." }
+      ],
+      "cons": [
+        { "es": "Cold start lento: hay que completar dos rondas de carga enteras antes de poder reventar.", "en": "Slow cold start: you must complete two full charge rounds before you can burst." },
+        { "es": "El básico/heavy de Laevatain no puede parar nunca: es tejer constante, no soltar skill y esperar.", "en": "Laevatain's basic/heavy can never stop: it's constant weaving, not cast-and-wait." },
+        { "es": "El eje avanzado pide a Wulfgard a M5 y un timing fino: cancelar su Combo con la Ult en pleno salto hacia atrás, antes de aterrizar.", "en": "The advanced axis needs Wulfgard at M5 and tight timing: cancel his Combo with the Ultimate mid-backflip, before he lands." },
+        { "es": "El orden de Combos importa (Corrosion antes que Weakness; el icono de Link tiene que salir antes de consumirlo).", "en": "Combo order matters (Corrosion before Weakness; the Link icon must appear before you consume it)." }
+      ],
+      "whyItWorks": [
+        {
+          "title": { "es": "El motor Molten de Laevatain", "en": "Laevatain's Molten engine" },
+          "body": { "es": "Cuando el carry da heavies, absorbe la Heat que hay sobre el enemigo y la convierte en Molten propio (los pétalos delante de Laevatain: 4 pétalos rojos = 4 Molten). Su propio Combo también da una capa de Molten. Al llegar a 4 Molten sueltas el Enhanced Battle Skill. No pasa nada si la Heat no la absorbes de una: si cuelgas dos capas y un heavy se las lleva, se puede ir absorbiendo en varias veces.", "en": "When the carry throws heavies, he absorbs the Heat on the enemy and turns it into his own Molten (the petals in front of Laevatain: 4 red petals = 4 Molten). His own Combo also grants a Molten layer. At 4 Molten you fire the Enhanced Battle Skill. It's fine not to absorb the Heat all at once: if you apply two layers and a heavy takes them, you can absorb it in several goes." }
+        },
+        {
+          "title": { "es": "Tres capas de Heat por ronda", "en": "Three Heat layers per round" },
+          "body": { "es": "La ronda de carga cuelga 3 capas de Heat: Battle Skill de Camille (1ª) → Combo de Wulfgard (2ª) → Battle Skill de Camille (3ª). El carry las absorbe con heavies → Molten. Esa absorción enciende el Combo de Ardelia (Corrosion) y el de Camille (Link); luego el Combo de Laevatain suma su propia capa de Molten hasta llegar a 4.", "en": "The charge round applies 3 Heat layers: Camille's Battle Skill (1st) → Wulfgard's Combo (2nd) → Camille's Battle Skill (3rd). The carry absorbs them with heavies → Molten. That absorb lights up Ardelia's Combo (Corrosion) and Camille's (Link); then Laevatain's Combo adds its own Molten layer up to 4." }
+        },
+        {
+          "title": { "es": "Ardelia arma la ventana: Corrosion → Weakness", "en": "Ardelia arms the window: Corrosion → Weakness" },
+          "body": { "es": "Contra un boss (single target) hay que esperar un Combo de Ardelia: aplica Corrosion, que es de efecto retardado. Cuando ves el efecto de explosión (o el buff de Corrosion en el enemigo), usas el Battle Skill de Ardelia para colgar Weakness, que además dispara la vulnerabilidad (易伤) de su arma promocional. Ese es el amp justo antes de que todos abran Ult. En entornos de trash/AoE (轻砸), Laevatain puede abrir Ult directo sin esperar.", "en": "Against a boss (single target) you must wait for an Ardelia Combo: it applies Corrosion, which is delayed. When you see the explosion effect (or the Corrosion buff on the enemy), use Ardelia's Battle Skill to apply Weakness, which also triggers her signature weapon's vulnerability (易伤). That's the amp right before everyone ults. In trash/AoE environments (轻砸) Laevatain can ult directly without waiting." }
+        },
+        {
+          "title": { "es": "Link ×2 de Camille en la quema", "en": "Camille's Link ×2 in the burn" },
+          "body": { "es": "Durante la Ult, el Combo de Camille da una capa de Link (aparece como un iconito de espada delante de la barra de vida: cuando lo ves, el Link ya está). La Ult de Camille arma su Hunter Pursuit (强化连携), que se dispara a través de su Battle Skill, para un segundo Link. Cada Link va a alimentar un Enhanced Battle Skill de Laevatain a 4 Molten, que a buff lleno pega muchísimo.", "en": "During the Ultimate, Camille's Combo grants a Link stack (it shows as a little sword icon in front of the HP bar: once you see it, the Link is up). Camille's Ultimate arms his Hunter Pursuit (强化连携), fired via his Battle Skill, for a second Link. Each Link feeds a Laevatain Enhanced Battle Skill at 4 Molten, which at full buff hits enormously." }
+        },
+        {
+          "title": { "es": "El eje avanzado: el tri-fuego de Wulfgard", "en": "The advanced axis: Wulfgard's triple-fire" },
+          "body": { "es": "En la 2ª ronda de carga del eje avanzado cancelas el after-cast del Combo de Wulfgard con su Ult: en pleno salto hacia atrás, antes de aterrizar, abres su Ult; el fuego queda colgado igual y, al terminar la Ult, su Combo se vuelve a disparar. Esa maniobra de tres fuegos ahorra 100 SP y mete al equipo en la quema mucho más rápido. Requiere a Wulfgard a M5 (lo confirma la pantalla de build: 进阶轴需求5潜狼卫).", "en": "In the advanced axis's 2nd charge round you cancel Wulfgard's Combo recovery with his Ultimate: mid-backflip, before he lands, you cast his Ultimate; the fire is applied anyway and, when the Ultimate ends, his Combo triggers again. That triple-fire move saves 100 SP and pushes the team into the burn much faster. It needs Wulfgard at M5 (the build screen confirms it: 进阶轴需求5潜狼卫)." }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": { "es": "Carga 1 (cold start)", "en": "Charge 1 (cold start)" },
+          "action": { "es": "Con el carry dando básico/heavy sin parar, cuelga 3 capas de Heat, absórbelas a Molten y llega a 4 Molten para el primer Enhanced Battle Skill.", "en": "With the carry weaving basic/heavy non-stop, apply 3 Heat layers, absorb them into Molten and reach 4 Molten for the first Enhanced Battle Skill." },
+          "steps": [
+            { "do": { "es": "Battle Skill de Camille → 1ª capa de Heat.", "en": "Camille's Battle Skill → 1st Heat layer." } },
+            { "do": { "es": "Combo de Wulfgard → 2ª capa de Heat.", "en": "Wulfgard's Combo → 2nd Heat layer." } },
+            { "do": { "es": "Battle Skill de Camille → 3ª capa de Heat.", "en": "Camille's Battle Skill → 3rd Heat layer." }, "key": true },
+            { "do": { "es": "Heavies del carry para absorber las 3 capas → Molten.", "en": "Carry heavies to absorb the 3 layers → Molten." }, "note": { "es": "Si no las absorbes de una, no pasa nada: se puede en varias veces.", "en": "If you don't absorb them all at once, no problem: it can be done in several goes." } },
+            { "do": { "es": "La absorción enciende los Combos de Ardelia (Corrosion) y Camille (Link): úsalos.", "en": "The absorb lights up Ardelia's (Corrosion) and Camille's (Link) Combos: use them." } },
+            { "do": { "es": "Combo de Laevatain → +1 Molten (lo da él mismo) → 4 Molten (4 pétalos rojos).", "en": "Laevatain's Combo → +1 Molten (self-granted) → 4 Molten (4 red petals)." }, "key": true },
+            { "do": { "es": "A Molten lleno: Enhanced Battle Skill de Laevatain → cierra la carga 1.", "en": "At full Molten: Laevatain's Enhanced Battle Skill → completes charge 1." }, "key": true }
+          ]
+        },
+        {
+          "phase": { "es": "Recuperar SP", "en": "Recover SP" },
+          "action": { "es": "No corras a la siguiente ronda: recupera SP y espera los Combos.", "en": "Don't rush the next round: recover SP and wait for the Combos." },
+          "steps": [
+            { "do": { "es": "Básico → heavy para seguir recuperando SP; los Combos están en cooldown.", "en": "Basic → heavy to keep recovering SP; the Combos are on cooldown." } },
+            { "do": { "es": "Arranca la ronda 2 cuando el SP vuelve a 2 barras.", "en": "Start round 2 when SP is back to 2 bars." }, "note": { "es": "A 2 barras, un heavy suele disparar el Combo de Ardelia: úsalo.", "en": "At 2 bars, a heavy usually triggers Ardelia's Combo: use it." } }
+          ]
+        },
+        {
+          "phase": { "es": "Carga 2", "en": "Charge 2" },
+          "action": { "es": "Mismo orden que la carga 1. Aquí el Combo de Laevatain lo dispara el de Ardelia.", "en": "Same order as charge 1. Here Laevatain's Combo is triggered by Ardelia's." },
+          "steps": [
+            { "do": { "es": "Battle Skill de Camille (1ª Heat) → Combo de Wulfgard (2ª) → Battle Skill de Camille (3ª).", "en": "Camille's Battle Skill (1st Heat) → Wulfgard's Combo (2nd) → Camille's Battle Skill (3rd)." } },
+            { "do": { "es": "Heavies para absorber las 3 capas.", "en": "Heavies to absorb the 3 layers." } },
+            { "do": { "es": "Combos de Laevatain y Camille (el de Laevatain lo dispara el Combo de Ardelia) → 4 Molten.", "en": "Laevatain's and Camille's Combos (Laevatain's is triggered by Ardelia's Combo) → 4 Molten." }, "key": true },
+            { "do": { "es": "Enhanced Battle Skill de Laevatain → cierra la carga 2 (Ult casi llena).", "en": "Laevatain's Enhanced Battle Skill → completes charge 2 (Ultimate nearly full)." } }
+          ]
+        },
+        {
+          "phase": { "es": "Preparar el burst", "en": "Prep the burst" },
+          "action": { "es": "Contra boss, arma Corrosion → Weakness con Ardelia y abre todas las Ults.", "en": "Against a boss, arm Corrosion → Weakness with Ardelia and pop all Ultimates." },
+          "steps": [
+            { "do": { "es": "Un heavy dispara el Combo de Ardelia → Corrosion (retardada: espera el efecto de explosión / el buff en el enemigo).", "en": "A heavy triggers Ardelia's Combo → Corrosion (delayed: wait for the explosion effect / the buff on the enemy)." }, "key": true },
+            { "do": { "es": "Battle Skill de Ardelia → Weakness + vulnerabilidad de su arma promocional.", "en": "Ardelia's Battle Skill → Weakness + her signature weapon's vulnerability." }, "key": true },
+            { "do": { "es": "Combo de Laevatain (puedes cancelar su after-cast con un dodge; cuando se ilumina, se pulsa).", "en": "Laevatain's Combo (you can dodge-cancel its recovery; when it lights up, press it)." } },
+            { "do": { "es": "Todos Ult: Laevatain (arranca la quema) → Wulfgard → Ardelia opcional (ayuda en AoE o guárdala para curar).", "en": "Everyone ults: Laevatain (starts the burn) → Wulfgard → Ardelia optional (helps in AoE or keep it to heal)." } }
+          ],
+          "tip": { "es": "En trash/AoE (轻砸), Laevatain abre Ult directo sin esperar el Combo de Ardelia.", "en": "In trash/AoE (轻砸), Laevatain ults directly without waiting for Ardelia's Combo." }
+        },
+        {
+          "phase": { "es": "Ventana de quema", "en": "Burn window" },
+          "action": { "es": "Con la Ult activa: heavies sin parar, Enhanced Battle Skills a 4 Molten y los dos Link de Camille.", "en": "With the Ultimate up: non-stop heavies, Enhanced Battle Skills at 4 Molten and Camille's two Links." },
+          "steps": [
+            { "do": { "es": "Laevatain: mantén pulsado el básico; el 3er golpe cuelga Heat y dispara el Combo de Wulfgard.", "en": "Laevatain: hold the basic; the 3rd hit applies Heat and triggers Wulfgard's Combo." } },
+            { "do": { "es": "Heavy para absorber (熄火) → dispara el Combo de Camille: Link (el iconito de espada delante de la barra de vida).", "en": "Heavy to absorb (熄火) → triggers Camille's Combo: Link (the little sword icon in front of the HP bar)." }, "key": true },
+            { "do": { "es": "A 4 Molten y con el Link ya visible → Enhanced Battle Skill de Laevatain (a buff lleno, pega muchísimo).", "en": "At 4 Molten and with the Link already visible → Laevatain's Enhanced Battle Skill (at full buff, hits enormously)." }, "key": true },
+            { "do": { "es": "Ult de Camille → prepara el 2º Link; cuando su Battle Skill se ilumine, púlsalo = Hunter Pursuit.", "en": "Camille's Ultimate → prep the 2nd Link; when his Battle Skill lights up, press it = Hunter Pursuit." } },
+            { "do": { "es": "Sigue con heavies: otra vez 4 Molten + Link → otro Enhanced Battle Skill.", "en": "Keep heavies going: 4 Molten + Link again → another Enhanced Battle Skill." } },
+            { "do": { "es": "Cerca del final de la Ult: si quedan enemigos, suelta una tanda de 4 Molten; tras la Ult, remata con un Enhanced Battle Skill → la carga de Ult vuelve a ~la mitad → una ronda de carga más y sigues quemando.", "en": "Near the end of the Ultimate: if enemies remain, release a 4-Molten batch; after the Ultimate, top up with an Enhanced Battle Skill → the Ult charge returns to ~half → one more charge round and you keep burning." } }
+          ]
+        }
+      ],
+      "rotationVariants": [
+        {
+          "name": { "es": "Eje avanzado (进阶轴)", "en": "Advanced axis (进阶轴)" },
+          "description": { "es": "Más difícil pero arranca antes: la 2ª ronda de carga usa el tri-fuego de Wulfgard (cancelar su Combo con la Ult) para ahorrar 100 SP. Pide a Wulfgard a M5. La 1ª ronda es idéntica al eje simple; cuando las Ults están listas, se juega igual que el simple.", "en": "Harder but faster to start: the 2nd charge round uses Wulfgard's triple-fire (cancel his Combo with the Ultimate) to save 100 SP. Needs Wulfgard at M5. The 1st round is identical to the simple axis; once Ultimates are ready, it plays the same as the simple one." },
+          "phases": [
+            {
+              "phase": { "es": "Carga 1", "en": "Charge 1" },
+              "action": { "es": "Igual que el eje simple: 3 capas de Heat → absorber → 4 Molten → Enhanced Battle Skill.", "en": "Same as the simple axis: 3 Heat layers → absorb → 4 Molten → Enhanced Battle Skill." },
+              "steps": [
+                { "do": { "es": "Battle Skill de Camille → Combo de Wulfgard → Battle Skill de Camille (3 capas de Heat).", "en": "Camille's Battle Skill → Wulfgard's Combo → Camille's Battle Skill (3 Heat layers)." } },
+                { "do": { "es": "Heavy para absorber → Combos de Ardelia y Camille → Combo de Laevatain → 4 Molten → Enhanced Battle Skill.", "en": "Heavy to absorb → Ardelia's and Camille's Combos → Laevatain's Combo → 4 Molten → Enhanced Battle Skill." } }
+              ]
+            },
+            {
+              "phase": { "es": "Recuperar SP", "en": "Recover SP" },
+              "action": { "es": "Heavies para recuperar SP y esperar los Combos; arranca a 2 barras de SP.", "en": "Heavies to recover SP and wait for the Combos; start at 2 SP bars." },
+              "steps": [
+                { "do": { "es": "Básico → heavy hasta recuperar SP; empieza la ronda 2 a 2 barras.", "en": "Basic → heavy until SP recovers; start round 2 at 2 bars." } }
+              ]
+            },
+            {
+              "phase": { "es": "Carga 2 (el tri-fuego)", "en": "Charge 2 (the triple-fire)" },
+              "action": { "es": "El núcleo del eje: primero Ardelia arma Corrosion → Weakness, y luego cancelas el Combo de Wulfgard con su Ult.", "en": "The heart of the axis: first Ardelia arms Corrosion → Weakness, then you cancel Wulfgard's Combo with his Ultimate." },
+              "steps": [
+                { "do": { "es": "Primero el Combo de Ardelia; con la Corrosion colgada, Battle Skill de Ardelia → Weakness + vulnerabilidad del arma promocional.", "en": "Ardelia's Combo first; with Corrosion up, Ardelia's Battle Skill → Weakness + signature weapon vulnerability." } },
+                { "do": { "es": "Combo de Laevatain → 1 capa de Molten.", "en": "Laevatain's Combo → 1 Molten layer." } },
+                { "do": { "es": "Battle Skill de Camille → 1ª capa de Heat.", "en": "Camille's Battle Skill → 1st Heat layer." } },
+                { "do": { "es": "Combo de Wulfgard: mira su animación. En pleno salto hacia atrás, ANTES de aterrizar, abre la Ult de Wulfgard para cancelar el after-cast (el fuego queda colgado igual).", "en": "Wulfgard's Combo: watch his animation. Mid-backflip, BEFORE he lands, cast Wulfgard's Ultimate to cancel the recovery (the fire is applied anyway)." }, "key": true },
+                { "do": { "es": "Al terminar la Ult, el Combo de Wulfgard se vuelve a disparar; heavy para absorber → Combo de Camille.", "en": "When the Ultimate ends, Wulfgard's Combo triggers again; heavy to absorb → Camille's Combo." } },
+                { "do": { "es": "Convierte las 3 capas de Heat a Molten con heavies → a Molten lleno, Enhanced Battle Skill → cierra la carga.", "en": "Convert the 3 Heat layers to Molten with heavies → at full Molten, Enhanced Battle Skill → completes the charge." }, "note": { "es": "Este manejo necesita a Wulfgard a M5.", "en": "This line needs Wulfgard at M5." } }
+              ]
+            },
+            {
+              "phase": { "es": "Igual que el eje simple", "en": "Same as the simple axis" },
+              "action": { "es": "Con las Ults listas, la quema es idéntica al eje simple (YZ no la vuelve a demostrar).", "en": "With Ultimates ready, the burn is identical to the simple axis (YZ doesn't demo it again)." },
+              "steps": [
+                { "do": { "es": "Ardelia arma Weakness, todos Ult y quemas con Enhanced Battle Skills + los dos Link de Camille.", "en": "Ardelia arms Weakness, everyone ults and you burn with Enhanced Battle Skills + Camille's two Links." } }
+              ]
+            }
+          ]
+        }
+      ],
+      "skillPriority": [
+        { "charId": "laevatain", "order": { "es": "Ult (M3) = Battle Skill (M3) > Combo (M3) > Básico (nivel 9)", "en": "Ult (M3) = Battle Skill (M3) > Combo (M3) > Basic (level 9)" }, "note": { "es": "El daño vive en la Ult y en los Enhanced Battle Skills.", "en": "The damage lives in the Ultimate and the Enhanced Battle Skills." } },
+        { "charId": "camille", "order": { "es": "Battle Skill / Ult (M3) > Combo (M1) > Básico", "en": "Battle Skill / Ult (M3) > Combo (M1) > Basic" }, "note": { "es": "Battle Skill y Ult a especialización 3; el Combo a especialización 1.", "en": "Battle Skill and Ult at mastery 3; the Combo at mastery 1." } },
+        { "charId": "wulfgard", "order": { "es": "Poco importantes; si va de sub-C (no recomendado), sube el Battle Skill", "en": "Not important; if run as sub-carry (not recommended), level the Battle Skill" }, "note": { "es": "En este equipo Wulfgard es enabler, no necesita inversión de skills.", "en": "In this team Wulfgard is an enabler; he needs no skill investment." } },
+        { "charId": "ardelia", "order": { "es": "Battle Skill (nivel 9 o M3) > el resto", "en": "Battle Skill (level 9 or M3) > the rest" }, "note": { "es": "Solo el Battle Skill (Weakness + vulnerabilidad).", "en": "Battle Skill only (Weakness + vulnerability)." } }
+      ],
+      "pitfalls": [
+        { "es": "No pares el básico/heavy del carry: el motor Molten depende de absorber Heat con heavies.", "en": "Don't stop the carry's basic/heavy: the Molten engine depends on absorbing Heat with heavies." },
+        { "es": "El orden importa: Corrosion (Combo de Ardelia) ANTES que Weakness (Battle Skill de Ardelia), y espera el efecto de explosión / el buff.", "en": "Order matters: Corrosion (Ardelia's Combo) BEFORE Weakness (Ardelia's Battle Skill), and wait for the explosion effect / the buff." },
+        { "es": "El Link solo cuenta cuando aparece el iconito de espada en la barra de vida: no sueltes el Enhanced Battle Skill antes de verlo.", "en": "Link only counts once the little sword icon shows on the HP bar: don't fire the Enhanced Battle Skill before you see it." },
+        { "es": "Eje avanzado: la cancelación tiene que caer en el salto hacia atrás de Wulfgard, antes de aterrizar, y pide a Wulfgard a M5.", "en": "Advanced axis: the cancel must land during Wulfgard's backflip, before he lands, and needs Wulfgard at M5." },
+        { "es": "Cold start: no arranques la 2ª ronda con el SP bajo y los Combos en cooldown; espera a 2 barras.", "en": "Cold start: don't start the 2nd round with low SP and Combos on cooldown; wait for 2 bars." }
+      ],
+      "vsOtherComps": [
+        { "name": { "es": "Eje simple vs eje avanzado", "en": "Simple axis vs advanced axis" }, "verdict": { "es": "Simple: estable, sin requisitos de potencial, ideal para practicar. Avanzado: arranque más rápido (ahorra 100 SP con el tri-fuego de Wulfgard), pero pide a Wulfgard a M5 y buen timing. Elige por tu práctica e inversión.", "en": "Simple: stable, no dupe requirements, ideal to practice. Advanced: faster startup (saves 100 SP with Wulfgard's triple-fire), but needs Wulfgard at M5 and good timing. Pick by your practice and investment." } },
+        { "name": { "es": "Versión con Antal (棉被)", "en": "Antal version (棉被)" }, "verdict": { "es": "En la página de Camille hay otra toma del equipo de fuego (fuente 叫我棉被) con Antal en el 4º slot en vez de Wulfgard, centrada en la marca de Camille y su gestión de Link. Misma columna vertebral (Laevatain + Molten), distinto 4º miembro.", "en": "Camille's page has another take on the fire team (source 叫我棉被) with Antal in the 4th slot instead of Wulfgard, focused on Camille's mark and Link management. Same backbone (Laevatain + Molten), different 4th member." } }
+      ],
+      "members": [
+        {
+          "id": "laevatain",
+          "role": "Carry",
+          "weaponId": "wpn_sword_0006",
+          "gearRec": ["tide_fall_light_armor", "hot_work_gauntlets", "hot_work_pyrometer", "hot_work_pyrometer"],
+          "weaponNote": { "es": "Forgeborn Scathe (promocional) > Umbral Torch > White Night Nova > Fortmaker.", "en": "Forgeborn Scathe (signature) > Umbral Torch > White Night Nova > Fortmaker." },
+          "gearNote": { "es": "Set 1 — DAÑO al máximo (0 y máx potencial): Hot Work Exoskeleton + Hot Work Gauntlets + Hot Work Pyrometer + una placa Bio-aid MORADA (fuera del catálogo gold, por eso los picks de aquí son el Set 2). YZ la recomienda mucho porque a 0 potencial el daño de Laevatain no explota tanto. Artificing: Intellect, Heat DMG, Battle Skill DMG, habilidad principal > Strength, Will. Set 2 — NUEVOS (三动火 + armadura de recarga): Tide Fall Light Armor (o Redeemer Armor) + Hot Work Gauntlets + Hot Work Pyrometer ×2; una da algo más de ATK, la otra algo más de HP, diferencia mínima. Más simple; el propio YZ lo recomienda para empezar.", "en": "Set 1 — max DAMAGE (0 and max dupes): Hot Work Exoskeleton + Hot Work Gauntlets + Hot Work Pyrometer + a PURPLE Bio-aid plate (outside the gold catalog, which is why the picks here are Set 2). YZ recommends it strongly because at 0 dupes Laevatain's damage doesn't explode as much. Artificing: Intellect, Heat DMG, Battle Skill DMG, main ability > Strength, Will. Set 2 — beginners (three Hot Work + a recharge armor): Tide Fall Light Armor (or Redeemer Armor) + Hot Work Gauntlets + Hot Work Pyrometer ×2; one gives a bit more ATK, the other a bit more HP, minimal difference. Simpler; YZ himself recommends it to start." },
+          "deepNote": { "es": "El plan del carry: heavies sin parar para absorber la Heat que cargan los soportes → Molten. A 4 Molten, Enhanced Battle Skill. A 0 potencial hacen falta 3 Combos para llenar la Ult; a máx potencial, 2 Combos.", "en": "The carry's plan: non-stop heavies to absorb the Heat the supports load → Molten. At 4 Molten, Enhanced Battle Skill. At 0 dupes you need 3 Combos to fill the Ultimate; at max dupes, 2 Combos." }
+        },
+        {
+          "id": "camille",
+          "role": "Enabler",
+          "weaponId": "wpn_lance_carmine",
+          "gearRec": ["frontiers_protection_suit", "frontiers_fiber_gloves_t1", "frontiers_extra_o2_tube", "redeemer_seal"],
+          "weaponNote": { "es": "Blessing of Lustrous Carmine (promocional): a máx potencial, fuerza de equipo ≈110% del promocional a 0 potencial. Alternativa: Beacon of Duty — a 0 potencial ≈90% y a máx ≈95% del promocional a 0 potencial.", "en": "Blessing of Lustrous Carmine (signature): at max dupes, team strength ≈110% of the 0-dupe signature. Alternative: Beacon of Duty — at 0 dupes ≈90% and at max ≈95% of the 0-dupe signature." },
+          "gearNote": { "es": "Frontiers (Protection Suit + Fiber Gloves T1 + Extra O2 Tube) + Redeemer Seal. Umbral de recarga (mínimo de arma+gear): 0 potencial 58.54% / 4 potencial 34.76%. Con Laevatain a 1 potencial o más, su retorno de SP sube el umbral de los aliados: 0 potencial 66.45% / 4 potencial 41.49%. Es el mínimo; conviene apilar algo más.", "en": "Frontiers (Protection Suit + Fiber Gloves T1 + Extra O2 Tube) + Redeemer Seal. Recharge threshold (min from weapon+gear): 0 dupes 58.54% / 4 dupes 34.76%. With Laevatain at 1 dupe or more, his SP refund raises allies' threshold: 0 dupes 66.45% / 4 dupes 41.49%. That's the minimum; stack a bit more if you can." },
+          "deepNote": { "es": "Aporta Heat, retorno de SP, Weakness/Heat Susceptibility y el buff Link para los Enhanced Battle Skills. En la quema, su Ult arma el Hunter Pursuit (se dispara con su Battle Skill) para el 2º Link.", "en": "Provides Heat, SP refunds, Weakness/Heat Susceptibility and the Link buff for the Enhanced Battle Skills. In the burn, his Ultimate arms Hunter Pursuit (fired via his Battle Skill) for the 2nd Link." }
+        },
+        {
+          "id": "wulfgard",
+          "role": "Enabler",
+          "weaponId": "wpn_pistol_0012",
+          "gearRec": ["qingbo_heavy_armor", "qingbo_gloves", "qingbo_bamboo_cutter", "eternal_xiranite_power_core"],
+          "weaponNote": { "es": "OBJ Velocitous > Rational Farewell > Clannibal (promocional).", "en": "OBJ Velocitous > Rational Farewell > Clannibal (signature)." },
+          "gearNote": { "es": "Set 1 — eje simple: Qingbo (Heavy Armor + Gloves + Bamboo Cutter) + Eternal Xiranite Power Core. Baja el CD del Combo; el eje simple NO tiene requisito de recarga, no hace falta artificiar. Set 2 — eje avanzado: Type 50 Yinglung Heavy Armor T1 + Eternal Xiranite (Gloves + Power Core ×2) = tres Eternal Xiranite; añade substats de Strength y los 1000 HP del set. Objetivo del avanzado: apilar recarga hasta 212.5% (pide a Wulfgard a M5; también sirve el Qingbo si maximizas la recarga de OBJ Velocitous y artificias la recarga del gear).", "en": "Set 1 — simple axis: Qingbo (Heavy Armor + Gloves + Bamboo Cutter) + Eternal Xiranite Power Core. Lowers the Combo cooldown; the simple axis has NO recharge requirement, no artificing needed. Set 2 — advanced axis: Type 50 Yinglung Heavy Armor T1 + Eternal Xiranite (Gloves + Power Core ×2) = three Eternal Xiranite; adds Strength substats and the set's 1000 HP. Advanced goal: stack recharge to 212.5% (needs Wulfgard at M5; Qingbo also works if you max OBJ Velocitous's recharge substat and artifice the gear's recharge)." },
+          "deepNote": { "es": "Cuelga la 2ª capa de Heat con su Combo. En el eje avanzado es la clave: cancelar su Combo con su Ult en pleno salto (el tri-fuego) ahorra 100 SP.", "en": "Applies the 2nd Heat layer with his Combo. In the advanced axis he's the key: cancelling his Combo with his Ultimate mid-jump (the triple-fire) saves 100 SP." }
+        },
+        {
+          "id": "ardelia",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0013",
+          "gearRec": null,
+          "weaponNote": { "es": "Dreams of the Starry Beach (Intellect / curación / Infliction).", "en": "Dreams of the Starry Beach (Intellect / healing / Infliction)." },
+          "gearNote": { "es": "Gear sencillo: tres Eternal Xiranite (Gloves T1 + Auxiliary Arm ×2) + un pecho Bio-aid MORADO (fuera del catálogo gold de la app, por eso no hay picks aquí) — cubre recarga y curación a la vez. Sin artificing (无需精锻).", "en": "Simple gear: three Eternal Xiranite (Gloves T1 + Auxiliary Arm ×2) + a PURPLE Bio-aid chestplate (outside the app's gold catalog, hence no picks here) — covers recharge and healing at once. No artificing (无需精锻)." },
+          "deepNote": { "es": "Su Combo aplica Corrosion (retardada); su Battle Skill cuelga Weakness y dispara la vulnerabilidad de su arma promocional. Es el amp que precede a la quema.", "en": "Her Combo applies Corrosion (delayed); her Battle Skill applies Weakness and triggers her signature weapon's vulnerability. That's the amp before the burn." }
+        }
+      ],
+      "equipment": {
+        "intro": { "es": "El objetivo de la build es la recarga de Ult de Camille y Wulfgard (el equipo la necesita). Laevatain elige entre daño máximo (Set 1, con una placa morada fuera de catálogo) o comodidad de principiante (Set 2, todo gold). Wulfgard cambia de set según juegues el eje simple (Qingbo, baja CD) o el avanzado (tres Eternal Xiranite, 212.5% de recarga).", "en": "The build goal is Camille's and Wulfgard's Ultimate recharge (the team needs it). Laevatain chooses between max damage (Set 1, with a purple plate outside the catalog) or beginner comfort (Set 2, all gold). Wulfgard swaps sets depending on whether you play the simple axis (Qingbo, lowers cooldown) or the advanced one (three Eternal Xiranite, 212.5% recharge)." },
+        "alts": [
+          { "scenario": { "es": "Laevatain: máximo daño", "en": "Laevatain: max damage" }, "swap": { "es": "Set 2 → Set 1: Hot Work Exoskeleton + Gauntlets + Pyrometer + placa Bio-aid morada (fuera del catálogo de la app).", "en": "Set 2 → Set 1: Hot Work Exoskeleton + Gauntlets + Pyrometer + purple Bio-aid plate (outside the app's catalog)." } },
+          { "scenario": { "es": "Wulfgard: eje avanzado", "en": "Wulfgard: advanced axis" }, "swap": { "es": "Qingbo → Type 50 Yinglung Heavy Armor T1 + Eternal Xiranite Gloves + Power Core ×2 para llegar a 212.5% de recarga (pide M5).", "en": "Qingbo → Type 50 Yinglung Heavy Armor T1 + Eternal Xiranite Gloves + Power Core ×2 to reach 212.5% recharge (needs M5)." } }
+        ]
+      },
+      "simple": {
+        "whatItDoes": { "es": "Laevatain es el carry: no deja de dar golpes para absorber el fuego que le cargan al enemigo y convertirlo en energía Molten; a 4 Molten pega un golpe fuerte (Enhanced Battle Skill). Camille y Wulfgard cuelgan el fuego y dan energía; Ardelia debuffea (Corrosion + Weakness) y cura. Haces dos rondas de carga, todos abren Ult y revientas.", "en": "Laevatain is the carry: he never stops hitting to absorb the fire loaded onto the enemy and turn it into Molten energy; at 4 Molten he lands a big hit (Enhanced Battle Skill). Camille and Wulfgard hang the fire and give energy; Ardelia debuffs (Corrosion + Weakness) and heals. You do two charge rounds, everyone ults and you burst." },
+        "steps": [
+          { "do": { "es": "No dejes de dar básico/heavy con Laevatain.", "en": "Never stop Laevatain's basic/heavy." }, "who": "laevatain" },
+          { "do": { "es": "Cuelga 3 fuegos: Battle Skill de Camille → Combo de Wulfgard → Battle Skill de Camille.", "en": "Apply 3 fires: Camille's Battle Skill → Wulfgard's Combo → Camille's Battle Skill." }, "who": "camille" },
+          { "do": { "es": "Heavy para absorber el fuego → sube a 4 Molten → Enhanced Battle Skill. Repite la ronda una vez más.", "en": "Heavy to absorb the fire → get to 4 Molten → Enhanced Battle Skill. Repeat the round once more." }, "who": "laevatain" },
+          { "do": { "es": "Combo de Ardelia (espera la explosión) → su Battle Skill para el Weakness.", "en": "Ardelia's Combo (wait for the explosion) → her Battle Skill for the Weakness." }, "who": "ardelia" },
+          { "do": { "es": "Todos Ult y a quemar: heavies + Enhanced Battle Skills; los Combos de Camille dan Link.", "en": "Everyone ults and burn: heavies + Enhanced Battle Skills; Camille's Combos give Link." }, "who": "laevatain" }
+        ],
+        "gear": [
+          { "id": "laevatain", "line": { "es": "Hot Work para el daño; de principiante, tres Hot Work + armadura de recarga.", "en": "Hot Work for damage; for beginners, three Hot Work + a recharge armor." } },
+          { "id": "camille", "line": { "es": "Frontiers + Redeemer Seal (recarga).", "en": "Frontiers + Redeemer Seal (recharge)." } },
+          { "id": "wulfgard", "line": { "es": "Qingbo (eje simple) o tres Eternal Xiranite (eje avanzado).", "en": "Qingbo (simple axis) or three Eternal Xiranite (advanced axis)." } },
+          { "id": "ardelia", "line": { "es": "Tres Eternal Xiranite + un pecho Bio-aid morado (no está en la app).", "en": "Three Eternal Xiranite + a purple Bio-aid chestplate (not in the app)." } }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "id": "mifu",
+  "name": "Mi Fu",
+  "ranks": 12,
+  "skills": {
+    "basic_attack": {
+      "name": "Fistmancer of Blades",
+      "stats": [
+        {
+          "name": "BATK SEQ 1 Multiplier",
+          "unit": "%",
+          "values": [
+            34,
+            37,
+            41,
+            44,
+            47,
+            51,
+            54,
+            57,
+            61,
+            65,
+            70,
+            76
+          ]
+        },
+        {
+          "name": "BATK SEQ 2 Multiplier",
+          "unit": "%",
+          "values": [
+            38,
+            42,
+            46,
+            50,
+            54,
+            57,
+            61,
+            65,
+            69,
+            74,
+            79,
+            86
+          ]
+        },
+        {
+          "name": "BATK SEQ 3 Multiplier",
+          "unit": "%",
+          "values": [
+            61,
+            67,
+            73,
+            79,
+            85,
+            91,
+            97,
+            103,
+            109,
+            116,
+            126,
+            136
+          ]
+        },
+        {
+          "name": "BATK SEQ 4 Multiplier",
+          "unit": "%",
+          "values": [
+            77,
+            84,
+            92,
+            99,
+            107,
+            115,
+            122,
+            130,
+            138,
+            147,
+            159,
+            172
+          ]
+        },
+        {
+          "name": "Dive ATK Multiplier",
+          "unit": "%",
+          "values": [
+            80,
+            88,
+            96,
+            104,
+            112,
+            120,
+            128,
+            136,
+            144,
+            154,
+            166,
+            180
+          ]
+        },
+        {
+          "name": "Finisher ATK Multiplier",
+          "unit": "%",
+          "values": [
+            400,
+            440,
+            480,
+            520,
+            560,
+            600,
+            640,
+            680,
+            720,
+            770,
+            830,
+            900
+          ]
+        }
+      ]
+    },
+    "battle_skill": {
+      "name": "Qingbo Triplex",
+      "stats": [
+        {
+          "name": "SP Cost (1)",
+          "values": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "SP Cost (2)",
+          "values": [
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50
+          ]
+        },
+        {
+          "name": "SP Cost (3)",
+          "values": [
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50
+          ]
+        },
+        {
+          "name": "Cloudtrapper DMG Multiplier",
+          "unit": "%",
+          "values": [
+            67,
+            73,
+            80,
+            87,
+            93,
+            100,
+            107,
+            113,
+            120,
+            128,
+            138,
+            150
+          ]
+        },
+        {
+          "name": "Trail and Mangle DMG Multiplier",
+          "unit": "%",
+          "values": [
+            89,
+            98,
+            107,
+            116,
+            125,
+            134,
+            143,
+            151,
+            160,
+            172,
+            185,
+            200
+          ]
+        },
+        {
+          "name": "Trail and Mangle Stagger",
+          "values": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "name": "World Splitter DMG Multiplier",
+          "unit": "%",
+          "values": [
+            400,
+            416,
+            432,
+            448,
+            464,
+            480,
+            496,
+            512,
+            528,
+            548,
+            572,
+            600
+          ]
+        },
+        {
+          "name": "World Splitter Stagger",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ]
+    },
+    "combo_skill": {
+      "name": "Fists of No Regrets",
+      "stats": [
+        {
+          "name": "Cooldown",
+          "values": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            19
+          ]
+        },
+        {
+          "name": "DMG Multiplier",
+          "unit": "%",
+          "values": [
+            111,
+            122,
+            133,
+            144,
+            155,
+            167,
+            178,
+            189,
+            200,
+            214,
+            230,
+            250
+          ]
+        },
+        {
+          "name": "Stagger",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "Physical Susceptibility",
+          "unit": "%",
+          "values": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "name": "Physical Susceptibility Duration (s)",
+          "values": [
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16
+          ]
+        },
+        {
+          "name": "Ultimate Energy Gain",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ]
+    },
+    "ultimate": {
+      "name": "Pile of No Mercy",
+      "stats": [
+        {
+          "name": "Ultimate Energy Cost",
+          "values": [
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80
+          ]
+        },
+        {
+          "name": "Cooldown",
+          "values": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ]
+        },
+        {
+          "name": "DMG Multiplier",
+          "unit": "%",
+          "values": [
+            311,
+            342,
+            373,
+            404,
+            435,
+            466,
+            498,
+            529,
+            560,
+            599,
+            645,
+            700
+          ]
+        },
+        {
+          "name": "Stagger",
+          "values": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ]
+        }
+      ]
+    }
+  }
+}

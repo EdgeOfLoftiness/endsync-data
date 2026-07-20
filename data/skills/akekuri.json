@@ -1,0 +1,324 @@
+{
+  "id": "akekuri",
+  "name": "Akekuri",
+  "ranks": 12,
+  "skills": {
+    "basic_attack": {
+      "name": "Sword of Aspiration",
+      "stats": [
+        {
+          "name": "BATK SEQ 1 Multiplier",
+          "unit": "%",
+          "values": [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            39,
+            42,
+            45
+          ]
+        },
+        {
+          "name": "BATK SEQ 2 Multiplier",
+          "unit": "%",
+          "values": [
+            28,
+            30,
+            33,
+            36,
+            39,
+            41,
+            44,
+            47,
+            50,
+            53,
+            57,
+            62
+          ]
+        },
+        {
+          "name": "BATK SEQ 3 Multiplier",
+          "unit": "%",
+          "values": [
+            33,
+            36,
+            39,
+            42,
+            46,
+            49,
+            52,
+            55,
+            59,
+            63,
+            67,
+            73
+          ]
+        },
+        {
+          "name": "BATK SEQ 4 Multiplier",
+          "unit": "%",
+          "values": [
+            50,
+            54,
+            59,
+            64,
+            69,
+            74,
+            79,
+            84,
+            89,
+            95,
+            103,
+            111
+          ]
+        },
+        {
+          "name": "Finisher ATK Multiplier",
+          "unit": "%",
+          "values": [
+            400,
+            440,
+            480,
+            520,
+            560,
+            600,
+            640,
+            680,
+            720,
+            770,
+            830,
+            900
+          ]
+        },
+        {
+          "name": "Dive ATK Multiplier",
+          "unit": "%",
+          "values": [
+            80,
+            88,
+            96,
+            104,
+            112,
+            120,
+            128,
+            136,
+            144,
+            154,
+            166,
+            180
+          ]
+        }
+      ]
+    },
+    "battle_skill": {
+      "name": "Burst of Passion",
+      "stats": [
+        {
+          "name": "SP Cost",
+          "values": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "DMG Multiplier",
+          "unit": "%",
+          "values": [
+            142,
+            156,
+            171,
+            185,
+            199,
+            213,
+            228,
+            242,
+            256,
+            274,
+            295,
+            320
+          ]
+        },
+        {
+          "name": "Stagger",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ]
+    },
+    "combo_skill": {
+      "name": "Flash and Dash",
+      "stats": [
+        {
+          "name": "Cooldown",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            9
+          ]
+        },
+        {
+          "name": "DMG Multiplier per SEQ",
+          "unit": "%",
+          "values": [
+            80,
+            88,
+            96,
+            104,
+            112,
+            120,
+            128,
+            136,
+            144,
+            154,
+            166,
+            180
+          ]
+        },
+        {
+          "name": "Stagger per SEQ",
+          "values": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "name": "SP Recovery per SEQ",
+          "values": [
+            7.5,
+            7.5,
+            7.5,
+            7.5,
+            7.5,
+            7.5,
+            7.5,
+            7.5,
+            7.5,
+            7.5,
+            7.5,
+            7.5
+          ]
+        },
+        {
+          "name": "Ultimate Energy Gain",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ]
+    },
+    "ultimate": {
+      "name": "SQUAD! ON ME!",
+      "stats": [
+        {
+          "name": "Ultimate Energy Cost",
+          "values": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ]
+        },
+        {
+          "name": "Cooldown",
+          "values": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ]
+        },
+        {
+          "name": "SP Recovery",
+          "values": [
+            58,
+            60,
+            62,
+            64,
+            66,
+            68,
+            70,
+            72,
+            74,
+            76,
+            78,
+            80
+          ]
+        }
+      ]
+    }
+  }
+}

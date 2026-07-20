@@ -1,0 +1,538 @@
+{
+  "id": "rossi",
+  "name": "Rossi",
+  "ranks": 12,
+  "skills": {
+    "basic_attack": {
+      "name": "Seething Wolfblood",
+      "stats": [
+        {
+          "name": "BATK SEQ 1 Multiplier",
+          "unit": "%",
+          "values": [
+            27,
+            30,
+            32,
+            35,
+            38,
+            41,
+            43,
+            46,
+            49,
+            52,
+            56,
+            61
+          ]
+        },
+        {
+          "name": "BATK SEQ 2 Multiplier",
+          "unit": "%",
+          "values": [
+            32,
+            35,
+            38,
+            41,
+            44,
+            47,
+            50,
+            54,
+            57,
+            61,
+            65,
+            71
+          ]
+        },
+        {
+          "name": "BATK SEQ 3 Multiplier",
+          "unit": "%",
+          "values": [
+            34,
+            37,
+            41,
+            44,
+            48,
+            51,
+            54,
+            58,
+            61,
+            65,
+            71,
+            77
+          ]
+        },
+        {
+          "name": "BATK SEQ 4 Multiplier",
+          "unit": "%",
+          "values": [
+            41,
+            45,
+            49,
+            53,
+            57,
+            61,
+            65,
+            69,
+            73,
+            78,
+            84,
+            91
+          ]
+        },
+        {
+          "name": "BATK SEQ 5 Multiplier",
+          "unit": "%",
+          "values": [
+            50,
+            55,
+            60,
+            65,
+            70,
+            75,
+            80,
+            85,
+            90,
+            96,
+            104,
+            113
+          ]
+        },
+        {
+          "name": "Finisher ATK Multiplier",
+          "unit": "%",
+          "values": [
+            400,
+            440,
+            480,
+            520,
+            560,
+            600,
+            640,
+            680,
+            720,
+            770,
+            830,
+            900
+          ]
+        },
+        {
+          "name": "Dive ATK Multiplier",
+          "unit": "%",
+          "values": [
+            80,
+            88,
+            96,
+            104,
+            112,
+            120,
+            128,
+            136,
+            144,
+            154,
+            166,
+            180
+          ]
+        }
+      ]
+    },
+    "battle_skill": {
+      "name": "Crimson Shadow",
+      "stats": [
+        {
+          "name": "SP Cost",
+          "values": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "SEQ 1 DMG Multiplier",
+          "unit": "%",
+          "values": [
+            85,
+            94,
+            102,
+            111,
+            119,
+            128,
+            137,
+            145,
+            154,
+            164,
+            177,
+            192
+          ]
+        },
+        {
+          "name": "SEQ 1 Stagger",
+          "values": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "name": "SEQ 2 DMG Multiplier",
+          "unit": "%",
+          "values": [
+            128,
+            141,
+            153,
+            166,
+            179,
+            192,
+            204,
+            217,
+            230,
+            246,
+            265,
+            288
+          ]
+        },
+        {
+          "name": "SEQ 2 Stagger",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            12,
+            12,
+            12,
+            15
+          ]
+        }
+      ]
+    },
+    "combo_skill": {
+      "name": "Moment of Blazing Shadow",
+      "stats": [
+        {
+          "name": "Cooldown (1)",
+          "values": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            14
+          ]
+        },
+        {
+          "name": "Cooldown (2)",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "SEQ 1 DMG Multiplier",
+          "unit": "%",
+          "values": [
+            67,
+            73,
+            80,
+            87,
+            93,
+            100,
+            107,
+            113,
+            120,
+            128,
+            138,
+            150
+          ]
+        },
+        {
+          "name": "SEQ 1 Ultimate Energy Gain",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "SEQ 2 DMG Multiplier",
+          "unit": "%",
+          "values": [
+            133,
+            147,
+            160,
+            173,
+            187,
+            200,
+            213,
+            227,
+            240,
+            257,
+            277,
+            300
+          ]
+        },
+        {
+          "name": "Bonus DMG Multiplier per Infliction Stack",
+          "unit": "%",
+          "values": [
+            80,
+            88,
+            96,
+            104,
+            112,
+            120,
+            128,
+            136,
+            144,
+            154,
+            166,
+            180
+          ]
+        },
+        {
+          "name": "SEQ 2 Stagger",
+          "values": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "name": "Critical Rate Boost",
+          "unit": "%",
+          "values": [
+            15,
+            15,
+            15,
+            17,
+            17,
+            17,
+            19,
+            19,
+            21,
+            21,
+            23,
+            25
+          ]
+        },
+        {
+          "name": "Critical DMG Boost",
+          "unit": "%",
+          "values": [
+            30,
+            30,
+            30,
+            34,
+            34,
+            34,
+            38,
+            38,
+            42,
+            42,
+            46,
+            50
+          ]
+        },
+        {
+          "name": "Buff Duration (s)",
+          "values": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ]
+        },
+        {
+          "name": "SEQ 2 Ultimate Energy Gain",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ]
+    },
+    "ultimate": {
+      "name": "\"Razorclaw\" Ambuscade",
+      "stats": [
+        {
+          "name": "Ultimate Energy Cost",
+          "values": [
+            110,
+            110,
+            110,
+            110,
+            110,
+            110,
+            110,
+            110,
+            110,
+            110,
+            110,
+            110
+          ]
+        },
+        {
+          "name": "Stab Attack Total DMG Multiplier",
+          "unit": "%",
+          "values": [
+            275,
+            300,
+            325,
+            350,
+            375,
+            400,
+            425,
+            450,
+            475,
+            525,
+            550,
+            600
+          ]
+        },
+        {
+          "name": "SEQ 1 Slash DMG Multiplier",
+          "unit": "%",
+          "values": [
+            111,
+            122,
+            133,
+            144,
+            156,
+            167,
+            178,
+            189,
+            200,
+            214,
+            231,
+            250
+          ]
+        },
+        {
+          "name": "SEQ 2 Slash DMG Multiplier",
+          "unit": "%",
+          "values": [
+            333,
+            367,
+            400,
+            433,
+            467,
+            500,
+            534,
+            567,
+            600,
+            642,
+            692,
+            750
+          ]
+        },
+        {
+          "name": "Stagger",
+          "values": [
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25
+          ]
+        },
+        {
+          "name": "Critical DMG Boost",
+          "unit": "%",
+          "values": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1558 @@
+{
+  "label": "YVONNE",
+  "guideCharId": "yvonne",
+  "tagline": {
+    "es": "Hyper-carry de Cryo construida entera alrededor de su Ultimate. No puede aplicar Inflictions ella sola — el equipo le pone Cryo en el jefe, ella las consume con su Battle Skill para forzar Solidification y generar energía, y lo cobra todo en un Ultimate de 220 que descarga una lluvia de balas. Casi todo su daño cae en esa ventana, así que colocar bien el Combo y cronometrar el Ultimate lo es todo.",
+    "en": "A Cryo hyper-carry built entirely around her Ultimate. She can't apply Inflictions on her own — the team stacks Cryo on the boss, she consumes them with her Battle Skill to force Solidification and generate energy, then cashes it all into a 220-cost Ultimate that unloads a hail of bullets. Almost all her damage lands in that window, so placing the Combo well and timing the Ultimate is everything."
+  },
+  "comps": [
+    {
+      "name": {
+        "es": "Maygi - Cryo Perlica",
+        "en": "Maygi - Cryo Perlica"
+      },
+      "subtitle": {
+        "es": "Xaihi · Gilberta · Perlica",
+        "en": "Xaihi · Gilberta · Perlica"
+      },
+      "blurb": {
+        "es": "Hyper-carry de Cryo: el equipo le alimenta Inflictions y ella lo cobra todo en un Ultimate de 220 que descarga una lluvia de balas.",
+        "en": "Cryo hyper-carry: the team feeds her Inflictions and she cashes it all into a 220-cost Ultimate that unloads a hail of bullets."
+      },
+      "guideVideoId": "yv5",
+      "simple": {
+        "whatItDoes": {
+          "es": "El equipo de referencia de Yvonne. Tres apoyos le ponen Inflictions y buffs porque ella no puede sola: Xaihi es la fuente principal de Cryo (y aporta Amp + cura), Gilberta agrupa, mete Shatters gratis y deja una Susceptibility enorme con su Ultimate, y Perlica es el mejor 4º slot — su Electrification es el buff más fuerte y consistente del hueco. Tú vas acumulando Cryo, lo consumes con el Battle Skill de Yvonne para forzar Solidification, encadenas Final Strike → Combo, y cuando todo está buffeado sueltas su Ultimate. Ahí cae casi todo el daño.",
+          "en": "Yvonne's benchmark team. Three supports feed her Inflictions and buffs because she can't do it herself: Xaihi is the main Cryo source (and brings Amp + healing), Gilberta groups, slots free Shatters and drops a huge Susceptibility with her Ultimate, and Perlica is the best 4th slot — her Electrification is the strongest, most consistent buff for the spot. You stack Cryo, consume it with Yvonne's Battle Skill to force Solidification, chain Final Strike → Combo, and once everything's buffed you fire her Ultimate. That's where almost all the damage lands."
+        },
+        "steps": [
+          {
+            "who": "xaihi",
+            "do": {
+              "es": "Pon Cryo Infliction en el jefe con Xaihi (su Battle Skill y su Combo lo aplican). Es la fuente principal de Cryo del equipo — sin Inflictions, Yvonne no arranca.",
+              "en": "Put Cryo Infliction on the boss with Xaihi (her Battle Skill and Combo apply it). She's the team's main Cryo source — without Inflictions, Yvonne doesn't get going."
+            }
+          },
+          {
+            "who": "yvonne",
+            "do": {
+              "es": "Con Yvonne: consume esas Inflictions con su Battle Skill — fuerza Solidification y te da energía. Justo después sale un Final Strike instantáneo que dispara su Combo Skill.",
+              "en": "With Yvonne: consume those Inflictions with her Battle Skill — it forces Solidification and gives you energy. Right after, an instant Final Strike fires, which triggers her Combo Skill."
+            }
+          },
+          {
+            "who": "perlica",
+            "do": {
+              "es": "Aplica Electrification con el Combo de Perlica: es un buff potente para todo el equipo. Su Electric Infliction, de paso, deja que la Ultimate de Gilberta saque una pequeña Corrosión.",
+              "en": "Apply Electrification with Perlica's Combo: it's a strong team-wide buff. Her Electric Infliction, on the way, lets Gilberta's Ultimate pull a small Corrosion."
+            }
+          },
+          {
+            "who": "yvonne",
+            "do": {
+              "es": "Lanza el Combo de Yvonne justo ANTES del Ultimate: deja una Solidification retardada que cae sobre el disparo final. Es lo último que haces antes de ultear.",
+              "en": "Fire Yvonne's Combo right BEFORE the Ultimate: it leaves a delayed Solidification that lands on the final shot. It's the last thing you do before you ult."
+            }
+          },
+          {
+            "who": "yvonne",
+            "do": {
+              "es": "Suelta el Ultimate de Yvonne y canalízalo completo. En el primer disparo, mete Combo de Perlica e INMEDIATAMENTE Combo de Gilberta (provoca un Shatter justo antes de la re-Solidification). Unos 4s después, Ultimate de Gilberta + Ultimate de Perlica para rematar los buffs.",
+              "en": "Fire Yvonne's Ultimate and channel it fully. On the first shot, slot Perlica's Combo and IMMEDIATELY Gilberta's Combo (it triggers a Shatter just before the re-Solidification). About 4s later, Gilberta's Ultimate + Perlica's Ultimate to top off the buffs."
+            }
+          },
+          {
+            "who": "yvonne",
+            "do": {
+              "es": "Dodge-cancela el último golpe del Ultimate de Yvonne — te ahorra casi un segundo de animación y te deja meter el Finisher sobre todos los debuffs. Asegúrate de que el jefe siga Solidificado en el disparo final.",
+              "en": "Dodge-cancel the final hit of Yvonne's Ultimate — it shaves nearly a second of animation and lets you squeeze the Finisher onto all the debuffs. Make sure the boss is still Solidified on the final shot."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "yvonne",
+            "line": {
+              "es": "Artzy Tyrannical (su arma promocional) es lo ideal. Gear: MI Security (4 piezas) con los guantes de Basic ATK (todo su Ultimate cuenta como básico). El Crit Rate es su mejor stat — no pases del 70%, su Ultimate ya regala 30%.",
+              "en": "Artzy Tyrannical (her signature) is ideal. Gear: MI Security (4 pieces) with the Basic ATK gloves (her whole Ultimate counts as basic). Crit Rate is her best stat — don't go over 70%, her Ultimate already grants 30%."
+            }
+          },
+          {
+            "id": "xaihi",
+            "line": {
+              "es": "Detonation Unit + set Eternal Xiranite. Es la fuente principal de Cryo y aporta Amp, Arts DMG Taken y cura sin pedir un healer dedicado.",
+              "en": "Detonation Unit + Eternal Xiranite set. She's the main Cryo source and brings Amp, Arts DMG Taken and healing without needing a dedicated healer."
+            }
+          },
+          {
+            "id": "gilberta",
+            "line": {
+              "es": "Delivery Guaranteed (su arma promocional) + set Eternal Xiranite. Agrupa, da Nature Infliction, mete Shatters gratis y suelta una Susceptibility enorme con su Ultimate.",
+              "en": "Delivery Guaranteed (her signature) + Eternal Xiranite set. She groups, supplies Nature Infliction, slots free Shatters and drops a huge Susceptibility with her Ultimate."
+            }
+          },
+          {
+            "id": "perlica",
+            "line": {
+              "es": "Oblivion + set Pulser Labs (Arts Intensity) con guantes Eternal Xiranite por el Ultimate Gain que pide la rotación. Su Electrification es el buff que la mete en el equipo.",
+              "en": "Oblivion + Pulser Labs set (Arts Intensity) with Eternal Xiranite gloves for the Ultimate Gain the rotation needs. Her Electrification is the buff that earns her the slot."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "El equipo de referencia de Yvonne. Todo gira alrededor de un motor que ella no puede arrancar sola: Yvonne no aplica Inflictions, así que el equipo existe para ponerle Cryo en el jefe sin parar. Aquí el aplicador principal es Xaihi — su Battle Skill y su Combo dejan Cryo Infliction, y de paso mantiene el Amp y cura a todos. Gilberta hace tres cosas a la vez: agrupa, mete un Shatter gratis tras el Battle Skill de Yvonne, y deja una Susceptibility brutal alineada con el Ultimate. El 4º slot es flexible, pero Perlica es la mejor opción: ofrece el buff de daño más fuerte y consistente del hueco (Electrification) y su fácil acceso a Electric Infliction permite que la Ultimate de Gilberta saque una pequeña Corrosión. La rotación no es de timings al milímetro en todas partes, pero sí pide cabeza: gestionar cuántas Inflictions consumes (el patrón 1+3), lanzar el Combo justo antes del Ultimate para que la Solidification caiga sobre el disparo final, y clavar la ventana muy estrecha de Perlica → Gilberta durante el primer disparo del Ultimate.",
+        "en": "Yvonne's benchmark team. Everything revolves around an engine she can't start on her own: Yvonne doesn't apply Inflictions, so the team exists to stack Cryo on the boss nonstop. Here the main applier is Xaihi — her Battle Skill and Combo leave Cryo Infliction, and along the way she keeps Amp up and heals everyone. Gilberta does three things at once: she groups, slots a free Shatter after Yvonne's Battle Skill, and leaves a brutal Susceptibility aligned with the Ultimate. The 4th slot is flexible, but Perlica is the best pick: she offers the strongest, most consistent damage buff for the spot (Electrification) and her easy access to Electric Infliction lets Gilberta's Ultimate pull a small Corrosion. The rotation isn't frame-perfect everywhere, but it does ask you to think: managing how many Inflictions you consume (the 1+3 pattern), firing the Combo right before the Ultimate so the Solidification lands on the final shot, and nailing the very tight Perlica → Gilberta window during the Ultimate's first shot."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Alta",
+          "en": "High"
+        },
+        "content": {
+          "es": "Jefe / Single-target",
+          "en": "Boss / Single-target"
+        },
+        "tags": [
+          { "es": "Criogénico", "en": "Cryo", "jp": "寒冷", "zh": "寒冷" },
+          {
+            "es": "Centrado en Ultimate",
+            "en": "Ultimate-focused"
+          },
+          {
+            "es": "Solidification",
+            "en": "Solidification"
+          },
+          {
+            "es": "Gestión de energía",
+            "en": "Energy management"
+          },
+          {
+            "es": "Timing de Combo",
+            "en": "Combo timing"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "Burst altísimo concentrado en el Ultimate — cuando entras con la Susceptibility de Gilberta y la Electrification de Perlica arriba y el jefe Solidificado, el disparo final pega un pico que pocas comps igualan.",
+          "en": "Very high burst concentrated in the Ultimate — when you enter with Gilberta's Susceptibility and Perlica's Electrification up and the boss Solidified, the final shot lands a spike few comps can match."
+        },
+        {
+          "es": "Xaihi resuelve el problema de Inflictions y el de sustain a la vez: aplica Cryo, sube Amp y Arts DMG Taken y cura mientras buffea, así que el equipo aguanta sin un healer dedicado.",
+          "en": "Xaihi solves the Infliction problem and the sustain problem at once: she applies Cryo, raises Amp and Arts DMG Taken, and heals while buffing, so the team holds up without a dedicated healer."
+        },
+        {
+          "es": "Gilberta aporta tres cosas a la vez: agrupado para AoE, Shatters gratis tras el Battle Skill de Yvonne, y una Susceptibility potente que multiplica el burst.",
+          "en": "Gilberta brings three things at once: grouping for AoE, free Shatters after Yvonne's Battle Skill, and a potent Susceptibility that multiplies the burst."
+        },
+        {
+          "es": "El 4º slot es flexible: Perlica es lo óptimo, pero el núcleo de la rotación no cambia si la sustituyes por otra opción (Alesh, Last Rite, Fluorite, Snowshine), o incluso por un 5º Battle Skill de Xaihi.",
+          "en": "The 4th slot is flexible: Perlica is optimal, but the core rotation doesn't change if you swap her for another option (Alesh, Last Rite, Fluorite, Snowshine), or even for a 5th Xaihi Battle Skill."
+        }
+      ],
+      "cons": [
+        {
+          "es": "Es totalmente dependiente del Ultimate. Fuera de él, el daño de Yvonne es modesto; si llegas a la ventana sin buffs, sin Solidification en el disparo final o la malgastas moviéndote, tiras la vuelta.",
+          "en": "It's completely Ultimate-reliant. Outside it, Yvonne's damage is modest; if you reach the window without buffs, without Solidification on the final shot, or you waste it moving around, you throw away the loop."
+        },
+        {
+          "es": "El Ultimate cuesta 220 de energía (3-4 veces lo normal) y Yvonne no puede pagarlo sola — toda la rotación gira en torno a alimentarle Inflictions, y si la economía de SP del equipo falla, el Ultimate se retrasa.",
+          "en": "The Ultimate costs 220 energy (3-4 times a normal one) and Yvonne can't pay for it alone — the whole rotation revolves around feeding her Inflictions, and if the team's SP economy slips, the Ultimate gets delayed."
+        },
+        {
+          "es": "La ventana Perlica → Gilberta durante el Ultimate es muy estrecha: si la metes tarde rompes la Solidification, y si la metes pronto pierdes la Electrification para el Finisher.",
+          "en": "The Perlica → Gilberta window during the Ultimate is very tight: too late and you break the Solidification, too early and you lose the Electrification for the Finisher."
+        },
+        {
+          "es": "Buena parte de la fuerza de Perlica está bloqueada tras Potenciales: P1 alarga mucho la duración de la Electrification y P4 sube su valor base de 12% a 16%.",
+          "en": "A big chunk of Perlica's strength is locked behind Potentials: P1 significantly extends the Electrification's duration and P4 raises its base value from 12% to 16%."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "Yvonne no aplica Inflictions — el equipo se las pone",
+            "en": "Yvonne doesn't apply Inflictions — the team does"
+          },
+          "body": {
+            "es": "Toda la comp parte de una carencia: Yvonne necesita Cryo Infliction en el jefe para alimentar su Battle Skill, pero no puede aplicarla ella misma fuera de su Ultimate. Por eso los apoyos no son opcionales. Xaihi es la fuente principal — su Battle Skill y su Combo dejan Cryo —, y la rotación se apoya en sus 4 Battle Skills por vuelta para sostener el ritmo. Perlica, en cambio, no aporta Cryo: trae Electric (Electrification + Electric Infliction), que sirve de buff y de combustible para una pequeña Corrosión vía la Ultimate de Gilberta. Sin un aplicador fiable de Cryo, el motor entero se para.",
+            "en": "The whole comp starts from a gap: Yvonne needs Cryo Infliction on the boss to feed her Battle Skill, but she can't apply it herself outside her Ultimate. That's why the supports aren't optional. Xaihi is the main source — her Battle Skill and Combo leave Cryo — and the rotation leans on her 4 Battle Skills per loop to sustain the tempo. Perlica, by contrast, brings no Cryo: she brings Electric (Electrification + Electric Infliction), which serves as a buff and as fuel for a small Corrosion via Gilberta's Ultimate. Without a reliable Cryo applier, the whole engine stalls."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "El Battle Skill: Inflictions → Solidification + energía",
+            "en": "The Battle Skill: Inflictions → Solidification + energy"
+          },
+          "body": {
+            "es": "El núcleo del motor. El Battle Skill de Yvonne lanza una bomba que consume las Cryo Inflictions del jefe y fuerza Solidification. Esa Solidification no pega por sí sola, pero suma daño al propio Battle Skill por cada Infliction consumida y, sobre todo, genera energía: 10 base más 30 por Infliction, y encima la aplicación de Solidification y el Combo añaden otros 30 cada uno. Por eso la rotación es de 1+3: dos Battle Skills de Yvonne (uno consumiendo 1 stack, otro consumiendo 3) bastan, sumados a unos 7 skillcasts de equipo, para llenar los 220 del Ultimate. Decidir cuántas Inflictions apilas antes de gastarlas es la clave de toda su rotación.",
+            "en": "The core of the engine. Yvonne's Battle Skill lobs a bomb that consumes the boss's Cryo Inflictions and forces Solidification. That Solidification deals no damage on its own, but it adds damage to the Battle Skill itself per Infliction consumed and, above all, generates energy: 10 base plus 30 per Infliction, and on top of that the Solidification application and the Combo each grant another 30. That's why the rotation is 1+3: two Yvonne Battle Skills (one consuming 1 stack, one consuming 3), plus roughly 7 team skillcasts, are enough to fill the Ultimate's 220. Deciding how many Inflictions to stack before spending them is the key to her entire rotation."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Final Strike instantáneo → Combo → Solidification retardada",
+            "en": "Instant Final Strike → Combo → delayed Solidification"
+          },
+          "body": {
+            "es": "El talento Barrage of Technology deja a Yvonne lanzar un Final Strike instantáneo justo después de Solidificar con el Battle Skill, y ese Final Strike sobre un enemigo Solidificado es lo que dispara su Combo Skill. El Combo despliega un robot que pulsa daño Cryo y, al explotar, vuelve a aplicar Solidification con un retraso. Ese retraso es el truco de timing de toda la comp: lanzas el Combo justo antes del Ultimate para que la Solidification caiga sobre el disparo final, que la consume para pegar muchísimo más. Por eso el Combo es siempre la última acción antes de ultear.",
+            "en": "The Barrage of Technology talent lets Yvonne fire an instant Final Strike right after Solidifying with the Battle Skill, and that Final Strike on a Solidified enemy is what triggers her Combo Skill. The Combo deploys a robot that pulses Cryo damage and, on explosion, reapplies Solidification with a delay. That delay is the comp's timing trick: you fire the Combo right before the Ultimate so the Solidification lands on the final shot, which consumes it to hit far harder. That's why the Combo is always the last action before you ult."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "El Ultimate es la ventana — y el Crit lo sostiene",
+            "en": "The Ultimate is the window — and Crit sustains it"
+          },
+          "body": {
+            "es": "El Ultimate cuesta 220 de energía y es casi todo su daño: durante unos 7 segundos (más en la práctica) sus básicos se vuelven fuego rápido que apila Crit Rate hasta 10 veces — a tope, +30% Crit Rate y +60% Crit DMG — y termina con un disparo enorme. El talento Freezing Point le da Crit DMG contra enemigos con Cryo Infliction, el doble si están Solidificados, así que el Crit Rate es su mejor stat. Esos 30% gratis del Ultimate son la razón de su soft cap: no pases del 70% de Crit en gear. Y el remate tiene un aftercast larguísimo — dodge-cancela el último golpe en cuanto resuelve para ahorrar casi un segundo (unos 50 frames) y poder meter el Finisher sobre todos los debuffs.",
+            "en": "The Ultimate costs 220 energy and is almost all her damage: for about 7 seconds (longer in practice) her basics become rapid fire that stacks Crit Rate up to 10 times — at max, +30% Crit Rate and +60% Crit DMG — ending in one huge shot. The Freezing Point talent grants Crit DMG against enemies with Cryo Infliction, doubled if they're Solidified, so Crit Rate is her best stat. Those free 30% from the Ultimate are the reason for her soft cap: don't go over 70% Crit on gear. And the finisher has a very long aftercast — dodge-cancel the final hit as soon as it resolves to save nearly a second (about 50 frames) and fit the Finisher onto all the debuffs."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Perlica electrifica, Gilberta multiplica",
+            "en": "Perlica electrifies, Gilberta multiplies"
+          },
+          "body": {
+            "es": "Los dos multiplicadores del burst entran en una ventana muy fina. Durante el primer disparo del Ultimate de Yvonne lanzas el Combo de Perlica e INMEDIATAMENTE el de Gilberta: con ese timing, el Shatter de Gilberta cae antes de la re-Solidification del Combo de Yvonne (daño gratis), mientras que la Electrification de Perlica queda activa para el Finisher. Más tarde rompe la Solidification; más pronto pierdes la Electrification. Unos 4 segundos después de aplicar el Electrocute, sueltas la Ultimate de Gilberta (Susceptibility) seguida de la de Perlica. Tener los dos buffs alineados con el disparo final separa un buen burst del techo real de la comp.",
+            "en": "The burst's two multipliers go in within a very fine window. During the first shot of Yvonne's Ultimate you fire Perlica's Combo and IMMEDIATELY Gilberta's: with that timing, Gilberta's Shatter lands before the re-Solidification from Yvonne's Combo (free damage), while Perlica's Electrification stays up for the Finisher. Any later breaks the Solidification; any earlier loses the Electrification. About 4 seconds after applying the Electrocute, you fire Gilberta's Ultimate (Susceptibility) followed by Perlica's. Having both buffs aligned with the final shot separates a good burst from the comp's actual ceiling."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Apertura — primeras Inflictions y Solidify",
+            "en": "Opener — first Inflictions and Solidify"
+          },
+          "action": {
+            "es": "El objetivo es montar Cryo en el jefe con Xaihi y consumirlo con el Battle Skill de Yvonne para forzar la primera Solidification y empezar a generar energía. Esta es la rotación de 1+3: la primera mitad consume 1 Infliction, la segunda 3.",
+            "en": "The goal is to build Cryo on the boss with Xaihi and consume it with Yvonne's Battle Skill to force the first Solidification and start generating energy. This is the 1+3 rotation: the first half consumes 1 Infliction, the second 3."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Xaihi Battle Skill — Amp y cura (en algunas peleas puede salir gratis antes de entrar en combate).",
+                "en": "Xaihi Battle Skill — Amp and healing (in some fights it can come out for free before entering combat)."
+              }
+            },
+            {
+              "do": {
+                "es": "Tras una cadena de básicos: Combo de Perlica + Combo de Gilberta.",
+                "en": "After one basic attack chain: Perlica's Combo + Gilberta's Combo."
+              }
+            },
+            {
+              "do": {
+                "es": "Tras otra cadena de básicos: Combo de Xaihi, luego Battle Skill de Xaihi otra vez + Battle Skill de Yvonne (consume 1 Infliction → Solidify + energía).",
+                "en": "After one more basic attack chain: Xaihi's Combo, then Xaihi's Battle Skill again + Yvonne's Battle Skill (consumes 1 Infliction → Solidify + energy)."
+              },
+              "key": true
+            },
+            {
+              "do": {
+                "es": "Básico + Combo de Yvonne (el Final Strike instantáneo ya lo disparó sobre el enemigo Solidificado).",
+                "en": "Basic attack + Yvonne's Combo (the instant Final Strike already triggered it on the Solidified enemy)."
+              }
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Construcción — subir a 3 stacks de Cryo",
+            "en": "Build-up — climb to 3 Cryo stacks"
+          },
+          "action": {
+            "es": "A partir de aquí, la cadencia se repite: usa el Battle Skill de Xaihi cada vez que su Combo se active, y mete los Combos de Perlica y Gilberta otra vez en cuanto estén listos. Vas subiendo el Cryo Infliction hasta 3 stacks.",
+            "en": "From here, the cadence repeats: use Xaihi's Battle Skill whenever her Combo activates, and slot Perlica's and Gilberta's Combos again as soon as they're up. You build Cryo Infliction up to 3 stacks."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Xaihi Battle Skill cada vez que su Combo se active (son los 4 Battle Skills de Xaihi por vuelta que sostienen la energía).",
+                "en": "Xaihi Battle Skill whenever her Combo activates (these are the 4 Xaihi Battle Skills per loop that sustain the energy)."
+              }
+            },
+            {
+              "do": {
+                "es": "Combos de Perlica y Gilberta de nuevo cuando estén disponibles.",
+                "en": "Perlica's and Gilberta's Combos again when they're available."
+              }
+            },
+            {
+              "do": {
+                "es": "Al llegar a 3 stacks de Cryo Infliction, espera unos segundos si hace falta para que el Combo de Perlica vuelva a estar listo — lo vas a necesitar entero para el burst.",
+                "en": "Once you reach 3 stacks of Cryo Infliction, wait a few seconds if needed for Perlica's Combo to come back up — you'll need all of it for the burst."
+              },
+              "key": true
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Pre-Ultimate — consumir 3 stacks",
+            "en": "Pre-Ultimate — consume 3 stacks"
+          },
+          "action": {
+            "es": "Con los 3 stacks puestos, haz el segundo consumo de la rotación y prepara la Solidification retardada del Combo para el disparo final. Aguanta el Combo de Perlica un poco: hace falta cada segundo de él para el burst.",
+            "en": "With the 3 stacks up, do the rotation's second consume and prep the Combo's delayed Solidification for the final shot. Hold Perlica's Combo a moment: you need every second of it for the burst."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Yvonne Battle Skill (consume 3 Inflictions) → básico → Combo de Yvonne. Mete también el Battle Skill de Perlica.",
+                "en": "Yvonne Battle Skill (consumes 3 Inflictions) → basic attack → Yvonne's Combo. Slot Perlica's Battle Skill too."
+              },
+              "key": true
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Ultimate — la ventana de daño",
+            "en": "Ultimate — the damage window"
+          },
+          "action": {
+            "es": "Suelta los Ultimates con los buffs alineados y la ventana Perlica → Gilberta clavada en el primer disparo. No te muevas de más: cada paso son balas que no salen.",
+            "en": "Fire the Ultimates with buffs aligned and the Perlica → Gilberta window nailed on the first shot. Don't move more than you have to: every step is bullets that don't fire."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Ultimate de Xaihi + Ultimate de Yvonne.",
+                "en": "Xaihi's Ultimate + Yvonne's Ultimate."
+              }
+            },
+            {
+              "do": {
+                "es": "Justo cuando Yvonne lanza el primer disparo del Ultimate: Combo de Perlica e INMEDIATAMENTE Combo de Gilberta. El Shatter de Gilberta tiene que caer antes de la re-Solidification del Combo de Yvonne.",
+                "en": "Right as Yvonne takes the first shot of her Ultimate: Perlica's Combo and IMMEDIATELY Gilberta's Combo. Gilberta's Shatter has to land before the re-Solidification from Yvonne's Combo."
+              },
+              "key": true,
+              "note": {
+                "es": "Más tarde rompes la Solidification; más pronto pierdes la Electrification del Finisher.",
+                "en": "Any later breaks the Solidification; any earlier loses the Electrification for the Finisher."
+              }
+            },
+            {
+              "do": {
+                "es": "Unos 4 segundos después del Electrocute: Ultimate de Gilberta (Susceptibility), seguida de la Ultimate de Perlica.",
+                "en": "About 4 seconds after the Electrocute: Gilberta's Ultimate (Susceptibility), followed by Perlica's Ultimate."
+              }
+            },
+            {
+              "do": {
+                "es": "Dodge-cancela el último golpe del Ultimate de Yvonne en cuanto resuelva, y mete el Finisher sobre todos los debuffs.",
+                "en": "Dodge-cancel the final hit of Yvonne's Ultimate as soon as it resolves, and slot the Finisher onto all the debuffs."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "Asegúrate de que el jefe siga Solidificado al final del Ultimate — el disparo final consume esa Solidification para pegar mucho más. Contra jefes inmunes al control de Solidification, cronometra el Ultimate con el Stagger o perderás tiempo de disparo.",
+            "en": "Make sure the boss is still Solidified at the end of the Ultimate — the final shot consumes that Solidification to hit much harder. Against bosses immune to Solidification's control, time the Ultimate with the Stagger or you'll lose firing time."
+          }
+        }
+      ],
+      "rotationVariants": [
+        {
+          "name": {
+            "es": "El 4º slot es intercambiable",
+            "en": "The 4th slot is swappable"
+          },
+          "description": {
+            "es": "El núcleo de la rotación (4 Battle Skills de Xaihi + 2 Battle Skills de Yvonne + 1 flex = 7 skillcasts de equipo para llenar los 220 de energía) no cambia aunque cambies a Perlica por otra opción del último hueco. Solo se ajusta lo que aporta esa pieza.",
+            "en": "The core rotation (4 Xaihi Battle Skills + 2 Yvonne Battle Skills + 1 flex = 7 team skillcasts to fill the 220 energy) doesn't change even if you swap Perlica for another last-slot option. Only what that piece contributes shifts."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Si el skill del 4º no es útil",
+                "en": "If the 4th's skill isn't useful"
+              },
+              "action": {
+                "es": "Cuando la pieza del último hueco no aporta gran cosa con su Battle Skill, sustituye ese skillcast por un 5º Battle Skill de Xaihi. La energía y el Cryo siguen cuadrando.",
+                "en": "When the last-slot piece doesn't add much with its Battle Skill, replace that skillcast with a 5th Xaihi Battle Skill. The energy and Cryo still add up."
+              },
+              "steps": [
+                {
+                  "do": {
+                    "es": "Sustituye ese skillcast por un 5º Battle Skill de Xaihi.",
+                    "en": "Replace that skillcast with a 5th Xaihi Battle Skill."
+                  },
+                  "note": {
+                    "es": "Cuando la pieza del último hueco no aporta gran cosa con su Battle Skill. La energía y el Cryo siguen cuadrando.",
+                    "en": "When the last-slot piece doesn't add much with its Battle Skill. The energy and Cryo still add up."
+                  }
+                }
+              ]
+            },
+            {
+              "phase": {
+                "es": "Arranque sin energía",
+                "en": "Cold start"
+              },
+              "action": {
+                "es": "Si entras en 0 energía y Yvonne no lleva Ultimate Gain extra, necesitarás consumir más Inflictions para recuperar el Ultimate: mete un Battle Skill más de Xaihi (o de la pieza del 4º slot) para un stack de Cryo adicional antes del segundo consumo.",
+                "en": "If you enter at 0 energy and Yvonne has no extra Ultimate Gain, you'll need to consume more Inflictions to get the Ultimate back: weave in one more Xaihi Battle Skill (or the 4th-slot piece's) for an extra Cryo stack before the second consume."
+              },
+              "steps": [
+                {
+                  "do": {
+                    "es": "Mete un Battle Skill más de Xaihi (o de la pieza del 4º slot) para un stack de Cryo adicional antes del segundo consumo.",
+                    "en": "Weave in one more Xaihi Battle Skill (or the 4th-slot piece's) for an extra Cryo stack before the second consume."
+                  },
+                  "note": {
+                    "es": "Si entras en 0 energía y Yvonne no lleva Ultimate Gain extra, necesitarás consumir más Inflictions para recuperar el Ultimate.",
+                    "en": "If you enter at 0 energy and Yvonne has no extra Ultimate Gain, you'll need to consume more Inflictions to get the Ultimate back."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "yvonne",
+          "order": "S3 > S1 = S2",
+          "note": {
+            "es": "Ultimate (S3) primero — es casi todo su daño. Luego el ataque básico (enorme dentro del Ultimate, va de Main Field), y al final el Battle Skill (S1) y el Combo (S2), que van casi a la par y aportan mucho menos.",
+            "en": "Ultimate (S3) first — it's almost all her damage. Then the basic attack (huge inside the Ultimate, the Main Field), and last the Battle Skill (S1) and Combo (S2), which go nearly even and contribute far less."
+          }
+        },
+        {
+          "charId": "xaihi",
+          "order": "S1 > S3 > S2",
+          "note": {
+            "es": "S1 (Battle Skill) es el Amp, la cura y el Cryo que reparte — y de él salen los 4 casts por vuelta que sostienen la energía. S3 (Ultimate) es su mayor ventana de Amp. S2 (Combo) suma Cryo Infliction semi-gratis y, con Detonation Unit, su Arts Burst.",
+            "en": "S1 (Battle Skill) is the Amp, healing and Cryo she spreads — and it's the source of the 4 casts per loop that sustain the energy. S3 (Ultimate) is her biggest Amp window. S2 (Combo) adds semi-free Cryo Infliction and, with Detonation Unit, its Arts Burst."
+          }
+        },
+        {
+          "charId": "gilberta",
+          "order": "S2 > S3 > S1",
+          "note": {
+            "es": "S2 (Combo) es la pieza clave aquí: provoca el Shatter durante el Ultimate y agrupa. S3 (Ultimate) suelta la Susceptibility del burst. S1 (Battle Skill) aporta Nature Infliction cuando hace falta.",
+            "en": "S2 (Combo) is the key piece here: it triggers the Shatter during the Ultimate and groups. S3 (Ultimate) drops the burst's Susceptibility. S1 (Battle Skill) supplies Nature Infliction when needed."
+          }
+        },
+        {
+          "charId": "perlica",
+          "order": "S2 = S1 > S3",
+          "note": {
+            "es": "Perlica es soporte, así que su nivel de skill pesa menos que el de un dañador. Prioriza lo que más usas: S2 (Combo) por la Electrification que entra en el burst y S1 (Battle Skill) por el Electric Infliction. S3 (Ultimate) cierra los buffs al final. Su mayor salto no es de niveles, sino de Potenciales: P1 alarga la Electrification, P4 sube su valor base a 16%.",
+            "en": "Perlica is a support, so her skill level matters less than a damage dealer's. Prioritize what you use most: S2 (Combo) for the Electrification that goes into the burst and S1 (Battle Skill) for the Electric Infliction. S3 (Ultimate) closes the buffs at the end. Her biggest jump isn't from levels but from Potentials: P1 extends the Electrification, P4 raises its base value to 16%."
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Lanzar el Ultimate de Yvonne sin que el jefe vaya a quedar Solidificado en el disparo final. Por eso el Combo es siempre la última acción antes de ultear — su Solidification retardada es la que el disparo final consume.",
+          "en": "Firing Yvonne's Ultimate without the boss being Solidified on the final shot. That's why the Combo is always the last action before you ult — its delayed Solidification is what the final shot consumes."
+        },
+        {
+          "es": "Fallar la ventana Perlica → Gilberta durante el Ultimate. Tarde, rompes la Solidification con el Lift de Gilberta; pronto, gastas la Electrification antes del Finisher. Va en el primer disparo, no antes ni después.",
+          "en": "Missing the Perlica → Gilberta window during the Ultimate. Late, you break the Solidification with Gilberta's Lift; early, you spend the Electrification before the Finisher. It goes on the first shot, not before or after."
+        },
+        {
+          "es": "Olvidar el dodge-cancel del último golpe del Ultimate. El aftercast es larguísimo: sin cancelar pierdes casi un segundo y te quedas sin tiempo para meter el Finisher sobre los debuffs.",
+          "en": "Forgetting the dodge-cancel on the Ultimate's final hit. The aftercast is very long: without cancelling you lose nearly a second and run out of time to fit the Finisher onto the debuffs."
+        },
+        {
+          "es": "Moverte de más durante el Ultimate. Sus básicos son fuego rápido que apila Crit; cada paso innecesario son balas que no salen.",
+          "en": "Moving around too much during the Ultimate. Her basics are rapid fire that stacks Crit; every unnecessary step is bullets that don't fire."
+        },
+        {
+          "es": "Pasarte de 70% de Crit Rate en gear. El Ultimate ya regala 30%, así que por encima de ese soft cap malgastas stats justo en su ventana más importante.",
+          "en": "Going over 70% Crit Rate on gear. The Ultimate already grants 30%, so above that soft cap you waste stats in her most important window."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "Ardelia en lugar de Gilberta",
+            "en": "Ardelia instead of Gilberta"
+          },
+          "verdict": {
+            "es": "Ardelia es un sustituto válido de Gilberta: aporta un poder de debuff muy parecido, pero necesita un uso de skill extra por rotación para conseguirlo, lo que la frena un poco. A cambio, da curación. Es la versión más sostenida y perdonadora del puesto de debuffer.",
+            "en": "Ardelia is a workable substitute for Gilberta: she brings very similar debuffing power, but needs an extra skill use per rotation to get it, which slows her down a touch. In return, she grants healing. It's the more sustained, more forgiving version of the debuffer slot."
+          }
+        },
+        {
+          "name": {
+            "es": "Alesh (4º slot — motor de recursos / accesible)",
+            "en": "Alesh (4th slot — resource engine / accessible)"
+          },
+          "verdict": {
+            "es": "Alesh sostiene Thermite Cutter y aporta algo de SP; su Ultimate deja un stack de Cryo Infliction gratis. Fuera de eso no buffea ni debuffea (salvo su P3, un buff de RNG). Con su P4 puedes vestirlo Frontiers + un Redeemer Seal para arañar algo de buff; sin P4, necesita ~42.8% de Ultimate Gain. Es la entrada económica al hueco.",
+            "en": "Alesh holds Thermite Cutter and provides a bit of SP; his Ultimate leaves a free Cryo Infliction stack. Beyond that he doesn't buff or debuff (except his P3, an RNG buff). With his P4 you can run him Frontiers + a Redeemer Seal to scrape some buffing; without P4, he needs ~42.8% Ultimate Gain. He's the budget entry to the slot."
+          }
+        },
+        {
+          "name": {
+            "es": "Last Rite (4º slot — segundo carry)",
+            "en": "Last Rite (4th slot — second carry)"
+          },
+          "verdict": {
+            "es": "Last Rite ofrece Cryo Infliction barato (70 SP), a demanda y que sube rápido, además de daño propio superior. El problema: no recibe energía de los compañeros, así que para que ella también ultee hay que alimentarle stacks de Cryo, lo que hace muy incómodo cuadrar dos ventanas de burst. Con ambas invertidas y con sus armas promocionales, el total sale ~10% por debajo de centrarse en Yvonne con un soporte como Perlica.",
+            "en": "Last Rite offers cheap Cryo Infliction (70 SP), on-demand and fast to stack, plus superior personal damage. The catch: she gets no energy from teammates, so for her to ult too you have to feed her Cryo stacks, which makes lining up two burst windows very awkward. With both invested and on their signatures, the total comes out ~10% below just focusing Yvonne with a support like Perlica."
+          }
+        },
+        {
+          "name": {
+            "es": "Fluorite (4º slot — acelera la rotación)",
+            "en": "Fluorite (4th slot — accelerates the rotation)"
+          },
+          "verdict": {
+            "es": "Fluorite da Cryo Infliction gratis con su Combo y su Ultimate, lo que acelera la rotación, pero no aporta ningún buff de daño al equipo. Esa rotación acelerada agrava el ya bajo stagger de este equipo — se compensa metiendo el set Swordmancer en Gilberta para alinear los breaks.",
+            "en": "Fluorite gives free Cryo Infliction with both her Combo and Ultimate, which speeds up the rotation, but brings no damage buffs for the party. That accelerated rotation worsens this team's already-low stagger — remedy it by running the Swordmancer set on Gilberta to align the breaks."
+          }
+        },
+        {
+          "name": {
+            "es": "Snowshine (4º slot — Cryo barato por parry)",
+            "en": "Snowshine (4th slot — cheap parry Cryo)"
+          },
+          "verdict": {
+            "es": "Snowshine es un soporte defensivo con el Cryo Infliction más barato del juego — esencialmente 70 SP, o 60 con su P5 — pero hay que clavar sus parries, lo que la vuelve inconsistente entre encuentros. No trae buffs ni debuffs propios, aunque su Ultimate ofrece Solidification, útil para la generación de energía de Yvonne en las vueltas posteriores a la primera.",
+            "en": "Snowshine is a defensive support with the cheapest Cryo Infliction in the game — essentially 70 SP, or 60 with her P5 — but you have to land her parries, which makes her inconsistent between encounters. She brings no buffs or debuffs of her own, though her Ultimate offers Solidification, useful for Yvonne's energy generation in the loops after the first."
+          }
+        },
+        {
+          "name": {
+            "es": "F2P — Alesh + Estella",
+            "en": "F2P — Alesh + Estella"
+          },
+          "verdict": {
+            "es": "Si no tienes a Gilberta, Estella es la sustituta sin limitados: aporta Shatters baratos que alimentan a Alesh y, de paso, clava Cryo Infliction para Yvonne. Pierdes el agrupado y la Susceptibility de Gilberta, pero entre los buffs de Xaihi y la economía de Alesh rinde sorprendentemente bien. Es el punto de entrada, no el destino.",
+            "en": "If you don't have Gilberta, Estella is the no-limited replacement: she supplies cheap Shatters that feed Alesh and, on the way, plants Cryo Infliction for Yvonne. You lose the grouping and Gilberta's Susceptibility, but between Xaihi's buffs and Alesh's economy it performs surprisingly well. It's the entry point, not the destination."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "yvonne",
+          "role": "Carry",
+          "weaponId": "wpn_pistol_0010",
+          "gearRec": [
+            "mi_security_overalls",
+            "mi_security_hands_ppe",
+            "mi_security_toolkit",
+            "mi_security_toolkit"
+          ],
+          "weaponNote": {
+            "es": "Artzy Tyrannical 6★ es su arma promocional y BIS claro: lleva su stat principal (Intellect), Crit Rate (uno de sus mejores stats) y un buen pico de Cryo DMG%. Su efecto es lo que la separa del resto — al hacer crítico con Battle Skill o Combo, gana Cryo DMG +22.4% durante 30s (hasta 3 stacks), con un trigger facilísimo y una duración absurda. La pega: necesitas ~50% de Crit Rate para mantener los 3 stacks. Como referencia, su promocional rinde ~17% por encima de las alternativas (100/85 = 1.17). Estas son: Navigator 6★ (más Cryo DMG, menos Crit, y no depende de crítico — te deja cambiar Crit por daño bruto; viene del pase de batalla, así que es realista subirla a P5 aunque la ganancia por refinamiento sea menor), Wedge 6★ (Arts DMG, tampoco pide crítico), Opus: The Living 5★ (la accesible — ATK%, aunque trae Agility en vez de Intellect) y Howling Guard 4★ como último recurso.",
+            "en": "Artzy Tyrannical 6★ is her signature and clear BIS: it carries her main stat (Intellect), Crit Rate (one of her best stats) and a good chunk of Cryo DMG%. Its effect is what sets it apart — on a crit with Battle Skill or Combo, she gains Cryo DMG +22.4% for 30s (up to 3 stacks), with an extremely easy trigger and an absurd duration. The catch: you need ~50% Crit Rate to keep all 3 stacks. For reference, her signature is about 17% stronger than the alternatives (100/85 = 1.17). Those are: Navigator 6★ (more Cryo DMG, less Crit, and doesn't rely on crits — lets you trade Crit for raw damage; it comes from the battle pass, so reaching P5 is realistic even if the refinement gain is smaller), Wedge 6★ (Arts DMG, also no crit requirement), Opus: The Living 5★ (the accessible one — ATK%, though it has Agility instead of Intellect) and Howling Guard 4★ as a last resort."
+          },
+          "gearNote": {
+            "es": "MI Security (4 piezas): Overalls + Hands PPE + 2× Toolkit. Es su mejor set gracias a la itemización — Basic ATK DMG% más Crit Rate — y a un 3pc fácil de mantener por su Crit alto y su altísimo número de hits. Los guantes son los de Basic ATK porque TODO el daño de su Ultimate se clasifica como ataque básico. El reparto recomendado equilibra Crit y Basic DMG%; si te cuesta mantener el buff, mete más Crit. Alternativas de pieza: LYNX Slab en el segundo Toolkit, pero SOLO con todo al máximo (nivel, arma, artificing, nodos) — su Main Attribute% multiplica el Intellect y es el mayor daño, pero sin todo maxeado pierdes mucho; Hands PPE T1 para más consistencia de Crit; y Redeemer Seal si quieres Ultimate Gain para necesitar menos Inflictions (rompe un Toolkit pero mantiene el 3pc).",
+            "en": "MI Security (4 pieces): Overalls + Hands PPE + 2× Toolkit. It's her best set thanks to the itemization — Basic ATK DMG% plus Crit Rate — and a 3pc that's easy to maintain through her high Crit and very high hit count. The gloves are the Basic ATK ones because her ENTIRE Ultimate damage is classified as basic attack. The recommended split balances Crit and Basic DMG%; if you struggle to keep the buff up, lean more into Crit. Piece alternatives: LYNX Slab in the second Toolkit, but ONLY with everything maxed (level, weapon, artificing, nodes) — its Main Attribute% multiplies Intellect for the highest damage, but without everything maxed you lose a lot; Hands PPE T1 for more Crit consistency; and Redeemer Seal if you want Ultimate Gain to need fewer Inflictions (it breaks a Toolkit but keeps the 3pc)."
+          },
+          "deepNote": {
+            "es": "Yvonne es una hyper-carry atípica: depende por completo de su Ultimate y, sin embargo, no puede arrancar su propio motor. No aplica Inflictions por sí misma fuera del Ultimate — el equipo entero existe para ponerle Cryo en el jefe. Su ciclo es este: acumulas Inflictions y las consumes de golpe con su Battle Skill, que lanza una bomba (puede fallar) y fuerza Solidification. Esa Solidification no hace daño por sí sola, pero suma daño al Battle Skill por cada Infliction consumida y, sobre todo, genera energía — 10 base más 30 por Infliction, con otros 30 por la aplicación de Solidification y 30 por el Combo. El talento Barrage of Technology te deja lanzar un Final Strike instantáneo justo después de Solidificar, y ese Final Strike sobre un enemigo Solidificado dispara su Combo Skill: despliega un robot que pulsa daño Cryo y, al explotar, vuelve a aplicar Solidification con un retraso. Ese retraso es la clave del timing — lanzas el Combo justo antes del Ultimate para que la Solidification caiga sobre el disparo final, que la consume para pegar muchísimo más. El Ultimate cuesta 220 (3-4 veces lo normal) y es casi todo su daño: durante ~7 segundos sus básicos se vuelven fuego rápido que apila Crit Rate hasta 10 veces (a tope, +30% Crit Rate y +60% Crit DMG) y termina con ese disparo enorme. Dos talentos lo sostienen: Freezing Point (Crit DMG contra Cryo Infliction, el doble si están Solidificados) hace del Crit Rate su mejor stat, y por eso su Ultimate ya regala 30% — no pases del 70% en gear. La regla de oro: mantén un solo tipo de Infliction por Battle Skill para no malgastar reacciones que se comerían tu energía, dodge-cancela el último golpe del Ultimate, y nunca ultees sin que el jefe vaya a quedar Solidificado en el disparo final.",
+            "en": "Yvonne is an atypical hyper-carry: she depends entirely on her Ultimate and yet can't start her own engine. She doesn't apply Inflictions herself outside the Ultimate — the whole team exists to put Cryo on the boss. Her cycle is this: you stack Inflictions and consume them all at once with her Battle Skill, which lobs a bomb (it can miss) and forces Solidification. That Solidification deals no damage on its own, but it adds Battle Skill damage per Infliction consumed and, above all, generates energy — 10 base plus 30 per Infliction, with another 30 for the Solidification application and 30 for the Combo. The Barrage of Technology talent lets her fire an instant Final Strike right after Solidifying, and that Final Strike on a Solidified enemy triggers her Combo Skill: it deploys a robot that pulses Cryo damage and, on explosion, reapplies Solidification with a delay. That delay is the timing key — you fire the Combo right before the Ultimate so the Solidification lands on the final shot, which consumes it to hit far harder. The Ultimate costs 220 (3-4 times a normal one) and is almost all her damage: for ~7 seconds her basics become rapid fire that stacks Crit Rate up to 10 times (at max, +30% Crit Rate and +60% Crit DMG) and ends in that huge shot. Two talents sustain it: Freezing Point (Crit DMG against Cryo Infliction, doubled if Solidified) makes Crit Rate her best stat, which is why her Ultimate already grants 30% — don't go over 70% on gear. The golden rule: keep one Infliction type per Battle Skill so you don't waste reactions that would eat your energy, dodge-cancel the Ultimate's final hit, and never ult without the boss being Solidified on the final shot."
+          }
+        },
+        {
+          "id": "xaihi",
+          "role": "Support",
+          "weaponId": "wpn_funnel_0008",
+          "gearRec": [
+            "redeemer_armor",
+            "eternal_xiranite_gloves_t1",
+            "eternal_xiranite_auxiliary_arm",
+            "eternal_xiranite_auxiliary_arm"
+          ],
+          "weaponNote": {
+            "es": "Detonation Unit 6★ y Chivalric Virtues 6★ rinden casi igual aquí, con Detonation ligerísimamente por delante. Detonation aplica Arts DMG Taken al jefe (vía Arts Burst, que sale de su Combo sobre un enemigo con Cryo Infliction) y trae Sec. Attribute% que potencia el Amp de su Ultimate; como el equipo tiene varios aplicadores de Cryo, el Arts Burst es fácil de activar. Chivalric Virtues regala ATK% casi permanente a todo el equipo cada vez que cura con su Battle Skill. El truco: si tienes AMBAS, lo óptimo en daño de equipo es Chivalric Virtues en Xaihi y Detonation Unit en Perlica, solo por la Arts Intensity. Stanza of Memorials 5★ solo sirve si apoya a un equipo Nature (no buffea a otros operadores Cryo).",
+            "en": "Detonation Unit 6★ and Chivalric Virtues 6★ perform nearly the same here, with Detonation very slightly ahead. Detonation applies Arts DMG Taken on the boss (via Arts Burst, which comes from her Combo on an enemy with Cryo Infliction) and brings Sec. Attribute% that powers her Ultimate's Amp; since the team has several Cryo appliers, the Arts Burst is easy to trigger. Chivalric Virtues grants near-permanent ATK% to the whole team every time she heals with her Battle Skill. The trick: if you have BOTH, the highest team damage is Chivalric Virtues on Xaihi and Detonation Unit on Perlica, purely for the Arts Intensity. Stanza of Memorials 5★ only works when she supports a Nature team (it doesn't buff other Cryo operators)."
+          },
+          "gearNote": {
+            "es": "Eternal Xiranite (3 piezas): Redeemer Armor (off-piece de Ultimate Gain) + Eternal Xiranite Gloves T1 + 2× Auxiliary Arm. Es su set por consistencia — le da los Ultimates más frecuentes y un buff de DMG% a todo el equipo durante casi toda la pelea. Hay dos enfoques: maximizar Intellect (que escala el Amp de su Ultimate) o jugar Eternal Xiranite (uptime constante). En la práctica, Xiranite rinde más DPS, porque el daño que ganas durante toda la rotación supera a un burst algo más fuerte al final. Como ese buff no se acumula y otros miembros también pueden activarlo, no pasa nada si tu Xaihi no lo dispara siempre.",
+            "en": "Eternal Xiranite (3 pieces): Redeemer Armor (Ultimate Gain off-piece) + Eternal Xiranite Gloves T1 + 2× Auxiliary Arm. It's her set for consistency — it gives her the most frequent Ultimates and a team-wide DMG% buff she keeps up for most of the fight. There are two approaches: maximize Intellect (which scales her Ultimate's Amp) or run Eternal Xiranite (constant uptime). In practice, Xiranite is higher DPS, because the damage you gain throughout the rotation outweighs a slightly stronger burst at the end. Since that buff doesn't stack and other members can also activate it, it's fine if your Xaihi doesn't always trigger it."
+          },
+          "deepNote": {
+            "es": "Xaihi es el pilar de soporte de casi cualquier equipo Cryo, y el de Yvonne no es excepción — aquí, además, es la fuente principal de Cryo Infliction. Hace tres cosas a la vez sin pedir mucho a cambio: su Battle Skill y su Ultimate aportan un Amp de Cryo y Nature excelente, cura al equipo mientras buffea (así no hace falta un healer dedicado), y su Battle Skill y su Combo van dejando el Cryo que alimenta el Battle Skill de Yvonne. De ahí que la rotación se apoye en sus 4 Battle Skills por vuelta: son el grueso de los skillcasts que llenan los 220 de energía. Con Detonation Unit añade además Arts DMG Taken, un multiplicador raro y separado del resto que amplifica todo el burst; el único detalle de timing es aterrizar su Combo sobre un enemigo con Cryo Infliction para que salte el Arts Burst. Por densidad de valor en un solo hueco, Xaihi está en prácticamente todos los equipos de Yvonne.",
+            "en": "Xaihi is the support pillar of nearly any Cryo team, and Yvonne's is no exception — here she's also the main Cryo Infliction source. She does three things at once without asking much in return: her Battle Skill and Ultimate provide excellent Cryo and Nature Amp, she heals the team while buffing (so no dedicated healer is needed), and her Battle Skill and Combo keep dropping the Cryo that feeds Yvonne's Battle Skill. That's why the rotation leans on her 4 Battle Skills per loop: they're the bulk of the skillcasts that fill the 220 energy. With Detonation Unit she also adds Arts DMG Taken, a rare multiplier separate from the rest that amplifies the whole burst; the only timing detail is landing her Combo on an enemy with Cryo Infliction so the Arts Burst fires. For the value density in a single slot, Xaihi is on practically every Yvonne team."
+          }
+        },
+        {
+          "id": "gilberta",
+          "role": "Support",
+          "weaponId": "wpn_funnel_0011",
+          "gearRec": [
+            "eternal_xiranite_armor",
+            "eternal_xiranite_gloves_t1",
+            "eternal_xiranite_auxiliary_arm",
+            "eternal_xiranite_auxiliary_arm"
+          ],
+          "weaponNote": {
+            "es": "Delivery Guaranteed 6★ es su arma promocional y la opción principal — y aquí, además, es marginalmente mejor que un Stanza of Memorials al máximo. La razón es de timing: el Ultimate de Yvonne más su Finisher dura más de 5 segundos, y hay que guardar la Ultimate de Gilberta para cubrir el remate, así que la parte inicial no se beneficia del buff de Stanza. Delivery Guaranteed da un Ultimate Gain Efficiency enorme más un buff de Arts DMG% al equipo que se activa gratis con su Combo. Alternativas: Stanza of Memorials 5★ en equipos no-Nature (sube ATK a los operadores de otro elemento, Yvonne incluida) y Opus: Etch Figure 5★ del pase de batalla si usa su Battle Skill de forma constante.",
+            "en": "Delivery Guaranteed 6★ is her signature and main pick — and here it's also marginally better than a maxed Stanza of Memorials. The reason is timing: Yvonne's Ultimate plus her Finisher takes over 5 seconds, and you have to save Gilberta's Ultimate to cover the final hit, so the initial portion doesn't benefit from Stanza's buff. Delivery Guaranteed gives a huge Ultimate Gain Efficiency plus a team Arts DMG% buff that activates for free off her Combo. Alternatives: Stanza of Memorials 5★ in non-Nature teams (raises ATK for operators of a different element, Yvonne included) and Opus: Etch Figure 5★ from the battle pass if she uses her Battle Skill consistently."
+          },
+          "gearNote": {
+            "es": "Eternal Xiranite (3 piezas): Armor + Gloves T1 + 2× Auxiliary Arm. Gilberta necesita un total de ~52.54% de Ultimate Gain Efficiency para tener su Ultimate lista en cada burst, y Eternal Xiranite es el set genérico que se lo da (y que también aprovecha en otros equipos). Solo activa el 3pc con su Ultimate, así que ayuda que otro miembro (Xaihi) también lo vista para mejorar el uptime conjunto. Si tienes su arma promocional, vas tan sobrada de Ultimate Gain que puedes permitirte el set Swordmancer en su lugar — la baja capacidad de stagger del equipo Cryo lo hace muy útil para alinear los breaks, sobre todo en las versiones con Last Rite o Fluorite.",
+            "en": "Eternal Xiranite (3 pieces): Armor + Gloves T1 + 2× Auxiliary Arm. Gilberta needs a total of ~52.54% Ultimate Gain Efficiency to have her Ultimate ready each burst, and Eternal Xiranite is the generic set that gives it (and that she uses in other teams too). She only triggers the 3pc with her Ultimate, so it helps if another member (Xaihi) also wears it to improve combined uptime. If you have her signature, you have so much Ultimate Gain to spare that you can afford the Swordmancer set instead — the Cryo team's low stagger makes it very useful for aligning breaks, especially in the Last Rite or Fluorite versions."
+          },
+          "deepNote": {
+            "es": "Gilberta es uno de los apoyos premier de Yvonne porque aporta varias cosas distintas a la vez. La más fina es la sinergia de Combos: su Combo Skill exige una reacción y fuerza Lift en el enemigo; usado durante el Ultimate, provoca un Shatter — pero hay que cronometrarlo, porque ese mismo Lift rompería la Solidification si lo metes en el momento equivocado y te puede arruinar la ventana de burst. Su mayor aporte de multiplicador es su Ultimate, que deja una Susceptibility corta pero potente: alineada con el disparo final de Yvonne, dispara el pico del burst. A eso se suma su agrupado, que abre el potencial AoE del equipo, y su Nature Infliction. Como su Ultimate también puede aplicar Corrosión a partir del Electric Infliction de Perlica, en este equipo se convierte en el multiplicador silencioso que más sube el techo de daño. Ardelia puede sustituirla con un poder de debuff parecido, pero pidiendo un skill extra por rotación y a cambio de curación.",
+            "en": "Gilberta is one of Yvonne's premier supports because she brings several distinct things at once. The subtlest is the Combo synergy: her Combo Skill requires a reaction and forcibly Lifts the enemy; used during the Ultimate, it triggers a Shatter — but you have to time it, because that same Lift would break the Solidification if you slot it at the wrong moment and can wreck your burst window. Her biggest multiplier is her Ultimate, which leaves a short but potent Susceptibility: aligned with Yvonne's final shot, it fires the burst's peak. Add her grouping, which opens the team's AoE potential, and her Nature Infliction. Since her Ultimate can also apply Corrosion off Perlica's Electric Infliction, in this team she becomes the silent multiplier that raises the damage ceiling the most. Ardelia can substitute her with similar debuffing power, but asking for an extra skill per rotation and in exchange for healing."
+          }
+        },
+        {
+          "id": "perlica",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0009",
+          "gearRec": [
+            "pulser_labs_disruptor_suit",
+            "eternal_xiranite_gloves_t1",
+            "pulser_labs_calibrator",
+            "pulser_labs_calibrator"
+          ],
+          "weaponNote": {
+            "es": "Oblivion 6★ es su opción práctica por defecto: Arts DMG% tras su Combo y tras su Ultimate. Detonation Unit 6★ es técnicamente su BIS solo por la Arts Intensity (aunque Perlica no llega a disparar el efecto del arma), pero NUNCA se la quites a Xaihi por ello: solo plantéatelo si además tienes Chivalric Virtues para Xaihi. Monaihe 5★ también da Arts Intensity, casi igualando a Detonation al máximo, pero penaliza bastante el daño de Perlica y es una pérdida frente a Oblivion — aun así sirve si no la tienes invertida. En la práctica la diferencia de daño de equipo entre estas opciones es minúscula: lo que ganas de Arts Intensity se compensa casi exacto con lo que cambia su daño personal.",
+            "en": "Oblivion 6★ is her practical default: Arts DMG% after her Combo and after her Ultimate. Detonation Unit 6★ is technically her BIS purely for the Arts Intensity (even though Perlica never procs the weapon's effect), but NEVER take it off Xaihi for it: only consider it if you also have Chivalric Virtues for Xaihi. Monaihe 5★ also gives Arts Intensity, nearly matching Detonation when maxed, but it nerfs Perlica's damage by a lot and is an overall loss versus Oblivion — still workable if she's uninvested. In practice the team-damage difference between these options is tiny: the Arts Intensity you gain is roughly balanced by the change in her personal damage."
+          },
+          "gearNote": {
+            "es": "Set Pulser Labs (3 piezas): Disruptor Suit + 2× Calibrator, por la Arts Intensity (vale para la Corrosión y el Shatter). El guante va fuera del set: Eternal Xiranite Gloves T1, porque necesitas su Ultimate Gain Efficiency para que la Ultimate de Perlica llegue a tiempo a la rotación. Es un reparto sencillo — Perlica es soporte puro aquí, no busca daño bruto.",
+            "en": "Pulser Labs set (3 pieces): Disruptor Suit + 2× Calibrator, for the Arts Intensity (valuable for Corrosion and Shatter). The glove goes off-set: Eternal Xiranite Gloves T1, because you need its Ultimate Gain Efficiency for Perlica's Ultimate to be ready on time in the rotation. It's a simple split — Perlica is a pure support here, she isn't after raw damage."
+          },
+          "deepNote": {
+            "es": "Perlica es el mejor 4º slot del equipo: ofrece los efectos de aumento de daño más fuertes y, sobre todo, los más consistentes del hueco. Su gran aporte es la Electrification que aplica con su Combo Skill — un buff que entra directo en el burst —, y su fácil acceso a Electric Infliction permite que la Ultimate de Gilberta saque una pequeña Corrosión. La pega es que buena parte de su fuerza está bloqueada tras Potenciales: P1 alarga mucho la duración de la Electrification (la diferencia entre que dure todo el burst o se caiga) y P4 sube su valor base de 12% a 16%. En la rotación, su momento crítico es la ventana Perlica → Gilberta durante el primer disparo del Ultimate de Yvonne: el Combo de Perlica va INMEDIATAMENTE antes del de Gilberta para que el Shatter caiga antes de la re-Solidification y la Electrification se quede para el Finisher. Por eso aguantas su Combo en el pre-burst: necesitas cada segundo de él en la ventana correcta. Comparada con las otras opciones del hueco — Last Rite (más daño propio pero ~10% menos de DPS total), Alesh (recursos, accesible), Fluorite (acelera pero sin buffs), Snowshine (Cryo barato pero inconsistente) — Perlica es la que más sube el daño del equipo con la ejecución más fiable.",
+            "en": "Perlica is the team's best 4th slot: she offers the strongest, and above all the most consistent, damage-increasing effects for the spot. Her main contribution is the Electrification she applies with her Combo Skill — a buff that goes straight into the burst — and her easy access to Electric Infliction lets Gilberta's Ultimate pull a small Corrosion. The catch is that a big chunk of her strength is locked behind Potentials: P1 significantly extends the Electrification's duration (the difference between it lasting the whole burst or dropping) and P4 raises its base value from 12% to 16%. In the rotation, her critical moment is the Perlica → Gilberta window during the first shot of Yvonne's Ultimate: Perlica's Combo goes IMMEDIATELY before Gilberta's so the Shatter lands before the re-Solidification and the Electrification stays for the Finisher. That's why you hold her Combo in the pre-burst: you need every second of it in the right window. Compared with the other options for the spot — Last Rite (more personal damage but ~10% less total DPS), Alesh (resources, accessible), Fluorite (accelerates but no buffs), Snowshine (cheap Cryo but inconsistent) — Perlica is the one that raises the team's damage the most with the most reliable execution."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "El reparto es el de cualquier hyper carry, pero con una vuelta de tuerca: Yvonne pone el daño bruto (MI Security por Crit + Basic DMG%, con los guantes de Basic ATK porque su Ultimate cuenta como básico; Artzy Tyrannical por su Cryo DMG y Crit) y los tres apoyos ponen recurso y multiplicador, porque sin sus Inflictions ella ni arranca. Xaihi (fuente de Cryo) y Gilberta van Eternal Xiranite (Ultimate Gain + el buff de DMG% al equipo); Gilberta necesita ~52.54% de Ultimate Gain para tener su Ultimate en cada burst. Perlica va Pulser Labs (Arts Intensity) con guantes Eternal Xiranite por el Ultimate Gain que pide su timing. Nadie más necesita daño bruto — eso es trabajo de Yvonne. Y recuerda su soft cap: por encima de 70% de Crit Rate en gear, malgastas stats en su Ultimate.",
+          "en": "The split is the one any hyper carry uses, with a twist: Yvonne brings the raw damage (MI Security for Crit + Basic DMG%, with the Basic ATK gloves because her Ultimate counts as basic; Artzy Tyrannical for her Cryo DMG and Crit) and the three supports bring resource and multiplier, because without their Inflictions she doesn't even start. Xaihi (the Cryo source) and Gilberta run Eternal Xiranite (Ultimate Gain + the team DMG% buff); Gilberta needs ~52.54% Ultimate Gain to have her Ultimate every burst. Perlica runs Pulser Labs (Arts Intensity) with Eternal Xiranite gloves for the Ultimate Gain her timing needs. Nobody else needs raw damage — that's Yvonne's job. And remember her soft cap: above 70% Crit Rate on gear, you waste stats in her Ultimate."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Yvonne con todo al máximo (LYNX Slab)",
+              "en": "Fully-maxed Yvonne (LYNX Slab)"
+            },
+            "swap": {
+              "es": "Cambia el segundo MI Security Toolkit por LYNX Slab. Es el mayor daño porque su Main Attribute% multiplica el Intellect de Yvonne — pero SOLO con nivel, arma, artificing y nodos al máximo. Sin todo maxeado, tu Crit baja demasiado y no hay suficiente Intellect que multiplicar: pérdida de daño grande.",
+              "en": "Swap the second MI Security Toolkit for LYNX Slab. It's the highest damage because its Main Attribute% multiplies Yvonne's Intellect — but ONLY with maxed level, weapon, artificing and nodes. Without everything maxed, your Crit drops too far and there isn't enough Intellect to multiply: a big damage loss."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Yvonne necesita más energía",
+              "en": "Yvonne needs more energy"
+            },
+            "swap": {
+              "es": "Cambia un MI Security Toolkit por Redeemer Seal (Ultimate Gain) o la armadura por Bonekrusha Heavy Armor. Te deja consumir menos Inflictions para llegar al Ultimate, ahorrando SP y Battle Skills del equipo — útil en rotaciones condensadas o arranques en 0 energía. El Redeemer Seal mantiene el 3pc de MI Security, pero pierdes algo de Crit (recupéralo con Hands PPE T1).",
+              "en": "Swap a MI Security Toolkit for Redeemer Seal (Ultimate Gain) or the armor for Bonekrusha Heavy Armor. It lets you consume fewer Inflictions to reach the Ultimate, saving team SP and Battle Skills — useful in condensed rotations or 0-energy starts. The Redeemer Seal keeps the MI Security 3pc, but you lose some Crit (get it back with Hands PPE T1)."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Tienes Detonation Unit y Chivalric Virtues",
+              "en": "You have both Detonation Unit and Chivalric Virtues"
+            },
+            "swap": {
+              "es": "Pon Chivalric Virtues en Xaihi y Detonation Unit en Perlica. Es más daño total de equipo que llevar Detonation en Xaihi y Oblivion en Perlica, únicamente por la Arts Intensity que Detonation suma en el hueco de Perlica. Solo aplica si tienes las dos armas — nunca le quites Detonation a Xaihi para dársela a Perlica si no tienes Chivalric.",
+              "en": "Put Chivalric Virtues on Xaihi and Detonation Unit on Perlica. It's more total team damage than running Detonation on Xaihi and Oblivion on Perlica, purely for the Arts Intensity Detonation adds in Perlica's slot. This only applies if you have both weapons — never take Detonation off Xaihi for Perlica if you don't have Chivalric."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Gilberta con Swordmancer (más stagger)",
+              "en": "Gilberta with Swordmancer (more stagger)"
+            },
+            "swap": {
+              "es": "Si tienes la promocional de Gilberta, vas tan sobrada de Ultimate Gain que puedes pasar a Swordmancer. El equipo Cryo tiene poco stagger, y Swordmancer ayuda a alinear los breaks — especialmente en las versiones con Last Rite o Fluorite, que aceleran la rotación y agravan ese problema.",
+              "en": "If you have Gilberta's signature, you have so much Ultimate Gain to spare that you can move to Swordmancer. The Cryo team has low stagger, and Swordmancer helps align the breaks — especially in the Last Rite or Fluorite versions, which speed up the rotation and worsen that problem."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": {
+        "es": "叫我棉被 - Daily (Alesh)",
+        "en": "叫我棉被 - Daily (Alesh)"
+      },
+      "subtitle": {
+        "es": "Xaihi · Gilberta · Alesh",
+        "en": "Xaihi · Gilberta · Alesh"
+      },
+      "blurb": {
+        "es": "La versión universal y flexible del equipo de Yvonne: trío fijo Xaihi+Gilberta y un 4º slot accesible (Alesh) que da SP y ATK. Arranque libre, sin la ventana milimétrica de la comp de Perlica.",
+        "en": "The universal, flexible version of Yvonne's team: fixed Xaihi+Gilberta core and an accessible 4th slot (Alesh) that gives SP and ATK. Free startup, without the frame-tight window of the Perlica comp."
+      },
+      "guideVideoId": "yvmb1",
+      "simple": {
+        "whatItDoes": {
+          "es": "El equipo de uso diario de Yvonne. Mismo motor que la comp de referencia — el equipo le pone Cryo/Nature, ella las consume con su Battle Skill para forzar Solidification y cargar el Ultimate — pero pensado para ser cómodo: el arranque es flexible y no exige clavar timings finos. Xaihi es la fuente de Cryo, el Amp y la cura; Gilberta agrupa, mete Shatters y deja su Susceptibility; y Alesh es el 4º slot más accesible: su Combo recupera SP y activa Thermite Cutter para darle ATK a Yvonne. Tú acumulas Inflictions, las comes con el Battle Skill de Yvonne, y cuando el Ultimate está lleno lo abres a la vez que los Ultimates de Xaihi y Gilberta.",
+          "en": "Yvonne's daily-driver team. Same engine as the benchmark comp — the team stacks Cryo/Nature, she consumes them with her Battle Skill to force Solidification and charge the Ultimate — but built to be comfortable: the startup is flexible and doesn't demand tight timings. Xaihi is the Cryo source, the Amp and the healing; Gilberta groups, slots Shatters and drops her Susceptibility; and Alesh is the most accessible 4th slot: his Combo recovers SP and activates Thermite Cutter to give Yvonne ATK. You stack Inflictions, eat them with Yvonne's Battle Skill, and once the Ultimate is full you open it together with Xaihi's and Gilberta's Ultimates."
+        },
+        "steps": [
+          {
+            "who": "xaihi",
+            "do": {
+              "es": "Battle Skill de Xaihi para empezar (deja el cristal de cura/Amp), y luego Battle Skill de Gilberta para agrupar y poner Nature.",
+              "en": "Xaihi's Battle Skill to start (drops the heal/Amp crystal), then Gilberta's Battle Skill to group and apply Nature."
+            }
+          },
+          {
+            "who": "yvonne",
+            "do": {
+              "es": "Yvonne en Basic Attack hasta que se ilumine su Battle Skill: púlsalo para consumir las Inflictions, forzar Solidification y cargar energía. Tras el Final Strike instantáneo sale su Combo.",
+              "en": "Yvonne on Basic Attack until her Battle Skill lights up: press it to consume the Inflictions, force Solidification and charge energy. After the instant Final Strike, her Combo fires."
+            }
+          },
+          {
+            "who": "alesh",
+            "do": {
+              "es": "Mete el Combo de Alesh cuando se ilumine y el enemigo NO tenga la marca verde de Nature encima: recupera SP y dispara Thermite Cutter (ATK para Yvonne). Los demás Combos, si están, úsalos.",
+              "en": "Slot Alesh's Combo when it lights up and the enemy does NOT have the green Nature mark on it: it recovers SP and fires Thermite Cutter (ATK for Yvonne). Use the other Combos too when they're up."
+            }
+          },
+          {
+            "who": "yvonne",
+            "do": {
+              "es": "Cuando el Ultimate de Yvonne esté lleno, ábrelo y abre A LA VEZ los Ultimates de Xaihi (Amp de Cryo) y Gilberta (Susceptibility) para subir el daño de la ventana.",
+              "en": "When Yvonne's Ultimate is full, open it and open Xaihi's (Cryo Amp) and Gilberta's (Susceptibility) Ultimates AT THE SAME TIME to raise the window's damage."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "yvonne",
+            "line": {
+              "es": "Artzy Tyrannical (promocional) > Wedge > Navigator. Gear: MI Security (4 piezas) — Overalls + Armband + 2× Toolkit — por Crit + Basic ATK DMG (todo su Ultimate cuenta como básico). No pases del 70% de Crit en gear: su Ultimate ya regala 30%.",
+              "en": "Artzy Tyrannical (signature) > Wedge > Navigator. Gear: MI Security (4 pieces) — Overalls + Armband + 2× Toolkit — for Crit + Basic ATK DMG (her whole Ultimate counts as basic). Don't go over 70% Crit on gear: her Ultimate already grants 30%."
+            }
+          },
+          {
+            "id": "xaihi",
+            "line": {
+              "es": "Detonation Unit + accesorios Frontiers (con el bonus de满负 dorado) para reforzar su Amp de Cryo. Sube solo Battle Skill y Ultimate.",
+              "en": "Detonation Unit + Frontiers accessories (with the gold full-load bonus) to reinforce her Cryo Amp. Level only Battle Skill and Ultimate."
+            }
+          },
+          {
+            "id": "gilberta",
+            "line": {
+              "es": "Delivery Guaranteed (promocional) + set Eternal Xiranite. Sube solo el Ultimate; con recursos, llévala a 80 y pon el Ultimate en专精1 para maximizar la Susceptibility.",
+              "en": "Delivery Guaranteed (signature) + Eternal Xiranite set. Level only the Ultimate; with resources, take her to 80 and put the Ultimate on专精1 to maximize the Susceptibility."
+            }
+          },
+          {
+            "id": "alesh",
+            "line": {
+              "es": "Thermite Cutter + gear de carga (Ultimate charge) para acelerar el Ultimate y buscar huecos para reponer Cryo. Lo importante es su Combo: SP + el ATK de Thermite Cutter.",
+              "en": "Thermite Cutter + charge gear (Ultimate charge) to speed up the Ultimate and find gaps to refill Cryo. What matters is his Combo: SP + Thermite Cutter's ATK."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "Es la comp de Yvonne para el día a día y para quien no tiene a Perlica: mantiene el trío fijo (Xaihi + Gilberta) y rellena el 4º hueco con Alesh, la opción más universal y accesible. El motor es idéntico al de referencia — Yvonne no aplica Inflictions, así que el equipo le surte Cryo/Nature sin parar y ella las consume con el Battle Skill para forzar Solidification y cargar los 220 del Ultimate — pero la ejecución es mucho más relajada: el arranque es flexible, no hace falta打轴, y la regla principal es no malgastar el Nature (no pulses un Combo que se lo comería si el enemigo aún lo tiene encima). Xaihi resuelve Inflictions, Amp y sustain a la vez; Gilberta agrupa (clave porque el Battle Skill de Yvonne tiene rango pequeño), mete Shatters que suben el stagger y deja la Susceptibility; y Alesh aporta el recurso barato del hueco: SP por Combo y el ATK de Thermite Cutter, con su Battle Skill como red de seguridad si llegas al Ultimate con Cryo pero sin Solidification.",
+        "en": "This is Yvonne's team for everyday content and for anyone without Perlica: it keeps the fixed core (Xaihi + Gilberta) and fills the 4th spot with Alesh, the most universal and accessible option. The engine is identical to the benchmark — Yvonne doesn't apply Inflictions, so the team feeds her Cryo/Nature nonstop and she consumes them with the Battle Skill to force Solidification and charge the Ultimate's 220 — but the execution is far more relaxed: the startup is flexible, there's no frame-perfect axis to hit, and the main rule is not to waste Nature (don't press a Combo that would eat it while the enemy still has it on). Xaihi solves Inflictions, Amp and sustain at once; Gilberta groups (key because Yvonne's Battle Skill has a small range), slots Shatters that raise stagger, and drops the Susceptibility; and Alesh provides the spot's cheap resource: SP per Combo and Thermite Cutter's ATK, with his Battle Skill as a safety net if you reach the Ultimate with Cryo but no Solidification."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Media",
+          "en": "Medium"
+        },
+        "content": {
+          "es": "General / Diario",
+          "en": "General / Daily"
+        },
+        "tags": [
+          { "es": "Criogénico", "en": "Cryo", "jp": "寒冷", "zh": "寒冷" },
+          {
+            "es": "Flexible",
+            "en": "Flexible"
+          },
+          {
+            "es": "Accesible",
+            "en": "Accessible"
+          },
+          {
+            "es": "Centrado en Ultimate",
+            "en": "Ultimate-focused"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "Arranque flexible y cómodo: no exige打轴 ni timings finos, ideal para exploración y limpieza diaria.",
+          "en": "Flexible, comfortable startup: it doesn't demand a tight axis or fine timings, ideal for exploration and daily clearing."
+        },
+        {
+          "es": "Accesible: Alesh es un 4º slot fácil de conseguir y de equipar, sin depender de Potenciales como Perlica.",
+          "en": "Accessible: Alesh is an easy-to-get, easy-to-gear 4th slot, with no Potential dependency like Perlica."
+        },
+        {
+          "es": "Gilberta agrupa, lo que multiplica la experiencia diaria contra grupos — el Battle Skill de Yvonne, de rango corto, casi exige聚怪.",
+          "en": "Gilberta groups, which multiplies the daily experience against packs — Yvonne's short-range Battle Skill almost demands grouping."
+        }
+      ],
+      "cons": [
+        {
+          "es": "Alesh no buffea ni debuffea de verdad: aporta recurso (SP) y el ATK de Thermite Cutter, pero su techo de daño es menor que el de Perlica.",
+          "en": "Alesh doesn't truly buff or debuff: he provides resource (SP) and Thermite Cutter's ATK, but his damage ceiling is lower than Perlica's."
+        },
+        {
+          "es": "Sigue siendo totalmente dependiente del Ultimate de Yvonne; fuera de esa ventana el daño es modesto.",
+          "en": "It's still completely reliant on Yvonne's Ultimate; outside that window the damage is modest."
+        },
+        {
+          "es": "Bajo stagger de equipo: contra bosses con barra de失衡 larga puede costar alinear el Ultimate con la ventana de stagger.",
+          "en": "Low team stagger: against bosses with a long stagger bar it can be hard to line up the Ultimate with the stagger window."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "Xaihi: Cryo, Amp y cura en un solo hueco",
+            "en": "Xaihi: Cryo, Amp and healing in one slot"
+          },
+          "body": {
+            "es": "El Battle Skill de Xaihi crea un cristal que orbita al personaje controlado: cuando ese personaje mete un Heavy, cura (hasta 2 veces), y si ya estás a full HP, en vez de cura da un Amp de Arts. Tras dos Heavies el cristal se gasta y se habilita su Combo, que pone Cryo. Su Ultimate da un Amp de Cryo — un multiplicador raro (solo Xaihi y Antal lo tienen) que vale como un +40% de daño, y con su Battle Skill suma otro +15~20%. Un truco: el cristal dura 25s, así que antes de entrar puedes lanzar su Battle Skill y dejar que el SP se recargue dos cuadros — equivale a una skill gratis de salida.",
+            "en": "Xaihi's Battle Skill creates a crystal that orbits the controlled character: when that character lands a Heavy, it heals (up to 2 times), and if you're already at full HP it gives an Arts Amp instead. After two Heavies the crystal is spent and her Combo unlocks, applying Cryo. Her Ultimate gives a Cryo Amp — a rare multiplier (only Xaihi and Antal have it) worth about +40% damage, with another +15~20% from her Battle Skill. A trick: the crystal lasts 25s, so before entering you can fire her Battle Skill and let SP recharge two pips — effectively a free opening skill."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Gilberta: agrupa, Shatter y Susceptibility",
+            "en": "Gilberta: grouping, Shatter and Susceptibility"
+          },
+          "body": {
+            "es": "El Battle Skill de Yvonne tiene rango pequeño, así que sin聚怪 la experiencia diaria es mala — y Gilberta justo agrupa, además de poner Nature para que el Battle Skill de Yvonne lo consuma. Cuando Yvonne fuerza Solidification, se dispara el Combo de Gilberta, cuyo击飞 hace un Shatter que acumula stagger (ayuda a descargar el Ultimate con el enemigo en stagger). Y su Ultimate deja una Susceptibility potente justo a tiempo para cubrir los 5s de burst tras el Ultimate de Yvonne. Subir su Ultimate a专精1 (a nivel 80) lleva esa Susceptibility a su máximo.",
+            "en": "Yvonne's Battle Skill has a small range, so without grouping the daily experience is poor — and Gilberta groups, while also applying Nature for Yvonne's Battle Skill to consume. When Yvonne forces Solidification, Gilberta's Combo triggers, and its launch produces a Shatter that builds stagger (helping you unload the Ultimate with the enemy staggered). And her Ultimate leaves a potent Susceptibility right in time to cover the 5s of burst after Yvonne's Ultimate. Taking her Ultimate to专精1 (at level 80) brings that Susceptibility to its maximum."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Alesh: el recurso barato del 4º slot",
+            "en": "Alesh: the 4th slot's cheap resource"
+          },
+          "body": {
+            "es": "Alesh es la opción más universal del hueco. Su Combo recupera SP y activa Thermite Cutter, que le da a Yvonne un buen bonus de ATK. Su Battle Skill normalmente no hace falta, pero sirve de red de seguridad: si te enredas y al momento del Ultimate el enemigo solo tiene Cryo sin Solidificar, su Battle Skill te da容错. Por eso se le equipa gear de carga: para acelerar el Ultimate y buscar huecos para reponer Cryo.",
+            "en": "Alesh is the spot's most universal option. His Combo recovers SP and activates Thermite Cutter, which gives Yvonne a solid ATK bonus. His Battle Skill usually isn't needed, but it's a safety net: if you slip and at Ultimate time the enemy only has Cryo without Solidification, his Battle Skill gives you tolerance. That's why he runs charge gear: to speed up the Ultimate and find gaps to refill Cryo."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Apertura — agrupar, aplicar y Solidificar",
+            "en": "Opener — group, apply and Solidify"
+          },
+          "action": {
+            "es": "Pon Cryo/Nature en el jefe y consúmelo con el Battle Skill de Yvonne para forzar la primera Solidification y empezar a cargar energía.",
+            "en": "Put Cryo/Nature on the boss and consume it with Yvonne's Battle Skill to force the first Solidification and start charging energy."
+          },
+          "steps": [
+            {
+              "do": { "es": "Battle Skill de Xaihi.", "en": "Xaihi Battle Skill." },
+              "note": { "es": "Deja su cristal (cura, o Amp de Arts si estás a full HP) y empieza a repartir Cryo.", "en": "Drops her crystal (heal, or Arts Amp if you're at full HP) and starts spreading Cryo." }
+            },
+            {
+              "do": { "es": "Battle Skill de Gilberta.", "en": "Gilberta Battle Skill." },
+              "note": { "es": "Agrupa a los enemigos y aplica Nature. Imprescindible: el Battle Skill de Yvonne tiene rango corto y sin agrupar lo falla.", "en": "Groups the enemies and applies Nature. Essential: Yvonne's Battle Skill has a short range and whiffs without grouping." }
+            },
+            {
+              "do": { "es": "Yvonne en Basic Attack hasta que salga un Heavy.", "en": "Yvonne on Basic Attack until a Heavy comes out." }
+            },
+            {
+              "do": { "es": "Yvonne Battle Skill + Heavy.", "en": "Yvonne Battle Skill + Heavy." },
+              "key": true,
+              "note": { "es": "Con el Nature ya encima: consume las capas, fuerza Solidification y carga energía. El talento convierte el siguiente Basic en un Final Strike instantáneo.", "en": "With Nature already on: consumes the stacks, forces Solidification and charges energy. The talent turns the next Basic into an instant Final Strike." }
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Cadena de Combos",
+            "en": "Combo chain"
+          },
+          "action": {
+            "es": "Con el enemigo Solidificado se abre la cadena de Combos. Encadénalos para subir daño y stagger, sin comerte el Nature antes de tiempo.",
+            "en": "With the enemy Solidified the Combo chain opens. Chain them to build damage and stagger, without eating the Nature too early."
+          },
+          "steps": [
+            {
+              "do": { "es": "Combo de Gilberta.", "en": "Gilberta Combo." },
+              "note": { "es": "Se dispara solo al estar el enemigo Solidificado; su lanzamiento por los aires (击飞) provoca un Shatter y acumula stagger.", "en": "Auto-fires while the enemy is Solidified; its launch (击飞) triggers a Shatter and builds stagger." }
+            },
+            {
+              "do": { "es": "Combo de Yvonne.", "en": "Yvonne Combo." },
+              "note": { "es": "Lo habilitó el Final Strike instantáneo sobre el enemigo Solidificado.", "en": "Enabled by the instant Final Strike on the Solidified enemy." }
+            },
+            {
+              "do": { "es": "Combo de Xaihi.", "en": "Xaihi Combo." }
+            },
+            {
+              "do": { "es": "Ultimate de Alesh.", "en": "Alesh Ultimate." }
+            },
+            {
+              "do": { "es": "Combo de Alesh.", "en": "Alesh Combo." },
+              "note": { "es": "Lo dispara el lanzamiento (击飞) forzado por la cadena del Combo de Gilberta; recupera SP y activa Thermite Cutter (ATK para Yvonne).", "en": "Triggered by the launch (击飞) forced by Gilberta's Combo chain; it recovers SP and activates Thermite Cutter (ATK for Yvonne)." }
+            },
+            {
+              "do": { "es": "Battle Skill de Xaihi, y espera el siguiente Heavy de Yvonne.", "en": "Xaihi Battle Skill, then wait for Yvonne's next Heavy." }
+            },
+            {
+              "do": { "es": "Yvonne Battle Skill + Heavy (segundo consumo).", "en": "Yvonne Battle Skill + Heavy (second consume)." }
+            },
+            {
+              "do": { "es": "Combo de Xaihi.", "en": "Xaihi Combo." }
+            },
+            {
+              "do": { "es": "Sigue con Basic/Heavy hasta acumular SP para el siguiente Battle Skill de Yvonne.", "en": "Keep doing Basic/Heavy until you have SP for Yvonne's next Battle Skill." },
+              "note": { "es": "El ciclo de Yvonne es largo: ten paciencia con el SP y con los cooldowns de Combo, no fuerces.", "en": "Yvonne's cycle is long: be patient with SP and Combo cooldowns, don't force it." }
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Ultimate — la ventana de daño",
+            "en": "Ultimate — the damage window"
+          },
+          "action": {
+            "es": "Cuando el cooldown del Combo de Yvonne esté listo y el boss a punto, alinea los tres Ultimates sobre el disparo final.",
+            "en": "When Yvonne's Combo cooldown is ready and the boss is set, line up the three Ultimates on the final shot."
+          },
+          "steps": [
+            {
+              "do": { "es": "Ultimate de Xaihi.", "en": "Xaihi Ultimate." },
+              "note": { "es": "Abre el Amp de Cryo de la ventana.", "en": "Opens the window's Cryo Amp." }
+            },
+            {
+              "do": { "es": "Yvonne Battle Skill + Heavy.", "en": "Yvonne Battle Skill + Heavy." },
+              "key": true,
+              "note": { "es": "Dispara todos los Combos disponibles justo antes del Ultimate.", "en": "Fires all available Combos right before the Ultimate." }
+            },
+            {
+              "do": { "es": "Ultimate de Yvonne a tope.", "en": "Yvonne Ultimate at full." },
+              "key": true,
+              "note": { "es": "~7s de fuego rápido que apila Crit y termina con el disparo enorme — aquí cae casi todo el daño.", "en": "~7s of rapid fire that stacks Crit and ends in the huge shot — almost all the damage lands here." }
+            },
+            {
+              "do": { "es": "En cuanto Yvonne gira, Ultimate de Gilberta.", "en": "As soon as Yvonne spins, Gilberta Ultimate." },
+              "note": { "es": "Su Susceptibility cubre todo el daño posterior del Ultimate.", "en": "Her Susceptibility covers all the Ultimate's following damage." }
+            }
+          ],
+          "tip": {
+            "es": "Al terminar el burst, el enemigo queda con una capa de Nature del Ultimate de Gilberta — el siguiente Battle Skill de Yvonne se la come, así te ahorras un Battle Skill de Gilberta y algo de SP en la próxima vuelta.",
+            "en": "After the burst, the enemy is left with a Nature stack from Gilberta's Ultimate — Yvonne's next Battle Skill eats it, saving you a Gilberta Battle Skill and some SP next loop."
+          }
+        }
+      ],
+      "rotationVariants": [
+        {
+          "name": {
+            "es": "Sin Gilberta — dúo de Shatter (Estella)",
+            "en": "Without Gilberta — Shatter duo (Estella)"
+          },
+          "description": {
+            "es": "Si no tienes a Gilberta pero quieres jugar Yvonne en grupos, entra el dúo de Shatter: Estella + Alesh agrupan con posicionamiento y se apoyan en el Shatter y el mucho stagger de Estella para sacar Executes rápidos. Estella aporta AoE de Shatter de alto倍率 con su Combo y su Ultimate, y contra BOSS su Battle Skill se castea libre, perfecto para interrumpir habilidades de círculo rojo. Pierdes el agrupado y la Susceptibility de Gilberta, pero rinde sorprendentemente bien.",
+            "en": "If you don't have Gilberta but want to play Yvonne against packs, the Shatter duo works: Estella + Alesh group with positioning and lean on Estella's Shatter and heavy stagger to land quick Executes. Estella brings high-multiplier Shatter AoE with her Combo and Ultimate, and against BOSS her Battle Skill casts freely, perfect for interrupting red-circle skills. You lose the grouping and Gilberta's Susceptibility, but it performs surprisingly well."
+          },
+          "phases": []
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "yvonne",
+          "order": "Ultimate > Basic ≈ Battle Skill > Combo",
+          "note": {
+            "es": "El倍率 del Basic Attack durante el Ultimate lo decide el nivel del Ultimate, así que el Ultimate va primero; el Basic Attack es enorme dentro de la ventana; Battle Skill y Combo van casi a la par y aportan menos.",
+            "en": "The Basic Attack's multiplier during the Ultimate is set by the Ultimate's level, so the Ultimate comes first; the Basic Attack is huge inside the window; Battle Skill and Combo go nearly even and contribute less."
+          }
+        },
+        {
+          "charId": "xaihi",
+          "order": "Battle Skill + Ultimate (solo estos)",
+          "note": {
+            "es": "Sube solo Battle Skill y Ultimate, y専精 esos dos. El Combo y el Basic no necesitan inversión en este equipo.",
+            "en": "Level only Battle Skill and Ultimate, and专精 those two. The Combo and Basic don't need investment in this team."
+          }
+        },
+        {
+          "charId": "gilberta",
+          "order": "Ultimate (专精1)",
+          "note": {
+            "es": "Solo necesita el Ultimate; con recursos, a nivel 80 y Ultimate en专精1 para que la Susceptibility llegue a su máximo.",
+            "en": "She only needs the Ultimate; with resources, level 80 and Ultimate at专精1 so the Susceptibility reaches its max."
+          }
+        },
+        {
+          "charId": "alesh",
+          "order": "Combo",
+          "note": {
+            "es": "Su Combo es lo que aporta (SP + Thermite Cutter); priorízalo (nivel 6 de连携技). El Battle Skill es solo red de seguridad.",
+            "en": "His Combo is what contributes (SP + Thermite Cutter); prioritize it (Combo Skill level 6). The Battle Skill is just a safety net."
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Pulsar un Combo (de Xaihi o el Ultimate de Alesh) cuando el enemigo todavía tiene la marca verde de Nature encima: te lo comes y desperdicias la aplicación que necesita el Battle Skill de Yvonne.",
+          "en": "Pressing a Combo (Xaihi's or Alesh's Ultimate) while the enemy still has the green Nature mark on it: you eat it and waste the application Yvonne's Battle Skill needs."
+        },
+        {
+          "es": "Abrir el Ultimate de Yvonne sin Solidification en el disparo final — pierdes el grueso del daño de la ventana.",
+          "en": "Opening Yvonne's Ultimate without Solidification on the final shot — you lose the bulk of the window's damage."
+        },
+        {
+          "es": "Forzar el eje de攻坚 al pie de la letra: es un ciclo ideal, pero contra grupos el enemigo se失衡 a mitad (usa Execute) y contra BOSS hay mecánicas que lo rompen (prioriza sobrevivir).",
+          "en": "Forcing the hard-content axis to the letter: it's an ideal cycle, but against packs the enemy staggers mid-combo (use Execute) and against BOSS there are mechanics that break it (prioritize survival)."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "Fluorite (4º slot — acelera la rotación)",
+            "en": "Fluorite (4th slot — accelerates the rotation)"
+          },
+          "verdict": {
+            "es": "Con el set Frontiers, Fluorite clava una aplicación gratis por Combo cada vuelta, lo que acelera la rotación; incluso junta algún Ultimate para tolerancia. La pega: no aporta ningún buff (拐力).",
+            "en": "With the Frontiers set, Fluorite plants a free application per Combo each loop, which speeds up the rotation; she even saves an Ultimate for tolerance. The catch: she brings no buff."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "yvonne",
+          "role": "Carry",
+          "weaponId": "wpn_pistol_0010",
+          "gearRec": [
+            "mi_security_overalls",
+            "mi_security_armband",
+            "mi_security_toolkit",
+            "mi_security_toolkit"
+          ],
+          "weaponNote": {
+            "es": "Prioridad: Artzy Tyrannical (promocional) > Wedge > Navigator. Artzy lleva Crit Rate y un buen pico de Cryo DMG, justo lo que Yvonne necesita. Wedge llega a零钱 al ~84% del Artzy (y a満钱 puede superar a un Artzy零钱); Navigator, del通行证, al ~79%零钱 / 88%満钱 y es fácil de conseguir. Las demás armas tienen valores demasiado malos para gastar养成 en ellas.",
+            "en": "Priority: Artzy Tyrannical (signature) > Wedge > Navigator. Artzy carries Crit Rate and a good chunk of Cryo DMG, exactly what Yvonne needs. Wedge reaches ~84% of Artzy at零钱 (and at満钱 can beat a零钱 Artzy); Navigator, from the battle pass, ~79%零钱 / 88%満钱 and is easy to get. The other weapons have values too poor to spend养成 on."
+          },
+          "gearNote": {
+            "es": "MI Security (4 piezas): Overalls + Armband + 2× Toolkit. Sus skills y talento dan mucho Crit DMG, así que el set de crítico es obligado, y los guantes/accesorios escalan Basic ATK DMG porque TODO el Ultimate cuenta como básico. El reparto da ~26.8% de Basic ATK DMG y ~20.7% de Crit Rate; con el 10% del set y el 5% propia llegas a ~35.7% (41.9% a満段). El resto del Crit sale del arma — no pases del soft cap (su Ultimate ya da 30%). Late con todo al máximo: puedes cambiar un Toolkit por LYNX Slab (Main Attribute% que multiplica el Intellect).",
+            "en": "MI Security (4 pieces): Overalls + Armband + 2× Toolkit. Her skills and talent give a lot of Crit DMG, so the crit set is mandatory, and the gloves/accessories scale Basic ATK DMG because her ENTIRE Ultimate counts as basic. The split gives ~26.8% Basic ATK DMG and ~20.7% Crit Rate; with the set's 10% and her own 5% you reach ~35.7% (41.9% maxed). The rest of the Crit comes from the weapon — don't pass the soft cap (her Ultimate already gives 30%). Late game with everything maxed: you can swap a Toolkit for LYNX Slab (Main Attribute% that multiplies Intellect)."
+          },
+          "deepNote": {
+            "es": "Yvonne es una hyper-carry que no puede arrancar su propio motor: no aplica Inflictions fuera del Ultimate, así que el equipo existe para ponerle Cryo/Nature. Acumulas Inflictions y las consumes de golpe con su Battle Skill, que fuerza Solidification (no pega sola, pero suma daño al Battle Skill por capa y, sobre todo, genera energía). El talento le deja un Final Strike instantáneo tras Solidificar, y ese Final Strike dispara su Combo, que vuelve a aplicar Solidification con un retraso — por eso el Combo es la última acción antes de ultear. El Ultimate cuesta 220 y es casi todo su daño: ~7s de fuego rápido que apila Crit (a tope +30% Crit Rate y +60% Crit DMG) y termina con un disparo enorme que consume la Solidification. El Crit Rate es su mejor stat (su talento da Crit DMG contra Cryo, el doble si está Solidificado), de ahí el soft cap del 70%.",
+            "en": "Yvonne is a hyper-carry who can't start her own engine: she doesn't apply Inflictions outside the Ultimate, so the team exists to put Cryo/Nature on the boss. You stack Inflictions and consume them at once with her Battle Skill, which forces Solidification (no damage on its own, but it adds Battle Skill damage per stack and, above all, generates energy). Her talent gives an instant Final Strike after Solidifying, and that Final Strike triggers her Combo, which reapplies Solidification with a delay — that's why the Combo is the last action before you ult. The Ultimate costs 220 and is almost all her damage: ~7s of rapid fire that stacks Crit (at max +30% Crit Rate and +60% Crit DMG) ending in a huge shot that consumes the Solidification. Crit Rate is her best stat (her talent gives Crit DMG against Cryo, doubled if Solidified), hence the 70% soft cap."
+          }
+        },
+        {
+          "id": "xaihi",
+          "role": "Support",
+          "weaponId": "wpn_funnel_0008",
+          "gearRec": [
+            "tide_fall_light_armor",
+            "eternal_xiranite_gloves_t1",
+            "frontiers_extra_o2_tube_t1",
+            "frontiers_extra_o2_tube_t1"
+          ],
+          "weaponNote": {
+            "es": "Detonation Unit es la opción principal — aplica Arts DMG Taken al jefe y trae Sec. Attribute% que potencia su Amp. Chivalric Virtues rinde casi igual (ATK% casi permanente al equipo al curar). Monaihe 5★ es la alternativa accesible.",
+            "en": "Detonation Unit is the main pick — it applies Arts DMG Taken on the boss and brings Sec. Attribute% that powers her Amp. Chivalric Virtues performs nearly the same (near-permanent team ATK% on heal). Monaihe 5★ is the accessible alternative."
+          },
+          "gearNote": {
+            "es": "叫我棉被 prioriza accesorios Frontiers (con el bonus de满负 dorado) para reforzar su Amp de Cryo: Tide Fall Light Armor + Eternal Xiranite Gloves T1 + 2× Frontiers Extra O2 Tube. Una variante más de回转 cambia los O2 por núcleos长息 (Eternal Xiranite Power Core) para acelerar su Ultimate. Súbela a 60 con equipo dorado cuanto antes — es la primera prioridad de养成 del equipo.",
+            "en": "叫我棉被 prioritizes Frontiers accessories (with the gold full-load bonus) to reinforce her Cryo Amp: Tide Fall Light Armor + Eternal Xiranite Gloves T1 + 2× Frontiers Extra O2 Tube. A more回转-focused variant swaps the O2 for长息 cores (Eternal Xiranite Power Core) to speed up her Ultimate. Get her to 60 with gold gear as soon as possible — she's the team's first养成 priority."
+          },
+          "deepNote": {
+            "es": "Xaihi es la fuente principal de Cryo y el soporte de daño irreemplazable del equipo. Su Battle Skill crea un cristal que orbita al personaje controlado: cura cuando ese personaje mete un Heavy (hasta 2 veces), o da un Amp de Arts si ya está a full HP. Tras dos Heavies el cristal se gasta y se habilita su Combo, que pone Cryo. Su Ultimate da un Amp de Cryo (efecto raro, solo Xaihi y Antal) que vale ~+40% de daño, +15~20% extra con su Battle Skill. Truco: el cristal dura 25s, así que prelanza su Battle Skill antes de entrar y deja que el SP se recargue dos cuadros — una skill gratis de salida.",
+            "en": "Xaihi is the main Cryo source and the team's irreplaceable damage support. Her Battle Skill creates a crystal that orbits the controlled character: it heals when that character lands a Heavy (up to 2 times), or gives an Arts Amp if already at full HP. After two Heavies the crystal is spent and her Combo unlocks, applying Cryo. Her Ultimate gives a Cryo Amp (rare effect, only Xaihi and Antal) worth ~+40% damage, +15~20% more with her Battle Skill. Trick: the crystal lasts 25s, so pre-cast her Battle Skill before entering and let SP recharge two pips — a free opening skill."
+          }
+        },
+        {
+          "id": "gilberta",
+          "role": "Support",
+          "weaponId": "wpn_funnel_0011",
+          "gearRec": [
+            "eternal_xiranite_armor",
+            "eternal_xiranite_gloves_t1",
+            "eternal_xiranite_auxiliary_arm",
+            "eternal_xiranite_auxiliary_arm"
+          ],
+          "weaponNote": {
+            "es": "Delivery Guaranteed (promocional) ≈ Stanza of Memorials > Opus: Etch Figure. Delivery Guaranteed da un Ultimate Gain enorme más un buff de Arts DMG% al equipo gratis con su Combo.",
+            "en": "Delivery Guaranteed (signature) ≈ Stanza of Memorials > Opus: Etch Figure. Delivery Guaranteed gives a huge Ultimate Gain plus a free team Arts DMG% buff off her Combo."
+          },
+          "gearNote": {
+            "es": "Eternal Xiranite (3 piezas): Armor + Gloves T1 + 2× Auxiliary Arm — soporte puro que mejora el回转 de su Ultimate. Variante: si quieres más arranque de SP en la primera vuelta, una pieza de天灾防护 (set por confirmar) según el creador. Subir el Ultimate a专精1 (nivel 80) maximiza la Susceptibility.",
+            "en": "Eternal Xiranite (3 pieces): Armor + Gloves T1 + 2× Auxiliary Arm — pure support that improves her Ultimate's回转. Variant: if you want more first-loop SP startup, a天灾防护 piece (set to confirm) per the creator. Taking the Ultimate to专精1 (level 80) maximizes the Susceptibility."
+          },
+          "deepNote": {
+            "es": "Gilberta es el mejor segundo aliado de Yvonne. Su Battle Skill agrupa (clave por el rango corto del Battle Skill de Yvonne) y pone Nature; cuando el enemigo está congelado se dispara su Combo, cuyo击飞 hace un Shatter que碎毙 y acumula stagger. Su Ultimate deja Nature y, sobre todo, mucha Susceptibility justo a tiempo para cubrir los 5s de burst tras el Ultimate de Yvonne. Como Yvonne es de objetivo único, sin Gilberta agrupando la experiencia diaria es bastante mala. Ardelia puede sustituirla con un poder de debuff parecido, pero pidiendo un skill extra por rotación y a cambio de curación.",
+            "en": "Gilberta is Yvonne's best second ally. Her Battle Skill groups (key because of Yvonne's short Battle Skill range) and applies Nature; when the enemy is frozen her Combo triggers, and its launch produces a Shatter that crushes and builds stagger. Her Ultimate leaves Nature and, above all, lots of Susceptibility right in time to cover the 5s of burst after Yvonne's Ultimate. Since Yvonne is single-target, without Gilberta grouping the daily experience is quite poor. Ardelia can substitute her with similar debuffing power, but asking for an extra skill per rotation and in exchange for healing."
+          }
+        },
+        {
+          "id": "alesh",
+          "role": "Support",
+          "weaponId": "wpn_sword_0012",
+          "gearRec": [
+            "tide_fall_light_armor",
+            "eternal_xiranite_gloves",
+            "redeemer_seal",
+            "redeemer_seal"
+          ],
+          "weaponNote": {
+            "es": "Thermite Cutter (promocional) > Fortmaker. Lo importante de Alesh es su Combo: recupera SP y dispara Thermite Cutter, que da un buen bonus de ATK a Yvonne.",
+            "en": "Thermite Cutter (signature) > Fortmaker. What matters on Alesh is his Combo: it recovers SP and fires Thermite Cutter, giving Yvonne a solid ATK bonus."
+          },
+          "gearNote": {
+            "es": "Build de carga: Tide Fall Light Armor + Eternal Xiranite Gloves + 2× Redeemer Seal, para acelerar el Ultimate y buscar huecos para reponer Cryo. La variante de智识 (Frontiers Armor T3 + guantes长息 + 2× Frontiers Extra O2) refuerza el efecto de连携 y da algo de拐力, pero el creador prioriza la carga en el uso diario.",
+            "en": "Charge build: Tide Fall Light Armor + Eternal Xiranite Gloves + 2× Redeemer Seal, to speed up the Ultimate and find gaps to refill Cryo. The Intellect variant (Frontiers Armor T3 +长息 gloves + 2× Frontiers Extra O2) reinforces his Combo effect and gives some buff power, but the creator prioritizes charge for daily use."
+          },
+          "deepNote": {
+            "es": "Alesh es el 4º slot más universal y accesible. Su Combo recupera SP y activa Thermite Cutter para darle ATK a Yvonne; su Battle Skill normalmente no se usa, pero sirve de red de seguridad si llegas al Ultimate con Cryo pero sin Solidificar. Se le equipa gear de carga para acelerar el Ultimate. No buffea ni debuffea de verdad, así que su techo es menor que el de Perlica o Ardelia, pero es el punto de entrada al hueco para cualquier jugador.",
+            "en": "Alesh is the most universal and accessible 4th slot. His Combo recovers SP and activates Thermite Cutter to give Yvonne ATK; his Battle Skill usually goes unused, but it's a safety net if you reach the Ultimate with Cryo but no Solidification. He runs charge gear to speed up the Ultimate. He doesn't truly buff or debuff, so his ceiling is lower than Perlica's or Ardelia's, but he's the entry point to the slot for any player."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Mismo reparto que la comp de referencia: Yvonne pone el daño bruto (MI Security por Crit + Basic ATK DMG, con Artzy Tyrannical) y los apoyos ponen recurso y multiplicador. La diferencia de este equipo está en los apoyos: Xaihi va con accesorios Frontiers para reforzar su Amp (en vez del Eternal Xiranite de la comp de Perlica), Gilberta mantiene Eternal Xiranite, y Alesh va con gear de carga para sostener el ritmo del Ultimate. La prioridad de养成 es Xaihi primero (a 60, dorado), luego Gilberta (Ultimate a专精1) y Yvonne. Recuerda el soft cap de Crit de Yvonne: 70% en gear.",
+          "en": "Same split as the benchmark comp: Yvonne brings the raw damage (MI Security for Crit + Basic ATK DMG, with Artzy Tyrannical) and the supports bring resource and multiplier. This team's difference is in the supports: Xaihi runs Frontiers accessories to reinforce her Amp (instead of the Eternal Xiranite of the Perlica comp), Gilberta keeps Eternal Xiranite, and Alesh runs charge gear to sustain the Ultimate's tempo. The养成 priority is Xaihi first (to 60, gold), then Gilberta (Ultimate to专精1) and Yvonne. Remember Yvonne's Crit soft cap: 70% on gear."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Yvonne necesita más energía",
+              "en": "Yvonne needs more energy"
+            },
+            "swap": {
+              "es": "Cambia un Toolkit por Redeemer Seal (Ultimate Gain): te deja consumir menos Inflictions para llegar al Ultimate, útil en arranques en 0 energía o rotaciones condensadas. Mantiene el 3pc de MI Security pero pierde algo de Crit.",
+              "en": "Swap a Toolkit for Redeemer Seal (Ultimate Gain): it lets you consume fewer Inflictions to reach the Ultimate, useful in 0-energy starts or condensed rotations. It keeps the MI Security 3pc but loses some Crit."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": {
+        "es": "叫我棉被 - Boss (Ardelia)",
+        "en": "叫我棉被 - Boss (Ardelia)"
+      },
+      "subtitle": {
+        "es": "Xaihi · Gilberta · Ardelia",
+        "en": "Xaihi · Gilberta · Ardelia"
+      },
+      "blurb": {
+        "es": "La versión de攻坚/jefe: en el 4º slot, Ardelia en lugar del aplicador. Su buff potente (拐力) sube el daño total a costa de menos apilado de Infliction y menos stagger.",
+        "en": "The boss/hard-content version: Ardelia in the 4th slot instead of the applicator. Her strong buff raises total damage at the cost of less Infliction stacking and less stagger."
+      },
+      "guideVideoId": "yvmb1",
+      "simple": {
+        "whatItDoes": {
+          "es": "El mismo trío fijo (Yvonne + Xaihi + Gilberta) pero, para jefes, con Ardelia en el cuarto puesto en vez de la pieza aplicadora (Alesh/Estella). Ardelia es un buffer-debuffer premium: aplica doble vulnerabilidad (física y Arts) y baja la resistencia a Corrosión, lo que amplifica todo el burst de Yvonne. A cambio, el equipo apila menos Inflictions, así que el Ultimate de Yvonne tarda algo más en cargar y se siente más trabado, y el stagger del equipo baja. El daño total, sin embargo, sale más alto. Juegas igual que en la comp diaria — acumulas Cryo/Nature, las comes con el Battle Skill de Yvonne y cobras el Ultimate — pero metes los buffs de Ardelia antes del burst.",
+          "en": "The same fixed core (Yvonne + Xaihi + Gilberta) but, for bosses, with Ardelia in the fourth spot instead of the applicator piece (Alesh/Estella). Ardelia is a premium buffer-debuffer: she applies dual vulnerability (physical and Arts) and lowers Corrosion resistance, amplifying Yvonne's whole burst. In exchange, the team stacks fewer Inflictions, so Yvonne's Ultimate takes a bit longer to charge and feels more sluggish, and the team's stagger drops. Total damage, however, comes out higher. You play it like the daily comp — stack Cryo/Nature, eat them with Yvonne's Battle Skill and cash the Ultimate — but you slot Ardelia's buffs before the burst."
+        },
+        "steps": [
+          {
+            "who": "xaihi",
+            "do": {
+              "es": "Igual que en la comp diaria: Battle Skill de Xaihi + Battle Skill de Gilberta para agrupar y poner Cryo/Nature.",
+              "en": "Same as the daily comp: Xaihi Battle Skill + Gilberta Battle Skill to group and apply Cryo/Nature."
+            }
+          },
+          {
+            "who": "ardelia",
+            "do": {
+              "es": "Mete la Battle Skill de Ardelia para aplicar su doble vulnerabilidad y empezar a consumir Corrosión: es lo que sostiene la economía de energía del equipo en esta versión.",
+              "en": "Slot Ardelia's Battle Skill to apply her dual vulnerability and start consuming Corrosion: it's what sustains the team's energy economy in this version."
+            }
+          },
+          {
+            "who": "yvonne",
+            "do": {
+              "es": "Acumula y consume Cryo/Nature con el Battle Skill de Yvonne (Solidification + energía). Cuida que el Ultimate tarda algo más aquí — ten paciencia con el回转.",
+              "en": "Stack and consume Cryo/Nature with Yvonne's Battle Skill (Solidification + energy). Mind that the Ultimate takes a bit longer here — be patient with the回转."
+            }
+          },
+          {
+            "who": "yvonne",
+            "do": {
+              "es": "Con todo buffeado, abre el Ultimate de Yvonne y, detrás, los Ultimates de Ardelia y Gilberta para alinear vulnerabilidad + Susceptibility sobre el disparo final. Espera al stagger del boss si su barra es larga.",
+              "en": "With everything buffed, open Yvonne's Ultimate and, behind it, Ardelia's and Gilberta's Ultimates to line up vulnerability + Susceptibility on the final shot. Wait for the boss's stagger if its bar is long."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "yvonne",
+            "line": {
+              "es": "Igual que en la comp diaria: Artzy Tyrannical + MI Security (4 piezas). Soft cap de Crit en 70%.",
+              "en": "Same as the daily comp: Artzy Tyrannical + MI Security (4 pieces). Crit soft cap at 70%."
+            }
+          },
+          {
+            "id": "xaihi",
+            "line": {
+              "es": "Detonation Unit + accesorios Frontiers para su Amp de Cryo.",
+              "en": "Detonation Unit + Frontiers accessories for her Cryo Amp."
+            }
+          },
+          {
+            "id": "gilberta",
+            "line": {
+              "es": "Delivery Guaranteed + set Eternal Xiranite; Ultimate a专精1 para maximizar la Susceptibility.",
+              "en": "Delivery Guaranteed + Eternal Xiranite set; Ultimate at专精1 to maximize the Susceptibility."
+            }
+          },
+          {
+            "id": "ardelia",
+            "line": {
+              "es": "Dreams of the Starry Beach (promocional) + set Eternal Xiranite. Es un buffer T0 gratuito (de inicio de sesión); su Ultimate Gain sostiene el回转 de sus buffs.",
+              "en": "Dreams of the Starry Beach (signature) + Eternal Xiranite set. She's a free T0 buffer (from check-in); her Ultimate Gain sustains the回转 of her buffs."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "Es la comp de Yvonne para jefes. Parte del mismo motor (Yvonne no aplica Inflictions; el equipo se las pone y ella las cobra en el Ultimate), pero cambia la prioridad del cuarto hueco: en vez de un aplicador barato como Alesh, entra Ardelia, un buffer-debuffer premium que sube el techo de daño. Ardelia aporta doble vulnerabilidad (física y Arts) y reducción de resistencia a Corrosión — un multiplicador potente que se alinea con la Susceptibility de Gilberta para disparar el pico del burst. El precio es de ritmo: al perder la pieza aplicadora, el equipo apila menos Inflictions, así que el Ultimate de Yvonne回转 más lento y la mano se siente más trabada; y el stagger del equipo, ya bajo en Cryo, baja más, lo que contra bosses con barra de stagger larga obliga a拖 hasta cuadrar el Ultimate con la ventana. Aun así, con el bonus de daño de Ardelia el output total es mayor — y, con una Yvonne ya invertida, la experiencia es más cómoda. Ardelia consume Corrosión con su Battle Skill, lo que ayuda a sostener la economía de energía y rescata a duras penas el ciclo del equipo.",
+        "en": "This is Yvonne's boss team. It runs on the same engine (Yvonne doesn't apply Inflictions; the team puts them on and she cashes them in the Ultimate), but it changes the fourth-slot priority: instead of a cheap applier like Alesh, in comes Ardelia, a premium buffer-debuffer that raises the damage ceiling. Ardelia provides dual vulnerability (physical and Arts) and Corrosion resistance reduction — a strong multiplier that lines up with Gilberta's Susceptibility to fire the burst's peak. The price is tempo: losing the applier piece, the team stacks fewer Inflictions, so Yvonne's Ultimate回转 is slower and the play feels more sluggish; and the team's stagger, already low on Cryo, drops further, which against bosses with a long stagger bar forces you to拖 until you line the Ultimate up with the window. Even so, with Ardelia's damage bonus the total output is higher — and, with an already-invested Yvonne, the experience is smoother. Ardelia consumes Corrosion with her Battle Skill, which helps sustain the energy economy and barely keeps the team's cycle alive."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Alta",
+          "en": "High"
+        },
+        "content": {
+          "es": "Jefe / Single-target",
+          "en": "Boss / Single-target"
+        },
+        "tags": [
+          { "es": "Criogénico", "en": "Cryo", "jp": "寒冷", "zh": "寒冷" },
+          {
+            "es": "Buffer premium",
+            "en": "Premium buffer"
+          },
+          {
+            "es": "Doble vulnerabilidad",
+            "en": "Dual vulnerability"
+          },
+          {
+            "es": "Centrado en Ultimate",
+            "en": "Ultimate-focused"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "Mayor daño total: el buff de Ardelia (doble vulnerabilidad + reducción de resistencia a Corrosión) sube el techo del burst por encima de la comp con Alesh.",
+          "en": "Higher total damage: Ardelia's buff (dual vulnerability + Corrosion resistance reduction) raises the burst ceiling above the Alesh comp."
+        },
+        {
+          "es": "Ardelia es un buffer T0 gratuito (de inicio de sesión) y aporta curación, así que el equipo gana sustain sin un healer dedicado.",
+          "en": "Ardelia is a free T0 buffer (from check-in) and brings healing, so the team gains sustain without a dedicated healer."
+        }
+      ],
+      "cons": [
+        {
+          "es": "Menos apilado de Inflictions: el Ultimate de Yvonne回转 más lento y la rotación se siente más trabada que con un aplicador.",
+          "en": "Less Infliction stacking: Yvonne's Ultimate回转 is slower and the rotation feels more sluggish than with an applier."
+        },
+        {
+          "es": "Stagger bajo: contra bosses con barra de stagger larga hay que拖 mucho, y a veces el Ultimate de Yvonne está listo antes de que el boss se失衡 — hay que conocer las animaciones del jefe antes de abrir.",
+          "en": "Low stagger: against bosses with a long stagger bar you have to拖 a lot, and sometimes Yvonne's Ultimate is ready before the boss staggers — you need to know the boss's animations before opening."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "Ardelia: doble vulnerabilidad + Corrosión",
+            "en": "Ardelia: dual vulnerability + Corrosion"
+          },
+          "body": {
+            "es": "Ardelia es un soporte Nature 6★ T0 que apila multiplicadores raros: aplica vulnerabilidad física y de Arts a la vez y reduce la resistencia a Corrosión del enemigo. Sobre el burst de Yvonne — que ya entra con la Susceptibility de Gilberta — esa capa extra de vulnerabilidad es lo que sube el techo de daño por encima de cualquier aplicador del hueco. Además cura al equipo mediante las sombras que despliega con su skill y su Ultimate (curan al tocarlas el personaje controlado), así que aporta sustain sin pedir un healer.",
+            "en": "Ardelia is a 6★ T0 Nature support that stacks rare multipliers: she applies physical and Arts vulnerability at once and lowers the enemy's Corrosion resistance. On top of Yvonne's burst — which already enters with Gilberta's Susceptibility — that extra layer of vulnerability is what pushes the damage ceiling above any applier for the slot. She also heals the team through the shadows she deploys with her skill and Ultimate (they heal when the controlled character touches them), so she brings sustain without needing a healer."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "El intercambio: daño por ritmo",
+            "en": "The trade: damage for tempo"
+          },
+          "body": {
+            "es": "Cambiar el aplicador por Ardelia significa que el equipo deja de clavar tantas Inflictions gratis. Como el Battle Skill de Yvonne se alimenta de esas capas, su Ultimate tarda más en cargar y la mano se siente más trabada. Ardelia compensa en parte consumiendo Corrosión con su Battle Skill para rescatar la economía de energía, pero el ciclo va al límite. Y como el equipo Cryo ya hace poco stagger, perder la pieza aplicadora lo agrava: contra barras de stagger largas toca拖. La conclusión del creador: con una Yvonne ya invertida, en la que no necesitas tanto el拐力 y el daño te alcanza, Ardelia sigue siendo la opción más cómoda y de mayor output para jefes.",
+            "en": "Swapping the applier for Ardelia means the team stops landing as many free Inflictions. Since Yvonne's Battle Skill feeds on those stacks, her Ultimate takes longer to charge and the play feels more sluggish. Ardelia partly compensates by consuming Corrosion with her Battle Skill to rescue the energy economy, but the cycle runs on the edge. And since the Cryo team already does little stagger, losing the applier piece worsens it: against long stagger bars you have to拖. The creator's takeaway: with an already-invested Yvonne, where you don't need the buff as much and the damage is enough, Ardelia is still the most comfortable, highest-output option for bosses."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Apertura — buffs de Ardelia, aplicar y Solidificar",
+            "en": "Opener — Ardelia's buffs, apply and Solidify"
+          },
+          "action": {
+            "es": "Mismo núcleo que la comp diaria (Xaihi + Gilberta + Yvonne), sumando la Battle Skill de Ardelia para la vulnerabilidad y la Corrosión.",
+            "en": "Same core as the daily comp (Xaihi + Gilberta + Yvonne), adding Ardelia's Battle Skill for the vulnerability and Corrosion."
+          },
+          "steps": [
+            {
+              "do": { "es": "Battle Skill de Xaihi.", "en": "Xaihi Battle Skill." },
+              "note": { "es": "Cristal de cura/Amp y Cryo.", "en": "Heal/Amp crystal and Cryo." }
+            },
+            {
+              "do": { "es": "Battle Skill de Gilberta.", "en": "Gilberta Battle Skill." },
+              "note": { "es": "Agrupa y aplica Nature.", "en": "Groups and applies Nature." }
+            },
+            {
+              "do": { "es": "Battle Skill de Ardelia.", "en": "Ardelia Battle Skill." },
+              "note": { "es": "Aplica su doble vulnerabilidad (física + Arts) y consume Corrosión — ayuda a sostener la energía del equipo al no llevar aplicador dedicado.", "en": "Applies her dual vulnerability (physical + Arts) and consumes Corrosion — helps sustain the team's energy with no dedicated applier." }
+            },
+            {
+              "do": { "es": "Yvonne en Basic Attack hasta que salga un Heavy.", "en": "Yvonne on Basic Attack until a Heavy comes out." }
+            },
+            {
+              "do": { "es": "Yvonne Battle Skill + Heavy.", "en": "Yvonne Battle Skill + Heavy." },
+              "key": true,
+              "note": { "es": "Consume Cryo/Nature, fuerza Solidification y carga energía. Aquí va más lento que en la diaria — paciencia con el回转.", "en": "Consumes Cryo/Nature, forces Solidification and charges energy. This is slower than in the daily comp — be patient with the回转." }
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Cadena de Combos",
+            "en": "Combo chain"
+          },
+          "action": {
+            "es": "Con el enemigo Solidificado, encadena los Combos del núcleo Xaihi/Gilberta/Yvonne y mete el segundo consumo.",
+            "en": "With the enemy Solidified, chain the Xaihi/Gilberta/Yvonne core Combos and do the second consume."
+          },
+          "steps": [
+            {
+              "do": { "es": "Combo de Gilberta.", "en": "Gilberta Combo." },
+              "note": { "es": "Shatter + stagger por el lanzamiento (击飞).", "en": "Shatter + stagger from the launch (击飞)." }
+            },
+            {
+              "do": { "es": "Combo de Yvonne.", "en": "Yvonne Combo." },
+              "note": { "es": "Habilitado por el Final Strike instantáneo.", "en": "Enabled by the instant Final Strike." }
+            },
+            {
+              "do": { "es": "Combo de Xaihi.", "en": "Xaihi Combo." }
+            },
+            {
+              "do": { "es": "Battle Skill de Xaihi, y espera el siguiente Heavy de Yvonne.", "en": "Xaihi Battle Skill, then wait for Yvonne's next Heavy." }
+            },
+            {
+              "do": { "es": "Yvonne Battle Skill + Heavy (segundo consumo).", "en": "Yvonne Battle Skill + Heavy (second consume)." }
+            },
+            {
+              "do": { "es": "Combo de Xaihi.", "en": "Xaihi Combo." }
+            },
+            {
+              "do": { "es": "Sigue con Basic/Heavy hasta acumular SP para el siguiente Battle Skill de Yvonne.", "en": "Keep doing Basic/Heavy until you have SP for Yvonne's next Battle Skill." },
+              "note": { "es": "Con Ardelia el equipo apila menos附着, así que el回转 del Ultimate es más lento — no fuerces.", "en": "With Ardelia the team stacks fewer Inflictions, so the Ultimate's回转 is slower — don't force it." }
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Burst — alinear vulnerabilidades",
+            "en": "Burst — line up the vulnerabilities"
+          },
+          "action": {
+            "es": "Con el Ultimate cargado y el boss a punto, solapa los buffs sobre el disparo final.",
+            "en": "With the Ultimate charged and the boss set, overlap the buffs on the final shot."
+          },
+          "steps": [
+            {
+              "do": { "es": "Ultimate de Xaihi.", "en": "Xaihi Ultimate." },
+              "note": { "es": "Amp de Cryo de la ventana.", "en": "The window's Cryo Amp." }
+            },
+            {
+              "do": { "es": "Yvonne Battle Skill + Heavy.", "en": "Yvonne Battle Skill + Heavy." },
+              "key": true,
+              "note": { "es": "Dispara todos los Combos disponibles antes del Ultimate.", "en": "Fires all available Combos before the Ultimate." }
+            },
+            {
+              "do": { "es": "Ultimate de Yvonne a tope.", "en": "Yvonne Ultimate at full." },
+              "key": true,
+              "note": { "es": "Aquí cae casi todo el daño.", "en": "Almost all the damage lands here." }
+            },
+            {
+              "do": { "es": "Ultimate de Ardelia.", "en": "Ardelia Ultimate." },
+              "note": { "es": "Cierra la doble vulnerabilidad sobre el disparo final y despliega su curación.", "en": "Closes the dual vulnerability on the final shot and deploys her healing." }
+            },
+            {
+              "do": { "es": "Ultimate de Gilberta.", "en": "Gilberta Ultimate." },
+              "note": { "es": "Su Susceptibility se suma a la vulnerabilidad de Ardelia sobre el remate.", "en": "Her Susceptibility stacks with Ardelia's vulnerability on the finisher." }
+            }
+          ],
+          "tip": {
+            "es": "Si el boss tiene barra de stagger larga, espera a que se失衡 antes de abrir el Ultimate de Yvonne — a veces está listo antes de tiempo. Conoce las animaciones del jefe.",
+            "en": "If the boss has a long stagger bar, wait for it to stagger before opening Yvonne's Ultimate — sometimes it's ready too early. Learn the boss's animations."
+          }
+        }
+      ],
+      "rotationVariants": [],
+      "skillPriority": [
+        {
+          "charId": "yvonne",
+          "order": "Ultimate > Basic ≈ Battle Skill > Combo",
+          "note": {
+            "es": "Igual que siempre: el Ultimate decide el倍率 del Basic en la ventana.",
+            "en": "As always: the Ultimate sets the Basic's multiplier in the window."
+          }
+        },
+        {
+          "charId": "xaihi",
+          "order": "Battle Skill + Ultimate (solo estos)",
+          "note": {
+            "es": "Fuente de Cryo, Amp y cura.",
+            "en": "Source of Cryo, Amp and healing."
+          }
+        },
+        {
+          "charId": "gilberta",
+          "order": "Ultimate (专精1)",
+          "note": {
+            "es": "La Susceptibility del burst; a专精1 (nivel 80) llega a su máximo.",
+            "en": "The burst's Susceptibility; at专精1 (level 80) it hits its max."
+          }
+        },
+        {
+          "charId": "ardelia",
+          "order": "Battle Skill + Ultimate",
+          "note": {
+            "es": "Su Battle Skill aplica la vulnerabilidad y consume Corrosión; su Ultimate cierra los buffs y despliega la curación.",
+            "en": "Her Battle Skill applies the vulnerability and consumes Corrosion; her Ultimate closes the buffs and deploys the healing."
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Abrir el Ultimate de Yvonne antes de que el boss se失衡 cuando su barra de stagger es larga: pierdes tiempo de disparo y daño. Conoce las animaciones del jefe.",
+          "en": "Opening Yvonne's Ultimate before the boss staggers when its stagger bar is long: you lose firing time and damage. Learn the boss's animations."
+        },
+        {
+          "es": "Esperar a Ardelia para todo: el equipo apila menos Inflictions, así que no fuerces el回转 — ten paciencia con la carga del Ultimate.",
+          "en": "Relying on Ardelia for everything: the team stacks fewer Inflictions, so don't force the回转 — be patient with the Ultimate's charge."
+        }
+      ],
+      "vsOtherComps": [],
+      "members": [
+        {
+          "id": "yvonne",
+          "role": "Carry",
+          "weaponId": "wpn_pistol_0010",
+          "gearRec": [
+            "mi_security_overalls",
+            "mi_security_armband",
+            "mi_security_toolkit",
+            "mi_security_toolkit"
+          ],
+          "weaponNote": {
+            "es": "Artzy Tyrannical (promocional) > Wedge > Navigator — igual que en la comp diaria.",
+            "en": "Artzy Tyrannical (signature) > Wedge > Navigator — same as the daily comp."
+          },
+          "gearNote": {
+            "es": "MI Security (4 piezas): Overalls + Armband + 2× Toolkit, por Crit + Basic ATK DMG (su Ultimate cuenta como básico). Soft cap de Crit en 70%.",
+            "en": "MI Security (4 pieces): Overalls + Armband + 2× Toolkit, for Crit + Basic ATK DMG (her Ultimate counts as basic). Crit soft cap at 70%."
+          },
+          "deepNote": {
+            "es": "Sin cambios respecto a la comp diaria: hyper-carry que consume Cryo/Nature con su Battle Skill para forzar Solidification, encadena Final Strike → Combo, y descarga casi todo su daño en un Ultimate de 220 que apila Crit. La única diferencia en esta versión es de ritmo — con Ardelia en vez de un aplicador, su Ultimate回转 más lento.",
+            "en": "Unchanged from the daily comp: a hyper-carry that consumes Cryo/Nature with her Battle Skill to force Solidification, chains Final Strike → Combo, and unloads almost all her damage in a 220 Ultimate that stacks Crit. The only difference in this version is tempo — with Ardelia instead of an applier, her Ultimate回转 is slower."
+          }
+        },
+        {
+          "id": "xaihi",
+          "role": "Support",
+          "weaponId": "wpn_funnel_0008",
+          "gearRec": [
+            "tide_fall_light_armor",
+            "eternal_xiranite_gloves_t1",
+            "frontiers_extra_o2_tube_t1",
+            "frontiers_extra_o2_tube_t1"
+          ],
+          "weaponNote": {
+            "es": "Detonation Unit (principal) — Arts DMG Taken + Sec. Attribute% para su Amp. Chivalric Virtues casi igual.",
+            "en": "Detonation Unit (main) — Arts DMG Taken + Sec. Attribute% for her Amp. Chivalric Virtues nearly the same."
+          },
+          "gearNote": {
+            "es": "Accesorios Frontiers (con el bonus de满负 dorado) para reforzar su Amp de Cryo. Primera prioridad de养成 (a 60, dorado).",
+            "en": "Frontiers accessories (with the gold full-load bonus) to reinforce her Cryo Amp. First养成 priority (to 60, gold)."
+          },
+          "deepNote": {
+            "es": "La fuente principal de Cryo y el soporte irreemplazable: cristal de cura/Amp con su Battle Skill, Amp de Cryo con su Ultimate (~+40%, +15~20% extra), y el Cryo que alimenta a Yvonne. Igual que en la comp diaria.",
+            "en": "The main Cryo source and irreplaceable support: heal/Amp crystal with her Battle Skill, Cryo Amp with her Ultimate (~+40%, +15~20% extra), and the Cryo that feeds Yvonne. Same as the daily comp."
+          }
+        },
+        {
+          "id": "gilberta",
+          "role": "Support",
+          "weaponId": "wpn_funnel_0011",
+          "gearRec": [
+            "eternal_xiranite_armor",
+            "eternal_xiranite_gloves_t1",
+            "eternal_xiranite_auxiliary_arm",
+            "eternal_xiranite_auxiliary_arm"
+          ],
+          "weaponNote": {
+            "es": "Delivery Guaranteed (promocional) ≈ Stanza of Memorials > Opus: Etch Figure.",
+            "en": "Delivery Guaranteed (signature) ≈ Stanza of Memorials > Opus: Etch Figure."
+          },
+          "gearNote": {
+            "es": "Eternal Xiranite (3 piezas): Armor + Gloves T1 + 2× Auxiliary Arm. Ultimate a专精1 (nivel 80) para maximizar la Susceptibility.",
+            "en": "Eternal Xiranite (3 pieces): Armor + Gloves T1 + 2× Auxiliary Arm. Ultimate at专精1 (level 80) to maximize the Susceptibility."
+          },
+          "deepNote": {
+            "es": "Agrupa, mete Shatters (stagger) y deja la Susceptibility del burst. Junto a Ardelia forma un dúo de doble debuff Nature: Susceptibility (Gilberta) + doble vulnerabilidad (Ardelia) apiladas sobre el disparo final de Yvonne.",
+            "en": "She groups, slots Shatters (stagger) and drops the burst's Susceptibility. Together with Ardelia she forms a double Nature-debuff duo: Susceptibility (Gilberta) + dual vulnerability (Ardelia) stacked on Yvonne's final shot."
+          }
+        },
+        {
+          "id": "ardelia",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0013",
+          "gearRec": [
+            "bonekrusha_poncho_t1",
+            "eternal_xiranite_gloves_t1",
+            "eternal_xiranite_auxiliary_arm",
+            "eternal_xiranite_auxiliary_arm"
+          ],
+          "weaponNote": {
+            "es": "Dreams of the Starry Beach es su arma promocional. Ardelia es un buffer Nature 6★ T0 gratuito (de inicio de sesión), así que la mayoría la tendrá invertida pronto.",
+            "en": "Dreams of the Starry Beach is her signature weapon. Ardelia is a free 6★ T0 Nature buffer (from check-in), so most players will have her invested early."
+          },
+          "gearNote": {
+            "es": "Eternal Xiranite (3 piezas): Bonekrusha Poncho T1 (armor de Ultimate Gain) + Eternal Xiranite Gloves T1 + 2× Auxiliary Arm. Lo que necesita es Ultimate Gain para que sus buffs lleguen a tiempo a cada burst; el set también le da el buff de DMG% al equipo.",
+            "en": "Eternal Xiranite (3 pieces): Bonekrusha Poncho T1 (Ultimate Gain armor) + Eternal Xiranite Gloves T1 + 2× Auxiliary Arm. What she needs is Ultimate Gain so her buffs arrive on time each burst; the set also gives her the team DMG% buff."
+          },
+          "deepNote": {
+            "es": "Ardelia es el motivo de existir de esta comp: un buffer-debuffer Nature 6★ que apila multiplicadores raros — doble vulnerabilidad (física y Arts) y reducción de resistencia a Corrosión —, justo lo que el burst de Yvonne quiere amplificar. Su Battle Skill aplica esa vulnerabilidad y consume Corrosión, lo que de paso ayuda a sostener la economía de energía del equipo (sin un aplicador dedicado, el ciclo va al límite). Además cura mediante las sombras que despliega con su skill y su Ultimate. El intercambio: como no es una pieza aplicadora, el equipo apila menos Inflictions y el Ultimate de Yvonne回转 más lento, y el stagger del equipo baja. Pero con su bonus de daño el output total sube, y por eso el creador la recomienda como la mejor opción para jefes, especialmente con una Yvonne ya invertida. En el equipo de referencia (Maygi), Ardelia aparece más bien como sustituta directa de Gilberta — con un poder de debuff parecido pero pidiendo un skill extra por rotación a cambio de curación.",
+            "en": "Ardelia is this comp's reason to exist: a 6★ Nature buffer-debuffer that stacks rare multipliers — dual vulnerability (physical and Arts) and Corrosion resistance reduction — exactly what Yvonne's burst wants to amplify. Her Battle Skill applies that vulnerability and consumes Corrosion, which along the way helps sustain the team's energy economy (with no dedicated applier, the cycle runs on the edge). She also heals through the shadows she deploys with her skill and Ultimate. The trade: since she isn't an applier piece, the team stacks fewer Inflictions and Yvonne's Ultimate回转 is slower, and team stagger drops. But with her damage bonus the total output rises, which is why the creator recommends her as the best option for bosses, especially with an already-invested Yvonne. In the benchmark team (Maygi), Ardelia appears rather as a direct substitute for Gilberta — with similar debuffing power but asking for an extra skill per rotation in exchange for healing."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Mismo reparto que la comp diaria en el trío fijo (Yvonne MI Security + Artzy; Xaihi accesorios Frontiers; Gilberta Eternal Xiranite), cambiando el aplicador por Ardelia, que va Eternal Xiranite (Ultimate Gain + el buff de DMG% al equipo) con Bonekrusha Poncho T1 de armadura. La prioridad sigue siendo: Xaihi y la inversión de daño de Yvonne; Ardelia, al ser gratuita, suele estar lista pronto. Recuerda el soft cap de Crit de Yvonne (70%) y la paciencia con el回转 del Ultimate en esta versión.",
+          "en": "Same split as the daily comp in the fixed core (Yvonne MI Security + Artzy; Xaihi Frontiers accessories; Gilberta Eternal Xiranite), swapping the applier for Ardelia, who runs Eternal Xiranite (Ultimate Gain + the team DMG% buff) with Bonekrusha Poncho T1 for armor. The priority is still Xaihi and Yvonne's damage investment; Ardelia, being free, is usually ready early. Remember Yvonne's Crit soft cap (70%) and patience with the Ultimate's回转 in this version."
+        },
+        "alts": []
+      }
+    }
+  ]
+}

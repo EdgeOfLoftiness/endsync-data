@@ -1,0 +1,3525 @@
+{
+ "enemies": {
+  "eny-0067-hound2": {
+   "name": "Elite Ripptusk",
+   "name_es": "Colmillo desgarrador de élite",
+   "name_jp": "凶猛牙獣・精鋭",
+   "name_zh": "精锐撕裂牙兽",
+   "class": "Common",
+   "filename": "eny_0067_hound2",
+   "hp": [
+    228,
+    1639,
+    10373,
+    40838,
+    98234,
+    151332
+   ],
+   "atk": [
+    39,
+    186,
+    579,
+    1437,
+    2163,
+    2478
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 90,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0025-agrange": {
+   "name": "Sting",
+   "name_es": "Aguijón",
+   "name_jp": "針棘アンゲロス",
+   "name_zh": "钉刺天使",
+   "class": "Common",
+   "filename": "eny_0025_agrange",
+   "hp": [
+    138,
+    994,
+    6287,
+    24750,
+    59536,
+    91716
+   ],
+   "atk": [
+    26,
+    124,
+    386,
+    958,
+    1442,
+    1652
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 60,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0064-agrange2": {
+   "name": "Sting α",
+   "name_es": "Aguijón α",
+   "name_jp": "針棘アンゲロスα",
+   "name_zh": "钉刺天使α",
+   "class": "Common",
+   "filename": "eny_0064_agrange2",
+   "hp": [
+    208,
+    1490,
+    9430,
+    37126,
+    89303,
+    137575
+   ],
+   "atk": [
+    36,
+    171,
+    531,
+    1317,
+    1982,
+    2271
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 90,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0021-agmelee": {
+   "name": "Ram",
+   "name_es": "Carnero",
+   "name_jp": "巨角アンゲロス",
+   "name_zh": "大角天使",
+   "class": "Common",
+   "filename": "eny_0021_agmelee",
+   "hp": [
+    138,
+    994,
+    6287,
+    24750,
+    59536,
+    91716
+   ],
+   "atk": [
+    33,
+    155,
+    482,
+    1198,
+    1802,
+    2065
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 60,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0063-agmelee2": {
+   "name": "Ram α",
+   "name_es": "Carnero α",
+   "name_jp": "巨角アンゲロスα",
+   "name_zh": "大角天使α",
+   "class": "Common",
+   "filename": "eny_0063_agmelee2",
+   "hp": [
+    208,
+    1490,
+    9430,
+    37126,
+    89303,
+    137575
+   ],
+   "atk": [
+    46,
+    217,
+    675,
+    1677,
+    2523,
+    2891
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 90,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0023-aghornb": {
+   "name": "Heavy Ram",
+   "name_es": "Carnero grande",
+   "name_jp": "剛角アンゲロス",
+   "name_zh": "刚角天使",
+   "class": "Advanced",
+   "filename": "eny_0023_aghornb",
+   "hp": [
+    831,
+    5961,
+    37721,
+    148502,
+    357214,
+    550298
+   ],
+   "atk": [
+    66,
+    310,
+    965,
+    2395,
+    3604,
+    4130
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 160,
+   "staggerMult": 1.25,
+   "res": {
+    "physical": 0.8,
+    "heat": 0.8,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 0.8,
+    "aether": 1
+   }
+  },
+  "eny-0027-agscorp": {
+   "name": "Heavy Sting",
+   "name_es": "Aguijón fuerte",
+   "name_jp": "槍棘アンゲロス",
+   "name_zh": "重刺天使",
+   "class": "Advanced",
+   "filename": "eny_0027_agscorp",
+   "hp": [
+    734,
+    5266,
+    33320,
+    131177,
+    315539,
+    486097
+   ],
+   "atk": [
+    49,
+    233,
+    723,
+    1796,
+    2703,
+    3097
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 140,
+   "staggerMult": 1.25,
+   "res": {
+    "physical": 0.8,
+    "heat": 0.8,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 0.8,
+    "aether": 1
+   }
+  },
+  "eny-0029-lbmob": {
+   "name": "Bonekrusher Raider",
+   "name_es": "Asaltante Rompehuesos",
+   "name_jp": "ボーンクラッシャーの略奪者",
+   "name_zh": "碾骨劫掠者",
+   "class": "Common",
+   "filename": "eny_0029_lbmob",
+   "hp": [
+    194,
+    1391,
+    8802,
+    34651,
+    83350,
+    128403
+   ],
+   "atk": [
+    36,
+    171,
+    531,
+    1317,
+    1982,
+    2271
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 80,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0070-agscorp2": {
+   "name": "Heavy Sting α",
+   "name_es": "Aguijón fuerte α",
+   "name_jp": "槍棘アンゲロスα",
+   "name_zh": "重刺天使α",
+   "class": "Advanced",
+   "filename": "eny_0070_agscorp2",
+   "hp": [
+    1094,
+    7849,
+    49666,
+    195528,
+    470332,
+    724559
+   ],
+   "atk": [
+    59,
+    279,
+    868,
+    2156,
+    3244,
+    3717
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 180,
+   "staggerMult": 1.25,
+   "res": {
+    "physical": 0.8,
+    "heat": 0.8,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 0.8,
+    "aether": 1
+   }
+  },
+  "eny-0069-aghornb2": {
+   "name": "Heavy Ram α",
+   "name_es": "Carnero grande α",
+   "name_jp": "剛角アンゲロスα",
+   "name_zh": "刚角天使α",
+   "class": "Advanced",
+   "filename": "eny_0069_aghornb2",
+   "hp": [
+    1246,
+    8942,
+    56582,
+    222753,
+    535821,
+    825447
+   ],
+   "atk": [
+    72,
+    341,
+    1061,
+    2635,
+    3965,
+    4543
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 200,
+   "staggerMult": 1.25,
+   "res": {
+    "physical": 0.8,
+    "heat": 0.8,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 0.8,
+    "aether": 1
+   }
+  },
+  "eny-0033-lbhunt": {
+   "name": "Bonekrusher Ambusher",
+   "name_es": "Emboscador Rompehuesos",
+   "name_jp": "ボーンクラッシャーの潜伏狙撃手",
+   "name_zh": "碾骨伏击射手",
+   "class": "Common",
+   "filename": "eny_0033_lbhunt",
+   "hp": [
+    180,
+    1292,
+    8173,
+    32175,
+    77396,
+    119231
+   ],
+   "atk": [
+    28,
+    132,
+    410,
+    1018,
+    1532,
+    1755
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 80,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0066-lbhunt2": {
+   "name": "Elite Ambusher",
+   "name_es": "Emboscador de élite",
+   "name_jp": "潜伏狙撃手・精鋭",
+   "name_zh": "精锐伏击射手",
+   "class": "Common",
+   "filename": "eny_0066_lbhunt2",
+   "hp": [
+    263,
+    1888,
+    11945,
+    47026,
+    113118,
+    174261
+   ],
+   "atk": [
+    38,
+    178,
+    555,
+    1377,
+    2073,
+    2375
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 110,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0050-hound": {
+   "name": "Bonekrusher Ripptusk",
+   "name_es": "Colmillo desgarrador Rompehuesos",
+   "name_jp": "骨砕牙獣",
+   "name_zh": "碾骨撕裂牙兽",
+   "class": "Common",
+   "filename": "eny_0050_hound",
+   "hp": [
+    152,
+    1093,
+    6916,
+    27225,
+    65489,
+    100888
+   ],
+   "atk": [
+    30,
+    140,
+    434,
+    1078,
+    1622,
+    1858
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 60,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0049-rogue": {
+   "name": "Bonekrusher Infiltrator",
+   "name_es": "Rompehuesos Infiltrado",
+   "name_jp": "ボーンクラッシャーの潜入者",
+   "name_zh": "碾骨渗透者",
+   "class": "Common",
+   "filename": "eny_0049_rogue",
+   "hp": [
+    166,
+    1192,
+    7544,
+    29700,
+    71443,
+    110060
+   ],
+   "atk": [
+    33,
+    155,
+    482,
+    1198,
+    1802,
+    2065
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 80,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0065-lbmob2": {
+   "name": "Elite Raider",
+   "name_es": "Asaltante de élite",
+   "name_jp": "略奪者・精鋭",
+   "name_zh": "精锐劫掠者",
+   "class": "Common",
+   "filename": "eny_0065_lbmob2",
+   "hp": [
+    291,
+    2086,
+    13202,
+    51976,
+    125025,
+    192604
+   ],
+   "atk": [
+    49,
+    233,
+    723,
+    1796,
+    2703,
+    3097
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 110,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0058-agdisk": {
+   "name": "Effigy",
+   "name_es": "Efigie",
+   "name_jp": "擬態アンゲロス",
+   "name_zh": "肖像天使",
+   "class": "Elite",
+   "filename": "eny_0058_agdisk",
+   "hp": [
+    1246,
+    8942,
+    56582,
+    222753,
+    535821,
+    825447
+   ],
+   "atk": [
+    66,
+    310,
+    965,
+    2395,
+    3604,
+    4130
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 340,
+   "staggerMult": 1.5,
+   "res": {
+    "physical": 0.8,
+    "heat": 0.8,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 0.8,
+    "aether": 1
+   }
+  },
+  "eny-0045-agtrinit": {
+   "name": "Triaggelos",
+   "name_es": "Triaggelos",
+   "name_jp": "トリアンゲロス",
+   "name_zh": "三位一体",
+   "class": "Boss",
+   "filename": "eny_0045_agtrinit",
+   "hp": [
+    1385,
+    9936,
+    62869,
+    247504,
+    595357,
+    917164
+   ],
+   "atk": [
+    66,
+    310,
+    965,
+    2395,
+    3604,
+    4130
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 280,
+   "staggerMult": 1.75,
+   "res": {
+    "physical": 0.8,
+    "heat": 0.8,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 0.8,
+    "aether": 1
+   }
+  },
+  "eny-0053-hsmob": {
+   "name": "Road Plunderer",
+   "name_es": "Saqueador de caminos",
+   "name_jp": "不残財",
+   "name_zh": "莫留财",
+   "class": "Common",
+   "filename": "eny_0053_hsmob",
+   "hp": [
+    194,
+    1391,
+    8802,
+    34651,
+    83350,
+    128403
+   ],
+   "atk": [
+    33,
+    155,
+    482,
+    1198,
+    1802,
+    2065
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 80,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0046-lbshamman": {
+   "name": "Bonekrusher Pyromancer",
+   "name_es": "Piromante Rompehuesos",
+   "name_jp": "ボーンクラッシャーの炎術師",
+   "name_zh": "碾骨焰术师",
+   "class": "Advanced",
+   "filename": "eny_0046_lbshamman",
+   "hp": [
+    761,
+    5465,
+    34578,
+    136127,
+    327446,
+    504440
+   ],
+   "atk": [
+    49,
+    233,
+    723,
+    1796,
+    2703,
+    3097
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 160,
+   "staggerMult": 1.25,
+   "res": {
+    "physical": 1,
+    "heat": 0.5,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0047-firebat": {
+   "name": "Bonekrusher Arsonist",
+   "name_es": "Rompehuesos Pirómano",
+   "name_jp": "ボーンクラッシャーの始末屋",
+   "name_zh": "碾骨清道夫",
+   "class": "Advanced",
+   "filename": "eny_0047_firebat",
+   "hp": [
+    831,
+    5961,
+    37721,
+    148502,
+    357214,
+    550298
+   ],
+   "atk": [
+    49,
+    233,
+    723,
+    1796,
+    2703,
+    3097
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 170,
+   "staggerMult": 1.25,
+   "res": {
+    "physical": 1,
+    "heat": 0.5,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0048-hvybow": {
+   "name": "Bonekrusher Ballista",
+   "name_es": "Balista Rompehuesos",
+   "name_jp": "ボーンクラッシャーの狙撃手",
+   "name_zh": "碾骨射手",
+   "class": "Elite",
+   "filename": "eny_0048_hvybow",
+   "hp": [
+    1246,
+    8942,
+    56582,
+    222753,
+    535821,
+    825447
+   ],
+   "atk": [
+    72,
+    341,
+    1061,
+    2635,
+    3965,
+    4543
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 320,
+   "staggerMult": 1.5,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0018-lbtough": {
+   "name": "Bonekrusher Executioner",
+   "name_es": "Verdugo Rompehuesos",
+   "name_jp": "ボーンクラッシャーの処刑人",
+   "name_zh": "碾骨行刑人",
+   "class": "Elite",
+   "filename": "eny_0018_lbtough",
+   "hp": [
+    1108,
+    7948,
+    50295,
+    198003,
+    476285,
+    733731
+   ],
+   "atk": [
+    66,
+    310,
+    965,
+    2395,
+    3604,
+    4130
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 320,
+   "staggerMult": 1.5,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0068-lbtough2": {
+   "name": "Elite Executioner",
+   "name_es": "Ejecutor de élite",
+   "name_jp": "処刑人・精鋭",
+   "name_zh": "精锐行刑人",
+   "class": "Elite",
+   "filename": "eny_0068_lbtough2",
+   "hp": [
+    1661,
+    11923,
+    75442,
+    297005,
+    714428,
+    1100596
+   ],
+   "atk": [
+    105,
+    496,
+    1543,
+    3832,
+    5767,
+    6607
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 340,
+   "staggerMult": 1.5,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0052-palesent": {
+   "name": "Marble Aggelomoirai (palesent)",
+   "class": "Boss",
+   "filename": "eny_0052_palesent",
+   "hp": [
+    4430,
+    31794,
+    201179,
+    792012,
+    1905141,
+    2934923
+   ],
+   "atk": [
+    78,
+    369,
+    1148,
+    2850,
+    4289,
+    4914
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 320,
+   "staggerMult": 1.75,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0062-paletent": {
+   "name": "Marble Appendage",
+   "name_es": "Apéndice de mármol",
+   "name_jp": "白亜・従肢",
+   "name_zh": "白垩附肢",
+   "class": "Boss",
+   "filename": "eny_0062_paletent",
+   "hp": [
+    235,
+    1689,
+    10688,
+    42076,
+    101211,
+    155918
+   ],
+   "atk": [
+    59,
+    279,
+    868,
+    2156,
+    3244,
+    3717
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 0,
+   "staggerMult": 1.25,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0007-mimicw": {
+   "name": "Tunneling Nidwyrm",
+   "name_es": "Nidwyrm Subterráneo",
+   "name_jp": "潜地蛟獣",
+   "name_zh": "潜地虬兽",
+   "class": "Advanced",
+   "filename": "eny_0007_mimicw",
+   "hp": [
+    692,
+    4968,
+    31434,
+    123752,
+    297678,
+    458582
+   ],
+   "atk": [
+    56,
+    264,
+    820,
+    2036,
+    3064,
+    3510
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 160,
+   "staggerMult": 1.25,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 0.7,
+    "aether": 1
+   }
+  },
+  "eny-0100-slimerg2": {
+   "name": "Acid Originium Slug α",
+   "name_es": "Babosa de Originio ácida α",
+   "name_jp": "酸液オリジムシα",
+   "name_zh": "酸液源石虫·α",
+   "class": "Common",
+   "filename": "eny_0100_slimerg2",
+   "hp": [
+    249,
+    1788,
+    11316,
+    44551,
+    107164,
+    165089
+   ],
+   "atk": [
+    30,
+    140,
+    434,
+    1078,
+    1622,
+    1858
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 60,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0072-slimeml": {
+   "name": "Indigenous Pincerbeast",
+   "name_es": "Bestia pinza indígena",
+   "name_jp": "原生鉗獣",
+   "name_zh": "原生钳兽",
+   "class": "Common",
+   "filename": "eny_0072_slimeml",
+   "hp": [
+    166,
+    1192,
+    7544,
+    29700,
+    71443,
+    110060
+   ],
+   "atk": [
+    26,
+    124,
+    386,
+    958,
+    1442,
+    1652
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 60,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0109-hshog2": {
+   "name": "Imbued Quillbeast",
+   "name_es": "Bestia pluma imbuida",
+   "name_jp": "チャージ球刺獣",
+   "name_zh": "充能球刺兽",
+   "class": "Advanced",
+   "filename": "eny_0109_hshog2",
+   "hp": [
+    1246,
+    8942,
+    56582,
+    222753,
+    535821,
+    825447
+   ],
+   "atk": [
+    44,
+    209,
+    651,
+    1617,
+    2433,
+    2788
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 200,
+   "staggerMult": 1.25,
+   "res": {
+    "physical": 1,
+    "heat": 0.8,
+    "electric": 0.8,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0076-agfly": {
+   "name": "Falsewings",
+   "name_es": "Alas falsas",
+   "name_jp": "擬翼アンゲロス",
+   "name_zh": "仿生翅天使",
+   "class": "Common",
+   "filename": "eny_0076_agfly",
+   "hp": [
+    111,
+    795,
+    5029,
+    19800,
+    47629,
+    73373
+   ],
+   "atk": [
+    26,
+    124,
+    386,
+    958,
+    1442,
+    1652
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 60,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0091-wgshoal": {
+   "name": "Tidewalker",
+   "name_es": "Caminante de mareas",
+   "name_jp": "潮進アンゲロス",
+   "name_zh": "潮行天使",
+   "class": "Elite",
+   "filename": "eny_0091_wgshoal",
+   "hp": [
+    1246,
+    8942,
+    56582,
+    222753,
+    535821,
+    825447
+   ],
+   "atk": [
+    66,
+    310,
+    965,
+    2395,
+    3604,
+    4130
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 320,
+   "staggerMult": 1.5,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 0.8,
+    "cryo": 0.8,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0080-reaper": {
+   "name": "Ereignis",
+   "name_es": "Ereignis",
+   "name_jp": "エアアイグニス",
+   "name_zh": "埃尔埃格尼斯",
+   "class": "Boss",
+   "filename": "eny_0080_reaper",
+   "hp": [
+    886,
+    6359,
+    40236,
+    158402,
+    381028,
+    586985
+   ],
+   "atk": [
+    33,
+    155,
+    482,
+    1198,
+    1802,
+    2065
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 280,
+   "staggerMult": 1.75,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0083-hstiger": {
+   "name": "Spotted Rakerbeast",
+   "name_es": "Bestia rastrera manchada",
+   "name_jp": "百眼彪獣",
+   "name_zh": "百眼彪兽",
+   "class": "Elite",
+   "filename": "eny_0083_hstiger",
+   "hp": [
+    1108,
+    7948,
+    50295,
+    198003,
+    476285,
+    733731
+   ],
+   "atk": [
+    66,
+    310,
+    965,
+    2395,
+    3604,
+    4130
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 320,
+   "staggerMult": 1.5,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 0.8,
+    "nature": 0.8,
+    "aether": 1
+   }
+  },
+  "eny-0084-hshunt": {
+   "name": "Grove Archer",
+   "name_es": "Arquero de arboleda",
+   "name_jp": "穿林矢",
+   "name_zh": "穿林箭",
+   "class": "Common",
+   "filename": "eny_0084_hshunt",
+   "hp": [
+    180,
+    1292,
+    8173,
+    32175,
+    77396,
+    119231
+   ],
+   "atk": [
+    28,
+    132,
+    410,
+    1018,
+    1532,
+    1755
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 80,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0087-wgslime": {
+   "name": "Mudflow",
+   "name_es": "Flujo de lodo",
+   "name_jp": "濁流アンゲロス",
+   "name_zh": "浊流天使",
+   "class": "Common",
+   "filename": "eny_0087_wgslime",
+   "hp": [
+    180,
+    1292,
+    8173,
+    32175,
+    77396,
+    119231
+   ],
+   "atk": [
+    26,
+    124,
+    386,
+    958,
+    1442,
+    1652
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 60,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 0.8,
+    "cryo": 0.8,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0090-wgabyss": {
+   "name": "Tidalklast",
+   "name_es": "Tidalklast",
+   "name_jp": "破潮の像",
+   "name_zh": "破潮之像",
+   "class": "Alpha",
+   "filename": "eny_0090_wgabyss",
+   "hp": [
+    1385,
+    9936,
+    62869,
+    247504,
+    595357,
+    917164
+   ],
+   "atk": [
+    66,
+    310,
+    965,
+    2395,
+    3604,
+    4130
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 640,
+   "staggerMult": 1.5,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 0.8,
+    "cryo": 0.8,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0088-wgthorns": {
+   "name": "Hedron",
+   "name_es": "Hedron",
+   "name_jp": "錐晶アンゲロス",
+   "name_zh": "晶锥天使",
+   "class": "Common",
+   "filename": "eny_0088_wgthorns",
+   "hp": [
+    152,
+    1093,
+    6916,
+    27225,
+    65489,
+    100888
+   ],
+   "atk": [
+    26,
+    124,
+    386,
+    958,
+    1442,
+    1652
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 60,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 0.8,
+    "cryo": 0.8,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0093-hshog": {
+   "name": "Quillbeast",
+   "name_es": "Bestia pluma",
+   "name_jp": "球刺獣",
+   "name_zh": "球刺兽",
+   "class": "Advanced",
+   "filename": "eny_0093_hshog",
+   "hp": [
+    831,
+    5961,
+    37721,
+    148502,
+    357214,
+    550298
+   ],
+   "atk": [
+    39,
+    186,
+    579,
+    1437,
+    2163,
+    2478
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 200,
+   "staggerMult": 1.25,
+   "res": {
+    "physical": 1,
+    "heat": 0.8,
+    "electric": 0.8,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0094-hsfly": {
+   "name": "Waterlamp",
+   "name_es": "Lámpara de agua",
+   "name_jp": "水灯虫",
+   "name_zh": "水灯虫",
+   "class": "Common",
+   "filename": "eny_0094_hsfly",
+   "hp": [
+    111,
+    795,
+    5029,
+    19800,
+    47629,
+    73373
+   ],
+   "atk": [
+    26,
+    124,
+    386,
+    958,
+    1442,
+    1652
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 80,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 0.8,
+    "cryo": 1,
+    "nature": 0.8,
+    "aether": 1
+   }
+  },
+  "eny-0098-sandb2": {
+   "name": "Hazefyre Axe Armorbeast",
+   "name_es": "Bestia armadura con hacha de bruma ardiente",
+   "name_jp": "霧火斧甲獣",
+   "name_zh": "雾火斧甲兽",
+   "class": "Elite",
+   "filename": "eny_0098_sandb2",
+   "hp": [
+    1800,
+    12916,
+    81729,
+    321755,
+    773964,
+    1192313
+   ],
+   "atk": [
+    72,
+    341,
+    1061,
+    2635,
+    3965,
+    4543
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 320,
+   "staggerMult": 1.5,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0102-hstiger2": {
+   "name": "Glaring Rakerbeast",
+   "name_es": "Bestia rastrera deslumbrante",
+   "name_jp": "鋭目彪獣",
+   "name_zh": "怒目彪兽",
+   "class": "Elite",
+   "filename": "eny_0102_hstiger2",
+   "hp": [
+    1869,
+    13413,
+    84872,
+    334130,
+    803731,
+    1238171
+   ],
+   "atk": [
+    72,
+    341,
+    1061,
+    2635,
+    3965,
+    4543
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 320,
+   "staggerMult": 1.5,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 0.8,
+    "nature": 0.8,
+    "aether": 1
+   }
+  },
+  "eny-0101-agfly2": {
+   "name": "Falsewings α",
+   "name_es": "Alas falsas α",
+   "name_jp": "擬翼アンゲロスα",
+   "name_zh": "仿生翅天使α",
+   "class": "Common",
+   "filename": "eny_0101_agfly2",
+   "hp": [
+    166,
+    1192,
+    7544,
+    29700,
+    71443,
+    110060
+   ],
+   "atk": [
+    30,
+    140,
+    434,
+    1078,
+    1622,
+    1858
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 60,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0051-rodin": {
+   "name": "Rhodagn the Bonekrushing Fist",
+   "name_es": "Rhodagn el puño Rompehuesos",
+   "name_jp": "「ボーンクラッシャーの拳」ロダン",
+   "name_zh": "“碾骨之拳”罗丹",
+   "class": "Boss",
+   "filename": "eny_0051_rodin",
+   "hp": [
+    3461,
+    24839,
+    157171,
+    618759,
+    1488392,
+    2292909
+   ],
+   "atk": [
+    66,
+    310,
+    965,
+    2395,
+    3604,
+    4130
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 280,
+   "staggerMult": 1.75,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0071-sandb": {
+   "name": "Axe Armorbeast",
+   "name_es": "Bestia armadura con hacha",
+   "name_jp": "斧甲獣",
+   "name_zh": "斧甲兽",
+   "class": "Elite",
+   "filename": "eny_0071_sandb",
+   "hp": [
+    1385,
+    9936,
+    62869,
+    247504,
+    595357,
+    917164
+   ],
+   "atk": [
+    66,
+    310,
+    965,
+    2395,
+    3604,
+    4130
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 280,
+   "staggerMult": 1.5,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0039-agcanno": {
+   "name": "Sentinel",
+   "name_es": "Centinela",
+   "name_jp": "哨戒アンゲロス",
+   "name_zh": "岗哨天使",
+   "class": "Elite",
+   "filename": "eny_0039_agcanno",
+   "hp": [
+    415,
+    2981,
+    18861,
+    74251,
+    178607,
+    275149
+   ],
+   "atk": [
+    49,
+    233,
+    723,
+    1796,
+    2703,
+    3097
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 200,
+   "staggerMult": 1.5,
+   "res": {
+    "physical": 0.8,
+    "heat": 0.8,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 0.8,
+    "aether": 1
+   }
+  },
+  "eny-0106-wgthorns2": {
+   "name": "Hedron δ",
+   "name_es": "Hedron δ",
+   "name_jp": "錐晶アンゲロスδ",
+   "name_zh": "晶锥天使δ",
+   "class": "Common",
+   "filename": "eny_0106_wgthorns2",
+   "hp": [
+    208,
+    1490,
+    9430,
+    37126,
+    89303,
+    137575
+   ],
+   "atk": [
+    30,
+    140,
+    434,
+    1078,
+    1622,
+    1858
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 90,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 0.8,
+    "cryo": 0.8,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0060-lbmad": {
+   "name": "Hazefyre Claw",
+   "name_es": "Garra de bruma ardiente",
+   "name_jp": "霧火ランドブレーカー",
+   "name_zh": "雾火爪牙",
+   "class": "Common",
+   "filename": "eny_0060_lbmad",
+   "hp": [
+    249,
+    1788,
+    11316,
+    44551,
+    107164,
+    165089
+   ],
+   "atk": [
+    36,
+    171,
+    531,
+    1317,
+    1982,
+    2271
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 100,
+   "staggerMult": 1,
+   "res": {
+    "physical": 0.8,
+    "heat": 0.8,
+    "electric": 0.8,
+    "cryo": 0.8,
+    "nature": 0.8,
+    "aether": 1
+   }
+  },
+  "eny-0074-lbshield": {
+   "name": "Bonekrusher Vanguard",
+   "name_es": "Vanguardia Rompehuesos",
+   "name_jp": "ボーンクラッシャーの先鋒",
+   "name_zh": "碾骨先锋",
+   "class": "Common",
+   "filename": "eny_0074_lbshield",
+   "hp": [
+    166,
+    1192,
+    7544,
+    29700,
+    71443,
+    110060
+   ],
+   "atk": [
+    26,
+    124,
+    386,
+    958,
+    1442,
+    1652
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 80,
+   "staggerMult": 1,
+   "res": {
+    "physical": 0.8,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0089-wgreflec": {
+   "name": "Prism",
+   "name_es": "Prisma",
+   "name_jp": "稜鏡アンゲロス",
+   "name_zh": "棱镜天使",
+   "class": "Common",
+   "filename": "eny_0089_wgreflec",
+   "hp": [
+    111,
+    795,
+    5029,
+    19800,
+    47629,
+    73373
+   ],
+   "atk": [
+    26,
+    124,
+    386,
+    958,
+    1442,
+    1652
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 60,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 0.8,
+    "cryo": 0.8,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0073-slimerg": {
+   "name": "Acid Originium Slug",
+   "name_es": "Babosa de Originio ácida",
+   "name_jp": "酸液オリジムシ",
+   "name_zh": "酸液源石虫",
+   "class": "Common",
+   "filename": "eny_0073_slimerg",
+   "hp": [
+    152,
+    1093,
+    6916,
+    27225,
+    65489,
+    100888
+   ],
+   "atk": [
+    26,
+    124,
+    386,
+    958,
+    1442,
+    1652
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 60,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0099-slimeml2": {
+   "name": "Brutal Pincerbeast",
+   "name_es": "Bestia pinza brutal",
+   "name_jp": "凶暴原生鉗獣",
+   "name_zh": "残暴原生钳兽",
+   "class": "Common",
+   "filename": "eny_0099_slimeml2",
+   "hp": [
+    277,
+    1987,
+    12574,
+    49501,
+    119071,
+    183433
+   ],
+   "atk": [
+    30,
+    140,
+    434,
+    1078,
+    1622,
+    1858
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 60,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0057-dog": {
+   "name": "Wild Tuskbeast",
+   "name_es": "Bestia colmilluda salvaje",
+   "name_jp": "野生牙獣",
+   "name_zh": "野生牙兽",
+   "class": "Common",
+   "filename": "eny_0057_dog",
+   "hp": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "atk": [
+    16,
+    78,
+    241,
+    599,
+    901,
+    1032
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 60,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0077-agshield": {
+   "name": "Walking Chrysopolis",
+   "name_es": "Crisópolis andante",
+   "name_jp": "歩行晶城",
+   "name_zh": "跂步晶城",
+   "class": "Alpha",
+   "filename": "eny_0077_agshield",
+   "hp": [
+    1385,
+    9936,
+    62869,
+    247504,
+    595357,
+    917164
+   ],
+   "atk": [
+    59,
+    279,
+    868,
+    2156,
+    3244,
+    3717
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 320,
+   "staggerMult": 1.5,
+   "res": {
+    "physical": 0.8,
+    "heat": 0.8,
+    "electric": 1,
+    "cryo": 0.8,
+    "nature": 0.8,
+    "aether": 1
+   }
+  },
+  "eny-0105-wgslime2": {
+   "name": "Mudflow δ",
+   "name_es": "Flujo de lodo δ",
+   "name_jp": "濁流アンゲロスδ",
+   "name_zh": "浊流天使δ",
+   "class": "Common",
+   "filename": "eny_0105_wgslime2",
+   "hp": [
+    291,
+    2086,
+    13202,
+    51976,
+    125025,
+    192604
+   ],
+   "atk": [
+    30,
+    140,
+    434,
+    1078,
+    1622,
+    1858
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 90,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 0.8,
+    "cryo": 0.8,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0059-erhound": {
+   "name": "Hazefyre Tuskbeast",
+   "name_es": "Bestia colmilluda de bruma ardiente",
+   "name_jp": "霧火牙獣",
+   "name_zh": "雾火牙兽",
+   "class": "Common",
+   "filename": "eny_0059_erhound",
+   "hp": [
+    194,
+    1391,
+    8802,
+    34651,
+    83350,
+    128403
+   ],
+   "atk": [
+    33,
+    155,
+    482,
+    1198,
+    1802,
+    2065
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 80,
+   "staggerMult": 1,
+   "res": {
+    "physical": 0.8,
+    "heat": 0.8,
+    "electric": 0.8,
+    "cryo": 0.8,
+    "nature": 0.8,
+    "aether": 1
+   }
+  },
+  "eny-0075-lbroshan": {
+   "name": "Bonekrusher Siegeknuckles",
+   "name_es": "Nudillos de asedio de Rompehuesos",
+   "name_jp": "ボーンクラッシャーの攻城者",
+   "name_zh": "碾骨破城者",
+   "class": "Elite",
+   "filename": "eny_0075_lbroshan",
+   "hp": [
+    1246,
+    8942,
+    56582,
+    222753,
+    535821,
+    825447
+   ],
+   "atk": [
+    26,
+    124,
+    386,
+    958,
+    1442,
+    1652
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 320,
+   "staggerMult": 1,
+   "res": {
+    "physical": 0.8,
+    "heat": 1,
+    "electric": 0.8,
+    "cryo": 0.8,
+    "nature": 0.8,
+    "aether": 1
+   }
+  },
+  "eny-0107-wgshoal2": {
+   "name": "Tidewalker δ",
+   "name_es": "Caminante de mareas δ",
+   "name_jp": "潮進アンゲロスδ",
+   "name_zh": "潮行天使δ",
+   "class": "Elite",
+   "filename": "eny_0107_wgshoal2",
+   "hp": [
+    1869,
+    13413,
+    84872,
+    334130,
+    803731,
+    1238171
+   ],
+   "atk": [
+    72,
+    341,
+    1061,
+    2635,
+    3965,
+    4543
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 320,
+   "staggerMult": 1.5,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 0.8,
+    "cryo": 0.8,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0061-palecore": {
+   "name": "Marble Aggelomoirai (palecore)",
+   "class": "Boss",
+   "filename": "eny_0061_palecore",
+   "hp": [
+    2077,
+    14903,
+    94303,
+    371256,
+    893035,
+    1375745
+   ],
+   "atk": [
+    33,
+    155,
+    482,
+    1198,
+    1802,
+    2065
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 200,
+   "staggerMult": 1.75,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0092-slbomb": {
+   "name": "Firemist Originium Slug",
+   "name_es": "Babosa de Originio de brumafuego",
+   "name_jp": "熱霧オリジムシ",
+   "name_zh": "火雾源石虫",
+   "class": "Common",
+   "filename": "eny_0092_slbomb",
+   "hp": [
+    180,
+    1292,
+    8173,
+    32175,
+    77396,
+    119231
+   ],
+   "atk": [
+    26,
+    124,
+    386,
+    958,
+    1442,
+    1652
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 80,
+   "staggerMult": 1,
+   "res": {
+    "physical": 0.8,
+    "heat": 0.8,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 0.8,
+    "aether": 1
+   }
+  },
+  "eny-0108-slbomb2": {
+   "name": "Blazemist Originium Slug",
+   "name_es": "Babosa de Originio de niebla ardiente",
+   "name_jp": "焔霧オリジムシ",
+   "name_zh": "焚雾源石虫",
+   "class": "Common",
+   "filename": "eny_0108_slbomb2",
+   "hp": [
+    270,
+    1937,
+    12259,
+    48263,
+    116095,
+    178847
+   ],
+   "atk": [
+    30,
+    140,
+    434,
+    1078,
+    1622,
+    1858
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 60,
+   "staggerMult": 1,
+   "res": {
+    "physical": 0.8,
+    "heat": 0.8,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 0.8,
+    "aether": 1
+   }
+  },
+  "eny-0096-hsmob2": {
+   "name": "Highway Reaver",
+   "name_es": "Bandido de autopistas",
+   "name_jp": "不惜命",
+   "name_zh": "莫惜命",
+   "class": "Common",
+   "filename": "eny_0096_hsmob2",
+   "hp": [
+    291,
+    2086,
+    13202,
+    51976,
+    125025,
+    192604
+   ],
+   "atk": [
+    43,
+    202,
+    627,
+    1557,
+    2343,
+    2684
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 80,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0085-hsrogue": {
+   "name": "Nimbus Razor",
+   "name_es": "Navaja de Nimbus",
+   "name_jp": "切雲老",
+   "name_zh": "割云翁",
+   "class": "Advanced",
+   "filename": "eny_0085_hsrogue",
+   "hp": [
+    761,
+    5465,
+    34578,
+    136127,
+    327446,
+    504440
+   ],
+   "atk": [
+    49,
+    233,
+    723,
+    1796,
+    2703,
+    3097
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 110,
+   "staggerMult": 1.25,
+   "res": {
+    "physical": 0.6,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 0.8,
+    "nature": 0.8,
+    "aether": 1
+   }
+  },
+  "eny-0104-hsrogue2": {
+   "name": "Breaking Gust",
+   "name_es": "Ráfaga devastadora",
+   "name_jp": "断雲翁",
+   "name_zh": "断云叟",
+   "class": "Elite",
+   "filename": "eny_0104_hsrogue2",
+   "hp": [
+    1108,
+    7948,
+    50295,
+    198003,
+    476285,
+    733731
+   ],
+   "atk": [
+    56,
+    264,
+    820,
+    2036,
+    3064,
+    3510
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 110,
+   "staggerMult": 1.25,
+   "res": {
+    "physical": 0.4,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 0.8,
+    "nature": 0.8,
+    "aether": 1
+   }
+  },
+  "eny-0054-hsmino": {
+   "name": "Hill Smasher",
+   "name_es": "Demoledor de colinas",
+   "name_jp": "砕山将",
+   "name_zh": "摧山将",
+   "class": "Elite",
+   "filename": "eny_0054_hsmino",
+   "hp": [
+    1108,
+    7948,
+    50295,
+    198003,
+    476285,
+    733731
+   ],
+   "atk": [
+    59,
+    279,
+    868,
+    2156,
+    3244,
+    3717
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 320,
+   "staggerMult": 1.5,
+   "res": {
+    "physical": 1,
+    "heat": 0.8,
+    "electric": 0.8,
+    "cryo": 0.8,
+    "nature": 0.8,
+    "aether": 1
+   }
+  },
+  "eny-0055-hscrane": {
+   "name": "Cloud Stalker",
+   "name_es": "Acechador de nubes",
+   "name_jp": "盗雲客",
+   "class": "Advanced",
+   "filename": "eny_0055_hscrane",
+   "hp": [
+    761,
+    5465,
+    34578,
+    136127,
+    327446,
+    504440
+   ],
+   "atk": [
+    49,
+    233,
+    723,
+    1796,
+    2703,
+    3097
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 110,
+   "staggerMult": 1.25,
+   "res": {
+    "physical": 1,
+    "heat": 0.8,
+    "electric": 0.8,
+    "cryo": 0.8,
+    "nature": 0.8,
+    "aether": 1
+   }
+  },
+  "eny-0097-hsmino2": {
+   "name": "Cloud Obliterator",
+   "name_es": "Destructor de nubes",
+   "name_jp": "開天将",
+   "name_zh": "开天将",
+   "class": "Elite",
+   "filename": "eny_0097_hsmino2",
+   "hp": [
+    1661,
+    11923,
+    75442,
+    297005,
+    714428,
+    1100596
+   ],
+   "atk": [
+    66,
+    310,
+    965,
+    2395,
+    3604,
+    4130
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 320,
+   "staggerMult": 1.5,
+   "res": {
+    "physical": 1,
+    "heat": 0.8,
+    "electric": 0.8,
+    "cryo": 0.8,
+    "nature": 0.8,
+    "aether": 1
+   }
+  },
+  "eny-0103-hshunt2": {
+   "name": "Sweeping Wind",
+   "name_es": "Viento arrasador",
+   "name_jp": "過堂風",
+   "name_zh": "过堂风",
+   "class": "Common",
+   "filename": "eny_0103_hshunt2",
+   "hp": [
+    166,
+    1192,
+    7544,
+    29700,
+    71443,
+    110060
+   ],
+   "atk": [
+    33,
+    155,
+    482,
+    1198,
+    1802,
+    2065
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 110,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0081-ruanyi": {
+   "name": "Ruan Yi",
+   "name_es": "Ruan Yi",
+   "name_jp": "ルアン・イー",
+   "name_zh": "阮一",
+   "class": "Boss",
+   "filename": "eny_0081_ruanyi",
+   "hp": [
+    3323,
+    23845,
+    150884,
+    594009,
+    1428856,
+    2201192
+   ],
+   "atk": [
+    66,
+    310,
+    965,
+    2395,
+    3604,
+    4130
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 300,
+   "staggerMult": 1.75,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 0.8,
+    "cryo": 1,
+    "nature": 0.8,
+    "aether": 1
+   }
+  },
+  "eny-0095-ethillu": {
+   "name": "Æthillu",
+   "name_es": "Éthillu",
+   "name_jp": "イーサルー",
+   "name_zh": "表象",
+   "class": "Common",
+   "filename": "eny_0095_ethillu",
+   "hp": [
+    111,
+    795,
+    5029,
+    19800,
+    47629,
+    73373
+   ],
+   "atk": [
+    49,
+    233,
+    723,
+    1796,
+    2703,
+    3097
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 80,
+   "staggerMult": 1,
+   "res": {
+    "physical": 0.8,
+    "heat": 0.8,
+    "electric": 0.8,
+    "cryo": 0.8,
+    "nature": 0.8,
+    "aether": 1
+   }
+  },
+  "eny-0082-hsbear": {
+   "name": "Skydrummer",
+   "name_es": "Tamborilero celestial",
+   "name_jp": "天鼓",
+   "name_zh": "天鼓",
+   "class": "Alpha",
+   "filename": "eny_0082_hsbear",
+   "hp": [
+    1661,
+    11923,
+    75442,
+    297005,
+    714428,
+    1100596
+   ],
+   "atk": [
+    66,
+    310,
+    965,
+    2395,
+    3604,
+    4130
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 320,
+   "staggerMult": 1.5,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0078-nefarp1": {
+   "name": "Nefarith, \"Bonekrusher\"",
+   "name_es": "Nefarith, “Rompehuesos”",
+   "name_jp": "「ボーンクラッシャー」ネファリス",
+   "name_zh": "聂菲斯，“碾骨”",
+   "class": "Boss",
+   "filename": "eny_0078_nefarp1",
+   "hp": [
+    2354,
+    16890,
+    106876,
+    420756,
+    1012106,
+    1559178
+   ],
+   "atk": [
+    46,
+    217,
+    675,
+    1677,
+    2523,
+    2891
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 480,
+   "staggerMult": 1.75,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0079-nefarp2": {
+   "name": "Nefarith, \"Conqueror\"",
+   "name_es": "Nefarith, “Conquistadora”",
+   "name_jp": "「征服者」ネファリス",
+   "name_zh": "聂菲斯，“征服者”",
+   "class": "Boss",
+   "filename": "eny_0079_nefarp2",
+   "hp": [
+    2631,
+    18878,
+    119450,
+    470257,
+    1131178,
+    1742611
+   ],
+   "atk": [
+    39,
+    186,
+    579,
+    1437,
+    2163,
+    2478
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 480,
+   "staggerMult": 1.75,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0112-jzmonk": {
+   "name": "Rockhowler",
+   "name_es": "Aullador de roca",
+   "name_jp": "山吼獣",
+   "name_zh": "山犼兽",
+   "class": "Common",
+   "filename": "eny_0112_jzmonk",
+   "hp": [
+    138,
+    994,
+    6287,
+    24750,
+    59536,
+    91716
+   ],
+   "atk": [
+    13,
+    62,
+    193,
+    479,
+    721,
+    826
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 60,
+   "staggerMult": 1,
+   "res": {
+    "physical": 0.8,
+    "heat": 0.8,
+    "electric": 0.8,
+    "cryo": 0.8,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0113-jzogre": {
+   "name": "Armored Manglerbeast",
+   "name_es": "Bestia mutiladora acorazada",
+   "name_jp": "鎧裂獣",
+   "name_zh": "披甲裂兽",
+   "class": "Elite",
+   "filename": "eny_0113_jzogre",
+   "hp": [
+    1177,
+    8445,
+    53438,
+    210378,
+    506053,
+    779589
+   ],
+   "atk": [
+    33,
+    155,
+    482,
+    1198,
+    1802,
+    2065
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 280,
+   "staggerMult": 1.5,
+   "res": {
+    "physical": 0.8,
+    "heat": 0.8,
+    "electric": 0.8,
+    "cryo": 0.8,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0114-jzmking": {
+   "name": "Craghowler",
+   "name_es": "Aullador del peñasco",
+   "name_jp": "大山吼獣",
+   "name_zh": "巨山犼兽",
+   "class": "Alpha",
+   "filename": "eny_0114_jzmking",
+   "hp": [
+    2008,
+    14407,
+    91159,
+    358880,
+    863267,
+    1329887
+   ],
+   "atk": [
+    53,
+    248,
+    772,
+    1916,
+    2884,
+    3304
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 320,
+   "staggerMult": 1.5,
+   "res": {
+    "physical": 0.8,
+    "heat": 0.8,
+    "electric": 0.8,
+    "cryo": 0.8,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0117-klhound": {
+   "name": "Tuskbeast Blightshade",
+   "name_es": "Sombra contaminada de Bestia colmilluda",
+   "name_jp": "牙獣の蝕影",
+   "name_zh": "蚀影牙兽",
+   "class": "Common",
+   "filename": "eny_0117_klhound",
+   "hp": [
+    125,
+    894,
+    5658,
+    22275,
+    53582,
+    82545
+   ],
+   "atk": [
+    30,
+    140,
+    434,
+    1078,
+    1622,
+    1858
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 60,
+   "staggerMult": 1,
+   "res": {
+    "physical": 0.8,
+    "heat": 1,
+    "electric": 0.65,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0121-klbud": {
+   "name": "YSTF Vanguard Blightshade",
+   "name_es": "Sombra contaminada de vanguardia del EFEY",
+   "name_jp": "応龍先鋒の蝕影",
+   "name_zh": "蚀影应龙前锋",
+   "class": "Common",
+   "filename": "eny_0121_klbud",
+   "hp": [
+    152,
+    1093,
+    6916,
+    27225,
+    65489,
+    100888
+   ],
+   "atk": [
+    30,
+    140,
+    434,
+    1078,
+    1622,
+    1858
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 80,
+   "staggerMult": 1,
+   "res": {
+    "physical": 0.8,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0122-kltdbud": {
+   "name": "YSTF Elite Blightshade",
+   "name_es": "Sombra contaminada de élite del EFEY",
+   "name_jp": "応龍精鋭先鋒の蝕影",
+   "name_zh": "蚀影应龙尖兵",
+   "class": "Common",
+   "filename": "eny_0122_kltdbud",
+   "hp": [
+    138,
+    994,
+    6287,
+    24750,
+    59536,
+    91716
+   ],
+   "atk": [
+    36,
+    171,
+    531,
+    1317,
+    1982,
+    2271
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 80,
+   "staggerMult": 1,
+   "res": {
+    "physical": 0.8,
+    "heat": 1,
+    "electric": 0.65,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0125-fdcentur": {
+   "name": "Alleikhreos, Chiliarch",
+   "name_es": "Alleikhreos, Quiliarca",
+   "name_jp": "千人隊長アレイクレウス",
+   "name_zh": "阿莱克琉斯，千夫长",
+   "class": "Boss",
+   "filename": "eny_0125_fdcentur",
+   "hp": [
+    3738,
+    26826,
+    169745,
+    668260,
+    1607463,
+    2476341
+   ],
+   "atk": [
+    66,
+    310,
+    965,
+    2395,
+    3604,
+    4130
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 320,
+   "staggerMult": 1.75,
+   "res": {
+    "physical": 0.8,
+    "heat": 0.8,
+    "electric": 0.8,
+    "cryo": 0.8,
+    "nature": 0.8,
+    "aether": 1
+   }
+  },
+  "eny-0118-klhog": {
+   "name": "Quillbeast Blightshade",
+   "name_es": "Sombra contaminada de Bestia pluma",
+   "name_jp": "球刺獣の蝕影",
+   "name_zh": "蚀影球刺兽",
+   "class": "Advanced",
+   "filename": "eny_0118_klhog",
+   "hp": [
+    969,
+    6955,
+    44008,
+    173253,
+    416750,
+    642014
+   ],
+   "atk": [
+    43,
+    202,
+    627,
+    1557,
+    2343,
+    2684
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 200,
+   "staggerMult": 1.25,
+   "res": {
+    "physical": 0.8,
+    "heat": 1,
+    "electric": 0.65,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0119-kltiger": {
+   "name": "Rakerbeast Blightshade",
+   "name_es": "Sombra contaminada de Bestia rastrera",
+   "name_jp": "彪獣の蝕影",
+   "name_zh": "蚀影彪兽",
+   "class": "Elite",
+   "filename": "eny_0119_kltiger",
+   "hp": [
+    1246,
+    8942,
+    56582,
+    222753,
+    535821,
+    825447
+   ],
+   "atk": [
+    66,
+    310,
+    965,
+    2395,
+    3604,
+    4130
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 320,
+   "staggerMult": 1.5,
+   "res": {
+    "physical": 0.8,
+    "heat": 1,
+    "electric": 0.65,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0123-klcap": {
+   "name": "YSTF Glaiver Blightshade",
+   "name_es": "Sombra contaminada con guja del EFEY",
+   "name_jp": "応龍突撃兵の蝕影",
+   "name_zh": "蚀影应龙破阵手",
+   "class": "Elite",
+   "filename": "eny_0123_klcap",
+   "hp": [
+    1246,
+    8942,
+    56582,
+    222753,
+    535821,
+    825447
+   ],
+   "atk": [
+    66,
+    310,
+    965,
+    2395,
+    3604,
+    4130
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 320,
+   "staggerMult": 1.5,
+   "res": {
+    "physical": 0.8,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0124-kltdcap": {
+   "name": "YSTF Captain Blightshade",
+   "name_es": "Sombra contaminada de capitán del EFEY",
+   "name_jp": "応龍隊長の蝕影",
+   "name_zh": "蚀影应龙队长",
+   "class": "Elite",
+   "filename": "eny_0124_kltdcap",
+   "hp": [
+    1246,
+    8942,
+    56582,
+    222753,
+    535821,
+    825447
+   ],
+   "atk": [
+    66,
+    310,
+    965,
+    2395,
+    3604,
+    4130
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 320,
+   "staggerMult": 1.5,
+   "res": {
+    "physical": 0.8,
+    "heat": 1,
+    "electric": 0.65,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "eny-0120-klbear": {
+   "name": "Blitzcrash Blightshade",
+   "name_es": "Sombra contaminada de Blitzcrash",
+   "name_jp": "噪雷の蝕影",
+   "name_zh": "蚀影噪雷",
+   "class": "Alpha",
+   "filename": "eny_0120_klbear",
+   "hp": [
+    1523,
+    10929,
+    69155,
+    272254,
+    654892,
+    1008880
+   ],
+   "atk": [
+    66,
+    310,
+    965,
+    2395,
+    3604,
+    4130
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 320,
+   "staggerMult": 1.5,
+   "res": {
+    "physical": 0.8,
+    "heat": 1,
+    "electric": 0.65,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  }
+ }
+}

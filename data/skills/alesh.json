@@ -1,0 +1,515 @@
+{
+  "id": "alesh",
+  "name": "Alesh",
+  "ranks": 12,
+  "skills": {
+    "basic_attack": {
+      "name": "Basic Rod Casting",
+      "stats": [
+        {
+          "name": "BATK SEQ 1 Multiplier",
+          "unit": "%",
+          "values": [
+            18,
+            19,
+            21,
+            23,
+            25,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            39
+          ]
+        },
+        {
+          "name": "BATK SEQ 2 Multiplier",
+          "unit": "%",
+          "values": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            21,
+            23
+          ]
+        },
+        {
+          "name": "BATK SEQ 3 Multiplier",
+          "unit": "%",
+          "values": [
+            28,
+            30,
+            33,
+            36,
+            39,
+            41,
+            44,
+            47,
+            50,
+            53,
+            57,
+            62
+          ]
+        },
+        {
+          "name": "BATK SEQ 4 Multiplier",
+          "unit": "%",
+          "values": [
+            28,
+            30,
+            33,
+            36,
+            39,
+            41,
+            44,
+            47,
+            50,
+            53,
+            57,
+            62
+          ]
+        },
+        {
+          "name": "BATK SEQ 5 Multiplier",
+          "unit": "%",
+          "values": [
+            55,
+            61,
+            66,
+            72,
+            77,
+            83,
+            88,
+            94,
+            99,
+            106,
+            114,
+            124
+          ]
+        },
+        {
+          "name": "Finisher ATK Multiplier",
+          "unit": "%",
+          "values": [
+            400,
+            440,
+            480,
+            520,
+            560,
+            600,
+            640,
+            680,
+            720,
+            770,
+            830,
+            900
+          ]
+        },
+        {
+          "name": "Dive ATK Multiplier",
+          "unit": "%",
+          "values": [
+            80,
+            88,
+            96,
+            104,
+            112,
+            120,
+            128,
+            136,
+            144,
+            154,
+            166,
+            180
+          ]
+        }
+      ]
+    },
+    "battle_skill": {
+      "name": "Unconventional Lure",
+      "stats": [
+        {
+          "name": "SP Cost",
+          "values": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "DMG Multiplier",
+          "unit": "%",
+          "values": [
+            200,
+            220,
+            240,
+            260,
+            280,
+            300,
+            320,
+            340,
+            360,
+            385,
+            415,
+            450
+          ]
+        },
+        {
+          "name": "SP Recovery by Consuming 1 Infliction Stack",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            15,
+            15,
+            15
+          ]
+        },
+        {
+          "name": "SP Recovery by Consuming 2 Infliction Stacks",
+          "values": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            25,
+            25,
+            25
+          ]
+        },
+        {
+          "name": "SP Recovery by Consuming 3 Infliction Stacks",
+          "values": [
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            35,
+            35,
+            35
+          ]
+        },
+        {
+          "name": "SP Recovery by Consuming 4 Infliction Stacks",
+          "values": [
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            45,
+            45,
+            45
+          ]
+        },
+        {
+          "name": "Stagger",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ]
+    },
+    "combo_skill": {
+      "name": "Auger Angling",
+      "stats": [
+        {
+          "name": "Cooldown",
+          "values": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            8
+          ]
+        },
+        {
+          "name": "DMG Multiplier",
+          "unit": "%",
+          "values": [
+            133,
+            147,
+            160,
+            173,
+            187,
+            200,
+            213,
+            227,
+            240,
+            257,
+            277,
+            300
+          ]
+        },
+        {
+          "name": "Chance to Catch the Rare Fin",
+          "unit": "%",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "Enhanced DMG Multiplier",
+          "unit": "%",
+          "values": [
+            213,
+            235,
+            256,
+            277,
+            299,
+            320,
+            341,
+            363,
+            384,
+            411,
+            423,
+            480
+          ]
+        },
+        {
+          "name": "SP Recovery",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            12,
+            12,
+            12,
+            12,
+            13,
+            13,
+            15
+          ]
+        },
+        {
+          "name": "Bonus SP Recovery",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "Stagger",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "Ultimate Energy Gain",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ]
+    },
+    "ultimate": {
+      "name": "One Monster Catch!",
+      "stats": [
+        {
+          "name": "Ultimate Energy Cost",
+          "values": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "Ultimate DMG Multiplier",
+          "unit": "%",
+          "values": [
+            436,
+            479,
+            523,
+            566,
+            610,
+            653,
+            697,
+            741,
+            784,
+            839,
+            904,
+            980
+          ]
+        },
+        {
+          "name": "Base SP Recovery",
+          "values": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            25,
+            25,
+            25
+          ]
+        },
+        {
+          "name": "Bonus SP Recovery",
+          "values": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            15,
+            15,
+            15
+          ]
+        },
+        {
+          "name": "Bonus SP Recovery per Target Defeated",
+          "values": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "Stagger",
+          "values": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ]
+        }
+      ]
+    }
+  }
+}

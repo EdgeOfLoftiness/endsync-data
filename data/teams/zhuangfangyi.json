@@ -1,0 +1,311 @@
+{
+  "label": "ZHUANG FANGYI",
+  "guideCharId": "zhuangfangyi",
+  "tagline": {
+    "es": "Striker Electric de bucle cerrado: la battle skill Mantra of Sundering consume Electrification para forjar Sunderblades y disparar Thunder Strikes, y el combo Breath of Transformation re-aplica Electrification para volver a alimentarla. El ult Smiting Tempest (Empyrean of Truth) regala la primera battle skill con 3 Sunderblades y acelera todo el kit.",
+    "en": "Closed-loop Electric Striker: the Mantra of Sundering battle skill consumes Electrification to forge Sunderblades and fire Thunder Strikes, and the Breath of Transformation combo re-applies Electrification to feed it again. The Smiting Tempest ultimate (Empyrean of Truth) gifts the first battle skill with 3 Sunderblades and speeds up the whole kit."
+  },
+  "comps": [
+    {
+      "name": { "es": "YZ-月咒 - Eléctrico doble-ult (Gilberta)", "en": "YZ-月咒 - Electric double-ult (Gilberta)" },
+      "subtitle": { "es": "Gilberta con Stanza abre DOS ults dentro de la ventana de ult de Zhuang Fangyi", "en": "Gilberta with Stanza casts TWO ultimates inside Zhuang Fangyi's ultimate window" },
+      "guideVideoId": "zfyb1",
+      "blurb": {
+        "es": "Zhuang Fangyi lleva el daño con un bucle cerrado de Electric; Gilberta, Arclight y Perlica alimentan Electric Attach y Electrification. La gracia: Gilberta, con Stanza of Memorials (no necesita su promocional), mete dos ults en los 25 s del ult de Zhuang Fangyi (双大流) — como es Nature y Zhuang Fangyi Electric, el bono de ATK de Stanza sí le llega al carry. YZ la recomienda por arranque caliente rápido; el frío también arranca rápido porque Gilberta no gasta battle skill.",
+        "en": "Zhuang Fangyi carries with a closed Electric loop; Gilberta, Arclight and Perlica feed Electric Attach and Electrification. The hook: Gilberta, holding Stanza of Memorials (no signature needed), fits two ultimates inside Zhuang Fangyi's 25s ultimate window (double-ult) — being Nature while Zhuang Fangyi is Electric, the cross-element Stanza ATK bonus reaches the carry. YZ recommends it for its fast hot start; the cold start is also quick since Gilberta spends no battle skill."
+      },
+      "overview": {
+        "es": "El daño de Zhuang Fangyi vive en un bucle cerrado: la battle skill Mantra of Sundering consume la Electrification del enemigo (más daño cuanto mayor sea su nivel) y aplica Electric Attach; el golpe fuerte (heavy attack) dispara el combo Breath of Transformation, que consume ese Electric Attach y vuelve a colgar Electrification; la siguiente battle skill la consume otra vez. Cada battle skill que consume Electrification forja [nivel consumido +1] Sunderblades (máx 3 por lanzamiento, 9 en campo) y encadena Thunder Strikes con el último a ×6. El ult Smiting Tempest transforma a Zhuang Fangyi en Empyrean of Truth (25 s): la primera battle skill sale gratis y garantiza 3 Sunderblades, el combo baja su cooldown a la cuarta parte y el daño sube. Perlica siembra Electric Attach/Electrification, Arclight consume y alimenta, y Gilberta sostiene el ATK de Stanza con su doble-ult. YZ NO graba un eje fijo a propósito: enseña el principio del bucle, porque las mecánicas del boss rompen cualquier rotación memorizada.",
+        "en": "Zhuang Fangyi's damage lives in a closed loop: the Mantra of Sundering battle skill consumes the enemy's Electrification (harder the higher its level) and applies Electric Attach; the heavy attack triggers the Breath of Transformation combo, which consumes that Electric Attach and re-applies Electrification; the next battle skill consumes it again. Every battle skill that consumes Electrification forges [consumed level +1] Sunderblades (max 3 per cast, 9 on field) and chains Thunder Strikes with the last one at 6x. The Smiting Tempest ultimate turns Zhuang Fangyi into the Empyrean of Truth for 25s: the first battle skill is free and guarantees 3 Sunderblades, the combo cooldown drops to a quarter and damage rises. Perlica seeds Electric Attach/Electrification, Arclight consumes and feeds, and Gilberta holds the Stanza ATK up with her double-ult. YZ deliberately records NO fixed axis: they teach the loop principle, because boss mechanics break any memorized rotation."
+      },
+      "playstyle": {
+        "difficulty": { "es": "Media", "en": "Mid" },
+        "tags": [
+          { "es": "Eléctrico", "en": "Electric", "jp": "電磁", "zh": "电磁" },
+          { "es": "Bucle cerrado", "en": "Closed loop" },
+          { "es": "Doble-ult", "en": "Double-ult" },
+          { "es": "Burst", "en": "Burst" }
+        ]
+      },
+      "pros": [
+        { "es": "Arranque caliente rápido: Gilberta suelta dos ults seguidos (su ult tiene 20 s de cooldown y el de Zhuang Fangyi dura 25 s), así que el burst es alto.", "en": "Fast hot start: Gilberta fires two ultimates back to back (her ultimate has a 20s cooldown and Zhuang Fangyi's lasts 25s), so the burst is high." },
+        { "es": "Gilberta no necesita su promocional: le basta Stanza of Memorials, y su ATK cross-elemento sí alcanza a Zhuang Fangyi (Nature ≠ Electric).", "en": "Gilberta needs no signature: Stanza of Memorials is enough, and its cross-element ATK does reach Zhuang Fangyi (Nature is not Electric)." },
+        { "es": "Arranque frío también ágil: Gilberta no gasta battle skill, así que se pone en marcha antes que otros equipos sin battle skill.", "en": "Cold start is nimble too: Gilberta spends no battle skill, so it gets going faster than other battle-skill-less teams." },
+        { "es": "El bucle cerrado se explica en una frase (battle → golpe fuerte → combo → battle): entendido el principio, te adaptas a cualquier boss sin memorizar un eje.", "en": "The closed loop fits in one line (battle → heavy → combo → battle): once you get the principle you adapt to any boss without memorizing an axis." }
+      ],
+      "cons": [
+        { "es": "Pide carga: Gilberta necesita un umbral de recarga alto (95.65% a 0 potencial) para poder ultear dos veces por ventana.", "en": "Charge-hungry: Gilberta needs a high recharge threshold (95.65% at 0 potential) to double-ult per window." },
+        { "es": "El arranque frío se atasca en el cooldown del combo de Perlica: hay una espera larga encadenando golpes fuertes para recuperar SP.", "en": "The cold start bottlenecks on Perlica's combo cooldown: a long wait spamming heavy attacks to recover SP." },
+        { "es": "Es un equipo de principio, no de eje: si solo memorizas una secuencia, en cuanto el boss la rompe te descoloca.", "en": "It is a principle team, not an axis team: if you only memorize a sequence, the moment the boss breaks it you fumble." },
+        { "es": "La losa de daño que YZ pone a Zhuang Fangyi (Bio Auxiliary Slab, 生物辅助面板) es del parche nuevo y aún no está en la app.", "en": "The damage slab YZ puts on Zhuang Fangyi (Bio Auxiliary Slab, 生物辅助面板) is from the new patch and not in the app yet." }
+      ],
+      "whyItWorks": [
+        {
+          "title": { "es": "El bucle cerrado", "en": "The closed loop" },
+          "body": { "es": "Tras el ult, todo se reduce a: battle skill (consume Electrification + aplica Electric Attach) → golpe fuerte (dispara el combo, que consume el Electric Attach y re-aplica Electrification) → battle skill de nuevo. El combo se dispara con Final Strike o Finisher sobre un enemigo con Electric Infliction; convierte esas capas en Electrification y devuelve energía de Ult. Como la battle skill es de daño persistente, llega a comer también la Electrification que dejas justo después.", "en": "After the ultimate it all boils down to: battle skill (consumes Electrification + applies Electric Attach) → heavy attack (triggers the combo, which consumes the Electric Attach and re-applies Electrification) → battle skill again. The combo fires on a Final Strike or Finisher against an enemy with Electric Infliction; it turns those stacks into Electrification and refunds Ultimate energy. Because the battle skill is lingering hands-off damage, it also gets to eat the Electrification you drop right after." }
+        },
+        {
+          "title": { "es": "Sunderblades", "en": "Sunderblades" },
+          "body": { "es": "Cada battle skill que consume Electrification crea [nivel de Electrification consumido +1] Sunderblades, máx 3 por lanzamiento y 9 en campo; luego canaliza todas las Sunderblades cercanas en Thunder Strikes, con el último a ×6 y devolviendo energía de Ult. Durante el ult, la PRIMERA battle skill sale gratis (sin SP ni consumir Electrification) y garantiza 3 Sunderblades.", "en": "Every battle skill that consumes Electrification creates [consumed Electrification level +1] Sunderblades, max 3 per cast and 9 on field; then it channels all nearby Sunderblades into Thunder Strikes, the last at 6x and refunding Ultimate energy. During the ultimate the FIRST battle skill is free (no SP, no Electrification consumed) and guarantees 3 Sunderblades." }
+        },
+        {
+          "title": { "es": "Doble-ult con Stanza", "en": "Double-ult with Stanza" },
+          "body": { "es": "Stanza of Memorials da ATK a los aliados de OTRO elemento tras el ult del portador. Gilberta (Nature) lo lleva y ultea dos veces dentro de los 25 s del ult de Zhuang Fangyi (Electric): dos refrescos del bono de ATK justo cuando el carry está soltando su burst. Por eso Gilberta funciona aquí sin ser Electric.", "en": "Stanza of Memorials grants ATK to teammates of a DIFFERENT element after the wielder's ultimate. Gilberta (Nature) holds it and ults twice inside Zhuang Fangyi's (Electric) 25s ultimate window: two refreshes of the ATK bonus right as the carry unloads the burst. That is why Gilberta works here without being Electric." }
+        },
+        {
+          "title": { "es": "Combos por separado", "en": "Combos fired separately" },
+          "body": { "es": "Cuando el golpe fuerte dispara a la vez los combos de Zhuang Fangyi y de Perlica, se usan SEPARADOS, no juntos: primero el de Zhuang Fangyi, luego la battle skill consume esa Electrification, e inmediatamente el de Perlica cuelga otra Electrification para que la SIGUIENTE battle skill se coma también ese bono. Juntarlos desperdicia una capa.", "en": "When the heavy attack triggers Zhuang Fangyi's and Perlica's combos at once, use them SEPARATELY, not together: Zhuang Fangyi's first, then the battle skill consumes that Electrification, and immediately Perlica's drops another Electrification so the NEXT battle skill eats that bonus too. Firing them together wastes a stack." }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": { "es": "Arranque caliente", "en": "Hot start" },
+          "action": { "es": "Siembra una Electrification inicial con los ults de Gilberta + Arclight, prepara Sunderblades y entra al ult de Zhuang Fangyi.", "en": "Seed an initial Electrification with Gilberta + Arclight ultimates, prep Sunderblades and enter Zhuang Fangyi's ultimate." },
+          "steps": [
+            { "do": { "es": "Ult de Gilberta (Nature Attach) + ult de Arclight (Electric Attach en el 1er segmento): abren con una Electrification en el boss.", "en": "Gilberta's ultimate (Nature Attach) + Arclight's ultimate (Electric Attach on the 1st segment): they open with one Electrification on the boss." }, "who": "gilberta" },
+            { "do": { "es": "Ult de Perlica: fallo de equilibrio y daño de área.", "en": "Perlica's ultimate: stagger and area damage." }, "who": "perlica" },
+            { "do": { "es": "Battle skill de Zhuang Fangyi para consumir la Electrification y generar 2 Sunderblades; después, combos de Arclight y Gilberta.", "en": "Zhuang Fangyi's battle skill to consume the Electrification and make 2 Sunderblades; then Arclight and Gilberta combos." }, "who": "zhuangfangyi" },
+            { "do": { "es": "Ult de Zhuang Fangyi → la 1ª battle skill sale gratis con 3 Sunderblades → básico + golpe fuerte (la battle skill es un dash: cancela la animación de recuperación y encadena el golpe fuerte) → dispara los combos de Zhuang Fangyi y Perlica.", "en": "Zhuang Fangyi's ultimate → the 1st battle skill is free with 3 Sunderblades → basic + heavy (the battle skill is a dash: cancel the recovery and chain the heavy) → triggers Zhuang Fangyi and Perlica combos." }, "who": "zhuangfangyi", "key": true }
+          ]
+        },
+        {
+          "phase": { "es": "Bucle cerrado (durante el ult)", "en": "Closed loop (during the ultimate)" },
+          "action": { "es": "battle → golpe fuerte → combo, repetido: cada battle skill come una Electrification y cada combo cuelga la siguiente.", "en": "battle → heavy → combo, repeated: each battle skill eats an Electrification and each combo drops the next." },
+          "steps": [
+            { "do": { "es": "Combo de Zhuang Fangyi primero; luego battle skill para consumir la Electrification y pegar.", "en": "Zhuang Fangyi's combo first; then battle skill to consume the Electrification and hit." }, "who": "zhuangfangyi", "key": true },
+            { "do": { "es": "Combo de Perlica (y los que se iluminen) para re-colgar Electrification: la SIGUIENTE battle skill se come ese bono.", "en": "Perlica's combo (and any that light up) to re-apply Electrification: the NEXT battle skill eats that bonus." }, "who": "perlica" },
+            { "do": { "es": "Golpe fuerte → battle skill → combo, en bucle. Cuando el 2º combo de Gilberta esté listo, su ult está listo: úsalo.", "en": "Heavy → battle skill → combo, on loop. When Gilberta's 2nd combo is ready her ultimate is ready: use it." }, "who": "gilberta" }
+          ]
+        },
+        {
+          "phase": { "es": "Arranque frío", "en": "Cold start" },
+          "action": { "es": "Sin ults: Perlica siembra el attach y dos vueltas de carga idénticas fabrican 8 Sunderblades antes de soltar todo.", "en": "No ultimates: Perlica seeds the attach and two identical charge passes build 8 Sunderblades before dumping everything." },
+          "steps": [
+            { "do": { "es": "Battle skill de Perlica (Electric Attach) → golpe fuerte → combos de Zhuang Fangyi y Perlica (por separado): el de Zhuang Fangyi convierte el attach en Electrification.", "en": "Perlica's battle skill (Electric Attach) → heavy → Zhuang Fangyi and Perlica combos (separately): Zhuang Fangyi's turns the attach into Electrification." }, "who": "perlica" },
+            { "do": { "es": "Battle skill de Zhuang Fangyi (Sunderblade) → combos de Perlica + Arclight (Electrification + SP) → battle skill de Zhuang Fangyi (Sunderblade): 4 Sunderblades.", "en": "Zhuang Fangyi's battle skill (Sunderblade) → Perlica + Arclight combos (Electrification + SP) → Zhuang Fangyi's battle skill (Sunderblade): 4 Sunderblades." }, "who": "zhuangfangyi", "key": true },
+            { "do": { "es": "Encadena golpes fuertes para recuperar SP y espera el cooldown del combo de Perlica (barra gris abajo a la izquierda); repite la vuelta: 8 Sunderblades.", "en": "Spam heavy attacks to recover SP and wait for Perlica's combo cooldown (grey bar, bottom-left); repeat the pass: 8 Sunderblades." }, "who": "zhuangfangyi" },
+            { "do": { "es": "Suelta el burst: ult de Gilberta + ult de Arclight (Electrification) → ult de Perlica (fallo de equilibrio) → ult de Zhuang Fangyi.", "en": "Dump the burst: Gilberta's ultimate + Arclight's ultimate (Electrification) → Perlica's ultimate (stagger) → Zhuang Fangyi's ultimate." }, "who": "zhuangfangyi", "key": true }
+          ]
+        }
+      ],
+      "skillPriority": [
+        { "charId": "zhuangfangyi", "order": { "es": "Battle Skill > Ult > Combo > Básico", "en": "Battle Skill > Ult > Combo > Basic" }, "note": { "es": "La battle skill Mantra of Sundering es el motor del daño (Sunderblades + Thunder Strikes); el ult alarga la ventana y regala la primera battle skill.", "en": "The Mantra of Sundering battle skill is the damage engine (Sunderblades + Thunder Strikes); the ultimate stretches the window and gifts the first battle skill." } }
+      ],
+      "pitfalls": [
+        { "es": "Mantén el umbral de recarga de Gilberta: sin carga suficiente no salen los dos ults por ventana y se cae el doble-ult.", "en": "Keep Gilberta's recharge threshold: without enough charge the two ultimates per window do not happen and the double-ult falls apart." },
+        { "es": "Usa los combos de Zhuang Fangyi y Perlica POR SEPARADO, no a la vez: separados, cada battle skill posterior se come una Electrification extra.", "en": "Fire Zhuang Fangyi and Perlica combos SEPARATELY, not at once: separated, each following battle skill eats an extra Electrification." },
+        { "es": "El arranque frío es lento por el cooldown del combo de Perlica; no fuerces el burst sin Sunderblades ni SP.", "en": "The cold start is slow because of Perlica's combo cooldown; do not force the burst without Sunderblades or SP." }
+      ],
+      "vsOtherComps": [
+        { "name": { "es": "庄佩弧安 (con Antal)", "en": "庄佩弧安 (with Antal)" }, "verdict": { "es": "La otra comp de esta guía cambia Gilberta por Antal: más amp y susceptibility (y por tanto techo de daño más alto), pero mucho más hambrienta de SP y con arranque más largo. La de Gilberta es más cómoda y arranca antes.", "en": "The other comp in this guide swaps Gilberta for Antal: more amp and susceptibility (and thus a higher damage ceiling), but far more SP-starved and with a longer startup. The Gilberta one is comfier and starts sooner." } },
+        { "name": { "es": "Equipo de Alesh", "en": "Alesh team" }, "verdict": { "es": "En arranque frío, el equipo de Alesh arranca algo más rápido que este; a cambio, la versión Gilberta no depende de la battle skill de nadie para ponerse en marcha.", "en": "On the cold start, the Alesh team gets going slightly faster than this one; in exchange, the Gilberta version depends on nobody's battle skill to get moving." } }
+      ],
+      "members": [
+        {
+          "id": "zhuangfangyi",
+          "role": "Carry",
+          "weaponId": "wpn_funnel_0015",
+          "gearRec": ["redeemer_armor", "redeemer_gloves", "redeemer_seal", "lynx_slab"],
+          "weaponNote": { "es": "Lone Barge (promocional): Electric DMG +44.8%; cuando la battle skill consume Arts Reactions, sube el Electric DMG de la propia battle skill — justo el bucle de Mantra of Sundering.", "en": "Lone Barge (signature): Electric DMG +44.8%; when the battle skill consumes Arts Reactions, the battle skill's own Electric DMG rises — exactly the Mantra of Sundering loop." },
+          "gearNote": { "es": "0-3000: 3 piezas Redeemer (纾难) + la losa de daño Bio Auxiliary Slab (生物辅助面板, aún sin data en la app — aquí la representa una losa de atributo principal). En arranque frío cambia esa losa por el Eternal Xiranite Auxiliary Arm por carga. 4000+: no hace falta carga extra.", "en": "0-3000: 3 Redeemer pieces (纾难) + the Bio Auxiliary Slab damage kit (生物辅助面板, not in the app yet — a main-attribute slab stands in here). On the cold start swap that slab for the Eternal Xiranite Auxiliary Arm for charge. 4000+: no extra charge needed." },
+          "deepNote": { "es": "Umbrales de recarga: 0 pot. = 20.6%, 1000 = 7.62%, 3000 = 8.89%. El motor es battle → golpe fuerte → combo, con Sunderblades a máximos y el ult que regala la primera battle skill.", "en": "Recharge thresholds: 0-pot = 20.6%, 1000 = 7.62%, 3000 = 8.89%. The engine is battle → heavy → combo, Sunderblades kept up and the ultimate gifting the first battle skill." }
+        },
+        {
+          "id": "gilberta",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0005",
+          "gearRec": ["bonekrusha_poncho", "eternal_xiranite_wraps", "eternal_xiranite_auxiliary_arm", "eternal_xiranite_power_core"],
+          "weaponNote": { "es": "Stanza of Memorials (悼亡诗, NO su promocional): tras su ult, los aliados de otro elemento ganan ATK. Como Gilberta es Nature y Zhuang Fangyi Electric, el bono llega al carry.", "en": "Stanza of Memorials (悼亡诗, NOT her signature): after her ultimate, teammates of a different element gain ATK. Gilberta being Nature and Zhuang Fangyi Electric, the bonus reaches the carry." },
+          "gearNote": { "es": "3 piezas de carga de Eternal Xiranite (长袭) + Bonekrusha Poncho (碾骨披巾) de carga. Umbral de recarga alto (95.65% a 0 potencial, 66.30% a 4000) para el doble-ult; con Stanza basta afinar un poco la carga.", "en": "3 Eternal Xiranite (长袭) charge pieces + a charge Bonekrusha Poncho (碾骨披巾). High recharge threshold (95.65% at 0 potential, 66.30% at 4000) for the double-ult; with Stanza a little charge refinement is enough." },
+          "deepNote": { "es": "No usa battle skill: solo dos ults por ventana. Es el pegamento de ATK del equipo, no un aplicador de attach principal.", "en": "Uses no battle skill: just two ultimates per window. She is the team's ATK glue, not a main attach applier." }
+        },
+        {
+          "id": "arclight",
+          "role": "Enabler",
+          "weaponId": "wpn_sword_0012",
+          "gearRec": ["frontiers_armor", "frontiers_fiber_gloves", "frontiers_comm", "frontiers_o2_tube"],
+          "weaponNote": { "es": "La guía no detalla el arma de Arclight; icono = su opción por defecto.", "en": "The guide does not detail Arclight's weapon; icon = default option." },
+          "gearNote": { "es": "3 piezas Frontiers (拓荒). Su ult no entra en el bucle: úsalo libre. El gear puede ser flexible mientras respete el 3pc.", "en": "3 Frontiers (拓荒) pieces. Her ultimate is not part of the loop: use it freely. Gear can flex as long as the 3-piece holds." },
+          "deepNote": { "es": "El 1er segmento del ult cuelga Electric Attach y el segmento final lo eleva a Electrification: parte del combustible eléctrico del arranque.", "en": "The ultimate's 1st segment applies Electric Attach and the final segment upgrades it to Electrification: part of the electric fuel at the start." }
+        },
+        {
+          "id": "perlica",
+          "role": "Enabler",
+          "weaponId": "wpn_funnel_0004",
+          "gearRec": ["qingbo_light_armor", "qingbo_gloves", "qingbo_cask", "qingbo_positioning_kit"],
+          "weaponNote": { "es": "Wild Wanderer (迷失方衣 en el audio): tras aplicar Electrification, el equipo gana Electric DMG — encaja con su papel de sembradora eléctrica.", "en": "Wild Wanderer (迷失方衣 in the audio): after applying Electrification, the team gains Electric DMG — a fit for her electric-seeding role." },
+          "gearNote": { "es": "4 piezas Qingbo (轻薄) para bajar el cooldown del combo. Sin cambios respecto a otros equipos suyos.", "en": "4 Qingbo (轻薄) pieces to cut the combo cooldown. No change from her other teams." },
+          "deepNote": { "es": "Su battle skill cuelga Electric Attach y su combo fuerza Electrification: el gatillo del bucle en el arranque frío.", "en": "Her battle skill applies Electric Attach and her combo forces Electrification: the loop trigger on the cold start." }
+        }
+      ],
+      "equipment": {
+        "intro": { "es": "Zhuang Fangyi (0-3000): 3 Redeemer (纾难) + la losa de daño Bio Auxiliary Slab (生物辅助面板, aún sin data en la app); en arranque frío cambia la losa por el Eternal Xiranite Auxiliary Arm por eficiencia de carga. A 4000+ la carga sobra: 3 Redeemer + Bio Auxiliary Slab. Perlica: 4 Qingbo (轻薄) + Wild Wanderer. Arclight: 3 Frontiers (拓荒), ult libre. Gilberta: 3 piezas de carga de Eternal Xiranite (长袭) + Bonekrusha Poncho de carga, con Stanza of Memorials; umbral de recarga alto para encadenar dos ults en la ventana.", "en": "Zhuang Fangyi (0-3000): 3 Redeemer (纾难) + the Bio Auxiliary Slab damage kit (生物辅助面板, not in the app yet); on the cold start swap the slab for the Eternal Xiranite Auxiliary Arm for charge efficiency. At 4000+ charge is plentiful: 3 Redeemer + Bio Auxiliary Slab. Perlica: 4 Qingbo (轻薄) + Wild Wanderer. Arclight: 3 Frontiers (拓荒), ultimate free. Gilberta: 3 Eternal Xiranite (长袭) charge pieces + a charge Bonekrusha Poncho, with Stanza of Memorials; a high recharge threshold to chain two ultimates in the window." },
+        "alts": [
+          { "scenario": { "es": "Arranque frío con Zhuang Fangyi por debajo de 4000", "en": "Cold start with Zhuang Fangyi below 4000" }, "swap": { "es": "cambia la Bio Auxiliary Slab por el Eternal Xiranite Auxiliary Arm (más carga) o vístete de carga con Redeemer.", "en": "swap the Bio Auxiliary Slab for the Eternal Xiranite Auxiliary Arm (more charge) or gear up on charge with Redeemer." } }
+        ]
+      },
+      "simple": {
+        "note": { "es": "El bucle en corto, una vez dentro del ult de Zhuang Fangyi.", "en": "The loop in short, once inside Zhuang Fangyi's ultimate." },
+        "steps": [
+          { "do": { "es": "Abre con ult de Gilberta + ult de Arclight (Electrification) y ult de Perlica (fallo de equilibrio).", "en": "Open with Gilberta + Arclight ultimates (Electrification) and Perlica's ultimate (stagger)." }, "who": "gilberta" },
+          { "do": { "es": "Ult de Zhuang Fangyi → battle skill gratis (3 Sunderblades) → básico + golpe fuerte.", "en": "Zhuang Fangyi's ultimate → free battle skill (3 Sunderblades) → basic + heavy." }, "who": "zhuangfangyi" },
+          { "do": { "es": "Bucle: combo de Zhuang Fangyi → battle skill (come Electrification) → combo de Perlica → golpe fuerte → repite.", "en": "Loop: Zhuang Fangyi combo → battle skill (eats Electrification) → Perlica combo → heavy → repeat." }, "who": "zhuangfangyi" },
+          { "do": { "es": "Reabre el ult de Gilberta cuando su 2º combo se ilumine (doble-ult).", "en": "Re-cast Gilberta's ultimate when her 2nd combo lights up (double-ult)." }, "who": "gilberta" }
+        ],
+        "gear": [
+          { "id": "zhuangfangyi", "line": { "es": "3 Redeemer + Bio Auxiliary Slab (losa de daño, aún sin data en la app).", "en": "3 Redeemer + Bio Auxiliary Slab (damage kit, not in the app yet)." } },
+          { "id": "gilberta", "line": { "es": "3 Eternal Xiranite de carga + Bonekrusha Poncho; arma Stanza of Memorials.", "en": "3 Eternal Xiranite charge + Bonekrusha Poncho; Stanza of Memorials weapon." } },
+          { "id": "arclight", "line": { "es": "3 Frontiers; ult libre.", "en": "3 Frontiers; ultimate free." } },
+          { "id": "perlica", "line": { "es": "4 Qingbo; arma Wild Wanderer.", "en": "4 Qingbo; Wild Wanderer weapon." } }
+        ]
+      }
+    },
+    {
+      "name": { "es": "YZ-月咒 - Eléctrico 庄佩弧安 (Antal)", "en": "YZ-月咒 - Electric 庄佩弧安 (Antal)" },
+      "subtitle": { "es": "Antal mete susceptibility, amp y una capa eléctrica extra; arranque frío y caliente", "en": "Antal brings susceptibility, amp and an extra electric stack; cold and hot start" },
+      "guideVideoId": "zfyb2",
+      "blurb": {
+        "es": "Zhuang Fangyi + Perlica + Arclight + Antal (庄佩弧安). Antal es el motivo del equipo: su battle skill cuelga una susceptibility de Arts de 60 s, su ult da amp de Electric y Heat al equipo, su arma Detonation Unit añade Arts vulnerability y el set Eternal Xiranite aporta zona de daño; encima su combo mete una capa extra de Electric Attach que hace la Electrification de Zhuang Fangyi más valiosa. Mismo bucle cerrado; cambiar a Antal por cualquier otro compañero casi no altera el juego.",
+        "en": "Zhuang Fangyi + Perlica + Arclight + Antal (庄佩弧安). Antal is the reason for the team: her battle skill applies a 60s Arts susceptibility, her ultimate gives the team Electric and Heat amp, her Detonation Unit weapon adds Arts vulnerability and the Eternal Xiranite set brings a damage zone; on top of that her combo drops an extra Electric Attach stack that makes Zhuang Fangyi's Electrification worth more. Same closed loop; swapping Antal for any other teammate barely changes the play."
+      },
+      "overview": {
+        "es": "Mismo motor de Zhuang Fangyi (battle → golpe fuerte → combo, con Sunderblades y Thunder Strikes), pero envuelto en el paquete de Antal: susceptibility de Arts (60 s con la battle skill), amp de Electric y Heat (ult), Arts vulnerability (arma Detonation Unit) y una capa eléctrica extra (combo). En arranque caliente, Arclight cuelga Electric Attach, el combo de Antal añade una 2ª capa y el segmento final del ult de Arclight las convierte en Electrification de nivel 2 antes de que entre el ult de Zhuang Fangyi. El truco de daño sostenido: cada battle skill come una Electrification para su bono y, como es daño persistente, alcanza también la vulnerabilidad de la Electrification que cuelgas justo después. El coste es que el equipo va MUY justo de SP: hay que encadenar golpes fuertes sin parar para recargar.",
+        "en": "Same Zhuang Fangyi engine (battle → heavy → combo, with Sunderblades and Thunder Strikes), wrapped in Antal's package: Arts susceptibility (60s from the battle skill), Electric and Heat amp (ultimate), Arts vulnerability (Detonation Unit weapon) and an extra electric stack (combo). On the hot start, Arclight applies Electric Attach, Antal's combo adds a 2nd stack and Arclight's ultimate final segment turns them into level-2 Electrification before Zhuang Fangyi's ultimate comes in. The sustained-damage trick: each battle skill eats an Electrification for its bonus and, being lingering damage, it also catches the vulnerability of the Electrification you drop right after. The cost is that the team runs VERY short on SP: you must spam heavy attacks to recharge."
+      },
+      "playstyle": {
+        "difficulty": { "es": "Alta", "en": "High" },
+        "tags": [
+          { "es": "Eléctrico", "en": "Electric", "jp": "電磁", "zh": "电磁" },
+          { "es": "Bucle cerrado", "en": "Closed loop" },
+          { "es": "Susceptibility + Amp", "en": "Susceptibility + Amp" },
+          { "es": "SP tenso", "en": "SP-starved" }
+        ]
+      },
+      "pros": [
+        { "es": "Techo de daño alto: Antal apila susceptibility (60 s), amp de Electric/Heat, Arts vulnerability (Detonation Unit) y zona de daño (Eternal Xiranite).", "en": "High damage ceiling: Antal stacks susceptibility (60s), Electric/Heat amp, Arts vulnerability (Detonation Unit) and a damage zone (Eternal Xiranite)." },
+        { "es": "Flexible: cambiar a Antal por cualquier otro compañero casi no cambia el juego, así que el eje aprendido se reutiliza.", "en": "Flexible: swapping Antal for any other teammate barely changes the play, so the learned axis carries over." },
+        { "es": "El combo de Antal añade una capa eléctrica extra: la Electrification de Zhuang Fangyi vale más carga y el burst sube.", "en": "Antal's combo adds an extra electric stack: Zhuang Fangyi's Electrification is worth more charge and the burst rises." }
+      ],
+      "cons": [
+        { "es": "Muy hambriento de SP: el equipo saca su daño de energía extra y hay que encadenar golpes fuertes constantemente para no quedarte seco.", "en": "Very SP-starved: the team gets its damage from extra energy and you must spam heavy attacks to avoid running dry." },
+        { "es": "Arranque largo; el arranque frío solo compensa en retos concretos (影拖风杯). En el resto, vístete de daño y ya.", "en": "Long startup; the cold start only pays off in specific challenges (影拖风杯). Elsewhere, just gear for damage." },
+        { "es": "El set de SP que YZ pone a Perlica (Blight Protection, 天灾防护, +50 SP por combate) aún no está en la app.", "en": "The SP set YZ puts on Perlica (Blight Protection, 天灾防护, +50 SP per battle) is not in the app yet." }
+      ],
+      "whyItWorks": [
+        {
+          "title": { "es": "El bucle que come dos veces", "en": "The loop that eats twice" },
+          "body": { "es": "El eje es battle → combo → golpe fuerte. Cada battle skill se come una Electrification para su bono de daño; en cuanto la consumes, sueltas un combo que cuelga OTRA Electrification, y como la battle skill es daño persistente, alcanza también la vulnerability de esa segunda Electrification. Así cada battle skill cobra la vulnerabilidad de la Electrification siguiente.", "en": "The axis is battle → combo → heavy. Each battle skill eats an Electrification for its damage bonus; right as you consume it, you fire a combo that drops ANOTHER Electrification, and since the battle skill is lingering damage it also catches that second Electrification's vulnerability. So every battle skill cashes the next Electrification's amp." }
+        },
+        {
+          "title": { "es": "El paquete de Antal", "en": "Antal's package" },
+          "body": { "es": "Battle skill: Focus con susceptibility de Electric y Heat de 60 s sobre el objetivo. Ult (Overclocked Moment): amp de Electric y Heat a todo el equipo. Arma Detonation Unit: el enemigo recibe más Arts DMG. Set Eternal Xiranite: zona de daño para el equipo. Combo (EMP Test Site): una capa extra de la misma inflicción — más Electrification para Zhuang Fangyi.", "en": "Battle skill: Focus with 60s Electric and Heat susceptibility on the target. Ultimate (Overclocked Moment): Electric and Heat amp for the whole team. Detonation Unit weapon: the enemy takes more Arts DMG. Eternal Xiranite set: a team damage zone. Combo (EMP Test Site): an extra stack of the same infliction — more Electrification for Zhuang Fangyi." }
+        },
+        {
+          "title": { "es": "El ult de Arclight como attach", "en": "Arclight's ultimate as attach" },
+          "body": { "es": "Como el arranque frío depende de que Perlica cuelgue Electric Attach con su battle skill, puedes sustituirla por el ult de Arclight: su 1er segmento cuelga Electric Attach y la explosión posterior lo eleva a Electrification. Ábrelo justo antes de que salga el golpe fuerte de Zhuang Fangyi durante el básico: dispara los dos combos igual que la battle skill de Perlica.", "en": "Since the cold start depends on Perlica applying Electric Attach with her battle skill, you can replace it with Arclight's ultimate: its 1st segment applies Electric Attach and the following explosion upgrades it to Electrification. Cast it right before Zhuang Fangyi's heavy lands during the basic string: it triggers both combos just like Perlica's battle skill." }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": { "es": "Arranque caliente", "en": "Hot start" },
+          "action": { "es": "Susceptibility de Antal, Electrification de nivel 2 vía Arclight, y entra el ult de Zhuang Fangyi.", "en": "Antal susceptibility, level-2 Electrification via Arclight, and Zhuang Fangyi's ultimate comes in." },
+          "steps": [
+            { "do": { "es": "Battle skill de Antal: susceptibility de Arts de 60 s sobre el boss.", "en": "Antal's battle skill: 60s Arts susceptibility on the boss." }, "who": "antal" },
+            { "do": { "es": "Ult de Arclight (Electric Attach) → dispara el combo de Antal (2ª capa) → ult de Perlica (fallo de equilibrio + vulnerability). El segmento final del ult de Arclight eleva las 2 capas a Electrification de nivel 2.", "en": "Arclight's ultimate (Electric Attach) → triggers Antal's combo (2nd stack) → Perlica's ultimate (stagger + vulnerability). Arclight's ultimate final segment upgrades the 2 stacks to level-2 Electrification." }, "who": "arclight" },
+            { "do": { "es": "Ult de Zhuang Fangyi → battle skill gratis → golpe fuerte → quedan 3 combos en mano (no los pulses de golpe).", "en": "Zhuang Fangyi's ultimate → free battle skill → heavy → 3 combos held (do not press them at once)." }, "who": "zhuangfangyi", "key": true }
+          ]
+        },
+        {
+          "phase": { "es": "Bucle (durante el ult)", "en": "Loop (during the ultimate)" },
+          "action": { "es": "battle → combo → golpe fuerte, con los combos de Zhuang Fangyi y Perlica primero y rápido, y el ult de Antal en mitad del burst.", "en": "battle → combo → heavy, Zhuang Fangyi and Perlica combos first and fast, Antal's ultimate mid-burst." },
+          "steps": [
+            { "do": { "es": "Battle skill de Zhuang Fangyi (come Electrification) → los 3 combos: Zhuang Fangyi y Perlica primero, rápido, para que la Electrification de Perlica llegue justo después.", "en": "Zhuang Fangyi's battle skill (eats Electrification) → the 3 combos: Zhuang Fangyi and Perlica first, fast, so Perlica's Electrification lands right after." }, "who": "zhuangfangyi", "key": true },
+            { "do": { "es": "Ult de Antal (amp) en mitad del burst.", "en": "Antal's ultimate (amp) mid-burst." }, "who": "antal" },
+            { "do": { "es": "golpe fuerte → dispara combo → battle skill → combo → golpe fuerte, en bucle: cada battle skill cobra la vulnerability de la Electrification siguiente.", "en": "Heavy → triggers combo → battle skill → combo → heavy, on loop: each battle skill cashes the next Electrification's vulnerability." }, "who": "zhuangfangyi" }
+          ]
+        },
+        {
+          "phase": { "es": "Arranque frío", "en": "Cold start" },
+          "action": { "es": "Dos vueltas de carga idénticas → 8 Sunderblades → ult listo. Guarda 1 barra y media de SP antes del burst.", "en": "Two identical charge passes → 8 Sunderblades → ultimate ready. Keep 1.5 SP bars before the burst." },
+          "steps": [
+            { "do": { "es": "Battle skill de Perlica (Electric Attach) → golpe fuerte → combos de Zhuang Fangyi y Perlica (por separado): el de Zhuang Fangyi convierte el attach en Electrification.", "en": "Perlica's battle skill (Electric Attach) → heavy → Zhuang Fangyi and Perlica combos (separately): Zhuang Fangyi's turns the attach into Electrification." }, "who": "perlica" },
+            { "do": { "es": "Battle skill de Zhuang Fangyi (Sunderblade) → combos de Perlica + Arclight (Electrification + SP) → battle skill de Zhuang Fangyi (Sunderblade).", "en": "Zhuang Fangyi's battle skill (Sunderblade) → Perlica + Arclight combos (Electrification + SP) → Zhuang Fangyi's battle skill (Sunderblade)." }, "who": "zhuangfangyi", "key": true },
+            { "do": { "es": "Encadena golpes fuertes para recargar SP, espera el cooldown del combo de Perlica y repite la vuelta: 8 Sunderblades y el ult de Zhuang Fangyi listo.", "en": "Spam heavy attacks to recharge SP, wait for Perlica's combo cooldown and repeat the pass: 8 Sunderblades and Zhuang Fangyi's ultimate ready." }, "who": "zhuangfangyi" }
+          ]
+        }
+      ],
+      "skillPriority": [
+        { "charId": "zhuangfangyi", "order": { "es": "Battle Skill > Ult > Combo > Básico", "en": "Battle Skill > Ult > Combo > Basic" }, "note": { "es": "Igual que en la otra comp: la battle skill es el daño; el ult abre la ventana y regala la primera battle skill.", "en": "Same as the other comp: the battle skill is the damage; the ultimate opens the window and gifts the first battle skill." } },
+        { "charId": "antal", "order": { "es": "Battle Skill y Ult", "en": "Battle Skill and Ultimate" }, "note": { "es": "Sube battle skill (susceptibility) y ult (amp); son su aporte al equipo.", "en": "Level battle skill (susceptibility) and ultimate (amp); those are her team contribution." } }
+      ],
+      "pitfalls": [
+        { "es": "El SP manda: encadena golpes fuertes sin parar para recargar; entra al burst con 1 barra y media o más.", "en": "SP rules: spam heavy attacks to recharge; enter the burst with 1.5 bars or more." },
+        { "es": "Combos de Zhuang Fangyi y Perlica SEPARADOS y rápidos, para encadenar los bonos de Electrification.", "en": "Zhuang Fangyi and Perlica combos SEPARATE and fast, to chain the Electrification bonuses." },
+        { "es": "No fuerces el arranque frío fuera de retos como 影拖风杯: en el resto rinde más ir directo a daño.", "en": "Do not force the cold start outside challenges like 影拖风杯: elsewhere going straight to damage does more." }
+      ],
+      "vsOtherComps": [
+        { "name": { "es": "Doble-ult (con Gilberta)", "en": "Double-ult (with Gilberta)" }, "verdict": { "es": "La otra comp de esta guía: menos amp/susceptibility pero mucho más cómoda de SP y con arranque más corto. Si vas justo de manos o de recursos, la de Gilberta; si buscas techo, esta.", "en": "The other comp in this guide: less amp/susceptibility but far comfier on SP and with a shorter startup. If you are short on execution or resources, go Gilberta; for the ceiling, go this one." } },
+        { "name": { "es": "Cambiar a Antal", "en": "Swapping Antal" }, "verdict": { "es": "El propio autor lo dice: cambiar a Antal por casi cualquier compañero deja un juego muy parecido — el eje no cambia, solo el paquete de buffs.", "en": "The author says it himself: swapping Antal for almost any teammate leaves very similar play — the axis does not change, only the buff package." } }
+      ],
+      "members": [
+        {
+          "id": "zhuangfangyi",
+          "role": "Carry",
+          "weaponId": "wpn_funnel_0015",
+          "gearRec": ["redeemer_armor", "redeemer_gloves", "redeemer_seal", "lynx_slab"],
+          "weaponNote": { "es": "Lone Barge (promocional): sube el Electric DMG de la battle skill cuando consume Arts Reactions — el corazón de Mantra of Sundering.", "en": "Lone Barge (signature): raises the battle skill's Electric DMG when it consumes Arts Reactions — the heart of Mantra of Sundering." },
+          "gearNote": { "es": "0-3000: 3 Redeemer (纾难) + Bio Auxiliary Slab (生物辅助面板, aún sin data — losa de atributo principal como representación). En arranque frío cambia la losa por el Eternal Xiranite Auxiliary Arm por carga. 4000+: no hace falta carga.", "en": "0-3000: 3 Redeemer (纾难) + Bio Auxiliary Slab (生物辅助面板, no data yet — a main-attribute slab as a stand-in). On the cold start swap the slab for the Eternal Xiranite Auxiliary Arm for charge. 4000+: no charge needed." },
+          "deepNote": { "es": "El eje real es battle → combo → golpe fuerte; cada battle skill cobra dos Electrification (la que come y la vulnerabilidad de la siguiente).", "en": "The real axis is battle → combo → heavy; each battle skill cashes two Electrifications (the one it eats and the next one's vulnerability)." }
+        },
+        {
+          "id": "perlica",
+          "role": "Enabler",
+          "weaponId": "wpn_funnel_0004",
+          "gearRec": null,
+          "weaponNote": { "es": "La guía no fija arma para Perlica en esta comp; icono = su opción por defecto.", "en": "The guide does not fix Perlica's weapon in this comp; icon = default option." },
+          "gearNote": { "es": "YZ le pone el set Blight Protection (天灾防护) a nivel 50: +50 SP por combate para aliviar la tensión de energía del equipo. A cambio, el cooldown del combo se queda en los 20 s de base. Este set AÚN no está en la app.", "en": "YZ runs the Blight Protection (天灾防护) set at level 50: +50 SP per battle to ease the team's energy tension. In exchange, the combo cooldown stays at the base 20s. This set is NOT in the app yet." },
+          "deepNote": { "es": "Aplica Electric Attach (battle) y fuerza Electrification (combo); su cooldown de combo marca el ritmo del arranque frío.", "en": "Applies Electric Attach (battle) and forces Electrification (combo); her combo cooldown sets the cold-start pace." }
+        },
+        {
+          "id": "arclight",
+          "role": "Enabler",
+          "weaponId": "wpn_sword_0012",
+          "gearRec": ["frontiers_armor", "frontiers_fiber_gloves", "frontiers_comm", "redeemer_seal"],
+          "weaponNote": { "es": "La guía no detalla el arma de Arclight; icono = su opción por defecto.", "en": "The guide does not detail Arclight's weapon; icon = default option." },
+          "gearNote": { "es": "3 Frontiers (拓荒) + 1 Redeemer (纾难) por eficiencia de carga. La pieza Frontiers restante es libre — hay poca diferencia entre variantes.", "en": "3 Frontiers (拓荒) + 1 Redeemer (纾难) for charge efficiency. The remaining Frontiers piece is free — little difference between variants." },
+          "deepNote": { "es": "Su ult sirve doble: attach eléctrico del arranque y sustituto de la battle skill de Perlica (1er segmento + explosión → Electrification).", "en": "Her ultimate does double duty: electric attach at the start and a substitute for Perlica's battle skill (1st segment + explosion → Electrification)." }
+        },
+        {
+          "id": "antal",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0008",
+          "gearRec": ["tide_fall_light_armor", "eternal_xiranite_wraps", "eternal_xiranite_auxiliary_arm", "eternal_xiranite_bracing_slab"],
+          "weaponNote": { "es": "Detonation Unit (爆破单元): el enemigo recibe más Arts DMG tras aplicar Arts Burst — suma vulnerability al paquete de Antal.", "en": "Detonation Unit (爆破单元): the enemy takes more Arts DMG after an Arts Burst — adds vulnerability to Antal's package." },
+          "gearNote": { "es": "3 Eternal Xiranite (长袭) por la zona de daño de equipo + Tide Fall Light Armor (落潮轻甲) de relleno. Skills: sube battle skill y ult.", "en": "3 Eternal Xiranite (长袭) for the team damage zone + a Tide Fall Light Armor (落潮轻甲) filler. Skills: level battle skill and ultimate." },
+          "deepNote": { "es": "Susceptibility (battle, 60 s), amp (ult), Arts vulnerability (arma) y una capa eléctrica extra (combo): el paquete de soporte más denso del equipo.", "en": "Susceptibility (battle, 60s), amp (ultimate), Arts vulnerability (weapon) and an extra electric stack (combo): the densest support package on the team." }
+        }
+      ],
+      "equipment": {
+        "intro": { "es": "Zhuang Fangyi (0-3000): 3 Redeemer (纾难) + Bio Auxiliary Slab (生物辅助面板, aún sin data en la app); en arranque frío cambia la losa por el Eternal Xiranite Auxiliary Arm por carga. A 4000+ la carga sobra. Perlica: set Blight Protection (天灾防护) a nivel 50 por +50 SP (aún no está en la app) — el equipo va muy justo de energía. Arclight: 3 Frontiers (拓荒) + 1 Redeemer por carga. Antal: 3 Eternal Xiranite (长袭) + Tide Fall Light Armor, con Detonation Unit; sube battle skill y ult.", "en": "Zhuang Fangyi (0-3000): 3 Redeemer (纾难) + Bio Auxiliary Slab (生物辅助面板, not in the app yet); on the cold start swap the slab for the Eternal Xiranite Auxiliary Arm for charge. At 4000+ charge is plentiful. Perlica: Blight Protection (天灾防护) set at level 50 for +50 SP (not in the app yet) — the team runs very short on energy. Arclight: 3 Frontiers (拓荒) + 1 Redeemer for charge. Antal: 3 Eternal Xiranite (长袭) + Tide Fall Light Armor, with Detonation Unit; level battle skill and ultimate." },
+        "alts": [
+          { "scenario": { "es": "Fuera del arranque frío (mayoría de casos)", "en": "Outside the cold start (most cases)" }, "swap": { "es": "olvida las piezas de carga y viste a Zhuang Fangyi directamente de daño (Bio Auxiliary Slab en vez de la pieza de carga).", "en": "drop the charge pieces and gear Zhuang Fangyi straight for damage (Bio Auxiliary Slab instead of the charge piece)." } }
+        ]
+      },
+      "simple": {
+        "note": { "es": "El bucle en corto, una vez dentro del ult de Zhuang Fangyi.", "en": "The loop in short, once inside Zhuang Fangyi's ultimate." },
+        "steps": [
+          { "do": { "es": "Abre: battle skill de Antal (susceptibility) → ult de Arclight (+ combo de Antal) → ult de Perlica.", "en": "Open: Antal's battle skill (susceptibility) → Arclight's ultimate (+ Antal's combo) → Perlica's ultimate." }, "who": "antal" },
+          { "do": { "es": "Ult de Zhuang Fangyi → battle skill gratis → golpe fuerte → 3 combos en mano.", "en": "Zhuang Fangyi's ultimate → free battle skill → heavy → 3 combos held." }, "who": "zhuangfangyi" },
+          { "do": { "es": "Bucle: battle skill (come Electrification) → combos (Zhuang Fangyi y Perlica primero) → golpe fuerte → repite. Ult de Antal en mitad.", "en": "Loop: battle skill (eats Electrification) → combos (Zhuang Fangyi and Perlica first) → heavy → repeat. Antal's ultimate mid-way." }, "who": "zhuangfangyi" },
+          { "do": { "es": "Encadena golpes fuertes sin parar para no quedarte sin SP.", "en": "Spam heavy attacks so you never run out of SP." }, "who": "zhuangfangyi" }
+        ],
+        "gear": [
+          { "id": "zhuangfangyi", "line": { "es": "3 Redeemer + Bio Auxiliary Slab (losa de daño, aún sin data en la app).", "en": "3 Redeemer + Bio Auxiliary Slab (damage kit, not in the app yet)." } },
+          { "id": "perlica", "line": { "es": "Set Blight Protection (天灾防护) por +50 SP (aún sin data en la app).", "en": "Blight Protection (天灾防护) set for +50 SP (not in the app yet)." } },
+          { "id": "arclight", "line": { "es": "3 Frontiers + 1 Redeemer por carga.", "en": "3 Frontiers + 1 Redeemer for charge." } },
+          { "id": "antal", "line": { "es": "3 Eternal Xiranite + Tide Fall Light Armor; arma Detonation Unit.", "en": "3 Eternal Xiranite + Tide Fall Light Armor; Detonation Unit weapon." } }
+        ]
+      }
+    }
+  ]
+}

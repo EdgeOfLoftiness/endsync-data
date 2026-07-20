@@ -1,0 +1,624 @@
+{
+ "_resources": {
+  "avywenna": {
+   "thunderlance": {
+    "createdBy": {
+     "combo_skill": 3
+    },
+    "durS_base": 30,
+    "durS_keystone": 20,
+    "consumedBy": "battle_skill",
+    "appliesInfl": null,
+    "dmgMultStat": "Thunderlance DMG Multiplier",
+    "label": "Thunderlance",
+    "keystone": "Pole of Menace"
+   },
+   "thunderlance_ex": {
+    "createdBy": {
+     "ultimate": 1
+    },
+    "durS_base": 30,
+    "durS_keystone": 20,
+    "consumedBy": "battle_skill",
+    "appliesInfl": "electric",
+    "dmgMultStat": "Thunderlance EX DMG Multiplier",
+    "label": "Thunderlance EX",
+    "keystone": "Pole of Menace"
+   }
+  }
+ },
+ "ops": {
+  "akekuri": {
+   "battle_skill": {
+    "applies": [
+     {
+      "el": "heat"
+     }
+    ]
+   }
+  },
+  "alesh": {
+   "battle_skill": {
+    "forces": [
+     {
+      "reaction": "solidification",
+      "requiresAny": [
+       "cryo_infl"
+      ],
+      "consumes": "cryo_infl"
+     }
+    ]
+   },
+   "ultimate": {
+    "applies": [
+     {
+      "el": "cryo"
+     }
+    ]
+   }
+  },
+  "antal": {
+   "combo_skill": {
+    "copies": {
+    }
+   }
+  },
+  "arclight": {
+   "battle_skill": {
+    "consumes": [
+     {
+      "state": "electrification"
+     }
+    ]
+   },
+   "ultimate": {
+    "applies": [
+     {
+      "el": "electric"
+     }
+    ],
+    "forces": [
+     {
+      "reaction": "electrification",
+      "requiresAny": [
+       "electric_infl"
+      ],
+      "consumes": "electric_infl"
+     }
+    ]
+   }
+  },
+  "ardelia": {
+   "battle_skill": {
+    "consumes": [
+     {
+      "state": "corrosion"
+     }
+    ]
+   },
+   "combo_skill": {
+    "forces": [
+     {
+      "reaction": "corrosion"
+     }
+    ]
+   }
+  },
+  "avywenna": {
+   "battle_skill": {
+    "applies": [
+     {
+      "el": "electric",
+      "whenState": "thunderlance_ex"
+     }
+    ]
+   }
+  },
+  "estella": {
+   "battle_skill": {
+    "applies": [
+     {
+      "el": "cryo"
+     }
+    ]
+   },
+   "combo_skill": {
+    "applies": [
+     {
+      "el": "physical"
+     }
+    ]
+   }
+  },
+  "fluorite": {
+   "battle_skill": {
+    "applies": [
+     {
+      "el": "nature"
+     }
+    ]
+   },
+   "combo_skill": {
+    "copies": {
+    }
+   },
+   "ultimate": {
+    "copies": {
+     "requiresAny": [
+      "cryo_infl",
+      "nature_infl"
+     ]
+    }
+   }
+  },
+  "gilberta": {
+   "battle_skill": {
+    "applies": [
+     {
+      "el": "nature"
+     }
+    ]
+   },
+   "ultimate": {
+    "applies": [
+     {
+      "el": "nature"
+     }
+    ]
+   }
+  },
+  "arcane": {
+   "battle_skill": {
+    "applies": [
+     {
+      "el": "nature"
+     }
+    ]
+   },
+   "combo_skill": {
+    "modes": {
+     "will": {
+      "copies": {}
+     }
+    }
+   },
+   "ultimate": {
+    "forces": [
+     {
+      "reaction": "corrosion",
+      "noHit": true,
+      "inherit": true,
+      "durAdd": 10,
+      "debuffMult": 1.1,
+      "durBoost": {
+       "keystone": "Wielder of Stone",
+       "add": 5
+      },
+      "debuffBoost": {
+       "keystone": "Wielder of Stone",
+       "mult": 1.3
+      }
+     }
+    ],
+    "modes": {
+     "will": {
+      "forces": [],
+      "copies": {}
+     }
+    }
+   }
+  },
+  "laevatain": {
+   "battle_skill": {
+    "meltingFlame": {
+     "grant": 1,
+     "consumeForce": "combustion"
+    }
+   },
+   "combo_skill": {
+    "meltingFlame": {
+     "grant": 1
+    }
+   },
+   "basic_attack": {
+    "consumes": [
+     {
+      "state": "heat_infl"
+     }
+    ],
+    "applies": [
+     {
+      "el": "heat",
+      "whenState": "lvt_ult"
+     }
+    ],
+    "meltingFlame": {
+     "absorb": "heat_infl"
+    }
+   }
+  },
+  "lastrite": {
+   "combo_skill": {
+    "consumes": [
+     {
+      "state": "cryo_infl"
+     }
+    ]
+   }
+  },
+  "perlica": {
+   "battle_skill": {
+    "applies": [
+     {
+      "el": "electric"
+     }
+    ]
+   },
+   "combo_skill": {
+    "forces": [
+     {
+      "reaction": "electrification",
+      "debuffBoost": {
+       "keystone": "Constant Guidance",
+       "mult": 1.33
+      },
+      "durBoost": {
+       "keystone": "Crisis Handling",
+       "mult": 1.75
+      }
+     }
+    ]
+   }
+  },
+  "rossi": {
+   "combo_skill": {
+    "consumes": [
+     {
+      "state": "arts_infl"
+     }
+    ],
+    "applies": [
+     {
+      "el": "physical"
+     }
+    ]
+   },
+   "ultimate": {
+    "applies": [
+     {
+      "el": "heat"
+     }
+    ]
+   },
+   "battle_skill": {
+    "applies": [
+     {
+      "el": "physical"
+     }
+    ]
+   }
+  },
+  "snowshine": {
+   "ultimate": {
+    "forces": [
+     {
+      "reaction": "solidification",
+      "durBoost": {
+       "keystone": "Polar Survival Guide",
+       "add": 2
+      }
+     }
+    ]
+   }
+  },
+  "tangtang": {
+   "battle_skill": {
+    "applies": [
+     {
+      "el": "cryo"
+     }
+    ]
+   }
+  },
+  "wulfgard": {
+   "battle_skill": {
+    "applies": [
+     {
+      "el": "heat",
+      "unlessAny": [
+       "combustion",
+       "electrification"
+      ]
+     }
+    ],
+    "consumes": [
+     {
+      "state": "combustion"
+     },
+     {
+      "state": "electrification"
+     }
+    ]
+   },
+   "combo_skill": {
+    "applies": [
+     {
+      "el": "heat"
+     }
+    ]
+   },
+   "ultimate": {
+    "forces": [
+     {
+      "reaction": "combustion"
+     }
+    ]
+   }
+  },
+  "xaihi": {
+   "combo_skill": {
+    "applies": [
+     {
+      "el": "cryo"
+     }
+    ]
+   }
+  },
+  "yvonne": {
+   "battle_skill": {
+    "forces": [
+     {
+      "reaction": "solidification",
+      "requiresAny": [
+       "cryo_infl",
+       "nature_infl"
+      ],
+      "consumes": "arts"
+     }
+    ]
+   },
+   "combo_skill": {
+    "forces": [
+     {
+      "reaction": "solidification"
+     }
+    ]
+   },
+   "ultimate": {
+    "consumes": [
+     {
+      "state": "solidification"
+     }
+    ]
+   }
+  },
+  "zhuangfangyi": {
+   "battle_skill": {
+    "consumes": [
+     {
+      "state": "electrification"
+     }
+    ],
+    "applies": [
+     {
+      "el": "electric",
+      "whenState": "zfy_ult"
+     }
+    ]
+   },
+   "combo_skill": {
+    "forces": [
+     {
+      "reaction": "electrification",
+      "requiresAny": [
+       "electric_infl"
+      ],
+      "consumes": "electric_infl"
+     }
+    ]
+   }
+  },
+  "camille": {
+   "battle_skill": {
+    "applies": [
+     {
+      "el": "heat"
+     }
+    ]
+   },
+   "ultimate": {
+    "applies": [
+     {
+      "el": "heat"
+     }
+    ]
+   }
+  },
+  "catcher": {
+   "battle_skill": {
+    "applies": [
+     {
+      "el": "physical"
+     }
+    ]
+   },
+   "ultimate": {
+    "applies": [
+     {
+      "el": "physical"
+     }
+    ]
+   }
+  },
+  "chenqianyu": {
+   "battle_skill": {
+    "applies": [
+     {
+      "el": "physical"
+     }
+    ]
+   },
+   "combo_skill": {
+    "applies": [
+     {
+      "el": "physical"
+     }
+    ]
+   }
+  },
+  "dapan": {
+   "battle_skill": {
+    "applies": [
+     {
+      "el": "physical"
+     }
+    ]
+   },
+   "ultimate": {
+    "applies": [
+     {
+      "el": "physical"
+     },
+     {
+      "el": "physical"
+     }
+    ]
+   },
+   "combo_skill": {
+    "consumes": [
+     {
+      "state": "vulnerability",
+      "reaction": "crush"
+     }
+    ],
+    "applies": [
+     {
+      "el": "physical",
+      "unlessAny": [
+       "vulnerability"
+      ]
+     }
+    ]
+   }
+  },
+  "ember": {
+   "battle_skill": {
+    "applies": [
+     {
+      "el": "physical"
+     }
+    ]
+   },
+   "combo_skill": {
+    "applies": [
+     {
+      "el": "physical"
+     }
+    ]
+   }
+  },
+  "lifeng": {
+   "battle_skill": {
+    "applies": [
+     {
+      "el": "physical"
+     }
+    ]
+   },
+   "ultimate": {
+    "applies": [
+     {
+      "el": "physical"
+     },
+     {
+      "el": "physical"
+     }
+    ]
+   }
+  },
+  "mifu": {
+   "ultimate": {
+    "applies": [
+     {
+      "el": "physical"
+     }
+    ]
+   },
+   "battle_skill": {
+    "consumes": [
+     {
+      "state": "vulnerability",
+      "reaction": "crush"
+     }
+    ],
+    "applies": [
+     {
+      "el": "physical",
+      "unlessAny": [
+       "vulnerability"
+      ]
+     }
+    ]
+   }
+  },
+  "endministrator": {
+   "battle_skill": {
+    "consumes": [
+     {
+      "state": "vulnerability",
+      "reaction": "crush"
+     }
+    ],
+    "applies": [
+     {
+      "el": "physical",
+      "unlessAny": [
+       "vulnerability"
+      ]
+     }
+    ]
+   }
+  },
+  "pogranichnik": {
+   "battle_skill": {
+    "consumes": [
+     {
+      "state": "vulnerability",
+      "reaction": "breach"
+     }
+    ],
+    "applies": [
+     {
+      "el": "physical",
+      "unlessAny": [
+       "vulnerability"
+      ]
+     }
+    ]
+   },
+   "combo_skill": {
+    "consumes": [
+     {
+      "state": "vulnerability",
+      "reaction": "crush"
+     }
+    ]
+   },
+   "ultimate": {
+    "steelOath": {
+     "stacks": 5,
+     "durStat": "Steel Oath Duration",
+     "harass": {
+      "multStat": "Harass DMG Multiplier",
+      "spStat": "Harass SP Recovery"
+     },
+     "decisive": {
+      "multStat": "Decisive Assault DMG Multiplier",
+      "spStat": "Decisive Assault SP Recovery",
+      "staggerStat": "Decisive Assault Stagger"
+     }
+    }
+   }
+  }
+ }
+}

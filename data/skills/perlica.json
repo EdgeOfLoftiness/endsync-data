@@ -1,0 +1,325 @@
+{
+  "id": "perlica",
+  "name": "Perlica",
+  "ranks": 12,
+  "skills": {
+    "basic_attack": {
+      "name": "Protocol α: Breach",
+      "stats": [
+        {
+          "name": "BATK SEQ 1 Multiplier",
+          "unit": "%",
+          "values": [
+            25,
+            28,
+            31,
+            33,
+            36,
+            38,
+            41,
+            43,
+            46,
+            49,
+            53,
+            57
+          ]
+        },
+        {
+          "name": "BATK SEQ 2 Multiplier",
+          "unit": "%",
+          "values": [
+            30,
+            33,
+            36,
+            39,
+            42,
+            45,
+            48,
+            51,
+            54,
+            58,
+            62,
+            68
+          ]
+        },
+        {
+          "name": "BATK SEQ 3 Multiplier",
+          "unit": "%",
+          "values": [
+            37,
+            41,
+            45,
+            48,
+            52,
+            56,
+            59,
+            63,
+            67,
+            71,
+            77,
+            84
+          ]
+        },
+        {
+          "name": "BATK SEQ 4 Multiplier",
+          "unit": "%",
+          "values": [
+            57,
+            62,
+            68,
+            73,
+            79,
+            85,
+            90,
+            96,
+            102,
+            109,
+            117,
+            127
+          ]
+        },
+        {
+          "name": "Finisher ATK Multiplier",
+          "unit": "%",
+          "values": [
+            400,
+            440,
+            480,
+            520,
+            560,
+            600,
+            640,
+            680,
+            720,
+            770,
+            830,
+            900
+          ]
+        },
+        {
+          "name": "Dive ATK Multiplier",
+          "unit": "%",
+          "values": [
+            80,
+            88,
+            96,
+            104,
+            112,
+            120,
+            128,
+            136,
+            144,
+            154,
+            166,
+            180
+          ]
+        }
+      ]
+    },
+    "battle_skill": {
+      "name": "Protocol ω: Strike",
+      "stats": [
+        {
+          "name": "SP Cost",
+          "values": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "DMG Multiplier",
+          "unit": "%",
+          "values": [
+            178,
+            196,
+            213,
+            231,
+            249,
+            267,
+            285,
+            302,
+            320,
+            342,
+            369,
+            400
+          ]
+        },
+        {
+          "name": "Stagger",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ]
+    },
+    "combo_skill": {
+      "name": "Instant Protocol: Chain",
+      "stats": [
+        {
+          "name": "Cooldown",
+          "values": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            19
+          ]
+        },
+        {
+          "name": "DMG Multiplier",
+          "unit": "%",
+          "values": [
+            80,
+            88,
+            96,
+            104,
+            112,
+            120,
+            128,
+            136,
+            144,
+            154,
+            166,
+            180
+          ]
+        },
+        {
+          "name": "Stagger",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "Electrify Duration (s)",
+          "values": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "name": "Ultimate Energy Gain",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ]
+    },
+    "ultimate": {
+      "name": "Protocol ε: 70.41K",
+      "stats": [
+        {
+          "name": "Ultimate Energy Cost",
+          "values": [
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80
+          ]
+        },
+        {
+          "name": "DMG Multiplier",
+          "unit": "%",
+          "values": [
+            445,
+            489,
+            534,
+            578,
+            622,
+            667,
+            711,
+            756,
+            800,
+            856,
+            923,
+            1000
+          ]
+        },
+        {
+          "name": "Stagger",
+          "values": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ]
+        }
+      ]
+    }
+  }
+}

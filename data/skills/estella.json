@@ -1,0 +1,361 @@
+{
+  "id": "estella",
+  "name": "Estella",
+  "ranks": 12,
+  "skills": {
+    "basic_attack": {
+      "name": "Audio Noise",
+      "stats": [
+        {
+          "name": "BATK SEQ 1 Multiplier",
+          "unit": "%",
+          "values": [
+            25,
+            28,
+            30,
+            33,
+            35,
+            38,
+            40,
+            43,
+            45,
+            48,
+            52,
+            56
+          ]
+        },
+        {
+          "name": "BATK SEQ 2 Multiplier",
+          "unit": "%",
+          "values": [
+            30,
+            33,
+            36,
+            39,
+            42,
+            45,
+            48,
+            51,
+            54,
+            58,
+            62,
+            68
+          ]
+        },
+        {
+          "name": "BATK SEQ 3 Multiplier",
+          "unit": "%",
+          "values": [
+            35,
+            39,
+            42,
+            46,
+            49,
+            53,
+            56,
+            60,
+            63,
+            67,
+            73,
+            79
+          ]
+        },
+        {
+          "name": "BATK SEQ 4 Multiplier",
+          "unit": "%",
+          "values": [
+            40,
+            44,
+            48,
+            52,
+            56,
+            60,
+            64,
+            68,
+            72,
+            77,
+            83,
+            90
+          ]
+        },
+        {
+          "name": "Finisher ATK Multiplier",
+          "unit": "%",
+          "values": [
+            400,
+            440,
+            480,
+            520,
+            560,
+            600,
+            640,
+            680,
+            720,
+            770,
+            830,
+            900
+          ]
+        },
+        {
+          "name": "Dive ATK Multiplier",
+          "unit": "%",
+          "values": [
+            80,
+            88,
+            96,
+            104,
+            112,
+            120,
+            128,
+            136,
+            144,
+            154,
+            166,
+            180
+          ]
+        }
+      ]
+    },
+    "battle_skill": {
+      "name": "Onomatopoeia",
+      "stats": [
+        {
+          "name": "SP Cost",
+          "values": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "DMG Multiplier",
+          "unit": "%",
+          "values": [
+            156,
+            171,
+            187,
+            202,
+            218,
+            234,
+            249,
+            265,
+            280,
+            300,
+            323,
+            350
+          ]
+        },
+        {
+          "name": "Stagger",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ]
+    },
+    "combo_skill": {
+      "name": "Distortion",
+      "stats": [
+        {
+          "name": "Cooldown",
+          "values": [
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            17
+          ]
+        },
+        {
+          "name": "DMG Multiplier Against Non-Solidified Enemies",
+          "unit": "%",
+          "values": [
+            160,
+            176,
+            192,
+            208,
+            224,
+            240,
+            256,
+            272,
+            288,
+            308,
+            332,
+            360
+          ]
+        },
+        {
+          "name": "DMG Multiplier Against Solidified Enemies",
+          "unit": "%",
+          "values": [
+            280,
+            308,
+            336,
+            364,
+            392,
+            420,
+            448,
+            476,
+            504,
+            539,
+            581,
+            630
+          ]
+        },
+        {
+          "name": "Stagger",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "Physical Susceptibility Multiplier",
+          "unit": "%",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            15,
+            15,
+            15
+          ]
+        },
+        {
+          "name": "Physical Susceptibility Duration",
+          "values": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        },
+        {
+          "name": "Ultimate Energy Gain",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ]
+    },
+    "ultimate": {
+      "name": "Tremolo",
+      "stats": [
+        {
+          "name": "Ultimate Energy Cost",
+          "values": [
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70
+          ]
+        },
+        {
+          "name": "DMG Multiplier",
+          "unit": "%",
+          "values": [
+            489,
+            538,
+            586,
+            635,
+            684,
+            733,
+            782,
+            831,
+            880,
+            941,
+            1014,
+            1100
+          ]
+        },
+        {
+          "name": "Stagger",
+          "values": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            20,
+            20,
+            20
+          ]
+        }
+      ]
+    }
+  }
+}

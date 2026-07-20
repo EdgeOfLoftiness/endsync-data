@@ -1,0 +1,1628 @@
+{
+  "label": "AVYWENNA",
+  "guideCharId": "avywenna",
+  "tagline": {
+    "es": "Striker eléctrica de lanzas. Despliega Thunderlances por el campo con sus Combos y los recoge todos de golpe con el Battle Skill — casi todo su daño sale en ese recall, en una ventana muy corta. Las lanzas vuelven en línea recta, así que el posicionamiento lo es todo.",
+    "en": "Electric lance Striker. She scatters Thunderlances across the field with her Combo Skills and yanks them all back at once with her Battle Skill — almost all her damage lands on that recall, in a very short window. The lances return in a straight line, so positioning is everything."
+  },
+  "comps": [
+    {
+      "name": {
+        "es": "Maygi - Eléctrico puro",
+        "en": "Maygi - Full Electric"
+      },
+      "subtitle": {
+        "es": "Arclight · Perlica · Antal",
+        "en": "Arclight · Perlica · Antal"
+      },
+      "blurb": {
+        "es": "El equipo eléctrico de referencia en jefe único: acumula lanzas en el campo y las recoge todas de golpe con todos los buffs apilados.",
+        "en": "The benchmark Electric single-target team: stack lances on the field and recall them all at once with every buff stacked."
+      },
+      "guideVideoId": "av1",
+      "simple": {
+        "whatItDoes": {
+          "es": "Equipo eléctrico de un solo objetivo, pensado para jefes. Perlica mantiene el Electric Infliction que Avywenna necesita para funcionar, Arclight se come ese estado para devolver SP, y Antal sube Amp para que el burst pegue más. Vas soltando lanzas con los Combos de Avywenna y, cuando todo está buffeado, las recoges todas de golpe con su Battle Skill. Ahí cae el daño.",
+          "en": "Single-target Electric team built for bosses. Perlica keeps up the Electric Infliction Avywenna needs to function, Arclight eats that status to refund SP, and Antal raises Amp so the burst hits harder. You keep dropping lances with Avywenna's Combo Skills and, once everything's buffed, you pull them all back at once with her Battle Skill. That's where the damage lands."
+        },
+        "steps": [
+          {
+            "who": "perlica",
+            "do": {
+              "es": "Mantén un Electric Infliction o Electrification en el jefe con Perlica. Sin ese estado, el Combo Skill de Avywenna no se dispara.",
+              "en": "Keep an Electric Infliction or Electrification on the boss with Perlica. Without that status, Avywenna's Combo Skill won't trigger."
+            }
+          },
+          {
+            "who": "avywenna",
+            "do": {
+              "es": "Con Avywenna: lanza un Final Strike sobre el jefe y luego encadena Combo Skills. Cada Combo deja 3 lanzas clavadas en el campo.",
+              "en": "With Avywenna: land a Final Strike on the boss, then chain Combo Skills. Each Combo drops 3 lances on the field."
+            }
+          },
+          {
+            "who": "antal",
+            "do": {
+              "es": "Antes de recoger, sube todos los buffs: Antal pone Amp y Susceptibility, Perlica refresca el Electric, y Arclight aporta su buff. Buffea MIENTRAS las lanzas están clavadas, no después.",
+              "en": "Before you recall, stack all the buffs: Antal applies Amp and Susceptibility, Perlica refreshes the Electric, and Arclight adds her buff. Buff WHILE the lances are planted, not after."
+            }
+          },
+          {
+            "who": "avywenna",
+            "do": {
+              "es": "No recojas con el campo medio vacío: el Battle Skill por sí solo pega poco, lo que vale es retraer muchas lanzas de una. Cuando tengas 6 o más (2 Combos + la lanza EX) y los buffs arriba, recoge todo con el Battle Skill de Avywenna. Vuelven en línea recta y atraviesan al jefe — ahí está el grueso del daño.",
+              "en": "Don't recall with a half-empty field: the Battle Skill on its own hits for little, what matters is retracting many lances at once. Once you have 6+ (2 Combos + the EX lance) and the buffs are up, pull everything back with Avywenna's Battle Skill. They fly back in a straight line and pierce the boss — that's the bulk of the damage."
+            }
+          },
+          {
+            "who": "avywenna",
+            "do": {
+              "es": "Mete el Ultimate de Avywenna en la ventana de stagger: clava una lanza EX (más fuerte) y deja 10% de Electric Susceptibility para que el resto del burst pegue más.",
+              "en": "Fire Avywenna's Ultimate inside the stagger window: it plants an EX lance (much stronger) and leaves 10% Electric Susceptibility so the rest of the burst hits harder."
+            }
+          },
+          {
+            "do": {
+              "es": "Repite. Recuerda cambiar a un personaje eléctrico para los Finishers de stagger — el ataque básico de Avywenna es Físico y no aprovecha los buffs.",
+              "en": "Repeat. Remember to swap to an Electric operator for stagger Finishers — Avywenna's basic attack is Physical and doesn't benefit from the buffs."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "avywenna",
+            "line": {
+              "es": "JET es su mejor arma por mucho. Gear: Bonekrusha 3pc (Poncho + 2 Figurine) + un guante flex (Pulser Labs Gloves o Yinglung Gloves). Casi todo su daño es daño de Battle Skill, y este set lo dispara.",
+              "en": "JET is her best weapon by a mile. Gear: Bonekrusha 3pc (Poncho + 2 Figurine) + a flex glove (Pulser Labs Gloves or Yinglung Gloves). Almost all her damage is Battle Skill damage, and this set powers exactly that."
+            }
+          },
+          {
+            "id": "perlica",
+            "line": {
+              "es": "Set Pulser Labs. Es la fuente de Electric Infliction del equipo — sin ella, Avywenna no arranca.",
+              "en": "Pulser Labs set. She's the team's Electric Infliction source — without her, Avywenna doesn't get going."
+            }
+          },
+          {
+            "id": "arclight",
+            "line": {
+              "es": "Set Pulser Labs. Se come el Electrification para devolver SP, lo que te deja meter más Battle Skills.",
+              "en": "Pulser Labs set. She consumes Electrification to refund SP, which lets you fit in more Battle Skills."
+            }
+          },
+          {
+            "id": "antal",
+            "line": {
+              "es": "Detonation Unit + set Eternal Xiranite. Su Amp es el multiplicador más importante del equipo y casi no gasta SP.",
+              "en": "Detonation Unit + Eternal Xiranite set. His Amp is the team's most important multiplier and he barely spends SP."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "El equipo eléctrico de referencia para un solo objetivo. Los cuatro miembros comparten elemento, lo que hace que la economía de SP se sostenga sola: Arclight se come las Electrification que Perlica reparte y devuelve SP, y Antal apenas pide recursos para mantener su Amp. Pero la clave del daño no está en spamear el Battle Skill — por sí solo hace un daño mínimo; lo que vale es cuántas lanzas retrae. La lógica es aguantar: clava el máximo de lanzas que puedas con los Combo Skills, suma la lanza EX del Ultimate, alinea todos los buffs y recógelo todo de una con un solo recall. El máximo teórico son las lanzas de 3 Combo Skills (9) más la EX, pero clavarlas y recogerlas a tiempo es muy justo — una activación menos, 2 Combos (6 lanzas) más la EX, ya es un recall enorme y mucho más consistente. No es difícil de entender, pero exige posicionar bien las lanzas, no recoger antes de tiempo y sincronizar el burst con el stagger.",
+        "en": "The benchmark Electric team for single-target. All four members share an element, which makes the SP economy sustain itself: Arclight eats the Electrification Perlica hands out and refunds SP, and Antal barely asks for resources to keep his Amp running. But the damage doesn't come from spamming the Battle Skill — on its own it does minimal damage; what matters is how many lances it retracts. The logic is to hold: plant as many lances as you can with the Combo Skills, add the Ultimate's EX lance, line up every buff, and pull it all back in one big recall. The theoretical max is the lances from 3 Combo Skills (9) plus the EX, but planting and recalling them all in time is very tight — one activation less, 2 Combos (6 lances) plus the EX, is already a huge recall and far more consistent. It isn't hard to understand, but it demands good lance positioning, not recalling early, and syncing the burst to the stagger."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Alta",
+          "en": "High"
+        },
+        "content": {
+          "es": "Jefe / Single-target",
+          "en": "Boss / Single-target"
+        },
+        "tags": [
+          {
+            "es": "Eléctrico puro",
+            "en": "Full Electric"
+          },
+          {
+            "es": "Burst",
+            "en": "Burst"
+          },
+          {
+            "es": "Gestión de SP",
+            "en": "SP management"
+          },
+          {
+            "es": "Posicionamiento",
+            "en": "Positioning"
+          },
+          {
+            "es": "Timing de recall",
+            "en": "Recall timing"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "Burst altísimo en un solo objetivo — cuando alineas todos los buffs antes del recall, un único Battle Skill recoge 6+ lanzas con Amp, Susceptibility y Arts DMG Taken activos a la vez.",
+          "en": "Very high single-target burst — when you line up every buff before the recall, a single Battle Skill pulls 6+ lances with Amp, Susceptibility and Arts DMG Taken all active at once."
+        },
+        {
+          "es": "La economía de SP se sostiene sola: Arclight devuelve SP al consumir Electrification y Antal apenas gasta, así que tienes recursos de sobra para mantener las lanzas en el campo y financiar los Ultimates sin verte forzado a recoger antes de tiempo.",
+          "en": "The SP economy holds itself up: Arclight refunds SP when consuming Electrification and Antal barely spends, so you have resources to spare to keep lances on the field and fund the Ultimates without being forced to recall early."
+        },
+        {
+          "es": "Avywenna no consume las Inflictions — las deja intactas para que Arclight las aproveche. Los kits no se pisan entre sí.",
+          "en": "Avywenna doesn't consume the Inflictions — she leaves them intact for Arclight to use. The kits don't step on each other."
+        },
+        {
+          "es": "Antal es accesible, consistente y aporta un buff durante toda la pelea, no solo en el burst. Su Amp es de los multiplicadores más difíciles de conseguir por otra vía.",
+          "en": "Antal is accessible, consistent, and provides a buff the entire fight, not just during the burst. His Amp is one of the harder multipliers to get any other way."
+        }
+      ],
+      "cons": [
+        {
+          "es": "Todo el output se concentra en una ventana muy corta. Si llegas al recall con un buff caído o las lanzas mal puestas, pierdes la mayor parte del burst de esa vuelta.",
+          "en": "All the output is crammed into a very short window. If you reach the recall with a buff dropped or the lances badly placed, you lose most of that loop's burst."
+        },
+        {
+          "es": "Las lanzas vuelven en línea recta y solo pegan a lo que esté detrás del enemigo respecto a Avywenna. En jefes que se mueven mucho, mantener el ángulo cuesta.",
+          "en": "The lances return in a straight line and only hit whatever sits behind the enemy relative to Avywenna. On bosses that move a lot, holding the angle is work."
+        },
+        {
+          "es": "Es solo single-target — Antal no agrupa ni aporta reacciones de área. Para contenido con varios enemigos este equipo se queda corto.",
+          "en": "It's single-target only — Antal doesn't group enemies or bring AoE reactions. For multi-enemy content this team falls short."
+        },
+        {
+          "es": "Avywenna rinde mucho mejor con Potenciales (P1 hace la energía más holgada, P2 abre la rotación de 12 lanzas). A P0 la gestión de SP es más justa.",
+          "en": "Avywenna performs much better with Potentials (P1 loosens the energy, P2 opens the 12-lance rotation). At P0 the SP management is tighter."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "El máximo teórico de lanzas (y por qué 1 menos basta)",
+            "en": "The theoretical max of lances (and why 1 less is enough)"
+          },
+          "body": {
+            "es": "Todo el daño de Avywenna sale del recall, y un recall vale lo que retrae: el Battle Skill por sí solo hace un daño mínimo. Por eso no se spamea — cada recall vacía el campo, así que recoger con pocas lanzas tira el potencial. El máximo teórico es clavar las lanzas de 3 Combo Skills (9) más la lanza EX del Ultimate y retraerlas todas de golpe: 10 a P0. El problema es que las del tercer Combo casi expiran antes de que llegues a recogerlas, así que clavar las 9 a tiempo es durísimo. La regla práctica es una activación menos: con 2 Combo Skills (6 lanzas) más la EX ya tienes un recall enorme y mucho más fácil de ejecutar. (P2 alarga la duración de las lanzas y abre rotaciones de 12 + EX, pero la lógica no cambia.)",
+            "en": "All of Avywenna's damage comes from the recall, and a recall is worth whatever it retracts: the Battle Skill on its own does minimal damage. That's why you don't spam it — each recall empties the field, so recalling with few lances throws away the potential. The theoretical max is planting the lances from 3 Combo Skills (9) plus the Ultimate's EX lance and retracting them all at once: 10 at P0. The catch is that the third Combo's lances are nearly expired by the time you reach the recall, so planting all 9 in time is brutal. The practical rule is one activation less: with 2 Combo Skills (6 lances) plus the EX you already have a huge recall and one that's far easier to execute. (P2 extends the lances' duration and opens 12 + EX rotations, but the logic doesn't change.)"
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Cada lanza paga energía de Ultimate",
+            "en": "Every lance pays Ultimate energy"
+          },
+          "body": {
+            "es": "El talento Expedited Delivery le da a Avywenna 4 de energía de Ultimate (6 a P1) por cada lanza que pega, ya sea al lanzarse o al volver. Como su Combo Skill no genera energía por sí solo, este talento es el que financia todo. Un recall que recoge 6 lanzas con un Thunderlance EX es una inyección enorme de energía — por eso el recall no solo es la ventana de daño, también es el motor del siguiente Ultimate.",
+            "en": "The Expedited Delivery talent gives Avywenna 4 Ultimate energy (6 at P1) for every lance that hits, whether on the throw or on the return. Since her Combo Skill generates no energy on its own, this talent is what funds everything. A recall that pulls 6 lances plus a Thunderlance EX is a huge energy injection — which is why the recall isn't just the damage window, it's also the engine for the next Ultimate."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Arclight cierra la economía de SP",
+            "en": "Arclight closes the SP economy"
+          },
+          "body": {
+            "es": "Avywenna no consume las Electrification, así que se las deja todas a Arclight. Cuando Arclight las consume con su Battle Skill, recupera SP para el equipo — y ese SP vuelve a convertirse en Battle Skills de Avywenna, que vuelven a pagar energía de Ultimate. Es un bucle: Perlica aplica, Arclight consume y devuelve, Avywenna gasta. Con esa rueda girando, tienes recursos para todos los recalls y Ultimates que pide la rotación sin quedarte seco.",
+            "en": "Avywenna doesn't consume the Electrification, so she leaves all of it for Arclight. When Arclight consumes it with her Battle Skill, she recovers SP for the team — and that SP turns back into Avywenna Battle Skills, which pay Ultimate energy again. It's a loop: Perlica applies, Arclight consumes and refunds, Avywenna spends. With that wheel spinning, you have the resources for every recall and Ultimate the rotation asks for without running dry."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Perlica es el Electric que Avywenna necesita",
+            "en": "Perlica is the Electric Avywenna needs"
+          },
+          "body": {
+            "es": "El Combo Skill de Avywenna solo se dispara si hay un Electric Infliction o Electrification activo cuando conecta un Final Strike. Perlica es la que garantiza ese estado a demanda, sin depender del elemento del carry. Y su Electrification no es solo un requisito: aplica Arts DMG Taken, uno de los multiplicadores más raros y valiosos del juego, que amplifica todo lo que pega Avywenna.",
+            "en": "Avywenna's Combo Skill only triggers if there's an active Electric Infliction or Electrification when a Final Strike connects. Perlica is the one who guarantees that status on demand, independent of the carry's element. And her Electrification isn't just a requirement: it applies Arts DMG Taken, one of the rarest and most valuable multipliers in the game, which amplifies everything Avywenna hits."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Antal apila Amp sobre el Arts DMG Taken",
+            "en": "Antal stacks Amp on top of Arts DMG Taken"
+          },
+          "body": {
+            "es": "Antal aporta Amp y Susceptibility, y casi no pide SP para hacerlo. La clave es que Amp y el Arts DMG Taken de Perlica son multiplicadores SEPARADOS: se multiplican entre sí en lugar de competir. Esa combinación es el mayor pico de daño que puedes apilar sobre el recall. Si tu arma lo permite (Detonation Unit), alinea el Combo Skill de Antal con el stagger para disparar también el efecto de Arts Burst.",
+            "en": "Antal provides Amp and Susceptibility, and asks for almost no SP to do it. The key is that Amp and Perlica's Arts DMG Taken are SEPARATE multipliers: they multiply each other instead of competing. That combination is the biggest damage spike you can stack onto the recall. If your weapon allows it (Detonation Unit), align Antal's Combo Skill with the stagger to also trigger the Arts Burst effect."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Apertura — montar las lanzas",
+            "en": "Opener — set up the lances"
+          },
+          "action": {
+            "es": "La apertura no busca daño: busca dejar lanzas en el campo y llegar al break del jefe con el 100% de energía en los cuatro. Cada personaje tiene su cadencia fija. Antal solo coloca su Battle Skill UNA vez al inicio; a partir de ahí se limita a pulsar su Combo cuando Perlica se lo dispara. Perlica usa su Battle Skill cada vez que su Combo está listo, para que el Electric Infliction nunca se caiga — y su Combo siempre dispara el de Arclight. Avywenna dodge-cancela los básicos (de paso te recoloca para el Combo) y suelta Combos en cooldown para ir clavando lanzas.",
+            "en": "The opener isn't about damage: it's about leaving lances on the field and reaching the boss's break with 100% energy on all four. Each character has a fixed cadence. Antal only places his Battle Skill ONCE at the start; from then on he just presses his Combo whenever Perlica triggers it. Perlica uses her Battle Skill every time her Combo is ready, so the Electric Infliction never drops — and her Combo always triggers Arclight's. Avywenna dodge-cancels her basics (which also repositions you for the Combo) and drops Combos on cooldown to keep planting lances."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Antal Battle Skill — una sola vez en toda la pelea. A partir de aquí, solo su Combo (cuando Perlica lo dispare).",
+                "en": "Antal Battle Skill — once for the whole fight. From here on, only his Combo (whenever Perlica triggers it)."
+              }
+            },
+            {
+              "do": {
+                "es": "Perlica Battle Skill cada vez que su Combo esté listo — mantiene el Electric Infliction que dispara el Combo de Avywenna.",
+                "en": "Perlica Battle Skill every time her Combo is ready — keeps up the Electric Infliction that triggers Avywenna's Combo."
+              },
+              "key": true
+            },
+            {
+              "do": {
+                "es": "El Combo de Perlica dispara el de Arclight. Cuando pase, espera un segundo y mete Battle Skill + Combo de Arclight.",
+                "en": "Perlica's Combo triggers Arclight's. When it does, wait a second and slot Arclight's Battle Skill + Combo."
+              }
+            },
+            {
+              "do": {
+                "es": "Avywenna: dodge-cancel de los básicos + Combo en cooldown (cada Combo clava 3 lanzas).",
+                "en": "Avywenna: dodge-cancel the basics + Combo on cooldown (each Combo plants 3 lances)."
+              }
+            },
+            {
+              "do": {
+                "es": "Solo en la 1ª vuelta (arrancando de 0 energía): mete un Battle Skill de Avywenna entre el 1er y el 2º Combo, para generar energía.",
+                "en": "First loop only (starting from 0 energy): slot one Avywenna Battle Skill between the 1st and 2nd Combo, to generate energy."
+              },
+              "note": {
+                "es": "Pega poco porque casi no hay lanzas — su función no es el daño, es encender el motor del primer Ultimate.",
+                "en": "It hits for little because there are barely any lances — its job isn't damage, it's to kick-start the engine for the first Ultimate."
+              }
+            }
+          ],
+          "tip": {
+            "es": "Avywenna TIENE que ir antes que Perlica en el orden del equipo, para que su Combo tenga prioridad sobre el de Perlica. Mantén esta cadencia hasta el 3er Battle Skill de Perlica: ahí llegas al break del jefe con todos al 100% de energía, listo para el burst. Apunta a 2 Combos más la lanza EX antes del recall, no a 3 (clavar las 9 a tiempo casi nunca sale).",
+            "en": "Avywenna MUST be placed before Perlica in the team order, so her Combo has priority over Perlica's. Keep this cadence until Perlica's 3rd Battle Skill: that's when you reach the boss's break with everyone at 100% energy, ready to burst. Aim for 2 Combos plus the EX lance before the recall, not 3 (planting all 9 in time almost never works out)."
+          }
+        },
+        {
+          "phase": {
+            "es": "Burst — recall con todo apilado",
+            "en": "Burst — recall with everything stacked"
+          },
+          "action": {
+            "es": "Aquí cae todo el daño. Llegas con el 100% de energía en los cuatro justo en el break del jefe, después del 3er Battle Skill de Perlica. El orden de las Ultimates es fijo: Antal → Arclight → Avywenna → Perlica (cada uno Combo + Ultimate). El detalle clave es que la Electrification que aplica la Ultimate de Arclight es MUY retardada — tienes que esperarla antes de recoger, o el recall sale sin ese buff.",
+            "en": "This is where all the damage lands. You arrive with 100% energy on all four right at the boss's break, after Perlica's 3rd Battle Skill. The Ultimate order is fixed: Antal → Arclight → Avywenna → Perlica (each one Combo + Ultimate). The key detail is that the Electrification from Arclight's Ultimate is VERY delayed — you have to wait for it before recalling, or the recall goes out without that buff."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Antal: Combo + Ultimate — Amp y Susceptibility (con Detonation Unit, dispara el Arts Burst).",
+                "en": "Antal: Combo + Ultimate — Amp and Susceptibility (with Detonation Unit, it triggers the Arts Burst)."
+              }
+            },
+            {
+              "do": {
+                "es": "Arclight: Combo + Ultimate — aplica Electrification, pero su aplicación es muy retardada. Espérala.",
+                "en": "Arclight: Combo + Ultimate — applies Electrification, but its application is very delayed. Wait for it."
+              },
+              "key": true
+            },
+            {
+              "do": {
+                "es": "Avywenna: Combo + Ultimate — clava la lanza EX y deja 10% de Electric Susceptibility.",
+                "en": "Avywenna: Combo + Ultimate — plants the EX lance and leaves 10% Electric Susceptibility."
+              }
+            },
+            {
+              "do": {
+                "es": "Perlica: Combo + Ultimate — cierra la ventana de buffs.",
+                "en": "Perlica: Combo + Ultimate — closes the buff window."
+              }
+            },
+            {
+              "do": {
+                "es": "Espera a que caiga la Electrification retardada de Arclight, y mete un último Combo de Avywenna.",
+                "en": "Wait for Arclight's delayed Electrification to land, and slot one last Avywenna Combo."
+              },
+              "key": true
+            },
+            {
+              "do": {
+                "es": "Battle Skill de Avywenna — el recall a máxima potencia. Con todos los buffs arriba, recoge todas las lanzas: este es el nuke.",
+                "en": "Avywenna Battle Skill — the full-power recall. With every buff up, pull back all the lances: this is the nuke."
+              },
+              "key": true
+            },
+            {
+              "do": {
+                "es": "Finisher con un personaje eléctrico (NO con el básico Físico de Avywenna).",
+                "en": "Finisher with an Electric operator (NOT Avywenna's Physical basic)."
+              },
+              "note": {
+                "es": "Su ataque básico es Físico y no aprovecha los buffs eléctricos/Arts del equipo.",
+                "en": "Her basic attack is Physical and doesn't benefit from the team's Electric/Arts buffs."
+              }
+            }
+          ],
+          "tip": {
+            "es": "Esta rotación se reproduce en bucle, y el loop pega MÁS que la apertura: clavas 13 lanzas en vez de 10 (asumiendo P2). Sin P2, juega el loop igual que la apertura, porque las primeras lanzas expiran antes de que llegues a recogerlas. Y si el jefe está a punto de morir o cambiar de fase (sin importarte brickear la siguiente vuelta), encadena otra Ultimate de Avywenna: las lanzas te dejan energía de sobra para ello.",
+            "en": "This rotation loops, and the loop hits HARDER than the opener: you plant 13 lances instead of 10 (assuming P2). Without P2, play the loop the same as the opener, because the first set of lances despawns before you get around to recalling them. And if the boss is about to die or phase (and you don't mind bricking the next loop), chain another Avywenna Ultimate: the lances leave you plenty of energy for it."
+          }
+        }
+      ],
+      "rotationVariants": [
+        {
+          "name": {
+            "es": "Versión SP-friendly (doble trigger de Combo)",
+            "en": "SP-friendly version (double Combo trigger)"
+          },
+          "description": {
+            "es": "Si vas holgado de SP, hay una versión que renuncia a un Combo Skill de Arclight pero saca más valor del burst. La idea es adelantar la secuencia y meter un Battle Skill de Perlica después de que el Ultimate de Arclight aplique la Electrification forzada, dejando que el Final Strike que staggerea (y dispara los Combos de Avywenna y Perlica) ocurra DESPUÉS del Battle y Combo Skill de Arclight.",
+            "en": "If you're flush with SP, there's a version that gives up an Arclight Combo Skill but squeezes more out of the burst. The idea is to bring the sequence forward and slot a Perlica Battle Skill in after Arclight's Ultimate applies the forced Electrification, letting the staggering Final Strike (which fires Avywenna's and Perlica's Combos) happen AFTER Arclight's Battle and Combo Skill."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Por qué compensa",
+                "en": "Why it pays off"
+              },
+              "action": {
+                "es": "Así no hace falta retener el Battle Skill de Arclight: el Combo de Avywenna lo dispara el Electric Infliction de Perlica en vez de la Electrification forzada del Ultimate. El resultado es un Combo de Avywenna disparado DOS veces — una por el Battle Skill de Arclight y otra por el Combo de Perlica — en lugar de una sola. El Combo de Antal también puede retrasarse para esto sin gastar SP, aunque eso significa renunciar a un Arts Burst para los efectos de arma/set.",
+                "en": "This way you don't have to hold Arclight's Battle Skill: Avywenna's Combo is triggered by Perlica's Electric Infliction instead of the Ultimate's forced Electrification. The result is Avywenna's Combo firing TWICE — once from Arclight's Battle Skill and once from Perlica's Combo — instead of just once. Antal's Combo can also be delayed for this with no SP cost, though that means giving up an Arts Burst for weapon/set triggers."
+              },
+              "steps": [
+                {
+                  "do": {
+                    "es": "Adelanta la secuencia: mete un Battle Skill de Perlica después de que el Ultimate de Arclight aplique la Electrification forzada.",
+                    "en": "Bring the sequence forward: slot a Perlica Battle Skill in after Arclight's Ultimate applies the forced Electrification."
+                  },
+                  "note": {
+                    "es": "Solo si vas holgado de SP: esta versión renuncia a un Combo Skill de Arclight pero saca más valor del burst.",
+                    "en": "Only if you're flush with SP: this version gives up an Arclight Combo Skill but squeezes more out of the burst."
+                  }
+                },
+                {
+                  "do": {
+                    "es": "Mete el Battle y el Combo Skill de Arclight — no hace falta retener el Battle Skill.",
+                    "en": "Get Arclight's Battle and Combo Skill in — you don't have to hold the Battle Skill."
+                  },
+                  "note": {
+                    "es": "El Combo de Avywenna lo dispara el Electric Infliction de Perlica en vez de la Electrification forzada del Ultimate.",
+                    "en": "Avywenna's Combo is triggered by Perlica's Electric Infliction instead of the Ultimate's forced Electrification."
+                  }
+                },
+                {
+                  "do": {
+                    "es": "Deja que el Final Strike que staggerea ocurra DESPUÉS del Battle y Combo Skill de Arclight.",
+                    "en": "Let the staggering Final Strike happen AFTER Arclight's Battle and Combo Skill."
+                  },
+                  "note": {
+                    "es": "Ese Final Strike dispara los Combos de Avywenna y Perlica: el resultado es un Combo de Avywenna disparado DOS veces — una por el Battle Skill de Arclight y otra por el Combo de Perlica — en lugar de una sola.",
+                    "en": "That Final Strike fires Avywenna's and Perlica's Combos: the result is Avywenna's Combo firing TWICE — once from Arclight's Battle Skill and once from Perlica's Combo — instead of just once."
+                  },
+                  "key": true
+                },
+                {
+                  "do": {
+                    "es": "El Combo de Antal también puede retrasarse para esto sin gastar SP.",
+                    "en": "Antal's Combo can also be delayed for this with no SP cost."
+                  },
+                  "note": {
+                    "es": "Eso significa renunciar a un Arts Burst para los efectos de arma/set.",
+                    "en": "That means giving up an Arts Burst for weapon/set triggers."
+                  }
+                }
+              ],
+              "tip": {
+                "es": "Adelantar el Finisher al inicio del stagger también ayuda: la recuperación de SP que da puede sostener Battle Skills extra para más energía de Ultimate si lo necesitas.",
+                "en": "Moving the Finisher to the start of the stagger helps too: the SP recovery it provides can sustain extra Battle Skills for more Ultimate energy if you need it."
+              }
+            }
+          ]
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "avywenna",
+          "order": "S1 > S3 > S2",
+          "note": {
+            "es": "S1 (Battle Skill) es el recall — su mayor fuente de daño. S3 (Ultimate) clava la lanza EX y el Electric Susceptibility. S2 (Combo Skill) va último: solo tiene 1 instancia de daño y no genera energía por sí solo. El ataque básico se sitúa entre Ultimate y Combo, pero se usa poco (es Físico).",
+            "en": "S1 (Battle Skill) is the recall — her biggest damage source. S3 (Ultimate) plants the EX lance and the Electric Susceptibility. S2 (Combo Skill) goes last: it only has 1 damage instance and generates no energy on its own. The basic attack sits between Ultimate and Combo, but it's used sparingly (it's Physical)."
+          }
+        },
+        {
+          "charId": "perlica",
+          "order": "S1 > S3 > S2",
+          "note": {
+            "es": "S1 (Battle Skill) es la fuente principal de Electric Infliction. S3 (Ultimate) para la ventana de buff. S2 (Combo Skill) se usa igual para aplicar Electrification aunque sea el último en prioridad de subida.",
+            "en": "S1 (Battle Skill) is the main Electric Infliction source. S3 (Ultimate) for the buff window. S2 (Combo Skill) still gets used to apply Electrification even if it's last in leveling priority."
+          }
+        },
+        {
+          "charId": "arclight",
+          "order": "S1 > S3 > S2",
+          "note": {
+            "es": "S1 (Battle Skill) es lo que consume Electrification y devuelve SP — el corazón de su rol. S3 (Ultimate) aplica Electric Infliction/Electrification cuando vas corto.",
+            "en": "S1 (Battle Skill) is what consumes Electrification and refunds SP — the heart of her role. S3 (Ultimate) applies Electric Infliction/Electrification when you're short."
+          }
+        },
+        {
+          "charId": "antal",
+          "order": "S1 > S3 > S2",
+          "note": {
+            "es": "Battle Skill y Ultimate van casi a la par: ambos disparan Amp/Susceptibility y el efecto de set Eternal Xiranite. S2 (Combo Skill) por encima del básico, sobre todo si usas Detonation Unit (lo activa con Arts Burst).",
+            "en": "Battle Skill and Ultimate go nearly even: both trigger Amp/Susceptibility and the Eternal Xiranite set effect. S2 (Combo Skill) above the basic, especially with Detonation Unit (it activates via Arts Burst)."
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Recoger las lanzas antes de tener los buffs apilados. El recall es el momento del daño — si Amp, Susceptibility o el Electric Infliction no están arriba cuando pulsas el Battle Skill, tiras la vuelta. Buffea durante el vuelo de las lanzas, no después.",
+          "en": "Recalling the lances before the buffs are stacked. The recall is the damage moment — if Amp, Susceptibility or the Electric Infliction aren't up when you press Battle Skill, you waste the loop. Buff during the lances' flight, not after."
+        },
+        {
+          "es": "Olvidar a Perlica antes del recall. Sin Electric Infliction en el jefe, el Combo de Avywenna no se dispara y Arclight no tiene nada que consumir para devolver SP — la rueda se para.",
+          "en": "Forgetting Perlica before the recall. Without Electric Infliction on the boss, Avywenna's Combo won't trigger and Arclight has nothing to consume to refund SP — the wheel stops."
+        },
+        {
+          "es": "Poner las lanzas en direcciones opuestas. Vuelven en línea recta hacia Avywenna y solo pegan a lo que quede detrás del jefe respecto a ella — lanzas mal colocadas no pegan en el recall.",
+          "en": "Planting lances in opposite directions. They return in a straight line toward Avywenna and only hit whatever sits behind the boss relative to her — badly placed lances miss on the recall."
+        },
+        {
+          "es": "Hacer los Finishers de stagger con Avywenna. Su ataque básico es Físico: cambia a un operador eléctrico para el Finisher y deja que Avywenna solo monte y recoja lanzas.",
+          "en": "Doing the stagger Finishers with Avywenna. Her basic attack is Physical: swap to an Electric operator for the Finisher and let Avywenna just set up and recall lances."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "Eléctrico + Corrosión (Gilberta)",
+            "en": "Electric + Corrosion (Gilberta)"
+          },
+          "verdict": {
+            "es": "Si cambias a Antal por Gilberta ganas agrupado, Corrosión y una Susceptibility brutal — mejor en contenido con varios enemigos o cuando quieres reacciones de Arts. Este equipo con Antal es más simple y más consistente en jefe puro.",
+            "en": "Swapping Antal for Gilberta gains grouping, Corrosion and brutal Susceptibility — better in multi-enemy content or when you want Arts reactions. This team with Antal is simpler and more consistent on a pure boss."
+          }
+        },
+        {
+          "name": {
+            "es": "Comfort / Link (Akekuri)",
+            "en": "Comfort / Link (Akekuri)"
+          },
+          "verdict": {
+            "es": "Akekuri en lugar de Arclight es más fácil de jugar (su Link no pide timing de stacks eléctricos) pero pierdes la generación de SP que sostiene la cadencia de recalls y Ultimates. Empieza ahí si todavía no controlas el manejo de SP de Arclight.",
+            "en": "Akekuri in place of Arclight is easier to play (her Link doesn't need Electric-stack timing) but you lose the SP generation that sustains the recall-and-Ultimate cadence. Start there if you don't yet have Arclight's SP management down."
+          }
+        },
+        {
+          "name": {
+            "es": "Ardelia (por qué NO encaja)",
+            "en": "Ardelia (why she doesn't fit)"
+          },
+          "verdict": {
+            "es": "Sobre el papel aporta debuffs potentes, sobre todo con su arma promocional (que es gratis). El problema es que es anti-sinérgica con este equipo: solo coloca esos debuffs cuando el Arts Infliction está a 0, lo que estanca la apertura — y encima no duran una rotación entera. Mejor déjala fuera de la comp eléctrica.",
+            "en": "On paper she brings powerful debuffs, especially with her signature weapon (which is free). The problem is she's anti-synergetic with this team: she only places those debuffs when Arts Infliction is at 0, which stalls the opener — and on top of that they don't last a whole rotation. Better to keep her out of the Electric comp."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "avywenna",
+          "role": "Carry",
+          "weaponId": "wpn_lance_0011",
+          "gearRec": [
+            "bonekrusha_poncho_t1",
+            "pulser_labs_gloves",
+            "bonekrusha_figurine",
+            "bonekrusha_figurine"
+          ],
+          "weaponNote": {
+            "es": "JET 6★ es su mejor arma por un margen enorme: combina Will, ATK% alto y Arts DMG% — una mezcla que no existe en ninguna otra Polearm. Y su pasiva da Arts DMG% por separado al Battle Skill y al Combo Skill, así que prácticamente siempre está activa cuando importa, en el recall. Si no la tienes: Cohesive Traction 5★ es la siguiente opción (Battle Skill DMG cuando la apilas), y Aggeloslayer 4★ es el recurso F2P decente mientras consigues JET.",
+            "en": "JET 6★ is her best weapon by a huge margin: it combines Will, high ATK% and Arts DMG% — a mix found on no other Polearm. And its passive grants Arts DMG% separately to the Battle Skill and the Combo Skill, so it's basically always active when it matters, on the recall. If you don't have it: Cohesive Traction 5★ is the next pick (Battle Skill DMG when stacked), and Aggeloslayer 4★ is the decent F2P stopgap until you land JET."
+          },
+          "gearNote": {
+            "es": "Bonekrusha 3pc (Poncho T1 + 2× Figurine) + un guante fuera del set. El Poncho da Ultimate Gain Efficiency y cada Figurine +41% Battle Skill DMG; el bono 3pc carga +30% (hasta +60%) al siguiente Battle Skill con cada Combo — justo el recall. La clave está en el daño de retorno: TODO lo que pegan las lanzas al volver cuenta como daño de Battle Skill, así que las Figurine escalan el grueso de su output. Para el guante, lo mejor NO es un guante Bonekrusha: usa Pulser Labs Gloves (no lleva el substat ideal, pero su Electric DMG hace que el vector total ATK+DMG sea casi un 4% más alto) o, si prefieres más daño de Combo, Type 50 Yinglung Gloves (stats correctos + bonus de Combo Skill). Tu daño de Combo baja un poco, pero como casi todo su output está en el burst, compensa.",
+            "en": "Bonekrusha 3pc (Poncho T1 + 2× Figurine) + an off-set glove. The Poncho gives Ultimate Gain Efficiency and each Figurine +41% Battle Skill DMG; the 3pc bonus loads +30% (up to +60%) onto the next Battle Skill with every Combo — exactly the recall. The key is the return damage: EVERYTHING the lances deal on the way back counts as Battle Skill damage, so the Figurines scale the bulk of her output. For the glove, the best pick is NOT a Bonekrusha glove: use Pulser Labs Gloves (it lacks the ideal substat, but its Electric DMG makes the total ATK+DMG vector almost 4% higher) or, if you'd rather have more Combo damage, Type 50 Yinglung Gloves (correct stats + a Combo Skill bonus). Your Combo damage drops a bit, but since almost all her output is in the burst, it's worth it."
+          },
+          "deepNote": {
+            "es": "Avywenna es una carry de burst en estado puro: casi todo su daño cae en una ventana de pocos segundos, cuando recoge todas las lanzas a la vez. Su Combo Skill clava 3 Thunderlances; su Ultimate clava una Thunderlance EX (×2.5 más fuerte) y aplica 10% de Electric Susceptibility con el talento Tactful Approach. El Battle Skill es el que lo cobra todo: llama de vuelta cada lanza del campo, que atraviesa al jefe en línea recta. Pero por sí solo el Battle Skill hace un daño mínimo — su valor es cuántas lanzas retrae, así que la lógica es aguantar y no spamearlo: el máximo teórico son 3 Combo Skills (9 lanzas) más la lanza EX, pero recogerlas todas a tiempo es muy justo, de modo que una activación menos (2 Combos + EX) es lo realista y suficiente. Lo no obvio es que el daño de retorno se calcula como daño de Battle Skill — por eso su gear va a Battle Skill DMG y por eso buffs de tipo Link valen también en el recall. Toda su rotación es una cuestión de gestión: soltar Combos en cooldown para acumular lanzas, sincronizar todos los buffs del equipo justo antes de recoger, y dejar que el talento Expedited Delivery (energía por cada lanza que pega) financie el siguiente Ultimate. A cambio pide disciplina: posicionar bien las lanzas, no recoger antes de tiempo, y cambiar a otro operador para los Finishers porque su ataque básico es Físico y desentona con un kit que por lo demás es Eléctrico.",
+            "en": "Avywenna is a burst carry in the purest sense: almost all her damage drops in a window of a few seconds, when she pulls every lance back at once. Her Combo Skill plants 3 Thunderlances; her Ultimate plants one Thunderlance EX (×2.5 stronger) and applies 10% Electric Susceptibility through the Tactful Approach talent. The Battle Skill is what cashes it all in: it calls every lance on the field back, piercing the boss in a straight line. But on its own the Battle Skill does minimal damage — its value is how many lances it retracts, so the logic is to hold and not spam it: the theoretical max is 3 Combo Skills (9 lances) plus the EX lance, but recalling them all in time is very tight, so one activation less (2 Combos + EX) is the realistic and sufficient target. The non-obvious part is that the return damage is calculated as Battle Skill damage — which is why her gear goes to Battle Skill DMG and why Link-type buffs count on the recall too. Her whole rotation is a management problem: drop Combos on cooldown to stack lances, sync every team buff right before you recall, and let the Expedited Delivery talent (energy per lance that hits) fund the next Ultimate. In exchange she demands discipline: position the lances well, don't recall early, and swap to another operator for Finishers because her basic attack is Physical and clashes with an otherwise Electric kit."
+          }
+        },
+        {
+          "id": "arclight",
+          "role": "Enabler",
+          "weaponId": "wpn_sword_0012",
+          "gearRec": [
+            "pulser_labs_disruptor_suit",
+            "pulser_labs_gloves",
+            "pulser_labs_calibrator",
+            "pulser_labs_calibrator"
+          ],
+          "weaponNote": {
+            "es": "Arclight es Vanguard de espada y su rol aquí es soporte/SP, así que pide un arma de apoyo genérica más que daño. Thermite Cutter es la espada de soporte por defecto (ATK% de equipo al recuperar SP, justo lo que ella hace en bucle).",
+            "en": "Arclight is a sword Vanguard and her role here is support/SP, so she wants a generic support weapon rather than damage. Thermite Cutter is the default support sword (team ATK% on SP recovery, exactly what she does on loop)."
+          },
+          "gearNote": {
+            "es": "Su pasiva de reducción de coste de Ultimate está bloqueada tras P4: con P4 va sobrada de energía, pero SIN P4 necesita ~38% de Ultimate Gain para encajar en la rotación. Por debajo de ese umbral, el set de daño (Pulser Labs por Arts Intensity, o Frontiers por su pequeño buff) ya no cabe — toca jugar sin set y apilar Ultimate Gain en bruto: por ejemplo Eternal Xiranite Gloves + 1 Redeemer Seal + 1 pieza de Pulser Labs + Frontiers Armor T3. Con P4 o con suficiente energía por otra vía, vuelve al set Pulser Labs (3 piezas), que premia aplicar/consumir Electrification — el núcleo de su rol.",
+            "en": "Her Ultimate-cost-reduction passive is locked behind P4: with P4 she has energy to spare, but WITHOUT P4 she needs ~38% Ultimate Gain to fit the rotation. Below that threshold, the damage set (Pulser Labs for Arts Intensity, or Frontiers for its small buff) no longer fits — you go set-less and stack raw Ultimate Gain: e.g. Eternal Xiranite Gloves + 1 Redeemer Seal + 1 Pulser Labs piece + Frontiers Armor T3. With P4 or enough energy from elsewhere, go back to the Pulser Labs set (3 pieces), which rewards applying/consuming Electrification — the core of her role."
+          },
+          "deepNote": {
+            "es": "Arclight es el motor económico del equipo. No aparece en los rankings de daño personal, pero sin ella la rotación se queda sin SP y la cadencia de recalls y Ultimates de Avywenna se viene abajo. Su trabajo es simple de describir y delicado de ejecutar: consumir las Electrification que Perlica reparte (y que Avywenna deja intactas) para devolver SP al equipo. Ese SP se reconvierte en Battle Skills de Avywenna, que a su vez pagan energía de Ultimate vía Expedited Delivery. Además, su Ultimate puede aplicar Electric Infliction o Electrification para disparar el Combo de Avywenna cuando vas corto de SP por otra vía. La contrapartida es que pide más atención que un soporte de botón: hay que vigilar cuándo hay Electrification disponible para consumir y no malgastar su Battle Skill en seco.",
+            "en": "Arclight is the team's economic engine. She doesn't show up on personal-damage rankings, but without her the rotation runs out of SP and Avywenna's recall-and-Ultimate cadence collapses. Her job is simple to describe and delicate to execute: consume the Electrification Perlica hands out (and that Avywenna leaves intact) to refund SP to the team. That SP turns back into Avywenna Battle Skills, which in turn pay Ultimate energy via Expedited Delivery. On top of that, her Ultimate can apply Electric Infliction or Electrification to trigger Avywenna's Combo when you're short on SP elsewhere. The trade-off is that she asks for more attention than a one-button support: you have to watch when Electrification is available to consume and not waste her Battle Skill on nothing."
+          }
+        },
+        {
+          "id": "perlica",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0004",
+          "gearRec": [
+            "pulser_labs_disruptor_suit",
+            "aethertech_gloves",
+            "pulser_labs_calibrator",
+            "pulser_labs_calibrator"
+          ],
+          "weaponNote": {
+            "es": "En este equipo Antal se queda con Detonation Unit, así que Perlica juega Wild Wanderer 5★: cada vez que aplica Electrification, el equipo gana Electric/Physical DMG +22.4% — fácil de mantener con su Combo Skill y con stats excelentes. El matiz: Antal puede tirar de OBJ Arts Identifier como alternativa a Detonation Unit, pero Perlica no puede usar OBJ. Así que si tu única otra opción para Antal es Wild Wanderer (y no OBJ), conviene intercambiarlas — Detonation Unit a Perlica (añade Arts DMG Taken al disparar un Electric Burst con su Battle Skill) y Wild Wanderer a Antal. Stanza of Memorials, en cambio, no entra aquí: solo buffea a operadores de OTRO elemento, así que en un equipo eléctrico no hace nada.",
+            "en": "In this team Antal keeps Detonation Unit, so Perlica runs Wild Wanderer 5★: each time she applies Electrification, the team gains Electric/Physical DMG +22.4% — easy to maintain with her Combo Skill and with excellent stats. The nuance: Antal can fall back on OBJ Arts Identifier as an alternative to Detonation Unit, but Perlica can't use OBJ. So if your only other option for Antal is Wild Wanderer (and not OBJ), it's better to swap them — Detonation Unit to Perlica (it adds Arts DMG Taken when she triggers an Electric Burst with her Battle Skill) and Wild Wanderer to Antal. Stanza of Memorials, by contrast, is out here: it only buffs operators of a DIFFERENT element, so in an Electric team it does nothing."
+          },
+          "gearNote": {
+            "es": "Set Pulser Labs (3 piezas): Disruptor Suit + Aethertech Gloves + 2× Calibrator. El set sube Arts Intensity y premia aplicar Electrification con Electric DMG. Las Aethertech Gloves se eligen a propósito sobre las Pulser Labs Gloves: no aportan stats que coincidan, pero su Arts Intensity amplifica el Arts DMG Taken de su Electrification, que es lo que de verdad mueve el daño del equipo. Si la prefieres como dañadora antes que como soporte, cambia a las Pulser Labs Gloves por su Electric DMG%. Aviso de rotación: Perlica necesita suficiente Ultimate Gain Efficiency para que su Ultimate llegue a tiempo a cada burst. Las Eternal Xiranite Gloves son la elección segura para ello — y sin su P2 te faltará ~1.7% de gain, que se cubre con artificing. Si tu energía ya está cubierta, las Aethertech Gloves rinden más por su Arts Intensity.",
+            "en": "Pulser Labs set (3 pieces): Disruptor Suit + Aethertech Gloves + 2× Calibrator. The set raises Arts Intensity and rewards applying Electrification with Electric DMG. The Aethertech Gloves are picked on purpose over the Pulser Labs Gloves: they don't bring matching stats, but their Arts Intensity amplifies the Arts DMG Taken from her Electrification, which is what actually moves the team's damage. If you'd rather run her as a damage dealer than a support, swap to the Pulser Labs Gloves for their Electric DMG%. Rotation note: Perlica needs enough Ultimate Gain Efficiency for her Ultimate to be ready each burst. Eternal Xiranite Gloves are the safe pick for that — and without her P2 you'll be ~1.7% short on gain, which you cover via artificing. If your energy is already covered, the Aethertech Gloves give more through their Arts Intensity."
+          },
+          "deepNote": {
+            "es": "Perlica es el requisito de entrada de cualquier equipo de Avywenna: el Combo Skill de Avywenna solo se dispara si hay un Electric Infliction o Electrification activo, y Perlica es la que lo garantiza a demanda. Pero su valor no termina ahí. Su Electrification aplica Arts DMG Taken, un multiplicador raro y separado de todo lo demás, que amplifica cada lanza que recoge Avywenna. Y como su Combo Skill también puede disparar el Combo de otras unidades (Gilberta, en los equipos que la llevan), se convierte en una pieza de conexión además de fuente de Electric. En este equipo concreto su otro trabajo es alimentar a Arclight: las Electrification que Perlica reparte son justo lo que Arclight consume para devolver SP. Si la construyes con Arts Intensity rinde como soporte; si le das daño, puede aportar algo de output ella misma, pero su prioridad aquí es mantener el estado eléctrico arriba sin fallar.",
+            "en": "Perlica is the entry requirement of any Avywenna team: Avywenna's Combo Skill only triggers if there's an active Electric Infliction or Electrification, and Perlica is the one who guarantees it on demand. But her value doesn't end there. Her Electrification applies Arts DMG Taken, a rare multiplier separate from everything else, that amplifies every lance Avywenna recalls. And since her Combo Skill can also trigger another unit's Combo (Gilberta, in the teams that run her), she becomes a connective piece as well as an Electric source. In this particular team her other job is feeding Arclight: the Electrification Perlica hands out is exactly what Arclight consumes to refund SP. Build her with Arts Intensity and she performs as a support; give her damage and she can chip in some output herself, but her priority here is keeping the Electric status up without slipping."
+          }
+        },
+        {
+          "id": "antal",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0008",
+          "gearRec": [
+            "tide_fall_light_armor",
+            "eternal_xiranite_gloves",
+            "eternal_xiranite_power_core",
+            "eternal_xiranite_power_core"
+          ],
+          "weaponNote": {
+            "es": "Detonation Unit 6★ es su BIS claro: tras un Arts Burst (que dispara de forma natural con su Combo Skill) aplica un Arts DMG Taken fuerte con muy buen uptime. Si juegas un equipo de otro elemento, Stanza of Memorials sube ATK al resto; OBJ Arts Identifier es la alternativa con el mismo disparador que Detonation Unit pero con un buff de DMG% más diluido.",
+            "en": "Detonation Unit 6★ is his clear BIS: after an Arts Burst (which he triggers naturally with his Combo Skill) it applies a strong Arts DMG Taken with great uptime. In a different-element team, Stanza of Memorials raises ATK for the rest; OBJ Arts Identifier is the alternative with the same trigger as Detonation Unit but a more diluted DMG% buff."
+          },
+          "gearNote": {
+            "es": "Set Eternal Xiranite (3 piezas): Tide Fall Light Armor + Eternal Xiranite Gloves + 2× Power Core. El 3pc da DMG +16% a TODO el equipo cuando aplica Amp, Susceptibility, etc. — exactamente lo que Antal hace. Sus aplicaciones de Amp/Susceptibility son largas y espaciadas, así que no es el mejor manteniendo el set al 100%; si tu equipo lleva otro soporte que también pueda vestir Eternal Xiranite, el uptime conjunto mejora. Las piezas, cargadas de Ultimate Gain, le encajan bien. Muleta budget: si vas justo de SP en la apertura o no tienes a Antal bien subido, el set morado Catastrophe es excelente — devuelve 50 SP una vez por combate al usar su Battle Skill.",
+            "en": "Eternal Xiranite set (3 pieces): Tide Fall Light Armor + Eternal Xiranite Gloves + 2× Power Core. The 3pc grants DMG +16% to the WHOLE team when he applies Amp, Susceptibility, etc. — exactly what Antal does. His Amp/Susceptibility applications are long and spread out, so he isn't the best at holding the set at 100%; if your team runs another support who can also wear Eternal Xiranite, the combined uptime improves. The pieces, loaded with Ultimate Gain, suit him well. Budget crutch: if you're short on opener SP or haven't leveled Antal properly, the purple Catastrophe set is an amazing fallback — it refunds 50 SP once per battle when he uses his Battle Skill."
+          },
+          "deepNote": {
+            "es": "Antal es el multiplicador de fondo del equipo: no genera reacciones espectaculares ni agrupa, pero aporta Amp y Susceptibility durante toda la pelea y pide muy pocos recursos para hacerlo. Su gran virtud es la combinación: el Amp que aplica es un multiplicador SEPARADO del Arts DMG Taken de Perlica, así que los dos se multiplican entre sí en lugar de competir — y juntos forman el mayor pico de daño que puedes apilar sobre el recall de Avywenna. Es 4★, fácil de conseguir y de mantener, lo que lo convierte en la opción consistente y accesible para single-target. A cambio no trae el potencial de reacciones de Arts que sí da Gilberta en el mismo hueco. Un detalle de timing: si lleva Detonation Unit, alinea su Combo Skill con el stagger para disparar también el efecto de Arts Burst del arma justo cuando más daño se va a hacer.",
+            "en": "Antal is the team's background multiplier: he doesn't generate flashy reactions or group enemies, but he provides Amp and Susceptibility for the entire fight and asks for very few resources to do it. His big strength is the combination: the Amp he applies is a multiplier SEPARATE from Perlica's Arts DMG Taken, so the two multiply each other instead of competing — and together they form the biggest damage spike you can stack onto Avywenna's recall. He's 4★, easy to get and easy to maintain, which makes him the consistent, accessible pick for single-target. In exchange he doesn't bring the Arts-reaction potential Gilberta offers in the same slot. One timing detail: if he's on Detonation Unit, align his Combo Skill with the stagger to also fire the weapon's Arts Burst effect right when the most damage is about to happen."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Todo gira alrededor del recall de Avywenna, así que la prioridad real es que cada buff esté arriba cuando ella recoge. Avywenna escala con Battle Skill DMG (set Bonekrusha) porque el daño de retorno se calcula como Battle Skill — esa es la decisión de gear más importante de todo el equipo. Los demás priorizan uptime de buff y Ultimate Gain Efficiency: Perlica con Arts Intensity para engordar su Arts DMG Taken, Antal con Eternal Xiranite para repartir DMG% al equipo, y Arclight con Pulser Labs para sostener la rueda de SP. Ninguno necesita stats de daño bruto — el daño bruto lo pone Avywenna.",
+          "en": "Everything revolves around Avywenna's recall, so the real priority is having every buff up when she pulls the lances. Avywenna scales with Battle Skill DMG (Bonekrusha set) because the return damage is calculated as Battle Skill — that's the single most important gear decision on the whole team. The rest prioritize buff uptime and Ultimate Gain Efficiency: Perlica with Arts Intensity to fatten her Arts DMG Taken, Antal with Eternal Xiranite to spread DMG% to the team, and Arclight with Pulser Labs to sustain the SP wheel. None of them need raw damage stats — the raw damage is Avywenna's job."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Avywenna sin JET",
+              "en": "Avywenna without JET"
+            },
+            "swap": {
+              "es": "Cohesive Traction 5★ es la siguiente mejor Polearm (Will + Electric DMG% y Battle Skill DMG al apilar su pasiva con el Combo). Aggeloslayer 4★ es la opción F2P decente — pierde scaling pero mantiene el rol — y conviene cambiarla por JET en cuanto la consigas si vas a invertir de verdad en Avywenna.",
+              "en": "Cohesive Traction 5★ is the next-best Polearm (Will + Electric DMG% and Battle Skill DMG when its passive stacks off the Combo). Aggeloslayer 4★ is the decent F2P option — it loses scaling but keeps the role — and you'll want to swap it for JET the moment you land it if you're seriously investing in Avywenna."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Perlica con Detonation Unit",
+              "en": "Perlica with Detonation Unit"
+            },
+            "swap": {
+              "es": "Si tienes una segunda Detonation Unit o no la estás usando en Antal, es un upgrade sobre Wild Wanderer para Perlica: cambia el buff de DMG% por un Arts DMG Taken extra cuando dispara Electric Burst con su Battle Skill. En este equipo, sin embargo, la prioridad de Detonation Unit es Antal.",
+              "en": "If you have a second Detonation Unit or aren't using it on Antal, it's an upgrade over Wild Wanderer for Perlica: it trades the DMG% buff for extra Arts DMG Taken when she triggers Electric Burst with her Battle Skill. In this team, though, Detonation Unit's priority is Antal."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": {
+        "es": "Eléctrico + Corrosión",
+        "en": "Electric + Corrosion"
+      },
+      "subtitle": {
+        "es": "Arclight · Perlica · Gilberta",
+        "en": "Arclight · Perlica · Gilberta"
+      },
+      "blurb": {
+        "es": "Cambia Antal por Gilberta: añade agrupado, Corrosión y una Susceptibility brutal. El más flexible — rinde en jefe y en grupos.",
+        "en": "Swap Antal for Gilberta: adds grouping, Corrosion and a brutal Susceptibility. The most flexible — strong on bosses and groups."
+      },
+      "guideVideoId": "av2",
+      "simple": {
+        "whatItDoes": {
+          "es": "Gilberta entra en lugar de Antal y aporta dos cosas nuevas: agrupado y reacciones de Arts. La idea es acumular Electric Inflictions, meter la Corrosión de Gilberta PRONTO para que tenga tiempo de crecer, y descargar el recall de Avywenna sobre un jefe ya reblandecido por la Susceptibility de la Ultimate de Gilberta. Funciona en jefe único y, gracias al agrupado, también con varios enemigos.",
+          "en": "Gilberta comes in for Antal and brings two new things: grouping and Arts reactions. The plan is to stack Electric Inflictions, drop Gilberta's Corrosion EARLY so it has time to ramp, and unload Avywenna's recall on a boss already softened by the Susceptibility from Gilberta's Ultimate. It works on a single boss and, thanks to the grouping, on multiple enemies too."
+        },
+        "steps": [
+          {
+            "who": "perlica",
+            "do": {
+              "es": "Mantén Electric Infliction con Perlica. Su Combo Skill dispara también el de Gilberta, así que úsalos juntos.",
+              "en": "Keep Electric Infliction up with Perlica. Her Combo Skill also triggers Gilberta's, so use them together."
+            }
+          },
+          {
+            "who": "avywenna",
+            "do": {
+              "es": "Con Avywenna suelta Combos para ir clavando lanzas y sube hasta 4 Electric Inflictions en el jefe.",
+              "en": "With Avywenna, drop Combos to plant lances and build up to 4 Electric Inflictions on the boss."
+            }
+          },
+          {
+            "who": "gilberta",
+            "do": {
+              "es": "Usa el Battle Skill de Gilberta para aplicar Corrosión y agrupar. Hazlo PRONTO — deja 7+ segundos para que la Corrosión madure antes del golpe grande.",
+              "en": "Use Gilberta's Battle Skill to apply Corrosion and group enemies. Do it EARLY — leave 7+ seconds for the Corrosion to ramp before the big hit."
+            }
+          },
+          {
+            "who": "arclight",
+            "do": {
+              "es": "En la subida al stagger, usa la Ultimate de Arclight para aplicar Electrification y disparar el Combo de Avywenna aunque vayas corto de SP.",
+              "en": "On the lead-up to the stagger, use Arclight's Ultimate to apply Electrification and trigger Avywenna's Combo even when you're short on SP."
+            }
+          },
+          {
+            "who": "avywenna",
+            "do": {
+              "es": "Con la Susceptibility de la Ultimate de Gilberta puesta y los buffs arriba, recoge todo con el Battle Skill de Avywenna y encadena sus Ultimates.",
+              "en": "With the Susceptibility from Gilberta's Ultimate down and the buffs up, pull everything back with Avywenna's Battle Skill and chain her Ultimates."
+            }
+          },
+          {
+            "do": {
+              "es": "Repite, y cambia a un personaje eléctrico para los Finishers de stagger.",
+              "en": "Repeat, and swap to an Electric operator for the stagger Finishers."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "avywenna",
+            "line": {
+              "es": "JET + Bonekrusha (4 piezas). Su daño de retorno es daño de Battle Skill, y este set lo dispara.",
+              "en": "JET + Bonekrusha (4 pieces). Her return damage is Battle Skill damage, and this set powers it."
+            }
+          },
+          {
+            "id": "perlica",
+            "line": {
+              "es": "Detonation Unit + set Pulser Labs. Aquí sus Inflictions se consumen para la Corrosión, así que va construida para Arts Intensity.",
+              "en": "Detonation Unit + Pulser Labs set. Here her Inflictions get consumed for Corrosion, so she's built for Arts Intensity."
+            }
+          },
+          {
+            "id": "arclight",
+            "line": {
+              "es": "Set Pulser Labs. Ideal a P5: sostener sus 3 Battle Skills de SP es lo que más cuesta del equipo.",
+              "en": "Pulser Labs set. Ideal at P5: sustaining her 3 SP Battle Skills is the team's hardest part."
+            }
+          },
+          {
+            "id": "gilberta",
+            "line": {
+              "es": "Delivery Guaranteed (su promocional) + set Eternal Xiranite. Su Ultimate es la que aplica la Susceptibility que multiplica el recall.",
+              "en": "Delivery Guaranteed (her signature) + Eternal Xiranite set. Her Ultimate is what applies the Susceptibility that multiplies the recall."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "Cambiar a Antal por Gilberta le da al equipo eléctrico dos cosas que antes no tenía: agrupado y reacciones de Arts. El Battle Skill de Gilberta junta enemigos y aplica Corrosión; su Ultimate aplica una Susceptibility absurda que multiplica todo el burst siguiente. A cambio, el equipo exige más: sostener el SP para 3 Battle Skills de Arclight cuesta (Arclight a P5 es lo ideal), y hay que respetar el tiempo de cocción de la Corrosión en vez de meterla a lo loco. Es el más flexible de los tres equipos — rinde en jefe puro por la Susceptibility y en grupos por el agrupado y las reacciones — pero también el que más setup pide antes de descargar.",
+        "en": "Swapping Antal for Gilberta gives the Electric team two things it didn't have: grouping and Arts reactions. Gilberta's Battle Skill gathers enemies and applies Corrosion; her Ultimate applies absurd Susceptibility that multiplies the whole following burst. In exchange, the team asks for more: sustaining SP for 3 of Arclight's Battle Skills is work (Arclight at P5 is ideal), and you have to respect the Corrosion's ramp time instead of dropping it carelessly. It's the most flexible of the three teams — strong on a pure boss thanks to the Susceptibility, strong in groups thanks to grouping and reactions — but also the one that demands the most setup before you unload."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Alta",
+          "en": "High"
+        },
+        "content": {
+          "es": "Flexible / AoE + Jefe",
+          "en": "Flexible / AoE + Boss"
+        },
+        "tags": [
+          {
+            "es": "Eléctrico",
+            "en": "Electric",
+            "jp": "電磁",
+            "zh": "电磁"
+          },
+          {
+            "es": "Corrosión",
+            "en": "Corrosion"
+          },
+          {
+            "es": "Susceptibility",
+            "en": "Susceptibility"
+          },
+          {
+            "es": "Agrupado",
+            "en": "Grouping"
+          },
+          {
+            "es": "Setup alto",
+            "en": "High setup"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "La Ultimate de Gilberta aplica una Susceptibility enorme sobre el jefe — uno de los mayores multiplicadores de daño disponibles para el recall de Avywenna.",
+          "en": "Gilberta's Ultimate applies huge Susceptibility on the boss — one of the biggest damage multipliers available for Avywenna's recall."
+        },
+        {
+          "es": "Añade Corrosión y agrupado: es el único de los tres equipos que rinde de verdad tanto en jefe único como en grupos de enemigos.",
+          "en": "It adds Corrosion and grouping: it's the only one of the three teams that genuinely performs both on a single boss and against enemy groups."
+        },
+        {
+          "es": "El Combo de Perlica dispara el de Gilberta, así que se castean juntos — y con timestop, Gilberta acumula Vulnerability para hacer su Ultimate todavía más fuerte.",
+          "en": "Perlica's Combo triggers Gilberta's, so they cast together — and with timestop, Gilberta builds Vulnerability to make her Ultimate even stronger."
+        },
+        {
+          "es": "Mantiene intacto el motor de SP de Arclight: sigue siendo un equipo eléctrico que se autoabastece de recursos.",
+          "en": "It keeps Arclight's SP engine intact: it's still an Electric team that supplies its own resources."
+        }
+      ],
+      "cons": [
+        {
+          "es": "Es el equipo con más setup: acumular 4 Electric Inflictions, aplicar la Corrosión con antelación y alinear la Ultimate de Gilberta con el recall. Un paso fuera de orden y el burst se desinfla.",
+          "en": "It's the highest-setup team: stack 4 Electric Inflictions, apply the Corrosion early, and line up Gilberta's Ultimate with the recall. One step out of order and the burst deflates."
+        },
+        {
+          "es": "Sostener el SP para los 3 Battle Skills de Arclight es difícil — pide a Arclight cerca de P5 para ir cómodo; con menos, recorta a 2.",
+          "en": "Sustaining SP for Arclight's 3 Battle Skills is hard — it wants Arclight near P5 to be comfortable; with less, cut to 2."
+        },
+        {
+          "es": "Las Electric Inflictions se consumen para la Corrosión, lo que baja el valor de la Electrification de Arclight frente a la de Perlica: hay un orden correcto que respetar (Arclight antes que Perlica).",
+          "en": "The Electric Inflictions get consumed for Corrosion, which lowers the value of Arclight's Electrification versus Perlica's: there's a correct order to respect (Arclight before Perlica)."
+        },
+        {
+          "es": "Sigue dependiendo del posicionamiento de las lanzas como cualquier equipo de Avywenna.",
+          "en": "It still depends on lance positioning like any Avywenna team."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "La Corrosión necesita cocción",
+            "en": "The Corrosion needs ramp time"
+          },
+          "body": {
+            "es": "Gilberta aplica Corrosión con su Battle Skill, pero la Corrosión no pega fuerte al instante: crece con el tiempo. Conviene dejar 7 segundos o más entre la aplicación y el momento del burst para que llegue rampeada. Por eso se aplica PRONTO, en la fase de montaje, y no en el último segundo antes de recoger.",
+            "en": "Gilberta applies Corrosion with her Battle Skill, but Corrosion doesn't hit hard instantly: it ramps over time. You want to leave 7 seconds or more between the application and the burst so it arrives ramped up. That's why you apply it EARLY, during setup, and not in the last second before recalling."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "La Susceptibility de la Ultimate de Gilberta",
+            "en": "The Susceptibility from Gilberta's Ultimate"
+          },
+          "body": {
+            "es": "El Ultimate de Gilberta aplica una Susceptibility brutal sobre el jefe en el momento en que se lanza, y eso multiplica todo el daño del recall que viene justo después. Es la razón principal de meterla en este hueco: convierte una buena descarga de lanzas en el techo real del equipo. Aplícala justo antes de recoger.",
+            "en": "Gilberta's Ultimate applies brutal Susceptibility on the boss the moment it's cast, and that multiplies all the damage of the recall that comes right after. It's the main reason to put her in this slot: it turns a good lance dump into the team's real ceiling. Cast it just before you recall."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Combo de Perlica → Combo de Gilberta",
+            "en": "Perlica Combo → Gilberta Combo"
+          },
+          "body": {
+            "es": "El Combo Skill de Perlica dispara automáticamente el de Gilberta, así que se usan en el mismo gesto. Y como los efectos de timestop afectan a las lanzas y a las pilas, Gilberta puede ir acumulando stacks de Vulnerability poco a poco, lo que engorda el valor de su Ultimate cuando por fin la sueltas.",
+            "en": "Perlica's Combo Skill automatically triggers Gilberta's, so they go off in the same motion. And since timestop effects apply to the lances and the stacks, Gilberta can slowly build up Vulnerability stacks, which fattens the value of her Ultimate when you finally fire it."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "El orden correcto con Arclight",
+            "en": "The correct order with Arclight"
+          },
+          "body": {
+            "es": "Aquí hay un detalle que cuesta daño si lo haces al revés: como las Electric Inflictions se consumen para la Corrosión, la Electrification de Arclight vale menos que la de Perlica (que va construida para Arts Intensity). Usa siempre la Ultimate de Arclight ANTES del Combo de Perlica, para que sea la Electrification barata la que se gasta primero y la buena la que se queda.",
+            "en": "There's a detail here that costs damage if you do it backwards: since the Electric Inflictions get consumed for Corrosion, Arclight's Electrification is worth less than Perlica's (which is built for Arts Intensity). Always use Arclight's Ultimate BEFORE Perlica's Combo, so the cheap Electrification is the one spent first and the good one is the one that stays."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Apertura — montar lanzas y Corrosión",
+            "en": "Opener — set up lances and Corrosion"
+          },
+          "action": {
+            "es": "Igual que en el equipo de Antal, pero el Combo de Perlica dispara el de Gilberta, así que van juntos. Empieza a acumular lanzas y deja que Gilberta vaya sumando Vulnerability con el timestop.",
+            "en": "Same as the Antal team, but Perlica's Combo triggers Gilberta's, so they go together. Start stacking lances and let Gilberta build Vulnerability via timestop."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Battle Skill (con Electric Infliction ya aplicado).",
+                "en": "Battle Skill (with Electric Infliction already applied)."
+              }
+            },
+            {
+              "do": {
+                "es": "Final Strike — dispara el Combo de Avywenna.",
+                "en": "Final Strike — triggers Avywenna's Combo."
+              }
+            },
+            {
+              "do": {
+                "es": "Combo Skill → Combo Skill → Combo Skill (Perlica + Gilberta encadenan sus Combos en el proceso).",
+                "en": "Combo Skill → Combo Skill → Combo Skill (Perlica + Gilberta chain their Combos in the process)."
+              }
+            }
+          ],
+          "tip": {
+            "es": "Acumula hasta 4 Electric Inflictions antes de pasar al burst, y mete la Corrosión de Gilberta pronto para que rampee.",
+            "en": "Build up to 4 Electric Inflictions before moving into the burst, and drop Gilberta's Corrosion early so it ramps."
+          }
+        },
+        {
+          "phase": {
+            "es": "Burst — Corrosión cocida + Susceptibility + recall",
+            "en": "Burst — ramped Corrosion + Susceptibility + recall"
+          },
+          "action": {
+            "es": "Lista en orden de cuándo PEGAN los golpes, no de cuándo se castean. La clave del orden: Corrosión primero (para que madure), Ultimate de Arclight antes que el Combo de Perlica, y la Ultimate de Gilberta alineada con el recall.",
+            "en": "List in the order hits CONNECT, not when they're cast. The key to the order: Corrosion first (so it matures), Arclight's Ultimate before Perlica's Combo, and Gilberta's Ultimate aligned with the recall."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Battle Skill de Gilberta (para la Corrosión) — déjala cocer 7+ s.",
+                "en": "Gilberta's Battle Skill (for the Corrosion) — let it cook 7+ s."
+              },
+              "key": true
+            },
+            {
+              "do": {
+                "es": "Ultimate de Arclight (para la Electrification) — antes que el Combo de Perlica.",
+                "en": "Arclight's Ultimate (for the Electrification) — before Perlica's Combo."
+              },
+              "key": true
+            },
+            {
+              "do": {
+                "es": "Combo Skill → Final Strike (staggerea).",
+                "en": "Combo Skill → Final Strike (staggers)."
+              }
+            },
+            {
+              "do": {
+                "es": "Battle Skill (recall) → Combo Skill → Combo Skill → Combo Skill → Combo Skill.",
+                "en": "Battle Skill (recall) → Combo Skill → Combo Skill → Combo Skill → Combo Skill."
+              }
+            },
+            {
+              "do": {
+                "es": "Ultimate → Ultimate → Ultimate (incluida la de Gilberta para la Susceptibility, justo antes del grueso del daño).",
+                "en": "Ultimate → Ultimate → Ultimate (including Gilberta's for the Susceptibility, right before the bulk of the damage)."
+              },
+              "key": true
+            },
+            {
+              "do": {
+                "es": "Finisher (con un personaje eléctrico) → Battle Skill → Battle Skill → Combo Skill.",
+                "en": "Finisher (with an Electric operator) → Battle Skill → Battle Skill → Combo Skill."
+              },
+              "note": {
+                "es": "Si vas corto de energía de Ultimate en Avywenna, usa la recuperación de SP del Finisher en un Battle Skill de Perlica antes del Battle Skill de Avywenna.",
+                "en": "If you're short on Avywenna's Ultimate energy, use the Finisher's SP recovery on a Perlica Battle Skill before Avywenna's Battle Skill."
+              }
+            }
+          ],
+          "tip": {
+            "es": "No hace falta consumir cada Electrification con el Battle Skill de Arclight — mientras haya Battle Skills suficientes para llenar el Ultimate de Avywenna, vas bien.",
+            "en": "You don't need to consume every Electrification with Arclight's Battle Skill — as long as there are enough Battle Skills to fill Avywenna's Ultimate, you're fine."
+          }
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "avywenna",
+          "order": "S1 > S3 > S2",
+          "note": {
+            "es": "S1 (Battle Skill) es el recall y su mayor fuente de daño. S3 (Ultimate) clava la lanza EX y el Electric Susceptibility. S2 (Combo Skill) último.",
+            "en": "S1 (Battle Skill) is the recall and her biggest damage source. S3 (Ultimate) plants the EX lance and the Electric Susceptibility. S2 (Combo Skill) last."
+          }
+        },
+        {
+          "charId": "perlica",
+          "order": "S1 > S3 > S2",
+          "note": {
+            "es": "S1 (Battle Skill) para el Electric Infliction y para disparar Electric Burst con Detonation Unit. S3 para la ventana de buff. S2 sigue usándose para aplicar Electrification y disparar el Combo de Gilberta.",
+            "en": "S1 (Battle Skill) for the Electric Infliction and to trigger Electric Burst with Detonation Unit. S3 for the buff window. S2 still gets used to apply Electrification and trigger Gilberta's Combo."
+          }
+        },
+        {
+          "charId": "arclight",
+          "order": "S1 > S3 > S2",
+          "note": {
+            "es": "S1 (Battle Skill) consume Electrification y devuelve SP. S3 (Ultimate) aplica Electrification en la subida al stagger.",
+            "en": "S1 (Battle Skill) consumes Electrification and refunds SP. S3 (Ultimate) applies Electrification on the lead-up to the stagger."
+          }
+        },
+        {
+          "charId": "gilberta",
+          "order": "S3 > S2 > S1",
+          "note": {
+            "es": "S3 (Ultimate) es su mayor aporte: la Susceptibility que multiplica el recall. S2 (Combo Skill) se encadena con el de Perlica y suma Vulnerability. S1 (Battle Skill) para Corrosión y agrupado — su radio mejora con P1.",
+            "en": "S3 (Ultimate) is her biggest contribution: the Susceptibility that multiplies the recall. S2 (Combo Skill) chains off Perlica's and adds Vulnerability. S1 (Battle Skill) for Corrosion and grouping — its radius improves with P1."
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Aplicar la Corrosión de Gilberta en el último segundo: necesita unos 7 s para rampear. Si la metes justo antes del recall, llega a medio gas y pierdes la mitad de su valor.",
+          "en": "Applying Gilberta's Corrosion at the last second: it needs about 7s to ramp. If you drop it right before the recall, it arrives at half power and you lose half its value."
+        },
+        {
+          "es": "Usar el Combo de Perlica antes que la Ultimate de Arclight. El orden importa: las Inflictions se consumen para la Corrosión, así que la Electrification barata (Arclight) tiene que gastarse primero. Arclight siempre antes que Perlica.",
+          "en": "Using Perlica's Combo before Arclight's Ultimate. The order matters: the Inflictions get consumed for Corrosion, so the cheap Electrification (Arclight) has to be spent first. Arclight always before Perlica."
+        },
+        {
+          "es": "Llevar este equipo con Arclight a bajo Potencial. Sostener 3 Battle Skills de Arclight pide cerca de P5 para ir cómodo; con menos, recorta a 2 Battle Skills y ajusta.",
+          "en": "Running this team with Arclight at low Potential. Sustaining 3 of Arclight's Battle Skills wants near P5 to be comfortable; with less, cut to 2 Battle Skills and adjust."
+        },
+        {
+          "es": "Lo de siempre en cualquier equipo de Avywenna: recoger sin la Susceptibility de Gilberta (u otros buffs) arriba, o con las lanzas mal posicionadas.",
+          "en": "The usual for any Avywenna team: recalling without Gilberta's Susceptibility (or other buffs) up, or with the lances badly positioned."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "Eléctrico puro (Antal)",
+            "en": "Full Electric (Antal)"
+          },
+          "verdict": {
+            "es": "Antal es más simple y más consistente en jefe puro. Gilberta gana en flexibilidad (grupos y reacciones de Arts) y en pico de Susceptibility, a cambio de bastante más setup. Si el contenido es solo un jefe que no se mueve, Antal alivia.",
+            "en": "Antal is simpler and more consistent on a pure boss. Gilberta wins on flexibility (groups and Arts reactions) and Susceptibility spike, at the cost of a lot more setup. If the content is just one boss that doesn't move, Antal is the easier ride."
+          }
+        },
+        {
+          "name": {
+            "es": "Comfort / Link (Akekuri)",
+            "en": "Comfort / Link (Akekuri)"
+          },
+          "verdict": {
+            "es": "Misma Gilberta, pero cambiar Arclight por Akekuri baja el techo y la generación de SP a cambio de hacer el equipo mucho más fácil. Si los 3 Battle Skills de Arclight se te resisten, esa es la versión cómoda del mismo plan.",
+            "en": "Same Gilberta, but swapping Arclight for Akekuri lowers the ceiling and the SP generation in exchange for making the team much easier. If Arclight's 3 Battle Skills give you trouble, that's the comfortable version of the same plan."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "avywenna",
+          "role": "Carry",
+          "weaponId": "wpn_lance_0011",
+          "gearRec": [
+            "bonekrusha_poncho_t1",
+            "bonekrusha_wristband_t1",
+            "bonekrusha_figurine",
+            "bonekrusha_figurine"
+          ],
+          "weaponNote": {
+            "es": "JET 6★ es su mejor arma por un margen enorme (Will + ATK% + Arts DMG%, y la pasiva da Arts DMG% por separado al Battle Skill y al Combo). Cohesive Traction 5★ es la siguiente opción; Aggeloslayer 4★ es el recurso F2P hasta conseguir JET.",
+            "en": "JET 6★ is her best weapon by a huge margin (Will + ATK% + Arts DMG%, and the passive grants Arts DMG% separately to the Battle Skill and the Combo). Cohesive Traction 5★ is the next pick; Aggeloslayer 4★ is the F2P stopgap until you get JET."
+          },
+          "gearNote": {
+            "es": "Bonekrusha 4 piezas: Poncho T1 (Ultimate Gain Efficiency) + Wristband T1 (Electric DMG) + 2× Figurine (Battle Skill DMG). El daño de retorno de las lanzas cuenta como Battle Skill, así que las Figurine escalan el grueso de su output, y el 3pc carga +30%/+60% al recall con cada Combo. En este equipo la Susceptibility de Gilberta y la Corrosión hacen el resto.",
+            "en": "Bonekrusha 4-piece: Poncho T1 (Ultimate Gain Efficiency) + Wristband T1 (Electric DMG) + 2× Figurine (Battle Skill DMG). The lances' return damage counts as Battle Skill, so the Figurines scale the bulk of her output, and the 3pc loads +30%/+60% onto the recall with every Combo. In this team Gilberta's Susceptibility and the Corrosion do the rest."
+          },
+          "deepNote": {
+            "es": "El kit de Avywenna es el mismo en todos sus equipos: clava lanzas con los Combos, clava una EX y aplica Electric Susceptibility con su Ultimate, y lo cobra todo con el recall del Battle Skill, cuyo daño de retorno escala como Battle Skill. Lo que cambia aquí es el contexto: el recall cae sobre un jefe que ya tiene Corrosión cocida y la Susceptibility de la Ultimate de Gilberta encima, así que el mismo gesto pega bastante más. Su trabajo sigue siendo de gestión y disciplina — acumular lanzas, posicionar bien, sincronizar el recall con el pico de buffs — pero en este equipo el pico es más alto porque Gilberta apila multiplicadores que Antal no tiene. Recuerda cambiar a un eléctrico para los Finishers: el ataque básico de Avywenna es Físico.",
+            "en": "Avywenna's kit is the same across all her teams: plant lances with the Combos, plant an EX and apply Electric Susceptibility with her Ultimate, and cash it all in with the Battle Skill recall, whose return damage scales as Battle Skill. What changes here is the context: the recall lands on a boss that already has ramped Corrosion and the Susceptibility from Gilberta's Ultimate on top, so the same motion hits a lot harder. Her job is still management and discipline — stack lances, position well, sync the recall to the buff peak — but in this team the peak is higher because Gilberta stacks multipliers Antal doesn't have. Remember to swap to an Electric operator for Finishers: Avywenna's basic attack is Physical."
+          }
+        },
+        {
+          "id": "arclight",
+          "role": "Enabler",
+          "weaponId": "wpn_sword_0012",
+          "gearRec": [
+            "pulser_labs_disruptor_suit",
+            "pulser_labs_gloves",
+            "pulser_labs_calibrator",
+            "pulser_labs_calibrator"
+          ],
+          "weaponNote": {
+            "es": "Thermite Cutter como espada de soporte por defecto (ATK% de equipo al recuperar SP).",
+            "en": "Thermite Cutter as the default support sword (team ATK% on SP recovery)."
+          },
+          "gearNote": {
+            "es": "Set Pulser Labs con prioridad a Ultimate Gain Efficiency. En este equipo Arclight pide más inversión que en el de Antal: cerca de P5 para sostener sus 3 Battle Skills de SP cómodamente.",
+            "en": "Pulser Labs set, prioritizing Ultimate Gain Efficiency. In this team Arclight wants more investment than in the Antal team: near P5 to comfortably sustain her 3 SP Battle Skills."
+          },
+          "deepNote": {
+            "es": "Arclight cumple el mismo rol que en el equipo de Antal — consumir Electrification para devolver SP y sostener la rueda de recursos — pero aquí trabaja en condiciones más duras. Las Electric Inflictions ya no son solo combustible para su consumo: también se gastan en la Corrosión de Gilberta, así que su Electrification vale menos que la de Perlica y hay que usarla en el orden correcto (Arclight antes que Perlica). Su Ultimate gana importancia: es una forma fiable de aplicar Electric Infliction o Electrification en la subida al stagger para disparar el Combo de Avywenna aunque el SP esté justo. Sostener 3 de sus Battle Skills es lo más exigente de todo el equipo, y por eso este es el contexto donde sus Potenciales (idealmente P5) marcan más diferencia.",
+            "en": "Arclight fills the same role as in the Antal team — consume Electrification to refund SP and sustain the resource wheel — but here she works under harsher conditions. The Electric Inflictions are no longer just fuel for her consumption: they're also spent on Gilberta's Corrosion, so her Electrification is worth less than Perlica's and you have to use it in the correct order (Arclight before Perlica). Her Ultimate gains importance: it's a reliable way to apply Electric Infliction or Electrification on the lead-up to the stagger to trigger Avywenna's Combo even when SP is tight. Sustaining 3 of her Battle Skills is the most demanding part of the whole team, which is why this is the context where her Potentials (ideally P5) make the biggest difference."
+          }
+        },
+        {
+          "id": "perlica",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0008",
+          "gearRec": [
+            "pulser_labs_disruptor_suit",
+            "aethertech_gloves",
+            "pulser_labs_calibrator",
+            "pulser_labs_calibrator"
+          ],
+          "weaponNote": {
+            "es": "Aquí no hay Antal compitiendo por ella, así que Perlica se queda con Detonation Unit 6★: tras disparar un Electric Burst con su Battle Skill aplica Arts DMG Taken, que se apila con su Electrification. Si no la tienes, Wild Wanderer 5★ es la alternativa sólida (Electric/Physical DMG al aplicar Electrification). Stanza of Memorials NO sirve en equipo eléctrico.",
+            "en": "There's no Antal competing for it here, so Perlica keeps Detonation Unit 6★: after triggering an Electric Burst with her Battle Skill it applies Arts DMG Taken, which stacks with her Electrification. If you don't have it, Wild Wanderer 5★ is the solid alternative (Electric/Physical DMG on applying Electrification). Stanza of Memorials does NOT work in an Electric team."
+          },
+          "gearNote": {
+            "es": "Set Pulser Labs: Disruptor Suit + Aethertech Gloves + 2× Calibrator. Las Aethertech Gloves se eligen por su Arts Intensity, que amplifica el Arts DMG Taken de su Electrification — y eso importa todavía más aquí, porque sus Inflictions se consumen para la Corrosión y su Electrification es la que de verdad quieres que se mantenga.",
+            "en": "Pulser Labs set: Disruptor Suit + Aethertech Gloves + 2× Calibrator. The Aethertech Gloves are chosen for their Arts Intensity, which amplifies the Arts DMG Taken from her Electrification — and that matters even more here, because her Inflictions get consumed for Corrosion and her Electrification is the one you actually want to keep."
+          },
+          "deepNote": {
+            "es": "Perlica es, otra vez, el requisito de entrada: sin Electric Infliction el Combo de Avywenna no se dispara. Pero en este equipo gana un segundo papel de conexión: su Combo Skill dispara automáticamente el de Gilberta, así que mantiene viva la cadena de Vulnerability que engorda la Ultimate de Gilberta. Y como las Inflictions se reparten entre Arclight (consumo para SP) y Gilberta (Corrosión), su Electrification — construida para Arts Intensity con Detonation Unit y Aethertech — es la versión 'buena' del estado, la que de verdad multiplica el daño. Por eso el orden de uso importa tanto: Arclight gasta primero la Electrification barata, y la de Perlica se queda puesta sobre el jefe para el recall.",
+            "en": "Perlica is, again, the entry requirement: without Electric Infliction Avywenna's Combo won't trigger. But in this team she picks up a second, connective role: her Combo Skill automatically triggers Gilberta's, so she keeps alive the Vulnerability chain that fattens Gilberta's Ultimate. And since the Inflictions get split between Arclight (consume for SP) and Gilberta (Corrosion), her Electrification — built for Arts Intensity with Detonation Unit and Aethertech — is the 'good' version of the status, the one that actually multiplies damage. That's why the order of use matters so much: Arclight spends the cheap Electrification first, and Perlica's stays planted on the boss for the recall."
+          }
+        },
+        {
+          "id": "gilberta",
+          "role": "Support",
+          "weaponId": "wpn_funnel_0011",
+          "gearRec": [
+            "eternal_xiranite_armor",
+            "eternal_xiranite_gloves_t1",
+            "eternal_xiranite_auxiliary_arm",
+            "eternal_xiranite_auxiliary_arm"
+          ],
+          "weaponNote": {
+            "es": "Delivery Guaranteed 6★, su promocional, es la mejor opción: muchísima Ultimate Gain Efficiency (le abre breakpoints de energía o le deja perseguir Arts Intensity) y un buff de Arts DMG al equipo que activa gratis con su Combo Skill al aplicar Lifted. En equipo eléctrico, OBJ Arts Identifier 5★ es la alternativa especialista: buffea Heat/Electric DMG al equipo cuando levanta enemigos con su Combo — sustituto directo si no tienes la promocional.",
+            "en": "Delivery Guaranteed 6★, her signature, is the best pick: a ton of Ultimate Gain Efficiency (it opens energy breakpoints or lets her chase Arts Intensity) and a team Arts DMG buff she activates for free with her Combo Skill on applying Lifted. In an Electric team, OBJ Arts Identifier 5★ is the specialist alternative: it buffs team Heat/Electric DMG when she lifts enemies with her Combo — a direct substitute if you lack the signature."
+          },
+          "gearNote": {
+            "es": "Set Eternal Xiranite (3 piezas): Armor + Gloves T1 + 2× Auxiliary Arm. El 3pc da DMG +16% a todo el equipo cuando aplica Susceptibility — que es justo lo que hace su Ultimate. Solo lo dispara con la Ultimate, así que no mantiene el set al 100%; por eso ayuda que otro soporte también vista Eternal Xiranite. Si quieres más Ultimate Gain puedes meter Bonekrusha Poncho T1 o Tide Fall Light Armor en el slot de armadura.",
+            "en": "Eternal Xiranite set (3 pieces): Armor + Gloves T1 + 2× Auxiliary Arm. The 3pc grants DMG +16% to the whole team when she applies Susceptibility — which is exactly what her Ultimate does. She only triggers it with the Ultimate, so she doesn't hold the set at 100%; that's why it helps if another support also wears Eternal Xiranite. If you want more Ultimate Gain you can run Bonekrusha Poncho T1 or Tide Fall Light Armor in the armor slot."
+          },
+          "deepNote": {
+            "es": "Gilberta es la pieza que convierte el equipo eléctrico de single-target en algo flexible y con techo más alto. Aporta tres cosas que se solapan: agrupado (su Battle Skill junta enemigos, con radio mejorado a P1, lo que habilita el AoE de las lanzas), Corrosión (también su Battle Skill, que pide cocción), y sobre todo la Susceptibility brutal de su Ultimate, que multiplica el recall siguiente. Encima, su Combo Skill se encadena con el de Perlica y el timestop le deja acumular Vulnerability para hacer su Ultimate aún más grande. No es daño directo: es un amplificador y una caja de utilidad. El precio es la complejidad — hay que aplicar la Corrosión pronto, alinear la Ultimate con el pico, y respetar el orden con Arclight — pero a cambio es la única de las tres opciones de este hueco que rinde igual de bien en jefe y en grupos.",
+            "en": "Gilberta is the piece that turns the single-target Electric team into something flexible with a higher ceiling. She brings three overlapping things: grouping (her Battle Skill gathers enemies, with improved radius at P1, which enables the lances' AoE), Corrosion (also her Battle Skill, which needs ramp time), and above all the brutal Susceptibility from her Ultimate, which multiplies the following recall. On top of that, her Combo Skill chains off Perlica's and timestop lets her build Vulnerability to make her Ultimate even bigger. She isn't direct damage: she's an amplifier and a utility box. The price is complexity — apply the Corrosion early, align the Ultimate with the peak, and respect the order with Arclight — but in exchange she's the only one of the three options for this slot that performs equally well on a boss and in groups."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "El reparto es el mismo de siempre — Avywenna pone el daño bruto con Bonekrusha y Battle Skill DMG, el resto pone buffs y uptime — pero aquí entra una capa nueva: Gilberta vive de Ultimate Gain Efficiency (su promocional Delivery Guaranteed va cargada de ello) para tener su Ultimate lista en cada burst, porque esa Ultimate es la Susceptibility que multiplica el recall. Perlica se construye para Arts Intensity (Detonation Unit + Aethertech) porque su Electrification es la que se mantiene sobre el jefe. Y Arclight, en este equipo, necesita más inversión que en el de Antal para sostener sus 3 Battle Skills. El gear no hace la Corrosión ni el agrupado — eso es técnica y orden — pero sí decide si tu Ultimate de Gilberta llega a tiempo a cada ventana.",
+          "en": "The split is the usual — Avywenna brings the raw damage with Bonekrusha and Battle Skill DMG, the rest bring buffs and uptime — but here a new layer comes in: Gilberta lives on Ultimate Gain Efficiency (her signature Delivery Guaranteed is loaded with it) to have her Ultimate ready every burst, because that Ultimate is the Susceptibility that multiplies the recall. Perlica builds for Arts Intensity (Detonation Unit + Aethertech) because her Electrification is the one that stays on the boss. And Arclight, in this team, needs more investment than in the Antal team to sustain her 3 Battle Skills. Gear doesn't make the Corrosion or the grouping happen — that's technique and order — but it does decide whether your Gilberta Ultimate makes it to each window on time."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Gilberta sin Delivery Guaranteed",
+              "en": "Gilberta without Delivery Guaranteed"
+            },
+            "swap": {
+              "es": "OBJ Arts Identifier 5★ es la alternativa especialista para equipos eléctricos: buffea Heat/Electric DMG al equipo cuando Gilberta levanta enemigos con su Combo Skill. Pierde la Ultimate Gain Efficiency y los stats de la promocional, pero el efecto es comparable dentro de este elemento.",
+              "en": "OBJ Arts Identifier 5★ is the specialist alternative for Electric teams: it buffs team Heat/Electric DMG when Gilberta lifts enemies with her Combo Skill. It loses the signature's Ultimate Gain Efficiency and stats, but the effect is comparable within this element."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Arclight a bajo Potencial",
+              "en": "Arclight at low Potential"
+            },
+            "swap": {
+              "es": "Si Arclight no está cerca de P5, no fuerces los 3 Battle Skills: recorta a 2 y prioriza Ultimate Gain Efficiency en su gear para compensar. La rotación sigue funcionando, solo con un poco menos de generación de SP.",
+              "en": "If Arclight isn't near P5, don't force the 3 Battle Skills: cut to 2 and prioritize Ultimate Gain Efficiency on her gear to compensate. The rotation still works, just with a bit less SP generation."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": {
+        "es": "Comfort / Link",
+        "en": "Comfort / Link"
+      },
+      "subtitle": {
+        "es": "Akekuri · Perlica · Gilberta",
+        "en": "Akekuri · Perlica · Gilberta"
+      },
+      "blurb": {
+        "es": "La versión cómoda con Akekuri: su Link potencia el recall sin pedir timing de stacks. Menos techo, mucho más fácil de jugar.",
+        "en": "The comfortable version with Akekuri: her Link powers the recall with no stack timing. Lower ceiling, much easier to play."
+      },
+      "guideVideoId": "av3",
+      "simple": {
+        "whatItDoes": {
+          "es": "La versión cómoda. Akekuri sustituye a Arclight: su buff de Link potencia el recall de Avywenna sin pedir timing de stacks eléctricos. Su Battle Skill no se usa nunca. Acumulas Electric Inflictions, metes la Corrosión de Gilberta pronto, y guardas la Ultimate de Akekuri (el Link) para el Battle Skill de Avywenna. Menos techo que con Arclight, pero mucho más fácil de ejecutar.",
+          "en": "The comfortable version. Akekuri replaces Arclight: her Link buff powers up Avywenna's recall without needing Electric-stack timing. Her Battle Skill is never used. You stack Electric Inflictions, drop Gilberta's Corrosion early, and save Akekuri's Ultimate (the Link) for Avywenna's Battle Skill. Lower ceiling than with Arclight, but much easier to execute."
+        },
+        "steps": [
+          {
+            "who": "perlica",
+            "do": {
+              "es": "Mantén Electric Infliction con Perlica. Su Combo Skill dispara también el de Gilberta.",
+              "en": "Keep Electric Infliction up with Perlica. Her Combo Skill also triggers Gilberta's."
+            }
+          },
+          {
+            "who": "avywenna",
+            "do": {
+              "es": "Con Avywenna suelta Combos para clavar lanzas y sube hasta 4 Electric Inflictions en el jefe.",
+              "en": "With Avywenna, drop Combos to plant lances and build up to 4 Electric Inflictions on the boss."
+            }
+          },
+          {
+            "who": "gilberta",
+            "do": {
+              "es": "Battle Skill de Gilberta para Corrosión + agrupar, PRONTO (deja 7+ s de cocción).",
+              "en": "Gilberta's Battle Skill for Corrosion + grouping, EARLY (leave 7+ s to ramp)."
+            }
+          },
+          {
+            "who": "akekuri",
+            "do": {
+              "es": "Guarda la Ultimate de Akekuri (el Link) para justo antes del recall de Avywenna; intenta alinearla con el Finisher de Perlica. Su Battle Skill no lo toques.",
+              "en": "Save Akekuri's Ultimate (the Link) for right before Avywenna's recall; try to align it with Perlica's Finisher. Don't touch her Battle Skill."
+            }
+          },
+          {
+            "who": "avywenna",
+            "do": {
+              "es": "Recoge con el Battle Skill de Avywenna mientras el Link está activo — el Link cuenta como buff de Battle Skill, así que escala directo el recall. Encadena las Ultimates.",
+              "en": "Recall with Avywenna's Battle Skill while the Link is active — the Link counts as a Battle Skill buff, so it scales the recall directly. Chain the Ultimates."
+            }
+          },
+          {
+            "do": {
+              "es": "Repite, y cambia a un eléctrico para los Finishers de stagger.",
+              "en": "Repeat, and swap to an Electric operator for the stagger Finishers."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "avywenna",
+            "line": {
+              "es": "JET + Bonekrusha (4 piezas). Su daño de retorno es daño de Battle Skill — y el Link de Akekuri también buffea eso.",
+              "en": "JET + Bonekrusha (4 pieces). Her return damage is Battle Skill damage — and Akekuri's Link buffs exactly that."
+            }
+          },
+          {
+            "id": "akekuri",
+            "line": {
+              "es": "Thermite Cutter + set Frontiers. No gasta SP; su Link es de los mayores buffs de daño del equipo a día de hoy.",
+              "en": "Thermite Cutter + Frontiers set. She spends no SP; her Link is one of the team's biggest damage buffs right now."
+            }
+          },
+          {
+            "id": "perlica",
+            "line": {
+              "es": "Detonation Unit + set Pulser Labs. Fuente de Electric y de Arts DMG Taken.",
+              "en": "Detonation Unit + Pulser Labs set. Source of Electric and Arts DMG Taken."
+            }
+          },
+          {
+            "id": "gilberta",
+            "line": {
+              "es": "Delivery Guaranteed + set Eternal Xiranite. Agrupado, Corrosión y la Susceptibility de su Ultimate.",
+              "en": "Delivery Guaranteed + Eternal Xiranite set. Grouping, Corrosion and the Susceptibility from her Ultimate."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "El punto de entrada de Avywenna en AoE y la versión más cómoda de jugar. Akekuri es de las unidades más fáciles del juego: su Link es un buff que no pide condiciones — basta activarlo, sin timing de stacks eléctricos. Su valor real está en cómo se usa: guardas su Ultimate Link para el Battle Skill de Avywenna, porque el Link escala el daño de retorno (que es daño de Battle Skill). El resto del equipo funciona igual que con Gilberta y Arclight: acumular Electric, cocinar la Corrosión, descargar el recall. Lo que pierdes es la generación masiva de SP de Arclight, así que el ciclo de Ultimates es más lento y el techo más bajo — pero la ejecución es mucho más consistente. Es donde empezar si todavía no controlas el manejo de SP de Arclight.",
+        "en": "Avywenna's entry point for AoE and the most comfortable version to play. Akekuri is one of the easiest units in the game: her Link is a buff with no conditions — just activate it, no Electric-stack timing. Her real value is in how you use it: you save her Ultimate Link for Avywenna's Battle Skill, because the Link scales the return damage (which is Battle Skill damage). The rest of the team works the same as with Gilberta and Arclight: stack Electric, cook the Corrosion, unload the recall. What you lose is Arclight's massive SP generation, so the Ultimate loop is slower and the ceiling lower — but execution is much more consistent. It's where to start if you don't yet have Arclight's SP management down."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Media",
+          "en": "Medium"
+        },
+        "content": {
+          "es": "AoE / Comfort",
+          "en": "AoE / Comfort"
+        },
+        "tags": [
+          {
+            "es": "Comfort",
+            "en": "Comfort"
+          },
+          {
+            "es": "Enlace",
+            "en": "Link",
+            "jp": "リンク",
+            "zh": "连击"
+          },
+          {
+            "es": "AoE",
+            "en": "AoE"
+          },
+          {
+            "es": "Accesible",
+            "en": "Accessible"
+          },
+          {
+            "es": "Aprendizaje",
+            "en": "Learning"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "Akekuri es de lo más fácil de jugar: su Link no pide timing de stacks — lo activas y multiplica el recall. Y no gasta nada de SP.",
+          "en": "Akekuri is about as easy to play as it gets: her Link needs no stack timing — you activate it and it multiplies the recall. And she spends no SP at all."
+        },
+        {
+          "es": "El Link escala el daño de retorno de Avywenna (que es daño de Battle Skill), así que un buff 'de soporte' se convierte en uno de los mayores bonus de daño del equipo a día de hoy.",
+          "en": "The Link scales Avywenna's return damage (which is Battle Skill damage), so a 'support' buff turns into one of the team's biggest damage bonuses right now."
+        },
+        {
+          "es": "Mantiene a Gilberta: sigues teniendo agrupado, Corrosión y la Susceptibility de su Ultimate. Es la versión fácil del equipo de Corrosión.",
+          "en": "It keeps Gilberta: you still have grouping, Corrosion and the Susceptibility from her Ultimate. It's the easy version of the Corrosion team."
+        },
+        {
+          "es": "Punto de entrada ideal: si todavía no dominas el manejo de SP de Arclight, este equipo te da casi todo con mucha menos exigencia.",
+          "en": "Ideal entry point: if you don't yet have Arclight's SP management down, this team gives you almost everything with far less demand."
+        }
+      ],
+      "cons": [
+        {
+          "es": "Sin Arclight pierdes la generación de SP que sostiene la cadencia de recalls — el ciclo de Ultimates es más lento y el techo, más bajo.",
+          "en": "Without Arclight you lose the SP generation that sustains the recall cadence — the Ultimate loop is slower and the ceiling lower."
+        },
+        {
+          "es": "La recuperación de SP de Akekuri, fuera de su Ultimate, no es gran cosa, así que financiar suficientes recalls y Ultimates por vuelta cuesta. Hay que jugar alrededor de ese límite.",
+          "en": "Akekuri's SP recovery, outside her Ultimate, isn't much, so funding enough recalls and Ultimates per loop is work. You have to play around that limit."
+        },
+        {
+          "es": "Sigue pidiendo el setup de Gilberta (acumular Electric, cocinar la Corrosión) y el posicionamiento de lanzas de siempre.",
+          "en": "It still asks for Gilberta's setup (stack Electric, cook the Corrosion) and the usual lance positioning."
+        },
+        {
+          "es": "Hay un pequeño timing que exprimir (el Battle Skill de Avywenna al tercer 'flare' de la Ultimate de Akekuri) si quieres el máximo del Link.",
+          "en": "There's a small timing to squeeze (Avywenna's Battle Skill on the third 'flare' of Akekuri's Ultimate) if you want the most out of the Link."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "El Link de Akekuri escala el recall",
+            "en": "Akekuri's Link scales the recall"
+          },
+          "body": {
+            "es": "El daño de retorno de las lanzas se calcula como daño de Battle Skill, y el Link de Akekuri buffea justo ese tipo de daño. Por eso no es un buff de soporte cualquiera: aplicado al recall de Avywenna se convierte en uno de los mayores aumentos de daño del equipo. La regla es simple — guarda su Ultimate Link para el Battle Skill de Avywenna, que es donde más vale.",
+            "en": "The lances' return damage is calculated as Battle Skill damage, and Akekuri's Link buffs exactly that damage type. That's why it isn't just any support buff: applied to Avywenna's recall it becomes one of the team's biggest damage increases. The rule is simple — save her Ultimate Link for Avywenna's Battle Skill, where it's worth the most."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Cero condiciones, cero SP",
+            "en": "No conditions, no SP"
+          },
+          "body": {
+            "es": "A diferencia de Arclight, Akekuri no necesita stacks eléctricos ni vigilar cuándo hay Electrification para consumir, y no gasta SP del equipo. Basta con activarlo. Eso la hace muy difícil de jugar mal — su Battle Skill ni se usa, y su Combo solo de vez en cuando para activar efectos de arma y set.",
+            "en": "Unlike Arclight, Akekuri doesn't need Electric stacks or to watch for available Electrification to consume, and she spends no team SP. You just activate it. That makes her very hard to play badly — her Battle Skill isn't even used, and her Combo only occasionally, to trigger weapon and set effects."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "El timing fino del Link",
+            "en": "The fine timing of the Link"
+          },
+          "body": {
+            "es": "Para exprimirla del todo hay un detalle opcional: Akekuri gana un ATK% acumulable al recuperar SP y un 10% de ATK mientras su Ultimate está disparando. Si usas su Ultimate antes de un Finisher y casteas el Battle Skill de Avywenna justo cuando sale el tercer 'flare', maximizas ese buff acumulado. No es obligatorio, pero ahí está el techo del equipo.",
+            "en": "To squeeze her fully there's an optional detail: Akekuri gains a stacking ATK% on SP recovery and 10% ATK while her Ultimate is firing. If you use her Ultimate before a Finisher and cast Avywenna's Battle Skill right as the third 'flare' goes off, you max out that stacked buff. It isn't mandatory, but that's where the team's ceiling is."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Gilberta sigue haciendo lo suyo",
+            "en": "Gilberta still does her thing"
+          },
+          "body": {
+            "es": "El agrupado, la Corrosión y la Susceptibility de la Ultimate de Gilberta funcionan exactamente igual que en el equipo con Arclight. Lo único que cambia es quién ocupa el hueco de soporte eléctrico/SP. Así que conservas toda la utilidad y el pico de Susceptibility, y solo bajas la generación de recursos.",
+            "en": "Gilberta's grouping, Corrosion and the Susceptibility from her Ultimate work exactly the same as in the Arclight team. The only thing that changes is who fills the Electric/SP support slot. So you keep all the utility and the Susceptibility spike, and you only give up the resource generation."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Apertura — montar lanzas y Corrosión",
+            "en": "Opener — set up lances and Corrosion"
+          },
+          "action": {
+            "es": "Apertura corta: el Combo de Perlica dispara el de Gilberta, así que van juntos. Acumula lanzas y deja que Gilberta sume Vulnerability con el timestop. Akekuri no hace casi nada todavía — guarda su Ultimate.",
+            "en": "Short opener: Perlica's Combo triggers Gilberta's, so they go together. Stack lances and let Gilberta build Vulnerability via timestop. Akekuri does almost nothing yet — save her Ultimate."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Battle Skill (con Electric Infliction aplicado).",
+                "en": "Battle Skill (with Electric Infliction applied)."
+              }
+            },
+            {
+              "do": {
+                "es": "Final Strike — dispara el Combo de Avywenna.",
+                "en": "Final Strike — triggers Avywenna's Combo."
+              }
+            },
+            {
+              "do": {
+                "es": "Combo Skill → Combo Skill (Perlica + Gilberta encadenan).",
+                "en": "Combo Skill → Combo Skill (Perlica + Gilberta chain)."
+              }
+            }
+          ],
+          "tip": {
+            "es": "Acumula hasta 4 Electric Inflictions y aplica la Corrosión de Gilberta pronto para que rampee antes del burst.",
+            "en": "Build up to 4 Electric Inflictions and apply Gilberta's Corrosion early so it ramps before the burst."
+          }
+        },
+        {
+          "phase": {
+            "es": "Burst — Link + Susceptibility + recall",
+            "en": "Burst — Link + Susceptibility + recall"
+          },
+          "action": {
+            "es": "La rotación general es casi idéntica a la del equipo con Arclight; la diferencia es que Akekuri no gasta SP. Lo importante es reservar el Link de su Ultimate para el Battle Skill final de Avywenna.",
+            "en": "The general rotation is almost identical to the Arclight team's; the difference is that Akekuri spends no SP. The key is reserving her Ultimate's Link for Avywenna's final Battle Skill."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Battle Skill de Gilberta (para la Corrosión) — déjala cocer.",
+                "en": "Gilberta's Battle Skill (for the Corrosion) — let it cook."
+              },
+              "key": true
+            },
+            {
+              "do": {
+                "es": "Battle Skill de Perlica (para el Electric Infliction).",
+                "en": "Perlica's Battle Skill (for the Electric Infliction)."
+              }
+            },
+            {
+              "do": {
+                "es": "Final Strike (staggerea) → Combo Skill → Combo Skill → Combo Skill → Combo Skill.",
+                "en": "Final Strike (staggers) → Combo Skill → Combo Skill → Combo Skill → Combo Skill."
+              }
+            },
+            {
+              "do": {
+                "es": "Ultimate → Ultimate → Ultimate → Ultimate (incluida la de Gilberta para la Susceptibility, y la de Akekuri para el Link reservado a Avywenna).",
+                "en": "Ultimate → Ultimate → Ultimate → Ultimate (including Gilberta's for the Susceptibility, and Akekuri's for the Link reserved for Avywenna)."
+              },
+              "key": true
+            },
+            {
+              "do": {
+                "es": "Finisher (con un personaje eléctrico) → Battle Skill de Avywenna (el recall grande, con el Link activo).",
+                "en": "Finisher (with an Electric operator) → Avywenna's Battle Skill (the big recall, with the Link active)."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "Usa la Ultimate de Akekuri antes del Finisher y castea el Battle Skill de Avywenna justo cuando salga el tercer flare para maximizar el ATK% acumulado de Akekuri.",
+            "en": "Use Akekuri's Ultimate before the Finisher and cast Avywenna's Battle Skill right as the third flare goes off to max out Akekuri's stacked ATK%."
+          }
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "avywenna",
+          "order": "S1 > S3 > S2",
+          "note": {
+            "es": "S1 (Battle Skill) es el recall — y aquí, además, el golpe que recibe el Link de Akekuri. S3 (Ultimate) para la lanza EX y el Electric Susceptibility. S2 (Combo Skill) último.",
+            "en": "S1 (Battle Skill) is the recall — and here, also the hit that receives Akekuri's Link. S3 (Ultimate) for the EX lance and the Electric Susceptibility. S2 (Combo Skill) last."
+          }
+        },
+        {
+          "charId": "akekuri",
+          "order": "S3 > S2 > S1",
+          "note": {
+            "es": "S3 (Ultimate) es el Link, todo su valor está ahí. S2 (Combo Skill) solo se usa de vez en cuando para efectos de arma/set. S1 (Battle Skill) no se usa nunca en este equipo, así que va al final.",
+            "en": "S3 (Ultimate) is the Link, all her value is there. S2 (Combo Skill) is only used occasionally for weapon/set effects. S1 (Battle Skill) is never used in this team, so it goes last."
+          }
+        },
+        {
+          "charId": "perlica",
+          "order": "S1 > S3 > S2",
+          "note": {
+            "es": "S1 (Battle Skill) para el Electric Infliction y para disparar Electric Burst con Detonation Unit. S3 para la ventana de buff. S2 se usa igual para Electrification y para disparar el Combo de Gilberta.",
+            "en": "S1 (Battle Skill) for the Electric Infliction and to trigger Electric Burst with Detonation Unit. S3 for the buff window. S2 still gets used for Electrification and to trigger Gilberta's Combo."
+          }
+        },
+        {
+          "charId": "gilberta",
+          "order": "S3 > S2 > S1",
+          "note": {
+            "es": "S3 (Ultimate) por la Susceptibility que multiplica el recall. S2 (Combo Skill) se encadena con el de Perlica. S1 (Battle Skill) para Corrosión y agrupado — radio mejorado a P1.",
+            "en": "S3 (Ultimate) for the Susceptibility that multiplies the recall. S2 (Combo Skill) chains off Perlica's. S1 (Battle Skill) for Corrosion and grouping — radius improved at P1."
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Gastar el Link de Akekuri en cualquier sitio en vez de reservarlo para el Battle Skill de Avywenna. Es ahí donde escala el recall — fuera de ahí, desperdicias el mayor buff del equipo.",
+          "en": "Spending Akekuri's Link anywhere instead of saving it for Avywenna's Battle Skill. That's where it scales the recall — anywhere else, you waste the team's biggest buff."
+        },
+        {
+          "es": "Usar el Battle Skill de Akekuri: en este equipo no se toca. Solo su Combo ocasional para efectos de arma/set, y su Ultimate para el Link.",
+          "en": "Using Akekuri's Battle Skill: in this team it's off-limits. Only her occasional Combo for weapon/set effects, and her Ultimate for the Link."
+        },
+        {
+          "es": "Esperar el mismo techo que con Arclight. Este equipo es Comfort, no daño máximo: el ciclo de Ultimates es más lento porque falta la generación de SP de Arclight.",
+          "en": "Expecting the same ceiling as with Arclight. This team is Comfort, not max damage: the Ultimate loop is slower because Arclight's SP generation is missing."
+        },
+        {
+          "es": "Los errores de siempre de cualquier equipo de Avywenna: meter la Corrosión de Gilberta tarde, o recoger sin los buffs/la posición listos.",
+          "en": "The usual mistakes of any Avywenna team: dropping Gilberta's Corrosion late, or recalling without the buffs/position ready."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "Eléctrico + Corrosión (Arclight)",
+            "en": "Electric + Corrosion (Arclight)"
+          },
+          "verdict": {
+            "es": "Misma Gilberta, pero Arclight sube el techo y la generación de SP a cambio de pedir bastante más (timing de stacks, manejo de SP, idealmente P5). Akekuri es la versión fácil del mismo equipo: empieza aquí y pásate a Arclight cuando lo controles.",
+            "en": "Same Gilberta, but Arclight raises the ceiling and the SP generation in exchange for asking a lot more (stack timing, SP management, ideally P5). Akekuri is the easy version of the same team: start here and move to Arclight once you have it down."
+          }
+        },
+        {
+          "name": {
+            "es": "Eléctrico puro (Antal)",
+            "en": "Full Electric (Antal)"
+          },
+          "verdict": {
+            "es": "Antal es single-target y más consistente en jefe; este equipo gana en grupos por el agrupado de Gilberta y es más cómodo, pero con menos generación de SP y, por tanto, un ciclo de Ultimates más lento.",
+            "en": "Antal is single-target and more consistent on a boss; this team wins in groups thanks to Gilberta's grouping and is more comfortable, but with less SP generation and therefore a slower Ultimate loop."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "avywenna",
+          "role": "Carry",
+          "weaponId": "wpn_lance_0011",
+          "gearRec": [
+            "bonekrusha_poncho_t1",
+            "bonekrusha_wristband_t1",
+            "bonekrusha_figurine",
+            "bonekrusha_figurine"
+          ],
+          "weaponNote": {
+            "es": "JET 6★ es su mejor arma por mucho. Cohesive Traction 5★ es la siguiente opción; Aggeloslayer 4★ es el recurso F2P. Sin cambios respecto a sus otros equipos: su build no depende de quién la acompañe.",
+            "en": "JET 6★ is her best weapon by a lot. Cohesive Traction 5★ is the next pick; Aggeloslayer 4★ is the F2P stopgap. No change from her other teams: her build doesn't depend on who's with her."
+          },
+          "gearNote": {
+            "es": "Bonekrusha 4 piezas (Battle Skill DMG + Ultimate Gain Efficiency + Electric DMG). En este equipo el Link de Akekuri se suma a su daño de retorno — que ya es daño de Battle Skill — así que el gear orientado a Battle Skill rinde todavía un poco más.",
+            "en": "Bonekrusha 4-piece (Battle Skill DMG + Ultimate Gain Efficiency + Electric DMG). In this team Akekuri's Link adds to her return damage — which is already Battle Skill damage — so the Battle Skill-oriented gear pays off a touch more."
+          },
+          "deepNote": {
+            "es": "Avywenna juega exactamente igual que en sus otros equipos: monta lanzas con los Combos, aplica Electric Susceptibility con su Ultimate, y lo cobra todo con el recall del Battle Skill. La diferencia de este equipo es que su daño de retorno recibe el Link de Akekuri, un buff de Battle Skill que se apila justo donde más le duele al jefe. A cambio de esa comodidad, el ritmo es algo más lento: sin la generación de SP de Arclight cuesta más encadenar recalls y Ultimates seguidos, así que aquí Avywenna vive más de su propia energía natural y de exprimir bien cada ventana que de reciclar Ultimates a toda velocidad. Sigue valiendo todo lo demás — posicionar las lanzas, no recoger antes de tiempo, y cambiar a un eléctrico para los Finishers.",
+            "en": "Avywenna plays exactly the same as in her other teams: set up lances with the Combos, apply Electric Susceptibility with her Ultimate, and cash it all in with the Battle Skill recall. The difference in this team is that her return damage receives Akekuri's Link, a Battle Skill buff that stacks right where it hurts the boss most. In exchange for that comfort, the pace is a bit slower: without Arclight's SP generation it's harder to chain recalls and Ultimates back to back, so here Avywenna lives more off her own natural energy and off squeezing each window well than off recycling Ultimates at full speed. Everything else still holds — position the lances, don't recall early, and swap to an Electric operator for Finishers."
+          }
+        },
+        {
+          "id": "akekuri",
+          "role": "Enabler",
+          "weaponId": "wpn_sword_0012",
+          "gearRec": [
+            "frontiers_protection_suit",
+            "frontiers_blight_res_gloves",
+            "frontiers_extra_o2_tube",
+            "redeemer_seal"
+          ],
+          "weaponNote": {
+            "es": "Thermite Cutter 6★ es su mejor arma de soporte para casi todo: tras recuperar SP o dar Link, todo el equipo gana ATK%, y como Akekuri genera SP constantemente, ese buff está activo casi siempre. Alternativas: OBJ Edge of Lightness 5★ (sube Heat/Electric DMG al recuperar SP, encaja con un equipo eléctrico) y Fortmaker 5★ (Ultimate Gain para llegar antes a su Ultimate/Link si no tienes las otras).",
+            "en": "Thermite Cutter 6★ is her best support weapon for almost everything: after recovering SP or granting Link, the whole team gains ATK%, and since Akekuri generates SP constantly, that buff is up nearly all the time. Alternatives: OBJ Edge of Lightness 5★ (raises Heat/Electric DMG on SP recovery, fits an Electric team) and Fortmaker 5★ (Ultimate Gain to reach her Ultimate/Link sooner if you lack the others)."
+          },
+          "gearNote": {
+            "es": "Set Frontiers (3 piezas): Protection Suit + Fiber Gloves + Extra O2 Tube + un Redeemer Seal. El 3pc da Combo Skill CDR y DMG +16% al equipo al recuperar SP — que Akekuri hace en bucle, así que el buff es casi permanente. Alternativa 'sin set': solo piezas Redeemer para máxima Ultimate Gain Efficiency, si prefieres regenerar más SP para el equipo sacrificando el bono de set.",
+            "en": "Frontiers set (3 pieces): Protection Suit + Fiber Gloves + Extra O2 Tube + one Redeemer Seal. The 3pc gives Combo Skill CDR and DMG +16% to the team on SP recovery — which Akekuri does on loop, so the buff is nearly permanent. 'No set' alternative: just Redeemer pieces for maximum Ultimate Gain Efficiency, if you'd rather regenerate more SP for the team and give up the set bonus."
+          },
+          "deepNote": {
+            "es": "Akekuri es el soporte cómodo por excelencia y, a la vez, uno de los mayores buffs de daño que puede recibir Avywenna a día de hoy. Su Link es la pieza clave: como el daño de retorno de las lanzas se calcula como daño de Battle Skill, aplicar el Link justo sobre el recall multiplica el grueso del output de Avywenna. La regla de oro es reservar su Ultimate Link para el Battle Skill de Avywenna y, si quieres el máximo, usarla antes de un Finisher y recoger al tercer flare para apilar su ATK%. Lo demás es desahogo puro: su Battle Skill no se usa, su Combo solo de vez en cuando para activar arma y set, y no consume SP del equipo. La contrapartida es que su recuperación de SP, fuera del Ultimate, no es gran cosa — por eso este equipo financia sus recalls y Ultimates más despacio y tiene un techo más bajo que el de Arclight. Pero si trabajas alrededor de ese límite, el buff bruto que aporta es de los más altos disponibles.",
+            "en": "Akekuri is the comfortable support par excellence and, at the same time, one of the biggest damage buffs Avywenna can receive right now. Her Link is the key piece: since the lances' return damage is calculated as Battle Skill damage, applying the Link right onto the recall multiplies the bulk of Avywenna's output. The golden rule is to reserve her Ultimate Link for Avywenna's Battle Skill and, if you want the max, to use it before a Finisher and recall on the third flare to stack her ATK%. The rest is pure relief: her Battle Skill isn't used, her Combo only occasionally to trigger weapon and set, and she consumes no team SP. The trade-off is that her SP recovery, outside the Ultimate, isn't much — which is why this team funds its recalls and Ultimates more slowly and has a lower ceiling than Arclight's. But if you play around that limit, the raw buff she provides is among the highest available."
+          }
+        },
+        {
+          "id": "perlica",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0008",
+          "gearRec": [
+            "pulser_labs_disruptor_suit",
+            "aethertech_gloves",
+            "pulser_labs_calibrator",
+            "pulser_labs_calibrator"
+          ],
+          "weaponNote": {
+            "es": "Detonation Unit 6★ como en el equipo de Gilberta con Arclight: aplica Arts DMG Taken tras disparar Electric Burst con su Battle Skill. Wild Wanderer 5★ es la alternativa accesible (Electric/Physical DMG al aplicar Electrification). Recuerda: Stanza of Memorials no funciona en equipo eléctrico.",
+            "en": "Detonation Unit 6★ as in the Gilberta-with-Arclight team: it applies Arts DMG Taken after triggering Electric Burst with her Battle Skill. Wild Wanderer 5★ is the accessible alternative (Electric/Physical DMG on applying Electrification). Remember: Stanza of Memorials doesn't work in an Electric team."
+          },
+          "gearNote": {
+            "es": "Set Pulser Labs con Aethertech Gloves por la Arts Intensity, que engorda el Arts DMG Taken de su Electrification. Sin Arclight comiéndose sus stacks, parte de su sinergia se pierde, pero el Arts DMG Taken que aplica sigue siendo uno de los mejores multiplicadores del juego.",
+            "en": "Pulser Labs set with Aethertech Gloves for the Arts Intensity, which fattens the Arts DMG Taken from her Electrification. Without Arclight eating her stacks, part of her synergy is lost, but the Arts DMG Taken she applies is still one of the best multipliers in the game."
+          },
+          "deepNote": {
+            "es": "Perlica hace lo de siempre — garantizar el Electric Infliction que Avywenna necesita y disparar el Combo de Gilberta con el suyo — pero en este equipo pierde a su mejor compañero de baile: sin Arclight, ya nadie consume sus stacks para devolver SP. Eso significa que su Electrification rinde 'solo' como debuff (Arts DMG Taken) en lugar de doblar como motor de recursos. No es poca cosa: ese Arts DMG Taken sigue siendo uno de los multiplicadores más valiosos del juego y se apila con el Link de Akekuri, la Corrosión y la Susceptibility de Gilberta. Su prioridad aquí es la misma de siempre: mantener el estado eléctrico arriba sin fallar y alimentar el Combo de Gilberta.",
+            "en": "Perlica does her usual thing — guarantee the Electric Infliction Avywenna needs and trigger Gilberta's Combo with hers — but in this team she loses her best dance partner: without Arclight, no one consumes her stacks to refund SP anymore. That means her Electrification performs 'only' as a debuff (Arts DMG Taken) instead of doubling as a resource engine. That's no small thing: that Arts DMG Taken is still one of the most valuable multipliers in the game and stacks with Akekuri's Link, the Corrosion and Gilberta's Susceptibility. Her priority here is the same as always: keep the Electric status up without slipping and feed Gilberta's Combo."
+          }
+        },
+        {
+          "id": "gilberta",
+          "role": "Support",
+          "weaponId": "wpn_funnel_0011",
+          "gearRec": [
+            "eternal_xiranite_armor",
+            "eternal_xiranite_gloves_t1",
+            "eternal_xiranite_auxiliary_arm",
+            "eternal_xiranite_auxiliary_arm"
+          ],
+          "weaponNote": {
+            "es": "Delivery Guaranteed 6★ (su promocional): Ultimate Gain Efficiency a raudales y buff de Arts DMG al equipo gratis con su Combo. OBJ Arts Identifier 5★ es la alternativa especialista para equipo eléctrico (buffea Heat/Electric DMG al levantar con el Combo).",
+            "en": "Delivery Guaranteed 6★ (her signature): tons of Ultimate Gain Efficiency and a free team Arts DMG buff with her Combo. OBJ Arts Identifier 5★ is the specialist alternative for an Electric team (buffs Heat/Electric DMG when she lifts with her Combo)."
+          },
+          "gearNote": {
+            "es": "Set Eternal Xiranite (3 piezas): Armor + Gloves T1 + 2× Auxiliary Arm. El 3pc da DMG +16% al equipo cuando aplica Susceptibility con su Ultimate. Solo lo dispara con la Ultimate, así que el uptime es parcial — algo que aquí no se compensa con otro portador de Eternal Xiranite como sí pasaba con Antal en el equipo de un solo objetivo.",
+            "en": "Eternal Xiranite set (3 pieces): Armor + Gloves T1 + 2× Auxiliary Arm. The 3pc grants DMG +16% to the team when she applies Susceptibility with her Ultimate. She only triggers it with the Ultimate, so the uptime is partial — something that here isn't offset by another Eternal Xiranite wearer like Antal was in the single-target team."
+          },
+          "deepNote": {
+            "es": "Gilberta cumple el mismo papel triple que en el equipo con Arclight — agrupado, Corrosión y la Susceptibility de su Ultimate — y, sin Arclight en el equipo, su importancia incluso sube: el Link de Akekuri sustituye la generación de SP, pero el agrupado de Gilberta sigue siendo la única fuente de multiplicación en AoE y su Ultimate, el mayor pico de Susceptibility. La forma de jugarla no cambia: aplica la Corrosión pronto para que cueza, encadena su Combo con el de Perlica para ir sumando Vulnerability, y suelta la Ultimate justo antes del recall. Es la pieza que mantiene alto el techo de este equipo a pesar de la generación de SP más floja.",
+            "en": "Gilberta fills the same triple role as in the Arclight team — grouping, Corrosion and the Susceptibility from her Ultimate — and, without Arclight on the team, her importance even rises: Akekuri's Link replaces the SP generation, but Gilberta's grouping is still the only AoE multiplication source and her Ultimate the biggest Susceptibility spike. The way you play her doesn't change: apply the Corrosion early so it cooks, chain her Combo off Perlica's to keep building Vulnerability, and fire the Ultimate just before the recall. She's the piece that keeps this team's ceiling high despite the weaker SP generation."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Mismo reparto de fondo — Avywenna pone el daño con Bonekrusha y Battle Skill DMG, el resto pone buffs — pero con dos diferencias respecto al equipo de Arclight. Una: Akekuri no necesita gestión de SP ni Potenciales para funcionar; su set Frontiers le da un buff de equipo casi permanente al recuperar SP, y su Thermite Cutter añade ATK% encima. Dos: con menos generación de SP global, conviene que Gilberta vaya bien cargada de Ultimate Gain Efficiency (su promocional ya lo hace) para no llegar tarde con la Susceptibility. El gear no fabrica el techo de este equipo — lo limita la ausencia de Arclight — pero sí lo aprovecha al máximo dentro de su nivel de comodidad.",
+          "en": "Same underlying split — Avywenna brings the damage with Bonekrusha and Battle Skill DMG, the rest bring buffs — but with two differences from the Arclight team. One: Akekuri needs no SP management or Potentials to function; her Frontiers set gives a near-permanent team buff on SP recovery, and her Thermite Cutter adds ATK% on top. Two: with less global SP generation, you want Gilberta well loaded with Ultimate Gain Efficiency (her signature already does this) so she isn't late with the Susceptibility. Gear doesn't manufacture this team's ceiling — that's capped by the absence of Arclight — but it does make the most of it within its comfort level."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Akekuri sin Thermite Cutter",
+              "en": "Akekuri without Thermite Cutter"
+            },
+            "swap": {
+              "es": "OBJ Edge of Lightness 5★ si otro personaje usa la Thermite Cutter o no la tienes: cambia el ATK% genérico por Heat/Electric DMG al recuperar SP, que en un equipo eléctrico no está nada mal. Fortmaker 5★ si lo que necesitas es llegar antes a su Ultimate (Link) por la Ultimate Gain.",
+              "en": "OBJ Edge of Lightness 5★ if another character is using the Thermite Cutter or you don't have it: it trades the generic ATK% for Heat/Electric DMG on SP recovery, which in an Electric team isn't bad at all. Fortmaker 5★ if what you need is to reach her Ultimate (Link) sooner via the Ultimate Gain."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Gilberta sin Delivery Guaranteed",
+              "en": "Gilberta without Delivery Guaranteed"
+            },
+            "swap": {
+              "es": "OBJ Arts Identifier 5★ es el sustituto para equipo eléctrico: buffea Heat/Electric DMG al equipo cuando Gilberta levanta enemigos con su Combo. Pierdes la Ultimate Gain de la promocional, así que vigila que tu Ultimate de Gilberta siga llegando a tiempo a cada ventana.",
+              "en": "OBJ Arts Identifier 5★ is the substitute for an Electric team: it buffs team Heat/Electric DMG when Gilberta lifts enemies with her Combo. You lose the signature's Ultimate Gain, so watch that your Gilberta Ultimate still arrives on time to each window."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

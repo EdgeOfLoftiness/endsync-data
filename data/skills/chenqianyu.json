@@ -1,0 +1,361 @@
+{
+  "id": "chenqianyu",
+  "name": "Chen Qianyu",
+  "ranks": 12,
+  "skills": {
+    "basic_attack": {
+      "name": "Soaring Break",
+      "stats": [
+        {
+          "name": "BATK SEQ 1 Multiplier",
+          "unit": "%",
+          "values": [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            39,
+            42,
+            45
+          ]
+        },
+        {
+          "name": "BATK SEQ 2 Multiplier",
+          "unit": "%",
+          "values": [
+            24,
+            26,
+            29,
+            31,
+            34,
+            36,
+            38,
+            41,
+            43,
+            46,
+            50,
+            54
+          ]
+        },
+        {
+          "name": "BATK SEQ 3 Multiplier",
+          "unit": "%",
+          "values": [
+            27,
+            29,
+            32,
+            35,
+            38,
+            40,
+            43,
+            46,
+            48,
+            52,
+            56,
+            60
+          ]
+        },
+        {
+          "name": "BATK SEQ 4 Multiplier",
+          "unit": "%",
+          "values": [
+            30,
+            33,
+            36,
+            39,
+            42,
+            45,
+            48,
+            51,
+            54,
+            58,
+            62,
+            68
+          ]
+        },
+        {
+          "name": "BATK SEQ 5 Multiplier",
+          "unit": "%",
+          "values": [
+            40,
+            44,
+            48,
+            52,
+            56,
+            60,
+            64,
+            68,
+            72,
+            77,
+            83,
+            90
+          ]
+        },
+        {
+          "name": "Finisher ATK Multiplier",
+          "unit": "%",
+          "values": [
+            400,
+            440,
+            480,
+            520,
+            560,
+            600,
+            640,
+            680,
+            720,
+            770,
+            830,
+            900
+          ]
+        },
+        {
+          "name": "Dive ATK Multiplier",
+          "unit": "%",
+          "values": [
+            80,
+            88,
+            96,
+            104,
+            112,
+            120,
+            128,
+            136,
+            144,
+            154,
+            166,
+            180
+          ]
+        }
+      ]
+    },
+    "battle_skill": {
+      "name": "Ascending Strike",
+      "stats": [
+        {
+          "name": "SP Cost",
+          "values": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "DMG Multiplier",
+          "unit": "%",
+          "values": [
+            169,
+            186,
+            203,
+            219,
+            236,
+            253,
+            270,
+            287,
+            304,
+            325,
+            350,
+            380
+          ]
+        },
+        {
+          "name": "Stagger",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "Lift Duration (s)",
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1.5,
+            1.5,
+            1.5,
+            2,
+            2,
+            2,
+            2.5
+          ]
+        }
+      ]
+    },
+    "combo_skill": {
+      "name": "Soar to the Stars",
+      "stats": [
+        {
+          "name": "Cooldown",
+          "values": [
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            15
+          ]
+        },
+        {
+          "name": "DMG Multiplier",
+          "unit": "%",
+          "values": [
+            120,
+            132,
+            144,
+            156,
+            168,
+            180,
+            192,
+            204,
+            216,
+            231,
+            249,
+            270
+          ]
+        },
+        {
+          "name": "Ultimate Energy Gain",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ]
+    },
+    "ultimate": {
+      "name": "Blade Gale",
+      "stats": [
+        {
+          "name": "Ultimate Energy Cost",
+          "values": [
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70
+          ]
+        },
+        {
+          "name": "Slash Multiplier",
+          "unit": "%",
+          "values": [
+            36,
+            40,
+            43,
+            47,
+            50,
+            54,
+            58,
+            61,
+            65,
+            69,
+            75,
+            81
+          ]
+        },
+        {
+          "name": "First Strike Stagger",
+          "values": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ]
+        },
+        {
+          "name": "Final Strike DMG Multiplier",
+          "unit": "%",
+          "values": [
+            455,
+            500,
+            545,
+            591,
+            636,
+            682,
+            727,
+            773,
+            818,
+            875,
+            943,
+            1023
+          ]
+        },
+        {
+          "name": "Final Strike Stagger",
+          "values": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ]
+        }
+      ]
+    }
+  }
+}

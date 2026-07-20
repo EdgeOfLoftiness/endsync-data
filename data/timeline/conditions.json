@@ -1,0 +1,477 @@
+{
+ "ops": {
+  "avywenna": {
+   "comboTrigger": {
+    "raw": "When controlled operator performs a Final Strike on a target with active Electric Infliction or Electrification.",
+    "anyState": [
+     "electric_infl",
+     "electrification"
+    ]
+   },
+   "condHits": {
+    "battle_skill": [
+     {
+      "requires": "thunderlance",
+      "multStat": "Thunderlance DMG Multiplier",
+      "staggerStat": "Thunderlance Stagger",
+      "label": "Thunderlance",
+      "boost": {
+       "whenState": "electric_susceptibility",
+       "mult": 1.15,
+       "keystone": "Carrot and Sharp Stick"
+      }
+     },
+     {
+      "requires": "thunderlance_ex",
+      "multStat": "Thunderlance EX DMG Multiplier",
+      "staggerStat": "Thunderlance EX Stagger",
+      "label": "Thunderlance EX",
+      "boost": {
+       "whenState": "electric_susceptibility",
+       "mult": 1.15,
+       "keystone": "Carrot and Sharp Stick"
+      }
+     }
+    ]
+   }
+  },
+  "zhuangfangyi": {
+   "comboTrigger": {
+    "raw": "When the controlled operator's Final Strike or Finisher hits an enemy with Electric Infliction.",
+    "state": "electric_infl"
+   },
+   "grants": {
+    "ultimate": [
+     {
+      "state": "zfy_ult",
+      "durStat": "Duration (s)"
+     }
+    ]
+   },
+   "replace": {
+    "seq1": [
+     {
+      "requires": "zfy_ult",
+      "multStat": "During Ultimate: BATK SEQ 1 Multiplier",
+      "from": "ultimate",
+      "label": "During Ultimate"
+     }
+    ],
+    "seq2": [
+     {
+      "requires": "zfy_ult",
+      "multStat": "During Ultimate: BATK SEQ 2 Multiplier",
+      "from": "ultimate",
+      "label": "During Ultimate"
+     }
+    ],
+    "seq3": [
+     {
+      "requires": "zfy_ult",
+      "multStat": "During Ultimate: BATK SEQ 3 Multiplier",
+      "from": "ultimate",
+      "label": "During Ultimate"
+     }
+    ],
+    "battle_skill": [
+     {
+      "requires": "zfy_ult",
+      "multStat": "During Ultimate: Thunder Strike DMG Multiplier",
+      "label": "During Ultimate"
+     }
+    ],
+    "combo_skill": [
+     {
+      "requires": "zfy_ult",
+      "multStat": "During Ultimate: DMG Multiplier",
+      "label": "During Ultimate"
+     }
+    ]
+   },
+   "perConsumed": {
+    "combo_skill": [
+     {
+      "state": "electrification",
+      "multStat": "Bonus DMG Multiplier per Status Level of Electrification Consumed",
+      "duringStat": "During Ultimate: Bonus DMG Multiplier per Status Level of Electrification Consumed",
+      "duringState": "zfy_ult",
+      "label": "per Electrification consumida"
+     }
+    ]
+   },
+   "consumes": {
+    "combo_skill": [
+     "electric_infl"
+    ]
+   }
+  },
+  "perlica": {
+   "comboTrigger": {
+    "raw": "When controlled operator performs a Final Strike on any enemy.",
+    "always": true
+   }
+  },
+  "laevatain": {
+   "comboTrigger": {
+    "raw": "When an enemy suffers Combustion or Corrosion.",
+    "anyState": [
+     "combustion",
+     "corrosion"
+    ]
+   },
+   "grants": {
+    "ultimate": [
+     {
+      "state": "lvt_ult",
+      "durStat": "Duration (s)"
+     }
+    ]
+   },
+   "exclude": [
+    "During Ultimate: BATK SEQ 1 Multiplier",
+    "During Ultimate: BATK SEQ 2 Multiplier",
+    "During Ultimate: Additional ATK Multiplier",
+    "Enhanced BATK SEQ 1 Multiplier",
+    "Enhanced BATK SEQ 2 Multiplier",
+    "Enhanced BATK SEQ 3 Multiplier",
+    "Enhanced BATK SEQ 4 Multiplier"
+   ]
+  },
+  "wulfgard": {
+   "comboTrigger": {
+    "raw": "When an Arts Infliction is applied to an enemy.",
+    "arts": true
+   },
+   "condHits": {
+    "battle_skill": [
+     {
+      "requiresAny": [
+       "combustion",
+       "electrification"
+      ],
+      "multStat": "Additional ATK DMG Multiplier",
+      "staggerStat": "Additional ATK Stagger",
+      "label": "Reacción consumida (tiro extra)"
+     }
+    ]
+   },
+   "cancel": {
+    "combo_skill": {
+     "by": "ultimate"
+    }
+   }
+  },
+  "estella": {
+   "comboTrigger": {
+    "raw": "When an enemy suffers Solidification.",
+    "state": "solidification"
+   },
+   "replace": {
+    "combo_skill": [
+     {
+      "requires": "solidification",
+      "multStat": "DMG Multiplier Against Solidified Enemies",
+      "label": "vs Solidified"
+     }
+    ]
+   }
+  },
+  "mifu": {
+   "comboTrigger": {
+    "raw": "When an enemy has 3 or more Vulnerability stacks.",
+    "stacks": {
+     "state": "vulnerability",
+     "n": 3
+    }
+   },
+   "variant": {
+    "battle_skill": {
+     "sel": "cycle",
+     "options": [
+      {
+       "when": 1,
+       "multStat": "Cloudtrapper DMG Multiplier"
+      },
+      {
+       "when": 2,
+       "multStat": "Trail and Mangle DMG Multiplier",
+       "staggerStat": "Trail and Mangle Stagger"
+      },
+      {
+       "when": 3,
+       "multStat": "World Splitter DMG Multiplier",
+       "staggerStat": "World Splitter Stagger"
+      }
+     ]
+    }
+   },
+   "spReturnSeq": {
+    "battle_skill": [
+     50,
+     0,
+     0
+    ]
+   }
+  },
+  "rossi": {
+   "comboTrigger": {
+    "raw": "When an enemy has both Vulnerability and Arts Infliction stacks.",
+    "all": [
+     {
+      "state": "vulnerability"
+     },
+     {
+      "arts": true
+     }
+    ]
+   },
+   "perConsumed": {
+    "combo_skill": [
+     {
+      "state": "arts",
+      "multStat": "Bonus DMG Multiplier per Infliction Stack",
+      "label": "per Arts Infliction consumida"
+     }
+    ]
+   },
+   "consumes": {
+    "combo_skill": [
+     "heat_infl",
+     "electric_infl",
+     "cryo_infl",
+     "nature_infl"
+    ]
+   }
+  },
+  "lastrite": {
+   "comboTrigger": {
+    "raw": "When an enemy has 3 or more Cryo Infliction stacks.",
+    "stacks": {
+     "state": "cryo_infl",
+     "n": 3
+    }
+   },
+   "perStack": {
+    "combo_skill": [
+     {
+      "multStat": "Bonus DMG Multiplier per Infliction Stack",
+      "stackType": "infliction"
+     }
+    ]
+   }
+  },
+  "yvonne": {
+   "comboTrigger": {
+    "raw": "When the controlled operator performs a Final Strike on an enemy with Solidification.",
+    "state": "solidification"
+   },
+   "perStack": {
+    "battle_skill": [
+     {
+      "multStat": "Bonus DMG Multiplier per Infliction Stack",
+      "stackType": "infliction"
+     }
+    ]
+   },
+   "condHits": {
+    "battle_skill": [
+     {
+      "requires": "solidification",
+      "multStat": "DMG Multiplier of Solidification Applied",
+      "label": "Solidification Applied"
+     }
+    ]
+   },
+   "exclude": [
+    "BATK DMG Multiplier",
+    "Enhanced Final Strike DMG Multiplier",
+    "Additional ATK DMG Multiplier"
+   ]
+  },
+  "pogranichnik": {
+   "comboTrigger": {
+    "raw": "When Crush or Breach consumes the enemy's Vulnerability stack(s).",
+    "state": "vulnerability"
+   },
+   "replace": {
+    "seq3": [
+     {
+      "requiresStacks": 4,
+      "multStat": "Enhanced SEQ 3 DMG Multiplier",
+      "label": "Enhanced SEQ3 (4 Vulnerability)"
+     }
+    ]
+   },
+   "exclude": [
+    "Enhanced SEQ 3 Stagger",
+    "Harass DMG Multiplier",
+    "Decisive Assault DMG Multiplier",
+    "Decisive Assault Stagger"
+   ]
+  },
+  "gilberta": {
+   "comboTrigger": {
+    "raw": "When an Arts Reaction is applied to an enemy.",
+    "reaction": true
+   }
+  },
+  "lifeng": {
+   "comboTrigger": {
+    "raw": "When the controlled operator performs a Final Strike on an enemy with Physical Susceptibility or Breach.",
+    "situational": "enemigo con Physical Susceptibility o Breach (los aplica la propia battle de Lifeng)"
+   },
+   "grantsLink": "combo_skill"
+  },
+  "ardelia": {
+   "comboTrigger": {
+    "raw": "When the controlled operator performs a Final Strike on an enemy with no stacks of Vulnerability or Arts Infliction.",
+    "absent": [
+     "vulnerability",
+     "arts"
+    ]
+   }
+  },
+  "chenqianyu": {
+   "comboTrigger": {
+    "raw": "When an enemy becomes Vulnerable.",
+    "state": "vulnerability"
+   }
+  },
+  "arclight": {
+   "comboTrigger": {
+    "raw": "When an enemy suffers Electrification or when an enemy's Electrification is consumed.",
+    "state": "electrification"
+   }
+  },
+  "dapan": {
+   "comboTrigger": {
+    "raw": "When an enemy reaches 4 stacks of Vulnerability.",
+    "stacks": {
+     "state": "vulnerability",
+     "n": 4
+    }
+   }
+  },
+  "akekuri": {
+   "comboTrigger": {
+    "raw": "When an enemy becomes Staggered or hits a Stagger Node.",
+    "staggered": true
+   },
+   "grantsLink": "ultimate"
+  },
+  "camille": {
+   "grantsLink": "combo_skill",
+   "comboTrigger": {
+    "raw": "When an enemy's Heat Infliction is consumed or absorbed.",
+    "situational": true
+   },
+   "grants": {
+    "ultimate": [
+     {
+      "state": "camille_hunt",
+      "durStat": "Hunter Pursuit State Duration (s)"
+     }
+    ]
+   },
+   "replace": {
+    "combo_skill": [
+     {
+      "requires": "camille_hunt",
+      "multStat": "Hunter Pursuit DMG Multiplier",
+      "label": "Hunter Pursuit"
+     }
+    ]
+   }
+  },
+  "fluorite": {
+   "comboTrigger": {
+    "raw": "When an enemy has 2 or more stacks of Cryo Infliction or Nature Infliction.",
+    "anyStacks": [
+     {
+      "state": "cryo_infl",
+      "n": 2
+     },
+     {
+      "state": "nature_infl",
+      "n": 2
+     }
+    ]
+   }
+  },
+  "tangtang": {
+   "comboTrigger": {
+    "raw": "When applying Cryo Infliction or dealing Arts Burst DMG to an enemy.",
+    "state": "cryo_infl"
+   }
+  },
+  "ember": {
+   "comboTrigger": {
+    "raw": "When the controlled operator is attacked.",
+    "situational": "el operador controlado es atacado"
+   }
+  },
+  "snowshine": {
+   "comboTrigger": {
+    "raw": "When controlled operator gets attacked and is below 60% HP.",
+    "situational": "atacado y por debajo de 60% HP"
+   }
+  },
+  "catcher": {
+   "comboTrigger": {
+    "raw": "When an enemy starts charging up a skill, or when the controlled operator is attacked and falls below 40% HP.",
+    "situational": "enemigo cargando una skill, o controlado atacado <40% HP"
+   }
+  },
+  "endministrator": {
+   "comboTrigger": {
+    "raw": "When another operator in the team deals DMG with combo skills.",
+    "situational": "otro operador del equipo daña con su combo skill"
+   }
+  },
+  "xaihi": {
+   "comboTrigger": {
+    "raw": "When the Auxiliary Crystal uses up its HP treatments.",
+    "situational": "el Auxiliary Crystal agota sus curas"
+   }
+  },
+  "alesh": {
+   "comboTrigger": {
+    "raw": "When the Arts Reaction or Originium Crystals of a nearby target is consumed.",
+    "situational": "se consume una Arts Reaction u Originium Crystals de un objetivo cercano"
+   }
+  },
+  "antal": {
+   "comboTrigger": {
+    "raw": "When an enemy with active Focus suffers a Physical Status or Arts Infliction.",
+    "situational": "enemigo con Focus (debuff de Antal) sufre Physical Status o Arts Infliction"
+   }
+  },
+  "arcane": {
+   "comboTrigger": {
+    "raw": "When Nature Infliction or at least 2 stacks of non-Nature Arts Infliction are applied on an enemy.",
+    "anyState": [
+     "nature_infl"
+    ]
+   },
+   "modes": {
+    "will": {
+     "comboTrigger": {
+      "raw": "When an Arts Infliction is applied on an enemy.",
+      "arts": true
+     }
+    }
+   },
+   "grants": {
+    "combo_skill": [
+     {
+      "state": "imprisonment",
+      "durStat": "Imprisonment and Susceptibility Duration (s)"
+     }
+    ]
+   },
+   "exclude": [
+    "Bonus DMG Multiplier"
+   ]
+  }
+ }
+}

@@ -1,0 +1,430 @@
+{
+  "id": "avywenna",
+  "name": "Avywenna",
+  "ranks": 12,
+  "skills": {
+    "basic_attack": {
+      "name": "Thunderlance: Blitz",
+      "stats": [
+        {
+          "name": "BATK SEQ 1 Multiplier",
+          "unit": "%",
+          "values": [
+            17,
+            18,
+            20,
+            21,
+            23,
+            25,
+            26,
+            28,
+            30,
+            32,
+            34,
+            37
+          ]
+        },
+        {
+          "name": "BATK SEQ 2 Multiplier",
+          "unit": "%",
+          "values": [
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            37,
+            39,
+            41,
+            45,
+            48
+          ]
+        },
+        {
+          "name": "BATK SEQ 3 Multiplier",
+          "unit": "%",
+          "values": [
+            21,
+            23,
+            25,
+            27,
+            29,
+            31,
+            33,
+            35,
+            37,
+            39,
+            43,
+            46
+          ]
+        },
+        {
+          "name": "BATK SEQ 4 Multiplier",
+          "unit": "%",
+          "values": [
+            30,
+            33,
+            36,
+            39,
+            42,
+            45,
+            48,
+            51,
+            54,
+            58,
+            62,
+            68
+          ]
+        },
+        {
+          "name": "BATK SEQ 5 Multiplier",
+          "unit": "%",
+          "values": [
+            50,
+            55,
+            60,
+            65,
+            70,
+            75,
+            80,
+            85,
+            90,
+            96,
+            104,
+            113
+          ]
+        },
+        {
+          "name": "Finisher ATK Multiplier",
+          "unit": "%",
+          "values": [
+            400,
+            440,
+            480,
+            520,
+            560,
+            600,
+            640,
+            680,
+            720,
+            770,
+            830,
+            900
+          ]
+        },
+        {
+          "name": "Dive ATK Multiplier",
+          "unit": "%",
+          "values": [
+            80,
+            88,
+            96,
+            104,
+            112,
+            120,
+            128,
+            136,
+            144,
+            154,
+            166,
+            180
+          ]
+        }
+      ]
+    },
+    "battle_skill": {
+      "name": "Thunderlance: Interdiction",
+      "stats": [
+        {
+          "name": "SP Cost",
+          "values": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "DMG Multiplier",
+          "unit": "%",
+          "values": [
+            67,
+            73,
+            80,
+            87,
+            93,
+            100,
+            107,
+            113,
+            120,
+            128,
+            138,
+            150
+          ]
+        },
+        {
+          "name": "Stagger",
+          "values": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "name": "Thunderlance DMG Multiplier",
+          "unit": "%",
+          "values": [
+            75,
+            82,
+            90,
+            97,
+            104,
+            112,
+            119,
+            127,
+            134,
+            144,
+            155,
+            168
+          ]
+        },
+        {
+          "name": "Thunderlance Stagger",
+          "values": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "name": "Thunderlance EX DMG Multiplier",
+          "unit": "%",
+          "values": [
+            192,
+            211,
+            230,
+            250,
+            269,
+            288,
+            307,
+            326,
+            346,
+            370,
+            398,
+            432
+          ]
+        },
+        {
+          "name": "Thunderlance EX Stagger",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ]
+    },
+    "combo_skill": {
+      "name": "Thunderlance: Strike",
+      "stats": [
+        {
+          "name": "Cooldown",
+          "values": [
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            12
+          ]
+        },
+        {
+          "name": "DMG Multiplier",
+          "unit": "%",
+          "values": [
+            169,
+            186,
+            203,
+            219,
+            236,
+            253,
+            270,
+            287,
+            304,
+            325,
+            350,
+            380
+          ]
+        },
+        {
+          "name": "Stagger",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "Thunderlance Duration (s)",
+          "values": [
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "name": "Ultimate Energy Gain",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "ultimate": {
+      "name": "Thunderlance: Final Shock",
+      "stats": [
+        {
+          "name": "Ultimate Energy Cost",
+          "values": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "DMG Multiplier",
+          "unit": "%",
+          "values": [
+            422,
+            464,
+            507,
+            549,
+            591,
+            633,
+            675,
+            718,
+            760,
+            813,
+            876,
+            950
+          ]
+        },
+        {
+          "name": "Stagger",
+          "values": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            20,
+            20,
+            20
+          ]
+        },
+        {
+          "name": "Thunderlance EX Duration (s)",
+          "values": [
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,719 @@
+{
+  "ops": {
+    "mifu": {
+      "name": "Mi Fu",
+      "skills": {
+        "basic_attack": {
+          "name": "Fistmancer of Blades",
+          "type": "Basic Attack",
+          "desc": "BASIC ATTACK: An attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 25 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher that deals massive Physical DMG and recovers some SP."
+        },
+        "battle_skill": {
+          "name": "Qingbo Triplex",
+          "type": "Battle Skill",
+          "desc": "Keep casting Mi Fu's battle skill to unleash 3 different moves. The first battle skill cast is Cloudtrapper. MOVE 1 - Cloudtrapper: Costs 100 SP and returns 50 SP after casting; Mi Fu fires a grappling chain from her gauntlets that deals Physical DMG to the target and nearby enemies, then attempts to pull the target and nearby enemies towards her. After casting MOVE 1, the next battle skill will be temporarily replaced with Trail and Mangle. MOVE 2 - Trail and Mangle: Costs 50 SP; Mi Fu unleashes a flurry of punches that deals Physical DMG with the final punch applying Crush. If this Crush consumes at least 3 Vulnerability stacks from a single target, then the next battle skill will be temporarily replaced with World Splitter. MOVE 3 - World Splitter: Costs 50 SP; Mi Fu deals massive Physical DMG to a specified area; this DMG is not treated as Battle Skill DMG, but as Crush DMG."
+        },
+        "combo_skill": {
+          "name": "Fists of No Regrets",
+          "type": "Combo Skill",
+          "desc": "COMBO TRIGGER: When an enemy has 3 or more Vulnerability stacks. Mi Fu unleashes a devastating uppercut at the enemy, dealing Physical DMG and applying temporary Physical Susceptibility. After casting this skill, the next battle skill is temporarily replaced with Trail and Mangle."
+        },
+        "ultimate": {
+          "name": "Pile of No Mercy",
+          "type": "Ultimate",
+          "desc": "After a short power up, Mi Fu dashes forward to forcibly Lift a target into mid-air, then slams the said target to deal Physical DMG. After casting this skill, the next battle skill is temporarily replaced with Trail and Mangle."
+        }
+      }
+    },
+    "zhuangfangyi": {
+      "name": "Zhuang Fangyi",
+      "skills": {
+        "basic_attack": {
+          "name": "Jolting Arts",
+          "type": "Basic Attack",
+          "desc": "BASIC ATTACK: An attack with up to 5 sequences that deals Electric DMG. As the controlled operator, Final Strike also deals 18 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Electric DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher that deals massive Electric DMG and recovers some SP."
+        },
+        "battle_skill": {
+          "name": "Mantra of Sundering",
+          "type": "Battle Skill",
+          "desc": "Consumes the target's Electrification to increase the DMG multiplier of this battle skill and create [Status Level of Electrification consumed +1] Sunderblades. If the battlefield has fewer than 3 Sunderblades, Mantra of Sundering can still create 1 Sunderblade, even if it does not consume any target's Electrification. Zhuang Fangyi then channels all Sunderblades nearby to successively unleash Thunder Strikes on the target, dealing Electric DMG and giving bonus Ultimate Energy, with the final Thunder Strike dealing 6 times the DMG. A single battle skill casting can only create a max of 3 Sunderblades."
+        },
+        "combo_skill": {
+          "name": "Breath of Transformation",
+          "type": "Combo Skill",
+          "desc": "COMBO TRIGGER: When the controlled operator's Final Strike or Finisher hits an enemy with Electric Infliction. Zhuang Fangyi creates a Xiranblitz Array that attacks the enemy and deals Electric DMG. If the Array hits an enemy that has Electric Infliction stack(s), then it will consume the said Electric Infliction stack(s), forcibly apply Electrification, and give Ultimate Energy based on the number of stacks consumed. If Electrification is forcibly applied to an enemy that already has Electrification, then apply Status Level +1 to the enemy's Electrification."
+        },
+        "ultimate": {
+          "name": "Smiting Tempest",
+          "type": "Ultimate",
+          "desc": "Transforms into the Empyrean of Truth that grants these enhancements: Zhuang Fangyi's basic attacks are enhanced and her actions are harder to interrupt; Battle skill Mantra of Sundering gains a higher DMG multiplier and an increased effect range, and the final Thunder Strike also applies Electric Infliction to the target hit. Combo skill Breath of Transformation gains a higher DMG multiplier, cooldown becomes 4 times faster, and effects are applied to enemies within a small area. The first casting of the battle skill Mantra of Sundering on an available target does not consume SP nor Electrification, and is guaranteed to create 3 Sunderblades even if the target has no Electrification."
+        }
+      }
+    },
+    "rossi": {
+      "name": "Rossi",
+      "skills": {
+        "basic_attack": {
+          "name": "Seething Wolfblood",
+          "type": "Basic Attack",
+          "desc": "BASIC ATTACK: An attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 18 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP."
+        },
+        "battle_skill": {
+          "name": "Crimson Shadow",
+          "type": "Battle Skill",
+          "desc": "Charges to the target to deal Physical DMG and apply Lift. If the target already has Vulnerability stack(s), the skill also unleashes a Wolven Ambrage that charges at the target to deal Heat DMG."
+        },
+        "combo_skill": {
+          "name": "Moment of Blazing Shadow",
+          "type": "Combo Skill",
+          "desc": "COMBO TRIGGER: When an enemy has both Vulnerability and Arts Infliction stacks. Rossi's combo skill has 2 consecutive sequences. COMBO SEQUENCE 1 deals Physical DMG to the target. COMBO SEQUENCE 2 consumes all Arts Infliction stacks from the target, deals Physical DMG based on the number of Arts Infliction stacks consumed, applies 1 instance of Lift, and buffs Rossi's Critical Rate and Critical DMG Dealt at the same time. If COMBO SEQUENCE 2 is cast with perfect timing, it applies 1 more stack of Vulnerability."
+        },
+        "ultimate": {
+          "name": "\"Razorclaw\" Ambuscade",
+          "type": "Ultimate",
+          "desc": "Rossi flutters her cape and unleashes a flurry of stabs that quickly deals multiple sequences of Heat DMG to the target. She then performs a two-sequence slash attack with her dagger that deals massive Heat DMG and applies Heat Infliction. When this skill successfully scores a critical hit, it deals higher Critical DMG."
+        }
+      }
+    },
+    "yvonne": {
+      "name": "Yvonne",
+      "skills": {
+        "basic_attack": {
+          "name": "Exuberant Trigger",
+          "type": "Basic Attack",
+          "desc": "BASIC ATTACK: An attack with up to 5 sequences that deals Cryo DMG. As the controlled operator, Final Strike also deals 17 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Cryo DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher that deals massive Cryo DMG and recovers some SP."
+        },
+        "battle_skill": {
+          "name": "Brr-Brr-Bomb β",
+          "type": "Battle Skill",
+          "desc": "Throws a freezing bomb. The bomb explodes when it hits the enemy to deal Cryo DMG. If hitting an enemy with Cryo Infliction or Nature Infliction, then consume all Arts Infliction stacks, forcibly apply Solidification, and deal Cryo DMG to the target based on the number of stacks consumed. After the battle skill successfully applies Solidification, Yvonne gains additional Ultimate Energy based on the number of stacks consumed. This Ultimate Energy Gain effect can only trigger 1 time, even if the skill hits multiple enemies."
+        },
+        "combo_skill": {
+          "name": "Flashfreezer υ37",
+          "type": "Combo Skill",
+          "desc": "COMBO TRIGGER: When the controlled operator performs a Final Strike on an enemy with Solidification. Immediately deploys Frost-e-Bytee next to the enemy. While active, Frost-e-Bytee constantly releases energy to attack nearby enemies, deals Cryo DMG to them, and pulls them towards itself. After Frost-e-Bytee expires, it explodes to forcibly apply Solidification and deal Cryo DMG to nearby enemies. After the combo skill successfuly hits the enemy, Yvonne gains additional Ultimate Energy. The Ultimate Energy Gain effect can only trigger 1 time, even if the skill hits multiple enemies."
+        },
+        "ultimate": {
+          "name": "Cryoblasting Pistolier",
+          "type": "Ultimate",
+          "desc": "Immediately deploys the support bot Tink-a-Bella and makes Yvonne the controlled operator. Temporarily enhances Yvonne's basic attack (BATK). Each BATK sequence performed grants a stack of Critical Rate buff. After reaching max stacks, Yvonne also gains a Critical DMG buff. When the skill is about to end, Yvonne's last BATK becomes a Final Strike that deals massive Cryo DMG. If the enemy is Solidified, Yvonne performs an additional attack that deals Cryo DMG and then consumes the enemy's Solidification. Yvonne gains Ultimate Energy whenever her battle skill, combo skill, and Final Strike (as the controlled operator) deals Critical DMG. This effect only triggers once every 0.1s."
+        }
+      }
+    },
+    "laevatain": {
+      "name": "Laevatain",
+      "skills": {
+        "basic_attack": {
+          "name": "Flaming Cinders",
+          "type": "Basic Attack",
+          "desc": "BASIC ATTACK: An attack with up to 5 sequences that deals Heat DMG. As the controlled operator, Final Strike also deals 18 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Heat DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher that deals massive Heat DMG and recovers some SP."
+        },
+        "battle_skill": {
+          "name": "Smouldering Fire",
+          "type": "Battle Skill",
+          "desc": "Summons a Magma Fragment to continuously attack enemies and deal Heat DMG. Hitting the enemy grants 1 stack of Melting Flame. If Laevatain already has 4 stack(s) of Melting Flame when casting the skill, then consume all the stacks and perform 1 additional attack that deals Heat DMG and forcibly trigger temporary Combustion to all enemies in a large area. When the additional attack hits the enemy, restore additional Ultimate Energy. Battle skill effects are enhanced while Laevatain's ultimate is active."
+        },
+        "combo_skill": {
+          "name": "Seethe",
+          "type": "Combo Skill",
+          "desc": "COMBO TRIGGER: When an enemy suffers Combustion or Corrosion. Fire erupts beneath the feet of any enemy with Combustion or Corrosion, dealing Heat DMG to them. If the skill hits the enemy, Laevatain gains 1 stack of Melting Flame and further gains Ultimate Energy per enemy hit."
+        },
+        "ultimate": {
+          "name": "Twilight",
+          "type": "Ultimate",
+          "desc": "Laevatain summons her Sviga Lævi and becomes the controlled operator. For a certain duration, her basic attacks (BATK) are enhanced and the Sviga Lævi strikes together with Laevatain, with each attack dealing Heat DMG, BATK sequence 3 also applies Heat Infliction. Casting the battle skill, Smouldering Fire, or the combo skill, Seethe, does not shorten the duration of the ultimate, Twilight."
+        }
+      }
+    },
+    "endministrator": {
+      "name": "Endministrator (M)",
+      "skills": {
+        "basic_attack": {
+          "name": "Destructive Sequence",
+          "type": "Basic Attack",
+          "desc": "BASIC ATTACK: An attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 18 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP."
+        },
+        "battle_skill": {
+          "name": "Constructive Sequence",
+          "type": "Battle Skill",
+          "desc": "A forceful burst of Originium Arts that attacks enemies within the area of effect. Deals Physical DMG and applies Crush."
+        },
+        "combo_skill": {
+          "name": "Sealing Sequence",
+          "type": "Combo Skill",
+          "desc": "COMBO TRIGGER: When another operator in the team deals DMG with combo skills. Rushes to the enemy's side to deal Physical DMG and attach Originium Crystals that temporarily seals them. Applying Physical Status or Vulnerable to the sealed enemy consumes the Originium Crystals and deal additional Physical DMG."
+        },
+        "ultimate": {
+          "name": "Bombardment Sequence",
+          "type": "Ultimate",
+          "desc": "Bombards the ground with Originium Arts, dealing massive Physical DMG to all enemies within a fan-shaped area. If the enemy has Originium Crystals on them, this skill consumes the Originium Crystals and deals one more hit of Physical DMG."
+        }
+      }
+    },
+    "pogranichnik": {
+      "name": "Pogranichnik",
+      "skills": {
+        "basic_attack": {
+          "name": "All-Out Offensive",
+          "type": "Basic Attack",
+          "desc": "BASIC ATTACK: An attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 18 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP."
+        },
+        "battle_skill": {
+          "name": "The Pulverizing Front",
+          "type": "Battle Skill",
+          "desc": "Pogranichnik performs 2 slashes at enemies in front of him, dealing Physical DMG, applying Breach, and recovering SP based on the number of Vulnerability stacks consumed. The SP recovery effect can only trigger 1 time, even if the skill hits multiple targets."
+        },
+        "combo_skill": {
+          "name": "Full Moon Slash",
+          "type": "Combo Skill",
+          "desc": "COMBO TRIGGER: When Crush or Breach consumes the enemy's Vulnerability stack(s). Performs a number of slashes (up to 3) based on the max number of Vulnerability stacks consumed from one enemy, dealing Physical DMG and recovering some SP. Each slash deals more DMG and gives better SP recovery. Consuming 4 stacks of Vulnerability enhances the 3rd slash sequence."
+        },
+        "ultimate": {
+          "name": "Shieldguard Banner, Forward",
+          "type": "Ultimate",
+          "desc": "Summons 4 Shieldguards to advance at the target who will push all enemies along the way towards the target, dealing Physical DMG while generating 5 points of Steel Oath. After an enemy suffers a Physical Status or takes DMG from Pogranichnik's combo skill, consume 1 point of Steel Oath and summon 1 Shieldguard to harass the said enemy, dealing Physical DMG and recovering some SP. When the last Steel Oath point is consumed, all 4 Shieldguards will initiate a Decisive Assault that deals massive Physical DMG to the target while recovering plenty of SP."
+        }
+      }
+    },
+    "ember": {
+      "name": "Ember",
+      "skills": {
+        "basic_attack": {
+          "name": "Sword Art of Assault",
+          "type": "Basic Attack",
+          "desc": "BASIC ATTACK: An attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 25 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher that deals massive Physical DMG and recovers some SP."
+        },
+        "battle_skill": {
+          "name": "Forward March",
+          "type": "Battle Skill",
+          "desc": "A leap followed by a heavy slam that deals Heat DMG, Knock Down, and Stagger to all enemies in a fan-shaped area. If Ember takes DMG from enemies during casting, the slam deals more Stagger when it hits."
+        },
+        "combo_skill": {
+          "name": "Frontline Support",
+          "type": "Combo Skill",
+          "desc": "COMBO TRIGGER: When the controlled operator is attacked. Leaps at the target enemy and unleashes a heavy slam that deals Physical DMG and Knock Down while giving HP treatment to the controlled operator. The attribute of Will increases the amount of HP treatment."
+        },
+        "ultimate": {
+          "name": "Re-Ignited Oath",
+          "type": "Ultimate",
+          "desc": "Slams the ground to deal Heat DMG to nearby enemies, while granting every teammate a Shield based on Ember's Max HP"
+        }
+      }
+    },
+    "lastrite": {
+      "name": "Last Rite",
+      "skills": {
+        "basic_attack": {
+          "name": "Dance of Rime",
+          "type": "Basic Attack",
+          "desc": "BASIC ATTACK: An attack with up to 4 sequences that deals Cryo DMG. As the controlled operator, Final Strike also deals 25 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Cryo DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher that deals massive Cryo DMG and recovers some SP."
+        },
+        "battle_skill": {
+          "name": "Esoteric Legacy of Seš'qa",
+          "type": "Battle Skill",
+          "desc": "Performs a Hypothermic Perfusion on the controlled operator's weapon and returns some SP. The next Final Strike performed by the currently controlled operator within a certain duration creates Last Rite's Mirage that unleashes a pursuit attack at the target. This attack deals Cryo DMG and applies Cryo Infliction. When the controlled operator is Last Rite herself, casting this battle skill does not reset her basic attack sequence."
+        },
+        "combo_skill": {
+          "name": "Winter's Devourer",
+          "type": "Combo Skill",
+          "desc": "COMBO TRIGGER: When an enemy has 3 or more Cryo Infliction stacks. Creates an icicle on the target enemy and shatters it to consume all Cryo Infliction stacks of the said enemy. The number of Cryo Infliction stacks consumed determines the amount of Cryo DMG dealt to the enemy and Ultimate Energy gained by the caster."
+        },
+        "ultimate": {
+          "name": "Vigil Services",
+          "type": "Ultimate",
+          "desc": "Last Rite encases herself in frost armor and creates an ice scythe to perform 3 slashes, and gains immunity to all damages while this state is active. Each slash deals massive Cryo DMG. Last Rite can only gain Ultimate Energy from her own battle skill and combo skill."
+        }
+      }
+    },
+    "lifeng": {
+      "name": "Lifeng",
+      "skills": {
+        "basic_attack": {
+          "name": "Ruination",
+          "type": "Basic Attack",
+          "desc": "BASIC ATTACK: An attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 19 Stagger. DIVE ATTACK: Basic Attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP."
+        },
+        "battle_skill": {
+          "name": "Turbid Avatar",
+          "type": "Battle Skill",
+          "desc": "Swings the polearm multiple times to deal 2 hits of Physical DMG, then slams the ground to deal Physical DMG and Knock Down to all enemies in the area of effect. If the enemy struck by the last hit of this skill has no Vulnerablility stacks, apply Physical Susceptibility to the said enemy instead."
+        },
+        "combo_skill": {
+          "name": "Aspect of Wrath",
+          "type": "Combo Skill",
+          "desc": "COMBO TRIGGER: When the controlled operator performs a Final Strike on an enemy with Physical Susceptibility or Breach. Unleashes an aspect that performs a spear thrust to deal Physical DMG and grants Link."
+        },
+        "ultimate": {
+          "name": "Heart of the Unmoving",
+          "type": "Ultimate",
+          "desc": "Unleashes an aspect that slams Immovable Vajra to deal Physical DMG and Knock Down to all enemies in a large area of effect, then enemies are drawn toward the center of the area. After a while, enemies still within the vajra slam area of effect will suffer another massive Physical DMG and Knock Down. If the skill consumes a Link, it deals additional massive Physical DMG."
+        }
+      }
+    },
+    "ardelia": {
+      "name": "Ardelia",
+      "skills": {
+        "basic_attack": {
+          "name": "Rocky Whispers",
+          "type": "Basic Attack",
+          "desc": "BASIC ATTACK: An attack with up to 4 sequences that deals Nature DMG. As the controlled operator, Final Strike also deals 18 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Nature DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher that deals massive Nature DMG and recovers some SP."
+        },
+        "battle_skill": {
+          "name": "Dolly Rush",
+          "type": "Battle Skill",
+          "desc": "Hops on Mr. Dolly and rams the target to deal Nature DMG. If the target has Corrosion, then consume the Corrosion and apply Physical Susceptibility and Arts Susceptibility to the target."
+        },
+        "combo_skill": {
+          "name": "Eruption Column",
+          "type": "Combo Skill",
+          "desc": "COMBO TRIGGER: When the controlled operator performs a Final Strike on an enemy with no stacks of Vulnerability or Arts Infliction. Launches a homing Volcanic Cloud at a target enemy that deals Nature DMG when close enough to the target. The Volcanic Cloud explodes after a short delay, dealing half of the Nature DMG and forcibly applying temporary Corrosion to nearby enemies."
+        },
+        "ultimate": {
+          "name": "Wooly Party",
+          "type": "Ultimate",
+          "desc": "Ardelia enters a mobile channeling state and summons the aid of Mr. Dolly. Multiple copies of Mr. Dolly are thrown in random directions. Each copy deals Nature DMG. Each enemy can only take 1 damaging hit every 0.3s."
+        }
+      }
+    },
+    "perlica": {
+      "name": "Perlica",
+      "skills": {
+        "basic_attack": {
+          "name": "Protocol α: Breach",
+          "type": "Basic Attack",
+          "desc": "BASIC ATTACK: An attack with up to 4 sequences that deals Electric DMG. As the controlled operator, Final Strike also deals 15 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Electric DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher that deals massive Electric DMG and recovers some SP."
+        },
+        "battle_skill": {
+          "name": "Protocol ω: Strike",
+          "type": "Battle Skill",
+          "desc": "Unleashes a bolt of electro-magnetic energy that deals Electric DMG and Electric Infliction to enemies in a small area."
+        },
+        "combo_skill": {
+          "name": "Instant Protocol: Chain",
+          "type": "Combo Skill",
+          "desc": "COMBO TRIGGER: When controlled operator performs a Final Strike on any enemy. Unleashes stored electro-magnetic energy to bombard the target, dealing Electric DMG and forcibly inflicting temporary Electrification."
+        },
+        "ultimate": {
+          "name": "Protocol ε: 70.41K",
+          "type": "Ultimate",
+          "desc": "Tele-protocols a massive piece of orbital debris into the battlefield with devastating impact. All enemies in the area of effect suffer massive Electric DMG."
+        }
+      }
+    },
+    "chenqianyu": {
+      "name": "Chen Qianyu",
+      "skills": {
+        "basic_attack": {
+          "name": "Soaring Break",
+          "type": "Basic Attack",
+          "desc": "BASIC ATTACK: An attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 16 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP."
+        },
+        "battle_skill": {
+          "name": "Ascending Strike",
+          "type": "Battle Skill",
+          "desc": "Performs an uppercut slash at the target enemy, dealing Physical DMG and Lift."
+        },
+        "combo_skill": {
+          "name": "Soar to the Stars",
+          "type": "Combo Skill",
+          "desc": "COMBO TRIGGER: When an enemy becomes Vulnerable. A slashing dash that passes through the target enemy and deals Physical DMG and Lift to all enemies along the way."
+        },
+        "ultimate": {
+          "name": "Blade Gale",
+          "type": "Ultimate",
+          "desc": "A 7-sequence slash attack that deals Physical DMG with each sequence to the target enemy. The final slash sequence deals even more DMG."
+        }
+      }
+    },
+    "arclight": {
+      "name": "Arclight",
+      "skills": {
+        "basic_attack": {
+          "name": "Seek and Hunt",
+          "type": "Basic Attack",
+          "desc": "BASIC ATTACK: An attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 16 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP."
+        },
+        "battle_skill": {
+          "name": "Tempestuous Arc",
+          "type": "Battle Skill",
+          "desc": "Instantly blinks to the enemy's side to deal 2 slashes that deal some Physical DMG. If the enemy has active Electrification, consume the Electrification to unleash an additional attack that deals Electric DMG and recovers some SP."
+        },
+        "combo_skill": {
+          "name": "Peal of Thunder",
+          "type": "Combo Skill",
+          "desc": "COMBO TRIGGER: When an enemy suffers Electrification or when an enemy's Electrification is consumed. Blinks to the enemy's side to unleash a flurry of slashes that deals Physical DMG and recovers some SP."
+        },
+        "ultimate": {
+          "name": "Exploding Blitz",
+          "type": "Ultimate",
+          "desc": "Performs a short forward dash while wreathed in arcs of electricity to deal Electric DMG and apply Electric Infliction to all enemies in the path. The lingering arcs explode after a short while, dealing another hit of Electric DMG. If the enemy has active Electric Infliction, consume the Electric Infliction and forcibly apply Electrification."
+        }
+      }
+    },
+    "xaihi": {
+      "name": "Xaihi",
+      "skills": {
+        "basic_attack": {
+          "name": "Cooldown",
+          "type": "Basic Attack",
+          "desc": "BASIC ATTACK: An attack with up to 5 sequences that deals Cryo DMG. As the controlled operator, Final Strike also deals 15 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Cryo DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher that deals massive Cryo DMG and recovers some SP."
+        },
+        "battle_skill": {
+          "name": "Distributed DoS",
+          "type": "Battle Skill",
+          "desc": "Summons an Auxiliary Crystal that orbits the operator for a while. When the controlled operator performs a Final Strike on the enemy, the Auxiliary Crystal restores the said operator's HP. This effect can trigger 2 times. The attribute of Will increases the amount of HP treatment. When the controlled operator is already at Max HP when triggering the HP restoration, grant the said operator a temporary Arts Amp instead. This effect cannot stack."
+        },
+        "combo_skill": {
+          "name": "Stress Testing",
+          "type": "Combo Skill",
+          "desc": "COMBO TRIGGER: When the Auxiliary Crystal uses up its HP treatments. Quickly charges up the Auxiliary Crystal and launches it at the enemy to deal Cryo DMG and Cryo Infliction."
+        },
+        "ultimate": {
+          "name": "Stack Overflow",
+          "type": "Ultimate",
+          "desc": "Applies temporary Cryo Amp and Nature Amp to the entire team. The attribute of Intellect increases the Amp effect."
+        }
+      }
+    },
+    "alesh": {
+      "name": "Alesh",
+      "skills": {
+        "basic_attack": {
+          "name": "Basic Rod Casting",
+          "type": "Basic Attack",
+          "desc": "BASIC ATTACK: An attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 17 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP."
+        },
+        "battle_skill": {
+          "name": "Unconventional Lure",
+          "type": "Battle Skill",
+          "desc": "Hooks a block of ice and slams it to deal Physical DMG to the enemy target. Hitting a target with Cryo Infliction consumes all of the target's Cryo Infliction stacks, forcibly applies Solidification, and recovers some SP. The SP recovery effect can only trigger 1 time, even if the skill hits multiple enemies."
+        },
+        "combo_skill": {
+          "name": "Auger Angling",
+          "type": "Combo Skill",
+          "desc": "COMBO TRIGGER: When the Arts Reaction or Originium Crystals of a nearby target is consumed. Opens an angling hole beneath the enemy that deals Physical DMG and recovers some SP. The skill has a chance to hook a Rare Fin that greatly increases the DMG dealt and recovers some more SP."
+        },
+        "ultimate": {
+          "name": "One Monster Catch!",
+          "type": "Ultimate",
+          "desc": "Alesh hooks a fin of unbelievable size and slams it to deal Cryo DMG and apply Cryo Infliction to enemies in a large area of effect in front of him. He recovers some SP on hit, with additional SP gained for each target defeated."
+        }
+      }
+    },
+    "dapan": {
+      "name": "Da Pan",
+      "skills": {
+        "basic_attack": {
+          "name": "ROLLING CUT!",
+          "type": "Basic Attack",
+          "desc": "BASIC ATTACK: An attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 20 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy become a finisher that deals massive Physical DMG and recovers some SP."
+        },
+        "battle_skill": {
+          "name": "FLIP DA WOK!",
+          "type": "Battle Skill",
+          "desc": "Takes out a wok, quickly charges it up, and performs a powerful wok flip that deals Physical DMG and Lift to the enemy."
+        },
+        "combo_skill": {
+          "name": "MORE SPICE!",
+          "type": "Combo Skill",
+          "desc": "COMBO TRIGGER: When an enemy reaches 4 stacks of Vulnerability. Swings the wok at the enemy to deal massive Physical DMG and Crush. This Crush also deals more DMG."
+        },
+        "ultimate": {
+          "name": "CHOP 'N DUNK!",
+          "type": "Ultimate",
+          "desc": "Da Pan slams the chopping board to forcibly Lift all enemies in the area of effect in front of him. This is followed by a 6-sequence flurry of slashes that deals Physical DMG. The final step is to bash every enemy to the ground to forcibly Knock Down and deal massive Physical DMG to them."
+        }
+      }
+    },
+    "avywenna": {
+      "name": "Avywenna",
+      "skills": {
+        "basic_attack": {
+          "name": "Thunderlance: Blitz",
+          "type": "Basic Attack",
+          "desc": "BASIC ATTACK: An attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 17 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP."
+        },
+        "battle_skill": {
+          "name": "Thunderlance: Interdiction",
+          "type": "Battle Skill",
+          "desc": "Leaps into mid-air to stir up a maelstrom with her lance, dealing some Electric DMG to nearby enemies while pulling back all Thunderlances and Thunderlance EX in the battlefield towards herself. The returning Thunderlances pierce through all enemies along their paths and deal Electric DMG, while returning Thunderlances EX deal more Electric DMG and also apply Electric Infliction."
+        },
+        "combo_skill": {
+          "name": "Thunderlance: Strike",
+          "type": "Combo Skill",
+          "desc": "COMBO TRIGGER: When controlled operator performs a Final Strike on a target with active Electric Infliction or Electrification. Leaps into mid-air and throws 3 Thunderlances at the target, then deals 1 hit of Electric DMG to enemies in the area of effect."
+        },
+        "ultimate": {
+          "name": "Thunderlance: Final Shock",
+          "type": "Ultimate",
+          "desc": "Throws a Thunderlance EX at the target area that deals massive Electric DMG to enemies nearby."
+        }
+      }
+    },
+    "snowshine": {
+      "name": "Snowshine",
+      "skills": {
+        "basic_attack": {
+          "name": "Hypothermic Assault",
+          "type": "Basic Attack",
+          "desc": "BASIC ATTACK: An attack with up to 3 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 23 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP."
+        },
+        "battle_skill": {
+          "name": "Saturated Defense",
+          "type": "Battle Skill",
+          "desc": "Raises a shield that can block attacks, grants Protection to self and nearby operators, and immediately returns some SP. When attacked while the said shield is active, perform a retaliation bash that deals Cryo DMG and applies Cryo Infliction on the attacker."
+        },
+        "combo_skill": {
+          "name": "Polar Rescue",
+          "type": "Combo Skill",
+          "desc": "COMBO TRIGGER: When controlled operator gets attacked and is below 60% HP. Snowshine throws a Snowfield SAR Assistant at the controlled operator. Upon target contact, the Assistant gives massive instant HP Treatment to nearby operators as well as continuous HP Treatment to operators in the area of effect. The attribute of Will increases the amount of HP treatment."
+        },
+        "ultimate": {
+          "name": "Frigid Snowfield",
+          "type": "Ultimate",
+          "desc": "Leaps into mid-air with a jetpack before slamming down with her shield to deal massive Cryo DMG to enemies in the area of effect. Also generates a Snow Zone (lasting several seconds) that deals Cryo DMG over time to enemies. The Snow Zone forcibly applies Solidification to enemies caught within it for a certain duration."
+        }
+      }
+    },
+    "akekuri": {
+      "name": "Akekuri",
+      "skills": {
+        "basic_attack": {
+          "name": "Sword of Aspiration",
+          "type": "Basic Attack",
+          "desc": "BASIC ATTACK: An attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 17 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher that deals massive Physical DMG and recovers some SP."
+        },
+        "battle_skill": {
+          "name": "Burst of Passion",
+          "type": "Battle Skill",
+          "desc": "A frontal slash that deals Heat DMG and applies Heat Infliction."
+        },
+        "combo_skill": {
+          "name": "Flash and Dash",
+          "type": "Combo Skill",
+          "desc": "COMBO TRIGGER: When an enemy becomes Staggered or hits a Stagger Node. Performs a returning dash with 2 thrust sequences, with each sequence dealing Physical DMG and recovering some SP."
+        },
+        "ultimate": {
+          "name": "SQUAD! ON ME!",
+          "type": "Ultimate",
+          "desc": "Enters a channeling state and fires 3 Rallying Flares. Each firing recovers some SP."
+        }
+      }
+    },
+    "estella": {
+      "name": "Estella",
+      "skills": {
+        "basic_attack": {
+          "name": "Audio Noise",
+          "type": "Basic Attack",
+          "desc": "BASIC ATTACK: An attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 17 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher that deals massive Physical DMG and recovers some SP."
+        },
+        "battle_skill": {
+          "name": "Onomatopoeia",
+          "type": "Battle Skill",
+          "desc": "A lance thrust that fires a stream of freezing sound waves that deal Cryo DMG and apply Cryo Infliction to all enemies along its straight path."
+        },
+        "combo_skill": {
+          "name": "Distortion",
+          "type": "Combo Skill",
+          "desc": "COMBO TRIGGER: When an enemy suffers Solidification. Quickly moves to the enemy's side to deal Physical DMG and forcibly Lift enemies in a small area. If the skill hits a target with Solidification, the skill deals additional DMG and applies Physical Susceptibility."
+        },
+        "ultimate": {
+          "name": "Tremolo",
+          "type": "Ultimate",
+          "desc": "Estella expends all her strength to unleash a powerful slam of the spear shaft, dealing Physical DMG to all enemies in a circular area around self. To enemies with Physical Susceptibility, the skill forcibly applies Lift to them."
+        }
+      }
+    },
+    "catcher": {
+      "name": "Catcher",
+      "skills": {
+        "basic_attack": {
+          "name": "Basic Tactics",
+          "type": "Basic Attack",
+          "desc": "BASIC ATTACK: An attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 22 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher that deals massive Physical DMG and recovers some SP."
+        },
+        "battle_skill": {
+          "name": "Rigid Interdiction",
+          "type": "Battle Skill",
+          "desc": "Raises a shield that can block attacks, grants Protection to self and nearby operators, and immediately returns some SP. When attacked while the said shield is raised, perform a retaliation bash that deals Physical DMG and applies 1 stack of Vulnerability to the attacking enemy."
+        },
+        "combo_skill": {
+          "name": "Timely Suppression",
+          "type": "Combo Skill",
+          "desc": "COMBO TRIGGER: When an enemy starts charging up a skill, or when the controlled operator is attacked and falls below 40% HP. A powerful downward punch that deals Physical DMG to the enemy, while granting shields to self and another teammate (controlled operator prioritized). DEF can further increase Shield points."
+        },
+        "ultimate": {
+          "name": "Textbook Assault",
+          "type": "Ultimate",
+          "desc": "Swings the greatsword to perform 2 consecutive slashes to deal Physical DMG and apply Weakness, followed by a powerful downward slam that deals massive Physical DMG and applies Knock Down to all enemies within the area of effect."
+        }
+      }
+    },
+    "fluorite": {
+      "name": "Fluorite",
+      "skills": {
+        "basic_attack": {
+          "name": "Signature Gun Kata",
+          "type": "Basic Attack",
+          "desc": "BASIC ATTACK: An attack with up to 4 sequences that deals Nature DMG. As the controlled operator, Final Strike also deals 15 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Nature DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher that deals Nature DMG and recovers some SP."
+        },
+        "battle_skill": {
+          "name": "Tiny Surprise",
+          "type": "Battle Skill",
+          "desc": "Kicks an Improvised Explosive that sticks to the target, applying Slow and exploding after a short duration. The explosion deals Nature DMG and Nature Infliction to enemies in the area of effect. Defeating the target also sets off the Improvised Explosive immediately. Only 1 Improvised Explosive can be present in the battlefield."
+        },
+        "combo_skill": {
+          "name": "Free Giveaway",
+          "type": "Combo Skill",
+          "desc": "COMBO TRIGGER: When an enemy has 2 or more stacks of Cryo Infliction or Nature Infliction. Shoots the target enemy to trigger a special explosion that deals Nature DMG and applies another Arts Infliction of the element already on the enemy."
+        },
+        "ultimate": {
+          "name": "Apex Prankster",
+          "type": "Ultimate",
+          "desc": "Fluorite quickly moves in an arc and rapidly fires at the target within the arc to deal 4 sequences of Nature DMG. If an Improvised Explosive has been stuck to the target, the skill detonates it immediately and increases the DMG and size of the explosion. If the final DMG sequence hits a target with at least 2 stacks of Cryo Infliction or Nature Infliction, then apply the same Arts Infliction again."
+        }
+      }
+    },
+    "antal": {
+      "name": "Antal",
+      "skills": {
+        "basic_attack": {
+          "name": "Exchange Current",
+          "type": "Basic Attack",
+          "desc": "BASIC ATTACK: An attack with up to 4 sequences that deals Electric DMG. As the controlled operator, Final Strike also deals 15 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Electric DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher that deals massive Electric DMG and recovers some SP."
+        },
+        "battle_skill": {
+          "name": "Specified Research Subject",
+          "type": "Battle Skill",
+          "desc": "Applies Focus with a long duration on the enemy and deals Electric DMG. An enemy with an active Focus also suffers Electric Susceptibility and Heat Susceptibility. Focus can only be applied to 1 enemy at any given time."
+        },
+        "combo_skill": {
+          "name": "EMP Test Site",
+          "type": "Combo Skill",
+          "desc": "COMBO TRIGGER: When an enemy with active Focus suffers a Physical Status or Arts Infliction. Triggers 1 energy explosion on the enemy that deals Electric DMG and applies another stack of the same Physical Status or Arts Infliction."
+        },
+        "ultimate": {
+          "name": "Overclocked Moment",
+          "type": "Ultimate",
+          "desc": "Applies temporary Electric Amp and Heat Amp to the entire team."
+        }
+      }
+    },
+    "gilberta": {
+      "name": "Gilberta",
+      "skills": {
+        "basic_attack": {
+          "name": "Arcane Staff: Beam Cohesion Arts",
+          "type": "Basic Attack",
+          "desc": "BASIC ATTACK: An attack with up to 4 sequences that deals Nature DMG. As the controlled operator, Final Strike also deals 16 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Nature DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher that deals massive Nature DMG and recovers some SP."
+        },
+        "battle_skill": {
+          "name": "Arcane Staff: Gravity Mode",
+          "type": "Battle Skill",
+          "desc": "Initiates Arts channeling that creates a gravity well. The gravity well pulls in nearby enemies and deals Nature DMG to them. When channeling ends, the gravity well implodes to deal Nature DMG and Nature Infliction to enemies in the area of effect."
+        },
+        "combo_skill": {
+          "name": "Arcane Staff: Matrix Displacement",
+          "type": "Combo Skill",
+          "desc": "COMBO TRIGGER: When an Arts Reaction is applied to an enemy. A quick casting of the Arts that generates a gravity pull, which then deals Nature DMG and forcibly Lifts the target and nearby enemies."
+        },
+        "ultimate": {
+          "name": "Arcane Staff: Gravity Field",
+          "type": "Ultimate",
+          "desc": "Creates an Anomalous Gravity Field that instantly deals 1 hit of Nature DMG and applies Nature Infliction to enemies caught in the field. Targets in the Anomalous Gravity Field also suffer from Slow and Arts Susceptibility. The effect of Arts Susceptibility is further increased based on the number of active Vulnerability stacks on the target. If a target in the field is Lifted, the Lifted status will persist until the field wears off."
+        }
+      }
+    },
+    "wulfgard": {
+      "name": "Wulfgard",
+      "skills": {
+        "basic_attack": {
+          "name": "Rapid Fire Akimbo",
+          "type": "Basic Attack",
+          "desc": "BASIC ATTACK: An attack with up to 4 sequences that deals Heat DMG. As the controlled operator, Final Strike also deals 18 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Heat DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher that deals massive Heat DMG and recovers some SP."
+        },
+        "battle_skill": {
+          "name": "Thermite Tracers",
+          "type": "Battle Skill",
+          "desc": "Fires multiple shots at the target that deal some Heat DMG. The final shot also applies Heat Infliction. If the target has active Combustion or Electrification, do not apply Heat Infliction but instead consume the Arts Reaction to fire an additional shot that deals massive Heat DMG."
+        },
+        "combo_skill": {
+          "name": "Frag Grenade·β",
+          "type": "Combo Skill",
+          "desc": "COMBO TRIGGER: When an Arts Infliction is applied to an enemy. Throws a frag grenade at the target's location that explodes upon hitting the ground, dealing Heat DMG and Heat Infliction to nearby enemies."
+        },
+        "ultimate": {
+          "name": "Wolven Fury",
+          "type": "Ultimate",
+          "desc": "Fire a rapid barrage of shots and unleashes the Wolven Fury to attack nearby enemies, dealing 5 hits of Heat DMG and forcibly applying Combustion."
+        }
+      }
+    },
+    "tangtang": {
+      "name": "Tangtang",
+      "skills": {
+        "basic_attack": {
+          "name": "I'LL BLOW YOUR MIND!",
+          "type": "Basic Attack",
+          "desc": "BASIC ATTACK: An attack with up to 5 sequences that deals Cyro DMG. As the controlled operator, Final Strike also deals 18 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Cryo DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher that deals massive Cryo DMG and recovers some SP."
+        },
+        "battle_skill": {
+          "name": "IMA WAVERIDAAH!",
+          "type": "Battle Skill",
+          "desc": "Tangtang jumps out from the water and fires a point-blank shot that deals Cryo DMG to the enemy and creates a Waterspout. Casting the battle skill also consumes all nearby Whirlpools to create additional Waterspouts and return some SP based on the number of Waterspouts created. Waterspout: Applies 1 stack of Cryo Infliction on enemies within range and deals Cryo DMG over time. If the battle skill creates multiple Waterspouts, they also apply Arts Susceptibility to enemies (but not another stack of Cryo Infliction). DMG dealt by the Waterspout is treated as Battle Skill DMG."
+        },
+        "combo_skill": {
+          "name": "RIVER, TO ME!",
+          "type": "Combo Skill",
+          "desc": "COMBO TRIGGER: When applying Cryo Infliction or dealing Arts Burst DMG to an enemy. Tangtang unleashes a powerful jet stream that penetrates all enemies in its path, deals Cryo DMG to them, and creates a Whirlpool. Up to 2 Whirlpools can exist in the battlefield at any time."
+        },
+        "ultimate": {
+          "name": "DA CHIEF SEES YOU!",
+          "type": "Ultimate",
+          "desc": "Tangtang opens her eyepatch and unleashes an OLDEN STARE from her eye that temporarily locks down, immobilizes, and deals Cryo DMG over time to enemies within its area of effect. When the OLDEN STARE stops evolving, a rogue wave comes crashing down to deal massive Cryo DMG to enemies in its area of effect. If the controlled operator performs a dive attack in the OLDEN STARE pattern, its evolution ends and the rogue wave is summoned immediately to deal even more Cryo DMG."
+        }
+      }
+    },
+    "arcane": {
+      "name": "Arcane",
+      "skills": {
+        "basic_attack": {
+          "name": "Artillery Interdiction",
+          "type": "Basic Attack",
+          "desc": "BASIC ATTACK: An attack with up to 5 sequences that deals Nature DMG. As the controlled operator, Final Strike also deals 17 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Nature DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher that deals massive Nature DMG and recovers some SP."
+        },
+        "battle_skill": {
+          "name": "Jadecrushing Grid (Array Arcana: INT)",
+          "type": "Battle Skill",
+          "desc": "Creates a Jadecrushing Grid that deals Nature DMG and applies Nature Infliction to enemies within the area of effect. Array Arcana: INT: Deals more DMG."
+        },
+        "battle_skill_will": {
+          "name": "Jadecrushing Grid (Array Arcana: WILL)",
+          "type": "Battle Skill",
+          "desc": "Creates a Jadecrushing Grid that deals Nature DMG and applies Nature Infliction to enemies within the area of effect. Array Arcana: WILL: When dealing DMG, the array also pulls in enemies within the area of effect."
+        },
+        "combo_skill": {
+          "name": "Yinglung Stance IV (Array Arcana: INT)",
+          "type": "Combo Skill",
+          "desc": "COMBO TRIGGER: When Nature Infliction or at least 2 stacks of non-Nature Arts Infliction are applied on an enemy. Arcane charges at the target and sets up 4 Tactical Doubles that apply Nature Susceptibility and Cryo Susceptibility and deal Nature DMG to the target and nearby enemies, and also apply Imprisonment on the said target. When Imprisonment ends, the Tactical Doubles will attack the said target to deal Explosion DMG. Imprisonment: A debuff that slows all actions. Array Arcana: INT: Hitting an enemy under Imprisonment with Arcane's battle skill returns some SP, ends the Imprisonment early, deals Explosion DMG, applies another instance of Nature Susceptibility and Cryo Susceptibility, and deals multiple hits of bonus DMG after a short delay. Combo skill cooldown is shorter."
+        },
+        "combo_skill_will": {
+          "name": "Yinglung Stance IV (Array Arcana: WILL)",
+          "type": "Combo Skill",
+          "desc": "COMBO TRIGGER: When an Arts Infliction is applied on an enemy. Arcane charges at the target and sets up 4 Tactical Doubles that deal Nature DMG and apply another stack of Arts Infliction of the same element, Nature Susceptibility, and Cryo Susceptibility to the target and nearby enemies, and also apply Imprisonment on the said target. When Imprisonment ends, the Tactical Doubles will attack the said target to deal Explosion DMG. Imprisonment: A debuff that slows all actions. Array Arcana: WILL: Applying Imprisonment by casting a combo skill will also slightly pull in enemies near the target. The attribute of Will can further increase the effects of Nature Susceptibility and Cryo Susceptibility applied by the combo skill."
+        },
+        "ultimate": {
+          "name": "Gloompurge (Array Arcana: INT)",
+          "type": "Ultimate",
+          "desc": "Arcane creates a Gloompurger Array that immediately deals Nature DMG to enemies within the area of effect (AOE). When hitting an enemy within the Gloompurger Array with a Finisher or a Final Strike performed by the controlled operator, the Gloompurger Array unleashes a Cluster Strike that deals Area DMG to the said enemy. This effect triggers up to 2 times. After triggering Cluster Strike 2 times, the ultimate is switched to Gloompurge Arcana. Gloompurge Arcana: Deals Nature DMG to enemies within a large AOE. Array Arcana: INT: When created, the Gloompurger Array also forcibly applies Corrosion to enemies in the AOE."
+        },
+        "ultimate_will": {
+          "name": "Gloompurge (Array Arcana: WILL)",
+          "type": "Ultimate",
+          "desc": "Arcane creates a Gloompurger Array that immediately deals Nature DMG to enemies within the area of effect (AOE). When hitting an enemy within the Gloompurger Array with a Finisher or a Final Strike performed by the controlled operator, the Gloompurger Array unleashes a Cluster Strike that deals Area DMG to the said enemy. This effect triggers up to 2 times. After triggering Cluster Strike 2 times, the ultimate is switched to Gloompurge Arcana. Gloompurge Arcana: Deals Nature DMG to enemies within a large AOE. Array Arcana: WILL: When created, the Gloompurger Array also targets enemies with Arts Infliction within its AOE, and applies another Arts Infliction stack of the same element to them."
+        }
+      }
+    }
+  }
+}

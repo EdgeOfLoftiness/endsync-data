@@ -1,0 +1,586 @@
+{
+  "versions": ["v1.3", "v1.2", "v1.1", "v1.0"],
+  "maps": [
+    { "id": "wuling",  "name": "Wuling",   "icon": "<svg xmlns='http://www.w3.org/2000/svg' fill='currentColor' viewBox='0 0 24 24'><path d='M12 15.786c6.628 0 12 1.151 12 2.571s-5.372 2.572-12 2.572c-6.627 0-12-1.151-12-2.572 0-.873 2.034-1.645 5.143-2.11v2.968h4V15.86A55 55 0 0 1 12 15.786m-2.857.074c-1.456.076-2.807.209-4 .387v-4.461h4zM5.143 3.214h4v7.429h-4zM11.429 2.071h4V9.5h-4z'/><path d='M11.429 10.643h4v7.429h-4zM16 8.357l3.429-2.286V8.93L16 11.214z'/></svg>" },
+    { "id": "valley4", "name": "Valley 4", "icon": "<svg xmlns='http://www.w3.org/2000/svg' fill='currentColor' viewBox='0 0 24 24'><path d='M12.679 12c4.51 0 8.556 1.98 11.319 5.118H1.359A15.04 15.04 0 0 1 12.68 12M7.104 8.773a9.64 9.64 0 0 1 6.822 2.819H.28a9.64 9.64 0 0 1 6.823-2.819'/></svg>" },
+    { "id": "talos",   "name": "Talos",    "icon": "" },
+    { "id": "redtide", "name": "Red Tide", "icon": "" }
+  ],
+  "regions": [
+    { "id": "asia", "name": "Asia",  "flag": "" },
+    { "id": "naeu", "name": "NA/EU", "flag": "" }
+  ],
+  "bases": [
+    {
+      "id": "wul-v13-main",
+      "zoneImg": "assets/maps/zones/wuling.webp",
+      "type": "main",
+      "name": "Wuling Main",
+      "mapId": "wuling",
+      "version": "v1.3",
+      "status": { "es": "Verificado v1.3", "en": "Verified v1.3" },
+      "credits": "KyoStinV",
+      "videoUrl": "",
+      "preview": null,
+      "desc": {
+        "es": "Mega base principal de Wuling en v1.3 (Max Profit). Ocho disposiciones equivalentes — elige la que mejor encaje en el espacio disponible de tu mapa. Estos códigos son para quien arma esta línea de bases por primera vez; si ya tenías la versión anterior y no quieres reconstruir todo desde cero, usa el set 1.3 Upgrade. Los códigos están pensados para seguirse junto con el video del autor.",
+        "en": "Main Wuling mega base on v1.3 (Max Profit). Eight equivalent layouts — pick whichever best fits the available space on your map. These codes are for players building this base line for the first time; if you already had the previous version and don't want to rebuild from scratch, use the 1.3 Upgrade set instead. The codes are meant to be followed along with the author's video."
+      },
+      "production": {
+        "interactive": true,
+        "note": {
+          "es": "Mega base de máximo beneficio. Fabrica a la vez hasta 3 componentes (Xiranite, Cuprium, Hetonite) que puedes encender o apagar; cada uno baja un poco la producción base pero te entrega ese componente. Sin ninguno encendido, el bills/h es máximo. El estado por defecto del juego tiene los 3 encendidos.",
+          "en": "Max-profit mega base. Crafts up to 3 components at once (Xiranite, Cuprium, Hetonite) that you can toggle on or off; each one slightly lowers base output but yields that component. With none on, bills/h is highest. The game's default state has all 3 on."
+        },
+        "consumes": [
+          { "item": { "es": "Batería de CS", "en": "SC Battery", "jp": "中容量バッテリー", "zh": "中容电池" }, "perMin": 4.5 }
+        ],
+        "outpostsBillsHour": 63900,
+        "componentPerMin": 0.5,
+        "components": [
+          { "key": "xiranite", "item": { "es": "Componente de Xiranita", "en": "Xiranite Component", "jp": "息壌装備部品", "zh": "息壤装备原件" } },
+          { "key": "cuprium",  "item": { "es": "Componente de cuprio", "en": "Cuprium Component", "jp": "赤銅装備部品", "zh": "赤铜装备原件" } },
+          { "key": "hetonite", "item": { "es": "Componente de hetonita", "en": "Hetonite Component", "jp": "緋銅装備部品", "zh": "赫铜装备原件" } }
+        ],
+        "baseOutputs": [
+          { "item": { "es": "Batería de CS de Wuling", "en": "SC Wuling Battery", "jp": "中容量武陵バッテリー", "zh": "中容武陵电池" } },
+          { "item": { "es": "Xiranita pesada", "en": "Heavy Xiranite", "jp": "重息壌", "zh": "重息壤" } },
+          { "item": { "es": "Yazhen Syringe A",  "en": "Yazhen Syringe A"  } },
+          { "item": { "es": "Pieza de hetonita", "en": "Hetonite Part", "jp": "緋銅部品", "zh": "赫铜零件" } }
+        ],
+        "defaultOn": ["xiranite", "cuprium", "hetonite"],
+        "modes": [
+          { "on": [],                                "base": [14.5, 12, 6,    6], "billsHourly": 77040 },
+          { "on": ["xiranite"],                      "base": [13.9, 12, 6,    6], "billsHourly": 75096 },
+          { "on": ["cuprium"],                       "base": [13.9, 12, 5.75, 6], "billsHourly": 74766 },
+          { "on": ["hetonite"],                      "base": [14.5, 11, 6,    5], "billsHourly": 72540 },
+          { "on": ["xiranite", "cuprium"],           "base": [13.3, 12, 5.75, 6], "billsHourly": 72822 },
+          { "on": ["xiranite", "hetonite"],          "base": [13.9, 11, 6,    5], "billsHourly": 70596 },
+          { "on": ["cuprium", "hetonite"],           "base": [13.9, 11, 5.75, 5], "billsHourly": 70266 },
+          { "on": ["xiranite", "cuprium", "hetonite"], "base": [13.3, 11, 5.75, 5], "billsHourly": 68322 }
+        ]
+      },
+      "layouts": [
+        { "label": "Wuling 1", "codes": { "asia": "EFO01Ue3683812O2A76a8", "naeu": "EFO016i1a42ee07o4Oe3e" } },
+        { "label": "Wuling 2", "codes": { "asia": "EFO013o72e7e49aUe0E79", "naeu": "EFO01eE7U8o22A45EoEi8" } },
+        { "label": "Wuling 3", "codes": { "asia": "EFO01194o2428iUoO3aO7", "naeu": "EFO0172UA3844i510O2Ai" } },
+        { "label": "Wuling 4", "codes": { "asia": "EFO017i89o8o6E582O0Ai", "naeu": "EFO010U96EOAA1i3OE179" } },
+        { "label": "Wuling 5", "codes": { "asia": "EFO01u8U47U7560euAoOU", "naeu": "EFO01eE7U8o22A4iioui8" } },
+        { "label": "Wuling 6", "codes": { "asia": "EFO017i89o8o6E589O2Ai", "naeu": "EFO01eE7U8o22A458oui8" } },
+        { "label": "Wuling 7", "codes": { "asia": "EFO013o72e7e49a980579", "naeu": "EFO016i1a42ee07oaO23e" } },
+        { "label": "Wuling 8", "codes": { "asia": "EFO017i89o8o6E587O0Ai", "naeu": "EFO011ea054779U7U3aO7" } }
+      ]
+    },
+    {
+      "id": "wul-v13-upgrade",
+      "type": "upgrade",
+      "name": "1.3 Upgrade",
+      "mapId": "wuling",
+      "version": "v1.3",
+      "status": { "es": "Verificado v1.3", "en": "Verified v1.3" },
+      "credits": "KyoStinV",
+      "videoUrl": "",
+      "preview": null,
+      "desc": {
+        "es": "Set de mejora para quien YA tenía la línea de bases anterior y no quiere reconstruir todo desde cero. En lugar de armar la mega base completa, estos códigos actualizan lo que ya tienes a v1.3. Pensado 100% para seguirse con el video — el autor explica en detalle qué reemplazar y en qué orden.",
+        "en": "Upgrade set for players who already had the previous base line and don't want to rebuild everything from scratch. Instead of building the full mega base, these codes update what you already have to v1.3. Meant to be followed entirely along with the video — the author explains in detail what to replace and in what order."
+      },
+      "layouts": [
+        { "label": "1.3 Upgrade 1", "codes": { "asia": "EFO01a6584543eAUeoi5e", "naeu": "EFO010U96EOAA1i72E379" } },
+        { "label": "1.3 Upgrade 2", "codes": { "asia": "EFO01a6584543eAU5ou5e", "naeu": "EFO01U4Aiu355eO9571a8" } },
+        { "label": "1.3 Upgrade 3", "codes": { "asia": "EFO01u8U47U756038AoOU", "naeu": "EFO01A5i4639OaE191eO" } }
+      ]
+    },
+    {
+      "id": "wul-v13-sub-jv",
+      "zoneImg": "assets/maps/zones/jingyu-valley.webp",
+      "type": "sub",
+      "name": "Jingyu Valley SubAIC",
+      "mapId": "wuling",
+      "version": "v1.3",
+      "status": { "es": "Verificado v1.3", "en": "Verified v1.3" },
+      "credits": "KyoStinV",
+      "videoUrl": "",
+      "preview": null,
+      "desc": {
+        "es": "Sub AIC del mapa Jingyu Valley (JV) en v1.3. Se arma con dos piezas que van juntas en el mismo mapa: una arriba (Top) y otra abajo (Bottom). Pega ambos códigos en el mapa de JV. Se conecta a la mega base principal para extender la producción. Jingyu Valley y Marker Stone son mapas distintos dentro de Wuling — cada Sub AIC es específica de su zona.",
+        "en": "Sub AIC for the Jingyu Valley (JV) map on v1.3. Built as two pieces that go together on the same map: one at the top and one at the bottom. Paste both codes on the JV map. Connects to the main mega base to extend production. Jingyu Valley and Marker Stone are different maps inside Wuling — each Sub AIC is specific to its zone."
+      },
+      "layouts": [
+        { "label": "JV Top",    "codes": { "asia": "EFO01u8U47U756036AEOU", "naeu": "EFO0172UA3844i516O0Ai" } },
+        { "label": "JV Bottom", "codes": { "asia": "EFO01521e6167ou1ae7oe", "naeu": "EFO01eE7U8o22A45eo9i8" } }
+      ]
+    },
+    {
+      "id": "wul-v13-sub-ms",
+      "zoneImg": "assets/maps/zones/marker-stone.webp",
+      "type": "sub",
+      "name": "Marker Stone SubAIC",
+      "mapId": "wuling",
+      "version": "v1.3",
+      "status": { "es": "Verificado v1.3", "en": "Verified v1.3" },
+      "credits": "KyoStinV",
+      "videoUrl": "",
+      "preview": null,
+      "desc": {
+        "es": "Sub AIC del mapa Marker Stone (MS) en v1.3. Se arma con dos piezas que van juntas en el mismo mapa: una arriba (Top) y otra abajo (Bottom). Pega ambos códigos en el mapa de MS. Se conecta a la mega base principal para extender la producción. Marker Stone y Jingyu Valley son mapas distintos dentro de Wuling — cada Sub AIC es específica de su zona.",
+        "en": "Sub AIC for the Marker Stone (MS) map on v1.3. Built as two pieces that go together on the same map: one at the top and one at the bottom. Paste both codes on the MS map. Connects to the main mega base to extend production. Marker Stone and Jingyu Valley are different maps inside Wuling — each Sub AIC is specific to its zone."
+      },
+      "layouts": [
+        { "label": "MS Top",    "codes": { "asia": "EFO01Ue3683812OOO76a8", "naeu": "EFO01U4Aiu355eO9E71a8" } },
+        { "label": "MS Bottom", "codes": { "asia": "EFO01a6584543eAUuoe5e", "naeu": "EFO01iOe51u6E02A72U4" } }
+      ]
+    },
+    {
+      "id": "wul-v13-temp-cup",
+      "type": "temp",
+      "name": "Temp Cuprium parts",
+      "mapId": "wuling",
+      "version": "v1.3",
+      "status": { "es": "Verificado v1.3", "en": "Verified v1.3" },
+      "credits": "KyoStinV",
+      "videoUrl": "",
+      "preview": null,
+      "desc": {
+        "es": "Base temporal especializada en Cuprium parts para Wuling v1.3. Móntala solo cuando necesites farmear este material rápido y desmóntala después.",
+        "en": "Temporary base focused on Cuprium parts for Wuling v1.3. Set it up only when you need to farm this material fast, then dismantle it."
+      },
+      "layouts": [
+        { "label": "Layout 1", "codes": { "asia": "EFO013o72e7e49a60579", "naeu": "EFO014o5O1688E3i7E81A" } }
+      ]
+    },
+    {
+      "id": "wul-v13-temp-xir",
+      "type": "temp",
+      "name": "Temp Xiranite",
+      "mapId": "wuling",
+      "version": "v1.3",
+      "status": { "es": "Verificado v1.3", "en": "Verified v1.3" },
+      "credits": "KyoStinV",
+      "videoUrl": "",
+      "preview": null,
+      "desc": {
+        "es": "Base temporal especializada en Xiranite para Wuling v1.3. Móntala solo cuando necesites farmear este material rápido y desmóntala después.",
+        "en": "Temporary base focused on Xiranite for Wuling v1.3. Set it up only when you need to farm this material fast, then dismantle it."
+      },
+      "layouts": [
+        { "label": "Layout 1", "codes": { "asia": "EFO01a6589eao1AU5ou5e", "naeu": "EFO01A5ie90Ou3Eee91eO" } }
+      ]
+    },
+    {
+      "id": "wul-v12-main",
+      "type": "main",
+      "name": "Wuling Main",
+      "mapId": "wuling",
+      "version": "v1.2",
+      "status": { "es": "Verificado v1.2", "en": "Verified v1.2" },
+      "credits": "KyoStinV",
+      "videoUrl": "",
+      "preview": null,
+      "desc": {
+        "es": "Base principal recomendada. Genera los 7 materiales que necesitas para fabricar equipo (componentes, partes y baterías) gastando solo 3 SC Batteries por minuto. Las 6 disposiciones tienen exactamente la misma producción — elige la que mejor encaje en el espacio disponible de tu mapa.",
+        "en": "Recommended main base. Produces the 7 materials needed to craft gear (components, parts and batteries) while spending only 3 SC Batteries per minute. The 6 layouts share the exact same production — pick whichever best fits the available space on your map."
+      },
+      "production": {
+        "billsHourly": 47640,
+        "note": {
+          "es": "Configuración eficiente — produce todos los materiales que necesitas para fabricar equipo.",
+          "en": "Efficient setup — produces every material you need to craft gear."
+        },
+        "consumes": [
+          { "item": { "es": "Batería de CS", "en": "SC Battery", "jp": "中容量バッテリー", "zh": "中容电池" }, "perMin": 3 }
+        ],
+        "outputs": [
+          { "item": { "es": "Batería de CS de Wuling", "en": "SC Wuling Battery", "jp": "中容量武陵バッテリー", "zh": "中容武陵电池" }, "perMin": 13,    "billsHour": 32400 },
+          { "item": { "es": "Xiranita pesada", "en": "Heavy Xiranite", "jp": "重息壌", "zh": "重息壤" }, "perMin": 4.5,   "billsHour": 7290 },
+          { "item": { "es": "Pieza de hetonita", "en": "Hetonite Part", "jp": "緋銅部品", "zh": "赫铜零件" }, "perMin": 1.5,   "billsHour": 4320 },
+          { "item": { "es": "Yazhen Syringe A",   "en": "Yazhen Syringe A"   }, "perMin": 0.75,  "billsHour": 3630 },
+          { "item": { "es": "Componente de Xiranita", "en": "Xiranite Component", "jp": "息壌装備部品", "zh": "息壤装备原件" }, "perMin": 0.5 },
+          { "item": { "es": "Componente de cuprio", "en": "Cuprium Component", "jp": "赤銅装備部品", "zh": "赤铜装备原件" }, "perMin": 0.5 },
+          { "item": { "es": "Componente de hetonita", "en": "Hetonite Component", "jp": "緋銅装備部品", "zh": "赫铜装备原件" }, "perMin": 0.75 }
+        ]
+      },
+      "layouts": [
+        { "label": "Layout 1", "codes": { "asia": "EFO0101O36708ai90E179", "naeu": "EFO01U4Aiu355eOO871a8" } },
+        { "label": "Layout 2", "codes": { "asia": "EFO01A7u1e4A6UE769ieO", "naeu": "EFO0172UA3844i53UO0Ai" } },
+        { "label": "Layout 3", "codes": { "asia": "EFO017i89AE70e54eO2Ai", "naeu": "EFO016i1a42ee0791O83e" } },
+        { "label": "Layout 4", "codes": { "asia": "EFO01eAo0UOeai4uuoui8", "naeu": "EFO01eE7U8o22A404oui8" } },
+        { "label": "Layout 5", "codes": { "asia": "EFO01u8U4o6u230U8AeOU", "naeu": "EFO011ea054779UaE3aO7" } },
+        { "label": "Layout 6", "codes": { "asia": "EFO012O9A5u2UE8E3e3Oo", "naeu": "EFO01U4Aiu355eOoa71a8" } }
+      ]
+    },
+    {
+      "id": "wul-v12-sub-ms",
+      "type": "sub",
+      "name": "Marker Stone SubAIC",
+      "mapId": "wuling",
+      "version": "v1.2",
+      "status": { "es": "Verificado v1.2", "en": "Verified v1.2" },
+      "credits": "KyoStinV",
+      "videoUrl": "",
+      "preview": null,
+      "desc": {
+        "es": "Base secundaria del mapa Marker Stone (MS). Se conecta a la AIC principal para extender la producción. Marker Stone y Jingyu Valley son mapas distintos dentro de Wuling — la SubAIC de cada mapa es específica de esa zona, no son intercambiables.",
+        "en": "Secondary base for the Marker Stone (MS) map. Connects to the main AIC to extend production. Marker Stone and Jingyu Valley are different maps inside Wuling — each map's SubAIC is specific to its zone and they are not interchangeable."
+      },
+      "layouts": [
+        { "label": "Layout 1", "codes": { "asia": "EFO017i89AE70e5a8O0Ai", "naeu": "EFO010U96EOAA1ia8E179" } }
+      ]
+    },
+    {
+      "id": "wul-v12-sub-jv",
+      "type": "sub",
+      "name": "Jingyu Valley SubAIC",
+      "mapId": "wuling",
+      "version": "v1.2",
+      "status": { "es": "Verificado v1.2", "en": "Verified v1.2" },
+      "credits": "KyoStinV",
+      "videoUrl": "",
+      "preview": null,
+      "desc": {
+        "es": "Base secundaria del mapa Jingyu Valley (JV). Se conecta a la AIC principal para extender la producción. Jingyu Valley y Marker Stone son mapas distintos dentro de Wuling — esta SubAIC funciona solo en JV, no es una alternativa a la SubAIC de MS.",
+        "en": "Secondary base for the Jingyu Valley (JV) map. Connects to the main AIC to extend production. Jingyu Valley and Marker Stone are different maps inside Wuling — this SubAIC only works on JV and is not an alternative to the MS SubAIC."
+      },
+      "layouts": [
+        { "label": "Layout 1", "codes": { "asia": "EFO017i89AE70e5a5O8Ai", "naeu": "EFO01a709O5UU6Ae5oe5e" } }
+      ]
+    },
+    {
+      "id": "wul-v12-afk-jv",
+      "type": "afk",
+      "name": "Jingyu Valley AFK",
+      "mapId": "wuling",
+      "version": "v1.2",
+      "status": { "es": "Verificado v1.2", "en": "Verified v1.2" },
+      "credits": "KyoStinV",
+      "videoUrl": "",
+      "preview": null,
+      "desc": {
+        "es": "Base de farmeo pasivo para el mapa Jingyu Valley (JV). Produce sola mientras estás offline. Output menor que la principal pero no requiere atención. Las 2 disposiciones son variantes del mismo concepto en JV con el mismo output — elige la que encaje mejor en tu mapa.",
+        "en": "Passive farming base for the Jingyu Valley (JV) map. Runs on its own while you are offline. Lower output than the main base but needs no attention. The 2 layouts are variants of the same JV concept with identical output — pick whichever fits your map best."
+      },
+      "layouts": [
+        { "label": "Layout 1", "codes": { "asia": "EFO01eAo0UOeai4ueoui8", "naeu": "EFO01a709O5UU6AeOou5e" } },
+        { "label": "Layout 2", "codes": { "asia": "EFO01A7u1e4A6UE109ieO", "naeu": "EFO0172UA3844i53aO2Ai" } }
+      ]
+    },
+    {
+      "id": "wul-v12-temp-cup",
+      "type": "temp",
+      "name": "Temp Cuprium parts",
+      "mapId": "wuling",
+      "version": "v1.2",
+      "status": { "es": "Verificado v1.2", "en": "Verified v1.2" },
+      "credits": "KyoStinV",
+      "videoUrl": "",
+      "preview": null,
+      "desc": {
+        "es": "Base temporal especializada en Cuprium parts. Móntala solo cuando necesites farmear este material rápido y desmóntala después.",
+        "en": "Temporary base focused on Cuprium parts. Set it up only when you need to farm this material fast, then dismantle it."
+      },
+      "layouts": [
+        { "label": "Layout 1", "codes": { "asia": "EFO013o72e7e49a60579", "naeu": "EFO014o5O1688E3i7E81A" } }
+      ]
+    },
+    {
+      "id": "wul-v12-temp-xir",
+      "type": "temp",
+      "name": "Temp Xiranite",
+      "mapId": "wuling",
+      "version": "v1.2",
+      "status": { "es": "Verificado v1.2", "en": "Verified v1.2" },
+      "credits": "KyoStinV",
+      "videoUrl": "",
+      "preview": null,
+      "desc": {
+        "es": "Base temporal especializada en Xiranite. Móntala solo cuando necesites farmear este material rápido y desmóntala después.",
+        "en": "Temporary base focused on Xiranite. Set it up only when you need to farm this material fast, then dismantle it."
+      },
+      "layouts": [
+        { "label": "Layout 1", "codes": { "asia": "EFO01a6589eao1AU5ou5e", "naeu": "EFO01A5ie90Ou3Eee91eO" } }
+      ]
+    },
+    {
+      "id": "wul-v11-main",
+      "type": "main",
+      "name": "Wuling Main",
+      "mapId": "wuling",
+      "version": "v1.1",
+      "status": { "es": "Verificado v1.1", "en": "Verified v1.1" },
+      "credits": "KyoStinV",
+      "videoUrl": "",
+      "preview": null,
+      "desc": {
+        "es": "AIC principal del mapa Wuling en v1.1. Cinco disposiciones equivalentes — elige la que mejor encaje en el espacio disponible de tu mapa.",
+        "en": "Main AIC for the Wuling map on v1.1. Five equivalent layouts — pick whichever best fits the available space on your map."
+      },
+      "layouts": [
+        { "label": "Wuling 1", "codes": { "asia": "EFO01Ue36i2U97Ou971a8", "naeu": "EFO0172UA3844i5u1O2Ai" } },
+        { "label": "Wuling 2", "codes": { "asia": "EFO017i89AE70e5i4O2Ai", "naeu": "EFO014o5O1688E3i1EO1A" } },
+        { "label": "Wuling 3", "codes": { "asia": "EFO01u8U4o6u230iUAoOU", "naeu": "EFO01U4Aiu355eOOa76a8" } },
+        { "label": "Wuling 4", "codes": { "asia": "EFO017i89o8o6E59O0Ai",  "naeu": "EFO016i1a42ee07AeO23e" } },
+        { "label": "Wuling 5", "codes": { "asia": "EFO0101O36708ai3OE179", "naeu": "EFO016i1aEe4oi76O23e" } }
+      ]
+    },
+    {
+      "id": "wul-v11-sub",
+      "type": "sub",
+      "name": "Wuling SubAIC",
+      "mapId": "wuling",
+      "version": "v1.1",
+      "status": { "es": "Verificado v1.1", "en": "Verified v1.1" },
+      "credits": "KyoStinV",
+      "videoUrl": "",
+      "preview": null,
+      "desc": {
+        "es": "Sub AIC de Wuling v1.1. Se conecta a la AIC principal (Wuling Main) para extender la producción.",
+        "en": "Sub AIC for Wuling v1.1. Connects to the main AIC (Wuling Main) to extend production."
+      },
+      "layouts": [
+        { "label": "Layout 1", "codes": { "asia": "EFO01Ue36i2U97O9E7ua8", "naeu": "EFO01a7094UO37A9Uoi5e" } }
+      ]
+    },
+    {
+      "id": "wul-v11-bats",
+      "type": "extra",
+      "name": "Battery Set",
+      "mapId": "wuling",
+      "version": "v1.1",
+      "status": { "es": "Verificado v1.1", "en": "Verified v1.1" },
+      "credits": "KyoStinV",
+      "videoUrl": "",
+      "preview": null,
+      "desc": {
+        "es": "Set de optimización de baterías (SC Batteries) para Wuling v1.1. Tres variantes que cubren techos distintos de Power Usage — elige la que corresponda a tu consumo total. Nota: el primer layout dice 4470 (no 4500) por un bug — la Offline Belt va a 0.495/s en lugar de 0.5/s.",
+        "en": "Battery optimization set (SC Batteries) for Wuling v1.1. Three variants covering different Power Usage ceilings — pick the one matching your base's draw. Note: the first layout caps at 4470 (not 4500) due to a bug — the Offline Belt runs at 0.495/s instead of 0.5/s."
+      },
+      "layouts": [
+        { "label": "Wuling V4 bat — Power Usage ≤ 4470",   "codes": { "asia": "EFO01a6589eao1Au2oe5e", "naeu": "EFO0172UA3844i5u2O8Ai" } },
+        { "label": "MinMaxBats B1 — Power Usage ≤ 4570",   "codes": { "asia": "EFO01u8U4o6u2309uA6OU", "naeu": "EFO011ea054779Uiu3UO7" } },
+        { "label": "MinMaxBats B2 — Power Usage ≤ 5150",   "codes": { "asia": "EFO01Ue36i2U97O5e77a8", "naeu": "EFO01U4Aiu355eOOA7ua8" } }
+      ]
+    },
+    {
+      "id": "wul-v11-extra",
+      "type": "extra",
+      "name": "Wuling Extra",
+      "mapId": "wuling",
+      "version": "v1.1",
+      "status": { "es": "Verificado v1.1", "en": "Verified v1.1" },
+      "credits": "KyoStinV",
+      "videoUrl": "",
+      "preview": null,
+      "desc": {
+        "es": "Base extra de Wuling v1.1 — aprovecha el espacio que queda libre después de colocar Wuling Main y la Sub AIC.",
+        "en": "Extra base for Wuling v1.1 — fills the leftover space after placing Wuling Main and the Sub AIC."
+      },
+      "layouts": [
+        { "label": "Layout 1", "codes": { "asia": "EFO01u8U4o6u2308eAeOU", "naeu": "EFO01a709O5UU6A4uo95e" } }
+      ]
+    },
+    {
+      "id": "wul-v11-temp-cup",
+      "type": "temp",
+      "name": "Temp Cuprium parts",
+      "mapId": "wuling",
+      "version": "v1.1",
+      "status": { "es": "Verificado v1.1", "en": "Verified v1.1" },
+      "credits": "KyoStinV",
+      "videoUrl": "",
+      "preview": null,
+      "desc": {
+        "es": "Base temporal especializada en Cuprium parts para Wuling v1.1. Móntala solo cuando necesites farmear este material rápido y desmóntala después.",
+        "en": "Temporary base focused on Cuprium parts for Wuling v1.1. Set it up only when you need to farm this material fast, then dismantle it."
+      },
+      "layouts": [
+        { "label": "Layout 1", "codes": { "asia": "EFO013o72e7e49a60579", "naeu": "EFO014o5O1688E3i7E81A" } }
+      ]
+    },
+    {
+      "id": "wul-v10-main",
+      "type": "main",
+      "name": "Wuling Main",
+      "mapId": "wuling",
+      "version": "v1.0",
+      "status": { "es": "Verificado v1.0", "en": "Verified v1.0" },
+      "credits": "KyoStinV",
+      "videoUrl": "",
+      "preview": null,
+      "desc": {
+        "es": "AIC principal del mapa Wuling en v1.0. Se compone de dos piezas que se montan juntas: una del lado izquierdo y otra del derecho. Ambos códigos se pegan en el mismo mapa.",
+        "en": "Main AIC for the Wuling map on v1.0. Built as two pieces that go in together: one on the left side and one on the right. Both codes are pasted on the same map."
+      },
+      "layouts": [
+        { "label": "Wuling Left",  "codes": { "asia": "EFO017i89AE70e5u2O8Ai", "naeu": "EFO01A5ie90Ou3Eeu9EeO" } },
+        { "label": "Wuling Right", "codes": { "asia": "EFO01u8U4o6u23038AoOU", "naeu": "EFO01A5ie90Ou3Ee29ieO" } }
+      ]
+    },
+    {
+      "id": "wul-v10-sub",
+      "type": "sub",
+      "name": "Wuling Sub AIC",
+      "mapId": "wuling",
+      "version": "v1.0",
+      "status": { "es": "Verificado v1.0", "en": "Verified v1.0" },
+      "credits": "KyoStinV",
+      "videoUrl": "",
+      "preview": null,
+      "desc": {
+        "es": "Sub AIC de Wuling v1.0. Vive en un mapa distinto al de la AIC principal (Wuling Main) y se conecta a esta para extender la producción. Si tienes el espacio superior del mapa principal desbloqueado y no quieres ocupar el otro mapa, puedes saltarte esta Sub AIC y usar en su lugar Wuling Top Opt.",
+        "en": "Sub AIC for Wuling v1.0. Lives on a different map from the main AIC (Wuling Main) and connects to it to extend production. If you have the top area of the main map unlocked and prefer not to take up the second map, you can skip this Sub AIC and use Wuling Top Opt instead."
+      },
+      "layouts": [
+        { "label": "Layout 1", "codes": { "asia": "EFO017i89AE70e587O0Ai", "naeu": "EFO01U4Ai0a538OE973a8" } }
+      ]
+    },
+    {
+      "id": "wul-v10-top-opt",
+      "type": "extra",
+      "name": "Wuling Top Opt",
+      "mapId": "wuling",
+      "version": "v1.0",
+      "status": { "es": "Verificado v1.0", "en": "Verified v1.0" },
+      "credits": "KyoStinV",
+      "videoUrl": "",
+      "preview": null,
+      "desc": {
+        "es": "Variante optativa que se monta en la zona superior del mapa principal de Wuling v1.0. Funciona como reemplazo de la Sub AIC: si tienes ese espacio desbloqueado y no quieres gastar el segundo mapa, usas Wuling Main + Top Opt y te ahorras la Sub AIC.",
+        "en": "Optional variant placed on the top area of the main Wuling v1.0 map. It replaces the Sub AIC: if you have that area unlocked and prefer not to spend the second map, use Wuling Main + Top Opt and skip the Sub AIC entirely."
+      },
+      "layouts": [
+        { "label": "Layout 1", "codes": { "asia": "EFO01u8U4o6u2305aAEOU", "naeu": "EFO011ea0u3742Uo134O7" } }
+      ]
+    },
+    {
+      "id": "wul-v10-minmax-bats",
+      "type": "extra",
+      "name": "MinMax Bats",
+      "mapId": "wuling",
+      "version": "v1.0",
+      "status": { "es": "Verificado v1.0", "en": "Verified v1.0" },
+      "credits": "KyoStinV",
+      "videoUrl": "",
+      "preview": null,
+      "desc": {
+        "es": "Set de optimización de baterías (SC Batteries). Cada layout cubre un techo de consumo de energía distinto — elige el que corresponda al consumo total de tu base. El número siguiente al nombre indica el límite de Power Usage soportado.",
+        "en": "Battery optimization set (SC Batteries). Each layout supports a different power usage ceiling — pick the one that matches your base's total power draw. The number next to each label is the supported Power Usage cap."
+      },
+      "layouts": [
+        { "label": "MinMax Bats X — Power Usage ≤ 1995", "codes": { "asia": "EFO01521eEo5i4u69e7oe",  "naeu": "EFO0172UAa148o58EO0Ai" } },
+        { "label": "MinMax Bats 0 — Power Usage ≤ 2095", "codes": { "asia": "EFO01Ue36i2U97OoO71a8",  "naeu": "EFO01893u546ei1A4U873"  } },
+        { "label": "MinMax Bats 1 — Power Usage ≤ 2390", "codes": { "asia": "EFO017i89AE70e58AO2Ai",  "naeu": "EFO011ea0u3742U2O3oO7"  } },
+        { "label": "MinMax Bats 2 — Power Usage ≤ 2685", "codes": { "asia": "EFO0101O36708ai29E179",  "naeu": "EFO0172UAa148o552O2Ai"  } },
+        { "label": "MinMax Bats 3 — Power Usage ≤ 2985", "codes": { "asia": "EFO017i89AE70e589O2Ai",  "naeu": "EFO014o5OU786937AE81A"  } }
+      ]
+    },
+    {
+      "id": "wul-v10-temp-xir",
+      "type": "temp",
+      "name": "Temp Xiranite",
+      "mapId": "wuling",
+      "version": "v1.0",
+      "status": { "es": "Verificado v1.0", "en": "Verified v1.0" },
+      "credits": "KyoStinV",
+      "videoUrl": "",
+      "preview": null,
+      "desc": {
+        "es": "Base temporal especializada en Xiranite para Wuling v1.0. Móntala solo cuando necesites farmear este material rápido y desmóntala después.",
+        "en": "Temporary base focused on Xiranite for Wuling v1.0. Set it up only when you need to farm this material fast, then dismantle it."
+      },
+      "layouts": [
+        { "label": "Layout 1", "codes": { "asia": "EFO01a6589eao1AU5ou5e", "naeu": "EFO01A5ie90Ou3Eee91eO" } }
+      ]
+    },
+    {
+      "id": "val-v10-main-left",
+      "type": "main",
+      "name": "Main Left",
+      "mapId": "valley4",
+      "version": "v1.0",
+      "status": { "es": "Verificado v1.0", "en": "Verified v1.0" },
+      "credits": "KyoStinV",
+      "videoUrl": "",
+      "preview": null,
+      "desc": {
+        "es": "Base principal del lado izquierdo del mapa Valley 4. Forma parte de la configuración completa junto con Main Right, Main Bottom, Sub AIC y Extra — todas ocupan posiciones distintas y conviven en el mismo mapa.",
+        "en": "Main base for the left side of the Valley 4 map. Part of the full layout together with Main Right, Main Bottom, Sub AIC and Extra — each one occupies a different spot and they all coexist on the same map."
+      },
+      "layouts": [
+        { "label": "Layout 1", "codes": { "asia": "EFO01u8U4o6u2307AoOU", "naeu": "EFO01893u546ei1OU873" } }
+      ]
+    },
+    {
+      "id": "val-v10-main-right",
+      "type": "main",
+      "name": "Main Right",
+      "mapId": "valley4",
+      "version": "v1.0",
+      "status": { "es": "Verificado v1.0", "en": "Verified v1.0" },
+      "credits": "KyoStinV",
+      "videoUrl": "",
+      "preview": null,
+      "desc": {
+        "es": "Base principal del lado derecho del mapa Valley 4. Convive con Main Left, Main Bottom, Sub AIC y Extra en el mismo mapa.",
+        "en": "Main base for the right side of the Valley 4 map. Coexists with Main Left, Main Bottom, Sub AIC and Extra on the same map."
+      },
+      "layouts": [
+        { "label": "Layout 1", "codes": { "asia": "EFO017i89AE70e52O2Ai", "naeu": "EFO011ea0u3742U83oO7" } }
+      ]
+    },
+    {
+      "id": "val-v10-main-bottom",
+      "type": "main",
+      "name": "Main Bottom",
+      "mapId": "valley4",
+      "version": "v1.0",
+      "status": { "es": "Verificado v1.0", "en": "Verified v1.0" },
+      "credits": "KyoStinV",
+      "videoUrl": "",
+      "preview": null,
+      "desc": {
+        "es": "Base inferior del mapa Valley 4. Tiene dos disposiciones que ocupan el mismo lugar y son intercambiables: la versión 2 incluye un Carbon Maker extra respecto de la versión 1 — elige la que mejor te convenga.",
+        "en": "Bottom base for the Valley 4 map. Two interchangeable layouts share the same slot: version 2 has one extra Carbon Maker compared to version 1 — pick whichever fits your needs."
+      },
+      "layouts": [
+        { "label": "Main Bottom",   "codes": { "asia": "EFO01Ue36i2U97O17Aa8",  "naeu": "EFO0172UAa148o5oO2Ai"  } },
+        { "label": "Main Bottom 2", "codes": { "asia": "EFO01u8U4o6u2305iAoOU", "naeu": "EFO014o5OU78693U6E81A" } }
+      ]
+    },
+    {
+      "id": "val-v10-sub",
+      "type": "sub",
+      "name": "Sub AIC",
+      "mapId": "valley4",
+      "version": "v1.0",
+      "status": { "es": "Verificado v1.0", "en": "Verified v1.0" },
+      "credits": "KyoStinV",
+      "videoUrl": "",
+      "preview": null,
+      "desc": {
+        "es": "Sub AIC del mapa Valley 4. Después de colocar las bases principales (Main Left + Main Right + Main Bottom), monta esta Sub AIC y usa el espacio restante para la base Extra.",
+        "en": "Sub AIC for the Valley 4 map. After placing the main bases (Main Left + Main Right + Main Bottom), drop this Sub AIC and use the leftover space for the Extra base."
+      },
+      "layouts": [
+        { "label": "Layout 1", "codes": { "asia": "EFO01521eEo5i4u5e7oe", "naeu": "EFO014o5OU786933E51A" } }
+      ]
+    },
+    {
+      "id": "val-v10-extra",
+      "type": "extra",
+      "name": "Extra",
+      "mapId": "valley4",
+      "version": "v1.0",
+      "status": { "es": "Verificado v1.0", "en": "Verified v1.0" },
+      "credits": "KyoStinV",
+      "videoUrl": "",
+      "preview": null,
+      "desc": {
+        "es": "Base extra del mapa Valley 4 — rellena el espacio que queda libre después de colocar las bases principales y la Sub AIC. El video la explica con el orden completo de montaje.",
+        "en": "Extra base for the Valley 4 map — fills the remaining space after placing the main bases and the Sub AIC. The video walks through the full setup order."
+      },
+      "layouts": [
+        { "label": "Layout 1", "codes": { "asia": "EFO012O9A5u2UE850e6Oo", "naeu": "EFO01U4Ai0a538OE476a8" } }
+      ]
+    }
+  ]
+}

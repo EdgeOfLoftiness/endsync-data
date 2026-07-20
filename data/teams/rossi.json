@@ -1,0 +1,1443 @@
+{
+ "label": "ROSSI",
+ "guideCharId": "rossi",
+ "needsReview": "Contenido por verificar — info del creador pendiente. Se removieron mecánicas específicas inventadas (conteos de stacks, etc.).",
+ "tagline": {
+  "es": "Sub-DPS híbrida única. Convierte Arts Inflictions en Physical Statuses y aplica Razor Clawmark para aumentar el daño del equipo entero.",
+  "en": "Unique hybrid sub-DPS. Converts Arts Inflictions into Physical Statuses and applies Razor Clawmark to buff the entire team's damage."
+ },
+ "comps": [
+  {
+   "name": {
+    "es": "YZ-月咒 - Burning Sequence",
+    "en": "YZ-月咒 - Burning Sequence"
+   },
+   "subtitle": {
+    "es": "Wulfgard · Pogranichnik · Gilberta",
+    "en": "Wulfgard · Pogranichnik · Gilberta"
+   },
+   "blurb": {
+    "es": "Comp física de altísimo techo sobre una sola cadena de combos continua: predecible y satisfactoria, pero exige timings exactos y esquivar.",
+    "en": "Very-high-ceiling physical comp on a single continuous combo chain: predictable and satisfying, but demands exact timings and dodging."
+   },
+   "guideVideoId": "ro3",
+   "simple": {
+    "whatItDoes": {
+     "es": "Daño alto a un solo objetivo construido alrededor de Rossi. Repites siempre la misma secuencia de combos: Pogranichnik abre y reparte SP, Wulfgard y Gilberta encadenan, y Rossi remata con su Ultimate. Una vez te la aprendes sale casi sola — eso sí, no hay healer de verdad, así que esquiva.",
+     "en": "High single-target damage built around Rossi. You always repeat the same combo sequence: Pogranichnik opens and hands out SP, Wulfgard and Gilberta chain into each other, and Rossi finishes with her Ultimate. Once you've learned it, it almost plays itself — just keep in mind there's no real healer, so dodge."
+    },
+    "steps": [
+     {
+      "who": "pogranichnik",
+      "do": {
+       "es": "Abre con la Ultimate de Pogranichnik. Es lo que mantiene el SP del equipo durante toda la pelea.",
+       "en": "Open with Pogranichnik's Ultimate. It's what keeps the team's SP up for the whole fight."
+      }
+     },
+     {
+      "who": "wulfgard",
+      "do": {
+       "es": "Con Wulfgard: Battle Skill, luego Combo Skill, y corta ese Combo con su Ultimate mientras todavía está en el aire. Eso dispara solo el Combo de Gilberta.",
+       "en": "With Wulfgard: Battle Skill, then Combo Skill, and cut that Combo with his Ultimate while he's still in the air. That triggers Gilberta's Combo on its own."
+      }
+     },
+     {
+      "who": "rossi",
+      "do": {
+       "es": "Con Rossi: Battle Skill para marcar al jefe, luego Combo Skill. En el segundo golpe, espera a que el icono se ponga DORADO antes de pulsar.",
+       "en": "With Rossi: Battle Skill to mark the boss, then Combo Skill. On the second hit, wait for the icon to turn GOLD before you press."
+      }
+     },
+     {
+      "who": "rossi",
+      "do": {
+       "es": "Rossi salta al aire: ahí lanzas la Ultimate de Gilberta y enseguida la Ultimate de Rossi, una detrás de otra.",
+       "en": "Rossi jumps into the air: that's when you fire Gilberta's Ultimate and then Rossi's Ultimate, back to back."
+      }
+     },
+     {
+      "who": "wulfgard",
+      "do": {
+       "es": "Durante la Ulti de Rossi se ilumina la Battle Skill mejorada de Wulfgard — úsala para limpiar el fuego del jefe. El Combo de Pogranichnik se encadena solo.",
+       "en": "During Rossi's Ult, Wulfgard's enhanced Battle Skill lights up — use it to clear the fire off the boss. Pogranichnik's Combo chains in on its own."
+      }
+     },
+     {
+      "do": {
+       "es": "Repite la secuencia. Cuando las Ultis de Gilberta y Rossi no estén listas, haz lo mismo sin ellas hasta que recarguen.",
+       "en": "Repeat the sequence. When Gilberta's and Rossi's Ults aren't ready, do the same thing without them until they recharge."
+      }
+     }
+    ],
+    "gear": [
+     {
+      "id": "rossi",
+      "line": {
+       "es": "Build de crítico. Su arma promocional, Lupine Scarlet, es lo ideal; si no la tienes, Glorious Memory cumple.",
+       "en": "Crit build. Her signature weapon, Lupine Scarlet, is ideal; if you don't have it, Glorious Memory does the job."
+      }
+     },
+     {
+      "id": "wulfgard",
+      "line": {
+       "es": "Piezas Redeemer sueltas. Lo único que importa en él es la recarga de Ultimate.",
+       "en": "Loose Redeemer pieces. The only thing that matters on him is Ultimate recharge."
+      }
+     },
+     {
+      "id": "pogranichnik",
+      "line": {
+       "es": "Set Frontiers (3 piezas). Su arma promocional, Thermite Cutter, es la que sostiene el SP del equipo.",
+       "en": "Frontiers set (3 pieces). His signature weapon, Thermite Cutter, is what sustains the team's SP."
+      }
+     },
+     {
+      "id": "gilberta",
+      "line": {
+       "es": "Set Eternal Xiranite (3 piezas): buffea a todo el equipo cuando usa su Ultimate.",
+       "en": "Eternal Xiranite set (3 pieces): buffs the whole team when she uses her Ultimate."
+      }
+     }
+    ]
+   },
+   "overview": {
+    "es": "Comp de altísimo ceiling construida alrededor de una sola secuencia continua de combos. Pogranichnik genera SP en bucle, Wulfgard alimenta el Burning Effect que dispara el talento Seething Blood de Rossi, y Gilberta cose toda la cadena: aplica los estados que Pogranichnik rompe y permite el cancel aéreo que abre el burst. La rotación es siempre la misma — predecible y satisfactoria una vez mecanizada, pero exige timings exactos y esquive constante porque no hay healer real.",
+    "en": "Very-high-ceiling comp built around a single continuous combo sequence. Pogranichnik loops SP, Wulfgard fuels the Burning Effect that powers Rossi's Seething Blood talent, and Gilberta stitches the chain together: she applies the statuses Pogranichnik breaks and enables the mid-air cancel that opens the burst. The rotation is always the same — predictable and satisfying once you've drilled it, but it demands exact timings and constant dodging because there's no real healer."
+   },
+   "playstyle": {
+    "difficulty": {
+     "es": "Alta",
+     "en": "High"
+    },
+    "content": {
+     "es": "Boss / Single-target",
+     "en": "Boss / Single-target"
+    },
+    "tags": [
+     {
+      "es": "Hybrid DMG",
+      "en": "Hybrid DMG"
+     },
+     {
+      "es": "Secuencia fija",
+      "en": "Fixed sequence"
+     },
+     {
+      "es": "Cancel aéreo",
+      "en": "Mid-air cancel"
+     },
+     {
+      "es": "Stagger alto",
+      "en": "High stagger"
+     },
+     {
+      "es": "Sin healer",
+      "en": "Healer-less"
+     }
+    ]
+   },
+   "pros": [
+    {
+     "es": "DMG ceiling muy alto — cuando la secuencia se ejecuta limpia, el output supera al de comps más simples.",
+     "en": "Very high damage ceiling — clean execution outpaces simpler comps."
+    },
+    {
+     "es": "Rotación encadenada: los combos salen casi solos una vez aprendida la secuencia.",
+     "en": "Chained rotation: combos almost flow on their own once the sequence is learned."
+    },
+    {
+     "es": "Wulfgard mantiene Burning Effect constante, lo que permite a Rossi exprimir al máximo el talento Seething Blood durante todo el burst.",
+     "en": "Wulfgard keeps Burning Effect up constantly, letting Rossi fully exploit her Seething Blood talent throughout the burst."
+    },
+    {
+     "es": "Capacidad de stagger del equipo muy alta — abre ventanas largas de DPS contra bosses.",
+     "en": "Very high team stagger — opens long DPS windows on bosses."
+    },
+    {
+     "es": "La Ultimate de Gilberta amplifica el burst general por la Susceptibility que aplica al equipo entero.",
+     "en": "Gilberta's Ultimate amplifies the overall burst through the Susceptibility she applies to the entire team."
+    },
+    {
+     "es": "Una vez dominada la secuencia el equipo se vuelve fácil de controlar y satisfactorio de jugar.",
+     "en": "Once the sequence is mastered, the team becomes easy to control and satisfying to play."
+    }
+   ],
+   "cons": [
+    {
+     "es": "La rotación no para de principio a fin — los timings y el esquive durante la cadena son más exigentes que la media.",
+     "en": "The rotation never stops start-to-finish — timings and dodging during the chain are more demanding than average."
+    },
+    {
+     "es": "Sin curación real: Gilberta solo cura cuando golpea a 2 o más enemigos al mismo tiempo con Battle Skill o Combo Skill.",
+     "en": "No real healing: Gilberta only heals when she hits 2 or more enemies at once with Battle Skill or Combo Skill."
+    },
+    {
+     "es": "Una sola secuencia para toda la rotación = equipo predecible. Quien busca improvisar no lo disfrutará.",
+     "en": "One sequence for the entire rotation = predictable team. Players who want to improvise won't enjoy it."
+    },
+    {
+     "es": "Curva de aprendizaje por encima de la media — está pensado para quienes buscan algo más difícil de jugar.",
+     "en": "Above-average learning curve — built for players looking for something harder to play."
+    }
+   ],
+   "whyItWorks": [
+    {
+     "icon": "",
+     "title": {
+      "es": "Ulti de Pogranichnik = motor de SP",
+      "en": "Pogranichnik Ultimate = SP engine"
+     },
+     "body": {
+      "es": "Siempre se abre con la Ultimate de Pog: dura 30 segundos y las primeras 5 aplicaciones de status físico que hace el equipo durante ese tiempo devuelven SP. Esto es lo que paga toda la cadena posterior — sin esta ventana, la rotación se queda sin recursos.",
+      "en": "Always open with Pog's Ultimate: it lasts 30 seconds and the team's first 5 physical status applications during that window return SP. That's what funds the rest of the chain — without this opening window, the rotation runs out of resources."
+     }
+    },
+    {
+     "icon": "",
+     "title": {
+      "es": "Cancel aéreo Wulfgard ↔ Gilberta",
+      "en": "Mid-air cancel Wulfgard ↔ Gilberta"
+     },
+     "body": {
+      "es": "El truco central de la comp: cortar el Combo Skill de Wulfgard con su Ultimate mientras él aún está en el aire dispara automáticamente el Combo Skill de Gilberta. Es el mecanismo que conecta a los dos sub-DPS y lo que habilita el sandwich de Ultimates que abre el burst.",
+      "en": "The comp's central trick: cutting Wulfgard's Combo Skill with his Ultimate while he's still in the air automatically triggers Gilberta's Combo Skill. It's the mechanism that connects the two sub-DPS and what enables the Ultimate sandwich that opens the burst."
+     }
+    },
+    {
+     "icon": "",
+     "title": {
+      "es": "Burning Effect aprovecha el talento de Rossi",
+      "en": "Burning Effect feeds Rossi's talent"
+     },
+     "body": {
+      "es": "Wulfgard mantiene Burning Effect activo en el jefe durante todo el burst. Eso significa que Seething Blood, el talento clave de Rossi, está activo durante cada ataque de la cadena — la diferencia entre un buen burst y el techo real de daño de la comp.",
+      "en": "Wulfgard keeps Burning Effect up on the boss throughout the burst. That means Seething Blood, Rossi's key talent, is active during every attack in the chain — the difference between a good burst and the comp's actual damage ceiling."
+     }
+    },
+    {
+     "icon": "",
+     "title": {
+      "es": "Pipeline durante el cast de la Ulti de Rossi",
+      "en": "Pipeline during Rossi's Ultimate cast"
+     },
+     "body": {
+      "es": "Una sola Ultimate de Rossi dispara tres reacciones en cadena: rompe los 4 stacks físicos que Pogranichnik dejó con su BS (eso activa el Combo de Pog) y deja un buff de fuego en el jefe que ilumina la versión Enhanced de la BS de Wulfgard. Las tres cosas se ejecutan durante el cast, no después.",
+      "en": "A single Rossi Ultimate triggers three chained reactions: it breaks the 4 physical stacks Pogranichnik dropped with his BS (which fires Pog's Combo) and leaves a fire buff on the boss that lights up Wulfgard's Enhanced BS. All three resolve during the cast, not after."
+     }
+    },
+    {
+     "icon": "",
+     "title": {
+      "es": "Stagger combinado del equipo",
+      "en": "Combined team stagger"
+     },
+     "body": {
+      "es": "Pogranichnik + Rossi + Wulfgard apilan stagger pesado en muy poco tiempo. Esto abre ventanas largas donde el boss queda staggered y el equipo puede atacar sin interrupciones, multiplicando el daño efectivo del burst.",
+      "en": "Pogranichnik + Rossi + Wulfgard stack heavy stagger in a very short window. That opens long stretches where the boss is staggered and the team can attack without interruption, multiplying the burst's effective damage."
+     }
+    }
+   ],
+   "rotation": [
+    {
+     "phase": {
+      "es": "Apertura — Ulti de Pogranichnik",
+      "en": "Opener — Pogranichnik Ultimate"
+     },
+     "action": {
+      "es": "Siempre se empieza con la Ultimate de Pogranichnik. Dura 30 segundos y abre la ventana de SP que paga el resto de la cadena.",
+      "en": "Always open with Pogranichnik's Ultimate. It lasts 30 seconds and opens the SP window that pays for the rest of the chain."
+     },
+     "steps": [
+      {
+       "do": {
+        "es": "Pogranichnik Ultimate",
+        "en": "Pogranichnik Ultimate"
+       },
+       "note": {
+        "es": "Las primeras 5 aplicaciones de status físico que haga el equipo durante estos 30s recuperan SP.",
+        "en": "The team's first 5 physical-status applications during these 30s recover SP."
+       }
+      }
+     ]
+    },
+    {
+     "phase": {
+      "es": "Cancel aéreo de Wulfgard → Combo de Gilberta",
+      "en": "Wulfgard mid-air cancel → Gilberta Combo"
+     },
+     "action": {
+      "es": "Cadena de Wulfgard que termina con su Ultimate cancelando el Combo Skill en el aire. Esto dispara automáticamente el Combo Skill de Gilberta.",
+      "en": "Wulfgard chain that ends by cancelling his Combo Skill mid-air with his Ultimate. That automatically triggers Gilberta's Combo Skill."
+     },
+     "steps": [
+      {
+       "do": {
+        "es": "Wulfgard Battle Skill",
+        "en": "Wulfgard Battle Skill"
+       }
+      },
+      {
+       "do": {
+        "es": "Wulfgard Combo Skill",
+        "en": "Wulfgard Combo Skill"
+       }
+      },
+      {
+       "do": {
+        "es": "Cancela el Combo Skill de Wulfgard con su Ultimate — la ulti tiene que salir mientras Wulfgard aún está en el aire.",
+        "en": "Cancel Wulfgard's Combo Skill with his Ultimate — the ulti has to come out while Wulfgard is still in the air."
+       },
+       "key": true
+      },
+      {
+       "do": {
+        "es": "Tras la Ultimate de Wulfgard se activa automáticamente el Combo Skill de Gilberta.",
+        "en": "Wulfgard's Ultimate automatically triggers Gilberta's Combo Skill."
+       }
+      },
+      {
+       "do": {
+        "es": "Verificación: el Combo Skill de Wulfgard debería volver a activarse inmediatamente después del de Gilberta. Si pasa, la secuencia está bien ejecutada.",
+        "en": "Sanity check: Wulfgard's Combo Skill should fire again immediately after Gilberta's. If it does, the sequence was executed correctly."
+       }
+      }
+     ],
+     "tip": {
+      "es": "Para que la siguiente fase funcione, la Ultimate de Gilberta tiene que estar lista al terminar esta cadena.",
+      "en": "For the next phase to work, Gilberta's Ultimate must be ready by the end of this chain."
+     }
+    },
+    {
+     "phase": {
+      "es": "Rossi — Razor Clawmark + Combo",
+      "en": "Rossi — Razor Clawmark + Combo"
+     },
+     "action": {
+      "es": "Marca al jefe con Razor Clawmark y entra en el Combo Skill de Rossi. El timing del segundo ataque es el único punto delicado.",
+      "en": "Mark the boss with Razor Clawmark and enter Rossi's Combo Skill. The timing of the second attack is the only delicate point."
+     },
+     "steps": [
+      {
+       "do": {
+        "es": "Rossi Battle Skill — deja la marca de Razor Clawmark en el jefe.",
+        "en": "Rossi Battle Skill — drops the Razor Clawmark on the boss."
+       }
+      },
+      {
+       "do": {
+        "es": "Rossi Combo Skill — primer ataque.",
+        "en": "Rossi Combo Skill — first hit."
+       }
+      },
+      {
+       "do": {
+        "es": "Cuando aparezca el segundo ataque del Combo, espera a que el icono se ponga DORADO antes de presionar. No antes.",
+        "en": "When the second hit prompt appears, wait for the icon to turn GOLD before pressing. Not before."
+       },
+       "key": true
+      },
+      {
+       "do": {
+        "es": "Al terminar ese ataque, Rossi salta al aire — esa es la señal para la siguiente fase.",
+        "en": "When the hit ends, Rossi jumps into the air — that's the cue for the next phase."
+       }
+      }
+     ]
+    },
+    {
+     "phase": {
+      "es": "Doble Ultimate + pipeline en el cast",
+      "en": "Double Ultimate + in-cast pipeline"
+     },
+     "action": {
+      "es": "Con Rossi en el aire, lanza Gilberta Ulti → Rossi Ulti. Durante el cast de Rossi se ejecutan en cadena el Combo de Pog y la Enhanced BS de Wulfgard — no esperes a que el cast termine.",
+      "en": "With Rossi airborne, fire Gilberta Ulti → Rossi Ulti. During Rossi's cast you chain Pog's Combo and Wulfgard's Enhanced BS — don't wait for the cast to finish."
+     },
+     "steps": [
+      {
+       "do": {
+        "es": "Con Rossi todavía en el aire, lanza la Ultimate de Gilberta INMEDIATAMENTE seguida de la Ultimate de Rossi.",
+        "en": "With Rossi still in the air, fire Gilberta's Ultimate IMMEDIATELY followed by Rossi's Ultimate."
+       },
+       "key": true
+      },
+      {
+       "do": {
+        "es": "La Ultimate de Rossi rompe los 4 stacks físicos que Pogranichnik dejó con su BS → eso activa automáticamente el Combo Skill de Pogranichnik.",
+        "en": "Rossi's Ultimate breaks the 4 physical stacks Pogranichnik left with his BS → that automatically triggers Pogranichnik's Combo Skill."
+       },
+       "note": {
+        "es": "Esto ocurre DURANTE el cast de la Ulti de Rossi, no después. No hace falta esperar.",
+        "en": "This happens DURING Rossi's Ulti cast, not after. No need to wait."
+       }
+      },
+      {
+       "do": {
+        "es": "El jefe queda con un buff de fuego en él — la versión Enhanced de la Battle Skill de Wulfgard se ilumina.",
+        "en": "The boss now has a fire buff on it — Wulfgard's Enhanced Battle Skill lights up."
+       }
+      },
+      {
+       "do": {
+        "es": "Usa la Enhanced BS de Wulfgard para limpiar el buff de fuego del jefe.",
+        "en": "Use Wulfgard's Enhanced BS to clean the fire buff off the boss."
+       },
+       "key": true,
+       "note": {
+        "es": "También durante el cast de la Ulti de Rossi. Espera a que el icono de la BS se ilumine antes de presionar.",
+        "en": "Also during Rossi's Ulti cast. Wait for the BS icon to light up before pressing."
+       }
+      }
+     ],
+     "tip": {
+      "es": "Esto cierra el burst completo con todas las Ultimates cargadas. A partir de aquí entras al ciclo de recarga.",
+      "en": "This closes the full burst with all Ultimates spent. From here you enter the recharge cycle."
+     }
+    }
+   ],
+   "rotationVariants": [
+    {
+     "name": {
+      "es": "Ciclo de recarga (entre bursts)",
+      "en": "Recharge cycle (between bursts)"
+     },
+     "description": {
+      "es": "Misma secuencia que el burst, pero sin las Ultimates de Gilberta y Rossi (no están listas todavía). La Ultimate de Wulfgard sí se sigue casteando — en esta build su recarga de energía es especialmente rápida y mantiene el flujo. Al terminar, no hace falta limpiar el buff de fuego con la Enhanced BS de Wulfgard porque la Ulti de Rossi no se lanzó.",
+      "en": "Same sequence as the burst, but without Gilberta's and Rossi's Ultimates (not ready yet). Wulfgard's Ultimate still keeps casting — in this build his energy recharge is especially fast and keeps the flow alive. At the end, no need to clean the fire buff with Wulfgard's Enhanced BS because Rossi's Ulti never fired."
+     },
+     "phases": [
+      {
+       "phase": {
+        "es": "Wulfgard chain (igual al burst)",
+        "en": "Wulfgard chain (same as burst)"
+       },
+       "action": {
+        "es": "Wulfgard BS → Combo Skill → cancel aéreo con su Ultimate (esta sí está lista). Esto vuelve a disparar el Combo de Gilberta.",
+        "en": "Wulfgard BS → Combo Skill → mid-air cancel with his Ultimate (this one IS ready). That triggers Gilberta's Combo again."
+       },
+       "steps": [
+        {
+         "do": {
+          "es": "Wulfgard BS",
+          "en": "Wulfgard BS"
+         }
+        },
+        {
+         "do": {
+          "es": "Habilidad de combo",
+          "en": "Combo Skill",
+          "jp": "連携技",
+          "zh": "连携技"
+         }
+        },
+        {
+         "do": {
+          "es": "Cancel aéreo con su Ultimate.",
+          "en": "Mid-air cancel with his Ultimate."
+         },
+         "key": true,
+         "note": {
+          "es": "Esta sí está lista. Esto vuelve a disparar el Combo de Gilberta.",
+          "en": "This one IS ready. That triggers Gilberta's Combo again."
+         }
+        }
+       ]
+      },
+      {
+       "phase": {
+        "es": "Rossi — BS + Combo (sin Ulti al final)",
+        "en": "Rossi — BS + Combo (no Ulti at the end)"
+       },
+       "action": {
+        "es": "Rossi Battle Skill → Combo Skill (mismo timing dorado en el segundo ataque). NO se lanza la Ulti de Rossi porque no está cargada.",
+        "en": "Rossi Battle Skill → Combo Skill (same golden-timing on the second hit). DON'T fire Rossi's Ulti — it isn't ready."
+       },
+       "steps": [
+        {
+         "do": {
+          "es": "Rossi Battle Skill",
+          "en": "Rossi Battle Skill"
+         }
+        },
+        {
+         "do": {
+          "es": "Habilidad de combo",
+          "en": "Combo Skill",
+          "jp": "連携技",
+          "zh": "连携技"
+         },
+         "note": {
+          "es": "Mismo timing dorado en el segundo ataque.",
+          "en": "Same golden-timing on the second hit."
+         }
+        },
+        {
+         "do": {
+          "es": "NO se lanza la Ulti de Rossi.",
+          "en": "DON'T fire Rossi's Ulti."
+         },
+         "key": true,
+         "note": {
+          "es": "No está cargada.",
+          "en": "It isn't ready."
+         }
+        }
+       ]
+      },
+      {
+       "phase": {
+        "es": "Pogranichnik cierra la secuencia",
+        "en": "Pogranichnik closes the sequence"
+       },
+       "action": {
+        "es": "Pogranichnik BS + Combo Skill como cierre. Sin la Ulti de Rossi no hay que limpiar el fire buff con la Enhanced BS de Wulfgard — todo lo demás es exactamente igual.",
+        "en": "Pogranichnik BS + Combo Skill as the closer. Without Rossi's Ulti there's no fire buff to clean with Wulfgard's Enhanced BS — everything else is exactly the same."
+       },
+       "steps": [
+        {
+         "do": {
+          "es": "Pogranichnik BS",
+          "en": "Pogranichnik BS"
+         }
+        },
+        {
+         "do": {
+          "es": "Combo Skill como cierre.",
+          "en": "Combo Skill as the closer."
+         }
+        },
+        {
+         "do": {
+          "es": "Sin la Ulti de Rossi, no hay que limpiar el fire buff con la Enhanced BS de Wulfgard.",
+          "en": "Without Rossi's Ulti there's no fire buff to clean with Wulfgard's Enhanced BS."
+         },
+         "note": {
+          "es": "Todo lo demás es exactamente igual.",
+          "en": "Everything else is exactly the same."
+         }
+        }
+       ],
+       "tip": {
+        "es": "Al terminar esta vuelta, las Ultimates de Gilberta y Rossi vuelven a estar listas. Vuelves al burst principal.",
+        "en": "After this loop ends, Gilberta's and Rossi's Ultimates are ready again. You go back to the main burst."
+       }
+      }
+     ]
+    },
+    {
+     "name": {
+      "es": "Cold start (sin Ultimates cargadas)",
+      "en": "Cold start (no Ultimates charged)"
+     },
+     "description": {
+      "es": "Para cuando entras al fight sin energía en las Ultimates (solo Pog tiene la suya disponible al inicio). Sin la Ulti de Wulfgard no hay forma de activar el Combo Skill de Gilberta vía cancel aéreo, así que la primera vuelta usa una versión comprimida del combo.",
+      "en": "For when you enter the fight without Ultimate energy (only Pog has his available at start). Without Wulfgard's Ulti there's no way to trigger Gilberta's Combo Skill via the mid-air cancel, so the first loop uses a compressed version of the combo."
+     },
+     "phases": [
+      {
+       "phase": {
+        "es": "Primera vuelta comprimida",
+        "en": "Compressed first loop"
+       },
+       "action": {
+        "es": "Sin cancel aéreo y sin doble ulti. Apilas los 4 stacks físicos con la BS de Pog y los rompes inmediatamente con su Combo.",
+        "en": "No mid-air cancel and no double-ulti. You stack the 4 physical statuses with Pog's BS and break them immediately with his Combo."
+       },
+       "steps": [
+        {
+         "do": {
+          "es": "Wulfgard Battle Skill",
+          "en": "Wulfgard Battle Skill"
+         }
+        },
+        {
+         "do": {
+          "es": "Wulfgard Combo Skill",
+          "en": "Wulfgard Combo Skill"
+         }
+        },
+        {
+         "do": {
+          "es": "Rossi Battle Skill",
+          "en": "Rossi Battle Skill"
+         }
+        },
+        {
+         "do": {
+          "es": "Rossi Combo Skill — segundo ataque solo cuando el icono se ponga dorado.",
+          "en": "Rossi Combo Skill — second hit only when the icon turns gold."
+         }
+        },
+        {
+         "do": {
+          "es": "En este punto el jefe tiene 4 stacks de status físico.",
+          "en": "At this point the boss has 4 physical-status stacks."
+         }
+        },
+        {
+         "do": {
+          "es": "Pogranichnik Battle Skill",
+          "en": "Pogranichnik Battle Skill"
+         }
+        },
+        {
+         "do": {
+          "es": "Pogranichnik Combo Skill — cierre de la vuelta.",
+          "en": "Pogranichnik Combo Skill — close the loop."
+         }
+        }
+       ]
+      },
+      {
+       "phase": {
+        "es": "Vueltas siguientes",
+        "en": "Following loops"
+       },
+       "action": {
+        "es": "Desde aquí sigues con la rotación normal pero SIN la Ultimate de Pogranichnik (ya la gastaste). Todo lo demás idéntico a empezar con Ultis cargadas.",
+        "en": "From here you continue with the normal rotation but WITHOUT Pogranichnik's Ultimate (you already spent it). Everything else identical to starting with Ultis ready."
+       },
+       "steps": [
+        {
+         "do": {
+          "es": "Desde aquí sigues con la rotación normal.",
+          "en": "From here you continue with the normal rotation."
+         },
+         "note": {
+          "es": "Todo lo demás idéntico a empezar con Ultis cargadas.",
+          "en": "Everything else identical to starting with Ultis ready."
+         }
+        },
+        {
+         "do": {
+          "es": "SIN la Ultimate de Pogranichnik.",
+          "en": "WITHOUT Pogranichnik's Ultimate."
+         },
+         "key": true,
+         "note": {
+          "es": "Ya la gastaste.",
+          "en": "You already spent it."
+         }
+        }
+       ],
+       "tip": {
+        "es": "Rossi necesita un mínimo de recarga de Ultimate para que vuelva a estar lista a tiempo en la próxima vuelta — la armadura recomendada en la sección de equipamiento ya cubre ese mínimo.",
+        "en": "Rossi needs a minimum of Ultimate recharge so it's ready again on the next loop — the armor recommended in the equipment section already covers that minimum."
+       }
+      }
+     ]
+    }
+   ],
+   "skillPriority": [
+    {
+     "charId": "rossi",
+     "order": "S3 > S2 > S1",
+     "note": {
+      "es": "S3 (Ultimate) es el centro del burst. S2 (Combo Skill) es el payoff del set-up. S1 (Battle Skill) habilita Razor Clawmark.",
+      "en": "S3 (Ultimate) is the heart of the burst. S2 (Combo Skill) is the setup payoff. S1 (Battle Skill) enables Razor Clawmark."
+     }
+    },
+    {
+     "charId": "wulfgard",
+     "order": "S2 > S1 > S3",
+     "note": {
+      "es": "S2 para la frecuencia de Combo Skill (la pieza del cancel aéreo). S1 para mantener Burning Effect. S3 último, pero su Ulti se sigue casteando en el ciclo de recarga.",
+      "en": "S2 for Combo Skill frequency (the mid-air cancel piece). S1 to keep Burning Effect up. S3 last, but his Ulti still keeps casting during the recharge cycle."
+     }
+    },
+    {
+     "charId": "pogranichnik",
+     "order": "S1 > S2 > S3",
+     "note": {
+      "es": "S1 para aplicar status físico más rápido. S2 para más daño durante la ventana de Breach. S3 último.",
+      "en": "S1 to apply physical statuses faster. S2 for more damage during the Breach window. S3 last."
+     }
+    },
+    {
+     "charId": "gilberta",
+     "order": "S1 > S2 > S3",
+     "note": {
+      "es": "S1 para reducir cooldown del Battle Skill (Arts Infliction). S2 (Combo Skill) se activa por el cancel aéreo, no por SP. S3 da la Susceptibility del burst.",
+      "en": "S1 to reduce the Battle Skill cooldown (Arts Infliction). S2 (Combo Skill) is triggered by the mid-air cancel, not by SP. S3 provides the burst's Susceptibility."
+     }
+    }
+   ],
+   "pitfalls": [
+    {
+     "es": "Lanzar la Ultimate de Wulfgard DESPUÉS de que termine su Combo Skill — la ulti tiene que salir mientras él está en el aire, si no, no se dispara el Combo de Gilberta.",
+     "en": "Firing Wulfgard's Ultimate AFTER his Combo Skill ends — the ulti has to come out while he's still airborne, otherwise it won't trigger Gilberta's Combo."
+    },
+    {
+     "es": "Apretar el segundo ataque del Combo Skill de Rossi antes de que el icono se ponga dorado — pierdes el hit reforzado y desincronizas el salto al aire.",
+     "en": "Pressing Rossi's Combo Skill second hit before the icon turns gold — you lose the reinforced hit and break the timing of the air launch."
+    },
+    {
+     "es": "Llegar a la Fase 4 sin la Ultimate de Gilberta lista — sin ella no hay sandwich de Ultis y la cadena de pipeline durante el cast de Rossi se rompe.",
+     "en": "Reaching Phase 4 without Gilberta's Ultimate ready — without it there's no Ulti sandwich and the pipeline chain during Rossi's cast falls apart."
+    },
+    {
+     "es": "Esperar a que termine el cast de la Ultimate de Rossi para usar la Enhanced BS de Wulfgard o el Combo de Pog — todo eso se hace DURANTE el cast, no después.",
+     "en": "Waiting for Rossi's Ultimate cast to finish before using Wulfgard's Enhanced BS or Pog's Combo — all of that resolves DURING the cast, not after."
+    },
+    {
+     "es": "Intentar la rotación sin sustain de mapa o sin esquivar bien — no hay healer real, cada hit recibido cuesta.",
+     "en": "Running the rotation without map sustain or active dodging — there's no real healer, every hit taken costs."
+    }
+   ],
+   "vsOtherComps": [],
+   "members": [
+    {
+     "id": "rossi",
+     "role": "Carry",
+     "weaponId": "wpn_sword_0022",
+     "gearRec": [
+      "mi_security_armor_t1",
+      "redeemer_gloves",
+      "mi_security_scope_t1",
+      "mi_security_scope_t1"
+     ],
+     "weaponNote": {
+      "es": "Lupine Scarlet 6★ es el arma promocional de Rossi y BIS absoluto en esta comp. Glorious Memory 6★ es la alternativa más cercana — convierte cada aplicación de Vulnerability en buff de DMG para la próxima Ulti.",
+      "en": "Lupine Scarlet 6★ is Rossi's signature weapon and absolute BIS in this comp. Glorious Memory 6★ is the closest alternative — converts every Vulnerability application into a DMG buff for the next Ult."
+     },
+     "gearNote": {
+      "es": "Variante 1 (BIS): MI Security Armor T1 + Redeemer Gloves + 2× MI Security Scope T1. Activa el set 3pc de MI Security (crits) con dos kits que escalan Battle Skill DMG y Crit Rate. Variante 2: cambia Redeemer Gloves por MI Security Gloves T1 y uno de los Scope por Type 50 Yinglung Radar T1 — pierde un poco de pico de Ulti pero gana DMG sostenido del set Yinglung en el Combo Skill.",
+      "en": "Variant 1 (BIS): MI Security Armor T1 + Redeemer Gloves + 2× MI Security Scope T1. Activates the MI Security 3pc set (crits) with two kits scaling Battle Skill DMG and Crit Rate. Variant 2: swap Redeemer Gloves for MI Security Gloves T1 and one Scope for Type 50 Yinglung Radar T1 — gives up a bit of Ulti peak but gains sustained Combo Skill DMG from the Yinglung set."
+     },
+     "deepNote": {
+      "es": "Rossi es la carry y el eje completo de la comp: todo el resto del equipo existe para que su burst salga sin cortes. Su kit gira alrededor de Razor Clawmark — la marca que pone su Battle Skill — que cubre simultáneamente el Heat DMG taken (para Wulfgard) y el Physical DMG taken (para ella misma). Su Combo Skill solo se activa si el jefe tiene Vulnerability + Arts Infliction al mismo tiempo, condición que el cancel aéreo Wulfgard→Gilberta garantiza siempre. Su Ultimate es Heat DMG y aplica Heat Infliction, así que el Burning Effect que mantiene Wulfgard funciona como combustible directo de Seething Blood, su talento clave que escala daño contra objetivos marcados. En la práctica, Seething Blood está activo durante toda la cadena de DPS, lo que multiplica el output sin que el jugador tenga que hacer nada extra. La única exigencia mecánica de su parte es el timing dorado del segundo ataque del Combo Skill: presionar antes mata el hit reforzado, presionar al dorado lanza a Rossi al aire y abre el sandwich de Ultis.",
+      "en": "Rossi is the carry and the whole axis of the comp: every other member exists so her burst can come out cleanly. Her kit revolves around Razor Clawmark — the mark her Battle Skill drops — which simultaneously covers Heat DMG taken (for Wulfgard) and Physical DMG taken (for herself). Her Combo Skill only activates if the boss has Vulnerability + Arts Infliction at the same time, a condition the Wulfgard→Gilberta mid-air cancel always guarantees. Her Ultimate deals Heat DMG and applies Heat Infliction, so Wulfgard's constant Burning Effect is direct fuel for Seething Blood, her key talent that scales damage against marked targets. In practice, Seething Blood stays active throughout the DPS chain, multiplying output without the player doing anything extra. The only mechanical demand from her is the golden timing on the second hit of Combo Skill: pressing too early kills the reinforced hit; pressing on gold launches Rossi airborne and opens the Ulti sandwich."
+     }
+    },
+    {
+     "id": "wulfgard",
+     "role": "Enabler",
+     "weaponId": "wpn_pistol_0009",
+     "gearRec": [
+      "redeemer_armor",
+      "lynx_gloves",
+      "redeemer_seal",
+      "redeemer_seal"
+     ],
+     "weaponNote": {
+      "es": "Clannibal 6★ es el arma promocional y la opción principal. OBJ Velocitous 5★ es la alternativa accesible si no tienes la promocional — pierde un poco de scaling pero mantiene el rol.",
+      "en": "Clannibal 6★ is the signature weapon and main pick. OBJ Velocitous 5★ is the accessible alternative if you don't have the signature — loses some scaling but keeps the role."
+     },
+     "gearNote": {
+      "es": "Redeemer Armor + LYNX Gloves + 2× Redeemer Seal. Es una build off-piece sin set 3pc: lo único que necesitamos de Wulfgard es que llegue al mínimo de recarga de energía para sostener su Ultimate en el ciclo. Las piezas Redeemer dan Ultimate Gain Efficiency en bruto.",
+      "en": "Redeemer Armor + LYNX Gloves + 2× Redeemer Seal. It's an off-piece build with no 3pc set: all we need from Wulfgard is enough energy recharge to sustain his Ultimate through the cycle. The Redeemer pieces give raw Ultimate Gain Efficiency."
+     },
+     "deepNote": {
+      "es": "Wulfgard cumple tres roles distintos al mismo tiempo y ninguno es opcional. Primero, es el enabler de Heat: su Battle Skill y los disparos cargados de Clannibal mantienen Burning Effect activo sobre el jefe sin parar, lo que deja el talento Seething Blood de Rossi siempre encendido. Segundo, es la mitad activa del cancel aéreo: su Combo Skill lo lanza al aire y la Ultimate, lanzada antes de que aterrice, dispara automáticamente el Combo de Gilberta. Sacarlo del equipo rompe el mecanismo completo. Tercero, es el operador de limpieza al final del burst: cuando la Ultimate de Rossi deja un buff de fuego en el jefe, la Enhanced Battle Skill de Wulfgard se ilumina y lo quita en el mismo cast — esto se ejecuta sin pausar la cadena. Toda su build se construye alrededor de una sola métrica: Ultimate Gain Efficiency. Su Ulti es lo que se sigue casteando incluso durante el ciclo de recarga, así que mientras llegue al mínimo de recarga, su contribución al equipo es completa.",
+      "en": "Wulfgard plays three different roles at the same time, and none of them is optional. First, he's the Heat enabler: his Battle Skill and Clannibal's charged shots keep Burning Effect up on the boss nonstop, which keeps Rossi's Seething Blood talent permanently lit. Second, he's the active half of the mid-air cancel: his Combo Skill launches him airborne and the Ultimate, fired before he lands, automatically triggers Gilberta's Combo. Remove him from the team and the entire mechanism breaks. Third, he's the cleanup operator at the end of the burst: when Rossi's Ultimate leaves a fire buff on the boss, Wulfgard's Enhanced Battle Skill lights up and removes it during the same cast — this resolves without pausing the chain. His whole build is shaped around a single metric: Ultimate Gain Efficiency. His Ulti is what keeps casting even during the recharge cycle, so as long as he hits the minimum recharge threshold, his contribution to the team is complete."
+     }
+    },
+    {
+     "id": "pogranichnik",
+     "role": "Buffer",
+     "weaponId": "wpn_sword_0012",
+     "gearRec": [
+      "frontiers_protection_suit",
+      "frontiers_blight_res_gloves",
+      "frontiers_o2_tube",
+      "redeemer_seal"
+     ],
+     "weaponNote": {
+      "es": "Thermite Cutter 6★ es el arma promocional — su passive de SP al aplicar Breach es lo que hace sostenible el ciclo. Alternativas: Eminent Repute 6★ (más daño bruto), Never Rest 6★ (escalado de Physical DMG por equipo), Fortmaker 5★ (opción accesible con Ultimate Gain Efficiency).",
+      "en": "Thermite Cutter 6★ is the signature weapon — its SP-on-Breach passive is what makes the cycle sustainable. Alternatives: Eminent Repute 6★ (raw damage), Never Rest 6★ (team-wide Physical DMG scaling), Fortmaker 5★ (accessible Ultimate Gain Eff option)."
+     },
+     "gearNote": {
+      "es": "Frontiers Protection Suit + Frontiers Blight RES Gloves + Frontiers O2 Tube + Redeemer Seal. Activa el set 3pc de Frontiers (Combo Skill CDR + buff de equipo al recuperar SP). El Redeemer Seal extra prioriza Ultimate Gain Efficiency para que la Ulti de Pog (el motor de SP) esté lista al abrir.",
+      "en": "Frontiers Protection Suit + Frontiers Blight RES Gloves + Frontiers O2 Tube + Redeemer Seal. Activates the Frontiers 3pc set (Combo Skill CDR + team buff when recovering SP). The extra Redeemer Seal prioritizes Ultimate Gain Efficiency so Pog's Ulti (the SP engine) is ready at the opener."
+     },
+     "deepNote": {
+      "es": "",
+      "en": ""
+     }
+    },
+    {
+     "id": "gilberta",
+     "role": "Enabler",
+     "weaponId": "wpn_funnel_0011",
+     "gearRec": [
+      "bonekrusha_poncho_t1",
+      "eternal_xiranite_gloves_t1",
+      "eternal_xiranite_auxiliary_arm",
+      "eternal_xiranite_auxiliary_arm"
+     ],
+     "weaponNote": {
+      "es": "Delivery Guaranteed 6★ es la opción principal — Nature DMG y buff de Arts DMG al equipo al aplicar Lifted. Alternativas: Stanza of Memorials 5★ (cross-element ATK buff de la Ulti) y OBJ Arts Identifier 5★ (buff de Heat/Electric tras Combo Skill, sinergiza con la Ulti de Rossi).",
+      "en": "Delivery Guaranteed 6★ is the main pick — Nature DMG plus team Arts DMG buff on Lifted application. Alternatives: Stanza of Memorials 5★ (cross-element ATK buff from her Ultimate) and OBJ Arts Identifier 5★ (Heat/Electric buff after Combo Skill, synergizes with Rossi's Ultimate)."
+     },
+     "gearNote": {
+      "es": "Bonekrusha Poncho T1 (armor con escalado de Ultimate Gain Eff) + Eternal Xiranite Gloves T1 + 2× Eternal Xiranite Auxiliary Arm. Activa el set 3pc de Eternal Xiranite: cuando Gilberta aplica Susceptibility, el resto del equipo gana DMG +16%. Es el set que la convierte en buff masivo en el sandwich de Ultis.",
+      "en": "Bonekrusha Poncho T1 (armor scaling Ultimate Gain Eff) + Eternal Xiranite Gloves T1 + 2× Eternal Xiranite Auxiliary Arm. Activates the Eternal Xiranite 3pc set: when Gilberta applies Susceptibility, the rest of the team gains DMG +16%. It's the set that turns her into a massive buff in the Ulti sandwich."
+     },
+     "deepNote": {
+      "es": "Gilberta es el tejido conectivo de la comp: la pieza que vuelve compatibles los kits de los otros tres. Aporta dos cosas distintas que son ambas indispensables. La primera es química: su Battle Skill aplica Arts Infliction y su Ultimate aplica Vulnerability, las dos condiciones simultáneas que el Combo Skill de Rossi exige para activarse. Sin Gilberta, el Combo Skill de Rossi simplemente no triggera y media rotación deja de funcionar. La segunda es mecánica: su Combo Skill se activa automáticamente cuando Wulfgard cancela su propio Combo en el aire con la Ultimate. Eso significa que el sandwich Wulfgard→Gilberta→Wulfgard que abre el burst depende literalmente de que ella esté en el equipo. Como bonus, su Ultimate aplica Susceptibility masiva al jefe en el momento en que se lanza, lo que multiplica el daño de todo el sandwich de Ultis siguiente (Gilberta Ulti → Rossi Ulti) y de las reacciones que se ejecutan durante el cast de Rossi. La curación que aporta es marginal y solo cuenta en pulls con varios enemigos juntos — no contar con ella para sustain real.",
+      "en": "Gilberta is the connective tissue of the comp: the piece that makes the other three kits compatible with each other. She brings two distinct things, both indispensable. The first is chemical: her Battle Skill applies Arts Infliction and her Ultimate applies Vulnerability, the two simultaneous conditions Rossi's Combo Skill requires to activate. Without Gilberta, Rossi's Combo Skill simply doesn't trigger and half the rotation stops working. The second is mechanical: her Combo Skill auto-fires when Wulfgard cancels his own Combo mid-air with his Ultimate. That means the Wulfgard→Gilberta→Wulfgard sandwich that opens the burst literally depends on her being on the team. As a bonus, her Ultimate applies massive Susceptibility on the boss the moment it's cast, multiplying the damage of the following Ulti sandwich (Gilberta Ulti → Rossi Ulti) and of the reactions that resolve during Rossi's cast. The healing she provides is marginal and only counts in pulls with multiple enemies together — don't rely on her for real sustain."
+     }
+    }
+   ],
+   "equipment": {
+    "intro": {
+     "es": "Esta comp está balanceada alrededor de dos ejes: Rossi escala con crits (set MI Security) y necesita peak de Ultimate DMG; el resto del equipo prioriza Ultimate Gain Efficiency para sostener el ciclo de la rotación. Pog usa Frontiers 3pc (Combo CDR + buff al recuperar SP), Gilberta usa Eternal Xiranite 3pc (buff de equipo al aplicar Susceptibility), y Wulfgard juega con off-pieces Redeemer para maximizar recarga sin perder tiempo en activar un set. El cancel aéreo y la cadena de pipeline durante la Ulti de Rossi no dependen de gear — son técnica — pero sin el mínimo de Ultimate Gain Eff en Wulfgard y Gilberta, la cadena no se sostiene entre vueltas.",
+     "en": "This comp balances around two axes: Rossi scales with crits (MI Security set) and needs peak Ultimate DMG; the rest of the team prioritizes Ultimate Gain Efficiency to sustain the rotation cycle. Pog uses Frontiers 3pc (Combo CDR + team buff on SP recovery), Gilberta uses Eternal Xiranite 3pc (team buff on Susceptibility application), and Wulfgard runs Redeemer off-pieces to maximize recharge without spending time activating a set. The mid-air cancel and the in-cast pipeline during Rossi's Ulti don't depend on gear — they're technique — but without the minimum Ultimate Gain Eff on Wulfgard and Gilberta, the chain doesn't sustain between loops."
+    },
+    "alts": [
+     {
+      "scenario": {
+       "es": "Rossi build alternativa (Variante 2)",
+       "en": "Rossi alternative build (Variant 2)"
+      },
+      "swap": {
+       "es": "Cambia Redeemer Gloves por MI Security Gloves T1 y un MI Security Scope T1 por Type 50 Yinglung Radar T1. Pierde un poco de Ulti DMG pico, gana DMG sostenido del set Yinglung en el Combo Skill — buena opción si en tu contenido habitual la Ulti de Rossi no es el 100% del output.",
+       "en": "Swap Redeemer Gloves for MI Security Gloves T1 and one MI Security Scope T1 for Type 50 Yinglung Radar T1. Gives up some Ulti DMG peak, gains sustained Combo Skill DMG from the Yinglung set — solid if Rossi's Ulti isn't 100% of the output in your usual content."
+      }
+     },
+     {
+      "scenario": {
+       "es": "Wulfgard sin la promocional Clannibal",
+       "en": "Wulfgard without Clannibal signature"
+      },
+      "swap": {
+       "es": "OBJ Velocitous 5★ como reemplazo accesible. La build off-piece Redeemer queda igual — la prioridad sigue siendo el mínimo de Ultimate Gain Efficiency para sostener su Ulti en el ciclo de recarga.",
+       "en": "OBJ Velocitous 5★ as the accessible replacement. The off-piece Redeemer build stays the same — priority is still the minimum Ultimate Gain Efficiency to sustain his Ulti through the recharge cycle."
+      }
+     },
+     {
+      "scenario": {
+       "es": "Pog sin Thermite Cutter",
+       "en": "Pog without Thermite Cutter"
+      },
+      "swap": {
+       "es": "Eminent Repute 6★ si priorizas daño bruto en los Combos, Never Rest 6★ si quieres que Pog aporte scaling de Physical DMG al equipo, o Fortmaker 5★ como opción accesible con Ultimate Gain Efficiency directo. El ciclo de Breach es más lento sin Thermite, pero la rotación sigue funcionando.",
+       "en": "Eminent Repute 6★ if you prioritize raw Combo damage, Never Rest 6★ if you want Pog to contribute team-wide Physical DMG scaling, or Fortmaker 5★ as the accessible option with direct Ultimate Gain Efficiency. The Breach cycle is slower without Thermite, but the rotation still works."
+      }
+     },
+     {
+      "scenario": {
+       "es": "Gilberta con armas alternativas",
+       "en": "Gilberta with alternative weapons"
+      },
+      "swap": {
+       "es": "Stanza of Memorials 5★ si quieres que el ATK buff de su Ulti llegue a Rossi (es cross-element). OBJ Arts Identifier 5★ si quieres el buff de Heat/Electric tras Combo Skill — sinergiza directo con la Ulti de Rossi.",
+       "en": "Stanza of Memorials 5★ if you want her Ulti's ATK buff to reach Rossi (it's cross-element). OBJ Arts Identifier 5★ if you want the Heat/Electric buff after Combo Skill — synergizes directly with Rossi's Ulti."
+      }
+     }
+    ]
+   },
+   "rotationCode": "AQXBSwqAIBAA0AvNYsYibLaDFwg8gP1MEg0r2ohn772Jam1X9sWlsBwpnGxBOsT2vXH3rqxsegQBCwJGKd18iPNWHsdChGBpxFbyfQc2pBFEIdgBfw"
+  },
+  {
+   "name": {
+    "es": "Maygi - Arts (Antal)",
+    "en": "Maygi - Arts (Antal)"
+   },
+   "subtitle": {
+    "es": "Perlica · Gilberta · Antal",
+    "en": "Perlica · Gilberta · Antal"
+   },
+   "blurb": {
+    "es": "El equipo de Arts de mayor DPS de Rossi: todo se construye para exprimir su Ultimate de 27 golpes de Heat.",
+    "en": "Rossi's highest-DPS Arts team: everything is built to squeeze her 27-hit Heat Ultimate."
+   },
+   "guideVideoId": "ro1",
+   "simple": {
+    "whatItDoes": {
+     "es": "Equipo de Arts construido para exprimir el Ultimate de Rossi. Rossi no es soporte: es una carry que el equipo entero existe para alimentar. Gilberta le regala una Vulnerability gratis (0 SP), Perlica enciende a Gilberta con su Electrification y suma Arts DMG Taken, y Antal apila Amp/Susceptibility. Tú vas encadenando combos y skills de Rossi para generar energía a toda velocidad, y cuando todo está buffeado sueltas su Ultimate: 27 golpes de Heat con crítico altísimo que proquean su pasiva una y otra vez. Ahí cae casi todo el daño.",
+     "en": "An Arts team built to squeeze Rossi's Ultimate. Rossi isn't a support: she's a carry the whole team exists to feed. Gilberta hands her a free Vulnerability (0 SP), Perlica lights up Gilberta with her Electrification and adds Arts DMG Taken, and Antal stacks Amp/Susceptibility. You keep chaining Rossi's combos and skills to generate energy fast, and once everything's buffed you fire her Ultimate: 27 Heat hits with sky-high crit that proc her passive over and over. That's where almost all the damage lands."
+    },
+    "steps": [
+     {
+      "who": "gilberta",
+      "do": {
+       "es": "Gilberta le da a Rossi la primera Vulnerability gratis (0 SP). Sin esa primera stack, el motor de combos de Rossi no arranca.",
+       "en": "Gilberta gives Rossi the first Vulnerability for free (0 SP). Without that first stack, Rossi's combo engine doesn't get going."
+      }
+     },
+     {
+      "who": "perlica",
+      "do": {
+       "es": "El Combo de Perlica aplica Electrification (mismo cooldown que el Combo de Gilberta), lo que dispara el de Gilberta y sube el Arts DMG Taken. Úsalos juntos.",
+       "en": "Perlica's Combo applies Electrification (same cooldown as Gilberta's Combo), which triggers Gilberta's and raises Arts DMG Taken. Use them together."
+      }
+     },
+     {
+      "who": "rossi",
+      "do": {
+       "es": "Con Rossi: encadena básicos, su Combo (consume Arts Infliction, da un buffazo de crítico y +20 de energía) y su Skill (Lift + DoT de Heat/Phys Taken + energía + stagger). Dodge-cancela el Skill en cuanto lance los proyectiles.",
+       "en": "With Rossi: chain basics, her Combo (consumes Arts Infliction, gives a massive crit buff and +20 energy) and her Skill (Lift + Heat/Phys Taken DoT + energy + stagger). Dodge-cancel the Skill as soon as it fires its projectiles."
+      }
+     },
+     {
+      "who": "antal",
+      "do": {
+       "es": "Antal apila Amp y Susceptibility durante toda la pelea con muy poco SP — es el multiplicador que más sube el burst.",
+       "en": "Antal stacks Amp and Susceptibility the whole fight for very little SP — it's the multiplier that raises the burst the most."
+      }
+     },
+     {
+      "who": "rossi",
+      "do": {
+       "es": "Con todos los buffs arriba, lanza los Ultimates: Antal → Gilberta → Perlica → Rossi, y remata con un Finisher sobre Perlica. El Ultimate de Rossi son 27 golpes de Heat con +60% Crit DMG que proquean su pasiva Seething Blood hasta 27 veces.",
+       "en": "With every buff up, fire the Ultimates: Antal → Gilberta → Perlica → Rossi, and finish with a Finisher on Perlica. Rossi's Ultimate is 27 Heat hits with +60% Crit DMG that proc her Seething Blood passive up to 27 times."
+      }
+     },
+     {
+      "do": {
+       "es": "Repite. Rossi genera energía tan rápido que puedes ir cómodo con rotaciones cortas de 5 skills.",
+       "en": "Repeat. Rossi generates energy so fast you can run comfortable short 5-skill rotations."
+      }
+     }
+    ],
+    "gear": [
+     {
+      "id": "rossi",
+      "line": {
+       "es": "Build de crítico. Su arma promocional, Lupine Scarlet, es lo ideal. Gear: MI Security (la generic con algo de Ult Gain, o la full-damage si no necesitas energía).",
+       "en": "Crit build. Her signature weapon, Lupine Scarlet, is ideal. Gear: MI Security (the generic build with some Ult Gain, or the full-damage one if you don't need energy)."
+      }
+     },
+     {
+      "id": "perlica",
+      "line": {
+       "es": "Oblivion + set Pulser Labs con guantes Eternal Xiranite T1 (para llegar a la energía si ulteas). Enciende a Gilberta y aporta Arts DMG Taken.",
+       "en": "Oblivion + Pulser Labs set with Eternal Xiranite T1 gloves (to hit the energy if you ult). She lights up Gilberta and adds Arts DMG Taken."
+      }
+     },
+     {
+      "id": "gilberta",
+      "line": {
+       "es": "Delivery Guaranteed (su promocional) + set Eternal Xiranite (3 piezas). Es la Vulnerability gratis y la Susceptibility de su Ultimate.",
+       "en": "Delivery Guaranteed (her signature) + Eternal Xiranite set (3 pieces). She's the free Vulnerability and the Susceptibility from her Ultimate."
+      }
+     },
+     {
+      "id": "antal",
+      "line": {
+       "es": "Detonation Unit + Tide Fall Light Armor con 2 Eternal Xiranite Power Cores y guantes. Su Amp/Susceptibility apenas gasta SP.",
+       "en": "Detonation Unit + Tide Fall Light Armor with 2 Eternal Xiranite Power Cores and gloves. His Amp/Susceptibility barely spends SP."
+      }
+     }
+    ]
+   },
+   "overview": {
+    "es": "La variante de máximo DPS de los equipos de Arts de Rossi. Rossi es una carry híbrida de Heat/Physical, pero en este equipo todo se construye alrededor de su Ultimate: 27 golpes de Heat con +60% de Crit DMG que disparan su pasiva Seething Blood una y otra vez. Para llegar ahí, el equipo le resuelve su única carencia real — necesita que le pongan la primera Vulnerability — y luego amplifica el burst. Gilberta da esa Vulnerability gratis (0 SP) y una Susceptibility enorme con su Ultimate; Perlica enciende el Combo de Gilberta con su Electrification (mismo cooldown) y suma Arts DMG Taken; Antal apila Amp y Susceptibility casi sin gastar SP. Lo que separa a este equipo de otros es que Rossi genera energía tan rápido que va cómoda con rotaciones cortas de 5 skills, y que el Antal comp es el de mayor DPS de los equipos de Arts — siempre que tengas la promocional de Gilberta, porque sin ella los requisitos de energía te dejan sin un arma de soporte y pierdes un buen pellizco de daño.",
+    "en": "The highest-DPS variant of Rossi's Arts teams. Rossi is a hybrid Heat/Physical carry, but in this team everything is built around her Ultimate: 27 Heat hits with +60% Crit DMG that fire her Seething Blood passive over and over. To get there, the team solves her one real gap — she needs the first Vulnerability handed to her — and then amplifies the burst. Gilberta gives that Vulnerability for free (0 SP) and a huge Susceptibility from her Ultimate; Perlica lights up Gilberta's Combo with her Electrification (same cooldown) and adds Arts DMG Taken; Antal stacks Amp and Susceptibility for almost no SP. What sets this team apart is that Rossi generates energy so fast she's comfortable on short 5-skill rotations, and that the Antal comp is the highest-DPS of the Arts teams — as long as you have Gilberta's signature, because without it the energy requirements cut you out of a support weapon and you lose a good chunk of damage."
+   },
+   "playstyle": {
+    "difficulty": {
+     "es": "Alta",
+     "en": "High"
+    },
+    "content": {
+     "es": "Jefe / Single-target",
+     "en": "Boss / Single-target"
+    },
+    "tags": [
+     {
+      "es": "Arts",
+      "en": "Arts"
+     },
+     {
+      "es": "Burst de Ultimate",
+      "en": "Ultimate burst"
+     },
+     {
+      "es": "Vulnerability",
+      "en": "Vulnerability"
+     },
+     {
+      "es": "Stagger alto",
+      "en": "High stagger"
+     },
+     {
+      "es": "Swap de personajes",
+      "en": "Character swapping"
+     }
+    ]
+   },
+   "pros": [
+    {
+     "es": "Burst de Ultimate brutal: 27 golpes de Heat con +60% de Crit DMG que proquean Seething Blood hasta 27 veces. Es el grueso del daño de Rossi.",
+     "en": "Brutal Ultimate burst: 27 Heat hits with +60% Crit DMG that proc Seething Blood up to 27 times. It's the bulk of Rossi's damage."
+    },
+    {
+     "es": "Rossi genera energía rapidísimo — con un buen equipo va cómoda con rotaciones de 5 skills, más cortas que las de 6-7 que piden otras carries.",
+     "en": "Rossi generates energy extremely fast — with a good team she's comfortable on 5-skill rotations, shorter than the 6-7 others demand."
+    },
+    {
+     "es": "El Antal comp es el de mayor DPS entre los equipos de Arts de Rossi.",
+     "en": "The Antal comp is the highest-DPS among Rossi's Arts teams."
+    },
+    {
+     "es": "Stagger altísimo: su Skill mete +10 de Stagger extra sobre objetivos con Vulnerability, lo que hace a Rossi excelente para speedrun.",
+     "en": "Very high stagger: her Skill deals +10 extra Stagger on Vulnerable targets, which makes Rossi excellent for speedrunning."
+    },
+    {
+     "es": "Perlica y Gilberta encadenan sus Combos (comparten cooldown) y apilan Arts DMG Taken + Susceptibility sobre el mismo burst.",
+     "en": "Perlica and Gilberta chain their Combos (shared cooldown) and stack Arts DMG Taken + Susceptibility on the same burst."
+    }
+   ],
+   "cons": [
+    {
+     "es": "Rossi NO es soporte: es una unidad que construyes y alimentas. El equipo entero existe para ponerle la primera Vulnerability y amplificar su Ultimate.",
+     "en": "Rossi is NOT a support: she's a unit you build around and feed. The whole team exists to give her the first Vulnerability and amplify her Ultimate."
+    },
+    {
+     "es": "Sin la promocional de Gilberta el equipo pierde un buen pellizco de DPS (~68K): los requisitos de energía te dejan sin un arma de soporte completa.",
+     "en": "Without Gilberta's signature the team loses a good chunk of DPS (~68K): the energy requirements cut you out of a full support weapon."
+    },
+    {
+     "es": "El daño se concentra casi entero en el Ultimate, y exprimir el equipo de verdad pide swaps de personaje durante las largas animaciones de Rossi (Combo de 2 partes + Skill).",
+     "en": "The damage is concentrated almost entirely in the Ultimate, and truly squeezing the team asks for character swaps during Rossi's long animations (2-part Combo + Skill)."
+    },
+    {
+     "es": "Sin healer real, como casi todos los equipos de Rossi — toca esquivar.",
+     "en": "No real healer, like most Rossi teams — you'll have to dodge."
+    }
+   ],
+   "whyItWorks": [
+    {
+     "icon": "",
+     "title": {
+      "es": "Rossi es la unidad que construyes, no la que te apoya",
+      "en": "Rossi is the unit you build around, not the one that supports you"
+     },
+     "body": {
+      "es": "Rossi reparte cosas útiles — Vulnerability (1 stack con el Skill, hasta 2 con el Combo: 3 en total), un DoT que aplica Heat/Phys DMG Taken +12% durante 25s, Stagger extra y un stack de Heat Infliction con el Ultimate — pero no es una soporte. Su única carencia real es que necesita que alguien le ponga la PRIMERA Vulnerability para arrancar su motor de combos. A partir de ahí, todo lo demás lo genera ella sola.",
+      "en": "Rossi hands out useful things — Vulnerability (1 stack from her Skill, up to 2 from her Combo: 3 total), a DoT that applies Heat/Phys DMG Taken +12% for 25s, extra Stagger, and a Heat Infliction stack from her Ultimate — but she isn't a support. Her one real gap is that she needs someone to set up the FIRST Vulnerability to start her combo engine. From there, she generates everything else herself."
+     }
+    },
+    {
+     "icon": "",
+     "title": {
+      "es": "El Combo: Vulnerability + Infliction = crítico y energía",
+      "en": "The Combo: Vulnerability + Infliction = crit and energy"
+     },
+     "body": {
+      "es": "El Combo de Rossi se dispara al aplicar Vulnerability a un objetivo que ya tiene Infliction, o Infliction a uno que ya tiene Vulnerability (provocar una reacción con esa Infliction también lo activa). Es un combo de 2 partes: la primera no hace nada especial; la segunda consume stacks de Arts Infliction para daño extra, aplica Lift y le da a Rossi un buffazo de crítico. Tiene un mini-QTE que, con el timing correcto, añade un stack de Vulnerability (no hace falta clavarlo ni consumir Infliction para recibir el buff). Cada parte da 10 de energía — 20 en total — así que tener acceso constante al Combo es clave para su Ultimate.",
+      "en": "Rossi's Combo triggers when you apply Vulnerability to a target that already has Infliction, or Infliction to one that already has Vulnerability (causing a reaction with that Infliction triggers it too). It's a 2-part combo: the first part does nothing special; the second consumes Arts Infliction stacks for bonus damage, applies Lift, and gives Rossi a massive crit buff. It has a mini-QTE that, with the right timing, adds a Vulnerability stack (you don't have to nail it or consume Infliction to get the buff). Each part grants 10 energy — 20 total — so constant Combo access is key for her Ultimate."
+     }
+    },
+    {
+     "icon": "",
+     "title": {
+      "es": "El Ultimate + Seething Blood = 27 procs",
+      "en": "The Ultimate + Seething Blood = 27 procs"
+     },
+     "body": {
+      "es": "La pasiva Seething Blood le da a todas sus habilidades (menos los básicos) un daño extra de Heat al hacer crítico sobre enemigos afectados por su DoT, +50% si están Combusted. El Skill (3 hits) y el Combo (6 hits) aprovechan poco esto, pero el Ultimate son 27 golpes de Heat con +60% de Crit DMG: proquean Seething Blood hasta 27 veces, haciendo un daño absurdo. Cuesta 110 de energía, pero la energía que le dan su Combo y su Skill la cubre sin tener que forzar Ultimate Gain en el gear.",
+      "en": "The Seething Blood passive gives all her abilities (except basics) bonus Heat damage on a crit against enemies hit by her DoT, +50% if they're Combusted. The Skill (3 hits) and Combo (6 hits) barely benefit, but the Ultimate is 27 Heat hits with +60% Crit DMG: it procs Seething Blood up to 27 times, doing absurd damage. It costs 110 energy, but the energy her Combo and Skill grant covers it without forcing Ultimate Gain on her gear."
+     }
+    },
+    {
+     "icon": "",
+     "title": {
+      "es": "El Skill: Lift, DoT, energía y stagger",
+      "en": "The Skill: Lift, DoT, energy and stagger"
+     },
+     "body": {
+      "es": "El Skill de Rossi aplica Lift, y si el objetivo YA tenía Vulnerability hace mucho más: aplica el DoT (que es lo que da el debuff de Heat/Phys Taken), le da 10 de energía personal extra y mete stagger adicional. Es lo que la convierte en una bestia del speedrun. En cuanto lanza los proyectiles, es seguro dodge-cancelarlo. Por lo potentes que son ese stagger y esa energía, las rotaciones suelen usar este Skill 2 o 3 veces de las 5-6 de un ciclo completo.",
+      "en": "Rossi's Skill applies Lift, and if the target ALREADY had Vulnerability it does much more: it applies the DoT (which is what grants the Heat/Phys Taken debuff), gives her 10 extra personal energy, and adds stagger. It's what makes her a speedrun monster. As soon as it fires its projectiles, it's safe to dodge-cancel. Because that stagger and energy are so strong, rotations typically use this Skill 2 or 3 times out of the 5-6 in a full cycle."
+     }
+    },
+    {
+     "icon": "",
+     "title": {
+      "es": "Perlica enciende a Gilberta, Gilberta amplifica",
+      "en": "Perlica lights up Gilberta, Gilberta amplifies"
+     },
+     "body": {
+      "es": "El núcleo del equipo es la pareja Perlica-Gilberta. Gilberta da la Vulnerability gratis (0 SP) que arranca a Rossi, y su Ultimate deja una Susceptibility de Arts enorme. ¿Quién dispara el Combo de Gilberta de forma cómoda? Perlica: su Combo provoca una Electrification que encaja en cooldown con el de Gilberta y, de paso, sube el Arts DMG Taken. Sobre esa base, Antal añade el máximo de buffeo (Amp + Susceptibility) por muy poco SP, y por eso el Antal comp es el de más DPS.",
+      "en": "The core of the team is the Perlica–Gilberta pair. Gilberta gives the free Vulnerability (0 SP) that starts Rossi, and her Ultimate leaves a huge Arts Susceptibility. Who triggers Gilberta's Combo comfortably? Perlica: her Combo causes an Electrification that lines up in cooldown with Gilberta's and, on the way, raises Arts DMG Taken. On top of that base, Antal adds maximum buffing (Amp + Susceptibility) for very little SP, which is why the Antal comp is the highest-DPS."
+     }
+    }
+   ],
+   "rotation": [
+    {
+     "phase": {
+      "es": "Apertura — montar Vulnerability y combos",
+      "en": "Opener — set up Vulnerability and combos"
+     },
+     "action": {
+      "es": "Arranca generando recursos. Abre con el combo de básicos de Rossi y los Skills de Antal y Perlica, y encadena los Combos del equipo en cuanto estén disponibles para montar la Vulnerability y empezar a cargar energía.",
+      "en": "Start by generating resources. Open with Rossi's basic-attack combo and Antal's and Perlica's Skills, and chain the team's Combos as soon as they're up to set the Vulnerability and start building energy."
+     },
+     "steps": [
+      {
+       "do": {
+        "es": "Combo de básicos de Rossi + Skill de Antal + Skill de Perlica.",
+        "en": "Rossi's basic-attack combo + Antal's Skill + Perlica's Skill."
+       }
+      },
+      {
+       "do": {
+        "es": "Combos de Perlica, Gilberta y Antal en cuanto puedas.",
+        "en": "Perlica's, Gilberta's and Antal's Combos as soon as you can."
+       },
+       "key": true
+      },
+      {
+       "do": {
+        "es": "Otro combo de básicos de Rossi → Combo de Rossi → Skill de Rossi.",
+        "en": "Another Rossi basic-attack combo → Rossi's Combo → Rossi's Skill."
+       }
+      }
+     ]
+    },
+    {
+     "phase": {
+      "es": "Construcción — energía hasta el burst",
+      "en": "Build-up — energy toward the burst"
+     },
+     "action": {
+      "es": "Mantén el flujo de básicos y combos para cargar la energía de todos los Ultimates. Aquí es donde se gana o se pierde tiempo según cómo gestiones los swaps durante las animaciones largas de Rossi.",
+      "en": "Keep the flow of basics and combos to charge everyone's Ultimate energy. This is where you win or lose time depending on how you manage swaps during Rossi's long animations."
+     },
+     "steps": [
+      {
+       "do": {
+        "es": "Básicos hasta que el Combo de Perlica vuelva a estar listo; mete otro Skill de Rossi en cualquier momento.",
+        "en": "Basics until Perlica's Combo is up again; slot another Rossi Skill at any time."
+       }
+      },
+      {
+       "do": {
+        "es": "Combo de Perlica + Combo de Gilberta.",
+        "en": "Perlica's Combo + Gilberta's Combo."
+       }
+      },
+      {
+       "do": {
+        "es": "Skill de Perlica cuando el Combo de Antal esté listo — dispara el Combo de Antal y el de Rossi a la vez.",
+        "en": "Perlica's Skill when Antal's Combo is up — it triggers both Antal's Combo and Rossi's Combo."
+       },
+       "key": true
+      }
+     ],
+     "tip": {
+      "es": "Rossi tiene un Combo de 2 partes y un Skill largos que usa varias veces; cambiar a otro personaje durante esas animaciones recupera SP y mete stagger extra. Si quieres minmaxear, swapea a cualquier personaje inactivo entre acciones planificadas; si prefieres simplificar, deja a Perlica on-field.",
+      "en": "Rossi has a long 2-part Combo and a long Skill she uses several times; swapping to another character during those animations recovers SP and adds extra stagger. To minmax, swap to any idle character between planned actions; to keep it simple, leave Perlica on-field."
+     }
+    },
+    {
+     "phase": {
+      "es": "Burst — cadena de Ultimates",
+      "en": "Burst — Ultimate chain"
+     },
+     "action": {
+      "es": "Con la energía llena y los buffs alineados, lanza los Ultimates en orden y remata con un Finisher sobre Perlica.",
+      "en": "With energy full and buffs aligned, fire the Ultimates in order and finish with a Finisher on Perlica."
+     },
+     "steps": [
+      {
+       "do": {
+        "es": "Ultimate de Antal → Ultimate de Gilberta → Ultimate de Perlica → Ultimate de Rossi.",
+        "en": "Antal's Ultimate → Gilberta's Ultimate → Perlica's Ultimate → Rossi's Ultimate."
+       },
+       "key": true
+      },
+      {
+       "do": {
+        "es": "Finisher sobre Perlica para cerrar.",
+        "en": "Finisher on Perlica to close it out."
+       }
+      }
+     ],
+     "tip": {
+      "es": "El Ultimate de Rossi es el momento del daño: con la Susceptibility de Gilberta, el Arts DMG Taken de Perlica y el Amp de Antal arriba, sus 27 golpes de Heat proquean Seething Blood al máximo. En la mayoría del contenido actual, las cosas mueren incluso sin usar el Ultimate de Perlica.",
+      "en": "Rossi's Ultimate is the damage moment: with Gilberta's Susceptibility, Perlica's Arts DMG Taken and Antal's Amp up, her 27 Heat hits proc Seething Blood to the max. In most current content, things die even without using Perlica's Ultimate."
+     }
+    }
+   ],
+   "rotationVariants": [
+    {
+     "name": {
+      "es": "Swap de personajes (minmax de SP y stagger)",
+      "en": "Character swapping (SP and stagger minmax)"
+     },
+     "description": {
+      "es": "A diferencia de la mayoría de equipos, en Rossi los swaps SÍ valen la pena: su Combo de 2 partes y su Skill tienen animaciones largas que usa varias veces, y cambiar a un personaje inactivo durante ellas mantiene el uptime de básicos, recupera SP y suma stagger. No cambia el orden de la rotación, solo lo que haces durante los 'huecos' de animación.",
+      "en": "Unlike most teams, swaps ARE worth it on Rossi: her 2-part Combo and her Skill have long animations she uses several times, and swapping to an idle character during them keeps basic-attack uptime, recovers SP and adds stagger. It doesn't change the rotation order, only what you do during the animation 'gaps'."
+     },
+     "phases": [
+      {
+       "phase": {
+        "es": "Minmax vs. simple",
+        "en": "Minmax vs. simple"
+       },
+       "action": {
+        "es": "Para exprimirlo al máximo, swapea constantemente a cualquier personaje inactivo entre acciones planificadas. Si prefieres no comerte la cabeza, simplemente deja a Perlica on-field durante esas animaciones — pierdes algo de optimización pero la rotación funciona igual.",
+        "en": "To squeeze the most out of it, constantly swap to any idle character between planned actions. If you'd rather not overthink it, just leave Perlica on-field during those animations — you lose some optimization but the rotation works the same."
+       },
+       "steps": [
+        {
+         "do": {
+          "es": "Minmax: swapea constantemente a cualquier personaje inactivo entre acciones planificadas.",
+          "en": "Minmax: constantly swap to any idle character between planned actions."
+         },
+         "note": {
+          "es": "Es la opción para exprimirlo al máximo.",
+          "en": "This is the option to squeeze the most out of it."
+         }
+        },
+        {
+         "do": {
+          "es": "Simple: deja a Perlica on-field durante esas animaciones.",
+          "en": "Simple: just leave Perlica on-field during those animations."
+         },
+         "note": {
+          "es": "Si prefieres no comerte la cabeza: pierdes algo de optimización, pero la rotación funciona igual.",
+          "en": "If you'd rather not overthink it: you lose some optimization but the rotation works the same."
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "skillPriority": [
+    {
+     "charId": "rossi",
+     "order": "S3 > S2 > S1",
+     "note": {
+      "es": "S3 (Ultimate) es casi todo su daño — 27 hits que proquean Seething Blood. S2 (Combo) es el payoff del set-up (consume Arts Infliction, buff de crítico, +20 energía). S1 (Battle Skill) tiene pocos hits, pero se usa 2-3 veces por ciclo por su Lift, DoT, energía y stagger.",
+      "en": "S3 (Ultimate) is almost all her damage — 27 hits that proc Seething Blood. S2 (Combo) is the setup payoff (consumes Arts Infliction, crit buff, +20 energy). S1 (Battle Skill) has few hits, but you use it 2-3 times per cycle for its Lift, DoT, energy and stagger."
+     }
+    },
+    {
+     "charId": "perlica",
+     "order": "S2 > S1 > S3",
+     "note": {
+      "es": "S2 (Combo) es la pieza clave: su Electrification dispara el Combo de Gilberta y sube el Arts DMG Taken. S1 (Battle Skill) para encadenar el Combo de Antal y el de Rossi. S3 (Ultimate) entra en el burst, aunque mucho contenido muere sin él.",
+      "en": "S2 (Combo) is the key piece: its Electrification triggers Gilberta's Combo and raises Arts DMG Taken. S1 (Battle Skill) to chain Antal's Combo and Rossi's. S3 (Ultimate) goes into the burst, though a lot of content dies without it."
+     }
+    },
+    {
+     "charId": "gilberta",
+     "order": "S3 > S2 > S1",
+     "note": {
+      "es": "S3 (Ultimate) es la Susceptibility de Arts que multiplica el burst. S2 (Combo) se encadena con el de Perlica. S1 (Battle Skill) aporta la Vulnerability gratis que arranca a Rossi.",
+      "en": "S3 (Ultimate) is the Arts Susceptibility that multiplies the burst. S2 (Combo) chains off Perlica's. S1 (Battle Skill) supplies the free Vulnerability that starts Rossi."
+     }
+    },
+    {
+     "charId": "antal",
+     "order": "S1 > S3 > S2",
+     "note": {
+      "es": "Battle Skill y Ultimate van casi a la par: ambos disparan Amp/Susceptibility. S2 (Combo) por encima del básico, sobre todo con Detonation Unit (lo activa con Arts Burst).",
+      "en": "Battle Skill and Ultimate go nearly even: both trigger Amp/Susceptibility. S2 (Combo) above the basic, especially with Detonation Unit (it activates via Arts Burst)."
+     }
+    }
+   ],
+   "pitfalls": [
+    {
+     "es": "Tratar a Rossi como soporte. Es una carry que construyes y alimentas: lo único que el equipo le DEBE es la primera Vulnerability, pero todo lo demás (buffs, Susceptibility, energía) existe para amplificar su Ultimate.",
+     "en": "Treating Rossi like a support. She's a carry you build around and feed: the one thing the team OWES her is the first Vulnerability, but everything else (buffs, Susceptibility, energy) exists to amplify her Ultimate."
+    },
+    {
+     "es": "No dodge-cancelar el Skill tras lanzar los proyectiles. Se puede cancelar en cuanto salen — quedarte en la animación es tiempo (y daño) perdido.",
+     "en": "Not dodge-cancelling the Skill after it fires its projectiles. It can be cancelled the moment they come out — sitting through the animation is wasted time (and damage)."
+    },
+    {
+     "es": "Olvidar que el Combo necesita Vulnerability e Infliction a la vez. Si no hay una de las dos en el jefe, el Combo no se dispara y se corta el flujo de energía hacia el Ultimate.",
+     "en": "Forgetting the Combo needs Vulnerability and Infliction at once. If one of them isn't on the boss, the Combo won't fire and the energy flow toward the Ultimate stalls."
+    },
+    {
+     "es": "No aprovechar los swaps durante las animaciones largas de Rossi. Es de los pocos equipos donde cambiar de personaje en los huecos recupera SP y stagger de verdad.",
+     "en": "Not using swaps during Rossi's long animations. It's one of the few teams where swapping in the gaps genuinely recovers SP and stagger."
+    },
+    {
+     "es": "Correr el equipo sin la promocional de Gilberta esperando el mismo DPS. Sin ella, los requisitos de energía te quitan un arma de soporte completa y pierdes ~68K de DPS.",
+     "en": "Running the team without Gilberta's signature and expecting the same DPS. Without it, the energy requirements take away a full support weapon and you lose ~68K DPS."
+    }
+   ],
+   "vsOtherComps": [
+    {
+     "name": {
+      "es": "Tangtang en vez de Antal (dual DPS)",
+      "en": "Tangtang instead of Antal (dual DPS)"
+     },
+     "verdict": {
+      "es": "Cambiar Antal por Tangtang convierte el equipo en un dual DPS. Tangtang exige una rotación más larga para llenar su energía, lo que arrastra el DPS de Rossi; si la juegas como soporte con una rotación rápida, el DPS total queda algo por debajo del Antal comp — pero la rotación corta sigue pudiendo one-shotear el contenido actual (de hecho ganó un torneo oficial de speedrun de 7.000 $). Su promocional vale ~10% de DPS de equipo sobre las alternativas, y necesita un Eternal Xiranite Power Core extra para la energía en la rotación larga.",
+      "en": "Swapping Antal for Tangtang turns the team into a dual DPS. Tangtang demands a longer rotation to fill her energy, which drags Rossi's DPS down; played as a support on a fast rotation, the total DPS sits slightly below the Antal comp — but the short rotation can still one-shot current content (it actually won a $7,000 official speedrun tournament). Her signature is worth ~10% team DPS over the alternatives, and she needs an extra Eternal Xiranite Power Core for energy in the long rotation."
+     }
+    },
+    {
+     "name": {
+      "es": "Wulfgard en vez de Gilberta (sin Gilberta)",
+      "en": "Wulfgard instead of Gilberta (no Gilberta)"
+     },
+     "verdict": {
+      "es": "La opción 'copium' si no tienes a Gilberta. Pierdes la Vulnerability gratis, así que Rossi tiene que auto-apilarla con su Skill — más ineficiente y rotación más larga. Wulfgard usa su Skill para disparar su propio Combo en las primeras vueltas, pero antes del burst se usa el de Perlica para montar una Combustion que Wulfgard consume con su Skill (proqueando Clannibal), y la reaplica con su Ultimate. El daño total queda cerca, pero el tiempo de rotación es bastante mayor.",
+      "en": "The 'copium' option if you don't have Gilberta. You lose the free Vulnerability, so Rossi has to self-stack it with her Skill — more inefficient and a longer rotation. Wulfgard uses his Skill to trigger his own Combo in the early rounds, but before the burst you use Perlica's to set up a Combustion that Wulfgard consumes with his Skill (proccing Clannibal), then reapplies with his Ultimate. Total damage ends up close, but the rotation time is quite a bit longer."
+     }
+    },
+    {
+     "name": {
+      "es": "Consumidor de Vulnerability (Burning Sequence / físico)",
+      "en": "Vulnerability consumer (Burning Sequence / physical)"
+     },
+     "verdict": {
+      "es": "Rossi genera 3 stacks de Vulnerability entre Combo y Skill, así que en vez de buffear su Ultimate puedes meter un consumidor con Crush o Breach (Endmin, Pogranichnik, Da Pan) para sacar mucho daño físico de esas stacks. Es una dirección de build distinta — la cubre la comp física 'YZ-月咒 - Burning Sequence' de Rossi.",
+      "en": "Rossi generates 3 Vulnerability stacks between Combo and Skill, so instead of buffing her Ultimate you can run a consumer with Crush or Breach (Endmin, Pogranichnik, Da Pan) to pull a lot of physical damage from those stacks. It's a different build direction — covered by Rossi's physical 'YZ-月咒 - Burning Sequence' comp."
+     }
+    }
+   ],
+   "members": [
+    {
+     "id": "rossi",
+     "role": "Carry",
+     "weaponId": "wpn_sword_0022",
+     "gearRec": [
+      "mi_security_armor_t1",
+      "redeemer_gloves",
+      "mi_security_scope_t1",
+      "mi_security_scope_t1"
+     ],
+     "weaponNote": {
+      "es": "Lupine Scarlet 6★, su arma promocional, ofrece un salto considerable sobre las alternativas ya de base. Glorious Memory 6★ (pase de batalla) y Rapid Ascent escalan bien con duplicados y recortan distancia, pero se quedan bastante por detrás. Como las armas de Rossi no buffean al equipo, aquí solo importa su daño personal.",
+      "en": "Lupine Scarlet 6★, her signature, offers a substantial jump over the alternatives even at baseline. Glorious Memory 6★ (battle pass) and Rapid Ascent scale well with dupes and close the gap a bit, but stay quite a way behind. Since Rossi's weapons don't buff the team, only her personal damage matters here."
+     },
+     "gearNote": {
+      "es": "MI Security por su sinergia con crítico. Hay dos builds: la generic (MI Security Armor T1 + 2× Security Scope + Redeemer Gloves), que lleva algo de Ultimate Gain, y la full-damage (Frontiers Armor T3 + MI Security Gloves + 2× Scope), sin Ult Gain pero con +0.72% de daño. La diferencia es mínima: el Ult Gain solo hace falta en rotaciones cortas, pero es cómodo para juego casual. Variante crit-fishing: cambia Redeemer Gloves por MI Security Gloves y un Scope por LYNX Slab o Type 50 Yinglung Radar T1 — mismo daño medio, pero más fuerte cuando encadenas críticos.",
+      "en": "MI Security for its crit synergy. Two builds: the generic one (MI Security Armor T1 + 2× Security Scope + Redeemer Gloves), which carries some Ultimate Gain, and the full-damage one (Frontiers Armor T3 + MI Security Gloves + 2× Scope), no Ult Gain but +0.72% damage. The difference is tiny: Ult Gain is only needed in short rotations, but it's comfortable for casual play. Crit-fishing variant: swap Redeemer Gloves for MI Security Gloves and one Scope for LYNX Slab or Type 50 Yinglung Radar T1 — same average damage, but stronger when chaining crits."
+     },
+     "deepNote": {
+      "es": "Rossi es una carry de build-around en estado puro: híbrida de Heat y Physical, reparte Vulnerability, un DoT de Heat/Phys DMG Taken (+12%/25s), stagger y una Heat Infliction, pero no es soporte — es la unidad que el equipo entero existe para alimentar. Su única dependencia real es la PRIMERA Vulnerability: a partir de ahí, su Combo (que se dispara con Vulnerability + Infliction) genera todo lo demás. Ese Combo de 2 partes consume Arts Infliction, aplica Lift, da un buffazo de crítico y 20 de energía, con un mini-QTE que añade Vulnerability. Su Skill aplica Lift y, sobre un objetivo ya Vulnerable, suma el DoT, 10 de energía extra y stagger — dodge-cancelable en cuanto lanza los proyectiles, y usado 2-3 veces por ciclo. Pero el corazón de su daño es el Ultimate: 27 golpes de Heat con +60% de Crit DMG que disparan su pasiva Seething Blood (daño extra de Heat al críticar sobre enemigos con su DoT, +50% si están Combusted) hasta 27 veces. Cuesta 110 de energía, cubiertos de sobra por la energía de su Combo y Skill, lo que le permite ir cómoda con rotaciones cortas de 5 skills. La clave de pilotaje: encadenar combos sin que se caiga el flujo de energía, dodge-cancelar el Skill, y aprovechar los swaps durante sus animaciones largas para recuperar SP y stagger.",
+      "en": "Rossi is a build-around carry in the purest sense: a Heat/Physical hybrid, she hands out Vulnerability, a Heat/Phys DMG Taken DoT (+12%/25s), stagger and a Heat Infliction, but she isn't a support — she's the unit the whole team exists to feed. Her one real dependency is the FIRST Vulnerability: from there, her Combo (triggered by Vulnerability + Infliction) generates everything else. That 2-part Combo consumes Arts Infliction, applies Lift, grants a massive crit buff and 20 energy, with a mini-QTE that adds Vulnerability. Her Skill applies Lift and, on an already-Vulnerable target, adds the DoT, 10 extra energy and stagger — dodge-cancellable as soon as it fires its projectiles, and used 2-3 times per cycle. But the heart of her damage is the Ultimate: 27 Heat hits with +60% Crit DMG that fire her Seething Blood passive (bonus Heat on a crit against enemies with her DoT, +50% if Combusted) up to 27 times. It costs 110 energy, more than covered by her Combo and Skill energy, which lets her run comfortable short 5-skill rotations. The piloting key: chain combos without dropping the energy flow, dodge-cancel the Skill, and use swaps during her long animations to recover SP and stagger."
+     }
+    },
+    {
+     "id": "perlica",
+     "role": "Support",
+     "weaponId": "wpn_funnel_0009",
+     "gearRec": [
+      "pulser_labs_disruptor_suit",
+      "eternal_xiranite_gloves_t1",
+      "pulser_labs_calibrator",
+      "pulser_labs_calibrator"
+     ],
+     "weaponNote": {
+      "es": "Perlica hace bastante daño en este equipo y se usa su Finisher, así que Oblivion 6★ es muy potente. Un Stanza of Memorials al máximo puede ser algo más fuerte si de verdad ulteas, aunque con esta rotación la mayoría del contenido muere sin el Ultimate de Perlica. Wild Wanderer 5★ es una opción algo más débil.",
+      "en": "Perlica does decent damage in this team and you use her Finisher, so Oblivion 6★ is very strong. A maxed Stanza of Memorials can be slightly stronger if you actually ult, though with this rotation most content dies without Perlica's Ultimate. Wild Wanderer 5★ is a slightly weaker option."
+     },
+     "gearNote": {
+      "es": "Necesitas Eternal Xiranite Gloves T1 para llegar a los requisitos de energía si piensas ultear (asumiendo su P2); fuera de eso, set Pulser Labs (3 piezas) por la Arts Intensity. Si juegas una rotación sin Ultimate, cambia a MI Security Hands PPE para potenciar su Finisher en su lugar.",
+      "en": "You need Eternal Xiranite Gloves T1 to meet the energy requirements if you plan to ult (assuming her P2); outside of that, the Pulser Labs set (3 pieces) for the Arts Intensity. If you run a no-Ultimate rotation, swap to MI Security Hands PPE to enhance her Finisher instead."
+     },
+     "deepNote": {
+      "es": "Perlica es la pieza que hace funcionar al núcleo del equipo. Su Combo aplica Electrification, que cumple dos funciones: dispara el Combo de Gilberta (encajan en cooldown, así que se usan juntos) y sube el Arts DMG Taken sobre el jefe. Sin ella, montar el Combo de Gilberta de forma fiable cuesta mucho más. Además, en este equipo Perlica no es solo soporte: hace un daño decente por sí misma y su Finisher se usa en el cierre del burst, por eso Oblivion (daño) suele rendir mejor que un arma de puro apoyo aquí. Construida con Arts Intensity (Pulser Labs) y los guantes Eternal Xiranite que le dan la energía justa, es el enlace entre la Vulnerability de Gilberta y el motor de combos de Rossi.",
+      "en": "Perlica is the piece that makes the team's core work. Her Combo applies Electrification, which does two things: it triggers Gilberta's Combo (they line up in cooldown, so they go off together) and raises Arts DMG Taken on the boss. Without her, setting up Gilberta's Combo reliably is much harder. On top of that, in this team Perlica isn't just a support: she does decent personal damage and her Finisher is used to close the burst, which is why Oblivion (damage) tends to perform better than a pure support weapon here. Built for Arts Intensity (Pulser Labs) with the Eternal Xiranite gloves that give her just enough energy, she's the link between Gilberta's Vulnerability and Rossi's combo engine."
+     }
+    },
+    {
+     "id": "gilberta",
+     "role": "Enabler",
+     "weaponId": "wpn_funnel_0011",
+     "gearRec": [
+      "eternal_xiranite_armor",
+      "eternal_xiranite_gloves_t1",
+      "eternal_xiranite_auxiliary_arm",
+      "eternal_xiranite_auxiliary_arm"
+     ],
+     "weaponNote": {
+      "es": "Delivery Guaranteed 6★, su arma promocional, queda ligeramente por encima de Stanza of Memorials. En rotaciones rápidas, además, su Ultimate Gain es obligatorio cuando corres Swordmancer — si no la tienes, te ves forzado a usar Monaihe para conseguir esa energía. Sin la promocional, el equipo pierde un buen pellizco de DPS (~68K) porque los requisitos de energía te quitan un arma de soporte completa.",
+      "en": "Delivery Guaranteed 6★, her signature, pulls slightly over Stanza of Memorials. In faster rotations, its Ultimate Gain is also mandatory when you run Swordmancer — without it you're forced to use Monaihe to get that energy. Without the signature, the team loses a good chunk of DPS (~68K) because the energy requirements take away a full support weapon."
+     },
+     "gearNote": {
+      "es": "En un equipo normal, set Eternal Xiranite (3 piezas), que aporta el Ultimate Gain para tener su Ultimate (la Susceptibility) listo en cada burst. En un equipo más rápido puede que necesites Swordmancer dependiendo del jefe, para que su rotura (break) coincida con la ventana de burst — pero asegúrate de mantener el Ultimate Gain (promocional o Monaihe).",
+      "en": "In a normal team, the Eternal Xiranite set (3 pieces), which provides the Ultimate Gain to have her Ultimate (the Susceptibility) ready each burst. In a faster team you may need Swordmancer depending on the boss, so its break lines up with the burst window — but make sure you keep enough Ultimate Gain (signature or Monaihe)."
+     },
+     "deepNote": {
+      "es": "Gilberta es el pilar silencioso del equipo. Aporta dos cosas indispensables: la Vulnerability gratis (0 SP) que arranca el motor de Rossi, y la Susceptibility de Arts masiva de su Ultimate, que multiplica todo el burst siguiente. Su Combo se engancha al de Perlica (mismo cooldown), así que la pareja se juega como una sola unidad. Es tan central que es el punto de fallo del equipo: sin su arma promocional, los requisitos de energía obligan a recortar un arma de soporte y el DPS cae de forma notable. Es la diferencia entre el Antal comp como el de mayor daño de Rossi y una versión bastante más floja.",
+      "en": "Gilberta is the team's silent pillar. She brings two indispensable things: the free Vulnerability (0 SP) that starts Rossi's engine, and the massive Arts Susceptibility from her Ultimate, which multiplies the whole following burst. Her Combo hooks onto Perlica's (same cooldown), so the pair plays as a single unit. She's so central that she's the team's point of failure: without her signature weapon, the energy requirements force you to cut a support weapon and the DPS drops noticeably. She's the difference between the Antal comp as Rossi's highest-damage team and a markedly weaker version."
+     }
+    },
+    {
+     "id": "antal",
+     "role": "Buffer",
+     "weaponId": "wpn_funnel_0008",
+     "gearRec": [
+      "tide_fall_light_armor",
+      "eternal_xiranite_gloves",
+      "eternal_xiranite_power_core",
+      "eternal_xiranite_power_core"
+     ],
+     "weaponNote": {
+      "es": "Detonation Unit 6★ o Stanza of Memorials. Detonation aporta Arts DMG Taken tras un Arts Burst (que dispara de forma natural con su Combo) con muy buen uptime; Stanza sube ATK a los operadores de otro elemento.",
+      "en": "Detonation Unit 6★ or Stanza of Memorials. Detonation provides Arts DMG Taken after an Arts Burst (which he triggers naturally with his Combo) with great uptime; Stanza raises ATK for operators of a different element."
+     },
+     "gearNote": {
+      "es": "Build sencilla: Tide Fall Light Armor + Eternal Xiranite Gloves + 2× Eternal Xiranite Power Core. El set Eternal Xiranite reparte DMG% al equipo cuando aplica Amp/Susceptibility, justo lo que Antal hace. Para speedrun puedes meter el set Catastrophe (para saltarte su Ultimate), pero entonces te quedas — literalmente — con 109.7775 de energía en Rossi, así que tendrías que ponerle Redeemer Armor a ella, lo que es una pérdida del 10% de daño.",
+      "en": "Simple build: Tide Fall Light Armor + Eternal Xiranite Gloves + 2× Eternal Xiranite Power Core. The Eternal Xiranite set spreads DMG% to the team when he applies Amp/Susceptibility, exactly what Antal does. For speedrunning you can run the Catastrophe set (to skip his Ultimate), but then you're left — literally — with 109.7775 energy on Rossi, so you'd have to put Redeemer Armor on her, which is a 10% damage loss."
+     },
+     "deepNote": {
+      "es": "Antal es el multiplicador de fondo que convierte a este en el equipo de Arts de mayor DPS de Rossi. No genera reacciones espectaculares ni agrupa, pero aporta Amp y Susceptibility durante toda la pelea pidiendo muy poco SP, y con Detonation Unit añade además Arts DMG Taken — un multiplicador separado del resto. Es 4★, fácil de conseguir y de mantener, lo que lo hace una opción consistente y accesible. A cambio, su Ultimate es parte de la cadena de burst (Antal → Gilberta → Perlica → Rossi); si quieres saltártelo para speedrun con el set Catastrophe, ojo con la cuenta de energía de Rossi, que se queda justísima.",
+      "en": "Antal is the background multiplier that makes this Rossi's highest-DPS Arts team. He doesn't generate flashy reactions or group enemies, but he provides Amp and Susceptibility for the entire fight at very little SP cost, and with Detonation Unit he also adds Arts DMG Taken — a multiplier separate from the rest. He's 4★, easy to get and maintain, which makes him a consistent, accessible pick. In exchange, his Ultimate is part of the burst chain (Antal → Gilberta → Perlica → Rossi); if you want to skip it for speedrunning with the Catastrophe set, watch Rossi's energy math, which gets razor-thin."
+     }
+    }
+   ],
+   "equipment": {
+    "intro": {
+     "es": "Rossi escala con crítico (set MI Security) y casi todo su daño está en el Ultimate, así que su gear es puro daño personal — sus armas no buffean al equipo. El resto del equipo aporta los recursos y los multiplicadores: Gilberta y Antal van Eternal Xiranite (Ultimate Gain + el buff de DMG% al equipo), y Perlica va Pulser Labs con guantes Eternal Xiranite para la energía. La clave de la economía es que Rossi genera tanta energía con su Combo y su Skill que apenas necesita Ultimate Gain en su propio gear, salvo en rotaciones cortas. El punto de tensión es Gilberta: su promocional sostiene los requisitos de energía del equipo, y sin ella hay que recortar.",
+     "en": "Rossi scales with crit (MI Security set) and almost all her damage is in the Ultimate, so her gear is pure personal damage — her weapons don't buff the team. The rest of the team brings the resources and multipliers: Gilberta and Antal run Eternal Xiranite (Ultimate Gain + the team DMG% buff), and Perlica runs Pulser Labs with Eternal Xiranite gloves for the energy. The economy's key is that Rossi generates so much energy with her Combo and Skill that she barely needs Ultimate Gain on her own gear, except in short rotations. The tension point is Gilberta: her signature sustains the team's energy requirements, and without it you have to cut corners."
+    },
+    "alts": [
+     {
+      "scenario": {
+       "es": "Rossi full-damage (sin Ult Gain)",
+       "en": "Rossi full-damage (no Ult Gain)"
+      },
+      "swap": {
+       "es": "Frontiers Armor T3 + MI Security Gloves + 2× MI Security Scope. Renuncia al Ultimate Gain de la build generic a cambio de +0.72% de daño. Solo merece la pena si tu rotación no necesita energía extra (rotaciones más largas).",
+       "en": "Frontiers Armor T3 + MI Security Gloves + 2× MI Security Scope. Gives up the generic build's Ultimate Gain for +0.72% damage. Only worth it if your rotation doesn't need extra energy (longer rotations)."
+      }
+     },
+     {
+      "scenario": {
+       "es": "Rossi crit-fishing",
+       "en": "Rossi crit-fishing"
+      },
+      "swap": {
+       "es": "Cambia Redeemer Gloves por MI Security Gloves y un Scope por LYNX Slab o Type 50 Yinglung Radar T1. Mismo daño medio que la generic, pero más fuerte cuando encadenas críticos.",
+       "en": "Swap Redeemer Gloves for MI Security Gloves and one Scope for LYNX Slab or Type 50 Yinglung Radar T1. Same average damage as the generic build, but stronger when chaining crits."
+      }
+     },
+     {
+      "scenario": {
+       "es": "Antal Catastrophe (speedrun, sin su Ult)",
+       "en": "Antal Catastrophe (speedrun, skip his Ult)"
+      },
+      "swap": {
+       "es": "Set Catastrophe en Antal para saltarte su Ultimate en speedruns. Te deja con 109.7775 de energía en Rossi, así que tendrías que ponerle Redeemer Armor a Rossi — una pérdida del 10% de daño. Solo para cronometrar al límite.",
+       "en": "Catastrophe set on Antal to skip his Ultimate in speedruns. It leaves you at 109.7775 energy on Rossi, so you'd have to put Redeemer Armor on Rossi — a 10% damage loss. Only for timing at the very edge."
+      }
+     },
+     {
+      "scenario": {
+       "es": "Gilberta Swordmancer (rotación rápida)",
+       "en": "Gilberta Swordmancer (fast rotation)"
+      },
+      "swap": {
+       "es": "En equipos más rápidos, el set Swordmancer en Gilberta puede ser necesario según el jefe, para alinear su break con la ventana de burst. Requiere mantener el Ultimate Gain: con su promocional vas sobrada, si no, usa Monaihe.",
+       "en": "In faster teams, the Swordmancer set on Gilberta may be necessary depending on the boss, to line up its break with the burst window. It requires keeping the Ultimate Gain: with her signature you have plenty, otherwise use Monaihe."
+      }
+     },
+     {
+      "scenario": {
+       "es": "Perlica sin Ultimate (potenciar el Finisher)",
+       "en": "Perlica without Ultimate (boost the Finisher)"
+      },
+      "swap": {
+       "es": "Si juegas una rotación que no usa el Ultimate de Perlica, cambia los guantes Eternal Xiranite por MI Security Hands PPE para potenciar su Finisher en su lugar.",
+       "en": "If you run a rotation that doesn't use Perlica's Ultimate, swap the Eternal Xiranite gloves for MI Security Hands PPE to boost her Finisher instead."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

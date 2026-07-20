@@ -1,0 +1,1071 @@
+{
+  "stats": [
+    "Main",
+    "Str",
+    "Agi",
+    "Int",
+    "Will"
+  ],
+  "attributes": [
+    "Attack",
+    "HP Boost",
+    "Crit Rate",
+    "Ult Gain",
+    "Phys DMG",
+    "Arts DMG",
+    "Heat DMG",
+    "Cryo DMG",
+    "Elec DMG",
+    "Nature DMG",
+    "Intensity",
+    "Treatment"
+  ],
+  "skills": [
+    "Assault",
+    "Brutality",
+    "Combative",
+    "Crusher",
+    "Detonate",
+    "Efficacy",
+    "Flow",
+    "Fracture",
+    "Infliction",
+    "Inspiring",
+    "Medicant",
+    "Pursuit",
+    "Suppression",
+    "Twilight"
+  ],
+  "locations": {
+    "The Hub": {
+      "attributes": [
+        "Attack",
+        "Heat DMG",
+        "Elec DMG",
+        "Cryo DMG",
+        "Nature DMG",
+        "Intensity",
+        "Ult Gain",
+        "Arts DMG"
+      ],
+      "skills": [
+        "Assault",
+        "Suppression",
+        "Pursuit",
+        "Crusher",
+        "Combative",
+        "Detonate",
+        "Flow",
+        "Efficacy"
+      ]
+    },
+    "Science Park": {
+      "attributes": [
+        "Attack",
+        "Phys DMG",
+        "Elec DMG",
+        "Cryo DMG",
+        "Nature DMG",
+        "Crit Rate",
+        "Ult Gain",
+        "Arts DMG"
+      ],
+      "skills": [
+        "Suppression",
+        "Pursuit",
+        "Inspiring",
+        "Combative",
+        "Infliction",
+        "Medicant",
+        "Fracture",
+        "Efficacy"
+      ]
+    },
+    "Lodespring": {
+      "attributes": [
+        "HP Boost",
+        "Phys DMG",
+        "Heat DMG",
+        "Cryo DMG",
+        "Nature DMG",
+        "Crit Rate",
+        "Intensity",
+        "Treatment"
+      ],
+      "skills": [
+        "Assault",
+        "Suppression",
+        "Combative",
+        "Brutality",
+        "Infliction",
+        "Detonate",
+        "Twilight",
+        "Efficacy"
+      ]
+    },
+    "Power Plateau": {
+      "attributes": [
+        "Attack",
+        "HP Boost",
+        "Phys DMG",
+        "Heat DMG",
+        "Nature DMG",
+        "Crit Rate",
+        "Intensity",
+        "Treatment"
+      ],
+      "skills": [
+        "Pursuit",
+        "Crusher",
+        "Inspiring",
+        "Brutality",
+        "Infliction",
+        "Medicant",
+        "Fracture",
+        "Flow"
+      ]
+    },
+    "Wuling City": {
+      "attributes": [
+        "Attack",
+        "HP Boost",
+        "Elec DMG",
+        "Cryo DMG",
+        "Crit Rate",
+        "Ult Gain",
+        "Arts DMG",
+        "Treatment"
+      ],
+      "skills": [
+        "Assault",
+        "Crusher",
+        "Brutality",
+        "Medicant",
+        "Fracture",
+        "Detonate",
+        "Twilight",
+        "Flow"
+      ]
+    },
+    "Stockade": {
+      "attributes": [
+        "HP Boost",
+        "Phys DMG",
+        "Elec DMG",
+        "Cryo DMG",
+        "Intensity",
+        "Ult Gain",
+        "Arts DMG",
+        "Treatment"
+      ],
+      "skills": [
+        "Suppression",
+        "Crusher",
+        "Inspiring",
+        "Combative",
+        "Medicant",
+        "Fracture",
+        "Detonate",
+        "Twilight"
+      ]
+    },
+    "Marker Stone": {
+      "attributes": [
+        "Attack",
+        "Phys DMG",
+        "Heat DMG",
+        "Elec DMG",
+        "Nature DMG",
+        "Crit Rate",
+        "Ult Gain",
+        "Arts DMG"
+      ],
+      "skills": [
+        "Assault",
+        "Pursuit",
+        "Inspiring",
+        "Brutality",
+        "Infliction",
+        "Twilight",
+        "Flow",
+        "Efficacy"
+      ]
+    },
+    "Test Area": {
+      "attributes": [
+        "HP Boost",
+        "Heat DMG",
+        "Elec DMG",
+        "Cryo DMG",
+        "Nature DMG",
+        "Intensity",
+        "Ult Gain",
+        "Treatment"
+      ],
+      "skills": [
+        "Suppression",
+        "Crusher",
+        "Combative",
+        "Brutality",
+        "Infliction",
+        "Fracture",
+        "Twilight",
+        "Flow"
+      ]
+    }
+  },
+  "weapons": [
+    {
+      "name": "Ancient Canal",
+      "star": 5,
+      "type": "Greatsword",
+      "stat": "Str",
+      "attribute": "Intensity",
+      "skill": "Brutality",
+      "locations": [
+        "Lodespring",
+        "Power Plateau",
+        "Test Area"
+      ],
+      "signature": "Da Pan Signature",
+      "name_es": "Canal Antiguo"
+    },
+    {
+      "name": "Artzy Tyrannical",
+      "star": 6,
+      "type": "Handcannon",
+      "stat": "Int",
+      "attribute": "Crit Rate",
+      "skill": "Fracture",
+      "locations": [
+        "Science Park",
+        "Power Plateau",
+        "Wuling City"
+      ],
+      "signature": "Yvonne Signature",
+      "name_es": "Artzy Tiránico"
+    },
+    {
+      "name": "Aspirant",
+      "star": 5,
+      "type": "Sword",
+      "stat": "Agi",
+      "attribute": "Phys DMG",
+      "skill": "Twilight",
+      "locations": [
+        "Lodespring",
+        "Stockade",
+        "Marker Stone"
+      ],
+      "signature": "Chen Qianyu Signature",
+      "name_es": "Aspirante"
+    },
+    {
+      "name": "Brigand's Calling",
+      "star": 6,
+      "type": "Handcannon",
+      "stat": "Agi",
+      "attribute": "Attack",
+      "skill": "Detonate",
+      "locations": [
+        "The Hub",
+        "Wuling City"
+      ],
+      "signature": "Tangtang Signature",
+      "name_es": "Llamado del Bandido"
+    },
+    {
+      "name": "Chimeric Justice",
+      "star": 5,
+      "type": "Polearm",
+      "stat": "Str",
+      "attribute": "Ult Gain",
+      "skill": "Brutality",
+      "locations": [
+        "Wuling City",
+        "Marker Stone",
+        "Test Area"
+      ],
+      "signature": null,
+      "name_es": "Justicia Quimérica"
+    },
+    {
+      "name": "Chivalric Virtues",
+      "star": 6,
+      "type": "Arts Unit",
+      "stat": "Will",
+      "attribute": "HP Boost",
+      "skill": "Medicant",
+      "locations": [
+        "Power Plateau",
+        "Wuling City",
+        "Stockade"
+      ],
+      "signature": null,
+      "name_es": "Virtudes Caballerescas"
+    },
+    {
+      "name": "Clannibal",
+      "star": 6,
+      "type": "Handcannon",
+      "stat": "Main",
+      "attribute": "Arts DMG",
+      "skill": "Infliction",
+      "locations": [
+        "Science Park",
+        "Marker Stone"
+      ],
+      "signature": null,
+      "name_es": "Clannibal"
+    },
+    {
+      "name": "Cohesive Traction",
+      "star": 5,
+      "type": "Polearm",
+      "stat": "Will",
+      "attribute": "Elec DMG",
+      "skill": "Suppression",
+      "locations": [
+        "The Hub",
+        "Science Park",
+        "Stockade",
+        "Test Area"
+      ],
+      "signature": "Avywenna Signature",
+      "name_es": "Tracción Cohesiva"
+    },
+    {
+      "name": "Delivery Guaranteed",
+      "star": 6,
+      "type": "Arts Unit",
+      "stat": "Will",
+      "attribute": "Ult Gain",
+      "skill": "Pursuit",
+      "locations": [
+        "The Hub",
+        "Science Park",
+        "Marker Stone"
+      ],
+      "signature": "Gilberta Signature",
+      "name_es": "Entrega Garantizada"
+    },
+    {
+      "name": "Detonation Unit",
+      "star": 6,
+      "type": "Arts Unit",
+      "stat": "Main",
+      "attribute": "Intensity",
+      "skill": "Detonate",
+      "locations": [
+        "The Hub",
+        "Lodespring",
+        "Stockade"
+      ],
+      "signature": null,
+      "name_es": "Unidad de Detonación"
+    },
+    {
+      "name": "Dreams of the Starry Beach",
+      "star": 6,
+      "type": "Arts Unit",
+      "stat": "Int",
+      "attribute": "Treatment",
+      "skill": "Infliction",
+      "locations": [
+        "Lodespring",
+        "Power Plateau",
+        "Test Area"
+      ],
+      "signature": "Ardelia Signature",
+      "name_es": "Sueños de la Playa Estrellada"
+    },
+    {
+      "name": "Eminent Repute",
+      "star": 6,
+      "type": "Sword",
+      "stat": "Main",
+      "attribute": "Phys DMG",
+      "skill": "Brutality",
+      "locations": [
+        "Lodespring",
+        "Power Plateau",
+        "Marker Stone"
+      ],
+      "signature": null,
+      "name_es": "Reputación Eminente"
+    },
+    {
+      "name": "Exemplar",
+      "star": 6,
+      "type": "Greatsword",
+      "stat": "Main",
+      "attribute": "Attack",
+      "skill": "Suppression",
+      "locations": [
+        "The Hub",
+        "Science Park"
+      ],
+      "signature": "1",
+      "name_es": "Ejemplar"
+    },
+    {
+      "name": "Finchaser 3.0",
+      "star": 5,
+      "type": "Sword",
+      "stat": "Str",
+      "attribute": "Cryo DMG",
+      "skill": "Suppression",
+      "locations": [
+        "The Hub",
+        "Science Park",
+        "Lodespring",
+        "Stockade",
+        "Test Area"
+      ],
+      "signature": "Alesh Signature",
+      "name_es": "Finchaser 3.0"
+    },
+    {
+      "name": "Finishing Call",
+      "star": 5,
+      "type": "Greatsword",
+      "stat": "Str",
+      "attribute": "HP Boost",
+      "skill": "Medicant",
+      "locations": [
+        "Power Plateau",
+        "Wuling City",
+        "Stockade"
+      ],
+      "signature": "Snowshine Signature",
+      "name_es": "Llamada Final"
+    },
+    {
+      "name": "Flickers in the Mist",
+      "star": 6,
+      "type": "Arts Unit",
+      "stat": "Will",
+      "attribute": "Elec DMG",
+      "skill": "Efficacy",
+      "locations": [
+        "The Hub",
+        "Science Park",
+        "Marker Stone"
+      ],
+      "signature": "Protocol Pass: Wrothful Tide (Zhuang Fangyi)",
+      "name_es": "Destellos en la Niebla"
+    },
+    {
+      "name": "Forgeborn Scathe",
+      "star": 6,
+      "type": "Sword",
+      "stat": "Int",
+      "attribute": "Attack",
+      "skill": "Twilight",
+      "locations": [
+        "Wuling City",
+        "Marker Stone"
+      ],
+      "signature": "Laevatain Signature",
+      "name_es": "Azote Forjado"
+    },
+    {
+      "name": "Former Finery",
+      "star": 6,
+      "type": "Greatsword",
+      "stat": "Will",
+      "attribute": "HP Boost",
+      "skill": "Efficacy",
+      "locations": [
+        "Lodespring"
+      ],
+      "signature": null,
+      "name_es": "Antigua Galanura"
+    },
+    {
+      "name": "Fortmaker",
+      "star": 5,
+      "type": "Sword",
+      "stat": "Int",
+      "attribute": "Ult Gain",
+      "skill": "Inspiring",
+      "locations": [
+        "Science Park",
+        "Stockade",
+        "Marker Stone"
+      ],
+      "signature": null,
+      "name_es": "Hacedor de Fuertes"
+    },
+    {
+      "name": "Freedom to Proselytize",
+      "star": 5,
+      "type": "Arts Unit",
+      "stat": "Will",
+      "attribute": "Treatment",
+      "skill": "Medicant",
+      "locations": [
+        "Power Plateau",
+        "Wuling City",
+        "Stockade"
+      ],
+      "signature": "Xaihi Signature",
+      "name_es": "Libertad de Proselitismo"
+    },
+    {
+      "name": "Glorious Memory",
+      "star": 6,
+      "type": "Sword",
+      "stat": "Agi",
+      "attribute": "Crit Rate",
+      "skill": "Twilight",
+      "locations": [
+        "Lodespring",
+        "Wuling City",
+        "Marker Stone"
+      ],
+      "signature": "Protocol Pass: Dark Currents (Rossi)",
+      "name_es": "Memoria Gloriosa"
+    },
+    {
+      "name": "Grand Vision",
+      "star": 6,
+      "type": "Sword",
+      "stat": "Agi",
+      "attribute": "Attack",
+      "skill": "Infliction",
+      "locations": [
+        "Science Park",
+        "Power Plateau",
+        "Marker Stone"
+      ],
+      "signature": "Endmin Signature",
+      "name_es": "Gran Visión"
+    },
+    {
+      "name": "Home Longing",
+      "star": 6,
+      "type": "Handcannon",
+      "stat": "Agi",
+      "attribute": "Cryo DMG",
+      "skill": "Suppression",
+      "locations": [
+        "The Hub",
+        "Science Park",
+        "Lodespring",
+        "Stockade",
+        "Test Area"
+      ],
+      "signature": "Protocol Pass: Dark Currents (Tangtang)",
+      "name_es": "Añoranza del Hogar"
+    },
+    {
+      "name": "JET",
+      "star": 6,
+      "type": "Polearm",
+      "stat": "Main",
+      "attribute": "Attack",
+      "skill": "Suppression",
+      "locations": [
+        "The Hub",
+        "Science Park"
+      ],
+      "signature": "1",
+      "name_es": "JET"
+    },
+    {
+      "name": "Khravengger",
+      "star": 6,
+      "type": "Greatsword",
+      "stat": "Str",
+      "attribute": "Attack",
+      "skill": "Detonate",
+      "locations": [
+        "The Hub",
+        "Wuling City"
+      ],
+      "signature": "Last Rite Signature",
+      "name_es": "Khravengger"
+    },
+    {
+      "name": "Lone Barge",
+      "star": 6,
+      "type": "Arts Unit",
+      "stat": "Will",
+      "attribute": "Attack",
+      "skill": "Suppression",
+      "locations": [
+        "The Hub",
+        "Science Park"
+      ],
+      "signature": "Zhuang Fangyi Signature",
+      "name_es": "Barcaza Solitaria"
+    },
+    {
+      "name": "Lupine Scarlet",
+      "star": 6,
+      "type": "Sword",
+      "stat": "Agi",
+      "attribute": "Crit Rate",
+      "skill": "Fracture",
+      "locations": [
+        "Science Park",
+        "Power Plateau",
+        "Wuling City"
+      ],
+      "signature": "Rossi Signature",
+      "name_es": "Escarlata Lupina"
+    },
+    {
+      "name": "Monaihe",
+      "star": 5,
+      "type": "Arts Unit",
+      "stat": "Will",
+      "attribute": "Ult Gain",
+      "skill": "Inspiring",
+      "locations": [
+        "Science Park",
+        "Stockade",
+        "Marker Stone"
+      ],
+      "signature": null,
+      "name_es": "Monaihe"
+    },
+    {
+      "name": "Mountain Bearer",
+      "star": 6,
+      "type": "Polearm",
+      "stat": "Agi",
+      "attribute": "Phys DMG",
+      "skill": "Efficacy",
+      "locations": [
+        "Science Park",
+        "Lodespring",
+        "Marker Stone"
+      ],
+      "signature": "Lifeng Signature",
+      "name_es": "Portador de Montaña"
+    },
+    {
+      "name": "Navigator",
+      "star": 6,
+      "type": "Handcannon",
+      "stat": "Int",
+      "attribute": "Cryo DMG",
+      "skill": "Infliction",
+      "locations": [
+        "Science Park",
+        "Lodespring",
+        "Test Area"
+      ],
+      "signature": "Protocol Pass: Awakening (Yvonne)",
+      "name_es": "Navegante"
+    },
+    {
+      "name": "Never Rest",
+      "star": 6,
+      "type": "Sword",
+      "stat": "Will",
+      "attribute": "Attack",
+      "skill": "Flow",
+      "locations": [
+        "The Hub",
+        "Power Plateau",
+        "Wuling City",
+        "Marker Stone"
+      ],
+      "signature": "Pogranichnik Signature",
+      "name_es": "Sin Descanso"
+    },
+    {
+      "name": "OBJ Arts Identifier",
+      "star": 5,
+      "type": "Arts Unit",
+      "stat": "Int",
+      "attribute": "Intensity",
+      "skill": "Pursuit",
+      "locations": [
+        "The Hub",
+        "Power Plateau"
+      ],
+      "signature": "Antal Signature",
+      "name_es": "OBJ Identificador de Arts"
+    },
+    {
+      "name": "OBJ Edge of Lightness",
+      "star": 5,
+      "type": "Sword",
+      "stat": "Agi",
+      "attribute": "Attack",
+      "skill": "Flow",
+      "locations": [
+        "The Hub",
+        "Power Plateau",
+        "Wuling City",
+        "Marker Stone"
+      ],
+      "signature": "Akekuri Signature",
+      "name_es": "OBJ Filo de Ligereza"
+    },
+    {
+      "name": "OBJ Heavy Burden",
+      "star": 5,
+      "type": "Greatsword",
+      "stat": "Str",
+      "attribute": "HP Boost",
+      "skill": "Efficacy",
+      "locations": [
+        "Lodespring"
+      ],
+      "signature": "Catcher Signature",
+      "name_es": "OBJ Carga Pesada"
+    },
+    {
+      "name": "OBJ Razorhorn",
+      "star": 5,
+      "type": "Polearm",
+      "stat": "Will",
+      "attribute": "Phys DMG",
+      "skill": "Infliction",
+      "locations": [
+        "Science Park",
+        "Lodespring",
+        "Power Plateau",
+        "Marker Stone"
+      ],
+      "signature": "Estella Signature",
+      "name_es": "OBJ Cuerno Navaja"
+    },
+    {
+      "name": "OBJ Velocitous",
+      "star": 5,
+      "type": "Handcannon",
+      "stat": "Agi",
+      "attribute": "Ult Gain",
+      "skill": "Detonate",
+      "locations": [
+        "The Hub",
+        "Wuling City",
+        "Stockade"
+      ],
+      "signature": "Flourite Signature",
+      "name_es": "OBJ Veloz"
+    },
+    {
+      "name": "Oblivion",
+      "star": 6,
+      "type": "Arts Unit",
+      "stat": "Int",
+      "attribute": "Arts DMG",
+      "skill": "Twilight",
+      "locations": [
+        "Wuling City",
+        "Stockade",
+        "Marker Stone"
+      ],
+      "signature": null,
+      "name_es": "Olvido"
+    },
+    {
+      "name": "Opus: Etch Figure",
+      "star": 6,
+      "type": "Arts Unit",
+      "stat": "Will",
+      "attribute": "Nature DMG",
+      "skill": "Suppression",
+      "locations": [
+        "The Hub",
+        "Science Park",
+        "Lodespring",
+        "Test Area"
+      ],
+      "signature": "Protocol Pass: Awakening (Gilberta)",
+      "name_es": "Opus: Figura Grabada"
+    },
+    {
+      "name": "Opus: The Living",
+      "star": 5,
+      "type": "Handcannon",
+      "stat": "Agi",
+      "attribute": "Arts DMG",
+      "skill": "Infliction",
+      "locations": [
+        "Science Park",
+        "Marker Stone"
+      ],
+      "signature": null,
+      "name_es": "Opus: Los Vivos"
+    },
+    {
+      "name": "Rapid Ascent",
+      "star": 6,
+      "type": "Sword",
+      "stat": "Main",
+      "attribute": "Crit Rate",
+      "skill": "Twilight",
+      "locations": [
+        "Lodespring",
+        "Wuling City",
+        "Marker Stone"
+      ],
+      "signature": null,
+      "name_es": "Ascenso Rápido"
+    },
+    {
+      "name": "Rational Farewell",
+      "star": 5,
+      "type": "Handcannon",
+      "stat": "Str",
+      "attribute": "Heat DMG",
+      "skill": "Pursuit",
+      "locations": [
+        "The Hub",
+        "Power Plateau",
+        "Marker Stone"
+      ],
+      "signature": "Wulfgard Signature",
+      "name_es": "Despedida Racional"
+    },
+    {
+      "name": "Seeker of Dark Lung",
+      "star": 5,
+      "type": "Greatsword",
+      "stat": "Str",
+      "attribute": "Ult Gain",
+      "skill": "Detonate",
+      "locations": [
+        "The Hub",
+        "Wuling City",
+        "Stockade"
+      ],
+      "signature": null,
+      "name_es": "Buscador del Pulmón Oscuro"
+    },
+    {
+      "name": "Stanza of Memorials",
+      "star": 5,
+      "type": "Arts Unit",
+      "stat": "Int",
+      "attribute": "Attack",
+      "skill": "Twilight",
+      "locations": [
+        "Wuling City",
+        "Marker Stone"
+      ],
+      "signature": null,
+      "name_es": "Estrofa de Memoriales"
+    },
+    {
+      "name": "Sundered Prince",
+      "star": 6,
+      "type": "Greatsword",
+      "stat": "Str",
+      "attribute": "Crit Rate",
+      "skill": "Crusher",
+      "locations": [
+        "Power Plateau",
+        "Wuling City"
+      ],
+      "signature": null,
+      "name_es": "Príncipe Desgarrado"
+    },
+    {
+      "name": "Sundering Steel",
+      "star": 5,
+      "type": "Sword",
+      "stat": "Agi",
+      "attribute": "Phys DMG",
+      "skill": "Combative",
+      "locations": [
+        "Science Park",
+        "Lodespring",
+        "Stockade"
+      ],
+      "signature": null,
+      "name_es": "Acero Desgarrador"
+    },
+    {
+      "name": "Thermite Cutter",
+      "star": 6,
+      "type": "Sword",
+      "stat": "Will",
+      "attribute": "Attack",
+      "skill": "Flow",
+      "locations": [
+        "The Hub",
+        "Power Plateau",
+        "Wuling City",
+        "Marker Stone"
+      ],
+      "signature": null,
+      "name_es": "Cortador de Termita"
+    },
+    {
+      "name": "Thunderberge",
+      "star": 6,
+      "type": "Greatsword",
+      "stat": "Str",
+      "attribute": "HP Boost",
+      "skill": "Medicant",
+      "locations": [
+        "Power Plateau",
+        "Wuling City",
+        "Stockade"
+      ],
+      "signature": "Ember Signature",
+      "name_es": "Thunderberge"
+    },
+    {
+      "name": "Twelve Questions",
+      "star": 5,
+      "type": "Sword",
+      "stat": "Agi",
+      "attribute": "Attack",
+      "skill": "Infliction",
+      "locations": [
+        "Science Park",
+        "Power Plateau",
+        "Marker Stone"
+      ],
+      "signature": "Arclight Signature",
+      "name_es": "Doce Preguntas"
+    },
+    {
+      "name": "Umbral Torch",
+      "star": 6,
+      "type": "Sword",
+      "stat": "Int",
+      "attribute": "Heat DMG",
+      "skill": "Infliction",
+      "locations": [
+        "Lodespring",
+        "Power Plateau",
+        "Marker Stone",
+        "Test Area"
+      ],
+      "signature": "Protocol Pass: Awakening (Laevatain)",
+      "name_es": "Antorcha Umbría"
+    },
+    {
+      "name": "Valiant",
+      "star": 6,
+      "type": "Polearm",
+      "stat": "Agi",
+      "attribute": "Phys DMG",
+      "skill": "Combative",
+      "locations": [
+        "Science Park",
+        "Lodespring",
+        "Stockade"
+      ],
+      "signature": null,
+      "name_es": "Valiente"
+    },
+    {
+      "name": "Wedge",
+      "star": 6,
+      "type": "Handcannon",
+      "stat": "Main",
+      "attribute": "Crit Rate",
+      "skill": "Infliction",
+      "locations": [
+        "Science Park",
+        "Lodespring",
+        "Power Plateau",
+        "Marker Stone"
+      ],
+      "signature": null,
+      "name_es": "Cuña"
+    },
+    {
+      "name": "White Night Nova",
+      "star": 6,
+      "type": "Sword",
+      "stat": "Main",
+      "attribute": "Intensity",
+      "skill": "Infliction",
+      "locations": [
+        "Lodespring",
+        "Power Plateau",
+        "Test Area"
+      ],
+      "signature": null,
+      "name_es": "Nova de Noche Blanca"
+    },
+    {
+      "name": "Wild Wanderer",
+      "star": 5,
+      "type": "Arts Unit",
+      "stat": "Int",
+      "attribute": "Elec DMG",
+      "skill": "Infliction",
+      "locations": [
+        "Science Park",
+        "Marker Stone",
+        "Test Area"
+      ],
+      "signature": "Perlica Signature",
+      "name_es": "Vagabundo Salvaje"
+    },
+    {
+      "name": "Blessing of Lustrous Carmine",
+      "star": 6,
+      "type": "Polearm",
+      "stat": "Agi",
+      "attribute": "Heat DMG",
+      "skill": "Flow",
+      "locations": [
+        "The Hub",
+        "Power Plateau",
+        "Marker Stone",
+        "Test Area"
+      ],
+      "signature": "Camille Signature",
+      "name_es": "Bendición del Carmín Lustroso"
+    },
+    {
+      "name": "Type 42: Solemn Phalanx",
+      "star": 6,
+      "type": "Arts Unit",
+      "stat": "Int",
+      "attribute": "Ult Gain",
+      "skill": "Detonate",
+      "locations": [
+        "The Hub",
+        "Wuling City",
+        "Stockade"
+      ],
+      "signature": "Arcane Signature",
+      "name_es": "Tipo 42: Falange Solemne"
+    },
+    {
+      "name": "Junction Point",
+      "star": 6,
+      "type": "Arts Unit",
+      "stat": "Int",
+      "attribute": "Ult Gain",
+      "skill": "Efficacy",
+      "locations": [
+        "The Hub",
+        "Science Park",
+        "Marker Stone"
+      ],
+      "signature": "Protocol Pass: Blighted Sea (Arcane)",
+      "name_es": "Punto de Unión"
+    },
+    {
+      "name": "Farsight",
+      "star": 6,
+      "type": "Sword",
+      "stat": "Main",
+      "attribute": "Intensity",
+      "skill": "Assault",
+      "locations": [
+        "The Hub",
+        "Lodespring"
+      ],
+      "signature": null,
+      "name_es": "Visión Lejana"
+    }
+  ]
+}

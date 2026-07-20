@@ -1,0 +1,261 @@
+{
+  "id": "arcane",
+  "name": "Arcane",
+  "ranks": 12,
+  "skills": {
+    "basic_attack": {
+      "name": "Artillery Interdiction",
+      "stats": [
+        {
+          "name": "BATK SEQ 1 Multiplier",
+          "unit": "%",
+          "values": [19, 21, 22, 24, 26, 28, 30, 32, 34, 36, 39, 42]
+        },
+        {
+          "name": "BATK SEQ 2 Multiplier",
+          "unit": "%",
+          "values": [21, 23, 26, 28, 30, 32, 34, 36, 38, 41, 44, 48]
+        },
+        {
+          "name": "BATK SEQ 3 Multiplier",
+          "unit": "%",
+          "values": [33, 37, 40, 43, 47, 50, 53, 57, 60, 64, 69, 75]
+        },
+        {
+          "name": "BATK SEQ 4 Multiplier",
+          "unit": "%",
+          "values": [36, 39, 43, 46, 50, 53, 57, 61, 64, 69, 74, 80]
+        },
+        {
+          "name": "BATK SEQ 5 Multiplier",
+          "unit": "%",
+          "values": [47, 52, 56, 61, 66, 71, 75, 80, 85, 90, 98, 106]
+        },
+        {
+          "name": "Finisher ATK Multiplier",
+          "unit": "%",
+          "values": [400, 440, 480, 520, 560, 600, 640, 680, 720, 770, 830, 900]
+        },
+        {
+          "name": "Dive ATK Multiplier",
+          "unit": "%",
+          "values": [80, 88, 96, 104, 112, 120, 128, 136, 144, 154, 166, 180]
+        }
+      ]
+    },
+    "battle_skill": {
+      "name": "Jadecrushing Grid (Array Arcana: INT)",
+      "stats": [
+        {
+          "name": "SP Cost",
+          "values": [100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100]
+        },
+        {
+          "name": "Stagger",
+          "values": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10]
+        },
+        {
+          "name": "DMG Multiplier",
+          "unit": "%",
+          "values": [222, 245, 267, 289, 311, 333, 356, 378, 400, 428, 461, 500]
+        }
+      ]
+    },
+    "battle_skill_will": {
+      "name": "Jadecrushing Grid (Array Arcana: WILL)",
+      "stats": [
+        {
+          "name": "SP Cost",
+          "values": [100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100]
+        },
+        {
+          "name": "Stagger",
+          "values": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10]
+        },
+        {
+          "name": "DMG Multiplier",
+          "unit": "%",
+          "values": [133, 147, 160, 173, 187, 200, 213, 227, 240, 257, 277, 300]
+        }
+      ]
+    },
+    "combo_skill": {
+      "name": "Yinglung Stance IV (Array Arcana: INT)",
+      "stats": [
+        {
+          "name": "Cooldown",
+          "values": [20, 20, 20, 20, 20, 20, 20, 20, 19, 19, 19, 18]
+        },
+        {
+          "name": "Base DMG Multiplier",
+          "unit": "%",
+          "values": [35, 39, 42, 46, 50, 53, 57, 60, 64, 68, 73, 80]
+        },
+        {
+          "name": "Base Stagger",
+          "values": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+        },
+        {
+          "name": "Explosion DMG Multiplier",
+          "unit": "%",
+          "values": [53, 59, 64, 69, 75, 80, 85, 91, 96, 103, 111, 120]
+        },
+        {
+          "name": "Explosion Stagger",
+          "values": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+        },
+        {
+          "name": "Ultimate Energy Gain",
+          "values": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10]
+        },
+        {
+          "name": "Imprisonment and Susceptibility Duration (s)",
+          "values": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+        },
+        {
+          "name": "Susceptibility",
+          "unit": "%",
+          "values": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+        },
+        {
+          "name": "Bonus DMG Multiplier",
+          "unit": "%",
+          "values": [222, 244, 266, 289, 311, 333, 355, 377, 400, 427, 461, 500]
+        },
+        {
+          "name": "Bonus Susceptibility Duration (s)",
+          "values": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+        },
+        {
+          "name": "SP Return",
+          "values": [28, 28, 28, 28, 28, 28, 28, 28, 28, 30, 30, 30]
+        }
+      ]
+    },
+    "combo_skill_will": {
+      "name": "Yinglung Stance IV (Array Arcana: WILL)",
+      "stats": [
+        {
+          "name": "Cooldown",
+          "values": [20, 20, 20, 20, 20, 20, 20, 20, 19, 19, 19, 18]
+        },
+        {
+          "name": "Base DMG Multiplier",
+          "unit": "%",
+          "values": [35, 39, 42, 46, 50, 53, 57, 60, 64, 68, 73, 80]
+        },
+        {
+          "name": "Base Stagger",
+          "values": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+        },
+        {
+          "name": "Explosion DMG Multiplier",
+          "unit": "%",
+          "values": [53, 59, 64, 69, 75, 80, 85, 91, 96, 103, 111, 120]
+        },
+        {
+          "name": "Explosion Stagger",
+          "values": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+        },
+        {
+          "name": "Ultimate Energy Gain",
+          "values": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10]
+        },
+        {
+          "name": "Imprisonment and Susceptibility Duration (s)",
+          "values": [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+        },
+        {
+          "name": "Base Susceptibility",
+          "unit": "%",
+          "values": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+        },
+        {
+          "name": "Max Bonus Susceptibility from Will",
+          "unit": "%",
+          "values": [7, 7, 7, 7, 7, 7, 7, 7, 7.5, 7.5, 7.5, 8]
+        },
+        {
+          "name": "Will Required for Max Bonus Susceptibility",
+          "values": [560, 560, 560, 560, 560, 560, 560, 560, 600, 600, 600, 640]
+        }
+      ]
+    },
+    "ultimate": {
+      "name": "Gloompurge (Array Arcana: INT)",
+      "stats": [
+        {
+          "name": "Ultimate Energy Cost",
+          "values": [100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100]
+        },
+        {
+          "name": "Gloompurger Array Creation DMG Multiplier",
+          "unit": "%",
+          "values": [80, 88, 96, 104, 112, 120, 128, 136, 144, 154, 166, 180]
+        },
+        {
+          "name": "Gloompurger Array Creation Stagger",
+          "values": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10]
+        },
+        {
+          "name": "Gloompurger Array Duration (s)",
+          "values": [20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20]
+        },
+        {
+          "name": "Gloompurge Arcana Stagger",
+          "values": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10]
+        },
+        {
+          "name": "Forced Corrosion Duration (s)",
+          "values": [15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15]
+        },
+        {
+          "name": "Cluster Strike Total DMG Multiplier",
+          "unit": "%",
+          "values": [160, 176, 192, 208, 224, 240, 256, 272, 288, 308, 332, 360]
+        },
+        {
+          "name": "Gloompurge Arcana DMG Multiplier",
+          "unit": "%",
+          "values": [640, 704, 768, 832, 896, 960, 1024, 1088, 1152, 1232, 1328, 1440]
+        }
+      ]
+    },
+    "ultimate_will": {
+      "name": "Gloompurge (Array Arcana: WILL)",
+      "stats": [
+        {
+          "name": "Ultimate Energy Cost",
+          "values": [100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100]
+        },
+        {
+          "name": "Gloompurger Array Creation DMG Multiplier",
+          "unit": "%",
+          "values": [80, 88, 96, 104, 112, 120, 128, 136, 144, 154, 166, 180]
+        },
+        {
+          "name": "Gloompurger Array Creation Stagger",
+          "values": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10]
+        },
+        {
+          "name": "Gloompurger Array Duration (s)",
+          "values": [20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20]
+        },
+        {
+          "name": "Gloompurge Arcana Stagger",
+          "values": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10]
+        },
+        {
+          "name": "Cluster Strike Total DMG Multiplier",
+          "unit": "%",
+          "values": [160, 176, 192, 208, 224, 240, 256, 272, 288, 308, 332, 360]
+        },
+        {
+          "name": "Gloompurge Arcana DMG Multiplier",
+          "unit": "%",
+          "values": [640, 704, 768, 832, 896, 960, 1024, 1088, 1152, 1232, 1328, 1440]
+        }
+      ]
+    }
+  }
+}

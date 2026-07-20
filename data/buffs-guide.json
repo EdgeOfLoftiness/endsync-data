@@ -1,0 +1,212 @@
+{
+  "intro": {
+    "es": "El daño en Endfield es una cadena de ~16 multiplicadores que se multiplican entre sí. Lo que importa es CÓMO entra cada buff: los aditivos se suman dentro de su grupo antes de multiplicar (dos +20% = ×1.40), mientras que los multiplicativos abren su propia casilla (dos ×1.20 = ×1.44). Por eso un buff multiplicativo del mismo tamaño casi siempre rinde más. Aquí está cada tipo, su fórmula y cómo apila.",
+    "en": "Damage in Endfield is a chain of ~16 multipliers multiplied together. What matters is HOW each buff enters: additive ones sum within their group before multiplying (two +20% = ×1.40), while multiplicative ones open their own slot (two ×1.20 = ×1.44). That's why a multiplicative buff of the same size almost always wins. Here's each type, its formula and how it stacks."
+  },
+  "groups": [
+    {
+      "id": "offensive",
+      "title": { "es": "Ofensivos — suben tu daño", "en": "Offensive — raise your damage" },
+      "note": { "es": "Las casillas de la fórmula oficial que dependen de ti o de un debuff en el enemigo.", "en": "The official formula's slots that depend on you or on a debuff on the enemy." },
+      "entries": [
+        {
+          "id": "atk",
+          "name": { "es": "Ataque (ATK% y plano)", "en": "Attack (ATK% and flat)" },
+          "stack": "add",
+          "status": "modeled",
+          "what": { "es": "La base de todo. El ATK% de armas, gear y buffs se SUMA primero; sobre ese total actúan los atributos (primario y secundario) como multiplicador final.", "en": "The base of everything. ATK% from weapons, gear and buffs SUMS first; the attributes (primary and secondary) then act as a final multiplier over that total." },
+          "formula": "ATK_efectivo = ((ATK_op + ATK_arma) × (1 + ΣATK%) + ATK_plano) × (1 + 0.005·prim + 0.002·sec)",
+          "example": { "es": "Un +20% y un +30% de ATK no dan ×1.56, dan ×1.50 (se suman a +50%). Cada punto de atributo primario = +0.5% ATK; secundario, +0.2%.", "en": "A +20% and a +30% ATK aren't ×1.56, they're ×1.50 (they sum to +50%). Each primary attribute point = +0.5% ATK; secondary, +0.2%." }
+        },
+        {
+          "id": "dmg_add",
+          "name": { "es": "Bonus de daño (DMG%)", "en": "Damage bonus (DMG%)" },
+          "stack": "add",
+          "status": "modeled",
+          "what": { "es": "Los 'X DMG Bonus' (elemental, por tipo de skill, o All Skill) se suman entre sí en un solo grupo: 1 más la suma de todos.", "en": "The 'X DMG Bonus' (elemental, by skill type, or All Skill) sum together in a single group: 1 plus the sum of all of them." },
+          "formula": "× (1 + ΣDMG%)",
+          "example": { "es": "Quirk del juego: 'Battle Skill DMG' = 'Combo Skill DMG' (mismo valor). 'All Skill DMG' aplica a battle/combo/ultimate pero NO al ataque básico.", "en": "Game quirk: 'Battle Skill DMG' = 'Combo Skill DMG' (same value). 'All Skill DMG' applies to battle/combo/ultimate but NOT to the basic attack." }
+        },
+        {
+          "id": "dmg_mult",
+          "name": { "es": "Multiplicador de daño (DMG Multiplier)", "en": "Damage Multiplier" },
+          "stack": "mult",
+          "status": "modeled",
+          "what": { "es": "Los efectos que dicen 'Base DMG Multiplier +X%' o 'DMG ×' abren su propia casilla multiplicativa, separada del grupo aditivo. Por eso pesan más.", "en": "Effects that say 'Base DMG Multiplier +X%' or 'DMG ×' open their own multiplicative slot, separate from the additive group. That's why they weigh more." },
+          "formula": "× Π(1 + x)",
+          "example": { "es": "El Combo de Gilberta (Special Mail) suma un ×1.30 propio a su daño de combo, encima de todos los DMG% aditivos.", "en": "Gilberta's Combo (Special Mail) adds its own ×1.30 to her combo damage, on top of every additive DMG%." }
+        },
+        {
+          "id": "amp",
+          "name": { "es": "Amp elemental", "en": "Elemental Amp" },
+          "stack": "mult",
+          "status": "modeled",
+          "what": { "es": "Los buffs de Amp multiplican el daño de su elemento en una casilla aparte. No compiten con los DMG% aditivos: se apilan encima.", "en": "Amp buffs multiply their element's damage in a separate slot. They don't compete with additive DMG%: they stack on top." },
+          "formula": "× (1 + Amp)   (por elemento)",
+          "example": { "es": "Antal reparte Electric+Heat Amp; Xaihi, Cryo+Nature Amp. Por ser multiplicativo, un Amp +20% rinde más que un DMG% +20% aditivo si ya tienes otros DMG%.", "en": "Antal hands out Electric+Heat Amp; Xaihi, Cryo+Nature Amp. Being multiplicative, a +20% Amp beats a +20% additive DMG% once you already have other DMG%." }
+        },
+        {
+          "id": "crit",
+          "name": { "es": "Crítico (tasa y daño)", "en": "Crit (rate and damage)" },
+          "stack": "mult",
+          "status": "modeled",
+          "what": { "es": "Base de 5% de tasa y +50% de daño crítico. Modelamos el VALOR ESPERADO (promedio), no golpe a golpe.", "en": "Base 5% rate and +50% crit damage. We model the EXPECTED value (average), not hit by hit." },
+          "formula": "× (1 + TasaCrit × DañoCrit)",
+          "example": { "es": "Con 60% de tasa y +120% de daño crítico: ×(1 + 0.6·1.2) = ×1.72 en promedio. La tasa se topa en 100%.", "en": "With 60% rate and +120% crit damage: ×(1 + 0.6·1.2) = ×1.72 on average. Rate caps at 100%." }
+        },
+        {
+          "id": "susc",
+          "name": { "es": "Susceptibility (susceptibilidad)", "en": "Susceptibility" },
+          "stack": "enemy",
+          "status": "modeled",
+          "what": { "es": "Debuff en el ENEMIGO que sube el daño que recibe de cierto elemento. Casilla propia, compartida por todo el equipo.", "en": "A debuff on the ENEMY that raises the damage it takes from a given element. Its own slot, shared by the whole team." },
+          "formula": "× (1 + Susc)   (filtra por elemento)",
+          "example": { "es": "Gilberta: su Ultimate aplica Arts Susceptibility +30% base (hasta ~42%) a TODO el daño Arts (no físico) del equipo. No toca DEF ni resistencia: es un multiplicador aparte.", "en": "Gilberta: her Ultimate applies Arts Susceptibility +30% base (up to ~42%) to ALL the team's Arts (non-physical) damage. It doesn't touch DEF or resistance: it's a separate multiplier." }
+        },
+        {
+          "id": "vuln",
+          "name": { "es": "Vulnerability (Increased DMG Taken)", "en": "Vulnerability (Increased DMG Taken)" },
+          "stack": "enemy",
+          "status": "modeled",
+          "what": { "es": "Debuff en el enemigo que sube TODO el daño que recibe, sin filtrar por elemento. Casilla propia, compartida.", "en": "A debuff on the enemy that raises ALL the damage it takes, with no element filter. Its own slot, shared." },
+          "formula": "× (1 + Vulnerability)",
+          "example": { "es": "La cadena física Chen Qianyu / Pogranichnik / Endministrator vive de apilar Vulnerability, que además alimenta Crush y Breach.", "en": "The physical chain Chen Qianyu / Pogranichnik / Endministrator lives on stacking Vulnerability, which also feeds Crush and Breach." }
+        },
+        {
+          "id": "breach",
+          "name": { "es": "Breach (daño físico recibido)", "en": "Breach (Physical DMG taken)" },
+          "stack": "enemy",
+          "status": "modeled",
+          "what": { "es": "El 'armor break' del juego, pero NO baja la DEF: deja al enemigo recibiendo más daño FÍSICO un rato. Consume todos los stacks de Vulnerable (el nivel = stacks consumidos). La DEF de todo enemigo es 100 fija y nunca se reduce.", "en": "The game's 'armor break', but it does NOT lower DEF: it leaves the enemy taking more PHYSICAL damage for a while. Consumes all Vulnerable stacks (level = stacks consumed). Every enemy's DEF is a fixed 100 and is never reduced." },
+          "formula": "Physical DMG Taken += 12/16/20/24% por nivel 1/2/3/4 (dura 12/18/24/30 s)",
+          "example": { "es": "Entra por la vía de Vulnerability / Increased DMG Taken (enemyDmgTaken físico), igual que cualquier 'Physical DMG Taken +X%'. No existe shred de DEF en Endfield.", "en": "Applied via Vulnerability / Increased DMG Taken (physical enemyDmgTaken), like any 'Physical DMG Taken +X%'. There is no DEF shred in Endfield." }
+        },
+        {
+          "id": "corrosion",
+          "name": { "es": "Resistencia ↓ (Corrosión)", "en": "Resistance ↓ (Corrosion)" },
+          "stack": "enemy",
+          "status": "modeled",
+          "what": { "es": "A diferencia de la DEF, la resistencia elemental SÍ se reduce de forma habitual. La Corrosión (reacción de Nature) la baja con rampa en el tiempo.", "en": "Unlike DEF, elemental resistance IS reduced routinely. Corrosion (a Nature reaction) lowers it, ramping up over time." },
+          "formula": "ResMult = res_base + Corrosión/100   (1 = neutral, >1 débil)",
+          "example": { "es": "La resistencia se guarda como multiplicador: 0.8 = resiste (−20%), 1.0 = neutral, 1.2 = débil (+20%). Reducir resistencia SUMA al multiplicador.", "en": "Resistance is stored as a multiplier: 0.8 = resists (−20%), 1.0 = neutral, 1.2 = weak (+20%). Lowering resistance ADDS to the multiplier." }
+        },
+        {
+          "id": "res_ignore",
+          "name": { "es": "Ignorar resistencia", "en": "Resistance Ignore" },
+          "stack": "enemy",
+          "status": "modeled",
+          "what": { "es": "Algunas skills ignoran un % plano de la resistencia de su elemento, aparte de la Corrosión.", "en": "Some skills ignore a flat % of their element's resistance, on top of Corrosion." },
+          "formula": "ResMult += Ignore",
+          "example": { "es": "Laevatain ignora resistencia de Heat; Zhuang Fangyi, de Electric. Se suma encima del shred por Corrosión.", "en": "Laevatain ignores Heat resistance; Zhuang Fangyi, Electric. It adds on top of the Corrosion shred." }
+        },
+        {
+          "id": "stagger",
+          "name": { "es": "Tambaleo", "en": "Stagger" },
+          "stack": "mult",
+          "status": "partial",
+          "what": { "es": "Cuando el enemigo está en stagger recibe un bonus de daño plano definido por enemigo.", "en": "While the enemy is staggered it takes a flat damage bonus defined per enemy." },
+          "formula": "× staggerMult   (solo en stagger)",
+          "example": { "es": "El valor está por enemigo (enemies.json). El motor lo soporta; la opción se quitó de la calculadora, así que hoy se asume sin stagger (×1).", "en": "The value is per enemy (enemies.json). The engine supports it; the option was removed from the calculator, so today no-stagger (×1) is assumed." }
+        },
+        {
+          "id": "finisher",
+          "name": { "es": "Remate", "en": "Finisher", "jp": "終撃", "zh": "处决" },
+          "stack": "mult",
+          "status": "pending",
+          "what": { "es": "Multiplicador por 'tier' de rematador. Su fórmula es conocida, pero no tenemos la data por operador, así que hoy lo dejamos en ×1.", "en": "A multiplier by finisher 'tier'. Its formula is known, but we don't have per-operator data, so today it stays ×1." },
+          "formula": "× 1.0 – 1.75   (según tier)"
+        },
+        {
+          "id": "link",
+          "name": { "es": "Enlace", "en": "Link", "jp": "リンク", "zh": "连击" },
+          "stack": "mult",
+          "status": "pending",
+          "what": { "es": "Buff que enlaza al carry y escala su daño de skill. Lo tienen Akekuri y Lifeng. Modelable, pero sin tabla por operador todavía: hoy ×1.", "en": "A buff that links to the carry and scales its skill damage. Akekuri and Lifeng have it. Modelable, but no per-operator table yet: today ×1." },
+          "formula": "× skill 0.3–0.75 / ult 0.2–0.5",
+          "example": { "es": "El Link de Akekuri escala el Battle Skill del carry (clave con Avywenna y Laevatain). Pendiente de cablear al motor.", "en": "Akekuri's Link scales the carry's Battle Skill (key with Avywenna and Laevatain). Pending wiring into the engine." }
+        },
+        {
+          "id": "defensive_chain",
+          "name": { "es": "Weaken · Protection · DMG Reduction", "en": "Weaken · Protection · DMG Reduction" },
+          "stack": "na",
+          "status": "defensive",
+          "what": { "es": "Existen en la fórmula, pero reducen el daño ENTRANTE (el que recibe tu equipo) o el daño del enemigo, no el tuyo saliente. Por eso valen ×1 para tu daño y se cuentan en el eje defensivo.", "en": "They exist in the formula, but they reduce INCOMING damage (what your team takes) or the enemy's damage, not your outgoing damage. So they're ×1 for your damage and count on the defensive axis." }
+        }
+      ]
+    },
+    {
+      "id": "reactions",
+      "title": { "es": "Reacciones y estados — rama aparte", "en": "Reactions & states — a separate branch" },
+      "note": { "es": "Las reacciones Arts (Burst/Reaction/Shatter) y los estados físicos (Crush, Breach, Combustión…) usan la MISMA fórmula que un golpe normal, con un daño base propio y dos factores extra. Aquí SÍ entra el nivel del operador.", "en": "Arts reactions (Burst/Reaction/Shatter) and physical states (Crush, Breach, Combustion…) use the SAME formula as a normal hit, with their own base multiplier and two extra factors. Here the operator's level DOES matter." },
+      "entries": [
+        {
+          "id": "hidden_level",
+          "name": { "es": "Multiplicador por nivel (oculto)", "en": "Level multiplier (hidden)" },
+          "stack": "mult",
+          "status": "modeled",
+          "what": { "es": "El nivel del operador NO afecta el daño de skill directo, pero SÍ las reacciones y estados, vía un multiplicador oculto.", "en": "The operator's level does NOT affect direct skill damage, but it DOES affect reactions and states, via a hidden multiplier." },
+          "formula": "Arts: 1 + (Nivel−1)/196   ·   Físicos: 1 + (Nivel−1)/392",
+          "example": { "es": "A nivel 90: Arts ×1.454, físicos ×1.227.", "en": "At level 90: Arts ×1.454, physical ×1.227." }
+        },
+        {
+          "id": "arts_intensity",
+          "name": { "es": "Intensidad de artes", "en": "Arts Intensity", "jp": "アーツ強度", "zh": "源石技艺强度" },
+          "stack": "mult",
+          "status": "modeled",
+          "what": { "es": "1 punto = +1% de daño de reacciones/estados/DoT. NO aplica al daño de skill directo (solo a la rama de reacciones).", "en": "1 point = +1% damage on reactions/states/DoT. It does NOT apply to direct skill damage (only to the reaction branch)." },
+          "formula": "× (1 + ArtsIntensity / 100)"
+        },
+        {
+          "id": "reaction_base",
+          "name": { "es": "Daño base de cada efecto", "en": "Each effect's base damage" },
+          "stack": "na",
+          "status": "modeled",
+          "what": { "es": "Cada efecto trae su propio % base, que escala con stacks o Status Level. La reacción usa el ATK del operador que aplica el elemento DETONANTE, no el que puso el primero.", "en": "Each effect carries its own base %, scaling with stacks or Status Level. The reaction uses the ATK of the operator who applies the DETONATING element, not the one who applied the first." },
+          "formula": "Arts Burst 160% · Arts Reaction 80% +80%/stack · Crush 150% +150%/Vuln · Breach 50% +50%/Vuln · Shatter 120% +120%/nivel · Combustión 12% +12%/nivel · Lift/Knock 120%"
+        }
+      ]
+    },
+    {
+      "id": "resource",
+      "title": { "es": "Recursos — no multiplican daño", "en": "Resources — not damage multipliers" },
+      "note": { "es": "No son multiplicadores: alimentan la rotación. Su matemática es de economía (cuántas skills y ultis lanzas por ventana), no de daño por golpe. Se modelan en Meta › Rotación.", "en": "Not multipliers: they feed the rotation. Their math is economy (how many skills and ults you fire per window), not per-hit damage. Modeled in Meta › Rotation." },
+      "entries": [
+        {
+          "id": "sp",
+          "name": { "es": "SP (Skill Points)", "en": "SP (Skill Points)" },
+          "stack": "na",
+          "status": "external",
+          "what": { "es": "Pool compartido (máx 300, +8/s pasivo). Las skills lo gastan; autos, sets y algunas skills lo devuelven. Más SP = más skills por ventana.", "en": "Shared pool (max 300, +8/s passive). Skills spend it; autos, sets and some skills return it. More SP = more skills per window." }
+        },
+        {
+          "id": "ult_gain",
+          "name": { "es": "Eficiencia de ganancia máxima", "en": "Ultimate Gain Efficiency", "jp": "必殺チャージの回復効率", "zh": "终结技充能效率" },
+          "stack": "na",
+          "status": "external",
+          "what": { "es": "Acelera la carga de la Ultimate. No sube el daño de un golpe, pero adelanta tu ventana de burst.", "en": "Speeds up Ultimate charge. It doesn't raise a hit's damage, but it brings your burst window forward." }
+        }
+      ]
+    },
+    {
+      "id": "defensive",
+      "title": { "es": "Defensivos y control", "en": "Defensive & control" },
+      "note": { "es": "Protegen al equipo o preparan al enemigo. No entran en tu daño saliente; el tier list los pondera con un plus defensivo.", "en": "They protect the team or set up the enemy. They don't enter your outgoing damage; the tier list weighs them with a defensive bonus." },
+      "entries": [
+        {
+          "id": "shield_heal",
+          "name": { "es": "Escudo · Protection · Cura", "en": "Shield · Protection · Heal" },
+          "stack": "na",
+          "status": "defensive",
+          "what": { "es": "Reducen o absorben el daño entrante. Valor de supervivencia, no de daño.", "en": "They reduce or absorb incoming damage. Survivability value, not damage." }
+        },
+        {
+          "id": "cc",
+          "name": { "es": "Control (Lift · Knock Down · Solidify · Slow · Freeze)", "en": "Control (Lift · Knock Down · Solidify · Slow · Freeze)" },
+          "stack": "na",
+          "status": "defensive",
+          "what": { "es": "Inmoviliza o ralentiza. No es un multiplicador, pero habilita: Lift y Knock Down cargan Vulnerability y abren ventanas; Solidify viene de Cryo.", "en": "Locks down or slows. Not a multiplier, but it enables: Lift and Knock Down build Vulnerability and open windows; Solidify comes from Cryo." }
+        }
+      ]
+    }
+  ]
+}

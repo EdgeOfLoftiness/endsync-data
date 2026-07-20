@@ -1,0 +1,42 @@
+{
+
+  "affliction": { "maxStacks": 4, "duration": "persist", "stackStrategy": "refresh" },
+
+  "reactionByIncoming": { "heat": "combustion", "cryo": "solidification", "electric": "electrification", "nature": "corrosion" },
+  "burstBySameElement": { "heat": "heat_burst", "cryo": "cryo_burst", "electric": "electric_burst", "nature": "nature_burst" },
+
+  "multiplier": {
+    "electrification": { "base": 80, "perLevel": 80, "grp": "arts", "el": "electric" },
+    "corrosion":       { "base": 80, "perLevel": 80, "grp": "arts", "el": "nature" },
+    "combustion":      { "base": 80, "perLevel": 80, "grp": "arts", "el": "heat" },
+    "solidification":  { "base": 80, "perLevel": 80, "grp": "arts", "el": "cryo" },
+    "combustion_dot":  { "base": 12, "perLevel": 12, "grp": "arts", "el": "heat" },
+    "shatter":         { "base": 120, "perLevel": 120, "grp": "phys", "el": "physical" },
+    "crush":           { "base": 150, "perLevel": 150, "grp": "phys", "el": "physical" },
+    "breach":          { "base": 50, "perLevel": 50, "grp": "phys", "el": "physical" },
+    "lift":            { "base": 120, "perLevel": 0, "grp": "phys", "el": "physical" },
+    "knockdown":       { "base": 120, "perLevel": 0, "grp": "phys", "el": "physical" },
+    "artsBurst":       { "base": 160, "perLevel": 0, "grp": "arts", "el": "trigger" }
+  },
+
+  "levelCoeff": { "artsDivisor": 196, "physDivisor": 392, "formula": "1 + (opLevel-1)/divisor" },
+  "artsIntensity": { "dmgPerPoint": 1, "staggerMult": "1 + AI/200", "effectEnhancement": "(2*AI)/(AI+300)" },
+
+  "combustionDot": { "ticks": 10, "intervalS": 1 },
+
+  "durationByStageS": {
+    "electrification": { "1": 12, "2": 18, "3": 24, "4": 30 },
+    "breach":          { "1": 12, "2": 18, "3": 24, "4": 30 },
+    "solidification":  { "1": 6, "2": 7, "3": 8, "4": 9 },
+    "combustion":      { "_flat": 10 },
+    "corrosion":       { "_flat": 15 }
+  },
+
+  "debuffByLevel": {
+    "electrification_dmgTaken": { "1": 12, "2": 16, "3": 20, "4": 24, "_kind": "enemyArtsDmgTaken%" },
+    "breach_dmgTaken":          { "1": 12, "2": 16, "3": 20, "4": 24, "_kind": "enemyPhysDmgTaken%" },
+    "corrosion_initialShred":   { "1": 3.6, "2": 4.8, "3": 6, "4": 7.2, "_kind": "resShred%" },
+    "corrosion_perSecond":      { "1": 0.84, "2": 1.12, "3": 1.4, "4": 1.68, "_kind": "resShred%/s" },
+    "corrosion_maxShred":       { "1": 12, "2": 16, "3": 20, "4": 24, "_kind": "resShred% cap" }
+  }
+}

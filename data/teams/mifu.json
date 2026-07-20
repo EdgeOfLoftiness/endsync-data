@@ -1,0 +1,1679 @@
+{
+  "label": "MI FU",
+  "guideCharId": "mifu",
+  "tagline": {
+    "es": "Mi Fu como main DPS de Crush Physical. Tres equipos para preparar Físico antes de Contingency Contract: core puro con Ardelia o Lifeng, y un híbrido con Rossi de enabler.",
+    "en": "Mi Fu as a Physical Crush main DPS. Three teams to prep Physical before Contingency Contract: a pure core with Ardelia or Lifeng, and a Rossi hybrid with Rossi playing enabler."
+  },
+  "comps": [
+    {
+      "name": {
+        "es": "Maygi — Físico (Ardelia)",
+        "en": "Maygi — Physical (Ardelia)"
+      },
+      "subtitle": {
+        "es": "Mi Fu · Chen Qianyu · Pogranichnik · Ardelia",
+        "en": "Mi Fu · Chen Qianyu · Pogranichnik · Ardelia"
+      },
+      "blurb": {
+        "es": "El core físico puro con sustain. Chen Qianyu fabrica Vulnerability, Mi Fu la consume dos veces por ciclo con su doble Crush, Pog mete Breach y Ardelia cura y deja una Physical Susceptibility larguísima. La versión más cómoda de las tres.",
+        "en": "The pure physical core with sustain. Chen Qianyu manufactures Vulnerability, Mi Fu eats it twice per cycle with her double Crush, Pog applies Breach, and Ardelia heals while leaving a very long Physical Susceptibility. The most comfortable of the three."
+      },
+      "guideVideoId": "mf1",
+      "overview": {
+        "es": "El equipo físico de referencia con Mi Fu de carry. Chen Qianyu sube 2 stacks de Vulnerability por Combo+skill; Mi Fu los consume con su Crush y vuelve a crushear gracias al atajo a la secuencia 2 que le dan su Combo y su Ultimate. Pog aporta Breach y SP, Ardelia cura y mantiene Physical Susceptibility. Mi Fu hace ~60% del daño total del equipo. ~56K de DPS de equipo con una rotación de ~58s (la más larga de las tres). Los cálculos de Maygi NO usan ventana de Stagger: están pensados para el contenido lleno de mobs de Contingency Contract, donde importa el daño sostenido más que el burst de boss. (Cifras con todas las armas promocionales, 6★ a P0 / 5★ a P5; DPS ≠ tiempo de clear.)",
+        "en": "The benchmark physical team with Mi Fu as carry. Chen Qianyu adds 2 Vulnerability stacks per Combo+skill; Mi Fu consumes them with her Crush and crushes again thanks to the shortcut to sequence 2 that her Combo and Ultimate grant. Pog supplies Breach and SP, Ardelia heals and keeps Physical Susceptibility up. Mi Fu does ~60% of the team's total damage. ~56K team DPS over a ~58s rotation (the longest of the three). Maygi's calcs do NOT use a Stagger window: they target Contingency Contract's mob-heavy content, where sustained damage matters more than boss burst. (Figures with all signature weapons, 6★ at P0 / 5★ at P5; DPS ≠ clear time.)"
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Media-Alta",
+          "en": "Mid-High"
+        },
+        "content": {
+          "es": "CC / Mobs y Elites",
+          "en": "CC / Mobs & Elites"
+        },
+        "tags": [
+          {
+            "es": "Físico",
+            "en": "Physical",
+            "jp": "物理",
+            "zh": "物理"
+          },
+          {
+            "es": "Triturar",
+            "en": "Crush",
+            "jp": "猛撃",
+            "zh": "猛击"
+          },
+          {
+            "es": "Vulnerability",
+            "en": "Vulnerability"
+          },
+          {
+            "es": "Con sustain",
+            "en": "Sustain"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "El más cómodo de los tres: Ardelia cura, así que un error no es fatal.",
+          "en": "The most comfortable of the three: Ardelia heals, so a mistake isn't fatal."
+        },
+        {
+          "es": "Physical Susceptibility de Ardelia es larga y potente — cada Crush pega más fuerte.",
+          "en": "Ardelia's Physical Susceptibility is long and strong — every Crush hits harder."
+        },
+        {
+          "es": "Rotación conceptualmente simple: esperas el Combo de Chen para sumar 2 stacks y aprietas el Combo de Mi Fu cuando aparece.",
+          "en": "Conceptually simple rotation: wait for Chen's Combo to add 2 stacks and press Mi Fu's Combo whenever you see it."
+        },
+        {
+          "es": "Cobertura AoE+ST: sirve igual contra grupos que contra un solo objetivo.",
+          "en": "AoE+ST coverage: works against packs and single targets alike."
+        }
+      ],
+      "cons": [
+        {
+          "es": "La rotación más lenta de las tres por la cadencia de cura/buff de Ardelia.",
+          "en": "The slowest rotation of the three because of Ardelia's heal/buff cadence."
+        },
+        {
+          "es": "Depende de alimentar stacks de Vulnerability: sin Chen Qianyu el motor se cae.",
+          "en": "Relies on feeding Vulnerability stacks: without Chen Qianyu the engine stalls."
+        },
+        {
+          "es": "Pog compite por los mismos stacks que Mi Fu, así que hay que retener su Combo.",
+          "en": "Pog competes for the same stacks Mi Fu wants, so you have to hold his Combo."
+        },
+        {
+          "es": "Ardelia y Pog piden bastante Ultimate Gain artificiado (95.7% y 37.4%).",
+          "en": "Ardelia and Pog want a fair bit of artificed Ultimate Gain (95.7% and 37.4%)."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "title": {
+            "es": "Doble dip de Crush",
+            "en": "Crush double-dip"
+          },
+          "body": {
+            "es": "El Battle Skill de Mi Fu (Qingbo Triplex) tiene 3 partes: la 1 es un acercamiento, la 2 es el Crush, y crusheando 3+ stacks desbloqueas la 3, que pega lo mismo que un Crush de 3 stacks y cuenta como daño de Crush. La clave: su Combo (con 3+ stacks de Vulnerability) y su Ultimate la atajan directo a la secuencia 2, así que puede volver a crushear en una ventana corta. Por eso consume Vulnerability dos veces por ciclo.",
+            "en": "Mi Fu's Battle Skill (Qingbo Triplex) is 3-part: part 1 is a gap closer, part 2 is the Crush, and crushing 3+ stacks unlocks part 3, which hits as hard as a 3-stack Crush and counts as Crush damage. The key: her Combo (at 3+ Vulnerability stacks) and her Ultimate both shortcut her straight to sequence 2, so she can crush again in a short window. That's why she consumes Vulnerability twice per cycle."
+          }
+        },
+        {
+          "title": {
+            "es": "Chen Qianyu = fábrica de Vulnerability",
+            "en": "Chen Qianyu = Vulnerability factory"
+          },
+          "body": {
+            "es": "Chen Qianyu sube 2 stacks de Vulnerability por cada Combo+skill, y hace buen daño de paso. Como ella sola lleva el conteo de stacks, toda la rotación se reduce a esperar su cooldown de Combo. Por eso el CDR de Combo (set Qingbo) es tan importante aquí: Combos más rápidos = stacks más rápidos.",
+            "en": "Chen Qianyu adds 2 Vulnerability stacks per Combo+skill, and deals solid damage along the way. Since she solo-stacks the count, the whole rotation boils down to waiting on her Combo cooldown. That's why Combo CDR (the Qingbo set) matters so much here: faster Combos = faster stacks."
+          }
+        },
+        {
+          "title": {
+            "es": "Physical Susceptibility que se acumula",
+            "en": "Stacking Physical Susceptibility"
+          },
+          "body": {
+            "es": "El Combo de Mi Fu se autoaplica Physical Susceptibility, y Ardelia añade una capa larga y fuerte encima. Más Susceptibility = cada Crush entra amplificado, que es donde está casi todo el daño de Mi Fu.",
+            "en": "Mi Fu's Combo self-applies Physical Susceptibility, and Ardelia layers a long, strong one on top. More Susceptibility = every Crush lands amplified, which is where almost all of Mi Fu's damage lives."
+          }
+        },
+        {
+          "title": {
+            "es": "Pog: Breach y SP, pero compite por Vulnerability",
+            "en": "Pog: Breach and SP, but competes for Vulnerability"
+          },
+          "body": {
+            "es": "Pog consume Vulnerability para aplicar Breach (multiplicador de daño Physical) y lo amplifica con el Hot Work Power Cartridge, además de buffear con armas como Thermite Cutter. Pero come los mismos stacks que quiere Mi Fu, así que retienes su Combo y solo usas su skill para meter Breach cuando hay holgura.",
+            "en": "Pog consumes Vulnerability to apply Breach (a Physical damage multiplier) and amps it with the Hot Work Power Cartridge, on top of buffing with weapons like Thermite Cutter. But he eats the same stacks Mi Fu wants, so you hold his Combo and only use his skill to apply Breach when there's slack."
+          }
+        },
+        {
+          "title": {
+            "es": "Mi Fu hace ~60% del daño",
+            "en": "Mi Fu does ~60% of the damage"
+          },
+          "body": {
+            "es": "En un equipo físico Mi Fu es ~60% del daño total, casi todo de Crush con un poco de Basic Attack (la mitad de eso, finisher). Por eso los únicos nodos que vale la pena subir son su Battle Skill (la secuencia 3 escala con él) y su Basic Attack si la juegas on-field.",
+            "en": "In a physical team Mi Fu is ~60% of total damage, almost all Crush with a splash of Basic Attack (half of that a finisher). So the only nodes worth leveling are her Battle Skill (sequence 3 scales with it) and her Basic Attack if you on-field her."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Apertura",
+            "en": "Opener"
+          },
+          "action": {
+            "es": "Empieza con un autoataque de Mi Fu y, en cuanto pega, usa el Battle Skill de Chen Qianyu junto con su Combo Skill y el de Ardelia. Esto siembra los primeros stacks de Vulnerability.",
+            "en": "Start with a Mi Fu autoattack and, the moment it lands, use Chen Qianyu's Battle Skill together with her Combo Skill and Ardelia's. This seeds the first Vulnerability stacks."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Mi Fu — Basic Attack para abrir.",
+                "en": "Mi Fu — Basic Attack to open."
+              }
+            },
+            {
+              "do": {
+                "es": "En cuanto el autoataque conecte: Chen Qianyu — Battle Skill.",
+                "en": "The instant the autoattack connects: Chen Qianyu — Battle Skill."
+              },
+              "note": {
+                "es": "El timing importa: lánzalo justo cuando pega el auto, no antes.",
+                "en": "Timing matters: fire it right as the auto lands, not before."
+              }
+            },
+            {
+              "do": {
+                "es": "A la vez: Chen Qianyu — Combo Skill + Ardelia — Combo Skill.",
+                "en": "At the same time: Chen Qianyu — Combo Skill + Ardelia — Combo Skill."
+              },
+              "note": {
+                "es": "Chen sube 2 stacks de Vulnerability con su Battle Skill + Combo Skill.",
+                "en": "Chen adds 2 Vulnerability stacks from her Battle Skill + Combo Skill."
+              }
+            },
+            {
+              "do": {
+                "es": "Apertura alternativa: si NO hay Vulnerability activa, dispara primero el Combo de Ardelia con un autoataque y luego el Battle Skill + Combo de Chen.",
+                "en": "Alternate opener: if there's NO Vulnerability up, trigger Ardelia's Combo with a basic attack first, then Chen's Battle Skill + Combo."
+              }
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Subir a 4 stacks",
+            "en": "Build to 4 stacks"
+          },
+          "action": {
+            "es": "Autoataca hasta que el Combo de Chen vuelva, repite su Battle Skill + Combo (+2 Vulnerability) y mete el Combo de Mi Fu. Luego usa el Battle Skill de Pog para meter Breach, pero RETÉN su Combo. La rotación entera es básicamente esperar el cooldown de Chen para añadir 2 Vulnerability.",
+            "en": "Basic attack until Chen's Combo is back, repeat her Battle Skill + Combo (+2 Vulnerability) and fire Mi Fu's Combo. Then use Pog's Battle Skill for Breach, but HOLD his Combo. The whole rotation is basically waiting on Chen's cooldown to add 2 Vulnerability."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Sigue autoatacando hasta que el Combo Skill de Chen salga de cooldown.",
+                "en": "Keep basic attacking until Chen's Combo Skill comes off cooldown."
+              }
+            },
+            {
+              "do": {
+                "es": "Chen Qianyu — Battle Skill + Combo Skill otra vez → +2 Vulnerability (vas a 4 stacks).",
+                "en": "Chen Qianyu — Battle Skill + Combo Skill again → +2 Vulnerability (you reach 4 stacks)."
+              }
+            },
+            {
+              "do": {
+                "es": "Mi Fu — Combo Skill en cuanto lo veas.",
+                "en": "Mi Fu — Combo Skill the instant you see it."
+              },
+              "key": true,
+              "note": {
+                "es": "Con 3+ stacks la ataja a la secuencia 2 (segundo Crush). Por debajo de 3 stacks NO hace el atajo.",
+                "en": "At 3+ stacks it shortcuts her to sequence 2 (second Crush). Below 3 stacks it does NOT shortcut."
+              }
+            },
+            {
+              "do": {
+                "es": "Pogranichnik — Battle Skill para aplicar Breach, pero RETÉN su Combo Skill.",
+                "en": "Pogranichnik — Battle Skill to apply Breach, but HOLD his Combo Skill."
+              },
+              "key": true,
+              "note": {
+                "es": "El Combo de Pog come la misma Vulnerability que quiere Mi Fu — no lo gastes.",
+                "en": "Pog's Combo eats the same Vulnerability Mi Fu wants — don't spend it."
+              }
+            }
+          ],
+          "tip": {
+            "es": "Aprieta el Combo de Mi Fu en cuanto lo veas disponible: es daño gratis que además la ataja al segundo Crush.",
+            "en": "Press Mi Fu's Combo the instant it's available: it's free damage that also shortcuts her to the second Crush."
+          }
+        },
+        {
+          "phase": {
+            "es": "Cadena de Combos",
+            "en": "Combo chain"
+          },
+          "action": {
+            "es": "Cuando proquee el Combo de Ardelia, lanza ambos Combos a la vez. En cuanto el de Chen esté listo, usa su Battle Skill + Combo y cancela la ralentización de tiempo con la Ultimate de Ardelia. Después usa el Battle Skill de Ardelia en cuanto esté disponible.",
+            "en": "When Ardelia's Combo procs, fire both Combos at once. As soon as Chen's is ready, use her Battle Skill + Combo and cancel the time-slow with Ardelia's Ultimate. Then use Ardelia's Battle Skill as soon as it's up."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Cuando el Combo de Ardelia esté disponible (proc), lanza ambos Combos a la vez.",
+                "en": "When Ardelia's Combo becomes available (procs), fire both Combos at once."
+              }
+            },
+            {
+              "do": {
+                "es": "En cuanto el Combo de Chen esté listo: Chen — Battle Skill + Combo Skill.",
+                "en": "As soon as Chen's Combo is ready: Chen — Battle Skill + Combo Skill."
+              }
+            },
+            {
+              "do": {
+                "es": "Cancela la ralentización de tiempo de Chen con la Ultimate de Ardelia.",
+                "en": "Cancel Chen's time-slow with Ardelia's Ultimate."
+              },
+              "key": true,
+              "note": {
+                "es": "El skill de Chen ralentiza el tiempo; la Ulti de Ardelia lo corta para no perder ritmo.",
+                "en": "Chen's skill slows time; Ardelia's Ulti cancels it so you don't lose tempo."
+              }
+            },
+            {
+              "do": {
+                "es": "Ardelia — Battle Skill en cuanto esté disponible (Physical Susceptibility + cura).",
+                "en": "Ardelia — Battle Skill as soon as it's available (Physical Susceptibility + heal)."
+              }
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Burst de Mi Fu",
+            "en": "Mi Fu burst"
+          },
+          "action": {
+            "es": "Espera el Combo de Chen para volver a 4 stacks, usa Battle Skill + Combo + Ultimate de Chen con el Combo de Mi Fu, y remata con Mi Fu: Battle Skill → finisher → secuencia 3. En paralelo, Combo + Ultimate de Pog. Cierra con Chen otra vez + la Ultimate de Mi Fu y sus skills.",
+            "en": "Wait for Chen's Combo to get back to 4 stacks, use Chen's Battle Skill + Combo + Ultimate with Mi Fu's Combo, and finish with Mi Fu: Battle Skill → finisher → sequence 3. In parallel, Pog's Combo + Ultimate. Close with Chen again + Mi Fu's Ultimate and her skills."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Contra enemigos de bajo Stagger puedes usar ya la Ultimate de Chen. Si no, espera a su Combo.",
+                "en": "Against low-Stagger enemies you can use Chen's Ultimate now. Otherwise, wait for her Combo."
+              },
+              "note": {
+                "es": "Opcional/situacional según el Stagger del objetivo.",
+                "en": "Optional/situational depending on the target's Stagger."
+              }
+            },
+            {
+              "do": {
+                "es": "Chen — Battle Skill + Combo Skill + Ultimate, junto con el Combo de Mi Fu (vuelves a 4 stacks).",
+                "en": "Chen — Battle Skill + Combo Skill + Ultimate, along with Mi Fu's Combo (back to 4 stacks)."
+              }
+            },
+            {
+              "do": {
+                "es": "Mi Fu — Battle Skill → finisher → secuencia 3 (skill 3).",
+                "en": "Mi Fu — Battle Skill → finisher → sequence 3 (skill 3)."
+              },
+              "key": true,
+              "note": {
+                "es": "Usa el Battle Skill ANTES del finisher: así te llevas los buffs del set y del arma promocional.",
+                "en": "Use the Battle Skill BEFORE the finisher: that's what grants the set and signature-weapon buffs."
+              }
+            },
+            {
+              "do": {
+                "es": "Mientras tanto: Pogranichnik — Combo Skill + Ultimate.",
+                "en": "Meanwhile: Pogranichnik — Combo Skill + Ultimate."
+              }
+            },
+            {
+              "do": {
+                "es": "Cierre: Chen — Battle Skill + Combo otra vez, más la Ultimate de Mi Fu y sus skills de nuevo (segundo burst).",
+                "en": "Close: Chen — Battle Skill + Combo again, plus Mi Fu's Ultimate and her skills again (second burst)."
+              }
+            }
+          ],
+          "tip": {
+            "es": "Importante: usa el skill de Mi Fu ANTES del finisher, para llevarte los buffs del set y del arma promocional.",
+            "en": "Important: use Mi Fu's skill BEFORE the finisher, to gain the buffs from her set and signature weapon."
+          }
+        }
+      ],
+      "rotationVariants": [
+        {
+          "name": {
+            "es": "Regla general (resumen)",
+            "en": "Rule of thumb (summary)"
+          },
+          "description": {
+            "es": "Si la rotación completa te abruma, redúcela a esto: como Chen lleva ella sola el conteo de Vulnerability, en el fondo solo estás esperando su Combo para sumar 2 stacks y apretando el Combo de Mi Fu cada vez que aparece.",
+            "en": "If the full rotation overwhelms you, boil it down to this: since Chen solo-stacks Vulnerability, you're really just waiting on her Combo to add 2 stacks and pressing Mi Fu's Combo whenever it shows up."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "1 · Arranca el Vuln",
+                "en": "1 · Start the Vuln"
+              },
+              "action": {
+                "es": "Si no hay Vulnerability, dispara primero el Combo de Ardelia con un autoataque, y luego el Battle Skill + Combo de Chen.",
+                "en": "If there's no Vulnerability, trigger Ardelia's Combo with a basic attack first, then Chen's Battle Skill + Combo."
+              },
+              "steps": [
+                {
+                  "do": {
+                    "es": "Si no hay Vulnerability: dispara primero el Combo de Ardelia con un autoataque.",
+                    "en": "If there's no Vulnerability: trigger Ardelia's Combo with a basic attack first."
+                  }
+                },
+                {
+                  "do": {
+                    "es": "Luego: Battle Skill + Combo de Chen.",
+                    "en": "Then: Chen's Battle Skill + Combo."
+                  }
+                }
+              ]
+            },
+            {
+              "phase": {
+                "es": "2 · Llega a 4 stacks",
+                "en": "2 · Get to 4 stacks"
+              },
+              "action": {
+                "es": "Espera el cooldown del Combo de Chen y vuelve a sumar 2 Vulnerability hasta tener 4.",
+                "en": "Wait for Chen's Combo cooldown and add 2 more Vulnerability until you have 4."
+              },
+              "steps": [
+                {
+                  "do": {
+                    "es": "Espera el cooldown del Combo de Chen.",
+                    "en": "Wait for Chen's Combo cooldown."
+                  },
+                  "note": {
+                    "es": "Chen lleva ella sola el conteo de Vulnerability: en el fondo solo estás esperando su Combo.",
+                    "en": "Chen solo-stacks Vulnerability: you're really just waiting on her Combo."
+                  }
+                },
+                {
+                  "do": {
+                    "es": "Vuelve a sumar 2 Vulnerability hasta tener 4.",
+                    "en": "Add 2 more Vulnerability until you have 4."
+                  }
+                }
+              ]
+            },
+            {
+              "phase": {
+                "es": "3 · Consume con Mi Fu",
+                "en": "3 · Consume with Mi Fu"
+              },
+              "action": {
+                "es": "Aprieta el Combo de Mi Fu cada vez que lo veas. Si hay holgura, mete Breach con el Battle Skill de Pog; si no, encadena los skills de Mi Fu. Cuando el Combo de Chen vuelva, sube otros 2 Vulnerability y lanza la Ultimate + skills de Mi Fu para el segundo burst.",
+                "en": "Press Mi Fu's Combo whenever you see it. If there's slack, apply Breach with Pog's Battle Skill; otherwise chain Mi Fu's skills. When Chen's Combo returns, stack 2 more Vulnerability and fire Mi Fu's Ultimate + skills for the second burst."
+              },
+              "steps": [
+                {
+                  "do": {
+                    "es": "Aprieta el Combo de Mi Fu cada vez que lo veas.",
+                    "en": "Press Mi Fu's Combo whenever you see it."
+                  },
+                  "note": {
+                    "es": "Es daño gratis que además la ataja al segundo Crush.",
+                    "en": "It's free damage that also shortcuts her to the second Crush."
+                  }
+                },
+                {
+                  "do": {
+                    "es": "Si hay holgura, mete Breach con el Battle Skill de Pog; si no, encadena los skills de Mi Fu.",
+                    "en": "If there's slack, apply Breach with Pog's Battle Skill; otherwise chain Mi Fu's skills."
+                  },
+                  "note": {
+                    "es": "Retén el Combo de Pog: come la misma Vulnerability que quiere Mi Fu.",
+                    "en": "Hold Pog's Combo: it eats the same Vulnerability Mi Fu wants."
+                  }
+                },
+                {
+                  "do": {
+                    "es": "Cuando el Combo de Chen vuelva: sube otros 2 Vulnerability y lanza la Ultimate + skills de Mi Fu para el segundo burst.",
+                    "en": "When Chen's Combo returns: stack 2 more Vulnerability and fire Mi Fu's Ultimate + skills for the second burst."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "mifu",
+          "order": "Battle Skill > Basic Attack",
+          "note": {
+            "es": "La secuencia 3 escala con el Battle Skill. Sube el Basic Attack solo si la juegas on-field.",
+            "en": "Sequence 3 scales with the Battle Skill. Level Basic Attack only if you on-field her."
+          }
+        },
+        {
+          "charId": "chenqianyu",
+          "order": "Combo Skill > Battle Skill > Ultimate",
+          "note": {
+            "es": "El Combo es la fuente de los 2 Vulnerability. Prioridad absoluta.",
+            "en": "The Combo is the source of the 2 Vulnerability. Top priority."
+          }
+        },
+        {
+          "charId": "pogranichnik",
+          "order": "Battle Skill > Combo Skill",
+          "note": {
+            "es": "Skill para meter Breach. Su daño personal aquí no importa.",
+            "en": "Skill to apply Breach. His personal damage doesn't matter here."
+          }
+        },
+        {
+          "charId": "ardelia",
+          "order": "Combo Skill > Battle Skill > Ultimate",
+          "note": {
+            "es": "Combo+skill para la Physical Susceptibility y la cura; Ultimate para cancelar el time-slow de Chen.",
+            "en": "Combo+skill for Physical Susceptibility and healing; Ultimate to cancel Chen's time-slow."
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Usar el finisher de Mi Fu ANTES de su skill: pierdes los buffs del set y del arma promocional.",
+          "en": "Using Mi Fu's finisher BEFORE her skill: you lose the set and signature-weapon buffs."
+        },
+        {
+          "es": "Gastar el Combo de Pog y robarle a Mi Fu los stacks de Vulnerability que necesita.",
+          "en": "Spending Pog's Combo and stealing the Vulnerability stacks Mi Fu needs."
+        },
+        {
+          "es": "Disparar el Combo de Mi Fu sin 3+ stacks: no se ataja a la secuencia 2 ni desbloquea la 3.",
+          "en": "Firing Mi Fu's Combo without 3+ stacks: it won't shortcut to sequence 2 or unlock part 3."
+        },
+        {
+          "es": "Olvidar reaplica la Physical Susceptibility de Ardelia entre bursts.",
+          "en": "Forgetting to reapply Ardelia's Physical Susceptibility between bursts."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "Mi Fu — Físico (Lifeng)",
+            "en": "Mi Fu — Physical (Lifeng)"
+          },
+          "verdict": {
+            "es": "Lifeng tiene el DPS de equipo más alto (~61K) y rota en ~51s, frente a los ~56K/~58s de Ardelia. Gana en DPS y velocidad, pero pierde la cura. Elige Ardelia por la red de seguridad; Lifeng si dominas el contenido.",
+            "en": "Lifeng has the highest team DPS (~61K) and rotates in ~51s, vs Ardelia's ~56K/~58s. It wins on DPS and speed, but loses the healing. Pick Ardelia for the safety net; Lifeng if you know the content."
+          }
+        },
+        {
+          "name": {
+            "es": "Mi Fu — Híbrido Rossi",
+            "en": "Mi Fu — Rossi Hybrid"
+          },
+          "verdict": {
+            "es": "El híbrido rota en ~41s (la más corta) con ~58K de DPS. No usa la Ultimate de Mi Fu, pero exige timings más finos (combo de Rossi, ventana de electrocute). DPS final muy parejo entre los tres (56–61K): su rotación corta le deja one-rotear casi todo aunque su daño total por vuelta sea el más bajo.",
+            "en": "The hybrid rotates in ~41s (the shortest) at ~58K DPS. It doesn't use Mi Fu's Ultimate, but demands tighter timings (Rossi's combo, the electrocute window). Final DPS is very close across all three (56–61K): its short rotation lets it one-rota most content even though its total damage per loop is the lowest."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "mifu",
+          "role": "Carry",
+          "weaponId": "wpn_claym_0017",
+          "gearRec": [
+            "swordmancer_light_armor",
+            "grizzled_edge_gauntlets",
+            "grizzled_edge_push_knife",
+            "grizzled_edge_push_knife"
+          ],
+          "weaponNote": {
+            "es": "Amaranthine Tassel, su arma promocional, da un salto considerable (~+15% sobre el arma del Battle Pass maxeada): es claramente lo mejor. Exemplar supera a Phantom Pain a igual inversión; pero Phantom Pain concentra su valor en el daño de Crush (lleva Arts Intensity de base), así que puede rendir mejor en CC, que carga mucho el daño de reacción.",
+            "en": "Amaranthine Tassel, her signature weapon, is a sizable jump (~+15% over the maxed Battle Pass weapon): clearly the best. Exemplar beats Phantom Pain at equal investment; but Phantom Pain concentrates its value into Crush damage (it carries Arts Intensity as a base stat), so it may pull ahead in CC, which heavily shills reaction damage."
+          },
+          "gearNote": {
+            "es": "Build genérica con Ultimate Gain: Swordmancer Light Armor + 3pc Grizzled Edge (guantes + 2 push knives). El \"ATK al aplicar Crush/Breach\" de Grizzled Edge está hecho a su medida. Usa esta build cuando la rotación gasta su Ultimate (Ardelia y Lifeng).",
+            "en": "Generic build with Ultimate Gain: Swordmancer Light Armor + 3pc Grizzled Edge (gauntlets + 2 push knives). Grizzled Edge's \"ATK on Crush/Breach\" is tailor-made for her. Use this build when the rotation spends her Ultimate (Ardelia and Lifeng)."
+          },
+          "deepNote": {
+            "es": "Mi Fu es la carry y ~60% del daño del equipo, casi todo de Crush. El motor es el doble Crush: un Crush de 3+ stacks desbloquea su secuencia 3 (un segundo crush que vale como un Crush de 3 stacks), y su Combo y su Ultimate la atajan a la secuencia 2 para crushear otra vez en poco tiempo. Su trabajo es comerse los stacks de Vulnerability que el equipo le alimenta. Sube su Battle Skill (la secuencia 3 escala con él) y el Basic Attack si la juegas on-field.",
+            "en": "Mi Fu is the carry and ~60% of team damage, almost all Crush. The engine is the double Crush: a 3+ stack Crush unlocks her sequence 3 (a second crush worth a 3-stack Crush), and her Combo and Ultimate shortcut her to sequence 2 to crush again shortly after. Her job is eating the Vulnerability stacks the team feeds her. Level her Battle Skill (sequence 3 scales with it) and Basic Attack if you on-field her."
+          }
+        },
+        {
+          "id": "chenqianyu",
+          "role": "Enabler",
+          "weaponId": "wpn_sword_0017",
+          "gearRec": [
+            "swordmancer_heavy_armor",
+            "qingbo_gauntlets",
+            "qingbo_kit",
+            "qingbo_kit"
+          ],
+          "weaponNote": {
+            "es": "Tiene un arsenal enorme de stat sticks. Lupine Scarlet (arma promocional de Rossi) y Grand Vision (la de Endmin) son muy fuertes solo por stats base. Glorious Memory (arma del Battle Pass de Rossi) es excelente maxeada, con Eminent Repute apenas por detrás. Sundering Steel P5 ≈ 104%; Rapid Ascent va de 98.5% (P0) a 107.6% (P5). Pick práctico: Glorious Memory.",
+            "en": "She has a huge arsenal of stat sticks. Lupine Scarlet (Rossi's signature weapon) and Grand Vision (Endmin's) are very strong on base stats alone. Glorious Memory (Rossi's Battle Pass weapon) is excellent maxed, with Eminent Repute just behind. Sundering Steel P5 ≈ 104%; Rapid Ascent ranges 98.5% (P0) to 107.6% (P5). Practical pick: Glorious Memory."
+          },
+          "gearNote": {
+            "es": "Swordmancer Heavy Armor T1 + 3pc Qingbo. El CDR de Combo de Qingbo es lo más importante: ella sola lleva los stacks de Vulnerability, así que Combos más rápidos = stacks más rápidos. Si no tienes su P4, puedes usar Qingbo Heavy Armor para Ultimate Gain.",
+            "en": "Swordmancer Heavy Armor T1 + 3pc Qingbo. Qingbo's Combo CDR is the priority: she solo-stacks Vulnerability, so faster Combos = faster stacks. If you don't have her P4, you can use Qingbo Heavy Armor for Ultimate Gain."
+          },
+          "deepNote": {
+            "es": "Chen Qianyu es la fábrica de Vulnerability del equipo: 2 stacks por Combo+skill, y de paso buen daño. Como marca el ritmo de toda la rotación, su cooldown de Combo es el reloj del equipo.",
+            "en": "Chen Qianyu is the team's Vulnerability factory: 2 stacks per Combo+skill, plus solid damage. Since she paces the whole rotation, her Combo cooldown is the team's clock."
+          }
+        },
+        {
+          "id": "pogranichnik",
+          "role": "Buffer",
+          "weaponId": "wpn_sword_0012",
+          "gearRec": [
+            "frontiers_protection_suit",
+            "frontiers_blight_res_gloves",
+            "frontiers_o2_tube",
+            "hot_work_power_cartridge"
+          ],
+          "weaponNote": {
+            "es": "Thermite Cutter y Never Rest están muy parejos en poder de buff, con Thermite por delante por poco. Eminent Repute también sirve. Como su daño no es relevante aquí, prioriza buffear al equipo.",
+            "en": "Thermite Cutter and Never Rest are very close in buffing power, with Thermite slightly ahead. Eminent Repute also works. Since his damage isn't relevant here, prioritize buffing the team."
+          },
+          "gearNote": {
+            "es": "Frontiers para buffear al equipo + Hot Work Power Cartridge para amplificar su Breach. Necesita 37.4% de Ultimate Gain en total, así que hace falta algo de artificing.",
+            "en": "Frontiers to buff the team + Hot Work Power Cartridge to amp his Breach. He needs 37.4% Ultimate Gain total, so some artificing is required."
+          },
+          "deepNote": {
+            "es": "Pog rinde a través de Breach + SP + buffs de party, no por daño propio (que aquí no cuenta). Cuidado: consume la misma Vulnerability que quiere Mi Fu, así que retienes su Combo y solo usas su skill para meter Breach cuando hay holgura.",
+            "en": "Pog pays off through Breach + SP + party buffs, not personal damage (which doesn't count here). Careful: he consumes the same Vulnerability Mi Fu wants, so you hold his Combo and only use his skill to apply Breach when there's slack."
+          }
+        },
+        {
+          "id": "ardelia",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0005",
+          "gearRec": [
+            "bonekrusha_poncho_t1",
+            "eternal_xiranite_gloves_t1",
+            "eternal_xiranite_auxiliary_arm",
+            "eternal_xiranite_auxiliary_arm"
+          ],
+          "weaponNote": {
+            "es": "Stanza (Stanza of Memorials) es la única opción real de buff: su arma promocional solo buffea daño de Arts, que aquí no sirve.",
+            "en": "Stanza (Stanza of Memorials) is the only real buffing option: her signature weapon only buffs Arts damage, useless here."
+          },
+          "gearNote": {
+            "es": "Eternal Xiranite por poder de buff. Redeemer Armor da un poco más de UGE pero no hace falta. Lo ideal es 95.7% de UGE, lo que requiere artificing.",
+            "en": "Eternal Xiranite for buffing power. Redeemer Armor gives slightly more UGE but isn't needed. 95.7% UGE is ideal, which requires artificing."
+          },
+          "deepNote": {
+            "es": "Ardelia es cura + buff: trae una Physical Susceptibility potente y muy duradera y cura, a cambio de una rotación más lenta. Su Ultimate además cancela el time-slow de Chen.",
+            "en": "Ardelia is heal + buff: she brings a powerful, long-lasting Physical Susceptibility and healing, at the cost of a slower rotation. Her Ultimate also cancels Chen's time-slow."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Físico puro con sustain. La idea es alimentar Vulnerability constante para que Mi Fu crushee dos veces por ciclo, mientras Pog mete Breach y Ardelia sostiene. Ardelia y Pog piden Ultimate Gain artificiado para que sus Ultimates lleguen a tiempo.",
+          "en": "Pure physical with sustain. The idea is to feed constant Vulnerability so Mi Fu crushes twice per cycle, while Pog applies Breach and Ardelia sustains. Ardelia and Pog want artificed Ultimate Gain so their Ultimates land on time."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Rotaciones que no gastan la Ultimate de Mi Fu, o que arrancan a 100% de Ulti",
+              "en": "Rotations that don't spend Mi Fu's Ultimate, or that start at 100% Ulti"
+            },
+            "swap": {
+              "es": "Mi Fu → build de daño puro: 3pc Grizzled Edge (armor+guantes+push knife) + Swordmancer NAV Beacon, sin Ultimate Gain.",
+              "en": "Mi Fu → pure-damage build: 3pc Grizzled Edge (armor+gloves+push knife) + Swordmancer NAV Beacon, no Ultimate Gain."
+            }
+          },
+          {
+            "scenario": {
+              "es": "No tienes el P4 de Chen Qianyu",
+              "en": "You don't have Chen Qianyu's P4"
+            },
+            "swap": {
+              "es": "Chen → Qingbo Heavy Armor para Ultimate Gain.",
+              "en": "Chen → Qingbo Heavy Armor for Ultimate Gain."
+            }
+          }
+        ]
+      },
+      "simple": {
+        "whatItDoes": {
+          "es": "Chen Qianyu fabrica Vulnerability, Mi Fu la consume con su Crush (y vuelve a crushear gracias a su Combo y Ultimate), Pog mete Breach y Ardelia cura. Tú alimentas stacks y aprietas el Combo de Mi Fu cuando aparece.",
+          "en": "Chen Qianyu manufactures Vulnerability, Mi Fu consumes it with her Crush (and crushes again thanks to her Combo and Ultimate), Pog applies Breach, and Ardelia heals. You feed stacks and press Mi Fu's Combo whenever it shows."
+        },
+        "steps": [
+          {
+            "do": {
+              "es": "Empieza con un autoataque de Mi Fu.",
+              "en": "Start with a Mi Fu autoattack."
+            },
+            "who": "mifu"
+          },
+          {
+            "do": {
+              "es": "En cuanto pega, usa el skill de Chen + el Combo de Chen y el de Ardelia.",
+              "en": "The moment it lands, use Chen's skill + Chen's and Ardelia's Combos."
+            },
+            "who": "chenqianyu"
+          },
+          {
+            "do": {
+              "es": "Autoataca hasta que vuelva el Combo de Chen; repite su skill+Combo y mete el Combo de Mi Fu.",
+              "en": "Basic attack until Chen's Combo is back; repeat her skill+Combo and fire Mi Fu's Combo."
+            },
+            "who": "mifu"
+          },
+          {
+            "do": {
+              "es": "Usa el skill de Pog para meter Breach, pero guarda su Combo (no le robes stacks a Mi Fu).",
+              "en": "Use Pog's skill to apply Breach, but hold his Combo (don't steal Mi Fu's stacks)."
+            },
+            "who": "pogranichnik"
+          },
+          {
+            "do": {
+              "es": "Con Mi Fu: skill ANTES del finisher (por los buffs), luego la secuencia 3.",
+              "en": "With Mi Fu: skill BEFORE the finisher (for the buffs), then sequence 3."
+            },
+            "who": "mifu"
+          },
+          {
+            "do": {
+              "es": "Cuando el Combo de Chen vuelva, sube a 4 stacks y lanza la Ultimate de Mi Fu para un segundo burst.",
+              "en": "When Chen's Combo returns, build to 4 stacks and fire Mi Fu's Ultimate for a second burst."
+            },
+            "who": "mifu"
+          }
+        ],
+        "gear": [
+          {
+            "id": "mifu",
+            "line": {
+              "es": "Arma promocional + Swordmancer Light Armor con 3pc Grizzled Edge (con Ultimate Gain).",
+              "en": "Signature weapon + Swordmancer Light Armor with 3pc Grizzled Edge (with Ultimate Gain)."
+            }
+          },
+          {
+            "id": "chenqianyu",
+            "line": {
+              "es": "Glorious Memory + Swordmancer Heavy Armor con 3pc Qingbo (CDR de Combo).",
+              "en": "Glorious Memory + Swordmancer Heavy Armor with 3pc Qingbo (Combo CDR)."
+            }
+          },
+          {
+            "id": "pogranichnik",
+            "line": {
+              "es": "Thermite Cutter + Frontiers con Hot Work Power Cartridge.",
+              "en": "Thermite Cutter + Frontiers with Hot Work Power Cartridge."
+            }
+          },
+          {
+            "id": "ardelia",
+            "line": {
+              "es": "Stanza + Eternal Xiranite. Apunta a ~95.7% de UGE.",
+              "en": "Stanza + Eternal Xiranite. Aim for ~95.7% UGE."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": {
+        "es": "Maygi — Físico (Lifeng)",
+        "en": "Maygi — Physical (Lifeng)"
+      },
+      "subtitle": {
+        "es": "Mi Fu · Chen Qianyu · Pogranichnik · Lifeng",
+        "en": "Mi Fu · Chen Qianyu · Pogranichnik · Lifeng"
+      },
+      "blurb": {
+        "es": "El mismo core físico, pero cambiando Ardelia por Lifeng para una rotación ~10s más rápida. Lifeng aporta un debuff extra y SP que cuenta para Vulnerability, a cambio de perder la cura.",
+        "en": "The same physical core, but swapping Ardelia for Lifeng for a rotation ~10s faster. Lifeng adds an extra debuff and SP that counts toward Vulnerability, at the cost of losing the healing."
+      },
+      "guideVideoId": "mf1",
+      "overview": {
+        "es": "Variante más rápida del core físico. El concepto es casi idéntico al de Ardelia, pero en vez de que Chen Qianyu suba sola los stacks, Lifeng reemplaza su primer skill con el suyo y añade un debuff. Como su gasto de SP cuenta para Vulnerability (el de Ardelia no), sobra SP para acelerar el arranque con un skill extra de Chen. Su Ultimate aplica 2 stacks de Vulnerability, así que llegas a 4 antes que esperando el cooldown de Chen. Resultado: ~61K de DPS de equipo (el más alto de los tres) en una rotación de ~51s, ~10s más rápida que la versión Ardelia y con muy poco daño total perdido. Ojo: aquí no hay healer dedicado, y el daño personal de Lifeng es casi nulo.",
+        "en": "A faster variant of the physical core. The concept is nearly identical to the Ardelia one, but instead of Chen Qianyu solo-stacking, Lifeng replaces her first skill with his own and adds a debuff. Since his SP usage counts toward Vulnerability (Ardelia's doesn't), there's spare SP to accelerate the opener with an extra Chen skill. His Ultimate applies 2 Vulnerability stacks, so you reach 4 sooner than waiting on Chen's cooldown. Result: ~61K team DPS (the highest of the three) over a ~51s rotation, ~10s faster than the Ardelia version and with very little total damage lost. Note: there's no dedicated healer here, and Lifeng's personal damage is near zero."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Alta",
+          "en": "High"
+        },
+        "content": {
+          "es": "CC / Mobs y Elites",
+          "en": "CC / Mobs & Elites"
+        },
+        "tags": [
+          {
+            "es": "Físico",
+            "en": "Physical",
+            "jp": "物理",
+            "zh": "物理"
+          },
+          {
+            "es": "Triturar",
+            "en": "Crush",
+            "jp": "猛撃",
+            "zh": "猛击"
+          },
+          {
+            "es": "Rotación rápida",
+            "en": "Fast Rotation"
+          },
+          {
+            "es": "Sin healer",
+            "en": "Sustainless"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "Rotación ~10s más rápida que la versión Ardelia.",
+          "en": "Rotation ~10s faster than the Ardelia version."
+        },
+        {
+          "es": "El SP de Lifeng cuenta para Vulnerability, así que arrancas con más recursos.",
+          "en": "Lifeng's SP counts toward Vulnerability, so you open with more resources."
+        },
+        {
+          "es": "Su Ultimate da 2 stacks de golpe: llegas a 4 sin esperar a Chen.",
+          "en": "His Ultimate gives 2 stacks at once: you hit 4 without waiting on Chen."
+        }
+      ],
+      "cons": [
+        {
+          "es": "Sin cura: un error pesa más que en la versión Ardelia.",
+          "en": "No healing: a mistake hurts more than in the Ardelia version."
+        },
+        {
+          "es": "Un pelín menos de daño total que con Ardelia.",
+          "en": "Marginally less total damage than with Ardelia."
+        },
+        {
+          "es": "En la primera rotación sobrepasas un stack — es a propósito, para acelerar el cooldown del Combo de Mi Fu.",
+          "en": "On the first rotation you overcap a stack — intentional, to get Mi Fu's Combo on cooldown faster."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "title": {
+            "es": "Lifeng acelera el arranque",
+            "en": "Lifeng speeds the opener"
+          },
+          "body": {
+            "es": "En vez de que Chen Qianyu suba sola los stacks, Lifeng reemplaza su primer skill con el suyo y añade un debuff. Llegas a 3 stacks casi al instante con los Combos y skills de Lifeng y Chen.",
+            "en": "Instead of Chen Qianyu solo-stacking, Lifeng replaces her first skill with his own and adds a debuff. You get to 3 stacks almost instantly with Lifeng's and Chen's Combos and skills."
+          }
+        },
+        {
+          "title": {
+            "es": "SP que cuenta para Vulnerability",
+            "en": "SP that counts toward Vulnerability"
+          },
+          "body": {
+            "es": "A diferencia de Ardelia, el gasto de SP de Lifeng contribuye a Vulnerability. Eso deja SP de sobra para meter un skill extra de Chen y arrancar la rotación antes.",
+            "en": "Unlike Ardelia, Lifeng's SP usage contributes to Vulnerability. That leaves spare SP to slot an extra Chen skill and start the rotation sooner."
+          }
+        },
+        {
+          "title": {
+            "es": "Ultimate = 2 stacks de Vulnerability",
+            "en": "Ultimate = 2 Vulnerability stacks"
+          },
+          "body": {
+            "es": "Su Ultimate aplica 2 stacks de golpe, así que llegas a 4 antes que esperando el cooldown del Combo de Chen. Por eso esta rotación es ~10s más rápida que la de Ardelia.",
+            "en": "His Ultimate applies 2 stacks at once, so you reach 4 sooner than waiting on Chen's Combo cooldown. That's why this rotation is ~10s faster than Ardelia's."
+          }
+        },
+        {
+          "title": {
+            "es": "El core de Mi Fu no cambia",
+            "en": "Mi Fu's core doesn't change"
+          },
+          "body": {
+            "es": "Mi Fu sigue siendo ~60% del daño con su doble Crush, y la regla de oro se mantiene: skill ANTES del finisher para los buffs, y Combo en cuanto lo veas. Solo cambia cómo y cuándo llegan los stacks.",
+            "en": "Mi Fu is still ~60% of the damage with her double Crush, and the golden rule holds: skill BEFORE the finisher for the buffs, and Combo whenever you see it. Only how and when the stacks arrive changes."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Apertura acelerada",
+            "en": "Accelerated opener"
+          },
+          "action": {
+            "es": "Usa el Battle Skill de Lifeng en lugar del primer Battle Skill de Chen y mete los Combos de Lifeng y Chen: llegas a 3 stacks casi al instante. Con el SP de sobra, añade un Battle Skill extra de Chen para arrancar antes.",
+            "en": "Use Lifeng's Battle Skill in place of Chen's first Battle Skill and fire Lifeng's and Chen's Combos: you reach 3 stacks almost instantly. With the spare SP, add an extra Chen Battle Skill to start sooner."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Lifeng — Battle Skill, que reemplaza al primer Battle Skill de Chen (añade un debuff extra).",
+                "en": "Lifeng — Battle Skill, replacing Chen's first Battle Skill (adds an extra debuff)."
+              },
+              "key": true
+            },
+            {
+              "do": {
+                "es": "Lifeng — Combo Skill + Chen — Combo Skill (con su Battle Skill) → ~3 stacks de Vulnerability casi al instante.",
+                "en": "Lifeng — Combo Skill + Chen — Combo Skill (with her Battle Skill) → ~3 Vulnerability stacks almost instantly."
+              }
+            },
+            {
+              "do": {
+                "es": "Con el SP de sobra, mete un Battle Skill extra de Chen para arrancar antes.",
+                "en": "With the spare SP, slot an extra Chen Battle Skill to start sooner."
+              },
+              "note": {
+                "es": "Aquí es donde sobrepasas un stack en la primera vuelta — a propósito.",
+                "en": "This is where you overcap a stack on the first loop — on purpose."
+              }
+            }
+          ],
+          "tip": {
+            "es": "Sobrepasarás un stack en la primera vuelta — es intencional: pone el Combo de Mi Fu en cooldown antes.",
+            "en": "You'll overcap a stack on the first loop — that's intentional: it puts Mi Fu's Combo on cooldown sooner."
+          }
+        },
+        {
+          "phase": {
+            "es": "Subir a 4 con la Ultimate de Lifeng",
+            "en": "Reach 4 with Lifeng's Ultimate"
+          },
+          "action": {
+            "es": "Como su Ultimate da 2 stacks, úsala para llegar a 4 sin esperar el cooldown de Chen. Aprieta el Combo de Mi Fu en cuanto esté, y usa el Battle Skill de Pog para meter Breach reteniendo su Combo.",
+            "en": "Since his Ultimate gives 2 stacks, use it to reach 4 without waiting on Chen's cooldown. Press Mi Fu's Combo as soon as it's up, and use Pog's Battle Skill to apply Breach while holding his Combo."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Lifeng — Ultimate → +2 stacks de Vulnerability → llegas a 4 sin esperar el cooldown de Chen.",
+                "en": "Lifeng — Ultimate → +2 Vulnerability stacks → you reach 4 without waiting on Chen's cooldown."
+              },
+              "key": true
+            },
+            {
+              "do": {
+                "es": "Mi Fu — Combo Skill en cuanto esté (la ataja al segundo Crush).",
+                "en": "Mi Fu — Combo Skill as soon as it's up (shortcuts her to the second Crush)."
+              }
+            },
+            {
+              "do": {
+                "es": "Pogranichnik — Battle Skill para meter Breach, RETENIENDO su Combo Skill.",
+                "en": "Pogranichnik — Battle Skill to apply Breach, HOLDING his Combo Skill."
+              },
+              "key": true
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Burst de Mi Fu",
+            "en": "Mi Fu burst"
+          },
+          "action": {
+            "es": "Igual que en la versión Ardelia: Mi Fu Battle Skill → finisher → secuencia 3, y la Ultimate de Mi Fu cuando vuelvas a tener 4 stacks. Mantén la cadena de Chen para reponer Vulnerability.",
+            "en": "Same as the Ardelia version: Mi Fu Battle Skill → finisher → sequence 3, and Mi Fu's Ultimate when you're back to 4 stacks. Keep Chen's chain going to replenish Vulnerability."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Mi Fu — Battle Skill → finisher → secuencia 3.",
+                "en": "Mi Fu — Battle Skill → finisher → sequence 3."
+              },
+              "key": true,
+              "note": {
+                "es": "El Battle Skill SIEMPRE antes del finisher (para los buffs del set y del arma promocional).",
+                "en": "Battle Skill ALWAYS before the finisher (for the set and signature-weapon buffs)."
+              }
+            },
+            {
+              "do": {
+                "es": "Mantén la cadena de Battle Skill + Combo de Chen para reponer Vulnerability.",
+                "en": "Keep Chen's Battle Skill + Combo cycle going to replenish Vulnerability."
+              }
+            },
+            {
+              "do": {
+                "es": "Mi Fu — Ultimate cuando vuelvas a tener 4 stacks (segundo burst).",
+                "en": "Mi Fu — Ultimate when you're back to 4 stacks (second burst)."
+              }
+            }
+          ],
+          "tip": {
+            "es": "La regla no cambia: skill de Mi Fu ANTES del finisher.",
+            "en": "The rule is unchanged: Mi Fu's skill BEFORE the finisher."
+          }
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "mifu",
+          "order": "Battle Skill > Basic Attack",
+          "note": {
+            "es": "Igual que en la versión Ardelia: la secuencia 3 escala con el Battle Skill.",
+            "en": "Same as the Ardelia version: sequence 3 scales with the Battle Skill."
+          }
+        },
+        {
+          "charId": "chenqianyu",
+          "order": "Combo Skill > Battle Skill > Ultimate",
+          "note": {
+            "es": "Sigue siendo clave para los 2 Vulnerability por ciclo.",
+            "en": "Still key for the 2 Vulnerability per cycle."
+          }
+        },
+        {
+          "charId": "pogranichnik",
+          "order": "Battle Skill > Combo Skill",
+          "note": {
+            "es": "Skill para Breach; retén el Combo.",
+            "en": "Skill for Breach; hold the Combo."
+          }
+        },
+        {
+          "charId": "lifeng",
+          "order": "Battle Skill > Ultimate > Combo Skill",
+          "note": {
+            "es": "Skill por el debuff que reemplaza al primer skill de Chen; Ultimate por los 2 stacks de Vulnerability.",
+            "en": "Skill for the debuff that replaces Chen's first skill; Ultimate for the 2 Vulnerability stacks."
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Jugar esta versión en contenido desconocido: sin healer, un error puede ser fatal.",
+          "en": "Running this version in unfamiliar content: with no healer, a mistake can be fatal."
+        },
+        {
+          "es": "Olvidar usar el skill de Lifeng en lugar del primer skill de Chen en la apertura.",
+          "en": "Forgetting to use Lifeng's skill in place of Chen's first skill in the opener."
+        },
+        {
+          "es": "Guardar la Ultimate de Lifeng: aquí su valor es llegar a 4 stacks rápido, no el daño.",
+          "en": "Hoarding Lifeng's Ultimate: its value here is reaching 4 stacks fast, not damage."
+        },
+        {
+          "es": "Usar el finisher de Mi Fu antes de su skill (mismo error que siempre).",
+          "en": "Using Mi Fu's finisher before her skill (the same recurring mistake)."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "Mi Fu — Físico (Ardelia)",
+            "en": "Mi Fu — Physical (Ardelia)"
+          },
+          "verdict": {
+            "es": "Misma idea, más lenta (~58s) pero con cura, a ~56K de DPS. Si no necesitas la red de seguridad de Ardelia, Lifeng es ~10s más rápido y de hecho rinde más DPS (~61K).",
+            "en": "Same idea, slower (~58s) but with healing, at ~56K DPS. If you don't need Ardelia's safety net, Lifeng is ~10s faster and actually puts out more DPS (~61K)."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "mifu",
+          "role": "Carry",
+          "weaponId": "wpn_claym_0017",
+          "gearRec": [
+            "swordmancer_light_armor",
+            "grizzled_edge_gauntlets",
+            "grizzled_edge_push_knife",
+            "grizzled_edge_push_knife"
+          ],
+          "weaponNote": {
+            "es": "Amaranthine Tassel (arma promocional) es claramente lo mejor (~+15% sobre el Battle Pass maxeado). Exemplar > Phantom Pain a igual inversión, salvo en CC, donde Phantom Pain puede rendir más por concentrar valor en el Crush.",
+            "en": "Amaranthine Tassel (signature weapon) is clearly the best (~+15% over the maxed Battle Pass). Exemplar > Phantom Pain at equal investment, except in CC, where Phantom Pain may pull ahead by concentrating value into Crush."
+          },
+          "gearNote": {
+            "es": "Misma build genérica con Ultimate Gain que en la versión Ardelia: Swordmancer Light Armor + 3pc Grizzled Edge. Esta rotación sí usa su Ultimate.",
+            "en": "Same generic build with Ultimate Gain as the Ardelia version: Swordmancer Light Armor + 3pc Grizzled Edge. This rotation does use her Ultimate."
+          },
+          "deepNote": {
+            "es": "El rol de Mi Fu es idéntico al de la versión Ardelia: carry de Crush, ~60% del daño, doble consumo de Vulnerability por ciclo. Lo único que cambia es la fuente de los stacks (Lifeng en vez de Ardelia).",
+            "en": "Mi Fu's role is identical to the Ardelia version: Crush carry, ~60% of the damage, double Vulnerability consumption per cycle. The only change is the source of the stacks (Lifeng instead of Ardelia)."
+          }
+        },
+        {
+          "id": "chenqianyu",
+          "role": "Enabler",
+          "weaponId": "wpn_sword_0017",
+          "gearRec": [
+            "swordmancer_heavy_armor",
+            "qingbo_gauntlets",
+            "qingbo_kit",
+            "qingbo_kit"
+          ],
+          "weaponNote": {
+            "es": "Mismo abanico que en la versión Ardelia: Glorious Memory como pick práctico; Lupine Scarlet y Grand Vision fuertes por stats base.",
+            "en": "Same lineup as the Ardelia version: Glorious Memory as the practical pick; Lupine Scarlet and Grand Vision strong on base stats."
+          },
+          "gearNote": {
+            "es": "Swordmancer Heavy Armor T1 + 3pc Qingbo por el CDR de Combo.",
+            "en": "Swordmancer Heavy Armor T1 + 3pc Qingbo for Combo CDR."
+          },
+          "deepNote": {
+            "es": "Aquí Chen Qianyu cede su primer skill a Lifeng en la apertura, pero sigue siendo la fuente principal de Vulnerability a lo largo del combate.",
+            "en": "Here Chen Qianyu yields her first skill to Lifeng in the opener, but remains the main Vulnerability source throughout the fight."
+          }
+        },
+        {
+          "id": "pogranichnik",
+          "role": "Buffer",
+          "weaponId": "wpn_sword_0012",
+          "gearRec": [
+            "frontiers_protection_suit",
+            "frontiers_blight_res_gloves",
+            "frontiers_o2_tube",
+            "hot_work_power_cartridge"
+          ],
+          "weaponNote": {
+            "es": "Thermite Cutter (apenas por delante de Never Rest). Su daño no cuenta; está para buffear y meter Breach.",
+            "en": "Thermite Cutter (slightly ahead of Never Rest). His damage doesn't count; he's here to buff and apply Breach."
+          },
+          "gearNote": {
+            "es": "Frontiers + Hot Work Power Cartridge, con ~37.4% de Ultimate Gain artificiado.",
+            "en": "Frontiers + Hot Work Power Cartridge, with ~37.4% artificed Ultimate Gain."
+          },
+          "deepNote": {
+            "es": "Mismo rol que en la versión Ardelia: Breach + SP + buffs, reteniendo su Combo para no robarle stacks a Mi Fu.",
+            "en": "Same role as the Ardelia version: Breach + SP + buffs, holding his Combo so he doesn't steal Mi Fu's stacks."
+          }
+        },
+        {
+          "id": "lifeng",
+          "role": "Enabler",
+          "weaponId": "wpn_lance_0012",
+          "gearRec": [
+            "swordmancer_heavy_armor",
+            "eternal_xiranite_gloves",
+            "eternal_xiranite_power_core",
+            "eternal_xiranite_power_core"
+          ],
+          "weaponNote": {
+            "es": "Mountain Bearer es su mejor opción, por delante de Valiant y bastante por encima de Chimeric Justice. Pero ojo: su daño personal en este equipo es muy bajo, así que el arma casi no mueve la aguja — su valor es el debuff y el SP.",
+            "en": "Mountain Bearer is his best option, ahead of Valiant and well above Chimeric Justice. But note: his personal damage in this team is very low, so the weapon barely moves the needle — his value is the debuff and the SP."
+          },
+          "gearNote": {
+            "es": "Swordmancer Heavy Armor T1 + 3pc Eternal Xiranite (guantes + 2 Power Cores). Necesita 71.4% de UGE; por desgracia no existen mejores piezas de Eternal Xiranite para él.",
+            "en": "Swordmancer Heavy Armor T1 + 3pc Eternal Xiranite (gloves + 2 Power Cores). He needs 71.4% UGE; unfortunately there are no better Eternal Xiranite pieces for him."
+          },
+          "deepNote": {
+            "es": "Lifeng es el motivo de que esta versión sea más rápida: reemplaza el primer skill de Chen con el suyo (debuff extra), su SP cuenta para Vulnerability y su Ultimate da 2 stacks de golpe. Su daño personal aquí es muy bajo — está puramente como enabler. A cambio de la velocidad, el equipo pierde la cura de Ardelia.",
+            "en": "Lifeng is why this version is faster: he replaces Chen's first skill with his own (extra debuff), his SP counts toward Vulnerability, and his Ultimate gives 2 stacks at once. His personal damage here is very low — he's purely an enabler. In exchange for the speed, the team loses Ardelia's healing."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Misma base de equipo que la versión Ardelia, cambiando a la healer por Lifeng. La rotación gana velocidad porque Lifeng adelanta los stacks de Vulnerability, pero pierdes el sustain: solo para contenido que domines.",
+          "en": "Same gear base as the Ardelia version, swapping the healer for Lifeng. The rotation gains speed because Lifeng front-loads the Vulnerability stacks, but you lose the sustain: only for content you've mastered."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Rotaciones que no gastan la Ultimate de Mi Fu",
+              "en": "Rotations that don't spend Mi Fu's Ultimate"
+            },
+            "swap": {
+              "es": "Mi Fu → build de daño puro (3pc Grizzled Edge + Swordmancer NAV Beacon).",
+              "en": "Mi Fu → pure-damage build (3pc Grizzled Edge + Swordmancer NAV Beacon)."
+            }
+          }
+        ]
+      },
+      "simple": {
+        "whatItDoes": {
+          "es": "El core físico, pero con Lifeng en vez de Ardelia para ir más rápido. Lifeng adelanta los stacks de Vulnerability; Mi Fu sigue siendo la que crushea. Sin cura, así que no te dejes pegar.",
+          "en": "The physical core, but with Lifeng instead of Ardelia to go faster. Lifeng front-loads the Vulnerability stacks; Mi Fu is still the one crushing. No healing, so don't get hit."
+        },
+        "steps": [
+          {
+            "do": {
+              "es": "En la apertura, usa el skill de Lifeng en vez del primer skill de Chen, y mete los Combos de Lifeng y Chen.",
+              "en": "In the opener, use Lifeng's skill instead of Chen's first skill, and fire Lifeng's and Chen's Combos."
+            },
+            "who": "lifeng"
+          },
+          {
+            "do": {
+              "es": "Usa la Ultimate de Lifeng para llegar a 4 stacks sin esperar a Chen.",
+              "en": "Use Lifeng's Ultimate to reach 4 stacks without waiting on Chen."
+            },
+            "who": "lifeng"
+          },
+          {
+            "do": {
+              "es": "Aprieta el Combo de Mi Fu en cuanto esté, y mete Breach con el skill de Pog (guarda su Combo).",
+              "en": "Press Mi Fu's Combo as soon as it's up, and apply Breach with Pog's skill (hold his Combo)."
+            },
+            "who": "mifu"
+          },
+          {
+            "do": {
+              "es": "Con Mi Fu: skill ANTES del finisher, luego secuencia 3 y Ultimate cuando vuelvas a 4 stacks.",
+              "en": "With Mi Fu: skill BEFORE the finisher, then sequence 3 and Ultimate when you're back to 4 stacks."
+            },
+            "who": "mifu"
+          }
+        ],
+        "gear": [
+          {
+            "id": "mifu",
+            "line": {
+              "es": "Arma promocional + Swordmancer Light Armor con 3pc Grizzled Edge.",
+              "en": "Signature weapon + Swordmancer Light Armor with 3pc Grizzled Edge."
+            }
+          },
+          {
+            "id": "chenqianyu",
+            "line": {
+              "es": "Glorious Memory + Swordmancer Heavy Armor con 3pc Qingbo.",
+              "en": "Glorious Memory + Swordmancer Heavy Armor with 3pc Qingbo."
+            }
+          },
+          {
+            "id": "pogranichnik",
+            "line": {
+              "es": "Thermite Cutter + Frontiers con Hot Work Power Cartridge.",
+              "en": "Thermite Cutter + Frontiers with Hot Work Power Cartridge."
+            }
+          },
+          {
+            "id": "lifeng",
+            "line": {
+              "es": "Mountain Bearer + Swordmancer Heavy Armor con 3pc Eternal Xiranite (apunta a 71.4% UGE). Su daño personal es casi nulo.",
+              "en": "Mountain Bearer + Swordmancer Heavy Armor with 3pc Eternal Xiranite (aim for 71.4% UGE). His personal damage is near zero."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": {
+        "es": "Maygi — Híbrido Rossi",
+        "en": "Maygi — Rossi Hybrid"
+      },
+      "subtitle": {
+        "es": "Mi Fu · Rossi · Gilberta · Perlica",
+        "en": "Mi Fu · Rossi · Gilberta · Perlica"
+      },
+      "blurb": {
+        "es": "El híbrido más rápido. Aquí Rossi NO es la carry: se juega como batería de Vulnerability (3 stacks en un Combo+skill) para que Mi Fu los consuma. Gilberta y Perlica dan el único stack de Vulnerability gratis de arranque.",
+        "en": "The fastest hybrid. Here Rossi is NOT the carry: she's played as a Vulnerability battery (3 stacks in one Combo+skill) for Mi Fu to consume. Gilberta and Perlica provide the only free starting Vulnerability stack."
+      },
+      "guideVideoId": "mf1",
+      "overview": {
+        "es": "Equipo híbrido construido alrededor de Mi Fu de carry. Rossi puede dar 3 stacks de Vulnerability ella sola en un Combo+skill, pero necesita un Arts Infliction montado y, idealmente, un stack de Vulnerability de arranque — y aquí Gilberta y Perlica son la única fuente de ese stack gratis. Como esta rotación no usa la Ultimate de Mi Fu, ella va con su build de daño puro. La segunda mitad alinea la Ultimate de Rossi dentro de la ventana de electrocute de Perlica. Es el más rápido de los tres equipos: rotación de ~41s a ~58K de DPS. Su daño total por vuelta es el más bajo, pero la rotación corta le deja one-rotear casi todo el contenido.",
+        "en": "Hybrid team built around Mi Fu as carry. Rossi can hand out 3 Vulnerability stacks by herself in one Combo+skill, but she needs an Arts Infliction set up and, ideally, a starting Vulnerability stack — and here Gilberta and Perlica are the only source of that free stack. Since this rotation doesn't use Mi Fu's Ultimate, she runs her pure-damage build. The second half aligns Rossi's Ultimate inside Perlica's electrocute window. It's the fastest of the three teams: a ~41s rotation at ~58K DPS. Its total damage per loop is the lowest, but the short rotation lets it one-rota most content."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Alta",
+          "en": "High"
+        },
+        "content": {
+          "es": "CC / Mobs y Elites",
+          "en": "CC / Mobs & Elites"
+        },
+        "tags": [
+          {
+            "es": "Híbrido",
+            "en": "Hybrid"
+          },
+          {
+            "es": "Físico",
+            "en": "Physical",
+            "jp": "物理",
+            "zh": "物理"
+          },
+          {
+            "es": "Arts",
+            "en": "Arts"
+          },
+          {
+            "es": "Rotación rápida",
+            "en": "Fast Rotation"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "La rotación más rápida de los tres equipos.",
+          "en": "The fastest rotation of the three teams."
+        },
+        {
+          "es": "Rossi inyecta 3 stacks de Vulnerability en un solo Combo+skill.",
+          "en": "Rossi injects 3 Vulnerability stacks in a single Combo+skill."
+        },
+        {
+          "es": "Mi Fu en daño puro (no gasta Ultimate): máxima potencia bruta por ciclo.",
+          "en": "Mi Fu in pure damage (no Ultimate spent): max raw power per cycle."
+        }
+      ],
+      "cons": [
+        {
+          "es": "Timings finos: hay que clavar el combo de Rossi y la ventana de electrocute de Perlica.",
+          "en": "Tight timings: you must nail Rossi's combo and Perlica's electrocute window."
+        },
+        {
+          "es": "Depende de Gilberta+Perlica para el stack de Vulnerability de arranque (Rossi auto-stackearlo es ineficiente).",
+          "en": "Depends on Gilberta+Perlica for the starting Vulnerability stack (Rossi self-stacking it is inefficient)."
+        },
+        {
+          "es": "Rossi cambia por completo respecto a su propia guía: aquí es enabler, no carry.",
+          "en": "Rossi plays completely differently from her own guide: here she's an enabler, not a carry."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "title": {
+            "es": "Rossi como enabler, no como carry",
+            "en": "Rossi as enabler, not carry"
+          },
+          "body": {
+            "es": "Rossi normalmente es una carry build-around, y cómo se arma y se juega cambia totalmente según sea main o sub-DPS — no la trates como en su guía. Aquí su valor es único: puede soltar 3 stacks de Vulnerability en un Combo+skill, que es justo lo que Mi Fu necesita comerse. Funciona como batería de stacks, no como fuente de daño principal.",
+            "en": "Rossi is normally a build-around carry, and how she's built and played changes completely depending on whether she's main or sub-DPS — don't treat her like her own guide. Here her value is unique: she can drop 3 Vulnerability stacks in one Combo+skill, which is exactly what Mi Fu needs to eat. She works as a stack battery, not the main damage source."
+          }
+        },
+        {
+          "title": {
+            "es": "Gilberta + Perlica = el único vuln gratis de arranque",
+            "en": "Gilberta + Perlica = the only free starting vuln"
+          },
+          "body": {
+            "es": "Rossi necesita un Arts Infliction montado y, idealmente, un stack de Vulnerability inicial para que su combo rinda al máximo. Gilberta y Perlica son la única fuente de ese stack de Vulnerability gratis. Rossi puede auto-stackearlo, pero es muy ineficiente.",
+            "en": "Rossi needs an Arts Infliction set up and, ideally, a starting Vulnerability stack so her combo delivers full value. Gilberta and Perlica are the only source of that free Vulnerability stack. Rossi can self-stack it, but it's very inefficient."
+          }
+        },
+        {
+          "title": {
+            "es": "Mi Fu en modo daño puro",
+            "en": "Mi Fu in pure-damage mode"
+          },
+          "body": {
+            "es": "Como la rotación no usa la Ultimate de Mi Fu, ella va con la build de daño puro (3pc Grizzled Edge + Swordmancer NAV Beacon) en vez de la de Ultimate Gain. Toda su potencia va a Crush.",
+            "en": "Since the rotation doesn't use Mi Fu's Ultimate, she runs the pure-damage build (3pc Grizzled Edge + Swordmancer NAV Beacon) instead of the Ultimate Gain one. All her power goes into Crush."
+          }
+        },
+        {
+          "title": {
+            "es": "Burst alineado con el electrocute",
+            "en": "Burst aligned with electrocute"
+          },
+          "body": {
+            "es": "En la segunda mitad te saltas el timing perfecto del combo de Rossi a propósito, para meter su Ultimate dentro de la ventana de electrocute de Perlica. Ahí cae el pico de daño del equipo.",
+            "en": "In the second half you intentionally skip Rossi's perfect combo timing to land her Ultimate inside Perlica's electrocute window. That's where the team's damage spike lands."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Apertura",
+            "en": "Opener"
+          },
+          "action": {
+            "es": "Empieza con un combo de autoataques y usa los Combos de Perlica y Gilberta junto con el Battle Skill de Perlica. Esto siembra el Arts Infliction y el stack de Vulnerability gratis que Rossi necesita.",
+            "en": "Start with a basic attack combo and use Perlica's and Gilberta's Combos along with Perlica's Battle Skill. This seeds the Arts Infliction and the free Vulnerability stack Rossi needs."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Abre con un combo completo de autoataques (Basic Attack).",
+                "en": "Open with a full basic attack combo (Basic Attack)."
+              }
+            },
+            {
+              "do": {
+                "es": "Perlica — Combo Skill + Gilberta — Combo Skill.",
+                "en": "Perlica — Combo Skill + Gilberta — Combo Skill."
+              }
+            },
+            {
+              "do": {
+                "es": "Perlica — Battle Skill.",
+                "en": "Perlica — Battle Skill."
+              },
+              "note": {
+                "es": "Entre los tres dejan montado el Arts Infliction + el stack de Vulnerability gratis que el Combo de Rossi necesita.",
+                "en": "Together they set up the Arts Infliction + the free Vulnerability stack Rossi's Combo needs."
+              }
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Vuln + primer Crush (core loop)",
+            "en": "Vuln + first Crush (core loop)"
+          },
+          "action": {
+            "es": "Usa el Combo de Rossi, clava el timing, y luego mete el Combo de Mi Fu junto con el Battle Skill de Rossi. Durante esto, cambia a Perlica para meter autoataques. Este es el núcleo de la rotación.",
+            "en": "Use Rossi's Combo, hit the timing, then fire Mi Fu's Combo along with Rossi's Battle Skill. During this, switch to Perlica to get autos in. This is the core of the rotation."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Rossi — Combo Skill, clavando el timing.",
+                "en": "Rossi — Combo Skill, hitting the timing."
+              },
+              "key": true,
+              "note": {
+                "es": "El timing del Combo de Rossi es el punto delicado de esta vuelta.",
+                "en": "The timing on Rossi's Combo is the delicate point of this loop."
+              }
+            },
+            {
+              "do": {
+                "es": "Mi Fu — Combo Skill + Rossi — Battle Skill.",
+                "en": "Mi Fu — Combo Skill + Rossi — Battle Skill."
+              },
+              "key": true,
+              "note": {
+                "es": "El Battle Skill + Combo de Rossi suelta 3 stacks de Vulnerability de golpe → eso dispara el Crush de Mi Fu.",
+                "en": "Rossi's Battle Skill + Combo dumps 3 Vulnerability stacks at once → that triggers Mi Fu's Crush."
+              }
+            },
+            {
+              "do": {
+                "es": "Durante esto, cambia a Perlica para meter autoataques en el hueco.",
+                "en": "During this, switch to Perlica to get autoattacks in during the gap."
+              }
+            }
+          ],
+          "tip": {
+            "es": "El skill+Combo de Rossi suelta 3 stacks de golpe: es la inyección que dispara el Crush de Mi Fu.",
+            "en": "Rossi's skill+Combo dumps 3 stacks at once: that's the injection that triggers Mi Fu's Crush."
+          }
+        },
+        {
+          "phase": {
+            "es": "Segunda mitad — con Ultimates",
+            "en": "Second half — with Ultimates"
+          },
+          "action": {
+            "es": "Repite el core loop, pero esta vez sáltate el timing perfecto del Combo de Rossi para alinear su Ultimate con el electrocute de Perlica. Tras el Battle Skill de Rossi: Ultimate de Gilberta, Ultimate de Perlica y, por fin, Ultimate de Rossi junto con el finisher de Perlica, mientras usas los skills de Mi Fu.",
+            "en": "Repeat the core loop, but this time skip Rossi's perfect Combo timing to align her Ultimate with Perlica's electrocute. After Rossi's Battle Skill: Gilberta's Ultimate, Perlica's Ultimate, and finally Rossi's Ultimate alongside Perlica's finisher, while using Mi Fu's skills."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Repite el core loop, pero AHORA sáltate a propósito el timing perfecto del Combo de Rossi.",
+                "en": "Repeat the core loop, but NOW intentionally skip Rossi's perfect Combo timing."
+              },
+              "key": true,
+              "note": {
+                "es": "Lo quieres desfasado para que la Ultimate de Rossi caiga dentro de la ventana de electrocute de Perlica.",
+                "en": "You want it off-beat so Rossi's Ultimate lands inside Perlica's electrocute window."
+              }
+            },
+            {
+              "do": {
+                "es": "Rossi — Battle Skill.",
+                "en": "Rossi — Battle Skill."
+              }
+            },
+            {
+              "do": {
+                "es": "Encadena las Ultimates: Gilberta — Ultimate → Perlica — Ultimate → Rossi — Ultimate (dentro del electrocute) + finisher de Perlica.",
+                "en": "Chain the Ultimates: Gilberta — Ultimate → Perlica — Ultimate → Rossi — Ultimate (inside the electrocute) + Perlica's finisher."
+              },
+              "key": true
+            },
+            {
+              "do": {
+                "es": "Mientras pasa todo esto, usa los skills de Mi Fu.",
+                "en": "While all that happens, use Mi Fu's skills."
+              }
+            }
+          ]
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "mifu",
+          "order": "Battle Skill > Basic Attack",
+          "note": {
+            "es": "Build de daño puro: la secuencia 3 escala con el Battle Skill. Aquí no se usa su Ultimate.",
+            "en": "Pure-damage build: sequence 3 scales with the Battle Skill. Her Ultimate isn't used here."
+          }
+        },
+        {
+          "charId": "rossi",
+          "order": "Combo Skill > Battle Skill > Ultimate",
+          "note": {
+            "es": "Combo+skill = los 3 stacks de Vulnerability. La Ultimate va dentro del electrocute en la segunda mitad.",
+            "en": "Combo+skill = the 3 Vulnerability stacks. The Ultimate goes inside the electrocute in the second half."
+          }
+        },
+        {
+          "charId": "gilberta",
+          "order": "Combo Skill > Ultimate",
+          "note": {
+            "es": "Vulnerability gratis + Susceptibility para que el combo de Rossi rinda.",
+            "en": "Free Vulnerability + Susceptibility so Rossi's combo pays off."
+          }
+        },
+        {
+          "charId": "perlica",
+          "order": "Battle Skill > Combo Skill > Ultimate",
+          "note": {
+            "es": "Electrification y la ventana de electrocute donde cae la Ultimate de Rossi.",
+            "en": "Electrification and the electrocute window where Rossi's Ultimate lands."
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Disparar el Combo de Rossi sin el Arts Infliction ni el stack de arranque de Gilberta/Perlica: rinde muchísimo menos.",
+          "en": "Firing Rossi's Combo without the Arts Infliction or Gilberta/Perlica's starting stack: it delivers far less."
+        },
+        {
+          "es": "Clavar el timing perfecto del Combo de Rossi en la segunda mitad: ahí lo quieres desfasado para alinear su Ultimate con el electrocute.",
+          "en": "Nailing Rossi's perfect Combo timing in the second half: there you want it off-beat to align her Ultimate with the electrocute."
+        },
+        {
+          "es": "Equipar a Mi Fu con la build de Ultimate Gain: aquí no usa Ultimate, así que va con daño puro.",
+          "en": "Gearing Mi Fu with the Ultimate Gain build: she doesn't use her Ultimate here, so run pure damage."
+        },
+        {
+          "es": "Tratar a Rossi como carry: en este equipo es enabler de Vulnerability.",
+          "en": "Treating Rossi as a carry: in this team she's a Vulnerability enabler."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "Mi Fu — Físico (Ardelia / Lifeng)",
+            "en": "Mi Fu — Physical (Ardelia / Lifeng)"
+          },
+          "verdict": {
+            "es": "El híbrido (~41s, ~58K) es más rápido y no depende de la Ultimate de Mi Fu, pero pide timings más finos y reúne operadores de dos elementos. Los físicos puros (Ardelia ~56K/~58s, Lifeng ~61K/~51s) son más directos. DPS final muy parejo entre los tres.",
+            "en": "The hybrid (~41s, ~58K) is faster and doesn't depend on Mi Fu's Ultimate, but it asks for tighter timings and pulls operators from two elements. The pure physical teams (Ardelia ~56K/~58s, Lifeng ~61K/~51s) are more straightforward. Final DPS is very close across all three."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "mifu",
+          "role": "Carry",
+          "weaponId": "wpn_claym_0017",
+          "gearRec": [
+            "grizzled_edge_armor",
+            "grizzled_edge_gauntlets",
+            "grizzled_edge_push_knife",
+            "swordmancer_nav_beacon"
+          ],
+          "weaponNote": {
+            "es": "Amaranthine Tassel (arma promocional) sigue siendo lo mejor. En CC, Phantom Pain puede rendir más por concentrar su valor en el daño de Crush.",
+            "en": "Amaranthine Tassel (signature weapon) is still the best. In CC, Phantom Pain may pull ahead by concentrating its value into Crush damage."
+          },
+          "gearNote": {
+            "es": "Build de DAÑO PURO (no la genérica): 3pc Grizzled Edge (armor+guantes+push knife) + Swordmancer NAV Beacon. Sin Ultimate Gain, porque este equipo no gasta su Ultimate.",
+            "en": "PURE-DAMAGE build (not the generic one): 3pc Grizzled Edge (armor+gloves+push knife) + Swordmancer NAV Beacon. No Ultimate Gain, because this team doesn't spend her Ultimate."
+          },
+          "deepNote": {
+            "es": "Mismo motor de doble Crush, pero aquí Mi Fu nunca usa su Ultimate, así que toda su potencia va al Crush vía la build de daño puro. Rossi le inyecta los stacks; ella solo tiene que consumirlos.",
+            "en": "Same double-Crush engine, but here Mi Fu never uses her Ultimate, so all her power goes into Crush via the pure-damage build. Rossi injects the stacks; she just has to consume them."
+          }
+        },
+        {
+          "id": "rossi",
+          "role": "Enabler",
+          "weaponId": "wpn_sword_0022",
+          "gearRec": [
+            "mi_security_armor_t1",
+            "redeemer_gloves",
+            "mi_security_scope_t1",
+            "mi_security_scope_t1"
+          ],
+          "weaponNote": {
+            "es": "Lupine Scarlet (su arma promocional). El gearing es el mismo que en su guía propia — revísala si quieres el detalle.",
+            "en": "Lupine Scarlet (her signature weapon). The gearing is the same as her own guide — check it there for the detail."
+          },
+          "gearNote": {
+            "es": "MI Security, igual que en su build de carry. Lo que cambia no es la build, sino el rol y la rotación.",
+            "en": "MI Security, same as her carry build. What changes isn't the build but her role and rotation."
+          },
+          "deepNote": {
+            "es": "CLAVE: aquí Rossi es enabler de Vulnerability, NO la carry. En sus propias guías es una carry build-around cuyo armado y juego cambian por completo; ignora eso aquí. En este equipo es la única operadora que suelta 3 stacks de Vulnerability en un Combo+skill, que Mi Fu se come. Necesita un Arts Infliction montado y, idealmente, un stack de arranque de Gilberta/Perlica; auto-stackear Vulnerability es ineficiente.",
+            "en": "KEY: here Rossi is a Vulnerability enabler, NOT the carry. In her own guides she's a build-around carry whose build and play change completely; ignore that here. In this team she's the only operator who drops 3 Vulnerability stacks in one Combo+skill, which Mi Fu eats. She needs an Arts Infliction set up and, ideally, a starting stack from Gilberta/Perlica; self-stacking Vulnerability is inefficient."
+          }
+        },
+        {
+          "id": "gilberta",
+          "role": "Enabler",
+          "weaponId": "wpn_funnel_0011",
+          "gearRec": [
+            "eternal_xiranite_armor",
+            "eternal_xiranite_gloves_t1",
+            "eternal_xiranite_auxiliary_arm",
+            "eternal_xiranite_auxiliary_arm"
+          ],
+          "weaponNote": {
+            "es": "Delivery Guaranteed. Mismo gearing que en los equipos donde aparece como enabler.",
+            "en": "Delivery Guaranteed. Same gearing as the teams where she shows up as an enabler."
+          },
+          "gearNote": {
+            "es": "Eternal Xiranite por poder de buff.",
+            "en": "Eternal Xiranite for buffing power."
+          },
+          "deepNote": {
+            "es": "Gilberta aporta el stack de Vulnerability gratis (0 SP) y una Susceptibility grande que hace que el Combo de Rossi rinda al máximo. Junto con Perlica, es el arranque del equipo.",
+            "en": "Gilberta provides the free Vulnerability stack (0 SP) and a big Susceptibility that makes Rossi's Combo pay off in full. Together with Perlica, she's the team's opener."
+          }
+        },
+        {
+          "id": "perlica",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0009",
+          "gearRec": [
+            "pulser_labs_disruptor_suit",
+            "eternal_xiranite_gloves_t1",
+            "pulser_labs_calibrator",
+            "pulser_labs_calibrator"
+          ],
+          "weaponNote": {
+            "es": "Oblivion. Mismo gearing que en los equipos de Arts donde habilita el electrocute.",
+            "en": "Oblivion. Same gearing as the Arts teams where she enables the electrocute."
+          },
+          "gearNote": {
+            "es": "Pulser Labs por la Electrification y el daño eléctrico.",
+            "en": "Pulser Labs for Electrification and electric damage."
+          },
+          "deepNote": {
+            "es": "Perlica es la fuente de Electrification y, sobre todo, de la ventana de electrocute donde se mete la Ultimate de Rossi en la segunda mitad. Cambia a ella para meter autoataques durante los huecos.",
+            "en": "Perlica is the source of Electrification and, above all, the electrocute window where Rossi's Ultimate goes in the second half. Switch to her to get autos in during the gaps."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Híbrido Physical+Arts. La build de cada support (Rossi, Gilberta, Perlica) es la misma que en sus equipos habituales — lo que cambia es que se orquestan para alimentar el Crush de Mi Fu en vez de a una carry de Arts. Mi Fu va con su build de daño puro porque aquí no se usa su Ultimate. Rossi sí usa su Ultimate, así que lleva su build con Ultimate Gain (MI Security Armor T1).",
+          "en": "Physical+Arts hybrid. Each support's build (Rossi, Gilberta, Perlica) is the same as in their usual teams — what changes is that they're orchestrated to feed Mi Fu's Crush instead of an Arts carry. Mi Fu runs her pure-damage build because her Ultimate isn't used here. Rossi does use her Ultimate, so she runs her Ultimate Gain build (MI Security Armor T1)."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Variación de gear de Rossi (rinde parecido)",
+              "en": "Rossi gear variation (performs similarly)"
+            },
+            "swap": {
+              "es": "Rossi → MI Security Gloves y cambiar un MI Security Scope por LYNX Slab o Yinglung Radar T1.",
+              "en": "Rossi → MI Security Gloves and swap one MI Security Scope for LYNX Slab or Yinglung Radar T1."
+            }
+          }
+        ]
+      },
+      "simple": {
+        "whatItDoes": {
+          "es": "Gilberta y Perlica dan un stack de Vulnerability gratis, Rossi suelta 3 más con su Combo+skill, y Mi Fu se los come para crushear. No usas la Ultimate de Mi Fu, así que va con daño puro. Es el equipo más rápido.",
+          "en": "Gilberta and Perlica give a free Vulnerability stack, Rossi dumps 3 more with her Combo+skill, and Mi Fu eats them to crush. You don't use Mi Fu's Ultimate, so she runs pure damage. It's the fastest team."
+        },
+        "steps": [
+          {
+            "do": {
+              "es": "Empieza con un combo de autoataques, luego los Combos de Perlica y Gilberta y el skill de Perlica.",
+              "en": "Start with a basic attack combo, then Perlica's and Gilberta's Combos and Perlica's skill."
+            },
+            "who": "perlica"
+          },
+          {
+            "do": {
+              "es": "Combo de Rossi (clava el timing), luego Combo de Mi Fu + skill de Rossi. Cambia a Perlica para autoatacar.",
+              "en": "Rossi's Combo (hit the timing), then Mi Fu's Combo + Rossi's skill. Switch to Perlica to auto."
+            },
+            "who": "rossi"
+          },
+          {
+            "do": {
+              "es": "Segunda vuelta con Ultimates: salta el timing perfecto de Rossi para meter su Ultimate dentro del electrocute de Perlica.",
+              "en": "Second loop with Ultimates: skip Rossi's perfect timing to land her Ultimate inside Perlica's electrocute."
+            },
+            "who": "perlica"
+          },
+          {
+            "do": {
+              "es": "Tras el skill de Rossi: Ultimate de Gilberta, Ultimate de Perlica, Ultimate de Rossi + finisher de Perlica, mientras usas los skills de Mi Fu.",
+              "en": "After Rossi's skill: Gilberta's Ultimate, Perlica's Ultimate, Rossi's Ultimate + Perlica's finisher, while using Mi Fu's skills."
+            },
+            "who": "rossi"
+          }
+        ],
+        "gear": [
+          {
+            "id": "mifu",
+            "line": {
+              "es": "Arma promocional + build de daño puro (3pc Grizzled Edge + Swordmancer NAV Beacon).",
+              "en": "Signature weapon + pure-damage build (3pc Grizzled Edge + Swordmancer NAV Beacon)."
+            }
+          },
+          {
+            "id": "rossi",
+            "line": {
+              "es": "Lupine Scarlet + MI Security. Aquí es enabler, no carry.",
+              "en": "Lupine Scarlet + MI Security. She's an enabler here, not a carry."
+            }
+          },
+          {
+            "id": "gilberta",
+            "line": {
+              "es": "Delivery Guaranteed + Eternal Xiranite.",
+              "en": "Delivery Guaranteed + Eternal Xiranite."
+            }
+          },
+          {
+            "id": "perlica",
+            "line": {
+              "es": "Oblivion + Pulser Labs.",
+              "en": "Oblivion + Pulser Labs."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

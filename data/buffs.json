@@ -1,0 +1,1890 @@
+{
+ "ops": {
+  "akekuri": [
+   {
+    "id": "akekuri-1",
+    "src": "Positive Feedback",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "Tras recuperar SP con skills, Akekuri gana ATK +10% por 10s.", "en": "After recovering SP with skills, Akekuri gains ATK +10% for 10s." },
+    "mods": [
+     {
+      "type": "atkPct",
+      "value": 0.1
+     }
+    ],
+    "trigger": {
+     "onSpRecover": true
+    },
+    "durS": 10,
+    "noStack": true
+   },
+   {
+    "id": "akekuri-2",
+    "src": "Committed Team Player",
+    "srcType": "keystone",
+    "target": "team",
+    "cond": { "es": "Ultimate SQUAD! ON ME! mejorada: mientras la ultimate está activa, todo el equipo gana ATK +10%.", "en": "Ultimate SQUAD! ON ME! improved: While ultimate is active, entire team gains ATK +10%." },
+    "mods": [
+     {
+      "type": "atkPct",
+      "value": 0.1
+     }
+    ],
+    "anchor": "ultimate"
+   },
+   {
+    "id": "akekuri-k2",
+    "src": "Passionate Idealist",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "M2: Agility +10, Intellect +10.", "en": "M2: Agility +10, Intellect +10." },
+    "mods": [
+     {
+      "type": "attrFlat",
+      "attr": "agility",
+      "value": 10
+     },
+     {
+      "type": "attrFlat",
+      "attr": "intellect",
+      "value": 10
+     }
+    ],
+    "permanent": true
+   }
+  ],
+  "alesh": [
+   {
+    "id": "alesh-1",
+    "src": "May the Willing Bite",
+    "srcType": "keystone",
+    "target": "team",
+    "cond": { "es": "Combo skill Auger Angling mejorada: tras pescar un Rare Fin, todo el equipo gana ATK +15% por 10s.", "en": "Combo skill Auger Angling improved: After catching a Rare Fin, the entire team gains ATK +15% for 10s." },
+    "mods": [
+     {
+      "type": "atkPct",
+      "value": 0.15
+     }
+    ],
+    "anchor": "combo_skill",
+    "durS": 10,
+    "noStack": true,
+    "assumeIdeal": "Rare Fin garantizado en cada combo (escenario ideal del timeline)"
+   },
+   {
+    "id": "alesh-k2",
+    "src": "Calm and Tranquil",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "M2: Strength +15, Intellect +15.", "en": "M2: Strength +15, Intellect +15." },
+    "mods": [
+     {
+      "type": "attrFlat",
+      "attr": "strength",
+      "value": 15
+     },
+     {
+      "type": "attrFlat",
+      "attr": "intellect",
+      "value": 15
+     }
+    ],
+    "permanent": true
+   }
+  ],
+  "antal": [
+   {
+    "id": "antal-1",
+    "src": "Overclocked Moment",
+    "srcType": "ultimate",
+    "target": "team",
+    "cond": { "es": "Ultimate Overclocked Moment: aplica Electric Amp +20% y Heat Amp +20% a todo el equipo por 12s. La keystone Arts Talent sube el Amp a 1.1x (~22%).", "en": "Ultimate Overclocked Moment: applies Electric Amp +20% and Heat Amp +20% to the entire team for 12s. Keystone Arts Talent increases the Amp to 1.1x (~22%)." },
+    "mods": [
+     {
+      "type": "dmgAmp",
+      "value": 0.2,
+      "element": "electric"
+     },
+     {
+      "type": "dmgAmp",
+      "value": 0.2,
+      "element": "heat"
+     }
+    ]
+   },
+   {
+    "id": "antal-2",
+    "src": "Specified Research Subject",
+    "srcType": "battle_skill",
+    "target": "team",
+    "cond": { "es": "La battle skill aplica Focus; un enemigo con Focus sufre Electric Susceptibility +10% y Heat Susceptibility +10%. La keystone High Specs Tech Tester suma +4% a cada uno tras 20s (~14%). Focus solo afecta a 1 enemigo a la vez.", "en": "Battle skill applies Focus; a Focused enemy suffers Electric Susceptibility +10% and Heat Susceptibility +10%. Keystone High Specs Tech Tester adds +4% each after 20s (~14%). Focus only on 1 enemy at a time." },
+    "mods": [
+     {
+      "type": "enemySusc",
+      "value": 0.1,
+      "element": "electric"
+     },
+     {
+      "type": "enemySusc",
+      "value": 0.1,
+      "element": "heat"
+     }
+    ]
+   },
+   {
+    "id": "antal-k1",
+    "src": "Arts Talent",
+    "srcType": "keystone",
+    "target": "team",
+    "cond": { "es": "M1: el Amp de Overclocked Moment sube a 1.1x el original → +2% Electric Amp y +2% Heat Amp extra mientras dura la ultimate (12s).", "en": "M1: Overclocked Moment's Amp is increased to 1.1x the original → extra +2% Electric Amp and +2% Heat Amp while the ultimate lasts (12s)." },
+    "mods": [
+     {
+      "type": "dmgAmp",
+      "value": 0.02,
+      "element": "electric"
+     },
+     {
+      "type": "dmgAmp",
+      "value": 0.02,
+      "element": "heat"
+     }
+    ],
+    "anchor": "ultimate",
+    "durS": 12
+   },
+   {
+    "id": "antal-k4",
+    "src": "Granny's Reminder",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "M4: Intellect +10. El Max HP +10% queda fuera del cálculo de daño.", "en": "M4: Intellect +10. The Max HP +10% is not part of the damage calculation." },
+    "mods": [
+     {
+      "type": "attrFlat",
+      "attr": "intellect",
+      "value": 10
+     }
+    ],
+    "permanent": true
+   },
+   {
+    "id": "antal-k5",
+    "src": "High Specs Tech Tester",
+    "srcType": "keystone",
+    "target": "team",
+    "cond": { "es": "M5: Electric y Heat Susceptibility +4% extra (10% → 14%) durante 40s — la cola de la ventana de Focus, tras 20s de Focus sostenido.", "en": "M5: extra Electric and Heat Susceptibility +4% (10% → 14%) for 40s — the tail of the Focus window, after 20s of sustained Focus." },
+    "mods": [
+     {
+      "type": "enemySusc",
+      "value": 0.04,
+      "element": "electric"
+     },
+     {
+      "type": "enemySusc",
+      "value": 0.04,
+      "element": "heat"
+     }
+    ],
+    "anchor": "battle_skill",
+    "delayS": 20,
+    "durS": 40,
+    "noStack": true
+   }
+  ],
+  "arclight": [
+   {
+    "id": "arclight-1",
+    "src": "Wildland Trekker",
+    "srcType": "talent",
+    "target": "team",
+    "cond": { "es": "Tras activar el efecto adicional del battle skill 3 veces: equipo gana Electric DMG Dealt +0.08% por punto de Intellect (123 → +9.84%), 15s, no acumulable", "en": "After triggering the battle skill's additional effect 3 times: team gains Electric DMG Dealt +0.08% per Intellect point (123 → +9.84%), 15s, cannot stack" },
+    "mods": [
+     {
+      "type": "dmgAdd",
+      "value": 0.0984,
+      "element": "electric"
+     }
+    ],
+    "durS": 15,
+    "noStack": true
+   },
+   {
+    "id": "arclight-k2",
+    "src": "Speed Battler",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "M2: Agility +15, Intellect +15. (El +15 INT también sube Wildland Trekker a +11.04%, aún no incluido en el cálculo.)", "en": "M2: Agility +15, Intellect +15. (The +15 INT also raises Wildland Trekker to +11.04%, not yet included in the calculation.)" },
+    "mods": [
+     {
+      "type": "attrFlat",
+      "attr": "agility",
+      "value": 15
+     },
+     {
+      "type": "attrFlat",
+      "attr": "intellect",
+      "value": 15
+     }
+    ],
+    "permanent": true
+   }
+  ],
+  "ardelia": [
+   {
+    "id": "ardelia-1",
+    "src": "Dolly Rush",
+    "srcType": "battle_skill",
+    "target": "team",
+    "cond": { "es": "Battle skill Dolly Rush: si el objetivo tiene Corrosion, la consume y aplica Physical Susceptibility +20% y Arts Susceptibility +20% por 30s. La keystone Dolly Paradise suma +8% a ambas (~28%).", "en": "Battle skill Dolly Rush: if the target has Corrosion, consume it and apply Physical Susceptibility +20% and Arts Susceptibility +20% for 30s. Keystone Dolly Paradise adds +8% to both (~28%)." },
+    "mods": [
+     {
+      "type": "enemySusc",
+      "value": 0.2,
+      "element": "physical"
+     },
+     {
+      "type": "enemySusc",
+      "value": 0.2,
+      "element": "arts"
+     }
+    ]
+   },
+   {
+    "id": "ardelia-k1",
+    "src": "Dolly Paradise",
+    "srcType": "keystone",
+    "target": "team",
+    "cond": { "es": "M1: la Physical y Arts Susceptibility de Dolly Rush suben +8% cada una (20% → 28%). Misma ventana que el buff base.", "en": "M1: Dolly Rush's Physical and Arts Susceptibility are increased by +8% each (20% → 28%). Same window as the base buff." },
+    "mods": [
+     {
+      "type": "enemySusc",
+      "value": 0.08,
+      "element": "physical"
+     },
+     {
+      "type": "enemySusc",
+      "value": 0.08,
+      "element": "arts"
+     }
+    ],
+    "anchor": "battle_skill",
+    "durS": 30,
+    "noStack": true
+   },
+   {
+    "id": "ardelia-k5",
+    "src": "Volcanic Steam",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "M5: el DMG multiplier de Eruption Column (combo) sube a 1.2x el original. El CD -2s sí entra; la duración de Corrosion +4s no está incluida en el cálculo.", "en": "M5: Eruption Column's (combo) DMG multiplier is increased to 1.2x the original. The CD -2s is included; the Corrosion duration +4s is not included in the calculation." },
+    "mods": [
+     {
+      "type": "dmgMult",
+      "value": 0.2,
+      "slot": "combo_skill"
+     }
+    ],
+    "permanent": true
+   }
+  ],
+  "avywenna": [
+   {
+    "id": "avywenna-1",
+    "src": "Hard Negotiator",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "Will +15, Electric DMG Dealt +8%.", "en": "Will +15, Electric DMG Dealt +8%." },
+    "mods": [
+     {
+      "type": "attrFlat",
+      "attr": "will",
+      "value": 15
+     },
+     {
+      "type": "dmgAdd",
+      "value": 0.08,
+      "element": "electric"
+     }
+    ],
+    "permanent": true
+   },
+   {
+    "id": "avywenna-2",
+    "src": "Carrot and Sharp Stick",
+    "srcType": "keystone",
+    "target": "self",
+    "pendingModel": "efecto aplicado vía conditions.json (Carrot boost ×1.15 a las lanzas); esta entrada buffs.json es redundante/inerte a propósito (no re-aplicar el dmgMult o se contaría doble)",
+    "cond": { "es": "Cuando los Thunderlances de retorno y los Thunderlances EX golpean a un enemigo con Electric Susceptibility, el DMG multiplier sube a 1.15 veces el original.", "en": "When returning Thunderlances and Thunderlances EX hit an Electric Susceptible enemy, DMG multiplier is increased to 1.15 times the original." },
+    "mods": [
+     {
+      "type": "dmgMult",
+      "value": 0.15
+     }
+    ]
+   },
+   {
+    "id": "avywenna-3",
+    "src": "Tactful Approach",
+    "srcType": "talent",
+    "target": "team",
+    "cond": { "es": "Talent Tactful Approach: la ultimate Thunderlance: Final Shock también aplica Electric Susceptibility +10% por 10s a los enemigos que golpea.", "en": "Talent Tactful Approach: ultimate Thunderlance: Final Shock also applies Electric Susceptibility +10% for 10s to enemies it hits." },
+    "mods": [
+     {
+      "type": "enemySusc",
+      "value": 0.1,
+      "element": "electric"
+     }
+    ],
+    "anchor": "ultimate",
+    "durS": 10
+   }
+  ],
+  "chenqianyu": [
+   {
+    "id": "chenqianyu-1",
+    "src": "Slashing Edge",
+    "srcType": "talent",
+    "target": "self",
+    "cond": { "es": "Talent Slashing Edge: al golpear con skills (battle/combo/ult), Chen gana ATK +8% por 10s, hasta máx 5 stacks (+40% al tope). Apila por cast (deriva del nº de golpes con skill).", "en": "Talent Slashing Edge: on hitting with skills (battle/combo/ult), Chen gains ATK +8% for 10s, up to max 5 stacks (+40% at cap). Stacks per cast (derives from the number of skill hits)." },
+    "mods": [
+     {
+      "type": "atkPct",
+      "value": 0.08
+     }
+    ],
+    "trigger": { "onSkillHit": true, "maxStacks": 5 },
+    "durS": 10
+   },
+   {
+    "id": "chenqianyu-2",
+    "src": "Shadowless",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "DMG Dealt +20% a enemigos por debajo del 50% de HP.", "en": "DMG Dealt +20% to enemies below 50% HP." },
+    "mods": [
+     {
+      "type": "dmgAdd",
+      "value": 0.2
+     }
+    ],
+    "whenState": "enemy_hp_below_50"
+   },
+   {
+    "id": "chenqianyu-3",
+    "src": "Heirloom Martial Arts",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "Agility +15, Physical DMG Dealt +8%.", "en": "Agility +15, Physical DMG Dealt +8%." },
+    "mods": [
+     {
+      "type": "attrFlat",
+      "attr": "agility",
+      "value": 15
+     },
+     {
+      "type": "dmgAdd",
+      "value": 0.08,
+      "element": "physical"
+     }
+    ],
+    "permanent": true
+   },
+   {
+    "id": "chenqianyu-4",
+    "src": "Dual-Wielding Swordmancer",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "Battle skill Ascending Strike, combo skill Soar to the Stars y ultimate Blade Gale mejoradas: el DMG Multiplier sube a 1.1 veces el", "en": "Battle skill Ascending Strike, combo skill Soar to the Stars, and ultimate Blade Gale improved: DMG Multiplier is increased to 1.1 times the" },
+    "mods": [
+     {
+      "type": "dmgMult",
+      "value": 0.1,
+      "slot": "battle_skill"
+     },
+     {
+      "type": "dmgMult",
+      "value": 0.1,
+      "slot": "combo_skill"
+     },
+     {
+      "type": "dmgMult",
+      "value": 0.1,
+      "slot": "ultimate"
+     }
+    ],
+    "permanent": true
+   }
+  ],
+  "dapan": [
+   {
+    "id": "dapan-1",
+    "src": "Reduce and Thicken",
+    "srcType": "talent",
+    "target": "self",
+    "cond": { "es": "Talent Reduce and Thicken: al consumir Vulnerability, Physical DMG Dealt = [stacks consumidos × 6%] por 10s (hasta 4 stacks, +24% al máx). El nivel se DERIVA del nº de stacks consumidos (no se asume).", "en": "Talent Reduce and Thicken: on consuming Vulnerability, Physical DMG Dealt = [stacks consumed × 6%] for 10s (up to 4 stacks, +24% at max). The level is DERIVED from the stacks consumed (not assumed)." },
+    "mods": [
+     {
+      "type": "dmgAdd",
+      "element": "physical",
+      "perStack": { "base": 0, "per": 0.06, "cap": 4 }
+     }
+    ],
+    "trigger": { "onConsume": "vulnerability" },
+    "durS": 10,
+    "noStack": true
+   },
+   {
+    "id": "dapan-2",
+    "src": "Model Employee",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "Strength +15, Physical DMG Dealt +8%.", "en": "Strength +15, Physical DMG Dealt +8%." },
+    "mods": [
+     {
+      "type": "attrFlat",
+      "attr": "strength",
+      "value": 15
+     },
+     {
+      "type": "dmgAdd",
+      "value": 0.08,
+      "element": "physical"
+     }
+    ],
+    "permanent": true
+   }
+  ],
+  "ember": [
+   {
+    "id": "ember-1",
+    "src": "Pay the Ferric Price",
+    "srcType": "talent",
+    "target": "self",
+    "pendingModel": "onReceiveDamage: Ember gana ATK al RECIBIR daño del enemigo. El sim de timeline ideal no modela ataques ENTRANTES (single-lane, sin dimensión de enemigo activo) → el trigger nunca dispararía. Inerte en Rotación a propósito; toggle/techo manual en el calc de Daño (como mifu-2/rossi-5).",
+    "cond": { "es": "Cuando Ember recibe DMG del enemigo, gana ATK +6/9% por 7s.", "en": "When Ember receives DMG from the enemy, she gains ATK +6/9% for 7s." },
+    "mods": [
+     {
+      "type": "atkPct",
+      "value": 0.09
+     }
+    ]
+   },
+   {
+    "id": "ember-2",
+    "src": "The Steel Oath",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "Ultimate Re-Ignited Oath mejorada: el efecto de escudo se multiplica por 1.2; mientras este escudo está activo, el portador gana ATK +10%.", "en": "Ultimate Re-Ignited Oath improved: Shield effect is multiplied by 1.2; while this Shield is active, the wielder gains ATK +10%." },
+    "mods": [
+     {
+      "type": "atkPct",
+      "value": 0.1
+     }
+    ],
+    "anchor": "ultimate",
+    "durHint": "shield"
+   },
+   {
+    "id": "ember-k2",
+    "src": "Steel-Hardened Veteran",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "M2: Strength +20, Will +20.", "en": "M2: Strength +20, Will +20." },
+    "mods": [
+     {
+      "type": "attrFlat",
+      "attr": "strength",
+      "value": 20
+     },
+     {
+      "type": "attrFlat",
+      "attr": "will",
+      "value": 20
+     }
+    ],
+    "permanent": true
+   }
+  ],
+  "endministrator": [
+   {
+    "id": "endministrator-1",
+    "src": "Essence Disintegration",
+    "srcType": "talent",
+    "target": "self",
+    "pendingModel": "gate en Originium Crystals (recurso propio de Endministrator): NO modelado en el sim (0 refs en rotation.js/conditions.json). Además 3/5 keystones figuran ??? en operators.json (kit incompleto — ver INFLICTIONS_MODEL.md TBD). Sin el recurso, su consumo no se genera → no dispara. Toggle/techo en el calc.",
+    "cond": { "es": "Cuando se consumen los Originium Crystals adheridos al enemigo, el Endministrator gana ATK +15/30% por 15s.", "en": "When the Originium Crystals attached to the enemy is consumed, the Endministrator gains ATK +15/30% for 15s." },
+    "mods": [
+     {
+      "type": "atkPct",
+      "value": 0.3
+     }
+    ]
+   },
+   {
+    "id": "endministrator-2",
+    "src": "Realspace Stasis",
+    "srcType": "talent",
+    "target": "team",
+    "pendingModel": "gate en Originium Crystals adheridos al enemigo: el recurso NO está modelado (0 refs) → el estado no existe en el sim, no hay contra qué gatear el enemyDmgTaken. Toggle/techo en el calc.",
+    "cond": { "es": "Los enemigos con Originium Crystals adheridos sufren Physical DMG Taken +20/30%.", "en": "Enemies with attached Originium Crystals suffer Physical DMG Taken +20/30%." },
+    "mods": [
+     {
+      "type": "enemyDmgTaken",
+      "value": 0.3,
+      "element": "physical"
+     }
+    ]
+   }
+  ],
+  "estella": [
+   {
+    "id": "estella-1",
+    "src": "Delayed Work",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "Battle skill Onomatopoeia mejorada: el rango de la onda sonora congelante +50% y DMG Dealt +40% al primer enemigo golpeado.", "en": "Battle skill Onomatopoeia improved: Freezing sound wave range +50% and DMG Dealt +40% to the first enemy hit." },
+    "mods": [
+     {
+      "type": "dmgAdd",
+      "value": 0.4,
+      "slot": "battle_skill"
+     }
+    ],
+    "permanent": true,
+    "assumeIdeal": "objetivo unico: el enemigo del timeline es el primer golpeado"
+   },
+   {
+    "id": "estella-2",
+    "src": "Distortion",
+    "srcType": "combo_skill",
+    "target": "team",
+    "cond": { "es": "Combo skill Distortion: golpear a un objetivo Solidified aplica Physical Susceptibility +15% por 6s (keystone Habitual Delay: +3s de duración). Su ultimate es Physical y se beneficia de ello.", "en": "Combo skill Distortion: hitting a Solidified target applies Physical Susceptibility +15% for 6s (keystone Habitual Delay: +3s duration). Her ultimate is Physical and benefits from it." },
+    "mods": [
+     {
+      "type": "enemySusc",
+      "value": 0.15,
+      "element": "physical"
+     }
+    ]
+   },
+   {
+    "id": "estella-k4",
+    "src": "Life Over Mission",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "M4: Will +10, Strength +10.", "en": "M4: Will +10, Strength +10." },
+    "mods": [
+     {
+      "type": "attrFlat",
+      "attr": "will",
+      "value": 10
+     },
+     {
+      "type": "attrFlat",
+      "attr": "strength",
+      "value": 10
+     }
+    ],
+    "permanent": true
+   }
+  ],
+  "fluorite": [
+   {
+    "id": "fluorite-1",
+    "src": "Love the Stab and Twist",
+    "srcType": "talent",
+    "target": "self",
+    "pendingModel": "whenState 'Slowed': el estado CC 'Slowed' NO está en el modelo de estados del sim (traquea inflicciones/reacciones/vulnerability/stagger, no CC como slow) → no hay contra qué gatear. Toggle/techo en el calc.",
+    "cond": { "es": "Fluorite gana DMG Dealt +10/20% contra objetivos Slowed.", "en": "Fluorite gains DMG Dealt +10/20% against Slowed targets." },
+    "mods": [
+     {
+      "type": "dmgAdd",
+      "value": 0.2
+     }
+    ]
+   },
+   {
+    "id": "fluorite-2",
+    "src": "Unpredictable",
+    "srcType": "talent",
+    "target": "self",
+    "pendingModel": "proc RNG (20% de probabilidad): NO derivable de un timeline ideal determinista (como el crit-proc de rossi-5). El componente de daño es solo el ATK; la inmunidad a Arts DMG es defensiva (no aplica al cálculo ofensivo). Toggle/techo en el calc.",
+    "cond": { "es": "Da 20% de probabilidad de inmunidad a Arts DMG y otorga a Fluorite ATK +10/20% por 10s.", "en": "Grants 20% chance of Arts DMG immunity and grants Fluorite ATK +10/20% for 10s." },
+    "mods": [
+     {
+      "type": "atkPct",
+      "value": 0.2
+     }
+    ]
+   },
+   {
+    "id": "fluorite-k1",
+    "src": "Ten-Finger Smith",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "M1: Agility +10, Intellect +10.", "en": "M1: Agility +10, Intellect +10." },
+    "mods": [
+     {
+      "type": "attrFlat",
+      "attr": "agility",
+      "value": 10
+     },
+     {
+      "type": "attrFlat",
+      "attr": "intellect",
+      "value": 10
+     }
+    ],
+    "permanent": true
+   }
+  ],
+  "gilberta": [
+   {
+    "id": "gilberta-1",
+    "src": "Special Mail",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "Combo skill Arcane Staff: Matrix Displacement mejorada: cooldown -2s; el DMG multiplier sube a 1.3 veces el original.", "en": "Combo skill Arcane Staff: Matrix Displacement improved: Length of cooldown -2s; DMG multiplier is increased to 1.3 times the original." },
+    "mods": [
+     {
+      "type": "dmgMult",
+      "value": 0.3,
+      "slot": "combo_skill"
+     }
+    ],
+    "permanent": true
+   },
+   {
+    "id": "gilberta-2",
+    "src": "Arcane Staff: Gravity Field",
+    "srcType": "ultimate",
+    "target": "team",
+    "cond": { "es": "Ultimate: los enemigos en el Anomalous Gravity Field sufren Arts Susceptibility +30% base, +3% más por cada stack activo de Vulnerability (hasta ~42% con la keystone Wind Walker = +1 stack de Vuln, máx 4). Arts Susceptibility amplifica TODO el daño Arts = no-físico (heat/cryo/electric/nature/aether) de TODO el equipo → por eso Gilberta es S+ (solo no toca daño físico).", "en": "Ultimate: enemies in the Anomalous Gravity Field suffer Arts Susceptibility +30% base, increased +3% per active Vulnerability stack (up to ~42% with keystone Wind Walker = +1 Vuln stack, max 4). Arts Susceptibility amplifies ALL Arts (non-physical: heat/cryo/electric/nature/aether) damage from the WHOLE team → this is why Gilberta is S+ (she only misses physical damage)." },
+    "mods": [
+     {
+      "type": "enemySusc",
+      "value": 0.3,
+      "element": "arts"
+     }
+    ]
+   }
+  ],
+  "laevatain": [
+   {
+    "id": "laevatain-1",
+    "src": "Pursuit of Memories",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "Intellect +20, Basic Attack DMG Dealt +15%.", "en": "Intellect +20, Basic Attack DMG Dealt +15%." },
+    "mods": [
+     {
+      "type": "attrFlat",
+      "attr": "intellect",
+      "value": 20
+     },
+     {
+      "type": "dmgAdd",
+      "value": 0.15,
+      "slot": "basic_attack"
+     }
+    ],
+    "permanent": true
+   },
+   {
+    "id": "laevatain-2",
+    "src": "Proof of Existence",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "Ultimate Twilight mejorada: el DMG multiplier del basic attack potenciado sube a 1.2 veces el original; durante la ultimate, cada enemigo de", "en": "Ultimate Twilight improved: Enhanced basic attack DMG multiplier is increased to 1.2 times the original; during the ultimate, every enemy de" },
+    "mods": [
+     {
+      "type": "dmgMult",
+      "value": 0.2,
+      "slot": "basic_attack"
+     }
+    ],
+    "whenState": "lvt_ult"
+   },
+   {
+    "id": "laevatain-3",
+    "src": "Scorching Heart",
+    "srcType": "talent",
+    "anchor": "ultimate",
+    "durS": 20,
+    "target": "self",
+    "cond": { "es": "Scorching Heart: a 4 stacks de Melting Flame, el daño de Laevatain ignora 20 de Heat Res por 20s. Modelado en la ventana de su Ultimate.", "en": "Scorching Heart: at 4 Melting Flame stacks, Laevatain's DMG ignores 20 Heat Res for 20s. Modeled over her Ultimate window." },
+    "mods": [
+     {
+      "type": "enemyResIgnore",
+      "value": 0.2,
+      "element": "heat"
+     }
+    ]
+   }
+  ],
+  "lastrite": [
+   {
+    "id": "lastrite-1",
+    "src": "Absolute Zero Armament",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "Strength +20, Cryo DMG Dealt +10%.", "en": "Strength +20, Cryo DMG Dealt +10%." },
+    "mods": [
+     {
+      "type": "attrFlat",
+      "attr": "strength",
+      "value": 20
+     },
+     {
+      "type": "dmgAdd",
+      "value": 0.1,
+      "element": "cryo"
+     }
+    ],
+    "permanent": true
+   },
+   {
+    "id": "lastrite-2",
+    "src": "Overlord of Winter",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "Combo skill Winter's Devourer y ultimate Vigil Services mejoradas: el DMG multiplier sube a 1.15 veces el original.", "en": "Combo skill Winter's Devourer and ultimate Vigil Services improved: DMG multiplier increased to 1.15 times the original." },
+    "mods": [
+     {
+      "type": "dmgMult",
+      "value": 0.15,
+      "slot": "combo_skill"
+     },
+     {
+      "type": "dmgMult",
+      "value": 0.15,
+      "slot": "ultimate"
+     }
+    ],
+    "permanent": true
+   },
+   {
+    "id": "lastrite-3",
+    "src": "Hypothermia",
+    "srcType": "talent",
+    "target": "team",
+    "cond": { "es": "Talent Hypothermia: al consumir una Arts Infliction aplica Cryo Susceptibility = [stacks consumidos × 4%] 15s. El nivel se DERIVA del nº de stacks consumidos (no se asume). Keystone Cryogenic Embrittlement (ult ×1.5) → diferido.", "en": "Talent Hypothermia: on consuming an Arts Infliction, applies Cryo Susceptibility = [stacks consumed × 4%] for 15s. The level is DERIVED from the stacks consumed (not assumed). Keystone Cryogenic Embrittlement (ult ×1.5) → deferred." },
+    "mods": [
+     {
+      "type": "enemySusc",
+      "element": "cryo",
+      "perStack": { "base": 0, "per": 0.04 }
+     }
+    ],
+    "trigger": { "onConsume": ["heat_infl", "electric_infl", "cryo_infl", "nature_infl"] },
+    "durS": 15,
+    "noStack": true
+   }
+  ],
+  "lifeng": [
+   {
+    "id": "lifeng-1",
+    "src": "Illumination",
+    "srcType": "talent",
+    "target": "self",
+    "cond": { "es": "Cada punto de Intellect y Will otorga además ATK +0.10/0.15%.", "en": "Every point of Intellect and Will further grants ATK +0.10/0.15%." },
+    "mods": [
+     {
+      "type": "atkPctPerAttr",
+      "attrs": [
+       "intellect",
+       "will"
+      ],
+      "per": 0.0015
+     }
+    ],
+    "permanent": true
+   },
+   {
+    "id": "lifeng-2",
+    "src": "Turbid Avatar",
+    "srcType": "battle_skill",
+    "target": "team",
+    "cond": { "es": "Battle skill Turbid Avatar: si el objetivo del último golpe no tiene stacks de Vulnerability, aplica Physical Susceptibility +12% por 12s. La keystone Breaking the Obsession suma +5% (~17%).", "en": "Battle skill Turbid Avatar: if the last hit's target has no Vulnerability stacks, apply Physical Susceptibility +12% for 12s. Keystone Breaking the Obsession adds +5% (~17%)." },
+    "mods": [
+     {
+      "type": "enemySusc",
+      "value": 0.12,
+      "element": "physical"
+     }
+    ]
+   },
+   {
+    "id": "lifeng-3",
+    "src": "Spiritual Cultivation",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "Talent Illumination mejorada: cada punto en los atributos de Intellect y Will otorga a Lifeng ATK +0.05% adicional.", "en": "Talent Illumination improved: Every point in the attributes of Intellect and Will grants Lifeng an additional ATK +0.05%." },
+    "mods": [
+     {
+      "type": "atkPctPerAttr",
+      "attrs": [
+       "intellect",
+       "will"
+      ],
+      "per": 0.0005
+     }
+    ],
+    "permanent": true
+   }
+  ],
+  "perlica": [
+   {
+    "id": "perlica-1",
+    "src": "Obliteration Protocol",
+    "srcType": "talent",
+    "target": "self",
+    "cond": { "es": "DMG Dealt +20/30% a enemigos con Stagger.", "en": "DMG Dealt +20/30% to Staggered enemies." },
+    "mods": [
+     {
+      "type": "dmgAdd",
+      "value": 0.3
+     }
+    ],
+    "whenState": "staggered"
+   },
+   {
+    "id": "perlica-2",
+    "src": "Supervisory Duties",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "Tras aplicar Electrification al enemigo, Perlica gana ATK +20% por 5s. Apila hasta 2 veces.", "en": "After Perlica applies Electrification to the enemy, she gains ATK +20% for 5s. This effect can reach 2 stacks." },
+    "mods": [
+     {
+      "type": "atkPct",
+      "value": 0.2
+     }
+    ],
+    "trigger": {
+     "onApplyReaction": "electrification",
+     "maxStacks": 2
+    },
+    "durS": 5
+   },
+   {
+    "id": "perlica-3",
+    "src": "Reentry Control",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "Ultimate Protocol ε: 70.41K mejorada: Critical Rate +30%.", "en": "Ultimate Protocol ε: 70.41K improved: Critical Rate +30%." },
+    "mods": [
+     {
+      "type": "critRate",
+      "value": 0.3,
+      "slot": "ultimate"
+     }
+    ],
+    "permanent": true
+   }
+  ],
+  "pogranichnik": [
+   {
+    "id": "pogranichnik-1",
+    "src": "The Living Banner",
+    "srcType": "talent",
+    "target": "self",
+    "pendingModel": "Fervent Morale requiere DOS primitivos nuevos, ninguno verificable sin captura del juego: (1) trigger onSpRecover con UMBRAL de 80 SP acumulados (el onSpRecover actual dispara por-skill sin umbral → sobre-contaría los stacks); (2) Arts Intensity DISPARADA por ventana (hoy artsInt es solo build-fold estático — buffsAt no la acumula y el daño de reacción la lee estática, rotation.js:479/627/1712). Modelo intención: por cada 80 SP recuperados con skills propias → ATK +8% y AI +8 por 20s, apila a 3 (stackCap, duración por-stack separada). Inerte en Rotación a propósito. El valor 0.08 es POR-STACK (correcto para el stackCap futuro, NO hornear el techo aquí o habría que revertirlo al implementar el trigger): el toggle del calc de Daño muestra +8% (sub-representa el techo real ×3 = +24% ATK + AI 24, pendiente).",
+    "cond": { "es": "Talent The Living Banner: al recuperar 80 SP con skills propias, Fervent Morale por 20s (ATK +8% y Arts Intensity +8), apila hasta máx 3 stacks (duración por stack separada). Aún no incluido en el cálculo.", "en": "Talent The Living Banner: on recovering 80 SP with own skills, Fervent Morale for 20s (ATK +8% and Arts Intensity +8), stacks up to 3 (each stack's duration counted separately). Not yet included in the calculation." },
+    "mods": [
+     {
+      "type": "atkPct",
+      "value": 0.08
+     }
+    ]
+   },
+   {
+    "id": "pogranichnik-2",
+    "src": "Advance",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "Will +20, Physical DMG Dealt +10%.", "en": "Will +20, Physical DMG Dealt +10%." },
+    "mods": [
+     {
+      "type": "attrFlat",
+      "attr": "will",
+      "value": 20
+     },
+     {
+      "type": "dmgAdd",
+      "value": 0.1,
+      "element": "physical"
+     }
+    ],
+    "permanent": true
+   }
+  ],
+  "rossi": [
+   {
+    "id": "rossi-1",
+    "src": "Nicks and Scratches",
+    "srcType": "talent",
+    "target": "team",
+    "cond": { "es": "Mientras dura Razor Clawmark, el objetivo recibe 25/30% del ATK (de Rossi) como Physical DMG por segundo y sufre Physical DMG Taken y Heat", "en": "For the duration of Razor Clawmark, the target takes 25/30% ATK (Rossi's) of Physical DMG per second and suffers Physical DMG Taken and Heat" },
+    "mods": [
+     {
+      "type": "enemyDmgTaken",
+      "value": 0.12,
+      "element": "physical"
+     },
+     {
+      "type": "enemyDmgTaken",
+      "value": 0.12,
+      "element": "heat"
+     }
+    ],
+    "anchor": "battle_skill",
+    "durS": 25,
+    "noStack": true
+   },
+   {
+    "id": "rossi-3",
+    "src": "Origin of Admiration",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "Battle skill Crimson Shadow y combo skill Moment of Blazing Shadow mejoradas: los DMG Multipliers de estas skills suben a 1.15 ve", "en": "Battle skill Crimson Shadow and combo skill Moment of Blazing Shadow improved: The DMG Multipliers of these skills are increased to 1.15 tim" },
+    "mods": [
+     {
+      "type": "dmgMult",
+      "value": 0.15,
+      "slot": "battle_skill"
+     },
+     {
+      "type": "dmgMult",
+      "value": 0.15,
+      "slot": "combo_skill"
+     }
+    ],
+    "permanent": true
+   },
+   {
+    "id": "rossi-4",
+    "src": "Gap to Perfection",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "Agility +20, Critical Rate +7%.", "en": "Agility +20, Critical Rate +7%." },
+    "mods": [
+     {
+      "type": "attrFlat",
+      "attr": "agility",
+      "value": 20
+     },
+     {
+      "type": "critRate",
+      "value": 0.07
+     }
+    ],
+    "permanent": true
+   },
+   {
+    "id": "rossi-5",
+    "src": "Tangible Duties",
+    "srcType": "keystone",
+    "target": "self",
+    "pendingModel": "crit-proc probabilístico (se dispara al critear); NO derivable de un timeline ideal → queda como toggle-solo del calc de Daño, inerte en la Rotación a propósito. Candidato EV-movible (ver changelog)",
+    "cond": { "es": "Talent Seething Blood mejorada: al activarse, otorga Base DMG Multiplier +8% y restaura HP +[Intellect × 0.04].", "en": "Talent Seething Blood improved: When triggered, it grants Base DMG Multiplier +8% and restores HP +[lntellect x 0.04]." },
+    "mods": [
+     {
+      "type": "dmgMult",
+      "value": 0.08
+     }
+    ]
+   },
+   {
+    "id": "rossi-6",
+    "src": "Legendary Destination",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "Ultimate \"Razorclaw\" Ambuscade mejorada: el DMG Multiplier sube a 1.1 veces el original; el Critical DMG Dealt aumenta en +30%.", "en": "Ultimate \"Razorclaw\" Ambuscade improved: DMG Multiplier is increased to 1.1 times of the original; Critical DMG Dealt is increased by +30%." },
+    "mods": [
+     {
+      "type": "critDmg",
+      "value": 0.3,
+      "slot": "ultimate"
+     },
+     {
+      "type": "dmgMult",
+      "value": 0.1,
+      "slot": "ultimate"
+     }
+    ],
+    "permanent": true
+   }
+  ],
+  "tangtang": [
+   {
+    "id": "tangtang-1",
+    "src": "Riot Bringer",
+    "srcType": "talent",
+    "target": "self",
+    "cond": { "es": "Todos los Whirlpools cercanos también se consumen y se convierten en Waterspouts adicionales. Los Waterspouts creados así tienen los mismos efectos que aque", "en": "All nearby Whirlpools are also consumed and converted into additional Waterspouts.Waterspouts created this way have the same effects as thos" },
+    "mods": [
+     {
+      "type": "dmgAdd",
+      "value": 0.6,
+      "slot": "battle_skill"
+     }
+    ]
+   },
+   {
+    "id": "tangtang-2",
+    "src": "Reserve Hoard",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "Combo skill RIVER, TO ME! mejorada: el DMG Multiplier sube a 1.2 veces el original y el cooldown ahora es -2s. Battle skill IMA WAVER", "en": "Combo skill RIVER, TO ME! improved: DMG Multiplier is increased to 1.2 times of the original, and cooldown is now -2s.Battle skill IMA WAVER" },
+    "mods": [
+     {
+      "type": "dmgMult",
+      "value": 0.2,
+      "slot": "combo_skill"
+     }
+    ],
+    "permanent": true
+   },
+   {
+    "id": "tangtang-3",
+    "src": "River's Daughter",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "Agility +20, Cryo DMG Dealt +10%.", "en": "Agility +20, Cryo DMG Dealt +10%." },
+    "mods": [
+     {
+      "type": "attrFlat",
+      "attr": "agility",
+      "value": 20
+     },
+     {
+      "type": "dmgAdd",
+      "value": 0.1,
+      "element": "cryo"
+     }
+    ],
+    "permanent": true
+   },
+   {
+    "id": "tangtang-4",
+    "src": "Chiefly Vibe",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "Keystone Chiefly Vibe: el DMG Multiplier de la battle skill IMA WAVERIDAAH! sube a 1.1x (solo la battle skill propia de Tangtang).", "en": "Keystone Chiefly Vibe: battle skill IMA WAVERIDAAH! DMG Multiplier increased to 1.1x (only Tangtang's own battle skill)." },
+    "mods": [
+     {
+      "type": "dmgMult",
+      "value": 0.1,
+      "slot": "battle_skill"
+     }
+    ],
+    "permanent": true
+   },
+   {
+    "id": "tangtang-6",
+    "src": "IMA WAVERIDAAH!",
+    "srcType": "battle_skill",
+    "target": "team",
+    "cond": { "es": "Battle skill: formar varios Waterspouts aplica Arts Susceptibility a los enemigos (+5% con 2, +10% con 3 Waterspouts) por 15s. La keystone Chiefly Vibe suma +5% (~15%).", "en": "Battle skill: forming multiple Waterspouts applies Arts Susceptibility to enemies (+5% with 2, +10% with 3 Waterspouts) for 15s. Keystone Chiefly Vibe adds +5% (~15%)." },
+    "mods": [
+     {
+      "type": "enemySusc",
+      "value": 0.1,
+      "element": "arts"
+     }
+    ]
+   },
+   {
+    "id": "tangtang-5",
+    "src": "Chief's All-Eldritch Gaze",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "Ultimate DA CHIEF SEES YOU! mejorada: el DMG Multiplier sube a 1.15 veces el original. Talent Riot Bringer mejorada: los efectos de DMG de un", "en": "Ultimate DA CHIEF SEES YOU! improved: DMG Multiplier is increased to 1.15 times the original.Talent Riot Bringer improved: DMG effects of an" },
+    "mods": [
+     {
+      "type": "dmgMult",
+      "value": 0.15,
+      "slot": "ultimate"
+     }
+    ],
+    "permanent": true
+   }
+  ],
+  "wulfgard": [
+   {
+    "id": "wulfgard-1",
+    "src": "Scorching Fangs",
+    "srcType": "talent",
+    "target": "self",
+    "cond": { "es": "Al aplicar Combustion: gana Scorching Fangs 10s (no acumula): Heat DMG Dealt +20/30%.", "en": "On applying Combustion: gains Scorching Fangs for 10s (non-stacking): Heat DMG Dealt +20/30%." },
+    "mods": [
+     {
+      "type": "dmgAdd",
+      "value": 0.3,
+      "element": "heat"
+     }
+    ],
+    "trigger": {
+     "onApplyReaction": "combustion"
+    },
+    "durS": 10,
+    "noStack": true
+   },
+   {
+    "id": "wulfgard-k1",
+    "src": "Lone Wolf",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "M1: Strength +15, Agility +15.", "en": "M1: Strength +15, Agility +15." },
+    "mods": [
+     {
+      "type": "attrFlat",
+      "attr": "strength",
+      "value": 15
+     },
+     {
+      "type": "attrFlat",
+      "attr": "agility",
+      "value": 15
+     }
+    ],
+    "permanent": true
+   }
+  ],
+  "yvonne": [
+   {
+    "id": "yvonne-1",
+    "src": "Barrage of Technology",
+    "srcType": "talent",
+    "target": "self",
+    "cond": { "es": "En el nivel 2, el Final Strike tiene un buff de DMG Dealt +50%.", "en": "At level 2, the Final Strike has a buff of DMG Dealt +50%." },
+    "mods": [
+     {
+      "type": "dmgAdd",
+      "value": 0.5
+     }
+    ]
+   },
+   {
+    "id": "yvonne-2",
+    "src": "Freezing Point",
+    "srcType": "talent",
+    "target": "self",
+    "whenState": [
+     "cryo_infl",
+     "solidification"
+    ],
+    "cond": { "es": "Freezing Point: contra enemigos con Cryo Infliction, Critical DMG +20%. Se DUPLICA con Solidification (tier extra aparte).", "en": "Freezing Point: against enemies with Cryo Infliction, Critical DMG +20%. DOUBLED under Solidification (separate extra tier)." },
+    "mods": [
+     {
+      "type": "critDmg",
+      "value": 0.2
+     }
+    ]
+   },
+   {
+    "id": "yvonne-2b",
+    "src": "Freezing Point · doble",
+    "srcType": "talent",
+    "target": "self",
+    "whenState": [
+     "solidification"
+    ],
+    "cond": { "es": "Freezing Point: el bono de Crit DMG se duplica contra enemigos con Solidification (+20% extra sobre el tier base).", "en": "Freezing Point: the Crit DMG bonus is doubled against enemies with Solidification (+20% extra over the base tier)." },
+    "mods": [
+     {
+      "type": "critDmg",
+      "value": 0.2
+     }
+    ]
+   },
+   {
+    "id": "yvonne-3",
+    "src": "Flawless Creation",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "Intellect +20, Critical Rate +7%.", "en": "Intellect +20, Critical Rate +7%." },
+    "mods": [
+     {
+      "type": "attrFlat",
+      "attr": "intellect",
+      "value": 20
+     },
+     {
+      "type": "critRate",
+      "value": 0.07
+     }
+    ],
+    "permanent": true
+   },
+   {
+    "id": "yvonne-4",
+    "src": "Tink-a-Power",
+    "srcType": "keystone",
+    "target": "self",
+    "whenState": [
+     "cryo_infl",
+     "solidification"
+    ],
+    "cond": { "es": "Tink-a-Power: mejora Freezing Point — contra enemigos con Cryo Infliction, Critical DMG +10% (duplicado con Solidification, tier extra aparte).", "en": "Tink-a-Power: improves Freezing Point — against enemies with Cryo Infliction, Critical DMG +10% (doubled under Solidification, separate extra tier)." },
+    "mods": [
+     {
+      "type": "critDmg",
+      "value": 0.1
+     }
+    ]
+   },
+   {
+    "id": "yvonne-4b",
+    "src": "Tink-a-Power",
+    "srcType": "keystone",
+    "target": "self",
+    "whenState": [
+     "solidification"
+    ],
+    "cond": { "es": "Tink-a-Power: el bono de Crit DMG se duplica contra enemigos con Solidification (+10% extra sobre el tier base).", "en": "Tink-a-Power: the Crit DMG bonus is doubled against enemies with Solidification (+10% extra over the base tier)." },
+    "mods": [
+     {
+      "type": "critDmg",
+      "value": 0.1
+     }
+    ]
+   },
+   {
+    "id": "yvonne-5",
+    "src": "Expert Mechcrafter",
+    "srcType": "keystone",
+    "anchor": "ultimate",
+    "target": "self",
+    "cond": { "es": "Ultimate Cryoblasting Pistolier mejorada: durante la ultimate, ATK +10% y Critical DMG Dealt +30%.", "en": "Ultimate Cryoblasting Pistolier improved: During the ultimate, ATK +10% and Critical DMG Dealt +30%." },
+    "mods": [
+     {
+      "type": "atkPct",
+      "value": 0.1
+     },
+     {
+      "type": "critDmg",
+      "value": 0.3
+     }
+    ]
+   }
+  ],
+  "xaihi": [
+   {
+    "id": "xaihi-1",
+    "src": "Stack Overflow",
+    "srcType": "ultimate",
+    "target": "team",
+    "cond": { "es": "Ultimate Stack Overflow: Cryo Amp y Nature Amp al equipo por 12s. Base 24% + 0.03%/Intellect (127 a lv90) = 27.81%, tope 36%. La keystone Controlled Recursion lo sube a 1.1x (entrada M5 aparte).", "en": "Ultimate Stack Overflow: Cryo Amp and Nature Amp for the team, 12s. Base 24% + 0.03%/Intellect (127 at lv90) = 27.81%, cap 36%. Keystone Controlled Recursion raises it to 1.1x (separate M5 entry)." },
+    "mods": [
+     {
+      "type": "dmgAmp",
+      "value": 0.2781,
+      "element": "cryo"
+     },
+     {
+      "type": "dmgAmp",
+      "value": 0.2781,
+      "element": "nature"
+     }
+    ]
+   },
+   {
+    "id": "xaihi-2",
+    "src": "Distributed DoS",
+    "srcType": "battle_skill",
+    "target": "team",
+    "cond": { "es": "Battle skill: si el operador controlado está a HP máximo, el Auxiliary Crystal otorga Arts Amp +15% por 25s en vez de curar. La keystone Agile Execution suma +5% (~20%). Va al operador controlado (el carry).", "en": "Battle skill: if the controlled operator is at max HP, the Auxiliary Crystal grants Arts Amp +15% for 25s instead of healing. Keystone Agile Execution adds +5% (~20%). Goes to the controlled operator (the carry)." },
+    "mods": [
+     {
+      "type": "dmgAmp",
+      "value": 0.15,
+      "element": "arts"
+     }
+    ],
+    "noStack": true
+   },
+   {
+    "id": "xaihi-3",
+    "src": "Execute Process",
+    "srcType": "talent",
+    "target": "team",
+    "cond": { "es": "Talent Execute Process: que la combo skill golpee a un enemigo con Cryo Infliction o Solidification hace que reciba Cryo DMG Dealt +10% por 5s (Cryo Susceptibility). No acumulable.", "en": "Talent Execute Process: combo skill hitting an enemy with Cryo Infliction or Solidification makes it take Cryo DMG Dealt +10% for 5s (Cryo Susceptibility). Cannot stack." },
+    "mods": [
+     {
+      "type": "enemySusc",
+      "value": 0.1,
+      "element": "cryo"
+     }
+    ],
+    "durS": 5,
+    "noStack": true
+   },
+   {
+    "id": "xaihi-k1",
+    "src": "Agile Execution",
+    "srcType": "keystone",
+    "target": "team",
+    "cond": { "es": "M1: el Arts Amp del Auxiliary Crystal sube otro +5% (15% → 20%). Misma ventana de 25s que el buff base; no acumulable.", "en": "M1: the Auxiliary Crystal's Arts Amp is increased by another +5% (15% → 20%). Same 25s window as the base buff; cannot stack." },
+    "mods": [
+     {
+      "type": "dmgAmp",
+      "value": 0.05,
+      "element": "arts"
+     }
+    ],
+    "anchor": "battle_skill",
+    "durS": 25,
+    "noStack": true
+   },
+   {
+    "id": "xaihi-k4",
+    "src": "Grayscale Release",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "M4: Intellect +15. Treatment Efficiency +10% queda fuera del cálculo de daño.", "en": "M4: Intellect +15. Treatment Efficiency +10% is not part of the damage calculation." },
+    "mods": [
+     {
+      "type": "attrFlat",
+      "attr": "intellect",
+      "value": 15
+     }
+    ],
+    "permanent": true
+   },
+   {
+    "id": "xaihi-k5",
+    "src": "Controlled Recursion",
+    "srcType": "keystone",
+    "target": "team",
+    "cond": { "es": "M5: el Amp de Stack Overflow sube a 1.1x el original → +2.781% Cryo Amp y Nature Amp extra mientras dura la ultimate (12s).", "en": "M5: Stack Overflow's Amp is increased to 1.1x the original → extra +2.781% Cryo and Nature Amp while the ultimate lasts (12s)." },
+    "mods": [
+     {
+      "type": "dmgAmp",
+      "value": 0.02781,
+      "element": "cryo"
+     },
+     {
+      "type": "dmgAmp",
+      "value": 0.02781,
+      "element": "nature"
+     }
+    ],
+    "anchor": "ultimate",
+    "durS": 12
+   }
+  ],
+  "zhuangfangyi": [
+   {
+    "id": "zhuangfangyi-1",
+    "src": "Four Symbols of Harmony",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "Battle skill Mantra of Sundering mejorada: el DMG multiplier sube a 1.15 veces el original.", "en": "Battle skill Mantra of Sundering improved: DMG multiplier is increased to 1.15 times the original." },
+    "mods": [
+     {
+      "type": "dmgMult",
+      "value": 0.15,
+      "slot": "battle_skill"
+     }
+    ],
+    "permanent": true
+   },
+   {
+    "id": "zhuangfangyi-2",
+    "src": "Acuity of Fine Details ",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "Will +20, Battle Skill DMG Dealt +15%.", "en": "Will +20, Battle Skill DMG Dealt +15%." },
+    "mods": [
+     {
+      "type": "attrFlat",
+      "attr": "will",
+      "value": 20
+     },
+     {
+      "type": "dmgAdd",
+      "value": 0.15,
+      "slot": "battle_skill"
+     }
+    ],
+    "permanent": true
+   },
+   {
+    "id": "zhuangfangyi-3",
+    "src": "Storm of Transformation",
+    "srcType": "keystone",
+    "anchor": "ultimate",
+    "target": "self",
+    "cond": { "es": "Storm of Transformation (M5): durante la transformación (Ultimate), el daño de Zhuang Fangyi ignora 15 de Electric Res.", "en": "Storm of Transformation (M5): during the transformation (Ultimate), Zhuang Fangyi's DMG ignores 15 Electric Res." },
+    "mods": [
+     {
+      "type": "enemyResIgnore",
+      "value": 0.15,
+      "element": "electric"
+     }
+    ]
+   }
+  ],
+  "mifu": [
+   {
+    "id": "mifu-1",
+    "src": "Fists of No Regrets",
+    "srcType": "combo_skill",
+    "target": "team",
+    "cond": { "es": "La combo skill aplica Physical Susceptibility +5% por 16s. La keystone Restless Watch suma +5% y +4s de duración (~10%).", "en": "Combo skill applies Physical Susceptibility +5% for 16s. Keystone Restless Watch adds +5% and +4s duration (~10%)." },
+    "mods": [
+     {
+      "type": "enemySusc",
+      "value": 0.05,
+      "element": "physical"
+     }
+    ]
+   },
+   {
+    "id": "mifu-2",
+    "src": "Complete Warmup",
+    "srcType": "keystone",
+    "target": "self",
+    "pendingModel": "dependiente del enemigo (ATK +6% cada vez que el escudo es golpeado); NO derivable de un timeline ideal → toggle-solo, inerte en la Rotación a propósito",
+    "cond": { "es": "Cada vez que el escudo se activa, Mi Fu gana ATK +6% por 20s.", "en": "Each time the shield triggers, Mi Fu gains ATK +6% for 20s." },
+    "mods": [
+     {
+      "type": "atkPct",
+      "value": 0.06
+     }
+    ]
+   },
+   {
+    "id": "mifu-k1",
+    "src": "Restless Watch",
+    "srcType": "keystone",
+    "target": "team",
+    "cond": { "es": "M1: la Physical Susceptibility del combo sube otro +5% (5% → 10%) con ventana extendida por 20s; el cálculo cuenta la cola extra del +5% base por lo bajo. La reducción de cooldown del combo no está incluida.", "en": "M1: the combo's Physical Susceptibility is increased by a further +5% (5% → 10%) with the extended 20s window; the calculation under-counts the base +5%'s extra tail. The combo cooldown reduction is not included." },
+    "mods": [
+     {
+      "type": "enemySusc",
+      "value": 0.05,
+      "element": "physical"
+     }
+    ],
+    "anchor": "combo_skill",
+    "durS": 20,
+    "noStack": true
+   },
+   {
+    "id": "mifu-k2",
+    "src": "Kinesthesia of Harmony",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "M2: Strength +20, Arts Intensity +16.", "en": "M2: Strength +20, Arts Intensity +16." },
+    "mods": [
+     {
+      "type": "attrFlat",
+      "attr": "strength",
+      "value": 20
+     },
+     {
+      "type": "artsInt",
+      "value": 16
+     }
+    ],
+    "permanent": true
+   },
+   {
+    "id": "mifu-k5",
+    "src": "Pugilist of the Stockade",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "M5: los DMG Multipliers de la battle skill (Cloudtrapper, Trail and Mangle, World Splitter) suben a 1.1x el original. El Stagger de la ult queda fuera del cálculo.", "en": "M5: the battle skill's DMG Multipliers (Cloudtrapper, Trail and Mangle, World Splitter) are increased to 1.1x the original. The ultimate's Stagger is not part of the calculation." },
+    "mods": [
+     {
+      "type": "dmgMult",
+      "value": 0.1,
+      "slot": "battle_skill"
+     }
+    ],
+    "permanent": true
+   }
+  ],
+  "catcher": [
+   {
+    "id": "catcher-t2",
+    "src": "Comprehensive Mindset",
+    "srcType": "talent",
+    "target": "self",
+    "cond": { "es": "El golpe final de la ultimate crea 3 shockwaves de 45% ATK cada una (Physical) — el cálculo las cuenta como un único golpe de 135% ATK al castear la ult (mismo promedio).", "en": "The ultimate's final hit creates 3 shockwaves of 45% ATK each (Physical) — the calculation counts them as a single 135% ATK hit on ult cast (same average)." },
+    "mods": [
+     {
+      "type": "addedHit",
+      "element": "physical",
+      "value": 1.35
+     }
+    ],
+    "trigger": {
+     "onCastSlot": "ult"
+    }
+   },
+   {
+    "id": "catcher-k2",
+    "src": "Bonus Spec Training",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "M2: DEF +20, Will +10. (La DEF queda fuera del cálculo de daño; el Will sí entra.)", "en": "M2: DEF +20, Will +10. (DEF is not part of the damage calculation; Will does count.)" },
+    "mods": [
+     {
+      "type": "attrFlat",
+      "attr": "will",
+      "value": 10
+     }
+    ],
+    "permanent": true
+   }
+  ],
+  "snowshine": [
+   {
+    "id": "snowshine-k4",
+    "src": "Tundra Aegis",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "M4: DEF +20, Will +20. (La DEF queda fuera del cálculo de daño; el Will sí entra.)", "en": "M4: DEF +20, Will +20. (DEF is not part of the damage calculation; Will does count.)" },
+    "mods": [
+     {
+      "type": "attrFlat",
+      "attr": "will",
+      "value": 20
+     }
+    ],
+    "permanent": true
+   }
+  ],
+  "camille": [
+   {
+    "id": "camille-1",
+    "src": "Bloodfount Revival",
+    "srcType": "talent",
+    "target": "self",
+    "cond": { "es": "Cada curación por skill da 1 stack de Heat DMG Dealt por 40s (máx 5). Portador +4%/stack: el cálculo lo reparte como 3% propio + 1% de equipo (el portador suma ambos). Cada combo cura vía Hunter of Transgression.", "en": "Each skill-heal grants 1 stack of Heat DMG Dealt for 40s (max 5). Wearer +4%/stack: the calculation splits it as 3% self + 1% team (the wearer adds both). Every combo heals via Hunter of Transgression." },
+    "mods": [
+     {
+      "type": "dmgAdd",
+      "value": 0.03,
+      "element": "heat"
+     }
+    ],
+    "trigger": {
+     "onCastSlot": "combo",
+     "maxStacks": 5
+    },
+    "durS": 40,
+    "assumeIdeal": "cada combo cura (Firefang Vesperwings en vuelo — escenario ideal del timeline)"
+   },
+   {
+    "id": "camille-1t",
+    "src": "Bloodfount Revival · equipo",
+    "srcType": "talent",
+    "target": "team",
+    "cond": { "es": "Los demás operadores ganan el 25% del efecto: Heat DMG Dealt +1%/stack (máx 5, 40s).", "en": "Other operators gain 25% of the effect: Heat DMG Dealt +1%/stack (max 5, 40s)." },
+    "mods": [
+     {
+      "type": "dmgAdd",
+      "value": 0.01,
+      "element": "heat"
+     }
+    ],
+    "trigger": {
+     "onCastSlot": "combo",
+     "maxStacks": 5
+    },
+    "durS": 40,
+    "assumeIdeal": "cada combo cura (Firefang Vesperwings en vuelo — escenario ideal del timeline)"
+   },
+   {
+    "id": "camille-k5",
+    "src": "Sanguine Convention",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "M5: el boost por stack de Bloodfount Revival sube +6% (4% → 10%/stack al portador). Modelado 4.5% self + 1.5% team extra por stack.", "en": "M5: Bloodfount Revival's per-stack boost is increased by +6% (4% → 10%/stack for the wearer). Modeled as extra 4.5% self + 1.5% team per stack." },
+    "mods": [
+     {
+      "type": "dmgAdd",
+      "value": 0.045,
+      "element": "heat"
+     }
+    ],
+    "trigger": {
+     "onCastSlot": "combo",
+     "maxStacks": 5
+    },
+    "durS": 40
+   },
+   {
+    "id": "camille-k5t",
+    "src": "Sanguine Convention · equipo",
+    "srcType": "keystone",
+    "target": "team",
+    "cond": { "es": "M5: la parte de equipo del boost sube +1.5%/stack (1% → 2.5%/stack para los demás).", "en": "M5: the team share of the boost increases by +1.5%/stack (1% → 2.5%/stack for others)." },
+    "mods": [
+     {
+      "type": "dmgAdd",
+      "value": 0.015,
+      "element": "heat"
+     }
+    ],
+    "trigger": {
+     "onCastSlot": "combo",
+     "maxStacks": 5
+    },
+    "durS": 40
+   },
+   {
+    "id": "camille-2",
+    "src": "Blazing Exorcism",
+    "srcType": "battle_skill",
+    "target": "team",
+    "pendingModel": "duración de la Heat Susceptibility no está en la data (el stat del skill no trae Duration) → sin ventana derivable en el sim; toggle/techo en el calc de Daño.",
+    "cond": { "es": "La battle skill aplica Heat Susceptibility +7% (rank 12). La keystone M1 Flame-Anointed Lance suma +5% (entrada aparte). Weakness es defensivo (fuera del cálculo).", "en": "The battle skill applies Heat Susceptibility +7% (rank 12). Keystone M1 Flame-Anointed Lance adds +5% (separate entry). Weakness is defensive (outside the calculation)." },
+    "mods": [
+     {
+      "type": "enemySusc",
+      "value": 0.07,
+      "element": "heat"
+     }
+    ]
+   },
+   {
+    "id": "camille-k1",
+    "src": "Flame-Anointed Lance",
+    "srcType": "keystone",
+    "target": "team",
+    "pendingModel": "misma ventana desconocida que camille-2 (la duración de la Susceptibility no está en la data); toggle/techo en el calc.",
+    "cond": { "es": "M1: la battle skill aplica Heat Susceptibility +5% adicional (7% → 12%). La Weakness +5% es defensiva (fuera del cálculo).", "en": "M1: the battle skill applies an additional Heat Susceptibility +5% (7% → 12%). The Weakness +5% is defensive (outside the calculation)." },
+    "mods": [
+     {
+      "type": "enemySusc",
+      "value": 0.05,
+      "element": "heat"
+     }
+    ]
+   },
+   {
+    "id": "camille-k2",
+    "src": "Tracker of Witch Scent",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "M2: Agility +20, Intellect +20.", "en": "M2: Agility +20, Intellect +20." },
+    "mods": [
+     {
+      "type": "attrFlat",
+      "attr": "agility",
+      "value": 20
+     },
+     {
+      "type": "attrFlat",
+      "attr": "intellect",
+      "value": 20
+     }
+    ],
+    "permanent": true
+   },
+   {
+    "id": "camille-k3",
+    "src": "Thorned Incapacitor",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "M3: el DMG Multiplier de Heartstake Thorn y Hunter Pursuit sube a 1.3x (combo). El CD -2s y el SP x1.15 no están incluidos en el cálculo.", "en": "M3: Heartstake Thorn and Hunter Pursuit DMG Multipliers increased to 1.3x (combo). The CD -2s and SP x1.15 are not included in the calculation." },
+    "mods": [
+     {
+      "type": "dmgMult",
+      "value": 0.3,
+      "slot": "combo_skill"
+     }
+    ],
+    "permanent": true
+   }
+  ],
+  "arcane": [
+   {
+    "id": "arcane-1",
+    "src": "Yinglung Stance IV (Array Arcana: INT)",
+    "srcType": "combo_skill",
+    "target": "team",
+    "mode": "int",
+    "cond": { "es": "INT: el combo aplica Nature Susceptibility +4% y Cryo Susceptibility +4% por 4s. Golpear al enemigo bajo Imprisonment con la battle aplica OTRA instancia (2s) — las instancias acumulan; el cálculo incluye solo la del combo.", "en": "INT: the combo applies Nature Susceptibility +4% and Cryo Susceptibility +4% for 4s. Hitting the Imprisoned enemy with the battle skill applies ANOTHER instance (2s) — instances stack; the calculation includes only the combo one." },
+    "mods": [
+     {
+      "type": "enemySusc",
+      "value": 0.04,
+      "element": "nature"
+     },
+     {
+      "type": "enemySusc",
+      "value": 0.04,
+      "element": "cryo"
+     }
+    ],
+    "anchor": "combo_skill",
+    "durS": 4
+   },
+   {
+    "id": "arcane-2",
+    "src": "Yinglung Stance IV (Array Arcana: WILL)",
+    "srcType": "combo_skill",
+    "target": "team",
+    "mode": "will",
+    "cond": { "es": "WILL: el combo aplica Nature Susceptibility +4% y Cryo Susceptibility +4% base por 6s. El atributo Will suma hasta +7/7.5/8% extra (560/600/640 de Will para el máx, por rango) — no horneado. M1 Watcher of the Sea: +6% extra.", "en": "WILL: the combo applies Nature Susceptibility +4% and Cryo Susceptibility +4% base for 6s. The Will attribute adds up to +7/7.5/8% extra (560/600/640 Will for the max, by rank) — not baked in. M1 Watcher of the Sea: extra +6%." },
+    "mods": [
+     {
+      "type": "enemySusc",
+      "value": 0.04,
+      "element": "nature"
+     },
+     {
+      "type": "enemySusc",
+      "value": 0.04,
+      "element": "cryo"
+     }
+    ],
+    "anchor": "combo_skill",
+    "durS": 6
+   },
+   {
+    "id": "arcane-3",
+    "src": "Tactical Planning 2",
+    "srcType": "talent",
+    "target": "self",
+    "mode": "int",
+    "cond": { "es": "E2, INT: durante la ultimate, Arcane gana Arts Amp +24%. M5 Homeward Glance suma +16% (→40%).", "en": "E2, INT: during the ultimate, Arcane gains Arts Amp +24%. M5 Homeward Glance adds +16% (→40%)." },
+    "mods": [
+     {
+      "type": "dmgAmp",
+      "value": 0.24,
+      "element": "arts"
+     }
+    ],
+    "anchor": "ultimate"
+   },
+   {
+    "id": "arcane-4",
+    "src": "Tactical Planning 2",
+    "srcType": "talent",
+    "target": "team",
+    "mode": "will",
+    "pendingModel": "magnitud = Will × 0.02% (cap 12.8%): escala por atributo del BUILD via attrScale (value 0 = no hornear el techo). El calc de Daño YA lo resuelve (enemyDeb, 2026-07-16); la ROTACIÓN aún no consume attrScale → inerte ahí a propósito.",
+    "cond": { "es": "E2, WILL: cuando seq 1 (Gloompurger Array) y seq 2 (Gloompurge Arcana) de la ultimate dañan, aplican [Will × 0.02%] Nature y Cryo Susceptibility (máx 12.8%) por 10s. No acumula.", "en": "E2, WILL: when ultimate sequence 1 (Gloompurger Array) and sequence 2 (Gloompurge Arcana) deal DMG, they apply [Will × 0.02%] Nature and Cryo Susceptibility (max 12.8%) for 10s. Cannot stack." },
+    "mods": [
+     {
+      "type": "enemySusc",
+      "value": 0,
+      "element": "nature",
+      "attrScale": { "attr": "will", "per": 0.0002, "max": 0.128 }
+     },
+     {
+      "type": "enemySusc",
+      "value": 0,
+      "element": "cryo",
+      "attrScale": { "attr": "will", "per": 0.0002, "max": 0.128 }
+     }
+    ],
+    "anchor": "ultimate",
+    "durS": 10,
+    "noStack": true
+   },
+   {
+    "id": "arcane-5",
+    "src": "Gloompurge — Corrosion forzada",
+    "srcType": "ultimate",
+    "target": "team",
+    "mode": "int",
+    "pendingModel": "toggle de TECHO solo para el calc de Daño (SIN gate a propósito → inerte en la Rotación: allí la Corrosión forzada la aplica el primitivo forces de inflictions.json con su rampa exacta; un anchor aquí la doble-contaría).",
+    "cond": { "es": "INT: la ultimate fuerza Corrosion nv1 por 25s (15 base + 10 de Weapon Honing E3). Valor = TECHO de la rampa: 12% nv1 × 1.1 del talento = 13.2% de reducción de resistencia (la rampa real sube 3.96→13.2 en ~10s). Herencia: si cubre una Corrosion de nivel alto conserva ese nivel (hasta 24% × 1.1). M3 Wielder of Stone: +5s y tope ×1.3 (15.6%).", "en": "INT: the ultimate forces level-1 Corrosion for 25s (15 base + 10 from Weapon Honing E3). Value = ramp CEILING: 12% at level 1 × 1.1 from the talent = 13.2% resistance reduction (the real ramp climbs 3.96→13.2 over ~10s). Inheritance: covering a higher-level Corrosion keeps that level (up to 24% × 1.1). M3 Wielder of Stone: +5s and ×1.3 cap (15.6%)." },
+    "mods": [
+     {
+      "type": "enemyResShred",
+      "value": 0.132
+     }
+    ],
+    "noStack": true
+   },
+   {
+    "id": "arcane-k1",
+    "src": "Watcher of the Sea",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "M1: el DMG Multiplier de Yinglung Stance IV sube a 1.3x (combo). No incluido en el cálculo: INT +10 SP al golpear bajo Imprisonment; WILL +6% de Susceptibility.", "en": "M1: Yinglung Stance IV DMG Multiplier increased to 1.3x (combo). Not included in the calculation: INT +10 SP on hitting under Imprisonment; WILL +6% Susceptibility." },
+    "mods": [
+     {
+      "type": "dmgMult",
+      "value": 0.3,
+      "slot": "combo_skill"
+     }
+    ],
+    "permanent": true
+   },
+   {
+    "id": "arcane-k2",
+    "src": "Heart of Ice Cold Ferrium",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "M2: Intellect +15, Will +15, Arts Intensity +16.", "en": "M2: Intellect +15, Will +15, Arts Intensity +16." },
+    "mods": [
+     {
+      "type": "attrFlat",
+      "attr": "intellect",
+      "value": 15
+     },
+     {
+      "type": "attrFlat",
+      "attr": "will",
+      "value": 15
+     },
+     {
+      "type": "artsInt",
+      "value": 16
+     }
+    ],
+    "permanent": true
+   },
+   {
+    "id": "arcane-k5",
+    "src": "Homeward Glance",
+    "srcType": "keystone",
+    "target": "self",
+    "mode": "int",
+    "cond": { "es": "M5, INT: durante la ultimate, Arts Amp +16% extra (24% → 40% con Tactical Planning 2). El x1.3 de Gloompurge Arcana no está incluido en el cálculo (aplica solo a la secuencia 2 de la ult).", "en": "M5, INT: during the ultimate, extra Arts Amp +16% (24% → 40% with Tactical Planning 2). Gloompurge Arcana's x1.3 is not included in the calculation (it only applies to the ult's sequence 2)." },
+    "mods": [
+     {
+      "type": "dmgAmp",
+      "value": 0.16,
+      "element": "arts"
+     }
+    ],
+    "anchor": "ultimate"
+   },
+   {
+    "id": "arcane-k5w",
+    "src": "Homeward Glance",
+    "srcType": "keystone",
+    "target": "team",
+    "mode": "will",
+    "cond": { "es": "M5, WILL: las Susceptibility de la ultimate (Tactical Planning 2) suben +7% extra. El CD -30% del combo tras la secuencia 2 no está incluido en el cálculo.", "en": "M5, WILL: the ultimate's Susceptibility (Tactical Planning 2) increased by an extra +7%. The combo's CD -30% after sequence 2 is not included in the calculation." },
+    "mods": [
+     {
+      "type": "enemySusc",
+      "value": 0.07,
+      "element": "nature"
+     },
+     {
+      "type": "enemySusc",
+      "value": 0.07,
+      "element": "cryo"
+     }
+    ],
+    "anchor": "ultimate",
+    "durS": 10,
+    "noStack": true
+   }
+  ]
+ }
+}

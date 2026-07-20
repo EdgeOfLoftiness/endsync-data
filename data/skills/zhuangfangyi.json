@@ -1,0 +1,536 @@
+{
+  "id": "zhuangfangyi",
+  "name": "Zhuang Fangyi",
+  "ranks": 12,
+  "skills": {
+    "basic_attack": {
+      "name": "Jolting Arts",
+      "stats": [
+        {
+          "name": "BATK SEQ 1 Multiplier",
+          "unit": "%",
+          "values": [
+            16,
+            18,
+            19,
+            21,
+            22,
+            24,
+            26,
+            27,
+            29,
+            31,
+            33,
+            36
+          ]
+        },
+        {
+          "name": "BATK SEQ 2 Multiplier",
+          "unit": "%",
+          "values": [
+            24,
+            26,
+            29,
+            31,
+            34,
+            36,
+            38,
+            41,
+            43,
+            46,
+            50,
+            54
+          ]
+        },
+        {
+          "name": "BATK SEQ 3 Multiplier",
+          "unit": "%",
+          "values": [
+            32,
+            35,
+            39,
+            42,
+            45,
+            48,
+            52,
+            55,
+            58,
+            62,
+            67,
+            72
+          ]
+        },
+        {
+          "name": "BATK SEQ 4 Multiplier",
+          "unit": "%",
+          "values": [
+            45,
+            50,
+            54,
+            59,
+            63,
+            68,
+            72,
+            77,
+            81,
+            87,
+            93,
+            101
+          ]
+        },
+        {
+          "name": "BATK SEQ 5 Multiplier",
+          "unit": "%",
+          "values": [
+            48,
+            53,
+            58,
+            62,
+            67,
+            72,
+            77,
+            82,
+            86,
+            92,
+            100,
+            108
+          ]
+        },
+        {
+          "name": "Finisher ATK Multiplier",
+          "unit": "%",
+          "values": [
+            400,
+            440,
+            480,
+            520,
+            560,
+            600,
+            640,
+            680,
+            720,
+            770,
+            830,
+            900
+          ]
+        },
+        {
+          "name": "Dive ATK Multiplier",
+          "unit": "%",
+          "values": [
+            80,
+            88,
+            96,
+            104,
+            112,
+            120,
+            128,
+            136,
+            144,
+            154,
+            166,
+            180
+          ]
+        }
+      ]
+    },
+    "battle_skill": {
+      "name": "Mantra of Sundering",
+      "stats": [
+        {
+          "name": "SP Cost (1)",
+          "values": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "SP Cost (2)",
+          "values": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "Thunder Strike DMG Multiplier",
+          "unit": "%",
+          "values": [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            39,
+            42,
+            45
+          ]
+        },
+        {
+          "name": "Total Stagger",
+          "values": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ]
+        },
+        {
+          "name": "Bonus DMG Multiplier per Status Level of Electrification Consumed",
+          "unit": "%",
+          "values": [
+            3,
+            4,
+            4,
+            4,
+            5,
+            5,
+            5,
+            6,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "name": "Bonus Ultimate Energy per Thunder Strike",
+          "values": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        },
+        {
+          "name": "Sunderblade Limit",
+          "values": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "Sunderblade Duration (s)",
+          "values": [
+            36,
+            36,
+            36,
+            36,
+            36,
+            36,
+            36,
+            36,
+            36,
+            36,
+            36,
+            36
+          ]
+        },
+        {
+          "name": "During Ultimate: Thunder Strike DMG Multiplier",
+          "unit": "%",
+          "values": [
+            36,
+            40,
+            43,
+            47,
+            50,
+            54,
+            58,
+            61,
+            65,
+            69,
+            75,
+            81
+          ]
+        },
+        {
+          "name": "During Ultimate: Bonus DMG Multiplier per Status Level of Electrification Consumed",
+          "unit": "%",
+          "values": [
+            8,
+            9,
+            10,
+            11,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      ]
+    },
+    "combo_skill": {
+      "name": "Breath of Transformation",
+      "stats": [
+        {
+          "name": "Cooldown (1)",
+          "values": [
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            17
+          ]
+        },
+        {
+          "name": "Cooldown (2)",
+          "values": [
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            17
+          ]
+        },
+        {
+          "name": "DMG Multiplier",
+          "unit": "%",
+          "values": [
+            160,
+            176,
+            192,
+            208,
+            224,
+            240,
+            256,
+            272,
+            288,
+            308,
+            332,
+            360
+          ]
+        },
+        {
+          "name": "Stagger",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "Ultimate Energy Gain",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "Additional Ultimate Energy per Infliction Stack",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "During Ultimate: DMG Multiplier",
+          "unit": "%",
+          "values": [
+            240,
+            264,
+            288,
+            312,
+            336,
+            360,
+            384,
+            408,
+            432,
+            462,
+            498,
+            540
+          ]
+        }
+      ]
+    },
+    "ultimate": {
+      "name": "Smiting Tempest",
+      "stats": [
+        {
+          "name": "Ultimate Energy Cost",
+          "values": [
+            240,
+            240,
+            240,
+            240,
+            240,
+            240,
+            240,
+            240,
+            240,
+            240,
+            240,
+            240
+          ]
+        },
+        {
+          "name": "Duration (s)",
+          "values": [
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25
+          ]
+        },
+        {
+          "name": "During Ultimate: BATK SEQ 1 Multiplier",
+          "unit": "%",
+          "values": [
+            67,
+            73,
+            80,
+            86,
+            93,
+            100,
+            106,
+            113,
+            120,
+            128,
+            138,
+            150
+          ]
+        },
+        {
+          "name": "During Ultimate: BATK SEQ 2 Multiplier",
+          "unit": "%",
+          "values": [
+            94,
+            103,
+            112,
+            122,
+            131,
+            140,
+            150,
+            159,
+            168,
+            180,
+            194,
+            210
+          ]
+        },
+        {
+          "name": "During Ultimate: BATK SEQ 3 Multiplier",
+          "unit": "%",
+          "values": [
+            134,
+            147,
+            160,
+            174,
+            187,
+            200,
+            214,
+            227,
+            240,
+            257,
+            277,
+            300
+          ]
+        }
+      ]
+    }
+  }
+}

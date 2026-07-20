@@ -1,0 +1,481 @@
+{
+  "label": "ARCANE",
+  "guideCharId": "arcane",
+  "tagline": {
+    "es": "Caster de Nature con dos kits en uno: Array Arcana cambia battle, combo y ultimate según INT ≥ Will (daño) o Will > INT (soporte). El eje de todo es Imprison — su combo mete al enemigo en cámara lenta y en forma de daño la battle skill lo detona antes de tiempo.",
+    "en": "Nature caster with two kits in one: Array Arcana swaps battle, combo and ultimate depending on INT ≥ Will (damage) or Will > INT (support). Everything revolves around Imprison — her combo slow-mos the enemy and, in damage form, the battle skill detonates it early."
+  },
+  "comps": [
+    {
+      "name": { "es": "YZ-月咒 - Main-C Nature (forma INT)", "en": "YZ-月咒 - Nature Main-C (INT form)" },
+      "subtitle": { "es": "La recomendación del autor mientras no salga Liino", "en": "The author's pick until Liino releases" },
+      "guideVideoId": "arcb1",
+      "blurb": {
+        "es": "Arcane lleva el daño con el esquema \"main-C + 3 soportes baratos\": Tangtang aporta el Arts Attach ajeno (Cryo), Xaihi buff y curación, Gilberta gravedad y Nature Susceptibility. Los tres piden poca inversión, así que concentras recursos en Arcane.",
+        "en": "Arcane carries with the \"main-C + 3 cheap supports\" scheme: Tangtang brings the off-element Arts Attach (Cryo), Xaihi buffs and healing, Gilberta gravity and Nature Susceptibility. All three need little investment, so resources go into Arcane."
+      },
+      "overview": {
+        "es": "La forma INT (INT total ≥ Will total, contando nivel, trust, potenciales y atributos de gear/arma) es el modo de daño: la battle skill pega más fuerte y el combo desbloquea la detonación de Imprison. El bucle: aplicar Nature Attach con la battle (o 2 capas de attach de otro elemento del equipo) → combo → el objetivo entra en Imprison 4 s con Nature y Cryo Susceptibility → golpearlo con la battle ANTES de que Imprison venza: corta la cámara lenta, devuelve SP, re-aplica las susceptibilidades y suelta un burst multi-golpe de hasta 500%. La ult fuerza Corrosion sobre el campo (15 s base, 25 s con el talento Weapon Honing) y, tras 2 golpes rápidos provocados con Final Strike o Finisher, desbloquea Gloompurge Arcana. El autor cifra el multiplicador total de la ult completa en ~2300% (dato aproximado del audio); con las tablas de Skport la suma base a rango máximo es 1980%, sin contar el burst del combo.",
+        "en": "The INT form (total INT ≥ total Will, counting level, trust, potentials and gear/weapon attributes) is the damage mode: the battle skill hits harder and the combo unlocks the Imprison detonation. The loop: apply Nature Attach with the battle skill (or 2 off-element stacks from the team) → combo → the target enters Imprison for 4s with Nature and Cryo Susceptibility → hit it with the battle skill BEFORE Imprison expires: it cuts the slow-mo short, refunds SP, re-applies the susceptibilities and unloads a multi-hit burst of up to 500%. The ultimate forces Corrosion on the field (15s base, 25s with the Weapon Honing talent) and, after 2 rapid strikes triggered by Final Strikes or Finishers, unlocks Gloompurge Arcana. The author quotes the full ultimate at ~2300% total multiplier (approximate figure from the audio); per the Skport tables the base sum at max rank is 1980%, not counting the combo burst."
+      },
+      "playstyle": {
+        "difficulty": { "es": "Media", "en": "Mid" },
+        "tags": [
+          { "es": "Naturaleza", "en": "Nature", "jp": "自然", "zh": "自然" },
+          { "es": "Burst", "en": "Burst" },
+          { "es": "Corrosion", "en": "Corrosion" },
+          { "es": "Control (Imprison)", "en": "Control (Imprison)" }
+        ]
+      },
+      "pros": [
+        { "es": "Crianza \"uno lleva a tres\": los soportes piden poca inversión y Arcane concentra los recursos — muy eficiente para early game.", "en": "\"One carries three\" investment: the supports need little and Arcane concentrates the resources — very efficient for early game." },
+        { "es": "Corrosion forzada de 25 s con herencia de valores: cubrir una Corrosion de nivel alto con la de nivel 1 de la ult CONSERVA la reducción alta y alarga la duración.", "en": "25s forced Corrosion with value inheritance: covering a high-level Corrosion with the ultimate's level-1 one KEEPS the high reduction and extends the duration." },
+        { "es": "El combo se gatilla solo con su propia battle skill (Nature Attach): no dependes del equipo para el bucle básico.", "en": "The combo triggers off her own battle skill (Nature Attach): the basic loop does not depend on the team." },
+        { "es": "Imprison frena al objetivo 4 s: ventana cómoda para colocar el burst.", "en": "Imprison slows the target for 4s: a comfy window to line up the burst." }
+      ],
+      "cons": [
+        { "es": "El modo se decide por los atributos del BUILD: gear o arma con mucho Will te pueden sacar de la forma INT sin querer (el gap base es 55 puntos a nivel 90).", "en": "The mode is decided by BUILD attributes: heavy Will gear or weapons can knock you out of INT form by accident (the base gap is 55 points at level 90)." },
+        { "es": "El burst pide detonar Imprison con la battle a tiempo; si dejas vencer los 4 s solo sale la explosión automática.", "en": "The burst requires detonating Imprison with the battle skill in time; if the 4s lapse you only get the automatic explosion." },
+        { "es": "La build es 3+1 (Hot Work 3 piezas + LYNX Slab suelta): renuncias al bono de 4 piezas del set a cambio del atributo principal, así que las subestadísticas de cada pieza pesan más.", "en": "The build is 3+1 (Hot Work 3-piece + loose LYNX Slab): you give up the 4-piece set bonus for the main attribute, so each piece's substats matter more." }
+      ],
+      "whyItWorks": [
+        {
+          "title": { "es": "El bucle de Imprison", "en": "The Imprison loop" },
+          "body": { "es": "El combo pide Nature Attach o 2+ capas de un Arts Attach que no sea Nature. Al salir, aplica Nature y Cryo Susceptibility y mete al objetivo en Imprison (cámara lenta, 4 s). Si no haces nada, al vencer explota solo; el juego de la forma INT es golpear con la battle skill al objetivo en Imprison: termina la cámara lenta al instante, devuelve SP, re-aplica ambas susceptibilidades y tras un breve retraso cae un burst multi-golpe (222→500% por rango).", "en": "The combo asks for Nature Attach or 2+ stacks of a non-Nature Arts Attach. On cast it applies Nature and Cryo Susceptibility and puts the target into Imprison (slow-mo, 4s). Left alone it explodes on expiry; the INT-form game is hitting the Imprisoned target with the battle skill: it ends the slow-mo instantly, refunds SP, re-applies both susceptibilities and after a short delay drops a multi-hit burst (222→500% by rank)." }
+        },
+        {
+          "title": { "es": "Corrosion con herencia de valores", "en": "Corrosion with value inheritance" },
+          "body": { "es": "La ult fuerza Corrosion nivel 1 sobre todo el campo y SOBREESCRIBE la previa — pero la Corrosion hereda la reducción del nivel alto: si el enemigo tenía nivel 4 (máx 24%), la nueva de nivel 1 conserva ese 24% y encima renueva la duración (25 s con Weapon Honing). Bajar resistencia sin miedo a pisar la Corrosion del equipo.", "en": "The ultimate forces level-1 Corrosion on the whole field and OVERWRITES the previous one — but Corrosion inherits the higher level's reduction: if the enemy had level 4 (24% max), the new level-1 keeps that 24% and renews the duration on top (25s with Weapon Honing). Shred resistance without fear of stomping the team's Corrosion." }
+        },
+        {
+          "title": { "es": "La ult en dos partes", "en": "The two-part ultimate" },
+          "body": { "es": "El campo dura 20 s. Cada Final Strike o Finisher del operador controlado sobre un enemigo del campo dispara un golpe rápido en área (máx 2). Tras los 2, se desbloquea Gloompurge Arcana: un cono frontal grande de daño Nature (1440% a rango máximo). Durante la ult, el talento Tactical Planning 2 da +24% de Arts Amp (+16% más con M5).", "en": "The field lasts 20s. Each Final Strike or Finisher from the controlled operator on an enemy inside triggers an area rapid strike (max 2). After both, Gloompurge Arcana unlocks: a big frontal cone of Nature damage (1440% at max rank). During the ultimate, Tactical Planning 2 grants +24% Arts Amp (+16% more at M5)." }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": { "es": "Attach y combo", "en": "Attach and combo" },
+          "action": { "es": "Battle skill de Arcane (Nature Attach) — o 2 capas de Cryo de Tangtang si Arcane está en cooldown de SP.", "en": "Arcane's battle skill (Nature Attach) — or 2 Cryo stacks from Tangtang if Arcane is short on SP." },
+          "steps": [
+            { "do": { "es": "Battle skill de Arcane: daño en área + 1 capa de Nature Attach.", "en": "Arcane's battle skill: area damage + 1 Nature Attach stack." }, "who": "arcane" },
+            { "do": { "es": "Alternativa: battle skill de Tangtang (Waterspout) para acumular 2 capas de Cryo — también gatilla el combo.", "en": "Alternative: Tangtang's battle skill (Waterspout) to stack 2 Cryo layers — also triggers the combo." }, "who": "tangtang" }
+          ]
+        },
+        {
+          "phase": { "es": "Imprison y detonación", "en": "Imprison and detonation" },
+          "action": { "es": "Combo de Arcane → Imprison 4 s → battle skill ANTES de que venza: SP de vuelta, susceptibilidades re-aplicadas y burst multi-golpe.", "en": "Arcane's combo → 4s Imprison → battle skill BEFORE it expires: SP back, susceptibilities re-applied and the multi-hit burst." },
+          "steps": [
+            { "do": { "es": "Combo de Arcane: Nature + Cryo Susceptibility e Imprison sobre el objetivo.", "en": "Arcane's combo: Nature + Cryo Susceptibility and Imprison on the target." }, "who": "arcane", "key": true },
+            { "do": { "es": "Battle skill de Arcane sobre el objetivo en Imprison: detonación + burst.", "en": "Arcane's battle skill on the Imprisoned target: detonation + burst." }, "who": "arcane", "key": true },
+            { "do": { "es": "Gilberta y Xaihi entre medio: gravedad + Nature Susceptibility y buffs/curación.", "en": "Gilberta and Xaihi in between: gravity + Nature Susceptibility and buffs/healing." }, "who": "gilberta" }
+          ]
+        },
+        {
+          "phase": { "es": "Ventana de ult", "en": "Ultimate window" },
+          "action": { "es": "Ult de Arcane: Corrosion forzada en el campo → 2 golpes rápidos con Final Strike/Finisher → Gloompurge Arcana.", "en": "Arcane's ultimate: forced Corrosion on the field → 2 rapid strikes via Final Strike/Finisher → Gloompurge Arcana." },
+          "steps": [
+            { "do": { "es": "Ult de Arcane sobre el grupo: campo 20 s + Corrosion (25 s con el talento).", "en": "Arcane's ultimate on the pack: 20s field + Corrosion (25s with the talent)." }, "who": "arcane" },
+            { "do": { "es": "Provoca los 2 golpes rápidos: Final Strike del básico o Finisher sobre enemigos del campo.", "en": "Trigger both rapid strikes: basic-string Final Strike or a Finisher on enemies inside the field." }, "who": "arcane", "key": true },
+            { "do": { "es": "Gloompurge Arcana desbloqueada: el cono grande cierra la ventana.", "en": "Gloompurge Arcana unlocked: the big cone closes the window." }, "who": "arcane" }
+          ]
+        },
+        {
+          "phase": { "es": "Recarga", "en": "Recharge" },
+          "action": { "es": "Repite el bucle combo→detonación mientras vuelve la energía; los combos del equipo que se iluminen, se pulsan.", "en": "Repeat the combo→detonation loop while energy returns; any team combo that lights up gets pressed." },
+          "steps": [
+            { "do": { "es": "Battle → combo → battle de Arcane en cuanto haya SP.", "en": "Arcane battle → combo → battle as soon as SP allows." }, "who": "arcane" },
+            { "do": { "es": "Combos de Tangtang/Gilberta/Xaihi al iluminarse.", "en": "Tangtang/Gilberta/Xaihi combos as they light up." } }
+          ]
+        }
+      ],
+      "skillPriority": [
+        { "charId": "arcane", "order": { "es": "Combo > Ult ≈ Battle Skill ≈ Básico", "en": "Combo > Ult ≈ Battle Skill ≈ Basic" }, "note": { "es": "El combo primero: en forma INT sube la devolución de SP y el daño del burst. El resto va parejo — sube según recursos.", "en": "Combo first: in INT form it raises the SP refund and the burst damage. The rest is even — level with spare resources." } }
+      ],
+      "pitfalls": [
+        { "es": "No dejes vencer Imprison sin detonarlo: la explosión automática existe, pero el burst grande y el SP salen de golpearlo con la battle skill.", "en": "Do not let Imprison expire undetonated: the automatic explosion exists, but the big burst and the SP come from hitting it with the battle skill." },
+        { "es": "Vigila el modo en la calculadora/juego: atributos de Will de gear/arma pueden voltear a Array Arcana: WILL y cambiarte el kit entero.", "en": "Watch the mode in the calculator/game: Will attributes from gear/weapons can flip you into Array Arcana: WILL and swap the whole kit." },
+        { "es": "Los 2 golpes rápidos de la ult piden Final Strike o Finisher DENTRO del campo — sin ellos no hay Gloompurge Arcana.", "en": "The ultimate's 2 rapid strikes require a Final Strike or Finisher INSIDE the field — without them there is no Gloompurge Arcana." }
+      ],
+      "vsOtherComps": [
+        { "name": { "es": "¿Otro aplicador de attach ajeno?", "en": "A different off-element attach bot?" }, "verdict": { "es": "Wulfgard (battle + combo = 2 capas de Combustion rápidas — el ejemplo del propio autor), Perlica (Electric) o Akekuri (Heat + SP) sirven igual: cualquier par de capas no-Nature gatilla el combo.", "en": "Wulfgard (battle + combo = 2 quick Combustion stacks — the author's own example), Perlica (Electric) or Akekuri (Heat + SP) work the same: any two non-Nature stacks trigger the combo." } },
+        { "name": { "es": "¿Xaihi y Liino a la vez?", "en": "Xaihi and Liino together?" }, "verdict": { "es": "Se puede, pero el multiplicador de buff del equipo se recorta bastante (diminishing returns) — el autor no lo recomienda como plan A.", "en": "Possible, but the team buff multiplier gets cut hard (diminishing returns) — the author does not recommend it as plan A." } }
+      ],
+      "members": [
+        {
+          "id": "arcane",
+          "role": "Carry",
+          "weaponId": "wpn_funnel_0016",
+          "gearRec": ["hot_work_exo_rig", "hot_work_hands_ppe", "hot_work_insulation_slab", "lynx_slab"],
+          "weaponNote": { "es": "Type 42: Solemn Phalanx (promocional): en forma INT, aplicar Arts Attach da +Arts DMG y aplicar Susceptibility da +ATK (20 s cada uno).", "en": "Type 42: Solemn Phalanx (signature): in INT form, applying Arts Attach grants +Arts DMG and applying Susceptibility grants +ATK (20s each)." },
+          "gearNote": { "es": "Cuatro slots: Exo-Rig, Hands PPE e Insulation Slab de Hot Work + una LYNX Slab suelta. Prioriza Intellect sobre Will en las subestadísticas para no voltear a forma WILL.", "en": "Four slots: Hot Work Exo-Rig, Hands PPE and Insulation Slab + a loose LYNX Slab. Prioritize Intellect over Will on substats so you do not flip to WILL form." },
+          "deepNote": { "es": "Battle (attach) → combo (Imprison) → battle (detonación), y la ult en dos partes con Corrosion de 25 s. Trust y potencial 2 suben INT y Will POR IGUAL: la forma no se te mueve por criarla.", "en": "Battle (attach) → combo (Imprison) → battle (detonation), plus the two-part ultimate with 25s Corrosion. Trust and potential 2 raise INT and Will EQUALLY: leveling her never flips the form." }
+        },
+        {
+          "id": "tangtang",
+          "role": "Enabler",
+          "weaponId": "wpn_pistol_0011",
+          "gearRec": null,
+          "weaponNote": { "es": "La guía no cubre builds de los compañeros; arma = su promocional por defecto.", "en": "The guide does not cover teammate builds; weapon = her signature by default." },
+          "deepNote": { "es": "Sus Waterspouts apilan Cryo Attach: la vía alternativa (2 capas no-Nature) para gatillar el combo de Arcane.", "en": "Her Waterspouts stack Cryo Attach: the alternative route (2 non-Nature stacks) to trigger Arcane's combo." }
+        },
+        {
+          "id": "xaihi",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0008",
+          "gearRec": null,
+          "weaponNote": { "es": "La guía no cubre builds de los compañeros; arma = su promocional por defecto.", "en": "The guide does not cover teammate builds; weapon = her signature by default." },
+          "deepNote": { "es": "Buff + curación de equipo — el \"soporte de aumento\" del esquema del autor.", "en": "Team buff + healing — the \"amp support\" slot in the author's scheme." }
+        },
+        {
+          "id": "gilberta",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0011",
+          "gearRec": null,
+          "weaponNote": { "es": "La guía no cubre builds de los compañeros; arma = su promocional por defecto.", "en": "The guide does not cover teammate builds; weapon = her signature by default." },
+          "deepNote": { "es": "Gravedad + Nature Susceptibility: agrupa para el área de Arcane y sube el daño Nature.", "en": "Gravity + Nature Susceptibility: groups enemies for Arcane's area and raises Nature damage." }
+        }
+      ],
+      "equipment": {
+        "intro": { "es": "Forma INT (daño): set Hot Work de 3 piezas — Exo-Rig (pecho), Hands PPE (guantes) e Insulation Slab (accesorio) — por el bono de Calor y Nature más el de todas las skills, y una LYNX Slab suelta en el cuarto slot por el atributo principal. Subestadísticas: Intellect y Will, con el Intellect por encima del Will para no salir de la forma. Armas: el promocional Type 42 es la BiS (a máximos potenciales rinde ~120% de su versión a 0 potenciales); le sigue Junction Point (联结点, unidad de Arts de v1.4 aún sin data en la app), ~90% del promocional; Oblivion sirve por afinidad. La misión de prueba de Arcane regala 2 sets completos como puente.", "en": "INT form (damage): 3-piece Hot Work set — Exo-Rig (chest), Hands PPE (gloves) and Insulation Slab (kit) — for the Heat and Nature plus All Skill DMG bonuses, and a loose LYNX Slab in the fourth slot for the main attribute. Substats: Intellect and Will, with Intellect above Will so you stay in form. Weapons: the Type 42 signature is BiS (at max potentials it does ~120% of its 0-potential self); next is Junction Point (联结点, a v1.4 Arts unit with no app data yet), ~90% of the signature; Oblivion works by affinity. Arcane's trial mission gifts 2 full sets as a bridge." },
+        "alts": []
+      },
+      "simple": {
+        "note": { "es": "Versión corta del bucle INT.", "en": "Short version of the INT loop." },
+        "steps": [
+          { "do": { "es": "Battle skill de Arcane: deja el Nature Attach.", "en": "Arcane's battle skill: plant the Nature Attach." }, "who": "arcane" },
+          { "do": { "es": "Combo: el objetivo queda en cámara lenta (Imprison).", "en": "Combo: the target goes into slow-mo (Imprison)." }, "who": "arcane" },
+          { "do": { "es": "Otra battle skill sobre él ANTES de que despierte: burst + SP.", "en": "Another battle skill on it BEFORE it wakes: burst + SP." }, "who": "arcane" },
+          { "do": { "es": "Con la ult: campo + 2 Final Strikes/Finishers → cono final.", "en": "With the ultimate: field + 2 Final Strikes/Finishers → final cone." }, "who": "arcane" },
+          { "do": { "es": "Los combos de Tangtang, Gilberta y Xaihi, siempre que se iluminen.", "en": "Tangtang's, Gilberta's and Xaihi's combos whenever they light up." } }
+        ],
+        "gear": [
+          { "id": "arcane", "line": { "es": "Hot Work 3pc (Exo-Rig, Hands PPE, Insulation Slab) + LYNX Slab; sube Intellect por encima de Will.", "en": "Hot Work 3pc (Exo-Rig, Hands PPE, Insulation Slab) + LYNX Slab; keep Intellect above Will." } },
+          { "id": "tangtang", "line": { "es": "Sin build en la guía.", "en": "No build in the guide." } },
+          { "id": "xaihi", "line": { "es": "Sin build en la guía.", "en": "No build in the guide." } },
+          { "id": "gilberta", "line": { "es": "Sin build en la guía.", "en": "No build in the guide." } }
+        ]
+      }
+    },
+    {
+      "name": { "es": "YZ-月咒 - Cryo de Last Rite en silla de ruedas (forma WILL)", "en": "YZ-月咒 - Last Rite Cryo wheelchair (WILL form)" },
+      "subtitle": { "es": "El Cryo popular del momento: combo formulaico (2 ejes de carga + 1 de burst) con Arcane de \"Fluorite mejorada\"", "en": "The popular Cryo of the moment: formulaic combo (2 charge axes + 1 burst) with Arcane as the \"upgraded Fluorite\"" },
+      "guideVideoId": "arcb3",
+      "blurb": {
+        "es": "El equipo Cryo de Last Rite (con Tangtang y Xaihi) es de los más jugados del parche, y la llegada de Arcane en forma WILL lo refuerza de verdad: entra en el 4º puesto como una \"Fluorite mejorada\" (capas extra de Cryo vía combo y ult), pero su combo se gatilla más fácil y encima trae Nature y Cryo Susceptibility, gravedad y la cámara lenta de Imprison. El eje es formulaico: la misma secuencia de principio a fin, sin improvisar.",
+        "en": "Last Rite's Cryo team (with Tangtang and Xaihi) is one of the most-played of the patch, and Arcane's arrival in WILL form genuinely strengthens it: she takes the 4th slot as an \"upgraded Fluorite\" (extra Cryo stacks via combo and ultimate), but her combo triggers more easily and she also brings Nature and Cryo Susceptibility, gravity and the Imprison slow-mo. The axis is formulaic: the same sequence start to finish, no improvising."
+      },
+      "overview": {
+        "es": "La forma WILL (Will total > INT total) es el modo soporte: el combo se gatilla con UNA capa cualquiera de Arts Attach, Imprison dura 6 s, agrupa a los enemigos y re-aplica una capa del MISMO elemento del attach que lo gatilló — en este equipo, Cryo. Las susceptibilidades escalan con el Will de Arcane: el combo suma hasta +8% y la ult (Tactical Planning 2) aplica [Will × 0.02%] de Nature y Cryo Susceptibility con tope 12.8% a 640 de Will. La lógica de daño es simple: dejar 3-4 capas de Cryo sobre el enemigo, gatillar el combo de Last Rite y que Last Rite \"coma\" esas capas para reventar. Arcane fabrica dos de las capas (combo + ult) y sube ambas susceptibilidades. Main-control (a quién pilotas): Last Rite o Tangtang maximizan daño porque reciben el amp de la battle skill de Xaihi; pilotar a Arcane no recibe ese amp pero es más cómodo — tú eliges.",
+        "en": "The WILL form (total Will > total INT) is the support mode: the combo triggers off ANY single Arts Attach stack, Imprison lasts 6s, groups enemies and re-applies a stack of the SAME element as the attach that triggered it — Cryo in this team. The susceptibilities scale with Arcane's Will: the combo adds up to +8% and the ultimate (Tactical Planning 2) applies [Will × 0.02%] Nature and Cryo Susceptibility capped at 12.8% at 640 Will. The damage logic is simple: leave 3-4 Cryo stacks on the enemy, trigger Last Rite's combo and let Last Rite \"eat\" those stacks to burst. Arcane manufactures two of the stacks (combo + ultimate) and raises both susceptibilities. Main-control (who you pilot): Last Rite or Tangtang maximize damage because they receive Xaihi's battle-skill amp; piloting Arcane misses that amp but is comfier — your call."
+      },
+      "playstyle": {
+        "difficulty": { "es": "Baja", "en": "Low" },
+        "tags": [
+          { "es": "Criogénico", "en": "Cryo", "jp": "寒冷", "zh": "寒冷" },
+          { "es": "Formulaico", "en": "Formulaic" },
+          { "es": "Soporte de Attach", "en": "Attach support" },
+          { "es": "Control (Imprison)", "en": "Control (Imprison)" }
+        ]
+      },
+      "pros": [
+        { "es": "Formulaico y muy jugado: la misma secuencia (2 ejes de carga + 1 de burst) de principio a fin — memorizas un eje de carga y solo insertas los cuatro ults.", "en": "Formulaic and heavily played: the same sequence (2 charge axes + 1 burst) start to finish — memorize a charge axis and just slot the four ultimates." },
+        { "es": "Combo casi siempre disponible: cualquier capa de Arts Attach lo gatilla — en un equipo Cryo se ilumina solo.", "en": "Combo almost always available: any Arts Attach stack triggers it — in a Cryo team it lights up on its own." },
+        { "es": "Arcane sube el techo: Nature + Cryo Susceptibility escaladas por Will, capas extra de Cryo, Imprison de 6 s y agrupamiento.", "en": "Arcane raises the ceiling: Will-scaled Nature + Cryo Susceptibility, extra Cryo stacks, 6s Imprison and grouping." },
+        { "es": "El video trae builds afinadas para los cuatro (no solo para Arcane) y ejes de recarga estables.", "en": "The video brings tuned builds for all four (not just Arcane) and steady recharge axes." }
+      ],
+      "cons": [
+        { "es": "El tope de 12.8% de susceptibilidad pide 640 de Will; a full artificing la build llega a 636 (muy cerca, pero no lo clava).", "en": "The 12.8% susceptibility cap wants 640 Will; at full artificing the build reaches 636 (very close, but not quite there)." },
+        { "es": "La battle skill de Last Rite hay que colocarla TARDE en cada vuelta (para comer el set Tide Surge y el efecto del arma promocional): si la sueltas al abrir, la pierdes.", "en": "Last Rite's battle skill must go LATE in each pass (to catch the Tide Surge set and the signature weapon effect): drop it on the opening and you lose it." },
+        { "es": "El burst pide cerrar SIEMPRE con el 2º tramo del ult de Arcane; si lo olvidas, no cargas su siguiente ult.", "en": "The burst requires ALWAYS closing with Arcane's 2nd ultimate stage; forget it and you fail to charge her next ultimate." }
+      ],
+      "whyItWorks": [
+        {
+          "title": { "es": "Capas del mismo elemento", "en": "Same-element stacks" },
+          "body": { "es": "El combo WILL re-aplica una capa del MISMO elemento del Arts Attach que lo gatilló, y la ult WILL hace lo mismo sobre su área: en un equipo Cryo, Arcane fabrica capas de Cryo para las reacciones del main-C sin ser Cryo ella misma.", "en": "The WILL combo re-applies a stack of the SAME element as the Arts Attach that triggered it, and the WILL ultimate does the same on its area: in a Cryo team, Arcane manufactures Cryo stacks for the main-C's reactions without being Cryo herself." }
+        },
+        {
+          "title": { "es": "Susceptibilidad escalada por Will", "en": "Will-scaled susceptibility" },
+          "body": { "es": "El combo aplica 4% base de Nature y Cryo Susceptibility más un bono por Will (hasta +8%); la ult, con Tactical Planning 2, suma [Will × 0.02%] hasta 12.8% por 10 s. Por eso la build apila Will: a full artificing llega a 636 (el tope pide 640). Con M5 (Homeward Glance) la parte de la ult sube +7% más. La calculadora de Daño ya resuelve el valor con el Will del build.", "en": "The combo applies a 4% base of Nature and Cryo Susceptibility plus a Will bonus (up to +8%); the ultimate, with Tactical Planning 2, adds [Will × 0.02%] up to 12.8% for 10s. That is why the build stacks Will: at full artificing it hits 636 (the cap wants 640). At M5 (Homeward Glance) the ultimate part gains another +7%. The Damage calculator already resolves the value from the build's Will." }
+        },
+        {
+          "title": { "es": "El bucle formulaico", "en": "The formulaic loop" },
+          "body": { "es": "Cada eje de carga apila 4 capas de Cryo con la MISMA secuencia: battle de Tangtang (1ª capa) → los combos que se iluminan (Arcane deja la 2ª capa + Imprison) → battle de Xaihi (heavy, amp al main-C) → battle de Last Rite (heavy, 3ª capa) → combo de Xaihi (4ª capa) → combo de Last Rite, que consume las 4 capas. La battle de Last Rite va tarde a propósito, para comer el set Tide Surge y su arma promocional. El eje de burst es el de carga con los cuatro ults metidos dentro de la ventana de amp de Xaihi, y se cierra con el 2º tramo del ult de Arcane.", "en": "Each charge axis stacks 4 Cryo layers with the SAME sequence: Tangtang's battle skill (1st layer) → the combos that light up (Arcane drops the 2nd layer + Imprison) → Xaihi's battle skill (heavy, amp for the main-C) → Last Rite's battle skill (heavy, 3rd layer) → Xaihi's combo (4th layer) → Last Rite's combo, which consumes all 4. Last Rite's battle skill goes late on purpose, to catch the Tide Surge set and her signature weapon. The burst axis is the charge one with all four ultimates packed inside Xaihi's amp window, closed with Arcane's 2nd ultimate stage." }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": { "es": "Primer eje de carga (充能轴)", "en": "First charge axis (充能轴)" },
+          "action": { "es": "Apila 4 capas de Cryo y Last Rite las come. Tangtang → combos → Xaihi (heavy) → Last Rite (heavy) → combo de Xaihi (4ª capa) → combo de Last Rite consume las 4.", "en": "Stack 4 Cryo layers and Last Rite eats them. Tangtang → combos → Xaihi (heavy) → Last Rite (heavy) → Xaihi's combo (4th layer) → Last Rite's combo consumes all 4." },
+          "steps": [
+            { "do": { "es": "Battle skill de Tangtang (Waterspout): 1ª capa de Cryo. Se iluminan los combos de Tangtang y Arcane — úsalos: el de Arcane deja la 2ª capa de Cryo + Imprison (cámara lenta), que facilita los golpes fuertes siguientes.", "en": "Tangtang's battle skill (Waterspout): 1st Cryo layer. Tangtang's and Arcane's combos light up — use them: Arcane's drops the 2nd Cryo layer + Imprison (slow-mo), which makes the following heavy attacks easier." }, "who": "tangtang" },
+            { "do": { "es": "Battle skill de Xaihi + un golpe fuerte: le da el amp al main-C.", "en": "Xaihi's battle skill + a heavy attack: hands the amp to the main-C." }, "who": "xaihi" },
+            { "do": { "es": "Battle skill de Last Rite + un golpe fuerte: 3ª capa de Cryo. Colócala AQUÍ (tarde), no al abrir, para comer el set Tide Surge y el efecto del arma promocional.", "en": "Last Rite's battle skill + a heavy attack: 3rd Cryo layer. Place it HERE (late), not on the opening, to catch the Tide Surge set and the signature weapon effect." }, "who": "lastrite", "key": true },
+            { "do": { "es": "Se disparan los 3 combos: el de Xaihi deja la 4ª capa de Cryo.", "en": "All 3 combos fire: Xaihi's drops the 4th Cryo layer." }, "who": "xaihi", "key": true },
+            { "do": { "es": "Combo de Last Rite: consume las 4 capas de Cryo → daño. Fin del primer eje.", "en": "Last Rite's combo: consumes the 4 Cryo layers → damage. End of the first axis." }, "who": "lastrite", "key": true }
+          ]
+        },
+        {
+          "phase": { "es": "Segundo eje de carga", "en": "Second charge axis" },
+          "action": { "es": "La misma secuencia; arranca con ~2 barras de recurso para que fluya. El ult de Xaihi termina de cargar aquí: ábrelo ANTES de que caiga el combo de Last Rite.", "en": "Same sequence; start with ~2 resource bars so it flows. Xaihi's ultimate finishes charging here: open it BEFORE Last Rite's combo lands." },
+          "steps": [
+            { "do": { "es": "Repite: Tangtang battle + combos → Xaihi battle (heavy) → Last Rite battle (heavy, 3ª capa) → combo de Xaihi (4ª capa) → combo de Last Rite consume las 4.", "en": "Repeat: Tangtang battle + combos → Xaihi battle (heavy) → Last Rite battle (heavy, 3rd layer) → Xaihi's combo (4th layer) → Last Rite's combo consumes all 4." }, "who": "arcane" },
+            { "do": { "es": "Abre el amp del ult de Xaihi JUSTO antes de que el combo de Last Rite haga daño, para que ese daño entre completo en la ventana de amp.", "en": "Open Xaihi's ultimate amp JUST before Last Rite's combo deals damage, so that damage lands fully inside the amp window." }, "who": "xaihi", "key": true }
+          ]
+        },
+        {
+          "phase": { "es": "Eje de burst (爆发轴)", "en": "Burst axis (爆发轴)" },
+          "action": { "es": "El amp de Xaihi ya está activo: comprime los cuatro ults dentro de su ventana. Cierra SIEMPRE con el 2º tramo del ult de Arcane.", "en": "Xaihi's amp is already up: compress the four ultimates inside its window. ALWAYS close with Arcane's 2nd ultimate stage." },
+          "steps": [
+            { "do": { "es": "Battle skill de Tangtang: 1ª capa de Cryo.", "en": "Tangtang's battle skill: 1st Cryo layer." }, "who": "tangtang" },
+            { "do": { "es": "Ult de Arcane (2ª capa de Cryo) → combo de Arcane (3ª capa).", "en": "Arcane's ultimate (2nd Cryo layer) → Arcane's combo (3rd layer)." }, "who": "arcane", "key": true },
+            { "do": { "es": "Ult de Tangtang + ataque en picado (dive): 4ª capa de Cryo. Durante el picado, precastea el combo de Last Rite (su daño tiene retraso).", "en": "Tangtang's ultimate + dive attack: 4th Cryo layer. During the dive, pre-cast Last Rite's combo (its damage is delayed)." }, "who": "tangtang" },
+            { "do": { "es": "Cuando el daño del combo de Last Rite termine de salir, encadena su ult: el burst de la vuelta.", "en": "When Last Rite's combo damage finishes coming out, chain her ultimate: the pass's burst." }, "who": "lastrite", "key": true },
+            { "do": { "es": "Remate OBLIGATORIO: 2º tramo del ult de Arcane. Sin él NO cargas su próximo ult (se desbloquea con 2 Final Strikes o Finishers tras el 1er tramo).", "en": "MANDATORY finisher: Arcane's 2nd ultimate stage. Without it you do NOT charge her next ultimate (it unlocks with 2 Final Strikes or Finishers after the 1st stage)." }, "who": "arcane", "key": true }
+          ]
+        },
+        {
+          "phase": { "es": "Bucle", "en": "Loop" },
+          "action": { "es": "2 ejes de carga + 1 de burst, en bucle. Vigila el cooldown del combo de Tangtang antes de su battle skill.", "en": "2 charge axes + 1 burst, on loop. Watch Tangtang's combo cooldown before her battle skill." },
+          "steps": [
+            { "do": { "es": "Antes de la battle skill de Tangtang, mira su icono de combo abajo a la izquierda: barra gris → blanca = listo. Así el bucle se mantiene estable.", "en": "Before Tangtang's battle skill, check her combo icon at the bottom-left: gray bar → white = ready. That keeps the loop stable." }, "who": "tangtang" },
+            { "do": { "es": "Repite el patrón. Si abres tarde la battle skill de Xaihi, mete un golpe fuerte extra y sigue: no pasa nada.", "en": "Repeat the pattern. If you open Xaihi's battle skill late, add an extra heavy attack and carry on: no harm done." }, "who": "arcane" }
+          ]
+        }
+      ],
+      "skillPriority": [
+        { "charId": "arcane", "order": { "es": "Combo (esp. 3) > Ult ≈ Battle Skill ≈ Básico", "en": "Combo (spec. 3) > Ultimate ≈ Battle Skill ≈ Basic" }, "note": { "es": "En forma WILL, subir el combo mejora el valor de Nature/Cryo Susceptibility.", "en": "In WILL form, leveling the combo improves the Nature/Cryo Susceptibility value." } },
+        { "charId": "lastrite", "order": { "es": "Combo > Ult > Battle Skill > Básico", "en": "Combo > Ultimate > Battle Skill > Basic" }, "note": { "es": "Es el main-C: su combo come las 4 capas de Cryo del eje.", "en": "She is the main-C: her combo eats the axis's 4 Cryo layers." } },
+        { "charId": "tangtang", "order": { "es": "Combo (esp. 3)", "en": "Combo (spec. 3)" }, "note": { "es": "El bucle depende del cooldown de su combo; con Tangtang a 1000+ baja 2 s solo.", "en": "The loop depends on her combo cooldown; at Tangtang 1000+ it drops 2s on its own." } },
+        { "charId": "xaihi", "order": { "es": "Ult", "en": "Ultimate" }, "note": { "es": "El amp del ult envuelve el burst; súbelo para más amp de equipo.", "en": "The ultimate's amp wraps the burst; level it for more team amp." } }
+      ],
+      "pitfalls": [
+        { "es": "Coloca la battle skill de Last Rite TARDE en el eje (no al abrir): así come el set Tide Surge y el efecto de su arma promocional; en single-target úsala una vez por vuelta.", "en": "Place Last Rite's battle skill LATE in the axis (not on the opening): that way it catches the Tide Surge set and her signature weapon effect; in single-target use it once per pass." },
+        { "es": "Arranca el 2º eje de carga con ~2 barras de recurso: con menos, el combo se atasca.", "en": "Start the 2nd charge axis with ~2 resource bars: with less, the combo stalls." },
+        { "es": "Cierra el burst con el 2º tramo del ult de Arcane SIEMPRE: sin él no cargas su siguiente ult.", "en": "Close the burst with Arcane's 2nd ultimate stage ALWAYS: without it you fail to charge her next ultimate." },
+        { "es": "Confirma la forma WILL: si el build no supera el gap de 55 puntos de Will sobre INT (gear + arma), sigues en forma INT y el kit entero es otro.", "en": "Confirm WILL form: if the build does not beat the 55-point Will-over-INT gap (gear + weapon), you are still in INT form and the whole kit is different." }
+      ],
+      "vsOtherComps": [
+        { "name": { "es": "Cryo de Yvonne", "en": "Yvonne Cryo" }, "verdict": { "es": "El autor la ve más como comodín de relleno ahí: si te falta Tangtang o Gilberta para completar el equipo de Yvonne, Arcane tapa el puesto.", "en": "The author sees her more as filler there: if you are missing Tangtang or Gilberta to complete Yvonne's team, Arcane plugs the slot." } },
+        { "name": { "es": "Fuego de Laevatain", "en": "Laevatain fire" }, "verdict": { "es": "Su susceptibilidad se desperdicia, pero como soporte de attach + agrupamiento es muy cómoda, y frente a Wulfgard además aporta algo de buff y Corrosion larga. Elección de comodidad, no de daño.", "en": "Her susceptibility goes to waste, but as attach + grouping support she is very comfy, and versus Wulfgard she also brings some buffing and long Corrosion. A comfort pick, not a damage one." } },
+        { "name": { "es": "Eléctrico de Zhuang Fangyi", "en": "Zhuang Fangyi electric" }, "verdict": { "es": "Con Liino fija, el 3er puesto se lo disputan Arcane y Arclight: Arcane re-aplica capas Electric (sube la Conducción y el burst de Zhuang Fangyi) y agrupa; Arclight tira más al aporte directo sostenido. Usable, no imprescindible — el autor sugiere guardar recursos para Liino.", "en": "With Liino locked in, the 3rd slot is contested by Arcane and Arclight: Arcane re-applies Electric stacks (raising Conduction and Zhuang Fangyi's burst) and groups; Arclight leans toward direct sustained output. Usable, not mandatory — the author suggests saving resources for Liino." } },
+        { "name": { "es": "Mixto de Rossi", "en": "Rossi mixed" }, "verdict": { "es": "Si ya tienes Tangtang, no fuerces el cambio; si te falta, Arcane tapa el puesto de aplicador de Arts Attach estable.", "en": "If you already run Tangtang, do not force the swap; if you lack her, Arcane fills the stable Arts Attach slot." } }
+      ],
+      "members": [
+        {
+          "id": "lastrite",
+          "role": "Carry",
+          "weaponId": "wpn_claym_0013",
+          "gearRec": ["bonekrusha_poncho", "tide_surge_gauntlets", "hanging_river_o2_tube", "hanging_river_o2_tube"],
+          "weaponNote": { "es": "Khravengger (promocional) es la BiS. Alternativa: Shattered Monarch (破碎君王, aún sin data en la app), pero su 3er efecto solo sale si PILOTAS a Last Rite; si no la controlas, rinde poco.", "en": "Khravengger (signature) is BiS. Alternative: Shattered Monarch (破碎君王, no app data yet), but its 3rd effect only procs if you PILOT Last Rite; when you do not control her, it does little." },
+          "gearNote": { "es": "Tres piezas de Tide Surge (潮涌: Tide Surge Gauntlets + 2× Hanging River O2 Tube) + Bonekrusha Poncho en la armadura; alternativa de armadura = Type 50 Yinglung Light Armor. Precalado: Fuerza / daño Cryo · daño de combo > Will. Con este eje NO necesita potenciales.", "en": "Three Tide Surge pieces (潮涌: Tide Surge Gauntlets + 2× Hanging River O2 Tube) + a Bonekrusha Poncho in the armor slot; armor alt = Type 50 Yinglung Light Armor. Artificing: Strength / Cryo DMG · Combo DMG > Will. With this axis she needs no potentials." },
+          "deepNote": { "es": "El main-C Cryo: cobra la ventana de capas y susceptibilidades que fabrica Arcane, y su combo consume las 4 capas de Cryo del eje.", "en": "The Cryo main-C: she cashes the stack + susceptibility window Arcane manufactures, and her combo consumes the axis's 4 Cryo layers." }
+        },
+        {
+          "id": "tangtang",
+          "role": "Enabler",
+          "weaponId": "wpn_pistol_0011",
+          "gearRec": ["qingbo_heavy_armor", "qingbo_gauntlets", "qingbo_cask", "qingbo_positioning_kit"],
+          "weaponNote": { "es": "Brigand's Calling (promocional): daño Cryo y apilado de Waterspouts para la 1ª capa y gatillar el combo.", "en": "Brigand's Calling (signature): Cryo damage and Waterspout stacking for the 1st layer and to trigger the combo." },
+          "gearNote": { "es": "Tres builds según cómo la juegues. (1) Full daño, si dejas su ult FUERA del bucle (eje libre, 4000+). (2) Con el ult DENTRO del bucle (el eje del video, a 0 potencial): Qingbo (轻薄) + una pieza de carga — el −15% de cooldown del combo estabiliza el bucle; combo a especialización 3. (3) A 1000 potencial el cooldown del combo baja 2 s solo → cambia a Bonekrusha (碾骨) + carga por un poco más de ATK.", "en": "Three builds depending on how you play her. (1) Full damage, if you keep her ultimate OUT of the loop (free axis, 4000+). (2) With the ultimate IN the loop (the video's axis, at 0 potential): Qingbo (轻薄) + one charge piece — the −15% combo cooldown stabilizes the loop; combo to specialization 3. (3) At 1000 potential the combo cooldown drops 2s on its own → switch to Bonekrusha (碾骨) + charge for a bit more ATK." },
+          "deepNote": { "es": "Sus Waterspouts dejan la 1ª capa de Cryo y son parte del gatillo de los combos. En el eje de burst, su ult + ataque en picado ponen la 4ª capa.", "en": "Her Waterspouts drop the 1st Cryo layer and are part of the combo trigger. On the burst axis, her ultimate + dive attack place the 4th layer." }
+        },
+        {
+          "id": "xaihi",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0008",
+          "gearRec": null,
+          "weaponNote": { "es": "Detonation Unit (promocional): tras aplicar Arts Burst, el enemigo recibe más Arts DMG.", "en": "Detonation Unit (signature): after applying an Arts Burst, the enemy takes more Arts DMG." },
+          "gearNote": { "es": "NO lleva Eternal Xiranite aquí (lo carga Arcane). Apila Intellect para subir el amp del ult y que el burst del equipo pegue más. En contenido con presión de supervivencia, gear de curación a cambio de menos amp.", "en": "She does NOT run Eternal Xiranite here (Arcane carries it). Stack Intellect to raise the ultimate's amp so the team burst hits harder. In survival-heavy content, healing gear in exchange for less amp." },
+          "deepNote": { "es": "Su battle skill da el amp al main-C; su ult amp se abre antes del combo de Last Rite y envuelve todo el burst.", "en": "Her battle skill hands the amp to the main-C; her ultimate amp opens before Last Rite's combo and wraps the whole burst." }
+        },
+        {
+          "id": "arcane",
+          "role": "Enabler",
+          "weaponId": "wpn_funnel_0016",
+          "gearRec": ["eternal_xiranite_light_armor", "rift_trekker_gloves", "eternal_xiranite_bracing_slab", "eternal_xiranite_bracing_slab"],
+          "weaponNote": { "es": "En forma WILL, la pasiva del promocional cambia de rama: aplicar Arts Burst o Susceptibility hace que el enemigo reciba +Arts DMG (25 s). Sin promocional: 4× Eternal Xiranite + Detonation Unit o Stanza of Memorials, evitando duplicar el buff de Detonation Unit con Xaihi (si Xaihi lleva Detonation Unit, Arcane va con Stanza).", "en": "In WILL form the signature's passive switches branch: applying Arts Burst or Susceptibility makes the enemy take +Arts DMG (25s). Without the signature: 4× Eternal Xiranite + Detonation Unit or Stanza of Memorials, avoiding a duplicate Detonation Unit buff with Xaihi (if Xaihi runs Detonation Unit, Arcane goes Stanza)." },
+          "gearNote": { "es": "Tres piezas de Eternal Xiranite (长息: Light Armor + 2× Bracing Slab) + Rift Trekker Gloves (涉渊: Intellect + eficiencia de carga de Ultimate). A full artificing el Will llega a 636 (el tope de susceptibilidad pide 640); el resto va a Intellect por algo de ATK. Precalado: Will / sub / eficiencia de carga > Intellect. Combo a especialización 3.", "en": "Three Eternal Xiranite pieces (长息: Light Armor + 2× Bracing Slab) + Rift Trekker Gloves (涉渊: Intellect + Ultimate charge efficiency). At full artificing Will reaches 636 (the susceptibility cap wants 640); the rest goes to Intellect for some ATK. Artificing: Will / sub / charge efficiency > Intellect. Combo to specialization 3." },
+          "deepNote": { "es": "Rol de \"Fluorite mejorada\": capas extra del elemento del equipo (Cryo) + Imprison 6 s + gravedad + doble susceptibilidad escalada por Will. Aporta la 2ª y 3ª capa del eje de burst con su ult y su combo.", "en": "The \"upgraded Fluorite\" role: extra stacks of the team's element (Cryo) + 6s Imprison + gravity + double Will-scaled susceptibility. She provides the 2nd and 3rd layers of the burst axis with her ultimate and combo." }
+        }
+      ],
+      "equipment": {
+        "intro": { "es": "Last Rite (main-C): tres piezas de Tide Surge (潮涌: Tide Surge Gauntlets + 2× Hanging River O2 Tube) + Bonekrusha Poncho, o Type 50 Yinglung Light Armor en la armadura; precalado Fuerza / daño Cryo · combo > Will; arma promocional Khravengger. Con este eje no necesita potenciales. Arcane (forma WILL, soporte): 3× Eternal Xiranite (长息: Light Armor + 2 Bracing Slab) + Rift Trekker Gloves (涉渊, Intellect + carga de Ultimate); a full artificing el Will llega a 636 (el tope de susceptibilidad pide 640); precalado Will / carga > Intellect; promocional Type 42, o 4× Eternal Xiranite + Detonation Unit / Stanza of Memorials sin él (sin pisar el buff de Xaihi). Tangtang: Qingbo (轻薄) + carga con el ult en el bucle a 0 potencial, o Bonekrusha (碾骨) a 1000+; combo a especialización 3. Xaihi: sin Eternal Xiranite (lo lleva Arcane), apila Intellect para el amp del ult (o gear de curación si hace falta aguante). La velocidad de carga de Arcane varía con los potenciales de Last Rite y Tangtang (~181% a 0 potencial, ~154% a 4).", "en": "Last Rite (main-C): three Tide Surge pieces (潮涌: Tide Surge Gauntlets + 2× Hanging River O2 Tube) + a Bonekrusha Poncho, or Type 50 Yinglung Light Armor in the armor slot; artificing Strength / Cryo DMG · combo > Will; signature weapon Khravengger. With this axis she needs no potentials. Arcane (WILL form, support): 3× Eternal Xiranite (长息: Light Armor + 2 Bracing Slabs) + Rift Trekker Gloves (涉渊, Intellect + Ultimate charge); at full artificing Will reaches 636 (the susceptibility cap wants 640); artificing Will / charge > Intellect; Type 42 signature, or 4× Eternal Xiranite + Detonation Unit / Stanza of Memorials without it (without stomping Xaihi's buff). Tangtang: Qingbo (轻薄) + charge with the ultimate in the loop at 0 potential, or Bonekrusha (碾骨) at 1000+; combo to specialization 3. Xaihi: no Eternal Xiranite (Arcane carries it), stack Intellect for the ultimate amp (or healing gear if you need survivability). Arcane's charge speed varies with Last Rite's and Tangtang's potentials (~181% at 0 potential, ~154% at 4)." },
+        "alts": [
+          { "scenario": { "es": "No tienes el promocional de Arcane", "en": "You do not have Arcane's signature" }, "swap": { "es": "4× Eternal Xiranite + Detonation Unit (爆破单元) o Stanza of Memorials (悼亡诗) de alto potencial; evita duplicar el buff de Detonation Unit con Xaihi.", "en": "4× Eternal Xiranite + a high-potential Detonation Unit (爆破单元) or Stanza of Memorials (悼亡诗); avoid duplicating the Detonation Unit buff with Xaihi." } },
+          { "scenario": { "es": "Contenido con presión de supervivencia", "en": "Survival-heavy content" }, "swap": { "es": "gear de curación en Xaihi a cambio de menos amp de equipo.", "en": "healing gear on Xaihi in exchange for less team amp." } }
+        ]
+      },
+      "simple": {
+        "note": { "es": "Versión corta del eje formulaico.", "en": "Short version of the formulaic axis." },
+        "steps": [
+          { "do": { "es": "Battle de Tangtang (1ª capa de Cryo) → los combos que se iluminen (Arcane deja la 2ª capa + Imprison).", "en": "Tangtang's battle skill (1st Cryo layer) → the combos that light up (Arcane drops the 2nd layer + Imprison)." }, "who": "tangtang" },
+          { "do": { "es": "Battle de Xaihi (heavy, amp) → battle de Last Rite (heavy, 3ª capa) → combo de Xaihi (4ª capa).", "en": "Xaihi's battle skill (heavy, amp) → Last Rite's battle skill (heavy, 3rd layer) → Xaihi's combo (4th layer)." }, "who": "xaihi" },
+          { "do": { "es": "Combo de Last Rite: come las 4 capas de Cryo → daño.", "en": "Last Rite's combo: eats the 4 Cryo layers → damage." }, "who": "lastrite" },
+          { "do": { "es": "En el burst: mete ult de Arcane + ult de Tangtang + ult de Xaihi + ult de Last Rite dentro del amp, y CIERRA con el 2º tramo del ult de Arcane.", "en": "On the burst: slot Arcane's + Tangtang's + Xaihi's + Last Rite's ultimates inside the amp, and CLOSE with Arcane's 2nd ultimate stage." }, "who": "arcane" },
+          { "do": { "es": "Bucle: 2 ejes de carga + 1 de burst. Arranca el 2º eje con ~2 barras.", "en": "Loop: 2 charge axes + 1 burst. Start the 2nd axis with ~2 bars." }, "who": "tangtang" }
+        ],
+        "gear": [
+          { "id": "lastrite", "line": { "es": "3× Tide Surge (潮涌) + Bonekrusha Poncho (o Type 50 Yinglung Light Armor); Fuerza / daño Cryo · combo > Will.", "en": "3× Tide Surge (潮涌) + Bonekrusha Poncho (or Type 50 Yinglung Light Armor); Strength / Cryo DMG · combo > Will." } },
+          { "id": "tangtang", "line": { "es": "Qingbo (轻薄) + carga con el ult en el bucle, o Bonekrusha (碾骨) a 1000+; combo a especialización 3.", "en": "Qingbo (轻薄) + charge with the ultimate in the loop, or Bonekrusha (碾骨) at 1000+; combo to specialization 3." } },
+          { "id": "xaihi", "line": { "es": "Sin Eternal Xiranite; apila Intellect para el amp del ult.", "en": "No Eternal Xiranite; stack Intellect for the ultimate amp." } },
+          { "id": "arcane", "line": { "es": "3× Eternal Xiranite (长息) + Rift Trekker Gloves (涉渊); apila Will hasta ~636; combo a especialización 3.", "en": "3× Eternal Xiranite (长息) + Rift Trekker Gloves (涉渊); stack Will to ~636; combo to specialization 3." } }
+        ]
+      }
+    },
+    {
+      "name": { "es": "YZ-月咒 - Súper silla de ruedas Nature (INT, formulaico)", "en": "YZ-月咒 - Nature superwheelchair (INT, formulaic)" },
+      "subtitle": { "es": "El mismo combo de principio a fin: 2 ejes de carga + 1 de burst", "en": "The same combo start to finish: 2 charge axes + 1 burst" },
+      "guideVideoId": "arcb2",
+      "blurb": {
+        "es": "Arcane de main-C en forma INT con Tangtang, Xaihi y Perlica: un combo formulaico que se repite de principio a fin (silla de ruedas). El 4º puesto es Perlica — la recomendación del autor sobre Gilberta: pega un pelín más, es más simple y su ult de Stanza sí sube el ATK de Arcane (Perlica es Electric, distinto elemento).",
+        "en": "INT-form Arcane main-C with Tangtang, Xaihi and Perlica: a formulaic combo repeated start to finish (wheelchair). The 4th slot is Perlica — the author's pick over Gilberta: slightly more damage, simpler, and her Stanza ultimate does raise Arcane's ATK (Perlica is Electric, a different element)."
+      },
+      "overview": {
+        "es": "La rotación se parte en dos: eje de carga y eje de burst. El patrón es 2 ejes de carga y luego 1 de burst, en bucle. Cada vuelta lleva la MISMA secuencia, así que solo memorizas el eje de carga y luego insertas tres ults en su sitio. El eje de carga: básico → battle skill de Tangtang → combo de Tangtang → battle skill de Xaihi → 2 golpes fuertes (el combo de Xaihi pide 2, el de Perlica 1: retén el de Perlica, que los golpes fuertes le refrescan la duración) → sueltas los 4 combos juntos (Perlica y Xaihi, que disparan los de Arcane y Tangtang) → el combo de Arcane mete al enemigo en Imprison 4 s → battle skill de Arcane para detonarlo antes de que venza (devuelve SP + burst multi-golpe). El eje de burst añade el ult de Xaihi (amp), el ult de Perlica (Stanza → ATK de equipo) y el ult en dos partes de Arcane, todo comprimido dentro de la ventana de Stagger.",
+        "en": "The rotation splits in two: a charge axis and a burst axis. The pattern is 2 charge axes then 1 burst, on loop. Every pass runs the SAME order, so you only memorize the charge axis and then slot three ultimates in place. The charge axis: basic → Tangtang's battle skill → Tangtang's combo → Xaihi's battle skill → 2 heavy attacks (Xaihi's combo needs 2, Perlica's needs 1: hold Perlica's, since heavy attacks refresh its duration) → fire all 4 combos together (Perlica and Xaihi, which trigger Arcane's and Tangtang's) → Arcane's combo puts the enemy into 4s Imprison → Arcane's battle skill detonates it before it expires (SP refund + multi-hit burst). The burst axis adds Xaihi's ultimate (amp), Perlica's ultimate (Stanza → team ATK) and Arcane's two-part ultimate, all squeezed inside the Stagger window."
+      },
+      "playstyle": {
+        "difficulty": { "es": "Baja", "en": "Low" },
+        "tags": [
+          { "es": "Naturaleza", "en": "Nature", "jp": "自然", "zh": "自然" },
+          { "es": "Formulaico", "en": "Formulaic" },
+          { "es": "Control (Imprison)", "en": "Control (Imprison)" },
+          { "es": "Burst", "en": "Burst" }
+        ]
+      },
+      "pros": [
+        { "es": "Formulaico: la misma secuencia de principio a fin. Memorizas el eje de carga y solo insertas tres ults para el de burst.", "en": "Formulaic: the same sequence start to finish. Memorize the charge axis and just slot three ultimates for the burst one." },
+        { "es": "Perlica en el 4º puesto: su ult dispara Stanza of Memorials y sube el ATK del equipo (Arcane incluida, por ser de otro elemento).", "en": "Perlica in the 4th slot: her ultimate triggers Stanza of Memorials and raises the team's ATK (Arcane included, being a different element)." },
+        { "es": "La build de Redeemer Seal da tolerancia de carga: completas fijo dos ejes de carga y entras al de burst en el tercero.", "en": "The Redeemer Seal build gives charge fault-tolerance: you reliably finish two charge axes and enter the burst on the third." },
+        { "es": "\"Uno lleva a tres\": los soportes piden poca inversión y Arcane concentra los recursos.", "en": "\"One carries three\": the supports need little investment and Arcane concentrates the resources." }
+      ],
+      "cons": [
+        { "es": "Hay que vigilar el SP: espera a tener ~2 barras antes de arrancar cada vuelta para no quedarte seco a mitad de combo.", "en": "You must watch SP: wait for ~2 bars before starting each pass so you do not run dry mid-combo." },
+        { "es": "Detona Imprison a tiempo: el enemigo está en cámara lenta 4 s; detónalo hacia el segundo 3 para ir seguro.", "en": "Detonate Imprison in time: the enemy is in slow-mo for 4s; detonate around the 3s mark to be safe." },
+        { "es": "La losa de mayor daño para Arcane (Bio Auxiliary Slab, 生物辅助护板) es del parche nuevo y aún no está en la app; aquí se usa la variante estable de Redeemer Seal.", "en": "Arcane's higher-damage slab (Bio Auxiliary Slab, 生物辅助护板) is from the new patch and not in the app yet; here the stable Redeemer Seal variant is used." }
+      ],
+      "whyItWorks": [
+        {
+          "title": { "es": "El combo formulaico", "en": "The formulaic combo" },
+          "body": { "es": "Cada eje de carga es idéntico: battle skill de Tangtang y su combo, battle skill de Xaihi, dos golpes fuertes para armar los combos (Xaihi pide 2 golpes fuertes, Perlica solo 1 y se retiene refrescándolo con golpes fuertes), y entonces los 4 combos a la vez. Al soltarlos, Arcane mete Imprison y detonas con su battle skill: SP de vuelta y burst. No hay que improvisar — es leer y repetir.", "en": "Every charge axis is identical: Tangtang's battle skill and combo, Xaihi's battle skill, two heavy attacks to arm the combos (Xaihi needs 2 heavy attacks, Perlica only 1 and it is held by refreshing with heavy attacks), then all 4 combos at once. On release, Arcane applies Imprison and you detonate with her battle skill: SP back and a burst. No improvising — it is read and repeat." }
+        },
+        {
+          "title": { "es": "Perlica y Stanza", "en": "Perlica and Stanza" },
+          "body": { "es": "Perlica cumple dos funciones: su ult dispara Stanza of Memorials, que da ATK a los aliados de otro elemento — como Arcane es Nature y Perlica Electric, el bono le llega; y su combo cuelga Electrification, que aporta vulnerabilidad de Arts al equipo (más fuerte cuanto más Intellect lleve Perlica). Por eso Perlica supera a Gilberta en el 4º puesto: Gilberta es Nature y su Stanza NO subiría el ATK de Arcane.", "en": "Perlica does two jobs: her ultimate triggers Stanza of Memorials, which grants ATK to teammates of a different element — Arcane being Nature and Perlica Electric, the bonus reaches her; and her combo applies Electrification, which adds Arts vulnerability for the team (stronger the more Intellect Perlica carries). That is why Perlica beats Gilberta in the 4th slot: Gilberta is Nature and her Stanza would NOT raise Arcane's ATK." }
+        },
+        {
+          "title": { "es": "El eje de burst y el Stagger", "en": "The burst axis and Stagger" },
+          "body": { "es": "El eje de burst es el de carga con tres ults metidos: battle skill de Xaihi + ult de Arcane juntos, dos golpes fuertes (el boss entra en Stagger), ult de Xaihi (amp) + ult de Perlica (Stanza), un golpe fuerte de remate desbloquea el 2º tramo del ult de Arcane, y cierras con la detonación de Imprison + ese 2º ult. La clave es comprimir todo el burst dentro del Stagger para que las skills clave cobren el bono.", "en": "The burst axis is the charge one with three ultimates slotted in: Xaihi's battle skill + Arcane's ultimate together, two heavy attacks (the boss enters Stagger), Xaihi's ultimate (amp) + Perlica's ultimate (Stanza), a finishing heavy attack unlocks Arcane's 2nd ultimate stage, and you close with the Imprison detonation + that 2nd ultimate. The key is compressing the whole burst inside the Stagger so the key skills cash the bonus." }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": { "es": "Eje de carga", "en": "Charge axis" },
+          "action": { "es": "El combo base: Tangtang → Xaihi → 2 golpes fuertes → 4 combos → Imprison → detonación de Arcane.", "en": "The base combo: Tangtang → Xaihi → 2 heavy attacks → 4 combos → Imprison → Arcane detonation." },
+          "steps": [
+            { "do": { "es": "Básico de arranque → battle skill de Tangtang (Waterspout) → combo de Tangtang (Whirlpool).", "en": "Opening basic → Tangtang's battle skill (Waterspout) → Tangtang's combo (Whirlpool)." }, "who": "tangtang" },
+            { "do": { "es": "Battle skill de Xaihi → 2 golpes fuertes (retén el combo de Perlica, que salta con 1; los golpes fuertes le refrescan la duración).", "en": "Xaihi's battle skill → 2 heavy attacks (hold Perlica's combo, which fires on 1; heavy attacks refresh its duration)." }, "who": "xaihi" },
+            { "do": { "es": "Los 4 combos juntos: Perlica y Xaihi disparan los de Arcane y Tangtang → Arcane mete Imprison (cámara lenta 4 s).", "en": "All 4 combos together: Perlica and Xaihi trigger Arcane's and Tangtang's → Arcane applies Imprison (4s slow-mo)." }, "who": "arcane", "key": true },
+            { "do": { "es": "Battle skill de Arcane para detonar Imprison antes de que venza (hacia el 3er segundo): SP de vuelta + burst.", "en": "Arcane's battle skill to detonate Imprison before it expires (around the 3s mark): SP back + burst." }, "who": "arcane", "key": true }
+          ]
+        },
+        {
+          "phase": { "es": "Segundo eje de carga", "en": "Second charge axis" },
+          "action": { "es": "La misma secuencia; espera a ~2 barras de SP antes de arrancar para no atascarte.", "en": "Same sequence; wait for ~2 SP bars before starting so you do not stall." },
+          "steps": [
+            { "do": { "es": "Repite: Tangtang battle + combo → Xaihi battle → 2 golpes fuertes → 4 combos → Imprison → detonación de Arcane.", "en": "Repeat: Tangtang battle + combo → Xaihi battle → 2 heavy attacks → 4 combos → Imprison → Arcane detonation." }, "who": "arcane" }
+          ]
+        },
+        {
+          "phase": { "es": "Eje de burst", "en": "Burst axis" },
+          "action": { "es": "El de carga + tres ults, todo dentro de la ventana de Stagger.", "en": "The charge one + three ultimates, all inside the Stagger window." },
+          "steps": [
+            { "do": { "es": "Arranca: battle skill de Tangtang + combo → battle skill de Xaihi y ult de Arcane a la vez → 2 golpes fuertes (el boss entra en Stagger).", "en": "Start: Tangtang's battle skill + combo → Xaihi's battle skill and Arcane's ultimate together → 2 heavy attacks (the boss enters Stagger)." }, "who": "arcane" },
+            { "do": { "es": "Ult de Xaihi (amp) → ult de Perlica (Stanza → ATK) → un golpe fuerte de remate al boss desbloquea el 2º tramo del ult de Arcane.", "en": "Xaihi's ultimate (amp) → Perlica's ultimate (Stanza → ATK) → a finishing heavy attack on the boss unlocks Arcane's 2nd ultimate stage." }, "who": "perlica", "key": true },
+            { "do": { "es": "Segundo golpe fuerte → dispara el combo de Xaihi → los 4 combos → battle skill de Arcane detona Imprison → 2º ult de Arcane. Puedes colar un battle skill extra de Tangtang para más daño.", "en": "Second heavy attack → triggers Xaihi's combo → all 4 combos → Arcane's battle skill detonates Imprison → Arcane's 2nd ultimate. You can sneak an extra Tangtang battle skill for more damage." }, "who": "arcane", "key": true }
+          ]
+        },
+        {
+          "phase": { "es": "Bucle", "en": "Loop" },
+          "action": { "es": "2 ejes de carga + 1 de burst, en bucle. El ult de Tangtang va libre, cuando quieras.", "en": "2 charge axes + 1 burst, on loop. Tangtang's ultimate is free, whenever you want." },
+          "steps": [
+            { "do": { "es": "Repite el patrón; el ataque en picado (dive) suma una capa de Cryo extra si lo necesitas.", "en": "Repeat the pattern; the dive attack adds an extra Cryo stack if you need it." }, "who": "tangtang" }
+          ]
+        }
+      ],
+      "skillPriority": [
+        { "charId": "arcane", "order": { "es": "Combo > Ult ≈ Battle Skill ≈ Básico", "en": "Combo > Ult ≈ Battle Skill ≈ Basic" }, "note": { "es": "El combo primero, como en la forma INT: sube la devolución de SP y el burst de la detonación.", "en": "Combo first, as in INT form: it raises the SP refund and the detonation burst." } },
+        { "charId": "tangtang", "order": { "es": "Combo primero", "en": "Combo first" }, "note": { "es": "El bucle depende del cooldown de su combo: súbelo a especialización 3 (−1 s); con Tangtang a 1000+ el cooldown baja 2 s más y todo fluye.", "en": "The loop depends on her combo cooldown: raise it to specialization 3 (−1s); with Tangtang at 1000+ the cooldown drops another 2s and everything flows." } },
+        { "charId": "xaihi", "order": { "es": "Ult y Battle Skill", "en": "Ultimate and Battle Skill" }, "note": { "es": "Ult a especialización 3 (más amp de equipo); battle skill a nivel 9, y a especialización 3 si se puede. Perlica no necesita subir skills.", "en": "Ultimate to specialization 3 (more team amp); battle skill to level 9, and specialization 3 if possible. Perlica needs no skill leveling." } }
+      ],
+      "pitfalls": [
+        { "es": "No arranques una vuelta sin SP: espera a ~2 barras o te quedas a medias del combo.", "en": "Do not start a pass without SP: wait for ~2 bars or you stall mid-combo." },
+        { "es": "No dejes vencer Imprison sin detonar: el burst grande y el SP salen de golpearlo con la battle skill a tiempo.", "en": "Do not let Imprison expire undetonated: the big burst and the SP come from hitting it with the battle skill in time." },
+        { "es": "Comprime el eje de burst dentro del Stagger: si se te sale, las skills clave pierden el bono de Stagger.", "en": "Compress the burst axis inside the Stagger: if it spills out, the key skills lose the Stagger bonus." }
+      ],
+      "vsOtherComps": [
+        { "name": { "es": "Gilberta en el 4º puesto", "en": "Gilberta in the 4th slot" }, "verdict": { "es": "Se juega casi igual, pero el autor la deja por debajo de Perlica: Gilberta necesita su promocional (su otra arma, Stanza, no sube el ATK de Arcane porque ambas son Nature) y su ult añade un Nature Attach que hay que consumir con Cryo — un paso más de gestión. Perlica es más simple y pega un poco más.", "en": "It plays almost the same, but the author ranks it below Perlica: Gilberta needs her signature (her other weapon, Stanza, does not raise Arcane's ATK since both are Nature) and her ultimate adds a Nature Attach you must consume with Cryo — one extra step of management. Perlica is simpler and hits a bit harder." } }
+      ],
+      "members": [
+        {
+          "id": "arcane",
+          "role": "Carry",
+          "weaponId": "wpn_funnel_0016",
+          "gearRec": ["hot_work_exo_rig", "hot_work_hands_ppe", "hot_work_insulation_slab", "redeemer_seal"],
+          "weaponNote": { "es": "Type 42: Solemn Phalanx (promocional): en forma INT, aplicar Arts Attach da +Arts DMG y aplicar Susceptibility da +ATK.", "en": "Type 42: Solemn Phalanx (signature): in INT form, applying Arts Attach grants +Arts DMG and applying Susceptibility grants +ATK." },
+          "gearNote": { "es": "Hot Work 3 piezas (Exo-Rig, Hands PPE, Insulation Slab) + Redeemer Seal (纾难印章) en el 4º slot: la versión estable que demuestra el video, con tolerancia de carga para completar dos ejes de carga y entrar al burst. La alternativa de más daño (para eje libre/burst) cambia la Redeemer Seal por la Bio Auxiliary Slab (生物辅助护板), aún sin data en la app. Prioriza Intellect sobre Will para no salir de la forma.", "en": "Hot Work 3-piece (Exo-Rig, Hands PPE, Insulation Slab) + Redeemer Seal (纾难印章) in the 4th slot: the stable version the video demonstrates, with charge fault-tolerance to finish two charge axes and enter the burst. The higher-damage alternative (for a free/burst axis) swaps the Redeemer Seal for the Bio Auxiliary Slab (生物辅助护板), not in the app yet. Prioritize Intellect over Will so you stay in form." },
+          "deepNote": { "es": "Bucle: battle (attach) → combo (Imprison) → battle (detonación), y el ult en dos partes en Stagger. La build de Redeemer Seal pide una vuelta de carga más que la de daño, a cambio de un ciclo más estable.", "en": "Loop: battle (attach) → combo (Imprison) → battle (detonation), plus the two-part ultimate in Stagger. The Redeemer Seal build asks for one more charge pass than the damage one, in exchange for a steadier cycle." }
+        },
+        {
+          "id": "tangtang",
+          "role": "Enabler",
+          "weaponId": "wpn_pistol_0011",
+          "gearRec": ["qingbo_heavy_armor", "qingbo_gauntlets", "qingbo_cask", "qingbo_positioning_kit"],
+          "weaponNote": { "es": "Brigand's Calling (promocional): daño Cryo y apilado de Waterspouts para gatillar el combo.", "en": "Brigand's Calling (signature): Cryo damage and Waterspout stacking to trigger the combo." },
+          "gearNote": { "es": "Qingbo (轻薄) para bajar el cooldown del combo — lo que estabiliza el bucle a 0 potencial. Con Tangtang a 1000+ vale más la build de daño Bonekrusha (碾骨). Sube el combo a especialización 3 (−1 s de cooldown).", "en": "Qingbo (轻薄) to cut the combo cooldown — what stabilizes the loop at 0 potential. With Tangtang at 1000+, the Bonekrusha (碾骨) damage build is worth more. Raise the combo to specialization 3 (−1s cooldown)." },
+          "deepNote": { "es": "Sus Waterspouts apilan Cryo Attach: parte del gatillo de los 4 combos. El ult va fuera del bucle, cuando quieras.", "en": "Her Waterspouts stack Cryo Attach: part of the trigger for the 4 combos. The ultimate stays out of the loop, whenever you want." }
+        },
+        {
+          "id": "xaihi",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0008",
+          "gearRec": ["eternal_xiranite_light_armor", "eternal_xiranite_wraps", "eternal_xiranite_auxiliary_arm", "eternal_xiranite_bracing_slab"],
+          "weaponNote": { "es": "Detonation Unit (promocional): tras aplicar Arts Burst, el enemigo recibe más Arts DMG.", "en": "Detonation Unit (signature): after applying an Arts Burst, the enemy takes more Arts DMG." },
+          "gearNote": { "es": "Eternal Xiranite 3 piezas (长袭): las dos piezas nuevas + una armadura cómoda. Con 4C basta un guante de carga; la armadura de carga extra es tolerancia para que el ciclo de ult sea estable. Set versátil: amp de equipo y aporte de producción.", "en": "Eternal Xiranite 3-piece (长袭): the two new pieces + a comfort armor. As the controlled operator one charge gauntlet is enough; the extra charge armor is fault-tolerance so the ultimate cycle stays stable. A versatile set: team amp and production." },
+          "deepNote": { "es": "Su ult (Stack Overflow) da amp de Cryo y Nature al equipo; el combo cuelga Cryo — el buff y la curación del esquema.", "en": "Her ultimate (Stack Overflow) gives the team Cryo and Nature amp; the combo applies Cryo — the buff and healing of the scheme." }
+        },
+        {
+          "id": "perlica",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0005",
+          "gearRec": ["qingbo_light_armor", "qingbo_gloves", "qingbo_cask", "qingbo_positioning_kit"],
+          "weaponNote": { "es": "Stanza of Memorials (悼亡诗): tras su ult, los aliados de OTRO elemento ganan ATK. Como Perlica es Electric y Arcane Nature, el bono le llega — la razón de elegirla sobre Gilberta.", "en": "Stanza of Memorials (悼亡诗): after her ultimate, teammates of a DIFFERENT element gain ATK. Perlica being Electric and Arcane Nature, the bonus reaches her — the reason to pick her over Gilberta." },
+          "gearNote": { "es": "Qingbo 4 piezas (轻薄) para el cooldown del combo. No hace falta subir skills. Apila Intellect: cuanto más lleve, más fuerte la Electrification y más vulnerabilidad de Arts para el equipo.", "en": "Qingbo 4-piece (轻薄) for the combo cooldown. No skill leveling needed. Stack Intellect: the more she carries, the stronger the Electrification and the more Arts vulnerability for the team." },
+          "deepNote": { "es": "Dos aportes: ult → Stanza (ATK de equipo) y combo → Electrification (vulnerabilidad de Arts). Es el 4º puesto recomendado del esquema.", "en": "Two contributions: ultimate → Stanza (team ATK) and combo → Electrification (Arts vulnerability). She is the scheme's recommended 4th slot." }
+        }
+      ],
+      "equipment": {
+        "intro": { "es": "Arcane (forma INT): Hot Work 3 piezas (Exo-Rig, Hands PPE, Insulation Slab) + Redeemer Seal (纾难印章) para el bucle estable de silla de ruedas — la Redeemer Seal sube carga y tolerancia. La alternativa de más daño cambia la Redeemer Seal por la Bio Auxiliary Slab (生物辅助护板, aún sin data en la app), para eje libre/burst a cambio de un ciclo de ult más lento a bajo potencial. Prioriza Intellect. Tangtang: Qingbo (轻薄) por cooldown de combo a 0 potencial, o Bonekrusha (碾骨) a 1000+; combo a especialización 3. Xaihi: Eternal Xiranite 3 piezas (长袭), ult a especialización 3, battle skill a 9. Perlica: Qingbo 4 piezas (轻薄) + Stanza of Memorials (悼亡诗), apila Intellect; sin subir skills.", "en": "Arcane (INT form): Hot Work 3-piece (Exo-Rig, Hands PPE, Insulation Slab) + Redeemer Seal (纾难印章) for the stable wheelchair loop — the Redeemer Seal raises charge and tolerance. The higher-damage alternative swaps the Redeemer Seal for the Bio Auxiliary Slab (生物辅助护板, not in the app yet), for a free/burst axis in exchange for a slower ultimate cycle at low potential. Prioritize Intellect. Tangtang: Qingbo (轻薄) for the combo cooldown at 0 potential, or Bonekrusha (碾骨) at 1000+; combo to specialization 3. Xaihi: Eternal Xiranite 3-piece (长袭), ultimate to specialization 3, battle skill to 9. Perlica: Qingbo 4-piece (轻薄) + Stanza of Memorials (悼亡诗), stack Intellect; no skill leveling." },
+        "alts": [
+          { "scenario": { "es": "Prefieres burst máximo y no te importa un ciclo de ult más lento a bajo potencial", "en": "You prefer maximum burst and do not mind a slower ultimate cycle at low potential" }, "swap": { "es": "cambia la Redeemer Seal de Arcane por la Bio Auxiliary Slab (生物辅助护板, aún sin data en la app) y juega eje libre en vez de la silla de ruedas.", "en": "swap Arcane's Redeemer Seal for the Bio Auxiliary Slab (生物辅助护板, not in the app yet) and play a free axis instead of the wheelchair." } }
+        ]
+      },
+      "simple": {
+        "note": { "es": "Versión corta del eje formulaico.", "en": "Short version of the formulaic axis." },
+        "steps": [
+          { "do": { "es": "Battle skill + combo de Tangtang, luego battle skill de Xaihi.", "en": "Tangtang's battle skill + combo, then Xaihi's battle skill." }, "who": "tangtang" },
+          { "do": { "es": "2 golpes fuertes (retén el combo de Perlica), luego los 4 combos juntos.", "en": "2 heavy attacks (hold Perlica's combo), then all 4 combos together." }, "who": "arcane" },
+          { "do": { "es": "El combo de Arcane mete Imprison → su battle skill lo detona hacia el 3er segundo: SP + burst.", "en": "Arcane's combo applies Imprison → her battle skill detonates it around 3s: SP + burst." }, "who": "arcane" },
+          { "do": { "es": "En el burst: mete ult de Xaihi + ult de Perlica + los dos tramos del ult de Arcane, todo dentro del Stagger.", "en": "On the burst: slot Xaihi's ultimate + Perlica's ultimate + both stages of Arcane's ultimate, all inside the Stagger." }, "who": "arcane" },
+          { "do": { "es": "Bucle: 2 ejes de carga + 1 de burst. El ult de Tangtang, libre.", "en": "Loop: 2 charge axes + 1 burst. Tangtang's ultimate, free." }, "who": "tangtang" }
+        ],
+        "gear": [
+          { "id": "arcane", "line": { "es": "Hot Work 3pc + Redeemer Seal (纾难印章); Intellect por encima de Will.", "en": "Hot Work 3pc + Redeemer Seal (纾难印章); Intellect above Will." } },
+          { "id": "tangtang", "line": { "es": "Qingbo (轻薄) a 0 potencial o Bonekrusha (碾骨) a 1000+; combo a especialización 3.", "en": "Qingbo (轻薄) at 0 potential or Bonekrusha (碾骨) at 1000+; combo to specialization 3." } },
+          { "id": "xaihi", "line": { "es": "Eternal Xiranite 3pc (长袭); ult a especialización 3.", "en": "Eternal Xiranite 3pc (长袭); ultimate to specialization 3." } },
+          { "id": "perlica", "line": { "es": "Qingbo 4pc (轻薄) + Stanza of Memorials (悼亡诗); apila Intellect.", "en": "Qingbo 4pc (轻薄) + Stanza of Memorials (悼亡诗); stack Intellect." } }
+        ]
+      }
+    }
+  ]
+}

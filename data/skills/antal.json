@@ -1,0 +1,362 @@
+{
+  "id": "antal",
+  "name": "Antal",
+  "ranks": 12,
+  "skills": {
+    "basic_attack": {
+      "name": "Exchange Current",
+      "stats": [
+        {
+          "name": "BATK SEQ 1 Multiplier",
+          "unit": "%",
+          "values": [
+            23,
+            25,
+            28,
+            30,
+            32,
+            35,
+            37,
+            39,
+            41,
+            44,
+            48,
+            52
+          ]
+        },
+        {
+          "name": "BATK SEQ 2 Multiplier",
+          "unit": "%",
+          "values": [
+            28,
+            31,
+            34,
+            36,
+            39,
+            42,
+            45,
+            48,
+            50,
+            54,
+            58,
+            63
+          ]
+        },
+        {
+          "name": "BATK SEQ 3 Multiplier",
+          "unit": "%",
+          "values": [
+            34,
+            37,
+            41,
+            44,
+            48,
+            51,
+            54,
+            58,
+            61,
+            65,
+            71,
+            77
+          ]
+        },
+        {
+          "name": "BATK SEQ 4 Multiplier",
+          "unit": "%",
+          "values": [
+            51,
+            56,
+            61,
+            66,
+            71,
+            77,
+            82,
+            87,
+            92,
+            98,
+            106,
+            115
+          ]
+        },
+        {
+          "name": "Finisher ATK Multiplier",
+          "unit": "%",
+          "values": [
+            400,
+            440,
+            480,
+            520,
+            560,
+            600,
+            640,
+            680,
+            720,
+            770,
+            830,
+            900
+          ]
+        },
+        {
+          "name": "Dive ATK Multiplier",
+          "unit": "%",
+          "values": [
+            80,
+            88,
+            96,
+            104,
+            112,
+            120,
+            128,
+            136,
+            144,
+            154,
+            166,
+            180
+          ]
+        }
+      ]
+    },
+    "battle_skill": {
+      "name": "Specified Research Subject",
+      "stats": [
+        {
+          "name": "SP Cost",
+          "values": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "DMG Multiplier",
+          "unit": "%",
+          "values": [
+            89,
+            98,
+            107,
+            116,
+            124,
+            133,
+            142,
+            151,
+            160,
+            171,
+            185,
+            200
+          ]
+        },
+        {
+          "name": "Duration (s)",
+          "values": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        },
+        {
+          "name": "Electric Susceptibility",
+          "unit": "%",
+          "values": [
+            5,
+            5,
+            6,
+            6,
+            7,
+            7,
+            8,
+            8,
+            8,
+            9,
+            9,
+            10
+          ]
+        },
+        {
+          "name": "Heat Susceptibility",
+          "unit": "%",
+          "values": [
+            5,
+            5,
+            6,
+            6,
+            7,
+            7,
+            8,
+            8,
+            8,
+            9,
+            9,
+            10
+          ]
+        }
+      ]
+    },
+    "combo_skill": {
+      "name": "EMP Test Site",
+      "stats": [
+        {
+          "name": "Cooldown",
+          "values": [
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            24
+          ]
+        },
+        {
+          "name": "DMG Multiplier",
+          "unit": "%",
+          "values": [
+            151,
+            166,
+            181,
+            196,
+            211,
+            227,
+            242,
+            257,
+            272,
+            291,
+            313,
+            340
+          ]
+        },
+        {
+          "name": "Stagger",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "Ultimate Energy Gain",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ]
+    },
+    "ultimate": {
+      "name": "Overclocked Moment",
+      "stats": [
+        {
+          "name": "Ultimate Energy Cost",
+          "values": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "Electric Amp",
+          "unit": "%",
+          "values": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20
+          ]
+        },
+        {
+          "name": "Heat Amp",
+          "unit": "%",
+          "values": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20
+          ]
+        },
+        {
+          "name": "Duration (s)",
+          "values": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ]
+        }
+      ]
+    }
+  }
+}

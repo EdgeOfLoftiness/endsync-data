@@ -1,0 +1,518 @@
+{
+  "id": "tangtang",
+  "name": "Tangtang",
+  "ranks": 12,
+  "skills": {
+    "basic_attack": {
+      "name": "I'LL BLOW YOUR MIND!",
+      "stats": [
+        {
+          "name": "BATK SEQ 1 Multiplier",
+          "unit": "%",
+          "values": [
+            23,
+            25,
+            27,
+            29,
+            32,
+            34,
+            36,
+            39,
+            41,
+            44,
+            47,
+            51
+          ]
+        },
+        {
+          "name": "BATK SEQ 2 Multiplier",
+          "unit": "%",
+          "values": [
+            25,
+            28,
+            30,
+            33,
+            35,
+            38,
+            40,
+            43,
+            45,
+            48,
+            52,
+            56
+          ]
+        },
+        {
+          "name": "BATK SEQ 3 Multiplier",
+          "unit": "%",
+          "values": [
+            35,
+            39,
+            42,
+            46,
+            49,
+            53,
+            56,
+            60,
+            63,
+            67,
+            73,
+            79
+          ]
+        },
+        {
+          "name": "BATK SEQ 4 Multiplier",
+          "unit": "%",
+          "values": [
+            37,
+            40,
+            44,
+            47,
+            51,
+            55,
+            58,
+            62,
+            66,
+            70,
+            76,
+            82
+          ]
+        },
+        {
+          "name": "BATK SEQ 5 Multiplier",
+          "unit": "%",
+          "values": [
+            50,
+            55,
+            60,
+            65,
+            70,
+            75,
+            80,
+            85,
+            90,
+            96,
+            104,
+            113
+          ]
+        },
+        {
+          "name": "Finisher ATK Multiplier",
+          "unit": "%",
+          "values": [
+            400,
+            440,
+            480,
+            520,
+            560,
+            600,
+            640,
+            680,
+            720,
+            770,
+            830,
+            900
+          ]
+        },
+        {
+          "name": "Dive ATK Multiplier",
+          "unit": "%",
+          "values": [
+            80,
+            88,
+            96,
+            104,
+            112,
+            120,
+            128,
+            136,
+            144,
+            154,
+            166,
+            180
+          ]
+        }
+      ]
+    },
+    "battle_skill": {
+      "name": "IMA WAVERIDAAH!",
+      "stats": [
+        {
+          "name": "SP Cost",
+          "values": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "Shooting DMG Multiplier",
+          "unit": "%",
+          "values": [
+            80,
+            88,
+            96,
+            104,
+            112,
+            120,
+            128,
+            136,
+            144,
+            154,
+            166,
+            180
+          ]
+        },
+        {
+          "name": "Shot Stagger",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "DMG Multiplier (1 Waterspout)",
+          "unit": "%",
+          "values": [
+            133,
+            147,
+            160,
+            174,
+            187,
+            200,
+            214,
+            227,
+            240,
+            257,
+            277,
+            300
+          ]
+        },
+        {
+          "name": "Waterspout Duration (s)",
+          "values": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "name": "SP Return per Whirlpool",
+          "values": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ]
+        },
+        {
+          "name": "Arts Susceptibility (2 Waterspouts)",
+          "unit": "%",
+          "values": [
+            3,
+            3,
+            3,
+            3.5,
+            3.5,
+            3.5,
+            4,
+            4,
+            4,
+            4.5,
+            4.5,
+            5
+          ]
+        },
+        {
+          "name": "Arts Susceptibility (3 Waterspouts)",
+          "unit": "%",
+          "values": [
+            6,
+            6,
+            6,
+            7,
+            7,
+            7,
+            8,
+            8,
+            8,
+            9,
+            9,
+            10
+          ]
+        },
+        {
+          "name": "Arts Susceptibility Duration (s)",
+          "values": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ]
+        }
+      ]
+    },
+    "combo_skill": {
+      "name": "RIVER, TO ME!",
+      "stats": [
+        {
+          "name": "Cooldown",
+          "values": [
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            13,
+            13,
+            13,
+            12
+          ]
+        },
+        {
+          "name": "DMG Multiplier",
+          "unit": "%",
+          "values": [
+            107,
+            117,
+            128,
+            139,
+            149,
+            160,
+            171,
+            181,
+            192,
+            205,
+            221,
+            240
+          ]
+        },
+        {
+          "name": "Stagger",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "Whirlpool Duration (s)",
+          "values": [
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "name": "Ultimate Energy Gain",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ]
+    },
+    "ultimate": {
+      "name": "DA CHIEF SEES YOU!",
+      "stats": [
+        {
+          "name": "Ultimate Energy Cost",
+          "values": [
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90,
+            90
+          ]
+        },
+        {
+          "name": "DMG Over Time Total Multiplier",
+          "unit": "%",
+          "values": [
+            142,
+            156,
+            171,
+            185,
+            199,
+            213,
+            228,
+            242,
+            256,
+            274,
+            295,
+            320
+          ]
+        },
+        {
+          "name": "OLDEN STARE Duration (s)",
+          "values": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "name": "Rogue Wave DMG Multiplier",
+          "unit": "%",
+          "values": [
+            178,
+            196,
+            213,
+            231,
+            249,
+            267,
+            284,
+            302,
+            320,
+            342,
+            369,
+            400
+          ]
+        },
+        {
+          "name": "Early Rogue Wave DMG Multiplier",
+          "unit": "%",
+          "values": [
+            311,
+            342,
+            373,
+            404,
+            436,
+            467,
+            498,
+            529,
+            560,
+            599,
+            646,
+            700
+          ]
+        },
+        {
+          "name": "Rogue Wave Stagger",
+          "values": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ]
+        },
+        {
+          "name": "Early Rogue Wave Stagger",
+          "values": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,500 @@
+{
+  "id": "camille",
+  "name": "Camille",
+  "ranks": 12,
+  "skills": {
+    "basic_attack": {
+      "name": "Sanguine Absolution",
+      "stats": [
+        {
+          "name": "BATK SEQ 1 Multiplier",
+          "unit": "%",
+          "values": [
+            25,
+            28,
+            30,
+            33,
+            35,
+            38,
+            40,
+            43,
+            45,
+            48,
+            52,
+            56
+          ]
+        },
+        {
+          "name": "BATK SEQ 2 Multiplier",
+          "unit": "%",
+          "values": [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            39,
+            42,
+            45
+          ]
+        },
+        {
+          "name": "BATK SEQ 3 Multiplier",
+          "unit": "%",
+          "values": [
+            30,
+            33,
+            36,
+            39,
+            42,
+            45,
+            48,
+            51,
+            54,
+            58,
+            62,
+            68
+          ]
+        },
+        {
+          "name": "BATK SEQ 4 Multiplier",
+          "unit": "%",
+          "values": [
+            34,
+            37,
+            41,
+            44,
+            48,
+            51,
+            54,
+            58,
+            61,
+            66,
+            71,
+            77
+          ]
+        },
+        {
+          "name": "BATK SEQ 5 Multiplier",
+          "unit": "%",
+          "values": [
+            50,
+            55,
+            60,
+            65,
+            70,
+            75,
+            80,
+            85,
+            90,
+            96,
+            104,
+            113
+          ]
+        },
+        {
+          "name": "Finisher ATK Multiplier",
+          "unit": "%",
+          "values": [
+            400,
+            440,
+            480,
+            520,
+            560,
+            600,
+            640,
+            680,
+            720,
+            770,
+            830,
+            900
+          ]
+        },
+        {
+          "name": "Dive ATK Multiplier",
+          "unit": "%",
+          "values": [
+            80,
+            88,
+            96,
+            104,
+            112,
+            120,
+            128,
+            136,
+            144,
+            154,
+            166,
+            180
+          ]
+        }
+      ]
+    },
+    "battle_skill": {
+      "name": "Blazing Exorcism",
+      "stats": [
+        {
+          "name": "SP Cost",
+          "values": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "DMG Multiplier",
+          "unit": "%",
+          "values": [
+            89,
+            98,
+            107,
+            116,
+            125,
+            134,
+            143,
+            151,
+            160,
+            172,
+            185,
+            200
+          ]
+        },
+        {
+          "name": "Stagger",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "Firefang Vesperwing Duration (s)",
+          "values": [
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45
+          ]
+        },
+        {
+          "name": "Weakness Effect",
+          "unit": "%",
+          "values": [
+            5,
+            5,
+            5,
+            5.5,
+            5.5,
+            5.5,
+            6,
+            6,
+            6,
+            6.5,
+            6.5,
+            7
+          ]
+        },
+        {
+          "name": "Heat Susceptibility",
+          "unit": "%",
+          "values": [
+            5,
+            5,
+            5,
+            5.5,
+            5.5,
+            5.5,
+            6,
+            6,
+            6,
+            6.5,
+            6.5,
+            7
+          ]
+        },
+        {
+          "name": "Explosion DMG Multiplier",
+          "unit": "%",
+          "values": [
+            45,
+            49,
+            54,
+            58,
+            62,
+            67,
+            71,
+            76,
+            80,
+            86,
+            93,
+            100
+          ]
+        }
+      ]
+    },
+    "combo_skill": {
+      "name": "Heartstake Thorn",
+      "stats": [
+        {
+          "name": "Cooldown",
+          "values": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            19,
+            19,
+            19,
+            18
+          ]
+        },
+        {
+          "name": "DMG Multiplier",
+          "unit": "%",
+          "values": [
+            133,
+            147,
+            160,
+            173,
+            186,
+            200,
+            213,
+            226,
+            240,
+            256,
+            276,
+            300
+          ]
+        },
+        {
+          "name": "Stagger",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "SP Recovery",
+          "values": [
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            18,
+            18,
+            18,
+            20,
+            20,
+            20
+          ]
+        },
+        {
+          "name": "Hunter Pursuit DMG Multiplier",
+          "unit": "%",
+          "values": [
+            222,
+            244,
+            267,
+            289,
+            311,
+            333,
+            356,
+            378,
+            400,
+            428,
+            461,
+            500
+          ]
+        },
+        {
+          "name": "Hunter Pursuit Stagger",
+          "values": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ]
+        },
+        {
+          "name": "Hunter Pursuit SP Recovery",
+          "values": [
+            32,
+            32,
+            32,
+            32,
+            32,
+            32,
+            36,
+            36,
+            36,
+            40,
+            40,
+            40
+          ]
+        },
+        {
+          "name": "Ultimate Energy Gain",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ]
+    },
+    "ultimate": {
+      "name": "Sanguine Downpour",
+      "stats": [
+        {
+          "name": "Ultimate Energy Cost",
+          "values": [
+            130,
+            130,
+            130,
+            130,
+            130,
+            130,
+            130,
+            130,
+            130,
+            130,
+            130,
+            130
+          ]
+        },
+        {
+          "name": "DMG Multiplier",
+          "unit": "%",
+          "values": [
+            267,
+            293,
+            320,
+            347,
+            373,
+            400,
+            427,
+            453,
+            480,
+            513,
+            553,
+            600
+          ]
+        },
+        {
+          "name": "Stagger",
+          "values": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ]
+        },
+        {
+          "name": "SP Recovery",
+          "values": [
+            32,
+            32,
+            32,
+            32,
+            32,
+            32,
+            32,
+            32,
+            36,
+            36,
+            36,
+            36
+          ]
+        },
+        {
+          "name": "Hunter Pursuit State Duration (s)",
+          "values": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ]
+        }
+      ]
+    }
+  }
+}

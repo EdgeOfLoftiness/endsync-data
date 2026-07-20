@@ -1,0 +1,571 @@
+{
+  "id": "yvonne",
+  "name": "Yvonne",
+  "ranks": 12,
+  "skills": {
+    "basic_attack": {
+      "name": "Exuberant Trigger",
+      "stats": [
+        {
+          "name": "BATK SEQ 1 Multiplier",
+          "unit": "%",
+          "values": [
+            24,
+            26,
+            28,
+            31,
+            33,
+            35,
+            38,
+            40,
+            42,
+            45,
+            49,
+            53
+          ]
+        },
+        {
+          "name": "BATK SEQ 2 Multiplier",
+          "unit": "%",
+          "values": [
+            25,
+            28,
+            30,
+            33,
+            35,
+            38,
+            40,
+            43,
+            45,
+            48,
+            52,
+            56
+          ]
+        },
+        {
+          "name": "BATK SEQ 3 Multiplier",
+          "unit": "%",
+          "values": [
+            32,
+            35,
+            38,
+            41,
+            44,
+            47,
+            50,
+            54,
+            57,
+            61,
+            65,
+            71
+          ]
+        },
+        {
+          "name": "BATK SEQ 4 Multiplier",
+          "unit": "%",
+          "values": [
+            41,
+            45,
+            49,
+            53,
+            58,
+            62,
+            66,
+            70,
+            74,
+            79,
+            85,
+            92
+          ]
+        },
+        {
+          "name": "BATK SEQ 5 Multiplier",
+          "unit": "%",
+          "values": [
+            56,
+            62,
+            67,
+            73,
+            79,
+            84,
+            90,
+            96,
+            101,
+            108,
+            117,
+            126
+          ]
+        },
+        {
+          "name": "Finisher ATK Multiplier",
+          "unit": "%",
+          "values": [
+            400,
+            440,
+            480,
+            520,
+            560,
+            600,
+            640,
+            680,
+            720,
+            770,
+            830,
+            900
+          ]
+        },
+        {
+          "name": "Dive ATK Multiplier",
+          "unit": "%",
+          "values": [
+            80,
+            88,
+            96,
+            104,
+            112,
+            120,
+            128,
+            136,
+            144,
+            154,
+            166,
+            180
+          ]
+        }
+      ]
+    },
+    "battle_skill": {
+      "name": "Brr-Brr-Bomb β",
+      "stats": [
+        {
+          "name": "SP Cost",
+          "values": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        {
+          "name": "Base DMG Multiplier",
+          "unit": "%",
+          "values": [
+            111,
+            122,
+            133,
+            144,
+            155,
+            167,
+            178,
+            189,
+            200,
+            214,
+            230,
+            250
+          ]
+        },
+        {
+          "name": "DMG Multiplier of Solidification Applied",
+          "unit": "%",
+          "values": [
+            67,
+            73,
+            80,
+            87,
+            93,
+            100,
+            107,
+            113,
+            120,
+            128,
+            138,
+            150
+          ]
+        },
+        {
+          "name": "Bonus DMG Multiplier per Infliction Stack",
+          "unit": "%",
+          "values": [
+            89,
+            98,
+            107,
+            116,
+            124,
+            133,
+            142,
+            151,
+            160,
+            171,
+            185,
+            200
+          ]
+        },
+        {
+          "name": "Stagger",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "Ultimate Energy from Solidification Applied",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "Additional Ultimate Energy Gain per Infliction Stack",
+          "values": [
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30
+          ]
+        }
+      ]
+    },
+    "combo_skill": {
+      "name": "Flashfreezer υ37",
+      "stats": [
+        {
+          "name": "Cooldown",
+          "values": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            19,
+            19,
+            19,
+            18
+          ]
+        },
+        {
+          "name": "Duration (s)",
+          "values": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "name": "Number of Energy Releases",
+          "values": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "name": "Energy DMG Multiplier",
+          "unit": "%",
+          "values": [
+            45,
+            49,
+            54,
+            58,
+            62,
+            67,
+            71,
+            76,
+            80,
+            86,
+            93,
+            100
+          ]
+        },
+        {
+          "name": "Explosion DMG Multiplier",
+          "unit": "%",
+          "values": [
+            89,
+            98,
+            107,
+            116,
+            125,
+            134,
+            142,
+            151,
+            160,
+            171,
+            185,
+            200
+          ]
+        },
+        {
+          "name": "Explosion Stagger",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "Ultimate Energy Gain",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "Additional Ultimate Energy Gain",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ]
+    },
+    "ultimate": {
+      "name": "Cryoblasting Pistolier",
+      "stats": [
+        {
+          "name": "Ultimate Energy Cost",
+          "values": [
+            220,
+            220,
+            220,
+            220,
+            220,
+            220,
+            220,
+            220,
+            220,
+            220,
+            220,
+            220
+          ]
+        },
+        {
+          "name": "Duration (s)",
+          "values": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7
+          ]
+        },
+        {
+          "name": "BATK DMG Multiplier",
+          "unit": "%",
+          "values": [
+            8.9,
+            9.8,
+            10.7,
+            11.6,
+            12.5,
+            13.4,
+            14.3,
+            15.1,
+            16,
+            17.2,
+            18.5,
+            20
+          ]
+        },
+        {
+          "name": "Enhanced Final Strike DMG Multiplier",
+          "unit": "%",
+          "values": [
+            133,
+            147,
+            160,
+            173,
+            186,
+            200,
+            213,
+            226,
+            240,
+            256,
+            276,
+            300
+          ]
+        },
+        {
+          "name": "Additional ATK DMG Multiplier",
+          "unit": "%",
+          "values": [
+            267,
+            294,
+            320,
+            347,
+            374,
+            400,
+            427,
+            454,
+            480,
+            514,
+            554,
+            600
+          ]
+        },
+        {
+          "name": "Enhanced Final Strike Stagger",
+          "values": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ]
+        },
+        {
+          "name": "Max Stacks",
+          "values": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "Critical Rate Boost per Stack",
+          "unit": "%",
+          "values": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "name": "Critical DMG Boost at Max Stacks",
+          "unit": "%",
+          "values": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        }
+      ]
+    }
+  }
+}
