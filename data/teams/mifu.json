@@ -1745,12 +1745,12 @@
       ],
       "cons": [
         {
-          "es": "Umbral de recarga exigente en Alesh: ~204.82% incluso a P4 para una Ultimate por ronda.",
-          "en": "Demanding recharge threshold on Alesh: ~204.82% even at P4 for one Ultimate per round."
+          "es": "Umbral de recarga exigente en Alesh: 240.96% a P0 y ~204.82% a P4 para una Ultimate por ronda.",
+          "en": "Demanding recharge threshold on Alesh: 240.96% at P0 and ~204.82% at P4 for one Ultimate per round."
         },
         {
-          "es": "Estella necesita cerrar su recarga: una pieza artificiada, o un arma de carga (umbral 182.61%).",
-          "en": "Estella needs to close her recharge: one artificed piece, or a charge weapon (182.61% threshold)."
+          "es": "Estella necesita cerrar su recarga (237.29% a P0 → 182.61% a P5): una pieza artificiada o un arma de carga.",
+          "en": "Estella needs to close her recharge (237.29% at P0 → 182.61% at P5): one artificed piece or a charge weapon."
         },
         {
           "es": "La tercera ronda espera a que la Ultimate de Alesh vuelva, idealmente con una barra de SP o más.",
@@ -1965,18 +1965,34 @@
       "skillPriority": [
         {
           "charId": "mifu",
-          "order": "Battle Skill",
+          "order": "Battle Skill (espec. 3) > Ultimate = Combo = Basic Attack",
           "note": {
-            "es": "La subida principal va a su Battle Skill.",
-            "en": "The main investment goes into her Battle Skill."
+            "es": "La subida principal va a su Battle Skill, con especialización 3 recomendada.",
+            "en": "The main investment goes into her Battle Skill, with specialization 3 recommended."
+          }
+        },
+        {
+          "charId": "chenqianyu",
+          "order": "Ultimate (espec. 3) > Basic Attack > Combo = Battle Skill",
+          "note": {
+            "es": "Su Ultimate (la que guardas para el Stagger) es su subida principal.",
+            "en": "Her Ultimate (the one you save for Stagger) is her main investment."
           }
         },
         {
           "charId": "estella",
-          "order": "Combo Skill",
+          "order": "Combo Skill > el resto",
           "note": {
             "es": "Solo su Combo: a rango 1–9 da 10% de Physical Susceptibility al equipo; con especialización 1 o más, 15%. El resto puede quedarse sin subir.",
             "en": "Only her Combo: at rank 1–9 it gives the team 10% Physical Susceptibility; at specialization 1 or higher, 15%. The rest can stay unleveled."
+          }
+        },
+        {
+          "charId": "alesh",
+          "order": "Combo Skill y Ultimate",
+          "note": {
+            "es": "Combo a nivel 6, especialización 1 o 3; Ultimate a nivel 9, especialización 1. El resto sin subir.",
+            "en": "Combo at level 6, specialization 1 or 3; Ultimate at level 9, specialization 1. Nothing else."
           }
         }
       ],
@@ -1990,8 +2006,8 @@
           "en": "Starting round three without Alesh's Ultimate ready and at least one SP bar."
         },
         {
-          "es": "Ignorar los umbrales de recarga: Alesh ~204.82% incluso a P4; Estella 182.61% si va sin pieza artificiada.",
-          "en": "Ignoring the recharge thresholds: Alesh ~204.82% even at P4; Estella 182.61% if she runs without an artificed piece."
+          "es": "Ignorar los umbrales de recarga: Alesh 240.96% a P0 (~204.82% a P4); Estella 237.29% a P0 (182.61% a P5).",
+          "en": "Ignoring the recharge thresholds: Alesh 240.96% at P0 (~204.82% at P4); Estella 237.29% at P0 (182.61% at P5)."
         }
       ],
       "vsOtherComps": [
@@ -2018,12 +2034,12 @@
             "swordmancer_nav_beacon"
           ],
           "weaponNote": {
-            "es": "Arma promocional (Amaranthine Tassel) > Exemplar > Phantom Pain.",
-            "en": "Signature weapon (Amaranthine Tassel) > Exemplar > Phantom Pain."
+            "es": "Arma promocional (Amaranthine Tassel; a P5 rinde ≈115% de su P0) > Exemplar (a P0 ≈90% de la promocional; a P5, 95–100%) > Phantom Pain (a P0, 80–85%; a P5, 85–90%). Cifras medidas como aporte de fuerza al equipo.",
+            "en": "Signature weapon (Amaranthine Tassel; at P5 it performs ≈115% of its P0) > Exemplar (at P0 ≈90% of the signature; at P5, 95–100%) > Phantom Pain (at P0, 80–85%; at P5, 85–90%). Figures measured as strength contributed to the team."
           },
           "gearNote": {
-            "es": "3 piezas de Grizzled Edge + Swordmancer NAV Beacon. Un build que puedes artificiar con confianza.",
-            "en": "3pc Grizzled Edge + Swordmancer NAV Beacon. A build you can artifice with confidence."
+            "es": "3 piezas de Grizzled Edge (Armor, Gauntlets, Push Knife) + Swordmancer NAV Beacon. Un build que puedes artificiar con confianza — prioriza las líneas de stats 1 y 3.",
+            "en": "3pc Grizzled Edge (Armor, Gauntlets, Push Knife) + Swordmancer NAV Beacon. A build you can artifice with confidence — prioritize stat lines 1 and 3."
           },
           "deepNote": {
             "es": "El único núcleo del equipo: aunque la comp se llame rompehielo, la mayor parte del daño es suyo. Su Ultimate queda libre para reponer capas de Vulnerability o completar el Stagger.",
@@ -2033,45 +2049,66 @@
         {
           "id": "chenqianyu",
           "role": "Enabler",
-          "gearRec": null,
+          "gearRec": [
+            "type_50_yinglung_heavy_armor_t1",
+            "swordmancer_tac_gauntlets",
+            "swordmancer_dagger",
+            "swordmancer_dagger"
+          ],
           "gearNote": {
-            "es": "A un equipo físico le conviene tener uno o dos operadores con set Swordmancer: Chen lo viste completo, con armadura de recarga o de daño físico — cualquiera de las dos vale. El video no fija arma para ella.",
-            "en": "A physical team wants one or two Swordmancer wearers: Chen wears the full set, with a recharge or a physical-damage armor — either works. The video doesn't lock in a weapon for her."
+            "es": "Type 50 Yinglung Heavy Armor T1 (recarga) + Swordmancer TAC Gauntlets + 2× Swordmancer Dagger. A un equipo físico le conviene tener uno o dos operadores con set Swordmancer; la armadura también puede ser de daño físico. Prioriza artificiar las líneas 1 y 3.",
+            "en": "Type 50 Yinglung Heavy Armor T1 (recharge) + Swordmancer TAC Gauntlets + 2× Swordmancer Dagger. A physical team wants one or two Swordmancer wearers; the armor can also be a physical-damage one. Prioritize artificing stat lines 1 and 3."
           },
           "deepNote": {
             "es": "Aporta la 2ª y 3ª Vulnerability con Combo y Battle Skill. Su Ultimate no entra al bucle: guárdala para el Stagger del boss, donde pega más.",
             "en": "She supplies the 2nd and 3rd Vulnerability with Combo and Battle Skill. Her Ultimate stays out of the loop: save it for the boss's Stagger, where it hits harder."
+          },
+          "weaponId": "wpn_sword_0017",
+          "weaponNote": {
+            "es": "Cuatro stat sticks: Glorious Memory, Rapid Ascent, Sundering Steel o Eminent Repute.",
+            "en": "Four stat sticks: Glorious Memory, Rapid Ascent, Sundering Steel or Eminent Repute."
           }
         },
         {
           "id": "estella",
           "role": "Enabler",
-          "gearRec": null,
+          "gearRec": [
+            "swordmancer_light_armor",
+            "eternal_xiranite_gloves_t1",
+            "eternal_xiranite_auxiliary_arm",
+            "eternal_xiranite_auxiliary_arm"
+          ],
           "weaponNote": {
-            "es": "Su arma casi no importa: a nivel 1 basta. Si no quieres artificiar la pieza de recarga, dale Chimeric Justice o Beacon of Duty (traen recarga de serie; umbral a desarrollo pleno 182.61%) y el gear queda sin artificing.",
-            "en": "Her weapon barely matters: level 1 is enough. If you don't want to artifice the recharge piece, give her Chimeric Justice or Beacon of Duty (they carry recharge natively; 182.61% threshold at full development) and the gear needs no artificing."
+            "es": "Su promocional (OBJ Razorhorn) primero; JET solo aprovecha una o dos líneas. Si no quieres artificiar la pieza de recarga, dale un arma de carga: Chimeric Justice o Beacon of Duty.",
+            "en": "Her signature (OBJ Razorhorn) first; JET only benefits from one or two lines. If you don't want to artifice the recharge piece, give her a charge weapon: Chimeric Justice or Beacon of Duty."
           },
           "gearNote": {
-            "es": "3 piezas de Eternal Xiranite + armadura Swordmancer de recarga: encaja su atributo principal y le da una Ultimate por ronda. El set completo queda un pelo corto de recarga — con artificiar UNA pieza alcanza.",
-            "en": "3pc Eternal Xiranite + a Swordmancer recharge armor: it fits her main attribute and gives her one Ultimate per round. The full set falls a hair short on recharge — artificing ONE piece is enough."
+            "es": "Swordmancer Light Armor (recarga) + Eternal Xiranite Gloves T1 + 2× Eternal Xiranite Auxiliary Arm: encaja su atributo principal y le da una Ultimate por ronda. Umbral de recarga: 237.29% a P0 · 213.56% a P2 · 182.61% a P5 — con el set completo falta un pelo: artificia UNA pieza, o cúbrelo con el arma de carga.",
+            "en": "Swordmancer Light Armor (recharge) + Eternal Xiranite Gloves T1 + 2× Eternal Xiranite Auxiliary Arm: fits her main attribute and gives her one Ultimate per round. Recharge threshold: 237.29% at P0 · 213.56% at P2 · 182.61% at P5 — the full set falls a hair short: artifice ONE piece, or cover it with the charge weapon."
           },
           "deepNote": {
             "es": "Aquí es una herramienta de Vulnerability: su Combo pone la 1ª capa (y 10–15% de Physical Susceptibility al equipo según el rango) y su Ultimate la 4ª. En arranque frío, su Battle Skill abre la ronda con la Cryo Infliction.",
             "en": "Here she is a Vulnerability tool: her Combo supplies the 1st layer (plus 10–15% team Physical Susceptibility depending on rank) and her Ultimate the 4th. On cold starts, her Battle Skill opens the round with the Cryo Infliction."
-          }
+          },
+          "weaponId": "wpn_lance_0013"
         },
         {
           "id": "alesh",
           "role": "Buffer",
           "weaponId": "wpn_sword_0007",
-          "gearRec": null,
+          "gearRec": [
+            "redeemer_armor",
+            "eternal_xiranite_gloves",
+            "redeemer_seal",
+            "redeemer_seal"
+          ],
           "weaponNote": {
             "es": "Fortmaker trae recarga de serie y reduce el artificing necesario. Con Thermite Cutter (sin línea de recarga) tendrás que artificiar algo más de gear para compensar.",
             "en": "Fortmaker carries recharge natively and reduces the artificing needed. With Thermite Cutter (no recharge line) you'll have to artifice a bit more gear to compensate."
           },
           "gearNote": {
-            "es": "Piezas sueltas de recarga + guantes de Eternal Xiranite. Apila recarga y también Intellect: sube la probabilidad de pescar el Rare Fin de su Combo (el buff de ATK para todo el equipo). Su umbral es muy alto: ~204.82% incluso a P4 para una Ultimate por ronda — cuerpo entero de recarga.",
-            "en": "Loose recharge pieces + Eternal Xiranite gloves. Stack recharge and also Intellect: it raises the chance of fishing the Rare Fin on her Combo (the team-wide ATK buff). Her threshold is very high: ~204.82% even at P4 for one Ultimate per round — full-body recharge."
+            "es": "Redeemer Armor + Eternal Xiranite Gloves + 2× Redeemer Seal — todo con recarga. Apila también Intellect: sube la probabilidad de pescar el Rare Fin de su Combo (el buff de ATK para todo el equipo). Umbral de esta rotación: 240.96% a P0 · ~204.82% a P4 — cuerpo entero de recarga.",
+            "en": "Redeemer Armor + Eternal Xiranite Gloves + 2× Redeemer Seal — all recharge. Also stack Intellect: it raises the chance of fishing the Rare Fin on her Combo (the team-wide ATK buff). This rotation's threshold: 240.96% at P0 · ~204.82% at P4 — full-body recharge."
           },
           "deepNote": {
             "es": "La congeladora del equipo: su Ultimate deja la Cryo Infliction y su Battle Skill la detona (Solidification), procando además los Combos. Su Combo devuelve SP y puede pescar el buff de ATK de equipo.",
@@ -2081,8 +2118,8 @@
       ],
       "equipment": {
         "intro": {
-          "es": "Todo gira alrededor de dos umbrales de recarga: Estella y Alesh necesitan su Ultimate cada ronda. Mi Fu va a daño puro; Chen viste Swordmancer por el equipo.",
-          "en": "Everything revolves around two recharge thresholds: Estella and Alesh need their Ultimate every round. Mi Fu goes pure damage; Chen wears Swordmancer for the team."
+          "es": "Todo gira alrededor de dos umbrales de recarga: Estella y Alesh necesitan su Ultimate cada ronda. Mi Fu va a daño puro; Chen viste Swordmancer por el equipo. Al artificiar, prioriza las líneas de stats 1 y 3.",
+          "en": "Everything revolves around two recharge thresholds: Estella and Alesh need their Ultimate every round. Mi Fu goes pure damage; Chen wears Swordmancer for the team. When artificing, prioritize stat lines 1 and 3."
         },
         "alts": [
           {
