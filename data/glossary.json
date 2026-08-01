@@ -174,7 +174,7 @@
       "cat": "mechanic",
       "match": ["vulnerability", "vulnerabilidad"],
       "label": { "es": "Vulnerability", "en": "Vulnerability" },
-      "body": { "es": "Marca con stacks (máx 4) que dejan los ataques físicos, Lift y Knock Down sobre el enemigo. Crush y Breach los consumen todos de golpe para pegar daño Physical masivo. Es el recurso central de las comps físicas.", "en": "Stacks (max 4) left on the enemy by Physical attacks, Lift and Knock Down. Crush and Breach consume them all at once for massive Physical DMG. The central resource of Physical comps." }
+      "body": { "es": "Marca con stacks (máx 4) que dejan sobre el enemigo los ataques físicos CON estado (los que lo declaran en su descripción), Lift y Knock Down — no cualquier golpe físico. Crush y Breach los consumen todos de golpe para pegar daño Physical masivo. Es el recurso central de las comps físicas.", "en": "Stacks (max 4) left on the enemy by Physical attacks that CARRY a status (the ones that declare it in their description), Lift and Knock Down — not every Physical hit. Crush and Breach consume them all at once for massive Physical DMG. The central resource of Physical comps." }
     },
     {
       "id": "final_strike",
@@ -195,14 +195,14 @@
       "cat": "mechanic",
       "match": ["corrosion", "corrosión"],
       "label": { "es": "Corrosion", "en": "Corrosion" },
-      "body": { "es": "La reacción de Nature: baja la RESISTENCIA del enemigo con el tiempo (con rampa), así que recibe más daño elemental. Motor de las comps de Nature y un amplificador para el resto del equipo. (La DEFENSA no se reduce en Endfield — es 100 fija; Corrosión toca la resistencia, no la DEF.)", "en": "The Nature reaction: lowers the enemy's RESISTANCE over time (ramping up), so it takes more elemental damage. The engine of Nature comps and an amplifier for the rest of the team. (DEFENSE is never reduced in Endfield — it's a fixed 100; Corrosion touches resistance, not DEF.)" }
+      "body": { "es": "La reacción de Nature: baja la RESISTENCIA del enemigo y NO es plana — el shred CRECE cada segundo hasta un tope según su nivel, y en todos los niveles toca techo a los 10 s (el tope dura los últimos 5 s de 15). El pico de daño del equipo está en esa ventana: aplícala ~10 s antes del burst. (La DEFENSA no se reduce en Endfield — es 100 fija; Corrosión toca la resistencia, no la DEF.)", "en": "The Nature reaction: lowers the enemy RESISTANCE and it is NOT flat — the shred GROWS every second up to a cap set by its level, hitting the ceiling at 10 s on every level (the cap lasts the final 5 s of 15). The team damage peak sits in that window: apply it ~10 s before the burst. (DEFENSE is never reduced in Endfield — a fixed 100; Corrosion touches resistance, not DEF.)" }
     },
     {
       "id": "solidification",
       "cat": "mechanic",
       "match": ["solidification", "solidificación", "solidificacion"],
       "label": { "es": "Solidification", "en": "Solidification" },
-      "body": { "es": "La reacción de Cryo: congela por completo al enemigo y lo frena. Un enemigo Solidificado se puede romper con daño Physical (Shatter) para un golpe enorme. Es el núcleo de las comps de hielo (Yvonne, Last Rite).", "en": "The Cryo reaction: fully freezes the enemy and stops it. A Solidified enemy can be broken with Physical damage (Shatter) for a huge hit. The core of ice comps (Yvonne, Last Rite)." }
+      "body": { "es": "La reacción de Cryo: inmoviliza por completo al enemigo (no puede moverse ni actuar) durante unos segundos — más nivel, más duración. Un enemigo Solidificado se puede romper con daño Physical (Shatter) para un golpe enorme que además termina el congelamiento. Es el núcleo de las comps de hielo (Yvonne, Last Rite).", "en": "The Cryo reaction: fully immobilizes the enemy (it cannot move or act) for a few seconds — higher level, longer duration. A Solidified enemy can be broken with Physical damage (Shatter) for a huge hit that also ends the freeze. The core of ice comps (Yvonne, Last Rite)." }
     },
     {
       "id": "electrification",
@@ -244,42 +244,42 @@
       "cat": "mechanic",
       "match": ["heat infliction"],
       "label": { "es": "Imp. de cal.", "en": "Heat Infliction", "jp": "灼熱付着", "zh": "灼热附着" },
-      "body": { "es": "El estado elemental de Heat sobre el enemigo. Al combinarse con otra Infliction dispara Combustion (explosión + daño por segundo). La chispa de las comps de fuego.", "en": "The Heat elemental status on the enemy. Combined with another Infliction it triggers Combustion (explosion + damage-over-time). The spark of fire comps." }
+      "body": { "es": "El estado elemental de Heat sobre el enemigo (stacks, máx 4). Un golpe de OTRO elemento lo consume y dispara SU reacción; aplicar Heat sobre otra Infliction dispara Combustion (explosión + daño por segundo). La chispa de las comps de fuego.", "en": "The Heat elemental status on the enemy (stacks, max 4). A hit of ANOTHER element consumes it and triggers ITS reaction; applying Heat onto another Infliction triggers Combustion (explosion + damage-over-time). The spark of fire comps." }
     },
     {
       "id": "cryo_infliction",
       "cat": "mechanic",
       "match": ["cryo infliction"],
       "label": { "es": "Imp. crio.", "en": "Cryo Infliction", "jp": "寒冷付着", "zh": "寒冷附着" },
-      "body": { "es": "El estado elemental de Cryo. Acumularlo lleva a Solidification (congela al enemigo), que luego se rompe con daño Physical (Shatter). Núcleo de las comps de hielo.", "en": "The Cryo elemental status. Stacking it leads to Solidification (freezes the enemy), later broken with Physical damage (Shatter). Core of ice comps." }
+      "body": { "es": "El estado elemental de Cryo (stacks, máx 4). Por sí solo NO congela: aplicar Cryo sobre la Infliction de OTRO elemento dispara Solidification (inmoviliza), y kits como el de Yvonne la fuerzan consumiendo este estado. Un Solidificado se rompe con daño Physical (Shatter). Núcleo de las comps de hielo.", "en": "The Cryo elemental status (stacks, max 4). On its own it does NOT freeze: applying Cryo onto ANOTHER element Infliction triggers Solidification (immobilizes), and kits like Yvonne can force it by consuming this status. A Solidified enemy breaks with Physical damage (Shatter). Core of ice comps." }
     },
     {
       "id": "electric_infliction",
       "cat": "mechanic",
       "match": ["electric infliction"],
       "label": { "es": "Imp. elec.", "en": "Electric Infliction", "jp": "電磁付着", "zh": "电磁附着" },
-      "body": { "es": "El estado elemental de Electric. Lleva a Electrification, que hace que el enemigo reciba más Arts DMG de tus ataques.", "en": "The Electric elemental status. Leads to Electrification, making the enemy take more Arts DMG from your attacks." }
+      "body": { "es": "El estado elemental de Electric (stacks, máx 4). Aplicar Electric sobre la Infliction de OTRO elemento dispara Electrification, que hace que el enemigo reciba más Arts DMG de tus ataques.", "en": "The Electric elemental status (stacks, max 4). Applying Electric onto ANOTHER element Infliction triggers Electrification, making the enemy take more Arts DMG from your attacks." }
     },
     {
       "id": "nature_infliction",
       "cat": "mechanic",
       "match": ["nature infliction"],
       "label": { "es": "Imp. de nat.", "en": "Nature Infliction", "jp": "自然付着", "zh": "自然附着" },
-      "body": { "es": "El estado elemental de Nature. Lleva a Corrosion, que reduce la DEF del enemigo (recibe más daño de todo).", "en": "The Nature elemental status. Leads to Corrosion, lowering the enemy's DEF (it takes more damage from everything)." }
+      "body": { "es": "El estado elemental de Nature (stacks, máx 4). Aplicar Nature sobre la Infliction de OTRO elemento dispara Corrosion, que baja la RESISTENCIA del enemigo — la DEF nunca se reduce — y recibe más daño de todo el equipo.", "en": "The Nature elemental status (stacks, max 4). Applying Nature onto ANOTHER element Infliction triggers Corrosion, which lowers the enemy RESISTANCE — DEF is never reduced — so it takes more damage from the whole team." }
     },
     {
       "id": "arts_infliction",
       "cat": "mechanic",
       "match": ["arts infliction", "arts inflictions"],
       "label": { "es": "Imposición de artes", "en": "Arts Infliction", "jp": "アーツ付着", "zh": "法术附着" },
-      "body": { "es": "El estado de Aether/Arts sobre el enemigo. Alimenta las reacciones Arts; algunos operadores (p. ej. Rossi) lo consumen para daño o efectos extra.", "en": "The Aether/Arts status on the enemy. Feeds Arts reactions; some operators (e.g. Rossi) consume it for extra damage or effects." }
+      "body": { "es": "El término paraguas para la Infliction elemental no-física (Heat/Cryo/Electric/Nature) sobre el enemigo — lo que piden muchos combos (\"1 Arts Infliction\"). Solo puede haber UNA a la vez (máx 4 stacks); alimenta las reacciones Arts y algunos operadores (p. ej. Rossi) la consumen para daño o efectos extra.", "en": "The umbrella term for the non-physical elemental Infliction (Heat/Cryo/Electric/Nature) on the enemy — what many combos ask for (\"1 Arts Infliction\"). Only ONE can exist at a time (max 4 stacks); it feeds Arts reactions and some operators (e.g. Rossi) consume it for extra damage or effects." }
     },
     {
       "id": "physical_status",
       "cat": "mechanic",
       "match": ["physical status"],
       "label": { "es": "Estado físico", "en": "Physical Status", "jp": "物理異常", "zh": "物理异常" },
-      "body": { "es": "Los estados físicos del enemigo, sobre todo stacks de Vulnerability (de Lift, Knock Down y golpes físicos). Crush y Breach los consumen para daño Physical masivo.", "en": "The enemy's physical statuses, mainly Vulnerability stacks (from Lift, Knock Down and physical hits). Crush and Breach consume them for massive Physical DMG." }
+      "body": { "es": "Los estados físicos del enemigo, sobre todo stacks de Vulnerability (de Lift, Knock Down y los golpes físicos que declaran estado). Un estado físico siempre aplica Vulnerable primero y no dispara reacciones Arts. Crush y Breach los consumen para daño Physical masivo.", "en": "The physical statuses on the enemy, mainly Vulnerability stacks (from Lift, Knock Down and the Physical hits that declare a status). A physical status always applies Vulnerable first and does not trigger Arts reactions. Crush and Breach consume them for massive Physical DMG." }
     },
     {
       "id": "physical_susceptibility",
@@ -356,7 +356,7 @@
       "cat": "mechanic",
       "match": ["knock down", "knockdown"],
       "label": { "es": "Derribar", "en": "Knock Down", "jp": "転倒", "zh": "倒地" },
-      "body": { "es": "Control que derriba a los enemigos del área. Como golpe físico, también acumula Vulnerability.", "en": "Crowd-control that knocks down enemies in the area. As a physical hit, it also stacks Vulnerability." }
+      "body": { "es": "Control que derriba a los enemigos del área. Como estado físico, también acumula Vulnerability.", "en": "Crowd-control that knocks down enemies in the area. As a physical status, it also stacks Vulnerability." }
     },
     {
       "id": "link",
@@ -412,7 +412,7 @@
       "cat": "mechanic",
       "match": ["arts reaction"],
       "label": { "es": "Reacción a artes", "en": "Arts Reaction", "jp": "アーツ異常", "zh": "法术异常" },
-      "body": { "es": "La reacción del elemento Aether/Arts: un estado que se acumula sobre el objetivo y puede consumirse para daño o efectos extra.", "en": "The Aether/Arts elemental reaction: a state built on the target that can be consumed for extra damage or effects." }
+      "body": { "es": "El resultado de aplicar un elemento Arts sobre la Infliction de OTRO: Combustion, Electrification, Solidification o Corrosion, según el elemento ENTRANTE. Consume la Infliction previa (nivel = stacks consumidos; más nivel = más fuerte) y deja su estado un tiempo. Algunos kits (Wulfgard, Arcane) consumen una reacción activa para efectos extra.", "en": "The result of applying an Arts element onto the Infliction of ANOTHER: Combustion, Electrification, Solidification or Corrosion, named by the INCOMING element. It consumes the prior Infliction (level = stacks consumed; higher level = stronger) and leaves its status for a while. Some kits (Wulfgard, Arcane) consume an active reaction for extra effects." }
     },
     {
       "id": "lifted",
@@ -426,7 +426,7 @@
       "cat": "mechanic",
       "match": ["arts burst"],
       "label": { "es": "Ráfaga de artes", "en": "Arts Burst", "jp": "アーツ爆発", "zh": "法术爆发" },
-      "body": { "es": "Re-aplicar el MISMO elemento Arts sobre un objetivo ya afectado: detona un golpe extra fijo (≈160%) y suma un stack de inflicción (máx 4). No escala con el nº de inflicciones, a diferencia de la Arts Reaction de cambiar de elemento.", "en": "Re-applying the SAME Arts element on an already-afflicted target: detonates a fixed extra hit (~160%) and adds an infliction stack (max 4). Unlike a cross-element Arts Reaction, it doesn't scale with the number of inflictions." }
+      "body": { "es": "Re-aplicar el MISMO elemento Arts con su Infliction ya saturada (4 stacks): cada aplicación extra detona un golpe fijo (≈160%, puede critear). NO consume la Infliction ni escala con stacks, a diferencia de la Arts Reaction de cambiar de elemento. Mientras no esté saturada, re-aplicar solo apila.", "en": "Re-applying the SAME Arts element while its Infliction is already saturated (4 stacks): each extra application detonates a fixed hit (~160%, can crit). It does NOT consume the Infliction and does not scale with stacks, unlike the cross-element Arts Reaction. Below saturation, re-applying just stacks." }
     },
     {
       "id": "arts_intensity",
@@ -461,7 +461,7 @@
       "cat": "mechanic",
       "match": ["defense", "defensa", "def"],
       "label": { "es": "Defensa", "en": "Defense" },
-      "body": { "es": "Mitigación plana del objetivo. TODOS los enemigos tienen 100 de DEF base (−50% de daño) y no escala con nivel; sigue la curva 100/(DEF+100). Solo baja con Breach, que la lleva a NEGATIVO y dispara el daño.", "en": "The target's flat mitigation. ALL enemies have 100 base DEF (−50% damage) and it doesn't scale with level; follows the 100/(DEF+100) curve. Only Breach lowers it — pushing it NEGATIVE and spiking damage." }
+      "body": { "es": "Mitigación plana del objetivo. TODOS los enemigos tienen 100 de DEF base (−50% de daño), no escala con nivel y sigue la curva 100/(DEF+100). NUNCA se reduce: no existe shred de DEF en Endfield; el \"armor break\" del juego (Breach) no toca la DEF — deja al enemigo recibiendo más daño Physical un rato.", "en": "Flat mitigation on the target. ALL enemies have 100 base DEF (−50% damage), it does not scale with level and follows the 100/(DEF+100) curve. It is NEVER reduced: there is no DEF shred in Endfield; the in-game \"armor break\" (Breach) does not touch DEF — it leaves the enemy taking more Physical damage for a while." }
     },
     {
       "id": "crit",

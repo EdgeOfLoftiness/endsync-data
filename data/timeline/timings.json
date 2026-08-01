@@ -292,6 +292,109 @@
     }
    }
   },
+  "arcane": {
+   "skills": {
+    "basic": {
+     "segments": [
+      {
+       "duration": 0.417,
+       "hits": [
+        0.4
+       ]
+      },
+      {
+       "duration": 0.45,
+       "hits": [
+        0.333,
+        0.4,
+        0.417
+       ]
+      },
+      {
+       "duration": 0.733,
+       "hits": [
+        0.167,
+        0.433,
+        0.167
+       ]
+      },
+      {
+       "duration": 0.7,
+       "hits": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+       ]
+      },
+      {
+       "duration": 1.35,
+       "hits": [
+        0.7
+       ],
+       "spRec": 17
+      }
+     ]
+    },
+    "battle": {
+     "segments": [
+      {
+       "duration": 1.167,
+       "hits": [
+        0.617
+       ]
+      }
+     ]
+    },
+    "combo": {
+     "segments": [
+      {
+       "duration": 1,
+       "hits": [
+        0.5
+       ]
+      }
+     ],
+     "cooldown": 12
+    },
+    "ult": {
+     "segments": [
+      {
+       "duration": 2.417,
+       "hits": [
+        1.583
+       ]
+      }
+     ],
+     "cooldown": 20,
+     "energyCost": 100,
+     "animationTime": 1.583,
+     "enhancementTime": 20
+    },
+    "finisher": {
+     "segments": [
+      {
+       "duration": 1.5,
+       "gap": 0,
+       "hits": [
+        1.2
+       ]
+      }
+     ]
+    },
+    "dive": {
+     "segments": [
+      {
+       "duration": 1.2,
+       "gap": 0,
+       "hits": [
+        1
+       ]
+      }
+     ]
+    }
+   }
+  },
   "arclight": {
    "skills": {
     "basic": {
@@ -624,7 +727,7 @@
        "hits": [
         0.567
        ],
-       "spRec": 21
+       "spRec": 20
       }
      ]
     },
@@ -639,7 +742,7 @@
         1.833,
         2.633
        ],
-       "spRec": 20
+       "spRec": 40
       }
      ]
     },
@@ -650,13 +753,12 @@
        "hits": [
         0.667,
         1.133,
-        1.767,
-        2.167
+        1.767
        ],
        "spRec": 20
       }
      ],
-     "cooldown": 14
+     "cooldown": 18
     },
     "ult": {
      "segments": [
@@ -671,7 +773,7 @@
       }
      ],
      "cooldown": 20,
-     "energyCost": 90,
+     "energyCost": 130,
      "animationTime": 2.3
     },
     "finisher": {
@@ -2421,7 +2523,7 @@
     "combo": {
      "segments": [
       {
-       "duration": 1,
+       "duration": 0.75,
        "hits": [
         0.9
        ]

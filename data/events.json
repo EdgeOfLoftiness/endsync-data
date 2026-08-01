@@ -214,19 +214,24 @@
           "h": { "es": "Equipos recomendados", "en": "Recommended teams" },
           "note": { "es": "El operador con el marco de acento es la pieza clave. Toca cualquiera para ver su ficha; abre el Planner para construir la rotación.", "en": "The operator with the accent frame is the key piece. Tap any of them to open their page; use the Planner to build the rotation." },
           "items": [
-            { "name": { "es": "Gilberta + Wulfgard (núcleo AoE)", "en": "Gilberta + Wulfgard (AoE core)" }, "risk": "Risk 20", "ops": ["wulfgard", "gilberta", "laevatain", "akekuri"], "carry": "wulfgard",
-              "note": { "es": "El equipo más fuerte del juego ahora mismo. Gilberta agrupa a los enemigos y dispara el Combo Skill AoE de Wulfgard (su Battle Skill es single-target), así que su Combustion limpia oleadas enteras en segundos, y Tremor amplifica esa reacción. Encima Gilberta amplifica todo el daño Arts. Rellena con carries Heat (Laevatain, Akekuri). Wulfgard es gratis.", "en": "The strongest team in the game right now. Gilberta groups enemies and triggers Wulfgard's AoE Combo Skill (his Battle Skill is single-target), so his Combustion clears whole waves in seconds, and Tremor amplifies that reaction. On top of that Gilberta amplifies all Arts damage. Fill with Heat carries (Laevatain, Akekuri). Wulfgard is free." } },
-            { "name": { "es": "Estella Híbrido", "en": "Estella Hybrid" }, "risk": "Risk 20", "ops": ["estella", "rossi", "ember", "snowshine"], "carry": "estella",
-              "note": { "es": "El arranque más cómodo. Estella es inmune a varios criterios de Cryo y aporta Shatter; Rossi y Ember meten daño físico y Heat constante.", "en": "The comfiest start. Estella is immune to several Cryo criteria and brings Shatter; Rossi and Ember add steady Physical and Heat damage." } },
-            { "name": { "es": "Laevatain Hypercarry", "en": "Laevatain Hypercarry" }, "risk": "Risk 20", "ops": ["laevatain", "akekuri", "ardelia", "wulfgard"], "carry": "laevatain",
-              "note": { "es": "Núcleo de Heat y Combustion. Wulfgard es el enabler de Combustion que Tremor convierte en daño casi gratis.", "en": "Heat and Combustion core. Wulfgard is the Combustion enabler that Tremor turns into near-free damage." } },
-            { "name": { "es": "Mi Fu Mono-Físico", "en": "Mi Fu Mono-Physical" }, "risk": "Risk 20", "ops": ["mifu", "chenqianyu", "pogranichnik", "lifeng"], "carry": "mifu",
-              "note": { "es": "Crush puro. La BS3 de Mi Fu pega Crush, así que aguanta el nodo que recorta 60% del Battle Skill DMG mucho mejor que una carry de skill.", "en": "Pure Crush. Mi Fu's BS3 deals Crush, so she eats the node that cuts Battle Skill DMG by 60% far better than a skill carry." } },
-            { "name": { "es": "Zhuang Fangyi Doble DPS", "en": "Zhuang Fangyi Dual DPS" }, "risk": "Risk 20", "ops": ["zhuangfangyi", "perlica", "avywenna", "arclight"], "carry": "zhuangfangyi",
-              "note": { "es": "Comp eléctrica de reacción. Brilla con Overclock (menos cooldown de Combo Skill) para Electrification sin parar. OJO si tu daño vive de la Battle Skill: los nodos Key la recortan.", "en": "Electric reaction comp. Shines with Overclock (shorter Combo Skill cooldown) for nonstop Electrification. CAREFUL if your damage lives on Battle Skill: the Key nodes cut it." } },
             { "name": { "es": "Estella Combustion (alto riesgo)", "en": "Estella Combustion (high risk)" }, "risk": "Risk 40", "ops": ["estella", "laevatain", "wulfgard", "gilberta"], "carry": "estella",
               "note": { "es": "La comp de leaderboard. Doble fuente de Combustion y Gilberta amplificando todo el daño Arts. El roster solo no te lleva: hay que pilotarla bien.", "en": "The leaderboard comp. Double Combustion source and Gilberta amplifying all Arts damage. The roster alone won't carry you, you have to pilot it well." } }
           ]
+        },
+        { "type": "video",
+          "h": { "es": "La comp en acción", "en": "The comp in action" },
+          "title": "【危机合约】第一天首发 46分  42+狼卫 双燃烧打法思路",
+          "ch": "YZ-月咒",
+          "dur": "6:50",
+          "views": "414k",
+          "lang": "zh",
+          "source": "bilibili",
+          "url": "https://www.bilibili.com/video/BV1xnji6pE8C/",
+          "thumb": "https://i1.hdslb.com/bfs/archive/c9b06e0237e566d88c763395da140a75f8ec5793.jpg",
+          "note": {
+            "es": "Demostración del equipo más popular de la temporada en alta dificultad: 46 puntos el primer día del evento con la comp de fuego de doble Combustion.",
+            "en": "A demo of the most popular team of the season at high difficulty: 46 points on day one of the event with the double Combustion fire comp."
+          }
         },
         { "type": "criteria",
           "h": { "es": "Test Criteria de la temporada", "en": "Season Test Criteria" },

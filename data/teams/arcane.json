@@ -15,7 +15,7 @@
         "en": "Arcane carries with the \"main-C + 3 cheap supports\" scheme: Tangtang brings the off-element Arts Attach (Cryo), Xaihi buffs and healing, Gilberta gravity and Nature Susceptibility. All three need little investment, so resources go into Arcane."
       },
       "overview": {
-        "es": "La forma INT (INT total ≥ Will total, contando nivel, trust, potenciales y atributos de gear/arma) es el modo de daño: la battle skill pega más fuerte y el combo desbloquea la detonación de Imprison. El bucle: aplicar Nature Attach con la battle (o 2 capas de attach de otro elemento del equipo) → combo → el objetivo entra en Imprison 4 s con Nature y Cryo Susceptibility → golpearlo con la battle ANTES de que Imprison venza: corta la cámara lenta, devuelve SP, re-aplica las susceptibilidades y suelta un burst multi-golpe de hasta 500%. La ult fuerza Corrosion sobre el campo (15 s base, 25 s con el talento Weapon Honing) y, tras 2 golpes rápidos provocados con Final Strike o Finisher, desbloquea Gloompurge Arcana. El autor cifra el multiplicador total de la ult completa en ~2300% (dato aproximado del audio); con las tablas de Skport la suma base a rango máximo es 1980%, sin contar el burst del combo.",
+        "es": "La forma INT (INT total ≥ Will total, contando nivel, trust, potenciales y atributos de gear/arma) es el modo de daño: la battle skill pega más fuerte y el combo desbloquea la detonación de Imprison. El bucle: aplicar Nature Attach con la battle (o 2 capas de attach de otro elemento del equipo) → combo → el objetivo entra en Imprison 4 s con Nature y Cryo Susceptibility → golpearlo con la battle ANTES de que Imprison venza: corta la cámara lenta, devuelve SP, re-aplica las Susceptibilities y suelta un burst multi-golpe de hasta 500%. La ult fuerza Corrosion sobre el campo (15 s base, 25 s con el talento Weapon Honing) y, tras 2 golpes rápidos provocados con Final Strike o Finisher, desbloquea Gloompurge Arcana. El autor cifra el multiplicador total de la ult completa en ~2300% (dato aproximado del audio); con las tablas de Skport la suma base a rango máximo es 1980%, sin contar el burst del combo.",
         "en": "The INT form (total INT ≥ total Will, counting level, trust, potentials and gear/weapon attributes) is the damage mode: the battle skill hits harder and the combo unlocks the Imprison detonation. The loop: apply Nature Attach with the battle skill (or 2 off-element stacks from the team) → combo → the target enters Imprison for 4s with Nature and Cryo Susceptibility → hit it with the battle skill BEFORE Imprison expires: it cuts the slow-mo short, refunds SP, re-applies the susceptibilities and unloads a multi-hit burst of up to 500%. The ultimate forces Corrosion on the field (15s base, 25s with the Weapon Honing talent) and, after 2 rapid strikes triggered by Final Strikes or Finishers, unlocks Gloompurge Arcana. The author quotes the full ultimate at ~2300% total multiplier (approximate figure from the audio); per the Skport tables the base sum at max rank is 1980%, not counting the combo burst."
       },
       "playstyle": {
@@ -41,7 +41,7 @@
       "whyItWorks": [
         {
           "title": { "es": "El bucle de Imprison", "en": "The Imprison loop" },
-          "body": { "es": "El combo pide Nature Attach o 2+ capas de un Arts Attach que no sea Nature. Al salir, aplica Nature y Cryo Susceptibility y mete al objetivo en Imprison (cámara lenta, 4 s). Si no haces nada, al vencer explota solo; el juego de la forma INT es golpear con la battle skill al objetivo en Imprison: termina la cámara lenta al instante, devuelve SP, re-aplica ambas susceptibilidades y tras un breve retraso cae un burst multi-golpe (222→500% por rango).", "en": "The combo asks for Nature Attach or 2+ stacks of a non-Nature Arts Attach. On cast it applies Nature and Cryo Susceptibility and puts the target into Imprison (slow-mo, 4s). Left alone it explodes on expiry; the INT-form game is hitting the Imprisoned target with the battle skill: it ends the slow-mo instantly, refunds SP, re-applies both susceptibilities and after a short delay drops a multi-hit burst (222→500% by rank)." }
+          "body": { "es": "El combo pide Nature Attach o 2+ capas de un Arts Attach que no sea Nature. Al salir, aplica Nature y Cryo Susceptibility y mete al objetivo en Imprison (cámara lenta, 4 s). Si no haces nada, al vencer explota solo; el juego de la forma INT es golpear con la battle skill al objetivo en Imprison: termina la cámara lenta al instante, devuelve SP, re-aplica ambas Susceptibilities y tras un breve retraso cae un burst multi-golpe (222→500% por rango).", "en": "The combo asks for Nature Attach or 2+ stacks of a non-Nature Arts Attach. On cast it applies Nature and Cryo Susceptibility and puts the target into Imprison (slow-mo, 4s). Left alone it explodes on expiry; the INT-form game is hitting the Imprisoned target with the battle skill: it ends the slow-mo instantly, refunds SP, re-applies both susceptibilities and after a short delay drops a multi-hit burst (222→500% by rank)." }
         },
         {
           "title": { "es": "Corrosion con herencia de valores", "en": "Corrosion with value inheritance" },
@@ -63,7 +63,7 @@
         },
         {
           "phase": { "es": "Imprison y detonación", "en": "Imprison and detonation" },
-          "action": { "es": "Combo de Arcane → Imprison 4 s → battle skill ANTES de que venza: SP de vuelta, susceptibilidades re-aplicadas y burst multi-golpe.", "en": "Arcane's combo → 4s Imprison → battle skill BEFORE it expires: SP back, susceptibilities re-applied and the multi-hit burst." },
+          "action": { "es": "Combo de Arcane → Imprison 4 s → battle skill ANTES de que venza: SP de vuelta, Susceptibilities re-aplicadas y burst multi-golpe.", "en": "Arcane's combo → 4s Imprison → battle skill BEFORE it expires: SP back, susceptibilities re-applied and the multi-hit burst." },
           "steps": [
             { "do": { "es": "Combo de Arcane: Nature + Cryo Susceptibility e Imprison sobre el objetivo.", "en": "Arcane's combo: Nature + Cryo Susceptibility and Imprison on the target." }, "who": "arcane", "key": true },
             { "do": { "es": "Battle skill de Arcane sobre el objetivo en Imprison: detonación + burst.", "en": "Arcane's battle skill on the Imprisoned target: detonation + burst." }, "who": "arcane", "key": true },
@@ -165,7 +165,7 @@
         "en": "Last Rite's Cryo team (with Tangtang and Xaihi) is one of the most-played of the patch, and Arcane's arrival in WILL form genuinely strengthens it: she takes the 4th slot as an \"upgraded Fluorite\" (extra Cryo stacks via combo and ultimate), but her combo triggers more easily and she also brings Nature and Cryo Susceptibility, gravity and the Imprison slow-mo. The axis is formulaic: the same sequence start to finish, no improvising."
       },
       "overview": {
-        "es": "La forma WILL (Will total > INT total) es el modo soporte: el combo se gatilla con UNA capa cualquiera de Arts Attach, Imprison dura 6 s, agrupa a los enemigos y re-aplica una capa del MISMO elemento del attach que lo gatilló — en este equipo, Cryo. Las susceptibilidades escalan con el Will de Arcane: el combo suma hasta +8% y la ult (Tactical Planning 2) aplica [Will × 0.02%] de Nature y Cryo Susceptibility con tope 12.8% a 640 de Will. La lógica de daño es simple: dejar 3-4 capas de Cryo sobre el enemigo, gatillar el combo de Last Rite y que Last Rite \"coma\" esas capas para reventar. Arcane fabrica dos de las capas (combo + ult) y sube ambas susceptibilidades. Main-control (a quién pilotas): Last Rite o Tangtang maximizan daño porque reciben el amp de la battle skill de Xaihi; pilotar a Arcane no recibe ese amp pero es más cómodo — tú eliges.",
+        "es": "La forma WILL (Will total > INT total) es el modo soporte: el combo se gatilla con UNA capa cualquiera de Arts Attach, Imprison dura 6 s, agrupa a los enemigos y re-aplica una capa del MISMO elemento del attach que lo gatilló — en este equipo, Cryo. Las Susceptibilities escalan con el Will de Arcane: el combo suma hasta +8% y la ult (Tactical Planning 2) aplica [Will × 0.02%] de Nature y Cryo Susceptibility con tope 12.8% a 640 de Will. La lógica de daño es simple: dejar 3-4 capas de Cryo sobre el enemigo, gatillar el combo de Last Rite y que Last Rite \"coma\" esas capas para reventar. Arcane fabrica dos de las capas (combo + ult) y sube ambas Susceptibilities. Main-control (a quién pilotas): Last Rite o Tangtang maximizan daño porque reciben el amp de la battle skill de Xaihi; pilotar a Arcane no recibe ese amp pero es más cómodo — tú eliges.",
         "en": "The WILL form (total Will > total INT) is the support mode: the combo triggers off ANY single Arts Attach stack, Imprison lasts 6s, groups enemies and re-applies a stack of the SAME element as the attach that triggered it — Cryo in this team. The susceptibilities scale with Arcane's Will: the combo adds up to +8% and the ultimate (Tactical Planning 2) applies [Will × 0.02%] Nature and Cryo Susceptibility capped at 12.8% at 640 Will. The damage logic is simple: leave 3-4 Cryo stacks on the enemy, trigger Last Rite's combo and let Last Rite \"eat\" those stacks to burst. Arcane manufactures two of the stacks (combo + ultimate) and raises both susceptibilities. Main-control (who you pilot): Last Rite or Tangtang maximize damage because they receive Xaihi's battle-skill amp; piloting Arcane misses that amp but is comfier — your call."
       },
       "playstyle": {
@@ -184,7 +184,7 @@
         { "es": "El video trae builds afinadas para los cuatro (no solo para Arcane) y ejes de recarga estables.", "en": "The video brings tuned builds for all four (not just Arcane) and steady recharge axes." }
       ],
       "cons": [
-        { "es": "El tope de 12.8% de susceptibilidad pide 640 de Will; a full artificing la build llega a 636 (muy cerca, pero no lo clava).", "en": "The 12.8% susceptibility cap wants 640 Will; at full artificing the build reaches 636 (very close, but not quite there)." },
+        { "es": "El tope de 12.8% de Susceptibility pide 640 de Will; a full artificing la build llega a 636 (muy cerca, pero no lo clava).", "en": "The 12.8% susceptibility cap wants 640 Will; at full artificing the build reaches 636 (very close, but not quite there)." },
         { "es": "La battle skill de Last Rite hay que colocarla TARDE en cada vuelta (para comer el set Tide Surge y el efecto del arma promocional): si la sueltas al abrir, la pierdes.", "en": "Last Rite's battle skill must go LATE in each pass (to catch the Tide Surge set and the signature weapon effect): drop it on the opening and you lose it." },
         { "es": "El burst pide cerrar SIEMPRE con el 2º tramo del ult de Arcane; si lo olvidas, no cargas su siguiente ult.", "en": "The burst requires ALWAYS closing with Arcane's 2nd ultimate stage; forget it and you fail to charge her next ultimate." }
       ],
@@ -194,7 +194,7 @@
           "body": { "es": "El combo WILL re-aplica una capa del MISMO elemento del Arts Attach que lo gatilló, y la ult WILL hace lo mismo sobre su área: en un equipo Cryo, Arcane fabrica capas de Cryo para las reacciones del main-C sin ser Cryo ella misma.", "en": "The WILL combo re-applies a stack of the SAME element as the Arts Attach that triggered it, and the WILL ultimate does the same on its area: in a Cryo team, Arcane manufactures Cryo stacks for the main-C's reactions without being Cryo herself." }
         },
         {
-          "title": { "es": "Susceptibilidad escalada por Will", "en": "Will-scaled susceptibility" },
+          "title": { "es": "Susceptibility escalada por Will", "en": "Will-scaled susceptibility" },
           "body": { "es": "El combo aplica 4% base de Nature y Cryo Susceptibility más un bono por Will (hasta +8%); la ult, con Tactical Planning 2, suma [Will × 0.02%] hasta 12.8% por 10 s. Por eso la build apila Will: a full artificing llega a 636 (el tope pide 640). Con M5 (Homeward Glance) la parte de la ult sube +7% más. La calculadora de Daño ya resuelve el valor con el Will del build.", "en": "The combo applies a 4% base of Nature and Cryo Susceptibility plus a Will bonus (up to +8%); the ultimate, with Tactical Planning 2, adds [Will × 0.02%] up to 12.8% for 10s. That is why the build stacks Will: at full artificing it hits 636 (the cap wants 640). At M5 (Homeward Glance) the ultimate part gains another +7%. The Damage calculator already resolves the value from the build's Will." }
         },
         {
@@ -256,7 +256,7 @@
       ],
       "vsOtherComps": [
         { "name": { "es": "Cryo de Yvonne", "en": "Yvonne Cryo" }, "verdict": { "es": "El autor la ve más como comodín de relleno ahí: si te falta Tangtang o Gilberta para completar el equipo de Yvonne, Arcane tapa el puesto.", "en": "The author sees her more as filler there: if you are missing Tangtang or Gilberta to complete Yvonne's team, Arcane plugs the slot." } },
-        { "name": { "es": "Fuego de Laevatain", "en": "Laevatain fire" }, "verdict": { "es": "Su susceptibilidad se desperdicia, pero como soporte de attach + agrupamiento es muy cómoda, y frente a Wulfgard además aporta algo de buff y Corrosion larga. Elección de comodidad, no de daño.", "en": "Her susceptibility goes to waste, but as attach + grouping support she is very comfy, and versus Wulfgard she also brings some buffing and long Corrosion. A comfort pick, not a damage one." } },
+        { "name": { "es": "Fuego de Laevatain", "en": "Laevatain fire" }, "verdict": { "es": "Su Susceptibility se desperdicia, pero como soporte de attach + agrupamiento es muy cómoda, y frente a Wulfgard además aporta algo de buff y Corrosion larga. Elección de comodidad, no de daño.", "en": "Her susceptibility goes to waste, but as attach + grouping support she is very comfy, and versus Wulfgard she also brings some buffing and long Corrosion. A comfort pick, not a damage one." } },
         { "name": { "es": "Eléctrico de Zhuang Fangyi", "en": "Zhuang Fangyi electric" }, "verdict": { "es": "Con Liino fija, el 3er puesto se lo disputan Arcane y Arclight: Arcane re-aplica capas Electric (sube la Conducción y el burst de Zhuang Fangyi) y agrupa; Arclight tira más al aporte directo sostenido. Usable, no imprescindible — el autor sugiere guardar recursos para Liino.", "en": "With Liino locked in, the 3rd slot is contested by Arcane and Arclight: Arcane re-applies Electric stacks (raising Conduction and Zhuang Fangyi's burst) and groups; Arclight leans toward direct sustained output. Usable, not mandatory — the author suggests saving resources for Liino." } },
         { "name": { "es": "Mixto de Rossi", "en": "Rossi mixed" }, "verdict": { "es": "Si ya tienes Tangtang, no fuerces el cambio; si te falta, Arcane tapa el puesto de aplicador de Arts Attach estable.", "en": "If you already run Tangtang, do not force the swap; if you lack her, Arcane fills the stable Arts Attach slot." } }
       ],
@@ -268,7 +268,7 @@
           "gearRec": ["bonekrusha_poncho", "tide_surge_gauntlets", "hanging_river_o2_tube", "hanging_river_o2_tube"],
           "weaponNote": { "es": "Khravengger (promocional) es la BiS. Alternativa: Shattered Monarch (破碎君王, aún sin data en la app), pero su 3er efecto solo sale si PILOTAS a Last Rite; si no la controlas, rinde poco.", "en": "Khravengger (signature) is BiS. Alternative: Shattered Monarch (破碎君王, no app data yet), but its 3rd effect only procs if you PILOT Last Rite; when you do not control her, it does little." },
           "gearNote": { "es": "Tres piezas de Tide Surge (潮涌: Tide Surge Gauntlets + 2× Hanging River O2 Tube) + Bonekrusha Poncho en la armadura; alternativa de armadura = Type 50 Yinglung Light Armor. Precalado: Fuerza / daño Cryo · daño de combo > Will. Con este eje NO necesita potenciales.", "en": "Three Tide Surge pieces (潮涌: Tide Surge Gauntlets + 2× Hanging River O2 Tube) + a Bonekrusha Poncho in the armor slot; armor alt = Type 50 Yinglung Light Armor. Artificing: Strength / Cryo DMG · Combo DMG > Will. With this axis she needs no potentials." },
-          "deepNote": { "es": "El main-C Cryo: cobra la ventana de capas y susceptibilidades que fabrica Arcane, y su combo consume las 4 capas de Cryo del eje.", "en": "The Cryo main-C: she cashes the stack + susceptibility window Arcane manufactures, and her combo consumes the axis's 4 Cryo layers." }
+          "deepNote": { "es": "El main-C Cryo: cobra la ventana de capas y Susceptibilities que fabrica Arcane, y su combo consume las 4 capas de Cryo del eje.", "en": "The Cryo main-C: she cashes the stack + susceptibility window Arcane manufactures, and her combo consumes the axis's 4 Cryo layers." }
         },
         {
           "id": "tangtang",
@@ -294,12 +294,12 @@
           "weaponId": "wpn_funnel_0016",
           "gearRec": ["eternal_xiranite_light_armor", "rift_trekker_gloves", "eternal_xiranite_bracing_slab", "eternal_xiranite_bracing_slab"],
           "weaponNote": { "es": "En forma WILL, la pasiva del promocional cambia de rama: aplicar Arts Burst o Susceptibility hace que el enemigo reciba +Arts DMG (25 s). Sin promocional: 4× Eternal Xiranite + Detonation Unit o Stanza of Memorials, evitando duplicar el buff de Detonation Unit con Xaihi (si Xaihi lleva Detonation Unit, Arcane va con Stanza).", "en": "In WILL form the signature's passive switches branch: applying Arts Burst or Susceptibility makes the enemy take +Arts DMG (25s). Without the signature: 4× Eternal Xiranite + Detonation Unit or Stanza of Memorials, avoiding a duplicate Detonation Unit buff with Xaihi (if Xaihi runs Detonation Unit, Arcane goes Stanza)." },
-          "gearNote": { "es": "Tres piezas de Eternal Xiranite (长息: Light Armor + 2× Bracing Slab) + Rift Trekker Gloves (涉渊: Intellect + eficiencia de carga de Ultimate). A full artificing el Will llega a 636 (el tope de susceptibilidad pide 640); el resto va a Intellect por algo de ATK. Precalado: Will / sub / eficiencia de carga > Intellect. Combo a especialización 3.", "en": "Three Eternal Xiranite pieces (长息: Light Armor + 2× Bracing Slab) + Rift Trekker Gloves (涉渊: Intellect + Ultimate charge efficiency). At full artificing Will reaches 636 (the susceptibility cap wants 640); the rest goes to Intellect for some ATK. Artificing: Will / sub / charge efficiency > Intellect. Combo to specialization 3." },
-          "deepNote": { "es": "Rol de \"Fluorite mejorada\": capas extra del elemento del equipo (Cryo) + Imprison 6 s + gravedad + doble susceptibilidad escalada por Will. Aporta la 2ª y 3ª capa del eje de burst con su ult y su combo.", "en": "The \"upgraded Fluorite\" role: extra stacks of the team's element (Cryo) + 6s Imprison + gravity + double Will-scaled susceptibility. She provides the 2nd and 3rd layers of the burst axis with her ultimate and combo." }
+          "gearNote": { "es": "Tres piezas de Eternal Xiranite (长息: Light Armor + 2× Bracing Slab) + Rift Trekker Gloves (涉渊: Intellect + eficiencia de carga de Ultimate). A full artificing el Will llega a 636 (el tope de Susceptibility pide 640); el resto va a Intellect por algo de ATK. Precalado: Will / sub / eficiencia de carga > Intellect. Combo a especialización 3.", "en": "Three Eternal Xiranite pieces (长息: Light Armor + 2× Bracing Slab) + Rift Trekker Gloves (涉渊: Intellect + Ultimate charge efficiency). At full artificing Will reaches 636 (the susceptibility cap wants 640); the rest goes to Intellect for some ATK. Artificing: Will / sub / charge efficiency > Intellect. Combo to specialization 3." },
+          "deepNote": { "es": "Rol de \"Fluorite mejorada\": capas extra del elemento del equipo (Cryo) + Imprison 6 s + gravedad + doble Susceptibility escalada por Will. Aporta la 2ª y 3ª capa del eje de burst con su ult y su combo.", "en": "The \"upgraded Fluorite\" role: extra stacks of the team's element (Cryo) + 6s Imprison + gravity + double Will-scaled susceptibility. She provides the 2nd and 3rd layers of the burst axis with her ultimate and combo." }
         }
       ],
       "equipment": {
-        "intro": { "es": "Last Rite (main-C): tres piezas de Tide Surge (潮涌: Tide Surge Gauntlets + 2× Hanging River O2 Tube) + Bonekrusha Poncho, o Type 50 Yinglung Light Armor en la armadura; precalado Fuerza / daño Cryo · combo > Will; arma promocional Khravengger. Con este eje no necesita potenciales. Arcane (forma WILL, soporte): 3× Eternal Xiranite (长息: Light Armor + 2 Bracing Slab) + Rift Trekker Gloves (涉渊, Intellect + carga de Ultimate); a full artificing el Will llega a 636 (el tope de susceptibilidad pide 640); precalado Will / carga > Intellect; promocional Type 42, o 4× Eternal Xiranite + Detonation Unit / Stanza of Memorials sin él (sin pisar el buff de Xaihi). Tangtang: Qingbo (轻薄) + carga con el ult en el bucle a 0 potencial, o Bonekrusha (碾骨) a 1000+; combo a especialización 3. Xaihi: sin Eternal Xiranite (lo lleva Arcane), apila Intellect para el amp del ult (o gear de curación si hace falta aguante). La velocidad de carga de Arcane varía con los potenciales de Last Rite y Tangtang (~181% a 0 potencial, ~154% a 4).", "en": "Last Rite (main-C): three Tide Surge pieces (潮涌: Tide Surge Gauntlets + 2× Hanging River O2 Tube) + a Bonekrusha Poncho, or Type 50 Yinglung Light Armor in the armor slot; artificing Strength / Cryo DMG · combo > Will; signature weapon Khravengger. With this axis she needs no potentials. Arcane (WILL form, support): 3× Eternal Xiranite (长息: Light Armor + 2 Bracing Slabs) + Rift Trekker Gloves (涉渊, Intellect + Ultimate charge); at full artificing Will reaches 636 (the susceptibility cap wants 640); artificing Will / charge > Intellect; Type 42 signature, or 4× Eternal Xiranite + Detonation Unit / Stanza of Memorials without it (without stomping Xaihi's buff). Tangtang: Qingbo (轻薄) + charge with the ultimate in the loop at 0 potential, or Bonekrusha (碾骨) at 1000+; combo to specialization 3. Xaihi: no Eternal Xiranite (Arcane carries it), stack Intellect for the ultimate amp (or healing gear if you need survivability). Arcane's charge speed varies with Last Rite's and Tangtang's potentials (~181% at 0 potential, ~154% at 4)." },
+        "intro": { "es": "Last Rite (main-C): tres piezas de Tide Surge (潮涌: Tide Surge Gauntlets + 2× Hanging River O2 Tube) + Bonekrusha Poncho, o Type 50 Yinglung Light Armor en la armadura; precalado Fuerza / daño Cryo · combo > Will; arma promocional Khravengger. Con este eje no necesita potenciales. Arcane (forma WILL, soporte): 3× Eternal Xiranite (长息: Light Armor + 2 Bracing Slab) + Rift Trekker Gloves (涉渊, Intellect + carga de Ultimate); a full artificing el Will llega a 636 (el tope de Susceptibility pide 640); precalado Will / carga > Intellect; promocional Type 42, o 4× Eternal Xiranite + Detonation Unit / Stanza of Memorials sin él (sin pisar el buff de Xaihi). Tangtang: Qingbo (轻薄) + carga con el ult en el bucle a 0 potencial, o Bonekrusha (碾骨) a 1000+; combo a especialización 3. Xaihi: sin Eternal Xiranite (lo lleva Arcane), apila Intellect para el amp del ult (o gear de curación si hace falta aguante). La velocidad de carga de Arcane varía con los potenciales de Last Rite y Tangtang (~181% a 0 potencial, ~154% a 4).", "en": "Last Rite (main-C): three Tide Surge pieces (潮涌: Tide Surge Gauntlets + 2× Hanging River O2 Tube) + a Bonekrusha Poncho, or Type 50 Yinglung Light Armor in the armor slot; artificing Strength / Cryo DMG · combo > Will; signature weapon Khravengger. With this axis she needs no potentials. Arcane (WILL form, support): 3× Eternal Xiranite (长息: Light Armor + 2 Bracing Slabs) + Rift Trekker Gloves (涉渊, Intellect + Ultimate charge); at full artificing Will reaches 636 (the susceptibility cap wants 640); artificing Will / charge > Intellect; Type 42 signature, or 4× Eternal Xiranite + Detonation Unit / Stanza of Memorials without it (without stomping Xaihi's buff). Tangtang: Qingbo (轻薄) + charge with the ultimate in the loop at 0 potential, or Bonekrusha (碾骨) at 1000+; combo to specialization 3. Xaihi: no Eternal Xiranite (Arcane carries it), stack Intellect for the ultimate amp (or healing gear if you need survivability). Arcane's charge speed varies with Last Rite's and Tangtang's potentials (~181% at 0 potential, ~154% at 4)." },
         "alts": [
           { "scenario": { "es": "No tienes el promocional de Arcane", "en": "You do not have Arcane's signature" }, "swap": { "es": "4× Eternal Xiranite + Detonation Unit (爆破单元) o Stanza of Memorials (悼亡诗) de alto potencial; evita duplicar el buff de Detonation Unit con Xaihi.", "en": "4× Eternal Xiranite + a high-potential Detonation Unit (爆破单元) or Stanza of Memorials (悼亡诗); avoid duplicating the Detonation Unit buff with Xaihi." } },
           { "scenario": { "es": "Contenido con presión de supervivencia", "en": "Survival-heavy content" }, "swap": { "es": "gear de curación en Xaihi a cambio de menos amp de equipo.", "en": "healing gear on Xaihi in exchange for less team amp." } }
@@ -361,7 +361,7 @@
         },
         {
           "title": { "es": "Perlica y Stanza", "en": "Perlica and Stanza" },
-          "body": { "es": "Perlica cumple dos funciones: su ult dispara Stanza of Memorials, que da ATK a los aliados de otro elemento — como Arcane es Nature y Perlica Electric, el bono le llega; y su combo cuelga Electrification, que aporta vulnerabilidad de Arts al equipo (más fuerte cuanto más Intellect lleve Perlica). Por eso Perlica supera a Gilberta en el 4º puesto: Gilberta es Nature y su Stanza NO subiría el ATK de Arcane.", "en": "Perlica does two jobs: her ultimate triggers Stanza of Memorials, which grants ATK to teammates of a different element — Arcane being Nature and Perlica Electric, the bonus reaches her; and her combo applies Electrification, which adds Arts vulnerability for the team (stronger the more Intellect Perlica carries). That is why Perlica beats Gilberta in the 4th slot: Gilberta is Nature and her Stanza would NOT raise Arcane's ATK." }
+          "body": { "es": "Perlica cumple dos funciones: su ult dispara Stanza of Memorials, que da ATK a los aliados de otro elemento — como Arcane es Nature y Perlica Electric, el bono le llega; y su combo cuelga Electrification, que suma Arts DMG Taken (más fuerte cuanto más Intellect lleve Perlica). Por eso Perlica supera a Gilberta en el 4º puesto: Gilberta es Nature y su Stanza NO subiría el ATK de Arcane.", "en": "Perlica does two jobs: her ultimate triggers Stanza of Memorials, which grants ATK to teammates of a different element — Arcane being Nature and Perlica Electric, the bonus reaches her; and her combo applies Electrification, which adds Arts DMG Taken (stronger the more Intellect Perlica carries). That is why Perlica beats Gilberta in the 4th slot: Gilberta is Nature and her Stanza would NOT raise Arcane's ATK." }
         },
         {
           "title": { "es": "El eje de burst y el Stagger", "en": "The burst axis and Stagger" },
@@ -450,8 +450,8 @@
           "weaponId": "wpn_funnel_0005",
           "gearRec": ["qingbo_light_armor", "qingbo_gloves", "qingbo_cask", "qingbo_positioning_kit"],
           "weaponNote": { "es": "Stanza of Memorials (悼亡诗): tras su ult, los aliados de OTRO elemento ganan ATK. Como Perlica es Electric y Arcane Nature, el bono le llega — la razón de elegirla sobre Gilberta.", "en": "Stanza of Memorials (悼亡诗): after her ultimate, teammates of a DIFFERENT element gain ATK. Perlica being Electric and Arcane Nature, the bonus reaches her — the reason to pick her over Gilberta." },
-          "gearNote": { "es": "Qingbo 4 piezas (轻薄) para el cooldown del combo. No hace falta subir skills. Apila Intellect: cuanto más lleve, más fuerte la Electrification y más vulnerabilidad de Arts para el equipo.", "en": "Qingbo 4-piece (轻薄) for the combo cooldown. No skill leveling needed. Stack Intellect: the more she carries, the stronger the Electrification and the more Arts vulnerability for the team." },
-          "deepNote": { "es": "Dos aportes: ult → Stanza (ATK de equipo) y combo → Electrification (vulnerabilidad de Arts). Es el 4º puesto recomendado del esquema.", "en": "Two contributions: ultimate → Stanza (team ATK) and combo → Electrification (Arts vulnerability). She is the scheme's recommended 4th slot." }
+          "gearNote": { "es": "Qingbo 4 piezas (轻薄) para el cooldown del combo. No hace falta subir skills. Apila Intellect: cuanto más lleve, más fuerte la Electrification y más Arts DMG Taken para el equipo.", "en": "Qingbo 4-piece (轻薄) for the combo cooldown. No skill leveling needed. Stack Intellect: the more she carries, the stronger the Electrification and the more Arts DMG Taken for the team." },
+          "deepNote": { "es": "Dos aportes: ult → Stanza (ATK de equipo) y combo → Electrification (Arts DMG Taken). Es el 4º puesto recomendado del esquema.", "en": "Two contributions: ultimate → Stanza (team ATK) and combo → Electrification (Arts DMG Taken). She is the scheme's recommended 4th slot." }
         }
       ],
       "equipment": {
@@ -474,6 +474,567 @@
           { "id": "tangtang", "line": { "es": "Qingbo (轻薄) a 0 potencial o Bonekrusha (碾骨) a 1000+; combo a especialización 3.", "en": "Qingbo (轻薄) at 0 potential or Bonekrusha (碾骨) at 1000+; combo to specialization 3." } },
           { "id": "xaihi", "line": { "es": "Eternal Xiranite 3pc (长袭); ult a especialización 3.", "en": "Eternal Xiranite 3pc (长袭); ultimate to specialization 3." } },
           { "id": "perlica", "line": { "es": "Qingbo 4pc (轻薄) + Stanza of Memorials (悼亡诗); apila Intellect.", "en": "Qingbo 4pc (轻薄) + Stanza of Memorials (悼亡诗); stack Intellect." } }
+        ]
+      }
+    },
+    {
+      "name": {
+        "es": "Raaay丶 - Silla de ruedas de 3 Battle Skills",
+        "en": "Raaay丶 - 3-Battle-Skill Wheelchair"
+      },
+      "subtitle": {
+        "es": "Xaihi · Wulfgard · Camille / Akekuri",
+        "en": "Xaihi · Wulfgard · Camille / Akekuri"
+      },
+      "blurb": {
+        "es": "Arcane de main-C en forma INT con un bucle infinito que solo pide memorizar UNA secuencia de tres Battle Skills: cada combo que se enciende es el aviso del siguiente input. Wulfgard aporta su Ultimate cada vuelta vía tri-fuego, la Corrosion se renueva sin fondo y las Ultimates se insertan en huecos fijos. Pensado para quien no tiene a Tangtang, Rossi ni Gilberta en el roster.",
+        "en": "Main-C INT-form Arcane with an infinite loop that only asks you to memorize ONE three-Battle-Skill sequence: every combo that lights up is the prompt for the next input. Wulfgard brings his Ultimate every loop via tri-fire, Corrosion refreshes endlessly and the Ultimates slot into fixed windows. Built for players who lack Tangtang, Rossi and Gilberta on their roster."
+      },
+      "guideVideoId": "arcb4",
+      "simple": {
+        "whatItDoes": {
+          "es": "Arcane es el único carry: su Ultimate abre con Corrosion y su Battle Skill cierra cada vuelta comiéndose los buffs. El bucle es siempre igual — Battle Skill de Xaihi, dos heavies, y a partir de ahí cada combo que se ilumina te dice qué pulsar: Battle Skill de Camille, combo de Xaihi, tri-fuego de Wulfgard y Battle Skill de Arcane. Dos vueltas llenan la Ultimate de Arcane. Las Ultimates de los soportes se meten en huecos fijos sin cambiar la secuencia.",
+          "en": "Arcane is the only carry: her Ultimate opens with Corrosion and her Battle Skill closes every loop eating the buffs. The loop never changes — Xaihi's Battle Skill, two heavies, and from there every combo that lights up tells you what to press: Camille's Battle Skill, Xaihi's combo, Wulfgard's tri-fire and Arcane's Battle Skill. Two loops fill Arcane's Ultimate. The supports' Ultimates slot into fixed windows without changing the sequence."
+        },
+        "steps": [
+          {
+            "who": "xaihi",
+            "do": {
+              "es": "Abre con la Battle Skill de Xaihi y pega dos heavies. Cuando su combo se ilumine, ese es el primer aviso.",
+              "en": "Open with Xaihi's Battle Skill and land two heavies. When her combo lights up, that is your first prompt."
+            }
+          },
+          {
+            "who": "camille",
+            "do": {
+              "es": "Aviso 1: Battle Skill de Camille. Aviso 2 (combo de Wulfgard encendido): suelta el combo de Xaihi. Aviso 3: combo de Camille listo.",
+              "en": "Prompt 1: Camille's Battle Skill. Prompt 2 (Wulfgard's combo lit): fire Xaihi's combo. Prompt 3: Camille's combo ready."
+            }
+          },
+          {
+            "who": "wulfgard",
+            "do": {
+              "es": "Tri-fuego de Wulfgard: su combo, cancela el after-cast con su Ultimate, y al terminar la animación encadena los combos de Camille, Wulfgard y Arcane.",
+              "en": "Wulfgard's tri-fire: his combo, cancel the after-cast with his Ultimate, and once the animation ends chain Camille's, Wulfgard's and Arcane's combos."
+            }
+          },
+          {
+            "who": "arcane",
+            "do": {
+              "es": "Cierra con la Battle Skill de Arcane: se come el Link del combo de Camille y renueva la Corrosion. Repite desde el paso 1.",
+              "en": "Close with Arcane's Battle Skill: it eats the Link from Camille's combo and refreshes the Corrosion. Repeat from step 1."
+            }
+          },
+          {
+            "do": {
+              "es": "Con las Ultimates cargadas: la de Arcane va en el hueco de los dos heavies, la de Xaihi tras su propio combo, y la de Camille se deja pulsada durante la animación de la de Wulfgard.",
+              "en": "With Ultimates charged: Arcane's goes in the two-heavy window, Xaihi's right after her own combo, and Camille's is long-pressed during Wulfgard's Ultimate animation."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "arcane",
+            "line": {
+              "es": "Hot Work + guantes Rift Trekker; umbral de ciclo 67.7%. Su arma promocional o Junction Point.",
+              "en": "Hot Work + Rift Trekker gloves; 67.7% loop threshold. His signature weapon or Junction Point."
+            }
+          },
+          {
+            "id": "xaihi",
+            "line": {
+              "es": "Eternal Xiranite con Rift Trekker Gloves. Umbral casi nulo: 5.8% en cold start y nada en el ciclo.",
+              "en": "Eternal Xiranite with Rift Trekker Gloves. Near-zero threshold: 5.8% on cold start and none in the loop."
+            }
+          },
+          {
+            "id": "wulfgard",
+            "line": {
+              "es": "Set Qingbo + Redeemer Seal con OBJ Velocitous. Su 103.8% de recarga es el requisito duro del eje.",
+              "en": "Qingbo set + Redeemer Seal with OBJ Velocitous. His 103.8% recharge is the axis's hard requirement."
+            }
+          },
+          {
+            "id": "camille",
+            "line": {
+              "es": "Frontiers + Redeemer Seal con su promocional: 91.0% para el cold start, 40.4% para el ciclo.",
+              "en": "Frontiers + Redeemer Seal with his signature: 91.0% for the cold start, 40.4% for the loop."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "La silla de ruedas de Arcane de Raaay丶: un bucle infinito construido para que los avisos visuales hagan el trabajo de memoria — solo aprendes una secuencia de tres Battle Skills (Xaihi, Camille, Arcane) y el resto son combos que se encienden y te dicen qué pulsar. La cadena está cosida con el kit: el cristal de la Battle Skill de Xaihi gasta sus dos curaciones con los heavies (a vida llena dan Arts Amp) y al agotarse enciende su combo; la Battle Skill de Camille aplica la Heat que enciende el combo de Wulfgard; el combo Cryo de Xaihi consume esa Heat y enciende el de Camille; y con Cryo y Heat en el boss, el combo INT de Arcane se dispara en la tanda del tri-fuego de Wulfgard. La Battle Skill de Arcane cierra cada vuelta comiéndose el Link y renovando la Corrosion — el autor parte de un eje compartido por otro creador y solo encaja las Ultimates en los huecos clave: la de Arcane entre los heavies, la de Xaihi (Cryo y Nature Amp para el equipo) tras su combo, y la de Camille en mantener pulsado durante la animación de la de Wulfgard, que suma su Battle Skill mejorada (Hunter Pursuit) y una segunda capa de Link para el cañonazo. Dos vueltas llenan la Ultimate de Arcane: a 0 potencial con la promocional a una copia y skills al máximo, la apertura de Ultimate con Corrosion ronda los 500k.",
+        "en": "Raaay丶's Arcane wheelchair: an infinite loop built so the visual prompts do the memorizing — you learn one three-Battle-Skill sequence (Xaihi, Camille, Arcane) and everything else is combos lighting up to tell you what to press. The chain is stitched with the kit: the crystal from Xaihi's Battle Skill spends its two heals on the heavies (at full HP they grant Arts Amp) and lights her combo when exhausted; Camille's Battle Skill applies the Heat that lights Wulfgard's combo; Xaihi's Cryo combo consumes that Heat and lights Camille's; and with Cryo and Heat on the boss, Arcane's INT combo fires in Wulfgard's tri-fire string. Arcane's Battle Skill closes each loop eating the Link and refreshing the Corrosion — the author starts from an axis shared by another creator and merely slots the Ultimates into the key windows: Arcane's between the heavies, Xaihi's (Cryo and Nature Amp for the team) after her combo, and Camille's long-pressed during Wulfgard's Ultimate animation, adding his Enhanced Battle Skill (Hunter Pursuit) and a second Link stack for the cannon shot. Two loops fill Arcane's Ultimate: at 0 potential with a single signature copy and maxed skills, the Corrosion Ultimate opener lands around 500k."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Media",
+          "en": "Medium"
+        },
+        "content": {
+          "es": "Boss / Single-target",
+          "en": "Boss / Single-target"
+        },
+        "tags": [
+          {
+            "es": "Forma INT",
+            "en": "INT form"
+          },
+          {
+            "es": "Silla de ruedas",
+            "en": "Wheelchair"
+          },
+          {
+            "es": "Tri-fuego",
+            "en": "Tri-fire"
+          },
+          {
+            "es": "Corrosion",
+            "en": "Corrosion"
+          },
+          {
+            "es": "Link",
+            "en": "Link"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "Una sola secuencia de tres Battle Skills para todo el bucle, con los combos iluminándose como avisos — el eje se aprende en una tarde.",
+          "en": "One three-Battle-Skill sequence for the whole loop, with combos lighting up as prompts — the axis can be learned in an afternoon."
+        },
+        {
+          "es": "Todos los buffs entran en cada vuelta: Arts Amp del cristal de Xaihi, Corrosion renovada sin fondo y un Link por vuelta para la Battle Skill de Arcane.",
+          "en": "Every buff lands every loop: Arts Amp from Xaihi's crystal, endlessly refreshed Corrosion and one Link per loop for Arcane's Battle Skill."
+        },
+        {
+          "es": "Techo accesible: la apertura de Ultimate con Corrosion ronda los 500k con Arcane a 0 potencial y la promocional a una copia.",
+          "en": "Accessible ceiling: the Corrosion Ultimate opener lands around 500k with Arcane at 0 potential and a single signature copy."
+        },
+        {
+          "es": "Hecho para rosters sin Tangtang, Rossi ni Gilberta: los tres soportes son alternativas que el resto de sillas de ruedas de Arcane no usa.",
+          "en": "Made for rosters without Tangtang, Rossi or Gilberta: all three supports are picks the other Arcane wheelchairs do not use."
+        },
+        {
+          "es": "Camille se cambia por Akekuri con el MISMO eje — y según el autor, la versión con Akekuri es incluso más fácil de pilotar.",
+          "en": "Camille swaps for Akekuri on the SAME axis — and per the author, the Akekuri version is even easier to pilot."
+        }
+      ],
+      "cons": [
+        {
+          "es": "El tri-fuego de Wulfgard es obligatorio y su recarga tiene que llegar a 103.8% — el propio autor avisa que no es amigable para quien empieza.",
+          "en": "Wulfgard's tri-fire is mandatory and his recharge must hit 103.8% — the author himself warns it is not newcomer-friendly."
+        },
+        {
+          "es": "El eje exige la Ultimate de Wulfgard disponible: sin ella (cold start o eje roto) hay que jugar la ronda de recuperación de Corrosion antes de volver al bucle.",
+          "en": "The axis requires Wulfgard's Ultimate available: without it (cold start or broken axis) you must play the Corrosion recovery round before rejoining the loop."
+        },
+        {
+          "es": "Con Camille la ejecución pide más precisión que con Akekuri — por eso el video principal demuestra la versión difícil y deja la de Akekuri como anexo.",
+          "en": "With Camille the execution demands more precision than with Akekuri — which is why the main video demonstrates the hard version and leaves the Akekuri one as an annex."
+        },
+        {
+          "es": "El Link caduca: tras el combo de Arcane hay que encadenar su Battle Skill rápido o la capa se pierde.",
+          "en": "The Link expires: after Arcane's combo you must chain her Battle Skill quickly or the stack is lost."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "Los combos son los avisos",
+            "en": "The combos are the prompts"
+          },
+          "body": {
+            "es": "El eje está ordenado para que nunca tengas que contar nada: cada input ilumina el combo de otro operador, y ese combo iluminado es la señal del siguiente paso. Battle Skill de Xaihi y dos heavies encienden su combo; la Battle Skill de Camille enciende el de Wulfgard; el combo de Xaihi enciende el de Camille; y el tri-fuego de Wulfgard deja caer los tres combos restantes. Tres Battle Skills memorizadas y el juego te dicta el resto.",
+            "en": "The axis is ordered so you never count anything: each input lights another operator's combo, and that lit combo is the cue for the next step. Xaihi's Battle Skill plus two heavies light her combo; Camille's Battle Skill lights Wulfgard's; Xaihi's combo lights Camille's; and Wulfgard's tri-fire drops the remaining three combos. Memorize three Battle Skills and the game dictates the rest."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Una cadena de triggers cosida con el kit",
+            "en": "A trigger chain stitched with the kit"
+          },
+          "body": {
+            "es": "Nada de la cadena es casualidad. El cristal de Xaihi cura al operador pilotado en cada Final Strike (dos cargas; a vida llena la curación se convierte en Arts Amp) y su combo se gatilla justo cuando el cristal agota esas cargas — por eso son exactamente dos heavies. El combo de Wulfgard se enciende con cualquier Arts Infliction: la Heat de Camille. El de Camille, cuando esa Heat se consume: la absorbe el combo Cryo de Xaihi. Y el combo INT de Arcane pide dos Inflictions no-Nature: Cryo y Heat ya están en el boss.",
+            "en": "Nothing in the chain is coincidence. Xaihi's crystal heals the piloted operator on each Final Strike (two charges; at full HP the heal turns into Arts Amp) and her combo triggers exactly when the crystal runs out of charges — hence exactly two heavies. Wulfgard's combo lights on any Arts Infliction: Camille's Heat. Camille's lights when that Heat is consumed: Xaihi's Cryo combo absorbs it. And Arcane's INT combo asks for two non-Nature Inflictions: Cryo and Heat are already on the boss."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "El tri-fuego mete la Ultimate de Wulfgard en cada vuelta",
+            "en": "Tri-fire fits Wulfgard's Ultimate into every loop"
+          },
+          "body": {
+            "es": "Wulfgard no gasta Battle Skills: su aporte es el tri-fuego — combo, Ultimate cancelando el after-cast, y combos de nuevo al aterrizar. Eso ahorra el SP de su Battle Skill y castea su Ultimate (Combustion forzada) una vez por vuelta, que es la bisagra donde caen los tres combos finales. La factura llega en recarga: necesita 103.8%, y el set Qingbo con Redeemer Seal llega justo a cubrirlo (máximo 113.3% según el video).",
+            "en": "Wulfgard spends no Battle Skills: his contribution is the tri-fire — combo, Ultimate cancelling the after-cast, combos again on landing. That saves his Battle Skill's SP and casts his Ultimate (forced Combustion) once per loop, the hinge where the three final combos drop. The bill comes in recharge: he needs 103.8%, and the Qingbo set with a Redeemer Seal just covers it (113.3% max per the video)."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Corrosion sin fondo y Amp de serie",
+            "en": "Bottomless Corrosion and built-in Amp"
+          },
+          "body": {
+            "es": "La Battle Skill de Arcane cierra cada vuelta aplicando Nature sobre la Heat del boss: Corrosion renovada una y otra vez — el shred de resistencia nunca se cae. Los heavies a vida llena convierten las curaciones del cristal de Xaihi en Arts Amp, y su Ultimate añade Cryo y Nature Amp para todo el equipo — el Nature Amp le cae de lleno al daño de Arcane. Es la razón de ser del eje según el autor: otros ejes del sitio sacrificaban la Battle Skill de Xaihi; este cobra todos los buffs en cada vuelta.",
+            "en": "Arcane's Battle Skill closes every loop applying Nature onto the boss's Heat: Corrosion renewed again and again — the resistance shred never drops. Full-HP heavies turn Xaihi's crystal heals into Arts Amp, and her Ultimate adds Cryo and Nature Amp for the whole team — the Nature Amp lands squarely on Arcane's damage. That is the axis's reason to exist per the author: other axes on the site sacrificed Xaihi's Battle Skill; this one cashes every buff every loop."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "El Link viste el cañonazo",
+            "en": "The Link dresses the cannon shot"
+          },
+          "body": {
+            "es": "Cada vuelta, el combo de Camille deja un Link al terminar y la Battle Skill de Arcane se lo come. Con las Ultimates dentro, la de Camille (pulsada durante la animación de la de Wulfgard) añade Hunter Pursuit, su Battle Skill mejorada: entra en la tanda y deja la segunda capa de Link — dos capas y la Battle Skill de Arcane sale de cañón. La única regla es no dormirse: tras el combo de Arcane, su Battle Skill va enseguida o el Link caduca.",
+            "en": "Every loop, Camille's combo drops a Link on finish and Arcane's Battle Skill eats it. With the Ultimates in, Camille's (long-pressed during Wulfgard's Ultimate animation) adds Hunter Pursuit, his Enhanced Battle Skill: it joins the string and drops the second Link stack — two stacks and Arcane's Battle Skill fires like a cannon. The only rule is not to nap: after Arcane's combo, her Battle Skill follows immediately or the Link expires."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Bucle base (基础轴) — 3 Battle Skills",
+            "en": "Base loop (基础轴) — 3 Battle Skills"
+          },
+          "action": {
+            "es": "Xaihi Battle Skill + dos heavies → Camille Battle Skill → combo de Xaihi → tri-fuego de Wulfgard → Battle Skill de Arcane. Cada paso lo avisa un combo iluminado.",
+            "en": "Xaihi Battle Skill + two heavies → Camille Battle Skill → Xaihi's combo → Wulfgard's tri-fire → Arcane's Battle Skill. Every step is announced by a lit combo."
+          },
+          "steps": [
+            {
+              "who": "xaihi",
+              "do": {
+                "es": "Battle Skill de Xaihi para colgar el cristal, y dos heavies con Arcane. A vida llena, cada heavy convierte la curación del cristal en Arts Amp.",
+                "en": "Xaihi's Battle Skill to hang the crystal, then two heavies with Arcane. At full HP, each heavy turns the crystal's heal into Arts Amp."
+              },
+              "note": {
+                "es": "El combo de Xaihi se gatilla cuando el cristal agota sus dos curaciones — por eso son exactamente dos heavies. Su combo iluminado es el aviso 1.",
+                "en": "Xaihi's combo triggers when the crystal exhausts its two heals — hence exactly two heavies. Her lit combo is prompt 1."
+              }
+            },
+            {
+              "who": "camille",
+              "do": {
+                "es": "Aviso 1 → Battle Skill de Camille: aplica Heat y enciende el combo de Wulfgard (aviso 2).",
+                "en": "Prompt 1 → Camille's Battle Skill: applies Heat and lights Wulfgard's combo (prompt 2)."
+              }
+            },
+            {
+              "who": "xaihi",
+              "do": {
+                "es": "Aviso 2 → suelta el combo de Xaihi: su Cryo consume la Heat y enciende el combo de Camille (aviso 3).",
+                "en": "Prompt 2 → fire Xaihi's combo: its Cryo consumes the Heat and lights Camille's combo (prompt 3)."
+              }
+            },
+            {
+              "who": "wulfgard",
+              "do": {
+                "es": "Aviso 3 → tri-fuego de Wulfgard: combo, Ultimate cancelando el after-cast, y al terminar la animación encadena los combos de Camille, Wulfgard y Arcane.",
+                "en": "Prompt 3 → Wulfgard's tri-fire: combo, Ultimate cancelling the after-cast, and when the animation ends chain Camille's, Wulfgard's and Arcane's combos."
+              },
+              "key": true,
+              "note": {
+                "es": "El combo de Camille deja un Link al terminar. El combo INT de Arcane se enciende con las dos Inflictions no-Nature (Cryo + Heat) que ya lleva el boss.",
+                "en": "Camille's combo drops a Link when it ends. Arcane's INT combo lights off the two non-Nature Inflictions (Cryo + Heat) already on the boss."
+              }
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Battle Skill de Arcane, rápido tras su combo: se come el Link y aplica Nature sobre la Heat — Corrosion renovada. Fin de la vuelta; se reabre con Xaihi.",
+                "en": "Arcane's Battle Skill, right after her combo: it eats the Link and applies Nature onto the Heat — Corrosion renewed. Loop over; reopen with Xaihi."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "Dos vueltas dejan la Ultimate de Arcane casi llena; la Battle Skill de Xaihi que abre la siguiente la termina de cargar.",
+            "en": "Two loops leave Arcane's Ultimate almost full; the Xaihi Battle Skill opening the next one tops it off."
+          }
+        },
+        {
+          "phase": {
+            "es": "Versión completa — Ultimates en sus huecos",
+            "en": "Full version — Ultimates in their windows"
+          },
+          "action": {
+            "es": "El mismo bucle sin cambiar nada: cada Ultimate tiene un hueco fijo. Arcane entre los heavies, Xaihi tras su combo, Camille dentro de la animación de Wulfgard.",
+            "en": "The same loop with nothing changed: each Ultimate has a fixed window. Arcane's between the heavies, Xaihi's after her combo, Camille's inside Wulfgard's animation."
+          },
+          "steps": [
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Ultimate de Arcane en el hueco muerto de los dos heavies, justo tras la Battle Skill de Xaihi: el array cae con Corrosion de apertura.",
+                "en": "Arcane's Ultimate in the dead window of the two heavies, right after Xaihi's Battle Skill: the array lands with opening Corrosion."
+              },
+              "key": true
+            },
+            {
+              "who": "xaihi",
+              "do": {
+                "es": "Ultimate de Xaihi inmediatamente después de su propio combo: Cryo y Nature Amp para el equipo.",
+                "en": "Xaihi's Ultimate immediately after her own combo: Cryo and Nature Amp for the team."
+              }
+            },
+            {
+              "who": "camille",
+              "do": {
+                "es": "Durante la animación de la Ultimate de Wulfgard, deja PULSADA la Ultimate de Camille: sale al terminar y arma su Battle Skill mejorada (Hunter Pursuit).",
+                "en": "During Wulfgard's Ultimate animation, LONG-PRESS Camille's Ultimate: it fires as the animation ends and arms his Enhanced Battle Skill (Hunter Pursuit)."
+              },
+              "key": true
+            },
+            {
+              "who": "camille",
+              "do": {
+                "es": "La Battle Skill mejorada (Hunter Pursuit) entra en la tanda tras el tri-fuego y deja la segunda capa de Link.",
+                "en": "The Enhanced Battle Skill (Hunter Pursuit) joins the string after the tri-fire and drops the second Link stack."
+              }
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Battle Skill de Arcane con dos capas de Link: el cañonazo de la vuelta. Encadena rápido desde su combo para no perder ninguna capa.",
+                "en": "Arcane's Battle Skill with two Link stacks: the loop's cannon shot. Chain it fast off her combo so no stack is lost."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "Los huecos están elegidos para no añadir memoria nueva: si sabes el bucle base, ya sabes dónde va cada Ultimate.",
+            "en": "The windows are chosen to add no new memory load: if you know the base loop, you already know where each Ultimate goes."
+          }
+        },
+        {
+          "phase": {
+            "es": "Cold start / eje roto — ronda de Corrosion 4",
+            "en": "Cold start / broken axis — rank-4 Corrosion round"
+          },
+          "action": {
+            "es": "El bucle necesita la Ultimate de Wulfgard. Sin ella, una ronda de Battle Skill de Camille → combo de Wulfgard hasta llegar a Corrosion nivel 4 sustituye una vuelta del bucle base.",
+            "en": "The loop needs Wulfgard's Ultimate. Without it, a round of Camille Battle Skill → Wulfgard combo until rank-4 Corrosion replaces one base-loop pass."
+          },
+          "steps": [
+            {
+              "who": "camille",
+              "do": {
+                "es": "Battle Skill de Camille: su Heat enciende el combo de Wulfgard. Repite el par tantas veces como haga falta.",
+                "en": "Camille's Battle Skill: its Heat lights Wulfgard's combo. Repeat the pair as many times as needed."
+              }
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "El combo y la Battle Skill de Arcane van convirtiendo esa Heat en Corrosion — y de paso le cargan la Ultimate a Wulfgard — hasta dejarla en nivel 4.",
+                "en": "Arcane's combo and Battle Skill keep converting that Heat into Corrosion — charging Wulfgard's Ultimate along the way — until it reaches rank 4."
+              },
+              "key": true
+            },
+            {
+              "do": {
+                "es": "Con Corrosion 4 en el boss, entra al bucle base: esa única vuelta deja la Ultimate de Arcane cargada y el eje ya gira solo.",
+                "en": "With rank-4 Corrosion on the boss, enter the base loop: that single pass leaves Arcane's Ultimate charged and the axis runs itself."
+              }
+            }
+          ],
+          "tip": {
+            "es": "Esta ronda no hay que memorizarla: es el mismo par Camille → Wulfgard en bucle. También es la salida cuando el eje se rompe a mitad de pelea.",
+            "en": "No need to memorize this round: it is the same Camille → Wulfgard pair on repeat. It is also the exit whenever the axis breaks mid-fight."
+          }
+        }
+      ],
+      "skillPriority": [],
+      "pitfalls": [
+        {
+          "es": "Saltarte los dos heavies tras la Battle Skill de Xaihi: su combo solo se gatilla cuando el cristal agota sus dos curaciones, y sin ese aviso el eje no arranca.",
+          "en": "Skipping the two heavies after Xaihi's Battle Skill: her combo only triggers when the crystal exhausts its two heals, and without that prompt the axis never starts."
+        },
+        {
+          "es": "Hacer el tri-fuego a medias: si la Ultimate de Wulfgard no cancela el after-cast del combo, pierdes el ahorro de SP y la vuelta entera se desincroniza.",
+          "en": "Half-doing the tri-fire: if Wulfgard's Ultimate does not cancel the combo's after-cast, you lose the SP saving and the whole loop desyncs."
+        },
+        {
+          "es": "Dejar pasar el Link: tras el combo de Arcane, su Battle Skill va inmediatamente — el buff caduca y con él el cañonazo de la vuelta.",
+          "en": "Letting the Link lapse: after Arcane's combo her Battle Skill follows immediately — the buff expires and the loop's cannon shot goes with it."
+        },
+        {
+          "es": "Quedarte corto del 103.8% de recarga en Wulfgard: sin su Ultimate cada vuelta no hay tri-fuego, y el eje entero depende de eso.",
+          "en": "Falling short of Wulfgard's 103.8% recharge: without his Ultimate every loop there is no tri-fire, and the entire axis depends on it."
+        },
+        {
+          "es": "Soltar la Ultimate de Camille fuera de su hueco: se deja PULSADA durante la animación de la de Wulfgard; suelta a destiempo, la tanda pierde su Battle Skill mejorada (Hunter Pursuit).",
+          "en": "Firing Camille's Ultimate outside its window: it is LONG-PRESSED during Wulfgard's animation; mistimed, the string loses his Enhanced Battle Skill (Hunter Pursuit)."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "Camille → Akekuri (mismo eje)",
+            "en": "Camille → Akekuri (same axis)"
+          },
+          "verdict": {
+            "es": "El autor lo dice de entrada: Akekuri corre exactamente el mismo eje y en la práctica pide menos precisión que Camille — el video principal usa a Camille justamente por ser la versión más exigente, y el anexo (P2 del video) muestra la vuelta completa con Akekuri. Si tienes a los dos, elige por comodidad.",
+            "en": "The author says it upfront: Akekuri runs exactly the same axis and in practice demands less precision than Camille — the main video uses Camille precisely because it is the harder version, and the annex (P2 of the video) shows the full loop with Akekuri. If you own both, pick for comfort."
+          }
+        },
+        {
+          "name": {
+            "es": "vs las sillas de ruedas con Tangtang/Xaihi/Perlica",
+            "en": "vs the Tangtang/Xaihi/Perlica wheelchairs"
+          },
+          "verdict": {
+            "es": "El propio autor posiciona el equipo: es la opción para quien quiere jugar a Arcane de main-C y NO tiene a Tangtang, Rossi ni Gilberta en el roster. Si los tienes, las otras sillas de ruedas de esta misma página siguen siendo el camino estándar; esta existe para ese hueco de box.",
+            "en": "The author positions it himself: it is the pick for playing main-C Arcane WITHOUT Tangtang, Rossi or Gilberta on the roster. If you have them, the other wheelchairs on this same page remain the standard path; this one exists for that roster gap."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "arcane",
+          "role": "Carry",
+          "weaponId": "wpn_funnel_0016",
+          "gearRec": [
+            "hot_work_exo_rig",
+            "rift_trekker_gloves",
+            "hot_work_insulation_slab",
+            "hot_work_insulation_slab"
+          ],
+          "weaponNote": {
+            "es": "Type 42: Solemn Phalanx 6★ (arma promocional) o Junction Point 6★ — la ficha del video lista los dos sin más matices.",
+            "en": "Type 42: Solemn Phalanx 6★ (signature weapon) or Junction Point 6★ — the video's card lists both without further caveats."
+          },
+          "gearNote": {
+            "es": "Build de ciclo (umbral 67.7%): Hot Work Exoskeleton + Rift Trekker Gloves + 2× Hot Work Insulation Slab. La ficha trae una segunda build de burst \"de una vuelta\" para cuando el cold start está cubierto: cambia los guantes por Hot Work Gloves y un Insulation Slab por una placa morada de bio-asistencia (生物辅助护板, fuera del catálogo gold de la app).",
+            "en": "Loop build (67.7% threshold): Hot Work Exoskeleton + Rift Trekker Gloves + 2× Hot Work Insulation Slab. The card carries a second \"one-loop burst\" build for when the cold start is covered: swap the gloves for Hot Work Gloves and one Insulation Slab for a purple bio-aid plate (生物辅助护板, outside the app's gold catalog)."
+          },
+          "deepNote": {
+            "es": "Arcane va en forma INT y es todo el daño del equipo. Su Ultimate abre con Corrosion en el array y a 0 potencial, promocional a una copia y skills al máximo ronda los 500k de apertura — la vara de medir que da el propio video. Su combo se enciende con las dos Inflictions no-Nature del eje (Cryo de Xaihi + Heat de Camille o Wulfgard) y su Battle Skill es el golpe con Link de cada vuelta además del refresco perpetuo de la Corrosion. Tú lo pilotas: los dos heavies del arranque son suyos, y por eso el Arts Amp del cristal de Xaihi le cae a él.",
+            "en": "Arcane runs INT form and is the team's entire damage. His Ultimate opens with Corrosion on the array and at 0 potential, single signature copy and maxed skills lands around 500k on the opener — the yardstick the video itself provides. His combo lights off the axis's two non-Nature Inflictions (Xaihi's Cryo + Camille's or Wulfgard's Heat) and her Battle Skill is each loop's Link-boosted hit plus the perpetual Corrosion refresh. You pilot her: the opening two heavies are hers, which is why Xaihi's crystal Arts Amp lands on her."
+          }
+        },
+        {
+          "id": "xaihi",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0010",
+          "gearRec": [
+            "eternal_xiranite_light_armor_t1",
+            "rift_trekker_gloves",
+            "eternal_xiranite_bracing_slab",
+            "eternal_xiranite_bracing_slab"
+          ],
+          "weaponNote": {
+            "es": "Chivalric Virtues 6★ o Stanza of Memorials 5★, tal cual la ficha del video. Nota de kit: el buff de ATK del Stanza tras la Ultimate va a elementos distintos al portador — Xaihi es Cryo, así que aquí Arcane (Nature) sí lo recibe.",
+            "en": "Chivalric Virtues 6★ or Stanza of Memorials 5★, straight from the video's card. Kit note: Stanza's post-Ultimate ATK buff goes to elements other than the wielder — Xaihi is Cryo, so here Arcane (Nature) does receive it."
+          },
+          "gearNote": {
+            "es": "Cold start (umbral 5.8%): Eternal Xiranite Light Armor T1 + Rift Trekker Gloves + 2× Eternal Xiranite Bracing Slab. Para el ciclo la ficha marca \"sin necesidad de recarga\" y cambia los guantes por una pieza morada de vendajes de instrucción (集成实训绷带, fuera del catálogo gold). En cualquier caso, es la build más barata del equipo.",
+            "en": "Cold start (5.8% threshold): Eternal Xiranite Light Armor T1 + Rift Trekker Gloves + 2× Eternal Xiranite Bracing Slab. For the loop the card reads \"no recharge needed\" and swaps the gloves for a purple training-bandage piece (集成实训绷带, outside the gold catalog). Either way, the cheapest build on the team."
+          },
+          "deepNote": {
+            "es": "Xaihi es la primera ficha del dominó y el Amp del equipo. Su Battle Skill cuelga el cristal que cura al pilotado en cada Final Strike — dos cargas, y a vida llena esa curación se vuelve Arts Amp para Arcane — y su combo se gatilla exactamente al agotarse las cargas: el reloj del eje. Su combo aplica el Cryo que consume la Heat de Camille (encendiendo el combo de este) y su Ultimate suma Cryo y Nature Amp a todo el equipo, insertada siempre justo después de su propio combo.",
+            "en": "Xaihi is the first domino and the team's Amp. Her Battle Skill hangs the crystal that heals the piloted operator on every Final Strike — two charges, and at full HP that heal becomes Arts Amp for Arcane — and her combo triggers exactly when the charges run out: the axis's clock. Her combo applies the Cryo that consumes Camille's Heat (lighting his combo) and her Ultimate adds Cryo and Nature Amp for the whole team, always slotted right after her own combo."
+          }
+        },
+        {
+          "id": "wulfgard",
+          "role": "Enabler",
+          "weaponId": "wpn_pistol_0012",
+          "gearRec": [
+            "qingbo_heavy_armor",
+            "qingbo_gloves",
+            "qingbo_bamboo_cutter",
+            "redeemer_seal"
+          ],
+          "weaponNote": {
+            "es": "OBJ Velocitous 5★ es el arma de la ficha — sin alternativa listada. Todo su presupuesto va a recarga.",
+            "en": "OBJ Velocitous 5★ is the card's weapon — no alternative listed. His entire budget goes to recharge."
+          },
+          "gearNote": {
+            "es": "Qingbo Heavy Armor + Qingbo Gloves + Qingbo Bamboo Cutter + Redeemer Seal. Su umbral de ciclo es el requisito duro del eje: 103.8% de recarga, y el propio video calcula que el set Qingbo llega como máximo a 113.3% — se cumple, pero sin regalar nada. No hay build de cold start: su Ultimate ES el eje.",
+            "en": "Qingbo Heavy Armor + Qingbo Gloves + Qingbo Bamboo Cutter + Redeemer Seal. His loop threshold is the axis's hard requirement: 103.8% recharge, and the video itself works out the Qingbo set tops out at 113.3% — it clears, with nothing to spare. There is no cold-start build: his Ultimate IS the axis."
+          },
+          "deepNote": {
+            "es": "Wulfgard no toca una Battle Skill en todo el combate: su vuelta entera es el tri-fuego — combo, Ultimate cancelando el after-cast en el aire, y combos de nuevo al aterrizar. Ese truco ahorra el SP de su Battle Skill y garantiza su Ultimate (con su Combustion forzada) una vez por vuelta, que es el punto donde caen los tres combos finales y el Hunter Pursuit de Camille. Es la pieza que el autor señala como el único requisito real de habilidad del eje — y la razón del aviso de que el equipo no es para recién llegados.",
+            "en": "Wulfgard never touches a Battle Skill all fight: his entire loop is the tri-fire — combo, Ultimate cancelling the after-cast mid-air, combos again on landing. The trick saves his Battle Skill's SP and guarantees his Ultimate (with its forced Combustion) once per loop, the point where the three final combos and Camille's Hunter Pursuit drop. He is the piece the author flags as the axis's one real skill requirement — and the reason for the warning that this team is not for newcomers."
+          }
+        },
+        {
+          "id": "camille",
+          "role": "Enabler",
+          "weaponId": "wpn_lance_carmine",
+          "gearRec": [
+            "frontiers_protection_suit",
+            "frontiers_fiber_gloves_t1",
+            "frontiers_comm",
+            "redeemer_seal"
+          ],
+          "weaponNote": {
+            "es": "Blessing of Lustrous Carmine 6★ (arma promocional) es la única arma de su ficha en el video.",
+            "en": "Blessing of Lustrous Carmine 6★ (signature weapon) is the only weapon on his card in the video."
+          },
+          "gearNote": {
+            "es": "Build de cold start (umbral 91.0%): Frontiers Protection Suit + Frontiers Fiber Gloves T1 + Frontiers Comm + Redeemer Seal. Para el ciclo el umbral baja a 40.4% y la ficha cambia a Type 50 Yinglung Heavy Armor T1 + Frontiers Fiber Gloves T1 + 2× Frontiers Comm. Umbrales muy por debajo de los de otros ejes con Camille: aquí su Ultimate no entra en cada vuelta, entra donde el hueco lo permite.",
+            "en": "Cold-start build (91.0% threshold): Frontiers Protection Suit + Frontiers Fiber Gloves T1 + Frontiers Comm + Redeemer Seal. For the loop the threshold drops to 40.4% and the card switches to Type 50 Yinglung Heavy Armor T1 + Frontiers Fiber Gloves T1 + 2× Frontiers Comm. Far lower thresholds than other Camille axes: here his Ultimate is not in every loop, it goes where the window allows."
+          },
+          "deepNote": {
+            "es": "Camille es la Heat del dominó y el proveedor de Links: su Battle Skill enciende el combo de Wulfgard, su combo deja un Link al terminar en cada vuelta, y su Ultimate — dejada pulsada durante la animación de la de Wulfgard — arma su Battle Skill mejorada (Hunter Pursuit), que añade la segunda capa de Link al cañonazo de Arcane. Es también la mitad de la ronda de recuperación: Battle Skill de Camille → combo de Wulfgard en bucle hasta Corrosion 4. El matiz honesto del autor: pide dedos más finos que Akekuri, que corre el mismo eje con menos exigencia.",
+            "en": "Camille is the domino's Heat and the Link provider: his Battle Skill lights Wulfgard's combo, his combo drops a Link on finish every loop, and his Ultimate — long-pressed during Wulfgard's animation — arms his Enhanced Battle Skill (Hunter Pursuit), which adds the second Link stack to Arcane's cannon shot. He is also half of the recovery round: Camille Battle Skill → Wulfgard combo on repeat until rank-4 Corrosion. The author's honest caveat: he asks for finer fingers than Akekuri, who runs the same axis with less demand."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Las fichas del video dan dos builds por operador — una para el cold start y otra para el ciclo — con su umbral de recarga cada una: Arcane 67.7% de ciclo, Xaihi 5.8% de cold start y nada en ciclo, Camille 91.0% y 40.4%, y Wulfgard un único 103.8% de ciclo que es el número que sostiene el eje entero. Dos piezas de las fichas son moradas y quedan fuera del catálogo gold de la app (la placa de bio-asistencia de Arcane y los vendajes de Xaihi); se describen en texto en sus notas de gear. El resto son sets gold: Hot Work y Rift Trekker para Arcane, Eternal Xiranite para Xaihi, Qingbo para Wulfgard y Frontiers/Yinglung para Camille.",
+          "en": "The video's cards give two builds per operator — one for the cold start, one for the loop — each with its recharge threshold: Arcane 67.7% loop, Xaihi 5.8% cold start and none in the loop, Camille 91.0% and 40.4%, and Wulfgard a single 103.8% loop figure that holds up the entire axis. Two card pieces are purple and sit outside the app's gold catalog (Arcane's bio-aid plate and Xaihi's bandages); they are described in text in their gear notes. The rest are gold sets: Hot Work and Rift Trekker for Arcane, Eternal Xiranite for Xaihi, Qingbo for Wulfgard and Frontiers/Yinglung for Camille."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Arcane sin la promocional",
+              "en": "Arcane without the signature"
+            },
+            "swap": {
+              "es": "Junction Point es la segunda arma de su ficha, sin condiciones adicionales en el video.",
+              "en": "Junction Point is the second weapon on her card, with no extra conditions in the video."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Xaihi sin Chivalric Virtues",
+              "en": "Xaihi without Chivalric Virtues"
+            },
+            "swap": {
+              "es": "Stanza of Memorials cumple de sobra sus umbrales — y como Xaihi es Cryo, su buff de ATK post-Ultimate (solo para elementos distintos al portador) sí alcanza a Arcane.",
+              "en": "Stanza of Memorials clears her thresholds easily — and since Xaihi is Cryo, its post-Ultimate ATK buff (different-element only) does reach Arcane."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Camille — build de ciclo",
+              "en": "Camille — loop build"
+            },
+            "swap": {
+              "es": "Con el cold start ya resuelto, su ficha baja a Type 50 Yinglung Heavy Armor T1 + Frontiers Fiber Gloves T1 + 2× Frontiers Comm (umbral 40.4%).",
+              "en": "With the cold start solved, his card drops to Type 50 Yinglung Heavy Armor T1 + Frontiers Fiber Gloves T1 + 2× Frontiers Comm (40.4% threshold)."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Sin Camille",
+              "en": "No Camille"
+            },
+            "swap": {
+              "es": "Akekuri corre el mismo eje en su lugar (la P2 del video es la vuelta completa con ella) y, según el autor, con menos exigencia de ejecución.",
+              "en": "Akekuri runs the same axis in his place (P2 of the video is the full loop with her) and, per the author, with less execution demand."
+            }
+          }
         ]
       }
     }

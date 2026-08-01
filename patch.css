@@ -1,0 +1,13 @@
+/* patch.css — hotfix visual remoto del data pack (se inyecta al final de <head>,
+   gana la cascada sobre el CSS de la app; ver DATA_PACK.md).
+   2026-07-26: retira el fondo ilustrado de Bases en clientes YA instalados —
+   la imagen (batería Endmin) se quitó de la app porque el autor no respondió
+   el pedido de permiso, así que no se usa. Las instalaciones nuevas ya no traen
+   ni la imagen ni estas reglas; cuando ese OPK sea el común, este patch puede
+   vaciarse. */
+body[data-backdrop="on"] .bases-page::before,
+body[data-backdrop="on"] .bases-page::after { content:none }
+body[data-backdrop="on"] .bases-toolbar,
+body[data-backdrop="on"] .bases-list,
+body[data-backdrop="on"] .bases-list-head { background:var(--surface-2) }
+body[data-backdrop="on"] .bases-detail-card { background:var(--surface-1); -webkit-backdrop-filter:none; backdrop-filter:none }

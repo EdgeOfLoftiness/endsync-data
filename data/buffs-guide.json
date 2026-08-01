@@ -25,7 +25,7 @@
           "status": "modeled",
           "what": { "es": "Los 'X DMG Bonus' (elemental, por tipo de skill, o All Skill) se suman entre sí en un solo grupo: 1 más la suma de todos.", "en": "The 'X DMG Bonus' (elemental, by skill type, or All Skill) sum together in a single group: 1 plus the sum of all of them." },
           "formula": "× (1 + ΣDMG%)",
-          "example": { "es": "Quirk del juego: 'Battle Skill DMG' = 'Combo Skill DMG' (mismo valor). 'All Skill DMG' aplica a battle/combo/ultimate pero NO al ataque básico.", "en": "Game quirk: 'Battle Skill DMG' = 'Combo Skill DMG' (same value). 'All Skill DMG' applies to battle/combo/ultimate but NOT to the basic attack." }
+          "example": { "es": "'All Skill DMG' aplica a battle/combo/ultimate pero NO al ataque básico (que tiene su propio stat). Quirk del gear: los % de 'Battle Skill DMG' y 'Combo Skill DMG' van a la par (misma magnitud en la pieza equivalente del mismo tipo).", "en": "'All Skill DMG' applies to battle/combo/ultimate but NOT to the basic attack (which has its own stat). Gear quirk: 'Battle Skill DMG' and 'Combo Skill DMG' percentages run in lockstep (same magnitude on the equivalent piece of the same type)." }
         },
         {
           "id": "dmg_mult",
@@ -77,18 +77,27 @@
           "name": { "es": "Breach (daño físico recibido)", "en": "Breach (Physical DMG taken)" },
           "stack": "enemy",
           "status": "modeled",
-          "what": { "es": "El 'armor break' del juego, pero NO baja la DEF: deja al enemigo recibiendo más daño FÍSICO un rato. Consume todos los stacks de Vulnerable (el nivel = stacks consumidos). La DEF de todo enemigo es 100 fija y nunca se reduce.", "en": "The game's 'armor break', but it does NOT lower DEF: it leaves the enemy taking more PHYSICAL damage for a while. Consumes all Vulnerable stacks (level = stacks consumed). Every enemy's DEF is a fixed 100 and is never reduced." },
+          "what": { "es": "El 'armor break' del juego, pero NO baja la DEF: deja al enemigo recibiendo más daño FÍSICO un rato. Consume todos los stacks de Vulnerable (el nivel = stacks consumidos). Re-aplicarlo REFRESCA con el valor mayor: no apila. La DEF de todo enemigo es 100 fija y nunca se reduce.", "en": "The game's 'armor break', but it does NOT lower DEF: it leaves the enemy taking more PHYSICAL damage for a while. Consumes all Vulnerable stacks (level = stacks consumed). Re-applying REFRESHES with the higher value: it does not stack. Every enemy's DEF is a fixed 100 and is never reduced." },
           "formula": "Physical DMG Taken += 12/16/20/24% por nivel 1/2/3/4 (dura 12/18/24/30 s)",
           "example": { "es": "Entra por la vía de Vulnerability / Increased DMG Taken (enemyDmgTaken físico), igual que cualquier 'Physical DMG Taken +X%'. No existe shred de DEF en Endfield.", "en": "Applied via Vulnerability / Increased DMG Taken (physical enemyDmgTaken), like any 'Physical DMG Taken +X%'. There is no DEF shred in Endfield." }
+        },
+        {
+          "id": "electrification",
+          "name": { "es": "Electrification (daño Arts recibido)", "en": "Electrification (Arts DMG taken)" },
+          "stack": "enemy",
+          "status": "modeled",
+          "what": { "es": "El debuff que deja la reacción de Electric: el enemigo recibe más daño Arts (todo lo no físico) de TODO el equipo mientras dura. El nivel = stacks de la Infliction consumida al reaccionar. Re-aplicarla REFRESCA con el valor mayor: no apila.", "en": "The debuff left by the Electric reaction: the enemy takes more Arts damage (everything non-physical) from the WHOLE team while it lasts. Level = Infliction stacks consumed on reaction. Re-applying REFRESHES with the higher value: it does not stack." },
+          "formula": "Arts DMG Taken += 12/16/20/24% por nivel 1/2/3/4 (dura 12/18/24/30 s)",
+          "example": { "es": "Entra por la misma vía que Vulnerability (daño recibido), filtrada a daño Arts — el físico no se beneficia. La Arts Intensity del detonante refuerza el valor del debuff.", "en": "Applied via the same path as Vulnerability (damage taken), filtered to Arts damage — Physical does not benefit. The trigger operator Arts Intensity reinforces the debuff value." }
         },
         {
           "id": "corrosion",
           "name": { "es": "Resistencia ↓ (Corrosión)", "en": "Resistance ↓ (Corrosion)" },
           "stack": "enemy",
           "status": "modeled",
-          "what": { "es": "A diferencia de la DEF, la resistencia elemental SÍ se reduce de forma habitual. La Corrosión (reacción de Nature) la baja con rampa en el tiempo.", "en": "Unlike DEF, elemental resistance IS reduced routinely. Corrosion (a Nature reaction) lowers it, ramping up over time." },
-          "formula": "ResMult = res_base + Corrosión/100   (1 = neutral, >1 débil)",
-          "example": { "es": "La resistencia se guarda como multiplicador: 0.8 = resiste (−20%), 1.0 = neutral, 1.2 = débil (+20%). Reducir resistencia SUMA al multiplicador.", "en": "Resistance is stored as a multiplier: 0.8 = resists (−20%), 1.0 = neutral, 1.2 = weak (+20%). Lowering resistance ADDS to the multiplier." }
+          "what": { "es": "A diferencia de la DEF, la resistencia SÍ se reduce. La Corrosión (reacción de Nature) NO es plana: arranca baja y CRECE cada segundo hasta un tope que depende de su nivel (1–4 = stacks consumidos al reaccionar). En TODOS los niveles toca techo a los 10 s, y el tope dura los últimos 5 s (de 15 s en total). Beneficia a todo el equipo y a cualquier tipo de daño.", "en": "Unlike DEF, resistance IS reduced. Corrosion (the Nature reaction) is NOT flat: it starts low and GROWS every second up to a cap set by its level (1–4 = stacks consumed on reaction). At EVERY level it hits the ceiling at 10 s, and the cap lasts the final 5 s (of 15 s total). It benefits the whole team and any damage type." },
+          "formula": "shred(t) = mín(tope, inicial + rampa×t) · N1: 3.6 +0.84/s tope 12 · N2: 4.8 +1.12/s tope 16 · N3: 6 +1.4/s tope 20 · N4: 7.2 +1.68/s tope 24 pts (dura 15 s)",
+          "example": { "es": "Timing perfecto: aplica la Corrosión ~10 s ANTES del burst del equipo, para pegar con el shred al tope (nivel 4: 7.2 pts al aplicar → 15.6 a los 5 s → 24 de los 10 a los 15 s). La Arts Intensity del detonante sube inicial, rampa y tope por igual — la magnitud crece pero el techo sigue a los 10 s. Re-aplicarla REFRESCA (no apila); la resistencia se guarda como multiplicador y el shred le SUMA.", "en": "Perfect timing: apply Corrosion ~10 s BEFORE the team burst, so you hit while the shred sits at the cap (level 4: 7.2 pts on apply → 15.6 at 5 s → 24 from 10 to 15 s). The trigger operator Arts Intensity raises initial, ramp and cap alike — the magnitude grows but the ceiling still lands at 10 s. Re-applying REFRESHES (no stacking); resistance is stored as a multiplier and the shred ADDS to it." }
         },
         {
           "id": "res_ignore",
@@ -106,24 +115,25 @@
           "status": "partial",
           "what": { "es": "Cuando el enemigo está en stagger recibe un bonus de daño plano definido por enemigo.", "en": "While the enemy is staggered it takes a flat damage bonus defined per enemy." },
           "formula": "× staggerMult   (solo en stagger)",
-          "example": { "es": "El valor está por enemigo (enemies.json). El motor lo soporta; la opción se quitó de la calculadora, así que hoy se asume sin stagger (×1).", "en": "The value is per enemy (enemies.json). The engine supports it; the option was removed from the calculator, so today no-stagger (×1) is assumed." }
+          "example": { "es": "El valor está por enemigo (enemies.json). Meta › Rotación lo simula por ventanas de quiebre (los golpes de dentro llevan el bonus); el Comparador de skill aislado lo deja en ×1.", "en": "The value is per enemy (enemies.json). Meta › Rotation simulates it by break windows (hits inside carry the bonus); the isolated skill Comparator leaves it at ×1." }
         },
         {
           "id": "finisher",
           "name": { "es": "Remate", "en": "Finisher", "jp": "終撃", "zh": "处决" },
           "stack": "mult",
-          "status": "pending",
-          "what": { "es": "Multiplicador por 'tier' de rematador. Su fórmula es conocida, pero no tenemos la data por operador, así que hoy lo dejamos en ×1.", "en": "A multiplier by finisher 'tier'. Its formula is known, but we don't have per-operator data, so today it stays ×1." },
-          "formula": "× 1.0 – 1.75   (según tier)"
+          "status": "modeled",
+          "what": { "es": "Cuando un Finisher golpea a un enemigo en stagger máximo (ventana de quiebre), su daño se multiplica según el TIER del enemigo rematado. Solo cuenta un remate por ventana de quiebre.", "en": "When a Finisher hits an enemy at max stagger (break window), its damage is multiplied by the TIER of the enemy being finished. Only one finisher counts per break window." },
+          "formula": "× normal 1.0 · advanced 1.1 · elite 1.25 · boss 1.5 · leader 1.75   (por tier del enemigo)",
+          "example": { "es": "Se simula en Meta › Rotación: el gate exige stagger máximo y descarta un segundo remate en la misma ventana.", "en": "Simulated in Meta › Rotation: the gate requires max stagger and discards a second finisher in the same window." }
         },
         {
           "id": "link",
           "name": { "es": "Enlace", "en": "Link", "jp": "リンク", "zh": "连击" },
           "stack": "mult",
-          "status": "pending",
-          "what": { "es": "Buff que enlaza al carry y escala su daño de skill. Lo tienen Akekuri y Lifeng. Modelable, pero sin tabla por operador todavía: hoy ×1.", "en": "A buff that links to the carry and scales its skill damage. Akekuri and Lifeng have it. Modelable, but no per-operator table yet: today ×1." },
-          "formula": "× skill 0.3–0.75 / ult 0.2–0.5",
-          "example": { "es": "El Link de Akekuri escala el Battle Skill del carry (clave con Avywenna y Laevatain). Pendiente de cablear al motor.", "en": "Akekuri's Link scales the carry's Battle Skill (key with Avywenna and Laevatain). Pending wiring into the engine." }
+          "status": "modeled",
+          "what": { "es": "Recurso de EQUIPO (stacks, máx 4): ciertos operadores lo generan y la siguiente Battle Skill o Ultimate lo CONSUME al empezar, multiplicando SU daño. Lo otorgan el Ultimate de Akekuri y el Combo de Camille/Lifeng.", "en": "A TEAM resource (stacks, max 4): some operators generate it and the next Battle Skill or Ultimate CONSUMES it as it starts, multiplying ITS damage. Akekuri's Ultimate and Camille's/Lifeng's Combo grant it." },
+          "formula": "Battle Skill × (1 + .30/.45/.60/.75) · Ultimate × (1 + .20/.30/.40/.50)   (por 1–4 stacks)",
+          "example": { "es": "El Link de Akekuri escala el Battle Skill del carry (clave con Avywenna y Laevatain). Ya está en el motor y se simula golpe a golpe en Meta › Rotación.", "en": "Akekuri's Link scales the carry's Battle Skill (key with Avywenna and Laevatain). It's now in the engine and simulated hit by hit in Meta › Rotation." }
         },
         {
           "id": "defensive_chain",
@@ -137,7 +147,7 @@
     {
       "id": "reactions",
       "title": { "es": "Reacciones y estados — rama aparte", "en": "Reactions & states — a separate branch" },
-      "note": { "es": "Las reacciones Arts (Burst/Reaction/Shatter) y los estados físicos (Crush, Breach, Combustión…) usan la MISMA fórmula que un golpe normal, con un daño base propio y dos factores extra. Aquí SÍ entra el nivel del operador.", "en": "Arts reactions (Burst/Reaction/Shatter) and physical states (Crush, Breach, Combustion…) use the SAME formula as a normal hit, with their own base multiplier and two extra factors. Here the operator's level DOES matter." },
+      "note": { "es": "Las reacciones Arts (Burst/Reaction/Combustión…) y los estados físicos (Crush, Breach, Shatter…) usan la MISMA fórmula que un golpe normal, con un daño base propio y dos factores extra. Aquí SÍ entra el nivel del operador.", "en": "Arts reactions (Burst/Reaction/Combustion…) and physical states (Crush, Breach, Shatter…) use the SAME formula as a normal hit, with their own base multiplier and two extra factors. Here the operator's level DOES matter." },
       "entries": [
         {
           "id": "hidden_level",
@@ -153,8 +163,8 @@
           "name": { "es": "Intensidad de artes", "en": "Arts Intensity", "jp": "アーツ強度", "zh": "源石技艺强度" },
           "stack": "mult",
           "status": "modeled",
-          "what": { "es": "1 punto = +1% de daño de reacciones/estados/DoT. NO aplica al daño de skill directo (solo a la rama de reacciones).", "en": "1 point = +1% damage on reactions/states/DoT. It does NOT apply to direct skill damage (only to the reaction branch)." },
-          "formula": "× (1 + ArtsIntensity / 100)"
+          "what": { "es": "1 punto = +1% de daño de reacciones/estados/DoT. NO aplica al daño de skill directo (solo a la rama de reacciones). Además REFUERZA los debuffs que dejan las reacciones (Electrification, Breach y la rampa entera de Corrosión).", "en": "1 point = +1% damage on reactions/states/DoT. It does NOT apply to direct skill damage (only to the reaction branch). It also REINFORCES the debuffs reactions leave behind (Electrification, Breach and the whole Corrosion ramp)." },
+          "formula": "daño × (1 + AI/100) · debuffs × (1 + 2·AI/(AI+300))"
         },
         {
           "id": "reaction_base",
@@ -201,10 +211,10 @@
         },
         {
           "id": "cc",
-          "name": { "es": "Control (Lift · Knock Down · Solidify · Slow · Freeze)", "en": "Control (Lift · Knock Down · Solidify · Slow · Freeze)" },
+          "name": { "es": "Control (Lift · Knock Down · Solidification · Slow)", "en": "Control (Lift · Knock Down · Solidification · Slow)" },
           "stack": "na",
           "status": "defensive",
-          "what": { "es": "Inmoviliza o ralentiza. No es un multiplicador, pero habilita: Lift y Knock Down cargan Vulnerability y abren ventanas; Solidify viene de Cryo.", "en": "Locks down or slows. Not a multiplier, but it enables: Lift and Knock Down build Vulnerability and open windows; Solidify comes from Cryo." }
+          "what": { "es": "Inmoviliza o ralentiza. No es un multiplicador, pero habilita: Lift y Knock Down cargan Vulnerability y abren ventanas; Solidification es la reacción de Cryo (Cryo sobre la Infliction de otro elemento) e inmoviliza al enemigo.", "en": "Locks down or slows. Not a multiplier, but it enables: Lift and Knock Down build Vulnerability and open windows; Solidification is the Cryo reaction (Cryo onto the Infliction of another element) and immobilizes the enemy." }
         }
       ]
     }
