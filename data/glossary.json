@@ -138,14 +138,14 @@
       "id": "bis",
       "cat": "stat",
       "match": ["bis", "best in slot"],
-      "label": { "es": "BiS (Best in Slot)", "en": "BiS (Best in Slot)" },
+      "label": { "es": "BIS (Best in Slot)", "en": "BIS (Best in Slot)" },
       "body": { "es": "La mejor opción posible para un operador en ese hueco (arma, set de equipo, pieza). No siempre es obligatoria: a veces hay alternativas casi igual de buenas.", "en": "The best possible option for an operator in that slot (weapon, gear set, piece). Not always mandatory: sometimes there are near-equal alternatives." }
     },
     {
-      "id": "signature_weapon",
+      "id": "bis_weapon",
       "cat": "stat",
-      "match": ["signature weapon", "arma promocional", "arma firma", "arma insignia"],
-      "label": { "es": "Arma promocional (Signature)", "en": "Signature Weapon" },
+      "match": ["BIS weapon", "arma BIS", "arma promocional", "signature weapon", "arma insignia"],
+      "label": { "es": "Arma BIS", "en": "BIS Weapon" },
       "body": { "es": "El arma diseñada específicamente para un operador, normalmente su mejor opción. Suele ser un 6★ con un pasivo hecho a su medida.", "en": "The weapon designed specifically for an operator, usually its best option. Typically a 6★ with a passive tailored to it." }
     },
     {

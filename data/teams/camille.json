@@ -29,7 +29,7 @@
       },
       "pros": [
         { "es": "Heat Susceptibility (7% con mastery 3, 45s) + Weakness + Link: sube el daño del equipo y baja el del enemigo a la vez.", "en": "Heat Susceptibility (7% at mastery 3, 45s) + Weakness + Link: raises team damage and lowers enemy damage at once." },
-        { "es": "El retorno de SP de Camille (20 por Combo, 40 por Ult, 2×20 con Hunter Pursuit) hace el ciclo mucho más fluido.", "en": "Camille's SP refunds (20 per Combo, 40 per Ultimate, 2×20 with Hunter Pursuit) make the cycle much smoother." },
+        { "es": "El retorno de SP de Camille a mastery 3 (20 por Combo, 36 por Ult y 40 por Hunter Pursuit, que llegan en dos tandas de 20) hace el ciclo mucho más fluido.", "en": "Camille's SP refunds at mastery 3 (20 per Combo, 36 per Ultimate and 40 from Hunter Pursuit, arriving as two ticks of 20) make the cycle much smoother." },
         { "es": "La marca se transfiere al matar y re-aplica daño + Heat: en oleadas de mobs se mantiene sola.", "en": "The mark transfers on kill and re-applies damage + Heat: in mob waves it sustains itself." }
       ],
       "cons": [
@@ -43,7 +43,7 @@
         },
         {
           "title": { "es": "Link ×2: Ult → Hunter Pursuit → Combo", "en": "Link ×2: Ult → Hunter Pursuit → Combo" },
-          "body": { "es": "Matar al marcado con el Combo Skill cura a Camille y da una capa de Link (potencia el próximo Battle Skill o Ult del equipo). La Ult devuelve 40 SP y convierte su próximo Battle Skill en Hunter Pursuit: devuelve 2×20 SP, no usa el CD del Combo, no gasta SP, cuenta como Combo Skill (no se come su propio Link) y da Link con solo golpear, sin necesidad de matar. Orden para 2 capas: NO uses el Combo cargado, primero Ult, luego Hunter Pursuit, luego el Combo normal. Ojo al decay: 2 capas juntas en una skill = 45%; separadas en dos skills = 30% cada una (mejor, pero difícil de encajar en el ciclo).", "en": "Killing the marked enemy with the Combo Skill heals Camille and grants a Link stack (empowers the team's next Battle Skill or Ultimate). The Ultimate refunds 40 SP and turns his next Battle Skill into Hunter Pursuit: it refunds 2×20 SP, doesn't use the Combo cooldown, costs no SP, counts as a Combo Skill (it can't eat its own Link) and grants Link on hit — no kill needed. Order for 2 stacks: do NOT use the charged Combo yet; Ult first, then Hunter Pursuit, then the normal Combo. Mind the decay: 2 stacks eaten by one skill = 45%; split across two skills = 30% each (better, but hard to fit into the cycle)." }
+          "body": { "es": "GOLPEAR al marcado con el Combo Skill cura a Camille y da una capa de Link (no hace falta matarlo — contra un boss nunca podrías) (potencia el próximo Battle Skill o Ult del equipo). La Ult devuelve 36 SP y convierte su próximo Battle Skill en Hunter Pursuit: devuelve 40 SP en dos tandas de 20, no usa el CD del Combo, no gasta SP, cuenta como Combo Skill (no se come su propio Link) y da Link incluso si el objetivo no tiene la marca encima. Orden para 2 capas: NO uses el Combo cargado, primero Ult, luego Hunter Pursuit, luego el Combo normal. Ojo al decay: 2 capas juntas en una skill = 45%; separadas en dos skills = 30% cada una (mejor, pero difícil de encajar en el ciclo).", "en": "HITTING the marked enemy with the Combo Skill heals Camille and grants a Link stack (no kill needed, which matters because against a boss you could never get one) (empowers the team's next Battle Skill or Ultimate). The Ultimate refunds 36 SP and turns his next Battle Skill into Hunter Pursuit: it refunds 40 SP as two ticks of 20, doesn't use the Combo cooldown, costs no SP, counts as a Combo Skill (it can't eat its own Link) and grants Link even when the target has no mark on it. Order for 2 stacks: do NOT use the charged Combo yet; Ult first, then Hunter Pursuit, then the normal Combo. Mind the decay: 2 stacks eaten by one skill = 45%; split across two skills = 30% each (better, but hard to fit into the cycle)." }
         },
         {
           "title": { "es": "Curarse también es daño", "en": "Healing is damage too" },
@@ -51,7 +51,7 @@
         },
         {
           "title": { "es": "Ardelia delante de Camille", "en": "Ardelia before Camille" },
-          "body": { "es": "En la pantalla de formación, Ardelia va ANTES que Camille. Así, cuando el heavy de Laevatain absorbe las Heat Inflictions, primero sale el Combo de Ardelia (aplica Corrosion; su Battle Skill después la consume y aplica Arts Susceptibility) y después el de Camille. Si el Combo de Camille sale primero, el Battle Skill de Ardelia se come el Link.", "en": "On the formation screen, Ardelia goes BEFORE Camille. That way, when Laevatain's heavy absorbs the Heat Inflictions, Ardelia's Combo fires first (applies Corrosion; her Battle Skill then consumes it into Arts Susceptibility) and Camille's fires second. If Camille's Combo fires first, Ardelia's Battle Skill eats the Link." }
+          "body": { "es": "En la pantalla de formación, Ardelia va ANTES que Camille. Así, cuando el Final Strike de Laevatain absorbe las Heat Inflictions, el enemigo se queda sin Arts Infliction: eso enciende el Combo de Ardelia (pide un Final Strike sobre un enemigo SIN Vulnerability ni Arts Infliction) y el de Camille (pide que se consuma o absorba una Heat Infliction). Primero sale el Combo de Ardelia (aplica Corrosion; su Battle Skill después la consume y aplica Arts Susceptibility) y después el de Camille. Si el Combo de Camille sale primero, el Battle Skill de Ardelia se come el Link.", "en": "On the formation screen, Ardelia goes BEFORE Camille. That way, when Laevatain's Final Strike absorbs the Heat Inflictions, the enemy is left with no Arts Infliction: that lights up Ardelia's Combo (it wants a Final Strike on an enemy with NO Vulnerability and NO Arts Infliction) and Camille's (it wants a Heat Infliction consumed or absorbed). Ardelia's Combo fires first (applies Corrosion; her Battle Skill then consumes it into Arts Susceptibility) and Camille's fires second. If Camille's Combo fires first, Ardelia's Battle Skill eats the Link." }
         }
       ],
       "rotation": [
@@ -66,7 +66,7 @@
         },
         {
           "phase": { "es": "Absorción y Susceptibilities", "en": "Absorb and Susceptibilities" },
-          "action": { "es": "Heavy de Laevatain: absorbe las 2 capas de Heat y habilita los Combos de Ardelia y Camille.", "en": "Laevatain heavy: absorbs both Heat stacks and lights up Ardelia's and Camille's Combos." },
+          "action": { "es": "Final Strike de Laevatain: absorbe las 2 capas de Heat y habilita los Combos de Ardelia y Camille.", "en": "Laevatain Final Strike: absorbs both Heat stacks and lights up Ardelia's and Camille's Combos." },
           "steps": [
             { "do": { "es": "Primero el Combo de Ardelia (Corrosion).", "en": "Ardelia's Combo first (Corrosion)." }, "key": true },
             { "do": { "es": "Battle Skill de Ardelia: consume la Corrosion → Arts Susceptibility.", "en": "Ardelia's Battle Skill: consumes the Corrosion → Arts Susceptibility." } },
@@ -87,7 +87,7 @@
           "phase": { "es": "Ventana de quema", "en": "Burn window" },
           "action": { "es": "Con la Ult activa: básicos de Laevatain intercalados con Battle Skills mejoradas.", "en": "With the Ultimate up: Laevatain basics woven with Enhanced Battle Skills." },
           "steps": [
-            { "do": { "es": "Combo básico ×3: la 3ª aplica Heat, el heavy la absorbe → 4ª Molten.", "en": "Basic combo ×3: the 3rd hit applies Heat, the heavy absorbs it → 4th Molten." } },
+            { "do": { "es": "Combo básico ×3: la 3ª aplica Heat, el Final Strike la absorbe → 4ª Molten.", "en": "Basic combo ×3: the 3rd hit applies Heat, the Final Strike absorbs it → 4th Molten." } },
             { "do": { "es": "Battle Skill mejorada: consume el Link (+30% de daño independiente).", "en": "Enhanced Battle Skill: consumes the Link (+30% independent damage)." }, "key": true },
             { "do": { "es": "Ult de Camille: Heat + arma Hunter Pursuit para el siguiente Link.", "en": "Camille's Ultimate: Heat + arms Hunter Pursuit for the next Link." } },
             { "do": { "es": "Cuando gire el CD del Combo de Camille: Combo normal + Hunter Pursuit seguidos → Link ×2 → Combo de Antal → 4 Molten → Battle Skill mejorada final.", "en": "When Camille's Combo cooldown is back: normal Combo + Hunter Pursuit back-to-back → Link ×2 → Antal's Combo → 4 Molten → final Enhanced Battle Skill." }, "key": true },
@@ -119,20 +119,20 @@
             },
             {
               "phase": { "es": "Absorber", "en": "Absorb", "jp": "吸収", "zh": "吸收" },
-              "action": { "es": "Heavy de Laevatain absorbe la Heat; Combos de Ardelia y Camille (Corrosion primero) y el Combo de Laevatain se dispara con la Corrosion.", "en": "Laevatain's heavy absorbs the Heat; Ardelia's and Camille's Combos (Corrosion first) and Laevatain's Combo triggers off the Corrosion." },
+              "action": { "es": "Final Strike de Laevatain absorbe la Heat; Combos de Ardelia y Camille (Corrosion primero) y el Combo de Laevatain se dispara con la Corrosion.", "en": "Laevatain's Final Strike absorbs the Heat; Ardelia's and Camille's Combos (Corrosion first) and Laevatain's Combo triggers off the Corrosion." },
               "steps": [
-                { "do": { "es": "Heavy de Laevatain: absorbe la Heat.", "en": "Laevatain's heavy: absorbs the Heat." } },
+                { "do": { "es": "Final Strike de Laevatain: absorbe la Heat.", "en": "Laevatain's Final Strike: absorbs the Heat." } },
                 { "do": { "es": "Combos de Ardelia y Camille (Corrosion primero).", "en": "Ardelia's and Camille's Combos (Corrosion first)." } },
                 { "do": { "es": "El Combo de Laevatain se dispara con la Corrosion.", "en": "Laevatain's Combo triggers off the Corrosion." } }
               ]
             },
             {
               "phase": { "es": "SP y Molten", "en": "SP and Molten" },
-              "action": { "es": "Junta 100 SP → Battle Skill de Camille (Heat) → heavy de Laevatain (4ª Molten) → Combo de Camille.", "en": "Bank 100 SP → Camille's Battle Skill (Heat) → Laevatain heavy (4th Molten) → Camille's Combo." },
+              "action": { "es": "Junta 100 SP → Battle Skill de Camille (Heat) → Final Strike de Laevatain (4ª Molten) → Combo de Camille.", "en": "Bank 100 SP → Camille's Battle Skill (Heat) → Laevatain Final Strike (4th Molten) → Camille's Combo." },
               "steps": [
                 { "do": { "es": "Junta 100 SP.", "en": "Bank 100 SP." } },
                 { "do": { "es": "Battle Skill de Camille (Heat).", "en": "Camille's Battle Skill (Heat)." } },
-                { "do": { "es": "Heavy de Laevatain (4ª Molten).", "en": "Laevatain heavy (4th Molten)." } },
+                { "do": { "es": "Final Strike de Laevatain (4ª Molten).", "en": "Laevatain Final Strike (4th Molten)." } },
                 { "do": { "es": "Combo de Camille.", "en": "Camille's Combo." } }
               ]
             },
@@ -180,16 +180,16 @@
           "gearRec": ["redeemer_armor", "hot_work_gauntlets", "hot_work_pyrometer", "hot_work_pyrometer"],
           "weaponNote": { "es": "Forgeborn Scathe > Umbral Torch > White Night Nova > Fortmaker.", "en": "Forgeborn Scathe > Umbral Torch > White Night Nova > Fortmaker." },
           "gearNote": { "es": "Build de burst de Battle Skill (Redeemer Armor + Hot Work Gauntlets + Pyrometer ×2); artificing: daño de Battle Skill / recarga primero, Intellect después. Para cold start con la Ult llena más rápido: Redeemer Armor + Hot Work Gauntlets + Redeemer Seal ×2 (recarga primero).", "en": "Battle Skill burst build (Redeemer Armor + Hot Work Gauntlets + Pyrometer ×2); artificing: Battle Skill damage / recharge first, Intellect after. For cold starts that fill the Ultimate faster: Redeemer Armor + Hot Work Gauntlets + Redeemer Seal ×2 (recharge first)."},
-          "deepNote": { "es": "Mismo plan de siempre: apilar 4 Molten con heavies que absorben Heat, soltar la Battle Skill mejorada (ahora con Link) y quemar la ventana de Ult con básicos + Battle Skills mejoradas.", "en": "Same plan as always: stack 4 Molten with Heat-absorbing heavies, fire Enhanced Battle Skill (now Link-boosted) and burn the Ultimate window with basics + Enhanced casts." }
+          "deepNote": { "es": "Mismo plan de siempre: apilar 4 Molten con Final Strikes que absorben Heat, soltar la Battle Skill mejorada (ahora con Link) y quemar la ventana de Ult con básicos + Battle Skills mejoradas.", "en": "Same plan as always: stack 4 Molten with Heat-absorbing Final Strikes, fire Enhanced Battle Skill (now Link-boosted) and burn the Ultimate window with basics + Enhanced casts." }
         },
         {
           "id": "ardelia",
           "role": "Buffer",
           "weaponId": "wpn_funnel_0013",
           "gearRec": null,
-          "weaponNote": { "es": "Dreams of the Starry Beach (Intellect / curación / Infliction).", "en": "Dreams of the Starry Beach (Intellect / healing / Infliction)." },
-          "gearNote": { "es": "El video la lleva con el set MORADO Blight RES (天灾防护): Heavy Armor T1 + Gloves + Filter, más un inyector Bio-aid morado — optimiza el reparto de SP de la primera ronda. Ese set no existe en el catálogo gold de la app, por eso no hay picks aquí. Artificing: bonus de curación primero, Will después.", "en": "The video runs her on the PURPLE Blight RES set (天灾防护): Heavy Armor T1 + Gloves + Filter, plus a purple Bio-aid injector — optimizes first-round SP distribution. That set isn't in the app's gold catalog, hence no picks here. Artificing: healing bonus first, Will after." },
-          "deepNote": { "es": "Su Combo aplica Corrosion; su Battle Skill la consume y aplica Arts Susceptibility. Además cura, y cada cura de Camille alimenta Bloodfount Revival.", "en": "Her Combo applies Corrosion; her Battle Skill consumes it into Arts Susceptibility. She also heals, and every Camille heal feeds Bloodfount Revival." }
+          "weaponNote": { "es": "Dreams of the Starry Beach: Intellect + Treatment Bonus 46.4%, y cuando su Battle Skill consume la Corrosion el enemigo recibe Arts DMG Taken +16% durante 25 s.", "en": "Dreams of the Starry Beach: Intellect + 46.4% Treatment Bonus, and when her Battle Skill consumes the Corrosion the enemy takes Arts DMG Taken +16% for 25s." },
+          "gearNote": { "es": "El video la lleva con el set Catastrophe (天灾防护): Heavy Armor T1 + Gloves + Filter, más la LYNX Aegis Injector (生物辅助护盾针) — optimiza el reparto de SP de la primera ronda. El Catastrophe es de nivel 50 y el catálogo de la app es de nivel 70, así que no hay picks aquí; la Aegis Injector sí está. Artificing: bonus de curación primero, Will después.", "en": "The video runs her on the Catastrophe set (天灾防护): Heavy Armor T1 + Gloves + Filter, plus the LYNX Aegis Injector (生物辅助护盾针) — optimizes first-round SP distribution. Catastrophe is a level 50 set and the app catalogs level 70 gear, hence no picks here; the Aegis Injector is in the app. Artificing: healing bonus first, Will after." },
+          "deepNote": { "es": "Su Combo aplica Corrosion; su Battle Skill la consume y aplica Physical Susceptibility y Arts Susceptibility (en este equipo de fuego solo cuenta la de Arts). Además cura, y cada cura de Camille alimenta Bloodfount Revival.", "en": "Her Combo applies Corrosion; her Battle Skill consumes it into Physical Susceptibility and Arts Susceptibility (only the Arts one matters in this fire team). She also heals, and every Camille heal feeds Bloodfount Revival." }
         },
         {
           "id": "camille",
@@ -198,7 +198,7 @@
           "gearRec": ["frontiers_protection_suit", "frontiers_fiber_gloves_t1", "frontiers_comm", "redeemer_seal"],
           "weaponNote": { "es": "Blessing of Lustrous Carmine (UP): a refinamiento máximo, 50.4% de recarga (se autoabastece), +16.8% de ATK al equipo al devolver SP y +16.8% de Heat DMG al equipo al aplicar Heat. Alternativa: Beacon of Duty — al aplicar Heat Susceptibility sube el daño físico y Heat del equipo; en daño total de equipo, Beacon r0 ≈ 91.98% del UP r0, y a r5 ≈ 93.82%.", "en": "Blessing of Lustrous Carmine (UP): at max refinement, 50.4% recharge (self-sufficient), +16.8% team ATK on SP refunds and +16.8% team Heat DMG on Heat application. Alternative: Beacon of Duty — boosts team physical and Heat damage when applying Heat Susceptibility; in total team damage, Beacon r0 ≈ 91.98% of the UP at r0, and r5 ≈ 93.82%." },
           "gearNote": { "es": "El set más universal: Frontiers (recarga propia + daño al equipo) + Redeemer Seal. Artificing: SOLO recarga; si ya te sobra, ni eso. Swaps en «Equipo» → alternativas.", "en": "The most universal set: Frontiers (own recharge + team damage) + Redeemer Seal. Artificing: recharge ONLY; if you already have plenty, not even that. Swaps under Equipment → alternatives." },
-          "deepNote": { "es": "Dupes (por daño total de equipo): M1 primero (mejores números y duración de Heat Susceptibility y Weakness; ~+3.73% en este equipo), después M5 (el buff a aliados pasa de 5% a 12.5%; ~+3.1% sobre M4), después M3 (~+20% de su daño propio). M4 abarata la Ult (según tu recarga); M2 es puro stat y aporta poco con build de soporte.", "en": "Dupes (by total team damage): M1 first (better Heat Susceptibility and Weakness numbers and duration; ~+3.73% in this team), then M5 (ally buff goes 5% → 12.5%; ~+3.1% over M4), then M3 (~+20% own damage). M4 cheapens the Ultimate (depends on your recharge); M2 is a pure stat bump and adds little on a support build." }
+          "deepNote": { "es": "Dupes (por daño total de equipo): potencial 1 primero (mejores números y duración de Heat Susceptibility y Weakness; ~+3.73% en este equipo), después potencial 5 (el buff a aliados pasa de 5% a 12.5%; ~+3.1% sobre potencial 4), después potencial 3 (~+20% de su daño propio). El potencial 4 abarata la Ult (según tu recarga); el 2 es puro stat y aporta poco con build de soporte.", "en": "Dupes (by total team damage): potential 1 first (better Heat Susceptibility and Weakness numbers and duration; ~+3.73% in this team), then potential 5 (ally buff goes 5% → 12.5%; ~+3.1% over potential 4), then potential 3 (~+20% own damage). Potential 4 cheapens the Ultimate (depends on your recharge); potential 2 is a pure stat bump and adds little on a support build." }
         },
         {
           "id": "antal",
@@ -221,14 +221,14 @@
         "whatItDoes": { "es": "Laevatain quema con su Ult y sus Battle Skills mejorados; Camille marca al enemigo (recibe más daño de fuego), devuelve SP al equipo y da un buff (Link) que potencia el siguiente skill; Ardelia cura y debuffea; Antal suma daño y otra Susceptibility.", "en": "Laevatain burns with her Ultimate and Enhanced Battle Skills; Camille marks the enemy (takes more fire damage), refunds SP to the team and grants a buff (Link) that empowers the next skill; Ardelia heals and debuffs; Antal adds damage and another Susceptibility." },
         "steps": [
           { "do": { "es": "Abre con el Battle Skill de Antal y el de Camille.", "en": "Open with Antal's Battle Skill and Camille's." }, "who": "antal" },
-          { "do": { "es": "Heavy de Laevatain para absorber el fuego.", "en": "Laevatain heavy to absorb the fire." }, "who": "laevatain" },
+          { "do": { "es": "Final Strike de Laevatain para absorber el fuego.", "en": "Laevatain Final Strike to absorb the fire." }, "who": "laevatain" },
           { "do": { "es": "Combo de Ardelia primero, después el de Camille.", "en": "Ardelia's Combo first, then Camille's." }, "who": "ardelia" },
           { "do": { "es": "Ult de Laevatain y a quemar: básicos + Battle Skills mejoradas.", "en": "Laevatain's Ultimate and burn: basics + Enhanced Battle Skills." }, "who": "laevatain" },
           { "do": { "es": "Ult de Camille cuando la tengas; sus Combos, siempre que se iluminen.", "en": "Camille's Ultimate when ready; his Combos whenever they light up." }, "who": "camille" }
         ],
         "gear": [
           { "id": "laevatain", "line": { "es": "Set de burst para el Battle Skill.", "en": "Burst set for the Battle Skill." } },
-          { "id": "ardelia", "line": { "es": "En el video usa un set morado de curación/SP (no está en la app).", "en": "The video runs a purple healing/SP set (not in the app)." } },
+          { "id": "ardelia", "line": { "es": "En el video usa el set Catastrophe (nivel 50, fuera del catálogo de la app) + la LYNX Aegis Injector.", "en": "The video runs the Catastrophe set (level 50, outside the app's catalog) + the LYNX Aegis Injector." } },
           { "id": "camille", "line": { "es": "Frontiers + Redeemer Seal; artificing solo recarga.", "en": "Frontiers + Redeemer Seal; recharge-only artificing." } },
           { "id": "antal", "line": { "es": "Recarga pura para su Ult.", "en": "Pure recharge for his Ultimate." } }
         ]
@@ -243,8 +243,8 @@
         "en": "Camille + Pogranichnik form a double-vanguard core with nearly bottomless SP: infinite-fire mode for Rossi (main control) and Mi Fu (Battle Skill burst at 3 Vulnerability stacks). 4th-slot alternatives: Ardelia (double Susceptibility) or Ember (survivability + free Vulnerability)."
       },
       "overview": {
-        "es": "El núcleo del gameplay es disparar el Combo de Rossi: controlas a Rossi a puro heavy, pulsas Combos en cuanto se iluminan y sueltas la Ult cuando está lista. Si el enemigo no tiene Vulnerability, Battle Skill de Rossi; si no tiene Heat, Battle Skill de Camille; el SP sobrante se quema en Battle Skills de Rossi para apilar Vulnerability. El Combo de Rossi consume la Heat Infliction (dispara el Combo de Camille → SP + Link) y a 3 capas de Vulnerability se dispara el Combo de Mi Fu, que habilita su Battle Skill de burst.",
-        "en": "The core gameplay loop is triggering Rossi's Combo: you pilot Rossi with heavies, press Combos as they light up and cast the Ultimate when ready. No Vulnerability on the enemy? Rossi Battle Skill. No Heat? Camille Battle Skill. Spare SP burns into Rossi Battle Skills to stack Vulnerability. Rossi's Combo consumes the Heat Infliction (triggering Camille's Combo → SP + Link) and at 3 Vulnerability stacks Mi Fu's Combo fires, enabling her burst Battle Skill."
+        "es": "El núcleo del gameplay es disparar el Combo de Rossi: controlas a Rossi a puro Final Strike, pulsas Combos en cuanto se iluminan y sueltas la Ult cuando está lista. El Combo de Rossi pide las DOS cosas encima del enemigo (Vulnerability y Arts Infliction): si le falta Vulnerability, Battle Skill de Rossi (aplica Lift, que la acumula); si le falta Heat, Battle Skill de Camille; el SP sobrante se quema en Battle Skills de Rossi para apilar Vulnerability. El Combo de Rossi consume la Heat Infliction (dispara el Combo de Camille → SP + Link) y a 3 capas de Vulnerability se dispara el Combo de Mi Fu, que habilita su Battle Skill de burst.",
+        "en": "The core gameplay loop is triggering Rossi's Combo: you pilot Rossi with Final Strikes, press Combos as they light up and cast the Ultimate when ready. Rossi's Combo needs BOTH on the enemy (Vulnerability and Arts Infliction): missing Vulnerability? Rossi Battle Skill (it applies Lift, which stacks it). Missing Heat? Camille Battle Skill. Spare SP burns into Rossi Battle Skills to stack Vulnerability. Rossi's Combo consumes the Heat Infliction (triggering Camille's Combo → SP + Link) and at 3 Vulnerability stacks Mi Fu's Combo fires, enabling her burst Battle Skill."
       },
       "playstyle": {
         "difficulty": { "es": "Media-Alta", "en": "Mid-High" },
@@ -267,7 +267,7 @@
       "whyItWorks": [
         {
           "title": { "es": "El bucle de Rossi", "en": "The Rossi loop" },
-          "body": { "es": "Rossi de control: heavy continuo, Combos al iluminarse, Ult cuando esté. Sin Vulnerability → su Battle Skill (aplica Clawmark); sin Heat → Battle Skill de Camille; SP sobrante → más Battle Skills de Rossi para apilar Vulnerability. Su Combo consume la Heat y dispara el de Camille; a 3 Vulnerability se dispara el Combo de Mi Fu → Battle Skill de Mi Fu para el burst.", "en": "Rossi on control: continuous heavies, Combos on light-up, Ultimate when ready. No Vulnerability → her Battle Skill (applies Clawmark); no Heat → Camille's Battle Skill; spare SP → more Rossi Battle Skills to stack Vulnerability. Her Combo consumes the Heat and triggers Camille's; at 3 Vulnerability Mi Fu's Combo fires → Mi Fu Battle Skill for the burst." }
+          "body": { "es": "Rossi de control: Final Strikes en continuo, Combos al iluminarse, Ult cuando esté. Sin Vulnerability → su Battle Skill, que aplica Lift; con Vulnerability ya encima, esa misma Battle Skill suelta además el Wolven Ambrage y el talento Nicks and Scratches deja el Razor Clawmark. Sin Heat → Battle Skill de Camille; SP sobrante → más Battle Skills de Rossi para apilar Vulnerability. Su Combo consume la Heat y dispara el de Camille; a 3 Vulnerability se dispara el Combo de Mi Fu → Battle Skill de Mi Fu para el burst.", "en": "Rossi on control: continuous Final Strikes, Combos on light-up, Ultimate when ready. No Vulnerability → her Battle Skill, which applies Lift; with Vulnerability already up, that same Battle Skill also fires the Wolven Ambrage and the Nicks and Scratches talent leaves the Razor Clawmark. No Heat → Camille's Battle Skill; spare SP → more Rossi Battle Skills to stack Vulnerability. Her Combo consumes the Heat and triggers Camille's; at 3 Vulnerability Mi Fu's Combo fires → Mi Fu Battle Skill for the burst." }
         },
         {
           "title": { "es": "Link ×2 para la Ult de Rossi", "en": "Link ×2 for Rossi's Ultimate" },
@@ -281,11 +281,11 @@
       "rotation": [
         {
           "phase": { "es": "Apertura (hot start)", "en": "Opening (hot start)" },
-          "action": { "es": "Ult de Pogranichnik → Ult de Mi Fu (primera capa de Vulnerability) → Battle Skill de Rossi (Clawmark) → Battle Skill de Camille (Heat + marca).", "en": "Pogranichnik's Ultimate → Mi Fu's Ultimate (first Vulnerability stack) → Rossi's Battle Skill (Clawmark) → Camille's Battle Skill (Heat + mark)." },
+          "action": { "es": "Ult de Pogranichnik → Ult de Mi Fu (primera capa de Vulnerability) → Battle Skill de Rossi (Lift, y Clawmark si ya hay Vulnerability) → Battle Skill de Camille (Heat + marca).", "en": "Pogranichnik's Ultimate → Mi Fu's Ultimate (first Vulnerability stack) → Rossi's Battle Skill (Lift, plus Clawmark if Vulnerability is already up) → Camille's Battle Skill (Heat + mark)." },
           "steps": [
             { "do": { "es": "Ult de Pogranichnik.", "en": "Pogranichnik's Ultimate." } },
             { "do": { "es": "Ult de Mi Fu (primera capa de Vulnerability).", "en": "Mi Fu's Ultimate (first Vulnerability stack)." } },
-            { "do": { "es": "Battle Skill de Rossi (Clawmark).", "en": "Rossi's Battle Skill (Clawmark)." } },
+            { "do": { "es": "Battle Skill de Rossi (Lift → Vulnerability; con Vulnerability ya puesta, además Clawmark).", "en": "Rossi's Battle Skill (Lift → Vulnerability; with Vulnerability already up, Clawmark too)." } },
             { "do": { "es": "Battle Skill de Camille (Heat + marca).", "en": "Camille's Battle Skill (Heat + mark)." } }
           ]
         },
@@ -339,10 +339,10 @@
             },
             {
               "phase": { "es": "Decisión", "en": "Decision" },
-              "action": { "es": "Dos manejos: (a) romper con el Battle Skill de Pogranichnik para recargar — alinea mejor las Ults con el burst; o (b) guardar la Vulnerability y esperar el próximo Combo de Rossi para el golpe fuerte.", "en": "Two lines: (a) shatter with Pogranichnik's Battle Skill to recharge — aligns Ultimates with the burst better; or (b) save the Vulnerability and wait for Rossi's next Combo for the big hit." },
+              "action": { "es": "Dos manejos: (a) romper con el Battle Skill de Pogranichnik para recargar — alinea mejor las Ults con el burst; o (b) guardar la Vulnerability y esperar el próximo Combo de Rossi para el golpe gordo.", "en": "Two lines: (a) shatter with Pogranichnik's Battle Skill to recharge — aligns Ultimates with the burst better; or (b) save the Vulnerability and wait for Rossi's next Combo for the big hit." },
               "steps": [
                 { "do": { "es": "(a) Romper con el Battle Skill de Pogranichnik para recargar.", "en": "(a) Shatter with Pogranichnik's Battle Skill to recharge." }, "note": { "es": "Alinea mejor las Ults con el burst.", "en": "Aligns Ultimates with the burst better." } },
-                { "do": { "es": "(b) Guardar la Vulnerability y esperar el próximo Combo de Rossi.", "en": "(b) Save the Vulnerability and wait for Rossi's next Combo." }, "note": { "es": "Para el golpe fuerte.", "en": "For the big hit." } }
+                { "do": { "es": "(b) Guardar la Vulnerability y esperar el próximo Combo de Rossi.", "en": "(b) Save the Vulnerability and wait for Rossi's next Combo." }, "note": { "es": "Para el golpe gordo.", "en": "For the big hit." } }
               ]
             },
             {
@@ -390,8 +390,8 @@
           "weaponId": "wpn_sword_0022",
           "gearRec": ["mi_security_armor_t1", "redeemer_gloves", "mi_security_scope_t1", "mi_security_scope_t1"],
           "weaponNote": { "es": "Lupine Scarlet > Glorious Memory.", "en": "Lupine Scarlet > Glorious Memory." },
-          "gearNote": { "es": "Build estable (MI Security Armor T1 + Redeemer + Scope T1 ×2; artificing: Agility en pecho/guantes, Crit Rate en accesorios). La build de techo del video cambia a MI Security Gloves T1 + una placa Bio-aid MORADA (main ability) que no está en el catálogo gold de la app.", "en": "Stable build (MI Security Armor T1 + Redeemer + Scope T1 ×2; artificing: Agility on chest/gloves, Crit Rate on accessories). The video's ceiling build swaps to MI Security Gloves T1 + a PURPLE Bio-aid plate (main ability) that isn't in the app's gold catalog." },
-          "deepNote": { "es": "Control principal: heavies constantes, Battle Skill para Clawmark/Vulnerability, Combo como disparador de toda la cadena y Ult con Link ×2 para el pico de daño.", "en": "Main control: constant heavies, Battle Skill for Clawmark/Vulnerability, Combo as the trigger of the whole chain and a Link ×2 Ultimate for the damage spike." }
+          "gearNote": { "es": "Build estable (MI Security Armor T1 + Redeemer + Scope T1 ×2; artificing: Agility en pecho/guantes, Crit Rate en accesorios). La build de techo del video cambia a MI Security Gloves T1 + la LYNX Slab (生物辅助护板), que da Main Attribute +26.9% y sí está en la app.", "en": "Stable build (MI Security Armor T1 + Redeemer + Scope T1 ×2; artificing: Agility on chest/gloves, Crit Rate on accessories). The video's ceiling build swaps to MI Security Gloves T1 + the LYNX Slab (生物辅助护板), which gives Main Attribute +26.9% and is in the app." },
+          "deepNote": { "es": "Control principal: Final Strikes constantes, Battle Skill para Lift/Vulnerability (y Clawmark cuando ya hay Vulnerability encima), Combo como disparador de toda la cadena y Ult con Link ×2 para el pico de daño.", "en": "Main control: constant Final Strikes, Battle Skill for Lift/Vulnerability (and Clawmark once Vulnerability is already up), Combo as the trigger of the whole chain and a Link ×2 Ultimate for the damage spike." }
         },
         {
           "id": "mifu",
@@ -409,7 +409,7 @@
           "gearRec": ["redeemer_armor", "eternal_xiranite_gloves", "eternal_xiranite_power_core", "eternal_xiranite_power_core"],
           "weaponNote": { "es": "Blessing of Lustrous Carmine (UP) > Beacon of Duty — aquí Beacon pega especialmente bien: su buff de daño físico+Heat cubre a los dos DPS.", "en": "Blessing of Lustrous Carmine (UP) > Beacon of Duty — Beacon fits especially well here: its physical+Heat damage buff covers both DPS." },
           "gearNote": { "es": "Con doble vanguard, Camille viste recarga pura (Redeemer Armor + Eternal Xiranite Gloves + Power Core ×2) y Pogranichnik lleva el Frontiers. Alternativa: Frontiers Protection Suit + Fiber Gloves T1 + Comm + Redeemer Seal para acortar el CD del Combo.", "en": "With a double vanguard, Camille wears pure recharge (Redeemer Armor + Eternal Xiranite Gloves + Power Core ×2) and Pogranichnik carries the Frontiers set. Alternative: Frontiers Protection Suit + Fiber Gloves T1 + Comm + Redeemer Seal to shorten the Combo cooldown." },
-          "deepNote": { "es": "Mismo kit, otro trabajo: aquí su prioridad es alimentar SP a los dos DPS y guardar el Link ×2 para la Ult de Rossi. Dupes: M1 > M5 > M3 (ver la guía de fuego para los números).", "en": "Same kit, different job: here his priority is feeding SP to both DPS and banking Link ×2 for Rossi's Ultimate. Dupes: M1 > M5 > M3 (see the fire guide for the numbers)." }
+          "deepNote": { "es": "Mismo kit, otro trabajo: aquí su prioridad es alimentar SP a los dos DPS y guardar el Link ×2 para la Ult de Rossi. Dupes: potencial 1 > 5 > 3 (ver la guía de fuego para los números).", "en": "Same kit, different job: here his priority is feeding SP to both DPS and banking Link ×2 for Rossi's Ultimate. Dupes: potential 1 > 5 > 3 (see the fire guide for the numbers)." }
         },
         {
           "id": "pogranichnik",
@@ -418,21 +418,21 @@
           "gearRec": ["frontiers_protection_suit", "frontiers_fiber_gloves_t1", "frontiers_o2_tube", "redeemer_seal"],
           "weaponNote": { "es": "Thermite Cutter > Never Rest > Fortmaker.", "en": "Thermite Cutter > Never Rest > Fortmaker." },
           "gearNote": { "es": "Frontiers + Redeemer Seal para acortar el CD del Combo y buffear al equipo (artificing: eficiencia de recarga de Ult y Arts Intensity; después Will y Agility). Alternativa para apilar Arts Intensity y el bonus de romper: Bonekrusha Poncho T1 + Hot Work Gloves + Power Cartridge ×2.", "en": "Frontiers + Redeemer Seal to shorten the Combo cooldown and buff the team (artificing: Ult recharge efficiency and Arts Intensity; then Will and Agility). Alternative to stack Arts Intensity and the shatter bonus: Bonekrusha Poncho T1 + Hot Work Gloves + Power Cartridge ×2." },
-          "deepNote": { "es": "La otra mitad del núcleo vanguard: SP, buff power de su kit y de su Ult, y la decisión de romper o no romper en cold start.", "en": "The other half of the vanguard core: SP, buff power from his kit and Ultimate, and the shatter-or-hold decision on cold starts." }
+          "deepNote": { "es": "La otra mitad del núcleo vanguard: SP, buff power de su kit y de su Ult, y la decisión de romper o no romper en cold start. Su Battle Skill aplica Breach (consume toda la Vulnerability) y su Combo solo se enciende cuando un Crush o un Breach acaba de consumir Vulnerability — por eso va detrás del Battle Skill de Mi Fu o del suyo propio.", "en": "The other half of the vanguard core: SP, buff power from his kit and Ultimate, and the shatter-or-hold decision on cold starts. His Battle Skill applies Breach (consuming every Vulnerability stack) and his Combo only lights up right after a Crush or a Breach consumed Vulnerability — which is why it follows Mi Fu’s Battle Skill or his own." }
         }
       ],
       "equipment": {
         "intro": { "es": "Los dos DPS visten sus sets de daño de siempre; el núcleo vanguard reparte los sets de soporte: Pogranichnik el Frontiers, Camille el Eternal Xiranite de recarga.", "en": "Both DPS wear their usual damage sets; the vanguard core splits the support sets: Pogranichnik takes Frontiers, Camille the recharge Eternal Xiranite." },
         "alts": [
-          { "scenario": { "es": "Techo de daño en Rossi", "en": "Damage ceiling on Rossi" }, "swap": { "es": "Redeemer + 2º Scope → MI Security Gloves T1 + placa Bio-aid morada (fuera del catálogo de la app).", "en": "Redeemer + 2nd Scope → MI Security Gloves T1 + purple Bio-aid plate (outside the app's catalog)." } },
+          { "scenario": { "es": "Techo de daño en Rossi", "en": "Damage ceiling on Rossi" }, "swap": { "es": "Redeemer + 2º Scope → MI Security Gloves T1 + LYNX Slab (生物辅助护板).", "en": "Redeemer + 2nd Scope → MI Security Gloves T1 + LYNX Slab (生物辅助护板)." } },
           { "scenario": { "es": "A Mi Fu le falta recarga", "en": "Mi Fu is short on recharge" }, "swap": { "es": "Grizzled Edge Armor + NAV Beacon → Swordmancer Light Armor + 2º Push Knife.", "en": "Grizzled Edge Armor + NAV Beacon → Swordmancer Light Armor + 2nd Push Knife." } }
         ]
       },
       "simple": {
-        "whatItDoes": { "es": "Dos vanguards (Camille y Pogranichnik) generan tanto SP que Rossi y Mi Fu nunca paran de tirar skills. Rossi lleva el ritmo con heavies y Combos; Mi Fu revienta al enemigo cuando junta 3 capas de Vulnerability.", "en": "Two vanguards (Camille and Pogranichnik) generate so much SP that Rossi and Mi Fu never stop casting. Rossi sets the pace with heavies and Combos; Mi Fu blows the enemy up once 3 Vulnerability stacks are in." },
+        "whatItDoes": { "es": "Dos vanguards (Camille y Pogranichnik) generan tanto SP que Rossi y Mi Fu nunca paran de tirar skills. Rossi lleva el ritmo con Final Strikes y Combos; Mi Fu revienta al enemigo cuando junta 3 capas de Vulnerability.", "en": "Two vanguards (Camille and Pogranichnik) generate so much SP that Rossi and Mi Fu never stop casting. Rossi sets the pace with Final Strikes and Combos; Mi Fu blows the enemy up once 3 Vulnerability stacks are in." },
         "steps": [
-          { "do": { "es": "Controla a Rossi: heavy sin parar.", "en": "Pilot Rossi: heavy non-stop." }, "who": "rossi" },
-          { "do": { "es": "¿Enemigo sin marca de garra? Battle Skill de Rossi. ¿Sin fuego? Battle Skill de Camille.", "en": "Enemy missing the claw mark? Rossi Battle Skill. No fire? Camille Battle Skill." }, "who": "camille" },
+          { "do": { "es": "Controla a Rossi: Final Strike sin parar.", "en": "Pilot Rossi: Final Strike non-stop." }, "who": "rossi" },
+          { "do": { "es": "¿Enemigo sin Vulnerability? Battle Skill de Rossi. ¿Sin fuego? Battle Skill de Camille.", "en": "Enemy missing Vulnerability? Rossi Battle Skill. No fire? Camille Battle Skill." }, "who": "camille" },
           { "do": { "es": "Pulsa cada Combo que se ilumine.", "en": "Press every Combo that lights up." }, "who": "rossi" },
           { "do": { "es": "Cuando Mi Fu junte 3 capas de Vulnerability: su Battle Skill, el golpe gordo.", "en": "When Mi Fu has 3 Vulnerability stacks: her Battle Skill, the big hit." }, "who": "mifu" },
           { "do": { "es": "Ults cuando estén; la de Rossi, justo después del Combo de Camille.", "en": "Ultimates when ready; Rossi's right after Camille's Combo." }, "who": "rossi" }

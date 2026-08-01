@@ -48,6 +48,17 @@
      }
     ]
    },
+   "duringState": {
+    "zfy_ult": {
+     "battle_skill": {
+      "firstNoSp": true,
+      "firstNoConsume": true
+     },
+     "combo_skill": {
+      "cdMult": 0.25
+     }
+    }
+   },
    "replace": {
     "seq1": [
      {
@@ -127,14 +138,61 @@
      }
     ]
    },
+   "replace": {
+    "seq1": [
+     {
+      "requires": "lvt_ult",
+      "multStat": "Enhanced BATK SEQ 1 Multiplier",
+      "label": "BATK mejorado + Sviga Laevi (Ult)"
+     }
+    ],
+    "seq2": [
+     {
+      "requires": "lvt_ult",
+      "multStat": "Enhanced BATK SEQ 2 Multiplier",
+      "label": "BATK mejorado + Sviga Laevi (Ult)"
+     }
+    ],
+    "seq3": [
+     {
+      "requires": "lvt_ult",
+      "multStat": "Enhanced BATK SEQ 3 Multiplier",
+      "label": "BATK mejorado + Sviga Laevi (Ult)"
+     }
+    ],
+    "seq4": [
+     {
+      "requires": "lvt_ult",
+      "multStat": "Enhanced BATK SEQ 4 Multiplier",
+      "label": "BATK mejorado + Sviga Laevi (Ult)"
+     }
+    ],
+    "battle_skill": [
+     {
+      "requires": "lvt_ult",
+      "multStat": "During Ultimate: BATK SEQ 1 Multiplier",
+      "label": "Battle mejorada (Ult): golpe 1 — reemplaza la base"
+     }
+    ]
+   },
+   "condHits": {
+    "battle_skill": [
+     {
+      "requires": "lvt_ult",
+      "multStat": "During Ultimate: BATK SEQ 2 Multiplier",
+      "label": "Battle mejorada (Ult): golpe 2"
+     },
+     {
+      "requires": "lvt_ult",
+      "multStat": "During Ultimate: Additional ATK Multiplier",
+      "label": "Battle mejorada (Ult): ataque adicional"
+     }
+    ]
+   },
    "exclude": [
-    "During Ultimate: BATK SEQ 1 Multiplier",
-    "During Ultimate: BATK SEQ 2 Multiplier",
-    "During Ultimate: Additional ATK Multiplier",
-    "Enhanced BATK SEQ 1 Multiplier",
-    "Enhanced BATK SEQ 2 Multiplier",
-    "Enhanced BATK SEQ 3 Multiplier",
-    "Enhanced BATK SEQ 4 Multiplier"
+    "During Ultimate: BATK SEQ 1 Stagger",
+    "During Ultimate: BATK SEQ 2 Stagger",
+    "During Ultimate: Additional ATK Stagger"
    ]
   },
   "wulfgard": {
@@ -202,7 +260,15 @@
        "multStat": "World Splitter DMG Multiplier",
        "staggerStat": "World Splitter Stagger"
       }
-     ]
+     ],
+     "kit": {
+      "onComboNext": 2,
+      "promoteFrom": 2,
+      "promoteMinConsumed": 3,
+      "promoteTo": 3,
+      "elseNext": 1,
+      "consumedState": "vulnerability"
+     }
     }
    },
    "spReturnSeq": {
@@ -265,6 +331,14 @@
     "raw": "When the controlled operator performs a Final Strike on an enemy with Solidification.",
     "state": "solidification"
    },
+   "grants": {
+    "ultimate": [
+     {
+      "state": "yvn_ult",
+      "durStat": "Duration (s)"
+     }
+    ]
+   },
    "perStack": {
     "battle_skill": [
      {
@@ -280,18 +354,60 @@
       "multStat": "DMG Multiplier of Solidification Applied",
       "label": "Solidification Applied"
      }
+    ],
+    "seq1": [
+     {
+      "requires": "yvn_ult",
+      "multStat": "BATK DMG Multiplier",
+      "label": "BATK mejorado (Ult)"
+     }
+    ],
+    "seq2": [
+     {
+      "requires": "yvn_ult",
+      "multStat": "BATK DMG Multiplier",
+      "label": "BATK mejorado (Ult)"
+     }
+    ],
+    "seq3": [
+     {
+      "requires": "yvn_ult",
+      "multStat": "BATK DMG Multiplier",
+      "label": "BATK mejorado (Ult)"
+     }
+    ],
+    "seq4": [
+     {
+      "requires": "yvn_ult",
+      "multStat": "BATK DMG Multiplier",
+      "label": "BATK mejorado (Ult)"
+     }
+    ],
+    "seq5": [
+     {
+      "requiresAll": ["yvn_ult", "solidification"],
+      "multStat": "Additional ATK DMG Multiplier",
+      "label": "Ataque adicional (consume Solidification)"
+     }
+    ]
+   },
+   "replace": {
+    "seq5": [
+     {
+      "requires": "yvn_ult",
+      "multStat": "Enhanced Final Strike DMG Multiplier",
+      "label": "Final Strike (cierre de la Ult)"
+     }
     ]
    },
    "exclude": [
-    "BATK DMG Multiplier",
-    "Enhanced Final Strike DMG Multiplier",
-    "Additional ATK DMG Multiplier"
+    "Enhanced Final Strike Stagger"
    ]
   },
   "pogranichnik": {
    "comboTrigger": {
     "raw": "When Crush or Breach consumes the enemy's Vulnerability stack(s).",
-    "state": "vulnerability"
+    "onConsume": "vulnerability"
    },
    "replace": {
     "seq3": [
@@ -340,7 +456,8 @@
   "arclight": {
    "comboTrigger": {
     "raw": "When an enemy suffers Electrification or when an enemy's Electrification is consumed.",
-    "state": "electrification"
+    "state": "electrification",
+    "onConsume": "electrification"
    }
   },
   "dapan": {
@@ -363,7 +480,7 @@
    "grantsLink": "combo_skill",
    "comboTrigger": {
     "raw": "When an enemy's Heat Infliction is consumed or absorbed.",
-    "situational": true
+    "onConsume": "heat_infl"
    },
    "grants": {
     "ultimate": [
@@ -449,9 +566,68 @@
   "arcane": {
    "comboTrigger": {
     "raw": "When Nature Infliction or at least 2 stacks of non-Nature Arts Infliction are applied on an enemy.",
-    "anyState": [
-     "nature_infl"
+    "any": [
+     {
+      "state": "nature_infl"
+     },
+     {
+      "stacks": {
+       "state": "heat_infl",
+       "n": 2
+      }
+     },
+     {
+      "stacks": {
+       "state": "electric_infl",
+       "n": 2
+      }
+     },
+     {
+      "stacks": {
+       "state": "cryo_infl",
+       "n": 2
+      }
+     }
     ]
+   },
+   "grants": {
+    "combo_skill": [
+     {
+      "state": "imprisonment",
+      "durStat": "Imprisonment and Susceptibility Duration (s)"
+     }
+    ],
+    "ultimate": [
+     {
+      "state": "arc_array",
+      "durStat": "Gloompurger Array Duration (s)"
+     }
+    ]
+   },
+   "condHits": {
+    "seq5": [
+     {
+      "requires": "arc_array",
+      "multStat": "Cluster Strike Total DMG Multiplier",
+      "label": "Cluster Strike (2 golpes, total)"
+     }
+    ]
+   },
+   "variant": {
+    "ultimate": {
+     "sel": "cycle",
+     "options": [
+      {
+       "when": 1,
+       "multStat": "Gloompurger Array Creation DMG Multiplier"
+      },
+      {
+       "when": 2,
+       "multStat": "Gloompurge Arcana DMG Multiplier",
+       "free": true
+      }
+     ]
+    }
    },
    "modes": {
     "will": {
@@ -460,14 +636,6 @@
       "arts": true
      }
     }
-   },
-   "grants": {
-    "combo_skill": [
-     {
-      "state": "imprisonment",
-      "durStat": "Imprisonment and Susceptibility Duration (s)"
-     }
-    ]
    },
    "exclude": [
     "Bonus DMG Multiplier"

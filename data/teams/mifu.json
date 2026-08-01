@@ -21,8 +21,8 @@
       },
       "guideVideoId": "mf1",
       "overview": {
-        "es": "El equipo físico de referencia con Mi Fu de carry. Chen Qianyu sube 2 stacks de Vulnerability por Combo+skill; Mi Fu los consume con su Crush y vuelve a crushear gracias al atajo a la secuencia 2 que le dan su Combo y su Ultimate. Pog aporta Breach y SP, Ardelia cura y mantiene Physical Susceptibility. Mi Fu hace ~60% del daño total del equipo. ~56K de DPS de equipo con una rotación de ~58s (la más larga de las tres). Los cálculos de Maygi NO usan ventana de Stagger: están pensados para el contenido lleno de mobs de Contingency Contract, donde importa el daño sostenido más que el burst de boss. (Cifras con todas las armas promocionales, 6★ a P0 / 5★ a P5; DPS ≠ tiempo de clear.)",
-        "en": "The benchmark physical team with Mi Fu as carry. Chen Qianyu adds 2 Vulnerability stacks per Combo+skill; Mi Fu consumes them with her Crush and crushes again thanks to the shortcut to sequence 2 that her Combo and Ultimate grant. Pog supplies Breach and SP, Ardelia heals and keeps Physical Susceptibility up. Mi Fu does ~60% of the team's total damage. ~56K team DPS over a ~58s rotation (the longest of the three). Maygi's calcs do NOT use a Stagger window: they target Contingency Contract's mob-heavy content, where sustained damage matters more than boss burst. (Figures with all signature weapons, 6★ at P0 / 5★ at P5; DPS ≠ clear time.)"
+        "es": "El equipo físico de referencia con Mi Fu de carry. Chen Qianyu sube 2 stacks de Vulnerability por Combo+skill; Mi Fu los consume con su Crush y vuelve a crushear gracias al atajo a la secuencia 2 que le dan su Combo y su Ultimate. Pog aporta Breach y SP, Ardelia cura y mantiene Physical Susceptibility. Mi Fu hace ~60% del daño total del equipo. ~56K de DPS de equipo con una rotación de ~58s (la más larga de las tres). Los cálculos de Maygi NO usan ventana de Stagger: están pensados para el contenido lleno de mobs de Contingency Contract, donde importa el daño sostenido más que el burst de boss. (Cifras con todas las armas BIS, 6★ a P0 / 5★ a P5; DPS ≠ tiempo de clear.)",
+        "en": "The benchmark physical team with Mi Fu as carry. Chen Qianyu adds 2 Vulnerability stacks per Combo+skill; Mi Fu consumes them with her Crush and crushes again thanks to the shortcut to sequence 2 that her Combo and Ultimate grant. Pog supplies Breach and SP, Ardelia heals and keeps Physical Susceptibility up. Mi Fu does ~60% of the team's total damage. ~56K team DPS over a ~58s rotation (the longest of the three). Maygi's calcs do NOT use a Stagger window: they target Contingency Contract's mob-heavy content, where sustained damage matters more than boss burst. (Figures with all BIS weapons, 6★ at P0 / 5★ at P5; DPS ≠ clear time.)"
       },
       "playstyle": {
         "difficulty": {
@@ -99,8 +99,8 @@
             "en": "Crush double-dip"
           },
           "body": {
-            "es": "El Battle Skill de Mi Fu (Qingbo Triplex) tiene 3 partes: la 1 es un acercamiento, la 2 es el Crush, y crusheando 3+ stacks desbloqueas la 3, que pega lo mismo que un Crush de 3 stacks y cuenta como daño de Crush. La clave: su Combo (con 3+ stacks de Vulnerability) y su Ultimate la atajan directo a la secuencia 2, así que puede volver a crushear en una ventana corta. Por eso consume Vulnerability dos veces por ciclo.",
-            "en": "Mi Fu's Battle Skill (Qingbo Triplex) is 3-part: part 1 is a gap closer, part 2 is the Crush, and crushing 3+ stacks unlocks part 3, which hits as hard as a 3-stack Crush and counts as Crush damage. The key: her Combo (at 3+ Vulnerability stacks) and her Ultimate both shortcut her straight to sequence 2, so she can crush again in a short window. That's why she consumes Vulnerability twice per cycle."
+            "es": "El Battle Skill de Mi Fu (Qingbo Triplex) tiene 3 partes: la 1 es un acercamiento, la 2 es el Crush, y crusheando 3+ stacks desbloqueas la 3, que pega lo mismo que un Crush de 3 stacks **sin importar cuántos consumiste** en la parte 2, y cuenta como daño de Crush. Eso tiene una consecuencia de build que conviene tener clara: al ir como daño Physical de Crush, la amplifica la **Arts Intensity** igual que al Crush, y en cambio **NO le sirven el Skill DMG ni el Link**. La clave: su Combo (con 3+ stacks de Vulnerability) y su Ultimate la atajan directo a la secuencia 2, así que puede volver a crushear en una ventana corta. Por eso consume Vulnerability dos veces por ciclo.",
+            "en": "Mi Fu's Battle Skill (Qingbo Triplex) is 3-part: part 1 is a gap closer, part 2 is the Crush, and crushing 3+ stacks unlocks part 3, which hits as hard as a 3-stack Crush **no matter how many you consumed** in part 2, and counts as Crush damage. That carries a build consequence worth keeping straight: since it lands as Physical Crush damage, **Arts Intensity** amplifies it the same way it does Crush, while **Skill DMG and Link do nothing for it**. The key: her Combo (at 3+ Vulnerability stacks) and her Ultimate both shortcut her straight to sequence 2, so she can crush again in a short window. That's why she consumes Vulnerability twice per cycle."
           }
         },
         {
@@ -313,8 +313,8 @@
               },
               "key": true,
               "note": {
-                "es": "Usa el Battle Skill ANTES del finisher: así te llevas los buffs del set y del arma promocional.",
-                "en": "Use the Battle Skill BEFORE the finisher: that's what grants the set and signature-weapon buffs."
+                "es": "Usa el Battle Skill ANTES del finisher: así te llevas los buffs del set y del arma BIS.",
+                "en": "Use the Battle Skill BEFORE the finisher: that's what grants the set and BIS-weapon buffs."
               }
             },
             {
@@ -331,8 +331,8 @@
             }
           ],
           "tip": {
-            "es": "Importante: usa el skill de Mi Fu ANTES del finisher, para llevarte los buffs del set y del arma promocional.",
-            "en": "Important: use Mi Fu's skill BEFORE the finisher, to gain the buffs from her set and signature weapon."
+            "es": "Importante: usa el skill de Mi Fu ANTES del finisher, para llevarte los buffs del set y del arma BIS.",
+            "en": "Important: use Mi Fu's skill BEFORE the finisher, to gain the buffs from her set and BIS weapon."
           }
         }
       ],
@@ -476,8 +476,8 @@
       ],
       "pitfalls": [
         {
-          "es": "Usar el finisher de Mi Fu ANTES de su skill: pierdes los buffs del set y del arma promocional.",
-          "en": "Using Mi Fu's finisher BEFORE her skill: you lose the set and signature-weapon buffs."
+          "es": "Usar el finisher de Mi Fu ANTES de su skill: pierdes los buffs del set y del arma BIS.",
+          "en": "Using Mi Fu's finisher BEFORE her skill: you lose the set and BIS-weapon buffs."
         },
         {
           "es": "Gastar el Combo de Pog y robarle a Mi Fu los stacks de Vulnerability que necesita.",
@@ -526,8 +526,8 @@
             "grizzled_edge_push_knife"
           ],
           "weaponNote": {
-            "es": "Amaranthine Tassel, su arma promocional, da un salto considerable (~+15% sobre el arma del Battle Pass maxeada): es claramente lo mejor. Exemplar supera a Phantom Pain a igual inversión; pero Phantom Pain concentra su valor en el daño de Crush (lleva Arts Intensity de base), así que puede rendir mejor en CC, que carga mucho el daño de reacción.",
-            "en": "Amaranthine Tassel, her signature weapon, is a sizable jump (~+15% over the maxed Battle Pass weapon): clearly the best. Exemplar beats Phantom Pain at equal investment; but Phantom Pain concentrates its value into Crush damage (it carries Arts Intensity as a base stat), so it may pull ahead in CC, which heavily shills reaction damage."
+            "es": "Amaranthine Tassel, su arma BIS, da un salto considerable (~+15% sobre el arma del Battle Pass maxeada): es claramente lo mejor. Exemplar supera a Phantom Pain a igual inversión; pero Phantom Pain concentra su valor en el daño de Crush (lleva Arts Intensity de base), así que puede rendir mejor en CC, que carga mucho el daño de reacción.",
+            "en": "Amaranthine Tassel, her BIS weapon, is a sizable jump (~+15% over the maxed Battle Pass weapon): clearly the best. Exemplar beats Phantom Pain at equal investment; but Phantom Pain concentrates its value into Crush damage (it carries Arts Intensity as a base stat), so it may pull ahead in CC, which heavily shills reaction damage."
           },
           "gearNote": {
             "es": "Build genérica con Ultimate Gain: Swordmancer Light Armor + 3pc Grizzled Edge (guantes + 2 push knives). El \"ATK al aplicar Crush/Breach\" de Grizzled Edge está hecho a su medida. Usa esta build cuando la rotación gasta su Ultimate (Ardelia y Lifeng).",
@@ -543,14 +543,14 @@
           "role": "Enabler",
           "weaponId": "wpn_sword_0017",
           "gearRec": [
-            "swordmancer_heavy_armor",
+            "swordmancer_heavy_armor_t1",
             "qingbo_gauntlets",
-            "qingbo_kit",
-            "qingbo_kit"
+            "qingbo_positioning_kit_t1",
+            "qingbo_positioning_kit_t1"
           ],
           "weaponNote": {
-            "es": "Tiene un arsenal enorme de stat sticks. Lupine Scarlet (arma promocional de Rossi) y Grand Vision (la de Endmin) son muy fuertes solo por stats base. Glorious Memory (arma del Battle Pass de Rossi) es excelente maxeada, con Eminent Repute apenas por detrás. Sundering Steel P5 ≈ 104%; Rapid Ascent va de 98.5% (P0) a 107.6% (P5). Pick práctico: Glorious Memory.",
-            "en": "She has a huge arsenal of stat sticks. Lupine Scarlet (Rossi's signature weapon) and Grand Vision (Endmin's) are very strong on base stats alone. Glorious Memory (Rossi's Battle Pass weapon) is excellent maxed, with Eminent Repute just behind. Sundering Steel P5 ≈ 104%; Rapid Ascent ranges 98.5% (P0) to 107.6% (P5). Practical pick: Glorious Memory."
+            "es": "Tiene un arsenal enorme de stat sticks. Lupine Scarlet (arma BIS de Rossi) y Grand Vision (la de Endmin) son muy fuertes solo por stats base. Glorious Memory (arma del Battle Pass de Rossi) es excelente maxeada, con Eminent Repute apenas por detrás. Pick práctico: Glorious Memory.",
+            "en": "She has a huge arsenal of stat sticks. Lupine Scarlet (Rossi's BIS weapon) and Grand Vision (Endmin's) are very strong on base stats alone. Glorious Memory (Rossi's Battle Pass weapon) is excellent maxed, with Eminent Repute just behind. Practical pick: Glorious Memory."
           },
           "gearNote": {
             "es": "Swordmancer Heavy Armor T1 + 3pc Qingbo. El CDR de Combo de Qingbo es lo más importante: ella sola lleva los stacks de Vulnerability, así que Combos más rápidos = stacks más rápidos. Si no tienes su P4, puedes usar Qingbo Heavy Armor para Ultimate Gain.",
@@ -567,7 +567,7 @@
           "weaponId": "wpn_sword_0012",
           "gearRec": [
             "frontiers_protection_suit",
-            "frontiers_blight_res_gloves",
+            "frontiers_fiber_gloves_t1",
             "frontiers_o2_tube",
             "hot_work_power_cartridge"
           ],
@@ -595,8 +595,8 @@
             "eternal_xiranite_auxiliary_arm"
           ],
           "weaponNote": {
-            "es": "Stanza (Stanza of Memorials) es la única opción real de buff: su arma promocional solo buffea daño de Arts, que aquí no sirve.",
-            "en": "Stanza (Stanza of Memorials) is the only real buffing option: her signature weapon only buffs Arts damage, useless here."
+            "es": "Stanza (Stanza of Memorials) es la única opción real de buff: Dreams of the Starry Beach solo buffea daño de Arts, que aquí no sirve.",
+            "en": "Stanza (Stanza of Memorials) is the only real buffing option: Dreams of the Starry Beach only buffs Arts damage, useless here."
           },
           "gearNote": {
             "es": "Eternal Xiranite por poder de buff. Redeemer Armor da un poco más de UGE pero no hace falta. Lo ideal es 95.7% de UGE, lo que requiere artificing.",
@@ -689,8 +689,8 @@
           {
             "id": "mifu",
             "line": {
-              "es": "Arma promocional + Swordmancer Light Armor con 3pc Grizzled Edge (con Ultimate Gain).",
-              "en": "Signature weapon + Swordmancer Light Armor with 3pc Grizzled Edge (with Ultimate Gain)."
+              "es": "Arma BIS + Swordmancer Light Armor con 3pc Grizzled Edge (con Ultimate Gain).",
+              "en": "BIS weapon + Swordmancer Light Armor with 3pc Grizzled Edge (with Ultimate Gain)."
             }
           },
           {
@@ -926,8 +926,8 @@
               },
               "key": true,
               "note": {
-                "es": "El Battle Skill SIEMPRE antes del finisher (para los buffs del set y del arma promocional).",
-                "en": "Battle Skill ALWAYS before the finisher (for the set and signature-weapon buffs)."
+                "es": "El Battle Skill SIEMPRE antes del finisher (para los buffs del set y del arma BIS).",
+                "en": "Battle Skill ALWAYS before the finisher (for the set and BIS-weapon buffs)."
               }
             },
             {
@@ -1025,8 +1025,8 @@
             "grizzled_edge_push_knife"
           ],
           "weaponNote": {
-            "es": "Amaranthine Tassel (arma promocional) es claramente lo mejor (~+15% sobre el Battle Pass maxeado). Exemplar > Phantom Pain a igual inversión, salvo en CC, donde Phantom Pain puede rendir más por concentrar valor en el Crush.",
-            "en": "Amaranthine Tassel (signature weapon) is clearly the best (~+15% over the maxed Battle Pass). Exemplar > Phantom Pain at equal investment, except in CC, where Phantom Pain may pull ahead by concentrating value into Crush."
+            "es": "Amaranthine Tassel (arma BIS) es claramente lo mejor (~+15% sobre el Battle Pass maxeado). Exemplar > Phantom Pain a igual inversión, salvo en CC, donde Phantom Pain puede rendir más por concentrar valor en el Crush.",
+            "en": "Amaranthine Tassel (BIS weapon) is clearly the best (~+15% over the maxed Battle Pass). Exemplar > Phantom Pain at equal investment, except in CC, where Phantom Pain may pull ahead by concentrating value into Crush."
           },
           "gearNote": {
             "es": "Misma build genérica con Ultimate Gain que en la versión Ardelia: Swordmancer Light Armor + 3pc Grizzled Edge. Esta rotación sí usa su Ultimate.",
@@ -1042,10 +1042,10 @@
           "role": "Enabler",
           "weaponId": "wpn_sword_0017",
           "gearRec": [
-            "swordmancer_heavy_armor",
+            "swordmancer_heavy_armor_t1",
             "qingbo_gauntlets",
-            "qingbo_kit",
-            "qingbo_kit"
+            "qingbo_positioning_kit_t1",
+            "qingbo_positioning_kit_t1"
           ],
           "weaponNote": {
             "es": "Mismo abanico que en la versión Ardelia: Glorious Memory como pick práctico; Lupine Scarlet y Grand Vision fuertes por stats base.",
@@ -1066,7 +1066,7 @@
           "weaponId": "wpn_sword_0012",
           "gearRec": [
             "frontiers_protection_suit",
-            "frontiers_blight_res_gloves",
+            "frontiers_fiber_gloves_t1",
             "frontiers_o2_tube",
             "hot_work_power_cartridge"
           ],
@@ -1088,7 +1088,7 @@
           "role": "Enabler",
           "weaponId": "wpn_lance_0012",
           "gearRec": [
-            "swordmancer_heavy_armor",
+            "swordmancer_heavy_armor_t1",
             "eternal_xiranite_gloves",
             "eternal_xiranite_power_core",
             "eternal_xiranite_power_core"
@@ -1164,8 +1164,8 @@
           {
             "id": "mifu",
             "line": {
-              "es": "Arma promocional + Swordmancer Light Armor con 3pc Grizzled Edge.",
-              "en": "Signature weapon + Swordmancer Light Armor with 3pc Grizzled Edge."
+              "es": "Arma BIS + Swordmancer Light Armor con 3pc Grizzled Edge.",
+              "en": "BIS weapon + Swordmancer Light Armor with 3pc Grizzled Edge."
             }
           },
           {
@@ -1202,13 +1202,13 @@
         "en": "Mi Fu · Rossi · Gilberta · Perlica"
       },
       "blurb": {
-        "es": "El híbrido más rápido. Aquí Rossi NO es la carry: se juega como batería de Vulnerability (3 stacks en un Combo+skill) para que Mi Fu los consuma. Gilberta y Perlica dan el único stack de Vulnerability gratis de arranque.",
-        "en": "The fastest hybrid. Here Rossi is NOT the carry: she's played as a Vulnerability battery (3 stacks in one Combo+skill) for Mi Fu to consume. Gilberta and Perlica provide the only free starting Vulnerability stack."
+        "es": "El híbrido más rápido. Aquí Rossi NO es la carry: se juega como batería de Vulnerability (3 stacks en un Combo+skill) para que Mi Fu los consuma. Gilberta y Perlica son una de las pocas fuentes del stack de Vulnerability gratis de arranque.",
+        "en": "The fastest hybrid. Here Rossi is NOT the carry: she's played as a Vulnerability battery (3 stacks in one Combo+skill) for Mi Fu to consume. Gilberta and Perlica are one of the only sources of a free starting Vulnerability stack."
       },
       "guideVideoId": "mf1",
       "overview": {
-        "es": "Equipo híbrido construido alrededor de Mi Fu de carry. Rossi puede dar 3 stacks de Vulnerability ella sola en un Combo+skill, pero necesita un Arts Infliction montado y, idealmente, un stack de Vulnerability de arranque — y aquí Gilberta y Perlica son la única fuente de ese stack gratis. Como esta rotación no usa la Ultimate de Mi Fu, ella va con su build de daño puro. La segunda mitad alinea la Ultimate de Rossi dentro de la ventana de electrocute de Perlica. Es el más rápido de los tres equipos: rotación de ~41s a ~58K de DPS. Su daño total por vuelta es el más bajo, pero la rotación corta le deja one-rotear casi todo el contenido.",
-        "en": "Hybrid team built around Mi Fu as carry. Rossi can hand out 3 Vulnerability stacks by herself in one Combo+skill, but she needs an Arts Infliction set up and, ideally, a starting Vulnerability stack — and here Gilberta and Perlica are the only source of that free stack. Since this rotation doesn't use Mi Fu's Ultimate, she runs her pure-damage build. The second half aligns Rossi's Ultimate inside Perlica's electrocute window. It's the fastest of the three teams: a ~41s rotation at ~58K DPS. Its total damage per loop is the lowest, but the short rotation lets it one-rota most content."
+        "es": "Equipo híbrido construido alrededor de Mi Fu de carry. Rossi puede dar 3 stacks de Vulnerability ella sola en un Combo+skill, pero necesita un Arts Infliction montado y, idealmente, un stack de Vulnerability de arranque — y aquí Gilberta y Perlica son una de las pocas fuentes de ese stack gratis. Como esta rotación no usa la Ultimate de Mi Fu, ella va con su build de daño puro. La segunda mitad alinea la Ultimate de Rossi dentro de la ventana de electrocute de Perlica. Es el más rápido de los tres equipos: rotación de ~41s a ~58K de DPS. Su daño total por vuelta es el más bajo, pero la rotación corta le deja one-rotear casi todo el contenido.",
+        "en": "Hybrid team built around Mi Fu as carry. Rossi can hand out 3 Vulnerability stacks by herself in one Combo+skill, but she needs an Arts Infliction set up and, ideally, a starting Vulnerability stack — and here Gilberta and Perlica are one of the only sources of that free stack. Since this rotation doesn't use Mi Fu's Ultimate, she runs her pure-damage build. The second half aligns Rossi's Ultimate inside Perlica's electrocute window. It's the fastest of the three teams: a ~41s rotation at ~58K DPS. Its total damage per loop is the lowest, but the short rotation lets it one-rota most content."
       },
       "playstyle": {
         "difficulty": {
@@ -1281,12 +1281,12 @@
         },
         {
           "title": {
-            "es": "Gilberta + Perlica = el único vuln gratis de arranque",
-            "en": "Gilberta + Perlica = the only free starting vuln"
+            "es": "Gilberta + Perlica = el vuln gratis de arranque",
+            "en": "Gilberta + Perlica = the free starting vuln"
           },
           "body": {
-            "es": "Rossi necesita un Arts Infliction montado y, idealmente, un stack de Vulnerability inicial para que su combo rinda al máximo. Gilberta y Perlica son la única fuente de ese stack de Vulnerability gratis. Rossi puede auto-stackearlo, pero es muy ineficiente.",
-            "en": "Rossi needs an Arts Infliction set up and, ideally, a starting Vulnerability stack so her combo delivers full value. Gilberta and Perlica are the only source of that free Vulnerability stack. Rossi can self-stack it, but it's very inefficient."
+            "es": "Rossi necesita un Arts Infliction montado y, idealmente, un stack de Vulnerability inicial para que su combo rinda al máximo. Gilberta y Perlica son una de las pocas fuentes de ese stack de Vulnerability gratis. Rossi puede auto-stackearlo, pero es muy ineficiente.",
+            "en": "Rossi needs an Arts Infliction set up and, ideally, a starting Vulnerability stack so her combo delivers full value. Gilberta and Perlica are one of the only sources of that free Vulnerability stack. Rossi can self-stack it, but it's very inefficient."
           }
         },
         {
@@ -1508,8 +1508,8 @@
             "swordmancer_nav_beacon"
           ],
           "weaponNote": {
-            "es": "Amaranthine Tassel (arma promocional) sigue siendo lo mejor. En CC, Phantom Pain puede rendir más por concentrar su valor en el daño de Crush.",
-            "en": "Amaranthine Tassel (signature weapon) is still the best. In CC, Phantom Pain may pull ahead by concentrating its value into Crush damage."
+            "es": "Amaranthine Tassel (arma BIS) sigue siendo lo mejor. En CC, Phantom Pain puede rendir más por concentrar su valor en el daño de Crush.",
+            "en": "Amaranthine Tassel (BIS weapon) is still the best. In CC, Phantom Pain may pull ahead by concentrating its value into Crush damage."
           },
           "gearNote": {
             "es": "Build de DAÑO PURO (no la genérica): 3pc Grizzled Edge (armor+guantes+push knife) + Swordmancer NAV Beacon. Sin Ultimate Gain, porque este equipo no gasta su Ultimate.",
@@ -1531,8 +1531,8 @@
             "mi_security_scope_t1"
           ],
           "weaponNote": {
-            "es": "Lupine Scarlet (su arma promocional). El gearing es el mismo que en su guía propia — revísala si quieres el detalle.",
-            "en": "Lupine Scarlet (her signature weapon). The gearing is the same as her own guide — check it there for the detail."
+            "es": "Lupine Scarlet (su arma BIS). El gearing es el mismo que en su guía propia — revísala si quieres el detalle.",
+            "en": "Lupine Scarlet (her BIS weapon). The gearing is the same as her own guide — check it there for the detail."
           },
           "gearNote": {
             "es": "MI Security, igual que en su build de carry. Lo que cambia no es la build, sino el rol y la rotación.",
@@ -1647,8 +1647,8 @@
           {
             "id": "mifu",
             "line": {
-              "es": "Arma promocional + build de daño puro (3pc Grizzled Edge + Swordmancer NAV Beacon).",
-              "en": "Signature weapon + pure-damage build (3pc Grizzled Edge + Swordmancer NAV Beacon)."
+              "es": "Arma BIS + build de daño puro (3pc Grizzled Edge + Swordmancer NAV Beacon).",
+              "en": "BIS weapon + pure-damage build (3pc Grizzled Edge + Swordmancer NAV Beacon)."
             }
           },
           {
@@ -1919,7 +1919,7 @@
           ],
           "tip": {
             "es": "Desde la tercera ronda, espera a que la Ultimate de Alesh esté lista — idealmente con una barra de SP o más. Su Battle Skill procará los tres Combos de golpe.",
-            "en": "From round three on, wait until Alesh's Ultimate is ready — ideally with one SP bar or more. Her Battle Skill will proc all three Combos at once."
+            "en": "From round three on, wait until Alesh's Ultimate is ready — ideally with one SP bar or more. His Battle Skill will proc all three Combos at once."
           }
         }
       ],
@@ -1983,8 +1983,8 @@
           "charId": "estella",
           "order": "Combo Skill > el resto",
           "note": {
-            "es": "Solo su Combo: a rango 1–9 da 10% de Physical Susceptibility al equipo; con especialización 1 o más, 15%. El resto puede quedarse sin subir.",
-            "en": "Only her Combo: at rank 1–9 it gives the team 10% Physical Susceptibility; at specialization 1 or higher, 15%. The rest can stay unleveled."
+            "es": "Solo su Combo: aplica 10% de Physical Susceptibility al enemigo a rango 1–9 y 15% desde especialización 1 — el debuff va sobre el objetivo, así que lo cobra todo el equipo. El resto puede quedarse sin subir.",
+            "en": "Only her Combo: it applies 10% Physical Susceptibility on the enemy at rank 1–9 and 15% from specialization 1 — the debuff sits on the target, so the whole team cashes it. The rest can stay unleveled."
           }
         },
         {
@@ -2034,8 +2034,8 @@
             "swordmancer_nav_beacon"
           ],
           "weaponNote": {
-            "es": "Arma promocional (Amaranthine Tassel; a P5 rinde ≈115% de su P0) > Exemplar (a P0 ≈90% de la promocional; a P5, 95–100%) > Phantom Pain (a P0, 80–85%; a P5, 85–90%). Cifras medidas como aporte de fuerza al equipo.",
-            "en": "Signature weapon (Amaranthine Tassel; at P5 it performs ≈115% of its P0) > Exemplar (at P0 ≈90% of the signature; at P5, 95–100%) > Phantom Pain (at P0, 80–85%; at P5, 85–90%). Figures measured as strength contributed to the team."
+            "es": "Arma BIS (Amaranthine Tassel; a P5 rinde ≈115% de su P0) > Exemplar (a P0 ≈90% de la BIS; a P5, 95–100%) > Phantom Pain (a P0, 80–85%; a P5, 85–90%). Cifras medidas como aporte de fuerza al equipo.",
+            "en": "BIS weapon (Amaranthine Tassel; at P5 it performs ≈115% of its P0) > Exemplar (at P0 ≈90% of the BIS; at P5, 95–100%) > Phantom Pain (at P0, 80–85%; at P5, 85–90%). Figures measured as strength contributed to the team."
           },
           "gearNote": {
             "es": "3 piezas de Grizzled Edge (Armor, Gauntlets, Push Knife) + Swordmancer NAV Beacon. Un build que puedes artificiar con confianza — prioriza las líneas de stats 1 y 3.",
@@ -2079,16 +2079,16 @@
             "eternal_xiranite_auxiliary_arm"
           ],
           "weaponNote": {
-            "es": "Su promocional (OBJ Razorhorn) primero; JET solo aprovecha una o dos líneas. Si no quieres artificiar la pieza de recarga, dale un arma de carga: Chimeric Justice o Beacon of Duty.",
-            "en": "Her signature (OBJ Razorhorn) first; JET only benefits from one or two lines. If you don't want to artifice the recharge piece, give her a charge weapon: Chimeric Justice or Beacon of Duty."
+            "es": "Su BIS (OBJ Razorhorn) primero; JET solo aprovecha una o dos líneas. Si no quieres artificiar la pieza de recarga, dale un arma de carga: Chimeric Justice o Beacon of Duty.",
+            "en": "Her BIS (OBJ Razorhorn) first; JET only benefits from one or two lines. If you don't want to artifice the recharge piece, give her a charge weapon: Chimeric Justice or Beacon of Duty."
           },
           "gearNote": {
             "es": "Swordmancer Light Armor (recarga) + Eternal Xiranite Gloves T1 + 2× Eternal Xiranite Auxiliary Arm: encaja su atributo principal y le da una Ultimate por ronda. Umbral de recarga: 237.29% a P0 · 213.56% a P2 · 182.61% a P5 — con el set completo falta un pelo: artificia UNA pieza, o cúbrelo con el arma de carga.",
             "en": "Swordmancer Light Armor (recharge) + Eternal Xiranite Gloves T1 + 2× Eternal Xiranite Auxiliary Arm: fits her main attribute and gives her one Ultimate per round. Recharge threshold: 237.29% at P0 · 213.56% at P2 · 182.61% at P5 — the full set falls a hair short: artifice ONE piece, or cover it with the charge weapon."
           },
           "deepNote": {
-            "es": "Aquí es una herramienta de Vulnerability: su Combo pone la 1ª capa (y 10–15% de Physical Susceptibility al equipo según el rango) y su Ultimate la 4ª. En arranque frío, su Battle Skill abre la ronda con la Cryo Infliction.",
-            "en": "Here she is a Vulnerability tool: her Combo supplies the 1st layer (plus 10–15% team Physical Susceptibility depending on rank) and her Ultimate the 4th. On cold starts, her Battle Skill opens the round with the Cryo Infliction."
+            "es": "Aquí es una herramienta de Vulnerability: su Combo pone la 1ª capa (y 10–15% de Physical Susceptibility sobre el enemigo según el rango, solo si el objetivo está congelado) y su Ultimate la 4ª. En arranque frío, su Battle Skill abre la ronda con la Cryo Infliction.",
+            "en": "Here she is a Vulnerability tool: her Combo supplies the 1st layer (plus 10–15% Physical Susceptibility on the enemy depending on rank, and only if the target is frozen) and her Ultimate the 4th. On cold starts, her Battle Skill opens the round with the Cryo Infliction."
           },
           "weaponId": "wpn_lance_0013"
         },
@@ -2107,12 +2107,12 @@
             "en": "Fortmaker carries recharge natively and reduces the artificing needed. With Thermite Cutter (no recharge line) you'll have to artifice a bit more gear to compensate."
           },
           "gearNote": {
-            "es": "Redeemer Armor + Eternal Xiranite Gloves + 2× Redeemer Seal — todo con recarga. Apila también Intellect: sube la probabilidad de pescar el Rare Fin de su Combo (el buff de ATK para todo el equipo). Umbral de esta rotación: 240.96% a P0 · ~204.82% a P4 — cuerpo entero de recarga.",
-            "en": "Redeemer Armor + Eternal Xiranite Gloves + 2× Redeemer Seal — all recharge. Also stack Intellect: it raises the chance of fishing the Rare Fin on her Combo (the team-wide ATK buff). This rotation's threshold: 240.96% at P0 · ~204.82% at P4 — full-body recharge."
+            "es": "Redeemer Armor + Eternal Xiranite Gloves + 2× Redeemer Seal — todo con recarga. Apila también Intellect: sube la probabilidad de pescar el Rare Fin de su Combo (+0.5% por cada 10 de Intellect, hasta +30%). Umbral de esta rotación: 240.96% a P0 · ~204.82% a P4 — cuerpo entero de recarga.",
+            "en": "Redeemer Armor + Eternal Xiranite Gloves + 2× Redeemer Seal — all recharge. Also stack Intellect: it raises the chance of fishing the Rare Fin on his Combo (+0.5% per 10 Intellect, up to +30%). This rotation's threshold: 240.96% at P0 · ~204.82% at P4 — full-body recharge."
           },
           "deepNote": {
-            "es": "La congeladora del equipo: su Ultimate deja la Cryo Infliction y su Battle Skill la detona (Solidification), procando además los Combos. Su Combo devuelve SP y puede pescar el buff de ATK de equipo.",
-            "en": "The team's freezer: her Ultimate leaves the Cryo Infliction and her Battle Skill detonates it (Solidification), also proccing the Combos. Her Combo refunds SP and can fish the team ATK buff."
+            "es": "El congelador del equipo: su Ultimate deja la Cryo Infliction y su Battle Skill la detona (Solidification), procando además los Combos. Su Combo devuelve SP y puede pescar el Rare Fin, que sube el daño de ese golpe y devuelve SP extra. El buff de ATK +15% para todo el equipo (10s) NO es del kit base: llega con el keystone May the Willing Bite, a potencial 3 — cuenta con no tenerlo si vas a P0, que es el escenario de esta guía.",
+            "en": "The team's freezer: his Ultimate leaves the Cryo Infliction and his Battle Skill detonates it (Solidification), also proccing the Combos. His Combo refunds SP and can fish the Rare Fin, which raises that hit's damage and refunds extra SP. The team-wide ATK +15% for 10s is NOT part of the base kit: it arrives with the May the Willing Bite keystone at potential 3, so count on not having it at P0, which is the scenario this guide targets."
           }
         }
       ],
@@ -2190,8 +2190,8 @@
           {
             "id": "mifu",
             "line": {
-              "es": "Arma promocional + 3pc Grizzled Edge con Swordmancer NAV Beacon.",
-              "en": "Signature weapon + 3pc Grizzled Edge with Swordmancer NAV Beacon."
+              "es": "Arma BIS + 3pc Grizzled Edge con Swordmancer NAV Beacon.",
+              "en": "BIS weapon + 3pc Grizzled Edge with Swordmancer NAV Beacon."
             }
           },
           {

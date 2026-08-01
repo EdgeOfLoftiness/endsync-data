@@ -1,0 +1,610 @@
+{
+  "label": "LAST RITE",
+  "guideCharId": "lastrite",
+  "tagline": {
+    "es": "Asalto Cryo construida alrededor de un solo botón: su Combo, Winter's Devourer. Se enciende cuando el enemigo tiene 3 o más stacks de Cryo Infliction, los consume todos y pega un multiplicador extra enorme por cada stack comido, devolviendo además Ultimate Energy. El techo teórico siempre fue altísimo; el problema era alimentarle hielo a ese ritmo — y de eso se encarga el equipo.",
+    "en": "A Cryo assault built around a single button: her Combo, Winter's Devourer. It lights up when the enemy carries 3 or more Cryo Infliction stacks, consumes them all and hits with a huge extra multiplier per stack eaten, refunding Ultimate Energy on top. The theoretical ceiling was always sky-high; the problem was feeding her ice at that pace — and that is the team's job."
+  },
+  "comps": [
+    {
+      "name": {
+        "es": "烟花弎月xyz - Cuatro roturas por segundo",
+        "en": "烟花弎月xyz - Four Shatters a Second"
+      },
+      "subtitle": {
+        "es": "Arcane (WILL) · Xaihi · 4º flexible (Tangtang)",
+        "en": "Arcane (WILL) · Xaihi · flex 4th (Tangtang)"
+      },
+      "blurb": {
+        "es": "El equipo que arregla el Combo de Last Rite: pide 3+ stacks de Cryo Infliction por uso y Arcane (en forma WILL) le regala uno gratis en cada ciclo, con Susceptibility y control encima. Xaihi amplifica y cura, y el 4º asiento se elige por presupuesto y manos: Tangtang si la tienes, Snowshine para novatos, Fluorite o Perlica como opciones baratas. Simple de aprender: dos ciclos de 4 de hielo y el paquete de Ultimates.",
+        "en": "The team that fixes Last Rite's Combo: it demands 3+ Cryo Infliction stacks per use and Arcane (in WILL form) gifts her a free one every cycle, with Susceptibility and crowd control on top. Xaihi amplifies and heals, and the 4th seat is picked by budget and hands: Tangtang if you own her, Snowshine for beginners, Fluorite or Perlica as cheap options. Easy to learn: two 4-ice cycles and the Ultimate package."
+      },
+      "guideVideoId": "lr1",
+      "simple": {
+        "whatItDoes": {
+          "es": "Last Rite es la carry y su Combo es el daño: consume todos los stacks de Cryo Infliction del jefe (3 mínimo) y pega más por cada uno. El trabajo del equipo es juntar 4 de hielo dos veces. Ciclo: Battle Skill de Xaihi + dos Battle Skills de Last Rite, con dos rondas de Final Strikes en medio — el primer Final Strike enciende el Combo de Arcane, que deja un stack gratis con Susceptibility, y el segundo dispara el Combo de Xaihi con otro stack y su talento de daño Cryo recibido. Con 4 stacks, sueltas el Combo de Last Rite y explota. Repites el ciclo cuando juntes 2 barras de SP, y antes del segundo Combo adelantas el Ultimate de Xaihi para que su amplificación cubra el Combo y el Ultimate de Last Rite.",
+          "en": "Last Rite is the carry and her Combo is the damage: it consumes every Cryo Infliction stack on the boss (3 minimum) and hits harder per stack. The team's job is gathering 4 ice, twice. Cycle: Xaihi's Battle Skill + two Last Rite Battle Skills, with two Final Strike rounds in between — the first Final Strike lights Arcane's Combo, which leaves a free stack plus Susceptibility, and the second fires Xaihi's Combo with another stack and her Cryo-damage-taken talent. At 4 stacks you release Last Rite's Combo and it explodes. Repeat the cycle once you bank 2 SP bars, and before the second Combo you pre-fire Xaihi's Ultimate so her amplification covers Last Rite's Combo and Ultimate."
+        },
+        "steps": [
+          {
+            "who": "xaihi",
+            "do": {
+              "es": "Abre: Battle Skill de Xaihi y Battle Skill de Last Rite.",
+              "en": "Open: Xaihi's Battle Skill and Last Rite's Battle Skill."
+            }
+          },
+          {
+            "who": "arcane",
+            "do": {
+              "es": "Primer Final Strike: se enciende el Combo de Arcane — stack de hielo gratis + Susceptibility doble 6s.",
+              "en": "First Final Strike: Arcane's Combo lights up — free ice stack + dual Susceptibility for 6s."
+            }
+          },
+          {
+            "who": "lastrite",
+            "do": {
+              "es": "Segunda Battle Skill de Last Rite y segundo Final Strike: Combo de Xaihi (otro stack + 10% de daño Cryo recibido).",
+              "en": "Second Last Rite Battle Skill and second Final Strike: Xaihi's Combo (another stack + 10% Cryo damage taken)."
+            }
+          },
+          {
+            "who": "lastrite",
+            "do": {
+              "es": "Con 4 de hielo: Combo de Last Rite — consume todo y pega la primera explosión.",
+              "en": "At 4 ice: Last Rite's Combo — consumes everything and lands the first explosion."
+            }
+          },
+          {
+            "who": "xaihi",
+            "do": {
+              "es": "Junta 2 barras de SP, repite el ciclo, y antes del segundo Combo de Last Rite adelanta el Ultimate de Xaihi; cierra con el Ultimate de Last Rite.",
+              "en": "Bank 2 SP bars, repeat the cycle, and before Last Rite's second Combo pre-fire Xaihi's Ultimate; close with Last Rite's Ultimate."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "lastrite",
+            "line": {
+              "es": "Set Tide Surge: +20% de daño de skill, y +35% de Arts DMG cuando ella aplica 2+ stacks — por eso su Battle Skill se suelta al final.",
+              "en": "Tide Surge set: +20% skill damage, and +35% Arts DMG when she applies 2+ stacks — which is why her Battle Skill goes last."
+            }
+          },
+          {
+            "id": "arcane",
+            "line": {
+              "es": "El video no detalla su build: aquí aporta el stack gratis del Combo, la Susceptibility y el control.",
+              "en": "The video does not detail her build: here she brings the Combo's free stack, the Susceptibility and the crowd control."
+            }
+          },
+          {
+            "id": "xaihi",
+            "line": {
+              "es": "Chivalric Virtues suma ATK de equipo; con Detonation Unit hay más daño recibido que explotar. Su Intellect escala la amplificación.",
+              "en": "Chivalric Virtues adds team ATK; with Detonation Unit there is more damage taken to exploit. Her Intellect scales the amplification."
+            }
+          },
+          {
+            "id": "tangtang",
+            "line": {
+              "es": "Brigand's Calling (BIS). Con el set Qingbo puedes sumar su Ultimate al ciclo: el ataque en picada deja otro stack.",
+              "en": "Brigand's Calling (BIS). With the Qingbo set you can add her Ultimate to the cycle: the dive attack leaves another stack."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "La guía que convierte a Last Rite de \"techo teórico altísimo, imposible de alimentar\" a carry práctica, y la segunda entrega de la serie de equipos de Arcane del autor. El diagnóstico es simple: el Combo de Last Rite consume todos los stacks de Cryo Infliction del jefe con un multiplicador extra enorme por stack y un cooldown cortísimo, pero exige un mínimo de 3 de hielo por uso — y juntar hielo a ese ritmo era el cuello de botella. Arcane en forma WILL lo rompe: su Combo se enciende solo con la cadena del equipo y replica un stack gratis del mismo elemento, dejando encima Nature y Cryo Susceptibility y 6 segundos de control que estabilizan la siguiente ronda de Final Strikes. El eje estándar es 4+4: Battle Skill de Xaihi más dos de Last Rite y dos rondas de Final Strikes juntan exactamente 4 de hielo para el primer Combo; dos barras de SP después, el segundo ciclo, y el Ultimate de Xaihi adelantado para que sus 12 segundos de amplificación cubran Combo y Ultimate de Last Rite. Pilotando a Last Rite, cinco rondas de Final Strikes clavan los dos ciclos. El 4º asiento es un menú por presupuesto: Tangtang (5 estrellas para el autor) suma daño, interrupción de círculos rojos y control; Snowshine (4 estrellas) es la sustituta novato-friendly que pone stacks con el bloqueo de 70 SP de su escudo; Fluorite (3.5) apila barato sin aportar nada más; Perlica (3.5) da buffs y Electrification con el mismo eje exacto. Para quien va sobrado de daño hay un eje acelerado 3+4 que recorta una ronda de Final Strikes a cambio de sacrificar buffs. Los números salen del panel de skills que el propio video muestra en pantalla; el multiplicador por stack es el único que depende del rango de la skill.",
+        "en": "The guide that turns Last Rite from \"sky-high theoretical ceiling, impossible to feed\" into a practical carry, and the second entry in the author's Arcane team-building series. The diagnosis is simple: Last Rite's Combo consumes every Cryo Infliction stack on the boss with a huge extra multiplier per stack and a very short cooldown, but demands a minimum of 3 ice per use — and gathering ice at that pace was the bottleneck. Arcane in WILL form breaks it: her Combo lights up on its own off the team's chain and replicates a free stack of the same element, leaving Nature and Cryo Susceptibility plus 6 seconds of crowd control that stabilize the next Final Strike round. The standard axis is 4+4: Xaihi's Battle Skill plus two Last Rite ones and two Final Strike rounds gather exactly 4 ice for the first Combo; two SP bars later, the second cycle, with Xaihi's Ultimate pre-fired so its 12 seconds of amplification cover Last Rite's Combo and Ultimate. Piloting Last Rite, five Final Strike rounds nail both cycles. The 4th seat is a budget menu: Tangtang (5 stars for the author) adds damage, red-circle interrupts and control; Snowshine (4 stars) is the beginner-friendly substitute that stacks ice with her shield's 70-SP block; Fluorite (3.5) stacks cheap while bringing nothing else; Perlica (3.5) brings buffs and Electrification on the exact same axis. If your damage is overkill there is an accelerated 3+4 axis that trims one Final Strike round at the cost of sacrificing buffs. The numbers come from the skill panel the video itself shows on screen; the per-stack multiplier is the only one that depends on the skill rank."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Baja",
+          "en": "Low"
+        },
+        "content": {
+          "es": "Boss / General",
+          "en": "Boss / General"
+        },
+        "tags": [
+          {
+            "es": "Criogénico",
+            "en": "Cryo",
+            "jp": "寒冷",
+            "zh": "寒冷"
+          },
+          {
+            "es": "Conteo de Infliction",
+            "en": "Infliction counting"
+          },
+          {
+            "es": "Amigable para novatos",
+            "en": "Beginner-friendly"
+          },
+          {
+            "es": "4º asiento flexible",
+            "en": "Flexible 4th seat"
+          },
+          {
+            "es": "Burst",
+            "en": "Burst"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "Simple y fácil de aprender: el ciclo es siempre la misma cuenta de 4 de hielo, y hay alineación para cada bolsillo — hasta el consejo de canjear a Last Rite con el ticket de 6★ a elección si recién empiezas.",
+          "en": "Simple and easy to learn: the cycle is always the same 4-ice count, and there is a lineup for every budget — down to the tip of redeeming Last Rite with the 6★ selector ticket if you just started."
+        },
+        {
+          "es": "El stack gratis del Combo de Arcane sube muchísimo el techo del equipo y acelera todo el ritmo de daño; su kit agrupa y frena (el Battle Skill WILL atrae dentro del área y el Combo aplica Imprisonment), volviendo de área varias skills de Last Rite.",
+          "en": "The free stack from Arcane's Combo raises the team's ceiling massively and speeds up the whole damage tempo; her kit groups and slows (the WILL Battle Skill pulls enemies in and the Combo applies Imprisonment), turning several Last Rite skills into AoE."
+        },
+        {
+          "es": "El Combo devuelve Ultimate Energy por cada stack consumido, así que el propio eje carga los Ultimates: tras dos ciclos, los de Last Rite y Xaihi están listos.",
+          "en": "The Combo refunds Ultimate Energy per stack consumed, so the axis itself charges the Ultimates: after two cycles, Last Rite's and Xaihi's are ready."
+        },
+        {
+          "es": "Eje acelerado 3+4 o 4+3 disponible cuando el daño sobra y urge un cold start rápido.",
+          "en": "Accelerated 3+4 or 4+3 axis available when damage is overkill and a fast cold start matters."
+        }
+      ],
+      "cons": [
+        {
+          "es": "La disciplina del conteo es el juego: cada Combo de Last Rite exige 3+ de hielo, y soltar una skill fuera de orden rompe la cuenta del ciclo.",
+          "en": "Count discipline is the game: every Last Rite Combo demands 3+ ice, and firing a skill out of order breaks the cycle's math."
+        },
+        {
+          "es": "Sin Tangtang o Snowshine nadie corta los círculos rojos: con Fluorite o Perlica no hay interrupción estable.",
+          "en": "Without Tangtang or Snowshine nobody cuts the red circles: with Fluorite or Perlica there is no stable interrupt."
+        },
+        {
+          "es": "El eje acelerado sacrifica buffs sí o sí — el efecto del set Tide Surge, el daño Cryo recibido del talento de Xaihi o la amplificación de su Battle Skill: comes uno y sueltas otro.",
+          "en": "The accelerated axis always sacrifices buffs — the Tide Surge set effect, the Cryo damage taken from Xaihi's talent or her Battle Skill's amplification: you eat one and drop another."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "El contrato del Combo de Last Rite",
+            "en": "Last Rite's Combo contract"
+          },
+          "body": {
+            "es": "Winter's Devourer se enciende con 3+ stacks de Cryo Infliction en el enemigo, los consume todos y pega más por cada uno — el multiplicador extra por stack consumido es +240% al rango máximo de la skill (+192% al rango 9), más 40 de Ultimate Energy base y +15 por stack, que no cambian con el rango. Encima, su talento Hypothermia convierte cada consumo en Cryo Susceptibility (4% por stack, 15s). Un botón que pega, carga el Ultimate y debuffea — si le das de comer.",
+            "en": "Winter's Devourer lights at 3+ Cryo Infliction stacks on the enemy, consumes them all and hits harder per stack — the extra multiplier per stack consumed is +240% at max skill rank (+192% at rank 9), plus 40 base Ultimate Energy and +15 per stack, which do not change with rank. On top, her Hypothermia talent turns every consumption into Cryo Susceptibility (4% per stack, 15s). One button that hits, charges the Ultimate and debuffs — if you feed it."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Arcane WILL, la alimentadora",
+            "en": "Arcane WILL, the feeder"
+          },
+          "body": {
+            "es": "El Combo de Arcane en forma WILL se dispara cuando se aplica una Infliction y replica un stack del mismo elemento — en este equipo, hielo gratis sin gastar SP. Deja además Nature y Cryo Susceptibility y 6 segundos de Imprisonment que estabilizan la siguiente ronda de Final Strikes. Su ritmo de Combo acompasa el del equipo: cada ciclo trae el suyo.",
+            "en": "Arcane's Combo in WILL form fires when an Infliction is applied and replicates a stack of the same element — in this team, free ice at zero SP cost. It also leaves Nature and Cryo Susceptibility plus 6 seconds of Imprisonment that stabilize the next Final Strike round. Her Combo tempo matches the team's: every cycle brings one."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "La cuenta exacta del 4+4",
+            "en": "The exact 4+4 math"
+          },
+          "body": {
+            "es": "Una Battle Skill de Xaihi más dos de Last Rite, con dos rondas de Final Strikes entre medias, cierran exactamente en 4 de hielo: el Combo de Arcane pone el suyo tras la primera ronda y el de Xaihi cae con la segunda, sumando su talento (+10% de daño Cryo recibido, 5s). El Battle Skill de Last Rite siempre al final: su set Tide Surge da +35% de Arts DMG cuando ella aplica 2 o más stacks, y ese orden se lo garantiza.",
+            "en": "One Xaihi Battle Skill plus two Last Rite ones, with two Final Strike rounds in between, close at exactly 4 ice: Arcane's Combo adds hers after the first round and Xaihi's lands with the second, stacking her talent (+10% Cryo damage taken, 5s). Last Rite's Battle Skill always goes last: her Tide Surge set grants +35% Arts DMG when she applies 2+ stacks, and that order guarantees it."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "El Ultimate de Xaihi, adelantado",
+            "en": "Xaihi's Ultimate, pre-fired"
+          },
+          "body": {
+            "es": "Su Ultimate da 12 segundos de amplificación Cryo y Nature a todo el equipo escalando con su Intellect. Abriéndolo justo antes del segundo Combo de Last Rite, esa ventana cubre el Combo y el Ultimate enteros — el pico de daño del eje. Su Battle Skill además amplifica al operador controlado (+20% con el keystone) cuando el cristal ya no tiene curas que dar.",
+            "en": "Her Ultimate grants 12 seconds of Cryo and Nature amplification to the whole team scaling off her Intellect. Opened right before Last Rite's second Combo, that window covers the entire Combo and Ultimate — the axis' damage peak. Her Battle Skill also amplifies the controlled operator (+20% with the keystone) once the crystal has no heals left to give."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Ciclo 1 — cuatro de hielo (凑够四冰)",
+            "en": "Cycle 1 — four ice (凑够四冰)"
+          },
+          "action": {
+            "es": "Battle Skill de Xaihi + Battle Skill de Last Rite → Final Strikes (Combo de Arcane) → segunda Battle Skill de Last Rite + Final Strikes (Combo de Xaihi) → Combo de Last Rite con 4 stacks.",
+            "en": "Xaihi's Battle Skill + Last Rite's Battle Skill → Final Strikes (Arcane's Combo) → second Last Rite Battle Skill + Final Strikes (Xaihi's Combo) → Last Rite's Combo at 4 stacks."
+          },
+          "steps": [
+            {
+              "who": "xaihi",
+              "do": {
+                "es": "Abre con la Battle Skill de Xaihi y la de Last Rite (cold start, sin robar SP).",
+                "en": "Open with Xaihi's Battle Skill and Last Rite's (cold start, no SP stealing)."
+              }
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Primera ronda de Final Strikes: se enciende el Combo de Arcane — stack de hielo gratis, doble Susceptibility 6s. En el mismo golpe entran el amp del Battle Skill de Xaihi al controlado y el buff de equipo del set Eternal Xiranite (+16% de daño al resto cuando el portador aplica Amp, Protection o Susceptibility).",
+                "en": "First Final Strike round: Arcane's Combo lights — free ice stack, dual Susceptibility 6s. The same hit brings Xaihi's Battle Skill amp on the controlled operator and the Eternal Xiranite set's team buff (+16% damage to the rest when the wearer applies Amp, Protection or Susceptibility)."
+              },
+              "key": true
+            },
+            {
+              "who": "lastrite",
+              "do": {
+                "es": "Segunda Battle Skill de Last Rite y segunda ronda de Final Strikes: dispara el efecto de su set Tide Surge y el Combo de Xaihi — otro stack de hielo y +10% de daño Cryo recibido 5s. Con Detonation Unit en Xaihi hay todavía más daño recibido.",
+                "en": "Second Last Rite Battle Skill and second Final Strike round: triggers her Tide Surge set effect and Xaihi's Combo — another ice stack plus +10% Cryo damage taken for 5s. With Detonation Unit on Xaihi there is even more damage taken."
+              }
+            },
+            {
+              "who": "lastrite",
+              "do": {
+                "es": "Buffs a tope y 4 de hielo: Combo de Last Rite. Consume todo, dispara su talento Hypothermia (Susceptibility por stack) y pega la primera explosión.",
+                "en": "Buffs maxed and 4 ice: Last Rite's Combo. It consumes everything, triggers her Hypothermia talent (Susceptibility per stack) and lands the first explosion."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "Suena complejo pero es una sola cuenta: 1 Battle Skill de Xaihi + 2 de Last Rite + 2 rondas de Final Strikes = 4 de hielo exactos.",
+            "en": "Sounds complex but it is one count: 1 Xaihi Battle Skill + 2 Last Rite ones + 2 Final Strike rounds = exactly 4 ice."
+          }
+        },
+        {
+          "phase": {
+            "es": "Ciclo 2 — SP y cooldowns",
+            "en": "Cycle 2 — SP and cooldowns"
+          },
+          "action": {
+            "es": "Junta 2 barras de SP con Final Strikes, espera el Combo de Arcane, y repite: Battle Skill de Xaihi + Battle Skill de Last Rite → 4 de hielo otra vez.",
+            "en": "Bank 2 SP bars with Final Strikes, wait out Arcane's Combo, then repeat: Xaihi's Battle Skill + Last Rite's Battle Skill → 4 ice again."
+          },
+          "steps": [
+            {
+              "who": "lastrite",
+              "do": {
+                "es": "Pega Final Strikes hasta juntar 2 barras de SP mientras vuelve el cooldown del Combo de Arcane.",
+                "en": "Land Final Strikes until you bank 2 SP bars while Arcane's Combo cooldown returns."
+              },
+              "key": true
+            },
+            {
+              "who": "xaihi",
+              "do": {
+                "es": "Repite el ciclo: Battle Skill de Xaihi + Battle Skill de Last Rite, Final Strikes, y la misma cuenta hasta 4 de hielo.",
+                "en": "Repeat the cycle: Xaihi's Battle Skill + Last Rite's, Final Strikes, and the same count up to 4 ice."
+              }
+            },
+            {
+              "who": "lastrite",
+              "do": {
+                "es": "Si pilotas a Last Rite, cinco rondas de Final Strikes clavan los dos ciclos comiendo el amp de Xaihi: rondas 1-2 al primer ciclo, la 3 junta SP y espera el Combo, y las rondas 4-5 cierran el segundo.",
+                "en": "If you pilot Last Rite, five Final Strike rounds nail both cycles while eating Xaihi's amp: rounds 1-2 for the first cycle, round 3 banks SP and waits out the Combo, rounds 4-5 close the second."
+              }
+            }
+          ],
+          "tip": {
+            "es": "El Combo de Arcane tiene dos timings válidos: justo tras la primera ronda de Final Strikes (sus 6s de control te estabilizan la segunda y la Susceptibility cubre al límite el Combo de Last Rite) o en la segunda ronda (cubre el Combo del burst y el Ultimate posterior). Elige según lo que quieras cubrir.",
+            "en": "Arcane's Combo has two valid timings: right after the first Final Strike round (its 6s of control stabilize the second and the Susceptibility covers Last Rite's Combo to the limit) or on the second round (covering the burst Combo and the Ultimate after). Pick by what you want covered."
+          }
+        },
+        {
+          "phase": {
+            "es": "Burst — el eje de Ultimates",
+            "en": "Burst — the Ultimate axis"
+          },
+          "action": {
+            "es": "Tras dos ciclos, los Ultimates de Last Rite y Xaihi están cargados: Ultimate de Xaihi ANTES del segundo Combo de Last Rite → Combo → Ultimate de Last Rite dentro de la ventana de amplificación.",
+            "en": "After two cycles, Last Rite's and Xaihi's Ultimates are charged: Xaihi's Ultimate BEFORE Last Rite's second Combo → Combo → Last Rite's Ultimate inside the amplification window."
+          },
+          "steps": [
+            {
+              "who": "xaihi",
+              "do": {
+                "es": "Adelanta el Ultimate de Xaihi antes del segundo Combo de Last Rite: sus 12 segundos de amplificación altísima tienen que cubrir el Combo y el Ultimate.",
+                "en": "Pre-fire Xaihi's Ultimate before Last Rite's second Combo: its 12 seconds of sky-high amplification must cover the Combo and the Ultimate."
+              },
+              "key": true
+            },
+            {
+              "who": "lastrite",
+              "do": {
+                "es": "Combo de Last Rite del segundo ciclo y, dentro de la ventana, su Ultimate: los tres tajos de la guadaña con todo el equipo empujando detrás.",
+                "en": "Last Rite's second-cycle Combo and, inside the window, her Ultimate: the scythe's three slashes with the whole team pushing behind."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "El Ultimate de Last Rite solo se carga con su propia Battle Skill y su Combo — otra razón por la que el Combo alimentado por el equipo es su motor.",
+            "en": "Last Rite's Ultimate only charges off her own Battle Skill and Combo — one more reason the team-fed Combo is her engine."
+          }
+        }
+      ],
+      "rotationVariants": [
+        {
+          "name": {
+            "es": "Tangtang 4ª (5 estrellas del autor)",
+            "en": "Tangtang 4th (author's 5 stars)"
+          },
+          "description": {
+            "es": "El 4º asiento perfecto: DPS de calidad, corta los círculos rojos, aporta buff y su Ultimate controla. El primer ciclo puede quedarse igual (ahorra SP) o volverse Battle Skill de Xaihi + Tangtang + Last Rite, usando antes el Combo de Tangtang para acumular Whirlpools que engordan su siguiente Battle Skill. La de Last Rite siempre al final, para el set Tide Surge. Con el daño ya repartido entre el Combo de Last Rite y la Battle Skill de Tangtang, también puedes pilotar a Tangtang (mejores manos) comiendo el amp de Xaihi — o alternar entre ambas.",
+            "en": "The perfect 4th seat: quality DPS, cuts red circles, brings buffs and her Ultimate controls. The first cycle can stay as is (saves SP) or become Xaihi + Tangtang + Last Rite Battle Skills, using Tangtang's Combo earlier to bank Whirlpools that fatten her next Battle Skill. Last Rite's always goes last, for the Tide Surge set. With damage now split between Last Rite's Combo and Tangtang's Battle Skill, you can also pilot Tangtang (better hands) while eating Xaihi's amp — or swap between both."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Segundo ciclo con Tangtang",
+                "en": "Second cycle with Tangtang"
+              },
+              "action": {
+                "es": "Cuando su Combo esté listo, abre el ciclo 2 con la Battle Skill de Tangtang como primer stack, completa con Xaihi + Last Rite + Combo de Arcane hasta 4, y suelta los Ultimates. Si lleva el set Qingbo, suma su Ultimate: tras el ataque en picada cae otro stack y sale el Combo de 4 extremo.",
+                "en": "Once her Combo is ready, open cycle 2 with Tangtang's Battle Skill as the first stack, fill with Xaihi + Last Rite + Arcane's Combo up to 4, and fire the Ultimates. If she runs the Qingbo set, add her Ultimate: after the dive attack another stack lands and the extreme 4-stack Combo comes out."
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "es": "Snowshine 4ª (4 estrellas, la novato-friendly)",
+            "en": "Snowshine 4th (4 stars, the beginner pick)"
+          },
+          "description": {
+            "es": "La mejor sustituta de Tangtang y la recomendación para quien empieza: el bloqueo de su Battle Skill cuesta 70 SP, responde los círculos rojos y su contraataque aplica el stack — Infliction barata y en el momento justo. Fuera de Tangtang es la única alineación que procesa círculos rojos estable. A diario con el set Eternal Xiranite (refuerza el buff de equipo); para contenido difícil, el set de piezas Bio-aid (LYNX) da margen de error extra.",
+            "en": "Tangtang's best substitute and the pick for beginners: her Battle Skill block costs 70 SP, answers red circles and its counter applies the stack — cheap Infliction at the exact right moment. Outside Tangtang she is the only lineup that handles red circles reliably. Daily runs with the Eternal Xiranite set (reinforces the team buff); for hard content, the Bio-aid (LYNX) pieces buy extra error margin."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Eje 4+4 con bloqueo (demo en la P2 del video)",
+                "en": "4+4 axis with block (demo in the video's P2)"
+              },
+              "action": {
+                "es": "Battle Skill de Xaihi de apertura; al círculo rojo, Battle Skill de Snowshine (primer stack + Combo de Arcane); Battle Skill de Last Rite y segunda ronda de Final Strikes (Combo de Xaihi, stacks 3 y 4); Combo de Last Rite de cierre. Segundo ciclo flexible con el bloqueo respondiendo círculos, y al final Ultimates de Xaihi y Last Rite — o el de Xaihi adelantado para cubrir Combo y Ultimate.",
+                "en": "Opening Xaihi Battle Skill; on the red circle, Snowshine's Battle Skill (first stack + Arcane's Combo); Last Rite's Battle Skill and the second Final Strike round (Xaihi's Combo, stacks 3 and 4); closing Last Rite Combo. Flexible second cycle with the block answering circles, then Xaihi's and Last Rite's Ultimates — or Xaihi's pre-fired to cover Combo and Ultimate."
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "es": "Fluorite 4ª (3.5 estrellas, la barata)",
+            "en": "Fluorite 4th (3.5 stars, the budget one)"
+          },
+          "description": {
+            "es": "Infliction de bajo coste y apilado fluido que acelera el ciclo de Ultimates — la alineación que más exprime el Combo de Last Rite y la de ciclo de Ultimate más rápido. A cambio: sin daño propio, sin buff, sin interrupción, y su propio Combo tiene el cooldown largo. No necesita inversión — enchufar y jugar. Opción de transición digna.",
+            "en": "Low-cost Infliction and silky stacking that speeds up the Ultimate cycle — the lineup that squeezes Last Rite's Combo hardest and cycles her Ultimate fastest. In exchange: no damage of her own, no buffs, no interrupts, and her own Combo's cooldown runs long. Zero investment needed — plug and play. A worthy transition pick."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Combo de 3 + Combo de 4",
+                "en": "3-stack Combo + 4-stack Combo"
+              },
+              "action": {
+                "es": "Battle Skill de Xaihi + Battle Skill de Last Rite; tras una ronda de Final Strikes se encadenan los Combos de Arcane, Fluorite y Last Rite — aquí el autor recomienda soltar el de Last Rite a 3 stacks directamente para acelerar el ritmo, y hacer el de 4 en el ciclo siguiente, entrando ya al burst de Ultimates. Ojo: hay que esperar un Combo de Arcane para completar bien los 4.",
+                "en": "Xaihi's Battle Skill + Last Rite's; after one Final Strike round the Arcane, Fluorite and Last Rite Combos chain — here the author recommends firing Last Rite's at 3 stacks outright to speed the tempo, doing the 4-stack one on the next cycle, straight into the Ultimate burst. Mind you must wait one Arcane Combo to properly complete the 4."
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "es": "Perlica 4ª (3.5 estrellas)",
+            "en": "Perlica 4th (3.5 stars)"
+          },
+          "description": {
+            "es": "Aporta buff y, como todo el eje corre sobre Final Strikes, su cobertura de Electrification es muy efectiva. Daño teórico bastante bueno; el pero es la falta de interrupción estable. El eje es idéntico al base, sin cambios.",
+            "en": "Brings buffs and, since the whole axis runs on Final Strikes, her Electrification coverage is very effective. Quite good theoretical damage; the catch is no stable interrupt. The axis is identical to the base one, unchanged."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Eje base sin cambios",
+                "en": "Base axis unchanged"
+              },
+              "action": {
+                "es": "La misma cuenta 4+4 del eje base, con Perlica sumando Electrification y buffs desde su asiento. Su set Pulser Labs empuja el lado eléctrico (+50% de daño Electric al aplicar Electrification).",
+                "en": "The same 4+4 count as the base axis, with Perlica adding Electrification and buffs from her seat. Her Pulser Labs set pushes the electric side (+50% Electric damage on applying Electrification)."
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "es": "Eje acelerado 3+4 / 4+3 (carrera)",
+            "en": "Accelerated 3+4 / 4+3 axis (race)"
+          },
+          "description": {
+            "es": "Last Rite a potencial 0 con algo de Energy en el gear (al autor le basta un refinado) puede arrancar el eje de Ultimates con 3+4, y el cooldown del Combo de Arcane llega al límite justo: puedes recortar una ronda de Final Strikes y jugar 3+4 o 4+3 para adelantar el burst. Es para cuando el daño sobra y el cold start rápido importa. El precio: siempre sacrificas algún buff — el efecto del set Tide Surge, el daño Cryo recibido del talento de Xaihi o la amplificación de su Battle Skill. Sin cronómetro delante, el autor recomienda quedarse con el 4+4.",
+            "en": "Last Rite at potential 0 with some Energy on her gear (one refine is enough for the author) can start the Ultimate axis at 3+4, and Arcane's Combo cooldown arrives just in time: you can trim one Final Strike round and play 3+4 or 4+3 to advance the burst. It is for when damage is overkill and a fast cold start matters. The price: you always sacrifice some buff — the Tide Surge set effect, the Cryo damage taken from Xaihi's talent or her Battle Skill's amplification. With no timer running, the author recommends staying on 4+4."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Demo 3+4 con Tangtang",
+                "en": "3+4 demo with Tangtang"
+              },
+              "action": {
+                "es": "Battle Skills de Tangtang y Last Rite con los Combos encadenados; una ronda de Final Strikes junta 3 de hielo y sale el primer burst. Se cuela la Battle Skill de Xaihi, dos rondas de Final Strikes con las de Tangtang y Last Rite juntan 4, y el Ultimate de Xaihi cubre el Combo y Ultimate de Last Rite más la Battle Skill de tres Waterspouts de Tangtang: gran burst y a correr.",
+                "en": "Tangtang's and Last Rite's Battle Skills with the Combos chained; one Final Strike round gathers 3 ice and the first burst fires. Xaihi's Battle Skill sneaks in, two Final Strike rounds with Tangtang's and Last Rite's gather 4, and Xaihi's Ultimate covers Last Rite's Combo and Ultimate plus Tangtang's three-Waterspout Battle Skill: big burst and off you go."
+              }
+            }
+          ]
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "lastrite",
+          "order": "S2",
+          "note": {
+            "es": "El Combo (S2) es el corazón del daño de todo el eje. El video no da un orden de subida explícito; la Last Rite del autor aparece con las cuatro skills a rango 9.",
+            "en": "The Combo (S2) is the damage core of the whole axis. The video gives no explicit leveling order; the author's Last Rite shows all four skills at rank 9."
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Soltar la Battle Skill de Last Rite antes que las demás: va al final del ciclo para que el set Tide Surge (+35% de Arts DMG al aplicar 2+ stacks) entre garantizado.",
+          "en": "Firing Last Rite's Battle Skill before the others: it goes last in the cycle so the Tide Surge set (+35% Arts DMG on applying 2+ stacks) procs guaranteed."
+        },
+        {
+          "es": "Arrancar el segundo ciclo sin 2 barras de SP o con el Combo de Arcane aún en cooldown: la cuenta de 4 no cierra.",
+          "en": "Starting the second cycle without 2 SP bars or with Arcane's Combo still on cooldown: the 4-count does not close."
+        },
+        {
+          "es": "En la variante con Fluorite, no esperar el Combo de Arcane antes del Combo de 4: te quedas corto de stacks.",
+          "en": "In the Fluorite variant, not waiting for Arcane's Combo before the 4-stack one: you come up short on stacks."
+        },
+        {
+          "es": "Llevar Fluorite o Perlica a contenido con círculos rojos frecuentes: nadie los corta — eso es territorio de Tangtang o Snowshine.",
+          "en": "Bringing Fluorite or Perlica into content with frequent red circles: nobody cuts them — that is Tangtang or Snowshine territory."
+        },
+        {
+          "es": "Jugar el eje acelerado por defecto: sin cronómetro delante pierdes buffs a cambio de nada — el 4+4 estándar rinde más.",
+          "en": "Defaulting to the accelerated axis: with no timer running you drop buffs for nothing — the standard 4+4 yields more."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "Fluorite en lugar de Xaihi (malabares)",
+            "en": "Fluorite instead of Xaihi (juggling)"
+          },
+          "verdict": {
+            "es": "Dejando el DPS a un lado, Fluorite también puede reemplazar a Xaihi para el modo malabares: cuatro roturas en un segundo, satisfactorio y desestresante, pero la pérdida de soporte es considerable. Jugable si el nivel del contenido no aprieta; el autor lo guarda como reserva de estilo por si un futuro Contingency Contract trae modificadores que le sienten — sin calificación por ahora.",
+            "en": "DPS aside, Fluorite can also replace Xaihi for juggling mode: four shatters a second, satisfying and stress-melting, but the support loss is considerable. Playable if the content level is forgiving; the author shelves it as a style reserve in case a future Contingency Contract brings fitting modifiers — unrated for now."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "lastrite",
+          "role": "Carry",
+          "weaponId": "wpn_claym_0013",
+          "gearRec": null,
+          "weaponNote": {
+            "es": "Khravengger (BIS): es la que muestra la ficha del video. El video no discute alternativas de arma.",
+            "en": "Khravengger (BIS): the one the video's character sheet shows. The video does not discuss weapon alternatives."
+          },
+          "gearNote": {
+            "es": "Set Tide Surge (潮涌): +20% de daño de skill y +35% de Arts DMG cuando ella aplica 2+ stacks de Infliction — la razón de que su Battle Skill cierre cada ciclo. El video no desglosa las piezas.",
+            "en": "Tide Surge set (潮涌): +20% skill damage and +35% Arts DMG when she applies 2+ Infliction stacks — the reason her Battle Skill closes every cycle. The video does not break down the pieces."
+          },
+          "deepNote": {
+            "es": "Su Combo pide 3+ stacks, consume todos, con +240% de multiplicador por stack al rango máximo (+192% al rango 9) y 40+15 por stack de Ultimate Energy en cualquier rango; su talento Hypothermia añade Cryo Susceptibility de 4% por stack consumido (15s). A potencial 0, con un refinado de Energy en el gear alcanza para el arranque 3+4 del eje acelerado. Su Ultimate solo carga con su propia Battle Skill y Combo.",
+            "en": "Her Combo asks 3+ stacks, consumes them all, with +240% multiplier per stack at max rank (+192% at rank 9) plus 40+15 Ultimate Energy per stack at any rank; her Hypothermia talent adds 4% Cryo Susceptibility per consumed stack (15s). At potential 0, one Energy refine on her gear is enough for the accelerated axis' 3+4 start. Her Ultimate only charges off her own Battle Skill and Combo."
+          }
+        },
+        {
+          "id": "arcane",
+          "role": "Enabler",
+          "weaponId": null,
+          "gearRec": null,
+          "weaponNote": {
+            "es": "El video no entra en el arma ni el gear de Arcane — la serie del autor la da por armada de guías anteriores. Aquí juega en forma WILL.",
+            "en": "The video does not cover Arcane's weapon or gear — the author's series assumes her built from earlier guides. She plays in WILL form here."
+          },
+          "gearNote": {
+            "es": "Su aporte es de kit, no de build: el Combo replica un stack de hielo gratis con Nature y Cryo Susceptibility (6s) e Imprisonment, y su Battle Skill WILL atrae a los enemigos del área — el agrupado que vuelve de área varias skills de Last Rite.",
+            "en": "Her contribution is kit, not build: the Combo replicates a free ice stack with Nature and Cryo Susceptibility (6s) plus Imprisonment, and her WILL Battle Skill pulls enemies in the area — the grouping that turns several Last Rite skills into AoE."
+          },
+          "deepNote": {
+            "es": "El cooldown de su Combo marca el tempo del equipo: cada ciclo de 4 incluye exactamente uno, y en el eje acelerado llega al límite justo.",
+            "en": "Her Combo cooldown sets the team tempo: every 4-ice cycle includes exactly one, and in the accelerated axis it arrives right on the edge."
+          }
+        },
+        {
+          "id": "xaihi",
+          "role": "Support",
+          "weaponId": "wpn_funnel_0010",
+          "gearRec": null,
+          "weaponNote": {
+            "es": "Chivalric Virtues suma ATK extra al equipo. Con Detonation Unit, el video señala más efecto de daño recibido en este eje.",
+            "en": "Chivalric Virtues adds extra team ATK. With Detonation Unit, the video notes more damage-taken effect on this axis."
+          },
+          "gearNote": {
+            "es": "El video no desglosa su gear. Sus aportes son de kit: la Battle Skill amplifica al operador controlado (+20% con el keystone) cuando el cristal ya no cura, su Combo pone hielo y activa el talento (+10% de daño Cryo recibido, 5s), y su Ultimate amplifica al equipo 12s escalando con Intellect.",
+            "en": "The video does not break down her gear. Her contributions are kit: the Battle Skill amplifies the controlled operator (+20% with the keystone) once the crystal stops healing, her Combo adds ice and triggers the talent (+10% Cryo damage taken, 5s), and her Ultimate amplifies the team for 12s scaling off Intellect."
+          },
+          "deepNote": {
+            "es": "El Ultimate adelantado es la jugada: abierto antes del segundo Combo de Last Rite, la ventana de 12s cubre Combo + Ultimate, el pico del eje.",
+            "en": "The pre-fired Ultimate is the play: opened before Last Rite's second Combo, the 12s window covers Combo + Ultimate, the axis' peak."
+          }
+        },
+        {
+          "id": "tangtang",
+          "role": "Sub-DPS",
+          "weaponId": "wpn_pistol_0011",
+          "gearRec": null,
+          "weaponNote": {
+            "es": "Brigand's Calling (BIS), la que muestra el video con sus refinados al máximo.",
+            "en": "Brigand's Calling (BIS), the one the video shows with maxed refines."
+          },
+          "gearNote": {
+            "es": "Con el set Qingbo (reduce el cooldown del Combo) puedes sumar su Ultimate al ciclo: tras el ataque en picada cae otro stack para el Combo de 4 extremo. Su Battle Skill consume los Whirlpools del Combo para crear hasta 3 Waterspouts que devuelven SP según cuántos salgan — por eso conviene usar su Combo temprano. Ojo con la cuenta: si salen varios, entre todos ponen UNA capa de hielo y añaden Arts Susceptibility, no una capa cada uno (el autor lo dice igual: tres Waterspouts más una Infliction).",
+            "en": "With the Qingbo set (Combo cooldown reduction) you can add her Ultimate to the cycle: after the dive attack another stack lands for the extreme 4-stack Combo. Her Battle Skill consumes the Combo's Whirlpools to create up to 3 Waterspouts that refund SP based on how many appear — which is why using her Combo early pays. Mind the count: when several spawn they apply ONE ice stack between them plus Arts Susceptibility, not one stack each (the author words it the same way: three Waterspouts plus one Infliction)."
+          },
+          "deepNote": {
+            "es": "El 4º asiento de 5 estrellas del autor: daño de calidad, interrupción a tiempo de círculos rojos, algo de buff y el control de su Ultimate. También puede pilotarse ella (mejores manos) comiendo el amp de Xaihi, o alternar el control entre ambas carries.",
+            "en": "The author's 5-star 4th seat: quality damage, timely red-circle interrupts, some buffing and her Ultimate's control. She can also be piloted herself (better hands) while eating Xaihi's amp, or you can swap control between both carries."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "El video no reparte builds completas del trío base (la serie del autor las asume de entregas anteriores): muestra la ficha de Last Rite con Khravengger y menciona su set Tide Surge, y detalla en pantalla las armas y sets de las opciones del 4º asiento. Los umbrales finos aquí no son de Energy sino de cuenta: 4 de hielo por ciclo y 2 barras de SP entre ciclos.",
+          "en": "The video does not hand out full builds for the base trio (the author's series assumes them from earlier entries): it shows Last Rite's sheet with Khravengger and mentions her Tide Surge set, and details on screen the weapons and sets of the 4th-seat options. The fine thresholds here are not Energy but counting: 4 ice per cycle and 2 SP bars between cycles."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Snowshine de 4ª (novatos / alta dificultad)",
+              "en": "Snowshine 4th (beginners / hard content)"
+            },
+            "swap": {
+              "es": "Su arma puede quedarse a nivel bajo — la Finishing Call del video va a nivel 40. Set Eternal Xiranite a diario (su Battle Skill aplica Protection, encendiendo el buff de +16% al equipo); para contenido difícil, las piezas Bio-aid (LYNX) con curación y reducción de daño dan margen extra.",
+              "en": "Her weapon can stay low level — the video's Finishing Call sits at 40. Eternal Xiranite set for dailies (her Battle Skill applies Protection, lighting the +16% team buff); for hard content, the Bio-aid (LYNX) pieces with healing and damage reduction buy extra margin."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Fluorite de 4ª (cero inversión)",
+              "en": "Fluorite 4th (zero investment)"
+            },
+            "swap": {
+              "es": "Enchufar y jugar: no necesita farmeo. El video la muestra con el set Type 50 Yinglung al 3, apilando daño de Combo en los substats.",
+              "en": "Plug and play: no farming needed. The video shows her on the 3-piece Type 50 Yinglung set, stacking Combo damage on substats."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Perlica de 4ª",
+              "en": "Perlica 4th"
+            },
+            "swap": {
+              "es": "Stanza of Memorials (al castear su Ultimate, ATK para los aliados de atributo distinto) + set Pulser Labs (Arts Intensity, y +50% de daño Electric al aplicar Electrification). El eje no cambia en nada.",
+              "en": "Stanza of Memorials (on casting her Ultimate, ATK for allies of a different attribute) + Pulser Labs set (Arts Intensity, and +50% Electric damage on applying Electrification). The axis does not change at all."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Tangtang con set Qingbo",
+              "en": "Tangtang on the Qingbo set"
+            },
+            "swap": {
+              "es": "La reducción de cooldown de Combo del set habilita meter su Ultimate en el ciclo: el ataque en picada posterior deja otro stack y sale el Combo de 4 extremo de Last Rite.",
+              "en": "The set's Combo cooldown reduction enables slotting her Ultimate into the cycle: the follow-up dive attack leaves another stack and Last Rite's extreme 4-stack Combo comes out."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

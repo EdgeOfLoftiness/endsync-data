@@ -7,7 +7,7 @@
     "r": 4,
     "role": "Enabler",
     "icon": "<img src='assets/characters/akekuri_card.webp' class='char-av-img'>",
-    "signature_weapon": "wpn_sword_0012",
+    "bis_weapon": "wpn_sword_0012",
     "support_bis_weapons": [],
     "recommended_set": "Frontiers",
     "recommended_gear": [
@@ -18,7 +18,19 @@
     ],
     "name_es": "Akekuri",
     "name_jp": "アケクリ",
-    "name_zh": "秋栗"
+    "name_zh": "秋栗",
+    "common_gear": {
+      "gear": [
+        "frontiers_protection_suit",
+        "frontiers_blight_res_gloves",
+        "frontiers_extra_o2_tube",
+        "redeemer_seal"
+      ],
+      "set": "Frontiers",
+      "setCount": 1,
+      "count": 1,
+      "builds": 1
+    }
   },
   {
     "id": "alesh",
@@ -28,7 +40,7 @@
     "r": 5,
     "role": "Enabler",
     "icon": "<img src='assets/characters/alesh_card.webp' class='char-av-img'>",
-    "signature_weapon": "wpn_sword_0012",
+    "bis_weapon": "wpn_sword_0012",
     "recommended_set": "Frontiers",
     "recommended_gear": [
       "frontiers_protection_suit",
@@ -38,7 +50,19 @@
     ],
     "name_es": "Alesh",
     "name_jp": "アレッシュ",
-    "name_zh": "阿列什"
+    "name_zh": "阿列什",
+    "common_gear": {
+      "gear": [
+        "redeemer_armor",
+        "eternal_xiranite_gloves",
+        "redeemer_seal",
+        "redeemer_seal"
+      ],
+      "set": "Redeemer",
+      "setCount": 2,
+      "count": 1,
+      "builds": 2
+    }
   },
   {
     "id": "antal",
@@ -48,7 +72,7 @@
     "r": 4,
     "role": "Buffer",
     "icon": "<img src='assets/characters/antal_card.webp' class='char-av-img'>",
-    "signature_weapon": "wpn_funnel_0008",
+    "bis_weapon": "wpn_funnel_0008",
     "recommended_set": "Eternal Xiranite",
     "recommended_gear": [
       "tide_fall_light_armor",
@@ -58,7 +82,19 @@
     ],
     "name_es": "Antal",
     "name_jp": "アンタル",
-    "name_zh": "安塔尔"
+    "name_zh": "安塔尔",
+    "common_gear": {
+      "gear": [
+        "tide_fall_light_armor",
+        "eternal_xiranite_gloves",
+        "eternal_xiranite_power_core",
+        "eternal_xiranite_power_core"
+      ],
+      "set": "Eternal Xiranite",
+      "setCount": 5,
+      "count": 3,
+      "builds": 5
+    }
   },
   {
     "id": "arclight",
@@ -68,7 +104,7 @@
     "r": 5,
     "role": "Damage",
     "icon": "<img src='assets/characters/arclight_card.webp' class='char-av-img'>",
-    "signature_weapon": "wpn_sword_0012",
+    "bis_weapon": "wpn_sword_0012",
     "support_bis_weapons": [],
     "recommended_set": "Frontiers",
     "recommended_gear": [
@@ -79,7 +115,19 @@
     ],
     "name_es": "Arclight",
     "name_jp": "アークライト",
-    "name_zh": "弧光"
+    "name_zh": "弧光",
+    "common_gear": {
+      "gear": [
+        "frontiers_armor",
+        "frontiers_fiber_gloves",
+        "frontiers_comm",
+        "frontiers_o2_tube"
+      ],
+      "set": "Frontiers",
+      "setCount": 2,
+      "count": 1,
+      "builds": 3
+    }
   },
   {
     "id": "ardelia",
@@ -89,7 +137,7 @@
     "r": 6,
     "role": "Buffer",
     "icon": "<img src='assets/characters/ardelia_card.webp' class='char-av-img'>",
-    "signature_weapon": "wpn_funnel_0013",
+    "bis_weapon": "wpn_funnel_0013",
     "recommended_set": "Eternal Xiranite",
     "recommended_gear": [
       "bonekrusha_poncho_t1",
@@ -99,7 +147,19 @@
     ],
     "name_es": "Ardelia",
     "name_jp": "アルデリア",
-    "name_zh": "艾尔黛拉"
+    "name_zh": "艾尔黛拉",
+    "common_gear": {
+      "gear": [
+        "bonekrusha_poncho_t1",
+        "eternal_xiranite_gloves_t1",
+        "eternal_xiranite_auxiliary_arm",
+        "eternal_xiranite_auxiliary_arm"
+      ],
+      "set": "Eternal Xiranite",
+      "setCount": 2,
+      "count": 2,
+      "builds": 2
+    }
   },
   {
     "id": "avywenna",
@@ -109,12 +169,24 @@
     "r": 5,
     "role": "Damage",
     "icon": "<img src='assets/characters/avywenna_card.webp' class='char-av-img'>",
-    "signature_weapon": "wpn_lance_0011",
+    "bis_weapon": "wpn_lance_0011",
     "support_bis_weapons": [],
     "recommended_set": "Bonekrusha",
     "name_es": "Avywenna",
     "name_jp": "アイビーエナ",
-    "name_zh": "艾维文娜"
+    "name_zh": "艾维文娜",
+    "common_gear": {
+      "gear": [
+        "bonekrusha_poncho_t1",
+        "bonekrusha_wristband_t1",
+        "bonekrusha_figurine",
+        "bonekrusha_figurine"
+      ],
+      "set": "Bonekrusha",
+      "setCount": 3,
+      "count": 2,
+      "builds": 3
+    }
   },
   {
     "id": "catcher",
@@ -124,7 +196,7 @@
     "r": 4,
     "role": "Enabler",
     "icon": "<img src='assets/characters/catcher_card.webp' class='char-av-img'>",
-    "signature_weapon": "wpn_claym_0015",
+    "bis_weapon": "wpn_claym_0015",
     "recommended_set": "Eternal Xiranite",
     "recommended_gear": [
       "tide_fall_light_armor",
@@ -144,7 +216,7 @@
     "r": 5,
     "role": "Enabler",
     "icon": "<img src='assets/characters/chenqianyu_card.webp' class='char-av-img'>",
-    "signature_weapon": "wpn_sword_0011",
+    "bis_weapon": "wpn_sword_0011",
     "recommended_set": "Qingbo",
     "recommended_gear": [
       "swordmancer_heavy_armor_t1",
@@ -154,7 +226,19 @@
     ],
     "name_es": "Chen Qianyu",
     "name_jp": "チェン・センユー",
-    "name_zh": "陈千语"
+    "name_zh": "陈千语",
+    "common_gear": {
+      "gear": [
+        "swordmancer_heavy_armor_t1",
+        "qingbo_gauntlets",
+        "qingbo_positioning_kit_t1",
+        "qingbo_positioning_kit_t1"
+      ],
+      "set": "Qingbo",
+      "setCount": 2,
+      "count": 2,
+      "builds": 3
+    }
   },
   {
     "id": "dapan",
@@ -164,7 +248,7 @@
     "r": 5,
     "role": "Buffer",
     "icon": "<img src='assets/characters/dapan_card.webp' class='char-av-img'>",
-    "signature_weapon": "wpn_claym_0004",
+    "bis_weapon": "wpn_claym_0004",
     "recommended_set": "Grizzled Edge",
     "recommended_gear": [
       "grizzled_edge_armor",
@@ -182,7 +266,7 @@
     "r": 6,
     "role": "Buffer",
     "icon": "<img src='assets/characters/ember_card.webp' class='char-av-img'>",
-    "signature_weapon": "wpn_claym_0007",
+    "bis_weapon": "wpn_claym_0007",
     "support_bis_weapons": [],
     "recommended_set": "LYNX",
     "recommended_gear": [
@@ -203,7 +287,7 @@
     "r": 6,
     "role": "Damage",
     "icon": "<img src='assets/characters/endministrator_card.webp' class='char-av-img'>",
-    "signature_weapon": "wpn_sword_0021",
+    "bis_weapon": "wpn_sword_0021",
     "support_bis_weapons": [],
     "recommended_set": "Grizzled Edge",
     "recommended_gear": [
@@ -224,7 +308,7 @@
     "r": 4,
     "role": "Damage",
     "icon": "<img src='assets/characters/estella_card.webp' class='char-av-img'>",
-    "signature_weapon": "wpn_lance_0013",
+    "bis_weapon": "wpn_lance_0013",
     "support_bis_weapons": [],
     "recommended_set": "Type 50 Yinglung",
     "recommended_gear": [
@@ -235,7 +319,19 @@
     ],
     "name_es": "Estella",
     "name_jp": "エステーラ",
-    "name_zh": "埃特拉"
+    "name_zh": "埃特拉",
+    "common_gear": {
+      "gear": [
+        "swordmancer_light_armor",
+        "eternal_xiranite_gloves_t1",
+        "eternal_xiranite_auxiliary_arm",
+        "eternal_xiranite_auxiliary_arm"
+      ],
+      "set": "Eternal Xiranite",
+      "setCount": 1,
+      "count": 1,
+      "builds": 1
+    }
   },
   {
     "id": "zhuangfangyi",
@@ -245,7 +341,7 @@
     "r": 6,
     "role": "Damage",
     "icon": "<img src='assets/characters/zhuangfangyi_card.webp' class='char-av-img'>",
-    "signature_weapon": "wpn_funnel_0015",
+    "bis_weapon": "wpn_funnel_0015",
     "support_bis_weapons": [],
     "recommended_set": "Xiranflow",
     "recommended_gear": [
@@ -256,7 +352,19 @@
     ],
     "name_es": "Zhuang Fangyi",
     "name_jp": "ゾアン・ファンイ",
-    "name_zh": "庄方宜"
+    "name_zh": "庄方宜",
+    "common_gear": {
+      "gear": [
+        "xiranflow_light_armor",
+        "xiranflow_gloves",
+        "lynx_slab",
+        "xiranflow_baton"
+      ],
+      "set": "Xiranflow",
+      "setCount": 2,
+      "count": 2,
+      "builds": 2
+    }
   },
   {
     "id": "fluorite",
@@ -266,7 +374,7 @@
     "r": 4,
     "role": "Buffer",
     "icon": "<img src='assets/characters/fluorite_card.webp' class='char-av-img'>",
-    "signature_weapon": "wpn_pistol_0012",
+    "bis_weapon": "wpn_pistol_0012",
     "recommended_gear": [
       "tide_fall_light_armor",
       "lynx_gloves",
@@ -285,7 +393,7 @@
     "r": 6,
     "role": "Buffer",
     "icon": "<img src='assets/characters/gilberta_card.webp' class='char-av-img'>",
-    "signature_weapon": "wpn_funnel_0011",
+    "bis_weapon": "wpn_funnel_0011",
     "recommended_set": "Eternal Xiranite",
     "recommended_gear": [
       "eternal_xiranite_armor",
@@ -295,7 +403,19 @@
     ],
     "name_es": "Gilberta",
     "name_jp": "ギルベルタ",
-    "name_zh": "洁尔佩塔"
+    "name_zh": "洁尔佩塔",
+    "common_gear": {
+      "gear": [
+        "eternal_xiranite_armor",
+        "eternal_xiranite_gloves_t1",
+        "eternal_xiranite_auxiliary_arm",
+        "eternal_xiranite_auxiliary_arm"
+      ],
+      "set": "Eternal Xiranite",
+      "setCount": 11,
+      "count": 7,
+      "builds": 12
+    }
   },
   {
     "id": "laevatain",
@@ -305,7 +425,7 @@
     "r": 6,
     "role": "Damage",
     "icon": "<img src='assets/characters/laevatain_card.webp' class='char-av-img'>",
-    "signature_weapon": "wpn_sword_0006",
+    "bis_weapon": "wpn_sword_0006",
     "support_bis_weapons": [
       "wpn_sword_0012"
     ],
@@ -318,7 +438,19 @@
     ],
     "name_es": "Laevatain",
     "name_jp": "レーヴァテイン",
-    "name_zh": "莱万汀"
+    "name_zh": "莱万汀",
+    "common_gear": {
+      "gear": [
+        "redeemer_armor",
+        "hot_work_gauntlets",
+        "hot_work_pyrometer",
+        "hot_work_pyrometer"
+      ],
+      "set": "Hot Work",
+      "setCount": 2,
+      "count": 1,
+      "builds": 2
+    }
   },
   {
     "id": "lastrite",
@@ -328,7 +460,7 @@
     "r": 6,
     "role": "Damage",
     "icon": "<img src='assets/characters/lastrite_card.webp' class='char-av-img'>",
-    "signature_weapon": "wpn_claym_0013",
+    "bis_weapon": "wpn_claym_0013",
     "support_bis_weapons": [],
     "recommended_set": "Tide Surge",
     "recommended_gear": [
@@ -339,7 +471,19 @@
     ],
     "name_es": "Last Rite",
     "name_jp": "ラストライト",
-    "name_zh": "别礼"
+    "name_zh": "别礼",
+    "common_gear": {
+      "gear": [
+        "bonekrusha_poncho",
+        "tide_surge_gauntlets",
+        "hanging_river_o2_tube",
+        "hanging_river_o2_tube"
+      ],
+      "set": "Tide Surge",
+      "setCount": 1,
+      "count": 1,
+      "builds": 1
+    }
   },
   {
     "id": "lifeng",
@@ -349,7 +493,7 @@
     "r": 6,
     "role": "Enabler",
     "icon": "<img src='assets/characters/lifeng_card.webp' class='char-av-img'>",
-    "signature_weapon": "wpn_lance_0012",
+    "bis_weapon": "wpn_lance_0012",
     "recommended_set": "Swordmancer",
     "recommended_gear": [
       "swordmancer_heavy_armor_t1",
@@ -359,7 +503,19 @@
     ],
     "name_es": "Lifeng",
     "name_jp": "リーフォン",
-    "name_zh": "黎风"
+    "name_zh": "黎风",
+    "common_gear": {
+      "gear": [
+        "swordmancer_heavy_armor_t1",
+        "eternal_xiranite_gloves",
+        "eternal_xiranite_power_core",
+        "eternal_xiranite_power_core"
+      ],
+      "set": "Eternal Xiranite",
+      "setCount": 1,
+      "count": 1,
+      "builds": 1
+    }
   },
   {
     "id": "perlica",
@@ -369,7 +525,7 @@
     "r": 5,
     "role": "Buffer",
     "icon": "<img src='assets/characters/perlica_card.webp' class='char-av-img'>",
-    "signature_weapon": "wpn_funnel_0008",
+    "bis_weapon": "wpn_funnel_0008",
     "recommended_set": "Pulser Labs",
     "recommended_gear": [
       "pulser_labs_disruptor_suit",
@@ -379,7 +535,19 @@
     ],
     "name_es": "Perlica",
     "name_jp": "ペリカ",
-    "name_zh": "佩丽卡"
+    "name_zh": "佩丽卡",
+    "common_gear": {
+      "gear": [
+        "pulser_labs_disruptor_suit",
+        "aethertech_gloves",
+        "pulser_labs_calibrator",
+        "pulser_labs_calibrator"
+      ],
+      "set": "Pulser Labs",
+      "setCount": 6,
+      "count": 3,
+      "builds": 8
+    }
   },
   {
     "id": "pogranichnik",
@@ -389,7 +557,7 @@
     "r": 6,
     "role": "Buffer",
     "icon": "<img src='assets/characters/pogranichnik_card.webp' class='char-av-img'>",
-    "signature_weapon": "wpn_sword_0012",
+    "bis_weapon": "wpn_sword_0012",
     "recommended_set": "Frontiers",
     "recommended_gear": [
       "frontiers_protection_suit",
@@ -399,7 +567,19 @@
     ],
     "name_es": "Pogranichnik",
     "name_jp": "ポグラニチニク",
-    "name_zh": "骏卫"
+    "name_zh": "骏卫",
+    "common_gear": {
+      "gear": [
+        "frontiers_protection_suit",
+        "frontiers_fiber_gloves_t1",
+        "frontiers_o2_tube",
+        "hot_work_power_cartridge"
+      ],
+      "set": "Frontiers",
+      "setCount": 4,
+      "count": 2,
+      "builds": 4
+    }
   },
   {
     "id": "rossi",
@@ -409,7 +589,7 @@
     "r": 6,
     "role": "Enabler",
     "icon": "<img src='assets/characters/rossi_card.webp' class='char-av-img'>",
-    "signature_weapon": "wpn_sword_0022",
+    "bis_weapon": "wpn_sword_0022",
     "support_bis_weapons": [],
     "recommended_set": "MI Security",
     "recommended_gear": [
@@ -420,7 +600,19 @@
     ],
     "name_es": "Rossi",
     "name_jp": "ロッシ",
-    "name_zh": "洛茜"
+    "name_zh": "洛茜",
+    "common_gear": {
+      "gear": [
+        "mi_security_armor_t1",
+        "redeemer_gloves",
+        "mi_security_scope_t1",
+        "mi_security_scope_t1"
+      ],
+      "set": "MI Security",
+      "setCount": 6,
+      "count": 5,
+      "builds": 6
+    }
   },
   {
     "id": "snowshine",
@@ -430,7 +622,7 @@
     "r": 5,
     "role": "Buffer",
     "icon": "<img src='assets/characters/snowshine_card.webp' class='char-av-img'>",
-    "signature_weapon": "wpn_claym_0012",
+    "bis_weapon": "wpn_claym_0012",
     "recommended_set": "Eternal Xiranite",
     "recommended_gear": [
       "bonekrusha_poncho_t1",
@@ -450,7 +642,7 @@
     "r": 6,
     "role": "Enabler",
     "icon": "<img src='assets/characters/tangtang_card.webp' class='char-av-img'>",
-    "signature_weapon": "wpn_pistol_0011",
+    "bis_weapon": "wpn_pistol_0011",
     "recommended_set": "Qingbo",
     "recommended_gear": [
       "qingbo_heavy_armor",
@@ -460,7 +652,19 @@
     ],
     "name_es": "Tangtang",
     "name_jp": "タンタン",
-    "name_zh": "汤汤"
+    "name_zh": "汤汤",
+    "common_gear": {
+      "gear": [
+        "qingbo_heavy_armor",
+        "qingbo_gauntlets",
+        "qingbo_cask",
+        "qingbo_positioning_kit"
+      ],
+      "set": "Qingbo",
+      "setCount": 2,
+      "count": 2,
+      "builds": 2
+    }
   },
   {
     "id": "wulfgard",
@@ -470,7 +674,7 @@
     "r": 5,
     "role": "Enabler",
     "icon": "<img src='assets/characters/wulfgard_card.webp' class='char-av-img'>",
-    "signature_weapon": "wpn_pistol_0009",
+    "bis_weapon": "wpn_pistol_0009",
     "recommended_gear": [
       "type_50_yinglung_heavy_armor_t1",
       "lynx_gloves",
@@ -479,7 +683,19 @@
     ],
     "name_es": "Wulfgard",
     "name_jp": "ウルフガード",
-    "name_zh": "狼卫"
+    "name_zh": "狼卫",
+    "common_gear": {
+      "gear": [
+        "qingbo_heavy_armor",
+        "qingbo_gloves",
+        "eternal_xiranite_power_core",
+        "qingbo_bamboo_cutter"
+      ],
+      "set": "Qingbo",
+      "setCount": 2,
+      "count": 1,
+      "builds": 3
+    }
   },
   {
     "id": "xaihi",
@@ -489,7 +705,7 @@
     "r": 5,
     "role": "Enabler",
     "icon": "<img src='assets/characters/xaihi_card.webp' class='char-av-img'>",
-    "signature_weapon": "wpn_funnel_0008",
+    "bis_weapon": "wpn_funnel_0008",
     "recommended_set": "Eternal Xiranite",
     "recommended_gear": [
       "redeemer_armor",
@@ -499,7 +715,19 @@
     ],
     "name_es": "Xaihi",
     "name_jp": "ザイヒ",
-    "name_zh": "赛希"
+    "name_zh": "赛希",
+    "common_gear": {
+      "gear": [
+        "eternal_xiranite_light_armor",
+        "eternal_xiranite_wraps",
+        "eternal_xiranite_auxiliary_arm",
+        "eternal_xiranite_bracing_slab"
+      ],
+      "set": "Eternal Xiranite",
+      "setCount": 3,
+      "count": 1,
+      "builds": 6
+    }
   },
   {
     "id": "yvonne",
@@ -509,7 +737,7 @@
     "r": 6,
     "role": "Damage",
     "icon": "<img src='assets/characters/yvonne_card.webp' class='char-av-img'>",
-    "signature_weapon": "wpn_pistol_0010",
+    "bis_weapon": "wpn_pistol_0010",
     "support_bis_weapons": [],
     "recommended_set": "MI Security",
     "recommended_gear": [
@@ -520,7 +748,19 @@
     ],
     "name_es": "Yvonne",
     "name_jp": "イヴォンヌ",
-    "name_zh": "伊冯"
+    "name_zh": "伊冯",
+    "common_gear": {
+      "gear": [
+        "mi_security_overalls",
+        "mi_security_armband",
+        "mi_security_toolkit",
+        "mi_security_toolkit"
+      ],
+      "set": "MI Security",
+      "setCount": 4,
+      "count": 2,
+      "builds": 4
+    }
   },
   {
     "id": "mifu",
@@ -530,12 +770,24 @@
     "r": 6,
     "role": "Damage",
     "icon": "<img src='assets/characters/mifu_card.webp' class='char-av-img'>",
-    "signature_weapon": "wpn_claym_0017",
+    "bis_weapon": "wpn_claym_0017",
     "support_bis_weapons": [],
     "recommended_set": "Swordmancer",
     "name_es": "Mi Fu",
     "name_jp": "ミ・フ",
-    "name_zh": "弭弗"
+    "name_zh": "弭弗",
+    "common_gear": {
+      "gear": [
+        "grizzled_edge_armor",
+        "grizzled_edge_gauntlets",
+        "grizzled_edge_push_knife",
+        "swordmancer_nav_beacon"
+      ],
+      "set": "Grizzled Edge",
+      "setCount": 5,
+      "count": 3,
+      "builds": 5
+    }
   },
   {
     "id": "camille",
@@ -545,7 +797,7 @@
     "r": 6,
     "role": "Enabler",
     "icon": "<img src='assets/characters/camille_card.webp' class='char-av-img'>",
-    "signature_weapon": "wpn_lance_carmine",
+    "bis_weapon": "wpn_lance_carmine",
     "support_bis_weapons": [
       "wpn_lance_beacon"
     ],
@@ -558,7 +810,19 @@
     ],
     "name_es": "Camille",
     "name_jp": "カミーユ",
-    "name_zh": "卡缪"
+    "name_zh": "卡缪",
+    "common_gear": {
+      "gear": [
+        "frontiers_protection_suit",
+        "frontiers_fiber_gloves_t1",
+        "frontiers_comm",
+        "redeemer_seal"
+      ],
+      "set": "Frontiers",
+      "setCount": 4,
+      "count": 2,
+      "builds": 6
+    }
   },
   {
     "id": "arcane",
@@ -568,7 +832,7 @@
     "r": 6,
     "role": "Damage",
     "icon": "<img src='assets/characters/arcane_card.webp' class='char-av-img'>",
-    "signature_weapon": "wpn_funnel_0016",
+    "bis_weapon": "wpn_funnel_0016",
     "support_bis_weapons": [],
     "recommended_set": "Hot Work",
     "recommended_gear": [
@@ -625,7 +889,19 @@
     ],
     "name_es": "Arcane",
     "name_jp": "オクギ",
-    "name_zh": "诀"
+    "name_zh": "诀",
+    "common_gear": {
+      "gear": [
+        "eternal_xiranite_light_armor",
+        "hot_work_gloves",
+        "hot_work_power_cartridge",
+        "hot_work_power_cartridge"
+      ],
+      "set": "Hot Work",
+      "setCount": 5,
+      "count": 1,
+      "builds": 6
+    }
   },
   {
     "id": "liino",

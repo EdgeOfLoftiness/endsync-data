@@ -197,7 +197,10 @@
       "debuffBoost": {
        "keystone": "Wielder of Stone",
        "mult": 1.3
-      }
+      },
+      "options": [
+       1
+      ]
      }
     ],
     "modes": {
@@ -383,13 +386,6 @@
       "reaction": "solidification"
      }
     ]
-   },
-   "ultimate": {
-    "consumes": [
-     {
-      "state": "solidification"
-     }
-    ]
    }
   },
   "zhuangfangyi": {
@@ -548,7 +544,10 @@
     "consumes": [
      {
       "state": "vulnerability",
-      "reaction": "crush"
+      "reaction": "crush",
+      "options": [
+       2
+      ]
      }
     ],
     "applies": [
@@ -556,6 +555,10 @@
       "el": "physical",
       "unlessAny": [
        "vulnerability"
+      ],
+      "options": [
+       2,
+       3
       ]
      }
     ]
