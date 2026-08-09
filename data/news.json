@@ -46,7 +46,7 @@
         {
           "name": "Camille",
           "el": "Heat",
-          "icon": "<img src='assets/operators-splash/camille.png' class='char-av-img'>",
+          "icon": "<img src='assets/operators-splash/camille.webp' class='char-av-img'>",
           "tag": "6★",
           "role": "Vanguard",
           "confirmed": true,
@@ -61,7 +61,7 @@
         "en": "North Yearns the Rift Vigile — Arcane"
       },
       "img": "assets/banners/north_yearns_the_rift_vigile.webp",
-      "status": "active",
+      "status": "ended",
       "dateStart": "2026-07-16",
       "dateEnd": "2026-08-09",
       "version": "1.4",
@@ -105,8 +105,8 @@
         "es": "Good Morning From Your Dawnstar — Liino",
         "en": "Good Morning From Your Dawnstar — Liino"
       },
-      "img": "assets/operators-splash/liino.png",
-      "status": "upcoming",
+      "img": "assets/banners/good_morning_from_your_dawnstar.webp",
+      "status": "active",
       "dateStart": "2026-08-09",
       "dateEnd": "2026-08-30",
       "version": "1.4",
@@ -654,7 +654,7 @@
         "en": "Weapon — Beacon of Duty (Polearm, 6★)"
       },
       "tag": { "es": "PRÓXIMO", "en": "UPCOMING" },
-      "img": "assets/weapons/wpn_lance_beacon.webp",
+      "img": "assets/weapons/wpn_lance_0007.webp",
       "desc": {
         "es": "Arma BIS de Camille. Pensada para sus necesidades: Agility, Heat DMG y Flow. Disponible en el banner de armas de la Fase 2 de la v1.3 a partir del 26 de junio.",
         "en": "Camille's BIS weapon. Built around his needs: Agility, Heat DMG and Flow. Available on the v1.3 Phase 2 weapon banner from June 26."
@@ -769,7 +769,7 @@
       },
       "tag": { "es": "EVENTO COMBATE", "en": "COMBAT EVENT" },
       "dateStart": "2026-07-30",
-      "dateEnd": "",
+      "dateEnd": "2026-08-12",
       "desc": {
         "es": "Evento de combate con equipos de MÁXIMO 2 operadores. Las etapas traen mejoras pensadas para dúos: más recuperación de SP, menos enfriamiento de combos y mejor eficiencia de energía de Ultimate. Hay equipos predefinidos si no sabes qué pareja llevar; la idea es probar sinergias de a dos que en combate estándar no se lucen.",
         "en": "Combat event with teams of AT MOST 2 operators. Stages come with duo-minded boosts: extra SP recovery, shorter combo cooldowns and better Ultimate energy efficiency. Preset teams are available if you are unsure which pair to field; the point is trying two-operator synergies that standard combat rarely showcases."

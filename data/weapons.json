@@ -1,6 +1,6 @@
 {
   "game": "Arknights: Endfield",
-  "total_weapons": 75,
+  "total_weapons": 77,
   "weapons": {
     "Sword": [
       {
@@ -2589,7 +2589,7 @@
         }
       },
       {
-        "id": "wpn_lance_beacon",
+        "id": "wpn_lance_0007",
         "name": "Beacon of Duty",
         "type": "Polearm",
         "rarity": 6,
@@ -2650,7 +2650,7 @@
         }
       },
       {
-        "id": "wpn_lance_carmine",
+        "id": "wpn_lance_0015",
         "name": "Blessing of Lustrous Carmine",
         "type": "Polearm",
         "rarity": 6,
@@ -2709,6 +2709,128 @@
             }
           ]
         }
+      },
+      {
+        "id": "wpn_lance_0014",
+        "name": "Bedazzling Night Debut",
+        "type": "Polearm",
+        "rarity": 6,
+        "base_atk": 500,
+        "stat1": "Will: +156",
+        "stat2": "Treatment Efficiency: +46.4%",
+        "passive": "Main attribute +44.8%. When the wielder's skill grants HP Treatment to other operators in the team, the operator receiving the wielder's treatment also gains ATK +9.8% for 20s. Max stacks for effects of the same name: 4. Duration of each stack is counted separately. Each operator can gain this effect at most once every 0.1s.",
+        "name_es": "Debut Nocturno Deslumbrante",
+        "scaling_by_rank": {
+          "base_atk": {
+            "min": 51,
+            "max": 500
+          },
+          "passives": [
+            {
+              "name": "Will Boost [L]",
+              "ranks": [
+                "Will +20",
+                "Will +36",
+                "Will +52",
+                "Will +68",
+                "Will +84",
+                "Will +100",
+                "Will +116",
+                "Will +132",
+                "Will +156"
+              ]
+            },
+            {
+              "name": "Treatment Efficiency Boost [L]",
+              "ranks": [
+                "Treatment Efficiency +6.0%.",
+                "Treatment Efficiency +10.7%.",
+                "Treatment Efficiency +15.5%.",
+                "Treatment Efficiency +20.2%.",
+                "Treatment Efficiency +25.0%.",
+                "Treatment Efficiency +29.8%.",
+                "Treatment Efficiency +34.5%.",
+                "Treatment Efficiency +39.3%.",
+                "Treatment Efficiency +46.4%."
+              ]
+            },
+            {
+              "name": "Medicant: Shimmering Curtain",
+              "ranks": [
+                "Main attribute +16.0%. When the wielder's skill grants HP Treatment to other operators in the team, the operator receiving the wielder's treatment also gains ATK +3.5% for 20s. Max stacks for effects of the same name: 4. Duration of each stack is counted separately. Each operator can gain this effect at most once every 0.1s.",
+                "Main attribute +19.2%. When the wielder's skill grants HP Treatment to other operators in the team, the operator receiving the wielder's treatment also gains ATK +4.2% for 20s. Max stacks for effects of the same name: 4. Duration of each stack is counted separately. Each operator can gain this effect at most once every 0.1s.",
+                "Main attribute +22.4%. When the wielder's skill grants HP Treatment to other operators in the team, the operator receiving the wielder's treatment also gains ATK +4.9% for 20s. Max stacks for effects of the same name: 4. Duration of each stack is counted separately. Each operator can gain this effect at most once every 0.1s.",
+                "Main attribute +25.6%. When the wielder's skill grants HP Treatment to other operators in the team, the operator receiving the wielder's treatment also gains ATK +5.6% for 20s. Max stacks for effects of the same name: 4. Duration of each stack is counted separately. Each operator can gain this effect at most once every 0.1s.",
+                "Main attribute +28.8%. When the wielder's skill grants HP Treatment to other operators in the team, the operator receiving the wielder's treatment also gains ATK +6.3% for 20s. Max stacks for effects of the same name: 4. Duration of each stack is counted separately. Each operator can gain this effect at most once every 0.1s.",
+                "Main attribute +32.0%. When the wielder's skill grants HP Treatment to other operators in the team, the operator receiving the wielder's treatment also gains ATK +7.0% for 20s. Max stacks for effects of the same name: 4. Duration of each stack is counted separately. Each operator can gain this effect at most once every 0.1s.",
+                "Main attribute +35.2%. When the wielder's skill grants HP Treatment to other operators in the team, the operator receiving the wielder's treatment also gains ATK +7.7% for 20s. Max stacks for effects of the same name: 4. Duration of each stack is counted separately. Each operator can gain this effect at most once every 0.1s.",
+                "Main attribute +38.4%. When the wielder's skill grants HP Treatment to other operators in the team, the operator receiving the wielder's treatment also gains ATK +8.4% for 20s. Max stacks for effects of the same name: 4. Duration of each stack is counted separately. Each operator can gain this effect at most once every 0.1s.",
+                "Main attribute +44.8%. When the wielder's skill grants HP Treatment to other operators in the team, the operator receiving the wielder's treatment also gains ATK +9.8% for 20s. Max stacks for effects of the same name: 4. Duration of each stack is counted separately. Each operator can gain this effect at most once every 0.1s."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "wpn_lance_0016",
+        "name": "Golden Age",
+        "type": "Polearm",
+        "rarity": 6,
+        "base_atk": 485,
+        "stat1": "Will: +156",
+        "stat2": "Treatment Efficiency: +46.4%",
+        "passive": "Electric DMG Dealt +16.8%. When the wielder's combo skill deals DMG, the wielder gains Treatment Efficiency +11.2% for 15s. When the wielder's combo skill grants HP Treatment to other operators in the team, the entire team gains Arts DMG Dealt +14.0% for 20s. Effects of the same name cannot stack.",
+        "name_es": "Edad Dorada",
+        "scaling_by_rank": {
+          "base_atk": {
+            "min": 49,
+            "max": 485
+          },
+          "passives": [
+            {
+              "name": "Will Boost [L]",
+              "ranks": [
+                "Will +20",
+                "Will +36",
+                "Will +52",
+                "Will +68",
+                "Will +84",
+                "Will +100",
+                "Will +116",
+                "Will +132",
+                "Will +156"
+              ]
+            },
+            {
+              "name": "Treatment Efficiency Boost [L]",
+              "ranks": [
+                "Treatment Efficiency +6.0%.",
+                "Treatment Efficiency +10.7%.",
+                "Treatment Efficiency +15.5%.",
+                "Treatment Efficiency +20.2%.",
+                "Treatment Efficiency +25.0%.",
+                "Treatment Efficiency +29.8%.",
+                "Treatment Efficiency +34.5%.",
+                "Treatment Efficiency +39.3%.",
+                "Treatment Efficiency +46.4%."
+              ]
+            },
+            {
+              "name": "Pursuit: Great Hero",
+              "ranks": [
+                "Electric DMG Dealt +6.0%. When the wielder's combo skill deals DMG, the wielder gains Treatment Efficiency +4.0% for 15s. When the wielder's combo skill grants HP Treatment to other operators in the team, the entire team gains Arts DMG Dealt +5.0% for 20s. Effects of the same name cannot stack.",
+                "Electric DMG Dealt +7.2%. When the wielder's combo skill deals DMG, the wielder gains Treatment Efficiency +4.8% for 15s. When the wielder's combo skill grants HP Treatment to other operators in the team, the entire team gains Arts DMG Dealt +6.0% for 20s. Effects of the same name cannot stack.",
+                "Electric DMG Dealt +8.4%. When the wielder's combo skill deals DMG, the wielder gains Treatment Efficiency +5.6% for 15s. When the wielder's combo skill grants HP Treatment to other operators in the team, the entire team gains Arts DMG Dealt +7.0% for 20s. Effects of the same name cannot stack.",
+                "Electric DMG Dealt +9.6%. When the wielder's combo skill deals DMG, the wielder gains Treatment Efficiency +6.4% for 15s. When the wielder's combo skill grants HP Treatment to other operators in the team, the entire team gains Arts DMG Dealt +8.0% for 20s. Effects of the same name cannot stack.",
+                "Electric DMG Dealt +10.8%. When the wielder's combo skill deals DMG, the wielder gains Treatment Efficiency +7.2% for 15s. When the wielder's combo skill grants HP Treatment to other operators in the team, the entire team gains Arts DMG Dealt +9.0% for 20s. Effects of the same name cannot stack.",
+                "Electric DMG Dealt +12.0%. When the wielder's combo skill deals DMG, the wielder gains Treatment Efficiency +8.0% for 15s. When the wielder's combo skill grants HP Treatment to other operators in the team, the entire team gains Arts DMG Dealt +10.0% for 20s. Effects of the same name cannot stack.",
+                "Electric DMG Dealt +13.2%. When the wielder's combo skill deals DMG, the wielder gains Treatment Efficiency +8.8% for 15s. When the wielder's combo skill grants HP Treatment to other operators in the team, the entire team gains Arts DMG Dealt +11.0% for 20s. Effects of the same name cannot stack.",
+                "Electric DMG Dealt +14.4%. When the wielder's combo skill deals DMG, the wielder gains Treatment Efficiency +9.6% for 15s. When the wielder's combo skill grants HP Treatment to other operators in the team, the entire team gains Arts DMG Dealt +12.0% for 20s. Effects of the same name cannot stack.",
+                "Electric DMG Dealt +16.8%. When the wielder's combo skill deals DMG, the wielder gains Treatment Efficiency +11.2% for 15s. When the wielder's combo skill grants HP Treatment to other operators in the team, the entire team gains Arts DMG Dealt +14.0% for 20s. Effects of the same name cannot stack."
+              ]
+            }
+          ]
+        }
       }
     ],
     "Handcannon": [
@@ -2717,15 +2839,15 @@
         "name": "Artzy Tyrannical",
         "type": "Handcannon",
         "rarity": 6,
-        "base_atk": 594,
+        "base_atk": 505,
         "stat1": "Intellect: +156",
         "stat2": "Critical Rate: +19.50%",
         "passive": "Cryo DMG Bonus: +25.60%. After the wielder scores a critical hit with a Battle Skill or Combo Skill, the wielder gains Cryo DMG dealt +22.4% for 30s. Max stacks for effects of the same name: 3. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
         "name_es": "Artzy Tiránico",
         "scaling_by_rank": {
           "base_atk": {
-            "min": 55,
-            "max": 594
+            "min": 51,
+            "max": 505
           },
           "passives": [
             {

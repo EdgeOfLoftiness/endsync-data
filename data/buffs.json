@@ -1885,6 +1885,142 @@
     "durS": 10,
     "noStack": true
    }
+  ],
+  "liino": [
+   {
+    "id": "liino-1",
+    "src": "Dazzling Focus",
+    "srcType": "battle_skill",
+    "target": "team",
+    "cond": { "es": "Battle skill Dazzling Focus: Liino entra en Vocalist Stance (60s) y otorga ATK Boost +10% a todo el equipo. La postura tambien cura en area de forma continua y lanza un Additional ATK cada 10s; la curacion queda fuera del calculo de daño. Casteando End Stance la postura termina antes y el buff se corta.", "en": "Battle skill Dazzling Focus: Liino enters Vocalist Stance (60s) and grants the whole team ATK Boost +10%. The stance also heals in an area continuously and fires an Additional ATK every 10s; healing is outside the damage calculation. Casting End Stance ends the stance early and cuts the buff." },
+    "mods": [
+     {
+      "type": "atkPct",
+      "value": 0.1
+     }
+    ],
+    "anchor": "battle_skill",
+    "durS": 60,
+    "noStack": true
+   },
+   {
+    "id": "liino-2",
+    "src": "Dawnstar Concerto",
+    "srcType": "ultimate",
+    "target": "team",
+    "cond": { "es": "Ultimate Dawnstar Concerto: entra en Cosmovoice Stance (15s), que REEMPLAZA a la Vocalist Stance (los dos ATK Boost no se suman). Otorga al equipo ATK Boost +10% y Electric Amp + Nature Amp escalados por el Will de Liino (+0.04% por punto, tope 60%). Al terminar la postura remata con 3 veces el daño de un beat; ese golpe es daño propio, no buff.", "en": "Ultimate Dawnstar Concerto: enters Cosmovoice Stance (15s), which REPLACES Vocalist Stance (the two ATK Boosts do not stack). Grants the team ATK Boost +10% plus Electric Amp and Nature Amp scaled by Liino's Will (+0.04% per point, capped at 60%). When the stance ends it fires 3 times a single beat's damage; that hit is her own damage, not a buff." },
+    "mods": [
+     {
+      "type": "atkPct",
+      "value": 0.1
+     },
+     {
+      "type": "dmgAmp",
+      "value": 0,
+      "element": "electric",
+      "attrScale": { "attr": "will", "per": 0.0004, "max": 0.6 }
+     },
+     {
+      "type": "dmgAmp",
+      "value": 0,
+      "element": "nature",
+      "attrScale": { "attr": "will", "per": 0.0004, "max": 0.6 }
+     }
+    ],
+    "anchor": "ultimate",
+    "durS": 15,
+    "noStack": true
+   },
+   {
+    "id": "liino-k1",
+    "src": "Flawless Stage Work",
+    "srcType": "keystone",
+    "target": "team",
+    "cond": { "es": "M1: el ATK Boost de Vocalist Stance y de Cosmovoice Stance sube +6% (10% → 16%). El retorno de 25 SP al abrir la primera postura es recurso, fuera del calculo de daño.", "en": "M1: the ATK Boost from Vocalist Stance and Cosmovoice Stance is increased by +6% (10% → 16%). The 25 SP returned when opening the first stance is a resource, outside the damage calculation." },
+    "mods": [
+     {
+      "type": "atkPct",
+      "value": 0.06
+     }
+    ],
+    "anchor": "battle_skill",
+    "durS": 60,
+    "noStack": true
+   },
+   {
+    "id": "liino-k2",
+    "src": "Committed Rehearsals",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "M2: Will +20 permanente. Sube tambien el Amp de la ultimate, que escala por Will. El Treatment Efficiency +10% queda fuera del calculo de daño.", "en": "M2: permanent Will +20. It also raises the ultimate's Amp, which scales with Will. The Treatment Efficiency +10% is outside the damage calculation." },
+    "mods": [
+     {
+      "type": "attrFlat",
+      "attr": "will",
+      "value": 20
+     }
+    ],
+    "permanent": true
+   },
+   {
+    "id": "liino-k3",
+    "src": "Longing for the Horizon",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "M3: el combo Delightful Harmonics sube su DMG Multiplier a 1.4 veces el original (360% → 504% al rank 12). El -1s de enfriamiento y el x1.4 de curacion quedan fuera del calculo de daño.", "en": "M3: combo skill Delightful Harmonics has its DMG Multiplier increased to 1.4 times the original (360% → 504% at rank 12). The -1s cooldown and the 1.4x healing are outside the damage calculation." },
+    "mods": [
+     {
+      "type": "dmgMult",
+      "value": 0.4,
+      "slot": "combo_skill"
+     }
+    ],
+    "permanent": true
+   },
+   {
+    "id": "liino-k5",
+    "src": "Heart-Whipping Q&A",
+    "srcType": "keystone",
+    "target": "self",
+    "cond": { "es": "M5: los DMG Multipliers de la battle skill Dazzling Focus y de la ultimate Dawnstar Concerto suben a 1.2 veces el original. El Amp de la ultimate tambien sube a 1.2x, pero eso es un buff de equipo y va en liino-k5-amp.", "en": "M5: the DMG Multipliers of battle skill Dazzling Focus and ultimate Dawnstar Concerto are increased to 1.2 times the original. The ultimate's Amp is also increased to 1.2x, but that is a team buff and lives in liino-k5-amp." },
+    "mods": [
+     {
+      "type": "dmgMult",
+      "value": 0.2,
+      "slot": "battle_skill"
+     },
+     {
+      "type": "dmgMult",
+      "value": 0.2,
+      "slot": "ultimate"
+     }
+    ],
+    "permanent": true
+   },
+   {
+    "id": "liino-k5-amp",
+    "src": "Heart-Whipping Q&A",
+    "srcType": "keystone",
+    "target": "team",
+    "cond": { "es": "M5: el Amp de Dawnstar Concerto sube a 1.2 veces el original → la escala por Will pasa de +0.04% a +0.048% por punto y el tope de 60% a 72%. Esta entrada aporta el 0.2x extra sobre la escala base de liino-2.", "en": "M5: Dawnstar Concerto's Amp is increased to 1.2 times the original → the Will scaling goes from +0.04% to +0.048% per point and the cap from 60% to 72%. This entry contributes the extra 0.2x on top of liino-2's base scaling." },
+    "mods": [
+     {
+      "type": "dmgAmp",
+      "value": 0,
+      "element": "electric",
+      "attrScale": { "attr": "will", "per": 0.00008, "max": 0.12 }
+     },
+     {
+      "type": "dmgAmp",
+      "value": 0,
+      "element": "nature",
+      "attrScale": { "attr": "will", "per": 0.00008, "max": 0.12 }
+     }
+    ],
+    "anchor": "ultimate",
+    "durS": 15,
+    "noStack": true
+   }
   ]
  }
 }

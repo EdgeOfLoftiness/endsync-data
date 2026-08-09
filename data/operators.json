@@ -23,12 +23,16 @@
       "skills": {
         "basic_attack": {
           "name": "Sword of Aspiration",
+          "name_es": "Espada de aspiración",
           "sequences": 4,
           "dmg_type": "Physical",
           "final_strike_stagger": 17,
           "description": "An attack with up to <b>4</b> sequences that deals Physical DMG. As the controlled operator, <u>Final Strike</u> also deals <b>17</b> Stagger.",
+          "description_es": "Un ataque con hasta 4 secuencias que inflige DAÑ físico. Como operador controlado, el <u>golpe final</u> también inflige <b>17</b> Tambaleo.",
           "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.",
+          "description_dive_es": "Un ataque básico ejecutado en el aire se convierte en un Ataque de inmersión que inflige mucho DAÑ físico a los enemigos cercanos.",
           "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+          "description_finisher_es": "El ataque básico realizado cerca de un enemigo Tambaleado se convierte en un ataque de remate que inflige mucho DAÑ físico y recupera algunos PH.",
           "multipliers_max": {
             "sequence_dmg_pct": [
               45,
@@ -45,9 +49,11 @@
         },
         "battle_skill": {
           "name": "Burst of Passion",
+          "name_es": "Estallido de pasión",
           "sp_cost": 100,
           "dmg_type": "Heat",
           "description": "A frontal slash that deals Heat DMG and applies <u>Heat Infliction</u>.",
+          "description_es": "Un corte frontal que inflige DAÑ por calor y aplica <u>Imp. de cal.</u>.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -66,10 +72,13 @@
         },
         "combo_skill": {
           "name": "Flash and Dash",
+          "name_es": "Rayo y ráfaga",
           "cooldown_s": 9,
           "trigger": "When an enemy becomes Staggered or hits a <u>Stagger Node</u>.",
+          "trigger_es": "Cuando un enemigo está Tambaleado o golpea un <u>Nodo de tambaleo</u>.",
           "dmg_type": "Physical",
           "description": "Performs a returning dash with <b>2</b> thrust sequences, with each sequence dealing Physical DMG and recovering some SP.",
+          "description_es": "Realiza un desplazamiento de regreso con 2 secuencias de estocadas; cada secuencia inflige DAÑ físico y recupera algunos PH.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier per SEQ",
@@ -98,9 +107,11 @@
         },
         "ultimate": {
           "name": "SQUAD! ON ME!",
+          "name_es": "¡ESCUADRÓN! ¡A MÍ!",
           "energy_cost": 120,
           "dmg_type": null,
           "description": "Enters a channeling state and fires <b>3</b> Rallying Flares. Each firing recovers some SP.",
+          "description_es": "Entra en un estado de canalización y dispara 3 Bengalas de reunión. Cada disparo recupera algunos PH.",
           "multipliers_max": [
             {
               "name": "Cooldown",
@@ -189,12 +200,16 @@
       "skills": {
         "basic_attack": {
           "name": "Basic Rod Casting",
+          "name_es": "Lanzamiento con caña básico",
           "sequences": 5,
           "dmg_type": "Physical",
           "final_strike_stagger": 17,
           "description": "An attack with up to <b>5</b> sequences that deals Physical DMG. As the controlled operator, <u>Final Strike</u> also deals <b>17</b> Stagger.",
+          "description_es": "Un ataque con hasta 5 secuencias que inflige DAÑ físico. Como el operador controlado, el <u>Golpe final</u> también inflige <b>17</b> de Tambaleo.",
           "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.",
+          "description_dive_es": "Un ataque básico ejecutado en el aire se convierte en un Ataque de inmersión que inflige mucho DAÑ físico a los enemigos cercanos.",
           "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+          "description_finisher_es": "El ataque básico realizado cerca de un enemigo Tambaleado se convierte en un ataque de remate que inflige mucho DAÑ físico y recupera algunos PH.",
           "multipliers_max": {
             "sequence_dmg_pct": [
               39,
@@ -212,9 +227,11 @@
         },
         "battle_skill": {
           "name": "Unconventional Lure",
+          "name_es": "Anzuelo poco convencional",
           "sp_cost": 100,
           "dmg_type": "Physical",
           "description": "Hooks a block of ice and slams it to deal Physical DMG to the enemy target. When hitting a target with <u>Cryo Infliction</u>, Alesh <u>consumes</u> all of the target's <u>Cryo Infliction</u> stacks, forcibly applies <u>Solidification</u> to the target, and recovers some SP based on the number of stacks consumed. The SP recovery effect can only trigger <b>1</b> time, even if the skill hits multiple enemies.",
+          "description_es": "Engancha un bloque de hielo y lo azota para infligir DAÑ físico al enemigo objetivo. Al golpear a un objetivo con <u>Imposición criogénica</u>, Alesh <u>consume</u> todas las acumulaciones de Imposición criogénica del objetivo, aplica <u>Solidificación</u> forzada y recupera algunos PH según la cantidad de acumulaciones <u>consumidas</u>. Este efecto de recuperación de PH solo puede activarse 1 vez, aunque la habilidad golpee a varios enemigos.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -255,10 +272,13 @@
         },
         "combo_skill": {
           "name": "Auger Angling",
+          "name_es": "Pesca con barrena",
           "cooldown_s": 8,
           "trigger": "When the Arts Reaction or <u>Originium Crystals</u> of a nearby target is <u>consumed</u>.",
+          "trigger_es": "Cuando la <u>Reacción a Artes</u> o los <u>Cristales de Originio</u> de un objetivo cercano se <u>consumen</u>.",
           "dmg_type": "Physical",
           "description": "Opens an angling hole beneath the enemy that deals Physical DMG and recovers some SP. The skill has a chance to hook a Rare Fin that greatly increases the DMG dealt and recovers some more SP.",
+          "description_es": "Abre un agujero de pesca bajo el enemigo que inflige DAÑ físico y recupera algo de PH. La habilidad tiene probabilidad de enganchar una <u>Aleta rara</u> que aumenta enormemente el DAÑ infligido y recupera algo más de PH.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -303,9 +323,11 @@
         },
         "ultimate": {
           "name": "One Monster Catch!",
+          "name_es": "¡Una captura monstruosa!",
           "energy_cost": 100,
           "dmg_type": "Cryo",
           "description": "Alesh hooks a fin of unbelievable size and slams it to deal Cryo DMG and apply <u>Cryo Infliction</u> to enemies in a large area of effect in front of him. He recovers some SP on hit, with additional SP gained for each target defeated.",
+          "description_es": "Alesh engancha una aleta de tamaño increíble y la azota para infligir DAÑ criogénico y aplicar <u>Imposición criogénica</u> a los enemigos en un área de efecto grande frente a él. Recupera algo de PH al impactar y obtiene PH adicional por cada objetivo derrotado.",
           "multipliers_max": [
             {
               "name": "Cooldown",
@@ -415,12 +437,16 @@
       "skills": {
         "basic_attack": {
           "name": "Exchange Current",
+          "name_es": "Corriente de intercambio",
           "sequences": 4,
           "dmg_type": "Electric",
           "final_strike_stagger": 15,
           "description": "An attack with up to <b>4</b> sequences that deals  Electric DMG. As the controlled operator, <u>Final Strike</u> also deals <b>15</b> Stagger.",
+          "description_es": "Un ataque con hasta 4 secuencias que inflige DAÑ eléctrico. Como operador controlado, el <u>Golpe final</u> también inflige <b>15</b> Tambaleo.",
           "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals  Electric DMG to nearby enemies.",
+          "description_dive_es": "Un ataque básico ejecutado en el aire se convierte en un Ataque de inmersión que inflige DAÑ eléctrico a los enemigos cercanos.",
           "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive  Electric DMG and recovers some SP.",
+          "description_finisher_es": "El ataque básico realizado cerca de un enemigo Tambaleado se convierte en un ataque de remate que inflige mucho DAÑ eléctrico y recupera algunos PH.",
           "multipliers_max": {
             "sequence_dmg_pct": [
               52,
@@ -437,9 +463,11 @@
         },
         "battle_skill": {
           "name": "Specified Research Subject",
+          "name_es": "Sujeto de investigación especificado",
           "sp_cost": 100,
           "dmg_type": "Electric",
           "description": "Applies Focus with a long duration on the enemy and deals Electric DMG. An enemy with an active Focus also suffers <u>Electric Susceptibility</u> and <u>Heat Susceptibility</u>. Focus can only be applied to <b>1</b> enemy at any given time.",
+          "description_es": "Aplica <u>Enfoque</u> de larga duración al enemigo e inflige DAÑ eléctrico. Un enemigo con Enfoque activo también sufre <u>Susceptibilidad eléctrica</u> y <u>Susceptibilidad de calor</u>. El Enfoque solo puede aplicarse a 1 enemigo a la vez.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -469,10 +497,13 @@
         },
         "combo_skill": {
           "name": "EMP Test Site",
+          "name_es": "Zona de pruebas EMP",
           "cooldown_s": 24,
           "trigger": "When an enemy with active Focus suffers a <u>Physical Status</u> or <u>Arts Infliction</u>.",
+          "trigger_es": "Cuando un enemigo con <u>enfoque activo</u> sufre un <u>Estado físico</u> o <u>Imposición de artes</u>.",
           "dmg_type": "Electric",
           "description": "Triggers <b>1</b> energy explosion on the enemy that deals Electric DMG and applies another stack of the same <u>Physical Status</u> or <u>Arts Infliction</u>.",
+          "description_es": "Desencadena una explosión de energía en el enemigo que inflige DAÑ eléctrico y aplica una acumulación adicional del mismo Estado físico o Imposición de artes.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -497,9 +528,11 @@
         },
         "ultimate": {
           "name": "Overclocked Moment",
+          "name_es": "Momento sobreacelerado",
           "energy_cost": 100,
           "dmg_type": null,
           "description": "Applies temporary <u>Electric Amp</u> and <u>Heat Amp</u> to the entire team.",
+          "description_es": "Aplica <u>Amp eléctrica</u> temporal y <u>Amp de calor</u> temporal a todo el equipo.",
           "multipliers_max": [
             {
               "name": "Cooldown",
@@ -607,12 +640,16 @@
       "skills": {
         "basic_attack": {
           "name": "Seek and Hunt",
+          "name_es": "Busca y caza",
           "sequences": 5,
           "dmg_type": "Physical",
           "final_strike_stagger": 16,
           "description": "An attack with up to <b>5</b> sequences that deals Physical DMG. As the controlled operator, <u>Final Strike</u> also deals <b>16</b> Stagger.",
+          "description_es": "Un ataque con hasta 5 secuencias que inflige DAÑ físico. Como el operador controlado, el <u>Golpe final</u> también inflige <b>16</b> de Tambaleo.",
           "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.",
+          "description_dive_es": "Un ataque básico ejecutado en el aire se convierte en un Ataque de inmersión que inflige mucho DAÑ físico a los enemigos cercanos.",
           "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+          "description_finisher_es": "El ataque básico realizado cerca de un enemigo Tambaleado se convierte en un ataque de remate que inflige mucho DAÑ físico y recupera algunos PH.",
           "multipliers_max": {
             "sequence_dmg_pct": [
               23,
@@ -630,9 +667,11 @@
         },
         "battle_skill": {
           "name": "Tempestuous Arc",
+          "name_es": "Arco tempestuoso",
           "sp_cost": 100,
           "dmg_type": "Electric",
           "description": "Instantly blinks to the enemy's side to deal <b>2</b> slashes that deal some Physical DMG. If the enemy has active <u>Electrification</u>, <u>consume</u> the <u>Electrification</u> to unleash an additional attack that deals Electric DMG and recovers some SP.",
+          "description_es": "Se teletransporta al instante al lado del enemigo para asestar 2 cortes que infligen algo de DAÑ físico. Si el enemigo tiene <u>Electrificación</u> activa, <u>consume</u> la Electrificación para desatar un ataque adicional que inflige DAÑ eléctrico y recupera algo de PH.",
           "multipliers_max": [
             {
               "name": "SEQ 1 DMG Multiplier",
@@ -672,10 +711,13 @@
         },
         "combo_skill": {
           "name": "Peal of Thunder",
+          "name_es": "Estruendo del trueno",
           "cooldown_s": 3,
           "trigger": "When an enemy suffers <u>Electrification</u> or after an enemy's <u>Electrification</u> is <u>consumed</u>.",
+          "trigger_es": "Cuando un enemigo sufre <u>Electrificación</u> o después de que una Electrificación es <u>consumida</u>.",
           "dmg_type": "Physical",
           "description": "Blinks to the enemy's side to unleash a flurry of slashes that deals Physical DMG and recovers some SP.",
+          "description_es": "Se teletransporta al lado del enemigo para desatar una ráfaga de cortes que inflige DAÑ físico y recupera algunos PH.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -705,9 +747,11 @@
         },
         "ultimate": {
           "name": "Exploding Blitz",
+          "name_es": "Explosión relámpago",
           "energy_cost": 90,
           "dmg_type": "Electric",
           "description": "Performs a short forward dash while wreathed in arcs of electricity to deal Electric DMG and apply <u>Electric Infliction</u> to all enemies in the path. The lingering arcs explode after a short while, dealing another hit of Electric DMG. If the enemy has active <u>Electric Infliction</u>, <u>consume</u> the <u>Electric Infliction</u> and forcibly apply <u>Electrification</u>.",
+          "description_es": "Realiza un breve impuso hacia adelante mientras está envuelto en arcos de electricidad para infligir DAÑ eléctrico y aplicar <u>Imp. elec.</u> a todos los enemigos en su camino. Los arcos persistentes explotan después de un breve tiempo, infligiendo otro golpe de DAÑ eléctrico. Si el enemigo tiene activa la Imp. elec., <u>consume</u> la <u>Imposición eléctrica</u> y aplica forzosamente la <u>Electrificación</u>.",
           "multipliers_max": [
             {
               "name": "Cooldown",
@@ -813,12 +857,16 @@
       "skills": {
         "basic_attack": {
           "name": "Rocky Whispers",
+          "name_es": "Susurros rocosos",
           "sequences": 4,
           "dmg_type": "Nature",
           "final_strike_stagger": 18,
           "description": "An attack with up to <b>4</b> sequences that deals  Nature DMG. As the controlled operator, <u>Final Strike</u> also deals <b>18</b> Stagger.",
+          "description_es": "Un ataque con hasta 4 secuencias que inflige DAÑ por naturaleza. Como operador controlado, el <u>Golpe final</u> también inflige <b>18</b> Tambaleo.",
           "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals  Nature DMG to nearby enemies.",
+          "description_dive_es": "Un ataque básico ejecutado en el aire se convierte en un Ataque de inmersión que inflige DAÑ por naturaleza a los enemigos cercanos.",
           "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive  Nature DMG and recovers some SP.",
+          "description_finisher_es": "El ataque básico realizado cerca de un enemigo Tambaleado se convierte en un ataque de remate que inflige DAÑ por naturaleza y recupera algunos PH.",
           "multipliers_max": {
             "sequence_dmg_pct": [
               68,
@@ -835,9 +883,11 @@
         },
         "battle_skill": {
           "name": "Dolly Rush",
+          "name_es": "Embestida de Dolly",
           "sp_cost": 100,
           "dmg_type": "Nature",
           "description": "Hops on Mr. Dolly and rams the target to deal Nature DMG. If the target has <u>Corrosion</u>, then <u>consume</u> the <u>Corrosion</u> and apply <u>Physical Susceptibility</u> and <u>Arts Susceptibility</u> to the target.",
+          "description_es": "Se sube a Sr. Dolly y embiste al objetivo para infligir DAÑ por naturaleza. Si el objetivo tiene <u>Corrosión</u>, <u>consume</u> la Corrosión y aplica <u>Suscep. fís.</u> y <u>Suscep. a art.</u> al objetivo.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -869,10 +919,13 @@
         },
         "combo_skill": {
           "name": "Eruption Column",
+          "name_es": "Columna de erupción",
           "cooldown_s": 17,
           "trigger": "When the controlled operator performs a <u>Final Strike</u> on an enemy with no stacks of <u>Vulnerability</u> or <u>Arts Infliction</u>.",
+          "trigger_es": "Cuando el operador controlado realiza un <u>Golpe final</u> sobre un enemigo <u>sin</u> acumulaciones de <u>Vulnerabilidad</u> ni <u>Imposición de artes</u>.",
           "dmg_type": "Nature",
           "description": "Launches a homing Volcanic Cloud at a target enemy that deals Nature DMG when close enough to the target. The Volcanic Cloud explodes after a short delay, dealing half of the Nature DMG and forcibly applying temporary <u>Corrosion</u> to nearby enemies.",
+          "description_es": "Lanza una Nube volcánica teledirigida a un enemigo objetivo que inflige DAÑ por naturaleza al estar lo bastante cerca. La Nube volcánica explota tras un breve lapso, infligiendo la mitad del DAÑ por naturaleza y aplicando <u>Corrosión</u> forzada temporal a los enemigos cercanos.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -909,9 +962,11 @@
         },
         "ultimate": {
           "name": "Wooly Party",
+          "name_es": "Fiesta lanuda",
           "energy_cost": 90,
           "dmg_type": "Nature",
           "description": "Ardelia enters a mobile channeling state and summons the aid of Mr. Dolly. Multiple copies of Mr. Dolly are thrown in random directions. Each copy deals Nature DMG. Each enemy can only take <b>1</b> damaging hit every <b>0.3s</b>.",
+          "description_es": "Ardelia entra en un estado canalizado móvil e invoca la ayuda del Sr. Dolly. Se lanzan múltiples copias del Sr. Dolly en direcciones aleatorias. Cada copia inflige DAÑ por naturaleza al golpear al enemigo. Cada enemigo solo puede recibir 1 golpe de daño cada <b>0.3</b> s.",
           "multipliers_max": [
             {
               "name": "Cooldown",
@@ -1013,12 +1068,16 @@
       "skills": {
         "basic_attack": {
           "name": "THunderlance: Blitz",
+          "name_es": "Lanzatrueno: Bombardeo",
           "sequences": 5,
           "dmg_type": "Physical",
           "final_strike_stagger": 17,
           "description": "An attack with up to <b>5</b> sequences that deals Physical DMG. As the controlled operator, <u>Final Strike</u> also deals <b>17</b> Stagger.",
+          "description_es": "Un ataque con hasta 5 secuencias que inflige DAÑ físico. Como de operador controlado, el <u>Golpe final</u> también inflige <b>17</b> de Tambaleo.",
           "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.",
+          "description_dive_es": "Un ataque básico ejecutado en el aire se convierte en un Ataque de inmersión que inflige mucho DAÑ físico a los enemigos cercanos.",
           "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+          "description_finisher_es": "El ataque básico realizado cerca de un enemigo Tambaleado se convierte en un ataque de remate que inflige mucho DAÑ físico y recupera algunos PH.",
           "multipliers_max": {
             "sequence_dmg_pct": [
               37,
@@ -1036,9 +1095,11 @@
         },
         "battle_skill": {
           "name": "Thunderlance: Interdiction",
+          "name_es": "Lanzatrueno: Interdicción",
           "sp_cost": 100,
           "dmg_type": "Electric",
           "description": "Leaps into mid-air to stir up a maelstrom with her lance, dealing some Electric DMG to nearby enemies while pulling back all Thunderlances and Thunderlance EX in the battlefield towards herself.<br/>The returning Thunderlances pierce through all enemies along their paths and deal Electric DMG, while returning Thunderlances EX deal more Electric DMG and also apply <u>Electric Infliction</u>.",
+          "description_es": "Salta al aire para agitar un torbellino con su lanza, infligiendo algo de DAÑ eléctrico a enemigos cercanos mientras atrae hacia sí todas las <u>Lanzatrueno</u> y <u>Lanzatrueno EX</u> en el campo de batalla.<br/>Las Lanzatrueno que regresan perforan a todos los enemigos en su trayectoria e infligen DAÑ eléctrico, mientras que las Lanzatrueno EX que regresan infligen más DAÑ eléctrico y además aplican <u>Imposición eléctrica</u>.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -1077,10 +1138,13 @@
         },
         "combo_skill": {
           "name": "Thunderlance: Strike",
+          "name_es": "Lanzatrueno: ataque",
           "cooldown_s": 12,
           "trigger": "When controlled operator performs a <u>Final Strike</u> on a target with active <u>Electric Infliction</u> or <u>Electrification</u>.",
+          "trigger_es": "Cuando el operador controlado realiza un <u>Golpe final</u> sobre un objetivo con <u>Imposición eléctrica</u> activa o <u>Electrificación</u>.",
           "dmg_type": "Electric",
           "description": "Leaps into mid-air and throws <b>3</b> Thunderlances at the target, then deals <b>1</b> hit of Electric DMG to enemies in the area of effect.",
+          "description_es": "Salta al aire y lanza 3 <u>Lanzatrueno</u> al objetivo, luego inflige 1 golpe de DAÑ eléctrico a los enemigos en el área de efecto.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -1111,9 +1175,11 @@
         },
         "ultimate": {
           "name": "Thunderlance: Final Shock",
+          "name_es": "Lanzatrueno: Impacto final",
           "energy_cost": 100,
           "dmg_type": "Electric",
           "description": "Throws a Thunderlance EX at the target area that deals massive Electric DMG to enemies nearby.",
+          "description_es": "Lanza un <u>Lanzatrueno EX</u> al área objetivo que inflige un gran DAÑ eléctrico a los enemigos cercanos.",
           "multipliers_max": [
             {
               "name": "Cooldown",
@@ -1212,12 +1278,16 @@
       "skills": {
         "basic_attack": {
           "name": "Basic Tactics",
+          "name_es": "Tácticas básicas",
           "sequences": 4,
           "dmg_type": "Physical",
           "final_strike_stagger": 22,
           "description": "An attack with up to <b>4</b> sequences that deals Physical DMG. As the controlled operator, <u>Final Strike</u> also deals <b>22</b> Stagger.",
+          "description_es": "Un ataque con hasta 4 secuencias que inflige DAÑ físico. Como operador controlado, el <u>golpe final</u> también inflige <b>22</b> Tambaleo.",
           "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.",
+          "description_dive_es": "Un ataque básico ejecutado en el aire se convierte en un Ataque de inmersión que inflige mucho DAÑ físico a los enemigos cercanos.",
           "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+          "description_finisher_es": "El ataque básico realizado cerca de un enemigo Tambaleado se convierte en un ataque de remate que inflige mucho DAÑ físico y recupera algunos PH.",
           "multipliers_max": {
             "sequence_dmg_pct": [
               79,
@@ -1234,9 +1304,11 @@
         },
         "battle_skill": {
           "name": "Rigid Interdiction",
+          "name_es": "Interdicción rígida",
           "sp_cost": 100,
           "dmg_type": "Physical",
           "description": "Raises a shield that can block attacks, grants <u>Protection</u> to self and nearby operators, and immediately <u>returns</u> some SP.<br/>When attacked while the said shield is active, perform a retaliation bash that deals Physical DMG and applies <b>1</b> stack of <u>Vulnerability</u> to the attacking enemy.",
+          "description_es": "Alza un escudo que puede bloquear ataques, otorga <u>Protección</u> a sí mismo y a operadores cercanos y <u>devuelve</u> de inmediato algunos PH.<br/>Cuando es atacada con dicho escudo se eleva, realiza un golpe de represalia que inflige DAÑ físico y aplica 1 acumulación de <u>Vulnerabilidad</u> al enemigo atacante.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -1267,10 +1339,13 @@
         },
         "combo_skill": {
           "name": "Timely Suppression",
+          "name_es": "Supresión oportuna",
           "cooldown_s": 33,
           "trigger": "When an enemy starts charging up a skill, or when the controlled operator is attacked and falls below <b>40%</b> HP.",
+          "trigger_es": "Cuando un enemigo empieza a cargar una habilidad, o cuando el operador controlado es atacado y cae por debajo de <b>40%</b> PV.",
           "dmg_type": "Physical",
           "description": "A powerful downward punch that deals Physical DMG to the enemy, while granting <u>shields</u> to self and another teammate (controlled operator prioritized).<br/>DEF can further increase <u>Shield</u> points.",
+          "description_es": "Un potente puñetazo descendente que inflige DAÑ físico al enemigo, a la vez que otorga <u>escudos</u> a sí mismo y a otro compañero de equipo (se prioriza al operador controlado).<br/>La DEF puede aumentar aún más los puntos de escudo.",
           "multipliers_max": [
             {
               "name": "SEQ 1 DMG Multiplier",
@@ -1314,9 +1389,11 @@
         },
         "ultimate": {
           "name": "Textbook Assault",
+          "name_es": "Asalto de manual",
           "energy_cost": 80,
           "dmg_type": "Physical",
           "description": "Swings the greatsword to perform <b>2</b> consecutive slashes to deal Physical DMG and apply <u>Weaken</u>, followed by a powerful downward slam that deals massive Physical DMG and applies <u>Knock Down</u> to all enemies within the area of effect.",
+          "description_es": "Balancea la gran espada para realizar 2 cortes consecutivos que infligen DAÑ físico y aplican <u>Debilidad</u>, seguidos de un poderoso golpe descendente que inflige una gran cantidad de DAÑ físico y aplica <u>Derribar</u> a todos los enemigos dentro del área de efecto.",
           "multipliers_max": [
             {
               "name": "Cooldown",
@@ -1444,12 +1521,16 @@
       "skills": {
         "basic_attack": {
           "name": "Soaring Break",
+          "name_es": "Ruptura creciente",
           "sequences": 5,
           "dmg_type": "Physical",
           "final_strike_stagger": 16,
           "description": "An attack with up to <b>5</b> sequences that deals Physical DMG. As the controlled operator, <u>Final Strike</u> also deals <b>16</b> Stagger.",
+          "description_es": "Un ataque con hasta 5 secuencias que inflige DAÑ físico. Como el operador controlado, el <u>Golpe final</u> también inflige <b>16</b> de Tambaleo.",
           "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.",
+          "description_dive_es": "Un ataque básico ejecutado en el aire se convierte en un Ataque de inmersión que inflige mucho DAÑ físico a los enemigos cercanos.",
           "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+          "description_finisher_es": "El ataque básico realizado cerca de un enemigo Tambaleado se convierte en un ataque de remate que inflige mucho DAÑ físico y recupera algunos PH.",
           "multipliers_max": {
             "sequence_dmg_pct": [
               45,
@@ -1467,9 +1548,11 @@
         },
         "battle_skill": {
           "name": "Ascending Strike",
+          "name_es": "Golpe ascendente",
           "sp_cost": 100,
           "dmg_type": "Physical",
           "description": "Performs an uppercut slash at the target enemy, dealing Physical DMG and <u>Lift</u>.",
+          "description_es": "Realiza un corte ascendente al enemigo objetivo, infligiendo DAÑ físico y <u>Levantar</u>.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -1493,10 +1576,13 @@
         },
         "combo_skill": {
           "name": "Soar to the Stars",
+          "name_es": "Remontar a las estrellas",
           "cooldown_s": 15,
           "trigger": "When an enemy becomes <u>Vulnerable</u>.",
+          "trigger_es": "Cuando un enemigo se vuelve <u>Vulnerable</u>.",
           "dmg_type": "Physical",
           "description": "A slashing dash that passes through the target enemy and deals Physical DMG and <u>Lift</u> to all enemies along the way.",
+          "description_es": "Un desplazamiento afilado que atraviesa al enemigo objetivo e inflige DAÑ físico y <u>Levantar</u> a todos los enemigos en el trayecto.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -1515,9 +1601,11 @@
         },
         "ultimate": {
           "name": "Blade Gale",
+          "name_es": "Vendaval de cuchillas",
           "energy_cost": 70,
           "dmg_type": "Physical",
           "description": "A <b>7</b>-sequence slash attack that deals Physical DMG with each sequence to the target enemy. The final slash sequence deals even more DMG.",
+          "description_es": "Un ataque de 7 secuencias de cortes que inflige DAÑ físico con cada secuencia al enemigo objetivo. La secuencia final de corte inflige aún más DAÑ.",
           "multipliers_max": [
             {
               "name": "Cooldown",
@@ -1617,12 +1705,16 @@
       "skills": {
         "basic_attack": {
           "name": "ROLLING CUT!",
+          "name_es": "¡CORTE GIRATORIO!",
           "sequences": 4,
           "dmg_type": "Physical",
           "final_strike_stagger": 20,
           "description": "An attack with up to <b>4</b> sequences that deals Physical DMG. As the controlled operator, <u>Final Strike</u> also deals <b>20</b> Stagger.",
+          "description_es": "Un ataque con hasta 4 secuencias que inflige DAÑ físico. Como operador controlado, el <u>golpe final</u> también inflige <b>20</b> Tambaleo.",
           "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.",
+          "description_dive_es": "Un ataque básico ejecutado en el aire se convierte en un Ataque de inmersión que inflige mucho DAÑ físico a los enemigos cercanos.",
           "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+          "description_finisher_es": "El ataque básico realizado cerca de un enemigo Tambaleado se convierte en un ataque de remate que inflige mucho DAÑ físico y recupera algunos PH.",
           "multipliers_max": {
             "sequence_dmg_pct": [
               63,
@@ -1639,9 +1731,11 @@
         },
         "battle_skill": {
           "name": "FLIP DA WOK!",
+          "name_es": "¡GIRA EL WOK!",
           "sp_cost": 100,
           "dmg_type": "Physical",
           "description": "Takes out a wok, quickly charges it up, and performs a powerful wok flip that deals Physical DMG and <u>Lift</u> to the enemy.",
+          "description_es": "Saca un wok, lo carga rápidamente y realiza un potente giro de wok que inflige DAÑ físico y <u>Levantar</u> al enemigo.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -1665,10 +1759,13 @@
         },
         "combo_skill": {
           "name": "MORE SPICE!",
+          "name_es": "¡MÁS PICANTE!",
           "cooldown_s": 19,
           "trigger": "When an enemy reaches <b>4</b> stacks of <u>Vulnerability</u>.",
+          "trigger_es": "Cuando un enemigo alcanza 4 acumulaciones de <u>Vulnerabilidad</u>.",
           "dmg_type": "Physical",
           "description": "Swings the wok at the enemy to deal massive Physical DMG and <u>Crush</u>. This <u>Crush</u> also deals more DMG.",
+          "description_es": "Sacude wok contra el enemigo para infligir DAÑ físico masivo y <u>Triturar</u>. Este Triturar también inflige más DAÑ.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -1698,9 +1795,11 @@
         },
         "ultimate": {
           "name": "CHOP 'N DUNK!",
+          "name_es": "¡PICA Y MACHACA!",
           "energy_cost": 90,
           "dmg_type": "Physical",
           "description": "Da Pan slams the chopping board to forcibly <u>Lift</u> all enemies in the area of effect in front of him. This is followed by a <b>6</b>-sequence flurry of slashes that deals Physical DMG. The final step is to bash every enemy to the ground to forcibly <u>Knock Down</u> and deal massive Physical DMG to them.",
+          "description_es": "Da Pan golpea la tabla de cortar para <u>Levantar</u> con fuerza a todos los enemigos en el área de efecto. Luego, realiza una ráfaga de 6 secuencias de cortes que infligen DAÑ físico. El último paso consiste en golpear a cada enemigo contra el suelo para <u>Derribar</u> a la fuerza e infligir un gran DAÑ físico.",
           "multipliers_max": [
             {
               "name": "Cooldown",
@@ -1799,12 +1898,16 @@
       "skills": {
         "basic_attack": {
           "name": "Sword Art of Assault",
+          "name_es": "Arte de espada de asalto",
           "sequences": 4,
           "dmg_type": "Physical",
           "final_strike_stagger": 25,
           "description": "An attack with up to <b>4</b> sequences that deals Physical DMG. As the controlled operator, <u>Final Strike</u> also deals <b>25</b> Stagger.",
+          "description_es": "Un ataque con hasta 4 secuencias que inflige DAÑ físico. Como operador controlado, el <u>golpe final</u> también inflige <b>25</b> Tambaleo.",
           "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.",
+          "description_dive_es": "Un ataque básico ejecutado en el aire se convierte en un Ataque de inmersión que inflige mucho DAÑ físico a los enemigos cercanos.",
           "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher that deals massive Physical DMG and recovers some SP.",
+          "description_finisher_es": "El ataque básico realizado cerca de un enemigo Tambaleado se convierte en un ataque de remate que inflige mucho DAÑ físico y recupera algunos PH.",
           "multipliers_max": {
             "sequence_dmg_pct": [
               86,
@@ -1821,9 +1924,11 @@
         },
         "battle_skill": {
           "name": "Forward March",
+          "name_es": "Marcha hacia adelante",
           "sp_cost": 100,
           "dmg_type": "Heat",
           "description": "A leap followed by a heavy slam that deals Heat DMG, <u>Knock Down</u> and Stagger to all enemies in a fan-shaped area.<br/>If Ember takes DMG from enemies during casting, the slam deals more Stagger upon hit.",
+          "description_es": "Un salto seguido de un fuerte impacto que inflige DAÑ por calor, <u>Derribar</u> y Tambaleo a todos los enemigos en un área en forma de abanico.<br/>Si Ember recibe DAÑ de los enemigos durante el lanzamiento, el impacto inflige más Tambaleo al golpear.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -1847,10 +1952,13 @@
         },
         "combo_skill": {
           "name": "Frontline Support",
+          "name_es": "Apoyo en primera línea",
           "cooldown_s": 18,
           "trigger": "When the controlled operator is attacked.",
+          "trigger_es": "Cuando el operador controlado es atacado.",
           "dmg_type": "Physical",
           "description": "Leaps at the target enemy and unleashes a heavy slam that deals Physical DMG and <u>Knock Down</u> while giving HP treatment to the controlled operator. The attribute of Will increases the amount of HP treatment.",
+          "description_es": "Salta hacia el enemigo objetivo y desata un golpe pesado que inflige DAÑ físico y <u>Derribar</u> mientras otorga tratamiento de PV al operador controlado. El atributo de Voluntad aumenta la cantidad de tratamiento de PV.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -1884,9 +1992,11 @@
         },
         "ultimate": {
           "name": "Re-Ignited Oath",
+          "name_es": "Juramento reavivado",
           "energy_cost": 100,
           "dmg_type": "Heat",
           "description": "Slams the ground to deal Heat DMG to nearby enemies, while granting every teammate a <u>Shield</u> based on Ember's Max HP.",
+          "description_es": "Golpea el suelo para infligir DAÑ por calor a los enemigos cercanos, a la vez que otorga a todo el equipo un <u>Escudo</u> basado en los PV Máx. de Ember.",
           "multipliers_max": [
             {
               "name": "Cooldown",
@@ -1994,12 +2104,16 @@
       "skills": {
         "basic_attack": {
           "name": "Destructive Sequence",
+          "name_es": "Secuencia destructiva",
           "sequences": 5,
           "dmg_type": "Physical",
           "final_strike_stagger": 18,
           "description": "An attack with up to <b>5</b> sequences that deals Physical DMG. As the controlled operator, <u>Final Strike</u> also deals <b>18</b> Stagger.",
+          "description_es": "Un ataque con hasta 5 secuencias que inflige DAÑ físico. Como el operador controlado, el <u>Golpe final</u> también inflige <b>18</b> de Tambaleo.",
           "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.",
+          "description_dive_es": "Un ataque básico ejecutado en el aire se convierte en un Ataque de inmersión que inflige mucho DAÑ físico a los enemigos cercanos.",
           "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+          "description_finisher_es": "El ataque básico realizado cerca de un enemigo Tambaleado se convierte en un ataque de remate que inflige mucho DAÑ físico y recupera algunos PH.",
           "multipliers_max": {
             "sequence_dmg_pct": [
               51,
@@ -2017,9 +2131,11 @@
         },
         "battle_skill": {
           "name": "Constructive Sequence",
+          "name_es": "Secuencia constructiva",
           "sp_cost": 100,
           "dmg_type": "Physical",
           "description": "A forceful burst of Originium Arts that attacks enemies within the area of effect. Deals Physical DMG and applies <u>Crush</u>.",
+          "description_es": "Una ráfaga contundente de <u>Cristales de Originio</u> que ataca a los enemigos dentro del área de efecto. Inflige DAÑ físico y aplica <u>Triturar</u>.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -2038,10 +2154,13 @@
         },
         "combo_skill": {
           "name": "Sealing Sequence",
+          "name_es": "Secuencia de sellado",
           "cooldown_s": 15,
           "trigger": "When another operator in the team deals DMG with combo skills.",
+          "trigger_es": "Cuando otro operador del equipo inflige DAÑ con habilidades de combo.",
           "dmg_type": "Physical",
           "description": "Rushes to the enemy's side to deal Physical DMG and attach <u>Originium Crystals</u> that temporarily seals them. Applying <u>Physical Status</u> or <u>Vulnerability</u> to the sealed enemy <u>consumes</u> the <u>Originium Crystals</u> and deal additional Physical DMG.",
+          "description_es": "Se lanza hacia el enemigo para infligir DAÑ físico y colocar <u>Cristales de Originio</u> que lo sellan temporalmente. Aplicar un <u>Estado físico</u> o <u>Vulnerabilidad</u> al enemigo sellado, quiebra los Cristales de Originio e inflige DAÑ físico adicional.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -2078,9 +2197,11 @@
         },
         "ultimate": {
           "name": "Bombardment Sequence",
+          "name_es": "Secuencia de bombardeo",
           "energy_cost": 80,
           "dmg_type": "Physical",
           "description": "Bombards the ground with Originium Arts, dealing massive Physical DMG to all enemies within a fan-shaped area. If the enemy has <u>Originium Crystals</u> on them, this skill <u>consumes</u> the <u>Originium Crystals</u> and deals <b>1</b> more hit of Physical DMG.",
+          "description_es": "Bombardea el suelo con <u>Cristales de Originio</u>, infligiendo gran DAÑ físico a todos los enemigos en un área en forma de abanico. Si el enemigo ya tiene Cristales de Originio, esta habilidad quiebra los Cristales de Originio e inflige 1 golpe adicional de DAÑ físico.",
           "multipliers_max": [
             {
               "name": "Cooldown",
@@ -2178,12 +2299,16 @@
       "skills": {
         "basic_attack": {
           "name": "Audio Noise",
+          "name_es": "Ruido auditivo",
           "sequences": 4,
           "dmg_type": "Physical",
           "final_strike_stagger": 17,
           "description": "An attack with up to <b>4</b> sequences that deals Physical DMG. As the controlled operator, <u>Final Strike</u> also deals <b>17</b> Stagger.",
+          "description_es": "Un ataque con hasta 4 secuencias que inflige DAÑ físico. Como operador controlado, el <u>golpe final</u> también inflige <b>17</b> Tambaleo.",
           "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.",
+          "description_dive_es": "Un ataque básico ejecutado en el aire se convierte en un Ataque de inmersión que inflige mucho DAÑ físico a los enemigos cercanos.",
           "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+          "description_finisher_es": "El ataque básico realizado cerca de un enemigo Tambaleado se convierte en un ataque de remate que inflige mucho DAÑ físico y recupera algunos PH.",
           "multipliers_max": {
             "sequence_dmg_pct": [
               56,
@@ -2200,9 +2325,11 @@
         },
         "battle_skill": {
           "name": "Onomatopoeia",
+          "name_es": "Onomatopeya",
           "sp_cost": 100,
           "dmg_type": "Cryo",
           "description": "A lance thrust that fires a stream of freezing sound waves that deal Cryo DMG and apply <u>Cryo Infliction</u> to all enemies along its straight path.",
+          "description_es": "Una estocada de lanza que dispara una ráfaga de ondas sonoras heladas que infligen DAÑ criogénico y aplican <u>Imp. crio.</u> a todos los enemigos en su trayectoria recta.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -2221,10 +2348,13 @@
         },
         "combo_skill": {
           "name": "Distortion",
+          "name_es": "Distorsión",
           "cooldown_s": 17,
           "trigger": "When an enemy suffers <u>Solidification</u>.",
+          "trigger_es": "Cuando un enemigo sufre <u>Solidificación</u>.",
           "dmg_type": "Physical",
           "description": "Quickly moves to the enemy's side to deal Physical DMG and forcibly <u>Lift</u> enemies in a small area. If the skill hits a target with <u>Solidification</u>, the skill deals additional DMG and applies <u>Physical Susceptibility</u>.",
+          "description_es": "Se mueve rápidamente al lado del enemigo para infligir DAÑ físico y forzar <u>Levantar</u> a los enemigos en un área pequeña. Si la habilidad impacta a un objetivo con Solidificación, la habilidad inflige DAÑ adicional y aplica <u>Suscep. fís.</u>.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier Against Non-Solidified Enemies",
@@ -2265,9 +2395,11 @@
         },
         "ultimate": {
           "name": "Tremolo",
+          "name_es": "Trémolo",
           "energy_cost": 70,
           "dmg_type": "Physical",
           "description": "Estella expends all her strength to unleash a powerful slam of the spear shaft, dealing Physical DMG to all enemies in a circular area around self. To enemies with <u>Physical Susceptibility</u>, the skill forcibly applies <u>Lift</u> to them.",
+          "description_es": "Estella gasta todas sus fuerzas para desatar un potente golpe con el asta de la lanza, infligiendo DAÑ físico a todos los enemigos en un área circular a su alrededor. A los enemigos con <u>Suscep. fís.</u>, la habilidad les aplica forzosamente <u>Levantar</u>.",
           "multipliers_max": [
             {
               "name": "Cooldown",
@@ -2369,12 +2501,16 @@
       "skills": {
         "basic_attack": {
           "name": "Signature Gun Kata",
+          "name_es": "Arma distintiva Kata",
           "sequences": 4,
           "dmg_type": "Nature",
           "final_strike_stagger": 15,
           "description": "An attack with up to <b>4</b> sequences that deals Nature DMG. As the controlled operator, <u>Final Strike</u> also deals <b>15</b> Stagger.",
+          "description_es": "Un ataque con hasta 4 secuencias que inflige DAÑ por naturaleza. Como operador controlado, el <u>Golpe final</u> también inflige <b>15</b> Tambaleo.",
           "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals Nature DMG to nearby enemies.",
+          "description_dive_es": "Un ataque básico ejecutado en el aire se convierte en un Ataque de inmersión que inflige DAÑ por naturaleza a los enemigos cercanos.",
           "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Nature DMG and recovers some SP.",
+          "description_finisher_es": "El ataque básico realizado cerca de un enemigo Tambaleado se convierte en un ataque de remate que inflige DAÑ por naturaleza y recupera algunos PH.",
           "multipliers_max": {
             "sequence_dmg_pct": [
               56,
@@ -2391,9 +2527,11 @@
         },
         "battle_skill": {
           "name": "Tiny Surprise",
+          "name_es": "Pequeña sorpresa",
           "sp_cost": 100,
           "dmg_type": "Nature",
           "description": "Kicks an Improvised Explosive that sticks to the target, applying <u>Slow</u> and exploding after a short duration. The explosion deals Nature DMG and <u>Nature Infliction</u> to enemies in the area of effect. Defeating the target also sets off the Improvised Explosive immediately.<br/>Only <b>1</b> Improvised Explosive can be present in the battlefield.",
+          "description_es": "Patea un <u>Explosivo improvisado</u> que se adhiere al objetivo, aplicando <u>Ralentizar</u> y explotando tras un breve lapso. La explosión inflige DAÑ por naturaleza y <u>Imp. de nat.</u> a los enemigos en el área de efecto. Derrotar al objetivo también detona de inmediato el Explosivo improvisado.<br/>Solo puede haber 1 Explosivo improvisado presente en el campo de batalla.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -2418,10 +2556,13 @@
         },
         "combo_skill": {
           "name": "Free Giveaway",
+          "name_es": "Sorteo gratuito",
           "cooldown_s": 38,
           "trigger": "When an enemy has <b>2</b> or more stacks of <u>Cryo Infliction</u> or <u>Nature Infliction</u>.",
+          "trigger_es": "Cuando un enemigo tiene 2 o más acumulaciones de <u>Imp. crio.</u> o <u>Imp. de nat.</u>.",
           "dmg_type": "Nature",
           "description": "Shoots the target enemy to trigger a special explosion that deals Nature DMG and applies another <u>Arts Infliction</u> of the element already on the enemy.",
+          "description_es": "Dispara al enemigo objetivo para detonar una explosión especial que inflige DAÑ por naturaleza y aplica otra <u>Imposición de artes</u> del elemento que ya afecta al enemigo.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -2447,9 +2588,11 @@
         },
         "ultimate": {
           "name": "Apex Prankster",
+          "name_es": "Bromista suprema",
           "energy_cost": 100,
           "dmg_type": "Nature",
           "description": "Fluorite quickly moves in an arc and rapidly fires at the target within the arc to deal <b>4</b> sequences of Nature DMG. If an Improvised Explosive has been stuck to the target, the skill detonates it immediately and increases the DMG and size of the explosion.<br/>If the final DMG sequence hits a target with at least <b>2</b> stacks of <u>Cryo Infliction</u> or <u>Nature Infliction</u>, then apply the same <u>Arts Infliction</u> again.",
+          "description_es": "Fluorite se mueve rápidamente en un arco y dispara velozmente al objetivo dentro del arco para infligir 4 secuencias de DAÑ por naturaleza. Si se adhirió un <u>Explosivo improvisado</u> al objetivo, la habilidad lo detona de inmediato y aumenta el DAÑ y el tamaño de la explosión.<br/>Si la secuencia de DAÑ final golpea a un objetivo con al menos 2 acumulaciones de <u>Imposición criogénica</u> o <u>Imposición de naturaleza</u>, entonces aplica la misma <u>Imposición de artes</u> otra vez.",
           "multipliers_max": [
             {
               "name": "Cooldown",
@@ -2579,12 +2722,16 @@
       "skills": {
         "basic_attack": {
           "name": "Arcane Staff: Beam Cohesion Arts",
+          "name_es": "Báculo arcano: artes de cohesión de rayos",
           "sequences": 4,
           "dmg_type": "Nature",
           "final_strike_stagger": 16,
           "description": "An attack with up to <b>4</b> sequences that deals Nature DMG. As the controlled operator, <u>Final Strike</u> also deals <b>16</b> Stagger.",
+          "description_es": "Un ataque con hasta 4 secuencias que inflige DAÑ por naturaleza. Como operador controlado, el <u>Golpe final</u> también inflige <b>16</b> Tambaleo.",
           "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals Nature DMG to nearby enemies.",
+          "description_dive_es": "Un ataque básico ejecutado en el aire se convierte en un Ataque de inmersión que inflige DAÑ por naturaleza a los enemigos cercanos.",
           "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Nature DMG and recovers some SP.",
+          "description_finisher_es": "El ataque básico realizado cerca de un enemigo Tambaleado se convierte en un ataque de remate que inflige DAÑ por naturaleza y recupera algunos PH.",
           "multipliers_max": {
             "sequence_dmg_pct": [
               68,
@@ -2601,9 +2748,11 @@
         },
         "battle_skill": {
           "name": "Arcane Staff: Gravity Mode",
+          "name_es": "Báculo arcano: modo gravedad",
           "sp_cost": 100,
           "dmg_type": "Nature",
           "description": "Initiates Arts channeling that creates a gravity well. The gravity well pulls in nearby enemies and deals Nature DMG to them. When channeling ends, the gravity well implodes to deal Nature DMG and <u>Nature Infliction</u> to enemies in the area of effect.",
+          "description_es": "Inicia una canalización de Artes que crea un <u>pozo de gravedad</u>. El pozo de gravedad atrae a los enemigos cercanos e inflige DAÑ por naturaleza. Al terminar la canalización, el pozo de gravedad implosiona para infligir DAÑ por naturaleza e <u>Imp. de nat.</u> a los enemigos en el área de efecto.",
           "multipliers_max": [
             {
               "name": "Gravity Pull DMG Multiplier",
@@ -2627,10 +2776,13 @@
         },
         "combo_skill": {
           "name": "Arcane Staff: Matrix Displacement",
+          "name_es": "Báculo arcano: reubicación de la matriz",
           "cooldown_s": 19,
           "trigger": "When an Arts Reaction is applied to an enemy.",
+          "trigger_es": "Cuando se aplica una <u>Reacción a Artes</u> a un enemigo.",
           "dmg_type": "Nature",
           "description": "A quick casting of the Arts that generates a gravity pull, which then deals Nature DMG and forcibly <u>Lifts</u> the target and nearby enemies.",
+          "description_es": "Un lanzamiento rápido de Artes que genera una atracción gravitacional, la cual inflige DAÑ por naturaleza y fuerza <u>Levantar</u> del objetivo y de los enemigos cercanos.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -2654,9 +2806,11 @@
         },
         "ultimate": {
           "name": "Arcane Staff: Gravity Field",
+          "name_es": "Báculo arcano: campo gravitacional",
           "energy_cost": 90,
           "dmg_type": "Nature",
           "description": "Creates an Anomalous Gravity Field that instantly deals <b>1</b> hit of Nature DMG and applies <u>Nature Infliction</u> to enemies caught in the field. Targets in the Anomalous Gravity Field also suffer from <u>Slow</u> and <u>Arts Susceptibility</u>.<br/>The effect of <u>Arts Susceptibility</u> is further increased based on the number of active <u>Vulnerability</u> stacks on the target.<br/>If a target in the field is <u>Lifted</u>, the <u>Lifted</u> status will persist until the field wears off.",
+          "description_es": "Crea un <u>Campo gravitacional anómalo</u> que inflige de inmediato 1 golpe de DAÑ por naturaleza y aplica <u>Imposición de naturaleza</u> a los enemigos atrapados en el campo. Los objetivos en el <u>Campo gravitatorio anómalo</u> también sufren <u>Ralentizar</u> y <u>Susceptibilidad a Artes</u>. El efecto de Susceptibilidad a Artes aumenta según la cantidad de acumulaciones activas de <u>Vulnerabilidad</u> en el objetivo.<br/>Si un objetivo en el campo está Levantado, el estado de Levantado persistirá hasta que el campo se disipe.",
           "multipliers_max": [
             {
               "name": "Cooldown",
@@ -2775,12 +2929,16 @@
       "skills": {
         "basic_attack": {
           "name": "Flaming Cinders",
+          "name_es": "Cenizas ardientes",
           "sequences": 5,
           "dmg_type": "Heat",
           "final_strike_stagger": 18,
           "description": "An attack with up to <b>5</b> sequences that deals Heat DMG. As the controlled operator, <u>Final Strike</u> also deals <b>18</b> Stagger.",
+          "description_es": "Un ataque con hasta 5 secuencias que inflige DAÑ por calor. Como operador controlado, el <u>golpe final</u> también inflige <b>18</b> Tambaleo.",
           "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals Heat DMG to nearby enemies.",
+          "description_dive_es": "Un ataque básico ejecutado en el aire se convierte en un Ataque de inmersión que inflige DAÑ por calor a los enemigos cercanos.",
           "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Heat DMG and recovers some SP.",
+          "description_finisher_es": "El ataque básico realizado cerca de un enemigo Tambaleado se convierte en un ataque de remate que inflige mucho DAÑ por calor y recupera algunos PH.",
           "multipliers_max": {
             "sequence_dmg_pct": [
               36,
@@ -2798,9 +2956,11 @@
         },
         "battle_skill": {
           "name": "Smouldering Fire",
+          "name_es": "Fuego humeante",
           "sp_cost": 100,
           "dmg_type": "Heat",
           "description": "Summons a Magma Fragment to continuously attack enemies and deal Heat DMG. Hitting the enemy grants <b>1</b> stack of Melting Flame.<br/>If Laevatain already has <b>4</b> stack(s) of Melting Flame when casting the skill, then consume all the stacks and perform <b>1</b> additional attack that deals Heat DMG and forcibly trigger temporary <u>Combustion</u> to all enemies in a large area.<br/>When the additional attack hits the enemy, restore additional Ultimate Energy.<br/>Battle skill effects are enhanced while Laevatain's ultimate is active.",
+          "description_es": "Invoca un Fragmento de magma que ataca continuamente a los enemigos e inflige DAÑ por calor. Golpear al enemigo otorga 1 acumulación de <u>Fusión de llamas</u>.<br/>Si Laevatain ya tiene <b>4</b> acumulación(es) de Fusión de llamas al lanzar la habilidad, consume todas las acumulaciones y realiza 1 ataque adicional que inflige DAÑ por calor y activa forzosamente <u>Combustión</u> temporal a todos los enemigos en un área amplia.<br/>Cuando el ataque adicional impacta al enemigo, restaura Energía máxima adicional.<br/>Los efectos de la habilidad de batalla se potencian mientras la máxima de Laevatain está activa.",
           "multipliers_max": [
             {
               "name": "Base Explosion DMG Multiplier",
@@ -2879,10 +3039,13 @@
         },
         "combo_skill": {
           "name": "Seethe",
+          "name_es": "Hervir",
           "cooldown_s": 9,
           "trigger": "When an enemy suffers <u>Combustion</u> or <u>Corrosion</u>.",
+          "trigger_es": "Cuando un enemigo sufre <u>Combustión</u> o <u>Corrosión</u>.",
           "dmg_type": "Heat",
           "description": "Fire erupts beneath the feet of any enemy with <u>Combustion</u> or <u>Corrosion</u>, dealing Heat DMG to them.<br/>If the skill hits the enemy, Laevatain gains <b>1</b> stack of Melting Flame and further gains Ultimate Energy per enemy hit.",
+          "description_es": "El fuego irrumpe bajo los pies de cualquier enemigo con Combustión o Corrosión, infligiéndoles DAÑ por calor.<br/>Si la habilidad impacta al enemigo, Laevatain obtiene 1 acumulación de <u>Fusión de llamas</u> y además gana Energía máxima por cada enemigo golpeado.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -2917,9 +3080,11 @@
         },
         "ultimate": {
           "name": "Twilight",
+          "name_es": "Crepúsculo",
           "energy_cost": 300,
           "dmg_type": "Heat",
           "description": "Laevatain summons her Sviga Lævi and becomes the controlled operator.<br/>For a certain duration, her basic attacks (BATK) are enhanced and the Sviga Lævi strikes together with Laevatain, with each attack dealing Heat DMG. BATK sequence 3 also applies <u>Heat Infliction</u>. Casting the battle skill, Smouldering Fire, or the combo skill, Seethe, does not shorten the duration of the ultimate, Twilight.",
+          "description_es": "Laevatain llama a su Sviga Lævi y se convierte en la operadora controlada.<br/>Durante un tiempo, sus ataques básicos (ATQB) se mejoran y la Sviga Lævi golpea junto con Laevatain, infligiendo DAÑ por calor con cada ataque. La secuencia 3 de ATQB también aplica <u>Imposición de calor</u>.<br/>Lanzar la habilidad de batalla, Fuego humeante, o la habilidad de combo, Hervir, no acorta la duración de la máxima, Crepúsculo.",
           "multipliers_max": [
             {
               "name": "Cooldown",
@@ -3035,12 +3200,16 @@
       "skills": {
         "basic_attack": {
           "name": "Dance of Rime",
+          "name_es": "Baile de la escarcha",
           "sequences": 4,
           "dmg_type": "Cryo",
           "final_strike_stagger": 25,
           "description": "An attack with up to <b>4</b> sequences that deals Cryo DMG. As the controlled operator, <u>Final Strike</u> also deals <b>25</b> Stagger.",
+          "description_es": "Un ataque con hasta 4 secuencias que inflige DAÑ criogénico. Como operador controlado, el <u>Golpe final</u> también inflige <b>25</b> Tambaleo.",
           "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals Cryo DMG to nearby enemies.",
+          "description_dive_es": "ATAQUE DE INMERSIÓN<br/>Un ataque básico ejecutado en el aire se convierte en un Ataque de inmersión que inflige DAÑ criogénico a los enemigos cercanos.",
           "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Cryo DMG and recovers some SP.",
+          "description_finisher_es": "El ataque básico realizado cerca de un enemigo Tambaleado se convierte en un ataque de remate que inflige mucho DAÑ criogénico y recupera algunos PH.",
           "multipliers_max": {
             "sequence_dmg_pct": [
               68,
@@ -3057,9 +3226,11 @@
         },
         "battle_skill": {
           "name": "Esoteric Legacy of Seš'qa",
+          "name_es": "Legado esotérico de Seš'qa",
           "sp_cost": 100,
           "dmg_type": "Cryo",
           "description": "Performs a Hypothermic Perfusion on the controlled operator's weapon and <u>returns</u> some SP. The next <u>Final Strike</u> performed by the currently controlled operator within a certain duration creates Last Rite's Mirage that unleashes a pursuit attack at the target. This attack deals Cryo DMG and applies <u>Cryo Infliction</u>.<br/>When the controlled operator is Last Rite herself, casting this battle skill does not reset her basic attack sequence.",
+          "description_es": "Realiza una <u>Perfusión hipotérmica</u> en el arma del operador controlado y <u>devuelve</u> algunos PH.<br/>El siguiente <u>Golpe final</u> que realice el operador controlado actual dentro de cierta duración crea los Espejismos de Last Rite, que desatan un ataque adicional contra el objetivo. Este ataque inflige DAÑ criogénico y aplica <u>Imposición criogénica</u>.<br/>Cuando la operadora controlada es la propia Last Rite, lanzar esta habilidad de batalla no reinicia su secuencia de ataque básico.",
           "multipliers_max": [
             {
               "name": "Mirage Pursuit ATK DMG Multiplier",
@@ -3090,10 +3261,13 @@
         },
         "combo_skill": {
           "name": "Winter's Devourer",
+          "name_es": "Devoradora invernal",
           "cooldown_s": 8,
           "trigger": "When an enemy has <b>3</b> or more <u>Cryo Infliction</u> stacks.",
+          "trigger_es": "Cuando un enemigo tiene <b>3</b> o más acumulaciones de <u>Imposición criogénica</u>.",
           "dmg_type": "Cryo",
           "description": "Encases the target enemy in icicles and shatters them to <u>consume</u> all <u>Cryo Infliction</u> stacks of the said enemy. The number of <u>Cryo Infliction</u> stacks <u>consumed</u> determines the amount of Cryo DMG dealt to the enemy and Ultimate Energy gained by the caster.",
+          "description_es": "Encierra al enemigo objetivo en carámbanos y los hace añicos para <u>consumir</u> todas las acumulaciones de Imposición criogénica de ese enemigo. La cantidad de acumulaciones de Imposición criogénica <u>consumidas</u> determina el DAÑ criogénico infligido a ese enemigo y la Energía máxima que obtiene Last Rite.",
           "multipliers_max": [
             {
               "name": "Ice Shard DMG Multiplier",
@@ -3133,9 +3307,11 @@
         },
         "ultimate": {
           "name": "Vigil Services",
+          "name_es": "Servicios de vigilancia",
           "energy_cost": 240,
           "dmg_type": "Cryo",
           "description": "Last Rite encases herself in frost armor and creates an ice scythe to perform <b>3</b> slashes, and gains immunity to all damages while this state is active.<br/>Each slash deals massive Cryo DMG.<br/>Last Rite can only gain Ultimate Energy from her own battle skill and combo skill.",
+          "description_es": "Last Rite se recubre con una armadura de escarcha, crea una guadaña de hielo para realizar 3 cortes y obtiene inmunidad a todo tipo de DAÑ mientras este estado esté activo.<br/>Cada corte inflige DAÑ criogénico masivo.<br/>Last Rite solo puede obtener Energía máxima de sus propias habilidades de batalla y habilidades de combo.",
           "multipliers_max": [
             {
               "name": "Cooldown",
@@ -3256,12 +3432,16 @@
       "skills": {
         "basic_attack": {
           "name": "Ruination",
+          "name_es": "Ruina",
           "sequences": 4,
           "dmg_type": "Physical",
           "final_strike_stagger": 19,
           "description": "An attack with up to <b>4</b> sequences that deals Physical DMG. As the controlled operator, <u>Final Strike</u> also deals <b>19</b> Stagger.",
+          "description_es": "Un ataque con hasta 4 secuencias que inflige DAÑ físico. Como operador controlado, el <u>golpe final</u> también inflige <b>19</b> Tambaleo.",
           "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.",
+          "description_dive_es": "Un ataque básico ejecutado en el aire se convierte en un Ataque de inmersión que inflige mucho DAÑ físico a los enemigos cercanos.",
           "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher that deals massive Physical DMG and recovers some SP.",
+          "description_finisher_es": "El ataque básico realizado cerca de un enemigo Tambaleado se convierte en un ataque de remate que inflige mucho DAÑ físico y recupera algunos PH.",
           "multipliers_max": {
             "sequence_dmg_pct": [
               55,
@@ -3278,9 +3458,11 @@
         },
         "battle_skill": {
           "name": "Turbid Avatar",
+          "name_es": "Avatar turbio",
           "sp_cost": 100,
           "dmg_type": "Physical",
           "description": "Swings the polearm multiple times to deal <b>2</b> hits of Physical DMG, then slams the ground to deal Physical DMG and <u>Knock Down</u> to all enemies in the area of effect.<br/>If the enemy struck by the last hit of this skill has no <u>Vulnerability</u> stacks, apply <u>Physical Susceptibility</u> to the said enemy instead.",
+          "description_es": "Gira el arma de asta múltiples veces para infligir 2 golpes de DAÑ físico, luego golpea el suelo para infligir DAÑ físico y <u>Derribar</u> a todos los enemigos en el área de efecto.<br/>Si el enemigo golpeado por el último impacto de esta habilidad no tiene acumulaciones de <u>Vulnerabilidad</u>, también aplica <u>Susceptibilidad física</u> a dicho enemigo.",
           "multipliers_max": [
             {
               "name": "SEQ 1 DMG Multiplier",
@@ -3321,10 +3503,13 @@
         },
         "combo_skill": {
           "name": "Aspect of Wrath",
+          "name_es": "Aspecto de ira",
           "cooldown_s": 15,
           "trigger": "When the controlled operator performs a <u>Final Strike</u> on an enemy with <u>Physical Susceptibility</u> or <u>Breach</u>.",
+          "trigger_es": "Cuando el operador controlado realiza un <u>Golpe final</u> sobre un enemigo con <u>Susceptibilidad física</u> o <u>Brecha</u>.",
           "dmg_type": "Physical",
           "description": "Unleashes an aspect that performs a spear thrust to deal Physical DMG and grants <u>Link</u>.",
+          "description_es": "Desata un aspecto que ejecuta una estocada de lanza para infligir DAÑ físico y otorga <u>Enlace</u>.",
           "multipliers_max": [
             {
               "name": "SEQ 1 DMG Multiplier",
@@ -3361,9 +3546,11 @@
         },
         "ultimate": {
           "name": "Heart of the Unmoving",
+          "name_es": "Corazón inmóvil",
           "energy_cost": 90,
           "dmg_type": "Physical",
           "description": "Unleashes an aspect that slams an Immovable Vajra to deal Physical DMG and <u>Knock Down</u> to all enemies in a large area of effect, then enemies are drawn toward the center of the area. After a while, enemies still within the vajra slam area of effect will suffer another massive Physical DMG and <u>Knock Down</u>.<br/>If the skill <u>consumes</u> a <u>Link</u>, it deals additional massive Physical DMG.",
+          "description_es": "Desata un avatar que realiza un golpe Vajra inmóvil. El golpe inflige DAÑ físico y aplica <u>Derribar</u> a todos los enemigos en un área de efecto amplia (AE) y los atrae hacia el centro del AE. Después de un momento, el avatar realiza otro golpe que inflige DAÑ físico masivo y aplica Derribar de nuevo a los enemigos que sigan en el AE.<br/>Si la habilidad <u>consume</u> un <u>Enlace</u>, inflige un golpe adicional de DAÑ físico masivo.",
           "multipliers_max": [
             {
               "name": "Cooldown",
@@ -3482,12 +3669,16 @@
       "skills": {
         "basic_attack": {
           "name": "Protocol α: Breach",
+          "name_es": "Protocolo α: brecha",
           "sequences": 4,
           "dmg_type": "Electric",
           "final_strike_stagger": 15,
           "description": "An attack with up to <b>4</b> sequences that deals Electric DMG. As the controlled operator, <u>Final Strike</u> also deals <b>15</b> Stagger.",
+          "description_es": "Un ataque con hasta 4 secuencias que inflige DAÑ eléctrico. Como operador controlado, el <u>Golpe final</u> también inflige <b>15</b> Tambaleo.",
           "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals Electric DMG to nearby enemies.",
+          "description_dive_es": "Un ataque básico ejecutado en el aire se convierte en un Ataque de inmersión que inflige DAÑ eléctrico a los enemigos cercanos.",
           "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Electric DMG and recovers some SP.",
+          "description_finisher_es": "El ataque básico realizado cerca de un enemigo Tambaleado se convierte en un ataque de remate que inflige mucho DAÑ eléctrico y recupera algunos PH.",
           "multipliers_max": {
             "sequence_dmg_pct": [
               57,
@@ -3504,9 +3695,11 @@
         },
         "battle_skill": {
           "name": "Protocol ω: Strike",
+          "name_es": "Protocolo ω: ataque",
           "sp_cost": 100,
           "dmg_type": "Electric",
           "description": "Unleashes a bolt of electro-magnetic energy that deals Electric DMG and <u>Electric Infliction</u> to enemies in a small area.",
+          "description_es": "Invoca un rayo de energía electromagnética que inflige DAÑ eléctrico e <u>Imp. elec.</u> a los enemigos en un área pequeña.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -3525,10 +3718,13 @@
         },
         "combo_skill": {
           "name": "Instant Protocol: Chain",
+          "name_es": "Protocolo instantáneo: cadena",
           "cooldown_s": 19,
           "trigger": "When controlled operator performs a <u>Final Strike</u> on any enemy.",
+          "trigger_es": "Cuando el operador controlado realiza un <u>Golpe final</u> sobre cualquier enemigo.",
           "dmg_type": "Electric",
           "description": "Unleashes stored electro-magnetic energy to bombard the target, dealing Electric DMG and forcibly inflicting temporary <u>Electrification</u>.",
+          "description_es": "Libera la energía electromagnética almacenada para bombardear al objetivo, infligiendo DAÑ eléctrico e imponiendo <u>Electrificación</u> forzada temporal.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -3558,9 +3754,11 @@
         },
         "ultimate": {
           "name": "Protocol ε: 70.41K",
+          "name_es": "Protocolo ε: 70.41 K",
           "energy_cost": 80,
           "dmg_type": "Electric",
           "description": "Tele-protocols a massive piece of orbital debris into the battlefield with devastating impact. All enemies in the area of effect suffer massive Electric DMG.",
+          "description_es": "Teleprotocola un enorme fragmento de escombro orbital al campo de batalla con un impacto devastador. Todos los enemigos alcanzados sufren gran DAÑ eléctrico.",
           "multipliers_max": [
             {
               "name": "Cooldown",
@@ -3658,12 +3856,16 @@
       "skills": {
         "basic_attack": {
           "name": "All-Out Offensive",
+          "name_es": "Ofensiva total",
           "sequences": 5,
           "dmg_type": "Physical",
           "final_strike_stagger": 18,
           "description": "An attack with up to <b>5</b> sequences that deals Physical DMG. As the controlled operator, <u>Final Strike</u> also deals <b>18</b> Stagger.",
+          "description_es": "Un ataque con hasta 5 secuencias que inflige DAÑ físico. Como el operador controlado, el <u>Golpe final</u> también inflige <b>18</b> de Tambaleo.",
           "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.",
+          "description_dive_es": "Un ataque básico ejecutado en el aire se convierte en un Ataque de inmersión que inflige mucho DAÑ físico a los enemigos cercanos.",
           "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+          "description_finisher_es": "El ataque básico realizado cerca de un enemigo Tambaleado se convierte en un ataque de remate que inflige mucho DAÑ físico y recupera algunos PH.",
           "multipliers_max": {
             "sequence_dmg_pct": [
               52,
@@ -3681,9 +3883,11 @@
         },
         "battle_skill": {
           "name": "The Pulverizing Front",
+          "name_es": "El frente pulverizador",
           "sp_cost": 100,
           "dmg_type": "Physical",
           "description": "Pogranichnik performs <b>2</b> slashes at enemies in front of him, dealing Physical DMG, applying <u>Breach</u>, and recovering SP based on the number of <u>Vulnerability</u> stacks <u>consumed</u>. The SP recovery effect can only trigger <b>1</b> time, even if the skill hits multiple targets.",
+          "description_es": "Pogranichnik realiza un ataque de corte de 2 secuencias a los enemigos frente a él, inflige DAÑ físico, aplica <u>Brecha</u> y recupera PH según la cantidad de acumulaciones de Vulnerabilidad <u>consumidas</u>. El efecto de recuperación de PH solo puede activarse 1 vez, incluso si la habilidad golpea a varios objetivos.",
           "multipliers_max": [
             {
               "name": "SEQ 1 DMG Multiplier",
@@ -3734,10 +3938,13 @@
         },
         "combo_skill": {
           "name": "Full Moon Slash",
+          "name_es": "Corte de luna llena",
           "cooldown_s": 17,
           "trigger": "When <u>Crush</u> or <u>Breach</u> <u>consumes</u> the enemy's <u>Vulnerability</u> stack(s). ",
+          "trigger_es": "Cuando <u>Triturar</u> o <u>Brecha</u> <u>consume</u> acumulación(es) de <u>Vulnerabilidad</u> del enemigo.",
           "dmg_type": "Physical",
           "description": "Performs a number of slashes (up to <b>3</b>) based on the max number of <u>Vulnerability</u> stacks <u>consumed</u>, dealing Physical DMG and recovering some SP. Each slash deals more DMG and gives better SP recovery.<br/>Consuming <b>4</b> stacks of <u>Vulnerability</u> enhances the <b>3rd</b> slash.",
+          "description_es": "Realiza una cantidad de secuencias de cortes (hasta 3) según la cantidad Máx. de acumulaciones de Vulnerabilidad <u>consumidas</u> de un enemigo, inflige DAÑ físico y recupera algunos PH. Cada tajo inflige más DAÑ y otorga mejor recuperación de PH.<br/>Consumir 4 acumulaciones de Vulnerabilidad mejora la tercera secuencia de cortes.",
           "multipliers_max": [
             {
               "name": "SEQ 1 DMG Multiplier",
@@ -3814,9 +4021,11 @@
         },
         "ultimate": {
           "name": "Shieldguard Banner, Forward",
+          "name_es": "Estandarte de Guardia del escudo, adelante",
           "energy_cost": 90,
           "dmg_type": "Physical",
           "description": "Summons <b>4</b> Shieldguards to advance and push all enemies along the way towards the target, dealing Physical DMG while generating <b>5</b> points of Steel Oath.<br/>After an enemy suffers a <u>Physical Status</u> or takes DMG from Pogranichnik's combo skill, consume <b>1</b> point of Steel Oath and summon <b>1</b> Shieldguard to harass the said enemy, dealing Physical DMG and recovering some SP. When the last Steel Oath point is consumed, all <b>4</b> Shieldguards will initiate a Decisive Assault that deals massive Physical DMG to the target while recovering plenty of SP.",
+          "description_es": "Invoca 4 Guardias del escudo para avanzar y empujar a todos los enemigos en el camino hacia el objetivo, infligiendo DAÑ físico mientras genera 5 puntos de <u>Juramento de Acero</u>. Después de que un enemigo sufre un <u>Estado físico</u> o recibe DAÑ de la habilidad de combo de Pogranichnik, Pogranichnik consume 1 punto de Juramento de acero e invoca 1 Guardia del escudo para hostigar a ese enemigo, infligiendo DAÑ físico y recuperando algunos PH. Cuando se consume el último punto de Juramento de acero, los 4 Guardias del escudo iniciarán un Asalto decisivo que inflige DAÑ físico masivo al objetivo mientras recupera muchos PH.",
           "multipliers_max": [
             {
               "name": "Cooldown",
@@ -3940,12 +4149,16 @@
       "skills": {
         "basic_attack": {
           "name": "Seething Wolfblood",
+          "name_es": "Sangre de lobo hirviente",
           "sequences": 5,
           "dmg_type": "Physical",
           "final_strike_stagger": 18,
           "description": "An attack with up to <b>5</b> sequences that deals Physical DMG. As the controlled operator, <u>Final Strike</u> also deals <b>18</b> Stagger.",
+          "description_es": "Un ataque de hasta 5 secuencias que inflige DAÑ físico. Como el operador controlado, el <u>Golpe final</u> también inflige <b>18</b> de Tambaleo.",
           "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.",
+          "description_dive_es": "El ataque básico realizado en el aire se convierte en un ataque de inmersión que inflige DAÑ físico a los enemigos cercanos.",
           "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+          "description_finisher_es": "El ataque básico realizado cerca de un enemigo en estado Tambaleado se convierte en un Remate que inflige DAÑ físico masivo y recupera algunos PH.",
           "multipliers_max": {
             "sequence_dmg_pct": [
               61,
@@ -3963,9 +4176,11 @@
         },
         "battle_skill": {
           "name": "Crimson Shadow",
+          "name_es": "Sombra carmesí",
           "sp_cost": 100,
           "dmg_type": "Physical",
           "description": "Charges to the target to deal Physical DMG and apply <u>Lift</u>.<br/>If the target already has <u>Vulnerability</u> stack(s), the skill also unleashes a Wolven Ambrage that charges at the target to deal Heat DMG.",
+          "description_es": "Carga contra el objetivo para infligir DAÑ físico y aplica <u>Levantar</u>.<br/>Si el objetivo ya tiene acumulaciones de <u>Vulnerabilidad</u>, la habilidad también desata una <u>Sombra lupina</u> que se abalanza sobre el objetivo para infligir DAÑ por calor.",
           "multipliers_max": [
             {
               "name": "SEQ 1 DMG Multiplier",
@@ -3995,10 +4210,13 @@
         },
         "combo_skill": {
           "name": "Moment of Blazing Shadow",
+          "name_es": "Momento de sombra abrasadora",
           "cooldown_s": 14,
           "trigger": "When an enemy has both <u>Vulnerability</u> and <u>Arts Infliction</u> stacks.",
+          "trigger_es": "Cuando un enemigo tiene acumulaciones de <u>Vulnerabilidad</u> e <u>Imposición de artes</u>.",
           "dmg_type": "Physical",
           "description": "Rossi's combo skill has <b>2</b> consecutive sequences.<br/>COMBO SEQUENCE 1 deals Physical DMG to the target.<br/>COMBO SEQUENCE 2 consumes all <u>Arts Infliction</u> stacks from the target, deals Physical DMG based on the number of <u>Arts Infliction</u> stacks consumed, applies <b>1</b> instance of <u>Lift</u>, and buffs Rossi's Critical Rate and Critical DMG Dealt at the same time.<br/>If COMBO SEQUENCE 2 is cast with perfect timing, it applies <b>1</b> more stack of <u>Vulnerability</u>.",
+          "description_es": "La habilidad de combo de Rossi tiene 2 secuencias consecutivas. SECUENCIA DE COMBO 1 inflige DAÑ físico al objetivo.<br/>SECUENCIA DE COMBO 2 <u>consume</u> todas las acumulaciones de Imposición de artes del objetivo, inflige DAÑ físico según la cantidad de acumulaciones de Imposición de artes <u>consumidas</u>, aplica 1 instancia de <u>Levantar</u> y mejora el índice crítico y el DAÑ crítico infligido de Rossi al mismo tiempo.<br/>Si la SECUENCIA DE COMBO 2 se lanza <u>justo a tiempo</u>, aplica 1 acumulación adicional de Vulnerabilidad.",
           "multipliers_max": [
             {
               "name": "SEQ 1 DMG Multiplier",
@@ -4054,9 +4272,11 @@
         },
         "ultimate": {
           "name": "\"Razorclaw\" Ambuscade",
+          "name_es": "Emboscada “Filogarra”",
           "energy_cost": 110,
           "dmg_type": "Heat",
           "description": "Rossi flutters her cape and unleashes a flurry of stabs that quickly deals multiple sequences of Heat DMG to the target. She then performs a two-sequence slash attack with her dagger that deals massive Heat DMG and applies <u>Heat Infliction</u>.<br/>When this skill successfully scores a critical hit, it deals higher Critical DMG.",
+          "description_es": "Rossi agita su capa y desata una ráfaga de estocadas que inflige rápidamente varias secuencias de DAÑ por calor al objetivo. Luego realiza un ataque de corte de dos secuencias con su daga que inflige DAÑ por calor masivo y aplica <u>Imposición de calor</u>.<br/>Cuando esta habilidad logra un golpe crítico, inflige más DAÑ crítico.",
           "multipliers_max": [
             {
               "name": "Cooldown",
@@ -4165,12 +4385,16 @@
       "skills": {
         "basic_attack": {
           "name": "Hypothermic Assault",
+          "name_es": "Asalto hipotérmico",
           "sequences": 3,
           "dmg_type": "Physical",
           "final_strike_stagger": 23,
           "description": "An attack with up to <b>3</b> sequences that deals Physical DMG. As the controlled operator, <u>Final Strike</u> also deals <b>23</b> Stagger.",
+          "description_es": "Un ataque con hasta 3 secuencias que inflige DAÑ físico. Como operador controlado, el <u>Golpe final</u> también inflige <b>23</b> Tambaleo.",
           "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.",
+          "description_dive_es": "Un ataque básico ejecutado en el aire se convierte en un Ataque de inmersión que inflige mucho DAÑ físico a los enemigos cercanos.",
           "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+          "description_finisher_es": "El ataque básico realizado cerca de un enemigo Tambaleado se convierte en un ataque de remate que inflige mucho DAÑ físico y recupera algunos PH.",
           "multipliers_max": {
             "sequence_dmg_pct": [
               124,
@@ -4186,9 +4410,11 @@
         },
         "battle_skill": {
           "name": "Saturated Defense",
+          "name_es": "Defensa saturada",
           "sp_cost": 100,
           "dmg_type": "Cryo",
           "description": "Raises a shield that can block attacks, grants <u>Protection</u> to self and nearby operators, and immediately <u>returns some SP</u>.<br/>When attacked while the said shield is active, perform a retaliation bash that deals Cryo DMG and applies <u>Cryo Infliction</u> on the attacker.",
+          "description_es": "Alza un escudo que puede bloquear ataques, otorga <u>Protección</u> a sí mismo y a operadores cercanos y <u>devuelve</u> de inmediato algunos PH.<br/>Cuando es atacada con dicho escudo elevado, realiza un golpe de represalia que inflige DAÑ criogénico y aplica <u>Imposición criogénica</u> al atacante.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -4219,10 +4445,13 @@
         },
         "combo_skill": {
           "name": "Polar Rescue",
+          "name_es": "Rescate polar",
           "cooldown_s": 23,
           "trigger": "When controlled operator gets attacked and is below <b>60%</b> HP.",
+          "trigger_es": "Después de que el operador controlado es atacado y cae por debajo de <b>60%</b> PV.",
           "dmg_type": null,
           "description": "Snowshine throws a Snowfield SAR Assistant at the controlled operator. Upon target contact, the Assistant gives massive instant HP Treatment to nearby operators as well as continuous HP Treatment to operators in the area of effect.<br/>The attribute of Will increases the amount of HP treatment.",
+          "description_es": "Snowshine lanza un Asistente de B&R en campos nevados al operador controlado. Al entrar en contacto con el objetivo, el Asistente proporciona un gran Tratamiento de PV instantáneo a los operadores cercanos, así como Tratamiento de PV continuo a los operadores en el área de efecto.<br/>El atributo de Voluntad aumenta la cantidad de tratamiento de PV.",
           "multipliers_max": [
             {
               "name": "Initial Base Treatment",
@@ -4264,9 +4493,11 @@
         },
         "ultimate": {
           "name": "Frigid Snowfield",
+          "name_es": "Campo nevado gélido",
           "energy_cost": 80,
           "dmg_type": "Cryo",
           "description": "Leaps into mid-air with a jetpack before slamming down with her shield to deal massive Cryo DMG to enemies in the area of effect. Also generates a Snow Zone (lasting several seconds) that deals Cryo DMG over time to enemies. The Snow Zone forcibly applies <u>Solidification</u> to enemies caught within it for a certain duration.",
+          "description_es": "Salta al aire con un jetpack y luego cae en picada con su escudo para infligir DAÑ criogénico masivo a los enemigos en el área de efecto. También genera una <u>Zona de nieve</u> (que dura varios segundos) que inflige DAÑ criogénico con el tiempo a los enemigos. La Zona de nieve aplica forzosamente <u>Solidificación</u> a los enemigos atrapados en ella por cierta duración.",
           "multipliers_max": [
             {
               "name": "Cooldown",
@@ -4380,12 +4611,16 @@
       "skills": {
         "basic_attack": {
           "name": "I'LL BLOW YOUR MIND!",
+          "name_es": "¡TE VOY A VOLAR LA CABEZA!",
           "sequences": 5,
           "dmg_type": "Cryo",
           "final_strike_stagger": 18,
           "description": "An attack with up to <b>5</b> sequences that deals Cryo DMG. As the controlled operator, <u>Final Strike</u> also deals <b>18</b> Stagger.",
+          "description_es": "Un ataque de hasta 5 secuencias que inflige DAÑ criogénico. Como el operador controlado, el <u>Golpe final</u> también inflige <b>18</b> de Tambaleo.",
           "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.",
+          "description_dive_es": "El ataque básico realizado en el aire se convierte en un ataque de inmersión que inflige DAÑ criogénico a los enemigos cercanos.",
           "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+          "description_finisher_es": "El ataque básico realizado cerca de un enemigo en estado Tambaleado se convierte en un remate que inflige DAÑ criogénico masivo y recupera algunos PH.",
           "multipliers_max": {
             "sequence_dmg_pct": [
               51,
@@ -4403,9 +4638,11 @@
         },
         "battle_skill": {
           "name": "IMA WAVERIDAAH!",
+          "name_es": "¡SOY UNA JINETE DE LAS OLAS!",
           "sp_cost": 100,
           "dmg_type": "Cryo",
           "description": "Tangtang jumps out from the water and fires a point-blank shot that deals Cryo DMG to the enemy and creates a Waterspout. Casting the battle skill also consumes all nearby Whirlpools to create additional Waterspouts and return some SP based on the number of Waterspouts created.<br/>Waterspout: Applies 1</b> stack of <u>Cryo Infliction</u> on enemies within range and deals Cryo DMG over time. If the battle skill creates multiple Waterspouts, they also apply <u>Arts Susceptibility</u> to enemies (but not another stack of <u>Cryo Infliction</u>). DMG dealt by the Waterspout is treated as Battle Skill DMG.",
+          "description_es": "Tangtang salta fuera del agua y dispara a quemarropa, lo que inflige DAÑ criogénico al enemigo y crea una <u>Tromba marina</u>.<br/>Al lanzar la habilidad de batalla, también consume todos los <u>Remolinos</u> cercanos para crear <u>Trombas marinas</u> adicionales y <u>regresa</u> cierta cantidad de PH según el número de Trombas marinas creadas.<br/>Tromba marina: aplica 1 acumulación de <u>Imposición criogénica</u> a los enemigos dentro del alcance e inflige DAÑ criogénico continuo. Si la habilidad de batalla crea varias Trombas marinas, estos también aplican <u>Susceptibilidad a Artes</u> a los enemigos (pero no otra acumulación de Imposición criogénica).<br/>El DAÑ infligido por la Tromba marina se considera DAÑ de habilidad de batalla.",
           "multipliers_max": [
             {
               "name": "Shooting DMG Multiplier",
@@ -4455,10 +4692,13 @@
         },
         "combo_skill": {
           "name": "RIVER, TO ME!",
+          "name_es": "¡RÍO, VEN A MÍ!",
           "cooldown_s": 12,
           "trigger": "When applying <u>Cryo Infliction</u> or dealing Arts Burst DMG to an enemy.",
+          "trigger_es": "Al aplicar <u>Imposición criogénica</u> o infligir <u>DAÑ por Ráfaga de artes</u> a un enemigo.",
           "dmg_type": "Cryo",
           "description": "Tangtang unleashes a powerful jet stream that penetrates all enemies in its path, deals Cryo DMG to them, and creates a Whirlpool. Up to <b>2</b> Whirlpools can exist in the battlefield at any time.",
+          "description_es": "Tangtang desata un potente chorro que atraviesa a todos los enemigos en su trayectoria, les inflige DAÑ criogénico y crea un <u>Remolino</u>.<br/>Pueden existir hasta 2 Remolinos en el campo de batalla al mismo tiempo.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -4487,9 +4727,11 @@
         },
         "ultimate": {
           "name": "DA CHIEF SEES YOU!",
+          "name_es": "¡LA JEFA TE TIENE EN LA MIRA!",
           "energy_cost": 90,
           "dmg_type": "Cryo",
           "description": "Tangtang opens her eyepatch and unleashes an OLDEN STARE from her eye that temporarily locks down, immobilizes, and deals Cryo DMG over time to enemies within its area of effect. When the OLDEN STARE stops evolving, a rogue wave comes crashing down to deal massive Cryo DMG to enemies in its area of effect. If the controlled operator performs a dive attack in the OLDEN STARE pattern, its evolution ends and the rogue wave is summoned immediately to deal even more Cryo DMG.",
+          "description_es": "Tangtang abre su parche y desata una <u>MIRADA ANCESTRAL</u> desde su ojo que bloquea temporalmente, inmoviliza e inflige DAÑ criogénico con el tiempo a los enemigos dentro de su área de efecto.<br/>Cuando MIRADA ANCESTRAL deja de evolucionar, una ola traicionera se desploma para infligir DAÑ criogénico masivo a los enemigos en su área de efecto.<br/>Si el operador controlado realiza un ataque de inmersión en el patrón de MIRADA ANCESTRAL, su evolución termina y la ola traicionera se invoca de inmediato para infligir todavía más DAÑ criogénico.",
           "multipliers_max": [
             {
               "name": "Cooldown",
@@ -4603,12 +4845,16 @@
       "skills": {
         "basic_attack": {
           "name": "Rapid Fire Akimbo",
+          "name_es": "Disparo rápido a dos manos",
           "sequences": 4,
           "dmg_type": "Heat",
           "final_strike_stagger": 18,
           "description": "An attack with up to <b>4</b> sequences that deals Heat DMG. As the controlled operator, <u>Final Strike</u> also deals <b>18</b> Stagger.",
+          "description_es": "Un ataque con hasta 4 secuencias que inflige DAÑ por calor. Como operador controlado, el <u>golpe final</u> también inflige <b>18</b> Tambaleo.",
           "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals Heat DMG to nearby enemies.",
+          "description_dive_es": "Un ataque básico ejecutado en el aire se convierte en un Ataque de inmersión que inflige DAÑ por calor a los enemigos cercanos.",
           "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Heat DMG and recovers some SP.",
+          "description_finisher_es": "El ataque básico realizado cerca de un enemigo Tambaleado se convierte en un ataque de remate que inflige mucho DAÑ por calor y recupera algunos PH.",
           "multipliers_max": {
             "sequence_dmg_pct": [
               68,
@@ -4625,9 +4871,11 @@
         },
         "battle_skill": {
           "name": "Thermite Tracers",
+          "name_es": "Rastreadores de termitas",
           "sp_cost": 100,
           "dmg_type": "Heat",
           "description": "Fires multiple shots at the target that deal some Heat DMG. The final shot also applies <u>Heat Infliction</u>. If the target has active <u>Combustion</u> or <u>Electrification</u>, do not apply <u>Heat Infliction</u> but instead <u>consume</u> the Arts Reaction to fire an additional shot that deals massive Heat DMG.",
+          "description_es": "Dispara múltiples tiros al objetivo que infligen algo de DAÑ por calor. El disparo final también aplica <u>Imp. de cal.</u>. Si el objetivo tiene <u>Combustión</u> o <u>Electrificación</u> activas, no aplica Imp. de cal., sino que <u>consume</u> la Reacción a Artes para disparar un tiro adicional que inflige DAÑ por calor masivo.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -4659,10 +4907,13 @@
         },
         "combo_skill": {
           "name": "Frag Grenade·β",
+          "name_es": "Granada de fragmentación·β",
           "cooldown_s": 19,
           "trigger": "When an <u>Arts Infliction</u> is applied to an enemy",
+          "trigger_es": "Cuando se aplica una <u>Imposición de artes</u> a un enemigo.",
           "dmg_type": "Heat",
           "description": "Throws a frag grenade at the target's location that explodes upon hitting the ground, dealing Heat DMG and <u>Heat Infliction</u> to nearby enemies.",
+          "description_es": "Lanza una granada de fragmentación a la ubicación del objetivo que explota al tocar el suelo, infligiendo DAÑ por calor y <u>Imp. de cal.</u> a los enemigos cercanos.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -4687,9 +4938,11 @@
         },
         "ultimate": {
           "name": "Wolven Fury",
+          "name_es": "Furia de los lobos",
           "energy_cost": 90,
           "dmg_type": "Heat",
           "description": "Fire a rapid barrage of shots and unleashes the Wolven Fury to attack nearby enemies, dealing <b>5</b> hits of Heat DMG and forcibly applying <u>Combustion</u>.",
+          "description_es": "Dispara una descarga rápida de disparos y libera la <u>Furia de los lobos</u> para atacar a los enemigos cercanos, infligiendo 5 golpes de DAÑ por calor y aplicando <u>Combustión</u> forzada.",
           "multipliers_max": [
             {
               "name": "Cooldown",
@@ -4788,12 +5041,16 @@
       "skills": {
         "basic_attack": {
           "name": "Cooldown",
+          "name_es": "Enfriamiento",
           "sequences": 5,
           "dmg_type": "Cryo",
           "final_strike_stagger": 15,
           "description": "An attack with up to <b>5</b> sequences that deals Cryo DMG. As the controlled operator, <u>Final Strike</u> also deals <b>15</b> Stagger.",
+          "description_es": "Un ataque con hasta 5 secuencias que inflige DAÑ criogénico. Como el operador controlado, el <u>Golpe final</u> también inflige <b>15</b> de Tambaleo.",
           "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals Cryo DMG to nearby enemies.",
+          "description_dive_es": "ATAQUE DE INMERSIÓN<br/>Un ataque básico ejecutado en el aire se convierte en un Ataque de inmersión que inflige DAÑ criogénico a los enemigos cercanos.",
           "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Cryo DMG and recovers some SP.",
+          "description_finisher_es": "El ataque básico realizado cerca de un enemigo Tambaleado se convierte en un ataque de remate que inflige mucho DAÑ criogénico y recupera algunos PH.",
           "multipliers_max": {
             "sequence_dmg_pct": [
               34,
@@ -4811,9 +5068,11 @@
         },
         "battle_skill": {
           "name": "Distributed DoS",
+          "name_es": "Ataque DoS Distribuido",
           "sp_cost": 100,
           "dmg_type": null,
           "description": "Summons an Auxiliary Crystal that orbits the operator for a while.<br/>When the controlled operator performs a <u>Final Strike</u> on the enemy, the Auxiliary Crystal restores the said operator's HP. This effect can trigger <b>2</b> times. The attribute of Will increases the amount of HP treatment.<br/>When the controlled operator is already at Max HP when triggering the HP restoration, grant the said operator a temporary <u>Arts Amp</u> instead. This effect cannot stack.",
+          "description_es": "Invoca un <u>Cristal auxiliar</u> que orbita alrededor del operador controlado por un momento.<br/>Después de que el operador controlado realiza un <u>Golpe final</u> sobre el enemigo, el Cristal auxiliar restaurará los PV de dicho operador. Este efecto puede activarse 2 veces. El atributo de Voluntad aumenta la cantidad de tratamiento de PV.<br/>Cuando el operador controlado ya tiene los PV Máx. al activar la recuperación de los PV, también se le otorga una <u>Amp de artes</u> temporal. Este efecto no se puede acumular.",
           "multipliers_max": [
             {
               "name": "Base Treatment",
@@ -4848,10 +5107,13 @@
         },
         "combo_skill": {
           "name": "Stress Testing",
+          "name_es": "Prueba de estrés",
           "cooldown_s": 7,
           "trigger": "When the Auxiliary Crystal uses up its HP treatments.",
+          "trigger_es": "Cuando el <u>Cristal auxiliar</u> agota sus tratamientos de PV.",
           "dmg_type": "Cryo",
           "description": "Quickly charges up the Auxiliary Crystal and launches it at the enemy to deal Cryo DMG and <u>Cryo Infliction</u>.",
+          "description_es": "Carga rápidamente el Cristal auxiliar y lo lanza al enemigo para infligir DAÑ criogénico e <u>Imposición criogénica</u>.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -4875,9 +5137,11 @@
         },
         "ultimate": {
           "name": "Stack Overflow",
+          "name_es": "Sobreacumulación",
           "energy_cost": 80,
           "dmg_type": null,
           "description": "Applies temporary <u>Cryo Amp</u> and <u>Nature Amp</u> to the entire team. The attribute of Intellect increases the Amp effect.",
+          "description_es": "Aplica <u>Amp criogénica</u> y <u>Amplificación de naturaleza</u> temporales a todo el equipo. El atributo Intelecto incrementa el efecto Amplific.",
           "multipliers_max": [
             {
               "name": "Cooldown",
@@ -4996,12 +5260,16 @@
       "skills": {
         "basic_attack": {
           "name": "Exuberant Trigger",
+          "name_es": "Desatar euforia",
           "sequences": 5,
           "dmg_type": "Cryo",
           "final_strike_stagger": 17,
           "description": "An attack with up to <b>5</b> sequences that deals Cryo DMG. As the controlled operator, <u>Final Strike</u> also deals <b>17</b> Stagger.",
+          "description_es": "Un ataque con hasta 5 secuencias que inflige DAÑ criogénico. Como el operador controlado, el <u>Golpe final</u> también inflige <b>17</b> de Tambaleo.",
           "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals Cryo DMG to nearby enemies.",
+          "description_dive_es": "ATAQUE DE INMERSIÓN<br/>Un ataque básico ejecutado en el aire se convierte en un Ataque de inmersión que inflige DAÑ criogénico a los enemigos cercanos.",
           "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Cryo DMG and recovers some SP.",
+          "description_finisher_es": "El ataque básico realizado cerca de un enemigo Tambaleado se convierte en un ataque de remate que inflige mucho DAÑ criogénico y recupera algunos PH.",
           "multipliers_max": {
             "sequence_dmg_pct": [
               53,
@@ -5019,9 +5287,11 @@
         },
         "battle_skill": {
           "name": "Brr-Brr-Bomb β",
+          "name_es": "Brr-Brr-Bomba β",
           "sp_cost": 100,
           "dmg_type": "Cryo",
           "description": "Throws a freezing bomb. The bomb explodes when it hits the enemy to deal Cryo DMG. If hitting an enemy with <u>Cryo Infliction</u> or <u>Nature Infliction</u>, then consume all <u>Arts Infliction</u> stacks, forcibly apply <u>Solidification</u>, and deal Cryo DMG to the target based on the number of stacks consumed.<br/>After the battle skill successfully applies <u>Solidification</u>, Yvonne gains additional Ultimate Energy based on the number of stacks consumed. This Ultimate Energy Gain effect can only trigger <b>1</b> time, even if the skill hits multiple enemies.",
+          "description_es": "Lanza una bomba congelante. La bomba explota al impactar contra el enemigo e inflige DAÑ criogénico. Si impacta a un enemigo con <u>Imposición criogénica</u> o <u>Imposición de naturaleza</u>, entonces <u>consume</u> todas las acumulaciones de <u>Imposición de artes</u>, aplica <u>Solidificación</u> forzada e inflige DAÑ criogénico al objetivo según la cantidad de acumulaciones <u>consumidas</u>.<br/>Después de que la habilidad de batalla aplica Solidificación con éxito, Yvonne obtiene Energía máxima adicional según la cantidad de acumulaciones consumidas. Este efecto de obtención de Energía máxima solo puede activarse 1 vez, incluso si la habilidad golpea a varios enemigos.",
           "multipliers_max": [
             {
               "name": "Base DMG Multiplier",
@@ -5063,10 +5333,13 @@
         },
         "combo_skill": {
           "name": "Flashfreezer υ37",
+          "name_es": "Supercongelador υ37",
           "cooldown_s": 18,
           "trigger": "When the controlled operator performs a <u>Final Strike</u> on an enemy with <u>Solidification</u>.",
+          "trigger_es": "Cuando el operador controlado realiza un <u>Golpe final</u> sobre un enemigo con <u>Solidificación</u>.",
           "dmg_type": "Cryo",
           "description": "Immediately deploys Frost-e-Bytee next to the enemy. While active, Frost-e-Bytee constantly releases energy to attack nearby enemies, deals Cryo DMG to them, and pulls them towards itself. After Frost-e-Bytee expires, it explodes to forcibly apply <u>Solidification</u> and deal Cryo DMG to nearby enemies.<br/>After the combo skill successfully hits the enemy, Yvonne gains additional Ultimate Energy. This Ultimate Energy Gain effect can only trigger <b>1</b> time, even if the skill hits multiple enemies.",
+          "description_es": "Despliega de inmediato a Frost-e-Bytee junto al enemigo. Mientras está activo, Frost-e-Bytee libera energía constantemente para atacar a los enemigos cercanos, les inflige DAÑ criogénico y los <u>atrae</u>. Cuando Frost-e-Bytee expira, explota para aplicar Solidificación forzada e infligir DAÑ criogénico a los enemigos cercanos.<br/>Después de que la habilidad de combo golpea al enemigo con éxito, Yvonne obtiene Energía máxima adicional. Este efecto de obtención de Energía máxima solo puede activarse 1 vez, aunque la habilidad golpee a varios enemigos.",
           "multipliers_max": [
             {
               "name": "Duration (s)",
@@ -5111,9 +5384,11 @@
         },
         "ultimate": {
           "name": "Cryoblasting Pistolier",
+          "name_es": "Pistolera criodetonante",
           "energy_cost": 220,
           "dmg_type": "Cryo",
           "description": "Immediately deploys the support bot Tink-a-Bella and makes Yvonne the controlled operator.<br/>Temporarily enhances Yvonne's basic attack (BATK). Each BATK sequence performed grants a stack of Critical Rate buff. After reaching max stacks, Yvonne also gains a Critical DMG buff. When the skill is about to end, Yvonne's last BATK becomes a <u>Final Strike</u> that deals massive Cryo DMG.<br/>If the enemy is <u>Solidified</u>, Yvonne performs an additional attack that deals Cryo DMG and then consumes the enemy's <u>Solidification</u>.",
+          "description_es": "Despliega de inmediato el bot de apoyo Tink-a-Bella y convierte a Yvonne en la operadora controlada.<br/>Temporalmente <u>mejora</u> el ataque básico (ATQB) de Yvonne. Cada secuencia de ATQB realizada otorga una acumulación de incremento de Índice crítico. Al alcanzar las acumulaciones máximas, Yvonne también obtiene un incremento de DAÑ crítico. Cuando la habilidad está por terminar, el último ATQB de Yvonne se convierte en un <u>Golpe final</u> que inflige DAÑ criogénico masivo.<br/>Si el enemigo está <u>Solidificado</u>, Yvonne realiza un ataque adicional que inflige DAÑ criogénico y luego <u>consume</u> la <u>Solidificación</u> del enemigo.",
           "multipliers_max": [
             {
               "name": "Cooldown",
@@ -5244,12 +5519,16 @@
       "skills": {
         "basic_attack": {
           "name": "Jolting Arts",
+          "name_es": "Artes de Sacudida",
           "sequences": 5,
           "dmg_type": "Electric",
           "final_strike_stagger": 18,
           "description": "An attack with up to <b>5</b> sequences that deals Electrical DMG. As the controlled operator, <u>Final Strike</u> also deals <b>18</b> Stagger.",
+          "description_es": "Un ataque con hasta 5 secuencias que inflige DAÑ eléctrico. Como operador controlado, el <u>Golpe final</u> también inflige <b>18</b> Tambaleo.",
           "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.",
+          "description_dive_es": "Un ataque básico ejecutado en el aire se convierte en un Ataque de inmersión que inflige DAÑ eléctrico a los enemigos cercanos.",
           "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Electrical DMG and recovers some SP.",
+          "description_finisher_es": "El ataque básico realizado cerca de un enemigo Tambaleado se convierte en un ataque de remate que inflige mucho DAÑ eléctrico y recupera algunos PH.",
           "multipliers_max": {
             "sequence_dmg_pct": [
               36,
@@ -5267,9 +5546,11 @@
         },
         "battle_skill": {
           "name": "Mantra of Sundering",
+          "name_es": "Mantra de Ruptura",
           "sp_cost": 100,
           "dmg_type": "Electric",
           "description": "Consumes the target's <u>Electrification</u> to increase the DMG multiplier of this battle skill and create [Status Level of <u>Electrification</u> consumed <b>+1</b>] Sunderblades. If the battlefield has fewer than <b>3</b> Sunderblades, Mantra of Sundering can still create <b>1</b> Sunderblade, even if it does not consume any target's <u>Electrification</u>.<br/>Zhuang Fangyi then channels all Sunderblades nearby to successively unleash Thunder Strikes on the target, dealing Electric DMG and giving bonus Ultimate Energy, with the final Thunder Strike dealing <b>6</b> times the DMG.<br/>A single battle skill casting can only create a max of <b>3</b> Sunderblades.",
+          "description_es": "<u>Consume</u> la <u>Electrificación</u> del objetivo para aumentar el Multiplicador de DAÑ de esta habilidad de batalla y crear [<u>Nivel de estado</u> de la Electrificación <u>consumida</u> +1] <u>Hojas de Ruptura</u>. Si el campo de batalla tiene menos de <b>3</b> Hojas de Ruptura, Mantra de Ruptura puede crear 1 <u>Hoja de Ruptura</u>, incluso si no consume ninguna carga de Electrificación del objetivo.<br/>Zhuang Fangyi canaliza todas las Hojas de Ruptura cercanas para desatar Golpes de trueno sucesivos sobre el objetivo, infligiendo DAÑ Eléctrico y otorgando Energía máxima adicional. El Golpe de trueno final inflige un daño <b>6</b> veces mayor.<br/>Un solo uso de la habilidad de batalla solo puede crear un Máx. de <b>3</b> Hojas de Ruptura.",
           "multipliers_max": [
             {
               "name": "Thunder Strike DMG Multiplier",
@@ -5318,10 +5599,13 @@
         },
         "combo_skill": {
           "name": "Breath of Transformation",
+          "name_es": "Aliento de transformación",
           "cooldown_s": 17,
           "trigger": "When the controlled operator performs a <u>Final Strike</u> or Finisher on a target with <u>Electric Infliction</u>.",
+          "trigger_es": "cuando el <u>Golpe final</u> o el remate del operador controlado impacta a un enemigo con <u>Imposición eléctrica</u>.",
           "dmg_type": "Electric",
           "description": "Zhuang Fangyi creates a Xiranblitz Array that attacks the enemy and deals Electric DMG. If the Array hits an enemy that has <u>Electric Infliction</u> stack(s), then it will consume the said  <u>Electric Infliction</u> stack(s), forcibly apply <u>Electrification</u>, and give Ultimate Energy based on the number of stacks consumed.<br/>If <u>Electrification</u> is forcibly applied to an enemy that already has <u>Electrification</u>, then apply Status Level +1 to the enemy's <u>Electrification</u>.",
+          "description_es": "Zhuang Fangyi crea una Matriz de Xiranbomba que ataca al enemigo e inflige DAÑ Eléctrico. Si la Matriz impacta a un enemigo que tiene acumulaciones de Imposición eléctrica, <u>consumirá</u> esas acumulaciones de Imposición eléctrica, aplicará <u>Electrificación</u> a la fuerza y otorgará Energía máxima en función de la cantidad de acumulaciones <u>consumidas</u>.<br/>Si Electrificación se aplica a la fuerza a un enemigo que ya tiene Electrificación, aplicará <u>Nivel de estado</u> +1 a la Electrificación del enemigo.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -5357,9 +5641,11 @@
         },
         "ultimate": {
           "name": "Smiting Tempest",
+          "name_es": "Tempestad fulminante",
           "energy_cost": 240,
           "dmg_type": "Electric",
           "description": "Transforms into the Empyrean of Truth that grants these enhancements:<br/>Zhuang Fangyi's basic attacks are enhanced and her actions are harder to interrupt;<br/>Battle skill Mantra of Sundering gains a higher DMG multiplier and an increased effect range, and the final Thunder Strike also applies <u>Electric Infliction</u> to the target hit.<br/>Combo skill Breath of Transformation gains a higher DMG multiplier, cooldown becomes <b>4</b> times faster, and effects are applied to enemies within a small area.<br/>The first casting of the battle skill Mantra of Sundering on an available target does not consume SP nor <u>Electrification</u>, and is guaranteed to create <b>3</b> Sunderblades even if the target has no <u>Electrification</u>.",
+          "description_es": "Se transforma en <u>Empíreo de la verdad</u>, lo que otorga las siguientes mejoras:<br/>Los ataques básicos de Zhuang Fangyi se potencian y sus acciones son más difíciles de interrumpir;<br/>La habilidad de batalla <u>Mantra de Ruptura</u> obtiene un mayor multiplicador de DAÑ y un alcance de efecto aumentado, y el Golpe de trueno final también aplica <u>Imposición eléctrica</u> al objetivo impactado.<br/>La habilidad de combo <u>Aliento de transformación</u> obtiene un mayor multiplicador de DAÑ, su tiempo de reutilización se vuelve <b>4</b> veces más rápido y sus efectos se aplican a enemigos en un área pequeña.<br/>El primer uso de la habilidad de batalla Mantra de Ruptura no consume PH ni <u>Electrificación</u>, y, si el objeto está disponible, la habilidad de batalla tiene garantizada la creación de 3 <u>Hojas de Ruptura</u> incluso si el objetivo no tiene Electrificación.",
           "multipliers_max": [
             {
               "name": "Cooldown",
@@ -5466,12 +5752,16 @@
       "skills": {
         "basic_attack": {
           "name": "Fistmancer of Blades",
+          "name_es": "Puñomante de cuchillas",
           "sequences": 4,
           "dmg_type": "Physical",
           "final_strike_stagger": 25,
           "description": "An attack with up to <b>4</b> sequences that deals Physical DMG. As the controlled operator, <u>Final Strike</u> also deals <b>25</b> Stagger.",
+          "description_es": "Un ataque con hasta 4 secuencias que inflige DAÑ físico. Como operador controlado, el <u>Golpe final</u> también inflige <b>25</b> Tambaleo.",
           "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.",
+          "description_dive_es": "Un ataque básico ejecutado en el aire se convierte en un Ataque de inmersión que inflige DAÑ físico a los enemigos cercanos.",
           "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+          "description_finisher_es": "El ataque básico realizado cerca de un enemigo Tambaleado se convierte en un remate que inflige mucho DAÑ físico y recupera algunos PH.",
           "multipliers_max": {
             "sequence_dmg_pct": [
               76,
@@ -5488,9 +5778,11 @@
         },
         "battle_skill": {
           "name": "Qingbo Triplex",
+          "name_es": "Tríplex de Qingbo",
           "sp_cost": 100,
           "dmg_type": "Physical",
           "description": "A 3-move rotating skill. <b>Cloudtrapper</b> (100 SP, returns 50 SP): fires a grappling chain dealing Physical DMG to the target and nearby enemies, then pulls them in. <b>Trail and Mangle</b> (50 SP): a flurry of punches dealing Physical DMG, the final punch applying <u>Crush</u>; if it consumes at least 3 <u>Vulnerability</u> stacks from one target, the next battle skill becomes World Splitter. <b>World Splitter</b> (50 SP): massive area Physical DMG dealt as <u>Crush</u> DMG.",
+          "description_es": "Sigue lanzando la habilidad de batalla de Mi Fu para desatar 3 movimientos diferentes. El primer lanzamiento de habilidad de batalla es <u>Atrapanubes</u>.<br/><u>MOVIMIENTO 1: - Atrapanubes</u>: Cuesta 100 PH y <u>devuelve</u> 50 PH después de lanzarse; Mi Fu dispara una cadena de agarre desde sus guanteletes que inflige DAÑ físico al objetivo y a los enemigos cercanos, luego intenta atraer al objetivo y a los enemigos cercanos hacia ella. Después de lanzar el MOVIMIENTO 1, la siguiente habilidad de batalla se sustituirá temporalmente por <u>Rastrear y destrozar</u>.<br/><u>MOVIMIENTO 2: - Rastrear y destrozar</u>: Cuesta 50 PH; Mi Fu desata una ráfaga de puñetazos que inflige DAÑ físico, y el golpe final aplica <u>Triturar</u>. Si este Triturar <u>consume</u> al menos 3 acumulaciones de <u>Vulnerabilidad</u> de un solo objetivo, la siguiente habilidad de batalla se sustituirá temporalmente por <u>Divisora de mundos</u>.<br/><u>MOVIMIENTO 3: - Divisora de mundos</u>: Cuesta 50 PH; Mi Fu inflige DAÑ físico masivo en un área especificada; este DAÑ no se considera DAÑ de habilidad de batalla, sino DAÑ de Triturar.",
           "multipliers_max": [
             {
               "name": "Cloudtrapper DMG Multiplier",
@@ -5525,10 +5817,13 @@
         },
         "combo_skill": {
           "name": "Fists of No Regrets",
+          "name_es": "Puños sin arrepentimientos",
           "cooldown_s": 19,
           "dmg_type": "Physical",
           "trigger": "When an enemy has <b>3</b> or more <u>Vulnerability</u> stacks.",
+          "trigger_es": "Cuando un enemigo tiene 3 o más acumulaciones de <u>Vulnerabilidad</u>.",
           "description": "Mi Fu unleashes a devastating uppercut at the enemy, dealing Physical DMG and applying temporary <u>Physical Susceptibility</u>. After casting this skill, the next battle skill is temporarily replaced with Trail and Mangle.",
+          "description_es": "Mi Fu desata un devastador gancho contra el enemigo, inflige DAÑ físico y aplica <u>Susceptibilidad física</u> temporal. Tras lanzar esta habilidad, la siguiente habilidad de batalla se reemplaza temporalmente por <u>Rastrear y destrozar</u>.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -5563,9 +5858,11 @@
         },
         "ultimate": {
           "name": "Pile of No Mercy",
+          "name_es": "Pila del desalmado",
           "energy_cost": 80,
           "dmg_type": "Physical",
           "description": "After a short power up, Mi Fu dashes forward to forcibly <u>Lift</u> a target into mid-air, then slams it down to deal Physical DMG. After casting this skill, the next battle skill is temporarily replaced with Trail and Mangle.",
+          "description_es": "Tras una breve carga de poder, Mi Fu se desplaza hacia adelante para <u>Levantar</u> a un objetivo por la fuerza en el aire, luego azota a dicho objetivo para infligir DAÑ físico. Tras lanzar esta habilidad, la siguiente habilidad de batalla se reemplaza temporalmente por <u>Rastrear y destrozar</u>.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -5665,12 +5962,16 @@
       "skills": {
         "basic_attack": {
           "name": "Sanguine Absolution",
+          "name_es": "Absolución sanguínea",
           "sequences": 5,
           "dmg_type": "Heat",
           "final_strike_stagger": 18,
           "description": "An attack with up to <b>5</b> sequences that deals Heat DMG. As the controlled operator, <u>Final Strike</u> also deals <b>18</b> Stagger.",
+          "description_es": "Un ataque con hasta 5 secuencias que inflige DAÑ por calor. Como operador controlado, el <u>Golpe final</u> también inflige <b>18</b> Tambaleo.",
           "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals Heat DMG to nearby enemies.",
+          "description_dive_es": "Un ataque básico ejecutado en el aire se convierte en un Ataque de inmersión que inflige DAÑ por calor a los enemigos cercanos.",
           "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher that deals massive Heat DMG and recovers some SP.",
+          "description_finisher_es": "El ataque básico realizado cerca de un enemigo Tambaleado se convierte en un remate que inflige mucho DAÑ por calor y recupera algunos PH.",
           "multipliers_max": {
             "sequence_dmg_pct": [
               56,
@@ -5688,9 +5989,11 @@
         },
         "battle_skill": {
           "name": "Blazing Exorcism",
+          "name_es": "Exorcismo ardiente",
           "sp_cost": 100,
           "dmg_type": "Heat",
           "description": "Camille summons <u>Firefang Vesperwings</u> that fly towards the enemy to deal Heat DMG and apply <u>Heat Infliction</u> in a small area. The Vesperwings then hover around the target, applying <u>Weakness</u> and <u>Heat Susceptibility</u> for the hover duration. When the target is defeated, the Vesperwings fly to another nearby enemy and repeat. Hitting an enemy with hovering Vesperwings via the combo skill sets off an explosion after a short delay that deals additional Heat DMG.",
+          "description_es": "Camille invoca <u>Vesperalas de colmillo ígneo</u> que vuelan hacia el enemigo para infligir DAÑ por calor y aplicar <u>Imposición de calor</u> a los enemigos en una pequeña área de efecto. Las Vesperalas de colmillo ígneo luego <u>flotan</u> temporalmente alrededor del objetivo y aplican <u>Debilidad</u> y <u>Susceptibilidad al calor</u> a dicho objetivo mientras floten. Cuando el objetivo es derrotado, las Vesperalas de colmillo ígneo vuelan hacia otro enemigo cercano, infligen DAÑ por calor y aplican Imposición de calor, Debilidad y Susceptibilidad al calor al nuevo objetivo.<br/>Golpear a un enemigo con Vesperalas de colmillo ígneo <u>flotantes</u> con la habilidad de combo de Camille provoca una explosión tras un breve retraso. Esta explosión inflige DAÑ por calor adicional.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -5731,10 +6034,13 @@
         },
         "combo_skill": {
           "name": "Heartstake Thorn",
+          "name_es": "Espina clavacorazones",
           "cooldown_s": 18,
           "trigger": "When an enemy’s Heat Infliction is consumed or absorbed.",
+          "trigger_es": "Cuando la <u>Imposición de calor</u> del enemigo se <u>consume</u> o es <u>absorbida</u>.",
           "dmg_type": "Heat",
           "description": "Performs a returning dash on the enemy, dealing Heat DMG and restoring some SP.",
+          "description_es": "Realiza un desplazamiento de regreso que inflige DAÑ por calor y recupera algo de PH.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -5775,10 +6081,12 @@
         },
         "ultimate": {
           "name": "Sanguine Downpour",
+          "name_es": "Lluvia sanguínea",
           "energy_cost": 130,
           "cooldown_s": 20,
           "dmg_type": "Heat",
           "description": "Camille flies to the sky, rains down a barrage of spears, and follows through with a sweep attack, dealing Heat DMG and applying <u>Heat Infliction</u> to target(s) hit while recovering some SP. After casting, Camille’s battle skill is temporarily transformed into <u>Hunter Pursuit</u> — treated as a combo skill that costs no SP: a dash attack that deals Heat DMG and recovers some SP.",
+          "description_es": "Camille vuela hacia el cielo, desata una lluvia de lanzas y remata con un ataque de barrido. Esto inflige DAÑ por calor y aplica <u>Imposición de calor</u> a los objetivos golpeados mientras recupera algo de PH.<br/>Después de lanzar la máxima, la habilidad de batalla de Camille se transforma temporalmente en <u>Persecución del cazador</u>.<br/>Persecución del cazador: Se considera una habilidad de combo y no cuesta PH. Es un ataque de desplazamiento que inflige DAÑ por calor y recupera algo de PH.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -5890,12 +6198,16 @@
       "skills": {
         "basic_attack": {
           "name": "Artillery Interdiction",
+          "name_es": "Interdicción de artillería",
           "sequences": 5,
           "dmg_type": "Nature",
           "final_strike_stagger": 17,
           "description": "An attack with up to <b>5</b> sequences that deals Nature DMG. As the controlled operator, <u>Final Strike</u> also deals <b>17</b> Stagger.",
+          "description_es": "Un ataque de hasta 5 secuencias que inflige DAÑ por naturaleza. Como operador controlado, <u>Golpe final</u> también inflige <b>17</b> de Tambaleo.",
           "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals Nature DMG to nearby enemies.",
+          "description_dive_es": "Un ataque básico realizado en el aire se convierte en un ataque de inmersión que inflige DAÑ por naturaleza a los enemigos cercanos.",
           "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher that deals massive Nature DMG and recovers some SP.",
+          "description_finisher_es": "Un ataque básico realizado cerca de un enemigo Tambaleado se convierte en un remate que inflige DAÑ por naturaleza masivo y recupera algo de PH.",
           "multipliers_max": {
             "sequence_dmg_pct": [
               42,
@@ -5913,9 +6225,11 @@
         },
         "battle_skill": {
           "name": "Jadecrushing Grid (Array Arcana: INT)",
+          "name_es": "Red triturajade (Array Arcana: INT)",
           "sp_cost": 100,
           "dmg_type": "Nature",
           "description": "Creates a Jadecrushing Grid that deals Nature DMG and applies <u>Nature Infliction</u> to enemies within the area of effect. <b>Array Arcana: INT</b> — Deals more DMG.",
+          "description_es": "Crea una <u>Red triturajade</u> que inflige DAÑ por naturaleza y aplica <u>Imposición de naturaleza</u> a los enemigos dentro del área de efecto.<br/><b>Arcano de matriz: INT</b> — Inflige más DAÑ.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -5934,9 +6248,11 @@
         },
         "battle_skill_will": {
           "name": "Jadecrushing Grid (Array Arcana: WILL)",
+          "name_es": "Red triturajade (Array Arcana: WILL)",
           "sp_cost": 100,
           "dmg_type": "Nature",
           "description": "Creates a Jadecrushing Grid that deals Nature DMG and applies <u>Nature Infliction</u> to enemies within the area of effect. <b>Array Arcana: WILL</b> — When dealing DMG, the array also pulls in enemies within the area of effect.",
+          "description_es": "Crea una <u>Red triturajade</u> que inflige DAÑ por naturaleza y aplica <u>Imposición de naturaleza</u> a los enemigos dentro del área de efecto.<br/><b>Arcano de matriz: VOL</b> — Al infligir DAÑ, la matriz también <u>atrae</u> a los enemigos dentro del área de efecto.",
           "multipliers_max": [
             {
               "name": "DMG Multiplier",
@@ -5955,6 +6271,7 @@
         },
         "combo_skill": {
           "name": "Yinglung Stance IV (Array Arcana: INT)",
+          "name_es": "Postura de Yinglung IV (Array Arcana: INT)",
           "cooldown_s": 20,
           "trigger": "When Nature Infliction or at least 2 stacks of non-Nature Arts Infliction are applied on an enemy.",
           "dmg_type": "Nature",
@@ -6019,6 +6336,7 @@
         },
         "combo_skill_will": {
           "name": "Yinglung Stance IV (Array Arcana: WILL)",
+          "name_es": "Postura de Yinglung IV (Array Arcana: WILL)",
           "cooldown_s": 20,
           "trigger": "When an Arts Infliction is applied on an enemy.",
           "dmg_type": "Nature",
@@ -6078,9 +6396,11 @@
         },
         "ultimate": {
           "name": "Gloompurge (Array Arcana: INT)",
+          "name_es": "Purgasombras (Array Arcana: INT)",
           "energy_cost": 100,
           "dmg_type": "Nature",
           "description": "Arcane creates a <u>Gloompurger Array</u> that immediately deals Nature DMG to enemies within the area of effect (AOE). When hitting an enemy within the Gloompurger Array with a Finisher or a Final Strike performed by the controlled operator, the Gloompurger Array unleashes a <u>Cluster Strike</u> that deals Area DMG to the said enemy, up to <b>2</b> times. After triggering Cluster Strike 2 times, the ultimate is switched to <u>Gloompurge Arcana</u>: deals Nature DMG to enemies within a large AOE. <b>Array Arcana: INT</b> — When created, the Gloompurger Array also forcibly applies <u>Corrosion</u> to enemies in the AOE.",
+          "description_es": "Arcane crea una <u>Matriz de purgasombras</u> que inflige inmediatamente DAÑ por naturaleza a los enemigos dentro del área de efecto (ADE).<br/>Al golpear a un enemigo dentro de la Matriz de purgasombras con un Remate o un <u>Golpe final</u> ejecutado por el operador controlado, la Matriz de purgasombras desata un <u>Ataque de racimo</u> que inflige DAÑ de área a dicho enemigo. Este efecto se activa hasta 2 veces.<br/>Después de activar Ataque de racimo 2 veces, la máxima cambia a <u>Arcano de purgasombras</u>.<br/>Arcano de purgasombras: Inflige DAÑ por naturaleza a los enemigos dentro de un ADE grande.<br/><b>Arcano de matriz: INT</b> — Al crearse, la Matriz de purgasombras también aplica <u>Corrosión</u> forzada a los enemigos en el ADE.",
           "multipliers_max": [
             {
               "name": "Gloompurger Array Creation DMG Multiplier",
@@ -6124,9 +6444,11 @@
         },
         "ultimate_will": {
           "name": "Gloompurge (Array Arcana: WILL)",
+          "name_es": "Purgasombras (Array Arcana: WILL)",
           "energy_cost": 100,
           "dmg_type": "Nature",
           "description": "Arcane creates a <u>Gloompurger Array</u> that immediately deals Nature DMG to enemies within the area of effect (AOE). When hitting an enemy within the Gloompurger Array with a Finisher or a Final Strike performed by the controlled operator, the Gloompurger Array unleashes a <u>Cluster Strike</u> that deals Area DMG to the said enemy, up to <b>2</b> times. After triggering Cluster Strike 2 times, the ultimate is switched to <u>Gloompurge Arcana</u>: deals Nature DMG to enemies within a large AOE. <b>Array Arcana: WILL</b> — When created, the Gloompurger Array also targets enemies with Arts Infliction within its AOE, and applies another Arts Infliction stack of the same element to them.",
+          "description_es": "Arcane crea una <u>Matriz de purgasombras</u> que inflige inmediatamente DAÑ por naturaleza a los enemigos dentro del área de efecto (ADE).<br/>Al golpear a un enemigo dentro de la Matriz de purgasombras con un Remate o un <u>Golpe final</u> ejecutado por el operador controlado, la Matriz de purgasombras desata un <u>Ataque de racimo</u> que inflige DAÑ de área a dicho enemigo. Este efecto se activa hasta 2 veces.<br/>Después de activar Ataque de racimo 2 veces, la máxima cambia a <u>Arcano de purgasombras</u>.<br/>Arcano de purgasombras: Inflige DAÑ por naturaleza a los enemigos dentro de un ADE grande.<br/><b>Arcano de matriz: VOL</b> — Al crearse, la Matriz de purgasombras también selecciona como objetivo a los enemigos con <u>Imposición de artes</u> dentro de su ADE y les aplica otra acumulación de Imposición de artes del mismo elemento.",
           "multipliers_max": [
             {
               "name": "Gloompurger Array Creation DMG Multiplier",
@@ -6223,7 +6545,282 @@
       "class": "Supporter",
       "element": "Electric",
       "weapon_type": "Polearm",
-      "data_pending": true
+      "primary_attribute": "Will",
+      "secondary_attribute": "Agility",
+      "stats_lv90": {
+        "hp": 5495,
+        "atk": 309,
+        "strength": 89,
+        "agility": 121,
+        "intellect": 91,
+        "will": 177
+      },
+      "skills": {
+        "basic_attack": {
+          "name": "Starry Heart Throb",
+          "name_es": "Latido estelar",
+          "sequences": 5,
+          "dmg_type": "Electric",
+          "final_strike_stagger": 19,
+          "description": "An attack with up to <b>5</b> sequences that deals Electric DMG. As the controlled operator, <u>Final Strike</u> also deals <b>19</b> Stagger.",
+          "description_es": "Un ataque de hasta 5 secuencias que inflige DAÑ eléctrico. Como operador controlado, <u>Golpe final</u> también inflige <b>19</b> de Tambaleo.",
+          "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals Electric DMG to nearby enemies.",
+          "description_dive_es": "Un ataque básico realizado en el aire se convierte en un ataque de inmersión que inflige DAÑ eléctrico a los enemigos cercanos.",
+          "description_finisher": "Basic attack performed near a <u>Staggered</u> enemy becomes a finisher that deals massive Electric DMG and recovers some SP.",
+          "description_finisher_es": "Un ataque básico realizado cerca de un enemigo Tambaleado se convierte en un remate que inflige DAÑ eléctrico masivo y recupera algo de PH.",
+          "multipliers_max": {
+            "sequence_dmg_pct": [
+              42,
+              60,
+              60,
+              81,
+              100
+            ],
+            "dive_dmg_pct": 180,
+            "finisher_dmg_pct": 900
+          },
+          "effects": [
+            "Final Strike"
+          ]
+        },
+        "battle_skill": {
+          "name": "Dazzling Focus",
+          "name_es": "Enfoque deslumbrante",
+          "sp_cost": 25,
+          "dmg_type": "Electric",
+          "description": "Liino deals Electric DMG to enemies and then enters her <u>Vocalist Stance</u>. While this stance is active, if there are enemies nearby, Liino will perform an <u>Additional ATK</u> (that deals Electric DMG to enemies) on a regular basis. Vocalist Stance: While this stance is active, Liino grants the entire team an <u>ATK Boost</u>. After entering battle, Liino will also grant continuous <u>HP Treatment</u> to operators within range. During Vocalist Stance, her battle skill is replaced with <u>End Stance</u>. Casting this will end her Vocalist Stance early without consuming any SP, after which the battle skill will enter a short cooldown.",
+          "description_es": "Liino inflige DAÑ eléctrico a los enemigos y luego entra en su <u>Postura de vocalista</u>. Mientras esta postura está activa, si hay enemigos cerca, Liino realizará un ATQ adicional que inflige DAÑ eléctrico a los enemigos periódicamente.<br/>Postura de vocalista: Mientras esta postura está activa, Liino otorga un Refuerzo de ATQ a todo el equipo. Tras entrar en combate, Liino también otorgará Tratamiento de PV continuo a los operadores dentro del alcance.<br/>Durante la Postura de vocalista, su habilidad de batalla se reemplaza por Postura final. Al lanzar esta habilidad, la Postura de vocalista terminará antes de tiempo sin consumir PH, después la habilidad de batalla entrará en un breve tiempo de enfriamiento.",
+          "multipliers_max": [
+            {
+              "name": "First ATK Multiplier",
+              "value": 240,
+              "formatted": "240%"
+            },
+            {
+              "name": "Additional ATK DMG Multiplier",
+              "value": 120,
+              "formatted": "120%"
+            },
+            {
+              "name": "Additional ATK Interval (s)",
+              "value": 10,
+              "formatted": "10"
+            },
+            {
+              "name": "Beat Interval (s)",
+              "value": 3,
+              "formatted": "3"
+            },
+            {
+              "name": "Vocalist Stance Duration (s)",
+              "value": 60,
+              "formatted": "60"
+            },
+            {
+              "name": "ATK Boost",
+              "value": 10,
+              "formatted": "10%"
+            },
+            {
+              "name": "Base Treatment",
+              "value": 41,
+              "formatted": "41"
+            },
+            {
+              "name": "Treatment Increase per Agility",
+              "value": 0.09,
+              "formatted": "0.09"
+            },
+            {
+              "name": "Stagger",
+              "value": 3,
+              "formatted": "3"
+            }
+          ],
+          "effects": [
+            "ATK Boost",
+            "HP Treatment",
+            "Vocalist Stance"
+          ]
+        },
+        "combo_skill": {
+          "name": "Delightful Harmonics",
+          "name_es": "Armónicos deleitables",
+          "cooldown_s": 8,
+          "trigger": "While <u>Vocalist Stance</u> is active, an <u>Arts Reaction</u> is consumed or is applied on an enemy.",
+          "trigger_es": "Mientras <u>Postura de vocalista</u> está activa, se <u>consume</u> una <u>Reacción a artes</u> o se aplica una a un enemigo.",
+          "dmg_type": "Electric",
+          "description": "Liino deals Electric DMG to enemies, grants <u>HP Treatment</u> to the controlled operator, and gains additional Ultimate Energy. Casting the combo skill Delightful Harmonics does not interrupt <u>Vocalist Stance</u>.",
+          "description_es": "Liino inflige DAÑ eléctrico a los enemigos, otorga Tratamiento de PV al operador controlado y obtiene Energía máxima adicional.<br/>Lanzar la habilidad de combo <u>Armónicos deleitables</u> no interrumpe Postura de vocalista.",
+          "multipliers_max": [
+            {
+              "name": "DMG Multiplier",
+              "value": 360,
+              "formatted": "360%"
+            },
+            {
+              "name": "Stagger",
+              "value": 5,
+              "formatted": "5"
+            },
+            {
+              "name": "Ultimate Energy Gain",
+              "value": 20,
+              "formatted": "20"
+            },
+            {
+              "name": "Base Treatment",
+              "value": 162,
+              "formatted": "162"
+            },
+            {
+              "name": "Treatment Increase per Agility",
+              "value": 0.38,
+              "formatted": "0.38"
+            }
+          ],
+          "effects": [
+            "HP Treatment"
+          ]
+        },
+        "ultimate": {
+          "name": "Dawnstar Concerto",
+          "name_es": "Concierto de Estrella del amanecer",
+          "energy_cost": 160,
+          "dmg_type": "Electric",
+          "description": "Liino grants <u>HP Treatment</u> to the entire team, enters her <u>Cosmovoice Stance</u> at the same time, unleashes a continuous display of <u>Stage Pyrotechnics</u> that deals Electric DMG, and then triggers an <u>Electrifying Extravaganza</u> that deals Electric DMG and forcibly applies <u>Electrification</u> to enemies in a large area of effect (AOE). Cosmovoice Stance: This stance replaces Liino's <u>Vocalist Stance</u>. While active, the stance grants the entire team <u>Electric Amp</u> and <u>Nature Amp</u> (effects are further increased by the attribute of Will) as well as an <u>ATK Boost</u>. The beats of Liino's song also deal Electric DMG to enemies in the AOE and grant continuous HP Treatment to allied operators in the AOE. When the stance ends, deals <b>3</b> times the DMG from a single beat to enemies in the AOE, and grants <b>3</b> times the HP treatment from a single beat to the entire team. This effect does not trigger if the stance is ended early. During the stance, her battle skill is replaced with <u>End Stance</u>. Casting the battle skill during Cosmovoice Stance ends it early and does not consume any SP.",
+          "description_es": "Liino otorga Tratamiento de PV a todo el equipo, entra al mismo tiempo en su <u>Postura de cosmovoz</u>, desata un espectáculo continuo de Pirotecnia escénica que inflige DAÑ eléctrico y luego activa una <u>Extravaganza electrizante</u> que inflige DAÑ eléctrico y aplica <u>Electrificación</u> forzada a los enemigos en un área de efecto (ADE) grande.<br/>Postura de cosmovoz: Esta postura reemplaza la <u>Postura de vocalista</u> de Liino. Mientras está activa, la postura otorga a todo el equipo <u>Amp eléctrica</u> y <u>Amp de naturaleza</u> (los efectos también aumentan más por el atributo Voluntad), además de un Refuerzo de ATQ. Los pulsos de la canción de Liino también infligen DAÑ eléctrico a los enemigos en el ADE y otorgan Tratamiento de PV continuo a los operadores aliados en el ADE. Cuando la postura termina, inflige a los enemigos en el ADE 3 veces el DAÑ de un solo pulso y otorga a todo el equipo 3 veces el Tratamiento de PV de un solo pulso. Este efecto no se activa si la postura termina antes de tiempo.<br/>Durante la postura, su habilidad de batalla se reemplaza por Postura final. Lanzar la habilidad de batalla durante la Postura de cosmovoz la termina antes de tiempo y no consume ningún PH.",
+          "multipliers_max": [
+            {
+              "name": "Stage Pyrotechnics DMG Multiplier",
+              "value": 320,
+              "formatted": "320%"
+            },
+            {
+              "name": "Electrifying Extravaganza DMG Multiplier",
+              "value": 640,
+              "formatted": "640%"
+            },
+            {
+              "name": "ATK Boost",
+              "value": 10,
+              "formatted": "10%"
+            },
+            {
+              "name": "Amp Increase per Will",
+              "value": 0.04,
+              "formatted": "0.04%"
+            },
+            {
+              "name": "MAX Amp from Will",
+              "value": 60,
+              "formatted": "60%"
+            },
+            {
+              "name": "Base Treatment for 1st Treatment",
+              "value": 729,
+              "formatted": "729"
+            },
+            {
+              "name": "Treatment Increase per Agility (1st)",
+              "value": 1.7,
+              "formatted": "1.7"
+            },
+            {
+              "name": "DMG Multiplier per Beat",
+              "value": 60,
+              "formatted": "60%"
+            },
+            {
+              "name": "Base Treatment per Beat",
+              "value": 81,
+              "formatted": "81"
+            },
+            {
+              "name": "Treatment Increase per Agility (beat)",
+              "value": 0.19,
+              "formatted": "0.19"
+            },
+            {
+              "name": "Beat Interval (s)",
+              "value": 1.5,
+              "formatted": "1.5"
+            },
+            {
+              "name": "Cosmovoice Stance Duration (s)",
+              "value": 15,
+              "formatted": "15"
+            },
+            {
+              "name": "Electrifying Extravaganza Stagger",
+              "value": 20,
+              "formatted": "20"
+            }
+          ],
+          "effects": [
+            "Electric Amp",
+            "Nature Amp",
+            "ATK Boost",
+            "HP Treatment",
+            "Electrification",
+            "Cosmovoice Stance"
+          ]
+        }
+      },
+      "talents": [
+        {
+          "name": "Idol Zone",
+          "description": "During <u>Vocalist Stance</u> or <u>Cosmovoice Stance</u>, operators within the area of effect (AOE) gain <u>Treatment Received Bonus</u> +<b>10</b>% and DMG Taken -<b>10</b>%. These effects persist for <b>3</b>s after leaving the AOE.",
+          "effects": [
+            "Treatment Received Bonus",
+            "DMG Taken"
+          ]
+        },
+        {
+          "name": "Starry Boost of 1st Magnitude",
+          "description": "For <b>30</b>s after casting Liino's combo skill Delightful Harmonics, casting a battle skill of an Electric or Nature operator returns <b>5</b> SP. This effect cannot stack and ends after triggering.",
+          "effects": [
+            "SP Recovery"
+          ]
+        }
+      ],
+      "base_talents": [
+        {
+          "name": "Idol Passion",
+          "description": "Assign to Reception Room to slow Mood Drop of all operators in it by <b>14</b>/<b>18</b>%."
+        },
+        {
+          "name": "Stage Vibe That Lingers",
+          "description": "Assign to Control Nexus to grant all operators' Mood Regen +<b>12</b>%."
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Flawless Stage Work",
+          "description": "After entering battle without her <u>Vocalist Stance</u> active, the first casting of the battle skill Dazzling Focus returns <b>25</b> additional SP. Effects of <u>ATK Boost</u> granted by Vocalist Stance and <u>Cosmovoice Stance</u> are increased by +<b>6</b>%.",
+          "effects": []
+        },
+        {
+          "name": "Committed Rehearsals",
+          "description": "Will +<b>20</b>, <u>Treatment Efficiency</u> +<b>10</b>%.",
+          "effects": []
+        },
+        {
+          "name": "Longing for the Horizon",
+          "description": "Combo skill Delightful Harmonics improved: Length of cooldown -<b>1</b>s. DMG Multiplier and <u>HP Treatment</u> are increased to <b>1.4</b> times the original.",
+          "effects": []
+        },
+        {
+          "name": "Meteoric Rhythm",
+          "description": "Ultimate Dawnstar Concerto improved: Ultimate Energy cost -<b>15</b>%.",
+          "effects": []
+        },
+        {
+          "name": "Heart-Whipping Q&A",
+          "description": "Amp effect of Dawnstar Concerto is increased to <b>1.2</b> times the original. DMG Multipliers of battle skill Dazzling Focus and ultimate Dawnstar Concerto are increased to <b>1.2</b> times the original.",
+          "effects": []
+        }
+      ]
     }
   }
 }
