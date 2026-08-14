@@ -640,6 +640,18 @@
    "exclude": [
     "Bonus DMG Multiplier"
    ]
+  },
+  "liino": {
+   "comboTrigger": {
+    "raw": "While Vocalist Stance is active, an Arts Reaction is consumed or is applied on an enemy.",
+    "reaction": true,
+    "onConsume": [
+     "combustion",
+     "electrification",
+     "solidification",
+     "corrosion"
+    ]
+   }
   }
  }
 }

@@ -91,33 +91,96 @@
       "cover": "assets/events/heat-rage-banner.webp",
       "accent": "#6d5ce6",
       "startsAt": "2026-07-30T04:00:00Z",
-      "endsAt": "2026-08-12T16:59:00Z",
-      "kicker": { "es": "Evento de combate · 1.4", "en": "Combat event · 1.4" },
+      "endsAt": "2026-08-12T20:00:00Z",
+      "kicker": { "es": "Evento de desafío · 1.4", "en": "Challenge event · 1.4" },
       "title": { "es": "¡FURIA ARDIENTE! ¡MEGA ARENA!", "en": "HEAT RAGE! MEGA ARENA!", "jp": "燃えよ！アリーナ！" },
       "difficulty": "Duo",
       "summary": {
-        "es": "El evento de combate de la segunda mitad de la 1.4, con una regla que lo cambia todo: equipos de máximo 2 operadores. Las etapas traen mejoras pensadas para dúos, así que es la excusa para probar parejas que en el combate normal quedan tapadas.",
-        "en": "The combat event of 1.4's second half, with one rule that changes everything: teams of at most 2 operators. Stages come with duo-minded boosts, so it's the excuse to try pairs that standard combat keeps buried."
+        "es": "Ocho etapas de combate con una regla que lo cambia todo: llevas dos operadores como máximo. Cada etapa se juega en Normal y en MAXED, y las mejoras de la arena están hechas para que un dúo aguante el ritmo. Es la excusa para sacar parejas que en el equipo de cuatro quedan tapadas.",
+        "en": "Eight combat stages with one rule that changes everything: you bring two operators at most. Every stage runs on Normal and on MAXED, and the arena's boosts exist so a duo can keep up. It's the excuse to field pairs that a four-operator team keeps buried."
       },
-      "tags": ["limited", "2-operator teams", "duo buffs"],
+      "tags": ["limited", "2-operator teams", "MAXED", "medal"],
       "blocks": [
         { "type": "hero",
           "banner": "assets/events/heat-rage-banner.webp",
           "meta": [
-            { "k": { "es": "Tipo", "en": "Type", "jp": "分類", "zh": "类别" }, "v": { "es": "Evento de combate", "en": "Combat event" } },
-            { "k": { "es": "Fechas", "en": "Dates" }, "v": { "es": "30 jul – 12 ago 2026", "en": "Jul 30 – Aug 12, 2026" } },
+            { "k": { "es": "Tipo", "en": "Type" }, "v": { "es": "Evento de desafío", "en": "Challenge event" } },
+            { "k": { "es": "Fechas", "en": "Dates" }, "v": { "es": "30 jul – 13 ago 2026", "en": "Jul 30 – Aug 13, 2026" } },
             { "k": { "es": "Equipo", "en": "Team" }, "v": { "es": "Máx. 2 operadores", "en": "Max 2 operators" } },
-            { "k": { "es": "Estado", "en": "Status", "jp": "状態", "zh": "状态" }, "v": { "es": "Anunciado", "en": "Announced" } }
+            { "k": { "es": "Etapas", "en": "Stages" }, "v": { "es": "8, en Normal y MAXED", "en": "8, on Normal and MAXED" } }
           ]
         },
-        { "type": "lead", "body": {
-          "es": "Las etapas se juegan con dos operadores como mucho, y vienen con mejoras pensadas para eso: más recuperación de SP, menos enfriamiento de Combo Skill y mejor eficiencia de energía de Ultimate. Si no sabes qué pareja llevar, el evento trae equipos predefinidos. La idea es sacar a pasear sinergias de a dos que el equipo de cuatro suele tapar.",
-          "en": "Stages run with two operators at most, and they come with boosts built for that: more SP recovery, shorter Combo Skill cooldowns and better Ultimate energy efficiency. If you're not sure which pair to field, the event ships preset teams. The point is airing out two-operator synergies that a four-operator squad usually buries."
-        } },
-        { "type": "callout", "variant": "tip", "h": { "es": "Ficha corta a propósito", "en": "Short on purpose" },
+        { "type": "lead",
           "body": {
-            "es": "El evento aún NO ha abierto: esto es lo que se anunció del programa de la versión, ni más ni menos. Las mejoras exactas, las etapas y las parejas que de verdad funcionan entran aquí cuando se pueda jugar y comprobar.",
-            "en": "The event has NOT opened yet: this is what the version program announced, no more and no less. The exact boosts, the stages and the pairs that actually work land here once it's playable and can be checked."
+            "es": "Las ocho etapas salen escalonadas: las tres primeras el día que abre y una más cada día a las 04:00 de tu servidor. Cada una se despacha primero en Normal, y al superarla se abre su MAXED, que es la misma etapa con los enemigos mucho más fuertes. Las mejoras de la arena van por tramos y cambian bastante lo que conviene llevar.",
+            "en": "The eight stages arrive staggered: the first three on opening day and one more each day at 04:00 server time. You clear each one on Normal first, and beating it opens its MAXED version, which is the same stage with far stronger enemies. The arena's boosts come in tiers and change quite a lot about what's worth bringing."
+          }
+        },
+        { "type": "pillars",
+          "h": { "es": "Las mejoras, por tramo", "en": "The boosts, by tier" },
+          "items": [
+            { "icon": "1", "h": { "es": "Etapas 1-3 · Vulnerability gratis", "en": "Stages 1-3 · Free Vulnerability" },
+              "body": { "es": "El Golpe final de cada operador controlado aplica 1 stack de Vulnerability. Los equipos Physical que viven del Crush salen ganando: los stacks llegan solos.", "en": "Each controlled operator's Final Strike applies 1 Vulnerability stack. Physical teams that live off Crush come out ahead: the stacks arrive on their own." } },
+            { "icon": "2", "h": { "es": "Etapas 4-6 · Inflicción doble", "en": "Stages 4-6 · Double infliction" },
+              "body": { "es": "Cada vez que un operador aplica una inflicción Arts, se añade otro stack del mismo elemento. Llegas al umbral de reacción en la mitad de golpes.", "en": "Every time an operator applies an Arts Infliction, another stack of the same element is added. You hit the reaction threshold in half the hits." } },
+            { "icon": "3", "h": { "es": "Etapas 7-8 · Reacción por SP", "en": "Stages 7-8 · Reactions pay SP" },
+              "body": { "es": "Aplicar o consumir una reacción Arts te devuelve SP al instante. Los dúos de dos elementos distintos encadenan skills casi sin pausa.", "en": "Applying or consuming an Arts Reaction returns SP instantly. Duos of two different elements chain skills with barely a pause." } }
+          ]
+        },
+        { "type": "meta",
+          "h": { "es": "Las ocho etapas", "en": "The eight stages" },
+          "body": {
+            "es": "Las tres primeras están desde el día 1; a partir del día 2 se suma una cada día a las 04:00 de tu servidor. El orden es el mismo para todos.",
+            "en": "The first three are there from day 1; from day 2 onward one more is added each day at 04:00 server time. The order is the same for everyone."
+          },
+          "points": [
+            { "es": "1 · Start It Up! The Great Arena!", "en": "1 · Start It Up! The Great Arena!" },
+            { "es": "2 · Here Comes! Host of Aggeloi!", "en": "2 · Here Comes! Host of Aggeloi!" },
+            { "es": "3 · Unholy! Breakers and Buggers!", "en": "3 · Unholy! Breakers and Buggers!" },
+            { "es": "4 · Incoming! Unexpected Enemies!", "en": "4 · Incoming! Unexpected Enemies!" },
+            { "es": "5 · War Band! Heroes of the Stockade!", "en": "5 · War Band! Heroes of the Stockade!" },
+            { "es": "6 · Tactics! Beat Their Beastmasters!", "en": "6 · Tactics! Beat Their Beastmasters!" },
+            { "es": "7 · What?! Why Are There Beasts?!", "en": "7 · What?! Why Are There Beasts?!" },
+            { "es": "8 · Chaos! Total Carnage!", "en": "8 · Chaos! Total Carnage!" }
+          ]
+        },
+        { "type": "awards",
+          "h": { "es": "Lo que te llevas", "en": "What you take home" },
+          "note": {
+            "es": "La medalla y el marco solo se consiguen mientras el evento está abierto.",
+            "en": "The medal and the frame are only obtainable while the event is open."
+          },
+          "items": [
+            { "img": "assets/events/nocturnal-tactics-medal.webp",
+              "name": { "es": "Medalla · Nocturnal Tactics", "en": "Medal · Nocturnal Tactics" },
+              "how": { "es": "Completa las ocho etapas en Normal.", "en": "Clear all eight stages on Normal." } },
+            { "img": "assets/events/nocturnal-tactics-medal-trim.webp",
+              "name": { "es": "Medalla grabada (trim)", "en": "Trimmed medal" },
+              "how": { "es": "Completa las ocho en MAXED y, además, cualquiera de estas tres en menos de 180 s: Unholy! Breakers and Buggers!, Tactics! Beat Their Beastmasters! o Chaos! Total Carnage!", "en": "Clear all eight on MAXED and, on top of that, any one of these three in under 180s: Unholy! Breakers and Buggers!, Tactics! Beat Their Beastmasters! or Chaos! Total Carnage!" } },
+            { "img": "assets/events/heat-ragers-frame.webp",
+              "name": { "es": "Marco · Heat Ragers' Party", "en": "Frame · Heat Ragers' Party" },
+              "how": { "es": "Completa cuatro etapas en Normal. Cae junto a 3 Mark of Perseverance.", "en": "Clear four stages on Normal. It comes with 3 Mark of Perseverance." } }
+          ]
+        },
+        { "type": "meta",
+          "h": { "es": "Recompensas", "en": "Rewards" },
+          "body": {
+            "es": "El Oroberyl entero se asegura en Normal: MAXED paga en materiales, no en gemas.",
+            "en": "The whole Oroberyl haul is locked in on Normal: MAXED pays in materials, not gems."
+          },
+          "points": [
+            { "es": "1200 Oroberyl en total, a 150 por etapa superada en Normal.", "en": "1200 Oroberyl in total, at 150 per stage cleared on Normal." },
+            { "es": "Normal también suelta Combat Records, Protodisk, cajas de progresión, T-Creds y Cognitive Carrier.", "en": "Normal also drops Combat Records, Protodisks, progression crates, T-Creds and Cognitive Carriers." },
+            { "es": "Cada MAXED paga 20 000 T-Creds más Protohedron o cajas de selección.", "en": "Each MAXED pays 20,000 T-Creds plus Protohedrons or selection crates." },
+            { "es": "Las misiones del evento dan 3 Mark of Perseverance a las cuatro etapas y otras 3 al completar las ocho.", "en": "Event missions give 3 Mark of Perseverance at four stages and another 3 for completing all eight." }
+          ]
+        },
+        { "type": "callout",
+          "variant": "tip",
+          "h": { "es": "Si vas por el trim", "en": "If you're going for the trim" },
+          "body": {
+            "es": "Los 180 s solo se piden en UNA de las tres etapas marcadas, así que elige la que mejor le venga a tu dúo en vez de pelear con las tres. Y ojo con el tramo 4-6: ahí la inflicción se duplica sola, así que un dúo de dos elementos distintos revienta el umbral de reacción mucho antes de lo normal.",
+            "en": "The 180s are only asked on ONE of the three marked stages, so pick whichever suits your duo instead of fighting all three. And mind the 4-6 tier: infliction doubles itself there, so a duo of two different elements blows past the reaction threshold much sooner than usual."
           }
         }
       ]
@@ -125,34 +188,84 @@
     {
       "id": "the-rooted-realm",
       "cover": "assets/events/rooted-realm-banner.webp",
-      "accent": "#3cbed8",
+      "accent": "#e0a92b",
       "startsAt": "2026-08-09T04:00:00Z",
-      "kicker": { "es": "Evento de diversión y juegos · 1.4", "en": "Fun & Games event · 1.4" },
-      "title": { "es": "El Reino Arraigado", "en": "The Rooted Realm", "jp": "根脈奇景", "zh": "根脉奇境" },
+      "endsAt": "2026-09-01T22:00:00Z",
+      "kicker": { "es": "Evento de diversión · 1.4", "en": "Fun & games event · 1.4" },
+      "title": { "es": "EL REINO ARRAIGADO", "en": "THE ROOTED REALM", "jp": "根付く領域" },
       "difficulty": "Parkour",
       "summary": {
-        "es": "El evento de diversión y juegos de la segunda mitad de la 1.4: controlas a un solo operador y recorres rutas y cámaras recogiendo fragmentos contrarreloj. Hay portales a zonas de combate con mecánicas propias, y ahí sí entras con equipo de cuatro.",
-        "en": "The fun-and-games event of 1.4's second half: you control a single operator and run routes and chambers collecting fragments against the clock. Portals drop you into combat zones with their own mechanics, and those do take a four-operator team."
+        "es": "Un Protocol Space de recorrido y recolección: juntas Aurylene Fragments por rutas y cámaras, y cada fragmento suma puntos en una pista de recompensas. Es el evento ligero de la versión, con combate solo en las cámaras que lo piden.",
+        "en": "A Protocol Space about routes and collecting: you gather Aurylene Fragments through routes and chambers, and every fragment adds points to a reward track. It's the version's light event, with combat only in the chambers that ask for it."
       },
-      "tags": ["limited", "parkour", "single operator", "points"],
+      "tags": ["limited", "exploration", "Journey Points", "medal"],
       "blocks": [
         { "type": "hero",
           "banner": "assets/events/rooted-realm-banner.webp",
           "meta": [
-            { "k": { "es": "Tipo", "en": "Type", "jp": "分類", "zh": "类别" }, "v": { "es": "Diversión y juegos", "en": "Fun & Games" } },
-            { "k": { "es": "Empieza", "en": "Starts" }, "v": { "es": "9 ago 2026", "en": "Aug 9, 2026" } },
-            { "k": { "es": "Equipo", "en": "Team" }, "v": { "es": "1 operador (4 en combate)", "en": "1 operator (4 in combat)" } },
-            { "k": { "es": "Estado", "en": "Status", "jp": "状態", "zh": "状态" }, "v": { "es": "Anunciado", "en": "Announced" } }
+            { "k": { "es": "Tipo", "en": "Type" }, "v": { "es": "Diversión y juegos", "en": "Fun & games" } },
+            { "k": { "es": "Fechas", "en": "Dates" }, "v": { "es": "9 ago – 1/2 sep 2026", "en": "Aug 9 – Sep 1/2, 2026" } },
+            { "k": { "es": "Etapas", "en": "Stages" }, "v": { "es": "3 al abrir, 6 desde el 15 ago", "en": "3 at launch, 6 from Aug 15" } },
+            { "k": { "es": "Requisito", "en": "Requirement" }, "v": { "es": "Cap. I, proceso II", "en": "Ch. I, Process II" } }
           ]
         },
-        { "type": "lead", "body": {
-          "es": "Controlas a un solo operador y recorres rutas y cámaras recogiendo fragmentos contrarreloj, con imanes y multiplicadores por el camino y rutas ocultas si te sales del guion. Algunos portales te meten en zonas de combate con mecánicas únicas, y ahí entras con equipo de cuatro. Arranca con 3 etapas y llega a 6 durante el evento; todo lo que recoges se convierte en puntos canjeables y una medalla grabada.",
-          "en": "You control a single operator and run routes and chambers collecting fragments against the clock, with magnets and multipliers along the way and hidden routes if you go off-script. Some portals drop you into combat zones with unique mechanics, and those you enter with a four-operator team. It starts with 3 stages and grows to 6 during the event; everything you collect turns into redeemable points and an engraved medal."
-        } },
-        { "type": "callout", "variant": "tip", "h": { "es": "Ficha corta a propósito", "en": "Short on purpose" },
+        { "type": "lead",
           "body": {
-            "es": "El evento aún NO ha abierto: esto es lo que se anunció del programa de la versión. La fecha de cierre y las etapas concretas entran cuando se pueda jugar y comprobar.",
-            "en": "The event has NOT opened yet: this is what the version program announced. The closing date and the actual stages land here once it's playable and can be checked."
+            "es": "Entras al Protocol Space y recorres rutas y cámaras recogiendo Aurylene Fragments. Todo lo que juntas se convierte en Journey Points, y esos puntos son los que van abriendo la pista de recompensas: el evento no tiene tienda ni moneda que gastar, es una barra que sube. Abre con tres etapas y el 15 de agosto se destraban las seis.",
+            "en": "You enter the Protocol Space and run routes and chambers picking up Aurylene Fragments. Everything you gather turns into Journey Points, and those points are what open the reward track: the event has no shop and no currency to spend, it's a bar that fills. It opens with three stages and on August 15 all six unlock."
+          }
+        },
+        { "type": "meta",
+          "h": { "es": "Realm Quests", "en": "Realm Quests" },
+          "body": {
+            "es": "Seis tareas que dan 100 Journey Points cada una. Se completan en fase 2, cuando están las seis etapas, y son también la condición para grabar la medalla.",
+            "en": "Six tasks worth 100 Journey Points each. They're completed in phase 2, once all six stages are up, and they're also the condition for trimming the medal."
+          },
+          "points": [
+            { "es": "Completa la cámara Mister Punching Bag.", "en": "Complete the Mister Punching Bag chamber." },
+            { "es": "Recoge 200 fragmentos en una sola exploración.", "en": "Collect 200 fragments in a single exploration." },
+            { "es": "Recoge 50 fragmentos en una sola cámara.", "en": "Collect 50 fragments in a single chamber." },
+            { "es": "Recoge 50 fragmentos en una sola ruta.", "en": "Collect 50 fragments in a single route." },
+            { "es": "Rompe cajas de madera 25 veces.", "en": "Smash wooden crates 25 times." },
+            { "es": "Activa interruptores de presión 25 veces.", "en": "Trigger pressure switches 25 times." }
+          ]
+        },
+        { "type": "awards",
+          "h": { "es": "Lo que te llevas", "en": "What you take home" },
+          "note": {
+            "es": "La medalla solo se consigue mientras el evento está abierto.",
+            "en": "The medal is only obtainable while the event is open."
+          },
+          "items": [
+            { "img": "assets/events/explorer-realm-medal.webp",
+              "name": { "es": "Medalla · Explorer of the Realm", "en": "Medal · Explorer of the Realm" },
+              "how": { "es": "Completa una vez la cámara Shower of Coins en la fase 2.", "en": "Complete the Shower of Coins chamber once in phase 2." } },
+            { "img": "assets/events/explorer-realm-medal-trim.webp",
+              "name": { "es": "Medalla grabada (trim)", "en": "Trimmed medal" },
+              "how": { "es": "Completa las seis Realm Quests de las dos fases.", "en": "Complete all six Realm Quests across both phases." } },
+            { "img": "assets/events/aurylene-fragment.webp",
+              "name": { "es": "Aurylene Fragment", "en": "Aurylene Fragment" },
+              "how": { "es": "La ficha del evento: sale de rutas y cámaras y se convierte en Journey Points. No se gasta en nada, solo acumula.", "en": "The event token: it comes from routes and chambers and converts into Journey Points. You don't spend it on anything, it just accumulates." } }
+          ]
+        },
+        { "type": "meta",
+          "h": { "es": "Recompensas", "en": "Rewards" },
+          "body": {
+            "es": "Todo va por hitos de Journey Points en la pista Rooted Journey, hasta 1200 puntos.",
+            "en": "Everything runs on Journey Point milestones along the Rooted Journey track, up to 1200 points."
+          },
+          "points": [
+            { "es": "1600 Oroberyl en total, más Mark of Perseverance.", "en": "1600 Oroberyl in total, plus Marks of Perseverance." },
+            { "es": "Materiales de la pista: Advanced Cognitive Carrier, Arms INSP Set, Protohedron, Protoset y Heavy Cast Dice.", "en": "Track materials: Advanced Cognitive Carriers, Arms INSP Sets, Protohedrons, Protosets and Heavy Cast Dice." },
+            { "es": "Advanced Progression Selection Crate I y T-Creds a lo largo del recorrido.", "en": "Advanced Progression Selection Crates I and T-Creds along the way." }
+          ]
+        },
+        { "type": "callout",
+          "variant": "tip",
+          "h": { "es": "Los puntos no se pierden", "en": "Points don't expire" },
+          "body": {
+            "es": "Como todo se acumula en la misma pista, no hace falta correr el primer día: los fragmentos de la fase 1 siguen contando cuando abran las seis etapas. Lo único con fecha es el cierre, el 1 de septiembre (2 en Asia).",
+            "en": "Since everything piles onto the same track, there's no need to rush on day one: phase 1 fragments still count once all six stages open. The only hard date is the close, September 1 (2 in Asia)."
           }
         }
       ]

@@ -767,31 +767,36 @@
         "es": "Heat Rage! Mega Arena!",
         "en": "Heat Rage! Mega Arena!"
       },
-      "tag": { "es": "EVENTO COMBATE", "en": "COMBAT EVENT" },
+      "tag": { "es": "EVENTO DESAFÍO", "en": "CHALLENGE EVENT" },
       "dateStart": "2026-07-30",
-      "dateEnd": "2026-08-12",
+      "dateEnd": "2026-08-13",
       "desc": {
-        "es": "Evento de combate con equipos de MÁXIMO 2 operadores. Las etapas traen mejoras pensadas para dúos: más recuperación de SP, menos enfriamiento de combos y mejor eficiencia de energía de Ultimate. Hay equipos predefinidos si no sabes qué pareja llevar; la idea es probar sinergias de a dos que en combate estándar no se lucen.",
-        "en": "Combat event with teams of AT MOST 2 operators. Stages come with duo-minded boosts: extra SP recovery, shorter combo cooldowns and better Ultimate energy efficiency. Preset teams are available if you are unsure which pair to field; the point is trying two-operator synergies that standard combat rarely showcases."
+        "es": "Ocho etapas de combate con equipos de DOS operadores como máximo. Las tres primeras abren el día 1 y el resto salen a una por día; cada etapa se juega en Normal y, al superarla, en MAXED con los enemigos muy reforzados. Las mejoras van por tramos: en 1-3 el Golpe final aplica Vulnerability, en 4-6 cada inflicción Arts se duplica sola y en 7-8 las reacciones devuelven SP. Deja 1200 Oroberyl (todos se aseguran en Normal), el marco Heat Ragers' Party a las cuatro etapas y la medalla Nocturnal Tactics al completarlas todas.",
+        "en": "Eight combat stages with teams of at most TWO operators. The first three open on day 1 and the rest arrive one per day; each stage runs on Normal and, once cleared, on MAXED with heavily buffed enemies. Boosts come in tiers: on 1-3 Final Strike applies Vulnerability, on 4-6 each Arts Infliction doubles itself, and on 7-8 reactions return SP. It pays out 1200 Oroberyl (all of it locked in on Normal), the Heat Ragers' Party frame at four stages, and the Nocturnal Tactics medal for clearing them all."
       },
       "rewards": {
-        "es": ["Recompensas por completar etapas"],
-        "en": ["Stage-clear rewards"]
+        "es": ["1200 Oroberyl", "Marco Heat Ragers' Party", "Medalla Nocturnal Tactics"],
+        "en": ["1200 Oroberyl", "Heat Ragers' Party frame", "Nocturnal Tactics medal"]
       }
     },
     {
       "id": "ev19",
-      "title": { "es": "El Reino Arraigado", "en": "The Rooted Realm", "jp": "根脈奇景", "zh": "根脉奇境" },
+      "title": {
+        "es": "El Reino Arraigado",
+        "en": "The Rooted Realm",
+        "jp": "根脈奇景",
+        "zh": "根脉奇境"
+      },
       "tag": { "es": "TIEMPO LIMITADO", "en": "LIMITED-TIME" },
       "dateStart": "2026-08-09",
-      "dateEnd": "",
+      "dateEnd": "2026-09-01",
       "desc": {
-        "es": "Evento de diversión y juegos de la segunda mitad de la versión: controlas a un solo operador y recorres rutas y cámaras recolectando fragmentos contrarreloj, con imanes y multiplicadores en el camino, rutas ocultas y portales a zonas de combate con mecánicas únicas (ahí sí con equipo de 4). Arranca con 3 etapas y llega a 6 durante el evento; todo se convierte en puntos canjeables y una medalla grabada.",
-        "en": "Second-half fun-and-games event: you control a single operator and run routes and chambers collecting fragments against the clock, with magnets and multipliers along the way, hidden routes and portals into combat zones with unique mechanics (those do use a 4-operator team). Starts with 3 stages and grows to 6 during the event; everything converts into redeemable points and an engraved medal."
+        "es": "Protocol Space de recorrido y recolección: juntas Aurylene Fragments por rutas y cámaras, y todo se convierte en Journey Points que van abriendo la pista Rooted Journey. No hay tienda ni moneda que gastar, es una barra que sube. Abre con tres etapas y el 15 de agosto se destraban las seis, junto con las seis Realm Quests de 100 puntos cada una. Deja 1600 Oroberyl y la medalla Explorer of the Realm.",
+        "en": "A Protocol Space about routes and collecting: you gather Aurylene Fragments through routes and chambers, and it all converts into Journey Points that open the Rooted Journey track. There is no shop and no currency to spend, just a bar that fills. It opens with three stages and on August 15 all six unlock, along with the six Realm Quests worth 100 points each. It pays out 1600 Oroberyl and the Explorer of the Realm medal."
       },
       "rewards": {
-        "es": ["Recompensas por Puntos de viaje", "Medalla grabada del evento"],
-        "en": ["Travel Point rewards", "Engraved event medal"]
+        "es": ["1600 Oroberyl", "Mark of Perseverance", "Medalla Explorer of the Realm"],
+        "en": ["1600 Oroberyl", "Mark of Perseverance", "Explorer of the Realm medal"]
       }
     },
     {

@@ -6,7 +6,7 @@
     "el": "Heat",
     "r": 4,
     "role": "Enabler",
-    "icon": "<img src='assets/characters/akekuri_card.webp' class='char-av-img'>",
+    "icon": "<img src='assets/characters/akekuri_card.webp' class='char-av-img' loading='lazy'>",
     "bis_weapon": "wpn_sword_0012",
     "support_bis_weapons": [],
     "recommended_set": "Frontiers",
@@ -39,7 +39,7 @@
     "el": "Cryo",
     "r": 5,
     "role": "Enabler",
-    "icon": "<img src='assets/characters/alesh_card.webp' class='char-av-img'>",
+    "icon": "<img src='assets/characters/alesh_card.webp' class='char-av-img' loading='lazy'>",
     "bis_weapon": "wpn_sword_0012",
     "recommended_set": "Frontiers",
     "recommended_gear": [
@@ -71,7 +71,7 @@
     "el": "Electric",
     "r": 4,
     "role": "Buffer",
-    "icon": "<img src='assets/characters/antal_card.webp' class='char-av-img'>",
+    "icon": "<img src='assets/characters/antal_card.webp' class='char-av-img' loading='lazy'>",
     "bis_weapon": "wpn_funnel_0008",
     "recommended_set": "Eternal Xiranite",
     "recommended_gear": [
@@ -103,7 +103,7 @@
     "el": "Electric",
     "r": 5,
     "role": "Damage",
-    "icon": "<img src='assets/characters/arclight_card.webp' class='char-av-img'>",
+    "icon": "<img src='assets/characters/arclight_card.webp' class='char-av-img' loading='lazy'>",
     "bis_weapon": "wpn_sword_0012",
     "support_bis_weapons": [],
     "recommended_set": "Frontiers",
@@ -124,9 +124,9 @@
         "frontiers_o2_tube"
       ],
       "set": "Frontiers",
-      "setCount": 2,
+      "setCount": 3,
       "count": 1,
-      "builds": 3
+      "builds": 4
     }
   },
   {
@@ -136,7 +136,7 @@
     "el": "Nature",
     "r": 6,
     "role": "Buffer",
-    "icon": "<img src='assets/characters/ardelia_card.webp' class='char-av-img'>",
+    "icon": "<img src='assets/characters/ardelia_card.webp' class='char-av-img' loading='lazy'>",
     "bis_weapon": "wpn_funnel_0013",
     "recommended_set": "Eternal Xiranite",
     "recommended_gear": [
@@ -168,7 +168,7 @@
     "el": "Electric",
     "r": 5,
     "role": "Damage",
-    "icon": "<img src='assets/characters/avywenna_card.webp' class='char-av-img'>",
+    "icon": "<img src='assets/characters/avywenna_card.webp' class='char-av-img' loading='lazy'>",
     "bis_weapon": "wpn_lance_0011",
     "support_bis_weapons": [],
     "recommended_set": "Bonekrusha",
@@ -195,7 +195,7 @@
     "el": "Physical",
     "r": 4,
     "role": "Enabler",
-    "icon": "<img src='assets/characters/catcher_card.webp' class='char-av-img'>",
+    "icon": "<img src='assets/characters/catcher_card.webp' class='char-av-img' loading='lazy'>",
     "bis_weapon": "wpn_claym_0015",
     "recommended_set": "Eternal Xiranite",
     "recommended_gear": [
@@ -215,7 +215,7 @@
     "el": "Physical",
     "r": 5,
     "role": "Enabler",
-    "icon": "<img src='assets/characters/chenqianyu_card.webp' class='char-av-img'>",
+    "icon": "<img src='assets/characters/chenqianyu_card.webp' class='char-av-img' loading='lazy'>",
     "bis_weapon": "wpn_sword_0011",
     "recommended_set": "Qingbo",
     "recommended_gear": [
@@ -247,7 +247,7 @@
     "el": "Physical",
     "r": 5,
     "role": "Buffer",
-    "icon": "<img src='assets/characters/dapan_card.webp' class='char-av-img'>",
+    "icon": "<img src='assets/characters/dapan_card.webp' class='char-av-img' loading='lazy'>",
     "bis_weapon": "wpn_claym_0004",
     "recommended_set": "Grizzled Edge",
     "recommended_gear": [
@@ -265,7 +265,7 @@
     "el": "Heat",
     "r": 6,
     "role": "Buffer",
-    "icon": "<img src='assets/characters/ember_card.webp' class='char-av-img'>",
+    "icon": "<img src='assets/characters/ember_card.webp' class='char-av-img' loading='lazy'>",
     "bis_weapon": "wpn_claym_0007",
     "support_bis_weapons": [],
     "recommended_set": "LYNX",
@@ -286,7 +286,7 @@
     "el": "Physical",
     "r": 6,
     "role": "Damage",
-    "icon": "<img src='assets/characters/endministrator_card.webp' class='char-av-img'>",
+    "icon": "<img src='assets/characters/endministrator_card.webp' class='char-av-img' loading='lazy'>",
     "bis_weapon": "wpn_sword_0021",
     "support_bis_weapons": [],
     "recommended_set": "Grizzled Edge",
@@ -307,7 +307,7 @@
     "el": "Cryo",
     "r": 4,
     "role": "Damage",
-    "icon": "<img src='assets/characters/estella_card.webp' class='char-av-img'>",
+    "icon": "<img src='assets/characters/estella_card.webp' class='char-av-img' loading='lazy'>",
     "bis_weapon": "wpn_lance_0013",
     "support_bis_weapons": [],
     "recommended_set": "Type 50 Yinglung",
@@ -340,7 +340,7 @@
     "el": "Electric",
     "r": 6,
     "role": "Damage",
-    "icon": "<img src='assets/characters/zhuangfangyi_card.webp' class='char-av-img'>",
+    "icon": "<img src='assets/characters/zhuangfangyi_card.webp' class='char-av-img' loading='lazy'>",
     "bis_weapon": "wpn_funnel_0015",
     "support_bis_weapons": [],
     "recommended_set": "Xiranflow",
@@ -361,9 +361,9 @@
         "xiranflow_baton"
       ],
       "set": "Xiranflow",
-      "setCount": 2,
-      "count": 2,
-      "builds": 2
+      "setCount": 4,
+      "count": 4,
+      "builds": 4
     }
   },
   {
@@ -373,7 +373,7 @@
     "el": "Nature",
     "r": 4,
     "role": "Buffer",
-    "icon": "<img src='assets/characters/fluorite_card.webp' class='char-av-img'>",
+    "icon": "<img src='assets/characters/fluorite_card.webp' class='char-av-img' loading='lazy'>",
     "bis_weapon": "wpn_pistol_0012",
     "recommended_gear": [
       "tide_fall_light_armor",
@@ -392,7 +392,7 @@
     "el": "Nature",
     "r": 6,
     "role": "Buffer",
-    "icon": "<img src='assets/characters/gilberta_card.webp' class='char-av-img'>",
+    "icon": "<img src='assets/characters/gilberta_card.webp' class='char-av-img' loading='lazy'>",
     "bis_weapon": "wpn_funnel_0011",
     "recommended_set": "Eternal Xiranite",
     "recommended_gear": [
@@ -424,7 +424,7 @@
     "el": "Heat",
     "r": 6,
     "role": "Damage",
-    "icon": "<img src='assets/characters/laevatain_card.webp' class='char-av-img'>",
+    "icon": "<img src='assets/characters/laevatain_card.webp' class='char-av-img' loading='lazy'>",
     "bis_weapon": "wpn_sword_0006",
     "support_bis_weapons": [
       "wpn_sword_0012"
@@ -459,7 +459,7 @@
     "el": "Cryo",
     "r": 6,
     "role": "Damage",
-    "icon": "<img src='assets/characters/lastrite_card.webp' class='char-av-img'>",
+    "icon": "<img src='assets/characters/lastrite_card.webp' class='char-av-img' loading='lazy'>",
     "bis_weapon": "wpn_claym_0013",
     "support_bis_weapons": [],
     "recommended_set": "Tide Surge",
@@ -492,7 +492,7 @@
     "el": "Physical",
     "r": 6,
     "role": "Enabler",
-    "icon": "<img src='assets/characters/lifeng_card.webp' class='char-av-img'>",
+    "icon": "<img src='assets/characters/lifeng_card.webp' class='char-av-img' loading='lazy'>",
     "bis_weapon": "wpn_lance_0012",
     "recommended_set": "Swordmancer",
     "recommended_gear": [
@@ -524,7 +524,7 @@
     "el": "Electric",
     "r": 5,
     "role": "Buffer",
-    "icon": "<img src='assets/characters/perlica_card.webp' class='char-av-img'>",
+    "icon": "<img src='assets/characters/perlica_card.webp' class='char-av-img' loading='lazy'>",
     "bis_weapon": "wpn_funnel_0008",
     "recommended_set": "Pulser Labs",
     "recommended_gear": [
@@ -546,7 +546,7 @@
       "set": "Pulser Labs",
       "setCount": 6,
       "count": 3,
-      "builds": 8
+      "builds": 10
     }
   },
   {
@@ -556,7 +556,7 @@
     "el": "Physical",
     "r": 6,
     "role": "Buffer",
-    "icon": "<img src='assets/characters/pogranichnik_card.webp' class='char-av-img'>",
+    "icon": "<img src='assets/characters/pogranichnik_card.webp' class='char-av-img' loading='lazy'>",
     "bis_weapon": "wpn_sword_0012",
     "recommended_set": "Frontiers",
     "recommended_gear": [
@@ -588,7 +588,7 @@
     "el": "Physical",
     "r": 6,
     "role": "Enabler",
-    "icon": "<img src='assets/characters/rossi_card.webp' class='char-av-img'>",
+    "icon": "<img src='assets/characters/rossi_card.webp' class='char-av-img' loading='lazy'>",
     "bis_weapon": "wpn_sword_0022",
     "support_bis_weapons": [],
     "recommended_set": "MI Security",
@@ -621,7 +621,7 @@
     "el": "Cryo",
     "r": 5,
     "role": "Buffer",
-    "icon": "<img src='assets/characters/snowshine_card.webp' class='char-av-img'>",
+    "icon": "<img src='assets/characters/snowshine_card.webp' class='char-av-img' loading='lazy'>",
     "bis_weapon": "wpn_claym_0012",
     "recommended_set": "Eternal Xiranite",
     "recommended_gear": [
@@ -641,7 +641,7 @@
     "el": "Cryo",
     "r": 6,
     "role": "Enabler",
-    "icon": "<img src='assets/characters/tangtang_card.webp' class='char-av-img'>",
+    "icon": "<img src='assets/characters/tangtang_card.webp' class='char-av-img' loading='lazy'>",
     "bis_weapon": "wpn_pistol_0011",
     "recommended_set": "Qingbo",
     "recommended_gear": [
@@ -661,9 +661,9 @@
         "qingbo_positioning_kit"
       ],
       "set": "Qingbo",
-      "setCount": 2,
+      "setCount": 3,
       "count": 2,
-      "builds": 2
+      "builds": 4
     }
   },
   {
@@ -673,7 +673,7 @@
     "el": "Heat",
     "r": 5,
     "role": "Enabler",
-    "icon": "<img src='assets/characters/wulfgard_card.webp' class='char-av-img'>",
+    "icon": "<img src='assets/characters/wulfgard_card.webp' class='char-av-img' loading='lazy'>",
     "bis_weapon": "wpn_pistol_0009",
     "recommended_gear": [
       "type_50_yinglung_heavy_armor_t1",
@@ -688,13 +688,13 @@
       "gear": [
         "qingbo_heavy_armor",
         "qingbo_gloves",
-        "eternal_xiranite_power_core",
-        "qingbo_bamboo_cutter"
+        "qingbo_bamboo_cutter",
+        "redeemer_seal"
       ],
       "set": "Qingbo",
-      "setCount": 2,
-      "count": 1,
-      "builds": 3
+      "setCount": 3,
+      "count": 2,
+      "builds": 4
     }
   },
   {
@@ -704,7 +704,7 @@
     "el": "Cryo",
     "r": 5,
     "role": "Enabler",
-    "icon": "<img src='assets/characters/xaihi_card.webp' class='char-av-img'>",
+    "icon": "<img src='assets/characters/xaihi_card.webp' class='char-av-img' loading='lazy'>",
     "bis_weapon": "wpn_funnel_0008",
     "recommended_set": "Eternal Xiranite",
     "recommended_gear": [
@@ -724,9 +724,9 @@
         "eternal_xiranite_bracing_slab"
       ],
       "set": "Eternal Xiranite",
-      "setCount": 3,
+      "setCount": 4,
       "count": 1,
-      "builds": 6
+      "builds": 8
     }
   },
   {
@@ -736,7 +736,7 @@
     "el": "Cryo",
     "r": 6,
     "role": "Damage",
-    "icon": "<img src='assets/characters/yvonne_card.webp' class='char-av-img'>",
+    "icon": "<img src='assets/characters/yvonne_card.webp' class='char-av-img' loading='lazy'>",
     "bis_weapon": "wpn_pistol_0010",
     "support_bis_weapons": [],
     "recommended_set": "MI Security",
@@ -769,7 +769,7 @@
     "el": "Physical",
     "r": 6,
     "role": "Damage",
-    "icon": "<img src='assets/characters/mifu_card.webp' class='char-av-img'>",
+    "icon": "<img src='assets/characters/mifu_card.webp' class='char-av-img' loading='lazy'>",
     "bis_weapon": "wpn_claym_0017",
     "support_bis_weapons": [],
     "recommended_set": "Swordmancer",
@@ -796,7 +796,7 @@
     "el": "Heat",
     "r": 6,
     "role": "Enabler",
-    "icon": "<img src='assets/characters/camille_card.webp' class='char-av-img'>",
+    "icon": "<img src='assets/characters/camille_card.webp' class='char-av-img' loading='lazy'>",
     "bis_weapon": "wpn_lance_0015",
     "support_bis_weapons": [
       "wpn_lance_0007"
@@ -819,9 +819,9 @@
         "redeemer_seal"
       ],
       "set": "Frontiers",
-      "setCount": 4,
-      "count": 2,
-      "builds": 6
+      "setCount": 5,
+      "count": 3,
+      "builds": 7
     }
   },
   {
@@ -831,7 +831,7 @@
     "el": "Nature",
     "r": 6,
     "role": "Damage",
-    "icon": "<img src='assets/characters/arcane_card.webp' class='char-av-img'>",
+    "icon": "<img src='assets/characters/arcane_card.webp' class='char-av-img' loading='lazy'>",
     "bis_weapon": "wpn_funnel_0016",
     "support_bis_weapons": [],
     "recommended_set": "Hot Work",
@@ -892,15 +892,15 @@
     "name_zh": "诀",
     "common_gear": {
       "gear": [
-        "eternal_xiranite_light_armor",
-        "hot_work_gloves",
-        "hot_work_power_cartridge",
-        "hot_work_power_cartridge"
+        "hot_work_exo_rig",
+        "hot_work_hands_ppe",
+        "hot_work_insulation_slab",
+        "lynx_slab"
       ],
       "set": "Hot Work",
-      "setCount": 5,
-      "count": 1,
-      "builds": 6
+      "setCount": 8,
+      "count": 4,
+      "builds": 10
     }
   },
   {
@@ -910,10 +910,29 @@
     "el": "Electric",
     "r": 6,
     "role": "Buffer",
-    "icon": "<img src='assets/characters/liino_card.webp' class='char-av-img'>",
+    "icon": "<img src='assets/characters/liino_card.webp' class='char-av-img' loading='lazy'>",
     "bis_weapon": "wpn_lance_0014",
+    "recommended_set": "Eternal Xiranite",
+    "recommended_gear": [
+      "eternal_xiranite_light_armor",
+      "eternal_xiranite_hands",
+      "eternal_xiranite_auxiliary_arm",
+      "lynx_slab"
+    ],
     "name_es": "Liino",
     "name_jp": "リーノ",
-    "name_zh": "梨诺"
+    "name_zh": "梨诺",
+    "common_gear": {
+      "gear": [
+        "eternal_xiranite_light_armor",
+        "eternal_xiranite_hands",
+        "eternal_xiranite_auxiliary_arm",
+        "lynx_slab"
+      ],
+      "set": "Eternal Xiranite",
+      "setCount": 4,
+      "count": 3,
+      "builds": 5
+    }
   }
 ]
