@@ -1,6 +1,6 @@
 {
   "game": "Arknights: Endfield",
-  "total_operators": 30,
+  "total_operators": 32,
   "note_skills": "Skill values shown at MAX level (skill rank 13). Talents show level 1/level 2 (max) values.",
   "note_talents": "talents = combat passives. keystones = manifest skill upgrades. base_talents = facility productivity bonuses.",
   "operators": {
@@ -6821,6 +6821,247 @@
           "effects": []
         }
       ]
+    },
+    "typhoeus": {
+      "name_display": "Typhoeus",
+      "rarity": 6,
+      "class": "Striker",
+      "element": "Nature",
+      "weapon_type": "Arts Unit",
+      "primary_attribute": "Agility",
+      "secondary_attribute": "Will",
+      "stats_lv90": {
+        "hp": 5495,
+        "atk": 312,
+        "strength": 97,
+        "agility": 174,
+        "intellect": 99,
+        "will": 119
+      },
+      "skills": {
+        "basic_attack": {
+          "name": "Wildlands Huntress",
+          "name_es": "Cazadora de las tierras salvajes",
+          "description": "BASIC ATTACK:<br/>An attack with up to 5 sequences that deals <u>Nature DMG</u>. As the controlled operator, <u>Final Strike</u> also deals <u>{poise:0}</u> Stagger.<br/>DIVE ATTACK:<br/>Basic attack performed in mid-air becomes a dive attack that deals <u>Nature DMG</u> to nearby enemies.<br/>FINISHER:<br/>Basic attack performed near a Staggered enemy becomes a finisher that deals massive <u>Nature DMG</u> and recovers some SP.",
+          "description_es": "ATAQUE BÁSICO:<br/>Un ataque de hasta 5 secuencias que inflige <u>DAÑ por naturaleza</u>. Como operador controlado, el <u>Golpe final</u> también inflige <u>{poise:0}</u> de Tambaleo.<br/>ATAQUE DE INMERSIÓN:<br/>Un ataque básico realizado en el aire se convierte en un ataque de inmersión que inflige <u>DAÑ por naturaleza</u> a los enemigos cercanos.<br/>REMATE:<br/>Un ataque básico realizado cerca de un enemigo Tambaleado se convierte en un remate que inflige <u>DAÑ por naturaleza</u> masivo y recupera algo de PH.",
+          "sequences": 5,
+          "final_strike_stagger": 17,
+          "multipliers_max": {
+            "sequence_dmg_pct": [
+              46,
+              56,
+              86,
+              95,
+              125
+            ],
+            "dive_dmg_pct": 180,
+            "finisher_dmg_pct": 900
+          },
+          "effects": [],
+          "dmg_type": "Nature"
+        },
+        "battle_skill": {
+          "name": "Piercing Arrows of the Woods",
+          "name_es": "Flechas perforantes del bosque",
+          "description": "Typhoeus leaps into the air and enters a short <u>Hovering</u> state, during which she can unleash 5 Aerial Basic Attacks (ABATK). Each ABATK can shoot arrows at up to 2 targets and deal <u>Nature DMG</u>.<br/>Whenever an ABATK hits an enemy with <u>Nature Infliction</u>, it consumes 1 stack of <u>Nature Infliction</u>, grants Typhoeus 1 <u>Sign</u>, and gives additional Ultimate Energy.<br/>If Typhoeus has <u>Hunting Arrow(s)</u>, she consumes 1 <u>Hunting Arrow</u> and converts the ABATK into a <u>Power Shot</u>.<br/><u>Power Shot</u>: After hitting an enemy, Power Shot forcibly applies 1 instance of <u>Nature Burst</u>; if the target's <u>Nature Infliction</u> is consumed, then increase the DMG dealt by this <u>Nature Burst</u> to <b>{enchence_burst_damage_rate:0.0}</b> times the original.<br/><u>If Typhoeus is the controlled operator, her 5th ABATK is regarded as a Final Strike and a Power Shot, and does not consume Hunting Arrows.</u>",
+          "description_es": "Typhoeus salta por los aires y entra brevemente en estado <u>Flotante</u>, durante el cual puede ejecutar 5 Ataques básicos aéreos (ATQBA). Cada ATQBA puede disparar flechas contra un máximo de 2 objetivos e infligir <u>DAÑ por naturaleza</u>.<br/>Cuando un ATQBA alcanza a un enemigo con <u>Imposición de Naturaleza</u>, consume 1 acumulación de <u>Imposición de Naturaleza</u>, otorga a Typhoeus 1 <u>Signo</u> y concede Energía máxima adicional.<br/>Si Typhoeus tiene <u>Flecha(s) de caza</u>, consume 1 <u>Flecha de caza</u> y convierte el ATQBA en un <u>Disparo potente</u>.<br/><u>Disparo potente</u>: Tras alcanzar a un enemigo, aplica a la fuerza 1 <u>Ráfaga de naturaleza</u>; si se consume la <u>Imposición de Naturaleza</u> del objetivo, el DAÑ de esta <u>Ráfaga de naturaleza</u> aumenta a <b>{enchence_burst_damage_rate:0.0}</b> veces el original.<br/><u>Si Typhoeus es la operadora controlada, su 5.º ATQBA se considera un Golpe final y un Disparo potente, y no consume Flechas de caza.</u>",
+          "sp_cost": 100,
+          "multipliers_max": [
+            {
+              "name": "Initial Aerial Shot DMG Multiplier",
+              "value": 50,
+              "formatted": "50%"
+            },
+            {
+              "name": "ABATK DMG",
+              "value": 65,
+              "formatted": "65%"
+            },
+            {
+              "name": "Aerial Final Strike DMG",
+              "value": 100,
+              "formatted": "100%"
+            },
+            {
+              "name": "Aerial Final Strike Stagger",
+              "value": 20,
+              "formatted": "20"
+            },
+            {
+              "name": "Power Shot Nature Burst DMG Multiplier",
+              "value": 1.3,
+              "formatted": "1.3"
+            },
+            {
+              "name": "Additional Ultimate Energy",
+              "value": 12,
+              "formatted": "12"
+            }
+          ],
+          "effects": [],
+          "dmg_type": "Nature"
+        },
+        "combo_skill": {
+          "name": "Rampant Thorns",
+          "name_es": "Espinas desenfrenadas",
+          "description": "COMBO TRIGGER: When Typhoeus reaches max <u>Signs</u>.<br/>Typhoeus converts all her <u>Signs</u> to <u>Hunting Arrows</u> and resets her Aerial Basic Attack (ABATK) attempts.<br/>Typhoeus focuses her \"Huntress's Gaze\" and launches a barrage at the target that creates a <u>Barrage Array</u> at the target area. Enemies in the <u>Barrage Array</u> take <u>Nature DMG</u> over time, are <u>slowed</u>, and suffer increased <u>Nature Burst</u> DMG Taken.<br/><u>Every 2 Signs convert to 1 Hunting Arrow.</u>",
+          "description_es": "ACTIVADOR DE COMBO: Cuando Typhoeus alcanza el máximo de <u>Signos</u>.<br/>Typhoeus convierte todos sus <u>Signos</u> en <u>Flechas de caza</u> y restablece sus intentos de ataque básico aéreo (ATQBA).<br/>Typhoeus concentra su “Mirada de cazadora” y lanza una descarga contra el objetivo que crea una <u>Formación de disparos</u> en la zona del objetivo. Los enemigos en la <u>Formación de disparos</u> reciben <u>DAÑ por naturaleza</u> continuo, quedan <u>ralentizados</u> y reciben más DAÑ de <u>Ráfaga de naturaleza</u>.<br/><u>Cada 2 Signos se convierten en 1 Flecha de caza.</u>",
+          "cooldown_s": 19,
+          "multipliers_max": [
+            {
+              "name": "\"Huntress's Gaze\" Hit DMG",
+              "value": 200,
+              "formatted": "200%"
+            },
+            {
+              "name": "Stagger",
+              "value": 10,
+              "formatted": "10"
+            },
+            {
+              "name": "Ultimate Energy Gain",
+              "value": 10,
+              "formatted": "10"
+            },
+            {
+              "name": "Area DMG Over Time",
+              "value": 100,
+              "formatted": "100%"
+            },
+            {
+              "name": "Slow",
+              "value": 60,
+              "formatted": "60%"
+            },
+            {
+              "name": "Nature Burst DMG Boost",
+              "value": 10,
+              "formatted": "10%"
+            }
+          ],
+          "effects": [],
+          "dmg_type": "Nature"
+        },
+        "ultimate": {
+          "name": "Call of Ice Mountain",
+          "name_es": "Llamado de la montaña de hielo",
+          "description": "Typhoeus fires an Imbued Arrow that explodes after hitting the enemy and deals massive <u>Nature DMG</u> to enemies within the area of effect (AOE). She then enters a <u>Hovering</u> state and her Aerial Basic Attack (ABATK) attempts are reset.<br/>For her next 5 ABATKs, hitting an enemy triggers a <u>Hail of Arrows</u> that deals <u>Nature DMG</u> at the target's location. Her 5th <u>Hail of Arrows</u> is an empowered <u>Hail of Arrows</u> that deals higher DMG.<br/>Casting the ultimate gives <b>{arrow_num_given:0}</b> <u>Hunting Arrows</u> immediately.",
+          "description_es": "Typhoeus dispara una Flecha imbuida que explota tras golpear al enemigo e inflige una gran cantidad de <u>DAÑ por naturaleza</u> a los enemigos dentro del área de efecto (ADE). Después, entra en estado <u>Flotante</u> y se restablecen sus intentos de ataque básico aéreo (ATQBA).<br/>Durante sus siguientes 5 ATQBA, alcanzar a un enemigo activa una <u>Lluvia de flechas</u> que inflige <u>DAÑ por naturaleza</u> en la ubicación del objetivo. Su 5.ª <u>Lluvia de flechas</u> es una <u>Lluvia de flechas</u> potenciada que inflige más DAÑ.<br/>Lanzar la máxima otorga <b>{arrow_num_given:0}</b> <u>Flechas de caza</u> inmediatamente.",
+          "energy_cost": 200,
+          "cooldown_s": 20,
+          "multipliers_max": [
+            {
+              "name": "Imbued Arrow Explosion DMG",
+              "value": 300,
+              "formatted": "300%"
+            },
+            {
+              "name": "Imbued Arrow Stagger",
+              "value": 20,
+              "formatted": "20"
+            },
+            {
+              "name": "Normal Hail of Arrows DMG",
+              "value": 75,
+              "formatted": "75%"
+            },
+            {
+              "name": "Empowered Hail of Arrows DMG",
+              "value": 200,
+              "formatted": "200%"
+            }
+          ],
+          "effects": [],
+          "dmg_type": "Nature"
+        }
+      },
+      "talents": [
+        {
+          "name": "Prey Checklist",
+          "description": "Whenever a <u>Nature Burst</u> is triggered on an enemy, Typhoeus gains 1 <u>Sign</u>. DMG dealt by attacks empowered by consuming <u>Hunting Arrows</u> is increased to <b>1.2/1.4/1.6</b> times the original.<br/>When entering battle, Typhoeus immediately gains <b>1/2/4</b> <u>Sign(s)</u>.<br/>Typhoeus can have up to 4 <u>Hunting Arrows</u> and 8 <u>Signs</u>.<br/><u>If Nature Burst is simultaneously triggered on multiple enemies, this only counts as one instance of Nature Burst when tallying the Signs gained by Typhoeus.</u>",
+          "effects": []
+        },
+        {
+          "name": "Huntress's Focus",
+          "description": "When <u>Hovering</u>, Typhoeus activates a <u>Protective Barrier</u> that reduces her DMG Taken by <b>15/30%</b> and makes her harder to interrupt while it is active. The <u>Protective Barrier</u> is shattered when Typhoeus takes DMG, and cannot be activated again for <b>30/18</b>s afterwards.",
+          "effects": []
+        }
+      ],
+      "base_talents": [
+        {
+          "name": "Lithic Murmurs",
+          "description": "Assign to Growth Chamber to grant rare mineral growth rate +<b>20</b>/<b>30</b>%."
+        },
+        {
+          "name": "Life in the Spores",
+          "description": "Assign to Growth Chamber to grant fungal matter growth rate +<b>20</b>/<b>30</b>%."
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Samifjod Fletching",
+          "description": "When <u>Hovering</u>, ATK <b>+18%</b> and ABATK DMG Dealt is increased to <b>1.2</b> times the original.<br/>Talent <u>Huntress's Focus</u> improved: <u>Protective Barrier</u> reactivation time <b>-3</b>s.",
+          "effects": []
+        },
+        {
+          "name": "Huntress's Stride",
+          "description": "Agility <b>+20</b>, Arts Intensity <b>+16</b>.",
+          "effects": []
+        },
+        {
+          "name": "Thorny Trap",
+          "description": "Combo skill <u>Rampant Thorns</u> improved: Length of cooldown <b>-2</b>s. Enemies in the <u>Barrage Array</u> suffer <u>Nature Burst</u> DMG Taken <b>+6%</b>.",
+          "effects": []
+        },
+        {
+          "name": "No Escape",
+          "description": "Ultimate <u>Call of Ice Mountain</u> improved: Ultimate Energy cost <b>-15%</b>.",
+          "effects": []
+        },
+        {
+          "name": "Fatal Shot",
+          "description": "Ultimate <u>Call of Ice Mountain</u> improved: Gains <u>Hunting Arrows</u> <b>+1</b>. Ultimate DMG Dealt is increased to <b>1.2</b> times the original, while Nature Burst DMG Multiplier of <u>Power Shot</u> is increased to <b>1.1</b> times the original.",
+          "effects": []
+        }
+      ]
+    },
+    "purrchena": {
+      "name_display": "Purrchena",
+      "rarity": 5,
+      "class": "Defender",
+      "element": "Physical",
+      "weapon_type": "Sword",
+      "data_pending": true,
+      "upcoming": true,
+      "skills": {
+        "basic_attack": {
+          "name": "DESSERT! HAVE SOME!",
+          "name_es": "¡POSTRE! ¡COMAN UN POCO!",
+          "dmg_type": "Physical",
+          "description": "An attack with up to 3 sequences that deals Physical DMG. The final strike deals high Physical DMG and recovers SP.",
+          "description_es": "Un ataque con hasta 3 secuencias que inflige DAÑ físico. El golpe final inflige DAÑ físico alto y recupera SP."
+        },
+        "battle_skill": {
+          "name": "I'M NOT SLEEPING!",
+          "name_es": "¡NO ESTOY DURMIENDO!",
+          "description": "Raises the shield and blocks attacks. While she holds it she grants Protection to herself and to nearby operators, and makes them harder to interrupt. The first successful block extends the duration and returns extra SP; later blocks lower the Protection bit by bit. After a while the skill can be cast a second time at no SP cost: that cast deals Nature DMG and applies Nature Infliction.",
+          "description_es": "Alza el escudo y bloquea ataques. Mientras lo mantiene da Protección a ella y a los operadores cercanos, y los vuelve más difíciles de interrumpir. El primer bloqueo exitoso extiende la duración y devuelve SP extra; los bloqueos siguientes van reduciendo la Protección de a poco. Pasado un tiempo puede activar la skill una segunda vez sin gastar SP: esa activación hace DAÑ por naturaleza y aplica Imposición de naturaleza."
+        },
+        "combo_skill": {
+          "name": "CAKE OR \"PREZZIE\"",
+          "name_es": "PASTEL O \"REGALITO\"",
+          "dmg_type": "Physical",
+          "description": "Triggers when the controlled operator is attacked. Throws a Giftbox at them and heals them. Then it draws one extra prezzie at random: Bomb (Physical DMG plus Stagger), Handicraft (pulls nearby enemies in continuously and deals Physical DMG to them) or Yummy Dessert (continuous healing on the controlled operator).",
+          "description_es": "Se dispara cuando atacan al operador controlado. Le tira una Giftbox y lo cura. Después saca al azar un regalo extra: Bomb (DAÑ físico más Tambaleo), Handicraft (atrae enemigos cercanos de forma continua y les hace DAÑ físico) o Yummy Dessert (cura continua al operador controlado)."
+        },
+        "ultimate": {
+          "name": "NAUGHTY IS BANNED!",
+          "name_es": "¡PROHIBIDO PORTARSE MAL!",
+          "dmg_type": "Physical",
+          "description": "Opens three Big Feline's Prezzies at once; each one reveals a random Bomb or Handicraft. There is also a chance of the Ambassador's Special, which applies extra Arts Susceptibility to the enemies it hits.",
+          "description_es": "Abre tres Big Feline's Prezzies de golpe; cada una revela al azar una Bomb o una Handicraft. Además hay chance de que salga el Ambassador's Special, que aplica Susceptibilidad a las artes adicional a los enemigos golpeados."
+        }
+      }
     }
   }
 }

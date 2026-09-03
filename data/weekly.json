@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "id": "wk-stock",
+      "kind": "shop",
+      "label": { "es": "Stock Redistribution: compra semanal", "en": "Stock Redistribution: weekly stock" },
+      "desc": { "es": "Headhunt Permits, Engraving Permits y Artificing Catalysts rotan en el reset", "en": "Headhunt Permits, Engraving Permits and Artificing Catalysts rotate on reset" }
+    },
+    {
+      "id": "wk-routine",
+      "kind": "mission",
+      "label": { "es": "Weekly Routine", "en": "Weekly Routine" },
+      "desc": { "es": "Los objetivos semanales del Events Center", "en": "The weekly objectives in the Events Center" }
+    },
+    {
+      "id": "wk-pass",
+      "kind": "mission",
+      "label": { "es": "Semanales del Protocol Pass", "en": "Protocol Pass weeklies" },
+      "desc": { "es": "Dan mucho más EXP de pase que las diarias", "en": "They give far more pass EXP than dailies" }
+    },
+    {
+      "id": "wk-activity",
+      "kind": "milestone",
+      "label": { "es": "Hito de 100 Activity Points", "en": "100 Activity Points milestone" },
+      "desc": { "es": "Las diarias del Operational Manual acumulan al hito semanal", "en": "Operational Manual dailies add up to the weekly milestone" }
+    },
+    {
+      "id": "wk-alluvium",
+      "kind": "discount",
+      "label": { "es": "Severe Energy Alluvium", "en": "Severe Energy Alluvium" },
+      "desc": { "es": "El contador de descuento de Sanity se reinicia cada semana", "en": "The Sanity discount counter resets every week" }
+    },
+    {
+      "id": "wk-boss",
+      "kind": "boss",
+      "label": { "es": "Desafíos de jefe de la semana", "en": "Weekly boss challenges" },
+      "desc": { "es": "El conteo semanal se limpia en el reset del lunes", "en": "The weekly count clears on the Monday reset" }
+    },
+    {
+      "id": "wk-booster",
+      "kind": "expiry",
+      "label": { "es": "Emergency Sanity Booster", "en": "Emergency Sanity Booster" },
+      "desc": { "es": "El que no uses expira al cierre de la semana", "en": "Any left unused expires when the week closes" }
+    }
+  ]
+}

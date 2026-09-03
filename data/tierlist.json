@@ -1,6 +1,6 @@
 {
  "version": 6,
- "updated": "2026-07-27",
+ "updated": "2026-09-02",
  "letters": [
   "S+",
   "S",
@@ -13,6 +13,7 @@
   "dmg": [
    "laevatain",
    "zhuangfangyi",
+   "typhoeus",
    "mifu",
    "arcane",
    "yvonne",
@@ -40,6 +41,7 @@
    "wulfgard",
    "xaihi",
    "snowshine",
+   "liino",
    "ardelia",
    "chenqianyu",
    "rossi",
@@ -427,6 +429,31 @@
    "cap": {
     "es": "Muro de presupuesto: escudos y Protection para aguantar, más SP, Weaken, Vulnerability y Knock Down. La defensa accesible para cuando el contenido pega y hace falta sostener la línea.",
     "en": "Budget wall: shields and Protection to hold the line, plus SP, Weaken, Vulnerability and Knock Down. The accessible defense for when content hits hard and you need to hold."
+   }
+  },
+  "typhoeus": {
+   "dmg": "S+",
+   "difficulty": "med",
+   "tags": [
+    "aoe_st",
+    "sig"
+   ],
+   "cap": {
+    "es": "Striker de Nature que no apila Inflictions para detonar: casi tres cuartos de su daño son Nature Bursts que ella misma fuerza con sus Hunting Arrows. Su Battle Skill la sube al aire (con una barrera que la hace difícil de interrumpir) y dispara cinco ataques aéreos, a hasta dos objetivos cada uno, que consumen Nature Infliction para darle Signs y energía; a ocho Signs enciende su Combo, que los convierte en flechas nuevas, reinicia los ataques aéreos y deja un Barrage Array que ralentiza y sube el Nature Burst DMG Taken. Entre la Ultimate en área (Imbued Arrow más Hail of Arrows) y los Bursts encadenados cubre jefes y grupos con daño constante en vez de un nuke. Lo que cuesta: tiene hambre de Nature Inflictions y muy pocos operadores se las dan; Arcane es la pareja obvia.",
+    "en": "A Nature Striker who does not stack Inflictions to detonate: almost three quarters of her damage are Nature Bursts she forces herself with her Hunting Arrows. Her Battle Skill lifts her into the air (behind a barrier that makes her hard to interrupt) for five aerial attacks, up to two targets each, that consume Nature Infliction to grant her Signs and energy; at eight Signs her Combo lights up, converting them into fresh arrows, resetting the aerial attacks and leaving a Barrage Array that slows and raises Nature Burst DMG Taken. Between her AoE Ultimate (Imbued Arrow plus Hail of Arrows) and the chained Bursts she covers bosses and crowds with steady damage instead of a nuke. The cost: she is hungry for Nature Inflictions and very few operators feed her; Arcane is the obvious partner."
+   }
+  },
+  "liino": {
+   "sup": "S",
+   "difficulty": "low",
+   "tags": [
+    "flex",
+    "buffer",
+    "enabler"
+   ],
+   "cap": {
+    "es": "Buffer premium de Electric: su Battle Skill (25 SP, que su primer keystone devuelve en el primer uso) abre 60 s de Vocalist Stance con ATK Boost para todo el equipo, cura continua en su área y ataques adicionales periódicos. La Ultimate cura al equipo y pasa a Cosmovoice Stance: Electric y Nature Amp escalados por Will, más ATK Boost, latidos que pegan y curan, un remate ×3 si la postura llega al final y una Electrification forzada en área grande. Encima su área resta 10% al daño recibido, y tras su Combo la siguiente Battle Skill de un operador de Electric o Nature devuelve SP. Rinde su techo en equipos de Nature o Electric; en el resto sigue siendo ATK, curación y comodidad.",
+    "en": "Premium Electric buffer: her Battle Skill (25 SP, refunded on the first cast by her first keystone) opens 60s of Vocalist Stance with a team-wide ATK Boost, continuous healing inside her area and periodic additional attacks. Her Ultimate heals the team and switches to Cosmovoice Stance: Will-scaled Electric and Nature Amp plus ATK Boost, beats that hit and heal, a ×3 finale if the stance runs its course and a forced Electrification over a large area. On top, her area cuts DMG Taken by 10%, and after her Combo the next Battle Skill of an Electric or Nature operator refunds SP. She hits her ceiling in Nature or Electric teams; elsewhere she is still ATK, healing and comfort."
    }
   }
  }

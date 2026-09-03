@@ -2169,6 +2169,1719 @@
           }
         ]
       }
+    },
+    {
+      "name": {
+        "es": "Pakinov - Yvonne con Arcane de soporte (forma WILL)",
+        "en": "Pakinov - Yvonne with Arcane as support (WILL form)"
+      },
+      "subtitle": {
+        "es": "Arcane (WILL) · Tangtang · Xaihi; cada carga se duplica sola y la Battle Skill se apura al filo del Ultimate",
+        "en": "Arcane (WILL) · Tangtang · Xaihi; every layer doubles itself and the Battle Skill rides the edge of the Ultimate"
+      },
+      "blurb": {
+        "es": "La mitad de soporte del video de rotaciones perfectas de Pakinov: para él, la composición más fuerte de Yvonne ahora mismo. El motor es la forma WILL de Arcane — su Combo salta con una sola carga de cualquier elemento y cuelga otra del mismo — y el cierre es puro reloj: disparar con el Ultimate de Yvonne apilando crítico y apurar su Battle Skill justo antes de que acabe. Mismo aviso que en la otra mitad: el showcase corre con gear flojo a propósito, sin clear de referencia. Con Last Rite de carry queda anunciada como jugable con cambios pequeños.",
+        "en": "The support half of the perfect-rotations video from Pakinov: for him, the strongest Yvonne composition right now. The engine is the WILL form of Arcane — her Combo fires on a single layer of any element and hangs another of the same one — and the closer is pure clockwork: shooting through the Ultimate from Yvonne stacking crit and squeezing her Battle Skill right before it ends. Same warning as the other half: the showcase runs weak gear on purpose, no reference clear. With Last Rite as the carry it stays announced as playable with small changes."
+      },
+      "guideVideoId": "yv7",
+      "simple": {
+        "whatItDoes": {
+          "es": "Yvonne cobra lo que el equipo cuelga. Dos vueltas de carga: la Battle Skill de Tangtang pone Cryo y el Combo de Arcane (WILL) duplica la carga al momento; el cristal de Xaihi añade la tercera al final de la cadena siguiente; la Battle Skill de Yvonne consume las tres, fuerza Solidification, gana energía por stack y su Final Strike acelerado enciende su Combo. En el burst — sobre el Stagger — caen la ejecución, los Ultimates de Xaihi, Arcane (otra carga copiada), Tangtang e Yvonne, y el final de manual: básicos apilando crítico, Battle Skill al filo del reloj consumiendo cuatro cargas, y el ataque final del Ultimate consumiendo la Solidification.",
+          "en": "Yvonne cashes what the team hangs. Two charge laps: the Battle Skill from Tangtang places Cryo and the Combo from Arcane (WILL) doubles the layer on the spot; the crystal from Xaihi adds the third at the end of the next chain; the Battle Skill from Yvonne consumes all three, forces Solidification, gains energy per stack, and her accelerated Final Strike lights her Combo. In the burst — on the Stagger — come the execution, the Ultimates from Xaihi, Arcane (another copied layer), Tangtang and Yvonne, and the textbook ending: basics stacking crit, Battle Skill at the edge of the clock consuming four layers, and the final attack of the Ultimate consuming the Solidification."
+        },
+        "steps": [
+          {
+            "who": "tangtang",
+            "do": {
+              "es": "Battle Skill de Tangtang: primera carga de Cryo — saltan su Combo y el de Arcane, cuyos clones cuelgan la segunda del mismo elemento.",
+              "en": "Battle Skill from Tangtang: first Cryo layer — her Combo and the one from Arcane fire, and the clones from Arcane hang the second of the same element."
+            }
+          },
+          {
+            "who": "xaihi",
+            "do": {
+              "es": "Cristal de Xaihi y cadena de básicos con Yvonne: el último golpe saca el Combo de Xaihi, tercera carga.",
+              "en": "Crystal from Xaihi and a chain of basics with Yvonne: the last hit pulls the Combo from Xaihi, third layer."
+            }
+          },
+          {
+            "who": "yvonne",
+            "do": {
+              "es": "Battle Skill de Yvonne: consume las tres, Solidification, energía por stack, y el Final Strike acelerado que enciende su Combo.",
+              "en": "Battle Skill from Yvonne: consumes all three, Solidification, energy per stack, and the accelerated Final Strike that lights her Combo."
+            }
+          },
+          {
+            "who": "yvonne",
+            "do": {
+              "es": "Segunda vuelta igual — pero el Combo de Yvonne se guarda hasta la octava cadena, y la Battle Skill de Tangtang cobra ahí dos remolinos.",
+              "en": "Second lap the same — but the Combo from Yvonne gets held until the eighth chain, and the Battle Skill from Tangtang cashes two Whirlpools there."
+            }
+          },
+          {
+            "who": "yvonne",
+            "do": {
+              "es": "Burst sobre el Stagger: ejecución, Ultimates de Xaihi → Arcane → Tangtang → Yvonne, básicos, y su Battle Skill justo antes de que el Ultimate acabe.",
+              "en": "Burst on the Stagger: execution, Ultimates from Xaihi → Arcane → Tangtang → Yvonne, basics, and her Battle Skill right before the Ultimate ends."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "yvonne",
+            "line": {
+              "es": "Su set DPS de toda la vida: MI Security, el de crítico.",
+              "en": "Her usual DPS set: MI Security, the crit one."
+            }
+          },
+          {
+            "id": "arcane",
+            "line": {
+              "es": "Cuatro piezas Eternal Xiranite (peto y guantes de Energy más dos kits de atributo secundario), objetivo 640 de Will.",
+              "en": "Four Eternal Xiranite pieces (Energy chest and gloves plus two secondary-attribute kits), aiming at 640 Will."
+            }
+          },
+          {
+            "id": "tangtang",
+            "line": {
+              "es": "Bonekrusha con el peto de Yinglung por recarga.",
+              "en": "Bonekrusha with the Yinglung chest for recharge."
+            }
+          },
+          {
+            "id": "xaihi",
+            "line": {
+              "es": "Eternal Xiranite a máximo Intellect, con peto suelto sin set de Intellect y recarga.",
+              "en": "Eternal Xiranite at maximum Intellect, with a loose set-less Intellect and recharge chest."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "El video parte la ejecución en dos vueltas de carga y un burst, todo pautado por cadenas de básicos de Yvonne — ocho antes del cierre. La gracia del motor está en la forma WILL de Arcane: su Combo salta con una sola carga de cualquier elemento y sus clones aplican otra del mismo, así que cada Battle Skill de Tangtang vale por dos cargas sin gastar nada más. La primera vuelta termina en la primera Solidification: la Battle Skill de Yvonne consume los tres stacks, gana energía de Ultimate por cada uno, y el Final Strike acelerado que le sigue enciende su Combo. La segunda vuelta repite la receta con dos matices: el Combo de Yvonne se guarda hasta el final de la octava cadena, y la Battle Skill de Tangtang se suelta ahí consumiendo dos remolinos — más Waterspouts y SP de vuelta. El burst cae sobre el Stagger: ejecución con Yvonne, Ultimate de Xaihi por el amp, el de Arcane que copia otra carga de hielo, el de Tangtang, y el de Yvonne para cerrar — básicos potenciados apilando crítico con la Battle Skill de Tangtang en medio (cuarta carga), y, mirando la barrita de duración, la Battle Skill de Yvonne justo antes de que el Ultimate acabe: consume las cuatro cargas con todos los buffs de crítico encima y deja la Solidification fresca que el ataque final del Ultimate consume para rematar.",
+        "en": "The video splits the execution into two charge laps and a burst, all paced by chains of basics from Yvonne — eight before the closer. The trick of the engine sits in the WILL form of Arcane: her Combo fires on a single layer of any element and her clones apply another of the same one, so every Battle Skill from Tangtang is worth two layers at no extra cost. The first lap ends at the first Solidification: the Battle Skill from Yvonne consumes the three stacks, gains Ultimate energy per stack, and the accelerated Final Strike that follows lights her Combo. The second lap repeats the recipe with two nuances: the Combo from Yvonne gets held until the end of the eighth chain, and the Battle Skill from Tangtang goes out there consuming two Whirlpools — extra Waterspouts and SP back. The burst lands on the Stagger: execution with Yvonne, Ultimate from Xaihi for the amp, the one from Arcane copying another Cryo layer, the one from Tangtang, and the one from Yvonne to close — empowered basics stacking crit with the Battle Skill from Tangtang midway (fourth layer), and, watching the duration bar, the Battle Skill from Yvonne right before the Ultimate ends: it consumes the four layers with every crit buff on top and leaves the fresh Solidification that the final attack of the Ultimate consumes to finish."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Media (dos vueltas pautadas y un cierre con reloj)",
+          "en": "Medium (two paced laps and a clocked closer)"
+        },
+        "content": {
+          "es": "Boss / Single-target",
+          "en": "Boss / Single-target"
+        },
+        "tags": [
+          {
+            "es": "Criogénico",
+            "en": "Cryo",
+            "jp": "寒冷",
+            "zh": "寒冷"
+          },
+          {
+            "es": "Solidification en bucle",
+            "en": "Solidification on loop"
+          },
+          {
+            "es": "Cargas duplicadas",
+            "en": "Doubled layers"
+          },
+          {
+            "es": "Reloj del Ultimate",
+            "en": "Ultimate clock"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "El Combo WILL de Arcane duplica cada carga de Tangtang gratis: el equipo llega a tres stacks con dos botones.",
+          "en": "The WILL Combo from Arcane doubles every layer from Tangtang for free: the team reaches three stacks with two buttons."
+        },
+        {
+          "es": "Cada Battle Skill de Yvonne es caja: Solidification más energía de Ultimate por stack consumido — el Ultimate llega solo.",
+          "en": "Every Battle Skill from Yvonne is a payday: Solidification plus Ultimate energy per consumed stack — the Ultimate arrives on its own."
+        },
+        {
+          "es": "El cierre está pautado al detalle, con el aviso de mirar la barrita de duración del Ultimate para la última Battle Skill.",
+          "en": "The closer comes paced in detail, with the cue of watching the duration bar of the Ultimate for the last Battle Skill."
+        },
+        {
+          "es": "Rotación seccionada paso a paso para copiar, como toda la serie del canal.",
+          "en": "A rotation broken down step by step for copying, like the whole series on the channel."
+        }
+      ],
+      "cons": [
+        {
+          "es": "Sin clear de referencia: el gear del showcase es flojo a propósito.",
+          "en": "No reference clear: the showcase gear is weak on purpose."
+        },
+        {
+          "es": "El timing fino del final castiga: adelantarse pierde stacks de crítico, pasarse deja el ataque final sin Solidification que consumir.",
+          "en": "The fine timing of the ending punishes: going early loses crit stacks, going late leaves the final attack with no Solidification to consume."
+        },
+        {
+          "es": "La variante con Last Rite queda anunciada pero sin detallar.",
+          "en": "The Last Rite variant stays announced but not detailed."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "El Combo de Arcane duplica las cargas",
+            "en": "The Combo from Arcane doubles the layers"
+          },
+          "body": {
+            "es": "En forma WILL su Combo salta con una sola Arts Infliction y sus clones aplican otra carga del mismo elemento que ya tenga el enemigo. Por eso cada Battle Skill de Tangtang vale doble aquí: Cryo puesta, Cryo copiada, y el equipo a un cristal de la tercera.",
+            "en": "In WILL form her Combo fires on a single Arts Infliction and her clones apply another layer of whatever element the enemy already carries. That is why every Battle Skill from Tangtang is worth double here: Cryo placed, Cryo copied, and the team one crystal away from the third."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "La Battle Skill de Yvonne es la caja registradora",
+            "en": "The Battle Skill from Yvonne is the cash register"
+          },
+          "body": {
+            "es": "Consume todos los stacks del jefe, fuerza Solidification, pega por stack consumido y gana energía de Ultimate por cada uno. Detrás, su Final Strike acelerado sobre el jefe Solidificado enciende su propio Combo.",
+            "en": "It consumes every stack on the boss, forces Solidification, hits per consumed stack and gains Ultimate energy for each one. Behind it, her accelerated Final Strike on the Solidified boss lights her own Combo."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Remolinos que pagan el burst",
+            "en": "Whirlpools that fund the burst"
+          },
+          "body": {
+            "es": "Los Combos de Tangtang dejan remolinos en el campo, y su Battle Skill los consume creando Waterspouts extra y devolviendo SP. El video cobra ese retorno justo antes del burst, en la octava cadena, con el Combo de Yvonne guardado para la misma ventana.",
+            "en": "The Combos from Tangtang leave Whirlpools on the field, and her Battle Skill consumes them creating extra Waterspouts and returning SP. The video cashes that return right before the burst, on the eighth chain, with the Combo from Yvonne held for the same window."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "El reloj del Ultimate",
+            "en": "The clock of the Ultimate"
+          },
+          "body": {
+            "es": "Durante su Ultimate, cada secuencia de básicos da un stack de crítico y, al tope, daño crítico extra; el último básico se convierte en un Final Strike masivo que, sobre un jefe Solidificado, añade un golpe que consume la Solidification. De ahí el orden del cierre: apilar disparando, Battle Skill al filo — cuatro cargas consumidas con los buffs arriba y Solidification fresca — y el ataque final cobra el resto.",
+            "en": "During her Ultimate, every basic sequence grants a crit stack and, at the cap, extra crit damage; the last basic turns into a massive Final Strike that, on a Solidified boss, adds a hit that consumes the Solidification. Hence the order of the closer: stack while shooting, Battle Skill at the edge — four layers consumed with the buffs up and a fresh Solidification — and the final attack cashes the rest."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Primera vuelta (cadenas 1-2)",
+            "en": "First lap (chains 1-2)"
+          },
+          "action": {
+            "es": "Dos cargas de un botón, la tercera del cristal, y la primera Solidification.",
+            "en": "Two layers from one button, the third from the crystal, and the first Solidification."
+          },
+          "steps": [
+            {
+              "who": "tangtang",
+              "do": {
+                "es": "Primera cadena con Yvonne; en medio, Battle Skill de Tangtang: primera carga de Cryo, su Combo salta, y el de Arcane también — sus clones cuelgan la segunda del mismo elemento.",
+                "en": "First chain with Yvonne; midway, Battle Skill from Tangtang: first Cryo layer, her Combo fires, and the one from Arcane too — her clones hang the second of the same element."
+              },
+              "key": true
+            },
+            {
+              "who": "xaihi",
+              "do": {
+                "es": "Cristal de Xaihi pronto, y segunda cadena: el último golpe agota el cristal y su Combo pone la tercera carga.",
+                "en": "Crystal from Xaihi early, then the second chain: the last hit runs the crystal dry and her Combo places the third layer."
+              }
+            },
+            {
+              "who": "yvonne",
+              "do": {
+                "es": "Battle Skill de Yvonne: consume las tres cargas, fuerza Solidification y gana energía de Ultimate por cada stack.",
+                "en": "Battle Skill from Yvonne: consumes the three layers, forces Solidification and gains Ultimate energy per stack."
+              },
+              "key": true
+            },
+            {
+              "who": "yvonne",
+              "do": {
+                "es": "El Final Strike acelerado que sigue enciende su Combo: suéltalo.",
+                "en": "The accelerated Final Strike that follows lights her Combo: release it."
+              }
+            }
+          ],
+          "tip": {
+            "es": "Los Final Strikes de las cadenas van reponiendo el SP de la tanda siguiente.",
+            "en": "The Final Strikes of the chains keep refilling the SP for the next round."
+          }
+        },
+        {
+          "phase": {
+            "es": "Segunda vuelta (cadenas 3-8), con el Combo guardado",
+            "en": "Second lap (chains 3-8), with the Combo held"
+          },
+          "action": {
+            "es": "Misma receta, pero el Combo de Yvonne espera a la octava cadena y la Battle Skill de Tangtang cobra dos remolinos.",
+            "en": "Same recipe, but the Combo from Yvonne waits for the eighth chain and the Battle Skill from Tangtang cashes two Whirlpools."
+          },
+          "steps": [
+            {
+              "who": "tangtang",
+              "do": {
+                "es": "Tercera cadena; al final, Battle Skill de Tangtang: carga nueva, Combos de Tangtang y de Arcane — segunda carga copiada.",
+                "en": "Third chain; at its end, Battle Skill from Tangtang: fresh layer, Combos from Tangtang and from Arcane — second layer copied."
+              }
+            },
+            {
+              "who": "xaihi",
+              "do": {
+                "es": "Cuarta cadena con el cristal al final; quinta y sexta: el Combo de Xaihi pone la tercera carga y el de Tangtang vuelve a saltar.",
+                "en": "Fourth chain with the crystal at its end; fifth and sixth: the Combo from Xaihi places the third layer and the one from Tangtang fires again."
+              }
+            },
+            {
+              "who": "yvonne",
+              "do": {
+                "es": "Séptima cadena y Battle Skill de Yvonne: tres cargas consumidas, Solidification, Final Strike acelerado — pero esta vez su Combo no se suelta.",
+                "en": "Seventh chain and Battle Skill from Yvonne: three layers consumed, Solidification, accelerated Final Strike — but this time her Combo stays held."
+              },
+              "key": true
+            },
+            {
+              "who": "tangtang",
+              "do": {
+                "es": "Octava cadena: al final, suelta el Combo guardado mientras la Battle Skill de Tangtang consume dos remolinos — Waterspouts extra, SP de vuelta y carga nueva; los Combos de Tangtang y Arcane se encienden con la segunda carga copiada.",
+                "en": "Eighth chain: at its end, release the held Combo while the Battle Skill from Tangtang consumes two Whirlpools — extra Waterspouts, SP back and a fresh layer; the Combos from Tangtang and Arcane light up with the second copied layer."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "Aquí el jefe ya ronda el Stagger: no arranques el burst antes de la ejecución.",
+            "en": "By here the boss is nearing the Stagger: do not start the burst before the execution."
+          }
+        },
+        {
+          "phase": {
+            "es": "Burst sobre el Stagger",
+            "en": "Burst on the Stagger"
+          },
+          "action": {
+            "es": "Ejecución, cuatro Ultimates escalonados y la Battle Skill al filo del reloj.",
+            "en": "Execution, four staggered Ultimates and the Battle Skill at the edge of the clock."
+          },
+          "steps": [
+            {
+              "who": "yvonne",
+              "do": {
+                "es": "Con el jefe aturdido, ejecuta con Yvonne (Finisher).",
+                "en": "With the boss Staggered, execute with Yvonne (Finisher)."
+              }
+            },
+            {
+              "who": "xaihi",
+              "do": {
+                "es": "Ultimate de Xaihi — el amp de Cryo y Nature del equipo — y detrás el de Arcane: en forma WILL aplica otra carga del elemento presente, la tercera de hielo.",
+                "en": "Ultimate from Xaihi — the Cryo and Nature amp of the team — and behind it the one from Arcane: in WILL form it applies another layer of the present element, the third Cryo."
+              },
+              "key": true
+            },
+            {
+              "who": "tangtang",
+              "do": {
+                "es": "Ultimate de Tangtang y, para cerrar la escalera, el de Yvonne.",
+                "en": "Ultimate from Tangtang and, closing the ladder, the one from Yvonne."
+              }
+            },
+            {
+              "who": "yvonne",
+              "do": {
+                "es": "Dispara con Yvonne apilando los stacks de crítico; en medio, Battle Skill de Tangtang para la cuarta carga.",
+                "en": "Shoot with Yvonne stacking the crit buffs; midway, Battle Skill from Tangtang for the fourth layer."
+              }
+            },
+            {
+              "who": "yvonne",
+              "do": {
+                "es": "Mira la barrita de duración del Ultimate de Yvonne: justo antes de que acabe, su Battle Skill — consume las cuatro cargas con todos los buffs de crítico encima y deja Solidification fresca. El ataque final del Ultimate añade el golpe que la consume y remata.",
+                "en": "Watch the duration bar of the Ultimate from Yvonne: right before it ends, her Battle Skill — it consumes the four layers with every crit buff on top and leaves a fresh Solidification. The final attack of the Ultimate adds the hit that consumes it and finishes."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "El orden de la escalera importa: el amp de Xaihi delante, la carga extra de Arcane en medio, y el reloj de Yvonne cerrando.",
+            "en": "The order of the ladder matters: the amp from Xaihi in front, the extra layer from Arcane in the middle, and the clock from Yvonne closing."
+          }
+        }
+      ],
+      "rotationVariants": [
+        {
+          "name": {
+            "es": "Con Last Rite de carry (anunciada)",
+            "en": "With Last Rite as the carry (announced)"
+          },
+          "description": {
+            "es": "El autor la declara jugable tal cual con cambios pequeños que el video no detalla; su build de siempre para Last Rite es el set Tide Surge («el de la marea»). La columna vertebral — cargas duplicadas, Solidification, burst sobre el Stagger — se mantiene.",
+            "en": "The author declares it playable as is with small changes the video does not detail; his usual build for Last Rite is the Tide Surge set («the tide one»). The backbone — doubled layers, Solidification, burst on the Stagger — holds."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Misma columna vertebral",
+                "en": "Same backbone"
+              },
+              "action": {
+                "es": "Cargas → Solidification → burst; los ajustes concretos del asiento de carry no se muestran en el video.",
+                "en": "Layers → Solidification → burst; the concrete adjustments for the carry seat are not shown in the video."
+              }
+            }
+          ]
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "arcane",
+          "order": "S2 > S3 > S1",
+          "note": {
+            "es": "De la guía completa, para la forma WILL: el Combo primero — cada nivel recorta cooldown y sube la Susceptibility, que aquí escala con el Will hasta el 12% a 640 —, después el Ultimate, y básicos y Battle Skill al final. La guía solo pauta las skills de Arcane.",
+            "en": "From the complete guide, for the WILL form: the Combo first — each level trims cooldown and raises the Susceptibility, which here scales with Will up to 12% at 640 —, then the Ultimate, with basics and Battle Skill last. The guide only lays out the skills from Arcane."
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Soltar el Combo de Yvonne de la segunda vuelta antes de tiempo: el video lo guarda para la octava cadena, pegado a los remolinos de Tangtang.",
+          "en": "Releasing the Combo from Yvonne of the second lap too early: the video holds it for the eighth chain, glued to the Whirlpools from Tangtang."
+        },
+        {
+          "es": "Apurar mal la última Battle Skill: antes de tiempo pierde stacks de crítico; después de que el Ultimate acabe, el ataque final sale sin Solidification que consumir.",
+          "en": "Mistiming the last Battle Skill: too early loses crit stacks; after the Ultimate ends, the final attack goes out with no Solidification to consume."
+        },
+        {
+          "es": "Desordenar la escalera de Ultimates: Xaihi delante (amp), Arcane en medio (carga copiada), Yvonne al final (el reloj).",
+          "en": "Shuffling the Ultimate ladder: Xaihi in front (amp), Arcane in the middle (copied layer), Yvonne at the end (the clock)."
+        },
+        {
+          "es": "Olvidar que las cargas nacen de Tangtang: sin su Battle Skill en cada vuelta, el Combo de Arcane no tiene qué duplicar.",
+          "en": "Forgetting the layers are born from Tangtang: without her Battle Skill on every lap, the Combo from Arcane has nothing to double."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "El burst de Corrosión de YZ-月咒 (Arcane WILL con Gilberta)",
+            "en": "The Corrosion burst from YZ-月咒 (Arcane WILL with Gilberta)"
+          },
+          "verdict": {
+            "es": "La otra escuela del mismo dúo Yvonne + Arcane: aquella pauta por SP (180 antes del burst), mide umbrales de Energy al decimal y mete Corrosión de por medio — y su autor la etiqueta de difícil, sin versión recortada. Esta pauta por cadenas, no toca Corrosión y confía el cierre al reloj del Ultimate: más asequible, sin números medidos.",
+            "en": "The other school of the same Yvonne + Arcane duo: that one paces by SP (180 before the burst), measures Energy thresholds to the decimal and works Corrosion in — and its author labels it hard, with no trimmed version. This one paces by chains, leaves Corrosion out and trusts the closer to the clock of the Ultimate: more approachable, with no measured numbers."
+          }
+        },
+        {
+          "name": {
+            "es": "Los encajes del hueco según la guía",
+            "en": "The seat fits per the guide"
+          },
+          "verdict": {
+            "es": "Para los equipos de soporte de Arcane, la guía completa lista a Gilberta, Perlica, Ardelia y hasta Snowshine como alternativas válidas alrededor de Yvonne o Last Rite.",
+            "en": "For the support teams of Arcane, the complete guide lists Gilberta, Perlica, Ardelia and even Snowshine as valid alternatives around Yvonne or Last Rite."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "yvonne",
+          "role": "Carry",
+          "weaponId": null,
+          "gearRec": null,
+          "weaponNote": {
+            "es": "El video no fija armas para Yvonne.",
+            "en": "The video does not fix a weapon for Yvonne."
+          },
+          "gearNote": {
+            "es": "«Su set DPS de toda la vida, el de los críticos»: MI Security. El video lo deja a nivel de set — para piezas exactas, el canal remite a sus videos de builds.",
+            "en": "«Her usual DPS set, the crit one»: MI Security. The video leaves it at set level — for exact pieces, the channel refers to its build videos."
+          },
+          "deepNote": {
+            "es": "Battle Skill que consume stacks (Solidification más energía por stack), Combo al Final Strike sobre jefe Solidificado, y el Ultimate de básicos potenciados: stacks de crítico por secuencia, daño crítico al tope, y un ataque final que consume la Solidification si está puesta.",
+            "en": "A Battle Skill that consumes stacks (Solidification plus energy per stack), a Combo on the Final Strike against a Solidified boss, and the empowered-basics Ultimate: crit stacks per sequence, crit damage at the cap, and a final attack that consumes the Solidification if it is in place."
+          }
+        },
+        {
+          "id": "arcane",
+          "role": "Support",
+          "weaponId": "wpn_funnel_0016",
+          "gearRec": null,
+          "weaponNote": {
+            "es": "La BIS por delante también en soporte. Con todos los dupes, Detonation Unit (Unidad de Detonación) queda por encima del arma del pase (Junction Point); sin dupes cae bastante por detrás — las tablas exactas van en pantalla en la guía completa.",
+            "en": "The BIS ahead in support as well. With all dupes, Detonation Unit sits above the pass weapon (Junction Point); with none it falls well behind — the exact tables go on screen in the complete guide."
+          },
+          "gearNote": {
+            "es": "Cuatro piezas Eternal Xiranite: peto y guantes de recarga de energía más dos kits de atributo secundario (panel del video: Will +257, eficiencia de Ultimate +32.9%, atributo secundario +41.4%). Objetivo declarado: unos 640 de Will. Las variantes exactas de cada kit no se distinguen en la imagen, así que la ficha queda a nivel de set.",
+            "en": "Four Eternal Xiranite pieces: Energy chest and gloves plus two secondary-attribute kits (panel in the video: Will +257, Ultimate efficiency +32.9%, secondary attribute +41.4%). Declared goal: around 640 Will. The exact variants of each kit cannot be told apart on the image, so the sheet stays at set level."
+          },
+          "deepNote": {
+            "es": "Forma WILL: Combo con una sola carga (18s de cooldown) que agrupa, ralentiza y copia el elemento presente; Susceptibility de Cryo y Nature que escala con el Will — 12% del Combo y 12.8% de las instancias del Ultimate, ambas al máximo en 640 — y un Ultimate que pega poco, pero añade una carga copiada al abrir.",
+            "en": "WILL form: a Combo on a single layer (18s cooldown) that groups, slows and copies the present element; Cryo and Nature Susceptibility scaling with Will — 12% from the Combo and 12.8% from the instances of the Ultimate, both capping at 640 — and an Ultimate that hits little but adds a copied layer on opening."
+          }
+        },
+        {
+          "id": "tangtang",
+          "role": "Enabler",
+          "weaponId": null,
+          "gearRec": null,
+          "weaponNote": {
+            "es": "El video no fija su arma.",
+            "en": "The video does not fix her weapon."
+          },
+          "gearNote": {
+            "es": "Su set de siempre, Bonekrusha (碾骨), priorizando daño y Battle Skill, con el peto de Type 50 Yinglung como pieza flexible para algo de recarga de energía. El video lo cuenta a nivel de set, sin fijar las piezas una a una.",
+            "en": "Her usual set, Bonekrusha (碾骨), prioritizing damage and Battle Skill, with the chest from Type 50 Yinglung as the flexible piece for some energy recharge. The video tells it at set level, without fixing the pieces one by one."
+          },
+          "deepNote": {
+            "es": "El origen de todas las cargas: su Battle Skill abre cada vuelta, sus Combos dejan los remolinos, y la Battle Skill de la octava cadena los cobra — Waterspouts extra y SP de vuelta — justo antes del burst.",
+            "en": "The origin of every layer: her Battle Skill opens each lap, her Combos leave the Whirlpools, and the Battle Skill of the eighth chain cashes them — extra Waterspouts and SP back — right before the burst."
+          }
+        },
+        {
+          "id": "xaihi",
+          "role": "Buffer",
+          "weaponId": null,
+          "gearRec": null,
+          "weaponNote": {
+            "es": "El video no fija su arma.",
+            "en": "The video does not fix her weapon."
+          },
+          "gearNote": {
+            "es": "Set Eternal Xiranite (长息) buscando el máximo Intellect: los kits nuevos de atributo secundario en pareja y, de peto, la pieza suelta sin set que da Intellect y recarga — el catálogo de la app no cubre esa pieza suelta, así que a nivel de set.",
+            "en": "Eternal Xiranite set (长息) chasing maximum Intellect: the new secondary-attribute kits as a pair and, for the chest, the loose set-less piece granting Intellect and recharge — the catalog of the app does not cover that loose piece, so set level it is."
+          },
+          "deepNote": {
+            "es": "El cristal pauta las cadenas — dos curas, dos Final Strikes, Combo con carga al agotarse — y su Ultimate abre el burst con el amp de Cryo y Nature que escala con Intellect.",
+            "en": "The crystal paces the chains — two heals, two Final Strikes, Combo with a layer as it runs dry — and her Ultimate opens the burst with the Cryo and Nature amp scaling with Intellect."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Yvonne con su set de crítico MI Security, Arcane con cuatro piezas Eternal Xiranite hacia los 640 de Will, Tangtang en Bonekrusha con peto Yinglung y Xaihi en Eternal Xiranite de Intellect con peto suelto sin set. Todo a nivel de set — el canal reparte las piezas exactas en sus videos de builds — y con dos piezas sueltas que el catálogo de la app no cubre.",
+          "en": "Yvonne on her MI Security crit set, Arcane on four Eternal Xiranite pieces toward 640 Will, Tangtang on Bonekrusha with the Yinglung chest and Xaihi on Intellect Eternal Xiranite with a loose set-less chest. All at set level — the channel spreads the exact pieces across its build videos — and with two loose pieces the catalog of the app does not cover."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Last Rite como carry",
+              "en": "Last Rite as the carry"
+            },
+            "swap": {
+              "es": "Anunciada por el autor con cambios pequeños sin detallar; su build de siempre para ella es el set Tide Surge.",
+              "en": "Announced by the author with small changes left undetailed; his usual build for her is the Tide Surge set."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Gilberta en el equipo",
+              "en": "Gilberta on the team"
+            },
+            "swap": {
+              "es": "Con su arma BIS: set Hot Work priorizando Arts Intensity, con peto Eternal Xiranite. Sin su arma: Eternal Xiranite completo priorizando recarga y, cuando se pueda, Arts Intensity.",
+              "en": "With her BIS weapon: Hot Work set prioritizing Arts Intensity, with an Eternal Xiranite chest. Without her weapon: full Eternal Xiranite prioritizing recharge and, when possible, Arts Intensity."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Sin Tangtang",
+              "en": "Without Tangtang"
+            },
+            "swap": {
+              "es": "La propia guía lista a Gilberta, Perlica, Ardelia y hasta Snowshine (Cryo) como buenas alternativas alrededor de Yvonne. La versión con Gilberta existe armada al detalle en el catálogo: el burst de Corrosión de YZ-月咒, el mismo dúo Yvonne + Arcane WILL con Gilberta en este asiento. Ten presente que aquí Tangtang es el origen de las cargas que el Combo de Arcane duplica: su relevo natural de Cryo es Snowshine, sin rotación pautada en el video. El catálogo también cubre los equipos de Yvonne sin Arcane: Xaihi · Gilberta más Perlica, Alesh o Ardelia.",
+              "en": "The guide itself lists Gilberta, Perlica, Ardelia and even Snowshine (Cryo) as good alternatives around Yvonne. The Gilberta version exists fully built in the catalog: the Corrosion burst from YZ-月咒, the same Yvonne + Arcane WILL duo with Gilberta in this seat. Keep in mind that here Tangtang is the origin of the layers the Combo from Arcane doubles: her natural Cryo relief is Snowshine, with no charted rotation in the video. The catalog also covers the Yvonne teams without Arcane: Xaihi · Gilberta plus Perlica, Alesh or Ardelia."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": {
+        "es": "Zn0nym0us - Yvonne para empezar (Snowshine)",
+        "en": "Zn0nym0us - Yvonne for starters (Snowshine)"
+      },
+      "subtitle": {
+        "es": "Snowshine · Gilberta · Xaihi; dificultad 2/5 — la Yvonne con paraguas: parry, cura y margen de error",
+        "en": "Snowshine · Gilberta · Xaihi; difficulty 2/5 — Yvonne with an umbrella: parry, healing and room for error"
+      },
+      "blurb": {
+        "es": "El primer equipo de la guía de Yvonne de Zn0nym0us (era 1.0-1.1, con permiso del autor), pensado para quien la estrena: Snowshine es «el soporte más amigable para principiantes» — protección, Cryo Infliction, SP de vuelta y Solidification con su Ultimate. No es el máximo daño para Yvonne y el autor lo dice sin vueltas: lo que compras es facilidad de ejecución y espacio para equivocarte. Toda la guía corre sin preparación previa al combate («no prep, no pre-cast»), con la misma filosofía endgame de sus otras series.",
+        "en": "The first team of the Yvonne guide from Zn0nym0us (1.0-1.1 era, with permission from the author), meant for whoever fields her first: Snowshine is «the most beginner friendly support» — protection, Cryo Infliction, SP refund and Solidification with her Ultimate. It is not the maximum damage for Yvonne and the author says so plainly: what you buy is ease of execution and space to make mistakes. The whole guide runs with zero pre-fight preparation («no prep, no pre-cast»), on the same endgame philosophy as his other series."
+      },
+      "guideVideoId": "yvzn1",
+      "simple": {
+        "whatItDoes": {
+          "es": "Xaihi y Snowshine fabrican la Cryo Infliction con sus Battle Skills; la Battle Skill de Yvonne la consume para forzar Solidification, gana energía por stack y regala el Final Strike de su talento; y los Combos de Gilberta y Yvonne se guardan hasta que la Solidification esté por caducar — el daño crítico doblado de su segundo talento vive de esa espera. El burst abre con el Ultimate de Snowshine, mete el de Xaihi, y cierra con el de Yvonne y la Corrosion del de Gilberta retrasado hasta que Yvonne se agacha.",
+          "en": "Xaihi and Snowshine manufacture the Cryo Infliction with their Battle Skills; the Battle Skill from Yvonne consumes it to force Solidification, gains energy per stack and gifts the Final Strike from her talent; and the Combos from Gilberta and Yvonne get held until the Solidification is about to expire — the doubled crit damage from her second talent lives off that wait. The burst opens with the Ultimate from Snowshine, weaves in the one from Xaihi, and closes with the one from Yvonne plus the Corrosion from the delayed Gilberta Ultimate once Yvonne crouches."
+        },
+        "steps": [
+          {
+            "who": "xaihi",
+            "do": {
+              "es": "Battle Skills de Xaihi y de Snowshine; dos cadenas de básicos con Yvonne y el Combo de Xaihi.",
+              "en": "Battle Skills from Xaihi and from Snowshine; two chains of basics from Yvonne and the Combo from Xaihi."
+            }
+          },
+          {
+            "who": "yvonne",
+            "do": {
+              "es": "Battle Skill de Yvonne: Solidification, energía por stack y el Final Strike gratis del talento.",
+              "en": "Battle Skill from Yvonne: Solidification, energy per stack and the free talent Final Strike."
+            }
+          },
+          {
+            "who": "gilberta",
+            "do": {
+              "es": "Los Combos de Gilberta y Yvonne se GUARDAN: se sueltan cuando la Solidification esté por acabar.",
+              "en": "The Combos from Gilberta and Yvonne get HELD: release them as the Solidification nears its end."
+            }
+          },
+          {
+            "who": "snowshine",
+            "do": {
+              "es": "Bucle de Battle Skills de Xaihi y Snowshine para re-apilar Cryo, hasta ~80% de la barra de Stagger.",
+              "en": "A loop of Battle Skills from Xaihi and Snowshine to restack Cryo, until ~80% of the Stagger bar."
+            }
+          },
+          {
+            "who": "yvonne",
+            "do": {
+              "es": "Burst: Ultimate de Snowshine, Battle Skill de Yvonne y Ultimate de Xaihi; Final Strike, Finisher, Combos, Ultimate de Yvonne — y el de Gilberta retrasado hasta el agachado, para la Corrosion.",
+              "en": "Burst: Ultimate from Snowshine, Battle Skill from Yvonne and Ultimate from Xaihi; Final Strike, Finisher, Combos, Ultimate from Yvonne — and the one from Gilberta delayed until the crouch, for the Corrosion."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "yvonne",
+            "line": {
+              "es": "Crítico hasta rozar el 70%: su Ultimate pone el 30% restante.",
+              "en": "Crit up to ~70%: her Ultimate supplies the remaining 30%."
+            }
+          },
+          {
+            "id": "snowshine",
+            "line": {
+              "es": "Su valor es de kit (parry, SP, Solidification); el video no fija piezas.",
+              "en": "Her value is kit-side (parry, SP, Solidification); the video fixes no pieces."
+            }
+          },
+          {
+            "id": "gilberta",
+            "line": {
+              "es": "Su 7% de eficiencia de Ultimate ahorra una Battle Skill por ciclo.",
+              "en": "Her 7% Ultimate efficiency saves one Battle Skill per cycle."
+            }
+          },
+          {
+            "id": "xaihi",
+            "line": {
+              "es": "Chivalric Virtues o Detonation Unit; Eternal Xiranite con un peto suelto de cura y eficiencia.",
+              "en": "Chivalric Virtues or Detonation Unit; Eternal Xiranite with a loose chest for healing and efficiency."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "La guía abre con la aritmética que gobierna a toda Yvonne: para una rotación de dos Battle Skills suyas hacen falta cuatro Battle Skills del equipo apilando Infliction — dos suyas que ponen dos stacks cada una, los dos Combos aterrizados y una extra — y con Gilberta en el equipo, su talento de eficiencia (7%) descuenta una. Sobre esa base, el equipo de Snowshine es la versión con red: su Battle Skill reduce el daño recibido cuando no puedes esquivar — durante el Ultimate de Yvonne, por ejemplo — y con el cristal de Xaihi la vida vuelve sola; su parry es la vía reactiva de apilar Cryo si te atacan. El bucle es corto: Battle Skills de Xaihi y Snowshine, dos cadenas, Combo de Xaihi, Battle Skill de Yvonne para la Solidification con su Final Strike de talento, y los Combos de Gilberta y Yvonne guardados hasta el final de la Solidification — el crítico doblado del talento Freezing Point paga esa paciencia. El burst tiene su coreografía: Snowshine primero, el Ultimate de Xaihi ni pronto ni tarde (si sale pronto, el amp caduca a mitad de burst), y el remate con el Ultimate de Yvonne y el de Gilberta retrasado hasta que ella se agacha — ahí nace la Corrosion, el mismo matiz de timing que la escuela de YZ documenta con sus 0.5 segundos. Dificultad 2/5, recomendado para quien sufre de supervivencia o estrena a Yvonne.",
+        "en": "The guide opens with the arithmetic that governs every Yvonne: a rotation of two of her Battle Skills needs four team Battle Skills stacking Infliction — two of hers placing two stacks each, both Combos landed and one extra — and with Gilberta on the team, her efficiency talent (7%) discounts one. On that base, the Snowshine team is the version with a net: her Battle Skill reduces damage taken when you cannot dodge — during the Ultimate from Yvonne, for instance — and with the crystal from Xaihi health returns on its own; her parry is the reactive lane for stacking Cryo when attacked. The loop is short: Battle Skills from Xaihi and Snowshine, two chains, Combo from Xaihi, Battle Skill from Yvonne for the Solidification with her talent Final Strike, and the Combos from Gilberta and Yvonne held until the end of the Solidification — the doubled crit from the talent Freezing Point pays for that patience. The burst has its choreography: Snowshine first, the Ultimate from Xaihi neither early nor late (too early and the amp expires mid-burst), and the finish with the Ultimate from Yvonne plus the one from Gilberta delayed until she crouches — there the Corrosion is born, the same timing nuance the YZ school documents with its 0.5 seconds. Difficulty 2/5, recommended for anyone struggling with survivability or fielding Yvonne for the first time."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Baja (2/5 del autor)",
+          "en": "Low (2/5 from the author)"
+        },
+        "content": {
+          "es": "Boss / Endgame (sin preparación previa)",
+          "en": "Boss / Endgame (no pre-fight prep)"
+        },
+        "tags": [
+          {
+            "es": "Para empezar",
+            "en": "Starter"
+          },
+          {
+            "es": "Supervivencia",
+            "en": "Survivability"
+          },
+          {
+            "es": "Solidification guardada",
+            "en": "Held Solidification"
+          },
+          {
+            "es": "Parry reactivo",
+            "en": "Reactive parry"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "Fácil de aprender, ejecutar y repetir — con margen de error declarado por el autor.",
+          "en": "Easy to learn, execute and repeat — with room for error declared by the author."
+        },
+        {
+          "es": "Supervivencia real: la Battle Skill de Snowshine cubre los momentos sin esquiva y el cristal de Xaihi devuelve la vida.",
+          "en": "Real survivability: the Battle Skill from Snowshine covers the dodge-less moments and the crystal from Xaihi returns the health."
+        },
+        {
+          "es": "SP de vuelta en el kit de Snowshine: el equipo hambriento de SP respira.",
+          "en": "SP refund in the Snowshine kit: the SP-hungry team breathes."
+        }
+      ],
+      "cons": [
+        {
+          "es": "No es el máximo daño para Yvonne — el intercambio explícito por la facilidad.",
+          "en": "Not the maximum damage for Yvonne — the explicit trade for the ease."
+        },
+        {
+          "es": "El parry de Snowshine cuesta SP: úsalo como reacción, no como rutina.",
+          "en": "The Snowshine parry costs SP: use it as a reaction, not a routine."
+        },
+        {
+          "es": "Era 1.0-1.1, sin clear medido.",
+          "en": "1.0-1.1 era, no measured clear."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "La Solidification se estira, no se gasta",
+            "en": "The Solidification gets stretched, not spent"
+          },
+          "body": {
+            "es": "El talento Freezing Point dobla el daño crítico de Yvonne contra enemigos Solidificados: por eso los Combos de Gilberta y Yvonne esperan al final de la ventana en vez de dispararse al abrirse. Cada segundo de Solidification es crítico doblado.",
+            "en": "The talent Freezing Point doubles the crit damage from Yvonne against Solidified enemies: hence the Combos from Gilberta and Yvonne wait for the end of the window instead of firing as it opens. Every second of Solidification is doubled crit."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "La aritmética de las cuatro Battle Skills",
+            "en": "The four Battle Skill arithmetic"
+          },
+          "body": {
+            "es": "El autor lo reduce a números: cuatro Battle Skills del equipo por rotación de dos de Yvonne, y una menos si Gilberta está — su talento paga un 7% de eficiencia de Ultimate. Es el tipo de umbral que convierte una rotación en un plan.",
+            "en": "The author reduces it to numbers: four team Battle Skills per two-skill Yvonne rotation, one fewer with Gilberta present — her talent pays 7% Ultimate efficiency. The kind of threshold that turns a rotation into a plan."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "El agachado que fabrica Corrosion",
+            "en": "The crouch that manufactures Corrosion"
+          },
+          "body": {
+            "es": "El Ultimate de Gilberta se retrasa hasta que Yvonne se agacha en el suyo: su Nature cae entonces sobre el campo correcto y nace la Corrosion — el mismo matiz que la escuela de YZ mide en 0.5 segundos tras el giro.",
+            "en": "The Ultimate from Gilberta gets delayed until Yvonne crouches inside hers: her Nature then lands on the right field and the Corrosion is born — the same nuance the YZ school measures as 0.5 seconds after the spin."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Bucle de carga",
+            "en": "Charge loop"
+          },
+          "action": {
+            "es": "Dos Battle Skills fabrican, Yvonne consume, y los Combos esperan su mejor segundo.",
+            "en": "Two Battle Skills manufacture, Yvonne consumes, and the Combos wait for their best second."
+          },
+          "steps": [
+            {
+              "who": "xaihi",
+              "do": {
+                "es": "Battle Skill de Xaihi y detrás la de Snowshine; dos cadenas de básicos con Yvonne — la segunda dispara el Combo de Xaihi.",
+                "en": "Battle Skill from Xaihi then the one from Snowshine; two chains of basics from Yvonne — the second fires the Combo from Xaihi."
+              }
+            },
+            {
+              "who": "yvonne",
+              "do": {
+                "es": "Battle Skill de Yvonne: consume los stacks, fuerza Solidification, gana energía por stack — y su talento convierte el siguiente básico en Final Strike con daño extra. Ese golpe enciende los Combos de Gilberta y Yvonne.",
+                "en": "Battle Skill from Yvonne: consumes the stacks, forces Solidification, gains energy per stack — and her talent turns the next basic into a Final Strike with bonus damage. That hit lights the Combos from Gilberta and Yvonne."
+              },
+              "key": true
+            },
+            {
+              "who": "gilberta",
+              "do": {
+                "es": "NO sueltes esos Combos aún: espera a que la Solidification esté por caducar y suelta entonces los dos — el crítico doblado cobra la ventana entera.",
+                "en": "Do NOT release those Combos yet: wait until the Solidification nears expiry and then release both — the doubled crit collects the whole window."
+              },
+              "key": true
+            },
+            {
+              "who": "snowshine",
+              "do": {
+                "es": "Vuelve al bucle de Battle Skills de Xaihi y Snowshine para re-apilar Cryo. Repite hasta ~80% de la barra de Stagger.",
+                "en": "Return to the loop of Battle Skills from Xaihi and Snowshine to restack Cryo. Repeat until ~80% of the Stagger bar."
+              }
+            }
+          ],
+          "tip": {
+            "es": "Golpe grande a la vista y sin esquiva disponible: Battle Skill de Snowshine — su reducción de daño existe para esos segundos, y su parry apila Cryo si te pegan.",
+            "en": "Big hit incoming and no dodge available: Battle Skill from Snowshine — her damage reduction exists for those seconds, and her parry stacks Cryo when struck."
+          }
+        },
+        {
+          "phase": {
+            "es": "Preparación y burst",
+            "en": "Prep and burst"
+          },
+          "action": {
+            "es": "Una Battle Skill de Xaihi y una cadena de preparación; la escalera de Ultimates con el de Gilberta al agachado.",
+            "en": "One Battle Skill from Xaihi and one prep chain; the Ultimate ladder with the Gilberta one on the crouch."
+          },
+          "steps": [
+            {
+              "who": "xaihi",
+              "do": {
+                "es": "Al ~80% de Stagger: Battle Skill de Xaihi y una cadena completa con Yvonne — el Combo de Xaihi queda preparado para el burst.",
+                "en": "At ~80% Stagger: Battle Skill from Xaihi and one full chain from Yvonne — the Combo from Xaihi sits prepped for the burst."
+              }
+            },
+            {
+              "who": "snowshine",
+              "do": {
+                "es": "Ultimate de Snowshine, Battle Skill de Yvonne y Ultimate de Xaihi — ni antes ni después: pronto, y su amp caduca a mitad de burst.",
+                "en": "Ultimate from Snowshine, Battle Skill from Yvonne and Ultimate from Xaihi — neither sooner nor later: early, and her amp expires mid-burst."
+              },
+              "key": true
+            },
+            {
+              "who": "yvonne",
+              "do": {
+                "es": "Final Strike (el jefe cae aturdido) y Finisher; ese golpe dispara el Combo de Xaihi preparado. Combo de Gilberta, Combo de Yvonne y su Ultimate.",
+                "en": "Final Strike (the boss drops Staggered) and a Finisher; that hit fires the prepped Combo from Xaihi. Combo from Gilberta, Combo from Yvonne and her Ultimate."
+              }
+            },
+            {
+              "who": "gilberta",
+              "do": {
+                "es": "Retén el Ultimate de Gilberta hasta que Yvonne se agache dentro del suyo: entonces suéltalo — Corrosion puesta.",
+                "en": "Hold the Ultimate from Gilberta until Yvonne crouches inside hers: then release it — Corrosion in place."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "Cada jefe tiene su barra: si sobra Stagger, más básicos o una vuelta extra; si falta, recorta Final Strikes.",
+            "en": "Every boss has its bar: with Stagger to spare, more basics or one extra lap; short on it, trim the Final Strikes."
+          }
+        }
+      ],
+      "rotationVariants": [],
+      "skillPriority": [],
+      "pitfalls": [
+        {
+          "es": "Soltar el Combo de Gilberta nada más encenderse: la Solidification se rompe pronto y pierdes el crítico doblado del tramo largo.",
+          "en": "Releasing the Combo from Gilberta as soon as it lights: the Solidification breaks early and you lose the doubled crit of the long stretch."
+        },
+        {
+          "es": "Ultimate de Xaihi adelantado: su amp caduca antes de que el burst termine.",
+          "en": "An early Ultimate from Xaihi: her amp expires before the burst ends."
+        },
+        {
+          "es": "Ultimate de Gilberta sin esperar el agachado: la Corrosion no sale.",
+          "en": "The Ultimate from Gilberta without waiting for the crouch: the Corrosion does not come out."
+        },
+        {
+          "es": "Abusar del parry de Snowshine: cuesta SP que el equipo no tiene de sobra.",
+          "en": "Overusing the Snowshine parry: it costs SP the team does not have to spare."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "Las Yvonne del catálogo (Maygi, 棉被, YZ)",
+            "en": "The catalog Yvonnes (Maygi, 棉被, YZ)"
+          },
+          "verdict": {
+            "es": "El propio autor lista también el equipo con Alesh y el de Perlica·Gilberta — que ya viven aquí documentados por 棉被 y Maygi (convergencia independiente de tres comunidades). Esta versión con Snowshine es la única con red de seguridad de verdad: su hueco es el jugador nuevo.",
+            "en": "The author also lists the Alesh team and the Perlica·Gilberta one — already living here documented by 棉被 and Maygi (independent convergence of three communities). This Snowshine version is the only one with a true safety net: its niche is the new player."
+          }
+        },
+        {
+          "name": {
+            "es": "Los descartes razonados del autor",
+            "en": "The reasoned discards from the author"
+          },
+          "verdict": {
+            "es": "Akekuri queda fuera con dato nuevo incluido: su Link no funciona con el Ultimate de Yvonne, su buff tiene poco uptime y el SP se desborda en el burst. Estella, fuera por depender del Shatter y de su propio Combo para arrancar.",
+            "en": "Akekuri stays out with a new fact included: her Link does not work with the Ultimate from Yvonne, her buff has low uptime and the SP overcaps during the burst. Estella, out for depending on the Shatter and her own Combo to get going."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "yvonne",
+          "role": "Carry",
+          "weaponId": "wpn_pistol_0010",
+          "gearRec": null,
+          "weaponNote": {
+            "es": "Su arma BIS solo si vas a por potencial 1 o el refinado del arma — dicho por el autor. Para F2P: Wedge, o la estándar de la tienda del arsenal; inversión que además sirve a futuros DPS de crítico.",
+            "en": "Her BIS weapon only if you go for potential 1 or the weapon refinement — per the author. For F2P: Wedge, or the standard one from the arsenal shop; an investment that also serves future crit DPS."
+          },
+          "gearNote": {
+            "es": "Crítico hasta rozar el 70%: su Ultimate aporta 30% al tope de stacks, y el objetivo es cerrar el 100%. El autor midió ~10% de diferencia entre la build de crítico y la de LYNX Slab — y prefiere la consistencia del crítico.",
+            "en": "Crit up to ~70%: her Ultimate adds 30% at max stacks, and the goal is closing the 100%. The author measured ~10% between the crit build and the LYNX Slab one — and prefers the consistency of crit."
+          },
+          "deepNote": {
+            "es": "Battle Skill que consume stacks (Solidification + energía por stack), el Final Strike gratis del talento Barrage of Technology, y Freezing Point doblando el daño crítico contra Solidificados — el motivo de guardar los Combos.",
+            "en": "A Battle Skill that consumes stacks (Solidification plus energy per stack), the free Final Strike from the talent Barrage of Technology, and Freezing Point doubling crit damage against the Solidified — the reason for holding the Combos."
+          }
+        },
+        {
+          "id": "snowshine",
+          "role": "Support",
+          "weaponId": null,
+          "gearRec": null,
+          "weaponNote": {
+            "es": "El video no fija su arma.",
+            "en": "The video does not fix her weapon."
+          },
+          "gearNote": {
+            "es": "El video no fija piezas: su aporte es de kit.",
+            "en": "The video fixes no pieces: her contribution is kit-side."
+          },
+          "deepNote": {
+            "es": "Protección y Cryo con la Battle Skill, sustain con el Combo, Solidification con el Ultimate — y el parry como vía reactiva de apilar Cryo, pagando SP.",
+            "en": "Protection and Cryo with the Battle Skill, sustain with the Combo, Solidification with the Ultimate — and the parry as the reactive lane for stacking Cryo, at an SP cost."
+          }
+        },
+        {
+          "id": "gilberta",
+          "role": "Buffer",
+          "weaponId": null,
+          "gearRec": null,
+          "weaponNote": {
+            "es": "El video no fija su arma.",
+            "en": "The video does not fix her weapon."
+          },
+          "gearNote": {
+            "es": "Su talento paga un 7% de eficiencia de Ultimate al equipo — la Battle Skill que la aritmética descuenta.",
+            "en": "Her talent pays 7% Ultimate efficiency to the team — the Battle Skill the arithmetic discounts."
+          },
+          "deepNote": {
+            "es": "Nature Infliction, agrupado contra la única debilidad de Yvonne (el AoE), Arts Susceptibility — y la Corrosion del cierre con el Ultimate retrasado al agachado.",
+            "en": "Nature Infliction, grouping against the only weakness of Yvonne (AoE), Arts Susceptibility — and the closing Corrosion with the Ultimate delayed to the crouch."
+          }
+        },
+        {
+          "id": "xaihi",
+          "role": "Buffer",
+          "weaponId": null,
+          "gearRec": null,
+          "weaponNote": {
+            "es": "Chivalric Virtues o Detonation Unit, a elección — las dos que el autor da.",
+            "en": "Chivalric Virtues or Detonation Unit, either — the two the author gives."
+          },
+          "gearNote": {
+            "es": "Eternal Xiranite con un peto suelto de cura y eficiencia de Ultimate, según se oye en el audio.",
+            "en": "Eternal Xiranite with a loose chest for healing and Ultimate efficiency, as heard in the audio."
+          },
+          "deepNote": {
+            "es": "«El mejor miembro para cualquier equipo de Yvonne»: Cryo con el Combo, amp o cura con el cristal, más daño Cryo recibido por talento y el amp del Ultimate.",
+            "en": "«The best team member for any Yvonne team»: Cryo with the Combo, amp or healing with the crystal, extra Cryo damage taken through her talent and the Ultimate amp."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Yvonne de crítico hacia el 70% (el Ultimate pone el resto); Xaihi en Eternal Xiranite con Chivalric Virtues o Detonation Unit; Gilberta aportando su 7% de eficiencia; Snowshine a valor de kit. Era 1.0-1.1.",
+          "en": "Yvonne on crit toward 70% (the Ultimate supplies the rest); Xaihi on Eternal Xiranite with Chivalric Virtues or Detonation Unit; Gilberta adding her 7% efficiency; Snowshine at kit value. 1.0-1.1 era."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Ya no necesitas la red",
+              "en": "You no longer need the net"
+            },
+            "swap": {
+              "es": "Last Rite en el asiento de Snowshine (2.5/5): mismo rol de SP y Cryo, sin protección y con daño extra — en esta misma pestaña.",
+              "en": "Last Rite in the Snowshine seat (2.5/5): the same SP-and-Cryo role, no protection and extra damage — on this same tab."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": {
+        "es": "Zn0nym0us - Yvonne con Last Rite de acompañante",
+        "en": "Zn0nym0us - Yvonne with Last Rite along"
+      },
+      "subtitle": {
+        "es": "Last Rite · Gilberta · Xaihi; 2.5/5 — el asiento de Snowshine cambiado por daño, con aviso de celos incluido",
+        "en": "Last Rite · Gilberta · Xaihi; 2.5/5 — the Snowshine seat traded for damage, jealousy warning included"
+      },
+      "blurb": {
+        "es": "La segunda escalera de la guía de Yvonne de Zn0nym0us (era 1.0-1.1, con permiso del autor): Last Rite ocupa el rol de Snowshine — SP de vuelta y Cryo Infliction — sin la protección y con daño extra de su Battle Skill, más un buff de equipo vía su set Frontiers. El aviso del autor es de los que valen la ficha: si maximizas a Yvonne, Last Rite pierde buena parte de su propio daño, porque no le dejas stacks de Cryo que consumir. Dos carries de hielo comparten despensa.",
+        "en": "The second rung of the Yvonne guide from Zn0nym0us (1.0-1.1 era, with permission from the author): Last Rite takes the Snowshine role — SP refund and Cryo Infliction — without the protection and with extra damage from her Battle Skill, plus a team buff through her Frontiers set. The warning from the author earns the sheet: maximize Yvonne and Last Rite loses a good part of her own damage, because no Cryo stacks are left for her to consume. Two Cryo carries share one pantry."
+      },
+      "guideVideoId": "yvzn1",
+      "simple": {
+        "whatItDoes": {
+          "es": "El mismo esqueleto del equipo de Snowshine — fabricar Cryo, consumir con la Battle Skill de Yvonne, guardar los Combos para el final de la Solidification — con Last Rite alimentando el bucle desde su Battle Skill. Si el jefe tarda en aturdirse, la válvula es suya: Battle Skill de Yvonne a 3-4 stacks y el Combo de Last Rite para darle energía a ella; su Ultimate suele llegar al segundo Stagger.",
+          "en": "The same skeleton as the Snowshine team — manufacture Cryo, consume with the Battle Skill from Yvonne, hold the Combos for the end of the Solidification — with Last Rite feeding the loop from her Battle Skill. If the boss staggers slow, the valve is hers: Battle Skill from Yvonne at 3-4 stacks and the Combo from Last Rite to hand her energy; her Ultimate tends to arrive by the second Stagger."
+        },
+        "steps": [
+          {
+            "who": "lastrite",
+            "do": {
+              "es": "Battle Skills de Xaihi y de Last Rite; dos cadenas con Yvonne y el Combo de Xaihi; Battle Skill de Yvonne a 2 stacks.",
+              "en": "Battle Skills from Xaihi and from Last Rite; two chains from Yvonne and the Combo from Xaihi; Battle Skill from Yvonne at 2 stacks."
+            }
+          },
+          {
+            "who": "gilberta",
+            "do": {
+              "es": "Como siempre: Combos de Gilberta y Yvonne guardados hasta el final de la Solidification.",
+              "en": "As always: Combos from Gilberta and Yvonne held until the end of the Solidification."
+            }
+          },
+          {
+            "who": "lastrite",
+            "do": {
+              "es": "Bucle de Battle Skills de Xaihi y Last Rite hasta ~90% de la barra de Stagger.",
+              "en": "A loop of Battle Skills from Xaihi and Last Rite until ~90% of the Stagger bar."
+            }
+          },
+          {
+            "who": "xaihi",
+            "do": {
+              "es": "Preparación: Battle Skill de Xaihi y una cadena de Yvonne; su Battle Skill y el Ultimate de Xaihi.",
+              "en": "Prep: Battle Skill from Xaihi and one chain from Yvonne; her Battle Skill and the Ultimate from Xaihi."
+            }
+          },
+          {
+            "who": "yvonne",
+            "do": {
+              "es": "El mismo burst del equipo de Snowshine — Final Strike, Finisher, Combos, Ultimate de Yvonne y la Corrosion de Gilberta al agachado.",
+              "en": "The same burst as the Snowshine team — Final Strike, Finisher, Combos, Ultimate from Yvonne and the Gilberta Corrosion on the crouch."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "yvonne",
+            "line": {
+              "es": "Crítico hacia el 70%; el Ultimate pone el resto.",
+              "en": "Crit toward 70%; the Ultimate supplies the rest."
+            }
+          },
+          {
+            "id": "lastrite",
+            "line": {
+              "es": "Set Frontiers: su buff de equipo al recuperar SP.",
+              "en": "Frontiers set: her team buff on SP recovery."
+            }
+          },
+          {
+            "id": "gilberta",
+            "line": {
+              "es": "Su 7% de eficiencia sigue descontando una Battle Skill.",
+              "en": "Her 7% efficiency still discounts one Battle Skill."
+            }
+          },
+          {
+            "id": "xaihi",
+            "line": {
+              "es": "Chivalric Virtues o Detonation Unit; Xiranite.",
+              "en": "Chivalric Virtues or Detonation Unit; Xiranite."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "Es el equipo de Snowshine con el asiento de la niñera vendido por daño. Last Rite cumple el mismo contrato de SP y Cryo — su Battle Skill devuelve SP y deja Infliction con más control que el parry — y añade lo suyo: daño propio en cada casteo y el buff de equipo del set Frontiers al recuperar SP. La rotación no cambia de esqueleto: dos cadenas, Combo de Xaihi, Battle Skill de Yvonne a dos stacks, Combos guardados hasta el final de la Solidification, y el bucle de Battle Skills hasta el ~90% de Stagger — diez puntos más tarde que con Snowshine, porque este equipo prepara más rápido. La flexibilidad está pautada: si el jefe tarda en aturdirse, Battle Skill de Yvonne a 3-4 stacks y el Combo de Last Rite le da energía; su Ultimate «suele llegar al segundo Stagger». Y la letra pequeña que justifica la ficha entera: maximizar a Yvonne significa dejar a Last Rite sin stacks que consumir — su daño baja, y el autor lo declara en vez de esconderlo. 2.5/5 de dificultad: fácil, con un carry de bolsillo dentro.",
+        "en": "It is the Snowshine team with the babysitter seat sold for damage. Last Rite honors the same SP-and-Cryo contract — her Battle Skill refunds SP and leaves Infliction with more control than the parry — and adds her own: personal damage per cast and the Frontiers set team buff on SP recovery. The rotation keeps its skeleton: two chains, Combo from Xaihi, Battle Skill from Yvonne at two stacks, Combos held until the end of the Solidification, and the Battle Skill loop until ~90% Stagger — ten points later than with Snowshine, because this team preps faster. The flexibility is scripted: if the boss staggers slow, Battle Skill from Yvonne at 3-4 stacks and the Combo from Last Rite hands her energy; her Ultimate «tends to arrive by the second Stagger». And the fine print that earns the whole sheet: maximizing Yvonne means leaving Last Rite no stacks to consume — her damage drops, and the author declares it instead of hiding it. 2.5/5 difficulty: easy, with a pocket carry inside."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Baja (2.5/5 del autor)",
+          "en": "Low (2.5/5 from the author)"
+        },
+        "content": {
+          "es": "Boss / Endgame (sin preparación previa)",
+          "en": "Boss / Endgame (no pre-fight prep)"
+        },
+        "tags": [
+          {
+            "es": "Doble Cryo",
+            "en": "Double Cryo"
+          },
+          {
+            "es": "SP de vuelta",
+            "en": "SP refund"
+          },
+          {
+            "es": "Solidification guardada",
+            "en": "Held Solidification"
+          },
+          {
+            "es": "Buff de set",
+            "en": "Set buff"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "Más daño que la versión de Snowshine manteniendo la facilidad (2.5/5).",
+          "en": "More damage than the Snowshine version while keeping the ease (2.5/5)."
+        },
+        {
+          "es": "Cryo con control fino: la Battle Skill de Last Rite pone la Infliction cuando tú quieres.",
+          "en": "Cryo with fine control: the Battle Skill from Last Rite places the Infliction when you want it."
+        },
+        {
+          "es": "El set Frontiers convierte cada retorno de SP en buff para todos.",
+          "en": "The Frontiers set turns every SP refund into a buff for everyone."
+        }
+      ],
+      "cons": [
+        {
+          "es": "Menos supervivencia que con Snowshine — desaparece la reducción de daño.",
+          "en": "Less survivability than with Snowshine — the damage reduction disappears."
+        },
+        {
+          "es": "El conflicto declarado: Yvonne al máximo deja a Last Rite sin stacks, y su daño personal cae.",
+          "en": "The declared conflict: a maxed Yvonne leaves Last Rite stackless, and her personal damage drops."
+        },
+        {
+          "es": "Era 1.0-1.1, sin clear medido.",
+          "en": "1.0-1.1 era, no measured clear."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "El mismo contrato, otra moneda",
+            "en": "The same contract, another currency"
+          },
+          "body": {
+            "es": "SP y Cryo son el contrato del asiento; Snowshine paga con protección, Last Rite con daño y su buff de set. La rotación ni se entera del cambio — solo el marcador.",
+            "en": "SP and Cryo are the seat contract; Snowshine pays in protection, Last Rite in damage plus her set buff. The rotation never notices the swap — only the scoreboard does."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "La válvula de los 3-4 stacks",
+            "en": "The 3-4 stack valve"
+          },
+          "body": {
+            "es": "Contra jefes lentos de aturdir, la Battle Skill de Yvonne espera a 3-4 stacks y el Combo de Last Rite le paga energía a ella: la rotación se auto-regula y el Ultimate de Last Rite encuentra su sitio en el segundo Stagger.",
+            "en": "Against slow-staggering bosses, the Battle Skill from Yvonne waits for 3-4 stacks and the Combo from Last Rite pays her energy: the rotation self-regulates and the Ultimate from Last Rite finds its place on the second Stagger."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Bucle de carga",
+            "en": "Charge loop"
+          },
+          "action": {
+            "es": "El esqueleto de Snowshine con Last Rite en la fábrica.",
+            "en": "The Snowshine skeleton with Last Rite at the factory."
+          },
+          "steps": [
+            {
+              "who": "lastrite",
+              "do": {
+                "es": "Battle Skills de Xaihi y de Last Rite; dos cadenas con Yvonne y el Combo de Xaihi.",
+                "en": "Battle Skills from Xaihi and from Last Rite; two chains from Yvonne and the Combo from Xaihi."
+              }
+            },
+            {
+              "who": "yvonne",
+              "do": {
+                "es": "Battle Skill de Yvonne a 2 stacks: Solidification, energía y el Final Strike del talento.",
+                "en": "Battle Skill from Yvonne at 2 stacks: Solidification, energy and the talent Final Strike."
+              },
+              "key": true
+            },
+            {
+              "who": "gilberta",
+              "do": {
+                "es": "Combos de Gilberta y Yvonne guardados hasta que la Solidification esté por caducar; luego el bucle de Battle Skills hasta ~90% de Stagger.",
+                "en": "Combos from Gilberta and Yvonne held until the Solidification nears expiry; then the Battle Skill loop until ~90% Stagger."
+              }
+            }
+          ],
+          "tip": {
+            "es": "Jefe lento de aturdir: Battle Skill de Yvonne a 3-4 stacks y Combo de Last Rite — energía para ella y su Ultimate al segundo Stagger.",
+            "en": "Slow-staggering boss: Battle Skill from Yvonne at 3-4 stacks and the Combo from Last Rite — energy for her and her Ultimate on the second Stagger."
+          }
+        },
+        {
+          "phase": {
+            "es": "Preparación y burst",
+            "en": "Prep and burst"
+          },
+          "action": {
+            "es": "La misma coreografía de la casa: Xaihi a tiempo, Combos al Stagger, Corrosion al agachado.",
+            "en": "The house choreography: Xaihi on time, Combos on the Stagger, Corrosion on the crouch."
+          },
+          "steps": [
+            {
+              "who": "xaihi",
+              "do": {
+                "es": "Battle Skill de Xaihi y cadena de Yvonne; Battle Skill de Yvonne y Ultimate de Xaihi.",
+                "en": "Battle Skill from Xaihi and a chain from Yvonne; Battle Skill from Yvonne and the Ultimate from Xaihi."
+              }
+            },
+            {
+              "who": "yvonne",
+              "do": {
+                "es": "Final Strike y Finisher sobre el Stagger; Combos preparados, Ultimate de Yvonne, y el de Gilberta retrasado al agachado para la Corrosion.",
+                "en": "Final Strike and Finisher on the Stagger; prepped Combos, Ultimate from Yvonne, and the Gilberta one delayed to the crouch for the Corrosion."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "El Ultimate de Last Rite entra donde el segundo Stagger lo reciba — no lo fuerces dentro del primero.",
+            "en": "The Ultimate from Last Rite goes where the second Stagger receives it — do not force it into the first."
+          }
+        }
+      ],
+      "rotationVariants": [],
+      "skillPriority": [],
+      "pitfalls": [
+        {
+          "es": "Dejar que Last Rite consuma los stacks de Yvonne: el conflicto de despensa declarado — aquí Yvonne come primero.",
+          "en": "Letting Last Rite consume the stacks from Yvonne: the declared pantry conflict — here Yvonne eats first."
+        },
+        {
+          "es": "Los mismos tres relojes de la casa: Combos guardados, Xaihi a tiempo, Gilberta al agachado.",
+          "en": "The same three house clocks: held Combos, Xaihi on time, Gilberta on the crouch."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "La versión con Snowshine",
+            "en": "The Snowshine version"
+          },
+          "verdict": {
+            "es": "Mismo esqueleto, intercambio declarado: protección por daño. Quien venga aprendiendo desde aquella, entra a esta sin reaprender nada.",
+            "en": "The same skeleton, a declared trade: protection for damage. Whoever learned on that one enters this one relearning nothing."
+          }
+        },
+        {
+          "name": {
+            "es": "El dúo Yvonne + Last Rite en otras escuelas",
+            "en": "The Yvonne + Last Rite duo in other schools"
+          },
+          "verdict": {
+            "es": "Nuestra ficha del hielo de YZ con Last Rite de carry mira el dúo desde el otro lado: allí Yvonne no está y Last Rite come entera. Este equipo es el espejo — útil para decidir a quién alimentas según tu inversión.",
+            "en": "Our YZ Cryo sheet with Last Rite as the carry looks at the duo from the other side: there Yvonne is absent and Last Rite eats whole. This team is the mirror — useful for deciding whom you feed by investment."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "yvonne",
+          "role": "Carry",
+          "weaponId": "wpn_pistol_0010",
+          "gearRec": null,
+          "weaponNote": {
+            "es": "BIS solo con potencial 1 o refinado en mente; F2P: Wedge o la estándar del arsenal.",
+            "en": "BIS only with potential 1 or the refinement in mind; F2P: Wedge or the arsenal standard."
+          },
+          "gearNote": {
+            "es": "Crítico hacia el 70% — el Ultimate cierra el 100 — como en toda la guía.",
+            "en": "Crit toward 70% — the Ultimate closes the 100 — as across the guide."
+          },
+          "deepNote": {
+            "es": "Los mismos tres pilares: Battle Skill que consume, Final Strike de talento, y Freezing Point doblando el crítico sobre Solidificados.",
+            "en": "The same three pillars: a consuming Battle Skill, the talent Final Strike, and Freezing Point doubling crit on the Solidified."
+          }
+        },
+        {
+          "id": "lastrite",
+          "role": "Sub-DPS",
+          "weaponId": null,
+          "gearRec": null,
+          "weaponNote": {
+            "es": "El video no fija su arma en este equipo.",
+            "en": "The video does not fix her weapon on this team."
+          },
+          "gearNote": {
+            "es": "Set Frontiers: cada retorno de SP paga el buff de daño del equipo.",
+            "en": "Frontiers set: every SP refund pays the team damage buff."
+          },
+          "deepNote": {
+            "es": "SP y Cryo con control desde su Battle Skill, daño propio de regalo — y la advertencia: sin stacks que consumir, su parte del marcador baja.",
+            "en": "SP and Cryo with control from her Battle Skill, personal damage as a gift — and the warning: with no stacks to consume, her share of the scoreboard drops."
+          }
+        },
+        {
+          "id": "gilberta",
+          "role": "Buffer",
+          "weaponId": null,
+          "gearRec": null,
+          "weaponNote": {
+            "es": "El video no fija su arma.",
+            "en": "The video does not fix her weapon."
+          },
+          "gearNote": {
+            "es": "Su 7% de eficiencia de Ultimate sigue descontando una Battle Skill del ciclo.",
+            "en": "Her 7% Ultimate efficiency still discounts one Battle Skill from the cycle."
+          },
+          "deepNote": {
+            "es": "Nature, agrupado y la Corrosion del agachado — idéntica a su papel en toda la guía.",
+            "en": "Nature, grouping and the crouch Corrosion — identical to her role across the guide."
+          }
+        },
+        {
+          "id": "xaihi",
+          "role": "Buffer",
+          "weaponId": null,
+          "gearRec": null,
+          "weaponNote": {
+            "es": "Chivalric Virtues o Detonation Unit.",
+            "en": "Chivalric Virtues or Detonation Unit."
+          },
+          "gearNote": {
+            "es": "Eternal Xiranite con el peto suelto de cura y eficiencia.",
+            "en": "Eternal Xiranite with the loose healing-and-efficiency chest."
+          },
+          "deepNote": {
+            "es": "La constante de todos los equipos de Yvonne: Cryo, amp y cura desde el cristal.",
+            "en": "The constant of every Yvonne team: Cryo, amp and healing from the crystal."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Yvonne de crítico hacia el 70%; Last Rite en Frontiers con su buff por SP; Gilberta y Xaihi como en toda la guía. Era 1.0-1.1.",
+          "en": "Yvonne on crit toward 70%; Last Rite on Frontiers with her SP buff; Gilberta and Xaihi as across the guide. 1.0-1.1 era."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Te falta supervivencia",
+              "en": "You lack survivability"
+            },
+            "swap": {
+              "es": "Vuelve a Snowshine (2/5): mismo esqueleto con red.",
+              "en": "Return to Snowshine (2/5): the same skeleton with a net."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Quieres que Last Rite sea la protagonista",
+              "en": "You want Last Rite as the lead"
+            },
+            "swap": {
+              "es": "El hielo de YZ con Last Rite de carry vive en su propia pestaña — allí nadie le roba los stacks.",
+              "en": "The YZ Cryo with Last Rite as the carry lives on its own tab — there nobody steals her stacks."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": {
+        "es": "Zn0nym0us - Yvonne sin Gilberta (Perlica y Ardelia)",
+        "en": "Zn0nym0us - Yvonne without Gilberta (Perlica and Ardelia)"
+      },
+      "subtitle": {
+        "es": "Perlica · Ardelia · Xaihi; 4.5/5 — alto daño F2P con el timing del 90% del Combo de Perlica",
+        "en": "Perlica · Ardelia · Xaihi; 4.5/5 — high F2P damage on the 90% timing of the Combo from Perlica"
+      },
+      "blurb": {
+        "es": "El equipo para quien no tiene a Gilberta (era 1.0-1.1, con permiso del autor): Ardelia toma el asiento con su Corrosion por Combo, su Physical Susceptibility y la cura del Ultimate — sin arreglar el hambre de SP, y con una regla de exclusión que el autor deja clara: Ardelia y Gilberta juntas NO, porque la Vulnerability del Combo de Gilberta impide que el de Ardelia se dispare. Alto daño y sustain a cambio del timing más fino de la guía salvo el 5/5: el Combo de Perlica se cronometra al 90% de su cooldown.",
+        "en": "The team for whoever lacks Gilberta (1.0-1.1 era, with permission from the author): Ardelia takes the seat with her Combo Corrosion, her Physical Susceptibility and the Ultimate healing — without fixing the SP hunger, and with an exclusion rule the author makes plain: Ardelia and Gilberta together, NO — the Vulnerability from the Combo of Gilberta stops the one from Ardelia from firing. High damage and sustain in exchange for the finest timing in the guide short of the 5/5: the Combo from Perlica gets clocked at 90% of its cooldown."
+      },
+      "guideVideoId": "yvzn1",
+      "simple": {
+        "whatItDoes": {
+          "es": "Perlica pone la Electrification, Ardelia fabrica Corrosion con su Combo y la consume en Susceptibility con su Battle Skill, Xaihi sostiene el Cryo, y Yvonne cobra sobre todo eso. El bucle intercala las dos cadenas de Yvonne con los relojes de Perlica y Ardelia, y el burst — Xaihi a Perlica a Yvonne — termina con la fila Perlica, Ardelia Combo, Ardelia Battle Skill y Ardelia Ultimate, en ese orden.",
+          "en": "Perlica places the Electrification, Ardelia manufactures Corrosion with her Combo and consumes it into Susceptibility with her Battle Skill, Xaihi sustains the Cryo, and Yvonne cashes on top of it all. The loop interleaves the two Yvonne chains with the Perlica and Ardelia clocks, and the burst — Xaihi into Perlica into Yvonne — ends with the row Perlica, Ardelia Combo, Ardelia Battle Skill and Ardelia Ultimate, in that order."
+        },
+        "steps": [
+          {
+            "who": "xaihi",
+            "do": {
+              "es": "Battle Skill de Xaihi; primera cadena de Yvonne — dispara el Combo de Ardelia — y su Battle Skill.",
+              "en": "Battle Skill from Xaihi; first chain from Yvonne — it fires the Combo from Ardelia — and her Battle Skill."
+            }
+          },
+          {
+            "who": "perlica",
+            "do": {
+              "es": "Segunda cadena: re-dispara el Combo de Perlica (retenlo un instante antes de usarlo).",
+              "en": "Second chain: it re-fires the Combo from Perlica (hold it a beat before using it)."
+            }
+          },
+          {
+            "who": "yvonne",
+            "do": {
+              "es": "Combo de Xaihi, Battle Skill de Xaihi otra vez, y Battle Skill de Yvonne con el Final Strike extra del talento.",
+              "en": "Combo from Xaihi, Battle Skill from Xaihi again, and Battle Skill from Yvonne with the extra talent Final Strike."
+            }
+          },
+          {
+            "who": "perlica",
+            "do": {
+              "es": "Cadenas midiendo el reloj: el Final Strike de la segunda debe caer con el Combo de Perlica al ~90% de su cooldown.",
+              "en": "Chains against the clock: the Final Strike of the second must land with the Combo from Perlica at ~90% of its cooldown."
+            }
+          },
+          {
+            "who": "yvonne",
+            "do": {
+              "es": "Burst: Combo de Xaihi y Ultimate de Perlica; Battle Skill de Yvonne y Ultimate de Xaihi; Final Strike y Finisher; Combo y Ultimate de Yvonne; y la fila de Ardelia — Combo, Battle Skill, Ultimate.",
+              "en": "Burst: Combo from Xaihi and Ultimate from Perlica; Battle Skill from Yvonne and Ultimate from Xaihi; Final Strike and Finisher; Combo and Ultimate from Yvonne; and the Ardelia row — Combo, Battle Skill, Ultimate."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "yvonne",
+            "line": {
+              "es": "Crítico hacia el 70%.",
+              "en": "Crit toward 70%."
+            }
+          },
+          {
+            "id": "perlica",
+            "line": {
+              "es": "Electrification; el video no fija piezas en este equipo.",
+              "en": "Electrification; the video fixes no pieces on this team."
+            }
+          },
+          {
+            "id": "ardelia",
+            "line": {
+              "es": "Su arma BIS suma daño extra tras consumir Corrosion.",
+              "en": "Her BIS weapon adds extra damage after consuming Corrosion."
+            }
+          },
+          {
+            "id": "xaihi",
+            "line": {
+              "es": "Chivalric Virtues o Detonation Unit; Xiranite.",
+              "en": "Chivalric Virtues or Detonation Unit; Xiranite."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "Dos cosas separan a este equipo del resto de la guía. La primera es la regla de exclusión: Ardelia no convive con Gilberta, porque la Vulnerability que deja el Combo de Gilberta bloquea el disparo del Combo de Ardelia — el mismo requisito de «enemigo limpio» que nuestras fichas de Mi Fu ya le conocen. La segunda es el reloj: el bucle se cronometra para que el Final Strike de la segunda cadena de Yvonne caiga cuando el Combo de Perlica está al ~90% de su cooldown, de modo que la Electrification fresca entre justo antes del burst. El ciclo completo intercala el Combo de Ardelia (Corrosion), su Battle Skill (la consume en Physical y Arts Susceptibility) y los stacks de Xaihi con las cadenas de Yvonne; el burst abre con Combo de Xaihi y Ultimate de Perlica, mete la Battle Skill de Yvonne y el Ultimate de Xaihi, cobra Final Strike y Finisher sobre el Stagger, y cierra con el Ultimate de Yvonne y la fila exacta de Ardelia: Combo, Battle Skill, Ultimate. Alto daño, más F2P que las alternativas y con cura — a cambio, 4.5/5: el autor pide práctica para clavar el timing de Perlica.",
+        "en": "Two things set this team apart from the rest of the guide. First, the exclusion rule: Ardelia does not coexist with Gilberta, because the Vulnerability left by the Combo of Gilberta blocks the trigger of the Combo of Ardelia — the same «clean enemy» requirement our Mi Fu sheets already know of her. Second, the clock: the loop gets timed so the Final Strike of the second Yvonne chain lands when the Combo from Perlica sits at ~90% of its cooldown, so fresh Electrification enters right before the burst. The full cycle interleaves the Combo from Ardelia (Corrosion), her Battle Skill (consuming it into Physical and Arts Susceptibility) and the Xaihi stacks with the Yvonne chains; the burst opens with the Combo from Xaihi and the Ultimate from Perlica, weaves in the Battle Skill from Yvonne and the Ultimate from Xaihi, cashes Final Strike and Finisher on the Stagger, and closes with the Ultimate from Yvonne plus the exact Ardelia row: Combo, Battle Skill, Ultimate. High damage, more F2P than the alternatives and with healing — in exchange, 4.5/5: the author asks for practice to nail the Perlica timing."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Alta (4.5/5 del autor)",
+          "en": "High (4.5/5 from the author)"
+        },
+        "content": {
+          "es": "Boss / Endgame (sin preparación previa)",
+          "en": "Boss / Endgame (no pre-fight prep)"
+        },
+        "tags": [
+          {
+            "es": "Sin Gilberta",
+            "en": "No Gilberta"
+          },
+          {
+            "es": "Corrosion de Ardelia",
+            "en": "Ardelia Corrosion"
+          },
+          {
+            "es": "Reloj del 90%",
+            "en": "The 90% clock"
+          },
+          {
+            "es": "Sustain",
+            "en": "Sustain"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "Alto daño sin Gilberta y más amable con el gasto — con cura de verdad en el Ultimate de Ardelia.",
+          "en": "High damage without Gilberta and friendlier on spending — with true healing in the Ultimate from Ardelia."
+        },
+        {
+          "es": "Corrosion y doble Susceptibility (física y de Arts) saliendo del reloj de Ardelia.",
+          "en": "Corrosion plus double Susceptibility (physical and Arts) coming off the Ardelia clock."
+        },
+        {
+          "es": "El arma BIS de Ardelia convierte cada Corrosion consumida en daño extra para todos.",
+          "en": "The BIS weapon from Ardelia turns every consumed Corrosion into extra damage for everyone."
+        }
+      ],
+      "cons": [
+        {
+          "es": "4.5/5: el timing del 90% del Combo de Perlica no perdona — el propio autor pide testearlo.",
+          "en": "4.5/5: the 90% timing of the Combo from Perlica is unforgiving — the author himself asks you to test it."
+        },
+        {
+          "es": "Ardelia no resuelve el hambre de SP del equipo.",
+          "en": "Ardelia does not solve the SP hunger of the team."
+        },
+        {
+          "es": "Era 1.0-1.1, sin clear medido.",
+          "en": "1.0-1.1 era, no measured clear."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "La exclusión que es mecánica, no opinión",
+            "en": "The exclusion that is mechanics, not opinion"
+          },
+          "body": {
+            "es": "El Combo de Ardelia pide un enemigo sin marcas previas; el de Gilberta deja Vulnerability. Juntas, una bloquea a la otra — por eso este equipo es el reemplazo de Gilberta y no su compañero. Nuestras fichas de Mi Fu documentan el mismo requisito desde el otro lado.",
+            "en": "The Combo from Ardelia asks for an enemy without prior marks; the one from Gilberta leaves Vulnerability. Together, one blocks the other — hence this team replaces Gilberta rather than joining her. Our Mi Fu sheets document the same requirement from the other side."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "El reloj del 90%",
+            "en": "The 90% clock"
+          },
+          "body": {
+            "es": "La Electrification de Perlica debe entrar fresca al burst: por eso el Final Strike de la segunda cadena se cronometra contra su Combo al ~90% de cooldown. Es el mismo tipo de disciplina que la ventana Perlica→Gilberta de la escuela de Maygi — reloj distinto, principio idéntico.",
+            "en": "The Electrification from Perlica must enter the burst fresh: hence the Final Strike of the second chain gets clocked against her Combo at ~90% cooldown. The same kind of discipline as the Perlica→Gilberta window of the Maygi school — different clock, identical principle."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "La fila de Ardelia cierra en orden",
+            "en": "The Ardelia row closes in order"
+          },
+          "body": {
+            "es": "Combo (Corrosion), Battle Skill (la consume en Susceptibility) y Ultimate (cura y Stanza) — en ese orden y al final del burst, para que cada pieza pise la anterior.",
+            "en": "Combo (Corrosion), Battle Skill (consuming it into Susceptibility) and Ultimate (healing and the Stanza) — in that order and at the end of the burst, so each piece lands on the previous one."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Bucle con dos relojes",
+            "en": "Loop with two clocks"
+          },
+          "action": {
+            "es": "Las cadenas de Yvonne intercaladas con el Combo de Ardelia y el reloj del 90% de Perlica.",
+            "en": "The Yvonne chains interleaved with the Combo from Ardelia and the 90% clock from Perlica."
+          },
+          "steps": [
+            {
+              "who": "xaihi",
+              "do": {
+                "es": "Battle Skill de Xaihi de apertura; primera cadena de Yvonne — el Combo de Ardelia se dispara — y Battle Skill de Ardelia detrás.",
+                "en": "Opening Battle Skill from Xaihi; first chain from Yvonne — the Combo from Ardelia fires — and the Battle Skill from Ardelia behind it."
+              }
+            },
+            {
+              "who": "perlica",
+              "do": {
+                "es": "Segunda cadena: re-dispara el Combo de Perlica — retenlo un instante antes de soltarlo.",
+                "en": "Second chain: it re-fires the Combo from Perlica — hold it a beat before releasing."
+              }
+            },
+            {
+              "who": "yvonne",
+              "do": {
+                "es": "Combo de Xaihi y de vuelta a su Battle Skill; tras otro Combo, Battle Skill de Yvonne con su Final Strike extra. Después: los Combos del equipo con la Battle Skill de Xaihi.",
+                "en": "Combo from Xaihi and back into her Battle Skill; after another Combo, Battle Skill from Yvonne with her extra Final Strike. Then: the team Combos along with the Battle Skill from Xaihi."
+              },
+              "key": true
+            },
+            {
+              "who": "perlica",
+              "do": {
+                "es": "Dos cadenas más de Yvonne, cronometrando: el Final Strike de la segunda debe coincidir con el Combo de Perlica al ~90% de su cooldown.",
+                "en": "Two more chains from Yvonne, against the clock: the Final Strike of the second must meet the Combo from Perlica at ~90% of its cooldown."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "Ese 90% es LA habilidad del equipo: practícalo hasta que el reloj te salga sin mirar.",
+            "en": "That 90% is THE skill of this team: practice until the clock comes without looking."
+          }
+        },
+        {
+          "phase": {
+            "es": "Burst",
+            "en": "Burst"
+          },
+          "action": {
+            "es": "Perlica fresca, la escalera de la casa, y la fila de Ardelia al cierre.",
+            "en": "Fresh Perlica, the house ladder, and the Ardelia row at the close."
+          },
+          "steps": [
+            {
+              "who": "perlica",
+              "do": {
+                "es": "Combo de Xaihi y Ultimate de Perlica; Battle Skill de Yvonne y Ultimate de Xaihi.",
+                "en": "Combo from Xaihi and Ultimate from Perlica; Battle Skill from Yvonne and Ultimate from Xaihi."
+              }
+            },
+            {
+              "who": "yvonne",
+              "do": {
+                "es": "Final Strike y Finisher sobre el Stagger; Combo de Yvonne y su Ultimate.",
+                "en": "Final Strike and Finisher on the Stagger; Combo from Yvonne and her Ultimate."
+              },
+              "key": true
+            },
+            {
+              "who": "ardelia",
+              "do": {
+                "es": "La fila exacta: Combo de Ardelia, Battle Skill de Ardelia, Ultimate de Ardelia — en ese orden.",
+                "en": "The exact row: Combo from Ardelia, Battle Skill from Ardelia, Ultimate from Ardelia — in that order."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "La cura del Ultimate de Ardelia llega al final del burst: cuenta con ella al presupuestar el riesgo.",
+            "en": "The healing from the Ultimate of Ardelia arrives at the end of the burst: budget your risk around it."
+          }
+        }
+      ],
+      "rotationVariants": [],
+      "skillPriority": [],
+      "pitfalls": [
+        {
+          "es": "Meter a Gilberta «para ayudar»: su Vulnerability bloquea el Combo de Ardelia — la regla de exclusión del autor.",
+          "en": "Adding Gilberta «to help»: her Vulnerability blocks the Combo from Ardelia — the exclusion rule from the author."
+        },
+        {
+          "es": "Fallar el reloj del 90%: la Electrification entra vieja al burst y el 4.5/5 no se paga.",
+          "en": "Missing the 90% clock: the Electrification enters the burst stale and the 4.5/5 goes unpaid."
+        },
+        {
+          "es": "Desordenar la fila de Ardelia: la Battle Skill sin Corrosion previa no deja Susceptibility.",
+          "en": "Shuffling the Ardelia row: the Battle Skill without prior Corrosion leaves no Susceptibility."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "El techo de la guía (Perlica · Gilberta · Xaihi, 5/5)",
+            "en": "The guide ceiling (Perlica · Gilberta · Xaihi, 5/5)"
+          },
+          "verdict": {
+            "es": "El quinto equipo del video — el de mayor burst y dificultad 5/5 — es exactamente nuestra yv5 de Maygi: tercera comunidad que converge en ese cuarteto. Esta versión con Ardelia es su hermana sin Gilberta: casi el mismo techo, con cura y una exigencia menos de gacha.",
+            "en": "The fifth team of the video — the highest burst at 5/5 difficulty — is exactly our yv5 from Maygi: a third community converging on that quartet. This Ardelia version is its Gilberta-less sibling: almost the same ceiling, with healing and one less gacha demand."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "yvonne",
+          "role": "Carry",
+          "weaponId": "wpn_pistol_0010",
+          "gearRec": null,
+          "weaponNote": {
+            "es": "BIS solo con potencial 1 o refinado en mente; F2P: Wedge o la estándar del arsenal.",
+            "en": "BIS only with potential 1 or the refinement in mind; F2P: Wedge or the arsenal standard."
+          },
+          "gearNote": {
+            "es": "Crítico hacia el 70%, como en toda la guía.",
+            "en": "Crit toward 70%, as across the guide."
+          },
+          "deepNote": {
+            "es": "Los tres pilares de siempre — y aquí, además, la Corrosion de Ardelia sumando al plato.",
+            "en": "The usual three pillars — and here, on top, the Ardelia Corrosion adding to the plate."
+          }
+        },
+        {
+          "id": "perlica",
+          "role": "Buffer",
+          "weaponId": null,
+          "gearRec": null,
+          "weaponNote": {
+            "es": "El video no fija su arma en este equipo.",
+            "en": "The video does not fix her weapon on this team."
+          },
+          "gearNote": {
+            "es": "El video no fija piezas aquí; su reloj — no su panel — es lo que este equipo exige.",
+            "en": "The video fixes no pieces here; her clock — not her panel — is what this team demands."
+          },
+          "deepNote": {
+            "es": "La Electrification que debe entrar fresca al burst: todo el bucle se cronometra contra su Combo.",
+            "en": "The Electrification that must enter the burst fresh: the whole loop gets clocked against her Combo."
+          }
+        },
+        {
+          "id": "ardelia",
+          "role": "Support",
+          "weaponId": null,
+          "gearRec": null,
+          "weaponNote": {
+            "es": "Su arma BIS hace que el enemigo reciba daño extra tras consumir Corrosion — nombrada por el autor como parte del plan.",
+            "en": "Her BIS weapon makes the enemy take extra damage after consuming Corrosion — named by the author as part of the plan."
+          },
+          "gearNote": {
+            "es": "El video no fija piezas: su fila Combo→Battle Skill→Ultimate es el aporte.",
+            "en": "The video fixes no pieces: her Combo→Battle Skill→Ultimate row is the contribution."
+          },
+          "deepNote": {
+            "es": "Corrosion por Combo (con enemigo limpio), consumida en Physical y Arts Susceptibility por su Battle Skill, y cura de cierre con el Ultimate.",
+            "en": "Corrosion per Combo (on a clean enemy), consumed into Physical and Arts Susceptibility by her Battle Skill, and closing heals with the Ultimate."
+          }
+        },
+        {
+          "id": "xaihi",
+          "role": "Buffer",
+          "weaponId": null,
+          "gearRec": null,
+          "weaponNote": {
+            "es": "Chivalric Virtues o Detonation Unit.",
+            "en": "Chivalric Virtues or Detonation Unit."
+          },
+          "gearNote": {
+            "es": "Eternal Xiranite con el peto suelto de cura y eficiencia.",
+            "en": "Eternal Xiranite with the loose healing-and-efficiency chest."
+          },
+          "deepNote": {
+            "es": "El metrónomo de Cryo de toda la guía, también aquí.",
+            "en": "The Cryo metronome of the whole guide, here as well."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Yvonne de crítico hacia el 70%; Ardelia con su arma BIS como multiplicador de la Corrosion; Perlica y Xaihi a valor de kit. Era 1.0-1.1.",
+          "en": "Yvonne on crit toward 70%; Ardelia with her BIS weapon as the Corrosion multiplier; Perlica and Xaihi at kit value. 1.0-1.1 era."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Consigues a Gilberta",
+              "en": "You get Gilberta"
+            },
+            "swap": {
+              "es": "Pasa al techo de la guía — Perlica · Gilberta · Xaihi (5/5, nuestra yv5 de Maygi) — pero saca a Ardelia: juntas se bloquean.",
+              "en": "Move to the guide ceiling — Perlica · Gilberta · Xaihi (5/5, our yv5 from Maygi) — but bench Ardelia: together they block each other."
+            }
+          }
+        ]
+      }
     }
   ]
 }

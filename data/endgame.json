@@ -1,0 +1,261 @@
+{
+  "mode": {
+    "eventId": "echoes-of-war",
+    "name": { "es": "Echoes of War", "en": "Echoes of War" },
+    "rules": {
+      "es": "Tres ciclos por temporada y tres etapas por ciclo, cada una en Normal (1★), Hard (2★) o Brutal (3★). El tope por ciclo es 9★ y tu Final Rating es el mejor ciclo, no la suma. Todo el Oroberyl sale en Normal; las dificultades altas solo suben estrellas y honor rewards.",
+      "en": "Three cycles per season and three stages per cycle, each on Normal (1★), Hard (2★) or Brutal (3★). The cycle cap is 9★ and your Final Rating is your best cycle, not the sum. All the Oroberyl comes from Normal; higher difficulties only raise stars and honor rewards."
+    },
+    "resetNote": {
+      "es": "Fechas del servidor Américas/Europa; en Asia el corte cae en su propio reset.",
+      "en": "Dates are Americas/Europe server; on Asia the cut falls on its own reset."
+    }
+  },
+  "seasons": [
+    {
+      "id": "delirating",
+      "name": { "es": "Season of Delirating", "en": "Season of Delirating" },
+      "dateText": { "es": "Desde el 9 ago · cierre por confirmar", "en": "Since Aug 9 · end date TBC" },
+      "startsAt": "2026-08-09T17:00:00Z",
+      "startsByServer": { "asia": "2026-08-09T04:00:00Z" },
+      "endsAt": null,
+      "notes": [
+        {
+          "es": "Temporada recién abierta: mecánicas, niveles recomendados y bonus de Brutal se confirman cuando el juego los muestra.",
+          "en": "Freshly opened season: mechanics, recommended levels and Brutal bonuses get confirmed as the game reveals them."
+        }
+      ],
+      "cycles": [
+        {
+          "n": 1,
+          "dateText": { "es": "Desde el 9 ago", "en": "Since Aug 9" },
+          "startsAt": "2026-08-09T17:00:00Z",
+          "endsAt": null,
+          "stages": [
+            {
+              "id": "old-tales-of-the-wild",
+              "name": "Old Tales of the Wild",
+              "mech": { "es": "Etapa nueva. Mecánica por confirmar.", "en": "New stage. Mechanic to be confirmed." },
+              "enemies": []
+            },
+            {
+              "id": "brief-history-of-war",
+              "name": "Brief History of War",
+              "mech": { "es": "Etapa nueva. Mecánica por confirmar.", "en": "New stage. Mechanic to be confirmed." },
+              "enemies": []
+            },
+            {
+              "id": "howling-of-undying-beasts",
+              "name": "Howling of Undying Beasts",
+              "mech": {
+                "es": "Jefe Skydrummer: no entra en Enraged, pero llega con +50 de resistencia elemental (así funcionó en Season of Recalling). Bonus de Brutal de esta temporada por confirmar.",
+                "en": "Skydrummer boss: it will not enter its Enraged state, but it comes with +50 elemental resistance (that is how it worked in Season of Recalling). This season's Brutal bonus is to be confirmed."
+              },
+              "enemies": ["eny-0082-hsbear"]
+            }
+          ]
+        },
+        { "n": 2, "dateText": { "es": "Por abrir", "en": "Not open yet" }, "stages": [] },
+        { "n": 3, "dateText": { "es": "Por abrir", "en": "Not open yet" }, "stages": [] }
+      ]
+    },
+    {
+      "id": "virtuality",
+      "name": {
+        "es": "Season of Virtuality",
+        "en": "Season of Virtuality"
+      },
+      "dateText": {
+        "es": "Por llegar · v1.5",
+        "en": "Upcoming · v1.5"
+      },
+      "startsAt": null,
+      "endsAt": null,
+      "notes": [
+        {
+          "es": "Placeholder. El preview oficial de la 1.5 confirma la temporada y que suma tres etapas nuevas sobre la rotación de etapas existentes, pero todavía no hay nombres de etapa ni fechas. Se completa cuando el juego las publique.",
+          "en": "Placeholder. The official 1.5 preview confirms the season and that it adds three new stages on top of the existing stage rotation, but there are no stage names or dates yet. It gets filled in once the game publishes them."
+        }
+      ],
+      "cycles": [
+        {
+          "n": 1,
+          "dateText": {
+            "es": "Por confirmar",
+            "en": "To be confirmed"
+          },
+          "startsAt": null,
+          "endsAt": null,
+          "stages": []
+        },
+        {
+          "n": 2,
+          "dateText": {
+            "es": "Por confirmar",
+            "en": "To be confirmed"
+          },
+          "startsAt": null,
+          "endsAt": null,
+          "stages": []
+        },
+        {
+          "n": 3,
+          "dateText": {
+            "es": "Por confirmar",
+            "en": "To be confirmed"
+          },
+          "startsAt": null,
+          "endsAt": null,
+          "stages": []
+        }
+      ]
+    },
+    {
+      "id": "illusion",
+      "name": {
+        "es": "Season of Illusion",
+        "en": "Season of Illusion"
+      },
+      "dateText": {
+        "es": "Por llegar · v1.5",
+        "en": "Upcoming · v1.5"
+      },
+      "startsAt": null,
+      "endsAt": null,
+      "notes": [
+        {
+          "es": "Placeholder. Va después de Season of Virtuality dentro de la 1.5, también con tres etapas nuevas. Nombres de etapa y fechas por confirmar.",
+          "en": "Placeholder. It follows Season of Virtuality within 1.5, also with three new stages. Stage names and dates to be confirmed."
+        }
+      ],
+      "cycles": [
+        {
+          "n": 1,
+          "dateText": {
+            "es": "Por confirmar",
+            "en": "To be confirmed"
+          },
+          "startsAt": null,
+          "endsAt": null,
+          "stages": []
+        },
+        {
+          "n": 2,
+          "dateText": {
+            "es": "Por confirmar",
+            "en": "To be confirmed"
+          },
+          "startsAt": null,
+          "endsAt": null,
+          "stages": []
+        },
+        {
+          "n": 3,
+          "dateText": {
+            "es": "Por confirmar",
+            "en": "To be confirmed"
+          },
+          "startsAt": null,
+          "endsAt": null,
+          "stages": []
+        }
+      ]
+    },
+    {
+      "id": "recalling",
+      "name": { "es": "Season of Recalling", "en": "Season of Recalling" },
+      "dateText": { "es": "16 jul – 9 ago", "en": "Jul 16 – Aug 9" },
+      "endsAt": "2026-08-09T17:00:00Z",
+      "endsByServer": { "asia": "2026-08-09T04:00:00Z" },
+      "notes": [
+        {
+          "es": "Niveles recomendados de la temporada: 60 · 75 · 90. Bonus de Brutal del Ciclo I: limpiar en 3 minutos.",
+          "en": "Season recommended levels: 60 · 75 · 90. Cycle I Brutal bonus: clear within 3 minutes."
+        }
+      ],
+      "cycles": [
+        {
+          "n": 1,
+          "dateText": { "es": "15 – 23 jul", "en": "Jul 15 – 23" },
+          "stages": [
+            {
+              "id": "scars-of-landbreaking",
+              "name": "Scars of Landbreaking",
+              "mech": {
+                "es": "Bonecrusher Vanguard, Arsonist y Executioner + Heavy Ram. Derrotar enemigos te da buffs de stat, pero la curación está restringida a HP Treatment. Bonus de Brutal: limpiar en 3 min.",
+                "en": "Bonecrusher Vanguard, Arsonist and Executioner + Heavy Ram. Defeating enemies grants stat buffs, but healing is restricted to HP Treatment. Brutal bonus: clear within 3 min."
+              },
+              "enemies": ["eny-0023-aghornb"]
+            },
+            {
+              "id": "silver-watercutter",
+              "name": "Silver Watercutter",
+              "mech": {
+                "es": "Tras aplicar Arts Infliction 20 veces, todos tus operadores ganan Final DMG Dealt +50%. Bonus de Brutal: limpiar en 3 min.",
+                "en": "After applying Arts Infliction 20 times, all your operators gain Final DMG Dealt +50%. Brutal bonus: clear within 3 min."
+              },
+              "enemies": []
+            },
+            {
+              "id": "howling-of-undying-beasts",
+              "name": "Howling of Undying Beasts",
+              "mech": {
+                "es": "Jefe Skydrummer: no entra en Enraged, pero llega con +50 de resistencia elemental. Bonus de Brutal: limpiar en 3 min.",
+                "en": "Skydrummer boss: it won't enter its Enraged state, but it comes with +50 elemental resistance. Brutal bonus: clear within 3 min."
+              },
+              "enemies": ["eny-0082-hsbear"]
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "dateText": { "es": "23 – 30 jul", "en": "Jul 23 – 30" },
+          "stages": [
+            {
+              "id": "skirmishers-aethillu",
+              "name": "Skirmisher's Æthillu",
+              "mech": { "es": "Mecánica sin documentar en la app.", "en": "Mechanic not documented in the app." },
+              "enemies": []
+            },
+            {
+              "id": "silver-watercutter",
+              "name": "Silver Watercutter",
+              "mech": { "es": "Repite del Ciclo I.", "en": "Repeats from Cycle I." },
+              "enemies": []
+            },
+            {
+              "id": "age-of-axes",
+              "name": "Age of Axes",
+              "mech": { "es": "Mecánica sin documentar en la app.", "en": "Mechanic not documented in the app." },
+              "enemies": []
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "dateText": { "es": "30 jul – 9 ago", "en": "Jul 30 – Aug 9" },
+          "stages": [
+            {
+              "id": "pulverizing-ammunition",
+              "name": "Pulverizing Ammunition",
+              "mech": { "es": "Mecánica sin documentar en la app.", "en": "Mechanic not documented in the app." },
+              "enemies": []
+            },
+            {
+              "id": "scars-of-landbreaking",
+              "name": "Scars of Landbreaking",
+              "mech": { "es": "Repite del Ciclo I.", "en": "Repeats from Cycle I." },
+              "enemies": ["eny-0023-aghornb"]
+            },
+            {
+              "id": "age-of-axes",
+              "name": "Age of Axes",
+              "mech": { "es": "Repite del Ciclo II.", "en": "Repeats from Cycle II." },
+              "enemies": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

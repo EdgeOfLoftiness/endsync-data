@@ -1,6 +1,463 @@
 {
   "events": [
     {
+      "id": "trial-of-the-bow",
+      "accent": "#57b98b",
+      "upcoming": true,
+      "kicker": {
+        "es": "Evento de reto · 1.5",
+        "en": "Challenge event · 1.5"
+      },
+      "title": {
+        "es": "PRUEBA DEL ARCO",
+        "en": "TRIAL OF THE BOW",
+        "zh": "弓之试炼"
+      },
+      "difficulty": "Puzzle",
+      "summary": {
+        "es": "El campo de tiro del Bosque Nevado, donde estudias las flechas especiales de Sami y usas sus propiedades para resolver cada reto. Vas mejorando el campo para desbloquear más tipos de flecha, y cambias Chips de flecha sobre la marcha según el objetivo. Cuando el evento limitado cierra, el modo queda permanente.",
+        "en": "The Snowy Forest archery range, where you study the special Sami arrows and use their properties to solve each challenge. You upgrade the range to unlock more arrow types, and swap Arrow Chips on the fly to match each target. When the limited-time run closes, the mode stays permanent."
+      },
+      "tags": [
+        "limited",
+        "permanent-after",
+        "Arrow Chips",
+        "Oroberyl"
+      ],
+      "blocks": [
+        {
+          "type": "hero",
+          "meta": [
+            {
+              "k": {
+                "es": "Tipo",
+                "en": "Type"
+              },
+              "v": {
+                "es": "Reto por tiempo limitado",
+                "en": "Limited-time challenge"
+              }
+            },
+            {
+              "k": {
+                "es": "Fechas",
+                "en": "Dates"
+              },
+              "v": {
+                "es": "Por confirmar",
+                "en": "To be confirmed"
+              }
+            },
+            {
+              "k": {
+                "es": "Dónde",
+                "en": "Where"
+              },
+              "v": {
+                "es": "Campo de tiro del Bosque Nevado",
+                "en": "Snowy Forest archery range"
+              }
+            },
+            {
+              "k": {
+                "es": "Al cerrar",
+                "en": "When it closes"
+              },
+              "v": {
+                "es": "Queda como modo permanente",
+                "en": "It stays as a permanent mode"
+              }
+            }
+          ]
+        },
+        {
+          "type": "lead",
+          "body": {
+            "es": "Se abre a medida que avanza la historia de Typhoeus. El Endmin la acompaña al campo de tiro a estudiar las flechas especiales de Sami, y cada reto se resuelve aprovechando las propiedades de la flecha que toca. La primera vez que completas la simulación te llevas recompensas únicas, Oroberyl incluido.",
+            "en": "It opens as the story of Typhoeus moves along. The Endmin joins her at the archery range to study the special Sami arrows, and each challenge is solved by leaning on the properties of the right arrow. The first time you complete the simulation you take home one-time rewards, Oroberyl included."
+          }
+        },
+        {
+          "type": "pillars",
+          "h": {
+            "es": "Cómo escala",
+            "en": "How it scales"
+          },
+          "items": [
+            {
+              "icon": "1",
+              "h": {
+                "es": "Mejoras el campo de tiro",
+                "en": "You upgrade the range"
+              },
+              "body": {
+                "es": "A medida que avanzas en los retos puedes mejorar el campo de tiro, y eso desbloquea más tipos de flecha y habilita etapas más complejas.",
+                "en": "As you go deeper into the challenges you can upgrade the range, and that unlocks more arrow types and opens up more complex stages."
+              }
+            },
+            {
+              "icon": "2",
+              "h": {
+                "es": "Cambias Chips de flecha en vivo",
+                "en": "You swap Arrow Chips live"
+              },
+              "body": {
+                "es": "En las etapas nuevas hay que adaptarse sobre la marcha: cambiar los Chips de flecha y usar distintas flechas para contrarrestar distintos objetivos. Con la combinación adecuada, el doble de resultado con la mitad del esfuerzo.",
+                "en": "In the new stages you have to adapt on the fly: swap the Arrow Chips and use different arrows to counter different targets. With the right combo, twice the result for half the effort."
+              }
+            },
+            {
+              "icon": "3",
+              "h": {
+                "es": "Ejercicio diario que rota",
+                "en": "Daily Exercise that rotates"
+              },
+              "body": {
+                "es": "Una vez que limpias las etapas, las de Ejercicio diario varían cada día y puede que necesites un enfoque nuevo para sacarlas.",
+                "en": "Once you clear the stages, the Daily Exercise ones vary every day and you may need a fresh approach to take them down."
+              }
+            }
+          ]
+        },
+        {
+          "type": "meta",
+          "h": {
+            "es": "Misiones de prueba",
+            "en": "Trial Missions"
+          },
+          "body": {
+            "es": "Durante el evento hay misiones de prueba por tiempo limitado que dan recompensas generosas, con Oroberyl entre ellas. Ojo: esas recompensas se cobran una sola vez, no son repetibles.",
+            "en": "While the event runs there are limited-time trial missions handing out generous rewards, Oroberyl among them. Mind this: those rewards are claimed once, they do not repeat."
+          }
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "h": {
+            "es": "No lo dejes para el final… pero tampoco corras",
+            "en": "Do not leave it for last, but do not rush either"
+          },
+          "body": {
+            "es": "Las recompensas de las misiones de prueba SÍ tienen fecha límite, así que esas conviene sacarlas dentro del evento. Las etapas en sí no se pierden: cuando el evento limitado cierra, Prueba del arco queda como modo permanente y lo puedes seguir jugando.",
+            "en": "The trial mission rewards DO have a deadline, so those are worth clearing while the event is live. The stages themselves are not lost: once the limited-time run closes, Trial of the Bow stays as a permanent mode and you can keep playing it."
+          }
+        },
+        {
+          "type": "callout",
+          "variant": "warn",
+          "h": {
+            "es": "Datos pendientes",
+            "en": "Pending data"
+          },
+          "body": {
+            "es": "Fechas, cantidad de etapas y lista de tipos de flecha todavía no están publicadas. Esta ficha se arma con lo que confirmó el programa oficial de la versión y se completa cuando el evento abra.",
+            "en": "Dates, stage count and the list of arrow types are not published yet. This page is built from what the official version program confirmed, and gets completed once the event opens."
+          }
+        }
+      ]
+    },
+    {
+      "id": "runners-steeplechase",
+      "accent": "#e2762e",
+      "upcoming": true,
+      "kicker": {
+        "es": "Evento de diversión · 1.5",
+        "en": "Fun & games event · 1.5"
+      },
+      "title": {
+        "es": "CARRERA DE OBSTÁCULOS DE LOS CORREDORES",
+        "en": "RUNNERS' STEEPLECHASE"
+      },
+      "difficulty": "Parkour",
+      "summary": {
+        "es": "El evento ligero de la 1.5, en la segunda mitad de la versión. Yvonne llega a la Ciudad de Wuling e invita al Endmin a las festividades: pistas por senderos de montaña, techos y aire, con impulsores, vórtices y trampas. Puedes correr contra el reloj o explorar a tu ritmo juntando globos de Lung regordete.",
+        "en": "The light event of 1.5, in the second half of the version. Yvonne arrives in Wuling City and invites the Endmin to the festivities: tracks across mountain paths, rooftops and open air, with bounce devices, vortexes and traps. You can race the clock or explore at your own pace collecting Chubby Lung Balloons."
+      },
+      "tags": [
+        "limited",
+        "parkour",
+        "Chubby Lung Balloons",
+        "Oroberyl"
+      ],
+      "blocks": [
+        {
+          "type": "hero",
+          "meta": [
+            {
+              "k": {
+                "es": "Tipo",
+                "en": "Type"
+              },
+              "v": {
+                "es": "Diversión y juegos",
+                "en": "Fun & games"
+              }
+            },
+            {
+              "k": {
+                "es": "Fase",
+                "en": "Phase"
+              },
+              "v": {
+                "es": "Segunda mitad de la 1.5",
+                "en": "Second half of 1.5"
+              }
+            },
+            {
+              "k": {
+                "es": "Fechas",
+                "en": "Dates"
+              },
+              "v": {
+                "es": "Por confirmar",
+                "en": "To be confirmed"
+              }
+            },
+            {
+              "k": {
+                "es": "Dónde",
+                "en": "Where"
+              },
+              "v": {
+                "es": "Ciudad de Wuling",
+                "en": "Wuling City"
+              }
+            }
+          ]
+        },
+        {
+          "type": "lead",
+          "body": {
+            "es": "La pista de atletismo de la Ciudad de Wuling, esa por la que siempre ves gente trotando, se convierte en el escenario del evento. Desde senderos de montaña hasta los techos de la ciudad, y hasta por el aire: todo rincón termina siendo un paraíso del atletismo.",
+            "en": "The running track in Wuling City, the one you always see citizens jogging on, becomes the stage for the event. From mountain paths to city rooftops, and even through the air: every corner ends up being a runner paradise."
+          }
+        },
+        {
+          "type": "pillars",
+          "h": {
+            "es": "Dos formas de jugarlo",
+            "en": "Two ways to play it"
+          },
+          "items": [
+            {
+              "icon": "1",
+              "h": {
+                "es": "A toda velocidad",
+                "en": "Full speed"
+              },
+              "body": {
+                "es": "Vas directo a la meta. Llegar dentro del límite de tiempo otorga premios generosos, Oroberyl incluido.",
+                "en": "You go straight for the finish line. Reaching it inside the time limit awards generous prizes, Oroberyl included."
+              }
+            },
+            {
+              "icon": "2",
+              "h": {
+                "es": "A tu ritmo",
+                "en": "At your own pace"
+              },
+              "body": {
+                "es": "Te tomas el tiempo de explorar la pista y juntar todos los globos de Lung regordete. Mientras más globos reúnas, más recompensas de hito desbloqueas.",
+                "en": "You take the time to explore the track and collect every Chubby Lung Balloon. The more balloons you gather, the more milestone rewards you unlock."
+              }
+            },
+            {
+              "icon": "3",
+              "h": {
+                "es": "Usa los mecanismos",
+                "en": "Use the mechanisms"
+              },
+              "body": {
+                "es": "La pista trae dispositivos de impulso, vórtices y otros mecanismos que puedes aprovechar para terminar más rápido. Y no te olvides de que también hay trampas en el camino.",
+                "en": "The track comes with bounce devices, vortexes and other mechanisms you can use to finish faster. And do not forget there are traps along the way too."
+              }
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "h": {
+            "es": "Lo conmemorativo va por globos",
+            "en": "The commemorative stuff comes from balloons"
+          },
+          "body": {
+            "es": "El Oroberyl sale de llegar a la meta a tiempo, pero los objetos conmemorativos como la bebida energética Lung regordete rodante salen de los hitos de globos. Si vas por la colección, la carrera rápida no te alcanza.",
+            "en": "The Oroberyl comes from hitting the finish line in time, but the commemorative items like the Rolling Chubby Lung energy drink come from the balloon milestones. If you are after the collection, the fast run is not enough."
+          }
+        },
+        {
+          "type": "callout",
+          "variant": "warn",
+          "h": {
+            "es": "Datos pendientes",
+            "en": "Pending data"
+          },
+          "body": {
+            "es": "Fechas exactas, número de pistas y la lista completa de hitos todavía no están publicadas. Se completa cuando abra la segunda mitad de la versión.",
+            "en": "Exact dates, number of tracks and the full milestone list are not published yet. It gets completed when the second half of the version opens."
+          }
+        }
+      ]
+    },
+    {
+      "id": "aic-support-chubby-lung",
+      "accent": "#7c9fd4",
+      "upcoming": true,
+      "kicker": {
+        "es": "Soporte del CAI · 1.5",
+        "en": "AIC Support · 1.5"
+      },
+      "title": {
+        "es": "EL LUNG REGORDETE ATACA",
+        "en": "CHUBBY LUNG ATTACKS"
+      },
+      "difficulty": "Factory",
+      "summary": {
+        "es": "Segunda sesión del Soporte del CAI. Produces productos de apoyo con fórmulas por tiempo limitado y los entregas en los puestos de avanzada de Wuling a cambio de Vales de crédito y Certificados de Frutos del Altruismo, que se canjean en la tienda limitada. Durante el evento algunos puestos suben mucho su producción.",
+        "en": "Second session of AIC Support. You produce support goods with limited-time formulas and submit them at Wuling outposts in exchange for Stock Bills and Fruits of Altruism Certs, which are redeemed at the limited-time shop. While it runs, some outposts see a big production boost."
+      },
+      "tags": [
+        "limited",
+        "AIC",
+        "Stock Bills",
+        "shop"
+      ],
+      "blocks": [
+        {
+          "type": "hero",
+          "meta": [
+            {
+              "k": {
+                "es": "Tipo",
+                "en": "Type"
+              },
+              "v": {
+                "es": "Soporte del CAI, sesión 2",
+                "en": "AIC Support, session 2"
+              }
+            },
+            {
+              "k": {
+                "es": "Fechas",
+                "en": "Dates"
+              },
+              "v": {
+                "es": "Por confirmar",
+                "en": "To be confirmed"
+              }
+            },
+            {
+              "k": {
+                "es": "Dónde",
+                "en": "Where"
+              },
+              "v": {
+                "es": "Puestos de avanzada de Wuling",
+                "en": "Wuling outposts"
+              }
+            },
+            {
+              "k": {
+                "es": "Moneda",
+                "en": "Currency"
+              },
+              "v": {
+                "es": "Vales de crédito · Frutos del Altruismo",
+                "en": "Stock Bills · Fruits of Altruism"
+              }
+            }
+          ]
+        },
+        {
+          "type": "lead",
+          "body": {
+            "es": "La recuperación de Wuling sigue siendo un proceso largo, y la Fábrica del CAI está para que la ciudad recupere rápido la vitalidad que perdió. Durante el evento consigues fórmulas por tiempo limitado, produces productos de apoyo especiales y los entregas en los puestos de avanzada.",
+            "en": "The recovery of Wuling is still a long process, and the AIC Factory is there to help the city get back the vitality it lost. During the event you get limited-time formulas, produce special support goods and submit them at the outposts."
+          }
+        },
+        {
+          "type": "pillars",
+          "h": {
+            "es": "El circuito",
+            "en": "The loop"
+          },
+          "items": [
+            {
+              "icon": "1",
+              "h": {
+                "es": "Produces y entregas",
+                "en": "You produce and submit"
+              },
+              "body": {
+                "es": "Las fórmulas limitadas te dejan fabricar productos de apoyo especiales. Los entregas en los puestos de avanzada de Wuling a cambio de Vales de crédito de Wuling y Certificados de Frutos del Altruismo.",
+                "en": "The limited-time formulas let you build special support goods. You submit them at the Wuling outposts in exchange for Wuling Stock Bills and Fruits of Altruism Certs."
+              }
+            },
+            {
+              "icon": "2",
+              "h": {
+                "es": "Canjeas los certificados",
+                "en": "You redeem the certs"
+              },
+              "body": {
+                "es": "Los Certificados de Frutos del Altruismo se canjean por recompensas en la tienda por tiempo limitado.",
+                "en": "The Fruits of Altruism Certs are redeemed for rewards at the limited-time shop."
+              }
+            },
+            {
+              "icon": "3",
+              "h": {
+                "es": "Los puestos rinden más",
+                "en": "The outposts yield more"
+              },
+              "body": {
+                "es": "Mientras dura el evento, los puestos de avanzada correspondientes de Wuling aumentan mucho su producción de vales de crédito, así que acumulas recursos bastante más rápido de lo normal.",
+                "en": "While the event runs, the matching Wuling outposts get a big boost to stock bill yield, so you stack resources quite a bit faster than usual."
+              }
+            }
+          ]
+        },
+        {
+          "type": "meta",
+          "h": {
+            "es": "Lo que mejoraron del canje",
+            "en": "What they improved about the exchange"
+          },
+          "body": {
+            "es": "La versión también trae arreglos de calidad de vida en la tienda del evento, que en la sesión anterior obligaba a dar vueltas.",
+            "en": "The version also brings quality of life fixes to the event shop, which in the previous session made you go back and forth."
+          },
+          "points": [
+            {
+              "es": "Hay un intercambio por tiempo limitado dentro de la propia interfaz del puesto de avanzada, para canjear apenas entregas.",
+              "en": "There is a limited-time exchange inside the outpost interface itself, so you can redeem right after submitting."
+            },
+            {
+              "es": "Al entrar a la tienda por primera vez, los objetos de la primera fase vienen preseleccionados.",
+              "en": "The first time you enter the shop, the first-phase items come preselected."
+            },
+            {
+              "es": "Cuando agotas toda la primera fase, la tienda salta sola a la segunda.",
+              "en": "Once you clear the whole first phase, the shop jumps to the second one on its own."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warn",
+          "h": {
+            "es": "Datos pendientes",
+            "en": "Pending data"
+          },
+          "body": {
+            "es": "Fechas, lista de fórmulas y catálogo de la tienda limitada todavía no están publicados. Se completa cuando el evento abra.",
+            "en": "Dates, formula list and the limited-time shop catalogue are not published yet. It gets completed once the event opens."
+          }
+        }
+      ]
+    },
+    {
       "id": "echoes-of-war",
       "cover": "assets/events/echoes-of-war-banner.webp",
       "accent": "#e02121",

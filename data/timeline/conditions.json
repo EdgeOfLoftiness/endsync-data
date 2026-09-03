@@ -106,7 +106,7 @@
       "multStat": "Bonus DMG Multiplier per Status Level of Electrification Consumed",
       "duringStat": "During Ultimate: Bonus DMG Multiplier per Status Level of Electrification Consumed",
       "duringState": "zfy_ult",
-      "label": "per Electrification consumida"
+      "label": "per Electrification consumed"
      }
     ]
    },
@@ -143,35 +143,35 @@
      {
       "requires": "lvt_ult",
       "multStat": "Enhanced BATK SEQ 1 Multiplier",
-      "label": "BATK mejorado + Sviga Laevi (Ult)"
+      "label": "Enhanced BATK + Sviga Laevi (Ult)"
      }
     ],
     "seq2": [
      {
       "requires": "lvt_ult",
       "multStat": "Enhanced BATK SEQ 2 Multiplier",
-      "label": "BATK mejorado + Sviga Laevi (Ult)"
+      "label": "Enhanced BATK + Sviga Laevi (Ult)"
      }
     ],
     "seq3": [
      {
       "requires": "lvt_ult",
       "multStat": "Enhanced BATK SEQ 3 Multiplier",
-      "label": "BATK mejorado + Sviga Laevi (Ult)"
+      "label": "Enhanced BATK + Sviga Laevi (Ult)"
      }
     ],
     "seq4": [
      {
       "requires": "lvt_ult",
       "multStat": "Enhanced BATK SEQ 4 Multiplier",
-      "label": "BATK mejorado + Sviga Laevi (Ult)"
+      "label": "Enhanced BATK + Sviga Laevi (Ult)"
      }
     ],
     "battle_skill": [
      {
       "requires": "lvt_ult",
       "multStat": "During Ultimate: BATK SEQ 1 Multiplier",
-      "label": "Battle mejorada (Ult): golpe 1 — reemplaza la base"
+      "label": "Enhanced Battle (Ult): hit 1 — replaces the base"
      }
     ]
    },
@@ -180,12 +180,12 @@
      {
       "requires": "lvt_ult",
       "multStat": "During Ultimate: BATK SEQ 2 Multiplier",
-      "label": "Battle mejorada (Ult): golpe 2"
+      "label": "Enhanced Battle (Ult): hit 2"
      },
      {
       "requires": "lvt_ult",
       "multStat": "During Ultimate: Additional ATK Multiplier",
-      "label": "Battle mejorada (Ult): ataque adicional"
+      "label": "Enhanced Battle (Ult): extra attack"
      }
     ]
    },
@@ -209,7 +209,7 @@
       ],
       "multStat": "Additional ATK DMG Multiplier",
       "staggerStat": "Additional ATK Stagger",
-      "label": "Reacción consumida (tiro extra)"
+      "label": "Reaction consumed (extra shot)"
      }
     ]
    },
@@ -296,7 +296,7 @@
      {
       "state": "arts",
       "multStat": "Bonus DMG Multiplier per Infliction Stack",
-      "label": "per Arts Infliction consumida"
+      "label": "per Arts Infliction consumed"
      }
     ]
    },
@@ -359,35 +359,35 @@
      {
       "requires": "yvn_ult",
       "multStat": "BATK DMG Multiplier",
-      "label": "BATK mejorado (Ult)"
+      "label": "Enhanced BATK (Ult)"
      }
     ],
     "seq2": [
      {
       "requires": "yvn_ult",
       "multStat": "BATK DMG Multiplier",
-      "label": "BATK mejorado (Ult)"
+      "label": "Enhanced BATK (Ult)"
      }
     ],
     "seq3": [
      {
       "requires": "yvn_ult",
       "multStat": "BATK DMG Multiplier",
-      "label": "BATK mejorado (Ult)"
+      "label": "Enhanced BATK (Ult)"
      }
     ],
     "seq4": [
      {
       "requires": "yvn_ult",
       "multStat": "BATK DMG Multiplier",
-      "label": "BATK mejorado (Ult)"
+      "label": "Enhanced BATK (Ult)"
      }
     ],
     "seq5": [
      {
       "requiresAll": ["yvn_ult", "solidification"],
       "multStat": "Additional ATK DMG Multiplier",
-      "label": "Ataque adicional (consume Solidification)"
+      "label": "Extra attack (consumes Solidification)"
      }
     ]
    },
@@ -396,7 +396,7 @@
      {
       "requires": "yvn_ult",
       "multStat": "Enhanced Final Strike DMG Multiplier",
-      "label": "Final Strike (cierre de la Ult)"
+      "label": "Final Strike (Ult closer)"
      }
     ]
    },
@@ -609,7 +609,7 @@
      {
       "requires": "arc_array",
       "multStat": "Cluster Strike Total DMG Multiplier",
-      "label": "Cluster Strike (2 golpes, total)"
+      "label": "Cluster Strike (2 hits, total)"
      }
     ]
    },

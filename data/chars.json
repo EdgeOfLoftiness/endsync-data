@@ -21,15 +21,15 @@
     "name_zh": "秋栗",
     "common_gear": {
       "gear": [
-        "frontiers_protection_suit",
-        "frontiers_blight_res_gloves",
-        "frontiers_extra_o2_tube",
-        "redeemer_seal"
+        "frontiers_armor",
+        "frontiers_fiber_gloves",
+        "frontiers_comm",
+        "frontiers_o2_tube"
       ],
       "set": "Frontiers",
-      "setCount": 1,
+      "setCount": 2,
       "count": 1,
-      "builds": 1
+      "builds": 2
     }
   },
   {
@@ -61,7 +61,7 @@
       "set": "Redeemer",
       "setCount": 2,
       "count": 1,
-      "builds": 2
+      "builds": 3
     }
   },
   {
@@ -93,7 +93,7 @@
       "set": "Eternal Xiranite",
       "setCount": 5,
       "count": 3,
-      "builds": 5
+      "builds": 6
     }
   },
   {
@@ -119,14 +119,14 @@
     "common_gear": {
       "gear": [
         "frontiers_armor",
-        "frontiers_fiber_gloves",
+        "frontiers_fiber_gloves_t1",
         "frontiers_comm",
         "frontiers_o2_tube"
       ],
       "set": "Frontiers",
-      "setCount": 3,
-      "count": 1,
-      "builds": 4
+      "setCount": 6,
+      "count": 3,
+      "builds": 7
     }
   },
   {
@@ -156,9 +156,9 @@
         "eternal_xiranite_auxiliary_arm"
       ],
       "set": "Eternal Xiranite",
-      "setCount": 2,
+      "setCount": 3,
       "count": 2,
-      "builds": 2
+      "builds": 4
     }
   },
   {
@@ -206,7 +206,22 @@
     ],
     "name_es": "Catcher",
     "name_jp": "キャッチャー",
-    "name_zh": "卡契尔"
+    "name_zh": "卡契尔",
+    "support_bis_weapons": [
+      "wpn_claym_0006"
+    ],
+    "common_gear": {
+      "gear": [
+        "eternal_xiranite_armor",
+        "eternal_xiranite_gloves_t1",
+        "eternal_xiranite_auxiliary_arm",
+        "eternal_xiranite_auxiliary_arm"
+      ],
+      "set": "Eternal Xiranite",
+      "setCount": 1,
+      "count": 1,
+      "builds": 1
+    }
   },
   {
     "id": "chenqianyu",
@@ -216,7 +231,7 @@
     "r": 5,
     "role": "Enabler",
     "icon": "<img src='assets/characters/chenqianyu_card.webp' class='char-av-img' loading='lazy'>",
-    "bis_weapon": "wpn_sword_0011",
+    "bis_weapon": "wpn_sword_0017",
     "recommended_set": "Qingbo",
     "recommended_gear": [
       "swordmancer_heavy_armor_t1",
@@ -229,16 +244,20 @@
     "name_zh": "陈千语",
     "common_gear": {
       "gear": [
-        "swordmancer_heavy_armor_t1",
-        "qingbo_gauntlets",
-        "qingbo_positioning_kit_t1",
-        "qingbo_positioning_kit_t1"
+        "swordmancer_heavy_armor",
+        "swordmancer_tac_gauntlets",
+        "swordmancer_dagger",
+        "swordmancer_dagger"
       ],
-      "set": "Qingbo",
-      "setCount": 2,
-      "count": 2,
-      "builds": 3
-    }
+      "set": "Swordmancer",
+      "setCount": 4,
+      "count": 3,
+      "builds": 7
+    },
+    "support_bis_weapons": [
+      "wpn_sword_0011",
+      "wpn_sword_0013"
+    ]
   },
   {
     "id": "dapan",
@@ -357,13 +376,13 @@
       "gear": [
         "xiranflow_light_armor",
         "xiranflow_gloves",
-        "lynx_slab",
+        "eternal_xiranite_power_core",
         "xiranflow_baton"
       ],
       "set": "Xiranflow",
-      "setCount": 4,
+      "setCount": 8,
       "count": 4,
-      "builds": 4
+      "builds": 8
     }
   },
   {
@@ -383,7 +402,19 @@
     ],
     "name_es": "Fluorite",
     "name_jp": "フローライト",
-    "name_zh": "萤石"
+    "name_zh": "萤石",
+    "common_gear": {
+      "gear": [
+        "type_50_yinglung_heavy_armor_t1",
+        "type_50_yinglung_gloves",
+        "redeemer_seal",
+        "type_50_yinglung_radar_t2"
+      ],
+      "set": "Type 50 Yinglung",
+      "setCount": 2,
+      "count": 2,
+      "builds": 2
+    }
   },
   {
     "id": "gilberta",
@@ -412,9 +443,9 @@
         "eternal_xiranite_auxiliary_arm"
       ],
       "set": "Eternal Xiranite",
-      "setCount": 11,
+      "setCount": 12,
       "count": 7,
-      "builds": 12
+      "builds": 13
     }
   },
   {
@@ -514,7 +545,7 @@
       "set": "Eternal Xiranite",
       "setCount": 1,
       "count": 1,
-      "builds": 1
+      "builds": 2
     }
   },
   {
@@ -539,15 +570,19 @@
     "common_gear": {
       "gear": [
         "pulser_labs_disruptor_suit",
-        "aethertech_gloves",
+        "eternal_xiranite_gloves_t1",
         "pulser_labs_calibrator",
         "pulser_labs_calibrator"
       ],
       "set": "Pulser Labs",
-      "setCount": 6,
-      "count": 3,
-      "builds": 10
-    }
+      "setCount": 14,
+      "count": 11,
+      "builds": 22
+    },
+    "support_bis_weapons": [
+      "wpn_funnel_0009",
+      "wpn_funnel_0004"
+    ]
   },
   {
     "id": "pogranichnik",
@@ -578,7 +613,7 @@
       "set": "Frontiers",
       "setCount": 4,
       "count": 2,
-      "builds": 4
+      "builds": 8
     }
   },
   {
@@ -663,7 +698,7 @@
       "set": "Qingbo",
       "setCount": 3,
       "count": 2,
-      "builds": 4
+      "builds": 5
     }
   },
   {
@@ -695,7 +730,10 @@
       "setCount": 3,
       "count": 2,
       "builds": 4
-    }
+    },
+    "support_bis_weapons": [
+      "wpn_pistol_0012"
+    ]
   },
   {
     "id": "xaihi",
@@ -781,12 +819,12 @@
         "grizzled_edge_armor",
         "grizzled_edge_gauntlets",
         "grizzled_edge_push_knife",
-        "swordmancer_nav_beacon"
+        "grizzled_edge_push_knife"
       ],
       "set": "Grizzled Edge",
-      "setCount": 5,
-      "count": 3,
-      "builds": 5
+      "setCount": 10,
+      "count": 4,
+      "builds": 10
     }
   },
   {
@@ -898,9 +936,9 @@
         "lynx_slab"
       ],
       "set": "Hot Work",
-      "setCount": 8,
-      "count": 4,
-      "builds": 10
+      "setCount": 9,
+      "count": 5,
+      "builds": 14
     }
   },
   {
@@ -932,7 +970,49 @@
       "set": "Eternal Xiranite",
       "setCount": 4,
       "count": 3,
-      "builds": 5
+      "builds": 6
     }
+  },
+  {
+    "id": "typhoeus",
+    "name": "Typhoeus",
+    "cls": "Striker",
+    "el": "Nature",
+    "r": 6,
+    "role": "Damage",
+    "icon": "<img src='assets/characters/typhoeus_card.webp' class='char-av-img' loading='lazy'>",
+    "name_es": "Typhoeus",
+    "bis_weapon": "wpn_funnel_0019",
+    "support_bis_weapons": [],
+    "recommended_set": "Deep Rampart",
+    "recommended_gear": [
+      "bonekrusha_poncho_t1",
+      "deep_rampart_gauntlets",
+      "deep_rampart_comms",
+      "deep_rampart_comms"
+    ],
+    "common_gear": {
+      "gear": [
+        "bonekrusha_poncho_t1",
+        "deep_rampart_gauntlets",
+        "deep_rampart_comms",
+        "deep_rampart_comms"
+      ],
+      "set": "Deep Rampart",
+      "setCount": 4,
+      "count": 4,
+      "builds": 4
+    },
+    "name_jp": "ティフォロス"
+  },
+  {
+    "id": "purrchena",
+    "name": "Purrchena",
+    "cls": "Defender",
+    "el": "Physical",
+    "r": 5,
+    "role": "Buffer",
+    "icon": "<img src='assets/characters/purrchena_card.webp' class='char-av-img' loading='lazy'>",
+    "name_es": "Purrchena"
   }
 ]

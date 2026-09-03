@@ -3520,6 +3520,342 @@
     "nature": 1,
     "aether": 1
    }
+  },
+  "eny-0127-bigents": {
+   "name": "Gloomwald's Rage",
+   "name_es": "Furia de Gloomwald",
+   "name_jp": "樹海の怒",
+   "name_zh": "幽林之怒",
+   "class": "Alpha",
+   "filename": "eny_0127_bigents",
+   "hp": [
+    3210,
+    15897,
+    100590,
+    396006,
+    952571,
+    1467462
+   ],
+   "atk": [
+    66,
+    310,
+    965,
+    2395,
+    3604,
+    4130
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 400,
+   "staggerMult": 1.5,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 0.8,
+    "cryo": 0.8,
+    "nature": 0.8,
+    "aether": 1
+   }
+  },
+  "eny-0128-babyents": {
+   "name": "Woodcraft Wanderer",
+   "name_es": "Errante de madera",
+   "name_jp": "巡回ゴーレム",
+   "name_zh": "徘徊树傀",
+   "class": "Elite",
+   "filename": "eny_0128_babyents",
+   "hp": [
+    831,
+    5961,
+    37721,
+    148502,
+    357214,
+    550298
+   ],
+   "atk": [
+    49,
+    233,
+    723,
+    1796,
+    2703,
+    3097
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 170,
+   "staggerMult": 1.25,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 0.8,
+    "cryo": 0.8,
+    "nature": 0.8,
+    "aether": 1
+   }
+  },
+  "eny-0129-slwood": {
+   "name": "Woodcraft Slug",
+   "name_es": "Babosa de madera",
+   "name_jp": "ムシ型ゴーレム",
+   "name_zh": "虫体树傀",
+   "class": "Common",
+   "filename": "eny_0129_slwood",
+   "hp": [
+    166,
+    1192,
+    7544,
+    29700,
+    71443,
+    110060
+   ],
+   "atk": [
+    26,
+    124,
+    386,
+    958,
+    1442,
+    1652
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 60,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 1,
+    "cryo": 1,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "tatget-001-normal": {
+   "name": "Basic Target",
+   "name_es": "Objetivo Básico",
+   "name_jp": "的・入門",
+   "name_zh": "新手靶标",
+   "class": "Common",
+   "filename": "tatget_001_normal",
+   "hp": [
+    152,
+    1093,
+    6916,
+    27225,
+    65489,
+    100888
+   ],
+   "atk": [
+    26,
+    124,
+    386,
+    958,
+    1442,
+    1652
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 60,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 0.8,
+    "cryo": 0.8,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "tatget-002-endurance": {
+   "name": "Standard Target",
+   "name_es": "Objetivo estándar",
+   "name_jp": "的・標準",
+   "name_zh": "标准靶标",
+   "class": "Common",
+   "filename": "tatget_002_endurance",
+   "hp": [
+    152,
+    1093,
+    6916,
+    27225,
+    65489,
+    100888
+   ],
+   "atk": [
+    26,
+    124,
+    386,
+    958,
+    1442,
+    1652
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 60,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 0.8,
+    "cryo": 0.8,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "tatget-003-expand": {
+   "name": "Barrier Target",
+   "name_es": "Objetivo con Barrera",
+   "name_jp": "的・妨害",
+   "name_zh": "屏障靶标",
+   "class": "Common",
+   "filename": "tatget_003_expand",
+   "hp": [
+    152,
+    1093,
+    6916,
+    27225,
+    65489,
+    100888
+   ],
+   "atk": [
+    26,
+    124,
+    386,
+    958,
+    1442,
+    1652
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 60,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 0.8,
+    "cryo": 0.8,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "tatget-004-armor": {
+   "name": "Heavy Target",
+   "name_es": "Objetivo pesado",
+   "name_jp": "的・重量型",
+   "name_zh": "重型靶标",
+   "class": "Common",
+   "filename": "tatget_004_armor",
+   "hp": [
+    152,
+    1093,
+    6916,
+    27225,
+    65489,
+    100888
+   ],
+   "atk": [
+    26,
+    124,
+    386,
+    958,
+    1442,
+    1652
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 60,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 0.8,
+    "cryo": 0.8,
+    "nature": 1,
+    "aether": 1
+   }
+  },
+  "tatget-005-shield": {
+   "name": "Energy Shield",
+   "name_es": "Escudo de Energía",
+   "name_jp": "エネルギーシールド",
+   "name_zh": "能量护盾",
+   "class": "Common",
+   "filename": "tatget_005_shield",
+   "hp": [
+    152,
+    1093,
+    6916,
+    27225,
+    65489,
+    100888
+   ],
+   "atk": [
+    26,
+    124,
+    386,
+    958,
+    1442,
+    1652
+   ],
+   "def": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "shp": 60,
+   "staggerMult": 1,
+   "res": {
+    "physical": 1,
+    "heat": 1,
+    "electric": 0.8,
+    "cryo": 0.8,
+    "nature": 1,
+    "aether": 1
+   }
   }
  }
 }

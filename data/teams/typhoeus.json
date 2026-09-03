@@ -1,0 +1,2135 @@
+{
+  "label": "TYPHOEUS",
+  "guideCharId": "typhoeus",
+  "tagline": {
+    "es": "Striker Nature que no apila Inflictions para detonar: casi tres cuartos de su daño son Nature Bursts que ella misma fuerza con sus Hunting Arrows. Su bucle es corto y modular (Battle Skill, Combo cuanto antes, apilar Nature Infliction, repetir) y el daño sale constante en vez de en un nuke. Tiene hambre de Nature Inflictions y muy pocos operadores se las dan: Arcane es la pareja obvia.",
+    "en": "A Nature Striker who does not stack Inflictions to detonate: almost three quarters of her damage are Nature Bursts she forces herself with her Hunting Arrows. Her loop is short and modular (Battle Skill, Combo ASAP, stack Nature Infliction, repeat) and the damage comes out steady instead of as a nuke. She is hungry for Nature Inflictions and very few operators feed her: Arcane is the obvious partner."
+  },
+  "comps": [
+    {
+      "name": {
+        "es": "Maygi - Arcane · Perlica · Gilberta",
+        "en": "Maygi - Arcane · Perlica · Gilberta"
+      },
+      "subtitle": {
+        "es": "Arcane (WILL) · Perlica · Gilberta",
+        "en": "Arcane (WILL) · Perlica · Gilberta"
+      },
+      "blurb": {
+        "es": "El equipo de referencia de la guía y el de mayor rendimiento total en jefe único: Arcane regala un stack de Nature Infliction con su Combo y con su Ultimate, Perlica marca el tempo del bucle con su Combo, y Gilberta carga tan rápido que mete dos Ultimates por rotación. Rotación de 57 segundos, calculada en 71K de DPS de equipo con armas BIS.",
+        "en": "The guide's reference team and the highest overall performer on a single target: Arcane gifts a Nature Infliction stack with her Combo and with her Ultimate, Perlica sets the loop tempo with her Combo, and Gilberta charges so fast she fits two Ultimates per rotation. A 57-second rotation, calculated at 71K team DPS with BIS weapons."
+      },
+      "guideVideoId": "ty1",
+      "simple": {
+        "whatItDoes": {
+          "es": "Typhoeus es la carry y su daño son los Nature Bursts. Con su Battle Skill salta y dispara 5 ataques aéreos; mientras tenga Hunting Arrows, cada uno fuerza un Nature Burst aunque el enemigo no tenga Infliction, y el quinto siempre cuenta como Power Shot. Cada ataque aéreo que pega a un enemigo con Nature Infliction consume un stack, le da un Sign y Ultimate Energy extra. Al llegar a 8 Signs se enciende su Combo, que deja un área que ralentiza y sube 10% el Nature Burst DMG Taken, convierte los Signs en 4 Hunting Arrows nuevas y reinicia los ataques aéreos. El bucle es siempre el mismo: apilar Nature Infliction (Arcane, Gilberta), Battle Skill de Typhoeus, vaciar las flechas, Combo, y repetir.",
+          "en": "Typhoeus is the carry and her damage is the Nature Bursts. With her Battle Skill she leaps up and fires 5 aerial attacks; while she has Hunting Arrows, each one forces a Nature Burst even if the enemy has no Infliction, and the fifth always counts as a Power Shot. Every aerial attack that hits an enemy with Nature Infliction consumes a stack, grants her a Sign and extra Ultimate Energy. At 8 Signs her Combo lights up: it leaves an area that slows and raises Nature Burst DMG Taken by 10%, converts the Signs into 4 fresh Hunting Arrows and resets her aerial attacks. The loop is always the same: stack Nature Infliction (Arcane, Gilberta), Typhoeus's Battle Skill, empty the arrows, Combo, repeat."
+        },
+        "steps": [
+          {
+            "who": "arcane",
+            "do": {
+              "es": "Abre con un combo de ataques básicos; cuando termina, Battle Skill de Arcane, su Combo y el Combo de Perlica, y el Combo de Gilberta en cuanto se active.",
+              "en": "Open with a basic attack combo; as it finishes, Arcane's Battle Skill, her Combo and Perlica's Combo, plus Gilberta's Combo as soon as it activates."
+            }
+          },
+          {
+            "who": "typhoeus",
+            "do": {
+              "es": "De inmediato, Battle Skill de Typhoeus: dispara las 4 Hunting Arrows, usa su Combo y termina los ataques aéreos.",
+              "en": "Right away, Typhoeus's Battle Skill: shoot all 4 Hunting Arrows, use her Combo and finish the aerial attacks."
+            }
+          },
+          {
+            "who": "perlica",
+            "do": {
+              "es": "Ataques básicos hasta que vuelva el Combo de Perlica y repite el bucle: Battle Skill y Combo de Arcane, Combo de Perlica, Battle Skill de Typhoeus.",
+              "en": "Basic attacks until Perlica's Combo is back, then repeat the loop: Arcane's Battle Skill and Combo, Perlica's Combo, Typhoeus's Battle Skill."
+            }
+          },
+          {
+            "who": "gilberta",
+            "do": {
+              "es": "En el segundo bucle, la Battle Skill de Typhoeus le da a Gilberta energía para su Ultimate: úsalo ANTES de su Combo. Después, Combo de Typhoeus cuanto antes y el resto de ataques aéreos.",
+              "en": "On the second loop, Typhoeus's Battle Skill gives Gilberta enough energy for her Ultimate: fire it BEFORE her Combo. Then Typhoeus's Combo ASAP and the rest of the aerial attacks."
+            }
+          },
+          {
+            "who": "arcane",
+            "do": {
+              "es": "Tercer bucle: Battle Skill, Combo y Ultimate de Arcane. El Combo de Gilberta llega un poco tarde aquí, así que no adelantes el de Perlica; la animación del Ultimate de Arcane te compra ese tiempo.",
+              "en": "Third loop: Arcane's Battle Skill, Combo and Ultimate. Gilberta's Combo is slightly delayed here, so do not fire Perlica's early; Arcane's Ultimate animation buys that time."
+            }
+          },
+          {
+            "who": "typhoeus",
+            "do": {
+              "es": "Burst: Battle Skill de Typhoeus y Ultimate de Perlica, empieza a soltar flechas. Con 100 SP, otra Battle Skill de Arcane (carga el segundo Ultimate de Gilberta). Tras dos flechas Typhoeus llega a energía completa: Ultimate, resto de ataques aéreos y Finisher si el jefe sigue vivo.",
+              "en": "Burst: Typhoeus's Battle Skill and Perlica's Ultimate, start unleashing arrows. At 100 SP, another Arcane Battle Skill (charges Gilberta's second Ultimate). After two arrows Typhoeus reaches full energy: Ultimate, the rest of the aerial attacks and the Finisher if the boss is still alive."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "typhoeus",
+            "line": {
+              "es": "Umbra of Frigid Eventide (BIS, +25% a P5) y set Deep Rampart. En jefe único necesita Ultimate Gain Efficiency extra: Bonekrusha Poncho T1 + Deep Rampart Gauntlets + 2 Deep Rampart Comms. En AoE, Deep Rampart Armor y Qingbo Bamboo Cutter en vez del poncho y un Comms.",
+              "en": "Umbra of Frigid Eventide (BIS, +25% at P5) and the Deep Rampart set. Single-target needs extra Ultimate Gain Efficiency: Bonekrusha Poncho T1 + Deep Rampart Gauntlets + 2 Deep Rampart Comms. For AoE, Deep Rampart Armor and Qingbo Bamboo Cutter instead of the poncho and one Comms."
+            }
+          },
+          {
+            "id": "arcane",
+            "line": {
+              "es": "Type 42: Solemn Phalanx y set Eternal Xiranite con el AIC Fieldwork Flashlight (nivel 60) de segundo kit: llega a 640 de Will para los debuffs máximos con algo más de ATK que dos Slabs.",
+              "en": "Type 42: Solemn Phalanx and the Eternal Xiranite set with the level-60 AIC Fieldwork Flashlight as the second kit: it reaches 640 Will for maximum debuffs with a bit more ATK than two Slabs."
+            }
+          },
+          {
+            "id": "perlica",
+            "line": {
+              "es": "Stanza of Memorials, sin alternativa que valga la pena. Pulser Labs al 3 (Arts Intensity) más Eternal Xiranite Gloves T1 para algo de Ultimate Gain.",
+              "en": "Stanza of Memorials, with no other worthwhile option. 3-piece Pulser Labs (Arts Intensity) plus Eternal Xiranite Gloves T1 for some Ultimate Gain."
+            }
+          },
+          {
+            "id": "gilberta",
+            "line": {
+              "es": "Dos Ultimates por rotación exigen un arma con Ultimate Gain: Delivery Guaranteed (BIS) o Monaihe. Eternal Xiranite con todas las piezas de Ultimate Gain Efficiency.",
+              "en": "Two Ultimates per rotation demand a weapon with Ultimate Gain: Delivery Guaranteed (BIS) or Monaihe. Eternal Xiranite with every Ultimate Gain Efficiency piece."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "La guía de lanzamiento de Typhoeus, con los cálculos del autor detrás de cada elección. El punto de partida es su perfil de daño: un 73% son Arts Bursts de multiplicador fijo, y solo un 9% la Battle Skill, un 12% los básicos y un 3% cada uno el Combo y el Ultimate; por eso subir sus skills tiene poca prioridad y por eso su daño no depende de un nuke sino de cuántos Nature Bursts fuerza por minuto. Sus dos recursos lo explican todo: las Hunting Arrows (empieza el combate con 4 y las rellena el Combo, que consume todos los Signs, o el Ultimate, que da 2) convierten cada ataque aéreo de la Battle Skill en un Power Shot que fuerza un Nature Burst; los Signs se ganan consumiendo Nature Infliction con esos ataques aéreos y con cada Nature Burst que cualquier miembro del equipo dispare, y al llegar al máximo encienden el Combo. Si se cumplen las dos condiciones a la vez (flecha y stack consumido) el Nature Burst gana un 30% de daño, pero el autor insiste en que no es obligatorio perseguirlo. Este equipo es el de mejor rendimiento total del video: Arcane, en forma WILL con 640 de Will, regala un stack de Nature Infliction con el Combo y con el Ultimate y trae los debuffs; Gilberta, con el arma de Ultimate Gain y todo el gear de carga, mete dos Ultimates en una rotación de 57 segundos; y Perlica, con daño personal bajo, marca el tempo: cada bucle arranca cuando vuelve su Combo. Con armas BIS, 6 estrellas a P0 y 5 estrellas a P5, el cálculo del autor da 71K de DPS de equipo contra un solo objetivo, sin contar multiplicadores de Stagger.",
+        "en": "Typhoeus's launch guide, with the author's calculations behind every choice. The starting point is her damage profile: 73% are fixed-multiplier Arts Bursts, and only 9% the Battle Skill, 12% the basics and 3% each the Combo and the Ultimate; that is why leveling her skills is low priority and why her damage does not hinge on a nuke but on how many Nature Bursts she forces per minute. Her two resources explain everything: Hunting Arrows (she starts the battle with 4 and refills them with the Combo, which consumes all Signs, or the Ultimate, which gives 2) turn every aerial attack of the Battle Skill into a Power Shot that forces a Nature Burst; Signs are gained by consuming Nature Infliction with those aerial attacks and from every Nature Burst any team member triggers, and at max they light the Combo. If both conditions are met at once (arrow and consumed stack) the Nature Burst gains 30% damage, but the author insists this is not mandatory to chase. This team is the video's best overall performer: Arcane, in WILL form at 640 Will, gifts a Nature Infliction stack with the Combo and with the Ultimate and brings the debuffs; Gilberta, with the Ultimate Gain weapon and full charge gear, fits two Ultimates in a 57-second rotation; and Perlica, with low personal damage, sets the tempo: every loop starts when her Combo comes back. With BIS weapons, 6-stars at P0 and 5-stars at P5, the author's calculation gives 71K team DPS against a single target, stagger multipliers not included."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Media",
+          "en": "Medium"
+        },
+        "content": {
+          "es": "Jefe / Single-target",
+          "en": "Boss / Single-target"
+        },
+        "tags": [
+          {
+            "es": "Nature",
+            "en": "Nature"
+          },
+          {
+            "es": "Daño constante",
+            "en": "Steady damage"
+          },
+          {
+            "es": "Nature Burst",
+            "en": "Nature Burst"
+          },
+          {
+            "es": "Bucle modular",
+            "en": "Modular loop"
+          },
+          {
+            "es": "Gestión de Ultimates",
+            "en": "Ultimate management"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "El daño más constante con diferencia: no hay nuke que esperar, el bucle Battle Skill, Combo, apilar, repetir se encadena solo y la rotación entera dura 57 segundos.",
+          "en": "The most constant damage by far: there is no nuke to wait for, the Battle Skill, Combo, stack, repeat loop chains itself and the whole rotation lasts 57 seconds."
+        },
+        {
+          "es": "Arcane es la pareja BIS: stack gratis con el Combo y con el Ultimate, Susceptibility de kit, debuffs extra desde el arma y agrupa a los enemigos.",
+          "en": "Arcane is the BIS partner: a free stack from the Combo and from the Ultimate, kit Susceptibility, extra debuffs from the weapon and she pulls enemies in."
+        },
+        {
+          "es": "Gilberta carga tan rápido que mete dos Ultimates por rotación, cubriendo varios bucles de burst con sus debuffs mientras aporta stacks.",
+          "en": "Gilberta charges so fast she fits two Ultimates per rotation, covering several burst loops with her debuffs while adding stacks."
+        },
+        {
+          "es": "El mayor DPS de equipo de los cuatro comparados por el autor (71K), seguido de cerca por la versión con Ardelia y Liino.",
+          "en": "The highest team DPS of the four the author compared (71K), followed closely by the Ardelia and Liino version."
+        }
+      ],
+      "cons": [
+        {
+          "es": "Typhoeus tiene hambre de Nature Inflictions y muy pocos operadores las aplican; sin Arcane los sustitutos apenas buffean y el DPS baja bastante.",
+          "en": "Typhoeus is hungry for Nature Inflictions and very few operators apply them; without Arcane the substitutes barely buff and the DPS drops quite a bit."
+        },
+        {
+          "es": "En jefe único necesita Ultimate Gain Efficiency extra y sacrifica stats de gear para conseguirla; su gear no aporta bono de daño genérico, así que el arma tiene que ponerlo.",
+          "en": "Single-target needs extra Ultimate Gain Efficiency and sacrifices gear stats to get it; her gear provides no generic damage bonus, so the weapon has to supply it."
+        },
+        {
+          "es": "Gilberta necesita a Perlica o Ardelia de enabler y un arma con Ultimate Gain obligatoria para los dos Ultimates.",
+          "en": "Gilberta needs Perlica or Ardelia as an enabler and a mandatory Ultimate Gain weapon for the two Ultimates."
+        },
+        {
+          "es": "Timings finos: el Ultimate de Gilberta va antes de su Combo en el segundo bucle, y en el tercero su Combo llega tarde y hay que retener el de Perlica.",
+          "en": "Fine timings: Gilberta's Ultimate goes before her Combo on the second loop, and on the third her Combo arrives late and Perlica's has to be held."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "Hunting Arrows: el Nature Burst forzado",
+            "en": "Hunting Arrows: the forced Nature Burst"
+          },
+          "body": {
+            "es": "Typhoeus empieza el combate con 4 Hunting Arrows. Mientras las tenga, cada ataque aéreo de su Battle Skill se convierte en Power Shot: sube su daño base y, lo importante, fuerza un Nature Burst en el objetivo aunque no tenga Infliction. El quinto ataque aéreo siempre cuenta como Power Shot, aunque se hayan acabado las flechas. Las rellena el Combo (las 4, consumiendo todos los Signs) o el Ultimate (2).",
+            "en": "Typhoeus starts the battle with 4 Hunting Arrows. While she has them, every aerial attack of her Battle Skill becomes a Power Shot: it raises its base damage and, more importantly, forces a Nature Burst on the target even with no Infliction. The fifth aerial attack always counts as a Power Shot, even if the arrows ran out. The Combo refills them (all 4, consuming every Sign) or the Ultimate (2)."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Signs: la cuenta atrás del Combo",
+            "en": "Signs: the countdown to the Combo"
+          },
+          "body": {
+            "es": "Los Signs son la carga del Combo: al llegar al máximo (8), el Combo se enciende y se vuelve a ofrecer con cada ataque básico hasta que lo uses. Se ganan de dos formas: cada ataque aéreo que pega a un enemigo con Nature Infliction consume un stack y da 1 Sign más Ultimate Energy extra, y cada Nature Burst que active cualquiera del equipo da 1 Sign. La ganancia de Signs es fija sin importar cuántos objetivos golpees; la de Ultimate Energy no, así que contra varios enemigos su Ultimate carga mucho más rápido.",
+            "en": "Signs are the Combo's charge: at max (8) the Combo lights up and keeps offering itself on every basic attack until you use it. They come two ways: every aerial attack that hits an enemy with Nature Infliction consumes a stack and gives 1 Sign plus extra Ultimate Energy, and every Nature Burst activated by anybody on the team gives 1 Sign. The Sign gain is fixed regardless of how many targets you hit; the Ultimate Energy gain is not, so against several enemies her Ultimate charges much faster."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "La cuenta de 8: dos Inflictions mínimo",
+            "en": "The count to 8: two Inflictions minimum"
+          },
+          "body": {
+            "es": "Tras vaciar las 4 flechas tienes garantizados al menos 5 Signs por los 5 Nature Bursts que disparas. Para llegar a 8 hacen falta como mínimo 2 Nature Inflictions: un burst te lleva a 6 y al consumir las dos llegas a 8. Así no sale ningún burst potenciado, pero cuantas más Nature Inflictions consigas en cada ventana de Combo, mejor: con 4 stacks completos el Combo llega antes de tener que usar la Battle Skill y los 4 bursts salen potenciados (+30% cuando coinciden flecha y stack consumido, x1.3 al rango máximo de la skill). Retener el primer Combo para potenciar bursts con solo 2 Inflictions no compensa: pierdes energía y, directamente, 4 bursts adicionales.",
+            "en": "After emptying the 4 arrows you are guaranteed at least 5 Signs from the 5 Nature Bursts you fire. Reaching 8 needs a minimum of 2 Nature Inflictions: one burst takes you to 6 and consuming both gets you to 8. That way no buffed burst comes out, but the more Nature Inflictions you get in each Combo window, the better: with a full 4 stacks the Combo comes before having to use the Battle Skill and all 4 bursts come out buffed (+30% when arrow and consumed stack coincide, x1.3 at max skill rank). Holding the first Combo to buff bursts with only 2 Inflictions does not pay off: you lose energy and, plainly, 4 additional bursts."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Arcane WILL, la que alimenta",
+            "en": "Arcane WILL, the feeder"
+          },
+          "body": {
+            "es": "A 640 de Will Arcane juega en forma WILL: su Combo aplica otro stack de la misma Infliction que ya tenga el enemigo, y su Ultimate hace lo mismo con todos los enemigos con Infliction dentro del área. En este equipo eso es Nature Infliction gratis en cada bucle, con Nature y Cryo Susceptibility encima y el efecto de atraer enemigos. El umbral de 640 maximiza sus debuffs, y el arma añade más: con Detonation Unit, Arts DMG Taken tras cada Arts Burst.",
+            "en": "At 640 Will Arcane plays in WILL form: her Combo applies another stack of the Infliction the enemy already carries, and her Ultimate does the same to every Inflicted enemy inside the area. In this team that is free Nature Infliction every loop, with Nature and Cryo Susceptibility on top and the pull-in effect. The 640 threshold maximizes her debuffs, and the weapon adds more: with Detonation Unit, Arts DMG Taken after each Arts Burst."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Dos Ultimates de Gilberta por rotación",
+            "en": "Two Gilberta Ultimates per rotation"
+          },
+          "body": {
+            "es": "El Ultimate de Gilberta aplica Nature Infliction y deja Slow y Arts Susceptibility en el campo. Con Delivery Guaranteed o Monaihe (Ultimate Gain obligatorio) y las cuatro piezas de Ultimate Gain Efficiency de Eternal Xiranite, carga tan rápido que entra dos veces en la misma rotación: una en el segundo bucle, justo antes de su Combo, y otra en el burst final. El pequeño extra de carga de piezas fuera de set no cruza ningún breakpoint, así que Eternal Xiranite se queda por stats.",
+            "en": "Gilberta's Ultimate applies Nature Infliction and leaves Slow and Arts Susceptibility in the field. With Delivery Guaranteed or Monaihe (Ultimate Gain is mandatory) and the four Ultimate Gain Efficiency pieces of Eternal Xiranite, she charges so fast she fits twice in the same rotation: once on the second loop, right before her Combo, and again in the final burst. The small extra charge from off-set pieces crosses no breakpoint, so Eternal Xiranite stays for stats."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Perlica marca el tempo",
+            "en": "Perlica sets the tempo"
+          },
+          "body": {
+            "es": "Perlica no está por su daño (el autor lo llama bajo en este equipo) sino por el bucle: cada iteración arranca cuando su Combo vuelve del cooldown, y el autor la señala como el enabler que Gilberta necesita. Su Ultimate entra en el burst final junto a la Battle Skill de Typhoeus, y Stanza of Memorials es su única arma que vale la pena aquí.",
+            "en": "Perlica is not here for her damage (the author calls it low in this team) but for the loop: every iteration starts when her Combo comes off cooldown, and the author names her as the enabler Gilberta needs. Her Ultimate goes into the final burst alongside Typhoeus's Battle Skill, and Stanza of Memorials is her only worthwhile weapon here."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Apertura: primer bucle",
+            "en": "Opener: first loop"
+          },
+          "action": {
+            "es": "Combo de básicos → Battle Skill y Combo de Arcane + Combo de Perlica → Battle Skill de Typhoeus → Combo de Gilberta → 4 Hunting Arrows → Combo de Typhoeus → resto de ataques aéreos.",
+            "en": "Basic combo → Arcane's Battle Skill and Combo + Perlica's Combo → Typhoeus's Battle Skill → Gilberta's Combo → 4 Hunting Arrows → Typhoeus's Combo → rest of the aerial attacks."
+          },
+          "steps": [
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Empieza con un combo de ataques básicos y, cuando termina, Battle Skill de Arcane seguida de su Combo y del Combo de Perlica.",
+                "en": "Start with a basic attack combo and, as it finishes, Arcane's Battle Skill followed by her Combo and Perlica's Combo."
+              }
+            },
+            {
+              "who": "gilberta",
+              "do": {
+                "es": "El Combo de Gilberta en cuanto se active.",
+                "en": "Gilberta's Combo as soon as it activates."
+              }
+            },
+            {
+              "who": "typhoeus",
+              "do": {
+                "es": "De inmediato la Battle Skill de Typhoeus: dispara las 4 Hunting Arrows, usa su Combo y termina los ataques aéreos.",
+                "en": "Immediately Typhoeus's Battle Skill: shoot all 4 Hunting Arrows, use her Combo and finish the aerial attacks."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "El panel del video ordena la apertura así: básicos, Battle Skill de Arcane, Combo de Arcane, Combo de Perlica, Battle Skill de Typhoeus, Combo de Gilberta, ataques aéreos, Combo de Typhoeus, ataques aéreos.",
+            "en": "The video's panel orders the opener like this: basics, Arcane's Battle Skill, Arcane's Combo, Perlica's Combo, Typhoeus's Battle Skill, Gilberta's Combo, aerial attacks, Typhoeus's Combo, aerial attacks."
+          }
+        },
+        {
+          "phase": {
+            "es": "Segundo bucle: el Ultimate de Gilberta",
+            "en": "Second loop: Gilberta's Ultimate"
+          },
+          "action": {
+            "es": "Básicos hasta que vuelva el Combo de Perlica → Battle Skill y Combo de Arcane + Combo de Perlica → Battle Skill de Typhoeus → Ultimate de Gilberta → Combo de Gilberta → Combo de Typhoeus cuanto antes → ataques aéreos.",
+            "en": "Basics until Perlica's Combo is back → Arcane's Battle Skill and Combo + Perlica's Combo → Typhoeus's Battle Skill → Gilberta's Ultimate → Gilberta's Combo → Typhoeus's Combo ASAP → aerial attacks."
+          },
+          "steps": [
+            {
+              "who": "perlica",
+              "do": {
+                "es": "Ataques básicos hasta que el Combo de Perlica salga del cooldown; entonces Battle Skill y Combo de Arcane junto con el Combo de Perlica.",
+                "en": "Basic attacks until Perlica's Combo is off cooldown; then Arcane's Battle Skill and Combo along with Perlica's Combo."
+              }
+            },
+            {
+              "who": "gilberta",
+              "do": {
+                "es": "Antes de pulsar el Combo de Gilberta: la Battle Skill de Typhoeus le da energía suficiente para su Ultimate, y hay que meterlo antes de usar ese Combo.",
+                "en": "Before hitting Gilberta's Combo: Typhoeus's Battle Skill gives her enough energy for her Ultimate, and it has to be squeezed in before using that Combo."
+              },
+              "key": true
+            },
+            {
+              "who": "typhoeus",
+              "do": {
+                "es": "Combo de Typhoeus cuanto antes, seguido del resto de sus ataques aéreos.",
+                "en": "Typhoeus's Combo ASAP, followed by the rest of her aerial attacks."
+              }
+            }
+          ],
+          "tip": {
+            "es": "En el panel, el segundo bucle es: básicos x2, Battle Skill de Arcane, Combo de Arcane, Combo de Perlica, Battle Skill de Typhoeus, Ultimate de Gilberta, Combo de Gilberta, ataques aéreos, Combo de Typhoeus, ataques aéreos.",
+            "en": "On the panel, the second loop is: basics x2, Arcane's Battle Skill, Arcane's Combo, Perlica's Combo, Typhoeus's Battle Skill, Gilberta's Ultimate, Gilberta's Combo, aerial attacks, Typhoeus's Combo, aerial attacks."
+          }
+        },
+        {
+          "phase": {
+            "es": "Tercer bucle: el Ultimate de Arcane",
+            "en": "Third loop: Arcane's Ultimate"
+          },
+          "action": {
+            "es": "Básicos hasta el Combo de Perlica → Battle Skill, Combo y Ultimate de Arcane → Combo de Perlica → Combo de Gilberta → Battle Skill de Typhoeus + Ultimate de Perlica → Hunting Arrows.",
+            "en": "Basics until Perlica's Combo → Arcane's Battle Skill, Combo and Ultimate → Perlica's Combo → Gilberta's Combo → Typhoeus's Battle Skill + Perlica's Ultimate → Hunting Arrows."
+          },
+          "steps": [
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Ataques básicos hasta que vuelva el Combo de Perlica, y entonces Battle Skill, Combo y Ultimate de Arcane.",
+                "en": "Basic attacks until Perlica's Combo is back, then Arcane's Battle Skill, Combo and Ultimate."
+              }
+            },
+            {
+              "who": "gilberta",
+              "do": {
+                "es": "El Combo de Gilberta llega ligeramente tarde aquí: no uses el de Perlica demasiado pronto. Si hace falta, la animación del Ultimate de Arcane compra el tiempo para que suba su Combo (en condiciones normales puedes usar el Ultimate de Arcane justo después del Combo de Perlica para retrasar el timing).",
+                "en": "Gilberta's Combo is slightly delayed here: do not use Perlica's too early. If needed, Arcane's Ultimate animation buys the time for her Combo to come up (in normal circumstances you can use Arcane's Ultimate right after Perlica's Combo to delay the timing)."
+              },
+              "key": true
+            },
+            {
+              "who": "typhoeus",
+              "do": {
+                "es": "Battle Skill de Typhoeus y Ultimate de Perlica, y empieza a soltar las Hunting Arrows.",
+                "en": "Typhoeus's Battle Skill and Perlica's Ultimate, and start unleashing the Hunting Arrows."
+              }
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Burst: los dos Ultimates que faltan",
+            "en": "Burst: the two remaining Ultimates"
+          },
+          "action": {
+            "es": "Con 100 SP, Battle Skill de Arcane → segundo Ultimate de Gilberta → dos flechas → Ultimate de Typhoeus → resto de ataques aéreos → Finisher.",
+            "en": "At 100 SP, Arcane's Battle Skill → Gilberta's second Ultimate → two arrows → Typhoeus's Ultimate → rest of the aerial attacks → Finisher."
+          },
+          "steps": [
+            {
+              "who": "arcane",
+              "do": {
+                "es": "En cuanto tengas 100 SP, otra Battle Skill de Arcane: eso también le da a Gilberta la energía para su segundo Ultimate.",
+                "en": "As soon as you have 100 SP, another Arcane Battle Skill: that also gives Gilberta the energy for her second Ultimate."
+              }
+            },
+            {
+              "who": "typhoeus",
+              "do": {
+                "es": "Tras disparar dos flechas Typhoeus llega a energía completa: usa su Ultimate, luego el resto de ataques aéreos y el Finisher, si el jefe sigue vivo.",
+                "en": "After shooting two arrows Typhoeus reaches full energy: use her Ultimate, then the rest of the aerial attacks and the Finisher, if the boss is still alive anyway."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "La rotación completa del video dura 57 segundos. El ejemplo se grabó sin Essence en Typhoeus para poder ver la rotación entera.",
+            "en": "The video's full rotation lasts 57 seconds. The example was recorded with no Essence on Typhoeus so the whole rotation can be watched."
+          }
+        }
+      ],
+      "rotationVariants": [
+        {
+          "name": {
+            "es": "Cancelaciones de animación",
+            "en": "Animation cancels"
+          },
+          "description": {
+            "es": "Como la mayoría de operadores, Typhoeus tiene un retardo largo tras su último ataque básico, así que se recomienda cancelarlo con el esquive. Además, al bajar de su Battle Skill tiene una animación de aterrizaje muy larga que también se puede cancelar.",
+            "en": "Like most operators, Typhoeus has a lengthy delay after her final basic attack, so dodge canceling is recommended. Additionally, after descending from her Battle Skill she has a very long landing animation that can also be canceled."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Dónde cancelar",
+                "en": "Where to cancel"
+              },
+              "action": {
+                "es": "Esquive tras el último básico; cancelación del aterrizaje al bajar de la Battle Skill.",
+                "en": "Dodge after the last basic; cancel the landing when descending from the Battle Skill."
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "es": "Cuándo usar la Battle Skill",
+            "en": "When to use the Battle Skill"
+          },
+          "description": {
+            "es": "Usa la Battle Skill de Typhoeus siempre que puedas llegar a Signs completos. Es lo que hace la rotación tan modular: en cuanto los stacks de Nature Infliction están puestos, Battle Skill, flechas, Combo, y vuelta a empezar.",
+            "en": "Use Typhoeus's Battle Skill whenever you are able to get to full Signs. That is what makes the rotation so modular: as soon as the Nature Infliction stacks are on, Battle Skill, arrows, Combo, and start again."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Ultimate como entrada barata",
+                "en": "Ultimate as a cheap entry"
+              },
+              "action": {
+                "es": "El Ultimate apenas aporta daño: sirve para las 2 Hunting Arrows y para entrar en Hovering sin gastar la Battle Skill, lo que ahorra SP en ciertas rotaciones. Reinicia el conteo de ataques aéreos y sus siguientes 5 ganan un pequeño daño extra.",
+                "en": "The Ultimate barely contributes damage: it is for the 2 Hunting Arrows and for entering Hovering without spending the Battle Skill, which saves some SP in certain rotations. It resets the aerial attack count and her next 5 gain a small bonus damage effect."
+              }
+            }
+          ]
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "typhoeus",
+          "order": "S1 = S2 = S3 (baja)",
+          "note": {
+            "es": "Su daño directo es bajo: casi el 75% viene de Nature Bursts con multiplicador fijo, así que todas sus skills tienen poca prioridad de subida. El video no da un orden entre ellas.",
+            "en": "Her direct damage is quite low: nearly 75% comes from Nature Bursts with a static multiplier, so all her skills have a fairly low level-up priority. The video gives no order among them."
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Retener el primer Combo para tener bursts potenciados con solo 2 Inflictions: da dos bursts potenciados por bucle, pero cuesta energía y 4 bursts adicionales netos.",
+          "en": "Sitting on the first Combo to get buffed bursts with only 2 Inflictions: it allows two buffed bursts per loop, but costs energy and a straight loss of 4 additional bursts."
+        },
+        {
+          "es": "Pulsar el Combo de Gilberta antes de su Ultimate en el segundo bucle: la Battle Skill de Typhoeus ya le dio la energía, y el Ultimate va primero.",
+          "en": "Hitting Gilberta's Combo before her Ultimate on the second loop: Typhoeus's Battle Skill already gave her the energy, and the Ultimate goes first."
+        },
+        {
+          "es": "Adelantar el Combo de Perlica en el tercer bucle: el de Gilberta llega tarde y se pierde; usa la animación del Ultimate de Arcane para esperar.",
+          "en": "Firing Perlica's Combo early on the third loop: Gilberta's arrives late and gets lost; use Arcane's Ultimate animation to wait."
+        },
+        {
+          "es": "Llevar Detonation Unit en Typhoeus: sobre el papel encaja, pero sin bono de daño genérico (su gear no da ninguno) queda un 37% por debajo de su arma BIS a P0.",
+          "en": "Running Detonation Unit on Typhoeus: it makes sense on paper, but with no generic damage bonus (her gear provides none) it sits 37% below her BIS weapon at P0."
+        },
+        {
+          "es": "Poner a Arcane en Detonation Unit sin compensar la carga: esa arma no trae Ultimate Gain como las otras dos, y hay que cambiar el Flashlight por una pieza de Ultimate Gain.",
+          "en": "Putting Arcane on Detonation Unit without compensating the charge: that weapon has no Ultimate Gain like the other two, and the Flashlight has to become an Ultimate Gain piece."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "Fluorite en lugar de Gilberta",
+            "en": "Fluorite instead of Gilberta"
+          },
+          "verdict": {
+            "es": "Casi igual de jugar: donde pulsabas el Combo de Gilberta pulsas el de Fluorite. Da 3 Nature Inflictions gratis por rotación frente a las 2 de Gilberta, pero sin ningún buff de equipo. Rotación de 55 segundos y 56K de DPS de equipo, contra los 71K de esta.",
+            "en": "Plays almost the same: where you hit Gilberta's Combo you hit Fluorite's. It provides 3 free Nature Inflictions per rotation against Gilberta's 2, but with no team buffing. A 55-second rotation and 56K team DPS, against this team's 71K."
+          }
+        },
+        {
+          "name": {
+            "es": "Ardelia y Liino en lugar de Perlica y Gilberta",
+            "en": "Ardelia and Liino instead of Perlica and Gilberta"
+          },
+          "verdict": {
+            "es": "Muy fuerte y simple, segundo en el cálculo del autor (69K) pero con una rotación bastante más larga (75 segundos) porque solo Arcane apila Nature Infliction. Brilla mucho más contra varios enemigos, que dan a Typhoeus mucha más energía.",
+            "en": "Very strong and simple, second in the author's calculation (69K) but with a much longer rotation (75 seconds) because only Arcane stacks Nature Infliction. It shines far more against several enemies, which give Typhoeus much more energy."
+          }
+        },
+        {
+          "name": {
+            "es": "Sin Arcane (Gilberta · Fluorite · Perlica)",
+            "en": "Without Arcane (Gilberta · Fluorite · Perlica)"
+          },
+          "verdict": {
+            "es": "Los resultados dejan que desear: 47K en 65 segundos, porque la mayoría de sustitutos de Arcane casi no buffean.",
+            "en": "The results leave a bit to be desired: 47K in 65 seconds, as most of Arcane's substitutes have little to no buffing capabilities."
+          }
+        },
+        {
+          "name": {
+            "es": "Sin Arcane ni Gilberta: Antal · Fluorite · Perlica (guía propia)",
+            "en": "No Arcane, no Gilberta: Antal · Fluorite · Perlica (own guide)"
+          },
+          "verdict": {
+            "es": "El equipo del video sin ningún otro 6 estrellas: Antal hace de \"Arcane casero\" con Detonation Unit y el set Qingbo. Tiene su propio comp en esta guía, con el mismo concepto de rotación.",
+            "en": "The video's team with no other 6-star: Antal plays \"Arcane at home\" with Detonation Unit and the Qingbo set. It has its own comp in this guide, with the same rotation concept."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "typhoeus",
+          "role": "Carry",
+          "weaponId": "wpn_funnel_0019",
+          "gearRec": [
+            "bonekrusha_poncho_t1",
+            "deep_rampart_gauntlets",
+            "deep_rampart_comms",
+            "deep_rampart_comms"
+          ],
+          "weaponNote": {
+            "es": "Umbra of Frigid Eventide (BIS): daño personal 100% a P0 y 125% a P5. Suffering's End, el arma del pase de batalla, 76% / 83%. Oblivion 68% / 76%: sin stat principal ni secundario pero con bono de daño genérico, por eso supera por poco a Detonation Unit (63% / 70%), que sobre el papel encaja pero no da ese bono que Typhoeus necesita porque su gear no lo aporta. Aun así Oblivion queda muy por debajo del BP y del BIS.",
+            "en": "Umbra of Frigid Eventide (BIS): personal damage 100% at P0 and 125% at P5. Suffering's End, the battle pass weapon, 76% / 83%. Oblivion 68% / 76%: no main or secondary stat but a generic damage bonus, which is why it edges out Detonation Unit (63% / 70%), which makes sense on paper but lacks that bonus Typhoeus needs since her gear provides none. Oblivion still sits a large margin below the BP and the BIS."
+          },
+          "gearNote": {
+            "es": "Set nuevo Deep Rampart. Build genérica de jefe único: Bonekrusha Poncho T1 + Deep Rampart Gauntlets + 2 Deep Rampart Comms, con el Ultimate Gain que tanto necesita en single-target a cambio de algo de stats. Build sin Ultimate Gain para AoE: Deep Rampart Armor + Gauntlets + Comms + Qingbo Bamboo Cutter, daño puro para cuando hay más de un objetivo y le sobra energía; el Bamboo Cutter queda un pequeño margen por encima del Deep Rampart completo.",
+            "en": "New Deep Rampart set. Generic single-target build: Bonekrusha Poncho T1 + Deep Rampart Gauntlets + 2 Deep Rampart Comms, with the Ultimate Gain she badly needs in single-target at the cost of some stats. No-Ultimate-Gain build for AoE: Deep Rampart Armor + Gauntlets + Comms + Qingbo Bamboo Cutter, pure damage for situations with more than one target where she gets extra energy; the Bamboo Cutter is a small margin above full Deep Rampart."
+          },
+          "deepNote": {
+            "es": "Potenciales (daño personal): P1 113,3%, P2 119,4%, P3 123,6%, P4 133,7%, P5 146,2%. P1 es un buff de ATK considerable; P3 reduce el cooldown del Combo pero apenas cambia la rotación, que está limitada por los cooldowns de otros (el de Arcane); P4 baja el coste del Ultimate y permite saltarse el gear de Ultimate Gain a cambio de más daño; P5 añade una flecha al Ultimate, alargando un poco la rotación y dando un Nature Burst más.",
+            "en": "Potentials (personal damage): P1 113.3%, P2 119.4%, P3 123.6%, P4 133.7%, P5 146.2%. P1 is a fairly substantial ATK buff; P3 reduces the Combo cooldown but barely changes the rotation, which is gated behind other operators' cooldowns (Arcane's); P4 lowers the Ultimate cost and lets her skip Ultimate Gain gear for more damage; P5 adds an arrow to the Ultimate, slightly extending the rotation and giving one more Nature Burst."
+          }
+        },
+        {
+          "id": "arcane",
+          "role": "Enabler",
+          "weaponId": "wpn_funnel_0016",
+          "gearRec": [
+            "eternal_xiranite_light_armor",
+            "eternal_xiranite_wraps",
+            "eternal_xiranite_bracing_slab",
+            "aic_fieldwork_flashlight"
+          ],
+          "weaponNote": {
+            "es": "Type 42: Solemn Phalanx (BIS): daño de equipo 100% a P0 y 111% a P5. Detonation Unit casi a la par (97% / 104%). Junction Point, su arma del pase de batalla, bastante más floja (90% / 93%) y no recomendada.",
+            "en": "Type 42: Solemn Phalanx (BIS): team damage 100% at P0 and 111% at P5. Detonation Unit nearly on par (97% / 104%). Junction Point, her battle pass weapon, quite a bit weaker (90% / 93%) and not recommended."
+          },
+          "gearNote": {
+            "es": "Eternal Xiranite (Light Armor, Wraps, Bracing Slab) con el AIC Fieldwork Flashlight de nivel 60 como segundo kit: da algo más de ATK y sigue llegando al umbral de 640 de Will que maximiza sus debuffs. Con Detonation Unit, el Flashlight se cambia por un Eternal Xiranite Auxiliary Arm, porque esa arma no trae Ultimate Gain y hay que compensarlo.",
+            "en": "Eternal Xiranite (Light Armor, Wraps, Bracing Slab) with the level-60 AIC Fieldwork Flashlight as the second kit: a bit more ATK while still reaching the 640 Will threshold that maximizes her debuffs. With Detonation Unit, the Flashlight becomes an Eternal Xiranite Auxiliary Arm, because that weapon has no Ultimate Gain and it has to be compensated."
+          },
+          "deepNote": {
+            "es": "En forma WILL su Combo replica un stack de la Infliction ya presente y su Ultimate hace lo mismo con todos los enemigos con Infliction dentro del área: dos stacks de Nature Infliction gratis por ciclo, además de Nature y Cryo Susceptibility, Imprisonment y el efecto de atraer enemigos. Es la que cierra cada bucle y la que carga el segundo Ultimate de Gilberta con su Battle Skill en el burst.",
+            "en": "In WILL form her Combo replicates a stack of the Infliction already present and her Ultimate does the same to every Inflicted enemy inside the area: two free Nature Infliction stacks per cycle, plus Nature and Cryo Susceptibility, Imprisonment and the pull-in. She closes every loop and charges Gilberta's second Ultimate with her Battle Skill in the burst."
+          }
+        },
+        {
+          "id": "perlica",
+          "role": "Enabler",
+          "weaponId": "wpn_funnel_0005",
+          "gearRec": [
+            "pulser_labs_disruptor_suit",
+            "eternal_xiranite_gloves_t1",
+            "pulser_labs_calibrator",
+            "pulser_labs_calibrator"
+          ],
+          "weaponNote": {
+            "es": "Stanza of Memorials (100% a P0, 103% a P5). No hay otras armas que valgan la pena: su daño personal en este equipo es bajo.",
+            "en": "Stanza of Memorials (100% at P0, 103% at P5). There are no other worthwhile options: her personal damage in this team is low."
+          },
+          "gearNote": {
+            "es": "Pulser Labs al 3 (Disruptor Suit + 2 Calibrator) por la Arts Intensity, más Eternal Xiranite Gloves T1 para algo de Ultimate Gain.",
+            "en": "3-piece Pulser Labs (Disruptor Suit + 2 Calibrator) for the Arts Intensity, plus Eternal Xiranite Gloves T1 for some Ultimate Gain."
+          },
+          "deepNote": {
+            "es": "Su Combo dicta el tempo: cada bucle empieza cuando sale del cooldown, y en el tercero hay que aguantarlo hasta que el Combo de Gilberta esté listo. Su Ultimate entra en el burst final. El autor la señala como el enabler que Gilberta necesita.",
+            "en": "Her Combo dictates the tempo: every loop starts when it comes off cooldown, and on the third it has to be held until Gilberta's Combo is ready. Her Ultimate goes into the final burst. The author names her as the enabler Gilberta needs."
+          }
+        },
+        {
+          "id": "gilberta",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0011",
+          "gearRec": [
+            "eternal_xiranite_light_armor",
+            "eternal_xiranite_wraps",
+            "eternal_xiranite_auxiliary_arm",
+            "eternal_xiranite_auxiliary_arm"
+          ],
+          "weaponNote": {
+            "es": "Dos Ultimates por rotación hacen obligatoria un arma con Ultimate Gain, lo que deja solo dos opciones: Delivery Guaranteed (BIS, 100% a P0 y 109% a P5) y Monaihe (88%). El BIS es algo más de un 10% de daño de equipo sobre Monaihe.",
+            "en": "Two Ultimates per rotation make an Ultimate Gain weapon mandatory, which narrows it down to two options: Delivery Guaranteed (BIS, 100% at P0 and 109% at P5) and Monaihe (88%). The BIS is just over a 10% team damage increase over Monaihe."
+          },
+          "gearNote": {
+            "es": "Eternal Xiranite completo, todas las piezas de Ultimate Gain Efficiency (Light Armor, Wraps, 2 Auxiliary Arm). El pequeño extra de carga de piezas fuera de set (Redeemer) no cruza ningún breakpoint, y el buff de equipo de Eternal Xiranite tampoco hace falta porque ya lo lleva Arcane: se usa por stats.",
+            "en": "Full Eternal Xiranite, every Ultimate Gain Efficiency piece (Light Armor, Wraps, 2 Auxiliary Arm). The small extra charge from off-set pieces (Redeemer) crosses no breakpoint, and the Eternal Xiranite team buff is not needed either because Arcane carries it: it is used for stats."
+          },
+          "deepNote": {
+            "es": "Sus perks en la ficha del autor: Infliction gratis y debuffs enormes desde el Ultimate, acceso a buffs con su arma BIS, mucho Stagger y agrupado de enemigos. Su pega: necesita a Perlica o Ardelia como enabler.",
+            "en": "Her perks on the author's card: free Infliction and huge debuffs from the Ultimate, access to buffs with her BIS weapon, high Stagger and pulling enemies in. Her downside: she requires Perlica or Ardelia as an enabler."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Todas las builds salen de los paneles del propio video, con las comparativas de arma a P0 y P5. Los cálculos de DPS son contra un solo objetivo, con armas BIS, 6 estrellas a P0 y 5 estrellas a P5, y sin multiplicadores de Stagger, porque el contenido más difícil (Contingency Contract) rara vez llega a las ventanas de Stagger contra enemigos grandes. DPS no es tiempo de limpieza: una rotación más corta puede seguir bastando para casi todo.",
+          "en": "Every build comes from the video's own panels, with weapon comparisons at P0 and P5. The DPS calculations are against a single target, with BIS weapons, 6-stars at P0 and 5-stars at P5, and without stagger multipliers, because the hardest content (Contingency Contract) seldom reaches stagger windows against large enemies. DPS is not clear time: a shorter rotation can still one-rotation most content."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Typhoeus en AoE",
+              "en": "Typhoeus in AoE"
+            },
+            "swap": {
+              "es": "Contra más de un objetivo le sobra energía: Deep Rampart Armor + Gauntlets + Comms + Qingbo Bamboo Cutter, sin Ultimate Gain. El Bamboo Cutter rinde un pequeño margen más que el Deep Rampart completo.",
+              "en": "Against more than one target she has spare energy: Deep Rampart Armor + Gauntlets + Comms + Qingbo Bamboo Cutter, no Ultimate Gain. The Bamboo Cutter is a small margin stronger than full Deep Rampart."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Typhoeus a P4",
+              "en": "Typhoeus at P4"
+            },
+            "swap": {
+              "es": "El coste del Ultimate baja un 15%: puedes saltarte el gear de Ultimate Gain y meter más daño.",
+              "en": "The Ultimate cost drops 15%: you can skip Ultimate Gain gear for more damage."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Arcane con Detonation Unit",
+              "en": "Arcane on Detonation Unit"
+            },
+            "swap": {
+              "es": "Casi a la par con su BIS (97% / 104%), pero sin Ultimate Gain: Eternal Xiranite Auxiliary Arm en lugar del AIC Fieldwork Flashlight.",
+              "en": "Nearly on par with her BIS (97% / 104%), but no Ultimate Gain: Eternal Xiranite Auxiliary Arm instead of the AIC Fieldwork Flashlight."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Gilberta con Monaihe",
+              "en": "Gilberta on Monaihe"
+            },
+            "swap": {
+              "es": "La única alternativa con Ultimate Gain: 88% del daño de equipo frente al BIS. El resto del gear no cambia.",
+              "en": "The only other option with Ultimate Gain: 88% of the team damage against the BIS. The rest of the gear does not change."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": {
+        "es": "Maygi - Sin Gilberta: Fluorite",
+        "en": "Maygi - No Gilberta: Fluorite"
+      },
+      "subtitle": {
+        "es": "Arcane (WILL) · Fluorite · Perlica",
+        "en": "Arcane (WILL) · Fluorite · Perlica"
+      },
+      "blurb": {
+        "es": "El mismo concepto de rotación cuando no tienes a Gilberta: Fluorite ocupa su lugar y da 3 Nature Inflictions gratis por rotación (frente a las 2 de Gilberta) a cambio de no buffear a nadie. Rotación de 55 segundos y 56K de DPS de equipo. Si tampoco tienes a Arcane, el equipo con Antal de \"Arcane casero\" tiene su propia guía.",
+        "en": "The same rotation concept when you do not have Gilberta: Fluorite takes her seat and provides 3 free Nature Inflictions per rotation (against Gilberta's 2) at the cost of buffing nobody. A 55-second rotation and 56K team DPS. If you do not have Arcane either, the team with Antal as the \"Arcane at home\" has its own guide."
+      },
+      "guideVideoId": "ty1",
+      "simple": {
+        "whatItDoes": {
+          "es": "Se juega casi exactamente igual que el equipo con Gilberta: donde pulsabas su Combo, pulsas el de Fluorite. Fluorite pone stacks sin gastar SP con su Combo (que replica la Infliction que ya hay) y con su Ultimate (que la vuelve a aplicar si el objetivo ya tiene 2 o más), pero no aporta ningún buff. La única sutileza es guardar su Combo en la apertura hasta después de las 4 primeras flechas de Typhoeus, y en el burst soltar su Ultimate en cuanto se consuma un stack, sin retenerlo.",
+          "en": "It plays almost exactly the same as the Gilberta team: where you hit her Combo, you hit Fluorite's. Fluorite adds stacks at no SP cost with her Combo (which replicates the Infliction already present) and with her Ultimate (which applies it again if the target already has 2 or more), but brings no buff at all. The only subtlety is saving her Combo in the opener until after Typhoeus's first 4 arrows, and in the burst firing her Ultimate as soon as a stack is consumed, without holding it."
+        },
+        "steps": [
+          {
+            "who": "arcane",
+            "do": {
+              "es": "Apertura igual: básicos, Battle Skill y Combo de Arcane, Combo de Perlica, Battle Skill de Typhoeus y sus 4 flechas.",
+              "en": "Same opener: basics, Arcane's Battle Skill and Combo, Perlica's Combo, Typhoeus's Battle Skill and her 4 arrows."
+            }
+          },
+          {
+            "who": "fluorite",
+            "do": {
+              "es": "El Combo de Fluorite se activa con Arcane de inmediato, pero guárdalo para después de las 4 primeras flechas de Typhoeus: el stack extra tras su Combo vale más.",
+              "en": "Fluorite's Combo is procced by Arcane immediately, but save it for after Typhoeus's first 4 arrows: the extra stack after her Combo is worth more."
+            }
+          },
+          {
+            "who": "typhoeus",
+            "do": {
+              "es": "Combo de Typhoeus, resto de ataques aéreos, y un segundo bucle normal solo con Arcane y Perlica aportando.",
+              "en": "Typhoeus's Combo, the rest of the aerial attacks, and a business-as-usual second loop with just Arcane and Perlica contributing."
+            }
+          },
+          {
+            "who": "fluorite",
+            "do": {
+              "es": "Burst: tras el Ultimate de Arcane hay 3 stacks y el Combo de Fluorite lleva a 4. En cuanto Typhoeus consuma uno, Ultimate de Fluorite: solo añade stack si ya hay 2 o más y su Infliction tarda un poco en aplicarse, así que no lo retengas.",
+              "en": "Burst: after Arcane's Ultimate there are 3 stacks and Fluorite's Combo takes it to 4. As soon as Typhoeus consumes one, Fluorite's Ultimate: it only adds a stack if there are already 2 or more and its Infliction applies with a slight delay, so do not hold it."
+            }
+          },
+          {
+            "who": "typhoeus",
+            "do": {
+              "es": "Ultimate de Perlica, flechas, Ultimate de Typhoeus. Tras él sobran tantos Signs que el Combo llega antes de consumir stacks: ahí salen los bursts con el 30% extra.",
+              "en": "Perlica's Ultimate, arrows, Typhoeus's Ultimate. After it there are so many Signs that the Combo comes up before consuming stacks: that is where the bursts with the extra 30% come out."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "typhoeus",
+            "line": {
+              "es": "Igual que en el equipo principal: Umbra of Frigid Eventide y Deep Rampart con el Bonekrusha Poncho T1 para el Ultimate Gain.",
+              "en": "Same as in the main team: Umbra of Frigid Eventide and Deep Rampart with the Bonekrusha Poncho T1 for the Ultimate Gain."
+            }
+          },
+          {
+            "id": "arcane",
+            "line": {
+              "es": "Sin cambios: Type 42: Solemn Phalanx y Eternal Xiranite con el Flashlight hasta 640 de Will.",
+              "en": "Unchanged: Type 42: Solemn Phalanx and Eternal Xiranite with the Flashlight up to 640 Will."
+            }
+          },
+          {
+            "id": "fluorite",
+            "line": {
+              "es": "OBJ Velocitous por el Ultimate Gain y set Type 50 Yinglung para arañar algo de daño. Necesita 52,5% de Ultimate Gain en total, con la Essence del arma potenciada; si no quieres invertir, gear entero de Ultimate Gain.",
+              "en": "OBJ Velocitous for the Ultimate Gain and the Type 50 Yinglung set to squeeze in a little damage. She needs 52.5% Ultimate Gain in total, with the weapon's Essence enhanced; if you do not want to invest, full Ultimate Gain gear."
+            }
+          },
+          {
+            "id": "perlica",
+            "line": {
+              "es": "Stanza of Memorials y Pulser Labs al 3 con Eternal Xiranite Gloves T1, como en el equipo principal.",
+              "en": "Stanza of Memorials and 3-piece Pulser Labs with Eternal Xiranite Gloves T1, as in the main team."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "La primera adaptación que propone el autor de su concepto de rotación: si no tienes a Gilberta, Fluorite entra en su asiento y el bucle se mantiene casi intacto. En números, Fluorite aporta 3 Nature Inflictions gratis por rotación (Combo y Ultimate no cuestan SP) frente a las 2 de Gilberta, pero no buffea ni debuffea a nadie, tiene un cooldown de Combo largo y su Infliction se aplica con retraso; por eso la rotación baja de 71K a 56K de DPS de equipo aunque dure 2 segundos menos (55). La rotación es además el ejemplo del autor de un combate largo: tras el Ultimate de Typhoeus sobran tantos Signs que su Combo se enciende antes de consumir stacks, y los bursts salen con el 30% extra. El caso extremo que el video cubre justo después, sin Arcane ni Gilberta, tiene su propia guía: el equipo con Antal de \"Arcane casero\".",
+        "en": "The first adaptation the author proposes of the rotation concept: if you do not have Gilberta, Fluorite takes her seat and the loop stays almost intact. In numbers, Fluorite provides 3 free Nature Inflictions per rotation (Combo and Ultimate cost no SP) against Gilberta's 2, but she buffs and debuffs nobody, has a long Combo cooldown and her Infliction applies late; that is why the rotation drops from 71K to 56K team DPS even though it is 2 seconds shorter (55). The rotation is also the author's example of an extended encounter: after Typhoeus's Ultimate there are so many Signs that her Combo lights up before consuming stacks, and the bursts come out with the extra 30%. The extreme case the video covers right after, no Arcane and no Gilberta, has its own guide: the team with Antal as the \"Arcane at home\"."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Media",
+          "en": "Medium"
+        },
+        "content": {
+          "es": "Jefe / Single-target",
+          "en": "Boss / Single-target"
+        },
+        "tags": [
+          {
+            "es": "Nature",
+            "en": "Nature"
+          },
+          {
+            "es": "Bajo presupuesto",
+            "en": "Budget"
+          },
+          {
+            "es": "Nature Burst",
+            "en": "Nature Burst"
+          },
+          {
+            "es": "Bucle modular",
+            "en": "Modular loop"
+          },
+          {
+            "es": "Combate largo",
+            "en": "Extended encounter"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "Mismo concepto de rotación que el equipo principal: se aprende una vez y se aplica aquí cambiando un botón.",
+          "en": "Same rotation concept as the main team: learn it once and apply it here by swapping one button."
+        },
+        {
+          "es": "Fluorite pone 3 Nature Inflictions gratis por rotación, una más que Gilberta, sin gastar SP.",
+          "en": "Fluorite adds 3 free Nature Inflictions per rotation, one more than Gilberta, at no SP cost."
+        },
+        {
+          "es": "Fluorite es de 4 estrellas y su daño personal es irrelevante: con gear entero de Ultimate Gain funciona sin invertir.",
+          "en": "Fluorite is a 4-star and her personal damage is irrelevant: with full Ultimate Gain gear she works with no investment."
+        },
+        {
+          "es": "Buen ejemplo de combate largo: tras el Ultimate de Typhoeus el Combo se adelanta y los bursts salen con el 30% extra.",
+          "en": "A good example of an extended encounter: after Typhoeus's Ultimate the Combo comes early and the bursts get the extra 30%."
+        }
+      ],
+      "cons": [
+        {
+          "es": "Fluorite no buffea ni debuffea: el equipo pierde 15K de DPS respecto a la versión con Gilberta.",
+          "en": "Fluorite neither buffs nor debuffs: the team loses 15K DPS against the Gilberta version."
+        },
+        {
+          "es": "Su Infliction se aplica con retraso y el Ultimate solo suma stack si ya hay 2 o más: hay que soltarlo en el momento justo.",
+          "en": "Her Infliction applies with a delay and the Ultimate only adds a stack if there are already 2 or more: it has to be fired at the right moment."
+        },
+        {
+          "es": "Necesita 52,5% de Ultimate Gain: sin la Essence del arma potenciada hay que cambiar el Radar por otro Redeemer Seal.",
+          "en": "She needs 52.5% Ultimate Gain: without the weapon's Essence enhanced the Radar has to become another Redeemer Seal."
+        },
+        {
+          "es": "Sigue dependiendo de Arcane, que es limitada: sin ella el autor avisa de que los resultados dejan que desear, porque la mayoría de sus sustitutos casi no buffean.",
+          "en": "It still depends on Arcane, who is limited: without her the author warns the results leave a bit to be desired, as most of her substitutes have little to no buffing."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "Fluorite: stacks gratis, cero buffs",
+            "en": "Fluorite: free stacks, zero buffs"
+          },
+          "body": {
+            "es": "Su Combo aplica otra Infliction del elemento que ya tenga el enemigo y su Ultimate, si la última secuencia pega a un objetivo con 2 o más stacks de Nature Infliction, la aplica otra vez. Ninguno cuesta SP. En una rotación son 3 Nature Inflictions gratis frente a las 2 de Gilberta, pero sin ningún buff de equipo, con un Combo de cooldown largo y una aplicación de Infliction muy retrasada.",
+            "en": "Her Combo applies another Infliction of the element already on the enemy and her Ultimate, if its final sequence hits a target with 2 or more Nature Infliction stacks, applies it again. Neither costs SP. In a rotation that is 3 free Nature Inflictions against Gilberta's 2, but with no team buffing, a long Combo cooldown and very delayed Infliction application."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Guardar el primer Combo de Fluorite",
+            "en": "Saving Fluorite's first Combo"
+          },
+          "body": {
+            "es": "En la apertura Arcane activa el Combo de Fluorite de inmediato, pero conviene guardarlo para después de las 4 primeras flechas de Typhoeus: aplicar el stack extra después del Combo de Typhoeus le da algo más de valor.",
+            "en": "In the opener Arcane procs Fluorite's Combo immediately, but it is best saved for after Typhoeus's first 4 arrows: applying the additional Infliction stack after Typhoeus's Combo gives it a little more value."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "El burst: de 3 a 4 y el Ultimate a tiempo",
+            "en": "The burst: from 3 to 4 and the Ultimate on time"
+          },
+          "body": {
+            "es": "Tras el Ultimate de Arcane el enemigo tiene 3 stacks; el Combo de Fluorite se activa y lo lleva a 4. En cuanto Typhoeus consume un stack, Ultimate de Fluorite: como solo añade stack si ya hay 2 o más, y encima hay un pequeño retraso antes de que la Infliction se aplique, no hay que retenerlo demasiado.",
+            "en": "After Arcane's Ultimate the enemy carries 3 stacks; Fluorite's Combo procs and takes it to 4. As soon as Typhoeus consumes a stack, Fluorite's Ultimate: since it only adds a stack if there are already 2 or more, and there is a slight delay before the Infliction actually applies, it must not be held too long."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Combate largo: el Combo se adelanta",
+            "en": "Extended encounter: the Combo comes early"
+          },
+          "body": {
+            "es": "Esta rotación es el ejemplo del autor de un encuentro largo: tras el Ultimate de Typhoeus quedan tantos Signs que su Combo se enciende antes de consumir stacks en los bucles normales, y así los bursts salen con el 30% de daño extra.",
+            "en": "This rotation is the author's example of an extended encounter: after Typhoeus's Ultimate there are so many Signs left that her Combo comes up before consuming stacks from the typical loops, so the bursts get the bonus 30% damage."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Apertura con el Combo de Fluorite guardado",
+            "en": "Opener with Fluorite's Combo saved"
+          },
+          "action": {
+            "es": "Básicos → Battle Skill y Combo de Arcane + Combo de Perlica → Battle Skill de Typhoeus → 4 flechas → Combo de Typhoeus → Combo de Fluorite → resto de ataques aéreos.",
+            "en": "Basics → Arcane's Battle Skill and Combo + Perlica's Combo → Typhoeus's Battle Skill → 4 arrows → Typhoeus's Combo → Fluorite's Combo → rest of the aerial attacks."
+          },
+          "steps": [
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Combo de básicos y, al terminar, Battle Skill y Combo de Arcane junto con el Combo de Perlica.",
+                "en": "Basic combo and, as it finishes, Arcane's Battle Skill and Combo along with Perlica's Combo."
+              }
+            },
+            {
+              "who": "typhoeus",
+              "do": {
+                "es": "Battle Skill de Typhoeus y las 4 Hunting Arrows, luego su Combo.",
+                "en": "Typhoeus's Battle Skill and the 4 Hunting Arrows, then her Combo."
+              },
+              "key": true
+            },
+            {
+              "who": "fluorite",
+              "do": {
+                "es": "Ahora sí, Combo de Fluorite: el stack extra después del Combo de Typhoeus vale más que soltarlo al inicio. Termina los ataques aéreos.",
+                "en": "Now Fluorite's Combo: the extra stack after Typhoeus's Combo is worth more than firing it at the start. Finish the aerial attacks."
+              }
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Segundo bucle: solo Arcane y Perlica",
+            "en": "Second loop: just Arcane and Perlica"
+          },
+          "action": {
+            "es": "Básicos hasta el Combo de Perlica → Battle Skill y Combo de Arcane + Combo de Perlica → Battle Skill de Typhoeus → flechas → Combo de Typhoeus → ataques aéreos.",
+            "en": "Basics until Perlica's Combo → Arcane's Battle Skill and Combo + Perlica's Combo → Typhoeus's Battle Skill → arrows → Typhoeus's Combo → aerial attacks."
+          },
+          "steps": [
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Bucle normal: en este solo aportan Arcane y Perlica.",
+                "en": "Business as usual: on this loop only Arcane and Perlica contribute."
+              }
+            },
+            {
+              "who": "typhoeus",
+              "do": {
+                "es": "Battle Skill, flechas, Combo y resto de ataques aéreos de Typhoeus.",
+                "en": "Typhoeus's Battle Skill, arrows, Combo and the rest of the aerial attacks."
+              }
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Burst",
+            "en": "Burst"
+          },
+          "action": {
+            "es": "Básicos → Battle Skill, Combo y Ultimate de Arcane + Combo de Perlica (3 stacks) → Combo de Fluorite (4) → Battle Skill de Typhoeus → al consumir un stack, Ultimate de Fluorite → Combo de Typhoeus → Ultimate de Perlica → flechas → Ultimate de Typhoeus.",
+            "en": "Basics → Arcane's Battle Skill, Combo and Ultimate + Perlica's Combo (3 stacks) → Fluorite's Combo (4) → Typhoeus's Battle Skill → on consuming a stack, Fluorite's Ultimate → Typhoeus's Combo → Perlica's Ultimate → arrows → Typhoeus's Ultimate."
+          },
+          "steps": [
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Tras el Ultimate de Arcane el enemigo está en 3 stacks de Infliction; el Combo de Fluorite se activa y lo lleva a 4.",
+                "en": "After Arcane's Ultimate the enemy sits at 3 Infliction stacks; Fluorite's Combo procs and takes it to 4."
+              }
+            },
+            {
+              "who": "fluorite",
+              "do": {
+                "es": "En cuanto Typhoeus consuma un stack, Ultimate de Fluorite. Solo añade stack si ya hay 2 o más, y la Infliction llega con un pequeño retraso: no lo retengas.",
+                "en": "As soon as Typhoeus consumes a stack, Fluorite's Ultimate. It only adds a stack if there are already 2 or more, and the Infliction lands with a slight delay: do not hold it."
+              },
+              "key": true
+            },
+            {
+              "who": "typhoeus",
+              "do": {
+                "es": "Combo de Typhoeus, Ultimate de Perlica, el resto de flechas y el Ultimate de Typhoeus. Con los Signs que sobran después, su Combo llega antes de consumir stacks y los bursts salen potenciados.",
+                "en": "Typhoeus's Combo, Perlica's Ultimate, the rest of the arrows and Typhoeus's Ultimate. With the Signs left over afterwards, her Combo comes before consuming stacks and the bursts come out buffed."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "Orden del panel del video en el burst: Battle Skill de Arcane, Combo de Arcane, Combo de Perlica, Ultimate de Arcane, Combo de Fluorite, Battle Skill de Typhoeus, ataques aéreos, Combo de Typhoeus, Ultimate de Fluorite, Ultimate de Perlica, ataques aéreos, Ultimate de Typhoeus.",
+            "en": "The video panel's order in the burst: Arcane's Battle Skill, Arcane's Combo, Perlica's Combo, Arcane's Ultimate, Fluorite's Combo, Typhoeus's Battle Skill, aerial attacks, Typhoeus's Combo, Fluorite's Ultimate, Perlica's Ultimate, aerial attacks, Typhoeus's Ultimate."
+          }
+        }
+      ],
+      "rotationVariants": [
+        {
+          "name": {
+            "es": "Combate largo: el Combo se adelanta",
+            "en": "Extended encounter: the Combo comes early"
+          },
+          "description": {
+            "es": "Esta rotación es el ejemplo del autor de un encuentro largo. Tras el Ultimate de Typhoeus quedan tantos Signs que su Combo se enciende antes de consumir stacks en los bucles normales, y así sus bursts salen con el 30% de daño extra.",
+            "en": "This rotation is the author's example of an extended encounter. After Typhoeus's Ultimate there are so many Signs left that her Combo comes up before consuming stacks from the typical loops, so her bursts get the bonus 30% damage."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Tras el Ultimate de Typhoeus",
+                "en": "After Typhoeus's Ultimate"
+              },
+              "action": {
+                "es": "Combo de Typhoeus en cuanto se encienda, antes de consumir stacks; las 4 flechas nuevas salen potenciadas al consumir las Inflictions que ya están puestas.",
+                "en": "Typhoeus's Combo as soon as it lights, before consuming stacks; the 4 fresh arrows come out buffed as they consume the Inflictions already on the target."
+              }
+            }
+          ]
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "typhoeus",
+          "order": "S1 = S2 = S3 (baja)",
+          "note": {
+            "es": "Igual que en el equipo principal: casi todo su daño son Nature Bursts de multiplicador fijo, así que sus skills tienen poca prioridad.",
+            "en": "Same as in the main team: almost all her damage is fixed-multiplier Nature Bursts, so her skills are low priority."
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Soltar el Combo de Fluorite en cuanto Arcane lo activa en la apertura: guárdalo para después de las 4 primeras flechas de Typhoeus.",
+          "en": "Firing Fluorite's Combo as soon as Arcane procs it in the opener: save it for after Typhoeus's first 4 arrows."
+        },
+        {
+          "es": "Retener el Ultimate de Fluorite en el burst: solo suma stack con 2 o más ya puestos y tarda en aplicarse; va en cuanto se consume un stack.",
+          "en": "Holding Fluorite's Ultimate in the burst: it only adds a stack with 2 or more already on and takes time to apply; it goes as soon as a stack is consumed."
+        },
+        {
+          "es": "Olvidar la Essence del arma de Fluorite: sin ella no llega al 52,5% de Ultimate Gain y hay que cambiar el Radar por otro Redeemer Seal.",
+          "en": "Forgetting Fluorite's weapon Essence: without it she does not reach 52.5% Ultimate Gain and the Radar has to become another Redeemer Seal."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "Con Gilberta (equipo principal)",
+            "en": "With Gilberta (main team)"
+          },
+          "verdict": {
+            "es": "Mismo bucle, 2 segundos más de rotación y 15K más de DPS de equipo gracias a los dos Ultimates de Gilberta y sus debuffs. Si la tienes, es la versión a jugar.",
+            "en": "Same loop, 2 more seconds of rotation and 15K more team DPS thanks to Gilberta's two Ultimates and her debuffs. If you own her, that is the version to play."
+          }
+        },
+        {
+          "name": {
+            "es": "Sin Arcane: Antal · Fluorite · Perlica (guía propia)",
+            "en": "Without Arcane: Antal · Fluorite · Perlica (own guide)"
+          },
+          "verdict": {
+            "es": "El mismo concepto sin ningún otro 6 estrellas: Antal hace de \"Arcane casero\" con Detonation Unit y el set Qingbo, a cambio de una tasa de 100 SP. Tiene su propio comp en esta guía.",
+            "en": "The same concept with no other 6-star: Antal plays \"Arcane at home\" with Detonation Unit and the Qingbo set, at the cost of a 100 SP tax. It has its own comp in this guide."
+          }
+        },
+        {
+          "name": {
+            "es": "Sin Arcane: Gilberta · Fluorite · Perlica",
+            "en": "Without Arcane: Gilberta · Fluorite · Perlica"
+          },
+          "verdict": {
+            "es": "Es la cuarta barra de la comparativa del autor: 47K en 65 segundos. Sin Arcane, la mayoría de sus sustitutos apenas buffean.",
+            "en": "It is the fourth bar in the author's comparison: 47K in 65 seconds. Without Arcane, most of her substitutes have little to no buffing."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "typhoeus",
+          "role": "Carry",
+          "weaponId": "wpn_funnel_0019",
+          "gearRec": [
+            "bonekrusha_poncho_t1",
+            "deep_rampart_gauntlets",
+            "deep_rampart_comms",
+            "deep_rampart_comms"
+          ],
+          "weaponNote": {
+            "es": "Umbra of Frigid Eventide (BIS). El video no repite la comparativa de armas para este equipo: aplica la del equipo principal.",
+            "en": "Umbra of Frigid Eventide (BIS). The video does not repeat the weapon comparison for this team: the main team's applies."
+          },
+          "gearNote": {
+            "es": "Deep Rampart con Bonekrusha Poncho T1 por el Ultimate Gain de jefe único; en AoE, Deep Rampart Armor y Qingbo Bamboo Cutter.",
+            "en": "Deep Rampart with Bonekrusha Poncho T1 for single-target Ultimate Gain; in AoE, Deep Rampart Armor and Qingbo Bamboo Cutter."
+          },
+          "deepNote": {
+            "es": "Tras su Ultimate quedan tantos Signs que el Combo se enciende antes de consumir stacks: es el momento en que sus bursts llevan el 30% extra.",
+            "en": "After her Ultimate so many Signs are left that the Combo lights before consuming stacks: that is when her bursts carry the extra 30%."
+          }
+        },
+        {
+          "id": "arcane",
+          "role": "Enabler",
+          "weaponId": "wpn_funnel_0016",
+          "gearRec": [
+            "eternal_xiranite_light_armor",
+            "eternal_xiranite_wraps",
+            "eternal_xiranite_bracing_slab",
+            "aic_fieldwork_flashlight"
+          ],
+          "weaponNote": {
+            "es": "Type 42: Solemn Phalanx. Detonation Unit casi a la par; Junction Point no recomendada.",
+            "en": "Type 42: Solemn Phalanx. Detonation Unit nearly on par; Junction Point not recommended."
+          },
+          "gearNote": {
+            "es": "Eternal Xiranite con el AIC Fieldwork Flashlight hasta 640 de Will, igual que en el equipo principal.",
+            "en": "Eternal Xiranite with the AIC Fieldwork Flashlight up to 640 Will, same as in the main team."
+          },
+          "deepNote": {
+            "es": "Forma WILL: stack gratis con el Combo y con el Ultimate. Tras su Ultimate el objetivo queda a 3 stacks y el Combo de Fluorite completa el cuarto.",
+            "en": "WILL form: a free stack from the Combo and from the Ultimate. After her Ultimate the target sits at 3 stacks and Fluorite's Combo completes the fourth."
+          }
+        },
+        {
+          "id": "fluorite",
+          "role": "Enabler",
+          "weaponId": "wpn_pistol_0012",
+          "gearRec": [
+            "type_50_yinglung_heavy_armor_t1",
+            "type_50_yinglung_gloves",
+            "type_50_yinglung_radar_t2",
+            "redeemer_seal"
+          ],
+          "weaponNote": {
+            "es": "OBJ Velocitous, por el Ultimate Gain. Su daño no importa: la diferencia entre P0 y P5 es menor al 1% (el panel del autor lo titula \"ERROR, NO DMG FOUND\"). Necesita la Essence del arma potenciada para llegar al Ultimate Gain suficiente.",
+            "en": "OBJ Velocitous, for the Ultimate Gain. Her damage does not matter: the difference from P0 to P5 is less than 1% (the author's panel titles it \"ERROR, NO DMG FOUND\"). She needs the weapon's Essence enhanced to reach enough Ultimate Gain."
+          },
+          "gearNote": {
+            "es": "Build de daño: Type 50 Yinglung Heavy Armor T1 + Yinglung Gloves + Yinglung Radar T2 + Redeemer Seal; hacen falta 52,5% de Ultimate Gain en total, y si la Essence no está al máximo el Radar se cambia por otro Seal. Build sin inversión: Yinglung Heavy Armor T1 + Yinglung Gloves + 2 Redeemer Seal sin artificing, que junto con la armadura dan suficiente Ultimate Gain Efficiency.",
+            "en": "Damage build: Type 50 Yinglung Heavy Armor T1 + Yinglung Gloves + Yinglung Radar T2 + Redeemer Seal; 52.5% Ultimate Gain in total is needed, and if the Essence is not maxed the Radar becomes another Seal. No-investment build: Yinglung Heavy Armor T1 + Yinglung Gloves + 2 Redeemer Seals without artificing, which along with the body armor provide sufficient Ultimate Gain Efficiency."
+          },
+          "deepNote": {
+            "es": "3 Nature Inflictions gratis por rotación: Combo en la apertura (guardado tras las 4 flechas), Combo en el burst y Ultimate en cuanto se consume un stack. Pegas de la ficha: cooldown de Combo largo, ningún buff ni debuff, aplicación de Infliction muy retrasada.",
+            "en": "3 free Nature Inflictions per rotation: Combo in the opener (saved until after the 4 arrows), Combo in the burst and Ultimate as soon as a stack is consumed. Card downsides: long Combo cooldown, no buffs or debuffs, very delayed Infliction application."
+          }
+        },
+        {
+          "id": "perlica",
+          "role": "Enabler",
+          "weaponId": "wpn_funnel_0005",
+          "gearRec": [
+            "pulser_labs_disruptor_suit",
+            "eternal_xiranite_gloves_t1",
+            "pulser_labs_calibrator",
+            "pulser_labs_calibrator"
+          ],
+          "weaponNote": {
+            "es": "Stanza of Memorials, la única que vale la pena.",
+            "en": "Stanza of Memorials, the only worthwhile one."
+          },
+          "gearNote": {
+            "es": "Pulser Labs al 3 más Eternal Xiranite Gloves T1, igual que en el equipo principal.",
+            "en": "3-piece Pulser Labs plus Eternal Xiranite Gloves T1, same as in the main team."
+          },
+          "deepNote": {
+            "es": "Su Combo sigue marcando el inicio de cada bucle, y su Ultimate entra en el burst tras el de Fluorite.",
+            "en": "Her Combo still marks the start of every loop, and her Ultimate goes into the burst after Fluorite's."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Las builds de Typhoeus, Arcane y Perlica son las del equipo principal; el video solo añade la de Fluorite.",
+          "en": "Typhoeus, Arcane and Perlica keep the main team's builds; the video only adds Fluorite's."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Fluorite sin inversión",
+              "en": "Fluorite with no investment"
+            },
+            "swap": {
+              "es": "Type 50 Yinglung Heavy Armor T1 + Yinglung Gloves + 2 Redeemer Seal sin artificing: la armadura y los dos Seals ya dan la Ultimate Gain Efficiency necesaria. Como su daño es irrelevante, vale gear entero de Ultimate Gain.",
+              "en": "Type 50 Yinglung Heavy Armor T1 + Yinglung Gloves + 2 Redeemer Seals without artificing: the armor and the two Seals already provide the needed Ultimate Gain Efficiency. Since her damage is irrelevant, full Ultimate Gain gear is fine."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Typhoeus en AoE",
+              "en": "Typhoeus in AoE"
+            },
+            "swap": {
+              "es": "Contra más de un objetivo le sobra energía: Deep Rampart Armor + Gauntlets + Comms + Qingbo Bamboo Cutter, sin Ultimate Gain.",
+              "en": "Against more than one target she has spare energy: Deep Rampart Armor + Gauntlets + Comms + Qingbo Bamboo Cutter, no Ultimate Gain."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": {
+        "es": "Maygi - SIN Arcane ni Gilberta: Antal",
+        "en": "Maygi - NO Arcane, no Gilberta: Antal"
+      },
+      "subtitle": {
+        "es": "Antal · Fluorite · Perlica (ningún otro 6 estrellas)",
+        "en": "Antal · Fluorite · Perlica (no other 6-star)"
+      },
+      "blurb": {
+        "es": "El equipo para quien no tiene ni a Arcane ni a Gilberta: ningún otro operador de 6 estrellas. Antal hace de \"Arcane casero\" con Detonation Unit y el set Qingbo, duplicando con su Combo la Nature Infliction que pone Fluorite, a cambio de una tasa de 100 SP. El concepto de rotación es el mismo de los demás equipos de la guía; el autor avisa de que sin Arcane los resultados dejan que desear, porque sus sustitutos casi no buffean.",
+        "en": "The team for those who have neither Arcane nor Gilberta: no other 6-star operator. Antal plays \"Arcane at home\" with Detonation Unit and the Qingbo set, duplicating with his Combo the Nature Infliction Fluorite applies, at the cost of a 100 SP tax. The rotation concept is the same as the rest of the guide's teams; the author warns that without Arcane the results leave a bit to be desired, as her substitutes have little to no buffing."
+      },
+      "guideVideoId": "ty1",
+      "simple": {
+        "whatItDoes": {
+          "es": "Mismo concepto de rotación que los demás equipos de la guía. La única diferencia es pagar la tasa de Antal: su Battle Skill al inicio de la rotación y luego la Battle Skill de Fluorite, y es como si hubieras pulsado la Battle Skill de Arcane para tener dos stacks: Fluorite pone la Nature Infliction y el Combo de Antal aplica otro stack de la misma. Como la Battle Skill de Fluorite aplica con retraso, acostúmbrate a ponerla un poco antes. Después, el bucle de siempre: Battle Skill de Typhoeus, sus flechas, Combo, repetir.",
+          "en": "Same rotation concept as the rest of the guide's teams. The only difference is paying the Antal tax: his Battle Skill at the start of the rotation and then Fluorite's Battle Skill, and it is as if you had clicked Arcane's Battle Skill to get two stacks: Fluorite applies the Nature Infliction and Antal's Combo applies another stack of the same. Since Fluorite's Battle Skill has a delayed application, get used to putting it on a little early. Then the usual loop: Typhoeus's Battle Skill, her arrows, Combo, repeat."
+        },
+        "steps": [
+          {
+            "who": "antal",
+            "do": {
+              "es": "Al inicio de la rotación, Battle Skill de Antal: es la tasa de 100 SP.",
+              "en": "At the start of the rotation, Antal's Battle Skill: that is the 100 SP tax."
+            }
+          },
+          {
+            "who": "fluorite",
+            "do": {
+              "es": "Battle Skill de Fluorite, un poco antes de lo que parece necesario: su Infliction se aplica con retraso.",
+              "en": "Fluorite's Battle Skill, a little earlier than seems necessary: her Infliction applies with a delay."
+            }
+          },
+          {
+            "who": "antal",
+            "do": {
+              "es": "El Combo de Antal aplica otro stack de la misma Infliction: dos stacks de Nature Infliction, como si hubieras pulsado la Battle Skill de Arcane.",
+              "en": "Antal's Combo applies another stack of the same Infliction: two Nature Infliction stacks, as if you had clicked Arcane's Battle Skill."
+            }
+          },
+          {
+            "who": "typhoeus",
+            "do": {
+              "es": "Battle Skill de Typhoeus, las 4 Hunting Arrows, su Combo y el resto de ataques aéreos.",
+              "en": "Typhoeus's Battle Skill, the 4 Hunting Arrows, her Combo and the rest of the aerial attacks."
+            }
+          },
+          {
+            "do": {
+              "es": "Repite el concepto: apilar Nature Infliction, Battle Skill de Typhoeus, Combo cuanto antes. El video no desglosa este equipo paso a paso; solo señala en qué se diferencia de los demás.",
+              "en": "Repeat the concept: stack Nature Infliction, Typhoeus's Battle Skill, Combo ASAP. The video does not break this team down step by step; it only points out how it differs from the others."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "typhoeus",
+            "line": {
+              "es": "Igual que en los demás equipos: Umbra of Frigid Eventide y Deep Rampart con el Bonekrusha Poncho T1 para el Ultimate Gain.",
+              "en": "Same as in the other teams: Umbra of Frigid Eventide and Deep Rampart with the Bonekrusha Poncho T1 for the Ultimate Gain."
+            }
+          },
+          {
+            "id": "antal",
+            "line": {
+              "es": "Detonation Unit (acceso a debuffs) y set Qingbo para bajar el cooldown de su Combo: Qingbo Heavy Armor + Qingbo Gloves + Qingbo Cask + Redeemer Seal. El Ultimate Gain no hace falta: su Ultimate solo beneficia a él y a Perlica.",
+              "en": "Detonation Unit (access to debuffs) and the Qingbo set to lower his Combo cooldown: Qingbo Heavy Armor + Qingbo Gloves + Qingbo Cask + Redeemer Seal. Ultimate Gain is not needed: his Ultimate only benefits himself and Perlica."
+            }
+          },
+          {
+            "id": "fluorite",
+            "line": {
+              "es": "OBJ Velocitous por el Ultimate Gain y set Type 50 Yinglung para arañar algo de daño. Necesita 52,5% de Ultimate Gain en total, con la Essence del arma potenciada; si no quieres invertir, gear entero de Ultimate Gain.",
+              "en": "OBJ Velocitous for the Ultimate Gain and the Type 50 Yinglung set to squeeze in a little damage. She needs 52.5% Ultimate Gain in total, with the weapon's Essence enhanced; if you do not want to invest, full Ultimate Gain gear."
+            }
+          },
+          {
+            "id": "perlica",
+            "line": {
+              "es": "Stanza of Memorials y Pulser Labs al 3 con Eternal Xiranite Gloves T1, como en los demás equipos.",
+              "en": "Stanza of Memorials and 3-piece Pulser Labs with Eternal Xiranite Gloves T1, as in the other teams."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "El caso extremo de la guía: sin Arcane y sin Gilberta, con un equipo de ejemplo en el que Typhoeus es la única operadora de 6 estrellas. Antal, en conjunto con cualquier unidad que aplique Nature Infliction, funciona como un \"Arcane casero\": lleva Detonation Unit (Arts DMG Taken tras cada Arts Burst) y su Combo duplica la Nature Infliction entrante, a cambio de una tasa de 100 SP. Para hacer bien el papel va con el set Qingbo, que le baja el cooldown del Combo. El concepto de rotación es extremadamente similar al de los demás equipos: la única diferencia es pagar la tasa de Antal con su Battle Skill al inicio y usar después la Battle Skill de Fluorite, que entre las dos equivalen a la Battle Skill de Arcane: dos stacks. Sus pegas, en la ficha del autor: sus buffs solo afectan a Heat y Electric, pide 100 SP por minuto y no funciona solo, alguien tiene que poner el primer stack. El autor no da un DPS para este equipo en concreto; su comparativa sin Arcane (Gilberta + Fluorite + Perlica) queda en 47K, y su veredicto general es que sin Arcane los resultados dejan que desear, porque la mayoría de sus sustitutos casi no buffean.",
+        "en": "The guide's extreme case: no Arcane and no Gilberta, with an example team where Typhoeus is the only 6-star operator. Antal, in conjunction with any unit that can apply Nature Infliction, works as an \"Arcane at home\": he carries Detonation Unit (Arts DMG Taken after each Arts Burst) and his Combo duplicates the incoming Nature Infliction, at the cost of a 100 SP tax. To play the part properly he runs the Qingbo set, which lowers his Combo cooldown. The rotation concept is extremely similar to the other teams: the only difference is paying the Antal tax with his Battle Skill at the start and then using Fluorite's Battle Skill, which together amount to Arcane's Battle Skill: two stacks. His downsides, on the author's card: his buffs only affect Heat and Electric, he requires 100 SP per minute and he is not standalone, somebody else has to put the first stack. The author gives no DPS figure for this specific team; his no-Arcane comparison (Gilberta + Fluorite + Perlica) sits at 47K, and his overall verdict is that without Arcane the results leave a bit to be desired, as most of her substitutes have little to no buffing."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Media",
+          "en": "Medium"
+        },
+        "content": {
+          "es": "Jefe / Single-target",
+          "en": "Boss / Single-target"
+        },
+        "tags": [
+          {
+            "es": "Sin Arcane",
+            "en": "No Arcane"
+          },
+          {
+            "es": "Sin 6★ extra",
+            "en": "No extra 6★"
+          },
+          {
+            "es": "Bajo presupuesto",
+            "en": "Budget"
+          },
+          {
+            "es": "Nature Burst",
+            "en": "Nature Burst"
+          },
+          {
+            "es": "Bucle modular",
+            "en": "Modular loop"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "No necesita ningún otro 6 estrellas además de Typhoeus: Antal y Fluorite son de 4 estrellas y Perlica de 5.",
+          "en": "It needs no other 6-star besides Typhoeus: Antal and Fluorite are 4-stars and Perlica a 5-star."
+        },
+        {
+          "es": "Mismo concepto de rotación que el resto de la guía: se aprende una vez y solo cambia la apertura.",
+          "en": "Same rotation concept as the rest of the guide: learn it once and only the opener changes."
+        },
+        {
+          "es": "Antal da acceso a debuffs con Detonation Unit y su Combo replica la Nature Infliction que pone Fluorite: dos stacks por el precio de uno.",
+          "en": "Antal gives access to debuffs with Detonation Unit and his Combo replicates the Nature Infliction Fluorite applies: two stacks for the price of one."
+        },
+        {
+          "es": "Fluorite pone stacks sin gastar SP con su Combo y su Ultimate, y funciona sin inversión.",
+          "en": "Fluorite adds stacks at no SP cost with her Combo and her Ultimate, and works with no investment."
+        }
+      ],
+      "cons": [
+        {
+          "es": "La tasa de Antal: 100 SP por rotación (100 por minuto, en su ficha) que en los otros equipos iban a daño.",
+          "en": "The Antal tax: 100 SP per rotation (100 per minute, on his card) that in the other teams went into damage."
+        },
+        {
+          "es": "Los buffs de Antal solo afectan a Heat y Electric: a Typhoeus no le llegan.",
+          "en": "Antal's buffs only affect Heat and Electric: they do not reach Typhoeus."
+        },
+        {
+          "es": "Antal no funciona solo: alguien tiene que poner el primer stack, y la Battle Skill de Fluorite aplica con retraso.",
+          "en": "Antal is not standalone: somebody else has to put the first stack, and Fluorite's Battle Skill applies with a delay."
+        },
+        {
+          "es": "Sin Arcane los resultados dejan que desear: la mayoría de sus sustitutos casi no buffean.",
+          "en": "Without Arcane the results leave a bit to be desired: most of her substitutes have little to no buffing."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "Antal, el \"Arcane casero\"",
+            "en": "Antal, the \"Arcane at home\""
+          },
+          "body": {
+            "es": "En conjunto con cualquier unidad que aplique Nature Infliction, Antal puede hacer de Arcane: lleva Detonation Unit y duplica las Nature Inflictions entrantes, porque su Combo aplica otro stack de la misma Infliction que ya tenga el enemigo. El precio es una tasa de 100 SP: su Battle Skill, que deja un Focus de larga duración con Electric y Heat Susceptibility. Sus buffs solo afectan a Heat y Electric, así que a Typhoeus no le aportan nada; por eso el autor lo llama tasa.",
+            "en": "In conjunction with any unit that can apply Nature Infliction, Antal can play Arcane: he carries Detonation Unit and duplicates incoming Nature Inflictions, because his Combo applies another stack of the Infliction the enemy already carries. The price is a 100 SP tax: his Battle Skill, which leaves a long-duration Focus with Electric and Heat Susceptibility. His buffs only affect Heat and Electric, so they bring Typhoeus nothing; that is why the author calls it a tax."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Qingbo para el cooldown del Combo",
+            "en": "Qingbo for the Combo cooldown"
+          },
+          "body": {
+            "es": "Para hacer bien el papel de Arcane, Antal va con el set Qingbo, que reduce el cooldown de su Combo, y con Detonation Unit, claro. El Redeemer Seal es un \"ya que estamos\": su Ultimate solo beneficia a él y a Perlica, así que el Ultimate Gain no hace falta de verdad.",
+            "en": "To play Arcane properly, Antal runs the Qingbo set, which lowers his Combo cooldown, and Detonation Unit, of course. The Redeemer Seal is a \"might as well\": his Ultimate only benefits himself and Perlica, so Ultimate Gain is not really needed."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Dos stacks sin Arcane",
+            "en": "Two stacks without Arcane"
+          },
+          "body": {
+            "es": "Battle Skill de Antal al inicio de la rotación y luego la Battle Skill de Fluorite: Fluorite pone la Nature Infliction y Antal la duplica, y es como si hubieras pulsado la Battle Skill de Arcane para tener dos stacks. Como la Battle Skill de Fluorite aplica con retraso, se pone un poco antes.",
+            "en": "Antal's Battle Skill at the start of the rotation and then Fluorite's Battle Skill: Fluorite applies the Nature Infliction and Antal duplicates it, and it is as if you had clicked Arcane's Battle Skill to get two stacks. Since Fluorite's Battle Skill has a delayed application, it goes on a little early."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Fluorite y Perlica, las mismas de siempre",
+            "en": "Fluorite and Perlica, the same as always"
+          },
+          "body": {
+            "es": "Fluorite pone stacks sin gastar SP: su Combo aplica otra Infliction del elemento que ya tenga el enemigo y su Ultimate la vuelve a aplicar si el objetivo ya tiene 2 o más. Perlica conserva Stanza of Memorials y Pulser Labs, y el Ultimate de Antal la beneficia a ella. El video no vuelve a detallar sus builds en este equipo: valen las del equipo con Fluorite.",
+            "en": "Fluorite adds stacks at no SP cost: her Combo applies another Infliction of the element already on the enemy and her Ultimate applies it again if the target already has 2 or more. Perlica keeps Stanza of Memorials and Pulser Labs, and Antal's Ultimate benefits her. The video does not detail their builds again for this team: the Fluorite team's apply."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Apertura: la tasa de Antal",
+            "en": "Opener: the Antal tax"
+          },
+          "action": {
+            "es": "Battle Skill de Antal → Battle Skill de Fluorite (un poco antes) → Combo de Antal (2 stacks) → Battle Skill de Typhoeus → 4 flechas → Combo de Typhoeus → resto de ataques aéreos.",
+            "en": "Antal's Battle Skill → Fluorite's Battle Skill (a little early) → Antal's Combo (2 stacks) → Typhoeus's Battle Skill → 4 arrows → Typhoeus's Combo → rest of the aerial attacks."
+          },
+          "steps": [
+            {
+              "who": "antal",
+              "do": {
+                "es": "Paga la tasa: Battle Skill de Antal al inicio de la rotación.",
+                "en": "Pay the tax: Antal's Battle Skill at the start of the rotation."
+              },
+              "key": true
+            },
+            {
+              "who": "fluorite",
+              "do": {
+                "es": "Battle Skill de Fluorite, adelantada un poco porque su Infliction se aplica con retraso.",
+                "en": "Fluorite's Battle Skill, a little early because her Infliction applies with a delay."
+              }
+            },
+            {
+              "who": "antal",
+              "do": {
+                "es": "El Combo de Antal aplica otro stack de la misma Infliction: dos stacks de Nature Infliction, como si hubieras pulsado la Battle Skill de Arcane.",
+                "en": "Antal's Combo applies another stack of the same Infliction: two Nature Infliction stacks, as if you had clicked Arcane's Battle Skill."
+              },
+              "key": true
+            },
+            {
+              "who": "typhoeus",
+              "do": {
+                "es": "Battle Skill de Typhoeus, las 4 Hunting Arrows, su Combo y el resto de ataques aéreos.",
+                "en": "Typhoeus's Battle Skill, the 4 Hunting Arrows, her Combo and the rest of the aerial attacks."
+              }
+            }
+          ],
+          "tip": {
+            "es": "El video muestra este equipo en juego contra el Effigy, pero sin panel de acciones: aquí no se afirma más orden del que el autor describe.",
+            "en": "The video shows this team in play against the Effigy, but with no action panel: no more order is claimed here than the author describes."
+          }
+        },
+        {
+          "phase": {
+            "es": "Bucle",
+            "en": "Loop"
+          },
+          "action": {
+            "es": "El concepto es extremadamente similar al resto: apilar Nature Infliction, Battle Skill de Typhoeus y todas sus flechas, Combo, repetir.",
+            "en": "The concept is extremely similar to the rest: stack Nature Infliction, Typhoeus's Battle Skill and all her arrows, Combo, repeat."
+          },
+          "steps": [
+            {
+              "who": "typhoeus",
+              "do": {
+                "es": "Usa la Battle Skill de Typhoeus siempre que puedas llegar a Signs completos, y el Combo cuanto antes.",
+                "en": "Use Typhoeus's Battle Skill whenever you can get to full Signs, and the Combo ASAP."
+              },
+              "key": true
+            },
+            {
+              "who": "fluorite",
+              "do": {
+                "es": "Fluorite sigue poniendo stacks sin SP con su Combo y su Ultimate; recuerda que el Ultimate solo añade stack si ya hay 2 o más y que su Infliction llega con retraso.",
+                "en": "Fluorite keeps adding stacks at no SP with her Combo and her Ultimate; remember the Ultimate only adds a stack if there are already 2 or more and that her Infliction lands with a delay."
+              }
+            }
+          ]
+        }
+      ],
+      "rotationVariants": [
+        {
+          "name": {
+            "es": "Cancelaciones de animación",
+            "en": "Animation cancels"
+          },
+          "description": {
+            "es": "Como la mayoría de operadores, Typhoeus tiene un retardo largo tras su último ataque básico, así que se recomienda cancelarlo con el esquive. Además, al bajar de su Battle Skill tiene una animación de aterrizaje muy larga que también se puede cancelar.",
+            "en": "Like most operators, Typhoeus has a lengthy delay after her final basic attack, so dodge canceling is recommended. Additionally, after descending from her Battle Skill she has a very long landing animation that can also be canceled."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Dónde cancelar",
+                "en": "Where to cancel"
+              },
+              "action": {
+                "es": "Esquive tras el último básico; cancelación del aterrizaje al bajar de la Battle Skill.",
+                "en": "Dodge after the last basic; cancel the landing when descending from the Battle Skill."
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "es": "Cuándo usar la Battle Skill",
+            "en": "When to use the Battle Skill"
+          },
+          "description": {
+            "es": "Usa la Battle Skill de Typhoeus siempre que puedas llegar a Signs completos. Es lo que hace la rotación tan modular: en cuanto los stacks de Nature Infliction están puestos, Battle Skill, flechas, Combo, y vuelta a empezar.",
+            "en": "Use Typhoeus's Battle Skill whenever you are able to get to full Signs. That is what makes the rotation so modular: as soon as the Nature Infliction stacks are on, Battle Skill, arrows, Combo, and start again."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Ultimate como entrada barata",
+                "en": "Ultimate as a cheap entry"
+              },
+              "action": {
+                "es": "El Ultimate apenas aporta daño: sirve para las 2 Hunting Arrows y para entrar en Hovering sin gastar la Battle Skill, lo que ahorra SP en ciertas rotaciones. Reinicia el conteo de ataques aéreos y sus siguientes 5 ganan un pequeño daño extra.",
+                "en": "The Ultimate barely contributes damage: it is for the 2 Hunting Arrows and for entering Hovering without spending the Battle Skill, which saves some SP in certain rotations. It resets the aerial attack count and her next 5 gain a small bonus damage effect."
+              }
+            }
+          ]
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "typhoeus",
+          "order": "S1 = S2 = S3 (baja)",
+          "note": {
+            "es": "Sin cambios respecto al equipo principal: casi todo su daño son Nature Bursts de multiplicador fijo, así que sus skills tienen poca prioridad.",
+            "en": "Unchanged from the main team: almost all her damage is fixed-multiplier Nature Bursts, so her skills are low priority."
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Poner tarde la Battle Skill de Fluorite: aplica con retraso, y sin ella Antal no tiene nada que duplicar.",
+          "en": "Placing Fluorite's Battle Skill late: it applies with a delay, and without it Antal has nothing to duplicate."
+        },
+        {
+          "es": "Saltarse la tasa: sin la Battle Skill de Antal al inicio no hay segundo stack.",
+          "en": "Skipping the tax: without Antal's Battle Skill at the start there is no second stack."
+        },
+        {
+          "es": "Esperar buffs para Typhoeus de Antal: solo afectan a Heat y Electric.",
+          "en": "Expecting buffs for Typhoeus from Antal: they only affect Heat and Electric."
+        },
+        {
+          "es": "Invertir en Ultimate Gain para Antal: su Ultimate solo beneficia a él y a Perlica; el Seal es un \"ya que estamos\".",
+          "en": "Investing in Ultimate Gain for Antal: his Ultimate only benefits himself and Perlica; the Seal is a \"might as well\"."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "Con Arcane (Fluorite · Perlica)",
+            "en": "With Arcane (Fluorite · Perlica)"
+          },
+          "verdict": {
+            "es": "El mismo equipo con Arcane en el asiento de Antal: 56K en 55 segundos. Si consigues a Arcane, es el paso natural.",
+            "en": "The same team with Arcane in Antal's seat: 56K in 55 seconds. If you get Arcane, it is the natural step up."
+          }
+        },
+        {
+          "name": {
+            "es": "Sin Arcane pero con Gilberta (Gilberta · Fluorite · Perlica)",
+            "en": "No Arcane but with Gilberta (Gilberta · Fluorite · Perlica)"
+          },
+          "verdict": {
+            "es": "La cuarta barra de la comparativa del autor: 47K en 65 segundos. El video no le dedica build ni rotación.",
+            "en": "The fourth bar in the author's comparison: 47K in 65 seconds. The video gives it no build or rotation."
+          }
+        },
+        {
+          "name": {
+            "es": "Equipo principal (Arcane · Perlica · Gilberta)",
+            "en": "Main team (Arcane · Perlica · Gilberta)"
+          },
+          "verdict": {
+            "es": "La referencia: 71K en 57 segundos. Este equipo existe justo para quien no tiene a las dos limitadas.",
+            "en": "The benchmark: 71K in 57 seconds. This team exists precisely for those who lack both limited operators."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "typhoeus",
+          "role": "Carry",
+          "weaponId": "wpn_funnel_0019",
+          "gearRec": [
+            "bonekrusha_poncho_t1",
+            "deep_rampart_gauntlets",
+            "deep_rampart_comms",
+            "deep_rampart_comms"
+          ],
+          "weaponNote": {
+            "es": "Umbra of Frigid Eventide (BIS). La comparativa de armas es la del equipo principal: Suffering's End 76% / 83%, Oblivion 68% / 76%, Detonation Unit 63% / 70%.",
+            "en": "Umbra of Frigid Eventide (BIS). The weapon comparison is the main team's: Suffering's End 76% / 83%, Oblivion 68% / 76%, Detonation Unit 63% / 70%."
+          },
+          "gearNote": {
+            "es": "Deep Rampart con Bonekrusha Poncho T1 por el Ultimate Gain de jefe único; en AoE, Deep Rampart Armor y Qingbo Bamboo Cutter.",
+            "en": "Deep Rampart with Bonekrusha Poncho T1 for single-target Ultimate Gain; in AoE, Deep Rampart Armor and Qingbo Bamboo Cutter."
+          },
+          "deepNote": {
+            "es": "Con menos Nature Inflictions y sin los debuffs de Arcane, su daño baja; el autor no da un DPS para este equipo en concreto.",
+            "en": "With fewer Nature Inflictions and without Arcane's debuffs her damage drops; the author gives no DPS figure for this specific team."
+          }
+        },
+        {
+          "id": "antal",
+          "role": "Enabler",
+          "weaponId": "wpn_funnel_0008",
+          "gearRec": [
+            "qingbo_heavy_armor",
+            "qingbo_gloves",
+            "qingbo_cask",
+            "redeemer_seal"
+          ],
+          "weaponNote": {
+            "es": "Detonation Unit, \"claro\": daño de equipo 100% a P0 y 108% a P5. Es lo que le da acceso a debuffs (Arts DMG Taken tras cada Arts Burst).",
+            "en": "Detonation Unit, \"of course\": team damage 100% at P0 and 108% at P5. It is what gives him access to debuffs (Arts DMG Taken after each Arts Burst)."
+          },
+          "gearNote": {
+            "es": "Set Qingbo (Heavy Armor + Gloves + Cask) para bajar el cooldown de su Combo, más un Redeemer Seal. Su Ultimate solo beneficia a él y a Perlica, así que el Ultimate Gain no hace falta de verdad: es un \"ya que estamos\".",
+            "en": "Qingbo set (Heavy Armor + Gloves + Cask) to lower his Combo cooldown, plus a Redeemer Seal. His Ultimate only benefits himself and Perlica, so Ultimate Gain is not really needed: it is a \"might as well\"."
+          },
+          "deepNote": {
+            "es": "Ficha del autor: Infliction gratis con el Combo y acceso a debuffs vía Detonation Unit; en contra, sus buffs solo afectan a Heat y Electric, pide 100 SP por minuto y no funciona solo, alguien tiene que poner el primer stack.",
+            "en": "Author's card: free Infliction from the Combo and access to debuffs via Detonation Unit; against, his buffs only affect Heat and Electric, he requires 100 SP per minute and he is not standalone, somebody else has to put the first stack."
+          }
+        },
+        {
+          "id": "fluorite",
+          "role": "Enabler",
+          "weaponId": "wpn_pistol_0012",
+          "gearRec": [
+            "type_50_yinglung_heavy_armor_t1",
+            "type_50_yinglung_gloves",
+            "type_50_yinglung_radar_t2",
+            "redeemer_seal"
+          ],
+          "weaponNote": {
+            "es": "OBJ Velocitous, por el Ultimate Gain. Su daño no importa: la diferencia entre P0 y P5 es menor al 1% (el panel del autor lo titula \"ERROR, NO DMG FOUND\"). Necesita la Essence del arma potenciada para llegar al Ultimate Gain suficiente.",
+            "en": "OBJ Velocitous, for the Ultimate Gain. Her damage does not matter: the difference from P0 to P5 is less than 1% (the author's panel titles it \"ERROR, NO DMG FOUND\"). She needs the weapon's Essence enhanced to reach enough Ultimate Gain."
+          },
+          "gearNote": {
+            "es": "Build de daño: Type 50 Yinglung Heavy Armor T1 + Yinglung Gloves + Yinglung Radar T2 + Redeemer Seal; hacen falta 52,5% de Ultimate Gain en total, y si la Essence no está al máximo el Radar se cambia por otro Seal. Build sin inversión: Yinglung Heavy Armor T1 + Yinglung Gloves + 2 Redeemer Seal sin artificing, que junto con la armadura dan suficiente Ultimate Gain Efficiency.",
+            "en": "Damage build: Type 50 Yinglung Heavy Armor T1 + Yinglung Gloves + Yinglung Radar T2 + Redeemer Seal; 52.5% Ultimate Gain in total is needed, and if the Essence is not maxed the Radar becomes another Seal. No-investment build: Yinglung Heavy Armor T1 + Yinglung Gloves + 2 Redeemer Seals without artificing, which along with the body armor provide sufficient Ultimate Gain Efficiency."
+          },
+          "deepNote": {
+            "es": "Aquí es quien pone el primer stack: su Battle Skill (adelantada por el retraso) es lo que Antal duplica. Pegas de su ficha: cooldown de Combo largo, ningún buff ni debuff, aplicación de Infliction muy retrasada.",
+            "en": "Here she is the one who puts the first stack: her Battle Skill (placed early because of the delay) is what Antal duplicates. Card downsides: long Combo cooldown, no buffs or debuffs, very delayed Infliction application."
+          }
+        },
+        {
+          "id": "perlica",
+          "role": "Enabler",
+          "weaponId": "wpn_funnel_0005",
+          "gearRec": [
+            "pulser_labs_disruptor_suit",
+            "eternal_xiranite_gloves_t1",
+            "pulser_labs_calibrator",
+            "pulser_labs_calibrator"
+          ],
+          "weaponNote": {
+            "es": "Stanza of Memorials, la única que vale la pena.",
+            "en": "Stanza of Memorials, the only worthwhile one."
+          },
+          "gearNote": {
+            "es": "Pulser Labs al 3 más Eternal Xiranite Gloves T1, igual que en los demás equipos.",
+            "en": "3-piece Pulser Labs plus Eternal Xiranite Gloves T1, same as in the other teams."
+          },
+          "deepNote": {
+            "es": "Misma build que en los otros equipos; el Ultimate de Antal la beneficia a ella y a él. El video no detalla más su papel en este equipo.",
+            "en": "Same build as in the other teams; Antal's Ultimate benefits her and him. The video does not detail her role in this team any further."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Typhoeus, Fluorite y Perlica conservan las builds del equipo con Fluorite; el video solo añade la de Antal.",
+          "en": "Typhoeus, Fluorite and Perlica keep the Fluorite team's builds; the video only adds Antal's."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Fluorite sin inversión",
+              "en": "Fluorite with no investment"
+            },
+            "swap": {
+              "es": "Type 50 Yinglung Heavy Armor T1 + Yinglung Gloves + 2 Redeemer Seal sin artificing: la armadura y los dos Seals ya dan la Ultimate Gain Efficiency necesaria. Como su daño es irrelevante, vale gear entero de Ultimate Gain.",
+              "en": "Type 50 Yinglung Heavy Armor T1 + Yinglung Gloves + 2 Redeemer Seals without artificing: the armor and the two Seals already provide the needed Ultimate Gain Efficiency. Since her damage is irrelevant, full Ultimate Gain gear is fine."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Typhoeus en AoE",
+              "en": "Typhoeus in AoE"
+            },
+            "swap": {
+              "es": "Contra más de un objetivo le sobra energía: Deep Rampart Armor + Gauntlets + Comms + Qingbo Bamboo Cutter, sin Ultimate Gain.",
+              "en": "Against more than one target she has spare energy: Deep Rampart Armor + Gauntlets + Comms + Qingbo Bamboo Cutter, no Ultimate Gain."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": {
+        "es": "Maygi - Arcane · Ardelia · Liino",
+        "en": "Maygi - Arcane · Ardelia · Liino"
+      },
+      "subtitle": {
+        "es": "Arcane (WILL) · Ardelia · Liino",
+        "en": "Arcane (WILL) · Ardelia · Liino"
+      },
+      "blurb": {
+        "es": "Muy fuerte y simple: Ardelia recibe 100 SP para un debuff enorme y largo, y Liino, con el Will al máximo, amplifica con su Ultimate y pone la Electrification que Perlica ponía. La pega es que solo Arcane apila Nature Infliction, así que la rotación se alarga a 75 segundos; a cambio brilla contra varios enemigos. 69K de DPS de equipo, segundo del video.",
+        "en": "Very strong and simple: Ardelia is fed 100 SP for a massive, long-duration debuff, and Liino, Will-maxed, amplifies with her Ultimate and applies the Electrification Perlica used to. The downside is that only Arcane stacks Nature Infliction, so the rotation stretches to 75 seconds; in exchange it shines against several enemies. 69K team DPS, second in the video."
+      },
+      "guideVideoId": "ty1",
+      "simple": {
+        "whatItDoes": {
+          "es": "La base de la rotación es la misma que en el resto: poner Nature Inflictions, Battle Skill de Typhoeus y todas sus flechas, Combo, repetir. La diferencia importante: retén la Battle Skill de Arcane hasta haber dado un Finisher, para asegurarte de que el Combo de Ardelia se active. En la tercera iteración usa la Battle Skill de Ardelia para disparar sus debuffs antes del burst. Como hay pocas Nature Inflictions, hay que esperar al cuarto Combo de Arcane para que Typhoeus tenga energía; para entonces también tienes el Ultimate de Liino. Combo de Typhoeus cuando esté, dos flechas, Ultimate y el resto de flechas.",
+          "en": "The rotation baseline is the same as the rest: put on Nature Inflictions, Typhoeus's Battle Skill and all her arrows, Combo, repeat. The important difference: hold Arcane's Battle Skill until landing a Finisher, to make sure Ardelia's Combo procs. On the third iteration use Ardelia's Battle Skill to trigger her debuffs before the burst. With so few Nature Inflictions you have to wait for a fourth Arcane Combo before Typhoeus has enough energy; by then you also have Liino's Ultimate. Typhoeus's Combo when available, two arrows, Ultimate and the rest of the arrows."
+        },
+        "steps": [
+          {
+            "who": "arcane",
+            "do": {
+              "es": "Retén la Battle Skill de Arcane hasta dar un Finisher: así se activa el Combo de Ardelia.",
+              "en": "Hold Arcane's Battle Skill until you land a Finisher: that is what procs Ardelia's Combo."
+            }
+          },
+          {
+            "who": "typhoeus",
+            "do": {
+              "es": "Bucle idéntico: Nature Inflictions puestas, Battle Skill de Typhoeus, todas las flechas, Combo después.",
+              "en": "Identical loop: Nature Inflictions on, Typhoeus's Battle Skill, all her arrows, Combo afterward."
+            }
+          },
+          {
+            "who": "ardelia",
+            "do": {
+              "es": "En la tercera iteración, Battle Skill de Ardelia (100 SP) para disparar sus debuffs de cara al burst.",
+              "en": "On the third iteration, Ardelia's Battle Skill (100 SP) to trigger her debuffs in preparation for the burst."
+            }
+          },
+          {
+            "who": "liino",
+            "do": {
+              "es": "Espera al cuarto Combo de Arcane para que Typhoeus tenga energía; para entonces ya tienes el Ultimate de Liino.",
+              "en": "Wait for the fourth Arcane Combo so Typhoeus gets enough energy; by then you also have Liino's Ultimate."
+            }
+          },
+          {
+            "who": "typhoeus",
+            "do": {
+              "es": "Combo de Typhoeus cuando esté disponible, dos flechas, su Ultimate y el resto de flechas.",
+              "en": "Typhoeus's Combo when available, two arrows, her Ultimate and the rest of the arrows."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "typhoeus",
+            "line": {
+              "es": "La misma build del equipo principal: Umbra of Frigid Eventide y Deep Rampart con el Bonekrusha Poncho T1.",
+              "en": "The same build as the main team: Umbra of Frigid Eventide and Deep Rampart with the Bonekrusha Poncho T1."
+            }
+          },
+          {
+            "id": "arcane",
+            "line": {
+              "es": "Sin cambios: Type 42: Solemn Phalanx y Eternal Xiranite con el Flashlight hasta 640 de Will.",
+              "en": "Unchanged: Type 42: Solemn Phalanx and Eternal Xiranite with the Flashlight up to 640 Will."
+            }
+          },
+          {
+            "id": "ardelia",
+            "line": {
+              "es": "Su propia arma, Dreams of the Starry Beach, y Hot Work por la Arts Intensity y algo más de valor de Corrosion; su Ultimate no entra en la rotación.",
+              "en": "Her own weapon, Dreams of the Starry Beach, and Hot Work for the Arts Intensity and a little extra Corrosion value; her Ultimate is not used in the rotation."
+            }
+          },
+          {
+            "id": "liino",
+            "line": {
+              "es": "Will al máximo para su Amp: 2 LYNX Slab + Eternal Xiranite Light Armor + LYNX Gauntlets T1. Bedazzling Night Debut da un 10% de daño de equipo sobre Golden Age.",
+              "en": "Will-maxed for her Amp: 2 LYNX Slab + Eternal Xiranite Light Armor + LYNX Gauntlets T1. Bedazzling Night Debut gives about 10% team damage over Golden Age."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "El último equipo del video, y el segundo en su comparativa de DPS: 69K frente a los 71K del principal, con una rotación bastante más larga (75 segundos contra 57) porque solo Arcane apila Nature Infliction. El autor lo describe como muy fuerte y simple, y avisa de que brilla mucho más contra varios objetivos, que dan a Typhoeus mucha más energía. Ardelia ocupa el hueco que Perlica tenía en las otras muestras, por dos razones: se le pueden dar 100 SP a su Battle Skill para un debuff enorme y de larga duración (consume la Corrosion y aplica Physical y Arts Susceptibility), y Liino ya pone Electrification con su Ultimate, lo que haría redundante a Perlica. Liino va con el Will al máximo para maximizar el Amp de su Ultimate; el set LYNX no importa en sí, simplemente trae los stats correctos. El cambio de rotación que hay que aprender es uno: retener la Battle Skill de Arcane hasta dar un Finisher, para que el Combo de Ardelia se active.",
+        "en": "The last team in the video, and second in its DPS comparison: 69K against the main team's 71K, with a much longer rotation (75 seconds against 57) because only Arcane stacks Nature Infliction. The author describes it as very strong and simple, and warns it shines much more against several targets, which give Typhoeus much more energy. Ardelia fits into the part of the rotation Perlica had in the other samples, for two reasons: she can be fed 100 SP on her Battle Skill for a massive, long-duration debuff (it consumes the Corrosion and applies Physical and Arts Susceptibility), and Liino already applies Electrification with her Ultimate, which would make Perlica redundant. Liino goes Will-maxed to maximize the Amp of her Ultimate; the LYNX set does not matter in itself, it just happens to have the right stats. The one rotation change to learn: hold Arcane's Battle Skill until landing a Finisher, so Ardelia's Combo procs."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Baja",
+          "en": "Low"
+        },
+        "content": {
+          "es": "Jefe / Multi-target",
+          "en": "Boss / Multi-target"
+        },
+        "tags": [
+          {
+            "es": "Nature",
+            "en": "Nature"
+          },
+          {
+            "es": "Amp",
+            "en": "Amp"
+          },
+          {
+            "es": "Multi-target",
+            "en": "Multi-target"
+          },
+          {
+            "es": "Rotación larga",
+            "en": "Long rotation"
+          },
+          {
+            "es": "Simple",
+            "en": "Simple"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "Muy fuerte y simple: segundo DPS de equipo del video (69K) con una sola regla nueva que aprender.",
+          "en": "Very strong and simple: the video's second team DPS (69K) with a single new rule to learn."
+        },
+        {
+          "es": "Ardelia convierte 100 SP en un debuff enorme y de larga duración justo antes del burst.",
+          "en": "Ardelia turns 100 SP into a massive, long-duration debuff right before the burst."
+        },
+        {
+          "es": "Liino con Will al máximo amplifica al equipo con su Ultimate y pone la Electrification, así que Perlica no hace falta.",
+          "en": "Will-maxed Liino amplifies the team with her Ultimate and applies the Electrification, so Perlica is not needed."
+        },
+        {
+          "es": "Brilla contra varios enemigos: cada objetivo extra carga mucho más rápido el Ultimate de Typhoeus.",
+          "en": "It shines against several enemies: every extra target charges Typhoeus's Ultimate much faster."
+        }
+      ],
+      "cons": [
+        {
+          "es": "Solo Arcane apila Nature Infliction: la rotación típica se alarga a 75 segundos y hay que esperar al cuarto Combo de Arcane para el burst.",
+          "en": "Only Arcane stacks Nature Infliction: the typical rotation stretches to 75 seconds and the burst waits for Arcane's fourth Combo."
+        },
+        {
+          "es": "El Combo de Ardelia depende de un Finisher: soltar la Battle Skill de Arcane antes de tiempo lo pierde.",
+          "en": "Ardelia's Combo depends on a Finisher: firing Arcane's Battle Skill early loses it."
+        },
+        {
+          "es": "Tres operadores de 6 estrellas más Typhoeus: es el equipo más caro del video.",
+          "en": "Three 6-star operators plus Typhoeus: the most expensive team in the video."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "Ardelia en el asiento de Perlica",
+            "en": "Ardelia in Perlica's seat"
+          },
+          "body": {
+            "es": "Ardelia encaja en la misma parte de la rotación que Perlica en las otras muestras. Se usa aquí porque se le pueden dar 100 SP para un debuff enorme y de larga duración: su Battle Skill consume la Corrosion del objetivo y le aplica Physical y Arts Susceptibility. Y como Liino ya pone Electrification durante su Ultimate, Perlica sería redundante. Lleva Hot Work por la Arts Intensity y algo más de valor de Corrosion; su Ultimate no se usa en la rotación.",
+            "en": "Ardelia fits into the same part of the rotation Perlica had in the other samples. She is used here because she can be fed 100 SP for a massive, long-duration debuff: her Battle Skill consumes the target's Corrosion and applies Physical and Arts Susceptibility. And since Liino already applies Electrification during her Ultimate, Perlica would be redundant. She runs Hot Work for the Arts Intensity and a little extra Corrosion value; her Ultimate is not used in the rotation."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Liino con el Will al máximo",
+            "en": "Will-maxed Liino"
+          },
+          "body": {
+            "es": "El Amp que da el Ultimate de Liino escala con su Will, así que la build lo apila: dos LYNX Slab, Eternal Xiranite Light Armor y LYNX Gauntlets T1. El set LYNX no importa en sí, simplemente trae todos los stats que se quieren. Para rotaciones más rápidas, un Slab se puede cambiar por un Eternal Xiranite Auxiliary Arm y ganar Ultimate Gain.",
+            "en": "The Amp from Liino's Ultimate scales with her Will, so the build stacks it: two LYNX Slabs, Eternal Xiranite Light Armor and LYNX Gauntlets T1. The LYNX set does not matter in itself, it just happens to have all the right stats. For faster rotations, a Slab can be substituted for an Eternal Xiranite Auxiliary Arm for more Ultimate Gain."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "El Finisher que enciende a Ardelia",
+            "en": "The Finisher that lights Ardelia"
+          },
+          "body": {
+            "es": "La única diferencia importante de la rotación: retener la Battle Skill de Arcane hasta dar un Finisher, para asegurarse de que el Combo de Ardelia se active. El resto del bucle es idéntico al de los otros equipos.",
+            "en": "The one important difference in the rotation: hold Arcane's Battle Skill until landing a Finisher, to make sure Ardelia's Combo procs. The rest of the loop is identical to the other teams."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Pocas Inflictions, rotación larga, mejor en grupo",
+            "en": "Few Inflictions, long rotation, better in crowds"
+          },
+          "body": {
+            "es": "Con solo Arcane apilando, la rotación necesita cuatro Combos de Arcane antes de que Typhoeus tenga energía para su Ultimate; por eso dura 75 segundos. Contra varios enemigos, en cambio, cada ataque aéreo que consume stacks en más objetivos da más Ultimate Energy y el equipo brilla mucho más.",
+            "en": "With only Arcane stacking, the rotation needs four Arcane Combos before Typhoeus has enough energy for her Ultimate; that is why it lasts 75 seconds. Against several enemies, however, every aerial attack consuming stacks on more targets gives more Ultimate Energy and the team shines much more."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Bucles 1 y 2: el mismo bucle de siempre",
+            "en": "Loops 1 and 2: the usual loop"
+          },
+          "action": {
+            "es": "Finisher → Battle Skill de Arcane (retenida hasta el Finisher) → Combo de Arcane + Combo de Ardelia → Battle Skill de Typhoeus → todas las flechas → Combo de Typhoeus → repetir.",
+            "en": "Finisher → Arcane's Battle Skill (held until the Finisher) → Arcane's Combo + Ardelia's Combo → Typhoeus's Battle Skill → all the arrows → Typhoeus's Combo → repeat."
+          },
+          "steps": [
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Retén la Battle Skill de Arcane hasta dar un Finisher, para que el Combo de Ardelia se active con seguridad.",
+                "en": "Hold Arcane's Battle Skill until landing a Finisher, so Ardelia's Combo procs for sure."
+              },
+              "key": true
+            },
+            {
+              "who": "typhoeus",
+              "do": {
+                "es": "Con las Nature Inflictions puestas: Battle Skill de Typhoeus, todas sus flechas y el Combo después.",
+                "en": "With the Nature Inflictions on: Typhoeus's Battle Skill, all her arrows and the Combo afterward."
+              }
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Bucle 3: los debuffs de Ardelia",
+            "en": "Loop 3: Ardelia's debuffs"
+          },
+          "action": {
+            "es": "Mismo bucle + Battle Skill de Ardelia (100 SP) para disparar sus debuffs de cara al burst.",
+            "en": "Same loop + Ardelia's Battle Skill (100 SP) to trigger her debuffs in preparation for the burst."
+          },
+          "steps": [
+            {
+              "who": "ardelia",
+              "do": {
+                "es": "En la tercera iteración, Battle Skill de Ardelia: consume la Corrosion y deja el debuff largo listo para el burst.",
+                "en": "On the third iteration, Ardelia's Battle Skill: it consumes the Corrosion and leaves the long debuff ready for the burst."
+              },
+              "key": true
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Bucle 4 y burst",
+            "en": "Loop 4 and burst"
+          },
+          "action": {
+            "es": "Cuarto Combo de Arcane → Ultimate de Liino → Combo de Typhoeus cuando esté → dos flechas → Ultimate de Typhoeus → resto de flechas.",
+            "en": "Fourth Arcane Combo → Liino's Ultimate → Typhoeus's Combo when available → two arrows → Typhoeus's Ultimate → rest of the arrows."
+          },
+          "steps": [
+            {
+              "who": "liino",
+              "do": {
+                "es": "Por las pocas Nature Inflictions del equipo hay que esperar al cuarto Combo de Arcane para que Typhoeus tenga energía; para entonces también está el Ultimate de Liino.",
+                "en": "Because of the team's low amount of Nature Inflictions you have to wait for a fourth Arcane Combo before Typhoeus gets enough energy; by then you also have Liino's Ultimate."
+              }
+            },
+            {
+              "who": "typhoeus",
+              "do": {
+                "es": "Combo de Typhoeus cuando esté disponible; tras disparar dos flechas, su Ultimate y luego el resto de flechas.",
+                "en": "Typhoeus's Combo when available; after shooting two arrows, her Ultimate, followed by the rest of her arrows."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "La rotación completa dura 75 segundos. El autor la demostró contra el Skydrummer (ignorando su mecánica de escudo) porque el Effigy invoca adds y esta rotación es especialmente larga.",
+            "en": "The full rotation lasts 75 seconds. The author demoed it on the Skydrummer (ignoring its shield mechanic) because the Effigy summons adds and this rotation is extra-long."
+          }
+        }
+      ],
+      "rotationVariants": [
+        {
+          "name": {
+            "es": "Contra varios enemigos",
+            "en": "Against several enemies"
+          },
+          "description": {
+            "es": "Es donde este equipo brilla: la ganancia de Ultimate Energy de Typhoeus sí depende de cuántos objetivos golpea, así que contra varios enemigos su Ultimate carga mucho más rápido y la rotación se acorta.",
+            "en": "This is where the team shines: Typhoeus's Ultimate Energy gain does depend on how many targets she hits, so against several enemies her Ultimate charges much faster and the rotation shortens."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Gear de Typhoeus en AoE",
+                "en": "Typhoeus's AoE gear"
+              },
+              "action": {
+                "es": "Con energía de sobra, la build sin Ultimate Gain: Deep Rampart Armor + Gauntlets + Comms + Qingbo Bamboo Cutter.",
+                "en": "With energy to spare, the no-Ultimate-Gain build: Deep Rampart Armor + Gauntlets + Comms + Qingbo Bamboo Cutter."
+              }
+            }
+          ]
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "typhoeus",
+          "order": "S1 = S2 = S3 (baja)",
+          "note": {
+            "es": "Sin cambios respecto al equipo principal: sus skills tienen poca prioridad porque casi todo su daño son Nature Bursts.",
+            "en": "Unchanged from the main team: her skills are low priority because almost all her damage is Nature Bursts."
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Soltar la Battle Skill de Arcane sin haber dado un Finisher: el Combo de Ardelia no se activa.",
+          "en": "Firing Arcane's Battle Skill without having landed a Finisher: Ardelia's Combo does not proc."
+        },
+        {
+          "es": "Gastar SP en el Ultimate de Ardelia: no entra en la rotación; sus 100 SP van a la Battle Skill de la tercera iteración.",
+          "en": "Spending SP on Ardelia's Ultimate: it is not part of the rotation; her 100 SP go to the third-iteration Battle Skill."
+        },
+        {
+          "es": "Esperar el burst en el tercer Combo de Arcane: con tan pocas Inflictions, Typhoeus solo tiene energía tras el cuarto.",
+          "en": "Expecting the burst on Arcane's third Combo: with so few Inflictions, Typhoeus only has the energy after the fourth."
+        },
+        {
+          "es": "Traer a Perlica además de Liino: la Electrification del Ultimate de Liino la vuelve redundante.",
+          "en": "Bringing Perlica alongside Liino: the Electrification from Liino's Ultimate makes her redundant."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "Equipo principal (Perlica · Gilberta)",
+            "en": "Main team (Perlica · Gilberta)"
+          },
+          "verdict": {
+            "es": "Le gana por poco en el cálculo del autor (71K contra 69K) y su rotación es 18 segundos más corta; en jefe único es la referencia. Este equipo se lo devuelve contra varios enemigos.",
+            "en": "It edges this one in the author's calculation (71K against 69K) and its rotation is 18 seconds shorter; on a single target it is the benchmark. This team pays it back against several enemies."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "typhoeus",
+          "role": "Carry",
+          "weaponId": "wpn_funnel_0019",
+          "gearRec": [
+            "bonekrusha_poncho_t1",
+            "deep_rampart_gauntlets",
+            "deep_rampart_comms",
+            "deep_rampart_comms"
+          ],
+          "weaponNote": {
+            "es": "Umbra of Frigid Eventide (BIS); la comparativa de armas es la del equipo principal.",
+            "en": "Umbra of Frigid Eventide (BIS); the weapon comparison is the main team's."
+          },
+          "gearNote": {
+            "es": "Deep Rampart con Bonekrusha Poncho T1 en jefe único; contra varios enemigos, la build de daño puro con Deep Rampart Armor y Qingbo Bamboo Cutter.",
+            "en": "Deep Rampart with Bonekrusha Poncho T1 on a single target; against several enemies, the pure damage build with Deep Rampart Armor and Qingbo Bamboo Cutter."
+          },
+          "deepNote": {
+            "es": "Aquí su Ultimate llega tarde (tras el cuarto Combo de Arcane) porque solo consume las Inflictions de Arcane; contra varios objetivos la energía por ataque aéreo se multiplica.",
+            "en": "Here her Ultimate comes late (after Arcane's fourth Combo) because she only consumes Arcane's Inflictions; against several targets the energy per aerial attack multiplies."
+          }
+        },
+        {
+          "id": "arcane",
+          "role": "Enabler",
+          "weaponId": "wpn_funnel_0016",
+          "gearRec": [
+            "eternal_xiranite_light_armor",
+            "eternal_xiranite_wraps",
+            "eternal_xiranite_bracing_slab",
+            "aic_fieldwork_flashlight"
+          ],
+          "weaponNote": {
+            "es": "Type 42: Solemn Phalanx; Detonation Unit casi a la par, Junction Point no recomendada.",
+            "en": "Type 42: Solemn Phalanx; Detonation Unit nearly on par, Junction Point not recommended."
+          },
+          "gearNote": {
+            "es": "Eternal Xiranite con el AIC Fieldwork Flashlight hasta 640 de Will.",
+            "en": "Eternal Xiranite with the AIC Fieldwork Flashlight up to 640 Will."
+          },
+          "deepNote": {
+            "es": "Es la única fuente de Nature Infliction del equipo, y su Battle Skill se retiene hasta el Finisher para que el Combo de Ardelia se active.",
+            "en": "She is the team's only Nature Infliction source, and her Battle Skill is held until the Finisher so Ardelia's Combo procs."
+          }
+        },
+        {
+          "id": "ardelia",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0013",
+          "gearRec": [
+            "eternal_xiranite_armor",
+            "hot_work_gloves",
+            "hot_work_power_cartridge",
+            "hot_work_power_cartridge"
+          ],
+          "weaponNote": {
+            "es": "Dreams of the Starry Beach, su propia arma: daño de equipo 100% a P0 y 104% a P5.",
+            "en": "Dreams of the Starry Beach, her own weapon: team damage 100% at P0 and 104% at P5."
+          },
+          "gearNote": {
+            "es": "Hot Work (Gloves + 2 Power Cartridge) por la Arts Intensity y algo más de valor de Corrosion, con Eternal Xiranite Armor. Su Ultimate no se usa en la rotación.",
+            "en": "Hot Work (Gloves + 2 Power Cartridge) for the Arts Intensity and a little extra Corrosion value, with Eternal Xiranite Armor. Her Ultimate is not used in the rotation."
+          },
+          "deepNote": {
+            "es": "Sus 100 SP de Battle Skill compran un debuff enorme y de larga duración en la tercera iteración; su Combo se activa con el Finisher que precede a la Battle Skill de Arcane.",
+            "en": "Her 100 SP Battle Skill buys a massive, long-duration debuff on the third iteration; her Combo procs off the Finisher that precedes Arcane's Battle Skill."
+          }
+        },
+        {
+          "id": "liino",
+          "role": "Buffer",
+          "weaponId": "wpn_lance_0014",
+          "gearRec": [
+            "eternal_xiranite_light_armor",
+            "lynx_gauntlets_t1",
+            "lynx_slab",
+            "lynx_slab"
+          ],
+          "weaponNote": {
+            "es": "Bedazzling Night Debut (BIS): daño de equipo 100% a P0 y 111% a P5, alrededor de un 10% por encima de Golden Age, su arma del pase de batalla (91% / 95%).",
+            "en": "Bedazzling Night Debut (BIS): team damage 100% at P0 and 111% at P5, around 10% above Golden Age, her battle pass weapon (91% / 95%)."
+          },
+          "gearNote": {
+            "es": "Will al máximo para el Amp de su Ultimate: 2 LYNX Slab + Eternal Xiranite Light Armor + LYNX Gauntlets T1. El set LYNX no es obligatorio, solo trae los stats correctos; para rotaciones más rápidas, un Slab se cambia por un Eternal Xiranite Auxiliary Arm.",
+            "en": "Will-maxed for her Ultimate's Amp: 2 LYNX Slab + Eternal Xiranite Light Armor + LYNX Gauntlets T1. The LYNX set is not mandatory, it just has the right stats; for faster rotations a Slab becomes an Eternal Xiranite Auxiliary Arm."
+          },
+          "deepNote": {
+            "es": "Su Ultimate da Electric y Nature Amp al equipo (escala con Will) y aplica Electrification, por eso sustituye a Perlica. Llega listo para el burst tras el cuarto Combo de Arcane.",
+            "en": "Her Ultimate grants Electric and Nature Amp to the team (scaling with Will) and applies Electrification, which is why she replaces Perlica. It comes ready for the burst after Arcane's fourth Combo."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Typhoeus y Arcane conservan las builds del equipo principal; el video añade las de Ardelia y Liino con sus comparativas de arma.",
+          "en": "Typhoeus and Arcane keep the main team's builds; the video adds Ardelia's and Liino's with their weapon comparisons."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Liino para rotaciones más rápidas",
+              "en": "Liino for faster rotations"
+            },
+            "swap": {
+              "es": "Un LYNX Slab por un Eternal Xiranite Auxiliary Arm: más Ultimate Gain a cambio de algo de Will.",
+              "en": "One LYNX Slab for an Eternal Xiranite Auxiliary Arm: more Ultimate Gain for a bit of Will."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Liino con Golden Age",
+              "en": "Liino on Golden Age"
+            },
+            "swap": {
+              "es": "El arma del pase de batalla rinde 91% a P0 y 95% a P5 frente al BIS; el resto de la build no cambia.",
+              "en": "The battle pass weapon yields 91% at P0 and 95% at P5 against the BIS; the rest of the build does not change."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

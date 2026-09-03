@@ -1,6 +1,6 @@
 {
   "game": "Arknights: Endfield",
-  "total_weapons": 77,
+  "total_weapons": 79,
   "weapons": {
     "Sword": [
       {
@@ -4633,6 +4633,128 @@
                 "Nature DMG Dealt +15.4%. When the wielder applies Arts Susceptibility or Arts Infliction with a combo skill, the wielder gains ATK +13.2% while other operators in the team gain ATK +3.3%. Duration: 20s. Max stacks for effects of the same name: 2. Duration of each stack is counted separately.",
                 "Nature DMG Dealt +16.8%. When the wielder applies Arts Susceptibility or Arts Infliction with a combo skill, the wielder gains ATK +14.4% while other operators in the team gain ATK +3.6%. Duration: 20s. Max stacks for effects of the same name: 2. Duration of each stack is counted separately.",
                 "Nature DMG Dealt +19.6%. When the wielder applies Arts Susceptibility or Arts Infliction with a combo skill, the wielder gains ATK +16.8% while other operators in the team gain ATK +4.2%. Duration: 20s. Max stacks for effects of the same name: 2. Duration of each stack is counted separately."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "wpn_funnel_0019",
+        "name": "Umbra of Frigid Eventide",
+        "type": "Arts Unit",
+        "rarity": 6,
+        "base_atk": 505,
+        "stat1": "Agility: +156",
+        "stat2": "Attack: +39.0%",
+        "passive": "Arts DMG Dealt +44.8%. After the wielder casts a battle skill, the wielder gains Arts Intensity +98 and 4 stacks of Windform for 15s. This entire effect cannot stack. Max Windform stacks: 4. When the wielder applies an Arts Burst, consume 1 stack of Windform to grant the wielder Arts DMG Dealt +11.2% for 30s. This effect can reach 4 stacks. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+        "name_es": "Umbra del Ocaso Gélido",
+        "scaling_by_rank": {
+          "base_atk": {
+            "min": 51,
+            "max": 505
+          },
+          "passives": [
+            {
+              "name": "Agility Boost [L]",
+              "ranks": [
+                "Agility +20",
+                "Agility +36",
+                "Agility +52",
+                "Agility +68",
+                "Agility +84",
+                "Agility +100",
+                "Agility +116",
+                "Agility +132",
+                "Agility +156"
+              ]
+            },
+            {
+              "name": "Attack Boost [L]",
+              "ranks": [
+                "ATK +5.0%",
+                "ATK +9.0%",
+                "ATK +13.0%",
+                "ATK +17.0%",
+                "ATK +21.0%",
+                "ATK +25.0%",
+                "ATK +29.0%",
+                "ATK +33.0%",
+                "ATK +39.0%"
+              ]
+            },
+            {
+              "name": "Detonate: Hunter Instinct",
+              "ranks": [
+                "Arts DMG Dealt +16.0%. After the wielder casts a battle skill, the wielder gains Arts Intensity +35 and 4 stacks of Windform for 15s. This entire effect cannot stack. Max Windform stacks: 4. When the wielder applies an Arts Burst, consume 1 stack of Windform to grant the wielder Arts DMG Dealt +4.0% for 30s. This effect can reach 4 stacks. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+                "Arts DMG Dealt +19.2%. After the wielder casts a battle skill, the wielder gains Arts Intensity +42 and 4 stacks of Windform for 15s. This entire effect cannot stack. Max Windform stacks: 4. When the wielder applies an Arts Burst, consume 1 stack of Windform to grant the wielder Arts DMG Dealt +4.8% for 30s. This effect can reach 4 stacks. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+                "Arts DMG Dealt +22.4%. After the wielder casts a battle skill, the wielder gains Arts Intensity +49 and 4 stacks of Windform for 15s. This entire effect cannot stack. Max Windform stacks: 4. When the wielder applies an Arts Burst, consume 1 stack of Windform to grant the wielder Arts DMG Dealt +5.6% for 30s. This effect can reach 4 stacks. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+                "Arts DMG Dealt +25.6%. After the wielder casts a battle skill, the wielder gains Arts Intensity +56 and 4 stacks of Windform for 15s. This entire effect cannot stack. Max Windform stacks: 4. When the wielder applies an Arts Burst, consume 1 stack of Windform to grant the wielder Arts DMG Dealt +6.4% for 30s. This effect can reach 4 stacks. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+                "Arts DMG Dealt +28.8%. After the wielder casts a battle skill, the wielder gains Arts Intensity +63 and 4 stacks of Windform for 15s. This entire effect cannot stack. Max Windform stacks: 4. When the wielder applies an Arts Burst, consume 1 stack of Windform to grant the wielder Arts DMG Dealt +7.2% for 30s. This effect can reach 4 stacks. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+                "Arts DMG Dealt +32.0%. After the wielder casts a battle skill, the wielder gains Arts Intensity +70 and 4 stacks of Windform for 15s. This entire effect cannot stack. Max Windform stacks: 4. When the wielder applies an Arts Burst, consume 1 stack of Windform to grant the wielder Arts DMG Dealt +8.0% for 30s. This effect can reach 4 stacks. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+                "Arts DMG Dealt +35.2%. After the wielder casts a battle skill, the wielder gains Arts Intensity +77 and 4 stacks of Windform for 15s. This entire effect cannot stack. Max Windform stacks: 4. When the wielder applies an Arts Burst, consume 1 stack of Windform to grant the wielder Arts DMG Dealt +8.8% for 30s. This effect can reach 4 stacks. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+                "Arts DMG Dealt +38.4%. After the wielder casts a battle skill, the wielder gains Arts Intensity +84 and 4 stacks of Windform for 15s. This entire effect cannot stack. Max Windform stacks: 4. When the wielder applies an Arts Burst, consume 1 stack of Windform to grant the wielder Arts DMG Dealt +9.6% for 30s. This effect can reach 4 stacks. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+                "Arts DMG Dealt +44.8%. After the wielder casts a battle skill, the wielder gains Arts Intensity +98 and 4 stacks of Windform for 15s. This entire effect cannot stack. Max Windform stacks: 4. When the wielder applies an Arts Burst, consume 1 stack of Windform to grant the wielder Arts DMG Dealt +11.2% for 30s. This effect can reach 4 stacks. Duration of each stack is counted separately. Effect only triggers once every 0.1s."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "wpn_funnel_0020",
+        "name": "Suffering's End",
+        "type": "Arts Unit",
+        "rarity": 6,
+        "base_atk": 490,
+        "stat1": "Agility: +156",
+        "stat2": "Nature DMG Bonus: +43.3%",
+        "passive": "Arts Intensity +42. When the wielder applies an Arts Burst, the wielder gains Nature DMG Dealt +5.6% for 25s. Max stacks for this effect: 4. Duration of each stack is counted separately. Effect only triggers once every 0.1s. At 4 stacks, the aforementioned effect grants an additional Nature DMG Dealt +16.8%. This effect cannot stack.",
+        "name_es": "Fin del Sufrimiento",
+        "scaling_by_rank": {
+          "base_atk": {
+            "min": 50,
+            "max": 490
+          },
+          "passives": [
+            {
+              "name": "Agility Boost [L]",
+              "ranks": [
+                "Agility +20",
+                "Agility +36",
+                "Agility +52",
+                "Agility +68",
+                "Agility +84",
+                "Agility +100",
+                "Agility +116",
+                "Agility +132",
+                "Agility +156"
+              ]
+            },
+            {
+              "name": "Nature DMG Boost [L]",
+              "ranks": [
+                "Nature DMG Dealt +5.6%",
+                "Nature DMG Dealt +10.0%",
+                "Nature DMG Dealt +14.4%",
+                "Nature DMG Dealt +18.9%",
+                "Nature DMG Dealt +23.3%",
+                "Nature DMG Dealt +27.8%",
+                "Nature DMG Dealt +32.2%",
+                "Nature DMG Dealt +36.7%",
+                "Nature DMG Dealt +43.3%"
+              ]
+            },
+            {
+              "name": "Detonate: Dawn of the Long Night",
+              "ranks": [
+                "Arts Intensity +15. When the wielder applies an Arts Burst, the wielder gains Nature DMG Dealt +2.0% for 25s. Max stacks for this effect: 4. Duration of each stack is counted separately. Effect only triggers once every 0.1s. At 4 stacks, the aforementioned effect grants an additional Nature DMG Dealt +6.0%. This effect cannot stack.",
+                "Arts Intensity +18. When the wielder applies an Arts Burst, the wielder gains Nature DMG Dealt +2.4% for 25s. Max stacks for this effect: 4. Duration of each stack is counted separately. Effect only triggers once every 0.1s. At 4 stacks, the aforementioned effect grants an additional Nature DMG Dealt +7.2%. This effect cannot stack.",
+                "Arts Intensity +21. When the wielder applies an Arts Burst, the wielder gains Nature DMG Dealt +2.8% for 25s. Max stacks for this effect: 4. Duration of each stack is counted separately. Effect only triggers once every 0.1s. At 4 stacks, the aforementioned effect grants an additional Nature DMG Dealt +8.4%. This effect cannot stack.",
+                "Arts Intensity +24. When the wielder applies an Arts Burst, the wielder gains Nature DMG Dealt +3.2% for 25s. Max stacks for this effect: 4. Duration of each stack is counted separately. Effect only triggers once every 0.1s. At 4 stacks, the aforementioned effect grants an additional Nature DMG Dealt +9.6%. This effect cannot stack.",
+                "Arts Intensity +27. When the wielder applies an Arts Burst, the wielder gains Nature DMG Dealt +3.6% for 25s. Max stacks for this effect: 4. Duration of each stack is counted separately. Effect only triggers once every 0.1s. At 4 stacks, the aforementioned effect grants an additional Nature DMG Dealt +10.8%. This effect cannot stack.",
+                "Arts Intensity +30. When the wielder applies an Arts Burst, the wielder gains Nature DMG Dealt +4.0% for 25s. Max stacks for this effect: 4. Duration of each stack is counted separately. Effect only triggers once every 0.1s. At 4 stacks, the aforementioned effect grants an additional Nature DMG Dealt +12.0%. This effect cannot stack.",
+                "Arts Intensity +33. When the wielder applies an Arts Burst, the wielder gains Nature DMG Dealt +4.4% for 25s. Max stacks for this effect: 4. Duration of each stack is counted separately. Effect only triggers once every 0.1s. At 4 stacks, the aforementioned effect grants an additional Nature DMG Dealt +13.2%. This effect cannot stack.",
+                "Arts Intensity +36. When the wielder applies an Arts Burst, the wielder gains Nature DMG Dealt +4.8% for 25s. Max stacks for this effect: 4. Duration of each stack is counted separately. Effect only triggers once every 0.1s. At 4 stacks, the aforementioned effect grants an additional Nature DMG Dealt +14.4%. This effect cannot stack.",
+                "Arts Intensity +42. When the wielder applies an Arts Burst, the wielder gains Nature DMG Dealt +5.6% for 25s. Max stacks for this effect: 4. Duration of each stack is counted separately. Effect only triggers once every 0.1s. At 4 stacks, the aforementioned effect grants an additional Nature DMG Dealt +16.8%. This effect cannot stack."
               ]
             }
           ]

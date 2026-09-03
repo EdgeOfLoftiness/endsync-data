@@ -1,6 +1,126 @@
 {
   "banners": [
     {
+      "id": "b12",
+      "title": {
+        "es": "Winter Hunt — Typhoeus",
+        "en": "Winter Hunt — Typhoeus"
+      },
+      "img": "",
+      "status": "upcoming",
+      "dateStart": "2026-09-02",
+      "dateEnd": "2026-09-30",
+      "version": "1.5",
+      "desc": {
+        "es": "Banner principal de la versión 1.5 'Paisaje onírico de Viento y Nieve'. Typhoeus es una 6★ Nature de clase Striker que pelea con Arts Unit: cazadora del asentamiento de Sami y operadora de Rhodes Island, llega persiguiendo leyendas y termina atrapada con el Endmin en el Bosque Nevado. Su Battle Skill la lanza a un Hover state en el que se mueve mientras dispara 5 basic attacks sobre hasta dos enemigos, y consume stacks de Nature Infliction del enemigo para acumular Signs; el combo Rampant Thorns transmuta esos Signs en Hunting Arrows y despliega una Barrage Array que ralentiza y sube el Nature Burst DMG recibido, y si lo lanzas en el aire resetea el contador de aerial basic attacks. Su Ultimate explota en área y deja los 5 aerial basic attacks siguientes cargados con Hail of Arrows. Depende de que el equipo le mantenga Nature Infliction arriba. Su arma de firma es Umbra of Frigid Eventide (Arts Unit), en el Arsenal Deep Cold Issue. Pity blando en el pull 65 (+5% por pull); pity duro en 80.",
+        "en": "Main banner for version 1.5 'Dreamscape of Wind and Snow'. Typhoeus is a 6★ Nature Striker who fights with an Arts Unit: a huntress from the Sami settlement and a Rhodes Island operator, she arrives chasing legends and ends up trapped with the Endmin in the Snowy Forest. Her Battle Skill throws her into a Hover state where she moves while firing 5 basic attacks at up to two enemies, and it consumes Nature Infliction stacks from the enemy to build Signs; the Rampant Thorns combo turns those Signs into Hunting Arrows and deploys a Barrage Array that slows and raises Nature Burst DMG taken, and casting it mid-air also resets the aerial basic attack count. Her Ultimate explodes in an area and leaves the next 5 aerial basic attacks loaded with Hail of Arrows. She needs the team to keep Nature Infliction stacked. Her signature weapon is Umbra of Frigid Eventide (Arts Unit) on the Deep Cold Issue arsenal banner. Soft pity at pull 65 (+5% each); hard pity at 80."
+      },
+      "chars": [
+        {
+          "name": "Typhoeus",
+          "el": "Nature",
+          "icon": "",
+          "tag": "6★",
+          "role": "Striker",
+          "confirmed": true,
+          "note": {
+            "es": "Rate-up limitado · 2 sep",
+            "en": "Limited rate-up · Sep 2"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b13",
+      "title": {
+        "es": "Resplendent Spectrum Fase I (RE-Factor)",
+        "en": "Resplendent Spectrum Phase I (RE-Factor)"
+      },
+      "img": "",
+      "status": "upcoming",
+      "dateStart": null,
+      "dateEnd": null,
+      "version": "1.5",
+      "desc": {
+        "es": "Primer banner del tipo nuevo RE-Factor Headhunting, que abre cerca del final de Winter Hunt (fecha exacta por confirmar). Rate-up: Yvonne. El pool de 6★ es Yvonne, Ember, Lifeng, Ardelia, Last Rite y Pogranichnik. Reglas propias: a los 30, 60 y 90 intentos te dan 10 intentos extra de Urgent Recruitment; el 6★ rate-up está garantizado dentro de los primeros 120 intentos; cada 240 intentos acumulados te dan una ficha del 6★ rate-up de la fase. Esos tres progresos se arrastran a las fases siguientes de la misma serie. Aparte garantiza un 6★ dentro de 80 intentos, y ese contador se comparte entre todos los banners RE-Factor. El Arsenal que lo acompaña es Tag Artist Issue Fase I, con Artzy Tyrannical en rate-up, y empieza y termina junto con este banner.",
+        "en": "First banner of the new RE-Factor Headhunting type, opening near the end of Winter Hunt (exact date to be confirmed). Rate-up: Yvonne. The 6★ pool is Yvonne, Ember, Lifeng, Ardelia, Last Rite and Pogranichnik. It has its own rules: at 30, 60 and 90 pulls you get 10 extra Urgent Recruitment attempts; the rate-up 6★ is guaranteed within the first 120 pulls; every 240 cumulative pulls grants a token of the rate-up 6★ for that phase. All three of those progress bars carry over to later phases of the same series. Separately it guarantees a 6★ within 80 pulls, and that counter is shared across every RE-Factor banner. The paired arsenal banner is Tag Artist Issue Phase I with Artzy Tyrannical on rate-up, and it starts and ends alongside this one."
+      },
+      "chars": [
+        {
+          "name": "Yvonne",
+          "el": "Cryo",
+          "icon": "",
+          "tag": "6★",
+          "role": "Striker",
+          "confirmed": true,
+          "note": {
+            "es": "Rate-up de la fase",
+            "en": "Phase rate-up"
+          }
+        },
+        {
+          "name": "Ember",
+          "el": "Heat",
+          "icon": "",
+          "tag": "6★",
+          "role": "Defender",
+          "confirmed": true,
+          "note": {
+            "es": "En el pool",
+            "en": "In the pool"
+          }
+        },
+        {
+          "name": "Lifeng",
+          "el": "Physical",
+          "icon": "",
+          "tag": "6★",
+          "role": "Guard",
+          "confirmed": true,
+          "note": {
+            "es": "En el pool",
+            "en": "In the pool"
+          }
+        },
+        {
+          "name": "Ardelia",
+          "el": "Nature",
+          "icon": "",
+          "tag": "6★",
+          "role": "Supporter",
+          "confirmed": true,
+          "note": {
+            "es": "En el pool",
+            "en": "In the pool"
+          }
+        },
+        {
+          "name": "Last Rite",
+          "el": "Cryo",
+          "icon": "",
+          "tag": "6★",
+          "role": "Striker",
+          "confirmed": true,
+          "note": {
+            "es": "En el pool",
+            "en": "In the pool"
+          }
+        },
+        {
+          "name": "Pogranichnik",
+          "el": "Physical",
+          "icon": "",
+          "tag": "6★",
+          "role": "Vanguard",
+          "confirmed": true,
+          "note": {
+            "es": "En el pool",
+            "en": "In the pool"
+          }
+        }
+      ]
+    },
+    {
       "id": "b3",
       "title": {
         "es": "Fists of No Regrets — Mi Fu",
@@ -102,13 +222,13 @@
     {
       "id": "b11",
       "title": {
-        "es": "Good Morning From Your Dawnstar — Liino",
-        "en": "Good Morning From Your Dawnstar — Liino"
+        "es": "Good Morning from Your Dawnstar — Liino",
+        "en": "Good Morning from Your Dawnstar — Liino"
       },
       "img": "assets/banners/good_morning_from_your_dawnstar.webp",
       "status": "active",
       "dateStart": "2026-08-09",
-      "dateEnd": "2026-08-30",
+      "dateEnd": "2026-09-01",
       "version": "1.4",
       "desc": {
         "es": "Banner de la Fase 2 de la versión 1.4. Liino es la idol más popular de Talos-II, la 'Morning Star of La Fantoma', y debuta como 6★ Electric de clase Support. Vocalista con cosmovoz: su Battle Skill de costo muy bajo la pone en una postura de canto que sube el ATK de todo el equipo, cura en área de forma continua y ataca periódicamente; su combo, de enfriamiento muy corto, se activa con cualquier Arts Reaction, cura al operador controlado y otorga energía de Ultimate extra. Su Ultimate cura al equipo y entra en una postura mejorada que además otorga Nature y Electric Amplification. Su historia arranca cuando desaparece justo antes de su gran concierto en Valley IV. Su arma BIS es Bedazzling Night Debut (Polearm), en el banner Bedazzled Issue. Off-rate: Arcane y Camille. El login de 7 días Bedazzling Dawnstar regala 5 permisos OTL para este banner.",
@@ -381,6 +501,150 @@
   ],
   "patches": [
     {
+      "id": "p15",
+      "version": "1.5",
+      "date": "2026-09-02",
+      "title": {
+        "es": "v1.5 — Paisaje onírico de Viento y Nieve (Dreamscape of Wind and Snow)",
+        "en": "v1.5 — Dreamscape of Wind and Snow"
+      },
+      "changes": [
+        {
+          "type": "new",
+          "text": {
+            "es": "Nueva operadora: Typhoeus (Nature, Striker 6★, Arts Unit) — cazadora de Sami y operadora de Rhodes Island. Hover state para atacar en el aire, Signs que salen de consumir Nature Infliction, Hunting Arrows, Barrage Array que ralentiza y sube el Nature Burst recibido, y una Ultimate que carga los 5 aerial basic attacks siguientes con Hail of Arrows (Fase 1)",
+            "en": "New operator: Typhoeus (Nature, Striker 6★, Arts Unit) — a Sami huntress and Rhodes Island operator. Hover state for aerial attacks, Signs built by consuming Nature Infliction, Hunting Arrows, a Barrage Array that slows and raises Nature Burst taken, and an Ultimate that loads the next 5 aerial basic attacks with Hail of Arrows (Phase 1)"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Nueva operadora: Purrchena (Physical, Defender 5★, Sword) — GRATIS por el evento de sorteo Purry Big Feline! RAWR!, junto con su arma Dessert Moment. Escudo con Protection en área y resistencia a interrupción, segunda activación gratis que aplica Nature Infliction, combo reactivo que cura y saca regalos al azar (Bomb, Handicraft o Yummy Dessert) y Ultimate con chance de Ambassador's Special que aplica Arts Susceptibility (Fase 2)",
+            "en": "New operator: Purrchena (Physical, Defender 5★, Sword) — FREE from the Purry Big Feline! RAWR! giveaway event, along with her weapon Dessert Moment. A shield that grants area Protection and interruption resistance, a free second activation that applies Nature Infliction, a reactive combo that heals and pulls random gifts (Bomb, Handicraft or Yummy Dessert), and an Ultimate with a chance at the Ambassador Special that applies Arts Susceptibility (Phase 2)"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Nueva zona: Snowy Forest (Bosque Nevado), afuera de Yinglung Pass. Niebla encantada que te hace caminar en círculos y se disipa destruyendo varias barrier runes a la vez, rocas flotantes que se activan con runas para cruzar valles de rift, y las creaciones de la Snowpriestess",
+            "en": "New area: Snowy Forest, just outside Yinglung Pass. Enchanted fog that makes you walk in circles and only clears when several barrier runes break at once, floating rocks activated with runes to cross rift valleys, and the creations of the Snowpriestess"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Nuevo mapa de rompecabezas: Suiming, una ciudad sumergida donde las mareas suben y bajan. Al bajar se abren zonas nuevas con piezas para reparar la Waking Bell; cada vez que la marea sube la campana rebobina el tiempo, pero las piezas ya juntadas se conservan (Fase 2)",
+            "en": "New puzzle map: Suiming, a submerged city where the tides rise and fall. Low tide opens up areas holding the parts needed to repair the Waking Bell; each time the tide rises the bell rewinds time, but the parts you already collected are kept (Phase 2)"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Nuevos enemigos: los Ents de la Snowpriestess, blindados, hay que romperles el caparazón antes de dañarlos; y el boss del Bosque Nevado, una creación de brujería enorme que tunelea ramas para inmovilizar, invoca Ents que forman barreras y crea zonas de ralentización con daño continuo",
+            "en": "New enemies: the Ents of the Snowpriestess, armored, whose outer shell must be shattered before they take damage; and the Snowy Forest boss, a massive witchcraft creation that tunnels branches to pin you down, summons Ents to form barriers and creates slowing zones that deal continuous damage"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Tipo de banner nuevo: RE-Factor Headhunting. El primero es Resplendent Spectrum Fase I con Yvonne en rate-up y un pool de Yvonne, Ember, Lifeng, Ardelia, Last Rite y Pogranichnik. Garantiza el rate-up en 120 intentos, un 6★ en 80, fichas cada 240, y arrastra el progreso entre fases de la misma serie",
+            "en": "New banner type: RE-Factor Headhunting. The first one is Resplendent Spectrum Phase I with Yvonne on rate-up and a pool of Yvonne, Ember, Lifeng, Ardelia, Last Rite and Pogranichnik. It guarantees the rate-up within 120 pulls, a 6★ within 80, tokens every 240, and carries progress across phases of the same series"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Tipo de Arsenal nuevo: RE-Factor Issue. El primero es Tag Artist Issue Fase I con Artzy Tyrannical en rate-up; los primeros 8 intentos cuentan para la garantía y el progreso se arrastra a las fases siguientes",
+            "en": "New arsenal type: RE-Factor Issue. The first one is Tag Artist Issue Phase I with Artzy Tyrannical on rate-up; the first 8 attempts count toward the guarantee and the progress carries over to later phases"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Armas nuevas: Umbra of Frigid Eventide (6★ Arts Unit, Deep Cold Issue), Artzy Tyrannical (6★, Tag Artist Issue Fase I), Suffering's End (6★ Arts Unit, Protocol Pass Gloomwald) y Dessert Moment (5★ Sword, gratis por el sorteo)",
+            "en": "New weapons: Umbra of Frigid Eventide (6★ Arts Unit, Deep Cold Issue), Artzy Tyrannical (6★, Tag Artist Issue Phase I), Suffering's End (6★ Arts Unit, Protocol Pass Gloomwald) and Dessert Moment (5★ Sword, free from the giveaway)"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Gear: sale el set nuevo Deep Rampart Gear Pack, y actualizan piezas Tide Surge, Eternal Xiranite y AIC Fieldwork. Los templates de AIC Fieldwork se consiguen apenas llegas a Wuling tras actualizar",
+            "en": "Gear: the new Deep Rampart Gear Pack goes live, and Tide Surge, Eternal Xiranite and AIC Fieldwork all get updated pieces. The AIC Fieldwork templates become available as soon as you reach Wuling after the update"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Echoes of War suma dos temporadas: Virtuality y después Illusion. Cada una rota etapas existentes y agrega tres etapas nuevas",
+            "en": "Echoes of War adds two seasons: Virtuality and then Illusion. Each rotates existing stages and adds three new ones"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Umbral Monument suma el reto de alta dificultad Marked by Dark Shadows, con el evento limitado Monumental Etching: Shadow Marked al lado",
+            "en": "Umbral Monument adds the high-difficulty challenge Marked by Dark Shadows, paired with the limited-time event Monumental Etching: Shadow Marked"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Trial of the Bow: campo de tiro en el Bosque Nevado con Arrow Chips intercambiables y etapas de Daily Exercise que varían cada día. Cuando el evento limitado cierra, queda como modo permanente",
+            "en": "Trial of the Bow: an archery range in the Snowy Forest with swappable Arrow Chips and Daily Exercise stages that change every day. Once the limited-time event closes it stays as a permanent mode"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Eventos de la Fase 2: Runners' Steeplechase (carreras con Yvonne en Wuling City, con Chubby Lung Balloons), el sorteo Purry Big Feline! RAWR!, el login Ridgeline Flows of Autumn, la guía Echoing Bell of an Old City y el evento web OrbiPom! MERGE!",
+            "en": "Phase 2 events: Runners' Steeplechase (racing with Yvonne in Wuling City, collecting Chubby Lung Balloons), the Purry Big Feline! RAWR! giveaway, the Ridgeline Flows of Autumn sign-in, the Echoing Bell of an Old City guide event and the OrbiPom! MERGE! web event"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Protocol Pass: Gloomwald — temporada nueva con un 6★ Weapon of Choice Supply que incluye Suffering's End, más el tema de perfil Dreamlit Night, el retrato Frozen Outline y el marco Rules of the Snowpriest",
+            "en": "Protocol Pass: Gloomwald — a new season with a 6★ Weapon of Choice Supply that includes Suffering's End, plus the Dreamlit Night profile theme, the Frozen Outline portrait and the Rules of the Snowpriest portrait frame"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Talosite Exchange: dos vinilos (The Day After Tomorrow, My Former Home), poses de cámara para Typhoeus e Yvonne, cuatro ornamentals (Amma's Tender Love, Lucid Dream, Hot Roast Party, Rainbow) y los Speed Boosters, un personal device que acelera la recarga de stamina de dash mientras estás en la región de Wuling",
+            "en": "Talosite Exchange: two vinyls (The Day After Tomorrow, My Former Home), camera poses for Typhoeus and Yvonne, four ornamentals (Amma Tender Love, Lucid Dream, Hot Roast Party, Rainbow) and the Speed Boosters, a personal device that speeds up dash stamina regen while you are in the Wuling region"
+          }
+        },
+        {
+          "type": "fix",
+          "text": {
+            "es": "Progresión: llega el Progression Overview, que muestra de un vistazo qué recursos y cuántos hacen falta para subir operadores y armas a niveles preestablecidos contra lo que tienes en inventario. Incluye operadores y armas que no tienes e incluso los que todavía no salieron, con stats de arma y perfect match essences, y deja agregar armas a la Essence Wishlist",
+            "en": "Progression: the Progression Overview arrives, showing at a glance which resources and how many are needed to raise operators and weapons to preset levels, against what you hold in inventory. It covers operators and weapons you do not own and even upcoming ones, with weapon stats and perfect match essences, and it lets you add weapons to the Essence Wishlist"
+          }
+        },
+        {
+          "type": "fix",
+          "text": {
+            "es": "AIC: colocación continua en el Área silvestre para instalaciones, terrenos y ornamentals, sin salir del modo de colocación. Los blueprints ahora te dicen cuántas instalaciones seleccionaste y cuál es el límite cuando te pasas",
+            "en": "AIC: continuous placement in the wilderness for facilities, plots and ornamentals, without leaving placement mode. Blueprints now tell you how many facilities you selected and what the limit is when you go over"
+          }
+        },
+        {
+          "type": "fix",
+          "text": {
+            "es": "Combate: en Echoes of War puedes cambiar de etapa desde la pantalla de dificultad, y al terminar etapas de Echoes of War o Umbral Monument ya no hay pantalla de carga al volver. Ciertos desafíos muestran el tiempo de finalización en la pantalla de recuento",
+            "en": "Combat: in Echoes of War you can switch stages straight from the difficulty screen, and returning after clearing Echoes of War or Umbral Monument stages no longer shows a loading screen. Certain challenges display the clear time on the tally screen"
+          }
+        },
+        {
+          "type": "fix",
+          "text": {
+            "es": "Calidad de vida: ocultar prompts de botones y subtítulos en los diálogos (y Hide UI ahora funciona en Auto-Play), Clue Quick Action y envío de pistas duplicadas de un clic en la Reception Room, regalos a operadores con Trust al máximo, scroll continuo en las medallas grabadas y más área de fondo de perfil en la lista de amigos",
+            "en": "Quality of life: hide button prompts and subtitles in dialogue (and Hide UI now works in Auto-Play), Clue Quick Action and one-click duplicate clue sending in the Reception Room, gifting operators who are already at max Trust, continuous scrolling in the engraved medals view and a larger profile background area in the friends list"
+          }
+        }
+      ]
+    },
+    {
       "id": "p14",
       "version": "1.4",
       "date": "2026-07-16",
@@ -567,6 +831,218 @@
   ],
   "gear": [
     {
+      "id": "g10",
+      "date": "2026-09-02",
+      "title": {
+        "es": "Arma — Umbra of Frigid Eventide (Arts Unit, 6★)",
+        "en": "Weapon — Umbra of Frigid Eventide (Arts Unit, 6★)"
+      },
+      "tag": {
+        "es": "NUEVA",
+        "en": "NEW"
+      },
+      "img": "",
+      "desc": {
+        "es": "Arma de firma de Typhoeus, en el Arsenal Deep Cold Issue junto con el banner Winter Hunt. Stats y passive por confirmar: el preview oficial no dio números.",
+        "en": "The signature weapon of Typhoeus, on the Deep Cold Issue arsenal banner alongside Winter Hunt. Stats and passive are still to be confirmed: the official preview gave no numbers."
+      },
+      "stats": [
+        {
+          "k": {
+            "es": "Tipo",
+            "en": "Type",
+            "jp": "分類",
+            "zh": "类别"
+          },
+          "v": "Arts Unit"
+        },
+        {
+          "k": {
+            "es": "Rareza",
+            "en": "Rarity"
+          },
+          "v": "6★"
+        },
+        {
+          "k": {
+            "es": "Origen",
+            "en": "Source"
+          },
+          "v": "Deep Cold Issue"
+        }
+      ],
+      "chars": [
+        "Typhoeus"
+      ]
+    },
+    {
+      "id": "g11",
+      "date": "2026-09-02",
+      "title": {
+        "es": "Arma — Artzy Tyrannical (6★)",
+        "en": "Weapon — Artzy Tyrannical (6★)"
+      },
+      "tag": {
+        "es": "NUEVA",
+        "en": "NEW"
+      },
+      "img": "",
+      "desc": {
+        "es": "Rate-up del primer RE-Factor Issue, Tag Artist Issue Fase I, que corre en paralelo al banner Resplendent Spectrum Fase I. Los primeros 8 intentos cuentan para la garantía y el progreso se arrastra a las fases siguientes. Tipo de arma y stats por confirmar.",
+        "en": "Rate-up of the first RE-Factor Issue, Tag Artist Issue Phase I, which runs alongside the Resplendent Spectrum Phase I banner. The first 8 attempts count toward the guarantee and the progress carries over to later phases. Weapon type and stats still to be confirmed."
+      },
+      "stats": [
+        {
+          "k": {
+            "es": "Tipo",
+            "en": "Type",
+            "jp": "分類",
+            "zh": "类别"
+          },
+          "v": "Por confirmar"
+        },
+        {
+          "k": {
+            "es": "Rareza",
+            "en": "Rarity"
+          },
+          "v": "6★"
+        },
+        {
+          "k": {
+            "es": "Origen",
+            "en": "Source"
+          },
+          "v": "Tag Artist Issue Fase I"
+        }
+      ],
+      "chars": []
+    },
+    {
+      "id": "g12",
+      "date": "2026-09-02",
+      "title": {
+        "es": "Arma — Dessert Moment (Sword, 5★)",
+        "en": "Weapon — Dessert Moment (Sword, 5★)"
+      },
+      "tag": {
+        "es": "GRATIS",
+        "en": "FREE"
+      },
+      "img": "",
+      "desc": {
+        "es": "Arma de Purrchena. Sale gratis en el evento de sorteo Purry Big Feline! RAWR!, y las misiones del sorteo dan cinco copias extra, así que la subes a potencial máximo sin gastar nada. No entra de inmediato al Arsenal.",
+        "en": "The weapon of Purrchena. It comes free from the Purry Big Feline! RAWR! giveaway event, and the giveaway missions hand out five extra copies, so you can max its potential without spending anything. It does not enter the arsenal right away."
+      },
+      "stats": [
+        {
+          "k": {
+            "es": "Tipo",
+            "en": "Type",
+            "jp": "分類",
+            "zh": "类别"
+          },
+          "v": "Sword"
+        },
+        {
+          "k": {
+            "es": "Rareza",
+            "en": "Rarity"
+          },
+          "v": "5★"
+        },
+        {
+          "k": {
+            "es": "Origen",
+            "en": "Source"
+          },
+          "v": "Purry Big Feline! RAWR!"
+        }
+      ],
+      "chars": [
+        "Purrchena"
+      ]
+    },
+    {
+      "id": "g13",
+      "date": "2026-09-02",
+      "title": {
+        "es": "Arma — Suffering's End (Arts Unit, 6★)",
+        "en": "Weapon — Suffering End (Arts Unit, 6★)"
+      },
+      "tag": {
+        "es": "NUEVA",
+        "en": "NEW"
+      },
+      "img": "",
+      "desc": {
+        "es": "Entra en el 6★ Weapon of Choice Supply de la temporada nueva del Protocol Pass, Gloomwald. Stats por confirmar.",
+        "en": "Part of the 6★ Weapon of Choice Supply in the new Protocol Pass season, Gloomwald. Stats still to be confirmed."
+      },
+      "stats": [
+        {
+          "k": {
+            "es": "Tipo",
+            "en": "Type",
+            "jp": "分類",
+            "zh": "类别"
+          },
+          "v": "Arts Unit"
+        },
+        {
+          "k": {
+            "es": "Rareza",
+            "en": "Rarity"
+          },
+          "v": "6★"
+        },
+        {
+          "k": {
+            "es": "Origen",
+            "en": "Source"
+          },
+          "v": "Protocol Pass: Gloomwald"
+        }
+      ],
+      "chars": []
+    },
+    {
+      "id": "g14",
+      "date": "2026-09-02",
+      "title": {
+        "es": "Set — Deep Rampart Gear Pack",
+        "en": "Set — Deep Rampart Gear Pack"
+      },
+      "tag": {
+        "es": "NUEVO SET",
+        "en": "NEW SET"
+      },
+      "img": "",
+      "desc": {
+        "es": "Set de gear nuevo de la 1.5. En la misma versión actualizan piezas de Tide Surge, Eternal Xiranite y AIC Fieldwork, y los templates de AIC Fieldwork se consiguen apenas llegas a Wuling tras actualizar. Piezas y stats por confirmar.",
+        "en": "New gear set in 1.5. The same version updates pieces of Tide Surge, Eternal Xiranite and AIC Fieldwork, and the AIC Fieldwork templates become available as soon as you reach Wuling after the update. Pieces and stats still to be confirmed."
+      },
+      "stats": [
+        {
+          "k": {
+            "es": "Tipo",
+            "en": "Type",
+            "jp": "分類",
+            "zh": "类别"
+          },
+          "v": "Gear Pack"
+        },
+        {
+          "k": {
+            "es": "Origen",
+            "en": "Source"
+          },
+          "v": "1.5 Dreamscape of Wind and Snow"
+        }
+      ],
+      "chars": []
+    },
+    {
       "id": "g7",
       "date": "2026-07-16",
       "title": {
@@ -596,8 +1072,8 @@
       "tag": { "es": "PRÓXIMO", "en": "UPCOMING" },
       "img": "",
       "desc": {
-        "es": "Arma BIS de Liino. Disponible en el banner de armas Bedazzled Issue desde el 9 de agosto, junto al banner Good Morning From Your Dawnstar (Fase 2 de la v1.4).",
-        "en": "Liino's BIS weapon. Available on the Bedazzled Issue weapon banner from August 9, alongside the Good Morning From Your Dawnstar banner (v1.4 Phase 2)."
+        "es": "Arma BIS de Liino. Disponible en el banner de armas Bedazzled Issue desde el 9 de agosto, junto al banner Good Morning from Your Dawnstar (Fase 2 de la v1.4).",
+        "en": "Liino's BIS weapon. Available on the Bedazzled Issue weapon banner from August 9, alongside the Good Morning from Your Dawnstar banner (v1.4 Phase 2)."
       },
       "stats": [
         { "k": { "es": "Tipo", "en": "Type", "jp": "分類", "zh": "类别" }, "v": "Polearm" },
@@ -728,6 +1204,361 @@
     }
   ],
   "events": [
+    {
+      "id": "ev27",
+      "title": {
+        "es": "Carrera de obstáculos de los corredores",
+        "en": "Runners' Steeplechase"
+      },
+      "tag": {
+        "es": "TIEMPO LIMITADO",
+        "en": "LIMITED-TIME"
+      },
+      "dateStart": null,
+      "dateEnd": null,
+      "desc": {
+        "es": "Evento de diversión y juegos de la segunda mitad de la versión, fecha por confirmar. Yvonne llega a la Ciudad de Wuling e invita al Endmin a las festividades. Las pistas van por senderos de montaña, techos de la ciudad y hasta por el aire, con dispositivos de impulso, vórtices y trampas. Puedes correr contra el reloj o tomarte tu tiempo para juntar todos los globos de Lung regordete.",
+        "en": "Fun and games event from the second half of the version, date to be confirmed. Yvonne arrives in Wuling City and invites the Endmin to the festivities. The tracks run along mountain paths, city rooftops and even through the air, with bounce devices, vortexes and traps. You can race the clock or take your time collecting every Chubby Lung Balloon."
+      },
+      "rewards": {
+        "es": [
+          "Oroberyl",
+          "Bebida energética Lung regordete rodante",
+          "Recompensas de hito por globos"
+        ],
+        "en": [
+          "Oroberyl",
+          "Rolling Chubby Lung energy drink",
+          "Milestone rewards for balloons"
+        ]
+      }
+    },
+    {
+      "id": "ev28",
+      "title": {
+        "es": "¡Gran felino ronroneante! ¡RAWR!",
+        "en": "Purry Big Feline! RAWR!"
+      },
+      "tag": {
+        "es": "TIEMPO LIMITADO",
+        "en": "LIMITED-TIME"
+      },
+      "dateStart": null,
+      "dateEnd": null,
+      "desc": {
+        "es": "Evento de sorteo de la segunda mitad de la versión, fecha por confirmar. Entras y reclamas gratis a la operadora 5★ Purrchena junto con su arma 5★ Momento del postre. Las misiones del sorteo dan además cinco fichas de Purrchena y cinco copias extra del arma, así que las dos suben a potencial máximo sin gastar nada. Ni la operadora ni el arma entran de inmediato a la Caza de reclutas ni al Arsenal.",
+        "en": "Giveaway event from the second half of the version, date to be confirmed. Log in and claim the 5★ operator Purrchena for free along with her 5★ weapon Dessert Moment. The giveaway missions also hand out five Purrchena tokens and five extra copies of the weapon, so both reach max potential at no cost. Neither the operator nor the weapon enters headhunting or the arsenal right away."
+      },
+      "rewards": {
+        "es": [
+          "Purrchena (5★) gratis",
+          "Momento del postre (5★) gratis",
+          "5 fichas + 5 armas extra"
+        ],
+        "en": [
+          "Purrchena (5★) free",
+          "Dessert Moment (5★) free",
+          "5 tokens plus 5 extra weapons"
+        ]
+      }
+    },
+    {
+      "id": "ev29",
+      "title": {
+        "es": "Flujos otoñales de la cresta",
+        "en": "Ridgeline Flows of Autumn"
+      },
+      "tag": {
+        "es": "TIEMPO LIMITADO",
+        "en": "LIMITED-TIME"
+      },
+      "dateStart": null,
+      "dateEnd": null,
+      "desc": {
+        "es": "Login por tiempo limitado de la segunda mitad de la versión, fecha por confirmar. Entras durante el periodo y juntas recompensas.",
+        "en": "Limited-time sign-in from the second half of the version, date to be confirmed. Log in during the period to collect the rewards."
+      },
+      "rewards": {
+        "es": [
+          "Retrato: Avanza y corre",
+          "Oroberyl",
+          "Bebida energética Lung regordete rodante"
+        ],
+        "en": [
+          "Portrait: Go Forth and Run",
+          "Oroberyl",
+          "Rolling Chubby Lung energy drink"
+        ]
+      }
+    },
+    {
+      "id": "ev30",
+      "title": {
+        "es": "El eco de la campana de una ciudad antigua",
+        "en": "Echoing Bell of an Old City"
+      },
+      "tag": {
+        "es": "EVENTO DE GUÍA",
+        "en": "GUIDE EVENT"
+      },
+      "dateStart": null,
+      "dateEnd": null,
+      "desc": {
+        "es": "Evento de guía del mapa de rompecabezas Suiming, fecha por confirmar. Explora las historias del pasado de la ciudad sumergida, completa las misiones correspondientes y junta las recompensas del evento.",
+        "en": "Guide event for the Suiming puzzle map, date to be confirmed. Explore the stories of the past in the submerged city, complete the matching missions and collect the event rewards."
+      },
+      "rewards": {
+        "es": [
+          "Recompensas de exploración"
+        ],
+        "en": [
+          "Exploration rewards"
+        ]
+      }
+    },
+    {
+      "id": "ev31",
+      "title": {
+        "es": "¡OrbiPom! ¡FUSIÓN!",
+        "en": "OrbiPom! MERGE!"
+      },
+      "tag": {
+        "es": "TIEMPO LIMITADO",
+        "en": "LIMITED-TIME"
+      },
+      "dateStart": null,
+      "dateEnd": null,
+      "desc": {
+        "es": "Evento web dentro del juego, fecha por confirmar. Fusionas OrbiPoms idénticos para completar la colección y encontrar al Endmin Dorado. Los OrbiPoms también sueltan varias habilidades que te dan una mano.",
+        "en": "In-game web event, date to be confirmed. You merge identical OrbiPoms to complete the collection and find the Golden Endmin. The OrbiPoms also unleash various skills that lend you a hand."
+      },
+      "rewards": {
+        "es": [
+          "Oroberyl",
+          "Premios por tareas"
+        ],
+        "en": [
+          "Oroberyl",
+          "Task rewards"
+        ]
+      }
+    },
+    {
+      "id": "ev32",
+      "title": {
+        "es": "Suministro de Cordura",
+        "en": "Sanity Supply"
+      },
+      "tag": {
+        "es": "TIEMPO LIMITADO",
+        "en": "LIMITED-TIME"
+      },
+      "dateStart": null,
+      "dateEnd": null,
+      "desc": {
+        "es": "Evento por tiempo limitado que se hace DOS veces a lo largo de la versión, fechas por confirmar. Durante cada periodo, completar las tareas diarias te da refuerzos de Cordura.",
+        "en": "Limited-time event that runs TWICE across the version, dates to be confirmed. During each period, completing the daily tasks hands you Sanity boosts."
+      },
+      "rewards": {
+        "es": [
+          "Refuerzos de Cordura de emergencia",
+          "Permisos de uso de Cordura"
+        ],
+        "en": [
+          "Emergency Sanity Boosters",
+          "Sanity Usage Permits"
+        ]
+      }
+    },
+    {
+      "id": "ev33",
+      "title": {
+        "es": "Pase de protocolo: Gloomwald",
+        "en": "Protocol Pass: Gloomwald"
+      },
+      "tag": {
+        "es": "PASE DE PROTOCOLO",
+        "en": "PROTOCOL PASS"
+      },
+      "dateStart": null,
+      "dateEnd": null,
+      "desc": {
+        "es": "Temporada nueva del Pase de protocolo, se lanza con la versión (fecha exacta por confirmar). Al desbloquear el pase te dan un suministro de arma 6★ a elección que incluye la Unidad de las Artes nueva Fin del sufrimiento.",
+        "en": "New Protocol Pass season, launching with the version (exact date to be confirmed). Unlocking the pass grants a 6★ Weapon of Choice Supply that includes the new Arts Unit Suffering End."
+      },
+      "rewards": {
+        "es": [
+          "Suffering's End (6★ Arts Unit)",
+          "Tema de perfil: Noche de ensueño",
+          "Retrato: Contorno congelado",
+          "Marco: Reglas del Sacerdote de la nieve"
+        ],
+        "en": [
+          "Suffering End (6★ Arts Unit)",
+          "Profile theme: Dreamlit Night",
+          "Portrait: Frozen Outline",
+          "Frame: Rules of the Snowpriest"
+        ]
+      }
+    },
+    {
+      "id": "ev21",
+      "title": {
+        "es": "Un sueño invernal cubierto de niebla en lo profundo del bosque",
+        "en": "A Winter Dream Fogged Deep in the Woods"
+      },
+      "tag": {
+        "es": "NARRATIVA",
+        "en": "NARRATIVE"
+      },
+      "dateStart": "2026-09-02",
+      "dateEnd": "",
+      "desc": {
+        "es": "Evento narrativo de Typhoeus, arranca apenas actualizas. El chief engineer Andre sale hacia Wuling con suministros y se pierde en el Bosque Nevado; el Endmin lo va a buscar y los dos quedan atrapados en una niebla que los hace caminar en círculos. Ahí aparece Typhoeus, que venía a visitar a una Snowpriestess versada en la historia de Sami.",
+        "en": "The narrative event of Typhoeus, live as soon as you update. Chief engineer Andre heads to Wuling with supplies and goes silent in the Snowy Forest; the Endmin goes looking for him and both end up trapped in a fog that makes them walk in circles. That is where Typhoeus turns up, on her way to visit a Snowpriestess well versed in Sami history."
+      },
+      "rewards": {
+        "es": [
+          "Historia de la versión 1.5"
+        ],
+        "en": [
+          "Version 1.5 story"
+        ]
+      }
+    },
+    {
+      "id": "ev22",
+      "title": {
+        "es": "Nieve sobre las profundidades del bosque",
+        "en": "Snow Over Deep Woods"
+      },
+      "tag": {
+        "es": "EVENTO DE GUÍA",
+        "en": "GUIDE EVENT"
+      },
+      "dateStart": "2026-09-02",
+      "dateEnd": "",
+      "desc": {
+        "es": "Evento de guía de la zona nueva. Desbloqueas puntos de TP, abres Protocol Crates y completas misiones por el Bosque Nevado para ir juntando recompensas mientras exploras.",
+        "en": "Guide event for the new area. You unlock TP points, open Protocol Crates and complete missions across the Snowy Forest, racking up rewards as you explore."
+      },
+      "rewards": {
+        "es": [
+          "Recompensas de exploración"
+        ],
+        "en": [
+          "Exploration rewards"
+        ]
+      }
+    },
+    {
+      "id": "ev23",
+      "title": {
+        "es": "Prueba del arco",
+        "en": "Trial of the Bow"
+      },
+      "tag": {
+        "es": "EVENTO DE RETO",
+        "en": "CHALLENGE EVENT"
+      },
+      "dateStart": "2026-09-02",
+      "dateEnd": "",
+      "desc": {
+        "es": "Se abre con la historia de Typhoeus. En el campo de tiro del Bosque Nevado estudias las flechas especiales de Sami y usas sus propiedades para superar retos, cambiando Arrow Chips sobre la marcha según el objetivo. Vas mejorando el campo de tiro para desbloquear más tipos de flecha y etapas más complejas, y una vez que limpias las etapas las de Daily Exercise varían cada día. Cuando el evento limitado cierra, el modo queda permanente.",
+        "en": "It opens along with the story of Typhoeus. At the Snowy Forest archery range you study the special Sami arrows and use their properties to clear challenges, swapping Arrow Chips on the fly to match each target. You upgrade the range to unlock more arrow types and harder stages, and once you clear them the Daily Exercise stages vary every day. When the limited-time run closes, the mode stays permanent."
+      },
+      "rewards": {
+        "es": [
+          "Oroberyl",
+          "Misiones de prueba limitadas",
+          "Modo permanente al cerrar"
+        ],
+        "en": [
+          "Oroberyl",
+          "Limited-time trial missions",
+          "Permanent mode once it closes"
+        ]
+      }
+    },
+    {
+      "id": "ev24",
+      "title": {
+        "es": "Soporte del CAI: El Lung regordete ataca",
+        "en": "AIC Support: Chubby Lung Attacks"
+      },
+      "tag": {
+        "es": "TIEMPO LIMITADO",
+        "en": "LIMITED-TIME"
+      },
+      "dateStart": "2026-09-02",
+      "dateEnd": "",
+      "desc": {
+        "es": "Segunda sesión del AIC Support. Consigues fórmulas por tiempo limitado, produces productos de apoyo y los entregas en los outposts de Wuling a cambio de Wuling Stock Bills y Fruits of Altruism Certs, y esos certs se canjean en la tienda limitada. Durante el evento ciertos outposts suben mucho su producción de stock bills. Además el canje mejoró: hay intercambio limitado desde la interfaz del outpost, la primera fase viene preseleccionada y salta sola a la segunda cuando agotas la primera.",
+        "en": "Second session of AIC Support. You get limited-time formulas, produce support goods and submit them at Wuling outposts in exchange for Wuling Stock Bills and Fruits of Altruism Certs, and those certs are redeemed at the limited-time shop. During the event certain outposts see a big boost to stock bill yield. The exchange also got smoother: there is a limited-time exchange right in the outpost interface, the first phase is preselected and it jumps to the second phase on its own once you clear the first."
+      },
+      "rewards": {
+        "es": [
+          "Wuling Stock Bills",
+          "Fruits of Altruism Certs",
+          "Tienda limitada"
+        ],
+        "en": [
+          "Wuling Stock Bills",
+          "Fruits of Altruism Certs",
+          "Limited-time shop"
+        ]
+      }
+    },
+    {
+      "id": "ev25",
+      "title": {
+        "es": "Punta de hierro emplumada",
+        "en": "Fletched Irontip"
+      },
+      "tag": {
+        "es": "TIEMPO LIMITADO",
+        "en": "LIMITED-TIME"
+      },
+      "dateStart": "2026-09-02",
+      "dateEnd": "",
+      "desc": {
+        "es": "Login de 7 días de la versión. Si entras y completas los sign-ins te llevas 5 LTO HH Permits para los banners de la versión. Aparte, el AIC Quota Exchange del Acquisition Center también tiene 5 LTO Chartered HH Permits en stock.",
+        "en": "The 7-day sign-in for this version. Log in and complete the sign-ins to take home 5 LTO HH Permits for the version banners. On top of that, the AIC Quota Exchange in the Acquisition Center also stocks 5 LTO Chartered HH Permits."
+      },
+      "rewards": {
+        "es": [
+          "5 LTO HH Permits"
+        ],
+        "en": [
+          "5 LTO HH Permits"
+        ]
+      }
+    },
+    {
+      "id": "ev26",
+      "title": {
+        "es": "Grabado monumental: Marcado por la sombra",
+        "en": "Monumental Etching: Shadow Marked"
+      },
+      "tag": {
+        "es": "TIEMPO LIMITADO",
+        "en": "LIMITED-TIME"
+      },
+      "dateStart": "2026-09-02",
+      "dateEnd": "",
+      "desc": {
+        "es": "Evento limitado atado al reto nuevo de alta dificultad de Umbral Monument, Marked by Dark Shadows. Completarlo da varias recompensas, Oroberyl incluido.",
+        "en": "Limited-time event tied to the new high-difficulty Umbral Monument challenge, Marked by Dark Shadows. Clearing it hands out several rewards, Oroberyl included."
+      },
+      "rewards": {
+        "es": [
+          "Oroberyl"
+        ],
+        "en": [
+          "Oroberyl"
+        ]
+      }
+    },
     {
       "id": "ev16",
       "title": {

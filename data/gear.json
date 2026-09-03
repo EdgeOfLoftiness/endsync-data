@@ -1,7 +1,7 @@
 {
  "game": "Arknights: Endfield",
  "rarity": "Gold (Lv70 / max artificing)",
- "total_gear_pieces": 152,
+ "total_gear_pieces": 167,
  "gear": {
   "Xiranflow": {
    "pieces": [
@@ -5421,6 +5421,178 @@
      "name_es": "Tubo de O2 Río Suspendido",
      "name_jp": "懸河ガス供給装置",
      "name_zh": "悬河供氧栓"
+    },
+    {
+     "name": "Tide Fall Light Armor T1",
+     "type": "Armor",
+     "def": 56,
+     "attributes": {
+      "intellect": 113,
+      "will": 75
+     },
+     "bonus_stat": "Ultimate Gain Efficiency: +16%",
+     "artificing": {
+      "attributes": {
+       "intellect": [
+        87,
+        95,
+        104,
+        113
+       ],
+       "will": [
+        58,
+        63,
+        69,
+        75
+       ]
+      },
+      "bonus_stat": {
+       "name": "Ultimate Gain Efficiency",
+       "values": [
+        12.3,
+        13.6,
+        14.8,
+        16
+       ]
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50
+     },
+     "name_es": "Armadura ligera de Marea Baja T1",
+     "name_jp": "干潮軽防具Ⅰ",
+     "name_zh": "落潮轻甲·壹型"
+    },
+    {
+     "name": "Wave Swell Heavy Armor",
+     "type": "Armor",
+     "def": 56,
+     "attributes": {
+      "strength": 113,
+      "will": 75
+     },
+     "bonus_stat": "Cryo and Electric DMG Dealt Bonus: +14.9%",
+     "artificing": {
+      "attributes": {
+       "strength": [
+        87,
+        95,
+        104,
+        113
+       ],
+       "will": [
+        58,
+        63,
+        69,
+        75
+       ]
+      },
+      "bonus_stat": {
+       "name": "Cryo and Electric DMG Dealt Bonus",
+       "values": [
+        11.5,
+        12.7,
+        13.8,
+        14.9
+       ]
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50
+     },
+     "name_es": "Armadura pesada de Oleaje",
+     "name_jp": "奔浪ヘビーアーマー",
+     "name_zh": "涌浪重装甲"
+    },
+    {
+     "name": "Deepsink Gloves",
+     "type": "Gloves",
+     "def": 42,
+     "attributes": {
+      "intellect": 84,
+      "will": 55
+     },
+     "bonus_stat": "All Skill DMG: +29.9%",
+     "artificing": {
+      "attributes": {
+       "intellect": [
+        65,
+        71,
+        78,
+        84
+       ],
+       "will": [
+        43,
+        47,
+        51,
+        55
+       ]
+      },
+      "bonus_stat": {
+       "name": "All Skill DMG",
+       "values": [
+        23,
+        25.3,
+        27.6,
+        29.9
+       ]
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50
+     },
+     "name_es": "Guantes de Hundimiento profundo",
+     "name_jp": "沈水グローブ",
+     "name_zh": "沉水手套"
+    },
+    {
+     "name": "Turbid Cutting Torch T1",
+     "type": "Kit",
+     "def": 21,
+     "attributes": {
+      "intellect": 41,
+      "will": 27
+     },
+     "bonus_stat": "Heat and Nature DMG Dealt Bonus: +29.9%",
+     "artificing": {
+      "attributes": {
+       "intellect": [
+        32,
+        35,
+        38,
+        41
+       ],
+       "will": [
+        21,
+        23,
+        25,
+        27
+       ]
+      },
+      "bonus_stat": {
+       "name": "Heat and Nature DMG Dealt Bonus",
+       "values": [
+        23,
+        25.3,
+        27.6,
+        29.9
+       ]
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50
+     },
+     "name_es": "Antorcha de corte turbia T1",
+     "name_jp": "濁流ホットカッターⅠ",
+     "name_zh": "浊流切割炬·壹型"
     }
    ],
    "set_bonus_3pc": "All Skill DMG +20%. After the wearer applies 2 or more stacks of Arts Infliction on the enemy, the wearer gains Arts DMG dealt +35% for 15s. This effect cannot stack."
@@ -5884,6 +6056,92 @@
      "name_es": "Losa de refuerzo de Xiranita eterna",
      "name_jp": "流転補強板",
      "name_zh": "长息加固板"
+    },
+    {
+     "name": "Eternal Xiranite Bracing Slab T1",
+     "type": "Kit",
+     "def": 21,
+     "attributes": {
+      "will": 41,
+      "agility": 27
+     },
+     "bonus_stat": "Ultimate Gain Efficiency: +32%",
+     "artificing": {
+      "attributes": {
+       "will": [
+        32,
+        35,
+        38,
+        41
+       ],
+       "agility": [
+        21,
+        23,
+        25,
+        27
+       ]
+      },
+      "bonus_stat": {
+       "name": "Ultimate Gain Efficiency",
+       "values": [
+        24.6,
+        27.1,
+        29.6,
+        32
+       ]
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50
+     },
+     "name_es": "Losa de refuerzo de Xiranita eterna T1",
+     "name_jp": "流転補強板Ⅰ",
+     "name_zh": "长息加固板·壹型"
+    },
+    {
+     "name": "Eternal Xiranite Heavy Slab",
+     "type": "Kit",
+     "def": 21,
+     "attributes": {
+      "strength": 41,
+      "will": 27
+     },
+     "bonus_stat": "Ultimate Gain Efficiency: +32%",
+     "artificing": {
+      "attributes": {
+       "strength": [
+        32,
+        35,
+        38,
+        41
+       ],
+       "will": [
+        21,
+        23,
+        25,
+        27
+       ]
+      },
+      "bonus_stat": {
+       "name": "Ultimate Gain Efficiency",
+       "values": [
+        24.6,
+        27.1,
+        29.6,
+        32
+       ]
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50
+     },
+     "name_es": "Losa pesada de Xiranita eterna",
+     "name_jp": "流転重量プレート",
+     "name_zh": "长息重护板"
     }
    ],
    "set_bonus_3pc": "Flat HP +1000. When the wearer applies Amp, Protected, Susceptible, or Weakened, other teammates also gain DMG Dealt +16% for 15s. This effect cannot stack."
@@ -6461,6 +6719,398 @@
      "name_es": "Linterna para trabajo de campo del CAI",
      "name_jp": "集成訓練ライト",
      "name_zh": "集成实训照明器"
+    },
+    {
+     "name": "AIC Fieldwork Assault Armor",
+     "type": "Armor",
+     "def": 48,
+     "attributes": {
+      "main": 96,
+      "secondary": 63
+     },
+     "bonus_stat": "Arts Intensity: +23",
+     "artificing": {
+      "attributes": {
+       "main": [
+        74,
+        81,
+        88,
+        96
+       ],
+       "secondary": [
+        49,
+        53,
+        58,
+        63
+       ]
+      },
+      "bonus_stat": {
+       "name": "Arts Intensity",
+       "values": [
+        17,
+        19,
+        21,
+        23
+       ]
+      }
+     },
+     "assembly": {
+      "billN": 3000,
+      "comp": "Xiranite Component",
+      "compN": 20
+     },
+     "name_es": "Armadura de asalto para Trabajo de campo del CAI",
+     "name_jp": "集成訓練強襲防具",
+     "name_zh": "集成实训突袭护甲"
+    },
+    {
+     "name": "AIC Fieldwork Medic Armor",
+     "type": "Armor",
+     "def": 48,
+     "attributes": {
+      "main": 96,
+      "secondary": 63
+     },
+     "bonus_stat": "Treatment Bonus: +11.5%",
+     "artificing": {
+      "attributes": {
+       "main": [
+        74,
+        81,
+        88,
+        96
+       ],
+       "secondary": [
+        49,
+        53,
+        58,
+        63
+       ]
+      },
+      "bonus_stat": {
+       "name": "Treatment Bonus",
+       "values": [
+        8.8,
+        9.7,
+        10.6,
+        11.5
+       ]
+      }
+     },
+     "assembly": {
+      "billN": 3000,
+      "comp": "Xiranite Component",
+      "compN": 20
+     },
+     "name_es": "Armadura médica para Trabajo de campo del CAI",
+     "name_jp": "集成訓練医療防具",
+     "name_zh": "集成实训医疗护甲"
+    },
+    {
+     "name": "AIC Fieldwork Assault Gloves",
+     "type": "Gloves",
+     "def": 36,
+     "attributes": {
+      "main": 71,
+      "secondary": 48
+     },
+     "bonus_stat": "Arts Intensity: +38",
+     "artificing": {
+      "attributes": {
+       "main": [
+        55,
+        60,
+        66,
+        71
+       ],
+       "secondary": [
+        37,
+        40,
+        44,
+        48
+       ]
+      },
+      "bonus_stat": {
+       "name": "Arts Intensity",
+       "values": [
+        29,
+        32,
+        35,
+        38
+       ]
+      }
+     },
+     "assembly": {
+      "billN": 3000,
+      "comp": "Xiranite Component",
+      "compN": 20
+     },
+     "name_es": "Guantes de asalto para Trabajo de campo del CAI",
+     "name_jp": "集成訓練強襲プロテクター",
+     "name_zh": "集成实训突袭护手"
+    },
+    {
+     "name": "AIC Fieldwork Medic Gloves",
+     "type": "Gloves",
+     "def": 36,
+     "attributes": {
+      "main": 71,
+      "secondary": 48
+     },
+     "bonus_stat": "Treatment Bonus: +19.2%",
+     "artificing": {
+      "attributes": {
+       "main": [
+        55,
+        60,
+        66,
+        71
+       ],
+       "secondary": [
+        37,
+        40,
+        44,
+        48
+       ]
+      },
+      "bonus_stat": {
+       "name": "Treatment Bonus",
+       "values": [
+        14.8,
+        16.2,
+        17.7,
+        19.2
+       ]
+      }
+     },
+     "assembly": {
+      "billN": 3000,
+      "comp": "Xiranite Component",
+      "compN": 20
+     },
+     "name_es": "Guantes médicos para Trabajo de campo del CAI",
+     "name_jp": "集成訓練医療プロテクター",
+     "name_zh": "集成实训医疗护手"
+    },
+    {
+     "name": "AIC Fieldwork Assault Push Knife",
+     "type": "Kit",
+     "def": 18,
+     "attributes": {
+      "main": 35,
+      "secondary": 23
+     },
+     "bonus_stat": "Arts Intensity: +46",
+     "artificing": {
+      "attributes": {
+       "main": [
+        27,
+        29,
+        32,
+        35
+       ],
+       "secondary": [
+        18,
+        19,
+        21,
+        23
+       ]
+      },
+      "bonus_stat": {
+       "name": "Arts Intensity",
+       "values": [
+        35,
+        38,
+        42,
+        46
+       ]
+      }
+     },
+     "assembly": {
+      "billN": 3000,
+      "comp": "Xiranite Component",
+      "compN": 20
+     },
+     "name_es": "Cuchillo de empuje de asalto para Trabajo de campo del CAI",
+     "name_jp": "集成訓練強襲ナイフ",
+     "name_zh": "集成实训突袭刺刃"
+    },
+    {
+     "name": "AIC Fieldwork Power Bank",
+     "type": "Kit",
+     "def": 18,
+     "attributes": {
+      "main": 35,
+      "secondary": 23
+     },
+     "bonus_stat": "Treatment Bonus: +23%",
+     "artificing": {
+      "attributes": {
+       "main": [
+        27,
+        29,
+        32,
+        35
+       ],
+       "secondary": [
+        18,
+        19,
+        21,
+        23
+       ]
+      },
+      "bonus_stat": {
+       "name": "Treatment Bonus",
+       "values": [
+        17.7,
+        19.5,
+        21.2,
+        23
+       ]
+      }
+     },
+     "assembly": {
+      "billN": 3000,
+      "comp": "Xiranite Component",
+      "compN": 20
+     },
+     "name_es": "Batería externa para trabajo de campo del CAI",
+     "name_jp": "集成訓練電力プラグ",
+     "name_zh": "集成实训供能栓"
+    }
+   ]
+  },
+  "Deep Rampart": {
+   "set_bonus_3pc": "Wearer's Arts DMG Dealt +16%. When the wearer applies Nature Burst or Cryo Burst, the wearer gains Arts Intensity +16 for 20s. Max stacks for this effect: 3. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+   "pieces": [
+    {
+     "name": "Deep Rampart Armor",
+     "type": "Armor",
+     "def": 56,
+     "attributes": {
+      "agility": 113,
+      "will": 75
+     },
+     "bonus_stat": "Arts Intensity: +26",
+     "artificing": {
+      "attributes": {
+       "agility": [
+        87,
+        95,
+        104,
+        113
+       ],
+       "will": [
+        58,
+        63,
+        69,
+        75
+       ]
+      },
+      "bonus_stat": {
+       "name": "Arts Intensity",
+       "values": [
+        20,
+        22,
+        24,
+        26
+       ]
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50
+     },
+     "name_es": "Armadura de Baluarte profundo",
+     "name_jp": "天険防具",
+     "name_zh": "险关装甲"
+    },
+    {
+     "name": "Deep Rampart Gauntlets",
+     "type": "Gloves",
+     "def": 42,
+     "attributes": {
+      "agility": 84,
+      "will": 55
+     },
+     "bonus_stat": "Arts Intensity: +44",
+     "artificing": {
+      "attributes": {
+       "agility": [
+        65,
+        71,
+        78,
+        84
+       ],
+       "will": [
+        43,
+        47,
+        51,
+        55
+       ]
+      },
+      "bonus_stat": {
+       "name": "Arts Intensity",
+       "values": [
+        34,
+        37,
+        41,
+        44
+       ]
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50
+     },
+     "name_es": "Guanteletes de Baluarte profundo",
+     "name_jp": "天険ガントレット",
+     "name_zh": "险关手甲"
+    },
+    {
+     "name": "Deep Rampart Comms",
+     "type": "Kit",
+     "def": 21,
+     "attributes": {
+      "agility": 41,
+      "will": 27
+     },
+     "bonus_stat": "Arts Intensity: +53",
+     "artificing": {
+      "attributes": {
+       "agility": [
+        32,
+        35,
+        38,
+        41
+       ],
+       "will": [
+        21,
+        23,
+        25,
+        27
+       ]
+      },
+      "bonus_stat": {
+       "name": "Arts Intensity",
+       "values": [
+        41,
+        45,
+        49,
+        53
+       ]
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50
+     },
+     "name_es": "Comunicador de Baluarte profundo",
+     "name_jp": "天険通信機",
+     "name_zh": "险关通信器"
     }
    ]
   }

@@ -1,0 +1,1424 @@
+{
+  "cats": [
+    "Chapter",
+    "Technical",
+    "Regional",
+    "Progression",
+    "Construction",
+    "Social",
+    "Event",
+    "Wondrous"
+  ],
+  "medals": [
+    {
+      "id": "chapter-awaken",
+      "cat": "Chapter",
+      "name": "Awaken",
+      "hidden": false,
+      "how": {
+        "es": "Completa la misión principal Prologue - Process: Awakening",
+        "en": "Complete the main mission Prologue - Process: Awakening"
+      }
+    },
+    {
+      "id": "chapter-core-ex-machina",
+      "cat": "Chapter",
+      "name": "Core ex Machina",
+      "hidden": false,
+      "how": {
+        "es": "Invoca el fruto de una gran hazaña tecnológica",
+        "en": "Summon the fruit of a great technological endeavor"
+      }
+    },
+    {
+      "id": "chapter-the-fist-misses",
+      "cat": "Chapter",
+      "name": "The Fist Misses",
+      "hidden": false,
+      "how": {
+        "es": "Completa la misión principal Chapter I Process I: Fort Showdown",
+        "en": "Complete the main mission Chapter I Process I: Fort Showdown"
+      }
+    },
+    {
+      "id": "chapter-the-refugees-strike-back",
+      "cat": "Chapter",
+      "name": "The Refugees Strike Back?!",
+      "hidden": false,
+      "how": {
+        "es": "Presencia un ataque en curso",
+        "en": "Witness an attack in progress"
+      }
+    },
+    {
+      "id": "chapter-shards-of-the-crushed-star",
+      "cat": "Chapter",
+      "name": "Shards of the Crushed Star",
+      "hidden": false,
+      "how": {
+        "es": "Completa la misión principal Chapter I Process III: Cradle of the Ages",
+        "en": "Complete the main mission Chapter I Process III: Cradle of the Ages"
+      }
+    },
+    {
+      "id": "chapter-rift-sealing",
+      "cat": "Chapter",
+      "name": "Rift Sealing",
+      "hidden": false,
+      "how": {
+        "es": "Completa la misión principal Undying Cinders",
+        "en": "Complete the main mission Undying Cinders"
+      }
+    },
+    {
+      "id": "chapter-returning-signs-of-ill-omen",
+      "cat": "Chapter",
+      "name": "Returning Signs of Ill Omen",
+      "hidden": false,
+      "how": {
+        "es": "Completa la misión principal Intermission: Conference of the Four",
+        "en": "Complete the main mission Intermission: Conference of the Four"
+      }
+    },
+    {
+      "id": "chapter-first-visit-to-wuling",
+      "cat": "Chapter",
+      "name": "First Visit to Wuling",
+      "hidden": false,
+      "how": {
+        "es": "Llega a una ciudad completamente nueva",
+        "en": "Reach an all-new city"
+      }
+    },
+    {
+      "id": "chapter-drowning-in-water",
+      "cat": "Chapter",
+      "name": "Drowning in Water",
+      "hidden": false,
+      "how": {
+        "es": "Completa la misión principal Chapter Ⅱ Process Ⅲ: No Retreat",
+        "en": "Complete the main mission Chapter Ⅱ Process Ⅲ: No Retreat"
+      }
+    },
+    {
+      "id": "chapter-the-final-lord-i-served",
+      "cat": "Chapter",
+      "name": "The Final Lord I Served",
+      "hidden": false,
+      "how": {
+        "es": "Sepárate de Ardashir en cierto lugar clave",
+        "en": "Part ways with Ardashir at a certain key location"
+      }
+    },
+    {
+      "id": "chapter-conqueror-s-fall",
+      "cat": "Chapter",
+      "name": "Conqueror's Fall",
+      "hidden": false,
+      "how": {
+        "es": "Completa la misión principal Chapter Ⅱ Process Ⅴ: Battle of the Main Pillar",
+        "en": "Complete the main mission Chapter Ⅱ Process Ⅴ: Battle of the Main Pillar"
+      }
+    },
+    {
+      "id": "chapter-gently-down-the-stream",
+      "cat": "Chapter",
+      "name": "Gently Down the Stream",
+      "hidden": false,
+      "how": {
+        "es": "Completa la misión principal Chapter Ⅱ Process Ⅵ: Forged at the Very Beginning",
+        "en": "Complete the main mission Chapter Ⅱ Process Ⅵ: Forged at the Very Beginning"
+      }
+    },
+    {
+      "id": "chapter-a-seal-lifted",
+      "cat": "Chapter",
+      "name": "A Seal Lifted",
+      "hidden": false,
+      "how": {
+        "es": "Completa la misión principal Chapter Ⅱ Process Ⅶ: Bravely Breach the Hostile Winds",
+        "en": "Complete the main mission Chapter Ⅱ Process Ⅶ: Bravely Breach the Hostile Winds"
+      }
+    },
+    {
+      "id": "chapter-a-dialog-of-swords",
+      "cat": "Chapter",
+      "name": "A Dialog of Swords",
+      "hidden": false,
+      "how": {
+        "es": "Despídete de un instructor de Tanjian Hall",
+        "en": "Bid farewell to an instructor of Tanjian Hall"
+      }
+    },
+    {
+      "id": "chapter-connection-to-the-past",
+      "cat": "Chapter",
+      "name": "Connection to the Past",
+      "hidden": false,
+      "how": {
+        "es": "Cruza el abismo con un puente de Xiranite",
+        "en": "Span the chasm with a Xiranite bridge"
+      }
+    },
+    {
+      "id": "chapter-child-of-hope",
+      "cat": "Chapter",
+      "name": "Child of Hope",
+      "hidden": false,
+      "how": {
+        "es": "Completa la misión principal Chapter Ⅱ Process Ⅶ: Warily Returns the Wandering Vigile",
+        "en": "Complete the main mission Chapter Ⅱ Process Ⅶ: Warily Returns the Wandering Vigile"
+      }
+    },
+    {
+      "id": "chapter-thus-ends-the-weeping-gash",
+      "cat": "Chapter",
+      "name": "Thus Ends the Weeping Gash",
+      "hidden": false,
+      "how": {
+        "es": "Completa la misión principal Chapter Ⅱ Process Ⅶ: Homecoming",
+        "en": "Complete the main mission Chapter Ⅱ Process Ⅶ: Homecoming"
+      }
+    },
+    {
+      "id": "chapter-true-altruist",
+      "cat": "Chapter",
+      "name": "True Altruist",
+      "hidden": false,
+      "how": {
+        "es": "Completa 30 misiones de exploración",
+        "en": "Complete 30 exploration missions"
+      }
+    },
+    {
+      "id": "chapter-lone-wolf",
+      "cat": "Chapter",
+      "name": "Lone Wolf",
+      "hidden": false,
+      "how": {
+        "es": "Completa la misión secundaria Lone Wolf",
+        "en": "Complete the side mission: Lone Wolf"
+      }
+    },
+    {
+      "id": "chapter-letter-from-a-messenger",
+      "cat": "Chapter",
+      "name": "Letter From a Messenger",
+      "hidden": false,
+      "how": {
+        "es": "Completa la misión secundaria Letter from a Messenger",
+        "en": "Complete the side mission: Letter from a Messenger"
+      }
+    },
+    {
+      "id": "chapter-love-scream-the-prototype",
+      "cat": "Chapter",
+      "name": "Love, Scream & The Prototype",
+      "hidden": false,
+      "how": {
+        "es": "Completa la misión secundaria Love, Scream & The Prototype",
+        "en": "Complete the side mission: Love, Scream & The Prototype"
+      }
+    },
+    {
+      "id": "chapter-let-fire-consume-the-ashen-past",
+      "cat": "Chapter",
+      "name": "Let Fire Consume the Ashen Past",
+      "hidden": false,
+      "how": {
+        "es": "Completa la misión secundaria Let Fire Consume the Ashen Past",
+        "en": "Complete the side mission: Let Fire Consume the Ashen Past"
+      }
+    },
+    {
+      "id": "chapter-the-red-knight",
+      "cat": "Chapter",
+      "name": "The Red Knight",
+      "hidden": false,
+      "how": {
+        "es": "Completa la misión secundaria The Red Knight",
+        "en": "Complete the side mission: The Red Knight"
+      }
+    },
+    {
+      "id": "chapter-a-fistful-of-reflections",
+      "cat": "Chapter",
+      "name": "A Fistful of Reflections",
+      "hidden": false,
+      "how": {
+        "es": "Completa la misión secundaria A Fistful of Reflections",
+        "en": "Complete the side mission: A Fistful of Reflections"
+      }
+    },
+    {
+      "id": "chapter-danse-macabre",
+      "cat": "Chapter",
+      "name": "Danse Macabre",
+      "hidden": false,
+      "how": {
+        "es": "Completa la misión secundaria Danse Macabre",
+        "en": "Complete the side mission: Danse Macabre"
+      }
+    },
+    {
+      "id": "chapter-like-a-star-streaking-through-the-boundaries",
+      "cat": "Chapter",
+      "name": "Like a Star Streaking Through the Boundaries",
+      "hidden": false,
+      "how": {
+        "es": "Completa la misión secundaria Like a Star Streaking Through the Boundaries",
+        "en": "Complete the side mission Like a Star Streaking Through the Boundaries"
+      }
+    },
+    {
+      "id": "technical-combined-arms",
+      "cat": "Technical",
+      "name": "Combined Arms",
+      "hidden": false,
+      "how": {
+        "es": "Ejecuta 500 combos en combate",
+        "en": "Perform 500 combos during combat"
+      }
+    },
+    {
+      "id": "technical-arts-and-flow",
+      "cat": "Technical",
+      "name": "Arts and Flow",
+      "hidden": false,
+      "how": {
+        "es": "Aplica 50 Arts Reactions",
+        "en": "Apply 50 Arts Reactions"
+      }
+    },
+    {
+      "id": "technical-superb-physicals",
+      "cat": "Technical",
+      "name": "Superb Physicals",
+      "hidden": false,
+      "how": {
+        "es": "Aplica 50 Physical Statuses",
+        "en": "Apply 50 Physical Statuses"
+      }
+    },
+    {
+      "id": "technical-crushed-the-bony-fist",
+      "cat": "Technical",
+      "name": "Crushed the Bony Fist",
+      "hidden": false,
+      "how": {
+        "es": "Completa Crisis Pandemonium: Rhodagn",
+        "en": "Complete Crisis Pandemonium: Rhodagn"
+      }
+    },
+    {
+      "id": "technical-broken-remains-of-astarron",
+      "cat": "Technical",
+      "name": "Broken Remains of Astarron",
+      "hidden": false,
+      "how": {
+        "es": "Completa Crisis Calamity: Triaggelos",
+        "en": "Complete Crisis Calamity: Triaggelos"
+      }
+    },
+    {
+      "id": "technical-collapse-of-her-pale-image",
+      "cat": "Technical",
+      "name": "Collapse of Her Pale Image",
+      "hidden": false,
+      "how": {
+        "es": "Completa Crisis Calamity: Marble Aggelomoirai",
+        "en": "Complete Crisis Calamity: Marble Aggelomoirai"
+      }
+    },
+    {
+      "id": "technical-master-interceptor",
+      "cat": "Technical",
+      "name": "Master Interceptor",
+      "hidden": false,
+      "how": {
+        "es": "Interrumpe estados de carga enemigos 30 veces en combate",
+        "en": "Interrupt the enemies' charging states 30 times during combat"
+      }
+    },
+    {
+      "id": "technical-ultimate-immobilizer",
+      "cat": "Technical",
+      "name": "Ultimate Immobilizer",
+      "hidden": false,
+      "how": {
+        "es": "Inmoviliza al mismo enemigo por 20 s seguidos en combate",
+        "en": "Immobilize the same enemy continuously for 20s during combat"
+      }
+    },
+    {
+      "id": "technical-total-obliterator",
+      "cat": "Technical",
+      "name": "Total Obliterator",
+      "hidden": false,
+      "how": {
+        "es": "Derrota al menos 5 enemigos con un solo golpe de daño",
+        "en": "Defeat at least 5 enemies with a single damaging hit"
+      }
+    },
+    {
+      "id": "technical-smart-annihilation",
+      "cat": "Technical",
+      "name": "Smart Annihilation",
+      "hidden": false,
+      "how": {
+        "es": "Derrota 10 enemigos con instalaciones de combate",
+        "en": "Defeat 10 enemies with combat facilities"
+      }
+    },
+    {
+      "id": "technical-thus-withers-the-branch-of-fury",
+      "cat": "Technical",
+      "name": "Thus Withers the Branch of Fury",
+      "hidden": false,
+      "how": {
+        "es": "Completa Crisis Calamity: Ruan Yi",
+        "en": "Complete Crisis Calamity: Ruan Yi"
+      }
+    },
+    {
+      "id": "technical-no-more-kidnapping",
+      "cat": "Technical",
+      "name": "NO MORE KIDNAPPING!",
+      "hidden": false,
+      "how": {
+        "es": "Rescata 1 vez a un compañero atrapado por Nimbus Razor",
+        "en": "Rescue a teammate trapped by Nimbus Razor 1 time"
+      }
+    },
+    {
+      "id": "technical-entropic-reduction",
+      "cat": "Technical",
+      "name": "Entropic Reduction",
+      "hidden": false,
+      "how": {
+        "es": "Haz que un operador quede Solidified",
+        "en": "Have any operators becoming Solidified"
+      }
+    },
+    {
+      "id": "technical-conqueror-s-grief",
+      "cat": "Technical",
+      "name": "Conqueror's Grief",
+      "hidden": false,
+      "how": {
+        "es": "Completa Crisis Calamity: Nefarith",
+        "en": "Complete Crisis Calamity: Nefarith"
+      }
+    },
+    {
+      "id": "technical-silencing-the-drum",
+      "cat": "Technical",
+      "name": "Silencing the Drum",
+      "hidden": false,
+      "how": {
+        "es": "Derrota al Skydrummer",
+        "en": "Defeat the Skydrummer"
+      }
+    },
+    {
+      "id": "technical-interceptor-of-thunder",
+      "cat": "Technical",
+      "name": "Interceptor of Thunder",
+      "hidden": false,
+      "how": {
+        "es": "Interrumpe la onda rugiente del Skydrummer en combate",
+        "en": "Interrupt the Skydrummer's roaring shockwave during combat"
+      }
+    },
+    {
+      "id": "technical-unstable-thillu",
+      "cat": "Technical",
+      "name": "Unstable Æthillu",
+      "hidden": false,
+      "how": {
+        "es": "En batalla, derrota a un Æthillu antes de 2 s tras su reaparición",
+        "en": "During battle, defeat an \"Æthillu\" within 2s of its revival"
+      }
+    },
+    {
+      "id": "technical-mega-beast-subdued",
+      "cat": "Technical",
+      "name": "Mega-Beast Subdued",
+      "hidden": false,
+      "how": {
+        "es": "Derrota al Craghowler",
+        "en": "Defeat the Craghowler"
+      }
+    },
+    {
+      "id": "technical-gale-weaver",
+      "cat": "Technical",
+      "name": "Gale Weaver",
+      "hidden": false,
+      "how": {
+        "es": "Sin recibir daño, logra al menos 5 esquives perfectos contra el ataque giratorio del Armored Manglerbeast",
+        "en": "The controlled operator suffers zero DMG and performs at least 5 perfect dodges against the spinning attack of the Armored Manglerbeast"
+      }
+    },
+    {
+      "id": "technical-blitzcrash-s-silent-passing",
+      "cat": "Technical",
+      "name": "Blitzcrash's Silent Passing",
+      "hidden": false,
+      "how": {
+        "es": "Derrota al Blitzcrash Blightshade",
+        "en": "Defeat the Blitzcrash Blightshade"
+      }
+    },
+    {
+      "id": "technical-a-torch-extinguished",
+      "cat": "Technical",
+      "name": "A Torch Extinguished",
+      "hidden": false,
+      "how": {
+        "es": "Completa Crisis Calamity: Alleikhreos, Chiliarch",
+        "en": "Complete Crisis Calamity: Alleikhreos, Chiliarch"
+      }
+    },
+    {
+      "id": "technical-material-gathering",
+      "cat": "Technical",
+      "name": "Material Gathering",
+      "hidden": false,
+      "how": {
+        "es": "Completa los Protocol Spaces: Manifested Nightmares, Blessing of Oros, Tacit Maelstrom, Mirage of the Tower, Gunsmith’s Mound y Forge Trials Lv.5",
+        "en": "Complete these Protocol Spaces: Manifested Nightmares, Blessing of Oros, Tacit Maelstrom, Mirage of the Tower, Gunsmith's Mound and Forge Trials Lv.5"
+      }
+    },
+    {
+      "id": "technical-advanced-progression",
+      "cat": "Technical",
+      "name": "Advanced Progression",
+      "hidden": false,
+      "how": {
+        "es": "Completa todos los Protocol Spaces de Advanced Progression",
+        "en": "Complete all Protocol Spaces: Advanced Progression"
+      }
+    },
+    {
+      "id": "technical-alluvium-dredger",
+      "cat": "Technical",
+      "name": "Alluvium Dredger",
+      "hidden": false,
+      "how": {
+        "es": "Alcanza Exploration Level 7 y completa 5 sitios distintos de Severe Energy Alluvium",
+        "en": "Reach Exploration Level 7 and complete 5 different Severe Energy Alluvium sites"
+      }
+    },
+    {
+      "id": "technical-operator-guide",
+      "cat": "Technical",
+      "name": "Operator Guide",
+      "hidden": false,
+      "how": {
+        "es": "Completa 5 etapas cualesquiera de Operator Guide",
+        "en": "Complete any 5 Operator Guide stages"
+      }
+    },
+    {
+      "id": "technical-those-forsaken-by-the-land",
+      "cat": "Technical",
+      "name": "Those Forsaken by the Land",
+      "hidden": false,
+      "how": {
+        "es": "En Umbral Monument, completa todas las etapas de Those Forsaken by the Land en modo Normal",
+        "en": "In Umbral Monument, complete all \"Those Forsaken by the Land\" stages at Normal mode"
+      }
+    },
+    {
+      "id": "technical-inorganic-construct",
+      "cat": "Technical",
+      "name": "Inorganic Construct",
+      "hidden": false,
+      "how": {
+        "es": "En Umbral Monument, completa todas las etapas de Inorganic Construct en modo Normal",
+        "en": "In Umbral Monument, complete all \"Inorganic Construct\" stages at Normal mode"
+      }
+    },
+    {
+      "id": "technical-searing-scars",
+      "cat": "Technical",
+      "name": "Searing Scars",
+      "hidden": false,
+      "how": {
+        "es": "En Umbral Monument, completa todas las etapas de Searing Scars en modo Normal",
+        "en": "In Umbral Monument, complete all \"Searing Scars\" stages at Normal mode"
+      }
+    },
+    {
+      "id": "technical-turbidity-manifest",
+      "cat": "Technical",
+      "name": "Turbidity Manifest",
+      "hidden": false,
+      "how": {
+        "es": "En Umbral Monument, completa todas las etapas de Turbidity Manifest en modo Normal",
+        "en": "In Umbral Monument, complete all \"Turbidity Manifest\" stages at Normal mode"
+      }
+    },
+    {
+      "id": "technical-contention-of-deathly-silences",
+      "cat": "Technical",
+      "name": "Contention of Deathly Silences",
+      "hidden": false,
+      "how": {
+        "es": "En Umbral Monument, completa todas las etapas de Contention of Deathly Silences en modo Normal",
+        "en": "In Umbral Monument, complete all \"Contention of Deathly Silences\" stages at Normal mode"
+      }
+    },
+    {
+      "id": "technical-howlers-of-the-crag",
+      "cat": "Technical",
+      "name": "Howlers of the Crag",
+      "hidden": false,
+      "how": {
+        "es": "En Umbral Monument, completa todas las etapas de Howlers of the Crag en modo Normal",
+        "en": "In Umbral Monument, complete all \"Howlers of the Crag\" stages at Normal mode"
+      }
+    },
+    {
+      "id": "regional-valley-anchorer",
+      "cat": "Regional",
+      "name": "Valley Anchorer",
+      "hidden": false,
+      "how": {
+        "es": "Desbloquea 14 TP Points en Valley IV",
+        "en": "Unlock 14 TP Points in Valley IV"
+      }
+    },
+    {
+      "id": "regional-reunited-fragments",
+      "cat": "Regional",
+      "name": "Reunited Fragments",
+      "hidden": false,
+      "how": {
+        "es": "Reúne 80 Aurylenes en Valley IV",
+        "en": "Gather 80 Aurylenes in Valley IV"
+      }
+    },
+    {
+      "id": "regional-valley-crate-master",
+      "cat": "Regional",
+      "name": "Valley Crate Master",
+      "hidden": false,
+      "how": {
+        "es": "Abre 120 cajas de almacenaje en Valley IV",
+        "en": "Open 120 storage crates in Valley IV"
+      }
+    },
+    {
+      "id": "regional-delta-savior",
+      "cat": "Regional",
+      "name": "DELTA Savior",
+      "hidden": false,
+      "how": {
+        "es": "Repara 25 Delta Robots en Valley IV",
+        "en": "Repair 25 Delta Robots in Valley IV"
+      }
+    },
+    {
+      "id": "regional-shoulder-to-shoulder-delivery",
+      "cat": "Regional",
+      "name": "Shoulder to Shoulder Delivery",
+      "hidden": false,
+      "how": {
+        "es": "Gana la Athletic Race 4 veces en Valley IV",
+        "en": "In Valley IV, win Athletic Race 4 times"
+      }
+    },
+    {
+      "id": "regional-valley-investigator",
+      "cat": "Regional",
+      "name": "Valley Investigator",
+      "hidden": false,
+      "how": {
+        "es": "Reúne 4 informes de investigación en Valley IV",
+        "en": "Gather 4 investigation reports in Valley IV"
+      }
+    },
+    {
+      "id": "regional-anchored-to-wuling-p1",
+      "cat": "Regional",
+      "name": "Anchored to Wuling Ⅰ",
+      "hidden": false,
+      "how": {
+        "es": "Desbloquea 19 TP Points en Jingyu Valley y Wuling City",
+        "en": "Unlock 19 TP Points in Jingyu Valley and Wuling City"
+      }
+    },
+    {
+      "id": "regional-re-congregated-fragments-p1",
+      "cat": "Regional",
+      "name": "Re-Congregated Fragments Ⅰ",
+      "hidden": false,
+      "how": {
+        "es": "Reúne 74 Aurylenes en Jingyu Valley y Wuling City",
+        "en": "Gather 74 Aurylenes in Jingyu Valley and Wuling City"
+      }
+    },
+    {
+      "id": "regional-wuling-crate-master-p1",
+      "cat": "Regional",
+      "name": "Wuling Crate Master Ⅰ",
+      "hidden": false,
+      "how": {
+        "es": "Abre 227 cajas de almacenaje en Jingyu Valley y Wuling City",
+        "en": "Open 227 storage crates in Jingyu Valley and Wuling City"
+      }
+    },
+    {
+      "id": "regional-wuling-investigator-p1",
+      "cat": "Regional",
+      "name": "Wuling Investigator Ⅰ",
+      "hidden": false,
+      "how": {
+        "es": "Reúne 2 informes de investigación en Jingyu Valley y Wuling City",
+        "en": "Gather 2 investigation reports in Jingyu Valley and Wuling City"
+      }
+    },
+    {
+      "id": "regional-fowlbeast-water-prancer",
+      "cat": "Regional",
+      "name": "Fowlbeast Water Prancer",
+      "hidden": false,
+      "how": {
+        "es": "Completa 8 desafíos de placas de presión en Jingyu Valley y Wuling City",
+        "en": "Complete 8 pressure plate challenges in Jingyu Valley and Wuling City"
+      }
+    },
+    {
+      "id": "regional-swat-the-lanky-and-pass-the-bug",
+      "cat": "Regional",
+      "name": "Swat the Lanky and Pass the Bug",
+      "hidden": false,
+      "how": {
+        "es": "Completa 6 desafíos de pases de glowbug en Jingyu Valley y Wuling City",
+        "en": "Complete 6 glowbug passing challenges in Jingyu Valley and Wuling City"
+      }
+    },
+    {
+      "id": "regional-purger-of-the-turbid",
+      "cat": "Regional",
+      "name": "Purger of the Turbid",
+      "hidden": false,
+      "how": {
+        "es": "Elimina toda masa de Blight en Qingbo Stockade",
+        "en": "Eliminate every Blight mass in Qingbo Stockade"
+      }
+    },
+    {
+      "id": "regional-anchored-to-wuling-p2",
+      "cat": "Regional",
+      "name": "Anchored to Wuling Ⅱ",
+      "hidden": false,
+      "how": {
+        "es": "Desbloquea 19 TP Points en Qingbo Stockade, Marker Stone, Marker Stone Interiors y Test Area",
+        "en": "In Qingbo Stockade, Marker Stone, Marker Stone Interiors, and Test Area, unlock 19 TP Points"
+      }
+    },
+    {
+      "id": "regional-re-congregated-fragments-p2",
+      "cat": "Regional",
+      "name": "Re-Congregated Fragments Ⅱ",
+      "hidden": false,
+      "how": {
+        "es": "Reúne 59 Aurylenes en Qingbo Stockade, Marker Stone, Marker Stone Interiors y Test Area",
+        "en": "In Qingbo Stockade, Marker Stone, Marker Stone Interiors, and Test Area, gather 59 Aurylenes"
+      }
+    },
+    {
+      "id": "regional-wuling-crate-master-p2",
+      "cat": "Regional",
+      "name": "Wuling Crate Master Ⅱ",
+      "hidden": false,
+      "how": {
+        "es": "Abre 121 cajas de almacenaje en Qingbo Stockade, Marker Stone, Marker Stone Interiors y Test Area",
+        "en": "In Qingbo Stockade, Marker Stone, Marker Stone Interiors, and Test Area, open 121 storage crates"
+      }
+    },
+    {
+      "id": "regional-fowlbeast-water-prancer-p2",
+      "cat": "Regional",
+      "name": "Fowlbeast Water Prancer Ⅱ",
+      "hidden": false,
+      "how": {
+        "es": "Activa 6 juegos de placas de presión en Qingbo Stockade, Marker Stone, Marker Stone Interiors y Test Area",
+        "en": "In Qingbo Stockade, Marker Stone, Marker Stone Interiors, and Test Area, activate 6 sets of pressure plates"
+      }
+    },
+    {
+      "id": "regional-swat-the-lanky-and-pass-the-bug-p2",
+      "cat": "Regional",
+      "name": "Swat the Lanky and Pass the Bug Ⅱ",
+      "hidden": false,
+      "how": {
+        "es": "Completa 3 puzzles de pases de glowbug en Qingbo Stockade, Marker Stone, Marker Stone Interiors y Test Area",
+        "en": "In Qingbo Stockade, Marker Stone, Marker Stone Interiors, and Test Area, complete 3 glowbug passing puzzles"
+      }
+    },
+    {
+      "id": "regional-track-sprayer",
+      "cat": "Regional",
+      "name": "Track Sprayer",
+      "hidden": false,
+      "how": {
+        "es": "Restaura 8 Xiranflow Track Systems en Wuling City",
+        "en": "Restore 8 Xiranflow Track Systems in Wuling City"
+      }
+    },
+    {
+      "id": "regional-superactive-blight-eliminator",
+      "cat": "Regional",
+      "name": "Superactive Blight Eliminator",
+      "hidden": false,
+      "how": {
+        "es": "Elimina toda masa de Superactive Blight en Sword Vault Dale",
+        "en": "Eliminate every Superactive Blight mass in Sword Vault Dale"
+      }
+    },
+    {
+      "id": "regional-anchored-to-wuling-p3",
+      "cat": "Regional",
+      "name": "Anchored to Wuling Ⅲ",
+      "hidden": false,
+      "how": {
+        "es": "Desbloquea 22 TP Points en Sword Vault Dale, Yinglung Pass y North Wuling Exclusion Zone",
+        "en": "In Sword Vault Dale, Yinglung Pass and North Wuling Exclusion Zone, unlock 22 TP Points"
+      }
+    },
+    {
+      "id": "regional-re-congregated-fragments-p3",
+      "cat": "Regional",
+      "name": "Re-Congregated Fragments Ⅲ",
+      "hidden": false,
+      "how": {
+        "es": "Reúne 59 Aurylenes en Sword Vault Dale, Yinglung Pass y North Wuling Exclusion Zone",
+        "en": "In Sword Vault Dale, Yinglung Pass and North Wuling Exclusion Zone, gather 59 Aurylenes."
+      }
+    },
+    {
+      "id": "regional-wuling-crate-master-p3",
+      "cat": "Regional",
+      "name": "Wuling Crate Master Ⅲ",
+      "hidden": false,
+      "how": {
+        "es": "Abre 151 cajas en Sword Vault Dale, Yinglung Pass y North Wuling Exclusion Zone",
+        "en": "In Sword Vault Dale, Yinglung Pass and North Wuling Exclusion Zone, open 151 crates"
+      }
+    },
+    {
+      "id": "regional-kaleidographer",
+      "cat": "Regional",
+      "name": "Kaleidographer",
+      "hidden": false,
+      "how": {
+        "es": "Resuelve 8 puzzles de Kaleidograph en Yinglung Pass y North Wuling Exclusion Zone",
+        "en": "In Yinglung Pass and North Wuling Exclusion Zone, solve 8 Kaleidograph puzzles"
+      }
+    },
+    {
+      "id": "regional-aero-salvager",
+      "cat": "Regional",
+      "name": "Aero-Salvager",
+      "hidden": false,
+      "how": {
+        "es": "Completa 26 aero-salvamentos en Yinglung Pass y North Wuling Exclusion Zone",
+        "en": "In Yinglung Pass and North Wuling Exclusion Zone, complete aero-salvaging 26 times."
+      }
+    },
+    {
+      "id": "regional-rift-neutralizer",
+      "cat": "Regional",
+      "name": "Rift Neutralizer",
+      "hidden": false,
+      "how": {
+        "es": "Neutraliza por completo 5 rifts en North Wuling Exclusion Zone",
+        "en": "In North Wuling Exclusion Zone, completely neutralize 5 rifts"
+      }
+    },
+    {
+      "id": "progression-operator-contact",
+      "cat": "Progression",
+      "name": "Operator Contact",
+      "hidden": false,
+      "how": {
+        "es": "Consigue 5 operadores",
+        "en": "Acquire 5 Operators."
+      }
+    },
+    {
+      "id": "progression-skill-master",
+      "cat": "Progression",
+      "name": "Skill Master",
+      "hidden": false,
+      "how": {
+        "es": "Sube 5 skills de operador a Mastery 3",
+        "en": "Upgrade 5 Operator skills to Mastery 3"
+      }
+    },
+    {
+      "id": "progression-potential-unleashed",
+      "cat": "Progression",
+      "name": "Potential Unleashed",
+      "hidden": false,
+      "how": {
+        "es": "Lleva 1 operador a potencial máximo",
+        "en": "Raise 1 Operator to full potential"
+      }
+    },
+    {
+      "id": "progression-arsenal-collection",
+      "cat": "Progression",
+      "name": "Arsenal Collection",
+      "hidden": false,
+      "how": {
+        "es": "Consigue 10 armas",
+        "en": "Acquire 10 Weapons"
+      }
+    },
+    {
+      "id": "progression-ultimate-weaponry",
+      "cat": "Progression",
+      "name": "Ultimate Weaponry",
+      "hidden": false,
+      "how": {
+        "es": "Sube 1 arma a rango total de skill 18",
+        "en": "Upgrade 1 Weapon to a total skill rank of 18"
+      }
+    },
+    {
+      "id": "progression-perfect-gearing",
+      "cat": "Progression",
+      "name": "Perfect Gearing",
+      "hidden": false,
+      "how": {
+        "es": "Sube todos los stats de 1 pieza de gear a Fully Artificed",
+        "en": "Upgrade all stats of 1 piece of gear to Fully Artificed"
+      }
+    },
+    {
+      "id": "progression-deep-explorer",
+      "cat": "Progression",
+      "name": "Deep Explorer",
+      "hidden": false,
+      "how": {
+        "es": "Alcanza Exploration Level 2",
+        "en": "Reach Exploration Level 2"
+      }
+    },
+    {
+      "id": "progression-hardened-veteran",
+      "cat": "Progression",
+      "name": "Hardened Veteran",
+      "hidden": false,
+      "how": {
+        "es": "Alcanza Authority Level 20",
+        "en": "Reach Authority Level 20"
+      }
+    },
+    {
+      "id": "construction-valley-factory-pioneer",
+      "cat": "Construction",
+      "name": "Valley Factory Pioneer",
+      "hidden": false,
+      "how": {
+        "es": "Investiga toda la tecnología del Basic AIC Plan",
+        "en": "Research every technology in the Basic AIC Plan"
+      }
+    },
+    {
+      "id": "construction-valley-outpost-builder",
+      "cat": "Construction",
+      "name": "Valley Outpost Builder",
+      "hidden": false,
+      "how": {
+        "es": "Suma todos los outposts de Valley IV al programa de apoyo de Endfield",
+        "en": "Add all Valley IV outposts into the Endfield support program"
+      }
+    },
+    {
+      "id": "construction-valley-stock-redistributor",
+      "cat": "Construction",
+      "name": "Valley Stock Redistributor",
+      "hidden": false,
+      "how": {
+        "es": "Gana 20.000.000 de Valley Stock Bills",
+        "en": "Earn 20,000,000 Valley Stock Bills"
+      }
+    },
+    {
+      "id": "construction-wuling-factory-pioneer-p1",
+      "cat": "Construction",
+      "name": "Wuling Factory Pioneer Ⅰ",
+      "hidden": false,
+      "how": {
+        "es": "Investiga toda la tecnología de la Wuling AIC I",
+        "en": "Research every technology in the Wuling AIC I"
+      }
+    },
+    {
+      "id": "construction-wuling-stock-redistributor",
+      "cat": "Construction",
+      "name": "Wuling Stock Redistributor",
+      "hidden": false,
+      "how": {
+        "es": "Gana 2.000.000 de Wuling Stock Bills",
+        "en": "Earn 2,000,000 Wuling Stock Bills"
+      }
+    },
+    {
+      "id": "construction-resource-recycler",
+      "cat": "Construction",
+      "name": "Resource Recycler",
+      "hidden": false,
+      "how": {
+        "es": "Recoge recursos de las Recycling Stations 50 veces",
+        "en": "Gather resources from Recycling Stations 50 times"
+      }
+    },
+    {
+      "id": "construction-steady-sales",
+      "cat": "Construction",
+      "name": "Steady Sales",
+      "hidden": false,
+      "how": {
+        "es": "Vende suministros en Stock Redistribution 15 veces",
+        "en": "Sell supplies at Stock Redistribution 15 times"
+      }
+    },
+    {
+      "id": "construction-goods-delivery",
+      "cat": "Construction",
+      "name": "Goods Delivery",
+      "hidden": false,
+      "how": {
+        "es": "Completa Goods Delivery 20 veces",
+        "en": "Complete Goods Delivery 20 times"
+      }
+    },
+    {
+      "id": "construction-environment-monitor",
+      "cat": "Construction",
+      "name": "Environment Monitor",
+      "hidden": false,
+      "how": {
+        "es": "Completa el monitoreo de entorno 5 veces",
+        "en": "Complete environment monitoring 5 times"
+      }
+    },
+    {
+      "id": "construction-factory-simulation",
+      "cat": "Construction",
+      "name": "Factory Simulation",
+      "hidden": false,
+      "how": {
+        "es": "Inicia y completa 5 simulaciones manualmente",
+        "en": "Manually start and complete 5 simulations"
+      }
+    },
+    {
+      "id": "construction-wuling-factory-pioneer-p2",
+      "cat": "Construction",
+      "name": "Wuling Factory Pioneer Ⅱ",
+      "hidden": false,
+      "how": {
+        "es": "Investiga 25 tecnologías del Wuling AIC Plan",
+        "en": "Research 25 technologies in the Wuling AIC Plan"
+      }
+    },
+    {
+      "id": "construction-wuling-stock-redistributor-p2",
+      "cat": "Construction",
+      "name": "Wuling Stock Redistributor Ⅱ",
+      "hidden": false,
+      "how": {
+        "es": "Gana 10.000.000 de Wuling Stock Bills",
+        "en": "Earn 10,000,000 Wuling Stock Bills"
+      }
+    },
+    {
+      "id": "construction-wuling-outpost-builder-p1",
+      "cat": "Construction",
+      "name": "Wuling Outpost Builder Ⅰ",
+      "hidden": false,
+      "how": {
+        "es": "Suma Sky King Flats Construction Site y Cardiac Remediation Station al programa de apoyo de Endfield",
+        "en": "Add Sky King Flats Construction Site and Cardiac Remediation Station into the Endfield support program"
+      }
+    },
+    {
+      "id": "construction-wuling-factory-pioneer-p3",
+      "cat": "Construction",
+      "name": "Wuling Factory Pioneer Ⅲ",
+      "hidden": false,
+      "how": {
+        "es": "Investiga 34 tecnologías del Wuling AIC Plan",
+        "en": "Research 34 technologies in the Wuling AIC Plan"
+      }
+    },
+    {
+      "id": "construction-wuling-stock-redistributor-p3",
+      "cat": "Construction",
+      "name": "Wuling Stock Redistributor Ⅲ",
+      "hidden": false,
+      "how": {
+        "es": "Gana 25.000.000 de Wuling Stock Bills",
+        "en": "Earn 25,000,000 Wuling Stock Bills"
+      }
+    },
+    {
+      "id": "construction-zenith-of-the-trials",
+      "cat": "Construction",
+      "name": "Zenith of the Trials",
+      "hidden": false,
+      "how": {
+        "es": "Completa 1 Trial con un total de 10 Battle Points",
+        "en": "Complete 1 Trial with a total of 10 Battle Points"
+      }
+    },
+    {
+      "id": "construction-wuling-stock-redistributor-p4",
+      "cat": "Construction",
+      "name": "Wuling Stock Redistributor Ⅳ",
+      "hidden": false,
+      "how": {
+        "es": "Gana 80.000.000 de Wuling Stock Bills",
+        "en": "Earn 80,000,000 Wuling Stock Bills"
+      }
+    },
+    {
+      "id": "construction-wuling-factory-pioneer-p4",
+      "cat": "Construction",
+      "name": "Wuling Factory Pioneer Ⅳ",
+      "hidden": false,
+      "how": {
+        "es": "Investiga 47 tecnologías del Wuling AIC Plan",
+        "en": "Research 47 technologies in the Wuling AIC Plan"
+      }
+    },
+    {
+      "id": "construction-wuling-stock-redistributor-p5",
+      "cat": "Construction",
+      "name": "Wuling Stock Redistributor Ⅴ",
+      "hidden": false,
+      "how": {
+        "es": "Gana 100.000.000 de Wuling Stock Bills",
+        "en": "Earn 100,000,000 Wuling Stock Bills"
+      }
+    },
+    {
+      "id": "construction-wuling-outpost-builder-p2",
+      "cat": "Construction",
+      "name": "Wuling Outpost Builder Ⅱ",
+      "hidden": false,
+      "how": {
+        "es": "Suma todos los outposts de Wuling al programa de apoyo",
+        "en": "Add all Wuling outposts into the support program"
+      }
+    },
+    {
+      "id": "construction-factory-simulation-p2",
+      "cat": "Construction",
+      "name": "Factory Simulation Ⅱ",
+      "hidden": false,
+      "how": {
+        "es": "Inicia y completa 30 simulaciones manualmente",
+        "en": "Manually start and complete 30 simulations"
+      }
+    },
+    {
+      "id": "construction-nexus-upgrader",
+      "cat": "Construction",
+      "name": "Nexus Upgrader",
+      "hidden": false,
+      "how": {
+        "es": "Sube el Control Nexus del Dijiang a nivel 5",
+        "en": "Upgrade the Control Nexus of Dijiang to Level 5"
+      }
+    },
+    {
+      "id": "construction-friendly-giveaway",
+      "cat": "Construction",
+      "name": "Friendly Giveaway",
+      "hidden": false,
+      "how": {
+        "es": "Regala 300 obsequios que tus operadores prefieran",
+        "en": "Offer 300 gifts that your operators prefer"
+      }
+    },
+    {
+      "id": "construction-immense-trust",
+      "cat": "Construction",
+      "name": "Immense Trust",
+      "hidden": false,
+      "how": {
+        "es": "Sube la confianza de 5 operadores al 100%",
+        "en": "Raise the trust of 5 operators to 100%"
+      }
+    },
+    {
+      "id": "social-can-t-do-without-it",
+      "cat": "Social",
+      "name": "Can't Do Without It",
+      "hidden": false,
+      "how": {
+        "es": "Una instalación compartida recibe 50 reparaciones",
+        "en": "Shared facility receives 50 repairs"
+      }
+    },
+    {
+      "id": "social-generous-helper",
+      "cat": "Social",
+      "name": "Generous Helper",
+      "hidden": false,
+      "how": {
+        "es": "Da 50 asistencias de producción a tus amigos",
+        "en": "Give 50 production assists to your friends"
+      }
+    },
+    {
+      "id": "social-assist-recipient",
+      "cat": "Social",
+      "name": "Assist Recipient",
+      "hidden": false,
+      "how": {
+        "es": "Recibe 100 asistencias de producción de tus amigos",
+        "en": "Receive 100 production assists from your friends"
+      }
+    },
+    {
+      "id": "social-clue-exchanger",
+      "cat": "Social",
+      "name": "Clue Exchanger",
+      "hidden": false,
+      "how": {
+        "es": "Participa en 50 intercambios de pistas en total",
+        "en": "Participate in a total of 50 clue exchanges"
+      }
+    },
+    {
+      "id": "event-in-the-cryptics-of-the-valley",
+      "cat": "Event",
+      "name": "In the Cryptics of the Valley",
+      "hidden": false,
+      "how": {
+        "es": "Completa todos los Protocol Spaces de Cryptic First Revealed",
+        "en": "Complete all Cryptic First Revealed Protocol Spaces"
+      }
+    },
+    {
+      "id": "event-delver-of-the-grottoes",
+      "cat": "Event",
+      "name": "Delver of the Grottoes",
+      "hidden": false,
+      "how": {
+        "es": "Completa todos los Protocol Spaces de Grotto Survey",
+        "en": "Complete all Grotto Survey Protocol Spaces"
+      }
+    },
+    {
+      "id": "event-artful-realm-of-six-cardinals",
+      "cat": "Event",
+      "name": "Artful Realm of Six Cardinals",
+      "hidden": false,
+      "how": {
+        "es": "Completa todos los Protocol Spaces de Artful Realm of Six Cardinals",
+        "en": "Complete all Artful Realm of Six Cardinals Protocol Spaces"
+      }
+    },
+    {
+      "id": "event-totally-cleansed-and-rinsed",
+      "cat": "Event",
+      "name": "Totally Cleansed and Rinsed",
+      "hidden": false,
+      "how": {
+        "es": "Completa todas las misiones de Cleanse and Rinse",
+        "en": "Complete all Cleanse and Rinse missions"
+      }
+    },
+    {
+      "id": "event-expert-survivor",
+      "cat": "Event",
+      "name": "Expert Survivor",
+      "hidden": false,
+      "how": {
+        "es": "Completa todas las etapas de Survival Training",
+        "en": "Complete all Survival Training stages"
+      }
+    },
+    {
+      "id": "event-palm-top-deliverer",
+      "cat": "Event",
+      "name": "Palm Top Deliverer",
+      "hidden": false,
+      "how": {
+        "es": "Durante AIC Support: Palm-Top Savior, consigue 800.000 Fruits of Altruism Certs",
+        "en": "During AIC Support: Palm-Top Savior, acquire 800,000 Fruits of Altruism Certs"
+      }
+    },
+    {
+      "id": "event-re-ignition",
+      "cat": "Event",
+      "name": "Re-Ignition",
+      "hidden": false,
+      "how": {
+        "es": "En Contingency Contract: Re-Ignition Experimental Operation, completa un desafío con al menos 20 Test Criteria",
+        "en": "In Contingency Contract: Re-Ignition Experimental Operation, successfully complete a challenge with at least 20 Test Criteria"
+      }
+    },
+    {
+      "id": "event-nocturnal-tactics",
+      "cat": "Event",
+      "name": "Nocturnal Tactics",
+      "hidden": false,
+      "how": {
+        "es": "Completa todas las etapas de HEAT RAGE! MEGA ARENA! en modo Normal",
+        "en": "Complete all HEAT RAGE! MEGA ARENA! stages in Normal Mode"
+      }
+    },
+    {
+      "id": "event-explorer-of-the-realm",
+      "cat": "Event",
+      "name": "Explorer of the Realm",
+      "hidden": false,
+      "how": {
+        "es": "En The Rooted Realm fase 2, completa la cámara Shower of Coins 1 vez",
+        "en": "In The Rooted Realm Phase 2, complete the chamber [Shower of Coins] 1 time"
+      }
+    },
+    {
+      "id": "wondrous-auditors-trapped",
+      "cat": "Wondrous",
+      "name": "Auditors Trapped",
+      "hidden": true,
+      "how": {
+        "es": "Rompe todas las superficies débiles del Origin Lodespring",
+        "en": "Break all weak surfaces of the Origin Lodespring"
+      }
+    },
+    {
+      "id": "wondrous-unconventional-movement",
+      "cat": "Wondrous",
+      "name": "Unconventional Movement",
+      "hidden": true,
+      "how": {
+        "es": "Recorre 10.000 metros usando ziplines, bounce pads y cuerdas",
+        "en": "Travel 10000 meters using ziplines, bounce pads, and ropes"
+      }
+    },
+    {
+      "id": "wondrous-battle-of-the-four-emperors",
+      "cat": "Wondrous",
+      "name": "Battle of the Four Emperors",
+      "hidden": true,
+      "how": {
+        "es": "Patea 4 Originium Slugs hasta voltearlos",
+        "en": "Kick 4 Originium Slugs till they fall"
+      }
+    },
+    {
+      "id": "wondrous-we-built-the-southern-bastion",
+      "cat": "Wondrous",
+      "name": "We Built the Southern Bastion",
+      "hidden": true,
+      "how": {
+        "es": "Usa el parry defensivo para interceptar la embestida del Axe Armorbeast",
+        "en": "Use the defensive parry to intercept the Axe Armorbeast's ramming assault"
+      }
+    },
+    {
+      "id": "wondrous-protocol-20-00m",
+      "cat": "Wondrous",
+      "name": "Protocol ε 20.00m",
+      "hidden": true,
+      "how": {
+        "es": "Golpea a un enemigo con un ataque en salto desde al menos 20 metros",
+        "en": "Use a Jump attack from at least 20 meters and hit an enemy"
+      }
+    },
+    {
+      "id": "wondrous-water-flows-from-the-sky",
+      "cat": "Wondrous",
+      "name": "Water Flows from the Sky",
+      "hidden": true,
+      "how": {
+        "es": "Llega a lo alto de la noria de Qingbo Stockade",
+        "en": "Reach the top of the Qingbo Stockade waterwheel"
+      }
+    },
+    {
+      "id": "wondrous-traveler-of-the-deathly-realms",
+      "cat": "Wondrous",
+      "name": "Traveler of the Deathly Realms",
+      "hidden": true,
+      "how": {
+        "es": "Con Ruan Yi Infuriated, mantén su Withering Touch activo al menos 60 s",
+        "en": "While Ruan Yi is Infuriated, keep his Withering Touch active for at least 60s"
+      }
+    },
+    {
+      "id": "wondrous-dwelling-upon-wilted-glory",
+      "cat": "Wondrous",
+      "name": "Dwelling Upon Wilted Glory",
+      "hidden": true,
+      "how": {
+        "es": "Explora la base del Type-C Tianshi Pillar",
+        "en": "Explore the base of Type-C Tianshi Pillar"
+      }
+    },
+    {
+      "id": "wondrous-fully-revealed",
+      "cat": "Wondrous",
+      "name": "Fully Revealed",
+      "hidden": true,
+      "how": {
+        "es": "Deja que Nefarith, Conqueror detenga el lugar en estasis y fije a tu operador controlado en el aire",
+        "en": "Let Nefarith, \"Conqueror\" hold the place in stasis and lock your controlled operator in mid-air"
+      }
+    },
+    {
+      "id": "wondrous-beastie-s-tribute",
+      "cat": "Wondrous",
+      "name": "Beastie's Tribute",
+      "hidden": true,
+      "how": {
+        "es": "Encuentra el tributo de Smartie",
+        "en": "Find Smartie's \"tribute"
+      }
+    },
+    {
+      "id": "wondrous-arms-race",
+      "cat": "Wondrous",
+      "name": "Arms Race?",
+      "hidden": true,
+      "how": {
+        "es": "Haz que tu operador controlado resbale con cáscaras de banana 1 vez",
+        "en": "Let the controlled operator slip on banana peels 1 time"
+      }
+    },
+    {
+      "id": "wondrous-maker-s-domination",
+      "cat": "Wondrous",
+      "name": "Maker's Domination",
+      "hidden": true,
+      "how": {
+        "es": "Completa Crisis Calamity: Alleikhreos, Chiliarch sin usar Foundite Weapons",
+        "en": "Complete \"Crisis Calamity: Alleikhreos, Chiliarch\" without using Foundite Weapons"
+      }
+    },
+    {
+      "id": "wondrous-blade-hanging-by-a-thread",
+      "cat": "Wondrous",
+      "name": "Blade Hanging by a Thread",
+      "hidden": true,
+      "how": {
+        "es": "Limpia 5 sitios de energy alluvium en North Wuling Exclusion Zone",
+        "en": "In North Wuling Exclusion Zone, clear 5 energy alluvium sites"
+      }
+    }
+  ]
+}

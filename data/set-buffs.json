@@ -121,7 +121,7 @@
    "buffs": [
     {
      "id": "set_mi_crit",
-     "src": "MI Security 3pc · al critear",
+     "src": "MI Security 3pc · on crit",
      "target": "self",
      "pendingModel": "crit-proc probabilístico (ATK/Crit por stack al critear); NO derivable de un timeline ideal → toggle-solo del calc de Daño. Inerte en la Rotación a propósito (no hay path toggle para sets). Candidato EV-movible",
      "cond": {
@@ -259,7 +259,7 @@
    "buffs": [
     {
      "id": "set_frontiers_sp",
-     "src": "Frontiers 3pc · al recuperar SP",
+     "src": "Frontiers 3pc · on SP recover",
      "target": "team",
      "cond": {
       "es": "Al recuperar SP con una skill: +16% DMG al equipo 12s (no acumulable)",
@@ -405,6 +405,27 @@
        "value": 0.2
       }
      ]
+    }
+   ]
+  },
+  "Deep Rampart": {
+   "buffs": [
+    {
+     "id": "set_deep_rampart_burst",
+     "src": "Deep Rampart 3pc · Nature/Cryo Burst",
+     "target": "self",
+     "pendingModel": "onApplyReaction solo tiene \"burst\" genérico: el set exige Nature Burst o Cryo Burst, así que gatillarlo con burst a secas contaría también Heat/Electric. Además el mod es artsInt, que dmg-calc filtra a propósito. Diferido hasta tener burst por elemento.",
+     "cond": {
+      "es": "Al aplicar Nature Burst o Cryo Burst: Arts Intensity +16 por 20s (máx 3 stacks, duración independiente; solo se activa una vez cada 0.1s). El +16% de Arts DMG Dealt es la parte plana y ya entra por el texto del set.",
+      "en": "On applying Nature Burst or Cryo Burst: Arts Intensity +16 for 20s (max 3 stacks, separate durations; triggers only once every 0.1s). The +16% Arts DMG Dealt is the flat part and already enters via the set text."
+     },
+     "mods": [
+      {
+       "type": "artsInt",
+       "value": 16
+      }
+     ],
+     "durS": 20
     }
    ]
   }
