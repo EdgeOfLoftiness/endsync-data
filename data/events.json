@@ -2,8 +2,10 @@
   "events": [
     {
       "id": "trial-of-the-bow",
+      "cover": "assets/events/trial-of-the-bow-banner.webp",
       "accent": "#57b98b",
-      "upcoming": true,
+      "startsAt": "2026-09-09T04:00:00Z",
+      "source": "https://endfield.gryphline.com/en-us/news/5208",
       "kicker": {
         "es": "Evento de reto · 1.5",
         "en": "Challenge event · 1.5"
@@ -27,6 +29,7 @@
       "blocks": [
         {
           "type": "hero",
+          "banner": "assets/events/trial-of-the-bow-banner.webp",
           "meta": [
             {
               "k": {
@@ -44,8 +47,8 @@
                 "en": "Dates"
               },
               "v": {
-                "es": "Por confirmar",
-                "en": "To be confirmed"
+                "es": "9 sep 2026, 12:00 (hora del servidor) → hasta la próxima actualización de versión",
+                "en": "Sep 9, 2026, 12:00 (server time) → until the next version update"
               }
             },
             {
@@ -159,7 +162,8 @@
     {
       "id": "runners-steeplechase",
       "accent": "#e2762e",
-      "upcoming": true,
+      "startsAt": "2026-10-01T04:00:00Z",
+      "source": "https://endfield.gryphline.com/en-us/news/5208",
       "kicker": {
         "es": "Evento de diversión · 1.5",
         "en": "Fun & games event · 1.5"
@@ -209,8 +213,8 @@
                 "en": "Dates"
               },
               "v": {
-                "es": "Por confirmar",
-                "en": "To be confirmed"
+                "es": "1 oct 2026, 12:00 (hora del servidor) → hasta la próxima actualización de versión",
+                "en": "Oct 1, 2026, 12:00 (server time) → until the next version update"
               }
             },
             {
@@ -302,8 +306,11 @@
     },
     {
       "id": "aic-support-chubby-lung",
+      "cover": "assets/events/chubby-lung-banner.webp",
       "accent": "#7c9fd4",
-      "upcoming": true,
+      "startsAt": "2026-09-16T04:00:00Z",
+      "endsAt": "2026-09-30T08:00:00Z",
+      "source": "https://endfield.gryphline.com/en-us/news/5208",
       "kicker": {
         "es": "Soporte del CAI · 1.5",
         "en": "AIC Support · 1.5"
@@ -326,6 +333,7 @@
       "blocks": [
         {
           "type": "hero",
+          "banner": "assets/events/chubby-lung-banner.webp",
           "meta": [
             {
               "k": {
@@ -343,8 +351,8 @@
                 "en": "Dates"
               },
               "v": {
-                "es": "Por confirmar",
-                "en": "To be confirmed"
+                "es": "16 sep, 12:00 → 30 sep, 16:00 de 2026 (hora del servidor) · canje de bienes hasta el 7 oct, 04:00",
+                "en": "Sep 16, 12:00 → Sep 30, 16:00, 2026 (server time) · Goods Exchange until Oct 7, 04:00"
               }
             },
             {
@@ -461,81 +469,295 @@
       "id": "echoes-of-war",
       "cover": "assets/events/echoes-of-war-banner.webp",
       "accent": "#e02121",
-      "kicker": { "es": "Modo permanente · 1.4", "en": "Permanent mode · 1.4" },
-      "title": { "es": "Ecos de guerra", "en": "Echoes of War", "jp": "戦争残響", "zh": "战争回响" },
+      "kicker": {
+        "es": "Modo permanente · 1.4",
+        "en": "Permanent mode · 1.4"
+      },
+      "title": {
+        "es": "Ecos de guerra",
+        "en": "Echoes of War",
+        "jp": "戦争残響",
+        "zh": "战争回响"
+      },
       "difficulty": "Endgame",
       "summary": {
         "es": "El modo de fin de juego que llegó con la 1.4, y es permanente. Cada temporada te da tres ciclos de tres etapas, y cada etapa se juega en Normal, Hard o Brutal con equipo independiente. Lo importante: todo el Oroberyl se asegura en Normal. Las dificultades altas solo suben las estrellas que deciden tu título de temporada.",
         "en": "The endgame mode added in 1.4, and it's permanent. Each season gives you three cycles of three stages, and every stage runs on Normal, Hard or Brutal with its own team. The important part: all the Oroberyl is secured on Normal. Higher difficulties only raise the stars that set your season title."
       },
-      "tags": ["permanent", "seasonal", "ratings", "Oroberyl"],
+      "tags": [
+        "permanent",
+        "seasonal",
+        "ratings",
+        "Oroberyl"
+      ],
       "blocks": [
-        { "type": "hero",
+        {
+          "type": "hero",
           "banner": "assets/events/echoes-of-war-banner.webp",
           "meta": [
-            { "k": { "es": "Tipo", "en": "Type", "jp": "分類", "zh": "类别" }, "v": { "es": "Permanente · por temporadas", "en": "Permanent · seasonal" } },
-            { "k": { "es": "Temporada", "en": "Season" }, "v": { "es": "Season of Recalling · 16 jul – 9 ago", "en": "Season of Recalling · Jul 16 – Aug 9" } },
-            { "k": { "es": "Dificultades", "en": "Difficulties" }, "v": { "es": "Normal · Hard · Brutal", "en": "Normal · Hard · Brutal" } },
-            { "k": { "es": "Tope por ciclo", "en": "Cycle cap" }, "v": { "es": "9★ (3 etapas de 3★)", "en": "9★ (3 stages at 3★)" } }
+            {
+              "k": {
+                "es": "Tipo",
+                "en": "Type",
+                "jp": "分類",
+                "zh": "类别"
+              },
+              "v": {
+                "es": "Permanente · por temporadas",
+                "en": "Permanent · seasonal"
+              }
+            },
+            {
+              "k": {
+                "es": "Temporada",
+                "en": "Season"
+              },
+              "v": {
+                "es": "Season of Virtuality · 2 – 24 sep · Season of Illusion · desde el 24 sep",
+                "en": "Season of Virtuality · Sep 2 – 24 · Season of Illusion · from Sep 24"
+              }
+            },
+            {
+              "k": {
+                "es": "Dificultades",
+                "en": "Difficulties"
+              },
+              "v": {
+                "es": "Normal · Hard · Brutal",
+                "en": "Normal · Hard · Brutal"
+              }
+            },
+            {
+              "k": {
+                "es": "Tope por ciclo",
+                "en": "Cycle cap"
+              },
+              "v": {
+                "es": "9★ (3 etapas de 3★)",
+                "en": "9★ (3 stages at 3★)"
+              }
+            }
           ]
         },
-        { "type": "lead", "body": {
-          "es": "Echoes of War es el modo de desafío permanente de la 1.4. Cada temporada trae tres ciclos, y cada ciclo abre tres etapas de combate a contrarreloj con una mecánica propia que le da la vuelta a la pelea. Cada etapa se juega en Normal, Hard o Brutal, y llevas equipo independiente en cada una: lo que montes en una no condiciona a las demás. La recompensa premium no depende de la dificultad, todo el Oroberyl sale en Normal. Hard y Brutal son prestigio: suben las estrellas que deciden tu título de temporada.",
-          "en": "Echoes of War is 1.4's permanent challenge mode. Each season brings three cycles, and each cycle opens three stages of timed combat, each with its own mechanic that turns the fight on its head. Every stage runs on Normal, Hard or Brutal, and you bring an independent team to each one: what you field in one doesn't constrain the others. The premium reward doesn't depend on difficulty, all the Oroberyl comes from Normal. Hard and Brutal are prestige: they raise the stars that decide your season title."
-        } },
-        { "type": "pillars",
-          "h": { "es": "Cómo funciona", "en": "How it works" },
+        {
+          "type": "lead",
+          "body": {
+            "es": "Echoes of War es el modo de desafío permanente de la 1.4. Cada temporada trae tres ciclos, y cada ciclo abre tres etapas de combate a contrarreloj con una mecánica propia que le da la vuelta a la pelea. Cada etapa se juega en Normal, Hard o Brutal, y llevas equipo independiente en cada una: lo que montes en una no condiciona a las demás. La recompensa premium no depende de la dificultad, todo el Oroberyl sale en Normal. Hard y Brutal son prestigio: suben las estrellas que deciden tu título de temporada.",
+            "en": "Echoes of War is 1.4's permanent challenge mode. Each season brings three cycles, and each cycle opens three stages of timed combat, each with its own mechanic that turns the fight on its head. Every stage runs on Normal, Hard or Brutal, and you bring an independent team to each one: what you field in one doesn't constrain the others. The premium reward doesn't depend on difficulty, all the Oroberyl comes from Normal. Hard and Brutal are prestige: they raise the stars that decide your season title."
+          }
+        },
+        {
+          "type": "pillars",
+          "h": {
+            "es": "Cómo funciona",
+            "en": "How it works"
+          },
           "items": [
-            { "icon": "◷", "h": { "es": "Tres ciclos por temporada", "en": "Three cycles a season" },
-              "body": { "es": "Cada ciclo abre tres etapas y rota en el reset. Las etapas vuelven en ciclos posteriores, así que una recompensa que se te pasó no se pierde para siempre.", "en": "Each cycle opens three stages and rotates on reset. Stages come back in later cycles, so a reward you missed isn't gone for good." } },
-            { "icon": "★", "h": { "es": "Normal 1★ · Hard 2★ · Brutal 3★", "en": "Normal 1★ · Hard 2★ · Brutal 3★" },
-              "body": { "es": "El rating de una etapa es la dificultad que limpiaste. El máximo por ciclo es 9★: tres etapas de 3★ cada una. En esta temporada los niveles recomendados son 60, 75 y 90.", "en": "A stage's rating is the difficulty you cleared. The cycle max is 9★: three stages at 3★ each. This season's recommended levels are 60, 75 and 90." } },
-            { "icon": "◈", "h": { "es": "[Lustrous] en Brutal", "en": "[Lustrous] on Brutal" },
-              "body": { "es": "Limpiar en Brutal cumpliendo los objetivos extra añade el impulso [Lustrous] al rating. Si lo sacas en las TRES etapas de un ciclo, tu título de temporada pasa a ser [Lustrous].", "en": "Clearing on Brutal while hitting the bonus objectives adds the [Lustrous] boost to your rating. Land it on all THREE stages of a cycle and your season title becomes [Lustrous]." } },
-            { "icon": "⚿", "h": { "es": "Honor rewards, una sola vez", "en": "Honor rewards, one time only" },
-              "body": { "es": "Las recompensas de honor caen una sola vez: la primera vez que logras 1★, 2★ o 3★ en una etapa. Y son tuyas para siempre, ni el ciclo siguiente ni la temporada nueva las tocan.", "en": "Honor rewards land once: the first time you hit 1★, 2★ or 3★ on a stage. And they're yours for good, neither the next cycle nor a new season touches them." } }
+            {
+              "icon": "◷",
+              "h": {
+                "es": "Tres ciclos por temporada",
+                "en": "Three cycles a season"
+              },
+              "body": {
+                "es": "Cada ciclo abre tres etapas y rota en el reset. Las etapas vuelven en ciclos posteriores, así que una recompensa que se te pasó no se pierde para siempre.",
+                "en": "Each cycle opens three stages and rotates on reset. Stages come back in later cycles, so a reward you missed isn't gone for good."
+              }
+            },
+            {
+              "icon": "★",
+              "h": {
+                "es": "Normal 1★ · Hard 2★ · Brutal 3★",
+                "en": "Normal 1★ · Hard 2★ · Brutal 3★"
+              },
+              "body": {
+                "es": "El rating de una etapa es la dificultad que limpiaste. El máximo por ciclo es 9★: tres etapas de 3★ cada una. En esta temporada los niveles recomendados son 60, 75 y 90.",
+                "en": "A stage's rating is the difficulty you cleared. The cycle max is 9★: three stages at 3★ each. This season's recommended levels are 60, 75 and 90."
+              }
+            },
+            {
+              "icon": "◈",
+              "h": {
+                "es": "[Lustrous] en Brutal",
+                "en": "[Lustrous] on Brutal"
+              },
+              "body": {
+                "es": "Limpiar en Brutal cumpliendo los objetivos extra añade el impulso [Lustrous] al rating. Si lo sacas en las TRES etapas de un ciclo, tu título de temporada pasa a ser [Lustrous].",
+                "en": "Clearing on Brutal while hitting the bonus objectives adds the [Lustrous] boost to your rating. Land it on all THREE stages of a cycle and your season title becomes [Lustrous]."
+              }
+            },
+            {
+              "icon": "⚿",
+              "h": {
+                "es": "Honor rewards, una sola vez",
+                "en": "Honor rewards, one time only"
+              },
+              "body": {
+                "es": "Las recompensas de honor caen una sola vez: la primera vez que logras 1★, 2★ o 3★ en una etapa. Y son tuyas para siempre, ni el ciclo siguiente ni la temporada nueva las tocan.",
+                "en": "Honor rewards land once: the first time you hit 1★, 2★ or 3★ on a stage. And they're yours for good, neither the next cycle nor a new season touches them."
+              }
+            }
           ]
         },
-        { "type": "meta",
-          "h": { "es": "Cómo se decide tu título", "en": "How your title is decided" },
+        {
+          "type": "meta",
+          "h": {
+            "es": "Cómo se decide tu título",
+            "en": "How your title is decided"
+          },
           "body": {
             "es": "Tu Final Rating de la temporada es el Total Rating más alto que hayas hecho en cualquiera de los ciclos: no la suma, ni el último. Ese número marca el título, con escalones en 1★, 3★, 5★, 7★ y 9★. Si en un mismo ciclo sacas [Lustrous] en las tres etapas, el título de la temporada es [Lustrous]. El Battle Review guarda tus ratings y las composiciones que usaste en cada etapa de las 6 temporadas más recientes.",
             "en": "Your season Final Rating is the highest Total Rating you posted in any single cycle: not the sum, not the last one. That number sets the title, with steps at 1★, 3★, 5★, 7★ and 9★. Land [Lustrous] on all three stages of one cycle and the season title becomes [Lustrous]. The Battle Review keeps your ratings and the team comps you used on each stage for the 6 most recent seasons."
           },
           "points": [
-            { "es": "Cuenta tu mejor ciclo, así que puedes fallar un ciclo entero sin tirar el título que ya aseguraste.", "en": "Your best cycle counts, so you can whiff an entire cycle without dropping the title you already locked in." },
-            { "es": "El Oroberyl no depende del título: Normal lo entrega completo.", "en": "Oroberyl doesn't ride on the title: Normal hands it over in full." },
-            { "es": "Los objetivos extra de Brutal son la única vía al [Lustrous].", "en": "Brutal's bonus objectives are the only road to [Lustrous]." }
+            {
+              "es": "Cuenta tu mejor ciclo, así que puedes fallar un ciclo entero sin tirar el título que ya aseguraste.",
+              "en": "Your best cycle counts, so you can whiff an entire cycle without dropping the title you already locked in."
+            },
+            {
+              "es": "El Oroberyl no depende del título: Normal lo entrega completo.",
+              "en": "Oroberyl doesn't ride on the title: Normal hands it over in full."
+            },
+            {
+              "es": "Los objetivos extra de Brutal son la única vía al [Lustrous].",
+              "en": "Brutal's bonus objectives are the only road to [Lustrous]."
+            }
           ]
         },
-        { "type": "criteria",
-          "h": { "es": "La temporada: Season of Recalling", "en": "The season: Season of Recalling" },
-          "note": { "es": "Las mecánicas de los ciclos II y III se confirman cuando abren. Fechas del servidor Américas/Europa; en Asia el corte cae en su propio reset.", "en": "Cycle II and III mechanics get confirmed when they open. Dates are Americas/Europe server; on Asia the cut falls on its own reset." },
+        {
+          "type": "criteria",
+          "h": {
+            "es": "La temporada: Season of Recalling",
+            "en": "The season: Season of Recalling"
+          },
+          "note": {
+            "es": "Las mecánicas de los ciclos II y III se confirman cuando abren. Fechas del servidor Américas/Europa; en Asia el corte cae en su propio reset.",
+            "en": "Cycle II and III mechanics get confirmed when they open. Dates are Americas/Europe server; on Asia the cut falls on its own reset."
+          },
           "groups": [
-            { "kind": "cycle", "cat": { "es": "Ciclo I · 15 – 23 jul", "en": "Cycle I · Jul 15 – 23" }, "desc": { "es": "Bonecrushers, un check de Arts Infliction y el Skydrummer.", "en": "Bonecrushers, an Arts Infliction check and the Skydrummer." }, "items": [
-              { "name": "Scars of Landbreaking", "eff": { "es": "Bonecrusher Vanguard, Arsonist y Executioner + Heavy Ram. Derrotar enemigos te da buffs de stat, pero la curación está restringida a HP Treatment. Bonus de Brutal: limpiar en 3 min.", "en": "Bonecrusher Vanguard, Arsonist and Executioner + Heavy Ram. Defeating enemies grants stat buffs, but healing is restricted to HP Treatment. Brutal bonus: clear within 3 min." } },
-              { "name": "Silver Watercutter", "eff": { "es": "Tras aplicar Arts Infliction 20 veces, todos tus operadores ganan Final DMG Dealt +50%. Bonus de Brutal: limpiar en 3 min.", "en": "After applying Arts Infliction 20 times, all your operators gain Final DMG Dealt +50%. Brutal bonus: clear within 3 min." } },
-              { "name": "Howling of Undying Beasts", "eff": { "es": "Jefe Skydrummer: no entra en Enraged, pero llega con +50 de resistencia elemental. Bonus de Brutal: limpiar en 3 min.", "en": "Skydrummer boss: it won't enter its Enraged state, but it comes with +50 elemental resistance. Brutal bonus: clear within 3 min." } }
-            ] },
-            { "kind": "cycle", "cat": { "es": "Ciclo II · 23 – 30 jul", "en": "Cycle II · Jul 23 – 30" }, "desc": { "es": "Dos etapas nuevas y una que repite.", "en": "Two new stages and one repeat." }, "items": [
-              { "name": "Skirmisher's Æthillu", "eff": { "es": "Etapa nueva. Mecánica por confirmar.", "en": "New stage. Mechanic to be confirmed." } },
-              { "name": "Silver Watercutter", "eff": { "es": "Repite del Ciclo I.", "en": "Repeats from Cycle I." } },
-              { "name": "Age of Axes", "eff": { "es": "Etapa nueva. Mecánica por confirmar.", "en": "New stage. Mechanic to be confirmed." } }
-            ] },
-            { "kind": "cycle", "cat": { "es": "Ciclo III · 30 jul – 9 ago", "en": "Cycle III · Jul 30 – Aug 9" }, "desc": { "es": "Cierre de temporada: una nueva y dos que vuelven.", "en": "Season close: one new, two returning." }, "items": [
-              { "name": "Pulverizing Ammunition", "eff": { "es": "Etapa nueva. Mecánica por confirmar.", "en": "New stage. Mechanic to be confirmed." } },
-              { "name": "Scars of Landbreaking", "eff": { "es": "Repite del Ciclo I.", "en": "Repeats from Cycle I." } },
-              { "name": "Age of Axes", "eff": { "es": "Repite del Ciclo II.", "en": "Repeats from Cycle II." } }
-            ] }
+            {
+              "kind": "cycle",
+              "cat": {
+                "es": "Ciclo I · 15 – 23 jul",
+                "en": "Cycle I · Jul 15 – 23"
+              },
+              "desc": {
+                "es": "Bonecrushers, un check de Arts Infliction y el Skydrummer.",
+                "en": "Bonecrushers, an Arts Infliction check and the Skydrummer."
+              },
+              "items": [
+                {
+                  "name": "Scars of Landbreaking",
+                  "eff": {
+                    "es": "Bonecrusher Vanguard, Arsonist y Executioner + Heavy Ram. Derrotar enemigos te da buffs de stat, pero la curación está restringida a HP Treatment. Bonus de Brutal: limpiar en 3 min.",
+                    "en": "Bonecrusher Vanguard, Arsonist and Executioner + Heavy Ram. Defeating enemies grants stat buffs, but healing is restricted to HP Treatment. Brutal bonus: clear within 3 min."
+                  }
+                },
+                {
+                  "name": "Silver Watercutter",
+                  "eff": {
+                    "es": "Tras aplicar Arts Infliction 20 veces, todos tus operadores ganan Final DMG Dealt +50%. Bonus de Brutal: limpiar en 3 min.",
+                    "en": "After applying Arts Infliction 20 times, all your operators gain Final DMG Dealt +50%. Brutal bonus: clear within 3 min."
+                  }
+                },
+                {
+                  "name": "Howling of Undying Beasts",
+                  "eff": {
+                    "es": "Jefe Skydrummer: no entra en Enraged, pero llega con +50 de resistencia elemental. Bonus de Brutal: limpiar en 3 min.",
+                    "en": "Skydrummer boss: it won't enter its Enraged state, but it comes with +50 elemental resistance. Brutal bonus: clear within 3 min."
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "cycle",
+              "cat": {
+                "es": "Ciclo II · 23 – 30 jul",
+                "en": "Cycle II · Jul 23 – 30"
+              },
+              "desc": {
+                "es": "Dos etapas nuevas y una que repite.",
+                "en": "Two new stages and one repeat."
+              },
+              "items": [
+                {
+                  "name": "Skirmisher's Æthillu",
+                  "eff": {
+                    "es": "Etapa nueva. Mecánica por confirmar.",
+                    "en": "New stage. Mechanic to be confirmed."
+                  }
+                },
+                {
+                  "name": "Silver Watercutter",
+                  "eff": {
+                    "es": "Repite del Ciclo I.",
+                    "en": "Repeats from Cycle I."
+                  }
+                },
+                {
+                  "name": "Age of Axes",
+                  "eff": {
+                    "es": "Etapa nueva. Mecánica por confirmar.",
+                    "en": "New stage. Mechanic to be confirmed."
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "cycle",
+              "cat": {
+                "es": "Ciclo III · 30 jul – 9 ago",
+                "en": "Cycle III · Jul 30 – Aug 9"
+              },
+              "desc": {
+                "es": "Cierre de temporada: una nueva y dos que vuelven.",
+                "en": "Season close: one new, two returning."
+              },
+              "items": [
+                {
+                  "name": "Pulverizing Ammunition",
+                  "eff": {
+                    "es": "Etapa nueva. Mecánica por confirmar.",
+                    "en": "New stage. Mechanic to be confirmed."
+                  }
+                },
+                {
+                  "name": "Scars of Landbreaking",
+                  "eff": {
+                    "es": "Repite del Ciclo I.",
+                    "en": "Repeats from Cycle I."
+                  }
+                },
+                {
+                  "name": "Age of Axes",
+                  "eff": {
+                    "es": "Repite del Ciclo II.",
+                    "en": "Repeats from Cycle II."
+                  }
+                }
+              ]
+            }
           ]
         },
-        { "type": "callout", "variant": "tip", "h": { "es": "Ve a por el Oroberyl y respira", "en": "Grab the Oroberyl and breathe" },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "h": {
+            "es": "Ve a por el Oroberyl y respira",
+            "en": "Grab the Oroberyl and breathe"
+          },
           "body": {
             "es": "Si solo quieres los recursos, limpia las tres etapas en Normal y listo: el Oroberyl completo ya es tuyo. Hard y Brutal suman estrellas y las honor rewards de tu primer 2★ y 3★, pero no cambian el Oroberyl. Y como el Final Rating se queda con tu mejor ciclo, puedes subir la dificultad cuando tengas el roster a punto, sin presión de calendario.",
             "en": "If you're only here for the resources, clear the three stages on Normal and you're done: the full Oroberyl is already yours. Hard and Brutal add stars and the honor rewards for your first 2★ and 3★, but they don't change the Oroberyl. And since the Final Rating keeps your best cycle, you can raise the difficulty once your roster is ready, with no calendar breathing down your neck."
           }
         },
-        { "type": "callout", "variant": "warn", "h": { "es": "Brutal es un DPS check, no un test de supervivencia", "en": "Brutal is a DPS check, not a survival test" },
+        {
+          "type": "callout",
+          "variant": "warn",
+          "h": {
+            "es": "Brutal es un DPS check, no un test de supervivencia",
+            "en": "Brutal is a DPS check, not a survival test"
+          },
           "body": {
             "es": "El bonus de esta temporada es limpiar en 3 minutos las tres etapas del Ciclo I, con Lv 90 recomendado: lo que te frena es el daño por segundo, no aguantar. Y cada etapa te quita una muleta distinta: en Scars of Landbreaking solo curas con HP Treatment, y el Skydrummer de Howling of Undying Beasts llega con +50 de resistencia elemental a cambio de no enfurecerse.",
             "en": "This season's bonus is clearing all three Cycle I stages within 3 minutes, at a recommended Lv 90: what stops you is damage per second, not staying alive. And each stage takes a different crutch away: on Scars of Landbreaking you only heal through HP Treatment, and the Skydrummer in Howling of Undying Beasts shows up with +50 elemental resistance in exchange for never going Enraged."
@@ -549,92 +771,249 @@
       "accent": "#6d5ce6",
       "startsAt": "2026-07-30T04:00:00Z",
       "endsAt": "2026-08-12T20:00:00Z",
-      "kicker": { "es": "Evento de desafío · 1.4", "en": "Challenge event · 1.4" },
-      "title": { "es": "¡FURIA ARDIENTE! ¡MEGA ARENA!", "en": "HEAT RAGE! MEGA ARENA!", "jp": "燃えよ！アリーナ！" },
+      "kicker": {
+        "es": "Evento de desafío · 1.4",
+        "en": "Challenge event · 1.4"
+      },
+      "title": {
+        "es": "¡FURIA ARDIENTE! ¡MEGA ARENA!",
+        "en": "HEAT RAGE! MEGA ARENA!",
+        "jp": "燃えよ！アリーナ！"
+      },
       "difficulty": "Duo",
       "summary": {
         "es": "Ocho etapas de combate con una regla que lo cambia todo: llevas dos operadores como máximo. Cada etapa se juega en Normal y en MAXED, y las mejoras de la arena están hechas para que un dúo aguante el ritmo. Es la excusa para sacar parejas que en el equipo de cuatro quedan tapadas.",
         "en": "Eight combat stages with one rule that changes everything: you bring two operators at most. Every stage runs on Normal and on MAXED, and the arena's boosts exist so a duo can keep up. It's the excuse to field pairs that a four-operator team keeps buried."
       },
-      "tags": ["limited", "2-operator teams", "MAXED", "medal"],
+      "tags": [
+        "limited",
+        "2-operator teams",
+        "MAXED",
+        "medal"
+      ],
       "blocks": [
-        { "type": "hero",
+        {
+          "type": "hero",
           "banner": "assets/events/heat-rage-banner.webp",
           "meta": [
-            { "k": { "es": "Tipo", "en": "Type" }, "v": { "es": "Evento de desafío", "en": "Challenge event" } },
-            { "k": { "es": "Fechas", "en": "Dates" }, "v": { "es": "30 jul – 13 ago 2026", "en": "Jul 30 – Aug 13, 2026" } },
-            { "k": { "es": "Equipo", "en": "Team" }, "v": { "es": "Máx. 2 operadores", "en": "Max 2 operators" } },
-            { "k": { "es": "Etapas", "en": "Stages" }, "v": { "es": "8, en Normal y MAXED", "en": "8, on Normal and MAXED" } }
+            {
+              "k": {
+                "es": "Tipo",
+                "en": "Type"
+              },
+              "v": {
+                "es": "Evento de desafío",
+                "en": "Challenge event"
+              }
+            },
+            {
+              "k": {
+                "es": "Fechas",
+                "en": "Dates"
+              },
+              "v": {
+                "es": "30 jul – 13 ago 2026",
+                "en": "Jul 30 – Aug 13, 2026"
+              }
+            },
+            {
+              "k": {
+                "es": "Equipo",
+                "en": "Team"
+              },
+              "v": {
+                "es": "Máx. 2 operadores",
+                "en": "Max 2 operators"
+              }
+            },
+            {
+              "k": {
+                "es": "Etapas",
+                "en": "Stages"
+              },
+              "v": {
+                "es": "8, en Normal y MAXED",
+                "en": "8, on Normal and MAXED"
+              }
+            }
           ]
         },
-        { "type": "lead",
+        {
+          "type": "lead",
           "body": {
             "es": "Las ocho etapas salen escalonadas: las tres primeras el día que abre y una más cada día a las 04:00 de tu servidor. Cada una se despacha primero en Normal, y al superarla se abre su MAXED, que es la misma etapa con los enemigos mucho más fuertes. Las mejoras de la arena van por tramos y cambian bastante lo que conviene llevar.",
             "en": "The eight stages arrive staggered: the first three on opening day and one more each day at 04:00 server time. You clear each one on Normal first, and beating it opens its MAXED version, which is the same stage with far stronger enemies. The arena's boosts come in tiers and change quite a lot about what's worth bringing."
           }
         },
-        { "type": "pillars",
-          "h": { "es": "Las mejoras, por tramo", "en": "The boosts, by tier" },
+        {
+          "type": "pillars",
+          "h": {
+            "es": "Las mejoras, por tramo",
+            "en": "The boosts, by tier"
+          },
           "items": [
-            { "icon": "1", "h": { "es": "Etapas 1-3 · Vulnerability gratis", "en": "Stages 1-3 · Free Vulnerability" },
-              "body": { "es": "El Golpe final de cada operador controlado aplica 1 stack de Vulnerability. Los equipos Physical que viven del Crush salen ganando: los stacks llegan solos.", "en": "Each controlled operator's Final Strike applies 1 Vulnerability stack. Physical teams that live off Crush come out ahead: the stacks arrive on their own." } },
-            { "icon": "2", "h": { "es": "Etapas 4-6 · Inflicción doble", "en": "Stages 4-6 · Double infliction" },
-              "body": { "es": "Cada vez que un operador aplica una inflicción Arts, se añade otro stack del mismo elemento. Llegas al umbral de reacción en la mitad de golpes.", "en": "Every time an operator applies an Arts Infliction, another stack of the same element is added. You hit the reaction threshold in half the hits." } },
-            { "icon": "3", "h": { "es": "Etapas 7-8 · Reacción por SP", "en": "Stages 7-8 · Reactions pay SP" },
-              "body": { "es": "Aplicar o consumir una reacción Arts te devuelve SP al instante. Los dúos de dos elementos distintos encadenan skills casi sin pausa.", "en": "Applying or consuming an Arts Reaction returns SP instantly. Duos of two different elements chain skills with barely a pause." } }
+            {
+              "icon": "1",
+              "h": {
+                "es": "Etapas 1-3 · Vulnerability gratis",
+                "en": "Stages 1-3 · Free Vulnerability"
+              },
+              "body": {
+                "es": "El Golpe final de cada operador controlado aplica 1 stack de Vulnerability. Los equipos Physical que viven del Crush salen ganando: los stacks llegan solos.",
+                "en": "Each controlled operator's Final Strike applies 1 Vulnerability stack. Physical teams that live off Crush come out ahead: the stacks arrive on their own."
+              }
+            },
+            {
+              "icon": "2",
+              "h": {
+                "es": "Etapas 4-6 · Inflicción doble",
+                "en": "Stages 4-6 · Double infliction"
+              },
+              "body": {
+                "es": "Cada vez que un operador aplica una inflicción Arts, se añade otro stack del mismo elemento. Llegas al umbral de reacción en la mitad de golpes.",
+                "en": "Every time an operator applies an Arts Infliction, another stack of the same element is added. You hit the reaction threshold in half the hits."
+              }
+            },
+            {
+              "icon": "3",
+              "h": {
+                "es": "Etapas 7-8 · Reacción por SP",
+                "en": "Stages 7-8 · Reactions pay SP"
+              },
+              "body": {
+                "es": "Aplicar o consumir una reacción Arts te devuelve SP al instante. Los dúos de dos elementos distintos encadenan skills casi sin pausa.",
+                "en": "Applying or consuming an Arts Reaction returns SP instantly. Duos of two different elements chain skills with barely a pause."
+              }
+            }
           ]
         },
-        { "type": "meta",
-          "h": { "es": "Las ocho etapas", "en": "The eight stages" },
+        {
+          "type": "meta",
+          "h": {
+            "es": "Las ocho etapas",
+            "en": "The eight stages"
+          },
           "body": {
             "es": "Las tres primeras están desde el día 1; a partir del día 2 se suma una cada día a las 04:00 de tu servidor. El orden es el mismo para todos.",
             "en": "The first three are there from day 1; from day 2 onward one more is added each day at 04:00 server time. The order is the same for everyone."
           },
           "points": [
-            { "es": "1 · Start It Up! The Great Arena!", "en": "1 · Start It Up! The Great Arena!" },
-            { "es": "2 · Here Comes! Host of Aggeloi!", "en": "2 · Here Comes! Host of Aggeloi!" },
-            { "es": "3 · Unholy! Breakers and Buggers!", "en": "3 · Unholy! Breakers and Buggers!" },
-            { "es": "4 · Incoming! Unexpected Enemies!", "en": "4 · Incoming! Unexpected Enemies!" },
-            { "es": "5 · War Band! Heroes of the Stockade!", "en": "5 · War Band! Heroes of the Stockade!" },
-            { "es": "6 · Tactics! Beat Their Beastmasters!", "en": "6 · Tactics! Beat Their Beastmasters!" },
-            { "es": "7 · What?! Why Are There Beasts?!", "en": "7 · What?! Why Are There Beasts?!" },
-            { "es": "8 · Chaos! Total Carnage!", "en": "8 · Chaos! Total Carnage!" }
+            {
+              "es": "1 · Start It Up! The Great Arena!",
+              "en": "1 · Start It Up! The Great Arena!"
+            },
+            {
+              "es": "2 · Here Comes! Host of Aggeloi!",
+              "en": "2 · Here Comes! Host of Aggeloi!"
+            },
+            {
+              "es": "3 · Unholy! Breakers and Buggers!",
+              "en": "3 · Unholy! Breakers and Buggers!"
+            },
+            {
+              "es": "4 · Incoming! Unexpected Enemies!",
+              "en": "4 · Incoming! Unexpected Enemies!"
+            },
+            {
+              "es": "5 · War Band! Heroes of the Stockade!",
+              "en": "5 · War Band! Heroes of the Stockade!"
+            },
+            {
+              "es": "6 · Tactics! Beat Their Beastmasters!",
+              "en": "6 · Tactics! Beat Their Beastmasters!"
+            },
+            {
+              "es": "7 · What?! Why Are There Beasts?!",
+              "en": "7 · What?! Why Are There Beasts?!"
+            },
+            {
+              "es": "8 · Chaos! Total Carnage!",
+              "en": "8 · Chaos! Total Carnage!"
+            }
           ]
         },
-        { "type": "awards",
-          "h": { "es": "Lo que te llevas", "en": "What you take home" },
+        {
+          "type": "awards",
+          "h": {
+            "es": "Lo que te llevas",
+            "en": "What you take home"
+          },
           "note": {
             "es": "La medalla y el marco solo se consiguen mientras el evento está abierto.",
             "en": "The medal and the frame are only obtainable while the event is open."
           },
           "items": [
-            { "img": "assets/events/nocturnal-tactics-medal.webp",
-              "name": { "es": "Medalla · Nocturnal Tactics", "en": "Medal · Nocturnal Tactics" },
-              "how": { "es": "Completa las ocho etapas en Normal.", "en": "Clear all eight stages on Normal." } },
-            { "img": "assets/events/nocturnal-tactics-medal-trim.webp",
-              "name": { "es": "Medalla grabada (trim)", "en": "Trimmed medal" },
-              "how": { "es": "Completa las ocho en MAXED y, además, cualquiera de estas tres en menos de 180 s: Unholy! Breakers and Buggers!, Tactics! Beat Their Beastmasters! o Chaos! Total Carnage!", "en": "Clear all eight on MAXED and, on top of that, any one of these three in under 180s: Unholy! Breakers and Buggers!, Tactics! Beat Their Beastmasters! or Chaos! Total Carnage!" } },
-            { "img": "assets/events/heat-ragers-frame.webp",
-              "name": { "es": "Marco · Heat Ragers' Party", "en": "Frame · Heat Ragers' Party" },
-              "how": { "es": "Completa cuatro etapas en Normal. Cae junto a 3 Mark of Perseverance.", "en": "Clear four stages on Normal. It comes with 3 Mark of Perseverance." } }
+            {
+              "img": "assets/events/nocturnal-tactics-medal.webp",
+              "name": {
+                "es": "Medalla · Nocturnal Tactics",
+                "en": "Medal · Nocturnal Tactics"
+              },
+              "how": {
+                "es": "Completa las ocho etapas en Normal.",
+                "en": "Clear all eight stages on Normal."
+              }
+            },
+            {
+              "img": "assets/events/nocturnal-tactics-medal-trim.webp",
+              "name": {
+                "es": "Medalla grabada (trim)",
+                "en": "Trimmed medal"
+              },
+              "how": {
+                "es": "Completa las ocho en MAXED y, además, cualquiera de estas tres en menos de 180 s: Unholy! Breakers and Buggers!, Tactics! Beat Their Beastmasters! o Chaos! Total Carnage!",
+                "en": "Clear all eight on MAXED and, on top of that, any one of these three in under 180s: Unholy! Breakers and Buggers!, Tactics! Beat Their Beastmasters! or Chaos! Total Carnage!"
+              }
+            },
+            {
+              "img": "assets/events/heat-ragers-frame.webp",
+              "name": {
+                "es": "Marco · Heat Ragers' Party",
+                "en": "Frame · Heat Ragers' Party"
+              },
+              "how": {
+                "es": "Completa cuatro etapas en Normal. Cae junto a 3 Mark of Perseverance.",
+                "en": "Clear four stages on Normal. It comes with 3 Mark of Perseverance."
+              }
+            }
           ]
         },
-        { "type": "meta",
-          "h": { "es": "Recompensas", "en": "Rewards" },
+        {
+          "type": "meta",
+          "h": {
+            "es": "Recompensas",
+            "en": "Rewards"
+          },
           "body": {
             "es": "El Oroberyl entero se asegura en Normal: MAXED paga en materiales, no en gemas.",
             "en": "The whole Oroberyl haul is locked in on Normal: MAXED pays in materials, not gems."
           },
           "points": [
-            { "es": "1200 Oroberyl en total, a 150 por etapa superada en Normal.", "en": "1200 Oroberyl in total, at 150 per stage cleared on Normal." },
-            { "es": "Normal también suelta Combat Records, Protodisk, cajas de progresión, T-Creds y Cognitive Carrier.", "en": "Normal also drops Combat Records, Protodisks, progression crates, T-Creds and Cognitive Carriers." },
-            { "es": "Cada MAXED paga 20 000 T-Creds más Protohedron o cajas de selección.", "en": "Each MAXED pays 20,000 T-Creds plus Protohedrons or selection crates." },
-            { "es": "Las misiones del evento dan 3 Mark of Perseverance a las cuatro etapas y otras 3 al completar las ocho.", "en": "Event missions give 3 Mark of Perseverance at four stages and another 3 for completing all eight." }
+            {
+              "es": "1200 Oroberyl en total, a 150 por etapa superada en Normal.",
+              "en": "1200 Oroberyl in total, at 150 per stage cleared on Normal."
+            },
+            {
+              "es": "Normal también suelta Combat Records, Protodisk, cajas de progresión, T-Creds y Cognitive Carrier.",
+              "en": "Normal also drops Combat Records, Protodisks, progression crates, T-Creds and Cognitive Carriers."
+            },
+            {
+              "es": "Cada MAXED paga 20 000 T-Creds más Protohedron o cajas de selección.",
+              "en": "Each MAXED pays 20,000 T-Creds plus Protohedrons or selection crates."
+            },
+            {
+              "es": "Las misiones del evento dan 3 Mark of Perseverance a las cuatro etapas y otras 3 al completar las ocho.",
+              "en": "Event missions give 3 Mark of Perseverance at four stages and another 3 for completing all eight."
+            }
           ]
         },
-        { "type": "callout",
+        {
+          "type": "callout",
           "variant": "tip",
-          "h": { "es": "Si vas por el trim", "en": "If you're going for the trim" },
+          "h": {
+            "es": "Si vas por el trim",
+            "en": "If you're going for the trim"
+          },
           "body": {
             "es": "Los 180 s solo se piden en UNA de las tres etapas marcadas, así que elige la que mejor le venga a tu dúo en vez de pelear con las tres. Y ojo con el tramo 4-6: ahí la inflicción se duplica sola, así que un dúo de dos elementos distintos revienta el umbral de reacción mucho antes de lo normal.",
             "en": "The 180s are only asked on ONE of the three marked stages, so pick whichever suits your duo instead of fighting all three. And mind the 4-6 tier: infliction doubles itself there, so a duo of two different elements blows past the reaction threshold much sooner than usual."
@@ -648,78 +1027,195 @@
       "accent": "#e0a92b",
       "startsAt": "2026-08-09T04:00:00Z",
       "endsAt": "2026-09-01T22:00:00Z",
-      "kicker": { "es": "Evento de diversión · 1.4", "en": "Fun & games event · 1.4" },
-      "title": { "es": "EL REINO ARRAIGADO", "en": "THE ROOTED REALM", "jp": "根付く領域" },
+      "kicker": {
+        "es": "Evento de diversión · 1.4",
+        "en": "Fun & games event · 1.4"
+      },
+      "title": {
+        "es": "EL REINO ARRAIGADO",
+        "en": "THE ROOTED REALM",
+        "jp": "根付く領域"
+      },
       "difficulty": "Parkour",
       "summary": {
         "es": "Un Protocol Space de recorrido y recolección: juntas Aurylene Fragments por rutas y cámaras, y cada fragmento suma puntos en una pista de recompensas. Es el evento ligero de la versión, con combate solo en las cámaras que lo piden.",
         "en": "A Protocol Space about routes and collecting: you gather Aurylene Fragments through routes and chambers, and every fragment adds points to a reward track. It's the version's light event, with combat only in the chambers that ask for it."
       },
-      "tags": ["limited", "exploration", "Journey Points", "medal"],
+      "tags": [
+        "limited",
+        "exploration",
+        "Journey Points",
+        "medal"
+      ],
       "blocks": [
-        { "type": "hero",
+        {
+          "type": "hero",
           "banner": "assets/events/rooted-realm-banner.webp",
           "meta": [
-            { "k": { "es": "Tipo", "en": "Type" }, "v": { "es": "Diversión y juegos", "en": "Fun & games" } },
-            { "k": { "es": "Fechas", "en": "Dates" }, "v": { "es": "9 ago – 1/2 sep 2026", "en": "Aug 9 – Sep 1/2, 2026" } },
-            { "k": { "es": "Etapas", "en": "Stages" }, "v": { "es": "3 al abrir, 6 desde el 15 ago", "en": "3 at launch, 6 from Aug 15" } },
-            { "k": { "es": "Requisito", "en": "Requirement" }, "v": { "es": "Cap. I, proceso II", "en": "Ch. I, Process II" } }
+            {
+              "k": {
+                "es": "Tipo",
+                "en": "Type"
+              },
+              "v": {
+                "es": "Diversión y juegos",
+                "en": "Fun & games"
+              }
+            },
+            {
+              "k": {
+                "es": "Fechas",
+                "en": "Dates"
+              },
+              "v": {
+                "es": "9 ago – 1/2 sep 2026",
+                "en": "Aug 9 – Sep 1/2, 2026"
+              }
+            },
+            {
+              "k": {
+                "es": "Etapas",
+                "en": "Stages"
+              },
+              "v": {
+                "es": "3 al abrir, 6 desde el 15 ago",
+                "en": "3 at launch, 6 from Aug 15"
+              }
+            },
+            {
+              "k": {
+                "es": "Requisito",
+                "en": "Requirement"
+              },
+              "v": {
+                "es": "Cap. I, proceso II",
+                "en": "Ch. I, Process II"
+              }
+            }
           ]
         },
-        { "type": "lead",
+        {
+          "type": "lead",
           "body": {
             "es": "Entras al Protocol Space y recorres rutas y cámaras recogiendo Aurylene Fragments. Todo lo que juntas se convierte en Journey Points, y esos puntos son los que van abriendo la pista de recompensas: el evento no tiene tienda ni moneda que gastar, es una barra que sube. Abre con tres etapas y el 15 de agosto se destraban las seis.",
             "en": "You enter the Protocol Space and run routes and chambers picking up Aurylene Fragments. Everything you gather turns into Journey Points, and those points are what open the reward track: the event has no shop and no currency to spend, it's a bar that fills. It opens with three stages and on August 15 all six unlock."
           }
         },
-        { "type": "meta",
-          "h": { "es": "Realm Quests", "en": "Realm Quests" },
+        {
+          "type": "meta",
+          "h": {
+            "es": "Realm Quests",
+            "en": "Realm Quests"
+          },
           "body": {
             "es": "Seis tareas que dan 100 Journey Points cada una. Se completan en fase 2, cuando están las seis etapas, y son también la condición para grabar la medalla.",
             "en": "Six tasks worth 100 Journey Points each. They're completed in phase 2, once all six stages are up, and they're also the condition for trimming the medal."
           },
           "points": [
-            { "es": "Completa la cámara Mister Punching Bag.", "en": "Complete the Mister Punching Bag chamber." },
-            { "es": "Recoge 200 fragmentos en una sola exploración.", "en": "Collect 200 fragments in a single exploration." },
-            { "es": "Recoge 50 fragmentos en una sola cámara.", "en": "Collect 50 fragments in a single chamber." },
-            { "es": "Recoge 50 fragmentos en una sola ruta.", "en": "Collect 50 fragments in a single route." },
-            { "es": "Rompe cajas de madera 25 veces.", "en": "Smash wooden crates 25 times." },
-            { "es": "Activa interruptores de presión 25 veces.", "en": "Trigger pressure switches 25 times." }
+            {
+              "es": "Completa la cámara Mister Punching Bag.",
+              "en": "Complete the Mister Punching Bag chamber."
+            },
+            {
+              "es": "Recoge 200 fragmentos en una sola exploración.",
+              "en": "Collect 200 fragments in a single exploration."
+            },
+            {
+              "es": "Recoge 50 fragmentos en una sola cámara.",
+              "en": "Collect 50 fragments in a single chamber."
+            },
+            {
+              "es": "Recoge 50 fragmentos en una sola ruta.",
+              "en": "Collect 50 fragments in a single route."
+            },
+            {
+              "es": "Rompe cajas de madera 25 veces.",
+              "en": "Smash wooden crates 25 times."
+            },
+            {
+              "es": "Activa interruptores de presión 25 veces.",
+              "en": "Trigger pressure switches 25 times."
+            }
           ]
         },
-        { "type": "awards",
-          "h": { "es": "Lo que te llevas", "en": "What you take home" },
+        {
+          "type": "awards",
+          "h": {
+            "es": "Lo que te llevas",
+            "en": "What you take home"
+          },
           "note": {
             "es": "La medalla solo se consigue mientras el evento está abierto.",
             "en": "The medal is only obtainable while the event is open."
           },
           "items": [
-            { "img": "assets/events/explorer-realm-medal.webp",
-              "name": { "es": "Medalla · Explorer of the Realm", "en": "Medal · Explorer of the Realm" },
-              "how": { "es": "Completa una vez la cámara Shower of Coins en la fase 2.", "en": "Complete the Shower of Coins chamber once in phase 2." } },
-            { "img": "assets/events/explorer-realm-medal-trim.webp",
-              "name": { "es": "Medalla grabada (trim)", "en": "Trimmed medal" },
-              "how": { "es": "Completa las seis Realm Quests de las dos fases.", "en": "Complete all six Realm Quests across both phases." } },
-            { "img": "assets/events/aurylene-fragment.webp",
-              "name": { "es": "Aurylene Fragment", "en": "Aurylene Fragment" },
-              "how": { "es": "La ficha del evento: sale de rutas y cámaras y se convierte en Journey Points. No se gasta en nada, solo acumula.", "en": "The event token: it comes from routes and chambers and converts into Journey Points. You don't spend it on anything, it just accumulates." } }
+            {
+              "img": "assets/events/explorer-realm-medal.webp",
+              "name": {
+                "es": "Medalla · Explorer of the Realm",
+                "en": "Medal · Explorer of the Realm"
+              },
+              "how": {
+                "es": "Completa una vez la cámara Shower of Coins en la fase 2.",
+                "en": "Complete the Shower of Coins chamber once in phase 2."
+              }
+            },
+            {
+              "img": "assets/events/explorer-realm-medal-trim.webp",
+              "name": {
+                "es": "Medalla grabada (trim)",
+                "en": "Trimmed medal"
+              },
+              "how": {
+                "es": "Completa las seis Realm Quests de las dos fases.",
+                "en": "Complete all six Realm Quests across both phases."
+              }
+            },
+            {
+              "img": "assets/events/aurylene-fragment.webp",
+              "name": {
+                "es": "Aurylene Fragment",
+                "en": "Aurylene Fragment"
+              },
+              "how": {
+                "es": "La ficha del evento: sale de rutas y cámaras y se convierte en Journey Points. No se gasta en nada, solo acumula.",
+                "en": "The event token: it comes from routes and chambers and converts into Journey Points. You don't spend it on anything, it just accumulates."
+              }
+            }
           ]
         },
-        { "type": "meta",
-          "h": { "es": "Recompensas", "en": "Rewards" },
+        {
+          "type": "meta",
+          "h": {
+            "es": "Recompensas",
+            "en": "Rewards"
+          },
           "body": {
             "es": "Todo va por hitos de Journey Points en la pista Rooted Journey, hasta 1200 puntos.",
             "en": "Everything runs on Journey Point milestones along the Rooted Journey track, up to 1200 points."
           },
           "points": [
-            { "es": "1600 Oroberyl en total, más Mark of Perseverance.", "en": "1600 Oroberyl in total, plus Marks of Perseverance." },
-            { "es": "Materiales de la pista: Advanced Cognitive Carrier, Arms INSP Set, Protohedron, Protoset y Heavy Cast Dice.", "en": "Track materials: Advanced Cognitive Carriers, Arms INSP Sets, Protohedrons, Protosets and Heavy Cast Dice." },
-            { "es": "Advanced Progression Selection Crate I y T-Creds a lo largo del recorrido.", "en": "Advanced Progression Selection Crates I and T-Creds along the way." }
+            {
+              "es": "1600 Oroberyl en total, más Mark of Perseverance.",
+              "en": "1600 Oroberyl in total, plus Marks of Perseverance."
+            },
+            {
+              "es": "Materiales de la pista: Advanced Cognitive Carrier, Arms INSP Set, Protohedron, Protoset y Heavy Cast Dice.",
+              "en": "Track materials: Advanced Cognitive Carriers, Arms INSP Sets, Protohedrons, Protosets and Heavy Cast Dice."
+            },
+            {
+              "es": "Advanced Progression Selection Crate I y T-Creds a lo largo del recorrido.",
+              "en": "Advanced Progression Selection Crates I and T-Creds along the way."
+            }
           ]
         },
-        { "type": "callout",
+        {
+          "type": "callout",
           "variant": "tip",
-          "h": { "es": "Los puntos no se pierden", "en": "Points don't expire" },
+          "h": {
+            "es": "Los puntos no se pierden",
+            "en": "Points don't expire"
+          },
           "body": {
             "es": "Como todo se acumula en la misma pista, no hace falta correr el primer día: los fragmentos de la fase 1 siguen contando cuando abran las seis etapas. Lo único con fecha es el cierre, el 1 de septiembre (2 en Asia).",
             "en": "Since everything piles onto the same track, there's no need to rush on day one: phase 1 fragments still count once all six stages open. The only hard date is the close, September 1 (2 in Asia)."
@@ -734,62 +1230,195 @@
       "logo": "assets/events/cc-logo.svg",
       "accent": "#e8512f",
       "opModel": "cc-reignition",
-      "kicker": { "es": "Modo endgame · 1ª temporada", "en": "Endgame mode · Season 1" },
-      "title": { "es": "Contingency Contract: Re-Ignition", "en": "Contingency Contract: Re-Ignition" },
+      "kicker": {
+        "es": "Modo endgame · 1ª temporada",
+        "en": "Endgame mode · Season 1"
+      },
+      "title": {
+        "es": "Contingency Contract: Re-Ignition",
+        "en": "Contingency Contract: Re-Ignition"
+      },
       "difficulty": "Endgame",
       "summary": {
         "es": "El primer Contingency Contract de Endfield. Tú subes la dificultad eligiendo Test Criteria (riesgos) que debilitan a tus operadores, potencian a los enemigos o deforman el combate. Cuanto más riesgo apilas, más puntúas. El meta entero del juego se reordena aquí: los dos Key Criteria de esta temporada castigan el daño de Battle Skill y premian el daño de reacción, así que Combustion, Crush y Shatter mandan.",
         "en": "Endfield's first Contingency Contract. You raise the difficulty yourself by picking Test Criteria (risks) that weaken your operators, buff enemies or warp combat. The more risk you stack, the higher you score. The whole game's meta reshuffles here: this season's two Key Criteria punish Battle Skill damage and reward reaction damage, so Combustion, Crush and Shatter rule."
       },
-      "tags": ["endgame", "risk stacking", "combustion meta", "season"],
+      "tags": [
+        "endgame",
+        "risk stacking",
+        "combustion meta",
+        "season"
+      ],
       "blocks": [
-        { "type": "hero",
+        {
+          "type": "hero",
           "meta": [
-            { "k": { "es": "Fechas", "en": "Dates" }, "v": { "es": "19 jun – 16 jul 2026", "en": "Jun 19 – Jul 16, 2026" } },
-            { "k": { "es": "Desbloquear", "en": "Unlock" }, "v": { "es": "Authority Lv 30 + misión Paving the Way", "en": "Authority Lv 30 + Paving the Way mission" } },
-            { "k": { "es": "Moneda", "en": "Currency", "jp": "通貨", "zh": "货币" }, "v": { "es": "Vitrified Coins", "en": "Vitrified Coins" } },
-            { "k": { "es": "Tope de premio", "en": "Reward cap" }, "v": { "es": "Riesgo 20", "en": "Risk 20" } }
+            {
+              "k": {
+                "es": "Fechas",
+                "en": "Dates"
+              },
+              "v": {
+                "es": "19 jun – 16 jul 2026",
+                "en": "Jun 19 – Jul 16, 2026"
+              }
+            },
+            {
+              "k": {
+                "es": "Desbloquear",
+                "en": "Unlock"
+              },
+              "v": {
+                "es": "Authority Lv 30 + misión Paving the Way",
+                "en": "Authority Lv 30 + Paving the Way mission"
+              }
+            },
+            {
+              "k": {
+                "es": "Moneda",
+                "en": "Currency",
+                "jp": "通貨",
+                "zh": "货币"
+              },
+              "v": {
+                "es": "Vitrified Coins",
+                "en": "Vitrified Coins"
+              }
+            },
+            {
+              "k": {
+                "es": "Tope de premio",
+                "en": "Reward cap"
+              },
+              "v": {
+                "es": "Riesgo 20",
+                "en": "Risk 20"
+              }
+            }
           ]
         },
-        { "type": "lead", "body": {
-          "es": "En Contingency Contract la dificultad no viene puesta: la fabricas tú. Despliegas a tu equipo en una operación de 4 oleadas con tiempo límite, pero antes eliges cuántos Test Criteria (riesgos) activar. Cada riesgo vale 1★, 2★ o 3★ y suma a tu Total Test Criteria: ese número es tu puntuación. No hay una dificultad correcta, la real depende de tu roster: el truco es apilar los riesgos a los que tu equipo es inmune por construcción y empujar el número con esos modificadores gratis.",
-          "en": "In Contingency Contract the difficulty isn't handed to you: you build it. You deploy your team into a 4-wave, timed operation, but first you choose how many Test Criteria (risks) to switch on. Each risk is worth 1★, 2★ or 3★ and adds to your Total Test Criteria: that number is your score. There's no single correct difficulty, the real one depends on your roster: the trick is stacking the risks your team is immune to by construction and pushing the number with those free modifiers."
-        } },
-        { "type": "pillars",
-          "h": { "es": "Cómo funciona", "en": "How it works" },
+        {
+          "type": "lead",
+          "body": {
+            "es": "En Contingency Contract la dificultad no viene puesta: la fabricas tú. Despliegas a tu equipo en una operación de 4 oleadas con tiempo límite, pero antes eliges cuántos Test Criteria (riesgos) activar. Cada riesgo vale 1★, 2★ o 3★ y suma a tu Total Test Criteria: ese número es tu puntuación. No hay una dificultad correcta, la real depende de tu roster: el truco es apilar los riesgos a los que tu equipo es inmune por construcción y empujar el número con esos modificadores gratis.",
+            "en": "In Contingency Contract the difficulty isn't handed to you: you build it. You deploy your team into a 4-wave, timed operation, but first you choose how many Test Criteria (risks) to switch on. Each risk is worth 1★, 2★ or 3★ and adds to your Total Test Criteria: that number is your score. There's no single correct difficulty, the real one depends on your roster: the trick is stacking the risks your team is immune to by construction and pushing the number with those free modifiers."
+          }
+        },
+        {
+          "type": "pillars",
+          "h": {
+            "es": "Cómo funciona",
+            "en": "How it works"
+          },
           "items": [
-            { "icon": "◳", "h": { "es": "Tres familias de riesgo", "en": "Three risk families" },
-              "body": { "es": "Team debilita a tus operadores, Edit potencia a los enemigos y Ambient cambia el entorno y las reglas del combate.", "en": "Team weakens your operators, Edit buffs enemies and Ambient changes the environment and the rules of combat." } },
-            { "icon": "★", "h": { "es": "Apilas para puntuar", "en": "Stack to score" },
-              "body": { "es": "Cada criterio suma estrellas al total. Los riesgos unidos por una línea son mutuamente excluyentes: solo uno por rama.", "en": "Each criterion adds stars to your total. Risks joined by a line are mutually exclusive: only one per branch." } },
-            { "icon": "⚿", "h": { "es": "Key y Locked", "en": "Key and Locked" },
-              "body": { "es": "Los Key Criteria son nodos potentes que desbloquean criterios Locked. Definen el meta de la temporada.", "en": "Key Criteria are powerful nodes that unlock Locked criteria. They define the season's meta." } },
-            { "icon": "◈", "h": { "es": "El premio topa en Riesgo 20", "en": "Rewards cap at Risk 20" },
-              "body": { "es": "Toda la tienda se desbloquea a Riesgo 20. Por encima es solo presumir (y misiones de ciclo). Sin estamina: reintenta libre.", "en": "The whole shop unlocks at Risk 20. Above that it's bragging rights (and cycle missions). No stamina: retry freely." } }
+            {
+              "icon": "◳",
+              "h": {
+                "es": "Tres familias de riesgo",
+                "en": "Three risk families"
+              },
+              "body": {
+                "es": "Team debilita a tus operadores, Edit potencia a los enemigos y Ambient cambia el entorno y las reglas del combate.",
+                "en": "Team weakens your operators, Edit buffs enemies and Ambient changes the environment and the rules of combat."
+              }
+            },
+            {
+              "icon": "★",
+              "h": {
+                "es": "Apilas para puntuar",
+                "en": "Stack to score"
+              },
+              "body": {
+                "es": "Cada criterio suma estrellas al total. Los riesgos unidos por una línea son mutuamente excluyentes: solo uno por rama.",
+                "en": "Each criterion adds stars to your total. Risks joined by a line are mutually exclusive: only one per branch."
+              }
+            },
+            {
+              "icon": "⚿",
+              "h": {
+                "es": "Key y Locked",
+                "en": "Key and Locked"
+              },
+              "body": {
+                "es": "Los Key Criteria son nodos potentes que desbloquean criterios Locked. Definen el meta de la temporada.",
+                "en": "Key Criteria are powerful nodes that unlock Locked criteria. They define the season's meta."
+              }
+            },
+            {
+              "icon": "◈",
+              "h": {
+                "es": "El premio topa en Riesgo 20",
+                "en": "Rewards cap at Risk 20"
+              },
+              "body": {
+                "es": "Toda la tienda se desbloquea a Riesgo 20. Por encima es solo presumir (y misiones de ciclo). Sin estamina: reintenta libre.",
+                "en": "The whole shop unlocks at Risk 20. Above that it's bragging rights (and cycle missions). No stamina: retry freely."
+              }
+            }
           ]
         },
-        { "type": "meta",
-          "h": { "es": "Por qué cambia el meta", "en": "Why the meta shifts" },
+        {
+          "type": "meta",
+          "h": {
+            "es": "Por qué cambia el meta",
+            "en": "Why the meta shifts"
+          },
           "body": {
             "es": "Esta temporada tiene dos Key Criteria de 3★ que mueven todo. Ambient: Tremor sube el daño que NO es Basic, Battle Skill, Combo Skill ni Ultimate, y Ambient: Overclock recorta el cooldown de Combo Skill, pero los dos castigan fuerte el daño de Battle Skill. Resultado: el daño de reacción (Combustion, Shatter, Crush) y los Inflictions se vuelven mejora casi gratuita, mientras que las carries que viven de su Battle Skill (Zhuang Fangyi) pierden gas.",
             "en": "This season runs two 3★ Key Criteria that move everything. Ambient: Tremor boosts damage that is NOT Basic, Battle Skill, Combo Skill or Ultimate, and Ambient: Overclock cuts Combo Skill cooldown, but both punish Battle Skill damage hard. The upshot: reaction damage (Combustion, Shatter, Crush) and Inflictions become a near-free upgrade, while carries that live off their Battle Skill (Zhuang Fangyi) lose steam."
           },
           "points": [
-            { "es": "Sube: Combustion, Shatter, Crush y todo lo que pegue fuera del skill damage.", "en": "Up: Combustion, Shatter, Crush and anything that hits outside skill damage." },
-            { "es": "Baja: carries de Battle Skill puro, y las Ultimates si llevas Bent Edges.", "en": "Down: pure Battle Skill carries, and Ultimates if you take Bent Edges." },
-            { "es": "Estrellas estables: Estella ignora varios riesgos de Cryo y es cómoda para tu primer Riesgo 20.", "en": "Steady stars: Estella ignores several Cryo risks and is comfy for your first Risk 20." }
+            {
+              "es": "Sube: Combustion, Shatter, Crush y todo lo que pegue fuera del skill damage.",
+              "en": "Up: Combustion, Shatter, Crush and anything that hits outside skill damage."
+            },
+            {
+              "es": "Baja: carries de Battle Skill puro, y las Ultimates si llevas Bent Edges.",
+              "en": "Down: pure Battle Skill carries, and Ultimates if you take Bent Edges."
+            },
+            {
+              "es": "Estrellas estables: Estella ignora varios riesgos de Cryo y es cómoda para tu primer Riesgo 20.",
+              "en": "Steady stars: Estella ignores several Cryo risks and is comfy for your first Risk 20."
+            }
           ]
         },
-        { "type": "teams",
-          "h": { "es": "Equipos recomendados", "en": "Recommended teams" },
-          "note": { "es": "El operador con el marco de acento es la pieza clave. Toca cualquiera para ver su ficha; abre el Planner para construir la rotación.", "en": "The operator with the accent frame is the key piece. Tap any of them to open their page; use the Planner to build the rotation." },
+        {
+          "type": "teams",
+          "h": {
+            "es": "Equipos recomendados",
+            "en": "Recommended teams"
+          },
+          "note": {
+            "es": "El operador con el marco de acento es la pieza clave. Toca cualquiera para ver su ficha; abre el Planner para construir la rotación.",
+            "en": "The operator with the accent frame is the key piece. Tap any of them to open their page; use the Planner to build the rotation."
+          },
           "items": [
-            { "name": { "es": "Estella Combustion (alto riesgo)", "en": "Estella Combustion (high risk)" }, "risk": "Risk 40", "ops": ["estella", "laevatain", "wulfgard", "gilberta"], "carry": "estella",
-              "note": { "es": "La comp de leaderboard. Doble fuente de Combustion y Gilberta amplificando todo el daño Arts. El roster solo no te lleva: hay que pilotarla bien.", "en": "The leaderboard comp. Double Combustion source and Gilberta amplifying all Arts damage. The roster alone won't carry you, you have to pilot it well." } }
+            {
+              "name": {
+                "es": "Estella Combustion (alto riesgo)",
+                "en": "Estella Combustion (high risk)"
+              },
+              "risk": "Risk 40",
+              "ops": [
+                "estella",
+                "laevatain",
+                "wulfgard",
+                "gilberta"
+              ],
+              "carry": "estella",
+              "note": {
+                "es": "La comp de leaderboard. Doble fuente de Combustion y Gilberta amplificando todo el daño Arts. El roster solo no te lleva: hay que pilotarla bien.",
+                "en": "The leaderboard comp. Double Combustion source and Gilberta amplifying all Arts damage. The roster alone won't carry you, you have to pilot it well."
+              }
+            }
           ]
         },
-        { "type": "video",
-          "h": { "es": "La comp en acción", "en": "The comp in action" },
+        {
+          "type": "video",
+          "h": {
+            "es": "La comp en acción",
+            "en": "The comp in action"
+          },
           "title": "【危机合约】第一天首发 46分  42+狼卫 双燃烧打法思路",
           "ch": "YZ-月咒",
           "dur": "6:50",
@@ -803,67 +1432,344 @@
             "en": "A demo of the most popular team of the season at high difficulty: 46 points on day one of the event with the double Combustion fire comp."
           }
         },
-        { "type": "criteria",
-          "h": { "es": "Test Criteria de la temporada", "en": "Season Test Criteria" },
-          "note": { "es": "Referencia por familia. Las estrellas son el peso del criterio. Key desbloquea Locked, y Locked necesita su Key activo.", "en": "Reference by family. Stars are the criterion's weight. Key unlocks Locked, and Locked needs its Key active." },
+        {
+          "type": "criteria",
+          "h": {
+            "es": "Test Criteria de la temporada",
+            "en": "Season Test Criteria"
+          },
+          "note": {
+            "es": "Referencia por familia. Las estrellas son el peso del criterio. Key desbloquea Locked, y Locked necesita su Key activo.",
+            "en": "Reference by family. Stars are the criterion's weight. Key unlocks Locked, and Locked needs its Key active."
+          },
           "groups": [
-            { "kind": "ambient", "cat": { "es": "Ambient · entorno", "en": "Ambient · environment" }, "desc": { "es": "Cambian las reglas del combate.", "en": "Change the rules of combat." }, "items": [
-              { "name": "Tremor", "star": 3, "tag": "Key", "eff": { "es": "Sube el daño que NO es Basic/Battle/Combo/Ultimate; recorta Battle Skill DMG. Define el meta de reacción.", "en": "Boosts damage that is NOT Basic/Battle/Combo/Ultimate; cuts Battle Skill DMG. Defines the reaction meta." } },
-              { "name": "Overclock", "star": 3, "tag": "Key", "eff": { "es": "Recorta el cooldown de Combo Skill; castiga Battle Skill DMG.", "en": "Cuts Combo Skill cooldown; penalizes Battle Skill DMG." } },
-              { "name": "Time Limit I–III", "star": 3, "eff": { "es": "Temporizador −100 / −200 / −300s.", "en": "Timer −100 / −200 / −300s." } },
-              { "name": "Mire", "star": 3, "eff": { "es": "No se puede esquivar.", "en": "Dodge cannot be performed.", "jp": "回避不可", "zh": "禁止闪避" } },
-              { "name": "Hypoxia", "star": 1, "eff": { "es": "Regeneración de estamina −50%.", "en": "Stamina regen −50%." } },
-              { "name": "Withering I–II", "star": 2, "eff": { "es": "Solo 1 / ninguna Healing Mass entre oleadas.", "en": "Only 1 / no Healing Mass between waves." } },
-              { "name": "Synced Growth", "star": 2, "eff": { "es": "Cuando curas a un operador, los enemigos también se curan.", "en": "When you heal an operator, enemies heal too." } },
-              { "name": "Partition", "star": 2, "tag": "Locked", "eff": { "es": "No puedes cambiar de operador controlado una vez empieza el combate.", "en": "Can't switch controlled operator once battle starts." } },
-              { "name": "*-lysis (Thermo/Bio/Electro/Physico)", "star": 1, "tag": "Locked", "eff": { "es": "Alarga la Solidification; solo el elemento indicado (Heat/Nature/Electric/Physical) la disipa.", "en": "Extends Solidification; only the named element (Heat/Nature/Electric/Physical) dispels it." } },
-              { "name": "RE-Construct I–II", "star": 3, "tag": "Locked", "eff": { "es": "Variantes Heavy Ram/Sting en las oleadas finales.", "en": "Heavy Ram/Sting variants in the final waves." } }
-            ] },
-            { "kind": "edit", "cat": { "es": "Edit · enemigos", "en": "Edit · enemies" }, "desc": { "es": "Hacen a los enemigos más fuertes.", "en": "Make enemies stronger." }, "items": [
-              { "name": "Vitality I–III", "star": 3, "eff": { "es": "HP enemigo +50 / +100 / +200%.", "en": "Enemy HP +50 / +100 / +200%." } },
-              { "name": "Thrill I–II", "star": 2, "eff": { "es": "Daño infligido por enemigos +30 / +80%.", "en": "Enemy DMG dealt +30 / +80%." } },
-              { "name": "Effect Barrier", "star": 1, "eff": { "es": "Tras aplicar un Arts Infliction, no se puede re-aplicar el mismo por 5s.", "en": "After an Arts Infliction, the same one can't be re-applied for 5s." } },
-              { "name": "Rush", "star": 2, "eff": { "es": "Velocidad de enemigos +100%; cap de daño de 25% Max HP por 0.1s (mata one-shots).", "en": "Enemy move speed +100%; damage cap of 25% Max HP per 0.1s (kills one-shots)." } },
-              { "name": "Regeneration I–II", "star": 2, "tag": "Locked", "eff": { "es": "Los enemigos con control (CC) se regeneran. Cuidado con ults que reagrupan.", "en": "Crowd-controlled enemies regenerate. Beware ults that bunch them up." } },
-              { "name": "Toxic Residue I–II", "star": 2, "tag": "Locked", "eff": { "es": "Los enemigos derrotados dejan charcos de toxina.", "en": "Defeated enemies leave toxin pools." } },
-              { "name": "Encasement", "star": 1, "tag": "Locked", "eff": { "es": "El enemigo reduce daño recibido por cada stack de Vulnerability.", "en": "Enemy reduces damage taken per Vulnerability stack." } },
-              { "name": "Flashfreeze", "star": 1, "tag": "Locked", "eff": { "es": "El Cryo Infliction se convierte en Solidification.", "en": "Cryo Infliction converts into Solidification." } }
-            ] },
-            { "kind": "team", "cat": { "es": "Team · tus operadores", "en": "Team · your operators" }, "desc": { "es": "Te debilitan a ti.", "en": "Weaken you." }, "items": [
-              { "name": "Weaken I–III", "star": 3, "eff": { "es": "Atributos de operador −10 / −20 / −40%.", "en": "Operator attributes −10 / −20 / −40%." } },
-              { "name": "Poor Basics", "star": 3, "eff": { "es": "Basic Attack DMG Dealt −70%.", "en": "Basic Attack DMG Dealt −70%." } },
-              { "name": "Bent Edges I–II", "star": 2, "eff": { "es": "Penalización al daño de Ultimate (II: −100% tras la 1ª).", "en": "Ultimate damage penalty (II: −100% after the first cast)." } },
-              { "name": "Decapitate I–II", "star": 2, "eff": { "es": "Daño recibido por el operador controlado +50 / +100%.", "en": "DMG taken by the controlled operator +50 / +100%." } },
-              { "name": "Battle Chill I–II", "star": 2, "eff": { "es": "Usar Battle Skill te aplica Cryo Infliction.", "en": "Using a Battle Skill self-applies Cryo Infliction." } },
-              { "name": "Heat Loss I–II", "star": 2, "eff": { "es": "Usar Combo Skill te aplica Cryo Infliction.", "en": "Using a Combo Skill self-applies Cryo Infliction." } },
-              { "name": "Restraint I–II", "star": 2, "eff": { "es": "Reduce el daño de Vulnerability / Arts Infliction.", "en": "Reduces Vulnerability / Arts Infliction damage." } },
-              { "name": "Whittle Down", "star": 3, "eff": { "es": "Parte del daño que recibes se convierte en pérdida de Max HP.", "en": "Part of the damage you take converts into Max HP loss." } },
-              { "name": "Encumbered", "star": 1, "eff": { "es": "Se pausa la recuperación natural de SP si no das un Final Strike en 12s.", "en": "Natural SP recovery pauses if you haven't landed a Final Strike in 12s." } }
-            ] }
+            {
+              "kind": "ambient",
+              "cat": {
+                "es": "Ambient · entorno",
+                "en": "Ambient · environment"
+              },
+              "desc": {
+                "es": "Cambian las reglas del combate.",
+                "en": "Change the rules of combat."
+              },
+              "items": [
+                {
+                  "name": "Tremor",
+                  "star": 3,
+                  "tag": "Key",
+                  "eff": {
+                    "es": "Sube el daño que NO es Basic/Battle/Combo/Ultimate; recorta Battle Skill DMG. Define el meta de reacción.",
+                    "en": "Boosts damage that is NOT Basic/Battle/Combo/Ultimate; cuts Battle Skill DMG. Defines the reaction meta."
+                  }
+                },
+                {
+                  "name": "Overclock",
+                  "star": 3,
+                  "tag": "Key",
+                  "eff": {
+                    "es": "Recorta el cooldown de Combo Skill; castiga Battle Skill DMG.",
+                    "en": "Cuts Combo Skill cooldown; penalizes Battle Skill DMG."
+                  }
+                },
+                {
+                  "name": "Time Limit I–III",
+                  "star": 3,
+                  "eff": {
+                    "es": "Temporizador −100 / −200 / −300s.",
+                    "en": "Timer −100 / −200 / −300s."
+                  }
+                },
+                {
+                  "name": "Mire",
+                  "star": 3,
+                  "eff": {
+                    "es": "No se puede esquivar.",
+                    "en": "Dodge cannot be performed.",
+                    "jp": "回避不可",
+                    "zh": "禁止闪避"
+                  }
+                },
+                {
+                  "name": "Hypoxia",
+                  "star": 1,
+                  "eff": {
+                    "es": "Regeneración de estamina −50%.",
+                    "en": "Stamina regen −50%."
+                  }
+                },
+                {
+                  "name": "Withering I–II",
+                  "star": 2,
+                  "eff": {
+                    "es": "Solo 1 / ninguna Healing Mass entre oleadas.",
+                    "en": "Only 1 / no Healing Mass between waves."
+                  }
+                },
+                {
+                  "name": "Synced Growth",
+                  "star": 2,
+                  "eff": {
+                    "es": "Cuando curas a un operador, los enemigos también se curan.",
+                    "en": "When you heal an operator, enemies heal too."
+                  }
+                },
+                {
+                  "name": "Partition",
+                  "star": 2,
+                  "tag": "Locked",
+                  "eff": {
+                    "es": "No puedes cambiar de operador controlado una vez empieza el combate.",
+                    "en": "Can't switch controlled operator once battle starts."
+                  }
+                },
+                {
+                  "name": "*-lysis (Thermo/Bio/Electro/Physico)",
+                  "star": 1,
+                  "tag": "Locked",
+                  "eff": {
+                    "es": "Alarga la Solidification; solo el elemento indicado (Heat/Nature/Electric/Physical) la disipa.",
+                    "en": "Extends Solidification; only the named element (Heat/Nature/Electric/Physical) dispels it."
+                  }
+                },
+                {
+                  "name": "RE-Construct I–II",
+                  "star": 3,
+                  "tag": "Locked",
+                  "eff": {
+                    "es": "Variantes Heavy Ram/Sting en las oleadas finales.",
+                    "en": "Heavy Ram/Sting variants in the final waves."
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "edit",
+              "cat": {
+                "es": "Edit · enemigos",
+                "en": "Edit · enemies"
+              },
+              "desc": {
+                "es": "Hacen a los enemigos más fuertes.",
+                "en": "Make enemies stronger."
+              },
+              "items": [
+                {
+                  "name": "Vitality I–III",
+                  "star": 3,
+                  "eff": {
+                    "es": "HP enemigo +50 / +100 / +200%.",
+                    "en": "Enemy HP +50 / +100 / +200%."
+                  }
+                },
+                {
+                  "name": "Thrill I–II",
+                  "star": 2,
+                  "eff": {
+                    "es": "Daño infligido por enemigos +30 / +80%.",
+                    "en": "Enemy DMG dealt +30 / +80%."
+                  }
+                },
+                {
+                  "name": "Effect Barrier",
+                  "star": 1,
+                  "eff": {
+                    "es": "Tras aplicar un Arts Infliction, no se puede re-aplicar el mismo por 5s.",
+                    "en": "After an Arts Infliction, the same one can't be re-applied for 5s."
+                  }
+                },
+                {
+                  "name": "Rush",
+                  "star": 2,
+                  "eff": {
+                    "es": "Velocidad de enemigos +100%; cap de daño de 25% Max HP por 0.1s (mata one-shots).",
+                    "en": "Enemy move speed +100%; damage cap of 25% Max HP per 0.1s (kills one-shots)."
+                  }
+                },
+                {
+                  "name": "Regeneration I–II",
+                  "star": 2,
+                  "tag": "Locked",
+                  "eff": {
+                    "es": "Los enemigos con control (CC) se regeneran. Cuidado con ults que reagrupan.",
+                    "en": "Crowd-controlled enemies regenerate. Beware ults that bunch them up."
+                  }
+                },
+                {
+                  "name": "Toxic Residue I–II",
+                  "star": 2,
+                  "tag": "Locked",
+                  "eff": {
+                    "es": "Los enemigos derrotados dejan charcos de toxina.",
+                    "en": "Defeated enemies leave toxin pools."
+                  }
+                },
+                {
+                  "name": "Encasement",
+                  "star": 1,
+                  "tag": "Locked",
+                  "eff": {
+                    "es": "El enemigo reduce daño recibido por cada stack de Vulnerability.",
+                    "en": "Enemy reduces damage taken per Vulnerability stack."
+                  }
+                },
+                {
+                  "name": "Flashfreeze",
+                  "star": 1,
+                  "tag": "Locked",
+                  "eff": {
+                    "es": "El Cryo Infliction se convierte en Solidification.",
+                    "en": "Cryo Infliction converts into Solidification."
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "team",
+              "cat": {
+                "es": "Team · tus operadores",
+                "en": "Team · your operators"
+              },
+              "desc": {
+                "es": "Te debilitan a ti.",
+                "en": "Weaken you."
+              },
+              "items": [
+                {
+                  "name": "Weaken I–III",
+                  "star": 3,
+                  "eff": {
+                    "es": "Atributos de operador −10 / −20 / −40%.",
+                    "en": "Operator attributes −10 / −20 / −40%."
+                  }
+                },
+                {
+                  "name": "Poor Basics",
+                  "star": 3,
+                  "eff": {
+                    "es": "Basic Attack DMG Dealt −70%.",
+                    "en": "Basic Attack DMG Dealt −70%."
+                  }
+                },
+                {
+                  "name": "Bent Edges I–II",
+                  "star": 2,
+                  "eff": {
+                    "es": "Penalización al daño de Ultimate (II: −100% tras la 1ª).",
+                    "en": "Ultimate damage penalty (II: −100% after the first cast)."
+                  }
+                },
+                {
+                  "name": "Decapitate I–II",
+                  "star": 2,
+                  "eff": {
+                    "es": "Daño recibido por el operador controlado +50 / +100%.",
+                    "en": "DMG taken by the controlled operator +50 / +100%."
+                  }
+                },
+                {
+                  "name": "Battle Chill I–II",
+                  "star": 2,
+                  "eff": {
+                    "es": "Usar Battle Skill te aplica Cryo Infliction.",
+                    "en": "Using a Battle Skill self-applies Cryo Infliction."
+                  }
+                },
+                {
+                  "name": "Heat Loss I–II",
+                  "star": 2,
+                  "eff": {
+                    "es": "Usar Combo Skill te aplica Cryo Infliction.",
+                    "en": "Using a Combo Skill self-applies Cryo Infliction."
+                  }
+                },
+                {
+                  "name": "Restraint I–II",
+                  "star": 2,
+                  "eff": {
+                    "es": "Reduce el daño de Vulnerability / Arts Infliction.",
+                    "en": "Reduces Vulnerability / Arts Infliction damage."
+                  }
+                },
+                {
+                  "name": "Whittle Down",
+                  "star": 3,
+                  "eff": {
+                    "es": "Parte del daño que recibes se convierte en pérdida de Max HP.",
+                    "en": "Part of the damage you take converts into Max HP loss."
+                  }
+                },
+                {
+                  "name": "Encumbered",
+                  "star": 1,
+                  "eff": {
+                    "es": "Se pausa la recuperación natural de SP si no das un Final Strike en 12s.",
+                    "en": "Natural SP recovery pauses if you haven't landed a Final Strike in 12s."
+                  }
+                }
+              ]
+            }
           ]
         },
-        { "type": "callout", "variant": "tip", "h": { "es": "Cómo llegar a Riesgo 20 sin sufrir", "en": "Reaching Risk 20 the easy way" },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "h": {
+            "es": "Cómo llegar a Riesgo 20 sin sufrir",
+            "en": "Reaching Risk 20 the easy way"
+          },
           "body": {
             "es": "Elige los criterios a los que tu equipo es inmune por diseño y empuja el número con esos. Con una comp de Combustion o Crush, los Key (Tremor y Overclock) son daño a tu favor: te dan estrellas Y te suben el daño. Suma los baratos que no te tocan (Time Limit si vas sobrado de tiempo, Hypoxia si no dependes de estamina, el *-lysis que no choque con tu elemento) y llegas a 20 cómodo.",
             "en": "Pick the criteria your team is immune to by design and push the number with those. With a Combustion or Crush comp, the Key nodes (Tremor and Overclock) work in your favor: they give you stars AND raise your damage. Pile on the cheap ones that don't touch you (Time Limit if you clear with time to spare, Hypoxia if you don't lean on stamina, the *-lysis that doesn't clash with your element) and Risk 20 comes easy."
           }
         },
-        { "type": "callout", "variant": "warn", "h": { "es": "Combinaciones que se pelean", "en": "Combos that fight each other" },
+        {
+          "type": "callout",
+          "variant": "warn",
+          "h": {
+            "es": "Combinaciones que se pelean",
+            "en": "Combos that fight each other"
+          },
           "body": {
             "es": "Vitality más reducción de ataque significa que el temporizador te mata: no llegas al DPS. Rush (cap de 25% del HP por 0.1s) destroza a las carries de one-shot y al burst de Crush. Regeneration hace que las ults que reagrupan enemigos (Tangtang) jueguen en tu contra. Y si tu carry vive de la Battle Skill, evita apilar los dos Key a la vez.",
             "en": "Vitality plus attack reduction means the timer kills you: you can't out-DPS it. Rush (a cap of 25% Max HP per 0.1s) guts one-shot carries and Crush burst. Regeneration turns enemy-bunching ults (Tangtang) against you. And if your carry lives off Battle Skill, avoid stacking both Key nodes at once."
           }
         },
-        { "type": "rewards",
-          "h": { "es": "Tienda · Secret Sanctuary", "en": "Shop · Secret Sanctuary" },
-          "note": { "es": "Se paga con Vitrified Coins (15 por nivel de riesgo en la primera vez de cada criterio). Las monedas no pasan de temporada: gástalas.", "en": "Paid in Vitrified Coins (15 per risk level the first time you clear each criterion). Coins don't carry over between seasons: spend them." },
+        {
+          "type": "rewards",
+          "h": {
+            "es": "Tienda · Secret Sanctuary",
+            "en": "Shop · Secret Sanctuary"
+          },
+          "note": {
+            "es": "Se paga con Vitrified Coins (15 por nivel de riesgo en la primera vez de cada criterio). Las monedas no pasan de temporada: gástalas.",
+            "en": "Paid in Vitrified Coins (15 per risk level the first time you clear each criterion). Coins don't carry over between seasons: spend them."
+          },
           "items": [
-            { "name": "Protohedron", "cost": "—" },
-            { "name": "Oroberyl", "cost": "50" },
-            { "name": "Advanced Cognitive Carrier", "cost": "15" },
-            { "name": "Advanced Progression Selection Crate I", "cost": "21" },
-            { "name": "T-Creds", "cost": "—" },
-            { "name": "Sticker: Contingency Contract", "cost": "200" }
+            {
+              "name": "Protohedron",
+              "cost": "—"
+            },
+            {
+              "name": "Oroberyl",
+              "cost": "50"
+            },
+            {
+              "name": "Advanced Cognitive Carrier",
+              "cost": "15"
+            },
+            {
+              "name": "Advanced Progression Selection Crate I",
+              "cost": "21"
+            },
+            {
+              "name": "T-Creds",
+              "cost": "—"
+            },
+            {
+              "name": "Sticker: Contingency Contract",
+              "cost": "200"
+            }
           ]
         }
       ]
@@ -872,42 +1778,144 @@
       "id": "trial-of-swordmancy",
       "cover": "assets/events/swordmancy-banner.webp",
       "accent": "#33c98c",
-      "kicker": { "es": "Modo permanente · 1.3", "en": "Permanent mode · 1.3" },
-      "title": { "es": "Prueba del Arte de la espada", "en": "Trial of Swordmancy", "zh": "选剑演武" },
+      "kicker": {
+        "es": "Modo permanente · 1.3",
+        "en": "Permanent mode · 1.3"
+      },
+      "title": {
+        "es": "Prueba del Arte de la espada",
+        "en": "Trial of Swordmancy",
+        "zh": "选剑演武"
+      },
       "difficulty": "Roguelite",
       "summary": {
         "es": "El modo de combate permanente que llegó en la 1.3. No eliges una etapa: robas una mano de Dataplates que decide a la vez qué enemigos aparecen y qué te llevas. Subir el riesgo (Battle Points) sube la recompensa, hasta que te pasas y el Data Overflow lo borra todo.",
         "en": "The permanent combat mode added in 1.3. You don't pick a stage: you draw a hand of Dataplates that decides both which enemies show up and what you walk away with. Pushing the risk (Battle Points) raises the reward, until you overshoot and Data Overflow wipes it all."
       },
-      "tags": ["permanent", "daily", "draft", "Wuling Bills"],
+      "tags": [
+        "permanent",
+        "daily",
+        "draft",
+        "Wuling Bills"
+      ],
       "blocks": [
-        { "type": "hero",
+        {
+          "type": "hero",
           "banner": "assets/events/swordmancy-banner.webp",
           "meta": [
-            { "k": { "es": "Tipo", "en": "Type", "jp": "分類", "zh": "类别" }, "v": { "es": "Modo permanente + evento", "en": "Permanent mode + event" } },
-            { "k": { "es": "Evento limitado", "en": "Limited event" }, "v": { "es": "12 jun – 16 jul 2026", "en": "Jun 12 – Jul 16, 2026" } },
-            { "k": { "es": "Moneda", "en": "Currency", "jp": "通貨", "zh": "货币" }, "v": { "es": "Wuling Stock Bills", "en": "Wuling Stock Bills" } },
-            { "k": { "es": "Desbloquear", "en": "Unlock" }, "v": { "es": "Misión Deep Vaulted Steel", "en": "Deep Vaulted Steel mission" } }
+            {
+              "k": {
+                "es": "Tipo",
+                "en": "Type",
+                "jp": "分類",
+                "zh": "类别"
+              },
+              "v": {
+                "es": "Modo permanente + evento",
+                "en": "Permanent mode + event"
+              }
+            },
+            {
+              "k": {
+                "es": "Evento limitado",
+                "en": "Limited event"
+              },
+              "v": {
+                "es": "12 jun – 16 jul 2026",
+                "en": "Jun 12 – Jul 16, 2026"
+              }
+            },
+            {
+              "k": {
+                "es": "Moneda",
+                "en": "Currency",
+                "jp": "通貨",
+                "zh": "货币"
+              },
+              "v": {
+                "es": "Wuling Stock Bills",
+                "en": "Wuling Stock Bills"
+              }
+            },
+            {
+              "k": {
+                "es": "Desbloquear",
+                "en": "Unlock"
+              },
+              "v": {
+                "es": "Misión Deep Vaulted Steel",
+                "en": "Deep Vaulted Steel mission"
+              }
+            }
           ]
         },
-        { "type": "lead", "body": {
-          "es": "Swordmancy es roguelite: antes de cada Trial robas hasta 5 Dataplates de un mazo que rota cada 3 días de servidor. Cada Dataplate vale Battle Points (de 1 a 5) y define los enemigos de esa run. A más Battle Points, mejor recompensa, pero el reto es no pasarte del umbral. Hay dos modos: Rewarded Trial (3 intentos al día, da Wuling Stock Bills) y Free Trial (ilimitado, sin moneda, con drops decrecientes).",
-          "en": "Swordmancy is a roguelite: before each Trial you draw up to 5 Dataplates from a deck that rotates every 3 server days. Each Dataplate is worth Battle Points (1 to 5) and sets that run's enemies. More Battle Points means better rewards, but the challenge is not crossing the threshold. There are two modes: Rewarded Trial (3 attempts a day, gives Wuling Stock Bills) and Free Trial (unlimited, no currency, with diminishing drops)."
-        } },
-        { "type": "pillars",
-          "h": { "es": "Lo que tienes que saber", "en": "What you need to know" },
+        {
+          "type": "lead",
+          "body": {
+            "es": "Swordmancy es roguelite: antes de cada Trial robas hasta 5 Dataplates de un mazo que rota cada 3 días de servidor. Cada Dataplate vale Battle Points (de 1 a 5) y define los enemigos de esa run. A más Battle Points, mejor recompensa, pero el reto es no pasarte del umbral. Hay dos modos: Rewarded Trial (3 intentos al día, da Wuling Stock Bills) y Free Trial (ilimitado, sin moneda, con drops decrecientes).",
+            "en": "Swordmancy is a roguelite: before each Trial you draw up to 5 Dataplates from a deck that rotates every 3 server days. Each Dataplate is worth Battle Points (1 to 5) and sets that run's enemies. More Battle Points means better rewards, but the challenge is not crossing the threshold. There are two modes: Rewarded Trial (3 attempts a day, gives Wuling Stock Bills) and Free Trial (unlimited, no currency, with diminishing drops)."
+          }
+        },
+        {
+          "type": "pillars",
+          "h": {
+            "es": "Lo que tienes que saber",
+            "en": "What you need to know"
+          },
           "items": [
-            { "icon": "▦", "h": { "es": "Robas tu dificultad", "en": "You draw your difficulty" },
-              "body": { "es": "Los Dataplates deciden enemigos y botín a la vez. El mazo rota cada 3 días: la composición cambia contigo.", "en": "Dataplates decide enemies and loot at once. The deck rotates every 3 days: the composition changes with you." } },
-            { "icon": "△", "h": { "es": "Data Overflow al pasar de 10 BP", "en": "Data Overflow past 10 BP" },
-              "body": { "es": "Pasar de 10 Battle Points sube el nivel de TODOS los enemigos +30 y, en Rewarded, resetea la recompensa a 0. Más de 21 es doble overflow y timer a 180s.", "en": "Going over 10 Battle Points raises EVERY enemy's level by +30 and, in Rewarded, resets the reward to 0. Over 21 is double overflow and a 180s timer." } },
-            { "icon": "⬆", "h": { "es": "Sube el Trial Arena", "en": "Upgrade the Trial Arena" },
-              "body": { "es": "A nivel 4 da el máximo: 160.000 Wuling Stock Bills por trial y 2 intentos de duplicar recompensa al día. Súbelo cuanto antes.", "en": "At level 4 it maxes out: 160,000 Wuling Stock Bills per trial and 2 reward-doubling attempts a day. Upgrade it as soon as you can." } },
-            { "icon": "◷", "h": { "es": "Capa de evento limitado", "en": "Limited event layer" },
-              "body": { "es": "Las misiones Trial Algorithmics dan premios extra hasta el 16 jul. Juega semanalmente para no quedarte sin tiempo.", "en": "Trial Algorithmics missions give extra rewards until Jul 16. Play weekly so you don't run out of time." } }
+            {
+              "icon": "▦",
+              "h": {
+                "es": "Robas tu dificultad",
+                "en": "You draw your difficulty"
+              },
+              "body": {
+                "es": "Los Dataplates deciden enemigos y botín a la vez. El mazo rota cada 3 días: la composición cambia contigo.",
+                "en": "Dataplates decide enemies and loot at once. The deck rotates every 3 days: the composition changes with you."
+              }
+            },
+            {
+              "icon": "△",
+              "h": {
+                "es": "Data Overflow al pasar de 10 BP",
+                "en": "Data Overflow past 10 BP"
+              },
+              "body": {
+                "es": "Pasar de 10 Battle Points sube el nivel de TODOS los enemigos +30 y, en Rewarded, resetea la recompensa a 0. Más de 21 es doble overflow y timer a 180s.",
+                "en": "Going over 10 Battle Points raises EVERY enemy's level by +30 and, in Rewarded, resets the reward to 0. Over 21 is double overflow and a 180s timer."
+              }
+            },
+            {
+              "icon": "⬆",
+              "h": {
+                "es": "Sube el Trial Arena",
+                "en": "Upgrade the Trial Arena"
+              },
+              "body": {
+                "es": "A nivel 4 da el máximo: 160.000 Wuling Stock Bills por trial y 2 intentos de duplicar recompensa al día. Súbelo cuanto antes.",
+                "en": "At level 4 it maxes out: 160,000 Wuling Stock Bills per trial and 2 reward-doubling attempts a day. Upgrade it as soon as you can."
+              }
+            },
+            {
+              "icon": "◷",
+              "h": {
+                "es": "Capa de evento limitado",
+                "en": "Limited event layer"
+              },
+              "body": {
+                "es": "Las misiones Trial Algorithmics dan premios extra hasta el 16 jul. Juega semanalmente para no quedarte sin tiempo.",
+                "en": "Trial Algorithmics missions give extra rewards until Jul 16. Play weekly so you don't run out of time."
+              }
+            }
           ]
         },
-        { "type": "callout", "variant": "tip", "h": { "es": "La regla de oro: clava los 10 puntos", "en": "Golden rule: hug the 10-point line" },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "h": {
+            "es": "La regla de oro: clava los 10 puntos",
+            "en": "Golden rule: hug the 10-point line"
+          },
           "body": {
             "es": "En Rewarded, tu objetivo es maximizar Battle Points SIN pasar de 10: ahí está el premio más alto sin disparar el Data Overflow. Si tu equipo puede con enemigos +30, a veces compensa cruzar a propósito en Free Trial para farmear drops; pero para Wuling Bills, quédate justo en el umbral.",
             "en": "In Rewarded, your goal is to maximize Battle Points WITHOUT going over 10: that's the highest reward before Data Overflow triggers. If your team can handle +30 enemies, crossing on purpose in Free Trial can be worth it for drops; but for Wuling Bills, sit right on the threshold."

@@ -6,8 +6,8 @@
         "es": "Winter Hunt — Typhoeus",
         "en": "Winter Hunt — Typhoeus"
       },
-      "img": "",
-      "status": "upcoming",
+      "img": "assets/banners/winter_hunt.webp",
+      "status": "active",
       "dateStart": "2026-09-02",
       "dateEnd": "2026-09-30",
       "version": "1.5",
@@ -38,12 +38,12 @@
       },
       "img": "",
       "status": "upcoming",
-      "dateStart": null,
+      "dateStart": "2026-09-24",
       "dateEnd": null,
       "version": "1.5",
       "desc": {
-        "es": "Primer banner del tipo nuevo RE-Factor Headhunting, que abre cerca del final de Winter Hunt (fecha exacta por confirmar). Rate-up: Yvonne. El pool de 6★ es Yvonne, Ember, Lifeng, Ardelia, Last Rite y Pogranichnik. Reglas propias: a los 30, 60 y 90 intentos te dan 10 intentos extra de Urgent Recruitment; el 6★ rate-up está garantizado dentro de los primeros 120 intentos; cada 240 intentos acumulados te dan una ficha del 6★ rate-up de la fase. Esos tres progresos se arrastran a las fases siguientes de la misma serie. Aparte garantiza un 6★ dentro de 80 intentos, y ese contador se comparte entre todos los banners RE-Factor. El Arsenal que lo acompaña es Tag Artist Issue Fase I, con Artzy Tyrannical en rate-up, y empieza y termina junto con este banner.",
-        "en": "First banner of the new RE-Factor Headhunting type, opening near the end of Winter Hunt (exact date to be confirmed). Rate-up: Yvonne. The 6★ pool is Yvonne, Ember, Lifeng, Ardelia, Last Rite and Pogranichnik. It has its own rules: at 30, 60 and 90 pulls you get 10 extra Urgent Recruitment attempts; the rate-up 6★ is guaranteed within the first 120 pulls; every 240 cumulative pulls grants a token of the rate-up 6★ for that phase. All three of those progress bars carry over to later phases of the same series. Separately it guarantees a 6★ within 80 pulls, and that counter is shared across every RE-Factor banner. The paired arsenal banner is Tag Artist Issue Phase I with Artzy Tyrannical on rate-up, and it starts and ends alongside this one."
+        "es": "Primer banner del tipo nuevo RE-Factor Headhunting, que abre el 24 de septiembre de 2026 a las 12:00 (hora del servidor), cerca del final de Winter Hunt, y dura hasta la próxima actualización de versión. Rate-up: Yvonne. El pool de 6★ es Yvonne, Ember, Lifeng, Ardelia, Last Rite y Pogranichnik. Reglas propias: a los 30, 60 y 90 intentos te dan 10 intentos extra de Urgent Recruitment; el 6★ rate-up está garantizado dentro de los primeros 120 intentos; cada 240 intentos acumulados te dan una ficha del 6★ rate-up de la fase. Esos tres progresos se arrastran a las fases siguientes de la misma serie. Aparte garantiza un 6★ dentro de 80 intentos, y ese contador se comparte entre todos los banners RE-Factor. El Arsenal que lo acompaña es Tag Artist Issue Fase I, con Artzy Tyrannical en rate-up, y empieza y termina junto con este banner.",
+        "en": "First banner of the new RE-Factor Headhunting type, opening Sept. 24, 2026 at 12:00 (server time), near the end of Winter Hunt, and running until the next version update. Rate-up: Yvonne. The 6★ pool is Yvonne, Ember, Lifeng, Ardelia, Last Rite and Pogranichnik. It has its own rules: at 30, 60 and 90 pulls you get 10 extra Urgent Recruitment attempts; the rate-up 6★ is guaranteed within the first 120 pulls; every 240 cumulative pulls grants a token of the rate-up 6★ for that phase. All three of those progress bars carry over to later phases of the same series. Separately it guarantees a 6★ within 80 pulls, and that counter is shared across every RE-Factor banner. The paired arsenal banner is Tag Artist Issue Phase I with Artzy Tyrannical on rate-up, and it starts and ends alongside this one."
       },
       "chars": [
         {
@@ -54,8 +54,8 @@
           "role": "Striker",
           "confirmed": true,
           "note": {
-            "es": "Rate-up de la fase",
-            "en": "Phase rate-up"
+            "es": "Rate-up de la fase · 24 sep",
+            "en": "Phase rate-up · Sep 24"
           }
         },
         {
@@ -143,7 +143,10 @@
           "tag": "6★",
           "role": "Guard",
           "confirmed": true,
-          "note": { "es": "Rate-up limitado", "en": "Limited rate-up" }
+          "note": {
+            "es": "Rate-up limitado",
+            "en": "Limited rate-up"
+          }
         }
       ]
     },
@@ -170,7 +173,10 @@
           "tag": "6★",
           "role": "Vanguard",
           "confirmed": true,
-          "note": { "es": "Fase 2 · 26 jun", "en": "Phase 2 · Jun 26" }
+          "note": {
+            "es": "Fase 2 · 26 jun",
+            "en": "Phase 2 · Jun 26"
+          }
         }
       ]
     },
@@ -197,7 +203,10 @@
           "tag": "6★",
           "role": "Caster",
           "confirmed": true,
-          "note": { "es": "Fase 1 · 16 jul", "en": "Phase 1 · Jul 16" }
+          "note": {
+            "es": "Fase 1 · 16 jul",
+            "en": "Phase 1 · Jul 16"
+          }
         },
         {
           "name": "Mi Fu",
@@ -206,7 +215,10 @@
           "tag": "6★",
           "role": "Guard",
           "confirmed": true,
-          "note": { "es": "Off-rate limitado", "en": "Off-rate limited" }
+          "note": {
+            "es": "Off-rate limitado",
+            "en": "Off-rate limited"
+          }
         },
         {
           "name": "Camille",
@@ -215,7 +227,10 @@
           "tag": "6★",
           "role": "Vanguard",
           "confirmed": true,
-          "note": { "es": "Off-rate limitado", "en": "Off-rate limited" }
+          "note": {
+            "es": "Off-rate limitado",
+            "en": "Off-rate limited"
+          }
         }
       ]
     },
@@ -226,7 +241,7 @@
         "en": "Good Morning from Your Dawnstar — Liino"
       },
       "img": "assets/banners/good_morning_from_your_dawnstar.webp",
-      "status": "active",
+      "status": "ended",
       "dateStart": "2026-08-09",
       "dateEnd": "2026-09-01",
       "version": "1.4",
@@ -242,7 +257,10 @@
           "tag": "6★",
           "role": "Support",
           "confirmed": true,
-          "note": { "es": "Fase 2 · 9 ago", "en": "Phase 2 · Aug 9" }
+          "note": {
+            "es": "Fase 2 · 9 ago",
+            "en": "Phase 2 · Aug 9"
+          }
         },
         {
           "name": "Arcane",
@@ -251,7 +269,10 @@
           "tag": "6★",
           "role": "Caster",
           "confirmed": true,
-          "note": { "es": "Off-rate limitado", "en": "Off-rate limited" }
+          "note": {
+            "es": "Off-rate limitado",
+            "en": "Off-rate limited"
+          }
         },
         {
           "name": "Camille",
@@ -260,7 +281,10 @@
           "tag": "6★",
           "role": "Vanguard",
           "confirmed": true,
-          "note": { "es": "Off-rate limitado", "en": "Off-rate limited" }
+          "note": {
+            "es": "Off-rate limitado",
+            "en": "Off-rate limited"
+          }
         }
       ]
     },
@@ -287,7 +311,10 @@
           "tag": "6★",
           "role": "Striker",
           "confirmed": true,
-          "note": { "es": "Rate-up limitado", "en": "Limited rate-up" }
+          "note": {
+            "es": "Rate-up limitado",
+            "en": "Limited rate-up"
+          }
         },
         {
           "name": "Rossi",
@@ -296,7 +323,10 @@
           "tag": "6★",
           "role": "Guard",
           "confirmed": true,
-          "note": { "es": "Off-rate limitado", "en": "Off-rate limited" }
+          "note": {
+            "es": "Off-rate limitado",
+            "en": "Off-rate limited"
+          }
         },
         {
           "name": "Tangtang",
@@ -305,7 +335,10 @@
           "tag": "6★",
           "role": "Caster",
           "confirmed": true,
-          "note": { "es": "Off-rate limitado", "en": "Off-rate limited" }
+          "note": {
+            "es": "Off-rate limitado",
+            "en": "Off-rate limited"
+          }
         }
       ]
     },
@@ -332,7 +365,10 @@
           "tag": "6★",
           "role": "Striker",
           "confirmed": true,
-          "note": { "es": "Rerun", "en": "Rerun" }
+          "note": {
+            "es": "Rerun",
+            "en": "Rerun"
+          }
         },
         {
           "name": "Gilberta",
@@ -341,7 +377,10 @@
           "tag": "6★",
           "role": "Support",
           "confirmed": true,
-          "note": { "es": "Rerun", "en": "Rerun" }
+          "note": {
+            "es": "Rerun",
+            "en": "Rerun"
+          }
         },
         {
           "name": "Ardelia",
@@ -350,7 +389,10 @@
           "tag": "6★",
           "role": "Support",
           "confirmed": true,
-          "note": { "es": "Rerun", "en": "Rerun" }
+          "note": {
+            "es": "Rerun",
+            "en": "Rerun"
+          }
         },
         {
           "name": "Pogranichnik",
@@ -359,7 +401,10 @@
           "tag": "6★",
           "role": "Vanguard",
           "confirmed": true,
-          "note": { "es": "Rerun", "en": "Rerun" }
+          "note": {
+            "es": "Rerun",
+            "en": "Rerun"
+          }
         }
       ]
     },
@@ -386,7 +431,10 @@
           "tag": "6★",
           "role": "Striker",
           "confirmed": true,
-          "note": { "es": "Banner de lanzamiento", "en": "Launch banner" }
+          "note": {
+            "es": "Banner de lanzamiento",
+            "en": "Launch banner"
+          }
         }
       ]
     },
@@ -413,7 +461,10 @@
           "tag": "6★",
           "role": "Support",
           "confirmed": true,
-          "note": { "es": "Rate-up limitado", "en": "Limited rate-up" }
+          "note": {
+            "es": "Rate-up limitado",
+            "en": "Limited rate-up"
+          }
         }
       ]
     },
@@ -440,7 +491,10 @@
           "tag": "6★",
           "role": "Striker",
           "confirmed": true,
-          "note": { "es": "Rate-up limitado", "en": "Limited rate-up" }
+          "note": {
+            "es": "Rate-up limitado",
+            "en": "Limited rate-up"
+          }
         }
       ]
     },
@@ -467,7 +521,10 @@
           "tag": "6★",
           "role": "Caster",
           "confirmed": true,
-          "note": { "es": "Rate-up limitado", "en": "Limited rate-up" }
+          "note": {
+            "es": "Rate-up limitado",
+            "en": "Limited rate-up"
+          }
         }
       ]
     },
@@ -494,7 +551,10 @@
           "tag": "6★",
           "role": "Guard",
           "confirmed": true,
-          "note": { "es": "Rate-up limitado", "en": "Limited rate-up" }
+          "note": {
+            "es": "Rate-up limitado",
+            "en": "Limited rate-up"
+          }
         }
       ]
     }
@@ -655,59 +715,101 @@
       "changes": [
         {
           "type": "new",
-          "text": { "es": "Nueva operadora: Arcane / Li Zhiyan (Nature, Caster 6★) — líder de las Fuerzas Especiales de Yinglung; dos formas de matriz (INT: daño + Corrosion / VOL: soporte), la primera operadora cuyas habilidades trabajan con Arts Imposition de cualquier elemento (Fase 1)", "en": "New operator: Arcane / Li Zhiyan (Nature, Caster 6★) — Yinglung Special Task Force leader; twin matrix forms (INT: damage + Corrosion / VOL: support), the first operator whose skills work with Arts Imposition of any element (Phase 1)" }
+          "text": {
+            "es": "Nueva operadora: Arcane / Li Zhiyan (Nature, Caster 6★) — líder de las Fuerzas Especiales de Yinglung; dos formas de matriz (INT: daño + Corrosion / VOL: soporte), la primera operadora cuyas habilidades trabajan con Arts Imposition de cualquier elemento (Fase 1)",
+            "en": "New operator: Arcane / Li Zhiyan (Nature, Caster 6★) — Yinglung Special Task Force leader; twin matrix forms (INT: damage + Corrosion / VOL: support), the first operator whose skills work with Arts Imposition of any element (Phase 1)"
+          }
         },
         {
           "type": "new",
-          "text": { "es": "Nueva operadora: Liino (Electric, Support 6★) — idol 'Morning Star of La Fantoma'; buff de ATK, curación sostenida y combo que se activa con cualquier Arts Reaction (Fase 2, 9 ago)", "en": "New operator: Liino (Electric, Support 6★) — idol 'Morning Star of La Fantoma'; ATK buffing, sustained healing and a combo that triggers on any Arts Reaction (Phase 2, Aug 9)" }
+          "text": {
+            "es": "Nueva operadora: Liino (Electric, Support 6★) — idol 'Morning Star of La Fantoma'; buff de ATK, curación sostenida y combo que se activa con cualquier Arts Reaction (Fase 2, 9 ago)",
+            "en": "New operator: Liino (Electric, Support 6★) — idol 'Morning Star of La Fantoma'; ATK buffing, sustained healing and a combo that triggers on any Arts Reaction (Phase 2, Aug 9)"
+          }
         },
         {
           "type": "new",
-          "text": { "es": "Nuevas áreas: Yinglung Pass y North Wuling Exclusion Zone — la mayor expansión del mapa desde el lanzamiento. Cierre del arco de Wuling rumbo al Rift gigantesco, con Si (emisaria Feranmut) guiando la mejora final del Xiranite Nexus", "en": "New areas: Yinglung Pass and North Wuling Exclusion Zone — the biggest map expansion since launch. The Wuling arc closes on the road to the massive Rift, with Si (a Feranmut envoy) guiding the final Xiranite Nexus upgrade" }
+          "text": {
+            "es": "Nuevas áreas: Yinglung Pass y North Wuling Exclusion Zone — la mayor expansión del mapa desde el lanzamiento. Cierre del arco de Wuling rumbo al Rift gigantesco, con Si (emisaria Feranmut) guiando la mejora final del Xiranite Nexus",
+            "en": "New areas: Yinglung Pass and North Wuling Exclusion Zone — the biggest map expansion since launch. The Wuling arc closes on the road to the massive Rift, with Si (a Feranmut envoy) guiding the final Xiranite Nexus upgrade"
+          }
         },
         {
           "type": "new",
-          "text": { "es": "Nuevos enemigos: Blightshades (ecos de datos congelados por el Éter) y el jefe Alleikhreos, Chiliarch — ataca con espada, lanza y arco; sus cargas se interrumpen con las armas especiales que él mismo invoca", "en": "New enemies: Blightshades (data echoes frozen in time by AEther) and the boss Alleikhreos, Chiliarch — attacks with sword, spear and bow; his charged moves are interrupted using the special weapons he summons" }
+          "text": {
+            "es": "Nuevos enemigos: Blightshades (ecos de datos congelados por el Éter) y el jefe Alleikhreos, Chiliarch — ataca con espada, lanza y arco; sus cargas se interrumpen con las armas especiales que él mismo invoca",
+            "en": "New enemies: Blightshades (data echoes frozen in time by AEther) and the boss Alleikhreos, Chiliarch — attacks with sword, spear and bow; his charged moves are interrupted using the special weapons he summons"
+          }
         },
         {
           "type": "new",
-          "text": { "es": "Dispositivos personales (nueva categoría de equipo): el Xiranite Nexus mejorado da resistencia al Blight Miasma y revela caminos ocultos; otro dispositivo rescata objetos con globos. Mochila +5 ranuras", "en": "Personal devices (new equipment category): the upgraded Xiranite Nexus grants Blight Miasma resistance and reveals hidden paths; another device salvages items with balloons. Backpack +5 slots" }
+          "text": {
+            "es": "Dispositivos personales (nueva categoría de equipo): el Xiranite Nexus mejorado da resistencia al Blight Miasma y revela caminos ocultos; otro dispositivo rescata objetos con globos. Mochila +5 ranuras",
+            "en": "Personal devices (new equipment category): the upgraded Xiranite Nexus grants Blight Miasma resistance and reveals hidden paths; another device salvages items with balloons. Backpack +5 slots"
+          }
         },
         {
           "type": "new",
-          "text": { "es": "AIC: llega el GAS como nueva forma industrial — recursos Inergen y Xiragen, transmutación de fase (sólido/fluido/gas), entornos gaseosos que acortan recetas (hasta 12 líneas de Xiranite por puesto) y componentes de Pyrrolite para gear", "en": "AIC: GAS arrives as a new industrial form — Inergen and Xiragen resources, phase transmutation (solid/fluid/gas), gas environments that shorten recipes (up to 12 Xiranite lines per outpost) and Pyrrolite components for gear" }
+          "text": {
+            "es": "AIC: llega el GAS como nueva forma industrial — recursos Inergen y Xiragen, transmutación de fase (sólido/fluido/gas), entornos gaseosos que acortan recetas (hasta 12 líneas de Xiranite por puesto) y componentes de Pyrrolite para gear",
+            "en": "AIC: GAS arrives as a new industrial form — Inergen and Xiragen resources, phase transmutation (solid/fluid/gas), gas environments that shorten recipes (up to 12 Xiranite lines per outpost) and Pyrrolite components for gear"
+          }
         },
         {
           "type": "new",
-          "text": { "es": "Nuevo puesto de avanzada: Xiranflow Cloudseeder Station, más nuevas instalaciones de combate para defender los puestos de las incursiones", "en": "New outpost: Xiranflow Cloudseeder Station, plus new combat facilities to defend outposts from raids" }
+          "text": {
+            "es": "Nuevo puesto de avanzada: Xiranflow Cloudseeder Station, más nuevas instalaciones de combate para defender los puestos de las incursiones",
+            "en": "New outpost: Xiranflow Cloudseeder Station, plus new combat facilities to defend outposts from raids"
+          }
         },
         {
           "type": "new",
-          "text": { "es": "Nuevo modo permanente: Echoes of War — desafío por temporadas (ciclos de 3 etapas en Normal/Difícil/Brutal); TODO el Oroberyl se asegura en Normal; estrellas y título de temporada visibles para amigos", "en": "New permanent mode: Echoes of War — seasonal challenge (cycles of 3 stages on Normal/Hard/Brutal); ALL Oroberyl is secured on Normal; stars and a season title visible to friends" }
+          "text": {
+            "es": "Nuevo modo permanente: Echoes of War — desafío por temporadas (ciclos de 3 etapas en Normal/Difícil/Brutal); TODO el Oroberyl se asegura en Normal; estrellas y título de temporada visibles para amigos",
+            "en": "New permanent mode: Echoes of War — seasonal challenge (cycles of 3 stages on Normal/Hard/Brutal); ALL Oroberyl is secured on Normal; stars and a season title visible to friends"
+          }
         },
         {
           "type": "new",
-          "text": { "es": "Eventos: Heat Rage! Mega Arena! (30 jul, combate con equipos de 2 operadores) y The Rooted Realm (9 ago, recolección con rutas ocultas y cámaras de combate)", "en": "Events: Heat Rage! Mega Arena! (Jul 30, combat with 2-operator teams) and The Rooted Realm (Aug 9, collect-athon with hidden routes and combat chambers)" }
+          "text": {
+            "es": "Eventos: Heat Rage! Mega Arena! (30 jul, combate con equipos de 2 operadores) y The Rooted Realm (9 ago, recolección con rutas ocultas y cámaras de combate)",
+            "en": "Events: Heat Rage! Mega Arena! (Jul 30, combat with 2-operator teams) and The Rooted Realm (Aug 9, collect-athon with hidden routes and combat chambers)"
+          }
         },
         {
           "type": "new",
-          "text": { "es": "Talosite: nuevo coleccionable del mapa canjeable por moldes de gear, poses de cámara, 5 decorativos y vinilos; Sistema de Cámara ampliado (posar operadores, calcomanías), decorativos con página propia y Gramófono en el Dijiang", "en": "Talosite: new map collectible tradeable for gear molds, camera poses, 5 ornamentals and vinyls; expanded Camera System (pose operators, stickers), ornamentals with their own page and a Phonograph aboard the Dijiang" }
+          "text": {
+            "es": "Talosite: nuevo coleccionable del mapa canjeable por moldes de gear, poses de cámara, 5 decorativos y vinilos; Sistema de Cámara ampliado (posar operadores, calcomanías), decorativos con página propia y Gramófono en el Dijiang",
+            "en": "Talosite: new map collectible tradeable for gear molds, camera poses, 5 ornamentals and vinyls; expanded Camera System (pose operators, stickers), ornamentals with their own page and a Phonograph aboard the Dijiang"
+          }
         },
         {
           "type": "new",
-          "text": { "es": "Progresión: desbloqueo anticipado de Wuling para cuentas nuevas, Arsenal Defense Boxes (gear de nivel alto y costo bajo en los eventos de prueba) y técnicas de ensamblaje retrocompatibles (vales de crédito −99 %); sets nuevos AIC Fieldwork y Rift Trekker + piezas para Eternal Xiranite, Hot Work y LYNX", "en": "Progression: early Wuling unlock for new accounts, Arsenal Defense Boxes (high-level, low-cost gear from trial events) and backward-compatible assembly techniques (credit vouchers −99%); new AIC Fieldwork and Rift Trekker sets + new pieces for Eternal Xiranite, Hot Work and LYNX" }
+          "text": {
+            "es": "Progresión: desbloqueo anticipado de Wuling para cuentas nuevas, Arsenal Defense Boxes (gear de nivel alto y costo bajo en los eventos de prueba) y técnicas de ensamblaje retrocompatibles (vales de crédito −99 %); sets nuevos AIC Fieldwork y Rift Trekker + piezas para Eternal Xiranite, Hot Work y LYNX",
+            "en": "Progression: early Wuling unlock for new accounts, Arsenal Defense Boxes (high-level, low-cost gear from trial events) and backward-compatible assembly techniques (credit vouchers −99%); new AIC Fieldwork and Rift Trekker sets + new pieces for Eternal Xiranite, Hot Work and LYNX"
+          }
         },
         {
           "type": "new",
-          "text": { "es": "Armas: Type 42: Solemn Phalanx (Arcane) y Bedazzling Night Debut (Liino); Protocol Pass 'Blighted Sea' con Junction Point (Arts Unit) y Golden Age (Polearm); espada 6★ Farsight GRATIS por login", "en": "Weapons: Type 42: Solemn Phalanx (Arcane) and Bedazzling Night Debut (Liino); 'Blighted Sea' Protocol Pass with Junction Point (Arts Unit) and Golden Age (Polearm); FREE 6★ sword Farsight via login" }
+          "text": {
+            "es": "Armas: Type 42: Solemn Phalanx (Arcane) y Bedazzling Night Debut (Liino); Protocol Pass 'Blighted Sea' con Junction Point (Arts Unit) y Golden Age (Polearm); espada 6★ Farsight GRATIS por login",
+            "en": "Weapons: Type 42: Solemn Phalanx (Arcane) and Bedazzling Night Debut (Liino); 'Blighted Sea' Protocol Pass with Junction Point (Arts Unit) and Golden Age (Polearm); FREE 6★ sword Farsight via login"
+          }
         },
         {
           "type": "new",
-          "text": { "es": "En agosto: Umbral Monument suma la serie Howlers of the Crag (+ reto por tiempo limitado) y Delver of the Cryptic el set Artful Realm of Six Cardinals (6 mapas secuenciales)", "en": "In August: Umbral Monument adds the Howlers of the Crag series (+ a limited-time challenge) and Delver of the Cryptic gets the Artful Realm of Six Cardinals set (6 sequential maps)" }
+          "text": {
+            "es": "En agosto: Umbral Monument suma la serie Howlers of the Crag (+ reto por tiempo limitado) y Delver of the Cryptic el set Artful Realm of Six Cardinals (6 mapas secuenciales)",
+            "en": "In August: Umbral Monument adds the Howlers of the Crag series (+ a limited-time challenge) and Delver of the Cryptic gets the Artful Realm of Six Cardinals set (6 sequential maps)"
+          }
         },
         {
           "type": "fix",
-          "text": { "es": "QoL: glosario en diálogos, viaje al TP más cercano desde la misión, guardado remoto de instalaciones, conductos 200→300 m, VFX de habilidades y targeting configurables; DLSS 4.5, PSSR (PS5 Pro) y FSR 3", "en": "QoL: dialogue glossary, jump to nearest TP from quests, remote facility storage, conduits 200→300 m, adjustable skill VFX and targeting; DLSS 4.5, PSSR (PS5 Pro) and FSR 3" }
+          "text": {
+            "es": "QoL: glosario en diálogos, viaje al TP más cercano desde la misión, guardado remoto de instalaciones, conductos 200→300 m, VFX de habilidades y targeting configurables; DLSS 4.5, PSSR (PS5 Pro) y FSR 3",
+            "en": "QoL: dialogue glossary, jump to nearest TP from quests, remote facility storage, conduits 200→300 m, adjustable skill VFX and targeting; DLSS 4.5, PSSR (PS5 Pro) and FSR 3"
+          }
         }
       ]
     },
@@ -722,35 +824,59 @@
       "changes": [
         {
           "type": "new",
-          "text": { "es": "Nueva operadora: Mi Fu (Physical, Guard 6★) — Capitana de la Wuling Watch, carry de Crush (Fase 1)", "en": "New operator: Mi Fu (Physical, Guard 6★) — Captain of the Wuling Watch, a Crush carry (Phase 1)" }
+          "text": {
+            "es": "Nueva operadora: Mi Fu (Physical, Guard 6★) — Capitana de la Wuling Watch, carry de Crush (Fase 1)",
+            "en": "New operator: Mi Fu (Physical, Guard 6★) — Captain of the Wuling Watch, a Crush carry (Phase 1)"
+          }
         },
         {
           "type": "new",
-          "text": { "es": "Nuevo operador: Camille (Heat, Vanguard 6★) — vampiro Sarkaz y primer operador masculino 6★ del juego (Fase 2, 26 jun)", "en": "New operator: Camille (Heat, Vanguard 6★) — a Sarkaz vampire and the game's first male 6★ operator (Phase 2, Jun 26)" }
+          "text": {
+            "es": "Nuevo operador: Camille (Heat, Vanguard 6★) — vampiro Sarkaz y primer operador masculino 6★ del juego (Fase 2, 26 jun)",
+            "en": "New operator: Camille (Heat, Vanguard 6★) — a Sarkaz vampire and the game's first male 6★ operator (Phase 2, Jun 26)"
+          }
         },
         {
           "type": "new",
-          "text": { "es": "Nueva región: Sword Vault Dale — ruinas, acantilados flotantes, puzzles y avance de la historia local", "en": "New region: Sword Vault Dale — ruins, floating cliffs, puzzles and local story progression" }
+          "text": {
+            "es": "Nueva región: Sword Vault Dale — ruinas, acantilados flotantes, puzzles y avance de la historia local",
+            "en": "New region: Sword Vault Dale — ruins, floating cliffs, puzzles and local story progression"
+          }
         },
         {
           "type": "new",
-          "text": { "es": "Nuevo modo de fin de juego: Contingency Contract (heredado del Arknights original) con modificadores de dificultad (Test Criterion / Key Criteria). Contingency Readiness arranca el 12 de junio", "en": "New endgame mode: Contingency Contract (carried over from the original Arknights) with difficulty modifiers (Test Criterion / Key Criteria). Contingency Readiness begins June 12" }
+          "text": {
+            "es": "Nuevo modo de fin de juego: Contingency Contract (heredado del Arknights original) con modificadores de dificultad (Test Criterion / Key Criteria). Contingency Readiness arranca el 12 de junio",
+            "en": "New endgame mode: Contingency Contract (carried over from the original Arknights) with difficulty modifiers (Test Criterion / Key Criteria). Contingency Readiness begins June 12"
+          }
         },
         {
           "type": "new",
-          "text": { "es": "Nuevos modos por tiempo limitado: Trial Algorithmics y Umbral Moment (con sub-eventos)", "en": "New limited-time modes: Trial Algorithmics and Umbral Moment (with sub-events)" }
+          "text": {
+            "es": "Nuevos modos por tiempo limitado: Trial Algorithmics y Umbral Moment (con sub-eventos)",
+            "en": "New limited-time modes: Trial Algorithmics and Umbral Moment (with sub-events)"
+          }
         },
         {
           "type": "new",
-          "text": { "es": "Industrial Automation: Backup Power, recetas automatizadas, Bulk Artificing y Weapon Batch Dismantling", "en": "Industrial Automation: Backup Power, automated recipes, Bulk Artificing and Weapon Batch Dismantling" }
+          "text": {
+            "es": "Industrial Automation: Backup Power, recetas automatizadas, Bulk Artificing y Weapon Batch Dismantling",
+            "en": "Industrial Automation: Backup Power, automated recipes, Bulk Artificing and Weapon Batch Dismantling"
+          }
         },
         {
           "type": "new",
-          "text": { "es": "Nuevas armas BIS: Amaranthine Tassel (Mi Fu, Greatsword) y Beacon of Duty (Camille, Polearm)", "en": "New BIS weapons: Amaranthine Tassel (Mi Fu, Greatsword) and Beacon of Duty (Camille, Polearm)" }
+          "text": {
+            "es": "Nuevas armas BIS: Amaranthine Tassel (Mi Fu, Greatsword) y Beacon of Duty (Camille, Polearm)",
+            "en": "New BIS weapons: Amaranthine Tassel (Mi Fu, Greatsword) and Beacon of Duty (Camille, Polearm)"
+          }
         },
         {
           "type": "fix",
-          "text": { "es": "Mejoras de UI y mayor compatibilidad con mando y teclado", "en": "UI improvements and better controller/keyboard compatibility" }
+          "text": {
+            "es": "Mejoras de UI y mayor compatibilidad con mando y teclado",
+            "en": "UI improvements and better controller/keyboard compatibility"
+          }
         }
       ]
     },
@@ -765,39 +891,66 @@
       "changes": [
         {
           "type": "new",
-          "text": { "es": "Nueva operadora: Zhuang Fangyi (Electric, Striker 6★) — primera Electric del juego", "en": "New operator: Zhuang Fangyi (Electric, Striker 6★) — first Electric in the game" }
+          "text": {
+            "es": "Nueva operadora: Zhuang Fangyi (Electric, Striker 6★) — primera Electric del juego",
+            "en": "New operator: Zhuang Fangyi (Electric, Striker 6★) — first Electric in the game"
+          }
         },
         {
           "type": "new",
-          "text": { "es": "Nuevas zonas en Wuling: Marker Stone y Test Area, con eventos guía y recompensas explorables", "en": "New areas in Wuling: Marker Stone and Test Area, with guide events and exploration rewards" }
+          "text": {
+            "es": "Nuevas zonas en Wuling: Marker Stone y Test Area, con eventos guía y recompensas explorables",
+            "en": "New areas in Wuling: Marker Stone and Test Area, with guide events and exploration rewards"
+          }
         },
         {
           "type": "new",
-          "text": { "es": "Nuevos sets de gear: Qingbo y Xiranflow (stats equivalentes al tier dorado actual)", "en": "New gear sets: Qingbo and Xiranflow (stats equivalent to current gold-tier gear)" }
+          "text": {
+            "es": "Nuevos sets de gear: Qingbo y Xiranflow (stats equivalentes al tier dorado actual)",
+            "en": "New gear sets: Qingbo and Xiranflow (stats equivalent to current gold-tier gear)"
+          }
         },
         {
           "type": "new",
-          "text": { "es": "Sistema Ornamentals: colocación libre de objetos en modo AIC para personalizar layouts y capturas", "en": "Ornamentals system: freely place items in AIC mode to customize layouts and take screenshots" }
+          "text": {
+            "es": "Sistema Ornamentals: colocación libre de objetos en modo AIC para personalizar layouts y capturas",
+            "en": "Ornamentals system: freely place items in AIC mode to customize layouts and take screenshots"
+          }
         },
         {
           "type": "new",
-          "text": { "es": "Nueva instalación: Water Treatment Unit — convierte agua residual en Wuling Batteries", "en": "New facility: Water Treatment Unit — converts sewage water into Wuling Batteries" }
+          "text": {
+            "es": "Nueva instalación: Water Treatment Unit — convierte agua residual en Wuling Batteries",
+            "en": "New facility: Water Treatment Unit — converts sewage water into Wuling Batteries"
+          }
         },
         {
           "type": "new",
-          "text": { "es": "Nueva logística: Conduit Piping (tuberías subterráneas de 200m, funcionan como Power Transmissions en Valley IV)", "en": "New logistics: Conduit Piping (200m underground waterlines, function like Power Transmissions in Valley IV)" }
+          "text": {
+            "es": "Nueva logística: Conduit Piping (tuberías subterráneas de 200m, funcionan como Power Transmissions en Valley IV)",
+            "en": "New logistics: Conduit Piping (200m underground waterlines, function like Power Transmissions in Valley IV)"
+          }
         },
         {
           "type": "new",
-          "text": { "es": "Nuevo recurso: Cuprium Ore, extraíble con Hydro Mining Rigs. Nuevo fluido: Precipitation Acid. Nuevo material: Hetonite", "en": "New resource: Cuprium Ore (mineable with Hydro Mining Rigs). New fluid: Precipitation Acid. New material: Hetonite" }
+          "text": {
+            "es": "Nuevo recurso: Cuprium Ore, extraíble con Hydro Mining Rigs. Nuevo fluido: Precipitation Acid. Nuevo material: Hetonite",
+            "en": "New resource: Cuprium Ore (mineable with Hydro Mining Rigs). New fluid: Precipitation Acid. New material: Hetonite"
+          }
         },
         {
           "type": "new",
-          "text": { "es": "Gear adicional a los sets Bonekrusha, Frontiers y Swordmancer. Forge of the Sky: cap subido a 12 unidades", "en": "Additional gear added to existing Bonekrusha, Frontiers and Swordmancer sets. Forge of the Sky cap raised to 12 units" }
+          "text": {
+            "es": "Gear adicional a los sets Bonekrusha, Frontiers y Swordmancer. Forge of the Sky: cap subido a 12 unidades",
+            "en": "Additional gear added to existing Bonekrusha, Frontiers and Swordmancer sets. Forge of the Sky cap raised to 12 units"
+          }
         },
         {
           "type": "new",
-          "text": { "es": "Nuevas etapas en Umbral Monument, Delver of the Cryptic y Etchspace Salvage", "en": "New stages added to Umbral Monument, Delver of the Cryptic, and Etchspace Salvage" }
+          "text": {
+            "es": "Nuevas etapas en Umbral Monument, Delver of the Cryptic y Etchspace Salvage",
+            "en": "New stages added to Umbral Monument, Delver of the Cryptic, and Etchspace Salvage"
+          }
         }
       ]
     },
@@ -812,19 +965,31 @@
       "changes": [
         {
           "type": "new",
-          "text": { "es": "Nueva operadora: Tangtang (Cryo, Caster 6★)", "en": "New operator: Tangtang (Cryo, Caster 6★)" }
+          "text": {
+            "es": "Nueva operadora: Tangtang (Cryo, Caster 6★)",
+            "en": "New operator: Tangtang (Cryo, Caster 6★)"
+          }
         },
         {
           "type": "new",
-          "text": { "es": "Nueva operadora: Rossi (Physical, Guard 6★)", "en": "New operator: Rossi (Physical, Guard 6★)" }
+          "text": {
+            "es": "Nueva operadora: Rossi (Physical, Guard 6★)",
+            "en": "New operator: Rossi (Physical, Guard 6★)"
+          }
         },
         {
           "type": "new",
-          "text": { "es": "Banner Budding Anew Issue con Brigand's Calling (arma BIS de Tangtang)", "en": "Budding Anew Issue banner featuring Brigand's Calling (Tangtang's BIS weapon)" }
+          "text": {
+            "es": "Banner Budding Anew Issue con Brigand's Calling (arma BIS de Tangtang)",
+            "en": "Budding Anew Issue banner featuring Brigand's Calling (Tangtang's BIS weapon)"
+          }
         },
         {
           "type": "new",
-          "text": { "es": "Banner Scarlet Pearl Issue con Lupine Scarlet (arma BIS de Rossi)", "en": "Scarlet Pearl Issue banner featuring Lupine Scarlet (Rossi's BIS weapon)" }
+          "text": {
+            "es": "Banner Scarlet Pearl Issue con Lupine Scarlet (arma BIS de Rossi)",
+            "en": "Scarlet Pearl Issue banner featuring Lupine Scarlet (Rossi's BIS weapon)"
+          }
         }
       ]
     }
@@ -1049,18 +1214,43 @@
         "es": "Arma — Type 42: Solemn Phalanx (Arts Unit, 6★)",
         "en": "Weapon — Type 42: Solemn Phalanx (Arts Unit, 6★)"
       },
-      "tag": { "es": "PRÓXIMO", "en": "UPCOMING" },
+      "tag": {
+        "es": "PRÓXIMO",
+        "en": "UPCOMING"
+      },
       "img": "assets/weapons/wpn_funnel_0016.webp",
       "desc": {
         "es": "Arma BIS de Arcane. Disponible en el banner de armas Military Grade Issue desde el 16 de julio, junto al banner North Yearns the Rift Vigile (Fase 1 de la v1.4).",
         "en": "Arcane's BIS weapon. Available on the Military Grade Issue weapon banner from July 16, alongside the North Yearns the Rift Vigile banner (v1.4 Phase 1)."
       },
       "stats": [
-        { "k": { "es": "Tipo", "en": "Type", "jp": "分類", "zh": "类别" }, "v": "Arts Unit" },
-        { "k": { "es": "Rareza", "en": "Rarity" }, "v": "6★" },
-        { "k": { "es": "Banner", "en": "Banner" }, "v": "Military Grade Issue" }
+        {
+          "k": {
+            "es": "Tipo",
+            "en": "Type",
+            "jp": "分類",
+            "zh": "类别"
+          },
+          "v": "Arts Unit"
+        },
+        {
+          "k": {
+            "es": "Rareza",
+            "en": "Rarity"
+          },
+          "v": "6★"
+        },
+        {
+          "k": {
+            "es": "Banner",
+            "en": "Banner"
+          },
+          "v": "Military Grade Issue"
+        }
       ],
-      "chars": ["Arcane"]
+      "chars": [
+        "Arcane"
+      ]
     },
     {
       "id": "g8",
@@ -1069,18 +1259,43 @@
         "es": "Arma — Bedazzling Night Debut (Polearm, 6★)",
         "en": "Weapon — Bedazzling Night Debut (Polearm, 6★)"
       },
-      "tag": { "es": "PRÓXIMO", "en": "UPCOMING" },
+      "tag": {
+        "es": "PRÓXIMO",
+        "en": "UPCOMING"
+      },
       "img": "",
       "desc": {
         "es": "Arma BIS de Liino. Disponible en el banner de armas Bedazzled Issue desde el 9 de agosto, junto al banner Good Morning from Your Dawnstar (Fase 2 de la v1.4).",
         "en": "Liino's BIS weapon. Available on the Bedazzled Issue weapon banner from August 9, alongside the Good Morning from Your Dawnstar banner (v1.4 Phase 2)."
       },
       "stats": [
-        { "k": { "es": "Tipo", "en": "Type", "jp": "分類", "zh": "类别" }, "v": "Polearm" },
-        { "k": { "es": "Rareza", "en": "Rarity" }, "v": "6★" },
-        { "k": { "es": "Banner", "en": "Banner" }, "v": "Bedazzled Issue" }
+        {
+          "k": {
+            "es": "Tipo",
+            "en": "Type",
+            "jp": "分類",
+            "zh": "类别"
+          },
+          "v": "Polearm"
+        },
+        {
+          "k": {
+            "es": "Rareza",
+            "en": "Rarity"
+          },
+          "v": "6★"
+        },
+        {
+          "k": {
+            "es": "Banner",
+            "en": "Banner"
+          },
+          "v": "Bedazzled Issue"
+        }
       ],
-      "chars": ["Liino"]
+      "chars": [
+        "Liino"
+      ]
     },
     {
       "id": "g9",
@@ -1089,16 +1304,39 @@
         "es": "Arma — Farsight (Sword, 6★) — GRATIS",
         "en": "Weapon — Farsight (Sword, 6★) — FREE"
       },
-      "tag": { "es": "GRATIS", "en": "FREE" },
+      "tag": {
+        "es": "GRATIS",
+        "en": "FREE"
+      },
       "img": "assets/weapons/wpn_sword_0026.webp",
       "desc": {
         "es": "Espada 6★ de regalo por la Celebración del Compañerismo (medio año). Se obtiene iniciando sesión durante el evento de 3 días Tribute of Companionship, que además reparte 3000 Oroberyl (día 1) y 5 Basic Headhunting Permits (día 2).",
         "en": "Free 6★ sword for the half-year Companionship Celebration. Earned by logging in during the 3-day Tribute of Companionship event, which also hands out 3,000 Oroberyl (day 1) and 5 Basic Headhunting Permits (day 2)."
       },
       "stats": [
-        { "k": { "es": "Tipo", "en": "Type", "jp": "分類", "zh": "类别" }, "v": "Sword" },
-        { "k": { "es": "Rareza", "en": "Rarity" }, "v": "6★" },
-        { "k": { "es": "Cómo se obtiene", "en": "How to get" }, "v": "Tribute of Companionship" }
+        {
+          "k": {
+            "es": "Tipo",
+            "en": "Type",
+            "jp": "分類",
+            "zh": "类别"
+          },
+          "v": "Sword"
+        },
+        {
+          "k": {
+            "es": "Rareza",
+            "en": "Rarity"
+          },
+          "v": "6★"
+        },
+        {
+          "k": {
+            "es": "Cómo se obtiene",
+            "en": "How to get"
+          },
+          "v": "Tribute of Companionship"
+        }
       ],
       "chars": []
     },
@@ -1109,18 +1347,45 @@
         "es": "Arma — Amaranthine Tassel (Greatsword, 6★)",
         "en": "Weapon — Amaranthine Tassel (Greatsword, 6★)"
       },
-      "tag": { "es": "NEW", "en": "NEW", "jp": "NEW", "zh": "NEW" },
+      "tag": {
+        "es": "NEW",
+        "en": "NEW",
+        "jp": "NEW",
+        "zh": "NEW"
+      },
       "img": "assets/weapons/wpn_claym_0017.webp",
       "desc": {
         "es": "Arma BIS de Mi Fu. Hecha a su medida: stat principal de Strength más una línea de Attack Boost, ambas suben directamente todo su daño. Disponible en el banner de armas de la Fase 1 de la v1.3 (junto al banner de Mi Fu). Pity blando en pull 65; pity duro en 80.",
         "en": "Mi Fu's BIS weapon. Tailor-made for her: a Strength main stat plus an Attack Boost line, both directly raising all her damage. Available on the v1.3 Phase 1 weapon banner (alongside Mi Fu's banner). Soft pity at pull 65; guaranteed at pull 80."
       },
       "stats": [
-        { "k": { "es": "Tipo", "en": "Type", "jp": "分類", "zh": "类别" }, "v": "Greatsword" },
-        { "k": { "es": "Rareza", "en": "Rarity" }, "v": "6★" },
-        { "k": { "es": "Stat principal", "en": "Main stat" }, "v": "Strength" }
+        {
+          "k": {
+            "es": "Tipo",
+            "en": "Type",
+            "jp": "分類",
+            "zh": "类别"
+          },
+          "v": "Greatsword"
+        },
+        {
+          "k": {
+            "es": "Rareza",
+            "en": "Rarity"
+          },
+          "v": "6★"
+        },
+        {
+          "k": {
+            "es": "Stat principal",
+            "en": "Main stat"
+          },
+          "v": "Strength"
+        }
       ],
-      "chars": ["Mi Fu"]
+      "chars": [
+        "Mi Fu"
+      ]
     },
     {
       "id": "g6",
@@ -1129,18 +1394,43 @@
         "es": "Arma — Beacon of Duty (Polearm, 6★)",
         "en": "Weapon — Beacon of Duty (Polearm, 6★)"
       },
-      "tag": { "es": "PRÓXIMO", "en": "UPCOMING" },
+      "tag": {
+        "es": "PRÓXIMO",
+        "en": "UPCOMING"
+      },
       "img": "assets/weapons/wpn_lance_0007.webp",
       "desc": {
         "es": "Arma BIS de Camille. Pensada para sus necesidades: Agility, Heat DMG y Flow. Disponible en el banner de armas de la Fase 2 de la v1.3 a partir del 26 de junio.",
         "en": "Camille's BIS weapon. Built around his needs: Agility, Heat DMG and Flow. Available on the v1.3 Phase 2 weapon banner from June 26."
       },
       "stats": [
-        { "k": { "es": "Tipo", "en": "Type", "jp": "分類", "zh": "类别" }, "v": "Polearm" },
-        { "k": { "es": "Rareza", "en": "Rarity" }, "v": "6★" },
-        { "k": { "es": "Disponible desde", "en": "Available from" }, "v": "26/06/2026" }
+        {
+          "k": {
+            "es": "Tipo",
+            "en": "Type",
+            "jp": "分類",
+            "zh": "类别"
+          },
+          "v": "Polearm"
+        },
+        {
+          "k": {
+            "es": "Rareza",
+            "en": "Rarity"
+          },
+          "v": "6★"
+        },
+        {
+          "k": {
+            "es": "Disponible desde",
+            "en": "Available from"
+          },
+          "v": "26/06/2026"
+        }
       ],
-      "chars": ["Camille"]
+      "chars": [
+        "Camille"
+      ]
     },
     {
       "id": "g1",
@@ -1149,18 +1439,43 @@
         "es": "Arma — Lone Barge (Arts Unit, 6★)",
         "en": "Weapon — Lone Barge (Arts Unit, 6★)"
       },
-      "tag": { "es": "", "en": "" },
+      "tag": {
+        "es": "",
+        "en": ""
+      },
       "img": "assets/weapons/wpn_funnel_0015.webp",
       "desc": {
         "es": "Arma BIS de Zhuang Fangyi. Disponible en el banner Drifting Raft Issue desde el 17 de abril hasta que transcurran 3 banners de Chartered Headhunting (contando desde Thunder of Renewal). Pity blando en pull 65; pity duro en 80.",
         "en": "Zhuang Fangyi's BIS weapon. Available on the Drifting Raft Issue banner from April 17, lasting three Chartered Headhunting banners from Thunder of Renewal. Soft pity at pull 65; guaranteed at pull 80."
       },
       "stats": [
-        { "k": { "es": "Tipo", "en": "Type", "jp": "分類", "zh": "类别" }, "v": "Arts Unit" },
-        { "k": { "es": "Rareza", "en": "Rarity" }, "v": "6★" },
-        { "k": { "es": "Banner", "en": "Banner" }, "v": "Drifting Raft Issue" }
+        {
+          "k": {
+            "es": "Tipo",
+            "en": "Type",
+            "jp": "分類",
+            "zh": "类别"
+          },
+          "v": "Arts Unit"
+        },
+        {
+          "k": {
+            "es": "Rareza",
+            "en": "Rarity"
+          },
+          "v": "6★"
+        },
+        {
+          "k": {
+            "es": "Banner",
+            "en": "Banner"
+          },
+          "v": "Drifting Raft Issue"
+        }
       ],
-      "chars": ["Zhuang Fangyi"]
+      "chars": [
+        "Zhuang Fangyi"
+      ]
     },
     {
       "id": "g2",
@@ -1169,18 +1484,43 @@
         "es": "Arma — Lupine Scarlet (Sword, 6★)",
         "en": "Weapon — Lupine Scarlet (Sword, 6★)"
       },
-      "tag": { "es": "", "en": "" },
+      "tag": {
+        "es": "",
+        "en": ""
+      },
       "img": "assets/weapons/wpn_sword_0022.webp",
       "desc": {
         "es": "Arma BIS de Rossi. Disponible en el banner Scarlet Pearl Issue desde el 29 de marzo. Dura 3 banners de Chartered Headhunting contando desde el banner de Rossi.",
         "en": "Rossi's BIS weapon. Available on the Scarlet Pearl Issue banner from March 29. Lasts 3 Chartered Headhunting banners from Rossi's banner."
       },
       "stats": [
-        { "k": { "es": "Tipo", "en": "Type", "jp": "分類", "zh": "类别" }, "v": "Sword" },
-        { "k": { "es": "Rareza", "en": "Rarity" }, "v": "6★" },
-        { "k": { "es": "Banner", "en": "Banner" }, "v": "Scarlet Pearl Issue" }
+        {
+          "k": {
+            "es": "Tipo",
+            "en": "Type",
+            "jp": "分類",
+            "zh": "类别"
+          },
+          "v": "Sword"
+        },
+        {
+          "k": {
+            "es": "Rareza",
+            "en": "Rarity"
+          },
+          "v": "6★"
+        },
+        {
+          "k": {
+            "es": "Banner",
+            "en": "Banner"
+          },
+          "v": "Scarlet Pearl Issue"
+        }
       ],
-      "chars": ["Rossi"]
+      "chars": [
+        "Rossi"
+      ]
     },
     {
       "id": "g4",
@@ -1189,18 +1529,43 @@
         "es": "Arma — Brigand's Calling (Handcannon, 6★)",
         "en": "Weapon — Brigand's Calling (Handcannon, 6★)"
       },
-      "tag": { "es": "", "en": "" },
+      "tag": {
+        "es": "",
+        "en": ""
+      },
       "img": "assets/weapons/wpn_pistol_0011.webp",
       "desc": {
         "es": "Arma BIS de Tangtang. Disponible en el banner Budding Anew Issue desde el 12 de marzo hasta el 22 de mayo de 2026 (3 banners de Chartered Headhunting desde el banner de Tangtang).",
         "en": "Tangtang's BIS weapon. Available on the Budding Anew Issue banner from March 12 to May 22, 2026 (three Chartered Headhunting banners after Tangtang's banner)."
       },
       "stats": [
-        { "k": { "es": "Tipo", "en": "Type", "jp": "分類", "zh": "类别" }, "v": "Handcannon" },
-        { "k": { "es": "Rareza", "en": "Rarity" }, "v": "6★" },
-        { "k": { "es": "Disponible hasta", "en": "Available until" }, "v": "22/05/2026" }
+        {
+          "k": {
+            "es": "Tipo",
+            "en": "Type",
+            "jp": "分類",
+            "zh": "类别"
+          },
+          "v": "Handcannon"
+        },
+        {
+          "k": {
+            "es": "Rareza",
+            "en": "Rarity"
+          },
+          "v": "6★"
+        },
+        {
+          "k": {
+            "es": "Disponible hasta",
+            "en": "Available until"
+          },
+          "v": "22/05/2026"
+        }
       ],
-      "chars": ["Tangtang"]
+      "chars": [
+        "Tangtang"
+      ]
     }
   ],
   "events": [
@@ -1214,11 +1579,11 @@
         "es": "TIEMPO LIMITADO",
         "en": "LIMITED-TIME"
       },
-      "dateStart": null,
-      "dateEnd": null,
+      "dateStart": "2026-10-01",
+      "dateEnd": "",
       "desc": {
-        "es": "Evento de diversión y juegos de la segunda mitad de la versión, fecha por confirmar. Yvonne llega a la Ciudad de Wuling e invita al Endmin a las festividades. Las pistas van por senderos de montaña, techos de la ciudad y hasta por el aire, con dispositivos de impulso, vórtices y trampas. Puedes correr contra el reloj o tomarte tu tiempo para juntar todos los globos de Lung regordete.",
-        "en": "Fun and games event from the second half of the version, date to be confirmed. Yvonne arrives in Wuling City and invites the Endmin to the festivities. The tracks run along mountain paths, city rooftops and even through the air, with bounce devices, vortexes and traps. You can race the clock or take your time collecting every Chubby Lung Balloon."
+        "es": "Evento de diversión y juegos de la segunda mitad de la versión: abre el 1 de octubre de 2026 a las 12:00 (hora del servidor) y dura hasta la próxima actualización de versión. Yvonne llega a la Ciudad de Wuling e invita al Endmin a las festividades. Las pistas van por senderos de montaña, techos de la ciudad y hasta por el aire, con dispositivos de impulso, vórtices y trampas. Puedes correr contra el reloj o tomarte tu tiempo para juntar todos los globos de Lung regordete.",
+        "en": "Fun and games event from the second half of the version: opens Oct. 1, 2026 at 12:00 (server time) and runs until the next version update. Yvonne arrives in Wuling City and invites the Endmin to the festivities. The tracks run along mountain paths, city rooftops and even through the air, with bounce devices, vortexes and traps. You can race the clock or take your time collecting every Chubby Lung Balloon."
       },
       "rewards": {
         "es": [
@@ -1243,11 +1608,11 @@
         "es": "TIEMPO LIMITADO",
         "en": "LIMITED-TIME"
       },
-      "dateStart": null,
-      "dateEnd": null,
+      "dateStart": "2026-09-24",
+      "dateEnd": "",
       "desc": {
-        "es": "Evento de sorteo de la segunda mitad de la versión, fecha por confirmar. Entras y reclamas gratis a la operadora 5★ Purrchena junto con su arma 5★ Momento del postre. Las misiones del sorteo dan además cinco fichas de Purrchena y cinco copias extra del arma, así que las dos suben a potencial máximo sin gastar nada. Ni la operadora ni el arma entran de inmediato a la Caza de reclutas ni al Arsenal.",
-        "en": "Giveaway event from the second half of the version, date to be confirmed. Log in and claim the 5★ operator Purrchena for free along with her 5★ weapon Dessert Moment. The giveaway missions also hand out five Purrchena tokens and five extra copies of the weapon, so both reach max potential at no cost. Neither the operator nor the weapon enters headhunting or the arsenal right away."
+        "es": "Evento de sorteo de la segunda mitad de la versión: abre el 24 de septiembre de 2026 a las 12:00 (hora del servidor) y dura hasta la próxima actualización de versión. Entras y reclamas gratis a la operadora 5★ Purrchena junto con su arma 5★ Momento del postre. Las misiones del sorteo dan además cinco fichas de Purrchena y cinco copias extra del arma, así que las dos suben a potencial máximo sin gastar nada. Ni la operadora ni el arma entran de inmediato a la Caza de reclutas ni al Arsenal.",
+        "en": "Giveaway event from the second half of the version: opens Sept. 24, 2026 at 12:00 (server time) and runs until the next version update. Log in and claim the 5★ operator Purrchena for free along with her 5★ weapon Dessert Moment. The giveaway missions also hand out five Purrchena tokens and five extra copies of the weapon, so both reach max potential at no cost. Neither the operator nor the weapon enters headhunting or the arsenal right away."
       },
       "rewards": {
         "es": [
@@ -1272,11 +1637,11 @@
         "es": "TIEMPO LIMITADO",
         "en": "LIMITED-TIME"
       },
-      "dateStart": null,
-      "dateEnd": null,
+      "dateStart": "2026-10-01",
+      "dateEnd": "",
       "desc": {
-        "es": "Login por tiempo limitado de la segunda mitad de la versión, fecha por confirmar. Entras durante el periodo y juntas recompensas.",
-        "en": "Limited-time sign-in from the second half of the version, date to be confirmed. Log in during the period to collect the rewards."
+        "es": "Login por tiempo limitado de la segunda mitad de la versión: abre el 1 de octubre de 2026 a las 12:00 (hora del servidor) y dura hasta la próxima actualización de versión. Entras durante el periodo y juntas recompensas.",
+        "en": "Limited-time sign-in from the second half of the version: opens Oct. 1, 2026 at 12:00 (server time) and runs until the next version update. Log in during the period to collect the rewards."
       },
       "rewards": {
         "es": [
@@ -1301,11 +1666,11 @@
         "es": "EVENTO DE GUÍA",
         "en": "GUIDE EVENT"
       },
-      "dateStart": null,
-      "dateEnd": null,
+      "dateStart": "2026-09-24",
+      "dateEnd": "",
       "desc": {
-        "es": "Evento de guía del mapa de rompecabezas Suiming, fecha por confirmar. Explora las historias del pasado de la ciudad sumergida, completa las misiones correspondientes y junta las recompensas del evento.",
-        "en": "Guide event for the Suiming puzzle map, date to be confirmed. Explore the stories of the past in the submerged city, complete the matching missions and collect the event rewards."
+        "es": "Evento de guía del mapa de rompecabezas Suiming: abre el 24 de septiembre de 2026 a las 12:00 (hora del servidor) y dura hasta la próxima actualización de versión. Explora las historias del pasado de la ciudad sumergida, completa las misiones correspondientes y junta las recompensas del evento.",
+        "en": "Guide event for the Suiming puzzle map: opens Sept. 24, 2026 at 12:00 (server time) and runs until the next version update. Explore the stories of the past in the submerged city, complete the matching missions and collect the event rewards."
       },
       "rewards": {
         "es": [
@@ -1326,11 +1691,11 @@
         "es": "TIEMPO LIMITADO",
         "en": "LIMITED-TIME"
       },
-      "dateStart": null,
-      "dateEnd": null,
+      "dateStart": "2026-10-01",
+      "dateEnd": "",
       "desc": {
-        "es": "Evento web dentro del juego, fecha por confirmar. Fusionas OrbiPoms idénticos para completar la colección y encontrar al Endmin Dorado. Los OrbiPoms también sueltan varias habilidades que te dan una mano.",
-        "en": "In-game web event, date to be confirmed. You merge identical OrbiPoms to complete the collection and find the Golden Endmin. The OrbiPoms also unleash various skills that lend you a hand."
+        "es": "Evento web dentro del juego: abre el 1 de octubre de 2026 a las 12:00 (hora del servidor) y dura hasta la próxima actualización de versión. Fusionas OrbiPoms idénticos para completar la colección y encontrar al Endmin Dorado. Los OrbiPoms también sueltan varias habilidades que te dan una mano.",
+        "en": "In-game web event: opens Oct. 1, 2026 at 12:00 (server time) and runs until the next version update. You merge identical OrbiPoms to complete the collection and find the Golden Endmin. The OrbiPoms also unleash various skills that lend you a hand."
       },
       "rewards": {
         "es": [
@@ -1353,11 +1718,11 @@
         "es": "TIEMPO LIMITADO",
         "en": "LIMITED-TIME"
       },
-      "dateStart": null,
-      "dateEnd": null,
+      "dateStart": "2026-09-17",
+      "dateEnd": "2026-09-24",
       "desc": {
-        "es": "Evento por tiempo limitado que se hace DOS veces a lo largo de la versión, fechas por confirmar. Durante cada periodo, completar las tareas diarias te da refuerzos de Cordura.",
-        "en": "Limited-time event that runs TWICE across the version, dates to be confirmed. During each period, completing the daily tasks hands you Sanity boosts."
+        "es": "Evento por tiempo limitado que se hace DOS veces a lo largo de la versión: del 17 al 24 de septiembre y del 8 al 14 de octubre de 2026 (hora del servidor). Durante cada periodo, completar las tareas diarias te da refuerzos de Cordura.",
+        "en": "Limited-time event that runs TWICE across the version: Sept. 17–24 and Oct. 8–14, 2026 (server time). During each period, completing the daily tasks hands you Sanity boosts."
       },
       "rewards": {
         "es": [
@@ -1380,11 +1745,11 @@
         "es": "PASE DE PROTOCOLO",
         "en": "PROTOCOL PASS"
       },
-      "dateStart": null,
-      "dateEnd": null,
+      "dateStart": "2026-09-02",
+      "dateEnd": "",
       "desc": {
-        "es": "Temporada nueva del Pase de protocolo, se lanza con la versión (fecha exacta por confirmar). Al desbloquear el pase te dan un suministro de arma 6★ a elección que incluye la Unidad de las Artes nueva Fin del sufrimiento.",
-        "en": "New Protocol Pass season, launching with the version (exact date to be confirmed). Unlocking the pass grants a 6★ Weapon of Choice Supply that includes the new Arts Unit Suffering End."
+        "es": "Temporada nueva del Pase de protocolo, activa desde el lanzamiento de la versión (2 de septiembre de 2026) hasta la próxima actualización de versión. Al desbloquear el pase te dan un suministro de arma 6★ a elección que incluye la Unidad de las Artes nueva Fin del sufrimiento.",
+        "en": "New Protocol Pass season, live from the version launch (Sept. 2, 2026) until the next version update. Unlocking the pass grants a 6★ Weapon of Choice Supply that includes the new Arts Unit Suffering End."
       },
       "rewards": {
         "es": [
@@ -1437,7 +1802,7 @@
         "en": "GUIDE EVENT"
       },
       "dateStart": "2026-09-02",
-      "dateEnd": "",
+      "dateEnd": "2026-09-30",
       "desc": {
         "es": "Evento de guía de la zona nueva. Desbloqueas puntos de TP, abres Protocol Crates y completas misiones por el Bosque Nevado para ir juntando recompensas mientras exploras.",
         "en": "Guide event for the new area. You unlock TP points, open Protocol Crates and complete missions across the Snowy Forest, racking up rewards as you explore."
@@ -1461,7 +1826,7 @@
         "es": "EVENTO DE RETO",
         "en": "CHALLENGE EVENT"
       },
-      "dateStart": "2026-09-02",
+      "dateStart": "2026-09-09",
       "dateEnd": "",
       "desc": {
         "es": "Se abre con la historia de Typhoeus. En el campo de tiro del Bosque Nevado estudias las flechas especiales de Sami y usas sus propiedades para superar retos, cambiando Arrow Chips sobre la marcha según el objetivo. Vas mejorando el campo de tiro para desbloquear más tipos de flecha y etapas más complejas, y una vez que limpias las etapas las de Daily Exercise varían cada día. Cuando el evento limitado cierra, el modo queda permanente.",
@@ -1490,8 +1855,8 @@
         "es": "TIEMPO LIMITADO",
         "en": "LIMITED-TIME"
       },
-      "dateStart": "2026-09-02",
-      "dateEnd": "",
+      "dateStart": "2026-09-16",
+      "dateEnd": "2026-09-30",
       "desc": {
         "es": "Segunda sesión del AIC Support. Consigues fórmulas por tiempo limitado, produces productos de apoyo y los entregas en los outposts de Wuling a cambio de Wuling Stock Bills y Fruits of Altruism Certs, y esos certs se canjean en la tienda limitada. Durante el evento ciertos outposts suben mucho su producción de stock bills. Además el canje mejoró: hay intercambio limitado desde la interfaz del outpost, la primera fase viene preseleccionada y salta sola a la segunda cuando agotas la primera.",
         "en": "Second session of AIC Support. You get limited-time formulas, produce support goods and submit them at Wuling outposts in exchange for Wuling Stock Bills and Fruits of Altruism Certs, and those certs are redeemed at the limited-time shop. During the event certain outposts see a big boost to stock bill yield. The exchange also got smoother: there is a limited-time exchange right in the outpost interface, the first phase is preselected and it jumps to the second phase on its own once you clear the first."
@@ -1544,8 +1909,8 @@
         "es": "TIEMPO LIMITADO",
         "en": "LIMITED-TIME"
       },
-      "dateStart": "2026-09-02",
-      "dateEnd": "",
+      "dateStart": "2026-10-05",
+      "dateEnd": "2026-10-19",
       "desc": {
         "es": "Evento limitado atado al reto nuevo de alta dificultad de Umbral Monument, Marked by Dark Shadows. Completarlo da varias recompensas, Oroberyl incluido.",
         "en": "Limited-time event tied to the new high-difficulty Umbral Monument challenge, Marked by Dark Shadows. Clearing it hands out several rewards, Oroberyl included."
@@ -1565,7 +1930,10 @@
         "es": "Celebración del Compañerismo (medio año)",
         "en": "Companionship Celebration (half-year)"
       },
-      "tag": { "es": "CELEBRACIÓN", "en": "CELEBRATION" },
+      "tag": {
+        "es": "CELEBRACIÓN",
+        "en": "CELEBRATION"
+      },
       "dateStart": "2026-07-10",
       "dateEnd": "2026-07-24",
       "desc": {
@@ -1573,14 +1941,32 @@
         "en": "Celebration of Endfield's first six months, announced on the v1.4 special program. It combines in-game mail gifts, the 3-day Tribute of Companionship login (including the free 6★ sword Farsight), the ENDFIELDRENEW redemption code and the Wuling Fortune Connect-and-Win scratch game."
       },
       "rewards": {
-        "es": ["Correo: 2000 Oroberyl + 12 000 T-Creds + materiales de progresión", "Login 3 días: 3000 Oroberyl, 5 Basic HH Permits y la espada 6★ Farsight", "Código ENDFIELDRENEW: 71 600 T-Creds + calcomanía de cámara", "Connect-and-Win: al menos 5000 Oroberyl en 14 raspadas diarias"],
-        "en": ["Mail: 2,000 Oroberyl + 12,000 T-Creds + progression materials", "3-day login: 3,000 Oroberyl, 5 Basic HH Permits and the 6★ sword Farsight", "ENDFIELDRENEW code: 71,600 T-Creds + a camera sticker", "Connect-and-Win: at least 5,000 Oroberyl across 14 daily scratches"]
+        "es": [
+          "Correo: 2000 Oroberyl + 12 000 T-Creds + materiales de progresión",
+          "Login 3 días: 3000 Oroberyl, 5 Basic HH Permits y la espada 6★ Farsight",
+          "Código ENDFIELDRENEW: 71 600 T-Creds + calcomanía de cámara",
+          "Connect-and-Win: al menos 5000 Oroberyl en 14 raspadas diarias"
+        ],
+        "en": [
+          "Mail: 2,000 Oroberyl + 12,000 T-Creds + progression materials",
+          "3-day login: 3,000 Oroberyl, 5 Basic HH Permits and the 6★ sword Farsight",
+          "ENDFIELDRENEW code: 71,600 T-Creds + a camera sticker",
+          "Connect-and-Win: at least 5,000 Oroberyl across 14 daily scratches"
+        ]
       }
     },
     {
       "id": "ev17",
-      "title": { "es": "Ecos de guerra", "en": "Echoes of War", "jp": "戦争残響", "zh": "战争回响" },
-      "tag": { "es": "MODO NUEVO", "en": "NEW MODE" },
+      "title": {
+        "es": "Ecos de guerra",
+        "en": "Echoes of War",
+        "jp": "戦争残響",
+        "zh": "战争回响"
+      },
+      "tag": {
+        "es": "MODO NUEVO",
+        "en": "NEW MODE"
+      },
       "dateStart": "2026-07-16",
       "dateEnd": "",
       "desc": {
@@ -1588,8 +1974,16 @@
         "en": "New PERMANENT seasonal challenge: cycles of 3 high-difficulty combat stages, each on Normal, Hard and Brutal. All Oroberyl is secured by clearing Normal; higher difficulties grant stars (with a Lustrous boost on Brutal with bonus objectives) that set your season title, visible to friends. The first season ships with the update and stages will rotate so missed rewards stay reachable."
       },
       "rewards": {
-        "es": ["Oroberyl (asegurado en Normal)", "Recompensas de honor por primera vez", "Título de temporada + Revisión de batalla en el perfil"],
-        "en": ["Oroberyl (secured on Normal)", "First-clear honor rewards", "Season title + Battle Review on your profile"]
+        "es": [
+          "Oroberyl (asegurado en Normal)",
+          "Recompensas de honor por primera vez",
+          "Título de temporada + Revisión de batalla en el perfil"
+        ],
+        "en": [
+          "Oroberyl (secured on Normal)",
+          "First-clear honor rewards",
+          "Season title + Battle Review on your profile"
+        ]
       }
     },
     {
@@ -1598,7 +1992,10 @@
         "es": "Heat Rage! Mega Arena!",
         "en": "Heat Rage! Mega Arena!"
       },
-      "tag": { "es": "EVENTO DESAFÍO", "en": "CHALLENGE EVENT" },
+      "tag": {
+        "es": "EVENTO DESAFÍO",
+        "en": "CHALLENGE EVENT"
+      },
       "dateStart": "2026-07-30",
       "dateEnd": "2026-08-13",
       "desc": {
@@ -1606,8 +2003,16 @@
         "en": "Eight combat stages with teams of at most TWO operators. The first three open on day 1 and the rest arrive one per day; each stage runs on Normal and, once cleared, on MAXED with heavily buffed enemies. Boosts come in tiers: on 1-3 Final Strike applies Vulnerability, on 4-6 each Arts Infliction doubles itself, and on 7-8 reactions return SP. It pays out 1200 Oroberyl (all of it locked in on Normal), the Heat Ragers' Party frame at four stages, and the Nocturnal Tactics medal for clearing them all."
       },
       "rewards": {
-        "es": ["1200 Oroberyl", "Marco Heat Ragers' Party", "Medalla Nocturnal Tactics"],
-        "en": ["1200 Oroberyl", "Heat Ragers' Party frame", "Nocturnal Tactics medal"]
+        "es": [
+          "1200 Oroberyl",
+          "Marco Heat Ragers' Party",
+          "Medalla Nocturnal Tactics"
+        ],
+        "en": [
+          "1200 Oroberyl",
+          "Heat Ragers' Party frame",
+          "Nocturnal Tactics medal"
+        ]
       }
     },
     {
@@ -1618,7 +2023,10 @@
         "jp": "根脈奇景",
         "zh": "根脉奇境"
       },
-      "tag": { "es": "TIEMPO LIMITADO", "en": "LIMITED-TIME" },
+      "tag": {
+        "es": "TIEMPO LIMITADO",
+        "en": "LIMITED-TIME"
+      },
       "dateStart": "2026-08-09",
       "dateEnd": "2026-09-01",
       "desc": {
@@ -1626,14 +2034,30 @@
         "en": "A Protocol Space about routes and collecting: you gather Aurylene Fragments through routes and chambers, and it all converts into Journey Points that open the Rooted Journey track. There is no shop and no currency to spend, just a bar that fills. It opens with three stages and on August 15 all six unlock, along with the six Realm Quests worth 100 points each. It pays out 1600 Oroberyl and the Explorer of the Realm medal."
       },
       "rewards": {
-        "es": ["1600 Oroberyl", "Mark of Perseverance", "Medalla Explorer of the Realm"],
-        "en": ["1600 Oroberyl", "Mark of Perseverance", "Explorer of the Realm medal"]
+        "es": [
+          "1600 Oroberyl",
+          "Mark of Perseverance",
+          "Medalla Explorer of the Realm"
+        ],
+        "en": [
+          "1600 Oroberyl",
+          "Mark of Perseverance",
+          "Explorer of the Realm medal"
+        ]
       }
     },
     {
       "id": "ev20",
-      "title": { "es": "Contemplando la Exclusión del norte", "en": "Gaze Towards the Northern Exclusion", "jp": "北の禁門を望む", "zh": "北观禁土" },
-      "tag": { "es": "EVENTO GUÍA", "en": "GUIDE EVENT" },
+      "title": {
+        "es": "Contemplando la Exclusión del norte",
+        "en": "Gaze Towards the Northern Exclusion",
+        "jp": "北の禁門を望む",
+        "zh": "北观禁土"
+      },
+      "tag": {
+        "es": "EVENTO GUÍA",
+        "en": "GUIDE EVENT"
+      },
       "dateStart": "2026-07-16",
       "dateEnd": "2026-08-30",
       "desc": {
@@ -1641,14 +2065,28 @@
         "en": "Guide event for exploring Yinglung Pass and the North Wuling Exclusion Zone: unlocking TP points, opening protocol boxes and completing activities in the new area grants rewards (closing date approximate, until the version ends)."
       },
       "rewards": {
-        "es": ["Recompensas de exploración", "Materiales de la nueva región"],
-        "en": ["Exploration rewards", "New-region materials"]
+        "es": [
+          "Recompensas de exploración",
+          "Materiales de la nueva región"
+        ],
+        "en": [
+          "Exploration rewards",
+          "New-region materials"
+        ]
       }
     },
     {
       "id": "ev10",
-      "title": { "es": "Un puñado de reflexiones", "en": "A Fistful of Reflections", "jp": "心映す一拳", "zh": "以拳问心" },
-      "tag": { "es": "NARRATIVO", "en": "NARRATIVE" },
+      "title": {
+        "es": "Un puñado de reflexiones",
+        "en": "A Fistful of Reflections",
+        "jp": "心映す一拳",
+        "zh": "以拳问心"
+      },
+      "tag": {
+        "es": "NARRATIVO",
+        "en": "NARRATIVE"
+      },
       "dateStart": "2026-06-05",
       "dateEnd": "2026-07-16",
       "desc": {
@@ -1656,14 +2094,28 @@
         "en": "Version 1.3 narrative event centered on Mi Fu, Captain of the Wuling Watch. It digs into her story and Qingbo Stockade. Available throughout version 1.3 (closing date approximate, until v1.4 begins)."
       },
       "rewards": {
-        "es": ["Materiales de progresión", "Recompensas de historia v1.3"],
-        "en": ["Progression materials", "v1.3 story rewards"]
+        "es": [
+          "Materiales de progresión",
+          "Recompensas de historia v1.3"
+        ],
+        "en": [
+          "Progression materials",
+          "v1.3 story rewards"
+        ]
       }
     },
     {
       "id": "ev11",
-      "title": { "es": "Danza macabra", "en": "Danse Macabre", "jp": "死の舞踏", "zh": "亡者之舞" },
-      "tag": { "es": "NARRATIVO", "en": "NARRATIVE" },
+      "title": {
+        "es": "Danza macabra",
+        "en": "Danse Macabre",
+        "jp": "死の舞踏",
+        "zh": "亡者之舞"
+      },
+      "tag": {
+        "es": "NARRATIVO",
+        "en": "NARRATIVE"
+      },
       "dateStart": "2026-06-26",
       "dateEnd": "2026-07-16",
       "desc": {
@@ -1671,8 +2123,14 @@
         "en": "Version 1.3 Phase 2 narrative event tied to Camille and his 'Blood Hunter' side. Launches alongside the Expunger of Sin banner on June 26."
       },
       "rewards": {
-        "es": ["Materiales de progresión", "Recompensas de historia (Fase 2)"],
-        "en": ["Progression materials", "Story rewards (Phase 2)"]
+        "es": [
+          "Materiales de progresión",
+          "Recompensas de historia (Fase 2)"
+        ],
+        "en": [
+          "Progression materials",
+          "Story rewards (Phase 2)"
+        ]
       }
     },
     {
@@ -1681,7 +2139,10 @@
         "es": "Contingency Contract — Contingency Readiness",
         "en": "Contingency Contract — Contingency Readiness"
       },
-      "tag": { "es": "MODO NUEVO", "en": "NEW MODE" },
+      "tag": {
+        "es": "MODO NUEVO",
+        "en": "NEW MODE"
+      },
       "dateStart": "2026-06-12",
       "dateEnd": "2026-07-16",
       "desc": {
@@ -1689,14 +2150,28 @@
         "en": "The most-requested endgame mode arrives, carried over from the original Arknights. Battles with adjustable difficulty modifiers (Test Criterion / Key Criteria) and battlefield conditions. The Contingency Readiness phase begins June 12."
       },
       "rewards": {
-        "es": ["Recompensas por puntaje de dificultad", "Materiales de fin de juego"],
-        "en": ["Difficulty-score rewards", "Endgame materials"]
+        "es": [
+          "Recompensas por puntaje de dificultad",
+          "Materiales de fin de juego"
+        ],
+        "en": [
+          "Difficulty-score rewards",
+          "Endgame materials"
+        ]
       }
     },
     {
       "id": "ev13",
-      "title": { "es": "En busca del Valle Ocultaespadas", "en": "Search for Sword Vault Dale", "jp": "幽谷探剣", "zh": "寻剑幽谷" },
-      "tag": { "es": "EVENTO GUÍA", "en": "GUIDE EVENT" },
+      "title": {
+        "es": "En busca del Valle Ocultaespadas",
+        "en": "Search for Sword Vault Dale",
+        "jp": "幽谷探剣",
+        "zh": "寻剑幽谷"
+      },
+      "tag": {
+        "es": "EVENTO GUÍA",
+        "en": "GUIDE EVENT"
+      },
       "dateStart": "2026-06-05",
       "dateEnd": "2026-07-16",
       "desc": {
@@ -1704,14 +2179,28 @@
         "en": "Guide event to explore the new Sword Vault Dale region: ruins, floating cliffs and puzzles, with rewards for discovery and progress."
       },
       "rewards": {
-        "es": ["Recompensas de exploración", "Materiales de la nueva región"],
-        "en": ["Exploration rewards", "New-region materials"]
+        "es": [
+          "Recompensas de exploración",
+          "Materiales de la nueva región"
+        ],
+        "en": [
+          "Exploration rewards",
+          "New-region materials"
+        ]
       }
     },
     {
       "id": "ev14",
-      "title": { "es": "Cuento de hadas de Carly de Wuling", "en": "Carly's Fairytale of Wuling", "jp": "カーリーの武陵絵本", "zh": "卡莉的武陵童话" },
-      "tag": { "es": "EVENTO CÁMARA", "en": "CAMERA EVENT" },
+      "title": {
+        "es": "Cuento de hadas de Carly de Wuling",
+        "en": "Carly's Fairytale of Wuling",
+        "jp": "カーリーの武陵絵本",
+        "zh": "卡莉的武陵童话"
+      },
+      "tag": {
+        "es": "EVENTO CÁMARA",
+        "en": "CAMERA EVENT"
+      },
       "dateStart": "2026-06-05",
       "dateEnd": "2026-07-16",
       "desc": {
@@ -1719,14 +2208,26 @@
         "en": "Version 1.3 camera/photography event: capture specific scenes around Wuling following Carly's 'fairytale' to earn rewards."
       },
       "rewards": {
-        "es": ["Recompensas por fotos completadas"],
-        "en": ["Rewards for completed photos"]
+        "es": [
+          "Recompensas por fotos completadas"
+        ],
+        "en": [
+          "Rewards for completed photos"
+        ]
       }
     },
     {
       "id": "ev15",
-      "title": { "es": "Algoritmos de prueba", "en": "Trial Algorithmics", "jp": "演武アルゴリズム", "zh": "演武集算" },
-      "tag": { "es": "TIEMPO LIMITADO", "en": "LIMITED-TIME" },
+      "title": {
+        "es": "Algoritmos de prueba",
+        "en": "Trial Algorithmics",
+        "jp": "演武アルゴリズム",
+        "zh": "演武集算"
+      },
+      "tag": {
+        "es": "TIEMPO LIMITADO",
+        "en": "LIMITED-TIME"
+      },
       "dateStart": "2026-06-05",
       "dateEnd": "2026-07-16",
       "desc": {
@@ -1734,8 +2235,12 @@
         "en": "Version 1.3 limited-time combat mode with algorithmic challenges. Available throughout the version (closing date approximate)."
       },
       "rewards": {
-        "es": ["Recompensas por completar retos"],
-        "en": ["Rewards for clearing challenges"]
+        "es": [
+          "Recompensas por completar retos"
+        ],
+        "en": [
+          "Rewards for clearing challenges"
+        ]
       }
     }
   ]
