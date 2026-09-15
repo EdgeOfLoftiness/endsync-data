@@ -925,7 +925,13 @@
             }
           }
         ]
-      }
+      },
+      "rotationCode": "AYWPSwrCQBBEL1SLqZ6Z_LZNX0DIAYagSSAECbpQwpxdAqLBhVm-6gdVfeK65udwT3N_SXP_GBtKdBB4BCIS6mESYGUByi6n30uMsABjkD_WG9SD4cA5gpYuwj5lGmH8Eoz7y88mIxTcgnw9L9PYpca2n7UuYVIRWkSYJ9FGX0LpipyWbhr74dZYkArKAKucgxYwLw6tLyWn-ZamxhjqCiqClrW8AA",
+      "rotationCodeNote": {
+        "es": "Rotación estándar del índice de daño (equipo idéntico al de la guía), medida en la sim: dos rondas de carga (8 Sunderblades) y el burst dentro de la Ult.",
+        "en": "Standard damage-index rotation (same team as the guide), measured in the sim: two charge rounds (8 Sunderblades) and the burst inside the Ult."
+      },
+      "rotationBurstAt": 74.9
     },
     {
       "name": {
@@ -1218,6 +1224,9 @@
           "note": {
             "es": "El panel repite el de la 1.0: la Battle Skill es la única con prioridad real y recomienda refinar todo su equipo.",
             "en": "The panel repeats 1.0: the Battle Skill is the only one with real priority and all her gear gets the refine recommendation."
+          },
+          "assumeRanks": {
+            "battle_skill": 12
           }
         },
         {
@@ -1229,6 +1238,11 @@
           "note": {
             "es": "Battle Skill y Ultimate empatados: su ATK Boost y su amp topan en Especialización 3. El autor añade que el Combo en Especialización 3 baja a 8 s de cooldown y eso optimiza el manejo.",
             "en": "Battle Skill and Ultimate tied: her ATK Boost and her amp cap at Specialization 3. The author adds that the Combo at Specialization 3 drops to an 8s cooldown and that smooths the handling."
+          },
+          "assumeRanks": {
+            "battle_skill": 12,
+            "ultimate": 12,
+            "combo_skill": 12
           }
         },
         {
@@ -1240,6 +1254,9 @@
           "note": {
             "es": "Igual que en la 1.0: el Combo en Especialización 3 baja 1 s de cooldown y mejora el manejo.",
             "en": "Same as 1.0: the Combo at Specialization 3 drops 1s of cooldown and improves the feel."
+          },
+          "assumeRanks": {
+            "combo_skill": 12
           }
         },
         {
@@ -1758,6 +1775,9 @@
           "note": {
             "es": "El mismo panel que en la versión de Arcane; recomienda refinar todo su equipo.",
             "en": "The same panel as in the Arcane version; all her gear gets the refine recommendation."
+          },
+          "assumeRanks": {
+            "battle_skill": 12
           }
         },
         {
@@ -1769,6 +1789,10 @@
           "note": {
             "es": "Battle Skill y Ultimate empatados: su ATK Boost y su amp topan en Especialización 3.",
             "en": "Battle Skill and Ultimate tied: her ATK Boost and her amp cap at Specialization 3."
+          },
+          "assumeRanks": {
+            "battle_skill": 12,
+            "ultimate": 12
           }
         },
         {
@@ -1780,6 +1804,9 @@
           "note": {
             "es": "Literal del panel: su Combo es lo único que trabaja en este eje.",
             "en": "Straight from the panel: her Combo is the only thing working in this axis."
+          },
+          "assumeRanks": {
+            "combo_skill": 6
           }
         },
         {

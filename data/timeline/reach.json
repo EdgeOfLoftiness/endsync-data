@@ -1,0 +1,187 @@
+{
+  "_doc": "Alcance por skill para el cálculo contra varios enemigos (docs/AOE_META_PLAN.md). classes: objetivos alcanzados por clase según el escenario (spread = enemigos sueltos, grouped = agrupados por un pull); un número es un tope, 'all' = todos, 'half' = la mitad redondeada hacia arriba. ops.<id>.slots: alcance del daño por slot (basic_attack sale de basicByWeapon si falta). ops.<id>.stats: sobrescrituras por prefijo del nombre de la stat de daño (skills/<id>.json), para partes de una skill con alcance propio (variantes, golpes durante la ult, partes condicionales). ops.<id>.apply: alcance de APLICACIÓN de los estados y debuffs de ese slot cuando difiere del alcance del daño (por defecto, el mismo). ops.<id>.pull: slots que agrupan a los enemigos. ops.<id>.max: tope duro de objetivos por slot o prefijo de stat. ops.<id>.perTarget: buffs cuyo valor crece con el número de enemigos alcanzados por un slot (documentado; el motor lo aplicará cuando exista). Cada nota resume la evidencia (texto oficial + lectura del usuario) y los huecos del motor detectados en la revisión.",
+  "version": 1,
+  "updated": "2026-09-12",
+  "classes": {
+    "st": { "spread": 1, "grouped": 1 },
+    "tiny": { "spread": 1, "grouped": 3 },
+    "small": { "spread": 2, "grouped": "all" },
+    "line": { "spread": "half", "grouped": "all" },
+    "fan": { "spread": "half", "grouped": "all" },
+    "area": { "spread": 3, "grouped": "all" },
+    "large": { "spread": "all", "grouped": "all" }
+  },
+  "basicByWeapon": {
+    "Sword": "st",
+    "Greatsword": "small",
+    "Polearm": "st",
+    "Handcannon": "st",
+    "Arts Unit": "st"
+  },
+  "basicStats": {
+    "Dive": "small",
+    "Finisher": "st"
+  },
+  "ops": {
+    "gilberta": {
+      "slots": { "basic_attack": "st", "battle_skill": "area", "combo_skill": "small", "ultimate": "large" },
+      "pull": [ "battle_skill", "combo_skill" ],
+      "perTarget": [
+        { "buff": "delivery_guaranteed_lifted_team", "slot": "combo_skill", "perOfBase": 0.2917, "maxTargets": 3 }
+      ],
+      "_note": "Gravity Mode: pozo que atrae a los cercanos y los golpea (Gravity Pull 219%) y al cerrar explota con Nature Infliction en el área (Explosion 130%): area + pull; M1 +20% de radio (6★ a M0: no aplica). Matrix Displacement: Lift forzado al objetivo y a los cercanos: small + pull; el Lift genera Vulnerability en cada uno (reacción física desde skill: no modelada aún en la sim). Gravity Field: 1 golpe 750% con Nature Infliction, Slow y Arts Susceptibility 30% a todo lo que está en el campo: large; el +3% por stack de Vulnerability (M2: ×stacks, +1 gratis) no está en buffs.json (gilberta-2 es plano). Delivery Guaranteed (BIS): tras el Lift del combo, Arts DMG al equipo (modelado, anchor combo) más +5.6% por enemigo Lifted hasta 16.8% (3 enemigos): no modelado, queda en perTarget. Late Reply: cura al golpear ≥2 enemigos, sin daño."
+    },
+    "rossi": {
+      "slots": { "basic_attack": "st", "battle_skill": "st", "combo_skill": "tiny", "ultimate": "small" },
+      "apply": { "combo_skill": "st" },
+      "_note": "Crimson Shadow: carga al objetivo (Lift) y la Wolven Ambrage va al mismo objetivo si tiene Vulnerability: st; Razor Clawmark (talento Nicks and Scratches, rossi-1) queda sobre ese objetivo. Moment of Blazing Shadow: según el usuario pega en un área más chica que la de la ult (tiny); consume las Arts Inflictions del objetivo y el bono por stack es solo suyo (apply st). Razorclaw Ambuscade: flurry (600%) y dos tajos (250%, 750%) con Heat Infliction en un área chica (small, lectura del usuario): con un pull alcanza a todos. Huecos del motor: DoT de Razor Clawmark (25/30% ATK por segundo) y golpe extra de Seething Blood al critear (rossi-5, probabilístico) no se emiten en la sim; Lupine Scarlet y MI Security son buffs propios (van a todos los objetivos)."
+    },
+    "laevatain": {
+      "slots": { "basic_attack": "st", "battle_skill": "area", "combo_skill": "large", "ultimate": "st" },
+      "stats": { "Enhanced BATK": "large", "Additional ATK": "large", "During Ultimate: Additional ATK": "large" },
+      "apply": { "basic_attack": "large", "battle_skill": "large" },
+      "_note": "Flaming Cinders: espada, st; durante Twilight los básicos se reemplazan por Enhanced BATK SEQ 1-4 (stats de la ult) que barren en área grande (lectura del usuario: 'barridos AoE enormes') y la SEQ 3 aplica Heat Infliction a lo que golpea (apply basic large, solo durante la ult). Smouldering Fire: el Magma Fragment golpea a los enemigos alrededor (Base Explosion 140% + DoT 14% por SEQ: area); con 4 Melting Flame el ataque adicional (770%, o 900% durante la ult) fuerza Combustión 'a todos los enemigos en un área grande' (stats Additional ATK large; apply battle large). Seethe: fuego bajo cada enemigo con Combustión o Corrosión: large, condicionado al estado de cada objetivo; energía por enemigo golpeado (25/30/35) es recurso, fuera del cálculo. Twilight: transformación sin golpe propio. Scorching Heart absorbe Heat Infliction de los cercanos (recurso) y a 4 stacks ignora Heat RES (propio, va a todos). Forgeborn Scathe y Hot Work son buffs propios. Hueco del motor: el ataque adicional (770%) entra siempre en el bloque base de la battle, sin exigir los 4 stacks."
+    },
+    "zhuangfangyi": {
+      "slots": { "basic_attack": "st", "battle_skill": "st", "combo_skill": "st", "ultimate": "st" },
+      "stats": { "During Ultimate: BATK SEQ": "area", "During Ultimate: Thunder Strike": "small", "During Ultimate: DMG Multiplier": "small" },
+      "apply": { "battle_skill": "st" },
+      "_note": "Jolting Arts: unidad Arts, st; durante Smiting Tempest los básicos (During Ultimate: BATK SEQ 1-3, stats de la ult) golpean en área ('áreas de impacto grandes', lectura del usuario): area. Mantra of Sundering: los Thunder Strikes caen sobre el objetivo (46 golpes de 45%, el último ×6): st; durante la ult 'gana rango de efecto' (During Ultimate: Thunder Strike 81%: small) pero consume la Electrificación del objetivo y la Electric Infliction del último golpe va 'al objetivo golpeado': apply battle st. Breath of Transformation: el Xiranblitz Array ataca al enemigo (360%): st; durante la ult 'los efectos se aplican a los enemigos en un área pequeña' (During Ultimate: DMG Multiplier 540%: small, y la Electrificación forzada sigue ese alcance). Smiting Tempest: transformación sin golpe propio (su bloque queda en 0 tras restar los reemplazos). Force of Nature (Amp propio), Lone Barge, Xiranflow y M5 (ignora RES) son efectos del atacante: van a todos los objetivos."
+    },
+    "arcane": {
+      "slots": { "basic_attack": "st", "battle_skill": "area", "combo_skill": "small", "ultimate": "area" },
+      "stats": { "Cluster Strike": "small", "Gloompurge Arcana": "large", "Explosion DMG Multiplier": "st", "Bonus DMG Multiplier": "st" },
+      "apply": { "combo_skill": "st" },
+      "modes": { "will": { "pull": [ "battle_skill", "combo_skill" ] } },
+      "_note": "Forma INT (la de la Tier List). Artillery Interdiction: st; el Cluster Strike (parte de la SEQ 5 con el Array activo) es 'Area DMG al enemigo golpeado': small. Jadecrushing Grid: daño y Nature Infliction 'a los enemigos dentro del área': area. Yinglung Stance IV: los Tactical Doubles pegan 'al objetivo y a los cercanos' (Base 80%: small), la Explosion al terminar el Imprisonment y el Bonus DMG al golpear al aprisionado con la battle van solo a ese objetivo (st); la Nature/Cryo Susceptibility y el Imprisonment se apilan en un solo objetivo según la experiencia del usuario (apply combo st), aunque el texto diga 'target and nearby enemies'. Gloompurge: creación del Array (180%) y Corrosión forzada (INT) 'a los enemigos en el AOE': area; Gloompurge Arcana (1440%) 'en un AOE grande': large. Tactical Planning E2 y M5 (Arts Amp propio), Type 42 en INT (buffs propios) y Hot Work van a todos los objetivos; el trigger 'al aplicar Arts Susceptibility' del arma no existe en la sim (toggle del calc). Forma WILL: la battle atrae a los enemigos del área y el combo atrae un poco a los cercanos (modes.will.pull); la Susceptibility de la ult escala con Will (arcane-4, attrScale, solo en el calc)."
+    },
+    "mifu": {
+      "slots": { "basic_attack": "small", "battle_skill": "small", "combo_skill": "st", "ultimate": "st" },
+      "stats": { "Cloudtrapper": "small", "Trail and Mangle": "st", "World Splitter": "area" },
+      "pull": [ "battle_skill" ],
+      "_note": "Fistmancer of Blades: espadón, small por defecto (decisión global de básicos por arma). Qingbo Triplex, tres movimientos por nombre de stat: Cloudtrapper (150%) golpea 'al objetivo y a los cercanos y los atrae': small + pull (solo ese movimiento); Trail and Mangle (200%): flurry sobre el objetivo, el último puñetazo aplica Crush consumiendo su Vulnerability: st; World Splitter (600%): 'daño masivo en área como Crush DMG': area (el Crush se resolvería sobre cada objetivo con Vulnerability: capa de estados pendiente). Fists of No Regrets: gancho al enemigo con Physical Susceptibility (mifu-1, M1 +5%): st. Pile of No Mercy: eleva a un objetivo y lo estrella (700%): st. Stern Crackdown (World Splitter ×1.1/1.2 contra Susceptible o Staggered) es condicional del objetivo y no está modelado. Amaranthine Tassel (buff propio por Crush) va a todos; Swordmancer añade un golpe extra de 250% al aplicar un estado físico: st."
+    },
+    "avywenna": {
+      "slots": { "basic_attack": "st", "battle_skill": "small", "combo_skill": "area", "ultimate": "area" },
+      "stats": { "Thunderlance DMG Multiplier": "st", "Thunderlance EX DMG Multiplier": "st" },
+      "_note": "Thunderlance: Blitz: lanza, básicos físicos st. Interdiction: el remolino da 'algo de Electric DMG a los cercanos' (DMG Multiplier 150%: small); las lanzas que vuelven (Thunderlance 168% × lanzas, EX 432%) 'atraviesan a todos los enemigos en su trayectoria' según el texto, pero en la práctica vuelven por el objetivo y el usuario la clasifica como single target pura contra oleadas: st (decisión del usuario; alternativa literal: line). La EX de vuelta aplica Electric Infliction al mismo alcance. Strike: tira 3 lanzas al objetivo y da 1 golpe (380%) 'a los enemigos en el área': area. Final Shock: EX 'al área objetivo, daño masivo a los cercanos' (950%): area; Tactful Approach añade Electric Susceptibility a los golpeados (avywenna-3, anchor ult: aplicación area). Carrot and Sharp Stick (M5, 5★ activo): ×1.15 de las lanzas contra objetivo Electric Susceptible, condicional del objetivo. JET y Bonekrusha son buffs propios."
+    },
+    "yvonne": {
+      "slots": { "basic_attack": "st", "battle_skill": "small", "combo_skill": "small", "ultimate": "st" },
+      "stats": { "DMG Multiplier of Solidification Applied": "st" },
+      "pull": [ "combo_skill" ],
+      "_note": "Exuberant Trigger: cañón, st; durante Cryoblasting Pistolier los básicos suman +20% (BATK DMG Multiplier), la última SEQ pasa a Enhanced Final Strike (300%) y el ataque adicional (600%) exige Solidification en el objetivo: todo st. Brr-Brr-Bomb β: la bomba explota al tocar al enemigo y puede golpear a varios ('aunque golpee a varios enemigos', M4 'si la primera explosión golpea solo a uno'): Base 250% small; la parte por Solidification aplicada (150%) y el bono por stack consumido son del objetivo: st; fuerza Solidification en lo que golpea con Cryo/Nature Infliction (aplicación small). Flashfreezer υ37: Frost-e-Bytee golpea a los cercanos y los atrae (Energy 100% ×4, M1 +2 y radio +20%): small + pull; al expirar explota (200%) con Solidification forzada a los cercanos: small. Freezing Point y Tink-a-Power (Critical DMG contra Cryo Infliction / Solidification) son buffs propios condicionados al estado del objetivo: un secundario sin el estado no los recibe. Artzy Tyrannical y MI Security: buffs propios."
+    },
+    "lastrite": {
+      "slots": { "basic_attack": "small", "battle_skill": "st", "combo_skill": "st", "ultimate": "st" },
+      "_note": "Dance of Rime: espadón, small por defecto. Esoteric Legacy of Seš'qa: el Mirage persigue 'al objetivo' del siguiente Final Strike (320%) y le aplica Cryo Infliction: st (esa inflicción no está modelada en inflictions.json, TBD). Winter's Devourer: encierra 'al enemigo objetivo' y consume sus stacks de Cryo (Ice Shard 160%, Slash 160%, +240% por stack: del objetivo): st; Hypothermia aplica Cryo Susceptibility a ese objetivo al consumir (lastrite-3, trigger: aplicación en el primario). Vigil Services: tres tajos de guadaña (400/400/800) sin mención de área en el texto: st (el usuario la etiqueta st; si los tajos barren, subir a small). Cryogenic Embrittlement multiplica la Susceptibility del objetivo golpeado por la ult (condicional del objetivo, no modelado). Khravengger y Tide Surge: buffs propios."
+    },
+    "endministrator": {
+      "slots": { "basic_attack": "st", "battle_skill": "area", "combo_skill": "st", "ultimate": "fan" },
+      "stats": { "Bonus DMG Multiplier": "st" },
+      "_note": "Destructive Sequence: espada, st. Constructive Sequence: 'ataca a los enemigos dentro del área' con Physical DMG y Crush (350%): area; el Crush consume la Vulnerability de cada objetivo (capa de estados pendiente). Sealing Sequence: corre al lado del enemigo (100%) y le adhiere Originium Crystals; el Crystal Shattering (400%) salta al aplicar un estado físico o Vulnerability a ese sellado: st (en la sim entra siempre en el bloque base: hueco del motor; los cristales no están modelados). Bombardment Sequence: 'daño masivo a todos los enemigos en un abanico' (800%): fan; el golpe extra (Bonus 600%) solo sobre el enemigo con cristales: st. Realspace Stasis (Physical DMG Taken +20/30% a enemigos con cristales, endministrator-2, pendiente) queda en el objetivo sellado; Grand Vision y Grizzled Edge son buffs propios. Tres keystones (M3-M5) sin texto en operators.json."
+    },
+    "tangtang": {
+      "slots": { "basic_attack": "st", "battle_skill": "small", "combo_skill": "line", "ultimate": "area" },
+      "stats": { "Shooting DMG Multiplier": "st" },
+      "_note": "I'LL BLOW YOUR MIND!: cañón, st (dive y finisher físicos). IMA WAVERIDAAH!: el disparo a quemarropa va 'al enemigo' (Shooting 180%: st); el Waterspout 'aplica 1 stack de Cryo Infliction a los enemigos en su rango y daño en el tiempo' (DMG Multiplier (1 Waterspout) 300%: small, con la Cryo Infliction al mismo alcance); con 2-3 Waterspouts (Whirlpools consumidos) también Arts Susceptibility +5/+10% (tangtang-6: aplicación small). RIVER, TO ME!: chorro que 'atraviesa a todos los enemigos en su trayectoria' (240%): line. DA CHIEF SEES YOU!: OLDEN STARE inmoviliza y daña 'a los enemigos dentro de su área' (DoT 320%) y la ola (400%, o 700% adelantada con un dive) golpea 'a los enemigos en su área': area (el usuario la etiqueta aoe; si el patrón es grande, subir a large). Riot Bringer (+40/60% a los Waterspouts del ult, tangtang-1) es propio. Brigand's Calling: además del buff propio, 'cuando la battle o la ult aplican Arts Susceptibility el objetivo sufre Arts DMG Taken +9.6%': no está en weapon-buffs.json (hueco); seguiría el alcance del Waterspout. Qingbo: propio."
+    },
+    "estella": {
+      "slots": { "basic_attack": "st", "battle_skill": "line", "combo_skill": "small", "ultimate": "area" },
+      "apply": { "combo_skill": "st" },
+      "primaryOnly": [ "estella-1" ],
+      "_note": "Audio Noise: lanza, básicos físicos st. Onomatopoeia: ondas de sonido que dañan y aplican Cryo Infliction 'a todos los enemigos en su trayectoria recta' (350%): line, con la inflicción al mismo alcance; Delayed Work (M3, 4★ activo): rango +50% y +40% de daño solo 'al primer enemigo golpeado' (estella-1: solo el primario, primaryOnly). Distortion: se mueve al lado del enemigo, Physical DMG y Lift forzado 'a los enemigos en un área pequeña' (360%, 630% contra Solidificado: reemplazo condicionado al estado del objetivo): small; la Physical Susceptibility (estella-2) solo sobre el objetivo Solidificado golpeado: apply st. Tremolo: 'a todos los enemigos en un área circular alrededor de ella' (1100%): area; fuerza Lift a los que tengan Physical Susceptibility. OBJ Razorhorn: +22.4% de daño contra enemigos con Cryo Infliction o Solidification (condicional del objetivo, no está en weapon-buffs) y ATK al consumir Solidification (propio). Type 50 Yinglung: propio."
+    },
+    "ember": {
+      "slots": { "basic_attack": "small", "battle_skill": "fan", "combo_skill": "st", "ultimate": "area" },
+      "_note": "Sword Art of Assault: espadón, small por defecto. Forward March: salto y golpe pesado con Heat DMG, Knock Down y Stagger 'a todos los enemigos en un abanico' (390%): fan (el Knock Down genera Vulnerability en cada uno; reacción física desde skill pendiente en la sim). Frontline Support: salta 'al enemigo objetivo' con Physical DMG y Knock Down (230%) y cura: st. Re-Ignited Oath: golpe al suelo con Heat DMG 'a los enemigos cercanos' (650%) y escudo al equipo: area. Pay the Ferric Price (ATK al recibir daño, ember-1) es propio y no simulable; The Steel Oath (M5) propio. Thunderberge (escudos) y LYNX no tienen buffs de daño."
+    },
+    "pogranichnik": {
+      "slots": { "basic_attack": "st", "battle_skill": "fan", "combo_skill": "st", "ultimate": "line" },
+      "stats": { "Harass DMG Multiplier": "st", "Decisive Assault DMG Multiplier": "st" },
+      "pull": [ "ultimate" ],
+      "_note": "All-Out Offensive: espada, st; la SEQ 3 mejorada exige 4 Vulnerability en el objetivo (reemplazo por stacks, del objetivo). The Pulverizing Front: dos tajos 'a los enemigos frente a él' (192%, 238%) que aplican Breach consumiendo Vulnerability: fan (la recuperación de SP solo cuenta una vez aunque golpee a varios; M1 devuelve SP al golpear a 2 o más, 6★ M0 no aplica). Full Moon Slash: tajos según la Vulnerability consumida del objetivo (95/122/149, 297 con 4 stacks): st. Shieldguard Banner, Forward: los Shieldguards avanzan y 'empujan a todos los enemigos en su camino hacia el objetivo' (Advance 300%): line + pull (agrupa sobre el objetivo); los golpes de Steel Oath (Harass 100% 'al enemigo en cuestión', Decisive Assault 450% 'al objetivo') son st: el motor los emite como golpes de la ult con esas stats. The Living Banner / Fervent Morale (pendiente) es propio; Thermite Cutter y Frontiers (ATK/DMG al equipo al recuperar SP) son del lado del atacante."
+    },
+    "dapan": {
+      "slots": { "basic_attack": "small", "battle_skill": "st", "combo_skill": "st", "ultimate": "fan" },
+      "_note": "ROLLING CUT!: espadón, small por defecto. FLIP DA WOK!: volteo de wok con Physical DMG y Lift 'al enemigo' (300%): st; Fire it Up (M5, 5★ activo): si golpea a un solo enemigo, +1 Vulnerability (condición inversa al número de objetivos, solo nota). MORE SPICE!: golpe de wok 'al enemigo' con Crush (650%, Crush +20%): st. CHOP 'N DUNK!: eleva 'a todos los enemigos en el área frente a él', flurry aérea de 6 (50% cada una) y estrella 'a cada enemigo' con Knock Down (400%): fan (el usuario lo etiqueta st: si el área es mínima, bajar a small); Salty or Mild da Prep Ingredients por cada enemigo golpeado por la secuencia final (reduce el cooldown del combo, sin daño). Reduce and Thicken (por Vulnerability consumida, dapan-1), Exemplar y Grizzled Edge son buffs propios."
+    },
+    "arclight": {
+      "slots": { "basic_attack": "st", "battle_skill": "st", "combo_skill": "st", "ultimate": "line" },
+      "_note": "Seek and Hunt: espada, st. Tempestuous Arc: parpadea al lado del enemigo, dos tajos físicos (101%, 101%) y, si el objetivo tiene Electrificación, la consume y añade un ataque eléctrico (405%): st. Peal of Thunder: flurry sobre el enemigo (350%): st. Exploding Blitz: carrera 'a todos los enemigos en el camino' con Electric Infliction (SEQ 1 350%) y explosión de los arcos (SEQ 2 550%) que consume la inflicción y fuerza Electrificación: line, con la inflicción y la reacción al mismo alcance. Wildland Trekker (Electric DMG al equipo, arclight-1), Thermite Cutter y Frontiers son del lado del atacante."
+    },
+    "akekuri": {
+      "slots": { "basic_attack": "st", "battle_skill": "fan", "combo_skill": "line", "ultimate": "st" },
+      "_note": "Sword of Aspiration: espada, st. Burst of Passion: 'tajo frontal' con Heat DMG y Heat Infliction (320%): fan, con la inflicción al mismo alcance. Flash and Dash: carrera de ida y vuelta con dos estocadas (180% cada una) que recuperan SP: line (golpea lo que cruza). SQUAD! ON ME!: tres bengalas que recuperan SP, sin daño; otorga Link (Staying in the Zone). Positive Feedback (ATK propio al recuperar SP), Committed Team Player (ATK al equipo durante la ult), Thermite Cutter y Frontiers son del lado del atacante."
+    },
+    "wulfgard": {
+      "slots": { "basic_attack": "st", "battle_skill": "st", "combo_skill": "small", "ultimate": "area" },
+      "_note": "Rapid Fire Akimbo: cañón, st. Thermite Tracers: varios disparos 'al objetivo' (230%) y, si tiene Combustión o Electrificación, la consume para un disparo adicional (850%); si no, el último disparo aplica Heat Infliction: st. Frag Grenade·β: granada 'a la posición del objetivo' con Heat DMG y Heat Infliction 'a los enemigos cercanos' (135%): small, con la inflicción al mismo alcance. Wolven Fury: ráfaga que 'ataca a los enemigos cercanos' con 5 golpes (72% cada uno) y fuerza Combustión (área): area, con la reacción al mismo alcance. Scorching Fangs (Heat DMG propio al aplicar Combustión) es del atacante; Clannibal: además del bono propio, 'tras consumir una Arts Reaction el enemigo objetivo sufre Arts DMG Taken +16%' (clannibal_arts_taken, trigger): sigue al consumo de la battle, st."
+    },
+    "antal": {
+      "slots": { "basic_attack": "st", "battle_skill": "st", "combo_skill": "st", "ultimate": "st" },
+      "_note": "Exchange Current: unidad Arts, st. Specified Research Subject: aplica Focus 'al enemigo' (200%) y el enemigo con Focus sufre Electric y Heat Susceptibility (antal-2, antal-k5 a M5); 'Focus solo puede estar en 1 enemigo a la vez': st, y la Susceptibility también (aplicación st). EMP Test Site: 'una explosión de energía en el enemigo' (340%) que copia su estado: st. Overclocked Moment: Amp Electric y Heat al equipo, sin daño. Detonation Unit: 'tras aplicar un Arts Burst, el enemigo objetivo sufre Arts DMG Taken' (trigger, primario). Eternal Xiranite pendiente de modelo."
+    },
+    "perlica": {
+      "slots": { "basic_attack": "st", "battle_skill": "small", "combo_skill": "st", "ultimate": "area" },
+      "_note": "Protocol α: Breach: unidad Arts, st. Protocol ω: Strike: descarga con Electric DMG y Electric Infliction 'a los enemigos en un área pequeña' (400%): small, con la inflicción al mismo alcance. Instant Protocol: Chain: bombardea 'al objetivo' (180%) y fuerza Electrificación temporal: st (Cycle Protocol encadena un golpe más contra Vulnerable: no modelado). Protocol ε: 70.41K: escombro orbital, 'todos los enemigos en el área de efecto' (1000%): area (si el impacto cubre todo el campo, subir a large). Obliteration Protocol (+20/30% contra Staggered, perlica-1 whenState): propio pero condicionado al estado del objetivo. Supervisory Duties (ATK propio al electrificar) y Pulser Labs: propios; Detonation Unit (Arts DMG Taken al aplicar Burst): trigger, primario."
+    },
+    "ardelia": {
+      "slots": { "basic_attack": "st", "battle_skill": "st", "combo_skill": "st", "ultimate": "area" },
+      "stats": { "Explosion DMG Multiplier": "small" },
+      "apply": { "combo_skill": "small" },
+      "_note": "Rocky Whispers: unidad Arts, st. Dolly Rush: embiste 'al objetivo' (320%); si tiene Corrosión la consume y le aplica Physical y Arts Susceptibility (ardelia-1, M1 +8%): st, aplicación st. Eruption Column: nube volcánica 'a un enemigo objetivo' (100%: st); al explotar da la mitad del daño (Explosion 250%: small) y fuerza Corrosión temporal 'a los enemigos cercanos' (apply combo small). Wooly Party: copias de Mr. Dolly en direcciones aleatorias, cada una 165%, máximo un golpe por enemigo cada 0.3 s: area (en timings.json la ult no trae golpes: en la Rotación no hace daño). Dreams of the Starry Beach: 'tras consumir Corrosión el enemigo objetivo sufre Arts DMG Taken' (trigger, sigue a la battle: primario). Eternal Xiranite pendiente de modelo."
+    },
+    "xaihi": {
+      "slots": { "basic_attack": "st", "battle_skill": "st", "combo_skill": "small", "ultimate": "st" },
+      "max": { "combo_skill": 2 },
+      "_note": "Cooldown: unidad Arts, st. Distributed DoS: Auxiliary Crystal que cura o da Arts Amp, sin daño. Stress Testing: lanza el cristal 'al enemigo' con Cryo DMG y Cryo Infliction (450%); Mapping Node (M3, 5★ activo): 'el golpe encadena una vez a un objetivo adicional cercano': small con tope 2 (max), inflicción al mismo alcance. Execute Process (Cryo DMG Taken +7/10% al golpear con Cryo Infliction o Solidification, xaihi-3): sin anclaje, primario. Stack Overflow: Cryo y Nature Amp al equipo, sin daño. Detonation Unit: trigger, primario. Eternal Xiranite pendiente de modelo."
+    },
+    "alesh": {
+      "slots": { "basic_attack": "st", "battle_skill": "small", "combo_skill": "st", "ultimate": "large" },
+      "_note": "Basic Rod Casting: espada, básicos físicos st. Unconventional Lure: bloque de hielo 'al enemigo objetivo' (450%); 'la recuperación de SP solo se activa una vez aunque golpee a varios enemigos', así que el golpe alcanza a más de uno: small; fuerza Solidification en cada golpeado con Cryo Infliction (aplicación small). Auger Angling: agujero 'bajo el enemigo' (300%, 480% con Rare Fin): st. One Monster Catch!: aleta gigante con Cryo DMG y Cryo Infliction 'a los enemigos en un área grande frente a él' (980%): large, con la inflicción al mismo alcance; SP extra por objetivo derrotado (recurso); Mega Lunker Rumors (M5, 5★ activo): ×1.5 contra objetivo por debajo del 50% de HP (estado del objetivo). May the Willing Bite (ATK al equipo), Thermite Cutter y Frontiers: del atacante."
+    },
+    "fluorite": {
+      "slots": { "basic_attack": "st", "battle_skill": "small", "combo_skill": "st", "ultimate": "st" },
+      "_note": "Signature Gun Kata: cañón, st. Tiny Surprise: explosivo pegado al objetivo que estalla con Nature DMG y Nature Infliction 'a los enemigos en el área de efecto' (420%): small, inflicción al mismo alcance; Triple Surprise (M3, 4★ activo) aplica Slow a todos los golpeados; la ult sube el tamaño y el daño de la explosión (Battle Skill AOE/DMG Boost 30%, no modelado). Free Giveaway: dispara 'al enemigo objetivo' (380%) y copia su Arts Infliction: st. Apex Prankster: cuatro ráfagas 'al objetivo dentro del arco' (250% cada una): st; la última copia la inflicción si el objetivo tiene 2+ stacks. Love the Stab and Twist (+10/20% contra Slowed, fluorite-1) es propio pero condicionado al objetivo (Slow no está en el modelo de estados). OBJ Velocitous: propio."
+    },
+    "snowshine": {
+      "slots": { "basic_attack": "small", "battle_skill": "st", "combo_skill": "st", "ultimate": "area" },
+      "_note": "Hypothermic Assault: espadón, small por defecto. Saturated Defense: escudo; la represalia (450%) golpea 'al atacante' y le aplica Cryo Infliction: st, situacional (solo si la atacan; no modelado en inflictions.json). Polar Rescue: curación, sin daño. Frigid Snowfield: golpe con el escudo 'a los enemigos en el área de efecto' (Explosion 450%) y Snow Zone con daño en el tiempo (65% cada 0.5 s) que fuerza Solidification 'a los enemigos atrapados en ella': area (Storm Region, M2 5★ activo: radio +20%), con la reacción al mismo alcance. Finishing Call cura; Eternal Xiranite pendiente de modelo."
+    },
+    "chenqianyu": {
+      "slots": { "basic_attack": "st", "battle_skill": "st", "combo_skill": "line", "ultimate": "st" },
+      "_note": "Soaring Break: espada, st. Ascending Strike: gancho ascendente 'al enemigo objetivo' con Lift (380%): st. Soar to the Stars: carrera cortante que 'atraviesa al objetivo y da Physical DMG y Lift a todos los enemigos en el camino' (270%): line, con el Lift (Vulnerability) al mismo alcance. Blade Gale: siete tajos 'al enemigo objetivo' (81% ×6, Final Strike 1023%): st. Slashing Edge (ATK propio por golpe de skill) y Dual-Wielding Swordmancer son propios; Shadowless (M1, 5★ activo: +20% contra enemigos por debajo del 50% de HP) es propio pero condicionado al estado del objetivo. Glorious Memory y Qingbo: propios."
+    },
+    "lifeng": {
+      "slots": { "basic_attack": "st", "battle_skill": "st", "combo_skill": "st", "ultimate": "large" },
+      "stats": { "SEQ 3 DMG Multiplier": "area" },
+      "apply": { "battle_skill": "area" },
+      "applyBuff": { "lifeng-2": "st" },
+      "pull": [ "ultimate" ],
+      "_note": "Ruination: lanza, st. Turbid Avatar: dos golpes de lanza (86%, 86%: st) y un golpe al suelo con Physical DMG y Knock Down 'a todos los enemigos en el área de efecto' (SEQ 3 268%: area; el Knock Down deja Vulnerability en cada uno: apply battle area); si el enemigo golpeado por el último golpe no tiene Vulnerability, recibe Physical Susceptibility 'el enemigo en cuestión' (lifeng-2, M1 +5%: applyBuff st). Aspect of Wrath: estocada (105%, 375%) y Link: st. Heart of the Unmoving: Vajra con Physical DMG y Knock Down 'a todos los enemigos en un área grande' (SEQ 1 400%), 'los enemigos son atraídos al centro' (pull), segundo golpe a los que sigan dentro (SEQ 2 400%) y golpe adicional al consumir Link (600%): large + pull. Subduer of Evil (50/100% ATK físico por cada Knock Down aplicado; M5 +250% cada 15 s) es un golpe extra que seguiría el alcance del Knock Down: no modelado. Mountain Bearer: +32% contra enemigos con Vulnerability (whenState, condicionado al objetivo) y atributos al aplicar (pendiente); Swordmancer: golpe extra de 250%: st."
+    },
+    "camille": {
+      "slots": { "basic_attack": "st", "battle_skill": "small", "combo_skill": "st", "ultimate": "area" },
+      "stats": { "Explosion DMG Multiplier": "st" },
+      "applyBuff": { "camille-2": "st", "camille-k1": "st" },
+      "_note": "Sanguine Absolution: lanza, st. Blazing Exorcism: los Firefang Vesperwings vuelan 'hacia el enemigo' con Heat DMG y Heat Infliction 'en un área pequeña' (200%): small, inflicción al mismo alcance; después revolotean 'alrededor del objetivo' aplicando Weakness y Heat Susceptibility solo a ese objetivo (camille-2, camille-k1: applyBuff st) y saltan a otro cercano cuando muere; la explosión al golpear con el combo a un enemigo con Vesperwings (Explosion 100%): st. Heartstake Thorn: carrera de ida y vuelta 'sobre el enemigo' (300%; Hunter Pursuit 500% tras la ult, reemplazo por estado propio): st. Sanguine Downpour: lluvia de lanzas y barrido con Heat DMG y Heat Infliction 'a los objetivos golpeados' (600%): area, inflicción al mismo alcance. Bloodfount Revival (Heat DMG propio y al equipo por curación), Blessing of Lustrous Carmine y Frontiers: del atacante."
+    },
+    "liino": {
+      "slots": { "basic_attack": "st", "battle_skill": "area", "combo_skill": "area", "ultimate": "large" },
+      "_note": "Starry Heart Throb: lanza, st. Dazzling Focus: 'Electric DMG a los enemigos' (First ATK 240%) y, en Vocalist Stance, un ataque adicional cada 10 s 'a los enemigos' cercanos (Additional ATK 120%): area (el texto no fija la forma; si es un barrido frontal, fan). Delightful Harmonics: 'Electric DMG a los enemigos' (360%): area. Dawnstar Concerto: Stage Pyrotechnics (320%), beats (60% cada 1.5 s 'a los enemigos en el AOE') y Electrifying Extravaganza (640%) que fuerza Electrificación 'a los enemigos en un área grande': large, con la reacción al mismo alcance. Todos sus buffs (ATK Boost, Amp por Will) son al equipo; Idol Zone es defensivo. Bedazzling Night Debut (ATK a quien recibe su curación) no está en weapon-buffs.json; Eternal Xiranite pendiente. Sin timings.json: la Rotación usa el fallback de 1 golpe por skill."
+    },
+    "catcher": {
+      "slots": { "basic_attack": "small", "battle_skill": "st", "combo_skill": "st", "ultimate": "small" },
+      "stats": { "SEQ 3 DMG Multiplier": "area" },
+      "apply": { "ultimate": "area" },
+      "_note": "Basic Tactics: espadón, small por defecto. Rigid Interdiction: escudo; la represalia (400%) golpea 'al enemigo atacante' y le aplica Vulnerability: st, situacional. Timely Suppression: puñetazo descendente 'al enemigo' (55%, 225%) con escudos: st. Textbook Assault: dos tajos con Weaken (200%, 270%: small, barrido de espadón) y un golpe descendente con Knock Down 'a todos los enemigos en el área de efecto' (SEQ 3 400%: area, Vulnerability al mismo alcance). Comprehensive Mindset: el golpe final crea 2/3 ondas de choque de 30/45% ATK (catcher-t2, golpe extra al lanzar la ult): seguirían el área del golpe final. Multi-layered Readiness (M1, 4★ activo: golpe extra [300 + DEF×5] tras acertar con battle o ult) no está modelado. OBJ Heavy Burden es defensivo; Eternal Xiranite pendiente."
+    },
+    "typhoeus": {
+      "slots": { "basic_attack": "st", "battle_skill": "small", "combo_skill": "area", "ultimate": "area" },
+      "stats": { "Normal Hail of Arrows": "small", "Empowered Hail of Arrows": "small" },
+      "max": { "battle_skill": 2 },
+      "_note": "Wildlands Huntress: unidad Arts, st. Piercing Arrows of the Woods: 5 Aerial Basic Attacks, 'cada ABATK dispara a hasta 2 objetivos' (ABATK 65%, Aerial Final Strike 100%): small con tope 2 (max); Power Shot fuerza Nature Burst en el golpeado. Rampant Thorns: 'Huntress's Gaze' (200%) y Barrage Array con daño en el tiempo (100%), Slow y Nature Burst DMG Taken 'a los enemigos en el Array' (typhoeus-1, typhoeus-k3: aplicación area): area. Call of Ice Mountain: Imbued Arrow que explota 'a los enemigos dentro del AOE' (300%): area; Hail of Arrows (75%, potenciada 200%) cae 'en la posición del objetivo': small. Huecos de data: sus stats de daño no llevan 'Multiplier' en el nombre (ABATK DMG, Aerial Final Strike DMG, Huntress's Gaze Hit DMG, Hail of Arrows DMG…), así que el calc de Daño solo cuenta el Initial Aerial Shot; sin timings, conditions ni inflictions (kit pendiente en la sim); Umbra of Frigid Eventide sin entrada en weapon-buffs.json; Deep Rampart pendiente."
+    }
+  }
+}

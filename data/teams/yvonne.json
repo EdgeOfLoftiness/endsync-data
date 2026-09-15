@@ -678,7 +678,13 @@
             }
           }
         ]
-      }
+      },
+      "rotationCode": "AX2MQQrCMBBFL_QXmczEpNkOuYCQA0QJGihViohCydmlm-qiuPk8eLx_pGXp7-dtmmokWDAEDmQ3TBJABKV1N_-ffuud-KuzyO5tf5V2bTFBiQ0SQ8lYJE9QFqilAZks90sbT3V-lKjBrMpDxTAyD_1e57GdS1QvUD44qFhCDu4D",
+      "rotationCodeNote": {
+        "es": "Traducida de la guía (rotación 1+3). Adaptación nuestra: la barra de SP compartida de la sim no sostiene tantas Battle Skills, así que faltan la de Perlica del pre-ult y dos de Xaihi.",
+        "en": "Translated from the guide (the 1+3 rotation). Our adaptation: the sim's shared SP bar cannot sustain that many Battle Skills, so Perlica's pre-ult one and two of Xaihi's are left out."
+      },
+      "rotationBurstAt": 40.5
     },
     {
       "name": {
@@ -995,6 +1001,9 @@
           "note": {
             "es": "Solo necesita el Ultimate; con recursos, a nivel 80 y Ultimate en especialización 1 para que la Susceptibility llegue a su máximo.",
             "en": "She only needs the Ultimate; with resources, level 80 and Ultimate at specialization 1 so the Susceptibility reaches its max."
+          },
+          "assumeRanks": {
+            "ultimate": 10
           }
         },
         {
@@ -1003,6 +1012,9 @@
           "note": {
             "es": "Su Combo es lo que aporta (SP + Thermite Cutter); priorízalo (nivel 6 de Combo Skill). El Battle Skill es solo red de seguridad.",
             "en": "His Combo is what contributes (SP + Thermite Cutter); prioritize it (Combo Skill level 6). The Battle Skill is just a safety net."
+          },
+          "assumeRanks": {
+            "combo_skill": 6
           }
         }
       ],
@@ -1430,6 +1442,9 @@
           "note": {
             "es": "La Susceptibility del burst; a especialización 1 (nivel 80) llega a su máximo.",
             "en": "The burst's Susceptibility; at specialization 1 (level 80) it hits its max."
+          },
+          "assumeRanks": {
+            "ultimate": 10
           }
         },
         {
@@ -1959,6 +1974,11 @@
           "note": {
             "es": "Ultimate (S3) a especialización 3 primero. El básico no sube el daño del Ultimate, pero sí el del Finisher — y con el crítico y el daño crítico altísimos de Yvonne, un Finisher con los buffs encima pega una barbaridad. Battle Skill y Combo también escalan bien: con recursos, todo a especialización 3; si no, nivel 9 basta.",
             "en": "Ultimate (S3) to specialization 3 first. Basics do not raise the Ultimate's damage, but they raise the Finisher's — and with Yvonne's sky-high crit rate and crit damage, a buffed-up Finisher hits absurdly hard. Battle Skill and Combo also scale well: with resources, everything to specialization 3; otherwise level 9 does it."
+          },
+          "assumeRanks": {
+            "ultimate": 12,
+            "battle_skill": 9,
+            "combo_skill": 9
           }
         },
         {
@@ -1967,6 +1987,11 @@
           "note": {
             "es": "Combo (S2) a especialización 3 — es donde vive su Susceptibility. Ultimate, Battle Skill y básico a nivel 9.",
             "en": "Combo (S2) to specialization 3 — that is where her Susceptibility lives. Ultimate, Battle Skill and basics at level 9."
+          },
+          "assumeRanks": {
+            "combo_skill": 12,
+            "ultimate": 9,
+            "battle_skill": 9
           }
         },
         {
@@ -1975,6 +2000,10 @@
           "note": {
             "es": "Ultimate (S3) a especialización 3: es su Amp de equipo a valor completo. Battle Skill a nivel 9 (+13%) o especialización 3 (+15%). El resto puede quedarse sin puntos.",
             "en": "Ultimate (S3) to specialization 3: that is her team Amp at full value. Battle Skill at level 9 (+13%) or specialization 3 (+15%). The rest can stay unleveled."
+          },
+          "assumeRanks": {
+            "ultimate": 12,
+            "battle_skill": 9
           }
         },
         {
@@ -1983,6 +2012,9 @@
           "note": {
             "es": "Ultimate a especialización 1 y listo. Lo demás no importa.",
             "en": "Ultimate to specialization 1 and done. Nothing else matters."
+          },
+          "assumeRanks": {
+            "ultimate": 10
           }
         }
       ],

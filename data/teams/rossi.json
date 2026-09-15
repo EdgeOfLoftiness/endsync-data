@@ -849,7 +849,12 @@
      }
     ]
    },
-   "rotationCode": "AQXBSwqAIBAA0AvNYsYibLaDFwg8gP1MEg0r2ohn772Jam1X9sWlsBwpnGxBOsT2vXH3rqxsegQBCwJGKd18iPNWHsdChGBpxFbyfQc2pBFEIdgBfw"
+   "rotationCode": "AQsyrKmpK8ovLs60cjU0NtJxNtIJNa0rL81JS08sSrFyBQkZ64TquBqZG9YV5KcXJeZlJmfkZWZbgcQMjXScDQ3q0jNzklKLShKtnA0NTHRCLS0B",
+   "rotationCodeNote": {
+    "es": "Traducida paso a paso de la guía: Ult de Pogranichnik, cadena de Wulfgard con el cancel aéreo, Clawmark + Combo de Rossi, doble Ult, Breach y Combo de Pogranichnik y la Battle Skill mejorada de Wulfgard. Sin el 2.º Combo de Wulfgard (su reset depende del potencial 5).",
+    "en": "Translated step by step from the guide: Pogranichnik's Ult, Wulfgard's chain with the aerial cancel, Rossi's Clawmark + Combo, double Ult, Pogranichnik's Breach and Combo, and Wulfgard's enhanced Battle Skill. Without Wulfgard's 2nd Combo (its reset needs potential 5)."
+   },
+   "rotationBurstAt": 6.6
   },
   {
    "name": {
@@ -1459,7 +1464,13 @@
       }
      }
     ]
-   }
+   },
+   "rotationCode": "AYWKOwrDMBQEL7RF9ulnq33oAgEdQA4mCEQSZJdGZw9JkZTudmb2yuMY_bltNRICAwuHZKDgn09nItRNyJQZPztea2_1VmLyUPoANf57zfRm3Gtb1r6XqJwnqLEBmXSjPPbSolIEiRf5FIsc5A0",
+   "rotationCodeNote": {
+    "es": "Traducida de la guía. Adaptación nuestra: en la sim la Vulnerability dura unos 4,5 s, así que la Battle Skill de Rossi (Clawmark) va justo antes de cada Combo suyo, y la de Antal se retrasa para no vaciar la barra de SP en la apertura.",
+    "en": "Translated from the guide. Our adaptation: in the sim Vulnerability lasts about 4.5 s, so Rossi's Battle Skill (Clawmark) goes right before each of her Combos, and Antal's is delayed so the SP bar is not drained in the opener."
+   },
+   "rotationBurstAt": 34.6
   },
   {
    "name": {
@@ -3077,6 +3088,9 @@
      "note": {
       "es": "Del análisis del autor: el Combo a rango 12 paga 25% de probabilidad de crítico y 50% de daño crítico con 14s de cooldown — es la skill que define a Rossi. El Ultimate sube el techo del burst; la Battle Skill va última.",
       "en": "From the analysis by the author: the Combo at rank 12 pays 25% crit rate and 50% crit damage on a 14s cooldown — it is the skill that defines Rossi. The Ultimate raises the burst ceiling; the Battle Skill goes last."
+     },
+     "assumeRanks": {
+      "combo_skill": 12
      }
     }
    ],
@@ -3492,6 +3506,9 @@
      "note": {
       "es": "Del análisis del autor: Combo a rango 12 = 25% de crítico y 50% de daño crítico a 14s de cooldown.",
       "en": "From the analysis by the author: Combo at rank 12 = 25% crit rate and 50% crit damage on a 14s cooldown."
+     },
+     "assumeRanks": {
+      "combo_skill": 12
      }
     }
    ],
@@ -3881,6 +3898,9 @@
      "note": {
       "es": "Del análisis del autor: Combo a rango 12 = 25% de crítico y 50% de daño crítico a 14s de cooldown.",
       "en": "From the analysis by the author: Combo at rank 12 = 25% crit rate and 50% crit damage on a 14s cooldown."
+     },
+     "assumeRanks": {
+      "combo_skill": 12
      }
     }
    ],
@@ -4291,6 +4311,9 @@
      "note": {
       "es": "Del análisis del autor: Combo a rango 12 = 25% de crítico y 50% de daño crítico a 14s de cooldown.",
       "en": "From the analysis by the author: Combo at rank 12 = 25% crit rate and 50% crit damage on a 14s cooldown."
+     },
+     "assumeRanks": {
+      "combo_skill": 12
      }
     }
    ],
@@ -4676,6 +4699,9 @@
      "note": {
       "es": "Del análisis del autor: Combo a rango 12 = 25% de crítico y 50% de daño crítico a 14s de cooldown.",
       "en": "From the analysis by the author: Combo at rank 12 = 25% crit rate and 50% crit damage on a 14s cooldown."
+     },
+     "assumeRanks": {
+      "combo_skill": 12
      }
     }
    ],
@@ -5056,6 +5082,9 @@
      "note": {
       "es": "Del análisis del autor: Combo a rango 12 = 25% de crítico y 50% de daño crítico a 14s de cooldown.",
       "en": "From the analysis by the author: Combo at rank 12 = 25% crit rate and 50% crit damage on a 14s cooldown."
+     },
+     "assumeRanks": {
+      "combo_skill": 12
      }
     }
    ],
@@ -5478,6 +5507,9 @@
      "note": {
       "es": "Del análisis del autor: Combo a rango 12 = 25% de crítico y 50% de daño crítico a 14s de cooldown.",
       "en": "From the analysis by the author: Combo at rank 12 = 25% crit rate and 50% crit damage on a 14s cooldown."
+     },
+     "assumeRanks": {
+      "combo_skill": 12
      }
     }
    ],
@@ -5857,6 +5889,9 @@
      "note": {
       "es": "Del análisis del autor: Combo a rango 12 = 25% de crítico y 50% de daño crítico a 14s de cooldown.",
       "en": "From the analysis by the author: Combo at rank 12 = 25% crit rate and 50% crit damage on a 14s cooldown."
+     },
+     "assumeRanks": {
+      "combo_skill": 12
      }
     }
    ],
@@ -6290,6 +6325,9 @@
      "note": {
       "es": "Del análisis del autor: Combo a rango 12 = 25% de crítico y 50% de daño crítico a 14s de cooldown.",
       "en": "From the analysis by the author: Combo at rank 12 = 25% crit rate and 50% crit damage on a 14s cooldown."
+     },
+     "assumeRanks": {
+      "combo_skill": 12
      }
     }
    ],
@@ -6694,6 +6732,9 @@
      "note": {
       "es": "Del análisis del autor: Combo a rango 12 = 25% de crítico y 50% de daño crítico a 14s de cooldown.",
       "en": "From the analysis by the author: Combo at rank 12 = 25% crit rate and 50% crit damage on a 14s cooldown."
+     },
+     "assumeRanks": {
+      "combo_skill": 12
      }
     }
    ],
@@ -7105,6 +7146,9 @@
      "note": {
       "es": "Del análisis del autor: Combo a rango 12 = 25% de crítico y 50% de daño crítico a 14s de cooldown.",
       "en": "From the analysis by the author: Combo at rank 12 = 25% crit rate and 50% crit damage on a 14s cooldown."
+     },
+     "assumeRanks": {
+      "combo_skill": 12
      }
     }
    ],
@@ -7473,6 +7517,9 @@
      "note": {
       "es": "Del análisis del autor: Combo a rango 12 = 25% de crítico y 50% de daño crítico a 14s de cooldown.",
       "en": "From the analysis by the author: Combo at rank 12 = 25% crit rate and 50% crit damage on a 14s cooldown."
+     },
+     "assumeRanks": {
+      "combo_skill": 12
      }
     }
    ],
@@ -7893,6 +7940,9 @@
      "note": {
       "es": "Del análisis del autor: Combo a rango 12 = 25% de crítico y 50% de daño crítico a 14s de cooldown.",
       "en": "From the analysis by the author: Combo at rank 12 = 25% crit rate and 50% crit damage on a 14s cooldown."
+     },
+     "assumeRanks": {
+      "combo_skill": 12
      }
     }
    ],
@@ -8289,6 +8339,9 @@
      "note": {
       "es": "Del análisis del autor: Combo a rango 12 = 25% de crítico y 50% de daño crítico a 14s de cooldown.",
       "en": "From the analysis by the author: Combo at rank 12 = 25% crit rate and 50% crit damage on a 14s cooldown."
+     },
+     "assumeRanks": {
+      "combo_skill": 12
      }
     }
    ],
@@ -8685,6 +8738,9 @@
      "note": {
       "es": "Del análisis del autor: Combo a rango 12 = 25% de crítico y 50% de daño crítico a 14s de cooldown.",
       "en": "From the analysis by the author: Combo at rank 12 = 25% crit rate and 50% crit damage on a 14s cooldown."
+     },
+     "assumeRanks": {
+      "combo_skill": 12
      }
     }
    ],
@@ -9081,6 +9137,9 @@
      "note": {
       "es": "Del análisis del autor: Combo a rango 12 = 25% de crítico y 50% de daño crítico a 14s de cooldown.",
       "en": "From the analysis by the author: Combo at rank 12 = 25% crit rate and 50% crit damage on a 14s cooldown."
+     },
+     "assumeRanks": {
+      "combo_skill": 12
      }
     }
    ],
@@ -9483,6 +9542,9 @@
      "note": {
       "es": "Del análisis del autor: Combo a rango 12 = 25% de crítico y 50% de daño crítico a 14s de cooldown.",
       "en": "From the analysis by the author: Combo at rank 12 = 25% crit rate and 50% crit damage on a 14s cooldown."
+     },
+     "assumeRanks": {
+      "combo_skill": 12
      }
     }
    ],
@@ -9875,6 +9937,9 @@
      "note": {
       "es": "Del análisis del autor: Combo a rango 12 = 25% de crítico y 50% de daño crítico a 14s de cooldown.",
       "en": "From the analysis by the author: Combo at rank 12 = 25% crit rate and 50% crit damage on a 14s cooldown."
+     },
+     "assumeRanks": {
+      "combo_skill": 12
      }
     }
    ],
@@ -10274,6 +10339,9 @@
      "note": {
       "es": "Del análisis del autor: Combo a rango 12 = 25% de crítico y 50% de daño crítico a 14s de cooldown.",
       "en": "From the analysis by the author: Combo at rank 12 = 25% crit rate and 50% crit damage on a 14s cooldown."
+     },
+     "assumeRanks": {
+      "combo_skill": 12
      }
     }
    ],

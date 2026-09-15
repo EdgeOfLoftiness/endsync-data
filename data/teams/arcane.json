@@ -243,7 +243,7 @@
         }
       ],
       "skillPriority": [
-        { "charId": "arcane", "order": { "es": "Combo (esp. 3) > Ult ≈ Battle Skill ≈ Básico", "en": "Combo (spec. 3) > Ultimate ≈ Battle Skill ≈ Basic" }, "note": { "es": "En forma WILL, subir el combo mejora el valor de Nature/Cryo Susceptibility.", "en": "In WILL form, leveling the combo improves the Nature/Cryo Susceptibility value." } },
+        { "charId": "arcane", "order": { "es": "Combo (esp. 3) > Ult ≈ Battle Skill ≈ Básico", "en": "Combo (spec. 3) > Ultimate ≈ Battle Skill ≈ Basic" }, "note": { "es": "En forma WILL, subir el combo mejora el valor de Nature/Cryo Susceptibility.", "en": "In WILL form, leveling the combo improves the Nature/Cryo Susceptibility value." }, "assumeRanks": { "combo_skill": 12 } },
         { "charId": "lastrite", "order": { "es": "Combo > Ult > Battle Skill > Básico", "en": "Combo > Ultimate > Battle Skill > Basic" }, "note": { "es": "Es el main-C: su combo come las 4 capas de Cryo del eje.", "en": "She is the main-C: her combo eats the axis's 4 Cryo layers." } },
         { "charId": "tangtang", "order": { "es": "Combo (esp. 3)", "en": "Combo (spec. 3)" }, "note": { "es": "El bucle depende del cooldown de su combo; con Tangtang a partir de 1 potencial baja 2 s solo.", "en": "The loop depends on her combo cooldown; with Tangtang at 1 potential or higher it drops 2s on its own." } },
         { "charId": "xaihi", "order": { "es": "Ult", "en": "Ultimate" }, "note": { "es": "El amp del ult envuelve el burst; súbelo para más amp de equipo.", "en": "The ultimate's amp wraps the burst; level it for more team amp." } }
@@ -405,8 +405,8 @@
       ],
       "skillPriority": [
         { "charId": "arcane", "order": { "es": "Combo > Ult ≈ Battle Skill ≈ Básico", "en": "Combo > Ult ≈ Battle Skill ≈ Basic" }, "note": { "es": "El combo primero, como en la forma INT: sube la devolución de SP y el burst de la detonación.", "en": "Combo first, as in INT form: it raises the SP refund and the detonation burst." } },
-        { "charId": "tangtang", "order": { "es": "Combo primero", "en": "Combo first" }, "note": { "es": "El bucle depende del cooldown de su combo: súbelo a especialización 3 (−1 s); con Tangtang a partir de 1 potencial el cooldown baja 2 s más y todo fluye.", "en": "The loop depends on her combo cooldown: raise it to specialization 3 (−1s); with Tangtang at 1 potential or higher the cooldown drops another 2s and everything flows." } },
-        { "charId": "xaihi", "order": { "es": "Ult y Battle Skill", "en": "Ultimate and Battle Skill" }, "note": { "es": "Ult a especialización 3 (más amp de equipo); battle skill a nivel 9, y a especialización 3 si se puede. Perlica no necesita subir skills.", "en": "Ultimate to specialization 3 (more team amp); battle skill to level 9, and specialization 3 if possible. Perlica needs no skill leveling." } }
+        { "charId": "tangtang", "order": { "es": "Combo primero", "en": "Combo first" }, "note": { "es": "El bucle depende del cooldown de su combo: súbelo a especialización 3 (−1 s); con Tangtang a partir de 1 potencial el cooldown baja 2 s más y todo fluye.", "en": "The loop depends on her combo cooldown: raise it to specialization 3 (−1s); with Tangtang at 1 potential or higher the cooldown drops another 2s and everything flows." }, "assumeRanks": { "combo_skill": 12 } },
+        { "charId": "xaihi", "order": { "es": "Ult y Battle Skill", "en": "Ultimate and Battle Skill" }, "note": { "es": "Ult a especialización 3 (más amp de equipo); battle skill a nivel 9, y a especialización 3 si se puede. Perlica no necesita subir skills.", "en": "Ultimate to specialization 3 (more team amp); battle skill to level 9, and specialization 3 if possible. Perlica needs no skill leveling." }, "assumeRanks": { "ultimate": 12, "battle_skill": 9 } }
       ],
       "pitfalls": [
         { "es": "No arranques una vuelta sin SP: espera a ~2 barras o te quedas a medias del combo.", "en": "Do not start a pass without SP: wait for ~2 bars or you stall mid-combo." },
@@ -1325,6 +1325,11 @@
           "note": {
             "es": "Única fuente de daño del equipo: el autor la manda directa al máximo, sin más discusión.",
             "en": "The team's only damage source: the author sends her straight to max, no further discussion."
+          },
+          "assumeRanks": {
+            "battle_skill": 12,
+            "combo_skill": 12,
+            "ultimate": 12
           }
         },
         {
@@ -1336,6 +1341,10 @@
           "note": {
             "es": "El panel las marca en Especialización 3 con el Ultimate primero, y nivel 80 de personaje como referencia.",
             "en": "The panel marks both at Specialization 3 with the Ultimate first, and character level 80 as the reference."
+          },
+          "assumeRanks": {
+            "ultimate": 12,
+            "battle_skill": 12
           }
         },
         {
@@ -1797,6 +1806,11 @@
           "note": {
             "es": "El autor remarca que su daño está muy repartido entre las skills: todas trabajan, ninguna carga sola con el equipo.",
             "en": "The author stresses her damage spreads evenly across the skills: all of them work, none carries the team alone."
+          },
+          "assumeRanks": {
+            "combo_skill": 12,
+            "ultimate": 12,
+            "battle_skill": 9
           }
         },
         {
@@ -1808,6 +1822,10 @@
           "note": {
             "es": "El panel de siempre: ATK Boost y amp topan en Especialización 3.",
             "en": "The usual panel: ATK Boost and amp cap at Specialization 3."
+          },
+          "assumeRanks": {
+            "battle_skill": 12,
+            "ultimate": 12
           }
         },
         {
@@ -1819,6 +1837,11 @@
           "note": {
             "es": "Su Battle Skill es capa de Cryo y daño a la vez; el Combo va justo detrás.",
             "en": "Her Battle Skill is Cryo layer and damage at once; the Combo comes right behind."
+          },
+          "assumeRanks": {
+            "battle_skill": 12,
+            "combo_skill": 9,
+            "ultimate": 9
           }
         },
         {
@@ -1830,6 +1853,10 @@
           "note": {
             "es": "El panel da las cifras: el amp del Ultimate topa en Especialización 3, y la Battle Skill amplifica un 13 % a nivel 9 y un 15 % en Especialización 3.",
             "en": "The panel gives the figures: the Ultimate amp caps at Specialization 3, and the Battle Skill amplifies 13% at level 9 and 15% at Specialization 3."
+          },
+          "assumeRanks": {
+            "ultimate": 12,
+            "battle_skill": 9
           }
         }
       ],

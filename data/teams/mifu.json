@@ -1190,7 +1190,13 @@
             }
           }
         ]
-      }
+      },
+      "rotationCode": "AU2OSQrDMBAEP9QHz4xGyLqK-UDADzDGi0iiLOCDwejtQaf4WHRB143Osz7zskdi7cAEIThCEpD80QgW1IP4ohDBeoUxY3DXqU7bXD55LMcek3QeprBmcyCkIDAJWt-v9TuWPG0l36M5cfWRl7ms0VpJEgzaTnoPY-frDw",
+      "rotationCodeNote": {
+        "es": "Rotación estándar del índice de daño (equipo idéntico al de la guía), medida en la sim: apertura acelerada con Lifeng, Breach de Pogranichnik reteniendo su Combo y el ciclo de Battle Skill de Mi Fu. Sin Finisher.",
+        "en": "Standard damage-index rotation (same team as the guide), measured in the sim: accelerated opener with Lifeng, Pogranichnik's Breach while holding his Combo, and Mi Fu's Battle Skill cycle. No Finisher."
+      },
+      "rotationBurstAt": 23.7
     },
     {
       "name": {
@@ -1969,6 +1975,9 @@
           "note": {
             "es": "La subida principal va a su Battle Skill, con especialización 3 recomendada.",
             "en": "The main investment goes into her Battle Skill, with specialization 3 recommended."
+          },
+          "assumeRanks": {
+            "battle_skill": 12
           }
         },
         {
@@ -1993,6 +2002,10 @@
           "note": {
             "es": "Combo a nivel 6, especialización 1 o 3; Ultimate a nivel 9, especialización 1. El resto sin subir.",
             "en": "Combo at level 6, specialization 1 or 3; Ultimate at level 9, specialization 1. Nothing else."
+          },
+          "assumeRanks": {
+            "combo_skill": 6,
+            "ultimate": 9
           }
         }
       ],
