@@ -3780,6 +3780,196 @@
      ]
     }
    ]
+  },
+  "Umbra of Frigid Eventide": {
+   "passive": "Detonate: Hunter Instinct",
+   "buffs": [
+    {
+     "id": "umbra_arts_lead",
+     "src": "Hunter Instinct — Arts DMG (permanente)",
+     "target": "self",
+     "permanent": true,
+     "replacesLeading": true,
+     "cond": {
+      "es": "Arts DMG Dealt permanente de la pasiva (escala por nodo de esencia; a nodo máximo +44.8%).",
+      "en": "Permanent Arts DMG Dealt from the passive (scales per essence node; +44.8% at max node)."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "arts",
+       "byNode": [
+        0.16,
+        0.192,
+        0.224,
+        0.256,
+        0.288,
+        0.32,
+        0.352,
+        0.384,
+        0.448
+       ]
+      }
+     ]
+    },
+    {
+     "id": "umbra_windform_artsint",
+     "src": "Hunter Instinct — battle skill: Arts Intensity",
+     "target": "self",
+     "anchor": "battle_skill",
+     "durS": 15,
+     "noStack": true,
+     "pendingModel": "Arts Intensity temporizado: el motor solo aplica Arts Intensity permanente (Rotación) y asume 0 en Daño; se registra el contrato para cuando exista artsInt por intervalo.",
+     "cond": {
+      "es": "Tras lanzar la battle skill: Arts Intensity +98 y 4 stacks de Windform por 15s (el efecto entero no acumula). Hoy no entra al cálculo.",
+      "en": "After casting the battle skill: Arts Intensity +98 and 4 Windform stacks for 15s (the whole effect cannot stack). Not applied by the calculation today."
+     },
+     "mods": [
+      {
+       "type": "artsInt",
+       "byNode": [
+        35,
+        42,
+        49,
+        56,
+        63,
+        70,
+        77,
+        84,
+        98
+       ]
+      }
+     ]
+    },
+    {
+     "id": "umbra_windform_burst",
+     "src": "Hunter Instinct — Arts Burst consume Windform",
+     "target": "self",
+     "trigger": {
+      "onApplyReaction": "burst"
+     },
+     "durS": 30,
+     "cond": {
+      "es": "Al aplicar un Arts Burst con Windform disponible: consume 1 stack y gana Arts DMG Dealt +11.2% por 30s, hasta 4 stacks (duración independiente). El cálculo asume que hay Windform (battle skill lanzada en los últimos 15s): cada Burst del portador suma un stack hasta 4.",
+      "en": "On applying an Arts Burst with Windform available: consumes 1 stack and gains Arts DMG Dealt +11.2% for 30s, up to 4 stacks (separate durations). The calculation assumes Windform is up (battle skill cast within the last 15s): every Burst by the wielder adds a stack up to 4."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "arts",
+       "perStack": {
+        "base": 0,
+        "per": [
+         0.04,
+         0.048,
+         0.056,
+         0.064,
+         0.072,
+         0.08,
+         0.088,
+         0.096,
+         0.112
+        ],
+        "cap": 4
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "Suffering's End": {
+   "passive": "Detonate: Dawn of the Long Night",
+   "buffs": [
+    {
+     "id": "send_artsint_lead",
+     "src": "Dawn of the Long Night — Arts Intensity (permanente)",
+     "target": "self",
+     "permanent": true,
+     "replacesLeading": true,
+     "cond": {
+      "es": "Arts Intensity permanente de la pasiva (escala por nodo de esencia; a nodo máximo +42). La Rotación la suma al Arts Intensity del carril; Daño asume Arts Intensity 0.",
+      "en": "Permanent Arts Intensity from the passive (scales per essence node; +42 at max node). The Rotation adds it to the lane Arts Intensity; Damage assumes Arts Intensity 0."
+     },
+     "mods": [
+      {
+       "type": "artsInt",
+       "byNode": [
+        15,
+        18,
+        21,
+        24,
+        27,
+        30,
+        33,
+        36,
+        42
+       ]
+      }
+     ]
+    },
+    {
+     "id": "send_burst_stack",
+     "src": "Dawn of the Long Night — Arts Burst (stacks)",
+     "target": "self",
+     "trigger": {
+      "onApplyReaction": "burst"
+     },
+     "durS": 25,
+     "cond": {
+      "es": "Al aplicar un Arts Burst: Nature DMG Dealt +5.6% por 25s, hasta 4 stacks (duración independiente; una vez cada 0.1s).",
+      "en": "On applying an Arts Burst: Nature DMG Dealt +5.6% for 25s, up to 4 stacks (separate durations; once every 0.1s)."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "nature",
+       "perStack": {
+        "base": 0,
+        "per": [
+         0.02,
+         0.024,
+         0.028,
+         0.032,
+         0.036,
+         0.04,
+         0.044,
+         0.048,
+         0.056
+        ],
+        "cap": 4
+       }
+      }
+     ]
+    },
+    {
+     "id": "send_burst_full",
+     "src": "Dawn of the Long Night — bono a 4 stacks",
+     "target": "self",
+     "noStack": true,
+     "pendingModel": "Bono al llegar a 4 stacks del efecto anterior: no hay trigger por conteo de stacks de otro buff. Toggle del cálculo de Daño (máximo teórico), inerte en la Rotación a propósito.",
+     "cond": {
+      "es": "Con 4 stacks del efecto anterior: Nature DMG Dealt +16.8% adicional (no acumula). En Daño es un toggle: actívalo si el portador llega a 4 Bursts en la ventana de 25s.",
+      "en": "At 4 stacks of the previous effect: an additional Nature DMG Dealt +16.8% (cannot stack). In Damage it is a toggle: enable it if the wielder reaches 4 Bursts within the 25s window."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "nature",
+       "byNode": [
+        0.06,
+        0.072,
+        0.084,
+        0.096,
+        0.108,
+        0.12,
+        0.132,
+        0.144,
+        0.168
+       ]
+      }
+     ]
+    }
+   ]
   }
  }
 }
