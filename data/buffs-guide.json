@@ -1,252 +1,387 @@
 {
   "intro": {
     "es": "El daño en Endfield es una cadena de ~16 multiplicadores que se multiplican entre sí. Lo que importa es CÓMO entra cada buff: los aditivos se suman dentro de su grupo antes de multiplicar (dos +20% = ×1.40), mientras que los multiplicativos abren su propia casilla (dos ×1.20 = ×1.44). Por eso un buff multiplicativo del mismo tamaño casi siempre rinde más. Aquí está cada tipo, su fórmula y cómo apila.",
-    "en": "Damage in Endfield is a chain of ~16 multipliers multiplied together. What matters is HOW each buff enters: additive ones sum within their group before multiplying (two +20% = ×1.40), while multiplicative ones open their own slot (two ×1.20 = ×1.44). That's why a multiplicative buff of the same size almost always wins. Here's each type, its formula and how it stacks."
+    "en": "Damage in Endfield is a chain of ~16 multipliers multiplied together. What matters is HOW each buff enters: additive ones sum within their group before multiplying (two +20% = ×1.40), while multiplicative ones open their own slot (two ×1.20 = ×1.44). That's why a multiplicative buff of the same size almost always wins. Here's each type, its formula and how it stacks.",
+    "zh": "终末地的伤害是约 16 个乘区连乘的链条。关键在于每个增益「怎么」进入：加算类的在各自分组内先相加再相乘（两个 +20% = ×1.40），而乘算类的各自开一个乘区（两个 ×1.20 = ×1.44）。所以同等大小的乘算增益几乎总是更强。下面是每种类型、它的公式和叠加方式。",
+    "ja": "エンドフィールドのダメージは約 16 個の乗数を掛け合わせた連鎖です。重要なのは各バフが「どう」入るか：加算のものはグループ内で足してから掛かり（+20% が 2 つ = ×1.40）、乗算のものは自分の枠を開きます（×1.20 が 2 つ = ×1.44）。だから同じ大きさなら乗算バフがほぼ必ず勝ちます。以下、各タイプとその式、重なり方です。",
+    "ko": "엔드필드의 피해는 약 16개 배율을 곱한 사슬입니다. 중요한 것은 각 버프가 '어떻게' 들어가느냐입니다. 가산형은 같은 그룹 안에서 먼저 더한 뒤 곱해지고(+20% 둘 = ×1.40), 승산형은 자기만의 자리를 엽니다(×1.20 둘 = ×1.44). 그래서 같은 크기라면 승산 버프가 거의 항상 이깁니다. 아래는 각 유형과 공식, 중첩 방식입니다."
   },
   "groups": [
     {
       "id": "offensive",
       "title": {
         "es": "Ofensivos — suben tu daño",
-        "en": "Offensive — raise your damage"
+        "en": "Offensive — raise your damage",
+        "zh": "进攻 — 提高你的伤害",
+        "ja": "攻撃 — ダメージを上げる",
+        "ko": "공격 — 피해를 올리기"
       },
       "note": {
         "es": "Las casillas de la fórmula oficial que dependen de ti o de un debuff en el enemigo.",
-        "en": "The official formula's slots that depend on you or on a debuff on the enemy."
+        "en": "The official formula's slots that depend on you or on a debuff on the enemy.",
+        "zh": "官方公式中取决于你自己或敌人身上减益的乘区。",
+        "ja": "公式の式のうち、自分または敵のデバフに依存する枠。",
+        "ko": "공식 공식 중 자신이나 적에게 걸린 디버프에 달린 자리."
       },
       "entries": [
         {
           "id": "atk",
           "name": {
             "es": "Ataque (ATK% y plano)",
-            "en": "Attack (ATK% and flat)"
+            "en": "Attack (ATK% and flat)",
+            "zh": "攻击力（攻击力% 和固定值）",
+            "ja": "攻撃力（攻撃力% と固定値）",
+            "ko": "공격력(공격력% 및 고정값)"
           },
           "stack": "add",
           "status": "modeled",
           "what": {
             "es": "La base de todo. El ATK% de armas, gear y buffs se SUMA primero; sobre ese total actúan los atributos (primario y secundario) como multiplicador final.",
-            "en": "The base of everything. ATK% from weapons, gear and buffs SUMS first; the attributes (primary and secondary) then act as a final multiplier over that total."
+            "en": "The base of everything. ATK% from weapons, gear and buffs SUMS first; the attributes (primary and secondary) then act as a final multiplier over that total.",
+            "zh": "一切的基础。武器、装备和增益的攻击力% 先相加；主副能力再作为最终乘数作用于这个总和。",
+            "ja": "すべての土台。武器・装備・バフの攻撃力% はまず合算され、その合計にメイン能力とサブ能力が最終乗数として掛かります。",
+            "ko": "모든 것의 바탕. 무기·장비·버프의 공격력%는 먼저 합산되고, 주요·보조 능력치가 그 합계에 최종 배율로 작용합니다."
           },
           "formula": "ATK_efectivo = ((ATK_op + ATK_arma) × (1 + ΣATK%) + ATK_plano) × (1 + 0.005·prim + 0.002·sec)",
           "example": {
             "es": "Un +20% y un +30% de ATK no dan ×1.56, dan ×1.50 (se suman a +50%). Cada punto de atributo primario = +0.5% ATK; secundario, +0.2%.",
-            "en": "A +20% and a +30% ATK aren't ×1.56, they're ×1.50 (they sum to +50%). Each primary attribute point = +0.5% ATK; secondary, +0.2%."
+            "en": "A +20% and a +30% ATK aren't ×1.56, they're ×1.50 (they sum to +50%). Each primary attribute point = +0.5% ATK; secondary, +0.2%.",
+            "zh": "+20% 和 +30% 攻击力不是 ×1.56，而是 ×1.50（相加为 +50%）。每点主能力 = 攻击力 +0.5%；副能力 +0.2%。",
+            "ja": "攻撃力 +20% と +30% は ×1.56 ではなく ×1.50（合算で +50%）。メイン能力 1 ポイント = 攻撃力 +0.5%、サブ能力は +0.2%。",
+            "ko": "공격력 +20%와 +30%는 ×1.56이 아니라 ×1.50입니다(합산 +50%). 주요 능력치 1포인트 = 공격력 +0.5%, 보조 능력치는 +0.2%."
           }
         },
         {
           "id": "dmg_add",
           "name": {
             "es": "Bonus de daño (DMG%)",
-            "en": "Damage bonus (DMG%)"
+            "en": "Damage bonus (DMG%)",
+            "zh": "伤害加成（伤害%）",
+            "ja": "ダメージUP（ダメージ%）",
+            "ko": "피해 보너스(피해%)"
           },
           "stack": "add",
           "status": "modeled",
           "what": {
             "es": "Los 'X DMG Bonus' (elemental, por tipo de skill, o All Skill) se suman entre sí en un solo grupo: 1 más la suma de todos.",
-            "en": "The 'X DMG Bonus' (elemental, by skill type, or All Skill) sum together in a single group: 1 plus the sum of all of them."
+            "en": "The 'X DMG Bonus' (elemental, by skill type, or All Skill) sum together in a single group: 1 plus the sum of all of them.",
+            "zh": "各种「X 伤害加成」（属性、技能类型或所有技能）合并在一个分组里相加：1 加上它们的总和。",
+            "ja": "「X ダメージUP」（属性、スキル種別、全スキル）は 1 つのグループにまとめて合算：1 にその合計を足します。",
+            "ko": "'X 피해 보너스'(속성, 스킬 유형, 모든 스킬)는 한 그룹으로 합산됩니다. 1에 전부의 합을 더합니다."
           },
           "formula": "× (1 + ΣDMG%)",
           "example": {
             "es": "'All Skill DMG' aplica a battle/combo/ultimate pero NO al ataque básico (que tiene su propio stat). Quirk del gear: los % de 'Battle Skill DMG' y 'Combo Skill DMG' van a la par (misma magnitud en la pieza equivalente del mismo tipo).",
-            "en": "'All Skill DMG' applies to battle/combo/ultimate but NOT to the basic attack (which has its own stat). Gear quirk: 'Battle Skill DMG' and 'Combo Skill DMG' percentages run in lockstep (same magnitude on the equivalent piece of the same type)."
+            "en": "'All Skill DMG' applies to battle/combo/ultimate but NOT to the basic attack (which has its own stat). Gear quirk: 'Battle Skill DMG' and 'Combo Skill DMG' percentages run in lockstep (same magnitude on the equivalent piece of the same type).",
+            "zh": "「所有技能伤害」作用于战技/连携技/终结技，但不作用于普攻（普攻有自己的属性）。装备特点：「战技伤害」和「连携技伤害」的百分比同步变化（同类型对应部位数值相同）。",
+            "ja": "「全スキルダメージ」は戦技/連携技/必殺技に掛かり、通常攻撃には掛かりません（通常攻撃は独自のステータス）。装備の癖：「戦技ダメージ」と「連携技ダメージ」の％は連動します（同種の対応部位で同じ大きさ）。",
+            "ko": "'모든 스킬 피해'는 배틀 스킬/연계 스킬/궁극기에 적용되고 일반 공격에는 적용되지 않습니다(일반 공격은 별도 스탯). 장비 특성: '배틀 스킬 피해'와 '연계 스킬 피해' 퍼센트는 나란히 움직입니다(같은 유형의 대응 부위에서 같은 크기)."
           }
         },
         {
           "id": "dmg_mult",
           "name": {
             "es": "Multiplicador de daño (DMG Multiplier)",
-            "en": "Damage Multiplier"
+            "en": "Damage Multiplier",
+            "zh": "伤害倍率",
+            "ja": "ダメージ倍率",
+            "ko": "피해 배율"
           },
           "stack": "mult",
           "status": "modeled",
           "what": {
             "es": "Los efectos que dicen 'Base DMG Multiplier +X%' o 'DMG ×' abren su propia casilla multiplicativa, separada del grupo aditivo. Por eso pesan más.",
-            "en": "Effects that say 'Base DMG Multiplier +X%' or 'DMG ×' open their own multiplicative slot, separate from the additive group. That's why they weigh more."
+            "en": "Effects that say 'Base DMG Multiplier +X%' or 'DMG ×' open their own multiplicative slot, separate from the additive group. That's why they weigh more.",
+            "zh": "写着「基础伤害倍率 +X%」或「伤害 ×」的效果各自开一个乘算乘区，与加算分组分开。所以它们权重更大。",
+            "ja": "「基礎ダメージ倍率 +X%」や「ダメージ ×」と書かれた効果は、加算グループとは別に自分の乗算枠を開きます。だから重みが大きいのです。",
+            "ko": "'기초 피해 배율 +X%'나 '피해 ×'라고 적힌 효과는 가산 그룹과 별도로 자기만의 승산 자리를 엽니다. 그래서 더 무겁습니다."
           },
           "formula": "× Π(1 + x)",
           "example": {
             "es": "El Combo de Gilberta (Special Mail) suma un ×1.30 propio a su daño de combo, encima de todos los DMG% aditivos.",
-            "en": "Gilberta's Combo (Special Mail) adds its own ×1.30 to her combo damage, on top of every additive DMG%."
+            "en": "Gilberta's Combo (Special Mail) adds its own ×1.30 to her combo damage, on top of every additive DMG%.",
+            "zh": "洁尔佩塔的连携技（特殊邮件）在她的连携伤害上额外乘 ×1.30，叠在所有加算伤害% 之上。",
+            "ja": "ギルベルタの連携技（スペシャルメール）は、あらゆる加算ダメージ% の上に、連携ダメージへ独自の ×1.30 を加えます。",
+            "ko": "질베르타의 연계 스킬(특별 우편)은 모든 가산 피해% 위에 연계 피해에 자기만의 ×1.30을 더합니다."
           }
         },
         {
           "id": "amp",
           "name": {
             "es": "Amp elemental",
-            "en": "Elemental Amp"
+            "en": "Elemental Amp",
+            "zh": "属性增幅",
+            "ja": "属性増幅",
+            "ko": "속성 증폭"
           },
           "stack": "mult",
           "status": "modeled",
           "what": {
             "es": "Los buffs de Amp multiplican el daño de su elemento en una casilla aparte. No compiten con los DMG% aditivos: se apilan encima.",
-            "en": "Amp buffs multiply their element's damage in a separate slot. They don't compete with additive DMG%: they stack on top."
+            "en": "Amp buffs multiply their element's damage in a separate slot. They don't compete with additive DMG%: they stack on top.",
+            "zh": "增幅在独立乘区里放大对应属性的伤害。它们不与加算伤害% 竞争，而是叠在其上。",
+            "ja": "増幅バフはその属性のダメージを別枠で掛けます。加算ダメージ% と競合せず、その上に積まれます。",
+            "ko": "증폭 버프는 해당 속성 피해를 별도 자리에서 곱합니다. 가산 피해%와 경쟁하지 않고 그 위에 쌓입니다."
           },
           "formula": {
             "es": "× (1 + Amp)   (por elemento)",
-            "en": "× (1 + Amp)   (per element)"
+            "en": "× (1 + Amp)   (per element)",
+            "zh": "× (1 + 增幅)   （按属性）",
+            "ja": "× (1 + 増幅)   （属性ごと）",
+            "ko": "× (1 + 증폭)   (속성별)"
           },
           "example": {
             "es": "Antal reparte Electric+Heat Amp; Xaihi, Cryo+Nature Amp. Por ser multiplicativo, un Amp +20% rinde más que un DMG% +20% aditivo si ya tienes otros DMG%.",
-            "en": "Antal hands out Electric+Heat Amp; Xaihi, Cryo+Nature Amp. Being multiplicative, a +20% Amp beats a +20% additive DMG% once you already have other DMG%."
+            "en": "Antal hands out Electric+Heat Amp; Xaihi, Cryo+Nature Amp. Being multiplicative, a +20% Amp beats a +20% additive DMG% once you already have other DMG%.",
+            "zh": "安塔尔提供电磁+灼热增幅；赛希提供寒冷+自然增幅。因为是乘算，一旦你已有其他伤害%，+20% 增幅就胜过 +20% 加算伤害%。",
+            "ja": "アンタルは電磁+灼熱増幅、ザイヒは寒冷+自然増幅を配ります。乗算なので、ほかのダメージ% がすでにあれば +20% 増幅は +20% 加算ダメージ% に勝ります。",
+            "ko": "안탈은 전기+열기 증폭, 자이히는 냉기+자연 증폭을 줍니다. 승산이므로 다른 피해%가 이미 있으면 +20% 증폭이 +20% 가산 피해%를 이깁니다."
           }
         },
         {
           "id": "crit",
           "name": {
             "es": "Crítico (tasa y daño)",
-            "en": "Crit (rate and damage)"
+            "en": "Crit (rate and damage)",
+            "zh": "暴击（暴击率和暴击伤害）",
+            "ja": "会心（会心率と会心ダメージ）",
+            "ko": "치명타(확률과 피해)"
           },
           "stack": "mult",
           "status": "modeled",
           "what": {
             "es": "Base de 5% de tasa y +50% de daño crítico. Modelamos el VALOR ESPERADO (promedio), no golpe a golpe.",
-            "en": "Base 5% rate and +50% crit damage. We model the EXPECTED value (average), not hit by hit."
+            "en": "Base 5% rate and +50% crit damage. We model the EXPECTED value (average), not hit by hit.",
+            "zh": "基础暴击率 5%，暴击伤害 +50%。我们计算的是期望值（平均），不是逐次命中。",
+            "ja": "基礎会心率 5%、会心ダメージ +50%。ヒットごとではなく期待値（平均）でモデル化します。",
+            "ko": "기초 치명타 확률 5%, 치명타 피해 +50%. 타격별이 아니라 기댓값(평균)으로 모델링합니다."
           },
           "formula": "× (1 + TasaCrit × DañoCrit)",
           "example": {
             "es": "Con 60% de tasa y +120% de daño crítico: ×(1 + 0.6·1.2) = ×1.72 en promedio. La tasa se topa en 100%.",
-            "en": "With 60% rate and +120% crit damage: ×(1 + 0.6·1.2) = ×1.72 on average. Rate caps at 100%."
+            "en": "With 60% rate and +120% crit damage: ×(1 + 0.6·1.2) = ×1.72 on average. Rate caps at 100%.",
+            "zh": "暴击率 60%、暴击伤害 +120% 时：平均 ×(1 + 0.6·1.2) = ×1.72。暴击率上限 100%。",
+            "ja": "会心率 60%、会心ダメージ +120% なら：平均で ×(1 + 0.6·1.2) = ×1.72。会心率の上限は 100%。",
+            "ko": "치명타 확률 60%, 치명타 피해 +120%면 평균 ×(1 + 0.6·1.2) = ×1.72. 확률 상한은 100%."
           }
         },
         {
           "id": "susc",
           "name": {
             "es": "Susceptibility (susceptibilidad)",
-            "en": "Susceptibility"
+            "en": "Susceptibility",
+            "zh": "脆弱",
+            "ja": "脆弱",
+            "ko": "취약"
           },
           "stack": "enemy",
           "status": "modeled",
           "what": {
             "es": "Debuff en el ENEMIGO que sube el daño que recibe de cierto elemento. Casilla propia, compartida por todo el equipo.",
-            "en": "A debuff on the ENEMY that raises the damage it takes from a given element. Its own slot, shared by the whole team."
+            "en": "A debuff on the ENEMY that raises the damage it takes from a given element. Its own slot, shared by the whole team.",
+            "zh": "敌人身上的减益，提高它受到的某一属性伤害。独立乘区，全队共享。",
+            "ja": "敵に付くデバフで、特定属性から受けるダメージを増やします。独自の枠で、チーム全体で共有。",
+            "ko": "적에게 걸리는 디버프로 특정 속성에서 받는 피해를 늘립니다. 자기만의 자리이며 팀 전체가 공유합니다."
           },
           "formula": {
             "es": "× (1 + Susc)   (filtra por elemento)",
-            "en": "× (1 + Susc)   (filtered per element)"
+            "en": "× (1 + Susc)   (filtered per element)",
+            "zh": "× (1 + 脆弱)   （按属性筛选）",
+            "ja": "× (1 + 脆弱)   （属性で絞り込み）",
+            "ko": "× (1 + 취약)   (속성별 필터)"
           },
           "example": {
             "es": "Gilberta: su Ultimate aplica Arts Susceptibility +30% base (hasta ~42%) a TODO el daño Arts (no físico) del equipo. No toca DEF ni resistencia: es un multiplicador aparte.",
-            "en": "Gilberta: her Ultimate applies Arts Susceptibility +30% base (up to ~42%) to ALL the team's Arts (non-physical) damage. It doesn't touch DEF or resistance: it's a separate multiplier."
+            "en": "Gilberta: her Ultimate applies Arts Susceptibility +30% base (up to ~42%) to ALL the team's Arts (non-physical) damage. It doesn't touch DEF or resistance: it's a separate multiplier.",
+            "zh": "洁尔佩塔：终结技对全队的法术（非物理）伤害施加基础 +30%（最高约 42%）的法术脆弱。它不触及防御或抗性：是一个独立乘数。",
+            "ja": "ギルベルタ：必殺技がチーム全体のアーツ（非物理）ダメージにアーツ脆弱 +30%（最大約 42%）を付与します。防御力や耐性には触れない独立の乗数です。",
+            "ko": "질베르타: 궁극기가 팀 전체의 아츠(비물리) 피해에 아츠 취약 기본 +30%(최대 약 42%)를 겁니다. 방어력이나 저항은 건드리지 않는 별도 배율입니다."
           }
         },
         {
           "id": "vuln",
           "name": {
             "es": "Vulnerability (Increased DMG Taken)",
-            "en": "Vulnerability (Increased DMG Taken)"
+            "en": "Vulnerability (Increased DMG Taken)",
+            "zh": "破防（受到伤害提升）",
+            "ja": "クラッシュ（被ダメージ増加）",
+            "ko": "방어 불능(받는 피해 증가)"
           },
           "stack": "enemy",
           "status": "modeled",
           "what": {
             "es": "Debuff en el enemigo que sube TODO el daño que recibe, sin filtrar por elemento. Casilla propia, compartida.",
-            "en": "A debuff on the enemy that raises ALL the damage it takes, with no element filter. Its own slot, shared."
+            "en": "A debuff on the enemy that raises ALL the damage it takes, with no element filter. Its own slot, shared.",
+            "zh": "敌人身上的减益，提高它受到的所有伤害，不分属性。独立乘区，共享。",
+            "ja": "敵に付くデバフで、属性を問わず受けるすべてのダメージを増やします。独自の枠で共有。",
+            "ko": "적에게 걸리는 디버프로 속성 구분 없이 받는 모든 피해를 늘립니다. 자기만의 자리이며 공유됩니다."
           },
           "formula": "× (1 + Vulnerability)",
           "example": {
             "es": "La cadena física Chen Qianyu / Pogranichnik / Endministrator vive de apilar Vulnerability, que además alimenta Crush y Breach.",
-            "en": "The physical chain Chen Qianyu / Pogranichnik / Endministrator lives on stacking Vulnerability, which also feeds Crush and Breach."
+            "en": "The physical chain Chen Qianyu / Pogranichnik / Endministrator lives on stacking Vulnerability, which also feeds Crush and Breach.",
+            "zh": "陈千语 / 骏卫 / 管理员的物理链靠叠加破防运转，它也为猛击和碎甲供能。",
+            "ja": "チェン・センユー / ポグラニチニク / 管理人の物理連鎖はクラッシュを積むことで回り、それが猛撃と破砕の燃料にもなります。",
+            "ko": "진천우 / 포그라니치니크 / 관리자의 물리 연쇄는 방어 불능을 쌓는 것으로 돌아가며, 그것이 강타와 갑옷 파괴의 연료도 됩니다."
           }
         },
         {
           "id": "breach",
           "name": {
             "es": "Breach (daño físico recibido)",
-            "en": "Breach (Physical DMG taken)"
+            "en": "Breach (Physical DMG taken)",
+            "zh": "碎甲（受到物理伤害）",
+            "ja": "破砕（物理被ダメージ）",
+            "ko": "갑옷 파괴(받는 물리 피해)"
           },
           "stack": "enemy",
           "status": "modeled",
           "what": {
             "es": "El 'armor break' del juego, pero NO baja la DEF: deja al enemigo recibiendo más daño FÍSICO un rato. Consume todos los stacks de Vulnerable (el nivel = stacks consumidos). Re-aplicarlo REFRESCA con el valor mayor: no apila. La DEF de todo enemigo es 100 fija y nunca se reduce.",
-            "en": "The game's 'armor break', but it does NOT lower DEF: it leaves the enemy taking more PHYSICAL damage for a while. Consumes all Vulnerable stacks (level = stacks consumed). Re-applying REFRESHES with the higher value: it does not stack. Every enemy's DEF is a fixed 100 and is never reduced."
+            "en": "The game's 'armor break', but it does NOT lower DEF: it leaves the enemy taking more PHYSICAL damage for a while. Consumes all Vulnerable stacks (level = stacks consumed). Re-applying REFRESHES with the higher value: it does not stack. Every enemy's DEF is a fixed 100 and is never reduced.",
+            "zh": "游戏里的「破甲」，但它不降低防御：它让敌人在一段时间内受到更多物理伤害。消耗全部破防层数（等级 = 消耗的层数）。再次施加会以更高值刷新：不叠加。所有敌人的防御固定为 100，永不降低。",
+            "ja": "ゲームの「アーマーブレイク」ですが、防御力は下げません：敵がしばらく物理ダメージを多く受ける状態にします。クラッシュのスタックを全部消費（段階 = 消費したスタック数）。再付与は高い方の値で更新され、重なりません。すべての敵の防御力は固定 100 で、決して下がりません。",
+            "ko": "게임의 '방어구 파괴'지만 방어력을 낮추지는 않습니다. 적이 한동안 물리 피해를 더 받게 만듭니다. 방어 불능 중첩을 전부 소모합니다(레벨 = 소모한 중첩). 다시 걸면 더 높은 값으로 갱신되며 중첩되지 않습니다. 모든 적의 방어력은 100 고정이며 절대 줄지 않습니다."
           },
           "formula": {
             "es": "Physical DMG Taken += 12/16/20/24% por nivel 1/2/3/4 (dura 12/18/24/30 s)",
-            "en": "Physical DMG Taken += 12/16/20/24% per level 1/2/3/4 (lasts 12/18/24/30 s)"
+            "en": "Physical DMG Taken += 12/16/20/24% per level 1/2/3/4 (lasts 12/18/24/30 s)",
+            "zh": "受到物理伤害 += 12/16/20/24%，按等级 1/2/3/4（持续 12/18/24/30 秒）",
+            "ja": "物理被ダメージ += 12/16/20/24%（段階 1/2/3/4、持続 12/18/24/30 秒）",
+            "ko": "받는 물리 피해 += 레벨 1/2/3/4마다 12/16/20/24% (지속 12/18/24/30초)"
           },
           "example": {
             "es": "Entra por la vía de Vulnerability / Increased DMG Taken (enemyDmgTaken físico), igual que cualquier 'Physical DMG Taken +X%'. No existe shred de DEF en Endfield.",
-            "en": "Applied via Vulnerability / Increased DMG Taken (physical enemyDmgTaken), like any 'Physical DMG Taken +X%'. There is no DEF shred in Endfield."
+            "en": "Applied via Vulnerability / Increased DMG Taken (physical enemyDmgTaken), like any 'Physical DMG Taken +X%'. There is no DEF shred in Endfield.",
+            "zh": "通过破防 / 受到伤害提升（物理 enemyDmgTaken）施加，和任何「受到物理伤害 +X%」一样。终末地没有防御削减。",
+            "ja": "クラッシュ / 被ダメージ増加（物理の enemyDmgTaken）を通じて掛かり、あらゆる「物理被ダメージ +X%」と同じです。エンドフィールドに防御力ダウンはありません。",
+            "ko": "방어 불능 / 받는 피해 증가(물리 enemyDmgTaken)를 통해 적용되며, 모든 '받는 물리 피해 +X%'와 같습니다. 엔드필드에는 방어력 감소가 없습니다."
           }
         },
         {
           "id": "electrification",
           "name": {
             "es": "Electrification (daño Arts recibido)",
-            "en": "Electrification (Arts DMG taken)"
+            "en": "Electrification (Arts DMG taken)",
+            "zh": "导电（受到法术伤害）",
+            "ja": "感電（アーツ被ダメージ）",
+            "ko": "감전(받는 아츠 피해)"
           },
           "stack": "enemy",
           "status": "modeled",
           "what": {
             "es": "El debuff que deja la reacción de Electric: el enemigo recibe más daño Arts (todo lo no físico) de TODO el equipo mientras dura. El nivel = stacks de la Infliction consumida al reaccionar. Re-aplicarla REFRESCA con el valor mayor: no apila.",
-            "en": "The debuff left by the Electric reaction: the enemy takes more Arts damage (everything non-physical) from the WHOLE team while it lasts. Level = Infliction stacks consumed on reaction. Re-applying REFRESHES with the higher value: it does not stack."
+            "en": "The debuff left by the Electric reaction: the enemy takes more Arts damage (everything non-physical) from the WHOLE team while it lasts. Level = Infliction stacks consumed on reaction. Re-applying REFRESHES with the higher value: it does not stack.",
+            "zh": "电磁反应留下的减益：持续期间敌人受到全队更多的法术伤害（一切非物理）。等级 = 反应时消耗的附着层数。再次施加以更高值刷新：不叠加。",
+            "ja": "電磁の反応が残すデバフ：持続中、敵はチーム全員からのアーツダメージ（非物理すべて）を多く受けます。段階 = 反応時に消費した付着スタック数。再付与は高い方の値で更新され、重なりません。",
+            "ko": "전기 반응이 남기는 디버프: 지속 중 적은 팀 전체의 아츠 피해(비물리 전부)를 더 받습니다. 레벨 = 반응 시 소모한 부착 중첩. 다시 걸면 더 높은 값으로 갱신되며 중첩되지 않습니다."
           },
           "formula": {
             "es": "Arts DMG Taken += 12/16/20/24% por nivel 1/2/3/4 (dura 12/18/24/30 s)",
-            "en": "Arts DMG Taken += 12/16/20/24% per level 1/2/3/4 (lasts 12/18/24/30 s)"
+            "en": "Arts DMG Taken += 12/16/20/24% per level 1/2/3/4 (lasts 12/18/24/30 s)",
+            "zh": "受到法术伤害 += 12/16/20/24%，按等级 1/2/3/4（持续 12/18/24/30 秒）",
+            "ja": "アーツ被ダメージ += 12/16/20/24%（段階 1/2/3/4、持続 12/18/24/30 秒）",
+            "ko": "받는 아츠 피해 += 레벨 1/2/3/4마다 12/16/20/24% (지속 12/18/24/30초)"
           },
           "example": {
             "es": "Entra por la misma vía que Vulnerability (daño recibido), filtrada a daño Arts — el físico no se beneficia. La Arts Intensity del detonante refuerza el valor del debuff.",
-            "en": "Applied via the same path as Vulnerability (damage taken), filtered to Arts damage — Physical does not benefit. The trigger operator Arts Intensity reinforces the debuff value."
+            "en": "Applied via the same path as Vulnerability (damage taken), filtered to Arts damage — Physical does not benefit. The trigger operator Arts Intensity reinforces the debuff value.",
+            "zh": "与破防走同一路径（受到伤害），仅筛选法术伤害——物理不受益。触发干员的源石技艺强度会强化减益数值。",
+            "ja": "クラッシュと同じ経路（被ダメージ）で掛かり、アーツダメージに絞られます。物理は恩恵を受けません。発動したオペレーターのアーツ強度がデバフの値を強化します。",
+            "ko": "방어 불능과 같은 경로(받는 피해)로 적용되며 아츠 피해로 한정됩니다. 물리는 이득이 없습니다. 발동한 오퍼레이터의 오리지늄 아츠 강도가 디버프 값을 강화합니다."
           }
         },
         {
           "id": "corrosion",
           "name": {
             "es": "Resistencia ↓ (Corrosión)",
-            "en": "Resistance ↓ (Corrosion)"
+            "en": "Resistance ↓ (Corrosion)",
+            "zh": "抗性 ↓（腐蚀）",
+            "ja": "耐性 ↓（腐食）",
+            "ko": "저항 ↓(부식)"
           },
           "stack": "enemy",
           "status": "modeled",
           "what": {
             "es": "A diferencia de la DEF, la resistencia SÍ se reduce. La Corrosión (reacción de Nature) NO es plana: arranca baja y CRECE cada segundo hasta un tope que depende de su nivel (1–4 = stacks consumidos al reaccionar). En TODOS los niveles toca techo a los 10 s, y el tope dura los últimos 5 s (de 15 s en total). Beneficia a todo el equipo y a cualquier tipo de daño.",
-            "en": "Unlike DEF, resistance IS reduced. Corrosion (the Nature reaction) is NOT flat: it starts low and GROWS every second up to a cap set by its level (1–4 = stacks consumed on reaction). At EVERY level it hits the ceiling at 10 s, and the cap lasts the final 5 s (of 15 s total). It benefits the whole team and any damage type."
+            "en": "Unlike DEF, resistance IS reduced. Corrosion (the Nature reaction) is NOT flat: it starts low and GROWS every second up to a cap set by its level (1–4 = stacks consumed on reaction). At EVERY level it hits the ceiling at 10 s, and the cap lasts the final 5 s (of 15 s total). It benefits the whole team and any damage type.",
+            "zh": "与防御不同，抗性是会被降低的。腐蚀（自然反应）不是固定值：从低开始，每秒增长，直到由其等级（1–4 = 反应时消耗的层数）决定的上限。任何等级都在 10 秒时到达上限，上限持续最后 5 秒（共 15 秒）。全队和任何伤害类型都受益。",
+            "ja": "防御力と違い、耐性は下がります。腐食（自然の反応）は固定ではなく、低い値から始まり毎秒増えて、段階（1–4 = 反応時に消費したスタック数）で決まる上限に達します。どの段階でも 10 秒で天井に届き、上限は最後の 5 秒間（合計 15 秒）続きます。チーム全員、どのダメージ種別にも恩恵があります。",
+            "ko": "방어력과 달리 저항은 줄어듭니다. 부식(자연 반응)은 고정값이 아닙니다. 낮게 시작해 매초 커져서 레벨(1–4 = 반응 시 소모한 중첩)이 정한 상한까지 오릅니다. 어느 레벨이든 10초에 천장에 닿고, 상한은 마지막 5초(총 15초) 동안 유지됩니다. 팀 전체와 모든 피해 유형이 이득을 봅니다."
           },
           "formula": {
             "es": "shred(t) = mín(tope, inicial + rampa×t) · N1: 3.6 +0.84/s tope 12 · N2: 4.8 +1.12/s tope 16 · N3: 6 +1.4/s tope 20 · N4: 7.2 +1.68/s tope 24 pts (dura 15 s)",
-            "en": "shred(t) = min(cap, initial + ramp×t) · N1: 3.6 +0.84/s cap 12 · N2: 4.8 +1.12/s cap 16 · N3: 6 +1.4/s cap 20 · N4: 7.2 +1.68/s cap 24 pts (lasts 15 s)"
+            "en": "shred(t) = min(cap, initial + ramp×t) · N1: 3.6 +0.84/s cap 12 · N2: 4.8 +1.12/s cap 16 · N3: 6 +1.4/s cap 20 · N4: 7.2 +1.68/s cap 24 pts (lasts 15 s)",
+            "zh": "削减(t) = min(上限, 初始 + 增速×t) · N1：3.6 +0.84/秒 上限 12 · N2：4.8 +1.12/秒 上限 16 · N3：6 +1.4/秒 上限 20 · N4：7.2 +1.68/秒 上限 24 点（持续 15 秒）",
+            "ja": "減少(t) = min(上限, 初期値 + 増加×t) · N1: 3.6 +0.84/秒 上限 12 · N2: 4.8 +1.12/秒 上限 16 · N3: 6 +1.4/秒 上限 20 · N4: 7.2 +1.68/秒 上限 24 pt（持続 15 秒）",
+            "ko": "감소(t) = min(상한, 초기값 + 증가×t) · N1: 3.6 +0.84/초 상한 12 · N2: 4.8 +1.12/초 상한 16 · N3: 6 +1.4/초 상한 20 · N4: 7.2 +1.68/초 상한 24pt (지속 15초)"
           },
           "example": {
             "es": "Timing perfecto: aplica la Corrosión ~10 s ANTES del burst del equipo, para pegar con el shred al tope (nivel 4: 7.2 pts al aplicar → 15.6 a los 5 s → 24 de los 10 a los 15 s). La Arts Intensity del detonante sube inicial, rampa y tope por igual — la magnitud crece pero el techo sigue a los 10 s. Re-aplicarla REFRESCA (no apila); la resistencia se guarda como multiplicador y el shred le SUMA.",
-            "en": "Perfect timing: apply Corrosion ~10 s BEFORE the team burst, so you hit while the shred sits at the cap (level 4: 7.2 pts on apply → 15.6 at 5 s → 24 from 10 to 15 s). The trigger operator Arts Intensity raises initial, ramp and cap alike — the magnitude grows but the ceiling still lands at 10 s. Re-applying REFRESHES (no stacking); resistance is stored as a multiplier and the shred ADDS to it."
+            "en": "Perfect timing: apply Corrosion ~10 s BEFORE the team burst, so you hit while the shred sits at the cap (level 4: 7.2 pts on apply → 15.6 at 5 s → 24 from 10 to 15 s). The trigger operator Arts Intensity raises initial, ramp and cap alike — the magnitude grows but the ceiling still lands at 10 s. Re-applying REFRESHES (no stacking); resistance is stored as a multiplier and the shred ADDS to it.",
+            "zh": "最佳时机：在团队爆发前约 10 秒施加腐蚀，这样打的时候削减正好在上限（等级 4：施加时 7.2 点 → 5 秒时 15.6 → 10 到 15 秒为 24）。触发干员的源石技艺强度同时提高初始值、增速和上限——幅度变大，但仍在 10 秒到顶。再次施加会刷新（不叠加）；抗性以乘数形式存储，削减是加在其上的。",
+            "ja": "最適なタイミング：チームバーストの約 10 秒前に腐食を付与し、減少が上限にある間に殴ります（段階 4：付与時 7.2 pt → 5 秒で 15.6 → 10〜15 秒で 24）。発動オペレーターのアーツ強度は初期値・増加・上限を同じように引き上げます。大きさは伸びますが、天井は変わらず 10 秒です。再付与は更新（重ならない）。耐性は乗数として保持され、減少はそれに加算されます。",
+            "ko": "완벽한 타이밍: 팀 폭발 약 10초 전에 부식을 걸어, 감소가 상한에 있을 때 때립니다(레벨 4: 적용 시 7.2pt → 5초에 15.6 → 10~15초에 24). 발동 오퍼레이터의 오리지늄 아츠 강도는 초기값·증가·상한을 똑같이 끌어올립니다. 크기는 커지지만 천장은 여전히 10초에 닿습니다. 다시 걸면 갱신(중첩 없음). 저항은 배율로 저장되고 감소는 거기에 더해집니다."
           }
         },
         {
           "id": "res_ignore",
           "name": {
             "es": "Ignorar resistencia",
-            "en": "Resistance Ignore"
+            "en": "Resistance Ignore",
+            "zh": "无视抗性",
+            "ja": "耐性無視",
+            "ko": "저항 무시"
           },
           "stack": "enemy",
           "status": "modeled",
           "what": {
             "es": "Algunas skills ignoran un % plano de la resistencia de su elemento, aparte de la Corrosión.",
-            "en": "Some skills ignore a flat % of their element's resistance, on top of Corrosion."
+            "en": "Some skills ignore a flat % of their element's resistance, on top of Corrosion.",
+            "zh": "某些技能在腐蚀之上再无视固定百分比的对应属性抗性。",
+            "ja": "一部のスキルは腐食に加えて、その属性の耐性を固定 % 無視します。",
+            "ko": "일부 스킬은 부식 위에 해당 속성 저항의 고정 %를 추가로 무시합니다."
           },
           "formula": "ResMult += Ignore",
           "example": {
             "es": "Laevatain ignora resistencia de Heat; Zhuang Fangyi, de Electric. Se suma encima del shred por Corrosión.",
-            "en": "Laevatain ignores Heat resistance; Zhuang Fangyi, Electric. It adds on top of the Corrosion shred."
+            "en": "Laevatain ignores Heat resistance; Zhuang Fangyi, Electric. It adds on top of the Corrosion shred.",
+            "zh": "莱万汀无视灼热抗性；庄方宜无视电磁抗性。叠在腐蚀削减之上。",
+            "ja": "レーヴァテインは灼熱耐性を、ゾアン・ファンイは電磁耐性を無視します。腐食の減少の上に加算されます。",
+            "ko": "레바테인은 열기 저항을, 장방이는 전기 저항을 무시합니다. 부식 감소 위에 더해집니다."
           }
         },
         {
           "id": "stagger",
           "name": {
             "es": "Tambaleo",
-            "en": "Stagger"
+            "en": "Stagger",
+            "zh": "失衡",
+            "ja": "ブレイク",
+            "ko": "불균형"
           },
           "stack": "mult",
           "status": "partial",
           "what": {
             "es": "Cuando el enemigo está en stagger recibe un bonus de daño plano definido por enemigo.",
-            "en": "While the enemy is staggered it takes a flat damage bonus defined per enemy."
+            "en": "While the enemy is staggered it takes a flat damage bonus defined per enemy.",
+            "zh": "敌人处于失衡状态时，受到按敌人定义的固定伤害加成。",
+            "ja": "敵がブレイク中は、敵ごとに定義された固定のダメージボーナスを受けます。",
+            "ko": "적이 불균형 상태인 동안 적마다 정의된 고정 피해 보너스를 받습니다."
           },
           "formula": {
             "es": "× staggerMult   (solo en stagger)",
-            "en": "× staggerMult   (stagger only)"
+            "en": "× staggerMult   (stagger only)",
+            "zh": "× 失衡倍率   （仅失衡时）",
+            "ja": "× ブレイク倍率   （ブレイク中のみ）",
+            "ko": "× 불균형 배율   (불균형 중에만)"
           },
           "example": {
             "es": "El valor está por enemigo (enemies.json). Meta › Rotación lo simula por ventanas de quiebre (los golpes de dentro llevan el bonus); el Comparador de skill aislado lo deja en ×1.",
-            "en": "The value is per enemy (enemies.json). Meta › Rotation simulates it by break windows (hits inside carry the bonus); the isolated skill Comparator leaves it at ×1."
+            "en": "The value is per enemy (enemies.json). Meta › Rotation simulates it by break windows (hits inside carry the bonus); the isolated skill Comparator leaves it at ×1.",
+            "zh": "数值按敌人而定（enemies.json）。Meta › 轮转按失衡窗口模拟（窗口内的命中带加成）；孤立技能的比较器保持 ×1。",
+            "ja": "値は敵ごと（enemies.json）。Meta › ローテーションはブレイクの窓で模擬します（窓の中のヒットにボーナス）。単発スキルの比較ツールでは ×1 のままです。",
+            "ko": "값은 적마다 다릅니다(enemies.json). Meta › 로테이션은 불균형 구간으로 시뮬레이션합니다(구간 안의 타격에 보너스). 단일 스킬 비교기는 ×1로 둡니다."
           }
         },
         {
@@ -254,22 +389,32 @@
           "name": {
             "es": "Remate",
             "en": "Finisher",
-            "jp": "終撃",
-            "zh": "处决"
+            "zh": "处决",
+            "ja": "終撃",
+            "ko": "처형"
           },
           "stack": "mult",
           "status": "modeled",
           "what": {
             "es": "Cuando un Finisher golpea a un enemigo en stagger máximo (ventana de quiebre), su daño se multiplica según el TIER del enemigo rematado. Solo cuenta un remate por ventana de quiebre.",
-            "en": "When a Finisher hits an enemy at max stagger (break window), its damage is multiplied by the TIER of the enemy being finished. Only one finisher counts per break window."
+            "en": "When a Finisher hits an enemy at max stagger (break window), its damage is multiplied by the TIER of the enemy being finished. Only one finisher counts per break window.",
+            "zh": "处决命中处于最大失衡（失衡窗口）的敌人时，伤害按被处决敌人的阶级相乘。每个失衡窗口只计一次处决。",
+            "ja": "終撃がブレイク最大（ブレイクの窓）の敵に当たると、ダメージは対象の敵のクラスで乗算されます。1 つのブレイク窓につき終撃は 1 回だけ数えます。",
+            "ko": "처형이 최대 불균형(불균형 구간)의 적에게 맞으면 피해가 처형당하는 적의 등급으로 곱해집니다. 불균형 구간마다 처형은 하나만 셉니다."
           },
           "formula": {
             "es": "× normal 1.0 · advanced 1.1 · elite 1.25 · boss 1.5 · leader 1.75   (por tier del enemigo)",
-            "en": "× normal 1.0 · advanced 1.1 · elite 1.25 · boss 1.5 · leader 1.75   (per enemy tier)"
+            "en": "× normal 1.0 · advanced 1.1 · elite 1.25 · boss 1.5 · leader 1.75   (per enemy tier)",
+            "zh": "× 普通 1.0 · 进阶 1.1 · 精英 1.25 · BOSS 1.5 · 首领 1.75   （按敌人阶级）",
+            "ja": "× 通常 1.0 · 上級 1.1 · 精鋭 1.25 · ボス 1.5 · リーダー 1.75   （敵のクラスごと）",
+            "ko": "× 일반 1.0 · 강화 1.1 · 정예 1.25 · 보스 1.5 · 리더 1.75   (적 등급별)"
           },
           "example": {
             "es": "Se simula en Meta › Rotación: el gate exige stagger máximo y descarta un segundo remate en la misma ventana.",
-            "en": "Simulated in Meta › Rotation: the gate requires max stagger and discards a second finisher in the same window."
+            "en": "Simulated in Meta › Rotation: the gate requires max stagger and discards a second finisher in the same window.",
+            "zh": "在 Meta › 轮转中模拟：门槛要求最大失衡，并丢弃同一窗口内的第二次处决。",
+            "ja": "Meta › ローテーションで模擬：条件はブレイク最大で、同じ窓の 2 回目の終撃は捨てられます。",
+            "ko": "Meta › 로테이션에서 시뮬레이션: 조건은 최대 불균형이며 같은 구간의 두 번째 처형은 버립니다."
           }
         },
         {
@@ -277,35 +422,51 @@
           "name": {
             "es": "Enlace",
             "en": "Link",
-            "jp": "リンク",
-            "zh": "连击"
+            "zh": "连击",
+            "ja": "リンク",
+            "ko": "연타"
           },
           "stack": "mult",
           "status": "modeled",
           "what": {
             "es": "Recurso de EQUIPO (stacks, máx 4): ciertos operadores lo generan y la siguiente Battle Skill o Ultimate lo CONSUME al empezar, multiplicando SU daño. Lo otorgan el Ultimate de Akekuri y el Combo de Camille/Lifeng.",
-            "en": "A TEAM resource (stacks, max 4): some operators generate it and the next Battle Skill or Ultimate CONSUMES it as it starts, multiplying ITS damage. Akekuri's Ultimate and Camille's/Lifeng's Combo grant it."
+            "en": "A TEAM resource (stacks, max 4): some operators generate it and the next Battle Skill or Ultimate CONSUMES it as it starts, multiplying ITS damage. Akekuri's Ultimate and Camille's/Lifeng's Combo grant it.",
+            "zh": "队伍资源（层数，最多 4）：部分干员产生它，下一个战技或终结技在开始时消耗它，放大该技能的伤害。秋栗的终结技以及卡缪/黎风的连携技会给予它。",
+            "ja": "チームの資源（スタック、最大 4）：一部のオペレーターが生成し、次の戦技または必殺技が発動時に消費して、そのスキルのダメージを乗算します。アケクリの必殺技とカミーユ/リーフォンの連携技が付与します。",
+            "ko": "팀 자원(중첩, 최대 4): 일부 오퍼레이터가 만들고, 다음 배틀 스킬이나 궁극기가 시작하며 소모해 그 스킬의 피해를 곱합니다. 아케쿠리의 궁극기와 카뮤/여풍의 연계 스킬이 줍니다."
           },
           "formula": {
             "es": "Battle Skill × (1 + .30/.45/.60/.75) · Ultimate × (1 + .20/.30/.40/.50)   (por 1–4 stacks)",
-            "en": "Battle Skill × (1 + .30/.45/.60/.75) · Ultimate × (1 + .20/.30/.40/.50)   (per 1–4 stacks)"
+            "en": "Battle Skill × (1 + .30/.45/.60/.75) · Ultimate × (1 + .20/.30/.40/.50)   (per 1–4 stacks)",
+            "zh": "战技 × (1 + .30/.45/.60/.75) · 终结技 × (1 + .20/.30/.40/.50)   （按 1–4 层）",
+            "ja": "戦技 × (1 + .30/.45/.60/.75) · 必殺技 × (1 + .20/.30/.40/.50)   （1–4 スタックごと）",
+            "ko": "배틀 스킬 × (1 + .30/.45/.60/.75) · 궁극기 × (1 + .20/.30/.40/.50)   (1~4중첩별)"
           },
           "example": {
             "es": "El Link de Akekuri escala el Battle Skill del carry (clave con Avywenna y Laevatain). Ya está en el motor y se simula golpe a golpe en Meta › Rotación.",
-            "en": "Akekuri's Link scales the carry's Battle Skill (key with Avywenna and Laevatain). It's now in the engine and simulated hit by hit in Meta › Rotation."
+            "en": "Akekuri's Link scales the carry's Battle Skill (key with Avywenna and Laevatain). It's now in the engine and simulated hit by hit in Meta › Rotation.",
+            "zh": "秋栗的连击放大主C的战技（对艾维文娜和莱万汀关键）。现已进入引擎，在 Meta › 轮转中逐次命中模拟。",
+            "ja": "アケクリのリンクはキャリーの戦技をスケールさせます（アイビーエナとレーヴァテインで重要）。エンジンに組み込み済みで、Meta › ローテーションでヒットごとに模擬します。",
+            "ko": "아케쿠리의 연타는 캐리의 배틀 스킬을 키웁니다(아비웨나와 레바테인에게 핵심). 이제 엔진에 들어가 Meta › 로테이션에서 타격별로 시뮬레이션합니다."
           }
         },
         {
           "id": "defensive_chain",
           "name": {
             "es": "Weaken · Protection · DMG Reduction",
-            "en": "Weaken · Protection · DMG Reduction"
+            "en": "Weaken · Protection · DMG Reduction",
+            "zh": "虚弱 · 庇护 · 减伤",
+            "ja": "弱体化 · 加護 · ダメージ軽減",
+            "ko": "허약 · 비호 · 피해 감소"
           },
           "stack": "na",
           "status": "defensive",
           "what": {
             "es": "Existen en la fórmula, pero reducen el daño ENTRANTE (el que recibe tu equipo) o el daño del enemigo, no el tuyo saliente. Por eso valen ×1 para tu daño y se cuentan en el eje defensivo.",
-            "en": "They exist in the formula, but they reduce INCOMING damage (what your team takes) or the enemy's damage, not your outgoing damage. So they're ×1 for your damage and count on the defensive axis."
+            "en": "They exist in the formula, but they reduce INCOMING damage (what your team takes) or the enemy's damage, not your outgoing damage. So they're ×1 for your damage and count on the defensive axis.",
+            "zh": "它们存在于公式中，但减少的是受到的伤害（你的队伍承受的）或敌人的伤害，而非你造成的伤害。所以对你的输出是 ×1，计入防御轴。",
+            "ja": "式には存在しますが、減らすのは受けるダメージ（チームが受ける分）や敵のダメージで、与えるダメージではありません。だからあなたのダメージには ×1 で、防御軸に数えます。",
+            "ko": "공식에 존재하지만 줄이는 것은 들어오는 피해(팀이 받는 것)나 적의 피해이지 당신이 주는 피해가 아닙니다. 그래서 당신의 피해에는 ×1이며 방어 축에 셉니다."
           }
         }
       ]
@@ -314,32 +475,50 @@
       "id": "reactions",
       "title": {
         "es": "Reacciones y estados — rama aparte",
-        "en": "Reactions & states — a separate branch"
+        "en": "Reactions & states — a separate branch",
+        "zh": "反应与状态 — 独立分支",
+        "ja": "反応と状態 — 別の枝",
+        "ko": "반응과 상태 — 별도 분기"
       },
       "note": {
         "es": "Las reacciones Arts (Burst/Reaction/Combustión…) y los estados físicos (Crush, Breach, Shatter…) usan la MISMA fórmula que un golpe normal, con un daño base propio y dos factores extra. Aquí SÍ entra el nivel del operador.",
-        "en": "Arts reactions (Burst/Reaction/Combustion…) and physical states (Crush, Breach, Shatter…) use the SAME formula as a normal hit, with their own base multiplier and two extra factors. Here the operator's level DOES matter."
+        "en": "Arts reactions (Burst/Reaction/Combustion…) and physical states (Crush, Breach, Shatter…) use the SAME formula as a normal hit, with their own base multiplier and two extra factors. Here the operator's level DOES matter.",
+        "zh": "法术异常（爆发/反应/燃烧…）和物理状态（猛击、碎甲、碎冰…）使用与普通命中相同的公式，带各自的基础倍率和两个额外因子。这里干员的等级是有影响的。",
+        "ja": "アーツ異常（爆発/反応/燃焼…）と物理状態（猛撃、破砕、粉砕…）は通常ヒットと同じ式を使い、独自の基礎倍率と 2 つの追加係数を持ちます。ここではオペレーターのレベルが影響します。",
+        "ko": "아츠 이상(폭발/반응/연소…)과 물리 상태(강타, 갑옷 파괴, 쇄빙…)는 일반 타격과 같은 공식을 쓰며, 자체 기초 배율과 두 가지 추가 계수를 가집니다. 여기서는 오퍼레이터 레벨이 영향을 줍니다."
       },
       "entries": [
         {
           "id": "hidden_level",
           "name": {
             "es": "Multiplicador por nivel (oculto)",
-            "en": "Level multiplier (hidden)"
+            "en": "Level multiplier (hidden)",
+            "zh": "等级乘数（隐藏）",
+            "ja": "レベル乗数（隠し）",
+            "ko": "레벨 배율(숨김)"
           },
           "stack": "mult",
           "status": "modeled",
           "what": {
             "es": "El nivel del operador NO afecta el daño de skill directo, pero SÍ las reacciones y estados, vía un multiplicador oculto.",
-            "en": "The operator's level does NOT affect direct skill damage, but it DOES affect reactions and states, via a hidden multiplier."
+            "en": "The operator's level does NOT affect direct skill damage, but it DOES affect reactions and states, via a hidden multiplier.",
+            "zh": "干员等级不影响直接的技能伤害，但通过一个隐藏乘数影响反应和状态。",
+            "ja": "オペレーターのレベルは直接のスキルダメージには影響しませんが、隠し乗数を通じて反応と状態には影響します。",
+            "ko": "오퍼레이터 레벨은 직접 스킬 피해에는 영향이 없지만, 숨은 배율을 통해 반응과 상태에는 영향을 줍니다."
           },
           "formula": {
             "es": "Arts: 1 + (Nivel−1)/196   ·   Físicos: 1 + (Nivel−1)/392",
-            "en": "Arts: 1 + (Level−1)/196   ·   Physical: 1 + (Level−1)/392"
+            "en": "Arts: 1 + (Level−1)/196   ·   Physical: 1 + (Level−1)/392",
+            "zh": "法术：1 + (等级−1)/196   ·   物理：1 + (等级−1)/392",
+            "ja": "アーツ: 1 + (レベル−1)/196   ·   物理: 1 + (レベル−1)/392",
+            "ko": "아츠: 1 + (레벨−1)/196   ·   물리: 1 + (레벨−1)/392"
           },
           "example": {
             "es": "A nivel 90: Arts ×1.454, físicos ×1.227.",
-            "en": "At level 90: Arts ×1.454, physical ×1.227."
+            "en": "At level 90: Arts ×1.454, physical ×1.227.",
+            "zh": "90 级时：法术 ×1.454，物理 ×1.227。",
+            "ja": "レベル 90 で：アーツ ×1.454、物理 ×1.227。",
+            "ko": "레벨 90에서 아츠 ×1.454, 물리 ×1.227."
           }
         },
         {
@@ -347,35 +526,51 @@
           "name": {
             "es": "Intensidad de artes",
             "en": "Arts Intensity",
-            "jp": "アーツ強度",
-            "zh": "源石技艺强度"
+            "zh": "源石技艺强度",
+            "ja": "アーツ強度",
+            "ko": "오리지늄 아츠 강도"
           },
           "stack": "mult",
           "status": "modeled",
           "what": {
             "es": "1 punto = +1% de daño de reacciones/estados/DoT. NO aplica al daño de skill directo (solo a la rama de reacciones). Además REFUERZA los debuffs que dejan las reacciones (Electrification, Breach y la rampa entera de Corrosión).",
-            "en": "1 point = +1% damage on reactions/states/DoT. It does NOT apply to direct skill damage (only to the reaction branch). It also REINFORCES the debuffs reactions leave behind (Electrification, Breach and the whole Corrosion ramp)."
+            "en": "1 point = +1% damage on reactions/states/DoT. It does NOT apply to direct skill damage (only to the reaction branch). It also REINFORCES the debuffs reactions leave behind (Electrification, Breach and the whole Corrosion ramp).",
+            "zh": "1 点 = 反应/状态/持续伤害 +1%。不作用于直接的技能伤害（只作用于反应分支）。它还会强化反应留下的减益（导电、碎甲和整条腐蚀曲线）。",
+            "ja": "1 ポイント = 反応/状態/DoT のダメージ +1%。直接のスキルダメージには掛かりません（反応の枝だけ）。さらに反応が残すデバフ（感電、破砕、腐食の上昇全体）を強化します。",
+            "ko": "1포인트 = 반응/상태/지속 피해 +1%. 직접 스킬 피해에는 적용되지 않습니다(반응 분기에만). 또한 반응이 남기는 디버프(감전, 갑옷 파괴, 부식 곡선 전체)를 강화합니다."
           },
           "formula": {
             "es": "daño × (1 + AI/100) · debuffs × (1 + 2·AI/(AI+300))",
-            "en": "damage × (1 + AI/100) · debuffs × (1 + 2·AI/(AI+300))"
+            "en": "damage × (1 + AI/100) · debuffs × (1 + 2·AI/(AI+300))",
+            "zh": "伤害 × (1 + AI/100) · 减益 × (1 + 2·AI/(AI+300))",
+            "ja": "ダメージ × (1 + AI/100) · デバフ × (1 + 2·AI/(AI+300))",
+            "ko": "피해 × (1 + AI/100) · 디버프 × (1 + 2·AI/(AI+300))"
           }
         },
         {
           "id": "reaction_base",
           "name": {
             "es": "Daño base de cada efecto",
-            "en": "Each effect's base damage"
+            "en": "Each effect's base damage",
+            "zh": "每种效果的基础伤害",
+            "ja": "各効果の基礎ダメージ",
+            "ko": "각 효과의 기초 피해"
           },
           "stack": "na",
           "status": "modeled",
           "what": {
             "es": "Cada efecto trae su propio % base, que escala con stacks o Status Level. La reacción usa el ATK del operador que aplica el elemento DETONANTE, no el que puso el primero.",
-            "en": "Each effect carries its own base %, scaling with stacks or Status Level. The reaction uses the ATK of the operator who applies the DETONATING element, not the one who applied the first."
+            "en": "Each effect carries its own base %, scaling with stacks or Status Level. The reaction uses the ATK of the operator who applies the DETONATING element, not the one who applied the first.",
+            "zh": "每种效果自带基础 %，随层数或异常等级增长。反应使用施加引爆属性的干员的攻击力，而不是先施加附着的那位。",
+            "ja": "各効果は独自の基礎 % を持ち、スタックや異常段階でスケールします。反応は起爆する属性を付与したオペレーターの攻撃力を使い、最初に付着させた側ではありません。",
+            "ko": "각 효과는 자체 기초 %를 가지며 중첩이나 이상 레벨에 비례합니다. 반응은 처음 부착한 쪽이 아니라 기폭 속성을 건 오퍼레이터의 공격력을 씁니다."
           },
           "formula": {
             "es": "Arts Burst 160% · Arts Reaction 80% +80%/stack · Crush 150% +150%/Vuln · Breach 50% +50%/Vuln · Shatter 120% +120%/nivel · Combustión 12% +12%/nivel · Lift/Knock 120%",
-            "en": "Arts Burst 160% · Arts Reaction 80% +80%/stack · Crush 150% +150%/Vuln · Breach 50% +50%/Vuln · Shatter 120% +120%/level · Combustion 12% +12%/level · Lift/Knock 120%"
+            "en": "Arts Burst 160% · Arts Reaction 80% +80%/stack · Crush 150% +150%/Vuln · Breach 50% +50%/Vuln · Shatter 120% +120%/level · Combustion 12% +12%/level · Lift/Knock 120%",
+            "zh": "法术爆发 160% · 法术异常 80% +80%/层 · 猛击 150% +150%/破防 · 碎甲 50% +50%/破防 · 碎冰 120% +120%/等级 · 燃烧 12% +12%/等级 · 击飞/倒地 120%",
+            "ja": "アーツ爆発 160% · アーツ異常 80% +80%/スタック · 猛撃 150% +150%/クラッシュ · 破砕 50% +50%/クラッシュ · 粉砕 120% +120%/段階 · 燃焼 12% +12%/段階 · 浮遊/転倒 120%",
+            "ko": "아츠 폭발 160% · 아츠 이상 80% +80%/중첩 · 강타 150% +150%/방어 불능 · 갑옷 파괴 50% +50%/방어 불능 · 쇄빙 120% +120%/레벨 · 연소 12% +12%/레벨 · 띄우기/넘어뜨리기 120%"
           }
         }
       ]
@@ -384,24 +579,36 @@
       "id": "resource",
       "title": {
         "es": "Recursos — no multiplican daño",
-        "en": "Resources — not damage multipliers"
+        "en": "Resources — not damage multipliers",
+        "zh": "资源 — 不是伤害乘数",
+        "ja": "資源 — ダメージ乗数ではない",
+        "ko": "자원 — 피해 배율이 아님"
       },
       "note": {
         "es": "No son multiplicadores: alimentan la rotación. Su matemática es de economía (cuántas skills y ultis lanzas por ventana), no de daño por golpe. Se modelan en Meta › Rotación.",
-        "en": "Not multipliers: they feed the rotation. Their math is economy (how many skills and ults you fire per window), not per-hit damage. Modeled in Meta › Rotation."
+        "en": "Not multipliers: they feed the rotation. Their math is economy (how many skills and ults you fire per window), not per-hit damage. Modeled in Meta › Rotation.",
+        "zh": "不是乘数：它们喂养轮转。它们的数学是经济学（每个窗口能放多少技能和终结技），不是单次伤害。在 Meta › 轮转中建模。",
+        "ja": "乗数ではなく、ローテーションを養うもの。その計算は経済（窓ごとに何回スキルと必殺技を撃てるか）であって、ヒットごとのダメージではありません。Meta › ローテーションでモデル化。",
+        "ko": "배율이 아니라 로테이션을 먹여 살립니다. 그 계산은 경제(구간마다 스킬과 궁극기를 몇 번 쓰는가)이지 타격당 피해가 아닙니다. Meta › 로테이션에서 모델링합니다."
       },
       "entries": [
         {
           "id": "sp",
           "name": {
             "es": "SP (Skill Points)",
-            "en": "SP (Skill Points)"
+            "en": "SP (Skill Points)",
+            "zh": "技力（SP）",
+            "ja": "戦技ポイント（SP）",
+            "ko": "스킬 게이지(SP)"
           },
           "stack": "na",
           "status": "external",
           "what": {
             "es": "Pool compartido (máx 300, +8/s pasivo). Las skills lo gastan; autos, sets y algunas skills lo devuelven. Más SP = más skills por ventana.",
-            "en": "Shared pool (max 300, +8/s passive). Skills spend it; autos, sets and some skills return it. More SP = more skills per window."
+            "en": "Shared pool (max 300, +8/s passive). Skills spend it; autos, sets and some skills return it. More SP = more skills per window.",
+            "zh": "共享池（最多 300，被动 +8/秒）。技能消耗它；普攻、套装和部分技能返还它。更多 SP = 每个窗口更多技能。",
+            "ja": "共有プール（最大 300、受動で +8/秒）。スキルが消費し、通常攻撃・セット・一部のスキルが返します。SP が多い = 窓ごとにスキルが多い。",
+            "ko": "공유 풀(최대 300, 수동 +8/초). 스킬이 소모하고 일반 공격, 세트, 일부 스킬이 돌려줍니다. SP가 많을수록 구간마다 스킬이 많습니다."
           }
         },
         {
@@ -409,14 +616,18 @@
           "name": {
             "es": "Eficiencia de ganancia máxima",
             "en": "Ultimate Gain Efficiency",
-            "jp": "必殺チャージの回復効率",
-            "zh": "终结技充能效率"
+            "zh": "终结技充能效率",
+            "ja": "必殺チャージの回復効率",
+            "ko": "궁극기 충전 효율"
           },
           "stack": "na",
           "status": "external",
           "what": {
             "es": "Acelera la carga de la Ultimate. No sube el daño de un golpe, pero adelanta tu ventana de burst.",
-            "en": "Speeds up Ultimate charge. It doesn't raise a hit's damage, but it brings your burst window forward."
+            "en": "Speeds up Ultimate charge. It doesn't raise a hit's damage, but it brings your burst window forward.",
+            "zh": "加快终结技充能。它不提高单次伤害，但让你的爆发窗口提前到来。",
+            "ja": "必殺技のチャージを速めます。ヒットのダメージは上げませんが、バースト窓を前倒しにします。",
+            "ko": "궁극기 충전을 빠르게 합니다. 타격 피해를 올리지는 않지만 폭발 구간을 앞당깁니다."
           }
         }
       ]
@@ -425,37 +636,55 @@
       "id": "defensive",
       "title": {
         "es": "Defensivos y control",
-        "en": "Defensive & control"
+        "en": "Defensive & control",
+        "zh": "防御与控制",
+        "ja": "防御と制御",
+        "ko": "방어와 제어"
       },
       "note": {
         "es": "Protegen al equipo o preparan al enemigo. No entran en tu daño saliente; el tier list los pondera con un plus defensivo.",
-        "en": "They protect the team or set up the enemy. They don't enter your outgoing damage; the tier list weighs them with a defensive bonus."
+        "en": "They protect the team or set up the enemy. They don't enter your outgoing damage; the tier list weighs them with a defensive bonus.",
+        "zh": "保护队伍或布置敌人。它们不进入你造成的伤害；梯度表以防御加分衡量它们。",
+        "ja": "チームを守るか、敵を仕込みます。与えるダメージには入りません。ティアリストは防御ボーナスとして重み付けします。",
+        "ko": "팀을 지키거나 적을 준비시킵니다. 주는 피해에는 들어가지 않으며 티어 리스트는 방어 보너스로 가늠합니다."
       },
       "entries": [
         {
           "id": "shield_heal",
           "name": {
             "es": "Escudo · Protection · Cura",
-            "en": "Shield · Protection · Heal"
+            "en": "Shield · Protection · Heal",
+            "zh": "护盾 · 庇护 · 治疗",
+            "ja": "シールド · 加護 · 回復",
+            "ko": "보호 · 비호 · 치유"
           },
           "stack": "na",
           "status": "defensive",
           "what": {
             "es": "Reducen o absorben el daño entrante. Valor de supervivencia, no de daño.",
-            "en": "They reduce or absorb incoming damage. Survivability value, not damage."
+            "en": "They reduce or absorb incoming damage. Survivability value, not damage.",
+            "zh": "减少或吸收受到的伤害。生存价值，不是伤害。",
+            "ja": "受けるダメージを減らすか吸収します。生存の価値であって、ダメージではありません。",
+            "ko": "들어오는 피해를 줄이거나 흡수합니다. 생존 가치이지 피해가 아닙니다."
           }
         },
         {
           "id": "cc",
           "name": {
             "es": "Control (Lift · Knock Down · Solidification · Slow)",
-            "en": "Control (Lift · Knock Down · Solidification · Slow)"
+            "en": "Control (Lift · Knock Down · Solidification · Slow)",
+            "zh": "控制（击飞 · 倒地 · 冻结 · 缓速）",
+            "ja": "制御（浮遊 · 転倒 · 凍結 · スロー）",
+            "ko": "제어(띄우기 · 넘어뜨리기 · 동결 · 감속)"
           },
           "stack": "na",
           "status": "defensive",
           "what": {
             "es": "Inmoviliza o ralentiza. No es un multiplicador, pero habilita: Lift y Knock Down cargan Vulnerability y abren ventanas; Solidification es la reacción de Cryo (Cryo sobre la Infliction de otro elemento) e inmoviliza al enemigo.",
-            "en": "Locks down or slows. Not a multiplier, but it enables: Lift and Knock Down build Vulnerability and open windows; Solidification is the Cryo reaction (Cryo onto the Infliction of another element) and immobilizes the enemy."
+            "en": "Locks down or slows. Not a multiplier, but it enables: Lift and Knock Down build Vulnerability and open windows; Solidification is the Cryo reaction (Cryo onto the Infliction of another element) and immobilizes the enemy.",
+            "zh": "锁住或减慢敌人。不是乘数，但能创造条件：击飞和倒地积累破防并打开窗口；冻结是寒冷反应（寒冷施加在另一属性的附着上），会定住敌人。",
+            "ja": "敵を封じるか遅くします。乗数ではありませんが、条件を作ります：浮遊と転倒はクラッシュを積んで窓を開き、凍結は寒冷の反応（別属性の付着に寒冷）で敵を固定します。",
+            "ko": "적을 묶거나 느리게 합니다. 배율은 아니지만 조건을 만듭니다. 띄우기와 넘어뜨리기는 방어 불능을 쌓고 구간을 열며, 동결은 냉기 반응(다른 속성의 부착 위에 냉기)으로 적을 고정합니다."
           }
         }
       ]

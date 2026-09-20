@@ -22,7 +22,11 @@
             47,
             50,
             55
-          ]
+          ],
+          "name_es": "Multiplicador ATQB SEC 1",
+          "name_zh": "普攻第一段倍率",
+          "name_ja": "通常攻撃1段目ダメージ倍率",
+          "name_ko": "일반 공격 제1단계 배율"
         },
         {
           "name": "BATK SEQ 2 Multiplier",
@@ -40,7 +44,11 @@
             56,
             60,
             65
-          ]
+          ],
+          "name_es": "Multiplicador ATQB SEC 2",
+          "name_zh": "普攻第二段倍率",
+          "name_ja": "通常攻撃2段目ダメージ倍率",
+          "name_ko": "일반 공격 제2단계 배율"
         },
         {
           "name": "BATK SEQ 3 Multiplier",
@@ -58,7 +66,11 @@
             67,
             73,
             79
-          ]
+          ],
+          "name_es": "Multiplicador ATQB SEC 3",
+          "name_zh": "普攻第三段倍率",
+          "name_ja": "通常攻撃3段目ダメージ倍率",
+          "name_ko": "일반 공격 제3단계 배율"
         },
         {
           "name": "BATK SEQ 4 Multiplier",
@@ -76,7 +88,11 @@
             130,
             140,
             152
-          ]
+          ],
+          "name_es": "Multiplicador ATQB SEC 4",
+          "name_zh": "普攻第四段倍率",
+          "name_ja": "通常攻撃4段目ダメージ倍率",
+          "name_ko": "일반 공격 제4단계 배율"
         },
         {
           "name": "Finisher ATK Multiplier",
@@ -94,7 +110,11 @@
             770,
             830,
             900
-          ]
+          ],
+          "name_zh": "处决攻击倍率",
+          "name_ja": "終撃ダメージ倍率",
+          "name_ko": "처형 공격 배율",
+          "name_es": "Multiplicador ATQ Remate"
         },
         {
           "name": "Dive ATK Multiplier",
@@ -112,7 +132,11 @@
             154,
             166,
             180
-          ]
+          ],
+          "name_es": "Multiplicador ATQ de Inmersión",
+          "name_zh": "下落攻击倍率",
+          "name_ja": "落下攻撃ダメージ倍率",
+          "name_ko": "낙하 공격 배율"
         }
       ]
     },
@@ -134,7 +158,11 @@
             100,
             100,
             100
-          ]
+          ],
+          "name_es": "Costo de PH",
+          "name_zh": "技力消耗",
+          "name_ja": "SP消費",
+          "name_ko": "스킬 게이지 소모"
         },
         {
           "name": "SEQ 1 DMG Multiplier",
@@ -152,7 +180,11 @@
             73,
             79,
             86
-          ]
+          ],
+          "name_es": "Multiplicador de DAÑ SEC 1",
+          "name_zh": "第一段伤害倍率",
+          "name_ja": "1段目ダメージ倍率",
+          "name_ko": "제1단계 피해 배율"
         },
         {
           "name": "SEQ 2 DMG Multiplier",
@@ -170,7 +202,11 @@
             73,
             79,
             86
-          ]
+          ],
+          "name_es": "Multiplicador de DAÑ SEC 2",
+          "name_zh": "第二段伤害倍率",
+          "name_ja": "2段目ダメージ倍率",
+          "name_ko": "제2단계 피해 배율"
         },
         {
           "name": "SEQ 3 DMG Multiplier",
@@ -188,7 +224,11 @@
             229,
             247,
             268
-          ]
+          ],
+          "name_es": "Multiplicador de DAÑ SEC 3",
+          "name_zh": "第三段伤害倍率",
+          "name_ja": "3段目ダメージ倍率",
+          "name_ko": "제3단계 피해 배율"
         },
         {
           "name": "SEQ 3 Stagger",
@@ -205,7 +245,11 @@
             10,
             10,
             10
-          ]
+          ],
+          "name_es": "Tambaleo de SEC 3",
+          "name_zh": "第三段失衡值",
+          "name_ja": "3段目ブレイク値",
+          "name_ko": "제3단계 불균형치"
         },
         {
           "name": "Physical Susceptibility",
@@ -223,7 +267,11 @@
             10,
             10,
             12
-          ]
+          ],
+          "name_zh": "物理脆弱效果",
+          "name_ja": "物理脆弱効果",
+          "name_ko": "물리 취약 효과",
+          "name_es": "Susceptibilidad física"
         },
         {
           "name": "Physical Susceptibility Duration (s)",
@@ -240,7 +288,11 @@
             12,
             12,
             12
-          ]
+          ],
+          "name_zh": "物理脆弱持续时间（秒）",
+          "name_ja": "物理脆弱持続時間（秒）",
+          "name_ko": "물리 취약 지속 시간(초)",
+          "name_es": "Duración de Suscep. fís. (s)"
         }
       ]
     },
@@ -262,7 +314,11 @@
             16,
             16,
             15
-          ]
+          ],
+          "name_ko": "쿨타임",
+          "name_es": "Tiempo de reutilización",
+          "name_zh": "冷却",
+          "name_ja": "クールタイム"
         },
         {
           "name": "SEQ 1 DMG Multiplier",
@@ -280,7 +336,11 @@
             90,
             97,
             105
-          ]
+          ],
+          "name_es": "Multiplicador de DAÑ SEC 1",
+          "name_zh": "第一段伤害倍率",
+          "name_ja": "1段目ダメージ倍率",
+          "name_ko": "제1단계 피해 배율"
         },
         {
           "name": "SEQ 2 DMG Multiplier",
@@ -298,7 +358,11 @@
             321,
             346,
             375
-          ]
+          ],
+          "name_es": "Multiplicador de DAÑ SEC 2",
+          "name_zh": "第二段伤害倍率",
+          "name_ja": "2段目ダメージ倍率",
+          "name_ko": "제2단계 피해 배율"
         },
         {
           "name": "SEQ 2 Stagger",
@@ -315,7 +379,11 @@
             10,
             10,
             10
-          ]
+          ],
+          "name_es": "Tambaleo de SEC 2",
+          "name_zh": "第二段失衡值",
+          "name_ja": "2段目ブレイク値",
+          "name_ko": "제2단계 불균형치"
         },
         {
           "name": "Combo Duration (s)",
@@ -332,7 +400,11 @@
             20,
             20,
             20
-          ]
+          ],
+          "name_es": "Duración de combo (s)",
+          "name_zh": "连击持续时间（秒）",
+          "name_ja": "リンク持続時間（秒）",
+          "name_ko": "연타 지속 시간(초)"
         },
         {
           "name": "Ultimate Energy Gain",
@@ -349,7 +421,11 @@
             10,
             10,
             10
-          ]
+          ],
+          "name_es": "Ganancia de Energía máxima",
+          "name_zh": "获得终结技能量",
+          "name_ja": "必殺チャージ回復量",
+          "name_ko": "획득하는 궁극기 에너지"
         }
       ]
     },
@@ -371,7 +447,11 @@
             90,
             90,
             90
-          ]
+          ],
+          "name_es": "Costo de energía máxima",
+          "name_zh": "所需终结技能量",
+          "name_ja": "必殺チャージ消費",
+          "name_ko": "필요한 궁극기 에너지"
         },
         {
           "name": "SEQ 1 DMG Multiplier",
@@ -389,7 +469,11 @@
             342,
             369,
             400
-          ]
+          ],
+          "name_es": "Multiplicador de DAÑ SEC 1",
+          "name_zh": "第一段伤害倍率",
+          "name_ja": "1段目ダメージ倍率",
+          "name_ko": "제1단계 피해 배율"
         },
         {
           "name": "SEQ 1 Stagger",
@@ -406,7 +490,11 @@
             5,
             5,
             5
-          ]
+          ],
+          "name_es": "Tambaleo de SEC 1",
+          "name_zh": "第一段失衡值",
+          "name_ja": "1段目ブレイク値",
+          "name_ko": "제1단계 불균형치"
         },
         {
           "name": "SEQ 2 DMG Multiplier",
@@ -424,7 +512,11 @@
             342,
             369,
             400
-          ]
+          ],
+          "name_es": "Multiplicador de DAÑ SEC 2",
+          "name_zh": "第二段伤害倍率",
+          "name_ja": "2段目ダメージ倍率",
+          "name_ko": "제2단계 피해 배율"
         },
         {
           "name": "SEQ 2 Stagger",
@@ -441,7 +533,11 @@
             5,
             5,
             5
-          ]
+          ],
+          "name_es": "Tambaleo de SEC 2",
+          "name_zh": "第二段失衡值",
+          "name_ja": "2段目ブレイク値",
+          "name_ko": "제2단계 불균형치"
         },
         {
           "name": "Additional ATK DMG Multiplier",
@@ -459,7 +555,11 @@
             514,
             554,
             600
-          ]
+          ],
+          "name_es": "Multiplicador de DAÑ de ATQ adicional",
+          "name_zh": "追加伤害倍率",
+          "name_ja": "追加ダメージ倍率",
+          "name_ko": "추가 피해 배율"
         },
         {
           "name": "Additional ATK Stagger",
@@ -476,7 +576,11 @@
             5,
             5,
             5
-          ]
+          ],
+          "name_es": "Tambaleo de ATQ adicional",
+          "name_zh": "追加失衡值",
+          "name_ja": "追加ブレイク値",
+          "name_ko": "추가 불균형치"
         }
       ]
     }

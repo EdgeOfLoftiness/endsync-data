@@ -1,46 +1,58 @@
 {
   "items": [
     {
-      "id": "wk-stock",
-      "kind": "shop",
-      "label": { "es": "Stock Redistribution: compra semanal", "en": "Stock Redistribution: weekly stock" },
-      "desc": { "es": "Headhunt Permits, Engraving Permits y Artificing Catalysts rotan en el reset", "en": "Headhunt Permits, Engraving Permits and Artificing Catalysts rotate on reset" }
-    },
-    {
       "id": "wk-routine",
       "kind": "mission",
-      "label": { "es": "Weekly Routine", "en": "Weekly Routine" },
-      "desc": { "es": "Los objetivos semanales del Events Center", "en": "The weekly objectives in the Events Center" }
+      "label": {
+        "es": "Weekly Routine",
+        "en": "Weekly Routine",
+        "zh": "每周事务",
+        "ja": "ウィークリークエスト",
+        "ko": "주간 업무"
+      },
+      "desc": {
+        "es": "Los objetivos semanales del Events Center",
+        "en": "The weekly objectives in the Events Center",
+        "zh": "活动中心里的每周目标",
+        "ja": "イベントセンターの週間目標",
+        "ko": "이벤트 센터의 주간 목표"
+      }
     },
     {
       "id": "wk-pass",
       "kind": "mission",
-      "label": { "es": "Semanales del Protocol Pass", "en": "Protocol Pass weeklies" },
-      "desc": { "es": "Dan mucho más EXP de pase que las diarias", "en": "They give far more pass EXP than dailies" }
+      "label": {
+        "es": "Semanales del Protocol Pass",
+        "en": "Protocol Pass weeklies",
+        "zh": "协议通行证周常",
+        "ja": "協約通行証のウィークリー",
+        "ko": "프로토콜 통행증 주간 임무"
+      },
+      "desc": {
+        "es": "Dan mucho más EXP de pase que las diarias",
+        "en": "They give far more pass EXP than dailies",
+        "zh": "给的通行证经验远多于日常",
+        "ja": "デイリーよりはるかに多い通行証 EXP",
+        "ko": "일일 임무보다 훨씬 많은 통행증 EXP를 줌"
+      }
     },
     {
-      "id": "wk-activity",
-      "kind": "milestone",
-      "label": { "es": "Hito de 100 Activity Points", "en": "100 Activity Points milestone" },
-      "desc": { "es": "Las diarias del Operational Manual acumulan al hito semanal", "en": "Operational Manual dailies add up to the weekly milestone" }
-    },
-    {
-      "id": "wk-alluvium",
-      "kind": "discount",
-      "label": { "es": "Severe Energy Alluvium", "en": "Severe Energy Alluvium" },
-      "desc": { "es": "El contador de descuento de Sanity se reinicia cada semana", "en": "The Sanity discount counter resets every week" }
-    },
-    {
-      "id": "wk-boss",
+      "id": "wk-echoes",
       "kind": "boss",
-      "label": { "es": "Desafíos de jefe de la semana", "en": "Weekly boss challenges" },
-      "desc": { "es": "El conteo semanal se limpia en el reset del lunes", "en": "The weekly count clears on the Monday reset" }
-    },
-    {
-      "id": "wk-booster",
-      "kind": "expiry",
-      "label": { "es": "Emergency Sanity Booster", "en": "Emergency Sanity Booster" },
-      "desc": { "es": "El que no uses expira al cierre de la semana", "en": "Any left unused expires when the week closes" }
+      "label": {
+        "es": "Echoes of War",
+        "en": "Echoes of War",
+        "zh": "战争回响",
+        "ja": "戦争残響",
+        "ko": "전쟁의 메아리"
+      },
+      "desc": {
+        "es": "Las etapas del ciclo en curso: todo el Oroberyl sale en Normal; Hard y Brutal solo suben estrellas",
+        "en": "The current cycle's stages: all the Oroberyl comes from Normal; Hard and Brutal only raise stars",
+        "zh": "本周期的关卡：所有嵌晶玉都来自普通难度；困难和残酷只加星",
+        "ja": "今サイクルのステージ：赤晶玉はすべて通常から。苦難と苛烈は星が増えるだけ",
+        "ko": "이번 주기의 스테이지: 오로베릴은 전부 일반에서 나옴. 고난과 잔혹은 별만 올림"
+      }
     }
   ]
 }

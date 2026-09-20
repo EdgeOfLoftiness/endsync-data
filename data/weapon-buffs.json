@@ -19,7 +19,10 @@
      "pendingModel": "crit-proc probabilístico (acumula al infligir Critical DMG con skill, hasta 16 stacks); NO derivable de un timeline ideal → toggle-solo del calc de Daño, inerte en la Rotación a propósito. Candidato EV-movible",
      "cond": {
       "es": "tras infligir Critical DMG con skill; acumula a 16 stacks; +per-stack x16 + bono a 16 stacks, 20s",
-      "en": "after dealing Critical DMG with a skill; stacks up to 16; +per-stack x16 + bonus at 16 stacks, 20s"
+      "en": "after dealing Critical DMG with a skill; stacks up to 16; +per-stack x16 + bonus at 16 stacks, 20s",
+      "zh": "用技能造成暴击伤害后；最多叠 16 层；每层 ×16 + 16 层时的额外加成，20 秒",
+      "ja": "スキルで会心ダメージを与えた後。最大 16 スタック、1 スタックごと ×16 ＋ 16 スタック時のボーナス、20 秒",
+      "ko": "스킬로 치명타 피해를 준 뒤. 최대 16중첩, 중첩당 ×16 + 16중첩 시 보너스, 20초"
      },
      "mods": [
       {
@@ -60,7 +63,10 @@
      "target": "team",
      "cond": {
       "es": "cuando una skill del portador recupera SP; +ATK a todo el equipo 20s",
-      "en": "when the wielder's skill recovers SP; team +ATK for 20s"
+      "en": "when the wielder's skill recovers SP; team +ATK for 20s",
+      "zh": "持有者的技能回复 SP 时；全队攻击力提升，20 秒",
+      "ja": "装備者のスキルが SP を回復したとき、チームの攻撃力アップ、20 秒",
+      "ko": "장착자의 스킬이 SP를 회복할 때, 팀 공격력 증가, 20초"
      },
      "mods": [
       {
@@ -87,7 +93,10 @@
      "target": "team",
      "cond": {
       "es": "cuando una skill del portador aplica Heat Infliction; +Heat DMG Dealt a todo el equipo 20s",
-      "en": "when the wielder's skill applies Heat Infliction; team +Heat DMG Dealt for 20s"
+      "en": "when the wielder's skill applies Heat Infliction; team +Heat DMG Dealt for 20s",
+      "zh": "持有者的技能施加灼热附着时；全队灼热伤害提升，20 秒",
+      "ja": "装備者のスキルが灼熱付着を付与したとき、チームの灼熱ダメージアップ、20 秒",
+      "ko": "장착자의 스킬이 열기 부착을 적용할 때, 팀 열기 피해 증가, 20초"
      },
      "mods": [
       {
@@ -123,7 +132,10 @@
      "replacesLeading": true,
      "cond": {
       "es": "Arts DMG Dealt permanente de la pasiva (escala por nodo de esencia).",
-      "en": "Permanent Arts DMG Dealt from the passive (scales per essence node)."
+      "en": "Permanent Arts DMG Dealt from the passive (scales per essence node).",
+      "zh": "被动提供的永久法术伤害（随基质节点成长）。",
+      "ja": "パッシブによる永続のアーツダメージ（基質ノードでスケール）。",
+      "ko": "패시브의 영구 아츠 피해(기질 노드에 따라 증가)."
      },
      "mods": [
       {
@@ -152,7 +164,10 @@
      "noStack": true,
      "cond": {
       "es": "Al castear una battle skill: Arts DMG Dealt +valor por 15s (no se apila consigo mismo).",
-      "en": "When the wielder casts a battle skill: Arts DMG Dealt +value for 15s (does not stack with itself)."
+      "en": "When the wielder casts a battle skill: Arts DMG Dealt +value for 15s (does not stack with itself).",
+      "zh": "持有者施放战技时：法术伤害 +数值，15 秒（不与自身叠加）。",
+      "ja": "装備者が戦技を発動したとき：アーツダメージ ＋値、15 秒（自身とは重複しない）。",
+      "ko": "장착자가 배틀 스킬을 사용할 때: 아츠 피해 +값, 15초(자신과 중첩되지 않음)."
      },
      "mods": [
       {
@@ -181,7 +196,10 @@
      "noStack": true,
      "cond": {
       "es": "Al castear una combo skill: Arts DMG Dealt +valor por 15s (efecto separado del de battle skill; no se apila consigo mismo).",
-      "en": "When the wielder casts a combo skill: Arts DMG Dealt +value for 15s (separate effect from the battle-skill one; does not stack with itself)."
+      "en": "When the wielder casts a combo skill: Arts DMG Dealt +value for 15s (separate effect from the battle-skill one; does not stack with itself).",
+      "zh": "持有者施放连携技时：法术伤害 +数值，15 秒（与战技的效果分开；不与自身叠加）。",
+      "ja": "装備者が連携技を発動したとき：アーツダメージ ＋値、15 秒（戦技の効果とは別枠。自身とは重複しない）。",
+      "ko": "장착자가 연계 스킬을 사용할 때: 아츠 피해 +값, 15초(배틀 스킬 효과와는 별개, 자신과 중첩되지 않음)."
      },
      "mods": [
       {
@@ -218,7 +236,10 @@
      "noStack": true,
      "cond": {
       "es": "Cuando el portador aplica Electrification: el equipo gana Physical DMG Dealt y Electric DMG Dealt +valor por 15s (no se apila consigo mismo). El Arts Intensity +10..28 de la pasiva ya está contado aparte.",
-      "en": "When the wielder applies Electrification: the team gains Physical DMG Dealt and Electric DMG Dealt +value for 15s (does not stack with itself). The passive's Arts Intensity +10..28 is already counted separately."
+      "en": "When the wielder applies Electrification: the team gains Physical DMG Dealt and Electric DMG Dealt +value for 15s (does not stack with itself). The passive's Arts Intensity +10..28 is already counted separately.",
+      "zh": "持有者施加导电时：全队物理伤害和电磁伤害 +数值，15 秒（不与自身叠加）。被动的源石技艺强度 +10..28 已另行计入。",
+      "ja": "装備者が感電を付与したとき：チームの物理ダメージと電磁ダメージ ＋値、15 秒（自身とは重複しない）。パッシブのアーツ強度 +10〜28 は別に計上済み。",
+      "ko": "장착자가 감전을 적용할 때: 팀 물리 피해와 전기 피해 +값, 15초(자신과 중첩되지 않음). 패시브의 아츠 강도 +10..28은 따로 계산됨."
      },
      "mods": [
       {
@@ -265,7 +286,10 @@
      "target": "self",
      "cond": {
       "es": "Bonificación de daño Heat permanente.",
-      "en": "Permanent Heat DMG bonus."
+      "en": "Permanent Heat DMG bonus.",
+      "zh": "永久灼热伤害加成。",
+      "ja": "永続の灼熱ダメージボーナス。",
+      "ko": "영구 열기 피해 보너스."
      },
      "mods": [
       {
@@ -293,7 +317,10 @@
      "target": "self",
      "cond": {
       "es": "Tras lanzar la Definitiva, +DMG de Ataque Básico por 20s.",
-      "en": "After casting Ultimate, +Basic Attack DMG for 20s."
+      "en": "After casting Ultimate, +Basic Attack DMG for 20s.",
+      "zh": "施放终结技后，普攻伤害提升，20 秒。",
+      "ja": "必殺技の発動後、通常攻撃ダメージアップ、20 秒。",
+      "ko": "궁극기 사용 후 일반 공격 피해 증가, 20초."
      },
      "mods": [
       {
@@ -328,7 +355,10 @@
      "target": "self",
      "cond": {
       "es": "Bonus permanente de daño físico.",
-      "en": "Permanent Physical DMG Dealt bonus."
+      "en": "Permanent Physical DMG Dealt bonus.",
+      "zh": "永久物理伤害加成。",
+      "ja": "永続の物理ダメージボーナス。",
+      "ko": "영구 물리 피해 보너스."
      },
      "mods": [
       {
@@ -356,7 +386,10 @@
      "target": "self",
      "cond": {
       "es": "Tras recuperar SP con sus skills: portador +8% Physical (nodo 4); el cálculo lo reparte mitad propia y mitad de equipo (el portador suma ambas). Apila a 5; duración por stack independiente (30s).",
-      "en": "After recovering SP with own skills: wielder +8% Physical (node 4); the calculation splits it half self and half team (the wielder adds both). Stacks to 5; per-stack duration counted separately (30s)."
+      "en": "After recovering SP with own skills: wielder +8% Physical (node 4); the calculation splits it half self and half team (the wielder adds both). Stacks to 5; per-stack duration counted separately (30s).",
+      "zh": "用自身技能回复 SP 后：持有者物理 +8%（节点 4）；计算拆为一半自身、一半队伍（持有者两者都加）。最多 5 层；每层持续时间单独计算（30 秒）。",
+      "ja": "自身のスキルで SP を回復した後：装備者は物理 +8%（ノード 4）。計算では自身半分・チーム半分に分ける（装備者は両方）。最大 5 スタック、各スタックの持続は個別（30 秒）。",
+      "ko": "자신의 스킬로 SP를 회복한 뒤: 장착자 물리 +8%(노드 4). 계산은 절반 자신, 절반 팀으로 나눕니다(장착자는 둘 다). 최대 5중첩, 중첩별 지속 시간 별도(30초)."
      },
      "mods": [
       {
@@ -387,7 +420,10 @@
      "target": "team",
      "cond": {
       "es": "Tras que el portador recupere SP con sus skills: el resto del equipo gana la mitad (+4% a nodo 4). Apila a 5; duración por stack independiente (30s).",
-      "en": "After the wielder recovers SP with their own skills: the rest of the team gains half (+4% at node 4). Stacks to 5; per-stack duration counted separately (30s)."
+      "en": "After the wielder recovers SP with their own skills: the rest of the team gains half (+4% at node 4). Stacks to 5; per-stack duration counted separately (30s).",
+      "zh": "持有者用自身技能回复 SP 后：队伍其他人获得一半（节点 4 时 +4%）。最多 5 层；每层持续时间单独计算（30 秒）。",
+      "ja": "装備者が自身のスキルで SP を回復した後：他のメンバーは半分を得る（ノード 4 で +4%）。最大 5 スタック、各スタックの持続は個別（30 秒）。",
+      "ko": "장착자가 자신의 스킬로 SP를 회복한 뒤: 팀의 나머지는 절반을 얻습니다(노드 4에서 +4%). 최대 5중첩, 중첩별 지속 시간 별도(30초)."
      },
      "mods": [
       {
@@ -424,7 +460,10 @@
      "target": "self",
      "cond": {
       "es": "ATK +16% permanente",
-      "en": "Permanent ATK +16%"
+      "en": "Permanent ATK +16%",
+      "zh": "永久攻击力 +16%",
+      "ja": "永続の攻撃力 +16%",
+      "ko": "영구 공격력 +16%"
      },
      "mods": [
       {
@@ -451,7 +490,10 @@
      "target": "team",
      "cond": {
       "es": "Tras recuperar SP la skill del portador, el equipo entero gana ATK +8% por 20s. Apila a 2; duración por stack independiente.",
-      "en": "After the wielder's skill recovers SP, the entire team gains ATK +8% for 20s. Stacks to 2; per-stack duration counted separately."
+      "en": "After the wielder's skill recovers SP, the entire team gains ATK +8% for 20s. Stacks to 2; per-stack duration counted separately.",
+      "zh": "持有者的技能回复 SP 后，全队攻击力 +8%，20 秒。最多 2 层；每层持续时间单独计算。",
+      "ja": "装備者のスキルが SP を回復した後、チーム全員の攻撃力 +8%、20 秒。最大 2 スタック、各スタックの持続は個別。",
+      "ko": "장착자의 스킬이 SP를 회복한 뒤 팀 전체 공격력 +8%, 20초. 최대 2중첩, 중첩별 지속 시간 별도."
      },
      "mods": [
       {
@@ -487,7 +529,10 @@
      "target": "self",
      "cond": {
       "es": "Bonificacion permanente de DMG Fisico.",
-      "en": "Permanent Physical DMG dealt bonus."
+      "en": "Permanent Physical DMG dealt bonus.",
+      "zh": "永久物理伤害加成。",
+      "ja": "永続の物理ダメージボーナス。",
+      "ko": "영구 물리 피해 보너스."
      },
      "mods": [
       {
@@ -515,7 +560,10 @@
      "target": "self",
      "cond": {
       "es": "Tras impactar con Habilidad de Combate o Definitiva: +DMG Fisico durante 30s (hasta 3 acumulaciones).",
-      "en": "After Battle Skill or Ultimate hits: +Physical DMG for 30s (up to 3 stacks)."
+      "en": "After Battle Skill or Ultimate hits: +Physical DMG for 30s (up to 3 stacks).",
+      "zh": "战技或终结技命中后：物理伤害提升，30 秒（最多 3 层）。",
+      "ja": "戦技または必殺技が当たった後：物理ダメージアップ、30 秒（最大 3 スタック）。",
+      "ko": "배틀 스킬 또는 궁극기 명중 후: 물리 피해 증가, 30초(최대 3중첩)."
      },
      "mods": [
       {
@@ -550,7 +598,10 @@
      "target": "self",
      "cond": {
       "es": "Aumenta el DMG de todas las habilidades.",
-      "en": "Increases DMG dealt by all skills."
+      "en": "Increases DMG dealt by all skills.",
+      "zh": "提升所有技能造成的伤害。",
+      "ja": "すべてのスキルの与ダメージを上げる。",
+      "ko": "모든 스킬이 주는 피해 증가."
      },
      "mods": [
       {
@@ -578,7 +629,10 @@
      "target": "self",
      "cond": {
       "es": "Cuando la Habilidad de Combate aplica Inflicción de Cryo: +DMG de Cryo 15s.",
-      "en": "When Battle Skill applies Cryo Infliction: +Cryo DMG dealt for 15s."
+      "en": "When Battle Skill applies Cryo Infliction: +Cryo DMG dealt for 15s.",
+      "zh": "战技施加寒冷附着时：寒冷伤害提升，15 秒。",
+      "ja": "戦技が寒冷付着を付与したとき：寒冷ダメージアップ、15 秒。",
+      "ko": "배틀 스킬이 냉기 부착을 적용할 때: 냉기 피해 증가, 15초."
      },
      "mods": [
       {
@@ -609,7 +663,10 @@
      "target": "self",
      "cond": {
       "es": "Cuando la Habilidad Combo golpea a un enemigo con Inflicción de Cryo: +DMG de Cryo 15s.",
-      "en": "When Combo Skill DMG hits an enemy with Cryo Infliction: +Cryo DMG dealt for 15s."
+      "en": "When Combo Skill DMG hits an enemy with Cryo Infliction: +Cryo DMG dealt for 15s.",
+      "zh": "连携技伤害命中带有寒冷附着的敌人时：寒冷伤害提升，15 秒。",
+      "ja": "連携技のダメージが寒冷付着の敵に当たったとき：寒冷ダメージアップ、15 秒。",
+      "ko": "연계 스킬 피해가 냉기 부착 상태의 적에게 명중할 때: 냉기 피해 증가, 15초."
      },
      "mods": [
       {
@@ -644,7 +701,10 @@
      "target": "self",
      "cond": {
       "es": "Bonificación de daño físico permanente.",
-      "en": "Permanent Physical DMG dealt bonus."
+      "en": "Permanent Physical DMG dealt bonus.",
+      "zh": "永久物理伤害加成。",
+      "ja": "永続の物理ダメージボーナス。",
+      "ko": "영구 물리 피해 보너스."
      },
      "mods": [
       {
@@ -672,7 +732,10 @@
      "target": "self",
      "cond": {
       "es": "Al lanzar habilidad de combate (o de combo): +daño físico durante 20s, hasta 3 acumulaciones.",
-      "en": "On casting a battle skill (or combo skill): +Physical DMG dealt for 20s, up to 3 stacks."
+      "en": "On casting a battle skill (or combo skill): +Physical DMG dealt for 20s, up to 3 stacks.",
+      "zh": "施放战技（或连携技）时：物理伤害提升，20 秒，最多 3 层。",
+      "ja": "戦技（または連携技）の発動時：物理ダメージアップ、20 秒、最大 3 スタック。",
+      "ko": "배틀 스킬(또는 연계 스킬) 사용 시: 물리 피해 증가, 20초, 최대 3중첩."
      },
      "mods": [
       {
@@ -707,7 +770,10 @@
      "target": "self",
      "cond": {
       "es": "Permanente",
-      "en": "Permanent"
+      "en": "Permanent",
+      "zh": "永久",
+      "ja": "永続",
+      "ko": "영구"
      },
      "permanent": true,
      "mods": [
@@ -734,7 +800,10 @@
      "target": "self",
      "cond": {
       "es": "Tras aplicar Inflicción Cryo con habilidad de combate o definitiva",
-      "en": "After applying Cryo Infliction via battle skill or ultimate"
+      "en": "After applying Cryo Infliction via battle skill or ultimate",
+      "zh": "通过战技或终结技施加寒冷附着后",
+      "ja": "戦技または必殺技で寒冷付着を付与した後",
+      "ko": "배틀 스킬 또는 궁극기로 냉기 부착을 적용한 뒤"
      },
      "trigger": {
       "onApplyInfliction": "cryo_infl"
@@ -771,7 +840,10 @@
      "target": "self",
      "cond": {
       "es": "Bonus permanente de dano Arts.",
-      "en": "Permanent Arts DMG amp."
+      "en": "Permanent Arts DMG amp.",
+      "zh": "永久法术伤害增幅。",
+      "ja": "永続のアーツダメージ増幅。",
+      "ko": "영구 아츠 피해 증폭."
      },
      "permanent": true,
      "replacesLeading": true,
@@ -799,7 +871,10 @@
      "target": "team",
      "cond": {
       "es": "Tras consumir una Reaccion Arts, el enemigo recibe +dano Arts (del elemento indicado) 15s.",
-      "en": "After consuming an Arts Reaction, target enemy takes more Arts DMG (of the specified element) for 15s."
+      "en": "After consuming an Arts Reaction, target enemy takes more Arts DMG (of the specified element) for 15s.",
+      "zh": "消耗法术异常后，目标敌人受到更多（指定属性的）法术伤害，15 秒。",
+      "ja": "アーツ異常を消費した後、対象の敵は（指定属性の）アーツダメージをより多く受ける、15 秒。",
+      "ko": "아츠 이상을 소모한 뒤 대상 적이 (지정 속성의) 아츠 피해를 더 받음, 15초."
      },
      "trigger": {
       "onConsume": [
@@ -841,7 +916,10 @@
      "target": "self",
      "cond": {
       "es": "Pasiva permanente de ataque",
-      "en": "Permanent ATK boost"
+      "en": "Permanent ATK boost",
+      "zh": "永久攻击力提升",
+      "ja": "永続の攻撃力アップ",
+      "ko": "영구 공격력 증가"
      },
      "mods": [
       {
@@ -868,7 +946,10 @@
      "target": "self",
      "cond": {
       "es": "Tras usar Habilidad de Combo, la siguiente Habilidad de Batalla gana DMG de Hielo y Naturaleza (20s, acumula 2)",
-      "en": "After casting a Combo Skill, the next Battle Skill gains Cryo and Nature DMG dealt (20s, stacks to 2)"
+      "en": "After casting a Combo Skill, the next Battle Skill gains Cryo and Nature DMG dealt (20s, stacks to 2)",
+      "zh": "施放连携技后，下一次战技获得寒冷和自然伤害提升（20 秒，最多 2 层）",
+      "ja": "連携技の発動後、次の戦技が寒冷・自然ダメージアップを得る（20 秒、最大 2 スタック）",
+      "ko": "연계 스킬 사용 후 다음 배틀 스킬이 냉기·자연 피해 증가를 얻음(20초, 최대 2중첩)"
      },
      "mods": [
       {
@@ -921,7 +1002,10 @@
      "target": "self",
      "cond": {
       "es": "Pasivo permanente del arma",
-      "en": "Permanent weapon passive"
+      "en": "Permanent weapon passive",
+      "zh": "永久武器被动",
+      "ja": "永続の武器パッシブ",
+      "ko": "영구 무기 패시브"
      },
      "permanent": true,
      "replacesLeading": true,
@@ -948,7 +1032,10 @@
      "target": "self",
      "cond": {
       "es": "Al aplicar Solidificacion a enemigos (valores base; se duplican si lo activa el portador)",
-      "en": "When Solidification is applied to enemies (base values; doubled if triggered by the wielder)"
+      "en": "When Solidification is applied to enemies (base values; doubled if triggered by the wielder)",
+      "zh": "对敌人施加冻结时（基础数值；由持有者触发时翻倍）",
+      "ja": "敵に凍結を付与したとき（基礎値。装備者が発動した場合は 2 倍）",
+      "ko": "적에게 동결을 적용할 때(기본값, 장착자가 발동하면 두 배)"
      },
      "trigger": {
       "onApplyReaction": "solidification"
@@ -1008,7 +1095,10 @@
      "target": "self",
      "cond": {
       "es": "Al aplicar Corrosion a enemigos (valores base; se duplican si lo activa el portador)",
-      "en": "When Corrosion is applied to enemies (base values; doubled if triggered by the wielder)"
+      "en": "When Corrosion is applied to enemies (base values; doubled if triggered by the wielder)",
+      "zh": "对敌人施加腐蚀时（基础数值；由持有者触发时翻倍）",
+      "ja": "敵に腐食を付与したとき（基礎値。装備者が発動した場合は 2 倍）",
+      "ko": "적에게 부식을 적용할 때(기본값, 장착자가 발동하면 두 배)"
      },
      "trigger": {
       "onApplyReaction": "corrosion"
@@ -1074,7 +1164,10 @@
      "target": "self",
      "cond": {
       "es": "Electric DMG Dealt permanente.",
-      "en": "Permanent Electric DMG Dealt."
+      "en": "Permanent Electric DMG Dealt.",
+      "zh": "永久电磁伤害。",
+      "ja": "永続の電磁ダメージ。",
+      "ko": "영구 전기 피해."
      },
      "mods": [
       {
@@ -1102,7 +1195,10 @@
      "target": "self",
      "cond": {
       "es": "La habilidad de combate consume Reacciones de Arts.",
-      "en": "Battle skill consumes Arts Reactions."
+      "en": "Battle skill consumes Arts Reactions.",
+      "zh": "战技消耗法术异常。",
+      "ja": "戦技がアーツ異常を消費する。",
+      "ko": "배틀 스킬이 아츠 이상을 소모."
      },
      "mods": [
       {
@@ -1139,7 +1235,10 @@
      "target": "self",
      "cond": {
       "es": "Tras lanzar la definitiva.",
-      "en": "After casting ultimate."
+      "en": "After casting ultimate.",
+      "zh": "施放终结技后。",
+      "ja": "必殺技の発動後。",
+      "ko": "궁극기 사용 후."
      },
      "mods": [
       {
@@ -1175,7 +1274,10 @@
      "target": "self",
      "cond": {
       "es": "Bonus permanente de DMG Nature del portador.",
-      "en": "Wielder's permanent Nature DMG bonus."
+      "en": "Wielder's permanent Nature DMG bonus.",
+      "zh": "持有者的永久自然伤害加成。",
+      "ja": "装備者の永続の自然ダメージボーナス。",
+      "ko": "장착자의 영구 자연 피해 보너스."
      },
      "mods": [
       {
@@ -1203,7 +1305,10 @@
      "target": "team",
      "cond": {
       "es": "Tras aplicar Lifted con la Habilidad de Combo del portador, el equipo gana DMG Arts.",
-      "en": "After the wielder's combo skill applies Lifted, the team gains Arts DMG."
+      "en": "After the wielder's combo skill applies Lifted, the team gains Arts DMG.",
+      "zh": "持有者的连携技施加击飞后，队伍获得法术伤害。",
+      "ja": "装備者の連携技が浮遊を付与した後、チームはアーツダメージを得る。",
+      "ko": "장착자의 연계 스킬이 띄우기를 적용한 뒤 팀이 아츠 피해를 얻음."
      },
      "mods": [
       {
@@ -1238,7 +1343,10 @@
      "target": "team",
      "cond": {
       "es": "Tras consumir Corrosión, el enemigo objetivo recibe +Daño Arts recibido durante 25s (no acumulable).",
-      "en": "After consuming Corrosion, target enemy suffers +Arts DMG Taken for 25s (does not stack)."
+      "en": "After consuming Corrosion, target enemy suffers +Arts DMG Taken for 25s (does not stack).",
+      "zh": "消耗腐蚀后，目标敌人受到的法术伤害提升，25 秒（不叠加）。",
+      "ja": "腐食を消費した後、対象の敵のアーツ被ダメージがアップ、25 秒（重複なし）。",
+      "ko": "부식을 소모한 뒤 대상 적이 받는 아츠 피해 증가, 25초(중첩 없음)."
      },
      "mods": [
       {
@@ -1277,7 +1385,10 @@
      "target": "self",
      "cond": {
       "es": "Aumento permanente de Prob. Crítica.",
-      "en": "Permanent Critical Rate increase."
+      "en": "Permanent Critical Rate increase.",
+      "zh": "永久暴击率提升。",
+      "ja": "永続の会心率アップ。",
+      "ko": "영구 치명타 확률 증가."
      },
      "mods": [
       {
@@ -1304,7 +1415,10 @@
      "target": "self",
      "cond": {
       "es": "Tras lanzar el Ultimate: Daño de Artes aumentado durante 15s.",
-      "en": "After casting Ultimate: Arts DMG dealt increased for 15s."
+      "en": "After casting Ultimate: Arts DMG dealt increased for 15s.",
+      "zh": "施放终结技后：法术伤害提升，15 秒。",
+      "ja": "必殺技の発動後：アーツダメージアップ、15 秒。",
+      "ko": "궁극기 사용 후: 아츠 피해 증가, 15초."
      },
      "mods": [
       {
@@ -1333,7 +1447,10 @@
      "target": "self",
      "cond": {
       "es": "Tras lanzar la Habilidad de Combo: Daño de Artes aumentado durante 15s.",
-      "en": "After casting Combo Skill: Arts DMG dealt increased for 15s."
+      "en": "After casting Combo Skill: Arts DMG dealt increased for 15s.",
+      "zh": "施放连携技后：法术伤害提升，15 秒。",
+      "ja": "連携技の発動後：アーツダメージアップ、15 秒。",
+      "ko": "연계 스킬 사용 후: 아츠 피해 증가, 15초."
      },
      "mods": [
       {
@@ -1368,7 +1485,10 @@
      "target": "self",
      "cond": {
       "es": "Pasiva del arma (permanente).",
-      "en": "Weapon passive (permanent)."
+      "en": "Weapon passive (permanent).",
+      "zh": "武器被动（永久）。",
+      "ja": "武器パッシブ（永続）。",
+      "ko": "무기 패시브(영구)."
      },
      "mods": [
       {
@@ -1395,7 +1515,10 @@
      "target": "team",
      "cond": {
       "es": "Cuando la Habilidad de Combate del portador aplica Aflicción Naturaleza.",
-      "en": "When the wielder's Battle Skill applies a Nature Infliction."
+      "en": "When the wielder's Battle Skill applies a Nature Infliction.",
+      "zh": "持有者的战技施加自然附着时。",
+      "ja": "装備者の戦技が自然付着を付与したとき。",
+      "ko": "장착자의 배틀 스킬이 자연 부착을 적용할 때."
      },
      "mods": [
       {
@@ -1432,7 +1555,10 @@
      "target": "self",
      "cond": {
       "es": "Siempre activo",
-      "en": "Always active"
+      "en": "Always active",
+      "zh": "始终生效",
+      "ja": "常時有効",
+      "ko": "항상 활성"
      },
      "mods": [
       {
@@ -1459,7 +1585,10 @@
      "target": "team",
      "cond": {
       "es": "Cuando la habilidad de combate del portador aplica Solidificacion",
-      "en": "When the wielder's Battle Skill applies Solidification"
+      "en": "When the wielder's Battle Skill applies Solidification",
+      "zh": "持有者的战技施加冻结时",
+      "ja": "装備者の戦技が凍結を付与したとき",
+      "ko": "장착자의 배틀 스킬이 동결을 적용할 때"
      },
      "mods": [
       {
@@ -1496,7 +1625,10 @@
      "target": "self",
      "cond": {
       "es": "Siempre activo",
-      "en": "Always active"
+      "en": "Always active",
+      "zh": "始终生效",
+      "ja": "常時有効",
+      "ko": "항상 활성"
      },
      "mods": [
       {
@@ -1523,7 +1655,10 @@
      "target": "self",
      "cond": {
       "es": "Arts Intensity +valor por nodo (2ª oración de la pasiva — antes se perdía).",
-      "en": "Arts Intensity +value by node (2nd sentence of the passive — previously lost)."
+      "en": "Arts Intensity +value by node (2nd sentence of the passive — previously lost).",
+      "zh": "按节点的源石技艺强度 +数值（被动的第二句——之前遗漏）。",
+      "ja": "ノードごとのアーツ強度 ＋値（パッシブの 2 文目。以前は抜けていた）。",
+      "ko": "노드별 아츠 강도 +값(패시브의 두 번째 문장 — 이전에 누락)."
      },
      "mods": [
       {
@@ -1555,7 +1690,10 @@
      "target": "team",
      "cond": {
       "es": "Tras recuperar SP con la habilidad del portador, el equipo gana Daño Heat y Daño Electric +8.4% por 20s (hasta 3 acumulaciones independientes).",
-      "en": "After the wielder recovers SP by their own skill, the entire team gains Heat DMG Dealt and Electric DMG Dealt +8.4% for 20s (up to 3 separately-counted stacks)."
+      "en": "After the wielder recovers SP by their own skill, the entire team gains Heat DMG Dealt and Electric DMG Dealt +8.4% for 20s (up to 3 separately-counted stacks).",
+      "zh": "持有者用自身技能回复 SP 后，全队灼热伤害和电磁伤害 +8.4%，20 秒（最多 3 层，分别计时）。",
+      "ja": "装備者が自身のスキルで SP を回復した後、チーム全員の灼熱ダメージと電磁ダメージ +8.4%、20 秒（最大 3 スタック、個別計時）。",
+      "ko": "장착자가 자신의 스킬로 SP를 회복한 뒤 팀 전체 열기·전기 피해 +8.4%, 20초(최대 3중첩, 별도 계시)."
      },
      "mods": [
       {
@@ -1607,7 +1745,10 @@
      "target": "self",
      "cond": {
       "es": "ATK base del arma",
-      "en": "Base weapon ATK"
+      "en": "Base weapon ATK",
+      "zh": "武器基础攻击力",
+      "ja": "武器の基礎攻撃力",
+      "ko": "무기 기본 공격력"
      },
      "mods": [
       {
@@ -1634,7 +1775,10 @@
      "target": "self",
      "cond": {
       "es": "Tras infligir un Estado Fisico",
-      "en": "After dealing a Physical Status"
+      "en": "After dealing a Physical Status",
+      "zh": "造成物理状态后",
+      "ja": "物理状態を与えた後",
+      "ko": "물리 상태를 준 뒤"
      },
      "mods": [
       {
@@ -1670,7 +1814,10 @@
      "target": "self",
      "cond": {
       "es": "Tras consumir una Reacción de Arts, ATK +N% durante 20s (máx. 2 acumulaciones, duración por separado)",
-      "en": "After consuming an Arts Reaction, ATK +N% for 20s (max 2 stacks, durations counted separately)"
+      "en": "After consuming an Arts Reaction, ATK +N% for 20s (max 2 stacks, durations counted separately)",
+      "zh": "消耗法术异常后，攻击力 +N%，20 秒（最多 2 层，分别计时）",
+      "ja": "アーツ異常を消費した後、攻撃力 +N%、20 秒（最大 2 スタック、個別計時）",
+      "ko": "아츠 이상을 소모한 뒤 공격력 +N%, 20초(최대 2중첩, 별도 계시)"
      },
      "mods": [
       {
@@ -1711,7 +1858,10 @@
      "target": "self",
      "cond": {
       "es": "Aumento permanente de DMG de Habilidad de Combo",
-      "en": "Permanent Combo Skill DMG dealt boost"
+      "en": "Permanent Combo Skill DMG dealt boost",
+      "zh": "永久连携技伤害提升",
+      "ja": "永続の連携技ダメージアップ",
+      "ko": "영구 연계 스킬 피해 증가"
      },
      "mods": [
       {
@@ -1739,7 +1889,10 @@
      "target": "self",
      "cond": {
       "es": "Tras usar Habilidad de Combo, la siguiente Habilidad de Batalla gana DMG de Electricidad (30s, acumula 3)",
-      "en": "After casting a Combo Skill, the next Battle Skill gains Electric DMG dealt (30s, stacks to 3)"
+      "en": "After casting a Combo Skill, the next Battle Skill gains Electric DMG dealt (30s, stacks to 3)",
+      "zh": "施放连携技后，下一次战技获得电磁伤害提升（30 秒，最多 3 层）",
+      "ja": "連携技の発動後、次の戦技が電磁ダメージアップを得る（30 秒、最大 3 スタック）",
+      "ko": "연계 스킬 사용 후 다음 배틀 스킬이 전기 피해 증가를 얻음(30초, 최대 3중첩)"
      },
      "mods": [
       {
@@ -1778,7 +1931,10 @@
      "target": "self",
      "cond": {
       "es": "Tras consumir Solidificacion: ATK +33.6% durante 15s",
-      "en": "After consuming Solidification: ATK +33.6% for 15s"
+      "en": "After consuming Solidification: ATK +33.6% for 15s",
+      "zh": "消耗冻结后：攻击力 +33.6%，15 秒",
+      "ja": "凍結を消費した後：攻撃力 +33.6%、15 秒",
+      "ko": "동결을 소모한 뒤: 공격력 +33.6%, 15초"
      },
      "mods": [
       {
@@ -1816,7 +1972,10 @@
      "target": "team",
      "cond": {
       "es": "Tras el Ultimate del portador, los operadores de OTRO elemento que el portador ganan ATK +[máx +22.4%] 20s. No acumulable (efectos del mismo nombre). BIS F2P de Ardelia/Gilberta (Nature): buffea a todo el equipo no-Nature.",
-      "en": "After the wielder casts an Ultimate, operators whose element differs from the wielder gain ATK +[max +22.4%] for 20s. Effects of the same name cannot stack. F2P BIS for Ardelia/Gilberta (Nature): buffs the whole non-Nature team."
+      "en": "After the wielder casts an Ultimate, operators whose element differs from the wielder gain ATK +[max +22.4%] for 20s. Effects of the same name cannot stack. F2P BIS for Ardelia/Gilberta (Nature): buffs the whole non-Nature team.",
+      "zh": "持有者施放终结技后，与持有者属性不同的干员获得攻击力 +[最高 +22.4%]，20 秒。同名效果不叠加。艾尔黛拉/洁尔佩塔（自然）的 F2P BIS：强化整个非自然队伍。",
+      "ja": "装備者が必殺技を発動した後、装備者と属性の違うオペレーターが攻撃力 +[最大 +22.4%] を 20 秒間得る。同名効果は重複しない。アルデリア/ギルベルタ（自然）の F2P BIS：自然以外のチーム全員を強化する。",
+      "ko": "장착자가 궁극기를 사용한 뒤 장착자와 속성이 다른 오퍼레이터가 공격력 +[최대 +22.4%]를 20초 동안 얻음. 같은 이름의 효과는 중첩 불가. 아델리아/질베르타(자연)의 무과금 BIS: 자연이 아닌 팀 전체를 강화."
      },
      "mods": [
       {
@@ -1853,7 +2012,10 @@
      "replacesLeading": true,
      "cond": {
       "es": "ATK permanente de la pasiva (escala por nodo de esencia).",
-      "en": "Permanent ATK from the passive (scales per essence node)."
+      "en": "Permanent ATK from the passive (scales per essence node).",
+      "zh": "被动提供的永久攻击力（随基质节点成长）。",
+      "ja": "パッシブによる永続の攻撃力（基質ノードでスケール）。",
+      "ko": "패시브의 영구 공격력(기질 노드에 따라 증가)."
      },
      "mods": [
       {
@@ -1886,7 +2048,10 @@
      "noStack": true,
      "cond": {
       "es": "Cuando se aplica Combustion o Corrosion a un enemigo, el portador gana Heat DMG Dealt y Nature DMG Dealt +valor por 20s. Max 2 stacks (duracion contada por separado); solo se activa una vez cada 0.1s.",
-      "en": "Whenever Combustion or Corrosion is applied to an enemy, the wielder gains Heat and Nature DMG Dealt +value for 20s. Max 2 stacks (duration counted separately); triggers once every 0.1s."
+      "en": "Whenever Combustion or Corrosion is applied to an enemy, the wielder gains Heat and Nature DMG Dealt +value for 20s. Max 2 stacks (duration counted separately); triggers once every 0.1s.",
+      "zh": "每当对敌人施加燃烧或腐蚀，持有者获得灼热和自然伤害 +数值，20 秒。最多 2 层（分别计时）；每 0.1 秒最多触发一次。",
+      "ja": "敵に燃焼または腐食を付与するたび、装備者は灼熱・自然ダメージ ＋値を 20 秒間得る。最大 2 スタック（個別計時）、0.1 秒に 1 回発動。",
+      "ko": "적에게 연소나 부식을 적용할 때마다 장착자가 열기·자연 피해 +값을 20초 동안 얻음. 최대 2중첩(별도 계시), 0.1초마다 한 번 발동."
      },
      "mods": [
       {
@@ -1933,7 +2098,10 @@
      "target": "self",
      "cond": {
       "es": "Bonif. de DMG de Artes permanente.",
-      "en": "Permanent Arts DMG Dealt bonus."
+      "en": "Permanent Arts DMG Dealt bonus.",
+      "zh": "永久法术伤害加成。",
+      "ja": "永続のアーツダメージボーナス。",
+      "ko": "영구 아츠 피해 보너스."
      },
      "mods": [
       {
@@ -1961,7 +2129,10 @@
      "target": "self",
      "cond": {
       "es": "Tras aplicar Combustion o Electrification, DMG de Artes durante 15s (no acumula).",
-      "en": "After applying Combustion or Electrification, Arts DMG Dealt for 15s (no stack)."
+      "en": "After applying Combustion or Electrification, Arts DMG Dealt for 15s (no stack).",
+      "zh": "施加燃烧或导电后，法术伤害提升，15 秒（不叠加）。",
+      "ja": "燃焼または感電を付与した後、アーツダメージアップ、15 秒（重複なし）。",
+      "ko": "연소나 감전을 적용한 뒤 아츠 피해 증가, 15초(중첩 없음)."
      },
      "mods": [
       {
@@ -2007,7 +2178,10 @@
      "target": "self",
      "cond": {
       "es": "Bonus permanente de daño Arts",
-      "en": "Permanent Arts DMG Dealt bonus"
+      "en": "Permanent Arts DMG Dealt bonus",
+      "zh": "永久法术伤害加成",
+      "ja": "永続のアーツダメージボーナス",
+      "ko": "영구 아츠 피해 보너스"
      },
      "mods": [
       {
@@ -2035,7 +2209,10 @@
      "target": "self",
      "cond": {
       "es": "Tras lanzar una Habilidad de Combate",
-      "en": "After casting a Battle Skill"
+      "en": "After casting a Battle Skill",
+      "zh": "施放战技后",
+      "ja": "戦技の発動後",
+      "ko": "배틀 스킬 사용 후"
      },
      "mods": [
       {
@@ -2064,7 +2241,10 @@
      "target": "self",
      "cond": {
       "es": "Cuando la Habilidad de Combate aplica una Reacción Arts",
-      "en": "When the Battle Skill applies an Arts Reaction"
+      "en": "When the Battle Skill applies an Arts Reaction",
+      "zh": "战技施加法术异常时",
+      "ja": "戦技がアーツ異常を付与したとき",
+      "ko": "배틀 스킬이 아츠 이상을 적용할 때"
      },
      "mods": [
       {
@@ -2106,7 +2286,10 @@
      "target": "self",
      "cond": {
       "es": "Bono permanente de daño Heat",
-      "en": "Permanent Heat DMG bonus"
+      "en": "Permanent Heat DMG bonus",
+      "zh": "永久灼热伤害加成",
+      "ja": "永続の灼熱ダメージボーナス",
+      "ko": "영구 열기 피해 보너스"
      },
      "mods": [
       {
@@ -2134,7 +2317,10 @@
      "target": "self",
      "cond": {
       "es": "Cuando la skill del portador aplica Heat Infliction",
-      "en": "When the wielder's skill applies Heat Infliction"
+      "en": "When the wielder's skill applies Heat Infliction",
+      "zh": "持有者的技能施加灼热附着时",
+      "ja": "装備者のスキルが灼熱付着を付与したとき",
+      "ko": "장착자의 스킬이 열기 부착을 적용할 때"
      },
      "mods": [
       {
@@ -2179,7 +2365,10 @@
     {
      "cond": {
       "es": "Cuando la skill del portador aplica Heat Susceptibility, todo el equipo gana Physical y Heat DMG Dealt +11.2% durante 30s",
-      "en": "When the wielder's skill applies Heat Susceptibility, the entire team gains Physical and Heat DMG Dealt +11.2% for 30s"
+      "en": "When the wielder's skill applies Heat Susceptibility, the entire team gains Physical and Heat DMG Dealt +11.2% for 30s",
+      "zh": "持有者的技能施加灼热脆弱时，全队物理和灼热伤害 +11.2%，30 秒",
+      "ja": "装備者のスキルが灼熱脆弱を付与したとき、チーム全員の物理・灼熱ダメージ +11.2%、30 秒",
+      "ko": "장착자의 스킬이 열기 취약을 적용할 때 팀 전체 물리·열기 피해 +11.2%, 30초"
      },
      "target": "team",
      "mods": [
@@ -2229,7 +2418,10 @@
      "target": "self",
      "cond": {
       "es": "Habilidades de combate y definitivas ganan Daño Físico infligido +N%",
-      "en": "Battle Skills and Ultimates gain Physical DMG Dealt +N%"
+      "en": "Battle Skills and Ultimates gain Physical DMG Dealt +N%",
+      "zh": "战技和终结技获得物理伤害 +N%",
+      "ja": "戦技と必殺技が物理ダメージ +N% を得る",
+      "ko": "배틀 스킬과 궁극기가 물리 피해 +N%를 얻음"
      },
      "mods": [
       {
@@ -2273,7 +2465,10 @@
     {
      "cond": {
       "es": "Contra enemigos Aturdidos, las habilidades de combate y definitivas también ganan Daño infligido +N%",
-      "en": "Against Staggered enemies, Battle Skills and Ultimates also gain DMG Dealt +N%"
+      "en": "Against Staggered enemies, Battle Skills and Ultimates also gain DMG Dealt +N%",
+      "zh": "对失衡敌人，战技和终结技还获得伤害 +N%",
+      "ja": "ブレイク状態の敵に対して、戦技と必殺技はさらに与ダメージ +N%",
+      "ko": "불균형 상태의 적에게 배틀 스킬과 궁극기가 추가로 피해 +N%"
      },
      "byNode": [
       50,
@@ -2300,7 +2495,10 @@
      "target": "self",
      "cond": {
       "es": "Siempre activo",
-      "en": "Always active"
+      "en": "Always active",
+      "zh": "始终生效",
+      "ja": "常時有効",
+      "ko": "항상 활성"
      },
      "mods": [
       {
@@ -2350,7 +2548,10 @@
      "target": "self",
      "cond": {
       "es": "Siempre activo",
-      "en": "Always active"
+      "en": "Always active",
+      "zh": "始终生效",
+      "ja": "常時有効",
+      "ko": "항상 활성"
      },
      "mods": [
       {
@@ -2377,7 +2578,10 @@
      "target": "self",
      "cond": {
       "es": "Tras aplicar una Reaccion de Artes; hasta 2 acumulaciones (duracion por acumulacion)",
-      "en": "After the wielder applies an Arts Reaction; up to 2 stacks (each stack timed separately)"
+      "en": "After the wielder applies an Arts Reaction; up to 2 stacks (each stack timed separately)",
+      "zh": "持有者施加法术异常后；最多 2 层（每层分别计时）",
+      "ja": "装備者がアーツ異常を付与した後。最大 2 スタック（各スタック個別計時）",
+      "ko": "장착자가 아츠 이상을 적용한 뒤, 최대 2중첩(중첩별 별도 계시)"
      },
      "mods": [
       {
@@ -2417,7 +2621,10 @@
      "target": "self",
      "cond": {
       "es": "Bonificacion de dano de Habilidad de Combate",
-      "en": "Battle Skill DMG Dealt"
+      "en": "Battle Skill DMG Dealt",
+      "zh": "战技伤害",
+      "ja": "戦技ダメージ",
+      "ko": "배틀 스킬 피해"
      },
      "mods": [
       {
@@ -2444,7 +2651,10 @@
      "target": "self",
      "cond": {
       "es": "Cuando el combo aplica Arts Burst o Combustion: ATK +valor 15s (no acumula).",
-      "en": "When the combo applies Arts Burst or Combustion: ATK +value for 15s (non-stacking)."
+      "en": "When the combo applies Arts Burst or Combustion: ATK +value for 15s (non-stacking).",
+      "zh": "连携施加法术爆发或燃烧时：攻击力 +数值，15 秒（不叠加）。",
+      "ja": "連携がアーツ爆発または燃焼を付与したとき：攻撃力 ＋値、15 秒（重複なし）。",
+      "ko": "연계가 아츠 폭발이나 연소를 적용할 때: 공격력 +값, 15초(중첩 없음)."
      },
      "mods": [
       {
@@ -2483,7 +2693,10 @@
      "target": "team",
      "cond": {
       "es": "Al aplicar un Arts Burst: el enemigo recibe +Arts DMG 15s (no acumula).",
-      "en": "On applying an Arts Burst: the enemy takes +Arts DMG for 15s (non-stacking)."
+      "en": "On applying an Arts Burst: the enemy takes +Arts DMG for 15s (non-stacking).",
+      "zh": "施加法术爆发时：敌人受到的法术伤害提升，15 秒（不叠加）。",
+      "ja": "アーツ爆発を付与したとき：敵のアーツ被ダメージがアップ、15 秒（重複なし）。",
+      "ko": "아츠 폭발을 적용할 때: 적이 받는 아츠 피해 증가, 15초(중첩 없음)."
      },
      "mods": [
       {
@@ -2520,7 +2733,10 @@
      "target": "self",
      "cond": {
       "es": "Al aplicar un Arts Burst: ATK +valor por 30s (máx 3 stacks; el cálculo cuenta 1).",
-      "en": "On applying an Arts Burst: ATK +value for 30s (max 3 stacks; the calculation counts 1)."
+      "en": "On applying an Arts Burst: ATK +value for 30s (max 3 stacks; the calculation counts 1).",
+      "zh": "施加法术爆发时：攻击力 +数值，30 秒（最多 3 层；计算按 1 层计）。",
+      "ja": "アーツ爆発を付与したとき：攻撃力 ＋値、30 秒（最大 3 スタック。計算では 1 として数える）。",
+      "ko": "아츠 폭발을 적용할 때: 공격력 +값, 30초(최대 3중첩, 계산은 1로 셈)."
      },
      "mods": [
       {
@@ -2556,7 +2772,10 @@
      "target": "team",
      "cond": {
       "es": "Al aplicar Arts Burst o un Estado Físico (Crush/Breach): equipo +Heat y +Electric DMG 15s (no acumula).",
-      "en": "On applying Arts Burst or a Physical Status (Crush/Breach): team +Heat and +Electric DMG for 15s (non-stacking)."
+      "en": "On applying Arts Burst or a Physical Status (Crush/Breach): team +Heat and +Electric DMG for 15s (non-stacking).",
+      "zh": "施加法术爆发或物理状态（猛击/碎甲）时：全队灼热和电磁伤害提升，15 秒（不叠加）。",
+      "ja": "アーツ爆発または物理状態（猛撃/破砕）を付与したとき：チームの灼熱・電磁ダメージアップ、15 秒（重複なし）。",
+      "ko": "아츠 폭발이나 물리 상태(강타/갑옷 파괴)를 적용할 때: 팀 열기·전기 피해 증가, 15초(중첩 없음)."
      },
      "mods": [
       {
@@ -2612,7 +2831,10 @@
      "target": "self",
      "cond": {
       "es": "Tras un Final Strike: ATK +valor por 8s (no acumula). El doble + Stagger del operador controlado no está incluido en el cálculo.",
-      "en": "After a Final Strike: ATK +value for 8s (non-stacking). The controlled operator's doubled value + Stagger is not included in the calculation."
+      "en": "After a Final Strike: ATK +value for 8s (non-stacking). The controlled operator's doubled value + Stagger is not included in the calculation.",
+      "zh": "重击后：攻击力 +数值，8 秒（不叠加）。主控干员的翻倍数值 + 失衡未计入计算。",
+      "ja": "重攻撃の後：攻撃力 ＋値、8 秒（重複なし）。操作オペレーターの 2 倍の値とブレイク値は計算に含めていない。",
+      "ko": "강력한 일격 후: 공격력 +값, 8초(중첩 없음). 조작 오퍼레이터의 두 배 값과 불균형은 계산에 포함하지 않았습니다."
      },
      "mods": [
       {
@@ -2648,7 +2870,10 @@
      "target": "self",
      "cond": {
       "es": "ATK +valor (término inicial de la pasiva, por nodo).",
-      "en": "ATK +value (leading term of the passive, by node)."
+      "en": "ATK +value (leading term of the passive, by node).",
+      "zh": "攻击力 +数值（被动的首项，按节点）。",
+      "ja": "攻撃力 ＋値（パッシブの主項、ノードごと）。",
+      "ko": "공격력 +값(패시브의 주 항목, 노드별)."
      },
      "mods": [
       {
@@ -2675,7 +2900,10 @@
      "target": "self",
      "cond": {
       "es": "Al consumir Vulnerability (Crush/Breach): portador ATK +[8%+4%×stacks] (nodo 4), 20s, no acumula. Modelado mitad self + mitad team (el portador suma ambas = total del texto).",
-      "en": "On consuming Vulnerability (Crush/Breach): wielder ATK +[8%+4%×stacks] (node 4), 20s, non-stacking. Modeled half self + half team (the wielder adds both = the text's total)."
+      "en": "On consuming Vulnerability (Crush/Breach): wielder ATK +[8%+4%×stacks] (node 4), 20s, non-stacking. Modeled half self + half team (the wielder adds both = the text's total).",
+      "zh": "消耗破防（猛击/碎甲）时：持有者攻击力 +[8%+4%×层数]（节点 4），20 秒，不叠加。建模为一半自身 + 一半队伍（持有者两者都加 = 文本总量）。",
+      "ja": "クラッシュ（猛撃/破砕）を消費したとき：装備者の攻撃力 +[8%+4%×スタック]（ノード 4）、20 秒、重複なし。自身半分＋チーム半分でモデル化（装備者は両方＝テキストの合計）。",
+      "ko": "방어 불능(강타/갑옷 파괴) 소모 시: 장착자 공격력 +[8%+4%×중첩](노드 4), 20초, 중첩 없음. 절반 자신 + 절반 팀으로 모델링(장착자는 둘 다 = 텍스트의 합계)."
      },
      "mods": [
       {
@@ -2721,7 +2949,10 @@
      "target": "team",
      "cond": {
       "es": "El resto del equipo gana la MITAD del buff: ATK +[4%+2%×stacks] (nodo 4), 20s, no acumula.",
-      "en": "The rest of the team gains HALF the buff: ATK +[4%+2%×stacks] (node 4), 20s, non-stacking."
+      "en": "The rest of the team gains HALF the buff: ATK +[4%+2%×stacks] (node 4), 20s, non-stacking.",
+      "zh": "队伍其他人获得一半增益：攻击力 +[4%+2%×层数]（节点 4），20 秒，不叠加。",
+      "ja": "他のメンバーはバフの半分を得る：攻撃力 +[4%+2%×スタック]（ノード 4）、20 秒、重複なし。",
+      "ko": "팀의 나머지는 버프의 절반을 얻음: 공격력 +[4%+2%×중첩](노드 4), 20초, 중첩 없음."
      },
      "mods": [
       {
@@ -2773,7 +3004,10 @@
      "target": "self",
      "cond": {
       "es": "Physical DMG Dealt +valor (término inicial de la pasiva, por nodo).",
-      "en": "Physical DMG Dealt +value (leading term of the passive, by node)."
+      "en": "Physical DMG Dealt +value (leading term of the passive, by node).",
+      "zh": "物理伤害 +数值（被动的首项，按节点）。",
+      "ja": "物理ダメージ ＋値（パッシブの主項、ノードごと）。",
+      "ko": "물리 피해 +값(패시브의 주 항목, 노드별)."
      },
      "mods": [
       {
@@ -2801,7 +3035,10 @@
      "target": "self",
      "cond": {
       "es": "Al aplicar Crush: Physical DMG +[base+per×stacks consumidos] 30s (no acumula). AI+84 al aplicar Phys Susceptibility: diferida.",
-      "en": "On applying Crush: Physical DMG +[base+per×stacks consumed] 30s (non-stacking). AI+84 on Phys Susceptibility: deferred."
+      "en": "On applying Crush: Physical DMG +[base+per×stacks consumed] 30s (non-stacking). AI+84 on Phys Susceptibility: deferred.",
+      "zh": "施加猛击时：物理伤害 +[基础+每层×消耗层数]，30 秒（不叠加）。物理脆弱时的源石技艺强度 +84：延后。",
+      "ja": "猛撃を付与したとき：物理ダメージ +[基礎＋消費スタック×係数]、30 秒（重複なし）。物理脆弱時のアーツ強度 +84 は保留。",
+      "ko": "강타를 적용할 때: 물리 피해 +[기본+소모 중첩×계수], 30초(중첩 없음). 물리 취약 시 아츠 강도 +84는 보류."
      },
      "mods": [
       {
@@ -2851,7 +3088,10 @@
      "target": "self",
      "cond": {
       "es": "Arts Intensity +valor (término inicial de la pasiva, por nodo).",
-      "en": "Arts Intensity +value (leading term of the passive, per node)."
+      "en": "Arts Intensity +value (leading term of the passive, per node).",
+      "zh": "源石技艺强度 +数值（被动的首项，按节点）。",
+      "ja": "アーツ強度 ＋値（パッシブの主項、ノードごと）。",
+      "ko": "아츠 강도 +값(패시브의 주 항목, 노드별)."
      },
      "mods": [
       {
@@ -2878,7 +3118,10 @@
      "target": "self",
      "cond": {
       "es": "Al consumir Vulnerability (Crush/Breach): Physical DMG +[per×stacks] 20s (no acumula).",
-      "en": "On consuming Vulnerability (Crush/Breach): Physical DMG +[per×stacks] 20s (non-stacking)."
+      "en": "On consuming Vulnerability (Crush/Breach): Physical DMG +[per×stacks] 20s (non-stacking).",
+      "zh": "消耗破防（猛击/碎甲）时：物理伤害 +[每层×层数]，20 秒（不叠加）。",
+      "ja": "クラッシュ（猛撃/破砕）を消費したとき：物理ダメージ +[係数×スタック]、20 秒（重複なし）。",
+      "ko": "방어 불능(강타/갑옷 파괴) 소모 시: 물리 피해 +[계수×중첩], 20초(중첩 없음)."
      },
      "mods": [
       {
@@ -2921,7 +3164,10 @@
      "target": "self",
      "cond": {
       "es": "ATK +valor (término inicial de la pasiva, por nodo).",
-      "en": "ATK +value (leading term of the passive, by node)."
+      "en": "ATK +value (leading term of the passive, by node).",
+      "zh": "攻击力 +数值（被动的首项，按节点）。",
+      "ja": "攻撃力 ＋値（パッシブの主項、ノードごと）。",
+      "ko": "공격력 +값(패시브의 주 항목, 노드별)."
      },
      "mods": [
       {
@@ -2948,7 +3194,10 @@
      "target": "self",
      "cond": {
       "es": "Al consumir una Arts Infliction (cualquier reacción Arts): Nature DMG +[per×stacks consumidos] 20s (no acumula).",
-      "en": "On consuming an Arts Infliction (any Arts reaction): Nature DMG +[per×stacks consumed] 20s (non-stacking)."
+      "en": "On consuming an Arts Infliction (any Arts reaction): Nature DMG +[per×stacks consumed] 20s (non-stacking).",
+      "zh": "消耗法术附着（任意法术异常）时：自然伤害 +[每层×消耗层数]，20 秒（不叠加）。",
+      "ja": "アーツ付着（任意のアーツ異常）を消費したとき：自然ダメージ +[係数×消費スタック]、20 秒（重複なし）。",
+      "ko": "아츠 부착(모든 아츠 이상) 소모 시: 자연 피해 +[계수×소모 중첩], 20초(중첩 없음)."
      },
      "mods": [
       {
@@ -2993,7 +3242,10 @@
      "target": "self",
      "cond": {
       "es": "ATK +valor (término inicial de la pasiva, por nodo).",
-      "en": "ATK +value (leading term of the passive, by node)."
+      "en": "ATK +value (leading term of the passive, by node).",
+      "zh": "攻击力 +数值（被动的首项，按节点）。",
+      "ja": "攻撃力 ＋値（パッシブの主項、ノードごと）。",
+      "ko": "공격력 +값(패시브의 주 항목, 노드별)."
      },
      "mods": [
       {
@@ -3020,7 +3272,10 @@
      "target": "self",
      "cond": {
       "es": "Al aplicar un Physical Status (Vulnerability): golpe extra de X% ATK físico. Mismo set de eventos que Steel Oath.",
-      "en": "On applying a Physical Status (Vulnerability): extra hit of X% ATK Physical. Same event set as Steel Oath."
+      "en": "On applying a Physical Status (Vulnerability): extra hit of X% ATK Physical. Same event set as Steel Oath.",
+      "zh": "施加物理状态（破防）时：额外一击 X% 攻击力的物理伤害。与「钢铁誓言」相同的事件集合。",
+      "ja": "物理状態（クラッシュ）を付与したとき：攻撃力 X% の物理の追加ヒット。「鋼の誓い」と同じイベント群。",
+      "ko": "물리 상태(방어 불능)를 적용할 때: 공격력 X%의 물리 추가 타격. 「강철의 맹세」와 같은 이벤트 집합."
      },
      "mods": [
       {
@@ -3049,7 +3304,10 @@
      "target": "self",
      "cond": {
       "es": "Al aplicar un Physical Status (Crush/Breach): golpe extra de X% ATK físico. Mismo set de eventos que Steel Oath.",
-      "en": "On applying a Physical Status (Crush/Breach): extra hit of X% ATK Physical. Same event set as Steel Oath."
+      "en": "On applying a Physical Status (Crush/Breach): extra hit of X% ATK Physical. Same event set as Steel Oath.",
+      "zh": "施加物理状态（猛击/碎甲）时：额外一击 X% 攻击力的物理伤害。与「钢铁誓言」相同的事件集合。",
+      "ja": "物理状態（猛撃/破砕）を付与したとき：攻撃力 X% の物理の追加ヒット。「鋼の誓い」と同じイベント群。",
+      "ko": "물리 상태(강타/갑옷 파괴)를 적용할 때: 공격력 X%의 물리 추가 타격. 「강철의 맹세」와 같은 이벤트 집합."
      },
      "mods": [
       {
@@ -3087,7 +3345,10 @@
      "target": "self",
      "cond": {
       "es": "Critical Rate +valor (término inicial de la pasiva, por nodo).",
-      "en": "Critical Rate +value (leading term of the passive, by node)."
+      "en": "Critical Rate +value (leading term of the passive, by node).",
+      "zh": "暴击率 +数值（被动的首项，按节点）。",
+      "ja": "会心率 ＋値（パッシブの主項、ノードごと）。",
+      "ko": "치명타 확률 +값(패시브의 주 항목, 노드별)."
      },
      "mods": [
       {
@@ -3114,7 +3375,10 @@
      "target": "self",
      "cond": {
       "es": "Al aplicar Vulnerability: ATK +valor 15s (no acumula). La precondición «enemigo sin stacks» no se gatea (aprox: cada apply).",
-      "en": "On applying Vulnerability: ATK +value 15s (non-stacking). The \"enemy with no stacks\" precondition is not gated (approx: every apply)."
+      "en": "On applying Vulnerability: ATK +value 15s (non-stacking). The \"enemy with no stacks\" precondition is not gated (approx: every apply).",
+      "zh": "施加破防时：攻击力 +数值，15 秒（不叠加）。「敌人无层数」的前提未做门控（近似：每次施加都算）。",
+      "ja": "クラッシュを付与したとき：攻撃力 ＋値、15 秒（重複なし）。「スタックのない敵」の前提条件は判定していない（近似：付与のたびに）。",
+      "ko": "방어 불능을 적용할 때: 공격력 +값, 15초(중첩 없음). '중첩 없는 적' 전제 조건은 판정하지 않음(근사: 적용마다)."
      },
      "mods": [
       {
@@ -3150,7 +3414,10 @@
      "target": "self",
      "cond": {
       "es": "Arts Intensity +valor (término inicial de la pasiva, por nodo).",
-      "en": "Arts Intensity +value (leading term of the passive, per node)."
+      "en": "Arts Intensity +value (leading term of the passive, per node).",
+      "zh": "源石技艺强度 +数值（被动的首项，按节点）。",
+      "ja": "アーツ強度 ＋値（パッシブの主項、ノードごと）。",
+      "ko": "아츠 강도 +값(패시브의 주 항목, 노드별)."
      },
      "mods": [
       {
@@ -3177,7 +3444,10 @@
      "target": "self",
      "cond": {
       "es": "Al aplicar Solidification: Physical DMG en Battle/Ult por 20s (aproximación del «next cast»). Los Originium Crystals no están incluidos en el cálculo.",
-      "en": "On applying Solidification: Physical DMG on Battle/Ult for 20s (approximation of the \"next cast\"). Originium Crystals are not included in the calculation."
+      "en": "On applying Solidification: Physical DMG on Battle/Ult for 20s (approximation of the \"next cast\"). Originium Crystals are not included in the calculation.",
+      "zh": "施加冻结时：战技/终结技的物理伤害提升，20 秒（对「下一次施放」的近似）。源石结晶未计入计算。",
+      "ja": "凍結を付与したとき：戦技/必殺技の物理ダメージアップ、20 秒（「次の発動」の近似）。オリジニウム結晶は計算に含めていない。",
+      "ko": "동결을 적용할 때: 배틀/궁극기의 물리 피해 증가, 20초('다음 사용'의 근사). 오리지늄 결정은 계산에 포함하지 않았습니다."
      },
      "mods": [
       {
@@ -3231,7 +3501,10 @@
      "target": "self",
      "cond": {
       "es": "Ultimate DMG +valor (término inicial de la pasiva, por nodo).",
-      "en": "Ultimate DMG +value (leading term of the passive, by node)."
+      "en": "Ultimate DMG +value (leading term of the passive, by node).",
+      "zh": "终结技伤害 +数值（被动的首项，按节点）。",
+      "ja": "必殺技ダメージ ＋値（パッシブの主項、ノードごと）。",
+      "ko": "궁극기 피해 +값(패시브의 주 항목, 노드별)."
      },
      "mods": [
       {
@@ -3259,7 +3532,10 @@
      "target": "self",
      "cond": {
       "es": "Al aplicar Lifted: Physical DMG en la próxima Ult por 30s (aproximado por ventana). Apila a 3.",
-      "en": "On applying Lifted: Physical DMG on the next Ultimate for 30s (window approximation). Stacks to 3."
+      "en": "On applying Lifted: Physical DMG on the next Ultimate for 30s (window approximation). Stacks to 3.",
+      "zh": "施加击飞时：下一次终结技的物理伤害提升，30 秒（窗口近似）。最多 3 层。",
+      "ja": "浮遊を付与したとき：次の必殺技の物理ダメージアップ、30 秒（時間帯の近似）。最大 3 スタック。",
+      "ko": "띄우기를 적용할 때: 다음 궁극기의 물리 피해 증가, 30초(구간 근사). 최대 3중첩."
      },
      "mods": [
       {
@@ -3297,7 +3573,10 @@
      "target": "self",
      "cond": {
       "es": "Contra enemigos con Vulnerability: DMG +valor (todo elemento), por nodo.",
-      "en": "Against Vulnerability enemies: DMG +value (all elements), by node."
+      "en": "Against Vulnerability enemies: DMG +value (all elements), by node.",
+      "zh": "对破防敌人：伤害 +数值（全属性），按节点。",
+      "ja": "クラッシュ状態の敵に対して：与ダメージ ＋値（全属性）、ノードごと。",
+      "ko": "방어 불능 상태의 적에게: 피해 +값(모든 속성), 노드별."
      },
      "mods": [
       {
@@ -3324,7 +3603,10 @@
      "pendingModel": "All Attributes +% por 15s al aplicar Vulnerability/Phys Susceptibility con la battle skill: buff de ATRIBUTOS disparado — laneStats es estático (los atributos no cambian a mitad de rotación) → diferido",
      "cond": {
       "es": "Battle aplica Vulnerability o Phys Susceptibility: All Attributes +% 15s (×2 stacks) — diferido (atributos dinámicos).",
-      "en": "Battle applies Vulnerability or Phys Susceptibility: All Attributes +% 15s (×2 stacks) — deferred (dynamic attributes)."
+      "en": "Battle applies Vulnerability or Phys Susceptibility: All Attributes +% 15s (×2 stacks) — deferred (dynamic attributes).",
+      "zh": "战技施加破防或物理脆弱时：全属性 +%，15 秒（×2 层）——延后（动态属性）。",
+      "ja": "戦技がクラッシュまたは物理脆弱を付与したとき：全ステータス +%、15 秒（×2 スタック）。保留（動的なステータス）。",
+      "ko": "배틀 스킬이 방어 불능이나 물리 취약을 적용할 때: 모든 속성 +%, 15초(×2중첩) — 보류(동적 속성)."
      },
      "mods": []
     }
@@ -3340,7 +3622,10 @@
      "target": "self",
      "cond": {
       "es": "Cryo DMG +valor (término inicial de la pasiva, por nodo).",
-      "en": "Cryo DMG +value (leading term of the passive, by node)."
+      "en": "Cryo DMG +value (leading term of the passive, by node).",
+      "zh": "寒冷伤害 +数值（被动的首项，按节点）。",
+      "ja": "寒冷ダメージ ＋値（パッシブの主項、ノードごと）。",
+      "ko": "냉기 피해 +값(패시브의 주 항목, 노드별)."
      },
      "mods": [
       {
@@ -3369,7 +3654,10 @@
      "pendingModel": "on-crit probabilístico (crítico con Battle/Combo) — NO derivable de un timeline ideal → toggle-solo del calc de Daño, inerte en la Rotación a propósito (misma clase que Wolven Blood)",
      "cond": {
       "es": "Tras crítico con Battle/Combo: Cryo DMG +valor 30s (máx 3 stacks) — toggle, no simulado.",
-      "en": "After a crit with Battle/Combo: Cryo DMG +value 30s (max 3 stacks) — toggle, not simulated."
+      "en": "After a crit with Battle/Combo: Cryo DMG +value 30s (max 3 stacks) — toggle, not simulated.",
+      "zh": "战技/连携暴击后：寒冷伤害 +数值，30 秒（最多 3 层）——开关，不做模拟。",
+      "ja": "戦技/連携で会心した後：寒冷ダメージ ＋値、30 秒（最大 3 スタック）。切り替え式で、シミュレーションはしない。",
+      "ko": "배틀/연계로 치명타 후: 냉기 피해 +값, 30초(최대 3중첩) — 토글이며 시뮬레이션하지 않음."
      },
      "mods": [
       {
@@ -3402,7 +3690,10 @@
      "target": "self",
      "cond": {
       "es": "ATK +valor (término inicial de la pasiva, por nodo).",
-      "en": "ATK +value (leading term of the passive, by node)."
+      "en": "ATK +value (leading term of the passive, by node).",
+      "zh": "攻击力 +数值（被动的首项，按节点）。",
+      "ja": "攻撃力 ＋値（パッシブの主項、ノードごと）。",
+      "ko": "공격력 +값(패시브의 주 항목, 노드별)."
      },
      "mods": [
       {
@@ -3429,7 +3720,10 @@
      "target": "self",
      "cond": {
       "es": "Al recibir Electric Amp: Electric DMG +valor por 30s (máx 3; el cálculo cuenta por lo bajo).",
-      "en": "On gaining Electric Amp: Electric DMG +value for 30s (max 3; the calculation under-counts)."
+      "en": "On gaining Electric Amp: Electric DMG +value for 30s (max 3; the calculation under-counts).",
+      "zh": "获得电磁增幅时：电磁伤害 +数值，30 秒（最多 3 层；计算有所低估）。",
+      "ja": "電磁増幅を得たとき：電磁ダメージ ＋値、30 秒（最大 3。計算では少なめに数えている）。",
+      "ko": "전기 증폭을 얻을 때: 전기 피해 +값, 30초(최대 3, 계산은 적게 셉니다)."
      },
      "mods": [
       {
@@ -3469,7 +3763,10 @@
      "target": "team",
      "cond": {
       "es": "Al curar con una skill propia: TODO el equipo gana ATK +valor por 15s (no acumula). La Treatment Efficiency queda fuera del cálculo de daño.",
-      "en": "On healing with an own skill: the WHOLE team gains ATK +value for 15s (non-stacking). Treatment Efficiency is not part of the damage calculation."
+      "en": "On healing with an own skill: the WHOLE team gains ATK +value for 15s (non-stacking). Treatment Efficiency is not part of the damage calculation.",
+      "zh": "用自身技能治疗时：全队攻击力 +数值，15 秒（不叠加）。治疗效率不参与伤害计算。",
+      "ja": "自身のスキルで回復したとき：チーム全員の攻撃力 ＋値、15 秒（重複なし）。回復効率はダメージ計算に含まれない。",
+      "ko": "자신의 스킬로 치유할 때: 팀 전체 공격력 +값, 15초(중첩 없음). 치유 효율은 피해 계산에 포함되지 않습니다."
      },
      "mods": [
       {
@@ -3505,7 +3802,10 @@
      "target": "self",
      "cond": {
       "es": "Arts Intensity +valor por nodo (segunda parte de la pasiva). El atributo principal inicial entra fijo.",
-      "en": "Arts Intensity +value per node (the passive's second term). The leading Main Attribute enters as a fixed value."
+      "en": "Arts Intensity +value per node (the passive's second term). The leading Main Attribute enters as a fixed value.",
+      "zh": "按节点的源石技艺强度 +数值（被动的第二项）。首项的主属性作为固定值计入。",
+      "ja": "ノードごとのアーツ強度 ＋値（パッシブの 2 項目）。主項のメイン属性は固定値として入る。",
+      "ko": "노드별 아츠 강도 +값(패시브의 두 번째 항목). 주 항목의 메인 속성은 고정값으로 들어갑니다."
      },
      "mods": [
       {
@@ -3571,7 +3871,10 @@
      "mode": "int",
      "cond": {
       "es": "INT ≥ Will: al aplicar Arts Infliction con skill propia, el portador gana Arts DMG Dealt +% por 20s (no acumula).",
-      "en": "INT ≥ Will: on applying Arts Infliction with own skill, the wielder gains Arts DMG Dealt +% for 20s (non-stacking)."
+      "en": "INT ≥ Will: on applying Arts Infliction with own skill, the wielder gains Arts DMG Dealt +% for 20s (non-stacking).",
+      "zh": "智识 ≥ 意志：用自身技能施加法术附着时，持有者获得法术伤害 +%，20 秒（不叠加）。",
+      "ja": "知性 ≥ 意志：自身のスキルでアーツ付着を付与したとき、装備者はアーツダメージ +% を 20 秒間得る（重複なし）。",
+      "ko": "지능 ≥ 의지: 자신의 스킬로 아츠 부착을 적용할 때 장착자가 아츠 피해 +%를 20초 동안 얻음(중첩 없음)."
      },
      "mods": [
       {
@@ -3604,7 +3907,10 @@
      "pendingModel": "trigger 'al aplicar Arts Susceptibility' no existe en el vocabulario del sim (Arcane INT la aplica con el combo) → toggle del calc por ahora.",
      "cond": {
       "es": "INT ≥ Will: al aplicar Arts Susceptibility con skill propia, el portador gana ATK +% por 20s (no acumula).",
-      "en": "INT ≥ Will: on applying Arts Susceptibility with own skill, the wielder gains ATK +% for 20s (non-stacking)."
+      "en": "INT ≥ Will: on applying Arts Susceptibility with own skill, the wielder gains ATK +% for 20s (non-stacking).",
+      "zh": "智识 ≥ 意志：用自身技能施加法术脆弱时，持有者获得攻击力 +%，20 秒（不叠加）。",
+      "ja": "知性 ≥ 意志：自身のスキルでアーツ脆弱を付与したとき、装備者は攻撃力 +% を 20 秒間得る（重複なし）。",
+      "ko": "지능 ≥ 의지: 자신의 스킬로 아츠 취약을 적용할 때 장착자가 공격력 +%를 20초 동안 얻음(중첩 없음)."
      },
      "mods": [
       {
@@ -3632,7 +3938,10 @@
      "mode": "will",
      "cond": {
       "es": "Will > INT: al aplicar Arts Burst O Arts Susceptibility con skill propia, el enemigo recibe +Arts DMG por 25s (no acumula; una sola instancia aunque disparen ambas rutas).",
-      "en": "Will > INT: on applying Arts Burst OR Arts Susceptibility with own skill, the enemy takes +Arts DMG for 25s (non-stacking; single instance even if both routes trigger)."
+      "en": "Will > INT: on applying Arts Burst OR Arts Susceptibility with own skill, the enemy takes +Arts DMG for 25s (non-stacking; single instance even if both routes trigger).",
+      "zh": "意志 > 智识：用自身技能施加法术爆发或法术脆弱时，敌人受到的法术伤害提升，25 秒（不叠加；两条路径都触发也只有一个实例）。",
+      "ja": "意志 > 知性：自身のスキルでアーツ爆発またはアーツ脆弱を付与したとき、敵のアーツ被ダメージがアップ、25 秒（重複なし。両方の経路で発動しても 1 つだけ）。",
+      "ko": "의지 > 지능: 자신의 스킬로 아츠 폭발이나 아츠 취약을 적용할 때 적이 받는 아츠 피해 증가, 25초(중첩 없음, 두 경로가 모두 발동해도 하나만)."
      },
      "mods": [
       {
@@ -3670,7 +3979,10 @@
      "replacesLeading": true,
      "cond": {
       "es": "Nature DMG Dealt permanente de la pasiva (escala por nodo de esencia).",
-      "en": "Permanent Nature DMG Dealt from the passive (scales per essence node)."
+      "en": "Permanent Nature DMG Dealt from the passive (scales per essence node).",
+      "zh": "被动提供的永久自然伤害（随基质节点成长）。",
+      "ja": "パッシブによる永続の自然ダメージ（基質ノードでスケール）。",
+      "ko": "패시브의 영구 자연 피해(기질 노드에 따라 증가)."
      },
      "mods": [
       {
@@ -3699,7 +4011,10 @@
      "noStack": true,
      "cond": {
       "es": "Al aplicar Arts Susceptibility o Arts Infliction con la combo skill: el equipo gana ATK +% por 20s. En el juego apila hasta 2 (duración separada); el cálculo cuenta 1 stack.",
-      "en": "On applying Arts Susceptibility or Arts Infliction with the combo skill: the team gains ATK +% for 20s. In the game it stacks to 2 (separate durations); the calculation counts 1 stack."
+      "en": "On applying Arts Susceptibility or Arts Infliction with the combo skill: the team gains ATK +% for 20s. In the game it stacks to 2 (separate durations); the calculation counts 1 stack.",
+      "zh": "用连携技施加法术脆弱或法术附着时：全队攻击力 +%，20 秒。游戏中可叠 2 层（分别计时）；计算按 1 层计。",
+      "ja": "連携技でアーツ脆弱またはアーツ付着を付与したとき：チームの攻撃力 +%、20 秒。ゲームでは 2 スタックまで（個別計時）、計算では 1 スタックとして数える。",
+      "ko": "연계 스킬로 아츠 취약이나 아츠 부착을 적용할 때: 팀 공격력 +%, 20초. 게임에서는 2중첩(별도 계시), 계산은 1중첩으로 셉니다."
      },
      "mods": [
       {
@@ -3727,7 +4042,10 @@
      "noStack": true,
      "cond": {
       "es": "El portador gana el ATK completo del texto: este buff aporta el EXTRA sobre la parte de equipo (propio + equipo = total). 20s; el cálculo cuenta 1 stack.",
-      "en": "The wielder gains the full ATK of the text: this buff carries the EXTRA over the team share (self + team = total). 20s; the calculation counts 1 stack."
+      "en": "The wielder gains the full ATK of the text: this buff carries the EXTRA over the team share (self + team = total). 20s; the calculation counts 1 stack.",
+      "zh": "持有者获得文本中的全部攻击力：此增益承载超出队伍份额的部分（自身 + 队伍 = 总量）。20 秒；计算按 1 层计。",
+      "ja": "装備者はテキスト通りの攻撃力を全額得る。このバフはチーム分を超える追加分を担う（自身＋チーム＝合計）。20 秒、計算では 1 スタック。",
+      "ko": "장착자는 텍스트의 공격력을 전부 얻습니다. 이 버프는 팀 몫을 넘는 추가분을 담당합니다(자신 + 팀 = 합계). 20초, 계산은 1중첩."
      },
      "mods": [
       {
@@ -3760,7 +4078,10 @@
      "pendingModel": "ventana al ENTRAR en combate — sin vocabulario de inicio-de-combate en el sim (anchors: battle/combo/ult) → toggle-solo del calc de Daño. La Arts Intensity +28 de la ventana tampoco es representable (artsInt es permanent-only, misma limitación que Amaranthine/White Night Nova).",
      "cond": {
       "es": "Al entrar en combate: el equipo gana DMG Dealt +%, Arts Intensity (+10..28, no incluida en el cálculo) y DEF +% por 20s; al expirar cura 122 HP al equipo (la DEF y la cura quedan fuera del cálculo de daño). No acumula.",
-      "en": "On entering battle: the team gains DMG Dealt +%, Arts Intensity (+10..28, not included in the calculation) and DEF +% for 20s; on expiry it restores 122 HP to the team (DEF and the heal are outside the damage calculation). Non-stacking."
+      "en": "On entering battle: the team gains DMG Dealt +%, Arts Intensity (+10..28, not included in the calculation) and DEF +% for 20s; on expiry it restores 122 HP to the team (DEF and the heal are outside the damage calculation). Non-stacking.",
+      "zh": "进入战斗时：全队获得伤害 +%、源石技艺强度（+10..28，未计入计算）和防御 +%，20 秒；结束时为队伍回复 122 HP（防御和治疗在伤害计算之外）。不叠加。",
+      "ja": "戦闘開始時：チームは与ダメージ +%、アーツ強度（+10〜28、計算には含めない）、防御 +% を 20 秒間得る。終了時にチームの HP を 122 回復（防御と回復はダメージ計算外）。重複なし。",
+      "ko": "전투 시작 시: 팀이 피해 +%, 아츠 강도(+10..28, 계산에 포함하지 않음), 방어 +%를 20초 동안 얻음. 종료 시 팀 HP 122 회복(방어와 치유는 피해 계산 밖). 중첩 없음."
      },
      "mods": [
       {
@@ -3792,7 +4113,10 @@
      "replacesLeading": true,
      "cond": {
       "es": "Arts DMG Dealt permanente de la pasiva (escala por nodo de esencia; a nodo máximo +44.8%).",
-      "en": "Permanent Arts DMG Dealt from the passive (scales per essence node; +44.8% at max node)."
+      "en": "Permanent Arts DMG Dealt from the passive (scales per essence node; +44.8% at max node).",
+      "zh": "被动提供的永久法术伤害（随基质节点成长；满节点 +44.8%）。",
+      "ja": "パッシブによる永続のアーツダメージ（基質ノードでスケール。最大ノードで +44.8%）。",
+      "ko": "패시브의 영구 아츠 피해(기질 노드에 따라 증가, 최대 노드에서 +44.8%)."
      },
      "mods": [
       {
@@ -3822,7 +4146,10 @@
      "pendingModel": "Arts Intensity temporizado: el motor solo aplica Arts Intensity permanente (Rotación) y asume 0 en Daño; se registra el contrato para cuando exista artsInt por intervalo.",
      "cond": {
       "es": "Tras lanzar la battle skill: Arts Intensity +98 y 4 stacks de Windform por 15s (el efecto entero no acumula). Hoy no entra al cálculo.",
-      "en": "After casting the battle skill: Arts Intensity +98 and 4 Windform stacks for 15s (the whole effect cannot stack). Not applied by the calculation today."
+      "en": "After casting the battle skill: Arts Intensity +98 and 4 Windform stacks for 15s (the whole effect cannot stack). Not applied by the calculation today.",
+      "zh": "施放战技后：源石技艺强度 +98 和 4 层风形，15 秒（整个效果不叠加）。计算目前不应用。",
+      "ja": "戦技の発動後：アーツ強度 +98 と風形 4 スタック、15 秒（効果全体が重複しない）。現在の計算では適用していない。",
+      "ko": "배틀 스킬 사용 후: 아츠 강도 +98과 풍형 4중첩, 15초(효과 전체가 중첩되지 않음). 현재 계산에서는 적용하지 않음."
      },
      "mods": [
       {
@@ -3851,7 +4178,10 @@
      "durS": 30,
      "cond": {
       "es": "Al aplicar un Arts Burst con Windform disponible: consume 1 stack y gana Arts DMG Dealt +11.2% por 30s, hasta 4 stacks (duración independiente). El cálculo asume que hay Windform (battle skill lanzada en los últimos 15s): cada Burst del portador suma un stack hasta 4.",
-      "en": "On applying an Arts Burst with Windform available: consumes 1 stack and gains Arts DMG Dealt +11.2% for 30s, up to 4 stacks (separate durations). The calculation assumes Windform is up (battle skill cast within the last 15s): every Burst by the wielder adds a stack up to 4."
+      "en": "On applying an Arts Burst with Windform available: consumes 1 stack and gains Arts DMG Dealt +11.2% for 30s, up to 4 stacks (separate durations). The calculation assumes Windform is up (battle skill cast within the last 15s): every Burst by the wielder adds a stack up to 4.",
+      "zh": "风形可用时施加法术爆发：消耗 1 层并获得法术伤害 +11.2%，30 秒，最多 4 层（分别计时）。计算假设风形处于生效状态（最近 15 秒内施放过战技）：持有者的每次爆发加一层，最多 4 层。",
+      "ja": "風形がある状態でアーツ爆発を付与：1 スタックを消費してアーツダメージ +11.2% を 30 秒間得る。最大 4 スタック（個別計時）。計算では風形が有効（直近 15 秒以内に戦技を発動）と仮定し、装備者の爆発ごとに最大 4 までスタックを加える。",
+      "ko": "풍형이 있을 때 아츠 폭발 적용: 1중첩을 소모하고 아츠 피해 +11.2%를 30초 동안 얻음, 최대 4중첩(별도 계시). 계산은 풍형이 활성(최근 15초 내 배틀 스킬 사용)이라고 가정하며, 장착자의 폭발마다 최대 4까지 중첩을 더합니다."
      },
      "mods": [
       {
@@ -3888,7 +4218,10 @@
      "replacesLeading": true,
      "cond": {
       "es": "Arts Intensity permanente de la pasiva (escala por nodo de esencia; a nodo máximo +42). La Rotación la suma al Arts Intensity del carril; Daño asume Arts Intensity 0.",
-      "en": "Permanent Arts Intensity from the passive (scales per essence node; +42 at max node). The Rotation adds it to the lane Arts Intensity; Damage assumes Arts Intensity 0."
+      "en": "Permanent Arts Intensity from the passive (scales per essence node; +42 at max node). The Rotation adds it to the lane Arts Intensity; Damage assumes Arts Intensity 0.",
+      "zh": "被动提供的永久源石技艺强度（随基质节点成长；满节点 +42）。轮转会把它加到通道的源石技艺强度上；伤害页面假设源石技艺强度为 0。",
+      "ja": "パッシブによる永続のアーツ強度（基質ノードでスケール。最大ノードで +42）。ローテーションはレーンのアーツ強度に加算し、ダメージはアーツ強度 0 を仮定する。",
+      "ko": "패시브의 영구 아츠 강도(기질 노드에 따라 증가, 최대 노드에서 +42). 로테이션은 레인 아츠 강도에 더하고, 피해 페이지는 아츠 강도 0을 가정합니다."
      },
      "mods": [
       {
@@ -3917,7 +4250,10 @@
      "durS": 25,
      "cond": {
       "es": "Al aplicar un Arts Burst: Nature DMG Dealt +5.6% por 25s, hasta 4 stacks (duración independiente; una vez cada 0.1s).",
-      "en": "On applying an Arts Burst: Nature DMG Dealt +5.6% for 25s, up to 4 stacks (separate durations; once every 0.1s)."
+      "en": "On applying an Arts Burst: Nature DMG Dealt +5.6% for 25s, up to 4 stacks (separate durations; once every 0.1s).",
+      "zh": "施加法术爆发时：自然伤害 +5.6%，25 秒，最多 4 层（分别计时；每 0.1 秒一次）。",
+      "ja": "アーツ爆発を付与したとき：自然ダメージ +5.6%、25 秒、最大 4 スタック（個別計時、0.1 秒に 1 回）。",
+      "ko": "아츠 폭발을 적용할 때: 자연 피해 +5.6%, 25초, 최대 4중첩(별도 계시, 0.1초마다 한 번)."
      },
      "mods": [
       {
@@ -3949,7 +4285,10 @@
      "pendingModel": "Bono al llegar a 4 stacks del efecto anterior: no hay trigger por conteo de stacks de otro buff. Toggle del cálculo de Daño (máximo teórico), inerte en la Rotación a propósito.",
      "cond": {
       "es": "Con 4 stacks del efecto anterior: Nature DMG Dealt +16.8% adicional (no acumula). En Daño es un toggle: actívalo si el portador llega a 4 Bursts en la ventana de 25s.",
-      "en": "At 4 stacks of the previous effect: an additional Nature DMG Dealt +16.8% (cannot stack). In Damage it is a toggle: enable it if the wielder reaches 4 Bursts within the 25s window."
+      "en": "At 4 stacks of the previous effect: an additional Nature DMG Dealt +16.8% (cannot stack). In Damage it is a toggle: enable it if the wielder reaches 4 Bursts within the 25s window.",
+      "zh": "前一效果达到 4 层时：额外自然伤害 +16.8%（不叠加）。在伤害页面中是开关：如果持有者在 25 秒窗口内达到 4 次爆发，就开启它。",
+      "ja": "前の効果が 4 スタックに達したとき：さらに自然ダメージ +16.8%（重複なし）。ダメージでは切り替え式：装備者が 25 秒の時間帯に爆発 4 回に達するならオンにする。",
+      "ko": "앞의 효과가 4중첩에 도달하면: 추가 자연 피해 +16.8%(중첩 불가). 피해 페이지에서는 토글이며, 장착자가 25초 구간 안에 폭발 4회에 도달하면 켜세요."
      },
      "mods": [
       {

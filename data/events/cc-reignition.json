@@ -4,71 +4,571 @@
   "model": {
     "assume": {
       "es": "Modelado a dificultad alta (Riesgo ~20+): se asumen activos los dos Key Criteria — Tremor (+daño no-skill, −60% Battle Skill) y Overclock (combo cooldown↓, −Battle Skill) — más Vitality (HP enemigo↑). Por eso el daño de reacción (Combustion/Crush/Shatter) sube y las carries de Battle Skill bajan.",
-      "en": "Modeled at high difficulty (Risk ~20+): both Key Criteria assumed active — Tremor (+non-skill damage, −60% Battle Skill) and Overclock (combo cooldown↓, −Battle Skill) — plus Vitality (enemy HP↑). That's why reaction damage (Combustion/Crush/Shatter) goes up and Battle Skill carries go down."
+      "en": "Modeled at high difficulty (Risk ~20+): both Key Criteria assumed active — Tremor (+non-skill damage, −60% Battle Skill) and Overclock (combo cooldown↓, −Battle Skill) — plus Vitality (enemy HP↑). That's why reaction damage (Combustion/Crush/Shatter) goes up and Battle Skill carries go down.",
+      "zh": "按高难度建模（风险度约 20+）：假定两个密钥指标都生效——震荡（非技能伤害提升、战技 −60%）和过速（连携技冷却缩短、战技削减）——外加活性（敌人 HP 提升）。因此反应伤害（燃烧/猛击/碎冰）上升，战技主C下降。",
+      "ja": "高難度（危険レベル約 20+）でモデル化：認証指標を 2 つとも有効と仮定（振動：非スキルダメージ増、戦技 −60%／過速：連携技クールダウン短縮、戦技減）に加えて活性化（敵 HP 増）。だから反応ダメージ（燃焼/猛撃/粉砕）は上がり、戦技キャリーは下がります。",
+      "ko": "고난도(위험도 약 20+)로 모델링: 비밀 지표 둘 다 활성으로 가정 — 충격(비스킬 피해 증가, 배틀 스킬 −60%)과 과속(연계 스킬 쿨타임 감소, 배틀 스킬 감소) — 여기에 활성(적 HP 증가). 그래서 반응 피해(연소/강타/쇄빙)는 오르고 배틀 스킬 캐리는 내려갑니다."
     },
     "methodology": {
       "es": "Lo que más pesa es el FIT con el meta de la temporada (lo fuerte aquí es la REACCIÓN, no el daño bruto de un operador). POWER usa el motor de daño real de la app (mismo `window.ef.compare` de la pestaña Daño, con todos los buffs), con el Battle Skill recortado al 50% por los Key Criteria — pero pesa poco a propósito, porque el motor mide daño de skill, no de reacción. ROBUST = supervivencia frente a los criterios; AVAIL = disponibilidad. Pesos: FIT 55% · POWER 15% · ROBUST 18% · AVAIL 12%. Es utilidad PARA ESTE EVENTO, no poder general.",
-      "en": "FIT with the season meta weighs the most (what's strong here is the REACTION, not an operator's raw damage). POWER uses the app's real damage engine (the same `window.ef.compare` as the Damage tab, with all buffs), with Battle Skill cut to 50% for the Key Criteria — but it's weighted low on purpose, because the engine measures skill damage, not reaction damage. ROBUST = survival against the criteria; AVAIL = availability. Weights: FIT 55% · POWER 15% · ROBUST 18% · AVAIL 12%. Usefulness FOR THIS EVENT, not general power."
+      "en": "FIT with the season meta weighs the most (what's strong here is the REACTION, not an operator's raw damage). POWER uses the app's real damage engine (the same `window.ef.compare` as the Damage tab, with all buffs), with Battle Skill cut to 50% for the Key Criteria — but it's weighted low on purpose, because the engine measures skill damage, not reaction damage. ROBUST = survival against the criteria; AVAIL = availability. Weights: FIT 55% · POWER 15% · ROBUST 18% · AVAIL 12%. Usefulness FOR THIS EVENT, not general power.",
+      "zh": "与赛季 meta 的契合度权重最高（这里强的是反应，不是干员的裸伤害）。强度使用应用的真实伤害引擎（与「伤害」页相同的 `window.ef.compare`，含全部增益），并按密钥指标把战技削至 50%——但权重刻意压低，因为引擎测的是技能伤害而非反应伤害。稳健 = 在指标下的生存力；可得 = 获取难易度。权重：契合 55% · 强度 15% · 稳健 18% · 可得 12%。衡量的是对本活动的有用程度，不是通用强度。",
+      "ja": "シーズンメタとの適合が最も重い（ここで強いのは反応であって、オペレーターの素のダメージではない）。パワーはアプリの実ダメージエンジン（ダメージタブと同じ `window.ef.compare`、全バフ込み）を使い、認証指標に合わせて戦技を 50% に削減。ただしエンジンが測るのはスキルダメージで反応ダメージではないため、重みは意図的に低め。堅牢 = 指標に対する生存力、入手 = 入手しやすさ。重み：適合 55% · パワー 15% · 堅牢 18% · 入手 12%。このイベントでの有用性であって、一般的な強さではありません。",
+      "ko": "시즌 메타와의 적합도가 가장 무겁습니다(여기서 강한 것은 반응이지 오퍼레이터의 순수 피해가 아님). 파워는 앱의 실제 피해 엔진(피해 탭과 같은 `window.ef.compare`, 모든 버프 포함)을 쓰고 비밀 지표에 맞춰 배틀 스킬을 50%로 깎지만, 엔진이 재는 것은 스킬 피해이지 반응 피해가 아니라서 가중치는 일부러 낮게 둡니다. 견고 = 지표에 대한 생존력, 획득 = 획득 용이성. 가중치: 적합 55% · 파워 15% · 견고 18% · 획득 12%. 이 이벤트에서의 유용성이지 일반적인 강함이 아닙니다."
     },
-    "slotMult": { "basic_attack": 1.0, "battle_skill": 0.5, "combo_skill": 1.0, "ultimate": 1.0 },
-    "weights": { "fit": 0.55, "power": 0.15, "robust": 0.18, "avail": 0.12 },
-    "availScore": { "free": 100, "4": 85, "5": 65, "6": 45 },
-    "thresholds": { "Sx": 75, "S": 67, "A": 60, "B": 50, "C": 40 }
+    "slotMult": {
+      "basic_attack": 1,
+      "battle_skill": 0.5,
+      "combo_skill": 1,
+      "ultimate": 1
+    },
+    "weights": {
+      "fit": 0.55,
+      "power": 0.15,
+      "robust": 0.18,
+      "avail": 0.12
+    },
+    "availScore": {
+      "4": 85,
+      "5": 65,
+      "6": 45,
+      "free": 100
+    },
+    "thresholds": {
+      "Sx": 75,
+      "S": 67,
+      "A": 60,
+      "B": 50,
+      "C": 40
+    }
   },
   "ops": {
-    "wulfgard":      { "kind": "enabler", "fit": 95, "robust": 78, "avail": "free", "tags": { "es": "Combustión · gratis", "en": "Combustion · free" },
-      "note": { "es": "Mitad del equipo más fuerte del juego (Gilberta + Wulfgard). Gilberta agrupa a los enemigos y dispara su COMBO skill — que es AoE, no su Battle Skill que es single-target — así que su Combustión limpia oleadas enteras sin parar. Y es gratis: todo el mundo lo tiene.", "en": "Half of the strongest team in the game (Gilberta + Wulfgard). Gilberta groups enemies and triggers his COMBO skill — which is AoE, unlike his single-target Battle Skill — so his Combustion clears whole waves non-stop. And he's free: everyone has him." } },
-    "laevatain":     { "kind": "carry", "fit": 62, "robust": 60, "tags": { "es": "Heat · capada Combustion 1", "en": "Heat · capped Combustion 1" },
-      "note": { "es": "Sólida, pero no la potencia que aparenta: lo fuerte de la temporada es la REACCIÓN, no su daño bruto, y ella no pasa de Combustion lvl 1. Buena pieza Heat, no la carry que define el meta.", "en": "Solid, but not as strong as her numbers suggest: what's strong this season is the REACTION, not her raw damage, and she can't push past Combustion lvl 1. A good Heat piece, not the meta-defining carry." } },
-    "estella":       { "kind": "carry", "fit": 90, "robust": 95, "avail": "4", "tags": { "es": "Shatter · inmune a Cryo", "en": "Shatter · Cryo-immune" },
-      "note": { "es": "La pick más cómoda para tu primer Riesgo 20: inmune a varios criterios de Cryo y con Shatter (daño no-skill que Tremor premia). Accesible (4★).", "en": "The comfiest pick for your first Risk 20: immune to several Cryo criteria and with Shatter (non-skill damage Tremor rewards). Accessible (4★)." } },
-    "mifu":          { "kind": "carry", "fit": 84, "robust": 65, "tags": { "es": "Crush mono-físico", "en": "Mono-physical Crush" },
-      "note": { "es": "Carry de Crush puro. Su BS3 pega Crush (daño no-skill), así que aguanta el nodo de −60% Battle Skill mucho mejor que una carry de skill.", "en": "Pure Crush carry. Her BS3 deals Crush (non-skill damage), so she eats the −60% Battle Skill node far better than a skill carry." } },
-    "endministrator":{ "kind": "carry", "fit": 80, "robust": 70, "tags": { "es": "Crush + control", "en": "Crush + control" },
-      "note": { "es": "El MC: aplica Crush y siembra Originium Crystals que sellan al enemigo. Crush escala con Tremor; control útil contra las oleadas.", "en": "The MC: applies Crush and seeds Originium Crystals that lock enemies. Crush scales with Tremor; control helps against the waves." } },
-    "gilberta":      { "kind": "support", "fit": 98, "robust": 70, "tags": { "es": "Núcleo del mejor equipo", "en": "Core of the best team" },
-      "note": { "es": "La otra mitad del equipo más fuerte (Gilberta + Wulfgard): agrupa a los enemigos con su pull y dispara el COMBO skill AoE de Wulfgard, así que limpian oleadas en segundos. Encima su Arts Susceptibility amplifica TODO el daño Arts del equipo. Soporte que define el meta.", "en": "The other half of the strongest team (Gilberta + Wulfgard): she groups enemies with her pull and triggers Wulfgard's AoE COMBO skill, so they clear waves in seconds. On top of that her Arts Susceptibility amplifies ALL the team's Arts damage. A meta-defining support." } },
-    "ember":         { "kind": "carry", "fit": 78, "robust": 60, "tags": { "es": "Carry Heat", "en": "Heat carry" },
-      "note": { "es": "Carry Heat secundaria sólida; aporta más fuentes de Combustión al equipo.", "en": "Solid secondary Heat carry; adds more Combustion sources to the team." } },
-    "ardelia":       { "kind": "support", "fit": 78, "robust": 60, "tags": { "es": "Buffer · Susceptibility", "en": "Buffer · Susceptibility" },
-      "note": { "es": "Buffer que consume Corrosion y reparte Physical/Arts Susceptibility. Encaja en comps de Combustión y físicas.", "en": "Buffer that consumes Corrosion and spreads Physical/Arts Susceptibility. Fits Combustion and physical comps." } },
-    "lifeng":        { "kind": "enabler", "fit": 76, "robust": 60, "tags": { "es": "Enabler físico", "en": "Physical enabler" },
-      "note": { "es": "Enabler de Physical Susceptibility para las comps de Crush. Buff escalado por Intellect/Will.", "en": "Physical Susceptibility enabler for Crush comps. Buff scales with Intellect/Will." } },
-    "chenqianyu":    { "kind": "enabler", "fit": 74, "robust": 60, "avail": "5", "tags": { "es": "Lift · Crush", "en": "Lift · Crush" },
-      "note": { "es": "Enabler físico con lift; remata las comps de Crush. Accesible (5★).", "en": "Physical enabler with lift; finishes Crush comps. Accessible (5★)." } },
-    "pogranichnik":  { "kind": "support", "fit": 74, "robust": 65, "tags": { "es": "Buffer físico", "en": "Physical buffer" },
-      "note": { "es": "Buffer que da ATK y Arts Intensity al recuperar SP. Buff plano que no depende de Battle Skill, así que sobrevive a los Key.", "en": "Buffer that grants ATK and Arts Intensity on SP recovery. Flat buff that doesn't rely on Battle Skill, so it survives the Key nodes." } },
-    "perlica":       { "kind": "support", "fit": 72, "robust": 60, "avail": "5", "tags": { "es": "Electric · Overclock", "en": "Electric · Overclock" },
-      "note": { "es": "Buffer eléctrico que brilla con Overclock (combo cooldown↓): aplica Electrification sin parar. Accesible (5★).", "en": "Electric buffer that shines under Overclock (combo cooldown↓): applies Electrification non-stop. Accessible (5★)." } },
-    "rossi":         { "kind": "enabler", "fit": 72, "robust": 60, "tags": { "es": "DoT · susc", "en": "DoT · susc" },
-      "note": { "es": "Enabler físico con DoT y Heat/Physical susceptibility; complementa comps de Combustión y físicas.", "en": "Physical enabler with DoT and Heat/Physical susceptibility; complements Combustion and physical comps." } },
-    "akekuri":       { "kind": "carry", "fit": 72, "robust": 55, "avail": "4", "tags": { "es": "Carry Heat 4★", "en": "4★ Heat carry" },
-      "note": { "es": "Carry Heat accesible (4★) que encaja en el núcleo de Combustión. Buena opción presupuesto.", "en": "Accessible (4★) Heat carry that slots into the Combustion core. Good budget option." } },
-    "snowshine":     { "kind": "support", "fit": 70, "robust": 70, "avail": "5", "tags": { "es": "Soporte Cryo", "en": "Cryo support" },
-      "note": { "es": "Soporte de la comp híbrida de Estella; cómodo frente a los criterios de Cryo.", "en": "Support in the Estella hybrid comp; comfortable against Cryo criteria." } },
-    "lastrite":      { "kind": "carry", "fit": 70, "robust": 55, "tags": { "es": "Cryo burst", "en": "Cryo burst" },
-      "note": { "es": "El mayor burst del juego, pero rotación estricta y muy dependiente de la Ultimate (cuidado con Bent Edges).", "en": "The game's biggest burst, but a strict rotation and very Ultimate-dependent (mind Bent Edges)." } },
-    "xaihi":         { "kind": "support", "fit": 68, "robust": 60, "avail": "5", "tags": { "es": "Amplific. criogénico", "en": "Cryo Amp", "jp": "寒冷増幅", "zh": "寒冷增幅" },
-      "note": { "es": "Soporte que da Cryo/Nature Amp y Arts Amp al carry controlado. Amplificación pura, encaja con reacción. Accesible (5★).", "en": "Support granting Cryo/Nature Amp and Arts Amp to the controlled carry. Pure amplification, fits reactions. Accessible (5★)." } },
-    "dapan":         { "kind": "support", "fit": 68, "robust": 55, "tags": { "es": "Buffer Vulnerability", "en": "Vulnerability buffer" },
-      "note": { "es": "Buffer físico de Vulnerability; alimenta a las carries de Crush.", "en": "Physical Vulnerability buffer; feeds Crush carries." } },
-    "yvonne":        { "kind": "carry", "fit": 66, "robust": 55, "tags": { "es": "Cryo crítico", "en": "Cryo crit" },
-      "note": { "es": "Hypercarry de Cryo a crítico, construida alrededor de su Ultimate. Penalizada si llevas Bent Edges.", "en": "Crit-Cryo hypercarry built around her Ultimate. Penalized if you run Bent Edges." } },
-    "avywenna":      { "kind": "carry", "fit": 66, "robust": 55, "avail": "5", "tags": { "es": "Anti-jefe Electric", "en": "Anti-boss Electric" },
-      "note": { "es": "Especialista anti-jefe eléctrico (Thunderlances). Comp de single-target; depende del combo. Accesible (5★).", "en": "Anti-boss Electric specialist (Thunderlances). Single-target comp; combo-reliant. Accessible (5★)." } },
-    "arclight":      { "kind": "carry", "fit": 64, "robust": 55, "avail": "5", "tags": { "es": "Carry Electric", "en": "Electric carry" },
-      "note": { "es": "Carry eléctrica de la comp de Zhuang Fangyi. Accesible (5★).", "en": "Electric carry in the Zhuang Fangyi comp. Accessible (5★)." } },
-    "antal":         { "kind": "support", "fit": 62, "robust": 55, "avail": "4", "tags": { "es": "Amp Electric/Heat", "en": "Electric/Heat Amp" },
-      "note": { "es": "Buffer que da Electric/Heat Amp y Susceptibility con Focus. Accesible (4★) y amplifica reacción.", "en": "Buffer granting Electric/Heat Amp and Susceptibility via Focus. Accessible (4★) and amplifies reactions." } },
-    "alesh":         { "kind": "enabler", "fit": 60, "robust": 55, "avail": "5", "tags": { "es": "Enabler Cryo", "en": "Cryo enabler" },
-      "note": { "es": "Enabler Cryo accesible (5★); aporta ATK al equipo. Pieza de relleno para comps Cryo/Shatter.", "en": "Accessible (5★) Cryo enabler; grants team ATK. Filler piece for Cryo/Shatter comps." } },
-    "tangtang":      { "kind": "enabler", "fit": 52, "robust": 45, "tags": { "es": "CC · ojo Regeneration", "en": "CC · mind Regeneration" },
-      "note": { "es": "Control de masas, pero su Ultimate reagrupa enemigos: bajo el criterio Regeneration juega EN TU CONTRA. Úsala con cuidado.", "en": "Crowd control, but her Ultimate bunches enemies up: under the Regeneration criterion it plays AGAINST you. Use carefully." } },
-    "zhuangfangyi":  { "kind": "carry", "fit": 55, "robust": 40, "tags": { "es": "Carry Battle Skill", "en": "Battle Skill carry" },
-      "note": { "es": "Carry eléctrica que vive de su Battle Skill — justo lo que castigan los dos Key Criteria. La comp funciona, pero un escalón por debajo del meta de reacción.", "en": "Electric carry that lives off her Battle Skill — exactly what both Key Criteria punish. The comp works, but a notch below the reaction meta." } },
-    "catcher":       { "kind": "enabler", "fit": 52, "robust": 50, "avail": "5", "tags": { "es": "Enabler de nicho", "en": "Niche enabler" },
-      "note": { "es": "Enabler físico de nicho; no aparece en las comps tope de esta temporada.", "en": "Niche physical enabler; doesn't show up in this season's top comps." } },
-    "fluorite":      { "kind": "support", "fit": 50, "robust": 48, "avail": "4", "tags": { "es": "Buffer de nicho", "en": "Niche buffer" },
-      "note": { "es": "Buffer Nature de nicho (anti-Slow); fuera del meta de este evento aunque sea accesible (4★).", "en": "Niche Nature buffer (anti-Slow); outside this event's meta even if accessible (4★)." } }
+    "wulfgard": {
+      "kind": "enabler",
+      "fit": 95,
+      "robust": 78,
+      "avail": "free",
+      "tags": {
+        "es": "Combustión · gratis",
+        "en": "Combustion · free",
+        "zh": "燃烧 · 免费",
+        "ja": "燃焼 · 無料",
+        "ko": "연소 · 무료"
+      },
+      "note": {
+        "es": "Mitad del equipo más fuerte del juego (Gilberta + Wulfgard). Gilberta agrupa a los enemigos y dispara su COMBO skill — que es AoE, no su Battle Skill que es single-target — así que su Combustión limpia oleadas enteras sin parar. Y es gratis: todo el mundo lo tiene.",
+        "en": "Half of the strongest team in the game (Gilberta + Wulfgard). Gilberta groups enemies and triggers his COMBO skill — which is AoE, unlike his single-target Battle Skill — so his Combustion clears whole waves non-stop. And he's free: everyone has him.",
+        "zh": "游戏最强队伍的一半（洁尔佩塔 + 狼卫）。洁尔佩塔聚怪并触发他的连携技——那是范围的，不像他的单体战技——所以他的燃烧能不停清空整波敌人。而且他是免费的：人人都有。",
+        "ja": "ゲーム最強チームの半分（ギルベルタ＋ウルフガード）。ギルベルタが敵を集めて彼の連携技を発動させます。単体の戦技と違って連携技は範囲なので、燃焼でウェーブ丸ごとをノンストップで一掃。しかも無料で、全員が持っています。",
+        "ko": "게임 최강 팀의 절반(질베르타 + 울프가드). 질베르타가 적을 모아 그의 연계 스킬을 발동시키는데, 단일 대상인 배틀 스킬과 달리 연계 스킬은 광역이라 연소로 웨이브 전체를 쉬지 않고 정리합니다. 게다가 무료라 누구나 갖고 있습니다."
+      }
+    },
+    "laevatain": {
+      "kind": "carry",
+      "fit": 62,
+      "robust": 60,
+      "tags": {
+        "es": "Heat · capada Combustion 1",
+        "en": "Heat · capped Combustion 1",
+        "zh": "灼热 · 燃烧封顶 1 级",
+        "ja": "灼熱 · 燃焼は段階 1 止まり",
+        "ko": "열기 · 연소 1레벨 상한"
+      },
+      "note": {
+        "es": "Sólida, pero no la potencia que aparenta: lo fuerte de la temporada es la REACCIÓN, no su daño bruto, y ella no pasa de Combustion lvl 1. Buena pieza Heat, no la carry que define el meta.",
+        "en": "Solid, but not as strong as her numbers suggest: what's strong this season is the REACTION, not her raw damage, and she can't push past Combustion lvl 1. A good Heat piece, not the meta-defining carry.",
+        "zh": "扎实，但没有数值看起来那么强：本赛季强的是反应，不是她的裸伤害，而且她的燃烧过不了 1 级。好用的灼热拼图，不是定义 meta 的主C。",
+        "ja": "堅実だが、数値が示すほど強くはない：今シーズン強いのは反応で、彼女の素のダメージではなく、燃焼を段階 1 より先へ押し上げられません。良い灼熱のピースであって、メタを決めるキャリーではありません。",
+        "ko": "탄탄하지만 수치가 보여 주는 만큼 강하진 않습니다. 이번 시즌 강한 것은 반응이지 그녀의 순수 피해가 아니고, 연소를 1레벨 너머로 밀지 못합니다. 좋은 열기 조각이지 메타를 정의하는 캐리는 아닙니다."
+      }
+    },
+    "estella": {
+      "kind": "carry",
+      "fit": 90,
+      "robust": 95,
+      "avail": "4",
+      "tags": {
+        "es": "Shatter · inmune a Cryo",
+        "en": "Shatter · Cryo-immune",
+        "zh": "碎冰 · 免疫寒冷指标",
+        "ja": "粉砕 · 寒冷指標に免疫",
+        "ko": "쇄빙 · 냉기 지표 면역"
+      },
+      "note": {
+        "es": "La pick más cómoda para tu primer Riesgo 20: inmune a varios criterios de Cryo y con Shatter (daño no-skill que Tremor premia). Accesible (4★).",
+        "en": "The comfiest pick for your first Risk 20: immune to several Cryo criteria and with Shatter (non-skill damage Tremor rewards). Accessible (4★).",
+        "zh": "首次风险度 20 最舒服的选择：免疫多个寒冷指标，且有碎冰（震荡奖励的非技能伤害）。易得（4★）。",
+        "ja": "初めての危険レベル 20 に最も快適な選択：寒冷の指標をいくつも無効化でき、粉砕（振動が報いる非スキルダメージ）もあります。入手しやすい（4★）。",
+        "ko": "첫 위험도 20에 가장 편안한 선택: 냉기 지표 여러 개에 면역이고 쇄빙(충격이 보상하는 비스킬 피해)이 있습니다. 구하기 쉬움(4★)."
+      }
+    },
+    "mifu": {
+      "kind": "carry",
+      "fit": 84,
+      "robust": 65,
+      "tags": {
+        "es": "Crush mono-físico",
+        "en": "Mono-physical Crush",
+        "zh": "纯物理猛击",
+        "ja": "物理単一の猛撃",
+        "ko": "순수 물리 강타"
+      },
+      "note": {
+        "es": "Carry de Crush puro. Su BS3 pega Crush (daño no-skill), así que aguanta el nodo de −60% Battle Skill mucho mejor que una carry de skill.",
+        "en": "Pure Crush carry. Her BS3 deals Crush (non-skill damage), so she eats the −60% Battle Skill node far better than a skill carry.",
+        "zh": "纯猛击主C。她的战技 3 造成猛击（非技能伤害），所以她扛 −60% 战技节点的能力远胜技能主C。",
+        "ja": "純粋な猛撃キャリー。戦技 3 が猛撃（非スキルダメージ）を出すので、−60% 戦技ノードをスキルキャリーよりずっとうまく飲み込めます。",
+        "ko": "순수 강타 캐리. 배틀 스킬 3이 강타(비스킬 피해)를 주므로 −60% 배틀 스킬 노드를 스킬 캐리보다 훨씬 잘 버팁니다."
+      }
+    },
+    "endministrator": {
+      "kind": "carry",
+      "fit": 80,
+      "robust": 70,
+      "tags": {
+        "es": "Crush + control",
+        "en": "Crush + control",
+        "zh": "猛击 + 控制",
+        "ja": "猛撃＋制御",
+        "ko": "강타 + 제어"
+      },
+      "note": {
+        "es": "El MC: aplica Crush y siembra Originium Crystals que sellan al enemigo. Crush escala con Tremor; control útil contra las oleadas.",
+        "en": "The MC: applies Crush and seeds Originium Crystals that lock enemies. Crush scales with Tremor; control helps against the waves.",
+        "zh": "主角：施加猛击并播种锁住敌人的源石结晶。猛击随震荡缩放；控制对付波次有帮助。",
+        "ja": "主人公：猛撃を付与し、敵を封じる源石結晶をまきます。猛撃は振動でスケールし、制御はウェーブに効きます。",
+        "ko": "주인공: 강타를 걸고 적을 묶는 오리지늄 결정을 심습니다. 강타는 충격에 비례하고 제어는 웨이브에 도움이 됩니다."
+      }
+    },
+    "gilberta": {
+      "kind": "support",
+      "fit": 98,
+      "robust": 70,
+      "tags": {
+        "es": "Núcleo del mejor equipo",
+        "en": "Core of the best team",
+        "zh": "最强队伍的核心",
+        "ja": "最強チームの核",
+        "ko": "최강 팀의 핵심"
+      },
+      "note": {
+        "es": "La otra mitad del equipo más fuerte (Gilberta + Wulfgard): agrupa a los enemigos con su pull y dispara el COMBO skill AoE de Wulfgard, así que limpian oleadas en segundos. Encima su Arts Susceptibility amplifica TODO el daño Arts del equipo. Soporte que define el meta.",
+        "en": "The other half of the strongest team (Gilberta + Wulfgard): she groups enemies with her pull and triggers Wulfgard's AoE COMBO skill, so they clear waves in seconds. On top of that her Arts Susceptibility amplifies ALL the team's Arts damage. A meta-defining support.",
+        "zh": "最强队伍的另一半（洁尔佩塔 + 狼卫）：她用牵引聚怪并触发狼卫的范围连携技，几秒清空一波。此外她的法术脆弱放大全队所有法术伤害。定义 meta 的辅助。",
+        "ja": "最強チームのもう半分（ギルベルタ＋ウルフガード）：引き寄せで敵を集め、ウルフガードの範囲連携技を発動させるので、数秒でウェーブを一掃。さらにアーツ脆弱がチームのアーツダメージすべてを増幅。メタを決めるサポート。",
+        "ko": "최강 팀의 나머지 절반(질베르타 + 울프가드): 끌어당김으로 적을 모아 울프가드의 광역 연계 스킬을 발동시켜 몇 초 만에 웨이브를 정리합니다. 게다가 아츠 취약이 팀의 모든 아츠 피해를 증폭합니다. 메타를 정의하는 서포터."
+      }
+    },
+    "ember": {
+      "kind": "carry",
+      "fit": 78,
+      "robust": 60,
+      "tags": {
+        "es": "Carry Heat",
+        "en": "Heat carry",
+        "zh": "灼热主C",
+        "ja": "灼熱キャリー",
+        "ko": "열기 캐리"
+      },
+      "note": {
+        "es": "Carry Heat secundaria sólida; aporta más fuentes de Combustión al equipo.",
+        "en": "Solid secondary Heat carry; adds more Combustion sources to the team.",
+        "zh": "扎实的次要灼热主C；为队伍增加更多燃烧来源。",
+        "ja": "堅実な二番手の灼熱キャリー。チームに燃焼の源を増やします。",
+        "ko": "탄탄한 두 번째 열기 캐리. 팀에 연소 공급원을 더합니다."
+      }
+    },
+    "ardelia": {
+      "kind": "support",
+      "fit": 78,
+      "robust": 60,
+      "tags": {
+        "es": "Buffer · Susceptibility",
+        "en": "Buffer · Susceptibility",
+        "zh": "增益手 · 脆弱",
+        "ja": "バッファー · 脆弱",
+        "ko": "버퍼 · 취약"
+      },
+      "note": {
+        "es": "Buffer que consume Corrosion y reparte Physical/Arts Susceptibility. Encaja en comps de Combustión y físicas.",
+        "en": "Buffer that consumes Corrosion and spreads Physical/Arts Susceptibility. Fits Combustion and physical comps.",
+        "zh": "消耗腐蚀并散布物理/法术脆弱的增益手。适合燃烧队和物理队。",
+        "ja": "腐食を消費して物理/アーツ脆弱を広げるバッファー。燃焼編成にも物理編成にも合います。",
+        "ko": "부식을 소모해 물리/아츠 취약을 퍼뜨리는 버퍼. 연소 조합과 물리 조합에 맞습니다."
+      }
+    },
+    "lifeng": {
+      "kind": "enabler",
+      "fit": 76,
+      "robust": 60,
+      "tags": {
+        "es": "Enabler físico",
+        "en": "Physical enabler",
+        "zh": "物理附术手",
+        "ja": "物理の付術役",
+        "ko": "물리 인에이블러"
+      },
+      "note": {
+        "es": "Enabler de Physical Susceptibility para las comps de Crush. Buff escalado por Intellect/Will.",
+        "en": "Physical Susceptibility enabler for Crush comps. Buff scales with Intellect/Will.",
+        "zh": "猛击队的物理脆弱附术手。增益随智识/意志缩放。",
+        "ja": "猛撃編成向けの物理脆弱の付術役。バフは知性/意志でスケール。",
+        "ko": "강타 조합용 물리 취약 인에이블러. 버프는 지능/의지에 비례."
+      }
+    },
+    "chenqianyu": {
+      "kind": "enabler",
+      "fit": 74,
+      "robust": 60,
+      "avail": "5",
+      "tags": {
+        "es": "Lift · Crush",
+        "en": "Lift · Crush",
+        "zh": "击飞 · 猛击",
+        "ja": "浮遊 · 猛撃",
+        "ko": "띄우기 · 강타"
+      },
+      "note": {
+        "es": "Enabler físico con lift; remata las comps de Crush. Accesible (5★).",
+        "en": "Physical enabler with lift; finishes Crush comps. Accessible (5★).",
+        "zh": "带击飞的物理附术手；补全猛击队。易得（5★）。",
+        "ja": "浮遊付きの物理の付術役。猛撃編成を完成させます。入手しやすい（5★）。",
+        "ko": "띄우기가 있는 물리 인에이블러. 강타 조합을 완성합니다. 구하기 쉬움(5★)."
+      }
+    },
+    "pogranichnik": {
+      "kind": "support",
+      "fit": 74,
+      "robust": 65,
+      "tags": {
+        "es": "Buffer físico",
+        "en": "Physical buffer",
+        "zh": "物理增益手",
+        "ja": "物理バッファー",
+        "ko": "물리 버퍼"
+      },
+      "note": {
+        "es": "Buffer que da ATK y Arts Intensity al recuperar SP. Buff plano que no depende de Battle Skill, así que sobrevive a los Key.",
+        "en": "Buffer that grants ATK and Arts Intensity on SP recovery. Flat buff that doesn't rely on Battle Skill, so it survives the Key nodes.",
+        "zh": "回复 SP 时给予攻击力和源石技艺强度的增益手。固定增益不依赖战技，所以扛得住密钥节点。",
+        "ja": "SP 回復時に攻撃力とアーツ強度を配るバッファー。戦技に頼らない固定バフなので、認証ノードを生き延びます。",
+        "ko": "SP 회복 시 공격력과 오리지늄 아츠 강도를 주는 버퍼. 배틀 스킬에 기대지 않는 고정 버프라 비밀 노드를 견딥니다."
+      }
+    },
+    "perlica": {
+      "kind": "support",
+      "fit": 72,
+      "robust": 60,
+      "avail": "5",
+      "tags": {
+        "es": "Electric · Overclock",
+        "en": "Electric · Overclock",
+        "zh": "电磁 · 过速",
+        "ja": "電磁 · 過速",
+        "ko": "전기 · 과속"
+      },
+      "note": {
+        "es": "Buffer eléctrico que brilla con Overclock (combo cooldown↓): aplica Electrification sin parar. Accesible (5★).",
+        "en": "Electric buffer that shines under Overclock (combo cooldown↓): applies Electrification non-stop. Accessible (5★).",
+        "zh": "在过速（连携技冷却缩短）下闪光的电磁增益手：不停施加导电。易得（5★）。",
+        "ja": "過速（連携技クールダウン短縮）で輝く電磁バッファー：感電をノンストップで付与。入手しやすい（5★）。",
+        "ko": "과속(연계 스킬 쿨타임 감소) 아래에서 빛나는 전기 버퍼: 감전을 쉬지 않고 겁니다. 구하기 쉬움(5★)."
+      }
+    },
+    "rossi": {
+      "kind": "enabler",
+      "fit": 72,
+      "robust": 60,
+      "tags": {
+        "es": "DoT · susc",
+        "en": "DoT · susc",
+        "zh": "持续伤害 · 脆弱",
+        "ja": "DoT · 脆弱",
+        "ko": "지속 피해 · 취약"
+      },
+      "note": {
+        "es": "Enabler físico con DoT y Heat/Physical susceptibility; complementa comps de Combustión y físicas.",
+        "en": "Physical enabler with DoT and Heat/Physical susceptibility; complements Combustion and physical comps.",
+        "zh": "带持续伤害和灼热/物理脆弱的物理附术手；补足燃烧队和物理队。",
+        "ja": "DoT と灼熱/物理脆弱を持つ物理の付術役。燃焼編成と物理編成を補完します。",
+        "ko": "지속 피해와 열기/물리 취약을 가진 물리 인에이블러. 연소 조합과 물리 조합을 보완합니다."
+      }
+    },
+    "akekuri": {
+      "kind": "carry",
+      "fit": 72,
+      "robust": 55,
+      "avail": "4",
+      "tags": {
+        "es": "Carry Heat 4★",
+        "en": "4★ Heat carry",
+        "zh": "4★ 灼热主C",
+        "ja": "4★ 灼熱キャリー",
+        "ko": "4★ 열기 캐리"
+      },
+      "note": {
+        "es": "Carry Heat accesible (4★) que encaja en el núcleo de Combustión. Buena opción presupuesto.",
+        "en": "Accessible (4★) Heat carry that slots into the Combustion core. Good budget option.",
+        "zh": "能进燃烧核心的易得（4★）灼热主C。不错的平价选择。",
+        "ja": "燃焼コアに収まる入手しやすい（4★）灼熱キャリー。良い低予算の選択肢。",
+        "ko": "연소 핵심에 들어가는 구하기 쉬운(4★) 열기 캐리. 괜찮은 저예산 선택."
+      }
+    },
+    "snowshine": {
+      "kind": "support",
+      "fit": 70,
+      "robust": 70,
+      "avail": "5",
+      "tags": {
+        "es": "Soporte Cryo",
+        "en": "Cryo support",
+        "zh": "寒冷辅助",
+        "ja": "寒冷サポート",
+        "ko": "냉기 서포터"
+      },
+      "note": {
+        "es": "Soporte de la comp híbrida de Estella; cómodo frente a los criterios de Cryo.",
+        "en": "Support in the Estella hybrid comp; comfortable against Cryo criteria.",
+        "zh": "埃特拉混合队的辅助；面对寒冷指标很舒服。",
+        "ja": "エステーラのハイブリッド編成のサポート。寒冷の指標に対して快適。",
+        "ko": "에스텔라 하이브리드 조합의 서포터. 냉기 지표를 상대로 편안합니다."
+      }
+    },
+    "lastrite": {
+      "kind": "carry",
+      "fit": 70,
+      "robust": 55,
+      "tags": {
+        "es": "Cryo burst",
+        "en": "Cryo burst",
+        "zh": "寒冷爆发",
+        "ja": "寒冷バースト",
+        "ko": "냉기 폭발"
+      },
+      "note": {
+        "es": "El mayor burst del juego, pero rotación estricta y muy dependiente de la Ultimate (cuidado con Bent Edges).",
+        "en": "The game's biggest burst, but a strict rotation and very Ultimate-dependent (mind Bent Edges).",
+        "zh": "游戏最大的爆发，但轮转严格且极度依赖终结技（小心折刃）。",
+        "ja": "ゲーム最大のバーストだが、ローテーションが厳しく必殺技への依存が非常に大きい（断刃に注意）。",
+        "ko": "게임 최대의 폭발이지만 로테이션이 엄격하고 궁극기 의존이 매우 큼(부러진 칼날 주의)."
+      }
+    },
+    "xaihi": {
+      "kind": "support",
+      "fit": 68,
+      "robust": 60,
+      "avail": "5",
+      "tags": {
+        "es": "Amplific. criogénico",
+        "en": "Cryo Amp",
+        "jp": "寒冷増幅",
+        "zh": "寒冷增幅",
+        "ja": "寒冷増幅",
+        "ko": "냉기 증폭"
+      },
+      "note": {
+        "es": "Soporte que da Cryo/Nature Amp y Arts Amp al carry controlado. Amplificación pura, encaja con reacción. Accesible (5★).",
+        "en": "Support granting Cryo/Nature Amp and Arts Amp to the controlled carry. Pure amplification, fits reactions. Accessible (5★).",
+        "zh": "为主控主C提供寒冷/自然增幅和法术增幅的辅助。纯放大，适合反应。易得（5★）。",
+        "ja": "操作中のキャリーに寒冷/自然増幅とアーツ増幅を与えるサポート。純粋な増幅で反応に合います。入手しやすい（5★）。",
+        "ko": "조작 중인 캐리에게 냉기/자연 증폭과 아츠 증폭을 주는 서포터. 순수 증폭이라 반응에 맞습니다. 구하기 쉬움(5★)."
+      }
+    },
+    "dapan": {
+      "kind": "support",
+      "fit": 68,
+      "robust": 55,
+      "tags": {
+        "es": "Buffer Vulnerability",
+        "en": "Vulnerability buffer",
+        "zh": "破防增益手",
+        "ja": "クラッシュのバッファー",
+        "ko": "방어 불능 버퍼"
+      },
+      "note": {
+        "es": "Buffer físico de Vulnerability; alimenta a las carries de Crush.",
+        "en": "Physical Vulnerability buffer; feeds Crush carries.",
+        "zh": "物理破防增益手；喂养猛击主C。",
+        "ja": "物理クラッシュのバッファー。猛撃キャリーを養います。",
+        "ko": "물리 방어 불능 버퍼. 강타 캐리를 먹여 살립니다."
+      }
+    },
+    "yvonne": {
+      "kind": "carry",
+      "fit": 66,
+      "robust": 55,
+      "tags": {
+        "es": "Cryo crítico",
+        "en": "Cryo crit",
+        "zh": "寒冷暴击",
+        "ja": "寒冷会心",
+        "ko": "냉기 치명타"
+      },
+      "note": {
+        "es": "Hypercarry de Cryo a crítico, construida alrededor de su Ultimate. Penalizada si llevas Bent Edges.",
+        "en": "Crit-Cryo hypercarry built around her Ultimate. Penalized if you run Bent Edges.",
+        "zh": "围绕终结技构建的暴击寒冷超级主C。选了折刃会被惩罚。",
+        "ja": "必殺技を軸にした会心寒冷ハイパーキャリー。断刃を取るとペナルティ。",
+        "ko": "궁극기를 중심으로 만든 치명타 냉기 하이퍼캐리. 부러진 칼날을 들면 불이익."
+      }
+    },
+    "avywenna": {
+      "kind": "carry",
+      "fit": 66,
+      "robust": 55,
+      "avail": "5",
+      "tags": {
+        "es": "Anti-jefe Electric",
+        "en": "Anti-boss Electric",
+        "zh": "反首领电磁",
+        "ja": "対ボスの電磁",
+        "ko": "보스전 전기"
+      },
+      "note": {
+        "es": "Especialista anti-jefe eléctrico (Thunderlances). Comp de single-target; depende del combo. Accesible (5★).",
+        "en": "Anti-boss Electric specialist (Thunderlances). Single-target comp; combo-reliant. Accessible (5★).",
+        "zh": "反首领电磁专家（雷枪）。单体队伍；依赖连携技。易得（5★）。",
+        "ja": "対ボスの電磁スペシャリスト（雷槍）。単体向けの編成で連携技頼み。入手しやすい（5★）。",
+        "ko": "보스전 전기 전문가(썬더랜스). 단일 대상 조합이며 연계 스킬 의존. 구하기 쉬움(5★)."
+      }
+    },
+    "arclight": {
+      "kind": "carry",
+      "fit": 64,
+      "robust": 55,
+      "avail": "5",
+      "tags": {
+        "es": "Carry Electric",
+        "en": "Electric carry",
+        "zh": "电磁主C",
+        "ja": "電磁キャリー",
+        "ko": "전기 캐리"
+      },
+      "note": {
+        "es": "Carry eléctrica de la comp de Zhuang Fangyi. Accesible (5★).",
+        "en": "Electric carry in the Zhuang Fangyi comp. Accessible (5★).",
+        "zh": "庄方宜队伍里的电磁主C。易得（5★）。",
+        "ja": "ゾアン・ファンイ編成の電磁キャリー。入手しやすい（5★）。",
+        "ko": "장방이 조합의 전기 캐리. 구하기 쉬움(5★)."
+      }
+    },
+    "antal": {
+      "kind": "support",
+      "fit": 62,
+      "robust": 55,
+      "avail": "4",
+      "tags": {
+        "es": "Amp Electric/Heat",
+        "en": "Electric/Heat Amp",
+        "zh": "电磁/灼热增幅",
+        "ja": "電磁/灼熱増幅",
+        "ko": "전기/열기 증폭"
+      },
+      "note": {
+        "es": "Buffer que da Electric/Heat Amp y Susceptibility con Focus. Accesible (4★) y amplifica reacción.",
+        "en": "Buffer granting Electric/Heat Amp and Susceptibility via Focus. Accessible (4★) and amplifies reactions.",
+        "zh": "通过聚焦给予电磁/灼热增幅和脆弱的增益手。易得（4★）且放大反应。",
+        "ja": "フォーカスで電磁/灼熱増幅と脆弱を配るバッファー。入手しやすく（4★）反応を増幅します。",
+        "ko": "포커싱으로 전기/열기 증폭과 취약을 주는 버퍼. 구하기 쉽고(4★) 반응을 증폭합니다."
+      }
+    },
+    "alesh": {
+      "kind": "enabler",
+      "fit": 60,
+      "robust": 55,
+      "avail": "5",
+      "tags": {
+        "es": "Enabler Cryo",
+        "en": "Cryo enabler",
+        "zh": "寒冷附术手",
+        "ja": "寒冷の付術役",
+        "ko": "냉기 인에이블러"
+      },
+      "note": {
+        "es": "Enabler Cryo accesible (5★); aporta ATK al equipo. Pieza de relleno para comps Cryo/Shatter.",
+        "en": "Accessible (5★) Cryo enabler; grants team ATK. Filler piece for Cryo/Shatter comps.",
+        "zh": "易得（5★）的寒冷附术手；给全队攻击力。寒冷/碎冰队的填充位。",
+        "ja": "入手しやすい（5★）寒冷の付術役。チーム攻撃力を配ります。寒冷/粉砕編成の埋め枠。",
+        "ko": "구하기 쉬운(5★) 냉기 인에이블러. 팀 공격력을 줍니다. 냉기/쇄빙 조합의 채움 슬롯."
+      }
+    },
+    "tangtang": {
+      "kind": "enabler",
+      "fit": 52,
+      "robust": 45,
+      "tags": {
+        "es": "CC · ojo Regeneration",
+        "en": "CC · mind Regeneration",
+        "zh": "控制 · 小心愈合",
+        "ja": "制御 · 治癒に注意",
+        "ko": "제어 · 치유 주의"
+      },
+      "note": {
+        "es": "Control de masas, pero su Ultimate reagrupa enemigos: bajo el criterio Regeneration juega EN TU CONTRA. Úsala con cuidado.",
+        "en": "Crowd control, but her Ultimate bunches enemies up: under the Regeneration criterion it plays AGAINST you. Use carefully.",
+        "zh": "控场，但她的终结技会把敌人聚在一起：在愈合指标下反而害你。谨慎使用。",
+        "ja": "群衆制御だが、必殺技が敵を固めてしまう：治癒の指標下では逆効果。慎重に。",
+        "ko": "군중 제어이지만 궁극기가 적을 뭉치게 합니다. 치유 지표 아래에서는 오히려 해가 됩니다. 신중히 쓰세요."
+      }
+    },
+    "zhuangfangyi": {
+      "kind": "carry",
+      "fit": 55,
+      "robust": 40,
+      "tags": {
+        "es": "Carry Battle Skill",
+        "en": "Battle Skill carry",
+        "zh": "战技主C",
+        "ja": "戦技キャリー",
+        "ko": "배틀 스킬 캐리"
+      },
+      "note": {
+        "es": "Carry eléctrica que vive de su Battle Skill — justo lo que castigan los dos Key Criteria. La comp funciona, pero un escalón por debajo del meta de reacción.",
+        "en": "Electric carry that lives off her Battle Skill — exactly what both Key Criteria punish. The comp works, but a notch below the reaction meta.",
+        "zh": "靠战技吃饭的电磁主C——正是两个密钥指标惩罚的对象。队伍能用，但比反应 meta 低一档。",
+        "ja": "戦技で食べている電磁キャリー。まさに 2 つの認証指標が罰するもの。編成は機能するが、反応メタより一段下。",
+        "ko": "배틀 스킬로 먹고사는 전기 캐리. 두 비밀 지표가 벌하는 바로 그것입니다. 조합은 돌아가지만 반응 메타보다 한 단계 아래."
+      }
+    },
+    "catcher": {
+      "kind": "enabler",
+      "fit": 52,
+      "robust": 50,
+      "avail": "5",
+      "tags": {
+        "es": "Enabler de nicho",
+        "en": "Niche enabler",
+        "zh": "小众附术手",
+        "ja": "ニッチな付術役",
+        "ko": "틈새 인에이블러"
+      },
+      "note": {
+        "es": "Enabler físico de nicho; no aparece en las comps tope de esta temporada.",
+        "en": "Niche physical enabler; doesn't show up in this season's top comps.",
+        "zh": "小众的物理附术手；不出现在本赛季的顶级队伍里。",
+        "ja": "ニッチな物理の付術役。今シーズンの上位編成には現れません。",
+        "ko": "틈새 물리 인에이블러. 이번 시즌 상위 조합에는 나오지 않습니다."
+      }
+    },
+    "fluorite": {
+      "kind": "support",
+      "fit": 50,
+      "robust": 48,
+      "avail": "4",
+      "tags": {
+        "es": "Buffer de nicho",
+        "en": "Niche buffer",
+        "zh": "小众增益手",
+        "ja": "ニッチなバッファー",
+        "ko": "틈새 버퍼"
+      },
+      "note": {
+        "es": "Buffer Nature de nicho (anti-Slow); fuera del meta de este evento aunque sea accesible (4★).",
+        "en": "Niche Nature buffer (anti-Slow); outside this event's meta even if accessible (4★).",
+        "zh": "小众的自然增益手（抗缓速）；即便易得（4★），也在本活动的 meta 之外。",
+        "ja": "ニッチな自然バッファー（対スロー）。入手しやすくても（4★）このイベントのメタの外。",
+        "ko": "틈새 자연 버퍼(감속 대응). 구하기 쉬워도(4★) 이 이벤트의 메타 밖입니다."
+      }
+    }
   }
 }

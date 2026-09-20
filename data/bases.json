@@ -1,14 +1,43 @@
 {
-  "versions": ["v1.3", "v1.2", "v1.1", "v1.0"],
+  "versions": [
+    "v1.3",
+    "v1.2",
+    "v1.1",
+    "v1.0"
+  ],
   "maps": [
-    { "id": "wuling",  "name": "Wuling",   "icon": "<svg xmlns='http://www.w3.org/2000/svg' fill='currentColor' viewBox='0 0 24 24'><path d='M12 15.786c6.628 0 12 1.151 12 2.571s-5.372 2.572-12 2.572c-6.627 0-12-1.151-12-2.572 0-.873 2.034-1.645 5.143-2.11v2.968h4V15.86A55 55 0 0 1 12 15.786m-2.857.074c-1.456.076-2.807.209-4 .387v-4.461h4zM5.143 3.214h4v7.429h-4zM11.429 2.071h4V9.5h-4z'/><path d='M11.429 10.643h4v7.429h-4zM16 8.357l3.429-2.286V8.93L16 11.214z'/></svg>" },
-    { "id": "valley4", "name": "Valley 4", "icon": "<svg xmlns='http://www.w3.org/2000/svg' fill='currentColor' viewBox='0 0 24 24'><path d='M12.679 12c4.51 0 8.556 1.98 11.319 5.118H1.359A15.04 15.04 0 0 1 12.68 12M7.104 8.773a9.64 9.64 0 0 1 6.822 2.819H.28a9.64 9.64 0 0 1 6.823-2.819'/></svg>" },
-    { "id": "talos",   "name": "Talos",    "icon": "" },
-    { "id": "redtide", "name": "Red Tide", "icon": "" }
+    {
+      "id": "wuling",
+      "name": "Wuling",
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' fill='currentColor' viewBox='0 0 24 24'><path d='M12 15.786c6.628 0 12 1.151 12 2.571s-5.372 2.572-12 2.572c-6.627 0-12-1.151-12-2.572 0-.873 2.034-1.645 5.143-2.11v2.968h4V15.86A55 55 0 0 1 12 15.786m-2.857.074c-1.456.076-2.807.209-4 .387v-4.461h4zM5.143 3.214h4v7.429h-4zM11.429 2.071h4V9.5h-4z'/><path d='M11.429 10.643h4v7.429h-4zM16 8.357l3.429-2.286V8.93L16 11.214z'/></svg>"
+    },
+    {
+      "id": "valley4",
+      "name": "Valley 4",
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' fill='currentColor' viewBox='0 0 24 24'><path d='M12.679 12c4.51 0 8.556 1.98 11.319 5.118H1.359A15.04 15.04 0 0 1 12.68 12M7.104 8.773a9.64 9.64 0 0 1 6.822 2.819H.28a9.64 9.64 0 0 1 6.823-2.819'/></svg>"
+    },
+    {
+      "id": "talos",
+      "name": "Talos",
+      "icon": ""
+    },
+    {
+      "id": "redtide",
+      "name": "Red Tide",
+      "icon": ""
+    }
   ],
   "regions": [
-    { "id": "asia", "name": "Asia",  "flag": "" },
-    { "id": "naeu", "name": "NA/EU", "flag": "" }
+    {
+      "id": "asia",
+      "name": "Asia",
+      "flag": ""
+    },
+    {
+      "id": "naeu",
+      "name": "NA/EU",
+      "flag": ""
+    }
   ],
   "bases": [
     {
@@ -17,57 +46,280 @@
       "name": "Wuling Main",
       "mapId": "wuling",
       "version": "v1.3",
-      "status": { "es": "Verificado v1.3", "en": "Verified v1.3" },
+      "status": {
+        "es": "Verificado v1.3",
+        "en": "Verified v1.3",
+        "zh": "已验证 v1.3",
+        "ja": "検証済み v1.3",
+        "ko": "검증됨 v1.3"
+      },
       "credits": "KyoStinV",
       "videoUrl": "",
       "preview": null,
       "desc": {
         "es": "Mega base principal de Wuling en v1.3 (Max Profit). Ocho disposiciones equivalentes — elige la que mejor encaje en el espacio disponible de tu mapa. Estos códigos son para quien arma esta línea de bases por primera vez; si ya tenías la versión anterior y no quieres reconstruir todo desde cero, usa el set 1.3 Upgrade. Los códigos están pensados para seguirse junto con el video del autor.",
-        "en": "Main Wuling mega base on v1.3 (Max Profit). Eight equivalent layouts — pick whichever best fits the available space on your map. These codes are for players building this base line for the first time; if you already had the previous version and don't want to rebuild from scratch, use the 1.3 Upgrade set instead. The codes are meant to be followed along with the author's video."
+        "en": "Main Wuling mega base on v1.3 (Max Profit). Eight equivalent layouts — pick whichever best fits the available space on your map. These codes are for players building this base line for the first time; if you already had the previous version and don't want to rebuild from scratch, use the 1.3 Upgrade set instead. The codes are meant to be followed along with the author's video.",
+        "zh": "v1.3 武陵主超级基地（最大收益）。八种等价布局——选最适合你地图可用空间的那一种。这些代码面向首次搭建这条基地线的玩家；如果你已有上一版本、不想从零重建，请改用 1.3 升级套装。代码应配合作者的视频使用。",
+        "ja": "v1.3 の武陵メイン・メガ基地（最大利益）。同等のレイアウトが 8 つあるので、マップの空きに最も合うものを選んでください。これらのコードはこの基地ラインを初めて建てる人向けです。前のバージョンをすでに持っていて一から建て直したくない場合は、代わりに 1.3 アップグレードセットを使ってください。コードは作者の動画と一緒に追う前提です。",
+        "ko": "v1.3 무릉 메인 메가 기지(최대 수익). 동등한 배치 여덟 가지 중 맵의 빈 공간에 가장 맞는 것을 고르세요. 이 코드는 이 기지 라인을 처음 짓는 플레이어용입니다. 이전 버전이 이미 있고 처음부터 다시 짓고 싶지 않다면 1.3 업그레이드 세트를 대신 쓰세요. 코드는 작성자의 영상과 함께 따라가도록 만들어졌습니다."
       },
       "production": {
         "interactive": true,
         "note": {
           "es": "Mega base de máximo beneficio. Fabrica a la vez hasta 3 componentes (Xiranite, Cuprium, Hetonite) que puedes encender o apagar; cada uno baja un poco la producción base pero te entrega ese componente. Sin ninguno encendido, el bills/h es máximo. El estado por defecto del juego tiene los 3 encendidos.",
-          "en": "Max-profit mega base. Crafts up to 3 components at once (Xiranite, Cuprium, Hetonite) that you can toggle on or off; each one slightly lowers base output but yields that component. With none on, bills/h is highest. The game's default state has all 3 on."
+          "en": "Max-profit mega base. Crafts up to 3 components at once (Xiranite, Cuprium, Hetonite) that you can toggle on or off; each one slightly lowers base output but yields that component. With none on, bills/h is highest. The game's default state has all 3 on.",
+          "zh": "最大收益的超级基地。可同时制作最多 3 种装备原件（息壤、赤铜、赫铜），可分别开关；每开一种会略微降低基础产出，但能得到该原件。全部关闭时调度券/小时最高。游戏默认状态是 3 种全开。",
+          "ja": "最大利益のメガ基地。最大 3 種の装備部品（息壌、赤銅、緋銅）を同時に製造でき、それぞれオン/オフ可能。1 つオンにするごとに基礎産出はわずかに下がりますが、その部品が手に入ります。すべてオフなら取引券/時が最高。ゲームの初期状態は 3 つともオンです。",
+          "ko": "최대 수익 메가 기지. 장비 부품 최대 3종(식양, 적동, 혁동)을 동시에 제작할 수 있고 각각 켜고 끌 수 있습니다. 하나를 켤 때마다 기본 산출이 조금 줄지만 그 부품이 나옵니다. 전부 끄면 관리권/시간이 가장 높습니다. 게임 기본 상태는 3종 모두 켜짐입니다."
         },
         "consumes": [
-          { "item": { "es": "Batería de CS", "en": "SC Battery", "jp": "中容量バッテリー", "zh": "中容电池" }, "perMin": 4.5 }
+          {
+            "item": {
+              "es": "Batería de CS",
+              "en": "SC Battery",
+              "zh": "中容电池",
+              "ja": "中容量バッテリー",
+              "ko": "중용량 배터리"
+            },
+            "perMin": 4.5
+          }
         ],
         "outpostsBillsHour": 63900,
         "componentPerMin": 0.5,
         "components": [
-          { "key": "xiranite", "item": { "es": "Componente de Xiranita", "en": "Xiranite Component", "jp": "息壌装備部品", "zh": "息壤装备原件" } },
-          { "key": "cuprium",  "item": { "es": "Componente de cuprio", "en": "Cuprium Component", "jp": "赤銅装備部品", "zh": "赤铜装备原件" } },
-          { "key": "hetonite", "item": { "es": "Componente de hetonita", "en": "Hetonite Component", "jp": "緋銅装備部品", "zh": "赫铜装备原件" } }
+          {
+            "key": "xiranite",
+            "item": {
+              "es": "Componente de Xiranita",
+              "en": "Xiranite Component",
+              "zh": "息壤装备原件",
+              "ja": "息壌装備部品",
+              "ko": "식양 장비 부품"
+            }
+          },
+          {
+            "key": "cuprium",
+            "item": {
+              "es": "Componente de cuprio",
+              "en": "Cuprium Component",
+              "zh": "赤铜装备原件",
+              "ja": "赤銅装備部品",
+              "ko": "적동 장비 부품"
+            }
+          },
+          {
+            "key": "hetonite",
+            "item": {
+              "es": "Componente de hetonita",
+              "en": "Hetonite Component",
+              "zh": "赫铜装备原件",
+              "ja": "緋銅装備部品",
+              "ko": "혁동 장비 부품"
+            }
+          }
         ],
         "baseOutputs": [
-          { "item": { "es": "Batería de CS de Wuling", "en": "SC Wuling Battery", "jp": "中容量武陵バッテリー", "zh": "中容武陵电池" } },
-          { "item": { "es": "Xiranita pesada", "en": "Heavy Xiranite", "jp": "重息壌", "zh": "重息壤" } },
-          { "item": { "es": "Yazhen Syringe A",  "en": "Yazhen Syringe A"  } },
-          { "item": { "es": "Pieza de hetonita", "en": "Hetonite Part", "jp": "緋銅部品", "zh": "赫铜零件" } }
+          {
+            "item": {
+              "es": "Batería de CS de Wuling",
+              "en": "SC Wuling Battery",
+              "zh": "中容武陵电池",
+              "ja": "中容量武陵バッテリー",
+              "ko": "중용량 무릉 배터리"
+            }
+          },
+          {
+            "item": {
+              "es": "Xiranita pesada",
+              "en": "Heavy Xiranite",
+              "zh": "重息壤",
+              "ja": "重息壌",
+              "ko": "중식양"
+            }
+          },
+          {
+            "item": {
+              "es": "Yazhen Syringe A",
+              "en": "Yazhen Syringe A",
+              "zh": "优质芽针针剂",
+              "ja": "芽針注射剤Ⅱ",
+              "ko": "고급 야침 주사약"
+            }
+          },
+          {
+            "item": {
+              "es": "Pieza de hetonita",
+              "en": "Hetonite Part",
+              "zh": "赫铜零件",
+              "ja": "緋銅部品",
+              "ko": "혁동 부품"
+            }
+          }
         ],
-        "defaultOn": ["xiranite", "cuprium", "hetonite"],
+        "defaultOn": [
+          "xiranite",
+          "cuprium",
+          "hetonite"
+        ],
         "modes": [
-          { "on": [],                                "base": [14.5, 12, 6,    6], "billsHourly": 77040 },
-          { "on": ["xiranite"],                      "base": [13.9, 12, 6,    6], "billsHourly": 75096 },
-          { "on": ["cuprium"],                       "base": [13.9, 12, 5.75, 6], "billsHourly": 74766 },
-          { "on": ["hetonite"],                      "base": [14.5, 11, 6,    5], "billsHourly": 72540 },
-          { "on": ["xiranite", "cuprium"],           "base": [13.3, 12, 5.75, 6], "billsHourly": 72822 },
-          { "on": ["xiranite", "hetonite"],          "base": [13.9, 11, 6,    5], "billsHourly": 70596 },
-          { "on": ["cuprium", "hetonite"],           "base": [13.9, 11, 5.75, 5], "billsHourly": 70266 },
-          { "on": ["xiranite", "cuprium", "hetonite"], "base": [13.3, 11, 5.75, 5], "billsHourly": 68322 }
+          {
+            "on": [],
+            "base": [
+              14.5,
+              12,
+              6,
+              6
+            ],
+            "billsHourly": 77040
+          },
+          {
+            "on": [
+              "xiranite"
+            ],
+            "base": [
+              13.9,
+              12,
+              6,
+              6
+            ],
+            "billsHourly": 75096
+          },
+          {
+            "on": [
+              "cuprium"
+            ],
+            "base": [
+              13.9,
+              12,
+              5.75,
+              6
+            ],
+            "billsHourly": 74766
+          },
+          {
+            "on": [
+              "hetonite"
+            ],
+            "base": [
+              14.5,
+              11,
+              6,
+              5
+            ],
+            "billsHourly": 72540
+          },
+          {
+            "on": [
+              "xiranite",
+              "cuprium"
+            ],
+            "base": [
+              13.3,
+              12,
+              5.75,
+              6
+            ],
+            "billsHourly": 72822
+          },
+          {
+            "on": [
+              "xiranite",
+              "hetonite"
+            ],
+            "base": [
+              13.9,
+              11,
+              6,
+              5
+            ],
+            "billsHourly": 70596
+          },
+          {
+            "on": [
+              "cuprium",
+              "hetonite"
+            ],
+            "base": [
+              13.9,
+              11,
+              5.75,
+              5
+            ],
+            "billsHourly": 70266
+          },
+          {
+            "on": [
+              "xiranite",
+              "cuprium",
+              "hetonite"
+            ],
+            "base": [
+              13.3,
+              11,
+              5.75,
+              5
+            ],
+            "billsHourly": 68322
+          }
         ]
       },
       "layouts": [
-        { "label": "Wuling 1", "codes": { "asia": "EFO01Ue3683812O2A76a8", "naeu": "EFO016i1a42ee07o4Oe3e" } },
-        { "label": "Wuling 2", "codes": { "asia": "EFO013o72e7e49aUe0E79", "naeu": "EFO01eE7U8o22A45EoEi8" } },
-        { "label": "Wuling 3", "codes": { "asia": "EFO01194o2428iUoO3aO7", "naeu": "EFO0172UA3844i510O2Ai" } },
-        { "label": "Wuling 4", "codes": { "asia": "EFO017i89o8o6E582O0Ai", "naeu": "EFO010U96EOAA1i3OE179" } },
-        { "label": "Wuling 5", "codes": { "asia": "EFO01u8U47U7560euAoOU", "naeu": "EFO01eE7U8o22A4iioui8" } },
-        { "label": "Wuling 6", "codes": { "asia": "EFO017i89o8o6E589O2Ai", "naeu": "EFO01eE7U8o22A458oui8" } },
-        { "label": "Wuling 7", "codes": { "asia": "EFO013o72e7e49a980579", "naeu": "EFO016i1a42ee07oaO23e" } },
-        { "label": "Wuling 8", "codes": { "asia": "EFO017i89o8o6E587O0Ai", "naeu": "EFO011ea054779U7U3aO7" } }
+        {
+          "label": "Wuling 1",
+          "codes": {
+            "asia": "EFO01Ue3683812O2A76a8",
+            "naeu": "EFO016i1a42ee07o4Oe3e"
+          }
+        },
+        {
+          "label": "Wuling 2",
+          "codes": {
+            "asia": "EFO013o72e7e49aUe0E79",
+            "naeu": "EFO01eE7U8o22A45EoEi8"
+          }
+        },
+        {
+          "label": "Wuling 3",
+          "codes": {
+            "asia": "EFO01194o2428iUoO3aO7",
+            "naeu": "EFO0172UA3844i510O2Ai"
+          }
+        },
+        {
+          "label": "Wuling 4",
+          "codes": {
+            "asia": "EFO017i89o8o6E582O0Ai",
+            "naeu": "EFO010U96EOAA1i3OE179"
+          }
+        },
+        {
+          "label": "Wuling 5",
+          "codes": {
+            "asia": "EFO01u8U47U7560euAoOU",
+            "naeu": "EFO01eE7U8o22A4iioui8"
+          }
+        },
+        {
+          "label": "Wuling 6",
+          "codes": {
+            "asia": "EFO017i89o8o6E589O2Ai",
+            "naeu": "EFO01eE7U8o22A458oui8"
+          }
+        },
+        {
+          "label": "Wuling 7",
+          "codes": {
+            "asia": "EFO013o72e7e49a980579",
+            "naeu": "EFO016i1a42ee07oaO23e"
+          }
+        },
+        {
+          "label": "Wuling 8",
+          "codes": {
+            "asia": "EFO017i89o8o6E587O0Ai",
+            "naeu": "EFO011ea054779U7U3aO7"
+          }
+        }
       ]
     },
     {
@@ -76,18 +328,45 @@
       "name": "1.3 Upgrade",
       "mapId": "wuling",
       "version": "v1.3",
-      "status": { "es": "Verificado v1.3", "en": "Verified v1.3" },
+      "status": {
+        "es": "Verificado v1.3",
+        "en": "Verified v1.3",
+        "zh": "已验证 v1.3",
+        "ja": "検証済み v1.3",
+        "ko": "검증됨 v1.3"
+      },
       "credits": "KyoStinV",
       "videoUrl": "",
       "preview": null,
       "desc": {
         "es": "Set de mejora para quien YA tenía la línea de bases anterior y no quiere reconstruir todo desde cero. En lugar de armar la mega base completa, estos códigos actualizan lo que ya tienes a v1.3. Pensado 100% para seguirse con el video — el autor explica en detalle qué reemplazar y en qué orden.",
-        "en": "Upgrade set for players who already had the previous base line and don't want to rebuild everything from scratch. Instead of building the full mega base, these codes update what you already have to v1.3. Meant to be followed entirely along with the video — the author explains in detail what to replace and in what order."
+        "en": "Upgrade set for players who already had the previous base line and don't want to rebuild everything from scratch. Instead of building the full mega base, these codes update what you already have to v1.3. Meant to be followed entirely along with the video — the author explains in detail what to replace and in what order.",
+        "zh": "面向已有上一代基地线、不想全部从零重建的玩家的升级套装。这些代码不是重建整个超级基地，而是把你已有的更新到 v1.3。需要完全配合视频使用——作者详细说明了替换什么、按什么顺序。",
+        "ja": "前の基地ラインをすでに持っていて、すべてを一から建て直したくない人向けのアップグレードセット。メガ基地を丸ごと建てる代わりに、今あるものを v1.3 に更新するコードです。動画と完全に一緒に追う前提で、作者が何をどの順で置き換えるかを詳しく説明しています。",
+        "ko": "이전 기지 라인이 이미 있고 전부 처음부터 다시 짓고 싶지 않은 플레이어용 업그레이드 세트. 메가 기지 전체를 짓는 대신 이미 있는 것을 v1.3으로 갱신하는 코드입니다. 영상과 완전히 함께 따라가야 하며, 작성자가 무엇을 어떤 순서로 교체할지 자세히 설명합니다."
       },
       "layouts": [
-        { "label": "1.3 Upgrade 1", "codes": { "asia": "EFO01a6584543eAUeoi5e", "naeu": "EFO010U96EOAA1i72E379" } },
-        { "label": "1.3 Upgrade 2", "codes": { "asia": "EFO01a6584543eAU5ou5e", "naeu": "EFO01U4Aiu355eO9571a8" } },
-        { "label": "1.3 Upgrade 3", "codes": { "asia": "EFO01u8U47U756038AoOU", "naeu": "EFO01A5i4639OaE191eO" } }
+        {
+          "label": "1.3 Upgrade 1",
+          "codes": {
+            "asia": "EFO01a6584543eAUeoi5e",
+            "naeu": "EFO010U96EOAA1i72E379"
+          }
+        },
+        {
+          "label": "1.3 Upgrade 2",
+          "codes": {
+            "asia": "EFO01a6584543eAU5ou5e",
+            "naeu": "EFO01U4Aiu355eO9571a8"
+          }
+        },
+        {
+          "label": "1.3 Upgrade 3",
+          "codes": {
+            "asia": "EFO01u8U47U756038AoOU",
+            "naeu": "EFO01A5i4639OaE191eO"
+          }
+        }
       ]
     },
     {
@@ -96,17 +375,38 @@
       "name": "Jingyu Valley SubAIC",
       "mapId": "wuling",
       "version": "v1.3",
-      "status": { "es": "Verificado v1.3", "en": "Verified v1.3" },
+      "status": {
+        "es": "Verificado v1.3",
+        "en": "Verified v1.3",
+        "zh": "已验证 v1.3",
+        "ja": "検証済み v1.3",
+        "ko": "검증됨 v1.3"
+      },
       "credits": "KyoStinV",
       "videoUrl": "",
       "preview": null,
       "desc": {
         "es": "Sub AIC del mapa Jingyu Valley (JV) en v1.3. Se arma con dos piezas que van juntas en el mismo mapa: una arriba (Top) y otra abajo (Bottom). Pega ambos códigos en el mapa de JV. Se conecta a la mega base principal para extender la producción. Jingyu Valley y Marker Stone son mapas distintos dentro de Wuling — cada Sub AIC es específica de su zona.",
-        "en": "Sub AIC for the Jingyu Valley (JV) map on v1.3. Built as two pieces that go together on the same map: one at the top and one at the bottom. Paste both codes on the JV map. Connects to the main mega base to extend production. Jingyu Valley and Marker Stone are different maps inside Wuling — each Sub AIC is specific to its zone."
+        "en": "Sub AIC for the Jingyu Valley (JV) map on v1.3. Built as two pieces that go together on the same map: one at the top and one at the bottom. Paste both codes on the JV map. Connects to the main mega base to extend production. Jingyu Valley and Marker Stone are different maps inside Wuling — each Sub AIC is specific to its zone.",
+        "zh": "v1.3 景玉谷（JV）地图的副集成工业。由同一地图上配套的两部分组成：一部分在上方，一部分在下方。两个代码都粘贴在 JV 地图上。连接主超级基地以扩展产能。景玉谷和首墩是武陵内的不同地图——每个副集成工业都只属于自己的区域。",
+        "ja": "v1.3 の景玉谷（JV）マップ用サブ集成工業。同じマップ上で組み合わせる 2 つのパーツ（上と下）で構成。両方のコードを JV マップに貼り付けます。メインのメガ基地に接続して生産を拡張。景玉谷と首礎は武陵内の別マップで、各サブ集成工業はそのエリア専用です。",
+        "ko": "v1.3 경옥 골짜기(JV) 맵용 서브 통합 공업. 같은 맵에서 함께 쓰는 두 조각(위와 아래)으로 만들어졌습니다. 두 코드를 모두 JV 맵에 붙여 넣으세요. 메인 메가 기지에 연결해 생산을 확장합니다. 경옥 골짜기와 수돈은 무릉 안의 서로 다른 맵이며, 각 서브 통합 공업은 자기 구역 전용입니다."
       },
       "layouts": [
-        { "label": "JV Top",    "codes": { "asia": "EFO01u8U47U756036AEOU", "naeu": "EFO0172UA3844i516O0Ai" } },
-        { "label": "JV Bottom", "codes": { "asia": "EFO01521e6167ou1ae7oe", "naeu": "EFO01eE7U8o22A45eo9i8" } }
+        {
+          "label": "JV Top",
+          "codes": {
+            "asia": "EFO01u8U47U756036AEOU",
+            "naeu": "EFO0172UA3844i516O0Ai"
+          }
+        },
+        {
+          "label": "JV Bottom",
+          "codes": {
+            "asia": "EFO01521e6167ou1ae7oe",
+            "naeu": "EFO01eE7U8o22A45eo9i8"
+          }
+        }
       ]
     },
     {
@@ -115,17 +415,38 @@
       "name": "Marker Stone SubAIC",
       "mapId": "wuling",
       "version": "v1.3",
-      "status": { "es": "Verificado v1.3", "en": "Verified v1.3" },
+      "status": {
+        "es": "Verificado v1.3",
+        "en": "Verified v1.3",
+        "zh": "已验证 v1.3",
+        "ja": "検証済み v1.3",
+        "ko": "검증됨 v1.3"
+      },
       "credits": "KyoStinV",
       "videoUrl": "",
       "preview": null,
       "desc": {
         "es": "Sub AIC del mapa Marker Stone (MS) en v1.3. Se arma con dos piezas que van juntas en el mismo mapa: una arriba (Top) y otra abajo (Bottom). Pega ambos códigos en el mapa de MS. Se conecta a la mega base principal para extender la producción. Marker Stone y Jingyu Valley son mapas distintos dentro de Wuling — cada Sub AIC es específica de su zona.",
-        "en": "Sub AIC for the Marker Stone (MS) map on v1.3. Built as two pieces that go together on the same map: one at the top and one at the bottom. Paste both codes on the MS map. Connects to the main mega base to extend production. Marker Stone and Jingyu Valley are different maps inside Wuling — each Sub AIC is specific to its zone."
+        "en": "Sub AIC for the Marker Stone (MS) map on v1.3. Built as two pieces that go together on the same map: one at the top and one at the bottom. Paste both codes on the MS map. Connects to the main mega base to extend production. Marker Stone and Jingyu Valley are different maps inside Wuling — each Sub AIC is specific to its zone.",
+        "zh": "v1.3 首墩（MS）地图的副集成工业。由同一地图上配套的两部分组成：一部分在上方，一部分在下方。两个代码都粘贴在 MS 地图上。连接主超级基地以扩展产能。首墩和景玉谷是武陵内的不同地图——每个副集成工业都只属于自己的区域。",
+        "ja": "v1.3 の首礎（MS）マップ用サブ集成工業。同じマップ上で組み合わせる 2 つのパーツ（上と下）で構成。両方のコードを MS マップに貼り付けます。メインのメガ基地に接続して生産を拡張。首礎と景玉谷は武陵内の別マップで、各サブ集成工業はそのエリア専用です。",
+        "ko": "v1.3 수돈(MS) 맵용 서브 통합 공업. 같은 맵에서 함께 쓰는 두 조각(위와 아래)으로 만들어졌습니다. 두 코드를 모두 MS 맵에 붙여 넣으세요. 메인 메가 기지에 연결해 생산을 확장합니다. 수돈과 경옥 골짜기는 무릉 안의 서로 다른 맵이며, 각 서브 통합 공업은 자기 구역 전용입니다."
       },
       "layouts": [
-        { "label": "MS Top",    "codes": { "asia": "EFO01Ue3683812OOO76a8", "naeu": "EFO01U4Aiu355eO9E71a8" } },
-        { "label": "MS Bottom", "codes": { "asia": "EFO01a6584543eAUuoe5e", "naeu": "EFO01iOe51u6E02A72U4" } }
+        {
+          "label": "MS Top",
+          "codes": {
+            "asia": "EFO01Ue3683812OOO76a8",
+            "naeu": "EFO01U4Aiu355eO9E71a8"
+          }
+        },
+        {
+          "label": "MS Bottom",
+          "codes": {
+            "asia": "EFO01a6584543eAUuoe5e",
+            "naeu": "EFO01iOe51u6E02A72U4"
+          }
+        }
       ]
     },
     {
@@ -134,16 +455,31 @@
       "name": "Temp Cuprium parts",
       "mapId": "wuling",
       "version": "v1.3",
-      "status": { "es": "Verificado v1.3", "en": "Verified v1.3" },
+      "status": {
+        "es": "Verificado v1.3",
+        "en": "Verified v1.3",
+        "zh": "已验证 v1.3",
+        "ja": "検証済み v1.3",
+        "ko": "검증됨 v1.3"
+      },
       "credits": "KyoStinV",
       "videoUrl": "",
       "preview": null,
       "desc": {
         "es": "Base temporal especializada en Cuprium parts para Wuling v1.3. Móntala solo cuando necesites farmear este material rápido y desmóntala después.",
-        "en": "Temporary base focused on Cuprium parts for Wuling v1.3. Set it up only when you need to farm this material fast, then dismantle it."
+        "en": "Temporary base focused on Cuprium parts for Wuling v1.3. Set it up only when you need to farm this material fast, then dismantle it.",
+        "zh": "v1.3 武陵专注赤铜零件的临时基地。只在需要快速刷这种材料时搭建，然后拆除。",
+        "ja": "v1.3 武陵の赤銅部品に特化した一時基地。この素材を急いで集めたいときだけ建てて、その後解体します。",
+        "ko": "v1.3 무릉의 적동 부품 전용 임시 기지. 이 재료를 빨리 모아야 할 때만 짓고 그 뒤 해체하세요."
       },
       "layouts": [
-        { "label": "Layout 1", "codes": { "asia": "EFO013o72e7e49a60579", "naeu": "EFO014o5O1688E3i7E81A" } }
+        {
+          "label": "Layout 1",
+          "codes": {
+            "asia": "EFO013o72e7e49a60579",
+            "naeu": "EFO014o5O1688E3i7E81A"
+          }
+        }
       ]
     },
     {
@@ -152,16 +488,31 @@
       "name": "Temp Xiranite",
       "mapId": "wuling",
       "version": "v1.3",
-      "status": { "es": "Verificado v1.3", "en": "Verified v1.3" },
+      "status": {
+        "es": "Verificado v1.3",
+        "en": "Verified v1.3",
+        "zh": "已验证 v1.3",
+        "ja": "検証済み v1.3",
+        "ko": "검증됨 v1.3"
+      },
       "credits": "KyoStinV",
       "videoUrl": "",
       "preview": null,
       "desc": {
         "es": "Base temporal especializada en Xiranite para Wuling v1.3. Móntala solo cuando necesites farmear este material rápido y desmóntala después.",
-        "en": "Temporary base focused on Xiranite for Wuling v1.3. Set it up only when you need to farm this material fast, then dismantle it."
+        "en": "Temporary base focused on Xiranite for Wuling v1.3. Set it up only when you need to farm this material fast, then dismantle it.",
+        "zh": "v1.3 武陵专注息壤的临时基地。只在需要快速刷这种材料时搭建，然后拆除。",
+        "ja": "v1.3 武陵の息壌に特化した一時基地。この素材を急いで集めたいときだけ建てて、その後解体します。",
+        "ko": "v1.3 무릉의 식양 전용 임시 기지. 이 재료를 빨리 모아야 할 때만 짓고 그 뒤 해체하세요."
       },
       "layouts": [
-        { "label": "Layout 1", "codes": { "asia": "EFO01a6589eao1AU5ou5e", "naeu": "EFO01A5ie90Ou3Eee91eO" } }
+        {
+          "label": "Layout 1",
+          "codes": {
+            "asia": "EFO01a6589eao1AU5ou5e",
+            "naeu": "EFO01A5ie90Ou3Eee91eO"
+          }
+        }
       ]
     },
     {
@@ -170,40 +521,164 @@
       "name": "Wuling Main",
       "mapId": "wuling",
       "version": "v1.2",
-      "status": { "es": "Verificado v1.2", "en": "Verified v1.2" },
+      "status": {
+        "es": "Verificado v1.2",
+        "en": "Verified v1.2",
+        "zh": "已验证 v1.2",
+        "ja": "検証済み v1.2",
+        "ko": "검증됨 v1.2"
+      },
       "credits": "KyoStinV",
       "videoUrl": "",
       "preview": null,
       "desc": {
         "es": "Base principal recomendada. Genera los 7 materiales que necesitas para fabricar equipo (componentes, partes y baterías) gastando solo 3 SC Batteries por minuto. Las 6 disposiciones tienen exactamente la misma producción — elige la que mejor encaje en el espacio disponible de tu mapa.",
-        "en": "Recommended main base. Produces the 7 materials needed to craft gear (components, parts and batteries) while spending only 3 SC Batteries per minute. The 6 layouts share the exact same production — pick whichever best fits the available space on your map."
+        "en": "Recommended main base. Produces the 7 materials needed to craft gear (components, parts and batteries) while spending only 3 SC Batteries per minute. The 6 layouts share the exact same production — pick whichever best fits the available space on your map.",
+        "zh": "推荐的主基地。生产制作装备所需的 7 种材料（原件、零件和电池），每分钟只消耗 3 个中容电池。6 种布局产能完全相同——选最适合你地图可用空间的那一种。",
+        "ja": "おすすめのメイン基地。装備製造に必要な 7 種の素材（部品、パーツ、バッテリー）を、毎分わずか 3 個の中容量バッテリーで生産します。6 つのレイアウトは生産がまったく同じなので、マップの空きに最も合うものを選んでください。",
+        "ko": "추천 메인 기지. 장비 제작에 필요한 7가지 재료(부품, 파츠, 배터리)를 분당 중용량 배터리 3개만 쓰며 생산합니다. 6가지 배치는 생산이 완전히 같으니 맵의 빈 공간에 가장 맞는 것을 고르세요."
       },
       "production": {
         "billsHourly": 47640,
         "note": {
           "es": "Configuración eficiente — produce todos los materiales que necesitas para fabricar equipo.",
-          "en": "Efficient setup — produces every material you need to craft gear."
+          "en": "Efficient setup — produces every material you need to craft gear.",
+          "zh": "高效配置——生产制作装备所需的全部材料。",
+          "ja": "効率的な構成。装備製造に必要な素材をすべて生産します。",
+          "ko": "효율적인 구성. 장비 제작에 필요한 모든 재료를 생산합니다."
         },
         "consumes": [
-          { "item": { "es": "Batería de CS", "en": "SC Battery", "jp": "中容量バッテリー", "zh": "中容电池" }, "perMin": 3 }
+          {
+            "item": {
+              "es": "Batería de CS",
+              "en": "SC Battery",
+              "zh": "中容电池",
+              "ja": "中容量バッテリー",
+              "ko": "중용량 배터리"
+            },
+            "perMin": 3
+          }
         ],
         "outputs": [
-          { "item": { "es": "Batería de CS de Wuling", "en": "SC Wuling Battery", "jp": "中容量武陵バッテリー", "zh": "中容武陵电池" }, "perMin": 13,    "billsHour": 32400 },
-          { "item": { "es": "Xiranita pesada", "en": "Heavy Xiranite", "jp": "重息壌", "zh": "重息壤" }, "perMin": 4.5,   "billsHour": 7290 },
-          { "item": { "es": "Pieza de hetonita", "en": "Hetonite Part", "jp": "緋銅部品", "zh": "赫铜零件" }, "perMin": 1.5,   "billsHour": 4320 },
-          { "item": { "es": "Yazhen Syringe A",   "en": "Yazhen Syringe A"   }, "perMin": 0.75,  "billsHour": 3630 },
-          { "item": { "es": "Componente de Xiranita", "en": "Xiranite Component", "jp": "息壌装備部品", "zh": "息壤装备原件" }, "perMin": 0.5 },
-          { "item": { "es": "Componente de cuprio", "en": "Cuprium Component", "jp": "赤銅装備部品", "zh": "赤铜装备原件" }, "perMin": 0.5 },
-          { "item": { "es": "Componente de hetonita", "en": "Hetonite Component", "jp": "緋銅装備部品", "zh": "赫铜装备原件" }, "perMin": 0.75 }
+          {
+            "item": {
+              "es": "Batería de CS de Wuling",
+              "en": "SC Wuling Battery",
+              "zh": "中容武陵电池",
+              "ja": "中容量武陵バッテリー",
+              "ko": "중용량 무릉 배터리"
+            },
+            "perMin": 13,
+            "billsHour": 32400
+          },
+          {
+            "item": {
+              "es": "Xiranita pesada",
+              "en": "Heavy Xiranite",
+              "zh": "重息壤",
+              "ja": "重息壌",
+              "ko": "중식양"
+            },
+            "perMin": 4.5,
+            "billsHour": 7290
+          },
+          {
+            "item": {
+              "es": "Pieza de hetonita",
+              "en": "Hetonite Part",
+              "zh": "赫铜零件",
+              "ja": "緋銅部品",
+              "ko": "혁동 부품"
+            },
+            "perMin": 1.5,
+            "billsHour": 4320
+          },
+          {
+            "item": {
+              "es": "Yazhen Syringe A",
+              "en": "Yazhen Syringe A",
+              "zh": "优质芽针针剂",
+              "ja": "芽針注射剤Ⅱ",
+              "ko": "고급 야침 주사약"
+            },
+            "perMin": 0.75,
+            "billsHour": 3630
+          },
+          {
+            "item": {
+              "es": "Componente de Xiranita",
+              "en": "Xiranite Component",
+              "zh": "息壤装备原件",
+              "ja": "息壌装備部品",
+              "ko": "식양 장비 부품"
+            },
+            "perMin": 0.5
+          },
+          {
+            "item": {
+              "es": "Componente de cuprio",
+              "en": "Cuprium Component",
+              "zh": "赤铜装备原件",
+              "ja": "赤銅装備部品",
+              "ko": "적동 장비 부품"
+            },
+            "perMin": 0.5
+          },
+          {
+            "item": {
+              "es": "Componente de hetonita",
+              "en": "Hetonite Component",
+              "zh": "赫铜装备原件",
+              "ja": "緋銅装備部品",
+              "ko": "혁동 장비 부품"
+            },
+            "perMin": 0.75
+          }
         ]
       },
       "layouts": [
-        { "label": "Layout 1", "codes": { "asia": "EFO0101O36708ai90E179", "naeu": "EFO01U4Aiu355eOO871a8" } },
-        { "label": "Layout 2", "codes": { "asia": "EFO01A7u1e4A6UE769ieO", "naeu": "EFO0172UA3844i53UO0Ai" } },
-        { "label": "Layout 3", "codes": { "asia": "EFO017i89AE70e54eO2Ai", "naeu": "EFO016i1a42ee0791O83e" } },
-        { "label": "Layout 4", "codes": { "asia": "EFO01eAo0UOeai4uuoui8", "naeu": "EFO01eE7U8o22A404oui8" } },
-        { "label": "Layout 5", "codes": { "asia": "EFO01u8U4o6u230U8AeOU", "naeu": "EFO011ea054779UaE3aO7" } },
-        { "label": "Layout 6", "codes": { "asia": "EFO012O9A5u2UE8E3e3Oo", "naeu": "EFO01U4Aiu355eOoa71a8" } }
+        {
+          "label": "Layout 1",
+          "codes": {
+            "asia": "EFO0101O36708ai90E179",
+            "naeu": "EFO01U4Aiu355eOO871a8"
+          }
+        },
+        {
+          "label": "Layout 2",
+          "codes": {
+            "asia": "EFO01A7u1e4A6UE769ieO",
+            "naeu": "EFO0172UA3844i53UO0Ai"
+          }
+        },
+        {
+          "label": "Layout 3",
+          "codes": {
+            "asia": "EFO017i89AE70e54eO2Ai",
+            "naeu": "EFO016i1a42ee0791O83e"
+          }
+        },
+        {
+          "label": "Layout 4",
+          "codes": {
+            "asia": "EFO01eAo0UOeai4uuoui8",
+            "naeu": "EFO01eE7U8o22A404oui8"
+          }
+        },
+        {
+          "label": "Layout 5",
+          "codes": {
+            "asia": "EFO01u8U4o6u230U8AeOU",
+            "naeu": "EFO011ea054779UaE3aO7"
+          }
+        },
+        {
+          "label": "Layout 6",
+          "codes": {
+            "asia": "EFO012O9A5u2UE8E3e3Oo",
+            "naeu": "EFO01U4Aiu355eOoa71a8"
+          }
+        }
       ]
     },
     {
@@ -212,16 +687,31 @@
       "name": "Marker Stone SubAIC",
       "mapId": "wuling",
       "version": "v1.2",
-      "status": { "es": "Verificado v1.2", "en": "Verified v1.2" },
+      "status": {
+        "es": "Verificado v1.2",
+        "en": "Verified v1.2",
+        "zh": "已验证 v1.2",
+        "ja": "検証済み v1.2",
+        "ko": "검증됨 v1.2"
+      },
       "credits": "KyoStinV",
       "videoUrl": "",
       "preview": null,
       "desc": {
         "es": "Base secundaria del mapa Marker Stone (MS). Se conecta a la AIC principal para extender la producción. Marker Stone y Jingyu Valley son mapas distintos dentro de Wuling — la SubAIC de cada mapa es específica de esa zona, no son intercambiables.",
-        "en": "Secondary base for the Marker Stone (MS) map. Connects to the main AIC to extend production. Marker Stone and Jingyu Valley are different maps inside Wuling — each map's SubAIC is specific to its zone and they are not interchangeable."
+        "en": "Secondary base for the Marker Stone (MS) map. Connects to the main AIC to extend production. Marker Stone and Jingyu Valley are different maps inside Wuling — each map's SubAIC is specific to its zone and they are not interchangeable.",
+        "zh": "首墩（MS）地图的副基地。连接主集成工业以扩展产能。首墩和景玉谷是武陵内的不同地图——每张地图的副集成工业只属于自己的区域，不能互换。",
+        "ja": "首礎（MS）マップ用のサブ基地。メインの集成工業に接続して生産を拡張。首礎と景玉谷は武陵内の別マップで、各マップのサブ集成工業はそのエリア専用で互換性はありません。",
+        "ko": "수돈(MS) 맵용 서브 기지. 메인 통합 공업에 연결해 생산을 확장합니다. 수돈과 경옥 골짜기는 무릉 안의 서로 다른 맵이며, 각 맵의 서브 통합 공업은 자기 구역 전용이라 서로 바꿔 쓸 수 없습니다."
       },
       "layouts": [
-        { "label": "Layout 1", "codes": { "asia": "EFO017i89AE70e5a8O0Ai", "naeu": "EFO010U96EOAA1ia8E179" } }
+        {
+          "label": "Layout 1",
+          "codes": {
+            "asia": "EFO017i89AE70e5a8O0Ai",
+            "naeu": "EFO010U96EOAA1ia8E179"
+          }
+        }
       ]
     },
     {
@@ -230,16 +720,31 @@
       "name": "Jingyu Valley SubAIC",
       "mapId": "wuling",
       "version": "v1.2",
-      "status": { "es": "Verificado v1.2", "en": "Verified v1.2" },
+      "status": {
+        "es": "Verificado v1.2",
+        "en": "Verified v1.2",
+        "zh": "已验证 v1.2",
+        "ja": "検証済み v1.2",
+        "ko": "검증됨 v1.2"
+      },
       "credits": "KyoStinV",
       "videoUrl": "",
       "preview": null,
       "desc": {
         "es": "Base secundaria del mapa Jingyu Valley (JV). Se conecta a la AIC principal para extender la producción. Jingyu Valley y Marker Stone son mapas distintos dentro de Wuling — esta SubAIC funciona solo en JV, no es una alternativa a la SubAIC de MS.",
-        "en": "Secondary base for the Jingyu Valley (JV) map. Connects to the main AIC to extend production. Jingyu Valley and Marker Stone are different maps inside Wuling — this SubAIC only works on JV and is not an alternative to the MS SubAIC."
+        "en": "Secondary base for the Jingyu Valley (JV) map. Connects to the main AIC to extend production. Jingyu Valley and Marker Stone are different maps inside Wuling — this SubAIC only works on JV and is not an alternative to the MS SubAIC.",
+        "zh": "景玉谷（JV）地图的副基地。连接主集成工业以扩展产能。景玉谷和首墩是武陵内的不同地图——这个副集成工业只能用于 JV，不是 MS 副集成工业的替代品。",
+        "ja": "景玉谷（JV）マップ用のサブ基地。メインの集成工業に接続して生産を拡張。景玉谷と首礎は武陵内の別マップで、このサブ集成工業は JV でしか動かず、MS 用の代わりにはなりません。",
+        "ko": "경옥 골짜기(JV) 맵용 서브 기지. 메인 통합 공업에 연결해 생산을 확장합니다. 경옥 골짜기와 수돈은 무릉 안의 서로 다른 맵이며, 이 서브 통합 공업은 JV에서만 작동하고 MS 서브 통합 공업의 대안이 아닙니다."
       },
       "layouts": [
-        { "label": "Layout 1", "codes": { "asia": "EFO017i89AE70e5a5O8Ai", "naeu": "EFO01a709O5UU6Ae5oe5e" } }
+        {
+          "label": "Layout 1",
+          "codes": {
+            "asia": "EFO017i89AE70e5a5O8Ai",
+            "naeu": "EFO01a709O5UU6Ae5oe5e"
+          }
+        }
       ]
     },
     {
@@ -248,17 +753,38 @@
       "name": "Jingyu Valley AFK",
       "mapId": "wuling",
       "version": "v1.2",
-      "status": { "es": "Verificado v1.2", "en": "Verified v1.2" },
+      "status": {
+        "es": "Verificado v1.2",
+        "en": "Verified v1.2",
+        "zh": "已验证 v1.2",
+        "ja": "検証済み v1.2",
+        "ko": "검증됨 v1.2"
+      },
       "credits": "KyoStinV",
       "videoUrl": "",
       "preview": null,
       "desc": {
         "es": "Base de farmeo pasivo para el mapa Jingyu Valley (JV). Produce sola mientras estás offline. Output menor que la principal pero no requiere atención. Las 2 disposiciones son variantes del mismo concepto en JV con el mismo output — elige la que encaje mejor en tu mapa.",
-        "en": "Passive farming base for the Jingyu Valley (JV) map. Runs on its own while you are offline. Lower output than the main base but needs no attention. The 2 layouts are variants of the same JV concept with identical output — pick whichever fits your map best."
+        "en": "Passive farming base for the Jingyu Valley (JV) map. Runs on its own while you are offline. Lower output than the main base but needs no attention. The 2 layouts are variants of the same JV concept with identical output — pick whichever fits your map best.",
+        "zh": "景玉谷（JV）地图的挂机基地。离线时自行运转。产出低于主基地，但无需照看。2 种布局是同一 JV 概念的变体，产出相同——选最适合你地图的那一种。",
+        "ja": "景玉谷（JV）マップ用の放置基地。オフライン中も勝手に動きます。メイン基地より産出は低いものの、手間いらず。2 つのレイアウトは同じ JV コンセプトの変種で産出は同一なので、マップに合う方を選んでください。",
+        "ko": "경옥 골짜기(JV) 맵용 방치 기지. 오프라인 동안 스스로 돌아갑니다. 메인 기지보다 산출은 낮지만 신경 쓸 필요가 없습니다. 두 배치는 같은 JV 개념의 변형으로 산출이 같으니 맵에 맞는 쪽을 고르세요."
       },
       "layouts": [
-        { "label": "Layout 1", "codes": { "asia": "EFO01eAo0UOeai4ueoui8", "naeu": "EFO01a709O5UU6AeOou5e" } },
-        { "label": "Layout 2", "codes": { "asia": "EFO01A7u1e4A6UE109ieO", "naeu": "EFO0172UA3844i53aO2Ai" } }
+        {
+          "label": "Layout 1",
+          "codes": {
+            "asia": "EFO01eAo0UOeai4ueoui8",
+            "naeu": "EFO01a709O5UU6AeOou5e"
+          }
+        },
+        {
+          "label": "Layout 2",
+          "codes": {
+            "asia": "EFO01A7u1e4A6UE109ieO",
+            "naeu": "EFO0172UA3844i53aO2Ai"
+          }
+        }
       ]
     },
     {
@@ -267,16 +793,31 @@
       "name": "Temp Cuprium parts",
       "mapId": "wuling",
       "version": "v1.2",
-      "status": { "es": "Verificado v1.2", "en": "Verified v1.2" },
+      "status": {
+        "es": "Verificado v1.2",
+        "en": "Verified v1.2",
+        "zh": "已验证 v1.2",
+        "ja": "検証済み v1.2",
+        "ko": "검증됨 v1.2"
+      },
       "credits": "KyoStinV",
       "videoUrl": "",
       "preview": null,
       "desc": {
         "es": "Base temporal especializada en Cuprium parts. Móntala solo cuando necesites farmear este material rápido y desmóntala después.",
-        "en": "Temporary base focused on Cuprium parts. Set it up only when you need to farm this material fast, then dismantle it."
+        "en": "Temporary base focused on Cuprium parts. Set it up only when you need to farm this material fast, then dismantle it.",
+        "zh": "专注赤铜零件的临时基地。只在需要快速刷这种材料时搭建，然后拆除。",
+        "ja": "赤銅部品に特化した一時基地。この素材を急いで集めたいときだけ建てて、その後解体します。",
+        "ko": "적동 부품 전용 임시 기지. 이 재료를 빨리 모아야 할 때만 짓고 그 뒤 해체하세요."
       },
       "layouts": [
-        { "label": "Layout 1", "codes": { "asia": "EFO013o72e7e49a60579", "naeu": "EFO014o5O1688E3i7E81A" } }
+        {
+          "label": "Layout 1",
+          "codes": {
+            "asia": "EFO013o72e7e49a60579",
+            "naeu": "EFO014o5O1688E3i7E81A"
+          }
+        }
       ]
     },
     {
@@ -285,16 +826,31 @@
       "name": "Temp Xiranite",
       "mapId": "wuling",
       "version": "v1.2",
-      "status": { "es": "Verificado v1.2", "en": "Verified v1.2" },
+      "status": {
+        "es": "Verificado v1.2",
+        "en": "Verified v1.2",
+        "zh": "已验证 v1.2",
+        "ja": "検証済み v1.2",
+        "ko": "검증됨 v1.2"
+      },
       "credits": "KyoStinV",
       "videoUrl": "",
       "preview": null,
       "desc": {
         "es": "Base temporal especializada en Xiranite. Móntala solo cuando necesites farmear este material rápido y desmóntala después.",
-        "en": "Temporary base focused on Xiranite. Set it up only when you need to farm this material fast, then dismantle it."
+        "en": "Temporary base focused on Xiranite. Set it up only when you need to farm this material fast, then dismantle it.",
+        "zh": "专注息壤的临时基地。只在需要快速刷这种材料时搭建，然后拆除。",
+        "ja": "息壌に特化した一時基地。この素材を急いで集めたいときだけ建てて、その後解体します。",
+        "ko": "식양 전용 임시 기지. 이 재료를 빨리 모아야 할 때만 짓고 그 뒤 해체하세요."
       },
       "layouts": [
-        { "label": "Layout 1", "codes": { "asia": "EFO01a6589eao1AU5ou5e", "naeu": "EFO01A5ie90Ou3Eee91eO" } }
+        {
+          "label": "Layout 1",
+          "codes": {
+            "asia": "EFO01a6589eao1AU5ou5e",
+            "naeu": "EFO01A5ie90Ou3Eee91eO"
+          }
+        }
       ]
     },
     {
@@ -303,20 +859,59 @@
       "name": "Wuling Main",
       "mapId": "wuling",
       "version": "v1.1",
-      "status": { "es": "Verificado v1.1", "en": "Verified v1.1" },
+      "status": {
+        "es": "Verificado v1.1",
+        "en": "Verified v1.1",
+        "zh": "已验证 v1.1",
+        "ja": "検証済み v1.1",
+        "ko": "검증됨 v1.1"
+      },
       "credits": "KyoStinV",
       "videoUrl": "",
       "preview": null,
       "desc": {
         "es": "AIC principal del mapa Wuling en v1.1. Cinco disposiciones equivalentes — elige la que mejor encaje en el espacio disponible de tu mapa.",
-        "en": "Main AIC for the Wuling map on v1.1. Five equivalent layouts — pick whichever best fits the available space on your map."
+        "en": "Main AIC for the Wuling map on v1.1. Five equivalent layouts — pick whichever best fits the available space on your map.",
+        "zh": "v1.1 武陵地图的主集成工业。五种等价布局——选最适合你地图可用空间的那一种。",
+        "ja": "v1.1 の武陵マップ用メイン集成工業。同等のレイアウトが 5 つあるので、マップの空きに最も合うものを選んでください。",
+        "ko": "v1.1 무릉 맵용 메인 통합 공업. 동등한 배치 다섯 가지 중 맵의 빈 공간에 가장 맞는 것을 고르세요."
       },
       "layouts": [
-        { "label": "Wuling 1", "codes": { "asia": "EFO01Ue36i2U97Ou971a8", "naeu": "EFO0172UA3844i5u1O2Ai" } },
-        { "label": "Wuling 2", "codes": { "asia": "EFO017i89AE70e5i4O2Ai", "naeu": "EFO014o5O1688E3i1EO1A" } },
-        { "label": "Wuling 3", "codes": { "asia": "EFO01u8U4o6u230iUAoOU", "naeu": "EFO01U4Aiu355eOOa76a8" } },
-        { "label": "Wuling 4", "codes": { "asia": "EFO017i89o8o6E59O0Ai",  "naeu": "EFO016i1a42ee07AeO23e" } },
-        { "label": "Wuling 5", "codes": { "asia": "EFO0101O36708ai3OE179", "naeu": "EFO016i1aEe4oi76O23e" } }
+        {
+          "label": "Wuling 1",
+          "codes": {
+            "asia": "EFO01Ue36i2U97Ou971a8",
+            "naeu": "EFO0172UA3844i5u1O2Ai"
+          }
+        },
+        {
+          "label": "Wuling 2",
+          "codes": {
+            "asia": "EFO017i89AE70e5i4O2Ai",
+            "naeu": "EFO014o5O1688E3i1EO1A"
+          }
+        },
+        {
+          "label": "Wuling 3",
+          "codes": {
+            "asia": "EFO01u8U4o6u230iUAoOU",
+            "naeu": "EFO01U4Aiu355eOOa76a8"
+          }
+        },
+        {
+          "label": "Wuling 4",
+          "codes": {
+            "asia": "EFO017i89o8o6E59O0Ai",
+            "naeu": "EFO016i1a42ee07AeO23e"
+          }
+        },
+        {
+          "label": "Wuling 5",
+          "codes": {
+            "asia": "EFO0101O36708ai3OE179",
+            "naeu": "EFO016i1aEe4oi76O23e"
+          }
+        }
       ]
     },
     {
@@ -325,16 +920,31 @@
       "name": "Wuling SubAIC",
       "mapId": "wuling",
       "version": "v1.1",
-      "status": { "es": "Verificado v1.1", "en": "Verified v1.1" },
+      "status": {
+        "es": "Verificado v1.1",
+        "en": "Verified v1.1",
+        "zh": "已验证 v1.1",
+        "ja": "検証済み v1.1",
+        "ko": "검증됨 v1.1"
+      },
       "credits": "KyoStinV",
       "videoUrl": "",
       "preview": null,
       "desc": {
         "es": "Sub AIC de Wuling v1.1. Se conecta a la AIC principal (Wuling Main) para extender la producción.",
-        "en": "Sub AIC for Wuling v1.1. Connects to the main AIC (Wuling Main) to extend production."
+        "en": "Sub AIC for Wuling v1.1. Connects to the main AIC (Wuling Main) to extend production.",
+        "zh": "v1.1 武陵的副集成工业。连接主集成工业（武陵主基地）以扩展产能。",
+        "ja": "v1.1 武陵のサブ集成工業。メイン集成工業（武陵メイン）に接続して生産を拡張。",
+        "ko": "v1.1 무릉의 서브 통합 공업. 메인 통합 공업(무릉 메인)에 연결해 생산을 확장합니다."
       },
       "layouts": [
-        { "label": "Layout 1", "codes": { "asia": "EFO01Ue36i2U97O9E7ua8", "naeu": "EFO01a7094UO37A9Uoi5e" } }
+        {
+          "label": "Layout 1",
+          "codes": {
+            "asia": "EFO01Ue36i2U97O9E7ua8",
+            "naeu": "EFO01a7094UO37A9Uoi5e"
+          }
+        }
       ]
     },
     {
@@ -343,18 +953,45 @@
       "name": "Battery Set",
       "mapId": "wuling",
       "version": "v1.1",
-      "status": { "es": "Verificado v1.1", "en": "Verified v1.1" },
+      "status": {
+        "es": "Verificado v1.1",
+        "en": "Verified v1.1",
+        "zh": "已验证 v1.1",
+        "ja": "検証済み v1.1",
+        "ko": "검증됨 v1.1"
+      },
       "credits": "KyoStinV",
       "videoUrl": "",
       "preview": null,
       "desc": {
         "es": "Set de optimización de baterías (SC Batteries) para Wuling v1.1. Tres variantes que cubren techos distintos de Power Usage — elige la que corresponda a tu consumo total. Nota: el primer layout dice 4470 (no 4500) por un bug — la Offline Belt va a 0.495/s en lugar de 0.5/s.",
-        "en": "Battery optimization set (SC Batteries) for Wuling v1.1. Three variants covering different Power Usage ceilings — pick the one matching your base's draw. Note: the first layout caps at 4470 (not 4500) due to a bug — the Offline Belt runs at 0.495/s instead of 0.5/s."
+        "en": "Battery optimization set (SC Batteries) for Wuling v1.1. Three variants covering different Power Usage ceilings — pick the one matching your base's draw. Note: the first layout caps at 4470 (not 4500) due to a bug — the Offline Belt runs at 0.495/s instead of 0.5/s.",
+        "zh": "v1.1 武陵的电池优化套装（中容电池）。三种变体覆盖不同的用电上限——选与你基地用电量匹配的那一种。注意：第一种布局因 bug 上限为 4470（不是 4500）——离线传送带以 0.495/秒而非 0.5/秒运行。",
+        "ja": "v1.1 武陵のバッテリー最適化セット（中容量バッテリー）。異なる電力使用上限をカバーする 3 つの変種があるので、基地の消費に合うものを選んでください。注意：最初のレイアウトはバグで上限が 4470（4500 ではない）です。オフラインベルトが 0.5/秒ではなく 0.495/秒で動くためです。",
+        "ko": "v1.1 무릉의 배터리 최적화 세트(중용량 배터리). 서로 다른 전력 사용 상한을 담당하는 세 변형 중 기지 소비량에 맞는 것을 고르세요. 참고: 첫 배치는 버그로 상한이 4470(4500이 아님)입니다. 오프라인 벨트가 0.5/초가 아니라 0.495/초로 돌기 때문입니다."
       },
       "layouts": [
-        { "label": "Wuling V4 bat — Power Usage ≤ 4470",   "codes": { "asia": "EFO01a6589eao1Au2oe5e", "naeu": "EFO0172UA3844i5u2O8Ai" } },
-        { "label": "MinMaxBats B1 — Power Usage ≤ 4570",   "codes": { "asia": "EFO01u8U4o6u2309uA6OU", "naeu": "EFO011ea054779Uiu3UO7" } },
-        { "label": "MinMaxBats B2 — Power Usage ≤ 5150",   "codes": { "asia": "EFO01Ue36i2U97O5e77a8", "naeu": "EFO01U4Aiu355eOOA7ua8" } }
+        {
+          "label": "Wuling V4 bat — Power Usage ≤ 4470",
+          "codes": {
+            "asia": "EFO01a6589eao1Au2oe5e",
+            "naeu": "EFO0172UA3844i5u2O8Ai"
+          }
+        },
+        {
+          "label": "MinMaxBats B1 — Power Usage ≤ 4570",
+          "codes": {
+            "asia": "EFO01u8U4o6u2309uA6OU",
+            "naeu": "EFO011ea054779Uiu3UO7"
+          }
+        },
+        {
+          "label": "MinMaxBats B2 — Power Usage ≤ 5150",
+          "codes": {
+            "asia": "EFO01Ue36i2U97O5e77a8",
+            "naeu": "EFO01U4Aiu355eOOA7ua8"
+          }
+        }
       ]
     },
     {
@@ -363,16 +1000,31 @@
       "name": "Wuling Extra",
       "mapId": "wuling",
       "version": "v1.1",
-      "status": { "es": "Verificado v1.1", "en": "Verified v1.1" },
+      "status": {
+        "es": "Verificado v1.1",
+        "en": "Verified v1.1",
+        "zh": "已验证 v1.1",
+        "ja": "検証済み v1.1",
+        "ko": "검증됨 v1.1"
+      },
       "credits": "KyoStinV",
       "videoUrl": "",
       "preview": null,
       "desc": {
         "es": "Base extra de Wuling v1.1 — aprovecha el espacio que queda libre después de colocar Wuling Main y la Sub AIC.",
-        "en": "Extra base for Wuling v1.1 — fills the leftover space after placing Wuling Main and the Sub AIC."
+        "en": "Extra base for Wuling v1.1 — fills the leftover space after placing Wuling Main and the Sub AIC.",
+        "zh": "v1.1 武陵的补充基地——填满放置武陵主基地和副集成工业之后剩下的空间。",
+        "ja": "v1.1 武陵の追加基地。武陵メインとサブ集成工業を置いた後に残るスペースを埋めます。",
+        "ko": "v1.1 무릉의 추가 기지. 무릉 메인과 서브 통합 공업을 놓은 뒤 남는 공간을 채웁니다."
       },
       "layouts": [
-        { "label": "Layout 1", "codes": { "asia": "EFO01u8U4o6u2308eAeOU", "naeu": "EFO01a709O5UU6A4uo95e" } }
+        {
+          "label": "Layout 1",
+          "codes": {
+            "asia": "EFO01u8U4o6u2308eAeOU",
+            "naeu": "EFO01a709O5UU6A4uo95e"
+          }
+        }
       ]
     },
     {
@@ -381,16 +1033,31 @@
       "name": "Temp Cuprium parts",
       "mapId": "wuling",
       "version": "v1.1",
-      "status": { "es": "Verificado v1.1", "en": "Verified v1.1" },
+      "status": {
+        "es": "Verificado v1.1",
+        "en": "Verified v1.1",
+        "zh": "已验证 v1.1",
+        "ja": "検証済み v1.1",
+        "ko": "검증됨 v1.1"
+      },
       "credits": "KyoStinV",
       "videoUrl": "",
       "preview": null,
       "desc": {
         "es": "Base temporal especializada en Cuprium parts para Wuling v1.1. Móntala solo cuando necesites farmear este material rápido y desmóntala después.",
-        "en": "Temporary base focused on Cuprium parts for Wuling v1.1. Set it up only when you need to farm this material fast, then dismantle it."
+        "en": "Temporary base focused on Cuprium parts for Wuling v1.1. Set it up only when you need to farm this material fast, then dismantle it.",
+        "zh": "v1.1 武陵专注赤铜零件的临时基地。只在需要快速刷这种材料时搭建，然后拆除。",
+        "ja": "v1.1 武陵の赤銅部品に特化した一時基地。この素材を急いで集めたいときだけ建てて、その後解体します。",
+        "ko": "v1.1 무릉의 적동 부품 전용 임시 기지. 이 재료를 빨리 모아야 할 때만 짓고 그 뒤 해체하세요."
       },
       "layouts": [
-        { "label": "Layout 1", "codes": { "asia": "EFO013o72e7e49a60579", "naeu": "EFO014o5O1688E3i7E81A" } }
+        {
+          "label": "Layout 1",
+          "codes": {
+            "asia": "EFO013o72e7e49a60579",
+            "naeu": "EFO014o5O1688E3i7E81A"
+          }
+        }
       ]
     },
     {
@@ -399,17 +1066,38 @@
       "name": "Wuling Main",
       "mapId": "wuling",
       "version": "v1.0",
-      "status": { "es": "Verificado v1.0", "en": "Verified v1.0" },
+      "status": {
+        "es": "Verificado v1.0",
+        "en": "Verified v1.0",
+        "zh": "已验证 v1.0",
+        "ja": "検証済み v1.0",
+        "ko": "검증됨 v1.0"
+      },
       "credits": "KyoStinV",
       "videoUrl": "",
       "preview": null,
       "desc": {
         "es": "AIC principal del mapa Wuling en v1.0. Se compone de dos piezas que se montan juntas: una del lado izquierdo y otra del derecho. Ambos códigos se pegan en el mismo mapa.",
-        "en": "Main AIC for the Wuling map on v1.0. Built as two pieces that go in together: one on the left side and one on the right. Both codes are pasted on the same map."
+        "en": "Main AIC for the Wuling map on v1.0. Built as two pieces that go in together: one on the left side and one on the right. Both codes are pasted on the same map.",
+        "zh": "v1.0 武陵地图的主集成工业。由配套的两部分组成：一部分在左侧，一部分在右侧。两个代码粘贴在同一张地图上。",
+        "ja": "v1.0 の武陵マップ用メイン集成工業。組み合わせる 2 つのパーツ（左側と右側）で構成。両方のコードを同じマップに貼り付けます。",
+        "ko": "v1.0 무릉 맵용 메인 통합 공업. 함께 놓는 두 조각(왼쪽과 오른쪽)으로 만들어졌습니다. 두 코드를 같은 맵에 붙여 넣으세요."
       },
       "layouts": [
-        { "label": "Wuling Left",  "codes": { "asia": "EFO017i89AE70e5u2O8Ai", "naeu": "EFO01A5ie90Ou3Eeu9EeO" } },
-        { "label": "Wuling Right", "codes": { "asia": "EFO01u8U4o6u23038AoOU", "naeu": "EFO01A5ie90Ou3Ee29ieO" } }
+        {
+          "label": "Wuling Left",
+          "codes": {
+            "asia": "EFO017i89AE70e5u2O8Ai",
+            "naeu": "EFO01A5ie90Ou3Eeu9EeO"
+          }
+        },
+        {
+          "label": "Wuling Right",
+          "codes": {
+            "asia": "EFO01u8U4o6u23038AoOU",
+            "naeu": "EFO01A5ie90Ou3Ee29ieO"
+          }
+        }
       ]
     },
     {
@@ -418,16 +1106,31 @@
       "name": "Wuling Sub AIC",
       "mapId": "wuling",
       "version": "v1.0",
-      "status": { "es": "Verificado v1.0", "en": "Verified v1.0" },
+      "status": {
+        "es": "Verificado v1.0",
+        "en": "Verified v1.0",
+        "zh": "已验证 v1.0",
+        "ja": "検証済み v1.0",
+        "ko": "검증됨 v1.0"
+      },
       "credits": "KyoStinV",
       "videoUrl": "",
       "preview": null,
       "desc": {
         "es": "Sub AIC de Wuling v1.0. Vive en un mapa distinto al de la AIC principal (Wuling Main) y se conecta a esta para extender la producción. Si tienes el espacio superior del mapa principal desbloqueado y no quieres ocupar el otro mapa, puedes saltarte esta Sub AIC y usar en su lugar Wuling Top Opt.",
-        "en": "Sub AIC for Wuling v1.0. Lives on a different map from the main AIC (Wuling Main) and connects to it to extend production. If you have the top area of the main map unlocked and prefer not to take up the second map, you can skip this Sub AIC and use Wuling Top Opt instead."
+        "en": "Sub AIC for Wuling v1.0. Lives on a different map from the main AIC (Wuling Main) and connects to it to extend production. If you have the top area of the main map unlocked and prefer not to take up the second map, you can skip this Sub AIC and use Wuling Top Opt instead.",
+        "zh": "v1.0 武陵的副集成工业。位于与主集成工业（武陵主基地）不同的地图上，并与之连接以扩展产能。如果你已解锁主地图的上方区域且不想占用第二张地图，可以跳过这个副集成工业，改用武陵上方优化。",
+        "ja": "v1.0 武陵のサブ集成工業。メイン集成工業（武陵メイン）とは別のマップにあり、接続して生産を拡張します。メインマップの上部エリアを解放済みで 2 枚目のマップを使いたくないなら、このサブ集成工業を飛ばして武陵トップ最適化を使えます。",
+        "ko": "v1.0 무릉의 서브 통합 공업. 메인 통합 공업(무릉 메인)과 다른 맵에 있으며 연결해 생산을 확장합니다. 메인 맵의 위쪽 구역을 해제했고 두 번째 맵을 쓰고 싶지 않다면 이 서브 통합 공업을 건너뛰고 무릉 상단 최적화를 대신 쓸 수 있습니다."
       },
       "layouts": [
-        { "label": "Layout 1", "codes": { "asia": "EFO017i89AE70e587O0Ai", "naeu": "EFO01U4Ai0a538OE973a8" } }
+        {
+          "label": "Layout 1",
+          "codes": {
+            "asia": "EFO017i89AE70e587O0Ai",
+            "naeu": "EFO01U4Ai0a538OE973a8"
+          }
+        }
       ]
     },
     {
@@ -436,16 +1139,31 @@
       "name": "Wuling Top Opt",
       "mapId": "wuling",
       "version": "v1.0",
-      "status": { "es": "Verificado v1.0", "en": "Verified v1.0" },
+      "status": {
+        "es": "Verificado v1.0",
+        "en": "Verified v1.0",
+        "zh": "已验证 v1.0",
+        "ja": "検証済み v1.0",
+        "ko": "검증됨 v1.0"
+      },
       "credits": "KyoStinV",
       "videoUrl": "",
       "preview": null,
       "desc": {
         "es": "Variante optativa que se monta en la zona superior del mapa principal de Wuling v1.0. Funciona como reemplazo de la Sub AIC: si tienes ese espacio desbloqueado y no quieres gastar el segundo mapa, usas Wuling Main + Top Opt y te ahorras la Sub AIC.",
-        "en": "Optional variant placed on the top area of the main Wuling v1.0 map. It replaces the Sub AIC: if you have that area unlocked and prefer not to spend the second map, use Wuling Main + Top Opt and skip the Sub AIC entirely."
+        "en": "Optional variant placed on the top area of the main Wuling v1.0 map. It replaces the Sub AIC: if you have that area unlocked and prefer not to spend the second map, use Wuling Main + Top Opt and skip the Sub AIC entirely.",
+        "zh": "放在 v1.0 武陵主地图上方区域的可选变体。它替代副集成工业：如果你已解锁该区域且不想花费第二张地图，用武陵主基地 + 上方优化，完全跳过副集成工业。",
+        "ja": "v1.0 武陵メインマップの上部エリアに置くオプションの変種。サブ集成工業の代わりになります：そのエリアを解放済みで 2 枚目のマップを使いたくないなら、武陵メイン＋トップ最適化を使い、サブ集成工業を丸ごと飛ばしてください。",
+        "ko": "v1.0 무릉 메인 맵의 위쪽 구역에 놓는 선택형 변형. 서브 통합 공업을 대체합니다. 그 구역을 해제했고 두 번째 맵을 쓰고 싶지 않다면 무릉 메인 + 상단 최적화를 쓰고 서브 통합 공업은 아예 건너뛰세요."
       },
       "layouts": [
-        { "label": "Layout 1", "codes": { "asia": "EFO01u8U4o6u2305aAEOU", "naeu": "EFO011ea0u3742Uo134O7" } }
+        {
+          "label": "Layout 1",
+          "codes": {
+            "asia": "EFO01u8U4o6u2305aAEOU",
+            "naeu": "EFO011ea0u3742Uo134O7"
+          }
+        }
       ]
     },
     {
@@ -454,20 +1172,59 @@
       "name": "MinMax Bats",
       "mapId": "wuling",
       "version": "v1.0",
-      "status": { "es": "Verificado v1.0", "en": "Verified v1.0" },
+      "status": {
+        "es": "Verificado v1.0",
+        "en": "Verified v1.0",
+        "zh": "已验证 v1.0",
+        "ja": "検証済み v1.0",
+        "ko": "검증됨 v1.0"
+      },
       "credits": "KyoStinV",
       "videoUrl": "",
       "preview": null,
       "desc": {
         "es": "Set de optimización de baterías (SC Batteries). Cada layout cubre un techo de consumo de energía distinto — elige el que corresponda al consumo total de tu base. El número siguiente al nombre indica el límite de Power Usage soportado.",
-        "en": "Battery optimization set (SC Batteries). Each layout supports a different power usage ceiling — pick the one that matches your base's total power draw. The number next to each label is the supported Power Usage cap."
+        "en": "Battery optimization set (SC Batteries). Each layout supports a different power usage ceiling — pick the one that matches your base's total power draw. The number next to each label is the supported Power Usage cap.",
+        "zh": "电池优化套装（中容电池）。每种布局支持不同的用电上限——选与你基地总用电量匹配的那一种。每个标签旁的数字是支持的用电上限。",
+        "ja": "バッテリー最適化セット（中容量バッテリー）。各レイアウトは異なる電力使用上限に対応するので、基地の総消費に合うものを選んでください。各ラベルの横の数字が対応する電力使用の上限です。",
+        "ko": "배터리 최적화 세트(중용량 배터리). 각 배치는 서로 다른 전력 사용 상한을 지원하니 기지의 총 전력 소비에 맞는 것을 고르세요. 각 라벨 옆 숫자가 지원하는 전력 사용 상한입니다."
       },
       "layouts": [
-        { "label": "MinMax Bats X — Power Usage ≤ 1995", "codes": { "asia": "EFO01521eEo5i4u69e7oe",  "naeu": "EFO0172UAa148o58EO0Ai" } },
-        { "label": "MinMax Bats 0 — Power Usage ≤ 2095", "codes": { "asia": "EFO01Ue36i2U97OoO71a8",  "naeu": "EFO01893u546ei1A4U873"  } },
-        { "label": "MinMax Bats 1 — Power Usage ≤ 2390", "codes": { "asia": "EFO017i89AE70e58AO2Ai",  "naeu": "EFO011ea0u3742U2O3oO7"  } },
-        { "label": "MinMax Bats 2 — Power Usage ≤ 2685", "codes": { "asia": "EFO0101O36708ai29E179",  "naeu": "EFO0172UAa148o552O2Ai"  } },
-        { "label": "MinMax Bats 3 — Power Usage ≤ 2985", "codes": { "asia": "EFO017i89AE70e589O2Ai",  "naeu": "EFO014o5OU786937AE81A"  } }
+        {
+          "label": "MinMax Bats X — Power Usage ≤ 1995",
+          "codes": {
+            "asia": "EFO01521eEo5i4u69e7oe",
+            "naeu": "EFO0172UAa148o58EO0Ai"
+          }
+        },
+        {
+          "label": "MinMax Bats 0 — Power Usage ≤ 2095",
+          "codes": {
+            "asia": "EFO01Ue36i2U97OoO71a8",
+            "naeu": "EFO01893u546ei1A4U873"
+          }
+        },
+        {
+          "label": "MinMax Bats 1 — Power Usage ≤ 2390",
+          "codes": {
+            "asia": "EFO017i89AE70e58AO2Ai",
+            "naeu": "EFO011ea0u3742U2O3oO7"
+          }
+        },
+        {
+          "label": "MinMax Bats 2 — Power Usage ≤ 2685",
+          "codes": {
+            "asia": "EFO0101O36708ai29E179",
+            "naeu": "EFO0172UAa148o552O2Ai"
+          }
+        },
+        {
+          "label": "MinMax Bats 3 — Power Usage ≤ 2985",
+          "codes": {
+            "asia": "EFO017i89AE70e589O2Ai",
+            "naeu": "EFO014o5OU786937AE81A"
+          }
+        }
       ]
     },
     {
@@ -476,16 +1233,31 @@
       "name": "Temp Xiranite",
       "mapId": "wuling",
       "version": "v1.0",
-      "status": { "es": "Verificado v1.0", "en": "Verified v1.0" },
+      "status": {
+        "es": "Verificado v1.0",
+        "en": "Verified v1.0",
+        "zh": "已验证 v1.0",
+        "ja": "検証済み v1.0",
+        "ko": "검증됨 v1.0"
+      },
       "credits": "KyoStinV",
       "videoUrl": "",
       "preview": null,
       "desc": {
         "es": "Base temporal especializada en Xiranite para Wuling v1.0. Móntala solo cuando necesites farmear este material rápido y desmóntala después.",
-        "en": "Temporary base focused on Xiranite for Wuling v1.0. Set it up only when you need to farm this material fast, then dismantle it."
+        "en": "Temporary base focused on Xiranite for Wuling v1.0. Set it up only when you need to farm this material fast, then dismantle it.",
+        "zh": "v1.0 武陵专注息壤的临时基地。只在需要快速刷这种材料时搭建，然后拆除。",
+        "ja": "v1.0 武陵の息壌に特化した一時基地。この素材を急いで集めたいときだけ建てて、その後解体します。",
+        "ko": "v1.0 무릉의 식양 전용 임시 기지. 이 재료를 빨리 모아야 할 때만 짓고 그 뒤 해체하세요."
       },
       "layouts": [
-        { "label": "Layout 1", "codes": { "asia": "EFO01a6589eao1AU5ou5e", "naeu": "EFO01A5ie90Ou3Eee91eO" } }
+        {
+          "label": "Layout 1",
+          "codes": {
+            "asia": "EFO01a6589eao1AU5ou5e",
+            "naeu": "EFO01A5ie90Ou3Eee91eO"
+          }
+        }
       ]
     },
     {
@@ -494,16 +1266,31 @@
       "name": "Main Left",
       "mapId": "valley4",
       "version": "v1.0",
-      "status": { "es": "Verificado v1.0", "en": "Verified v1.0" },
+      "status": {
+        "es": "Verificado v1.0",
+        "en": "Verified v1.0",
+        "zh": "已验证 v1.0",
+        "ja": "検証済み v1.0",
+        "ko": "검증됨 v1.0"
+      },
       "credits": "KyoStinV",
       "videoUrl": "",
       "preview": null,
       "desc": {
         "es": "Base principal del lado izquierdo del mapa Valley 4. Forma parte de la configuración completa junto con Main Right, Main Bottom, Sub AIC y Extra — todas ocupan posiciones distintas y conviven en el mismo mapa.",
-        "en": "Main base for the left side of the Valley 4 map. Part of the full layout together with Main Right, Main Bottom, Sub AIC and Extra — each one occupies a different spot and they all coexist on the same map."
+        "en": "Main base for the left side of the Valley 4 map. Part of the full layout together with Main Right, Main Bottom, Sub AIC and Extra — each one occupies a different spot and they all coexist on the same map.",
+        "zh": "四号谷地地图左侧的主基地。与右侧主基地、下方主基地、副集成工业和补充基地共同组成完整布局——各占不同位置，全部共存于同一张地图。",
+        "ja": "四号谷地マップ左側のメイン基地。メイン右、メイン下、サブ集成工業、追加基地と合わせて完全なレイアウトを構成。それぞれ別の場所を占め、すべて同じマップに共存します。",
+        "ko": "4번 협곡 맵 왼쪽의 메인 기지. 메인 오른쪽, 메인 아래, 서브 통합 공업, 추가 기지와 함께 전체 배치를 이룹니다. 각각 다른 자리를 차지하며 모두 같은 맵에 공존합니다."
       },
       "layouts": [
-        { "label": "Layout 1", "codes": { "asia": "EFO01u8U4o6u2307AoOU", "naeu": "EFO01893u546ei1OU873" } }
+        {
+          "label": "Layout 1",
+          "codes": {
+            "asia": "EFO01u8U4o6u2307AoOU",
+            "naeu": "EFO01893u546ei1OU873"
+          }
+        }
       ]
     },
     {
@@ -512,16 +1299,31 @@
       "name": "Main Right",
       "mapId": "valley4",
       "version": "v1.0",
-      "status": { "es": "Verificado v1.0", "en": "Verified v1.0" },
+      "status": {
+        "es": "Verificado v1.0",
+        "en": "Verified v1.0",
+        "zh": "已验证 v1.0",
+        "ja": "検証済み v1.0",
+        "ko": "검증됨 v1.0"
+      },
       "credits": "KyoStinV",
       "videoUrl": "",
       "preview": null,
       "desc": {
         "es": "Base principal del lado derecho del mapa Valley 4. Convive con Main Left, Main Bottom, Sub AIC y Extra en el mismo mapa.",
-        "en": "Main base for the right side of the Valley 4 map. Coexists with Main Left, Main Bottom, Sub AIC and Extra on the same map."
+        "en": "Main base for the right side of the Valley 4 map. Coexists with Main Left, Main Bottom, Sub AIC and Extra on the same map.",
+        "zh": "四号谷地地图右侧的主基地。与左侧主基地、下方主基地、副集成工业和补充基地共存于同一张地图。",
+        "ja": "四号谷地マップ右側のメイン基地。メイン左、メイン下、サブ集成工業、追加基地と同じマップに共存します。",
+        "ko": "4번 협곡 맵 오른쪽의 메인 기지. 메인 왼쪽, 메인 아래, 서브 통합 공업, 추가 기지와 같은 맵에 공존합니다."
       },
       "layouts": [
-        { "label": "Layout 1", "codes": { "asia": "EFO017i89AE70e52O2Ai", "naeu": "EFO011ea0u3742U83oO7" } }
+        {
+          "label": "Layout 1",
+          "codes": {
+            "asia": "EFO017i89AE70e52O2Ai",
+            "naeu": "EFO011ea0u3742U83oO7"
+          }
+        }
       ]
     },
     {
@@ -530,17 +1332,38 @@
       "name": "Main Bottom",
       "mapId": "valley4",
       "version": "v1.0",
-      "status": { "es": "Verificado v1.0", "en": "Verified v1.0" },
+      "status": {
+        "es": "Verificado v1.0",
+        "en": "Verified v1.0",
+        "zh": "已验证 v1.0",
+        "ja": "検証済み v1.0",
+        "ko": "검증됨 v1.0"
+      },
       "credits": "KyoStinV",
       "videoUrl": "",
       "preview": null,
       "desc": {
         "es": "Base inferior del mapa Valley 4. Tiene dos disposiciones que ocupan el mismo lugar y son intercambiables: la versión 2 incluye un Carbon Maker extra respecto de la versión 1 — elige la que mejor te convenga.",
-        "en": "Bottom base for the Valley 4 map. Two interchangeable layouts share the same slot: version 2 has one extra Carbon Maker compared to version 1 — pick whichever fits your needs."
+        "en": "Bottom base for the Valley 4 map. Two interchangeable layouts share the same slot: version 2 has one extra Carbon Maker compared to version 1 — pick whichever fits your needs.",
+        "zh": "四号谷地地图的下方基地。两种可互换的布局共用同一位置：版本 2 比版本 1 多一台碳块制造机——按需选择。",
+        "ja": "四号谷地マップの下側基地。入れ替え可能な 2 つのレイアウトが同じ枠を共有：バージョン 2 はバージョン 1 より炭塊製造機が 1 台多いので、必要に応じて選んでください。",
+        "ko": "4번 협곡 맵의 아래쪽 기지. 서로 바꿔 쓸 수 있는 두 배치가 같은 자리를 공유합니다. 버전 2는 버전 1보다 카본 제조기가 하나 더 있으니 필요에 따라 고르세요."
       },
       "layouts": [
-        { "label": "Main Bottom",   "codes": { "asia": "EFO01Ue36i2U97O17Aa8",  "naeu": "EFO0172UAa148o5oO2Ai"  } },
-        { "label": "Main Bottom 2", "codes": { "asia": "EFO01u8U4o6u2305iAoOU", "naeu": "EFO014o5OU78693U6E81A" } }
+        {
+          "label": "Main Bottom",
+          "codes": {
+            "asia": "EFO01Ue36i2U97O17Aa8",
+            "naeu": "EFO0172UAa148o5oO2Ai"
+          }
+        },
+        {
+          "label": "Main Bottom 2",
+          "codes": {
+            "asia": "EFO01u8U4o6u2305iAoOU",
+            "naeu": "EFO014o5OU78693U6E81A"
+          }
+        }
       ]
     },
     {
@@ -549,16 +1372,31 @@
       "name": "Sub AIC",
       "mapId": "valley4",
       "version": "v1.0",
-      "status": { "es": "Verificado v1.0", "en": "Verified v1.0" },
+      "status": {
+        "es": "Verificado v1.0",
+        "en": "Verified v1.0",
+        "zh": "已验证 v1.0",
+        "ja": "検証済み v1.0",
+        "ko": "검증됨 v1.0"
+      },
       "credits": "KyoStinV",
       "videoUrl": "",
       "preview": null,
       "desc": {
         "es": "Sub AIC del mapa Valley 4. Después de colocar las bases principales (Main Left + Main Right + Main Bottom), monta esta Sub AIC y usa el espacio restante para la base Extra.",
-        "en": "Sub AIC for the Valley 4 map. After placing the main bases (Main Left + Main Right + Main Bottom), drop this Sub AIC and use the leftover space for the Extra base."
+        "en": "Sub AIC for the Valley 4 map. After placing the main bases (Main Left + Main Right + Main Bottom), drop this Sub AIC and use the leftover space for the Extra base.",
+        "zh": "四号谷地地图的副集成工业。放好主基地（左侧 + 右侧 + 下方）后，放下这个副集成工业，剩下的空间留给补充基地。",
+        "ja": "四号谷地マップ用のサブ集成工業。メイン基地（左＋右＋下）を置いた後にこのサブ集成工業を置き、残ったスペースを追加基地に使います。",
+        "ko": "4번 협곡 맵용 서브 통합 공업. 메인 기지(왼쪽 + 오른쪽 + 아래)를 놓은 뒤 이 서브 통합 공업을 놓고, 남는 공간은 추가 기지에 쓰세요."
       },
       "layouts": [
-        { "label": "Layout 1", "codes": { "asia": "EFO01521eEo5i4u5e7oe", "naeu": "EFO014o5OU786933E51A" } }
+        {
+          "label": "Layout 1",
+          "codes": {
+            "asia": "EFO01521eEo5i4u5e7oe",
+            "naeu": "EFO014o5OU786933E51A"
+          }
+        }
       ]
     },
     {
@@ -567,16 +1405,31 @@
       "name": "Extra",
       "mapId": "valley4",
       "version": "v1.0",
-      "status": { "es": "Verificado v1.0", "en": "Verified v1.0" },
+      "status": {
+        "es": "Verificado v1.0",
+        "en": "Verified v1.0",
+        "zh": "已验证 v1.0",
+        "ja": "検証済み v1.0",
+        "ko": "검증됨 v1.0"
+      },
       "credits": "KyoStinV",
       "videoUrl": "",
       "preview": null,
       "desc": {
         "es": "Base extra del mapa Valley 4 — rellena el espacio que queda libre después de colocar las bases principales y la Sub AIC. El video la explica con el orden completo de montaje.",
-        "en": "Extra base for the Valley 4 map — fills the remaining space after placing the main bases and the Sub AIC. The video walks through the full setup order."
+        "en": "Extra base for the Valley 4 map — fills the remaining space after placing the main bases and the Sub AIC. The video walks through the full setup order.",
+        "zh": "四号谷地地图的补充基地——填满放置主基地和副集成工业之后剩下的空间。视频完整讲解了搭建顺序。",
+        "ja": "四号谷地マップの追加基地。メイン基地とサブ集成工業を置いた後に残るスペースを埋めます。動画で組み立ての順番をすべて解説しています。",
+        "ko": "4번 협곡 맵의 추가 기지. 메인 기지와 서브 통합 공업을 놓은 뒤 남는 공간을 채웁니다. 영상이 전체 설치 순서를 안내합니다."
       },
       "layouts": [
-        { "label": "Layout 1", "codes": { "asia": "EFO012O9A5u2UE850e6Oo", "naeu": "EFO01U4Ai0a538OE476a8" } }
+        {
+          "label": "Layout 1",
+          "codes": {
+            "asia": "EFO012O9A5u2UE850e6Oo",
+            "naeu": "EFO01U4Ai0a538OE476a8"
+          }
+        }
       ]
     }
   ]

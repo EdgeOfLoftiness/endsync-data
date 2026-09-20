@@ -1,16 +1,32 @@
 {
   "banners": [
     {
-      "name": { "es": "Arcane", "en": "Arcane" },
+      "name": {
+        "es": "Arcane",
+        "en": "Arcane",
+        "zh": "诀",
+        "ja": "オクギ",
+        "ko": "결"
+      },
       "newsId": "b5",
       "endsAt": "2026-08-09T17:00:00Z",
-      "byServer": { "asia": "2026-08-09T04:00:00Z" }
+      "byServer": {
+        "asia": "2026-08-09T04:00:00Z"
+      }
     },
     {
-      "name": { "es": "Liino", "en": "Liino" },
+      "name": {
+        "es": "Liino",
+        "en": "Liino",
+        "zh": "梨诺",
+        "ja": "リーノ",
+        "ko": "리노"
+      },
       "newsId": "b11",
       "startsAt": "2026-08-09T17:00:00Z",
-      "startsByServer": { "asia": "2026-08-09T04:00:00Z" },
+      "startsByServer": {
+        "asia": "2026-08-09T04:00:00Z"
+      },
       "endsAt": "2026-09-01T22:00:00Z"
     }
   ]

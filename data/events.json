@@ -8,17 +8,25 @@
       "source": "https://endfield.gryphline.com/en-us/news/5208",
       "kicker": {
         "es": "Evento de reto · 1.5",
-        "en": "Challenge event · 1.5"
+        "en": "Challenge event · 1.5",
+        "zh": "挑战活动 · 1.5",
+        "ja": "チャレンジイベント・1.5",
+        "ko": "도전 이벤트 · 1.5"
       },
       "title": {
         "es": "PRUEBA DEL ARCO",
         "en": "TRIAL OF THE BOW",
-        "zh": "弓之试炼"
+        "zh": "挽弓试炼",
+        "ja": "弓の試練",
+        "ko": "궁술 시련"
       },
       "difficulty": "Puzzle",
       "summary": {
         "es": "El campo de tiro del Bosque Nevado, donde estudias las flechas especiales de Sami y usas sus propiedades para resolver cada reto. Vas mejorando el campo para desbloquear más tipos de flecha, y cambias Chips de flecha sobre la marcha según el objetivo. Cuando el evento limitado cierra, el modo queda permanente.",
-        "en": "The Snowy Forest archery range, where you study the special Sami arrows and use their properties to solve each challenge. You upgrade the range to unlock more arrow types, and swap Arrow Chips on the fly to match each target. When the limited-time run closes, the mode stays permanent."
+        "en": "The Snowy Forest archery range, where you study the special Sami arrows and use their properties to solve each challenge. You upgrade the range to unlock more arrow types, and swap Arrow Chips on the fly to match each target. When the limited-time run closes, the mode stays permanent.",
+        "zh": "雪林的射箭场：在这里研究萨米的特殊箭矢，利用它们的特性解决每个挑战。升级射箭场可以解锁更多箭种，并随时更换箭矢芯片来应对不同目标。限时开放结束后，该模式将永久保留。",
+        "ja": "雪原の森の射撃場。サーミの特殊な矢を研究し、その特性を生かして各チャレンジを解いていきます。射撃場を強化すると矢の種類が増え、標的に合わせてアローチップをその場で切り替えられます。期間限定の開催が終わると、モードは常設として残ります。",
+        "ko": "설원 숲의 사격장. 사미의 특수 화살을 연구하고 그 특성을 이용해 각 도전을 해결합니다. 사격장을 업그레이드하면 더 많은 화살 종류가 열리고, 목표에 맞춰 화살 칩을 즉시 바꿀 수 있습니다. 기간 한정 운영이 끝나면 모드는 상시로 남습니다."
       },
       "tags": [
         "limited",
@@ -34,41 +42,65 @@
             {
               "k": {
                 "es": "Tipo",
-                "en": "Type"
+                "en": "Type",
+                "zh": "类型",
+                "ja": "種類",
+                "ko": "유형"
               },
               "v": {
                 "es": "Reto por tiempo limitado",
-                "en": "Limited-time challenge"
+                "en": "Limited-time challenge",
+                "zh": "限时挑战",
+                "ja": "期間限定チャレンジ",
+                "ko": "기간 한정 도전"
               }
             },
             {
               "k": {
                 "es": "Fechas",
-                "en": "Dates"
+                "en": "Dates",
+                "zh": "日期",
+                "ja": "期間",
+                "ko": "기간"
               },
               "v": {
                 "es": "9 sep 2026, 12:00 (hora del servidor) → hasta la próxima actualización de versión",
-                "en": "Sep 9, 2026, 12:00 (server time) → until the next version update"
+                "en": "Sep 9, 2026, 12:00 (server time) → until the next version update",
+                "zh": "2026年9月9日 12:00（服务器时间）→ 直到下次版本更新",
+                "ja": "2026年9月9日 12:00（サーバー時間）→ 次のバージョン更新まで",
+                "ko": "2026년 9월 9일 12:00(서버 시간) → 다음 버전 업데이트까지"
               }
             },
             {
               "k": {
                 "es": "Dónde",
-                "en": "Where"
+                "en": "Where",
+                "zh": "地点",
+                "ja": "場所",
+                "ko": "장소"
               },
               "v": {
                 "es": "Campo de tiro del Bosque Nevado",
-                "en": "Snowy Forest archery range"
+                "en": "Snowy Forest archery range",
+                "zh": "雪林射箭场",
+                "ja": "雪原の森の射撃場",
+                "ko": "설원 숲 사격장"
               }
             },
             {
               "k": {
                 "es": "Al cerrar",
-                "en": "When it closes"
+                "en": "When it closes",
+                "zh": "结束后",
+                "ja": "終了後",
+                "ko": "종료 후"
               },
               "v": {
                 "es": "Queda como modo permanente",
-                "en": "It stays as a permanent mode"
+                "en": "It stays as a permanent mode",
+                "zh": "作为永久模式保留",
+                "ja": "常設モードとして残る",
+                "ko": "상시 모드로 남음"
               }
             }
           ]
@@ -77,47 +109,71 @@
           "type": "lead",
           "body": {
             "es": "Se abre a medida que avanza la historia de Typhoeus. El Endmin la acompaña al campo de tiro a estudiar las flechas especiales de Sami, y cada reto se resuelve aprovechando las propiedades de la flecha que toca. La primera vez que completas la simulación te llevas recompensas únicas, Oroberyl incluido.",
-            "en": "It opens as the story of Typhoeus moves along. The Endmin joins her at the archery range to study the special Sami arrows, and each challenge is solved by leaning on the properties of the right arrow. The first time you complete the simulation you take home one-time rewards, Oroberyl included."
+            "en": "It opens as the story of Typhoeus moves along. The Endmin joins her at the archery range to study the special Sami arrows, and each challenge is solved by leaning on the properties of the right arrow. The first time you complete the simulation you take home one-time rewards, Oroberyl included.",
+            "zh": "随着堤丰的剧情推进而开启。管理员和她一起在射箭场研究萨米的特殊箭矢，每个挑战都要靠合适箭矢的特性来解决。首次完成模拟可以获得一次性奖励，包括源石玉。",
+            "ja": "テュポーンのストーリーが進むと開放されます。管理人は彼女と射撃場でサーミの特殊な矢を研究し、各チャレンジは適した矢の特性を生かして解いていきます。シミュレーションを初めてクリアすると、オリジニウムジェムを含む一回限りの報酬がもらえます。",
+            "ko": "티폰의 스토리가 진행되면 열립니다. 관리자는 그녀와 함께 사격장에서 사미의 특수 화살을 연구하고, 각 도전은 알맞은 화살의 특성으로 해결합니다. 시뮬레이션을 처음 완료하면 오리지늄 젬을 포함한 1회성 보상을 받습니다."
           }
         },
         {
           "type": "pillars",
           "h": {
             "es": "Cómo escala",
-            "en": "How it scales"
+            "en": "How it scales",
+            "zh": "如何扩展",
+            "ja": "どう広がるか",
+            "ko": "확장 방식"
           },
           "items": [
             {
               "icon": "1",
               "h": {
                 "es": "Mejoras el campo de tiro",
-                "en": "You upgrade the range"
+                "en": "You upgrade the range",
+                "zh": "升级射箭场",
+                "ja": "射撃場を強化する",
+                "ko": "사격장을 업그레이드"
               },
               "body": {
                 "es": "A medida que avanzas en los retos puedes mejorar el campo de tiro, y eso desbloquea más tipos de flecha y habilita etapas más complejas.",
-                "en": "As you go deeper into the challenges you can upgrade the range, and that unlocks more arrow types and opens up more complex stages."
+                "en": "As you go deeper into the challenges you can upgrade the range, and that unlocks more arrow types and opens up more complex stages.",
+                "zh": "随着挑战深入，你可以升级射箭场，从而解锁更多箭种并开放更复杂的关卡。",
+                "ja": "チャレンジを進めると射撃場を強化でき、矢の種類が増えてより複雑なステージが開放されます。",
+                "ko": "도전을 진행할수록 사격장을 업그레이드할 수 있고, 더 많은 화살 종류와 복잡한 스테이지가 열립니다."
               }
             },
             {
               "icon": "2",
               "h": {
                 "es": "Cambias Chips de flecha en vivo",
-                "en": "You swap Arrow Chips live"
+                "en": "You swap Arrow Chips live",
+                "zh": "实时更换箭矢芯片",
+                "ja": "アローチップをその場で切り替える",
+                "ko": "화살 칩을 즉시 교체"
               },
               "body": {
                 "es": "En las etapas nuevas hay que adaptarse sobre la marcha: cambiar los Chips de flecha y usar distintas flechas para contrarrestar distintos objetivos. Con la combinación adecuada, el doble de resultado con la mitad del esfuerzo.",
-                "en": "In the new stages you have to adapt on the fly: swap the Arrow Chips and use different arrows to counter different targets. With the right combo, twice the result for half the effort."
+                "en": "In the new stages you have to adapt on the fly: swap the Arrow Chips and use different arrows to counter different targets. With the right combo, twice the result for half the effort.",
+                "zh": "在新关卡中需要随机应变：更换箭矢芯片，用不同的箭矢应对不同目标。搭配得当，事半功倍。",
+                "ja": "新しいステージでは臨機応変さが求められます。アローチップを切り替え、標的ごとに違う矢で対応しましょう。組み合わせが合えば、半分の労力で倍の成果です。",
+                "ko": "새 스테이지에서는 그때그때 대응해야 합니다. 화살 칩을 바꾸고 다른 화살로 다른 목표에 맞서세요. 조합이 맞으면 절반의 노력으로 두 배의 결과를 얻습니다."
               }
             },
             {
               "icon": "3",
               "h": {
                 "es": "Ejercicio diario que rota",
-                "en": "Daily Exercise that rotates"
+                "en": "Daily Exercise that rotates",
+                "zh": "每日轮换的日常练习",
+                "ja": "日替わりのデイリー訓練",
+                "ko": "매일 바뀌는 일일 훈련"
               },
               "body": {
                 "es": "Una vez que limpias las etapas, las de Ejercicio diario varían cada día y puede que necesites un enfoque nuevo para sacarlas.",
-                "en": "Once you clear the stages, the Daily Exercise ones vary every day and you may need a fresh approach to take them down."
+                "en": "Once you clear the stages, the Daily Exercise ones vary every day and you may need a fresh approach to take them down.",
+                "zh": "通关关卡后，日常练习的内容每天都会变化，可能需要新的思路才能攻克。",
+                "ja": "ステージをクリアすると、デイリー訓練の内容は毎日変わり、攻略には新しい発想が必要になることがあります。",
+                "ko": "스테이지를 클리어하면 일일 훈련 내용이 매일 바뀌며, 새로운 접근이 필요할 수 있습니다."
               }
             }
           ]
@@ -126,11 +182,17 @@
           "type": "meta",
           "h": {
             "es": "Misiones de prueba",
-            "en": "Trial Missions"
+            "en": "Trial Missions",
+            "zh": "试炼任务",
+            "ja": "試練ミッション",
+            "ko": "시련 임무"
           },
           "body": {
             "es": "Durante el evento hay misiones de prueba por tiempo limitado que dan recompensas generosas, con Oroberyl entre ellas. Ojo: esas recompensas se cobran una sola vez, no son repetibles.",
-            "en": "While the event runs there are limited-time trial missions handing out generous rewards, Oroberyl among them. Mind this: those rewards are claimed once, they do not repeat."
+            "en": "While the event runs there are limited-time trial missions handing out generous rewards, Oroberyl among them. Mind this: those rewards are claimed once, they do not repeat.",
+            "zh": "活动期间有限时试炼任务，奖励丰厚，包括源石玉。注意：这些奖励只能领取一次，不会重复。",
+            "ja": "イベント期間中は期間限定の試練ミッションがあり、オリジニウムジェムを含む豪華な報酬がもらえます。注意：これらの報酬は一度きりで、繰り返し受け取れません。",
+            "ko": "이벤트 기간에는 오리지늄 젬을 포함한 넉넉한 보상을 주는 기간 한정 시련 임무가 있습니다. 주의: 이 보상은 한 번만 받을 수 있고 반복되지 않습니다."
           }
         },
         {
@@ -138,11 +200,17 @@
           "variant": "tip",
           "h": {
             "es": "No lo dejes para el final… pero tampoco corras",
-            "en": "Do not leave it for last, but do not rush either"
+            "en": "Do not leave it for last, but do not rush either",
+            "zh": "别拖到最后，也别着急",
+            "ja": "後回しにしないで、でも焦らずに",
+            "ko": "마지막으로 미루지 말되, 서두르지도 마세요"
           },
           "body": {
             "es": "Las recompensas de las misiones de prueba SÍ tienen fecha límite, así que esas conviene sacarlas dentro del evento. Las etapas en sí no se pierden: cuando el evento limitado cierra, Prueba del arco queda como modo permanente y lo puedes seguir jugando.",
-            "en": "The trial mission rewards DO have a deadline, so those are worth clearing while the event is live. The stages themselves are not lost: once the limited-time run closes, Trial of the Bow stays as a permanent mode and you can keep playing it."
+            "en": "The trial mission rewards DO have a deadline, so those are worth clearing while the event is live. The stages themselves are not lost: once the limited-time run closes, Trial of the Bow stays as a permanent mode and you can keep playing it.",
+            "zh": "试炼任务的奖励确实有截止日期，所以值得在活动期间完成。关卡本身不会消失：限时开放结束后，弓之试炼将作为永久模式保留，你可以继续游玩。",
+            "ja": "試練ミッションの報酬には期限があるので、イベント中にクリアしておく価値があります。ステージ自体は消えません。期間限定の開催が終わっても、弓の試練は常設モードとして残り、引き続き遊べます。",
+            "ko": "시련 임무 보상에는 기한이 있으니 이벤트 중에 클리어할 가치가 있습니다. 스테이지 자체는 사라지지 않습니다. 기간 한정 운영이 끝나도 활의 시련은 상시 모드로 남아 계속 플레이할 수 있습니다."
           }
         },
         {
@@ -150,13 +218,47 @@
           "variant": "warn",
           "h": {
             "es": "Datos pendientes",
-            "en": "Pending data"
+            "en": "Pending data",
+            "zh": "待确认信息",
+            "ja": "未確定の情報",
+            "ko": "미확정 정보"
           },
           "body": {
             "es": "Fechas, cantidad de etapas y lista de tipos de flecha todavía no están publicadas. Esta ficha se arma con lo que confirmó el programa oficial de la versión y se completa cuando el evento abra.",
-            "en": "Dates, stage count and the list of arrow types are not published yet. This page is built from what the official version program confirmed, and gets completed once the event opens."
+            "en": "Dates, stage count and the list of arrow types are not published yet. This page is built from what the official version program confirmed, and gets completed once the event opens.",
+            "zh": "日期、关卡数量和箭种列表尚未公布。本页根据官方版本前瞻确认的内容编写，活动开启后补全。",
+            "ja": "日程、ステージ数、矢の種類の一覧はまだ公開されていません。このページは公式のバージョン予告で確認された内容をもとに作成し、イベント開始後に補完します。",
+            "ko": "날짜, 스테이지 수, 화살 종류 목록은 아직 공개되지 않았습니다. 이 페이지는 공식 버전 예고에서 확인된 내용으로 작성했으며 이벤트가 열리면 보완됩니다."
           }
         }
+      ],
+      "difficulty_es": "Puzle",
+      "difficulty_zh": "解谜",
+      "difficulty_ja": "パズル",
+      "difficulty_ko": "퍼즐",
+      "tags_es": [
+        "limitado",
+        "permanente después",
+        "Arrow Chips",
+        "Oroberyl"
+      ],
+      "tags_zh": [
+        "限时",
+        "之后常驻",
+        "箭矢芯片",
+        "嵌晶玉"
+      ],
+      "tags_ja": [
+        "期間限定",
+        "終了後は常設",
+        "矢のチップ",
+        "赤晶玉"
+      ],
+      "tags_ko": [
+        "기간 한정",
+        "이후 상시",
+        "화살 칩",
+        "오로베릴"
       ]
     },
     {
@@ -166,16 +268,25 @@
       "source": "https://endfield.gryphline.com/en-us/news/5208",
       "kicker": {
         "es": "Evento de diversión · 1.5",
-        "en": "Fun & games event · 1.5"
+        "en": "Fun & games event · 1.5",
+        "zh": "休闲活动 · 1.5",
+        "ja": "お楽しみイベント・1.5",
+        "ko": "놀이 이벤트 · 1.5"
       },
       "title": {
         "es": "CARRERA DE OBSTÁCULOS DE LOS CORREDORES",
-        "en": "RUNNERS' STEEPLECHASE"
+        "en": "RUNNERS' STEEPLECHASE",
+        "zh": "跑者运动会",
+        "ja": "ランナー競技会",
+        "ko": "러너 운동회"
       },
       "difficulty": "Parkour",
       "summary": {
         "es": "El evento ligero de la 1.5, en la segunda mitad de la versión. Yvonne llega a la Ciudad de Wuling e invita al Endmin a las festividades: pistas por senderos de montaña, techos y aire, con impulsores, vórtices y trampas. Puedes correr contra el reloj o explorar a tu ritmo juntando globos de Lung regordete.",
-        "en": "The light event of 1.5, in the second half of the version. Yvonne arrives in Wuling City and invites the Endmin to the festivities: tracks across mountain paths, rooftops and open air, with bounce devices, vortexes and traps. You can race the clock or explore at your own pace collecting Chubby Lung Balloons."
+        "en": "The light event of 1.5, in the second half of the version. Yvonne arrives in Wuling City and invites the Endmin to the festivities: tracks across mountain paths, rooftops and open air, with bounce devices, vortexes and traps. You can race the clock or explore at your own pace collecting Chubby Lung Balloons.",
+        "zh": "1.5 版本后半段的轻松活动。伊冯娜来到武陵城，邀请管理员参加庆典：赛道穿过山路、屋顶和空中，配有弹跳装置、旋涡和陷阱。你可以计时竞速，也可以按自己的节奏探索，收集胖肺气球。",
+        "ja": "1.5 後半の軽めのイベント。イヴォンヌが武陵の街を訪れ、管理人を祭りに招きます。山道、屋根の上、空中を走るコースには、跳躍装置や渦、罠が待っています。タイムを競っても、自分のペースでチャビー・ラング風船を集めながら探索してもかまいません。",
+        "ko": "1.5 후반의 가벼운 이벤트. 이본이 무릉 도시에 도착해 관리자를 축제에 초대합니다. 산길, 지붕, 공중을 가로지르는 트랙에는 도약 장치, 소용돌이, 함정이 있습니다. 시간과 경쟁해도 되고, 자신의 속도로 탐험하며 통통 폐 풍선을 모아도 됩니다."
       },
       "tags": [
         "limited",
@@ -190,41 +301,65 @@
             {
               "k": {
                 "es": "Tipo",
-                "en": "Type"
+                "en": "Type",
+                "zh": "类型",
+                "ja": "種類",
+                "ko": "유형"
               },
               "v": {
                 "es": "Diversión y juegos",
-                "en": "Fun & games"
+                "en": "Fun & games",
+                "zh": "休闲活动",
+                "ja": "お楽しみ",
+                "ko": "놀이"
               }
             },
             {
               "k": {
                 "es": "Fase",
-                "en": "Phase"
+                "en": "Phase",
+                "zh": "阶段",
+                "ja": "フェーズ",
+                "ko": "단계"
               },
               "v": {
                 "es": "Segunda mitad de la 1.5",
-                "en": "Second half of 1.5"
+                "en": "Second half of 1.5",
+                "zh": "1.5 后半段",
+                "ja": "1.5 後半",
+                "ko": "1.5 후반"
               }
             },
             {
               "k": {
                 "es": "Fechas",
-                "en": "Dates"
+                "en": "Dates",
+                "zh": "日期",
+                "ja": "期間",
+                "ko": "기간"
               },
               "v": {
                 "es": "1 oct 2026, 12:00 (hora del servidor) → hasta la próxima actualización de versión",
-                "en": "Oct 1, 2026, 12:00 (server time) → until the next version update"
+                "en": "Oct 1, 2026, 12:00 (server time) → until the next version update",
+                "zh": "2026年10月1日 12:00（服务器时间）→ 直到下次版本更新",
+                "ja": "2026年10月1日 12:00（サーバー時間）→ 次のバージョン更新まで",
+                "ko": "2026년 10월 1일 12:00(서버 시간) → 다음 버전 업데이트까지"
               }
             },
             {
               "k": {
                 "es": "Dónde",
-                "en": "Where"
+                "en": "Where",
+                "zh": "地点",
+                "ja": "場所",
+                "ko": "장소"
               },
               "v": {
                 "es": "Ciudad de Wuling",
-                "en": "Wuling City"
+                "en": "Wuling City",
+                "zh": "武陵城",
+                "ja": "武陵の街",
+                "ko": "무릉 도시"
               }
             }
           ]
@@ -233,47 +368,71 @@
           "type": "lead",
           "body": {
             "es": "La pista de atletismo de la Ciudad de Wuling, esa por la que siempre ves gente trotando, se convierte en el escenario del evento. Desde senderos de montaña hasta los techos de la ciudad, y hasta por el aire: todo rincón termina siendo un paraíso del atletismo.",
-            "en": "The running track in Wuling City, the one you always see citizens jogging on, becomes the stage for the event. From mountain paths to city rooftops, and even through the air: every corner ends up being a runner paradise."
+            "en": "The running track in Wuling City, the one you always see citizens jogging on, becomes the stage for the event. From mountain paths to city rooftops, and even through the air: every corner ends up being a runner paradise.",
+            "zh": "武陵城的跑道——就是你总能看到市民慢跑的那条——成了活动的舞台。从山路到城市屋顶，甚至穿越空中：每个角落都成了跑者的天堂。",
+            "ja": "武陵の街のランニングコース。いつも市民がジョギングしているあの道がイベントの舞台になります。山道から街の屋根の上、さらには空中まで、あらゆる場所がランナーの楽園です。",
+            "ko": "무릉 도시의 러닝 트랙, 늘 시민들이 조깅하던 그 길이 이벤트 무대가 됩니다. 산길에서 도시 지붕 위, 심지어 공중까지, 구석구석이 러너의 천국이 됩니다."
           }
         },
         {
           "type": "pillars",
           "h": {
             "es": "Dos formas de jugarlo",
-            "en": "Two ways to play it"
+            "en": "Two ways to play it",
+            "zh": "两种玩法",
+            "ja": "2 つの遊び方",
+            "ko": "두 가지 플레이 방식"
           },
           "items": [
             {
               "icon": "1",
               "h": {
                 "es": "A toda velocidad",
-                "en": "Full speed"
+                "en": "Full speed",
+                "zh": "全速冲刺",
+                "ja": "全速力",
+                "ko": "전속력"
               },
               "body": {
                 "es": "Vas directo a la meta. Llegar dentro del límite de tiempo otorga premios generosos, Oroberyl incluido.",
-                "en": "You go straight for the finish line. Reaching it inside the time limit awards generous prizes, Oroberyl included."
+                "en": "You go straight for the finish line. Reaching it inside the time limit awards generous prizes, Oroberyl included.",
+                "zh": "直奔终点。在限时内到达即可获得丰厚奖励，包括源石玉。",
+                "ja": "ゴール一直線。制限時間内に到達すると、オリジニウムジェムを含む豪華な報酬がもらえます。",
+                "ko": "결승선으로 곧장 달립니다. 제한 시간 안에 도착하면 오리지늄 젬을 포함한 넉넉한 상품을 받습니다."
               }
             },
             {
               "icon": "2",
               "h": {
                 "es": "A tu ritmo",
-                "en": "At your own pace"
+                "en": "At your own pace",
+                "zh": "按自己的节奏",
+                "ja": "自分のペースで",
+                "ko": "내 속도대로"
               },
               "body": {
                 "es": "Te tomas el tiempo de explorar la pista y juntar todos los globos de Lung regordete. Mientras más globos reúnas, más recompensas de hito desbloqueas.",
-                "en": "You take the time to explore the track and collect every Chubby Lung Balloon. The more balloons you gather, the more milestone rewards you unlock."
+                "en": "You take the time to explore the track and collect every Chubby Lung Balloon. The more balloons you gather, the more milestone rewards you unlock.",
+                "zh": "花时间探索赛道，收集所有胖肺气球。收集的气球越多，解锁的里程碑奖励越多。",
+                "ja": "時間をかけてコースを探索し、チャビー・ラング風船をすべて集めます。集めた風船が多いほど、多くのマイルストーン報酬が解放されます。",
+                "ko": "시간을 들여 트랙을 탐험하고 통통 폐 풍선을 전부 모읍니다. 풍선을 많이 모을수록 더 많은 이정표 보상이 열립니다."
               }
             },
             {
               "icon": "3",
               "h": {
                 "es": "Usa los mecanismos",
-                "en": "Use the mechanisms"
+                "en": "Use the mechanisms",
+                "zh": "利用机关",
+                "ja": "仕掛けを使う",
+                "ko": "장치를 활용"
               },
               "body": {
                 "es": "La pista trae dispositivos de impulso, vórtices y otros mecanismos que puedes aprovechar para terminar más rápido. Y no te olvides de que también hay trampas en el camino.",
-                "en": "The track comes with bounce devices, vortexes and other mechanisms you can use to finish faster. And do not forget there are traps along the way too."
+                "en": "The track comes with bounce devices, vortexes and other mechanisms you can use to finish faster. And do not forget there are traps along the way too.",
+                "zh": "赛道上有弹跳装置、旋涡和其他机关，可以帮你更快完成。别忘了路上也有陷阱。",
+                "ja": "コースには跳躍装置や渦などの仕掛けがあり、より速くゴールするのに使えます。途中には罠もあることを忘れずに。",
+                "ko": "트랙에는 도약 장치, 소용돌이 등 더 빨리 완주하는 데 쓸 수 있는 장치가 있습니다. 길에 함정도 있다는 걸 잊지 마세요."
               }
             }
           ]
@@ -283,11 +442,17 @@
           "variant": "tip",
           "h": {
             "es": "Lo conmemorativo va por globos",
-            "en": "The commemorative stuff comes from balloons"
+            "en": "The commemorative stuff comes from balloons",
+            "zh": "纪念品来自气球",
+            "ja": "記念品は風船から",
+            "ko": "기념품은 풍선에서"
           },
           "body": {
             "es": "El Oroberyl sale de llegar a la meta a tiempo, pero los objetos conmemorativos como la bebida energética Lung regordete rodante salen de los hitos de globos. Si vas por la colección, la carrera rápida no te alcanza.",
-            "en": "The Oroberyl comes from hitting the finish line in time, but the commemorative items like the Rolling Chubby Lung energy drink come from the balloon milestones. If you are after the collection, the fast run is not enough."
+            "en": "The Oroberyl comes from hitting the finish line in time, but the commemorative items like the Rolling Chubby Lung energy drink come from the balloon milestones. If you are after the collection, the fast run is not enough.",
+            "zh": "源石玉来自限时冲线，但滚动胖肺能量饮料等纪念品来自气球里程碑。如果你想收集，光跑得快是不够的。",
+            "ja": "オリジニウムジェムは時間内のゴールでもらえますが、ローリング・チャビー・ラングのエナジードリンクなどの記念品は風船のマイルストーンからです。コレクション狙いなら、速く走るだけでは足りません。",
+            "ko": "오리지늄 젬은 시간 안에 결승선을 통과하면 받지만, 롤링 통통 폐 에너지 드링크 같은 기념품은 풍선 이정표에서 나옵니다. 수집이 목표라면 빨리 달리는 것만으로는 부족합니다."
           }
         },
         {
@@ -295,13 +460,47 @@
           "variant": "warn",
           "h": {
             "es": "Datos pendientes",
-            "en": "Pending data"
+            "en": "Pending data",
+            "zh": "待确认信息",
+            "ja": "未確定の情報",
+            "ko": "미확정 정보"
           },
           "body": {
             "es": "Fechas exactas, número de pistas y la lista completa de hitos todavía no están publicadas. Se completa cuando abra la segunda mitad de la versión.",
-            "en": "Exact dates, number of tracks and the full milestone list are not published yet. It gets completed when the second half of the version opens."
+            "en": "Exact dates, number of tracks and the full milestone list are not published yet. It gets completed when the second half of the version opens.",
+            "zh": "确切日期、赛道数量和完整的里程碑列表尚未公布。版本后半段开启时补全。",
+            "ja": "正確な日程、コース数、マイルストーンの全一覧はまだ公開されていません。バージョン後半の開始時に補完します。",
+            "ko": "정확한 날짜, 트랙 수, 전체 이정표 목록은 아직 공개되지 않았습니다. 버전 후반이 열리면 보완됩니다."
           }
         }
+      ],
+      "difficulty_es": "Parkour",
+      "difficulty_zh": "跑酷",
+      "difficulty_ja": "パルクール",
+      "difficulty_ko": "파쿠르",
+      "tags_es": [
+        "limitado",
+        "parkour",
+        "globos Chubby Lung",
+        "Oroberyl"
+      ],
+      "tags_zh": [
+        "限时",
+        "跑酷",
+        "龙泡泡气球",
+        "嵌晶玉"
+      ],
+      "tags_ja": [
+        "期間限定",
+        "パルクール",
+        "龍泡泡の風船",
+        "赤晶玉"
+      ],
+      "tags_ko": [
+        "기간 한정",
+        "파쿠르",
+        "드래곤 버블 풍선",
+        "오로베릴"
       ]
     },
     {
@@ -313,16 +512,25 @@
       "source": "https://endfield.gryphline.com/en-us/news/5208",
       "kicker": {
         "es": "Soporte del CAI · 1.5",
-        "en": "AIC Support · 1.5"
+        "en": "AIC Support · 1.5",
+        "zh": "集成工业支援 · 1.5",
+        "ja": "集成工業サポート・1.5",
+        "ko": "통합 공업 지원 · 1.5"
       },
       "title": {
         "es": "EL LUNG REGORDETE ATACA",
-        "en": "CHUBBY LUNG ATTACKS"
+        "en": "CHUBBY LUNG ATTACKS",
+        "zh": "泡泡出击",
+        "ja": "龍泡泡出撃",
+        "ko": "버블 출동!"
       },
       "difficulty": "Factory",
       "summary": {
         "es": "Segunda sesión del Soporte del CAI. Produces productos de apoyo con fórmulas por tiempo limitado y los entregas en los puestos de avanzada de Wuling a cambio de Vales de crédito y Certificados de Frutos del Altruismo, que se canjean en la tienda limitada. Durante el evento algunos puestos suben mucho su producción.",
-        "en": "Second session of AIC Support. You produce support goods with limited-time formulas and submit them at Wuling outposts in exchange for Stock Bills and Fruits of Altruism Certs, which are redeemed at the limited-time shop. While it runs, some outposts see a big production boost."
+        "en": "Second session of AIC Support. You produce support goods with limited-time formulas and submit them at Wuling outposts in exchange for Stock Bills and Fruits of Altruism Certs, which are redeemed at the limited-time shop. While it runs, some outposts see a big production boost.",
+        "zh": "集成工业支援第二期。用限时配方生产支援物资，提交到武陵的据点，换取储备票据和利他之果凭证，凭证可在限时商店兑换。活动期间，部分据点的产量大幅提升。",
+        "ja": "集成工業サポート第 2 回。期間限定のレシピで支援物資を生産し、武陵の拠点に納品してストックビルと「利他の果実」証明書を受け取り、期間限定ショップで交換します。開催中は一部の拠点の生産量が大幅に増えます。",
+        "ko": "통합 공업 지원 2회차. 기간 한정 제조법으로 지원 물자를 생산해 무릉 거점에 제출하고, 스톡 빌과 이타의 열매 증서를 받아 기간 한정 상점에서 교환합니다. 진행 중에는 일부 거점의 생산량이 크게 오릅니다."
       },
       "tags": [
         "limited",
@@ -338,41 +546,65 @@
             {
               "k": {
                 "es": "Tipo",
-                "en": "Type"
+                "en": "Type",
+                "zh": "类型",
+                "ja": "種類",
+                "ko": "유형"
               },
               "v": {
                 "es": "Soporte del CAI, sesión 2",
-                "en": "AIC Support, session 2"
+                "en": "AIC Support, session 2",
+                "zh": "集成工业支援，第二期",
+                "ja": "集成工業サポート、第 2 回",
+                "ko": "통합 공업 지원, 2회차"
               }
             },
             {
               "k": {
                 "es": "Fechas",
-                "en": "Dates"
+                "en": "Dates",
+                "zh": "日期",
+                "ja": "期間",
+                "ko": "기간"
               },
               "v": {
                 "es": "16 sep, 12:00 → 30 sep, 16:00 de 2026 (hora del servidor) · canje de bienes hasta el 7 oct, 04:00",
-                "en": "Sep 16, 12:00 → Sep 30, 16:00, 2026 (server time) · Goods Exchange until Oct 7, 04:00"
+                "en": "Sep 16, 12:00 → Sep 30, 16:00, 2026 (server time) · Goods Exchange until Oct 7, 04:00",
+                "zh": "2026年9月16日 12:00 → 9月30日 16:00（服务器时间）· 物资兑换至10月7日 04:00",
+                "ja": "2026年9月16日 12:00 → 9月30日 16:00（サーバー時間）・物資交換は10月7日 04:00 まで",
+                "ko": "2026년 9월 16일 12:00 → 9월 30일 16:00(서버 시간) · 물자 교환은 10월 7일 04:00까지"
               }
             },
             {
               "k": {
                 "es": "Dónde",
-                "en": "Where"
+                "en": "Where",
+                "zh": "地点",
+                "ja": "場所",
+                "ko": "장소"
               },
               "v": {
                 "es": "Puestos de avanzada de Wuling",
-                "en": "Wuling outposts"
+                "en": "Wuling outposts",
+                "zh": "武陵据点",
+                "ja": "武陵の拠点",
+                "ko": "무릉 거점"
               }
             },
             {
               "k": {
                 "es": "Moneda",
-                "en": "Currency"
+                "en": "Currency",
+                "zh": "货币",
+                "ja": "通貨",
+                "ko": "화폐"
               },
               "v": {
                 "es": "Vales de crédito · Frutos del Altruismo",
-                "en": "Stock Bills · Fruits of Altruism"
+                "en": "Stock Bills · Fruits of Altruism",
+                "zh": "储备票据 · 利他之果",
+                "ja": "ストックビル・利他の果実",
+                "ko": "스톡 빌 · 이타의 열매"
               }
             }
           ]
@@ -381,47 +613,71 @@
           "type": "lead",
           "body": {
             "es": "La recuperación de Wuling sigue siendo un proceso largo, y la Fábrica del CAI está para que la ciudad recupere rápido la vitalidad que perdió. Durante el evento consigues fórmulas por tiempo limitado, produces productos de apoyo especiales y los entregas en los puestos de avanzada.",
-            "en": "The recovery of Wuling is still a long process, and the AIC Factory is there to help the city get back the vitality it lost. During the event you get limited-time formulas, produce special support goods and submit them at the outposts."
+            "en": "The recovery of Wuling is still a long process, and the AIC Factory is there to help the city get back the vitality it lost. During the event you get limited-time formulas, produce special support goods and submit them at the outposts.",
+            "zh": "武陵的复苏仍是一个漫长的过程，集成工业工厂就是为了帮助这座城市恢复失去的活力。活动期间你会获得限时配方，生产特殊支援物资并提交到据点。",
+            "ja": "武陵の復興はまだ長い道のりで、集成工業の工場は街が失った活気を取り戻す手助けをします。イベント中は期間限定のレシピを入手し、特別な支援物資を生産して拠点に納品します。",
+            "ko": "무릉의 복구는 아직 긴 과정이며, 통합 공업 공장은 도시가 잃어버린 활력을 되찾도록 돕습니다. 이벤트 기간에 기간 한정 제조법을 얻어 특별 지원 물자를 생산하고 거점에 제출합니다."
           }
         },
         {
           "type": "pillars",
           "h": {
             "es": "El circuito",
-            "en": "The loop"
+            "en": "The loop",
+            "zh": "循环",
+            "ja": "ループ",
+            "ko": "흐름"
           },
           "items": [
             {
               "icon": "1",
               "h": {
                 "es": "Produces y entregas",
-                "en": "You produce and submit"
+                "en": "You produce and submit",
+                "zh": "生产并提交",
+                "ja": "生産して納品する",
+                "ko": "생산하고 제출"
               },
               "body": {
                 "es": "Las fórmulas limitadas te dejan fabricar productos de apoyo especiales. Los entregas en los puestos de avanzada de Wuling a cambio de Vales de crédito de Wuling y Certificados de Frutos del Altruismo.",
-                "en": "The limited-time formulas let you build special support goods. You submit them at the Wuling outposts in exchange for Wuling Stock Bills and Fruits of Altruism Certs."
+                "en": "The limited-time formulas let you build special support goods. You submit them at the Wuling outposts in exchange for Wuling Stock Bills and Fruits of Altruism Certs.",
+                "zh": "限时配方可以制造特殊支援物资。把它们提交到武陵据点，换取武陵储备票据和利他之果凭证。",
+                "ja": "期間限定のレシピで特別な支援物資を作れます。武陵の拠点に納品すると、武陵ストックビルと「利他の果実」証明書がもらえます。",
+                "ko": "기간 한정 제조법으로 특별 지원 물자를 만들 수 있습니다. 무릉 거점에 제출하면 무릉 스톡 빌과 이타의 열매 증서를 받습니다."
               }
             },
             {
               "icon": "2",
               "h": {
                 "es": "Canjeas los certificados",
-                "en": "You redeem the certs"
+                "en": "You redeem the certs",
+                "zh": "兑换凭证",
+                "ja": "証明書を交換する",
+                "ko": "증서를 교환"
               },
               "body": {
                 "es": "Los Certificados de Frutos del Altruismo se canjean por recompensas en la tienda por tiempo limitado.",
-                "en": "The Fruits of Altruism Certs are redeemed for rewards at the limited-time shop."
+                "en": "The Fruits of Altruism Certs are redeemed for rewards at the limited-time shop.",
+                "zh": "利他之果凭证可在限时商店兑换奖励。",
+                "ja": "「利他の果実」証明書は期間限定ショップで報酬と交換できます。",
+                "ko": "이타의 열매 증서는 기간 한정 상점에서 보상으로 교환합니다."
               }
             },
             {
               "icon": "3",
               "h": {
                 "es": "Los puestos rinden más",
-                "en": "The outposts yield more"
+                "en": "The outposts yield more",
+                "zh": "据点产出更多",
+                "ja": "拠点の産出が増える",
+                "ko": "거점 산출량 증가"
               },
               "body": {
                 "es": "Mientras dura el evento, los puestos de avanzada correspondientes de Wuling aumentan mucho su producción de vales de crédito, así que acumulas recursos bastante más rápido de lo normal.",
-                "en": "While the event runs, the matching Wuling outposts get a big boost to stock bill yield, so you stack resources quite a bit faster than usual."
+                "en": "While the event runs, the matching Wuling outposts get a big boost to stock bill yield, so you stack resources quite a bit faster than usual.",
+                "zh": "活动期间，对应的武陵据点储备票据产量大幅提升，资源积累比平时快得多。",
+                "ja": "開催中は該当する武陵の拠点でストックビルの産出が大きく増え、いつもよりずっと速く資源が貯まります。",
+                "ko": "이벤트 동안 해당 무릉 거점의 스톡 빌 산출량이 크게 올라 평소보다 훨씬 빠르게 자원이 쌓입니다."
               }
             }
           ]
@@ -430,24 +686,39 @@
           "type": "meta",
           "h": {
             "es": "Lo que mejoraron del canje",
-            "en": "What they improved about the exchange"
+            "en": "What they improved about the exchange",
+            "zh": "兑换方面的改进",
+            "ja": "交換で改善された点",
+            "ko": "교환에서 개선된 점"
           },
           "body": {
             "es": "La versión también trae arreglos de calidad de vida en la tienda del evento, que en la sesión anterior obligaba a dar vueltas.",
-            "en": "The version also brings quality of life fixes to the event shop, which in the previous session made you go back and forth."
+            "en": "The version also brings quality of life fixes to the event shop, which in the previous session made you go back and forth.",
+            "zh": "本版本还为活动商店带来了便利性修正，上一期时它让你来回奔波。",
+            "ja": "このバージョンではイベントショップの利便性も改善されました。前回は行ったり来たりさせられていました。",
+            "ko": "이번 버전은 이벤트 상점의 편의성도 개선했습니다. 지난 회차에는 왔다 갔다 해야 했습니다."
           },
           "points": [
             {
               "es": "Hay un intercambio por tiempo limitado dentro de la propia interfaz del puesto de avanzada, para canjear apenas entregas.",
-              "en": "There is a limited-time exchange inside the outpost interface itself, so you can redeem right after submitting."
+              "en": "There is a limited-time exchange inside the outpost interface itself, so you can redeem right after submitting.",
+              "zh": "据点界面内直接提供限时兑换，提交后可立即兑换。",
+              "ja": "拠点の画面内に期間限定の交換があり、納品後すぐに交換できます。",
+              "ko": "거점 화면 안에 기간 한정 교환이 있어 제출 직후 바로 교환할 수 있습니다."
             },
             {
               "es": "Al entrar a la tienda por primera vez, los objetos de la primera fase vienen preseleccionados.",
-              "en": "The first time you enter the shop, the first-phase items come preselected."
+              "en": "The first time you enter the shop, the first-phase items come preselected.",
+              "zh": "首次进入商店时，第一阶段的物品已预先选好。",
+              "ja": "初めてショップに入ると、第 1 フェーズのアイテムがあらかじめ選択されています。",
+              "ko": "상점에 처음 들어가면 1단계 아이템이 미리 선택되어 있습니다."
             },
             {
               "es": "Cuando agotas toda la primera fase, la tienda salta sola a la segunda.",
-              "en": "Once you clear the whole first phase, the shop jumps to the second one on its own."
+              "en": "Once you clear the whole first phase, the shop jumps to the second one on its own.",
+              "zh": "清空整个第一阶段后，商店会自动跳到第二阶段。",
+              "ja": "第 1 フェーズをすべて交換すると、ショップは自動で第 2 フェーズに移ります。",
+              "ko": "1단계를 전부 비우면 상점이 자동으로 2단계로 넘어갑니다."
             }
           ]
         },
@@ -456,13 +727,47 @@
           "variant": "warn",
           "h": {
             "es": "Datos pendientes",
-            "en": "Pending data"
+            "en": "Pending data",
+            "zh": "待确认信息",
+            "ja": "未確定の情報",
+            "ko": "미확정 정보"
           },
           "body": {
             "es": "Fechas, lista de fórmulas y catálogo de la tienda limitada todavía no están publicados. Se completa cuando el evento abra.",
-            "en": "Dates, formula list and the limited-time shop catalogue are not published yet. It gets completed once the event opens."
+            "en": "Dates, formula list and the limited-time shop catalogue are not published yet. It gets completed once the event opens.",
+            "zh": "日期、配方列表和限时商店目录尚未公布。活动开启后补全。",
+            "ja": "日程、レシピの一覧、期間限定ショップの品目はまだ公開されていません。イベント開始後に補完します。",
+            "ko": "날짜, 제조법 목록, 기간 한정 상점 목록은 아직 공개되지 않았습니다. 이벤트가 열리면 보완됩니다."
           }
         }
+      ],
+      "difficulty_es": "Fábrica",
+      "difficulty_zh": "工业",
+      "difficulty_ja": "工業",
+      "difficulty_ko": "공업",
+      "tags_es": [
+        "limitado",
+        "AIC",
+        "Stock Bills",
+        "tienda"
+      ],
+      "tags_zh": [
+        "限时",
+        "集成工业",
+        "调度券",
+        "商店"
+      ],
+      "tags_ja": [
+        "期間限定",
+        "集成工業",
+        "取引券",
+        "ショップ"
+      ],
+      "tags_ko": [
+        "기간 한정",
+        "통합 공업",
+        "관리권",
+        "상점"
       ]
     },
     {
@@ -471,18 +776,25 @@
       "accent": "#e02121",
       "kicker": {
         "es": "Modo permanente · 1.4",
-        "en": "Permanent mode · 1.4"
+        "en": "Permanent mode · 1.4",
+        "zh": "永久模式 · 1.4",
+        "ja": "常設モード・1.4",
+        "ko": "상시 모드 · 1.4"
       },
       "title": {
         "es": "Ecos de guerra",
         "en": "Echoes of War",
-        "jp": "戦争残響",
-        "zh": "战争回响"
+        "zh": "战争回响",
+        "ja": "戦争残響",
+        "ko": "전쟁의 메아리"
       },
       "difficulty": "Endgame",
       "summary": {
         "es": "El modo de fin de juego que llegó con la 1.4, y es permanente. Cada temporada te da tres ciclos de tres etapas, y cada etapa se juega en Normal, Hard o Brutal con equipo independiente. Lo importante: todo el Oroberyl se asegura en Normal. Las dificultades altas solo suben las estrellas que deciden tu título de temporada.",
-        "en": "The endgame mode added in 1.4, and it's permanent. Each season gives you three cycles of three stages, and every stage runs on Normal, Hard or Brutal with its own team. The important part: all the Oroberyl is secured on Normal. Higher difficulties only raise the stars that set your season title."
+        "en": "The endgame mode added in 1.4, and it's permanent. Each season gives you three cycles of three stages, and every stage runs on Normal, Hard or Brutal with its own team. The important part: all the Oroberyl is secured on Normal. Higher difficulties only raise the stars that set your season title.",
+        "zh": "1.4 加入的终局模式，永久保留。每个赛季有三个周期，每个周期三个关卡，每个关卡都有普通、困难、残酷三个难度，各带独立队伍。关键在于：全部源石玉在普通难度就能拿到。更高难度只提升决定赛季称号的星数。",
+        "ja": "1.4 で追加された常設のエンドゲームモード。各シーズンに 3 つのサイクルがあり、それぞれ 3 ステージ。各ステージはノーマル、ハード、ブルータルで挑戦でき、それぞれ別のチームで挑めます。大事なのは、オリジニウムジェムはすべてノーマルで確保できること。高難度はシーズンの称号を決める星を増やすだけです。",
+        "ko": "1.4에 추가된 상시 엔드게임 모드. 각 시즌은 세 사이클, 사이클마다 세 스테이지이며, 각 스테이지는 일반·어려움·잔혹 난이도로 각각 다른 팀을 데리고 도전합니다. 중요한 점: 오리지늄 젬은 전부 일반 난이도에서 확보됩니다. 높은 난이도는 시즌 칭호를 정하는 별만 올립니다."
       },
       "tags": [
         "permanent",
@@ -499,42 +811,64 @@
               "k": {
                 "es": "Tipo",
                 "en": "Type",
-                "jp": "分類",
-                "zh": "类别"
+                "zh": "类型",
+                "ja": "種類",
+                "ko": "유형"
               },
               "v": {
                 "es": "Permanente · por temporadas",
-                "en": "Permanent · seasonal"
+                "en": "Permanent · seasonal",
+                "zh": "永久 · 赛季制",
+                "ja": "常設・シーズン制",
+                "ko": "상시 · 시즌제"
               }
             },
             {
               "k": {
                 "es": "Temporada",
-                "en": "Season"
+                "en": "Season",
+                "zh": "赛季",
+                "ja": "シーズン",
+                "ko": "시즌"
               },
               "v": {
                 "es": "Season of Virtuality · 2 – 24 sep · Season of Illusion · desde el 24 sep",
-                "en": "Season of Virtuality · Sep 2 – 24 · Season of Illusion · from Sep 24"
+                "en": "Season of Virtuality · Sep 2 – 24 · Season of Illusion · from Sep 24",
+                "zh": "虚境之季 · 9月2日 – 24日 · 幻象之季 · 9月24日起",
+                "ja": "虚構のシーズン・9月2日〜24日・幻影のシーズン・9月24日から",
+                "ko": "허상의 시즌 · 9월 2일 – 24일 · 환영의 시즌 · 9월 24일부터"
               }
             },
             {
               "k": {
                 "es": "Dificultades",
-                "en": "Difficulties"
+                "en": "Difficulties",
+                "zh": "难度",
+                "ja": "難易度",
+                "ko": "난이도"
               },
               "v": {
                 "es": "Normal · Hard · Brutal",
-                "en": "Normal · Hard · Brutal"
+                "en": "Normal · Hard · Brutal",
+                "zh": "普通 · 困难 · 残酷",
+                "ja": "ノーマル・ハード・ブルータル",
+                "ko": "일반 · 어려움 · 잔혹"
               }
             },
             {
               "k": {
                 "es": "Tope por ciclo",
-                "en": "Cycle cap"
+                "en": "Cycle cap",
+                "zh": "周期上限",
+                "ja": "サイクル上限",
+                "ko": "사이클 상한"
               },
               "v": {
                 "es": "9★ (3 etapas de 3★)",
-                "en": "9★ (3 stages at 3★)"
+                "en": "9★ (3 stages at 3★)",
+                "zh": "9★（3 个关卡各 3★）",
+                "ja": "9★（3 ステージ×3★）",
+                "ko": "9★(스테이지 3개 각 3★)"
               }
             }
           ]
@@ -543,58 +877,88 @@
           "type": "lead",
           "body": {
             "es": "Echoes of War es el modo de desafío permanente de la 1.4. Cada temporada trae tres ciclos, y cada ciclo abre tres etapas de combate a contrarreloj con una mecánica propia que le da la vuelta a la pelea. Cada etapa se juega en Normal, Hard o Brutal, y llevas equipo independiente en cada una: lo que montes en una no condiciona a las demás. La recompensa premium no depende de la dificultad, todo el Oroberyl sale en Normal. Hard y Brutal son prestigio: suben las estrellas que deciden tu título de temporada.",
-            "en": "Echoes of War is 1.4's permanent challenge mode. Each season brings three cycles, and each cycle opens three stages of timed combat, each with its own mechanic that turns the fight on its head. Every stage runs on Normal, Hard or Brutal, and you bring an independent team to each one: what you field in one doesn't constrain the others. The premium reward doesn't depend on difficulty, all the Oroberyl comes from Normal. Hard and Brutal are prestige: they raise the stars that decide your season title."
+            "en": "Echoes of War is 1.4's permanent challenge mode. Each season brings three cycles, and each cycle opens three stages of timed combat, each with its own mechanic that turns the fight on its head. Every stage runs on Normal, Hard or Brutal, and you bring an independent team to each one: what you field in one doesn't constrain the others. The premium reward doesn't depend on difficulty, all the Oroberyl comes from Normal. Hard and Brutal are prestige: they raise the stars that decide your season title.",
+            "zh": "战争回响是 1.4 的永久挑战模式。每个赛季有三个周期，每个周期开放三个限时战斗关卡，各有颠覆战斗的独特机制。每个关卡都有普通、困难、残酷三种难度，每个关卡带独立队伍：一处的编队不影响其他关卡。高级奖励与难度无关，所有源石玉都来自普通难度。困难和残酷是荣誉：它们提升决定赛季称号的星数。",
+            "ja": "エコーズ・オブ・ウォーは 1.4 の常設チャレンジモードです。各シーズンに 3 つのサイクルがあり、各サイクルでは制限時間付きの戦闘ステージが 3 つ開放され、それぞれ戦いを一変させるギミックがあります。各ステージはノーマル、ハード、ブルータルで挑め、ステージごとに独立したチームを編成します。あるステージの編成が他を縛ることはありません。最上位の報酬は難易度に依存せず、オリジニウムジェムはすべてノーマルからです。ハードとブルータルは名誉のため：シーズンの称号を決める星を増やします。",
+            "ko": "전쟁의 메아리는 1.4의 상시 도전 모드입니다. 시즌마다 세 사이클이 있고, 각 사이클은 제한 시간 전투 스테이지 세 개를 열며, 각각 전투를 뒤바꾸는 고유 기믹이 있습니다. 모든 스테이지는 일반·어려움·잔혹으로 진행되며 스테이지마다 독립된 팀을 데려갑니다. 한 곳의 편성이 다른 곳을 제한하지 않습니다. 최고 보상은 난이도와 무관하며, 오리지늄 젬은 전부 일반에서 나옵니다. 어려움과 잔혹은 명예를 위한 것으로, 시즌 칭호를 결정하는 별을 올립니다."
           }
         },
         {
           "type": "pillars",
           "h": {
             "es": "Cómo funciona",
-            "en": "How it works"
+            "en": "How it works",
+            "zh": "运作方式",
+            "ja": "仕組み",
+            "ko": "작동 방식"
           },
           "items": [
             {
               "icon": "◷",
               "h": {
                 "es": "Tres ciclos por temporada",
-                "en": "Three cycles a season"
+                "en": "Three cycles a season",
+                "zh": "每赛季三个周期",
+                "ja": "1 シーズンに 3 サイクル",
+                "ko": "시즌당 세 사이클"
               },
               "body": {
                 "es": "Cada ciclo abre tres etapas y rota en el reset. Las etapas vuelven en ciclos posteriores, así que una recompensa que se te pasó no se pierde para siempre.",
-                "en": "Each cycle opens three stages and rotates on reset. Stages come back in later cycles, so a reward you missed isn't gone for good."
+                "en": "Each cycle opens three stages and rotates on reset. Stages come back in later cycles, so a reward you missed isn't gone for good.",
+                "zh": "每个周期开放三个关卡，在重置时轮换。关卡会在之后的周期中回归，错过的奖励不会永远消失。",
+                "ja": "各サイクルで 3 ステージが開放され、リセット時に入れ替わります。ステージは後のサイクルでも再登場するので、逃した報酬が永久に失われることはありません。",
+                "ko": "각 사이클은 스테이지 세 개를 열고 리셋 때 교체됩니다. 스테이지는 이후 사이클에 다시 나오므로 놓친 보상이 영영 사라지지는 않습니다."
               }
             },
             {
               "icon": "★",
               "h": {
                 "es": "Normal 1★ · Hard 2★ · Brutal 3★",
-                "en": "Normal 1★ · Hard 2★ · Brutal 3★"
+                "en": "Normal 1★ · Hard 2★ · Brutal 3★",
+                "zh": "普通 1★ · 困难 2★ · 残酷 3★",
+                "ja": "ノーマル 1★・ハード 2★・ブルータル 3★",
+                "ko": "일반 1★ · 어려움 2★ · 잔혹 3★"
               },
               "body": {
                 "es": "El rating de una etapa es la dificultad que limpiaste. El máximo por ciclo es 9★: tres etapas de 3★ cada una. En esta temporada los niveles recomendados son 60, 75 y 90.",
-                "en": "A stage's rating is the difficulty you cleared. The cycle max is 9★: three stages at 3★ each. This season's recommended levels are 60, 75 and 90."
+                "en": "A stage's rating is the difficulty you cleared. The cycle max is 9★: three stages at 3★ each. This season's recommended levels are 60, 75 and 90.",
+                "zh": "关卡的评价就是你通关的难度。周期上限为 9★：三个关卡各 3★。本赛季推荐等级为 60、75 和 90。",
+                "ja": "ステージの評価はクリアした難易度です。サイクルの最大は 9★：3 ステージ×3★。今シーズンの推奨レベルは 60、75、90 です。",
+                "ko": "스테이지의 평가는 클리어한 난이도입니다. 사이클 최대는 9★로, 스테이지 세 개 각 3★입니다. 이번 시즌 권장 레벨은 60, 75, 90입니다."
               }
             },
             {
               "icon": "◈",
               "h": {
                 "es": "[Lustrous] en Brutal",
-                "en": "[Lustrous] on Brutal"
+                "en": "[Lustrous] on Brutal",
+                "zh": "残酷难度的[璀璨]",
+                "ja": "ブルータルの［輝き］",
+                "ko": "잔혹의 [찬란함]"
               },
               "body": {
                 "es": "Limpiar en Brutal cumpliendo los objetivos extra añade el impulso [Lustrous] al rating. Si lo sacas en las TRES etapas de un ciclo, tu título de temporada pasa a ser [Lustrous].",
-                "en": "Clearing on Brutal while hitting the bonus objectives adds the [Lustrous] boost to your rating. Land it on all THREE stages of a cycle and your season title becomes [Lustrous]."
+                "en": "Clearing on Brutal while hitting the bonus objectives adds the [Lustrous] boost to your rating. Land it on all THREE stages of a cycle and your season title becomes [Lustrous].",
+                "zh": "在残酷难度通关并达成额外目标，评价会附加[璀璨]加成。一个周期的三个关卡全部达成，赛季称号就变成[璀璨]。",
+                "ja": "ブルータルでボーナス目標を達成してクリアすると、評価に［輝き］の強化が付きます。サイクルの 3 ステージすべてで達成すると、シーズンの称号が［輝き］になります。",
+                "ko": "잔혹에서 보너스 목표를 달성하며 클리어하면 평가에 [찬란함] 강화가 붙습니다. 한 사이클의 세 스테이지 모두에서 달성하면 시즌 칭호가 [찬란함]이 됩니다."
               }
             },
             {
               "icon": "⚿",
               "h": {
                 "es": "Honor rewards, una sola vez",
-                "en": "Honor rewards, one time only"
+                "en": "Honor rewards, one time only",
+                "zh": "荣誉奖励，仅一次",
+                "ja": "名誉報酬は一度だけ",
+                "ko": "명예 보상은 한 번만"
               },
               "body": {
                 "es": "Las recompensas de honor caen una sola vez: la primera vez que logras 1★, 2★ o 3★ en una etapa. Y son tuyas para siempre, ni el ciclo siguiente ni la temporada nueva las tocan.",
-                "en": "Honor rewards land once: the first time you hit 1★, 2★ or 3★ on a stage. And they're yours for good, neither the next cycle nor a new season touches them."
+                "en": "Honor rewards land once: the first time you hit 1★, 2★ or 3★ on a stage. And they're yours for good, neither the next cycle nor a new season touches them.",
+                "zh": "荣誉奖励只发放一次：在某个关卡首次达到 1★、2★ 或 3★ 时。而且永久归你所有，下个周期或新赛季都不会影响。",
+                "ja": "名誉報酬は一度だけ：ステージで初めて 1★、2★、3★ に到達したときです。しかも永久にあなたのもの。次のサイクルも新しいシーズンも影響しません。",
+                "ko": "명예 보상은 한 번만 주어집니다. 스테이지에서 처음 1★, 2★, 3★에 도달했을 때입니다. 그리고 영구히 내 것이며, 다음 사이클도 새 시즌도 건드리지 않습니다."
               }
             }
           ]
@@ -603,24 +967,39 @@
           "type": "meta",
           "h": {
             "es": "Cómo se decide tu título",
-            "en": "How your title is decided"
+            "en": "How your title is decided",
+            "zh": "称号如何决定",
+            "ja": "称号の決まり方",
+            "ko": "칭호가 정해지는 방식"
           },
           "body": {
             "es": "Tu Final Rating de la temporada es el Total Rating más alto que hayas hecho en cualquiera de los ciclos: no la suma, ni el último. Ese número marca el título, con escalones en 1★, 3★, 5★, 7★ y 9★. Si en un mismo ciclo sacas [Lustrous] en las tres etapas, el título de la temporada es [Lustrous]. El Battle Review guarda tus ratings y las composiciones que usaste en cada etapa de las 6 temporadas más recientes.",
-            "en": "Your season Final Rating is the highest Total Rating you posted in any single cycle: not the sum, not the last one. That number sets the title, with steps at 1★, 3★, 5★, 7★ and 9★. Land [Lustrous] on all three stages of one cycle and the season title becomes [Lustrous]. The Battle Review keeps your ratings and the team comps you used on each stage for the 6 most recent seasons."
+            "en": "Your season Final Rating is the highest Total Rating you posted in any single cycle: not the sum, not the last one. That number sets the title, with steps at 1★, 3★, 5★, 7★ and 9★. Land [Lustrous] on all three stages of one cycle and the season title becomes [Lustrous]. The Battle Review keeps your ratings and the team comps you used on each stage for the 6 most recent seasons.",
+            "zh": "赛季最终评价是你在任一单个周期中取得的最高总评价：不是总和，也不是最后一次。这个数字决定称号，档位为 1★、3★、5★、7★ 和 9★。在一个周期的三个关卡全部达成[璀璨]，赛季称号就变成[璀璨]。战斗回顾会保留最近 6 个赛季各关卡的评价和使用的编队。",
+            "ja": "シーズンの最終評価は、どれか 1 つのサイクルで記録した最高の合計評価です。合計でも最後の値でもありません。その数値が称号を決め、1★、3★、5★、7★、9★ が区切りです。1 つのサイクルの 3 ステージすべてで［輝き］を達成すると、シーズンの称号は［輝き］になります。戦闘記録には直近 6 シーズン分の評価と各ステージで使ったチームが残ります。",
+            "ko": "시즌 최종 평가는 어느 한 사이클에서 기록한 가장 높은 총 평가입니다. 합계도 마지막 값도 아닙니다. 그 숫자가 칭호를 정하며 구간은 1★, 3★, 5★, 7★, 9★입니다. 한 사이클의 세 스테이지 모두에서 [찬란함]을 달성하면 시즌 칭호가 [찬란함]이 됩니다. 전투 기록에는 최근 6개 시즌의 평가와 각 스테이지에서 사용한 팀 편성이 남습니다."
           },
           "points": [
             {
               "es": "Cuenta tu mejor ciclo, así que puedes fallar un ciclo entero sin tirar el título que ya aseguraste.",
-              "en": "Your best cycle counts, so you can whiff an entire cycle without dropping the title you already locked in."
+              "en": "Your best cycle counts, so you can whiff an entire cycle without dropping the title you already locked in.",
+              "zh": "计的是你最好的周期，所以哪怕整个周期都失手，也不会丢掉已经锁定的称号。",
+              "ja": "最高のサイクルが基準なので、丸ごと 1 サイクル失敗しても、すでに確保した称号は落ちません。",
+              "ko": "최고의 사이클이 기준이므로 한 사이클을 통째로 망쳐도 이미 확보한 칭호는 떨어지지 않습니다."
             },
             {
               "es": "El Oroberyl no depende del título: Normal lo entrega completo.",
-              "en": "Oroberyl doesn't ride on the title: Normal hands it over in full."
+              "en": "Oroberyl doesn't ride on the title: Normal hands it over in full.",
+              "zh": "源石玉不取决于称号：普通难度就全部给你。",
+              "ja": "オリジニウムジェムは称号に関係なく、ノーマルで全部もらえます。",
+              "ko": "오리지늄 젬은 칭호와 상관없이 일반에서 전부 받습니다."
             },
             {
               "es": "Los objetivos extra de Brutal son la única vía al [Lustrous].",
-              "en": "Brutal's bonus objectives are the only road to [Lustrous]."
+              "en": "Brutal's bonus objectives are the only road to [Lustrous].",
+              "zh": "残酷难度的额外目标是获得[璀璨]的唯一途径。",
+              "ja": "ブルータルのボーナス目標が［輝き］への唯一の道です。",
+              "ko": "잔혹의 보너스 목표가 [찬란함]으로 가는 유일한 길입니다."
             }
           ]
         },
@@ -628,43 +1007,64 @@
           "type": "criteria",
           "h": {
             "es": "La temporada: Season of Recalling",
-            "en": "The season: Season of Recalling"
+            "en": "The season: Season of Recalling",
+            "zh": "赛季：追忆之季",
+            "ja": "シーズン：追憶のシーズン",
+            "ko": "시즌: 회상의 시즌"
           },
           "note": {
             "es": "Las mecánicas de los ciclos II y III se confirman cuando abren. Fechas del servidor Américas/Europa; en Asia el corte cae en su propio reset.",
-            "en": "Cycle II and III mechanics get confirmed when they open. Dates are Americas/Europe server; on Asia the cut falls on its own reset."
+            "en": "Cycle II and III mechanics get confirmed when they open. Dates are Americas/Europe server; on Asia the cut falls on its own reset.",
+            "zh": "周期 II 和 III 的机制在开放时确认。日期为美洲/欧洲服务器；亚服的切换在其自己的重置时间。",
+            "ja": "サイクル II と III のギミックは開放時に確認します。日付はアメリカ/ヨーロッパサーバー基準。アジアでは各自のリセット時刻で切り替わります。",
+            "ko": "사이클 II와 III의 기믹은 열릴 때 확인합니다. 날짜는 아메리카/유럽 서버 기준이며 아시아는 자체 리셋 시각에 바뀝니다."
           },
           "groups": [
             {
               "kind": "cycle",
               "cat": {
                 "es": "Ciclo I · 15 – 23 jul",
-                "en": "Cycle I · Jul 15 – 23"
+                "en": "Cycle I · Jul 15 – 23",
+                "zh": "周期 I · 7月15日 – 23日",
+                "ja": "サイクル I・7月15日〜23日",
+                "ko": "사이클 I · 7월 15일 – 23일"
               },
               "desc": {
                 "es": "Bonecrushers, un check de Arts Infliction y el Skydrummer.",
-                "en": "Bonecrushers, an Arts Infliction check and the Skydrummer."
+                "en": "Bonecrushers, an Arts Infliction check and the Skydrummer.",
+                "zh": "碎骨者、一次法术附着检验，以及天鼓者。",
+                "ja": "ボーンクラッシャー、アーツ付着チェック、そしてスカイドラマー。",
+                "ko": "본크러셔, 아츠 부착 점검, 그리고 스카이드러머."
               },
               "items": [
                 {
                   "name": "Scars of Landbreaking",
                   "eff": {
                     "es": "Bonecrusher Vanguard, Arsonist y Executioner + Heavy Ram. Derrotar enemigos te da buffs de stat, pero la curación está restringida a HP Treatment. Bonus de Brutal: limpiar en 3 min.",
-                    "en": "Bonecrusher Vanguard, Arsonist and Executioner + Heavy Ram. Defeating enemies grants stat buffs, but healing is restricted to HP Treatment. Brutal bonus: clear within 3 min."
+                    "en": "Bonecrusher Vanguard, Arsonist and Executioner + Heavy Ram. Defeating enemies grants stat buffs, but healing is restricted to HP Treatment. Brutal bonus: clear within 3 min.",
+                    "zh": "碎骨者先锋、纵火者和处刑者 + 重型冲撞兽。击败敌人获得属性增益，但治疗仅限生命治疗。残酷额外目标：3 分钟内通关。",
+                    "ja": "ボーンクラッシャーの先鋒、放火犯、処刑人＋重装ラム。敵を倒すとステータス強化を得ますが、回復は HP 治療に限られます。ブルータルのボーナス：3 分以内にクリア。",
+                    "ko": "본크러셔 뱅가드, 방화범, 처형자 + 중장 램. 적을 처치하면 스탯 버프를 얻지만 회복은 HP 치유로 제한됩니다. 잔혹 보너스: 3분 안에 클리어."
                   }
                 },
                 {
                   "name": "Silver Watercutter",
                   "eff": {
                     "es": "Tras aplicar Arts Infliction 20 veces, todos tus operadores ganan Final DMG Dealt +50%. Bonus de Brutal: limpiar en 3 min.",
-                    "en": "After applying Arts Infliction 20 times, all your operators gain Final DMG Dealt +50%. Brutal bonus: clear within 3 min."
+                    "en": "After applying Arts Infliction 20 times, all your operators gain Final DMG Dealt +50%. Brutal bonus: clear within 3 min.",
+                    "zh": "施加 20 次法术附着后，所有干员获得最终伤害 +50%。残酷额外目标：3 分钟内通关。",
+                    "ja": "アーツ付着を 20 回付与すると、全オペレーターの最終ダメージ +50%。ブルータルのボーナス：3 分以内にクリア。",
+                    "ko": "아츠 부착을 20회 적용하면 모든 오퍼레이터의 최종 피해 +50%. 잔혹 보너스: 3분 안에 클리어."
                   }
                 },
                 {
                   "name": "Howling of Undying Beasts",
                   "eff": {
                     "es": "Jefe Skydrummer: no entra en Enraged, pero llega con +50 de resistencia elemental. Bonus de Brutal: limpiar en 3 min.",
-                    "en": "Skydrummer boss: it won't enter its Enraged state, but it comes with +50 elemental resistance. Brutal bonus: clear within 3 min."
+                    "en": "Skydrummer boss: it won't enter its Enraged state, but it comes with +50 elemental resistance. Brutal bonus: clear within 3 min.",
+                    "zh": "天鼓者首领：不会进入狂暴状态，但带有 +50 元素抗性。残酷额外目标：3 分钟内通关。",
+                    "ja": "ボスのスカイドラマー：激昂状態にはなりませんが、属性耐性 +50 を持ちます。ブルータルのボーナス：3 分以内にクリア。",
+                    "ko": "보스 스카이드러머: 격노 상태에 들어가지 않지만 속성 저항 +50을 지닙니다. 잔혹 보너스: 3분 안에 클리어."
                   }
                 }
               ]
@@ -673,32 +1073,47 @@
               "kind": "cycle",
               "cat": {
                 "es": "Ciclo II · 23 – 30 jul",
-                "en": "Cycle II · Jul 23 – 30"
+                "en": "Cycle II · Jul 23 – 30",
+                "zh": "周期 II · 7月23日 – 30日",
+                "ja": "サイクル II・7月23日〜30日",
+                "ko": "사이클 II · 7월 23일 – 30일"
               },
               "desc": {
                 "es": "Dos etapas nuevas y una que repite.",
-                "en": "Two new stages and one repeat."
+                "en": "Two new stages and one repeat.",
+                "zh": "两个新关卡和一个重复关卡。",
+                "ja": "新ステージ 2 つと再登場 1 つ。",
+                "ko": "새 스테이지 둘과 재등장 하나."
               },
               "items": [
                 {
                   "name": "Skirmisher's Æthillu",
                   "eff": {
                     "es": "Etapa nueva. Mecánica por confirmar.",
-                    "en": "New stage. Mechanic to be confirmed."
+                    "en": "New stage. Mechanic to be confirmed.",
+                    "zh": "新关卡。机制待确认。",
+                    "ja": "新ステージ。ギミックは未確認。",
+                    "ko": "새 스테이지. 기믹 확인 예정."
                   }
                 },
                 {
                   "name": "Silver Watercutter",
                   "eff": {
                     "es": "Repite del Ciclo I.",
-                    "en": "Repeats from Cycle I."
+                    "en": "Repeats from Cycle I.",
+                    "zh": "周期 I 的重复。",
+                    "ja": "サイクル I の再登場。",
+                    "ko": "사이클 I 재등장."
                   }
                 },
                 {
                   "name": "Age of Axes",
                   "eff": {
                     "es": "Etapa nueva. Mecánica por confirmar.",
-                    "en": "New stage. Mechanic to be confirmed."
+                    "en": "New stage. Mechanic to be confirmed.",
+                    "zh": "新关卡。机制待确认。",
+                    "ja": "新ステージ。ギミックは未確認。",
+                    "ko": "새 스테이지. 기믹 확인 예정."
                   }
                 }
               ]
@@ -707,32 +1122,47 @@
               "kind": "cycle",
               "cat": {
                 "es": "Ciclo III · 30 jul – 9 ago",
-                "en": "Cycle III · Jul 30 – Aug 9"
+                "en": "Cycle III · Jul 30 – Aug 9",
+                "zh": "周期 III · 7月30日 – 8月9日",
+                "ja": "サイクル III・7月30日〜8月9日",
+                "ko": "사이클 III · 7월 30일 – 8월 9일"
               },
               "desc": {
                 "es": "Cierre de temporada: una nueva y dos que vuelven.",
-                "en": "Season close: one new, two returning."
+                "en": "Season close: one new, two returning.",
+                "zh": "赛季收官：一个新关卡，两个回归。",
+                "ja": "シーズン締めくくり：新 1 つ、再登場 2 つ。",
+                "ko": "시즌 마무리: 새 것 하나, 재등장 둘."
               },
               "items": [
                 {
                   "name": "Pulverizing Ammunition",
                   "eff": {
                     "es": "Etapa nueva. Mecánica por confirmar.",
-                    "en": "New stage. Mechanic to be confirmed."
+                    "en": "New stage. Mechanic to be confirmed.",
+                    "zh": "新关卡。机制待确认。",
+                    "ja": "新ステージ。ギミックは未確認。",
+                    "ko": "새 스테이지. 기믹 확인 예정."
                   }
                 },
                 {
                   "name": "Scars of Landbreaking",
                   "eff": {
                     "es": "Repite del Ciclo I.",
-                    "en": "Repeats from Cycle I."
+                    "en": "Repeats from Cycle I.",
+                    "zh": "周期 I 的重复。",
+                    "ja": "サイクル I の再登場。",
+                    "ko": "사이클 I 재등장."
                   }
                 },
                 {
                   "name": "Age of Axes",
                   "eff": {
                     "es": "Repite del Ciclo II.",
-                    "en": "Repeats from Cycle II."
+                    "en": "Repeats from Cycle II.",
+                    "zh": "周期 II 的重复。",
+                    "ja": "サイクル II の再登場。",
+                    "ko": "사이클 II 재등장."
                   }
                 }
               ]
@@ -744,11 +1174,17 @@
           "variant": "tip",
           "h": {
             "es": "Ve a por el Oroberyl y respira",
-            "en": "Grab the Oroberyl and breathe"
+            "en": "Grab the Oroberyl and breathe",
+            "zh": "拿到源石玉，然后喘口气",
+            "ja": "オリジニウムジェムを取って一息",
+            "ko": "오리지늄 젬을 챙기고 한숨 돌리기"
           },
           "body": {
             "es": "Si solo quieres los recursos, limpia las tres etapas en Normal y listo: el Oroberyl completo ya es tuyo. Hard y Brutal suman estrellas y las honor rewards de tu primer 2★ y 3★, pero no cambian el Oroberyl. Y como el Final Rating se queda con tu mejor ciclo, puedes subir la dificultad cuando tengas el roster a punto, sin presión de calendario.",
-            "en": "If you're only here for the resources, clear the three stages on Normal and you're done: the full Oroberyl is already yours. Hard and Brutal add stars and the honor rewards for your first 2★ and 3★, but they don't change the Oroberyl. And since the Final Rating keeps your best cycle, you can raise the difficulty once your roster is ready, with no calendar breathing down your neck."
+            "en": "If you're only here for the resources, clear the three stages on Normal and you're done: the full Oroberyl is already yours. Hard and Brutal add stars and the honor rewards for your first 2★ and 3★, but they don't change the Oroberyl. And since the Final Rating keeps your best cycle, you can raise the difficulty once your roster is ready, with no calendar breathing down your neck.",
+            "zh": "如果你只想要资源，在普通难度通关三个关卡就够了：全部源石玉已经是你的。困难和残酷会增加星数以及首次 2★ 和 3★ 的荣誉奖励，但不改变源石玉。而且最终评价保留你最好的周期，所以等阵容准备好再提高难度即可，不用被日历追着跑。",
+            "ja": "資源だけが目当てなら、3 ステージをノーマルでクリアすれば終わり。オリジニウムジェムはすでに全部あなたのものです。ハードとブルータルは星と、初めての 2★・3★ の名誉報酬を追加しますが、ジェムは変わりません。最終評価は最高のサイクルを保持するので、ロスターが整ってから難易度を上げればよく、カレンダーに追われることはありません。",
+            "ko": "자원만 원한다면 세 스테이지를 일반으로 클리어하면 끝입니다. 오리지늄 젬은 이미 전부 내 것입니다. 어려움과 잔혹은 별과 첫 2★·3★의 명예 보상을 더하지만 젬은 바뀌지 않습니다. 최종 평가는 최고의 사이클을 유지하므로 로스터가 준비된 뒤에 난이도를 올려도 되며, 달력에 쫓길 필요가 없습니다."
           }
         },
         {
@@ -756,13 +1192,47 @@
           "variant": "warn",
           "h": {
             "es": "Brutal es un DPS check, no un test de supervivencia",
-            "en": "Brutal is a DPS check, not a survival test"
+            "en": "Brutal is a DPS check, not a survival test",
+            "zh": "残酷是 DPS 检验，不是生存考验",
+            "ja": "ブルータルは DPS チェックであって生存テストではない",
+            "ko": "잔혹은 DPS 점검이지 생존 시험이 아닙니다"
           },
           "body": {
             "es": "El bonus de esta temporada es limpiar en 3 minutos las tres etapas del Ciclo I, con Lv 90 recomendado: lo que te frena es el daño por segundo, no aguantar. Y cada etapa te quita una muleta distinta: en Scars of Landbreaking solo curas con HP Treatment, y el Skydrummer de Howling of Undying Beasts llega con +50 de resistencia elemental a cambio de no enfurecerse.",
-            "en": "This season's bonus is clearing all three Cycle I stages within 3 minutes, at a recommended Lv 90: what stops you is damage per second, not staying alive. And each stage takes a different crutch away: on Scars of Landbreaking you only heal through HP Treatment, and the Skydrummer in Howling of Undying Beasts shows up with +50 elemental resistance in exchange for never going Enraged."
+            "en": "This season's bonus is clearing all three Cycle I stages within 3 minutes, at a recommended Lv 90: what stops you is damage per second, not staying alive. And each stage takes a different crutch away: on Scars of Landbreaking you only heal through HP Treatment, and the Skydrummer in Howling of Undying Beasts shows up with +50 elemental resistance in exchange for never going Enraged.",
+            "zh": "本赛季的额外目标是在 3 分钟内通关周期 I 的三个关卡，推荐等级 90：拦住你的是每秒伤害，不是活下来。而且每个关卡都拿走一根不同的拐杖：在裂地之痕只能靠生命治疗回复，而不死兽群之嚎中的天鼓者带着 +50 元素抗性登场，代价是永不狂暴。",
+            "ja": "今シーズンのボーナスは、サイクル I の 3 ステージを推奨 Lv 90 で 3 分以内にクリアすること。壁になるのは秒間ダメージであって、生き残ることではありません。しかも各ステージで別の支えが奪われます。「裂地の傷跡」では HP 治療でしか回復できず、「不死の獣の咆哮」のスカイドラマーは激昂しない代わりに属性耐性 +50 で現れます。",
+            "ko": "이번 시즌 보너스는 사이클 I의 세 스테이지를 권장 Lv 90에서 3분 안에 클리어하는 것입니다. 발목을 잡는 건 초당 피해이지 생존이 아닙니다. 게다가 스테이지마다 다른 버팀목을 빼앗습니다. 갈라진 대지의 흉터에서는 HP 치유로만 회복하고, 불사 짐승의 울부짖음의 스카이드러머는 격노하지 않는 대신 속성 저항 +50으로 등장합니다."
           }
         }
+      ],
+      "difficulty_es": "Endgame",
+      "difficulty_zh": "终局",
+      "difficulty_ja": "エンドゲーム",
+      "difficulty_ko": "엔드게임",
+      "tags_es": [
+        "permanente",
+        "por temporada",
+        "valoraciones",
+        "Oroberyl"
+      ],
+      "tags_zh": [
+        "常驻",
+        "赛季制",
+        "评级",
+        "嵌晶玉"
+      ],
+      "tags_ja": [
+        "常設",
+        "シーズン制",
+        "評価",
+        "赤晶玉"
+      ],
+      "tags_ko": [
+        "상시",
+        "시즌제",
+        "평가",
+        "오로베릴"
       ]
     },
     {
@@ -773,17 +1243,25 @@
       "endsAt": "2026-08-12T20:00:00Z",
       "kicker": {
         "es": "Evento de desafío · 1.4",
-        "en": "Challenge event · 1.4"
+        "en": "Challenge event · 1.4",
+        "zh": "挑战活动 · 1.4",
+        "ja": "チャレンジイベント・1.4",
+        "ko": "도전 이벤트 · 1.4"
       },
       "title": {
         "es": "¡FURIA ARDIENTE! ¡MEGA ARENA!",
         "en": "HEAT RAGE! MEGA ARENA!",
-        "jp": "燃えよ！アリーナ！"
+        "ja": "燃えよ！アリーナ！",
+        "ko": "타올라라! 경기 대회!",
+        "zh": "炽燃！竞技大会！"
       },
       "difficulty": "Duo",
       "summary": {
         "es": "Ocho etapas de combate con una regla que lo cambia todo: llevas dos operadores como máximo. Cada etapa se juega en Normal y en MAXED, y las mejoras de la arena están hechas para que un dúo aguante el ritmo. Es la excusa para sacar parejas que en el equipo de cuatro quedan tapadas.",
-        "en": "Eight combat stages with one rule that changes everything: you bring two operators at most. Every stage runs on Normal and on MAXED, and the arena's boosts exist so a duo can keep up. It's the excuse to field pairs that a four-operator team keeps buried."
+        "en": "Eight combat stages with one rule that changes everything: you bring two operators at most. Every stage runs on Normal and on MAXED, and the arena's boosts exist so a duo can keep up. It's the excuse to field pairs that a four-operator team keeps buried.",
+        "zh": "八个战斗关卡，一条改变一切的规则：最多带两名干员。每个关卡都有普通和满级两种难度，竞技场的增益就是为了让双人组跟得上。这是把四人队里埋没的搭档拿出来用的好借口。",
+        "ja": "8 つの戦闘ステージと、すべてを変える 1 つのルール：連れて行けるオペレーターは最大 2 人。各ステージはノーマルと MAXED があり、アリーナの強化は 2 人組でもついていけるようにするためのものです。4 人チームでは埋もれがちなペアを出す口実になります。",
+        "ko": "전투 스테이지 8개와 모든 것을 바꾸는 규칙 하나: 오퍼레이터는 최대 두 명. 모든 스테이지는 일반과 MAXED로 진행되며, 아레나의 버프는 2인 조합도 따라갈 수 있도록 존재합니다. 4인 팀에서는 묻히기 쉬운 짝을 꺼내 쓸 좋은 핑계입니다."
       },
       "tags": [
         "limited",
@@ -799,41 +1277,65 @@
             {
               "k": {
                 "es": "Tipo",
-                "en": "Type"
+                "en": "Type",
+                "zh": "类型",
+                "ja": "種類",
+                "ko": "유형"
               },
               "v": {
                 "es": "Evento de desafío",
-                "en": "Challenge event"
+                "en": "Challenge event",
+                "zh": "挑战活动",
+                "ja": "チャレンジイベント",
+                "ko": "도전 이벤트"
               }
             },
             {
               "k": {
                 "es": "Fechas",
-                "en": "Dates"
+                "en": "Dates",
+                "zh": "日期",
+                "ja": "期間",
+                "ko": "기간"
               },
               "v": {
                 "es": "30 jul – 13 ago 2026",
-                "en": "Jul 30 – Aug 13, 2026"
+                "en": "Jul 30 – Aug 13, 2026",
+                "zh": "2026年7月30日 – 8月13日",
+                "ja": "2026年7月30日〜8月13日",
+                "ko": "2026년 7월 30일 – 8월 13일"
               }
             },
             {
               "k": {
                 "es": "Equipo",
-                "en": "Team"
+                "en": "Team",
+                "zh": "队伍",
+                "ja": "チーム",
+                "ko": "팀"
               },
               "v": {
                 "es": "Máx. 2 operadores",
-                "en": "Max 2 operators"
+                "en": "Max 2 operators",
+                "zh": "最多 2 名干员",
+                "ja": "オペレーター最大 2 人",
+                "ko": "오퍼레이터 최대 2명"
               }
             },
             {
               "k": {
                 "es": "Etapas",
-                "en": "Stages"
+                "en": "Stages",
+                "zh": "关卡",
+                "ja": "ステージ",
+                "ko": "스테이지"
               },
               "v": {
                 "es": "8, en Normal y MAXED",
-                "en": "8, on Normal and MAXED"
+                "en": "8, on Normal and MAXED",
+                "zh": "8 个，普通和满级",
+                "ja": "8 つ、ノーマルと MAXED",
+                "ko": "8개, 일반과 MAXED"
               }
             }
           ]
@@ -842,47 +1344,71 @@
           "type": "lead",
           "body": {
             "es": "Las ocho etapas salen escalonadas: las tres primeras el día que abre y una más cada día a las 04:00 de tu servidor. Cada una se despacha primero en Normal, y al superarla se abre su MAXED, que es la misma etapa con los enemigos mucho más fuertes. Las mejoras de la arena van por tramos y cambian bastante lo que conviene llevar.",
-            "en": "The eight stages arrive staggered: the first three on opening day and one more each day at 04:00 server time. You clear each one on Normal first, and beating it opens its MAXED version, which is the same stage with far stronger enemies. The arena's boosts come in tiers and change quite a lot about what's worth bringing."
+            "en": "The eight stages arrive staggered: the first three on opening day and one more each day at 04:00 server time. You clear each one on Normal first, and beating it opens its MAXED version, which is the same stage with far stronger enemies. The arena's boosts come in tiers and change quite a lot about what's worth bringing.",
+            "zh": "八个关卡分批开放：开放首日三个，之后每天 04:00（服务器时间）再开一个。先在普通难度通关，通关后解锁满级版本，也就是同一关卡但敌人强得多。竞技场的增益分档，对该带什么影响很大。",
+            "ja": "8 ステージは順次開放：初日に 3 つ、以降は毎日 04:00（サーバー時間）に 1 つずつ。まずノーマルでクリアすると、その MAXED 版（同じステージで敵がはるかに強い）が開きます。アリーナの強化は段階ごとに違い、何を連れて行くべきかを大きく変えます。",
+            "ko": "스테이지 8개는 순차 개방됩니다. 첫날 3개, 이후 매일 04:00(서버 시간)에 하나씩. 먼저 일반으로 클리어하면 MAXED 버전(같은 스테이지지만 적이 훨씬 강함)이 열립니다. 아레나의 버프는 단계별로 달라 무엇을 데려갈지가 크게 바뀝니다."
           }
         },
         {
           "type": "pillars",
           "h": {
             "es": "Las mejoras, por tramo",
-            "en": "The boosts, by tier"
+            "en": "The boosts, by tier",
+            "zh": "各档增益",
+            "ja": "段階ごとの強化",
+            "ko": "단계별 버프"
           },
           "items": [
             {
               "icon": "1",
               "h": {
                 "es": "Etapas 1-3 · Vulnerability gratis",
-                "en": "Stages 1-3 · Free Vulnerability"
+                "en": "Stages 1-3 · Free Vulnerability",
+                "zh": "关卡 1-3 · 免费破防",
+                "ja": "ステージ 1〜3・無料のクラッシュ",
+                "ko": "스테이지 1-3 · 공짜 방어 불능"
               },
               "body": {
                 "es": "El Golpe final de cada operador controlado aplica 1 stack de Vulnerability. Los equipos Physical que viven del Crush salen ganando: los stacks llegan solos.",
-                "en": "Each controlled operator's Final Strike applies 1 Vulnerability stack. Physical teams that live off Crush come out ahead: the stacks arrive on their own."
+                "en": "Each controlled operator's Final Strike applies 1 Vulnerability stack. Physical teams that live off Crush come out ahead: the stacks arrive on their own.",
+                "zh": "每名主控干员的重击施加 1 层破防。靠猛击吃饭的物理队占优：层数自己就来了。",
+                "ja": "操作オペレーターの重攻撃がクラッシュを 1 スタック付与します。猛撃で食べている物理チームが有利：スタックが勝手に溜まります。",
+                "ko": "조작 중인 오퍼레이터의 강력한 일격이 방어 불능 1중첩을 적용합니다. 강타로 먹고사는 물리 팀이 유리합니다. 중첩이 알아서 쌓입니다."
               }
             },
             {
               "icon": "2",
               "h": {
                 "es": "Etapas 4-6 · Inflicción doble",
-                "en": "Stages 4-6 · Double infliction"
+                "en": "Stages 4-6 · Double infliction",
+                "zh": "关卡 4-6 · 双倍附着",
+                "ja": "ステージ 4〜6・付着 2 倍",
+                "ko": "스테이지 4-6 · 이중 부착"
               },
               "body": {
                 "es": "Cada vez que un operador aplica una inflicción Arts, se añade otro stack del mismo elemento. Llegas al umbral de reacción en la mitad de golpes.",
-                "en": "Every time an operator applies an Arts Infliction, another stack of the same element is added. You hit the reaction threshold in half the hits."
+                "en": "Every time an operator applies an Arts Infliction, another stack of the same element is added. You hit the reaction threshold in half the hits.",
+                "zh": "干员每次施加法术附着时，额外增加一层同属性。达到反应阈值只需一半的命中。",
+                "ja": "オペレーターがアーツ付着を付与するたび、同じ属性のスタックがもう 1 つ追加されます。反応のしきい値に半分のヒットで届きます。",
+                "ko": "오퍼레이터가 아츠 부착을 적용할 때마다 같은 속성의 중첩이 하나 더 쌓입니다. 반응 임계값에 절반의 타격으로 도달합니다."
               }
             },
             {
               "icon": "3",
               "h": {
                 "es": "Etapas 7-8 · Reacción por SP",
-                "en": "Stages 7-8 · Reactions pay SP"
+                "en": "Stages 7-8 · Reactions pay SP",
+                "zh": "关卡 7-8 · 反应返还 SP",
+                "ja": "ステージ 7〜8・反応で SP 回復",
+                "ko": "스테이지 7-8 · 반응이 SP를 돌려줌"
               },
               "body": {
                 "es": "Aplicar o consumir una reacción Arts te devuelve SP al instante. Los dúos de dos elementos distintos encadenan skills casi sin pausa.",
-                "en": "Applying or consuming an Arts Reaction returns SP instantly. Duos of two different elements chain skills with barely a pause."
+                "en": "Applying or consuming an Arts Reaction returns SP instantly. Duos of two different elements chain skills with barely a pause.",
+                "zh": "施加或消耗法术异常会立即返还 SP。两种不同属性的双人组几乎可以不停地连发技能。",
+                "ja": "アーツ異常を付与または消費すると即座に SP が返還されます。属性の違う 2 人組なら、ほとんど間を置かずスキルをつなげられます。",
+                "ko": "아츠 이상을 적용하거나 소모하면 즉시 SP가 반환됩니다. 서로 다른 속성의 2인 조합은 거의 쉬지 않고 스킬을 이어갑니다."
               }
             }
           ]
@@ -891,44 +1417,74 @@
           "type": "meta",
           "h": {
             "es": "Las ocho etapas",
-            "en": "The eight stages"
+            "en": "The eight stages",
+            "zh": "八个关卡",
+            "ja": "8 つのステージ",
+            "ko": "스테이지 8개"
           },
           "body": {
             "es": "Las tres primeras están desde el día 1; a partir del día 2 se suma una cada día a las 04:00 de tu servidor. El orden es el mismo para todos.",
-            "en": "The first three are there from day 1; from day 2 onward one more is added each day at 04:00 server time. The order is the same for everyone."
+            "en": "The first three are there from day 1; from day 2 onward one more is added each day at 04:00 server time. The order is the same for everyone.",
+            "zh": "前三个从第 1 天起就有；从第 2 天起每天 04:00（服务器时间）新增一个。顺序对所有人相同。",
+            "ja": "最初の 3 つは初日から。2 日目以降は毎日 04:00（サーバー時間）に 1 つずつ追加されます。順番は全員同じです。",
+            "ko": "처음 3개는 첫날부터 있고, 2일차부터 매일 04:00(서버 시간)에 하나씩 추가됩니다. 순서는 모두 같습니다."
           },
           "points": [
             {
               "es": "1 · Start It Up! The Great Arena!",
-              "en": "1 · Start It Up! The Great Arena!"
+              "en": "1 · Start It Up! The Great Arena!",
+              "zh": "1 · 开赛！伟大的竞技场！",
+              "ja": "1・開幕！グレートアリーナ！",
+              "ko": "1 · 시작! 위대한 아레나!"
             },
             {
               "es": "2 · Here Comes! Host of Aggeloi!",
-              "en": "2 · Here Comes! Host of Aggeloi!"
+              "en": "2 · Here Comes! Host of Aggeloi!",
+              "zh": "2 · 来了！天使兽军团！",
+              "ja": "2・来た！アゲロイの群れ！",
+              "ko": "2 · 등장! 아겔로이 무리!"
             },
             {
               "es": "3 · Unholy! Breakers and Buggers!",
-              "en": "3 · Unholy! Breakers and Buggers!"
+              "en": "3 · Unholy! Breakers and Buggers!",
+              "zh": "3 · 邪恶！破坏者与害虫！",
+              "ja": "3・不浄！ブレイカーとバガー！",
+              "ko": "3 · 사악! 브레이커와 버거!"
             },
             {
               "es": "4 · Incoming! Unexpected Enemies!",
-              "en": "4 · Incoming! Unexpected Enemies!"
+              "en": "4 · Incoming! Unexpected Enemies!",
+              "zh": "4 · 来袭！意外之敌！",
+              "ja": "4・接近！予想外の敵！",
+              "ko": "4 · 접근! 뜻밖의 적!"
             },
             {
               "es": "5 · War Band! Heroes of the Stockade!",
-              "en": "5 · War Band! Heroes of the Stockade!"
+              "en": "5 · War Band! Heroes of the Stockade!",
+              "zh": "5 · 战团！寨堡英雄！",
+              "ja": "5・戦団！砦の英雄たち！",
+              "ko": "5 · 전단! 요새의 영웅들!"
             },
             {
               "es": "6 · Tactics! Beat Their Beastmasters!",
-              "en": "6 · Tactics! Beat Their Beastmasters!"
+              "en": "6 · Tactics! Beat Their Beastmasters!",
+              "zh": "6 · 战术！击败驯兽师！",
+              "ja": "6・戦術！ビーストマスターを倒せ！",
+              "ko": "6 · 전술! 비스트마스터를 쓰러뜨려라!"
             },
             {
               "es": "7 · What?! Why Are There Beasts?!",
-              "en": "7 · What?! Why Are There Beasts?!"
+              "en": "7 · What?! Why Are There Beasts?!",
+              "zh": "7 · 什么？！怎么有野兽？！",
+              "ja": "7・なに？！なんで獣が？！",
+              "ko": "7 · 뭐?! 왜 짐승이 있어?!"
             },
             {
               "es": "8 · Chaos! Total Carnage!",
-              "en": "8 · Chaos! Total Carnage!"
+              "en": "8 · Chaos! Total Carnage!",
+              "zh": "8 · 混乱！全面屠杀！",
+              "ja": "8・カオス！トータル・カーネイジ！",
+              "ko": "8 · 혼돈! 대살육!"
             }
           ]
         },
@@ -936,44 +1492,68 @@
           "type": "awards",
           "h": {
             "es": "Lo que te llevas",
-            "en": "What you take home"
+            "en": "What you take home",
+            "zh": "你能带走什么",
+            "ja": "持ち帰れるもの",
+            "ko": "가져갈 수 있는 것"
           },
           "note": {
             "es": "La medalla y el marco solo se consiguen mientras el evento está abierto.",
-            "en": "The medal and the frame are only obtainable while the event is open."
+            "en": "The medal and the frame are only obtainable while the event is open.",
+            "zh": "奖章和头像框只能在活动开放期间获得。",
+            "ja": "勲章とフレームはイベント開催中にしか入手できません。",
+            "ko": "훈장과 프레임은 이벤트가 열려 있는 동안에만 얻을 수 있습니다."
           },
           "items": [
             {
               "img": "assets/events/nocturnal-tactics-medal.webp",
               "name": {
                 "es": "Medalla · Nocturnal Tactics",
-                "en": "Medal · Nocturnal Tactics"
+                "en": "Medal · Nocturnal Tactics",
+                "zh": "奖章 · 夜行战术",
+                "ja": "勲章・夜行戦術",
+                "ko": "훈장 · 야간 전술"
               },
               "how": {
                 "es": "Completa las ocho etapas en Normal.",
-                "en": "Clear all eight stages on Normal."
+                "en": "Clear all eight stages on Normal.",
+                "zh": "在普通难度通关全部八个关卡。",
+                "ja": "8 ステージすべてをノーマルでクリア。",
+                "ko": "스테이지 8개 전부를 일반으로 클리어."
               }
             },
             {
               "img": "assets/events/nocturnal-tactics-medal-trim.webp",
               "name": {
                 "es": "Medalla grabada (trim)",
-                "en": "Trimmed medal"
+                "en": "Trimmed medal",
+                "zh": "镶边奖章",
+                "ja": "装飾付き勲章",
+                "ko": "장식 훈장"
               },
               "how": {
                 "es": "Completa las ocho en MAXED y, además, cualquiera de estas tres en menos de 180 s: Unholy! Breakers and Buggers!, Tactics! Beat Their Beastmasters! o Chaos! Total Carnage!",
-                "en": "Clear all eight on MAXED and, on top of that, any one of these three in under 180s: Unholy! Breakers and Buggers!, Tactics! Beat Their Beastmasters! or Chaos! Total Carnage!"
+                "en": "Clear all eight on MAXED and, on top of that, any one of these three in under 180s: Unholy! Breakers and Buggers!, Tactics! Beat Their Beastmasters! or Chaos! Total Carnage!",
+                "zh": "在满级难度通关全部八个，并且在以下三个中的任意一个 180 秒内通关：邪恶！破坏者与害虫！、战术！击败驯兽师！或混乱！全面屠杀！",
+                "ja": "8 つすべてを MAXED でクリアし、さらに次の 3 つのうちどれか 1 つを 180 秒未満でクリア：不浄！ブレイカーとバガー！、戦術！ビーストマスターを倒せ！、カオス！トータル・カーネイジ！",
+                "ko": "8개 전부를 MAXED로 클리어하고, 다음 셋 중 하나를 180초 안에 클리어: 사악! 브레이커와 버거!, 전술! 비스트마스터를 쓰러뜨려라!, 혼돈! 대살육!"
               }
             },
             {
               "img": "assets/events/heat-ragers-frame.webp",
               "name": {
                 "es": "Marco · Heat Ragers' Party",
-                "en": "Frame · Heat Ragers' Party"
+                "en": "Frame · Heat Ragers' Party",
+                "zh": "头像框 · 灼热狂欢派对",
+                "ja": "フレーム・ヒートレイジャーズ・パーティ",
+                "ko": "프레임 · 히트 레이저스 파티"
               },
               "how": {
                 "es": "Completa cuatro etapas en Normal. Cae junto a 3 Mark of Perseverance.",
-                "en": "Clear four stages on Normal. It comes with 3 Mark of Perseverance."
+                "en": "Clear four stages on Normal. It comes with 3 Mark of Perseverance.",
+                "zh": "在普通难度通关四个关卡。附带 3 个毅力印记。",
+                "ja": "4 ステージをノーマルでクリア。忍耐の証 3 個が付きます。",
+                "ko": "스테이지 4개를 일반으로 클리어. 인내의 증표 3개가 함께 옵니다."
               }
             }
           ]
@@ -982,28 +1562,46 @@
           "type": "meta",
           "h": {
             "es": "Recompensas",
-            "en": "Rewards"
+            "en": "Rewards",
+            "zh": "奖励",
+            "ja": "報酬",
+            "ko": "보상"
           },
           "body": {
             "es": "El Oroberyl entero se asegura en Normal: MAXED paga en materiales, no en gemas.",
-            "en": "The whole Oroberyl haul is locked in on Normal: MAXED pays in materials, not gems."
+            "en": "The whole Oroberyl haul is locked in on Normal: MAXED pays in materials, not gems.",
+            "zh": "全部源石玉在普通难度就能锁定：满级给的是材料，不是宝石。",
+            "ja": "オリジニウムジェムはノーマルで全部確保できます。MAXED は素材で支払われ、ジェムはありません。",
+            "ko": "오리지늄 젬은 일반에서 전부 확보됩니다. MAXED는 재료로 보상하며 젬은 없습니다."
           },
           "points": [
             {
               "es": "1200 Oroberyl en total, a 150 por etapa superada en Normal.",
-              "en": "1200 Oroberyl in total, at 150 per stage cleared on Normal."
+              "en": "1200 Oroberyl in total, at 150 per stage cleared on Normal.",
+              "zh": "总计 1200 源石玉，每个普通难度关卡 150。",
+              "ja": "合計 1200 オリジニウムジェム、ノーマルのステージクリアごとに 150。",
+              "ko": "총 1200 오리지늄 젬, 일반 스테이지 클리어당 150."
             },
             {
               "es": "Normal también suelta Combat Records, Protodisk, cajas de progresión, T-Creds y Cognitive Carrier.",
-              "en": "Normal also drops Combat Records, Protodisks, progression crates, T-Creds and Cognitive Carriers."
+              "en": "Normal also drops Combat Records, Protodisks, progression crates, T-Creds and Cognitive Carriers.",
+              "zh": "普通难度还会掉落作战记录、原型碟、进阶箱、T-信用点和认知载体。",
+              "ja": "ノーマルでは戦闘記録、プロトディスク、育成の箱、T クレジット、認知キャリアも落ちます。",
+              "ko": "일반에서는 전투 기록, 프로토디스크, 성장 상자, T-크레딧, 인지 캐리어도 드롭됩니다."
             },
             {
               "es": "Cada MAXED paga 20 000 T-Creds más Protohedron o cajas de selección.",
-              "en": "Each MAXED pays 20,000 T-Creds plus Protohedrons or selection crates."
+              "en": "Each MAXED pays 20,000 T-Creds plus Protohedrons or selection crates.",
+              "zh": "每个满级关卡给 20,000 T-信用点，外加原型体或自选箱。",
+              "ja": "MAXED はそれぞれ 20,000 T クレジットに加え、プロトヘドロンか選択の箱がもらえます。",
+              "ko": "MAXED마다 20,000 T-크레딧과 프로토헤드론 또는 선택 상자를 줍니다."
             },
             {
               "es": "Las misiones del evento dan 3 Mark of Perseverance a las cuatro etapas y otras 3 al completar las ocho.",
-              "en": "Event missions give 3 Mark of Perseverance at four stages and another 3 for completing all eight."
+              "en": "Event missions give 3 Mark of Perseverance at four stages and another 3 for completing all eight.",
+              "zh": "活动任务在四个关卡时给 3 个毅力印记，完成全部八个再给 3 个。",
+              "ja": "イベントミッションは 4 ステージで忍耐の証 3 個、8 つすべての完了でさらに 3 個。",
+              "ko": "이벤트 임무는 스테이지 4개에서 인내의 증표 3개, 8개 모두 완료하면 3개를 더 줍니다."
             }
           ]
         },
@@ -1012,13 +1610,47 @@
           "variant": "tip",
           "h": {
             "es": "Si vas por el trim",
-            "en": "If you're going for the trim"
+            "en": "If you're going for the trim",
+            "zh": "如果你想要镶边",
+            "ja": "装飾を狙うなら",
+            "ko": "장식을 노린다면"
           },
           "body": {
             "es": "Los 180 s solo se piden en UNA de las tres etapas marcadas, así que elige la que mejor le venga a tu dúo en vez de pelear con las tres. Y ojo con el tramo 4-6: ahí la inflicción se duplica sola, así que un dúo de dos elementos distintos revienta el umbral de reacción mucho antes de lo normal.",
-            "en": "The 180s are only asked on ONE of the three marked stages, so pick whichever suits your duo instead of fighting all three. And mind the 4-6 tier: infliction doubles itself there, so a duo of two different elements blows past the reaction threshold much sooner than usual."
+            "en": "The 180s are only asked on ONE of the three marked stages, so pick whichever suits your duo instead of fighting all three. And mind the 4-6 tier: infliction doubles itself there, so a duo of two different elements blows past the reaction threshold much sooner than usual.",
+            "zh": "180 秒的要求只针对三个标记关卡中的一个，所以挑最适合你双人组的那个，不必三个都硬打。留意 4-6 档：那里附着自带双倍，两种不同属性的双人组会比平时早得多越过反应阈值。",
+            "ja": "180 秒が求められるのは指定 3 ステージのうち 1 つだけ。3 つ全部と戦わず、自分の 2 人組に合うものを選びましょう。4〜6 の段階にも注意：付着が 2 倍になるので、属性の違う 2 人組はいつもよりずっと早く反応のしきい値を超えます。",
+            "ko": "180초는 표시된 세 스테이지 중 하나에서만 요구되니, 셋 다 상대하지 말고 내 2인 조합에 맞는 것을 고르세요. 4-6단계도 주의: 부착이 두 배가 되므로 서로 다른 속성의 2인 조합은 평소보다 훨씬 빨리 반응 임계값을 넘깁니다."
           }
         }
+      ],
+      "difficulty_es": "Dúo",
+      "difficulty_zh": "双人",
+      "difficulty_ja": "デュオ",
+      "difficulty_ko": "듀오",
+      "tags_es": [
+        "limitado",
+        "equipos de 2",
+        "MAXED",
+        "medalla"
+      ],
+      "tags_zh": [
+        "限时",
+        "双人队伍",
+        "满配",
+        "奖章"
+      ],
+      "tags_ja": [
+        "期間限定",
+        "2 人チーム",
+        "最大強化",
+        "勲章"
+      ],
+      "tags_ko": [
+        "기간 한정",
+        "2인 팀",
+        "최대 강화",
+        "훈장"
       ]
     },
     {
@@ -1029,17 +1661,25 @@
       "endsAt": "2026-09-01T22:00:00Z",
       "kicker": {
         "es": "Evento de diversión · 1.4",
-        "en": "Fun & games event · 1.4"
+        "en": "Fun & games event · 1.4",
+        "zh": "休闲活动 · 1.4",
+        "ja": "お楽しみイベント・1.4",
+        "ko": "놀이 이벤트 · 1.4"
       },
       "title": {
         "es": "EL REINO ARRAIGADO",
         "en": "THE ROOTED REALM",
-        "jp": "根付く領域"
+        "zh": "根脉奇境",
+        "ja": "根脈奇景",
+        "ko": "미지의 구역"
       },
       "difficulty": "Parkour",
       "summary": {
         "es": "Un Protocol Space de recorrido y recolección: juntas Aurylene Fragments por rutas y cámaras, y cada fragmento suma puntos en una pista de recompensas. Es el evento ligero de la versión, con combate solo en las cámaras que lo piden.",
-        "en": "A Protocol Space about routes and collecting: you gather Aurylene Fragments through routes and chambers, and every fragment adds points to a reward track. It's the version's light event, with combat only in the chambers that ask for it."
+        "en": "A Protocol Space about routes and collecting: you gather Aurylene Fragments through routes and chambers, and every fragment adds points to a reward track. It's the version's light event, with combat only in the chambers that ask for it.",
+        "zh": "一个关于路线和收集的协议空间：在路线和密室中收集金铃碎片，每个碎片都为奖励进度增加点数。这是版本的轻松活动，只有需要战斗的密室才有战斗。",
+        "ja": "ルートと収集のプロトコル空間。ルートやチャンバーでオーリレーンの欠片を集め、欠片ごとに報酬トラックのポイントが加算されます。バージョンの軽めのイベントで、戦闘は必要なチャンバーだけです。",
+        "ko": "경로와 수집이 주제인 프로토콜 공간. 경로와 챔버에서 오릴렌 조각을 모으고, 조각마다 보상 트랙에 점수가 쌓입니다. 버전의 가벼운 이벤트로, 전투는 요구하는 챔버에서만 있습니다."
       },
       "tags": [
         "limited",
@@ -1055,41 +1695,65 @@
             {
               "k": {
                 "es": "Tipo",
-                "en": "Type"
+                "en": "Type",
+                "zh": "类型",
+                "ja": "種類",
+                "ko": "유형"
               },
               "v": {
                 "es": "Diversión y juegos",
-                "en": "Fun & games"
+                "en": "Fun & games",
+                "zh": "休闲活动",
+                "ja": "お楽しみ",
+                "ko": "놀이"
               }
             },
             {
               "k": {
                 "es": "Fechas",
-                "en": "Dates"
+                "en": "Dates",
+                "zh": "日期",
+                "ja": "期間",
+                "ko": "기간"
               },
               "v": {
                 "es": "9 ago – 1/2 sep 2026",
-                "en": "Aug 9 – Sep 1/2, 2026"
+                "en": "Aug 9 – Sep 1/2, 2026",
+                "zh": "2026年8月9日 – 9月1/2日",
+                "ja": "2026年8月9日〜9月1/2日",
+                "ko": "2026년 8월 9일 – 9월 1/2일"
               }
             },
             {
               "k": {
                 "es": "Etapas",
-                "en": "Stages"
+                "en": "Stages",
+                "zh": "关卡",
+                "ja": "ステージ",
+                "ko": "스테이지"
               },
               "v": {
                 "es": "3 al abrir, 6 desde el 15 ago",
-                "en": "3 at launch, 6 from Aug 15"
+                "en": "3 at launch, 6 from Aug 15",
+                "zh": "开放时 3 个，8月15日起 6 个",
+                "ja": "開始時 3 つ、8月15日から 6 つ",
+                "ko": "시작 시 3개, 8월 15일부터 6개"
               }
             },
             {
               "k": {
                 "es": "Requisito",
-                "en": "Requirement"
+                "en": "Requirement",
+                "zh": "要求",
+                "ja": "条件",
+                "ko": "조건"
               },
               "v": {
                 "es": "Cap. I, proceso II",
-                "en": "Ch. I, Process II"
+                "en": "Ch. I, Process II",
+                "zh": "第 I 章，进程 II",
+                "ja": "第 I 章、プロセス II",
+                "ko": "제1장, 프로세스 II"
               }
             }
           ]
@@ -1098,43 +1762,70 @@
           "type": "lead",
           "body": {
             "es": "Entras al Protocol Space y recorres rutas y cámaras recogiendo Aurylene Fragments. Todo lo que juntas se convierte en Journey Points, y esos puntos son los que van abriendo la pista de recompensas: el evento no tiene tienda ni moneda que gastar, es una barra que sube. Abre con tres etapas y el 15 de agosto se destraban las seis.",
-            "en": "You enter the Protocol Space and run routes and chambers picking up Aurylene Fragments. Everything you gather turns into Journey Points, and those points are what open the reward track: the event has no shop and no currency to spend, it's a bar that fills. It opens with three stages and on August 15 all six unlock."
+            "en": "You enter the Protocol Space and run routes and chambers picking up Aurylene Fragments. Everything you gather turns into Journey Points, and those points are what open the reward track: the event has no shop and no currency to spend, it's a bar that fills. It opens with three stages and on August 15 all six unlock.",
+            "zh": "进入协议空间，跑路线和密室，捡起金铃碎片。收集的一切都变成旅程点数，这些点数打开奖励进度：活动没有商店，也没有可花的货币，只是一条会填满的进度条。开放时有三个关卡，8月15日六个全部解锁。",
+            "ja": "プロトコル空間に入り、ルートとチャンバーを回ってオーリレーンの欠片を拾います。集めたものはすべてジャーニーポイントになり、それが報酬トラックを開きます。ショップも使う通貨もなく、貯まっていくゲージです。開始時は 3 ステージ、8月15日に 6 つすべてが開放されます。",
+            "ko": "프로토콜 공간에 들어가 경로와 챔버를 돌며 오릴렌 조각을 줍습니다. 모은 것은 전부 여정 포인트가 되고, 그 포인트가 보상 트랙을 엽니다. 상점도 쓸 화폐도 없이 채워지는 막대 하나뿐입니다. 시작 시 세 스테이지가 있고 8월 15일에 여섯 개가 모두 열립니다."
           }
         },
         {
           "type": "meta",
           "h": {
             "es": "Realm Quests",
-            "en": "Realm Quests"
+            "en": "Realm Quests",
+            "zh": "境界任务",
+            "ja": "レルムクエスト",
+            "ko": "영역 퀘스트"
           },
           "body": {
             "es": "Seis tareas que dan 100 Journey Points cada una. Se completan en fase 2, cuando están las seis etapas, y son también la condición para grabar la medalla.",
-            "en": "Six tasks worth 100 Journey Points each. They're completed in phase 2, once all six stages are up, and they're also the condition for trimming the medal."
+            "en": "Six tasks worth 100 Journey Points each. They're completed in phase 2, once all six stages are up, and they're also the condition for trimming the medal.",
+            "zh": "六个任务，各值 100 旅程点数。在第二阶段、六个关卡全部开放后完成，也是奖章镶边的条件。",
+            "ja": "6 つのタスク、各 100 ジャーニーポイント。第 2 フェーズで 6 ステージがすべて開いてから完了でき、勲章の装飾の条件でもあります。",
+            "ko": "각 100 여정 포인트짜리 과제 여섯 개. 2단계에서 여섯 스테이지가 모두 열린 뒤 완료하며, 훈장 장식의 조건이기도 합니다."
           },
           "points": [
             {
               "es": "Completa la cámara Mister Punching Bag.",
-              "en": "Complete the Mister Punching Bag chamber."
+              "en": "Complete the Mister Punching Bag chamber.",
+              "zh": "完成沙袋先生密室。",
+              "ja": "ミスター・パンチングバッグのチャンバーを完了する。",
+              "ko": "미스터 펀칭백 챔버를 완료."
             },
             {
               "es": "Recoge 200 fragmentos en una sola exploración.",
-              "en": "Collect 200 fragments in a single exploration."
+              "en": "Collect 200 fragments in a single exploration.",
+              "zh": "在一次探索中收集 200 个碎片。",
+              "ja": "1 回の探索で欠片を 200 個集める。",
+              "ko": "한 번의 탐험에서 조각 200개 수집."
             },
             {
               "es": "Recoge 50 fragmentos en una sola cámara.",
-              "en": "Collect 50 fragments in a single chamber."
+              "en": "Collect 50 fragments in a single chamber.",
+              "zh": "在一个密室中收集 50 个碎片。",
+              "ja": "1 つのチャンバーで欠片を 50 個集める。",
+              "ko": "한 챔버에서 조각 50개 수집."
             },
             {
               "es": "Recoge 50 fragmentos en una sola ruta.",
-              "en": "Collect 50 fragments in a single route."
+              "en": "Collect 50 fragments in a single route.",
+              "zh": "在一条路线中收集 50 个碎片。",
+              "ja": "1 つのルートで欠片を 50 個集める。",
+              "ko": "한 경로에서 조각 50개 수집."
             },
             {
               "es": "Rompe cajas de madera 25 veces.",
-              "en": "Smash wooden crates 25 times."
+              "en": "Smash wooden crates 25 times.",
+              "zh": "砸碎木箱 25 次。",
+              "ja": "木箱を 25 回壊す。",
+              "ko": "나무 상자 25번 부수기."
             },
             {
               "es": "Activa interruptores de presión 25 veces.",
-              "en": "Trigger pressure switches 25 times."
+              "en": "Trigger pressure switches 25 times.",
+              "zh": "触发压力开关 25 次。",
+              "ja": "感圧スイッチを 25 回作動させる。",
+              "ko": "압력 스위치 25번 작동."
             }
           ]
         },
@@ -1142,44 +1833,68 @@
           "type": "awards",
           "h": {
             "es": "Lo que te llevas",
-            "en": "What you take home"
+            "en": "What you take home",
+            "zh": "你能带走什么",
+            "ja": "持ち帰れるもの",
+            "ko": "가져갈 수 있는 것"
           },
           "note": {
             "es": "La medalla solo se consigue mientras el evento está abierto.",
-            "en": "The medal is only obtainable while the event is open."
+            "en": "The medal is only obtainable while the event is open.",
+            "zh": "奖章只能在活动开放期间获得。",
+            "ja": "勲章はイベント開催中にしか入手できません。",
+            "ko": "훈장은 이벤트가 열려 있는 동안에만 얻을 수 있습니다."
           },
           "items": [
             {
               "img": "assets/events/explorer-realm-medal.webp",
               "name": {
                 "es": "Medalla · Explorer of the Realm",
-                "en": "Medal · Explorer of the Realm"
+                "en": "Medal · Explorer of the Realm",
+                "zh": "奖章 · 境界探索者",
+                "ja": "勲章・奇景探検家",
+                "ko": "훈장 · 영역 탐험가"
               },
               "how": {
                 "es": "Completa una vez la cámara Shower of Coins en la fase 2.",
-                "en": "Complete the Shower of Coins chamber once in phase 2."
+                "en": "Complete the Shower of Coins chamber once in phase 2.",
+                "zh": "在第二阶段完成一次金币雨密室。",
+                "ja": "第 2 フェーズでコインシャワーのチャンバーを 1 回完了する。",
+                "ko": "2단계에서 동전 소나기 챔버를 한 번 완료."
               }
             },
             {
               "img": "assets/events/explorer-realm-medal-trim.webp",
               "name": {
                 "es": "Medalla grabada (trim)",
-                "en": "Trimmed medal"
+                "en": "Trimmed medal",
+                "zh": "镶边奖章",
+                "ja": "装飾付き勲章",
+                "ko": "장식 훈장"
               },
               "how": {
                 "es": "Completa las seis Realm Quests de las dos fases.",
-                "en": "Complete all six Realm Quests across both phases."
+                "en": "Complete all six Realm Quests across both phases.",
+                "zh": "在两个阶段中完成全部六个境界任务。",
+                "ja": "両フェーズを通じて 6 つのレルムクエストをすべて完了する。",
+                "ko": "두 단계에 걸쳐 영역 퀘스트 여섯 개를 모두 완료."
               }
             },
             {
               "img": "assets/events/aurylene-fragment.webp",
               "name": {
                 "es": "Aurylene Fragment",
-                "en": "Aurylene Fragment"
+                "en": "Aurylene Fragment",
+                "zh": "金铃碎片",
+                "ja": "オーリレーンの欠片",
+                "ko": "오릴렌 조각"
               },
               "how": {
                 "es": "La ficha del evento: sale de rutas y cámaras y se convierte en Journey Points. No se gasta en nada, solo acumula.",
-                "en": "The event token: it comes from routes and chambers and converts into Journey Points. You don't spend it on anything, it just accumulates."
+                "en": "The event token: it comes from routes and chambers and converts into Journey Points. You don't spend it on anything, it just accumulates.",
+                "zh": "活动代币：来自路线和密室，转化为旅程点数。不用花在任何地方，只是累积。",
+                "ja": "イベントのトークン。ルートとチャンバーで手に入り、ジャーニーポイントに変わります。何かに使うことはなく、ただ貯まります。",
+                "ko": "이벤트 토큰. 경로와 챔버에서 나오며 여정 포인트로 바뀝니다. 어디에도 쓰지 않고 그저 쌓입니다."
               }
             }
           ]
@@ -1188,24 +1903,39 @@
           "type": "meta",
           "h": {
             "es": "Recompensas",
-            "en": "Rewards"
+            "en": "Rewards",
+            "zh": "奖励",
+            "ja": "報酬",
+            "ko": "보상"
           },
           "body": {
             "es": "Todo va por hitos de Journey Points en la pista Rooted Journey, hasta 1200 puntos.",
-            "en": "Everything runs on Journey Point milestones along the Rooted Journey track, up to 1200 points."
+            "en": "Everything runs on Journey Point milestones along the Rooted Journey track, up to 1200 points.",
+            "zh": "一切都通过扎根之旅进度的旅程点数里程碑发放，最高 1200 点。",
+            "ja": "すべてルーテッド・ジャーニーのトラックにあるジャーニーポイントのマイルストーンで進み、最大 1200 ポイントです。",
+            "ko": "모든 것은 뿌리내린 여정 트랙의 여정 포인트 이정표로 진행되며 최대 1200포인트입니다."
           },
           "points": [
             {
               "es": "1600 Oroberyl en total, más Mark of Perseverance.",
-              "en": "1600 Oroberyl in total, plus Marks of Perseverance."
+              "en": "1600 Oroberyl in total, plus Marks of Perseverance.",
+              "zh": "总计 1600 源石玉，外加毅力印记。",
+              "ja": "合計 1600 オリジニウムジェムに加え、忍耐の証。",
+              "ko": "총 1600 오리지늄 젬과 인내의 증표."
             },
             {
               "es": "Materiales de la pista: Advanced Cognitive Carrier, Arms INSP Set, Protohedron, Protoset y Heavy Cast Dice.",
-              "en": "Track materials: Advanced Cognitive Carriers, Arms INSP Sets, Protohedrons, Protosets and Heavy Cast Dice."
+              "en": "Track materials: Advanced Cognitive Carriers, Arms INSP Sets, Protohedrons, Protosets and Heavy Cast Dice.",
+              "zh": "进度材料：高级认知载体、武器 INSP 套组、原型体、原型套组和重型铸造骰。",
+              "ja": "トラックの素材：上級認知キャリア、武器 INSP セット、プロトヘドロン、プロトセット、重鋳ダイス。",
+              "ko": "트랙 재료: 고급 인지 캐리어, 무기 INSP 세트, 프로토헤드론, 프로토세트, 중주조 주사위."
             },
             {
               "es": "Advanced Progression Selection Crate I y T-Creds a lo largo del recorrido.",
-              "en": "Advanced Progression Selection Crates I and T-Creds along the way."
+              "en": "Advanced Progression Selection Crates I and T-Creds along the way.",
+              "zh": "沿途还有高级进阶自选箱 I 和 T-信用点。",
+              "ja": "途中で上級育成選択の箱 I と T クレジットも。",
+              "ko": "중간에 고급 성장 선택 상자 I과 T-크레딧도 있습니다."
             }
           ]
         },
@@ -1214,13 +1944,47 @@
           "variant": "tip",
           "h": {
             "es": "Los puntos no se pierden",
-            "en": "Points don't expire"
+            "en": "Points don't expire",
+            "zh": "点数不会过期",
+            "ja": "ポイントは失効しない",
+            "ko": "포인트는 만료되지 않음"
           },
           "body": {
             "es": "Como todo se acumula en la misma pista, no hace falta correr el primer día: los fragmentos de la fase 1 siguen contando cuando abran las seis etapas. Lo único con fecha es el cierre, el 1 de septiembre (2 en Asia).",
-            "en": "Since everything piles onto the same track, there's no need to rush on day one: phase 1 fragments still count once all six stages open. The only hard date is the close, September 1 (2 in Asia)."
+            "en": "Since everything piles onto the same track, there's no need to rush on day one: phase 1 fragments still count once all six stages open. The only hard date is the close, September 1 (2 in Asia).",
+            "zh": "因为一切都累积在同一条进度上，第一天不必赶：六个关卡开放后，第一阶段的碎片依然算数。唯一的硬性日期是结束日 9月1日（亚服 2日）。",
+            "ja": "すべて同じトラックに積み上がるので、初日に急ぐ必要はありません。6 ステージが開いても第 1 フェーズの欠片はそのまま数えられます。唯一の期限は終了日の 9月1日（アジアは 2日）です。",
+            "ko": "모든 것이 같은 트랙에 쌓이므로 첫날 서두를 필요가 없습니다. 여섯 스테이지가 열려도 1단계의 조각은 그대로 계산됩니다. 유일한 기한은 종료일인 9월 1일(아시아는 2일)입니다."
           }
         }
+      ],
+      "difficulty_es": "Parkour",
+      "difficulty_zh": "跑酷",
+      "difficulty_ja": "パルクール",
+      "difficulty_ko": "파쿠르",
+      "tags_es": [
+        "limitado",
+        "exploración",
+        "Journey Points",
+        "medalla"
+      ],
+      "tags_zh": [
+        "限时",
+        "探索",
+        "历程积分",
+        "奖章"
+      ],
+      "tags_ja": [
+        "期間限定",
+        "探索",
+        "遍歴ポイント",
+        "勲章"
+      ],
+      "tags_ko": [
+        "기간 한정",
+        "탐색",
+        "여정 포인트",
+        "훈장"
       ]
     },
     {
@@ -1232,16 +1996,25 @@
       "opModel": "cc-reignition",
       "kicker": {
         "es": "Modo endgame · 1ª temporada",
-        "en": "Endgame mode · Season 1"
+        "en": "Endgame mode · Season 1",
+        "zh": "终局模式 · 第 1 赛季",
+        "ja": "エンドゲームモード・シーズン 1",
+        "ko": "엔드게임 모드 · 시즌 1"
       },
       "title": {
         "es": "Contingency Contract: Re-Ignition",
-        "en": "Contingency Contract: Re-Ignition"
+        "en": "Contingency Contract: Re-Ignition",
+        "zh": "危机合约：再燃",
+        "ja": "危機契約：再燃",
+        "ko": "위기 협약: 재점화"
       },
       "difficulty": "Endgame",
       "summary": {
         "es": "El primer Contingency Contract de Endfield. Tú subes la dificultad eligiendo Test Criteria (riesgos) que debilitan a tus operadores, potencian a los enemigos o deforman el combate. Cuanto más riesgo apilas, más puntúas. El meta entero del juego se reordena aquí: los dos Key Criteria de esta temporada castigan el daño de Battle Skill y premian el daño de reacción, así que Combustion, Crush y Shatter mandan.",
-        "en": "Endfield's first Contingency Contract. You raise the difficulty yourself by picking Test Criteria (risks) that weaken your operators, buff enemies or warp combat. The more risk you stack, the higher you score. The whole game's meta reshuffles here: this season's two Key Criteria punish Battle Skill damage and reward reaction damage, so Combustion, Crush and Shatter rule."
+        "en": "Endfield's first Contingency Contract. You raise the difficulty yourself by picking Test Criteria (risks) that weaken your operators, buff enemies or warp combat. The more risk you stack, the higher you score. The whole game's meta reshuffles here: this season's two Key Criteria punish Battle Skill damage and reward reaction damage, so Combustion, Crush and Shatter rule.",
+        "zh": "终末地的第一次危机合约。你自己选择削弱干员、强化敌人或改变战斗规则的指标（风险）来提高难度。叠加的风险越多，得分越高。整个游戏的 meta 在这里重新洗牌：本赛季的两个密钥指标惩罚战技伤害、奖励反应伤害，所以燃烧、猛击和碎冰称王。",
+        "ja": "エンドフィールド初の危機契約。オペレーターを弱める、敵を強くする、戦闘を歪める指標（リスク）を自分で選んで難易度を上げます。積むリスクが多いほどスコアが上がります。ゲーム全体のメタがここで組み替わります。今シーズンの 2 つの認証指標は戦技のダメージを罰し、反応ダメージを報いるので、燃焼、猛撃、粉砕が主役です。",
+        "ko": "엔드필드 최초의 위기 협약. 오퍼레이터를 약화하거나 적을 강화하거나 전투를 뒤트는 지표(리스크)을 직접 골라 난이도를 올립니다. 리스크를 많이 쌓을수록 점수가 높습니다. 게임 전체의 메타가 여기서 뒤바뀝니다. 이번 시즌의 두 비밀 지표은 배틀 스킬 피해를 벌하고 반응 피해에 보상하므로 연소, 강타, 쇄빙이 지배합니다."
       },
       "tags": [
         "endgame",
@@ -1256,43 +2029,65 @@
             {
               "k": {
                 "es": "Fechas",
-                "en": "Dates"
+                "en": "Dates",
+                "zh": "日期",
+                "ja": "期間",
+                "ko": "기간"
               },
               "v": {
                 "es": "19 jun – 16 jul 2026",
-                "en": "Jun 19 – Jul 16, 2026"
+                "en": "Jun 19 – Jul 16, 2026",
+                "zh": "2026年6月19日 – 7月16日",
+                "ja": "2026年6月19日〜7月16日",
+                "ko": "2026년 6월 19일 – 7월 16일"
               }
             },
             {
               "k": {
                 "es": "Desbloquear",
-                "en": "Unlock"
+                "en": "Unlock",
+                "zh": "解锁",
+                "ja": "解放条件",
+                "ko": "해금"
               },
               "v": {
                 "es": "Authority Lv 30 + misión Paving the Way",
-                "en": "Authority Lv 30 + Paving the Way mission"
+                "en": "Authority Lv 30 + Paving the Way mission",
+                "zh": "权限等级 30 + 铺路任务",
+                "ja": "権限 Lv 30＋ミッション「道を拓く」",
+                "ko": "권한 Lv 30 + 길을 닦다 임무"
               }
             },
             {
               "k": {
                 "es": "Moneda",
                 "en": "Currency",
-                "jp": "通貨",
-                "zh": "货币"
+                "zh": "货币",
+                "ja": "通貨",
+                "ko": "화폐"
               },
               "v": {
                 "es": "Vitrified Coins",
-                "en": "Vitrified Coins"
+                "en": "Vitrified Coins",
+                "zh": "玻化币",
+                "ja": "ガラス化コイン",
+                "ko": "유리화 동전"
               }
             },
             {
               "k": {
                 "es": "Tope de premio",
-                "en": "Reward cap"
+                "en": "Reward cap",
+                "zh": "奖励上限",
+                "ja": "報酬の上限",
+                "ko": "보상 상한"
               },
               "v": {
                 "es": "Riesgo 20",
-                "en": "Risk 20"
+                "en": "Risk 20",
+                "zh": "风险度 20",
+                "ja": "危険レベル 20",
+                "ko": "위험도 20"
               }
             }
           ]
@@ -1301,58 +2096,88 @@
           "type": "lead",
           "body": {
             "es": "En Contingency Contract la dificultad no viene puesta: la fabricas tú. Despliegas a tu equipo en una operación de 4 oleadas con tiempo límite, pero antes eliges cuántos Test Criteria (riesgos) activar. Cada riesgo vale 1★, 2★ o 3★ y suma a tu Total Test Criteria: ese número es tu puntuación. No hay una dificultad correcta, la real depende de tu roster: el truco es apilar los riesgos a los que tu equipo es inmune por construcción y empujar el número con esos modificadores gratis.",
-            "en": "In Contingency Contract the difficulty isn't handed to you: you build it. You deploy your team into a 4-wave, timed operation, but first you choose how many Test Criteria (risks) to switch on. Each risk is worth 1★, 2★ or 3★ and adds to your Total Test Criteria: that number is your score. There's no single correct difficulty, the real one depends on your roster: the trick is stacking the risks your team is immune to by construction and pushing the number with those free modifiers."
+            "en": "In Contingency Contract the difficulty isn't handed to you: you build it. You deploy your team into a 4-wave, timed operation, but first you choose how many Test Criteria (risks) to switch on. Each risk is worth 1★, 2★ or 3★ and adds to your Total Test Criteria: that number is your score. There's no single correct difficulty, the real one depends on your roster: the trick is stacking the risks your team is immune to by construction and pushing the number with those free modifiers.",
+            "zh": "在危机合约中，难度不是给你的：是你自己搭建的。你把队伍投入一场 4 波的限时行动，但先要选择开启多少指标（风险）。每个风险值 1★、2★ 或 3★，累加为总指标：这个数字就是你的分数。没有唯一正确的难度，真正的难度取决于你的阵容：诀窍是叠加那些你的队伍天生免疫的风险，用这些免费的修正项把数字推高。",
+            "ja": "危機契約では難易度は与えられるものではなく、自分で組み立てるものです。4 ウェーブの制限時間付き作戦にチームを投入しますが、その前に指標（リスク）をいくつオンにするか選びます。各リスクは 1★、2★、3★ の価値があり、合計指標に加算されます。その数値があなたのスコアです。唯一の正しい難易度はなく、本当の難易度はロスター次第。コツは、構成上チームが免疫を持つリスクを積み、その無料の修正で数字を押し上げることです。",
+            "ko": "위기 협약에서 난이도는 주어지는 것이 아니라 직접 만드는 것입니다. 4웨이브 제한 시간 작전에 팀을 투입하지만, 먼저 지표(리스크)을 몇 개 켤지 정합니다. 각 리스크는 1★, 2★, 3★의 가치가 있고 총 지표에 더해집니다. 그 숫자가 점수입니다. 유일한 정답 난이도는 없고 진짜 난이도는 로스터에 달렸습니다. 요령은 팀이 구성상 면역인 리스크를 쌓아 그 공짜 보정으로 숫자를 밀어 올리는 것입니다."
           }
         },
         {
           "type": "pillars",
           "h": {
             "es": "Cómo funciona",
-            "en": "How it works"
+            "en": "How it works",
+            "zh": "运作方式",
+            "ja": "仕組み",
+            "ko": "작동 방식"
           },
           "items": [
             {
               "icon": "◳",
               "h": {
                 "es": "Tres familias de riesgo",
-                "en": "Three risk families"
+                "en": "Three risk families",
+                "zh": "三类风险",
+                "ja": "3 つのリスク系統",
+                "ko": "세 가지 리스크 계열"
               },
               "body": {
                 "es": "Team debilita a tus operadores, Edit potencia a los enemigos y Ambient cambia el entorno y las reglas del combate.",
-                "en": "Team weakens your operators, Edit buffs enemies and Ambient changes the environment and the rules of combat."
+                "en": "Team weakens your operators, Edit buffs enemies and Ambient changes the environment and the rules of combat.",
+                "zh": "队伍类削弱你的干员，编辑类强化敌人，环境类改变环境和战斗规则。",
+                "ja": "チーム系はオペレーターを弱め、編集系は敵を強化し、環境系は環境と戦闘のルールを変えます。",
+                "ko": "팀 계열은 오퍼레이터를 약화하고, 편집 계열은 적을 강화하며, 환경 계열은 환경과 전투 규칙을 바꿉니다."
               }
             },
             {
               "icon": "★",
               "h": {
                 "es": "Apilas para puntuar",
-                "en": "Stack to score"
+                "en": "Stack to score",
+                "zh": "叠加得分",
+                "ja": "積んでスコアに",
+                "ko": "쌓아서 점수로"
               },
               "body": {
                 "es": "Cada criterio suma estrellas al total. Los riesgos unidos por una línea son mutuamente excluyentes: solo uno por rama.",
-                "en": "Each criterion adds stars to your total. Risks joined by a line are mutually exclusive: only one per branch."
+                "en": "Each criterion adds stars to your total. Risks joined by a line are mutually exclusive: only one per branch.",
+                "zh": "每个条件为总分增加星数。用线连接的风险互斥：每条分支只能选一个。",
+                "ja": "各条件が合計に星を加えます。線でつながったリスクは排他で、枝ごとに 1 つだけ選べます。",
+                "ko": "각 조건이 총점에 별을 더합니다. 선으로 이어진 리스크는 서로 배타적이라 가지마다 하나만 고릅니다."
               }
             },
             {
               "icon": "⚿",
               "h": {
                 "es": "Key y Locked",
-                "en": "Key and Locked"
+                "en": "Key and Locked",
+                "zh": "关键与锁定",
+                "ja": "キーとロック",
+                "ko": "핵심과 잠금"
               },
               "body": {
                 "es": "Los Key Criteria son nodos potentes que desbloquean criterios Locked. Definen el meta de la temporada.",
-                "en": "Key Criteria are powerful nodes that unlock Locked criteria. They define the season's meta."
+                "en": "Key Criteria are powerful nodes that unlock Locked criteria. They define the season's meta.",
+                "zh": "密钥指标是解锁锁闭指标的强力节点。它们定义赛季的 meta。",
+                "ja": "認証指標は閉鎖指標を解放する強力なノードで、シーズンのメタを定義します。",
+                "ko": "비밀 지표은 잠금 지표을 여는 강력한 노드로, 시즌의 메타를 정의합니다."
               }
             },
             {
               "icon": "◈",
               "h": {
                 "es": "El premio topa en Riesgo 20",
-                "en": "Rewards cap at Risk 20"
+                "en": "Rewards cap at Risk 20",
+                "zh": "奖励在风险度 20 封顶",
+                "ja": "報酬は危険レベル 20 で上限",
+                "ko": "보상은 위험도 20에서 상한"
               },
               "body": {
                 "es": "Toda la tienda se desbloquea a Riesgo 20. Por encima es solo presumir (y misiones de ciclo). Sin estamina: reintenta libre.",
-                "en": "The whole shop unlocks at Risk 20. Above that it's bragging rights (and cycle missions). No stamina: retry freely."
+                "en": "The whole shop unlocks at Risk 20. Above that it's bragging rights (and cycle missions). No stamina: retry freely.",
+                "zh": "整个商店在风险度 20 解锁。再往上只是荣耀（和周期任务）。不消耗体力：可自由重试。",
+                "ja": "ショップ全体は危険レベル 20 で解放されます。それ以上は自慢の種（とサイクルミッション）。スタミナは不要で、何度でも挑戦できます。",
+                "ko": "상점 전체는 위험도 20에서 열립니다. 그 이상은 자랑거리(와 사이클 임무)입니다. 스태미나가 들지 않으니 자유롭게 재도전하세요."
               }
             }
           ]
@@ -1361,24 +2186,39 @@
           "type": "meta",
           "h": {
             "es": "Por qué cambia el meta",
-            "en": "Why the meta shifts"
+            "en": "Why the meta shifts",
+            "zh": "meta 为何改变",
+            "ja": "メタが動く理由",
+            "ko": "메타가 바뀌는 이유"
           },
           "body": {
             "es": "Esta temporada tiene dos Key Criteria de 3★ que mueven todo. Ambient: Tremor sube el daño que NO es Basic, Battle Skill, Combo Skill ni Ultimate, y Ambient: Overclock recorta el cooldown de Combo Skill, pero los dos castigan fuerte el daño de Battle Skill. Resultado: el daño de reacción (Combustion, Shatter, Crush) y los Inflictions se vuelven mejora casi gratuita, mientras que las carries que viven de su Battle Skill (Zhuang Fangyi) pierden gas.",
-            "en": "This season runs two 3★ Key Criteria that move everything. Ambient: Tremor boosts damage that is NOT Basic, Battle Skill, Combo Skill or Ultimate, and Ambient: Overclock cuts Combo Skill cooldown, but both punish Battle Skill damage hard. The upshot: reaction damage (Combustion, Shatter, Crush) and Inflictions become a near-free upgrade, while carries that live off their Battle Skill (Zhuang Fangyi) lose steam."
+            "en": "This season runs two 3★ Key Criteria that move everything. Ambient: Tremor boosts damage that is NOT Basic, Battle Skill, Combo Skill or Ultimate, and Ambient: Overclock cuts Combo Skill cooldown, but both punish Battle Skill damage hard. The upshot: reaction damage (Combustion, Shatter, Crush) and Inflictions become a near-free upgrade, while carries that live off their Battle Skill (Zhuang Fangyi) lose steam.",
+            "zh": "本赛季有两个 3★ 密钥指标改变一切。环境：震荡强化不属于普攻、战技、连携技或终结技的伤害，环境：过速缩短连携技冷却，但两者都重罚战技伤害。结果：反应伤害（燃烧、碎冰、猛击）和附着几乎成了免费升级，而靠战技吃饭的主C（庄方宜）失去动力。",
+            "ja": "今シーズンはすべてを動かす 3★ の認証指標が 2 つ。環境：振動は通常攻撃・戦技・連携技・必殺技以外のダメージを強化し、環境：過速は連携技のクールダウンを短縮しますが、どちらも戦技のダメージを重く罰します。結果、反応ダメージ（燃焼、粉砕、猛撃）と付着はほぼ無料の強化になり、戦技で食べているキャリー（ゾアン・ファンイ）は失速します。",
+            "ko": "이번 시즌은 모든 것을 움직이는 3★ 비밀 지표이 둘입니다. 환경: 충격은 일반·배틀·연계·궁극기가 아닌 피해를 강화하고, 환경: 과속은 연계 스킬 쿨타임을 줄이지만, 둘 다 배틀 스킬 피해를 크게 벌합니다. 결과적으로 반응 피해(연소, 쇄빙, 강타)와 부착은 거의 공짜 강화가 되고, 배틀 스킬로 먹고사는 캐리(장방이)는 힘이 빠집니다."
           },
           "points": [
             {
               "es": "Sube: Combustion, Shatter, Crush y todo lo que pegue fuera del skill damage.",
-              "en": "Up: Combustion, Shatter, Crush and anything that hits outside skill damage."
+              "en": "Up: Combustion, Shatter, Crush and anything that hits outside skill damage.",
+              "zh": "上升：燃烧、碎冰、猛击，以及任何技能伤害之外的输出。",
+              "ja": "上がる：燃焼、粉砕、猛撃、そしてスキルダメージ外のあらゆる攻撃。",
+              "ko": "상승: 연소, 쇄빙, 강타, 그리고 스킬 피해 밖에서 들어가는 모든 것."
             },
             {
               "es": "Baja: carries de Battle Skill puro, y las Ultimates si llevas Bent Edges.",
-              "en": "Down: pure Battle Skill carries, and Ultimates if you take Bent Edges."
+              "en": "Down: pure Battle Skill carries, and Ultimates if you take Bent Edges.",
+              "zh": "下降：纯战技主C，以及选了折刃时的终结技。",
+              "ja": "下がる：純粋な戦技キャリー、そしてベントエッジを取った場合の必殺技。",
+              "ko": "하락: 순수 배틀 스킬 캐리, 그리고 휘어진 날을 고르면 궁극기."
             },
             {
               "es": "Estrellas estables: Estella ignora varios riesgos de Cryo y es cómoda para tu primer Riesgo 20.",
-              "en": "Steady stars: Estella ignores several Cryo risks and is comfy for your first Risk 20."
+              "en": "Steady stars: Estella ignores several Cryo risks and is comfy for your first Risk 20.",
+              "zh": "稳定的星数：埃特拉无视多个寒冷风险，是你首次风险度 20 的舒适选择。",
+              "ja": "安定した星：エステーラは寒冷系のリスクをいくつも無視でき、初めての危険レベル 20 に快適です。",
+              "ko": "안정적인 별: 에스텔라는 냉기 리스크 여러 개를 무시하므로 첫 위험도 20에 편안합니다."
             }
           ]
         },
@@ -1386,17 +2226,26 @@
           "type": "teams",
           "h": {
             "es": "Equipos recomendados",
-            "en": "Recommended teams"
+            "en": "Recommended teams",
+            "zh": "推荐队伍",
+            "ja": "おすすめチーム",
+            "ko": "추천 팀"
           },
           "note": {
             "es": "El operador con el marco de acento es la pieza clave. Toca cualquiera para ver su ficha; abre el Planner para construir la rotación.",
-            "en": "The operator with the accent frame is the key piece. Tap any of them to open their page; use the Planner to build the rotation."
+            "en": "The operator with the accent frame is the key piece. Tap any of them to open their page; use the Planner to build the rotation.",
+            "zh": "带强调框的干员是核心。点击任意干员打开其页面；用规划器构建轮转。",
+            "ja": "アクセント枠のオペレーターが要です。タップするとそのページが開き、プランナーでローテーションを組めます。",
+            "ko": "강조 테두리의 오퍼레이터가 핵심입니다. 아무나 눌러 페이지를 열고, 플래너로 로테이션을 만드세요."
           },
           "items": [
             {
               "name": {
                 "es": "Estella Combustion (alto riesgo)",
-                "en": "Estella Combustion (high risk)"
+                "en": "Estella Combustion (high risk)",
+                "zh": "埃特拉燃烧（高风险）",
+                "ja": "エステーラ燃焼（高リスク）",
+                "ko": "에스텔라 연소(고리스크)"
               },
               "risk": "Risk 40",
               "ops": [
@@ -1408,7 +2257,10 @@
               "carry": "estella",
               "note": {
                 "es": "La comp de leaderboard. Doble fuente de Combustion y Gilberta amplificando todo el daño Arts. El roster solo no te lleva: hay que pilotarla bien.",
-                "en": "The leaderboard comp. Double Combustion source and Gilberta amplifying all Arts damage. The roster alone won't carry you, you have to pilot it well."
+                "en": "The leaderboard comp. Double Combustion source and Gilberta amplifying all Arts damage. The roster alone won't carry you, you have to pilot it well.",
+                "zh": "排行榜队伍。双燃烧来源，加上洁尔佩塔增幅全部法术伤害。光有阵容不够，你得操作得好。",
+                "ja": "ランキング常連の編成。燃焼の供給源が 2 つ、ギルベルタがアーツダメージ全体を増幅します。ロスターだけでは勝てず、うまく操作する必要があります。",
+                "ko": "랭킹 조합. 연소 공급원 둘에 질베르타가 모든 아츠 피해를 증폭합니다. 로스터만으로는 안 되고 조작을 잘해야 합니다."
               }
             }
           ]
@@ -1417,7 +2269,10 @@
           "type": "video",
           "h": {
             "es": "La comp en acción",
-            "en": "The comp in action"
+            "en": "The comp in action",
+            "zh": "队伍实战",
+            "ja": "編成の実演",
+            "ko": "조합 실전"
           },
           "title": "【危机合约】第一天首发 46分  42+狼卫 双燃烧打法思路",
           "ch": "YZ-月咒",
@@ -1429,29 +2284,44 @@
           "thumb": "https://i1.hdslb.com/bfs/archive/c9b06e0237e566d88c763395da140a75f8ec5793.jpg",
           "note": {
             "es": "Demostración del equipo más popular de la temporada en alta dificultad: 46 puntos el primer día del evento con la comp de fuego de doble Combustion.",
-            "en": "A demo of the most popular team of the season at high difficulty: 46 points on day one of the event with the double Combustion fire comp."
+            "en": "A demo of the most popular team of the season at high difficulty: 46 points on day one of the event with the double Combustion fire comp.",
+            "zh": "本赛季最流行队伍在高难度下的演示：活动首日用双燃烧火队拿到 46 分。",
+            "ja": "今シーズン最も人気の編成の高難度デモ：ダブル燃焼の火編成でイベント初日に 46 ポイント。",
+            "ko": "이번 시즌 가장 인기 있는 팀의 고난도 시연: 이중 연소 화염 조합으로 이벤트 첫날 46점."
           }
         },
         {
           "type": "criteria",
           "h": {
             "es": "Test Criteria de la temporada",
-            "en": "Season Test Criteria"
+            "en": "Season Test Criteria",
+            "zh": "赛季指标",
+            "ja": "シーズンの指標",
+            "ko": "시즌 지표"
           },
           "note": {
             "es": "Referencia por familia. Las estrellas son el peso del criterio. Key desbloquea Locked, y Locked necesita su Key activo.",
-            "en": "Reference by family. Stars are the criterion's weight. Key unlocks Locked, and Locked needs its Key active."
+            "en": "Reference by family. Stars are the criterion's weight. Key unlocks Locked, and Locked needs its Key active.",
+            "zh": "按类别参考。星数是条件的权重。关键解锁锁定，锁定需要其关键处于开启状态。",
+            "ja": "系統ごとの参考。星は条件の重み。キーがロックを解放し、ロックはそのキーが有効であることを必要とします。",
+            "ko": "계열별 참고. 별은 조건의 가중치입니다. 핵심이 잠금을 열고, 잠금은 해당 핵심이 켜져 있어야 합니다."
           },
           "groups": [
             {
               "kind": "ambient",
               "cat": {
                 "es": "Ambient · entorno",
-                "en": "Ambient · environment"
+                "en": "Ambient · environment",
+                "zh": "环境 · 场地",
+                "ja": "環境・フィールド",
+                "ko": "환경 · 환경"
               },
               "desc": {
                 "es": "Cambian las reglas del combate.",
-                "en": "Change the rules of combat."
+                "en": "Change the rules of combat.",
+                "zh": "改变战斗规则。",
+                "ja": "戦闘のルールを変える。",
+                "ko": "전투 규칙을 바꿉니다."
               },
               "items": [
                 {
@@ -1460,8 +2330,14 @@
                   "tag": "Key",
                   "eff": {
                     "es": "Sube el daño que NO es Basic/Battle/Combo/Ultimate; recorta Battle Skill DMG. Define el meta de reacción.",
-                    "en": "Boosts damage that is NOT Basic/Battle/Combo/Ultimate; cuts Battle Skill DMG. Defines the reaction meta."
-                  }
+                    "en": "Boosts damage that is NOT Basic/Battle/Combo/Ultimate; cuts Battle Skill DMG. Defines the reaction meta.",
+                    "zh": "强化不属于普攻/战技/连携/终结技的伤害；削减战技伤害。定义反应 meta。",
+                    "ja": "通常/戦技/連携/必殺技以外のダメージを強化し、戦技ダメージを減らす。反応メタを定義する。",
+                    "ko": "일반/배틀/연계/궁극기가 아닌 피해를 강화하고 배틀 스킬 피해를 줄임. 반응 메타를 정의."
+                  },
+                  "name_zh": "震荡",
+                  "name_ja": "振動",
+                  "name_ko": "충격"
                 },
                 {
                   "name": "Overclock",
@@ -1469,16 +2345,28 @@
                   "tag": "Key",
                   "eff": {
                     "es": "Recorta el cooldown de Combo Skill; castiga Battle Skill DMG.",
-                    "en": "Cuts Combo Skill cooldown; penalizes Battle Skill DMG."
-                  }
+                    "en": "Cuts Combo Skill cooldown; penalizes Battle Skill DMG.",
+                    "zh": "缩短连携技冷却；惩罚战技伤害。",
+                    "ja": "連携技のクールダウンを短縮し、戦技ダメージを罰する。",
+                    "ko": "연계 스킬 쿨타임 단축, 배틀 스킬 피해 페널티."
+                  },
+                  "name_zh": "过速",
+                  "name_ja": "過速",
+                  "name_ko": "과속"
                 },
                 {
                   "name": "Time Limit I–III",
                   "star": 3,
                   "eff": {
                     "es": "Temporizador −100 / −200 / −300s.",
-                    "en": "Timer −100 / −200 / −300s."
-                  }
+                    "en": "Timer −100 / −200 / −300s.",
+                    "zh": "计时器 −100 / −200 / −300 秒。",
+                    "ja": "タイマー −100 / −200 / −300 秒。",
+                    "ko": "타이머 −100 / −200 / −300초."
+                  },
+                  "name_zh": "时限 I–III",
+                  "name_ja": "時限 I–III",
+                  "name_ko": "시간 제한 I–III"
                 },
                 {
                   "name": "Mire",
@@ -1486,33 +2374,55 @@
                   "eff": {
                     "es": "No se puede esquivar.",
                     "en": "Dodge cannot be performed.",
-                    "jp": "回避不可",
-                    "zh": "禁止闪避"
-                  }
+                    "zh": "无法闪避。",
+                    "ja": "回避ができない。",
+                    "ko": "회피를 할 수 없음."
+                  },
+                  "name_zh": "禁锢",
+                  "name_ja": "禁制",
+                  "name_ko": "속박"
                 },
                 {
                   "name": "Hypoxia",
                   "star": 1,
                   "eff": {
                     "es": "Regeneración de estamina −50%.",
-                    "en": "Stamina regen −50%."
-                  }
+                    "en": "Stamina regen −50%.",
+                    "zh": "体力回复 −50%。",
+                    "ja": "スタミナ回復 −50%。",
+                    "ko": "스태미나 회복 −50%."
+                  },
+                  "name_zh": "厌氧",
+                  "name_ja": "無酸素",
+                  "name_ko": "호흡 불가"
                 },
                 {
                   "name": "Withering I–II",
                   "star": 2,
                   "eff": {
                     "es": "Solo 1 / ninguna Healing Mass entre oleadas.",
-                    "en": "Only 1 / no Healing Mass between waves."
-                  }
+                    "en": "Only 1 / no Healing Mass between waves.",
+                    "zh": "波次之间只有 1 个 / 没有治疗团。",
+                    "ja": "ウェーブ間の治療体は 1 つだけ / なし。",
+                    "ko": "웨이브 사이에 치유 덩어리 1개 / 없음."
+                  },
+                  "name_zh": "枯萎 I–II",
+                  "name_ja": "枯死 I–II",
+                  "name_ko": "쇠퇴 I–II"
                 },
                 {
                   "name": "Synced Growth",
                   "star": 2,
                   "eff": {
                     "es": "Cuando curas a un operador, los enemigos también se curan.",
-                    "en": "When you heal an operator, enemies heal too."
-                  }
+                    "en": "When you heal an operator, enemies heal too.",
+                    "zh": "治疗干员时，敌人也会回复。",
+                    "ja": "オペレーターを回復すると敵も回復する。",
+                    "ko": "오퍼레이터를 치유하면 적도 회복함."
+                  },
+                  "name_zh": "同步生长",
+                  "name_ja": "生長同調",
+                  "name_ko": "동시 성장"
                 },
                 {
                   "name": "Partition",
@@ -1520,8 +2430,14 @@
                   "tag": "Locked",
                   "eff": {
                     "es": "No puedes cambiar de operador controlado una vez empieza el combate.",
-                    "en": "Can't switch controlled operator once battle starts."
-                  }
+                    "en": "Can't switch controlled operator once battle starts.",
+                    "zh": "战斗开始后无法切换主控干员。",
+                    "ja": "戦闘開始後は操作オペレーターを切り替えられない。",
+                    "ko": "전투 시작 후 조작 오퍼레이터를 바꿀 수 없음."
+                  },
+                  "name_zh": "分隔",
+                  "name_ja": "分離",
+                  "name_ko": "분리"
                 },
                 {
                   "name": "*-lysis (Thermo/Bio/Electro/Physico)",
@@ -1529,8 +2445,14 @@
                   "tag": "Locked",
                   "eff": {
                     "es": "Alarga la Solidification; solo el elemento indicado (Heat/Nature/Electric/Physical) la disipa.",
-                    "en": "Extends Solidification; only the named element (Heat/Nature/Electric/Physical) dispels it."
-                  }
+                    "en": "Extends Solidification; only the named element (Heat/Nature/Electric/Physical) dispels it.",
+                    "zh": "延长冻结；只有指定属性（灼热/自然/电磁/物理）能解除。",
+                    "ja": "凍結を延長し、指定属性（灼熱/自然/電磁/物理）でしか解除できない。",
+                    "ko": "동결을 연장하고 지정 속성(열기/자연/전기/물리)만 해제할 수 있음."
+                  },
+                  "name_zh": "融化 / 升华 / 电解 / 切削",
+                  "name_ja": "溶解 / 昇華 / 解離 / 切削",
+                  "name_ko": "융해 / 승화 / 전기 분해 / 절삭"
                 },
                 {
                   "name": "RE-Construct I–II",
@@ -1538,8 +2460,14 @@
                   "tag": "Locked",
                   "eff": {
                     "es": "Variantes Heavy Ram/Sting en las oleadas finales.",
-                    "en": "Heavy Ram/Sting variants in the final waves."
-                  }
+                    "en": "Heavy Ram/Sting variants in the final waves.",
+                    "zh": "最后几波出现重型冲撞兽/刺针变体。",
+                    "ja": "最終ウェーブに重装ラム/スティングの亜種が出る。",
+                    "ko": "마지막 웨이브에 중장 램/스팅 변종 등장."
+                  },
+                  "name_zh": "再构成 I–II",
+                  "name_ja": "再構築 I–II",
+                  "name_ko": "재구성 I–II"
                 }
               ]
             },
@@ -1547,11 +2475,17 @@
               "kind": "edit",
               "cat": {
                 "es": "Edit · enemigos",
-                "en": "Edit · enemies"
+                "en": "Edit · enemies",
+                "zh": "编辑 · 敌人",
+                "ja": "編集・敵",
+                "ko": "편집 · 적"
               },
               "desc": {
                 "es": "Hacen a los enemigos más fuertes.",
-                "en": "Make enemies stronger."
+                "en": "Make enemies stronger.",
+                "zh": "让敌人更强。",
+                "ja": "敵を強くする。",
+                "ko": "적을 강하게 만듭니다."
               },
               "items": [
                 {
@@ -1559,32 +2493,56 @@
                   "star": 3,
                   "eff": {
                     "es": "HP enemigo +50 / +100 / +200%.",
-                    "en": "Enemy HP +50 / +100 / +200%."
-                  }
+                    "en": "Enemy HP +50 / +100 / +200%.",
+                    "zh": "敌人 HP +50 / +100 / +200%。",
+                    "ja": "敵 HP +50 / +100 / +200%。",
+                    "ko": "적 HP +50 / +100 / +200%."
+                  },
+                  "name_zh": "活性 I–III",
+                  "name_ja": "活性化 I–III",
+                  "name_ko": "활성 I–III"
                 },
                 {
                   "name": "Thrill I–II",
                   "star": 2,
                   "eff": {
                     "es": "Daño infligido por enemigos +30 / +80%.",
-                    "en": "Enemy DMG dealt +30 / +80%."
-                  }
+                    "en": "Enemy DMG dealt +30 / +80%.",
+                    "zh": "敌人造成的伤害 +30 / +80%。",
+                    "ja": "敵の与ダメージ +30 / +80%。",
+                    "ko": "적이 주는 피해 +30 / +80%."
+                  },
+                  "name_zh": "刺激 I–II",
+                  "name_ja": "刺激 I–II",
+                  "name_ko": "공격 I–II"
                 },
                 {
                   "name": "Effect Barrier",
                   "star": 1,
                   "eff": {
                     "es": "Tras aplicar un Arts Infliction, no se puede re-aplicar el mismo por 5s.",
-                    "en": "After an Arts Infliction, the same one can't be re-applied for 5s."
-                  }
+                    "en": "After an Arts Infliction, the same one can't be re-applied for 5s.",
+                    "zh": "施加法术附着后，5 秒内无法再次施加同一附着。",
+                    "ja": "アーツ付着の後、同じものを 5 秒間再付与できない。",
+                    "ko": "아츠 부착 후 5초 동안 같은 부착을 다시 적용할 수 없음."
+                  },
+                  "name_zh": "屏障",
+                  "name_ja": "護身",
+                  "name_ko": "보호벽"
                 },
                 {
                   "name": "Rush",
                   "star": 2,
                   "eff": {
                     "es": "Velocidad de enemigos +100%; cap de daño de 25% Max HP por 0.1s (mata one-shots).",
-                    "en": "Enemy move speed +100%; damage cap of 25% Max HP per 0.1s (kills one-shots)."
-                  }
+                    "en": "Enemy move speed +100%; damage cap of 25% Max HP per 0.1s (kills one-shots).",
+                    "zh": "敌人移速 +100%；每 0.1 秒伤害上限为最大 HP 的 25%（秒杀失效）。",
+                    "ja": "敵の移動速度 +100%。0.1 秒ごとのダメージ上限が最大 HP の 25%（一撃必殺が無効）。",
+                    "ko": "적 이동 속도 +100%. 0.1초당 피해 상한이 최대 HP의 25%(원샷 무효)."
+                  },
+                  "name_zh": "奔腾",
+                  "name_ja": "疾走",
+                  "name_ko": "질주"
                 },
                 {
                   "name": "Regeneration I–II",
@@ -1592,8 +2550,14 @@
                   "tag": "Locked",
                   "eff": {
                     "es": "Los enemigos con control (CC) se regeneran. Cuidado con ults que reagrupan.",
-                    "en": "Crowd-controlled enemies regenerate. Beware ults that bunch them up."
-                  }
+                    "en": "Crowd-controlled enemies regenerate. Beware ults that bunch them up.",
+                    "zh": "被控制的敌人会回复。小心把敌人聚在一起的终结技。",
+                    "ja": "行動不能の敵は回復する。敵を集める必殺技に注意。",
+                    "ko": "제어된 적은 회복함. 적을 모으는 궁극기에 주의."
+                  },
+                  "name_zh": "愈合 I–II",
+                  "name_ja": "治癒 I–II",
+                  "name_ko": "치유 I–II"
                 },
                 {
                   "name": "Toxic Residue I–II",
@@ -1601,8 +2565,14 @@
                   "tag": "Locked",
                   "eff": {
                     "es": "Los enemigos derrotados dejan charcos de toxina.",
-                    "en": "Defeated enemies leave toxin pools."
-                  }
+                    "en": "Defeated enemies leave toxin pools.",
+                    "zh": "被击败的敌人留下毒池。",
+                    "ja": "倒された敵は毒の池を残す。",
+                    "ko": "처치된 적이 독 웅덩이를 남김."
+                  },
+                  "name_zh": "遗毒 I–II",
+                  "name_ja": "毒沼化 I–II",
+                  "name_ko": "독성 I–II"
                 },
                 {
                   "name": "Encasement",
@@ -1610,8 +2580,14 @@
                   "tag": "Locked",
                   "eff": {
                     "es": "El enemigo reduce daño recibido por cada stack de Vulnerability.",
-                    "en": "Enemy reduces damage taken per Vulnerability stack."
-                  }
+                    "en": "Enemy reduces damage taken per Vulnerability stack.",
+                    "zh": "敌人每层破防减少受到的伤害。",
+                    "ja": "敵はクラッシュのスタックごとに被ダメージを減らす。",
+                    "ko": "적이 방어 불능 중첩당 받는 피해를 줄임."
+                  },
+                  "name_zh": "裹附",
+                  "name_ja": "遮断",
+                  "name_ko": "부착"
                 },
                 {
                   "name": "Flashfreeze",
@@ -1619,8 +2595,14 @@
                   "tag": "Locked",
                   "eff": {
                     "es": "El Cryo Infliction se convierte en Solidification.",
-                    "en": "Cryo Infliction converts into Solidification."
-                  }
+                    "en": "Cryo Infliction converts into Solidification.",
+                    "zh": "寒冷附着转化为冻结。",
+                    "ja": "寒冷付着が凍結に変わる。",
+                    "ko": "냉기 부착이 동결로 전환됨."
+                  },
+                  "name_zh": "热量汲取",
+                  "name_ja": "熱吸収",
+                  "name_ko": "열량 흡수"
                 }
               ]
             },
@@ -1628,11 +2610,17 @@
               "kind": "team",
               "cat": {
                 "es": "Team · tus operadores",
-                "en": "Team · your operators"
+                "en": "Team · your operators",
+                "zh": "队伍 · 你的干员",
+                "ja": "チーム・自分のオペレーター",
+                "ko": "팀 · 내 오퍼레이터"
               },
               "desc": {
                 "es": "Te debilitan a ti.",
-                "en": "Weaken you."
+                "en": "Weaken you.",
+                "zh": "削弱你。",
+                "ja": "自分を弱める。",
+                "ko": "나를 약화합니다."
               },
               "items": [
                 {
@@ -1640,72 +2628,126 @@
                   "star": 3,
                   "eff": {
                     "es": "Atributos de operador −10 / −20 / −40%.",
-                    "en": "Operator attributes −10 / −20 / −40%."
-                  }
+                    "en": "Operator attributes −10 / −20 / −40%.",
+                    "zh": "干员属性 −10 / −20 / −40%。",
+                    "ja": "オペレーターのステータス −10 / −20 / −40%。",
+                    "ko": "오퍼레이터 속성 −10 / −20 / −40%."
+                  },
+                  "name_zh": "萎缩 I–III",
+                  "name_ja": "萎縮 I–III",
+                  "name_ko": "위축 I–III"
                 },
                 {
                   "name": "Poor Basics",
                   "star": 3,
                   "eff": {
                     "es": "Basic Attack DMG Dealt −70%.",
-                    "en": "Basic Attack DMG Dealt −70%."
-                  }
+                    "en": "Basic Attack DMG Dealt −70%.",
+                    "zh": "普攻造成的伤害 −70%。",
+                    "ja": "通常攻撃の与ダメージ −70%。",
+                    "ko": "일반 공격 피해 −70%."
+                  },
+                  "name_zh": "脱力",
+                  "name_ja": "無力",
+                  "name_ko": "피로"
                 },
                 {
                   "name": "Bent Edges I–II",
                   "star": 2,
                   "eff": {
                     "es": "Penalización al daño de Ultimate (II: −100% tras la 1ª).",
-                    "en": "Ultimate damage penalty (II: −100% after the first cast)."
-                  }
+                    "en": "Ultimate damage penalty (II: −100% after the first cast).",
+                    "zh": "终结技伤害惩罚（II：首次释放后 −100%）。",
+                    "ja": "必殺技のダメージペナルティ（II：初回発動後 −100%）。",
+                    "ko": "궁극기 피해 페널티(II: 첫 사용 후 −100%)."
+                  },
+                  "name_zh": "折刃 I–II",
+                  "name_ja": "断刃 I–II",
+                  "name_ko": "부러진 칼날 I–II"
                 },
                 {
                   "name": "Decapitate I–II",
                   "star": 2,
                   "eff": {
                     "es": "Daño recibido por el operador controlado +50 / +100%.",
-                    "en": "DMG taken by the controlled operator +50 / +100%."
-                  }
+                    "en": "DMG taken by the controlled operator +50 / +100%.",
+                    "zh": "主控干员受到的伤害 +50 / +100%。",
+                    "ja": "操作オペレーターの被ダメージ +50 / +100%。",
+                    "ko": "조작 오퍼레이터가 받는 피해 +50 / +100%."
+                  },
+                  "name_zh": "斩首 I–II",
+                  "name_ja": "暗殺 I–II",
+                  "name_ko": "참수 I–II"
                 },
                 {
                   "name": "Battle Chill I–II",
                   "star": 2,
                   "eff": {
                     "es": "Usar Battle Skill te aplica Cryo Infliction.",
-                    "en": "Using a Battle Skill self-applies Cryo Infliction."
-                  }
+                    "en": "Using a Battle Skill self-applies Cryo Infliction.",
+                    "zh": "使用战技会给自己施加寒冷附着。",
+                    "ja": "戦技を使うと自分に寒冷付着が付く。",
+                    "ko": "배틀 스킬 사용 시 자신에게 냉기 부착."
+                  },
+                  "name_zh": "失温 I–II",
+                  "name_ja": "低体温 I–II",
+                  "name_ko": "저체온증 I–II"
                 },
                 {
                   "name": "Heat Loss I–II",
                   "star": 2,
                   "eff": {
                     "es": "Usar Combo Skill te aplica Cryo Infliction.",
-                    "en": "Using a Combo Skill self-applies Cryo Infliction."
-                  }
+                    "en": "Using a Combo Skill self-applies Cryo Infliction.",
+                    "zh": "使用连携技会给自己施加寒冷附着。",
+                    "ja": "連携技を使うと自分に寒冷付着が付く。",
+                    "ko": "연계 스킬 사용 시 자신에게 냉기 부착."
+                  },
+                  "name_zh": "热流失 I–II",
+                  "name_ja": "熱損失 I–II",
+                  "name_ko": "열 손실 I–II"
                 },
                 {
                   "name": "Restraint I–II",
                   "star": 2,
                   "eff": {
                     "es": "Reduce el daño de Vulnerability / Arts Infliction.",
-                    "en": "Reduces Vulnerability / Arts Infliction damage."
-                  }
+                    "en": "Reduces Vulnerability / Arts Infliction damage.",
+                    "zh": "降低破防 / 法术附着伤害。",
+                    "ja": "クラッシュ / アーツ付着のダメージを減らす。",
+                    "ko": "방어 불능 / 아츠 부착 피해 감소."
+                  },
+                  "name_zh": "扼制 I–II",
+                  "name_ja": "抑制 I–II",
+                  "name_ko": "억제 I–II"
                 },
                 {
                   "name": "Whittle Down",
                   "star": 3,
                   "eff": {
                     "es": "Parte del daño que recibes se convierte en pérdida de Max HP.",
-                    "en": "Part of the damage you take converts into Max HP loss."
-                  }
+                    "en": "Part of the damage you take converts into Max HP loss.",
+                    "zh": "受到的部分伤害转化为最大 HP 损失。",
+                    "ja": "被ダメージの一部が最大 HP の減少に変わる。",
+                    "ko": "받는 피해의 일부가 최대 HP 손실로 전환됨."
+                  },
+                  "name_zh": "衰竭",
+                  "name_ja": "衰退",
+                  "name_ko": "쇠약"
                 },
                 {
                   "name": "Encumbered",
                   "star": 1,
                   "eff": {
                     "es": "Se pausa la recuperación natural de SP si no das un Final Strike en 12s.",
-                    "en": "Natural SP recovery pauses if you haven't landed a Final Strike in 12s."
-                  }
+                    "en": "Natural SP recovery pauses if you haven't landed a Final Strike in 12s.",
+                    "zh": "12 秒内没有命中重击，则 SP 自然回复暂停。",
+                    "ja": "12 秒間重攻撃を当てていないと SP の自然回復が止まる。",
+                    "ko": "12초 동안 강력한 일격을 적중시키지 않으면 SP 자연 회복이 멈춤."
+                  },
+                  "name_zh": "重负",
+                  "name_ja": "重荷",
+                  "name_ko": "중압"
                 }
               ]
             }
@@ -1716,11 +2758,17 @@
           "variant": "tip",
           "h": {
             "es": "Cómo llegar a Riesgo 20 sin sufrir",
-            "en": "Reaching Risk 20 the easy way"
+            "en": "Reaching Risk 20 the easy way",
+            "zh": "轻松达到风险度 20",
+            "ja": "危険レベル 20 に楽に届く方法",
+            "ko": "위험도 20에 쉽게 도달하기"
           },
           "body": {
             "es": "Elige los criterios a los que tu equipo es inmune por diseño y empuja el número con esos. Con una comp de Combustion o Crush, los Key (Tremor y Overclock) son daño a tu favor: te dan estrellas Y te suben el daño. Suma los baratos que no te tocan (Time Limit si vas sobrado de tiempo, Hypoxia si no dependes de estamina, el *-lysis que no choque con tu elemento) y llegas a 20 cómodo.",
-            "en": "Pick the criteria your team is immune to by design and push the number with those. With a Combustion or Crush comp, the Key nodes (Tremor and Overclock) work in your favor: they give you stars AND raise your damage. Pile on the cheap ones that don't touch you (Time Limit if you clear with time to spare, Hypoxia if you don't lean on stamina, the *-lysis that doesn't clash with your element) and Risk 20 comes easy."
+            "en": "Pick the criteria your team is immune to by design and push the number with those. With a Combustion or Crush comp, the Key nodes (Tremor and Overclock) work in your favor: they give you stars AND raise your damage. Pile on the cheap ones that don't touch you (Time Limit if you clear with time to spare, Hypoxia if you don't lean on stamina, the *-lysis that doesn't clash with your element) and Risk 20 comes easy.",
+            "zh": "选择你的队伍天生免疫的条件，用它们推高数字。用燃烧或猛击队时，关键节点（震荡和过速）对你有利：既给星又提伤害。再堆上不影响你的便宜条件（时间充裕就选时限，不依赖体力就选厌氧，与你属性不冲突的那个 *-解（融化/升华/电解/切削）），风险度 20 就轻松到手。",
+            "ja": "チームが構成上免疫を持つ条件を選び、それで数字を押し上げましょう。燃焼や猛撃の編成なら、キーノード（振動と過速）は味方です。星をくれてダメージも上がります。触れてこない安い条件（余裕でクリアできるなら時限、スタミナに頼らないなら無酸素、自分の属性とぶつからない「〜解」（溶解/昇華/解離/切削））を積めば、危険レベル 20 は楽勝です。",
+            "ko": "팀이 구성상 면역인 조건을 골라 그것으로 숫자를 밀어 올리세요. 연소나 강타 조합이라면 핵심 노드(충격과 과속)가 내 편입니다. 별도 주고 피해도 올려 줍니다. 나를 건드리지 않는 값싼 조건(시간 여유가 있으면 제한 시간, 스태미나에 기대지 않으면 호흡 불가, 내 속성과 충돌하지 않는 *-해(융해/승화/전기 분해/절삭))을 쌓으면 위험도 20은 쉽게 옵니다."
           }
         },
         {
@@ -1728,50 +2776,108 @@
           "variant": "warn",
           "h": {
             "es": "Combinaciones que se pelean",
-            "en": "Combos that fight each other"
+            "en": "Combos that fight each other",
+            "zh": "互相冲突的组合",
+            "ja": "ぶつかり合う組み合わせ",
+            "ko": "서로 충돌하는 조합"
           },
           "body": {
             "es": "Vitality más reducción de ataque significa que el temporizador te mata: no llegas al DPS. Rush (cap de 25% del HP por 0.1s) destroza a las carries de one-shot y al burst de Crush. Regeneration hace que las ults que reagrupan enemigos (Tangtang) jueguen en tu contra. Y si tu carry vive de la Battle Skill, evita apilar los dos Key a la vez.",
-            "en": "Vitality plus attack reduction means the timer kills you: you can't out-DPS it. Rush (a cap of 25% Max HP per 0.1s) guts one-shot carries and Crush burst. Regeneration turns enemy-bunching ults (Tangtang) against you. And if your carry lives off Battle Skill, avoid stacking both Key nodes at once."
+            "en": "Vitality plus attack reduction means the timer kills you: you can't out-DPS it. Rush (a cap of 25% Max HP per 0.1s) guts one-shot carries and Crush burst. Regeneration turns enemy-bunching ults (Tangtang) against you. And if your carry lives off Battle Skill, avoid stacking both Key nodes at once.",
+            "zh": "活性加攻击削减意味着计时器会杀了你：你打不过它。奔腾（每 0.1 秒最大 HP 25% 的上限）废掉秒杀主C和猛击爆发。愈合让聚怪的终结技（汤汤）反过来害你。如果你的主C靠战技吃饭，别同时叠两个关键节点。",
+            "ja": "活力と攻撃減少の組み合わせはタイマーに殺されます。DPS で押し切れません。突進（0.1 秒ごとに最大 HP 25% の上限）は一撃必殺キャリーと猛撃バーストを骨抜きにします。治癒は敵を集める必殺技（タンタン）を自分に向けてしまいます。そしてキャリーが戦技で食べているなら、2 つのキーノードを同時に積まないこと。",
+            "ko": "활력과 공격 감소를 합치면 타이머가 당신을 죽입니다. DPS로 이길 수 없습니다. 돌진(0.1초당 최대 HP 25% 상한)은 원샷 캐리와 강타 폭발을 무력화합니다. 치유는 적을 모으는 궁극기(탕탕)를 오히려 해롭게 만듭니다. 캐리가 배틀 스킬로 먹고산다면 두 핵심 노드를 동시에 쌓지 마세요."
           }
         },
         {
           "type": "rewards",
           "h": {
             "es": "Tienda · Secret Sanctuary",
-            "en": "Shop · Secret Sanctuary"
+            "en": "Shop · Secret Sanctuary",
+            "zh": "商店 · 秘密庇护所",
+            "ja": "ショップ・シークレットサンクチュアリ",
+            "ko": "상점 · 비밀 성역"
           },
           "note": {
             "es": "Se paga con Vitrified Coins (15 por nivel de riesgo en la primera vez de cada criterio). Las monedas no pasan de temporada: gástalas.",
-            "en": "Paid in Vitrified Coins (15 per risk level the first time you clear each criterion). Coins don't carry over between seasons: spend them."
+            "en": "Paid in Vitrified Coins (15 per risk level the first time you clear each criterion). Coins don't carry over between seasons: spend them.",
+            "zh": "用玻化币支付（每个条件首次通关时每风险等级 15 枚）。硬币不会结转到下个赛季：花掉它们。",
+            "ja": "ガラス化コインで支払います（各条件を初めてクリアしたときにリスクレベルごとに 15 枚）。コインは次のシーズンに持ち越せません。使い切りましょう。",
+            "ko": "유리화 동전으로 지불합니다(각 조건을 처음 클리어할 때 리스크 레벨당 15개). 동전은 다음 시즌으로 이월되지 않으니 다 쓰세요."
           },
           "items": [
             {
               "name": "Protohedron",
-              "cost": "—"
+              "cost": "—",
+              "name_zh": "协议棱柱组",
+              "name_ja": "協約角柱セット",
+              "name_ko": "프로토콜 프리즘 세트"
             },
             {
               "name": "Oroberyl",
-              "cost": "50"
+              "cost": "50",
+              "name_zh": "嵌晶玉",
+              "name_ja": "赤晶玉",
+              "name_ko": "오로베릴"
             },
             {
               "name": "Advanced Cognitive Carrier",
-              "cost": "15"
+              "cost": "15",
+              "name_zh": "高级认知载体",
+              "name_ja": "上級認識媒体",
+              "name_ko": "고급 인지 매개체"
             },
             {
               "name": "Advanced Progression Selection Crate I",
-              "cost": "21"
+              "cost": "21",
+              "name_zh": "高阶培养自选箱Ⅰ",
+              "name_ja": "上級育成強化ボックスⅠ",
+              "name_ko": "고급 육성 선택 상자 I"
             },
             {
               "name": "T-Creds",
-              "cost": "—"
+              "cost": "—",
+              "name_zh": "折金票",
+              "name_ja": "折金券",
+              "name_ko": "탈로시안 화폐"
             },
             {
               "name": "Sticker: Contingency Contract",
-              "cost": "200"
+              "cost": "200",
+              "name_zh": "贴纸·危机合约",
+              "name_ja": "ステッカー・危機契約",
+              "name_ko": "스티커 · 위기 협약"
             }
           ]
         }
+      ],
+      "difficulty_es": "Endgame",
+      "difficulty_zh": "终局",
+      "difficulty_ja": "エンドゲーム",
+      "difficulty_ko": "엔드게임",
+      "tags_es": [
+        "endgame",
+        "apilar riesgo",
+        "meta de Combustion",
+        "temporada"
+      ],
+      "tags_zh": [
+        "终局",
+        "叠加风险度",
+        "燃烧 meta",
+        "赛季"
+      ],
+      "tags_ja": [
+        "エンドゲーム",
+        "危険レベル積み",
+        "燃焼メタ",
+        "シーズン"
+      ],
+      "tags_ko": [
+        "엔드게임",
+        "위험도 쌓기",
+        "연소 메타",
+        "시즌"
       ]
     },
     {
@@ -1780,17 +2886,25 @@
       "accent": "#33c98c",
       "kicker": {
         "es": "Modo permanente · 1.3",
-        "en": "Permanent mode · 1.3"
+        "en": "Permanent mode · 1.3",
+        "zh": "永久模式 · 1.3",
+        "ja": "常設モード・1.3",
+        "ko": "상시 모드 · 1.3"
       },
       "title": {
         "es": "Prueba del Arte de la espada",
         "en": "Trial of Swordmancy",
-        "zh": "选剑演武"
+        "zh": "选剑演武",
+        "ja": "選剣演武",
+        "ko": "선검 연무"
       },
       "difficulty": "Roguelite",
       "summary": {
         "es": "El modo de combate permanente que llegó en la 1.3. No eliges una etapa: robas una mano de Dataplates que decide a la vez qué enemigos aparecen y qué te llevas. Subir el riesgo (Battle Points) sube la recompensa, hasta que te pasas y el Data Overflow lo borra todo.",
-        "en": "The permanent combat mode added in 1.3. You don't pick a stage: you draw a hand of Dataplates that decides both which enemies show up and what you walk away with. Pushing the risk (Battle Points) raises the reward, until you overshoot and Data Overflow wipes it all."
+        "en": "The permanent combat mode added in 1.3. You don't pick a stage: you draw a hand of Dataplates that decides both which enemies show up and what you walk away with. Pushing the risk (Battle Points) raises the reward, until you overshoot and Data Overflow wipes it all.",
+        "zh": "1.3 加入的永久战斗模式。你不选关卡：抽一手数据板，决定出场的敌人和你能带走的东西。推高风险（战斗点数）会提高奖励，直到超出阈值、数据溢出把一切清零。",
+        "ja": "1.3 で追加された常設の戦闘モード。ステージを選ぶのではなく、データプレートの手札を引き、それが出てくる敵と持ち帰れるものの両方を決めます。リスク（バトルポイント）を上げると報酬も上がりますが、超えすぎるとデータオーバーフローですべて消えます。",
+        "ko": "1.3에 추가된 상시 전투 모드. 스테이지를 고르지 않고 데이터플레이트 패를 뽑으며, 그것이 나오는 적과 가져갈 것을 모두 정합니다. 리스크(전투 점수)를 올리면 보상이 오르지만, 넘치면 데이터 오버플로가 전부 지워 버립니다."
       },
       "tags": [
         "permanent",
@@ -1807,44 +2921,64 @@
               "k": {
                 "es": "Tipo",
                 "en": "Type",
-                "jp": "分類",
-                "zh": "类别"
+                "zh": "类型",
+                "ja": "種類",
+                "ko": "유형"
               },
               "v": {
                 "es": "Modo permanente + evento",
-                "en": "Permanent mode + event"
+                "en": "Permanent mode + event",
+                "zh": "永久模式 + 活动",
+                "ja": "常設モード＋イベント",
+                "ko": "상시 모드 + 이벤트"
               }
             },
             {
               "k": {
                 "es": "Evento limitado",
-                "en": "Limited event"
+                "en": "Limited event",
+                "zh": "限时活动",
+                "ja": "期間限定イベント",
+                "ko": "기간 한정 이벤트"
               },
               "v": {
                 "es": "12 jun – 16 jul 2026",
-                "en": "Jun 12 – Jul 16, 2026"
+                "en": "Jun 12 – Jul 16, 2026",
+                "zh": "2026年6月12日 – 7月16日",
+                "ja": "2026年6月12日〜7月16日",
+                "ko": "2026년 6월 12일 – 7월 16일"
               }
             },
             {
               "k": {
                 "es": "Moneda",
                 "en": "Currency",
-                "jp": "通貨",
-                "zh": "货币"
+                "zh": "货币",
+                "ja": "通貨",
+                "ko": "화폐"
               },
               "v": {
                 "es": "Wuling Stock Bills",
-                "en": "Wuling Stock Bills"
+                "en": "Wuling Stock Bills",
+                "zh": "武陵储备票据",
+                "ja": "武陵ストックビル",
+                "ko": "무릉 스톡 빌"
               }
             },
             {
               "k": {
                 "es": "Desbloquear",
-                "en": "Unlock"
+                "en": "Unlock",
+                "zh": "解锁",
+                "ja": "解放条件",
+                "ko": "해금"
               },
               "v": {
                 "es": "Misión Deep Vaulted Steel",
-                "en": "Deep Vaulted Steel mission"
+                "en": "Deep Vaulted Steel mission",
+                "zh": "深藏之钢任务",
+                "ja": "ミッション「深く秘めた鋼」",
+                "ko": "깊이 감춘 강철 임무"
               }
             }
           ]
@@ -1853,58 +2987,88 @@
           "type": "lead",
           "body": {
             "es": "Swordmancy es roguelite: antes de cada Trial robas hasta 5 Dataplates de un mazo que rota cada 3 días de servidor. Cada Dataplate vale Battle Points (de 1 a 5) y define los enemigos de esa run. A más Battle Points, mejor recompensa, pero el reto es no pasarte del umbral. Hay dos modos: Rewarded Trial (3 intentos al día, da Wuling Stock Bills) y Free Trial (ilimitado, sin moneda, con drops decrecientes).",
-            "en": "Swordmancy is a roguelite: before each Trial you draw up to 5 Dataplates from a deck that rotates every 3 server days. Each Dataplate is worth Battle Points (1 to 5) and sets that run's enemies. More Battle Points means better rewards, but the challenge is not crossing the threshold. There are two modes: Rewarded Trial (3 attempts a day, gives Wuling Stock Bills) and Free Trial (unlimited, no currency, with diminishing drops)."
+            "en": "Swordmancy is a roguelite: before each Trial you draw up to 5 Dataplates from a deck that rotates every 3 server days. Each Dataplate is worth Battle Points (1 to 5) and sets that run's enemies. More Battle Points means better rewards, but the challenge is not crossing the threshold. There are two modes: Rewarded Trial (3 attempts a day, gives Wuling Stock Bills) and Free Trial (unlimited, no currency, with diminishing drops).",
+            "zh": "剑术是一个 roguelite：每次试炼前，从每 3 个服务器日轮换一次的牌组中抽最多 5 张数据板。每张数据板值 1 到 5 战斗点数，并决定本局的敌人。战斗点数越多奖励越好，但挑战在于不越过阈值。有两种模式：奖励试炼（每天 3 次，给武陵储备票据）和自由试炼（不限次数，无货币，掉落递减）。",
+            "ja": "ソードマンシーはローグライト。各試練の前に、3 サーバー日ごとに入れ替わるデッキから最大 5 枚のデータプレートを引きます。各データプレートはバトルポイント（1〜5）の価値を持ち、その回の敵を決めます。バトルポイントが多いほど報酬は良くなりますが、しきい値を超えないことが課題です。モードは 2 つ：報酬試練（1 日 3 回、武陵ストックビルがもらえる）と自由試練（無制限、通貨なし、ドロップは逓減）。",
+            "ko": "소드맨시는 로그라이트입니다. 각 시련 전에 3 서버일마다 바뀌는 덱에서 데이터플레이트를 최대 5장 뽑습니다. 각 데이터플레이트는 전투 점수(1~5)의 가치를 지니며 그 판의 적을 정합니다. 전투 점수가 높을수록 보상이 좋지만, 과제는 임계값을 넘지 않는 것입니다. 모드는 둘입니다. 보상 시련(하루 3회, 무릉 스톡 빌 지급)과 자유 시련(무제한, 화폐 없음, 드롭 체감)."
           }
         },
         {
           "type": "pillars",
           "h": {
             "es": "Lo que tienes que saber",
-            "en": "What you need to know"
+            "en": "What you need to know",
+            "zh": "需要知道的事",
+            "ja": "知っておくこと",
+            "ko": "알아야 할 것"
           },
           "items": [
             {
               "icon": "▦",
               "h": {
                 "es": "Robas tu dificultad",
-                "en": "You draw your difficulty"
+                "en": "You draw your difficulty",
+                "zh": "你抽取自己的难度",
+                "ja": "難易度は自分で引く",
+                "ko": "난이도를 직접 뽑음"
               },
               "body": {
                 "es": "Los Dataplates deciden enemigos y botín a la vez. El mazo rota cada 3 días: la composición cambia contigo.",
-                "en": "Dataplates decide enemies and loot at once. The deck rotates every 3 days: the composition changes with you."
+                "en": "Dataplates decide enemies and loot at once. The deck rotates every 3 days: the composition changes with you.",
+                "zh": "数据板同时决定敌人和战利品。牌组每 3 天轮换：构成随你变化。",
+                "ja": "データプレートは敵と戦利品を同時に決めます。デッキは 3 日ごとに入れ替わり、構成は変わっていきます。",
+                "ko": "데이터플레이트가 적과 전리품을 동시에 정합니다. 덱은 3일마다 바뀌어 구성이 달라집니다."
               }
             },
             {
               "icon": "△",
               "h": {
                 "es": "Data Overflow al pasar de 10 BP",
-                "en": "Data Overflow past 10 BP"
+                "en": "Data Overflow past 10 BP",
+                "zh": "超过 10 BP 数据溢出",
+                "ja": "10 BP を超えるとデータオーバーフロー",
+                "ko": "10 BP를 넘으면 데이터 오버플로"
               },
               "body": {
                 "es": "Pasar de 10 Battle Points sube el nivel de TODOS los enemigos +30 y, en Rewarded, resetea la recompensa a 0. Más de 21 es doble overflow y timer a 180s.",
-                "en": "Going over 10 Battle Points raises EVERY enemy's level by +30 and, in Rewarded, resets the reward to 0. Over 21 is double overflow and a 180s timer."
+                "en": "Going over 10 Battle Points raises EVERY enemy's level by +30 and, in Rewarded, resets the reward to 0. Over 21 is double overflow and a 180s timer.",
+                "zh": "超过 10 战斗点数会让所有敌人等级 +30，而且在奖励试炼中把奖励重置为 0。超过 21 是双重溢出，外加 180 秒计时。",
+                "ja": "バトルポイントが 10 を超えるとすべての敵のレベルが +30 になり、報酬試練では報酬が 0 にリセットされます。21 を超えると二重オーバーフローで、180 秒のタイマーが付きます。",
+                "ko": "전투 점수가 10을 넘으면 모든 적의 레벨이 +30 되고, 보상 시련에서는 보상이 0으로 초기화됩니다. 21을 넘으면 이중 오버플로에 180초 타이머가 붙습니다."
               }
             },
             {
               "icon": "⬆",
               "h": {
                 "es": "Sube el Trial Arena",
-                "en": "Upgrade the Trial Arena"
+                "en": "Upgrade the Trial Arena",
+                "zh": "升级试炼竞技场",
+                "ja": "試練アリーナを強化する",
+                "ko": "시련 아레나 업그레이드"
               },
               "body": {
                 "es": "A nivel 4 da el máximo: 160.000 Wuling Stock Bills por trial y 2 intentos de duplicar recompensa al día. Súbelo cuanto antes.",
-                "en": "At level 4 it maxes out: 160,000 Wuling Stock Bills per trial and 2 reward-doubling attempts a day. Upgrade it as soon as you can."
+                "en": "At level 4 it maxes out: 160,000 Wuling Stock Bills per trial and 2 reward-doubling attempts a day. Upgrade it as soon as you can.",
+                "zh": "4 级封顶：每次试炼 160,000 武陵储备票据，每天 2 次奖励翻倍机会。尽快升级。",
+                "ja": "レベル 4 で最大：試練ごとに 160,000 武陵ストックビル、1 日 2 回の報酬 2 倍。できるだけ早く強化しましょう。",
+                "ko": "레벨 4에서 최대: 시련당 160,000 무릉 스톡 빌, 하루 2회 보상 2배. 되도록 빨리 업그레이드하세요."
               }
             },
             {
               "icon": "◷",
               "h": {
                 "es": "Capa de evento limitado",
-                "en": "Limited event layer"
+                "en": "Limited event layer",
+                "zh": "限时活动层",
+                "ja": "期間限定のイベント要素",
+                "ko": "기간 한정 이벤트 레이어"
               },
               "body": {
                 "es": "Las misiones Trial Algorithmics dan premios extra hasta el 16 jul. Juega semanalmente para no quedarte sin tiempo.",
-                "en": "Trial Algorithmics missions give extra rewards until Jul 16. Play weekly so you don't run out of time."
+                "en": "Trial Algorithmics missions give extra rewards until Jul 16. Play weekly so you don't run out of time.",
+                "zh": "试炼算法任务在 7月16日前提供额外奖励。每周都玩，免得来不及。",
+                "ja": "試練アルゴリズムのミッションは 7月16日まで追加報酬をくれます。時間切れにならないよう毎週遊びましょう。",
+                "ko": "시련 알고리즘 임무는 7월 16일까지 추가 보상을 줍니다. 시간이 부족하지 않도록 매주 플레이하세요."
               }
             }
           ]
@@ -1914,13 +3078,47 @@
           "variant": "tip",
           "h": {
             "es": "La regla de oro: clava los 10 puntos",
-            "en": "Golden rule: hug the 10-point line"
+            "en": "Golden rule: hug the 10-point line",
+            "zh": "黄金法则：贴着 10 点线",
+            "ja": "黄金律：10 ポイントの線に張り付く",
+            "ko": "황금률: 10점 선에 붙기"
           },
           "body": {
             "es": "En Rewarded, tu objetivo es maximizar Battle Points SIN pasar de 10: ahí está el premio más alto sin disparar el Data Overflow. Si tu equipo puede con enemigos +30, a veces compensa cruzar a propósito en Free Trial para farmear drops; pero para Wuling Bills, quédate justo en el umbral.",
-            "en": "In Rewarded, your goal is to maximize Battle Points WITHOUT going over 10: that's the highest reward before Data Overflow triggers. If your team can handle +30 enemies, crossing on purpose in Free Trial can be worth it for drops; but for Wuling Bills, sit right on the threshold."
+            "en": "In Rewarded, your goal is to maximize Battle Points WITHOUT going over 10: that's the highest reward before Data Overflow triggers. If your team can handle +30 enemies, crossing on purpose in Free Trial can be worth it for drops; but for Wuling Bills, sit right on the threshold.",
+            "zh": "在奖励试炼中，目标是在不超过 10 的前提下最大化战斗点数：那是数据溢出触发前的最高奖励。如果你的队伍能应付 +30 的敌人，在自由试炼里故意越线可能值得，为了掉落；但为了武陵票据，就正好停在阈值上。",
+            "ja": "報酬試練の目標は、10 を超えずにバトルポイントを最大化すること。それがデータオーバーフローが起きる前の最高報酬です。チームが +30 の敵を捌けるなら、自由試練でわざと超えるのもドロップ狙いでは価値があります。でも武陵ビルが目的なら、しきい値ぴったりに留まりましょう。",
+            "ko": "보상 시련의 목표는 10을 넘지 않으면서 전투 점수를 최대화하는 것입니다. 그것이 데이터 오버플로가 발동하기 전 최고 보상입니다. 팀이 +30 적을 감당할 수 있다면 자유 시련에서 일부러 넘는 것도 드롭을 위해서는 가치가 있지만, 무릉 빌이 목적이라면 임계값에 딱 맞춰 머무르세요."
           }
         }
+      ],
+      "difficulty_es": "Roguelite",
+      "difficulty_zh": "肉鸽",
+      "difficulty_ja": "ローグライト",
+      "difficulty_ko": "로그라이트",
+      "tags_es": [
+        "permanente",
+        "diario",
+        "draft",
+        "Wuling Bills"
+      ],
+      "tags_zh": [
+        "常驻",
+        "每日",
+        "选秀",
+        "武陵券"
+      ],
+      "tags_ja": [
+        "常設",
+        "デイリー",
+        "ドラフト",
+        "武陵券"
+      ],
+      "tags_ko": [
+        "상시",
+        "일일",
+        "드래프트",
+        "무릉권"
       ]
     }
   ]

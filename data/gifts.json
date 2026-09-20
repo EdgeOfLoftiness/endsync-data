@@ -2,15 +2,27 @@
   "levels": [
     {
       "name": "Friendly",
-      "pts": 0
+      "pts": 0,
+      "name_es": "Amigable",
+      "name_zh": "友好",
+      "name_ja": "友好",
+      "name_ko": "친밀함"
     },
     {
       "name": "Close",
-      "pts": 300
+      "pts": 300,
+      "name_es": "Cercano",
+      "name_zh": "亲近",
+      "name_ja": "親密",
+      "name_ko": "친근함"
     },
     {
       "name": "Trusting",
-      "pts": 1500
+      "pts": 1500,
+      "name_es": "Confiable",
+      "name_zh": "信任",
+      "name_ja": "信頼",
+      "name_ko": "신뢰함"
     }
   ],
   "ops": {
@@ -425,6 +437,351 @@
           "Jincao Tisane"
         ]
       ]
+    }
+  },
+  "items": {
+    "Citromix": {
+      "name_zh": "柑实冲剂",
+      "name_ja": "黒銀シトローム粉薬",
+      "name_ko": "다크 시트론 가루"
+    },
+    "Buckpill (S)": {
+      "name_es": "Píldorafloracina [P]",
+      "name_zh": "小瓶荞复锭剂",
+      "name_ja": "火映蕎花錠剤Ⅰ",
+      "name_ko": "메밀꽃 회복제(소)"
+    },
+    "Mini Sugar Painting": {
+      "name_es": "Mini pintura de azúcar",
+      "name_zh": "小糖画",
+      "name_ja": "飴細工",
+      "name_ko": "작은 설탕 그림"
+    },
+    "Rind-Flavored Sprouts": {
+      "name_es": "Brotes sabor corteza",
+      "name_zh": "陈皮拌笋",
+      "name_ja": "陳皮と筍の和え物",
+      "name_ko": "진피 죽순 무침"
+    },
+    "Mini Honey Slugpudding": {
+      "name_es": "Minipudín de miel y babosa",
+      "name_zh": "小蜜虫布丁",
+      "name_ja": "異香プリン",
+      "name_ko": "꿀벌레 푸딩"
+    },
+    "Citromix (L)": {
+      "name_es": "Citromix [G]",
+      "name_zh": "大瓶柑实冲剂",
+      "name_ja": "黒銀シトローム粉剤Ⅱ",
+      "name_ko": "시트론 혼합제(대)"
+    },
+    "Handmade Weirdrop": {
+      "name_es": "Caramelo artesanal raro",
+      "name_zh": "手工怪味酸糖",
+      "name_ja": "手作りの酸っぱい飴",
+      "name_ko": "이상한 수제 사탕"
+    },
+    "Seš'qa Style Fillet": {
+      "name_es": "Filete estilo Seš'qa",
+      "name_zh": "塞什卡风肉排",
+      "name_ja": "セシュカ風ステーキ",
+      "name_ko": "세쉬카풍 스테이크"
+    },
+    "Yazhen Powder": {
+      "name_es": "Polvo de Yazhen",
+      "name_zh": "芽针粉末",
+      "name_ja": "芽針粉末",
+      "name_ko": "야침 가루"
+    },
+    "Kunst Tube": {
+      "name_es": "Tubo kunst",
+      "name_zh": "附术铁瓶",
+      "name_ja": "付術鉄瓶",
+      "name_ko": "아츠가 부여된 금속 병"
+    },
+    "Citrome Powder": {
+      "name_es": "Polvo de citroma",
+      "name_zh": "柑实粉末",
+      "name_ja": "シトローム粉末",
+      "name_ko": "시트론 가루"
+    },
+    "Jincao Powder": {
+      "name_es": "Polvo de Jincao",
+      "name_zh": "锦草粉末",
+      "name_ja": "錦草粉末",
+      "name_ko": "금초 가루"
+    },
+    "Citromix (S)": {
+      "name_es": "Citromix [P]",
+      "name_zh": "小瓶柑实冲剂",
+      "name_ja": "黒銀シトローム粉剤Ⅰ",
+      "name_ko": "시트론 혼합제(소)"
+    },
+    "Citromix (Rf.)": {
+      "name_zh": "精选柑实冲剂",
+      "name_ja": "黒銀シトローム粉剤Ⅲ",
+      "name_ko": "시트론 혼합제(특)"
+    },
+    "Mystery Soda": {
+      "name_es": "Gaseosa misteriosa",
+      "name_zh": "神秘气泡饮料",
+      "name_ja": "不思議な炭酸飲料",
+      "name_ko": "신비한 탄산음료"
+    },
+    "Cosmo-Melto Jelly": {
+      "name_es": "Gelatina Cosmo-Melto",
+      "name_zh": "星融果冻",
+      "name_ja": "星解けのゼリー",
+      "name_ko": "스타 퓨전 젤리"
+    },
+    "Yazhen Spray (L)": {
+      "name_es": "Spray de Yazhen [G]",
+      "name_zh": "大瓶芽针喷剂",
+      "name_ja": "芽針スプレーⅡ",
+      "name_ko": "야침 스프레이(대)"
+    },
+    "Stew Meeting": {
+      "name_es": "Reunión de estofados",
+      "name_zh": "炖肉会议",
+      "name_ja": "豪快肉煮込み",
+      "name_ko": "고기들의 회의"
+    },
+    "Buckpill (Rf.)": {
+      "name_es": "Píldorafloracina [Rf.]",
+      "name_zh": "精选荞复锭剂",
+      "name_ja": "火映蕎花錠剤Ⅲ",
+      "name_ko": "메밀꽃 회복제(특)"
+    },
+    "Buck Capsule (B)": {
+      "name_es": "Cápsulas de floracina [B]",
+      "name_zh": "优质荞愈胶囊",
+      "name_ja": "蕎花カプセルⅡ",
+      "name_ko": "메밀꽃 치유 캡슐(중)"
+    },
+    "Valley Pie": {
+      "name_es": "Pay del Valle",
+      "name_zh": "谷地馅饼",
+      "name_ja": "谷地パイ",
+      "name_ko": "협곡 파이"
+    },
+    "Garden Fried Rice": {
+      "name_es": "Arroz frito de jardín",
+      "name_zh": "锦素炒饭",
+      "name_ja": "野菜たっぷりチャーハン",
+      "name_ko": "채소 볶음밥"
+    },
+    "Jincao Tisane": {
+      "name_es": "Tisana de Jincao",
+      "name_zh": "锦草凉茶",
+      "name_ja": "錦草漢方茶Ⅰ",
+      "name_ko": "금초 냉차"
+    },
+    "Old Man John's Burger": {
+      "name_zh": "约翰老爹汉堡",
+      "name_ja": "ダディ・ジョンズバーガー",
+      "name_ko": "빠빠존스 햄버거"
+    },
+    "Cartilage Tack": {
+      "name_es": "Galleta cartilaginosa",
+      "name_zh": "软骨饼干",
+      "name_ja": "軟骨入りサブレ",
+      "name_ko": "연골 과자"
+    },
+    "Superhot Fruit Preserves": {
+      "name_es": "Conservas de frutas super picantes",
+      "name_zh": "爆辣腌渍水果",
+      "name_ja": "フルーツの激辛塩漬け",
+      "name_ko": "매운 절임 과일"
+    },
+    "Wuling Fried Rice": {
+      "name_es": "Arroz frito Wuling",
+      "name_zh": "武陵炒饭",
+      "name_ja": "武陵チャーハン",
+      "name_ko": "무릉 볶음밥"
+    },
+    "Pan-Fried Double Crisp": {
+      "name_es": "Doble crujiente frito",
+      "name_zh": "油爆“双脆”",
+      "name_ja": "レバーとガツの強火炒め",
+      "name_ko": "기름 폭발 볶음"
+    },
+    "Firebuckle Powder": {
+      "name_es": "Polvo de hebilla de fuego",
+      "name_zh": "荞愈药粉",
+      "name_ja": "火映蕎花粉薬",
+      "name_ko": "화염 메밀꽃 가루"
+    },
+    "Arts Tube": {
+      "name_es": "Tubo de artes",
+      "name_zh": "刻术铁瓶",
+      "name_ja": "刻術鉄瓶",
+      "name_ko": "아츠를 각인한 금속 병"
+    },
+    "Fortifying Infusion": {
+      "name_es": "Infusión fortificante",
+      "name_zh": "正本补元汤剂",
+      "name_ja": "滋養強壮の煎じ薬",
+      "name_ko": "원기 회복 탕약"
+    },
+    "Jakub's Legacy": {
+      "name_es": "Legado de Jakub",
+      "name_zh": "雅各布的遗产",
+      "name_ja": "ヤコブの遺産",
+      "name_ko": "제이컵의 유산"
+    },
+    "Garden Stir-Fry": {
+      "name_es": "Verduras salteadas",
+      "name_zh": "炝炒时蔬",
+      "name_ja": "野菜炒め",
+      "name_ko": "제철 채소볶음"
+    },
+    "Yazhen Spray (S)": {
+      "name_es": "Spray de Yazhen [P]",
+      "name_zh": "芽针喷剂",
+      "name_ja": "芽針スプレーⅠ",
+      "name_ko": "야침 스프레이"
+    },
+    "Buck Capsule (C)": {
+      "name_es": "Cápsulas de floracina [C]",
+      "name_zh": "荞愈胶囊",
+      "name_ja": "蕎花カプセルⅠ",
+      "name_ko": "메밀꽃 치유 캡슐"
+    },
+    "Bamboo Sprouts and Meat": {
+      "name_es": "Brotes de bambú y carne",
+      "name_zh": "竹笋炒肉",
+      "name_ja": "筍と肉の炒め物",
+      "name_ko": "죽순 고기볶음"
+    },
+    "Jincao Infusion": {
+      "name_es": "Infusión de Jincao",
+      "name_ja": "錦草漢方茶Ⅱ",
+      "name_ko": "금초 냉차(대)"
+    },
+    "Wuling Flame-Boyance": {
+      "name_es": "Flame-Boyance de Wuling",
+      "name_zh": "武陵乱炒",
+      "name_ja": "武陵炒め",
+      "name_ko": "무릉 볶음"
+    },
+    "Buckflower Powder": {
+      "name_es": "Polvo de floracina",
+      "name_zh": "荞花粉末",
+      "name_ja": "蕎花粉末",
+      "name_ko": "메밀꽃 가루"
+    },
+    "Chubby Lung Jellied Greens": {
+      "name_es": "Gelatina verde de Lung regordete",
+      "name_zh": "龙泡泡蔬菜冻",
+      "name_ja": "龍泡泡の野菜羊羹",
+      "name_ko": "드래곤 버블 채소 젤리"
+    },
+    "Simmered Xiranite Ball": {
+      "name_zh": "清炖息壤球",
+      "name_ja": "息壌肉団子スープ",
+      "name_ko": "삶은 식양 완자",
+      "name_es": "Bola de xiranita cocida a fuego lento"
+    },
+    "Instant Bone Soup": {
+      "name_es": "Sopa instantánea de huesos",
+      "name_zh": "速食骨汤",
+      "name_ja": "即席骨だしスープ",
+      "name_ko": "즉석 곰탕"
+    },
+    "Hub Emergency Ration": {
+      "name_es": "Ración de emergencia de la Base",
+      "name_zh": "枢纽区应急餐",
+      "name_ja": "中枢基地の非常食",
+      "name_ko": "거점 지역의 비상식량"
+    },
+    "Ginseng Meat Stew": {
+      "name_es": "Estofado de carne con ginseng",
+      "name_zh": "清炖兽排参须汤",
+      "name_ja": "獣肉と玉葉人参のスープ",
+      "name_ko": "푹 삶은 갈비 미삼탕"
+    },
+    "Canned Citrome (B)": {
+      "name_es": "Citroma enlatado [B]",
+      "name_zh": "优质柑实罐头",
+      "name_ja": "シトロームの缶詰Ⅱ",
+      "name_ko": "시트론 통조림(중)"
+    },
+    "Kunst Vial": {
+      "name_es": "Vial kunst",
+      "name_zh": "附术瓶",
+      "name_ja": "付術瓶",
+      "name_ko": "아츠가 부여된 병"
+    },
+    "Fluffed Jincao Powder": {
+      "name_es": "Polvo de Jincao esponjado",
+      "name_zh": "蓬茸锦草粉末",
+      "name_ja": "毛羽錦草粉薬",
+      "name_ko": "우거진 금초 가루"
+    },
+    "Sod-Turning Meat Soup": {
+      "name_es": "Sopa de carne deliciosa",
+      "name_zh": "开工日肉汤",
+      "name_ja": "着工日の肉スープ",
+      "name_ko": "개업일 고깃국"
+    },
+    "Canned Citrome (C)": {
+      "name_es": "Citroma enlatado [C]",
+      "name_zh": "柑实罐头",
+      "name_ja": "シトロームの缶詰Ⅰ",
+      "name_ko": "시트론 통조림"
+    },
+    "Meat Stir-Fry": {
+      "name_es": "Salteado de carne",
+      "name_zh": "辣炒肉丁",
+      "name_ja": "角切り肉の辛炒め",
+      "name_ko": "매운 볶음 고기"
+    },
+    "Arts Vial": {
+      "name_es": "Frasco de artes",
+      "name_zh": "刻术瓶",
+      "name_ja": "刻術瓶",
+      "name_ko": "아츠를 각인한 병"
+    },
+    "Superhot Slug Gratin": {
+      "name_es": "Gratinado de babosa supercaliente",
+      "name_zh": "爆辣焗烤源石虫",
+      "name_ja": "オリジムシの激辛オーブン焼き",
+      "name_ko": "매운 원석충 구이"
+    },
+    "Hazefyre Blossom": {
+      "name_es": "Flor de bruma ardiente",
+      "name_zh": "雾火之花",
+      "name_ja": "霧火の花",
+      "name_ko": "안갯불에 물든 꽃"
+    },
+    "Buckpill (L)": {
+      "name_es": "Píldorafloracina [G]",
+      "name_zh": "大瓶荞复锭剂",
+      "name_ja": "火映蕎花錠剤Ⅱ",
+      "name_ko": "메밀꽃 회복제(대)"
+    },
+    "Thorny Yazhen Powder": {
+      "name_es": "Polvo de Yazhen espinoso",
+      "name_zh": "荆刺芽针粉末",
+      "name_ja": "茨芽針粉薬",
+      "name_ko": "가시 야침 가루"
+    },
+    "Meaty Buckflower Stew": {
+      "name_zh": "仿荤烩荞花",
+      "name_ja": "蕎花の精進煮込み",
+      "name_ko": "대체육 메밀꽃 볶음"
+    },
+    "Edible Denstack": {
+      "name_es": "Denstack comestible",
+      "name_zh": "可食用巢雕",
+      "name_ja": "巣彫風味ソース",
+      "name_ko": "식용 지옥의 용광로"
+    },
+    "Pulled Slug Meat": {
+      "name_es": "Carne de babosa desmenuzada",
+      "name_zh": "手撕虫肉",
+      "name_ja": "虫肉ジャーキー",
+      "name_ko": "손으로 찢은 벌레 고기"
     }
   }
 }
