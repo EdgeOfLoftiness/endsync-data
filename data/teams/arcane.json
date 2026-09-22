@@ -3070,6 +3070,780 @@
           }
         ]
       }
+    },
+    {
+      "name": {
+        "es": "Raaay丶 - Doble C mixto con el Endministrator (管诀赛鱼)",
+        "en": "Raaay丶 - Mixed-damage double C with the Endministrator (管诀赛鱼)"
+      },
+      "subtitle": {
+        "es": "Arcane INT main C, Endministrator sub-C; Xaihi · Alesh, solo Arcane es limitada",
+        "en": "Arcane INT main C, Endministrator sub-C; Xaihi · Alesh, only Arcane is limited"
+      },
+      "guideVideoId": "arcb9",
+      "blurb": {
+        "es": "Tercera entrega de los equipos de Arcane para cuentas nuevas del mismo autor: tras el equipo de Arcane WILL contra grupos, el de un solo Cryo para jefes con poca inversión y las sillas de ruedas con Camille o Akekuri, esta es la de «posgrado». Responde a la pregunta del principio: sin Rossi también se puede armar un equipo de daño mixto, pero suele quedar lejos de la fuerza real; este cuarteto es su respuesta para quien la quiere. En una frase del autor: un equipo completo que cura, pega, hace Stagger y recupera SP, y donde cada uno trae un buff genérico para todos. Único defecto que le ve: el SP vuelve tan rápido que hay muchas Battle Skills y el eje se complica. Lo más importante, dice, es que una cuenta nueva con Arcane como única limitada lo puede armar. Incluye el video de «售后» con demos en distintos escenarios y la lógica para adaptar el eje.",
+        "en": "Third entry in the author's Arcane teams for new accounts: after the Arcane WILL team against groups, the single-Cryo low-investment boss team and the wheelchairs with Camille or Akekuri, this is the «postgraduate» one. It answers the opening question: without Rossi you can still build a mixed-damage team, but it usually lands far from real strength; this quartet is his answer for those who want it. In the author's one line: a complete team that heals, hits, Staggers and regains SP, where everyone brings a generic buff for all. The only flaw he sees: SP comes back so fast that there are many Battle Skills and the axis gets complicated. Most importantly, he says, a new account with Arcane as its only limited can build it. It includes the «售后» video with demos in different environments and the logic for adapting the axis."
+      },
+      "simple": {
+        "whatItDoes": {
+          "es": "Arcane INT es la main C y el Endministrator la sub-C, con Xaihi y Alesh como los dos asientos no limitados. Todo gira en dos piezas que se repiten: la apertura de Xaihi (Battle Skill y dos Final Strikes que disparan su Combo, capa de Cryo) y el trío «管钓»: Combo del Endministrator (deja cristales), su Battle Skill (los rompe) y el Combo de Alesh que eso dispara. Dos capas de Cryo encienden el Combo de Arcane, cuyo Imprisonment de 4 segundos más los 2 segundos de daño retardado de su Battle Skill disparan Combos del Endministrator que recarguen dentro de esos 6 segundos. Eje de burst de dos filas, eje de carga con dos renovaciones de Corrosion y cold start de cuatro Corrosion que se resume en ocho Final Strikes.",
+          "en": "Arcane INT is the main C and the Endministrator the sub-C, with Xaihi and Alesh as the two non-limited seats. Everything turns on two repeating pieces: the Xaihi opener (Battle Skill and two Final Strikes that fire her Combo, a Cryo layer) and the «管钓» trio: Combo from the Endministrator (leaves crystals), Battle Skill (shatters them) and the Combo from Alesh that this fires. Two Cryo layers light the Combo from Arcane, whose 4-second Imprisonment plus the 2 seconds of delayed damage from her Battle Skill fire any Combo from the Endministrator that recharges within those 6 seconds. A two-row burst axis, a charge axis with two Corrosion renewals and a four-Corrosion cold start that boils down to eight Final Strikes."
+        },
+        "steps": [
+          {
+            "who": "xaihi",
+            "do": {
+              "es": "Mini-combo universal (para entrar o reengancharse): Battle Skill de Xaihi, dos Final Strikes, Combo de Xaihi, Combo del Endministrator, su Battle Skill, Combo de Alesh; otra vez Battle Skill de Xaihi, dos Final Strikes y su Combo; Combo de Arcane y un 管钓 con su daño retardado.",
+              "en": "Universal mini-combo (to enter or re-enter): Battle Skill from Xaihi, two Final Strikes, Combo from Xaihi, Combo from the Endministrator, Battle Skill, Combo from Alesh; Battle Skill from Xaihi again, two Final Strikes and her Combo; Combo from Arcane and one 管钓 off its delayed damage."
+            }
+          },
+          {
+            "who": "arcane",
+            "do": {
+              "es": "Burst, fila 1: Battle Skill de Xaihi, un Final Strike y Ultimate de Arcane, segundo Final Strike, Combos de Xaihi y del Endministrator, Ultimates de Xaihi y Alesh, Battle Skill del Endministrator, Combo de Arcane (retrásalo) y Combo de Alesh.",
+              "en": "Burst, row 1: Battle Skill from Xaihi, one Final Strike and Ultimate from Arcane, second Final Strike, Combos from Xaihi and the Endministrator, Ultimates from Xaihi and Alesh, Battle Skill from the Endministrator, Combo from Arcane (delay it) and Combo from Alesh."
+            }
+          },
+          {
+            "who": "endministrator",
+            "do": {
+              "es": "Burst, fila 2: con el Imprisonment a medias, Battle Skill de Arcane y segundo estadio de su Ultimate; Combo y Ultimate del Endministrator; Combo de Alesh; Battle Skill del Endministrator si tu carga lo pide.",
+              "en": "Burst, row 2: with the Imprisonment half through, Battle Skill from Arcane and second stage of her Ultimate; Combo and Ultimate from the Endministrator; Combo from Alesh; Battle Skill from the Endministrator if your charge asks for it."
+            }
+          },
+          {
+            "who": "alesh",
+            "do": {
+              "es": "Carga: Battle Skill de Xaihi y dos Final Strikes, Combo de Xaihi cuando el Combo del Endministrator esté listo, 管钓, Ultimate de Alesh (segunda capa de Cryo), Combo y Battle Skill de Arcane (primera Corrosion renovada), 管钓; la segunda renovación es el mini-combo universal. Vuelta al burst.",
+              "en": "Charge: Battle Skill from Xaihi and two Final Strikes, Combo from Xaihi once the Combo from the Endministrator is ready, 管钓, Ultimate from Alesh (second Cryo layer), Combo and Battle Skill from Arcane (first Corrosion renewal), 管钓; the second renewal is the universal mini-combo. Back to the burst."
+            }
+          },
+          {
+            "who": "xaihi",
+            "do": {
+              "es": "Cold start de cuatro Corrosion: mini-combo universal hasta el Combo de Arcane y su 管钓, sin Battle Skill de Arcane; Battle Skills de Xaihi hasta cuatro capas de Cryo, Combo de Xaihi, Combo y Battle Skill de Arcane (cuatro Corrosion) y 管钓 de cierre.",
+              "en": "Four-Corrosion cold start: universal mini-combo up to the Combo from Arcane and its 管钓, without the Battle Skill from Arcane; Battle Skills from Xaihi up to four Cryo layers, Combo from Xaihi, Combo and Battle Skill from Arcane (four Corrosion) and a closing 管钓."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "arcane",
+            "line": {
+              "es": "Type 42: Solemn Phalanx con 3 Hot Work y LYNX Slab (carga 44,1 % si rematas con la Battle Skill del Endministrator); Redeemer Armor sin forjar para el cold start. Todo a Especialización 3.",
+              "en": "Type 42: Solemn Phalanx with 3 Hot Work and a LYNX Slab (44.1% charge if you close with the Battle Skill from the Endministrator); an unforged Redeemer Armor for the cold start. Everything at Specialization 3."
+            }
+          },
+          {
+            "id": "endministrator",
+            "line": {
+              "es": "Grand Vision con Swordmancer para Stagger o Type 50 Yinglung para daño, más Redeemer Gloves. Combo y Ultimate a Especialización 3.",
+              "en": "Grand Vision with Swordmancer for Stagger or Type 50 Yinglung for damage, plus Redeemer Gloves. Combo and Ultimate at Specialization 3."
+            }
+          },
+          {
+            "id": "xaihi",
+            "line": {
+              "es": "Chivalric Virtues (o Stanza of Memorials) con 3 Eternal Xiranite de atributo secundario y las AIC Fieldwork Wraps; sin carga. Ultimate y Battle Skill a Especialización 3.",
+              "en": "Chivalric Virtues (or Stanza of Memorials) with 3 secondary-attribute Eternal Xiranite pieces and the AIC Fieldwork Wraps; no charge. Ultimate and Battle Skill at Specialization 3."
+            }
+          },
+          {
+            "id": "alesh",
+            "line": {
+              "es": "Thermite Cutter con Frontiers de carga y atributo secundario (Redeemer Armor si rematas con la Battle Skill del Endministrator). Ultimate a Especialización 1, Combo 6.",
+              "en": "Thermite Cutter with charge and secondary-attribute Frontiers (Redeemer Armor if you close with the Battle Skill from the Endministrator). Ultimate at Specialization 1, Combo 6."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "El autor enseña primero un mini-combo universal, porque el bucle tiene tantas Battle Skills y Combos que hace falta un punto de reentrada: Battle Skill de Xaihi, dos Final Strikes que disparan su Combo, ese Combo encadena el del Endministrator, la Battle Skill del Endministrator rompe los cristales y dispara el Combo de Alesh. A ese trío lo bautiza «管钓» y se repite en todos los ejes. Repite la apertura de Xaihi para la segunda capa de Cryo y suelta el Combo de Arcane, con un truco: el Imprisonment dura 4 segundos y la detonación de la Battle Skill deja 2 segundos de daño retardado, así que dispara cualquier Combo del Endministrator que recargue en esos 6 segundos. El eje de burst mete el Ultimate de Arcane tras el primer Final Strike, usa las animaciones de los Ultimates de Xaihi y Alesh para que el Combo del Endministrator recargue, espera el Final Strike que desbloquea el segundo estadio del Ultimate de Arcane y cierra con Combo y Ultimate del Endministrator y Combo de Alesh. El eje de carga renueva la Corrosion dos veces, como todo eje con Arcane de Hot Work: la primera con el Ultimate de Alesh como segunda capa de Cryo y la segunda con el mini-combo. El cold start de cuatro Corrosion, visto de lejos, son ocho Final Strikes colgando las cuatro capas de Cryo de Xaihi y un 管钓 cada vez que el Combo del Endministrator esté listo. El video de «售后» añade la lógica de adaptación: un mini-combo universal para ver la carga, una Battle Skill del Endministrator si falta poco, una pieza de carga en Arcane si falta mucho.",
+        "en": "The author first teaches a universal mini-combo, because the loop has so many Battle Skills and Combos that a re-entry point is needed: Battle Skill from Xaihi, two Final Strikes that fire her Combo, that Combo chains the one from the Endministrator, the Battle Skill from the Endministrator shatters the crystals and fires the Combo from Alesh. He names that trio «管钓» and it repeats in every axis. He repeats the Xaihi opener for the second Cryo layer and releases the Combo from Arcane, with a trick: the Imprisonment lasts 4 seconds and the Battle Skill detonation leaves 2 seconds of delayed damage, so it fires any Combo from the Endministrator that recharges within those 6 seconds. The burst axis slots the Ultimate from Arcane after the first Final Strike, uses the animations of the Ultimates from Xaihi and Alesh to let the Combo from the Endministrator recharge, waits for the Final Strike that unlocks the second stage of the Ultimate from Arcane and closes with Combo and Ultimate from the Endministrator and Combo from Alesh. The charge axis renews the Corrosion twice, like every axis with a Hot Work Arcane: first with the Ultimate from Alesh as the second Cryo layer and second with the mini-combo. The four-Corrosion cold start, seen from afar, is eight Final Strikes hanging the four Cryo layers from Xaihi and one 管钓 every time the Combo from the Endministrator is ready. The «售后» video adds the adaptation logic: a universal mini-combo to check the charge, one Battle Skill from the Endministrator if a little is missing, a charge piece on Arcane if a lot is."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Alta (muchos botones; el autor avisa del mareo)",
+          "en": "High (many buttons; the author warns of dizziness)"
+        },
+        "content": {
+          "es": "Jefe / Single-target",
+          "en": "Boss / Single-target"
+        },
+        "tags": [
+          {
+            "es": "Corrosion",
+            "en": "Corrosion"
+          },
+          {
+            "es": "Daño mixto",
+            "en": "Mixed damage"
+          },
+          {
+            "es": "Originium Crystals",
+            "en": "Originium Crystals"
+          },
+          {
+            "es": "Solo Arcane limitada",
+            "en": "Only Arcane limited"
+          },
+          {
+            "es": "Cold start 4 Corrosion",
+            "en": "4-Corrosion cold start"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "Cada uno trae un buff genérico: Chivalric Virtues o Stanza of Memorials y el set Eternal Xiranite de Xaihi, la Corrosion permanente de calidad de Arcane, el ATK por romper cristales del Endministrator y el Thermite Cutter, el Frontiers y la Rare Fin de Alesh; todo empuja a la main C Arcane y a la sub-C Endministrator.",
+          "en": "Everyone brings a generic buff: Chivalric Virtues or Stanza of Memorials and the Eternal Xiranite set on Xaihi, the high-quality permanent Corrosion from Arcane, the crystal-shatter ATK from the Endministrator and the Thermite Cutter, Frontiers and Rare Fin from Alesh; it all pushes the main C Arcane and the sub-C Endministrator."
+        },
+        {
+          "es": "Resumen del autor: a inversión máxima, el eje de burst de 30 segundos mata a Rhodagn sin pociones y sin llegar al Stagger; el eje de carga de 40 segundos encadena varios estados físicos y hace Stagger muy bien.",
+          "en": "The author's summary: at max investment, the 30-second burst axis kills Rhodagn without potions and without reaching the Stagger; the 40-second charge axis chains several Physical statuses and Staggers very well."
+        },
+        {
+          "es": "Retorno de SP extremo y Combos cortos: se pulsan skills sin parar, y Alesh ni siquiera necesita skills subidas para que al equipo no le falte SP.",
+          "en": "Extreme SP return and short Combos: skills get pressed nonstop, and Alesh does not even need leveled skills for the team to have enough SP."
+        },
+        {
+          "es": "Se arma con Arcane como única limitada, y las builds genéricas valen: Eternal Xiranite de apoyo para unidades Arts y Frontiers de vanguardia para espada.",
+          "en": "It builds with Arcane as the only limited, and the generic builds do: support Eternal Xiranite for Arts units and vanguard Frontiers for swords."
+        }
+      ],
+      "cons": [
+        {
+          "es": "El único defecto que admite el autor: el SP vuelve tan rápido que hay demasiadas Battle Skills y el eje se complica. Marearse es normal, dice; lo que enseña es la práctica.",
+          "en": "The only flaw the author admits: SP comes back so fast that there are too many Battle Skills and the axis gets complicated. Feeling dizzy is normal, he says; practice is what teaches."
+        },
+        {
+          "es": "Los tiempos mandan: retrasar el Combo de Arcane, soltar su Battle Skill con el Imprisonment a medias y esperar el Final Strike que desbloquea el segundo estadio de su Ultimate.",
+          "en": "Timing rules: delaying the Combo from Arcane, releasing her Battle Skill with the Imprisonment half through and waiting for the Final Strike that unlocks the second stage of her Ultimate."
+        },
+        {
+          "es": "El cold start de cuatro Corrosion viste a Arcane con la armadura de carga y roza el minuto en 斧柄纪年; acelerarlo pasa por cambiar guantes o sello de carga o bajar a tres o una Corrosion.",
+          "en": "The four-Corrosion cold start dresses Arcane in the charge armor and skirts the one-minute mark in 斧柄纪年; speeding it up means swapping to charge gloves or seal or dropping to three or one Corrosion."
+        },
+        {
+          "es": "Xaihi es un apoyo cuya inversión pesa mucho en su aporte: Ultimate y Battle Skill a Especialización 3.",
+          "en": "Xaihi is a support whose investment weighs heavily on her contribution: Ultimate and Battle Skill at Specialization 3."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "layers",
+          "title": {
+            "es": "El trío 管钓",
+            "en": "The 管钓 trio"
+          },
+          "body": {
+            "es": "El Combo del Endministrator se enciende cuando otro operador pega con un Combo y deja Originium Crystals en el enemigo. Su Battle Skill, con Crush, rompe esos cristales: daño físico extra, ATK por el talento Essence Disintegration, y ese consumo es justo el disparador del Combo de Alesh, que devuelve SP y puede sacar una Rare Fin. Tres botones que el autor bautiza «管钓» y que aparecen en todos los ejes cada vez que el Combo del Endministrator está listo.",
+            "en": "The Combo from the Endministrator lights when another operator hits with a Combo and leaves Originium Crystals on the enemy. The Battle Skill, with Crush, shatters those crystals: extra Physical damage, ATK from the Essence Disintegration talent, and that consumption is exactly the trigger of the Combo from Alesh, which returns SP and can hook a Rare Fin. Three buttons the author names «管钓» that show up in every axis whenever the Combo from the Endministrator is ready."
+          }
+        },
+        {
+          "icon": "snowflake",
+          "title": {
+            "es": "La apertura de Xaihi y las dos capas de Cryo",
+            "en": "The Xaihi opener and the two Cryo layers"
+          },
+          "body": {
+            "es": "La Battle Skill de Xaihi invoca el Auxiliary Crystal; dos Final Strikes gastan sus curaciones y encienden su Combo, que pega Cryo y cuelga Cryo Infliction. Dos aperturas seguidas son dos capas, y con dos capas de Arts Infliction no Nature se enciende el Combo de Arcane INT. En el eje de carga la segunda capa la pone el Ultimate de Alesh; en el cold start, Xaihi apila hasta cuatro para la Corrosion de nivel 4.",
+            "en": "The Battle Skill from Xaihi summons the Auxiliary Crystal; two Final Strikes spend its treatments and light her Combo, which hits Cryo and hangs Cryo Infliction. Two openers in a row are two layers, and with two layers of non-Nature Arts Infliction the Combo from Arcane INT lights. In the charge axis the second layer comes from the Ultimate from Alesh; in the cold start, Xaihi stacks up to four for the level-4 Corrosion."
+          }
+        },
+        {
+          "icon": "timer",
+          "title": {
+            "es": "Los 6 segundos del Combo de Arcane",
+            "en": "The 6 seconds of the Combo from Arcane"
+          },
+          "body": {
+            "es": "El Imprisonment del Combo de Arcane dura 4 segundos y, cuando su Battle Skill lo detona, quedan 2 segundos de daño retardado. Ese daño cuenta como daño de Combo, así que cualquier Combo del Endministrator que recargue dentro de esos 6 segundos se enciende solo. Por eso los diagramas piden retrasar el Combo de Arcane y soltar su Battle Skill con el Imprisonment a medias: para pescar un 管钓 más, y en el burst, para que el golpe retardado dispare el Combo del Endministrator justo antes de su Ultimate.",
+            "en": "The Imprisonment from the Combo from Arcane lasts 4 seconds and, when her Battle Skill detonates it, 2 seconds of delayed damage remain. That damage counts as Combo damage, so any Combo from the Endministrator that recharges within those 6 seconds lights on its own. That is why the charts ask to delay the Combo from Arcane and to release her Battle Skill with the Imprisonment half through: to fish one more 管钓, and in the burst, so the delayed hit fires the Combo from the Endministrator right before the Ultimate."
+          }
+        },
+        {
+          "icon": "coins",
+          "title": {
+            "es": "El SP entra y sale igual",
+            "en": "SP goes in and comes out the same"
+          },
+          "body": {
+            "es": "Detalle del video de «售后»: el eje de burst está montado para salir con el mismo SP con que se entra; con dos barras entras y con dos barras sales, casi como un burst gratis. Eso deja dos Battle Skills para rematar un resto de vida, y tras el eje de carga basta una barra para abrir la Battle Skill de Xaihi y volver a entrar sin costura.",
+            "en": "A detail from the «售后» video: the burst axis is built to leave with the same SP you entered with; two bars in, two bars out, almost a free burst. That leaves two Battle Skills to finish a sliver of HP, and after the charge axis one bar is enough to open the Battle Skill from Xaihi and slot back in seamlessly."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Mini-combo universal",
+            "en": "Universal mini-combo"
+          },
+          "action": {
+            "es": "El punto de reentrada: dos aperturas de Xaihi, el trío 管钓 y el Combo de Arcane con su daño retardado.",
+            "en": "The re-entry point: two Xaihi openers, the 管钓 trio and the Combo from Arcane with its delayed damage."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Battle Skill de Xaihi de apertura y dos Final Strikes: se dispara el Combo de Xaihi.",
+                "en": "Opening Battle Skill from Xaihi and two Final Strikes: the Combo from Xaihi fires."
+              },
+              "who": "xaihi"
+            },
+            {
+              "do": {
+                "es": "Suelta el Combo de Xaihi y encadena el Combo del Endministrator.",
+                "en": "Release the Combo from Xaihi and chain the Combo from the Endministrator."
+              },
+              "who": "endministrator"
+            },
+            {
+              "do": {
+                "es": "Battle Skill del Endministrator: rompe los cristales y dispara el Combo de Alesh; suéltalo. Ese trío es el «管钓»: grábatelo, se repite mucho.",
+                "en": "Battle Skill from the Endministrator: it shatters the crystals and fires the Combo from Alesh; release it. That trio is the «管钓»: memorize it, it repeats a lot."
+              },
+              "who": "alesh"
+            },
+            {
+              "do": {
+                "es": "Otra Battle Skill de Xaihi, dos Final Strikes y su Combo: la segunda capa de Cryo.",
+                "en": "Another Battle Skill from Xaihi, two Final Strikes and her Combo: the second Cryo layer."
+              },
+              "who": "xaihi"
+            },
+            {
+              "do": {
+                "es": "Combo de Arcane. Truco: sus 4 segundos de Imprisonment más los 2 de daño retardado disparan el Combo del Endministrator que recargue en ese plazo: aprovecha para un 管钓 más.",
+                "en": "Combo from Arcane. Trick: its 4 seconds of Imprisonment plus the 2 of delayed damage fire whichever Combo from the Endministrator recharges within that span: use it for one more 管钓."
+              },
+              "who": "arcane"
+            }
+          ],
+          "tip": {
+            "es": "Si el eje se desordena, se vuelve a entrar desde aquí.",
+            "en": "If the axis falls apart, you re-enter from here."
+          }
+        },
+        {
+          "phase": {
+            "es": "Eje de burst, fila 1",
+            "en": "Burst axis, row 1"
+          },
+          "action": {
+            "es": "Ultimate de Arcane tras el primer Final Strike, los Ultimates de Xaihi y Alesh, y el Combo de Arcane retrasado.",
+            "en": "Ultimate from Arcane after the first Final Strike, the Ultimates from Xaihi and Alesh, and the delayed Combo from Arcane."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Battle Skill de Xaihi; tras el primer Final Strike, Ultimate de Arcane (primer estadio, el Gloompurger Array que fuerza Corrosion).",
+                "en": "Battle Skill from Xaihi; after the first Final Strike, Ultimate from Arcane (first stage, the Gloompurger Array that forces Corrosion)."
+              },
+              "who": "arcane"
+            },
+            {
+              "do": {
+                "es": "Segundo Final Strike: se dispara el Combo de Xaihi. Pulsa seguidos el Combo de Xaihi y el del Endministrator.",
+                "en": "Second Final Strike: the Combo from Xaihi fires. Press the Combo from Xaihi and the one from the Endministrator back to back."
+              },
+              "who": "xaihi"
+            },
+            {
+              "do": {
+                "es": "Ultimates de Xaihi y de Alesh: sus animaciones sirven para que recargue el Combo del Endministrator.",
+                "en": "Ultimates from Xaihi and Alesh: their animations serve to let the Combo from the Endministrator recharge."
+              },
+              "who": "alesh"
+            },
+            {
+              "do": {
+                "es": "Battle Skill del Endministrator para romper los cristales.",
+                "en": "Battle Skill from the Endministrator to shatter the crystals."
+              },
+              "who": "endministrator"
+            },
+            {
+              "do": {
+                "es": "Combo de Arcane, retrasado a propósito para que, con su Battle Skill y su Ultimate, dispare el Combo del Endministrator; luego Combo de Alesh.",
+                "en": "Combo from Arcane, deliberately delayed so that, with her Battle Skill and Ultimate, it fires the Combo from the Endministrator; then Combo from Alesh."
+              },
+              "who": "arcane"
+            }
+          ],
+          "tip": {
+            "es": "El segundo estadio del Ultimate de Arcane lo desbloquea un Final Strike: espéralo antes de soltarlo.",
+            "en": "The second stage of the Ultimate from Arcane is unlocked by a Final Strike: wait for it before releasing."
+          }
+        },
+        {
+          "phase": {
+            "es": "Eje de burst, fila 2",
+            "en": "Burst axis, row 2"
+          },
+          "action": {
+            "es": "Battle Skill y cañón de Arcane con el Imprisonment a medias, Ultimate del Endministrator y cierre de Alesh.",
+            "en": "Battle Skill and cannon from Arcane with the Imprisonment half through, Ultimate from the Endministrator and the Alesh closer."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Con el buff de Imprisonment pasado de la mitad, Battle Skill de Arcane y segundo estadio de su Ultimate; otra vez la animación deja recargar Combos.",
+                "en": "With the Imprisonment buff past its half, Battle Skill from Arcane and second stage of her Ultimate; again the animation lets Combos recharge."
+              },
+              "who": "arcane"
+            },
+            {
+              "do": {
+                "es": "El golpe retardado del Imprisonment dispara el Combo del Endministrator: Combo y Ultimate del Endministrator seguidos.",
+                "en": "The delayed Imprisonment hit fires the Combo from the Endministrator: Combo and Ultimate from the Endministrator back to back."
+              },
+              "who": "endministrator"
+            },
+            {
+              "do": {
+                "es": "Combo de Alesh de cierre: fin del eje de burst.",
+                "en": "Closing Combo from Alesh: end of the burst axis."
+              },
+              "who": "alesh"
+            },
+            {
+              "do": {
+                "es": "Opcional: una Battle Skill del Endministrator al final. Decide según la carga de tu equipo y si vas a seguir en bucle: es lo que separa las builds «con Crush» y «sin Crush».",
+                "en": "Optional: one Battle Skill from the Endministrator at the end. Decide by your gear's charge and whether you keep looping: it is what separates the «with Crush» and «without Crush» builds."
+              },
+              "who": "endministrator"
+            }
+          ],
+          "tip": {
+            "es": "El autor pide calma: con tanto SP hay muchas Battle Skills, los Combos son cortos y el equipo rinde al máximo solo con muchas pulsaciones.",
+            "en": "The author asks for calm: with that much SP there are many Battle Skills, the Combos are short and the team peaks only with many presses."
+          }
+        },
+        {
+          "phase": {
+            "es": "Eje de carga",
+            "en": "Charge axis"
+          },
+          "action": {
+            "es": "Dos renovaciones de Corrosion: el Ultimate de Alesh como segunda capa y el mini-combo universal.",
+            "en": "Two Corrosion renewals: the Ultimate from Alesh as the second layer and the universal mini-combo."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Battle Skill de Xaihi y dos Final Strikes. La Battle Skill del Endministrator que el autor mete aquí es un guiño a la build con Crush: no hace falta memorizarla.",
+                "en": "Battle Skill from Xaihi and two Final Strikes. The Battle Skill from the Endministrator the author slots here is a nod to the build with Crush: no need to memorize it."
+              },
+              "who": "xaihi"
+            },
+            {
+              "do": {
+                "es": "Vigila el segundo Final Strike, que dispara el Combo de Xaihi, y no lo sueltes hasta que el Combo del Endministrator esté listo: el burst empalma sin costura y aquí toca esperarlo. Combo de Xaihi y 管钓.",
+                "en": "Watch the second Final Strike, which fires the Combo from Xaihi, and do not release it until the Combo from the Endministrator is ready: the burst links seamlessly and this is where you wait for it. Combo from Xaihi and 管钓."
+              },
+              "who": "endministrator"
+            },
+            {
+              "do": {
+                "es": "Ultimate de Alesh: cuelga la segunda capa de Cryo y dispara el Combo de Arcane.",
+                "en": "Ultimate from Alesh: it hangs the second Cryo layer and fires the Combo from Arcane."
+              },
+              "who": "alesh"
+            },
+            {
+              "do": {
+                "es": "Combo y Battle Skill de Arcane (con el Imprisonment a medias): primera Corrosion renovada. Un 管钓 más con el Combo del Endministrator que enciende ese daño.",
+                "en": "Combo and Battle Skill from Arcane (with the Imprisonment half through): first Corrosion renewal. One more 管钓 with the Combo from the Endministrator that damage lights."
+              },
+              "who": "arcane"
+            },
+            {
+              "do": {
+                "es": "Con una Arcane de Hot Work, todo eje de carga renueva la Corrosion al menos dos veces: la segunda es el mini-combo universal tal cual. Al terminar, vuelve al burst: cuando termine la Battle Skill de Xaihi que lo abre, todos los Ultimates están cargados.",
+                "en": "With a Hot Work Arcane, every charge axis renews the Corrosion at least twice: the second one is the universal mini-combo as is. When done, back to the burst: by the time the opening Battle Skill from Xaihi ends, every Ultimate is charged."
+              },
+              "who": "xaihi"
+            }
+          ],
+          "tip": {
+            "es": "Con Rhodagn de blanco, el autor mide 30 segundos de burst y 40 de carga.",
+            "en": "With Rhodagn as the target, the author measures 30 seconds of burst and 40 of charge."
+          }
+        },
+        {
+          "phase": {
+            "es": "Cold start de cuatro Corrosion",
+            "en": "Four-Corrosion cold start"
+          },
+          "action": {
+            "es": "Ocho Final Strikes para las cuatro capas de Cryo de Xaihi, y un 管钓 cada vez que el Combo del Endministrator esté listo.",
+            "en": "Eight Final Strikes for the four Cryo layers from Xaihi, and one 管钓 every time the Combo from the Endministrator is ready."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Una vuelta del mini-combo universal hasta disparar el Combo de Arcane, y su daño retardado para un 管钓, igual que en el mini-combo.",
+                "en": "One lap of the universal mini-combo until the Combo from Arcane fires, and its delayed damage for a 管钓, just like in the mini-combo."
+              },
+              "who": "xaihi"
+            },
+            {
+              "do": {
+                "es": "La diferencia: buscamos cuatro Corrosion, así que la Battle Skill de Arcane no se usa todavía; Battle Skill de Xaihi para la tercera capa de Cryo.",
+                "en": "The difference: we want four Corrosion, so the Battle Skill from Arcane is not used yet; Battle Skill from Xaihi for the third Cryo layer."
+              },
+              "who": "xaihi"
+            },
+            {
+              "do": {
+                "es": "Tras ese mini-combo alterado falta una capa: otra Battle Skill de Xaihi hasta las cuatro de Cryo, y su Combo las completa.",
+                "en": "After that altered mini-combo one layer is missing: another Battle Skill from Xaihi up to the four Cryo layers, and her Combo completes them."
+              },
+              "who": "xaihi"
+            },
+            {
+              "do": {
+                "es": "Combo y Battle Skill de Arcane: Corrosion de nivel 4.",
+                "en": "Combo and Battle Skill from Arcane: level-4 Corrosion."
+              },
+              "who": "arcane"
+            },
+            {
+              "do": {
+                "es": "管钓 de cierre y la carga está hecha; de ahí, al burst.",
+                "en": "Closing 管钓 and the charge is done; from there, into the burst."
+              },
+              "who": "endministrator"
+            }
+          ],
+          "tip": {
+            "es": "En este eje Arcane lleva la armadura de carga: para acelerar, guantes o sello de carga, o bajar el eje a tres o incluso una Corrosion. Los ejes de un escenario concreto ya no son tema de guía de equipo, dice el autor.",
+            "en": "In this axis Arcane wears the charge armor: to speed up, charge gloves or seal, or drop the axis to three or even one Corrosion. Axes for one specific stage are no longer team-guide material, the author says."
+          }
+        }
+      ],
+      "rotationVariants": [
+        {
+          "name": {
+            "es": "Adaptar el eje al escenario (video de «售后»)",
+            "en": "Adapting the axis to the environment («售后» video)"
+          },
+          "description": {
+            "es": "El video complementario recorre escenarios reales para enseñar a cambiar el eje, no un escenario concreto. Contra otro jefe (山吼) basta un eje de burst y, si queda un hilo de vida, Battle Skill, Combo y Battle Skill de Arcane lo cierran. Contra el jefe de mármol (白垩), con tentáculos y núcleo, se rompe el eje y se mata rápido; el núcleo devuelve energía, y como la de Arcane es la que más tarda en llenarse, gastar los otros tres Ultimates al principio no impide que se carguen. La regla del autor: mira la barra de carga y juega un mini-combo universal; si falta un poco, una Battle Skill más del Endministrator; si falta mucho, una pieza de carga en Arcane. Contra Nefarith, de dos fases y poca vida, la primera fase no aguanta el burst entero y la segunda no llega al segundo: se entra directo a la segunda fase sin gastar el Ultimate del Endministrator, y con un mini-combo universal, dos Crush del Endministrator de Swordmancer para el Stagger y su Ultimate con Battle Skill, Combo y Battle Skill de Arcane se remata; si el Ultimate del Endministrator ya se fue o la segunda fase aguanta mucho, se entra al eje de carga completo. Contra Alleikhreos, dos fases con vida, caben dos bursts sin cambiar el eje. Y en 斧柄纪年, con sellos de carga en Arcane y Alesh, el mini-combo universal deja listo el Ultimate de Alesh y una sola Corrosion de Combo y Battle Skill de Arcane llena su Ultimate; el Endministrator con carga para hacer Stagger con su Ultimate también pasa, y el jefe sigue muriendo con un cañón de sobra.",
+            "en": "The companion video walks through real environments to teach changing the axis, not one specific stage. Against another boss (山吼) one burst axis is enough and, if a sliver of HP remains, Battle Skill, Combo and Battle Skill from Arcane close it. Against the marble boss (白垩), with appendages and a core, the axis breaks and you kill fast; the core refunds energy, and since Arcane's is the slowest to fill, spending the other three Ultimates early does not stop them from charging. The author's rule: look at the charge bar and play a universal mini-combo; if a little is missing, one more Battle Skill from the Endministrator; if a lot is, a charge piece on Arcane. Against Nefarith, two phases and low HP, phase one does not survive the whole burst and phase two does not reach the second one: you go straight into phase two without spending the Ultimate from the Endministrator, and with a universal mini-combo, two Crushes from the Swordmancer Endministrator for the Stagger and the Ultimate with Battle Skill, Combo and Battle Skill from Arcane you finish; if the Ultimate from the Endministrator is gone or phase two holds a lot, you enter the full charge axis. Against Alleikhreos, two phases with HP, two bursts fit without changing the axis. And in 斧柄纪年, with charge seals on Arcane and Alesh, the universal mini-combo leaves the Ultimate from Alesh ready and a single Corrosion from Combo and Battle Skill from Arcane fills her Ultimate; the Endministrator with charge to Stagger with the Ultimate also passes, and the boss still dies with a cannon to spare."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Falta poca carga",
+                "en": "A little charge missing"
+              },
+              "action": {
+                "es": "Mini-combo universal y una Battle Skill más del Endministrator.",
+                "en": "Universal mini-combo and one more Battle Skill from the Endministrator."
+              }
+            },
+            {
+              "phase": {
+                "es": "Falta mucha carga",
+                "en": "A lot of charge missing"
+              },
+              "action": {
+                "es": "Una pieza de carga en Arcane, o el eje de carga entero.",
+                "en": "A charge piece on Arcane, or the whole charge axis."
+              }
+            },
+            {
+              "phase": {
+                "es": "Remate",
+                "en": "Finish"
+              },
+              "action": {
+                "es": "Dos Crush del Endministrator para el Stagger, su Ultimate y Battle Skill, Combo y Battle Skill de Arcane.",
+                "en": "Two Crushes from the Endministrator for the Stagger, the Ultimate and Battle Skill, Combo and Battle Skill from Arcane."
+              }
+            }
+          ]
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "arcane",
+          "order": {
+            "es": "Combo y Ult a Especialización 3 (prioridad S); Battle Skill y básico a Especialización 3 (A)",
+            "en": "Combo and Ultimate to Specialization 3 (priority S); Battle Skill and basic to Specialization 3 (A)"
+          },
+          "note": {
+            "es": "Main C del equipo: el objetivo es todo a Especialización 3, con las letras de prioridad del autor.",
+            "en": "The team's main C: the goal is everything at Specialization 3, with the author's priority letters."
+          },
+          "assumeRanks": {
+            "combo_skill": 12,
+            "ultimate": 12,
+            "battle_skill": 12
+          }
+        },
+        {
+          "charId": "endministrator",
+          "order": {
+            "es": "Combo y Ult a Especialización 3 (S); básico (A); Battle Skill (B)",
+            "en": "Combo and Ultimate to Specialization 3 (S); basic (A); Battle Skill (B)"
+          },
+          "note": {
+            "es": "La Especialización 3 del Combo le quita un segundo de cooldown: menos espera dentro del eje y el buff de ATK por romper cristales se mantiene más fácil.",
+            "en": "Specialization 3 on the Combo cuts one second of cooldown: less waiting inside the axis and the crystal-shatter ATK buff is easier to keep up."
+          },
+          "assumeRanks": {
+            "combo_skill": 12,
+            "ultimate": 12
+          }
+        },
+        {
+          "charId": "xaihi",
+          "order": {
+            "es": "Ult a Especialización 3 (S) > Battle Skill a Especialización 3 (A) > Combo a nivel 9 (B) > básico (D)",
+            "en": "Ultimate to Specialization 3 (S) > Battle Skill to Specialization 3 (A) > Combo to level 9 (B) > basic (D)"
+          },
+          "note": {
+            "es": "El Combo a 9 suma curación. Xaihi es un apoyo cuya inversión cambia mucho lo que aporta.",
+            "en": "The Combo at 9 adds healing. Xaihi is a support whose investment changes a lot of what she brings."
+          },
+          "assumeRanks": {
+            "ultimate": 12,
+            "battle_skill": 12,
+            "combo_skill": 9
+          }
+        },
+        {
+          "charId": "alesh",
+          "order": {
+            "es": "Ult a Especialización 1 (C); Combo a nivel 6 (B) y de Especialización 1 a 3 (C); Battle Skill y básico (D)",
+            "en": "Ultimate to Specialization 1 (C); Combo to level 6 (B) and Specialization 1 to 3 (C); Battle Skill and basic (D)"
+          },
+          "note": {
+            "es": "En esencia, un lanzador de Thermite Cutter: sin subir skills el equipo tampoco anda corto de SP.",
+            "en": "In essence, a Thermite Cutter launcher: even without leveled skills the team is not short on SP."
+          },
+          "assumeRanks": {
+            "ultimate": 10,
+            "combo_skill": 6
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "El segundo Final Strike de cada apertura es el que dispara el Combo de Xaihi: en el eje de carga hay que esperar además a que el Combo del Endministrator esté listo antes de soltarlo, o el burst no empalma.",
+          "en": "The second Final Strike of every opener is what fires the Combo from Xaihi: in the charge axis you must also wait for the Combo from the Endministrator to be ready before releasing it, or the burst does not link."
+        },
+        {
+          "es": "El segundo estadio del Ultimate de Arcane se desbloquea con un Final Strike: no intentes soltarlo antes.",
+          "en": "The second stage of the Ultimate from Arcane unlocks with a Final Strike: do not try to release it before."
+        },
+        {
+          "es": "Retrasa el Combo de Arcane y suelta su Battle Skill con el Imprisonment pasado de la mitad: si vas antes, el daño retardado no dispara el Combo del Endministrator y se pierde el 管钓 o el Ultimate.",
+          "en": "Delay the Combo from Arcane and release her Battle Skill with the Imprisonment past its half: if you go early, the delayed damage does not fire the Combo from the Endministrator and the 管钓 or the Ultimate is lost."
+        },
+        {
+          "es": "Acuérdate de la Battle Skill del Endministrator para romper los cristales antes del Combo de Alesh; sin cristales rotos, el Combo de Alesh no se enciende.",
+          "en": "Remember the Battle Skill from the Endministrator to shatter the crystals before the Combo from Alesh; without shattered crystals, the Combo from Alesh does not light."
+        },
+        {
+          "es": "En el cold start de cuatro Corrosion, la Battle Skill de Arcane espera a que Xaihi tenga las cuatro capas de Cryo; si la sueltas antes, la Corrosion sale de menos nivel.",
+          "en": "In the four-Corrosion cold start, the Battle Skill from Arcane waits until Xaihi has the four Cryo layers; release it early and the Corrosion comes out at a lower level."
+        },
+        {
+          "es": "La Battle Skill opcional del Endministrator al final del burst decide la carga que necesitan Arcane y Alesh: las fichas traen umbral con Crush y sin Crush.",
+          "en": "The optional Battle Skill from the Endministrator at the end of the burst decides the charge Arcane and Alesh need: the cards carry a threshold with Crush and without Crush."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "Las sillas de ruedas de Arcane del mismo autor (Xaihi o Liino)",
+            "en": "The Arcane wheelchairs by the same author (Xaihi or Liino)"
+          },
+          "verdict": {
+            "es": "Aquellas eran, en su escala, el nivel de graduación; esta es el posgrado: más daño y Stagger, y un eje bastante más complejo. Si buscas pulsar poco, quédate en la silla de ruedas.",
+            "en": "Those were, on his scale, the graduation level; this is the postgraduate one: more damage and Stagger, and a noticeably more complex axis. If you want few presses, stay on the wheelchair."
+          }
+        },
+        {
+          "name": {
+            "es": "Equipos de daño mixto con Rossi",
+            "en": "Mixed-damage teams with Rossi"
+          },
+          "verdict": {
+            "es": "La pregunta que abre el video: sin Rossi también se puede armar daño mixto, pero suele quedar lejos de la fuerza real. Este cuarteto es la respuesta del autor para quien quiere fuerza sin ella.",
+            "en": "The question opening the video: without Rossi you can still build mixed damage, but it usually lands far from real strength. This quartet is the author's answer for those who want strength without her."
+          }
+        },
+        {
+          "name": {
+            "es": "Perlica main C con Arcane y Liino (诀佩弧梨)",
+            "en": "Perlica main C with Arcane and Liino (诀佩弧梨)"
+          },
+          "verdict": {
+            "es": "El otro equipo avanzado del autor, en esta app bajo Perlica. Él lo da como no inferior a este en experiencia global; la diferencia está en la entrada: aquel pide dos limitadas de seis estrellas y subir a los cuatro, este solo a Arcane.",
+            "en": "The author's other advanced team, in this app under Perlica. He rates it as not inferior to this one in overall experience; the difference is the entry fee: that one asks for two limited six stars and raising all four, this one only Arcane."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "arcane",
+          "role": "Carry",
+          "weaponId": "wpn_funnel_0016",
+          "gearRec": [
+            "hot_work_exo_rig",
+            "hot_work_insulation_slab",
+            "lynx_slab",
+            "hot_work_hands_ppe"
+          ],
+          "weaponNote": {
+            "es": "Type 42: Solemn Phalanx (四二式·肃阵), su arma BIS, con Junction Point (联结点) como segunda opción de la ficha.",
+            "en": "Type 42: Solemn Phalanx (四二式·肃阵), her BIS weapon, with Junction Point (联结点) as the card's second option."
+          },
+          "gearNote": {
+            "es": "Dos fichas: carga 44,1 % «con Crush» (Hot Work Exo-Rig, Hot Work Insulation Slab, LYNX Slab y Hot Work Hands PPE), que basta si rematas el burst con una Battle Skill del Endministrator y con el atributo de carga que trae el arma; y carga 57,4 % «para cuatro Corrosion» (Redeemer Armor sin forjar, dos Hot Work Insulation Slab y Hot Work Hands PPE), que cubre el cold start.",
+            "en": "Two cards: 44.1% charge «with Crush» (Hot Work Exo-Rig, Hot Work Insulation Slab, LYNX Slab and Hot Work Hands PPE), enough if you close the burst with a Battle Skill from the Endministrator and with the charge attribute the weapon brings; and 57.4% charge «for four Corrosion» (unforged Redeemer Armor, two Hot Work Insulation Slabs and Hot Work Hands PPE), which covers the cold start."
+          },
+          "deepNote": {
+            "es": "Main C en forma INT con Hot Work: la Corrosion permanente de calidad del equipo. Su Combo se enciende con dos capas de Cryo, y sus 4 segundos de Imprisonment más los 2 de daño retardado de la Battle Skill son el reloj con el que se disparan los Combos del Endministrator. Su Ultimate tiene dos estadios: el Gloompurger Array que fuerza Corrosion y el Gloompurge Arcana que desbloquea el Final Strike.",
+            "en": "Main C in INT form with Hot Work: the team's high-quality permanent Corrosion. Her Combo lights with two Cryo layers, and her 4 seconds of Imprisonment plus the 2 seconds of delayed damage from the Battle Skill are the clock that fires the Combos from the Endministrator. Her Ultimate has two stages: the Gloompurger Array that forces Corrosion and the Gloompurge Arcana the Final Strike unlocks."
+          }
+        },
+        {
+          "id": "endministrator",
+          "role": "Sub-DPS",
+          "weaponId": "wpn_sword_0021",
+          "gearRec": [
+            "swordmancer_heavy_armor_t1",
+            "swordmancer_dagger",
+            "swordmancer_dagger",
+            "redeemer_gloves"
+          ],
+          "weaponNote": {
+            "es": "Grand Vision (宏愿) encabeza la ficha, con Lupine Scarlet (狼之绯), Rapid Ascent (扶摇) y Sundering Steel (钢铁余音) detrás.",
+            "en": "Grand Vision (宏愿) heads the card, with Lupine Scarlet (狼之绯), Rapid Ascent (扶摇) and Sundering Steel (钢铁余音) behind."
+          },
+          "gearNote": {
+            "es": "Dos fichas, y el consejo es usar lo que ya tengas forjado: Stagger con Swordmancer (点剑: Heavy Armor T1 y dos Dagger) más Redeemer Gloves; daño y cold start (umbral de carga 8,8 %) con Type 50 Yinglung (应龙: Heavy Armor T1 y dos Radar T1) más Redeemer Gloves. Para el cold start valen una armadura de carga Yinglung o Qingbo sin forjar; el set Qingbo (清波) acorta el eje y acelera el arranque.",
+            "en": "Two cards, and the advice is to use what you already forged: Stagger with Swordmancer (点剑: Heavy Armor T1 and two Daggers) plus Redeemer Gloves; damage and cold start (8.8% charge threshold) with Type 50 Yinglung (应龙: Heavy Armor T1 and two Radar T1) plus Redeemer Gloves. For the cold start an unforged Yinglung or Qingbo charge armor does; the Qingbo set (清波) shortens the axis and speeds the start."
+          },
+          "deepNote": {
+            "es": "Sub-C físico: su Combo, disparado por el daño de Combo de un compañero, deja Originium Crystals; su Battle Skill con Crush los rompe (daño físico extra y ATK del talento Essence Disintegration) y ese consumo enciende el Combo de Alesh; su Ultimate consume los cristales para un golpe más. Como los buffs del equipo son genéricos salvo el amp de Xaihi, controlarlo con Swordmancer para el Stagger apenas baja el daño.",
+            "en": "Physical sub-C: the Combo, fired by a teammate's Combo damage, leaves Originium Crystals; the Battle Skill with Crush shatters them (extra Physical damage and ATK from the Essence Disintegration talent) and that consumption lights the Combo from Alesh; the Ultimate consumes the crystals for one more hit. Since the team's buffs are generic except the amp from Xaihi, controlling the Endministrator with Swordmancer for the Stagger barely lowers the damage."
+          }
+        },
+        {
+          "id": "xaihi",
+          "role": "Support",
+          "weaponId": "wpn_funnel_0010",
+          "gearRec": [
+            "eternal_xiranite_light_armor_t1",
+            "eternal_xiranite_bracing_slab",
+            "eternal_xiranite_bracing_slab",
+            "aic_fieldwork_wraps"
+          ],
+          "weaponNote": {
+            "es": "Chivalric Virtues (骑士精神) primero, con Stanza of Memorials (悼亡诗) como segunda opción de la ficha.",
+            "en": "Chivalric Virtues (骑士精神) first, with Stanza of Memorials (悼亡诗) as the card's second option."
+          },
+          "gearNote": {
+            "es": "Sin requisito de carga: 3 Eternal Xiranite de atributo secundario (长息: Light Armor T1 y dos Bracing Slab) más las AIC Fieldwork Wraps de atributo secundario que regalan con Arcane. Con Chivalric Virtues, unos guantes Redeemer de carga dejan el Intellect algo más alto.",
+            "en": "No charge requirement: 3 secondary-attribute Eternal Xiranite pieces (长息: Light Armor T1 and two Bracing Slabs) plus the secondary-attribute AIC Fieldwork Wraps gifted with Arcane. With Chivalric Virtues, a pair of charge Redeemer gloves leaves the Intellect a bit higher."
+          },
+          "deepNote": {
+            "es": "La apertura de cada eje: su Battle Skill invoca el Auxiliary Crystal, dos Final Strikes gastan sus curaciones y encienden su Combo, que cuelga la capa de Cryo con la que arrancan las cadenas. Su Ultimate reparte Cryo Amp y Nature Amp, el único buff del equipo que no es genérico.",
+            "en": "The opener of every axis: her Battle Skill summons the Auxiliary Crystal, two Final Strikes spend its treatments and light her Combo, which hangs the Cryo layer the chains start from. Her Ultimate hands out Cryo Amp and Nature Amp, the team's only non-generic buff."
+          }
+        },
+        {
+          "id": "alesh",
+          "role": "Enabler",
+          "weaponId": "wpn_sword_0012",
+          "gearRec": [
+            "redeemer_armor",
+            "frontiers_extra_o2_tube_t1",
+            "frontiers_extra_o2_tube_t1",
+            "frontiers_fiber_gloves_t1"
+          ],
+          "weaponNote": {
+            "es": "Thermite Cutter (热熔切割器), sola en la ficha: el autor lo llama «un lanzador de Thermite Cutter».",
+            "en": "Thermite Cutter (热熔切割器), alone on the card: the author calls him «a Thermite Cutter launcher»."
+          },
+          "gearNote": {
+            "es": "Frontiers con atributos de carga y secundario. Dos fichas: carga 33,2 % «con Crush» (Redeemer Armor, dos Frontiers Extra O2 Tube T1 y Frontiers Fiber Gloves T1) o 44,6 % «sin Crush» (Frontiers Protection Suit, Frontiers Extra O2 Tube T1, Redeemer Seal y Frontiers Fiber Gloves T1). La armadura Redeemer de carga solo sube la probabilidad de pescar una Rare Fin.",
+            "en": "Frontiers with charge and secondary attributes. Two cards: 33.2% charge «with Crush» (Redeemer Armor, two Frontiers Extra O2 Tube T1 and Frontiers Fiber Gloves T1) or 44.6% «without Crush» (Frontiers Protection Suit, Frontiers Extra O2 Tube T1, Redeemer Seal and Frontiers Fiber Gloves T1). The Redeemer charge armor only raises the chance of hooking a Rare Fin."
+          },
+          "deepNote": {
+            "es": "El vanguardia de Frontiers: su Combo se enciende cuando se consumen los Originium Crystals, devuelve SP y puede sacar una Rare Fin (ATK para todo el equipo); su Ultimate cuelga la segunda capa de Cryo del eje de carga, y su Thermite Cutter da ATK al equipo cada vez que una skill suya recupera SP.",
+            "en": "The Frontiers vanguard: his Combo lights when the Originium Crystals are consumed, returns SP and can hook a Rare Fin (ATK for the whole team); his Ultimate hangs the second Cryo layer of the charge axis, and his Thermite Cutter gives the team ATK every time one of his skills recovers SP."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Arcane a Especialización 3 en todo con Type 42: Solemn Phalanx y tres Hot Work más LYNX Slab; si rematas el burst con la Battle Skill del Endministrator le basta la carga del arma, y para el cold start de cuatro Corrosion, una Redeemer Armor sin forjar. El Endministrator con Grand Vision y dos armarios: Swordmancer para Stagger, Type 50 Yinglung para daño, siempre con Redeemer Gloves, y una armadura de carga Yinglung o Qingbo sin forjar para el umbral de 8,8 % del cold start. Xaihi sin requisito de carga: Chivalric Virtues con tres Eternal Xiranite de atributo secundario y las AIC Fieldwork Wraps. Alesh, Thermite Cutter con Frontiers de carga y atributo secundario, con o sin Crush. Resumen del autor: unidades Arts con Eternal Xiranite de apoyo y espadas con Frontiers de vanguardia, las builds genéricas.",
+          "en": "Arcane at Specialization 3 in everything with Type 42: Solemn Phalanx and three Hot Work plus a LYNX Slab; if you close the burst with the Battle Skill from the Endministrator the weapon's charge is enough, and for the four-Corrosion cold start, an unforged Redeemer Armor. The Endministrator with Grand Vision and two wardrobes: Swordmancer for Stagger, Type 50 Yinglung for damage, always with Redeemer Gloves, and an unforged Yinglung or Qingbo charge armor for the cold start's 8.8% threshold. Xaihi with no charge requirement: Chivalric Virtues with three secondary-attribute Eternal Xiranite pieces and the AIC Fieldwork Wraps. Alesh, Thermite Cutter with charge and secondary-attribute Frontiers, with or without Crush. The author's summary: Arts units in support Eternal Xiranite and swords in vanguard Frontiers, the generic builds."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Cold start de cuatro Corrosion",
+              "en": "Four-Corrosion cold start"
+            },
+            "swap": {
+              "es": "Arcane con la ficha de 57,4 %: Redeemer Armor sin forjar, dos Insulation Slab y Hands PPE. Para acelerar, guantes o sello de carga en vez de la armadura.",
+              "en": "Arcane with the 57.4% card: unforged Redeemer Armor, two Insulation Slabs and Hands PPE. To speed up, charge gloves or seal instead of the armor."
+            }
+          },
+          {
+            "scenario": {
+              "es": "El Endministrator hace el Stagger",
+              "en": "The Endministrator does the Stagger"
+            },
+            "swap": {
+              "es": "Swordmancer Heavy Armor T1 y dos Dagger con Redeemer Gloves; en cold start, con una armadura de carga o el set Qingbo para un eje más corto.",
+              "en": "Swordmancer Heavy Armor T1 and two Daggers with Redeemer Gloves; in cold start, with a charge armor or the Qingbo set for a shorter axis."
+            }
+          },
+          {
+            "scenario": {
+              "es": "El Endministrator va a daño",
+              "en": "The Endministrator goes damage"
+            },
+            "swap": {
+              "es": "Type 50 Yinglung Heavy Armor T1 y dos Radar T1 con Redeemer Gloves: cubre también el 8,8 % de carga del cold start.",
+              "en": "Type 50 Yinglung Heavy Armor T1 and two Radar T1 with Redeemer Gloves: it also covers the 8.8% charge of the cold start."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Xaihi con Chivalric Virtues",
+              "en": "Xaihi with Chivalric Virtues"
+            },
+            "swap": {
+              "es": "Unos guantes Redeemer de carga en lugar de las AIC Fieldwork Wraps dejan el Intellect algo más alto.",
+              "en": "A pair of charge Redeemer gloves instead of the AIC Fieldwork Wraps leaves the Intellect a bit higher."
+            }
+          },
+          {
+            "scenario": {
+              "es": "No rematas el burst con el Crush",
+              "en": "You do not close the burst with the Crush"
+            },
+            "swap": {
+              "es": "Alesh pasa a la ficha de 44,6 %: Frontiers Protection Suit, Extra O2 Tube T1, Redeemer Seal y Fiber Gloves T1. En 斧柄纪年, sellos de carga en Arcane y Alesh hacen «universal» al mini-combo.",
+              "en": "Alesh moves to the 44.6% card: Frontiers Protection Suit, Extra O2 Tube T1, Redeemer Seal and Fiber Gloves T1. In 斧柄纪年, charge seals on Arcane and Alesh make the mini-combo «universal»."
+            }
+          }
+        ]
+      }
     }
   ]
 }

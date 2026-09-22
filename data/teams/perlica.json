@@ -1,0 +1,878 @@
+{
+  "label": "PERLICA",
+  "guideCharId": "perlica",
+  "tagline": {
+    "es": "Caster Electric de cinco estrellas que aquí lleva el daño: su Battle Skill aplica Electric Infliction y su Combo, que se dispara con un Final Strike del operador controlado, fuerza una Electrification. Sus keystones le dan ATK cada vez que aplica Electrification (dos stacks) y refuerzan el Arts DMG Taken de la Electrification de su Combo, y su Ultimate es un pedazo de escombro orbital que cae con daño Electric masivo. Con la mesa puesta, pega el millón sin crítico que abre el video de Raaay丶.",
+    "en": "Five-star Electric Caster who carries the damage here: her Battle Skill applies Electric Infliction and her Combo, fired by a Final Strike from the controlled operator, forces an Electrification. Her keystones give her ATK every time she applies Electrification (two stacks) and strengthen the Arts DMG Taken of her Combo's Electrification, and her Ultimate is a chunk of orbital debris crashing down with massive Electric damage. With the table set, she lands the one-million non-crit hit that opens Raaay丶's video."
+  },
+  "comps": [
+    {
+      "name": {
+        "es": "Raaay丶 - Perlica main C (Arcane INT · Arclight · Liino)",
+        "en": "Raaay丶 - Perlica main C (Arcane INT · Arclight · Liino)"
+      },
+      "subtitle": {
+        "es": "Doble Electrification para Perlica; Arclight es el motor de SP",
+        "en": "Double Electrification for Perlica; Arclight is the SP engine"
+      },
+      "blurb": {
+        "es": "La clase de eje del cuarteto 诀佩弧梨 (Arcane, Perlica, Arclight y Liino) del autor de las sillas de ruedas. Avisa de entrada que el equipo se puede jugar de la forma simple, tres apoyos y Arcane INT como único C con la idea genérica de convertir dos Inflictions en Corrosion, pero que si se busca el techo del equipo, Perlica y Arclight cambian la impresión que la mayoría tiene de ellas y llevan el daño total y el eje a otra dimensión. Según sus pruebas es, de todos los equipos que giran alrededor de Arcane y Liino como únicas seis estrellas, el de techo más alto y más versátil, y en conjunto no queda por debajo de su equipo 管诀赛钓. A cambio, la fuerza va ligada a la inversión: los cuatro operadores hay que subirlos, como la Perlica que abre el video pegando un millón sin crítico.",
+        "en": "The rotation class for the 诀佩弧梨 quartet (Arcane, Perlica, Arclight and Liino) by the author of the wheelchairs. The upfront warning: the team can be played the simple way, three supports and Arcane INT as the only C with the generic idea of converting two Inflictions into Corrosion, but if you chase the team's ceiling, Perlica and Arclight overturn the impression most players have of them and take the total damage and the axis to another dimension. Per the author's tests it is, among all the teams built around Arcane and Liino as the only six stars, the one with the highest ceiling and the most versatility, and overall it does not fall short of the author's 管诀赛钓 team. In exchange, strength is tied to investment: all four operators need raising, like the Perlica opening the video with a one-million non-crit hit."
+      },
+      "guideVideoId": "peb1",
+      "simple": {
+        "whatItDoes": {
+          "es": "Perlica es la carry y pega cuando se cumplen dos condiciones del autor: dos Electrifications en poco tiempo (los dos stacks de ATK que le da aplicarla) y que la Electrification de su Combo caiga sobre una de nivel 1. Arclight es el motor: su Battle Skill se come Electrifications, devuelve SP y enciende su talento antes del burst. Arcane INT cuelga el Nature que Perlica convierte y renueva la Corrosion con su Ultimate y sus Battle Skills, y Liino canta, regala una Electrification con su Ultimate y sube el ATK. Eje de burst de dos filas, eje de carga derivado de él, un eje simple para reengancharse y un cold start de cuatro Corrosion.",
+          "en": "Perlica is the carry and she hits once the author's two conditions are met: two Electrifications in a short window (the two ATK stacks she gets from applying it) and her Combo's Electrification landing on a level-1 one. Arclight is the engine: her Battle Skill eats Electrifications, returns SP and lights her talent before the burst. Arcane INT hangs the Nature that Perlica converts and renews the Corrosion with her Ultimate and Battle Skills, and Liino sings, gifts an Electrification with her Ultimate and raises ATK. A two-row burst axis, a charge axis derived from it, a simple axis to re-enter and a four-Corrosion cold start."
+        },
+        "steps": [
+          {
+            "who": "perlica",
+            "do": {
+              "es": "Burst, fila 1: Combo de Perlica abre; Combo, Battle Skill y Combo de Arclight (se come la primera Electrification); Ultimates de Liino y de Arcane; otra vez Combo, Battle Skill y Combo de Arclight (la segunda); Ultimate de Arclight; Battle Skill, Combo y Battle Skill de Arcane.",
+              "en": "Burst, row 1: Combo from Perlica opens; Combo, Battle Skill and Combo from Arclight (eats the first Electrification); Ultimates from Liino and Arcane; Combo, Battle Skill and Combo from Arclight again (the second one); Ultimate from Arclight; Battle Skill, Combo and Battle Skill from Arcane."
+            }
+          },
+          {
+            "who": "perlica",
+            "do": {
+              "es": "Burst, fila 2: Battle Skill de Perlica antes de que salte su Combo (deja de pegar básicos si hace falta); Combo de Arclight; Final Strike y Combo de Perlica; Combo de Arclight; Ultimate de Perlica y segundo estadio del Ultimate de Arcane; Battle Skill y Combo de Arclight.",
+              "en": "Burst, row 2: Battle Skill from Perlica before her Combo fires (stop basic attacks if needed); Combo from Arclight; Final Strike and Combo from Perlica; Combo from Arclight; Ultimate from Perlica and second stage of the Ultimate from Arcane; Battle Skill and Combo from Arclight."
+            }
+          },
+          {
+            "who": "liino",
+            "do": {
+              "es": "Carga, fila 1: Battle Skill de Liino; Combo de Perlica; Combo y Ultimate de Arclight; Battle Skill, Combo y Battle Skill de Arcane dentro del Combo de Perlica; Battle Skill y Combo de Arclight.",
+              "en": "Charge, row 1: Battle Skill from Liino; Combo from Perlica; Combo and Ultimate from Arclight; Battle Skill, Combo and Battle Skill from Arcane inside the Combo from Perlica; Battle Skill and Combo from Arclight."
+            }
+          },
+          {
+            "who": "arclight",
+            "do": {
+              "es": "Carga, fila 2: Battle Skill de Perlica; Combo, Battle Skill y Combo de Arclight; Combo de Perlica; Combo y Ultimate de Arclight; Battle Skill y Combo de Arcane; Battle Skill de Perlica; Combo de Arclight. Con el Combo de Perlica listo y dos barras de SP, vuelve al burst.",
+              "en": "Charge, row 2: Battle Skill from Perlica; Combo, Battle Skill and Combo from Arclight; Combo from Perlica; Combo and Ultimate from Arclight; Battle Skill and Combo from Arcane; Battle Skill from Perlica; Combo from Arclight. With the Combo from Perlica ready and two bars of SP, back to the burst."
+            }
+          },
+          {
+            "who": "liino",
+            "do": {
+              "es": "Cold start: Battle Skill de Liino, dos Battle Skills de Perlica y los cuatro Combos con Final Strikes; Battle Skill de Arclight; Battle Skill de Perlica para el Combo de Arcane; cierra y reabre la Battle Skill de Liino; Combos de Perlica, Liino y Arclight; Ultimate de Arclight, Combo y Battle Skill de Arcane (cuatro Corrosion), Battle Skill y Combo de Arclight.",
+              "en": "Cold start: Battle Skill from Liino, two Battle Skills from Perlica and the four Combos with Final Strikes; Battle Skill from Arclight; Battle Skill from Perlica for the Combo from Arcane; close and reopen the Battle Skill from Liino; Combos from Perlica, Liino and Arclight; Ultimate from Arclight, Combo and Battle Skill from Arcane (four Corrosion), Battle Skill and Combo from Arclight."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "perlica",
+            "line": {
+              "es": "Oblivion (o Wild Wanderer) con 3 Pulser Labs y LYNX Slab; si la controlas, 3 MI Security de crítico. Ult y básico a Especialización 3, Battle Skill 9.",
+              "en": "Oblivion (or Wild Wanderer) with 3 Pulser Labs and a LYNX Slab; if you control her, 3 crit MI Security pieces. Ultimate and basic at Specialization 3, Battle Skill 9."
+            }
+          },
+          {
+            "id": "arcane",
+            "line": {
+              "es": "Type 42: Solemn Phalanx con 3 Hot Work y LYNX Slab, todo a daño; con la carga del arma basta. Todo al máximo.",
+              "en": "Type 42: Solemn Phalanx with 3 Hot Work and a LYNX Slab, all damage; the weapon's charge is enough. Everything maxed."
+            }
+          },
+          {
+            "id": "liino",
+            "line": {
+              "es": "Bedazzling Night Debut con 3 Eternal Xiranite y LYNX Slab. Ult y Battle Skill a Especialización 3.",
+              "en": "Bedazzling Night Debut with 3 Eternal Xiranite and a LYNX Slab. Ultimate and Battle Skill at Specialization 3."
+            }
+          },
+          {
+            "id": "arclight",
+            "line": {
+              "es": "Thermite Cutter (o Twelve Questions) con Frontiers de carga a forja máxima y Redeemer Seal; AIC Fieldwork de transición. Battle Skill a Especialización 3.",
+              "en": "Thermite Cutter (or Twelve Questions) with fully forged charge Frontiers and a Redeemer Seal; AIC Fieldwork as a transition. Battle Skill at Specialization 3."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "El autor construye el eje «como con bloques». Primer objetivo: Arclight tiene que comerse dos Electrifications antes del burst, con el Combo de Perlica como señal de entrada al eje y el Ultimate de Liino como segunda Electrification barata. Segundo objetivo: Perlica tiene que colgar dos Electrifications y la última tiene que ser la de su Combo, así que su Battle Skill convierte primero un Nature Infliction en Electrification y después llega el Combo; para eso el boss necesita otra Infliction encima, la de Arcane. Como el buff de Hot Work de Arcane dura solo 10 segundos, conviene renovar la Corrosion, y el Ultimate de Arclight, que seguía sin usarse, cuelga el Electric Infliction que la Battle Skill de Arcane convierte. Con eso la lógica cierra, y al repasar queda un objetivo más: usar la Battle Skill de Arclight cuanto más mejor para comer Electrifications y aliviar la presión del bucle. De ese eje de burst deriva el eje de carga (dos Electrifications más hasta llenar el Ultimate de Arcane), hay un eje simple para reengancharse cuando el eje se desordena, y un cold start de cuatro Corrosion cuyo punto clave es cerrar y reabrir la Battle Skill de Liino para que Arclight llegue a abrir su Ultimate.",
+        "en": "The author builds the axis «like building blocks». First goal: Arclight has to eat two Electrifications before the burst, with the Combo from Perlica as the cue to enter the axis and the Ultimate from Liino as the cheap second Electrification. Second goal: Perlica has to hang two Electrifications and the last one must be her Combo's, so her Battle Skill first converts a Nature Infliction into Electrification and then the Combo arrives; for that the boss needs another Infliction on it, the one from Arcane. Since the Hot Work buff on Arcane only lasts 10 seconds, the Corrosion should be renewed, and the Ultimate from Arclight, still unused, hangs the Electric Infliction that the Battle Skill from Arcane converts. That closes the logic, and the final check leaves one more goal: use the Battle Skill from Arclight as much as possible to eat Electrifications and relieve the loop pressure. From that burst axis derives the charge axis (two more Electrifications until the Ultimate from Arcane is full), there is a simple axis to re-enter when the rotation falls apart, and a four-Corrosion cold start whose key point is closing and reopening the Battle Skill from Liino so that Arclight gets to open her Ultimate."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Alta (eje largo; hay versión simple)",
+          "en": "High (long axis; a simple version exists)"
+        },
+        "content": {
+          "es": "Jefe / Single-target",
+          "en": "Boss / Single-target"
+        },
+        "tags": [
+          {
+            "es": "Electrification",
+            "en": "Electrification"
+          },
+          {
+            "es": "Doble Electrification",
+            "en": "Double Electrification"
+          },
+          {
+            "es": "Arclight motor de SP",
+            "en": "Arclight SP engine"
+          },
+          {
+            "es": "Cold start 4 Corrosion",
+            "en": "4-Corrosion cold start"
+          },
+          {
+            "es": "Perlica pega",
+            "en": "Perlica hits"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "El techo de Perlica: con sus dos condiciones cumplidas, dos Electrifications seguidas y la de su Combo sobre una de nivel 1, pega como en la apertura del video, un millón sin crítico.",
+          "en": "The ceiling of Perlica: with her two conditions met, two Electrifications back to back and her Combo's over a level-1 one, she hits like in the video's opening, one million without a crit."
+        },
+        {
+          "es": "La Battle Skill de Arclight está fuera de escala, en palabras del autor: a Especialización 3, 600 % de multiplicador y 40 SP de vuelta; con su Combo y potencial 1 devuelve 70, así que por 30 SP netos el equipo recibe la energía de Ultimate de una skill de 100 SP, más buen daño y Stagger frecuente.",
+          "en": "The Battle Skill from Arclight is off the charts, in the author's words: at Specialization 3, a 600% multiplier and 40 SP back; with her Combo and potential 1 it returns 70, so for 30 net SP the team receives the Ultimate energy of a 100-SP skill, plus good damage and frequent Stagger."
+        },
+        {
+          "es": "Arcane es la más fácil de invertir: todo al máximo y equipo entero de daño, porque el cold start y el bucle solo piden la carga del arma.",
+          "en": "Arcane is the easiest to invest in: everything maxed and full damage gear, because the cold start and the loop only ask for the weapon's charge."
+        },
+        {
+          "es": "Hay un eje simple para reengancharse cuando el eje se desordena, y el eje de carga se deduce del de burst, así que la lógica se repite en vez de multiplicarse.",
+          "en": "There is a simple axis to re-enter when the rotation falls apart, and the charge axis is deduced from the burst one, so the logic repeats instead of multiplying."
+        }
+      ],
+      "cons": [
+        {
+          "es": "La fuerza va atada a los recursos: los cuatro operadores hay que subirlos, y Perlica pide equipo de daño con Ultimate y básico a Especialización 3.",
+          "en": "Strength is tied to resources: all four operators need raising, and Perlica asks for damage gear with Ultimate and basic at Specialization 3."
+        },
+        {
+          "es": "Muchos botones: dos filas por eje, y los Combos de Liino se pulsan cuando salgan sin que el autor los marque siquiera.",
+          "en": "Many buttons: two rows per axis, and the Combos from Liino are pressed whenever they light without the author even marking them."
+        },
+        {
+          "es": "El cold start tiene trampa: a Arclight le falta un pelo de carga para el cuarto stack de Electric Infliction, y hay que cerrar y reabrir la Battle Skill de Liino para completarla.",
+          "en": "The cold start has a trap: Arclight is a hair short of charge for the fourth Electric Infliction stack, and you must close and reopen the Battle Skill from Liino to top it up."
+        },
+        {
+          "es": "El tempo del Combo de Perlica manda en el burst: su Battle Skill tiene que entrar antes de que el Combo se dispare, incluso dejando de pegar básicos para no adelantarlo.",
+          "en": "The tempo of the Combo from Perlica rules the burst: her Battle Skill has to go in before the Combo fires, even stopping basic attacks so as not to trigger it early."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "zap",
+          "title": {
+            "es": "Las dos condiciones de Perlica",
+            "en": "The two conditions of Perlica"
+          },
+          "body": {
+            "es": "El buff más importante de Perlica, dice el autor, es el bonus de ATK más alto del juego contra un objetivo, que casi nadie llena: su keystone Supervisory Duties le da ATK cada vez que aplica Electrification, hasta dos stacks. De ahí la primera condición, dos Electrifications en poco tiempo. La segunda: la Electrification de su Combo equivale, en Arts DMG Taken, a una de nivel 2, y tiene que caer sobre una de nivel 1. En el burst, su Battle Skill convierte el Nature Infliction que dejó Arcane en la primera y su Combo, disparado por un Final Strike, pone la segunda encima.",
+            "en": "The most important buff on Perlica, per the author, is the highest single-target ATK bonus in the game, which almost nobody fills: her keystone Supervisory Duties gives her ATK every time she applies Electrification, up to two stacks. Hence the first condition, two Electrifications in a short window. The second: her Combo's Electrification is worth, in Arts DMG Taken, a level-2 one, and it has to land on a level-1 one. In the burst, her Battle Skill converts the Nature Infliction left by Arcane into the first, and her Combo, fired by a Final Strike, lays the second on top."
+          }
+        },
+        {
+          "icon": "battery",
+          "title": {
+            "es": "Arclight, el motor",
+            "en": "Arclight, the engine"
+          },
+          "body": {
+            "es": "El buff que importa de Arclight es Wildland Trekker, el que los equipos eléctricos de Zhuang Fangyi no tienen y los eléctricos clásicos comen sí o sí: Perlica no lleva mucho bonus de daño, así que disparar ese talento vale lo que un set entero. Conviene tenerlo encendido antes del burst y comer cuantas más Electrifications mejor en el bucle, y de eso se encarga su Battle Skill, que además devuelve SP: 40 a Especialización 3, 70 con Combo y potencial 1, es decir, 30 SP netos por la energía de Ultimate de una skill de 100.",
+            "en": "The buff that matters on Arclight is Wildland Trekker, the one Zhuang Fangyi's Electric teams lack and classic Electric teams must eat: Perlica carries little damage bonus, so firing that talent is worth a whole set. It should be lit before the burst and eat as many Electrifications as possible in the loop, and that is her Battle Skill's job, which also returns SP: 40 at Specialization 3, 70 with Combo and potential 1, that is, 30 net SP for the Ultimate energy of a 100-SP skill."
+          }
+        },
+        {
+          "icon": "flask",
+          "title": {
+            "es": "Los bloques del burst",
+            "en": "The building blocks of the burst"
+          },
+          "body": {
+            "es": "La segunda Electrification barata para Arclight es la que fuerza el Ultimate de Liino. El Ultimate de Arclight, que nadie usaba, cuelga Electric Infliction: la Battle Skill de Arcane lo convierte en Corrosion, renueva el buff de Hot Work (10 segundos) y enciende su Combo, y la segunda Battle Skill detona el Imprisonment y deja el Nature Infliction que Perlica necesita. Un Final Strike dispara el Combo de Perlica y desbloquea el cañón de Arcane: doble Ultimate.",
+            "en": "The cheap second Electrification for Arclight is the one forced by the Ultimate from Liino. The Ultimate from Arclight, which nobody used, hangs Electric Infliction: the Battle Skill from Arcane converts it into Corrosion, renews the Hot Work buff (10 seconds) and lights her Combo, and the second Battle Skill detonates the Imprisonment and leaves the Nature Infliction Perlica needs. A Final Strike fires the Combo from Perlica and unlocks the cannon from Arcane: double Ultimate."
+          }
+        },
+        {
+          "icon": "shuffle",
+          "title": {
+            "es": "El eje de carga sale del de burst",
+            "en": "The charge axis comes out of the burst one"
+          },
+          "body": {
+            "es": "Con la carga de Arclight casi llena, el Combo de Perlica dispara el Combo de Arclight, su Ultimate renueva la Corrosion como en el burst, la Battle Skill, Combo y Battle Skill de Arcane caben dentro del Combo de Perlica y la Battle Skill de Arclight se come la segunda Electrification. Tomando la carga de Arcane como referencia faltan dos Electrifications más: una Battle Skill de Perlica sobre el Nature Infliction que hay en el boss, y otra vuelta de Ultimate de Arclight con una Battle Skill de Arcane menos, porque ya no hace falta Nature Infliction. Entrada al burst: Combo de Perlica listo y SP en dos barras.",
+            "en": "With Arclight's charge almost full, the Combo from Perlica fires the Combo from Arclight, her Ultimate renews the Corrosion as in the burst, the Battle Skill, Combo and Battle Skill from Arcane fit inside the Combo from Perlica and the Battle Skill from Arclight eats the second Electrification. Taking Arcane's charge as the reference, two more Electrifications are missing: a Battle Skill from Perlica over the Nature Infliction sitting on the boss, and another lap of the Ultimate from Arclight with one Battle Skill from Arcane fewer, because Nature Infliction is no longer needed. Entry to the burst: Combo from Perlica ready and SP at two bars."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Eje de burst, fila 1",
+            "en": "Burst axis, row 1"
+          },
+          "action": {
+            "es": "Arclight se come dos Electrifications, los Ultimates de Liino, Arcane y Arclight, y la Corrosion renovada.",
+            "en": "Arclight eats two Electrifications, the Ultimates from Liino, Arcane and Arclight, and the renewed Corrosion."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Combo de Perlica abre el eje (lo dispara un Final Strike del operador controlado): primera Electrification.",
+                "en": "Combo from Perlica opens the axis (a Final Strike from the controlled operator fires it): first Electrification."
+              },
+              "who": "perlica"
+            },
+            {
+              "do": {
+                "es": "Combo, Battle Skill y Combo de Arclight: la Battle Skill se come esa Electrification, la primera de las dos que necesita antes del burst.",
+                "en": "Combo, Battle Skill and Combo from Arclight: the Battle Skill eats that Electrification, the first of the two she needs before the burst."
+              },
+              "who": "arclight"
+            },
+            {
+              "do": {
+                "es": "Ultimate de Liino: la segunda Electrification barata, la que fuerza su Electrifying Extravaganza.",
+                "en": "Ultimate from Liino: the cheap second Electrification, the one her Electrifying Extravaganza forces."
+              },
+              "who": "liino"
+            },
+            {
+              "do": {
+                "es": "Ultimate de Arcane, primer estadio: el Gloompurger Array, que en forma INT fuerza Corrosion.",
+                "en": "Ultimate from Arcane, first stage: the Gloompurger Array, which in INT form forces Corrosion."
+              },
+              "who": "arcane"
+            },
+            {
+              "do": {
+                "es": "Otra vez Combo, Battle Skill y Combo de Arclight: se come la segunda Electrification.",
+                "en": "Combo, Battle Skill and Combo from Arclight again: she eats the second Electrification."
+              },
+              "who": "arclight"
+            },
+            {
+              "do": {
+                "es": "Ultimate de Arclight: cuelga Electric Infliction.",
+                "en": "Ultimate from Arclight: it hangs Electric Infliction."
+              },
+              "who": "arclight"
+            },
+            {
+              "do": {
+                "es": "Battle Skill, Combo y Battle Skill de Arcane: el Nature sobre el Electric Infliction renueva la Corrosion y el buff de Hot Work y enciende su Combo; la segunda Battle Skill detona el Imprisonment y deja Nature Infliction para Perlica.",
+                "en": "Battle Skill, Combo and Battle Skill from Arcane: the Nature over the Electric Infliction renews the Corrosion and the Hot Work buff and lights her Combo; the second Battle Skill detonates the Imprisonment and leaves Nature Infliction for Perlica."
+              },
+              "who": "arcane"
+            }
+          ],
+          "tip": {
+            "es": "Los Combos de Liino no van en el eje: el autor los da por pulsados cada vez que se enciendan.",
+            "en": "The Combos from Liino are not on the axis: the author takes them as pressed every time they light."
+          }
+        },
+        {
+          "phase": {
+            "es": "Eje de burst, fila 2",
+            "en": "Burst axis, row 2"
+          },
+          "action": {
+            "es": "Las dos Electrifications de Perlica, su Ultimate y el cañón de Arcane, y una Electrification más para Arclight.",
+            "en": "The two Electrifications from Perlica, her Ultimate and the cannon from Arcane, and one more Electrification for Arclight."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Battle Skill de Perlica antes de que se dispare su Combo, aunque tengas que dejar de pegar básicos: convierte el Nature Infliction en una Electrification de nivel 1.",
+                "en": "Battle Skill from Perlica before her Combo fires, even if you have to stop basic attacks: it converts the Nature Infliction into a level-1 Electrification."
+              },
+              "who": "perlica"
+            },
+            {
+              "do": {
+                "es": "Combo de Arclight: asegúrate de que se dispara.",
+                "en": "Combo from Arclight: make sure it fires."
+              },
+              "who": "arclight"
+            },
+            {
+              "do": {
+                "es": "Final Strike y Combo de Perlica: su Electrification cubre la de nivel 1 y completa los dos stacks de ATK.",
+                "en": "Final Strike and Combo from Perlica: her Electrification covers the level-1 one and completes the two ATK stacks."
+              },
+              "who": "perlica"
+            },
+            {
+              "do": {
+                "es": "Combo de Arclight.",
+                "en": "Combo from Arclight."
+              },
+              "who": "arclight"
+            },
+            {
+              "do": {
+                "es": "Ultimate de Perlica y segundo estadio del Ultimate de Arcane, el Gloompurge Arcana que desbloquean los Final Strikes: el doble Ultimate del burst.",
+                "en": "Ultimate from Perlica and second stage of the Ultimate from Arcane, the Gloompurge Arcana that the Final Strikes unlock: the double Ultimate of the burst."
+              },
+              "who": "perlica"
+            },
+            {
+              "do": {
+                "es": "No olvides la Battle Skill de Arclight: se come la Electrification y roba carga. Combo de Arclight.",
+                "en": "Do not forget the Battle Skill from Arclight: it eats the Electrification and steals charge. Combo from Arclight."
+              },
+              "who": "arclight"
+            }
+          ],
+          "tip": {
+            "es": "El autor lo verificó contra Rhodagn; el eje de burst está pensado para un jefe.",
+            "en": "The author verified it against Rhodagn; the burst axis is meant for a boss."
+          }
+        },
+        {
+          "phase": {
+            "es": "Eje de carga, fila 1",
+            "en": "Charge axis, row 1"
+          },
+          "action": {
+            "es": "El mini-combo deducido del burst: Combo de Perlica, Ultimate de Arclight para renovar la Corrosion, Arcane dentro del Combo de Perlica.",
+            "en": "The mini-combo deduced from the burst: Combo from Perlica, Ultimate from Arclight to renew the Corrosion, Arcane inside the Combo from Perlica."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Battle Skill de Liino: no la olvides al entrar.",
+                "en": "Battle Skill from Liino: do not forget it on entry."
+              },
+              "who": "liino"
+            },
+            {
+              "do": {
+                "es": "Combo de Perlica, que dispara el Combo de Arclight.",
+                "en": "Combo from Perlica, which fires the Combo from Arclight."
+              },
+              "who": "perlica"
+            },
+            {
+              "do": {
+                "es": "Combo y Ultimate de Arclight: como en el burst, su Ultimate le renueva la Corrosion a Arcane.",
+                "en": "Combo and Ultimate from Arclight: as in the burst, her Ultimate renews the Corrosion for Arcane."
+              },
+              "who": "arclight"
+            },
+            {
+              "do": {
+                "es": "Battle Skill, Combo y Battle Skill de Arcane, que caben dentro del Combo de Perlica.",
+                "en": "Battle Skill, Combo and Battle Skill from Arcane, which fit inside the Combo from Perlica."
+              },
+              "who": "arcane"
+            },
+            {
+              "do": {
+                "es": "Battle Skill de Arclight para comerse la segunda Electrification y cargar, y su Combo.",
+                "en": "Battle Skill from Arclight to eat the second Electrification and charge, and her Combo."
+              },
+              "who": "arclight"
+            }
+          ],
+          "tip": {
+            "es": "Con la carga de Arcane como referencia, tras esta fila faltan dos Electrifications más para llenar su Ultimate.",
+            "en": "With Arcane's charge as the reference, after this row two more Electrifications are missing to fill her Ultimate."
+          }
+        },
+        {
+          "phase": {
+            "es": "Eje de carga, fila 2",
+            "en": "Charge axis, row 2"
+          },
+          "action": {
+            "es": "Dos Electrifications más y el Ultimate de Arcane queda lleno.",
+            "en": "Two more Electrifications and the Ultimate from Arcane is full."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "El boss tiene Nature Infliction: Battle Skill de Perlica para convertirla en una Electrification que comer.",
+                "en": "The boss has Nature Infliction: Battle Skill from Perlica to convert it into an Electrification to eat."
+              },
+              "who": "perlica"
+            },
+            {
+              "do": {
+                "es": "Combo, Battle Skill y Combo de Arclight: da igual si se dispara antes o después de su Ultimate.",
+                "en": "Combo, Battle Skill and Combo from Arclight: it does not matter whether it fires before or after her Ultimate."
+              },
+              "who": "arclight"
+            },
+            {
+              "do": {
+                "es": "Combo de Perlica, Combo de Arclight y, con la carga de Arclight otra vez lista, su Ultimate: la misma renovación de Corrosion.",
+                "en": "Combo from Perlica, Combo from Arclight and, with Arclight's charge ready again, her Ultimate: the same Corrosion renewal."
+              },
+              "who": "perlica"
+            },
+            {
+              "do": {
+                "es": "Battle Skill y Combo de Arcane, con una Battle Skill menos que en el burst: como viene el burst, ya no hace falta Nature Infliction.",
+                "en": "Battle Skill and Combo from Arcane, with one Battle Skill fewer than in the burst: with the burst coming, Nature Infliction is no longer needed."
+              },
+              "who": "arcane"
+            },
+            {
+              "do": {
+                "es": "Battle Skill de Perlica y Combo de Arclight. Ultimate de Arcane cargado: espera el Combo de Perlica y dos barras de SP y entra en el burst.",
+                "en": "Battle Skill from Perlica and Combo from Arclight. Ultimate from Arcane charged: wait for the Combo from Perlica and two bars of SP and enter the burst."
+              },
+              "who": "perlica"
+            }
+          ],
+          "tip": {
+            "es": "Si el eje se desordena, el eje simple de la variante sirve para reengancharse.",
+            "en": "If the axis falls apart, the simple axis in the variant is the way back in."
+          }
+        },
+        {
+          "phase": {
+            "es": "Cold start de cuatro Corrosion, fila 1",
+            "en": "Four-Corrosion cold start, row 1"
+          },
+          "action": {
+            "es": "Dos Battle Skills de Perlica, cuatro Combos a base de Final Strikes y el Combo de Arcane para cargar.",
+            "en": "Two Battle Skills from Perlica, four Combos off Final Strikes and the Combo from Arcane to charge."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Battle Skill de Liino de apertura.",
+                "en": "Opening Battle Skill from Liino."
+              },
+              "who": "liino"
+            },
+            {
+              "do": {
+                "es": "Dos Battle Skills de Perlica seguidas y, con Final Strikes, los cuatro Combos: Arcane (dos capas de Electric Infliction), Perlica, Liino y el Combo, Battle Skill y Combo de Arclight.",
+                "en": "Two Battle Skills from Perlica in a row and, with Final Strikes, the four Combos: Arcane (two Electric Infliction stacks), Perlica, Liino and the Combo, Battle Skill and Combo from Arclight."
+              },
+              "who": "perlica"
+            },
+            {
+              "do": {
+                "es": "Sigue con Final Strikes hasta recuperar una barra de SP y pulsa enseguida la Battle Skill de Arclight: se come la Electrification y dispara su Combo.",
+                "en": "Keep Final Striking until a bar of SP is back and press the Battle Skill from Arclight right away: it eats the Electrification and fires her Combo."
+              },
+              "who": "arclight"
+            },
+            {
+              "do": {
+                "es": "Cuando el Combo de Arcane recargue, otra Battle Skill de Perlica para dispararlo y cargar.",
+                "en": "Once the Combo from Arcane recharges, another Battle Skill from Perlica to fire it and charge."
+              },
+              "who": "perlica"
+            }
+          ],
+          "tip": {
+            "es": "El autor jugó esta demo con armas y equipo por debajo de lo suyo para mostrar el eje entero: no es un eje de 斧柄纪年 ni una guía de escenario.",
+            "en": "The author played this demo with weapons and gear below his own to show the whole axis: it is not a 斧柄纪年 axis nor a stage guide."
+          }
+        },
+        {
+          "phase": {
+            "es": "Cold start de cuatro Corrosion, fila 2",
+            "en": "Four-Corrosion cold start, row 2"
+          },
+          "action": {
+            "es": "Cerrar y reabrir la Battle Skill de Liino, el cuarto stack con el Ultimate de Arclight y la Corrosion de nivel 4.",
+            "en": "Close and reopen the Battle Skill from Liino, the fourth stack with the Ultimate from Arclight and the level-4 Corrosion."
+          },
+          "steps": [
+            {
+              "do": {
+                "es": "Punto clave: cierra la Battle Skill de Liino y vuelve a abrirla, una vez, sin falta. A Arclight le falta un pelo de carga para su Ultimate y ese reinicio se la completa.",
+                "en": "Key point: close the Battle Skill from Liino and open it again, once, without fail. Arclight is a hair short of charge for her Ultimate and that reset tops it up."
+              },
+              "who": "liino"
+            },
+            {
+              "do": {
+                "es": "Combo de Perlica, Combo de Liino y Combo de Arclight: el Ultimate de Arclight se llena.",
+                "en": "Combo from Perlica, Combo from Liino and Combo from Arclight: the Ultimate from Arclight fills."
+              },
+              "who": "perlica"
+            },
+            {
+              "do": {
+                "es": "Ultimate de Arclight: el cuarto stack de Electric Infliction, que dispara el Combo de Arcane.",
+                "en": "Ultimate from Arclight: the fourth Electric Infliction stack, which fires the Combo from Arcane."
+              },
+              "who": "arclight"
+            },
+            {
+              "do": {
+                "es": "Combo y Battle Skill de Arcane: Corrosion de nivel 4.",
+                "en": "Combo and Battle Skill from Arcane: level-4 Corrosion."
+              },
+              "who": "arcane"
+            },
+            {
+              "do": {
+                "es": "Battle Skill de Arclight para comerse la Electrification, justo la segunda vez, y su Combo. Empalma con el burst en caliente esperando el Combo de Perlica.",
+                "en": "Battle Skill from Arclight to eat the Electrification, exactly the second time, and her Combo. It links into the hot burst while waiting for the Combo from Perlica."
+              },
+              "who": "arclight"
+            }
+          ],
+          "tip": {
+            "es": "En la demo el Ultimate de Arcane estaba lleno a los 38 segundos: para un 斧柄纪年 de un minuto se podría abrir ahí y terminar el combate.",
+            "en": "In the demo the Ultimate from Arcane was full at 38 seconds: for a one-minute 斧柄纪年 you could open it there and end the fight."
+          }
+        }
+      ],
+      "rotationVariants": [
+        {
+          "name": {
+            "es": "Eje simple para reengancharse",
+            "en": "Simple axis to re-enter"
+          },
+          "description": {
+            "es": "La forma simple que el autor menciona al principio, para volver a entrar cuando el eje se desordena: Combo de Perlica, Combo de Arclight, Combo de Liino, Battle Skill de Perlica, otra Battle Skill de Perlica o el Ultimate de Arclight, Combo y Battle Skill de Arcane, Battle Skill de Arclight (opcional, y solo si se come una Electrification y trae Combo) y Combo de Arclight.",
+            "en": "The simple way the author mentions at the start, to get back in when the axis falls apart: Combo from Perlica, Combo from Arclight, Combo from Liino, Battle Skill from Perlica, another Battle Skill from Perlica or the Ultimate from Arclight, Combo and Battle Skill from Arcane, Battle Skill from Arclight (optional, and only if it eats an Electrification and brings a Combo) and Combo from Arclight."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Tres Combos",
+                "en": "Three Combos"
+              },
+              "action": {
+                "es": "Combos de Perlica, Arclight y Liino, y Battle Skill de Perlica.",
+                "en": "Combos from Perlica, Arclight and Liino, and Battle Skill from Perlica."
+              }
+            },
+            {
+              "phase": {
+                "es": "Bifurcación",
+                "en": "Fork"
+              },
+              "action": {
+                "es": "Otra Battle Skill de Perlica o el Ultimate de Arclight; luego Combo y Battle Skill de Arcane.",
+                "en": "Another Battle Skill from Perlica or the Ultimate from Arclight; then Combo and Battle Skill from Arcane."
+              }
+            },
+            {
+              "phase": {
+                "es": "Cierre",
+                "en": "Closer"
+              },
+              "action": {
+                "es": "Battle Skill de Arclight solo si come Electrification con Combo; Combo de Arclight.",
+                "en": "Battle Skill from Arclight only if it eats Electrification with a Combo; Combo from Arclight."
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "es": "Liino con Golden Age",
+            "en": "Liino with Golden Age"
+          },
+          "description": {
+            "es": "Si Liino lleva su segunda opción, Golden Age (黄金时代, el arma del pase mensual grande), el burst en caliente cambia de orden: primero el Ultimate de Arcane y después el de Liino, y antes del Ultimate de Arcane hay que tener abierta la Battle Skill de Liino para que la Corrosion dispare su Combo y el daño del burst reciba el buff del arma.",
+            "en": "If Liino carries her second option, Golden Age (黄金时代, the big monthly pass weapon), the hot burst changes order: first the Ultimate from Arcane and then the one from Liino, and before the Ultimate from Arcane the Battle Skill from Liino must be open so the Corrosion fires her Combo and the burst damage receives the weapon buff."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Orden de Ultimates",
+                "en": "Ultimate order"
+              },
+              "action": {
+                "es": "Battle Skill de Liino abierta, Ultimate de Arcane, Combo de Liino por la Corrosion, Ultimate de Liino.",
+                "en": "Battle Skill from Liino open, Ultimate from Arcane, Combo from Liino off the Corrosion, Ultimate from Liino."
+              }
+            }
+          ]
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "perlica",
+          "order": {
+            "es": "Ult y básico a Especialización 3; Battle Skill a nivel 9; Combo puede quedarse sin subir",
+            "en": "Ultimate and basic to Specialization 3; Battle Skill to level 9; Combo can stay unleveled"
+          },
+          "note": {
+            "es": "El foco del video. Aunque no la controles, para exprimir el techo el autor recomienda cambiar a ella para los Finishers, y de ahí el básico al máximo.",
+            "en": "The video's focus. Even if you do not control her, to squeeze the ceiling the author recommends switching to her for the Finishers, hence the maxed basic."
+          },
+          "assumeRanks": {
+            "ultimate": 12,
+            "battle_skill": 9
+          }
+        },
+        {
+          "charId": "arcane",
+          "order": {
+            "es": "Todo al máximo (Especialización 3)",
+            "en": "Everything maxed (Specialization 3)"
+          },
+          "note": {
+            "es": "La ficha ordena Combo, Ultimate y Battle Skill. Si Perlica es la operadora controlada, el básico de Arcane puede quedarse en 9 o sin subir.",
+            "en": "The card orders Combo, Ultimate and Battle Skill. If Perlica is the controlled operator, the basic from Arcane can stay at 9 or unleveled."
+          },
+          "assumeRanks": {
+            "battle_skill": 12,
+            "combo_skill": 12,
+            "ultimate": 12
+          }
+        },
+        {
+          "charId": "liino",
+          "order": {
+            "es": "Ult y Battle Skill a Especialización 3; Combo y básico sin subir",
+            "en": "Ultimate and Battle Skill to Specialization 3; Combo and basic unleveled"
+          },
+          "note": {
+            "es": "La ficha pone el Ultimate primero y la Battle Skill después.",
+            "en": "The card puts the Ultimate first and the Battle Skill second."
+          },
+          "assumeRanks": {
+            "ultimate": 12,
+            "battle_skill": 12
+          }
+        },
+        {
+          "charId": "arclight",
+          "order": {
+            "es": "Battle Skill a Especialización 3; Combo a Especialización 1 y Ult a nivel 9; básico sin subir",
+            "en": "Battle Skill to Specialization 3; Combo to Specialization 1 and Ultimate to level 9; basic unleveled"
+          },
+          "note": {
+            "es": "El autor insiste en la Especialización 3 de la Battle Skill: con Thermite Cutter o con Twelve Questions, su parte del daño en el eje de carga no es baja. Combo y Ultimate, al nivel que maximiza el retorno de SP.",
+            "en": "The author insists on Specialization 3 for the Battle Skill: with Thermite Cutter or Twelve Questions, her share of the damage in the charge axis is not low. Combo and Ultimate at the level that maximizes SP return."
+          },
+          "assumeRanks": {
+            "battle_skill": 12,
+            "combo_skill": 10,
+            "ultimate": 9
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "En la fila 2 del burst, la Battle Skill de Perlica va antes de que su Combo se dispare: el autor llega a dejar de pegar básicos para no adelantar el Combo.",
+          "en": "In row 2 of the burst, the Battle Skill from Perlica goes before her Combo fires: the author goes as far as stopping basic attacks so as not to trigger the Combo early."
+        },
+        {
+          "es": "Comprueba que el Combo de Arclight se dispara después de esa Battle Skill; el autor lo marca con signos de exclamación en su diagrama.",
+          "en": "Check that the Combo from Arclight fires after that Battle Skill; the author marks it with exclamation marks on his chart."
+        },
+        {
+          "es": "Cold start: cerrar y reabrir la Battle Skill de Liino una vez es obligatorio; sin ese reinicio Arclight no llega a abrir su Ultimate y no hay cuarto stack.",
+          "en": "Cold start: closing and reopening the Battle Skill from Liino once is mandatory; without that reset Arclight does not get to open her Ultimate and there is no fourth stack."
+        },
+        {
+          "es": "No olvides la Battle Skill de Liino al entrar en el eje de carga, y pulsa sus Combos siempre que salgan: el autor no los dibuja.",
+          "en": "Do not forget the Battle Skill from Liino when entering the charge axis, and press her Combos whenever they light: the author does not draw them."
+        },
+        {
+          "es": "En el eje simple, la Battle Skill de Arclight solo entra si se come una Electrification y trae Combo; si no, se salta.",
+          "en": "In the simple axis, the Battle Skill from Arclight only goes in if it eats an Electrification and brings a Combo; otherwise skip it."
+        },
+        {
+          "es": "Con Golden Age en Liino, el Ultimate de Arcane va antes que el de Liino y la Battle Skill de Liino tiene que estar abierta antes, o el burst se queda sin el buff del arma.",
+          "en": "With Golden Age on Liino, the Ultimate from Arcane goes before the one from Liino and the Battle Skill from Liino must be open beforehand, or the burst misses the weapon buff."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "Los mismos cuatro jugados en simple (tres apoyos y Arcane INT)",
+            "en": "The same four played simple (three supports and Arcane INT)"
+          },
+          "verdict": {
+            "es": "Es la forma fácil que el propio autor menciona: dos Inflictions convertidas en Corrosion y Arcane como único C. Funciona, pero deja el techo del equipo sin tocar; para eso están Perlica y Arclight.",
+            "en": "It is the easy way the author himself mentions: two Inflictions converted into Corrosion and Arcane as the only C. It works, but it leaves the team's ceiling untouched; that is what Perlica and Arclight are for."
+          }
+        },
+        {
+          "name": {
+            "es": "Las sillas de ruedas de Arcane y Liino del mismo autor",
+            "en": "The Arcane and Liino wheelchairs by the same author"
+          },
+          "verdict": {
+            "es": "Entre todos los equipos con Arcane y Liino como únicas seis estrellas que el autor probó, este es el de techo más alto y más versátil. El precio es la inversión: aquí hay que subir a los cuatro.",
+            "en": "Among all the teams with Arcane and Liino as the only six stars that the author tested, this is the one with the highest ceiling and the most versatility. The price is the investment: here all four need raising."
+          }
+        },
+        {
+          "name": {
+            "es": "管诀赛钓 (Endministrator · Arcane · Xaihi · Alesh)",
+            "en": "管诀赛钓 (Endministrator · Arcane · Xaihi · Alesh)"
+          },
+          "verdict": {
+            "es": "El otro equipo avanzado del autor, en esta app como doble C mixto. En experiencia global, dice, este no le va por detrás; aquel se arma solo con Arcane como limitada, este pide también a Liino.",
+            "en": "The author's other advanced team, in this app as the mixed-damage double C. In overall experience, he says, this one does not trail it; that one builds with Arcane as the only limited, this one also asks for Liino."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "perlica",
+          "role": "Carry",
+          "weaponId": "wpn_funnel_0009",
+          "gearRec": [
+            "pulser_labs_disruptor_suit",
+            "pulser_labs_gloves",
+            "pulser_labs_calibrator",
+            "lynx_slab"
+          ],
+          "weaponNote": {
+            "es": "Oblivion (遗忘) como primera opción de daño y Wild Wanderer (迷失荒野) como segunda: la ficha solo recomienda armas de daño.",
+            "en": "Oblivion (遗忘) as the first damage option and Wild Wanderer (迷失荒野) as the second: the card only recommends damage weapons."
+          },
+          "gearNote": {
+            "es": "Elección normal: 3 Pulser Labs (脉冲式: Disruptor Suit, Gloves, Calibrator) más LYNX Slab, lo genérico. Si la controlas tú, «主控厨子»: 3 MI Security de crítico (Overalls T1, Toolkit, Hands PPE T1) más LYNX Slab, con más daño esperado.",
+            "en": "Regular choice: 3 Pulser Labs (脉冲式: Disruptor Suit, Gloves, Calibrator) plus a LYNX Slab, the generic pick. If you control her, «主控厨子»: 3 crit MI Security pieces (Overalls T1, Toolkit, Hands PPE T1) plus a LYNX Slab, with higher expected damage."
+          },
+          "deepNote": {
+            "es": "La guía existe para aprender a hacer pegar a Perlica con Arcane ya bien alimentada. Sus dos condiciones: dos Electrifications en poco tiempo (los stacks de ATK de Supervisory Duties) y la Electrification de su Combo, disparado por un Final Strike, sobre una de nivel 1. En el burst pone su Ultimate junto al cañón de Arcane y, si la controlas, remata con los Finishers.",
+            "en": "The guide exists to learn how to make Perlica hit with Arcane already well fed. Her two conditions: two Electrifications in a short window (the ATK stacks from Supervisory Duties) and her Combo's Electrification, fired by a Final Strike, over a level-1 one. In the burst she fires her Ultimate next to the cannon from Arcane and, if you control her, finishes with the Finishers."
+          }
+        },
+        {
+          "id": "arcane",
+          "role": "Sub-DPS",
+          "weaponId": "wpn_funnel_0016",
+          "gearRec": [
+            "hot_work_exo_rig",
+            "hot_work_insulation_slab",
+            "lynx_slab",
+            "hot_work_hands_ppe"
+          ],
+          "weaponNote": {
+            "es": "Type 42: Solemn Phalanx (四二式·肃阵), su arma BIS, con Junction Point (联结点) como segunda opción de la ficha.",
+            "en": "Type 42: Solemn Phalanx (四二式·肃阵), her BIS weapon, with Junction Point (联结点) as the card's second option."
+          },
+          "gearNote": {
+            "es": "Equipo entero de daño: Hot Work Exo-Rig, Hot Work Insulation Slab, LYNX Slab y Hot Work Hands PPE. Gracias al eje, el cold start y el bucle se cubren con la carga que trae el arma.",
+            "en": "Full damage gear: Hot Work Exo-Rig, Hot Work Insulation Slab, LYNX Slab and Hot Work Hands PPE. Thanks to the axis, the cold start and the loop are covered by the charge the weapon brings."
+          },
+          "deepNote": {
+            "es": "Forma INT. Su Nature es lo que Perlica convierte, y su Battle Skill sobre el Electric Infliction de Arclight renueva la Corrosion y el buff de Hot Work de 10 segundos. Su Ultimate tiene dos estadios: el Gloompurger Array, que fuerza Corrosion, y el Gloompurge Arcana que desbloquean los Final Strikes, el segundo Ultimate del burst.",
+            "en": "INT form. Her Nature is what Perlica converts, and her Battle Skill over the Electric Infliction from Arclight renews the Corrosion and the 10-second Hot Work buff. Her Ultimate has two stages: the Gloompurger Array, which forces Corrosion, and the Gloompurge Arcana the Final Strikes unlock, the burst's second Ultimate."
+          }
+        },
+        {
+          "id": "liino",
+          "role": "Buffer",
+          "weaponId": "wpn_lance_0014",
+          "gearRec": [
+            "eternal_xiranite_light_armor",
+            "eternal_xiranite_auxiliary_arm",
+            "eternal_xiranite_hands",
+            "lynx_slab"
+          ],
+          "weaponNote": {
+            "es": "Bedazzling Night Debut (曜夜的首演), su arma exclusiva, primero; Golden Age (黄金时代) como segunda opción, con el cambio de orden del burst que explica la variante.",
+            "en": "Bedazzling Night Debut (曜夜的首演), her signature weapon, first; Golden Age (黄金时代) as the second option, with the burst reordering the variant explains."
+          },
+          "gearNote": {
+            "es": "3 Eternal Xiranite (长息: Light Armor, Auxiliary Arm, Hands) más LYNX Slab. Según los cálculos de otros, dice el autor, no hay diferencia con llevar dos slabs.",
+            "en": "3 Eternal Xiranite (长息: Light Armor, Auxiliary Arm, Hands) plus a LYNX Slab. Per other people's math, the author says, there is no difference from running two slabs."
+          },
+          "deepNote": {
+            "es": "Su Ultimate regala la segunda Electrification barata que Arclight se come antes del burst, su Battle Skill abre cada eje y hay que cerrarla y reabrirla en el cold start, y sus Combos se pulsan cuando salgan.",
+            "en": "Her Ultimate gifts the cheap second Electrification Arclight eats before the burst, her Battle Skill opens every axis and must be closed and reopened in the cold start, and her Combos are pressed whenever they light."
+          }
+        },
+        {
+          "id": "arclight",
+          "role": "Enabler",
+          "weaponId": "wpn_sword_0012",
+          "gearRec": [
+            "frontiers_protection_suit",
+            "frontiers_fiber_gloves_t1",
+            "frontiers_extra_o2_tube_t1",
+            "redeemer_seal"
+          ],
+          "weaponNote": {
+            "es": "Thermite Cutter (热熔切割器); si de verdad no lo tienes, Twelve Questions (十二问).",
+            "en": "Thermite Cutter (热熔切割器); if you really do not have it, Twelve Questions (十二问)."
+          },
+          "gearNote": {
+            "es": "Frontiers con el atributo de carga a forja máxima (Protection Suit, Fiber Gloves T1, Extra O2 Tube T1) más Redeemer Seal. Sin eso, el set AIC Fieldwork de transición: Vest, Wraps y dos Ember.",
+            "en": "Frontiers with the charge attribute fully forged (Protection Suit, Fiber Gloves T1, Extra O2 Tube T1) plus a Redeemer Seal. Without it, the AIC Fieldwork transition set: Vest, Wraps and two Embers."
+          },
+          "deepNote": {
+            "es": "El motor del equipo: su Battle Skill se come Electrifications (SP de vuelta y Stagger frecuente) y enciende Wildland Trekker antes del burst; su Combo salta con cada Electrification aplicada o consumida, y su Ultimate cuelga el Electric Infliction que renueva la Corrosion de Arcane y pone el cuarto stack del cold start.",
+            "en": "The team's engine: her Battle Skill eats Electrifications (SP back and frequent Stagger) and lights Wildland Trekker before the burst; her Combo jumps on every Electrification applied or consumed, and her Ultimate hangs the Electric Infliction that renews the Corrosion from Arcane and lays the fourth stack of the cold start."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "La guía parte de una Arcane ya alimentada y se centra en hacer pegar a Perlica, así que para ella solo hay equipo de daño: Oblivion o Wild Wanderer, 3 Pulser Labs con LYNX Slab, y 3 MI Security de crítico si es la operadora controlada. Arcane es la más simple: todo al máximo y equipo entero de daño, porque el eje solo le pide la carga del arma. Liino, su exclusiva con 3 Eternal Xiranite y LYNX Slab. Arclight, Thermite Cutter con Frontiers de carga a forja máxima y Redeemer Seal, o AIC Fieldwork mientras tanto. En skills: Perlica Ultimate y básico a Especialización 3 y Battle Skill 9; Arcane todo; Liino Ultimate y Battle Skill; Arclight Battle Skill a Especialización 3, Combo a Especialización 1 y Ultimate 9.",
+          "en": "The guide starts from an already fed Arcane and focuses on making Perlica hit, so for her there is only damage gear: Oblivion or Wild Wanderer, 3 Pulser Labs with a LYNX Slab, and 3 crit MI Security pieces if she is the controlled operator. Arcane is the simplest: everything maxed and full damage gear, because the axis only asks her for the weapon's charge. Liino, her signature with 3 Eternal Xiranite and a LYNX Slab. Arclight, Thermite Cutter with fully forged charge Frontiers and a Redeemer Seal, or AIC Fieldwork in the meantime. Skills: Perlica Ultimate and basic at Specialization 3 and Battle Skill 9; Arcane everything; Liino Ultimate and Battle Skill; Arclight Battle Skill at Specialization 3, Combo at Specialization 1 and Ultimate 9."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Controlas a Perlica",
+              "en": "You control Perlica"
+            },
+            "swap": {
+              "es": "Los 3 MI Security de crítico (Overalls T1, Toolkit, Hands PPE T1) con LYNX Slab: más daño esperado que los Pulser Labs.",
+              "en": "The 3 crit MI Security pieces (Overalls T1, Toolkit, Hands PPE T1) with a LYNX Slab: higher expected damage than the Pulser Labs."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Sin Thermite Cutter para Arclight",
+              "en": "No Thermite Cutter for Arclight"
+            },
+            "swap": {
+              "es": "Twelve Questions (十二问). Con cualquiera de las dos, la Battle Skill a Especialización 3.",
+              "en": "Twelve Questions (十二问). With either, the Battle Skill at Specialization 3."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Sin Frontiers de carga a forja máxima",
+              "en": "No fully forged charge Frontiers"
+            },
+            "swap": {
+              "es": "El set AIC Fieldwork (集成实训) de transición para Arclight: Vest, Wraps y dos Ember.",
+              "en": "The AIC Fieldwork (集成实训) transition set for Arclight: Vest, Wraps and two Embers."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Liino con Golden Age",
+              "en": "Liino with Golden Age"
+            },
+            "swap": {
+              "es": "Vale como segunda opción, pero el burst cambia de orden: Ultimate de Arcane antes que el de Liino y su Battle Skill abierta antes. Está en la variante.",
+              "en": "It works as the second option, but the burst changes order: Ultimate from Arcane before the one from Liino and her Battle Skill open beforehand. It sits in the variant."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Sin el arma BIS de Arcane",
+              "en": "Without the BIS weapon for Arcane"
+            },
+            "swap": {
+              "es": "Junction Point (联结点), la segunda opción de su ficha.",
+              "en": "Junction Point (联结点), the second option on her card."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
