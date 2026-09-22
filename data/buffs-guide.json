@@ -42,7 +42,13 @@
             "ja": "すべての土台。武器・装備・バフの攻撃力% はまず合算され、その合計にメイン能力とサブ能力が最終乗数として掛かります。",
             "ko": "모든 것의 바탕. 무기·장비·버프의 공격력%는 먼저 합산되고, 주요·보조 능력치가 그 합계에 최종 배율로 작용합니다."
           },
-          "formula": "ATK_efectivo = ((ATK_op + ATK_arma) × (1 + ΣATK%) + ATK_plano) × (1 + 0.005·prim + 0.002·sec)",
+          "formula": {
+            "es": "ATK_efectivo = ((ATK_op + ATK_arma) × (1 + ΣATK%) + ATK_plano) × (1 + 0.005·prim + 0.002·sec)",
+            "en": "effATK = ((opATK + wpnATK) × (1 + ΣATK%) + flatATK) × (1 + 0.005·prim + 0.002·sec)",
+            "zh": "有效攻击力 = ((干员攻击力 + 武器攻击力) × (1 + Σ攻击力%) + 固定攻击力) × (1 + 0.005·主属性 + 0.002·副属性)",
+            "ja": "実効攻撃力 = ((オペレーター攻撃力 + 武器攻撃力) × (1 + Σ攻撃力%) + 固定攻撃力) × (1 + 0.005·主能力 + 0.002·副能力)",
+            "ko": "유효 공격력 = ((오퍼레이터 공격력 + 무기 공격력) × (1 + Σ공격력%) + 고정 공격력) × (1 + 0.005·주능력 + 0.002·부능력)"
+          },
           "example": {
             "es": "Un +20% y un +30% de ATK no dan ×1.56, dan ×1.50 (se suman a +50%). Cada punto de atributo primario = +0.5% ATK; secundario, +0.2%.",
             "en": "A +20% and a +30% ATK aren't ×1.56, they're ×1.50 (they sum to +50%). Each primary attribute point = +0.5% ATK; secondary, +0.2%.",
@@ -156,7 +162,13 @@
             "ja": "基礎会心率 5%、会心ダメージ +50%。ヒットごとではなく期待値（平均）でモデル化します。",
             "ko": "기초 치명타 확률 5%, 치명타 피해 +50%. 타격별이 아니라 기댓값(평균)으로 모델링합니다."
           },
-          "formula": "× (1 + TasaCrit × DañoCrit)",
+          "formula": {
+            "es": "× (1 + TasaCrit × DañoCrit)",
+            "en": "× (1 + CritRate × CritDMG)",
+            "zh": "× (1 + 暴击率 × 暴击伤害)",
+            "ja": "× (1 + 会心率 × 会心ダメージ)",
+            "ko": "× (1 + 치명타 확률 × 치명타 피해)"
+          },
           "example": {
             "es": "Con 60% de tasa y +120% de daño crítico: ×(1 + 0.6·1.2) = ×1.72 en promedio. La tasa se topa en 100%.",
             "en": "With 60% rate and +120% crit damage: ×(1 + 0.6·1.2) = ×1.72 on average. Rate caps at 100%.",
@@ -216,7 +228,13 @@
             "ja": "敵に付くデバフで、属性を問わず受けるすべてのダメージを増やします。独自の枠で共有。",
             "ko": "적에게 걸리는 디버프로 속성 구분 없이 받는 모든 피해를 늘립니다. 자기만의 자리이며 공유됩니다."
           },
-          "formula": "× (1 + Vulnerability)",
+          "formula": {
+            "es": "× (1 + Vulnerability)",
+            "en": "× (1 + Vulnerability)",
+            "zh": "× (1 + 破防)",
+            "ja": "× (1 + クラッシュ)",
+            "ko": "× (1 + 방어 불능)"
+          },
           "example": {
             "es": "La cadena física Chen Qianyu / Pogranichnik / Endministrator vive de apilar Vulnerability, que además alimenta Crush y Breach.",
             "en": "The physical chain Chen Qianyu / Pogranichnik / Endministrator lives on stacking Vulnerability, which also feeds Crush and Breach.",
@@ -342,7 +360,13 @@
             "ja": "一部のスキルは腐食に加えて、その属性の耐性を固定 % 無視します。",
             "ko": "일부 스킬은 부식 위에 해당 속성 저항의 고정 %를 추가로 무시합니다."
           },
-          "formula": "ResMult += Ignore",
+          "formula": {
+            "es": "MultRes += Ignorar",
+            "en": "ResMult += Ignore",
+            "zh": "抗性系数 += 无视抗性",
+            "ja": "耐性係数 += 耐性無視",
+            "ko": "저항 계수 += 저항 무시"
+          },
           "example": {
             "es": "Laevatain ignora resistencia de Heat; Zhuang Fangyi, de Electric. Se suma encima del shred por Corrosión.",
             "en": "Laevatain ignores Heat resistance; Zhuang Fangyi, Electric. It adds on top of the Corrosion shred.",

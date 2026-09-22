@@ -536,7 +536,8 @@
         "amp",
         "amps",
         "amplificación",
-        "amplificacion"
+        "amplificacion",
+        "amped"
       ],
       "label": {
         "es": "Amp / Amplificación",
@@ -558,7 +559,8 @@
       "cat": "mechanic",
       "match": [
         "vulnerability",
-        "vulnerabilidad"
+        "vulnerabilidad",
+        "vulnerable"
       ],
       "label": {
         "es": "Vulnerability",
@@ -603,7 +605,8 @@
       "cat": "mechanic",
       "match": [
         "combustion",
-        "combustión"
+        "combustión",
+        "combusted"
       ],
       "label": {
         "es": "Combustion",
@@ -625,7 +628,8 @@
       "cat": "mechanic",
       "match": [
         "corrosion",
-        "corrosión"
+        "corrosión",
+        "corroded"
       ],
       "label": {
         "es": "Corrosion",
@@ -648,7 +652,8 @@
       "match": [
         "solidification",
         "solidificación",
-        "solidificacion"
+        "solidificacion",
+        "solidified"
       ],
       "label": {
         "es": "Solidification",
@@ -671,7 +676,8 @@
       "match": [
         "electrification",
         "electrificación",
-        "electrificacion"
+        "electrificacion",
+        "electrified"
       ],
       "label": {
         "es": "Electrification",
@@ -693,7 +699,8 @@
       "cat": "mechanic",
       "match": [
         "crush",
-        "triturar"
+        "triturar",
+        "crushed"
       ],
       "label": {
         "es": "Triturar",
@@ -715,7 +722,8 @@
       "cat": "mechanic",
       "match": [
         "breach",
-        "brecha"
+        "brecha",
+        "breached"
       ],
       "label": {
         "es": "Brecha",
@@ -738,7 +746,8 @@
       "match": [
         "shatter",
         "shatters",
-        "shattering"
+        "shattering",
+        "shattered"
       ],
       "label": {
         "es": "Quebrar",
@@ -1134,7 +1143,8 @@
       "match": [
         "knock down",
         "knockdown",
-        "derribar"
+        "derribar",
+        "knocked down"
       ],
       "label": {
         "es": "Derribar",
@@ -1622,7 +1632,8 @@
       "id": "sp_return",
       "cat": "mechanic",
       "match": [
-        "sp return"
+        "sp return",
+        "sp recovery"
       ],
       "label": {
         "es": "SP Return / Devolución de SP",
@@ -1682,6 +1693,995 @@
         "zh": "有几率完全无视一次法术伤害（一切非物理：灼热/寒冷/电磁/自然/以太）。部分干员（如萤石）的防御性特质，对付元素伤害敌人很有用。",
         "ja": "アーツダメージのヒット（非物理すべて：灼熱/寒冷/電磁/自然/エーテル）を完全に無視する確率。一部のオペレーター（フローライトなど）の防御的特性で、属性ダメージの敵に有効です。",
         "ko": "들어오는 아츠 피해 타격(비물리 전부: 열기/냉기/전기/자연/에테르)을 완전히 무시할 확률. 일부 오퍼레이터(예: 플루라이트)의 방어 특성으로 속성 피해 적에게 유용합니다."
+      }
+    },
+    {
+      "id": "heat_burst",
+      "cat": "mechanic",
+      "match": [
+        "heat burst",
+        "ráfaga de calor",
+        "灼热爆发",
+        "灼熱爆発",
+        "열기 폭발"
+      ],
+      "label": {
+        "es": "Ráfaga de calor",
+        "en": "Heat Burst",
+        "zh": "灼热爆发",
+        "ja": "灼熱爆発",
+        "ko": "열기 폭발"
+      },
+      "body": {
+        "es": "La Ráfaga de artes del elemento calor: volver a aplicar calor cuando la Heat Infliction del enemigo ya está saturada (4 stacks) detona un golpe fijo (≈160%, puede critear). No consume la Infliction ni escala con stacks.",
+        "en": "The Arts Burst of the Heat element: re-applying Heat while the enemy's Heat Infliction is already saturated (4 stacks) detonates a fixed hit (~160%, can crit). It does not consume the Infliction and does not scale with stacks.",
+        "zh": "灼热属性的法术爆发：敌人的灼热附着已饱和（4 层）时再次施加灼热，会引爆一次固定伤害（约 160%，可暴击）。不消耗附着，也不随层数成长。",
+        "ja": "灼熱属性のアーツ爆発：敵の灼熱付着が飽和（4 スタック）している状態で灼熱を再付与すると、固定のヒット（約 160%、会心あり）が起きます。付着を消費せず、スタックでスケールもしません。",
+        "ko": "열기 속성의 아츠 폭발: 적의 열기 부착이 이미 포화(4중첩)된 상태에서 열기을 다시 적용하면 고정 타격(약 160%, 치명타 가능)이 터집니다. 부착을 소모하지 않고 중첩에 따라 커지지도 않습니다."
+      }
+    },
+    {
+      "id": "cryo_burst",
+      "cat": "mechanic",
+      "match": [
+        "cryo burst",
+        "ráfaga criogénica",
+        "寒冷爆发",
+        "寒冷爆発",
+        "냉기 폭발"
+      ],
+      "label": {
+        "es": "Ráfaga criogénica",
+        "en": "Cryo Burst",
+        "zh": "寒冷爆发",
+        "ja": "寒冷爆発",
+        "ko": "냉기 폭발"
+      },
+      "body": {
+        "es": "La Ráfaga de artes del elemento criogénico: volver a aplicar criogénico cuando la Cryo Infliction del enemigo ya está saturada (4 stacks) detona un golpe fijo (≈160%, puede critear). No consume la Infliction ni escala con stacks.",
+        "en": "The Arts Burst of the Cryo element: re-applying Cryo while the enemy's Cryo Infliction is already saturated (4 stacks) detonates a fixed hit (~160%, can crit). It does not consume the Infliction and does not scale with stacks.",
+        "zh": "寒冷属性的法术爆发：敌人的寒冷附着已饱和（4 层）时再次施加寒冷，会引爆一次固定伤害（约 160%，可暴击）。不消耗附着，也不随层数成长。",
+        "ja": "寒冷属性のアーツ爆発：敵の寒冷付着が飽和（4 スタック）している状態で寒冷を再付与すると、固定のヒット（約 160%、会心あり）が起きます。付着を消費せず、スタックでスケールもしません。",
+        "ko": "냉기 속성의 아츠 폭발: 적의 냉기 부착이 이미 포화(4중첩)된 상태에서 냉기을 다시 적용하면 고정 타격(약 160%, 치명타 가능)이 터집니다. 부착을 소모하지 않고 중첩에 따라 커지지도 않습니다."
+      }
+    },
+    {
+      "id": "electric_burst",
+      "cat": "mechanic",
+      "match": [
+        "electric burst",
+        "ráfaga eléctrica",
+        "电磁爆发",
+        "電磁爆発",
+        "전기 폭발"
+      ],
+      "label": {
+        "es": "Ráfaga eléctrica",
+        "en": "Electric Burst",
+        "zh": "电磁爆发",
+        "ja": "電磁爆発",
+        "ko": "전기 폭발"
+      },
+      "body": {
+        "es": "La Ráfaga de artes del elemento eléctrico: volver a aplicar eléctrico cuando la Electric Infliction del enemigo ya está saturada (4 stacks) detona un golpe fijo (≈160%, puede critear). No consume la Infliction ni escala con stacks.",
+        "en": "The Arts Burst of the Electric element: re-applying Electric while the enemy's Electric Infliction is already saturated (4 stacks) detonates a fixed hit (~160%, can crit). It does not consume the Infliction and does not scale with stacks.",
+        "zh": "电磁属性的法术爆发：敌人的电磁附着已饱和（4 层）时再次施加电磁，会引爆一次固定伤害（约 160%，可暴击）。不消耗附着，也不随层数成长。",
+        "ja": "電磁属性のアーツ爆発：敵の電磁付着が飽和（4 スタック）している状態で電磁を再付与すると、固定のヒット（約 160%、会心あり）が起きます。付着を消費せず、スタックでスケールもしません。",
+        "ko": "전기 속성의 아츠 폭발: 적의 전기 부착이 이미 포화(4중첩)된 상태에서 전기을 다시 적용하면 고정 타격(약 160%, 치명타 가능)이 터집니다. 부착을 소모하지 않고 중첩에 따라 커지지도 않습니다."
+      }
+    },
+    {
+      "id": "nature_burst",
+      "cat": "mechanic",
+      "match": [
+        "nature burst",
+        "ráfaga de naturaleza",
+        "自然爆发",
+        "自然爆発",
+        "자연 폭발"
+      ],
+      "label": {
+        "es": "Ráfaga de naturaleza",
+        "en": "Nature Burst",
+        "zh": "自然爆发",
+        "ja": "自然爆発",
+        "ko": "자연 폭발"
+      },
+      "body": {
+        "es": "La Ráfaga de artes del elemento naturaleza: volver a aplicar naturaleza cuando la Nature Infliction del enemigo ya está saturada (4 stacks) detona un golpe fijo (≈160%, puede critear). No consume la Infliction ni escala con stacks. Algunos kits la fuerzan directamente (el Disparo potente de Typhoeus) o suben el daño que hace (Formación de disparos).",
+        "en": "The Arts Burst of the Nature element: re-applying Nature while the enemy's Nature Infliction is already saturated (4 stacks) detonates a fixed hit (~160%, can crit). It does not consume the Infliction and does not scale with stacks. Some kits force it directly (Typhoeus's Power Shot) or raise the damage it deals (Barrage Array).",
+        "zh": "自然属性的法术爆发：敌人的自然附着已饱和（4 层）时再次施加自然，会引爆一次固定伤害（约 160%，可暴击）。不消耗附着，也不随层数成长。有些套件会直接强制触发它（提弗洛斯的强化射击）或提高它造成的伤害（箭阵）。",
+        "ja": "自然属性のアーツ爆発：敵の自然付着が飽和（4 スタック）している状態で自然を再付与すると、固定のヒット（約 160%、会心あり）が起きます。付着を消費せず、スタックでスケールもしません。キットによっては直接強制発動したり（ティフォロスの強化射撃）、その被ダメージを上げたり（矢陣）します。",
+        "ko": "자연 속성의 아츠 폭발: 적의 자연 부착이 이미 포화(4중첩)된 상태에서 자연을 다시 적용하면 고정 타격(약 160%, 치명타 가능)이 터집니다. 부착을 소모하지 않고 중첩에 따라 커지지도 않습니다. 일부 키트는 이를 직접 강제하거나(티프로스의 강력한 사격) 받는 피해를 높입니다(화살진)."
+      }
+    },
+    {
+      "id": "nature_susceptibility",
+      "cat": "mechanic",
+      "match": [
+        "nature susceptibility",
+        "susceptibilidad a la naturaleza",
+        "自然脆弱",
+        "자연 취약"
+      ],
+      "label": {
+        "es": "Susceptibilidad a la naturaleza",
+        "en": "Nature Susceptibility",
+        "zh": "自然脆弱",
+        "ja": "自然脆弱",
+        "ko": "자연 취약"
+      },
+      "body": {
+        "es": "Debuff que aumenta el daño de naturaleza que recibe el enemigo.",
+        "en": "Debuff that increases the Nature DMG the enemy takes.",
+        "zh": "增加敌人受到自然伤害的减益。",
+        "ja": "敵の自然被ダメージを増やすデバフ。",
+        "ko": "적이 받는 자연 피해를 늘리는 디버프."
+      }
+    },
+    {
+      "id": "heat_dmg",
+      "cat": "stat",
+      "match": [
+        "heat dmg",
+        "heat damage",
+        "dañ por calor",
+        "灼热伤害",
+        "灼熱ダメージ",
+        "열기 피해"
+      ],
+      "label": {
+        "es": "DAÑ por calor",
+        "en": "Heat DMG",
+        "zh": "灼热伤害",
+        "ja": "灼熱ダメージ",
+        "ko": "열기 피해"
+      },
+      "body": {
+        "es": "Daño de calor: cuenta como daño de Arts. Lo suben Heat Amp, el Heat DMG Bonus de arma y gear y la Heat Susceptibility del enemigo; lo reduce su resistencia al calor.",
+        "en": "Heat damage counts as Arts damage. Heat Amp, Heat DMG Bonus on weapon and gear and the enemy's Heat Susceptibility raise it; the enemy's Heat resistance lowers it.",
+        "zh": "灼热伤害属于法术伤害。灼热增幅、武器和装备的灼热伤害加成以及敌人身上的灼热脆弱会提高它；敌人的灼热抗性会降低它。",
+        "ja": "灼熱ダメージはアーツダメージに含まれます。灼熱増幅、武器・装備の灼熱ダメージUP、敵の灼熱脆弱で増え、敵の灼熱耐性で減ります。",
+        "ko": "열기 피해는 아츠 피해에 속합니다. 열기 증폭, 무기·장비의 열기 피해 보너스, 적의 열기 취약으로 늘어나고 적의 열기 저항으로 줄어듭니다."
+      }
+    },
+    {
+      "id": "cryo_dmg",
+      "cat": "stat",
+      "match": [
+        "cryo dmg",
+        "cryo damage",
+        "dañ criogénico",
+        "寒冷伤害",
+        "寒冷ダメージ",
+        "냉기 피해"
+      ],
+      "label": {
+        "es": "DAÑ criogénico",
+        "en": "Cryo DMG",
+        "zh": "寒冷伤害",
+        "ja": "寒冷ダメージ",
+        "ko": "냉기 피해"
+      },
+      "body": {
+        "es": "Daño criogénico: cuenta como daño de Arts. Lo suben Cryo Amp, el Cryo DMG Bonus de arma y gear y la Cryo Susceptibility del enemigo; lo reduce su resistencia criogénica.",
+        "en": "Cryo damage counts as Arts damage. Cryo Amp, Cryo DMG Bonus on weapon and gear and the enemy's Cryo Susceptibility raise it; the enemy's Cryo resistance lowers it.",
+        "zh": "寒冷伤害属于法术伤害。寒冷增幅、武器和装备的寒冷伤害加成以及敌人身上的寒冷脆弱会提高它；敌人的寒冷抗性会降低它。",
+        "ja": "寒冷ダメージはアーツダメージに含まれます。寒冷増幅、武器・装備の寒冷ダメージUP、敵の寒冷脆弱で増え、敵の寒冷耐性で減ります。",
+        "ko": "냉기 피해는 아츠 피해에 속합니다. 냉기 증폭, 무기·장비의 냉기 피해 보너스, 적의 냉기 취약으로 늘어나고 적의 냉기 저항으로 줄어듭니다."
+      }
+    },
+    {
+      "id": "electric_dmg",
+      "cat": "stat",
+      "match": [
+        "electric dmg",
+        "electric damage",
+        "dañ eléctrico",
+        "电磁伤害",
+        "電磁ダメージ",
+        "전기 피해"
+      ],
+      "label": {
+        "es": "DAÑ eléctrico",
+        "en": "Electric DMG",
+        "zh": "电磁伤害",
+        "ja": "電磁ダメージ",
+        "ko": "전기 피해"
+      },
+      "body": {
+        "es": "Daño eléctrico: cuenta como daño de Arts. Lo suben Electric Amp, el Electric DMG Bonus de arma y gear y la Electric Susceptibility del enemigo; lo reduce su resistencia eléctrica.",
+        "en": "Electric damage counts as Arts damage. Electric Amp, Electric DMG Bonus on weapon and gear and the enemy's Electric Susceptibility raise it; the enemy's Electric resistance lowers it.",
+        "zh": "电磁伤害属于法术伤害。电磁增幅、武器和装备的电磁伤害加成以及敌人身上的电磁脆弱会提高它；敌人的电磁抗性会降低它。",
+        "ja": "電磁ダメージはアーツダメージに含まれます。電磁増幅、武器・装備の電磁ダメージUP、敵の電磁脆弱で増え、敵の電磁耐性で減ります。",
+        "ko": "전기 피해는 아츠 피해에 속합니다. 전기 증폭, 무기·장비의 전기 피해 보너스, 적의 전기 취약으로 늘어나고 적의 전기 저항으로 줄어듭니다."
+      }
+    },
+    {
+      "id": "nature_dmg",
+      "cat": "stat",
+      "match": [
+        "nature dmg",
+        "nature damage",
+        "dañ por naturaleza",
+        "自然伤害",
+        "自然ダメージ",
+        "자연 피해"
+      ],
+      "label": {
+        "es": "DAÑ por naturaleza",
+        "en": "Nature DMG",
+        "zh": "自然伤害",
+        "ja": "自然ダメージ",
+        "ko": "자연 피해"
+      },
+      "body": {
+        "es": "Daño de naturaleza: cuenta como daño de Arts. Lo suben Nature Amp, el Nature DMG Bonus de arma y gear y la Nature Susceptibility del enemigo; lo reduce su resistencia a la naturaleza.",
+        "en": "Nature damage counts as Arts damage. Nature Amp, Nature DMG Bonus on weapon and gear and the enemy's Nature Susceptibility raise it; the enemy's Nature resistance lowers it.",
+        "zh": "自然伤害属于法术伤害。自然增幅、武器和装备的自然伤害加成以及敌人身上的自然脆弱会提高它；敌人的自然抗性会降低它。",
+        "ja": "自然ダメージはアーツダメージに含まれます。自然増幅、武器・装備の自然ダメージUP、敵の自然脆弱で増え、敵の自然耐性で減ります。",
+        "ko": "자연 피해는 아츠 피해에 속합니다. 자연 증폭, 무기·장비의 자연 피해 보너스, 적의 자연 취약으로 늘어나고 적의 자연 저항으로 줄어듭니다."
+      }
+    },
+    {
+      "id": "physical_dmg",
+      "cat": "stat",
+      "match": [
+        "physical dmg",
+        "physical damage",
+        "dañ físico",
+        "物理伤害",
+        "物理ダメージ",
+        "물리 피해"
+      ],
+      "label": {
+        "es": "DAÑ físico",
+        "en": "Physical DMG",
+        "zh": "物理伤害",
+        "ja": "物理ダメージ",
+        "ko": "물리 피해"
+      },
+      "body": {
+        "es": "El daño que no es de Arts. Lo suben el Physical DMG Bonus de arma y gear y la Physical Susceptibility del enemigo; lo reduce su resistencia física. Los golpes físicos construyen los estados de la línea física (Crush, Breach, Shatter, Lift).",
+        "en": "The non-Arts damage type. Physical DMG Bonus on weapon and gear and the enemy's Physical Susceptibility raise it; the enemy's Physical resistance lowers it. Physical hits build the states of the physical line (Crush, Breach, Shatter, Lift).",
+        "zh": "非法术的伤害类型。武器和装备的物理伤害加成以及敌人身上的物理脆弱会提高它；敌人的物理抗性会降低它。物理攻击会积累物理线的状态（猛击、碎甲、碎冰、击飞）。",
+        "ja": "アーツではないダメージ種別。武器・装備の物理ダメージUP、敵の物理脆弱で増え、敵の物理耐性で減ります。物理攻撃は物理系の状態（猛撃、破砕、粉砕、浮遊）を積み上げます。",
+        "ko": "아츠가 아닌 피해 종류. 무기·장비의 물리 피해 보너스와 적의 물리 취약으로 늘어나고 적의 물리 저항으로 줄어듭니다. 물리 타격은 물리 계열 상태(강타, 갑옷 파괴, 쇄빙, 띄우기)를 쌓습니다."
+      }
+    },
+    {
+      "id": "arts_dmg",
+      "cat": "stat",
+      "match": [
+        "arts dmg",
+        "arts damage",
+        "dañ por artes",
+        "法术伤害",
+        "アーツダメージ",
+        "아츠 피해"
+      ],
+      "label": {
+        "es": "DAÑ por artes",
+        "en": "Arts DMG",
+        "zh": "法术伤害",
+        "ja": "アーツダメージ",
+        "ko": "아츠 피해"
+      },
+      "body": {
+        "es": "Cualquier daño no físico (calor, criogénico, eléctrico, naturaleza, éter). Arts Amp y Arts Susceptibility lo suben todo a la vez; la Intensidad de artes solo afecta a las reacciones, no al daño de Arts directo.",
+        "en": "Any non-physical damage (Heat, Cryo, Electric, Nature, Aether). Arts Amp and Arts Susceptibility raise all of it at once; Arts Intensity only affects reactions, not direct Arts DMG.",
+        "zh": "所有非物理伤害（灼热、寒冷、电磁、自然、以太）。法术增幅和法术脆弱会一并提高全部法术伤害；源石技艺强度只影响反应，不影响直接的法术伤害。",
+        "ja": "物理以外のすべてのダメージ（灼熱、寒冷、電磁、自然、エーテル）。アーツ増幅とアーツ脆弱はそのすべてをまとめて増やします。アーツ強度は反応にだけ効き、直接のアーツダメージには影響しません。",
+        "ko": "물리가 아닌 모든 피해(열기, 냉기, 전기, 자연, 에테르). 아츠 증폭과 아츠 취약은 이 전부를 한꺼번에 올립니다. 아츠 강도는 반응에만 영향을 주고 직접 아츠 피해에는 영향을 주지 않습니다."
+      }
+    },
+    {
+      "id": "imprisonment",
+      "cat": "mechanic",
+      "match": [
+        "imprisonment",
+        "imprisoned",
+        "aprisionamiento",
+        "囹圄",
+        "牢獄",
+        "구속"
+      ],
+      "label": {
+        "es": "Aprisionamiento",
+        "en": "Imprisonment",
+        "zh": "囹圄",
+        "ja": "牢獄",
+        "ko": "구속"
+      },
+      "body": {
+        "es": "Debuff que ralentiza todas las acciones del enemigo. El combo de Arcane (Postura de Yinglung IV) lo aplica junto con Susceptibilidad a la naturaleza y criogénica; golpear a un enemigo aprisionado con su battle skill devuelve SP, termina el Aprisionamiento antes y detona daño extra (Arcano de matriz: INT).",
+        "en": "A debuff that slows all of the enemy's actions. Arcane's combo (Yinglung Stance IV) applies it together with Nature and Cryo Susceptibility; hitting an imprisoned enemy with her battle skill returns SP, ends the Imprisonment early and detonates extra damage (Array Arcana: INT).",
+        "zh": "让敌人所有动作变慢的减益。诀的连携技（应龙四式）会在施加自然脆弱与寒冷脆弱的同时施加它；用战技命中处于囹圄的敌人会返还 SP、提前结束囹圄并引爆额外伤害（阵诀·智）。",
+        "ja": "敵のあらゆる行動を遅くするデバフ。オクギの連携技（応龍四式）が自然脆弱・寒冷脆弱と一緒に付与します。牢獄状態の敵を戦技で攻撃すると SP が返還され、牢獄が早く終わって追加ダメージが発生します（陣訣・知）。",
+        "ko": "적의 모든 행동을 느리게 하는 디버프. 결의 연계 스킬(응룡 4식)이 자연 취약·냉기 취약과 함께 부여합니다. 구속 상태의 적을 배틀 스킬로 맞히면 SP가 반환되고 구속이 일찍 끝나며 추가 피해가 터집니다(진결 · 지혜)."
+      }
+    },
+    {
+      "id": "additional_atk",
+      "cat": "mechanic",
+      "match": [
+        "additional atk",
+        "additional attack",
+        "atq adicional",
+        "追加攻击",
+        "追加攻撃",
+        "추가 공격"
+      ],
+      "label": {
+        "es": "ATQ adicional",
+        "en": "Additional ATK",
+        "zh": "追加攻击",
+        "ja": "追加攻撃",
+        "ko": "추가 공격"
+      },
+      "body": {
+        "es": "Golpe extra que el operador realiza por su cuenta, aparte de la cadena de ataque básico y de las skills, con su propio multiplicador y Stagger. Liino lo dispara periódicamente a los enemigos cercanos durante su Postura de vocalista; los keystones pueden subir su multiplicador.",
+        "en": "An extra hit the operator performs on its own, apart from the basic-attack chain and the skills, with its own multiplier and Stagger. Liino fires one periodically at nearby enemies during her Vocalist Stance; keystones can raise its multiplier.",
+        "zh": "干员在普攻连段和技能之外自行进行的额外一击，有自己的倍率和失衡值。梨诺在演唱姿态中会定期对附近敌人发动；潜能可以提高其倍率。",
+        "ja": "通常攻撃の連段やスキルとは別にオペレーターが自動で行う追加の一撃で、固有の倍率とブレイク値を持ちます。リーノはライブモード中に近くの敵へ定期的に放ちます。潜在能力で倍率が上がることがあります。",
+        "ko": "일반 공격 연계와 스킬과는 별개로 오퍼레이터가 스스로 수행하는 추가 타격으로, 고유한 배율과 불균형치를 가집니다. 리노는 라이브 모드 중 주변 적에게 주기적으로 발사합니다. 잠재 능력으로 배율을 올릴 수 있습니다."
+      }
+    },
+    {
+      "id": "atk_boost",
+      "cat": "mechanic",
+      "match": [
+        "atk boost",
+        "refuerzo de atq",
+        "攻击力提升",
+        "攻撃力up",
+        "공격력 증가"
+      ],
+      "label": {
+        "es": "Refuerzo de ATQ",
+        "en": "ATK Boost",
+        "zh": "攻击力提升",
+        "ja": "攻撃力UP",
+        "ko": "공격력 증가"
+      },
+      "body": {
+        "es": "Buff que sube el ATK. Como palabra clave de un kit suele ser un buff de ATK a todo el equipo mientras dura una postura o skill (las posturas de vocalista y cosmovoz de Liino); los keystones pueden aumentar su valor.",
+        "en": "A buff that raises ATK. As a kit keyword it usually means a team-wide ATK buff granted while a stance or skill is active (Liino's Vocalist and Cosmovoice Stances); keystones can increase its value.",
+        "zh": "提高攻击力的增益。作为套件关键词时，通常指姿态或技能持续期间给全队的攻击力增益（梨诺的演唱姿态和高歌姿态）；潜能可以提高其数值。",
+        "ja": "攻撃力を上げるバフ。キットのキーワードとしては、モードやスキルの継続中にチーム全体へ与える攻撃力バフを指すのが普通です（リーノのライブモードとパフォーマンスモード）。潜在能力で数値が上がることがあります。",
+        "ko": "공격력을 올리는 버프. 키트의 키워드로 쓰일 때는 보통 모드나 스킬이 지속되는 동안 팀 전체에 주는 공격력 버프를 뜻합니다(리노의 라이브 모드와 보컬 모드). 잠재 능력으로 수치를 올릴 수 있습니다."
+      }
+    },
+    {
+      "id": "hp_treatment",
+      "cat": "mechanic",
+      "match": [
+        "hp treatment",
+        "treatment",
+        "healing",
+        "tratamiento de pv",
+        "治疗",
+        "治療",
+        "치유"
+      ],
+      "label": {
+        "es": "Tratamiento de PV",
+        "en": "HP Treatment",
+        "zh": "治疗",
+        "ja": "治療",
+        "ko": "치유"
+      },
+      "body": {
+        "es": "Curación: recupera PV del operador o del equipo. Las skills que la dan (combos de Ember y Snowshine, battle skill de Xaihi, posturas de Liino) escalan con un atributo y con la Eficiencia del tratamiento; la Bonificación de tratamiento recibido del objetivo la sube más.",
+        "en": "Healing: restores HP to the operator or the team. The skills that grant it (Ember's and Snowshine's combos, Xaihi's battle skill, Liino's stances) scale with an attribute and with Treatment Efficiency; the target's Treatment Received Bonus raises it further.",
+        "zh": "为干员或全队恢复生命值。提供治疗的技能（余烬和昼雪的连携技、赛希的战技、梨诺的姿态）随某项属性和治疗效率成长；目标的受治疗效率加成会进一步提高它。",
+        "ja": "オペレーターやチームの HP を回復します。回復を与えるスキル（エンバーとスノーシャインの連携技、ザイヒの戦技、リーノのモード）は能力値と回復効率でスケールし、対象の「受ける回復効率UP」でさらに増えます。",
+        "ko": "오퍼레이터나 팀의 HP를 회복합니다. 치유를 주는 스킬(엠버·스노우샤인의 연계 스킬, 자이히의 배틀 스킬, 리노의 모드)은 능력치와 치유 효율에 비례하며, 대상의 받는 치유 효율 보너스가 이를 더 높입니다."
+      }
+    },
+    {
+      "id": "treatment_efficiency",
+      "cat": "stat",
+      "match": [
+        "treatment efficiency",
+        "eficiencia del tratamiento",
+        "治疗效率",
+        "回復効率",
+        "치유 효율"
+      ],
+      "label": {
+        "es": "Eficiencia del tratamiento",
+        "en": "Treatment Efficiency",
+        "zh": "治疗效率",
+        "ja": "回復効率",
+        "ko": "치유 효율"
+      },
+      "body": {
+        "es": "Stat que multiplica la curación que haces. Aparece como stat extra de piezas de gear y en keystones (Xaihi, Liino); solo importa en kits con Tratamiento de PV.",
+        "en": "A stat that multiplies the healing you give. It appears as a gear bonus stat and in keystones (Xaihi, Liino) and only matters for kits with HP Treatment.",
+        "zh": "提高你所给予治疗量的属性。出现在装备附加属性和潜能中（赛希、梨诺），只对带治疗的套件有意义。",
+        "ja": "自分が与える回復量を増やすステータス。装備のボーナスステータスや潜在能力（ザイヒ、リーノ）にあり、回復を持つキットでのみ意味があります。",
+        "ko": "내가 주는 치유량을 배가하는 스탯. 장비의 보너스 스탯과 잠재 능력(자이히, 리노)에 있으며 치유가 있는 키트에서만 의미가 있습니다."
+      }
+    },
+    {
+      "id": "treatment_received",
+      "cat": "mechanic",
+      "match": [
+        "treatment received bonus",
+        "treatment received",
+        "bonificación de tratamiento recibido",
+        "受治疗效率加成",
+        "受ける回復効率up",
+        "받는 치유 효율 보너스"
+      ],
+      "label": {
+        "es": "Bonificación de tratamiento recibido",
+        "en": "Treatment Received Bonus",
+        "zh": "受治疗效率加成",
+        "ja": "受ける回復効率UP",
+        "ko": "받는 치유 효율 보너스"
+      },
+      "body": {
+        "es": "Buff sobre quien recibe la curación que aumenta lo que le cura, además de la Eficiencia del tratamiento del sanador (Liino da +10% a los operadores dentro de su postura).",
+        "en": "A buff on the receiver that raises the healing they get, on top of the healer's Treatment Efficiency (Liino gives +10% to the operators inside her stance).",
+        "zh": "作用在被治疗者身上、提高其所受治疗量的增益，与治疗者的治疗效率叠加（梨诺给姿态范围内的干员 +10%）。",
+        "ja": "回復を受ける側にかかり、受ける回復量を増やすバフ。回復側の回復効率とは別枠です（リーノはモード範囲内のオペレーターに +10%）。",
+        "ko": "치유를 받는 쪽에 걸려 받는 치유량을 늘리는 버프로, 치유자의 치유 효율과 별개입니다(리노는 모드 범위 안의 오퍼레이터에게 +10%)."
+      }
+    },
+    {
+      "id": "dmg_taken",
+      "cat": "mechanic",
+      "match": [
+        "dmg taken",
+        "damage taken",
+        "daño recibido",
+        "受到伤害",
+        "被ダメージ",
+        "받는 피해"
+      ],
+      "label": {
+        "es": "Daño recibido",
+        "en": "DMG Taken",
+        "zh": "受到伤害",
+        "ja": "被ダメージ",
+        "ko": "받는 피해"
+      },
+      "body": {
+        "es": "Modificador del daño que recibe un objetivo. Sobre un enemigo es un debuff («Physical DMG Taken +20%», Vulnerability, Susceptibility); sobre aliados es reducción de daño (Liino: DMG Taken −10%). Se multiplica con tu propia Amp.",
+        "en": "A modifier on the damage a target takes. On an enemy it is a debuff ('Physical DMG Taken +20%', Vulnerability, Susceptibility); on allies it is damage reduction (Liino: DMG Taken −10%). It multiplies with your own Amp.",
+        "zh": "目标所受伤害的修正。对敌人是减益（“物理受到伤害 +20%”、破防、脆弱）；对己方是减伤（梨诺：受到伤害 −10%）。与自身的增幅相乘。",
+        "ja": "対象が受けるダメージの補正。敵にかかればデバフ（「物理被ダメージ +20%」、クラッシュ、脆弱）、味方にかかればダメージ軽減（リーノ：被ダメージ −10%）。自分の増幅とは乗算です。",
+        "ko": "대상이 받는 피해의 보정. 적에게 걸리면 디버프('물리 받는 피해 +20%', 방어 불능, 취약), 아군에게 걸리면 피해 감소(리노: 받는 피해 −10%). 자신의 증폭과 곱연산입니다."
+      }
+    },
+    {
+      "id": "kit_arcane_array_arcana_int",
+      "cat": "kit",
+      "op": "arcane",
+      "src": "talent:0",
+      "match": [
+        "array arcana: int",
+        "array arcana: ints",
+        "array arcana: int(s)",
+        "arcano de matriz: int",
+        "阵诀·智",
+        "陣訣・知",
+        "진결 · 지혜"
+      ],
+      "label": {
+        "en": "Array Arcana: INT",
+        "es": "Arcano de matriz: INT",
+        "zh": "阵诀·智",
+        "ja": "陣訣・知",
+        "ko": "진결 · 지혜"
+      }
+    },
+    {
+      "id": "kit_arcane_array_arcana_will",
+      "cat": "kit",
+      "op": "arcane",
+      "src": "talent:0",
+      "match": [
+        "array arcana: will",
+        "array arcana: wills",
+        "array arcana: will(s)",
+        "arcano de matriz: vol",
+        "阵诀·意",
+        "陣訣・意",
+        "진결 · 의지"
+      ],
+      "label": {
+        "en": "Array Arcana: WILL",
+        "es": "Arcano de matriz: VOL",
+        "zh": "阵诀·意",
+        "ja": "陣訣・意",
+        "ko": "진결 · 의지"
+      }
+    },
+    {
+      "id": "kit_arcane_cluster_strike",
+      "cat": "kit",
+      "op": "arcane",
+      "src": "skill:ultimate",
+      "match": [
+        "cluster strike",
+        "cluster strikes",
+        "cluster strike(s)",
+        "ataque de racimo",
+        "集束打击",
+        "集中攻撃",
+        "집중 공격"
+      ],
+      "label": {
+        "en": "Cluster Strike",
+        "es": "Ataque de racimo",
+        "zh": "集束打击",
+        "ja": "集中攻撃",
+        "ko": "집중 공격"
+      }
+    },
+    {
+      "id": "kit_arcane_gloompurge_arcana",
+      "cat": "kit",
+      "op": "arcane",
+      "src": "skill:ultimate",
+      "match": [
+        "gloompurge arcana",
+        "gloompurge arcanas",
+        "gloompurge arcana(s)",
+        "arcano de purgasombras",
+        "破晦诀明",
+        "破晦訣明",
+        "어스름 파훼의 깨달음"
+      ],
+      "label": {
+        "en": "Gloompurge Arcana",
+        "es": "Arcano de purgasombras",
+        "zh": "破晦诀明",
+        "ja": "破晦訣明",
+        "ko": "어스름 파훼의 깨달음"
+      }
+    },
+    {
+      "id": "kit_arcane_gloompurger_array",
+      "cat": "kit",
+      "op": "arcane",
+      "src": "skill:ultimate",
+      "match": [
+        "gloompurger array",
+        "gloompurger arrays",
+        "gloompurger array(s)",
+        "matriz de purgasombras",
+        "破晦阵",
+        "破晦陣",
+        "어스름 파훼의 진"
+      ],
+      "label": {
+        "en": "Gloompurger Array",
+        "es": "Matriz de purgasombras",
+        "zh": "破晦阵",
+        "ja": "破晦陣",
+        "ko": "어스름 파훼의 진"
+      }
+    },
+    {
+      "id": "kit_camille_firefang_vesperwings",
+      "cat": "kit",
+      "op": "camille",
+      "src": "skill:battle_skill",
+      "match": [
+        "firefang vesperwings",
+        "firefang vesperwingss",
+        "firefang vesperwings(s)",
+        "vesperalas de colmillo ígneo",
+        "衔火血翼",
+        "燃える血の翼",
+        "타오르는 핏빛 날개"
+      ],
+      "label": {
+        "en": "Firefang Vesperwings",
+        "es": "Vesperalas de colmillo ígneo",
+        "zh": "衔火血翼",
+        "ja": "燃える血の翼",
+        "ko": "타오르는 핏빛 날개"
+      }
+    },
+    {
+      "id": "kit_camille_hunter_pursuit",
+      "cat": "kit",
+      "op": "camille",
+      "src": "skill:ultimate",
+      "match": [
+        "hunter pursuit",
+        "hunter pursuits",
+        "hunter pursuit(s)",
+        "persecución del cazador",
+        "追猎",
+        "追及",
+        "추적"
+      ],
+      "label": {
+        "en": "Hunter Pursuit",
+        "es": "Persecución del cazador",
+        "zh": "追猎",
+        "ja": "追及",
+        "ko": "추적"
+      }
+    },
+    {
+      "id": "kit_endministrator_bombardment_sequence",
+      "cat": "kit",
+      "op": "endministrator",
+      "src": "skill:ultimate",
+      "match": [
+        "bombardment sequence",
+        "bombardment sequences",
+        "bombardment sequence(s)",
+        "secuencia de bombardeo",
+        "轰击序列",
+        "攻撃配列",
+        "폭격 시퀀스"
+      ],
+      "label": {
+        "en": "Bombardment Sequence",
+        "es": "Secuencia de bombardeo",
+        "zh": "轰击序列",
+        "ja": "攻撃配列",
+        "ko": "폭격 시퀀스"
+      }
+    },
+    {
+      "id": "kit_liino_cosmovoice_stance",
+      "cat": "kit",
+      "op": "liino",
+      "src": "skill:ultimate",
+      "match": [
+        "cosmovoice stance",
+        "cosmovoice stances",
+        "cosmovoice stance(s)",
+        "postura de cosmovoz",
+        "高歌姿态",
+        "パフォーマンスモード",
+        "보컬 모드"
+      ],
+      "label": {
+        "en": "Cosmovoice Stance",
+        "es": "Postura de cosmovoz",
+        "zh": "高歌姿态",
+        "ja": "パフォーマンスモード",
+        "ko": "보컬 모드"
+      }
+    },
+    {
+      "id": "kit_liino_electrifying_extravaganza",
+      "cat": "kit",
+      "op": "liino",
+      "src": "skill:ultimate",
+      "match": [
+        "electrifying extravaganza",
+        "electrifying extravaganzas",
+        "electrifying extravaganza(s)",
+        "extravaganza electrizante",
+        "华彩爆点",
+        "クライマックス最高潮",
+        "클라이맥스"
+      ],
+      "label": {
+        "en": "Electrifying Extravaganza",
+        "es": "Extravaganza electrizante",
+        "zh": "华彩爆点",
+        "ja": "クライマックス最高潮",
+        "ko": "클라이맥스"
+      }
+    },
+    {
+      "id": "kit_liino_end_stance",
+      "cat": "kit",
+      "op": "liino",
+      "src": "skill:battle_skill",
+      "match": [
+        "end stance",
+        "end stances",
+        "end stance(s)"
+      ],
+      "label": {
+        "en": "End Stance",
+        "es": "End Stance",
+        "zh": "End Stance",
+        "ja": "End Stance",
+        "ko": "End Stance"
+      }
+    },
+    {
+      "id": "kit_liino_stage_pyrotechnics",
+      "cat": "kit",
+      "op": "liino",
+      "src": "skill:ultimate",
+      "match": [
+        "stage pyrotechnics",
+        "stage pyrotechnicss",
+        "stage pyrotechnics(s)",
+        "pirotecnia escénica",
+        "舞台焰火",
+        "ステージ花火",
+        "무대 위 특수 효과"
+      ],
+      "label": {
+        "en": "Stage Pyrotechnics",
+        "es": "Pirotecnia escénica",
+        "zh": "舞台焰火",
+        "ja": "ステージ花火",
+        "ko": "무대 위 특수 효과"
+      }
+    },
+    {
+      "id": "kit_liino_vocalist_stance",
+      "cat": "kit",
+      "op": "liino",
+      "src": "skill:battle_skill",
+      "match": [
+        "vocalist stance",
+        "vocalist stances",
+        "vocalist stance(s)",
+        "postura de vocalista",
+        "演唱姿态",
+        "ライブモード",
+        "라이브 모드"
+      ],
+      "label": {
+        "en": "Vocalist Stance",
+        "es": "Postura de vocalista",
+        "zh": "演唱姿态",
+        "ja": "ライブモード",
+        "ko": "라이브 모드"
+      }
+    },
+    {
+      "id": "kit_typhoeus_barrage_array",
+      "cat": "kit",
+      "op": "typhoeus",
+      "src": "skill:combo_skill",
+      "match": [
+        "barrage array",
+        "barrage arrays",
+        "barrage array(s)",
+        "formación de disparos",
+        "箭阵",
+        "矢陣",
+        "화살진"
+      ],
+      "label": {
+        "en": "Barrage Array",
+        "es": "Formación de disparos",
+        "zh": "箭阵",
+        "ja": "矢陣",
+        "ko": "화살진"
+      }
+    },
+    {
+      "id": "kit_typhoeus_call_of_ice_mountain",
+      "cat": "kit",
+      "op": "typhoeus",
+      "src": "skill:ultimate",
+      "match": [
+        "call of ice mountain",
+        "call of ice mountains",
+        "call of ice mountain(s)",
+        "llamado de la montaña de hielo",
+        "冰山呼告",
+        "氷山の呼び声",
+        "설산의 포효"
+      ],
+      "label": {
+        "en": "Call of Ice Mountain",
+        "es": "Llamado de la montaña de hielo",
+        "zh": "冰山呼告",
+        "ja": "氷山の呼び声",
+        "ko": "설산의 포효"
+      }
+    },
+    {
+      "id": "kit_typhoeus_hail_of_arrows",
+      "cat": "kit",
+      "op": "typhoeus",
+      "src": "skill:ultimate",
+      "match": [
+        "hail of arrows",
+        "hail of arrowss",
+        "hail of arrows(s)",
+        "lluvia de flechas",
+        "箭雨",
+        "矢の雨",
+        "화살비"
+      ],
+      "label": {
+        "en": "Hail of Arrows",
+        "es": "Lluvia de flechas",
+        "zh": "箭雨",
+        "ja": "矢の雨",
+        "ko": "화살비"
+      }
+    },
+    {
+      "id": "kit_typhoeus_hovering",
+      "cat": "kit",
+      "op": "typhoeus",
+      "src": "skill:battle_skill",
+      "match": [
+        "hovering",
+        "hoverings",
+        "hovering(s)",
+        "flotante",
+        "浮空",
+        "浮遊",
+        "공중에 뜸"
+      ],
+      "label": {
+        "en": "Hovering",
+        "es": "Flotante",
+        "zh": "浮空",
+        "ja": "浮遊",
+        "ko": "공중에 뜸"
+      }
+    },
+    {
+      "id": "kit_typhoeus_hunting_arrow",
+      "cat": "kit",
+      "op": "typhoeus",
+      "src": "skill:battle_skill",
+      "match": [
+        "hunting arrow(s)",
+        "hunting arrow",
+        "hunting arrows",
+        "hunting arrowss",
+        "hunting arrows(s)",
+        "flecha de caza",
+        "猎矢",
+        "猟矢",
+        "사냥 화살"
+      ],
+      "label": {
+        "en": "Hunting Arrow",
+        "es": "Flecha de caza",
+        "zh": "猎矢",
+        "ja": "猟矢",
+        "ko": "사냥 화살"
+      }
+    },
+    {
+      "id": "kit_typhoeus_huntress_s_focus",
+      "cat": "kit",
+      "op": "typhoeus",
+      "src": "talent:1",
+      "match": [
+        "huntress's focus",
+        "huntress's focuss",
+        "huntress's focus(s)",
+        "enfoque de cazadora",
+        "猎手的专注",
+        "狩人の集中力",
+        "사냥꾼의 집중"
+      ],
+      "label": {
+        "en": "Huntress's Focus",
+        "es": "Enfoque de cazadora",
+        "zh": "猎手的专注",
+        "ja": "狩人の集中力",
+        "ko": "사냥꾼의 집중"
+      }
+    },
+    {
+      "id": "kit_typhoeus_power_shot",
+      "cat": "kit",
+      "op": "typhoeus",
+      "src": "skill:battle_skill",
+      "match": [
+        "power shot",
+        "power shots",
+        "power shot(s)",
+        "disparo potente",
+        "强化射击",
+        "強化射撃",
+        "강력한 사격"
+      ],
+      "label": {
+        "en": "Power Shot",
+        "es": "Disparo potente",
+        "zh": "强化射击",
+        "ja": "強化射撃",
+        "ko": "강력한 사격"
+      }
+    },
+    {
+      "id": "kit_typhoeus_protective_barrier",
+      "cat": "kit",
+      "op": "typhoeus",
+      "src": "talent:1",
+      "match": [
+        "protective barrier",
+        "protective barriers",
+        "protective barrier(s)",
+        "barrera protectora",
+        "防御护罩",
+        "防御シールド",
+        "방어 보호막"
+      ],
+      "label": {
+        "en": "Protective Barrier",
+        "es": "Barrera protectora",
+        "zh": "防御护罩",
+        "ja": "防御シールド",
+        "ko": "방어 보호막"
+      }
+    },
+    {
+      "id": "kit_typhoeus_rampant_thorns",
+      "cat": "kit",
+      "op": "typhoeus",
+      "src": "skill:combo_skill",
+      "match": [
+        "rampant thorns",
+        "rampant thornss",
+        "rampant thorns(s)",
+        "espinas desenfrenadas",
+        "野棘丛生",
+        "荒れ狂うトゲ",
+        "가시덤불 쇄도"
+      ],
+      "label": {
+        "en": "Rampant Thorns",
+        "es": "Espinas desenfrenadas",
+        "zh": "野棘丛生",
+        "ja": "荒れ狂うトゲ",
+        "ko": "가시덤불 쇄도"
+      }
+    },
+    {
+      "id": "kit_typhoeus_sign",
+      "cat": "kit",
+      "op": "typhoeus",
+      "src": "skill:battle_skill",
+      "match": [
+        "sign",
+        "signs",
+        "sign(s)",
+        "signss",
+        "signs(s)",
+        "signo",
+        "启示",
+        "啓示",
+        "계시"
+      ],
+      "label": {
+        "en": "Sign",
+        "es": "Signo",
+        "zh": "启示",
+        "ja": "啓示",
+        "ko": "계시"
+      }
+    },
+    {
+      "id": "kit_wulfgard_scorching_fangs",
+      "cat": "kit",
+      "op": "wulfgard",
+      "src": "talent:0",
+      "match": [
+        "scorching fangs",
+        "scorching fangss",
+        "scorching fangs(s)",
+        "colmillos ardientes",
+        "灼热獠牙",
+        "灼熱の牙",
+        "불타는 송곳니"
+      ],
+      "label": {
+        "en": "Scorching Fangs",
+        "es": "Colmillos ardientes",
+        "zh": "灼热獠牙",
+        "ja": "灼熱の牙",
+        "ko": "불타는 송곳니"
       }
     }
   ]

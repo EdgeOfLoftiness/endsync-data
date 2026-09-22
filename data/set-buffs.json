@@ -24,6 +24,13 @@
       "onCast": "combo_skill",
       "untilNext": "battle_skill",
       "maxStacks": 2
+     },
+     "label": {
+      "en": "Bonekrusha 3pc · Bonekrushing Smash",
+      "es": "Rompehuesos 3pc · Bonekrushing Smash",
+      "zh": "碾骨 3件 · 碾骨重压",
+      "ja": "骨砕 3セット · 骨砕の重圧",
+      "ko": "본 크러셔 3세트 · 본 크러셔의 압박"
      }
     }
    ]
@@ -68,7 +75,14 @@
       ]
      },
      "durS": 25,
-     "noStack": true
+     "noStack": true,
+     "label": {
+      "en": "Xiranflow (3pc)",
+      "es": "Flujo Xiran (3pc)",
+      "zh": "壤流（3件）",
+      "ja": "壌流（3セット）",
+      "ko": "식양의 흐름 (3세트)"
+     }
     }
    ]
   },
@@ -96,7 +110,14 @@
       "onApplyInfliction": "vulnerability",
       "maxStacks": 4
      },
-     "durS": 15
+     "durS": 15,
+     "label": {
+      "en": "Aethertech (3pc)",
+      "es": "Etertecnología (3pc)",
+      "zh": "轻超域（3件）",
+      "ja": "軽量超域（3セット）",
+      "ko": "경량 초자연 (3세트)"
+     }
     }
    ]
   },
@@ -125,6 +146,13 @@
       "untilNext": "combo_skill",
       "maxStacks": 3,
       "ally": true
+     },
+     "label": {
+      "en": "Type 50 Yinglung 3pc · Yinglung's Edge",
+      "es": "Yinglung tipo 50 3pc · Yinglung's Edge",
+      "zh": "50式应龙 3件 · 应龙之锐",
+      "ja": "50式応龍 3セット · 応龍の鋒",
+      "ko": "응룡 50식 3세트 · 응룡의 예리함"
      }
     }
    ]
@@ -152,7 +180,14 @@
        "type": "critRate",
        "value": 0.05
       }
-     ]
+     ],
+     "label": {
+      "en": "MI Security 3pc · on crit",
+      "es": "Seguridad MI 3pc · al criticar",
+      "zh": "M.I.警用 3件 · 暴击时",
+      "ja": "M.I.警備 3セット · 会心時",
+      "ko": "M. I. 경찰용 3세트 · 치명타 시"
+     }
     }
    ]
   },
@@ -180,7 +215,14 @@
       "onApplyReaction": "electrification"
      },
      "durS": 10,
-     "noStack": true
+     "noStack": true,
+     "label": {
+      "en": "Pulser Labs 3pc · Electrification",
+      "es": "Laboratorios Pulso 3pc · Electrification",
+      "zh": "脉冲式 3件 · 导电",
+      "ja": "パルス式 3セット · 感電",
+      "ko": "펄스식 3세트 · 감전"
+     }
     },
     {
      "id": "set_pulser_cryo",
@@ -204,7 +246,14 @@
       "onApplyReaction": "solidification"
      },
      "durS": 10,
-     "noStack": true
+     "noStack": true,
+     "label": {
+      "en": "Pulser Labs 3pc · Solidification",
+      "es": "Laboratorios Pulso 3pc · Solidification",
+      "zh": "脉冲式 3件 · 冻结",
+      "ja": "パルス式 3セット · 凍結",
+      "ko": "펄스식 3세트 · 동결"
+     }
     }
    ]
   },
@@ -232,7 +281,14 @@
       "onApplyReaction": "combustion"
      },
      "durS": 10,
-     "noStack": true
+     "noStack": true,
+     "label": {
+      "en": "Hot Work 3pc · Combustion",
+      "es": "Resistente al calor 3pc · Combustion",
+      "zh": "动火用 3件 · 燃烧",
+      "ja": "火山用 3セット · 燃焼",
+      "ko": "열 작업용 3세트 · 연소"
+     }
     },
     {
      "id": "set_hotwork_nature",
@@ -256,7 +312,14 @@
       "onApplyReaction": "corrosion"
      },
      "durS": 10,
-     "noStack": true
+     "noStack": true,
+     "label": {
+      "en": "Hot Work 3pc · Corrosion",
+      "es": "Resistente al calor 3pc · Corrosion",
+      "zh": "动火用 3件 · 腐蚀",
+      "ja": "火山用 3セット · 腐食",
+      "ko": "열 작업용 3세트 · 부식"
+     }
     }
    ]
   },
@@ -281,7 +344,14 @@
      ],
      "anchor": "combo_skill",
      "durS": 15,
-     "noStack": true
+     "noStack": true,
+     "label": {
+      "en": "Qingbo 3pc · after combo skill",
+      "es": "Qingbo 3pc · tras combo skill",
+      "zh": "清波 3件 · 连携技后",
+      "ja": "清波 3セット · 連携技後",
+      "ko": "청파 3세트 · 연계 스킬 후"
+     }
     }
    ]
   },
@@ -308,7 +378,14 @@
       "onSpRecover": true
      },
      "durS": 12,
-     "noStack": true
+     "noStack": true,
+     "label": {
+      "en": "Frontiers 3pc · on SP recover",
+      "es": "Fronteras 3pc · al recuperar SP",
+      "zh": "拓荒 3件 · 回复 SP 时",
+      "ja": "パイオニア 3セット · SP 回復時",
+      "ko": "개척 3세트 · SP 회복 시"
+     }
     }
    ]
   },
@@ -336,7 +413,14 @@
       "onArtsStacks": 2
      },
      "durS": 15,
-     "noStack": true
+     "noStack": true,
+     "label": {
+      "en": "Tide Surge 3pc · Arts Infliction",
+      "es": "Marea alta 3pc · Arts Infliction",
+      "zh": "潮涌 3件 · 法术附着",
+      "ja": "満潮 3セット · アーツ付着",
+      "ko": "조류의 물결 3세트 · 아츠 부착"
+     }
     }
    ]
   },
@@ -359,7 +443,14 @@
        "type": "dmgAdd",
        "value": 0.16
       }
-     ]
+     ],
+     "label": {
+      "en": "Eternal Xiranite 3pc · Amp/Protect/Suscept/Weaken",
+      "es": "Xiranita eterna 3pc · Amp/Protect/Suscept/Weaken",
+      "zh": "长息 3件 · 增幅/庇护/脆弱/虚弱",
+      "ja": "流転 3セット · 増幅/加護/脆弱/弱体化",
+      "ko": "식양의 숨결 3세트 · 증폭/비호/취약/허약"
+     }
     }
    ]
   },
@@ -393,7 +484,14 @@
       ]
      },
      "durS": 20,
-     "noStack": true
+     "noStack": true,
+     "label": {
+      "en": "Grizzled Edge (3pc)",
+      "es": "Filo curtido (3pc)",
+      "zh": "旧锋（3件）",
+      "ja": "旧鋒（3セット）",
+      "ko": "고검의 잔향 (3세트)"
+     }
     }
    ]
   },
@@ -420,6 +518,13 @@
      "trigger": {
       "onApplyPhysStatus": true,
       "cooldownS": 15
+     },
+     "label": {
+      "en": "Swordmancer (3pc)",
+      "es": "Espadachín (3pc)",
+      "zh": "点剑（3件）",
+      "ja": "宏山点剣（3セット）",
+      "ko": "검술사 (3세트)"
      }
     }
    ]
@@ -452,7 +557,14 @@
        "type": "dmgAdd",
        "value": 0.2
       }
-     ]
+     ],
+     "label": {
+      "en": "AIC Fieldwork 3pc (permanent)",
+      "es": "Trabajo de campo del CAI 3pc (permanente)",
+      "zh": "集成实训 3件（常驻）",
+      "ja": "集成訓練 3セット（常時）",
+      "ko": "통합 실전 훈련 3세트 (상시)"
+     }
     }
    ]
   },
@@ -476,7 +588,14 @@
        "value": 16
       }
      ],
-     "durS": 20
+     "durS": 20,
+     "label": {
+      "en": "Deep Rampart 3pc · Nature/Cryo Burst",
+      "es": "Baluarte profundo 3pc · Nature/Cryo Burst",
+      "zh": "险关 3件 · 自然/寒冷爆发",
+      "ja": "天険 3セット · 自然/寒冷爆発",
+      "ko": "관문 3세트 · 자연/냉기 폭발"
+     }
     }
    ]
   }

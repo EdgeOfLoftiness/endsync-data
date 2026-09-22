@@ -49,7 +49,14 @@
         1.12
        ]
       }
-     ]
+     ],
+     "label": {
+      "en": "Fracture: Gnashing Wolves (16 stacks)",
+      "es": "Fractura: Lobos voraces (16 stacks)",
+      "zh": "切骨·群狼啃噬（16 层）",
+      "ja": "切骨・噛みつく群狼（16 スタック）",
+      "ko": "골절 · 군랑의 포식 (16중첩)"
+     }
     }
    ]
   },
@@ -85,7 +92,14 @@
       "onSpRecover": true
      },
      "durS": 20,
-     "noStack": true
+     "noStack": true,
+     "label": {
+      "en": "Flow: Absolver of Guilt — SP recovery (team ATK)",
+      "es": "Flujo: Absolvedor de culpa — recuperar SP (ATK de equipo)",
+      "zh": "流转·汲罪 — 回复 SP（队伍攻击力）",
+      "ja": "流回・汲罪 — SP 回復（チーム攻撃力）",
+      "ko": "흐름 · 심판 — SP 회복 (팀 공격력)"
+     }
     },
     {
      "id": "carmine_flow_heat",
@@ -116,7 +130,14 @@
       "onApplyInfliction": "heat_infl"
      },
      "durS": 20,
-     "noStack": true
+     "noStack": true,
+     "label": {
+      "en": "Flow: Absolver of Guilt — Heat Infliction (team Heat DMG)",
+      "es": "Flujo: Absolvedor de culpa — Heat Infliction (Heat DMG de equipo)",
+      "zh": "流转·汲罪 — 灼热附着（队伍灼热伤害）",
+      "ja": "流回・汲罪 — 灼熱付着（チーム灼熱ダメージ）",
+      "ko": "흐름 · 심판 — 열기 부착 (팀 열기 피해)"
+     }
     }
    ]
   },
@@ -153,7 +174,14 @@
         0.336
        ]
       }
-     ]
+     ],
+     "label": {
+      "en": "Suppression: Astrophysics (permanent)",
+      "es": "Supresión: astrofísica (permanente)",
+      "zh": "压制·太空物理学（常驻）",
+      "ja": "圧制・宇宙空間物理学（常時）",
+      "ko": "억제 · 천체 물리학 (상시)"
+     }
     },
     {
      "id": "jet_supp_battle",
@@ -185,7 +213,14 @@
         0.336
        ]
       }
-     ]
+     ],
+     "label": {
+      "en": "Suppression: Astrophysics (after Battle Skill)",
+      "es": "Supresión: astrofísica (tras Battle Skill)",
+      "zh": "压制·太空物理学（战技后）",
+      "ja": "圧制・宇宙空間物理学（戦技後）",
+      "ko": "억제 · 천체 물리학 (배틀 스킬 후)"
+     }
     },
     {
      "id": "jet_supp_combo",
@@ -217,7 +252,14 @@
         0.336
        ]
       }
-     ]
+     ],
+     "label": {
+      "en": "Suppression: Astrophysics (after Combo Skill)",
+      "es": "Supresión: astrofísica (tras Combo Skill)",
+      "zh": "压制·太空物理学（连携技后）",
+      "ja": "圧制・宇宙空間物理学（連携技後）",
+      "ko": "억제 · 천체 물리학 (연계 스킬 후)"
+     }
     }
    ]
   },
@@ -272,7 +314,14 @@
         0.224
        ]
       }
-     ]
+     ],
+     "label": {
+      "en": "Infliction: Wilderness Cluster",
+      "es": "Imposición: Cúmulo de área silvestre",
+      "zh": "附术·荒芜集簇",
+      "ja": "付術・荒廃集積",
+      "ko": "고통 · 황무지 군집"
+     }
     }
    ]
   },
@@ -2032,7 +2081,14 @@
         0.196
        ]
       }
-     ]
+     ],
+     "label": {
+      "en": "Infliction: Covetous Buildup (permanent)",
+      "es": "Imposición: Acumulación codiciosa (permanente)",
+      "zh": "附术·觊觎堆叠（常驻）",
+      "ja": "付術・欲望堆積（常時）",
+      "ko": "고통 · 쌓이는 탐욕 (상시)"
+     }
     },
     {
      "id": "umbral_torch_covetous",
@@ -2084,7 +2140,14 @@
         0.224
        ]
       }
-     ]
+     ],
+     "label": {
+      "en": "Infliction: Covetous Buildup",
+      "es": "Imposición: Acumulación codiciosa",
+      "zh": "附术·觊觎堆叠",
+      "ja": "付術・欲望堆積",
+      "ko": "고통 · 쌓이는 탐욕"
+     }
     }
    ]
   },
@@ -3676,7 +3739,14 @@
        ]
       }
      ],
-     "durS": 30
+     "durS": 30,
+     "label": {
+      "en": "Fracture: Artzy Exaggeration (on crit)",
+      "es": "Fractura: Exageración artística (al criticar)",
+      "zh": "切骨·艺术暴论（暴击时）",
+      "ja": "切骨・芸術暴論（会心時）",
+      "ko": "골절 · 예술적 폭론 (치명타 시)"
+     }
     }
    ]
   },
@@ -3897,7 +3967,14 @@
       "onApplyInfliction": "arts"
      },
      "durS": 20,
-     "noStack": true
+     "noStack": true,
+     "label": {
+      "en": "Detonate: Debilitating Assault — Arts Infliction (INT)",
+      "es": "Detonación: Asalto debilitante — Arts Infliction (INT)",
+      "zh": "迸发·陷坚挫锐 — 法术附着（智识）",
+      "ja": "噴発・堅陣破り — アーツ付着（知性）",
+      "ko": "방출 · 철벽 돌파 — 아츠 부착 (지능)"
+     }
     },
     {
      "id": "t42_int_atk",
@@ -3929,7 +4006,14 @@
       }
      ],
      "durS": 20,
-     "noStack": true
+     "noStack": true,
+     "label": {
+      "en": "Detonate: Debilitating Assault — Arts Susceptibility (INT)",
+      "es": "Detonación: Asalto debilitante — Arts Susceptibility (INT)",
+      "zh": "迸发·陷坚挫锐 — 法术脆弱（智识）",
+      "ja": "噴発・堅陣破り — アーツ脆弱（知性）",
+      "ko": "방출 · 철벽 돌파 — 아츠 취약 (지능)"
+     }
     },
     {
      "id": "t42_will_taken",
@@ -3964,7 +4048,14 @@
       "onApplyReaction": "burst"
      },
      "durS": 25,
-     "noStack": true
+     "noStack": true,
+     "label": {
+      "en": "Detonate: Debilitating Assault — Arts DMG taken (WILL)",
+      "es": "Detonación: Asalto debilitante — Arts DMG recibido (WILL)",
+      "zh": "迸发·陷坚挫锐 — 承受法术伤害（意志）",
+      "ja": "噴発・堅陣破り — 被アーツダメージ（意志）",
+      "ko": "방출 · 철벽 돌파 — 받는 아츠 피해 (의지)"
+     }
     }
    ]
   },
@@ -4000,7 +4091,14 @@
         0.196
        ]
       }
-     ]
+     ],
+     "label": {
+      "en": "Efficacy: Feedback Loop — Nature DMG (permanent)",
+      "es": "Eficacia: Bucle de retroalimentación — Nature DMG (permanente)",
+      "zh": "效益·回环 — 自然伤害（常驻）",
+      "ja": "効率・回環 — 自然ダメージ（常時）",
+      "ko": "효율 · 순환 — 자연 피해 (상시)"
+     }
     },
     {
      "id": "jp_feedback_team",
@@ -4031,7 +4129,14 @@
         0.042
        ]
       }
-     ]
+     ],
+     "label": {
+      "en": "Efficacy: Feedback Loop — combo applies Susceptibility/Infliction (team)",
+      "es": "Eficacia: Bucle de retroalimentación — el combo aplica Susceptibility/Infliction (equipo)",
+      "zh": "效益·回环 — 连携技施加脆弱/附着（队伍）",
+      "ja": "効率・回環 — 連携技で脆弱/付着を付与（チーム）",
+      "ko": "효율 · 순환 — 연계 스킬로 취약/부착 부여 (팀)"
+     }
     },
     {
      "id": "jp_feedback_self",
@@ -4062,7 +4167,14 @@
         0.126
        ]
       }
-     ]
+     ],
+     "label": {
+      "en": "Efficacy: Feedback Loop — combo applies Susceptibility/Infliction (wielder extra)",
+      "es": "Eficacia: Bucle de retroalimentación — el combo aplica Susceptibility/Infliction (extra del portador)",
+      "zh": "效益·回环 — 连携技施加脆弱/附着（持有者额外）",
+      "ja": "効率・回環 — 連携技で脆弱/付着を付与（装備者追加）",
+      "ko": "효율 · 순환 — 연계 스킬로 취약/부착 부여 (착용자 추가)"
+     }
     }
    ]
   },
@@ -4098,7 +4210,14 @@
         0.14
        ]
       }
-     ]
+     ],
+     "label": {
+      "en": "Assault: Vision for Tomorrow (combat start)",
+      "es": "Asalto: Visión del mañana (inicio de combate)",
+      "zh": "强攻·明日之愿（战斗开始）",
+      "ja": "強攻・明日への祈り（戦闘開始時）",
+      "ko": "강공 · 내일의 희망 (전투 시작)"
+     }
     }
    ]
   },
@@ -4134,7 +4253,14 @@
         0.448
        ]
       }
-     ]
+     ],
+     "label": {
+      "en": "Detonate: Hunter Instinct — Arts DMG (permanent)",
+      "es": "Detonación: Instinto de cazador — Arts DMG (permanente)",
+      "zh": "迸发·猎人本能 — 法术伤害（常驻）",
+      "ja": "噴発・狩人の本能 — アーツダメージ（常時）",
+      "ko": "방출 · 사냥꾼의 본능 — 아츠 피해 (상시)"
+     }
     },
     {
      "id": "umbra_windform_artsint",
@@ -4166,7 +4292,14 @@
         98
        ]
       }
-     ]
+     ],
+     "label": {
+      "en": "Detonate: Hunter Instinct — battle skill: Arts Intensity",
+      "es": "Detonación: Instinto de cazador — battle skill: Arts Intensity",
+      "zh": "迸发·猎人本能 — 战技：源石技艺强度",
+      "ja": "噴発・狩人の本能 — 戦技：アーツ強度",
+      "ko": "방출 · 사냥꾼의 본능 — 배틀 스킬: 아츠 강도"
+     }
     },
     {
      "id": "umbra_windform_burst",
@@ -4203,7 +4336,14 @@
         "cap": 4
        }
       }
-     ]
+     ],
+     "label": {
+      "en": "Detonate: Hunter Instinct — Arts Burst consumes Windform",
+      "es": "Detonación: Instinto de cazador — Arts Burst consume Windform",
+      "zh": "迸发·猎人本能 — 法术爆发消耗 Windform",
+      "ja": "噴発・狩人の本能 — アーツ爆発で Windform を消費",
+      "ko": "방출 · 사냥꾼의 본능 — 아츠 폭발로 Windform 소모"
+     }
     }
    ]
   },
@@ -4238,7 +4378,14 @@
         42
        ]
       }
-     ]
+     ],
+     "label": {
+      "en": "Detonate: Dawn of the Long Night — Arts Intensity (permanent)",
+      "es": "Detonación: Amanecer de la larga noche — Arts Intensity (permanente)",
+      "zh": "迸发·长夜拂晓 — 源石技艺强度（常驻）",
+      "ja": "噴発・長夜の暁 — アーツ強度（常時）",
+      "ko": "방출 · 긴 밤의 여명 — 아츠 강도 (상시)"
+     }
     },
     {
      "id": "send_burst_stack",
@@ -4275,7 +4422,14 @@
         "cap": 4
        }
       }
-     ]
+     ],
+     "label": {
+      "en": "Detonate: Dawn of the Long Night — Arts Burst (stacks)",
+      "es": "Detonación: Amanecer de la larga noche — Arts Burst (stacks)",
+      "zh": "迸发·长夜拂晓 — 法术爆发（层数）",
+      "ja": "噴発・長夜の暁 — アーツ爆発（スタック）",
+      "ko": "방출 · 긴 밤의 여명 — 아츠 폭발 (중첩)"
+     }
     },
     {
      "id": "send_burst_full",
@@ -4306,7 +4460,14 @@
         0.168
        ]
       }
-     ]
+     ],
+     "label": {
+      "en": "Detonate: Dawn of the Long Night — bonus at 4 stacks",
+      "es": "Detonación: Amanecer de la larga noche — bono a 4 stacks",
+      "zh": "迸发·长夜拂晓 — 4 层时的额外加成",
+      "ja": "噴発・長夜の暁 — 4 スタック時のボーナス",
+      "ko": "방출 · 긴 밤의 여명 — 4중첩 시 보너스"
+     }
     }
    ]
   }

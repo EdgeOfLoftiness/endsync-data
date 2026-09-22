@@ -1618,7 +1618,14 @@
             "type": "critDmg",
             "value": 0.2
           }
-        ]
+        ],
+        "label": {
+          "en": "Freezing Point · double",
+          "es": "Punto de congelación · doble",
+          "zh": "冰点 · 双倍",
+          "ja": "氷点 · 2倍",
+          "ko": "빙점 · 2배"
+        }
       },
       {
         "id": "yvonne-3",
@@ -2157,7 +2164,14 @@
           "maxStacks": 5
         },
         "durS": 40,
-        "assumeIdeal": "cada combo cura (Firefang Vesperwings en vuelo — escenario ideal del timeline)"
+        "assumeIdeal": "cada combo cura (Firefang Vesperwings en vuelo — escenario ideal del timeline)",
+        "label": {
+          "en": "Bloodfount Revival · team",
+          "es": "Resurgimiento de la fuente de sangre · equipo",
+          "zh": "血涌苏生 · 队伍",
+          "ja": "血の蘇生 · チーム",
+          "ko": "혈류 소생 · 팀"
+        }
       },
       {
         "id": "camille-k5",
@@ -2207,7 +2221,14 @@
           "onCastSlot": "combo",
           "maxStacks": 5
         },
-        "durS": 40
+        "durS": 40,
+        "label": {
+          "en": "Sanguine Convention · team",
+          "es": "Convención sanguínea · equipo",
+          "zh": "予血同在 · 队伍",
+          "ja": "分け与えし血 · チーム",
+          "ko": "피로 맺은 결속 · 팀"
+        }
       },
       {
         "id": "camille-2",
@@ -2376,7 +2397,14 @@
             "element": "arts"
           }
         ],
-        "anchor": "ultimate"
+        "anchor": "ultimate",
+        "label": {
+          "en": "Tactical Planning 2",
+          "es": "Planeación táctica 2",
+          "zh": "筹谋 2",
+          "ja": "画策 2",
+          "ko": "전략 수립 2"
+        }
       },
       {
         "id": "arcane-4",
@@ -2416,7 +2444,14 @@
         ],
         "anchor": "ultimate",
         "durS": 10,
-        "noStack": true
+        "noStack": true,
+        "label": {
+          "en": "Tactical Planning 2",
+          "es": "Planeación táctica 2",
+          "zh": "筹谋 2",
+          "ja": "画策 2",
+          "ko": "전략 수립 2"
+        }
       },
       {
         "id": "arcane-5",
@@ -2438,7 +2473,14 @@
             "value": 0.132
           }
         ],
-        "noStack": true
+        "noStack": true,
+        "label": {
+          "en": "Gloompurge — forced Corrosion",
+          "es": "Purgasombras — Corrosion forzada",
+          "zh": "破晦 — 强制腐蚀",
+          "ja": "破晦 — 強制腐食",
+          "ko": "어스름 파훼 — 강제 부식"
+        }
       },
       {
         "id": "arcane-k1",
