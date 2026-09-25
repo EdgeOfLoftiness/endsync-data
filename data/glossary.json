@@ -64,7 +64,7 @@
       "body": {
         "es": "Operador que aporta daño secundario significativo además del carry, normalmente activando reacciones o rellenando los huecos de la rotación.",
         "en": "An operator that adds significant secondary damage alongside the carry, usually triggering reactions or filling the rotation's gaps.",
-        "zh": "在主C之外提供可观副伤害的干员，通常负责触发反应或填补轮转空隙。",
+        "zh": "在主C之外提供可观副伤害的干员，通常负责触发反应或填补循环空隙。",
         "ja": "キャリーと並んで大きめの副次ダメージを出すオペレーター。多くは反応の発生役や、ローテーションの隙間埋めを担います。",
         "ko": "캐리 옆에서 상당한 보조 피해를 더하는 오퍼레이터. 보통 반응을 발동하거나 로테이션의 빈틈을 채웁니다."
       }
@@ -82,12 +82,12 @@
         "en": "Enabler",
         "zh": "附术手",
         "ja": "付術役（エネイブラー）",
-        "ko": "인에이블러"
+        "ko": "부착 담당(인에이블러)"
       },
       "body": {
         "es": "Operador que prepara el terreno para el carry: aplica Inflictions/estados, genera SP y crea las condiciones del burst. Por sí solo hace poco daño, pero sin él el carry no rinde.",
         "en": "An operator that sets up the carry: applies Inflictions/statuses, generates SP and creates the burst conditions. Deals little on its own, but the carry underperforms without it.",
-        "zh": "为主C铺垫的干员：施加附着/状态、产生 SP 并创造爆发条件。自身伤害不高，但没有它主C发挥不出来。",
+        "zh": "为主C铺垫的干员：施加附着/状态、产生 技力并创造爆发条件。自身伤害不高，但没有它主C发挥不出来。",
         "ja": "キャリーのお膳立てをするオペレーター：付着や状態を付与し、SP を生み、バーストの条件を作ります。自身のダメージは低めですが、いないとキャリーが力を出せません。",
         "ko": "캐리를 준비시키는 오퍼레이터: 부착/상태를 걸고, SP를 만들며, 폭발 조건을 만듭니다. 스스로는 피해가 적지만 없으면 캐리가 제 성능을 내지 못합니다."
       }
@@ -109,7 +109,7 @@
       "body": {
         "es": "Operador que potencia las estadísticas del equipo (ATK, daño, velocidad…). Sus buffs solo valen si hay un carry que los aproveche.",
         "en": "An operator that boosts the team's stats (ATK, damage, speed…). Its buffs only matter if there's a carry to make use of them.",
-        "zh": "提升队伍属性（攻击力、伤害、速度……）的干员。它的增益只有在有主C使用时才有意义。",
+        "zh": "提升队伍属性（攻击力、伤害、速度……）的干员。这些增益只有在有主C吃得到时才有意义。",
         "ja": "チームのステータス（攻撃力、ダメージ、速度など）を上げるオペレーター。そのバフは、活かせるキャリーがいて初めて意味を持ちます。",
         "ko": "팀의 스탯(공격력, 피해, 속도 등)을 올리는 오퍼레이터. 버프는 활용할 캐리가 있어야만 의미가 있습니다."
       }
@@ -192,14 +192,14 @@
       "label": {
         "es": "SP (Skill Points)",
         "en": "SP (Skill Points)",
-        "zh": "SP（技能点）",
-        "ja": "SP（スキルポイント）",
-        "ko": "SP(스킬 포인트)"
+        "zh": "技力（SP）",
+        "ja": "SP（戦技ポイント）",
+        "ko": "스킬 게이지(SP)"
       },
       "body": {
         "es": "Recurso que se gasta para usar Battle Skills. Muchos equipos giran en torno a generar SP en bucle para sostener la rotación.",
         "en": "Resource spent to use Battle Skills. Many teams revolve around looping SP generation to sustain the rotation.",
-        "zh": "用于施放战技的资源。许多队伍围绕循环产生 SP 来维持轮转。",
+        "zh": "用于施放战技的资源。许多队伍围绕循环产生 技力来维持循环。",
         "ja": "戦技を使うために消費する資源。多くのチームは、SP を生み続けてローテーションを維持することを軸に組まれます。",
         "ko": "배틀 스킬을 쓰는 데 소모하는 자원. 많은 팀이 SP 생성을 순환시켜 로테이션을 유지하는 데 초점을 둡니다."
       }
@@ -223,7 +223,7 @@
       "body": {
         "es": "Barra de tambaleo del enemigo. Al llenarla, el enemigo queda vulnerable un tiempo y abre una ventana larga de daño para el equipo.",
         "en": "The enemy's stagger gauge. Filling it leaves the enemy vulnerable for a while, opening a long damage window for the team.",
-        "zh": "敌人的失衡值槽。填满后敌人会有一段时间处于易伤状态，为队伍打开长时间的伤害窗口。",
+        "zh": "敌人的失衡值槽。填满后敌人会有一段时间处于失衡状态，为队伍打开长时间的伤害窗口。",
         "ja": "敵のブレイク値ゲージ。満たすと敵はしばらく無防備になり、チームに長いダメージの機会が開きます。",
         "ko": "적의 불균형 게이지. 가득 채우면 적이 한동안 무방비 상태가 되어 팀에게 긴 피해 구간이 열립니다."
       }
@@ -316,7 +316,7 @@
       "body": {
         "es": "Habilidad que se dispara al encadenar acciones o al cumplir una condición (no cuesta SP). Clave para los cancels y los enlaces entre operadores.",
         "en": "A skill triggered by chaining actions or meeting a condition (no SP cost). Key for cancels and links between operators.",
-        "zh": "通过连续动作或满足条件触发的技能（不消耗 SP）。对取消后摇和干员之间的衔接很关键。",
+        "zh": "通过连续动作或满足条件触发的技能（不消耗 技力）。对取消后摇和干员之间的衔接很关键。",
         "ja": "行動をつなぐか条件を満たすと発動するスキル（SP 不要）。キャンセルやオペレーター間のつなぎの要です。",
         "ko": "행동을 이어 가거나 조건을 충족하면 발동하는 스킬(SP 소모 없음). 캔슬과 오퍼레이터 간 연결의 핵심입니다."
       }
@@ -338,7 +338,7 @@
       "body": {
         "es": "Habilidad activa que cuesta SP. Es la herramienta principal de daño/utilidad que repites durante la rotación.",
         "en": "An active skill that costs SP. The main damage/utility tool you repeat throughout the rotation.",
-        "zh": "消耗 SP 的主动技能。轮转中反复使用的主要伤害/功能手段。",
+        "zh": "消耗 技力的主动技能。循环中反复使用的主要伤害/功能手段。",
         "ja": "SP を消費するアクティブスキル。ローテーション中に繰り返す主なダメージ/ユーティリティ手段です。",
         "ko": "SP를 소모하는 액티브 스킬. 로테이션 내내 반복하는 주요 피해/유틸리티 수단입니다."
       }
@@ -361,9 +361,9 @@
       "body": {
         "es": "Ataque normal sin coste. Genera recursos (SP, Energize) y enlaza con las habilidades para mantener la cadena.",
         "en": "Your free normal attack. Generates resources (SP, Energize) and links into skills to keep the chain going.",
-        "zh": "免费的普通攻击。产生资源（SP、蓄能）并衔接技能，让连段持续下去。",
-        "ja": "無料の通常攻撃。資源（SP、エナジャイズ）を生み、スキルにつないでチェーンを続けます。",
-        "ko": "무료 일반 공격. 자원(SP, 에너자이즈)을 만들고 스킬로 이어져 연계를 지속합니다."
+        "zh": "不消耗资源的普通攻击。产生资源（技力、蓄能）并衔接技能，让连段持续下去。",
+        "ja": "コストのかからない通常攻撃。資源（SP、エナジャイズ）を生み、スキルにつないでチェーンを続けます。",
+        "ko": "소모 없이 쓰는 일반 공격. 자원(SP, 에너자이즈)을 만들고 스킬로 이어져 연계를 지속합니다."
       }
     },
     {
@@ -407,7 +407,7 @@
       "body": {
         "es": "La ventana corta donde concentras todo el daño del equipo (buffs + ultimates + reacciones alineados). El objetivo de casi toda la rotación es maximizarla.",
         "en": "The short window where you concentrate the team's whole damage (buffs + ultimates + reactions aligned). Most of the rotation aims to maximize it.",
-        "zh": "把队伍全部伤害集中起来的短暂窗口（增益 + 终结技 + 反应对齐）。轮转的大部分目的就是把它最大化。",
+        "zh": "把队伍全部伤害集中起来的短暂窗口（增益 + 终结技 + 反应对齐）。循环的大部分目的就是把它最大化。",
         "ja": "チームの全ダメージを集中させる短い時間（バフ＋必殺技＋反応を揃える）。ローテーションの大半はこれを最大化するためにあります。",
         "ko": "팀의 모든 피해를 집중하는 짧은 구간(버프 + 궁극기 + 반응을 맞춤). 로테이션의 대부분은 이것을 극대화하기 위한 것입니다."
       }
@@ -430,7 +430,7 @@
       "body": {
         "es": "Tiempo de espera tras usar una habilidad antes de poder repetirla. Gestionar los CDs es clave para no romper la rotación.",
         "en": "The wait time after using a skill before you can use it again. Managing CDs is key to not breaking the rotation.",
-        "zh": "使用技能后再次可用前的等待时间。管理冷却是不打断轮转的关键。",
+        "zh": "使用技能后再次可用前的等待时间。管理冷却是不打断循环的关键。",
         "ja": "スキルを使ってから再び使えるまでの待ち時間。CD の管理はローテーションを崩さない鍵です。",
         "ko": "스킬을 쓴 뒤 다시 쓸 수 있을 때까지의 대기 시간. 쿨타임 관리는 로테이션을 끊지 않는 핵심입니다."
       }
@@ -477,8 +477,8 @@
       "body": {
         "es": "El arma diseñada específicamente para un operador, normalmente su mejor opción. Suele ser un 6★ con un pasivo hecho a su medida.",
         "en": "The weapon designed specifically for an operator, usually its best option. Typically a 6★ with a passive tailored to it.",
-        "zh": "专为某干员设计的武器，通常是其最佳选择。一般是带有量身定制被动的 6★。",
-        "ja": "特定のオペレーター向けに設計された武器で、たいてい最良の選択肢。専用のパッシブを持つ 6★ が普通です。",
+        "zh": "专为某干员设计的武器，通常是其最佳选择。一般是带有量身定制被动的6★。",
+        "ja": "特定のオペレーター向けに設計された武器で、たいてい最良の選択肢。専用のパッシブを持つ6★が普通です。",
         "ko": "특정 오퍼레이터를 위해 설계된 무기로 보통 최선의 선택입니다. 대개 맞춤 패시브를 가진 6★입니다."
       }
     },
@@ -572,8 +572,8 @@
       "body": {
         "es": "Marca con stacks (máx 4) que dejan sobre el enemigo los ataques físicos CON estado (los que lo declaran en su descripción), Lift y Knock Down — no cualquier golpe físico. Crush y Breach los consumen todos de golpe para pegar daño Physical masivo. Es el recurso central de las comps físicas.",
         "en": "Stacks (max 4) left on the enemy by Physical attacks that CARRY a status (the ones that declare it in their description), Lift and Knock Down — not every Physical hit. Crush and Breach consume them all at once for massive Physical DMG. The central resource of Physical comps.",
-        "zh": "由带状态的物理攻击（描述中写明的那些）、击飞和倒地留在敌人身上的层数（最多 4）——不是每次物理命中都会。猛击和碎甲一次性消耗全部层数，造成巨额物理伤害。物理队的核心资源。",
-        "ja": "状態を伴う物理攻撃（説明にそう書かれているもの）、浮遊、転倒で敵に残るスタック（最大 4）。物理ヒットすべてではありません。猛撃と破砕は一度に全部消費して大量の物理ダメージを出します。物理編成の中心資源です。",
+        "zh": "由带状态的物理攻击（描述中写明的那些）、击飞和倒地留在敌人身上的层数（最多4）——不是每次物理命中都会。猛击和碎甲一次性消耗全部层数，造成巨额物理伤害。物理队的核心资源。",
+        "ja": "状態を伴う物理攻撃（説明にそう書かれているもの）、浮遊、転倒で敵に残るスタック（最大4）。物理ヒットすべてではありません。猛撃と破砕は一度に全部消費して大量の物理ダメージを出します。物理編成の中心資源です。",
         "ko": "상태를 동반하는 물리 공격(설명에 명시된 것), 띄우기, 넘어뜨리기가 적에게 남기는 중첩(최대 4). 모든 물리 타격이 아닙니다. 강타와 갑옷 파괴는 한 번에 전부 소모해 막대한 물리 피해를 줍니다. 물리 조합의 핵심 자원입니다."
       }
     },
@@ -641,8 +641,8 @@
       "body": {
         "es": "La reacción de Nature: baja la RESISTENCIA del enemigo y NO es plana — el shred CRECE cada segundo hasta un tope según su nivel, y en todos los niveles toca techo a los 10 s (el tope dura los últimos 5 s de 15). El pico de daño del equipo está en esa ventana: aplícala ~10 s antes del burst. (La DEFENSA no se reduce en Endfield — es 100 fija; Corrosión toca la resistencia, no la DEF.)",
         "en": "The Nature reaction: lowers the enemy RESISTANCE and it is NOT flat — the shred GROWS every second up to a cap set by its level, hitting the ceiling at 10 s on every level (the cap lasts the final 5 s of 15). The team damage peak sits in that window: apply it ~10 s before the burst. (DEFENSE is never reduced in Endfield — a fixed 100; Corrosion touches resistance, not DEF.)",
-        "zh": "自然反应：降低敌人抗性，而且不是固定值——削减量每秒增长，直到等级决定的上限，任何等级都在 10 秒时达到顶值（上限持续 15 秒中的最后 5 秒）。队伍的伤害峰值就在那个窗口：在爆发前约 10 秒施加。（终末地中防御永远不会降低——固定 100；腐蚀影响的是抗性，不是防御。）",
-        "ja": "自然の反応：敵の耐性を下げ、しかも固定ではなく、減少量が毎秒増えて段階ごとの上限まで上がり、どの段階でも 10 秒で上限に達します（上限は 15 秒のうち最後の 5 秒続く）。チームのダメージのピークはその時間帯：バーストの約 10 秒前に付与しましょう。（エンドフィールドでは防御は決して下がりません。固定 100 で、腐食が触るのは耐性であって防御ではありません。）",
+        "zh": "自然反应：降低敌人抗性，而且不是固定值——削减量每秒增长，直到等级决定的上限，任何等级都在10秒时达到顶值（上限持续15秒中的最后5秒）。队伍的伤害峰值就在那个窗口：在爆发前约10秒施加。（终末地中防御永远不会降低——固定100；腐蚀影响的是抗性，不是防御。）",
+        "ja": "自然の反応：敵の耐性を下げ、しかも固定ではなく、減少量が毎秒増えて段階ごとの上限まで上がり、どの段階でも10秒で上限に達します（上限は15秒のうち最後の5秒続く）。チームのダメージのピークはその時間帯：バーストの約10秒前に付与しましょう。（エンドフィールドでは防御は決して下がりません。固定100で、腐食が触るのは耐性であって防御ではありません。）",
         "ko": "자연 반응: 적의 저항을 낮추며 고정값이 아닙니다. 감소량이 매초 커져 레벨이 정한 상한까지 오르고, 어느 레벨이든 10초에 최대에 도달합니다(상한은 15초 중 마지막 5초 지속). 팀 피해의 정점이 그 구간이니 폭발 약 10초 전에 거세요. (엔드필드에서 방어는 절대 내려가지 않습니다. 고정 100이며 부식은 저항을 건드리지 방어를 건드리지 않습니다.)"
       }
     },
@@ -665,7 +665,7 @@
       "body": {
         "es": "La reacción de Cryo: inmoviliza por completo al enemigo (no puede moverse ni actuar) durante unos segundos — más nivel, más duración. Un enemigo Solidificado se puede romper con daño Physical (Shatter) para un golpe enorme que además termina el congelamiento. Es el núcleo de las comps de hielo (Yvonne, Last Rite).",
         "en": "The Cryo reaction: fully immobilizes the enemy (it cannot move or act) for a few seconds — higher level, longer duration. A Solidified enemy can be broken with Physical damage (Shatter) for a huge hit that also ends the freeze. The core of ice comps (Yvonne, Last Rite).",
-        "zh": "寒冷反应：让敌人完全定身（无法移动或行动）几秒——等级越高持续越久。被冻结的敌人可用物理伤害打破（碎冰），造成巨额一击并结束冻结。冰系队伍（伊冯娜、别礼）的核心。",
+        "zh": "寒冷反应：让敌人完全定身（无法移动或行动）几秒——等级越高持续越久。被冻结的敌人可用物理伤害打破（碎冰），造成巨额一击并结束冻结。冰系队伍（伊冯、别礼）的核心。",
         "ja": "寒冷の反応：敵を数秒間完全に拘束します（移動も行動も不可）。段階が高いほど長く続きます。凍結した敵は物理ダメージで壊せ（粉砕）、大きな一撃とともに凍結が終わります。氷編成（イヴォンヌ、ラストライト）の核です。",
         "ko": "냉기 반응: 적을 몇 초간 완전히 속박합니다(이동도 행동도 불가). 레벨이 높을수록 오래갑니다. 동결된 적은 물리 피해로 깨뜨려(쇄빙) 거대한 타격을 주고 동결을 끝냅니다. 얼음 조합(이본, 라스트 라이트)의 핵심입니다."
       }
@@ -805,8 +805,8 @@
       "body": {
         "es": "El estado elemental de Heat sobre el enemigo (stacks, máx 4). Un golpe de OTRO elemento lo consume y dispara SU reacción; aplicar Heat sobre otra Infliction dispara Combustion (explosión + daño por segundo). La chispa de las comps de fuego.",
         "en": "The Heat elemental status on the enemy (stacks, max 4). A hit of ANOTHER element consumes it and triggers ITS reaction; applying Heat onto another Infliction triggers Combustion (explosion + damage-over-time). The spark of fire comps.",
-        "zh": "敌人身上的灼热元素状态（层数，最多 4）。其他属性的一击会消耗它并触发那个属性的反应；在其他附着上施加灼热会触发燃烧（爆炸 + 持续伤害）。火系队伍的火种。",
-        "ja": "敵に付く灼熱の属性状態（スタック、最大 4）。別属性のヒットがこれを消費してその属性の反応を起こし、別の付着の上に灼熱を付与すると燃焼（爆発＋継続ダメージ）が起きます。火編成の火種です。",
+        "zh": "敌人身上的灼热元素状态（层数，最多4）。其他属性的一击会消耗它并触发那个属性的反应；在其他附着上施加灼热会触发燃烧（爆炸 + 持续伤害）。火系队伍的火种。",
+        "ja": "敵に付く灼熱の属性状態（スタック、最大4）。別属性のヒットがこれを消費してその属性の反応を起こし、別の付着の上に灼熱を付与すると燃焼（爆発＋継続ダメージ）が起きます。火編成の火種です。",
         "ko": "적에게 붙는 열기 속성 상태(중첩, 최대 4). 다른 속성의 타격이 이를 소모해 그 속성의 반응을 일으키고, 다른 부착 위에 열기를 걸면 연소(폭발 + 지속 피해)가 발동합니다. 화염 조합의 불씨입니다."
       }
     },
@@ -827,8 +827,8 @@
       "body": {
         "es": "El estado elemental de Cryo (stacks, máx 4). Por sí solo NO congela: aplicar Cryo sobre la Infliction de OTRO elemento dispara Solidification (inmoviliza), y kits como el de Yvonne la fuerzan consumiendo este estado. Un Solidificado se rompe con daño Physical (Shatter). Núcleo de las comps de hielo.",
         "en": "The Cryo elemental status (stacks, max 4). On its own it does NOT freeze: applying Cryo onto ANOTHER element Infliction triggers Solidification (immobilizes), and kits like Yvonne can force it by consuming this status. A Solidified enemy breaks with Physical damage (Shatter). Core of ice comps.",
-        "zh": "寒冷元素状态（层数，最多 4）。它本身不会冻结：在其他属性附着上施加寒冷才触发冻结（定身），伊冯娜等套件可以通过消耗此状态强制触发。冻结的敌人可用物理伤害打破（碎冰）。冰系队伍的核心。",
-        "ja": "寒冷の属性状態（スタック、最大 4）。単独では凍結しません。別属性の付着の上に寒冷を付与すると凍結（拘束）が起き、イヴォンヌなどのキットはこの状態を消費して強制発動できます。凍結した敵は物理ダメージで壊れます（粉砕）。氷編成の核です。",
+        "zh": "寒冷元素状态（层数，最多4）。它本身不会冻结：在其他属性附着上施加寒冷才触发冻结（定身），伊冯等套件可以通过消耗此状态强制触发。冻结的敌人可用物理伤害打破（碎冰）。冰系队伍的核心。",
+        "ja": "寒冷の属性状態（スタック、最大4）。単独では凍結しません。別属性の付着の上に寒冷を付与すると凍結（拘束）が起き、イヴォンヌなどのキットはこの状態を消費して強制発動できます。凍結した敵は物理ダメージで壊れます（粉砕）。氷編成の核です。",
         "ko": "냉기 속성 상태(중첩, 최대 4). 단독으로는 동결시키지 않습니다. 다른 속성의 부착 위에 냉기를 걸어야 동결(속박)이 발동하며, 이본 같은 키트는 이 상태를 소모해 강제로 발동할 수 있습니다. 동결된 적은 물리 피해로 깨집니다(쇄빙). 얼음 조합의 핵심입니다."
       }
     },
@@ -849,8 +849,8 @@
       "body": {
         "es": "El estado elemental de Electric (stacks, máx 4). Aplicar Electric sobre la Infliction de OTRO elemento dispara Electrification, que hace que el enemigo reciba más Arts DMG de tus ataques.",
         "en": "The Electric elemental status (stacks, max 4). Applying Electric onto ANOTHER element Infliction triggers Electrification, making the enemy take more Arts DMG from your attacks.",
-        "zh": "电磁元素状态（层数，最多 4）。在其他属性附着上施加电磁会触发导电，让敌人受到你攻击的更多法术伤害。",
-        "ja": "電磁の属性状態（スタック、最大 4）。別属性の付着の上に電磁を付与すると感電が起き、敵があなたの攻撃からより多くのアーツダメージを受けます。",
+        "zh": "电磁元素状态（层数，最多4）。在其他属性附着上施加电磁会触发导电，让敌人受到你攻击的更多法术伤害。",
+        "ja": "電磁の属性状態（スタック、最大4）。別属性の付着の上に電磁を付与すると感電が起き、敵があなたの攻撃からより多くのアーツダメージを受けます。",
         "ko": "전기 속성 상태(중첩, 최대 4). 다른 속성의 부착 위에 전기를 걸면 감전이 발동해 적이 내 공격에서 더 많은 아츠 피해를 받습니다."
       }
     },
@@ -871,8 +871,8 @@
       "body": {
         "es": "El estado elemental de Nature (stacks, máx 4). Aplicar Nature sobre la Infliction de OTRO elemento dispara Corrosion, que baja la RESISTENCIA del enemigo — la DEF nunca se reduce — y recibe más daño de todo el equipo.",
         "en": "The Nature elemental status (stacks, max 4). Applying Nature onto ANOTHER element Infliction triggers Corrosion, which lowers the enemy RESISTANCE — DEF is never reduced — so it takes more damage from the whole team.",
-        "zh": "自然元素状态（层数，最多 4）。在其他属性附着上施加自然会触发腐蚀，降低敌人抗性——防御永远不会降低——于是全队的伤害都更高。",
-        "ja": "自然の属性状態（スタック、最大 4）。別属性の付着の上に自然を付与すると腐食が起き、敵の耐性が下がる（防御は決して下がらない）ので、チーム全体のダメージが増えます。",
+        "zh": "自然元素状态（层数，最多4）。在其他属性附着上施加自然会触发腐蚀，降低敌人抗性——防御永远不会降低——于是全队的伤害都更高。",
+        "ja": "自然の属性状態（スタック、最大4）。別属性の付着の上に自然を付与すると腐食が起き、敵の耐性が下がる（防御は決して下がらない）ので、チーム全体のダメージが増えます。",
         "ko": "자연 속성 상태(중첩, 최대 4). 다른 속성의 부착 위에 자연을 걸면 부식이 발동해 적의 저항이 낮아지며(방어는 절대 내려가지 않음), 팀 전체의 피해가 커집니다."
       }
     },
@@ -894,8 +894,8 @@
       "body": {
         "es": "El término paraguas para la Infliction elemental no-física (Heat/Cryo/Electric/Nature) sobre el enemigo — lo que piden muchos combos (\"1 Arts Infliction\"). Solo puede haber UNA a la vez (máx 4 stacks); alimenta las reacciones Arts y algunos operadores (p. ej. Rossi) la consumen para daño o efectos extra.",
         "en": "The umbrella term for the non-physical elemental Infliction (Heat/Cryo/Electric/Nature) on the enemy — what many combos ask for (\"1 Arts Infliction\"). Only ONE can exist at a time (max 4 stacks); it feeds Arts reactions and some operators (e.g. Rossi) consume it for extra damage or effects.",
-        "zh": "敌人身上非物理元素附着（灼热/寒冷/电磁/自然）的统称——许多连携技的要求（「1 层法术附着」）。同一时间只能存在一种（最多 4 层）；它为法术异常提供燃料，部分干员（如洛茜）会消耗它来换取额外伤害或效果。",
-        "ja": "敵に付く非物理の属性付着（灼熱/寒冷/電磁/自然）の総称で、多くの連携技が要求するもの（「アーツ付着 1」）。同時に存在できるのは 1 種類だけ（最大 4 スタック）。アーツ異常の燃料になり、一部のオペレーター（ロッシなど）は追加ダメージや効果のために消費します。",
+        "zh": "敌人身上非物理元素附着（灼热/寒冷/电磁/自然）的统称——许多连携技的要求（「1层法术附着」）。同一时间只能存在一种（最多4层）；它为法术异常提供燃料，部分干员（如洛茜）会消耗它来换取额外伤害或效果。",
+        "ja": "敵に付く非物理の属性付着（灼熱/寒冷/電磁/自然）の総称で、多くの連携技が要求するもの（「アーツ付着1」）。同時に存在できるのは1種類だけ（最大4スタック）。アーツ異常の燃料になり、一部のオペレーター（ロッシなど）は追加ダメージや効果のために消費します。",
         "ko": "적에게 붙는 비물리 속성 부착(열기/냉기/전기/자연)의 총칭으로, 많은 연계 스킬이 요구하는 것('아츠 부착 1'). 한 번에 한 종류만 존재할 수 있으며(최대 4중첩), 아츠 이상의 연료가 되고 일부 오퍼레이터(예: 로시)는 추가 피해나 효과를 위해 소모합니다."
       }
     },
@@ -916,9 +916,9 @@
       "body": {
         "es": "Los estados físicos del enemigo, sobre todo stacks de Vulnerability (de Lift, Knock Down y los golpes físicos que declaran estado). Un estado físico siempre aplica Vulnerable primero y no dispara reacciones Arts. Crush y Breach los consumen para daño Physical masivo.",
         "en": "The physical statuses on the enemy, mainly Vulnerability stacks (from Lift, Knock Down and the Physical hits that declare a status). A physical status always applies Vulnerable first and does not trigger Arts reactions. Crush and Breach consume them for massive Physical DMG.",
-        "zh": "敌人身上的物理状态，主要是破防层数（来自击飞、倒地和声明带状态的物理命中）。物理状态总是先施加破防，且不触发法术异常。猛击和碎甲消耗它们造成巨额物理伤害。",
-        "ja": "敵に付く物理の状態で、主にクラッシュのスタック（浮遊、転倒、状態を伴うと明記された物理ヒットから）。物理状態は常にまずクラッシュを付与し、アーツ異常は起こしません。猛撃と破砕がこれを消費して大量の物理ダメージを出します。",
-        "ko": "적에게 붙는 물리 상태로, 주로 방어 불능 중첩(띄우기, 넘어뜨리기, 상태를 명시한 물리 타격에서). 물리 상태는 항상 먼저 방어 불능을 걸고 아츠 이상을 일으키지 않습니다. 강타와 갑옷 파괴가 이를 소모해 막대한 물리 피해를 줍니다."
+        "zh": "敌人身上的物理异常，主要是破防层数（来自击飞、倒地和声明带状态的物理命中）。物理异常总是先施加破防，且不触发法术异常。猛击和碎甲消耗它们造成巨额物理伤害。",
+        "ja": "敵に付く物理の状態で、主にクラッシュのスタック（浮遊、転倒、状態を伴うと明記された物理ヒットから）。物理異常は常にまずクラッシュを付与し、アーツ異常は起こしません。猛撃と破砕がこれを消費して大量の物理ダメージを出します。",
+        "ko": "적에게 붙는 물리 이상으로, 주로 방어 불능 중첩(띄우기, 넘어뜨리기, 상태를 명시한 물리 타격에서). 물리 이상은 항상 먼저 방어 불능을 걸고 아츠 이상을 일으키지 않습니다. 강타와 갑옷 파괴가 이를 소모해 막대한 물리 피해를 줍니다."
       }
     },
     {
@@ -938,7 +938,7 @@
         "es": "Debuff que aumenta el daño Physical que recibe el enemigo. Se alinea con el burst físico para multiplicar el remate.",
         "en": "Debuff that increases the Physical DMG the enemy takes. Lined up with the physical burst to multiply the finisher.",
         "zh": "增加敌人受到物理伤害的减益。与物理爆发对齐以放大收尾一击。",
-        "ja": "敵の物理被ダメージを増やすデバフ。物理バーストに合わせてフィニッシュを増幅します。",
+        "ja": "敵の受ける物理ダメージを増やすデバフ。物理バーストに合わせてフィニッシュを増幅します。",
         "ko": "적이 받는 물리 피해를 늘리는 디버프. 물리 폭발에 맞춰 마무리 타격을 배가합니다."
       }
     },
@@ -983,7 +983,7 @@
         "es": "Debuff que aumenta el daño Electric que recibe el enemigo.",
         "en": "Debuff that increases the Electric DMG the enemy takes.",
         "zh": "增加敌人受到电磁伤害的减益。",
-        "ja": "敵の電磁被ダメージを増やすデバフ。",
+        "ja": "敵の受ける電磁ダメージを増やすデバフ。",
         "ko": "적이 받는 전기 피해를 늘리는 디버프."
       }
     },
@@ -1004,7 +1004,7 @@
         "es": "Debuff que aumenta el daño Cryo que recibe el enemigo.",
         "en": "Debuff that increases the Cryo DMG the enemy takes.",
         "zh": "增加敌人受到寒冷伤害的减益。",
-        "ja": "敵の寒冷被ダメージを増やすデバフ。",
+        "ja": "敵の受ける寒冷ダメージを増やすデバフ。",
         "ko": "적이 받는 냉기 피해를 늘리는 디버프."
       }
     },
@@ -1026,7 +1026,7 @@
         "es": "Debuff que aumenta el daño Heat que recibe el enemigo.",
         "en": "Debuff that increases the Heat DMG the enemy takes.",
         "zh": "增加敌人受到灼热伤害的减益。",
-        "ja": "敵の灼熱被ダメージを増やすデバフ。",
+        "ja": "敵の受ける灼熱ダメージを増やすデバフ。",
         "ko": "적이 받는 열기 피해를 늘리는 디버프."
       }
     },
@@ -1156,9 +1156,9 @@
       "body": {
         "es": "Control que derriba a los enemigos del área. Como estado físico, también acumula Vulnerability.",
         "en": "Crowd-control that knocks down enemies in the area. As a physical status, it also stacks Vulnerability.",
-        "zh": "倒地范围内敌人的控制。作为物理状态，它也会叠加破防。",
-        "ja": "範囲内の敵を転倒させる制御。物理状態としてクラッシュも積みます。",
-        "ko": "범위 안의 적을 넘어뜨리는 제어. 물리 상태로서 방어 불능도 쌓습니다."
+        "zh": "倒地范围内敌人的控制。作为物理异常，它也会叠加破防。",
+        "ja": "範囲内の敵を転倒させる制御。物理異常としてクラッシュも積みます。",
+        "ko": "범위 안의 적을 넘어뜨리는 제어. 물리 이상으로서 방어 불능도 쌓습니다."
       }
     },
     {
@@ -1247,7 +1247,7 @@
       "body": {
         "es": "Ralentiza al enemigo (movimiento y acciones), lo que facilita esquivar y encadenar la rotación.",
         "en": "Slows the enemy (movement and actions), making it easier to dodge and chain the rotation.",
-        "zh": "减慢敌人（移动和行动），更容易闪避和衔接轮转。",
+        "zh": "减慢敌人（移动和行动），更容易闪避和衔接循环。",
         "ja": "敵を減速させ（移動と行動）、回避とローテーションのつなぎが楽になります。",
         "ko": "적을 느리게 해(이동과 행동) 회피와 로테이션 연결을 쉽게 합니다."
       }
@@ -1383,8 +1383,8 @@
       "body": {
         "es": "Re-aplicar el MISMO elemento Arts con su Infliction ya saturada (4 stacks): cada aplicación extra detona un golpe fijo (≈160%, puede critear). NO consume la Infliction ni escala con stacks, a diferencia de la Arts Reaction de cambiar de elemento. Mientras no esté saturada, re-aplicar solo apila.",
         "en": "Re-applying the SAME Arts element while its Infliction is already saturated (4 stacks): each extra application detonates a fixed hit (~160%, can crit). It does NOT consume the Infliction and does not scale with stacks, unlike the cross-element Arts Reaction. Below saturation, re-applying just stacks.",
-        "zh": "在附着已饱和（4 层）时再次施加同一法术属性：每次额外施加引爆一次固定伤害（约 160%，可暴击）。它不消耗附着，也不随层数成长，与跨属性的法术异常不同。未饱和时，再次施加只是叠层。",
-        "ja": "付着が飽和（4 スタック）している状態で同じアーツ属性を再付与すること：追加の付与ごとに固定のヒット（約 160%、会心あり）が起きます。付着を消費せず、スタックでスケールもしない点が、属性をまたぐアーツ異常と違います。飽和前の再付与はただ積み重なるだけです。",
+        "zh": "在附着已饱和（4层）时再次施加同一法术属性：每次额外施加引爆一次固定伤害（约160%，可暴击）。它不消耗附着，也不随层数成长，与跨属性的法术异常不同。未饱和时，再次施加只是叠层。",
+        "ja": "付着が飽和（4スタック）している状態で同じアーツ属性を再付与すること：追加の付与ごとに固定のヒット（約160%、会心あり）が起きます。付着を消費せず、スタックでスケールもしない点が、属性をまたぐアーツ異常と違います。飽和前の再付与はただ積み重なるだけです。",
         "ko": "부착이 이미 포화(4중첩)된 상태에서 같은 아츠 속성을 다시 적용하는 것: 추가 적용마다 고정 타격(약 160%, 치명타 가능)이 터집니다. 부착을 소모하지 않고 중첩에 따라 커지지도 않는다는 점이 속성 간 아츠 이상과 다릅니다. 포화 전의 재적용은 그저 중첩만 쌓입니다."
       }
     },
@@ -1407,7 +1407,7 @@
         "es": "Stat que potencia las reacciones: cada punto = +1% de daño de reacción, y además refuerza los debuffs de Corrosión/Breach/Electrification. No afecta al daño de skill directo. Clave en las comps que viven de reacciones.",
         "en": "A stat that powers reactions: each point = +1% reaction damage, and it also strengthens Corrosion/Breach/Electrification debuffs. It does NOT affect direct skill damage. Key for reaction-based comps.",
         "zh": "驱动反应的属性：每点 = 反应伤害 +1%，还会强化腐蚀/碎甲/导电减益。它不影响直接的技能伤害。反应队伍的关键。",
-        "ja": "反応を強めるステータス：1 ポイントごとに反応ダメージ +1%、さらに腐食/破砕/感電のデバフも強化します。スキルの直接ダメージには影響しません。反応型編成の鍵です。",
+        "ja": "反応を強めるステータス：1ポイントごとに反応ダメージ +1%、さらに腐食/破砕/感電のデバフも強化します。スキルの直接ダメージには影響しません。反応型編成の鍵です。",
         "ko": "반응을 강화하는 스탯: 1포인트마다 반응 피해 +1%이며 부식/갑옷 파괴/감전 디버프도 강화합니다. 스킬의 직접 피해에는 영향을 주지 않습니다. 반응 기반 조합의 핵심입니다."
       }
     },
@@ -1429,7 +1429,7 @@
       "body": {
         "es": "Mitigación elemental del objetivo, aparte de la DEFENSA. En enemigos se muestra por LETRAS (D = neutral, C = resiste algo, B = resiste más); en operadores, en % (de Agility/Intellect). Se reduce con Corrosión o se ignora con ciertas skills.",
         "en": "The target's elemental mitigation, separate from DEFENSE. On enemies it's shown as LETTERS (D = neutral, C = some, B = more); on operators as % (from Agility/Intellect). Lowered by Corrosion or bypassed by certain skills.",
-        "zh": "目标的元素减免，与防御分开。敌人身上以字母显示（D = 中性，C = 有一些，B = 更多）；干员身上以 % 显示（来自敏捷/智识）。可被腐蚀降低或被某些技能无视。",
+        "zh": "目标的元素减免，与防御分开。敌人身上以字母显示（D = 中性，C = 有一些，B = 更多）；干员身上以 %显示（来自敏捷/智识）。可被腐蚀降低或被某些技能无视。",
         "ja": "対象の属性軽減で、防御とは別物。敵では文字で表示され（D＝中立、C＝多少、B＝さらに）、オペレーターでは %（敏捷/知性由来）。腐食で下がり、特定のスキルは無視できます。",
         "ko": "대상의 속성 경감으로 방어와는 별개입니다. 적에게는 문자로 표시되고(D = 중립, C = 약간, B = 더 많이), 오퍼레이터에게는 %(민첩/지능에서)로 표시됩니다. 부식으로 낮아지거나 특정 스킬이 무시합니다."
       }
@@ -1455,8 +1455,8 @@
       "body": {
         "es": "Bajar la resistencia elemental del enemigo para que reciba más daño de ese elemento. La fuente principal es Corrosión (con rampa en el tiempo) y el Resistance Ignore plano de algunas skills. Es el único 'shred' real del juego: la DEFENSA no se reduce (es 100 fija).",
         "en": "Lowering the enemy's elemental resistance so it takes more of that element. The main sources are Corrosion (ramping over time) and flat Resistance Ignore on some skills. It's the game's only real 'shred': DEFENSE is never reduced (a fixed 100).",
-        "zh": "降低敌人的元素抗性，让它受到更多该属性伤害。主要来源是腐蚀（随时间增长）和部分技能的固定抗性无视。这是游戏里唯一真正的「削减」：防御永远不会降低（固定 100）。",
-        "ja": "敵の属性耐性を下げて、その属性のダメージを多く受けさせること。主な供給源は腐食（時間とともに増える）と、一部スキルの固定の耐性無視です。ゲームで唯一の本当の「減少」：防御は決して下がりません（固定 100）。",
+        "zh": "降低敌人的元素抗性，让它受到更多该属性伤害。主要来源是腐蚀（随时间增长）和部分技能的固定抗性无视。这是游戏里唯一真正的「削减」：防御永远不会降低（固定100）。",
+        "ja": "敵の属性耐性を下げて、その属性のダメージを多く受けさせること。主な供給源は腐食（時間とともに増える）と、一部スキルの固定の耐性無視です。ゲームで唯一の本当の「減少」：防御は決して下がりません（固定100）。",
         "ko": "적의 속성 저항을 낮춰 그 속성의 피해를 더 받게 하는 것. 주요 공급원은 부식(시간에 따라 증가)과 일부 스킬의 고정 저항 무시입니다. 게임에서 유일하게 진짜 '감소'입니다. 방어는 절대 내려가지 않습니다(고정 100)."
       }
     },
@@ -1504,8 +1504,8 @@
       "body": {
         "es": "Mitigación plana del objetivo. TODOS los enemigos tienen 100 de DEF base (−50% de daño), no escala con nivel y sigue la curva 100/(DEF+100). NUNCA se reduce: no existe shred de DEF en Endfield; el \"armor break\" del juego (Breach) no toca la DEF — deja al enemigo recibiendo más daño Physical un rato.",
         "en": "Flat mitigation on the target. ALL enemies have 100 base DEF (−50% damage), it does not scale with level and follows the 100/(DEF+100) curve. It is NEVER reduced: there is no DEF shred in Endfield; the in-game \"armor break\" (Breach) does not touch DEF — it leaves the enemy taking more Physical damage for a while.",
-        "zh": "目标的固定减伤。所有敌人基础防御为 100（−50% 伤害），不随等级变化，遵循 100/(DEF+100) 曲线。它永远不会降低：终末地没有防御削减；游戏内的「破甲」（碎甲）不影响防御——它让敌人在一段时间内受到更多物理伤害。",
-        "ja": "対象の固定軽減。すべての敵の基礎 DEF は 100（ダメージ −50%）で、レベルで変わらず、100/(DEF+100) の曲線に従います。決して下がりません：エンドフィールドに防御減少はなく、ゲーム内の「装甲破壊」（破砕）も DEF には触れず、敵をしばらく物理ダメージを多く受ける状態にするだけです。",
+        "zh": "目标的固定减伤。所有敌人基础防御为100（−50%伤害），不随等级变化，遵循100/(DEF+100) 曲线。它永远不会降低：终末地没有防御削减；游戏内的「破甲」（碎甲）不影响防御——它让敌人在一段时间内受到更多物理伤害。",
+        "ja": "対象の固定軽減。すべての敵の基礎 DEF は100（ダメージ −50%）で、レベルで変わらず、100/(DEF+100) の曲線に従います。決して下がりません：エンドフィールドに防御減少はなく、ゲーム内の「装甲破壊」（破砕）も DEF には触れず、敵をしばらく物理ダメージを多く受ける状態にするだけです。",
         "ko": "대상의 고정 경감. 모든 적의 기본 방어는 100(피해 −50%)이며 레벨에 따라 변하지 않고 100/(DEF+100) 곡선을 따릅니다. 절대 내려가지 않습니다. 엔드필드에 방어 감소는 없으며, 게임 내 '방어 파괴'(갑옷 파괴)도 방어를 건드리지 않고 적이 한동안 물리 피해를 더 받게 할 뿐입니다."
       }
     },
@@ -1530,8 +1530,8 @@
       "body": {
         "es": "Golpe crítico. Dos stats: Crit Rate (probabilidad, base 5%) y Crit DMG (daño extra, base +50%). En los cálculos se usan como valor esperado: ×(1 + Rate × DMG).",
         "en": "Critical hit. Two stats: Crit Rate (chance, base 5%) and Crit DMG (extra damage, base +50%). Calculations use the expected value: ×(1 + Rate × DMG).",
-        "zh": "暴击。两个属性：暴击率（概率，基础 5%）和暴击伤害（额外伤害，基础 +50%）。计算使用期望值：×(1 + 暴击率 × 暴击伤害)。",
-        "ja": "会心。2 つのステータス：会心率（確率、基礎 5%）と会心ダメージ（追加ダメージ、基礎 +50%）。計算は期待値を使います：×(1＋確率×ダメージ)。",
+        "zh": "暴击。两个属性：暴击率（概率，基础5%）和暴击伤害（额外伤害，基础 +50%）。计算使用期望值：×(1 + 暴击率 × 暴击伤害)。",
+        "ja": "会心。2つのステータス：会心率（確率、基礎5%）と会心ダメージ（追加ダメージ、基礎 +50%）。計算は期待値を使います：×(1＋確率×ダメージ)。",
         "ko": "치명타. 두 스탯: 치명타 확률(기본 5%)과 치명타 피해(추가 피해, 기본 +50%). 계산은 기대값을 사용합니다: ×(1 + 확률 × 피해)."
       }
     },
@@ -1623,7 +1623,7 @@
       "body": {
         "es": "Mecánica de kit en la que el operador CONSUME un estado que ya está sobre el enemigo (Corrosión, una Inflicción elemental, Vulnerability, Electrification, Originium Crystals o una Arts Reaction) para disparar un golpe extra, un efecto adicional o recuperar SP. Suele pagar más cuantos más stacks consume. Ej.: Ardelia consume Corrosión, Alesh el Cryo Infliction, Pogranichnik los stacks de Vulnerability.",
         "en": "A kit mechanic where the operator CONSUMES a status already on the enemy (Corrosion, an elemental Infliction, Vulnerability, Electrification, Originium Crystals or an Arts Reaction) to trigger an extra hit, an added effect or to refund SP. It usually pays out more the more stacks it consumes. E.g. Ardelia consumes Corrosion, Alesh the Cryo Infliction, Pogranichnik the Vulnerability stacks.",
-        "zh": "一种套件机制：干员消耗敌人身上已有的状态（腐蚀、元素附着、破防、导电、源石结晶或法术异常）来触发额外一击、附加效果或返还 SP。通常消耗的层数越多收益越大。例如艾尔黛拉消耗腐蚀，阿列什消耗寒冷附着，骏卫消耗破防层数。",
+        "zh": "一种套件机制：干员消耗敌人身上已有的状态（腐蚀、元素附着、破防、导电、源石结晶或法术异常）来触发额外一击、附加效果或返还 技力。通常消耗的层数越多收益越大。例如艾尔黛拉消耗腐蚀，阿列什消耗寒冷附着，骏卫消耗破防层数。",
         "ja": "オペレーターが敵にすでにある状態（腐食、属性付着、クラッシュ、感電、オリジニウム結晶、アーツ異常）を消費して、追加ヒット、付加効果、SP 返還を発動するキットの仕組み。消費するスタックが多いほど見返りも大きいのが普通です。例：アルデリアは腐食を、アレッシュは寒冷付着を、ポグラニチニクはクラッシュのスタックを消費します。",
         "ko": "오퍼레이터가 적에게 이미 있는 상태(부식, 속성 부착, 방어 불능, 감전, 오리지늄 결정, 아츠 이상)를 소모해 추가 타격, 부가 효과, SP 반환을 발동하는 키트 메커니즘. 보통 소모한 중첩이 많을수록 더 큰 보상을 줍니다. 예: 아델리아는 부식을, 알레쉬는 냉기 부착을, 포그라니치니크는 방어 불능 중첩을 소모합니다."
       }
@@ -1645,7 +1645,7 @@
       "body": {
         "es": "Devolución de Skill Points al fondo común del equipo, normalmente al golpear, derrotar a un enemigo o cumplir una condición (a veces escalada por los stacks consumidos). Sostiene el bucle de SP de la rotación para que el equipo pueda repetir Battle Skills sin quedarse seco.",
         "en": "A refund of Skill Points back into the team's shared pool, usually on hit, on kill or when a condition is met (sometimes scaled by the stacks consumed). It sustains the rotation's SP loop so the team can keep casting Battle Skills without running dry.",
-        "zh": "把技能点退回队伍共享池，通常在命中、击杀或满足条件时（有时按消耗的层数缩放）。它维持轮转的 SP 循环，让队伍能持续释放战技而不枯竭。",
+        "zh": "把技能点退回队伍共享池，通常在命中、击杀或满足条件时（有时按消耗的层数缩放）。它维持循环的 技力循环，让队伍能持续释放战技而不枯竭。",
         "ja": "スキルポイントをチーム共有のプールに戻すこと。通常はヒット時、撃破時、条件達成時（消費したスタックでスケールすることも）。ローテーションの SP ループを支え、チームが枯渇せずに戦技を撃ち続けられるようにします。",
         "ko": "스킬 포인트를 팀 공유 풀로 되돌리는 것. 보통 적중, 처치, 조건 충족 시(때로는 소모한 중첩에 비례). 로테이션의 SP 순환을 유지해 팀이 마르지 않고 배틀 스킬을 계속 쓰게 합니다."
       }
@@ -1715,9 +1715,9 @@
       "body": {
         "es": "La Ráfaga de artes del elemento calor: volver a aplicar calor cuando la Heat Infliction del enemigo ya está saturada (4 stacks) detona un golpe fijo (≈160%, puede critear). No consume la Infliction ni escala con stacks.",
         "en": "The Arts Burst of the Heat element: re-applying Heat while the enemy's Heat Infliction is already saturated (4 stacks) detonates a fixed hit (~160%, can crit). It does not consume the Infliction and does not scale with stacks.",
-        "zh": "灼热属性的法术爆发：敌人的灼热附着已饱和（4 层）时再次施加灼热，会引爆一次固定伤害（约 160%，可暴击）。不消耗附着，也不随层数成长。",
-        "ja": "灼熱属性のアーツ爆発：敵の灼熱付着が飽和（4 スタック）している状態で灼熱を再付与すると、固定のヒット（約 160%、会心あり）が起きます。付着を消費せず、スタックでスケールもしません。",
-        "ko": "열기 속성의 아츠 폭발: 적의 열기 부착이 이미 포화(4중첩)된 상태에서 열기을 다시 적용하면 고정 타격(약 160%, 치명타 가능)이 터집니다. 부착을 소모하지 않고 중첩에 따라 커지지도 않습니다."
+        "zh": "灼热属性的法术爆发：敌人的灼热附着已饱和（4层）时再次施加灼热，会引爆一次固定伤害（约160%，可暴击）。不消耗附着，也不随层数成长。",
+        "ja": "灼熱属性のアーツ爆発：敵の灼熱付着が飽和（4スタック）している状態で灼熱を再付与すると、固定のヒット（約160%、会心あり）が起きます。付着を消費せず、スタックでスケールもしません。",
+        "ko": "열기 속성의 아츠 폭발: 적의 열기 부착이 이미 포화(4중첩)된 상태에서 열기를 다시 적용하면 고정 타격(약 160%, 치명타 가능)이 터집니다. 부착을 소모하지 않고 중첩에 따라 커지지도 않습니다."
       }
     },
     {
@@ -1740,9 +1740,9 @@
       "body": {
         "es": "La Ráfaga de artes del elemento criogénico: volver a aplicar criogénico cuando la Cryo Infliction del enemigo ya está saturada (4 stacks) detona un golpe fijo (≈160%, puede critear). No consume la Infliction ni escala con stacks.",
         "en": "The Arts Burst of the Cryo element: re-applying Cryo while the enemy's Cryo Infliction is already saturated (4 stacks) detonates a fixed hit (~160%, can crit). It does not consume the Infliction and does not scale with stacks.",
-        "zh": "寒冷属性的法术爆发：敌人的寒冷附着已饱和（4 层）时再次施加寒冷，会引爆一次固定伤害（约 160%，可暴击）。不消耗附着，也不随层数成长。",
-        "ja": "寒冷属性のアーツ爆発：敵の寒冷付着が飽和（4 スタック）している状態で寒冷を再付与すると、固定のヒット（約 160%、会心あり）が起きます。付着を消費せず、スタックでスケールもしません。",
-        "ko": "냉기 속성의 아츠 폭발: 적의 냉기 부착이 이미 포화(4중첩)된 상태에서 냉기을 다시 적용하면 고정 타격(약 160%, 치명타 가능)이 터집니다. 부착을 소모하지 않고 중첩에 따라 커지지도 않습니다."
+        "zh": "寒冷属性的法术爆发：敌人的寒冷附着已饱和（4层）时再次施加寒冷，会引爆一次固定伤害（约160%，可暴击）。不消耗附着，也不随层数成长。",
+        "ja": "寒冷属性のアーツ爆発：敵の寒冷付着が飽和（4スタック）している状態で寒冷を再付与すると、固定のヒット（約160%、会心あり）が起きます。付着を消費せず、スタックでスケールもしません。",
+        "ko": "냉기 속성의 아츠 폭발: 적의 냉기 부착이 이미 포화(4중첩)된 상태에서 냉기를 다시 적용하면 고정 타격(약 160%, 치명타 가능)이 터집니다. 부착을 소모하지 않고 중첩에 따라 커지지도 않습니다."
       }
     },
     {
@@ -1765,9 +1765,9 @@
       "body": {
         "es": "La Ráfaga de artes del elemento eléctrico: volver a aplicar eléctrico cuando la Electric Infliction del enemigo ya está saturada (4 stacks) detona un golpe fijo (≈160%, puede critear). No consume la Infliction ni escala con stacks.",
         "en": "The Arts Burst of the Electric element: re-applying Electric while the enemy's Electric Infliction is already saturated (4 stacks) detonates a fixed hit (~160%, can crit). It does not consume the Infliction and does not scale with stacks.",
-        "zh": "电磁属性的法术爆发：敌人的电磁附着已饱和（4 层）时再次施加电磁，会引爆一次固定伤害（约 160%，可暴击）。不消耗附着，也不随层数成长。",
-        "ja": "電磁属性のアーツ爆発：敵の電磁付着が飽和（4 スタック）している状態で電磁を再付与すると、固定のヒット（約 160%、会心あり）が起きます。付着を消費せず、スタックでスケールもしません。",
-        "ko": "전기 속성의 아츠 폭발: 적의 전기 부착이 이미 포화(4중첩)된 상태에서 전기을 다시 적용하면 고정 타격(약 160%, 치명타 가능)이 터집니다. 부착을 소모하지 않고 중첩에 따라 커지지도 않습니다."
+        "zh": "电磁属性的法术爆发：敌人的电磁附着已饱和（4层）时再次施加电磁，会引爆一次固定伤害（约160%，可暴击）。不消耗附着，也不随层数成长。",
+        "ja": "電磁属性のアーツ爆発：敵の電磁付着が飽和（4スタック）している状態で電磁を再付与すると、固定のヒット（約160%、会心あり）が起きます。付着を消費せず、スタックでスケールもしません。",
+        "ko": "전기 속성의 아츠 폭발: 적의 전기 부착이 이미 포화(4중첩)된 상태에서 전기를 다시 적용하면 고정 타격(약 160%, 치명타 가능)이 터집니다. 부착을 소모하지 않고 중첩에 따라 커지지도 않습니다."
       }
     },
     {
@@ -1790,8 +1790,8 @@
       "body": {
         "es": "La Ráfaga de artes del elemento naturaleza: volver a aplicar naturaleza cuando la Nature Infliction del enemigo ya está saturada (4 stacks) detona un golpe fijo (≈160%, puede critear). No consume la Infliction ni escala con stacks. Algunos kits la fuerzan directamente (el Disparo potente de Typhoeus) o suben el daño que hace (Formación de disparos).",
         "en": "The Arts Burst of the Nature element: re-applying Nature while the enemy's Nature Infliction is already saturated (4 stacks) detonates a fixed hit (~160%, can crit). It does not consume the Infliction and does not scale with stacks. Some kits force it directly (Typhoeus's Power Shot) or raise the damage it deals (Barrage Array).",
-        "zh": "自然属性的法术爆发：敌人的自然附着已饱和（4 层）时再次施加自然，会引爆一次固定伤害（约 160%，可暴击）。不消耗附着，也不随层数成长。有些套件会直接强制触发它（提弗洛斯的强化射击）或提高它造成的伤害（箭阵）。",
-        "ja": "自然属性のアーツ爆発：敵の自然付着が飽和（4 スタック）している状態で自然を再付与すると、固定のヒット（約 160%、会心あり）が起きます。付着を消費せず、スタックでスケールもしません。キットによっては直接強制発動したり（ティフォロスの強化射撃）、その被ダメージを上げたり（矢陣）します。",
+        "zh": "自然属性的法术爆发：敌人的自然附着已饱和（4层）时再次施加自然，会引爆一次固定伤害（约160%，可暴击）。不消耗附着，也不随层数成长。有些套件会直接强制触发它（提弗洛斯的强化射击）或提高它造成的伤害（箭阵）。",
+        "ja": "自然属性のアーツ爆発：敵の自然付着が飽和（4スタック）している状態で自然を再付与すると、固定のヒット（約160%、会心あり）が起きます。付着を消費せず、スタックでスケールもしません。キットによっては直接強制発動したり（ティフォロスの強化射撃）、その被ダメージを上げたり（矢陣）します。",
         "ko": "자연 속성의 아츠 폭발: 적의 자연 부착이 이미 포화(4중첩)된 상태에서 자연을 다시 적용하면 고정 타격(약 160%, 치명타 가능)이 터집니다. 부착을 소모하지 않고 중첩에 따라 커지지도 않습니다. 일부 키트는 이를 직접 강제하거나(티프로스의 강력한 사격) 받는 피해를 높입니다(화살진)."
       }
     },
@@ -1815,7 +1815,7 @@
         "es": "Debuff que aumenta el daño de naturaleza que recibe el enemigo.",
         "en": "Debuff that increases the Nature DMG the enemy takes.",
         "zh": "增加敌人受到自然伤害的减益。",
-        "ja": "敵の自然被ダメージを増やすデバフ。",
+        "ja": "敵の受ける自然ダメージを増やすデバフ。",
         "ko": "적이 받는 자연 피해를 늘리는 디버프."
       }
     },
@@ -1996,7 +1996,7 @@
       "body": {
         "es": "Debuff que ralentiza todas las acciones del enemigo. El combo de Arcane (Postura de Yinglung IV) lo aplica junto con Susceptibilidad a la naturaleza y criogénica; golpear a un enemigo aprisionado con su battle skill devuelve SP, termina el Aprisionamiento antes y detona daño extra (Arcano de matriz: INT).",
         "en": "A debuff that slows all of the enemy's actions. Arcane's combo (Yinglung Stance IV) applies it together with Nature and Cryo Susceptibility; hitting an imprisoned enemy with her battle skill returns SP, ends the Imprisonment early and detonates extra damage (Array Arcana: INT).",
-        "zh": "让敌人所有动作变慢的减益。诀的连携技（应龙四式）会在施加自然脆弱与寒冷脆弱的同时施加它；用战技命中处于囹圄的敌人会返还 SP、提前结束囹圄并引爆额外伤害（阵诀·智）。",
+        "zh": "让敌人所有动作变慢的减益。诀的连携技（应龙四式）会在施加自然脆弱与寒冷脆弱的同时施加它；用战技命中处于囹圄的敌人会返还 技力、提前结束囹圄并引爆额外伤害（阵诀·智）。",
         "ja": "敵のあらゆる行動を遅くするデバフ。オクギの連携技（応龍四式）が自然脆弱・寒冷脆弱と一緒に付与します。牢獄状態の敵を戦技で攻撃すると SP が返還され、牢獄が早く終わって追加ダメージが発生します（陣訣・知）。",
         "ko": "적의 모든 행동을 느리게 하는 디버프. 결의 연계 스킬(응룡 4식)이 자연 취약·냉기 취약과 함께 부여합니다. 구속 상태의 적을 배틀 스킬로 맞히면 SP가 반환되고 구속이 일찍 끝나며 추가 피해가 터집니다(진결 · 지혜)."
       }
@@ -2145,14 +2145,14 @@
         "es": "Daño recibido",
         "en": "DMG Taken",
         "zh": "受到伤害",
-        "ja": "被ダメージ",
+        "ja": "受けるダメージ",
         "ko": "받는 피해"
       },
       "body": {
         "es": "Modificador del daño que recibe un objetivo. Sobre un enemigo es un debuff («Physical DMG Taken +20%», Vulnerability, Susceptibility); sobre aliados es reducción de daño (Liino: DMG Taken −10%). Se multiplica con tu propia Amp.",
         "en": "A modifier on the damage a target takes. On an enemy it is a debuff ('Physical DMG Taken +20%', Vulnerability, Susceptibility); on allies it is damage reduction (Liino: DMG Taken −10%). It multiplies with your own Amp.",
         "zh": "目标所受伤害的修正。对敌人是减益（“物理受到伤害 +20%”、破防、脆弱）；对己方是减伤（梨诺：受到伤害 −10%）。与自身的增幅相乘。",
-        "ja": "対象が受けるダメージの補正。敵にかかればデバフ（「物理被ダメージ +20%」、クラッシュ、脆弱）、味方にかかればダメージ軽減（リーノ：被ダメージ −10%）。自分の増幅とは乗算です。",
+        "ja": "対象が受けるダメージの補正。敵にかかればデバフ（「受ける物理ダメージ +20%」、クラッシュ、脆弱）、味方にかかればダメージ軽減（リーノ：被ダメージ −10%）。自分の増幅とは乗算です。",
         "ko": "대상이 받는 피해의 보정. 적에게 걸리면 디버프('물리 받는 피해 +20%', 방어 불능, 취약), 아군에게 걸리면 피해 감소(리노: 받는 피해 −10%). 자신의 증폭과 곱연산입니다."
       }
     },

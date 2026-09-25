@@ -5,15 +5,15 @@
     "assume": {
       "es": "Modelado a dificultad alta (Riesgo ~20+): se asumen activos los dos Key Criteria — Tremor (+daño no-skill, −60% Battle Skill) y Overclock (combo cooldown↓, −Battle Skill) — más Vitality (HP enemigo↑). Por eso el daño de reacción (Combustion/Crush/Shatter) sube y las carries de Battle Skill bajan.",
       "en": "Modeled at high difficulty (Risk ~20+): both Key Criteria assumed active — Tremor (+non-skill damage, −60% Battle Skill) and Overclock (combo cooldown↓, −Battle Skill) — plus Vitality (enemy HP↑). That's why reaction damage (Combustion/Crush/Shatter) goes up and Battle Skill carries go down.",
-      "zh": "按高难度建模（风险度约 20+）：假定两个密钥指标都生效——震荡（非技能伤害提升、战技 −60%）和过速（连携技冷却缩短、战技削减）——外加活性（敌人 HP 提升）。因此反应伤害（燃烧/猛击/碎冰）上升，战技主C下降。",
-      "ja": "高難度（危険レベル約 20+）でモデル化：認証指標を 2 つとも有効と仮定（振動：非スキルダメージ増、戦技 −60%／過速：連携技クールダウン短縮、戦技減）に加えて活性化（敵 HP 増）。だから反応ダメージ（燃焼/猛撃/粉砕）は上がり、戦技キャリーは下がります。",
+      "zh": "按高难度建模（风险度约20+）：假定两个密钥指标都生效——震荡（非技能伤害提升、战技 −60%）和过速（连携技冷却缩短、战技削减）——外加活性（敌人 HP 提升）。因此反应伤害（燃烧/猛击/碎冰）上升，战技主C下降。",
+      "ja": "高難度（危険レベル約20+）でモデル化：認証指標を2つとも有効と仮定（振動：非スキルダメージ増、戦技 −60%／過速：連携技クールダウン短縮、戦技減）に加えて活性化（敵 HP 増）。だから反応ダメージ（燃焼/猛撃/粉砕）は上がり、戦技キャリーは下がります。",
       "ko": "고난도(위험도 약 20+)로 모델링: 비밀 지표 둘 다 활성으로 가정 — 충격(비스킬 피해 증가, 배틀 스킬 −60%)과 과속(연계 스킬 쿨타임 감소, 배틀 스킬 감소) — 여기에 활성(적 HP 증가). 그래서 반응 피해(연소/강타/쇄빙)는 오르고 배틀 스킬 캐리는 내려갑니다."
     },
     "methodology": {
       "es": "Lo que más pesa es el FIT con el meta de la temporada (lo fuerte aquí es la REACCIÓN, no el daño bruto de un operador). POWER usa el motor de daño real de la app (mismo `window.ef.compare` de la pestaña Daño, con todos los buffs), con el Battle Skill recortado al 50% por los Key Criteria — pero pesa poco a propósito, porque el motor mide daño de skill, no de reacción. ROBUST = supervivencia frente a los criterios; AVAIL = disponibilidad. Pesos: FIT 55% · POWER 15% · ROBUST 18% · AVAIL 12%. Es utilidad PARA ESTE EVENTO, no poder general.",
       "en": "FIT with the season meta weighs the most (what's strong here is the REACTION, not an operator's raw damage). POWER uses the app's real damage engine (the same `window.ef.compare` as the Damage tab, with all buffs), with Battle Skill cut to 50% for the Key Criteria — but it's weighted low on purpose, because the engine measures skill damage, not reaction damage. ROBUST = survival against the criteria; AVAIL = availability. Weights: FIT 55% · POWER 15% · ROBUST 18% · AVAIL 12%. Usefulness FOR THIS EVENT, not general power.",
-      "zh": "与赛季 meta 的契合度权重最高（这里强的是反应，不是干员的裸伤害）。强度使用应用的真实伤害引擎（与「伤害」页相同的 `window.ef.compare`，含全部增益），并按密钥指标把战技削至 50%——但权重刻意压低，因为引擎测的是技能伤害而非反应伤害。稳健 = 在指标下的生存力；可得 = 获取难易度。权重：契合 55% · 强度 15% · 稳健 18% · 可得 12%。衡量的是对本活动的有用程度，不是通用强度。",
-      "ja": "シーズンメタとの適合が最も重い（ここで強いのは反応であって、オペレーターの素のダメージではない）。パワーはアプリの実ダメージエンジン（ダメージタブと同じ `window.ef.compare`、全バフ込み）を使い、認証指標に合わせて戦技を 50% に削減。ただしエンジンが測るのはスキルダメージで反応ダメージではないため、重みは意図的に低め。堅牢 = 指標に対する生存力、入手 = 入手しやすさ。重み：適合 55% · パワー 15% · 堅牢 18% · 入手 12%。このイベントでの有用性であって、一般的な強さではありません。",
+      "zh": "与赛季 meta 的契合度权重最高（这里强的是反应，不是干员的裸伤害）。强度使用应用的真实伤害引擎（与「伤害」页相同的 `window.ef.compare`，含全部增益），并按密钥指标把战技削至50%——但权重刻意压低，因为引擎测的是技能伤害而非反应伤害。稳健 = 在指标下的生存力；可得 = 获取难易度。权重：契合55% · 强度15% · 稳健18% · 可得12%。衡量的是对本活动的有用程度，不是通用强度。",
+      "ja": "シーズンメタとの適合が最も重い（ここで強いのは反応であって、オペレーターの素のダメージではない）。パワーはアプリの実ダメージエンジン（ダメージタブと同じ `window.ef.compare`、全バフ込み）を使い、認証指標に合わせて戦技を50%に削減。ただしエンジンが測るのはスキルダメージで反応ダメージではないため、重みは意図的に低め。堅牢 = 指標に対する生存力、入手 = 入手しやすさ。重み：適合55% · パワー15% · 堅牢18% · 入手12%。このイベントでの有用性であって、一般的な強さではありません。",
       "ko": "시즌 메타와의 적합도가 가장 무겁습니다(여기서 강한 것은 반응이지 오퍼레이터의 순수 피해가 아님). 파워는 앱의 실제 피해 엔진(피해 탭과 같은 `window.ef.compare`, 모든 버프 포함)을 쓰고 비밀 지표에 맞춰 배틀 스킬을 50%로 깎지만, 엔진이 재는 것은 스킬 피해이지 반응 피해가 아니라서 가중치는 일부러 낮게 둡니다. 견고 = 지표에 대한 생존력, 획득 = 획득 용이성. 가중치: 적합 55% · 파워 15% · 견고 18% · 획득 12%. 이 이벤트에서의 유용성이지 일반적인 강함이 아닙니다."
     },
     "slotMult": {
@@ -52,15 +52,15 @@
         "es": "Combustión · gratis",
         "en": "Combustion · free",
         "zh": "燃烧 · 免费",
-        "ja": "燃焼 · 無料",
+        "ja": "燃焼・配布",
         "ko": "연소 · 무료"
       },
       "note": {
         "es": "Mitad del equipo más fuerte del juego (Gilberta + Wulfgard). Gilberta agrupa a los enemigos y dispara su COMBO skill — que es AoE, no su Battle Skill que es single-target — así que su Combustión limpia oleadas enteras sin parar. Y es gratis: todo el mundo lo tiene.",
         "en": "Half of the strongest team in the game (Gilberta + Wulfgard). Gilberta groups enemies and triggers his COMBO skill — which is AoE, unlike his single-target Battle Skill — so his Combustion clears whole waves non-stop. And he's free: everyone has him.",
-        "zh": "游戏最强队伍的一半（洁尔佩塔 + 狼卫）。洁尔佩塔聚怪并触发他的连携技——那是范围的，不像他的单体战技——所以他的燃烧能不停清空整波敌人。而且他是免费的：人人都有。",
-        "ja": "ゲーム最強チームの半分（ギルベルタ＋ウルフガード）。ギルベルタが敵を集めて彼の連携技を発動させます。単体の戦技と違って連携技は範囲なので、燃焼でウェーブ丸ごとをノンストップで一掃。しかも無料で、全員が持っています。",
-        "ko": "게임 최강 팀의 절반(질베르타 + 울프가드). 질베르타가 적을 모아 그의 연계 스킬을 발동시키는데, 단일 대상인 배틀 스킬과 달리 연계 스킬은 광역이라 연소로 웨이브 전체를 쉬지 않고 정리합니다. 게다가 무료라 누구나 갖고 있습니다."
+        "zh": "游戏最强队伍的一半（洁尔佩塔 + 狼卫）。洁尔佩塔聚怪并触发他的连携技——那是范围的，不像他的单体战技——所以他的燃烧能不停清空整波敌人。而且他是免费干员，人人都有。",
+        "ja": "ゲーム最強チームの半分（ギルベルタ＋ウルフガード）。ギルベルタが敵を集めてウルフガードの連携技を発動させます。単体の戦技と違って連携技は範囲なので、燃焼でウェーブ丸ごとをノンストップで一掃。しかも配布キャラなので、全員が持っています。",
+        "ko": "게임 최강 팀의 절반(질베르타 + 울프가드). 질베르타가 적을 모아 울프가드의 연계 스킬을 발동시키는데, 단일 대상인 배틀 스킬과 달리 연계 스킬은 광역이라 연소로 웨이브 전체를 쉬지 않고 정리합니다. 게다가 무료 배포라 누구나 갖고 있습니다."
       }
     },
     "laevatain": {
@@ -70,16 +70,16 @@
       "tags": {
         "es": "Heat · capada Combustion 1",
         "en": "Heat · capped Combustion 1",
-        "zh": "灼热 · 燃烧封顶 1 级",
-        "ja": "灼熱 · 燃焼は段階 1 止まり",
+        "zh": "灼热 · 燃烧封顶1级",
+        "ja": "灼熱 · 燃焼は段階1止まり",
         "ko": "열기 · 연소 1레벨 상한"
       },
       "note": {
         "es": "Sólida, pero no la potencia que aparenta: lo fuerte de la temporada es la REACCIÓN, no su daño bruto, y ella no pasa de Combustion lvl 1. Buena pieza Heat, no la carry que define el meta.",
         "en": "Solid, but not as strong as her numbers suggest: what's strong this season is the REACTION, not her raw damage, and she can't push past Combustion lvl 1. A good Heat piece, not the meta-defining carry.",
-        "zh": "扎实，但没有数值看起来那么强：本赛季强的是反应，不是她的裸伤害，而且她的燃烧过不了 1 级。好用的灼热拼图，不是定义 meta 的主C。",
-        "ja": "堅実だが、数値が示すほど強くはない：今シーズン強いのは反応で、彼女の素のダメージではなく、燃焼を段階 1 より先へ押し上げられません。良い灼熱のピースであって、メタを決めるキャリーではありません。",
-        "ko": "탄탄하지만 수치가 보여 주는 만큼 강하진 않습니다. 이번 시즌 강한 것은 반응이지 그녀의 순수 피해가 아니고, 연소를 1레벨 너머로 밀지 못합니다. 좋은 열기 조각이지 메타를 정의하는 캐리는 아닙니다."
+        "zh": "扎实，但没有数值看起来那么强：本赛季强的是反应，不是她的裸伤害，而且她的燃烧过不了1级。好用的灼热拼图，不是定义 meta 的主C。",
+        "ja": "堅実だが、数値が示すほど強くはない：今シーズン強いのは反応で、レーヴァテイン本体のダメージではなく、燃焼を段階1より先へ押し上げられません。良い灼熱のピースであって、メタを決めるキャリーではありません。",
+        "ko": "탄탄하지만 수치가 보여 주는 만큼 강하진 않습니다. 이번 시즌 강한 것은 반응이지 레바테인의 순수 피해가 아니고, 연소를 1레벨 너머로 밀지 못합니다. 좋은 열기 조각이지 메타를 정의하는 캐리는 아닙니다."
       }
     },
     "estella": {
@@ -97,8 +97,8 @@
       "note": {
         "es": "La pick más cómoda para tu primer Riesgo 20: inmune a varios criterios de Cryo y con Shatter (daño no-skill que Tremor premia). Accesible (4★).",
         "en": "The comfiest pick for your first Risk 20: immune to several Cryo criteria and with Shatter (non-skill damage Tremor rewards). Accessible (4★).",
-        "zh": "首次风险度 20 最舒服的选择：免疫多个寒冷指标，且有碎冰（震荡奖励的非技能伤害）。易得（4★）。",
-        "ja": "初めての危険レベル 20 に最も快適な選択：寒冷の指標をいくつも無効化でき、粉砕（振動が報いる非スキルダメージ）もあります。入手しやすい（4★）。",
+        "zh": "首次风险度20最舒服的选择：免疫多个寒冷指标，且有碎冰（震荡奖励的非技能伤害）。易得（4★）。",
+        "ja": "初めての危険レベル20に最も快適な選択：寒冷の指標をいくつも無効化でき、粉砕（振動が報いる非スキルダメージ）もあります。入手しやすい（4★）。",
         "ko": "첫 위험도 20에 가장 편안한 선택: 냉기 지표 여러 개에 면역이고 쇄빙(충격이 보상하는 비스킬 피해)이 있습니다. 구하기 쉬움(4★)."
       }
     },
@@ -116,8 +116,8 @@
       "note": {
         "es": "Carry de Crush puro. Su BS3 pega Crush (daño no-skill), así que aguanta el nodo de −60% Battle Skill mucho mejor que una carry de skill.",
         "en": "Pure Crush carry. Her BS3 deals Crush (non-skill damage), so she eats the −60% Battle Skill node far better than a skill carry.",
-        "zh": "纯猛击主C。她的战技 3 造成猛击（非技能伤害），所以她扛 −60% 战技节点的能力远胜技能主C。",
-        "ja": "純粋な猛撃キャリー。戦技 3 が猛撃（非スキルダメージ）を出すので、−60% 戦技ノードをスキルキャリーよりずっとうまく飲み込めます。",
+        "zh": "纯猛击主C。她的战技3造成猛击（非技能伤害），所以她扛 −60%战技节点的能力远胜技能主C。",
+        "ja": "純粋な猛撃キャリー。戦技3が猛撃（非スキルダメージ）を出すので、−60%戦技ノードをスキルキャリーよりずっとうまく飲み込めます。",
         "ko": "순수 강타 캐리. 배틀 스킬 3이 강타(비스킬 피해)를 주므로 −60% 배틀 스킬 노드를 스킬 캐리보다 훨씬 잘 버팁니다."
       }
     },
@@ -206,14 +206,14 @@
         "en": "Physical enabler",
         "zh": "物理附术手",
         "ja": "物理の付術役",
-        "ko": "물리 인에이블러"
+        "ko": "물리 부착 담당"
       },
       "note": {
         "es": "Enabler de Physical Susceptibility para las comps de Crush. Buff escalado por Intellect/Will.",
         "en": "Physical Susceptibility enabler for Crush comps. Buff scales with Intellect/Will.",
         "zh": "猛击队的物理脆弱附术手。增益随智识/意志缩放。",
         "ja": "猛撃編成向けの物理脆弱の付術役。バフは知性/意志でスケール。",
-        "ko": "강타 조합용 물리 취약 인에이블러. 버프는 지능/의지에 비례."
+        "ko": "강타 조합용 물리 취약 부착 담당. 버프는 지능/의지에 비례."
       }
     },
     "chenqianyu": {
@@ -233,7 +233,7 @@
         "en": "Physical enabler with lift; finishes Crush comps. Accessible (5★).",
         "zh": "带击飞的物理附术手；补全猛击队。易得（5★）。",
         "ja": "浮遊付きの物理の付術役。猛撃編成を完成させます。入手しやすい（5★）。",
-        "ko": "띄우기가 있는 물리 인에이블러. 강타 조합을 완성합니다. 구하기 쉬움(5★)."
+        "ko": "띄우기가 있는 물리 부착 담당. 강타 조합을 완성합니다. 구하기 쉬움(5★)."
       }
     },
     "pogranichnik": {
@@ -250,7 +250,7 @@
       "note": {
         "es": "Buffer que da ATK y Arts Intensity al recuperar SP. Buff plano que no depende de Battle Skill, así que sobrevive a los Key.",
         "en": "Buffer that grants ATK and Arts Intensity on SP recovery. Flat buff that doesn't rely on Battle Skill, so it survives the Key nodes.",
-        "zh": "回复 SP 时给予攻击力和源石技艺强度的增益手。固定增益不依赖战技，所以扛得住密钥节点。",
+        "zh": "回复 技力时给予攻击力和源石技艺强度的增益手。固定增益不依赖战技，所以扛得住密钥节点。",
         "ja": "SP 回復時に攻撃力とアーツ強度を配るバッファー。戦技に頼らない固定バフなので、認証ノードを生き延びます。",
         "ko": "SP 회복 시 공격력과 오리지늄 아츠 강도를 주는 버퍼. 배틀 스킬에 기대지 않는 고정 버프라 비밀 노드를 견딥니다."
       }
@@ -291,7 +291,7 @@
         "en": "Physical enabler with DoT and Heat/Physical susceptibility; complements Combustion and physical comps.",
         "zh": "带持续伤害和灼热/物理脆弱的物理附术手；补足燃烧队和物理队。",
         "ja": "DoT と灼熱/物理脆弱を持つ物理の付術役。燃焼編成と物理編成を補完します。",
-        "ko": "지속 피해와 열기/물리 취약을 가진 물리 인에이블러. 연소 조합과 물리 조합을 보완합니다."
+        "ko": "지속 피해와 열기/물리 취약을 가진 물리 부착 담당. 연소 조합과 물리 조합을 보완합니다."
       }
     },
     "akekuri": {
@@ -302,8 +302,8 @@
       "tags": {
         "es": "Carry Heat 4★",
         "en": "4★ Heat carry",
-        "zh": "4★ 灼热主C",
-        "ja": "4★ 灼熱キャリー",
+        "zh": "4★灼热主C",
+        "ja": "4★灼熱キャリー",
         "ko": "4★ 열기 캐리"
       },
       "note": {
@@ -348,7 +348,7 @@
       "note": {
         "es": "El mayor burst del juego, pero rotación estricta y muy dependiente de la Ultimate (cuidado con Bent Edges).",
         "en": "The game's biggest burst, but a strict rotation and very Ultimate-dependent (mind Bent Edges).",
-        "zh": "游戏最大的爆发，但轮转严格且极度依赖终结技（小心折刃）。",
+        "zh": "游戏最大的爆发，但循环严格且极度依赖终结技（小心折刃）。",
         "ja": "ゲーム最大のバーストだが、ローテーションが厳しく必殺技への依存が非常に大きい（断刃に注意）。",
         "ko": "게임 최대의 폭발이지만 로테이션이 엄격하고 궁극기 의존이 매우 큼(부러진 칼날 주의)."
       }
@@ -482,14 +482,14 @@
         "en": "Cryo enabler",
         "zh": "寒冷附术手",
         "ja": "寒冷の付術役",
-        "ko": "냉기 인에이블러"
+        "ko": "냉기 부착 담당"
       },
       "note": {
         "es": "Enabler Cryo accesible (5★); aporta ATK al equipo. Pieza de relleno para comps Cryo/Shatter.",
         "en": "Accessible (5★) Cryo enabler; grants team ATK. Filler piece for Cryo/Shatter comps.",
         "zh": "易得（5★）的寒冷附术手；给全队攻击力。寒冷/碎冰队的填充位。",
         "ja": "入手しやすい（5★）寒冷の付術役。チーム攻撃力を配ります。寒冷/粉砕編成の埋め枠。",
-        "ko": "구하기 쉬운(5★) 냉기 인에이블러. 팀 공격력을 줍니다. 냉기/쇄빙 조합의 채움 슬롯."
+        "ko": "구하기 쉬운(5★) 냉기 부착 담당. 팀 공격력을 줍니다. 냉기/쇄빙 조합의 채움 슬롯."
       }
     },
     "tangtang": {
@@ -526,7 +526,7 @@
         "es": "Carry eléctrica que vive de su Battle Skill — justo lo que castigan los dos Key Criteria. La comp funciona, pero un escalón por debajo del meta de reacción.",
         "en": "Electric carry that lives off her Battle Skill — exactly what both Key Criteria punish. The comp works, but a notch below the reaction meta.",
         "zh": "靠战技吃饭的电磁主C——正是两个密钥指标惩罚的对象。队伍能用，但比反应 meta 低一档。",
-        "ja": "戦技で食べている電磁キャリー。まさに 2 つの認証指標が罰するもの。編成は機能するが、反応メタより一段下。",
+        "ja": "戦技で食べている電磁キャリー。まさに2つの認証指標が罰するもの。編成は機能するが、反応メタより一段下。",
         "ko": "배틀 스킬로 먹고사는 전기 캐리. 두 비밀 지표가 벌하는 바로 그것입니다. 조합은 돌아가지만 반응 메타보다 한 단계 아래."
       }
     },
@@ -540,14 +540,14 @@
         "en": "Niche enabler",
         "zh": "小众附术手",
         "ja": "ニッチな付術役",
-        "ko": "틈새 인에이블러"
+        "ko": "틈새 부착 담당"
       },
       "note": {
         "es": "Enabler físico de nicho; no aparece en las comps tope de esta temporada.",
         "en": "Niche physical enabler; doesn't show up in this season's top comps.",
         "zh": "小众的物理附术手；不出现在本赛季的顶级队伍里。",
         "ja": "ニッチな物理の付術役。今シーズンの上位編成には現れません。",
-        "ko": "틈새 물리 인에이블러. 이번 시즌 상위 조합에는 나오지 않습니다."
+        "ko": "틈새 물리 부착 담당. 이번 시즌 상위 조합에는 나오지 않습니다."
       }
     },
     "fluorite": {

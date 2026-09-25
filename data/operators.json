@@ -10269,8 +10269,8 @@
           "dmg_type": "Physical",
           "description": "An attack with up to 3 sequences that deals Physical DMG. The final strike deals high Physical DMG and recovers SP.",
           "description_es": "Un ataque con hasta 3 secuencias que inflige DAÑ físico. El golpe final inflige DAÑ físico alto y recupera SP.",
-          "description_zh": "最多 3 段的攻击，造成物理伤害。最后一击造成高额物理伤害并回复 SP。",
-          "description_ja": "最大 3 段の攻撃で物理ダメージを与える。最終段は高い物理ダメージを与え、SP を回復する。",
+          "description_zh": "最多3段的攻击，造成物理伤害。最后一击造成高额物理伤害并回复 技力。",
+          "description_ja": "最大3段の攻撃で物理ダメージを与える。最終段は高い物理ダメージを与え、SP を回復する。",
           "description_ko": "최대 3단 공격으로 물리 피해를 줍니다. 마지막 일격은 높은 물리 피해를 주고 SP를 회복합니다."
         },
         "battle_skill": {
@@ -10278,8 +10278,8 @@
           "name_es": "¡NO ESTOY DURMIENDO!",
           "description": "Raises the shield and blocks attacks. While she holds it she grants Protection to herself and to nearby operators, and makes them harder to interrupt. The first successful block extends the duration and returns extra SP; later blocks lower the Protection bit by bit. After a while the skill can be cast a second time at no SP cost: that cast deals Nature DMG and applies Nature Infliction.",
           "description_es": "Alza el escudo y bloquea ataques. Mientras lo mantiene da Protección a ella y a los operadores cercanos, y los vuelve más difíciles de interrumpir. El primer bloqueo exitoso extiende la duración y devuelve SP extra; los bloqueos siguientes van reduciendo la Protección de a poco. Pasado un tiempo puede activar la skill una segunda vez sin gastar SP: esa activación hace DAÑ por naturaleza y aplica Imposición de naturaleza.",
-          "description_zh": "举盾格挡攻击。持盾期间为自己和附近干员提供庇护，并使其更难被打断。首次成功格挡延长持续时间并返还额外 SP；之后的格挡逐步降低庇护。一段时间后可免费再次施放：该次施放造成自然伤害并施加自然附着。",
-          "description_ja": "盾を構えて攻撃を防ぐ。構えている間、自身と周囲のオペレーターに加護を与え、割り込まれにくくする。最初のブロック成功で持続時間が延び、追加の SP が返還される。以降のブロックは加護を少しずつ下げる。しばらくすると SP 消費なしで 2 回目を発動でき、その発動は自然ダメージを与えて自然付着を付与する。",
+          "description_zh": "举盾格挡攻击。持盾期间为自己和附近干员提供庇护，并使其更难被打断。首次成功格挡延长持续时间并返还额外 技力；之后的格挡逐步降低庇护。一段时间后可免费再次施放：该次施放造成自然伤害并施加自然附着。",
+          "description_ja": "盾を構えて攻撃を防ぐ。構えている間、自身と周囲のオペレーターに加護を与え、割り込まれにくくする。最初のブロック成功で持続時間が延び、追加の SP が返還される。以降のブロックは加護を少しずつ下げる。しばらくすると SP 消費なしで2回目を発動でき、その発動は自然ダメージを与えて自然付着を付与する。",
           "description_ko": "방패를 들어 공격을 막습니다. 들고 있는 동안 자신과 주변 오퍼레이터에게 비호를 주고 방해받기 어렵게 합니다. 첫 성공 방어는 지속 시간을 늘리고 추가 SP를 돌려주며, 이후의 방어는 비호를 조금씩 낮춥니다. 잠시 뒤 SP 없이 한 번 더 사용할 수 있고, 그 사용은 자연 피해를 주며 자연 부착을 겁니다."
         },
         "combo_skill": {
@@ -10289,7 +10289,7 @@
           "description": "Triggers when the controlled operator is attacked. Throws a Giftbox at them and heals them. Then it draws one extra prezzie at random: Bomb (Physical DMG plus Stagger), Handicraft (pulls nearby enemies in continuously and deals Physical DMG to them) or Yummy Dessert (continuous healing on the controlled operator).",
           "description_es": "Se dispara cuando atacan al operador controlado. Le tira una Giftbox y lo cura. Después saca al azar un regalo extra: Bomb (DAÑ físico más Tambaleo), Handicraft (atrae enemigos cercanos de forma continua y les hace DAÑ físico) o Yummy Dessert (cura continua al operador controlado).",
           "description_zh": "主控干员受到攻击时触发。向其投掷礼物盒并治疗。随后随机抽取一份额外礼物：炸弹（物理伤害加失衡）、手工艺品（持续拉拢附近敌人并造成物理伤害）或美味甜点（对主控干员持续治疗）。",
-          "description_ja": "操作中のオペレーターが攻撃されたときに発動。ギフトボックスを投げて回復する。その後、追加のプレゼントをランダムに 1 つ引く：爆弾（物理ダメージ＋ブレイク）、手作りの品（周囲の敵を引き寄せ続けて物理ダメージ）、おいしいデザート（操作中のオペレーターを継続回復）。",
+          "description_ja": "操作中のオペレーターが攻撃されたときに発動。ギフトボックスを投げて回復する。その後、追加のプレゼントをランダムに1つ引く：爆弾（物理ダメージ＋ブレイク）、手作りの品（周囲の敵を引き寄せ続けて物理ダメージ）、おいしいデザート（操作中のオペレーターを継続回復）。",
           "description_ko": "조작 중인 오퍼레이터가 공격받을 때 발동합니다. 선물 상자를 던져 치유합니다. 그 뒤 추가 선물 하나를 무작위로 뽑습니다. 폭탄(물리 피해와 불균형), 수공예품(주변 적을 계속 끌어당기며 물리 피해), 맛있는 디저트(조작 중인 오퍼레이터를 지속 치유)."
         },
         "ultimate": {
@@ -10299,7 +10299,7 @@
           "description": "Opens three Big Feline's Prezzies at once; each one reveals a random Bomb or Handicraft. There is also a chance of the Ambassador's Special, which applies extra Arts Susceptibility to the enemies it hits.",
           "description_es": "Abre tres Big Feline's Prezzies de golpe; cada una revela al azar una Bomb o una Handicraft. Además hay chance de que salga el Ambassador's Special, que aplica Susceptibilidad a las artes adicional a los enemigos golpeados.",
           "description_zh": "一次打开三份大猫礼物；每份揭示随机的炸弹或手工艺品。还有机会出现大使特供，对命中的敌人施加额外的法术脆弱。",
-          "description_ja": "大きな猫のプレゼントを一度に 3 つ開け、それぞれからランダムに爆弾か手作りの品が出る。大使スペシャルが出ることもあり、当たった敵に追加のアーツ脆弱を付与する。",
+          "description_ja": "大きな猫のプレゼントを一度に3つ開け、それぞれからランダムに爆弾か手作りの品が出る。大使スペシャルが出ることもあり、当たった敵に追加のアーツ脆弱を付与する。",
           "description_ko": "큰 고양이의 선물 세 개를 한 번에 열고, 각각에서 무작위로 폭탄이나 수공예품이 나옵니다. 대사의 스페셜이 나올 수도 있으며, 맞은 적에게 추가 아츠 취약을 겁니다."
         }
       }

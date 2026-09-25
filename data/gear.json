@@ -181,7 +181,7 @@
    "name_ko": "식양의 흐름",
    "set_bonus_3pc_es": "ATQ del portador de +10%. Cada vez que el portador consume una Electrificación o Corrosión, obtiene una cantidad de acumulaciones de incremento igual al Nivel de estado de la Reacción a artes consumida; cada acumulación le otorga al portador DAÑ Eléctrico infligido y DAÑ por Naturaleza infligido +15% durante 25 s. Número Máx. de acumulaciones de incremento: 3. La duración de cada acumulación se cuenta por separado.",
    "set_bonus_3pc_zh": "装备者攻击力+10%。 装备者每次消耗导电或腐蚀后，根据异常等级获得相同层数的强化状态，每层使电磁伤害和自然伤害+15%，持续25秒。强化状态最多存在3层，每层单独计算持续时间。",
-   "set_bonus_3pc_ja": "装備中、攻撃力+10% 自身が感電または腐食を消費するたびに、異常段階に応じて同じ段階数の強化状態を獲得し、25秒間1段階ごとに電磁ダメージと自然ダメージ+15% 強化状態の段階数は最大3段階まで（持続時間は個別にカウントされる）",
+   "set_bonus_3pc_ja": "装備中、攻撃力+10%自身が感電または腐食を消費するたびに、異常段階に応じて同じ段階数の強化状態を獲得し、25秒間1段階ごとに電磁ダメージと自然ダメージ+15%強化状態の段階数は最大3段階まで（持続時間は個別にカウントされる）",
    "set_bonus_3pc_ko": "장착자의 공격력 +10% 장착자가 감전 혹은 부식을 소모할 때마다, 이상 레벨에 따른 같은 스택 수치의 강화 상태를 획득합니다. 스택이 중첩될 때마다 전기 피해 및 자연 피해 +15%, 25초 동안 지속. 강화 상태는 최대 3스택까지 중첩되며 중첩될 때마다 지속 시간은 따로 계산됩니다."
   },
   "Qingbo": {
@@ -642,7 +642,7 @@
    "name_ko": "청파",
    "set_bonus_3pc_es": "Reducción de tiempo de reutilización de habilidad de combo del portador +15%. Cuando el portador lanza una habilidad de combo, obtiene DAÑ de habilidad infligido +20% (para cada habilidad) durante 15 s. Este efecto puede conseguir hasta 2 acumulaciones. La duración de cada acumulación se cuenta por separado.",
    "set_bonus_3pc_zh": "装备者连携技冷却缩减+15%。 当装备者施放连携技时，所有技能伤害+20%，持续15秒。该效果最多叠加2层，每层单独计算持续时间。",
-   "set_bonus_3pc_ja": "装備中、連携技CD短縮+15% 自身が連携技を発動するとき、15秒間すべてのスキルダメージ+20% この効果は最大2段階まで重ね掛け可能（持続時間は個別にカウントされる）",
+   "set_bonus_3pc_ja": "装備中、連携技CD短縮+15%自身が連携技を発動するとき、15秒間すべてのスキルダメージ+20%この効果は最大2段階まで重ね掛け可能（持続時間は個別にカウントされる）",
    "set_bonus_3pc_ko": "장착자의 연계 스킬 쿨타임 감소 +15% 장착자가 연계 스킬을 사용할 때, 모든 스킬 피해 +20%, 15초 동안 지속. 해당 효과는 최대 2스택까지 중첩되며 중첩될 때마다 지속 시간은 따로 계산됩니다."
   },
   "Swordmancer": {
@@ -1264,7 +1264,7 @@
    "name_ko": "검술사",
    "set_bonus_3pc_es": "Bonificación de eficiencia de Tambaleo del portador +20%. Después de que el portador aplique un Estado físico, el portador también realiza 1 golpe que inflige 250% de ATQ de DAÑ físico y [10 de Tambaleo]. Tiempo de reutilización de activación del efecto: 15 s.",
    "set_bonus_3pc_zh": "装备者失衡效率加成+20%。 当装备者造成物理异常后，额外造成一次250%攻击力的物理伤害[10点失衡值]。该效果每15秒最多触发一次。",
-   "set_bonus_3pc_ja": "装備中、ブレイク効率UP+20% 自身が敵に物理異常を与えると、追加で攻撃力250%分の物理ダメージとブレイク値10を与える この効果は15秒に1回まで発動可能",
+   "set_bonus_3pc_ja": "装備中、ブレイク効率UP+20%自身が敵に物理異常を与えると、追加で攻撃力250%分の物理ダメージとブレイク値10を与える この効果は15秒に1回まで発動可能",
    "set_bonus_3pc_ko": "장착자의 불균형 효율 보너스 +20% 장착자가 물리 이상 효과를 부여한 후, 공격력 250%만큼의 추가 물리 피해[10포인트 불균형치]. 해당 효과는 15초마다 최대 1회만 발동합니다."
   },
   "Grizzled Edge": {
@@ -1613,7 +1613,7 @@
    "name_ko": "고검의 잔향",
    "set_bonus_3pc_es": "ATQ del portador +8%. Cuando el portador aplica Triturar o Brecha, el portador obtiene DAÑ físico infligido + [6% × número Máx. de acumulaciones de Vulnerabilidad consumidas de un enemigo] durante 20 s. Si el objetivo ya tiene Susceptibilidad física, está Tambaleado o tiene Cristales de Originio adheridos, aumenta el incremento mencionado a 1.5 veces. Este incremento no se puede acumular.",
    "set_bonus_3pc_zh": "装备者攻击力+8%。 装备者造成猛击、碎甲时，根据消耗的最大破防层数，使自身物理伤害+[6%×消耗层数]，持续20秒。若目标已处于物理脆弱、失衡状态或被附着源石结晶，上述增益效果变为1.5倍。增益效果无法叠加。",
-   "set_bonus_3pc_ja": "装備中、攻撃力+8% 自身が敵に猛撃、破砕を与えるとき、消費する最大のクラッシュの段階数に応じて、20秒間自身の物理ダメージ+[6%×消費した段階数] 目標が物理脆弱、ブレイク状態、または源石結晶が付与されている場合、上記のボーナス効果が1.5倍になる（ボーナス効果は重ね掛け不可）",
+   "set_bonus_3pc_ja": "装備中、攻撃力+8%自身が敵に猛撃、破砕を与えるとき、消費する最大のクラッシュの段階数に応じて、20秒間自身の物理ダメージ+[6%×消費した段階数] 目標が物理脆弱、ブレイク状態、または源石結晶が付与されている場合、上記のボーナス効果が1.5倍になる（ボーナス効果は重ね掛け不可）",
    "set_bonus_3pc_ko": "장착자의 공격력 +8% 장착자가 강타, 갑옷 파괴 피해를 줄 때, 소모한 최대 방어 불능 스택 수치에 따라 자신의 물리 피해 +[6%×소모한 스택 수치], 20초 동안 지속. 만약 목표가 물리 취약, 불균형 상태거나 오리지늄 결정이 부착된 상태라면 위의 버프 효과가 1.5배로 변경됩니다. 버프 효과는 중첩되지 않습니다."
   },
   "Bonekrusha": {
@@ -2410,7 +2410,7 @@
    "name_ko": "본 크러셔",
    "set_bonus_3pc_es": "ATQ del portador +15%. Cuando el portador lanza una habilidad de combo, el portador obtiene 1 acumulación de Golpe rompehuesos que otorga DAÑ infligido de la siguiente habilidad de batalla del portador +30%. Golpe rompehuesos se puede acumular 2 veces.",
    "set_bonus_3pc_zh": "装备者攻击力+15%。 当装备者施放连携技时，获得一层碾骨重压，下一次的战技伤害+30%，碾骨重压最多可叠加2层。",
-   "set_bonus_3pc_ja": "装備中、攻撃力+15% 自身が連携技を発動するとき、骨砕の重圧を1段階獲得し、次の戦技ダメージ+30% 骨砕の重圧は最大2段階まで重ね掛け可能",
+   "set_bonus_3pc_ja": "装備中、攻撃力+15%自身が連携技を発動するとき、骨砕の重圧を1段階獲得し、次の戦技ダメージ+30%骨砕の重圧は最大2段階まで重ね掛け可能",
    "set_bonus_3pc_ko": "장착자의 공격력 +15% 장착자가 연계 스킬을 사용할 때, 본 크러셔의 압박 1스택 획득, 다음 배틀 스킬의 피해 +30%. 본 크러셔의 압박은 최대 2스택까지만 중첩됩니다."
   },
   "Frontiers": {
@@ -3193,7 +3193,7 @@
    "name_ko": "개척",
    "set_bonus_3pc_es": "Reducción de tiempo de reutilización de habilidad de combo del portador +15%. Después de que la habilidad del portador recupere PH, el equipo obtiene DAÑ +16% durante 15 s. Este efecto no se puede acumular.",
    "set_bonus_3pc_zh": "装备者连携技冷却缩减+15%。 装备者通过技能恢复技力后，全队造成的伤害+16%，持续15秒，该效果无法叠加。",
-   "set_bonus_3pc_ja": "装備中、連携技CD短縮+15% 自身がスキルでSPを回復すると、15秒間チーム全員の与えるダメージ+16% この効果は重ね掛け不可",
+   "set_bonus_3pc_ja": "装備中、連携技CD短縮+15%自身がスキルでSPを回復すると、15秒間チーム全員の与えるダメージ+16%この効果は重ね掛け不可",
    "set_bonus_3pc_ko": "장착자의 연계 스킬 쿨타임 감소 +15% 장착자가 스킬을 사용하여 스킬 게이지를 회복한 후, 팀 전체가 주는 피해 +16%, 15초 동안 지속. 해당 효과는 중첩되지 않습니다."
   },
   "Redeemer": {
@@ -4216,7 +4216,7 @@
    "name_ko": "생체 보조",
    "set_bonus_3pc_es": "Eficiencia del tratamiento de PV del portador +20%. Después de que el portador aplique tratamiento de PV a un objetivo aliado, ese objetivo también obtiene 15% de reducción de DAÑ contra todo tipo de DAÑ por 10s. Si dicho tratamiento excede los PV Máx. del objetivo, el objetivo obtiene 30% de reducción de DAÑ contra todo tipo de DAÑ. Los efectos antes mencionados no se pueden acumular.",
    "set_bonus_3pc_zh": "装备者治疗效率+20%。 当装备者治疗我方目标后，使该目标在10秒内受到的所有类型伤害-15%；如果该目标受到的治疗量溢出，则受到的所有类型伤害-30%。上述效果无法叠加。",
-   "set_bonus_3pc_ja": "装備中、回復効率+20% 自身が味方を治療すると、10秒間その味方の受ける全種類のダメージ-15% 回復量がその味方のHP上限を超えた場合、受ける全種類のダメージ-30% この効果は重ね掛け不可",
+   "set_bonus_3pc_ja": "装備中、回復効率+20%自身が味方を治療すると、10秒間その味方の受ける全種類のダメージ-15%回復量がその味方のHP上限を超えた場合、受ける全種類のダメージ-30%この効果は重ね掛け不可",
    "set_bonus_3pc_ko": "장착자의 치유 효율 +20% 장착자가 아군을 치유한 후, 목표가 10초 동안 받는 모든 유형 피해 -15%. 해당 목표가 받는 치유량이 최대치를 넘을 경우, 받는 모든 유형 피해 -30%, 상기 효과는 중첩되지 않습니다."
   },
   "Aethertech": {
@@ -4621,7 +4621,7 @@
    "name_ko": "경량 초자연",
    "set_bonus_3pc_es": "ATQ del portador +8%. Después de que el portador aplique Vulnerabilidad, obtiene DAÑ físico infligido +8% durante 15 s. Este efecto puede alcanzar 4 acumulaciónes. Si el objetivo tiene 4 acumulaciones de Vulnerabilidad, el portador obtiene DAÑ físico infligido adicional +16% durante 10 s. Este efecto no se puede acumular.",
    "set_bonus_3pc_zh": "装备者攻击力+8%。 装备者施加破防后，物理伤害+8%，持续15秒，最多可叠加4层。若使目标达到4层破防，物理伤害额外+16%，持续10秒，该效果无法叠加。",
-   "set_bonus_3pc_ja": "装備中、攻撃力+8% 自身がクラッシュを付与すると、15秒間物理ダメージ+8% この効果は4回まで重ね掛け可能 目標のクラッシュ段階が4になった場合、10秒間追加で物理ダメージ+16% この効果は重ね掛け不可",
+   "set_bonus_3pc_ja": "装備中、攻撃力+8%自身がクラッシュを付与すると、15秒間物理ダメージ+8%この効果は4回まで重ね掛け可能 目標のクラッシュ段階が4になった場合、10秒間追加で物理ダメージ+16%この効果は重ね掛け不可",
    "set_bonus_3pc_ko": "장착자의 공격력 +8% 장착자가 적에게 방어 불능을 부여한 후, 물리 피해 +8%, 15초 동안 지속, 최대 중첩 4스택. 목표의 방어 불능 스택이 4스택에 도달할 경우, 추가로 물리 피해 +16%, 10초 동안 지속, 해당 효과는 중첩되지 않습니다."
   },
   "Pulser Labs": {
@@ -4900,8 +4900,8 @@
    "name_ko": "펄스식",
    "set_bonus_3pc_es": "Intensidad de Artes del portador +30. Después de que el portador aplique Electrificación, el portador obtiene DAÑ eléctrico +50% durante 10 s. Después de que el portador aplique Solidificación, el portador obtiene DAÑ criogénico +50% durante 10 s. Los efectos antes mencionados no se pueden acumular.",
    "set_bonus_3pc_zh": "装备者源石技艺强度+30。 当装备者施加导电后，电磁伤害+50%，持续10秒，该效果无法叠加；当装备者施加冻结后，寒冷伤害+50%，持续10秒，该效果无法叠加。",
-   "set_bonus_3pc_ja": "装備中、アーツ強度+30 自身が敵を感電状態にすると、10秒間電磁ダメージ+50% この効果は重ね掛け不可 自身が敵を凍結状態にすると、10秒間寒冷ダメージ+50% この効果は重ね掛け不可",
-   "set_bonus_3pc_ko": "장착자의 오리지늄 아츠 강도 +30 장착자가 적에게 감전을 부여한 후, 전기 피해 +50%, 10초 동안 지속, 해당 효과는 중첩되지 않습니다. 장착자가 적에게 동결을 부여한 후, 냉기 피해 +50%, 10초 동안 지속, 해당 효과는 중첩되지 않습니다."
+   "set_bonus_3pc_ja": "装備中、アーツ強度+30自身が敵を感電状態にすると、10秒間電磁ダメージ+50%この効果は重ね掛け不可 自身が敵を凍結状態にすると、10秒間寒冷ダメージ+50%この効果は重ね掛け不可",
+   "set_bonus_3pc_ko": "장착자의 오리지늄 아츠 강도 +30장착자가 적에게 감전을 부여한 후, 전기 피해 +50%, 10초 동안 지속, 해당 효과는 중첩되지 않습니다. 장착자가 적에게 동결을 부여한 후, 냉기 피해 +50%, 10초 동안 지속, 해당 효과는 중첩되지 않습니다."
   },
   "Hot Work": {
    "pieces": [
@@ -5466,8 +5466,8 @@
    "name_ko": "열 작업용",
    "set_bonus_3pc_es": "Intensidad de Artes del portador +30. Después de que el portador aplique Combustión, el portador obtiene DAÑ por calor +50% por 10 s. Después de que el portador aplique Corrosión, el portador obtiene DAÑ por naturaleza +50% durante 10 s. Los efectos antes mencionados no se pueden acumular.",
    "set_bonus_3pc_zh": "装备者源石技艺强度+30。 当装备者施加燃烧后，灼热伤害+50%，持续10秒，该效果无法叠加；当装备者施加腐蚀后，自然伤害+50%，持续10秒，该效果无法叠加。",
-   "set_bonus_3pc_ja": "装備中、アーツ強度+30 自身が敵を燃焼状態にすると、10秒間灼熱ダメージ+50% この効果は重ね掛け不可 自身が敵を腐食状態にすると、10秒間自然ダメージ+50% この効果は重ね掛け不可",
-   "set_bonus_3pc_ko": "장착자의 오리지늄 아츠 강도 +30 장착자가 적에게 연소를 부여한 후, 열기 피해 +50%, 10초 동안 지속, 해당 효과는 중첩되지 않습니다. 장착자가 적에게 부식을 부여한 후, 자연 피해 +50%, 10초 동안 지속, 해당 효과는 중첩되지 않습니다."
+   "set_bonus_3pc_ja": "装備中、アーツ強度+30自身が敵を燃焼状態にすると、10秒間灼熱ダメージ+50%この効果は重ね掛け不可 自身が敵を腐食状態にすると、10秒間自然ダメージ+50%この効果は重ね掛け不可",
+   "set_bonus_3pc_ko": "장착자의 오리지늄 아츠 강도 +30장착자가 적에게 연소를 부여한 후, 열기 피해 +50%, 10초 동안 지속, 해당 효과는 중첩되지 않습니다. 장착자가 적에게 부식을 부여한 후, 자연 피해 +50%, 10초 동안 지속, 해당 효과는 중첩되지 않습니다."
   },
   "MI Security": {
    "pieces": [
@@ -6319,7 +6319,7 @@
    "name_ko": "M. I. 경찰용",
    "set_bonus_3pc_es": "Probabilidad de crítico del portador +5%. Después de que el portador acierte un golpe crítico, el portador obtiene ATQ +5% durante 5 s. Este efecto puede alcanzar 5 acumulación(es). Con las acumulaciones al Máx., otorga Índice crítico adicional +5%. Este efecto no se puede acumular.",
    "set_bonus_3pc_zh": "装备者暴击率+5%。 当装备者触发暴击后，5秒内+5%攻击力，该效果最多叠加5层。层数叠满后，额外+5%暴击率，该效果无法叠加。",
-   "set_bonus_3pc_ja": "装備中、会心率+5% 自身が会心ダメージを与えると、5秒間攻撃力+5% この効果は5回まで重ね掛け可能 重ね掛けが最大回数に達したあと、追加で会心率+5% この効果は重ね掛け不可",
+   "set_bonus_3pc_ja": "装備中、会心率+5%自身が会心ダメージを与えると、5秒間攻撃力+5%この効果は5回まで重ね掛け可能 重ね掛けが最大回数に達したあと、追加で会心率+5%この効果は重ね掛け不可",
    "set_bonus_3pc_ko": "장착자의 치명타 확률 +5% 장착자가 적에게 치명타를 준 후, 5초 동안 공격력 +5%, 최대 중첩 5스택. 최대 중첩 시, 치명타 확률 추가 +5%, 해당 효과는 중첩되지 않습니다."
   },
   "Type 50 Yinglung": {
@@ -6948,7 +6948,7 @@
    "name_ko": "응룡 50식",
    "set_bonus_3pc_es": "ATQ del portador +15%. Cuando cualquier operador del equipo lanza una habilidad de batalla, el portador obtiene 1 acumulación de El borde de Yinglung que otorga DAÑ +20% a su siguiente habilidad de combo. El borde de Yinglung puede acumularse 3 veces.",
    "set_bonus_3pc_zh": "装备者攻击力+15%。 当小队内任意干员施放战技时，装备者获得一层应龙之锐，使得该干员下一次连携技伤害+20%，应龙之锐最多叠加3层。",
-   "set_bonus_3pc_ja": "装備中、攻撃力+15% 任意のオペレーターが戦技を発動するとき、自身は応龍の鋒を1段階獲得し、次の連携技ダメージ+20% 応龍の鋒は最大3段階まで重ね掛け可能",
+   "set_bonus_3pc_ja": "装備中、攻撃力+15%任意のオペレーターが戦技を発動するとき、自身は応龍の鋒を1段階獲得し、次の連携技ダメージ+20%応龍の鋒は最大3段階まで重ね掛け可能",
    "set_bonus_3pc_ko": "장착자의 공격력 +15% 팀 내 임의의 오퍼레이터가 배틀 스킬을 사용할 때, 장착자가 응룡의 예리함 1스택 획득, 해당 오퍼레이터의 다음 연계 스킬 피해 +20%. 응룡의 예리함은 최대 3스택까지만 중첩됩니다."
   },
   "Tide Surge": {
@@ -7409,7 +7409,7 @@
    "name_ko": "조류의 물결",
    "set_bonus_3pc_es": "DAÑ de habilidades infligido del portador +20%. Después de que el portador aplique 2 o más acumulaciones de Imposición de artes al enemigo, el portador obtiene DAÑ por artes infligido +35% durante 15 s. Este efecto no se puede acumular.",
    "set_bonus_3pc_zh": "装备者所有技能伤害+20%。 装备者使敌人达到2层及以上法术附着后，造成的法术伤害+35%，持续15秒，该效果无法叠加。",
-   "set_bonus_3pc_ja": "装備中、すべてのスキルダメージ+20% 自身が敵のアーツ付着段階を2以上にすると、15秒間与えるアーツダメージ+35% この効果は重ね掛け不可",
+   "set_bonus_3pc_ja": "装備中、すべてのスキルダメージ+20%自身が敵のアーツ付着段階を2以上にすると、15秒間与えるアーツダメージ+35%この効果は重ね掛け不可",
    "set_bonus_3pc_ko": "장착자의 모든 스킬 피해 +20% 장착자가 적에게 2스택 혹은 그 이상의 아츠 부착을 부여한 후, 주는 아츠 피해 +35%, 15초 동안 지속. 해당 효과는 중첩되지 않습니다."
   },
   "Eternal Xiranite": {
@@ -8136,8 +8136,8 @@
    "name_ko": "식양의 숨결",
    "set_bonus_3pc_es": "PV del portador +1000. Después de que el portador aplique Amp, Protección, Susceptibilidad o Debilidad, los demás compañeros obtienen DAÑ infligido +16% durante 15 s. Este efecto no puede acumularse.",
    "set_bonus_3pc_zh": "装备者生命值+1000。 装备者施加增幅、庇护、脆弱、虚弱后，使其他队友造成的伤害+16%，持续15秒。该效果无法叠加。",
-   "set_bonus_3pc_ja": "装備中、HP+1000 自身が増幅、加護、脆弱、弱体化を付与すると、15秒間編成中の他の味方の与えるダメージ+16% この効果は重ね掛け不可",
-   "set_bonus_3pc_ko": "장착자의 생명력 +1000 장착자가 증폭, 비호, 취약, 허약을 부여한 후, 다른 팀원이 주는 피해 +16%, 15초 동안 지속. 해당 효과는 중첩되지 않습니다."
+   "set_bonus_3pc_ja": "装備中、HP+1000自身が増幅、加護、脆弱、弱体化を付与すると、15秒間編成中の他の味方の与えるダメージ+16%この効果は重ね掛け不可",
+   "set_bonus_3pc_ko": "장착자의 생명력 +1000장착자가 증폭, 비호, 취약, 허약을 부여한 후, 다른 팀원이 주는 피해 +16%, 15초 동안 지속. 해당 효과는 중첩되지 않습니다."
   },
   "Rift Trekker": {
    "pieces": [
@@ -9423,7 +9423,7 @@
    "name_es": "Baluarte profundo",
    "set_bonus_3pc_es": "DAÑ por Artes infligido por el portador +16%. Cuando el usuario aplica Ráfaga de naturaleza o Ráfaga criogénica, obtiene Intensidad de artes +16 durante 20 s. Acumulaciones Máx. de este efecto: 3. La duración de cada acumulación se cuenta por separado. El efecto solo se activa una vez cada 0.1 s.",
    "set_bonus_3pc_zh": "装备者法术伤害+16%。 当装备者造成自然爆发、寒冷爆发时，源石技艺强度+16，持续20秒。该效果最多叠加3层，每层单独计算持续时间，每0.1秒最多触发一次。",
-   "set_bonus_3pc_ja": "装備中、アーツダメージ+16% 自身が自然爆発、寒冷爆発を発動させるとき、20秒間アーツ強度+16 この効果は最大3段階まで重ね掛け可能（持続時間は個別にカウントされ、0.1秒に1回まで発動可能）",
+   "set_bonus_3pc_ja": "装備中、アーツダメージ+16%自身が自然爆発、寒冷爆発を発動させるとき、20秒間アーツ強度+16この効果は最大3段階まで重ね掛け可能（持続時間は個別にカウントされ、0.1秒に1回まで発動可能）",
    "set_bonus_3pc_ko": "장착자의 아츠 피해 +16% 장착자가 자연 폭발, 냉기 폭발 피해를 줄 때, 오리지늄 아츠 강도 +16, 20초 동안 지속. 해당 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다."
   }
  }

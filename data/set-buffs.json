@@ -9,8 +9,8 @@
      "cond": {
       "es": "Tras lanzar combo skill (solo el portador): +30% DMG al siguiente battle skill (máx 2 stacks)",
       "en": "After casting a combo skill (wearer only): +30% DMG to the next battle skill (max 2 stacks)",
-      "zh": "施放连携技后（仅穿戴者）：下一次战技伤害 +30%（最多 2 层）",
-      "ja": "連携技発動後（装備者のみ）：次の戦技のダメージ +30%（最大 2 スタック）",
+      "zh": "施放连携技后（仅穿戴者）：下一次战技伤害 +30%（最多2层）",
+      "ja": "連携技発動後（装備者のみ）：次の戦技のダメージ +30%（最大2スタック）",
       "ko": "연계 스킬 사용 후(착용자만): 다음 배틀 스킬 피해 +30% (최대 2중첩)"
      },
      "mods": [
@@ -28,8 +28,8 @@
      "label": {
       "en": "Bonekrusha 3pc · Bonekrushing Smash",
       "es": "Rompehuesos 3pc · Bonekrushing Smash",
-      "zh": "碾骨 3件 · 碾骨重压",
-      "ja": "骨砕 3セット · 骨砕の重圧",
+      "zh": "碾骨3件 · 碾骨重压",
+      "ja": "骨砕3セット · 骨砕の重圧",
       "ko": "본 크러셔 3세트 · 본 크러셔의 압박"
      }
     }
@@ -44,8 +44,8 @@
      "cond": {
       "es": "Al consumir Electrification o Corrosion: Electric y Nature DMG +[15%×nivel de la reacción, máx 3] por 25s. Si consumes varias veces en esos 25s, el cálculo cuenta por lo bajo.",
       "en": "On consuming Electrification or Corrosion: Electric & Nature DMG +[15%×reaction level, max 3] for 25s. If you consume several times within those 25s, the calculation under-counts.",
-      "zh": "消耗导电或腐蚀时：电磁和自然伤害 +[15%×反应等级，最多 3]，持续 25 秒。若在这 25 秒内多次消耗，计算会偏低。",
-      "ja": "感電または腐食を消費したとき：電磁・自然ダメージ +[15%×反応段階、最大 3]、25 秒。その 25 秒の間に何度も消費すると、計算は少なめに出ます。",
+      "zh": "消耗导电或腐蚀时：电磁和自然伤害 +[15%×反应等级，最多3]，持续25秒。若在这25秒内多次消耗，计算会偏低。",
+      "ja": "感電または腐食を消費したとき：電磁・自然ダメージ +[15%×反応段階、最大3]、25秒。その25秒の間に何度も消費すると、計算は少なめに出ます。",
       "ko": "감전이나 부식을 소모할 때: 전기·자연 피해 +[15%×반응 레벨, 최대 3], 25초. 그 25초 안에 여러 번 소모하면 계산이 적게 잡힙니다."
      },
      "mods": [
@@ -95,8 +95,8 @@
      "cond": {
       "es": "Al aplicar Vulnerability: Physical DMG +8% 15s, apila hasta máx 4 stacks (+32% al tope). Deriva del nº de aplicaciones activas: min(aplicaciones, 4)×8%. El +16% adicional al tope de Vulnerability → diferido.",
       "en": "On applying Vulnerability: Physical DMG +8% 15s, stacks up to max 4 stacks (+32% at cap). Derives from the number of active applications: min(applications, 4)×8%. The extra +16% at the Vulnerability cap → deferred.",
-      "zh": "施加破防时：物理伤害 +8%，15 秒，最多叠 4 层（满层 +32%）。按生效中的施加次数推算：min(施加次数, 4)×8%。破防封顶时额外的 +16% → 暂缓。",
-      "ja": "クラッシュ付与時：物理ダメージ +8%、15 秒、最大 4 スタック（上限で +32%）。有効な付与回数から算出：min(付与回数, 4)×8%。クラッシュ上限時の追加 +16% → 保留。",
+      "zh": "施加破防时：物理伤害 +8%，15秒，最多叠4层（满层 +32%）。按生效中的施加次数推算：min(施加次数, 4)×8%。破防封顶时额外的 +16% → 暂缓。",
+      "ja": "クラッシュ付与時：物理ダメージ +8%、15秒、最大4スタック（上限で +32%）。有効な付与回数から算出：min(付与回数, 4)×8%。クラッシュ上限時の追加 +16% → 保留。",
       "ko": "방어 불능 적용 시: 물리 피해 +8%, 15초, 최대 4중첩(상한 +32%). 유효한 적용 횟수로 계산: min(적용 횟수, 4)×8%. 방어 불능 상한의 추가 +16% → 보류."
      },
      "mods": [
@@ -130,8 +130,8 @@
      "cond": {
       "es": "Cuando un aliado lanza battle skill: +20% DMG al siguiente combo skill (máx 3 stacks)",
       "en": "When an ally casts battle skill: +20% DMG to the next combo skill (max 3 stacks)",
-      "zh": "队友施放战技时：下一次连携技伤害 +20%（最多 3 层）",
-      "ja": "味方が戦技を発動したとき：次の連携技のダメージ +20%（最大 3 スタック）",
+      "zh": "队友施放战技时：下一次连携技伤害 +20%（最多3层）",
+      "ja": "味方が戦技を発動したとき：次の連携技のダメージ +20%（最大3スタック）",
       "ko": "아군이 배틀 스킬을 사용할 때: 다음 연계 스킬 피해 +20% (최대 3중첩)"
      },
      "mods": [
@@ -150,8 +150,8 @@
      "label": {
       "en": "Type 50 Yinglung 3pc · Yinglung's Edge",
       "es": "Yinglung tipo 50 3pc · Yinglung's Edge",
-      "zh": "50式应龙 3件 · 应龙之锐",
-      "ja": "50式応龍 3セット · 応龍の鋒",
+      "zh": "50式应龙3件 · 应龙之锐",
+      "ja": "50式応龍3セット · 応龍の鋒",
       "ko": "응룡 50식 3세트 · 응룡의 예리함"
      }
     }
@@ -167,8 +167,8 @@
      "cond": {
       "es": "Al critear: +5% ATK por stack (máx 5 = +25%); a stacks máx, +5% Crit Rate extra",
       "en": "On crit: +5% ATK per stack (max 5 = +25%); at max stacks, +5% extra Crit Rate",
-      "zh": "暴击时：每层攻击力 +5%（最多 5 层 = +25%）；满层时额外暴击率 +5%",
-      "ja": "会心時：1 スタックごとに攻撃力 +5%（最大 5 = +25%）。最大スタックで会心率 +5% 追加",
+      "zh": "暴击时：每层攻击力 +5%（最多5层 = +25%）；满层时额外暴击率 +5%",
+      "ja": "会心時：1スタックごとに攻撃力 +5%（最大5 = +25%）。最大スタックで会心率 +5%追加",
       "ko": "치명타 시: 중첩당 공격력 +5% (최대 5 = +25%). 최대 중첩 시 치명타 확률 +5% 추가"
      },
      "mods": [
@@ -184,8 +184,8 @@
      "label": {
       "en": "MI Security 3pc · on crit",
       "es": "Seguridad MI 3pc · al criticar",
-      "zh": "M.I.警用 3件 · 暴击时",
-      "ja": "M.I.警備 3セット · 会心時",
+      "zh": "M.I.警用3件 · 暴击时",
+      "ja": "M.I.警備3セット · 会心時",
       "ko": "M. I. 경찰용 3세트 · 치명타 시"
      }
     }
@@ -200,8 +200,8 @@
      "cond": {
       "es": "Al aplicar Electrification: +50% Electric DMG 10s",
       "en": "On applying Electrification: +50% Electric DMG 10s",
-      "zh": "施加导电时：电磁伤害 +50%，10 秒",
-      "ja": "感電付与時：電磁ダメージ +50%、10 秒",
+      "zh": "施加导电时：电磁伤害 +50%，10秒",
+      "ja": "感電付与時：電磁ダメージ +50%、10秒",
       "ko": "감전 적용 시: 전기 피해 +50%, 10초"
      },
      "mods": [
@@ -219,8 +219,8 @@
      "label": {
       "en": "Pulser Labs 3pc · Electrification",
       "es": "Laboratorios Pulso 3pc · Electrification",
-      "zh": "脉冲式 3件 · 导电",
-      "ja": "パルス式 3セット · 感電",
+      "zh": "脉冲式3件 · 导电",
+      "ja": "パルス式3セット · 感電",
       "ko": "펄스식 3세트 · 감전"
      }
     },
@@ -231,8 +231,8 @@
      "cond": {
       "es": "Al aplicar Solidification: +50% Cryo DMG 10s",
       "en": "On applying Solidification: +50% Cryo DMG 10s",
-      "zh": "施加冻结时：寒冷伤害 +50%，10 秒",
-      "ja": "凍結付与時：寒冷ダメージ +50%、10 秒",
+      "zh": "施加冻结时：寒冷伤害 +50%，10秒",
+      "ja": "凍結付与時：寒冷ダメージ +50%、10秒",
       "ko": "동결 적용 시: 냉기 피해 +50%, 10초"
      },
      "mods": [
@@ -250,8 +250,8 @@
      "label": {
       "en": "Pulser Labs 3pc · Solidification",
       "es": "Laboratorios Pulso 3pc · Solidification",
-      "zh": "脉冲式 3件 · 冻结",
-      "ja": "パルス式 3セット · 凍結",
+      "zh": "脉冲式3件 · 冻结",
+      "ja": "パルス式3セット · 凍結",
       "ko": "펄스식 3세트 · 동결"
      }
     }
@@ -266,8 +266,8 @@
      "cond": {
       "es": "Al aplicar Combustion: +50% Heat DMG 10s",
       "en": "On applying Combustion: +50% Heat DMG 10s",
-      "zh": "施加燃烧时：灼热伤害 +50%，10 秒",
-      "ja": "燃焼付与時：灼熱ダメージ +50%、10 秒",
+      "zh": "施加燃烧时：灼热伤害 +50%，10秒",
+      "ja": "燃焼付与時：灼熱ダメージ +50%、10秒",
       "ko": "연소 적용 시: 열기 피해 +50%, 10초"
      },
      "mods": [
@@ -285,8 +285,8 @@
      "label": {
       "en": "Hot Work 3pc · Combustion",
       "es": "Resistente al calor 3pc · Combustion",
-      "zh": "动火用 3件 · 燃烧",
-      "ja": "火山用 3セット · 燃焼",
+      "zh": "动火用3件 · 燃烧",
+      "ja": "火山用3セット · 燃焼",
       "ko": "열 작업용 3세트 · 연소"
      }
     },
@@ -297,8 +297,8 @@
      "cond": {
       "es": "Al aplicar Corrosion: +50% Nature DMG 10s",
       "en": "On applying Corrosion: +50% Nature DMG 10s",
-      "zh": "施加腐蚀时：自然伤害 +50%，10 秒",
-      "ja": "腐食付与時：自然ダメージ +50%、10 秒",
+      "zh": "施加腐蚀时：自然伤害 +50%，10秒",
+      "ja": "腐食付与時：自然ダメージ +50%、10秒",
       "ko": "부식 적용 시: 자연 피해 +50%, 10초"
      },
      "mods": [
@@ -316,8 +316,8 @@
      "label": {
       "en": "Hot Work 3pc · Corrosion",
       "es": "Resistente al calor 3pc · Corrosion",
-      "zh": "动火用 3件 · 腐蚀",
-      "ja": "火山用 3セット · 腐食",
+      "zh": "动火用3件 · 腐蚀",
+      "ja": "火山用3セット · 腐食",
       "ko": "열 작업용 3세트 · 부식"
      }
     }
@@ -332,8 +332,8 @@
      "cond": {
       "es": "Tras lanzar combo skill: +20% Skill DMG (toda skill) 15s",
       "en": "After casting combo skill: +20% Skill DMG (all skills) 15s",
-      "zh": "施放连携技后：技能伤害 +20%（所有技能），15 秒",
-      "ja": "連携技発動後：スキルダメージ +20%（全スキル）、15 秒",
+      "zh": "施放连携技后：技能伤害 +20%（所有技能），15秒",
+      "ja": "連携技発動後：スキルダメージ +20%（全スキル）、15秒",
       "ko": "연계 스킬 사용 후: 스킬 피해 +20% (모든 스킬), 15초"
      },
      "mods": [
@@ -348,8 +348,8 @@
      "label": {
       "en": "Qingbo 3pc · after combo skill",
       "es": "Qingbo 3pc · tras combo skill",
-      "zh": "清波 3件 · 连携技后",
-      "ja": "清波 3セット · 連携技後",
+      "zh": "清波3件 · 连携技后",
+      "ja": "清波3セット · 連携技後",
       "ko": "청파 3세트 · 연계 스킬 후"
      }
     }
@@ -364,8 +364,8 @@
      "cond": {
       "es": "Al recuperar SP con una skill: +16% DMG al equipo 12s (no acumulable)",
       "en": "On recovering SP with a skill: +16% team DMG 12s (non-stacking)",
-      "zh": "用技能回复 SP 时：全队伤害 +16%，12 秒（不叠加）",
-      "ja": "スキルで SP を回復したとき：チームダメージ +16%、12 秒（重複なし）",
+      "zh": "用技能回复 技力时：全队伤害 +16%，12秒（不叠加）",
+      "ja": "スキルで SP を回復したとき：チームダメージ +16%、12秒（重複なし）",
       "ko": "스킬로 SP를 회복할 때: 팀 피해 +16%, 12초 (중첩 없음)"
      },
      "mods": [
@@ -382,8 +382,8 @@
      "label": {
       "en": "Frontiers 3pc · on SP recover",
       "es": "Fronteras 3pc · al recuperar SP",
-      "zh": "拓荒 3件 · 回复 SP 时",
-      "ja": "パイオニア 3セット · SP 回復時",
+      "zh": "拓荒3件 · 回复 技力时",
+      "ja": "パイオニア3セット · SP 回復時",
       "ko": "개척 3세트 · SP 회복 시"
      }
     }
@@ -398,8 +398,8 @@
      "cond": {
       "es": "Tras aplicar 2+ stacks de Arts Infliction: +35% Arts DMG 15s",
       "en": "After applying 2+ stacks of Arts Infliction: +35% Arts DMG 15s",
-      "zh": "施加 2 层以上法术附着后：法术伤害 +35%，15 秒",
-      "ja": "アーツ付着を 2 スタック以上付与した後：アーツダメージ +35%、15 秒",
+      "zh": "施加2层以上法术附着后：法术伤害 +35%，15秒",
+      "ja": "アーツ付着を2スタック以上付与した後：アーツダメージ +35%、15秒",
       "ko": "아츠 부착을 2중첩 이상 건 뒤: 아츠 피해 +35%, 15초"
      },
      "mods": [
@@ -417,8 +417,8 @@
      "label": {
       "en": "Tide Surge 3pc · Arts Infliction",
       "es": "Marea alta 3pc · Arts Infliction",
-      "zh": "潮涌 3件 · 法术附着",
-      "ja": "満潮 3セット · アーツ付着",
+      "zh": "潮涌3件 · 法术附着",
+      "ja": "満潮3セット · アーツ付着",
       "ko": "조류의 물결 3세트 · 아츠 부착"
      }
     }
@@ -434,8 +434,8 @@
      "cond": {
       "es": "Al aplicar Amp/Protected/Susceptible/Weakened: +16% DMG Dealt a los demás aliados 15s (no acumulable)",
       "en": "On applying Amp/Protected/Susceptible/Weakened: +16% DMG Dealt to other allies 15s (non-stacking)",
-      "zh": "施加增幅/庇护/脆弱/虚弱时：其他队友造成的伤害 +16%，15 秒（不叠加）",
-      "ja": "増幅/加護/脆弱/弱体化を付与したとき：他の味方の与ダメージ +16%、15 秒（重複なし）",
+      "zh": "施加增幅/庇护/脆弱/虚弱时：其他队友造成的伤害 +16%，15秒（不叠加）",
+      "ja": "増幅/加護/脆弱/弱体化を付与したとき：他の味方の与ダメージ +16%、15秒（重複なし）",
       "ko": "증폭/비호/취약/허약을 적용할 때: 다른 아군이 주는 피해 +16%, 15초 (중첩 없음)"
      },
      "mods": [
@@ -447,8 +447,8 @@
      "label": {
       "en": "Eternal Xiranite 3pc · Amp/Protect/Suscept/Weaken",
       "es": "Xiranita eterna 3pc · Amp/Protect/Suscept/Weaken",
-      "zh": "长息 3件 · 增幅/庇护/脆弱/虚弱",
-      "ja": "流転 3セット · 増幅/加護/脆弱/弱体化",
+      "zh": "长息3件 · 增幅/庇护/脆弱/虚弱",
+      "ja": "流転3セット · 増幅/加護/脆弱/弱体化",
       "ko": "식양의 숨결 3세트 · 증폭/비호/취약/허약"
      }
     }
@@ -463,8 +463,8 @@
      "cond": {
       "es": "Al aplicar Crush/Breach: Physical DMG +[6%×stacks de Vulnerability consumidos] 20s (no acumula). El ×1.5 (vs Phys Susc/Staggered/Crystals) → diferido.",
       "en": "On applying Crush/Breach: Physical DMG +[6%×Vulnerability stacks consumed] 20s (non-stacking). The ×1.5 (vs Phys Susc/Staggered/Crystals) → deferred.",
-      "zh": "施加猛击/碎甲时：物理伤害 +[6%×消耗的破防层数]，20 秒（不叠加）。对物理脆弱/失衡/结晶目标的 ×1.5 → 暂缓。",
-      "ja": "猛撃/破砕付与時：物理ダメージ +[6%×消費したクラッシュスタック]、20 秒（重複なし）。物理脆弱/ブレイク/結晶に対する ×1.5 → 保留。",
+      "zh": "施加猛击/碎甲时：物理伤害 +[6%×消耗的破防层数]，20秒（不叠加）。对物理脆弱/失衡/结晶目标的 ×1.5 → 暂缓。",
+      "ja": "猛撃/破砕付与時：物理ダメージ +[6%×消費したクラッシュスタック]、20秒（重複なし）。物理脆弱/ブレイク/結晶に対する ×1.5 → 保留。",
       "ko": "강타/갑옷 파괴 적용 시: 물리 피해 +[6%×소모한 방어 불능 중첩], 20초 (중첩 없음). 물리 취약/불균형/결정 대상의 ×1.5 → 보류."
      },
      "mods": [
@@ -504,9 +504,9 @@
      "cond": {
       "es": "Al aplicar un Physical Status: golpe extra de 250% ATK físico (cooldown 15s). Los 10 Stagger → diferido.",
       "en": "On applying a Physical Status: extra hit of 250% ATK Physical (15s cooldown). The 10 Stagger → deferred.",
-      "zh": "施加物理状态时：额外一击，250% 攻击力的物理伤害（冷却 15 秒）。10 点失衡 → 暂缓。",
-      "ja": "物理状態付与時：攻撃力 250% の物理追加ヒット（クールダウン 15 秒）。ブレイク値 10 → 保留。",
-      "ko": "물리 상태 적용 시: 공격력 250%의 물리 추가 타격(쿨타임 15초). 불균형 10 → 보류."
+      "zh": "施加物理异常时：额外一击，250%攻击力的物理伤害（冷却15秒）。10点失衡 → 暂缓。",
+      "ja": "物理異常付与時：攻撃力250%の物理追加ヒット（クールダウン15秒）。ブレイク値10 → 保留。",
+      "ko": "물리 이상 적용 시: 공격력 250%의 물리 추가 타격(쿨타임 15초). 불균형 10 → 보류."
      },
      "mods": [
       {
@@ -548,8 +548,8 @@
      "cond": {
       "es": "3pc: DMG Dealt +20% a TODO tipo de daño, permanente (sin gatillo). La reducción de daño 10% es defensiva y queda fuera del cálculo; la UGE +10% ya está contada aparte.",
       "en": "3pc: DMG Dealt +20% for ALL damage types, permanent (no trigger). The 10% DMG Reduction is defensive and outside the calculation; the +10% UGE is already counted separately.",
-      "zh": "3 件：所有伤害类型造成的伤害 +20%，永久（无触发条件）。10% 减伤属于防御，不在计算内；+10% 终结技充能效率已另行计入。",
-      "ja": "3 セット：全ダメージ種別の与ダメージ +20%、常時（トリガーなし）。10% ダメージ軽減は防御側で計算外。+10% 必殺技効率は別途計上済み。",
+      "zh": "3件：所有伤害类型造成的伤害 +20%，永久（无触发条件）。10%减伤属于防御，不在计算内；+10%终结技充能效率已另行计入。",
+      "ja": "3セット：全ダメージ種別の与ダメージ +20%、常時（トリガーなし）。10%ダメージ軽減は防御側で計算外。+10%必殺技効率は別途計上済み。",
       "ko": "3세트: 모든 피해 유형의 주는 피해 +20%, 상시(발동 조건 없음). 10% 피해 감소는 방어용이라 계산 밖. +10% 궁극기 충전 효율은 이미 따로 계산."
      },
      "mods": [
@@ -561,8 +561,8 @@
      "label": {
       "en": "AIC Fieldwork 3pc (permanent)",
       "es": "Trabajo de campo del CAI 3pc (permanente)",
-      "zh": "集成实训 3件（常驻）",
-      "ja": "集成訓練 3セット（常時）",
+      "zh": "集成实训3件（常驻）",
+      "ja": "集成訓練3セット（常時）",
       "ko": "통합 실전 훈련 3세트 (상시)"
      }
     }
@@ -578,8 +578,8 @@
      "cond": {
       "es": "Al aplicar Nature Burst o Cryo Burst: Arts Intensity +16 por 20s (máx 3 stacks, duración independiente; solo se activa una vez cada 0.1s). El +16% de Arts DMG Dealt es la parte plana y ya entra por el texto del set.",
       "en": "On applying Nature Burst or Cryo Burst: Arts Intensity +16 for 20s (max 3 stacks, separate durations; triggers only once every 0.1s). The +16% Arts DMG Dealt is the flat part and already enters via the set text.",
-      "zh": "施加自然爆发或寒冷爆发时：源石技艺强度 +16，20 秒（最多 3 层，持续时间各自计算；每 0.1 秒只触发一次）。+16% 法术伤害是固定部分，已通过套装文本计入。",
-      "ja": "自然爆発または寒冷爆発を付与したとき：アーツ強度 +16、20 秒（最大 3 スタック、持続は個別。0.1 秒に 1 回のみ発動）。+16% アーツ与ダメージは固定部分で、セットの本文からすでに入っています。",
+      "zh": "施加自然爆发或寒冷爆发时：源石技艺强度 +16，20秒（最多3层，持续时间各自计算；每0.1秒只触发一次）。+16%法术伤害是固定部分，已通过套装文本计入。",
+      "ja": "自然爆発または寒冷爆発を付与したとき：アーツ強度 +16、20秒（最大3スタック、持続は個別。0.1秒に1回のみ発動）。+16%アーツ与ダメージは固定部分で、セットの本文からすでに入っています。",
       "ko": "자연 폭발이나 냉기 폭발을 적용할 때: 오리지늄 아츠 강도 +16, 20초 (최대 3중첩, 지속 시간 개별. 0.1초에 한 번만 발동). +16% 아츠 피해는 고정 부분이며 세트 본문으로 이미 들어갑니다."
      },
      "mods": [
@@ -592,8 +592,8 @@
      "label": {
       "en": "Deep Rampart 3pc · Nature/Cryo Burst",
       "es": "Baluarte profundo 3pc · Nature/Cryo Burst",
-      "zh": "险关 3件 · 自然/寒冷爆发",
-      "ja": "天険 3セット · 自然/寒冷爆発",
+      "zh": "险关3件 · 自然/寒冷爆发",
+      "ja": "天険3セット · 自然/寒冷爆発",
       "ko": "관문 3세트 · 자연/냉기 폭발"
      }
     }
