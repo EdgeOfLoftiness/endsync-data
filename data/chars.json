@@ -54,15 +54,15 @@
     "name_zh": "阿列什",
     "common_gear": {
       "gear": [
-        "redeemer_armor",
-        "eternal_xiranite_gloves",
-        "redeemer_seal",
-        "redeemer_seal"
+        "frontiers_armor",
+        "frontiers_fiber_gloves",
+        "frontiers_comm",
+        "frontiers_o2_tube"
       ],
-      "set": "Redeemer",
+      "set": "Frontiers",
       "setCount": 2,
       "count": 1,
-      "builds": 3
+      "builds": 4
     },
     "name_ko": "알레쉬"
   },
@@ -127,9 +127,9 @@
         "frontiers_o2_tube"
       ],
       "set": "Frontiers",
-      "setCount": 6,
-      "count": 3,
-      "builds": 7
+      "setCount": 7,
+      "count": 2,
+      "builds": 8
     },
     "name_ko": "아크라이트"
   },
@@ -329,7 +329,19 @@
     "name_es": "Endministrator",
     "name_ja": "管理人",
     "name_zh": "管理员",
-    "name_ko": "관리자"
+    "name_ko": "관리자",
+    "common_gear": {
+      "gear": [
+        "swordmancer_heavy_armor_t1",
+        "redeemer_gloves",
+        "swordmancer_dagger",
+        "swordmancer_dagger"
+      ],
+      "set": "Swordmancer",
+      "setCount": 1,
+      "count": 1,
+      "builds": 1
+    }
   },
   {
     "id": "estella",
@@ -389,12 +401,12 @@
       "gear": [
         "xiranflow_light_armor",
         "xiranflow_gloves",
-        "eternal_xiranite_power_core",
+        "lynx_slab",
         "xiranflow_baton"
       ],
       "set": "Xiranflow",
       "setCount": 8,
-      "count": 4,
+      "count": 5,
       "builds": 8
     },
     "name_ko": "장방이"
@@ -458,9 +470,9 @@
         "eternal_xiranite_auxiliary_arm"
       ],
       "set": "Eternal Xiranite",
-      "setCount": 12,
+      "setCount": 13,
       "count": 7,
-      "builds": 13
+      "builds": 15
     },
     "name_ko": "질베르타"
   },
@@ -488,15 +500,15 @@
     "name_zh": "莱万汀",
     "common_gear": {
       "gear": [
-        "redeemer_armor",
+        "tide_fall_light_armor",
         "hot_work_gauntlets",
         "hot_work_pyrometer",
         "hot_work_pyrometer"
       ],
       "set": "Hot Work",
-      "setCount": 2,
-      "count": 1,
-      "builds": 2
+      "setCount": 3,
+      "count": 2,
+      "builds": 3
     },
     "name_ko": "레바테인"
   },
@@ -594,9 +606,9 @@
         "pulser_labs_calibrator"
       ],
       "set": "Pulser Labs",
-      "setCount": 14,
-      "count": 11,
-      "builds": 22
+      "setCount": 15,
+      "count": 10,
+      "builds": 25
     },
     "support_bis_weapons": [
       "wpn_funnel_0009",
@@ -751,9 +763,9 @@
         "redeemer_seal"
       ],
       "set": "Qingbo",
-      "setCount": 3,
-      "count": 2,
-      "builds": 4
+      "setCount": 4,
+      "count": 3,
+      "builds": 5
     },
     "support_bis_weapons": [
       "wpn_pistol_0012"
@@ -781,15 +793,15 @@
     "name_zh": "赛希",
     "common_gear": {
       "gear": [
-        "eternal_xiranite_light_armor",
-        "eternal_xiranite_wraps",
+        "eternal_xiranite_light_armor_t1",
+        "eternal_xiranite_gloves_t1",
         "eternal_xiranite_auxiliary_arm",
-        "eternal_xiranite_bracing_slab"
+        "eternal_xiranite_auxiliary_arm"
       ],
       "set": "Eternal Xiranite",
-      "setCount": 4,
+      "setCount": 7,
       "count": 1,
-      "builds": 8
+      "builds": 12
     },
     "name_ko": "자이히"
   },
@@ -821,9 +833,9 @@
         "mi_security_toolkit"
       ],
       "set": "MI Security",
-      "setCount": 4,
+      "setCount": 5,
       "count": 2,
-      "builds": 4
+      "builds": 5
     },
     "name_ko": "이본"
   },
@@ -885,9 +897,9 @@
         "redeemer_seal"
       ],
       "set": "Frontiers",
-      "setCount": 5,
+      "setCount": 6,
       "count": 3,
-      "builds": 7
+      "builds": 8
     },
     "name_ko": "카뮤"
   },
@@ -977,9 +989,9 @@
         "lynx_slab"
       ],
       "set": "Hot Work",
-      "setCount": 9,
-      "count": 5,
-      "builds": 14
+      "setCount": 12,
+      "count": 7,
+      "builds": 21
     },
     "name_ko": "결"
   },
@@ -1010,9 +1022,9 @@
         "lynx_slab"
       ],
       "set": "Eternal Xiranite",
-      "setCount": 4,
-      "count": 3,
-      "builds": 6
+      "setCount": 5,
+      "count": 4,
+      "builds": 9
     },
     "name_ko": "리노"
   },
@@ -1036,15 +1048,15 @@
     ],
     "common_gear": {
       "gear": [
-        "bonekrusha_poncho_t1",
+        "deep_rampart_armor",
         "deep_rampart_gauntlets",
         "deep_rampart_comms",
         "deep_rampart_comms"
       ],
       "set": "Deep Rampart",
-      "setCount": 4,
+      "setCount": 8,
       "count": 4,
-      "builds": 4
+      "builds": 8
     },
     "name_ja": "ティフォロス",
     "name_zh": "提弗洛斯",
@@ -1058,9 +1070,29 @@
     "r": 5,
     "role": "Buffer",
     "icon": "<img src='assets/characters/purrchena_card.webp' class='char-av-img' loading='lazy'>",
+    "bis_weapon": "wpn_sword_0023",
+    "recommended_set": "LYNX",
+    "recommended_gear": [
+      "lynx_heavy_armor",
+      "lynx_gloves",
+      "lynx_connector_t1",
+      "lynx_connector_t1"
+    ],
     "name_es": "Purrchena",
     "name_zh": "噗切娜",
     "name_ja": "プチエナ",
-    "name_ko": "푸치나"
+    "name_ko": "푸치나",
+    "common_gear": {
+      "gear": [
+        "eternal_xiranite_light_armor",
+        "lynx_gloves",
+        "eternal_xiranite_heavy_slab",
+        "eternal_xiranite_heavy_slab"
+      ],
+      "set": "Eternal Xiranite",
+      "setCount": 1,
+      "count": 1,
+      "builds": 1
+    }
   }
 ]

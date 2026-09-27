@@ -10260,49 +10260,358 @@
       "class": "Defender",
       "element": "Physical",
       "weapon_type": "Sword",
-      "data_pending": true,
-      "upcoming": true,
+      "primary_attribute": "Strength",
+      "secondary_attribute": "Will",
+      "stats_lv90": {
+        "hp": 5495,
+        "atk": 309,
+        "strength": 168,
+        "agility": 93,
+        "intellect": 89,
+        "will": 113
+      },
       "skills": {
         "basic_attack": {
           "name": "DESSERT! HAVE SOME!",
           "name_es": "¡POSTRE! ¡COMAN UN POCO!",
+          "sequences": 3,
           "dmg_type": "Physical",
-          "description": "An attack with up to 3 sequences that deals Physical DMG. The final strike deals high Physical DMG and recovers SP.",
-          "description_es": "Un ataque con hasta 3 secuencias que inflige DAÑ físico. El golpe final inflige DAÑ físico alto y recupera SP.",
-          "description_zh": "最多3段的攻击，造成物理伤害。最后一击造成高额物理伤害并回复 技力。",
-          "description_ja": "最大3段の攻撃で物理ダメージを与える。最終段は高い物理ダメージを与え、SP を回復する。",
-          "description_ko": "최대 3단 공격으로 물리 피해를 줍니다. 마지막 일격은 높은 물리 피해를 주고 SP를 회복합니다."
+          "final_strike_stagger": 21,
+          "description": "An attack with up to 3 sequences that deals Physical DMG. As the controlled operator, <u>Final Strike</u> also deals <b>21</b> Stagger.",
+          "description_es": "Un ataque con hasta 3 secuencias que inflige DAÑ físico. Como operador controlado, <u>Golpe final</u> también inflige <b>21</b> de Tambaleo.",
+          "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.",
+          "description_dive_es": "Un ataque básico ejecutado en el aire se convierte en un Ataque de inmersión que inflige DAÑ físico a los enemigos cercanos.",
+          "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher that deals massive Physical DMG and recovers some SP.",
+          "description_finisher_es": "El ataque básico realizado cerca de un enemigo Tambaleado se convierte en un remate que inflige mucho DAÑ físico y recupera algunos PH.",
+          "multipliers_max": {
+            "sequence_dmg_pct": [
+              108,
+              116,
+              230
+            ],
+            "dive_dmg_pct": 180,
+            "finisher_dmg_pct": 900
+          },
+          "effects": [
+            "Final Strike"
+          ],
+          "name_zh": "点心，尝尝！",
+          "description_zh": "对敌人进行至多3段攻击，造成物理伤害。作为主控干员时，<u>重击</u>会造成<b>21</b>点失衡。",
+          "description_dive_zh": "处于空中时使用普通攻击，会下落并攻击附近敌人，造成物理伤害。",
+          "description_finisher_zh": "附近有敌人处于失衡状态时使用普通攻击，将处决该敌人，造成大量物理伤害并恢复一定技力。",
+          "name_ja": "お菓子、どうぞ～！",
+          "description_ja": "最大3段の攻撃で敵に物理ダメージを与える。操作中のオペレーターの場合、<u>重攻撃</u>はブレイク値<b>21</b>を与える。",
+          "description_dive_ja": "空中で通常攻撃を使用すると、落下して周囲の敵に物理ダメージを与える。",
+          "description_finisher_ja": "近くにブレイク状態の敵がいるときに通常攻撃を使用すると、その敵に終撃を行い、高い物理ダメージを与えてSPを一定量回復する。",
+          "name_ko": "디저트, 먹어 봐!",
+          "description_ko": "적에게 최대 3단 공격을 하여 물리 피해를 줍니다. 메인 컨트롤 오퍼레이터라면 <u>강력한 일격</u>이 <b>21</b>포인트의 불균형 피해를 줍니다.",
+          "description_dive_ko": "공중에 떴을 때, 일반 공격을 사용하면 낙하하며 주변의 적을 공격하고 물리 피해를 줍니다.",
+          "description_finisher_ko": "주변에 불균형 상태의 적이 있을 때, 일반 공격을 사용하면 해당 적을 처형하여 대량의 물리 피해를 주고 일정량의 스킬 게이지를 회복합니다."
         },
         "battle_skill": {
           "name": "I'M NOT SLEEPING!",
           "name_es": "¡NO ESTOY DURMIENDO!",
-          "description": "Raises the shield and blocks attacks. While she holds it she grants Protection to herself and to nearby operators, and makes them harder to interrupt. The first successful block extends the duration and returns extra SP; later blocks lower the Protection bit by bit. After a while the skill can be cast a second time at no SP cost: that cast deals Nature DMG and applies Nature Infliction.",
-          "description_es": "Alza el escudo y bloquea ataques. Mientras lo mantiene da Protección a ella y a los operadores cercanos, y los vuelve más difíciles de interrumpir. El primer bloqueo exitoso extiende la duración y devuelve SP extra; los bloqueos siguientes van reduciendo la Protección de a poco. Pasado un tiempo puede activar la skill una segunda vez sin gastar SP: esa activación hace DAÑ por naturaleza y aplica Imposición de naturaleza.",
-          "description_zh": "举盾格挡攻击。持盾期间为自己和附近干员提供庇护，并使其更难被打断。首次成功格挡延长持续时间并返还额外 技力；之后的格挡逐步降低庇护。一段时间后可免费再次施放：该次施放造成自然伤害并施加自然附着。",
-          "description_ja": "盾を構えて攻撃を防ぐ。構えている間、自身と周囲のオペレーターに加護を与え、割り込まれにくくする。最初のブロック成功で持続時間が延び、追加の SP が返還される。以降のブロックは加護を少しずつ下げる。しばらくすると SP 消費なしで2回目を発動でき、その発動は自然ダメージを与えて自然付着を付与する。",
-          "description_ko": "방패를 들어 공격을 막습니다. 들고 있는 동안 자신과 주변 오퍼레이터에게 비호를 주고 방해받기 어렵게 합니다. 첫 성공 방어는 지속 시간을 늘리고 추가 SP를 돌려주며, 이후의 방어는 비호를 조금씩 낮춥니다. 잠시 뒤 SP 없이 한 번 더 사용할 수 있고, 그 사용은 자연 피해를 주며 자연 부착을 겁니다."
+          "sp_cost": 100,
+          "dmg_type": "Nature",
+          "description": "Purrchena raises up her shield to block an attack and immediately <u>returns</u> some SP. While Purrchena's shield is up, she grants <u>Protection</u> to herself and nearby operators. During the battle skill, the first successful block extends the shield up duration and returns additional SP. After casting, Purrchena's battle skill is temporarily changed to <u>LEAVE MY FRIENDS ALONE!</u>.<br/>LEAVE MY FRIENDS ALONE!: Purrchena headbutts a target in front of her to deal Nature DMG and apply <u>Nature Infliction</u>.<br/>Protection granted during shield-raising is reduced after every blocked attack.",
+          "description_es": "Purrchena levanta su escudo para bloquear un ataque y <u>devuelve</u> PH de inmediato. Mientras el escudo de Purrchena está activo, se otorga <u>Protección</u> a sí misma y a los operadores cercanos. Durante la habilidad de batalla, el primer bloqueo exitoso prolonga la duración del escudo y devuelve PH adicionales. Tras lanzarla, la habilidad de batalla de Purrchena cambia temporalmente a <u>¡DEJA EN PAZ A MIS AMIGOS!</u>.<br/>¡DEJA EN PAZ A MIS AMIGOS!: Purrchena le da un cabezazo a un objetivo frente a ella para infligir DAÑ por naturaleza y aplicar <u>Imposición de naturaleza</u>.<br/>La Protección otorgada mientras el escudo está levantado se reduce después de cada ataque bloqueado.",
+          "multipliers_max": [
+            {
+              "name": "Protection",
+              "value": 90,
+              "formatted": "90%"
+            },
+            {
+              "name": "Shield Up Duration (s)",
+              "value": 3,
+              "formatted": "3"
+            },
+            {
+              "name": "Shield Up Duration After Successful Block (s)",
+              "value": 3,
+              "formatted": "3"
+            },
+            {
+              "name": "Headbutt DMG Multiplier",
+              "value": 400,
+              "formatted": "400%"
+            },
+            {
+              "name": "Headbutt Stagger",
+              "value": 20,
+              "formatted": "20"
+            },
+            {
+              "name": "SP Return",
+              "value": 20,
+              "formatted": "20"
+            },
+            {
+              "name": "Additional SP Return",
+              "value": 20,
+              "formatted": "20"
+            }
+          ],
+          "effects": [
+            "Protection",
+            "SP Return",
+            "Nature Infliction"
+          ],
+          "name_zh": "我没有睡着！",
+          "description_zh": "架起盾牌格挡攻击，立盾期间使自身及周围干员获得<u>庇护</u>，并立即<u>返还</u>一定技力。立盾期间首次成功格挡后延长立盾时间，并额外返还一定技力。施放后战技在一段时间内替换为<u>离我的朋友远点！</u>。<br/>离我的朋友远点！：对面前的目标使用头槌撞击，造成自然伤害，并施加<u>自然附着</u>。<br/>立盾期间提供的庇护效果会随格挡次数增加而降低。",
+          "name_ja": "寝てませんよ！",
+          "description_ja": "盾を構えて攻撃をブロックする。構えている間、自身と周囲のオペレーターに<u>加護</u>を与え、即座にSPが一定量<u>返還</u>される。構えている間、初めてブロックに成功すると盾を構える時間が延長し、追加でSPが一定量返還される。発動後、戦技は一定時間「<u>お友だちから離れろ～！</u>」に替わる。<br/>お友だちから離れろ～！：前方の目標に頭突きして自然ダメージを与え、さらに<u>自然付着</u>を付与する。<br/>盾を構えている間に付与される加護効果は、ブロック回数が増えるほどダウンする。",
+          "name_ko": "나 안 잤어!",
+          "description_ko": "푸치나가 방패를 들어 적의 공격을 막아냅니다. 방패를 들고 있는 동안 자신과 주변 오퍼레이터가 <u>비호</u> 효과를 획득하고, 즉시 일정량의 스킬 게이지를 <u>반환</u>합니다. 방패를 들고 있는 동안 최초로 공격을 막아내면 방패 유지 시간이 연장되고, 일정량의 스킬 게이지를 추가로 반환합니다. 스킬 발동 후, 일정 시간 동안 배틀 스킬이 <u>내 친구한테서 떨어져!</u>로 교체됩니다.<br/>내 친구한테서 떨어져!: 눈앞의 목표에 머리 박치기를 날려 자연 피해를 주고, <u>자연 부착</u>을 부여합니다.<br/>방패를 들고 있는 동안 제공되는 비호 효과는 공격을 막아낸 횟수가 늘어날수록 감소합니다."
         },
         "combo_skill": {
           "name": "CAKE OR \"PREZZIE\"",
-          "name_es": "PASTEL O \"REGALITO\"",
+          "name_es": "PASTEL O “REGALITO”",
+          "cooldown_s": 22,
+          "trigger": "When the controlled operator is attacked.",
+          "trigger_es": "Cuando el operador controlado es atacado.",
           "dmg_type": "Physical",
-          "description": "Triggers when the controlled operator is attacked. Throws a Giftbox at them and heals them. Then it draws one extra prezzie at random: Bomb (Physical DMG plus Stagger), Handicraft (pulls nearby enemies in continuously and deals Physical DMG to them) or Yummy Dessert (continuous healing on the controlled operator).",
-          "description_es": "Se dispara cuando atacan al operador controlado. Le tira una Giftbox y lo cura. Después saca al azar un regalo extra: Bomb (DAÑ físico más Tambaleo), Handicraft (atrae enemigos cercanos de forma continua y les hace DAÑ físico) o Yummy Dessert (cura continua al operador controlado).",
-          "description_zh": "主控干员受到攻击时触发。向其投掷礼物盒并治疗。随后随机抽取一份额外礼物：炸弹（物理伤害加失衡）、手工艺品（持续拉拢附近敌人并造成物理伤害）或美味甜点（对主控干员持续治疗）。",
-          "description_ja": "操作中のオペレーターが攻撃されたときに発動。ギフトボックスを投げて回復する。その後、追加のプレゼントをランダムに1つ引く：爆弾（物理ダメージ＋ブレイク）、手作りの品（周囲の敵を引き寄せ続けて物理ダメージ）、おいしいデザート（操作中のオペレーターを継続回復）。",
-          "description_ko": "조작 중인 오퍼레이터가 공격받을 때 발동합니다. 선물 상자를 던져 치유합니다. 그 뒤 추가 선물 하나를 무작위로 뽑습니다. 폭탄(물리 피해와 불균형), 수공예품(주변 적을 계속 끌어당기며 물리 피해), 맛있는 디저트(조작 중인 오퍼레이터를 지속 치유)."
+          "description": "Throws a <u>Giftbox</u> at the controlled operator. The Giftbox opens after a short delay, granting HP Treatment to nearby operators, randomly revealing one of the following items, and triggering the effects of the revealed item:<br/><u>Bomb</u>: Deals Physical DMG and additional Stagger to enemies in the area of effect (AOE).<br/><u>Handicraft</u>: Continuously pulls in nearby enemies and deals Physical DMG.<br/><u>Yummy Dessert</u>: Grants HP Treatment to the controlled operator.<br/>The attribute of Will increases the amount of HP treatment.",
+          "description_es": "Lanza una <u>Caja de regalo</u> al operador controlado. La Caja de regalo se abre tras una breve demora, otorga Tratamiento de PV a los operadores cercanos, revela al azar uno de los siguientes objetos y activa sus efectos:<br/><u>Bomba</u>: Inflige DAÑ físico y causa Tambaleo adicional a los enemigos dentro del área de efecto (ADE).<br/><u>Artesanía</u>: Atrae continuamente a los enemigos cercanos e inflige DAÑ físico.<br/><u>Postre delicioso</u>: Otorga Tratamiento de PV al operador controlado.<br/>El atributo de Voluntad aumenta la cantidad de tratamiento de PV.",
+          "multipliers_max": [
+            {
+              "name": "Base Treatment",
+              "value": 486,
+              "formatted": "486"
+            },
+            {
+              "name": "Treatment Increase per Will",
+              "value": 1.13,
+              "formatted": "1.13"
+            },
+            {
+              "name": "Bomb: DMG Multiplier",
+              "value": 300,
+              "formatted": "300%"
+            },
+            {
+              "name": "Bomb: Stagger",
+              "value": 10,
+              "formatted": "10"
+            },
+            {
+              "name": "Handicraft: DMG Multiplier",
+              "value": 150,
+              "formatted": "150%"
+            },
+            {
+              "name": "Yummy Dessert: Base Treatment",
+              "value": 324,
+              "formatted": "324"
+            },
+            {
+              "name": "Yummy Dessert: Treatment Increase per Will",
+              "value": 0.76,
+              "formatted": "0.76"
+            },
+            {
+              "name": "Ultimate Energy Gain",
+              "value": 10,
+              "formatted": "10"
+            }
+          ],
+          "effects": [
+            "HP Treatment"
+          ],
+          "name_zh": "点心还是“礼物”",
+          "trigger_zh": "主控干员受到攻击后可以发动。",
+          "description_zh": "向主控干员扔出一个<u>礼物匣子</u>，礼物匣子会在短暂延迟后开启，治疗范围内的干员，随机开出一个以下物品并触发对应效果：<br/><u>炸弹</u>：对范围内的敌人造成物理伤害并且额外造成一定失衡。<br/><u>手工作业</u>：持续吸引附近的敌人并对其造成物理伤害。<br/><u>好吃的点心</u>：治疗主控干员。<br/>意志可以额外提高治疗量。",
+          "name_ja": "お菓子or“プレゼント”",
+          "trigger_ja": "操作中のオペレーターが攻撃を受けると発動可能。",
+          "description_ja": "操作オペレーターに<u>ギフトボックス</u>を投げる。ギフトボックスは一定時間後に開き、範囲内のオペレーターを治療する。さらに、以下のいずれか1つのアイテムがランダムで出現し、それぞれの効果を発動する。<br/><u>爆弾</u>：範囲内の敵に物理ダメージを与え、追加で一定量のブレイク値を与える。<br/><u>手作りアイテム</u>：持続的に近くの敵を引き寄せ、物理ダメージを与える。<br/><u>おいし～お菓子</u>：操作オペレーターのHPを回復する。<br/>回復量は意志の値に応じて追加でアップする。",
+          "name_ko": "디저트인가, 아니면 '선물'인가",
+          "trigger_ko": "메인 컨트롤 오퍼레이터가 공격을 받은 후 사용할 수 있습니다.",
+          "description_ko": "메인 컨트롤 오퍼레이터에게 <u>선물 상자</u> 하나를 던집니다. 잠시 후, 선물 상자가 열리면 범위 내 오퍼레이터를 치유하고, 다음 아이템 중 하나가 무작위로 나와 해당 효과를 발동합니다.<br/><u>폭탄</u>: 범위 내의 적에게 물리 피해를 주고, 추가로 일정량의 불균형 피해를 줍니다.<br/><u>제작 과제</u>: 주변의 적을 지속적으로 끌어당기며 물리 피해를 줍니다.<br/><u>맛있는 디저트</u>: 메인 컨트롤 오퍼레이터를 치유합니다.<br/>의지 수치에 따라 치유량이 추가로 증가합니다."
         },
         "ultimate": {
           "name": "NAUGHTY IS BANNED!",
           "name_es": "¡PROHIBIDO PORTARSE MAL!",
+          "energy_cost": 100,
+          "cooldown_s": 20,
           "dmg_type": "Physical",
-          "description": "Opens three Big Feline's Prezzies at once; each one reveals a random Bomb or Handicraft. There is also a chance of the Ambassador's Special, which applies extra Arts Susceptibility to the enemies it hits.",
-          "description_es": "Abre tres Big Feline's Prezzies de golpe; cada una revela al azar una Bomb o una Handicraft. Además hay chance de que salga el Ambassador's Special, que aplica Susceptibilidad a las artes adicional a los enemigos golpeados.",
-          "description_zh": "一次打开三份大猫礼物；每份揭示随机的炸弹或手工艺品。还有机会出现大使特供，对命中的敌人施加额外的法术脆弱。",
-          "description_ja": "大きな猫のプレゼントを一度に3つ開け、それぞれからランダムに爆弾か手作りの品が出る。大使スペシャルが出ることもあり、当たった敵に追加のアーツ脆弱を付与する。",
-          "description_ko": "큰 고양이의 선물 세 개를 한 번에 열고, 각각에서 무작위로 폭탄이나 수공예품이 나옵니다. 대사의 스페셜이 나올 수도 있으며, 맞은 적에게 추가 아츠 취약을 겁니다."
+          "description": "Purrchena opens 3 <u>Big Feline's Prezzies</u>. Each <u>Big Feline's Prezzie</u> randomly reveals a <u>Bomb</u> or a piece of <u>Handicraft</u>.<br/>There is a chance that the Prezzie reveals <u>Ambassador's Special</u> that applies <u>Arts Susceptibility</u> and deals Physical DMG as well as additional Stagger to enemies.",
+          "description_es": "Purrchena abre 3 <u>Regalitos del Gran Felino</u>. Cada <u>Regalito del Gran Felino</u> revela al azar una <u>Bomba</u> o una pieza de <u>Artesanía</u>.<br/>Existe la posibilidad de que el Regalito revele un <u>Especial de la embajadora</u> que aplica <u>Susceptibilidad a Artes</u>, inflige DAÑ físico y causa Tambaleo adicional a los enemigos.",
+          "multipliers_max": [
+            {
+              "name": "Bomb: DMG Multiplier",
+              "value": 300,
+              "formatted": "300%"
+            },
+            {
+              "name": "Bomb: Stagger",
+              "value": 10,
+              "formatted": "10"
+            },
+            {
+              "name": "Handicraft: DMG Multiplier",
+              "value": 150,
+              "formatted": "150%"
+            },
+            {
+              "name": "Ambassador's Special: Base Chance",
+              "value": 20,
+              "formatted": "20%"
+            },
+            {
+              "name": "Ambassador's Special: DMG Multiplier",
+              "value": 600,
+              "formatted": "600%"
+            },
+            {
+              "name": "Ambassador's Special: Stagger",
+              "value": 15,
+              "formatted": "15"
+            },
+            {
+              "name": "Susceptibility Duration (s)",
+              "value": 5,
+              "formatted": "5"
+            },
+            {
+              "name": "Susceptibility",
+              "value": 2.5,
+              "formatted": "2.5%"
+            }
+          ],
+          "effects": [
+            "Arts Susceptibility"
+          ],
+          "name_zh": "不许干坏事！",
+          "description_zh": "打开三个<u>大菲林礼盒</u>。每个大菲林礼盒将随机开出<u>炸弹</u>或<u>手工作业</u>。<br/>有一定概率开出<u>代言人的特殊赠礼</u>，对敌人造成物理伤害，额外造成一定失衡，并且施加<u>法术脆弱</u>。",
+          "name_ja": "悪いことは許しませ～ん！",
+          "description_ja": "<u>でっかいフェリーンのギフト</u>を3つ開ける。それぞれのでっかいフェリーンのギフトからは<u>爆弾</u>か<u>手作りアイテム</u>がランダムで出現する。<br/>一定確率で<u>アンバサダーのスペシャルギフト</u>が出現し、敵に物理ダメージを与えて、追加で一定量のブレイク値を与える。さらに追加で<u>アーツ脆弱</u>を付与する。",
+          "name_ko": "말썽 피우면 안 돼!",
+          "description_ko": "<u>거대한 필라인의 선물 상자</u> 3개를 엽니다. 각 거대한 필라인의 선물 상자에서는 <u>폭탄</u> 또는 <u>제작 과제</u>가 무작위로 나옵니다.<br/>일정 확률로 <u>홍보대사의 특수 선물</u>이 나오며, 적에게 물리 피해 및 일정량의 추가 불균형 피해를 주고 <u>아츠 취약</u>을 부여합니다."
         }
-      }
+      },
+      "talents": [
+        {
+          "name": "Your sorry came LATE!",
+          "description": "Battle skill <u>I'M NOT SLEEPING!</u> improved: After successfully blocking an enemy attack for the first time, the skill gives <b>6/10</b> additional Ultimate Energy. Chance for <u>Ambassador's Special</u> of the next ultimate <u>NAUGHTY IS BANNED!</u> is increased by <b>10%</b>. This effect can reach <b>3</b> stacks.",
+          "effects": [],
+          "name_es": "¡Tu disculpa llegó TARDE!",
+          "name_zh": "道歉也来不及了！",
+          "name_ja": "謝っても遅いのですっ！",
+          "name_ko": "사과해도 안 봐줄 거다?",
+          "description_es": "Habilidad de batalla <u>¡NO ESTOY DURMIENDO!</u> mejorada: Tras bloquear correctamente un ataque enemigo por primera vez, la habilidad otorga <b>6/10</b> de Energía máxima adicional. La probabilidad de obtener <u>Especial de la Embajadora</u> con la siguiente máxima <u>¡PROHIBIDO PORTARSE MAL!</u> aumenta en <b>10%</b>. Este efecto puede alcanzar <b>3</b> acumulaciones.",
+          "description_zh": "战技<u>我没有睡着！</u>首次成功格挡敌人攻击后，额外获得<b>6/10</b>点终结技能量，并提升<b>10%</b>下一次终结技<u>不许干坏事！</u>开出<u>代言人的特殊赠礼</u>的概率，该效果最多叠加<b>3</b>层。",
+          "description_ja": "戦技<u>「寝てませんよ！」</u>で初めて敵の攻撃のブロックに成功すると、追加で必殺チャージが<b>6/10</b>回復する<br/>さらに、次の必殺技<u>「悪いことは許しませ～ん！」</u>で<u>アンバサダーのスペシャルギフト</u>が出現する確率が<b>10%</b>アップする<br/>（最大<b>3</b>回まで重ね掛け可能）",
+          "description_ko": "배틀 스킬 <u>나 안 잤어!</u>로 적의 공격을 처음 막아내면 궁극기 에너지를 추가로 <b>6/10</b>포인트 획득합니다. 또한, 다음 궁극기 <u>말썽 피우면 안 돼!</u>에서 <u>홍보대사의 특수 선물</u>이 나올 확률이 <b>10%</b> 증가합니다. 해당 효과는 최대 <b>3</b>스택까지 중첩됩니다."
+        },
+        {
+          "name": "Ambassador's Duty",
+          "description": "When deployed in battle, all Max HP operators in the team take <b>50%</b> less DMG from the next hit taken.<br/>For each operator, this effect can only trigger once every <b>180/90</b>s.",
+          "effects": [
+            "DMG Taken"
+          ],
+          "name_es": "El deber de una embajadora",
+          "name_zh": "代言人的职责",
+          "name_ja": "アンバサダーの務め",
+          "name_ko": "홍보대사의 책임",
+          "description_es": "Al desplegarse en batalla, todos los operadores con PV Máx. del equipo reciben <b>50%</b> menos DAÑ del siguiente golpe que reciban.<br/>Este efecto solo se puede activar una vez cada <b>180/90</b> s por cada operador.",
+          "description_zh": "在场时，使小队内所有生命值已满的干员下一次受到的伤害降低<b>50%</b>。<br/>每名干员每<b>180/90</b>秒最多触发一次该效果。",
+          "description_ja": "戦場に出ている間、チーム内のHPが満タンのオペレーター全員は次に受けるダメージが<b>50%</b>ダウンする<br/>各オペレーターは、<b>180/90</b>秒ごとに1回までこの効果を発動できる",
+          "description_ko": "필드에 있을 때, 팀 내 생명력이 최대인 오퍼레이터가 다음에 받는 피해가 <b>50%</b> 감소합니다.<br/>각 오퍼레이터는 <b>180/90</b>초마다 최대 1회만 해당 효과를 발동할 수 있습니다."
+        }
+      ],
+      "base_talents": [
+        {
+          "name": "Brand Ambassador",
+          "description": "Assign to Reception Room to grant operators Clue 2 Rate-UP: TGCC (activates upon assignment; effects of the same type cannot stack)",
+          "name_es": "Embajadora de marca",
+          "name_zh": "形象代言人",
+          "name_ja": "アンバサダー",
+          "name_ko": "홍보대사",
+          "description_es": "Asígnalo a la Sala de recepción para otorgar a los operadores Aumento de probabilidad de Pista 2: C.G.C.T. (se activa al asignarlo; los efectos del mismo tipo no se pueden acumular)",
+          "description_zh": "进驻会客室时，干员收集到线索2——环塔商会的概率提升（进驻即生效，同类不可叠加）",
+          "description_ja": "応接室配属時、手がかり2――環タロ商会の入手確率が上昇する（配属直後に発動、重複不可）",
+          "description_ko": "응접실에 배치 시, 오퍼레이터가 단서 2 - 탈로스 II 상업연합회를 수집할 확률 증가. (배치 시 즉시 효력 발생, 같은 유형의 효과는 중첩되지 않음.)"
+        },
+        {
+          "name": "Desserts for the Debrief",
+          "description": "Assign to Manufacturing Cabin to grant operator EXP material production efficiency +<b>20</b>/<b>30</b>%",
+          "name_es": "Postres para el reporte final",
+          "name_zh": "任务后的点心",
+          "name_ja": "任務後のお菓子",
+          "name_ko": "임무 후의 디저트",
+          "description_es": "Asignar a la Cabina de manufactura para otorgar eficiencia de Producción de materiales de EXP de operador en un +20/30 %",
+          "description_zh": "进驻制造舱时，干员经验素材的生产效率提升20/30%",
+          "description_ja": "製造室配属時、オペレーター経験値素材の製造効率+20/30%",
+          "description_ko": "제조실에 배치 시, 오퍼레이터 경험치 재료의 생산 효율 20/30% 증가"
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Warm Like the Sun",
+          "description": "Ultimate <u>NAUGHTY IS BANNED!</u> improved: Base chance for <u>Ambassador's Special</u> is increased to <b>1.5</b> times the original.",
+          "effects": [],
+          "name_es": "Cálido como el sol",
+          "name_zh": "太阳般温暖",
+          "name_ja": "太陽みたいにあったかい",
+          "name_ko": "태양처럼 따뜻하게",
+          "description_es": "Máxima <u>¡PROHIBIDO PORTARSE MAL!</u> mejorada: La probabilidad base de obtener <u>Especial de la Embajadora</u> aumenta a <b>1.5</b> veces la original.",
+          "description_zh": "终结技<u>不许干坏事！</u>开出<u>代言人的特殊赠礼</u>的基础概率提升至原本的<b>1.5</b>倍。",
+          "description_ja": "必殺技<u>「悪いことは許しませ～ん！」</u>で<u>アンバサダーのスペシャルギフト</u>の基礎出現確率が<b>1.5</b>倍までアップする",
+          "description_ko": "궁극기 <u>말썽 피우면 안 돼!</u>의 상자에서 <u>홍보대사의 특수 선물</u>이 등장할 기본 확률이 기존의 <b>1.5</b>배로 증가합니다."
+        },
+        {
+          "name": "Super Energetic",
+          "description": "DEF <b>+20</b>, Will <b>+20</b>.",
+          "effects": [],
+          "name_es": "Superenergético",
+          "name_zh": "精力十足",
+          "name_ja": "エネルギッシュ",
+          "name_ko": "넘치는 기운",
+          "description_es": "DEF +<b>20</b>, Voluntad +<b>20</b>.",
+          "description_zh": "防御力+<b>20</b>，意志+<b>20</b>。",
+          "description_ja": "防御力+<b>20</b>、意志+<b>20</b>",
+          "description_ko": "방어력 +<b>20</b>, 의지 +<b>20</b>"
+        },
+        {
+          "name": "Useful \"Prezzies\"",
+          "description": "Combo skill <u>CAKE OR \"PREZZIE\"</u> improved:<br/><u>Bomb</u>: DMG Multiplier increased to <b>1.2</b> times the original.<br/><u>Handicraft</u>: Effect radius <b>+20%</b>.<br/><u>Yummy Dessert</u>: HP Treatment increased to <b>1.2</b> times the original.",
+          "effects": [],
+          "name_es": "“Regalitos” útiles",
+          "name_zh": "“礼”尽其用",
+          "name_ja": "「礼」はムダなく",
+          "name_ko": "'선물' 활용의 달인",
+          "description_es": "Habilidad de combo <u>PASTEL O “REGALITO”</u> mejorada:<br/><u>Bomba</u>: El Multiplicador de DAÑ aumenta a <b>1.2</b> veces el original.<br/><u>Artesanía</u>: Radio del efecto +<b>20%</b>.<br/><u>Postre delicioso</u>: El Tratamiento de PV aumenta a <b>1.2</b> veces el original.",
+          "description_zh": "连携技<u>点心还是“礼物”</u>效果加强：<br/><u>炸弹</u>：伤害倍率提升至原本的<b>1.2</b>倍。<br/><u>手工作业</u>：作用范围+<b>20%</b>。<br/><u>好吃的点心</u>：治疗效果提升至原本的<b>1.2</b>倍。",
+          "description_ja": "連携技<u>「お菓子or“プレゼント”」</u>強化：<br/><u>爆弾</u>：ダメージ倍率が<b>1.2</b>倍までアップする<br/><u>手作りアイテム</u>：効果範囲+<b>20%</b><br/><u>おいし～お菓子</u>：回復効果が<b>1.2</b>倍までアップする",
+          "description_ko": "연계 스킬 <u>디저트인가, 아니면 '선물'인가</u>의 효과가 강화됩니다.<br/><u>폭탄</u>: 피해 배율이 기존의 <b>1.2</b>배로 증가합니다.<br/><u>제작 과제</u>: 효과 범위 +<b>20%</b>.<br/><u>맛있는 디저트</u>: 치유 효과가 기존의 <b>1.2</b>배로 증가합니다."
+        },
+        {
+          "name": "After the Feast",
+          "description": "Ultimate <u>NAUGHTY IS BANNED!</u> improved: Ultimate Energy cost <b>-15%</b>.",
+          "effects": [],
+          "name_es": "Después del festín",
+          "name_zh": "美餐之后",
+          "name_ja": "ごちそうのあと",
+          "name_ko": "아, 배부르다!",
+          "description_es": "Máxima <u>¡PROHIBIDO PORTARSE MAL!</u> mejorada: Costo de Energía máxima -<b>15%</b>.",
+          "description_zh": "终结技<u>不许干坏事！</u>所需的终结技能量-<b>15%</b>。",
+          "description_ja": "必殺技<u>「悪いことは許しませ～ん！」</u>に必要な必殺チャージ-<b>15%</b>",
+          "description_ko": "궁극기 <u>말썽 피우면 안 돼!</u>의 사용에 필요한 궁극기 에너지 -<b>15%</b>"
+        },
+        {
+          "name": "Hot Like a BBQ Fire",
+          "description": "Ultimate <u>NAUGHTY IS BANNED!</u> improved:<br/><u>Ambassador's Special</u> DMG Multiplier is increased to <b>1.2</b> times the original.<br/>Ambassador's Special: <u>Arts Susceptibility</u> is increased to <b>1.2</b> times the original.",
+          "effects": [],
+          "name_es": "Ardiente como el fuego de una barbacoa",
+          "name_zh": "薪火般炽热",
+          "name_ja": "焚き火よりアチチッ",
+          "name_ko": "불꽃처럼 뜨겁게",
+          "description_es": "Máxima <u>¡PROHIBIDO PORTARSE MAL!</u> mejorada:<br/>El multiplicador de DAÑ de <u>Especial de la embajadora</u> aumenta <b>1.2</b> veces el original.<br/>Especial de la embajadora: <u>Susceptibilidad a Artes</u> aumenta a <b>1.2</b> veces el original.",
+          "description_zh": "终结技<u>不许干坏事！</u>效果加强：<br/><u>代言人的特殊赠礼</u>：伤害倍率提升至原本的<b>1.2</b>倍。<br/>代言人的特殊赠礼：<u>法术脆弱</u>效果提升至原本的<b>1.2</b>倍。",
+          "description_ja": "必殺技<u>「悪いことは許しませ～ん！」</u>強化：<br/><u>アンバサダーのスペシャルギフト</u>：ダメージ倍率が<b>1.2</b>倍までアップする<br/>アンバサダーのスペシャルギフト：<u>アーツ脆弱</u>効果が<b>1.2</b>倍までアップする",
+          "description_ko": "궁극기 <u>말썽 피우면 안 돼!</u>의 효과 강화:<br/><u>홍보대사의 특수 선물</u>: 피해 배율이 기존의 <b>1.2</b>배로 증가합니다.<br/>홍보대사의 특수 선물: <u>아츠 취약</u> 효과가 기존의 <b>1.2</b>배로 증가합니다."
+        }
+      ]
     }
   }
 }

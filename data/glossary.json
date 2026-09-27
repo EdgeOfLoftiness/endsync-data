@@ -2439,6 +2439,228 @@
       }
     },
     {
+      "id": "kit_purrchena_ambassador_s_special",
+      "cat": "kit",
+      "op": "purrchena",
+      "src": "skill:ultimate",
+      "match": [
+        "ambassador's special",
+        "ambassador's specials",
+        "ambassador's special(s)",
+        "especial de la embajadora",
+        "代言人的特殊赠礼",
+        "アンバサダーのスペシャルギフト",
+        "홍보대사의 특수 선물"
+      ],
+      "label": {
+        "en": "Ambassador's Special",
+        "es": "Especial de la embajadora",
+        "zh": "代言人的特殊赠礼",
+        "ja": "アンバサダーのスペシャルギフト",
+        "ko": "홍보대사의 특수 선물"
+      }
+    },
+    {
+      "id": "kit_purrchena_big_feline_s_prezzies",
+      "cat": "kit",
+      "op": "purrchena",
+      "src": "skill:ultimate",
+      "match": [
+        "big feline's prezzies",
+        "big feline's prezziess",
+        "big feline's prezzies(s)",
+        "big feline's prezzie",
+        "big feline's prezzie(s)",
+        "regalitos del gran felino",
+        "大菲林礼盒",
+        "でっかいフェリーンのギフト",
+        "거대한 필라인의 선물 상자"
+      ],
+      "label": {
+        "en": "Big Feline's Prezzies",
+        "es": "Regalitos del Gran Felino",
+        "zh": "大菲林礼盒",
+        "ja": "でっかいフェリーンのギフト",
+        "ko": "거대한 필라인의 선물 상자"
+      }
+    },
+    {
+      "id": "kit_purrchena_bomb",
+      "cat": "kit",
+      "op": "purrchena",
+      "src": "skill:combo_skill",
+      "match": [
+        "bomb",
+        "bombs",
+        "bomb(s)",
+        "bomba",
+        "炸弹",
+        "爆弾",
+        "폭탄"
+      ],
+      "label": {
+        "en": "Bomb",
+        "es": "Bomba",
+        "zh": "炸弹",
+        "ja": "爆弾",
+        "ko": "폭탄"
+      }
+    },
+    {
+      "id": "kit_purrchena_cake_or_prezzie",
+      "cat": "kit",
+      "op": "purrchena",
+      "src": "skill:combo_skill",
+      "match": [
+        "cake or \"prezzie\"",
+        "cake or \"prezzie\"s",
+        "cake or \"prezzie\"(s)",
+        "pastel o “regalito”",
+        "点心还是“礼物”",
+        "お菓子or“プレゼント”",
+        "디저트인가, 아니면 '선물'인가"
+      ],
+      "label": {
+        "en": "CAKE OR \"PREZZIE\"",
+        "es": "PASTEL O “REGALITO”",
+        "zh": "点心还是“礼物”",
+        "ja": "お菓子or“プレゼント”",
+        "ko": "디저트인가, 아니면 '선물'인가"
+      }
+    },
+    {
+      "id": "kit_purrchena_giftbox",
+      "cat": "kit",
+      "op": "purrchena",
+      "src": "skill:combo_skill",
+      "match": [
+        "giftbox",
+        "giftboxs",
+        "giftbox(s)",
+        "caja de regalo",
+        "礼物匣子",
+        "ギフトボックス",
+        "선물 상자"
+      ],
+      "label": {
+        "en": "Giftbox",
+        "es": "Caja de regalo",
+        "zh": "礼物匣子",
+        "ja": "ギフトボックス",
+        "ko": "선물 상자"
+      }
+    },
+    {
+      "id": "kit_purrchena_handicraft",
+      "cat": "kit",
+      "op": "purrchena",
+      "src": "skill:combo_skill",
+      "match": [
+        "handicraft",
+        "handicrafts",
+        "handicraft(s)",
+        "artesanía",
+        "手工作业",
+        "手作りアイテム",
+        "제작 과제"
+      ],
+      "label": {
+        "en": "Handicraft",
+        "es": "Artesanía",
+        "zh": "手工作业",
+        "ja": "手作りアイテム",
+        "ko": "제작 과제"
+      }
+    },
+    {
+      "id": "kit_purrchena_i_m_not_sleeping",
+      "cat": "kit",
+      "op": "purrchena",
+      "src": "skill:battle_skill",
+      "match": [
+        "i'm not sleeping!",
+        "i'm not sleeping!s",
+        "i'm not sleeping!(s)",
+        "¡no estoy durmiendo!",
+        "我没有睡着！",
+        "寝てませんよ！",
+        "나 안 잤어!"
+      ],
+      "label": {
+        "en": "I'M NOT SLEEPING!",
+        "es": "¡NO ESTOY DURMIENDO!",
+        "zh": "我没有睡着！",
+        "ja": "寝てませんよ！",
+        "ko": "나 안 잤어!"
+      }
+    },
+    {
+      "id": "kit_purrchena_leave_my_friends_alone",
+      "cat": "kit",
+      "op": "purrchena",
+      "src": "skill:battle_skill",
+      "match": [
+        "leave my friends alone!",
+        "leave my friends alone!s",
+        "leave my friends alone!(s)",
+        "¡deja en paz a mis amigos!",
+        "离我的朋友远点！",
+        "お友だちから離れろ～！",
+        "내 친구한테서 떨어져!"
+      ],
+      "label": {
+        "en": "LEAVE MY FRIENDS ALONE!",
+        "es": "¡DEJA EN PAZ A MIS AMIGOS!",
+        "zh": "离我的朋友远点！",
+        "ja": "お友だちから離れろ～！",
+        "ko": "내 친구한테서 떨어져!"
+      }
+    },
+    {
+      "id": "kit_purrchena_naughty_is_banned",
+      "cat": "kit",
+      "op": "purrchena",
+      "src": "skill:ultimate",
+      "match": [
+        "naughty is banned!",
+        "naughty is banned!s",
+        "naughty is banned!(s)",
+        "¡prohibido portarse mal!",
+        "不许干坏事！",
+        "悪いことは許しませ～ん！",
+        "말썽 피우면 안 돼!"
+      ],
+      "label": {
+        "en": "NAUGHTY IS BANNED!",
+        "es": "¡PROHIBIDO PORTARSE MAL!",
+        "zh": "不许干坏事！",
+        "ja": "悪いことは許しませ～ん！",
+        "ko": "말썽 피우면 안 돼!"
+      }
+    },
+    {
+      "id": "kit_purrchena_yummy_dessert",
+      "cat": "kit",
+      "op": "purrchena",
+      "src": "skill:combo_skill",
+      "match": [
+        "yummy dessert",
+        "yummy desserts",
+        "yummy dessert(s)",
+        "postre delicioso",
+        "好吃的点心",
+        "おいし～お菓子",
+        "맛있는 디저트"
+      ],
+      "label": {
+        "en": "Yummy Dessert",
+        "es": "Postre delicioso",
+        "zh": "好吃的点心",
+        "ja": "おいし～お菓子",
+        "ko": "맛있는 디저트"
+      }
+    },
+    {
       "id": "kit_typhoeus_barrage_array",
       "cat": "kit",
       "op": "typhoeus",

@@ -652,6 +652,16 @@
      "corrosion"
     ]
    }
+  },
+  "purrchena": {
+   "comboTrigger": {
+    "raw": "When the controlled operator is attacked.",
+    "situational": "controlado atacado"
+   },
+   "exclude": [
+    "Handicraft: DMG Multiplier",
+    "Ambassador's Special: DMG Multiplier"
+   ]
   }
  }
 }

@@ -1,6 +1,6 @@
 {
   "game": "Arknights: Endfield",
-  "total_weapons": 79,
+  "total_weapons": 80,
   "weapons": {
     "Sword": [
       {
@@ -4340,6 +4340,226 @@
         "stat1_ko": "주요 능력치 +132",
         "stat2_ko": "오리지늄 아츠 강도 +78",
         "passive_ko": "팀이 전투에 진입하면 팀 전체가 동경을 획득합니다. 주는 피해 +14.0%, 오리지늄 아츠 강도 +28, 방어력 +8.4%, 20초 동안 지속. 동경 종료 시, 장착자가 팀 전체에게 생명력 122포인트를 회복시킵니다. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "id": "wpn_sword_0023",
+        "name": "Dessert Moment",
+        "type": "Sword",
+        "rarity": 5,
+        "base_atk": 411,
+        "stat1": "Strength: +124",
+        "stat2": "Treatment Efficiency: +37.1%",
+        "passive": "Max HP +28.0%. When the wielder's combo skill grants HP treatment, the operator receiving this HP treatment gains Arts Intensity +14 and Arts DMG Dealt +9.8% for 20s. Effects of the same name cannot stack.",
+        "name_es": "Momento del postre",
+        "scaling_by_rank": {
+          "base_atk": {
+            "min": 42,
+            "max": 411
+          },
+          "passives": [
+            {
+              "name": "Strength Boost [M]",
+              "ranks": [
+                "Strength +16",
+                "Strength +28",
+                "Strength +41",
+                "Strength +54",
+                "Strength +67",
+                "Strength +80",
+                "Strength +92",
+                "Strength +105",
+                "Strength +124"
+              ],
+              "name_es": "Fuerza [M]",
+              "name_zh": "力量提升·中",
+              "name_ja": "筋力UP・中",
+              "name_ko": "힘 증가 · 중",
+              "ranks_es": [
+                "Fuerza +16",
+                "Fuerza +28",
+                "Fuerza +41",
+                "Fuerza +54",
+                "Fuerza +67",
+                "Fuerza +80",
+                "Fuerza +92",
+                "Fuerza +105",
+                "Fuerza +124"
+              ],
+              "ranks_zh": [
+                "力量+16",
+                "力量+28",
+                "力量+41",
+                "力量+54",
+                "力量+67",
+                "力量+80",
+                "力量+92",
+                "力量+105",
+                "力量+124"
+              ],
+              "ranks_ja": [
+                "筋力+16",
+                "筋力+28",
+                "筋力+41",
+                "筋力+54",
+                "筋力+67",
+                "筋力+80",
+                "筋力+92",
+                "筋力+105",
+                "筋力+124"
+              ],
+              "ranks_ko": [
+                "힘 +16",
+                "힘 +28",
+                "힘 +41",
+                "힘 +54",
+                "힘 +67",
+                "힘 +80",
+                "힘 +92",
+                "힘 +105",
+                "힘 +124"
+              ]
+            },
+            {
+              "name": "Treatment Efficiency Boost [M]",
+              "ranks": [
+                "Treatment Efficiency +4.8%.",
+                "Treatment Efficiency +8.6%.",
+                "Treatment Efficiency +12.4%.",
+                "Treatment Efficiency +16.2%.",
+                "Treatment Efficiency +20.0%.",
+                "Treatment Efficiency +23.8%.",
+                "Treatment Efficiency +27.6%.",
+                "Treatment Efficiency +31.4%.",
+                "Treatment Efficiency +37.1%."
+              ],
+              "name_es": "Eficiencia del tratamiento [M]",
+              "name_zh": "治疗效率提升·中",
+              "name_ja": "回復効率UP・中",
+              "name_ko": "치유 효율 증가 · 중",
+              "ranks_es": [
+                "Eficiencia del tratamiento +4.8%.",
+                "Eficiencia del tratamiento +8.6%.",
+                "Eficiencia del tratamiento +12.4%.",
+                "Eficiencia del tratamiento +16.2%.",
+                "Eficiencia del tratamiento +20.0%.",
+                "Eficiencia del tratamiento +23.8%.",
+                "Eficiencia del tratamiento +27.6%.",
+                "Eficiencia del tratamiento +31.4%.",
+                "Eficiencia del tratamiento +37.1%."
+              ],
+              "ranks_zh": [
+                "治疗效率+4.8%",
+                "治疗效率+8.6%",
+                "治疗效率+12.4%",
+                "治疗效率+16.2%",
+                "治疗效率+20.0%",
+                "治疗效率+23.8%",
+                "治疗效率+27.6%",
+                "治疗效率+31.4%",
+                "治疗效率+37.1%"
+              ],
+              "ranks_ja": [
+                "回復効率+4.8%",
+                "回復効率+8.6%",
+                "回復効率+12.4%",
+                "回復効率+16.2%",
+                "回復効率+20.0%",
+                "回復効率+23.8%",
+                "回復効率+27.6%",
+                "回復効率+31.4%",
+                "回復効率+37.1%"
+              ],
+              "ranks_ko": [
+                "치유 효율 +4.8%",
+                "치유 효율 +8.6%",
+                "치유 효율 +12.4%",
+                "치유 효율 +16.2%",
+                "치유 효율 +20.0%",
+                "치유 효율 +23.8%",
+                "치유 효율 +27.6%",
+                "치유 효율 +31.4%",
+                "치유 효율 +37.1%"
+              ]
+            },
+            {
+              "name": "Medicant: Sweetness and Dreams",
+              "ranks": [
+                "Max HP +10.0%. When the wielder's combo skill grants HP treatment, the operator receiving this HP treatment gains Arts Intensity +5 and Arts DMG Dealt +3.5% for 20s. Effects of the same name cannot stack.",
+                "Max HP +12.0%. When the wielder's combo skill grants HP treatment, the operator receiving this HP treatment gains Arts Intensity +6 and Arts DMG Dealt +4.2% for 20s. Effects of the same name cannot stack.",
+                "Max HP +14.0%. When the wielder's combo skill grants HP treatment, the operator receiving this HP treatment gains Arts Intensity +7 and Arts DMG Dealt +4.9% for 20s. Effects of the same name cannot stack.",
+                "Max HP +16.0%. When the wielder's combo skill grants HP treatment, the operator receiving this HP treatment gains Arts Intensity +8 and Arts DMG Dealt +5.6% for 20s. Effects of the same name cannot stack.",
+                "Max HP +18.0%. When the wielder's combo skill grants HP treatment, the operator receiving this HP treatment gains Arts Intensity +9 and Arts DMG Dealt +6.3% for 20s. Effects of the same name cannot stack.",
+                "Max HP +20.0%. When the wielder's combo skill grants HP treatment, the operator receiving this HP treatment gains Arts Intensity +10 and Arts DMG Dealt +7.0% for 20s. Effects of the same name cannot stack.",
+                "Max HP +22.0%. When the wielder's combo skill grants HP treatment, the operator receiving this HP treatment gains Arts Intensity +11 and Arts DMG Dealt +7.7% for 20s. Effects of the same name cannot stack.",
+                "Max HP +24.0%. When the wielder's combo skill grants HP treatment, the operator receiving this HP treatment gains Arts Intensity +12 and Arts DMG Dealt +8.4% for 20s. Effects of the same name cannot stack.",
+                "Max HP +28.0%. When the wielder's combo skill grants HP treatment, the operator receiving this HP treatment gains Arts Intensity +14 and Arts DMG Dealt +9.8% for 20s. Effects of the same name cannot stack."
+              ],
+              "name_es": "Medicante: Dulzura y sueños",
+              "name_zh": "医疗·甜与梦",
+              "name_ja": "治癒・甘さと夢",
+              "name_ko": "의료 · 달콤한 꿈",
+              "ranks_es": [
+                "PV Máx. +10.0%. Cuando la habilidad de combo del portador otorgue Tratamiento de PV, el operador que lo reciba obtendrá Intensidad de Artes +5 y DAÑ por Artes infligido +3.5% durante 20s. Los efectos con el mismo nombre no se pueden acumular.",
+                "PV Máx. +12.0%. Cuando la habilidad de combo del portador otorgue Tratamiento de PV, el operador que lo reciba obtendrá Intensidad de Artes +6 y DAÑ por Artes infligido +4.2% durante 20s. Los efectos con el mismo nombre no se pueden acumular.",
+                "PV Máx. +14.0%. Cuando la habilidad de combo del portador otorgue Tratamiento de PV, el operador que lo reciba obtendrá Intensidad de Artes +7 y DAÑ por Artes infligido +4.9% durante 20s. Los efectos con el mismo nombre no se pueden acumular.",
+                "PV Máx. +16.0%. Cuando la habilidad de combo del portador otorgue Tratamiento de PV, el operador que lo reciba obtendrá Intensidad de Artes +8 y DAÑ por Artes infligido +5.6% durante 20s. Los efectos con el mismo nombre no se pueden acumular.",
+                "PV Máx. +18.0%. Cuando la habilidad de combo del portador otorgue Tratamiento de PV, el operador que lo reciba obtendrá Intensidad de Artes +9 y DAÑ por Artes infligido +6.3% durante 20s. Los efectos con el mismo nombre no se pueden acumular.",
+                "PV Máx. +20.0%. Cuando la habilidad de combo del portador otorgue Tratamiento de PV, el operador que lo reciba obtendrá Intensidad de Artes +10 y DAÑ por Artes infligido +7.0% durante 20s. Los efectos con el mismo nombre no se pueden acumular.",
+                "PV Máx. +22.0%. Cuando la habilidad de combo del portador otorgue Tratamiento de PV, el operador que lo reciba obtendrá Intensidad de Artes +11 y DAÑ por Artes infligido +7.7% durante 20s. Los efectos con el mismo nombre no se pueden acumular.",
+                "PV Máx. +24.0%. Cuando la habilidad de combo del portador otorgue Tratamiento de PV, el operador que lo reciba obtendrá Intensidad de Artes +12 y DAÑ por Artes infligido +8.4% durante 20s. Los efectos con el mismo nombre no se pueden acumular.",
+                "PV Máx. +28.0%. Cuando la habilidad de combo del portador otorgue Tratamiento de PV, el operador que lo reciba obtendrá Intensidad de Artes +14 y DAÑ por Artes infligido +9.8% durante 20s. Los efectos con el mismo nombre no se pueden acumular."
+              ],
+              "ranks_zh": [
+                "最大生命值+10.0%。 装备者通过自身连携技治疗后，使受到装备者治疗的干员源石技艺强度+5，法术伤害+3.5%，持续20秒。 同名效果无法叠加。",
+                "最大生命值+12.0%。 装备者通过自身连携技治疗后，使受到装备者治疗的干员源石技艺强度+6，法术伤害+4.2%，持续20秒。 同名效果无法叠加。",
+                "最大生命值+14.0%。 装备者通过自身连携技治疗后，使受到装备者治疗的干员源石技艺强度+7，法术伤害+4.9%，持续20秒。 同名效果无法叠加。",
+                "最大生命值+16.0%。 装备者通过自身连携技治疗后，使受到装备者治疗的干员源石技艺强度+8，法术伤害+5.6%，持续20秒。 同名效果无法叠加。",
+                "最大生命值+18.0%。 装备者通过自身连携技治疗后，使受到装备者治疗的干员源石技艺强度+9，法术伤害+6.3%，持续20秒。 同名效果无法叠加。",
+                "最大生命值+20.0%。 装备者通过自身连携技治疗后，使受到装备者治疗的干员源石技艺强度+10，法术伤害+7.0%，持续20秒。 同名效果无法叠加。",
+                "最大生命值+22.0%。 装备者通过自身连携技治疗后，使受到装备者治疗的干员源石技艺强度+11，法术伤害+7.7%，持续20秒。 同名效果无法叠加。",
+                "最大生命值+24.0%。 装备者通过自身连携技治疗后，使受到装备者治疗的干员源石技艺强度+12，法术伤害+8.4%，持续20秒。 同名效果无法叠加。",
+                "最大生命值+28.0%。 装备者通过自身连携技治疗后，使受到装备者治疗的干员源石技艺强度+14，法术伤害+9.8%，持续20秒。 同名效果无法叠加。"
+              ],
+              "ranks_ja": [
+                "最大HP+10.0% 装備中、自身の連携技で治療すると、20秒間治療を受けたオペレーターのアーツ強度+5、アーツダメージ+3.5% 同名効果は重ね掛け不可",
+                "最大HP+12.0% 装備中、自身の連携技で治療すると、20秒間治療を受けたオペレーターのアーツ強度+6、アーツダメージ+4.2% 同名効果は重ね掛け不可",
+                "最大HP+14.0% 装備中、自身の連携技で治療すると、20秒間治療を受けたオペレーターのアーツ強度+7、アーツダメージ+4.9% 同名効果は重ね掛け不可",
+                "最大HP+16.0% 装備中、自身の連携技で治療すると、20秒間治療を受けたオペレーターのアーツ強度+8、アーツダメージ+5.6% 同名効果は重ね掛け不可",
+                "最大HP+18.0% 装備中、自身の連携技で治療すると、20秒間治療を受けたオペレーターのアーツ強度+9、アーツダメージ+6.3% 同名効果は重ね掛け不可",
+                "最大HP+20.0% 装備中、自身の連携技で治療すると、20秒間治療を受けたオペレーターのアーツ強度+10、アーツダメージ+7.0% 同名効果は重ね掛け不可",
+                "最大HP+22.0% 装備中、自身の連携技で治療すると、20秒間治療を受けたオペレーターのアーツ強度+11、アーツダメージ+7.7% 同名効果は重ね掛け不可",
+                "最大HP+24.0% 装備中、自身の連携技で治療すると、20秒間治療を受けたオペレーターのアーツ強度+12、アーツダメージ+8.4% 同名効果は重ね掛け不可",
+                "最大HP+28.0% 装備中、自身の連携技で治療すると、20秒間治療を受けたオペレーターのアーツ強度+14、アーツダメージ+9.8% 同名効果は重ね掛け不可"
+              ],
+              "ranks_ko": [
+                "최대 생명력 +10.0% 장착자가 자신의 연계 스킬로 치유한 후, 장착자의 치유를 받은 오퍼레이터의 오리지늄 아츠 강도 +5, 아츠 피해 +3.5%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.",
+                "최대 생명력 +12.0% 장착자가 자신의 연계 스킬로 치유한 후, 장착자의 치유를 받은 오퍼레이터의 오리지늄 아츠 강도 +6, 아츠 피해 +4.2%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.",
+                "최대 생명력 +14.0% 장착자가 자신의 연계 스킬로 치유한 후, 장착자의 치유를 받은 오퍼레이터의 오리지늄 아츠 강도 +7, 아츠 피해 +4.9%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.",
+                "최대 생명력 +16.0% 장착자가 자신의 연계 스킬로 치유한 후, 장착자의 치유를 받은 오퍼레이터의 오리지늄 아츠 강도 +8, 아츠 피해 +5.6%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.",
+                "최대 생명력 +18.0% 장착자가 자신의 연계 스킬로 치유한 후, 장착자의 치유를 받은 오퍼레이터의 오리지늄 아츠 강도 +9, 아츠 피해 +6.3%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.",
+                "최대 생명력 +20.0% 장착자가 자신의 연계 스킬로 치유한 후, 장착자의 치유를 받은 오퍼레이터의 오리지늄 아츠 강도 +10, 아츠 피해 +7.0%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.",
+                "최대 생명력 +22.0% 장착자가 자신의 연계 스킬로 치유한 후, 장착자의 치유를 받은 오퍼레이터의 오리지늄 아츠 강도 +11, 아츠 피해 +7.7%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.",
+                "최대 생명력 +24.0% 장착자가 자신의 연계 스킬로 치유한 후, 장착자의 치유를 받은 오퍼레이터의 오리지늄 아츠 강도 +12, 아츠 피해 +8.4%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.",
+                "최대 생명력 +28.0% 장착자가 자신의 연계 스킬로 치유한 후, 장착자의 치유를 받은 오퍼레이터의 오리지늄 아츠 강도 +14, 아츠 피해 +9.8%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+              ]
+            }
+          ]
+        },
+        "name_zh": "点心时刻",
+        "name_ja": "スイーツタイム",
+        "name_ko": "간식 시간",
+        "stat1_es": "Fuerza +124",
+        "stat2_es": "Eficiencia del tratamiento +37.1%.",
+        "passive_es": "PV Máx. +28.0%. Cuando la habilidad de combo del portador otorgue Tratamiento de PV, el operador que lo reciba obtendrá Intensidad de Artes +14 y DAÑ por Artes infligido +9.8% durante 20s. Los efectos con el mismo nombre no se pueden acumular.",
+        "stat1_zh": "力量+124",
+        "stat2_zh": "治疗效率+37.1%",
+        "passive_zh": "最大生命值+28.0%。 装备者通过自身连携技治疗后，使受到装备者治疗的干员源石技艺强度+14，法术伤害+9.8%，持续20秒。 同名效果无法叠加。",
+        "stat1_ja": "筋力+124",
+        "stat2_ja": "回復効率+37.1%",
+        "passive_ja": "最大HP+28.0% 装備中、自身の連携技で治療すると、20秒間治療を受けたオペレーターのアーツ強度+14、アーツダメージ+9.8% 同名効果は重ね掛け不可",
+        "stat1_ko": "힘 +124",
+        "stat2_ko": "치유 효율 +37.1%",
+        "passive_ko": "최대 생명력 +28.0% 장착자가 자신의 연계 스킬로 치유한 후, 장착자의 치유를 받은 오퍼레이터의 오리지늄 아츠 강도 +14, 아츠 피해 +9.8%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
       }
     ],
     "Greatsword": [

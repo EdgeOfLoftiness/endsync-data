@@ -2914,6 +2914,98 @@
         ],
         "permanent": true
       }
+    ],
+    "purrchena": [
+      {
+        "id": "purrchena-1",
+        "src": "NAUGHTY IS BANNED!",
+        "srcType": "ultimate",
+        "target": "team",
+        "cond": {
+          "es": "Ultimate NAUGHTY IS BANNED!: cuando una de sus 3 cajas revela el Ambassador's Special (20% base por caja al rango 12), los enemigos sufren Arts Susceptibility +2.5% por 5s. El cálculo lo toma como si saliera en cada ult.",
+          "en": "Ultimate NAUGHTY IS BANNED!: when one of its 3 boxes reveals the Ambassador's Special (20% base chance per box at rank 12), enemies suffer Arts Susceptibility +2.5% for 5s. The calculation treats it as appearing on every ultimate.",
+          "zh": "终结技「不许干坏事！」：3个礼盒中开出「代言人的特殊赠礼」时（12级时每个礼盒基础概率20%），敌人受到法术脆弱 +2.5%，持续5秒。计算按每次终结技都开出处理。",
+          "ja": "必殺技「悪いことは許しませ～ん！」：3つのギフトのいずれかから「アンバサダーのスペシャルギフト」が出現すると（ランク12で1つあたり基礎確率20%）、敵にアーツ脆弱 +2.5%を5秒間付与する。計算では毎回の必殺技で出現するものとして扱う。",
+          "ko": "궁극기 「말썽 피우면 안 돼!」: 3개의 상자 중 「홍보대사의 특수 선물」이 나오면(랭크 12에서 상자당 기본 확률 20%) 적에게 아츠 취약 +2.5%를 5초간 부여합니다. 계산에서는 매 궁극기마다 나오는 것으로 처리합니다."
+        },
+        "mods": [
+          {
+            "type": "enemySusc",
+            "value": 0.025,
+            "element": "arts"
+          }
+        ],
+        "anchor": "ultimate",
+        "durS": 5,
+        "noStack": true,
+        "assumeIdeal": "Ambassador's Special en cada ult (sale con probabilidad: 20% base por caja al rango 12, 3 cajas por ult; escenario ideal del timeline)"
+      },
+      {
+        "id": "purrchena-k2",
+        "src": "Super Energetic",
+        "srcType": "keystone",
+        "target": "self",
+        "cond": {
+          "es": "M2: DEF +20, Will +20. (La DEF queda fuera del cálculo de daño; el Will sí entra.)",
+          "en": "M2: DEF +20, Will +20. (DEF is not part of the damage calculation; Will does count.)",
+          "zh": "M2：防御 +20，意志 +20。（防御不参与伤害计算；意志计入。）",
+          "ja": "M2：防御 +20、意志 +20。（防御はダメージ計算に含まれない。意志は含む。）",
+          "ko": "M2: 방어 +20, 의지 +20. (방어는 피해 계산에 포함되지 않지만 의지는 포함됩니다.)"
+        },
+        "mods": [
+          {
+            "type": "attrFlat",
+            "attr": "will",
+            "value": 20
+          }
+        ],
+        "permanent": true
+      },
+      {
+        "id": "purrchena-k3",
+        "src": "Useful \"Prezzies\"",
+        "srcType": "keystone",
+        "target": "self",
+        "cond": {
+          "es": "M3: la Bomba del combo CAKE OR \"PREZZIE\" pega a 1.2x el original. El radio +20% de la Artesanía y la curación x1.2 del Postre delicioso no están incluidos en el cálculo.",
+          "en": "M3: the Bomb from the combo CAKE OR \"PREZZIE\" deals 1.2x the original DMG. Handicraft's +20% radius and Yummy Dessert's 1.2x healing are not included in the calculation.",
+          "zh": "M3：连携技「点心还是“礼物”」的炸弹伤害倍率提高到原来的1.2倍。手工作业的作用范围 +20%和好吃的点心的治疗 ×1.2未计入计算。",
+          "ja": "M3：連携技「お菓子or“プレゼント”」の爆弾のダメージ倍率が元の1.2倍。手作りアイテムの効果範囲 +20%とおいし～お菓子の回復 ×1.2は計算に含めていない。",
+          "ko": "M3: 연계 스킬 「디저트인가, 아니면 '선물'인가」의 폭탄 피해 배율이 원래의 1.2배. 제작 과제의 효과 범위 +20%와 맛있는 디저트의 치유 ×1.2는 계산에 포함하지 않았습니다."
+        },
+        "mods": [
+          {
+            "type": "dmgMult",
+            "value": 0.2,
+            "slot": "combo_skill"
+          }
+        ],
+        "permanent": true
+      },
+      {
+        "id": "purrchena-k5",
+        "src": "Hot Like a BBQ Fire",
+        "srcType": "keystone",
+        "target": "team",
+        "cond": {
+          "es": "M5: la Arts Susceptibility del Ambassador's Special sube a 1.2x (2.5% → 3%). Misma ventana que el buff base. Su daño x1.2 no entra: ese golpe sale al azar y queda fuera del cálculo base.",
+          "en": "M5: the Ambassador's Special's Arts Susceptibility is increased to 1.2x (2.5% → 3%). Same window as the base buff. Its 1.2x DMG is not included: that hit appears at random and stays outside the base calculation.",
+          "zh": "M5：「代言人的特殊赠礼」的法术脆弱提高到1.2倍（2.5% → 3%）。与基础增益同一窗口。其伤害 ×1.2未计入：该击随机出现，不在基础计算内。",
+          "ja": "M5：「アンバサダーのスペシャルギフト」のアーツ脆弱が1.2倍（2.5% → 3%）。基礎バフと同じ時間帯。ダメージ ×1.2は含めていない：その攻撃はランダムで出現し、基本計算の対象外。",
+          "ko": "M5: 「홍보대사의 특수 선물」의 아츠 취약이 1.2배(2.5% → 3%). 기본 버프와 같은 구간. 피해 ×1.2는 포함하지 않았습니다: 그 공격은 무작위로 나와 기본 계산 밖입니다."
+        },
+        "mods": [
+          {
+            "type": "enemySusc",
+            "value": 0.005,
+            "element": "arts"
+          }
+        ],
+        "anchor": "ultimate",
+        "durS": 5,
+        "noStack": true,
+        "assumeIdeal": "Ambassador's Special en cada ult (sale con probabilidad: 20% base por caja al rango 12, 3 cajas por ult; escenario ideal del timeline)"
+      }
     ]
   }
 }
