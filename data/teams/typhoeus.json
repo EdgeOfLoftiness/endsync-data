@@ -4720,7 +4720,7 @@
         {
           "id": "purrchena",
           "role": "Enabler",
-          "weaponId": null,
+          "weaponId": "wpn_sword_0023",
           "gearRec": [
             "eternal_xiranite_light_armor",
             "lynx_gloves",
@@ -4831,6 +4831,563 @@
             "swap": {
               "es": "Como aplicadora de Nature, el autor prefiere a Arcane: su versión es «YZ-月咒 - Arcane (WILL) · Perlica · Liino». Purrchena sigue siendo opción en contenido de mucha presión.",
               "en": "As a Nature applier, the author prefers Arcane: that version is «YZ-月咒 - Arcane (WILL) · Perlica · Liino». Purrchena stays an option for high-pressure content."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": {
+        "es": "终末协约攻略组 - SIN Arcane: Purrchena · Perlica · Xaihi",
+        "en": "终末协约攻略组 - NO Arcane: Purrchena · Perlica · Xaihi"
+      },
+      "subtitle": {
+        "es": "Purrchena · Perlica · Xaihi; el equipo Nature de transición: Typhoeus a básicos y cada Combo en cuanto se enciende",
+        "en": "Purrchena · Perlica · Xaihi; the transitional Nature team: Typhoeus on basics and every Combo as soon as it lights"
+      },
+      "blurb": {
+        "es": "El equipo Nature de Typhoeus para quien empieza y todavía no tiene a Arcane: Purrchena pone la Nature Infliction con la segunda pulsación de su Battle Skill, Perlica fuerza el Electrification con su Combo y Xaihi suelta su Ultimate, que da Nature Amp. No hay eje que memorizar: Typhoeus se controla con básicos y Final Strikes, y cada Combo y cada Ultimate salen en cuanto se encienden. Según el autor, el daño total queda algo por debajo de los equipos habituales, a cambio de la supervivencia que aporta Purrchena. El asiento de Xaihi admite a Gilberta, Liino o Arcane (WILL).",
+        "en": "The Typhoeus Nature team for newer players who do not have Arcane yet: Purrchena applies Nature Infliction with the second press of her Battle Skill, Perlica forces Electrification with her Combo and Xaihi fires her Ultimate, which grants Nature Amp. There is no axis to memorize: Typhoeus is controlled with basics and Final Strikes, and every Combo and every Ultimate goes out as soon as it lights. According to the author, the total damage sits somewhat below the usual teams, in exchange for the survivability Purrchena brings. Xaihi's seat accepts Gilberta, Liino or Arcane (WILL)."
+      },
+      "guideVideoId": "tyb5",
+      "simple": {
+        "whatItDoes": {
+          "es": "Typhoeus es la carry: su Battle Skill la sube al aire con cinco tiros, cada tiro sobre Nature Infliction consume una capa y le da un Sign, y con los Signs al máximo su Combo los cambia por Hunting Arrows y reinicia los tiros. Purrchena cuelga la Nature con su Battle Skill en dos pulsaciones (escudo y cabezazo), Perlica fuerza el Electrification con su Combo y Xaihi da Cryo y Nature Amp a todo el equipo con su Ultimate.",
+          "en": "Typhoeus is the carry: her Battle Skill takes her into the air for five shots, every shot on Nature Infliction consumes a layer and gives her a Sign, and at full Signs her Combo swaps them for Hunting Arrows and resets the shots. Purrchena hangs the Nature with her two-press Battle Skill (shield and headbutt), Perlica forces Electrification with her Combo and Xaihi grants Cryo and Nature Amp to the whole team with her Ultimate."
+        },
+        "steps": [
+          {
+            "who": "typhoeus",
+            "do": {
+              "es": "Controla a Typhoeus con básicos: su Final Strike enciende el Combo de Perlica, que se suelta.",
+              "en": "Control Typhoeus with basics: her Final Strike lights the Combo from Perlica, which goes out."
+            }
+          },
+          {
+            "who": "typhoeus",
+            "do": {
+              "es": "Battle Skill de Typhoeus: en el aire, los cuatro primeros tiros encienden su Combo, que reinicia los tiros; después dispara las cinco flechas y aterriza.",
+              "en": "Battle Skill from Typhoeus: in the air, the first four shots light her Combo, which resets the shots; then she fires the five arrows and lands."
+            }
+          },
+          {
+            "who": "purrchena",
+            "do": {
+              "es": "Si el enemigo ataca, Battle Skill de Purrchena para bloquear con el escudo; después, Final Strikes para recuperar SP.",
+              "en": "If the enemy attacks, Battle Skill from Purrchena to block with the shield; afterwards, Final Strikes to recover SP."
+            }
+          },
+          {
+            "who": "purrchena",
+            "do": {
+              "es": "Battle Skill de Purrchena en dos pulsaciones para colgar Nature Infliction: según el autor, con 4 capas el Combo de Typhoeus ya puede salir.",
+              "en": "Two-press Battle Skill from Purrchena to hang Nature Infliction: according to the author, with 4 layers the Combo from Typhoeus can already go out."
+            }
+          },
+          {
+            "who": "typhoeus",
+            "do": {
+              "es": "Combos de Typhoeus y Perlica (Electrification), Ultimate de Xaihi si está lista y Battle Skill de Typhoeus: cinco flechas de burst. Y se repite.",
+              "en": "Combos from Typhoeus and Perlica (Electrification), Xaihi's Ultimate if it is ready and Battle Skill from Typhoeus: five burst arrows. Then repeat."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "typhoeus",
+            "line": {
+              "es": "Umbra of Frigid Eventide o Suffering's End; Deep Rampart (Armor, Gauntlets y una Comms) más una LYNX Slab, refinando atributo principal y Arts Intensity.",
+              "en": "Umbra of Frigid Eventide or Suffering's End; Deep Rampart (Armor, Gauntlets and one Comms) plus a LYNX Slab, refining main attribute and Arts Intensity."
+            }
+          },
+          {
+            "id": "purrchena",
+            "line": {
+              "es": "Dessert Moment; Eternal Xiranite (Light Armor, Hands y dos Bracing Slab) para el buff de equipo del set, sin refinar. Si otro ya viste Eternal Xiranite, LYNX.",
+              "en": "Dessert Moment; Eternal Xiranite (Light Armor, Hands and two Bracing Slabs) for the set's team buff, unrefined. If someone else already wears Eternal Xiranite, LYNX."
+            }
+          },
+          {
+            "id": "perlica",
+            "line": {
+              "es": "Stanza of Memorials; Qingbo (Light Armor y dos Cask) con Hot Work Gloves para acortar el Combo, o Pulser Labs para la máxima Arts Intensity.",
+              "en": "Stanza of Memorials; Qingbo (Light Armor and two Casks) with Hot Work Gloves to shorten the Combo, or Pulser Labs for maximum Arts Intensity."
+            }
+          },
+          {
+            "id": "xaihi",
+            "line": {
+              "es": "Chivalric Virtues o Detonation Unit; Redeemer Armor y Eternal Xiranite Gloves T1 con dos Frontiers Extra O2 Tube (Intellect: más amp) o dos Eternal Xiranite Auxiliary Arm (carga: más uptime).",
+              "en": "Chivalric Virtues or Detonation Unit; Redeemer Armor and Eternal Xiranite Gloves T1 with two Frontiers Extra O2 Tubes (Intellect: more amp) or two Eternal Xiranite Auxiliary Arms (charge: more uptime)."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "La propuesta de 终末协约攻略组 (con 叫我棉被 en la narración) para jugar el equipo Nature de Typhoeus sin Arcane: Purrchena como transición para quien acaba de empezar. Purrchena es una Defender física, pero su Battle Skill hace dos cosas: primero alza el escudo, que da Protection a ella y a los operadores cercanos y hace más difícil interrumpirlos, y devuelve 20 SP al lanzarse y otros 20 al primer bloqueo; después, la Battle Skill cambia un rato por el cabezazo LEAVE MY FRIENDS ALONE!, que no cuesta SP y aplica Nature Infliction. Por eso, según el autor, cuatro capas de Nature solo cuestan 240 SP. No hay eje que memorizar: se controla a Typhoeus con básicos y cada Combo sale en cuanto se enciende. En la apertura, el Final Strike de Typhoeus enciende el Combo de Perlica, que fuerza un Electrification breve. La Battle Skill de Typhoeus la sube al aire: los cuatro primeros tiros encienden su Combo, que reinicia los tiros, y después dispara las cinco flechas antes de aterrizar. Si el enemigo ataca mientras tanto, Battle Skill de Purrchena para bloquear; después, Final Strikes para recuperar SP y las dos pulsaciones de Purrchena para colgar Nature. La regla práctica del autor: con 4 capas de Nature, el Combo de Typhoeus ya puede salir; entonces Combo de Perlica, Ultimate del cuarto asiento si está lista y Battle Skill de Typhoeus con cinco flechas de burst. A partir de ahí se repite: Purrchena bloquea, Typhoeus vuelve a volar cuando se enciende su Combo y los apoyos sueltan el Ultimate en cuanto lo tienen. Con varias Battle Skills de Purrchena seguidas, la resistencia a interrupciones cubre casi todo el combate y se puede seguir con Final Strikes sin miedo. El cuarto asiento es Xaihi, que el autor deja cambiar por Gilberta, Liino o Arcane (WILL), o por quien prefieras. Según el autor, el daño total queda algo por debajo de los equipos habituales, pero la supervivencia de Purrchena lo vuelve una opción cómoda.",
+        "en": "终末协约攻略组's take on playing the Typhoeus Nature team without Arcane (with 叫我棉被 narrating): Purrchena as a transition for newer players. Purrchena is a Physical Defender, but her Battle Skill does two things: first she raises the shield, which grants Protection to herself and nearby operators and makes them harder to interrupt, and returns 20 SP on cast and another 20 on the first block; then the Battle Skill changes for a while into the LEAVE MY FRIENDS ALONE! headbutt, which costs no SP and applies Nature Infliction. That is why, according to the author, four Nature layers cost only 240 SP. There is no axis to memorize: Typhoeus is controlled with basics and every Combo goes out as soon as it lights. In the opening, Typhoeus's Final Strike lights the Combo from Perlica, which forces a short Electrification. Typhoeus's Battle Skill takes her into the air: the first four shots light her Combo, which resets the shots, and then she fires the five arrows before landing. If the enemy attacks meanwhile, Battle Skill from Purrchena to block; afterwards, Final Strikes to recover SP and Purrchena's two presses to hang Nature. The author's rule of thumb: with 4 Nature layers, the Combo from Typhoeus can already go out; then Combo from Perlica, the fourth seat's Ultimate if it is ready and Battle Skill from Typhoeus with five burst arrows. From there it repeats: Purrchena blocks, Typhoeus flies again when her Combo lights and the supports fire their Ultimate as soon as they have it. With several Purrchena Battle Skills in a row, the interruption resistance covers almost the whole fight and you can keep going with Final Strikes without worry. The fourth seat is Xaihi, whom the author lets you swap for Gilberta, Liino or Arcane (WILL), or anyone you prefer. According to the author, the total damage sits somewhat below the usual teams, but Purrchena's survivability makes it a comfortable option."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Baja (sin eje que memorizar)",
+          "en": "Low (no axis to memorize)"
+        },
+        "content": {
+          "es": "General / Supervivencia",
+          "en": "General / Survival"
+        },
+        "tags": [
+          {
+            "es": "Nature",
+            "en": "Nature"
+          },
+          {
+            "es": "Sin Arcane",
+            "en": "No Arcane"
+          },
+          {
+            "es": "Sin eje fijo",
+            "en": "No fixed axis"
+          },
+          {
+            "es": "Supervivencia",
+            "en": "Survival"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "Funciona sin Arcane: Purrchena pone la Nature Infliction que Typhoeus necesita.",
+          "en": "It works without Arcane: Purrchena applies the Nature Infliction Typhoeus needs."
+        },
+        {
+          "es": "Sin eje que memorizar: Typhoeus a básicos y Final Strikes, y Combos y Ultimates en cuanto se encienden.",
+          "en": "No axis to memorize: Typhoeus on basics and Final Strikes, and Combos and Ultimates as soon as they light."
+        },
+        {
+          "es": "Purrchena devuelve mucho SP: según el autor, cuatro capas de Nature cuestan solo 240 SP.",
+          "en": "Purrchena returns a lot of SP: according to the author, four Nature layers cost only 240 SP."
+        },
+        {
+          "es": "Mientras sostiene el escudo, ella y los operadores cercanos tienen Protection y cuesta más interrumpirlos; su Combo cura cuando atacan al operador controlado.",
+          "en": "While she holds the shield, she and nearby operators have Protection and are harder to interrupt; her Combo heals when the controlled operator is attacked."
+        },
+        {
+          "es": "Purrchena y Dessert Moment llegan gratis y a potencial máximo con el evento Purry Big Feline! RAWR!.",
+          "en": "Purrchena and Dessert Moment come free and at max potential from the Purry Big Feline! RAWR! event."
+        }
+      ],
+      "cons": [
+        {
+          "es": "Según el autor, el daño total queda algo por debajo de los equipos habituales de Typhoeus.",
+          "en": "According to the author, the total damage sits somewhat below the usual Typhoeus teams."
+        },
+        {
+          "es": "Las cuentas de SP del autor cuentan con el bloqueo: sin él, cada capa cuesta 80 SP en vez de 60.",
+          "en": "The author's SP math counts on the block: without it, each layer costs 80 SP instead of 60."
+        },
+        {
+          "es": "Los regalos del Ultimate de Purrchena salen al azar: la Arts Susceptibility del Ambassador's Special no sale siempre.",
+          "en": "The gifts from Purrchena's Ultimate come out at random: the Arts Susceptibility from the Ambassador's Special does not always show up."
+        },
+        {
+          "es": "La ficha del video solo trae la build de Xaihi para el cuarto asiento; Gilberta, Liino y Arcane solo se nombran.",
+          "en": "The video's card only has Xaihi's build for the fourth seat; Gilberta, Liino and Arcane are only named."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "layers",
+          "title": {
+            "es": "Purrchena, la Nature sin Arcane",
+            "en": "Purrchena, Nature without Arcane"
+          },
+          "body": {
+            "es": "El equipo de Typhoeus vive de la Nature Infliction, y sin Arcane la pone Purrchena. Su Battle Skill cuesta 100 SP: alza el escudo, devuelve 20 SP al lanzarse y otros 20 con el primer bloqueo, y después cambia un rato por el cabezazo LEAVE MY FRIENDS ALONE!, que no cuesta SP y aplica Nature Infliction. Con bloqueo, cada capa sale a 60 SP: de ahí los 240 SP por cuatro capas que cuenta el autor. Mientras sostiene el escudo, ella y los operadores cercanos tienen Protection y cuesta más interrumpirlos.",
+            "en": "The Typhoeus team lives off Nature Infliction, and without Arcane it comes from Purrchena. Her Battle Skill costs 100 SP: she raises the shield, returns 20 SP on cast and another 20 with the first block, and then it changes for a while into the LEAVE MY FRIENDS ALONE! headbutt, which costs no SP and applies Nature Infliction. With a block, each layer costs 60 SP: hence the 240 SP for four layers the author counts. While she holds the shield, she and nearby operators have Protection and are harder to interrupt."
+          }
+        },
+        {
+          "icon": "timer",
+          "title": {
+            "es": "Typhoeus en el aire",
+            "en": "Typhoeus in the air"
+          },
+          "body": {
+            "es": "La Battle Skill de Typhoeus la sube al aire con cinco tiros. Cada tiro que pega sobre Nature Infliction consume una capa y le da un Sign, y su Combo se enciende con los Signs al máximo: los cambia por Hunting Arrows, que convierten los tiros en Power Shots con Nature Burst forzado, y reinicia los tiros. Por eso, en la secuencia del autor, cuatro tiros encienden el Combo y después salen cinco flechas más antes de aterrizar. Su regla práctica para la ronda siguiente: con 4 capas de Nature puestas, el Combo ya puede salir.",
+            "en": "Typhoeus's Battle Skill takes her into the air with five shots. Every shot that lands on Nature Infliction consumes a layer and gives her a Sign, and her Combo lights at full Signs: it swaps them for Hunting Arrows, which turn the shots into Power Shots with a forced Nature Burst, and resets the shots. That is why, in the author's sequence, four shots light the Combo and then five more arrows go out before landing. The author's rule of thumb for the next round: with 4 Nature layers on, the Combo can already go out."
+          }
+        },
+        {
+          "icon": "zap",
+          "title": {
+            "es": "Perlica y el cuarto asiento",
+            "en": "Perlica and the fourth seat"
+          },
+          "body": {
+            "es": "El Combo de Perlica se enciende con el Final Strike del operador controlado y fuerza un Electrification breve: por eso Typhoeus abre con básicos, y el Combo vuelve a salir antes de cada vuelo. El cuarto asiento es Xaihi, cuyo Ultimate da Cryo y Nature Amp a todo el equipo, y el Intellect sube ese amp: sus dos builds eligen entre un Ultimate más fuerte (Intellect) o más frecuente (carga). El autor admite a Gilberta, Liino o Arcane (WILL) en su lugar.",
+            "en": "Perlica's Combo lights with the controlled operator's Final Strike and forces a short Electrification: that is why Typhoeus opens with basics, and the Combo goes out again before each flight. The fourth seat is Xaihi, whose Ultimate grants Cryo and Nature Amp to the whole team, and Intellect raises that amp: her two builds choose between a stronger Ultimate (Intellect) or a more frequent one (charge). The author accepts Gilberta, Liino or Arcane (WILL) in her place."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Apertura",
+            "en": "Opening"
+          },
+          "action": {
+            "es": "Typhoeus a básicos hasta que su Final Strike encienda el Combo de Perlica; después, su Battle Skill: cuatro tiros, Combo y cinco flechas más.",
+            "en": "Typhoeus on basics until her Final Strike lights the Combo from Perlica; then her Battle Skill: four shots, Combo and five more arrows."
+          },
+          "steps": [
+            {
+              "who": "typhoeus",
+              "do": {
+                "es": "Con Typhoeus, básicos y Final Strike: se enciende el Combo de Perlica.",
+                "en": "With Typhoeus, basics and a Final Strike: the Combo from Perlica lights."
+              }
+            },
+            {
+              "who": "perlica",
+              "do": {
+                "es": "Combo de Perlica: Electrification breve en el enemigo.",
+                "en": "Combo from Perlica: a short Electrification on the enemy."
+              }
+            },
+            {
+              "who": "typhoeus",
+              "do": {
+                "es": "Battle Skill de Typhoeus: sube al aire y los cuatro primeros tiros encienden su Combo.",
+                "en": "Battle Skill from Typhoeus: she goes airborne and the first four shots light her Combo."
+              },
+              "key": true
+            },
+            {
+              "who": "typhoeus",
+              "do": {
+                "es": "Combo de Typhoeus: reinicia los tiros; dispara las cinco flechas y aterriza.",
+                "en": "Combo from Typhoeus: it resets the shots; she fires the five arrows and lands."
+              }
+            }
+          ],
+          "tip": {
+            "es": "Si el enemigo ataca durante el vuelo, Battle Skill de Purrchena para bloquear con el escudo.",
+            "en": "If the enemy attacks during the flight, Battle Skill from Purrchena to block with the shield."
+          }
+        },
+        {
+          "phase": {
+            "es": "Carga",
+            "en": "Charge"
+          },
+          "action": {
+            "es": "Final Strikes para recuperar SP y las dos pulsaciones de Purrchena, capa a capa, hasta 4 capas de Nature.",
+            "en": "Final Strikes to recover SP and Purrchena's two presses, layer by layer, up to 4 Nature layers."
+          },
+          "steps": [
+            {
+              "who": "typhoeus",
+              "do": {
+                "es": "De vuelta en tierra, Final Strikes con Typhoeus para recuperar SP.",
+                "en": "Back on the ground, Final Strikes with Typhoeus to recover SP."
+              }
+            },
+            {
+              "who": "purrchena",
+              "do": {
+                "es": "Battle Skill de Purrchena: escudo (bloquea si el enemigo ataca) y cabezazo, una capa de Nature Infliction. Repite hasta 4 capas.",
+                "en": "Battle Skill from Purrchena: shield (it blocks if the enemy attacks) and headbutt, one Nature Infliction layer. Repeat up to 4 layers."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "Según el autor, las cuatro capas cuestan 240 SP gracias al SP que devuelve Purrchena.",
+            "en": "According to the author, the four layers cost 240 SP thanks to the SP Purrchena returns."
+          }
+        },
+        {
+          "phase": {
+            "es": "Burst",
+            "en": "Burst"
+          },
+          "action": {
+            "es": "Con 4 capas, Combos de Typhoeus y Perlica, Ultimate del cuarto asiento y Battle Skill de Typhoeus: cinco flechas.",
+            "en": "With 4 layers, Combos from Typhoeus and Perlica, the fourth seat's Ultimate and Battle Skill from Typhoeus: five arrows."
+          },
+          "steps": [
+            {
+              "who": "typhoeus",
+              "do": {
+                "es": "Con 4 capas de Nature, el Combo de Typhoeus ya puede salir: suéltalo.",
+                "en": "With 4 Nature layers, the Combo from Typhoeus can already go out: fire it."
+              },
+              "key": true
+            },
+            {
+              "who": "perlica",
+              "do": {
+                "es": "Combo de Perlica: Electrification.",
+                "en": "Combo from Perlica: Electrification."
+              }
+            },
+            {
+              "who": "xaihi",
+              "do": {
+                "es": "Ultimate de Xaihi si está lista: Cryo y Nature Amp para todo el equipo.",
+                "en": "Xaihi's Ultimate if it is ready: Cryo and Nature Amp for the whole team."
+              }
+            },
+            {
+              "who": "typhoeus",
+              "do": {
+                "es": "Battle Skill de Typhoeus: cinco flechas de burst en el aire.",
+                "en": "Battle Skill from Typhoeus: five burst arrows in the air."
+              }
+            }
+          ],
+          "tip": {
+            "es": "Y se repite: Purrchena bloquea, Typhoeus vuela cuando se enciende su Combo y los apoyos sueltan el Ultimate en cuanto lo tienen.",
+            "en": "Then repeat: Purrchena blocks, Typhoeus flies when her Combo lights and the supports fire their Ultimate as soon as they have it."
+          }
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "typhoeus",
+          "order": {
+            "es": "Battle Skill (Especialización 3) > Combo (Especialización 3) > Ultimate > Básico",
+            "en": "Battle Skill (Specialization 3) > Combo (Specialization 3) > Ultimate > Basic"
+          },
+          "note": {
+            "es": "Literal de la ficha del equipo.",
+            "en": "Straight from the team card."
+          },
+          "assumeRanks": {
+            "battle_skill": 12,
+            "combo_skill": 12
+          }
+        },
+        {
+          "charId": "purrchena",
+          "order": {
+            "es": "Ultimate = Combo (nivel 9) > Battle Skill",
+            "en": "Ultimate = Combo (level 9) > Battle Skill"
+          },
+          "note": {
+            "es": "El autor sube primero el Ultimate y el Combo a nivel 9; la Battle Skill solo sube su multiplicador de daño y puede quedarse sin subir. Con recursos, Especialización 3 en los dos: el Ultimate gana probabilidad y Arts Susceptibility del Ambassador's Special, y el Combo, curación.",
+            "en": "The author raises the Ultimate and the Combo to level 9 first; the Battle Skill only raises its damage multiplier and can stay unraised. With resources, Specialization 3 on both: the Ultimate gains chance and Arts Susceptibility from the Ambassador's Special, and the Combo gains healing."
+          },
+          "assumeRanks": {
+            "combo_skill": 9,
+            "ultimate": 9
+          }
+        },
+        {
+          "charId": "perlica",
+          "order": {
+            "es": "Combo (Especialización 3)",
+            "en": "Combo (Specialization 3)"
+          },
+          "note": {
+            "es": "Si lleva Oblivion (遗忘) para sumar daño, el Ultimate y el básico también pueden ir a Especialización 3.",
+            "en": "If she carries Oblivion (遗忘) for extra damage, the Ultimate and the basic can also go to Specialization 3."
+          },
+          "assumeRanks": {
+            "combo_skill": 12
+          }
+        },
+        {
+          "charId": "xaihi",
+          "order": {
+            "es": "Solo Battle Skill y Ultimate",
+            "en": "Only Battle Skill and Ultimate"
+          },
+          "note": {
+            "es": "Literal de la ficha.",
+            "en": "Straight from the card."
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Las cuentas de SP del autor (240 por cuatro capas) cuentan con que el escudo bloquee: sin bloqueo, cada capa cuesta 80 SP en vez de 60.",
+          "en": "The author's SP math (240 for four layers) counts on the shield blocking: without a block, each layer costs 80 SP instead of 60."
+        },
+        {
+          "es": "El escudo solo protege y devuelve SP; la Nature Infliction la pone la segunda pulsación, el cabezazo: hacen falta las dos para cada capa.",
+          "en": "The shield only protects and returns SP; the Nature Infliction comes from the second press, the headbutt: each layer needs both."
+        },
+        {
+          "es": "El Combo de Perlica pide un Final Strike del operador controlado: abre con básicos antes del primer vuelo.",
+          "en": "Perlica's Combo needs a Final Strike from the controlled operator: open with basics before the first flight."
+        },
+        {
+          "es": "El Combo de Purrchena no tiene hueco fijo: salta cuando atacan al operador controlado.",
+          "en": "Purrchena's Combo has no fixed slot: it fires when the controlled operator is attacked."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "YZ-月咒 - SIN Arcane: Purrchena · Perlica · Liino",
+            "en": "YZ-月咒 - NO Arcane: Purrchena · Perlica · Liino"
+          },
+          "verdict": {
+            "es": "Es el cambio de Liino que permite el autor: con Liino en el asiento de Xaihi, el cuarteto es el de esta guía de YZ-月咒, que trae un eje de 5 flechas completo y la build de Liino.",
+            "en": "It is the Liino swap the author allows: with Liino in Xaihi's seat, the quartet is the one from this YZ-月咒 guide, which has a full 5-arrow axis and Liino's build."
+          }
+        },
+        {
+          "name": {
+            "es": "YZ-月咒 - Arcane (WILL) · Perlica · Xaihi",
+            "en": "YZ-月咒 - Arcane (WILL) · Perlica · Xaihi"
+          },
+          "verdict": {
+            "es": "Mismos Perlica y Xaihi con Arcane en el asiento de Purrchena: la versión para quien ya la tiene. El autor presenta a Purrchena como transición mientras no llega Arcane.",
+            "en": "Same Perlica and Xaihi with Arcane in Purrchena's seat: the version for anyone who already has her. The author presents Purrchena as a transition until Arcane arrives."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "typhoeus",
+          "role": "Carry",
+          "weaponId": "wpn_funnel_0019",
+          "gearRec": [
+            "deep_rampart_armor",
+            "deep_rampart_gauntlets",
+            "deep_rampart_comms",
+            "lynx_slab"
+          ],
+          "weaponNote": {
+            "es": "Umbra of Frigid Eventide (寒夜幽影) o Suffering's End (苦难的尽头): las dos armas de la ficha, sin orden entre ellas.",
+            "en": "Umbra of Frigid Eventide (寒夜幽影) or Suffering's End (苦难的尽头): the two weapons on the card, with no order between them."
+          },
+          "gearNote": {
+            "es": "Ficha del equipo, «增加源石技艺强度» (subir la Arts Intensity): Deep Rampart Armor (险关装甲), Deep Rampart Gauntlets (险关手甲), una Deep Rampart Comms (险关通信器) y una LYNX Slab (生物辅助护板). Refinado: atributo principal y Arts Intensity primero; atributo secundario después.",
+            "en": "Team card, «增加源石技艺强度» (raise Arts Intensity): Deep Rampart Armor (险关装甲), Deep Rampart Gauntlets (险关手甲), one Deep Rampart Comms (险关通信器) and a LYNX Slab (生物辅助护板). Refining: main attribute and Arts Intensity first; secondary attribute afterwards."
+          },
+          "deepNote": {
+            "es": "Su Battle Skill la sube al aire con cinco tiros; cada tiro sobre Nature Infliction consume una capa y le da un Sign. Con los Signs al máximo, su Combo los cambia por Hunting Arrows y reinicia los tiros, y con flecha cada tiro es un Power Shot que fuerza un Nature Burst. Aquí se la controla todo el rato: básicos y Final Strikes en tierra, y Battle Skill cuando toca volar.",
+            "en": "Her Battle Skill takes her into the air with five shots; every shot on Nature Infliction consumes a layer and gives her a Sign. At full Signs, her Combo swaps them for Hunting Arrows and resets the shots, and with an arrow each shot is a Power Shot that forces a Nature Burst. Here she is controlled the whole time: basics and Final Strikes on the ground, and Battle Skill when it is time to fly."
+          }
+        },
+        {
+          "id": "purrchena",
+          "role": "Enabler",
+          "weaponId": "wpn_sword_0023",
+          "gearRec": [
+            "eternal_xiranite_light_armor",
+            "eternal_xiranite_hands",
+            "eternal_xiranite_bracing_slab",
+            "eternal_xiranite_bracing_slab"
+          ],
+          "weaponNote": {
+            "es": "Dessert Moment (点心时刻), la 5★ que regala su evento con copias para el potencial máximo: cuando su Combo cura, el operador curado gana Arts Intensity y Arts DMG; el autor la ve muy a medida de Typhoeus. Para contenido corto o speedrun, Farsight (遥望), la 6★ gratis del medio aniversario: el buff de equipo sale al entrar en combate, pero dura 20 s.",
+            "en": "Dessert Moment (点心时刻), the 5★ her event gives away with copies for max potential: when her Combo heals, the healed operator gains Arts Intensity and Arts DMG; the author sees it as a great fit for Typhoeus. For short content or speedruns, Farsight (遥望), the free 6★ from the half-anniversary: the team buff comes out on entering combat, but lasts 20s."
+          },
+          "gearNote": {
+            "es": "Ficha del equipo, «全队增伤» (daño para todo el equipo): Eternal Xiranite Light Armor (长息轻护甲), Eternal Xiranite Hands (长息手套) y dos Eternal Xiranite Bracing Slab (长息加固板), sin refinar. La Protection de su escudo y la Arts Susceptibility del Ambassador's Special activan el bonus del set: +16 % de daño para el resto del equipo durante 15 s. En la sección de builds del mismo video el autor muestra otra versión: LYNX Gloves (生物辅助臂甲) y dos Eternal Xiranite Heavy Slab (长息重护板) en lugar de Hands y Bracing Slab. Alternativa de la ficha, «增强治疗/减伤能力» (más curación y reducción de daño): LYNX Heavy Armor (生物辅助重甲), LYNX Gauntlets (生物辅助手甲) y dos LYNX Aegis Injector (生物辅助护盾针), para cuando otro del equipo ya viste Eternal Xiranite, porque el bonus no se apila. En este equipo, Xaihi con su build de carga (dos Auxiliary Arm) ya suma tres piezas Eternal Xiranite.",
+            "en": "Team card, «全队增伤» (damage for the whole team): Eternal Xiranite Light Armor (长息轻护甲), Eternal Xiranite Hands (长息手套) and two Eternal Xiranite Bracing Slabs (长息加固板), unrefined. Her shield's Protection and the Ambassador's Special's Arts Susceptibility trigger the set bonus: +16% damage for the rest of the team for 15s. In the same video's build section the author shows another version: LYNX Gloves (生物辅助臂甲) and two Eternal Xiranite Heavy Slabs (长息重护板) instead of Hands and Bracing Slabs. The card's alternative, «增强治疗/减伤能力» (more healing and damage reduction): LYNX Heavy Armor (生物辅助重甲), LYNX Gauntlets (生物辅助手甲) and two LYNX Aegis Injectors (生物辅助护盾针), for when someone else on the team already wears Eternal Xiranite, because the bonus does not stack. In this team, Xaihi on her charge build (two Auxiliary Arms) already adds up to three Eternal Xiranite pieces."
+          },
+          "deepNote": {
+            "es": "Su Battle Skill cuesta 100 SP: alza el escudo, devuelve 20 SP al lanzarse y otros 20 con el primer bloqueo, y mientras lo sostiene ella y los operadores cercanos tienen Protection y cuesta más interrumpirlos. Después cambia un rato por el cabezazo LEAVE MY FRIENDS ALONE!, que no cuesta SP y aplica una capa de Nature Infliction. Su Combo salta cuando atacan al operador controlado: cura y saca al azar un Bomb (Stagger extra), Handicraft (atrae a los enemigos) o Yummy Dessert (más curación). Su Ultimate abre tres regalos, Bomb o Handicraft, con probabilidad de Ambassador's Special, que aplica Arts Susceptibility y, según el autor, se apila; el primer bloqueo de cada Battle Skill sube esa probabilidad un 10 % para el siguiente Ultimate, hasta 3 veces. Aun así, el autor lo usa sobre todo para agrupar enemigos y meter Stagger. Su evento la regala a potencial máximo.",
+            "en": "Her Battle Skill costs 100 SP: she raises the shield, returns 20 SP on cast and another 20 with the first block, and while she holds it she and nearby operators have Protection and are harder to interrupt. Then it changes for a while into the LEAVE MY FRIENDS ALONE! headbutt, which costs no SP and applies one Nature Infliction layer. Her Combo fires when the controlled operator is attacked: it heals and pulls a random Bomb (extra Stagger), Handicraft (pulls enemies in) or Yummy Dessert (more healing). Her Ultimate opens three gifts, Bomb or Handicraft, with a chance of the Ambassador's Special, which applies Arts Susceptibility and, according to the author, stacks; the first block of each Battle Skill raises that chance by 10% for the next Ultimate, up to 3 times. Even so, the author mostly uses it to group enemies and deal Stagger. Her event gives her away at max potential."
+          }
+        },
+        {
+          "id": "perlica",
+          "role": "Enabler",
+          "weaponId": "wpn_funnel_0005",
+          "gearRec": [
+            "qingbo_light_armor",
+            "hot_work_gloves",
+            "qingbo_cask",
+            "qingbo_cask"
+          ],
+          "weaponNote": {
+            "es": "Stanza of Memorials (悼亡诗), la única arma de la ficha. Para sumar daño, la nota de skills menciona Oblivion (遗忘).",
+            "en": "Stanza of Memorials (悼亡诗), the only weapon on the card. For extra damage, the skill note mentions Oblivion (遗忘)."
+          },
+          "gearNote": {
+            "es": "Ficha, «减少连携冷却» (menos cooldown del Combo): Qingbo Light Armor (清波轻甲), Hot Work Gloves (动火用手套) y dos Qingbo Cask (清波水罐); refinado: eficiencia de carga del Ultimate y Arts Intensity primero, Intellect después. Alternativa «最高源石技艺强度» (la máxima Arts Intensity): Pulser Labs Disruptor Suit (脉冲式干扰服), Hot Work Gloves y dos Pulser Labs Calibrator (脉冲式校准器); refinado: Arts Intensity.",
+            "en": "Card, «减少连携冷却» (less Combo cooldown): Qingbo Light Armor (清波轻甲), Hot Work Gloves (动火用手套) and two Qingbo Casks (清波水罐); refining: Ultimate charge efficiency and Arts Intensity first, Intellect afterwards. Alternative «最高源石技艺强度» (maximum Arts Intensity): Pulser Labs Disruptor Suit (脉冲式干扰服), Hot Work Gloves and two Pulser Labs Calibrators (脉冲式校准器); refining: Arts Intensity."
+          },
+          "deepNote": {
+            "es": "Su Combo se enciende con el Final Strike del operador controlado y fuerza un Electrification breve: abre el combate y vuelve a salir antes de cada vuelo de Typhoeus.",
+            "en": "Her Combo lights with the controlled operator's Final Strike and forces a short Electrification: it opens the fight and goes out again before each Typhoeus flight."
+          }
+        },
+        {
+          "id": "xaihi",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0010",
+          "gearRec": [
+            "redeemer_armor",
+            "eternal_xiranite_gloves_t1",
+            "frontiers_extra_o2_tube",
+            "frontiers_extra_o2_tube"
+          ],
+          "weaponNote": {
+            "es": "Chivalric Virtues (骑士精神) o Detonation Unit (爆破单元), las dos de la ficha.",
+            "en": "Chivalric Virtues (骑士精神) or Detonation Unit (爆破单元), the two on the card."
+          },
+          "gearNote": {
+            "es": "Ficha, «提高大招质量，单次拐力更强» (un Ultimate más fuerte en cada uso): Redeemer Armor (纾难护甲), Eternal Xiranite Gloves T1 (长息护手·壹型) y dos Frontiers Extra O2 Tube (拓荒增量供氧栓); refinado: Intellect. Alternativa «加速大招回转，保证拐力覆盖» (el Ultimate más a menudo, para mantener el buff): la misma Armor y los mismos Gloves con dos Eternal Xiranite Auxiliary Arm (长息辅助臂); refinado: carga.",
+            "en": "Card, «提高大招质量，单次拐力更强» (a stronger Ultimate on each use): Redeemer Armor (纾难护甲), Eternal Xiranite Gloves T1 (长息护手·壹型) and two Frontiers Extra O2 Tubes (拓荒增量供氧栓); refining: Intellect. Alternative «加速大招回转，保证拐力覆盖» (the Ultimate more often, to keep the buff up): the same Armor and Gloves with two Eternal Xiranite Auxiliary Arms (长息辅助臂); refining: charge."
+          },
+          "deepNote": {
+            "es": "Su Ultimate da Cryo y Nature Amp a todo el equipo, y el Intellect sube ese amp; aquí sale en cuanto está lista. El autor la deja cambiar por Gilberta, Liino o Arcane (WILL).",
+            "en": "Her Ultimate grants Cryo and Nature Amp to the whole team, and Intellect raises that amp; here it goes out as soon as it is ready. The author lets you swap her for Gilberta, Liino or Arcane (WILL)."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Las builds son las de la ficha del equipo en el video, pieza por pieza. Typhoeus sube la Arts Intensity con Deep Rampart y una LYNX Slab; Purrchena activa el buff de equipo de Eternal Xiranite; Perlica va a Qingbo para acortar el Combo, o a Pulser Labs para la Arts Intensity; Xaihi elige entre un Ultimate más fuerte (Intellect) o más frecuente (carga).",
+          "en": "The builds are the ones from the team card in the video, piece by piece. Typhoeus raises Arts Intensity with Deep Rampart and a LYNX Slab; Purrchena activates the Eternal Xiranite team buff; Perlica goes Qingbo to shorten the Combo, or Pulser Labs for Arts Intensity; Xaihi chooses between a stronger Ultimate (Intellect) or a more frequent one (charge)."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Xaihi con la build de carga",
+              "en": "Xaihi on the charge build"
+            },
+            "swap": {
+              "es": "Con dos Auxiliary Arm, Xaihi suma tres piezas Eternal Xiranite y activa ese set, que no se apila: según la regla del autor, Purrchena puede pasar al LYNX de la ficha: LYNX Heavy Armor (生物辅助重甲), LYNX Gauntlets (生物辅助手甲) y dos LYNX Aegis Injector (生物辅助护盾针), con más curación y reducción de daño para el operador controlado.",
+              "en": "With two Auxiliary Arms, Xaihi adds up to three Eternal Xiranite pieces and activates that set, which does not stack: by the author's rule, Purrchena can switch to the card's LYNX: LYNX Heavy Armor (生物辅助重甲), LYNX Gauntlets (生物辅助手甲) and two LYNX Aegis Injectors (生物辅助护盾针), with more healing and damage reduction for the controlled operator."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Purrchena con más carga",
+              "en": "Purrchena with more charge"
+            },
+            "swap": {
+              "es": "La versión de la sección de builds del video: LYNX Gloves (生物辅助臂甲) y dos Eternal Xiranite Heavy Slab (长息重护板) en lugar de Hands y Bracing Slab; las cuatro piezas dan eficiencia de carga del Ultimate.",
+              "en": "The version from the video's build section: LYNX Gloves (生物辅助臂甲) and two Eternal Xiranite Heavy Slabs (长息重护板) instead of Hands and Bracing Slabs; all four pieces give Ultimate charge efficiency."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Sin Xaihi",
+              "en": "Without Xaihi"
+            },
+            "swap": {
+              "es": "El autor admite a Gilberta, Liino o Arcane (WILL) en su asiento, o a quien prefieras; la ficha solo trae la build de Xaihi. Con Liino, ver la guía «YZ-月咒 - SIN Arcane: Purrchena · Perlica · Liino».",
+              "en": "The author accepts Gilberta, Liino or Arcane (WILL) in her seat, or anyone you prefer; the card only has Xaihi's build. With Liino, see the «YZ-月咒 - NO Arcane: Purrchena · Perlica · Liino» guide."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Contenido corto o speedrun",
+              "en": "Short content or speedruns"
+            },
+            "swap": {
+              "es": "Farsight (遥望) en Purrchena: el buff de equipo sale al entrar en combate, pero dura 20 s.",
+              "en": "Farsight (遥望) on Purrchena: the team buff comes out on entering combat, but lasts 20s."
             }
           }
         ]

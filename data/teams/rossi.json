@@ -7751,6 +7751,536 @@
      }
     ]
    }
+  },
+  {
+   "name": {
+    "es": "终末协约攻略组 - Mixto SIN Camille: Purrchena · Mi Fu · Pogranichnik",
+    "en": "终末协约攻略组 - Mixed, NO Camille: Purrchena · Mi Fu · Pogranichnik"
+   },
+   "subtitle": {
+    "es": "Purrchena · Mi Fu · Pogranichnik; el mixto de Rossi sin Camille: Battle Skills 1-2-2 y 1-3-3 en el orden del equipo",
+    "en": "Purrchena · Mi Fu · Pogranichnik; Rossi's mixed team without Camille: Battle Skills 1-2-2 and 1-3-3 in team order"
+   },
+   "blurb": {
+    "es": "El equipo mixto de Rossi para quien no tiene a Camille: Purrchena ocupa su asiento y, según el autor, cubre en parte el SP que Camille devolvía. Rossi y Mi Fu son las dos carries y Pogranichnik el sub-DPS. El eje es un bucle corto de Battle Skills en el orden del equipo (1-2-2, 1-3-3): Rossi abre la Vulnerability, Purrchena pone la Nature Infliction que enciende el Combo de Rossi, y con 4 capas Mi Fu remata con Trail and Mangle y World Splitter. Según el autor, dos vueltas suelen bastar para llenar el Ultimate, que se suelta para meter el burst en el Stagger del enemigo. A cambio de algo menos de daño total, Purrchena suma supervivencia.",
+    "en": "Rossi's mixed team for anyone without Camille: Purrchena takes his seat and, according to the author, partly covers the SP Camille used to return. Rossi and Mi Fu are the two carries and Pogranichnik is the sub-DPS. The axis is a short loop of Battle Skills in team order (1-2-2, 1-3-3): Rossi opens the Vulnerability, Purrchena applies the Nature Infliction that lights Rossi's Combo, and at 4 layers Mi Fu finishes with Trail and Mangle and World Splitter. According to the author, two loops are usually enough to fill the Ultimate, which goes out to land the burst in the enemy's Stagger. In exchange for somewhat less total damage, Purrchena adds survivability."
+   },
+   "guideVideoId": "ro6",
+   "simple": {
+    "whatItDoes": {
+     "es": "Rossi deja Vulnerability con el Lift de su Battle Skill, y su Combo sale cuando el enemigo tiene a la vez Vulnerability y Arts Infliction: esa Infliction la pone el cabezazo de Purrchena. A 3 capas se enciende el Combo de Mi Fu, y con 4 su Battle Skill (Trail and Mangle) aplica un Crush de nivel 4 que abre World Splitter. Pogranichnik suelta su Combo cuando un Crush consume la Vulnerability.",
+     "en": "Rossi leaves Vulnerability with her Battle Skill's Lift, and her Combo goes out when the enemy has Vulnerability and Arts Infliction at the same time: that Infliction comes from Purrchena's headbutt. At 3 layers the Combo from Mi Fu lights, and at 4 her Battle Skill (Trail and Mangle) applies a level 4 Crush that opens World Splitter. Pogranichnik fires his Combo when a Crush consumes the Vulnerability."
+    },
+    "steps": [
+     {
+      "who": "rossi",
+      "do": {
+       "es": "Battle Skill de Rossi (1): el Lift deja una capa de Vulnerability.",
+       "en": "Battle Skill from Rossi (1): the Lift leaves one Vulnerability layer."
+      }
+     },
+     {
+      "who": "purrchena",
+      "do": {
+       "es": "Battle Skill de Purrchena (2) para bloquear y su segunda pulsación (2): Nature Infliction.",
+       "en": "Battle Skill from Purrchena (2) to block and her second press (2): Nature Infliction."
+      }
+     },
+     {
+      "who": "rossi",
+      "do": {
+       "es": "Combo de Rossi con la segunda parte bien sincronizada: 3 capas de Vulnerability. Después, Combo de Mi Fu.",
+       "en": "Combo from Rossi with a well-timed second part: 3 Vulnerability layers. Then, Combo from Mi Fu."
+      }
+     },
+     {
+      "who": "mifu",
+      "do": {
+       "es": "Battle Skill de Rossi (1): cuarta capa. Battle Skill de Mi Fu (3): Crush de nivel 4; y otra vez (3): World Splitter.",
+       "en": "Battle Skill from Rossi (1): fourth layer. Battle Skill from Mi Fu (3): a level 4 Crush; and again (3): World Splitter."
+      }
+     },
+     {
+      "who": "pogranichnik",
+      "do": {
+       "es": "Los Combos que se enciendan, se sueltan; el Ultimate, en cuanto esté, para el burst en el Stagger del enemigo.",
+       "en": "Any Combo that lights goes out; the Ultimate, as soon as it is ready, for the burst in the enemy's Stagger."
+      }
+     }
+    ],
+    "gear": [
+     {
+      "id": "rossi",
+      "line": {
+       "es": "Lupine Scarlet; tres MI Security T1 (Armor, Gloves y Scope) más una LYNX Slab para el techo de daño, o Redeemer Gloves y dos Scope T1 para un daño estable.",
+       "en": "Lupine Scarlet; three MI Security T1 (Armor, Gloves and Scope) plus a LYNX Slab for the damage ceiling, or Redeemer Gloves and two Scope T1 for steady damage."
+      }
+     },
+     {
+      "id": "purrchena",
+      "line": {
+       "es": "Dessert Moment; Eternal Xiranite (Light Armor, Hands y dos Bracing Slab) para el buff de equipo del set, sin refinar. Para más curación, LYNX.",
+       "en": "Dessert Moment; Eternal Xiranite (Light Armor, Hands and two Bracing Slabs) for the set's team buff, unrefined. For more healing, LYNX."
+      }
+     },
+     {
+      "id": "mifu",
+      "line": {
+       "es": "Amaranthine Tassel; Grizzled Edge (Armor, Gauntlets y Push Knife) con una Swordmancer NAV Beacon, o Swordmancer Light Armor con dos Push Knife si falta carga.",
+       "en": "Amaranthine Tassel; Grizzled Edge (Armor, Gauntlets and Push Knife) with a Swordmancer NAV Beacon, or Swordmancer Light Armor with two Push Knives if charge falls short."
+      }
+     },
+     {
+      "id": "pogranichnik",
+      "line": {
+       "es": "Thermite Cutter; Frontiers (Protection Suit, Fiber Gloves T1 y O2 Tube) con una Hot Work Power Cartridge, o Bonekrusha Poncho T1 con Hot Work para más Arts Intensity y más Breach.",
+       "en": "Thermite Cutter; Frontiers (Protection Suit, Fiber Gloves T1 and O2 Tube) with a Hot Work Power Cartridge, or Bonekrusha Poncho T1 with Hot Work for more Arts Intensity and more Breach."
+      }
+     }
+    ]
+   },
+   "overview": {
+    "es": "El equipo mixto de Rossi que 终末协约攻略组 (con 叫我棉被 en la narración) propone como transición para quien no tiene a Camille. Según el autor, comparado con la versión con Camille, Purrchena cubre en parte su SP: su Battle Skill cuesta 100 SP, devuelve 20 al lanzarse y otros 20 con el primer bloqueo, y su segunda pulsación, el cabezazo, no cuesta SP y aplica Nature Infliction. El eje se resume en repetir Battle Skills en el orden del equipo, 1-2-2 y 1-3-3 (1 = Rossi, 2 = Purrchena, 3 = Mi Fu), y soltar cada Combo en cuanto se enciende. En la demo del autor: Battle Skill de Rossi, cuyo Lift deja una capa de Vulnerability; Battle Skill de Purrchena para bloquear y su segunda pulsación para la Nature Infliction; con Vulnerability y Arts Infliction a la vez se enciende el Combo de Rossi, y su segunda parte, sincronizada con precisión, consume la Infliction, aplica otro Lift y suma una capa más: 3 capas, que encienden el Combo de Mi Fu. Otra Battle Skill de Rossi, con Vulnerability ya puesta, suelta el Wolven Ambrage, deja el Razor Clawmark y sube a 4 capas. Entonces Battle Skill de Mi Fu, que tras su Combo ya es Trail and Mangle: su Crush de nivel 4 consume las cuatro capas y la siguiente Battle Skill es World Splitter. Eso es una vuelta; según el autor, dos suelen bastar para llenar el Ultimate, que se suelta en cuanto está para meter el burst en el Stagger del enemigo. Pogranichnik, el sub-DPS de la ficha (副C), suelta su Combo cuando un Crush consume la Vulnerability. Según el autor, el daño total queda algo por debajo, pero la supervivencia de Purrchena lo vuelve una opción cómoda.",
+    "en": "Rossi's mixed team that 终末协约攻略组 (with 叫我棉被 narrating) puts forward as a transition for anyone without Camille. According to the author, compared with the Camille version, Purrchena partly covers his SP: her Battle Skill costs 100 SP, returns 20 on cast and another 20 with the first block, and her second press, the headbutt, costs no SP and applies Nature Infliction. The axis boils down to repeating Battle Skills in team order, 1-2-2 and 1-3-3 (1 = Rossi, 2 = Purrchena, 3 = Mi Fu), and firing every Combo as soon as it lights. In the author's demo: Battle Skill from Rossi, whose Lift leaves one Vulnerability layer; Battle Skill from Purrchena to block and her second press for the Nature Infliction; with Vulnerability and Arts Infliction at once, Rossi's Combo lights, and its second part, timed precisely, consumes the Infliction, applies another Lift and adds one more layer: 3 layers, which light the Combo from Mi Fu. Another Battle Skill from Rossi, with Vulnerability already on, releases the Wolven Ambrage, leaves the Razor Clawmark and goes up to 4 layers. Then Battle Skill from Mi Fu, which after her Combo is already Trail and Mangle: its level 4 Crush consumes the four layers and the next Battle Skill is World Splitter. That is one loop; according to the author, two are usually enough to fill the Ultimate, which goes out as soon as it is ready to land the burst in the enemy's Stagger. Pogranichnik, the card's sub-DPS (副C), fires his Combo when a Crush consumes the Vulnerability. According to the author, the total damage sits somewhat lower, but Purrchena's survivability makes it a comfortable option."
+   },
+   "playstyle": {
+    "difficulty": {
+     "es": "Baja (repetir 1-2-2 y 1-3-3)",
+     "en": "Low (repeat 1-2-2 and 1-3-3)"
+    },
+    "content": {
+     "es": "General / Supervivencia",
+     "en": "General / Survival"
+    },
+    "tags": [
+     {
+      "es": "Mixto",
+      "en": "Mixed"
+     },
+     {
+      "es": "Sin Camille",
+      "en": "No Camille"
+     },
+     {
+      "es": "Vulnerability",
+      "en": "Vulnerability"
+     },
+     {
+      "es": "Supervivencia",
+      "en": "Survival"
+     }
+    ]
+   },
+   "pros": [
+    {
+     "es": "Funciona sin Camille: según el autor, Purrchena cubre en parte el SP que devolvía Camille.",
+     "en": "It works without Camille: according to the author, Purrchena partly covers the SP he used to return."
+    },
+    {
+     "es": "Eje corto y repetible: Battle Skills 1-2-2 y 1-3-3 en el orden del equipo, y cada Combo en cuanto se enciende.",
+     "en": "A short, repeatable axis: Battle Skills 1-2-2 and 1-3-3 in team order, and every Combo as soon as it lights."
+    },
+    {
+     "es": "Mientras sostiene el escudo, Purrchena y los operadores cercanos tienen Protection y cuesta más interrumpirlos; su Combo cura cuando atacan al operador controlado.",
+     "en": "While she holds the shield, Purrchena and nearby operators have Protection and are harder to interrupt; her Combo heals when the controlled operator is attacked."
+    },
+    {
+     "es": "Purrchena y Dessert Moment llegan gratis y a potencial máximo con el evento Purry Big Feline! RAWR!.",
+     "en": "Purrchena and Dessert Moment come free and at max potential from the Purry Big Feline! RAWR! event."
+    }
+   ],
+   "cons": [
+    {
+     "es": "Según el autor, el daño total queda algo por debajo de los equipos habituales.",
+     "en": "According to the author, the total damage sits somewhat below the usual teams."
+    },
+    {
+     "es": "La tercera capa de Vulnerability depende de sincronizar bien la segunda parte del Combo de Rossi.",
+     "en": "The third Vulnerability layer depends on timing the second part of Rossi's Combo well."
+    },
+    {
+     "es": "El SP de Purrchena solo llega completo si el escudo bloquea: sin bloqueo, cada Battle Skill devuelve 20 SP en vez de 40.",
+     "en": "Purrchena's SP only comes in full if the shield blocks: without a block, each Battle Skill returns 20 SP instead of 40."
+    }
+   ],
+   "whyItWorks": [
+    {
+     "icon": "layers",
+     "title": {
+      "es": "Purrchena en el asiento de Camille",
+      "en": "Purrchena in Camille's seat"
+     },
+     "body": {
+      "es": "Según el autor, Purrchena reemplaza en parte el SP que devolvía Camille: su Battle Skill cuesta 100 SP, devuelve 20 al lanzarse y otros 20 con el primer bloqueo, y su segunda pulsación no cuesta SP. Esa segunda pulsación, el cabezazo, pone la Nature Infliction, y el Combo de Rossi pide que el enemigo tenga a la vez Vulnerability y Arts Infliction.",
+      "en": "According to the author, Purrchena partly replaces the SP Camille used to return: her Battle Skill costs 100 SP, returns 20 on cast and another 20 with the first block, and her second press costs no SP. That second press, the headbutt, applies the Nature Infliction, and Rossi's Combo needs the enemy to have Vulnerability and Arts Infliction at the same time."
+     }
+    },
+    {
+     "icon": "swords",
+     "title": {
+      "es": "La escalera de Vulnerability",
+      "en": "The Vulnerability ladder"
+     },
+     "body": {
+      "es": "El Lift de la Battle Skill de Rossi deja la primera capa. La segunda parte de su Combo consume la Infliction, aplica otro Lift y, con timing perfecto, una capa más: van 3, y se enciende el Combo de Mi Fu, que salta con 3 o más. La siguiente Battle Skill de Rossi, con Vulnerability ya puesta, suelta el Wolven Ambrage, que deja el Razor Clawmark, y su Lift sube a 4.",
+      "en": "The Lift from Rossi's Battle Skill leaves the first layer. The second part of her Combo consumes the Infliction, applies another Lift and, with perfect timing, one more layer: that makes 3, and the Combo from Mi Fu lights, since it fires at 3 or more. Rossi's next Battle Skill, with Vulnerability already on, releases the Wolven Ambrage, which leaves the Razor Clawmark, and its Lift goes up to 4."
+     }
+    },
+    {
+     "icon": "zap",
+     "title": {
+      "es": "Mi Fu remata, Pogranichnik acompaña",
+      "en": "Mi Fu finishes, Pogranichnik follows"
+     },
+     "body": {
+      "es": "Tras su Combo, la Battle Skill de Mi Fu pasa a Trail and Mangle: el último golpe aplica Crush, de nivel 4 con las cuatro capas, y como consume 3 o más, la siguiente Battle Skill es World Splitter. El Combo de Pogranichnik se enciende cuando un Crush o un Breach consume Vulnerability, y con 4 capas consumidas su tercer tajo sale reforzado.",
+      "en": "After her Combo, Mi Fu's Battle Skill becomes Trail and Mangle: the last hit applies Crush, level 4 with the four layers, and since it consumes 3 or more, the next Battle Skill is World Splitter. The Combo from Pogranichnik lights when a Crush or a Breach consumes Vulnerability, and with 4 layers consumed his third slash comes out empowered."
+     }
+    }
+   ],
+   "rotation": [
+    {
+     "phase": {
+      "es": "Vuelta 1-2-2",
+      "en": "Loop 1-2-2"
+     },
+     "action": {
+      "es": "Battle Skill de Rossi y las dos pulsaciones de Purrchena: una capa de Vulnerability y una de Nature Infliction.",
+      "en": "Battle Skill from Rossi and Purrchena's two presses: one Vulnerability layer and one Nature Infliction layer."
+     },
+     "steps": [
+      {
+       "who": "rossi",
+       "do": {
+        "es": "Battle Skill de Rossi (1): el Lift deja una capa de Vulnerability.",
+        "en": "Battle Skill from Rossi (1): the Lift leaves one Vulnerability layer."
+       }
+      },
+      {
+       "who": "purrchena",
+       "do": {
+        "es": "Battle Skill de Purrchena (2): alza el escudo para bloquear.",
+        "en": "Battle Skill from Purrchena (2): she raises the shield to block."
+       }
+      },
+      {
+       "who": "purrchena",
+       "do": {
+        "es": "Segunda pulsación de Purrchena (2), el cabezazo: una capa de Nature Infliction.",
+        "en": "Purrchena's second press (2), the headbutt: one Nature Infliction layer."
+       },
+       "key": true
+      }
+     ]
+    },
+    {
+     "phase": {
+      "es": "Combos",
+      "en": "Combos"
+     },
+     "action": {
+      "es": "Combo de Rossi con la segunda parte sincronizada (3 capas) y Combo de Mi Fu.",
+      "en": "Combo from Rossi with a timed second part (3 layers) and Combo from Mi Fu."
+     },
+     "steps": [
+      {
+       "who": "rossi",
+       "do": {
+        "es": "Con Vulnerability y Nature Infliction a la vez, se enciende el Combo de Rossi: la primera parte y, enseguida, la segunda con buen timing, que consume la Nature, aplica otro Lift y suma una capa más: 3 capas.",
+        "en": "With Vulnerability and Nature Infliction at once, Rossi's Combo lights: the first part and, right after, the second with good timing, which consumes the Nature, applies another Lift and adds one more layer: 3 layers."
+       },
+       "key": true
+      },
+      {
+       "who": "mifu",
+       "do": {
+        "es": "A 3 capas se enciende el Combo de Mi Fu: suéltalo. Su siguiente Battle Skill pasa a Trail and Mangle.",
+        "en": "At 3 layers the Combo from Mi Fu lights: fire it. Her next Battle Skill becomes Trail and Mangle."
+       }
+      }
+     ]
+    },
+    {
+     "phase": {
+      "es": "Vuelta 1-3-3",
+      "en": "Loop 1-3-3"
+     },
+     "action": {
+      "es": "Battle Skill de Rossi (4 capas y Razor Clawmark) y las dos de Mi Fu: Trail and Mangle y World Splitter.",
+      "en": "Battle Skill from Rossi (4 layers and Razor Clawmark) and the two from Mi Fu: Trail and Mangle and World Splitter."
+     },
+     "steps": [
+      {
+       "who": "rossi",
+       "do": {
+        "es": "Battle Skill de Rossi (1): con Vulnerability ya puesta suelta el Wolven Ambrage, que deja el Razor Clawmark, y el Lift sube a 4 capas.",
+        "en": "Battle Skill from Rossi (1): with Vulnerability already on, it releases the Wolven Ambrage, which leaves the Razor Clawmark, and the Lift goes up to 4 layers."
+       }
+      },
+      {
+       "who": "mifu",
+       "do": {
+        "es": "Battle Skill de Mi Fu (3): Trail and Mangle, con un Crush de nivel 4.",
+        "en": "Battle Skill from Mi Fu (3): Trail and Mangle, with a level 4 Crush."
+       },
+       "key": true
+      },
+      {
+       "who": "mifu",
+       "do": {
+        "es": "Battle Skill de Mi Fu (3) otra vez: World Splitter.",
+        "en": "Battle Skill from Mi Fu (3) again: World Splitter."
+       }
+      }
+     ],
+     "tip": {
+      "es": "Eso es una vuelta. Los Combos que se enciendan, se sueltan (el de Pogranichnik salta cuando el Crush consume la Vulnerability); según el autor, dos vueltas suelen llenar el Ultimate, que se suelta en cuanto está para meter el burst en el Stagger del enemigo.",
+      "en": "That is one loop. Any Combo that lights goes out (Pogranichnik's fires when the Crush consumes the Vulnerability); according to the author, two loops usually fill the Ultimate, which goes out as soon as it is ready to land the burst in the enemy's Stagger."
+     }
+    }
+   ],
+   "skillPriority": [
+    {
+     "charId": "rossi",
+     "order": {
+      "es": "Ultimate (Especialización 3) = Combo (Especialización 3) > Battle Skill > Básico",
+      "en": "Ultimate (Specialization 3) = Combo (Specialization 3) > Battle Skill > Basic"
+     },
+     "note": {
+      "es": "Literal de la ficha.",
+      "en": "Straight from the card."
+     },
+     "assumeRanks": {
+      "combo_skill": 12,
+      "ultimate": 12
+     }
+    },
+    {
+     "charId": "purrchena",
+     "order": {
+      "es": "Ultimate = Combo (nivel 9) > Battle Skill",
+      "en": "Ultimate = Combo (level 9) > Battle Skill"
+     },
+     "note": {
+      "es": "El autor sube primero el Ultimate y el Combo a nivel 9; la Battle Skill solo sube su multiplicador de daño y puede quedarse sin subir. Con recursos, Especialización 3 en los dos: el Ultimate gana probabilidad y Arts Susceptibility del Ambassador's Special, y el Combo, curación.",
+      "en": "The author raises the Ultimate and the Combo to level 9 first; the Battle Skill only raises its damage multiplier and can stay unraised. With resources, Specialization 3 on both: the Ultimate gains chance and Arts Susceptibility from the Ambassador's Special, and the Combo gains healing."
+     },
+     "assumeRanks": {
+      "combo_skill": 9,
+      "ultimate": 9
+     }
+    },
+    {
+     "charId": "mifu",
+     "order": {
+      "es": "Battle Skill > Combo > Básico ≈ Ultimate",
+      "en": "Battle Skill > Combo > Basic ≈ Ultimate"
+     },
+     "note": {
+      "es": "El orden de la ficha; no da rangos.",
+      "en": "The card's order; it gives no ranks."
+     }
+    },
+    {
+     "charId": "pogranichnik",
+     "order": {
+      "es": "Combo (Especialización 3), Ultimate (Especialización 1), Battle Skill (Especialización 1)",
+      "en": "Combo (Specialization 3), Ultimate (Specialization 1), Battle Skill (Specialization 1)"
+     },
+     "note": {
+      "es": "Solo si sobran recursos, según la ficha.",
+      "en": "Only with spare resources, per the card."
+     }
+    }
+   ],
+   "pitfalls": [
+    {
+     "es": "La segunda parte del Combo de Rossi tiene que salir bien sincronizada: sin eso falta la tercera capa y el Combo de Mi Fu no se enciende.",
+     "en": "The second part of Rossi's Combo has to be well timed: without it the third layer is missing and the Combo from Mi Fu does not light."
+    },
+    {
+     "es": "Las Battle Skills de Mi Fu (3) van después de la segunda de Rossi, con las 4 capas puestas: el Crush de Trail and Mangle tiene que consumir 3 o más para abrir World Splitter.",
+     "en": "Mi Fu's Battle Skills (3) go after Rossi's second one, with the 4 layers on: the Trail and Mangle Crush has to consume 3 or more to open World Splitter."
+    },
+    {
+     "es": "Los números 1-2-2 y 1-3-3 son el orden del equipo del autor (Rossi, Purrchena, Mi Fu, Pogranichnik): si cambias el orden de la escuadra, cambian los números.",
+     "en": "The numbers 1-2-2 and 1-3-3 are the author's team order (Rossi, Purrchena, Mi Fu, Pogranichnik): if you change the squad order, the numbers change."
+    }
+   ],
+   "vsOtherComps": [
+    {
+     "name": {
+      "es": "叫我棉被 - Mixto físico (Rossi)",
+      "en": "叫我棉被 - Rossi Mixed Physical"
+     },
+     "verdict": {
+      "es": "La versión con Camille del mismo equipo (Rossi, Mi Fu y Pogranichnik), en la guía de Camille de 叫我棉被, que también narra este video. El autor presenta este equipo como la transición para quien no tiene a Camille.",
+      "en": "The Camille version of the same team (Rossi, Mi Fu and Pogranichnik), in 叫我棉被's Camille guide; 叫我棉被 also narrates this video. The author presents this team as the transition for anyone without Camille."
+     }
+    },
+    {
+     "name": {
+      "es": "Pakinov - Físico con Akekuri y doble Crush",
+      "en": "Pakinov - Physical with Akekuri and double Crush"
+     },
+     "verdict": {
+      "es": "Mismo trío de Rossi, Mi Fu y Pogranichnik con Akekuri en el asiento de Purrchena, en las guías de Mi Fu.",
+      "en": "The same Rossi, Mi Fu and Pogranichnik trio with Akekuri in Purrchena's seat, among the Mi Fu guides."
+     }
+    }
+   ],
+   "members": [
+    {
+     "id": "rossi",
+     "role": "Carry",
+     "weaponId": "wpn_sword_0022",
+     "gearRec": [
+      "mi_security_armor_t1",
+      "mi_security_gloves_t1",
+      "mi_security_scope_t1",
+      "lynx_slab"
+     ],
+     "weaponNote": {
+      "es": "Lupine Scarlet (狼之绯) > Glorious Memory (光荣记忆) > Rapid Ascent (扶摇) > Sundering Steel (钢铁余音).",
+      "en": "Lupine Scarlet (狼之绯) > Glorious Memory (光荣记忆) > Rapid Ascent (扶摇) > Sundering Steel (钢铁余音)."
+     },
+     "gearNote": {
+      "es": "Ficha, «高上限、高期望总伤» (techo alto y daño total esperado alto): MI Security Armor T1 (M.I.警用护甲·壹型), MI Security Gloves T1 (M.I.警用手套·壹型), MI Security Scope T1 (M.I.警用瞄具·壹型) y una LYNX Slab (生物辅助护板); refinado: Agility en armadura y guantes, atributo principal en la LYNX Slab y Crit Rate en el kit. Alternativa «稳定» (estable): MI Security Armor T1, Redeemer Gloves (纾难护手) y dos MI Security Scope T1; refinado: Agility en armadura y guantes y Crit Rate en los kits.",
+      "en": "Card, «高上限、高期望总伤» (high ceiling and high expected total damage): MI Security Armor T1 (M.I.警用护甲·壹型), MI Security Gloves T1 (M.I.警用手套·壹型), MI Security Scope T1 (M.I.警用瞄具·壹型) and a LYNX Slab (生物辅助护板); refining: Agility on armor and gloves, main attribute on the LYNX Slab and Crit Rate on the kit. Alternative «稳定» (steady): MI Security Armor T1, Redeemer Gloves (纾难护手) and two MI Security Scope T1; refining: Agility on armor and gloves and Crit Rate on the kits."
+     },
+     "deepNote": {
+      "es": "Su Battle Skill aplica Lift y, si el enemigo ya tiene Vulnerability, suelta además el Wolven Ambrage, que deja el Razor Clawmark. Su Combo, que pide Vulnerability y Arts Infliction a la vez, tiene dos partes: la segunda consume toda la Infliction, aplica Lift y, con timing perfecto, una capa más de Vulnerability.",
+      "en": "Her Battle Skill applies Lift and, if the enemy already has Vulnerability, also releases the Wolven Ambrage, which leaves the Razor Clawmark. Her Combo, which needs Vulnerability and Arts Infliction at once, has two parts: the second consumes all the Infliction, applies Lift and, with perfect timing, one more Vulnerability layer."
+     }
+    },
+    {
+     "id": "purrchena",
+     "role": "Enabler",
+     "weaponId": "wpn_sword_0023",
+     "gearRec": [
+      "eternal_xiranite_light_armor",
+      "eternal_xiranite_hands",
+      "eternal_xiranite_bracing_slab",
+      "eternal_xiranite_bracing_slab"
+     ],
+     "weaponNote": {
+      "es": "Dessert Moment (点心时刻), la 5★ que regala su evento con copias para el potencial máximo: cuando su Combo cura, el operador curado gana Arts Intensity y Arts DMG. Para contenido corto o speedrun, Farsight (遥望), la 6★ gratis del medio aniversario: el buff de equipo sale al entrar en combate, pero dura 20 s.",
+      "en": "Dessert Moment (点心时刻), the 5★ her event gives away with copies for max potential: when her Combo heals, the healed operator gains Arts Intensity and Arts DMG. For short content or speedruns, Farsight (遥望), the free 6★ from the half-anniversary: the team buff comes out on entering combat, but lasts 20s."
+     },
+     "gearNote": {
+      "es": "Ficha del equipo, «全队增伤» (daño para todo el equipo): Eternal Xiranite Light Armor (长息轻护甲), Eternal Xiranite Hands (长息手套) y dos Eternal Xiranite Bracing Slab (长息加固板), sin refinar. La Protection de su escudo y la Arts Susceptibility del Ambassador's Special activan el bonus del set: +16 % de daño para el resto del equipo durante 15 s. En la sección de builds del mismo video el autor muestra otra versión: LYNX Gloves (生物辅助臂甲) y dos Eternal Xiranite Heavy Slab (长息重护板) en lugar de Hands y Bracing Slab. Alternativa de la ficha, «增强治疗/减伤能力» (más curación y reducción de daño): LYNX Heavy Armor (生物辅助重甲), LYNX Gauntlets (生物辅助手甲) y dos LYNX Aegis Injector (生物辅助护盾针), para cuando otro del equipo ya viste Eternal Xiranite, porque el bonus no se apila.",
+      "en": "Team card, «全队增伤» (damage for the whole team): Eternal Xiranite Light Armor (长息轻护甲), Eternal Xiranite Hands (长息手套) and two Eternal Xiranite Bracing Slabs (长息加固板), unrefined. Her shield's Protection and the Ambassador's Special's Arts Susceptibility trigger the set bonus: +16% damage for the rest of the team for 15s. In the same video's build section the author shows another version: LYNX Gloves (生物辅助臂甲) and two Eternal Xiranite Heavy Slabs (长息重护板) instead of Hands and Bracing Slabs. The card's alternative, «增强治疗/减伤能力» (more healing and damage reduction): LYNX Heavy Armor (生物辅助重甲), LYNX Gauntlets (生物辅助手甲) and two LYNX Aegis Injectors (生物辅助护盾针), for when someone else on the team already wears Eternal Xiranite, because the bonus does not stack."
+     },
+     "deepNote": {
+      "es": "Su Battle Skill cuesta 100 SP: alza el escudo, devuelve 20 SP al lanzarse y otros 20 con el primer bloqueo, y mientras lo sostiene ella y los operadores cercanos tienen Protection y cuesta más interrumpirlos. Después cambia un rato por el cabezazo LEAVE MY FRIENDS ALONE!, que no cuesta SP y aplica una capa de Nature Infliction. Su Combo salta cuando atacan al operador controlado: cura y saca al azar un Bomb (Stagger extra), Handicraft (atrae a los enemigos) o Yummy Dessert (más curación). Su Ultimate abre tres regalos, Bomb o Handicraft, con probabilidad de Ambassador's Special, que aplica Arts Susceptibility y, según el autor, se apila; el primer bloqueo de cada Battle Skill sube esa probabilidad un 10 % para el siguiente Ultimate, hasta 3 veces. Aun así, el autor lo usa sobre todo para agrupar enemigos y meter Stagger. Su evento la regala a potencial máximo.",
+      "en": "Her Battle Skill costs 100 SP: she raises the shield, returns 20 SP on cast and another 20 with the first block, and while she holds it she and nearby operators have Protection and are harder to interrupt. Then it changes for a while into the LEAVE MY FRIENDS ALONE! headbutt, which costs no SP and applies one Nature Infliction layer. Her Combo fires when the controlled operator is attacked: it heals and pulls a random Bomb (extra Stagger), Handicraft (pulls enemies in) or Yummy Dessert (more healing). Her Ultimate opens three gifts, Bomb or Handicraft, with a chance of the Ambassador's Special, which applies Arts Susceptibility and, according to the author, stacks; the first block of each Battle Skill raises that chance by 10% for the next Ultimate, up to 3 times. Even so, the author mostly uses it to group enemies and deal Stagger. Her event gives her away at max potential."
+     }
+    },
+    {
+     "id": "mifu",
+     "role": "Carry",
+     "weaponId": "wpn_claym_0017",
+     "gearRec": [
+      "grizzled_edge_armor",
+      "grizzled_edge_gauntlets",
+      "grizzled_edge_push_knife",
+      "swordmancer_nav_beacon"
+     ],
+     "weaponNote": {
+      "es": "Amaranthine Tassel (赤缨) > Exemplar (典范) > Phantom Pain (幻想苦痛).",
+      "en": "Amaranthine Tassel (赤缨) > Exemplar (典范) > Phantom Pain (幻想苦痛)."
+     },
+     "gearNote": {
+      "es": "Ficha, «输出拉满» (daño al máximo): Grizzled Edge Armor (旧锋装甲), Grizzled Edge Gauntlets (旧锋手甲), Grizzled Edge Push Knife (旧锋刺刃) y una Swordmancer NAV Beacon (点剑定位信标); refinado: Arts Intensity en guantes y kits y Strength en armadura y guantes, después Physical DMG en los kits. Alternativa «若排轴导致循环充能不足，补充充能» (si tu eje se queda corto de carga): Swordmancer Light Armor (点剑轻装甲), Grizzled Edge Gauntlets y dos Grizzled Edge Push Knife, con el mismo refinado.",
+      "en": "Card, «输出拉满» (maximum damage): Grizzled Edge Armor (旧锋装甲), Grizzled Edge Gauntlets (旧锋手甲), Grizzled Edge Push Knife (旧锋刺刃) and a Swordmancer NAV Beacon (点剑定位信标); refining: Arts Intensity on gloves and kits and Strength on armor and gloves, then Physical DMG on the kits. Alternative «若排轴导致循环充能不足，补充充能» (if your axis falls short on charge): Swordmancer Light Armor (点剑轻装甲), Grizzled Edge Gauntlets and two Grizzled Edge Push Knives, with the same refining."
+     },
+     "deepNote": {
+      "es": "Su Combo se enciende con 3 o más capas de Vulnerability y deja su siguiente Battle Skill en Trail and Mangle, cuyo último golpe aplica Crush; si consume 3 o más capas, la siguiente Battle Skill es World Splitter, que cuenta como daño de Crush.",
+      "en": "Her Combo lights at 3 or more Vulnerability layers and leaves her next Battle Skill as Trail and Mangle, whose last hit applies Crush; if it consumes 3 or more layers, the next Battle Skill is World Splitter, which counts as Crush damage."
+     }
+    },
+    {
+     "id": "pogranichnik",
+     "role": "Sub-DPS",
+     "weaponId": "wpn_sword_0012",
+     "gearRec": [
+      "frontiers_protection_suit",
+      "frontiers_fiber_gloves_t1",
+      "frontiers_o2_tube",
+      "hot_work_power_cartridge"
+     ],
+     "weaponNote": {
+      "es": "Thermite Cutter (热熔切割器) > Never Rest (不知归) > Fortmaker (坚城铸造者).",
+      "en": "Thermite Cutter (热熔切割器) > Never Rest (不知归) > Fortmaker (坚城铸造者)."
+     },
+     "gearNote": {
+      "es": "Ficha, «提供连携缩减的同时为全队提供拐力» (menos cooldown de Combo y buff para todo el equipo): Frontiers Protection Suit (拓荒护服), Frontiers Fiber Gloves T1 (拓荒纤维手套·壹型), Frontiers O2 Tube (拓荒供氧栓) y una Hot Work Power Cartridge (动火用电力匣); refinado: eficiencia de carga del Ultimate en armadura y guantes y Arts Intensity en los kits, después Will en los kits y Agility en armadura y guantes. Alternativa «堆高源石技艺强度，提高碎甲加成» (más Arts Intensity para un Breach más fuerte): Bonekrusha Poncho T1 (碾骨披巾·壹型), Hot Work Gloves (动火用手套) y dos Hot Work Power Cartridge; refinado: eficiencia de carga del Ultimate en la armadura y Arts Intensity en los kits, después Will y Agility.",
+      "en": "Card, «提供连携缩减的同时为全队提供拐力» (less Combo cooldown and a buff for the whole team): Frontiers Protection Suit (拓荒护服), Frontiers Fiber Gloves T1 (拓荒纤维手套·壹型), Frontiers O2 Tube (拓荒供氧栓) and a Hot Work Power Cartridge (动火用电力匣); refining: Ultimate charge efficiency on armor and gloves and Arts Intensity on the kits, then Will on the kits and Agility on armor and gloves. Alternative «堆高源石技艺强度，提高碎甲加成» (more Arts Intensity for a stronger Breach): Bonekrusha Poncho T1 (碾骨披巾·壹型), Hot Work Gloves (动火用手套) and two Hot Work Power Cartridges; refining: Ultimate charge efficiency on the armor and Arts Intensity on the kits, then Will and Agility."
+     },
+     "deepNote": {
+      "es": "Su Combo se enciende cuando un Crush o un Breach consume Vulnerability: tajos según las capas consumidas (hasta 3), con recuperación de SP, y con 4 capas el tercero sale reforzado. En este eje no hace falta su Battle Skill.",
+      "en": "His Combo lights when a Crush or a Breach consumes Vulnerability: slashes based on the layers consumed (up to 3), with SP recovery, and with 4 layers the third comes out empowered. This axis does not need his Battle Skill."
+     }
+    }
+   ],
+   "equipment": {
+    "intro": {
+     "es": "Las builds son las de la ficha del equipo en el video. Rossi va a MI Security T1 con una LYNX Slab para el techo de daño o con Redeemer Gloves para un daño estable; Purrchena activa el buff de equipo de Eternal Xiranite; Mi Fu va a Grizzled Edge con una pieza Swordmancer; Pogranichnik a Frontiers para el buff de equipo o a Hot Work para la Arts Intensity.",
+     "en": "The builds are the ones from the team card in the video. Rossi goes MI Security T1 with a LYNX Slab for the damage ceiling or with Redeemer Gloves for steady damage; Purrchena activates the Eternal Xiranite team buff; Mi Fu goes Grizzled Edge with one Swordmancer piece; Pogranichnik goes Frontiers for the team buff or Hot Work for Arts Intensity."
+    },
+    "alts": [
+     {
+      "scenario": {
+       "es": "Rossi más estable",
+       "en": "Steadier Rossi"
+      },
+      "swap": {
+       "es": "Redeemer Gloves (纾难护手) y dos MI Security Scope T1 en lugar de MI Security Gloves T1, Scope T1 y LYNX Slab.",
+       "en": "Redeemer Gloves (纾难护手) and two MI Security Scope T1 instead of MI Security Gloves T1, Scope T1 and LYNX Slab."
+      }
+     },
+     {
+      "scenario": {
+       "es": "Mi Fu corta de carga",
+       "en": "Mi Fu short on charge"
+      },
+      "swap": {
+       "es": "Swordmancer Light Armor (点剑轻装甲) con Grizzled Edge Gauntlets y dos Push Knife.",
+       "en": "Swordmancer Light Armor (点剑轻装甲) with Grizzled Edge Gauntlets and two Push Knives."
+      }
+     },
+     {
+      "scenario": {
+       "es": "Más supervivencia",
+       "en": "More survivability"
+      },
+      "swap": {
+       "es": "Purrchena puede pasar al LYNX de la ficha: LYNX Heavy Armor (生物辅助重甲), LYNX Gauntlets (生物辅助手甲) y dos LYNX Aegis Injector (生物辅助护盾针), con más curación y reducción de daño para el operador controlado.",
+       "en": "Purrchena can switch to the card's LYNX: LYNX Heavy Armor (生物辅助重甲), LYNX Gauntlets (生物辅助手甲) and two LYNX Aegis Injectors (生物辅助护盾针), with more healing and damage reduction for the controlled operator."
+      }
+     },
+     {
+      "scenario": {
+       "es": "Purrchena con más carga",
+       "en": "Purrchena with more charge"
+      },
+      "swap": {
+       "es": "La versión de la sección de builds del video: LYNX Gloves (生物辅助臂甲) y dos Eternal Xiranite Heavy Slab (长息重护板) en lugar de Hands y Bracing Slab; las cuatro piezas dan eficiencia de carga del Ultimate.",
+       "en": "The version from the video's build section: LYNX Gloves (生物辅助臂甲) and two Eternal Xiranite Heavy Slabs (长息重护板) instead of Hands and Bracing Slabs; all four pieces give Ultimate charge efficiency."
+      }
+     },
+     {
+      "scenario": {
+       "es": "Contenido corto o speedrun",
+       "en": "Short content or speedruns"
+      },
+      "swap": {
+       "es": "Farsight (遥望) en Purrchena: el buff de equipo sale al entrar en combate, pero dura 20 s.",
+       "en": "Farsight (遥望) on Purrchena: the team buff comes out on entering combat, but lasts 20s."
+      }
+     }
+    ]
+   }
   }
  ]
 }

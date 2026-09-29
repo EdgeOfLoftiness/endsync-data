@@ -212,6 +212,94 @@
         "Twilight",
         "Flow"
       ]
+    },
+    "Sword Vault Dale": {
+      "attributes": [
+        "Attack",
+        "HP Boost",
+        "Phys DMG",
+        "Heat DMG",
+        "Cryo DMG",
+        "Nature DMG",
+        "Intensity",
+        "Treatment"
+      ],
+      "skills": [
+        "Assault",
+        "Pursuit",
+        "Inspiring",
+        "Combative",
+        "Medicant",
+        "Fracture",
+        "Detonate",
+        "Efficacy"
+      ]
+    },
+    "Yinglung Pass": {
+      "attributes": [
+        "Attack",
+        "Phys DMG",
+        "Elec DMG",
+        "Cryo DMG",
+        "Nature DMG",
+        "Crit Rate",
+        "Intensity",
+        "Arts DMG"
+      ],
+      "skills": [
+        "Suppression",
+        "Pursuit",
+        "Combative",
+        "Brutality",
+        "Infliction",
+        "Detonate",
+        "Flow",
+        "Efficacy"
+      ]
+    },
+    "North Wuling Exclusion Zone": {
+      "attributes": [
+        "HP Boost",
+        "Phys DMG",
+        "Heat DMG",
+        "Nature DMG",
+        "Crit Rate",
+        "Intensity",
+        "Arts DMG",
+        "Treatment"
+      ],
+      "skills": [
+        "Assault",
+        "Suppression",
+        "Pursuit",
+        "Crusher",
+        "Inspiring",
+        "Infliction",
+        "Medicant",
+        "Efficacy"
+      ]
+    },
+    "Snowy Forest": {
+      "attributes": [
+        "Attack",
+        "HP Boost",
+        "Heat DMG",
+        "Elec DMG",
+        "Crit Rate",
+        "Ult Gain",
+        "Arts DMG",
+        "Treatment"
+      ],
+      "skills": [
+        "Assault",
+        "Crusher",
+        "Inspiring",
+        "Brutality",
+        "Medicant",
+        "Detonate",
+        "Twilight",
+        "Flow"
+      ]
     }
   },
   "weapons": [
@@ -225,7 +313,8 @@
       "locations": [
         "Lodespring",
         "Power Plateau",
-        "Test Area"
+        "Test Area",
+        "Yinglung Pass"
       ],
       "signature": "Da Pan Signature",
       "name_es": "Canal Antiguo",
@@ -278,7 +367,10 @@
       "skill": "Detonate",
       "locations": [
         "The Hub",
-        "Wuling City"
+        "Wuling City",
+        "Sword Vault Dale",
+        "Yinglung Pass",
+        "Snowy Forest"
       ],
       "signature": "Tangtang Signature",
       "name_es": "Llamado del Bandido",
@@ -296,7 +388,8 @@
       "locations": [
         "Wuling City",
         "Marker Stone",
-        "Test Area"
+        "Test Area",
+        "Snowy Forest"
       ],
       "signature": null,
       "name_es": "Justicia Quimérica",
@@ -314,7 +407,10 @@
       "locations": [
         "Power Plateau",
         "Wuling City",
-        "Stockade"
+        "Stockade",
+        "Sword Vault Dale",
+        "North Wuling Exclusion Zone",
+        "Snowy Forest"
       ],
       "signature": null,
       "name_es": "Virtudes Caballerescas",
@@ -331,7 +427,9 @@
       "skill": "Infliction",
       "locations": [
         "Science Park",
-        "Marker Stone"
+        "Marker Stone",
+        "Yinglung Pass",
+        "North Wuling Exclusion Zone"
       ],
       "signature": null,
       "name_es": "Clannibal",
@@ -350,7 +448,8 @@
         "The Hub",
         "Science Park",
         "Stockade",
-        "Test Area"
+        "Test Area",
+        "Yinglung Pass"
       ],
       "signature": "Avywenna Signature",
       "name_es": "Tracción Cohesiva",
@@ -386,7 +485,9 @@
       "locations": [
         "The Hub",
         "Lodespring",
-        "Stockade"
+        "Stockade",
+        "Sword Vault Dale",
+        "Yinglung Pass"
       ],
       "signature": null,
       "name_es": "Unidad de Detonación",
@@ -404,7 +505,8 @@
       "locations": [
         "Lodespring",
         "Power Plateau",
-        "Test Area"
+        "Test Area",
+        "North Wuling Exclusion Zone"
       ],
       "signature": "Ardelia Signature",
       "name_es": "Sueños de la Playa Estrellada",
@@ -422,7 +524,8 @@
       "locations": [
         "Lodespring",
         "Power Plateau",
-        "Marker Stone"
+        "Marker Stone",
+        "Yinglung Pass"
       ],
       "signature": null,
       "name_es": "Reputación Eminente",
@@ -439,7 +542,8 @@
       "skill": "Suppression",
       "locations": [
         "The Hub",
-        "Science Park"
+        "Science Park",
+        "Yinglung Pass"
       ],
       "signature": "1",
       "name_es": "Ejemplar",
@@ -459,7 +563,8 @@
         "Science Park",
         "Lodespring",
         "Stockade",
-        "Test Area"
+        "Test Area",
+        "Yinglung Pass"
       ],
       "signature": "Alesh Signature",
       "name_es": "Finchaser 3.0",
@@ -477,7 +582,10 @@
       "locations": [
         "Power Plateau",
         "Wuling City",
-        "Stockade"
+        "Stockade",
+        "Sword Vault Dale",
+        "North Wuling Exclusion Zone",
+        "Snowy Forest"
       ],
       "signature": "Snowshine Signature",
       "name_es": "Llamada Final",
@@ -495,7 +603,8 @@
       "locations": [
         "The Hub",
         "Science Park",
-        "Marker Stone"
+        "Marker Stone",
+        "Yinglung Pass"
       ],
       "signature": "Protocol Pass: Wrothful Tide (Zhuang Fangyi)",
       "name_es": "Destellos en la Niebla",
@@ -512,7 +621,8 @@
       "skill": "Twilight",
       "locations": [
         "Wuling City",
-        "Marker Stone"
+        "Marker Stone",
+        "Snowy Forest"
       ],
       "signature": "Laevatain Signature",
       "name_es": "Azote Forjado",
@@ -528,7 +638,9 @@
       "attribute": "HP Boost",
       "skill": "Efficacy",
       "locations": [
-        "Lodespring"
+        "Lodespring",
+        "Sword Vault Dale",
+        "North Wuling Exclusion Zone"
       ],
       "signature": null,
       "name_es": "Antigua Galanura",
@@ -546,7 +658,8 @@
       "locations": [
         "Science Park",
         "Stockade",
-        "Marker Stone"
+        "Marker Stone",
+        "Snowy Forest"
       ],
       "signature": null,
       "name_es": "Hacedor de Fuertes",
@@ -564,7 +677,10 @@
       "locations": [
         "Power Plateau",
         "Wuling City",
-        "Stockade"
+        "Stockade",
+        "Sword Vault Dale",
+        "North Wuling Exclusion Zone",
+        "Snowy Forest"
       ],
       "signature": "Xaihi Signature",
       "name_es": "Libertad de Proselitismo",
@@ -582,7 +698,8 @@
       "locations": [
         "Lodespring",
         "Wuling City",
-        "Marker Stone"
+        "Marker Stone",
+        "Snowy Forest"
       ],
       "signature": "Protocol Pass: Dark Currents (Rossi)",
       "name_es": "Memoria Gloriosa",
@@ -600,7 +717,8 @@
       "locations": [
         "Science Park",
         "Power Plateau",
-        "Marker Stone"
+        "Marker Stone",
+        "Yinglung Pass"
       ],
       "signature": "Endmin Signature",
       "name_es": "Gran Visión",
@@ -620,7 +738,8 @@
         "Science Park",
         "Lodespring",
         "Stockade",
-        "Test Area"
+        "Test Area",
+        "Yinglung Pass"
       ],
       "signature": "Protocol Pass: Dark Currents (Tangtang)",
       "name_es": "Añoranza del Hogar",
@@ -637,7 +756,8 @@
       "skill": "Suppression",
       "locations": [
         "The Hub",
-        "Science Park"
+        "Science Park",
+        "Yinglung Pass"
       ],
       "signature": "1",
       "name_es": "JET",
@@ -654,7 +774,10 @@
       "skill": "Detonate",
       "locations": [
         "The Hub",
-        "Wuling City"
+        "Wuling City",
+        "Sword Vault Dale",
+        "Yinglung Pass",
+        "Snowy Forest"
       ],
       "signature": "Last Rite Signature",
       "name_es": "Khravengger",
@@ -671,7 +794,8 @@
       "skill": "Suppression",
       "locations": [
         "The Hub",
-        "Science Park"
+        "Science Park",
+        "Yinglung Pass"
       ],
       "signature": "Zhuang Fangyi Signature",
       "name_es": "Barcaza Solitaria",
@@ -707,7 +831,8 @@
       "locations": [
         "Science Park",
         "Stockade",
-        "Marker Stone"
+        "Marker Stone",
+        "Snowy Forest"
       ],
       "signature": null,
       "name_es": "Monaihe",
@@ -725,7 +850,10 @@
       "locations": [
         "Science Park",
         "Lodespring",
-        "Marker Stone"
+        "Marker Stone",
+        "Sword Vault Dale",
+        "Yinglung Pass",
+        "North Wuling Exclusion Zone"
       ],
       "signature": "Lifeng Signature",
       "name_es": "Portador de Montaña",
@@ -743,7 +871,8 @@
       "locations": [
         "Science Park",
         "Lodespring",
-        "Test Area"
+        "Test Area",
+        "Yinglung Pass"
       ],
       "signature": "Protocol Pass: Awakening (Yvonne)",
       "name_es": "Navegante",
@@ -762,7 +891,9 @@
         "The Hub",
         "Power Plateau",
         "Wuling City",
-        "Marker Stone"
+        "Marker Stone",
+        "Yinglung Pass",
+        "Snowy Forest"
       ],
       "signature": "Pogranichnik Signature",
       "name_es": "Sin Descanso",
@@ -779,7 +910,10 @@
       "skill": "Pursuit",
       "locations": [
         "The Hub",
-        "Power Plateau"
+        "Power Plateau",
+        "Sword Vault Dale",
+        "Yinglung Pass",
+        "North Wuling Exclusion Zone"
       ],
       "signature": "Antal Signature",
       "name_es": "OBJ Identificador de Arts",
@@ -798,7 +932,9 @@
         "The Hub",
         "Power Plateau",
         "Wuling City",
-        "Marker Stone"
+        "Marker Stone",
+        "Yinglung Pass",
+        "Snowy Forest"
       ],
       "signature": "Akekuri Signature",
       "name_es": "OBJ Filo de Ligereza",
@@ -814,7 +950,9 @@
       "attribute": "HP Boost",
       "skill": "Efficacy",
       "locations": [
-        "Lodespring"
+        "Lodespring",
+        "Sword Vault Dale",
+        "North Wuling Exclusion Zone"
       ],
       "signature": "Catcher Signature",
       "name_es": "OBJ Carga Pesada",
@@ -833,7 +971,9 @@
         "Science Park",
         "Lodespring",
         "Power Plateau",
-        "Marker Stone"
+        "Marker Stone",
+        "Yinglung Pass",
+        "North Wuling Exclusion Zone"
       ],
       "signature": "Estella Signature",
       "name_es": "OBJ Cuerno Navaja",
@@ -851,7 +991,8 @@
       "locations": [
         "The Hub",
         "Wuling City",
-        "Stockade"
+        "Stockade",
+        "Snowy Forest"
       ],
       "signature": "Flourite Signature",
       "name_es": "OBJ Veloz",
@@ -869,7 +1010,8 @@
       "locations": [
         "Wuling City",
         "Stockade",
-        "Marker Stone"
+        "Marker Stone",
+        "Snowy Forest"
       ],
       "signature": null,
       "name_es": "Olvido",
@@ -888,7 +1030,9 @@
         "The Hub",
         "Science Park",
         "Lodespring",
-        "Test Area"
+        "Test Area",
+        "Yinglung Pass",
+        "North Wuling Exclusion Zone"
       ],
       "signature": "Protocol Pass: Awakening (Gilberta)",
       "name_es": "Opus: Figura Grabada",
@@ -905,7 +1049,9 @@
       "skill": "Infliction",
       "locations": [
         "Science Park",
-        "Marker Stone"
+        "Marker Stone",
+        "Yinglung Pass",
+        "North Wuling Exclusion Zone"
       ],
       "signature": null,
       "name_es": "Opus: Los Vivos",
@@ -923,7 +1069,8 @@
       "locations": [
         "Lodespring",
         "Wuling City",
-        "Marker Stone"
+        "Marker Stone",
+        "Snowy Forest"
       ],
       "signature": null,
       "name_es": "Ascenso Rápido",
@@ -941,7 +1088,9 @@
       "locations": [
         "The Hub",
         "Power Plateau",
-        "Marker Stone"
+        "Marker Stone",
+        "Sword Vault Dale",
+        "North Wuling Exclusion Zone"
       ],
       "signature": "Wulfgard Signature",
       "name_es": "Despedida Racional",
@@ -959,7 +1108,8 @@
       "locations": [
         "The Hub",
         "Wuling City",
-        "Stockade"
+        "Stockade",
+        "Snowy Forest"
       ],
       "signature": null,
       "name_es": "Buscador del Pulmón Oscuro",
@@ -976,7 +1126,8 @@
       "skill": "Twilight",
       "locations": [
         "Wuling City",
-        "Marker Stone"
+        "Marker Stone",
+        "Snowy Forest"
       ],
       "signature": null,
       "name_es": "Estrofa de Memoriales",
@@ -993,7 +1144,9 @@
       "skill": "Crusher",
       "locations": [
         "Power Plateau",
-        "Wuling City"
+        "Wuling City",
+        "North Wuling Exclusion Zone",
+        "Snowy Forest"
       ],
       "signature": null,
       "name_es": "Príncipe Desgarrado",
@@ -1011,7 +1164,9 @@
       "locations": [
         "Science Park",
         "Lodespring",
-        "Stockade"
+        "Stockade",
+        "Sword Vault Dale",
+        "Yinglung Pass"
       ],
       "signature": null,
       "name_es": "Acero Desgarrador",
@@ -1030,7 +1185,9 @@
         "The Hub",
         "Power Plateau",
         "Wuling City",
-        "Marker Stone"
+        "Marker Stone",
+        "Yinglung Pass",
+        "Snowy Forest"
       ],
       "signature": null,
       "name_es": "Cortador de Termita",
@@ -1048,7 +1205,10 @@
       "locations": [
         "Power Plateau",
         "Wuling City",
-        "Stockade"
+        "Stockade",
+        "Sword Vault Dale",
+        "North Wuling Exclusion Zone",
+        "Snowy Forest"
       ],
       "signature": "Ember Signature",
       "name_es": "Thunderberge",
@@ -1066,7 +1226,8 @@
       "locations": [
         "Science Park",
         "Power Plateau",
-        "Marker Stone"
+        "Marker Stone",
+        "Yinglung Pass"
       ],
       "signature": "Arclight Signature",
       "name_es": "Doce Preguntas",
@@ -1085,7 +1246,8 @@
         "Lodespring",
         "Power Plateau",
         "Marker Stone",
-        "Test Area"
+        "Test Area",
+        "North Wuling Exclusion Zone"
       ],
       "signature": "Protocol Pass: Awakening (Laevatain)",
       "name_es": "Antorcha Umbría",
@@ -1103,7 +1265,9 @@
       "locations": [
         "Science Park",
         "Lodespring",
-        "Stockade"
+        "Stockade",
+        "Sword Vault Dale",
+        "Yinglung Pass"
       ],
       "signature": null,
       "name_es": "Valiente",
@@ -1122,7 +1286,9 @@
         "Science Park",
         "Lodespring",
         "Power Plateau",
-        "Marker Stone"
+        "Marker Stone",
+        "Yinglung Pass",
+        "North Wuling Exclusion Zone"
       ],
       "signature": null,
       "name_es": "Cuña",
@@ -1140,7 +1306,9 @@
       "locations": [
         "Lodespring",
         "Power Plateau",
-        "Test Area"
+        "Test Area",
+        "Yinglung Pass",
+        "North Wuling Exclusion Zone"
       ],
       "signature": null,
       "name_es": "Nova de Noche Blanca",
@@ -1158,7 +1326,8 @@
       "locations": [
         "Science Park",
         "Marker Stone",
-        "Test Area"
+        "Test Area",
+        "Yinglung Pass"
       ],
       "signature": "Perlica Signature",
       "name_es": "Vagabundo Salvaje",
@@ -1177,7 +1346,8 @@
         "The Hub",
         "Power Plateau",
         "Marker Stone",
-        "Test Area"
+        "Test Area",
+        "Snowy Forest"
       ],
       "signature": "Camille Signature",
       "name_es": "Bendición del Carmín Lustroso",
@@ -1195,7 +1365,8 @@
       "locations": [
         "The Hub",
         "Wuling City",
-        "Stockade"
+        "Stockade",
+        "Snowy Forest"
       ],
       "signature": "Arcane Signature",
       "name_es": "Tipo 42: Falange Solemne",
@@ -1230,7 +1401,9 @@
       "skill": "Assault",
       "locations": [
         "The Hub",
-        "Lodespring"
+        "Lodespring",
+        "Sword Vault Dale",
+        "North Wuling Exclusion Zone"
       ],
       "signature": null,
       "name_es": "Visión Lejana",
@@ -1247,7 +1420,8 @@
       "skill": "Suppression",
       "locations": [
         "Science Park",
-        "The Hub"
+        "The Hub",
+        "Yinglung Pass"
       ],
       "signature": null,
       "name_es": "Industry 0.1",
@@ -1266,7 +1440,9 @@
         "Power Plateau",
         "Stockade",
         "Test Area",
-        "Wuling City"
+        "Wuling City",
+        "North Wuling Exclusion Zone",
+        "Snowy Forest"
       ],
       "signature": null,
       "name_es": "Saciador",
@@ -1285,7 +1461,9 @@
         "Lodespring",
         "Stockade",
         "Test Area",
-        "The Hub"
+        "The Hub",
+        "Yinglung Pass",
+        "North Wuling Exclusion Zone"
       ],
       "signature": null,
       "name_es": "Dolor Fantasma",
@@ -1302,7 +1480,9 @@
       "skill": "Combative",
       "locations": [
         "Science Park",
-        "The Hub"
+        "The Hub",
+        "Sword Vault Dale",
+        "Yinglung Pass"
       ],
       "signature": "Mi Fu Signature",
       "name_es": "Borla Amarantina",
@@ -1320,7 +1500,9 @@
       "locations": [
         "Marker Stone",
         "Science Park",
-        "Stockade"
+        "Stockade",
+        "North Wuling Exclusion Zone",
+        "Snowy Forest"
       ],
       "signature": null,
       "name_es": "Hypernova Auto",
@@ -1337,7 +1519,8 @@
       "skill": "Suppression",
       "locations": [
         "Science Park",
-        "The Hub"
+        "The Hub",
+        "Yinglung Pass"
       ],
       "signature": null,
       "name_es": "Roc Fluorescente",
@@ -1354,7 +1537,10 @@
       "skill": "Detonate",
       "locations": [
         "The Hub",
-        "Wuling City"
+        "Wuling City",
+        "Sword Vault Dale",
+        "Yinglung Pass",
+        "Snowy Forest"
       ],
       "signature": "Typhoeus Signature",
       "name_es": "Umbra del Ocaso Gélido",
@@ -1371,7 +1557,9 @@
       "skill": "Detonate",
       "locations": [
         "Lodespring",
-        "The Hub"
+        "The Hub",
+        "Sword Vault Dale",
+        "Yinglung Pass"
       ],
       "signature": null,
       "name_es": "Fin del Sufrimiento",
@@ -1389,7 +1577,9 @@
       "locations": [
         "Marker Stone",
         "Power Plateau",
-        "Science Park"
+        "Science Park",
+        "Sword Vault Dale",
+        "Snowy Forest"
       ],
       "signature": null,
       "name_es": "Baliza del Explorador",
@@ -1425,7 +1615,9 @@
       "locations": [
         "Science Park",
         "Stockade",
-        "The Hub"
+        "The Hub",
+        "Yinglung Pass",
+        "North Wuling Exclusion Zone"
       ],
       "signature": null,
       "name_es": "Aggeloslayer",
@@ -1443,7 +1635,10 @@
       "locations": [
         "Power Plateau",
         "Stockade",
-        "Wuling City"
+        "Wuling City",
+        "Sword Vault Dale",
+        "North Wuling Exclusion Zone",
+        "Snowy Forest"
       ],
       "signature": "Liino Signature",
       "name_es": "Debut Nocturno Deslumbrante",
@@ -1459,7 +1654,9 @@
       "attribute": "Treatment",
       "skill": "Pursuit",
       "locations": [
-        "Power Plateau"
+        "Power Plateau",
+        "Sword Vault Dale",
+        "North Wuling Exclusion Zone"
       ],
       "signature": null,
       "name_es": "Edad Dorada",
@@ -1476,7 +1673,8 @@
       "skill": "Suppression",
       "locations": [
         "Science Park",
-        "The Hub"
+        "The Hub",
+        "Yinglung Pass"
       ],
       "signature": null,
       "name_es": "Guardia Aullante",
@@ -1494,7 +1692,9 @@
       "locations": [
         "Marker Stone",
         "Science Park",
-        "The Hub"
+        "The Hub",
+        "Yinglung Pass",
+        "North Wuling Exclusion Zone"
       ],
       "signature": null,
       "name_es": "Camino Largo",
@@ -1512,7 +1712,9 @@
       "locations": [
         "Lodespring",
         "Science Park",
-        "Stockade"
+        "Stockade",
+        "Yinglung Pass",
+        "North Wuling Exclusion Zone"
       ],
       "signature": null,
       "name_es": "Filo Prominente",
@@ -1531,7 +1733,9 @@
         "Marker Stone",
         "Power Plateau",
         "Science Park",
-        "The Hub"
+        "The Hub",
+        "Sword Vault Dale",
+        "Yinglung Pass"
       ],
       "signature": null,
       "name_es": "Marea de Olas",
@@ -1549,7 +1753,10 @@
       "locations": [
         "Power Plateau",
         "Stockade",
-        "Wuling City"
+        "Wuling City",
+        "Sword Vault Dale",
+        "North Wuling Exclusion Zone",
+        "Snowy Forest"
       ],
       "signature": "Purrchena Signature",
       "name_es": "Momento del postre",

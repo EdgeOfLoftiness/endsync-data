@@ -1851,6 +1851,131 @@
     }
    }
   },
+  "liino": {
+   "skills": {
+    "basic": {
+     "segments": [
+      {
+       "duration": 0.55,
+       "hits": [
+        0.1,
+        0.317
+       ]
+      },
+      {
+       "duration": 0.7,
+       "hits": [
+        0.267,
+        0.333,
+        0.4,
+        0.467,
+        0.533
+       ]
+      },
+      {
+       "duration": 0.7,
+       "hits": [
+        0.417,
+        0.517,
+        0.567,
+        0.733,
+        0.883
+       ]
+      },
+      {
+       "duration": 0.767,
+       "hits": [
+        0.433,
+        0.483,
+        0.55,
+        0.6,
+        0.65,
+        0.717,
+        0.75,
+        0.817
+       ]
+      },
+      {
+       "duration": 1.15,
+       "hits": [
+        0.6
+       ],
+       "spRec": 20
+      }
+     ]
+    },
+    "battle": {
+     "segments": [
+      {
+       "duration": 0.7,
+       "hits": [
+        0.533
+       ],
+       "spCost": 25
+      }
+     ]
+    },
+    "combo": {
+     "segments": [
+      {
+       "duration": 1.617,
+       "hits": [
+        0.3,
+        1.1
+       ]
+      }
+     ],
+     "cooldown": 8
+    },
+    "ult": {
+     "segments": [
+      {
+       "duration": 4.37,
+       "hits": [
+        2.6,
+        2.717,
+        3.183,
+        3.3,
+        3.417,
+        3.467,
+        3.483,
+        3.633,
+        3.65,
+        3.7,
+        3.75,
+        3.833,
+        4.117
+       ]
+      }
+     ],
+     "cooldown": 20,
+     "energyCost": 160,
+     "animationTime": 2.55
+    },
+    "finisher": {
+     "segments": [
+      {
+       "duration": 1.5,
+       "gap": 0,
+       "hits": [
+        1.2
+       ]
+      }
+     ]
+    },
+    "dive": {
+     "segments": [
+      {
+       "duration": 1.2,
+       "gap": 0,
+       "hits": [
+        1
+       ]
+      }
+     ]
+    }
+   }
+  },
   "mifu": {
    "skills": {
     "basic": {
@@ -2447,6 +2572,151 @@
      "cooldown": 20,
      "energyCost": 90,
      "animationTime": 2.75
+    },
+    "finisher": {
+     "segments": [
+      {
+       "duration": 1.5,
+       "gap": 0,
+       "hits": [
+        1.2
+       ]
+      }
+     ]
+    },
+    "dive": {
+     "segments": [
+      {
+       "duration": 1.2,
+       "gap": 0,
+       "hits": [
+        1
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "typhoeus": {
+   "skills": {
+    "basic": {
+     "segments": [
+      {
+       "duration": 0.35,
+       "hits": [
+        0.233,
+        0.333
+       ]
+      },
+      {
+       "duration": 0.433,
+       "hits": [
+        0.317
+       ]
+      },
+      {
+       "duration": 0.717,
+       "hits": [
+        0.2,
+        0.517
+       ]
+      },
+      {
+       "duration": 0.9,
+       "hits": [
+        0.217,
+        0.583,
+        0.717,
+        0.817,
+        0.917,
+        1.05
+       ]
+      },
+      {
+       "duration": 1.35,
+       "hits": [
+        0.75
+       ],
+       "spRec": 21
+      }
+     ]
+    },
+    "battle": {
+     "segments": [
+      {
+       "duration": 0.85,
+       "hits": [
+        0.167,
+        0.333
+       ]
+      },
+      {
+       "duration": 0.633,
+       "hits": [
+        0.083
+       ],
+       "spCost": 0
+      },
+      {
+       "duration": 0.633,
+       "hits": [
+        0.083
+       ],
+       "spCost": 0
+      },
+      {
+       "duration": 0.633,
+       "hits": [
+        0.083
+       ],
+       "spCost": 0
+      },
+      {
+       "duration": 0.633,
+       "hits": [
+        0.083
+       ],
+       "spCost": 0
+      },
+      {
+       "duration": 1.35,
+       "hits": [
+        0.367
+       ],
+       "spCost": 0,
+       "spRec": 23
+      }
+     ]
+    },
+    "combo": {
+     "segments": [
+      {
+       "duration": 2,
+       "hits": [
+        1.317,
+        1.517,
+        1.617,
+        1.65,
+        1.683,
+        1.75,
+        1.817
+       ]
+      }
+     ],
+     "cooldown": 19
+    },
+    "ult": {
+     "segments": [
+      {
+       "duration": 2.75,
+       "hits": [
+        2.117
+       ]
+      }
+     ],
+     "cooldown": 20,
+     "energyCost": 200,
+     "animationTime": 2
     },
     "finisher": {
      "segments": [

@@ -4470,6 +4470,94 @@
      }
     }
    ]
+  },
+  "Dessert Moment": {
+   "operator": "purrchena",
+   "passive": "Medicant: Sweetness and Dreams",
+   "buffs": [
+    {
+     "id": "dessert_heal_artsdmg",
+     "src": "Sweetness and Dreams — curación del combo (Arts DMG de equipo)",
+     "target": "team",
+     "trigger": {
+      "onHeal": true
+     },
+     "durS": 20,
+     "noStack": true,
+     "cond": {
+      "es": "Cuando la habilidad de combo del portador cura (la Caja de regalo da HP Treatment a los operadores cercanos): cada operador curado gana Arts DMG Dealt +valor por 20s (los efectos con el mismo nombre no se acumulan). Se aplica a TODO el equipo, que es a quien cura el combo. La Arts Intensity +14 de la misma ventana y el Max HP +28% quedan fuera del cálculo de daño.",
+      "en": "When the wielder's combo skill heals (the Giftbox grants HP Treatment to nearby operators): each healed operator gains Arts DMG Dealt +value for 20s (effects of the same name cannot stack). Applied to the WHOLE team, which is who the combo heals. The Arts Intensity +14 of the same window and the Max HP +28% are outside the damage calculation.",
+      "zh": "持有者的连携技治疗时（礼物匣子为范围内的干员提供治疗）：每名受到治疗的干员获得法术伤害 +数值，持续20秒（同名效果无法叠加）。按全队增益处理，因为连携技治疗的正是全队。同一窗口的源石技艺强度 +14和最大生命值 +28%不参与伤害计算。",
+      "ja": "装備者の連携技で治療したとき（ギフトボックスが範囲内のオペレーターを治療）：治療を受けた各オペレーターはアーツダメージ ＋値を20秒間得る（同名効果は重複しない）。連携技はチーム全員を治療するため、チーム全体のバフとして扱う。同じ時間帯のアーツ強度 +14と最大HP +28%はダメージ計算に含めない。",
+      "ko": "장착자의 연계 스킬이 치유할 때(선물 상자가 범위 내 오퍼레이터를 치유): 치유를 받은 각 오퍼레이터는 아츠 피해 +값을 20초 동안 얻습니다(같은 이름의 효과는 중첩되지 않음). 연계 스킬이 팀 전체를 치유하므로 팀 전체 버프로 처리합니다. 같은 구간의 아츠 강도 +14와 최대 생명력 +28%는 피해 계산에 포함하지 않습니다."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "arts",
+       "byNode": [
+        0.035,
+        0.042,
+        0.049,
+        0.056,
+        0.063,
+        0.07,
+        0.077,
+        0.084,
+        0.098
+       ]
+      }
+     ],
+     "label": {
+      "en": "Medicant: Sweetness and Dreams — combo heal (team Arts DMG)",
+      "es": "Medicante: Dulzura y sueños — curación del combo (Arts DMG de equipo)",
+      "zh": "医疗·甜与梦 — 连携技治疗（全队法术伤害）",
+      "ja": "治癒・甘さと夢 — 連携技の治療（チームのアーツダメージ）",
+      "ko": "의료 · 달콤한 꿈 — 연계 스킬 치유 (팀 아츠 피해)"
+     }
+    },
+    {
+     "id": "dessert_heal_artsint",
+     "src": "Sweetness and Dreams — curación del combo (Arts Intensity)",
+     "target": "team",
+     "trigger": {
+      "onHeal": true
+     },
+     "durS": 20,
+     "noStack": true,
+     "pendingModel": "Arts Intensity temporizada: el motor solo aplica Arts Intensity permanente (Rotación) y asume 0 en Daño; se registra el contrato para cuando exista artsInt por intervalo (misma limitación que Umbra of Frigid Eventide).",
+     "cond": {
+      "es": "Misma ventana que el buff anterior: los operadores curados por el combo ganan Arts Intensity +valor (hasta +14) por 20s. Hoy no entra al cálculo: el motor solo aplica Arts Intensity permanente.",
+      "en": "Same window as the previous buff: operators healed by the combo gain Arts Intensity +value (up to +14) for 20s. Not applied by the calculation today: the engine only applies permanent Arts Intensity.",
+      "zh": "与上一个增益同一窗口：受到连携技治疗的干员获得源石技艺强度 +数值（最高 +14），持续20秒。计算目前不应用：引擎只应用常驻的源石技艺强度。",
+      "ja": "前のバフと同じ時間帯：連携技で治療を受けたオペレーターはアーツ強度 ＋値（最大 +14）を20秒間得る。現在の計算では適用していない：エンジンは常時のアーツ強度のみを適用する。",
+      "ko": "앞의 버프와 같은 구간: 연계 스킬로 치유를 받은 오퍼레이터는 아츠 강도 +값(최대 +14)을 20초 동안 얻습니다. 현재 계산에서는 적용하지 않음: 엔진은 상시 아츠 강도만 적용합니다."
+     },
+     "mods": [
+      {
+       "type": "artsInt",
+       "byNode": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14
+       ]
+      }
+     ],
+     "label": {
+      "en": "Medicant: Sweetness and Dreams — combo heal (Arts Intensity)",
+      "es": "Medicante: Dulzura y sueños — curación del combo (Arts Intensity)",
+      "zh": "医疗·甜与梦 — 连携技治疗（源石技艺强度）",
+      "ja": "治癒・甘さと夢 — 連携技の治療（アーツ強度）",
+      "ko": "의료 · 달콤한 꿈 — 연계 스킬 치유 (아츠 강도)"
+     }
+    }
+   ]
   }
  }
 }

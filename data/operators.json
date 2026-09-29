@@ -9961,6 +9961,10 @@
       "class": "Striker",
       "element": "Nature",
       "weapon_type": "Arts Unit",
+      "model_wip": {
+        "dmg": true,
+        "rotation": true
+      },
       "primary_attribute": "Agility",
       "secondary_attribute": "Will",
       "stats_lv90": {
@@ -10260,6 +10264,9 @@
       "class": "Defender",
       "element": "Physical",
       "weapon_type": "Sword",
+      "model_wip": {
+        "rotation": true
+      },
       "primary_attribute": "Strength",
       "secondary_attribute": "Will",
       "stats_lv90": {
