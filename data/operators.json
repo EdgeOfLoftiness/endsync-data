@@ -1,6 +1,6 @@
 {
   "game": "Arknights: Endfield",
-  "total_operators": 32,
+  "total_operators": 34,
   "note_skills": "Skill values shown at MAX level (skill rank 13). Talents show level 1/level 2 (max) values.",
   "note_talents": "talents = combat passives. keystones = manifest skill upgrades. base_talents = facility productivity bonuses.",
   "operators": {
@@ -10619,6 +10619,76 @@
           "description_ko": "궁극기 <u>말썽 피우면 안 돼!</u>의 효과 강화:<br/><u>홍보대사의 특수 선물</u>: 피해 배율이 기존의 <b>1.2</b>배로 증가합니다.<br/>홍보대사의 특수 선물: <u>아츠 취약</u> 효과가 기존의 <b>1.2</b>배로 증가합니다."
         }
       ]
+    },
+    "si": {
+      "name_display": "Si",
+      "rarity": 6,
+      "class": "Supporter",
+      "element": "Cryo",
+      "weapon_type": "Greatsword",
+      "upcoming": true,
+      "data_pending": true,
+      "skills": {
+        "basic_attack": {
+          "name": "Artistic Urge",
+          "name_es": "Impulso artístico",
+          "description": "An attack with up to 5 sequences that deals <u>Cryo DMG</u>. The finisher deals massive <u>Cryo DMG</u> and restores some SP.",
+          "description_es": "Un ataque de hasta 5 secuencias que inflige <u>DAÑ criogénico</u>. El remate inflige <u>DAÑ criogénico</u> masivo y recupera algo de PH."
+        },
+        "battle_skill": {
+          "name": "Brushwork Realm",
+          "name_es": "Reino de pinceladas",
+          "description": "Applies <u>Artful Intent</u> and <u>Immobilization</u> and deals <u>Cryo DMG</u>. While Artful Intent lasts, Si records part of the damage the target takes; when it ends, it deals Area DMG equal to the recorded damage over a large area, as Fixed DMG that ignores DEF, RES and DMG Reduction. The Infliction follows the Team Position 01 operator: Heat → <u>Heat Infliction</u>, any other element → <u>Cryo Infliction</u>. Afterwards the skill turns into <u>Initial Stroke</u> (for a very small SP cost, pulls an <u>Inksoul</u> from the target: damage, effects, Inflictions and special statuses are shared with its host, and hitting it can interrupt the host's charge) and then into <u>Final Stroke</u> (ends the Inksoul early, which returns to its host and triggers the same burst as Artful Intent). If the host dies, the Inksoul links to the next enemy.",
+          "description_es": "Aplica <u>Intención artística</u> e <u>Inmovilización</u> e inflige <u>DAÑ criogénico</u>. Mientras dura la Intención artística, Si registra parte del daño que recibe el objetivo; al terminar, inflige DAÑ de área equivalente en un área grande, como DAÑ fijo que ignora DEF, RES y Reducción de daño. La Imposición sigue al operador de la posición 01: Calor → <u>Imposición de calor</u>; cualquier otro elemento → <u>Imposición criogénica</u>. Después la habilidad pasa a <u>Trazo inicial</u> (por muy pocos PH saca un <u>Alma de tinta</u> del objetivo: el daño, los efectos, las Imposiciones y los estados especiales se comparten con su portador, y golpearla puede interrumpir la carga del portador) y luego a <u>Trazo final</u> (termina antes el Alma de tinta, que vuelve a su portador y desencadena el mismo estallido que la Intención artística). Si el portador muere, el Alma de tinta se vincula al siguiente enemigo."
+        },
+        "combo_skill": {
+          "name": "Fully Envisioned",
+          "name_es": "Plenamente concebido",
+          "description": "Triggers when any operator in the team consumes or absorbs <u>Cryo Infliction</u> or <u>Heat Infliction</u>: Si summons an <u>Ink Lung</u> that spits several hits of <u>Cryo DMG</u>. It consumes no Infliction itself, and its damage scales with the Infliction stacks consumed or absorbed when it triggers.",
+          "description_es": "Se activa cuando cualquier operador del equipo consume o absorbe <u>Imposición criogénica</u> o <u>Imposición de calor</u>: Si invoca un <u>Lung de tinta</u> que lanza varios golpes de <u>DAÑ criogénico</u>. No consume Imposición, y su daño crece con las acumulaciones consumidas o absorbidas al activarse."
+        },
+        "ultimate": {
+          "name": "No One Spoils the Fun",
+          "name_es": "Nadie arruina la diversión",
+          "description": "Summons a giant lung from her scroll that deals <u>Cryo DMG</u> and grants <u>Cryo Amp</u> and <u>Heat Amp</u> to the whole team. With her talent, it also greatly reduces the combo skill cooldown of the Team Position 01 operator.",
+          "description_es": "Invoca un Lung gigante de su pergamino que inflige <u>DAÑ criogénico</u> y otorga <u>Amplificación criogénica</u> y <u>Amplificación de calor</u> a todo el equipo. Con su talento, además reduce mucho el tiempo de reutilización del combo del operador en la posición 01."
+        }
+      }
+    },
+    "argentflow": {
+      "name_display": "Argent Flow",
+      "rarity": 6,
+      "class": "Guard",
+      "element": "Electric",
+      "weapon_type": "Sword",
+      "upcoming": true,
+      "data_pending": true,
+      "skills": {
+        "basic_attack": {
+          "name": "Dust Resplendent",
+          "name_es": "Polvo resplandeciente",
+          "description": "An attack with up to 5 sequences that deals <u>Physical DMG</u>. The finisher deals massive <u>Physical DMG</u> and restores some SP.",
+          "description_es": "Un ataque de hasta 5 secuencias que inflige <u>DAÑ físico</u>. El remate inflige <u>DAÑ físico</u> masivo y recupera algo de PH."
+        },
+        "battle_skill": {
+          "name": "Darkness Cowed / Bolt Rush",
+          "name_es": "Oscuridad sometida / Embestida relámpago",
+          "description": "Two battle skills that his combo swaps. <u>Darkness Cowed</u>: sweeps his spear, dealing <u>Physical DMG</u> to several nearby enemies and applying <u>Lift</u>. <u>Bolt Rush</u>: mounts Nuli, leaps and, after a short charge, rushes the target, applying <u>Electrification</u> to several enemies in a large area ahead and dealing <u>Electric DMG</u>; it consumes all <u>Electric Infliction</u> stacks (each one raises the Electrification Status Level) and then applies an extra stack of <u>Vulnerability</u>. With his talent <u>Zenith of Voltmancy</u>, his Electrification also increases all types of damage the target takes and applies <u>Sunderization</u> (as many stacks as its Status Level); when the target takes <u>Crush</u> damage, that damage is increased and every Sunderization stack detonates for extra <u>Electric DMG</u> to the target and nearby enemies.",
+          "description_es": "Dos habilidades de batalla que su combo intercambia. <u>Oscuridad sometida</u>: barre con la lanza, inflige <u>DAÑ físico</u> a varios enemigos cercanos y aplica <u>Levantamiento</u>. <u>Embestida relámpago</u>: monta a Nuli, salta y, tras una breve carga, embiste al objetivo; aplica <u>Electrificación</u> a varios enemigos en un área grande al frente e inflige <u>DAÑ eléctrico</u>; consume todas las acumulaciones de <u>Imposición eléctrica</u> (cada una sube el nivel de la Electrificación) y luego aplica una acumulación extra de <u>Vulnerabilidad</u>. Con su talento <u>Cénit de la Voltomancia</u>, su Electrificación además aumenta todo tipo de daño que recibe el objetivo y aplica <u>Hendimiento</u> (tantas acumulaciones como su nivel); cuando el objetivo recibe daño de <u>Triturar</u>, ese daño aumenta y todas las acumulaciones de Hendimiento detonan con <u>DAÑ eléctrico</u> adicional al objetivo y a los enemigos cercanos."
+        },
+        "combo_skill": {
+          "name": "Stars Shifted",
+          "name_es": "Estrellas desplazadas",
+          "description": "Triggers when an enemy becomes <u>Vulnerable</u>: he draws his sword at lightning speed for a multi-sequence attack that deals <u>Electric DMG</u> along his path. The final sequence applies <u>Electric Infliction</u> and changes his battle skill to Bolt Rush.",
+          "description_es": "Se activa cuando un enemigo queda <u>Vulnerable</u>: desenvaina la espada a la velocidad del rayo con un ataque de varias secuencias que inflige <u>DAÑ eléctrico</u> en su trayectoria. La última secuencia aplica <u>Imposición eléctrica</u> y cambia su habilidad de batalla a Embestida relámpago."
+        },
+        "ultimate": {
+          "name": "Heavens Sundered",
+          "name_es": "Cielos hendidos",
+          "description": "Mounts Nuli and charges with his spear, dealing continuous <u>Electric DMG</u> to enemies ahead and dragging weak enemies to the end of the charge; then leaps and strikes the target for <u>Electric DMG</u> and <u>Electric Infliction</u>, and finally pierces the ground for <u>Crush</u> and <u>Electric DMG</u> in a large area. That Crush hit detonates every <u>Sunderization</u> stack applied earlier.",
+          "description_es": "Monta a Nuli y carga con la lanza, infligiendo <u>DAÑ eléctrico</u> continuo a los enemigos de enfrente y arrastrando a los débiles al final de la carga; luego salta y golpea al objetivo con <u>DAÑ eléctrico</u> e <u>Imposición eléctrica</u>, y por último clava la lanza en el suelo con <u>Triturar</u> y <u>DAÑ eléctrico</u> en un área grande. Ese golpe de Triturar detona todas las acumulaciones de <u>Hendimiento</u> aplicadas antes."
+        }
+      }
     }
   }
 }

@@ -1,6 +1,124 @@
 {
   "banners": [
     {
+      "id": "b14",
+      "title": {
+        "es": "Rejuvenecimiento — Si",
+        "en": "Rejuvenation — Si",
+        "zh": "万物更新 — 祀",
+        "ja": "万象一新 — スー",
+        "ko": "만물의 재구성 — 사"
+      },
+      "img": "assets/banners/rejuvenation.webp",
+      "status": "upcoming",
+      "dateStart": "2026-10-15",
+      "dateEnd": "2026-11-05",
+      "version": "1.6",
+      "desc": {
+        "es": "Primer banner de Caza de reclutas certificada de la 1.6 «Santuario de tinta»: abre tras la actualización de la versión y cierra el 5 de noviembre de 2026 a las 11:59 (hora del servidor). Si es una Cooperadora criogénica 6★ que pelea con Gran espada: aplica Intención artística para infligir DAÑ fijo adicional, usa Almas de tinta para transferir el daño, y tras su máxima su talento acorta el combo del operador en la posición 01. Junto al banner: Solicitud de Sello de jade con Jade Vessel, el inicio de sesión de 7 días Restauración del espíritu (5 Permisos de C.R. OTL de este banner), 5 permisos más en la Cuota del CAI y los Simulacros de combate de Si.",
+        "en": "First Chartered Headhunting banner of 1.6 \"Sanctuary of Ink\": it opens after the version update and closes on Nov. 5, 2026 at 11:59 (server time). Si is a 6★ Cryo Supporter who fights with a Greatsword: she applies Artful Intent to deal extra Fixed DMG, uses Inksouls to transfer damage, and after her ultimate her talent shortens the combo cooldown of the Team Position 01 operator. Alongside it: the Seal of Jade Issue with Jade Vessel, the 7-day sign-in Spirit's Restoration (5 LTO HH Permits for this banner), 5 more permits in the AIC Quota and Si's Combat Drills.",
+        "zh": "1.6 版本「丹青渡」的第一个特许寻访：版本更新维护后开启，至2026年11月5日11:59（服务器时间）。祀是使用双手剑的6★寒冷辅助干员：她能对目标施加笔意造成额外固定伤害，还能利用墨魂传递伤害；使用终结技后，祀的天赋可以减少干员的连携技冷却时间。同期开启武库申领「篆玉申领」（玉中身）、7日签到与集成配额兑换（各5张寻访凭证）以及作战演练。",
+        "ja": "バージョン1.6「丹青渡」最初の特別スカウト。バージョンアップメンテナンス後から2026年11月5日11:59（サーバー時間）まで。スーは大剣を使う★6寒冷補助オペレーター：目標に筆意を付与し追加の固定ダメージを与え、墨魂を通してダメージを伝達できます。必殺技の発動後、素質によりオペレーターの連携技CD時間を短縮します。同時に武庫申請「玉書・申請」（玉中身）、7日間スタンプラリーと集成配給交換（各スカウト券5枚）、作戦訓練が開催されます。",
+        "ko": "버전 1.6 「단청도」의 첫 번째 특별 허가 헤드헌팅. 버전 업데이트 점검 후부터 2026년 11월 5일 11:59(서버 시간)까지. 사는 양손검을 쓰는 6★ 냉기 서포터로, 적에게 필의를 부여해 추가 고정 피해를 주고 묵혼으로 피해를 전달합니다. 궁극기 사용 후에는 재능으로 오퍼레이터의 연계 스킬 쿨타임을 감소시킵니다. 무기고 신청 「전옥 신청」(옥에 깃든 형체), 7일 출석 체크와 통합 징표 교환(각 허가증 5장), 작전 훈련이 함께 열립니다."
+      },
+      "chars": [
+        {
+          "name": "Si",
+          "el": "Cryo",
+          "icon": "",
+          "tag": "6★",
+          "role": "Supporter",
+          "confirmed": true,
+          "note": {
+            "es": "Rate-up limitado · 15 oct",
+            "en": "Limited rate-up · Oct 15",
+            "zh": "限定 UP · 10月15日",
+            "ja": "限定ピックアップ・10月15日",
+            "ko": "한정 픽업 · 10월 15일"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b15",
+      "title": {
+        "es": "El Calor Terrenal atrae al Flujo Estelar — Argent Flow",
+        "en": "The Hearth Fire Beckons the Starry Flow — Argent Flow",
+        "zh": "烟火邀星河 — 明河",
+        "ja": "人煙の牽く天河 — ミンホ",
+        "ko": "은하수를 부르는 불꽃 — 명하"
+      },
+      "img": "assets/banners/hearth_fire_starry_flow.webp",
+      "status": "upcoming",
+      "dateStart": "2026-11-05",
+      "dateEnd": "2026-11-25",
+      "version": "1.6",
+      "desc": {
+        "es": "Segundo banner de Caza de reclutas certificada de la 1.6: del 5 de noviembre de 2026 a las 12:00 (hora del servidor) hasta el mantenimiento de la próxima versión. Argent Flow es un Guardia eléctrico 6★ con Espada: su Electrificación aumenta todo el daño que recibe el enemigo y además aplica y detona Hendimiento para infligir DAÑ de área. Junto al banner: Solicitud de Resplandor lunar con Lunar Calling, el inicio de sesión de 7 días Las estrellas están conmigo (5 Permisos de C.R. OTL de este banner), 5 permisos más en la Cuota del CAI, sus Simulacros de combate y, más adelante, su evento de narrativa De vuelta a lo rústico.",
+        "en": "Second Chartered Headhunting banner of 1.6: from Nov. 5, 2026 at 12:00 (server time) until the next version update maintenance. Argent Flow is a 6★ Electric Guard with a Sword: his Electrification raises all DMG the enemy takes, and he applies and detonates Sunderization to deal Area DMG. Alongside it: the Moongleam Issue with Lunar Calling, the 7-day sign-in The Stars Are With Me (5 LTO HH Permits for this banner), 5 more permits in the AIC Quota, his Combat Drills and, later, his narrative event Back to the Rustics.",
+        "zh": "1.6 版本第二个特许寻访：2026年11月5日12:00（服务器时间）至版本更新维护前。明河是使用单手剑的6★电磁近卫干员：他施加的导电会提升敌人受到所有伤害，还能通过施加和引爆殷雷造成范围伤害。同期开启武库申领「月映申领」（唤月）、7日签到与集成配额兑换（各5张寻访凭证）、作战演练，以及之后的叙事活动「归野」。",
+        "ja": "バージョン1.6の2つ目の特別スカウト。2026年11月5日12:00（サーバー時間）からバージョンアップメンテナンス前まで。ミンホは片手剣を使う★6電磁前衛オペレーター：感電を付与すると敵が受けるすべてのダメージもアップし、雷勢の付与と起爆によって範囲ダメージを与えます。同時に武庫申請「月映・申請」（問月）、7日間スタンプラリーと集成配給交換（各スカウト券5枚）、作戦訓練、その後に物語イベント「帰野」が開催されます。",
+        "ko": "버전 1.6의 두 번째 특별 허가 헤드헌팅. 2026년 11월 5일 12:00(서버 시간)부터 버전 업데이트 점검 전까지. 명하는 한손검을 쓰는 6★ 전기 가드로, 감전을 부여하면 적이 받는 모든 피해가 증가하고 우레를 부여하고 폭발시켜 범위 피해를 줍니다. 무기고 신청 「월영 신청」(환월), 7일 출석 체크와 통합 징표 교환(각 허가증 5장), 작전 훈련, 이후 스토리 이벤트 「야생으로」가 함께 열립니다."
+      },
+      "chars": [
+        {
+          "name": "Argent Flow",
+          "el": "Electric",
+          "icon": "",
+          "tag": "6★",
+          "role": "Guard",
+          "confirmed": true,
+          "note": {
+            "es": "Rate-up limitado · 5 nov",
+            "en": "Limited rate-up · Nov 5",
+            "zh": "限定 UP · 11月5日",
+            "ja": "限定ピックアップ・11月5日",
+            "ko": "한정 픽업 · 11월 5일"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b16",
+      "title": {
+        "es": "El Manantial Ancestral Fluye Renovado #1 (RE-Factor)",
+        "en": "Ancestral Spring Flows Anew #1 (RE-Factor)",
+        "zh": "Ancestral Spring Flows Anew #1（RE-Factor）",
+        "ja": "Ancestral Spring Flows Anew #1（RE-Factor）",
+        "ko": "Ancestral Spring Flows Anew #1(RE-Factor)"
+      },
+      "img": "assets/banners/ancestral_spring_flows_anew.webp",
+      "status": "upcoming",
+      "dateStart": "2026-10-29",
+      "dateEnd": "2026-11-19",
+      "version": "1.6",
+      "kind": "refactor",
+      "desc": {
+        "es": "Nueva serie de Caza de reclutas de Re-factor: abre el 29 de octubre de 2026 a las 12:00 y cierra el 19 de noviembre de 2026 a las 11:59 (hora del servidor), con Tangtang como 6★ con aumento de probabilidad. A la vez, el Intercambio de Arsenal abre la Solicitud de Re-factor #1 Solicitud del Brote Tierno con Brigand's Calling. El resto del pool y si el progreso se arrastra desde Resplendent Spectrum no están en las fuentes oficiales.",
+        "en": "A new RE-Factor Headhunting series: it opens on Oct. 29, 2026 at 12:00 and closes on Nov. 19, 2026 at 11:59 (server time), with Tangtang as the Rate-UP 6★. At the same time the Arsenal Exchange opens the Tender Sprig Issue RE-Factor Issue #1 with Brigand's Calling. The rest of the pool, and whether progress carries over from Resplendent Spectrum, are not in the official sources.",
+        "zh": "新的 RE-Factor 寻访：2026年10月29日12:00至11月19日11:59（服务器时间），UP 6★干员为汤汤。武库交易所同步开启 RE-Factor 申领 #1，UP 6★武器为「落草」。卡池其余构成、以及是否继承炫彩光谱的进度，官方资料未公布。",
+        "ja": "新しい再現スカウト。2026年10月29日12:00～11月19日11:59（サーバー時間）、ピックアップ★6オペレーターはタンタン。武庫交換所でも再現申請 #1 が開催され、ピックアップ★6武器は「落草」。プールのその他の構成や、燦然たるスペクトラムからの進捗の引き継ぎは公式情報に掲載されていません。",
+        "ko": "새로운 RE-Factor 헤드헌팅. 2026년 10월 29일 12:00 ~ 11월 19일 11:59(서버 시간), 픽업 6★ 오퍼레이터는 탕탕. 무기고 거래소에서도 RE-Factor 신청 #1이 열리며 픽업 6★ 무기는 「반항」입니다. 풀의 나머지 구성과 찬란한 스펙트럼 진행도의 이월 여부는 공식 자료에 나와 있지 않습니다."
+      },
+      "chars": [
+        {
+          "name": "Tangtang",
+          "el": "Cryo",
+          "icon": "",
+          "tag": "6★",
+          "role": "Caster",
+          "confirmed": true,
+          "note": {
+            "es": "Rate-up · 29 oct",
+            "en": "Rate-up · Oct 29",
+            "zh": "UP · 10月29日",
+            "ja": "ピックアップ・10月29日",
+            "ko": "픽업 · 10월 29일"
+          }
+        }
+      ]
+    },
+    {
       "id": "b12",
       "title": {
         "es": "Winter Hunt — Typhoeus",
@@ -51,7 +169,7 @@
       "img": "",
       "status": "upcoming",
       "dateStart": "2026-09-24",
-      "dateEnd": null,
+      "dateEnd": "2026-10-14",
       "version": "1.5",
       "kind": "rerun",
       "desc": {
@@ -721,6 +839,180 @@
   ],
   "patches": [
     {
+      "id": "p16",
+      "version": "1.6",
+      "date": "2026-10-15",
+      "title": {
+        "es": "v1.6 — Santuario de tinta (Sanctuary of Ink)",
+        "en": "v1.6 — Sanctuary of Ink",
+        "zh": "v1.6 — 丹青渡",
+        "ja": "v1.6 — 丹青渡",
+        "ko": "v1.6 — 단청도"
+      },
+      "changes": [
+        {
+          "type": "new",
+          "text": {
+            "es": "Nueva operadora: Si (Cryo, Cooperadora 6★, Gran espada), Emisaria de Feranmut y dueña de la Mansión Yuanyuan. Su habilidad de batalla Reino de pinceladas aplica Intención artística e Inmovilización: guarda parte del daño y al terminar lo suelta como DAÑ fijo en un área grande, ignorando DEF, RES y Reducción de daño. La Imposición que aplica sigue al operador de la posición 01 (Calor → Imposición de calor; el resto → criogénica). Con Trazo inicial saca un Alma de tinta que comparte daño y efectos con su portador. Combo Plenamente concebido (un Lung de tinta cuando el equipo consume o absorbe Imposición criogénica o de calor) y máxima Nadie arruina la diversión (Amplificación criogénica y de calor al equipo; su talento acorta el combo del operador en la posición 01). Banner Rejuvenecimiento (fase 1)",
+            "en": "New operator: Si (Cryo, 6★ Supporter, Greatsword), Feranmut Proxy and owner of Yuanyuan Manor. Her battle skill Brushwork Realm applies Artful Intent and Immobilization: it records part of the damage and, when it ends, releases it as Fixed DMG over a large area, ignoring DEF, RES and DMG Reduction. The Infliction she applies follows the Team Position 01 operator (Heat → Heat Infliction; anything else → Cryo). Initial Stroke pulls an Inksoul that shares damage and effects with its host. Combo Fully Envisioned (an Ink Lung when the team consumes or absorbs Cryo or Heat Infliction) and ultimate No One Spoils the Fun (Cryo Amp and Heat Amp for the team; her talent cuts the Team Position 01 combo cooldown). Banner Rejuvenation (phase 1)",
+            "zh": "新干员：祀（寒冷，6★辅助，双手剑）。她能对目标施加笔意造成额外固定伤害，还能利用墨魂传递伤害；战技施加的法术附着随1号位干员的属性变化（灼热→灼热附着，其他→寒冷附着）。使用终结技后，祀的天赋可以减少1号位干员的连携技冷却时间。卡池「万物更新」（一期）",
+            "ja": "新オペレーター：スー（寒冷、★6補助、大剣）。目標に筆意を付与して追加の固定ダメージを与え、墨魂を通してダメージを伝達できます。戦技で付与するアーツ付着は1番目のオペレーターの属性に応じて変わります（灼熱→灼熱付着、それ以外→寒冷付着）。必殺技の発動後、素質により1番目のオペレーターの連携技CD時間を短縮します。スカウト「万象一新」（第1弾）",
+            "ko": "신규 오퍼레이터: 사(냉기, 6★ 서포터, 양손검). 적에게 필의를 부여해 추가 고정 피해를 주고, 묵혼으로 피해를 전달할 수 있습니다. 배틀 스킬로 부여하는 아츠 부착은 1번 자리 오퍼레이터의 속성에 따라 바뀝니다(열기 → 열기 부착, 그 외 → 냉기 부착). 궁극기 사용 후에는 재능으로 1번 자리 오퍼레이터의 연계 스킬 쿨타임을 감소시킵니다. 헤드헌팅 「만물의 재구성」(1주차)"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Nuevo operador: Argent Flow (Eléctrico, Guardia 6★, Espada), de la HAS, que monta a Nuli. Alterna dos habilidades de batalla: Oscuridad sometida (DAÑ físico y Levantamiento) y Embestida relámpago (Electrificación que consume Imposición eléctrica para subir su nivel, más Vulnerabilidad). Su combo Estrellas desplazadas salta cuando un enemigo queda Vulnerable y le devuelve Embestida relámpago. Con el talento Cénit de la Voltomancia su Electrificación aumenta todo el daño recibido y aplica Hendimiento, que estalla en DAÑ eléctrico de área al recibir Triturar. Máxima Cielos hendidos. Banner El Calor Terrenal atrae al Flujo Estelar desde el 5 nov (fase 2)",
+            "en": "New operator: Argent Flow (Electric, 6★ Guard, Sword), from the HAS, riding his mount Nuli. He switches between two battle skills: Darkness Cowed (Physical DMG and Lift) and Bolt Rush (Electrification that consumes Electric Infliction to raise its Status Level, plus Vulnerability). His combo Stars Shifted triggers when an enemy becomes Vulnerable and hands Bolt Rush back. With the talent Zenith of Voltmancy his Electrification raises all DMG taken and applies Sunderization, which bursts into area Electric DMG when the target takes Crush. Ultimate Heavens Sundered. Banner The Hearth Fire Beckons the Starry Flow from Nov. 5 (phase 2)",
+            "zh": "新干员：明河（电磁，6★近卫，单手剑）。他施加的导电会提升敌人受到所有伤害，还能通过施加和引爆殷雷造成范围伤害（敌人受到猛击时引爆）。卡池「烟火邀星河」11月5日开启（二期）",
+            "ja": "新オペレーター：ミンホ（電磁、★6前衛、片手剣）。感電を付与すると敵が受けるすべてのダメージがアップし、雷勢の付与と起爆（敵が猛撃を受けた時）によって範囲ダメージを与えます。スカウト「人煙の牽く天河」は11月5日から（第2弾）",
+            "ko": "신규 오퍼레이터: 명하(전기, 6★ 가드, 한손검). 명하가 감전을 부여하면 적이 받는 모든 피해가 증가하며, 우레를 부여하고 폭발시켜(적이 강타를 받을 때) 범위 피해를 줍니다. 헤드헌팅 「은하수를 부르는 불꽃」은 11월 5일부터(2주차)"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Nuevo mapa de la historia principal: Pintura de Si, un pergamino pintado en la región de Wuling (Mansión Yuanyuan, Cuenca del Pinar Humeante, Villa Xiaohe, Gruta de la lluvia susurrante, Pabellón de la despedida). El pincel milagroso de Si abre puentes y cambia el paisaje, y los Espíritus de tinta te cargan Marcas de tinta que los vuelven más fuertes. Misión principal Entra en el Mundo Pintado; al terminarla recibes otra Ficha de Endministrator",
+            "en": "New main story map: Si's Painting, a painted scroll in the Wuling region (Yuanyuan Manor, Pinesmoke Basin, Xiaohe Manor, Raintap Grotto, Pavilion of Parting). Si's Miracle Brush raises bridges and reshapes the landscape, and Ink Spirits stack Ink Marks on you that make them stronger. Main mission Enter the Painted World; finishing it grants another Endministrator's Token",
+            "zh": "新主线地图：「祀的画」，位于武陵地区（缘缘庄、松烟湖、小禾庄、听雨窟、舍得亭）。主线任务「入丹青」：有客人突然造访了帝江号，前往会客室进行接待。完成主线后可再获得一枚管理员的信物",
+            "ja": "新メインマップ：武陵地域の「スーの絵」（縁縁荘、松煙湖、小稲村、雨音洞、断捨亭）。メイン任務「丹青に入る」：帝江号に突然の来客があり、応接室で訪問者に会います。メイン任務の完了で管理人の印をもう1つ獲得できます",
+            "ko": "신규 메인 맵: 무릉 지역의 「사의 그림」(인연 마을, 송연 호수, 소화 마을, 청우 동굴, 사덕정). 메인 임무 「단청 속으로 스며들리라」: 제강호에 갑작스레 손님이 찾아와 응접실에서 맞이합니다. 메인 임무를 완료하면 관리자의 증표를 하나 더 얻습니다"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Fogones ardientes de Yuanyuan: administras una posada en el campo (granja, Babosas de Originio, corrales, platillos, Dinero de Espíritu, estrellas, temas y recetas). La granja mejora: vista superior, terrenos sin separación mínima y operadores que fertilizan solos. La máquina Autoagricultor siembra y cosecha a distancia (y más adelante llega a la granja de Wuling). Las misiones de gestión son limitadas; el modo queda permanente",
+            "en": "Yuanyuan's Blazing Stoves: run a countryside inn (farmland, Originium Slugs, pens, dishes, Spirit Money, star rating, themes and recipes). Farming gets better: a top view, plots with no spacing limit and operators that fertilize on their own. The Auto-Farmer machine plants and harvests remotely (and later reaches the Wuling farming site). The innkeeping missions are limited-time; the mode stays permanent",
+            "zh": "烟火生缘：缘缘庄中灶火正旺。该常驻玩法包含限时经营任务，任务过期后将无法参与，玩法仍可继续体验",
+            "ja": "俗世の縁：縁縁荘での営業コンテンツ。本常時開放コンテンツには期間限定の営業クエストが含まれ、期間終了後はクエストに参加できなくなりますが、コンテンツ自体は引き続きプレイできます",
+            "ko": "불꽃으로 맺은 인연: 인연 마을의 운영 콘텐츠. 이 상시 콘텐츠에는 기간 한정 운영 임무가 포함되어 있으며, 기간이 종료되면 해당 임무에는 참여할 수 없지만 콘텐츠는 계속 즐길 수 있습니다"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Arena de juegos (29 oct – 19 nov): hereda el «sacar cartas y combate» de Prueba del Arte de la espada con Placas de datos, en dos rondas seguidas y hasta cinco robos por reto. Más puntos de batalla dan más puntaje y más dificultad (ya no se pierde todo al pasar de 10). Palos Bambú, Personajes y Círculos forman manos (Par, Escalera de color…) que multiplican el premio pero también potencian al enemigo; la Mano del día suma un multiplicador extra",
+            "en": "Arena of Games (Oct. 29 – Nov. 19): it keeps the \"draw cards + battle\" of Trial of Swordmancy with Dataplates, over two rounds in a row and up to five draws per challenge. More Battle Points mean a higher score and higher difficulty (going over 10 no longer wipes your rewards). The Bamboo, Characters and Circles suits form hands (Pair, Straight Flush…) that multiply rewards but also buff enemies; the Hand of Today adds an extra multiplier",
+            "zh": "百趣演武（10月29日–11月19日）：小道奇已将最新最潮的功能整合进了演武平台，延续选剑演武的「抽取+战斗」玩法",
+            "ja": "百趣演武（10月29日～11月19日）：ダッジが最新トレンドの機能を演武プラットフォームに追加。選剣演武の「ドロー＋戦闘」を受け継ぐイベント",
+            "ko": "다채로운 연무(10월 29일 ~ 11월 19일): 도치가 최신 유행 기능을 연무 플랫폼에 통합했습니다. 선검 연무의 \"뽑기 + 전투\"를 계승한 이벤트"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Contrato de contingencia: Operación experimental índigo (desde el 5 nov): importación de varios criterios a la vez, los criterios bloqueados se guardan al quitar su criterio clave, tres criterios clave nuevos (Ambiente: Bloqueo de combo, Ambiente: Silencio y uno sorpresa), criterios especiales y, por primera vez, criterios que les dan ataques nuevos a los enemigos. El evento de Cordura Preparación ante contingencias abre 7 días antes",
+            "en": "Contingency Contract: Indigo Experimental Operation (from Nov. 5): import several criteria at once, Locked Criteria are kept when you drop their Key Criterion, three new Key Criteria (Ambient: Combo Lock, Ambient: Silence and a surprise one), special criteria and, for the first time, criteria that give enemies new attacks. The Contingency Readiness Sanity event opens 7 days earlier",
+            "zh": "危机合约 浸蓝测试作战（11月5日起）：污浊潮水涌入了协议空间。开始前7天开放理智活动「危机筹备」",
+            "ja": "危機契約 青藍試験作戦（11月5日から）：穢れた濁流が協約空間へと流れ込んだ。開始の7日前に理性イベント「危機準備」が開催されます",
+            "ko": "위기 협약 · 잿빛 실험 작전(11월 5일부터): 오염된 격류가 프로토콜 공간으로 흘러들었습니다. 시작 7일 전에 이성 이벤트 「위기 대응 준비」가 열립니다"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Modos permanentes: Monumento del Umbral suma la serie de alta dificultad Murmullos del bosque profundo (22 oct) junto al evento Grabado monumental: Bosque de Maras; Ecos de guerra abre las temporadas Fantasía (con la versión) y Fervor (5 nov), cada una con tres etapas nuevas; Explorador de lo críptico suma el conjunto espacial Desvanecerse más allá de la pintura (12 nov), seis Espacios de protocolo que salen escalonados",
+            "en": "Permanent modes: Umbral Monument adds the high-difficulty series Murmurs of the Deep Forest (Oct. 22) alongside the event Monumental Etching: Forest of Maras; Echoes of War opens the seasons Phantasia (with the version) and Fervor (Nov. 5), each with three new stages; Delver of the Cryptic adds the spatial set Fade Beyond the Painting (Nov. 12), six Protocol Spaces released one after another",
+            "zh": "常驻玩法：影拓丰碑新增高难度系列「Murmurs of the Deep Forest」（10月22日），同步开启「丰碑留名·魇林」；战争回响开启新赛季「Phantasia」（版本更新后）与「Fervor」（11月5日），每个赛季新增3个关卡；密境行者空间组更新「Fade Beyond the Painting」（11月12日），6个协议空间陆续开放",
+            "ja": "常時開放コンテンツ：映像の記念碑に高難度シリーズ「Murmurs of the Deep Forest」（10月22日）が追加され、「記憶の痕・呪林」も同時開催。戦争残響に新シーズン「Phantasia」（バージョン開始後）と「Fervor」（11月5日）、各シーズンに新ステージ3つ。空間群「密境の探索者」に「Fade Beyond the Painting」（11月12日）、協約空間6つが順次開放",
+            "ko": "상시 콘텐츠: 그림자 이정표에 고난도 시리즈 「Murmurs of the Deep Forest」(10월 22일)가 추가되고 「기억의 흔적 · 악몽의 숲」이 함께 열립니다. 전쟁의 메아리에 새 시즌 「Phantasia」(버전 업데이트 후)와 「Fervor」(11월 5일), 시즌마다 신규 스테이지 3개. 「숨겨진 구역의 여행자」 공간 그룹에 「Fade Beyond the Painting」(11월 12일), 프로토콜 공간 6개가 순차 개방"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Más eventos: Todos los matices de tinta (guía de la Pintura de Si), La Antología floreciente de Carly (cámara, 22 oct – 5 nov), Nueva era para las Incontables almas (web, 31 oct – 14 nov), De vuelta a lo rústico (narrativa de Argent Flow, 5 nov) y los inicios de sesión de 7 días Restauración del espíritu y Las estrellas están conmigo (5 Permisos de C.R. OTL de su banner cada uno; la Cuota del CAI suma otros 5 por banner)",
+            "en": "More events: All the Inky Hues (guide event for Si's Painting), Carly's Verdant Anthology (camera, Oct. 22 – Nov. 5), New Era for the Myriad Souls (web, Oct. 31 – Nov. 14), Back to the Rustics (Argent Flow's narrative event, Nov. 5) and the 7-day sign-ins Spirit's Restoration and The Stars Are With Me (5 LTO HH Permits for their banner each; the AIC Quota adds another 5 per banner)",
+            "zh": "更多活动：「墨分诸彩」（引入活动）、「卡莉的芳菲童话」（拍照活动，10月22日–11月5日）、「予众魂的新光影」（趣味活动，10月31日–11月14日）、明河的叙事活动「归野」（11月5日）以及两个7日签到活动",
+            "ja": "その他のイベント：「墨に彩あり」（案内）、「カーリーの花いろ絵本」（写真撮影、10月22日～11月5日）、「魂に捧ぐ新たな一幕」（レジャー、10月31日～11月14日）、ミンホの物語イベント「帰野」（11月5日）、7日間スタンプラリー2つ",
+            "ko": "추가 이벤트: 「먹에서 피어난 색채」(기념 이벤트), 「칼리의 꽃과 풀 동화」(촬영 이벤트, 10월 22일 ~ 11월 5일), 「모든 영혼에 바치는 새로운 빛과 그림자」(흥미 이벤트, 10월 31일 ~ 11월 14일), 명하의 스토리 이벤트 「야생으로」(11월 5일), 7일 출석 체크 2종"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "RE-Factor: El Manantial Ancestral Fluye Renovado #1 con Tangtang de rate-up (29 oct – 19 nov), y en el Intercambio de Arsenal la Solicitud del Brote Tierno #1 con Brigand's Calling",
+            "en": "RE-Factor: Ancestral Spring Flows Anew #1 with Tangtang on rate-up (Oct. 29 – Nov. 19), and in the Arsenal Exchange the Tender Sprig Issue #1 with Brigand's Calling",
+            "zh": "RE-Factor：「Ancestral Spring Flows Anew」#1，UP 6★干员汤汤（10月29日–11月19日）；武库交易所同步开启「Tender Sprig Issue」#1，UP 6★武器「落草」",
+            "ja": "RE-Factor：「Ancestral Spring Flows Anew」#1、ピックアップ★6オペレーターはタンタン（10月29日～11月19日）。武庫交換所では「Tender Sprig Issue」#1、ピックアップ★6武器は「落草」",
+            "ko": "RE-Factor: 「Ancestral Spring Flows Anew」 #1, 픽업 6★ 오퍼레이터 탕탕(10월 29일 ~ 11월 19일). 무기고 거래소에서는 「Tender Sprig Issue」 #1, 픽업 6★ 무기 「반항」"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Armas nuevas: Jade Vessel (Gran espada 6★, Solicitud de Sello de jade) y Lunar Calling (Espada 6★, Solicitud de Resplandor lunar), más Long Heritage (Gran espada 6★) y Complexed Industry (Espada 6★) en el Pase de protocolo: Pergamino de tinta",
+            "en": "New weapons: Jade Vessel (6★ Greatsword, Seal of Jade Issue) and Lunar Calling (6★ Sword, Moongleam Issue), plus Long Heritage (6★ Greatsword) and Complexed Industry (6★ Sword) in Protocol Pass: Ink Scroll",
+            "zh": "新武器：玉中身（6★双手剑，「篆玉申领」）与唤月（6★单手剑，「月映申领」），以及协议通行证中的6★双手剑「Long Heritage」与6★单手剑「Complexed Industry」",
+            "ja": "新武器：玉中身（★6大剣、「玉書・申請」）と問月（★6片手剣、「月映・申請」）、協約通行証の★6大剣「Long Heritage」と★6片手剣「Complexed Industry」",
+            "ko": "신규 무기: 옥에 깃든 형체(6★ 양손검, 「전옥 신청」)와 환월(6★ 한손검, 「월영 신청」), 프로토콜 통행증의 6★ 양손검 「Long Heritage」와 6★ 한손검 「Complexed Industry」"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Equipamiento: piezas nuevas en los paquetes Laboratorios Pulso, Xiranita eterna, Yinglung tipo 50, Trotagrietas y Trabajo de campo del CAI; se arman con Componentes de Pirrolita",
+            "en": "Gear: new pieces in the Pulser Labs, Eternal Xiranite, Type 50 Yinglung, Rift Trekker and AIC Fieldwork packs; they are assembled with Pyrrolite Components",
+            "zh": "装备：脉冲式、长息、50式应龙、涉渊装备组和集成实训新增部件，可使用灼铜装备原件制造",
+            "ja": "装備：パルス式、流転、50式応龍、渡淵セット、集成訓練に新しい部位を追加。焔銅装備部品で製造できます",
+            "ko": "장비: 펄스식, 식양의 숨결, 응룡 50식, 절망 장비 세트, 통합 실전 훈련에 신규 부위 추가. 작동 장비 부품으로 제작할 수 있습니다"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Pase de protocolo: Pergamino de tinta: suministro de arma 6★ a elección (Tradición ancestral / Long Heritage o Industria compleja / Complexed Industry), tema del perfil Aspiración a las nubes, retrato Lung garabateado, marco Montañas de tinta y calcomanía Espíritu de tinta minimalista",
+            "en": "Protocol Pass: Ink Scroll: a 6★ Weapon of Choice Supply (Long Heritage or Complexed Industry), the Aspiration for the Clouds profile theme, the Doodled Lung portrait, the Ink Mountains portrait frame and the Minimalist Ink Spirit sticker",
+            "zh": "协议通行证「Ink Scroll」：6★武器自选（Long Heritage / Complexed Industry），以及名片主题、头像、头像框与贴纸等奖励",
+            "ja": "協約通行証「Ink Scroll」：★6武器の選択（Long Heritage / Complexed Industry）、テーマ、アイコン、フレーム、ステッカーなど",
+            "ko": "프로토콜 통행증 「Ink Scroll」: 6★ 무기 선택(Long Heritage / Complexed Industry), 명함 테마, 프로필, 프로필 프레임, 스티커 등"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Intercambio de Talosita: vinilo Bosque Nevado, poses para la cámara Si - Trazo etéreo, Argent Flow - Pasando el rato con una vieja amistad y Tangtang - EL OJO SUPREMO, y los dispositivos personales Pergaminos de cultivo de chi 4FT, 5FT y 6FT (en combates en Wuling recuperan Puntos de habilidad durante un rato al empezar). Decorativos nuevos: Nuli balancín, Lung junto al farol y Redistribución materializada. Paquete de colección de vistas maravillosas: tres calcomanías y un Permiso de C.R. certificada",
+            "en": "Talosite Exchange: the Snowy Forest vinyl, the camera poses Si - Wispy Stroke, Argent Flow - Idling With an Old Friend and Tangtang - EYE AM SUPREME, and the personal devices 4FT, 5FT and 6FT Qi Cultivation Scrolls (in Wuling battles they recover SP for a while after combat starts). New ornamentals: Rocking Nuli, Lung by the Lantern and Redistribution Made Manifest. Wondrous View Collection Pack: three stickers and one Chartered HH Permit",
+            "zh": "塔晶集换：新增唱片、拍照动作，以及武陵地区专属的随身装置（在武陵战斗开始后一段时间内持续回复技力，分4FT、5FT、6FT三档）。新增装饰物品3种。新礼包内含3张贴纸与1张特许寻访凭证",
+            "ja": "タロサイト交換：レコード、撮影ポーズ、武陵専用の携帯アイテム（武陵での戦闘開始後しばらくSPが回復、4FT・5FT・6FTの3段階）を追加。装飾品3種。新パックにはステッカー3枚と特別スカウト券1枚",
+            "ko": "탈로사이트 교환소: 음반, 촬영 포즈, 무릉 전용 휴대 장치(무릉 전투 시작 후 일정 시간 SP 회복, 4FT·5FT·6FT 3단계) 추가. 장식 아이템 3종. 새 패키지에는 스티커 3장과 특별 허가 헤드헌팅 허가증 1장"
+          }
+        },
+        {
+          "type": "fix",
+          "text": {
+            "es": "Equipamiento: Plan de equipamiento (guarda y nombra varios planes y cambia de equipamiento al instante) y pestaña Ensamblaje en Elaboración: lo marcado como «Buena coincidencia» sale primero, Llenado automático y se devuelve lo que no se usó",
+            "en": "Gear: Gear Plan (save and name several plans and switch loadouts instantly) and an Assembly tab in Artificing: \"Good Match\" pieces come first, Auto-Fill, and anything unused is returned",
+            "zh": "装备：新增【装备方案】，可保存多套方案并自定义命名、快速切换；装备精锻页面新增【待制造】分页，自动筛选可作为精锻消耗的装备，支持一键填充",
+            "ja": "装備：【装備案】を追加。複数の装備案を保存・命名してすばやく切り替えられます。精密加工画面に【製造待ち】タブが追加され、精密加工に使える装備を自動抽出、一括補充も可能",
+            "ko": "장비: [장비 프리셋] 추가(여러 프리셋 저장·이름 지정·빠른 전환). 장비 정밀 단조 화면에 [제작 대기 중] 탭이 추가되어 정밀 단조 재료로 쓸 수 있는 장비를 자동 선별하고 일괄 채우기 가능"
+          }
+        },
+        {
+          "type": "fix",
+          "text": {
+            "es": "Combate y calidad de vida: retícula para fijar objetivo con el botón central del mouse (PC), prioridad ajustable de los combos simultáneos en la pantalla de equipo, uso automático de los Medicamentos para la Cordura OTL que caducan (lo que sobra va a Extractores de Cordura), colocar instalaciones del CAI desde el depósito o con materiales sin cargarlas, mejoras en las entregas, turnos A y B en Dijiang, visitar al siguiente amigo, pistas de amigos en un clic, calcomanías que se escalan y rotan, mejor soporte para mando, hojas que reaccionan al movimiento y soporte para NVIDIA RTX Spark",
+            "en": "Combat and quality of life: a middle-mouse reticle for targeting (PC), adjustable priority for simultaneous combo skills in the Team screen, auto-use of expiring LTO Sanity Meds (the excess goes into Sanity Extractors), placing AIC facilities from the depot or with materials without carrying them, better goods deliveries, A and B shifts on Dijiang, visit the next friend, one-click friend clues, stickers you can scale and rotate, better controller support, leaves that react to movement and NVIDIA RTX Spark support",
+            "zh": "优化：限时理智药剂到期自动使用（超出上限的部分通过理智萃取器转化为理智精粹药剂）、PC端按住鼠标中键锁定敌人、同时触发的连携技可调整顺序、拍照贴纸支持缩放与旋转、满潜能6★干员的展示效果等",
+            "ja": "最適化：限定理性回復剤の期限切れ時の自動使用（上限を超えた分は理性抽出器で精粋理性回復剤に変換）、PCでのマウス中ボタンによるロックオン、同時に発動する連携技の順番調整、撮影ステッカーの拡大縮小・回転、潜在最大の★6オペレーターの表示演出など",
+            "ko": "최적화: 기간 한정 이성 약제 만료 시 자동사용(최대치를 넘는 부분은 이성 추출기로 이성 정수 약제로 전환), PC 마우스 휠 버튼 조준, 동시에 발동하는 연계 스킬 순서 조정, 촬영 스티커 확대·회전, 잠재 최대 6★ 오퍼레이터 표시 효과 등"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Arknights: Endfield llega a Steam el 15 de octubre, con sincronización de cuenta entre plataformas. Código ENDFIELDSTEAM: 8.000 T-Creds, 2 Elementary Cognitive Carrier, 2 Arms INSP Set y el marco Heat-Driven Cog (hasta el 25 nov, 23:59 hora del servidor)",
+            "en": "Arknights: Endfield comes to Steam on Oct. 15, with cross-platform account sync. Code ENDFIELDSTEAM: 8,000 T-Creds, 2 Elementary Cognitive Carriers, 2 Arms INSP Sets and the Heat-Driven Cog portrait frame (until Nov. 25, 23:59 server time)",
+            "zh": "《明日方舟：终末地》10月15日登陆Steam，支持跨平台账号数据同步。兑换码 ENDFIELDSTEAM：折金票×8,000、初级认知载体×2、武器检查套组×2、头像框（至11月25日23:59，服务器时间）",
+            "ja": "『アークナイツ：エンドフィールド』は10月15日にSteamで配信開始、プラットフォーム間のデータ連携に対応。引き換えコード ENDFIELDSTEAM：折金券×8,000、初級認識媒体×2、武器検査ボックス×2、フレーム（11月25日23:59まで、サーバー時間）",
+            "ko": "「명일방주: 엔드필드」가 10월 15일 Steam에 출시되며 플랫폼 간 계정 데이터 연동을 지원합니다. 교환 코드 ENDFIELDSTEAM: 탈로시안 화폐×8,000, 초급 인지 매개체×2, 무기 점검 세트×2, 프로필 프레임(11월 25일 23:59까지, 서버 시간)"
+          }
+        }
+      ]
+    },
+    {
       "id": "p15",
       "version": "1.5",
       "date": "2026-09-02",
@@ -1333,7 +1625,276 @@
   ],
   "gear": [
     {
+      "id": "g15",
+      "version": "1.6",
+      "date": "2026-10-15",
+      "title": {
+        "es": "Arma — Jade Vessel (Greatsword, 6★)",
+        "en": "Weapon — Jade Vessel (Greatsword, 6★)",
+        "zh": "武器 — 玉中身（双手剑，6★）",
+        "ja": "武器 — 玉中身（大剣、6★）",
+        "ko": "무기 — 옥에 깃든 형체(양손검, 6★)"
+      },
+      "tag": {
+        "es": "NUEVA",
+        "en": "NEW",
+        "zh": "新增",
+        "ja": "新登場",
+        "ko": "신규"
+      },
+      "img": "assets/weapons/wpn_claym_0018.webp",
+      "desc": {
+        "es": "Arma del Arsenal que acompaña al banner Rejuvenecimiento de Si: la Solicitud de Sello de jade abre tras la actualización y termina después de 3 banners de Caza de reclutas certificada. Rasgos de esencia: Intelecto, DAÑ criogénico y Eficacia. Stats y pasiva por confirmar: el material oficial no da números.",
+        "en": "The Arsenal weapon paired with Si's Rejuvenation banner: the Seal of Jade Issue opens after the update and ends after 3 Chartered Headhunting banners. Essence traits: Intellect, Cryo DMG and Efficacy. Stats and passive still to be confirmed: the official material gives no numbers.",
+        "zh": "与祀的卡池「万物更新」同期的武库申领「篆玉申领」，版本更新后开启，持续3个特许寻访。词条：智识提升、寒冷伤害提升、效益。数值与被动待确认。",
+        "ja": "スーのスカウト「万象一新」と同時の武庫申請「玉書・申請」。バージョン開始後から特別スカウト3回分開催。特性：知性UP、寒冷ダメージUP、効率。数値とパッシブは未確認。",
+        "ko": "사의 헤드헌팅 「만물의 재구성」과 함께 열리는 무기고 신청 「전옥 신청」. 버전 업데이트 후부터 특별 허가 헤드헌팅 3회 동안 진행. 특성: 지능 증가, 냉기 피해 증가, 효율. 수치와 패시브는 확인 예정."
+      },
+      "stats": [
+        {
+          "k": {
+            "es": "Tipo",
+            "en": "Type",
+            "zh": "类型",
+            "ja": "種類",
+            "ko": "유형"
+          },
+          "v": "Greatsword"
+        },
+        {
+          "k": {
+            "es": "Rareza",
+            "en": "Rarity",
+            "zh": "稀有度",
+            "ja": "レアリティ",
+            "ko": "희귀도"
+          },
+          "v": "6★"
+        },
+        {
+          "k": {
+            "es": "Origen",
+            "en": "Source",
+            "zh": "来源",
+            "ja": "入手先",
+            "ko": "출처"
+          },
+          "v": {
+            "es": "Solicitud de Sello de jade",
+            "en": "Seal of Jade Issue",
+            "zh": "篆玉申领",
+            "ja": "玉書・申請",
+            "ko": "전옥 신청"
+          }
+        }
+      ],
+      "chars": [
+        "Si"
+      ]
+    },
+    {
+      "id": "g16",
+      "version": "1.6",
+      "date": "2026-10-15",
+      "title": {
+        "es": "Arma — Lunar Calling (Sword, 6★)",
+        "en": "Weapon — Lunar Calling (Sword, 6★)",
+        "zh": "武器 — 唤月（单手剑，6★）",
+        "ja": "武器 — 問月（片手剣、6★）",
+        "ko": "무기 — 환월(한손검, 6★)"
+      },
+      "tag": {
+        "es": "NUEVA",
+        "en": "NEW",
+        "zh": "新增",
+        "ja": "新登場",
+        "ko": "신규"
+      },
+      "img": "assets/weapons/wpn_sword_0025.webp",
+      "desc": {
+        "es": "Arma del Arsenal que acompaña al banner de Argent Flow: la Solicitud de Resplandor lunar abre el 5 de noviembre de 2026 a las 12:00 (hora del servidor) y termina después de 3 banners de Caza de reclutas certificada. Rasgos de esencia: Aumento de Voluntad, Aumento de Ataque e Imposición. Stats y pasiva por confirmar.",
+        "en": "The Arsenal weapon paired with Argent Flow's banner: the Moongleam Issue opens on Nov. 5, 2026 at 12:00 (server time) and ends after 3 Chartered Headhunting banners. Essence traits: Will Boost, Attack Boost and Infliction. Stats and passive still to be confirmed.",
+        "zh": "与明河的卡池同期的武库申领「月映申领」，2026年11月5日12:00（服务器时间）开启，持续3个特许寻访。词条：意志提升、攻击提升、附术。数值与被动待确认。",
+        "ja": "ミンホのスカウトと同時の武庫申請「月映・申請」。2026年11月5日12:00（サーバー時間）から特別スカウト3回分開催。特性：意志UP、攻撃力UP、付術。数値とパッシブは未確認。",
+        "ko": "명하의 헤드헌팅과 함께 열리는 무기고 신청 「월영 신청」. 2026년 11월 5일 12:00(서버 시간)부터 특별 허가 헤드헌팅 3회 동안 진행. 특성: 의지 증가, 공격력 증가, 고통. 수치와 패시브는 확인 예정."
+      },
+      "stats": [
+        {
+          "k": {
+            "es": "Tipo",
+            "en": "Type",
+            "zh": "类型",
+            "ja": "種類",
+            "ko": "유형"
+          },
+          "v": "Sword"
+        },
+        {
+          "k": {
+            "es": "Rareza",
+            "en": "Rarity",
+            "zh": "稀有度",
+            "ja": "レアリティ",
+            "ko": "희귀도"
+          },
+          "v": "6★"
+        },
+        {
+          "k": {
+            "es": "Origen",
+            "en": "Source",
+            "zh": "来源",
+            "ja": "入手先",
+            "ko": "출처"
+          },
+          "v": {
+            "es": "Solicitud de Resplandor lunar",
+            "en": "Moongleam Issue",
+            "zh": "月映申领",
+            "ja": "月映・申請",
+            "ko": "월영 신청"
+          }
+        }
+      ],
+      "chars": [
+        "Argent Flow"
+      ]
+    },
+    {
+      "id": "g17",
+      "version": "1.6",
+      "date": "2026-10-15",
+      "title": {
+        "es": "Arma — Long Heritage (Greatsword, 6★)",
+        "en": "Weapon — Long Heritage (Greatsword, 6★)",
+        "zh": "武器 — Long Heritage（双手剑，6★）",
+        "ja": "武器 — Long Heritage（大剣、6★）",
+        "ko": "무기 — Long Heritage(양손검, 6★)"
+      },
+      "tag": {
+        "es": "NUEVA",
+        "en": "NEW",
+        "zh": "新增",
+        "ja": "新登場",
+        "ko": "신규"
+      },
+      "img": "assets/weapons/long_heritage.webp",
+      "desc": {
+        "es": "Una de las dos armas del suministro de arma 6★ a elección del Pase de protocolo: Pergamino de tinta. Rasgos de esencia: Intelecto, DAÑ criogénico y Eficacia. Stats y pasiva por confirmar.",
+        "en": "One of the two weapons in the 6★ Weapon of Choice Supply of Protocol Pass: Ink Scroll. Essence traits: Intellect, Cryo DMG and Efficacy. Stats and passive still to be confirmed.",
+        "zh": "协议通行证「Ink Scroll」6★武器自选的两把武器之一。词条：智识提升、寒冷伤害提升、效益（以官方图片为准）。数值与被动待确认。",
+        "ja": "協約通行証「Ink Scroll」の★6武器選択の1本。特性：知性UP、寒冷ダメージUP、効率（公式画像より）。数値とパッシブは未確認。",
+        "ko": "프로토콜 통행증 「Ink Scroll」 6★ 무기 선택 중 하나. 특성: 지능 증가, 냉기 피해 증가, 효율(공식 이미지 기준). 수치와 패시브는 확인 예정."
+      },
+      "stats": [
+        {
+          "k": {
+            "es": "Tipo",
+            "en": "Type",
+            "zh": "类型",
+            "ja": "種類",
+            "ko": "유형"
+          },
+          "v": "Greatsword"
+        },
+        {
+          "k": {
+            "es": "Rareza",
+            "en": "Rarity",
+            "zh": "稀有度",
+            "ja": "レアリティ",
+            "ko": "희귀도"
+          },
+          "v": "6★"
+        },
+        {
+          "k": {
+            "es": "Origen",
+            "en": "Source",
+            "zh": "来源",
+            "ja": "入手先",
+            "ko": "출처"
+          },
+          "v": {
+            "es": "Pase de protocolo: Pergamino de tinta",
+            "en": "Protocol Pass: Ink Scroll",
+            "zh": "协议通行证「Ink Scroll」",
+            "ja": "協約通行証「Ink Scroll」",
+            "ko": "프로토콜 통행증 「Ink Scroll」"
+          }
+        }
+      ],
+      "chars": []
+    },
+    {
+      "id": "g18",
+      "version": "1.6",
+      "date": "2026-10-15",
+      "title": {
+        "es": "Arma — Complexed Industry (Sword, 6★)",
+        "en": "Weapon — Complexed Industry (Sword, 6★)",
+        "zh": "武器 — Complexed Industry（单手剑，6★）",
+        "ja": "武器 — Complexed Industry（片手剣、6★）",
+        "ko": "무기 — Complexed Industry(한손검, 6★)"
+      },
+      "tag": {
+        "es": "NUEVA",
+        "en": "NEW",
+        "zh": "新增",
+        "ja": "新登場",
+        "ko": "신규"
+      },
+      "img": "assets/weapons/complexed_industry.webp",
+      "desc": {
+        "es": "La otra arma del suministro de arma 6★ a elección del Pase de protocolo: Pergamino de tinta. Rasgos de esencia: Voluntad, DAÑ eléctrico y Detonación. Stats y pasiva por confirmar.",
+        "en": "The other weapon in the 6★ Weapon of Choice Supply of Protocol Pass: Ink Scroll. Essence traits: Will, Electric DMG and Detonate. Stats and passive still to be confirmed.",
+        "zh": "协议通行证「Ink Scroll」6★武器自选的另一把武器。词条：意志提升、电磁伤害提升、迸发（以官方图片为准）。数值与被动待确认。",
+        "ja": "協約通行証「Ink Scroll」の★6武器選択のもう1本。特性：意志UP、電磁ダメージUP、噴発（公式画像より）。数値とパッシブは未確認。",
+        "ko": "프로토콜 통행증 「Ink Scroll」 6★ 무기 선택의 다른 하나. 특성: 의지 증가, 전기 피해 증가, 방출(공식 이미지 기준). 수치와 패시브는 확인 예정."
+      },
+      "stats": [
+        {
+          "k": {
+            "es": "Tipo",
+            "en": "Type",
+            "zh": "类型",
+            "ja": "種類",
+            "ko": "유형"
+          },
+          "v": "Sword"
+        },
+        {
+          "k": {
+            "es": "Rareza",
+            "en": "Rarity",
+            "zh": "稀有度",
+            "ja": "レアリティ",
+            "ko": "희귀도"
+          },
+          "v": "6★"
+        },
+        {
+          "k": {
+            "es": "Origen",
+            "en": "Source",
+            "zh": "来源",
+            "ja": "入手先",
+            "ko": "출처"
+          },
+          "v": {
+            "es": "Pase de protocolo: Pergamino de tinta",
+            "en": "Protocol Pass: Ink Scroll",
+            "zh": "协议通行证「Ink Scroll」",
+            "ja": "協約通行証「Ink Scroll」",
+            "ko": "프로토콜 통행증 「Ink Scroll」"
+          }
+        }
+      ],
+      "chars": []
+    },
+    {
       "id": "g10",
+      "version": "1.5",
       "date": "2026-09-02",
       "title": {
         "es": "Arma — Umbra of Frigid Eventide (Arts Unit, 6★)",
@@ -1401,6 +1962,7 @@
     },
     {
       "id": "g11",
+      "version": "1.5",
       "date": "2026-09-02",
       "title": {
         "es": "Arma — Artzy Tyrannical (6★)",
@@ -1472,6 +2034,7 @@
     },
     {
       "id": "g12",
+      "version": "1.5",
       "date": "2026-09-02",
       "title": {
         "es": "Arma — Dessert Moment (Sword, 5★)",
@@ -1539,6 +2102,7 @@
     },
     {
       "id": "g13",
+      "version": "1.5",
       "date": "2026-09-02",
       "title": {
         "es": "Arma — Suffering's End (Arts Unit, 6★)",
@@ -1604,6 +2168,8 @@
     },
     {
       "id": "g14",
+      "version": "1.5",
+      "set": "Deep Rampart",
       "date": "2026-09-02",
       "title": {
         "es": "Set — Deep Rampart Gear Pack",
@@ -1621,11 +2187,11 @@
       },
       "img": "assets/gear/deep_rampart_armor.webp",
       "desc": {
-        "es": "Set de gear nuevo de la 1.5. En la misma versión actualizan piezas de Tide Surge, Eternal Xiranite y AIC Fieldwork, y los templates de AIC Fieldwork se consiguen apenas llegas a Wuling tras actualizar. Piezas y stats por confirmar.",
-        "en": "New gear set in 1.5. The same version updates pieces of Tide Surge, Eternal Xiranite and AIC Fieldwork, and the AIC Fieldwork templates become available as soon as you reach Wuling after the update. Pieces and stats still to be confirmed.",
-        "zh": "1.5 的新装备套装。同版本更新了满潮、流转和集成训练的部件，更新后一到武陵即可获得集成训练模板。部件和属性待确认。",
-        "ja": "1.5 の新しい装備セット。同じバージョンで満潮、流転、集成訓練の部位も更新され、集成訓練のテンプレートは更新後に武陵へ着くとすぐ入手できます。部位とステータスは未確認。",
-        "ko": "1.5의 새 장비 세트. 같은 버전에서 만조·유전·통합 훈련의 부위도 갱신되며, 통합 훈련 템플릿은 업데이트 후 무릉에 도착하면 바로 얻을 수 있습니다. 부위와 스탯은 확인 예정."
+        "es": "Set de gear nuevo de la 1.5. En la misma versión actualizan piezas de Tide Surge, Eternal Xiranite y AIC Fieldwork, y los templates de AIC Fieldwork se consiguen apenas llegas a Wuling tras actualizar.",
+        "en": "New gear set in 1.5. The same version updates pieces of Tide Surge, Eternal Xiranite and AIC Fieldwork, and the AIC Fieldwork templates become available as soon as you reach Wuling after the update.",
+        "zh": "1.5 的新装备套装。同版本更新了满潮、流转和集成训练的部件，更新后一到武陵即可获得集成训练模板。",
+        "ja": "1.5 の新しい装備セット。同じバージョンで満潮、流転、集成訓練の部位も更新され、集成訓練のテンプレートは更新後に武陵へ着くとすぐ入手できます。",
+        "ko": "1.5의 새 장비 세트. 같은 버전에서 만조·유전·통합 훈련의 부위도 갱신되며, 통합 훈련 템플릿은 업데이트 후 무릉에 도착하면 바로 얻을 수 있습니다."
       },
       "stats": [
         {
@@ -1662,516 +2228,731 @@
         }
       ],
       "chars": []
-    },
-    {
-      "id": "g7",
-      "date": "2026-07-16",
-      "title": {
-        "es": "Arma — Type 42: Solemn Phalanx (Arts Unit, 6★)",
-        "en": "Weapon — Type 42: Solemn Phalanx (Arts Unit, 6★)",
-        "zh": "武器 — 四二式·肃阵（施术单元，6★）",
-        "ja": "武器 — 四二式・粛陣（アーツユニット、6★）",
-        "ko": "무기 — 42식 · 척결(아츠 유닛, 6★)"
-      },
-      "tag": {
-        "es": "PRÓXIMO",
-        "en": "UPCOMING",
-        "zh": "即将推出",
-        "ja": "近日登場",
-        "ko": "출시 예정"
-      },
-      "img": "assets/weapons/wpn_funnel_0016.webp",
-      "desc": {
-        "es": "Arma BIS de Arcane. Disponible en el banner de armas Military Grade Issue desde el 16 de julio, junto al banner North Yearns the Rift Vigile (Fase 1 de la v1.4).",
-        "en": "Arcane's BIS weapon. Available on the Military Grade Issue weapon banner from July 16, alongside the North Yearns the Rift Vigile banner (v1.4 Phase 1).",
-        "zh": "诀的 BIS 武器。7月16日起在武库申领「军规兑换」获取，与「北望裂隙的守夜人」卡池同期（1.4 一期）。",
-        "ja": "オクギの BIS 武器。7月16日から武庫申請「軍用」で入手でき、「北の裂け目を望む守り手」バナーと同時開催（v1.4 第1弾）。",
-        "ko": "결의 BIS 무기. 7월 16일부터 군용 무기고 신청에서 얻을 수 있으며 「북쪽 균열을 바라보는 파수꾼」 배너와 함께 진행(v1.4 1주차)."
-      },
-      "stats": [
-        {
-          "k": {
-            "es": "Tipo",
-            "en": "Type",
-            "zh": "类型",
-            "ja": "種類",
-            "ko": "유형"
-          },
-          "v": "Arts Unit"
-        },
-        {
-          "k": {
-            "es": "Rareza",
-            "en": "Rarity",
-            "zh": "稀有度",
-            "ja": "レアリティ",
-            "ko": "희귀도"
-          },
-          "v": "6★"
-        },
-        {
-          "k": {
-            "es": "Banner",
-            "en": "Banner",
-            "zh": "卡池",
-            "ja": "バナー",
-            "ko": "배너"
-          },
-          "v": {
-            "es": "Military Grade Issue",
-            "en": "Military Grade Issue",
-            "zh": "军列申领",
-            "ja": "戦列・申請",
-            "ko": "제대 신청"
-          }
-        }
-      ],
-      "chars": [
-        "Arcane"
-      ]
-    },
-    {
-      "id": "g8",
-      "date": "2026-08-09",
-      "title": {
-        "es": "Arma — Bedazzling Night Debut (Polearm, 6★)",
-        "en": "Weapon — Bedazzling Night Debut (Polearm, 6★)",
-        "zh": "武器 — 曜夜的首演（长柄武器，6★）",
-        "ja": "武器 — プリズムナイトデビュー（長柄武器、6★）",
-        "ko": "무기 — 찬란한 밤의 데뷔(장병기, 6★)"
-      },
-      "tag": {
-        "es": "PRÓXIMO",
-        "en": "UPCOMING",
-        "zh": "即将推出",
-        "ja": "近日登場",
-        "ko": "출시 예정"
-      },
-      "img": "",
-      "desc": {
-        "es": "Arma BIS de Liino. Disponible en el banner de armas Bedazzled Issue desde el 9 de agosto, junto al banner Good Morning from Your Dawnstar (Fase 2 de la v1.4).",
-        "en": "Liino's BIS weapon. Available on the Bedazzled Issue weapon banner from August 9, alongside the Good Morning from Your Dawnstar banner (v1.4 Phase 2).",
-        "zh": "梨诺的 BIS 武器。8月9日起在武库申领「炫目兑换」获取，与「来自你的启明星的早安」卡池同期（1.4 二期）。",
-        "ja": "リーノの BIS 武器。8月9日から武庫申請「眩惑」で入手でき、「あなたの明けの明星からおはよう」バナーと同時開催（v1.4 第2弾）。",
-        "ko": "리노의 BIS 무기. 8월 9일부터 현혹 무기고 신청에서 얻을 수 있으며 「당신의 샛별이 전하는 아침 인사」 배너와 함께 진행(v1.4 2주차)."
-      },
-      "stats": [
-        {
-          "k": {
-            "es": "Tipo",
-            "en": "Type",
-            "zh": "类型",
-            "ja": "種類",
-            "ko": "유형"
-          },
-          "v": "Polearm"
-        },
-        {
-          "k": {
-            "es": "Rareza",
-            "en": "Rarity",
-            "zh": "稀有度",
-            "ja": "レアリティ",
-            "ko": "희귀도"
-          },
-          "v": "6★"
-        },
-        {
-          "k": {
-            "es": "Banner",
-            "en": "Banner",
-            "zh": "卡池",
-            "ja": "バナー",
-            "ko": "배너"
-          },
-          "v": {
-            "es": "Bedazzled Issue",
-            "en": "Bedazzled Issue",
-            "zh": "明曜申领",
-            "ja": "明星・申請",
-            "ko": "찬란 신청"
-          }
-        }
-      ],
-      "chars": [
-        "Liino"
-      ]
-    },
-    {
-      "id": "g9",
-      "date": "2026-07-16",
-      "title": {
-        "es": "Arma — Farsight (Sword, 6★) — GRATIS",
-        "en": "Weapon — Farsight (Sword, 6★) — FREE",
-        "zh": "武器 — 遥望（单手剑，6★）— 免费",
-        "ja": "武器 — ファーサイト（片手剣、6★）— 無料",
-        "ko": "무기 — 조망(한손검, 6★) — 무료"
-      },
-      "tag": {
-        "es": "GRATIS",
-        "en": "FREE",
-        "zh": "免费",
-        "ja": "無料",
-        "ko": "무료"
-      },
-      "img": "assets/weapons/wpn_sword_0026.webp",
-      "desc": {
-        "es": "Espada 6★ de regalo por la Celebración del Compañerismo (medio año). Se obtiene iniciando sesión durante el evento de 3 días Tribute of Companionship, que además reparte 3000 Oroberyl (día 1) y 5 Basic Headhunting Permits (día 2).",
-        "en": "Free 6★ sword for the half-year Companionship Celebration. Earned by logging in during the 3-day Tribute of Companionship event, which also hands out 3,000 Oroberyl (day 1) and 5 Basic Headhunting Permits (day 2).",
-        "zh": "半周年「伙伴庆典」的免费6★单手剑。在为期3天的「相伴赠礼」活动中登录即可获得，活动还赠送3,000嵌晶玉（第1天）和5张基础寻访凭证（第2天）。",
-        "ja": "半周年「仲間の祝典」の無料6★片手剣。3日間のイベント「絆の特典」にログインすれば入手でき、3,000赤晶玉（1日目）と通常スカウト券5枚（2日目）ももらえます。",
-        "ko": "반주년 「동료의 축전」의 무료 6★ 한손검. 3일간의 「인연의 선물」 이벤트에 로그인하면 얻을 수 있으며, 3,000 오로베릴(1일차)과 기초 헤드헌팅 허가증 5장(2일차)도 줍니다."
-      },
-      "stats": [
-        {
-          "k": {
-            "es": "Tipo",
-            "en": "Type",
-            "zh": "类型",
-            "ja": "種類",
-            "ko": "유형"
-          },
-          "v": "Sword"
-        },
-        {
-          "k": {
-            "es": "Rareza",
-            "en": "Rarity",
-            "zh": "稀有度",
-            "ja": "レアリティ",
-            "ko": "희귀도"
-          },
-          "v": "6★"
-        },
-        {
-          "k": {
-            "es": "Cómo se obtiene",
-            "en": "How to get",
-            "zh": "获取方式",
-            "ja": "入手方法",
-            "ko": "획득 방법"
-          },
-          "v": {
-            "es": "Tribute of Companionship",
-            "en": "Tribute of Companionship",
-            "zh": "相伴赠礼",
-            "ja": "絆の特典",
-            "ko": "인연의 선물"
-          }
-        }
-      ],
-      "chars": []
-    },
-    {
-      "id": "g5",
-      "date": "2026-06-05",
-      "title": {
-        "es": "Arma — Amaranthine Tassel (Greatsword, 6★)",
-        "en": "Weapon — Amaranthine Tassel (Greatsword, 6★)",
-        "zh": "武器 — 赤缨（双手剑，6★）",
-        "ja": "武器 — 赤纓（大剣、6★）",
-        "ko": "무기 — 적영(양손검, 6★)"
-      },
-      "tag": {
-        "es": "NEW",
-        "en": "NEW",
-        "zh": "新",
-        "ja": "NEW",
-        "ko": "신규"
-      },
-      "img": "assets/weapons/wpn_claym_0017.webp",
-      "desc": {
-        "es": "Arma BIS de Mi Fu. Hecha a su medida: stat principal de Strength más una línea de Attack Boost, ambas suben directamente todo su daño. Disponible en el banner de armas de la Fase 1 de la v1.3 (junto al banner de Mi Fu). Pity blando en pull 65; pity duro en 80.",
-        "en": "Mi Fu's BIS weapon. Tailor-made for her: a Strength main stat plus an Attack Boost line, both directly raising all her damage. Available on the v1.3 Phase 1 weapon banner (alongside Mi Fu's banner). Soft pity at pull 65; guaranteed at pull 80.",
-        "zh": "弭弗的 BIS 武器。为她量身打造：力量主属性加攻击提升词条，两者都直接提升她的全部伤害。在1.3 一期武库申领获取（与弭弗卡池同期）。第65抽软保底；80抽必得。",
-        "ja": "ミ・フの BIS 武器。ミ・フ専用のあつらえ：筋力のメインステータスに攻撃力アップの効果が付き、どちらも全ダメージを直接上げます。v1.3 第1弾の武庫申請（ミ・フのバナーと同時）で入手。65連から天井緩和、80連で確定。",
-        "ko": "미브의 BIS 무기. 그녀에게 맞춘 구성으로, 힘 주 스탯에 공격력 증가 옵션이 붙어 둘 다 모든 피해를 직접 올립니다. v1.3 1주차 무기고 신청(미브 배너와 동시)에서 획득. 65뽑기 천장 완화, 80뽑기 확정."
-      },
-      "stats": [
-        {
-          "k": {
-            "es": "Tipo",
-            "en": "Type",
-            "zh": "类型",
-            "ja": "種類",
-            "ko": "유형"
-          },
-          "v": "Greatsword"
-        },
-        {
-          "k": {
-            "es": "Rareza",
-            "en": "Rarity",
-            "zh": "稀有度",
-            "ja": "レアリティ",
-            "ko": "희귀도"
-          },
-          "v": "6★"
-        },
-        {
-          "k": {
-            "es": "Stat principal",
-            "en": "Main stat",
-            "zh": "主属性",
-            "ja": "メインステータス",
-            "ko": "주 스탯"
-          },
-          "v": "Strength"
-        }
-      ],
-      "chars": [
-        "Mi Fu"
-      ]
-    },
-    {
-      "id": "g6",
-      "date": "2026-06-26",
-      "title": {
-        "es": "Arma — Beacon of Duty (Polearm, 6★)",
-        "en": "Weapon — Beacon of Duty (Polearm, 6★)",
-        "zh": "武器 — 灯火使命（长柄武器，6★）",
-        "ja": "武器 — 灯火の使命（長柄武器、6★）",
-        "ko": "무기 — 등불의 사명(장병기, 6★)"
-      },
-      "tag": {
-        "es": "PRÓXIMO",
-        "en": "UPCOMING",
-        "zh": "即将推出",
-        "ja": "近日登場",
-        "ko": "출시 예정"
-      },
-      "img": "assets/weapons/wpn_lance_0007.webp",
-      "desc": {
-        "es": "Arma BIS de Camille. Pensada para sus necesidades: Agility, Heat DMG y Flow. Disponible en el banner de armas de la Fase 2 de la v1.3 a partir del 26 de junio.",
-        "en": "Camille's BIS weapon. Built around his needs: Agility, Heat DMG and Flow. Available on the v1.3 Phase 2 weapon banner from June 26.",
-        "zh": "卡缪的 BIS 武器。围绕他的需求打造：敏捷、灼热伤害和流动。6月26日起在1.3 二期武库申领获取。",
-        "ja": "カミーユの BIS 武器。カミーユの要求に合わせた構成：敏捷、灼熱ダメージ、フロー。6月26日から v1.3 第2弾の武庫申請で入手。",
-        "ko": "카뮤의 BIS 무기. 카뮤의 요구에 맞춘 구성: 민첩, 열기 피해, 흐름. 6월 26일부터 v1.3 2주차 무기고 신청에서 획득."
-      },
-      "stats": [
-        {
-          "k": {
-            "es": "Tipo",
-            "en": "Type",
-            "zh": "类型",
-            "ja": "種類",
-            "ko": "유형"
-          },
-          "v": "Polearm"
-        },
-        {
-          "k": {
-            "es": "Rareza",
-            "en": "Rarity",
-            "zh": "稀有度",
-            "ja": "レアリティ",
-            "ko": "희귀도"
-          },
-          "v": "6★"
-        },
-        {
-          "k": {
-            "es": "Disponible desde",
-            "en": "Available from",
-            "zh": "起始日期",
-            "ja": "入手開始",
-            "ko": "획득 시작"
-          },
-          "v": "26/06/2026"
-        }
-      ],
-      "chars": [
-        "Camille"
-      ]
-    },
-    {
-      "id": "g1",
-      "date": "2026-04-17",
-      "title": {
-        "es": "Arma — Lone Barge (Arts Unit, 6★)",
-        "en": "Weapon — Lone Barge (Arts Unit, 6★)",
-        "zh": "武器 — 孤舟（施术单元，6★）",
-        "ja": "武器 — 孤舟（アーツユニット、6★）",
-        "ko": "무기 — 고독한 나룻배(아츠 유닛, 6★)"
-      },
-      "tag": {
-        "es": "",
-        "en": ""
-      },
-      "img": "assets/weapons/wpn_funnel_0015.webp",
-      "desc": {
-        "es": "Arma BIS de Zhuang Fangyi. Disponible en el banner Drifting Raft Issue desde el 17 de abril hasta que transcurran 3 banners de Chartered Headhunting (contando desde Thunder of Renewal). Pity blando en pull 65; pity duro en 80.",
-        "en": "Zhuang Fangyi's BIS weapon. Available on the Drifting Raft Issue banner from April 17, lasting three Chartered Headhunting banners from Thunder of Renewal. Soft pity at pull 65; guaranteed at pull 80.",
-        "zh": "庄方宜的 BIS 武器。4月17日起在武库申领「漂流筏兑换」获取，从「新生之雷」起持续三个特许寻访卡池。第65抽软保底；80抽必得。",
-        "ja": "ゾアン・ファンイの BIS 武器。4月17日から武庫申請「漂流の筏」で入手でき、「新生の雷」から3つの特別スカウトにわたって続きます。65連から天井緩和、80連で確定。",
-        "ko": "장방이의 BIS 무기. 4월 17일부터 「표류 뗏목」 무기고 신청에서 얻을 수 있으며, 「재생의 천둥」부터 특허 헤드헌팅 배너 세 개 동안 지속됩니다. 65뽑기 천장 완화, 80뽑기 확정."
-      },
-      "stats": [
-        {
-          "k": {
-            "es": "Tipo",
-            "en": "Type",
-            "zh": "类型",
-            "ja": "種類",
-            "ko": "유형"
-          },
-          "v": "Arts Unit"
-        },
-        {
-          "k": {
-            "es": "Rareza",
-            "en": "Rarity",
-            "zh": "稀有度",
-            "ja": "レアリティ",
-            "ko": "희귀도"
-          },
-          "v": "6★"
-        },
-        {
-          "k": {
-            "es": "Banner",
-            "en": "Banner",
-            "zh": "卡池",
-            "ja": "バナー",
-            "ko": "배너"
-          },
-          "v": {
-            "es": "Drifting Raft Issue",
-            "en": "Drifting Raft Issue",
-            "zh": "行舟申领",
-            "ja": "行舟・申請",
-            "ko": "항해 신청"
-          }
-        }
-      ],
-      "chars": [
-        "Zhuang Fangyi"
-      ]
-    },
-    {
-      "id": "g2",
-      "date": "2026-03-29",
-      "title": {
-        "es": "Arma — Lupine Scarlet (Sword, 6★)",
-        "en": "Weapon — Lupine Scarlet (Sword, 6★)",
-        "zh": "武器 — 狼之绯（单手剑，6★）",
-        "ja": "武器 — 狼緋（片手剣、6★）",
-        "ko": "무기 — 늑대의 혈흔(한손검, 6★)"
-      },
-      "tag": {
-        "es": "",
-        "en": ""
-      },
-      "img": "assets/weapons/wpn_sword_0022.webp",
-      "desc": {
-        "es": "Arma BIS de Rossi. Disponible en el banner Scarlet Pearl Issue desde el 29 de marzo. Dura 3 banners de Chartered Headhunting contando desde el banner de Rossi.",
-        "en": "Rossi's BIS weapon. Available on the Scarlet Pearl Issue banner from March 29. Lasts 3 Chartered Headhunting banners from Rossi's banner.",
-        "zh": "洛茜的 BIS 武器。3月29日起在武库申领「猩红之珠兑换」获取。从洛茜的卡池起持续3个特许寻访卡池。",
-        "ja": "ロッシの BIS 武器。3月29日から武庫申請「緋色の真珠」で入手可能。ロッシのバナーから3つの特別スカウトにわたって続きます。",
-        "ko": "로시의 BIS 무기. 3월 29일부터 「진홍의 진주」 무기고 신청에서 획득 가능. 로시의 배너부터 특허 헤드헌팅 배너 세 개 동안 지속됩니다."
-      },
-      "stats": [
-        {
-          "k": {
-            "es": "Tipo",
-            "en": "Type",
-            "zh": "类型",
-            "ja": "種類",
-            "ko": "유형"
-          },
-          "v": "Sword"
-        },
-        {
-          "k": {
-            "es": "Rareza",
-            "en": "Rarity",
-            "zh": "稀有度",
-            "ja": "レアリティ",
-            "ko": "희귀도"
-          },
-          "v": "6★"
-        },
-        {
-          "k": {
-            "es": "Banner",
-            "en": "Banner",
-            "zh": "卡池",
-            "ja": "バナー",
-            "ko": "배너"
-          },
-          "v": {
-            "es": "Scarlet Pearl Issue",
-            "en": "Scarlet Pearl Issue",
-            "zh": "绯珀申领",
-            "ja": "緋珀・申請",
-            "ko": "적옥 신청"
-          }
-        }
-      ],
-      "chars": [
-        "Rossi"
-      ]
-    },
-    {
-      "id": "g4",
-      "date": "2026-03-12",
-      "title": {
-        "es": "Arma — Brigand's Calling (Handcannon, 6★)",
-        "en": "Weapon — Brigand's Calling (Handcannon, 6★)",
-        "zh": "武器 — 落草（手铳，6★）",
-        "ja": "武器 — 落草（拳銃、6★）",
-        "ko": "무기 — 반항(권총, 6★)"
-      },
-      "tag": {
-        "es": "",
-        "en": ""
-      },
-      "img": "assets/weapons/wpn_pistol_0011.webp",
-      "desc": {
-        "es": "Arma BIS de Tangtang. Disponible en el banner Budding Anew Issue desde el 12 de marzo hasta el 22 de mayo de 2026 (3 banners de Chartered Headhunting desde el banner de Tangtang).",
-        "en": "Tangtang's BIS weapon. Available on the Budding Anew Issue banner from March 12 to May 22, 2026 (three Chartered Headhunting banners after Tangtang's banner).",
-        "zh": "汤汤的 BIS 武器。2026年3月12日至5月22日在武库申领「萌芽新生兑换」获取（汤汤卡池之后的三个特许寻访卡池）。",
-        "ja": "タンタンの BIS 武器。2026年3月12日から5月22日まで武庫申請「芽吹きの新生」で入手可能（タンタンのバナー後の特別スカウト3つ分）。",
-        "ko": "탕탕의 BIS 무기. 2026년 3월 12일부터 5월 22일까지 「새싹의 재생」 무기고 신청에서 획득 가능(탕탕 배너 이후 특허 헤드헌팅 배너 세 개 동안)."
-      },
-      "stats": [
-        {
-          "k": {
-            "es": "Tipo",
-            "en": "Type",
-            "zh": "类型",
-            "ja": "種類",
-            "ko": "유형"
-          },
-          "v": "Handcannon"
-        },
-        {
-          "k": {
-            "es": "Rareza",
-            "en": "Rarity",
-            "zh": "稀有度",
-            "ja": "レアリティ",
-            "ko": "희귀도"
-          },
-          "v": "6★"
-        },
-        {
-          "k": {
-            "es": "Disponible hasta",
-            "en": "Available until",
-            "zh": "截止日期",
-            "ja": "入手期限",
-            "ko": "획득 기한"
-          },
-          "v": "22/05/2026"
-        }
-      ],
-      "chars": [
-        "Tangtang"
-      ]
     }
   ],
   "events": [
+    {
+      "id": "ev34",
+      "title": {
+        "es": "Todos los matices de tinta",
+        "en": "All the Inky Hues",
+        "zh": "墨分诸彩",
+        "ja": "墨に彩あり",
+        "ko": "먹에서 피어난 색채"
+      },
+      "tag": {
+        "es": "EVENTO DE GUÍA",
+        "en": "GUIDE EVENT",
+        "zh": "引入活动",
+        "ja": "案内イベント",
+        "ko": "기념 이벤트"
+      },
+      "dateStart": "2026-10-15",
+      "dateEnd": "2026-11-05",
+      "desc": {
+        "es": "Evento de guía desde la actualización de la versión hasta el 5 de noviembre de 2026 a las 12:00 (hora del servidor). Durante el evento visitas la zona Pintura de Si, en la región de Wuling, y completas misiones del evento, como desbloquear Puntos de TP y abrir cajas protocolares.",
+        "en": "Guide event from the version update until Nov. 5, 2026 at 12:00 (server time). During the event you visit the area Si's Painting, in the Wuling region, and complete event missions such as unlocking TP Points and opening Protocol Crates.",
+        "zh": "引入活动，「丹青渡」版本更新后至2026年11月5日12:00（服务器时间）。一笔丹青，诸彩分明。活动期间可前往武陵地区的「祀的画」，完成活动任务获取奖励。",
+        "ja": "案内イベント。バージョン「丹青渡」開始後～2026年11月5日12:00（サーバー時間）。ひと筆に宿る彩。イベント期間中、武陵地域の「スーの絵」を訪れてイベント任務を達成すると報酬を獲得できます。",
+        "ko": "기념 이벤트로, 「단청도」 버전 업데이트 후부터 2026년 11월 5일 12:00(서버 시간)까지 진행됩니다. 이벤트 기간 동안 무릉 지역의 「사의 그림」을 방문해 이벤트 임무를 완료하면 보상을 얻을 수 있습니다."
+      },
+      "rewards": {
+        "es": [
+          "Oroberyl ×1200",
+          "Mark of Perseverance ×7"
+        ],
+        "en": [
+          "Oroberyl ×1200",
+          "Mark of Perseverance ×7"
+        ],
+        "zh": [
+          "嵌晶玉×1200",
+          "存续的痕迹×7"
+        ],
+        "ja": [
+          "赤晶玉×1,200",
+          "存続の痕跡×7"
+        ],
+        "ko": [
+          "오로베릴×1,200",
+          "존속의 흔적×7"
+        ]
+      }
+    },
+    {
+      "id": "ev35",
+      "title": {
+        "es": "Fogones ardientes de Yuanyuan",
+        "en": "Yuanyuan's Blazing Stoves",
+        "zh": "烟火生缘",
+        "ja": "俗世の縁",
+        "ko": "불꽃으로 맺은 인연"
+      },
+      "tag": {
+        "es": "DIVERSIÓN Y JUEGOS",
+        "en": "FUN & GAMES EVENT",
+        "zh": "趣味活动",
+        "ja": "レジャーイベント",
+        "ko": "흥미 이벤트"
+      },
+      "dateStart": "2026-10-15",
+      "dateEnd": "2026-11-25",
+      "desc": {
+        "es": "Modo permanente con misiones de gestión por tiempo limitado: las misiones duran desde la actualización hasta el mantenimiento de la próxima versión y después el modo sigue disponible. Administras una posada en la Mansión Yuanyuan: preparas platillos, ganas Dinero de Espíritu, subes de estrellas, amplías la granja y los corrales y desbloqueas temas y recetas. Estrena el Autoagricultor y la vista superior para los terrenos.",
+        "en": "A permanent mode with limited-time innkeeping missions: the missions run from the update until the next version update maintenance, and the mode stays available afterwards. You run an inn at Yuanyuan Manor: cook dishes, earn Spirit Money, raise your star rating, expand the farmland and pens, and unlock themes and recipes. It debuts the Auto-Farmer and a top view for plots.",
+        "zh": "该常驻玩法包含限时经营任务，任务过期后将无法参与，玩法仍可继续体验。缘缘庄中灶火正旺，几缕烟火气，几响红尘声。锅碗瓢盆间、柴米油盐里的缘分，来尝尝吗，管理员？",
+        "ja": "本常時開放コンテンツには期間限定の営業クエストが含まれています。開催期間終了後、クエストには参加できなくなりますが、コンテンツ自体は引き続きプレイできます。縁縁荘は今日も大にぎわい。食卓を囲むひとときが、人と人の縁を紡いでいく。",
+        "ko": "이 상시 콘텐츠에는 기간 한정 운영 임무가 포함되어 있습니다. 기간이 종료되면 해당 임무에는 참여할 수 없지만, 콘텐츠는 계속 즐길 수 있습니다. 인연 마을의 불은 활활 타오르고, 자욱한 연기와 사람들의 웃음소리가 피어납니다."
+      },
+      "rewards": {
+        "es": [
+          "Oroberyl ×1000",
+          "Mark of Perseverance",
+          "Advanced Cognitive Carrier",
+          "Arms INSP Set"
+        ],
+        "en": [
+          "Oroberyl ×1000",
+          "Mark of Perseverance",
+          "Advanced Cognitive Carrier",
+          "Arms INSP Set"
+        ],
+        "zh": [
+          "嵌晶玉×1000",
+          "存续的痕迹",
+          "高级认知载体",
+          "武器检查套组"
+        ],
+        "ja": [
+          "赤晶玉×1,000",
+          "存続の痕跡",
+          "上級認識媒体",
+          "武器検査ボックス"
+        ],
+        "ko": [
+          "오로베릴×1,000",
+          "존속의 흔적",
+          "고급 인지 매개체",
+          "무기 점검 세트"
+        ]
+      }
+    },
+    {
+      "id": "ev36",
+      "title": {
+        "es": "Restauración del espíritu",
+        "en": "Spirit's Restoration",
+        "zh": "Spirit's Restoration",
+        "ja": "Spirit's Restoration",
+        "ko": "Spirit's Restoration"
+      },
+      "tag": {
+        "es": "INICIO DE SESIÓN",
+        "en": "SIGN-IN",
+        "zh": "签到",
+        "ja": "スタンプラリー",
+        "ko": "출석 체크"
+      },
+      "dateStart": "2026-10-15",
+      "dateEnd": "",
+      "desc": {
+        "es": "Inicio de sesión de 7 días que abre junto con el banner Rejuvenecimiento de Si. Si entras y lo completas, recibes 5 Permisos de C.R. OTL para ese banner y otras recompensas; la Cuota del CAI del Centro de adquisición suma 5 permisos más. Fecha de cierre por confirmar.",
+        "en": "A 7-day sign-in that opens alongside Si's Rejuvenation banner. Log in and complete it to get 5 LTO HH Permits for that banner plus other rewards; the AIC Quota in the Acquisition Center adds 5 more permits. Closing date to be confirmed.",
+        "zh": "与祀的卡池「万物更新」同期开启的7日签到。登录并完成签到可领取该卡池的寻访凭证×5等奖励；采购中心的集成配额中也可兑换5张。结束时间待公布。",
+        "ja": "スーのスカウト「万象一新」と同時に始まる7日間スタンプラリー。ログインしてスタンプを集めると、このスカウトのスカウト券×5などを獲得できます。購買部の集成配給でも5枚交換できます。終了日時は未発表。",
+        "ko": "사의 헤드헌팅 「만물의 재구성」과 함께 열리는 7일 출석 체크입니다. 로그인해 완료하면 해당 헤드헌팅의 허가증×5 등을 획득할 수 있으며, 구매 센터의 통합 징표에서도 5장을 교환할 수 있습니다. 종료 시간은 미정입니다."
+      },
+      "rewards": {
+        "es": [
+          "LTO HH Permit ×5 (Rejuvenation)"
+        ],
+        "en": [
+          "LTO HH Permit ×5 (Rejuvenation)"
+        ],
+        "zh": [
+          "寻访凭证×5（万物更新）"
+        ],
+        "ja": [
+          "スカウト券×5（万象一新）"
+        ],
+        "ko": [
+          "헤드헌팅 허가증×5(만물의 재구성)"
+        ]
+      }
+    },
+    {
+      "id": "ev37",
+      "title": {
+        "es": "Las estrellas están conmigo",
+        "en": "The Stars Are With Me",
+        "zh": "The Stars Are With Me",
+        "ja": "The Stars Are With Me",
+        "ko": "The Stars Are With Me"
+      },
+      "tag": {
+        "es": "INICIO DE SESIÓN",
+        "en": "SIGN-IN",
+        "zh": "签到",
+        "ja": "スタンプラリー",
+        "ko": "출석 체크"
+      },
+      "dateStart": "2026-11-05",
+      "dateEnd": "",
+      "desc": {
+        "es": "Inicio de sesión de 7 días que abre junto con el banner de Argent Flow (5 de noviembre). Si entras y lo completas, recibes 5 Permisos de C.R. OTL para ese banner y otras recompensas; la Cuota del CAI suma 5 permisos más. Fecha de cierre por confirmar.",
+        "en": "A 7-day sign-in that opens alongside Argent Flow's banner (Nov. 5). Log in and complete it to get 5 LTO HH Permits for that banner plus other rewards; the AIC Quota adds 5 more permits. Closing date to be confirmed.",
+        "zh": "与明河的卡池「烟火邀星河」同期开启（11月5日）的7日签到。登录并完成签到可领取该卡池的寻访凭证×5等奖励；集成配额中也可兑换5张。结束时间待公布。",
+        "ja": "ミンホのスカウト「人煙の牽く天河」と同時に始まる（11月5日）7日間スタンプラリー。このスカウトのスカウト券×5などを獲得でき、集成配給でも5枚交換できます。終了日時は未発表。",
+        "ko": "명하의 헤드헌팅 「은하수를 부르는 불꽃」과 함께(11월 5일) 열리는 7일 출석 체크입니다. 해당 헤드헌팅의 허가증×5 등을 획득할 수 있으며, 통합 징표에서도 5장을 교환할 수 있습니다. 종료 시간은 미정입니다."
+      },
+      "rewards": {
+        "es": [
+          "LTO HH Permit ×5 (The Hearth Fire Beckons the Starry Flow)"
+        ],
+        "en": [
+          "LTO HH Permit ×5 (The Hearth Fire Beckons the Starry Flow)"
+        ],
+        "zh": [
+          "寻访凭证×5（烟火邀星河）"
+        ],
+        "ja": [
+          "スカウト券×5（人煙の牽く天河）"
+        ],
+        "ko": [
+          "헤드헌팅 허가증×5(은하수를 부르는 불꽃)"
+        ]
+      }
+    },
+    {
+      "id": "ev38",
+      "title": {
+        "es": "La Antología floreciente de Carly",
+        "en": "Carly's Verdant Anthology",
+        "zh": "卡莉的芳菲童话",
+        "ja": "カーリーの花いろ絵本",
+        "ko": "칼리의 꽃과 풀 동화"
+      },
+      "tag": {
+        "es": "EVENTO DE CÁMARA",
+        "en": "CAMERA EVENT",
+        "zh": "拍照活动",
+        "ja": "写真撮影イベント",
+        "ko": "촬영 이벤트"
+      },
+      "dateStart": "2026-10-22",
+      "dateEnd": "2026-11-05",
+      "desc": {
+        "es": "Evento de cámara del 22 de octubre de 2026 a las 12:00 al 5 de noviembre de 2026 a las 04:00 (hora del servidor). Carly tiene nuevas fuentes de inspiración: ves el mundo con sus ojos y capturas los paisajes que necesita para su creación. Trae un marco de retrato exclusivo.",
+        "en": "Camera event from Oct. 22, 2026 at 12:00 to Nov. 5, 2026 at 04:00 (server time). Carly has new inspirations: you see the world through her eyes and capture the scenes she needs for her creation. It includes an exclusive portrait frame.",
+        "zh": "拍照活动，2026年10月22日12:00至11月5日04:00（服务器时间）。卡莉又有了新的灵感，一段有关探寻的故事正等待着您。",
+        "ja": "写真撮影イベント。2026年10月22日12:00～11月5日04:00（サーバー時間）。カーリーがまた新たなアイデアを思いついたようだ。探求をテーマにした物語が、今まさに始まろうとしている。",
+        "ko": "촬영 이벤트로, 2026년 10월 22일 12:00부터 11월 5일 04:00(서버 시간)까지 진행됩니다. 칼리가 또 새로운 영감을 떠올렸습니다. 탐험과 발견에 관한 새로운 이야기가 여러분을 기다리고 있습니다."
+      },
+      "rewards": {
+        "es": [
+          "Oroberyl ×1500",
+          "Mark of Perseverance",
+          "Advanced Cognitive Carrier",
+          "Arms INSP Set"
+        ],
+        "en": [
+          "Oroberyl ×1500",
+          "Mark of Perseverance",
+          "Advanced Cognitive Carrier",
+          "Arms INSP Set"
+        ],
+        "zh": [
+          "嵌晶玉×1500",
+          "存续的痕迹",
+          "高级认知载体",
+          "武器检查套组"
+        ],
+        "ja": [
+          "赤晶玉×1,500",
+          "存続の痕跡",
+          "上級認識媒体",
+          "武器検査ボックス"
+        ],
+        "ko": [
+          "오로베릴×1,500",
+          "존속의 흔적",
+          "고급 인지 매개체",
+          "무기 점검 세트"
+        ]
+      }
+    },
+    {
+      "id": "ev39",
+      "title": {
+        "es": "Grabado monumental: Bosque de Maras",
+        "en": "Monumental Etching: Forest of Maras",
+        "zh": "丰碑留名·魇林",
+        "ja": "記憶の痕・呪林",
+        "ko": "기억의 흔적 · 악몽의 숲"
+      },
+      "tag": {
+        "es": "DESAFÍO POR TIEMPO LIMITADO",
+        "en": "LIMITED-TIME CHALLENGE",
+        "zh": "限时挑战活动",
+        "ja": "期間限定上級者イベント",
+        "ko": "기간 한정 도전 이벤트"
+      },
+      "dateStart": "2026-10-22",
+      "dateEnd": "2026-11-05",
+      "desc": {
+        "es": "Desafío por tiempo limitado del 22 de octubre de 2026 a las 12:00 al 5 de noviembre de 2026 a las 04:00 (hora del servidor). Corre a la par de la nueva serie de alta dificultad de Monumento del Umbral, Murmullos del bosque profundo, que se agrega el 22 de octubre.",
+        "en": "Limited-time challenge from Oct. 22, 2026 at 12:00 to Nov. 5, 2026 at 04:00 (server time). It runs alongside the new high-difficulty Umbral Monument series, Murmurs of the Deep Forest, added on Oct. 22.",
+        "zh": "限时挑战活动，2026年10月22日12:00至11月5日04:00（服务器时间），与「影拓丰碑」新增的高难度系列（10月22日开放）同步开启。",
+        "ja": "期間限定上級者イベント。2026年10月22日12:00～11月5日04:00（サーバー時間）。「映像の記念碑」に追加される高難度の新シリーズ（10月22日開放）と同時開催。",
+        "ko": "기간 한정 도전 이벤트로, 2026년 10월 22일 12:00부터 11월 5일 04:00(서버 시간)까지 진행됩니다. 「그림자 이정표」에 추가되는 새 고난도 시리즈(10월 22일 개방)와 함께 열립니다."
+      },
+      "rewards": {
+        "es": [
+          "Oroberyl ×1200",
+          "Advanced Cognitive Carrier",
+          "Arms INSP Set"
+        ],
+        "en": [
+          "Oroberyl ×1200",
+          "Advanced Cognitive Carrier",
+          "Arms INSP Set"
+        ],
+        "zh": [
+          "嵌晶玉×1200",
+          "高级认知载体",
+          "武器检查套组"
+        ],
+        "ja": [
+          "赤晶玉×1,200",
+          "上級認識媒体",
+          "武器検査ボックス"
+        ],
+        "ko": [
+          "오로베릴×1,200",
+          "고급 인지 매개체",
+          "무기 점검 세트"
+        ]
+      }
+    },
+    {
+      "id": "ev40",
+      "title": {
+        "es": "Arena de juegos",
+        "en": "Arena of Games",
+        "zh": "百趣演武",
+        "ja": "百趣演武",
+        "ko": "다채로운 연무"
+      },
+      "tag": {
+        "es": "EVENTO DE DESAFÍO",
+        "en": "CHALLENGE EVENT",
+        "zh": "挑战活动",
+        "ja": "上級者イベント",
+        "ko": "도전 이벤트"
+      },
+      "dateStart": "2026-10-29",
+      "dateEnd": "2026-11-19",
+      "desc": {
+        "es": "Evento de desafío del 29 de octubre de 2026 a las 12:00 al 19 de noviembre de 2026 a las 04:00 (hora del servidor). Lil' Dodge le dio a la Arena de pruebas las funciones más novedosas: sacas Placas de datos para decidir la dificultad y el premio, juegas dos rondas seguidas y las manos (Par, Escalera de color…) multiplican la recompensa pero también potencian a los enemigos. Incluye el retrato «Prueba suerte ahora».",
+        "en": "Challenge event from Oct. 29, 2026 at 12:00 to Nov. 19, 2026 at 04:00 (server time). Lil' Dodge gave the Trial Arena the latest and hottest features: you draw Dataplates to set difficulty and rewards, play two rounds in a row, and hands (Pair, Straight Flush…) multiply rewards but also buff enemies. Includes the portrait \"Get Lucky Now\".",
+        "zh": "挑战活动，2026年10月29日12:00至11月19日04:00（服务器时间）。小道奇已将最新最潮的功能整合进了演武平台。百种趣味，万般奇巧，尽在其中。快来试试吧，管理员！",
+        "ja": "上級者イベント。2026年10月29日12:00～11月19日04:00（サーバー時間）。ダッジが、最新トレンドの機能を演武プラットフォームに追加したそうだ。遊び方はさまざま、楽しみ方も自由自在。",
+        "ko": "도전 이벤트로, 2026년 10월 29일 12:00부터 11월 19일 04:00(서버 시간)까지 진행됩니다. 도치가 최신 유행 기능을 연무 플랫폼에 모두 통합했습니다. 수많은 재미와 다양한 묘수가 이곳에 가득합니다."
+      },
+      "rewards": {
+        "es": [
+          "Oroberyl ×1200",
+          "Mark of Perseverance",
+          "Advanced Cognitive Carrier",
+          "Arms INSP Set"
+        ],
+        "en": [
+          "Oroberyl ×1200",
+          "Mark of Perseverance",
+          "Advanced Cognitive Carrier",
+          "Arms INSP Set"
+        ],
+        "zh": [
+          "嵌晶玉×1200",
+          "存续的痕迹",
+          "高级认知载体",
+          "武器检查套组"
+        ],
+        "ja": [
+          "赤晶玉×1,200",
+          "存続の痕跡",
+          "上級認識媒体",
+          "武器検査ボックス"
+        ],
+        "ko": [
+          "오로베릴×1,200",
+          "존속의 흔적",
+          "고급 인지 매개체",
+          "무기 점검 세트"
+        ]
+      }
+    },
+    {
+      "id": "ev41",
+      "title": {
+        "es": "Nueva era para las Incontables almas",
+        "en": "New Era for the Myriad Souls",
+        "zh": "予众魂的新光影",
+        "ja": "魂に捧ぐ新たな一幕",
+        "ko": "모든 영혼에 바치는 새로운 빛과 그림자"
+      },
+      "tag": {
+        "es": "DIVERSIÓN Y JUEGOS",
+        "en": "FUN & GAMES EVENT",
+        "zh": "趣味活动",
+        "ja": "レジャーイベント",
+        "ko": "흥미 이벤트"
+      },
+      "dateStart": "2026-10-31",
+      "dateEnd": "2026-11-14",
+      "desc": {
+        "es": "Evento web del 31 de octubre de 2026 a las 12:00 al 14 de noviembre de 2026 a las 04:00 (hora del servidor). Las tradiciones danzan en nuestros recuerdos: llega otro Sauin, una nueva era de luz y sombra para nosotros y las incontables almas.",
+        "en": "Web event from Oct. 31, 2026 at 12:00 to Nov. 14, 2026 at 04:00 (server time). Traditions dance within our memories: time for another Sauin, a new era of light and shadow for us and the myriad souls.",
+        "zh": "网页活动，2026年10月31日12:00至11月14日04:00（服务器时间）。传统在我们的回忆中跃动。又一次的安魂节，予众魂，予我们的新光影。",
+        "ja": "Webイベント。2026年10月31日12:00～11月14日04:00（サーバー時間）。伝統は記憶の中で脈を打つ。再び巡る安魂祭――サルカズの魂へ、そして新たな一幕へ。",
+        "ko": "웹 이벤트로, 2026년 10월 31일 12:00부터 11월 14일 04:00(서버 시간)까지 진행됩니다. 전통은 우리의 기억 속에서 살아 숨 쉽니다. 다시 찾아온 서우인은 살카즈의 영혼에게도, 우리에게도 새로운 빛과 그림자를 선사합니다."
+      },
+      "rewards": {
+        "es": [
+          "Oroberyl",
+          "T-Creds"
+        ],
+        "en": [
+          "Oroberyl",
+          "T-Creds"
+        ],
+        "zh": [
+          "嵌晶玉",
+          "折金票"
+        ],
+        "ja": [
+          "赤晶玉",
+          "折金券"
+        ],
+        "ko": [
+          "오로베릴",
+          "탈로시안 화폐"
+        ]
+      }
+    },
+    {
+      "id": "ev42",
+      "title": {
+        "es": "De vuelta a lo rústico",
+        "en": "Back to the Rustics",
+        "zh": "归野",
+        "ja": "帰野",
+        "ko": "야생으로"
+      },
+      "tag": {
+        "es": "EVENTO DE NARRATIVA",
+        "en": "NARRATIVE EVENT",
+        "zh": "叙事活动",
+        "ja": "物語イベント",
+        "ko": "스토리 이벤트"
+      },
+      "dateStart": "2026-11-05",
+      "dateEnd": "",
+      "desc": {
+        "es": "Evento de narrativa de Argent Flow, desde el 5 de noviembre de 2026. Argent Flow te envió un mensaje con texto ininteligible: decides averiguar qué pasó y hablar con él del pasado que mencionó. Para recuperar un burdenbeast perdido viajan juntos entre los pergaminos que dejó Si, donde aparece un Argent Flow muy distinto del que conocemos.",
+        "en": "Argent Flow's narrative event, from Nov. 5, 2026. Argent Flow sent you a message of garbled text: you decide to find out what happened and talk to him about the past he mentioned. To recover a missing burdenbeast you travel together between the scrolls Si left behind, where a very different Argent Flow shows up.",
+        "zh": "明河的叙事活动，2026年11月5日开启。明河发来一串乱码，你决定找他一探究竟，也聊聊那段尚未讲完的往事……",
+        "ja": "ミンホの物語イベント。2026年11月5日から。ミンホから届いたのは、文字化けしたメッセージだった。真相を確かめるため彼を訪ね、まだ話していない過去を語り合うことに……",
+        "ko": "명하의 스토리 이벤트로, 2026년 11월 5일부터 진행됩니다. 명하에게서 글자가 잔뜩 깨진 메시지가 왔습니다. 관리자는 무슨 일인지 확인하러 명하를 찾아가고, 그때 미처 끝맺지 못한 지난 이야기도 마저 나누기로 합니다..."
+      },
+      "rewards": {
+        "es": [
+          "Por confirmar"
+        ],
+        "en": [
+          "To be confirmed"
+        ],
+        "zh": [
+          "待公布"
+        ],
+        "ja": [
+          "未発表"
+        ],
+        "ko": [
+          "미정"
+        ]
+      }
+    },
+    {
+      "id": "ev43",
+      "title": {
+        "es": "Contrato de contingencia: Operación experimental índigo",
+        "en": "Contingency Contract: Indigo Experimental Operation",
+        "zh": "危机合约 浸蓝测试作战",
+        "ja": "危機契約 青藍試験作戦",
+        "ko": "위기 협약 · 잿빛 실험 작전"
+      },
+      "tag": {
+        "es": "EVENTO DE DESAFÍO",
+        "en": "CHALLENGE EVENT",
+        "zh": "挑战活动",
+        "ja": "上級者イベント",
+        "ko": "도전 이벤트"
+      },
+      "dateStart": "2026-11-05",
+      "dateEnd": "2026-11-25",
+      "desc": {
+        "es": "Segunda temporada de Contrato de contingencia, del 5 de noviembre de 2026 a las 12:00 (hora del servidor) hasta el mantenimiento de la próxima versión. El agua contaminada de la marea está entrando en el Espacio de protocolo: tres criterios clave nuevos (Ambiente: Bloqueo de combo, Ambiente: Silencio y uno sorpresa), criterios especiales, criterios que les dan ataques nuevos a los enemigos e importación de varios criterios a la vez. Tienda con Oroberyl y Mark of Perseverance.",
+        "en": "The second Contingency Contract season, from Nov. 5, 2026 at 12:00 (server time) until the next version update maintenance. Tainted tide water is pouring into the Protocol Space: three new Key Criteria (Ambient: Combo Lock, Ambient: Silence and a surprise one), special criteria, criteria that give enemies new attacks, and importing several criteria at once. The shop has Oroberyl and Mark of Perseverance.",
+        "zh": "挑战活动，2026年11月5日12:00（服务器时间）至版本更新维护前。世界正在变化，回应遥遥无期。污浊潮水涌入了协议空间……请您粉碎这份亵渎。",
+        "ja": "上級者イベント。2026年11月5日12:00（サーバー時間）からバージョンアップメンテナンス前まで。世界は変わりゆく。穢れた濁流が協約空間へと流れ込んだ――この冒涜に、終止符を。",
+        "ko": "도전 이벤트로, 2026년 11월 5일 12:00(서버 시간)부터 버전 업데이트 점검 전까지 진행됩니다. 세계는 변해가지만, 그 변화에 답할 날은 아직 아득히 멀리 있습니다. 이 모독에 종지부를 찍으십시오."
+      },
+      "rewards": {
+        "es": [
+          "Oroberyl ×2000",
+          "Mark of Perseverance",
+          "Advanced Cognitive Carrier",
+          "Coolant Gel"
+        ],
+        "en": [
+          "Oroberyl ×2000",
+          "Mark of Perseverance",
+          "Advanced Cognitive Carrier",
+          "Coolant Gel"
+        ],
+        "zh": [
+          "嵌晶玉×2000",
+          "存续的痕迹",
+          "高级认知载体",
+          "冷却脂"
+        ],
+        "ja": [
+          "赤晶玉×2,000",
+          "存続の痕跡",
+          "上級認識媒体",
+          "冷却グリース"
+        ],
+        "ko": [
+          "오로베릴×2,000",
+          "존속의 흔적",
+          "고급 인지 매개체",
+          "냉각제"
+        ]
+      }
+    },
+    {
+      "id": "ev44",
+      "title": {
+        "es": "Preparación ante contingencias",
+        "en": "Contingency Readiness",
+        "zh": "危机筹备",
+        "ja": "危機準備",
+        "ko": "위기 대응 준비"
+      },
+      "tag": {
+        "es": "EVENTO POR TIEMPO LIMITADO",
+        "en": "LIMITED-TIME EVENT",
+        "zh": "限时活动",
+        "ja": "期間限定イベント",
+        "ko": "기간 한정 이벤트"
+      },
+      "dateStart": "2026-10-29",
+      "dateEnd": "",
+      "desc": {
+        "es": "Evento especial de Cordura que abre 7 días antes de que empiece Contrato de contingencia: Operación experimental índigo (5 de noviembre), para juntar Cordura y materiales de progresión como Gear Artificing Catalyst y Coolant Gel. Fecha de cierre por confirmar.",
+        "en": "A special Sanity event that opens 7 days before Contingency Contract: Indigo Experimental Operation begins (Nov. 5), to stock up on Sanity and progression materials such as Gear Artificing Catalyst and Coolant Gel. Closing date to be confirmed.",
+        "zh": "危机合约「浸蓝测试作战」开始（11月5日）前7天开放的理智活动，可囤积理智并获取装备精锻助剂、冷却脂等养成材料。结束时间待公布。",
+        "ja": "危機契約「青藍試験作戦」開始（11月5日）の7日前に開催される理性イベント。理性を蓄え、精密加工強化剤や冷却グリースなどの育成素材を集められます。終了日時は未発表。",
+        "ko": "위기 협약 「잿빛 실험 작전」 시작(11월 5일) 7일 전에 열리는 이성 이벤트로, 이성을 비축하고 장비 정밀 단조제, 냉각제 등 육성 재료를 모을 수 있습니다. 종료 시간은 미정입니다."
+      },
+      "rewards": {
+        "es": [
+          "Sanity",
+          "Gear Artificing Catalyst",
+          "Coolant Gel"
+        ],
+        "en": [
+          "Sanity",
+          "Gear Artificing Catalyst",
+          "Coolant Gel"
+        ],
+        "zh": [
+          "理智",
+          "装备精锻助剂",
+          "冷却脂"
+        ],
+        "ja": [
+          "理性",
+          "精密加工強化剤",
+          "冷却グリース"
+        ],
+        "ko": [
+          "이성",
+          "장비 정밀 단조제",
+          "냉각제"
+        ]
+      }
+    },
+    {
+      "id": "ev45",
+      "title": {
+        "es": "Explorador de lo críptico: Desvanecerse más allá de la pintura",
+        "en": "Delver of the Cryptic: Fade Beyond the Painting",
+        "zh": "密境行者：Fade Beyond the Painting",
+        "ja": "密境の探索者：Fade Beyond the Painting",
+        "ko": "숨겨진 구역의 여행자: Fade Beyond the Painting"
+      },
+      "tag": {
+        "es": "EVENTO DE RESOLUCIÓN DE ACERTIJOS",
+        "en": "PUZZLE-SOLVING EVENT",
+        "zh": "解谜活动",
+        "ja": "チャレンジイベント",
+        "ko": "퍼즐 이벤트"
+      },
+      "dateStart": "2026-11-12",
+      "dateEnd": "",
+      "desc": {
+        "es": "Conjunto espacial nuevo del modo permanente Explorador de lo críptico, desde el 12 de noviembre de 2026: seis Espacios de protocolo que salen de forma escalonada, con rompecabezas y recompensas como Oroberyl. Tras el despertar del Endministrator, Endfield Industries reinició el proyecto para explorar estos pequeños Espacios de protocolo cambiantes.",
+        "en": "A new spatial set for the permanent mode Delver of the Cryptic, from Nov. 12, 2026: six Protocol Spaces released one after another, with puzzles and rewards such as Oroberyl. After the Endministrator's awakening, Endfield Industries restarted the project to explore these small, ever-changing Protocol Spaces.",
+        "zh": "解谜活动，2026年11月12日起，密境行者空间组更新，6个协议空间陆续开放。随着管理员醒来，终末地工业重启了对这些小型、多变协议空间的探索计划。",
+        "ja": "チャレンジイベント。2026年11月12日から空間群「密境の探索者」を更新、協約空間6つが順次開放。管理人の目覚めと共に、エンドフィールドはこうした小型で多様な変化を示す協約空間への探索計画を再開した。",
+        "ko": "퍼즐 이벤트로, 2026년 11월 12일부터 「숨겨진 구역의 여행자」 공간 그룹이 업데이트되며 프로토콜 공간 6개가 순차 개방됩니다. 관리자가 깨어난 순간부터 엔드필드 공업은 작고도 변화무쌍한 프로토콜 공간을 향한 탐색 계획을 재가동하기 시작했습니다."
+      },
+      "rewards": {
+        "es": [
+          "Oroberyl",
+          "Advanced Cognitive Carrier",
+          "Mark of Perseverance"
+        ],
+        "en": [
+          "Oroberyl",
+          "Advanced Cognitive Carrier",
+          "Mark of Perseverance"
+        ],
+        "zh": [
+          "嵌晶玉",
+          "高级认知载体",
+          "存续的痕迹"
+        ],
+        "ja": [
+          "赤晶玉",
+          "上級認識媒体",
+          "存続の痕跡"
+        ],
+        "ko": [
+          "오로베릴",
+          "고급 인지 매개체",
+          "존속의 흔적"
+        ]
+      }
+    },
+    {
+      "id": "ev46",
+      "title": {
+        "es": "Pase de protocolo: Pergamino de tinta",
+        "en": "Protocol Pass: Ink Scroll",
+        "zh": "协议通行证「Ink Scroll」",
+        "ja": "協約通行証「Ink Scroll」",
+        "ko": "프로토콜 통행증 「Ink Scroll」"
+      },
+      "tag": {
+        "es": "PASE DE PROTOCOLO",
+        "en": "PROTOCOL PASS",
+        "zh": "协议通行证",
+        "ja": "協約通行証",
+        "ko": "프로토콜 통행증"
+      },
+      "dateStart": "2026-10-15",
+      "dateEnd": "",
+      "desc": {
+        "es": "Temporada nueva del Pase de protocolo, con la versión «Santuario de tinta». Al desbloquear el pase correspondiente obtienes un suministro de arma 6★ a elección con la Gran espada Tradición ancestral (Long Heritage) y la Espada Industria compleja (Complexed Industry), además de tema, retrato, marco y calcomanía nuevos.",
+        "en": "A new Protocol Pass season, with the \"Sanctuary of Ink\" version. Unlocking the corresponding pass gives a 6★ Weapon of Choice Supply with the Greatsword Long Heritage and the Sword Complexed Industry, plus a new profile theme, portrait, portrait frame and sticker.",
+        "zh": "新一期协议通行证，「丹青渡」版本期间开放。解锁对应通行证后可获得6★武器自选（双手剑「Long Heritage」/单手剑「Complexed Industry」），以及新的名片主题、头像、头像框与贴纸。",
+        "ja": "新シーズンの協約通行証。バージョン「丹青渡」期間中に開催。対応する通行証を解放すると★6武器を選択（大剣「Long Heritage」／片手剣「Complexed Industry」）でき、新しいテーマ、アイコン、フレーム、ステッカーも獲得できます。",
+        "ko": "새 시즌 프로토콜 통행증으로, 「단청도」 버전 기간에 열립니다. 해당 통행증을 해금하면 6★ 무기 선택(양손검 「Long Heritage」 / 한손검 「Complexed Industry」)과 새 명함 테마, 프로필, 프로필 프레임, 스티커를 얻을 수 있습니다."
+      },
+      "rewards": {
+        "es": [
+          "Long Heritage o Complexed Industry (6★, a elección)",
+          "Tema del perfil: Aspiración a las nubes",
+          "Retrato: Lung garabateado",
+          "Marco de retrato: Montañas de tinta",
+          "Calcomanía: Espíritu de tinta minimalista"
+        ],
+        "en": [
+          "Long Heritage or Complexed Industry (6★, your choice)",
+          "Profile theme: Aspiration for the Clouds",
+          "Portrait: Doodled Lung",
+          "Portrait frame: Ink Mountains",
+          "Sticker: Minimalist Ink Spirit"
+        ],
+        "zh": [
+          "Long Heritage / Complexed Industry（6星，自选）",
+          "名片主题：Aspiration for the Clouds",
+          "头像：Doodled Lung",
+          "头像框：Ink Mountains",
+          "贴纸：Minimalist Ink Spirit"
+        ],
+        "ja": [
+          "Long Heritage / Complexed Industry（★6、選択）",
+          "テーマ：Aspiration for the Clouds",
+          "アイコン：Doodled Lung",
+          "フレーム：Ink Mountains",
+          "ステッカー：Minimalist Ink Spirit"
+        ],
+        "ko": [
+          "Long Heritage / Complexed Industry(6성, 선택)",
+          "명함 테마: Aspiration for the Clouds",
+          "프로필: Doodled Lung",
+          "프로필 프레임: Ink Mountains",
+          "스티커: Minimalist Ink Spirit"
+        ]
+      }
+    },
+    {
+      "id": "ev47",
+      "title": {
+        "es": "Enter The Playfield (colaboración con ROUND1)",
+        "en": "Enter The Playfield (ROUND1 collaboration)",
+        "zh": "Enter The Playfield（ROUND1 联动）",
+        "ja": "Enter The Playfield（ROUND1 コラボ）",
+        "ko": "Enter The Playfield(ROUND1 콜라보)"
+      },
+      "tag": {
+        "es": "COLABORACIÓN",
+        "en": "COLLABORATION",
+        "zh": "联动",
+        "ja": "コラボ",
+        "ko": "콜라보"
+      },
+      "dateStart": "2026-11-10",
+      "dateEnd": "2027-02-10",
+      "desc": {
+        "es": "Colaboración de 3 meses con ROUND1, del 10 de noviembre de 2026 al 10 de febrero de 2027, en sus locales de Estados Unidos: boliche, karaoke y otras actividades con los operadores, y mercancía exclusiva a la venta. Es un evento en locales físicos, no dentro del juego; los detalles salen por las redes oficiales.",
+        "en": "A 3-month collaboration with ROUND1, from Nov. 10, 2026 to Feb. 10, 2027, at its locations in the United States: bowling, karaoke and other activities with the operators, plus exclusive merch for sale. It is an in-person event, not an in-game one; details come through the official social media.",
+        "zh": "与 ROUND1 的为期3个月的线下联动（2026年11月10日–2027年2月10日），地点为美国的 ROUND1 门店：可与干员一同体验保龄球、卡拉OK等活动，并可购买限定联动周边。非游戏内活动，详情以官方社交媒体为准。",
+        "ja": "ROUND1との3か月間のコラボ（2026年11月10日～2027年2月10日）。会場はアメリカのROUND1店舗で、オペレーターと一緒にボウリングやカラオケなどを楽しめ、限定コラボグッズも販売されます。ゲーム内イベントではありません。詳細は公式SNSで順次発表。",
+        "ko": "ROUND1과의 3개월 콜라보(2026년 11월 10일 ~ 2027년 2월 10일). 장소는 미국의 ROUND1 매장으로, 오퍼레이터와 함께 볼링, 노래방 등을 즐기고 한정 콜라보 굿즈를 구매할 수 있습니다. 게임 내 이벤트가 아니며 자세한 내용은 공식 SNS에서 순차 공개됩니다."
+      },
+      "rewards": {
+        "es": [
+          "Mercancía exclusiva de la colaboración (a la venta)"
+        ],
+        "en": [
+          "Exclusive collaboration merch (for sale)"
+        ],
+        "zh": [
+          "限定联动周边（售卖）"
+        ],
+        "ja": [
+          "限定コラボグッズ（販売）"
+        ],
+        "ko": [
+          "한정 콜라보 굿즈(판매)"
+        ]
+      }
+    },
     {
       "id": "ev27",
       "title": {
@@ -3227,9 +4008,9 @@
       "title": {
         "es": "Contingency Contract — Contingency Readiness",
         "en": "Contingency Contract — Contingency Readiness",
-        "zh": "危机合约 — 合约准备",
-        "ja": "危機契約 — 契約準備",
-        "ko": "위기 협약 — 계약 준비"
+        "zh": "危机合约 — 危机筹备",
+        "ja": "危機契約 — 危機準備",
+        "ko": "위기 협약 — 위기 대응 준비"
       },
       "tag": {
         "es": "MODO NUEVO",
@@ -3243,9 +4024,9 @@
       "desc": {
         "es": "El modo de fin de juego más pedido llega heredado del Arknights original. Combates con modificadores de dificultad ajustables (Test Criterion / Key Criteria) y condiciones de campo de batalla. La fase Contingency Readiness comienza el 12 de junio.",
         "en": "The most-requested endgame mode arrives, carried over from the original Arknights. Battles with adjustable difficulty modifiers (Test Criterion / Key Criteria) and battlefield conditions. The Contingency Readiness phase begins June 12.",
-        "zh": "呼声最高的终局模式登场，沿袭自初代明日方舟。可调节难度修正（指标 / 密钥指标）和战场条件的战斗。合约准备阶段6月12日开始。",
-        "ja": "最も要望の多かったエンドゲームモードが、初代アークナイツから引き継がれて登場。難易度修正（指標 / 認証指標）と戦場の条件を調整できる戦闘です。契約準備フェーズは6月12日から。",
-        "ko": "가장 많이 요청된 엔드게임 모드가 원작 명일방주에서 계승되어 등장합니다. 난이도 보정(지표 / 비밀 지표)과 전장 조건을 조절하는 전투입니다. 계약 준비 단계는 6월 12일 시작."
+        "zh": "呼声最高的终局模式登场，沿袭自初代明日方舟。可调节难度修正（指标 / 密钥指标）和战场条件的战斗。危机筹备阶段6月12日开始。",
+        "ja": "最も要望の多かったエンドゲームモードが、初代アークナイツから引き継がれて登場。難易度修正（指標 / 認証指標）と戦場の条件を調整できる戦闘です。危機準備フェーズは6月12日から。",
+        "ko": "가장 많이 요청된 엔드게임 모드가 원작 명일방주에서 계승되어 등장합니다. 난이도 보정(지표 / 비밀 지표)과 전장 조건을 조절하는 전투입니다. 위기 대응 준비 단계는 6월 12일 시작."
       },
       "rewards": {
         "es": [

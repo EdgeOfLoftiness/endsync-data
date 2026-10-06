@@ -1094,5 +1094,31 @@
       "count": 4,
       "builds": 5
     }
+  },
+  {
+    "id": "si",
+    "name": "Si",
+    "cls": "Supporter",
+    "el": "Cryo",
+    "r": 6,
+    "role": "Buffer",
+    "icon": "<img src='assets/characters/si_card.webp' class='char-av-img' loading='lazy'>",
+    "name_es": "Si",
+    "name_zh": "祀",
+    "name_ja": "スー",
+    "name_ko": "사"
+  },
+  {
+    "id": "argentflow",
+    "name": "Argent Flow",
+    "cls": "Guard",
+    "el": "Electric",
+    "r": 6,
+    "role": "Damage",
+    "icon": "<img src='assets/characters/argentflow_card.webp' class='char-av-img' loading='lazy'>",
+    "name_es": "Argent Flow",
+    "name_zh": "明河",
+    "name_ja": "ミンホ",
+    "name_ko": "명하"
   }
 ]

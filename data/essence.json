@@ -1763,6 +1763,79 @@
       "name_zh": "点心时刻",
       "name_ja": "スイーツタイム",
       "name_ko": "간식 시간"
+    },
+    {
+      "name": "Jade Vessel",
+      "star": 6,
+      "type": "Greatsword",
+      "stat": "Int",
+      "attribute": "Cryo DMG",
+      "skill": "Efficacy",
+      "locations": [
+        "The Hub",
+        "Science Park",
+        "Lodespring",
+        "Sword Vault Dale",
+        "Yinglung Pass"
+      ],
+      "signature": "Si Signature",
+      "name_es": "Vasija de jade",
+      "name_zh": "玉中身",
+      "name_ja": "玉中身",
+      "name_ko": "옥에 깃든 형체"
+    },
+    {
+      "name": "Lunar Calling",
+      "star": 6,
+      "type": "Sword",
+      "stat": "Will",
+      "attribute": "Attack",
+      "skill": "Infliction",
+      "locations": [
+        "Science Park",
+        "Power Plateau",
+        "Marker Stone",
+        "Yinglung Pass"
+      ],
+      "signature": "Argent Flow Signature",
+      "name_es": "Llamado lunar",
+      "name_zh": "唤月",
+      "name_ja": "問月",
+      "name_ko": "환월"
+    },
+    {
+      "name": "Long Heritage",
+      "star": 6,
+      "type": "Greatsword",
+      "stat": "Int",
+      "attribute": "Cryo DMG",
+      "skill": "Efficacy",
+      "locations": [
+        "The Hub",
+        "Science Park",
+        "Lodespring",
+        "Sword Vault Dale",
+        "Yinglung Pass"
+      ],
+      "signature": "Protocol Pass: Ink Scroll",
+      "name_es": "Tradición ancestral"
+    },
+    {
+      "name": "Complexed Industry",
+      "star": 6,
+      "type": "Sword",
+      "stat": "Will",
+      "attribute": "Elec DMG",
+      "skill": "Detonate",
+      "locations": [
+        "The Hub",
+        "Wuling City",
+        "Stockade",
+        "Yinglung Pass",
+        "Snowy Forest"
+      ],
+      "signature": "Protocol Pass: Ink Scroll",
+      "name_es": "Industria compleja"
     }
   ]
 }

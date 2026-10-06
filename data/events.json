@@ -1,6 +1,755 @@
 {
   "events": [
     {
+      "id": "yuanyuan-blazing-stoves",
+      "cover": "https://edgeofloftiness.github.io/endsync-data/assets/events/yuanyuan-blazing-stoves-banner.webp",
+      "accent": "#d8483a",
+      "startsAt": "2026-10-14T23:00:00Z",
+      "source": "https://endfield.gryphline.com/en-us/news/5207",
+      "kicker": {
+        "es": "Evento de diversión y juegos · 1.6",
+        "en": "Fun & Games event · 1.6",
+        "zh": "趣味活动 · 1.6",
+        "ja": "レジャーイベント・1.6",
+        "ko": "흥미 이벤트 · 1.6"
+      },
+      "title": {
+        "es": "FOGONES ARDIENTES DE YUANYUAN",
+        "en": "YUANYUAN'S BLAZING STOVES",
+        "zh": "烟火生缘",
+        "ja": "俗世の縁",
+        "ko": "불꽃으로 맺은 인연"
+      },
+      "difficulty": "Management",
+      "difficulty_es": "Gestión",
+      "difficulty_zh": "经营",
+      "difficulty_ja": "営業",
+      "difficulty_ko": "운영",
+      "summary": {
+        "es": "La posada de la Mansión Yuanyuan, en la Pintura de Si: un modo permanente de gestión con misiones por tiempo limitado. Preparas platillos, atiendes a los huéspedes, ganas Dinero de Espíritu y vas ampliando la granja y los corrales. Cuando terminan las misiones del evento, el modo sigue abierto.",
+        "en": "The inn at Yuanyuan Manor, in Si's Painting: a permanent management mode with limited-time missions. You cook dishes, serve guests, earn Spirit Money and keep expanding the farmland and pens. When the event missions end, the mode stays open.",
+        "zh": "缘缘庄中灶火正旺，几缕烟火气，几响红尘声。该常驻玩法包含限时经营任务，任务过期后将无法参与，玩法仍可继续体验。",
+        "ja": "縁縁荘は今日も大にぎわい。湯気が立ちのぼり、笑い声が響き渡る。本常時開放コンテンツには期間限定の営業クエストが含まれ、期間終了後もコンテンツ自体は引き続きプレイできます。",
+        "ko": "인연 마을의 불은 활활 타오르고, 자욱한 연기와 사람들의 웃음소리가 피어납니다. 이 상시 콘텐츠에는 기간 한정 운영 임무가 포함되어 있으며, 기간이 종료되어도 콘텐츠는 계속 즐길 수 있습니다."
+      },
+      "tags": [
+        "innkeeping",
+        "farming",
+        "Auto-Farmer",
+        "permanent"
+      ],
+      "tags_es": [
+        "posada",
+        "granja",
+        "Autoagricultor",
+        "permanente"
+      ],
+      "tags_zh": [
+        "经营",
+        "种植",
+        "Auto-Farmer",
+        "常驻"
+      ],
+      "tags_ja": [
+        "営業",
+        "栽培",
+        "Auto-Farmer",
+        "常時開放"
+      ],
+      "tags_ko": [
+        "운영",
+        "재배",
+        "Auto-Farmer",
+        "상시"
+      ],
+      "blocks": [
+        {
+          "type": "hero",
+          "banner": "https://edgeofloftiness.github.io/endsync-data/assets/events/yuanyuan-blazing-stoves-banner.webp",
+          "meta": [
+            {
+              "k": {
+                "es": "Fechas",
+                "en": "Dates",
+                "zh": "日期",
+                "ja": "期間",
+                "ko": "기간"
+              },
+              "v": {
+                "es": "Misiones: desde la actualización de la versión → mantenimiento de la próxima versión · el modo queda permanente",
+                "en": "Missions: from the version update → next version update maintenance · the mode stays permanent",
+                "zh": "经营任务：「丹青渡」版本更新后 → 版本更新维护前 · 玩法常驻",
+                "ja": "営業クエスト：バージョン「丹青渡」開始後 → バージョンアップメンテナンス前・コンテンツは常時開放",
+                "ko": "운영 임무: 「단청도」 버전 업데이트 후 → 버전 업데이트 점검 전 · 콘텐츠는 상시"
+              }
+            },
+            {
+              "k": {
+                "es": "Dónde",
+                "en": "Where",
+                "zh": "地点",
+                "ja": "場所",
+                "ko": "장소"
+              },
+              "v": {
+                "es": "Mansión Yuanyuan (Pintura de Si, Wuling)",
+                "en": "Yuanyuan Manor (Si's Painting, Wuling)",
+                "zh": "缘缘庄（祀的画，武陵）",
+                "ja": "縁縁荘（スーの絵、武陵）",
+                "ko": "인연 마을(사의 그림, 무릉)"
+              }
+            },
+            {
+              "k": {
+                "es": "Recompensas",
+                "en": "Rewards",
+                "zh": "奖励",
+                "ja": "報酬",
+                "ko": "보상"
+              },
+              "v": {
+                "es": "Oroberyl ×1000, Mark of Perseverance y materiales",
+                "en": "Oroberyl ×1000, Mark of Perseverance and materials",
+                "zh": "嵌晶玉×1000、存续的痕迹及养成材料",
+                "ja": "赤晶玉×1,000、存続の痕跡、育成素材",
+                "ko": "오로베릴×1,000, 존속의 흔적, 육성 재료"
+              }
+            }
+          ]
+        },
+        {
+          "type": "lead",
+          "body": {
+            "es": "Es la primera vez que Endfield te pone a llevar un negocio: empiezas despejando la granja y criando unas Babosas de Originio, eliges los platillos, preparas los ingredientes y abres. Atender bien a los huéspedes, uno tras otro, sube las estrellas de la posada; con los ahorros amplías la granja, desbloqueas corrales y nuevos temas y recetas.",
+            "en": "It is the first time Endfield puts you in charge of a business: you start by clearing the farmland and raising a few Originium Slugs, pick the dishes, prep the ingredients and open up. Serving guests well, one after another, raises the inn's star rating; with your savings you expand the farmland and unlock pens, new themes and recipes.",
+            "zh": "在缘缘庄经营一家乡间客栈：开垦农田、饲养源石虫，选好菜品、备齐食材即可开张营业。持续接待好客人能提升客栈星级，攒下的积蓄可用来扩建农田、解锁畜栏与更多主题和菜谱。",
+            "ja": "縁縁荘で田舎の宿を営みます。畑を開墾してオリジニウムスラッグを育て、料理を選んで食材をそろえたら開店。お客さんをもてなし続けると宿の星が上がり、貯めた資金で畑を広げ、家畜小屋や新しいテーマ、レシピを解放できます。",
+            "ko": "인연 마을에서 시골 여관을 운영합니다. 밭을 개간하고 오리지늄 슬러그를 기르며, 요리를 고르고 재료를 갖추면 영업을 시작합니다. 손님을 잘 맞이할수록 여관의 별점이 오르고, 모은 자금으로 밭을 넓히고 축사와 새 테마, 레시피를 해금할 수 있습니다."
+          }
+        },
+        {
+          "type": "pillars",
+          "h": {
+            "es": "Cómo funciona",
+            "en": "How it works",
+            "zh": "运作方式",
+            "ja": "仕組み",
+            "ko": "작동 방식"
+          },
+          "items": [
+            {
+              "icon": "◈",
+              "h": {
+                "es": "Posada",
+                "en": "Inn",
+                "zh": "客栈",
+                "ja": "宿",
+                "ko": "여관"
+              },
+              "body": {
+                "es": "Platillos, huéspedes y Dinero de Espíritu. Atender bien varias veces seguidas sube las estrellas, y con estrellas se amplía la posada.",
+                "en": "Dishes, guests and Spirit Money. Serving well several times in a row raises your stars, and stars expand the inn.",
+                "zh": "菜品、客人与经营收入。连续成功接待可提升星级，星级提升后可扩建客栈。",
+                "ja": "料理とお客さんと売上。連続でもてなしに成功すると星が上がり、星で宿を拡張できます。",
+                "ko": "요리와 손님, 영업 수익. 연속으로 손님을 잘 맞이하면 별점이 오르고, 별점으로 여관을 확장합니다."
+              }
+            },
+            {
+              "icon": "▦",
+              "h": {
+                "es": "Granja y corrales",
+                "en": "Farmland and pens",
+                "zh": "农田与畜栏",
+                "ja": "畑と家畜小屋",
+                "ko": "밭과 축사"
+              },
+              "body": {
+                "es": "Cultivos y ganado dan ingredientes frescos. Los terrenos se manejan en vista superior, sin separación mínima, y los operadores del equipo fertilizan solos.",
+                "en": "Crops and livestock supply fresh ingredients. Plots are managed in a top view with no spacing limit, and team operators fertilize on their own.",
+                "zh": "作物与家畜提供新鲜食材。农田支持俯视管理、可紧密摆放，队伍中的干员也能帮忙施肥。",
+                "ja": "作物と家畜から新鮮な食材が手に入ります。畑は俯瞰で管理でき、間隔なしで配置でき、編成中のオペレーターが肥料をまいてくれます。",
+                "ko": "작물과 가축이 신선한 재료를 제공합니다. 밭은 위에서 내려다보며 관리하고 간격 없이 배치할 수 있으며, 편성된 오퍼레이터가 비료를 줍니다."
+              }
+            },
+            {
+              "icon": "⚙",
+              "h": {
+                "es": "Autoagricultor",
+                "en": "Auto-Farmer",
+                "zh": "Auto-Farmer",
+                "ja": "Auto-Farmer",
+                "ko": "Auto-Farmer"
+              },
+              "body": {
+                "es": "Máquina nueva que siembra y cosecha a distancia. Se desbloquea en este evento y, con la historia, también llega a la granja de Wuling.",
+                "en": "A new machine that plants and harvests remotely. It unlocks in this event and, as the story progresses, also reaches the Wuling farming site.",
+                "zh": "可远程自动种植与收获的新设备。在本活动中解锁，随剧情推进也会出现在武陵的种植区。",
+                "ja": "遠隔で植え付けと収穫を自動化する新しい装置。本イベントで解放され、ストーリーの進行で武陵の栽培エリアにも登場します。",
+                "ko": "원격으로 파종과 수확을 자동화하는 새 장치. 이번 이벤트에서 해금되며, 스토리 진행에 따라 무릉의 재배 구역에도 등장합니다."
+              }
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warn",
+          "h": {
+            "es": "Lo que todavía no está en las fuentes oficiales",
+            "en": "Not in the official sources yet",
+            "zh": "官方资料尚未公布的内容",
+            "ja": "公式情報にまだ掲載されていない内容",
+            "ko": "공식 자료에 아직 없는 내용"
+          },
+          "body": {
+            "es": "La lista de recetas y temas, cuánto Dinero de Espíritu da cada platillo y las recompensas con cantidades exactas (más allá de Oroberyl ×1000) se completan con las notas de la versión.",
+            "en": "The list of recipes and themes, how much Spirit Money each dish pays and the rewards with exact amounts (beyond Oroberyl ×1000) get filled in from the version notes.",
+            "zh": "菜谱与主题列表、各菜品的收入以及具体奖励数量（嵌晶玉×1000以外），待版本更新说明公布后补全。",
+            "ja": "レシピとテーマの一覧、料理ごとの売上、報酬の正確な数量（赤晶玉×1,000以外）はバージョン更新ノートの公開後に追記します。",
+            "ko": "레시피와 테마 목록, 요리별 수익, 보상의 정확한 수량(오로베릴×1,000 외)은 버전 업데이트 노트 공개 후 보완합니다."
+          }
+        }
+      ]
+    },
+    {
+      "id": "arena-of-games",
+      "cover": "https://edgeofloftiness.github.io/endsync-data/assets/events/arena-of-games-banner.webp",
+      "accent": "#e04b3c",
+      "startsAt": "2026-10-29T04:00:00Z",
+      "endsAt": "2026-11-18T20:00:00Z",
+      "source": "https://endfield.gryphline.com/en-us/news/5207",
+      "kicker": {
+        "es": "Evento de desafío · 1.6",
+        "en": "Challenge event · 1.6",
+        "zh": "挑战活动 · 1.6",
+        "ja": "上級者イベント・1.6",
+        "ko": "도전 이벤트 · 1.6"
+      },
+      "title": {
+        "es": "ARENA DE JUEGOS",
+        "en": "ARENA OF GAMES",
+        "zh": "百趣演武",
+        "ja": "百趣演武",
+        "ko": "다채로운 연무"
+      },
+      "difficulty": "Roguelite",
+      "difficulty_es": "Roguelite",
+      "difficulty_zh": "肉鸽",
+      "difficulty_ja": "ローグライト",
+      "difficulty_ko": "로그라이트",
+      "summary": {
+        "es": "La vuelta del «sacar cartas y combate» de Prueba del Arte de la espada, con más riesgo y más premio: sacas Placas de datos para armar la dificultad, juegas dos rondas seguidas y las manos de póker multiplican la recompensa… y también potencian a los enemigos.",
+        "en": "Trial of Swordmancy's \"draw cards + battle\" is back with more risk and more reward: you draw Dataplates to build the difficulty, play two rounds in a row, and poker-style hands multiply your rewards… and buff the enemies too.",
+        "zh": "小道奇已将最新最潮的功能整合进了演武平台。延续选剑演武的「抽取+战斗」玩法，风险更高，奖励也更丰厚。",
+        "ja": "ダッジが最新トレンドの機能を演武プラットフォームに追加。選剣演武の「ドロー＋戦闘」を受け継ぎ、リスクも報酬もさらに大きくなりました。",
+        "ko": "도치가 최신 유행 기능을 연무 플랫폼에 통합했습니다. 선검 연무의 \"뽑기 + 전투\"를 계승하면서 위험도, 보상도 더 커졌습니다."
+      },
+      "tags": [
+        "Dataplates",
+        "two rounds",
+        "hands",
+        "Oroberyl"
+      ],
+      "tags_es": [
+        "Placas de datos",
+        "dos rondas",
+        "manos",
+        "Oroberyl"
+      ],
+      "tags_zh": [
+        "Dataplates",
+        "两轮",
+        "牌型",
+        "嵌晶玉"
+      ],
+      "tags_ja": [
+        "Dataplates",
+        "2ラウンド",
+        "役",
+        "赤晶玉"
+      ],
+      "tags_ko": [
+        "Dataplates",
+        "2라운드",
+        "족보",
+        "오로베릴"
+      ],
+      "blocks": [
+        {
+          "type": "hero",
+          "banner": "https://edgeofloftiness.github.io/endsync-data/assets/events/arena-of-games-banner.webp",
+          "meta": [
+            {
+              "k": {
+                "es": "Fechas",
+                "en": "Dates",
+                "zh": "日期",
+                "ja": "期間",
+                "ko": "기간"
+              },
+              "v": {
+                "es": "29 oct 2026, 12:00 → 19 nov 2026, 04:00 (hora del servidor)",
+                "en": "Oct 29, 2026, 12:00 → Nov 19, 2026, 04:00 (server time)",
+                "zh": "2026年10月29日12:00 → 11月19日04:00（服务器时间）",
+                "ja": "2026年10月29日12:00 → 11月19日04:00（サーバー時間）",
+                "ko": "2026년 10월 29일 12:00 → 11월 19일 04:00(서버 시간)"
+              }
+            },
+            {
+              "k": {
+                "es": "Formato",
+                "en": "Format",
+                "zh": "形式",
+                "ja": "形式",
+                "ko": "형식"
+              },
+              "v": {
+                "es": "2 rondas seguidas · hasta 5 robos por reto",
+                "en": "2 rounds in a row · up to 5 draws per challenge",
+                "zh": "连续两轮 · 每次挑战最多抽取5次",
+                "ja": "2ラウンド連続・1回の挑戦で最大5回ドロー",
+                "ko": "2라운드 연속 · 도전당 최대 5회 뽑기"
+              }
+            },
+            {
+              "k": {
+                "es": "Recompensas",
+                "en": "Rewards",
+                "zh": "奖励",
+                "ja": "報酬",
+                "ko": "보상"
+              },
+              "v": {
+                "es": "Oroberyl ×1200, retrato «Prueba suerte ahora» y materiales",
+                "en": "Oroberyl ×1200, the \"Get Lucky Now\" portrait and materials",
+                "zh": "嵌晶玉×1200、头像及养成材料",
+                "ja": "赤晶玉×1,200、アイコン、育成素材",
+                "ko": "오로베릴×1,200, 프로필, 육성 재료"
+              }
+            }
+          ]
+        },
+        {
+          "type": "pillars",
+          "h": {
+            "es": "Cómo funciona",
+            "en": "How it works",
+            "zh": "运作方式",
+            "ja": "仕組み",
+            "ko": "작동 방식"
+          },
+          "items": [
+            {
+              "icon": "▣",
+              "h": {
+                "es": "Placas de datos",
+                "en": "Dataplates",
+                "zh": "Dataplates",
+                "ja": "Dataplates",
+                "ko": "Dataplates"
+              },
+              "body": {
+                "es": "Cada placa es un grupo de enemigos con sus puntos de batalla (BP). Más BP sube el puntaje de recompensa y también la dificultad: ya no se pierde todo al pasar de 10 BP.",
+                "en": "Each plate is an enemy group with its Battle Points (BP). More BP raises the reward score and the difficulty: going over 10 BP no longer wipes your rewards.",
+                "zh": "每块数据板代表一组敌人并带有战斗点数。点数越高，奖励评分和战斗难度都越高；不再有超过10点就失去全部奖励的设计。",
+                "ja": "各プレートは敵グループとその戦闘ポイント（BP）。BPが高いほど報酬スコアも難易度も上がり、10BPを超えると報酬がすべてなくなる仕様は廃止されました。",
+                "ko": "각 플레이트는 적 그룹과 전투 포인트(BP)를 나타냅니다. BP가 높을수록 보상 점수와 난이도가 함께 오르며, 10BP를 넘으면 보상을 모두 잃는 규칙은 사라졌습니다."
+              }
+            },
+            {
+              "icon": "♣",
+              "h": {
+                "es": "Palos y manos",
+                "en": "Suits and hands",
+                "zh": "花色与牌型",
+                "ja": "スートと役",
+                "ko": "패와 족보"
+              },
+              "body": {
+                "es": "Tres palos (Bambú, Personajes y Círculos). Dos placas con el mismo BP forman un Par; cinco consecutivas del mismo palo, una Escalera de color. Si logras varias, cuenta la de mayor bonificación base.",
+                "en": "Three suits (Bamboo, Characters and Circles). Two plates with the same BP make a Pair; five in sequence of the same suit, a Straight Flush. If you land several, the one with the highest base bonus counts.",
+                "zh": "三种花色。相同点数的两块组成对子，同花色的五块连续点数组成同花顺。同时达成多种牌型时，取基础加成最高的一种。",
+                "ja": "3種類のスート。同じBPの2枚でペア、同じスートで連続した5枚でストレートフラッシュ。複数の役がそろった場合は基本ボーナスが最も高い役が適用されます。",
+                "ko": "세 가지 패. 같은 BP 두 장은 페어, 같은 패로 연속된 다섯 장은 스트레이트 플러시. 여러 족보를 동시에 만들면 기본 보너스가 가장 높은 것이 적용됩니다."
+              }
+            },
+            {
+              "icon": "★",
+              "h": {
+                "es": "Mano del día",
+                "en": "Hand of Today",
+                "zh": "今日牌型",
+                "ja": "本日の役",
+                "ko": "오늘의 족보"
+              },
+              "body": {
+                "es": "Lograr la «Mano de la suerte» indicada activa un multiplicador de recompensa extra.",
+                "en": "Landing the specified \"Lucky Hand\" activates an extra reward multiplier.",
+                "zh": "达成指定的「幸运牌型」可额外激活奖励倍率。",
+                "ja": "指定の「ラッキー役」をそろえると追加の報酬倍率が発動します。",
+                "ko": "지정된 \"행운의 족보\"를 만들면 추가 보상 배율이 발동합니다."
+              }
+            },
+            {
+              "icon": "⚠",
+              "h": {
+                "es": "Arma de doble filo",
+                "en": "Double-edged",
+                "zh": "双刃剑",
+                "ja": "諸刃の剣",
+                "ko": "양날의 검"
+              },
+              "body": {
+                "es": "Las manos multiplican el premio pero también dan potenciadores a los enemigos. Los multiplicadores y potenciadores se consultan en la pantalla del evento.",
+                "en": "Hands multiply rewards but also give enemies buffs. The multipliers and buffs can be checked on the event screen.",
+                "zh": "牌型在提升奖励的同时也会强化敌人，倍率与强化效果可随时在活动界面查看。",
+                "ja": "役は報酬を増やす一方で敵も強化します。倍率と強化内容はイベント画面でいつでも確認できます。",
+                "ko": "족보는 보상을 늘리는 동시에 적도 강화합니다. 배율과 강화 효과는 이벤트 화면에서 언제든 확인할 수 있습니다."
+              }
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warn",
+          "h": {
+            "es": "Lo que todavía no está en las fuentes oficiales",
+            "en": "Not in the official sources yet",
+            "zh": "官方资料尚未公布的内容",
+            "ja": "公式情報にまだ掲載されていない内容",
+            "ko": "공식 자료에 아직 없는 내용"
+          },
+          "body": {
+            "es": "La tabla de multiplicadores de cada mano, los potenciadores que reciben los enemigos y qué grupos hay en las placas no están en las fuentes oficiales.",
+            "en": "The multiplier table for each hand, the buffs enemies get and which groups are on the plates are not in the official sources.",
+            "zh": "各牌型的倍率表、敌人获得的强化以及数据板中的敌人组合，官方资料尚未公布。",
+            "ja": "各役の倍率表、敵が受ける強化、プレートの敵グループの内容は公式情報に掲載されていません。",
+            "ko": "족보별 배율표, 적이 받는 강화, 플레이트의 적 그룹 구성은 공식 자료에 나와 있지 않습니다."
+          }
+        }
+      ]
+    },
+    {
+      "id": "contingency-contract-indigo",
+      "cover": "https://edgeofloftiness.github.io/endsync-data/assets/events/cc-indigo-banner.webp",
+      "logo": "assets/events/cc-logo.svg",
+      "accent": "#4c6ef5",
+      "startsAt": "2026-11-05T04:00:00Z",
+      "endsAt": "2026-11-25T22:00:00Z",
+      "source": "https://endfield.gryphline.com/en-us/news/5207",
+      "kicker": {
+        "es": "Modo endgame · 2ª temporada",
+        "en": "Endgame mode · Season 2",
+        "zh": "终局模式 · 第2赛季",
+        "ja": "エンドゲームモード・シーズン2",
+        "ko": "엔드게임 모드 · 시즌 2"
+      },
+      "title": {
+        "es": "Contrato de contingencia: Operación experimental índigo",
+        "en": "Contingency Contract: Indigo Experimental Operation",
+        "zh": "危机合约 浸蓝测试作战",
+        "ja": "危機契約 青藍試験作戦",
+        "ko": "위기 협약 · 잿빛 실험 작전"
+      },
+      "difficulty": "Endgame",
+      "difficulty_es": "Endgame",
+      "difficulty_zh": "终局",
+      "difficulty_ja": "エンドゲーム",
+      "difficulty_ko": "엔드게임",
+      "summary": {
+        "es": "La segunda temporada de Contrato de contingencia. Vuelve el armado de riesgos con tres criterios clave nuevos que cambian el ritmo del combate (bloqueos de combos y de habilidades de batalla), criterios especiales y, por primera vez, criterios que les dan ataques nuevos a los enemigos.",
+        "en": "The second Contingency Contract season. Risk-building is back with three new Key Criteria that change the pace of combat (locks on combos and battle skills), special criteria and, for the first time, criteria that give enemies new attacks.",
+        "zh": "世界正在变化，回应遥遥无期。污浊潮水涌入了协议空间……请您粉碎这份亵渎。危机合约第二期，新增3个密钥指标、特殊指标，以及首次加入的强化敌人招式的指标。",
+        "ja": "世界は変わりゆく。穢れた濁流が協約空間へと流れ込んだ――この冒涜に、終止符を。危機契約の第2期。新しい認証指標3つ、特殊な指標、そして初登場の敵の攻撃を強化する指標が加わります。",
+        "ko": "세계는 변해가지만, 그 변화에 답할 날은 아직 아득히 멀리 있습니다. 위기 협약 2기로, 새 비밀 지표 3개와 특수 지표, 그리고 처음으로 적의 공격을 강화하는 지표가 추가됩니다."
+      },
+      "tags": [
+        "endgame",
+        "risk stacking",
+        "Combo Lock",
+        "season"
+      ],
+      "tags_es": [
+        "endgame",
+        "apilar riesgos",
+        "Bloqueo de combo",
+        "temporada"
+      ],
+      "tags_zh": [
+        "终局",
+        "叠加风险",
+        "Combo Lock",
+        "赛季"
+      ],
+      "tags_ja": [
+        "エンドゲーム",
+        "リスク重ね",
+        "Combo Lock",
+        "シーズン"
+      ],
+      "tags_ko": [
+        "엔드게임",
+        "리스크 쌓기",
+        "Combo Lock",
+        "시즌"
+      ],
+      "blocks": [
+        {
+          "type": "hero",
+          "banner": "https://edgeofloftiness.github.io/endsync-data/assets/events/cc-indigo-banner.webp",
+          "meta": [
+            {
+              "k": {
+                "es": "Fechas",
+                "en": "Dates",
+                "zh": "日期",
+                "ja": "期間",
+                "ko": "기간"
+              },
+              "v": {
+                "es": "5 nov 2026, 12:00 (hora del servidor) → mantenimiento de la próxima versión",
+                "en": "Nov 5, 2026, 12:00 (server time) → next version update maintenance",
+                "zh": "2026年11月5日12:00（服务器时间）→ 版本更新维护前",
+                "ja": "2026年11月5日12:00（サーバー時間）→ バージョンアップメンテナンス前",
+                "ko": "2026년 11월 5일 12:00(서버 시간) → 버전 업데이트 점검 전까지"
+              }
+            },
+            {
+              "k": {
+                "es": "Preparación",
+                "en": "Prep",
+                "zh": "筹备",
+                "ja": "準備",
+                "ko": "준비"
+              },
+              "v": {
+                "es": "Preparación ante contingencias: evento de Cordura 7 días antes (Gear Artificing Catalyst, Coolant Gel)",
+                "en": "Contingency Readiness: Sanity event 7 days before (Gear Artificing Catalyst, Coolant Gel)",
+                "zh": "危机筹备：开始前7天的理智活动（装备精锻助剂、冷却脂）",
+                "ja": "危機準備：開始7日前の理性イベント（精密加工強化剤、冷却グリース）",
+                "ko": "위기 대응 준비: 시작 7일 전 이성 이벤트(장비 정밀 단조제, 냉각제)"
+              }
+            },
+            {
+              "k": {
+                "es": "Tienda",
+                "en": "Shop",
+                "zh": "商店",
+                "ja": "ショップ",
+                "ko": "상점"
+              },
+              "v": {
+                "es": "Oroberyl ×2000, Mark of Perseverance, retrato, marco y calcomanía del evento",
+                "en": "Oroberyl ×2000, Mark of Perseverance, event portrait, frame and sticker",
+                "zh": "嵌晶玉×2000、存续的痕迹、活动头像、头像框与贴纸",
+                "ja": "赤晶玉×2,000、存続の痕跡、イベントのアイコン・フレーム・ステッカー",
+                "ko": "오로베릴×2,000, 존속의 흔적, 이벤트 프로필·프레임·스티커"
+              }
+            }
+          ]
+        },
+        {
+          "type": "lead",
+          "body": {
+            "es": "Re-Ignition gustó más de lo esperado y esta temporada corrige lo que más se pidió: ahora puedes importar varios criterios a la vez, y si quitas un criterio clave sus criterios bloqueados quedan guardados y vuelven solos al reactivarlo. Lo demás es nuevo: criterios que cambian cuándo puedes usar cada habilidad y enemigos con patrones de ataque que no tenían.",
+            "en": "Re-Ignition went over better than expected, and this season fixes what was asked for most: you can now import several criteria at once, and if you drop a Key Criterion its Locked Criteria are saved and come back on their own when you re-enable it. The rest is new: criteria that change when you can use each skill, and enemies with attack patterns they never had.",
+            "zh": "本期优化了指标导入，可一次选择多个指标；取消密钥指标时，之前选择的锁闭指标会暂存，重新启用后自动选中。其余内容全部为新：改变技能释放时机的指标，以及拥有全新攻击方式的敌人。",
+            "ja": "今期は指標のインポートで複数の指標を一度に選べるようになり、認証指標を外すと選んでいた閉鎖指標が一時保存され、再び有効にすると自動で選択されます。そのほかはすべて新要素：スキルを使えるタイミングを変える指標と、これまでにない攻撃パターンを持つ敵。",
+            "ko": "이번 기에는 지표 불러오기로 여러 지표를 한 번에 고를 수 있고, 비밀 지표를 해제하면 선택했던 잠금 지표가 임시 저장되어 다시 켜면 자동으로 선택됩니다. 나머지는 모두 새 요소로, 스킬 사용 타이밍을 바꾸는 지표와 처음 보는 공격 패턴을 가진 적이 등장합니다."
+          }
+        },
+        {
+          "type": "criteria",
+          "h": {
+            "es": "Criterios presentados en el programa",
+            "en": "Criteria shown in the program",
+            "zh": "前瞻中展示的指标",
+            "ja": "先行予告で紹介された指標",
+            "ko": "미리보기에서 소개된 지표"
+          },
+          "note": {
+            "es": "Los nombres en chino, japonés y coreano llegan con el juego; las estrellas de cada criterio no se mostraron.",
+            "en": "Chinese, Japanese and Korean names come with the game; the stars of each criterion were not shown.",
+            "zh": "中日韩名称以游戏内为准；各指标的星级未公布。",
+            "ja": "中国語・日本語・韓国語の名称はゲーム内で確定します。各指標の星の数は未発表です。",
+            "ko": "중국어·일본어·한국어 명칭은 게임 내에서 확정되며, 각 지표의 별 개수는 공개되지 않았습니다."
+          },
+          "groups": [
+            {
+              "kind": "key",
+              "cat": {
+                "es": "Criterios clave nuevos",
+                "en": "New Key Criteria",
+                "zh": "新密钥指标",
+                "ja": "新しい認証指標",
+                "ko": "새 비밀 지표"
+              },
+              "desc": {
+                "es": "Tres en total; el tercero se revela con la actualización",
+                "en": "Three in total; the third is revealed with the update",
+                "zh": "共3个，第3个在更新后揭晓",
+                "ja": "全3つ。3つ目はアップデート後に判明",
+                "ko": "총 3개, 세 번째는 업데이트 후 공개"
+              },
+              "items": [
+                {
+                  "name": "Ambient: Combo Lock",
+                  "name_es": "Ambiente: Bloqueo de combo",
+                  "tag": "Key",
+                  "eff": {
+                    "es": "El daño de las habilidades de combo aumenta mucho, pero cada dos combos lanzados un bloqueo entra en la cola de combos y los impide un tiempo.",
+                    "en": "Combo skill damage is greatly increased, but every two combo skills cast a Combo Lock enters the combo queue and blocks combos for a while.",
+                    "zh": "连携技伤害大幅提升，但每释放两次连携技，连携技队列中就会出现锁定，一段时间内无法释放连携技。",
+                    "ja": "連携技のダメージが大幅に上がるが、連携技を2回発動するたびに連携技の列にロックがかかり、しばらく発動できなくなる。",
+                    "ko": "연계 스킬 피해가 크게 증가하지만, 연계 스킬을 두 번 쓸 때마다 연계 스킬 대기열에 잠금이 걸려 한동안 쓸 수 없습니다."
+                  }
+                },
+                {
+                  "name": "Ambient: Silence",
+                  "name_es": "Ambiente: Silencio",
+                  "tag": "Key",
+                  "eff": {
+                    "es": "Más regeneración de PH y más PH recuperados por habilidades, pero quien usa su habilidad de batalla no puede repetirla hasta que todo el equipo use la suya. Lo que cuenta como combo (Persecución del cazador, de Camille) y el segundo movimiento de las habilidades de varios movimientos no se bloquean.",
+                    "en": "More SP regen and more SP recovered by skills, but whoever casts their battle skill cannot cast it again until the whole team has used theirs. Anything treated as a combo (Camille's Hunter Pursuit) and the second move of multi-move battle skills are not locked.",
+                    "zh": "技力回复与技能回复技力提升，但干员释放战技后，需等全队干员各释放一次战技才能再次释放。视为连携技的技能与多段战技的第二段不受限制。",
+                    "ja": "SP回復とスキルによるSP回復が上がるが、戦技を使ったオペレーターは編成全員が1回ずつ戦技を使うまで再使用できない。連携技扱いのスキルや多段戦技の2段目は対象外。",
+                    "ko": "SP 회복과 스킬의 SP 회복량이 증가하지만, 배틀 스킬을 쓴 오퍼레이터는 팀 전원이 한 번씩 배틀 스킬을 쓸 때까지 다시 쓸 수 없습니다. 연계 스킬로 취급되는 스킬과 다단 배틀 스킬의 두 번째 동작은 제외됩니다."
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "special",
+              "cat": {
+                "es": "Criterios especiales",
+                "en": "Special criteria",
+                "zh": "特殊指标",
+                "ja": "特殊な指標",
+                "ko": "특수 지표"
+              },
+              "items": [
+                {
+                  "name": "Ambient: Volatile Gains",
+                  "name_es": "Ambiente: Ganancias volátiles",
+                  "eff": {
+                    "es": "Cuando un operador lanza su máxima, la energía de máxima de todo el equipo vuelve a cero.",
+                    "en": "When an operator casts their ultimate, the whole team's Ultimate Energy resets to zero.",
+                    "zh": "任一干员释放终结技时，全队终结技能量归零。",
+                    "ja": "オペレーターが必殺技を発動すると、編成全員の必殺技エネルギーが0になる。",
+                    "ko": "오퍼레이터가 궁극기를 쓰면 팀 전원의 궁극기 에너지가 0이 됩니다."
+                  }
+                },
+                {
+                  "name": "Edit: Blood Rush",
+                  "name_es": "Editar: Frenesí sanguíneo",
+                  "eff": {
+                    "es": "Si un enemigo pasa un tiempo sin Vulnerabilidad ni Imposición de artes, recupera PV cada segundo.",
+                    "en": "If an enemy goes a while without Vulnerability or Arts Infliction stacks, it recovers HP every second.",
+                    "zh": "敌人在一段时间内没有脆弱或法术附着层数时，每秒回复生命值。",
+                    "ja": "敵が一定時間、脆弱もアーツ付着もない状態だと毎秒HPが回復する。",
+                    "ko": "적이 일정 시간 취약이나 아츠 부착이 없으면 매초 HP를 회복합니다."
+                  }
+                },
+                {
+                  "name": "Ambient: Aggro Focus",
+                  "name_es": "Ambiente: Foco de agresión",
+                  "eff": {
+                    "es": "Los enemigos atacan con más frecuencia al operador controlado.",
+                    "en": "Enemies attack the controlled operator more often.",
+                    "zh": "敌人更频繁地攻击操控中的干员。",
+                    "ja": "敵が操作中のオペレーターをより頻繁に攻撃する。",
+                    "ko": "적이 조작 중인 오퍼레이터를 더 자주 공격합니다."
+                  }
+                },
+                {
+                  "name": "Edit: Fruity Slippers",
+                  "name_es": "Editar: Resbalones frutales",
+                  "eff": {
+                    "es": "Aulladores de roca que no se pueden atacar aparecen en el borde de la arena y tiran cáscaras de plátano al campo.",
+                    "en": "Untargetable Rockhowlers appear at the edge of the arena and throw banana peels onto the field.",
+                    "zh": "场地边缘出现无法被攻击的山犼兽，并周期性地向战场投掷香蕉皮。",
+                    "ja": "攻撃できない山吼獣がフィールドの端に現れ、定期的にバナナの皮を投げ込む。",
+                    "ko": "공격할 수 없는 록하울러가 전장 가장자리에 나타나 주기적으로 바나나 껍질을 던집니다."
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "enemy",
+              "cat": {
+                "es": "Enemigos reforzados (primera vez)",
+                "en": "Enhanced enemies (first time)",
+                "zh": "强化敌人（首次加入）",
+                "ja": "敵の強化（初登場）",
+                "ko": "적 강화(첫 등장)"
+              },
+              "items": [
+                {
+                  "name": "Armored Manglerbeast",
+                  "name_es": "Bestia mutiladora acorazada",
+                  "name_zh": "披甲裂兽",
+                  "name_ja": "鎧裂獣",
+                  "name_ko": "무장 맹글러",
+                  "eff": {
+                    "es": "Gira un pilar de piedra en un barrido amplio que te lanza por los aires una y otra vez.",
+                    "en": "Swings a stone pillar in a wide spinning sweep that can launch you repeatedly.",
+                    "zh": "挥舞石柱进行大范围回旋横扫，未能闪避会被连续击飞。",
+                    "ja": "石柱を振り回す広範囲の回転なぎ払い。避けられないと何度も打ち上げられる。",
+                    "ko": "돌기둥을 휘둘러 넓게 회전하며 쓸어내고, 피하지 못하면 연속으로 띄워집니다."
+                  }
+                },
+                {
+                  "name": "Cloud Obliterator",
+                  "name_es": "Destructor de nubes",
+                  "name_zh": "开天将",
+                  "name_ja": "開天将",
+                  "name_ko": "개천장",
+                  "eff": {
+                    "es": "Sus fuegos artificiales pegan más fuerte y dejan residuos tóxicos que ralentizan y no dejan esquivar.",
+                    "en": "Its fireworks hit harder and leave toxic residue that slows you and stops you from dodging.",
+                    "zh": "烟花攻击更强，轰炸区域会残留毒性物质，降低移动速度且无法闪避。",
+                    "ja": "花火の攻撃が強化され、爆撃地点に残る有毒物質が移動速度を下げ、回避を封じる。",
+                    "ko": "불꽃 공격이 강해지고, 폭격 지점에 남는 독성 잔여물이 이동 속도를 낮추고 회피를 막습니다."
+                  }
+                },
+                {
+                  "name": "Tuskbeast Blightshade",
+                  "name_es": "Sombra contaminada de Bestia colmilluda",
+                  "name_zh": "蚀影牙兽",
+                  "name_ja": "牙獣の蝕影",
+                  "name_ko": "그림자에 물든 터스크비스트",
+                  "eff": {
+                    "es": "Con ciertos criterios, cuando cae un enemigo los demás ganan acumulaciones de escudo que hay que romper antes de dañarlos.",
+                    "en": "With certain criteria, when an enemy falls the others gain shield stacks you must break before you can damage them.",
+                    "zh": "在特定指标下，敌人倒下时其余敌人会获得护盾层数，需先削减才能造成伤害。",
+                    "ja": "特定の指標では、敵が倒れると残りの敵がシールドを重ね、先に削らないとダメージを与えられない。",
+                    "ko": "특정 지표에서는 적이 쓰러지면 나머지 적이 실드 중첩을 얻으며, 먼저 깎아야 피해를 줄 수 있습니다."
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warn",
+          "h": {
+            "es": "Lo que todavía no está en las fuentes oficiales",
+            "en": "Not in the official sources yet",
+            "zh": "官方资料尚未公布的内容",
+            "ja": "公式情報にまだ掲載されていない内容",
+            "ko": "공식 자료에 아직 없는 내용"
+          },
+          "body": {
+            "es": "Las estrellas de cada criterio, el tercer criterio clave, el tope de recompensas por riesgo y la lista completa de la tienda se completan cuando salgan las notas de la versión o abra la temporada.",
+            "en": "The stars of each criterion, the third Key Criterion, the risk reward cap and the full shop list get filled in when the version notes come out or the season opens.",
+            "zh": "各指标星级、第3个密钥指标、风险度奖励上限与完整商店列表，待版本更新说明公布或赛季开启后补全。",
+            "ja": "各指標の星の数、3つ目の認証指標、危険レベルの報酬上限、ショップの全リストは、バージョン更新ノートの公開またはシーズン開始後に追記します。",
+            "ko": "각 지표의 별 개수, 세 번째 비밀 지표, 위험도 보상 상한, 상점 전체 목록은 버전 업데이트 노트 공개 또는 시즌 시작 후 보완합니다."
+          }
+        }
+      ]
+    },
+    {
       "id": "trial-of-the-bow",
       "cover": "assets/events/trial-of-the-bow-banner.webp",
       "accent": "#57b98b",
@@ -990,18 +1739,18 @@
             },
             {
               "k": {
-                "es": "Temporadas de la 1.5",
-                "en": "1.5 seasons",
-                "zh": "1.5 赛季",
-                "ja": "1.5のシーズン",
-                "ko": "1.5 시즌"
+                "es": "Temporadas de la 1.6",
+                "en": "1.6 seasons",
+                "zh": "1.6 赛季",
+                "ja": "1.6のシーズン",
+                "ko": "1.6 시즌"
               },
               "v": {
-                "es": "Season of Virtuality hasta el 24 sep, 11:59 · Season of Illusion desde el 24 sep, 12:00 (hora del servidor)",
-                "en": "Season of Virtuality until Sep 24, 11:59 · Season of Illusion from Sep 24, 12:00 (server time)",
-                "zh": "虚像赛季至9月24日11:59 · 错视赛季9月24日12:00起（服务器时间）",
-                "ja": "虚像シーズン：9月24日11:59まで・錯覚シーズン：9月24日12:00から（サーバー時間）",
-                "ko": "허상의 회상: 9월 24일 11:59까지 · 착시의 회상: 9월 24일 12:00부터(서버 시간)"
+                "es": "Fantasía desde la actualización · Fervor desde el 5 nov (hora del servidor)",
+                "en": "Phantasia from the update · Fervor from Nov 5 (server time)",
+                "zh": "Phantasia：版本更新后 · Fervor：11月5日起（服务器时间）",
+                "ja": "Phantasia：バージョン開始後・Fervor：11月5日から（サーバー時間）",
+                "ko": "Phantasia: 버전 업데이트 후 · Fervor: 11월 5일부터(서버 시간)"
               }
             },
             {
@@ -1047,6 +1796,47 @@
             "ja": "戦争残響は1.4 の常設チャレンジモードです。各シーズンに3つのサイクルがあり、各サイクルでは制限時間付きの戦闘ステージが3つ開放され、それぞれ戦いを一変させるギミックがあります。各ステージは通常、苦難、苛烈で挑め、ステージごとに独立したチームを編成します。あるステージの編成が他を縛ることはありません。最上位の報酬は難易度に依存せず、赤晶玉はすべて通常からです。苦難と苛烈は名誉のため：シーズンの称号を決める星を増やします。",
             "ko": "전쟁의 메아리는 1.4의 상시 도전 모드입니다. 시즌마다 세 사이클이 있고, 각 사이클은 제한 시간 전투 스테이지 세 개를 열며, 각각 전투를 뒤바꾸는 고유 기믹이 있습니다. 모든 스테이지는 일반·고난·잔혹으로 진행되며 스테이지마다 독립된 팀을 데려갑니다. 한 곳의 편성이 다른 곳을 제한하지 않습니다. 최고 보상은 난이도와 무관하며, 오로베릴은 전부 일반에서 나옵니다. 고난과 잔혹은 명예를 위한 것으로, 시즌 칭호를 결정하는 별을 올립니다."
           }
+        },
+        {
+          "type": "meta",
+          "id": "eow-seasons-1-6",
+          "h": {
+            "es": "Temporadas de la 1.6",
+            "en": "The 1.6 seasons",
+            "zh": "1.6 版本赛季",
+            "ja": "1.6のシーズン",
+            "ko": "1.6 버전 시즌"
+          },
+          "body": {
+            "es": "La 1.6 abre dos temporadas nuevas, Fantasía y Fervor. Cada una sigue rotando etapas existentes y suma tres etapas nuevas, con enemigos y combinaciones de etapas actualizados y recompensas como Oroberyl.",
+            "en": "Version 1.6 opens two new seasons, Phantasia and Fervor. Each keeps rotating existing stages and adds three new ones, with updated enemies and stage combinations and rewards such as Oroberyl.",
+            "zh": "1.6 版本开放两个新赛季「Phantasia」与「Fervor」。每个赛季继续轮换已有关卡，并新增3个关卡，敌人与关卡组合也会更新，可获得嵌晶玉等奖励。",
+            "ja": "1.6では新シーズン「Phantasia」と「Fervor」が開催されます。各シーズンは既存ステージのローテーションを続けつつ新ステージを3つ追加し、敵とステージの組み合わせも更新されます。赤晶玉などを獲得できます。",
+            "ko": "1.6 버전에는 새 시즌 「Phantasia」와 「Fervor」가 열립니다. 각 시즌은 기존 스테이지를 계속 순환하면서 신규 스테이지 3개를 추가하고, 적과 스테이지 조합도 갱신되며 오로베릴 등을 얻을 수 있습니다."
+          },
+          "points": [
+            {
+              "es": "Fantasía (Phantasia): desde la actualización de la versión «Santuario de tinta».",
+              "en": "Phantasia: from the \"Sanctuary of Ink\" version update.",
+              "zh": "Phantasia：「丹青渡」版本更新后。",
+              "ja": "Phantasia：バージョン「丹青渡」開始後。",
+              "ko": "Phantasia: 「단청도」 버전 업데이트 후."
+            },
+            {
+              "es": "Fervor: desde el 5 de noviembre de 2026 (hora del servidor).",
+              "en": "Fervor: from Nov. 5, 2026 (server time).",
+              "zh": "Fervor：2026年11月5日起（服务器时间）。",
+              "ja": "Fervor：2026年11月5日から（サーバー時間）。",
+              "ko": "Fervor: 2026년 11월 5일부터(서버 시간)."
+            },
+            {
+              "es": "Las horas exactas, los nombres de las etapas nuevas y sus mecánicas no están en las fuentes oficiales.",
+              "en": "The exact times, the new stages' names and their mechanics aren't in the official sources.",
+              "zh": "具体时间、新增关卡名称与机制，官方资料尚未公布。",
+              "ja": "正確な時刻、新ステージの名称とギミックは公式情報に掲載されていません。",
+              "ko": "정확한 시간, 신규 스테이지 이름과 기믹은 공식 자료에 나와 있지 않습니다."
+            }
+          ]
         },
         {
           "type": "meta",
