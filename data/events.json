@@ -47,19 +47,19 @@
       "tags_zh": [
         "经营",
         "种植",
-        "Auto-Farmer",
+        "自动农植机",
         "常驻"
       ],
       "tags_ja": [
         "営業",
         "栽培",
-        "Auto-Farmer",
+        "自動農業マシン",
         "常時開放"
       ],
       "tags_ko": [
         "운영",
         "재배",
-        "Auto-Farmer",
+        "농업 자동화 설비",
         "상시"
       ],
       "blocks": [
@@ -176,9 +176,9 @@
               "h": {
                 "es": "Autoagricultor",
                 "en": "Auto-Farmer",
-                "zh": "Auto-Farmer",
-                "ja": "Auto-Farmer",
-                "ko": "Auto-Farmer"
+                "zh": "自动农植机",
+                "ja": "自動農業マシン",
+                "ko": "농업 자동화 설비"
               },
               "body": {
                 "es": "Máquina nueva que siembra y cosecha a distancia. Se desbloquea en este evento y, con la historia, también llega a la granja de Wuling.",
@@ -343,9 +343,9 @@
               "h": {
                 "es": "Placas de datos",
                 "en": "Dataplates",
-                "zh": "Dataplates",
-                "ja": "Dataplates",
-                "ko": "Dataplates"
+                "zh": "铭牌",
+                "ja": "カード",
+                "ko": "플레이트"
               },
               "body": {
                 "es": "Cada placa es un grupo de enemigos con sus puntos de batalla (BP). Más BP sube el puntaje de recompensa y también la dificultad: ya no se pierde todo al pasar de 10 BP.",
@@ -458,9 +458,9 @@
       "summary": {
         "es": "La segunda temporada de Contrato de contingencia. Vuelve el armado de riesgos con tres criterios clave nuevos que cambian el ritmo del combate (bloqueos de combos y de habilidades de batalla), criterios especiales y, por primera vez, criterios que les dan ataques nuevos a los enemigos.",
         "en": "The second Contingency Contract season. Risk-building is back with three new Key Criteria that change the pace of combat (locks on combos and battle skills), special criteria and, for the first time, criteria that give enemies new attacks.",
-        "zh": "世界正在变化，回应遥遥无期。污浊潮水涌入了协议空间……请您粉碎这份亵渎。危机合约第二期，新增3个密钥指标、特殊指标，以及首次加入的强化敌人招式的指标。",
-        "ja": "世界は変わりゆく。穢れた濁流が協約空間へと流れ込んだ――この冒涜に、終止符を。危機契約の第2期。新しい認証指標3つ、特殊な指標、そして初登場の敵の攻撃を強化する指標が加わります。",
-        "ko": "세계는 변해가지만, 그 변화에 답할 날은 아직 아득히 멀리 있습니다. 위기 협약 2기로, 새 비밀 지표 3개와 특수 지표, 그리고 처음으로 적의 공격을 강화하는 지표가 추가됩니다."
+        "zh": "世界正在变化，回应遥遥无期。污浊潮水涌入了协议空间……请您粉碎这份亵渎。危机合约二期，新增3个密钥指标、特殊指标，以及首次加入的强化敌人招式的指标。",
+        "ja": "世界は変わりゆく。穢れた濁流が協約空間へと流れ込んだ――この冒涜に、終止符を。危機契約の第2弾。新しい認証指標3つ、特殊な指標、そして初登場の敵の攻撃を強化する指標が加わります。",
+        "ko": "세계는 변해가지만, 그 변화에 답할 날은 아직 아득히 멀리 있습니다. 위기 협약 2주차로, 새 비밀 지표 3개와 특수 지표, 그리고 처음으로 적의 공격을 강화하는 지표가 추가됩니다."
       },
       "tags": [
         "endgame",
@@ -634,7 +634,7 @@
                     "es": "Cuando un operador lanza su máxima, la energía de máxima de todo el equipo vuelve a cero.",
                     "en": "When an operator casts their ultimate, the whole team's Ultimate Energy resets to zero.",
                     "zh": "任一干员释放终结技时，全队终结技能量归零。",
-                    "ja": "オペレーターが必殺技を発動すると、編成全員の必殺技エネルギーが0になる。",
+                    "ja": "オペレーターが必殺技を発動すると、編成全員の必殺チャージが0になる。",
                     "ko": "오퍼레이터가 궁극기를 쓰면 팀 전원의 궁극기 에너지가 0이 됩니다."
                   }
                 },
@@ -1442,7 +1442,7 @@
       "summary": {
         "es": "Segunda sesión del Soporte del CAI. Completas las misiones indicadas para desbloquear las fórmulas de mercancías de apoyo y el Intercambio de mercancías; produces esas mercancías y las entregas en los puestos de avanzada de Wuling, que además de Vales de crédito dan Certificados de Frutos del Altruismo adicionales para canjear en el Intercambio. Durante el evento algunos puestos suben mucho su producción.",
         "en": "Second session of AIC Support. You complete the listed missions to unlock the support goods formulas and the Goods Exchange, then produce those goods and submit them at Wuling outposts, which on top of Stock Bills hand out bonus Fruits of Altruism Certs to spend at the Goods Exchange. While it runs, some outposts see a big production boost.",
-        "zh": "集成援助第二期。完成特定任务以解锁援助物品配方与物资兑换处；生产援助物品并提交至武陵据点，除调度券外还可额外获得援助成果券，用于在物资兑换处兑换物资。活动期间，部分据点的产量大幅提升。",
+        "zh": "集成援助二期。完成特定任务以解锁援助物品配方与物资兑换处；生产援助物品并提交至武陵据点，除调度券外还可额外获得援助成果券，用于在物资兑换处兑换物资。活动期间，部分据点的产量大幅提升。",
         "ja": "集成支援の第2回。指定の任務を完了すると支援物資のレシピと物資交換所が解放されます。支援物資を生産して武陵の拠点に提出すると、取引券に加えて支援成果券を追加で入手でき、物資交換所で交換できます。開催中は一部の拠点の生産量が大幅に増えます。",
         "ko": "통합 지원 2회차. 특정 임무를 완료하면 지원 아이템 조합 공식과 물자 교환소가 잠금 해제됩니다. 지원 아이템을 생산해 무릉 거점에 제출하면 관리권과 함께 지원 성과권을 추가로 받으며, 물자 교환소에서 교환할 수 있습니다. 진행 중에는 일부 거점의 생산량이 크게 오릅니다."
       },
@@ -1468,7 +1468,7 @@
               "v": {
                 "es": "Evento de producción del CAI · sesión 2",
                 "en": "AIC Production Event · session 2",
-                "zh": "集成生产活动 · 第二期",
+                "zh": "集成生产活动 · 二期",
                 "ja": "集成生産イベント・第2回",
                 "ko": "통합 생산 이벤트 · 2회차"
               }
@@ -1748,9 +1748,9 @@
               "v": {
                 "es": "Fantasía desde la actualización · Fervor desde el 5 nov (hora del servidor)",
                 "en": "Phantasia from the update · Fervor from Nov 5 (server time)",
-                "zh": "Phantasia：版本更新后 · Fervor：11月5日起（服务器时间）",
-                "ja": "Phantasia：バージョン開始後・Fervor：11月5日から（サーバー時間）",
-                "ko": "Phantasia: 버전 업데이트 후 · Fervor: 11월 5일부터(서버 시간)"
+                "zh": "异想：版本更新后 · 狂热：11月5日起（服务器时间）",
+                "ja": "奇想：バージョン開始後・狂熱：11月5日から（サーバー時間）",
+                "ko": "이색: 버전 업데이트 후 · 열광: 11월 5일부터(서버 시간)"
               }
             },
             {
@@ -1810,24 +1810,24 @@
           "body": {
             "es": "La 1.6 abre dos temporadas nuevas, Fantasía y Fervor. Cada una sigue rotando etapas existentes y suma tres etapas nuevas, con enemigos y combinaciones de etapas actualizados y recompensas como Oroberyl.",
             "en": "Version 1.6 opens two new seasons, Phantasia and Fervor. Each keeps rotating existing stages and adds three new ones, with updated enemies and stage combinations and rewards such as Oroberyl.",
-            "zh": "1.6 版本开放两个新赛季「Phantasia」与「Fervor」。每个赛季继续轮换已有关卡，并新增3个关卡，敌人与关卡组合也会更新，可获得嵌晶玉等奖励。",
-            "ja": "1.6では新シーズン「Phantasia」と「Fervor」が開催されます。各シーズンは既存ステージのローテーションを続けつつ新ステージを3つ追加し、敵とステージの組み合わせも更新されます。赤晶玉などを獲得できます。",
-            "ko": "1.6 버전에는 새 시즌 「Phantasia」와 「Fervor」가 열립니다. 각 시즌은 기존 스테이지를 계속 순환하면서 신규 스테이지 3개를 추가하고, 적과 스테이지 조합도 갱신되며 오로베릴 등을 얻을 수 있습니다."
+            "zh": "1.6 版本开放两个新赛季「异想」与「狂热」。每个赛季继续轮换已有关卡，并新增3个关卡，敌人与关卡组合也会更新，可获得嵌晶玉等奖励。",
+            "ja": "1.6では新シーズン「奇想」と「狂熱」が開催されます。各シーズンは既存ステージのローテーションを続けつつ新ステージを3つ追加し、敵とステージの組み合わせも更新されます。赤晶玉などを獲得できます。",
+            "ko": "1.6 버전에는 새 시즌 「이색」와 「열광」가 열립니다. 각 시즌은 기존 스테이지를 계속 순환하면서 신규 스테이지 3개를 추가하고, 적과 스테이지 조합도 갱신되며 오로베릴 등을 얻을 수 있습니다."
           },
           "points": [
             {
               "es": "Fantasía (Phantasia): desde la actualización de la versión «Santuario de tinta».",
               "en": "Phantasia: from the \"Sanctuary of Ink\" version update.",
-              "zh": "Phantasia：「丹青渡」版本更新后。",
-              "ja": "Phantasia：バージョン「丹青渡」開始後。",
-              "ko": "Phantasia: 「단청도」 버전 업데이트 후."
+              "zh": "异想：「丹青渡」版本更新后。",
+              "ja": "奇想：バージョン「丹青渡」開始後。",
+              "ko": "이색: 「단청도」 버전 업데이트 후."
             },
             {
               "es": "Fervor: desde el 5 de noviembre de 2026 (hora del servidor).",
               "en": "Fervor: from Nov. 5, 2026 (server time).",
-              "zh": "Fervor：2026年11月5日起（服务器时间）。",
-              "ja": "Fervor：2026年11月5日から（サーバー時間）。",
-              "ko": "Fervor: 2026년 11월 5일부터(서버 시간)."
+              "zh": "狂热：2026年11月5日起（服务器时间）。",
+              "ja": "狂熱：2026年11月5日から（サーバー時間）。",
+              "ko": "열광: 2026년 11월 5일부터(서버 시간)."
             },
             {
               "es": "Las horas exactas, los nombres de las etapas nuevas y sus mecánicas no están en las fuentes oficiales.",
@@ -2038,9 +2038,9 @@
                   "eff": {
                     "es": "Bonecrusher Vanguard, Arsonist y Executioner + Heavy Ram. Derrotar enemigos te da buffs de stat, pero la curación está restringida a HP Treatment. Bonus de Brutal: limpiar en 3 min.",
                     "en": "Bonecrusher Vanguard, Arsonist and Executioner + Heavy Ram. Defeating enemies grants stat buffs, but healing is restricted to HP Treatment. Brutal bonus: clear within 3 min.",
-                    "zh": "碎骨者先锋、纵火者和处刑者 + 重型冲撞兽。击败敌人获得属性增益，但回复手段仅限「治疗」。残酷额外目标：3分钟内通关。",
-                    "ja": "ボーンクラッシャーの先鋒、放火犯、処刑人＋重装ラム。敵を倒すとステータス強化を得ますが、回復は「治療」に限られます。苛烈のボーナス：3分以内にクリア。",
-                    "ko": "본크러셔 뱅가드, 방화범, 처형자 + 중장 램. 적을 처치하면 스탯 버프를 얻지만 회복은 「치유」로 제한됩니다. 잔혹 보너스: 3분 안에 클리어."
+                    "zh": "碾骨先锋、碾骨清道夫和碾骨行刑人 + 刚角天使。击败敌人获得属性增益，但回复手段仅限「治疗」。残酷额外目标：3分钟内通关。",
+                    "ja": "ボーンクラッシャーの先鋒、ボーンクラッシャーの始末屋、ボーンクラッシャーの処刑人＋剛角アンゲロス。敵を倒すとステータス強化を得ますが、回復は「治療」に限られます。苛烈のボーナス：3分以内にクリア。",
+                    "ko": "본 크러셔 돌격수, 본 크러셔 집행자, 본 크러셔 처형자 + 쌍뿔아겔로스. 적을 처치하면 스탯 버프를 얻지만 회복은 「치유」로 제한됩니다. 잔혹 보너스: 3분 안에 클리어."
                   },
                   "name_es": "Cicatrices rompesuelos",
                   "name_zh": "裂地旧创",
@@ -2543,9 +2543,9 @@
               "name": {
                 "es": "Medalla · Nocturnal Tactics",
                 "en": "Medal · Nocturnal Tactics",
-                "zh": "奖章 · 夜行战术",
-                "ja": "勲章・夜行戦術",
-                "ko": "훈장 · 야간 전술"
+                "zh": "奖章 · 暗夜战术",
+                "ja": "勲章・闇夜の戦術",
+                "ko": "훈장 · 어둠의 전술"
               },
               "how": {
                 "es": "Completa las ocho etapas en Normal.",
@@ -2577,9 +2577,9 @@
               "name": {
                 "es": "Marco · Heat Ragers' Party",
                 "en": "Frame · Heat Ragers' Party",
-                "zh": "头像框 · 灼热狂欢派对",
-                "ja": "フレーム・ヒートレイジャーズ・パーティ",
-                "ko": "프레임 · 히트 레이저스 파티"
+                "zh": "头像框 · 炽燃盛会",
+                "ja": "フレーム・熾烈な争い",
+                "ko": "프레임 · 불타오르는 축제"
               },
               "how": {
                 "es": "Completa cuatro etapas en Normal. Cae junto a 3 Mark of Perseverance.",
@@ -2710,9 +2710,9 @@
       "summary": {
         "es": "Un Protocol Space de recorrido y recolección: juntas Aurylene Fragments por rutas y cámaras, y cada fragmento suma puntos en una pista de recompensas. Es el evento ligero de la versión, con combate solo en las cámaras que lo piden.",
         "en": "A Protocol Space about routes and collecting: you gather Aurylene Fragments through routes and chambers, and every fragment adds points to a reward track. It's the version's light event, with combat only in the chambers that ask for it.",
-        "zh": "一个关于路线和收集的协议空间：在路线和密室中收集金铃碎片，每个碎片都为奖励进度增加点数。这是版本的轻松活动，只有需要战斗的密室才有战斗。",
-        "ja": "ルートと収集のプロトコル空間。ルートやチャンバーでオーリレーンの欠片を集め、欠片ごとに報酬トラックのポイントが加算されます。バージョンの軽めのイベントで、戦闘は必要なチャンバーだけです。",
-        "ko": "경로와 수집이 주제인 프로토콜 공간. 경로와 챔버에서 오릴렌 조각을 모으고, 조각마다 보상 트랙에 점수가 쌓입니다. 버전의 가벼운 이벤트로, 전투는 요구하는 챔버에서만 있습니다."
+        "zh": "一个关于路线和收集的协议空间：在路线和密室中收集醚质残块，每个碎片都为奖励进度增加点数。这是版本的轻松活动，只有需要战斗的密室才有战斗。",
+        "ja": "ルートと収集のプロトコル空間。ルートやチャンバーでオーリレンの欠片を集め、欠片ごとに報酬トラックのポイントが加算されます。バージョンの軽めのイベントで、戦闘は必要なチャンバーだけです。",
+        "ko": "경로와 수집이 주제인 프로토콜 공간. 경로와 챔버에서 오리렌 조각을 모으고, 조각마다 보상 트랙에 점수가 쌓입니다. 버전의 가벼운 이벤트로, 전투는 요구하는 챔버에서만 있습니다."
       },
       "tags": [
         "limited",
@@ -2796,9 +2796,9 @@
           "body": {
             "es": "Entras al Protocol Space y recorres rutas y cámaras recogiendo Aurylene Fragments. Todo lo que juntas se convierte en Journey Points, y esos puntos son los que van abriendo la pista de recompensas: el evento no tiene tienda ni moneda que gastar, es una barra que sube. Abre con tres etapas y el 15 de agosto se destraban las seis.",
             "en": "You enter the Protocol Space and run routes and chambers picking up Aurylene Fragments. Everything you gather turns into Journey Points, and those points are what open the reward track: the event has no shop and no currency to spend, it's a bar that fills. It opens with three stages and on August 15 all six unlock.",
-            "zh": "进入协议空间，跑路线和密室，捡起金铃碎片。收集的一切都变成旅程点数，这些点数打开奖励进度：活动没有商店，也没有可花的货币，只是一条会填满的进度条。开放时有三个关卡，8月15日六个全部解锁。",
-            "ja": "プロトコル空間に入り、ルートとチャンバーを回ってオーリレーンの欠片を拾います。集めたものはすべてジャーニーポイントになり、それが報酬トラックを開きます。ショップも使う通貨もなく、貯まっていくゲージです。開始時は3ステージ、8月15日に6つすべてが開放されます。",
-            "ko": "프로토콜 공간에 들어가 경로와 챔버를 돌며 오릴렌 조각을 줍습니다. 모은 것은 전부 여정 포인트가 되고, 그 포인트가 보상 트랙을 엽니다. 상점도 쓸 화폐도 없이 채워지는 막대 하나뿐입니다. 시작 시 세 스테이지가 있고 8월 15일에 여섯 개가 모두 열립니다."
+            "zh": "进入协议空间，跑路线和密室，捡起醚质残块。收集的一切都变成历程积分，这些点数打开奖励进度：活动没有商店，也没有可花的货币，只是一条会填满的进度条。开放时有三个关卡，8月15日六个全部解锁。",
+            "ja": "プロトコル空間に入り、ルートとチャンバーを回ってオーリレンの欠片を拾います。集めたものはすべて遍歴ポイントになり、それが報酬トラックを開きます。ショップも使う通貨もなく、貯まっていくゲージです。開始時は3ステージ、8月15日に6つすべてが開放されます。",
+            "ko": "프로토콜 공간에 들어가 경로와 챔버를 돌며 오리렌 조각을 줍습니다. 모은 것은 전부 여정 포인트가 되고, 그 포인트가 보상 트랙을 엽니다. 상점도 쓸 화폐도 없이 채워지는 막대 하나뿐입니다. 시작 시 세 스테이지가 있고 8월 15일에 여섯 개가 모두 열립니다."
           }
         },
         {
@@ -2806,15 +2806,15 @@
           "h": {
             "es": "Realm Quests",
             "en": "Realm Quests",
-            "zh": "境界任务",
-            "ja": "レルムクエスト",
-            "ko": "영역 퀘스트"
+            "zh": "奇境任务",
+            "ja": "奇景クエスト",
+            "ko": "미지의 구역 임무"
           },
           "body": {
             "es": "Seis tareas que dan 100 Journey Points cada una. Se completan en fase 2, cuando están las seis etapas, y son también la condición para grabar la medalla.",
             "en": "Six tasks worth 100 Journey Points each. They're completed in phase 2, once all six stages are up, and they're also the condition for trimming the medal.",
-            "zh": "六个任务，各值100旅程点数。在第二阶段、六个关卡全部开放后完成，也是奖章镶边的条件。",
-            "ja": "6つのタスク、各100ジャーニーポイント。第2フェーズで6ステージがすべて開いてから完了でき、勲章の装飾の条件でもあります。",
+            "zh": "六个任务，各值100历程积分。在第二阶段、六个关卡全部开放后完成，也是奖章镶边的条件。",
+            "ja": "6つのタスク、各100遍歴ポイント。第2フェーズで6ステージがすべて開いてから完了でき、勲章の装飾の条件でもあります。",
             "ko": "각 100 여정 포인트짜리 과제 여섯 개. 2단계에서 여섯 스테이지가 모두 열린 뒤 완료하며, 훈장 장식의 조건이기도 합니다."
           },
           "points": [
@@ -2884,9 +2884,9 @@
               "name": {
                 "es": "Medalla · Explorer of the Realm",
                 "en": "Medal · Explorer of the Realm",
-                "zh": "奖章 · 境界探索者",
+                "zh": "奖章 · 奇境探索者",
                 "ja": "勲章・奇景探検家",
-                "ko": "훈장 · 영역 탐험가"
+                "ko": "훈장 · 미지의 구역 탐험가"
               },
               "how": {
                 "es": "Completa una vez la cámara Shower of Coins en la fase 2.",
@@ -2908,9 +2908,9 @@
               "how": {
                 "es": "Completa las seis Realm Quests de las dos fases.",
                 "en": "Complete all six Realm Quests across both phases.",
-                "zh": "在两个阶段中完成全部六个境界任务。",
-                "ja": "両フェーズを通じて6つのレルムクエストをすべて完了する。",
-                "ko": "두 단계에 걸쳐 영역 퀘스트 여섯 개를 모두 완료."
+                "zh": "在两个阶段中完成全部六个奇境任务。",
+                "ja": "両フェーズを通じて6つの奇景クエストをすべて完了する。",
+                "ko": "두 단계에 걸쳐 미지의 구역 임무 여섯 개를 모두 완료."
               }
             },
             {
@@ -2918,15 +2918,15 @@
               "name": {
                 "es": "Aurylene Fragment",
                 "en": "Aurylene Fragment",
-                "zh": "金铃碎片",
-                "ja": "オーリレーンの欠片",
-                "ko": "오릴렌 조각"
+                "zh": "醚质残块",
+                "ja": "オーリレンの欠片",
+                "ko": "오리렌 조각"
               },
               "how": {
                 "es": "La ficha del evento: sale de rutas y cámaras y se convierte en Journey Points. No se gasta en nada, solo acumula.",
                 "en": "The event token: it comes from routes and chambers and converts into Journey Points. You don't spend it on anything, it just accumulates.",
-                "zh": "活动代币：来自路线和密室，转化为旅程点数。不用花在任何地方，只是累积。",
-                "ja": "イベントのトークン。ルートとチャンバーで手に入り、ジャーニーポイントに変わります。何かに使うことはなく、ただ貯まります。",
+                "zh": "活动代币：来自路线和密室，转化为历程积分。不用花在任何地方，只是累积。",
+                "ja": "イベントのトークン。ルートとチャンバーで手に入り、遍歴ポイントに変わります。何かに使うことはなく、ただ貯まります。",
                 "ko": "이벤트 토큰. 경로와 챔버에서 나오며 여정 포인트로 바뀝니다. 어디에도 쓰지 않고 그저 쌓입니다."
               }
             }
@@ -2944,9 +2944,9 @@
           "body": {
             "es": "Todo va por hitos de Journey Points en la pista Rooted Journey, hasta 1200 puntos.",
             "en": "Everything runs on Journey Point milestones along the Rooted Journey track, up to 1200 points.",
-            "zh": "一切都通过扎根之旅进度的旅程点数里程碑发放，最高1200点。",
-            "ja": "すべてルーテッド・ジャーニーのトラックにあるジャーニーポイントのマイルストーンで進み、最大1200ポイントです。",
-            "ko": "모든 것은 뿌리내린 여정 트랙의 여정 포인트 이정표로 진행되며 최대 1200포인트입니다."
+            "zh": "一切都通过根脉历程进度的历程积分里程碑发放，最高1200点。",
+            "ja": "すべて根脈遍歴のトラックにある遍歴ポイントのマイルストーンで進み、最大1200ポイントです。",
+            "ko": "모든 것은 미지의 여정 트랙의 여정 포인트 이정표로 진행되며 최대 1200포인트입니다."
           },
           "points": [
             {
@@ -3037,9 +3037,9 @@
       "title": {
         "es": "Contingency Contract: Re-Ignition",
         "en": "Contingency Contract: Re-Ignition",
-        "zh": "危机合约：再燃",
+        "zh": "危机合约：复燃",
         "ja": "危機契約：再燃",
-        "ko": "위기 협약: 재점화"
+        "ko": "위기 협약: 부활의 불씨"
       },
       "difficulty": "Endgame",
       "summary": {
@@ -3228,7 +3228,7 @@
             "es": "Esta temporada tiene dos Key Criteria de 3★ que mueven todo. Ambient: Tremor sube el daño que NO es Basic, Battle Skill, Combo Skill ni Ultimate, y Ambient: Overclock recorta el cooldown de Combo Skill, pero los dos castigan fuerte el daño de Battle Skill. Resultado: el daño de reacción (Combustion, Shatter, Crush) y los Inflictions se vuelven mejora casi gratuita, mientras que las carries que viven de su Battle Skill (Zhuang Fangyi) pierden gas.",
             "en": "This season runs two 3★ Key Criteria that move everything. Ambient: Tremor boosts damage that is NOT Basic, Battle Skill, Combo Skill or Ultimate, and Ambient: Overclock cuts Combo Skill cooldown, but both punish Battle Skill damage hard. The upshot: reaction damage (Combustion, Shatter, Crush) and Inflictions become a near-free upgrade, while carries that live off their Battle Skill (Zhuang Fangyi) lose steam.",
             "zh": "本赛季有两个3★密钥指标改变一切。环境：震荡强化不属于普攻、战技、连携技或终结技的伤害，环境：过速缩短连携技冷却，但两者都重罚战技伤害。结果：反应伤害（燃烧、碎冰、猛击）和附着几乎等于白嫖的加强，而靠战技吃饭的主C（庄方宜）失去动力。",
-            "ja": "今シーズンはすべてを動かす3★の認証指標が2つ。環境：振動は通常攻撃・戦技・連携技・必殺技以外のダメージを強化し、環境：過速は連携技のクールダウンを短縮しますが、どちらも戦技のダメージを重く罰します。結果、反応ダメージ（燃焼、粉砕、猛撃）と付着は実質ノーコストの強化になり、戦技で食べているキャリー（ゾアン・ファンイ）は失速します。",
+            "ja": "今シーズンはすべてを動かす3★の認証指標が2つ。環境：振動は通常攻撃・戦技・連携技・必殺技以外のダメージを強化し、環境：過速は連携技のクールタイムを短縮しますが、どちらも戦技のダメージを重く罰します。結果、反応ダメージ（燃焼、粉砕、猛撃）と付着は実質ノーコストの強化になり、戦技で食べているキャリー（ゾアン・ファンイ）は失速します。",
             "ko": "이번 시즌은 모든 것을 움직이는 3★ 비밀 지표가 둘입니다. 환경: 충격은 일반·배틀·연계·궁극기가 아닌 피해를 강화하고, 환경: 과속은 연계 스킬 쿨타임을 줄이지만, 둘 다 배틀 스킬 피해를 크게 벌합니다. 결과적으로 반응 피해(연소, 쇄빙, 강타)와 부착은 거의 공짜 강화가 되고, 배틀 스킬로 먹고사는 캐리(장방이)는 힘이 빠집니다."
           },
           "points": [
@@ -3380,7 +3380,7 @@
                     "es": "Recorta el cooldown de Combo Skill; castiga Battle Skill DMG.",
                     "en": "Cuts Combo Skill cooldown; penalizes Battle Skill DMG.",
                     "zh": "缩短连携技冷却；惩罚战技伤害。",
-                    "ja": "連携技のクールダウンを短縮し、戦技ダメージを罰する。",
+                    "ja": "連携技のクールタイムを短縮し、戦技ダメージを罰する。",
                     "ko": "연계 스킬 쿨타임 단축, 배틀 스킬 피해 페널티."
                   },
                   "name_zh": "过速",
@@ -3494,9 +3494,9 @@
                   "eff": {
                     "es": "Variantes Heavy Ram/Sting en las oleadas finales.",
                     "en": "Heavy Ram/Sting variants in the final waves.",
-                    "zh": "最后几波出现重型冲撞兽/刺针变体。",
-                    "ja": "最終ウェーブに重装ラム/スティングの亜種が出る。",
-                    "ko": "마지막 웨이브에 중장 램/스팅 변종 등장."
+                    "zh": "最后几波出现刚角天使/钉刺天使变体。",
+                    "ja": "最終ウェーブに剛角アンゲロス/針棘アンゲロスの亜種が出る。",
+                    "ko": "마지막 웨이브에 쌍뿔아겔로스/일미아겔로스 변종 등장."
                   },
                   "name_zh": "再构成 I–II",
                   "name_ja": "再構築 I–II",
@@ -3615,7 +3615,7 @@
                     "es": "El enemigo reduce daño recibido por cada stack de Vulnerability.",
                     "en": "Enemy reduces damage taken per Vulnerability stack.",
                     "zh": "敌人每层破防减少受到的伤害。",
-                    "ja": "敵はクラッシュのスタックごとに被ダメージを減らす。",
+                    "ja": "敵はクラッシュのスタックごとに受けるダメージを減らす。",
                     "ko": "적이 방어 불능 중첩당 받는 피해를 줄임."
                   },
                   "name_zh": "裹附",
@@ -3705,7 +3705,7 @@
                     "es": "Daño recibido por el operador controlado +50 / +100%.",
                     "en": "DMG taken by the controlled operator +50 / +100%.",
                     "zh": "主控干员受到的伤害 +50 / +100%。",
-                    "ja": "操作オペレーターの被ダメージ +50 / +100%。",
+                    "ja": "操作オペレーターの受けるダメージ +50 / +100%。",
                     "ko": "조작 오퍼레이터가 받는 피해 +50 / +100%."
                   },
                   "name_zh": "斩首 I–II",
@@ -3761,7 +3761,7 @@
                     "es": "Parte del daño que recibes se convierte en pérdida de Max HP.",
                     "en": "Part of the damage you take converts into Max HP loss.",
                     "zh": "受到的部分伤害转化为最大 HP 损失。",
-                    "ja": "被ダメージの一部が最大 HP の減少に変わる。",
+                    "ja": "受けるダメージの一部が最大 HP の減少に変わる。",
                     "ko": "받는 피해의 일부가 최대 HP 손실로 전환됨."
                   },
                   "name_zh": "衰竭",
@@ -3827,9 +3827,9 @@
           "h": {
             "es": "Tienda · Secret Sanctuary",
             "en": "Shop · Secret Sanctuary",
-            "zh": "商店 · 秘密庇护所",
-            "ja": "ショップ・シークレットサンクチュアリ",
-            "ko": "상점 · 비밀 성역"
+            "zh": "商店 · 机密圣所",
+            "ja": "ショップ・機密聖堂",
+            "ko": "상점 · 시크릿 생추어리"
           },
           "note": {
             "es": "Se paga con Vitrified Coins (15 por nivel de riesgo en la primera vez de cada criterio). Las monedas no pasan de temporada: gástalas.",
@@ -3936,7 +3936,7 @@
         "es": "El modo de combate permanente que llegó en la 1.3. No eliges una etapa: robas una mano de Dataplates que decide a la vez qué enemigos aparecen y qué te llevas. Subir el riesgo (Battle Points) sube la recompensa, hasta que te pasas y el Data Overflow lo borra todo.",
         "en": "The permanent combat mode added in 1.3. You don't pick a stage: you draw a hand of Dataplates that decides both which enemies show up and what you walk away with. Pushing the risk (Battle Points) raises the reward, until you overshoot and Data Overflow wipes it all.",
         "zh": "1.3 加入的永久战斗模式。你不选关卡：抽一手数据板，决定出场的敌人和你能带走的东西。推高风险（战斗点数）会提高奖励，直到超出阈值、数据溢出把一切清零。",
-        "ja": "1.3 で追加された常設の戦闘モード。ステージを選ぶのではなく、データプレートの手札を引き、それが出てくる敵と持ち帰れるものの両方を決めます。リスク（バトルポイント）を上げると報酬も上がりますが、超えすぎるとデータオーバーフローですべて消えます。",
+        "ja": "1.3 で追加された常設の戦闘モード。ステージを選ぶのではなく、データプレートの手札を引き、それが出てくる敵と持ち帰れるものの両方を決めます。リスク（バトルポイント）を上げると報酬も上がりますが、超えすぎるとデータのオーバーフローですべて消えます。",
         "ko": "1.3에 추가된 상시 전투 모드. 스테이지를 고르지 않고 데이터플레이트 패를 뽑으며, 그것이 나오는 적과 가져갈 것을 모두 정합니다. 리스크(전투 점수)를 올리면 보상이 오르지만, 넘치면 데이터 오버플로가 전부 지워 버립니다."
       },
       "tags": [
@@ -4059,7 +4059,7 @@
                 "es": "Data Overflow al pasar de 10 BP",
                 "en": "Data Overflow past 10 BP",
                 "zh": "超过10 BP 数据溢出",
-                "ja": "10 BP を超えるとデータオーバーフロー",
+                "ja": "10 BP を超えるとデータのオーバーフロー",
                 "ko": "10 BP를 넘으면 데이터 오버플로"
               },
               "body": {
@@ -4120,7 +4120,7 @@
             "es": "En Rewarded, tu objetivo es maximizar Battle Points SIN pasar de 10: ahí está el premio más alto sin disparar el Data Overflow. Si tu equipo puede con enemigos +30, a veces compensa cruzar a propósito en Free Trial para farmear drops; pero para Wuling Bills, quédate justo en el umbral.",
             "en": "In Rewarded, your goal is to maximize Battle Points WITHOUT going over 10: that's the highest reward before Data Overflow triggers. If your team can handle +30 enemies, crossing on purpose in Free Trial can be worth it for drops; but for Wuling Bills, sit right on the threshold.",
             "zh": "在奖励试炼中，目标是在不超过10的前提下最大化战斗点数：那是数据溢出触发前的最高奖励。如果你的队伍能应付 +30的敌人，在自由试炼里故意越线可能值得，为了掉落；但为了武陵票据，就正好停在阈值上。",
-            "ja": "報酬試練の目標は、10を超えずにバトルポイントを最大化すること。それがデータオーバーフローが起きる前の最高報酬です。チームが +30の敵を捌けるなら、自由試練でわざと超えるのもドロップ狙いでは価値があります。でも武陵ビルが目的なら、しきい値ぴったりに留まりましょう。",
+            "ja": "報酬試練の目標は、10を超えずにバトルポイントを最大化すること。それがデータのオーバーフローが起きる前の最高報酬です。チームが +30の敵を捌けるなら、自由試練でわざと超えるのもドロップ狙いでは価値があります。でも武陵ビルが目的なら、しきい値ぴったりに留まりましょう。",
             "ko": "보상 시련의 목표는 10을 넘지 않으면서 전투 점수를 최대화하는 것입니다. 그것이 데이터 오버플로가 발동하기 전 최고 보상입니다. 팀이 +30 적을 감당할 수 있다면 자유 시련에서 일부러 넘는 것도 드롭을 위해서는 가치가 있지만, 무릉 빌이 목적이라면 임계값에 딱 맞춰 머무르세요."
           }
         }

@@ -666,7 +666,34 @@
   "typhoeus": {
    "comboTrigger": {
     "raw": "When Typhoeus reaches max Signs.",
-    "situational": "al juntar 8 Signos (recurso propio: +1 por Nature Burst en un enemigo y +1 por ABATK que consume Nature Infliction; entra con 4)"
+    "mechanic": "signs"
+   },
+   "hits": {
+    "battle_skill": {
+     "Initial Aerial Shot DMG Multiplier": {
+      "hits": [0, 1],
+      "split": true
+     },
+     "ABATK DMG Multiplier": [2, 3, 4, 5],
+     "Aerial Final Strike DMG Multiplier": [6]
+    },
+    "ultimate": {
+     "Imbued Arrow Explosion DMG Multiplier": [0],
+     "ABATK DMG Multiplier": {
+      "at": [2.833, 3.466, 4.099, 4.732],
+      "from": "battle_skill"
+     },
+     "Aerial Final Strike DMG Multiplier": {
+      "at": [5.649],
+      "from": "battle_skill"
+     },
+     "Normal Hail of Arrows DMG Multiplier": {
+      "at": [2.833, 3.466, 4.099, 4.732]
+     },
+     "Empowered Hail of Arrows DMG Multiplier": {
+      "at": [5.649]
+     }
+    }
    }
   }
  }

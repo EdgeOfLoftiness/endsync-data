@@ -281,7 +281,7 @@
       "en": "When the wielder applies Electrification: the team gains Physical DMG Dealt and Electric DMG Dealt +value for 15s (does not stack with itself). The passive's Arts Intensity +10..28 is already counted separately.",
       "zh": "持有者施加导电时：全队物理伤害和电磁伤害 +数值，15秒（不与自身叠加）。被动的源石技艺强度 +10..28已另行计入。",
       "ja": "装備者が感電を付与したとき：チームの物理ダメージと電磁ダメージ ＋値、15秒（自身とは重複しない）。パッシブのアーツ強度 +10〜28は別に計上済み。",
-      "ko": "장착자가 감전을 적용할 때: 팀 물리 피해와 전기 피해 +값, 15초(자신과 중첩되지 않음). 패시브의 아츠 강도 +10..28은 따로 계산됨."
+      "ko": "장착자가 감전을 적용할 때: 팀 물리 피해와 전기 피해 +값, 15초(자신과 중첩되지 않음). 패시브의 오리지늄 아츠 강도 +10..28은 따로 계산됨."
      },
      "mods": [
       {
@@ -1707,7 +1707,7 @@
       "en": "Arts Intensity +value by node (2nd sentence of the passive — previously lost).",
       "zh": "按节点的源石技艺强度 +数值（被动的第二句——之前遗漏）。",
       "ja": "ノードごとのアーツ強度 ＋値（パッシブの2文目。以前は抜けていた）。",
-      "ko": "노드별 아츠 강도 +값(패시브의 두 번째 문장 — 이전에 누락)."
+      "ko": "노드별 오리지늄 아츠 강도 +값(패시브의 두 번째 문장 — 이전에 누락)."
      },
      "mods": [
       {
@@ -3101,7 +3101,7 @@
       "en": "On applying Crush: Physical DMG +[base+per×stacks consumed] 30s (non-stacking). AI+84 on Phys Susceptibility: deferred.",
       "zh": "施加猛击时：物理伤害 +[基础+每层×消耗层数]，30秒（不叠加）。物理脆弱时的源石技艺强度 +84：延后。",
       "ja": "猛撃を付与したとき：物理ダメージ +[基礎＋消費スタック×係数]、30秒（重複なし）。物理脆弱時のアーツ強度 +84は保留。",
-      "ko": "강타를 적용할 때: 물리 피해 +[기본+소모 중첩×계수], 30초(중첩 없음). 물리 취약 시 아츠 강도 +84는 보류."
+      "ko": "강타를 적용할 때: 물리 피해 +[기본+소모 중첩×계수], 30초(중첩 없음). 물리 취약 시 오리지늄 아츠 강도 +84는 보류."
      },
      "mods": [
       {
@@ -3154,7 +3154,7 @@
       "en": "Arts Intensity +value (leading term of the passive, per node).",
       "zh": "源石技艺强度 +数值（被动的首项，按节点）。",
       "ja": "アーツ強度 ＋値（パッシブの主項、ノードごと）。",
-      "ko": "아츠 강도 +값(패시브의 주 항목, 노드별)."
+      "ko": "오리지늄 아츠 강도 +값(패시브의 주 항목, 노드별)."
      },
      "mods": [
       {
@@ -3480,7 +3480,7 @@
       "en": "Arts Intensity +value (leading term of the passive, per node).",
       "zh": "源石技艺强度 +数值（被动的首项，按节点）。",
       "ja": "アーツ強度 ＋値（パッシブの主項、ノードごと）。",
-      "ko": "아츠 강도 +값(패시브의 주 항목, 노드별)."
+      "ko": "오리지늄 아츠 강도 +값(패시브의 주 항목, 노드별)."
      },
      "mods": [
       {
@@ -3875,7 +3875,7 @@
       "en": "Arts Intensity +value per node (the passive's second term). The leading Main Attribute enters as a fixed value.",
       "zh": "按节点的源石技艺强度 +数值（被动的第二项）。首项的主属性作为固定值计入。",
       "ja": "ノードごとのアーツ強度 ＋値（パッシブの2項目）。主項のメイン属性は固定値として入る。",
-      "ko": "노드별 아츠 강도 +값(패시브의 두 번째 항목). 주 항목의 메인 속성은 고정값으로 들어갑니다."
+      "ko": "노드별 오리지늄 아츠 강도 +값(패시브의 두 번째 항목). 주 항목의 메인 속성은 고정값으로 들어갑니다."
      },
      "mods": [
       {
@@ -4193,7 +4193,7 @@
       "en": "On entering battle: the team gains DMG Dealt +%, Arts Intensity (+10..28, not included in the calculation) and DEF +% for 20s; on expiry it restores 122 HP to the team (DEF and the heal are outside the damage calculation). Non-stacking.",
       "zh": "进入战斗时：全队获得伤害 +%、源石技艺强度（+10..28，未计入计算）和防御 +%，20秒；结束时为队伍回复122 HP（防御和治疗在伤害计算之外）。不叠加。",
       "ja": "戦闘開始時：チームは与ダメージ +%、アーツ強度（+10〜28、計算には含めない）、防御 +%を20秒間得る。終了時にチームの HP を122回復（防御と回復はダメージ計算外）。重複なし。",
-      "ko": "전투 시작 시: 팀이 피해 +%, 아츠 강도(+10..28, 계산에 포함하지 않음), 방어 +%를 20초 동안 얻음. 종료 시 팀 HP 122회복(방어와 치유는 피해 계산 밖). 중첩 없음."
+      "ko": "전투 시작 시: 팀이 피해 +%, 오리지늄 아츠 강도(+10..28, 계산에 포함하지 않음), 방어 +%를 20초 동안 얻음. 종료 시 팀 HP 122회복(방어와 치유는 피해 계산 밖). 중첩 없음."
      },
      "mods": [
       {
@@ -4269,13 +4269,12 @@
      "anchor": "battle_skill",
      "durS": 15,
      "noStack": true,
-     "pendingModel": "Arts Intensity temporizado: el motor solo aplica Arts Intensity permanente (Rotación) y asume 0 en Daño; se registra el contrato para cuando exista artsInt por intervalo.",
      "cond": {
-      "es": "Tras lanzar la battle skill: Arts Intensity +98 y 4 stacks de Windform por 15s (el efecto entero no acumula). Hoy no entra al cálculo.",
-      "en": "After casting the battle skill: Arts Intensity +98 and 4 Windform stacks for 15s (the whole effect cannot stack). Not applied by the calculation today.",
-      "zh": "施放战技后：源石技艺强度 +98和4层风形，15秒（整个效果不叠加）。计算目前不应用。",
-      "ja": "戦技の発動後：アーツ強度 +98と風形4スタック、15秒（効果全体が重複しない）。現在の計算では適用していない。",
-      "ko": "배틀 스킬 사용 후: 아츠 강도 +98과 풍형 4중첩, 15초(효과 전체가 중첩되지 않음). 현재 계산에서는 적용하지 않음."
+      "es": "Tras lanzar la battle skill: Arts Intensity +98 y 4 stacks de Windform por 15s (el efecto entero no acumula). En la Rotación entra en las ráfagas y efectos de reacción de esa ventana; Daño calcula con Arts Intensity 0 a propósito.",
+      "en": "After casting the battle skill: Arts Intensity +98 and 4 Windform stacks for 15s (the whole effect cannot stack). In the Rotation it applies to the bursts and reaction effects within that window; Damage deliberately calculates with Arts Intensity 0.",
+      "zh": "施放战技后：源石技艺强度 +98和4层风形，15秒（整个效果不叠加）。轮换中应用于该窗口内的爆发和反应效果；伤害页面刻意按源石技艺强度0计算。",
+      "ja": "戦技の発動後：アーツ強度 +98と風形4スタック、15秒（効果全体が重複しない）。ローテーションではその時間帯の爆発と反応効果に適用。ダメージではアーツ強度0で計算する仕様。",
+      "ko": "배틀 스킬 사용 후: 오리지늄 아츠 강도 +98과 풍형 4중첩, 15초(효과 전체가 중첩되지 않음). 로테이션에서는 그 구간의 폭발과 반응 효과에 적용되며, 피해 페이지는 의도적으로 오리지늄 아츠 강도 0으로 계산합니다."
      },
      "mods": [
       {
@@ -4298,7 +4297,7 @@
       "es": "Detonación: Instinto de cazador — battle skill: Arts Intensity",
       "zh": "迸发·猎人本能 — 战技：源石技艺强度",
       "ja": "噴発・狩人の本能 — 戦技：アーツ強度",
-      "ko": "방출 · 사냥꾼의 본능 — 배틀 스킬: 아츠 강도"
+      "ko": "방출 · 사냥꾼의 본능 — 배틀 스킬: 오리지늄 아츠 강도"
      }
     },
     {
@@ -4306,7 +4305,9 @@
      "src": "Hunter Instinct — Arts Burst consume Windform",
      "target": "self",
      "trigger": {
-      "onApplyReaction": "burst"
+      "onApplyReaction": "burst",
+      "maxStacks": 4,
+      "cooldownS": 0.1
      },
      "durS": 30,
      "cond": {
@@ -4320,21 +4321,17 @@
       {
        "type": "dmgAdd",
        "element": "arts",
-       "perStack": {
-        "base": 0,
-        "per": [
-         0.04,
-         0.048,
-         0.056,
-         0.064,
-         0.072,
-         0.08,
-         0.088,
-         0.096,
-         0.112
-        ],
-        "cap": 4
-       }
+       "byNode": [
+        0.04,
+        0.048,
+        0.056,
+        0.064,
+        0.072,
+        0.08,
+        0.088,
+        0.096,
+        0.112
+       ]
       }
      ],
      "label": {
@@ -4361,7 +4358,7 @@
       "en": "Permanent Arts Intensity from the passive (scales per essence node; +42 at max node). The Rotation adds it to the lane Arts Intensity; Damage assumes Arts Intensity 0.",
       "zh": "被动提供的永久源石技艺强度（随基质节点成长；满节点 +42）。循环会把它加到通道的源石技艺强度上；伤害页面假设源石技艺强度为0。",
       "ja": "パッシブによる永続のアーツ強度（基質ノードでスケール。最大ノードで +42）。ローテーションはレーンのアーツ強度に加算し、ダメージはアーツ強度0を仮定する。",
-      "ko": "패시브의 영구 아츠 강도(기질 노드에 따라 증가, 최대 노드에서 +42). 로테이션은 레인 아츠 강도에 더하고, 피해 페이지는 아츠 강도 0을 가정합니다."
+      "ko": "패시브의 영구 오리지늄 아츠 강도(기질 노드에 따라 증가, 최대 노드에서 +42). 로테이션은 레인 오리지늄 아츠 강도에 더하고, 피해 페이지는 오리지늄 아츠 강도 0을 가정합니다."
      },
      "mods": [
       {
@@ -4384,7 +4381,7 @@
       "es": "Detonación: Amanecer de la larga noche — Arts Intensity (permanente)",
       "zh": "迸发·长夜拂晓 — 源石技艺强度（常驻）",
       "ja": "噴発・長夜の暁 — アーツ強度（常時）",
-      "ko": "방출 · 긴 밤의 여명 — 아츠 강도 (상시)"
+      "ko": "방출 · 긴 밤의 여명 — 오리지늄 아츠 강도 (상시)"
      }
     },
     {
@@ -4392,7 +4389,9 @@
      "src": "Dawn of the Long Night — Arts Burst (stacks)",
      "target": "self",
      "trigger": {
-      "onApplyReaction": "burst"
+      "onApplyReaction": "burst",
+      "maxStacks": 4,
+      "cooldownS": 0.1
      },
      "durS": 25,
      "cond": {
@@ -4406,21 +4405,17 @@
       {
        "type": "dmgAdd",
        "element": "nature",
-       "perStack": {
-        "base": 0,
-        "per": [
-         0.02,
-         0.024,
-         0.028,
-         0.032,
-         0.036,
-         0.04,
-         0.044,
-         0.048,
-         0.056
-        ],
-        "cap": 4
-       }
+       "byNode": [
+        0.02,
+        0.024,
+        0.028,
+        0.032,
+        0.036,
+        0.04,
+        0.044,
+        0.048,
+        0.056
+       ]
       }
      ],
      "label": {
@@ -4489,7 +4484,7 @@
       "en": "When the wielder's combo skill heals (the Giftbox grants HP Treatment to nearby operators): each healed operator gains Arts DMG Dealt +value for 20s (effects of the same name cannot stack). Applied to the WHOLE team, which is who the combo heals. The Arts Intensity +14 of the same window and the Max HP +28% are outside the damage calculation.",
       "zh": "持有者的连携技治疗时（礼物匣子为范围内的干员提供治疗）：每名受到治疗的干员获得法术伤害 +数值，持续20秒（同名效果无法叠加）。按全队增益处理，因为连携技治疗的正是全队。同一窗口的源石技艺强度 +14和最大生命值 +28%不参与伤害计算。",
       "ja": "装備者の連携技で治療したとき（ギフトボックスが範囲内のオペレーターを治療）：治療を受けた各オペレーターはアーツダメージ ＋値を20秒間得る（同名効果は重複しない）。連携技はチーム全員を治療するため、チーム全体のバフとして扱う。同じ時間帯のアーツ強度 +14と最大HP +28%はダメージ計算に含めない。",
-      "ko": "장착자의 연계 스킬이 치유할 때(선물 상자가 범위 내 오퍼레이터를 치유): 치유를 받은 각 오퍼레이터는 아츠 피해 +값을 20초 동안 얻습니다(같은 이름의 효과는 중첩되지 않음). 연계 스킬이 팀 전체를 치유하므로 팀 전체 버프로 처리합니다. 같은 구간의 아츠 강도 +14와 최대 생명력 +28%는 피해 계산에 포함하지 않습니다."
+      "ko": "장착자의 연계 스킬이 치유할 때(선물 상자가 범위 내 오퍼레이터를 치유): 치유를 받은 각 오퍼레이터는 아츠 피해 +값을 20초 동안 얻습니다(같은 이름의 효과는 중첩되지 않음). 연계 스킬이 팀 전체를 치유하므로 팀 전체 버프로 처리합니다. 같은 구간의 오리지늄 아츠 강도 +14와 최대 생명력 +28%는 피해 계산에 포함하지 않습니다."
      },
      "mods": [
       {
@@ -4525,13 +4520,12 @@
      },
      "durS": 20,
      "noStack": true,
-     "pendingModel": "Arts Intensity temporizada: el motor solo aplica Arts Intensity permanente (Rotación) y asume 0 en Daño; se registra el contrato para cuando exista artsInt por intervalo (misma limitación que Umbra of Frigid Eventide).",
      "cond": {
-      "es": "Misma ventana que el buff anterior: los operadores curados por el combo ganan Arts Intensity +valor (hasta +14) por 20s. Hoy no entra al cálculo: el motor solo aplica Arts Intensity permanente.",
-      "en": "Same window as the previous buff: operators healed by the combo gain Arts Intensity +value (up to +14) for 20s. Not applied by the calculation today: the engine only applies permanent Arts Intensity.",
-      "zh": "与上一个增益同一窗口：受到连携技治疗的干员获得源石技艺强度 +数值（最高 +14），持续20秒。计算目前不应用：引擎只应用常驻的源石技艺强度。",
-      "ja": "前のバフと同じ時間帯：連携技で治療を受けたオペレーターはアーツ強度 ＋値（最大 +14）を20秒間得る。現在の計算では適用していない：エンジンは常時のアーツ強度のみを適用する。",
-      "ko": "앞의 버프와 같은 구간: 연계 스킬로 치유를 받은 오퍼레이터는 아츠 강도 +값(최대 +14)을 20초 동안 얻습니다. 현재 계산에서는 적용하지 않음: 엔진은 상시 아츠 강도만 적용합니다."
+      "es": "Misma ventana que el buff anterior: los operadores curados por el combo ganan Arts Intensity +valor (hasta +14) por 20s. En la Rotación entra en las ráfagas y efectos de reacción de esa ventana; Daño calcula con Arts Intensity 0 a propósito.",
+      "en": "Same window as the previous buff: operators healed by the combo gain Arts Intensity +value (up to +14) for 20s. In the Rotation it applies to the bursts and reaction effects within that window; Damage deliberately calculates with Arts Intensity 0.",
+      "zh": "与上一个增益同一窗口：受到连携技治疗的干员获得源石技艺强度 +数值（最高 +14），持续20秒。轮换中应用于该窗口内的爆发和反应效果；伤害页面刻意按源石技艺强度0计算。",
+      "ja": "前のバフと同じ時間帯：連携技で治療を受けたオペレーターはアーツ強度 ＋値（最大 +14）を20秒間得る。ローテーションではその時間帯の爆発と反応効果に適用。ダメージではアーツ強度0で計算する仕様。",
+      "ko": "앞의 버프와 같은 구간: 연계 스킬로 치유를 받은 오퍼레이터는 오리지늄 아츠 강도 +값(최대 +14)을 20초 동안 얻습니다. 로테이션에서는 그 구간의 폭발과 반응 효과에 적용되며, 피해 페이지는 의도적으로 오리지늄 아츠 강도 0으로 계산합니다."
      },
      "mods": [
       {
@@ -4554,7 +4548,7 @@
       "es": "Medicante: Dulzura y sueños — curación del combo (Arts Intensity)",
       "zh": "医疗·甜与梦 — 连携技治疗（源石技艺强度）",
       "ja": "治癒・甘さと夢 — 連携技の治療（アーツ強度）",
-      "ko": "의료 · 달콤한 꿈 — 연계 스킬 치유 (아츠 강도)"
+      "ko": "의료 · 달콤한 꿈 — 연계 스킬 치유 (오리지늄 아츠 강도)"
      }
     }
    ]

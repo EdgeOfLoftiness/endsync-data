@@ -216,7 +216,7 @@
             "es": "Vulnerability (Increased DMG Taken)",
             "en": "Vulnerability (Increased DMG Taken)",
             "zh": "破防（受到伤害提升）",
-            "ja": "クラッシュ（被ダメージ増加）",
+            "ja": "クラッシュ（受けるダメージ増加）",
             "ko": "방어 불능(받는 피해 증가)"
           },
           "stack": "enemy",
@@ -272,7 +272,7 @@
             "es": "Entra por la vía de Vulnerability / Increased DMG Taken (enemyDmgTaken físico), igual que cualquier 'Physical DMG Taken +X%'. No existe shred de DEF en Endfield.",
             "en": "Applied via Vulnerability / Increased DMG Taken (physical enemyDmgTaken), like any 'Physical DMG Taken +X%'. There is no DEF shred in Endfield.",
             "zh": "通过破防 / 受到伤害提升（物理 enemyDmgTaken）施加，和任何「受到物理伤害 +X%」一样。终末地没有防御削减。",
-            "ja": "クラッシュ / 被ダメージ増加（物理の enemyDmgTaken）を通じて掛かり、あらゆる「受ける物理ダメージ +X%」と同じです。エンドフィールドに防御力ダウンはありません。",
+            "ja": "クラッシュ / 受けるダメージ増加（物理の enemyDmgTaken）を通じて掛かり、あらゆる「受ける物理ダメージ +X%」と同じです。エンドフィールドに防御力ダウンはありません。",
             "ko": "방어 불능 / 받는 피해 증가(물리 enemyDmgTaken)를 통해 적용되며, 모든 '받는 물리 피해 +X%'와 같습니다. 엔드필드에는 방어력 감소가 없습니다."
           }
         },
@@ -305,7 +305,7 @@
             "es": "Entra por la misma vía que Vulnerability (daño recibido), filtrada a daño Arts — el físico no se beneficia. La Arts Intensity del detonante refuerza el valor del debuff.",
             "en": "Applied via the same path as Vulnerability (damage taken), filtered to Arts damage — Physical does not benefit. The trigger operator Arts Intensity reinforces the debuff value.",
             "zh": "与破防走同一路径（受到伤害），仅筛选法术伤害——物理不受益。触发干员的源石技艺强度会强化减益数值。",
-            "ja": "クラッシュと同じ経路（被ダメージ）で掛かり、アーツダメージに絞られます。物理は恩恵を受けません。発動したオペレーターのアーツ強度がデバフの値を強化します。",
+            "ja": "クラッシュと同じ経路（受けるダメージ）で掛かり、アーツダメージに絞られます。物理は恩恵を受けません。発動したオペレーターのアーツ強度がデバフの値を強化します。",
             "ko": "방어 불능과 같은 경로(받는 피해)로 적용되며 아츠 피해로 한정됩니다. 물리는 이득이 없습니다. 발동한 오퍼레이터의 오리지늄 아츠 강도가 디버프 값을 강화합니다."
           }
         },

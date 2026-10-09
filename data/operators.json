@@ -7458,7 +7458,7 @@
           "description_zh": "对敌人进行至多5段攻击，造成寒冷伤害。作为主控干员时，<u>重击</u>会造成<b>15</b>点失衡。",
           "description_dive_zh": "处于空中时使用普通攻击，会下落并攻击附近敌人，造成寒冷伤害。",
           "description_finisher_zh": "附近有敌人处于失衡状态时使用普通攻击，将处决该敌人，造成大量寒冷伤害并恢复一定技力。",
-          "name_ja": "クールダウン",
+          "name_ja": "クールタイム",
           "description_ja": "最大5段の攻撃で敵に寒冷ダメージを与える。操作中のオペレーターの場合、<u>重攻撃</u>はブレイク値<b>15</b>を与える。",
           "description_dive_ja": "空中で通常攻撃を使用すると、落下して周囲の敵に寒冷ダメージを与える。",
           "description_finisher_ja": "近くにブレイク状態の敵がいるときに通常攻撃を使用すると、その敵に終撃を行い、高い寒冷ダメージを与えてSPを一定量回復する。",
@@ -9962,8 +9962,7 @@
       "element": "Nature",
       "weapon_type": "Arts Unit",
       "model_wip": {
-        "dmg": true,
-        "rotation": true
+        "dmg": true
       },
       "primary_attribute": "Agility",
       "secondary_attribute": "Will",

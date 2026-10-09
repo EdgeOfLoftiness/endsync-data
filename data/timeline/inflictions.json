@@ -640,6 +640,46 @@
      }
     ]
    }
+  },
+  "typhoeus": {
+   "battle_skill": {
+    "signs": {
+     "max": 8,
+     "onEnter": 4,
+     "onEnterArrows": 4,
+     "perBurst": 1,
+     "consumes": "nature_infl",
+     "signPerConsume": 1,
+     "ueStat": "Additional Ultimate Energy",
+     "arrowMax": 4,
+     "signsPerArrow": 2,
+     "abatkStat": "ABATK DMG Multiplier",
+     "finalStat": "Aerial Final Strike DMG Multiplier",
+     "powerShot": {
+      "burst": "nature",
+      "multStat": "Power Shot Nature Burst DMG Multiplier",
+      "empoweredMult": 1.6,
+      "finalStrikeFree": true
+     },
+     "hovering": {
+      "keystone": "Samifjod Fletching",
+      "abatkMult": 1.2
+     },
+     "burstKeystone": {
+      "keystone": "Fatal Shot",
+      "mult": 1.1
+     }
+    }
+   },
+   "ultimate": {
+    "signs": {
+     "arrowsGiven": 2,
+     "arrowsKeystone": {
+      "keystone": "Fatal Shot",
+      "add": 1
+     }
+    }
+   }
   }
  }
 }
