@@ -11,3 +11,25 @@ body[data-backdrop="on"] .bases-toolbar,
 body[data-backdrop="on"] .bases-list,
 body[data-backdrop="on"] .bases-list-head { background:var(--surface-2) }
 body[data-backdrop="on"] .bases-detail-card { background:var(--surface-1); -webkit-backdrop-filter:none; backdrop-filter:none }
+
+/* 2026-10-13 — Wiki › ficha de personaje en la 1.1.121 (y anteriores): «Atributos» y «Stats nivel 90» suben
+   justo debajo de la cabecera (después de la nota de datos en trabajo, si la hay), lado a lado, compactas y
+   siempre abiertas. Todo va condicionado a que la ficha tenga esas secciones (:has): en la app siguiente los
+   stats viven dentro de la cabecera, esas secciones no existen y nada de esto aplica. Banner y la ficha de
+   arma usan las mismas clases de celda, por eso cada regla va acotada a .wiki-detail--char > .pd-coll. */
+.wiki-detail--char:has(> .pd-coll > .pd-coll-body > :is(.wiki-stats-grid, .wiki-attrs)) { flex-flow:row wrap }
+.wiki-detail--char:has(> .pd-coll > .pd-coll-body > :is(.wiki-stats-grid, .wiki-attrs)) > * { flex:1 1 100%; min-width:0 }
+.wiki-detail--char:has(> .pd-coll > .pd-coll-body > :is(.wiki-stats-grid, .wiki-attrs)) > .wiki-detail-back { order:-3 }
+.wiki-detail--char:has(> .pd-coll > .pd-coll-body > :is(.wiki-stats-grid, .wiki-attrs)) > .wiki-hero { order:-2 }
+.wiki-detail--char:has(> .pd-coll > .pd-coll-body > :is(.wiki-stats-grid, .wiki-attrs)) > .wip-note { order:-1 }
+.wiki-detail--char > .pd-coll:has(> .pd-coll-body > .wiki-attrs) { order:-1; flex:1 1 240px }
+.wiki-detail--char > .pd-coll:has(> .pd-coll-body > .wiki-stats-grid) { order:-1; flex:3 1 460px }
+.wiki-detail--char > .pd-coll:has(> .pd-coll-body > :is(.wiki-stats-grid, .wiki-attrs)) > .pd-coll-body { display:block }
+.wiki-detail--char > .pd-coll:has(> .pd-coll-body > :is(.wiki-stats-grid, .wiki-attrs)) > .pd-coll-hd { cursor:default; padding-bottom:8px }
+.wiki-detail--char > .pd-coll:has(> .pd-coll-body > :is(.wiki-stats-grid, .wiki-attrs)) .pd-coll-arrow { display:none }
+.wiki-detail--char > .pd-coll > .pd-coll-body > .wiki-attrs { grid-template-columns:repeat(auto-fit, minmax(110px, 1fr)); gap:6px }
+.wiki-detail--char > .pd-coll > .pd-coll-body > .wiki-attrs .wiki-attr { padding:5px 10px }
+.wiki-detail--char > .pd-coll > .pd-coll-body > .wiki-attrs .wiki-attr-val { font-size:var(--fs-16); margin-top:2px }
+.wiki-detail--char > .pd-coll > .pd-coll-body > .wiki-stats-grid { grid-template-columns:repeat(auto-fill, minmax(78px, 1fr)); gap:6px }
+.wiki-detail--char > .pd-coll > .pd-coll-body > .wiki-stats-grid .wiki-stat-cell { padding:5px 10px }
+.wiki-detail--char > .pd-coll > .pd-coll-body > .wiki-stats-grid .wiki-stat-cell-val { font-size:var(--fs-16); margin-top:2px }
