@@ -3008,6 +3008,132 @@
         "noStack": true,
         "assumeIdeal": "Ambassador's Special en cada ult (sale con probabilidad: 20% base por caja al rango 12, 3 cajas por ult; escenario ideal del timeline)"
       }
+    ],
+    "si": [
+      {
+        "id": "si-1",
+        "src": "No One Spoils the Fun",
+        "srcType": "ultimate",
+        "target": "team",
+        "cond": {
+          "es": "Ultimate No One Spoils the Fun: todo el equipo obtiene Cryo Amp +36% y Heat Amp +36% por 12s (rango 12). La M3 Study of Muscles and Bones sube el Amp a 1.2x (entrada aparte).",
+          "en": "Ultimate No One Spoils the Fun: the entire team gains Cryo Amp +36% and Heat Amp +36% for 12s (rank 12). M3 Study of Muscles and Bones raises the Amp to 1.2x (separate entry).",
+          "zh": "终结技「谁都不许扫兴」：为全队施加寒冷增幅 +36%和灼热增幅 +36%，持续12秒（12级）。潜能 M3「工于筋骨」把增幅提高到1.2倍（另一条目）。",
+          "ja": "必殺技「白けさせるでない！」：チーム全員に寒冷増幅 +36%と灼熱増幅 +36%を12秒間付与（ランク12）。潜在 M3「骨力を宿す」で増幅が1.2倍に（別項目）。",
+          "ko": "궁극기 「누가 감히 흥을 깨랴」: 팀 전체에 냉기 증폭 +36%와 열기 증폭 +36%를 12초 동안 부여(랭크 12). 잠재 능력 M3 「근골을 벼려내어」가 증폭을 1.2배로 올립니다(별도 항목)."
+        },
+        "mods": [
+          {
+            "type": "dmgAmp",
+            "value": 0.36,
+            "element": "cryo"
+          },
+          {
+            "type": "dmgAmp",
+            "value": 0.36,
+            "element": "heat"
+          }
+        ],
+        "durS": 12
+      },
+      {
+        "id": "si-k2",
+        "src": "Three Marks Deep in Wood",
+        "srcType": "keystone",
+        "target": "self",
+        "pendingModel": "El +3% por acumulación depende de las acumulaciones de Imposición que consume o absorbe el combo de Si, y el kit de Si todavía no está en el motor (data_pending). Solo la parte fija (+8%) queda como interruptor.",
+        "cond": {
+          "es": "M2 Three Marks Deep in Wood: al lanzar el combo Fully Envisioned, Si obtiene ATQ +[8% + 3% × (mayor número de acumulaciones de Imposición de artes consumidas o absorbidas de un solo objetivo)] por 10s. No se acumula. El interruptor solo lleva la parte fija (+8%).",
+          "en": "M2 Three Marks Deep in Wood: when casting the combo skill Fully Envisioned, Si gains ATK +[8% + 3% × (highest stacks of Arts Infliction consumed or absorbed from a single target)] for 10s. Cannot stack. The toggle only carries the fixed part (+8%).",
+          "zh": "M2「入木三分」：施放连携技「成竹在胸」时，祀的攻击力 +[8% + 3% × 消耗或吸收的法术附着最高层数]，持续10秒，无法叠加。开关只计入固定部分（+8%）。",
+          "ja": "M2「一筆入魂」：連携技「胸中に成竹在り」発動時、10秒間スーの攻撃力 +[8% + 3% × 消費または吸収したアーツ付着の最大段階数]（重ね掛け不可）。スイッチには固定部分（+8%）のみを含める。",
+          "ko": "M2 「나무에 석 자를 새기고」: 연계 스킬 「먹빛은 이미 정해졌으니」 사용 시 사의 공격력 +[8% + 3% × 소모 또는 흡수한 아츠 부착의 최대 스택 수치], 10초 동안 지속되며 중첩되지 않습니다. 스위치에는 고정 부분(+8%)만 포함합니다."
+        },
+        "mods": [
+          {
+            "type": "atkPct",
+            "value": 0.08
+          }
+        ],
+        "durS": 10,
+        "noStack": true
+      },
+      {
+        "id": "si-k3",
+        "src": "Study of Muscles and Bones",
+        "srcType": "keystone",
+        "target": "self",
+        "cond": {
+          "es": "M3 Study of Muscles and Bones: el DAÑ de la ultimate No One Spoils the Fun sube a 1.2x el original.",
+          "en": "M3 Study of Muscles and Bones: DMG Dealt by the ultimate No One Spoils the Fun is increased to 1.2x the original.",
+          "zh": "M3「工于筋骨」：终结技「谁都不许扫兴」的伤害提升至原本的1.2倍。",
+          "ja": "M3「骨力を宿す」：必殺技「白けさせるでない！」のダメージが元の1.2倍。",
+          "ko": "M3 「근골을 벼려내어」: 궁극기 「누가 감히 흥을 깨랴」의 피해가 원래의 1.2배가 됩니다."
+        },
+        "mods": [
+          {
+            "type": "dmgMult",
+            "value": 0.2,
+            "slot": "ultimate"
+          }
+        ],
+        "permanent": true
+      },
+      {
+        "id": "si-k3t",
+        "src": "Study of Muscles and Bones · team",
+        "label": {
+          "en": "Study of Muscles and Bones · team",
+          "es": "Estudio de músculos y huesos · equipo",
+          "zh": "工于筋骨 · 队伍",
+          "ja": "骨力を宿す · チーム",
+          "ko": "근골을 벼려내어 · 팀"
+        },
+        "srcType": "keystone",
+        "target": "team",
+        "cond": {
+          "es": "M3: el Amp de No One Spoils the Fun sube a 1.2x el original → Cryo Amp +7.2% y Heat Amp +7.2% extra para todo el equipo mientras dura el Amp de la ultimate (12s).",
+          "en": "M3: No One Spoils the Fun's Amp is increased to 1.2x the original → extra Cryo Amp +7.2% and Heat Amp +7.2% for the entire team while the ultimate's Amp lasts (12s).",
+          "zh": "M3：「谁都不许扫兴」的增幅提高到原来的1.2倍 → 终结技的增幅持续期间（12秒），全队额外获得寒冷增幅 +7.2%和灼热增幅 +7.2%。",
+          "ja": "M3：「白けさせるでない！」の増幅が元の1.2倍 → 必殺技の増幅の持続中（12秒）、チーム全員に寒冷増幅 +7.2%と灼熱増幅 +7.2%を追加。",
+          "ko": "M3: 「누가 감히 흥을 깨랴」의 증폭이 원래의 1.2배 → 궁극기 증폭 지속 중(12초) 팀 전체에 냉기 증폭 +7.2%와 열기 증폭 +7.2% 추가."
+        },
+        "mods": [
+          {
+            "type": "dmgAmp",
+            "value": 0.072,
+            "element": "cryo"
+          },
+          {
+            "type": "dmgAmp",
+            "value": 0.072,
+            "element": "heat"
+          }
+        ],
+        "anchor": "ultimate",
+        "durS": 12
+      },
+      {
+        "id": "si-k5",
+        "src": "Brush Dab in Eye's White",
+        "srcType": "keystone",
+        "target": "self",
+        "cond": {
+          "es": "M5 Brush Dab in Eye's White: el DAÑ del combo Fully Envisioned sube a 1.15x el original. La acumulación de Imposición extra que el combo cuenta al activarse no está incluida.",
+          "en": "M5 Brush Dab in Eye's White: DMG Dealt by the combo skill Fully Envisioned is increased to 1.15x the original. The extra Infliction stack the combo counts when triggered is not included.",
+          "zh": "M5「点睛之笔」：连携技「成竹在胸」的伤害提升至原本的1.15倍。触发时额外视为消耗或吸收的1层附着未计入。",
+          "ja": "M5「点睛の一筆」：連携技「胸中に成竹在り」のダメージが元の1.15倍。発動時に追加で消費または吸収したものと見なされる付着1段階は含めていない。",
+          "ko": "M5 「마침내 눈동자를 찍으리라」: 연계 스킬 「먹빛은 이미 정해졌으니」의 피해가 원래의 1.15배가 됩니다. 발동 시 추가로 소모 또는 흡수된 것으로 간주하는 부착 1스택은 포함하지 않았습니다."
+        },
+        "mods": [
+          {
+            "type": "dmgMult",
+            "value": 0.15,
+            "slot": "combo_skill"
+          }
+        ],
+        "permanent": true
+      }
     ]
   }
 }

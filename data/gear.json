@@ -1,7 +1,7 @@
 {
  "game": "Arknights: Endfield",
  "rarity": "Gold (Lv70 / max artificing)",
- "total_gear_pieces": 167,
+ "total_gear_pieces": 185,
  "gear": {
   "Xiranflow": {
    "pieces": [
@@ -5414,6 +5414,192 @@
      "bonus_stat_zh": "源石技艺强度: +53",
      "bonus_stat_ja": "アーツ強度: +53",
      "bonus_stat_ko": "오리지늄 아츠 강도: +53"
+    },
+    {
+     "name": "Pulser Labs Light Armor",
+     "type": "Armor",
+     "version": "1.6",
+     "def": 56,
+     "attributes": {
+      "will": 113,
+      "strength": 75
+     },
+     "bonus_stat": "Cryo and Electric DMG Dealt Bonus: +14.9%",
+     "artificing": {
+      "attributes": {
+       "will": [
+        87,
+        95,
+        104,
+        113
+       ],
+       "strength": [
+        58,
+        63,
+        69,
+        75
+       ]
+      },
+      "bonus_stat": {
+       "name": "Cryo and Electric DMG Dealt Bonus",
+       "values": [
+        11.5,
+        12.7,
+        13.8,
+        14.9
+       ],
+       "name_es": "Bonificación de DAÑ criogénico y eléctrico infligido",
+       "name_zh": "寒冷和电磁伤害加成",
+       "name_ja": "寒冷&電磁ダメージUP",
+       "name_ko": "냉기와 전기 피해 보너스"
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50,
+      "comp_es": "Componente de Pirrolita",
+      "comp_zh": "灼铜装备原件",
+      "comp_ja": "焔銅装備部品",
+      "comp_ko": "작동 장비 부품",
+      "newest": {
+       "billN": 360,
+       "comp": "Pyrrolite Component",
+       "compN": 50
+      }
+     },
+     "name_es": "Armadura ligera de Laboratorios Pulso",
+     "name_ja": "パルス式軽防具",
+     "name_zh": "脉冲式轻甲",
+     "name_ko": "펄스식 경갑",
+     "bonus_stat_es": "Bonificación de DAÑ criogénico y eléctrico infligido: +14.9%",
+     "bonus_stat_zh": "寒冷和电磁伤害加成: +14.9%",
+     "bonus_stat_ja": "寒冷&電磁ダメージUP: +14.9%",
+     "bonus_stat_ko": "냉기와 전기 피해 보너스: +14.9%"
+    },
+    {
+     "name": "Pulser Labs Light Gauntlets",
+     "type": "Gloves",
+     "version": "1.6",
+     "def": 42,
+     "attributes": {
+      "will": 84,
+      "strength": 55
+     },
+     "bonus_stat": "Cryo and Electric DMG Dealt Bonus: +24.9%",
+     "artificing": {
+      "attributes": {
+       "will": [
+        65,
+        71,
+        78,
+        84
+       ],
+       "strength": [
+        43,
+        47,
+        51,
+        55
+       ]
+      },
+      "bonus_stat": {
+       "name": "Cryo and Electric DMG Dealt Bonus",
+       "values": [
+        19.2,
+        21.1,
+        23,
+        24.9
+       ],
+       "name_es": "Bonificación de DAÑ criogénico y eléctrico infligido",
+       "name_zh": "寒冷和电磁伤害加成",
+       "name_ja": "寒冷&電磁ダメージUP",
+       "name_ko": "냉기와 전기 피해 보너스"
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50,
+      "comp_es": "Componente de Pirrolita",
+      "comp_zh": "灼铜装备原件",
+      "comp_ja": "焔銅装備部品",
+      "comp_ko": "작동 장비 부품",
+      "newest": {
+       "billN": 360,
+       "comp": "Pyrrolite Component",
+       "compN": 50
+      }
+     },
+     "name_es": "Guanteletes ligeros de Laboratorios Pulso",
+     "name_ja": "パルス式プロテクター",
+     "name_zh": "脉冲式轻护手",
+     "name_ko": "펄스식 경량 보호 장갑",
+     "bonus_stat_es": "Bonificación de DAÑ criogénico y eléctrico infligido: +24.9%",
+     "bonus_stat_zh": "寒冷和电磁伤害加成: +24.9%",
+     "bonus_stat_ja": "寒冷&電磁ダメージUP: +24.9%",
+     "bonus_stat_ko": "냉기와 전기 피해 보너스: +24.9%"
+    },
+    {
+     "name": "Pulser Labs Armor Slab",
+     "type": "Kit",
+     "version": "1.6",
+     "def": 21,
+     "attributes": {
+      "will": 41,
+      "strength": 27
+     },
+     "bonus_stat": "Ultimate Gain Efficiency: +32%",
+     "artificing": {
+      "attributes": {
+       "will": [
+        32,
+        35,
+        38,
+        41
+       ],
+       "strength": [
+        21,
+        23,
+        25,
+        27
+       ]
+      },
+      "bonus_stat": {
+       "name": "Ultimate Gain Efficiency",
+       "values": [
+        24.6,
+        27.1,
+        29.6,
+        32
+       ],
+       "name_es": "Eficiencia de ganancia máxima",
+       "name_zh": "终结技充能效率",
+       "name_ja": "必殺チャージの回復効率",
+       "name_ko": "궁극기 충전 효율"
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50,
+      "comp_es": "Componente de Pirrolita",
+      "comp_zh": "灼铜装备原件",
+      "comp_ja": "焔銅装備部品",
+      "comp_ko": "작동 장비 부품",
+      "newest": {
+       "billN": 360,
+       "comp": "Pyrrolite Component",
+       "compN": 50
+      }
+     },
+     "name_es": "Losa de armadura de Laboratorios Pulso",
+     "name_ja": "パルス式装甲板",
+     "name_zh": "脉冲式护甲板",
+     "name_ko": "펄스식 방탄 방어구",
+     "bonus_stat_es": "Eficiencia de ganancia máxima: +32%",
+     "bonus_stat_zh": "终结技充能效率: +32%",
+     "bonus_stat_ja": "必殺チャージの回復効率: +32%",
+     "bonus_stat_ko": "궁극기 충전 효율: +32%"
     }
    ],
    "set_bonus_3pc": "Arts Intensity +30. When the wearer applies Electrification, Electric DMG +50% for 10s. When the wearer applies Solidification, Cryo DMG +50% for 10s. The aforementioned effects cannot stack.",
@@ -7678,6 +7864,192 @@
      "bonus_stat_zh": "所有技能伤害加成: +35.9%",
      "bonus_stat_ja": "全スキルダメージUP: +35.9%",
      "bonus_stat_ko": "모든 스킬 피해 보너스: +35.9%"
+    },
+    {
+     "name": "Type 50 Yinglung Soft Armor",
+     "type": "Armor",
+     "version": "1.6",
+     "def": 56,
+     "attributes": {
+      "intellect": 113,
+      "strength": 75
+     },
+     "bonus_stat": "Combo Skill DMG: +26.9%",
+     "artificing": {
+      "attributes": {
+       "intellect": [
+        87,
+        95,
+        104,
+        113
+       ],
+       "strength": [
+        58,
+        63,
+        69,
+        75
+       ]
+      },
+      "bonus_stat": {
+       "name": "Combo Skill DMG",
+       "values": [
+        20.7,
+        22.8,
+        24.8,
+        26.9
+       ],
+       "name_es": "Bono de DAÑ de la habilidad de combo",
+       "name_zh": "连携技伤害加成",
+       "name_ja": "連携技ダメージUP",
+       "name_ko": "연계 스킬 피해 보너스"
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50,
+      "comp_es": "Componente de Pirrolita",
+      "comp_zh": "灼铜装备原件",
+      "comp_ja": "焔銅装備部品",
+      "comp_ko": "작동 장비 부품",
+      "newest": {
+       "billN": 360,
+       "comp": "Pyrrolite Component",
+       "compN": 50
+      }
+     },
+     "name_es": "Armadura blanda Yinglung tipo 50",
+     "name_ja": "50式応龍ソフトアーマー",
+     "name_zh": "50式应龙软甲",
+     "name_ko": "응룡 50식 연갑",
+     "bonus_stat_es": "Bono de DAÑ de la habilidad de combo: +26.9%",
+     "bonus_stat_zh": "连携技伤害加成: +26.9%",
+     "bonus_stat_ja": "連携技ダメージUP: +26.9%",
+     "bonus_stat_ko": "연계 스킬 피해 보너스: +26.9%"
+    },
+    {
+     "name": "Type 50 Yinglung Gloves (Intellect/Strength)",
+     "type": "Gloves",
+     "version": "1.6",
+     "def": 42,
+     "attributes": {
+      "intellect": 84,
+      "strength": 55
+     },
+     "bonus_stat": "Combo Skill DMG: +44.8%",
+     "artificing": {
+      "attributes": {
+       "intellect": [
+        65,
+        71,
+        78,
+        84
+       ],
+       "strength": [
+        43,
+        47,
+        51,
+        55
+       ]
+      },
+      "bonus_stat": {
+       "name": "Combo Skill DMG",
+       "values": [
+        34.5,
+        38,
+        41.4,
+        44.8
+       ],
+       "name_es": "Bono de DAÑ de la habilidad de combo",
+       "name_zh": "连携技伤害加成",
+       "name_ja": "連携技ダメージUP",
+       "name_ko": "연계 스킬 피해 보너스"
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50,
+      "comp_es": "Componente de Pirrolita",
+      "comp_zh": "灼铜装备原件",
+      "comp_ja": "焔銅装備部品",
+      "comp_ko": "작동 장비 부품",
+      "newest": {
+       "billN": 360,
+       "comp": "Pyrrolite Component",
+       "compN": 50
+      }
+     },
+     "name_es": "Guantes Yinglung tipo 50 (Intelecto/Fuerza)",
+     "name_ja": "50式応龍グローブ",
+     "name_zh": "50式应龙手套",
+     "name_ko": "응룡 50식 장갑",
+     "bonus_stat_es": "Bono de DAÑ de la habilidad de combo: +44.8%",
+     "bonus_stat_zh": "连携技伤害加成: +44.8%",
+     "bonus_stat_ja": "連携技ダメージUP: +44.8%",
+     "bonus_stat_ko": "연계 스킬 피해 보너스: +44.8%"
+    },
+    {
+     "name": "Type 50 Yinglung Beacon",
+     "type": "Kit",
+     "version": "1.6",
+     "def": 21,
+     "attributes": {
+      "intellect": 41,
+      "strength": 27
+     },
+     "bonus_stat": "Combo Skill DMG: +53.8%",
+     "artificing": {
+      "attributes": {
+       "intellect": [
+        32,
+        35,
+        38,
+        41
+       ],
+       "strength": [
+        21,
+        23,
+        25,
+        27
+       ]
+      },
+      "bonus_stat": {
+       "name": "Combo Skill DMG",
+       "values": [
+        41.4,
+        45.5,
+        49.7,
+        53.8
+       ],
+       "name_es": "Bono de DAÑ de la habilidad de combo",
+       "name_zh": "连携技伤害加成",
+       "name_ja": "連携技ダメージUP",
+       "name_ko": "연계 스킬 피해 보너스"
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50,
+      "comp_es": "Componente de Pirrolita",
+      "comp_zh": "灼铜装备原件",
+      "comp_ja": "焔銅装備部品",
+      "comp_ko": "작동 장비 부품",
+      "newest": {
+       "billN": 360,
+       "comp": "Pyrrolite Component",
+       "compN": 50
+      }
+     },
+     "name_es": "Baliza Yinglung tipo 50",
+     "name_ja": "50式応龍ビーコン",
+     "name_zh": "50式应龙信标",
+     "name_ko": "응룡 50식 신호기",
+     "bonus_stat_es": "Bono de DAÑ de la habilidad de combo: +53.8%",
+     "bonus_stat_zh": "连携技伤害加成: +53.8%",
+     "bonus_stat_ja": "連携技ダメージUP: +53.8%",
+     "bonus_stat_ko": "연계 스킬 피해 보너스: +53.8%"
     }
    ],
    "set_bonus_3pc": "ATK +15%. When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s).",
@@ -8992,6 +9364,254 @@
      "bonus_stat_ja": "必殺チャージの回復効率: +32%",
      "bonus_stat_ko": "궁극기 충전 효율: +32%",
      "name_ko": "식양의 숨결 중보호판"
+    },
+    {
+     "name": "Eternal Xiranite Overalls",
+     "type": "Armor",
+     "version": "1.6",
+     "def": 56,
+     "attributes": {
+      "intellect": 113,
+      "strength": 75
+     },
+     "bonus_stat": "Ultimate Gain Efficiency: +16%",
+     "artificing": {
+      "attributes": {
+       "intellect": [
+        87,
+        95,
+        104,
+        113
+       ],
+       "strength": [
+        58,
+        63,
+        69,
+        75
+       ]
+      },
+      "bonus_stat": {
+       "name": "Ultimate Gain Efficiency",
+       "values": [
+        12.3,
+        13.6,
+        14.8,
+        16
+       ],
+       "name_es": "Eficiencia de ganancia máxima",
+       "name_zh": "终结技充能效率",
+       "name_ja": "必殺チャージの回復効率",
+       "name_ko": "궁극기 충전 효율"
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50,
+      "comp_es": "Componente de Pirrolita",
+      "comp_zh": "灼铜装备原件",
+      "comp_ja": "焔銅装備部品",
+      "comp_ko": "작동 장비 부품",
+      "newest": {
+       "billN": 360,
+       "comp": "Pyrrolite Component",
+       "compN": 50
+      }
+     },
+     "name_es": "Overol de Xiranita eterna",
+     "name_ja": "流転防護服",
+     "name_zh": "长息防护服",
+     "name_ko": "식양의 숨결 방호복",
+     "bonus_stat_es": "Eficiencia de ganancia máxima: +16%",
+     "bonus_stat_zh": "终结技充能效率: +16%",
+     "bonus_stat_ja": "必殺チャージの回復効率: +16%",
+     "bonus_stat_ko": "궁극기 충전 효율: +16%"
+    },
+    {
+     "name": "Eternal Xiranite MOD Armor",
+     "type": "Armor",
+     "version": "1.6",
+     "def": 56,
+     "attributes": {
+      "intellect": 113,
+      "strength": 75
+     },
+     "bonus_stat": "Combo Skill DMG: +26.9%",
+     "artificing": {
+      "attributes": {
+       "intellect": [
+        87,
+        95,
+        104,
+        113
+       ],
+       "strength": [
+        58,
+        63,
+        69,
+        75
+       ]
+      },
+      "bonus_stat": {
+       "name": "Combo Skill DMG",
+       "values": [
+        20.7,
+        22.8,
+        24.8,
+        26.9
+       ],
+       "name_es": "Bono de DAÑ de la habilidad de combo",
+       "name_zh": "连携技伤害加成",
+       "name_ja": "連携技ダメージUP",
+       "name_ko": "연계 스킬 피해 보너스"
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50,
+      "comp_es": "Componente de Pirrolita",
+      "comp_zh": "灼铜装备原件",
+      "comp_ja": "焔銅装備部品",
+      "comp_ko": "작동 장비 부품",
+      "newest": {
+       "billN": 360,
+       "comp": "Pyrrolite Component",
+       "compN": 50
+      }
+     },
+     "name_es": "Armadura MOD de Xiranita eterna",
+     "name_ja": "流転改造防具",
+     "name_zh": "长息改装护甲",
+     "name_ko": "식양의 숨결 개조 방어구",
+     "bonus_stat_es": "Bono de DAÑ de la habilidad de combo: +26.9%",
+     "bonus_stat_zh": "连携技伤害加成: +26.9%",
+     "bonus_stat_ja": "連携技ダメージUP: +26.9%",
+     "bonus_stat_ko": "연계 스킬 피해 보너스: +26.9%"
+    },
+    {
+     "name": "Eternal Xiranite Channeling Gloves",
+     "type": "Gloves",
+     "version": "1.6",
+     "def": 42,
+     "attributes": {
+      "intellect": 84,
+      "strength": 55
+     },
+     "bonus_stat": "Combo Skill DMG: +44.8%",
+     "artificing": {
+      "attributes": {
+       "intellect": [
+        65,
+        71,
+        78,
+        84
+       ],
+       "strength": [
+        43,
+        47,
+        51,
+        55
+       ]
+      },
+      "bonus_stat": {
+       "name": "Combo Skill DMG",
+       "values": [
+        34.5,
+        38,
+        41.4,
+        44.8
+       ],
+       "name_es": "Bono de DAÑ de la habilidad de combo",
+       "name_zh": "连携技伤害加成",
+       "name_ja": "連携技ダメージUP",
+       "name_ko": "연계 스킬 피해 보너스"
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50,
+      "comp_es": "Componente de Pirrolita",
+      "comp_zh": "灼铜装备原件",
+      "comp_ja": "焔銅装備部品",
+      "comp_ko": "작동 장비 부품",
+      "newest": {
+       "billN": 360,
+       "comp": "Pyrrolite Component",
+       "compN": 50
+      }
+     },
+     "name_es": "Guantes canalizadores de Xiranita eterna",
+     "name_ja": "流転伝導プロテクター",
+     "name_zh": "长息导能护手",
+     "name_ko": "식양의 숨결 전도 보호 장갑",
+     "bonus_stat_es": "Bono de DAÑ de la habilidad de combo: +44.8%",
+     "bonus_stat_zh": "连携技伤害加成: +44.8%",
+     "bonus_stat_ja": "連携技ダメージUP: +44.8%",
+     "bonus_stat_ko": "연계 스킬 피해 보너스: +44.8%"
+    },
+    {
+     "name": "Eternal Xiranite Rangefinder",
+     "type": "Kit",
+     "version": "1.6",
+     "def": 21,
+     "attributes": {
+      "intellect": 41,
+      "strength": 27
+     },
+     "bonus_stat": "Combo Skill DMG: +53.8%",
+     "artificing": {
+      "attributes": {
+       "intellect": [
+        32,
+        35,
+        38,
+        41
+       ],
+       "strength": [
+        21,
+        23,
+        25,
+        27
+       ]
+      },
+      "bonus_stat": {
+       "name": "Combo Skill DMG",
+       "values": [
+        41.4,
+        45.5,
+        49.7,
+        53.8
+       ],
+       "name_es": "Bono de DAÑ de la habilidad de combo",
+       "name_zh": "连携技伤害加成",
+       "name_ja": "連携技ダメージUP",
+       "name_ko": "연계 스킬 피해 보너스"
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50,
+      "comp_es": "Componente de Pirrolita",
+      "comp_zh": "灼铜装备原件",
+      "comp_ja": "焔銅装備部品",
+      "comp_ko": "작동 장비 부품",
+      "newest": {
+       "billN": 360,
+       "comp": "Pyrrolite Component",
+       "compN": 50
+      }
+     },
+     "name_es": "Telémetro de Xiranita eterna",
+     "name_ja": "流転レンジファインダー",
+     "name_zh": "长息测距仪",
+     "name_ko": "식양의 숨결 거리 측정기",
+     "bonus_stat_es": "Bono de DAÑ de la habilidad de combo: +53.8%",
+     "bonus_stat_zh": "连携技伤害加成: +53.8%",
+     "bonus_stat_ja": "連携技ダメージUP: +53.8%",
+     "bonus_stat_ko": "연계 스킬 피해 보너스: +53.8%"
     }
    ],
    "set_bonus_3pc": "Flat HP +1000. When the wearer applies Amp, Protected, Susceptible, or Weakened, other teammates also gain DMG Dealt +16% for 15s. This effect cannot stack.",
@@ -9280,6 +9900,281 @@
      "bonus_stat_zh": "副能力: +28.1%",
      "bonus_stat_ja": "サブ能力: +28.1%",
      "bonus_stat_ko": "보조 능력치: +28.1%"
+    },
+    {
+     "name": "Rift Trekker Steel Armor",
+     "type": "Armor",
+     "version": "1.6",
+     "def": 56,
+     "attributes": {
+      "agility": 149
+     },
+     "bonus_stat": "Combo Skill DMG: +28.1%",
+     "artificing": {
+      "attributes": {
+       "agility": [
+        115,
+        126,
+        138,
+        149
+       ]
+      },
+      "bonus_stat": {
+       "name": "Combo Skill DMG",
+       "values": [
+        21.6,
+        23.8,
+        25.9,
+        28.1
+       ],
+       "name_es": "Bono de DAÑ de la habilidad de combo",
+       "name_zh": "连携技伤害加成",
+       "name_ja": "連携技ダメージUP",
+       "name_ko": "연계 스킬 피해 보너스"
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50,
+      "comp_es": "Componente de Pirrolita",
+      "comp_zh": "灼铜装备原件",
+      "comp_ja": "焔銅装備部品",
+      "comp_ko": "작동 장비 부품",
+      "newest": {
+       "billN": 360,
+       "comp": "Pyrrolite Component",
+       "compN": 50
+      }
+     },
+     "name_es": "Armadura de acero del Trotagrietas",
+     "name_ja": "渡淵鋼製防具",
+     "name_zh": "涉渊钢甲",
+     "name_ko": "절망 강철 방어구",
+     "bonus_stat_es": "Bono de DAÑ de la habilidad de combo: +28.1%",
+     "bonus_stat_zh": "连携技伤害加成: +28.1%",
+     "bonus_stat_ja": "連携技ダメージUP: +28.1%",
+     "bonus_stat_ko": "연계 스킬 피해 보너스: +28.1%"
+    },
+    {
+     "name": "Rift Trekker Overalls",
+     "type": "Armor",
+     "version": "1.6",
+     "def": 56,
+     "attributes": {
+      "intellect": 149
+     },
+     "bonus_stat": "Heat and Nature DMG Dealt Bonus: +15.6%",
+     "artificing": {
+      "attributes": {
+       "intellect": [
+        115,
+        126,
+        138,
+        149
+       ]
+      },
+      "bonus_stat": {
+       "name": "Heat and Nature DMG Dealt Bonus",
+       "values": [
+        12,
+        13.2,
+        14.4,
+        15.6
+       ],
+       "name_es": "Bonificación de DAÑ por calor y por naturaleza infligido",
+       "name_zh": "灼热和自然伤害加成",
+       "name_ja": "灼熱&自然ダメージUP",
+       "name_ko": "열기와 자연 피해 보너스"
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50,
+      "comp_es": "Componente de Pirrolita",
+      "comp_zh": "灼铜装备原件",
+      "comp_ja": "焔銅装備部品",
+      "comp_ko": "작동 장비 부품",
+      "newest": {
+       "billN": 360,
+       "comp": "Pyrrolite Component",
+       "compN": 50
+      }
+     },
+     "name_es": "Overol del Trotagrietas",
+     "name_ja": "渡淵防護服",
+     "name_zh": "涉渊防护服",
+     "name_ko": "절망 방호복",
+     "bonus_stat_es": "Bonificación de DAÑ por calor y por naturaleza infligido: +15.6%",
+     "bonus_stat_zh": "灼热和自然伤害加成: +15.6%",
+     "bonus_stat_ja": "灼熱&自然ダメージUP: +15.6%",
+     "bonus_stat_ko": "열기와 자연 피해 보너스: +15.6%"
+    },
+    {
+     "name": "Rift Trekker Wraps",
+     "type": "Gloves",
+     "version": "1.6",
+     "def": 42,
+     "attributes": {
+      "will": 111
+     },
+     "bonus_stat": "Cryo and Electric DMG Dealt Bonus: +26%",
+     "artificing": {
+      "attributes": {
+       "will": [
+        86,
+        94,
+        103,
+        111
+       ]
+      },
+      "bonus_stat": {
+       "name": "Cryo and Electric DMG Dealt Bonus",
+       "values": [
+        20,
+        22,
+        24,
+        26
+       ],
+       "name_es": "Bonificación de DAÑ criogénico y eléctrico infligido",
+       "name_zh": "寒冷和电磁伤害加成",
+       "name_ja": "寒冷&電磁ダメージUP",
+       "name_ko": "냉기와 전기 피해 보너스"
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50,
+      "comp_es": "Componente de Pirrolita",
+      "comp_zh": "灼铜装备原件",
+      "comp_ja": "焔銅装備部品",
+      "comp_ko": "작동 장비 부품",
+      "newest": {
+       "billN": 360,
+       "comp": "Pyrrolite Component",
+       "compN": 50
+      }
+     },
+     "name_es": "Vendas del Trotagrietas",
+     "name_ja": "渡淵ハンドガード",
+     "name_zh": "涉渊裹手",
+     "name_ko": "절망 보호대",
+     "bonus_stat_es": "Bonificación de DAÑ criogénico y eléctrico infligido: +26%",
+     "bonus_stat_zh": "寒冷和电磁伤害加成: +26%",
+     "bonus_stat_ja": "寒冷&電磁ダメージUP: +26%",
+     "bonus_stat_ko": "냉기와 전기 피해 보너스: +26%"
+    },
+    {
+     "name": "Rift Trekker Gauntlets",
+     "type": "Gloves",
+     "version": "1.6",
+     "def": 42,
+     "attributes": {
+      "strength": 111
+     },
+     "bonus_stat": "Basic ATK DMG: +31.2%",
+     "artificing": {
+      "attributes": {
+       "strength": [
+        86,
+        94,
+        103,
+        111
+       ]
+      },
+      "bonus_stat": {
+       "name": "Basic Attack DMG Bonus",
+       "values": [
+        24,
+        26.4,
+        28.8,
+        31.2
+       ],
+       "name_es": "Bonificación de DAÑ de ataque básico",
+       "name_zh": "普通攻击伤害加成",
+       "name_ja": "通常攻撃ダメージUP",
+       "name_ko": "일반 공격 피해 보너스"
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50,
+      "comp_es": "Componente de Pirrolita",
+      "comp_zh": "灼铜装备原件",
+      "comp_ja": "焔銅装備部品",
+      "comp_ko": "작동 장비 부품",
+      "newest": {
+       "billN": 360,
+       "comp": "Pyrrolite Component",
+       "compN": 50
+      }
+     },
+     "name_es": "Guanteletes del Trotagrietas",
+     "name_ja": "渡淵ガントレット",
+     "name_zh": "涉渊手甲",
+     "name_ko": "절망 금속 장갑",
+     "bonus_stat_es": "Bonificación de DAÑ de ataque básico: +31.2%",
+     "bonus_stat_zh": "普通攻击伤害加成: +31.2%",
+     "bonus_stat_ja": "通常攻撃ダメージUP: +31.2%",
+     "bonus_stat_ko": "일반 공격 피해 보너스: +31.2%"
+    },
+    {
+     "name": "Rift Trekker Silver Blade",
+     "type": "Kit",
+     "version": "1.6",
+     "def": 21,
+     "attributes": {
+      "agility": 55
+     },
+     "bonus_stat": "Ultimate Gain Efficiency: +33.4%",
+     "artificing": {
+      "attributes": {
+       "agility": [
+        43,
+        47,
+        51,
+        55
+       ]
+      },
+      "bonus_stat": {
+       "name": "Ultimate Gain Efficiency",
+       "values": [
+        25.7,
+        28.3,
+        30.9,
+        33.4
+       ],
+       "name_es": "Eficiencia de ganancia máxima",
+       "name_zh": "终结技充能效率",
+       "name_ja": "必殺チャージの回復効率",
+       "name_ko": "궁극기 충전 효율"
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50,
+      "comp_es": "Componente de Pirrolita",
+      "comp_zh": "灼铜装备原件",
+      "comp_ja": "焔銅装備部品",
+      "comp_ko": "작동 장비 부품",
+      "newest": {
+       "billN": 360,
+       "comp": "Pyrrolite Component",
+       "compN": 50
+      }
+     },
+     "name_es": "Hoja de plata del Trotagrietas",
+     "name_ja": "渡淵白刃",
+     "name_zh": "涉渊白刃",
+     "name_ko": "절망 검날",
+     "bonus_stat_es": "Eficiencia de ganancia máxima: +33.4%",
+     "bonus_stat_zh": "终结技充能效率: +33.4%",
+     "bonus_stat_ja": "必殺チャージの回復効率: +33.4%",
+     "bonus_stat_ko": "궁극기 충전 효율: +33.4%"
     }
    ],
    "name_es": "Paquete de equipamiento de Trotagrietas",
@@ -10219,6 +11114,192 @@
      "bonus_stat_ja": "回復効率UP: +23%",
      "bonus_stat_ko": "치유 효율 보너스: +23%",
      "name_ko": "통합 실전 훈련 동력 공급 장치"
+    },
+    {
+     "name": "AIC Fieldwork CQB Armor",
+     "type": "Armor",
+     "version": "1.6",
+     "def": 48,
+     "attributes": {
+      "main": 96,
+      "secondary": 63
+     },
+     "bonus_stat": "Physical DMG: +12.8%",
+     "artificing": {
+      "attributes": {
+       "main": [
+        74,
+        81,
+        88,
+        96
+       ],
+       "secondary": [
+        49,
+        53,
+        58,
+        63
+       ]
+      },
+      "bonus_stat": {
+       "name": "Physical DMG",
+       "values": [
+        9.8,
+        10.8,
+        11.8,
+        12.8
+       ],
+       "name_es": "DAÑ físico",
+       "name_zh": "物理伤害提升",
+       "name_ja": "物理ダメージUP",
+       "name_ko": "물리 피해 증가"
+      }
+     },
+     "assembly": {
+      "billN": 3000,
+      "comp": "Xiranite Component",
+      "compN": 20,
+      "comp_es": "Componente de Xiranita",
+      "comp_zh": "息壤装备原件",
+      "comp_ja": "息壌装備部品",
+      "comp_ko": "식양 장비 부품",
+      "newest": {
+       "billN": 30,
+       "comp": "Pyrrolite Component",
+       "compN": 2
+      }
+     },
+     "name_es": "Armadura CEC para Trabajo de campo del CAI",
+     "name_ja": "集成訓練剣術防具",
+     "name_zh": "集成实训刃装护甲",
+     "name_ko": "통합 실전 훈련 도검형 방어구",
+     "bonus_stat_es": "DAÑ físico: +12.8%",
+     "bonus_stat_zh": "物理伤害提升: +12.8%",
+     "bonus_stat_ja": "物理ダメージUP: +12.8%",
+     "bonus_stat_ko": "물리 피해 증가: +12.8%"
+    },
+    {
+     "name": "AIC Fieldwork CQB Gloves",
+     "type": "Gloves",
+     "version": "1.6",
+     "def": 36,
+     "attributes": {
+      "main": 71,
+      "secondary": 48
+     },
+     "bonus_stat": "Physical DMG: +21.3%",
+     "artificing": {
+      "attributes": {
+       "main": [
+        55,
+        60,
+        66,
+        71
+       ],
+       "secondary": [
+        37,
+        40,
+        44,
+        48
+       ]
+      },
+      "bonus_stat": {
+       "name": "Physical DMG",
+       "values": [
+        16.4,
+        18,
+        19.7,
+        21.3
+       ],
+       "name_es": "DAÑ físico",
+       "name_zh": "物理伤害提升",
+       "name_ja": "物理ダメージUP",
+       "name_ko": "물리 피해 증가"
+      }
+     },
+     "assembly": {
+      "billN": 3000,
+      "comp": "Xiranite Component",
+      "compN": 20,
+      "comp_es": "Componente de Xiranita",
+      "comp_zh": "息壤装备原件",
+      "comp_ja": "息壌装備部品",
+      "comp_ko": "식양 장비 부품",
+      "newest": {
+       "billN": 30,
+       "comp": "Pyrrolite Component",
+       "compN": 2
+      }
+     },
+     "name_es": "Guantes CEC para Trabajo de campo del CAI",
+     "name_ja": "集成訓練剣術プロテクター",
+     "name_zh": "集成实训刃装护手",
+     "name_ko": "통합 실전 훈련 도검형 보호 장갑",
+     "bonus_stat_es": "DAÑ físico: +21.3%",
+     "bonus_stat_zh": "物理伤害提升: +21.3%",
+     "bonus_stat_ja": "物理ダメージUP: +21.3%",
+     "bonus_stat_ko": "물리 피해 증가: +21.3%"
+    },
+    {
+     "name": "AIC Fieldwork CQB Hacksaw",
+     "type": "Kit",
+     "version": "1.6",
+     "def": 18,
+     "attributes": {
+      "main": 35,
+      "secondary": 23
+     },
+     "bonus_stat": "Physical DMG: +25.6%",
+     "artificing": {
+      "attributes": {
+       "main": [
+        27,
+        29,
+        32,
+        35
+       ],
+       "secondary": [
+        18,
+        19,
+        21,
+        23
+       ]
+      },
+      "bonus_stat": {
+       "name": "Physical DMG",
+       "values": [
+        19.7,
+        21.6,
+        23.6,
+        25.6
+       ],
+       "name_es": "DAÑ físico",
+       "name_zh": "物理伤害提升",
+       "name_ja": "物理ダメージUP",
+       "name_ko": "물리 피해 증가"
+      }
+     },
+     "assembly": {
+      "billN": 3000,
+      "comp": "Xiranite Component",
+      "compN": 20,
+      "comp_es": "Componente de Xiranita",
+      "comp_zh": "息壤装备原件",
+      "comp_ja": "息壌装備部品",
+      "comp_ko": "식양 장비 부품",
+      "newest": {
+       "billN": 30,
+       "comp": "Pyrrolite Component",
+       "compN": 2
+      }
+     },
+     "name_es": "Sierra mecánica CEC para Trabajo de campo del CAI",
+     "name_ja": "集成訓練剣術チェーンソー",
+     "name_zh": "集成实训刃装短锯",
+     "name_ko": "통합 실전 훈련 도검형 톱",
+     "bonus_stat_es": "DAÑ físico: +25.6%",
+     "bonus_stat_zh": "物理伤害提升: +25.6%",
+     "bonus_stat_ja": "物理ダメージUP: +25.6%",
+     "bonus_stat_ko": "물리 피해 증가: +25.6%"
     }
    ],
    "name_es": "Trabajo de campo del CAI",
@@ -10424,7 +11505,7 @@
    "name_ja": "天険",
    "name_ko": "관문",
    "name_es": "Baluarte profundo",
-   "set_bonus_3pc_es": "DAÑ por Artes infligido por el portador +16%. Cuando el usuario aplica Ráfaga de naturaleza o Ráfaga criogénica, obtiene Intensidad de artes +16 durante 20 s. Acumulaciones Máx. de este efecto: 3. La duración de cada acumulación se cuenta por separado. El efecto solo se activa una vez cada 0.1 s.",
+   "set_bonus_3pc_es": "DAÑ por artes infligido por el portador +16%. Cuando el portador aplica Ráfaga de naturaleza o Ráfaga criogénica, obtiene Intensidad de artes +16 durante 20 s. Acumulaciones Máx. de este efecto: 3. La duración de cada acumulación se cuenta por separado. El efecto solo se activa una vez cada 0.1 s.",
    "set_bonus_3pc_zh": "装备者法术伤害+16%。 当装备者造成自然爆发、寒冷爆发时，源石技艺强度+16，持续20秒。该效果最多叠加3层，每层单独计算持续时间，每0.1秒最多触发一次。",
    "set_bonus_3pc_ja": "装備中、アーツダメージ+16%自身が自然爆発、寒冷爆発を発動させるとき、20秒間アーツ強度+16この効果は最大3段階まで重ね掛け可能（持続時間は個別にカウントされ、0.1秒に1回まで発動可能）",
    "set_bonus_3pc_ko": "장착자의 아츠 피해 +16% 장착자가 자연 폭발, 냉기 폭발 피해를 줄 때, 오리지늄 아츠 강도 +16, 20초 동안 지속. 해당 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다."

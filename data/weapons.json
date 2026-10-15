@@ -1,6 +1,6 @@
 {
   "game": "Arknights: Endfield",
-  "total_weapons": 80,
+  "total_weapons": 83,
   "weapons": {
     "Sword": [
       {
@@ -4560,6 +4560,226 @@
         "stat1_ko": "힘 +124",
         "stat2_ko": "치유 효율 +37.1%",
         "passive_ko": "최대 생명력 +28.0% 장착자가 자신의 연계 스킬로 치유한 후, 장착자의 치유를 받은 오퍼레이터의 오리지늄 아츠 강도 +14, 아츠 피해 +9.8%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "id": "wpn_sword_0024",
+        "name": "Complexed Industry",
+        "type": "Sword",
+        "rarity": 6,
+        "base_atk": 490,
+        "stat1": "Will: +156",
+        "stat2": "Electric DMG Dealt: +43.3%",
+        "passive": "ATK +19.6%. When the wielder's combo skill applies Electric Infliction, the wielder gains Arts Intensity +42 and Electric DMG Dealt +22.4% for 15s. Effects of the same name cannot stack.",
+        "name_es": "Industria compleja",
+        "scaling_by_rank": {
+          "base_atk": {
+            "min": 50,
+            "max": 490
+          },
+          "passives": [
+            {
+              "name": "Will Boost [L]",
+              "ranks": [
+                "Will +20",
+                "Will +36",
+                "Will +52",
+                "Will +68",
+                "Will +84",
+                "Will +100",
+                "Will +116",
+                "Will +132",
+                "Will +156"
+              ],
+              "name_es": "Voluntad [G]",
+              "name_zh": "意志提升·大",
+              "name_ja": "意志UP・大",
+              "name_ko": "의지 증가 · 대",
+              "ranks_es": [
+                "Voluntad +20",
+                "Voluntad +36",
+                "Voluntad +52",
+                "Voluntad +68",
+                "Voluntad +84",
+                "Voluntad +100",
+                "Voluntad +116",
+                "Voluntad +132",
+                "Voluntad +156"
+              ],
+              "ranks_zh": [
+                "意志+20",
+                "意志+36",
+                "意志+52",
+                "意志+68",
+                "意志+84",
+                "意志+100",
+                "意志+116",
+                "意志+132",
+                "意志+156"
+              ],
+              "ranks_ja": [
+                "意志+20",
+                "意志+36",
+                "意志+52",
+                "意志+68",
+                "意志+84",
+                "意志+100",
+                "意志+116",
+                "意志+132",
+                "意志+156"
+              ],
+              "ranks_ko": [
+                "의지 +20",
+                "의지 +36",
+                "의지 +52",
+                "의지 +68",
+                "의지 +84",
+                "의지 +100",
+                "의지 +116",
+                "의지 +132",
+                "의지 +156"
+              ]
+            },
+            {
+              "name": "Electric DMG Boost [L]",
+              "ranks": [
+                "Electric DMG Dealt +5.6%",
+                "Electric DMG Dealt +10.0%",
+                "Electric DMG Dealt +14.4%",
+                "Electric DMG Dealt +18.9%",
+                "Electric DMG Dealt +23.3%",
+                "Electric DMG Dealt +27.8%",
+                "Electric DMG Dealt +32.2%",
+                "Electric DMG Dealt +36.7%",
+                "Electric DMG Dealt +43.3%"
+              ],
+              "name_es": "DAÑ eléctrico [G]",
+              "name_zh": "电磁伤害提升·大",
+              "name_ja": "電磁ダメージUP・大",
+              "name_ko": "전기 피해 증가 · 대",
+              "ranks_es": [
+                "DAÑ eléctrico infligido +5.6%",
+                "DAÑ eléctrico infligido +10.0%",
+                "DAÑ eléctrico infligido +14.4%",
+                "DAÑ eléctrico infligido +18.9%",
+                "DAÑ eléctrico infligido +23.3%",
+                "DAÑ eléctrico infligido +27.8%",
+                "DAÑ eléctrico infligido +32.2%",
+                "DAÑ eléctrico infligido +36.7%",
+                "DAÑ eléctrico infligido +43.3%"
+              ],
+              "ranks_zh": [
+                "电磁伤害+5.6%",
+                "电磁伤害+10.0%",
+                "电磁伤害+14.4%",
+                "电磁伤害+18.9%",
+                "电磁伤害+23.3%",
+                "电磁伤害+27.8%",
+                "电磁伤害+32.2%",
+                "电磁伤害+36.7%",
+                "电磁伤害+43.3%"
+              ],
+              "ranks_ja": [
+                "電磁ダメージ+5.6%",
+                "電磁ダメージ+10.0%",
+                "電磁ダメージ+14.4%",
+                "電磁ダメージ+18.9%",
+                "電磁ダメージ+23.3%",
+                "電磁ダメージ+27.8%",
+                "電磁ダメージ+32.2%",
+                "電磁ダメージ+36.7%",
+                "電磁ダメージ+43.3%"
+              ],
+              "ranks_ko": [
+                "전기 피해 +5.6%",
+                "전기 피해 +10.0%",
+                "전기 피해 +14.4%",
+                "전기 피해 +18.9%",
+                "전기 피해 +23.3%",
+                "전기 피해 +27.8%",
+                "전기 피해 +32.2%",
+                "전기 피해 +36.7%",
+                "전기 피해 +43.3%"
+              ]
+            },
+            {
+              "name": "Detonate: Complexed Advantage",
+              "ranks": [
+                "ATK +7.0%. When the wielder's combo skill applies Electric Infliction, the wielder gains Arts Intensity +15 and Electric DMG Dealt +8.0% for 15s. Effects of the same name cannot stack.",
+                "ATK +8.4%. When the wielder's combo skill applies Electric Infliction, the wielder gains Arts Intensity +18 and Electric DMG Dealt +9.6% for 15s. Effects of the same name cannot stack.",
+                "ATK +9.8%. When the wielder's combo skill applies Electric Infliction, the wielder gains Arts Intensity +21 and Electric DMG Dealt +11.2% for 15s. Effects of the same name cannot stack.",
+                "ATK +11.2%. When the wielder's combo skill applies Electric Infliction, the wielder gains Arts Intensity +24 and Electric DMG Dealt +12.8% for 15s. Effects of the same name cannot stack.",
+                "ATK +12.6%. When the wielder's combo skill applies Electric Infliction, the wielder gains Arts Intensity +27 and Electric DMG Dealt +14.4% for 15s. Effects of the same name cannot stack.",
+                "ATK +14.0%. When the wielder's combo skill applies Electric Infliction, the wielder gains Arts Intensity +30 and Electric DMG Dealt +16.0% for 15s. Effects of the same name cannot stack.",
+                "ATK +15.4%. When the wielder's combo skill applies Electric Infliction, the wielder gains Arts Intensity +33 and Electric DMG Dealt +17.6% for 15s. Effects of the same name cannot stack.",
+                "ATK +16.8%. When the wielder's combo skill applies Electric Infliction, the wielder gains Arts Intensity +36 and Electric DMG Dealt +19.2% for 15s. Effects of the same name cannot stack.",
+                "ATK +19.6%. When the wielder's combo skill applies Electric Infliction, the wielder gains Arts Intensity +42 and Electric DMG Dealt +22.4% for 15s. Effects of the same name cannot stack."
+              ],
+              "name_es": "Detonación: Ventaja compleja",
+              "name_zh": "迸发·聚合效益",
+              "name_ja": "噴発・集約効率",
+              "name_ko": "방출 · 집약 효과",
+              "ranks_es": [
+                "ATQ +7.0%. Cuando la habilidad de combo del portador aplica Imposición eléctrica, el portador obtiene Intensidad de Artes +15 y DAÑ eléctrico infligido +8.0% durante 15 s. Los efectos con el mismo nombre no se pueden acumular.",
+                "ATQ +8.4%. Cuando la habilidad de combo del portador aplica Imposición eléctrica, el portador obtiene Intensidad de Artes +18 y DAÑ eléctrico infligido +9.6% durante 15 s. Los efectos con el mismo nombre no se pueden acumular.",
+                "ATQ +9.8%. Cuando la habilidad de combo del portador aplica Imposición eléctrica, el portador obtiene Intensidad de Artes +21 y DAÑ eléctrico infligido +11.2% durante 15 s. Los efectos con el mismo nombre no se pueden acumular.",
+                "ATQ +11.2%. Cuando la habilidad de combo del portador aplica Imposición eléctrica, el portador obtiene Intensidad de Artes +24 y DAÑ eléctrico infligido +12.8% durante 15 s. Los efectos con el mismo nombre no se pueden acumular.",
+                "ATQ +12.6%. Cuando la habilidad de combo del portador aplica Imposición eléctrica, el portador obtiene Intensidad de Artes +27 y DAÑ eléctrico infligido +14.4% durante 15 s. Los efectos con el mismo nombre no se pueden acumular.",
+                "ATQ +14.0%. Cuando la habilidad de combo del portador aplica Imposición eléctrica, el portador obtiene Intensidad de Artes +30 y DAÑ eléctrico infligido +16.0% durante 15 s. Los efectos con el mismo nombre no se pueden acumular.",
+                "ATQ +15.4%. Cuando la habilidad de combo del portador aplica Imposición eléctrica, el portador obtiene Intensidad de Artes +33 y DAÑ eléctrico infligido +17.6% durante 15 s. Los efectos con el mismo nombre no se pueden acumular.",
+                "ATQ +16.8%. Cuando la habilidad de combo del portador aplica Imposición eléctrica, el portador obtiene Intensidad de Artes +36 y DAÑ eléctrico infligido +19.2% durante 15 s. Los efectos con el mismo nombre no se pueden acumular.",
+                "ATQ +19.6%. Cuando la habilidad de combo del portador aplica Imposición eléctrica, el portador obtiene Intensidad de Artes +42 y DAÑ eléctrico infligido +22.4% durante 15 s. Los efectos con el mismo nombre no se pueden acumular."
+              ],
+              "ranks_zh": [
+                "攻击力+7.0%。 通过自身连携技施加电磁附着时，源石技艺强度+15，电磁伤害+8.0%，持续15秒。 同名效果无法叠加。",
+                "攻击力+8.4%。 通过自身连携技施加电磁附着时，源石技艺强度+18，电磁伤害+9.6%，持续15秒。 同名效果无法叠加。",
+                "攻击力+9.8%。 通过自身连携技施加电磁附着时，源石技艺强度+21，电磁伤害+11.2%，持续15秒。 同名效果无法叠加。",
+                "攻击力+11.2%。 通过自身连携技施加电磁附着时，源石技艺强度+24，电磁伤害+12.8%，持续15秒。 同名效果无法叠加。",
+                "攻击力+12.6%。 通过自身连携技施加电磁附着时，源石技艺强度+27，电磁伤害+14.4%，持续15秒。 同名效果无法叠加。",
+                "攻击力+14.0%。 通过自身连携技施加电磁附着时，源石技艺强度+30，电磁伤害+16.0%，持续15秒。 同名效果无法叠加。",
+                "攻击力+15.4%。 通过自身连携技施加电磁附着时，源石技艺强度+33，电磁伤害+17.6%，持续15秒。 同名效果无法叠加。",
+                "攻击力+16.8%。 通过自身连携技施加电磁附着时，源石技艺强度+36，电磁伤害+19.2%，持续15秒。 同名效果无法叠加。",
+                "攻击力+19.6%。 通过自身连携技施加电磁附着时，源石技艺强度+42，电磁伤害+22.4%，持续15秒。 同名效果无法叠加。"
+              ],
+              "ranks_ja": [
+                "攻撃力+7.0% 装備中、自身の連携技で電磁付着を付与するとき、15秒間アーツ強度+15、電磁ダメージ+8.0% 同名効果は重ね掛け不可",
+                "攻撃力+8.4% 装備中、自身の連携技で電磁付着を付与するとき、15秒間アーツ強度+18、電磁ダメージ+9.6% 同名効果は重ね掛け不可",
+                "攻撃力+9.8% 装備中、自身の連携技で電磁付着を付与するとき、15秒間アーツ強度+21、電磁ダメージ+11.2% 同名効果は重ね掛け不可",
+                "攻撃力+11.2% 装備中、自身の連携技で電磁付着を付与するとき、15秒間アーツ強度+24、電磁ダメージ+12.8% 同名効果は重ね掛け不可",
+                "攻撃力+12.6% 装備中、自身の連携技で電磁付着を付与するとき、15秒間アーツ強度+27、電磁ダメージ+14.4% 同名効果は重ね掛け不可",
+                "攻撃力+14.0% 装備中、自身の連携技で電磁付着を付与するとき、15秒間アーツ強度+30、電磁ダメージ+16.0% 同名効果は重ね掛け不可",
+                "攻撃力+15.4% 装備中、自身の連携技で電磁付着を付与するとき、15秒間アーツ強度+33、電磁ダメージ+17.6% 同名効果は重ね掛け不可",
+                "攻撃力+16.8% 装備中、自身の連携技で電磁付着を付与するとき、15秒間アーツ強度+36、電磁ダメージ+19.2% 同名効果は重ね掛け不可",
+                "攻撃力+19.6% 装備中、自身の連携技で電磁付着を付与するとき、15秒間アーツ強度+42、電磁ダメージ+22.4% 同名効果は重ね掛け不可"
+              ],
+              "ranks_ko": [
+                "공격력 +7.0% 장착자가 자신의 연계 스킬로 전기 부착을 부여할 시, 오리지늄 아츠 강도 +15, 전기 피해 +8.0%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.",
+                "공격력 +8.4% 장착자가 자신의 연계 스킬로 전기 부착을 부여할 시, 오리지늄 아츠 강도 +18, 전기 피해 +9.6%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.",
+                "공격력 +9.8% 장착자가 자신의 연계 스킬로 전기 부착을 부여할 시, 오리지늄 아츠 강도 +21, 전기 피해 +11.2%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.",
+                "공격력 +11.2% 장착자가 자신의 연계 스킬로 전기 부착을 부여할 시, 오리지늄 아츠 강도 +24, 전기 피해 +12.8%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.",
+                "공격력 +12.6% 장착자가 자신의 연계 스킬로 전기 부착을 부여할 시, 오리지늄 아츠 강도 +27, 전기 피해 +14.4%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.",
+                "공격력 +14.0% 장착자가 자신의 연계 스킬로 전기 부착을 부여할 시, 오리지늄 아츠 강도 +30, 전기 피해 +16.0%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.",
+                "공격력 +15.4% 장착자가 자신의 연계 스킬로 전기 부착을 부여할 시, 오리지늄 아츠 강도 +33, 전기 피해 +17.6%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.",
+                "공격력 +16.8% 장착자가 자신의 연계 스킬로 전기 부착을 부여할 시, 오리지늄 아츠 강도 +36, 전기 피해 +19.2%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.",
+                "공격력 +19.6% 장착자가 자신의 연계 스킬로 전기 부착을 부여할 시, 오리지늄 아츠 강도 +42, 전기 피해 +22.4%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+              ]
+            }
+          ]
+        },
+        "name_zh": "聚合工业",
+        "name_ja": "複合工業",
+        "name_ko": "응집 공업",
+        "stat1_es": "Voluntad +156",
+        "stat2_es": "DAÑ eléctrico infligido +43.3%",
+        "passive_es": "ATQ +19.6%. Cuando la habilidad de combo del portador aplica Imposición eléctrica, el portador obtiene Intensidad de Artes +42 y DAÑ eléctrico infligido +22.4% durante 15 s. Los efectos con el mismo nombre no se pueden acumular.",
+        "stat1_zh": "意志+156",
+        "stat2_zh": "电磁伤害+43.3%",
+        "passive_zh": "攻击力+19.6%。 通过自身连携技施加电磁附着时，源石技艺强度+42，电磁伤害+22.4%，持续15秒。 同名效果无法叠加。",
+        "stat1_ja": "意志+156",
+        "stat2_ja": "電磁ダメージ+43.3%",
+        "passive_ja": "攻撃力+19.6% 装備中、自身の連携技で電磁付着を付与するとき、15秒間アーツ強度+42、電磁ダメージ+22.4% 同名効果は重ね掛け不可",
+        "stat1_ko": "의지 +156",
+        "stat2_ko": "전기 피해 +43.3%",
+        "passive_ko": "공격력 +19.6% 장착자가 자신의 연계 스킬로 전기 부착을 부여할 시, 오리지늄 아츠 강도 +42, 전기 피해 +22.4%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
       }
     ],
     "Greatsword": [
@@ -7580,6 +7800,446 @@
         "passive_zh": "攻击力+34。",
         "passive_ja": "攻撃力+34",
         "passive_ko": "공격력 +34"
+      },
+      {
+        "id": "wpn_claym_0018",
+        "name": "Jade Vessel",
+        "type": "Greatsword",
+        "rarity": 6,
+        "base_atk": 500,
+        "stat1": "Intellect: +156",
+        "stat2": "Cryo DMG Dealt: +43.3%",
+        "passive": "ATK +44.8%. When the wielder applies Immobilization on the enemy, the target enemy suffers DMG Taken +21.0% for 30s. When the wielder applies Immobilization on the enemy or after the wielder casts an ultimate, the next combo skill cast within 20s gains DMG Dealt +70.0%. The two effects apply separately and do not stack with themselves.",
+        "name_es": "Vasija de jade",
+        "scaling_by_rank": {
+          "base_atk": {
+            "min": 51,
+            "max": 500
+          },
+          "passives": [
+            {
+              "name": "Intellect Boost [L]",
+              "ranks": [
+                "Intellect +20",
+                "Intellect +36",
+                "Intellect +52",
+                "Intellect +68",
+                "Intellect +84",
+                "Intellect +100",
+                "Intellect +116",
+                "Intellect +132",
+                "Intellect +156"
+              ],
+              "name_es": "Intelecto [G]",
+              "name_zh": "智识提升·大",
+              "name_ja": "知性UP・大",
+              "name_ko": "지능 증가 · 대",
+              "ranks_es": [
+                "Intelecto +20",
+                "Intelecto +36",
+                "Intelecto +52",
+                "Intelecto +68",
+                "Intelecto +84",
+                "Intelecto +100",
+                "Intelecto +116",
+                "Intelecto +132",
+                "Intelecto +156"
+              ],
+              "ranks_zh": [
+                "智识+20",
+                "智识+36",
+                "智识+52",
+                "智识+68",
+                "智识+84",
+                "智识+100",
+                "智识+116",
+                "智识+132",
+                "智识+156"
+              ],
+              "ranks_ja": [
+                "知性+20",
+                "知性+36",
+                "知性+52",
+                "知性+68",
+                "知性+84",
+                "知性+100",
+                "知性+116",
+                "知性+132",
+                "知性+156"
+              ],
+              "ranks_ko": [
+                "지능 +20",
+                "지능 +36",
+                "지능 +52",
+                "지능 +68",
+                "지능 +84",
+                "지능 +100",
+                "지능 +116",
+                "지능 +132",
+                "지능 +156"
+              ]
+            },
+            {
+              "name": "Cryo DMG Boost [L]",
+              "ranks": [
+                "Cryo DMG Dealt +5.6%",
+                "Cryo DMG Dealt +10.0%",
+                "Cryo DMG Dealt +14.4%",
+                "Cryo DMG Dealt +18.9%",
+                "Cryo DMG Dealt +23.3%",
+                "Cryo DMG Dealt +27.8%",
+                "Cryo DMG Dealt +32.2%",
+                "Cryo DMG Dealt +36.7%",
+                "Cryo DMG Dealt +43.3%"
+              ],
+              "name_es": "DAÑ criogénico [G]",
+              "name_zh": "寒冷伤害提升·大",
+              "name_ja": "寒冷ダメージUP・大",
+              "name_ko": "냉기 피해 증가 · 대",
+              "ranks_es": [
+                "DAÑ criogénico infligido +5.6%",
+                "DAÑ criogénico infligido +10.0%",
+                "DAÑ criogénico infligido +14.4%",
+                "DAÑ criogénico infligido +18.9%",
+                "DAÑ criogénico infligido +23.3%",
+                "DAÑ criogénico infligido +27.8%",
+                "DAÑ criogénico infligido +32.2%",
+                "DAÑ criogénico infligido +36.7%",
+                "DAÑ criogénico infligido +43.3%"
+              ],
+              "ranks_zh": [
+                "寒冷伤害+5.6%",
+                "寒冷伤害+10.0%",
+                "寒冷伤害+14.4%",
+                "寒冷伤害+18.9%",
+                "寒冷伤害+23.3%",
+                "寒冷伤害+27.8%",
+                "寒冷伤害+32.2%",
+                "寒冷伤害+36.7%",
+                "寒冷伤害+43.3%"
+              ],
+              "ranks_ja": [
+                "寒冷ダメージ+5.6%",
+                "寒冷ダメージ+10.0%",
+                "寒冷ダメージ+14.4%",
+                "寒冷ダメージ+18.9%",
+                "寒冷ダメージ+23.3%",
+                "寒冷ダメージ+27.8%",
+                "寒冷ダメージ+32.2%",
+                "寒冷ダメージ+36.7%",
+                "寒冷ダメージ+43.3%"
+              ],
+              "ranks_ko": [
+                "냉기 피해 +5.6%",
+                "냉기 피해 +10.0%",
+                "냉기 피해 +14.4%",
+                "냉기 피해 +18.9%",
+                "냉기 피해 +23.3%",
+                "냉기 피해 +27.8%",
+                "냉기 피해 +32.2%",
+                "냉기 피해 +36.7%",
+                "냉기 피해 +43.3%"
+              ]
+            },
+            {
+              "name": "Efficacy: Dabbles of Ink",
+              "ranks": [
+                "ATK +16.0%. When the wielder applies Immobilization on the enemy, the target enemy suffers DMG Taken +7.5% for 30s. When the wielder applies Immobilization on the enemy or after the wielder casts an ultimate, the next combo skill cast within 20s gains DMG Dealt +25.0%. The two effects apply separately and do not stack with themselves.",
+                "ATK +19.2%. When the wielder applies Immobilization on the enemy, the target enemy suffers DMG Taken +9.0% for 30s. When the wielder applies Immobilization on the enemy or after the wielder casts an ultimate, the next combo skill cast within 20s gains DMG Dealt +30.0%. The two effects apply separately and do not stack with themselves.",
+                "ATK +22.4%. When the wielder applies Immobilization on the enemy, the target enemy suffers DMG Taken +10.5% for 30s. When the wielder applies Immobilization on the enemy or after the wielder casts an ultimate, the next combo skill cast within 20s gains DMG Dealt +35.0%. The two effects apply separately and do not stack with themselves.",
+                "ATK +25.6%. When the wielder applies Immobilization on the enemy, the target enemy suffers DMG Taken +12.0% for 30s. When the wielder applies Immobilization on the enemy or after the wielder casts an ultimate, the next combo skill cast within 20s gains DMG Dealt +40.0%. The two effects apply separately and do not stack with themselves.",
+                "ATK +28.8%. When the wielder applies Immobilization on the enemy, the target enemy suffers DMG Taken +13.5% for 30s. When the wielder applies Immobilization on the enemy or after the wielder casts an ultimate, the next combo skill cast within 20s gains DMG Dealt +45.0%. The two effects apply separately and do not stack with themselves.",
+                "ATK +32.0%. When the wielder applies Immobilization on the enemy, the target enemy suffers DMG Taken +15.0% for 30s. When the wielder applies Immobilization on the enemy or after the wielder casts an ultimate, the next combo skill cast within 20s gains DMG Dealt +50.0%. The two effects apply separately and do not stack with themselves.",
+                "ATK +35.2%. When the wielder applies Immobilization on the enemy, the target enemy suffers DMG Taken +16.5% for 30s. When the wielder applies Immobilization on the enemy or after the wielder casts an ultimate, the next combo skill cast within 20s gains DMG Dealt +55.0%. The two effects apply separately and do not stack with themselves.",
+                "ATK +38.4%. When the wielder applies Immobilization on the enemy, the target enemy suffers DMG Taken +18.0% for 30s. When the wielder applies Immobilization on the enemy or after the wielder casts an ultimate, the next combo skill cast within 20s gains DMG Dealt +60.0%. The two effects apply separately and do not stack with themselves.",
+                "ATK +44.8%. When the wielder applies Immobilization on the enemy, the target enemy suffers DMG Taken +21.0% for 30s. When the wielder applies Immobilization on the enemy or after the wielder casts an ultimate, the next combo skill cast within 20s gains DMG Dealt +70.0%. The two effects apply separately and do not stack with themselves."
+              ],
+              "name_es": "Eficacia: Salpicaduras de tinta",
+              "name_zh": "效益·落墨添彩",
+              "name_ja": "効率・墨筆の彩り",
+              "name_ko": "효율 · 먹빛에 더한 색채",
+              "ranks_es": [
+                "ATQ +16.0%. Cuando el portador aplica Inmovilización al enemigo, el enemigo objetivo sufre DAÑ recibido +7.5% durante 30 s. Cuando el portador aplica Inmovilización al enemigo o después de que el portador lance una máxima, la siguiente habilidad de combo lanzada dentro de 20 s obtiene DAÑ infligido +25.0%. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+                "ATQ +19.2%. Cuando el portador aplica Inmovilización al enemigo, el enemigo objetivo sufre DAÑ recibido +9.0% durante 30 s. Cuando el portador aplica Inmovilización al enemigo o después de que el portador lance una máxima, la siguiente habilidad de combo lanzada dentro de 20 s obtiene DAÑ infligido +30.0%. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+                "ATQ +22.4%. Cuando el portador aplica Inmovilización al enemigo, el enemigo objetivo sufre DAÑ recibido +10.5% durante 30 s. Cuando el portador aplica Inmovilización al enemigo o después de que el portador lance una máxima, la siguiente habilidad de combo lanzada dentro de 20 s obtiene DAÑ infligido +35.0%. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+                "ATQ +25.6%. Cuando el portador aplica Inmovilización al enemigo, el enemigo objetivo sufre DAÑ recibido +12.0% durante 30 s. Cuando el portador aplica Inmovilización al enemigo o después de que el portador lance una máxima, la siguiente habilidad de combo lanzada dentro de 20 s obtiene DAÑ infligido +40.0%. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+                "ATQ +28.8%. Cuando el portador aplica Inmovilización al enemigo, el enemigo objetivo sufre DAÑ recibido +13.5% durante 30 s. Cuando el portador aplica Inmovilización al enemigo o después de que el portador lance una máxima, la siguiente habilidad de combo lanzada dentro de 20 s obtiene DAÑ infligido +45.0%. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+                "ATQ +32.0%. Cuando el portador aplica Inmovilización al enemigo, el enemigo objetivo sufre DAÑ recibido +15.0% durante 30 s. Cuando el portador aplica Inmovilización al enemigo o después de que el portador lance una máxima, la siguiente habilidad de combo lanzada dentro de 20 s obtiene DAÑ infligido +50.0%. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+                "ATQ +35.2%. Cuando el portador aplica Inmovilización al enemigo, el enemigo objetivo sufre DAÑ recibido +16.5% durante 30 s. Cuando el portador aplica Inmovilización al enemigo o después de que el portador lance una máxima, la siguiente habilidad de combo lanzada dentro de 20 s obtiene DAÑ infligido +55.0%. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+                "ATQ +38.4%. Cuando el portador aplica Inmovilización al enemigo, el enemigo objetivo sufre DAÑ recibido +18.0% durante 30 s. Cuando el portador aplica Inmovilización al enemigo o después de que el portador lance una máxima, la siguiente habilidad de combo lanzada dentro de 20 s obtiene DAÑ infligido +60.0%. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+                "ATQ +44.8%. Cuando el portador aplica Inmovilización al enemigo, el enemigo objetivo sufre DAÑ recibido +21.0% durante 30 s. Cuando el portador aplica Inmovilización al enemigo o después de que el portador lance una máxima, la siguiente habilidad de combo lanzada dentro de 20 s obtiene DAÑ infligido +70.0%. Los dos efectos se aplican por separado y no se acumulan entre sí."
+              ],
+              "ranks_zh": [
+                "攻击力+16.0%。 装备者对敌人施加定身时，使目标敌人受到的伤害+7.5%，持续30秒。 装备者对敌人施加定身或施放终结技后，20秒内的下个连携技造成的伤害+25.0%。 两种效果独立生效，且均无法叠加。",
+                "攻击力+19.2%。 装备者对敌人施加定身时，使目标敌人受到的伤害+9.0%，持续30秒。 装备者对敌人施加定身或施放终结技后，20秒内的下个连携技造成的伤害+30.0%。 两种效果独立生效，且均无法叠加。",
+                "攻击力+22.4%。 装备者对敌人施加定身时，使目标敌人受到的伤害+10.5%，持续30秒。 装备者对敌人施加定身或施放终结技后，20秒内的下个连携技造成的伤害+35.0%。 两种效果独立生效，且均无法叠加。",
+                "攻击力+25.6%。 装备者对敌人施加定身时，使目标敌人受到的伤害+12.0%，持续30秒。 装备者对敌人施加定身或施放终结技后，20秒内的下个连携技造成的伤害+40.0%。 两种效果独立生效，且均无法叠加。",
+                "攻击力+28.8%。 装备者对敌人施加定身时，使目标敌人受到的伤害+13.5%，持续30秒。 装备者对敌人施加定身或施放终结技后，20秒内的下个连携技造成的伤害+45.0%。 两种效果独立生效，且均无法叠加。",
+                "攻击力+32.0%。 装备者对敌人施加定身时，使目标敌人受到的伤害+15.0%，持续30秒。 装备者对敌人施加定身或施放终结技后，20秒内的下个连携技造成的伤害+50.0%。 两种效果独立生效，且均无法叠加。",
+                "攻击力+35.2%。 装备者对敌人施加定身时，使目标敌人受到的伤害+16.5%，持续30秒。 装备者对敌人施加定身或施放终结技后，20秒内的下个连携技造成的伤害+55.0%。 两种效果独立生效，且均无法叠加。",
+                "攻击力+38.4%。 装备者对敌人施加定身时，使目标敌人受到的伤害+18.0%，持续30秒。 装备者对敌人施加定身或施放终结技后，20秒内的下个连携技造成的伤害+60.0%。 两种效果独立生效，且均无法叠加。",
+                "攻击力+44.8%。 装备者对敌人施加定身时，使目标敌人受到的伤害+21.0%，持续30秒。 装备者对敌人施加定身或施放终结技后，20秒内的下个连携技造成的伤害+70.0%。 两种效果独立生效，且均无法叠加。"
+              ],
+              "ranks_ja": [
+                "攻撃力+16.0% 装備中、自身が敵に行動停止を付与するとき、30秒間その敵の受けるダメージ+7.5% 自身が敵に行動停止を付与するか必殺技を発動すると、20秒以内の次の連携技で与えるダメージ+25.0% 2つの効果はそれぞれ存在し、重ね掛け不可",
+                "攻撃力+19.2% 装備中、自身が敵に行動停止を付与するとき、30秒間その敵の受けるダメージ+9.0% 自身が敵に行動停止を付与するか必殺技を発動すると、20秒以内の次の連携技で与えるダメージ+30.0% 2つの効果はそれぞれ存在し、重ね掛け不可",
+                "攻撃力+22.4% 装備中、自身が敵に行動停止を付与するとき、30秒間その敵の受けるダメージ+10.5% 自身が敵に行動停止を付与するか必殺技を発動すると、20秒以内の次の連携技で与えるダメージ+35.0% 2つの効果はそれぞれ存在し、重ね掛け不可",
+                "攻撃力+25.6% 装備中、自身が敵に行動停止を付与するとき、30秒間その敵の受けるダメージ+12.0% 自身が敵に行動停止を付与するか必殺技を発動すると、20秒以内の次の連携技で与えるダメージ+40.0% 2つの効果はそれぞれ存在し、重ね掛け不可",
+                "攻撃力+28.8% 装備中、自身が敵に行動停止を付与するとき、30秒間その敵の受けるダメージ+13.5% 自身が敵に行動停止を付与するか必殺技を発動すると、20秒以内の次の連携技で与えるダメージ+45.0% 2つの効果はそれぞれ存在し、重ね掛け不可",
+                "攻撃力+32.0% 装備中、自身が敵に行動停止を付与するとき、30秒間その敵の受けるダメージ+15.0% 自身が敵に行動停止を付与するか必殺技を発動すると、20秒以内の次の連携技で与えるダメージ+50.0% 2つの効果はそれぞれ存在し、重ね掛け不可",
+                "攻撃力+35.2% 装備中、自身が敵に行動停止を付与するとき、30秒間その敵の受けるダメージ+16.5% 自身が敵に行動停止を付与するか必殺技を発動すると、20秒以内の次の連携技で与えるダメージ+55.0% 2つの効果はそれぞれ存在し、重ね掛け不可",
+                "攻撃力+38.4% 装備中、自身が敵に行動停止を付与するとき、30秒間その敵の受けるダメージ+18.0% 自身が敵に行動停止を付与するか必殺技を発動すると、20秒以内の次の連携技で与えるダメージ+60.0% 2つの効果はそれぞれ存在し、重ね掛け不可",
+                "攻撃力+44.8% 装備中、自身が敵に行動停止を付与するとき、30秒間その敵の受けるダメージ+21.0% 自身が敵に行動停止を付与するか必殺技を発動すると、20秒以内の次の連携技で与えるダメージ+70.0% 2つの効果はそれぞれ存在し、重ね掛け不可"
+              ],
+              "ranks_ko": [
+                "공격력 +16.0% 장착자가 적에게 속박을 부여하면 해당 적이 받는 피해 +7.5%, 30초 동안 지속. 장착자가 적에게 속박을 부여하거나 궁극기를 사용한 후, 20초 내에 발동하는 다음 연계 스킬로 주는 피해 +25.0% 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다.",
+                "공격력 +19.2% 장착자가 적에게 속박을 부여하면 해당 적이 받는 피해 +9.0%, 30초 동안 지속. 장착자가 적에게 속박을 부여하거나 궁극기를 사용한 후, 20초 내에 발동하는 다음 연계 스킬로 주는 피해 +30.0% 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다.",
+                "공격력 +22.4% 장착자가 적에게 속박을 부여하면 해당 적이 받는 피해 +10.5%, 30초 동안 지속. 장착자가 적에게 속박을 부여하거나 궁극기를 사용한 후, 20초 내에 발동하는 다음 연계 스킬로 주는 피해 +35.0% 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다.",
+                "공격력 +25.6% 장착자가 적에게 속박을 부여하면 해당 적이 받는 피해 +12.0%, 30초 동안 지속. 장착자가 적에게 속박을 부여하거나 궁극기를 사용한 후, 20초 내에 발동하는 다음 연계 스킬로 주는 피해 +40.0% 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다.",
+                "공격력 +28.8% 장착자가 적에게 속박을 부여하면 해당 적이 받는 피해 +13.5%, 30초 동안 지속. 장착자가 적에게 속박을 부여하거나 궁극기를 사용한 후, 20초 내에 발동하는 다음 연계 스킬로 주는 피해 +45.0% 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다.",
+                "공격력 +32.0% 장착자가 적에게 속박을 부여하면 해당 적이 받는 피해 +15.0%, 30초 동안 지속. 장착자가 적에게 속박을 부여하거나 궁극기를 사용한 후, 20초 내에 발동하는 다음 연계 스킬로 주는 피해 +50.0% 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다.",
+                "공격력 +35.2% 장착자가 적에게 속박을 부여하면 해당 적이 받는 피해 +16.5%, 30초 동안 지속. 장착자가 적에게 속박을 부여하거나 궁극기를 사용한 후, 20초 내에 발동하는 다음 연계 스킬로 주는 피해 +55.0% 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다.",
+                "공격력 +38.4% 장착자가 적에게 속박을 부여하면 해당 적이 받는 피해 +18.0%, 30초 동안 지속. 장착자가 적에게 속박을 부여하거나 궁극기를 사용한 후, 20초 내에 발동하는 다음 연계 스킬로 주는 피해 +60.0% 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다.",
+                "공격력 +44.8% 장착자가 적에게 속박을 부여하면 해당 적이 받는 피해 +21.0%, 30초 동안 지속. 장착자가 적에게 속박을 부여하거나 궁극기를 사용한 후, 20초 내에 발동하는 다음 연계 스킬로 주는 피해 +70.0% 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다."
+              ]
+            }
+          ]
+        },
+        "name_zh": "玉中身",
+        "name_ja": "玉中身",
+        "name_ko": "옥에 깃든 형체",
+        "stat1_es": "Intelecto +156",
+        "stat2_es": "DAÑ criogénico infligido +43.3%",
+        "passive_es": "ATQ +44.8%. Cuando el portador aplica Inmovilización al enemigo, el enemigo objetivo sufre DAÑ recibido +21.0% durante 30 s. Cuando el portador aplica Inmovilización al enemigo o después de que el portador lance una máxima, la siguiente habilidad de combo lanzada dentro de 20 s obtiene DAÑ infligido +70.0%. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+        "stat1_zh": "智识+156",
+        "stat2_zh": "寒冷伤害+43.3%",
+        "passive_zh": "攻击力+44.8%。 装备者对敌人施加定身时，使目标敌人受到的伤害+21.0%，持续30秒。 装备者对敌人施加定身或施放终结技后，20秒内的下个连携技造成的伤害+70.0%。 两种效果独立生效，且均无法叠加。",
+        "stat1_ja": "知性+156",
+        "stat2_ja": "寒冷ダメージ+43.3%",
+        "passive_ja": "攻撃力+44.8% 装備中、自身が敵に行動停止を付与するとき、30秒間その敵の受けるダメージ+21.0% 自身が敵に行動停止を付与するか必殺技を発動すると、20秒以内の次の連携技で与えるダメージ+70.0% 2つの効果はそれぞれ存在し、重ね掛け不可",
+        "stat1_ko": "지능 +156",
+        "stat2_ko": "냉기 피해 +43.3%",
+        "passive_ko": "공격력 +44.8% 장착자가 적에게 속박을 부여하면 해당 적이 받는 피해 +21.0%, 30초 동안 지속. 장착자가 적에게 속박을 부여하거나 궁극기를 사용한 후, 20초 내에 발동하는 다음 연계 스킬로 주는 피해 +70.0% 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다."
+      },
+      {
+        "id": "wpn_claym_0019",
+        "name": "Long Heritage",
+        "type": "Greatsword",
+        "rarity": 6,
+        "base_atk": 485,
+        "stat1": "Intellect: +156",
+        "stat2": "Cryo DMG Dealt: +43.3%",
+        "passive": "Main attribute +19.6%. When the wielder's battle skill applies Cryo Infliction or Heat Infliction, the wielder gains Cryo DMG Dealt +16.8% for 20s. When the wielder grants Arts Amp to another operator in the team, the entire team gains Arts DMG Dealt +11.2% for 20s. The two effects apply separately and do not stack with themselves.",
+        "name_es": "Tradición ancestral",
+        "scaling_by_rank": {
+          "base_atk": {
+            "min": 49,
+            "max": 485
+          },
+          "passives": [
+            {
+              "name": "Intellect Boost [L]",
+              "ranks": [
+                "Intellect +20",
+                "Intellect +36",
+                "Intellect +52",
+                "Intellect +68",
+                "Intellect +84",
+                "Intellect +100",
+                "Intellect +116",
+                "Intellect +132",
+                "Intellect +156"
+              ],
+              "name_es": "Intelecto [G]",
+              "name_zh": "智识提升·大",
+              "name_ja": "知性UP・大",
+              "name_ko": "지능 증가 · 대",
+              "ranks_es": [
+                "Intelecto +20",
+                "Intelecto +36",
+                "Intelecto +52",
+                "Intelecto +68",
+                "Intelecto +84",
+                "Intelecto +100",
+                "Intelecto +116",
+                "Intelecto +132",
+                "Intelecto +156"
+              ],
+              "ranks_zh": [
+                "智识+20",
+                "智识+36",
+                "智识+52",
+                "智识+68",
+                "智识+84",
+                "智识+100",
+                "智识+116",
+                "智识+132",
+                "智识+156"
+              ],
+              "ranks_ja": [
+                "知性+20",
+                "知性+36",
+                "知性+52",
+                "知性+68",
+                "知性+84",
+                "知性+100",
+                "知性+116",
+                "知性+132",
+                "知性+156"
+              ],
+              "ranks_ko": [
+                "지능 +20",
+                "지능 +36",
+                "지능 +52",
+                "지능 +68",
+                "지능 +84",
+                "지능 +100",
+                "지능 +116",
+                "지능 +132",
+                "지능 +156"
+              ]
+            },
+            {
+              "name": "Cryo DMG Boost [L]",
+              "ranks": [
+                "Cryo DMG Dealt +5.6%",
+                "Cryo DMG Dealt +10.0%",
+                "Cryo DMG Dealt +14.4%",
+                "Cryo DMG Dealt +18.9%",
+                "Cryo DMG Dealt +23.3%",
+                "Cryo DMG Dealt +27.8%",
+                "Cryo DMG Dealt +32.2%",
+                "Cryo DMG Dealt +36.7%",
+                "Cryo DMG Dealt +43.3%"
+              ],
+              "name_es": "DAÑ criogénico [G]",
+              "name_zh": "寒冷伤害提升·大",
+              "name_ja": "寒冷ダメージUP・大",
+              "name_ko": "냉기 피해 증가 · 대",
+              "ranks_es": [
+                "DAÑ criogénico infligido +5.6%",
+                "DAÑ criogénico infligido +10.0%",
+                "DAÑ criogénico infligido +14.4%",
+                "DAÑ criogénico infligido +18.9%",
+                "DAÑ criogénico infligido +23.3%",
+                "DAÑ criogénico infligido +27.8%",
+                "DAÑ criogénico infligido +32.2%",
+                "DAÑ criogénico infligido +36.7%",
+                "DAÑ criogénico infligido +43.3%"
+              ],
+              "ranks_zh": [
+                "寒冷伤害+5.6%",
+                "寒冷伤害+10.0%",
+                "寒冷伤害+14.4%",
+                "寒冷伤害+18.9%",
+                "寒冷伤害+23.3%",
+                "寒冷伤害+27.8%",
+                "寒冷伤害+32.2%",
+                "寒冷伤害+36.7%",
+                "寒冷伤害+43.3%"
+              ],
+              "ranks_ja": [
+                "寒冷ダメージ+5.6%",
+                "寒冷ダメージ+10.0%",
+                "寒冷ダメージ+14.4%",
+                "寒冷ダメージ+18.9%",
+                "寒冷ダメージ+23.3%",
+                "寒冷ダメージ+27.8%",
+                "寒冷ダメージ+32.2%",
+                "寒冷ダメージ+36.7%",
+                "寒冷ダメージ+43.3%"
+              ],
+              "ranks_ko": [
+                "냉기 피해 +5.6%",
+                "냉기 피해 +10.0%",
+                "냉기 피해 +14.4%",
+                "냉기 피해 +18.9%",
+                "냉기 피해 +23.3%",
+                "냉기 피해 +27.8%",
+                "냉기 피해 +32.2%",
+                "냉기 피해 +36.7%",
+                "냉기 피해 +43.3%"
+              ]
+            },
+            {
+              "name": "Efficacy: Secret History",
+              "ranks": [
+                "Main attribute +7.0%. When the wielder's battle skill applies Cryo Infliction or Heat Infliction, the wielder gains Cryo DMG Dealt +6.0% for 20s. When the wielder grants Arts Amp to another operator in the team, the entire team gains Arts DMG Dealt +4.0% for 20s. The two effects apply separately and do not stack with themselves.",
+                "Main attribute +8.4%. When the wielder's battle skill applies Cryo Infliction or Heat Infliction, the wielder gains Cryo DMG Dealt +7.2% for 20s. When the wielder grants Arts Amp to another operator in the team, the entire team gains Arts DMG Dealt +4.8% for 20s. The two effects apply separately and do not stack with themselves.",
+                "Main attribute +9.8%. When the wielder's battle skill applies Cryo Infliction or Heat Infliction, the wielder gains Cryo DMG Dealt +8.4% for 20s. When the wielder grants Arts Amp to another operator in the team, the entire team gains Arts DMG Dealt +5.6% for 20s. The two effects apply separately and do not stack with themselves.",
+                "Main attribute +11.2%. When the wielder's battle skill applies Cryo Infliction or Heat Infliction, the wielder gains Cryo DMG Dealt +9.6% for 20s. When the wielder grants Arts Amp to another operator in the team, the entire team gains Arts DMG Dealt +6.4% for 20s. The two effects apply separately and do not stack with themselves.",
+                "Main attribute +12.6%. When the wielder's battle skill applies Cryo Infliction or Heat Infliction, the wielder gains Cryo DMG Dealt +10.8% for 20s. When the wielder grants Arts Amp to another operator in the team, the entire team gains Arts DMG Dealt +7.2% for 20s. The two effects apply separately and do not stack with themselves.",
+                "Main attribute +14.0%. When the wielder's battle skill applies Cryo Infliction or Heat Infliction, the wielder gains Cryo DMG Dealt +12.0% for 20s. When the wielder grants Arts Amp to another operator in the team, the entire team gains Arts DMG Dealt +8.0% for 20s. The two effects apply separately and do not stack with themselves.",
+                "Main attribute +15.4%. When the wielder's battle skill applies Cryo Infliction or Heat Infliction, the wielder gains Cryo DMG Dealt +13.2% for 20s. When the wielder grants Arts Amp to another operator in the team, the entire team gains Arts DMG Dealt +8.8% for 20s. The two effects apply separately and do not stack with themselves.",
+                "Main attribute +16.8%. When the wielder's battle skill applies Cryo Infliction or Heat Infliction, the wielder gains Cryo DMG Dealt +14.4% for 20s. When the wielder grants Arts Amp to another operator in the team, the entire team gains Arts DMG Dealt +9.6% for 20s. The two effects apply separately and do not stack with themselves.",
+                "Main attribute +19.6%. When the wielder's battle skill applies Cryo Infliction or Heat Infliction, the wielder gains Cryo DMG Dealt +16.8% for 20s. When the wielder grants Arts Amp to another operator in the team, the entire team gains Arts DMG Dealt +11.2% for 20s. The two effects apply separately and do not stack with themselves."
+              ],
+              "name_es": "Eficacia: Historia secreta",
+              "name_zh": "效益·秘辛史话",
+              "name_ja": "効率・秘史",
+              "name_ko": "효율 · 숨겨진 역사",
+              "ranks_es": [
+                "Atributo principal +7.0%. Cuando la habilidad de batalla del portador aplica Imposición criogénica o Imposición de calor, el portador obtiene DAÑ criogénico infligido +6.0% durante 20 s. Cuando el portador otorga Amp de artes a otro operador del equipo, todo el equipo obtiene DAÑ por artes infligido +4.0% durante 20 s. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+                "Atributo principal +8.4%. Cuando la habilidad de batalla del portador aplica Imposición criogénica o Imposición de calor, el portador obtiene DAÑ criogénico infligido +7.2% durante 20 s. Cuando el portador otorga Amp de artes a otro operador del equipo, todo el equipo obtiene DAÑ por artes infligido +4.8% durante 20 s. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+                "Atributo principal +9.8%. Cuando la habilidad de batalla del portador aplica Imposición criogénica o Imposición de calor, el portador obtiene DAÑ criogénico infligido +8.4% durante 20 s. Cuando el portador otorga Amp de artes a otro operador del equipo, todo el equipo obtiene DAÑ por artes infligido +5.6% durante 20 s. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+                "Atributo principal +11.2%. Cuando la habilidad de batalla del portador aplica Imposición criogénica o Imposición de calor, el portador obtiene DAÑ criogénico infligido +9.6% durante 20 s. Cuando el portador otorga Amp de artes a otro operador del equipo, todo el equipo obtiene DAÑ por artes infligido +6.4% durante 20 s. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+                "Atributo principal +12.6%. Cuando la habilidad de batalla del portador aplica Imposición criogénica o Imposición de calor, el portador obtiene DAÑ criogénico infligido +10.8% durante 20 s. Cuando el portador otorga Amp de artes a otro operador del equipo, todo el equipo obtiene DAÑ por artes infligido +7.2% durante 20 s. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+                "Atributo principal +14.0%. Cuando la habilidad de batalla del portador aplica Imposición criogénica o Imposición de calor, el portador obtiene DAÑ criogénico infligido +12.0% durante 20 s. Cuando el portador otorga Amp de artes a otro operador del equipo, todo el equipo obtiene DAÑ por artes infligido +8.0% durante 20 s. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+                "Atributo principal +15.4%. Cuando la habilidad de batalla del portador aplica Imposición criogénica o Imposición de calor, el portador obtiene DAÑ criogénico infligido +13.2% durante 20 s. Cuando el portador otorga Amp de artes a otro operador del equipo, todo el equipo obtiene DAÑ por artes infligido +8.8% durante 20 s. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+                "Atributo principal +16.8%. Cuando la habilidad de batalla del portador aplica Imposición criogénica o Imposición de calor, el portador obtiene DAÑ criogénico infligido +14.4% durante 20 s. Cuando el portador otorga Amp de artes a otro operador del equipo, todo el equipo obtiene DAÑ por artes infligido +9.6% durante 20 s. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+                "Atributo principal +19.6%. Cuando la habilidad de batalla del portador aplica Imposición criogénica o Imposición de calor, el portador obtiene DAÑ criogénico infligido +16.8% durante 20 s. Cuando el portador otorga Amp de artes a otro operador del equipo, todo el equipo obtiene DAÑ por artes infligido +11.2% durante 20 s. Los dos efectos se aplican por separado y no se acumulan entre sí."
+              ],
+              "ranks_zh": [
+                "主能力+7.0%。 装备者通过战技施加寒冷附着或灼热附着时，寒冷伤害+6.0%，持续20秒。 装备者对小队内其他干员施加法术增幅后，全队法术伤害+4.0%，持续20秒。 两种效果独立生效，且均无法叠加。",
+                "主能力+8.4%。 装备者通过战技施加寒冷附着或灼热附着时，寒冷伤害+7.2%，持续20秒。 装备者对小队内其他干员施加法术增幅后，全队法术伤害+4.8%，持续20秒。 两种效果独立生效，且均无法叠加。",
+                "主能力+9.8%。 装备者通过战技施加寒冷附着或灼热附着时，寒冷伤害+8.4%，持续20秒。 装备者对小队内其他干员施加法术增幅后，全队法术伤害+5.6%，持续20秒。 两种效果独立生效，且均无法叠加。",
+                "主能力+11.2%。 装备者通过战技施加寒冷附着或灼热附着时，寒冷伤害+9.6%，持续20秒。 装备者对小队内其他干员施加法术增幅后，全队法术伤害+6.4%，持续20秒。 两种效果独立生效，且均无法叠加。",
+                "主能力+12.6%。 装备者通过战技施加寒冷附着或灼热附着时，寒冷伤害+10.8%，持续20秒。 装备者对小队内其他干员施加法术增幅后，全队法术伤害+7.2%，持续20秒。 两种效果独立生效，且均无法叠加。",
+                "主能力+14.0%。 装备者通过战技施加寒冷附着或灼热附着时，寒冷伤害+12.0%，持续20秒。 装备者对小队内其他干员施加法术增幅后，全队法术伤害+8.0%，持续20秒。 两种效果独立生效，且均无法叠加。",
+                "主能力+15.4%。 装备者通过战技施加寒冷附着或灼热附着时，寒冷伤害+13.2%，持续20秒。 装备者对小队内其他干员施加法术增幅后，全队法术伤害+8.8%，持续20秒。 两种效果独立生效，且均无法叠加。",
+                "主能力+16.8%。 装备者通过战技施加寒冷附着或灼热附着时，寒冷伤害+14.4%，持续20秒。 装备者对小队内其他干员施加法术增幅后，全队法术伤害+9.6%，持续20秒。 两种效果独立生效，且均无法叠加。",
+                "主能力+19.6%。 装备者通过战技施加寒冷附着或灼热附着时，寒冷伤害+16.8%，持续20秒。 装备者对小队内其他干员施加法术增幅后，全队法术伤害+11.2%，持续20秒。 两种效果独立生效，且均无法叠加。"
+              ],
+              "ranks_ja": [
+                "メイン能力値+7.0% 装備中、自身の戦技で寒冷付着または灼熱付着を付与するとき、20秒間寒冷ダメージ+6.0% 自身がチーム内の他のオペレーターにアーツ増幅を付与すると、20秒間チーム全員のアーツダメージ+4.0% 2つの効果はそれぞれ存在し、重ね掛け不可",
+                "メイン能力値+8.4% 装備中、自身の戦技で寒冷付着または灼熱付着を付与するとき、20秒間寒冷ダメージ+7.2% 自身がチーム内の他のオペレーターにアーツ増幅を付与すると、20秒間チーム全員のアーツダメージ+4.8% 2つの効果はそれぞれ存在し、重ね掛け不可",
+                "メイン能力値+9.8% 装備中、自身の戦技で寒冷付着または灼熱付着を付与するとき、20秒間寒冷ダメージ+8.4% 自身がチーム内の他のオペレーターにアーツ増幅を付与すると、20秒間チーム全員のアーツダメージ+5.6% 2つの効果はそれぞれ存在し、重ね掛け不可",
+                "メイン能力値+11.2% 装備中、自身の戦技で寒冷付着または灼熱付着を付与するとき、20秒間寒冷ダメージ+9.6% 自身がチーム内の他のオペレーターにアーツ増幅を付与すると、20秒間チーム全員のアーツダメージ+6.4% 2つの効果はそれぞれ存在し、重ね掛け不可",
+                "メイン能力値+12.6% 装備中、自身の戦技で寒冷付着または灼熱付着を付与するとき、20秒間寒冷ダメージ+10.8% 自身がチーム内の他のオペレーターにアーツ増幅を付与すると、20秒間チーム全員のアーツダメージ+7.2% 2つの効果はそれぞれ存在し、重ね掛け不可",
+                "メイン能力値+14.0% 装備中、自身の戦技で寒冷付着または灼熱付着を付与するとき、20秒間寒冷ダメージ+12.0% 自身がチーム内の他のオペレーターにアーツ増幅を付与すると、20秒間チーム全員のアーツダメージ+8.0% 2つの効果はそれぞれ存在し、重ね掛け不可",
+                "メイン能力値+15.4% 装備中、自身の戦技で寒冷付着または灼熱付着を付与するとき、20秒間寒冷ダメージ+13.2% 自身がチーム内の他のオペレーターにアーツ増幅を付与すると、20秒間チーム全員のアーツダメージ+8.8% 2つの効果はそれぞれ存在し、重ね掛け不可",
+                "メイン能力値+16.8% 装備中、自身の戦技で寒冷付着または灼熱付着を付与するとき、20秒間寒冷ダメージ+14.4% 自身がチーム内の他のオペレーターにアーツ増幅を付与すると、20秒間チーム全員のアーツダメージ+9.6% 2つの効果はそれぞれ存在し、重ね掛け不可",
+                "メイン能力値+19.6% 装備中、自身の戦技で寒冷付着または灼熱付着を付与するとき、20秒間寒冷ダメージ+16.8% 自身がチーム内の他のオペレーターにアーツ増幅を付与すると、20秒間チーム全員のアーツダメージ+11.2% 2つの効果はそれぞれ存在し、重ね掛け不可"
+              ],
+              "ranks_ko": [
+                "주요 능력치 +7.0% 장착자가 배틀 스킬로 냉기 부착 혹은 열기 부착을 부여하면 냉기 피해 +6.0%, 20초 동안 지속. 장착자가 팀 내 다른 오퍼레이터에게 아츠 증폭을 부여한 후, 팀 전체의 아츠 피해 +4.0%, 20초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다.",
+                "주요 능력치 +8.4% 장착자가 배틀 스킬로 냉기 부착 혹은 열기 부착을 부여하면 냉기 피해 +7.2%, 20초 동안 지속. 장착자가 팀 내 다른 오퍼레이터에게 아츠 증폭을 부여한 후, 팀 전체의 아츠 피해 +4.8%, 20초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다.",
+                "주요 능력치 +9.8% 장착자가 배틀 스킬로 냉기 부착 혹은 열기 부착을 부여하면 냉기 피해 +8.4%, 20초 동안 지속. 장착자가 팀 내 다른 오퍼레이터에게 아츠 증폭을 부여한 후, 팀 전체의 아츠 피해 +5.6%, 20초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다.",
+                "주요 능력치 +11.2% 장착자가 배틀 스킬로 냉기 부착 혹은 열기 부착을 부여하면 냉기 피해 +9.6%, 20초 동안 지속. 장착자가 팀 내 다른 오퍼레이터에게 아츠 증폭을 부여한 후, 팀 전체의 아츠 피해 +6.4%, 20초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다.",
+                "주요 능력치 +12.6% 장착자가 배틀 스킬로 냉기 부착 혹은 열기 부착을 부여하면 냉기 피해 +10.8%, 20초 동안 지속. 장착자가 팀 내 다른 오퍼레이터에게 아츠 증폭을 부여한 후, 팀 전체의 아츠 피해 +7.2%, 20초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다.",
+                "주요 능력치 +14.0% 장착자가 배틀 스킬로 냉기 부착 혹은 열기 부착을 부여하면 냉기 피해 +12.0%, 20초 동안 지속. 장착자가 팀 내 다른 오퍼레이터에게 아츠 증폭을 부여한 후, 팀 전체의 아츠 피해 +8.0%, 20초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다.",
+                "주요 능력치 +15.4% 장착자가 배틀 스킬로 냉기 부착 혹은 열기 부착을 부여하면 냉기 피해 +13.2%, 20초 동안 지속. 장착자가 팀 내 다른 오퍼레이터에게 아츠 증폭을 부여한 후, 팀 전체의 아츠 피해 +8.8%, 20초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다.",
+                "주요 능력치 +16.8% 장착자가 배틀 스킬로 냉기 부착 혹은 열기 부착을 부여하면 냉기 피해 +14.4%, 20초 동안 지속. 장착자가 팀 내 다른 오퍼레이터에게 아츠 증폭을 부여한 후, 팀 전체의 아츠 피해 +9.6%, 20초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다.",
+                "주요 능력치 +19.6% 장착자가 배틀 스킬로 냉기 부착 혹은 열기 부착을 부여하면 냉기 피해 +16.8%, 20초 동안 지속. 장착자가 팀 내 다른 오퍼레이터에게 아츠 증폭을 부여한 후, 팀 전체의 아츠 피해 +11.2%, 20초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다."
+              ]
+            }
+          ]
+        },
+        "name_zh": "悠久传承",
+        "name_ja": "悠久の継承",
+        "name_ko": "유구한 전승",
+        "stat1_es": "Intelecto +156",
+        "stat2_es": "DAÑ criogénico infligido +43.3%",
+        "passive_es": "Atributo principal +19.6%. Cuando la habilidad de batalla del portador aplica Imposición criogénica o Imposición de calor, el portador obtiene DAÑ criogénico infligido +16.8% durante 20 s. Cuando el portador otorga Amp de artes a otro operador del equipo, todo el equipo obtiene DAÑ por artes infligido +11.2% durante 20 s. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+        "stat1_zh": "智识+156",
+        "stat2_zh": "寒冷伤害+43.3%",
+        "passive_zh": "主能力+19.6%。 装备者通过战技施加寒冷附着或灼热附着时，寒冷伤害+16.8%，持续20秒。 装备者对小队内其他干员施加法术增幅后，全队法术伤害+11.2%，持续20秒。 两种效果独立生效，且均无法叠加。",
+        "stat1_ja": "知性+156",
+        "stat2_ja": "寒冷ダメージ+43.3%",
+        "passive_ja": "メイン能力値+19.6% 装備中、自身の戦技で寒冷付着または灼熱付着を付与するとき、20秒間寒冷ダメージ+16.8% 自身がチーム内の他のオペレーターにアーツ増幅を付与すると、20秒間チーム全員のアーツダメージ+11.2% 2つの効果はそれぞれ存在し、重ね掛け不可",
+        "stat1_ko": "지능 +156",
+        "stat2_ko": "냉기 피해 +43.3%",
+        "passive_ko": "주요 능력치 +19.6% 장착자가 배틀 스킬로 냉기 부착 혹은 열기 부착을 부여하면 냉기 피해 +16.8%, 20초 동안 지속. 장착자가 팀 내 다른 오퍼레이터에게 아츠 증폭을 부여한 후, 팀 전체의 아츠 피해 +11.2%, 20초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다."
       }
     ],
     "Polearm": [

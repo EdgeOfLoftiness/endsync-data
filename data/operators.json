@@ -10625,34 +10625,316 @@
       "class": "Supporter",
       "element": "Cryo",
       "weapon_type": "Greatsword",
-      "upcoming": true,
       "data_pending": true,
+      "primary_attribute": "Intellect",
+      "secondary_attribute": "Strength",
+      "stats_lv90": {
+        "hp": 5495,
+        "atk": 309,
+        "strength": 117,
+        "agility": 100,
+        "intellect": 179,
+        "will": 100
+      },
       "skills": {
         "basic_attack": {
           "name": "Artistic Urge",
           "name_es": "Impulso artístico",
-          "description": "An attack with up to 5 sequences that deals <u>Cryo DMG</u>. The finisher deals massive <u>Cryo DMG</u> and restores some SP.",
-          "description_es": "Un ataque de hasta 5 secuencias que inflige <u>DAÑ criogénico</u>. El remate inflige <u>DAÑ criogénico</u> masivo y recupera algo de PH."
+          "sequences": 5,
+          "dmg_type": "Cryo",
+          "final_strike_stagger": 18,
+          "description": "An attack with up to 5 sequences that deals Cryo DMG. As the controlled operator, <u>Final Strike</u> also deals <b>18</b> Stagger.",
+          "description_es": "Un ataque de hasta 5 secuencias que inflige DAÑ criogénico. Como operador controlado, el <u>Golpe final</u> también inflige <b>18</b> de Tambaleo.",
+          "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals Cryo DMG to nearby enemies.",
+          "description_dive_es": "El ataque básico realizado en el aire se convierte en un ataque de inmersión que inflige DAÑ criogénico a los enemigos cercanos.",
+          "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher that deals massive Cryo DMG and recovers some SP.",
+          "description_finisher_es": "El ataque básico realizado cerca de un enemigo en estado Tambaleado se convierte en un remate que inflige DAÑ criogénico masivo y recupera algunos PH.",
+          "multipliers_max": {
+            "sequence_dmg_pct": [
+              45,
+              72,
+              66,
+              54,
+              144
+            ],
+            "dive_dmg_pct": 180,
+            "finisher_dmg_pct": 900
+          },
+          "effects": [
+            "Final Strike"
+          ],
+          "name_zh": "乘兴起笔",
+          "description_zh": "对敌人进行至多5段攻击，造成寒冷伤害。作为主控干员时，<u>重击</u>会造成<b>18</b>点失衡。",
+          "description_dive_zh": "处于空中时使用普通攻击，会下落并攻击附近敌人，造成寒冷伤害。",
+          "description_finisher_zh": "附近有敌人处于失衡状态时使用普通攻击，将处决该敌人，造成大量寒冷伤害并恢复一定技力。",
+          "name_ja": "卒意",
+          "description_ja": "最大5段の攻撃で敵に寒冷ダメージを与える。操作中のオペレーターの場合、<u>重攻撃</u>はブレイク値<b>18</b>を与える。",
+          "description_dive_ja": "空中で通常攻撃を使用すると、落下して周囲の敵に寒冷ダメージを与える。",
+          "description_finisher_ja": "近くにブレイク状態の敵がいるときに通常攻撃を使用すると、その敵に終撃を行い、高い寒冷ダメージを与えてSPを一定量回復する。",
+          "name_ko": "흥에 겨운 붓놀림",
+          "description_ko": "적에게 최대 5단 공격을 하여 냉기 피해를 줍니다. 메인 컨트롤 오퍼레이터라면 <u>강력한 일격</u>이 <b>18</b>포인트의 불균형 피해를 줍니다.",
+          "description_dive_ko": "공중에 떴을 때, 일반 공격을 사용하면 낙하하며 주변의 적을 공격하고 냉기 피해를 줍니다.",
+          "description_finisher_ko": "주변에 불균형 상태의 적이 있을 때, 일반 공격을 사용하면 해당 적을 처형하여 대량의 냉기 피해를 주고 일정량의 스킬 게이지를 회복합니다."
         },
         "battle_skill": {
           "name": "Brushwork Realm",
           "name_es": "Reino de pinceladas",
-          "description": "Applies <u>Artful Intent</u> and <u>Immobilization</u> and deals <u>Cryo DMG</u>. While Artful Intent lasts, Si records part of the damage the target takes; when it ends, it deals Area DMG equal to the recorded damage over a large area, as Fixed DMG that ignores DEF, RES and DMG Reduction. The Infliction follows the Team Position 01 operator: Heat → <u>Heat Infliction</u>, any other element → <u>Cryo Infliction</u>. Afterwards the skill turns into <u>Initial Stroke</u> (for a very small SP cost, pulls an <u>Inksoul</u> from the target: damage, effects, Inflictions and special statuses are shared with its host, and hitting it can interrupt the host's charge) and then into <u>Final Stroke</u> (ends the Inksoul early, which returns to its host and triggers the same burst as Artful Intent). If the host dies, the Inksoul links to the next enemy.",
-          "description_es": "Aplica <u>Intención artística</u> e <u>Inmovilización</u> e inflige <u>DAÑ criogénico</u>. Mientras dura la Intención artística, Si registra parte del daño que recibe el objetivo; al terminar, inflige DAÑ de área equivalente en un área grande, como DAÑ fijo que ignora DEF, RES y Reducción de daño. La Imposición sigue al operador de la posición 01: Calor → <u>Imposición de calor</u>; cualquier otro elemento → <u>Imposición criogénica</u>. Después la habilidad pasa a <u>Trazo inicial</u> (por muy pocos PH saca un <u>Alma de tinta</u> del objetivo: el daño, los efectos, las Imposiciones y los estados especiales se comparten con su portador, y golpearla puede interrumpir la carga del portador) y luego a <u>Trazo final</u> (termina antes el Alma de tinta, que vuelve a su portador y desencadena el mismo estallido que la Intención artística). Si el portador muere, el Alma de tinta se vincula al siguiente enemigo."
+          "sp_cost": 100,
+          "dmg_type": "Cryo",
+          "description": "Si deals Cryo DMG and applies <u>Artful Intent</u>, <u>Immobilization</u>, and <u>Cryo Infliction</u> (or <u>Heat Infliction</u> if a Heat element operator is in <u>Team Position 01</u>) on the target. After a target with Artful Intent takes DMG, part of the DMG taken is recorded. When the duration of Artful Intent ends, it bursts and deals <u>Fixed DMG</u> equal to the DMG recorded. After casting the skill, Si's battle skill is temporarily changed to <u>Initial Stroke</u>.<br/>Initial Stroke: Costs 15 SP. Si pulls an <u>Inksoul</u> from a target with Artful Intent. All DMG dealt and effects applied to the Inksoul will also be dealt to its host (the said target). The Inksoul lasts as long as the remaining duration of Artful Intent. After casting the skill, Si's battle skill is temporarily changed to <u>Final Stroke</u>.<br/>Final Stroke: Costs no SP. Makes the Inksoul disappear early. When disappearing, the Inksoul will move to its host and trigger a burst like the ending burst of Artful Intent.<br/>When dealing DMG or applying effects to both the Inksoul and the host, only 1 instance of the DMG or effect is dealt/applied. If the host is defeated during the Inksoul's duration, it will link to another enemy in combat and apply Artful Intent to it. This does not reset the duration of Artful Intent. If a target with Artful Intent is defeated without having its Inksoul drawn out of it, the defeated target will drop an Inksoul at its location.",
+          "description_es": "Si inflige DAÑ criogénico y aplica <u>Intención artística</u>, <u>Inmovilización</u> e <u>Imposición criogénica</u> (o <u>Imposición de calor</u> si hay un operador de elemento Calor en la <u>Posición de Equipo 1</u>) al objetivo. Después de que un objetivo con Intención artística recibe DAÑ, se registra parte del DAÑ recibido. Cuando termina la duración de Intención artística, crea una ráfaga e inflige <u>DAÑ fijo</u> equivalente al DAÑ registrado. Después de lanzar la habilidad, la habilidad de batalla de Si cambia temporalmente a <u>Trazo inicial</u>.<br/>Trazo inicial: Cuesta 15 PH. Si extrae una <u>Alma de tinta</u> de un objetivo con Intención artística. El DAÑ total infligido y los efectos aplicados al Alma de tinta también se infligirán a su anfitrión (dicho objetivo). El Alma de tinta dura tanto como la duración restante de Intención artística. Después de lanzar la habilidad, la habilidad de batalla de Si cambia temporalmente a <u>Trazo final</u>.<br/>Trazo final: No cuesta PH. Hace que el Alma de tinta desaparezca antes de tiempo. Al desaparecer, el Alma de tinta se desplazará hasta su anfitrión y activará una ráfaga similar a la ráfaga final de Intención artística.<br/>Cuando se inflige DAÑ o se aplican efectos al Alma de tinta y el huésped, solo se inflige 1 instancia de DAÑ o se aplica 1 instancia de efecto. Si el huésped es derrotado durante el efecto del Alma de tinta, se enlazará a otro enemigo en combate y le aplicará Intención artística. Si un objetivo con Intención artística es derrotado sin que se le quite el Alma de tinta, el objetivo derrotado soltará un Alma de tinta en su ubicación.",
+          "multipliers_max": [
+            {
+              "name": "DMG Multiplier",
+              "value": 100,
+              "formatted": "100%"
+            },
+            {
+              "name": "Immobilization Duration (s)",
+              "value": 1,
+              "formatted": "1"
+            },
+            {
+              "name": "Artful Intent Duration (s)",
+              "value": 20,
+              "formatted": "20"
+            },
+            {
+              "name": "DMG Record Ratio",
+              "value": 13,
+              "formatted": "13%"
+            },
+            {
+              "name": "Stagger",
+              "value": 5,
+              "formatted": "5"
+            },
+            {
+              "name": "Artful Intent Burst Stagger",
+              "value": 5,
+              "formatted": "5"
+            }
+          ],
+          "effects": [
+            "Cryo Infliction",
+            "Heat Infliction"
+          ],
+          "name_zh": "河山共影",
+          "description_zh": "对目标施加<u>笔意</u>和<u>定身</u>并造成寒冷伤害。同时对目标施加<u>寒冷附着</u>，若小队内<u>01号位</u>是灼热属性的干员则变为施加<u>灼热附着</u>。被施加笔意的目标受到伤害后，记录一部分伤害值。笔意持续时间结束将会爆发，对范围内敌人造成所记录伤害值的<u>固定伤害</u>。施放后战技在一段时间内替换为<u>起墨</u>。<br/>起墨：消耗15技力，从被施加笔意的目标体内拉出<u>墨魂</u>，墨魂受到的所有伤害和效果将传递给本体，墨魂持续时间等同于笔意剩余时间。施放后战技在一段时间内替换为<u>收笔</u>。<br/>收笔：不消耗技力，使墨魂提前消失。墨魂消失时朝原目标移动并触发和笔意效果相同的爆发。<br/>对墨魂和处于笔意状态的目标同时造成伤害或效果时，只会视作造成一次伤害或效果。墨魂存在期间若原目标被击败则连接另一名战斗中的敌人，并对其施加笔意，持续时间不会重新计算。未拉出墨魂且处于笔意状态的目标被击败时，会在其位置生成墨魂。",
+          "name_ja": "山河を映して",
+          "description_ja": "目標に<u>筆意</u>と<u>行動停止</u>を付与し、寒冷ダメージを与える。同時に目標に<u>寒冷付着</u>を付与する。編成内の<u>01位置</u>が灼熱属性のオペレーターの場合、与えるアーツ付着は<u>灼熱付着</u>になる。筆意が付与された目標はダメージを受けると、ダメージの一部を記録する。筆意の持続時間が終了すると爆発し、範囲内の敵に記録したダメージ量の<u>固定ダメージ</u>を与える。発動後、一定時間戦技が<u>墨継</u>に替わる。<br/>墨継：SPを15消費し、筆意が付与された目標の体内から<u>墨魂</u>を抽出する。墨魂が受けたすべてのダメージと効果は本体に伝達される。墨魂の持続時間は筆意の残り時間と同じ。発動後、一定時間戦技が<u>収筆</u>に替わる。<br/>収筆：SPを消費せず、墨魂をその時点で消失させる。墨魂が消失するとき、元の目標に向かって移動し、筆意と同じ効果の爆発を発生させる。<br/>墨魂と筆意状態の目標に同時にダメージまたは効果を与えるとき、ダメージまたは効果は1回分のみと見なされる。墨魂が存在している間に元の目標が倒された場合、墨魂は戦闘中の別の敵に繋がり、その敵に筆意を付与する。この際、持続時間はリセットされない。墨魂が抽出されていない状態で、筆意状態の目標が倒された場合、その位置に墨魂が生成される。",
+          "name_ko": "강산을 한 폭에",
+          "description_ko": "적에게 <u>필의</u>와 <u>속박</u>을 부여하고 냉기 피해를 줍니다. 동시에 <u>냉기 부착</u>을 부여하며, 팀 내 <u>1번 슬롯</u>의 오퍼레이터가 열기 속성이면 대신 <u>열기 부착</u>을 부여합니다. 필의가 부여된 적이 피해를 받으면 그 피해의 일부가 기록됩니다. 필의의 지속 시간이 끝나면 폭발해, 범위 내의 적에게 기록된 피해량만큼의 <u>고정 피해</u>를 줍니다. 사용 후 일정 시간 동안 배틀 스킬이 <u>붓을 들리라</u>로 대체됩니다.<br/>붓을 들리라: 스킬 게이지 15포인트를 소모해 필의가 부여된 적의 몸속에서 <u>묵혼</u>을 끌어냅니다. 묵혼이 받는 모든 피해와 효과는 본체에 전달되며, 묵혼은 필의의 남은 시간만큼 지속됩니다. 사용 후 일정 시간 동안 배틀 스킬이 <u>붓을 거두리라</u>로 대체됩니다.<br/>붓을 거두리라: 스킬 게이지를 소모하지 않고 묵혼을 일찍 사라지게 합니다. 묵혼은 사라질 때 원래 목표에게 이동해 필의와 같은 효과의 폭발을 일으킵니다.<br/>묵혼과 필의 상태인 적에게 동시에 피해를 주거나 효과를 부여하면, 피해 또는 효과를 한 번만 적용한 것으로 간주합니다. 묵혼이 존재하는 동안 원래 적이 처치되면, 묵혼은 전투 중인 다른 적에게 연결되어 해당 적에게 필의를 부여합니다. 이때 지속 시간은 다시 계산하지 않습니다. 묵혼을 끌어내지 않은 상태에서 필의가 부여된 대상이 처치되면, 해당 위치에 묵혼이 생성됩니다."
         },
         "combo_skill": {
           "name": "Fully Envisioned",
           "name_es": "Plenamente concebido",
-          "description": "Triggers when any operator in the team consumes or absorbs <u>Cryo Infliction</u> or <u>Heat Infliction</u>: Si summons an <u>Ink Lung</u> that spits several hits of <u>Cryo DMG</u>. It consumes no Infliction itself, and its damage scales with the Infliction stacks consumed or absorbed when it triggers.",
-          "description_es": "Se activa cuando cualquier operador del equipo consume o absorbe <u>Imposición criogénica</u> o <u>Imposición de calor</u>: Si invoca un <u>Lung de tinta</u> que lanza varios golpes de <u>DAÑ criogénico</u>. No consume Imposición, y su daño crece con las acumulaciones consumidas o absorbidas al activarse."
+          "cooldown_s": 15,
+          "trigger": "When an enemy's <u>Cryo Infliction</u> or <u>Heat Infliction</u> is <u>consumed</u> or <u>absorbed</u>.",
+          "trigger_es": "Cuando la <u>Imposición criogénica</u> o la <u>Imposición de calor</u> de un enemigo es <u>consumida</u> o <u>absorbida</u>.",
+          "dmg_type": "Cryo",
+          "description": "Si summons an <u>Ink Lung</u> that deals Cryo DMG. This DMG is based on the highest stacks of Arts Infliction consumed or absorbed from a single target.",
+          "description_es": "Si invoca un <u>Lung de tinta</u> que inflige DAÑ criogénico. Este DAÑ se basa en la mayor cantidad de acumulaciones de Imposición de artes <u>consumidas</u> o <u>absorbidas</u> de un solo objetivo.",
+          "multipliers_max": [
+            {
+              "name": "DMG Multiplier",
+              "value": 750,
+              "formatted": "750%"
+            },
+            {
+              "name": "Multiplier Increase per Stack Consumed or Absorbed",
+              "value": 100,
+              "formatted": "100%"
+            },
+            {
+              "name": "Stagger",
+              "value": 10,
+              "formatted": "10"
+            },
+            {
+              "name": "Ultimate Energy Gain",
+              "value": 10,
+              "formatted": "10"
+            }
+          ],
+          "effects": [
+            "Cryo Infliction",
+            "Heat Infliction",
+            "Debuff Consumption"
+          ],
+          "name_zh": "成竹在胸",
+          "trigger_zh": "当有敌人的<u>寒冷附着</u>或<u>灼热附着</u>被<u>消耗</u>或<u>吸收</u>后可以发动。",
+          "description_zh": "召唤<u>墨龙</u>，造成寒冷伤害，伤害根据消耗或吸收附着的最高层数获得提升。",
+          "name_ja": "胸中に成竹在り",
+          "trigger_ja": "敵の<u>寒冷付着</u>または<u>灼熱付着</u>が<u>消費</u>または<u>吸収</u>されると発動可能。",
+          "description_ja": "<u>墨龍</u>を召喚して寒冷ダメージを与える。ダメージは消費または吸収した付着の最大段階数に応じてアップする。",
+          "name_ko": "먹빛은 이미 정해졌으니",
+          "trigger_ko": "적의 <u>냉기 부착</u> 또는 <u>열기 부착</u>이 <u>소모</u>되거나 <u>흡수</u>된 후 발동할 수 있습니다.",
+          "description_ko": "<u>묵룡</u>을 소환해 냉기 피해를 주며, 소모되거나 흡수된 최대 스택 수치에 따라 피해가 증가합니다."
         },
         "ultimate": {
           "name": "No One Spoils the Fun",
           "name_es": "Nadie arruina la diversión",
-          "description": "Summons a giant lung from her scroll that deals <u>Cryo DMG</u> and grants <u>Cryo Amp</u> and <u>Heat Amp</u> to the whole team. With her talent, it also greatly reduces the combo skill cooldown of the Team Position 01 operator.",
-          "description_es": "Invoca un Lung gigante de su pergamino que inflige <u>DAÑ criogénico</u> y otorga <u>Amplificación criogénica</u> y <u>Amplificación de calor</u> a todo el equipo. Con su talento, además reduce mucho el tiempo de reutilización del combo del operador en la posición 01."
+          "cooldown_s": 30,
+          "energy_cost": 80,
+          "dmg_type": "Cryo",
+          "description": "Si summons a <u>Giant Ink Lung</u> from her painting that deals Cryo DMG and grants temporary <u>Cryo Amp</u> and <u>Heat Amp</u> to the entire team.",
+          "description_es": "Si invoca desde su pintura un <u>Lung gigante de tinta</u> que inflige DAÑ criogénico y otorga temporalmente <u>Amp criogénica</u> y <u>Amp de calor</u> a todo el equipo.",
+          "multipliers_max": [
+            {
+              "name": "DMG Multiplier",
+              "value": 500,
+              "formatted": "500%"
+            },
+            {
+              "name": "Stagger",
+              "value": 20,
+              "formatted": "20"
+            },
+            {
+              "name": "Amp",
+              "value": 36,
+              "formatted": "36%"
+            },
+            {
+              "name": "Amp Duration (s)",
+              "value": 12,
+              "formatted": "12"
+            }
+          ],
+          "effects": [
+            "Cryo Amp",
+            "Heat Amp"
+          ],
+          "name_zh": "谁都不许扫兴",
+          "description_zh": "从画卷唤出<u>巨型墨龙</u>造成寒冷伤害，同时对全队施加一段时间的<u>寒冷增幅</u>和<u>灼热增幅</u>。",
+          "name_ja": "白けさせるでない！",
+          "description_ja": "絵巻から<u>巨大な墨龍</u>を召喚して寒冷ダメージを与える。同時に、チーム全員に一定時間の<u>寒冷増幅</u>と<u>灼熱増幅</u>を付与する。",
+          "name_ko": "누가 감히 흥을 깨랴",
+          "description_ko": "그림에서 <u>거대 묵룡</u>을 불러내 냉기 피해를 주고, 팀 전체에 일정 시간 동안 <u>냉기 증폭</u>과 <u>열기 증폭</u>을 부여합니다."
         }
-      }
+      },
+      "talents": [
+        {
+          "name": "Proxy's Patronage",
+          "description": "Ultimate skill <u>No One Spoils the Fun</u> improved: After casting, <u>Team Position 01</u> operator's combo skill cooldown length <b>-10/-20</b>s.",
+          "effects": [],
+          "name_es": "Patrocinio de la Emisaria",
+          "name_zh": "代理人的眷顾",
+          "name_ja": "代理人の気遣い",
+          "name_ko": "대리인의 가호",
+          "description_es": "Habilidad máxima <u>Nadie arruina la diversión</u> mejorada: Después de lanzarla, el tiempo de reutilización de la habilidad de combo del operador en la <u>Posición de equipo 01</u> dura <b>-10/-20</b> s.",
+          "description_zh": "施放终结技<u>谁都不许扫兴</u>后，小队内<u>01号位</u>干员连携技剩余冷却时间<b>-10/-20</b>秒。",
+          "description_ja": "必殺技<u>「白けさせるでない！」</u>を発動すると、チーム内の<u>01位置</u>のオペレーターの連携技残りCD時間<b>-10/-20</b>秒",
+          "description_ko": "궁극기 <u>누가 감히 흥을 깨랴</u> 사용 후, 팀 내 <u>1번 슬롯</u> 오퍼레이터의 연계 스킬 남은 쿨타임 <b>-10/-20</b>초."
+        },
+        {
+          "name": "Unsoiled Brush",
+          "description": "When the <u>Inksoul</u> disappears, allied operators gain <b>15%/30%</b> <u>Haste</u> for <b>5</b>s.",
+          "effects": [],
+          "name_es": "Pincel inmaculado",
+          "name_zh": "丹青不渝",
+          "name_ja": "丹青褪せず",
+          "name_ko": "바래지 않는 단청",
+          "description_es": "Cuando el <u>Alma de tinta</u> desaparece, los operadores aliados obtienen <b>15%/30%</b> de <u>Celeridad</u> durante <b>5</b> s.",
+          "description_zh": "<u>墨魂</u>消失时，友方干员获得<b>15%/30%</b><u>加速</u>，持续<b>5</b>秒。",
+          "description_ja": "<u>墨魂</u>が消失するとき、<b>5</b>秒間味方オペレーターは<b>15%/30%</b>の<u>加速</u>効果を獲得する",
+          "description_ko": "<u>묵혼</u>이 사라지면 아군 오퍼레이터가 <b>15%/30%</b>의 <u>가속</u>을 획득하며, <b>5</b>초 동안 지속."
+        }
+      ],
+      "base_talents": [
+        {
+          "name": "Ware is the Geist",
+          "description": "Assign to Reception Room to grant operator clue collecting efficiency +20/30%",
+          "name_es": "El Ware es el Geist",
+          "name_zh": "点器为伥",
+          "name_ja": "器を鬼とす",
+          "name_ko": "도구의 사역마",
+          "description_es": "Asignar a la Sala de recepción para aumentar la eficiencia de recolección de pistas del operador +20/30%",
+          "description_zh": "进驻会客室时，干员收集线索的效率提升20/30%",
+          "description_ja": "応接室配属時、手がかり捜索速度+20/30%",
+          "description_ko": "응접실에 배치 시, 오퍼레이터의 단서 수집 기본 효율 20/30% 증가"
+        },
+        {
+          "name": "Ink Spirit Aide",
+          "description": "Assign to Reception Room to slow Mood Drop of all operators in it by 14/18%",
+          "name_es": "Asistente del Espíritu de tinta",
+          "name_zh": "墨魉代劳",
+          "name_ja": "代役墨魎",
+          "name_ko": "묵량의 보조",
+          "description_es": "Asignar a la Sala de recepción para reducir la disminución del Estado de ánimo de todos los operadores en ella un 14/18%",
+          "description_zh": "进驻会客室时，舱室内干员心情消耗降低14/18%",
+          "description_ja": "応接室配属時、船室内全員の体力消耗-14/18%",
+          "description_ko": "응접실에 배치 시, 선실에 있는 오퍼레이터의 컨디션 소모 속도 14/18% 감소"
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Spring and Autumn as Ink",
+          "description": "Battle skill <u>Brushwork Realm</u> improved: Duration of <u>Immobilization</u> applied +<b>50%</b>; <u>Artful Intent</u> DMG Record Ratio +<b>7%</b> and burst radius +<b>40%</b>.",
+          "effects": [],
+          "name_es": "Primavera y otoño como tinta",
+          "name_zh": "春秋作墨",
+          "name_ja": "春秋、墨と為す",
+          "name_ko": "세월을 먹 삼아",
+          "description_es": "Habilidad de batalla <u>Reino de pinceladas</u> mejorada: Duración de la <u>Inmovilización</u> aplicada +<b>50%</b>; Índice de registro de DAÑ de <u>Intención Artística</u> +<b>7%</b> y radio de ráfaga +<b>40%</b>.",
+          "description_zh": "战技<u>河山共影</u>施加的<u>定身</u>持续时间+<b>50%</b>，<u>笔意</u>的伤害记录比例+<b>7%</b>，爆发半径+<b>40%</b>。",
+          "description_ja": "戦技<u>「山河を映して」</u>による<u>行動停止</u>の持続時間+<b>50%</b>、<u>筆意</u>のダメージ記録率+<b>7%</b>、爆発範囲の半径+<b>40%</b>",
+          "description_ko": "배틀 스킬 <u>강산을 한 폭에</u>로 부여하는 <u>속박</u>의 지속 시간 +<b>50%</b>, <u>필의</u>의 피해 기록 비율 +<b>7%</b>, 폭발 반경 +<b>40%</b>"
+        },
+        {
+          "name": "Three Marks Deep in Wood",
+          "description": "Combo skill <u>Fully Envisioned</u> improved: When casting, Si gains ATK +[<b>8%</b> + <b>3%</b>×(Highest stacks of Arts Infliction consumed or <u>absorbed</u> from a single target)] for <b>10</b>s. This effect cannot stack.",
+          "effects": [],
+          "name_es": "Tres marcas profundas en la madera",
+          "name_zh": "入木三分",
+          "name_ja": "一筆入魂",
+          "name_ko": "나무에 석 자를 새기고",
+          "description_es": "Habilidad de combo <u>Plenamente concebido</u> mejorada: Cuando se lanza, Si gana de ATQ + [<b>8%</b> + <b>3%</b> × (las acumulaciones más altas de Imposición de artes consumidas o <u>absorbidas</u> de un solo objetivo)] durante <b>10</b> s. Este efecto no se puede acumular.",
+          "description_zh": "施放连携技<u>成竹在胸</u>时，攻击力+[<b>8%</b>+<b>3%</b>×消耗或<u>吸收</u>的最高附着层数]，持续<b>10</b>秒，无法叠加。",
+          "description_ja": "連携技<u>「胸中に成竹在り」</u>発動時、<b>10</b>秒間攻撃力+[<b>8%</b>+<b>3%</b>×消費または<u>吸収</u>した最大付着段階数]（重ね掛け不可）",
+          "description_ko": "연계 스킬 <u>먹빛은 이미 정해졌으니</u>를 사용할 때, 공격력 +[<b>8%</b>+<b>3%</b>×소모 또는 <u>흡수</u>한 부착의 최대 스택 수치], <b>10</b>초 동안 지속되며, 중첩되지 않습니다."
+        },
+        {
+          "name": "Study of Muscles and Bones",
+          "description": "Ultimate <u>No One Spoils the Fun</u> improved: DMG Dealt is increased to <b>1.2</b> times the original; <u>Amp</u> effect is increased to <b>1.2</b> times the original.",
+          "effects": [],
+          "name_es": "Estudio de músculos y huesos",
+          "name_zh": "工于筋骨",
+          "name_ja": "骨力を宿す",
+          "name_ko": "근골을 벼려내어",
+          "description_es": "Máxima <u>Nadie arruina la diversión</u> mejorada: El DAÑ infligido aumenta a <b>1.2</b> veces el original; el efecto de <u>Amp</u> aumenta a <b>1.2</b> veces el original.",
+          "description_zh": "终结技<u>谁都不许扫兴</u>伤害提升至原本的<b>1.2</b>倍，提供的<u>增幅</u>效果提升至原本的<b>1.2</b>倍。",
+          "description_ja": "必殺技<u>「白けさせるでない！」</u>のダメージが<b>1.2</b>倍までアップし、付与する<u>増幅</u>効果が<b>1.2</b>倍までアップする",
+          "description_ko": "궁극기 <u>누가 감히 흥을 깨랴</u>의 피해가 기존의 <b>1.2</b>배로 증가하며, 제공하는 <u>증폭</u> 효과가 기존의 <b>1.2</b>배로 증가합니다."
+        },
+        {
+          "name": "Perfectly Composed in Spirit",
+          "description": "Ultimate <u>No One Spoils the Fun</u> improved: Ultimate Energy cost -<b>15%</b>.",
+          "effects": [],
+          "name_es": "Perfectamente compuesto en espíritu",
+          "name_zh": "完善精神",
+          "name_ja": "精神を全きものとす",
+          "name_ko": "정신을 가다듬으며",
+          "description_es": "Máxima <u>Nadie arruina la diversión</u> mejorada: Costo de Energía máxima -<b>15%</b>.",
+          "description_zh": "终结技<u>谁都不许扫兴</u>所需的终结技能量-<b>15%</b>。",
+          "description_ja": "必殺技<u>「白けさせるでない！」</u>に必要な必殺チャージ-<b>15%</b>",
+          "description_ko": "궁극기 <u>누가 감히 흥을 깨랴</u>의 사용에 필요한 궁극기 에너지 -<b>15%</b>"
+        },
+        {
+          "name": "Brush Dab in Eye's White",
+          "description": "Combo skill <u>Fully Envisioned</u> improved: Length of combo skill cooldown <b>-2</b>s and DMG Dealt is increased to <b>1.15</b> times the original. When triggered, treat the combo skill as having <u>consumed</u> or <u>absorbed</u> 1 additional stack of infliction.",
+          "effects": [],
+          "name_es": "Pincelada en el blanco del ojo",
+          "name_zh": "点睛之笔",
+          "name_ja": "点睛の一筆",
+          "name_ko": "마침내 눈동자를 찍으리라",
+          "description_es": "Habilidad de combo <u>Plenamente concebido</u> mejorada: Duración del tiempo de reutilización de la habilidad de combo <b>-2</b> s y el DAÑ infligido aumenta a <b>1.15</b> veces el original. Al activarse, considera que la habilidad de combo <u>consumió</u> o <u>absorbió</u> 1 acumulación adicional de Imposición.",
+          "description_zh": "连携技<u>成竹在胸</u>冷却时间<b>-2</b>秒，伤害提升至原本的<b>1.15</b>倍，触发时视为额外1层附着被<u>消耗</u>或<u>吸收</u>。",
+          "description_ja": "連携技<u>「胸中に成竹在り」</u>のCD時間<b>-2</b>秒、ダメージが<b>1.15</b>倍までアップする<br/>発動可能になるとき、付着が1段階多く<u>消費</u>または<u>吸収</u>したものと見なされる",
+          "description_ko": "연계 스킬 <u>먹빛은 이미 정해졌으니</u>의 쿨타임 <b>-2</b>초, 피해가 기존의 <b>1.15</b>배로 증가합니다. 발동 시, 부착 1스택이 추가로 <u>소모</u>되거나 <u>흡수</u>된 것으로 간주합니다."
+        }
+      ]
     },
     "argentflow": {
       "name_display": "Argent Flow",
