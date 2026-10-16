@@ -1,0 +1,653 @@
+{
+  "label": "SI",
+  "guideCharId": "si",
+  "tagline": {
+    "es": "Soporte Cryo que también es DPS. Su Combo pega según las acumulaciones de Cryo o Heat Infliction que cualquiera consuma o absorba, su Battle Skill marca al enemigo con Artful Intent y devuelve parte del daño que recibe como Fixed DMG en área, y su Ultimate da Cryo Amp y Heat Amp a todo el equipo y recorta el cooldown del Combo de quien va en la Posición 01. Rinde de carry en un equipo de cuatro soportes o de apoyo con strikers como Yvonne y Last Rite.",
+    "en": "A Cryo support who is also a DPS. Her Combo hits based on the Cryo or Heat Infliction stacks anyone consumes or absorbs, her Battle Skill marks the enemy with Artful Intent and returns part of the damage it takes as AoE Fixed DMG, and her Ultimate gives Cryo Amp and Heat Amp to the whole team and cuts the Combo cooldown of whoever sits in Team Position 01. She works as the carry of a four-support team or as support for strikers like Yvonne and Last Rite."
+  },
+  "comps": [
+    {
+      "name": {
+        "es": "Maygi - Arcane (WILL) · Tangtang · Xaihi",
+        "en": "Maygi - Arcane (WILL) · Tangtang · Xaihi"
+      },
+      "subtitle": {
+        "es": "Si de carry · Arcane (WILL) · Tangtang · Xaihi",
+        "en": "Si as carry · Arcane (WILL) · Tangtang · Xaihi"
+      },
+      "blurb": {
+        "es": "Si de DPS principal en lo que el autor llama un equipo de cuatro soportes: todas se buffean entre sí. La Battle Skill de Arcane provoca Corrosion una y otra vez, lo que mantiene el debuff y consume la Cryo Infliction que dispara el Combo de Si. Rotación de 59 segundos y 86K de DPS de equipo en el cálculo del autor, a la par del equipo de Last Rite como lo más alto del video. Incluye la versión con Arcane INT.",
+        "en": "Si as main DPS in what the author calls a four-support team: everyone buffs each other. Arcane's Battle Skill triggers Corrosion again and again, which keeps the debuff up and consumes the Cryo Infliction that fires Si's Combo. A 59-second rotation and 86K team DPS in the author's math, level with the Last Rite team as the highest in the video. Includes the INT Arcane version."
+      },
+      "guideVideoId": "si1",
+      "simple": {
+        "whatItDoes": {
+          "es": "Si es la carry y su Combo es su fuente principal de daño: sale cada vez que se consume o se absorbe una Cryo o Heat Infliction del enemigo y pega más cuantas más acumulaciones se consumieron. Su Battle Skill aplica Cryo Infliction y marca al objetivo con Artful Intent, que guarda parte del daño que recibe y lo suelta como Fixed DMG en área al terminar. Su Ultimate da Cryo y Heat Amp a todo el equipo. Arcane en forma WILL convierte esa Cryo Infliction en Corrosion con su Battle Skill: mantiene el debuff de resistencia y, al consumir la Cryo, dispara el Combo de Si.",
+          "en": "Si is the carry and her Combo is her main damage source: it fires every time an enemy's Cryo or Heat Infliction is consumed or absorbed, and hits harder the more stacks were consumed. Her Battle Skill applies Cryo Infliction and marks the target with Artful Intent, which stores part of the damage it takes and releases it as AoE Fixed DMG when it ends. Her Ultimate gives Cryo and Heat Amp to the whole team. WILL-form Arcane turns that Cryo Infliction into Corrosion with her Battle Skill: it keeps the resistance debuff up and, by consuming the Cryo, fires Si's Combo."
+        },
+        "steps": [
+          {
+            "who": "si",
+            "do": {
+              "es": "Abre con las Battle Skills de Si y de Xaihi, y los Combos de Arcane y de Tangtang.",
+              "en": "Open with Si's and Xaihi's Battle Skills, plus Arcane's and Tangtang's Combos."
+            }
+          },
+          {
+            "who": "xaihi",
+            "do": {
+              "es": "Ataques básicos. Cuando el Combo de Xaihi esté listo, no lo uses todavía: activa el de Tangtang con su Battle Skill y pulsa los dos juntos.",
+              "en": "Basic attacks. When Xaihi's Combo is ready, hold it: proc Tangtang's with her Battle Skill and tap both together."
+            }
+          },
+          {
+            "who": "arcane",
+            "do": {
+              "es": "Básicos hasta que el Combo de Arcane esté casi listo; entonces su Battle Skill y el Combo de Si, cancelado con un esquive. Si en ese momento sale el Combo de Arcane, no lo uses.",
+              "en": "Basics until Arcane's Combo is almost ready; then her Battle Skill and Si's Combo, dodge-cancelled. If Arcane's Combo procs there, don't use it."
+            }
+          },
+          {
+            "who": "si",
+            "do": {
+              "es": "Tras un par de básicos, Battle Skill de Si y, en cuanto haya SP, la de Xaihi. Básicos hasta volver a 100 SP.",
+              "en": "After a couple of basics, Si's Battle Skill and, as soon as there is SP, Xaihi's. Basics until you are back at 100 SP."
+            }
+          },
+          {
+            "who": "tangtang",
+            "do": {
+              "es": "Burst: Combo de Xaihi y Ultimate de Tangtang; Battle Skill de Arcane, Combos de Tangtang y de Si, y Ultimate de Xaihi. Cancela el Combo de Si, Dive Attack y Ultimate de Si.",
+              "en": "Burst: Xaihi's Combo and Tangtang's Ultimate; Arcane's Battle Skill, Tangtang's and Si's Combos, and Xaihi's Ultimate. Cancel Si's Combo, Dive Attack and Si's Ultimate."
+            }
+          },
+          {
+            "who": "arcane",
+            "do": {
+              "es": "Combo y Ultimate de Arcane cuanto antes, Finisher, y para cerrar otra Battle Skill de Arcane y otro Combo de Si.",
+              "en": "Arcane's Combo and Ultimate as soon as possible, Finisher, and to close another Arcane Battle Skill and another Si Combo."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "si",
+            "line": {
+              "es": "Jade Vessel (BIS, 117% a P5). Type 50 Yinglung Soft Armor + Beacon + Gloves (Intellect/Strength) para el daño del Combo, con Redeemer Seal por el Ultimate Gain.",
+              "en": "Jade Vessel (BIS, 117% at P5). Type 50 Yinglung Soft Armor + Beacon + Gloves (Intellect/Strength) for Combo damage, with Redeemer Seal for Ultimate Gain."
+            }
+          },
+          {
+            "id": "arcane",
+            "line": {
+              "es": "Type 42: Solemn Phalanx. Deep Rampart Armor + Hot Work Gloves + 2 Hot Work Power Cartridge: máxima Arts Intensity sin perder la forma WILL, con una Essence de +3 INT o menos.",
+              "en": "Type 42: Solemn Phalanx. Deep Rampart Armor + Hot Work Gloves + 2 Hot Work Power Cartridge: max Arts Intensity without losing WILL form, with an Essence of +3 INT or less."
+            }
+          },
+          {
+            "id": "tangtang",
+            "line": {
+              "es": "Brigand's Calling. Bonekrusha Heavy Armor + Wristband T1 + Mask T2 con el AIC Fieldwork Ember (kit de nivel 60): dos piezas de Ultimate Gain.",
+              "en": "Brigand's Calling. Bonekrusha Heavy Armor + Wristband T1 + Mask T2 with the AIC Fieldwork Ember (level 60 kit): two Ultimate Gain pieces."
+            }
+          },
+          {
+            "id": "xaihi",
+            "line": {
+              "es": "Detonation Unit, con Chivalric Virtues casi igual. Eternal Xiranite (Light Armor T1, Gloves T1, Power Core) con Frontiers Extra O2 Tube T1 para más INT.",
+              "en": "Detonation Unit, with Chivalric Virtues almost equal. Eternal Xiranite (Light Armor T1, Gloves T1, Power Core) with Frontiers Extra O2 Tube T1 for more INT."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "La guía completa de Si del autor, con builds y rotaciones solo de equipos Cryo (los de Heat quedan fuera del video). El kit se resume en tres piezas. La Battle Skill aplica Cryo Infliction (Heat si hay un operador Heat en la Posición 01), inmoviliza al objetivo un segundo y lo marca con Artful Intent durante 20 segundos: guarda un porcentaje de todo el daño que recibe (13% a rango 12) y al terminar lo suelta en área como Fixed DMG, que no se ve afectado por buffs ni debuffs porque el daño que copia ya los llevaba; el autor lo resume como un modificador de daño propio de +13% en jefe único, con el extra de repartir ese daño a los enemigos de al lado. Las dos fases siguientes de la skill son opcionales: Initial Stroke (15 SP) saca un Inksoul del objetivo marcado que comparte su vida, debuffs e Inflictions, útil para pegarle a algo quieto en vez de a un jefe que se mueve; Final Stroke (0 SP) termina la marca antes de tiempo y suelta el daño acumulado, útil para rematar. El Combo es su fuente principal de daño: sale cuando se consume o se absorbe una Cryo o Heat Infliction y pega según las acumulaciones consumidas (750% más 100% por acumulación a rango 12). Como operadora controlada, el autor lo cancela con un esquive en cuanto sale. El Ultimate pega y da Cryo y Heat Amp a todo el equipo (36% durante 12 segundos a rango 12), y con su talento recorta 20 segundos el cooldown del Combo de quien va en la Posición 01, ella misma incluida. En este equipo Si va en la Posición 01, hace algo más de la mitad del daño, y Arcane y Tangtang aportan una buena parte cada una. Con armas BIS, 6 estrellas a P0 y 5 estrellas a P5, el cálculo del autor da 86K de DPS de equipo contra un solo objetivo en 59 segundos.",
+        "en": "The author's complete Si guide, with builds and rotations for Cryo teams only (Heat teams are left out of the video). The kit comes down to three pieces. Her Battle Skill applies Cryo Infliction (Heat if a Heat operator is in Team Position 01), immobilizes the target for a second and marks it with Artful Intent for 20 seconds: it stores a percentage of all damage the target takes (13% at rank 12) and, when it ends, releases it in an area as Fixed DMG, which is not affected by buffs or debuffs because the damage it copies already had them; the author sums it up as a unique +13% damage modifier in single target, with the bonus of spreading that damage to nearby enemies. The skill's next two phases are optional: Initial Stroke (15 SP) pulls an Inksoul out of the marked target that shares its HP, debuffs and Inflictions, useful to hit something stationary instead of a boss that moves around; Final Stroke (0 SP) ends the mark early and releases the stored damage, useful to finish a target off. Her Combo is her main damage source: it fires when a Cryo or Heat Infliction is consumed or absorbed and hits based on the stacks consumed (750% plus 100% per stack at rank 12). As the controlled operator, the author cancels it with a dodge as soon as it comes out. Her Ultimate deals damage and gives Cryo and Heat Amp to the whole team (36% for 12 seconds at rank 12), and through her talent it cuts the Combo cooldown of whoever sits in Team Position 01 by 20 seconds, herself included. In this team Si sits in Team Position 01, deals a bit over half the damage, and Arcane and Tangtang each contribute a good share. With BIS weapons, 6-stars at P0 and 5-stars at P5, the author's math gives 86K team DPS against a single target over 59 seconds."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Media",
+          "en": "Medium"
+        },
+        "content": {
+          "es": "Jefe / Single-target",
+          "en": "Boss / Single-target"
+        },
+        "tags": [
+          {
+            "es": "Cryo",
+            "en": "Cryo"
+          },
+          {
+            "es": "Corrosion",
+            "en": "Corrosion"
+          },
+          {
+            "es": "Cuatro soportes",
+            "en": "Four supports"
+          },
+          {
+            "es": "Cancelar Combos",
+            "en": "Combo cancels"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "Empatado con el equipo de Last Rite como el DPS más alto del video: 86K en 59 segundos.",
+          "en": "Tied with the Last Rite team as the highest DPS in the video: 86K over 59 seconds."
+        },
+        {
+          "es": "Las cuatro se buffean entre sí: Cryo y Heat Amp de Si, Corrosion y Susceptibility de Arcane, Arts Susceptibility de las Waterspouts de Tangtang y el Amp de Xaihi.",
+          "en": "All four buff each other: Si's Cryo and Heat Amp, Arcane's Corrosion and Susceptibility, Arts Susceptibility from Tangtang's Waterspouts and Xaihi's Amp."
+        },
+        {
+          "es": "La Battle Skill de Arcane mantiene la Corrosion toda la rotación y cada vez dispara el Combo de Si, su principal fuente de daño.",
+          "en": "Arcane's Battle Skill keeps Corrosion up the whole rotation and fires Si's Combo every time, her main damage source."
+        },
+        {
+          "es": "El Artful Intent de Si devuelve en área parte del daño que recibe el objetivo: en jefe único es como un modificador de daño propio de +13%.",
+          "en": "Si's Artful Intent returns part of the damage the target takes as an AoE: in single target it works like a unique +13% damage modifier."
+        }
+      ],
+      "cons": [
+        {
+          "es": "Arcane pide una build rara: máxima Arts Intensity sin que la INT supere a la Will, lo que con su arma BIS o Junction Point exige una Essence de +3 INT o menos.",
+          "en": "Arcane needs an odd build: max Arts Intensity without INT overtaking Will, which with her BIS or Junction Point requires an Essence of +3 INT or less."
+        },
+        {
+          "es": "Varios Combos se retienen a propósito (el de Xaihi hasta el de Tangtang, el de Arcane cuando sale fuera de tiempo): la rotación castiga pulsar cada Combo en cuanto se enciende.",
+          "en": "Several Combos are held on purpose (Xaihi's until Tangtang's, Arcane's when it procs off-cycle): the rotation punishes tapping each Combo as soon as it lights up."
+        },
+        {
+          "es": "Tangtang necesita dos piezas de Ultimate Gain y Si un Redeemer Seal para que los Ultimates lleguen al burst.",
+          "en": "Tangtang needs two Ultimate Gain pieces and Si a Redeemer Seal so the Ultimates make it to the burst."
+        },
+        {
+          "es": "El video solo cubre equipos Cryo: con operadores Heat la guía no da build ni rotación.",
+          "en": "The video only covers Cryo teams: with Heat operators the guide gives no build or rotation."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "El Combo de Si: daño por acumulación consumida",
+            "en": "Si's Combo: damage per consumed stack"
+          },
+          "body": {
+            "es": "El Combo de Si sale cuando la Cryo o Heat Infliction de un enemigo se consume o se absorbe, y su daño depende de la mayor cantidad de acumulaciones consumidas de un solo objetivo: 750% a rango 12, más 100% por acumulación (con 2 acumulaciones, 950%). Es su fuente principal de daño, así que el equipo se arma para consumir Cryo Infliction a menudo. Como operadora controlada, el autor lo cancela con un esquive en cuanto sale.",
+            "en": "Si's Combo fires when an enemy's Cryo or Heat Infliction is consumed or absorbed, and its damage depends on the highest number of stacks consumed from a single target: 750% at rank 12, plus 100% per stack (950% with 2 stacks). It is her main damage source, so the team is built to consume Cryo Infliction often. As the controlled operator, the author cancels it with a dodge as soon as it comes out."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Artful Intent: el +13% que se reparte",
+            "en": "Artful Intent: the +13% that spreads"
+          },
+          "body": {
+            "es": "La Battle Skill marca al enemigo con Artful Intent durante 20 segundos. Mientras dura, guarda una parte de todo el daño que recibe (8% a rango 1, 13% a rango 12) y al terminar lo suelta en área como Fixed DMG. Ese daño no cuenta buffs ni debuffs porque el daño que copia ya los traía. En jefe único el autor lo trata como un modificador de daño propio de +13%; con más enemigos, además reparte lo que le haces al objetivo a los que tiene al lado.",
+            "en": "The Battle Skill marks the enemy with Artful Intent for 20 seconds. While it lasts, it stores a part of all the damage the target takes (8% at rank 1, 13% at rank 12) and when it ends it releases it in an area as Fixed DMG. That damage ignores buffs and debuffs because the damage it copies already had them. In single target the author treats it as a unique +13% damage modifier; with more enemies, it also spreads what you deal to the target onto the ones next to it."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Corrosion en bucle con Arcane",
+            "en": "Corrosion on loop with Arcane"
+          },
+          "body": {
+            "es": "La Battle Skill de Arcane aplica Nature Infliction. Sobre un enemigo con Cryo Infliction eso provoca Corrosion, que consume la Cryo: el autor la usa para mantener la Corrosion, un debuff de resistencia muy fuerte, durante toda la rotación, y cada consumo dispara el Combo de Si. En forma WILL su Combo, además, añade otra acumulación de la Infliction que ya tenga el enemigo, junto con Nature y Cryo Susceptibility.",
+            "en": "Arcane's Battle Skill applies Nature Infliction. On an enemy with Cryo Infliction that triggers Corrosion, which consumes the Cryo: the author uses it to keep Corrosion, a very strong resistance debuff, up for the whole rotation, and every consumption fires Si's Combo. In WILL form her Combo also adds another stack of the Infliction the enemy already has, along with Nature and Cryo Susceptibility."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "El Ultimate de Si: Amp y Combo de vuelta",
+            "en": "Si's Ultimate: Amp and Combo back"
+          },
+          "body": {
+            "es": "El Ultimate pega y da Cryo Amp y Heat Amp a todo el equipo: 36% durante 12 segundos a rango 12 (30% a rango 9). Con su talento Proxy's Patronage, al lanzarlo recorta el cooldown del Combo de quien va en la Posición 01 (10 segundos en el nivel 1 del talento, 20 en el nivel 2), y eso vale para ella misma. Por eso en este equipo el cierre vuelve a tener Combo de Si.",
+            "en": "The Ultimate deals damage and gives Cryo Amp and Heat Amp to the whole team: 36% for 12 seconds at rank 12 (30% at rank 9). Through her talent Proxy's Patronage, casting it cuts the Combo cooldown of whoever sits in Team Position 01 (10 seconds at talent level 1, 20 at level 2), and that works on herself. That is why the close of this team has another Si Combo."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Cuatro soportes que se buffean",
+            "en": "Four supports buffing each other"
+          },
+          "body": {
+            "es": "El autor lo describe como un equipo de cuatro soportes: todas traen buffs que benefician a las demás. Si hace algo más de la mitad del daño y Arcane y Tangtang aportan una buena parte cada una. El set Type 50 Yinglung de Si gana una acumulación de Yinglung's Edge (+20% al siguiente Combo, hasta 3) cada vez que cualquiera del equipo lanza una Battle Skill, así que las Battle Skills de las compañeras también suben su Combo.",
+            "en": "The author describes it as a four-support team: everyone brings buffs that benefit the others. Si deals a bit over half the damage and Arcane and Tangtang each contribute a good share. Si's Type 50 Yinglung set gains a stack of Yinglung's Edge (+20% to the next Combo, up to 3) every time anyone on the team casts a Battle Skill, so her teammates' Battle Skills also power up her Combo."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Apertura",
+            "en": "Opener"
+          },
+          "action": {
+            "es": "Battle Skills de Si y Xaihi + Combos de Arcane y Tangtang → básicos → Battle Skill de Tangtang → Combos de Tangtang y Xaihi juntos.",
+            "en": "Si's and Xaihi's Battle Skills + Arcane's and Tangtang's Combos → basics → Tangtang's Battle Skill → Tangtang's and Xaihi's Combos together."
+          },
+          "steps": [
+            {
+              "who": "si",
+              "do": {
+                "es": "Empieza con las Battle Skills de Si y de Xaihi, junto con los Combos de Arcane y de Tangtang.",
+                "en": "Start with Si's and Xaihi's Battle Skills, along with Arcane's and Tangtang's Combos."
+              }
+            },
+            {
+              "who": "xaihi",
+              "do": {
+                "es": "Ataques básicos. Cuando el Combo de Xaihi esté listo, no lo uses enseguida: espera a que suba el de Tangtang para usarlos a la vez y ahorrar algo de congelación de tiempo.",
+                "en": "Basic attacks. When Xaihi's Combo is ready, don't use it right away: wait for Tangtang's to come up so you can use both at once and save some time freeze."
+              },
+              "key": true
+            },
+            {
+              "who": "tangtang",
+              "do": {
+                "es": "Activa el Combo de Tangtang con su Battle Skill (sus Waterspouts aplican Cryo Infliction) y pulsa su Combo y el de Xaihi.",
+                "en": "Proc Tangtang's Combo with her Battle Skill (her Waterspouts apply Cryo Infliction) and tap her Combo and Xaihi's."
+              }
+            }
+          ],
+          "tip": {
+            "es": "En pantalla, el autor avisa que encadenar Combos reduce un poco la congelación de tiempo, así que no los uses cuando no hacen falta. Y en este punto no pulses repetidamente el Combo de Tangtang: puedes perder la energía de su Battle Skill.",
+            "en": "On screen, the author notes that layering Combos slightly reduces the time freeze, so don't use them when you don't need to. And at this point don't spam-click Tangtang's Combo: you may lose the energy from her Battle Skill."
+          }
+        },
+        {
+          "phase": {
+            "es": "Corrosion y segunda marca",
+            "en": "Corrosion and second mark"
+          },
+          "action": {
+            "es": "Básicos → Battle Skill de Arcane → Combo de Si (cancelado) → básicos → Battle Skill de Si → Battle Skill de Xaihi → básicos hasta 100 SP.",
+            "en": "Basics → Arcane's Battle Skill → Si's Combo (cancelled) → basics → Si's Battle Skill → Xaihi's Battle Skill → basics up to 100 SP."
+          },
+          "steps": [
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Ataques básicos hasta que el Combo de Arcane esté casi listo y entonces su Battle Skill.",
+                "en": "Basic attacks until Arcane's Combo is almost ready, then her Battle Skill."
+              }
+            },
+            {
+              "who": "si",
+              "do": {
+                "es": "Combo de Si, cancelado con un esquive. Si en este momento se activa el Combo de Arcane, no lo uses.",
+                "en": "Si's Combo, dodge-cancelled. If Arcane's Combo procs at this moment, don't use it."
+              },
+              "key": true
+            },
+            {
+              "who": "si",
+              "do": {
+                "es": "Tras un par de ataques básicos, Battle Skill de Si y, en cuanto tengas el SP, la de Xaihi.",
+                "en": "After a couple of basic attacks, Si's Battle Skill and, as soon as you have the SP, Xaihi's."
+              }
+            },
+            {
+              "who": "xaihi",
+              "do": {
+                "es": "Ataques básicos hasta volver a tener 100 SP.",
+                "en": "Basic attacks until you have 100 SP again."
+              }
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Burst",
+            "en": "Burst"
+          },
+          "action": {
+            "es": "Combo de Xaihi + Ultimate de Tangtang → Battle Skill de Arcane → Combos de Tangtang y Si → Ultimate de Xaihi → cancelar el Combo de Si → Dive Attack → Ultimate de Si.",
+            "en": "Xaihi's Combo + Tangtang's Ultimate → Arcane's Battle Skill → Tangtang's and Si's Combos → Xaihi's Ultimate → cancel Si's Combo → Dive Attack → Si's Ultimate."
+          },
+          "steps": [
+            {
+              "who": "tangtang",
+              "do": {
+                "es": "Con 100 SP, suelta el Combo de Xaihi junto con el Ultimate de Tangtang.",
+                "en": "At 100 SP, unleash Xaihi's Combo along with Tangtang's Ultimate."
+              }
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Battle Skill de Arcane, los Combos de Tangtang y de Si, y el Ultimate de Xaihi.",
+                "en": "Arcane's Battle Skill, Tangtang's and Si's Combos, and Xaihi's Ultimate."
+              }
+            },
+            {
+              "who": "si",
+              "do": {
+                "es": "Cancela el Combo de Si con un esquive, haz un Dive Attack y usa el Ultimate de Si.",
+                "en": "Dodge-cancel Si's Combo, do a Dive Attack and use Si's Ultimate."
+              },
+              "key": true,
+              "note": {
+                "es": "El kit de Tangtang explica el Dive Attack: dentro del OLDEN STARE de su Ultimate corta su evolución y hace caer la ola de inmediato, con más daño.",
+                "en": "Tangtang's kit explains the Dive Attack: inside her Ultimate's OLDEN STARE it ends its evolution and brings the rogue wave down immediately, for more damage."
+              }
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Cierre",
+            "en": "Close"
+          },
+          "action": {
+            "es": "Combo y Ultimate de Arcane → Finisher → Battle Skill de Arcane → Combo de Si.",
+            "en": "Arcane's Combo and Ultimate → Finisher → Arcane's Battle Skill → Si's Combo."
+          },
+          "steps": [
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Combo y Ultimate de Arcane en cuanto puedas.",
+                "en": "Arcane's Combo and Ultimate as soon as you can."
+              }
+            },
+            {
+              "who": "si",
+              "do": {
+                "es": "Finisher, y después otra Battle Skill de Arcane y otro Combo de Si.",
+                "en": "Finisher, then another Arcane Battle Skill and another Si Combo."
+              }
+            }
+          ],
+          "tip": {
+            "es": "La rotación completa dura 59 segundos. Todos los ejemplos del video se grabaron sin Essence salvo la de Ultimate Gain, para poder ver la rotación entera.",
+            "en": "The full rotation lasts 59 seconds. Every example in the video was recorded with no Essence except Ultimate Gain, so the whole rotation can be seen."
+          }
+        }
+      ],
+      "rotationVariants": [
+        {
+          "name": {
+            "es": "Doble DPS con Arcane INT",
+            "en": "Dual DPS with INT Arcane"
+          },
+          "description": {
+            "es": "Los mismos cuatro operadores con Arcane en forma INT: Si comparte el protagonismo y el daño queda repartido más o menos a partes iguales entre las dos. El autor la califica algo más floja que la versión WILL pero igual de satisfactoria: 70K de DPS de equipo en 64 segundos. Con Arcane INT su arma BIS pesa mucho más. Se juega casi igual que la versión WILL; estas son las diferencias que señala.",
+            "en": "The same four operators with Arcane in INT form: Si shares the spotlight and the damage ends up split roughly evenly between the two. The author rates it a bit weaker than the WILL version but just as satisfying: 70K team DPS over 64 seconds. With INT Arcane her BIS weapon matters much more. It plays almost the same as the WILL version; these are the differences the author points out."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Apertura lenta",
+                "en": "Slow opener"
+              },
+              "action": {
+                "es": "Tómate tu tiempo para llegar a 4 acumulaciones, casi hasta llenar la barra de SP. Como la rotación es más larga, retrasa la segunda Battle Skill de Si para que su marca capture todo el burst que viene.",
+                "en": "Take your time getting to 4 stacks, almost to a full SP bar. Because the rotation is longer, delay Si's second Battle Skill so her mark captures all the burst to come."
+              }
+            },
+            {
+              "phase": {
+                "es": "Burst sobre una acumulación",
+                "en": "Burst on a single stack"
+              },
+              "action": {
+                "es": "Tras dejar puesta la Corrosion, en cuanto el Combo de Xaihi conecte, suelta el burst sobre una sola acumulación de Cryo Infliction. El burst carga más hacia el final porque el Ultimate de Arcane en forma INT pega muy fuerte.",
+                "en": "After setting up Corrosion, as soon as Xaihi's Combo lands, unleash the burst on a single stack of Cryo Infliction. The burst is more backloaded because INT Arcane's Ultimate hits very hard."
+              }
+            },
+            {
+              "phase": {
+                "es": "Dive Attack después",
+                "en": "Dive Attack after"
+              },
+              "action": {
+                "es": "La diferencia principal, según el rótulo del autor: el Dive Attack va DESPUÉS del Combo y el Ultimate de Si, para dejar otra acumulación que use Arcane.",
+                "en": "The main difference, per the author's caption: the Dive Attack goes AFTER Si's Combo and Ultimate, to set up another stack for Arcane to use."
+              }
+            }
+          ]
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "si",
+          "order": {
+            "es": "El video no da orden",
+            "en": "No order in the video"
+          },
+          "note": {
+            "es": "El autor no ordena sus skills. Lo que sí da: el Combo es su fuente principal de daño, y los números del video son a rango 12. A rango 9 el kit da 600% + 80% por acumulación en el Combo, 10% de grabación en el Artful Intent y 30% de Amp en el Ultimate.",
+            "en": "The author does not rank her skills. What the video does give: the Combo is her main damage source, and the video's numbers are at rank 12. At rank 9 the kit gives 600% + 80% per stack on the Combo, 10% recording on Artful Intent and 30% Amp on the Ultimate."
+          }
+        },
+        {
+          "charId": "tangtang",
+          "order": {
+            "es": "Como en su guía propia, rebajado",
+            "en": "As in her own guide, scaled down"
+          },
+          "note": {
+            "es": "Según el autor, sus prioridades se parecen a las de su guía propia, algo rebajadas porque aquí su parte del daño total es menor. El video no da el orden.",
+            "en": "Per the author, her priorities resemble those of her own guide, somewhat watered down because her share of total damage is smaller here. The video does not give the order."
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Usar el Combo de Xaihi en cuanto está listo: hay que esperar al de Tangtang y usarlos juntos.",
+          "en": "Using Xaihi's Combo as soon as it is ready: wait for Tangtang's and use them together."
+        },
+        {
+          "es": "Pulsar repetidamente el Combo de Tangtang en la apertura: el autor avisa que puedes perder la energía de su Battle Skill.",
+          "en": "Spam-clicking Tangtang's Combo in the opener: the author warns you may lose the energy from her Battle Skill."
+        },
+        {
+          "es": "Usar el Combo de Arcane cuando se activa junto al Combo de Si en la segunda fase: se guarda para el cierre.",
+          "en": "Using Arcane's Combo when it procs alongside Si's Combo in the second phase: it is saved for the close."
+        },
+        {
+          "es": "Equipar a Arcane con la build de Hot Work y una Essence con más de +3 INT: su talento la pasa a forma INT en cuanto la INT iguala o supera a la Will.",
+          "en": "Giving Arcane the Hot Work build with an Essence above +3 INT: her talent switches her to INT form as soon as INT equals or exceeds Will."
+        },
+        {
+          "es": "Poner Detonation Unit en Arcane sin cambiar el gear: pide dos piezas de Ultimate Gain y ya no puedes llevar ninguno de los dos sets de Arts Intensity.",
+          "en": "Putting Detonation Unit on Arcane without changing gear: it needs two Ultimate Gain pieces and then you can't run either Arts Intensity set."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "Arcane INT en lugar de WILL (variante de esta guía)",
+            "en": "INT Arcane instead of WILL (variant in this guide)"
+          },
+          "verdict": {
+            "es": "Doble DPS con el daño repartido entre Si y Arcane. Una buena distancia por debajo: 70K en 64 segundos, por una rotación más lenta.",
+            "en": "Dual DPS with damage split between Si and Arcane. A decent margin weaker: 70K over 64 seconds, due to a slower rotation."
+          }
+        },
+        {
+          "name": {
+            "es": "Si de soporte con Yvonne (guía de Yvonne)",
+            "en": "Si as support with Yvonne (Yvonne guide)"
+          },
+          "verdict": {
+            "es": "La rotación más rápida del grupo (58 segundos), con algo menos de daño total: 78K.",
+            "en": "The fastest rotation of the group (58 seconds), with slightly less total damage: 78K."
+          }
+        },
+        {
+          "name": {
+            "es": "Si de soporte con Last Rite (guía de Last Rite)",
+            "en": "Si as support with Last Rite (Last Rite guide)"
+          },
+          "verdict": {
+            "es": "El DPS más alto del video según el autor, apenas por encima de este equipo: 86K en 60 segundos.",
+            "en": "The highest DPS in the video per the author, just slightly above this team: 86K over 60 seconds."
+          }
+        },
+        {
+          "name": {
+            "es": "Equipos Heat",
+            "en": "Heat teams"
+          },
+          "verdict": {
+            "es": "Si también aplica Heat Infliction si hay un operador Heat en la Posición 01, y su Combo y su Amp sirven para Heat, pero el video deja esos equipos fuera.",
+            "en": "Si also applies Heat Infliction if a Heat operator is in Team Position 01, and her Combo and Amp work for Heat, but the video leaves those teams out."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "si",
+          "role": "Carry",
+          "weaponId": "wpn_claym_0018",
+          "gearRec": [
+            "type_50_yinglung_soft_armor",
+            "type_50_yinglung_gloves_intellect_strength",
+            "type_50_yinglung_beacon",
+            "redeemer_seal"
+          ],
+          "weaponNote": {
+            "es": "Jade Vessel (BIS): daño de equipo 100% a P0 y 117% a P5, cerca de un 10% por encima de Long Heritage, su arma del pase de batalla (86% / 90%). Khravengger, el arma BIS de Last Rite, también compite (85% / 89%), más o menos a la par del arma del pase incluso sin activar su efecto secundario, que una rotación ajustada podría aprovechar. Exemplar (81%) queda de último recurso.",
+            "en": "Jade Vessel (BIS): team damage 100% at P0 and 117% at P5, roughly 10% above Long Heritage, her battle pass weapon (86% / 90%). Khravengger, Last Rite's BIS, is also competitive (85% / 89%), about level with the battle pass weapon even without proccing its secondary effect, which an adjusted rotation could use. Exemplar (81%) is the last resort."
+          },
+          "gearNote": {
+            "es": "Las piezas nuevas de Type 50 Yinglung (Soft Armor, Gloves Intellect/Strength, Beacon) suben el daño del Combo: sus stats dan Combo Skill DMG y el set da Yinglung's Edge (+20% al siguiente Combo por cada Battle Skill del equipo, hasta 3). Redeemer Seal por el Ultimate Gain: según el panel, permite rotaciones de 6 y pico skills; si tus rotaciones pasan de 7,5 skills, puedes llevar Type 50 Yinglung Heavy Armor T1 más una Slab (el panel no dice cuál).",
+            "en": "The new Type 50 Yinglung pieces (Soft Armor, Gloves Intellect/Strength, Beacon) boost Combo damage: their stats give Combo Skill DMG and the set gives Yinglung's Edge (+20% to the next Combo per team Battle Skill, up to 3). Redeemer Seal for Ultimate Gain: per the panel, it enables 6.X-skill rotations; if your rotations run past 7.5 skills, you can use Type 50 Yinglung Heavy Armor T1 plus a Slab (the panel does not say which)."
+          },
+          "deepNote": {
+            "es": "Potenciales, en daño personal sobre P0: P1 +9,8%, P2 +19,7%, P3 +23,0%, P4 +23,0%, P5 +41,7%. Las dos primeras dan subidas decentes; la tercera apenas cuenta en daño personal (el kit le da Ultimate x1,2 y Amp x1,2, y ese Amp es del equipo); la cuarta baja un 15% el coste del Ultimate pero no cambia el gear de Ultimate Gain; la quinta es muy fuerte (Combo con 2 segundos menos de cooldown, x1,15 y una acumulación extra), y eso sin contar una rotación nueva que aproveche al máximo el cooldown más corto.",
+            "en": "Potentials, as personal damage over P0: P1 +9.8%, P2 +19.7%, P3 +23.0%, P4 +23.0%, P5 +41.7%. The first two give decent increases; the third barely counts for personal damage (the kit gives her Ultimate x1.2 and Amp x1.2, and that Amp is team-wide); the fourth cuts Ultimate cost by 15% but does not change the Ultimate Gain gear; the fifth is very strong (Combo with 2 seconds less cooldown, x1.15 and one extra stack), and that is without a new rotation that fully abuses the shorter cooldown."
+          }
+        },
+        {
+          "id": "arcane",
+          "role": "Enabler",
+          "weaponId": "wpn_funnel_0016",
+          "gearRec": [
+            "deep_rampart_armor",
+            "hot_work_gloves",
+            "hot_work_power_cartridge",
+            "hot_work_power_cartridge"
+          ],
+          "weaponNote": {
+            "es": "Type 42: Solemn Phalanx (BIS): daño de equipo 100% a P0 y 114% a P5. Detonation Unit 90% / 96%, fuerte pero pide dos piezas de Ultimate Gain. Junction Point, su arma del pase de batalla, 88% / 93%.",
+            "en": "Type 42: Solemn Phalanx (BIS): team damage 100% at P0 and 114% at P5. Detonation Unit 90% / 96%, strong but needs two Ultimate Gain pieces. Junction Point, her battle pass weapon, 88% / 93%."
+          },
+          "gearNote": {
+            "es": "Una build curiosa para su arma BIS o Junction Point: Deep Rampart Armor, Hot Work Gloves y dos Hot Work Power Cartridge. Saca la máxima Arts Intensity manteniendo la Will por encima de la INT, a costa de algo de Will, y por eso exige una Essence de +3 INT o menos. Si no quieres buscar esa Essence, Deep Rampart al 3 (Armor, Gauntlets, Comms) con un Eternal Xiranite Bracing Slab queda cerca y bastante por encima de la build de Will estándar. Con Detonation Unit necesitas dos piezas de Ultimate Gain y pierdes los dos sets de Arts Intensity.",
+            "en": "An odd build for her BIS or Junction Point: Deep Rampart Armor, Hot Work Gloves and two Hot Work Power Cartridges. It gets max Arts Intensity while keeping Will above INT, at the cost of some Will, which is why it requires an Essence of +3 INT or less. If you don't want to hunt that Essence, Deep Rampart 3-piece (Armor, Gauntlets, Comms) with an Eternal Xiranite Bracing Slab is not far off and a decent margin above the standard Will build. With Detonation Unit you need two Ultimate Gain pieces and lose both Arts Intensity sets."
+          },
+          "deepNote": {
+            "es": "Su Battle Skill es la que mantiene la Corrosion: Nature Infliction sobre la Cryo de Si y de Xaihi, que se consume y dispara el Combo de Si. En forma WILL su Combo añade otra acumulación de la Infliction presente, con Nature y Cryo Susceptibility. Su Combo se guarda cuando sale fuera de tiempo y su Ultimate entra en el cierre, justo antes del Finisher.",
+            "en": "Her Battle Skill is what keeps Corrosion up: Nature Infliction on the Cryo from Si and Xaihi, which gets consumed and fires Si's Combo. In WILL form her Combo adds another stack of the present Infliction, with Nature and Cryo Susceptibility. Her Combo is held when it procs off-cycle and her Ultimate goes into the close, right before the Finisher."
+          }
+        },
+        {
+          "id": "tangtang",
+          "role": "Buffer",
+          "weaponId": "wpn_pistol_0011",
+          "gearRec": [
+            "bonekrusha_heavy_armor",
+            "bonekrusha_wristband_t1",
+            "bonekrusha_mask_t2",
+            "aic_fieldwork_ember"
+          ],
+          "weaponNote": {
+            "es": "Brigand's Calling (BIS): daño de equipo 100% a P0 y 106% a P5. Wedge 91% / 93%. Home Longing 84% / 96%.",
+            "en": "Brigand's Calling (BIS): team damage 100% at P0 and 106% at P5. Wedge 91% / 93%. Home Longing 84% / 96%."
+          },
+          "gearNote": {
+            "es": "Necesita al menos dos piezas de Ultimate Gain: Bonekrusha Heavy Armor y el AIC Fieldwork Ember, un kit de nivel 60 que da la Ultimate Gain Efficiency que falta y es el único kit con sus stats. Con Wristband T1 y Mask T2 de Bonekrusha. Según el panel, dos piezas de Ultimate Gain le dejan usar el Ultimate tras la «6.ª» skill (5,8) por utilidad. Si esperas a la «7.ª» (6,8) antes del burst, cambia la Heavy Armor por la Heavy Armor T2 para más daño.",
+            "en": "She needs at least two Ultimate Gain pieces: Bonekrusha Heavy Armor and the AIC Fieldwork Ember, a level 60 kit that gives the missing Ultimate Gain Efficiency and is the only kit with her stats. With Bonekrusha Wristband T1 and Mask T2. Per the panel, two Ultimate Gain pieces let her ult after the \"6th\" skill (5.8) for utility. If you wait for the \"7th\" (6.8) before the burst, swap the Heavy Armor for the Heavy Armor T2 for more damage."
+          },
+          "deepNote": {
+            "es": "Su Battle Skill crea Waterspouts que aplican Cryo Infliction (y Arts Susceptibility si salen varias), y eso es lo que activa su Combo. El Combo deja Whirlpools que la siguiente Battle Skill convierte en Waterspouts y devuelven SP. Su Ultimate abre el burst junto al Combo de Xaihi.",
+            "en": "Her Battle Skill creates Waterspouts that apply Cryo Infliction (and Arts Susceptibility if several form), and that is what procs her Combo. The Combo leaves Whirlpools that the next Battle Skill turns into Waterspouts that return SP. Her Ultimate opens the burst together with Xaihi's Combo."
+          }
+        },
+        {
+          "id": "xaihi",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0008",
+          "gearRec": [
+            "eternal_xiranite_light_armor_t1",
+            "eternal_xiranite_gloves_t1",
+            "eternal_xiranite_power_core",
+            "frontiers_extra_o2_tube_t1"
+          ],
+          "weaponNote": {
+            "es": "Detonation Unit y Chivalric Virtues están muy parejas, con una ligera ventaja para Detonation Unit: 100% frente a 99%, y 106% frente a 105% a P5.",
+            "en": "Detonation Unit and Chivalric Virtues are very close, with a slight edge to Detonation Unit: 100% vs 99%, and 106% vs 105% at P5."
+          },
+          "gearNote": {
+            "es": "Build de máxima INT llevando Eternal Xiranite: Light Armor T1, Gloves T1 y Power Core, con un Frontiers Extra O2 Tube T1 para más INT.",
+            "en": "Max INT build while carrying Eternal Xiranite: Light Armor T1, Gloves T1 and Power Core, with a Frontiers Extra O2 Tube T1 for more INT."
+          },
+          "deepNote": {
+            "es": "Su Combo sale cuando el Auxiliary Crystal de su Battle Skill gasta sus dos curaciones, y aplica Cryo Infliction. Aquí se retiene hasta que el de Tangtang esté listo. Su Ultimate da Cryo y Nature Amp a todo el equipo y entra en el burst.",
+            "en": "Her Combo fires when the Auxiliary Crystal from her Battle Skill uses up its two heals, and it applies Cryo Infliction. Here it is held until Tangtang's is ready. Her Ultimate gives Cryo and Nature Amp to the whole team and goes into the burst."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Todas las builds salen de los paneles del video, con las comparativas de arma a P0 y P5 en daño de equipo. Los cálculos de DPS son contra un solo objetivo, con armas BIS, 6 estrellas a P0 y 5 estrellas a P5. El autor recuerda que DPS no es tiempo de limpieza: una rotación más corta puede seguir bastando para casi todo el contenido.",
+          "en": "All builds come from the video's panels, with weapon comparisons at P0 and P5 in team damage. DPS figures are against a single target, with BIS weapons, 6-stars at P0 and 5-stars at P5. The author reminds that DPS is not clear time: a shorter rotation can still one-rotation most content."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Arcane sin Essence de +3 INT",
+              "en": "Arcane without a +3 INT Essence"
+            },
+            "swap": {
+              "es": "Deep Rampart Armor + Gauntlets + Comms con un Eternal Xiranite Bracing Slab: algo más floja, sin buscar Essence.",
+              "en": "Deep Rampart Armor + Gauntlets + Comms with an Eternal Xiranite Bracing Slab: slightly weaker, no Essence hunting."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Arcane en forma INT (variante)",
+              "en": "Arcane in INT form (variant)"
+            },
+            "swap": {
+              "es": "Hot Work Exo-Rig + Insulation Slab + Hands PPE con LYNX Slab, gear genérico de daño: el Ultimate Gain lo cubre su arma BIS o la del pase. Armas: Solemn Phalanx 100% / 114%, Oblivion 90% / 96%, Junction Point 88% / 93%.",
+              "en": "Hot Work Exo-Rig + Insulation Slab + Hands PPE with LYNX Slab, generic damage gear: Ultimate Gain is covered by her BIS or battle pass weapon. Weapons: Solemn Phalanx 100% / 114%, Oblivion 90% / 96%, Junction Point 88% / 93%."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Tangtang con más daño",
+              "en": "Tangtang with more damage"
+            },
+            "swap": {
+              "es": "Si esperas a la «7.ª» skill antes del burst: Bonekrusha Heavy Armor T2 en lugar de la Heavy Armor base.",
+              "en": "If you wait for the \"7th\" skill before the burst: Bonekrusha Heavy Armor T2 instead of the base Heavy Armor."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Si en rotaciones largas",
+              "en": "Si in long rotations"
+            },
+            "swap": {
+              "es": "Más de 7,5 skills: Type 50 Yinglung Heavy Armor T1 más una Slab en lugar del Redeemer Seal.",
+              "en": "More than 7.5 skills: Type 50 Yinglung Heavy Armor T1 plus a Slab instead of the Redeemer Seal."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

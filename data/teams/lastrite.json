@@ -610,6 +610,873 @@
           }
         ]
       }
+    },
+    {
+      "name": {
+        "es": "Maygi - Si · Arcane (WILL) · Xaihi",
+        "en": "Maygi - Si · Arcane (WILL) · Xaihi"
+      },
+      "subtitle": {
+        "es": "Si (soporte) · Arcane (WILL) · Xaihi",
+        "en": "Si (support) · Arcane (WILL) · Xaihi"
+      },
+      "blurb": {
+        "es": "Si como soporte de Last Rite, con Arcane en forma WILL y Xaihi. Según el autor es el equipo de más DPS del video, apenas por encima del de Si de carry: 86K de DPS de equipo en una rotación de 60 segundos. Last Rite no necesita Ultimate Gain y lleva Tide Surge al 3 con LYNX Slab. La versión con Tangtang, para quien no tiene a Arcane, tiene su propia ficha.",
+        "en": "Si as Last Rite's support, with WILL-form Arcane and Xaihi. Per the author it is the highest-DPS team in the video, just above the Si-carry team: 86K team DPS over a 60-second rotation. Last Rite needs no Ultimate Gain and runs 3-piece Tide Surge with LYNX Slab. The Tangtang version, for those without Arcane, has its own entry."
+      },
+      "guideVideoId": "lr2",
+      "simple": {
+        "whatItDoes": {
+          "es": "Last Rite es la carry. Su Combo sale cuando el enemigo tiene 3 o más acumulaciones de Cryo Infliction, las consume todas y pega (y le da Ultimate Energy) según cuántas consumió; su Battle Skill hace que la siguiente Final Strike cree un Mirage que aplica Cryo Infliction. Si aplica Cryo con su Battle Skill, su Combo sale cada vez que Last Rite consume la Cryo, y su Ultimate da Cryo Amp a todo el equipo. Arcane en forma WILL suma acumulaciones de Cryo con su Combo y su Ultimate, con Nature y Cryo Susceptibility.",
+          "en": "Last Rite is the carry. Her Combo fires when the enemy has 3 or more Cryo Infliction stacks, consumes them all and hits (and gives her Ultimate Energy) based on how many it consumed; her Battle Skill makes the next Final Strike create a Mirage that applies Cryo Infliction. Si applies Cryo with her Battle Skill, her Combo fires every time Last Rite consumes the Cryo, and her Ultimate gives Cryo Amp to the whole team. WILL-form Arcane adds Cryo stacks with her Combo and Ultimate, with Nature and Cryo Susceptibility."
+        },
+        "steps": [
+          {
+            "who": "si",
+            "do": {
+              "es": "Abre con las Battle Skills de Si y de Xaihi. Dos ataques básicos con Last Rite, pulsando su Battle Skill antes de terminar el segundo: deja 4 acumulaciones de Cryo.",
+              "en": "Open with Si's and Xaihi's Battle Skills. Two basic attacks with Last Rite, tapping her Battle Skill before finishing the second: it sets up 4 Cryo stacks."
+            }
+          },
+          {
+            "who": "arcane",
+            "do": {
+              "es": "Cambia a Arcane para un combo de ataques básicos mientras se activan los Combos de Xaihi y de Last Rite, y pulsa el Combo de Si en cuanto salga. El Combo de Arcane se retiene hasta el de Xaihi.",
+              "en": "Switch to Arcane for a basic attack combo while Xaihi's and Last Rite's Combos activate, and hit Si's Combo as soon as it procs. Arcane's Combo is held until Xaihi's."
+            }
+          },
+          {
+            "who": "lastrite",
+            "do": {
+              "es": "Sigue con básicos de Last Rite, con su Battle Skill y la de Xaihi cuando estén. Vuelve a aplicar la Battle Skill de Si, y Combo de Arcane seguido del de Last Rite.",
+              "en": "Keep doing basics with Last Rite, with her Battle Skill and Xaihi's when available. Reapply Si's Battle Skill, then Arcane's Combo followed by Last Rite's."
+            }
+          },
+          {
+            "who": "lastrite",
+            "do": {
+              "es": "Otra Battle Skill de Last Rite y una última Cryo Infliction: 2 acumulaciones. Entonces los Ultimates de soporte (Xaihi, Si y Arcane) y el Combo de Last Rite cuanto antes.",
+              "en": "Another Last Rite Battle Skill and one last Cryo Infliction: 2 stacks. Then the supports' Ultimates (Xaihi, Si and Arcane) and Last Rite's Combo as soon as possible."
+            }
+          },
+          {
+            "who": "lastrite",
+            "do": {
+              "es": "Cierra con otro Combo de Si, el Ultimate de Last Rite y el Finisher.",
+              "en": "Close with another Si Combo, Last Rite's Ultimate and the Finisher."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "lastrite",
+            "line": {
+              "es": "Khravengger (BIS, bastante por encima del resto; Sundered Prince sirve). Tide Surge al 3 (Wave Swell Heavy Armor, Tide Surge Gauntlets, Hanging River O2 Tube) con LYNX Slab, sin Ultimate Gain.",
+              "en": "Khravengger (BIS, well above the rest; Sundered Prince is workable). 3-piece Tide Surge (Wave Swell Heavy Armor, Tide Surge Gauntlets, Hanging River O2 Tube) with LYNX Slab, no Ultimate Gain."
+            }
+          },
+          {
+            "id": "si",
+            "line": {
+              "es": "Jade Vessel. Type 50 Yinglung Soft Armor + Gloves (Intellect/Strength) + Beacon con Redeemer Seal.",
+              "en": "Jade Vessel. Type 50 Yinglung Soft Armor + Gloves (Intellect/Strength) + Beacon with Redeemer Seal."
+            }
+          },
+          {
+            "id": "arcane",
+            "line": {
+              "es": "Type 42: Solemn Phalanx. Deep Rampart Armor + Hot Work Gloves + 2 Hot Work Power Cartridge, con una Essence de +3 INT o menos.",
+              "en": "Type 42: Solemn Phalanx. Deep Rampart Armor + Hot Work Gloves + 2 Hot Work Power Cartridge, with an Essence of +3 INT or less."
+            }
+          },
+          {
+            "id": "xaihi",
+            "line": {
+              "es": "Detonation Unit (o Chivalric Virtues). Eternal Xiranite con Frontiers Extra O2 Tube T1.",
+              "en": "Detonation Unit (or Chivalric Virtues). Eternal Xiranite with Frontiers Extra O2 Tube T1."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "El último equipo del video, y según el autor el de más DPS: 86K de DPS de equipo en 60 segundos, apenas por encima del de Si de carry con Arcane WILL (con armas BIS, 6 estrellas a P0 y 5 estrellas a P5, contra un solo objetivo). Last Rite es la striker que consume Cryo Infliction: su Combo pide 3 o más acumulaciones, las consume todas y su daño y su Ultimate Energy dependen de cuántas consumió; además solo gana Ultimate Energy con su propia Battle Skill y su propio Combo. Si la acompaña igual que en los demás equipos: aplica Cryo con su Battle Skill, su Combo sale con cada consumo y su Ultimate da Cryo y Heat Amp a todo el equipo. Con Last Rite en la Posición 01, ese Ultimate le devuelve el Combo, pero el autor no lo usa: un Combo de Last Rite sin acumulaciones no compensa el tiempo, y en pantalla admite que esta rotación no le saca partido al recorte de cooldown de Si (quizá se pueda aprovechar en Arcane). Arcane en forma WILL añade acumulaciones de Cryo con su Combo y su Ultimate. Sin Arcane, Tangtang también sirve, con bastante menos daño.",
+        "en": "The last team in the video, and per the author the highest DPS: 86K team DPS over 60 seconds, just above the Si-carry team with WILL Arcane (with BIS weapons, 6-stars at P0 and 5-stars at P5, against a single target). Last Rite is the striker that consumes Cryo Infliction: her Combo needs 3 or more stacks, consumes them all, and its damage and Ultimate Energy depend on how many it consumed; she also only gains Ultimate Energy from her own Battle Skill and Combo. Si joins her as in the other teams: she applies Cryo with her Battle Skill, her Combo fires with every consumption and her Ultimate gives Cryo and Heat Amp to the whole team. With Last Rite in Team Position 01, that Ultimate gives her Combo back, but the author does not use it: a Last Rite Combo with no stacks is not worth the time, and on screen the author admits this rotation gets no real use out of Si's cooldown reduction (maybe it could be used on Arcane). WILL-form Arcane adds Cryo stacks with her Combo and Ultimate. Without Arcane, Tangtang also works, with much less damage."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Media",
+          "en": "Medium"
+        },
+        "content": {
+          "es": "Jefe / Single-target",
+          "en": "Boss / Single-target"
+        },
+        "tags": [
+          {
+            "es": "Cryo",
+            "en": "Cryo"
+          },
+          {
+            "es": "Combo de 4 acumulaciones",
+            "en": "4-stack Combo"
+          },
+          {
+            "es": "Sin Ultimate Gain",
+            "en": "No Ultimate Gain"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "El DPS más alto del video según el autor: 86K en 60 segundos.",
+          "en": "The highest DPS in the video per the author: 86K over 60 seconds."
+        },
+        {
+          "es": "Last Rite no necesita Ultimate Gain: su gear es de daño puro.",
+          "en": "Last Rite needs no Ultimate Gain: her gear is pure damage."
+        },
+        {
+          "es": "La apertura deja 4 acumulaciones de Cryo con solo dos básicos y la Battle Skill de Last Rite.",
+          "en": "The opener sets up 4 Cryo stacks with just two basics and Last Rite's Battle Skill."
+        },
+        {
+          "es": "Sin Arcane sigue siendo un equipo más que viable con Tangtang, según el autor.",
+          "en": "Without Arcane it is still a more than viable team with Tangtang, per the author."
+        }
+      ],
+      "cons": [
+        {
+          "es": "El recorte de cooldown del Ultimate de Si no se aprovecha en esta rotación: el Combo extra de Last Rite saldría sin acumulaciones.",
+          "en": "Si's Ultimate cooldown reduction goes unused in this rotation: Last Rite's extra Combo would come out with no stacks."
+        },
+        {
+          "es": "Arcane necesita la build de Hot Work con una Essence de +3 INT o menos para seguir en forma WILL.",
+          "en": "Arcane needs the Hot Work build with an Essence of +3 INT or less to stay in WILL form."
+        },
+        {
+          "es": "Hay que esperar SP para la Battle Skill de Last Rite, y el autor admite que en su ejemplo usó el Combo de Arcane antes de tiempo y perdió el debuff más tarde.",
+          "en": "You have to wait for SP for Last Rite's Battle Skill, and the author admits that in the example Arcane's Combo was used too early and the debuff dropped later."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "Last Rite consume, Si cobra",
+            "en": "Last Rite consumes, Si cashes in"
+          },
+          "body": {
+            "es": "El Combo de Last Rite sale con 3 o más acumulaciones de Cryo Infliction y las consume todas: cuantas más, más daño y más Ultimate Energy para ella. Cada consumo de Cryo también dispara el Combo de Si, que pega según la mayor cantidad de acumulaciones consumidas de un objetivo. Por eso las dos quieren lo mismo: llegar al Combo de Last Rite con el máximo de acumulaciones.",
+            "en": "Last Rite's Combo fires with 3 or more Cryo Infliction stacks and consumes them all: the more, the more damage and Ultimate Energy for her. Every Cryo consumption also fires Si's Combo, which hits based on the highest number of stacks consumed from a target. So both want the same thing: reach Last Rite's Combo with as many stacks as possible."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Cuatro acumulaciones en la apertura",
+            "en": "Four stacks in the opener"
+          },
+          "body": {
+            "es": "La Battle Skill de Last Rite hace que la siguiente Final Strike cree un Mirage que aplica Cryo Infliction. El autor la pulsa durante el segundo ataque básico, antes de terminarlo, y con las Battle Skills de Si y de Xaihi ya puestas eso deja 4 acumulaciones de Cryo listas para el primer Combo de Last Rite.",
+            "en": "Last Rite's Battle Skill makes the next Final Strike create a Mirage that applies Cryo Infliction. The author taps it during the second basic attack, before it finishes, and with Si's and Xaihi's Battle Skills already out that sets up 4 Cryo stacks ready for Last Rite's first Combo."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Los Ultimates de soporte encienden el último Combo",
+            "en": "The support Ultimates light the last Combo"
+          },
+          "body": {
+            "es": "Al final la rotación llega con solo 2 acumulaciones. Entonces entran los Ultimates de Xaihi (Cryo y Nature Amp), Si (Cryo y Heat Amp) y Arcane, y el Combo de Last Rite se pulsa en cuanto se pueda. Según su kit, el Ultimate de Arcane en forma WILL añade otra acumulación de la Infliction presente a los enemigos de su área, lo que lleva la cuenta a las 3 que pide el Combo.",
+            "en": "At the end the rotation gets there with only 2 stacks. Then Xaihi's (Cryo and Nature Amp), Si's (Cryo and Heat Amp) and Arcane's Ultimates go in, and Last Rite's Combo is tapped as soon as possible. Per her kit, WILL-form Arcane's Ultimate adds another stack of the present Infliction to enemies in its area, bringing the count to the 3 the Combo needs."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Last Rite solo carga con lo suyo",
+            "en": "Last Rite only charges from her own skills"
+          },
+          "body": {
+            "es": "Last Rite solo gana Ultimate Energy con su propia Battle Skill y su propio Combo, así que el gear de Ultimate Gain no le hace falta: el autor la equipa para daño puro. En la versión con Tangtang, en cambio, hay que usar su Battle Skill una vez más al final para darle la energía que le falta.",
+            "en": "Last Rite only gains Ultimate Energy from her own Battle Skill and Combo, so she does not need Ultimate Gain gear: the author builds her for pure damage. In the Tangtang version, on the other hand, you need to use her Battle Skill one extra time at the end to give her the energy she is missing."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Apertura: 4 acumulaciones",
+            "en": "Opener: 4 stacks"
+          },
+          "action": {
+            "es": "Battle Skills de Si y Xaihi → dos básicos con Last Rite (Battle Skill antes del final del segundo) → Arcane: combo de básicos → Combos de Xaihi y Last Rite → Combo de Si.",
+            "en": "Si's and Xaihi's Battle Skills → two basics with Last Rite (Battle Skill before the second ends) → Arcane: basic combo → Xaihi's and Last Rite's Combos → Si's Combo."
+          },
+          "steps": [
+            {
+              "who": "si",
+              "do": {
+                "es": "Como siempre, empieza con las Battle Skills de Si y de Xaihi.",
+                "en": "As always, start with Si's and Xaihi's Battle Skills."
+              }
+            },
+            {
+              "who": "lastrite",
+              "do": {
+                "es": "Dos ataques básicos con Last Rite, pulsando su Battle Skill antes de terminar el segundo: eso deja 4 acumulaciones de Cryo Infliction.",
+                "en": "Two basic attacks with Last Rite, tapping her Battle Skill before the second one finishes: that sets up 4 Cryo Infliction stacks."
+              },
+              "key": true
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Cambia a Arcane para un combo de ataques básicos mientras se activan los Combos de Xaihi y de Last Rite, y pulsa el Combo de Si en cuanto salga.",
+                "en": "Switch to Arcane for a basic attack combo while Xaihi's and Last Rite's Combos activate, and hit Si's Combo as soon as it procs."
+              }
+            }
+          ],
+          "tip": {
+            "es": "En pantalla, el autor reconoce un fallo en su ejemplo: retén el Combo de Arcane hasta el de Xaihi. Igual hay que esperar un poco a juntar SP para la Battle Skill de Last Rite, pero si no, el debuff se pierde más tarde.",
+            "en": "On screen, the author owns up to a mistake in the example: hold Arcane's Combo until Xaihi's. You need to stall a bit for SP for Last Rite's Battle Skill anyway, but otherwise the debuff drops later."
+          }
+        },
+        {
+          "phase": {
+            "es": "Segunda vuelta",
+            "en": "Second loop"
+          },
+          "action": {
+            "es": "Básicos con Last Rite + su Battle Skill y la de Xaihi → Battle Skill de Si → Combo de Arcane → Combo de Last Rite → Battle Skill de Last Rite → 2 acumulaciones.",
+            "en": "Basics with Last Rite + her and Xaihi's Battle Skills → Si's Battle Skill → Arcane's Combo → Last Rite's Combo → Last Rite's Battle Skill → 2 stacks."
+          },
+          "steps": [
+            {
+              "who": "lastrite",
+              "do": {
+                "es": "Sigue con ataques básicos de Last Rite, usando su Battle Skill y la de Xaihi cuando estén disponibles.",
+                "en": "Keep doing basic attacks with Last Rite, using her Battle Skill and Xaihi's when available."
+              }
+            },
+            {
+              "who": "si",
+              "do": {
+                "es": "Vuelve a aplicar la Battle Skill de Si, y usa el Combo de Arcane seguido del de Last Rite.",
+                "en": "Reapply Si's Battle Skill, and use Arcane's Combo followed by Last Rite's."
+              }
+            },
+            {
+              "who": "lastrite",
+              "do": {
+                "es": "Otra Battle Skill de Last Rite para poner una última Cryo Infliction: quedan 2 acumulaciones.",
+                "en": "Another Last Rite Battle Skill to stack one last Cryo Infliction: that leaves 2 stacks."
+              }
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Burst",
+            "en": "Burst"
+          },
+          "action": {
+            "es": "Ultimates de Xaihi, Si y Arcane → Combo de Last Rite cuanto antes → Combo de Si + Ultimate de Last Rite → Finisher.",
+            "en": "Xaihi's, Si's and Arcane's Ultimates → Last Rite's Combo ASAP → Si's Combo + Last Rite's Ultimate → Finisher."
+          },
+          "steps": [
+            {
+              "who": "xaihi",
+              "do": {
+                "es": "Todos los Ultimates de soporte: Xaihi, Si y Arcane, y el Combo de Last Rite en cuanto se pueda.",
+                "en": "All the support Ultimates: Xaihi, Si and Arcane, and Last Rite's Combo as soon as possible."
+              },
+              "key": true
+            },
+            {
+              "who": "lastrite",
+              "do": {
+                "es": "El Ultimate de Si le devuelve el Combo a Last Rite, pero no lo uses: un Combo de Last Rite sin acumulaciones no compensa el tiempo.",
+                "en": "Si's Ultimate gives Last Rite her Combo back, but don't use it: a Last Rite Combo with no stacks is not worth the time."
+              }
+            },
+            {
+              "who": "si",
+              "do": {
+                "es": "Cierra con otro Combo de Si junto con el Ultimate de Last Rite y el Finisher.",
+                "en": "Close with another Si Combo along with Last Rite's Ultimate and the Finisher."
+              }
+            }
+          ],
+          "tip": {
+            "es": "La rotación completa dura 60 segundos. En pantalla el autor admite que esta rotación no aprovecha el recorte de cooldown de Si; quizá se le pueda sacar partido en Arcane. El ejemplo se grabó sin Essence salvo la de Ultimate Gain.",
+            "en": "The full rotation lasts 60 seconds. On screen the author admits this rotation does not use Si's cooldown reduction; maybe it could be put to use on Arcane. The example was recorded with no Essence except Ultimate Gain."
+          }
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "si",
+          "order": {
+            "es": "El video no da orden",
+            "en": "No order in the video"
+          },
+          "note": {
+            "es": "El autor no ordena las skills de Si. Sus números del video son a rango 12 (Amp del Ultimate 36%, 30% a rango 9).",
+            "en": "The author does not rank Si's skills. The video's numbers are at rank 12 (Ultimate Amp 36%, 30% at rank 9)."
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Terminar el segundo básico antes de pulsar la Battle Skill de Last Rite en la apertura: se pulsa antes del final para dejar las 4 acumulaciones.",
+          "en": "Finishing the second basic before tapping Last Rite's Battle Skill in the opener: it is tapped before the end to set up the 4 stacks."
+        },
+        {
+          "es": "Usar el Combo de Arcane antes que el de Xaihi en la apertura: el propio autor lo hizo en su ejemplo y el debuff se perdió más tarde.",
+          "en": "Using Arcane's Combo before Xaihi's in the opener: the author did it in the example and the debuff dropped later."
+        },
+        {
+          "es": "Gastar el Combo de Last Rite que devuelve el Ultimate de Si: sale sin acumulaciones y no compensa el tiempo.",
+          "en": "Spending the Last Rite Combo that Si's Ultimate gives back: it comes out with no stacks and is not worth the time."
+        },
+        {
+          "es": "Ponerle gear de Ultimate Gain a Last Rite: solo carga con su Battle Skill y su Combo, y el autor no lo necesita.",
+          "en": "Putting Ultimate Gain gear on Last Rite: she only charges from her Battle Skill and Combo, and the author does not need it."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "Si de carry (guía de Si)",
+            "en": "Si as carry (Si guide)"
+          },
+          "verdict": {
+            "es": "Casi igual: 86K en 59 segundos, apenas por debajo de este equipo según el autor.",
+            "en": "Almost equal: 86K over 59 seconds, just below this team per the author."
+          }
+        },
+        {
+          "name": {
+            "es": "Si de soporte con Yvonne (guía de Yvonne)",
+            "en": "Si as support with Yvonne (Yvonne guide)"
+          },
+          "verdict": {
+            "es": "La rotación más rápida (58 segundos), con algo menos de daño total: 78K.",
+            "en": "The fastest rotation (58 seconds), with slightly less total damage: 78K."
+          }
+        },
+        {
+          "name": {
+            "es": "Tangtang en lugar de Arcane (guía propia)",
+            "en": "Tangtang instead of Arcane (own guide)"
+          },
+          "verdict": {
+            "es": "Bastante menos daño, pero según el autor sigue siendo una opción más que viable. Tiene su propia ficha en esta guía.",
+            "en": "Much less damage, but per the author still a more than viable option. It has its own entry in this guide."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "lastrite",
+          "role": "Carry",
+          "weaponId": "wpn_claym_0013",
+          "gearRec": [
+            "wave_swell_heavy_armor",
+            "tide_surge_gauntlets",
+            "hanging_river_o2_tube",
+            "lynx_slab"
+          ],
+          "weaponNote": {
+            "es": "Khravengger (BIS): daño de equipo 100% a P0 y 112% a P5, bastante por encima de las demás. Sundered Prince sirve (86% / 95%). Exemplar 82%.",
+            "en": "Khravengger (BIS): team damage 100% at P0 and 112% at P5, well above the others. Sundered Prince is workable (86% / 95%). Exemplar 82%."
+          },
+          "gearNote": {
+            "es": "Build genérica de daño máximo, sin Ultimate Gain: Tide Surge al 3 (Wave Swell Heavy Armor, Tide Surge Gauntlets, Hanging River O2 Tube) con un LYNX Slab. El panel del video rotula los guantes como «Tide Surge Gloves»; el icono es el de Tide Surge Gauntlets.",
+            "en": "Generic max-damage build, no Ultimate Gain: 3-piece Tide Surge (Wave Swell Heavy Armor, Tide Surge Gauntlets, Hanging River O2 Tube) with a LYNX Slab. The video's panel labels the gloves \"Tide Surge Gloves\"; the icon is Tide Surge Gauntlets."
+          },
+          "deepNote": {
+            "es": "Va en la Posición 01. Su Combo pide 3 o más acumulaciones de Cryo Infliction y las consume todas; su Battle Skill hace que la siguiente Final Strike cree un Mirage que aplica Cryo Infliction y devuelve SP; y solo gana Ultimate Energy con su Battle Skill y su Combo. Su Ultimate cierra la rotación junto al último Combo de Si.",
+            "en": "She sits in Team Position 01. Her Combo needs 3 or more Cryo Infliction stacks and consumes them all; her Battle Skill makes the next Final Strike create a Mirage that applies Cryo Infliction and returns SP; and she only gains Ultimate Energy from her Battle Skill and Combo. Her Ultimate closes the rotation together with Si's last Combo."
+          }
+        },
+        {
+          "id": "si",
+          "role": "Buffer",
+          "weaponId": "wpn_claym_0018",
+          "gearRec": [
+            "type_50_yinglung_soft_armor",
+            "type_50_yinglung_gloves_intellect_strength",
+            "type_50_yinglung_beacon",
+            "redeemer_seal"
+          ],
+          "weaponNote": {
+            "es": "Jade Vessel (BIS): daño de equipo 100% a P0 y 117% a P5. Long Heritage, su arma del pase de batalla, 86% / 90%. Khravengger también le sirve (85% / 89%), pero aquí la lleva Last Rite.",
+            "en": "Jade Vessel (BIS): team damage 100% at P0 and 117% at P5. Long Heritage, her battle pass weapon, 86% / 90%. Khravengger also works for her (85% / 89%), but here Last Rite has it."
+          },
+          "gearNote": {
+            "es": "La build estándar del video: Type 50 Yinglung Soft Armor, Gloves (Intellect/Strength) y Beacon con Redeemer Seal. El video no da otra build de Si para este equipo.",
+            "en": "The video's standard build: Type 50 Yinglung Soft Armor, Gloves (Intellect/Strength) and Beacon with Redeemer Seal. The video gives no other Si build for this team."
+          },
+          "deepNote": {
+            "es": "Aplica Cryo con su Battle Skill, su Combo sale con cada consumo de Cryo (el primero, en cuanto Last Rite consume las 4 acumulaciones de la apertura) y su Ultimate da Cryo y Heat Amp a todo el equipo en el burst. En equipos de soporte, el autor calcula que Si aporta un 32% del daño total: 21% de su propio daño y 11% de Fixed DMG.",
+            "en": "She applies Cryo with her Battle Skill, her Combo fires with every Cryo consumption (the first one as soon as Last Rite consumes the 4 opener stacks) and her Ultimate gives Cryo and Heat Amp to the whole team in the burst. In support roles, the author puts Si at 32% of total damage: 21% from her own damage and 11% from Fixed DMG."
+          }
+        },
+        {
+          "id": "arcane",
+          "role": "Enabler",
+          "weaponId": "wpn_funnel_0016",
+          "gearRec": [
+            "deep_rampart_armor",
+            "hot_work_gloves",
+            "hot_work_power_cartridge",
+            "hot_work_power_cartridge"
+          ],
+          "weaponNote": {
+            "es": "Type 42: Solemn Phalanx (BIS): 100% a P0 y 114% a P5. Detonation Unit 90% / 96% (pide dos piezas de Ultimate Gain). Junction Point, su arma del pase, 88% / 93%.",
+            "en": "Type 42: Solemn Phalanx (BIS): 100% at P0 and 114% at P5. Detonation Unit 90% / 96% (needs two Ultimate Gain pieces). Junction Point, her battle pass weapon, 88% / 93%."
+          },
+          "gearNote": {
+            "es": "La build de forma WILL del video: Deep Rampart Armor, Hot Work Gloves y dos Hot Work Power Cartridge, con una Essence de +3 INT o menos si lleva su arma BIS o Junction Point. Sin esa Essence: Deep Rampart al 3 con Eternal Xiranite Bracing Slab.",
+            "en": "The video's WILL-form build: Deep Rampart Armor, Hot Work Gloves and two Hot Work Power Cartridges, with an Essence of +3 INT or less if she carries her BIS or Junction Point. Without that Essence: Deep Rampart 3-piece with Eternal Xiranite Bracing Slab."
+          },
+          "deepNote": {
+            "es": "En la apertura solo hace un combo de ataques básicos mientras salen los Combos de Xaihi y Last Rite; su Combo se guarda hasta el de Xaihi. En forma WILL su Combo y su Ultimate añaden acumulaciones de la Infliction presente, con Nature y Cryo Susceptibility; su Ultimate entra en el burst con los de Xaihi y Si.",
+            "en": "In the opener she only does a basic attack combo while Xaihi's and Last Rite's Combos come out; her Combo is saved until Xaihi's. In WILL form her Combo and Ultimate add stacks of the present Infliction, with Nature and Cryo Susceptibility; her Ultimate goes into the burst with Xaihi's and Si's."
+          }
+        },
+        {
+          "id": "xaihi",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0008",
+          "gearRec": [
+            "eternal_xiranite_light_armor_t1",
+            "eternal_xiranite_gloves_t1",
+            "eternal_xiranite_power_core",
+            "frontiers_extra_o2_tube_t1"
+          ],
+          "weaponNote": {
+            "es": "Detonation Unit y Chivalric Virtues muy parejas, con ligera ventaja para Detonation Unit (100% frente a 99%; 106% frente a 105% a P5).",
+            "en": "Detonation Unit and Chivalric Virtues very close, with a slight edge to Detonation Unit (100% vs 99%; 106% vs 105% at P5)."
+          },
+          "gearNote": {
+            "es": "Máxima INT llevando Eternal Xiranite: Light Armor T1, Gloves T1 y Power Core, con Frontiers Extra O2 Tube T1.",
+            "en": "Max INT while carrying Eternal Xiranite: Light Armor T1, Gloves T1 and Power Core, with Frontiers Extra O2 Tube T1."
+          },
+          "deepNote": {
+            "es": "Su Combo aplica Cryo Infliction y sale en la apertura junto al de Last Rite. Su Ultimate (Cryo y Nature Amp) abre el burst.",
+            "en": "Her Combo applies Cryo Infliction and comes out in the opener together with Last Rite's. Her Ultimate (Cryo and Nature Amp) opens the burst."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "El gear de Last Rite sale de su panel en el video; el de Si, Arcane y Xaihi, de sus paneles en el equipo de Si de carry (el video no da builds distintas para este equipo). Cálculos de DPS contra un solo objetivo, con armas BIS, 6 estrellas a P0 y 5 estrellas a P5.",
+          "en": "Last Rite's gear comes from her panel in the video; Si's, Arcane's and Xaihi's, from their panels in the Si-carry team (the video gives no different builds for this team). DPS figures against a single target, with BIS weapons, 6-stars at P0 and 5-stars at P5."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Last Rite sin su arma BIS",
+              "en": "Last Rite without her BIS"
+            },
+            "swap": {
+              "es": "Sundered Prince (86% a P0, 95% a P5) sirve; Exemplar queda en 82%.",
+              "en": "Sundered Prince (86% at P0, 95% at P5) is workable; Exemplar sits at 82%."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Arcane sin Essence de +3 INT",
+              "en": "Arcane without a +3 INT Essence"
+            },
+            "swap": {
+              "es": "Deep Rampart Armor + Gauntlets + Comms con un Eternal Xiranite Bracing Slab.",
+              "en": "Deep Rampart Armor + Gauntlets + Comms with an Eternal Xiranite Bracing Slab."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": {
+        "es": "Maygi - SIN Arcane: Si · Tangtang · Xaihi",
+        "en": "Maygi - NO Arcane: Si · Tangtang · Xaihi"
+      },
+      "subtitle": {
+        "es": "Si (soporte) · Tangtang · Xaihi",
+        "en": "Si (support) · Tangtang · Xaihi"
+      },
+      "blurb": {
+        "es": "La versión del equipo de Last Rite con Si para quien no tiene a Arcane. Según el autor, Tangtang funciona sin problema aunque el daño total es bastante menor, y en el cómputo general sigue siendo una opción más que viable que cumple. El video no da su cifra de DPS.",
+        "en": "The Last Rite team with Si for those without Arcane. Per the author, Tangtang works just fine though the total damage is much lower, and in the grand scheme of things it is still a more than viable option that gets the job done. The video gives no DPS figure for it."
+      },
+      "guideVideoId": "lr2",
+      "simple": {
+        "whatItDoes": {
+          "es": "Last Rite es la carry: su Combo sale con 3 o más acumulaciones de Cryo Infliction, las consume todas y pega (y le da Ultimate Energy) según cuántas consumió. Si aplica Cryo con su Battle Skill, su Combo sale con cada consumo y su Ultimate da Cryo Amp al equipo. Sin Arcane no hay acumulaciones extra, así que el plan del autor es más modesto: un Combo de Last Rite con 3 acumulaciones y otro con 4, y una Battle Skill de Last Rite de más al final para completar su energía.",
+          "en": "Last Rite is the carry: her Combo fires with 3 or more Cryo Infliction stacks, consumes them all and hits (and gives her Ultimate Energy) based on how many it consumed. Si applies Cryo with her Battle Skill, her Combo fires with every consumption and her Ultimate gives the team Cryo Amp. Without Arcane there are no extra stacks, so the author's plan is more modest: one Last Rite Combo at 3 stacks and another at 4, and one extra Last Rite Battle Skill at the end to top up her energy."
+        },
+        "steps": [
+          {
+            "who": "si",
+            "do": {
+              "es": "Como todas las rotaciones del video, arranca con las Battle Skills de Si y de Xaihi.",
+              "en": "Like every rotation in the video, it starts with Si's and Xaihi's Battle Skills."
+            }
+          },
+          {
+            "who": "lastrite",
+            "do": {
+              "es": "Apunta a dos Combos de Last Rite: uno con 3 acumulaciones de Cryo y otro con 4.",
+              "en": "Aim for two Last Rite Combos: one at 3 Cryo stacks and another at 4."
+            }
+          },
+          {
+            "who": "lastrite",
+            "do": {
+              "es": "Al final, usa la Battle Skill de Last Rite una vez más para darle la última energía que le falta para el Ultimate.",
+              "en": "At the end, use Last Rite's Battle Skill one more time to give her the last bit of energy she needs for her Ultimate."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "lastrite",
+            "line": {
+              "es": "Khravengger (BIS; Sundered Prince sirve). Tide Surge al 3 (Wave Swell Heavy Armor, Tide Surge Gauntlets, Hanging River O2 Tube) con LYNX Slab, sin Ultimate Gain.",
+              "en": "Khravengger (BIS; Sundered Prince is workable). 3-piece Tide Surge (Wave Swell Heavy Armor, Tide Surge Gauntlets, Hanging River O2 Tube) with LYNX Slab, no Ultimate Gain."
+            }
+          },
+          {
+            "id": "si",
+            "line": {
+              "es": "Jade Vessel. Type 50 Yinglung Soft Armor + Gloves (Intellect/Strength) + Beacon con Redeemer Seal.",
+              "en": "Jade Vessel. Type 50 Yinglung Soft Armor + Gloves (Intellect/Strength) + Beacon with Redeemer Seal."
+            }
+          },
+          {
+            "id": "tangtang",
+            "line": {
+              "es": "Brigand's Calling. Bonekrusha Heavy Armor + Wristband T1 + Mask T2 con AIC Fieldwork Ember: dos piezas de Ultimate Gain.",
+              "en": "Brigand's Calling. Bonekrusha Heavy Armor + Wristband T1 + Mask T2 with AIC Fieldwork Ember: two Ultimate Gain pieces."
+            }
+          },
+          {
+            "id": "xaihi",
+            "line": {
+              "es": "Detonation Unit (o Chivalric Virtues). Eternal Xiranite con Frontiers Extra O2 Tube T1.",
+              "en": "Detonation Unit (or Chivalric Virtues). Eternal Xiranite with Frontiers Extra O2 Tube T1."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "El autor cierra la parte de Last Rite con esta versión: si no tienes a Arcane, Tangtang funciona sin problema, aunque el daño total es bastante menor. En la versión con Arcane, su Combo y su Ultimate en forma WILL añaden acumulaciones de Cryo; sin ella, el autor apunta a un Combo de Last Rite con 3 acumulaciones y otro con 4, y a usar la Battle Skill de Last Rite una vez más al final para darle la última energía que necesita (Last Rite solo gana Ultimate Energy con su propia Battle Skill y su propio Combo). Si cumple el mismo papel que en el resto de equipos: aplica Cryo con su Battle Skill, su Combo sale con cada consumo de Cryo y su Ultimate da Cryo y Heat Amp a todo el equipo. En el cómputo general, según el autor, sigue siendo una opción más que viable que cumple. El video solo resume esta versión y no la incluye en su comparativa de DPS.",
+        "en": "The author closes the Last Rite section with this version: if you don't have Arcane, Tangtang works just fine, though the total damage is much lower. In the Arcane version, her WILL-form Combo and Ultimate add Cryo stacks; without her, the author aims for one Last Rite Combo at 3 stacks and another at 4, and for using Last Rite's Battle Skill one extra time at the end to give her the last bit of energy she needs (Last Rite only gains Ultimate Energy from her own Battle Skill and Combo). Si plays the same role as in the other teams: she applies Cryo with her Battle Skill, her Combo fires with every Cryo consumption and her Ultimate gives Cryo and Heat Amp to the whole team. In the grand scheme of things, per the author, it is still a more than viable option that gets the job done. The video only summarizes this version and leaves it out of its DPS comparison."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Media",
+          "en": "Medium"
+        },
+        "content": {
+          "es": "Jefe / Single-target",
+          "en": "Boss / Single-target"
+        },
+        "tags": [
+          {
+            "es": "Cryo",
+            "en": "Cryo"
+          },
+          {
+            "es": "Sin Arcane",
+            "en": "No Arcane"
+          },
+          {
+            "es": "Sin Ultimate Gain",
+            "en": "No Ultimate Gain"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "No necesita a Arcane: según el autor, Tangtang funciona sin problema.",
+          "en": "Does not need Arcane: per the author, Tangtang works just fine."
+        },
+        {
+          "es": "Sigue siendo una opción más que viable que cumple, en palabras del autor.",
+          "en": "Still a more than viable option that gets the job done, in the author's words."
+        },
+        {
+          "es": "Last Rite no necesita Ultimate Gain: su gear es de daño puro.",
+          "en": "Last Rite needs no Ultimate Gain: her gear is pure damage."
+        }
+      ],
+      "cons": [
+        {
+          "es": "Bastante menos daño total que la versión con Arcane.",
+          "en": "Much lower total damage than the Arcane version."
+        },
+        {
+          "es": "El video solo la resume y no da su cifra de DPS ni su duración de rotación.",
+          "en": "The video only summarizes it and gives no DPS figure or rotation length."
+        },
+        {
+          "es": "Hace falta una Battle Skill de Last Rite de más al final para completar su energía.",
+          "en": "It takes one extra Last Rite Battle Skill at the end to top up her energy."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "Last Rite consume, Si cobra",
+            "en": "Last Rite consumes, Si cashes in"
+          },
+          "body": {
+            "es": "El Combo de Last Rite sale con 3 o más acumulaciones de Cryo Infliction y las consume todas: cuantas más, más daño y más Ultimate Energy para ella. Cada consumo de Cryo también dispara el Combo de Si, que pega según la mayor cantidad de acumulaciones consumidas de un objetivo.",
+            "en": "Last Rite's Combo fires with 3 or more Cryo Infliction stacks and consumes them all: the more, the more damage and Ultimate Energy for her. Every Cryo consumption also fires Si's Combo, which hits based on the highest number of stacks consumed from a target."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Un Combo de 3 y uno de 4",
+            "en": "One 3-stack Combo and one 4-stack"
+          },
+          "body": {
+            "es": "Sin las acumulaciones extra del Combo y el Ultimate de Arcane, el autor no apunta a lo mismo que en la versión con ella: busca un Combo de Last Rite con 3 acumulaciones y otro con 4.",
+            "en": "Without the extra stacks from Arcane's Combo and Ultimate, the author does not aim for the same as in her version: the goal is one Last Rite Combo at 3 stacks and another at 4."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "La Battle Skill de más",
+            "en": "The extra Battle Skill"
+          },
+          "body": {
+            "es": "Last Rite solo gana Ultimate Energy con su propia Battle Skill y su propio Combo. Con menos acumulaciones consumidas le falta un poco de energía al final, y el autor la completa usando su Battle Skill una vez más.",
+            "en": "Last Rite only gains Ultimate Energy from her own Battle Skill and Combo. With fewer stacks consumed she is a little short of energy at the end, and the author tops it up by using her Battle Skill one extra time."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Apertura",
+            "en": "Opener"
+          },
+          "action": {
+            "es": "Battle Skills de Si y Xaihi.",
+            "en": "Si's and Xaihi's Battle Skills."
+          },
+          "steps": [
+            {
+              "who": "si",
+              "do": {
+                "es": "Como todas las rotaciones del video, arranca con las Battle Skills de Si y de Xaihi.",
+                "en": "Like every rotation in the video, it starts with Si's and Xaihi's Battle Skills."
+              }
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Dos Combos de Last Rite",
+            "en": "Two Last Rite Combos"
+          },
+          "action": {
+            "es": "Un Combo de Last Rite con 3 acumulaciones de Cryo y otro con 4.",
+            "en": "One Last Rite Combo at 3 Cryo stacks and another at 4."
+          },
+          "steps": [
+            {
+              "who": "lastrite",
+              "do": {
+                "es": "Apunta a un Combo de Last Rite con 3 acumulaciones y otro con 4.",
+                "en": "Aim for one Last Rite Combo at 3 stacks and another at 4."
+              },
+              "key": true
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Cierre",
+            "en": "Close"
+          },
+          "action": {
+            "es": "Battle Skill de Last Rite una vez más → Ultimate de Last Rite.",
+            "en": "Last Rite's Battle Skill one extra time → Last Rite's Ultimate."
+          },
+          "steps": [
+            {
+              "who": "lastrite",
+              "do": {
+                "es": "Usa la Battle Skill de Last Rite una vez más al final para darle la última energía que le falta para el Ultimate.",
+                "en": "Use Last Rite's Battle Skill one extra time at the end to give her the last bit of energy she needs for her Ultimate."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "El autor solo resume esta versión; el resto se ve en la grabación del video.",
+            "en": "The author only summarizes this version; the rest is shown in the video footage."
+          }
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "tangtang",
+          "order": {
+            "es": "Como en su guía propia, rebajado",
+            "en": "As in her own guide, scaled down"
+          },
+          "note": {
+            "es": "El autor remite a su guía de Tangtang y dice que en estos equipos sus prioridades bajan un poco porque su parte del daño es menor. El video no da el orden.",
+            "en": "The author points to her Tangtang guide and says her priorities drop a little in these teams because her share of damage is smaller. The video does not give the order."
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Olvidar la Battle Skill de más al final: sin ella a Last Rite le falta energía para su Ultimate.",
+          "en": "Forgetting the extra Battle Skill at the end: without it Last Rite is short of energy for her Ultimate."
+        },
+        {
+          "es": "Ponerle gear de Ultimate Gain a Last Rite: solo carga con su Battle Skill y su Combo, y el autor no lo usa.",
+          "en": "Putting Ultimate Gain gear on Last Rite: she only charges from her Battle Skill and Combo, and the author does not use it."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "Con Arcane en lugar de Tangtang (guía propia)",
+            "en": "With Arcane instead of Tangtang (own guide)"
+          },
+          "verdict": {
+            "es": "La versión principal y el DPS más alto del video según el autor: 86K en 60 segundos.",
+            "en": "The main version and the highest DPS in the video per the author: 86K over 60 seconds."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "lastrite",
+          "role": "Carry",
+          "weaponId": "wpn_claym_0013",
+          "gearRec": [
+            "wave_swell_heavy_armor",
+            "tide_surge_gauntlets",
+            "hanging_river_o2_tube",
+            "lynx_slab"
+          ],
+          "weaponNote": {
+            "es": "Khravengger (BIS): daño de equipo 100% a P0 y 112% a P5, bastante por encima de las demás. Sundered Prince sirve (86% / 95%). Exemplar 82%.",
+            "en": "Khravengger (BIS): team damage 100% at P0 and 112% at P5, well above the others. Sundered Prince is workable (86% / 95%). Exemplar 82%."
+          },
+          "gearNote": {
+            "es": "La build genérica de daño máximo del video, sin Ultimate Gain: Tide Surge al 3 (Wave Swell Heavy Armor, Tide Surge Gauntlets, Hanging River O2 Tube) con un LYNX Slab.",
+            "en": "The video's generic max-damage build, no Ultimate Gain: 3-piece Tide Surge (Wave Swell Heavy Armor, Tide Surge Gauntlets, Hanging River O2 Tube) with a LYNX Slab."
+          },
+          "deepNote": {
+            "es": "Su Combo pide 3 o más acumulaciones de Cryo Infliction y las consume todas; solo gana Ultimate Energy con su Battle Skill y su Combo, por eso en esta versión necesita una Battle Skill de más al final.",
+            "en": "Her Combo needs 3 or more Cryo Infliction stacks and consumes them all; she only gains Ultimate Energy from her Battle Skill and Combo, which is why this version needs one extra Battle Skill at the end."
+          }
+        },
+        {
+          "id": "si",
+          "role": "Buffer",
+          "weaponId": "wpn_claym_0018",
+          "gearRec": [
+            "type_50_yinglung_soft_armor",
+            "type_50_yinglung_gloves_intellect_strength",
+            "type_50_yinglung_beacon",
+            "redeemer_seal"
+          ],
+          "weaponNote": {
+            "es": "Jade Vessel (BIS): daño de equipo 100% a P0 y 117% a P5. Long Heritage, su arma del pase de batalla, 86% / 90%.",
+            "en": "Jade Vessel (BIS): team damage 100% at P0 and 117% at P5. Long Heritage, her battle pass weapon, 86% / 90%."
+          },
+          "gearNote": {
+            "es": "La build estándar del video: Type 50 Yinglung Soft Armor, Gloves (Intellect/Strength) y Beacon con Redeemer Seal.",
+            "en": "The video's standard build: Type 50 Yinglung Soft Armor, Gloves (Intellect/Strength) and Beacon with Redeemer Seal."
+          },
+          "deepNote": {
+            "es": "Aplica Cryo con su Battle Skill, su Combo sale con cada consumo de Cryo y su Ultimate da Cryo y Heat Amp a todo el equipo.",
+            "en": "She applies Cryo with her Battle Skill, her Combo fires with every Cryo consumption and her Ultimate gives Cryo and Heat Amp to the whole team."
+          }
+        },
+        {
+          "id": "tangtang",
+          "role": "Buffer",
+          "weaponId": "wpn_pistol_0011",
+          "gearRec": [
+            "bonekrusha_heavy_armor",
+            "bonekrusha_wristband_t1",
+            "bonekrusha_mask_t2",
+            "aic_fieldwork_ember"
+          ],
+          "weaponNote": {
+            "es": "Brigand's Calling (BIS): 100% a P0 y 106% a P5. Wedge 91% / 93%. Home Longing 84% / 96%.",
+            "en": "Brigand's Calling (BIS): 100% at P0 and 106% at P5. Wedge 91% / 93%. Home Longing 84% / 96%."
+          },
+          "gearNote": {
+            "es": "La build del video con dos piezas de Ultimate Gain: Bonekrusha Heavy Armor y el AIC Fieldwork Ember (kit de nivel 60), con Wristband T1 y Mask T2.",
+            "en": "The video's build with two Ultimate Gain pieces: Bonekrusha Heavy Armor and the AIC Fieldwork Ember (level 60 kit), with Wristband T1 and Mask T2."
+          },
+          "deepNote": {
+            "es": "Ocupa el sitio de Arcane. Su Battle Skill crea Waterspouts que aplican Cryo Infliction, y eso activa su Combo.",
+            "en": "She takes Arcane's slot. Her Battle Skill creates Waterspouts that apply Cryo Infliction, which procs her Combo."
+          }
+        },
+        {
+          "id": "xaihi",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0008",
+          "gearRec": [
+            "eternal_xiranite_light_armor_t1",
+            "eternal_xiranite_gloves_t1",
+            "eternal_xiranite_power_core",
+            "frontiers_extra_o2_tube_t1"
+          ],
+          "weaponNote": {
+            "es": "Detonation Unit y Chivalric Virtues muy parejas, con ligera ventaja para Detonation Unit (100% frente a 99%; 106% frente a 105% a P5).",
+            "en": "Detonation Unit and Chivalric Virtues very close, with a slight edge to Detonation Unit (100% vs 99%; 106% vs 105% at P5)."
+          },
+          "gearNote": {
+            "es": "Máxima INT llevando Eternal Xiranite: Light Armor T1, Gloves T1 y Power Core, con Frontiers Extra O2 Tube T1.",
+            "en": "Max INT while carrying Eternal Xiranite: Light Armor T1, Gloves T1 and Power Core, with Frontiers Extra O2 Tube T1."
+          },
+          "deepNote": {
+            "es": "Su Combo aplica Cryo Infliction; su Ultimate da Cryo y Nature Amp a todo el equipo.",
+            "en": "Her Combo applies Cryo Infliction; her Ultimate gives Cryo and Nature Amp to the whole team."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "El gear de Last Rite sale de su panel en el video; el de Si, Tangtang y Xaihi, de sus paneles en el equipo de Si de carry.",
+          "en": "Last Rite's gear comes from her panel in the video; Si's, Tangtang's and Xaihi's, from their panels in the Si-carry team."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Last Rite sin su arma BIS",
+              "en": "Last Rite without her BIS"
+            },
+            "swap": {
+              "es": "Sundered Prince (86% a P0, 95% a P5) sirve; Exemplar queda en 82%.",
+              "en": "Sundered Prince (86% at P0, 95% at P5) is workable; Exemplar sits at 82%."
+            }
+          }
+        ]
+      }
     }
   ]
 }

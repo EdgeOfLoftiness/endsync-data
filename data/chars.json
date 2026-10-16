@@ -534,15 +534,15 @@
     "name_zh": "别礼",
     "common_gear": {
       "gear": [
-        "bonekrusha_poncho",
+        "wave_swell_heavy_armor",
         "tide_surge_gauntlets",
         "hanging_river_o2_tube",
-        "hanging_river_o2_tube"
+        "lynx_slab"
       ],
       "set": "Tide Surge",
-      "setCount": 1,
-      "count": 1,
-      "builds": 1
+      "setCount": 3,
+      "count": 2,
+      "builds": 3
     },
     "name_ko": "라스트 라이트"
   },
@@ -725,15 +725,15 @@
     "name_zh": "汤汤",
     "common_gear": {
       "gear": [
-        "qingbo_heavy_armor",
-        "qingbo_gauntlets",
-        "qingbo_cask",
-        "qingbo_positioning_kit"
+        "bonekrusha_heavy_armor",
+        "bonekrusha_wristband_t1",
+        "aic_fieldwork_ember",
+        "bonekrusha_mask_t2"
       ],
-      "set": "Qingbo",
-      "setCount": 3,
-      "count": 2,
-      "builds": 5
+      "set": "Bonekrusha",
+      "setCount": 5,
+      "count": 3,
+      "builds": 8
     },
     "name_ko": "탕탕"
   },
@@ -794,14 +794,14 @@
     "common_gear": {
       "gear": [
         "eternal_xiranite_light_armor_t1",
-        "rift_trekker_gloves",
-        "eternal_xiranite_bracing_slab",
-        "eternal_xiranite_bracing_slab"
+        "eternal_xiranite_gloves_t1",
+        "eternal_xiranite_power_core",
+        "frontiers_extra_o2_tube_t1"
       ],
       "set": "Eternal Xiranite",
-      "setCount": 8,
-      "count": 2,
-      "builds": 15
+      "setCount": 13,
+      "count": 5,
+      "builds": 20
     },
     "name_ko": "자이히"
   },
@@ -833,9 +833,9 @@
         "mi_security_toolkit"
       ],
       "set": "MI Security",
-      "setCount": 8,
+      "setCount": 10,
       "count": 3,
-      "builds": 8
+      "builds": 10
     },
     "name_ko": "이본"
   },
@@ -989,9 +989,9 @@
         "lynx_slab"
       ],
       "set": "Hot Work",
-      "setCount": 12,
+      "setCount": 15,
       "count": 7,
-      "builds": 22
+      "builds": 25
     },
     "name_ko": "결"
   },
@@ -1107,7 +1107,19 @@
     "name_es": "Si",
     "name_zh": "祀",
     "name_ja": "スー",
-    "name_ko": "사"
+    "name_ko": "사",
+    "common_gear": {
+      "gear": [
+        "type_50_yinglung_soft_armor",
+        "type_50_yinglung_gloves_intellect_strength",
+        "redeemer_seal",
+        "type_50_yinglung_beacon"
+      ],
+      "set": "Type 50 Yinglung",
+      "setCount": 5,
+      "count": 5,
+      "builds": 5
+    }
   },
   {
     "id": "argentflow",
