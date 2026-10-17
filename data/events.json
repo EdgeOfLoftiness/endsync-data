@@ -2,10 +2,10 @@
   "events": [
     {
       "id": "yuanyuan-blazing-stoves",
-      "cover": "https://edgeofloftiness.github.io/endsync-data/assets/events/yuanyuan-blazing-stoves-banner.webp",
+      "cover": "https://edgeofloftiness.github.io/endsync-data/assets/events/yuanyuan-blazing-stoves-key.webp",
       "accent": "#d8483a",
       "startsAt": "2026-10-14T23:00:00Z",
-      "source": "https://endfield.gryphline.com/en-us/news/5207",
+      "source": "https://endfield.gryphline.com/en-us/news/9560",
       "kicker": {
         "es": "Evento de diversión y juegos · 1.6",
         "en": "Fun & Games event · 1.6",
@@ -65,7 +65,7 @@
       "blocks": [
         {
           "type": "hero",
-          "banner": "https://edgeofloftiness.github.io/endsync-data/assets/events/yuanyuan-blazing-stoves-banner.webp",
+          "banner": "https://edgeofloftiness.github.io/endsync-data/assets/events/yuanyuan-blazing-stoves-key.webp",
           "meta": [
             {
               "k": {
@@ -81,6 +81,22 @@
                 "zh": "经营任务：「丹青渡」版本更新后 → 版本更新维护前 · 玩法常驻",
                 "ja": "営業クエスト：バージョン「丹青渡」開始後 → バージョンアップメンテナンス前・コンテンツは常時開放",
                 "ko": "운영 임무: 「단청도」 버전 업데이트 후 → 버전 업데이트 점검 전 · 콘텐츠는 상시"
+              }
+            },
+            {
+              "k": {
+                "es": "Contenido nuevo",
+                "en": "New content",
+                "zh": "内容更新",
+                "ja": "更新日時",
+                "ko": "콘텐츠 업데이트"
+              },
+              "v": {
+                "es": "22 oct 2026, 04:00 (hora del servidor)",
+                "en": "Oct 22, 2026, 04:00 (server time)",
+                "zh": "2026年10月22日04:00（服务器时间）",
+                "ja": "2026年10月22日04:00（サーバー時間）",
+                "ko": "2026년 10월 22일 04:00(서버 시간)"
               }
             },
             {
@@ -108,11 +124,11 @@
                 "ko": "보상"
               },
               "v": {
-                "es": "Oroberyl ×1000, Mark of Perseverance y materiales",
-                "en": "Oroberyl ×1000, Mark of Perseverance and materials",
-                "zh": "嵌晶玉×1000、存续的痕迹及养成材料",
-                "ja": "赤晶玉×1,000、存続の痕跡、育成素材",
-                "ko": "오로베릴×1,000, 존속의 흔적, 육성 재료"
+                "es": "Tareas de sesión e Hitos de la posada: Oroberyl ×1000, Mark of Perseverance y más",
+                "en": "Session Tasks and Inn Milestones: Oroberyl ×1000, Mark of Perseverance and more",
+                "zh": "经营任务与经营里程：嵌晶玉×1000、存续的痕迹等",
+                "ja": "営業クエストと営業進捗：赤晶玉×1,000、存続の痕跡など",
+                "ko": "운영 임무와 운영 이정표: 오로베릴×1,000, 존속의 흔적 등"
               }
             }
           ]
@@ -192,31 +208,532 @@
         },
         {
           "type": "callout",
-          "variant": "warn",
+          "variant": "tip",
           "h": {
-            "es": "Lo que todavía no está en las fuentes oficiales",
-            "en": "Not in the official sources yet",
-            "zh": "官方资料尚未公布的内容",
-            "ja": "公式情報にまだ掲載されていない内容",
-            "ko": "공식 자료에 아직 없는 내용"
+            "es": "Después del evento",
+            "en": "After the event",
+            "zh": "活动结束后",
+            "ja": "イベント終了後",
+            "ko": "이벤트 종료 후"
           },
           "body": {
-            "es": "La lista de recetas y temas, cuánto Dinero de Espíritu da cada platillo y las recompensas con cantidades exactas (más allá de Oroberyl ×1000) se completan con las notas de la versión.",
-            "en": "The list of recipes and themes, how much Spirit Money each dish pays and the rewards with exact amounts (beyond Oroberyl ×1000) get filled in from the version notes.",
-            "zh": "菜谱与主题列表、各菜品的收入以及具体奖励数量（嵌晶玉×1000以外），待版本更新说明公布后补全。",
-            "ja": "レシピとテーマの一覧、料理ごとの売上、報酬の正確な数量（赤晶玉×1,000以外）はバージョン更新ノートの公開後に追記します。",
-            "ko": "레시피와 테마 목록, 요리별 수익, 보상의 정확한 수량(오로베릴×1,000 외)은 버전 업데이트 노트 공개 후 보완합니다."
+            "es": "Cuando termina el evento ya no se pueden completar las Tareas de sesión ni reclamar sus recompensas, pero la Posada de la Mansión Yuanyuan sigue abierta y sus Fases de hitos se pueden seguir cobrando. La lista de recetas y temas y cuánto Dinero de Espíritu da cada platillo no están en las fuentes oficiales.",
+            "en": "When the event ends you can no longer complete Session Tasks or claim their rewards, but Yuanyuan Manor Inn stays open and its Inn Milestone phases can still be claimed. The list of recipes and themes and how much Spirit Money each dish pays are not in the official sources.",
+            "zh": "「烟火生缘」趣味活动结束后，将无法完成经营任务或领取对应奖励，但仍可游玩「缘缘庄客栈」，获取经营里程阶段奖励。菜谱与主题列表、各菜品的烟火钱收入，官方资料尚未公布。",
+            "ja": "レジャーイベント「俗世の縁」終了後は、営業クエストの達成および対応する報酬の受け取りはできなくなりますが、宿屋・縁縁荘は引き続きプレイ可能で、営業進捗段階の報酬を獲得できます。レシピとテーマの一覧、料理ごとの活気銭は公式情報に掲載されていません。",
+            "ko": "「불꽃으로 맺은 인연」 흥미 이벤트 종료 후에는 운영 임무를 완료하거나 해당 보상을 수령할 수 없지만, 「인연 마을 객잔」은 계속 플레이하여 운영 이정표 단계 보상을 획득할 수 있습니다. 레시피와 테마 목록, 요리별 연화전은 공식 자료에 나와 있지 않습니다."
+          }
+        }
+      ]
+    },
+    {
+      "id": "all-the-inky-hues",
+      "cover": "https://edgeofloftiness.github.io/endsync-data/assets/events/all-the-inky-hues-key.webp",
+      "accent": "#5f9b7a",
+      "startsAt": "2026-10-14T23:00:00Z",
+      "endsAt": "2026-11-05T04:00:00Z",
+      "source": "https://endfield.gryphline.com/en-us/news/9560",
+      "kicker": {
+        "es": "Evento de guía · 1.6",
+        "en": "Guide event · 1.6",
+        "zh": "引入活动 · 1.6",
+        "ja": "案内イベント・1.6",
+        "ko": "기념 이벤트 · 1.6"
+      },
+      "title": {
+        "es": "Todos los matices de tinta",
+        "en": "All the Inky Hues",
+        "zh": "墨分诸彩",
+        "ja": "墨に彩あり",
+        "ko": "먹에서 피어난 색채"
+      },
+      "difficulty": "Exploration",
+      "difficulty_es": "Exploración",
+      "difficulty_zh": "探索",
+      "difficulty_ja": "探索",
+      "difficulty_ko": "탐색",
+      "summary": {
+        "es": "El evento de bienvenida de la 1.6: visitas la zona nueva, Pintura de Si, en Wuling, y completas misiones como desbloquear Puntos de TP y abrir cajas protocolares. Es la forma más rápida de juntar Oroberyl al empezar la versión.",
+        "en": "The 1.6 welcome event: you visit the new area, Si's Painting, in Wuling, and complete missions such as unlocking TP Points and opening Protocol Crates. It is the quickest way to stock up on Oroberyl as the version starts.",
+        "zh": "「丹青渡」版本的引入活动。一笔丹青，诸彩分明。前往「武陵」地区的「祀的画」区域完成指定任务，即可领取活动奖励。",
+        "ja": "バージョン「丹青渡」の案内イベント。ひと筆に宿る彩。「武陵」地域の「スーの絵」エリアに向かい、指定のクエストを完了すると、イベント報酬を獲得できます。",
+        "ko": "「단청도」 버전의 기념 이벤트입니다. 붓을 한 번 놀리자 온갖 빛깔이 선명하게 피어납니다. 「무릉」 지역의 「사의 그림」 구역에서 지정 임무를 완료하면 이벤트 보상을 수령할 수 있습니다."
+      },
+      "tags": [
+        "Si's Painting",
+        "exploration",
+        "Oroberyl"
+      ],
+      "tags_es": [
+        "Pintura de Si",
+        "exploración",
+        "Oroberyl"
+      ],
+      "tags_zh": [
+        "祀的画",
+        "探索",
+        "嵌晶玉"
+      ],
+      "tags_ja": [
+        "スーの絵",
+        "探索",
+        "赤晶玉"
+      ],
+      "tags_ko": [
+        "사의 그림",
+        "탐색",
+        "오로베릴"
+      ],
+      "blocks": [
+        {
+          "type": "hero",
+          "banner": "https://edgeofloftiness.github.io/endsync-data/assets/events/all-the-inky-hues-key.webp",
+          "meta": [
+            {
+              "k": {
+                "es": "Fechas",
+                "en": "Dates",
+                "zh": "日期",
+                "ja": "期間",
+                "ko": "기간"
+              },
+              "v": {
+                "es": "Desde la actualización de la versión → 5 nov 2026, 12:00 (hora del servidor)",
+                "en": "From the version update → Nov 5, 2026, 12:00 (server time)",
+                "zh": "「丹青渡」版本更新后 → 2026年11月5日12:00（服务器时间）",
+                "ja": "バージョン「丹青渡」開始後 → 2026年11月5日12:00（サーバー時間）",
+                "ko": "「단청도」 버전 업데이트 후 → 2026년 11월 5일 12:00(서버 시간)"
+              }
+            },
+            {
+              "k": {
+                "es": "Dónde",
+                "en": "Where",
+                "zh": "地点",
+                "ja": "場所",
+                "ko": "장소"
+              },
+              "v": {
+                "es": "Pintura de Si (Wuling)",
+                "en": "Si's Painting (Wuling)",
+                "zh": "祀的画（武陵）",
+                "ja": "スーの絵（武陵）",
+                "ko": "사의 그림(무릉)"
+              }
+            },
+            {
+              "k": {
+                "es": "Recompensas",
+                "en": "Rewards",
+                "zh": "奖励",
+                "ja": "報酬",
+                "ko": "보상"
+              },
+              "v": {
+                "es": "Oroberyl ×1200, Mark of Perseverance ×7",
+                "en": "Oroberyl ×1200, Mark of Perseverance ×7",
+                "zh": "嵌晶玉×1200、存续的痕迹×7",
+                "ja": "赤晶玉×1,200、存続の痕跡×7",
+                "ko": "오로베릴×1,200, 존속의 흔적×7"
+              }
+            }
+          ]
+        },
+        {
+          "type": "pillars",
+          "h": {
+            "es": "Qué hay que hacer",
+            "en": "What to do",
+            "zh": "活动内容",
+            "ja": "やること",
+            "ko": "할 일"
+          },
+          "items": [
+            {
+              "icon": "◈",
+              "h": {
+                "es": "Puntos de TP",
+                "en": "TP Points",
+                "zh": "协议传送点",
+                "ja": "協約転送ポイント",
+                "ko": "프로토콜 전송 지점"
+              },
+              "body": {
+                "es": "Desbloquear los Puntos de TP de la Pintura de Si cuenta para las misiones y además te deja moverte rápido por la zona.",
+                "en": "Unlocking the TP Points in Si's Painting counts toward the missions and also lets you move around the area quickly.",
+                "zh": "在「祀的画」中解锁协议传送点即可推进活动任务，之后在区域内移动也更方便。",
+                "ja": "「スーの絵」の協約転送ポイントを解放するとクエストが進み、エリア内の移動も楽になります。",
+                "ko": "「사의 그림」의 프로토콜 전송 지점을 해금하면 임무가 진행되고, 구역 안에서 이동하기도 편해집니다."
+              }
+            },
+            {
+              "icon": "▣",
+              "h": {
+                "es": "Cajas protocolares",
+                "en": "Protocol Crates",
+                "zh": "协议储藏箱",
+                "ja": "協約資源箱",
+                "ko": "프로토콜 보물 상자"
+              },
+              "body": {
+                "es": "Abrir las cajas protocolares de la zona también cuenta para las misiones.",
+                "en": "Opening the area's Protocol Crates also counts toward the missions.",
+                "zh": "开启区域内的协议储藏箱同样计入活动任务。",
+                "ja": "エリア内の協約資源箱を開けることもクエストの対象です。",
+                "ko": "구역의 프로토콜 보물 상자를 여는 것도 임무에 포함됩니다."
+              }
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "h": {
+            "es": "Cierra antes que la versión",
+            "en": "It closes before the version does",
+            "zh": "早于版本结束",
+            "ja": "バージョンより先に終了",
+            "ko": "버전보다 먼저 종료"
+          },
+          "body": {
+            "es": "Termina el 5 de noviembre a las 12:00, el mismo día que cambia el banner. La lista completa de misiones está en el juego; las fuentes oficiales solo nombran Puntos de TP y cajas protocolares.",
+            "en": "It ends on Nov 5 at 12:00, the same day the banner changes. The full mission list is in the game; the official sources only mention TP Points and Protocol Crates.",
+            "zh": "活动于11月5日12:00结束，与卡池轮换同日。完整任务列表请以游戏内为准；官方资料仅提及解锁协议传送点与开启协议储藏箱。",
+            "ja": "11月5日12:00に終了し、スカウトの切り替えと同じ日です。クエストの全リストはゲーム内で確認してください。公式情報で触れられているのは協約転送ポイントの解放と協約資源箱の開封のみです。",
+            "ko": "11월 5일 12:00에 종료되며 헤드헌팅이 바뀌는 날과 같습니다. 전체 임무 목록은 게임 내에서 확인하세요. 공식 자료에는 프로토콜 전송 지점 해금과 프로토콜 보물 상자 열기만 나와 있습니다."
+          }
+        }
+      ]
+    },
+    {
+      "id": "carly-verdant-anthology",
+      "cover": "https://edgeofloftiness.github.io/endsync-data/assets/events/carly-verdant-anthology-key.webp",
+      "accent": "#c98a5a",
+      "startsAt": "2026-10-22T04:00:00Z",
+      "endsAt": "2026-11-04T20:00:00Z",
+      "source": "https://endfield.gryphline.com/en-us/news/9560",
+      "kicker": {
+        "es": "Evento de cámara · 1.6",
+        "en": "Camera event · 1.6",
+        "zh": "拍照活动 · 1.6",
+        "ja": "写真撮影イベント・1.6",
+        "ko": "촬영 이벤트 · 1.6"
+      },
+      "title": {
+        "es": "La Antología floreciente de Carly",
+        "en": "Carly's Verdant Anthology",
+        "zh": "卡莉的芳菲童话",
+        "ja": "カーリーの花いろ絵本",
+        "ko": "칼리의 꽃과 풀 동화"
+      },
+      "difficulty": "Camera",
+      "difficulty_es": "Cámara",
+      "difficulty_zh": "拍照",
+      "difficulty_ja": "写真撮影",
+      "difficulty_ko": "촬영",
+      "summary": {
+        "es": "Carly tiene nuevas fuentes de inspiración. Ves el mundo con sus ojos, capturas los paisajes que necesita y la ayudas a terminar una creación única. Completar las misiones de cámara da Oroberyl ×1500 y un marco de retrato exclusivo.",
+        "en": "Carly has new inspirations. You see the world through her eyes, capture the scenes she needs and help her finish a one-of-a-kind creation. Completing the camera missions gives Oroberyl ×1500 and an exclusive portrait frame.",
+        "zh": "卡莉又有了新的灵感，一段有关探寻的故事正等待着您。完成拍照任务，即可获得嵌晶玉×1500与专属头像框等活动奖励。",
+        "ja": "カーリーがまた新たなアイデアを思いついたようだ。探求をテーマにした物語が、今まさに始まろうとしている。撮影任務を完了すると、赤晶玉×1,500や限定フレームなどの報酬を入手できます。",
+        "ko": "칼리가 또 새로운 영감을 떠올렸습니다. 탐험과 발견에 관한 새로운 이야기가 여러분을 기다리고 있습니다. 촬영 임무를 완료하면 오로베릴×1,500과 전용 프로필 프레임 등 이벤트 보상을 획득할 수 있습니다."
+      },
+      "tags": [
+        "Carly",
+        "camera",
+        "portrait frame"
+      ],
+      "tags_es": [
+        "Carly",
+        "cámara",
+        "marco de retrato"
+      ],
+      "tags_zh": [
+        "卡莉",
+        "拍照",
+        "头像框"
+      ],
+      "tags_ja": [
+        "カーリー",
+        "写真撮影",
+        "フレーム"
+      ],
+      "tags_ko": [
+        "칼리",
+        "촬영",
+        "프로필 프레임"
+      ],
+      "blocks": [
+        {
+          "type": "hero",
+          "banner": "https://edgeofloftiness.github.io/endsync-data/assets/events/carly-verdant-anthology-key.webp",
+          "meta": [
+            {
+              "k": {
+                "es": "Fechas",
+                "en": "Dates",
+                "zh": "日期",
+                "ja": "期間",
+                "ko": "기간"
+              },
+              "v": {
+                "es": "22 oct 2026, 12:00 → 5 nov 2026, 04:00 (hora del servidor)",
+                "en": "Oct 22, 2026, 12:00 → Nov 5, 2026, 04:00 (server time)",
+                "zh": "2026年10月22日12:00 → 11月5日04:00（服务器时间）",
+                "ja": "2026年10月22日12:00 → 11月5日04:00（サーバー時間）",
+                "ko": "2026년 10월 22일 12:00 → 11월 5일 04:00(서버 시간)"
+              }
+            },
+            {
+              "k": {
+                "es": "Cómo",
+                "en": "How",
+                "zh": "方式",
+                "ja": "内容",
+                "ko": "방식"
+              },
+              "v": {
+                "es": "Misiones de cámara",
+                "en": "Camera missions",
+                "zh": "拍照任务",
+                "ja": "撮影任務",
+                "ko": "촬영 임무"
+              }
+            },
+            {
+              "k": {
+                "es": "Recompensas",
+                "en": "Rewards",
+                "zh": "奖励",
+                "ja": "報酬",
+                "ko": "보상"
+              },
+              "v": {
+                "es": "Oroberyl ×1500, Marco de retrato: La Antología floreciente de Carly, Mark of Perseverance y materiales",
+                "en": "Oroberyl ×1500, Portrait Frame: Carly's Verdant Anthology, Mark of Perseverance and materials",
+                "zh": "嵌晶玉×1500、头像框·卡莉的芳菲集、存续的痕迹及养成材料",
+                "ja": "赤晶玉×1,500、フレーム・カーリーの花綴り、存続の痕跡、育成素材",
+                "ko": "오로베릴×1,500, 프로필 프레임 · 칼리의 꽃과 풀 모음집, 존속의 흔적, 육성 재료"
+              }
+            }
+          ]
+        },
+        {
+          "type": "lead",
+          "body": {
+            "es": "Con la cámara del juego fotografías las escenas que Carly necesita para su obra; cada misión de cámara cumplida suma a las recompensas. El programa de la versión lo presentó junto con los paisajes nuevos de la Pintura de Si.",
+            "en": "With the in-game camera you shoot the scenes Carly needs for her work; every completed camera mission adds to the rewards. The version program presented it alongside the new landscapes of Si's Painting.",
+            "zh": "通过游戏内的拍照功能，拍下卡莉创作所需的场景，完成拍照任务即可获得奖励。",
+            "ja": "ゲーム内のカメラで、カーリーの創作に必要な場面を撮影します。撮影任務を達成すると報酬を入手できます。",
+            "ko": "게임 내 카메라로 칼리의 창작에 필요한 장면을 촬영합니다. 촬영 임무를 완료하면 보상을 획득할 수 있습니다."
+          }
+        },
+        {
+          "type": "callout",
+          "variant": "warn",
+          "h": {
+            "es": "Lo que no está en las fuentes oficiales",
+            "en": "Not in the official sources",
+            "zh": "官方资料未公布的内容",
+            "ja": "公式情報に掲載されていない内容",
+            "ko": "공식 자료에 없는 내용"
+          },
+          "body": {
+            "es": "La lista de escenas y cuántas misiones hay no se publicaron: se ven en el juego al abrir el evento.",
+            "en": "The list of scenes and how many missions there are were not published: you see them in the game when the event opens.",
+            "zh": "拍摄场景列表与任务数量未公布，活动开启后可在游戏内查看。",
+            "ja": "撮影する場面の一覧と任務の数は公表されていません。イベント開始後にゲーム内で確認できます。",
+            "ko": "촬영 장면 목록과 임무 수는 공개되지 않았으며, 이벤트가 열리면 게임 내에서 확인할 수 있습니다."
+          }
+        }
+      ]
+    },
+    {
+      "id": "monumental-etching-forest-of-maras",
+      "cover": "https://edgeofloftiness.github.io/endsync-data/assets/events/forest-of-maras-banner.webp",
+      "accent": "#d0473f",
+      "startsAt": "2026-10-22T04:00:00Z",
+      "endsAt": "2026-11-04T20:00:00Z",
+      "source": "https://endfield.gryphline.com/en-us/news/9560",
+      "kicker": {
+        "es": "Desafío por tiempo limitado · Monumento del Umbral",
+        "en": "Limited-time challenge · Umbral Monument",
+        "zh": "限时挑战活动 · 影拓丰碑",
+        "ja": "期間限定上級者イベント・映像の記念碑",
+        "ko": "기간 한정 도전 이벤트 · 그림자 이정표"
+      },
+      "title": {
+        "es": "Grabado monumental: Bosque de Maras",
+        "en": "Monumental Etching: Forest of Maras",
+        "zh": "丰碑留名·魇林",
+        "ja": "記憶の痕・呪林",
+        "ko": "기억의 흔적 · 악몽의 숲"
+      },
+      "difficulty": "High difficulty",
+      "difficulty_es": "Alta dificultad",
+      "difficulty_zh": "高难",
+      "difficulty_ja": "高難度",
+      "difficulty_ko": "고난도",
+      "summary": {
+        "es": "Monumento del Umbral suma la serie de alta dificultad Murmullos del bosque profundo (4 etapas) y, mientras dura este evento, superar sus desafíos da además Oroberyl ×1200 y una Advanced Progression Selection Crate II.",
+        "en": "Umbral Monument adds the high-difficulty series Murmurs of the Deep Forest (4 stages) and, while this event runs, clearing its challenges also gives Oroberyl ×1200 and an Advanced Progression Selection Crate II.",
+        "zh": "「影拓丰碑」开放新系列「深林呓语」（4个关卡）。活动期间在「影拓丰碑」完成对应挑战，即可领取嵌晶玉×1200、高阶培养自选箱Ⅱ等活动奖励。",
+        "ja": "「映像の記念碑」に新シリーズ「深き森の囁き」（4ステージ）が開放。イベント期間中に対応するステージをクリアすると、赤晶玉×1,200、上級育成強化ボックスⅡなどを獲得できます。",
+        "ko": "「그림자 이정표」에 새로운 시리즈 「깊은 숲의 잠꼬대」(스테이지 4개)가 개방됩니다. 이벤트 기간에 해당 도전을 완료하면 오로베릴×1,200, 고급 육성 선택 상자 II 등 이벤트 보상을 수령할 수 있습니다."
+      },
+      "tags": [
+        "Umbral Monument",
+        "high difficulty",
+        "Oroberyl"
+      ],
+      "tags_es": [
+        "Monumento del Umbral",
+        "alta dificultad",
+        "Oroberyl"
+      ],
+      "tags_zh": [
+        "影拓丰碑",
+        "高难",
+        "嵌晶玉"
+      ],
+      "tags_ja": [
+        "映像の記念碑",
+        "高難度",
+        "赤晶玉"
+      ],
+      "tags_ko": [
+        "그림자 이정표",
+        "고난도",
+        "오로베릴"
+      ],
+      "blocks": [
+        {
+          "type": "hero",
+          "banner": "https://edgeofloftiness.github.io/endsync-data/assets/events/forest-of-maras-banner.webp",
+          "meta": [
+            {
+              "k": {
+                "es": "Fechas del evento",
+                "en": "Event dates",
+                "zh": "活动时间",
+                "ja": "開催期間",
+                "ko": "이벤트 기간"
+              },
+              "v": {
+                "es": "22 oct 2026, 12:00 → 5 nov 2026, 04:00 (hora del servidor)",
+                "en": "Oct 22, 2026, 12:00 → Nov 5, 2026, 04:00 (server time)",
+                "zh": "2026年10月22日12:00 → 11月5日04:00（服务器时间）",
+                "ja": "2026年10月22日12:00 → 11月5日04:00（サーバー時間）",
+                "ko": "2026년 10월 22일 12:00 → 11월 5일 04:00(서버 시간)"
+              }
+            },
+            {
+              "k": {
+                "es": "Serie nueva",
+                "en": "New series",
+                "zh": "新系列",
+                "ja": "新シリーズ",
+                "ko": "새 시리즈"
+              },
+              "v": {
+                "es": "Murmullos del bosque profundo · 4 etapas · se queda en el modo permanente",
+                "en": "Murmurs of the Deep Forest · 4 stages · stays in the permanent mode",
+                "zh": "深林呓语 · 4个关卡 · 常驻玩法",
+                "ja": "深き森の囁き・4ステージ・常時開放コンテンツ",
+                "ko": "깊은 숲의 잠꼬대 · 스테이지 4개 · 상시 콘텐츠"
+              }
+            },
+            {
+              "k": {
+                "es": "Recompensas del evento",
+                "en": "Event rewards",
+                "zh": "活动奖励",
+                "ja": "イベント報酬",
+                "ko": "이벤트 보상"
+              },
+              "v": {
+                "es": "Oroberyl ×1200, Advanced Progression Selection Crate II y materiales",
+                "en": "Oroberyl ×1200, Advanced Progression Selection Crate II and materials",
+                "zh": "嵌晶玉×1200、高阶培养自选箱Ⅱ及养成材料",
+                "ja": "赤晶玉×1,200、上級育成強化ボックスⅡ、育成素材",
+                "ko": "오로베릴×1,200, 고급 육성 선택 상자 II, 육성 재료"
+              }
+            }
+          ]
+        },
+        {
+          "type": "pillars",
+          "h": {
+            "es": "Dos recompensas por el mismo trabajo",
+            "en": "Two sets of rewards for the same work",
+            "zh": "同一挑战，两份奖励",
+            "ja": "同じ挑戦で2つの報酬",
+            "ko": "같은 도전, 두 가지 보상"
+          },
+          "items": [
+            {
+              "icon": "▣",
+              "h": {
+                "es": "Murmullos del bosque profundo",
+                "en": "Murmurs of the Deep Forest",
+                "zh": "深林呓语",
+                "ja": "深き森の囁き",
+                "ko": "깊은 숲의 잠꼬대"
+              },
+              "body": {
+                "es": "Serie permanente de 4 etapas desde el 22 de octubre a las 12:00. Superarlas todas da Mark of Perseverance, Advanced Cognitive Carrier, Arms INSP Set y Protohedron.",
+                "en": "A permanent 4-stage series from Oct 22 at 12:00. Clearing all of them gives Mark of Perseverance, Advanced Cognitive Carrier, Arms INSP Set and Protohedron.",
+                "zh": "10月22日12:00起常驻开放，共4个关卡。完成全部关卡挑战，累计可获得存续的痕迹、高级认知载体、武器检查套组、协议棱柱组等奖励。",
+                "ja": "10月22日12:00から常時開放、全4ステージ。すべてクリアすると、累計で存続の痕跡、上級認識媒体、武器検査ボックス、協約角柱セットなどを獲得できます。",
+                "ko": "10월 22일 12:00부터 상시 개방되며 스테이지는 4개입니다. 모두 완료하면 존속의 흔적, 고급 인지 매개체, 무기 점검 세트, 프로토콜 프리즘 세트 등을 획득할 수 있습니다."
+              }
+            },
+            {
+              "icon": "★",
+              "h": {
+                "es": "Bosque de Maras (limitado)",
+                "en": "Forest of Maras (limited)",
+                "zh": "丰碑留名·魇林（限时）",
+                "ja": "記憶の痕・呪林（期間限定）",
+                "ko": "기억의 흔적 · 악몽의 숲(기간 한정)"
+              },
+              "body": {
+                "es": "Hasta el 5 de noviembre a las 04:00, completar los desafíos de Monumento del Umbral suma además las recompensas de este evento. Pasada esa fecha, las etapas siguen pero ese premio extra ya no.",
+                "en": "Until Nov 5 at 04:00, completing Umbral Monument challenges also adds this event's rewards. After that date the stages stay, but that extra prize does not.",
+                "zh": "11月5日04:00前，在「影拓丰碑」完成对应挑战，还可额外领取本活动奖励。活动结束后关卡仍会保留，但额外奖励将无法领取。",
+                "ja": "11月5日04:00までは、「映像の記念碑」で対応するステージをクリアすると本イベントの報酬も獲得できます。終了後もステージは残りますが、追加報酬は受け取れません。",
+                "ko": "11월 5일 04:00까지 「그림자 이정표」에서 해당 도전을 완료하면 이 이벤트 보상도 함께 받을 수 있습니다. 이후에도 스테이지는 남지만 추가 보상은 받을 수 없습니다."
+              }
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warn",
+          "h": {
+            "es": "Lo que no está en las fuentes oficiales",
+            "en": "Not in the official sources",
+            "zh": "官方资料未公布的内容",
+            "ja": "公式情報に掲載されていない内容",
+            "ko": "공식 자료에 없는 내용"
+          },
+          "body": {
+            "es": "Qué jefes y mecánicas tiene cada etapa de Murmullos del bosque profundo y qué desafíos concretos pide el evento no se publicaron.",
+            "en": "Which bosses and mechanics each Murmurs of the Deep Forest stage has, and which exact challenges the event asks for, were not published.",
+            "zh": "「深林呓语」各关卡的首领与机制，以及活动要求的具体挑战内容，官方尚未公布。",
+            "ja": "「深き森の囁き」各ステージのボスやギミック、イベントで求められる具体的な挑戦内容は公表されていません。",
+            "ko": "「깊은 숲의 잠꼬대」 각 스테이지의 보스와 기믹, 이벤트가 요구하는 구체적인 도전 내용은 공개되지 않았습니다."
           }
         }
       ]
     },
     {
       "id": "arena-of-games",
-      "cover": "https://edgeofloftiness.github.io/endsync-data/assets/events/arena-of-games-banner.webp",
+      "cover": "https://edgeofloftiness.github.io/endsync-data/assets/events/arena-of-games-key.webp",
       "accent": "#e04b3c",
       "startsAt": "2026-10-29T04:00:00Z",
       "endsAt": "2026-11-18T20:00:00Z",
-      "source": "https://endfield.gryphline.com/en-us/news/5207",
+      "source": "https://endfield.gryphline.com/en-us/news/9560",
       "kicker": {
         "es": "Evento de desafío · 1.6",
         "en": "Challenge event · 1.6",
@@ -276,7 +793,7 @@
       "blocks": [
         {
           "type": "hero",
-          "banner": "https://edgeofloftiness.github.io/endsync-data/assets/events/arena-of-games-banner.webp",
+          "banner": "https://edgeofloftiness.github.io/endsync-data/assets/events/arena-of-games-key.webp",
           "meta": [
             {
               "k": {
@@ -292,6 +809,22 @@
                 "zh": "2026年10月29日12:00 → 11月19日04:00（服务器时间）",
                 "ja": "2026年10月29日12:00 → 11月19日04:00（サーバー時間）",
                 "ko": "2026년 10월 29일 12:00 → 11월 19일 04:00(서버 시간)"
+              }
+            },
+            {
+              "k": {
+                "es": "Contenido nuevo",
+                "en": "New content",
+                "zh": "内容更新",
+                "ja": "更新日時",
+                "ko": "콘텐츠 업데이트"
+              },
+              "v": {
+                "es": "11 nov 2026, 04:00 (hora del servidor)",
+                "en": "Nov 11, 2026, 04:00 (server time)",
+                "zh": "2026年11月11日04:00（服务器时间）",
+                "ja": "2026年11月11日04:00（サーバー時間）",
+                "ko": "2026년 11월 11일 04:00(서버 시간)"
               }
             },
             {
@@ -319,11 +852,11 @@
                 "ko": "보상"
               },
               "v": {
-                "es": "Oroberyl ×1200, retrato «Prueba suerte ahora» y materiales",
-                "en": "Oroberyl ×1200, the \"Get Lucky Now\" portrait and materials",
-                "zh": "嵌晶玉×1200、头像及养成材料",
-                "ja": "赤晶玉×1,200、アイコン、育成素材",
-                "ko": "오로베릴×1,200, 프로필, 육성 재료"
+                "es": "Puntos de arena → todos los niveles del Hito de la Arena: Oroberyl ×1200, Mark of Perseverance, retrato «Prueba suerte ahora» y más",
+                "en": "Arena Points → every Arena Milestone tier: Oroberyl ×1200, Mark of Perseverance, the \"Get Lucky Now\" portrait and more",
+                "zh": "演武积分 → 演武历程全部档位：嵌晶玉×1200、存续的痕迹、头像“即刻发达”等",
+                "ja": "演武ポイント → 演武実績の全段階：赤晶玉×1,200、存続の痕跡、アイコン「即開運」など",
+                "ko": "연무 포인트 → 연무 여정 모든 단계: 오로베릴×1,200, 존속의 흔적, 프로필 '부자되세요' 등"
               }
             }
           ]
@@ -419,23 +952,156 @@
             "ko": "공식 자료에 아직 없는 내용"
           },
           "body": {
-            "es": "La tabla de multiplicadores de cada mano, los potenciadores que reciben los enemigos y qué grupos hay en las placas no están en las fuentes oficiales.",
-            "en": "The multiplier table for each hand, the buffs enemies get and which groups are on the plates are not in the official sources.",
-            "zh": "各牌型的倍率表、敌人获得的强化以及数据板中的敌人组合，官方资料尚未公布。",
-            "ja": "各役の倍率表、敵が受ける強化、プレートの敵グループの内容は公式情報に掲載されていません。",
-            "ko": "족보별 배율표, 적이 받는 강화, 플레이트의 적 그룹 구성은 공식 자료에 나와 있지 않습니다."
+            "es": "La tabla de multiplicadores de cada mano, los potenciadores que reciben los enemigos, qué grupos hay en las placas y qué trae la actualización del 11 de noviembre no están en las fuentes oficiales.",
+            "en": "The multiplier table for each hand, the buffs enemies get, which groups are on the plates and what the Nov 11 update adds are not in the official sources.",
+            "zh": "各组合的倍率表、敌人获得的强化、铭牌中的敌人编组以及11月11日更新的内容，官方资料尚未公布。",
+            "ja": "各役の倍率表、敵が受ける強化、カードの敵グループの内容、11月11日の更新内容は公式情報に掲載されていません。",
+            "ko": "조합별 배율표, 적이 받는 강화, 플레이트의 적 그룹 구성, 11월 11일 업데이트 내용은 공식 자료에 나와 있지 않습니다."
+          }
+        }
+      ]
+    },
+    {
+      "id": "new-era-myriad-souls",
+      "cover": "https://edgeofloftiness.github.io/endsync-data/assets/events/new-era-myriad-souls-banner.webp",
+      "accent": "#7a4fd0",
+      "startsAt": "2026-10-31T04:00:00Z",
+      "endsAt": "2026-11-13T20:00:00Z",
+      "source": "https://endfield.gryphline.com/en-us/news/9560",
+      "kicker": {
+        "es": "Evento de diversión y juegos · web",
+        "en": "Fun & Games event · web",
+        "zh": "趣味活动 · 网页",
+        "ja": "レジャーイベント・Web",
+        "ko": "흥미 이벤트 · 웹"
+      },
+      "title": {
+        "es": "Nueva era para las Incontables almas",
+        "en": "New Era for the Myriad Souls",
+        "zh": "予众魂的新光影",
+        "ja": "魂に捧ぐ新たな一幕",
+        "ko": "모든 영혼에 바치는 새로운 빛과 그림자"
+      },
+      "difficulty": "Web",
+      "difficulty_es": "Web",
+      "difficulty_zh": "网页",
+      "difficulty_ja": "Web",
+      "difficulty_ko": "웹",
+      "summary": {
+        "es": "Las tradiciones danzan en nuestros recuerdos: llega otro Sauin. En la página web del evento eliges actores y accesorios para rodar una historia, desbloqueas finales distintos y reclamas Oroberyl ×300 y T-Creds.",
+        "en": "Traditions dance within our memories: time for another Sauin. On the event's web page you pick actors and props to shoot a story, unlock different endings and claim Oroberyl ×300 and T-Creds.",
+        "zh": "传统在我们的回忆中跃动。又一次的安魂节，予众魂，予我们的新光影。前往网页活动，通过搭配演员与道具完成故事拍摄，解锁不同结局，可领取嵌晶玉×300、折金票。",
+        "ja": "伝統は記憶の中で脈を打つ。再び巡る安魂祭――サルカズの魂へ、そして新たな一幕へ。Webイベントで役者と小道具を組み合わせて物語を撮影し、さまざまなエンディングを解放すると、赤晶玉×300、折金券を獲得できます。",
+        "ko": "전통은 우리의 기억 속에서 살아 숨 쉽니다. 다시 찾아온 서우인입니다. 웹 이벤트에서 배우와 아이템을 조합해 스토리를 촬영하고 다양한 결말을 해금하면 오로베릴×300, 탈로시안 화폐를 수령할 수 있습니다."
+      },
+      "tags": [
+        "web event",
+        "Sauin",
+        "endings"
+      ],
+      "tags_es": [
+        "evento web",
+        "Sauin",
+        "finales"
+      ],
+      "tags_zh": [
+        "网页活动",
+        "安魂节",
+        "多结局"
+      ],
+      "tags_ja": [
+        "Webイベント",
+        "安魂祭",
+        "マルチエンディング"
+      ],
+      "tags_ko": [
+        "웹 이벤트",
+        "서우인",
+        "멀티 엔딩"
+      ],
+      "blocks": [
+        {
+          "type": "hero",
+          "banner": "https://edgeofloftiness.github.io/endsync-data/assets/events/new-era-myriad-souls-banner.webp",
+          "meta": [
+            {
+              "k": {
+                "es": "Fechas",
+                "en": "Dates",
+                "zh": "日期",
+                "ja": "期間",
+                "ko": "기간"
+              },
+              "v": {
+                "es": "31 oct 2026, 12:00 → 14 nov 2026, 04:00 (hora del servidor)",
+                "en": "Oct 31, 2026, 12:00 → Nov 14, 2026, 04:00 (server time)",
+                "zh": "2026年10月31日12:00 → 11月14日04:00（服务器时间）",
+                "ja": "2026年10月31日12:00 → 11月14日04:00（サーバー時間）",
+                "ko": "2026년 10월 31일 12:00 → 11월 14일 04:00(서버 시간)"
+              }
+            },
+            {
+              "k": {
+                "es": "Dónde",
+                "en": "Where",
+                "zh": "地点",
+                "ja": "場所",
+                "ko": "장소"
+              },
+              "v": {
+                "es": "Página web del evento (fuera del juego)",
+                "en": "Event web page (outside the game)",
+                "zh": "网页活动（游戏外）",
+                "ja": "Webイベント（ゲーム外）",
+                "ko": "웹 이벤트(게임 외부)"
+              }
+            },
+            {
+              "k": {
+                "es": "Recompensas",
+                "en": "Rewards",
+                "zh": "奖励",
+                "ja": "報酬",
+                "ko": "보상"
+              },
+              "v": {
+                "es": "Oroberyl ×300, T-Creds",
+                "en": "Oroberyl ×300, T-Creds",
+                "zh": "嵌晶玉×300、折金票",
+                "ja": "赤晶玉×300、折金券",
+                "ko": "오로베릴×300, 탈로시안 화폐"
+              }
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warn",
+          "h": {
+            "es": "Lo que no está en las fuentes oficiales",
+            "en": "Not in the official sources",
+            "zh": "官方资料未公布的内容",
+            "ja": "公式情報に掲載されていない内容",
+            "ko": "공식 자료에 없는 내용"
+          },
+          "body": {
+            "es": "El enlace de la página, cuántos finales hay y cómo se reclaman las recompensas se anuncian cuando abra el evento (suele llegar un aviso «Web Event Details» en las noticias oficiales).",
+            "en": "The page link, how many endings there are and how the rewards are claimed are announced when the event opens (a \"Web Event Details\" notice usually comes out in the official news).",
+            "zh": "网页链接、结局数量及奖励领取方式将于活动开启时公布（通常会在官方公告中发布网页活动说明）。",
+            "ja": "ページのリンク、エンディングの数、報酬の受け取り方法はイベント開始時に告知されます（公式のお知らせにWebイベントの説明が掲載されるのが通例です）。",
+            "ko": "페이지 링크, 결말 수, 보상 수령 방법은 이벤트가 열릴 때 공지됩니다(보통 공식 공지에 웹 이벤트 안내가 올라옵니다)."
           }
         }
       ]
     },
     {
       "id": "contingency-contract-indigo",
-      "cover": "https://edgeofloftiness.github.io/endsync-data/assets/events/cc-indigo-banner.webp",
+      "cover": "https://edgeofloftiness.github.io/endsync-data/assets/events/cc-indigo-key.webp",
       "logo": "assets/events/cc-logo.svg",
       "accent": "#4c6ef5",
       "startsAt": "2026-11-05T04:00:00Z",
       "endsAt": "2026-11-25T22:00:00Z",
-      "source": "https://endfield.gryphline.com/en-us/news/5207",
+      "source": "https://endfield.gryphline.com/en-us/news/9560",
       "kicker": {
         "es": "Modo endgame · 2ª temporada",
         "en": "Endgame mode · Season 2",
@@ -515,6 +1181,38 @@
             },
             {
               "k": {
+                "es": "Santuario secreto",
+                "en": "Secret Sanctuary",
+                "zh": "机密圣所",
+                "ja": "機密聖堂",
+                "ko": "시크릿 생추어리"
+              },
+              "v": {
+                "es": "Tienda abierta hasta el 3 dic 2026, 04:00 (hora del servidor)",
+                "en": "Shop open until Dec 3, 2026, 04:00 (server time)",
+                "zh": "开放至2026年12月3日04:00（服务器时间）",
+                "ja": "2026年12月3日04:00まで開放（サーバー時間）",
+                "ko": "2026년 12월 3일 04:00까지 개방(서버 시간)"
+              }
+            },
+            {
+              "k": {
+                "es": "Contenido nuevo",
+                "en": "New content",
+                "zh": "内容更新",
+                "ja": "更新日時",
+                "ko": "콘텐츠 업데이트"
+              },
+              "v": {
+                "es": "12 nov 2026, 12:00 (hora del servidor)",
+                "en": "Nov 12, 2026, 12:00 (server time)",
+                "zh": "2026年11月12日12:00（服务器时间）",
+                "ja": "2026年11月12日12:00（サーバー時間）",
+                "ko": "2026년 11월 12일 12:00(서버 시간)"
+              }
+            },
+            {
+              "k": {
                 "es": "Preparación",
                 "en": "Prep",
                 "zh": "筹备",
@@ -522,27 +1220,11 @@
                 "ko": "준비"
               },
               "v": {
-                "es": "Preparación ante contingencias: evento de Cordura 7 días antes (Gear Artificing Catalyst, Coolant Gel)",
-                "en": "Contingency Readiness: Sanity event 7 days before (Gear Artificing Catalyst, Coolant Gel)",
-                "zh": "危机筹备：开始前7天的理智活动（装备精锻助剂、冷却脂）",
-                "ja": "危機準備：開始7日前の理性イベント（精密加工強化剤、冷却グリース）",
-                "ko": "위기 대응 준비: 시작 7일 전 이성 이벤트(장비 정밀 단조제, 냉각제)"
-              }
-            },
-            {
-              "k": {
-                "es": "Tienda",
-                "en": "Shop",
-                "zh": "商店",
-                "ja": "ショップ",
-                "ko": "상점"
-              },
-              "v": {
-                "es": "Oroberyl ×2000, Mark of Perseverance, retrato, marco y calcomanía del evento",
-                "en": "Oroberyl ×2000, Mark of Perseverance, event portrait, frame and sticker",
-                "zh": "嵌晶玉×2000、存续的痕迹、活动头像、头像框与贴纸",
-                "ja": "赤晶玉×2,000、存続の痕跡、イベントのアイコン・フレーム・ステッカー",
-                "ko": "오로베릴×2,000, 존속의 흔적, 이벤트 프로필·프레임·스티커"
+                "es": "Preparación ante contingencias: 29 oct 04:00 → 5 nov 04:00, misiones diarias con Permiso de uso de Cordura, Refuerzo de Cordura de emergencia, Wuling Artificing Catalyst y Coolant Gel",
+                "en": "Contingency Readiness: Oct 29 04:00 → Nov 5 04:00, daily missions with Sanity Usage Permit, Emergency Sanity Booster, Wuling Artificing Catalyst and Coolant Gel",
+                "zh": "危机筹备：10月29日04:00 → 11月5日04:00，每日任务奖励理智消耗许可、应急理智加强剂、武陵精锻助剂及冷却脂",
+                "ja": "危機準備：10月29日04:00 → 11月5日04:00、毎日のクエストで理性消費許可証、初級理性回復剤、武陵精密加工強化剤、冷却グリース",
+                "ko": "위기 대응 준비: 10월 29일 04:00 → 11월 5일 04:00, 매일 임무로 이성 소모 허가증, 응급 이성 강화제, 무릉 정밀 단조제, 냉각제"
               }
             }
           ]
@@ -556,6 +1238,39 @@
             "ja": "今期は指標のインポートで複数の指標を一度に選べるようになり、認証指標を外すと選んでいた閉鎖指標が一時保存され、再び有効にすると自動で選択されます。そのほかはすべて新要素：スキルを使えるタイミングを変える指標と、これまでにない攻撃パターンを持つ敵。",
             "ko": "이번 기에는 지표 불러오기로 여러 지표를 한 번에 고를 수 있고, 비밀 지표를 해제하면 선택했던 잠금 지표가 임시 저장되어 다시 켜면 자동으로 선택됩니다. 나머지는 모두 새 요소로, 스킬 사용 타이밍을 바꾸는 지표와 처음 보는 공격 패턴을 가진 적이 등장합니다."
           }
+        },
+        {
+          "type": "meta",
+          "h": {
+            "es": "Recompensas",
+            "en": "Rewards",
+            "zh": "奖励",
+            "ja": "報酬",
+            "ko": "보상"
+          },
+          "body": {
+            "es": "Puedes elegir cualquier combinación de criterios de prueba para cada desafío. Las misiones del evento dan las recompensas fijas y la moneda de la tienda; la tienda cierra cuatro semanas después de abrir, más tarde que el evento.",
+            "en": "You can pick any combination of Test Criteria for each challenge. The event missions give the fixed rewards and the shop currency; the shop closes four weeks after it opens, later than the event.",
+            "zh": "活动期间，可自由选择指标组合完成战斗挑战。达成活动任务目标可获得固定奖励与商店货币；「机密圣所」开放至12月3日，晚于活动结束。",
+            "ja": "イベント期間中、指標の組み合わせを自由に選択して戦闘に挑戦できます。特殊クエストの達成で固定報酬とショップ用のコインを入手できます。「機密聖堂」は12月3日まで開放され、イベントより後に閉じます。",
+            "ko": "이벤트 기간에 지표 조합을 자유롭게 선택해 전투 도전에 참여할 수 있습니다. 이벤트 임무 목표를 달성하면 고정 보상과 상점 화폐를 획득합니다. 「시크릿 생추어리」는 12월 3일까지 개방되어 이벤트보다 늦게 닫힙니다."
+          },
+          "points": [
+            {
+              "es": "Misiones del evento: Retrato: Medalla de Hoja plateada, Marco de retrato: Agente de contingencias e Índigo vitrificado.",
+              "en": "Event missions: Portrait: Silverblade Medal, Portrait Frame: Contingency Respondent and Vitrified Indigo.",
+              "zh": "活动任务：头像·白刃的奖章、头像框·危机响应及晶化硬币·浸蓝。",
+              "ja": "特殊クエスト：アイコン・白刃の勲章、フレーム・危機対応、結晶コイン・青藍。",
+              "ko": "이벤트 임무: 프로필 · 검날의 훈장, 프로필 프레임 · 위기 대응, 결정화 화폐 · 잿빛."
+            },
+            {
+              "es": "Santuario secreto (se paga con Índigo vitrificado): Oroberyl ×2000, Calcomanía: Contingencia resuelta, Advanced Progression Selection Crate II y más.",
+              "en": "Secret Sanctuary (paid with Vitrified Indigo): Oroberyl ×2000, Sticker: Contingency Resolved, Advanced Progression Selection Crate II and more.",
+              "zh": "机密圣所（消耗晶化硬币·浸蓝）：嵌晶玉×2000、贴纸·除危记号、高阶培养自选箱Ⅱ等。",
+              "ja": "機密聖堂（結晶コイン・青藍で交換）：赤晶玉×2,000、ステッカー・危機排除、上級育成強化ボックスⅡなど。",
+              "ko": "시크릿 생추어리(결정화 화폐 · 잿빛 소모): 오로베릴×2,000, 스티커 · 위기 극복, 고급 육성 선택 상자 II 등."
+            }
+          ]
         },
         {
           "type": "criteria",
@@ -740,11 +1455,276 @@
             "ko": "공식 자료에 아직 없는 내용"
           },
           "body": {
-            "es": "Las estrellas de cada criterio, el tercer criterio clave, el tope de recompensas por riesgo y la lista completa de la tienda se completan cuando salgan las notas de la versión o abra la temporada.",
-            "en": "The stars of each criterion, the third Key Criterion, the risk reward cap and the full shop list get filled in when the version notes come out or the season opens.",
-            "zh": "各指标星级、第3个密钥指标、风险度奖励上限与完整商店列表，待版本更新说明公布或赛季开启后补全。",
-            "ja": "各指標の星の数、3つ目の認証指標、危険レベルの報酬上限、ショップの全リストは、バージョン更新ノートの公開またはシーズン開始後に追記します。",
-            "ko": "각 지표의 별 개수, 세 번째 비밀 지표, 위험도 보상 상한, 상점 전체 목록은 버전 업데이트 노트 공개 또는 시즌 시작 후 보완합니다."
+            "es": "Las estrellas de cada criterio, el tercer criterio clave, cuánto Índigo vitrificado da cada misión, los precios del Santuario secreto y qué trae la actualización del 12 de noviembre se ven cuando abra la temporada.",
+            "en": "The stars of each criterion, the third Key Criterion, how much Vitrified Indigo each mission gives, the Secret Sanctuary prices and what the Nov 12 update adds show up when the season opens.",
+            "zh": "各指标星级、第3个密钥指标、各任务的晶化硬币·浸蓝数量、机密圣所的兑换价格以及11月12日更新的内容，待赛季开启后补全。",
+            "ja": "各指標の星の数、3つ目の認証指標、各クエストの結晶コイン・青藍の数、機密聖堂の交換価格、11月12日の更新内容は、シーズン開始後に追記します。",
+            "ko": "각 지표의 별 개수, 세 번째 비밀 지표, 임무별 결정화 화폐 · 잿빛 수량, 시크릿 생추어리 교환 가격, 11월 12일 업데이트 내용은 시즌 시작 후 보완합니다."
+          }
+        }
+      ]
+    },
+    {
+      "id": "back-to-the-rustics",
+      "cover": "https://edgeofloftiness.github.io/endsync-data/assets/events/back-to-the-rustics-key.webp",
+      "accent": "#d9b44a",
+      "startsAt": "2026-11-05T04:00:00Z",
+      "endsAt": "2026-11-25T22:00:00Z",
+      "source": "https://endfield.gryphline.com/en-us/news/9560",
+      "kicker": {
+        "es": "Evento de narrativa · Argent Flow",
+        "en": "Narrative event · Argent Flow",
+        "zh": "叙事活动 · 明河",
+        "ja": "物語イベント・ミンホ",
+        "ko": "스토리 이벤트 · 명하"
+      },
+      "title": {
+        "es": "De vuelta a lo rústico",
+        "en": "Back to the Rustics",
+        "zh": "归野",
+        "ja": "帰野",
+        "ko": "야생으로"
+      },
+      "difficulty": "Story",
+      "difficulty_es": "Historia",
+      "difficulty_zh": "叙事",
+      "difficulty_ja": "物語",
+      "difficulty_ko": "스토리",
+      "summary": {
+        "es": "La historia de Argent Flow, que abre junto con su banner. Te manda un mensaje con texto ininteligible y vas a ver qué pasó; para recuperar un burdenbeast perdido viajan juntos entre los pergaminos que dejó Si. Completar la misión secundaria da Oroberyl ×600.",
+        "en": "Argent Flow's story, opening alongside his banner. He sends you a message of garbled text and you go to find out what happened; to recover a missing burdenbeast you travel together between the scrolls Si left behind. Completing the side mission gives Oroberyl ×600.",
+        "zh": "明河的叙事活动，与其卡池同期开启。明河发来一串乱码，你决定找他一探究竟，也聊聊那段尚未讲完的往事……完成支线任务「归野」，可获得嵌晶玉×600等奖励。",
+        "ja": "ミンホの物語イベント。スカウトと同時に開催されます。ミンホから届いたのは、文字化けしたメッセージだった。真相を確かめるため彼を訪ね、まだ話していない過去を語り合うことに……サブ任務「帰野」を完了すると、赤晶玉×600などを獲得できます。",
+        "ko": "명하의 스토리 이벤트로, 명하의 헤드헌팅과 함께 열립니다. 명하에게서 글자가 잔뜩 깨진 메시지가 왔습니다. 무슨 일인지 확인하러 명하를 찾아가고, 미처 끝맺지 못한 지난 이야기도 마저 나누기로 합니다... 서브 임무 「야생으로」 완료 시 오로베릴×600 등을 획득할 수 있습니다."
+      },
+      "tags": [
+        "Argent Flow",
+        "story",
+        "side mission"
+      ],
+      "tags_es": [
+        "Argent Flow",
+        "historia",
+        "misión secundaria"
+      ],
+      "tags_zh": [
+        "明河",
+        "叙事",
+        "支线任务"
+      ],
+      "tags_ja": [
+        "ミンホ",
+        "物語",
+        "サブ任務"
+      ],
+      "tags_ko": [
+        "명하",
+        "스토리",
+        "서브 임무"
+      ],
+      "blocks": [
+        {
+          "type": "hero",
+          "banner": "https://edgeofloftiness.github.io/endsync-data/assets/events/back-to-the-rustics-hero.webp",
+          "meta": [
+            {
+              "k": {
+                "es": "Fechas",
+                "en": "Dates",
+                "zh": "日期",
+                "ja": "期間",
+                "ko": "기간"
+              },
+              "v": {
+                "es": "5 nov 2026, 12:00 (hora del servidor) → mantenimiento de la próxima versión",
+                "en": "Nov 5, 2026, 12:00 (server time) → next version update maintenance",
+                "zh": "2026年11月5日12:00（服务器时间）→ 版本更新维护前",
+                "ja": "2026年11月5日12:00（サーバー時間）→ バージョンアップメンテナンス前",
+                "ko": "2026년 11월 5일 12:00(서버 시간) → 버전 업데이트 점검 전"
+              }
+            },
+            {
+              "k": {
+                "es": "Cómo",
+                "en": "How",
+                "zh": "方式",
+                "ja": "内容",
+                "ko": "방식"
+              },
+              "v": {
+                "es": "Misión secundaria «De vuelta a lo rústico»",
+                "en": "Side mission \"Back to the Rustics\"",
+                "zh": "支线任务「归野」",
+                "ja": "サブ任務「帰野」",
+                "ko": "서브 임무 「야생으로」"
+              }
+            },
+            {
+              "k": {
+                "es": "Recompensas",
+                "en": "Rewards",
+                "zh": "奖励",
+                "ja": "報酬",
+                "ko": "보상"
+              },
+              "v": {
+                "es": "Oroberyl ×600, Elementary Cognitive Carrier y más",
+                "en": "Oroberyl ×600, Elementary Cognitive Carrier and more",
+                "zh": "嵌晶玉×600、初级认知载体等",
+                "ja": "赤晶玉×600、初級認識媒体など",
+                "ko": "오로베릴×600, 초급 인지 매개체 등"
+              }
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "h": {
+            "es": "No se pierde al cerrar",
+            "en": "It isn't lost when it closes",
+            "zh": "页面下线后仍可体验",
+            "ja": "終了後もプレイ可能",
+            "ko": "종료 후에도 진행 가능"
+          },
+          "body": {
+            "es": "Cuando se retire la página del evento, la misión secundaria sigue en [Misión] y da las mismas recompensas si cumples los requisitos de participación. Cuáles son esos requisitos no se publicó.",
+            "en": "Once the event page is removed, the side mission stays in [Mission] and gives the same rewards if you meet the participation requirements. Those requirements were not published.",
+            "zh": "叙事活动的活动页面下线后，若满足任务参与条件，仍可在【任务】中继续体验该支线任务并获得对应奖励。具体参与条件未公布。",
+            "ja": "物語イベントのページの公開が終了した後も、参加条件を満たしていれば【任務】から引き続きサブ任務をプレイし、報酬を受け取れます。参加条件の詳細は公表されていません。",
+            "ko": "스토리 이벤트 페이지가 종료된 후에도 임무 참여 조건을 만족하면 [임무]에서 계속 서브 임무를 진행하고 보상을 획득할 수 있습니다. 구체적인 참여 조건은 공개되지 않았습니다."
+          }
+        }
+      ]
+    },
+    {
+      "id": "delver-fade-beyond-the-painting",
+      "cover": "https://edgeofloftiness.github.io/endsync-data/assets/events/delver-fade-beyond-banner.webp",
+      "accent": "#6d8fb3",
+      "startsAt": "2026-11-12T04:00:00Z",
+      "source": "https://endfield.gryphline.com/en-us/news/9560",
+      "kicker": {
+        "es": "Acertijos · Explorador de lo críptico",
+        "en": "Puzzle-solving · Delver of the Cryptic",
+        "zh": "解谜活动 · 密境行者",
+        "ja": "チャレンジイベント・密境の探索者",
+        "ko": "퍼즐 이벤트 · 숨겨진 구역의 여행자"
+      },
+      "title": {
+        "es": "Desvanecerse más allá de la pintura",
+        "en": "Fade Beyond the Painting",
+        "zh": "画外遗光",
+        "ja": "絵巻外の残光",
+        "ko": "그림 너머에 남은 빛"
+      },
+      "difficulty": "Puzzle",
+      "difficulty_es": "Acertijos",
+      "difficulty_zh": "解谜",
+      "difficulty_ja": "謎解き",
+      "difficulty_ko": "퍼즐",
+      "summary": {
+        "es": "Conjunto espacial nuevo del modo permanente Explorador de lo críptico: seis Espacios de protocolo con mecánicas de acertijos, tres el 12 de noviembre y tres el 19. Tras el despertar del Endministrator, Endfield Industries reinició el proyecto para explorar estos pequeños Espacios de protocolo cambiantes.",
+        "en": "A new spatial set for the permanent mode Delver of the Cryptic: six Protocol Spaces with puzzle mechanics, three on Nov 12 and three on Nov 19. After the Endministrator's awakening, Endfield Industries restarted the project to explore these small, ever-changing Protocol Spaces.",
+        "zh": "「密境行者」空间组更新「画外遗光」：率先开放3个协议空间，11月19日再开放3个。随着管理员醒来，终末地工业重启了对这些小型、多变协议空间的探索计划。",
+        "ja": "「密境の探索者」に新しい空間群「絵巻外の残光」が追加。先行して3つの協約空間、11月19日に残り3つが開放されます。管理人の目覚めと共に、エンドフィールドはこうした小型で多様な変化を示す協約空間への探索計画を再開した。",
+        "ko": "「숨겨진 구역의 여행자」에 새로운 공간 그룹 「그림 너머에 남은 빛」이 개방됩니다. 프로토콜 공간 3개가 먼저, 11월 19일에 3개가 이어서 열립니다. 관리자가 깨어난 순간부터 엔드필드 공업은 작고도 변화무쌍한 프로토콜 공간을 향한 탐색 계획을 재가동하기 시작했습니다."
+      },
+      "tags": [
+        "Delver of the Cryptic",
+        "puzzles",
+        "permanent"
+      ],
+      "tags_es": [
+        "Explorador de lo críptico",
+        "acertijos",
+        "permanente"
+      ],
+      "tags_zh": [
+        "密境行者",
+        "解谜",
+        "常驻"
+      ],
+      "tags_ja": [
+        "密境の探索者",
+        "謎解き",
+        "常時開放"
+      ],
+      "tags_ko": [
+        "숨겨진 구역의 여행자",
+        "퍼즐",
+        "상시"
+      ],
+      "blocks": [
+        {
+          "type": "hero",
+          "banner": "https://edgeofloftiness.github.io/endsync-data/assets/events/delver-fade-beyond-banner.webp",
+          "meta": [
+            {
+              "k": {
+                "es": "Fechas",
+                "en": "Dates",
+                "zh": "日期",
+                "ja": "期間",
+                "ko": "기간"
+              },
+              "v": {
+                "es": "3 espacios el 12 nov 2026, 12:00 · 3 más el 19 nov 2026, 04:00 (hora del servidor)",
+                "en": "3 spaces on Nov 12, 2026, 12:00 · 3 more on Nov 19, 2026, 04:00 (server time)",
+                "zh": "2026年11月12日12:00开放3个 · 11月19日04:00再开放3个（服务器时间）",
+                "ja": "2026年11月12日12:00に3つ・11月19日04:00に残り3つ（サーバー時間）",
+                "ko": "2026년 11월 12일 12:00에 3개 · 11월 19일 04:00에 3개 추가(서버 시간)"
+              }
+            },
+            {
+              "k": {
+                "es": "Modo",
+                "en": "Mode",
+                "zh": "玩法",
+                "ja": "コンテンツ",
+                "ko": "콘텐츠"
+              },
+              "v": {
+                "es": "Explorador de lo críptico (permanente)",
+                "en": "Delver of the Cryptic (permanent)",
+                "zh": "密境行者（常驻）",
+                "ja": "密境の探索者（常時開放）",
+                "ko": "숨겨진 구역의 여행자(상시)"
+              }
+            },
+            {
+              "k": {
+                "es": "Recompensas",
+                "en": "Rewards",
+                "zh": "奖励",
+                "ja": "報酬",
+                "ko": "보상"
+              },
+              "v": {
+                "es": "Oroberyl ×1200, Mark of Perseverance y materiales",
+                "en": "Oroberyl ×1200, Mark of Perseverance and materials",
+                "zh": "嵌晶玉×1200、存续的痕迹及养成材料",
+                "ja": "赤晶玉×1,200、存続の痕跡、育成素材",
+                "ko": "오로베릴×1,200, 존속의 흔적, 육성 재료"
+              }
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warn",
+          "h": {
+            "es": "Lo que no está en las fuentes oficiales",
+            "en": "Not in the official sources",
+            "zh": "官方资料未公布的内容",
+            "ja": "公式情報に掲載されていない内容",
+            "ko": "공식 자료에 없는 내용"
+          },
+          "body": {
+            "es": "Las mecánicas de cada Espacio de protocolo y si las recompensas tienen fecha límite no se publicaron; las notas solo dicen que se reclaman al completar los desafíos del conjunto.",
+            "en": "The mechanics of each Protocol Space and whether the rewards have a deadline were not published; the notes only say they are claimed by completing the set's challenges.",
+            "zh": "各协议空间的机制以及奖励是否有领取期限未公布；版本更新说明仅提及完成该空间组挑战即可累计领取。",
+            "ja": "各協約空間のギミックや報酬の受け取り期限の有無は公表されていません。バージョン更新ノートには、空間群のチャレンジをクリアすると累計で獲得できるとだけ記載されています。",
+            "ko": "각 프로토콜 공간의 기믹과 보상 수령 기한 여부는 공개되지 않았습니다. 버전 업데이트 노트에는 공간 그룹 도전을 완료하면 보상을 수령할 수 있다고만 나와 있습니다."
           }
         }
       ]
