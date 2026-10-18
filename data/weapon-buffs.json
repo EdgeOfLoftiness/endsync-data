@@ -4552,6 +4552,259 @@
      }
     }
    ]
+  },
+  "Jade Vessel": {
+   "operator": "si",
+   "passive": "Efficacy: Dabbles of Ink",
+   "buffs": [
+    {
+     "id": "jade_vessel_immob_taken",
+     "src": "Efficacy: Dabbles of Ink",
+     "target": "team",
+     "label": {
+      "en": "Efficacy: Dabbles of Ink (DMG Taken)",
+      "es": "Eficacia: Salpicaduras de tinta (DAÑ recibido)",
+      "zh": "效益·落墨添彩（受到的伤害）",
+      "ja": "効率・墨筆の彩り（受けるダメージ）",
+      "ko": "효율 · 먹빛에 더한 색채 (받는 피해)"
+     },
+     "cond": {
+      "en": "When the wielder applies Immobilization on the enemy, the target enemy suffers DMG Taken +21.0% for 30s. The two effects apply separately and do not stack with themselves.",
+      "es": "Cuando el portador aplica Inmovilización al enemigo, el enemigo objetivo sufre DAÑ recibido +21.0% durante 30 s. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+      "zh": "装备者对敌人施加定身时，使目标敌人受到的伤害+21.0%，持续30秒。两种效果独立生效，且均无法叠加。",
+      "ja": "装備中、自身が敵に行動停止を付与するとき、30秒間その敵の受けるダメージ+21.0% 2つの効果はそれぞれ存在し、重ね掛け不可",
+      "ko": "장착자가 적에게 속박을 부여하면 해당 적이 받는 피해 +21.0%, 30초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다."
+     },
+     "mods": [
+      {
+       "type": "enemyDmgTaken",
+       "byNode": [
+        0.075,
+        0.09,
+        0.105,
+        0.12,
+        0.135,
+        0.15,
+        0.165,
+        0.18,
+        0.21
+       ]
+      }
+     ],
+     "trigger": {
+      "onApplyCC": "immobilize"
+     },
+     "durS": 30,
+     "noStack": true
+    },
+    {
+     "id": "jade_vessel_next_combo",
+     "src": "Efficacy: Dabbles of Ink",
+     "target": "self",
+     "label": {
+      "en": "Efficacy: Dabbles of Ink (next combo skill)",
+      "es": "Eficacia: Salpicaduras de tinta (siguiente habilidad de combo)",
+      "zh": "效益·落墨添彩（下个连携技）",
+      "ja": "効率・墨筆の彩り（次の連携技）",
+      "ko": "효율 · 먹빛에 더한 색채 (다음 연계 스킬)"
+     },
+     "cond": {
+      "en": "When the wielder applies Immobilization on the enemy or after the wielder casts an ultimate, the next combo skill cast within 20s gains DMG Dealt +70.0%. The two effects apply separately and do not stack with themselves.",
+      "es": "Cuando el portador aplica Inmovilización al enemigo o después de que el portador lance una máxima, la siguiente habilidad de combo lanzada dentro de 20 s obtiene DAÑ infligido +70.0%. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+      "zh": "装备者对敌人施加定身或施放终结技后，20秒内的下个连携技造成的伤害+70.0%。两种效果独立生效，且均无法叠加。",
+      "ja": "自身が敵に行動停止を付与するか必殺技を発動すると、20秒以内の次の連携技で与えるダメージ+70.0% 2つの効果はそれぞれ存在し、重ね掛け不可",
+      "ko": "장착자가 적에게 속박을 부여하거나 궁극기를 사용한 후, 20초 내에 발동하는 다음 연계 스킬로 주는 피해 +70.0% 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "slot": "combo_skill",
+       "byNode": [
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5,
+        0.55,
+        0.6,
+        0.7
+       ]
+      }
+     ],
+     "trigger": {
+      "onAny": [
+       {
+        "onApplyCC": "immobilize"
+       },
+       {
+        "onCastSlot": "ult"
+       }
+      ],
+      "untilNext": "combo"
+     },
+     "durS": 20,
+     "noStack": true
+    }
+   ]
+  },
+  "Long Heritage": {
+   "operator": "",
+   "passive": "Efficacy: Secret History",
+   "buffs": [
+    {
+     "id": "long_heritage_bs_cryo",
+     "src": "Efficacy: Secret History",
+     "target": "self",
+     "label": {
+      "en": "Efficacy: Secret History (Cryo DMG)",
+      "es": "Eficacia: Historia secreta (DAÑ criogénico)",
+      "zh": "效益·秘辛史话（寒冷伤害）",
+      "ja": "効率・秘史（寒冷ダメージ）",
+      "ko": "효율 · 숨겨진 역사 (냉기 피해)"
+     },
+     "cond": {
+      "en": "When the wielder's battle skill applies Cryo Infliction or Heat Infliction, the wielder gains Cryo DMG Dealt +16.8% for 20s. The two effects apply separately and do not stack with themselves.",
+      "es": "Cuando la habilidad de batalla del portador aplica Imposición criogénica o Imposición de calor, el portador obtiene DAÑ criogénico infligido +16.8% durante 20 s. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+      "zh": "装备者通过战技施加寒冷附着或灼热附着时，寒冷伤害+16.8%，持续20秒。两种效果独立生效，且均无法叠加。",
+      "ja": "装備中、自身の戦技で寒冷付着または灼熱付着を付与するとき、20秒間寒冷ダメージ+16.8% 2つの効果はそれぞれ存在し、重ね掛け不可",
+      "ko": "장착자가 배틀 스킬로 냉기 부착 혹은 열기 부착을 부여하면 냉기 피해 +16.8%, 20초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "cryo",
+       "byNode": [
+        0.06,
+        0.072,
+        0.084,
+        0.096,
+        0.108,
+        0.12,
+        0.132,
+        0.144,
+        0.168
+       ]
+      }
+     ],
+     "trigger": {
+      "onAny": [
+       {
+        "onApplyInfliction": "cryo_infl"
+       },
+       {
+        "onApplyInfliction": "heat_infl"
+       }
+      ],
+      "slot": "battle"
+     },
+     "durS": 20,
+     "noStack": true
+    },
+    {
+     "id": "long_heritage_amp_team",
+     "src": "Efficacy: Secret History",
+     "target": "team",
+     "label": {
+      "en": "Efficacy: Secret History (team Arts DMG)",
+      "es": "Eficacia: Historia secreta (DAÑ por artes del equipo)",
+      "zh": "效益·秘辛史话（全队法术伤害）",
+      "ja": "効率・秘史（チーム全員のアーツダメージ）",
+      "ko": "효율 · 숨겨진 역사 (팀 전체의 아츠 피해)"
+     },
+     "cond": {
+      "en": "When the wielder grants Arts Amp to another operator in the team, the entire team gains Arts DMG Dealt +11.2% for 20s. The two effects apply separately and do not stack with themselves.",
+      "es": "Cuando el portador otorga Amp de artes a otro operador del equipo, todo el equipo obtiene DAÑ por artes infligido +11.2% durante 20 s. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+      "zh": "装备者对小队内其他干员施加法术增幅后，全队法术伤害+11.2%，持续20秒。两种效果独立生效，且均无法叠加。",
+      "ja": "自身がチーム内の他のオペレーターにアーツ増幅を付与すると、20秒間チーム全員のアーツダメージ+11.2% 2つの効果はそれぞれ存在し、重ね掛け不可",
+      "ko": "장착자가 팀 내 다른 오퍼레이터에게 아츠 증폭을 부여한 후, 팀 전체의 아츠 피해 +11.2%, 20초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "arts",
+       "byNode": [
+        0.04,
+        0.048,
+        0.056,
+        0.064,
+        0.072,
+        0.08,
+        0.088,
+        0.096,
+        0.112
+       ]
+      }
+     ],
+     "trigger": {
+      "onGrantBuff": {
+       "type": "dmgAmp",
+       "element": "arts"
+      }
+     },
+     "durS": 20,
+     "noStack": true
+    }
+   ]
+  },
+  "Complexed Industry": {
+   "operator": "",
+   "passive": "Detonate: Complexed Advantage",
+   "buffs": [
+    {
+     "id": "complexed_industry_combo_elec",
+     "src": "Detonate: Complexed Advantage",
+     "target": "self",
+     "cond": {
+      "en": "When the wielder's combo skill applies Electric Infliction, the wielder gains Arts Intensity +42 and Electric DMG Dealt +22.4% for 15s. Effects of the same name cannot stack.",
+      "es": "Cuando la habilidad de combo del portador aplica Imposición eléctrica, el portador obtiene Intensidad de Artes +42 y DAÑ eléctrico infligido +22.4% durante 15 s. Los efectos con el mismo nombre no se pueden acumular.",
+      "zh": "通过自身连携技施加电磁附着时，源石技艺强度+42，电磁伤害+22.4%，持续15秒。同名效果无法叠加。",
+      "ja": "装備中、自身の連携技で電磁付着を付与するとき、15秒間アーツ強度+42、電磁ダメージ+22.4% 同名効果は重ね掛け不可",
+      "ko": "장착자가 자신의 연계 스킬로 전기 부착을 부여할 시, 오리지늄 아츠 강도 +42, 전기 피해 +22.4%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+     },
+     "mods": [
+      {
+       "type": "artsInt",
+       "byNode": [
+        15,
+        18,
+        21,
+        24,
+        27,
+        30,
+        33,
+        36,
+        42
+       ]
+      },
+      {
+       "type": "dmgAdd",
+       "element": "electric",
+       "byNode": [
+        0.08,
+        0.096,
+        0.112,
+        0.128,
+        0.144,
+        0.16,
+        0.176,
+        0.192,
+        0.224
+       ]
+      }
+     ],
+     "trigger": {
+      "onAny": [
+       {
+        "onApplyInfliction": "electric_infl"
+       }
+      ],
+      "slot": "combo"
+     },
+     "durS": 15,
+     "noStack": true
+    }
+   ]
   }
  }
 }
