@@ -1,5 +1,25 @@
 {
  "_resources": {
+  "tangtang": {
+   "whirlpool": {
+    "createdBy": {
+     "combo_skill": 1
+    },
+    "durS_base": 30,
+    "consumedBy": "battle_skill",
+    "max": 2,
+    "appliesInfl": null,
+    "label": "Whirlpool",
+    "spPer": {
+     "per": 20,
+     "keystone": {
+      "keystone": "Reserve Hoard",
+      "add": 5
+     }
+    },
+    "extraStat": "DMG Multiplier (1 Waterspout)"
+   }
+  },
   "avywenna": {
    "thunderlance": {
     "createdBy": {
@@ -11,7 +31,14 @@
     "appliesInfl": null,
     "dmgMultStat": "Thunderlance DMG Multiplier",
     "label": "Thunderlance",
-    "keystone": "Pole of Menace"
+    "keystone": "Pole of Menace",
+    "ueOnHit": {
+     "per": 4,
+     "keystone": {
+      "keystone": "Doubling Down",
+      "add": 2
+     }
+    }
    },
    "thunderlance_ex": {
     "createdBy": {
@@ -23,7 +50,14 @@
     "appliesInfl": "electric",
     "dmgMultStat": "Thunderlance EX DMG Multiplier",
     "label": "Thunderlance EX",
-    "keystone": "Pole of Menace"
+    "keystone": "Pole of Menace",
+    "ueOnHit": {
+     "per": 4,
+     "keystone": {
+      "keystone": "Doubling Down",
+      "add": 2
+     }
+    }
    }
   }
  },
@@ -42,6 +76,7 @@
     "forces": [
      {
       "reaction": "solidification",
+      "noHit": true,
       "requiresAny": [
        "cryo_infl"
       ],
@@ -60,6 +95,7 @@
   "antal": {
    "combo_skill": {
     "copies": {
+     "physical": true
     }
    }
   },
@@ -80,10 +116,12 @@
     "forces": [
      {
       "reaction": "electrification",
+      "noHit": true,
       "requiresAny": [
        "electric_infl"
       ],
-      "consumes": "electric_infl"
+      "consumes": "electric_infl",
+      "afterApplies": true
      }
     ]
    }
@@ -99,7 +137,13 @@
    "combo_skill": {
     "forces": [
      {
-      "reaction": "corrosion"
+      "reaction": "corrosion",
+      "noHit": true,
+      "durStat": "Corrode Duration (s)",
+      "durBoost": {
+       "keystone": "Volcanic Steam",
+       "add": 4
+      }
      }
     ]
    }
@@ -115,6 +159,16 @@
    }
   },
   "estella": {
+   "ultimate": {
+    "applies": [
+     {
+      "el": "physical",
+      "status": "lift",
+      "forced": true,
+      "whenState": "physical_susceptibility"
+     }
+    ]
+   },
    "battle_skill": {
     "applies": [
      {
@@ -125,7 +179,9 @@
    "combo_skill": {
     "applies": [
      {
-      "el": "physical"
+      "el": "physical",
+      "status": "lift",
+      "forced": true
      }
     ]
    }
@@ -147,7 +203,8 @@
      "requiresAny": [
       "cryo_infl",
       "nature_infl"
-     ]
+     ],
+     "minStacks": 2
     }
    }
   },
@@ -156,6 +213,15 @@
     "applies": [
      {
       "el": "nature"
+     }
+    ]
+   },
+   "combo_skill": {
+    "applies": [
+     {
+      "el": "physical",
+      "status": "lift",
+      "forced": true
      }
     ]
    },
@@ -206,7 +272,9 @@
     "modes": {
      "will": {
       "forces": [],
-      "copies": {}
+      "copies": {
+       "options": [1]
+      }
      }
     }
    }
@@ -215,7 +283,19 @@
    "battle_skill": {
     "meltingFlame": {
      "grant": 1,
-     "consumeForce": "combustion"
+     "consumeForce": "combustion",
+     "forceDurStat": "Combustion Duration (s)",
+     "forceNoHit": true,
+     "ueStat": "Additional ATK Ultimate Energy Gain",
+     "spOnForce": {
+      "keystone": "Heart of Melting Flame",
+      "sp": 20
+     },
+     "forceBoost": {
+      "keystone": "Fragments from the Past",
+      "durMult": 1.5,
+      "dotMult": 1.5
+     }
     }
    },
    "combo_skill": {
@@ -224,15 +304,11 @@
     }
    },
    "basic_attack": {
-    "consumes": [
-     {
-      "state": "heat_infl"
-     }
-    ],
     "applies": [
      {
       "el": "heat",
-      "whenState": "lvt_ult"
+      "whenState": "lvt_ult",
+      "seq": 3
      }
     ],
     "meltingFlame": {
@@ -241,6 +317,24 @@
    }
   },
   "lastrite": {
+   "battle_skill": {
+    "applies": [
+     {
+      "el": "cryo",
+      "options": [
+       "mirage"
+      ]
+     }
+    ],
+    "mirage": {
+     "durStat": "Duration (s)",
+     "fsBoost": {
+      "keystone": "Undertaker's Gift",
+      "mult": 1.2,
+      "stagger": 5
+     }
+    }
+   },
    "combo_skill": {
     "consumes": [
      {
@@ -261,6 +355,8 @@
     "forces": [
      {
       "reaction": "electrification",
+      "noHit": true,
+      "durStat": "Electrify Duration (s)",
       "debuffBoost": {
        "keystone": "Constant Guidance",
        "mult": 1.33
@@ -282,6 +378,10 @@
     ],
     "applies": [
      {
+      "el": "physical",
+      "status": "lift"
+     },
+     {
       "el": "physical"
      }
     ]
@@ -296,20 +396,87 @@
    "battle_skill": {
     "applies": [
      {
-      "el": "physical"
+      "el": "physical",
+      "status": "lift"
      }
     ]
    }
   },
+  "si": {
+   "battle_skill": {
+    "applies": [
+     {
+      "el": "cryo",
+      "leadEl": "heat"
+     }
+    ]
+   }
+  },
+  "argentflow": {
+    "battle_skill": {
+      "applies": [
+        {
+          "el": "physical",
+          "status": "lift",
+          "options": [
+            2
+          ]
+        }
+      ],
+      "forces": [
+        {
+          "reaction": "electrification",
+          "noHit": true,
+          "consumes": "electric_infl",
+          "options": [
+            1
+          ]
+        }
+      ]
+    },
+    "combo_skill": {
+      "applies": [
+        {
+          "el": "electric"
+        }
+      ]
+    },
+    "ultimate": {
+      "applies": [
+        {
+          "el": "electric"
+        }
+      ],
+      "consumes": [
+        {
+          "state": "vulnerability",
+          "reaction": "crush"
+        }
+      ]
+    }
+  },
   "snowshine": {
+   "battle_skill": {
+    "grantsStatus": [
+     "protection"
+    ],
+    "applies": [
+     {
+      "el": "cryo"
+     }
+    ]
+   },
    "ultimate": {
     "forces": [
      {
       "reaction": "solidification",
+      "noHit": true,
       "durBoost": {
        "keystone": "Polar Survival Guide",
        "add": 2
-      }
+      },
+      "options": ["diferida"],
+      "delayS": 1
      }
     ]
    }
@@ -321,6 +488,44 @@
       "el": "cryo"
      }
     ]
+   },
+   "ultimate": {
+    "applies": [
+     {
+      "el": "cryo",
+      "options": ["waterspout"]
+     }
+    ],
+    "oldenStare": {
+     "startS": 2.75,
+     "durS": 3.99,
+     "dotStat": "DMG Over Time Total Multiplier",
+     "waveStat": "Rogue Wave DMG Multiplier",
+     "earlyStat": "Early Rogue Wave DMG Multiplier",
+     "waveStaggerStat": "Rogue Wave Stagger",
+     "earlyStaggerStat": "Early Rogue Wave Stagger",
+     "waterspout": {
+      "stat": "DMG Multiplier (1 Waterspout)",
+      "from": "battle_skill",
+      "durS": 3,
+      "tickS": 0.3,
+      "dmgAdd": 0.6,
+      "ksAdd": {
+       "keystone": "Chief's All-Eldritch Gaze",
+       "add": 0.8
+      },
+      "resource": "whirlpool",
+      "spPer": 20,
+      "susc": {
+       "per": 0.05,
+       "durS": 15,
+       "ksAdd": {
+        "keystone": "Chiefly Vibe",
+        "add": 0.05
+       }
+      }
+     }
+    }
    }
   },
   "wulfgard": {
@@ -351,9 +556,12 @@
     ]
    },
    "ultimate": {
+    "atHit": 0,
+    "beforeHit": true,
     "forces": [
      {
-      "reaction": "combustion"
+      "reaction": "combustion",
+      "noHit": true
      }
     ]
    }
@@ -372,6 +580,7 @@
     "forces": [
      {
       "reaction": "solidification",
+      "noHit": true,
       "requiresAny": [
        "cryo_infl",
        "nature_infl"
@@ -383,13 +592,50 @@
    "combo_skill": {
     "forces": [
      {
-      "reaction": "solidification"
+      "reaction": "solidification",
+      "noHit": true
+     }
+    ]
+   },
+   "ultimate": {
+    "consumes": [
+     {
+      "state": "solidification"
      }
     ]
    }
   },
   "zhuangfangyi": {
    "battle_skill": {
+    "atHit": 0,
+    "sunderblades": {
+     "consumes": "electrification",
+     "perCast": 3,
+     "minField": 3,
+     "durStat": "Sunderblade Duration (s)",
+     "limitStat": "Sunderblade Limit",
+     "strikeStat": "Thunder Strike DMG Multiplier",
+     "strikeStatUlt": "During Ultimate: Thunder Strike DMG Multiplier",
+     "bonusStat": "Bonus DMG Multiplier per Status Level of Electrification Consumed",
+     "bonusStatUlt": "During Ultimate: Bonus DMG Multiplier per Status Level of Electrification Consumed",
+     "finalMult": 6,
+     "ultState": "zfy_ult",
+     "ueStat": "Bonus Ultimate Energy per Thunder Strike",
+     "firstExtra": {
+      "keystone": "Four Symbols of Harmony",
+      "add": 1
+     },
+     "consumeBonus": {
+      "keystone": "Sense and Response",
+      "sp": 10,
+      "durAdd": 10
+     },
+     "amp": {
+      "src": "Force of Nature",
+      "perStrike": 0.02,
+      "durS": 5
+     }
+    },
     "consumes": [
      {
       "state": "electrification"
@@ -398,7 +644,11 @@
     "applies": [
      {
       "el": "electric",
-      "whenState": "zfy_ult"
+      "whenState": "zfy_ult",
+      "options": [
+       "diferida"
+      ],
+      "delayS": 3.031
      }
     ]
    },
@@ -406,6 +656,8 @@
     "forces": [
      {
       "reaction": "electrification",
+      "noHit": true,
+      "levelUp": true,
       "requiresAny": [
        "electric_infl"
       ],
@@ -416,9 +668,13 @@
   },
   "camille": {
    "battle_skill": {
+    "grantsStatus": [
+     "weakness"
+    ],
     "applies": [
      {
-      "el": "heat"
+      "el": "heat",
+      "options": [1]
      }
     ]
    },
@@ -432,6 +688,9 @@
   },
   "catcher": {
    "battle_skill": {
+    "grantsStatus": [
+     "protection"
+    ],
     "applies": [
      {
       "el": "physical"
@@ -439,9 +698,13 @@
     ]
    },
    "ultimate": {
+    "grantsStatus": [
+     "weakness"
+    ],
     "applies": [
      {
-      "el": "physical"
+      "el": "physical",
+      "status": "knockdown"
      }
     ]
    }
@@ -450,14 +713,16 @@
    "battle_skill": {
     "applies": [
      {
-      "el": "physical"
+      "el": "physical",
+      "status": "lift"
      }
     ]
    },
    "combo_skill": {
     "applies": [
      {
-      "el": "physical"
+      "el": "physical",
+      "status": "lift"
      }
     ]
    }
@@ -466,17 +731,27 @@
    "battle_skill": {
     "applies": [
      {
-      "el": "physical"
+      "el": "physical",
+      "status": "lift"
+     },
+     {
+      "el": "physical",
+      "ks": "Fire it Up",
+      "cdS": 45
      }
     ]
    },
    "ultimate": {
     "applies": [
      {
-      "el": "physical"
+      "el": "physical",
+      "status": "lift",
+      "forced": true
      },
      {
-      "el": "physical"
+      "el": "physical",
+      "status": "knockdown",
+      "forced": true
      }
     ]
    },
@@ -499,16 +774,24 @@
   },
   "ember": {
    "battle_skill": {
+    "grantsStatus": [
+     "protection"
+    ],
     "applies": [
      {
-      "el": "physical"
+      "el": "physical",
+      "status": "knockdown"
      }
     ]
    },
    "combo_skill": {
+    "grantsStatus": [
+     "protection"
+    ],
     "applies": [
      {
-      "el": "physical"
+      "el": "physical",
+      "status": "knockdown"
      }
     ]
    }
@@ -517,17 +800,20 @@
    "battle_skill": {
     "applies": [
      {
-      "el": "physical"
+      "el": "physical",
+      "status": "knockdown"
      }
     ]
    },
    "ultimate": {
     "applies": [
      {
-      "el": "physical"
+      "el": "physical",
+      "status": "knockdown"
      },
      {
-      "el": "physical"
+      "el": "physical",
+      "status": "knockdown"
      }
     ]
    }
@@ -536,7 +822,9 @@
    "ultimate": {
     "applies": [
      {
-      "el": "physical"
+      "el": "physical",
+      "status": "lift",
+      "forced": true
      }
     ]
    },
@@ -566,6 +854,12 @@
   },
   "endministrator": {
    "battle_skill": {
+    "crystals": {
+     "spReturn": {
+      "keystone": "Final Awakening",
+      "sp": 50
+     }
+    },
     "consumes": [
      {
       "state": "vulnerability",
@@ -580,6 +874,24 @@
       ]
      }
     ]
+   },
+   "combo_skill": {
+    "marks": [
+     "originium"
+    ],
+    "crystals": {
+     "durStat": "Seal Duration (s)",
+     "shatterStat": "Crystal Shattering DMG Multiplier"
+    }
+   },
+   "ultimate": {
+    "crystals": {
+     "consume": true,
+     "ueReturn": {
+      "keystone": "The Guide",
+      "ue": 15
+     }
+    }
    }
   },
   "pogranichnik": {
@@ -596,14 +908,6 @@
       "unlessAny": [
        "vulnerability"
       ]
-     }
-    ]
-   },
-   "combo_skill": {
-    "consumes": [
-     {
-      "state": "vulnerability",
-      "reaction": "crush"
      }
     ]
    },
@@ -627,16 +931,21 @@
    "ultimate": {
     "forces": [
      {
-      "reaction": "electrification"
+      "reaction": "electrification",
+      "noHit": true
      }
     ]
    }
   },
   "purrchena": {
    "battle_skill": {
+    "grantsStatus": [
+     "protection"
+    ],
     "applies": [
      {
-      "el": "nature"
+      "el": "nature",
+      "options": [2]
      }
     ]
    }
@@ -656,6 +965,22 @@
      "abatkStat": "ABATK DMG Multiplier",
      "finalStat": "Aerial Final Strike DMG Multiplier",
      "powerShot": {
+      "label": {
+       "en": "Power Shot",
+       "es": "Disparo potente",
+       "zh": "强化射击",
+       "zh-TW": "強化射擊",
+       "ja": "強化射撃",
+       "ko": "강력한 사격"
+      },
+      "burstLabel": {
+       "en": "Nature Burst",
+       "es": "Ráfaga de naturaleza",
+       "zh": "自然爆发",
+       "zh-TW": "自然爆發",
+       "ja": "自然爆発",
+       "ko": "자연 폭발"
+      },
       "burst": "nature",
       "multStat": "Power Shot Nature Burst DMG Multiplier",
       "empoweredMult": 1.6,

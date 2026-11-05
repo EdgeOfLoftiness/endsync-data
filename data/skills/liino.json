@@ -25,6 +25,7 @@
           ],
           "name_es": "Multiplicador ATQB SEC 1",
           "name_zh": "普攻第一段倍率",
+          "name_zh-TW": "普攻第一段倍率",
           "name_ja": "通常攻撃1段目ダメージ倍率",
           "name_ko": "일반 공격 제1단계 배율"
         },
@@ -47,6 +48,7 @@
           ],
           "name_es": "Multiplicador ATQB SEC 2",
           "name_zh": "普攻第二段倍率",
+          "name_zh-TW": "普攻第二段倍率",
           "name_ja": "通常攻撃2段目ダメージ倍率",
           "name_ko": "일반 공격 제2단계 배율"
         },
@@ -69,6 +71,7 @@
           ],
           "name_es": "Multiplicador ATQB SEC 3",
           "name_zh": "普攻第三段倍率",
+          "name_zh-TW": "普攻第三段倍率",
           "name_ja": "通常攻撃3段目ダメージ倍率",
           "name_ko": "일반 공격 제3단계 배율"
         },
@@ -91,6 +94,7 @@
           ],
           "name_es": "Multiplicador ATQB SEC 4",
           "name_zh": "普攻第四段倍率",
+          "name_zh-TW": "普攻第四段倍率",
           "name_ja": "通常攻撃4段目ダメージ倍率",
           "name_ko": "일반 공격 제4단계 배율"
         },
@@ -113,6 +117,7 @@
           ],
           "name_es": "Multiplicador ATQB SEC 5",
           "name_zh": "普攻第五段倍率",
+          "name_zh-TW": "普攻第五段倍率",
           "name_ja": "通常攻撃5段目ダメージ倍率",
           "name_ko": "일반 공격 제5단계 배율"
         },
@@ -134,6 +139,7 @@
             900
           ],
           "name_zh": "处决攻击倍率",
+          "name_zh-TW": "處決攻擊倍率",
           "name_ja": "終撃ダメージ倍率",
           "name_ko": "처형 공격 배율",
           "name_es": "Multiplicador ATQ Remate"
@@ -157,6 +163,7 @@
           ],
           "name_es": "Multiplicador ATQ de Inmersión",
           "name_zh": "下落攻击倍率",
+          "name_zh-TW": "下墜攻擊倍率",
           "name_ja": "落下攻撃ダメージ倍率",
           "name_ko": "낙하 공격 배율"
         }
@@ -184,6 +191,7 @@
           ],
           "name_es": "Costo de PH",
           "name_zh": "技力消耗",
+          "name_zh-TW": "技力消耗",
           "name_ja": "SP消費",
           "name_ko": "스킬 게이지 소모"
         },
@@ -206,6 +214,7 @@
           ],
           "name_es": "Multiplicador de Primer ATQ",
           "name_zh": "初次伤害倍率",
+          "name_zh-TW": "初次傷害倍率",
           "name_ja": "初回ダメージ倍率",
           "name_ko": "초회 피해 배율"
         },
@@ -227,9 +236,10 @@
             120
           ],
           "name_es": "Multiplicador de DAÑ de ATQ adicional",
-          "name_zh": "追加伤害倍率",
-          "name_ja": "追加ダメージ倍率",
-          "name_ko": "추가 피해 배율"
+          "name_zh": "追加攻击伤害倍率",
+          "name_zh-TW": "追加攻擊傷害倍率",
+          "name_ja": "追加攻撃ダメージ倍率",
+          "name_ko": "추가 공격 피해 배율"
         },
         {
           "name": "Additional ATK Interval (s)",
@@ -250,6 +260,7 @@
           ],
           "name_es": "Intervalo de ATQ adicional (s)",
           "name_zh": "追加攻击间隔时间（秒）",
+          "name_zh-TW": "追加攻擊間隔時間（秒）",
           "name_ja": "追加攻撃間隔（秒）",
           "name_ko": "추가 공격 간격(초)"
         },
@@ -272,6 +283,7 @@
           ],
           "name_es": "Intervalo de Pulso (s)",
           "name_zh": "歌声间隔时间（秒）",
+          "name_zh-TW": "歌聲間隔時間（秒）",
           "name_ja": "歌唱間隔（秒）",
           "name_ko": "노랫소리 간격(초)"
         },
@@ -294,6 +306,7 @@
           ],
           "name_es": "Duración de la Postura de vocalista (s)",
           "name_zh": "演唱姿态持续时间（秒）",
+          "name_zh-TW": "演唱姿態持續時間（秒）",
           "name_ja": "ライブモード持続時間（秒）",
           "name_ko": "라이브 모드 지속 시간(초)"
         },
@@ -316,6 +329,7 @@
           ],
           "name_es": "Refuerzo de ATQ",
           "name_zh": "攻击力提升",
+          "name_zh-TW": "攻擊力提升",
           "name_ja": "攻撃力UP",
           "name_ko": "공격력 증가"
         },
@@ -338,6 +352,7 @@
           ],
           "name_es": "Tratamiento base",
           "name_zh": "基础治疗值",
+          "name_zh-TW": "基礎治療值",
           "name_ja": "基礎回復値",
           "name_ko": "기초 치유 수치"
         },
@@ -360,6 +375,7 @@
           ],
           "name_es": "Incremento de tratamiento por Agilidad",
           "name_zh": "每点敏捷增加的治疗值",
+          "name_zh-TW": "每點敏捷增加的治療值",
           "name_ja": "敏捷1ごとの回復値UP",
           "name_ko": "민첩 1포인트마다 증가하는 치유 수치"
         },
@@ -382,6 +398,7 @@
           ],
           "name_es": "Tambaleo",
           "name_zh": "失衡值",
+          "name_zh-TW": "失衡值",
           "name_ja": "ブレイク値",
           "name_ko": "불균형치"
         }
@@ -410,6 +427,7 @@
           "name_ko": "쿨타임",
           "name_es": "Tiempo de reutilización",
           "name_zh": "冷却",
+          "name_zh-TW": "冷卻",
           "name_ja": "クールタイム"
         },
         {
@@ -431,6 +449,7 @@
           ],
           "name_es": "Multiplicador de DAÑ",
           "name_zh": "伤害倍率",
+          "name_zh-TW": "傷害倍率",
           "name_ja": "ダメージ倍率",
           "name_ko": "피해 배율"
         },
@@ -453,6 +472,7 @@
           ],
           "name_es": "Tambaleo",
           "name_zh": "失衡值",
+          "name_zh-TW": "失衡值",
           "name_ja": "ブレイク値",
           "name_ko": "불균형치"
         },
@@ -475,6 +495,7 @@
           ],
           "name_es": "Ganancia de Energía máxima",
           "name_zh": "获得终结技能量",
+          "name_zh-TW": "獲得終結技能量",
           "name_ja": "必殺チャージ回復量",
           "name_ko": "획득하는 궁극기 에너지"
         },
@@ -497,6 +518,7 @@
           ],
           "name_es": "Tratamiento base",
           "name_zh": "基础治疗值",
+          "name_zh-TW": "基礎治療值",
           "name_ja": "基礎回復値",
           "name_ko": "기초 치유 수치"
         },
@@ -519,6 +541,7 @@
           ],
           "name_es": "Incremento de tratamiento por Agilidad",
           "name_zh": "每点敏捷增加的治疗值",
+          "name_zh-TW": "每點敏捷增加的治療值",
           "name_ja": "敏捷1ごとの回復値UP",
           "name_ko": "민첩 1포인트마다 증가하는 치유 수치"
         }
@@ -546,6 +569,7 @@
           ],
           "name_es": "Costo de energía máxima",
           "name_zh": "所需终结技能量",
+          "name_zh-TW": "所需終結技能量",
           "name_ja": "必殺チャージ消費",
           "name_ko": "필요한 궁극기 에너지"
         },
@@ -568,6 +592,7 @@
           ],
           "name_es": "Multiplicador de DAÑ de Pirotecnia escénica",
           "name_zh": "舞台焰火伤害倍率",
+          "name_zh-TW": "舞台焰火傷害倍率",
           "name_ja": "ステージ花火ダメージ倍率",
           "name_ko": "무대 위 특수 효과 피해 배율"
         },
@@ -590,6 +615,7 @@
           ],
           "name_es": "Multiplicador de DAÑ de Extravaganza electrizante",
           "name_zh": "华彩爆点伤害倍率",
+          "name_zh-TW": "華彩爆點傷害倍率",
           "name_ja": "クライマックス最高潮ダメージ倍率",
           "name_ko": "클라이맥스 피해 배율"
         },
@@ -612,6 +638,7 @@
           ],
           "name_es": "Refuerzo de ATQ",
           "name_zh": "攻击力提升",
+          "name_zh-TW": "攻擊力提升",
           "name_ja": "攻撃力UP",
           "name_ko": "공격력 증가"
         },
@@ -634,6 +661,7 @@
           ],
           "name_es": "Incremento de Amp por Voluntad",
           "name_zh": "每点意志提升的增幅效果",
+          "name_zh-TW": "每點意志提升的增幅效果",
           "name_ja": "意志1ごとの増幅UP効果",
           "name_ko": "의지 1포인트마다 증가하는 증폭 효과"
         },
@@ -656,6 +684,7 @@
           ],
           "name_es": "Amp MÁX. por Voluntad",
           "name_zh": "意志提升的增幅上限",
+          "name_zh-TW": "意志提升的增幅上限",
           "name_ja": "意志による増幅UP上限",
           "name_ko": "의지 증가 증폭 최대치"
         },
@@ -678,6 +707,7 @@
           ],
           "name_es": "Tratamiento base del 1.er tratamiento",
           "name_zh": "初次治疗基础治疗值",
+          "name_zh-TW": "初次治療基礎治療值",
           "name_ja": "初回回復の基礎回復値",
           "name_ko": "초회 기초 치유 수치"
         },
@@ -700,6 +730,7 @@
           ],
           "name_es": "Incremento de tratamiento por Agilidad (1st)",
           "name_zh": "每点敏捷增加的治疗值 (1st)",
+          "name_zh-TW": "每點敏捷增加的治療值 (1st)",
           "name_ja": "敏捷1ごとの回復値UP (1st)",
           "name_ko": "민첩 1포인트마다 증가하는 치유 수치 (1st)"
         },
@@ -722,6 +753,7 @@
           ],
           "name_es": "Multiplicador de DAÑ por Pulso",
           "name_zh": "单次歌声伤害倍率",
+          "name_zh-TW": "單次歌聲傷害倍率",
           "name_ja": "歌唱1回あたりのダメージ倍率",
           "name_ko": "노랫소리 1회 피해 배율"
         },
@@ -744,6 +776,7 @@
           ],
           "name_es": "Tratamiento base por Pulso",
           "name_zh": "单次基础治疗值",
+          "name_zh-TW": "單次基礎治療值",
           "name_ja": "1回あたりの基礎回復値",
           "name_ko": "1회 기초 치유 수치"
         },
@@ -766,6 +799,7 @@
           ],
           "name_es": "Incremento de tratamiento por Agilidad (beat)",
           "name_zh": "每点敏捷增加的治疗值 (beat)",
+          "name_zh-TW": "每點敏捷增加的治療值 (beat)",
           "name_ja": "敏捷1ごとの回復値UP (beat)",
           "name_ko": "민첩 1포인트마다 증가하는 치유 수치 (beat)"
         },
@@ -788,6 +822,7 @@
           ],
           "name_es": "Intervalo de Pulso (s)",
           "name_zh": "歌声间隔时间（秒）",
+          "name_zh-TW": "歌聲間隔時間（秒）",
           "name_ja": "歌唱間隔（秒）",
           "name_ko": "노랫소리 간격(초)"
         },
@@ -810,6 +845,7 @@
           ],
           "name_es": "Duración de la Postura de cosmovoz (s)",
           "name_zh": "高歌姿态持续时间（秒）",
+          "name_zh-TW": "高歌姿態持續時間（秒）",
           "name_ja": "パフォーマンスモード持続時間（秒）",
           "name_ko": "보컬 모드 지속 시간(초)"
         },
@@ -832,6 +868,7 @@
           ],
           "name_es": "Tambaleo de Extravaganza electrizante",
           "name_zh": "华彩爆点失衡值",
+          "name_zh-TW": "華彩爆點失衡值",
           "name_ja": "クライマックス最高潮ブレイク値",
           "name_ko": "클라이맥스 불균형치"
         }

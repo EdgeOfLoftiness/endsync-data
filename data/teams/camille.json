@@ -21,7 +21,7 @@
       "playstyle": {
         "difficulty": { "es": "Media", "en": "Mid" },
         "tags": [
-          { "es": "Calor", "en": "Heat", "jp": "灼熱", "zh": "灼热" },
+          { "es": "Calor", "en": "Heat", "ja": "灼熱", "zh": "灼热", "zh-TW": "灼熱" },
           { "es": "Burst", "en": "Burst" },
           { "es": "Gestión de Link", "en": "Link management" },
           { "es": "SP cómodo", "en": "Comfy SP" }
@@ -118,7 +118,7 @@
               ]
             },
             {
-              "phase": { "es": "Absorber", "en": "Absorb", "jp": "吸収", "zh": "吸收" },
+              "phase": { "es": "Absorber", "en": "Absorb", "ja": "吸収", "zh": "吸收", "zh-TW": "吸收" },
               "action": { "es": "Final Strike de Laevatain absorbe la Heat; Combos de Ardelia y Camille (Corrosion primero) y el Combo de Laevatain se dispara con la Corrosion.", "en": "Laevatain's Final Strike absorbs the Heat; Ardelia's and Camille's Combos (Corrosion first) and Laevatain's Combo triggers off the Corrosion." },
               "steps": [
                 { "do": { "es": "Final Strike de Laevatain: absorbe la Heat.", "en": "Laevatain's Final Strike: absorbs the Heat." } },
@@ -299,7 +299,7 @@
           ]
         },
         {
-          "phase": { "es": "Puente", "en": "Bridge", "jp": "ブリッジ", "zh": "舰桥" },
+          "phase": { "es": "Puente", "en": "Bridge", "ja": "繋ぎ", "zh": "衔接", "zh-TW": "銜接" },
           "action": { "es": "Espera el CD del Combo de Rossi: Battle Skill de Rossi → Combo → Combos de Camille y Mi Fu → otro Battle Skill de Rossi que come el Link. A 4 capas de Vulnerability, cierra con el Battle Skill de Mi Fu. Combos que se iluminen, se pulsan.", "en": "Wait out Rossi's Combo cooldown: Rossi Battle Skill → Combo → Camille's and Mi Fu's Combos → another Rossi Battle Skill eating the Link. At 4 Vulnerability stacks, close with Mi Fu's Battle Skill. Any Combo that lights up, press it." },
           "steps": [
             { "do": { "es": "Espera el CD del Combo de Rossi: Battle Skill de Rossi → Combo.", "en": "Wait out Rossi's Combo cooldown: Rossi Battle Skill → Combo." } },

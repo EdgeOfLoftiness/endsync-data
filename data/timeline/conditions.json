@@ -36,6 +36,10 @@
    }
   },
   "zhuangfangyi": {
+   "ultEnhance": "zfy_ult",
+   "dmgSlot": {
+    "ultimate": "basic_attack"
+   },
    "comboTrigger": {
     "raw": "When the controlled operator's Final Strike or Finisher hits an enemy with Electric Infliction.",
     "state": "electric_infl"
@@ -84,13 +88,6 @@
       "label": "During Ultimate"
      }
     ],
-    "battle_skill": [
-     {
-      "requires": "zfy_ult",
-      "multStat": "During Ultimate: Thunder Strike DMG Multiplier",
-      "label": "During Ultimate"
-     }
-    ],
     "combo_skill": [
      {
       "requires": "zfy_ult",
@@ -99,17 +96,15 @@
      }
     ]
    },
-   "perConsumed": {
-    "combo_skill": [
-     {
-      "state": "electrification",
-      "multStat": "Bonus DMG Multiplier per Status Level of Electrification Consumed",
-      "duringStat": "During Ultimate: Bonus DMG Multiplier per Status Level of Electrification Consumed",
-      "duringState": "zfy_ult",
-      "label": "per Electrification consumed"
-     }
-    ]
-   },
+   "mechanicHits": [
+    "Thunder Strike DMG Multiplier",
+    "During Ultimate: Thunder Strike DMG Multiplier",
+    "Bonus DMG Multiplier per Status Level of Electrification Consumed",
+    "During Ultimate: Bonus DMG Multiplier per Status Level of Electrification Consumed"
+   ],
+   "exclude": [
+    "During Ultimate: Thunder Strike DMG Multiplier"
+   ],
    "consumes": {
     "combo_skill": [
      "electric_infl"
@@ -122,13 +117,99 @@
     "always": true
    }
   },
+  "si": {
+   "recordBurst": {
+    "battle_skill": {
+     "ratioStat": "DMG Record Ratio",
+     "ksAdd": {
+      "keystone": "Spring and Autumn as Ink",
+      "add": 7
+     },
+     "label": {
+      "en": "Artful Intent Burst",
+      "es": "Ráfaga de Intención artística",
+      "zh": "笔意爆发",
+      "zh-TW": "筆意爆發",
+      "ja": "筆意爆発",
+      "ko": "필의 폭발"
+     }
+    }
+   },
+   "stacksSel": {
+    "combo_skill": {
+     "max": 4,
+     "default": 4,
+     "buffs": [
+      "si-k2"
+     ],
+     "ksExtra": {
+      "keystone": "Brush Dab in Eye's White",
+      "n": 1
+     }
+    }
+   }
+  },
+  "argentflow": {
+    "comboTrigger": {
+      "raw": "When an enemy becomes Vulnerable.",
+      "state": "vulnerability",
+      "event": true
+    },
+    "dt": {
+      "battle_skill": "electric"
+    },
+    "variant": {
+      "battle_skill": {
+        "sel": "cycle",
+        "options": [
+          {
+            "when": 1,
+            "multStat": "Bolt Rush DMG Multiplier",
+            "staggerStat": "Bolt Rush Stagger"
+          },
+          {
+            "when": 2,
+            "multStat": "Base DMG Multiplier",
+            "staggerStat": "Base Stagger"
+          }
+        ],
+        "kit": {
+          "onComboNext": 1,
+          "defaultNext": 2
+        }
+      }
+    }
+  },
   "laevatain": {
+   "ultEnhance": "lvt_ult",
+   "dmgSlot": {
+    "ultimate": "basic_attack"
+   },
+   "hits": {
+    "battle_skill": {
+     "Base Explosion DMG Multiplier": [0],
+     "DMG Over Time Multiplier per SEQ": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    }
+   },
+   "hitGates": {
+    "battle_skill": [
+     {
+      "hits": [2, 3, 4, 5, 6, 7, 8, 9, 10],
+      "unless": "lvt_ult"
+     },
+     {
+      "hits": [11],
+      "requires": "melting_flame_4"
+     }
+    ]
+   },
    "comboTrigger": {
     "raw": "When an enemy suffers Combustion or Corrosion.",
     "anyState": [
      "combustion",
      "corrosion"
-    ]
+    ],
+    "event": true
    },
    "grants": {
     "ultimate": [
@@ -171,6 +252,7 @@
      {
       "requires": "lvt_ult",
       "multStat": "During Ultimate: BATK SEQ 1 Multiplier",
+      "hits": [0],
       "label": "Enhanced Battle (Ult): hit 1 — replaces the base"
      }
     ]
@@ -180,12 +262,32 @@
      {
       "requires": "lvt_ult",
       "multStat": "During Ultimate: BATK SEQ 2 Multiplier",
+      "hits": [1],
       "label": "Enhanced Battle (Ult): hit 2"
      },
      {
-      "requires": "lvt_ult",
+      "requiresAll": ["lvt_ult", "melting_flame_4"],
       "multStat": "During Ultimate: Additional ATK Multiplier",
-      "label": "Enhanced Battle (Ult): extra attack"
+      "boost": {
+       "keystone": "Heart of Melting Flame",
+       "mult": 1.2
+      },
+      "hits": [11],
+      "label": "Enhanced Battle (Ult): extra attack (4 Melting Flame)",
+      "mechanic": "meltingFlame"
+     },
+     {
+      "requires": "melting_flame_4",
+      "unless": "lvt_ult",
+      "multStat": "Additional ATK DMG Multiplier",
+      "staggerStat": "Additional ATK Stagger",
+      "boost": {
+       "keystone": "Heart of Melting Flame",
+       "mult": 1.2
+      },
+      "hits": [11],
+      "label": "Additional attack (4 Melting Flame)",
+      "mechanic": "meltingFlame"
      }
     ]
    },
@@ -196,9 +298,30 @@
    ]
   },
   "wulfgard": {
+   "spOnConsume": {
+    "battle_skill": {
+     "state": ["combustion", "electrification"],
+     "ret": true,
+     "sp": 10,
+     "keystone": {
+      "keystone": "Firearm Mods",
+      "add": 10
+     }
+    }
+   },
+   "cdReset": {
+    "ultimate": {
+     "slot": "combo_skill",
+     "keystone": "Natural Predator"
+    }
+   },
+   "perSeq": {
+    "ultimate": 5
+   },
    "comboTrigger": {
     "raw": "When an Arts Infliction is applied to an enemy.",
-    "arts": true
+    "arts": true,
+    "event": true
    },
    "condHits": {
     "battle_skill": [
@@ -220,9 +343,27 @@
    }
   },
   "estella": {
+   "spNext": {
+    "onEvent": "shatter",
+    "slot": "battle_skill",
+    "self": true,
+    "add": 15,
+    "ret": true
+   },
+   "ueOnEvent": [
+    {
+     "states": [
+      "solidification"
+     ],
+     "ue": 5,
+     "cdS": 1,
+     "keystone": "Survival is a Win"
+    }
+   ],
    "comboTrigger": {
     "raw": "When an enemy suffers Solidification.",
-    "state": "solidification"
+    "state": "solidification",
+    "event": true
    },
    "replace": {
     "combo_skill": [
@@ -235,6 +376,12 @@
    }
   },
   "mifu": {
+   "staggerAdd": {
+    "ultimate": {
+     "keystone": "Pugilist of the Stockade",
+     "add": 5
+    }
+   },
    "comboTrigger": {
     "raw": "When an enemy has 3 or more Vulnerability stacks.",
     "stacks": {
@@ -263,6 +410,7 @@
      ],
      "kit": {
       "onComboNext": 2,
+      "onUltNext": 2,
       "promoteFrom": 2,
       "promoteMinConsumed": 3,
       "promoteTo": 3,
@@ -280,6 +428,26 @@
    }
   },
   "rossi": {
+   "critProc": {
+    "slots": [
+     "battle_skill",
+     "combo_skill",
+     "ultimate"
+    ],
+    "whileBuff": "rossi-1",
+    "mult": 24,
+    "dt": "heat",
+    "icdS": 1,
+    "stateMult": {
+     "state": "combustion",
+     "mult": 1.5
+    },
+    "keystone": {
+     "keystone": "Tangible Duties",
+     "addMult": 8,
+     "icdS": 0.5
+    }
+   },
    "comboTrigger": {
     "raw": "When an enemy has both Vulnerability and Arts Infliction stacks.",
     "all": [
@@ -300,6 +468,50 @@
      }
     ]
    },
+   "hits": {
+    "battle_skill": {
+     "SEQ 1 DMG Multiplier": {
+      "hits": [0, 1, 2],
+      "split": true
+     }
+    },
+    "ultimate": {
+     "Stab Attack Total DMG Multiplier": {
+      "hits": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "split": true
+     },
+     "SEQ 1 Slash DMG Multiplier": {
+      "hits": [25]
+     },
+     "SEQ 2 Slash DMG Multiplier": {
+      "hits": [26]
+     }
+    }
+   },
+   "condHits": {
+    "battle_skill": [
+     {
+      "requires": "vulnerability",
+      "multStat": "SEQ 2 DMG Multiplier",
+      "staggerStat": "SEQ 2 Stagger",
+      "hits": [3, 4, 5, 6],
+      "dt": "heat",
+      "label": "Wolven Ambrage (Vulnerability)"
+     }
+    ]
+   },
+   "noSelfCrit": ["combo_skill"],
+   "spOnConsume": {
+    "battle_skill": {
+     "state": "vulnerability",
+     "present": true,
+     "ret": true,
+     "keystone": {
+      "keystone": "Origin of Admiration",
+      "add": 10
+     }
+    }
+   },
    "consumes": {
     "combo_skill": [
      "heat_infl",
@@ -310,6 +522,14 @@
    }
   },
   "lastrite": {
+   "ueOnlyOwn": true,
+   "spAdd": {
+    "battle_skill": {
+     "keystone": "Winter is Returning",
+     "add": 5,
+     "ret": true
+    }
+   },
    "comboTrigger": {
     "raw": "When an enemy has 3 or more Cryo Infliction stacks.",
     "stacks": {
@@ -317,108 +537,155 @@
      "n": 3
     }
    },
-   "perStack": {
+   "perConsumed": {
     "combo_skill": [
      {
+      "state": "arts",
       "multStat": "Bonus DMG Multiplier per Infliction Stack",
-      "stackType": "infliction"
+      "label": "per Cryo Infliction consumed"
      }
     ]
    }
   },
   "yvonne": {
+   "ultEnhance": "yvn_ult",
+   "nextFinalStrike": {
+    "slot": "battle_skill",
+    "reaction": "solidification",
+    "dmgAdd": 0.5
+   },
+   "ueAdd": {
+    "combo_skill": {
+     "keystone": "Flash Freezer",
+     "add": 15
+    }
+   },
+   "spAdd": {
+    "battle_skill": {
+     "keystone": "Rebellious Mood",
+     "add": 10,
+     "always": true,
+     "ret": true
+    }
+   },
    "comboTrigger": {
     "raw": "When the controlled operator performs a Final Strike on an enemy with Solidification.",
     "state": "solidification"
    },
+   "hits": {
+    "combo_skill": {
+     "Energy DMG Multiplier": {
+      "at": [1.38, 2.13, 2.88, 3.63]
+     },
+     "Explosion DMG Multiplier": [0]
+    },
+    "ultimate": {
+     "BATK DMG Multiplier": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74],
+     "Enhanced Final Strike DMG Multiplier": {
+      "hits": [75],
+      "staggerStat": "Enhanced Final Strike Stagger"
+     }
+    }
+   },
+   "dmgSlot": {
+    "ultimate": "basic_attack"
+   },
+   "finalStrike": ["ultimate"],
+   "duringState": {
+    "yvn_ult": {
+     "ultimate": {
+      "stacks": {
+       "from": "ultimate",
+       "perHit": true,
+       "perStat": "Critical Rate Boost per Stack",
+       "maxStat": "Max Stacks",
+       "atMaxStat": "Critical DMG Boost at Max Stacks"
+      }
+     }
+    }
+   },
+   "noSelfCrit": ["ultimate"],
    "grants": {
     "ultimate": [
      {
       "state": "yvn_ult",
-      "durStat": "Duration (s)"
+      "durStat": "Duration (s)",
+      "untilLastHit": true
      }
     ]
    },
-   "perStack": {
+   "perConsumed": {
     "battle_skill": [
      {
+      "state": "arts",
       "multStat": "Bonus DMG Multiplier per Infliction Stack",
-      "stackType": "infliction"
+      "label": "per Arts Infliction consumed"
      }
     ]
    },
    "condHits": {
     "battle_skill": [
      {
-      "requires": "solidification",
+      "requiresAny": ["cryo_infl", "nature_infl"],
       "multStat": "DMG Multiplier of Solidification Applied",
       "label": "Solidification Applied"
      }
     ],
-    "seq1": [
+    "ultimate": [
      {
-      "requires": "yvn_ult",
-      "multStat": "BATK DMG Multiplier",
-      "label": "Enhanced BATK (Ult)"
-     }
-    ],
-    "seq2": [
-     {
-      "requires": "yvn_ult",
-      "multStat": "BATK DMG Multiplier",
-      "label": "Enhanced BATK (Ult)"
-     }
-    ],
-    "seq3": [
-     {
-      "requires": "yvn_ult",
-      "multStat": "BATK DMG Multiplier",
-      "label": "Enhanced BATK (Ult)"
-     }
-    ],
-    "seq4": [
-     {
-      "requires": "yvn_ult",
-      "multStat": "BATK DMG Multiplier",
-      "label": "Enhanced BATK (Ult)"
-     }
-    ],
-    "seq5": [
-     {
-      "requiresAll": ["yvn_ult", "solidification"],
+      "requires": "solidification",
       "multStat": "Additional ATK DMG Multiplier",
+      "hits": [75],
       "label": "Extra attack (consumes Solidification)"
      }
     ]
-   },
-   "replace": {
-    "seq5": [
-     {
-      "requires": "yvn_ult",
-      "multStat": "Enhanced Final Strike DMG Multiplier",
-      "label": "Final Strike (Ult closer)"
-     }
-    ]
-   },
-   "exclude": [
-    "Enhanced Final Strike Stagger"
-   ]
+   }
   },
   "pogranichnik": {
+   "spMult": {
+    "combo_skill": {
+     "keystone": "Newly Forged Blade",
+     "mult": 1.2
+    }
+   },
    "comboTrigger": {
     "raw": "When Crush or Breach consumes the enemy's Vulnerability stack(s).",
     "onConsume": "vulnerability"
    },
-   "replace": {
-    "seq3": [
-     {
-      "requiresStacks": 4,
-      "multStat": "Enhanced SEQ 3 DMG Multiplier",
-      "label": "Enhanced SEQ3 (4 Vulnerability)"
-     }
-    ]
+   "variant": {
+    "combo_skill": {
+     "sel": "consumed",
+     "state": "vulnerability",
+     "options": [
+      {
+       "when": 1,
+       "multStat": ["SEQ 1 DMG Multiplier"],
+       "staggerStat": ["SEQ 1 Stagger"],
+       "spStat": ["SEQ 1 SP Recovery"]
+      },
+      {
+       "when": 2,
+       "multStat": ["SEQ 1 DMG Multiplier", "SEQ 2 DMG Multiplier"],
+       "staggerStat": ["SEQ 1 Stagger", "SEQ 2 Stagger"],
+       "spStat": ["SEQ 1 SP Recovery", "SEQ 2 SP Recovery"]
+      },
+      {
+       "when": 3,
+       "multStat": ["SEQ 1 DMG Multiplier", "SEQ 2 DMG Multiplier", "SEQ 3 DMG Multiplier"],
+       "staggerStat": ["SEQ 1 Stagger", "SEQ 2 Stagger", "SEQ 3 Stagger"],
+       "spStat": ["SEQ 1 SP Recovery", "SEQ 2 SP Recovery", "SEQ 3 SP Recovery"]
+      },
+      {
+       "when": 4,
+       "multStat": ["SEQ 1 DMG Multiplier", "SEQ 2 DMG Multiplier", "Enhanced SEQ 3 DMG Multiplier"],
+       "staggerStat": ["SEQ 1 Stagger", "SEQ 2 Stagger", "Enhanced SEQ 3 Stagger"],
+       "spStat": ["SEQ 1 SP Recovery", "SEQ 2 SP Recovery", "Enhanced SEQ 3 SP Recovery"]
+      }
+     ]
+    }
    },
    "exclude": [
+    "Enhanced SEQ 3 DMG Multiplier",
     "Enhanced SEQ 3 Stagger",
     "Harass DMG Multiplier",
     "Decisive Assault DMG Multiplier",
@@ -426,19 +693,50 @@
    ]
   },
   "gilberta": {
+   "teamUge": {
+    "classes": [
+     "Guard",
+     "Caster",
+     "Supporter"
+    ],
+    "value": 0.07,
+    "keystone": {
+     "keystone": "Quick, Gentle Steps",
+     "add": 0.05
+    }
+   },
    "comboTrigger": {
     "raw": "When an Arts Reaction is applied to an enemy.",
-    "reaction": true
+    "reaction": true,
+    "event": true
    }
   },
   "lifeng": {
+   "linkDur": {
+    "stat": "Combo Duration (s)"
+   },
    "comboTrigger": {
     "raw": "When the controlled operator performs a Final Strike on an enemy with Physical Susceptibility or Breach.",
-    "situational": "enemigo con Physical Susceptibility o Breach (los aplica la propia battle de Lifeng)"
+    "anyState": ["physical_susceptibility", "breach"]
    },
-   "grantsLink": "combo_skill"
+   "grantsLink": "combo_skill",
+   "condHits": {
+    "ultimate": [
+     {
+      "consumesLink": true,
+      "multStat": "Additional ATK DMG Multiplier",
+      "staggerStat": "Additional ATK Stagger",
+      "label": "Link consumed (additional hit)"
+     }
+    ]
+   }
   },
   "ardelia": {
+   "hits": {
+    "ultimate": {
+     "DMG Multiplier": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    }
+   },
    "comboTrigger": {
     "raw": "When the controlled operator performs a Final Strike on an enemy with no stacks of Vulnerability or Arts Infliction.",
     "absent": [
@@ -450,34 +748,124 @@
   "chenqianyu": {
    "comboTrigger": {
     "raw": "When an enemy becomes Vulnerable.",
-    "state": "vulnerability"
+    "state": "vulnerability",
+    "event": true
    }
   },
   "arclight": {
    "comboTrigger": {
     "raw": "When an enemy suffers Electrification or when an enemy's Electrification is consumed.",
     "state": "electrification",
+    "event": true,
     "onConsume": "electrification"
+   },
+   "condHits": {
+    "battle_skill": [
+     {
+      "requires": "electrification",
+      "multStat": "Additional ATK DMG Multiplier",
+      "staggerStat": "Additional ATK Stagger",
+      "hits": [2],
+      "dt": "electric",
+      "label": "Electrification consumed (additional attack)"
+     }
+    ]
+   },
+   "dt": {
+    "battle_skill": "physical"
+   },
+   "hits": {
+    "battle_skill": {
+     "SEQ 1 DMG Multiplier": [0],
+     "SEQ 2 DMG Multiplier": [1]
+    },
+    "ultimate": {
+     "SEQ 1 DMG Multiplier": [0],
+     "SEQ 2 DMG Multiplier": [1]
+    }
+   },
+   "spOnConsume": {
+    "battle_skill": {
+     "state": "electrification",
+     "keystone": {
+      "keystone": "Child of the Storm",
+      "add": 10
+     }
+    }
    }
   },
   "dapan": {
+   "hits": {
+    "ultimate": {
+     "Aerial Flurry DMG Multiplier": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "Ultimate DMG Multiplier": [
+      6
+     ]
+    }
+   },
+   "cdCut": {
+    "from": "ultimate",
+    "slot": "combo_skill",
+    "mult": 0.6,
+    "durS": 20,
+    "durBoost": {
+     "keystone": "Harmonized Flavors",
+     "add": 10
+    },
+    "stacks": 1
+   },
    "comboTrigger": {
     "raw": "When an enemy reaches 4 stacks of Vulnerability.",
     "stacks": {
      "state": "vulnerability",
      "n": 4
-    }
+    },
+    "event": true
    }
   },
   "akekuri": {
+   "spScale": {
+    "combo_skill": {
+     "attrScale": {
+      "attr": "intellect",
+      "per": 0.0015,
+      "max": 0.75
+     }
+    }
+   },
+   "perSeq": {
+    "combo_skill": 2
+   },
+   "spEvents": {
+    "combo_skill": 2,
+    "ultimate": 3
+   },
    "comboTrigger": {
     "raw": "When an enemy becomes Staggered or hits a Stagger Node.",
-    "staggered": true
+    "staggered": true,
+    "event": true
    },
-   "grantsLink": "ultimate"
+   "grantsLink": "ultimate",
+   "linkDur": {
+    "whileCast": true,
+    "durBoost": {
+     "keystone": "Tempo of Awareness",
+     "add": 5
+    }
+   }
   },
   "camille": {
    "grantsLink": "combo_skill",
+   "linkDur": {
+    "s": 15
+   },
    "comboTrigger": {
     "raw": "When an enemy's Heat Infliction is consumed or absorbed.",
     "onConsume": "heat_infl"
@@ -488,19 +876,92 @@
       "state": "camille_hunt",
       "durStat": "Hunter Pursuit State Duration (s)"
      }
-    ]
-   },
-   "replace": {
-    "combo_skill": [
+    ],
+    "battle_skill": [
      {
-      "requires": "camille_hunt",
-      "multStat": "Hunter Pursuit DMG Multiplier",
-      "label": "Hunter Pursuit"
+      "state": "camille_hover",
+      "durStat": "Firefang Vesperwing Duration (s)",
+      "target": "enemy",
+      "options": [1]
      }
     ]
-   }
+   },
+   "variant": {
+    "battle_skill": {
+     "sel": "cycle",
+     "options": [
+      {
+       "when": 1,
+       "multStat": "DMG Multiplier",
+       "staggerStat": "Stagger"
+      },
+      {
+       "when": 2,
+       "multStat": "Hunter Pursuit DMG Multiplier",
+       "staggerStat": "Hunter Pursuit Stagger",
+       "free": true,
+       "slot": "combo_skill",
+       "spStat": "Hunter Pursuit SP Recovery",
+       "grantsLink": true
+      }
+     ],
+     "kit": {
+      "onUltNext": 2,
+      "ultWindowStat": "Hunter Pursuit State Duration (s)",
+      "defaultNext": 1
+     }
+    }
+   },
+   "condHits": {
+    "combo_skill": [
+     {
+      "requires": "camille_hover",
+      "multStat": "Explosion DMG Multiplier",
+      "label": "Vesperwings explosion"
+     }
+    ]
+   },
+   "exclude": [
+    "Hunter Pursuit DMG Multiplier",
+    "Hunter Pursuit Stagger"
+   ]
   },
   "fluorite": {
+   "hitAt": {
+    "battle_skill": [4]
+   },
+   "detonate": {
+    "slot": "battle_skill",
+    "by": "ultimate",
+    "attachS": 1,
+    "boostStat": "Battle Skill DMG Boost"
+   },
+   "cdOnEvent": [
+    {
+     "states": [
+      "cryo_infl",
+      "nature_infl"
+     ],
+     "slot": "combo_skill",
+     "sub": 1,
+     "cdS": 1,
+     "keystone": "Craver of Chaos"
+    }
+   ],
+   "grants": {
+    "battle_skill": [
+     {
+      "state": "slow",
+      "untilLastHit": true,
+      "durS": 3,
+      "target": "enemy",
+      "durBoost": {
+       "keystone": "Triple Surprise",
+       "afterLastHit": 6
+      }
+     }
+    ]
+   },
    "comboTrigger": {
     "raw": "When an enemy has 2 or more stacks of Cryo Infliction or Nature Infliction.",
     "anyStacks": [
@@ -516,10 +977,33 @@
    }
   },
   "tangtang": {
+   "hits": {
+    "ultimate": {
+     "DMG Over Time Total Multiplier": {
+      "at": [2.75, 3.25, 3.75, 4.25, 4.75, 5.25, 5.75, 6.25],
+      "split": true
+     },
+     "Rogue Wave DMG Multiplier": {
+      "at": [6.74]
+     }
+    }
+   },
    "comboTrigger": {
     "raw": "When applying Cryo Infliction or dealing Arts Burst DMG to an enemy.",
-    "state": "cryo_infl"
-   }
+    "any": [
+     {
+      "state": "cryo_infl",
+      "event": true
+     },
+     {
+      "burst": true
+     }
+    ]
+   },
+   "exclude": [
+    "Early Rogue Wave DMG Multiplier",
+    "Early Rogue Wave Stagger"
+   ]
   },
   "ember": {
    "comboTrigger": {
@@ -528,12 +1012,52 @@
    }
   },
   "snowshine": {
+   "ueAdd": {
+    "battle_skill": {
+     "add": 10
+    }
+   },
+   "spAdd": {
+    "battle_skill": {
+     "keystone": "Cold Disaster Specialist",
+     "add": 10,
+     "ret": true
+    }
+   },
    "comboTrigger": {
     "raw": "When controlled operator gets attacked and is below 60% HP.",
     "situational": "atacado y por debajo de 60% HP"
+   },
+   "hits": {
+    "ultimate": {
+     "Explosion DMG Multiplier": [0],
+     "DMG Over Time Multiplier": {
+      "at": [2.483, 2.983, 3.483, 3.983, 4.483, 4.983, 5.483, 5.983, 6.483, 6.983]
+     }
+    }
    }
   },
   "catcher": {
+   "grants": {
+    "combo_skill": [
+     {
+      "state": "shield",
+      "durStat": "Shield Duration (s)",
+      "durBoost": {
+       "keystone": "Unwavering Post",
+       "add": 5
+      }
+     }
+    ]
+   },
+   "spAdd": {
+    "battle_skill": {
+     "keystone": "Choice Without Regrets",
+     "add": 10,
+     "whileState": "shield",
+     "ret": true
+    }
+   },
    "comboTrigger": {
     "raw": "When an enemy starts charging up a skill, or when the controlled operator is attacked and falls below 40% HP.",
     "situational": "enemigo cargando una skill, o controlado atacado <40% HP"
@@ -542,51 +1066,137 @@
   "endministrator": {
    "comboTrigger": {
     "raw": "When another operator in the team deals DMG with combo skills.",
-    "situational": "otro operador del equipo daña con su combo skill"
+    "otherCombo": true
+   },
+   "mechanicHits": [
+    "Crystal Shattering DMG Multiplier"
+   ],
+   "condHits": {
+    "ultimate": [
+     {
+      "requires": "originium",
+      "multStat": "Bonus DMG Multiplier",
+      "label": "Originium Crystals consumed (bonus hit)"
+     }
+    ]
    }
   },
   "xaihi": {
    "comboTrigger": {
     "raw": "When the Auxiliary Crystal uses up its HP treatments.",
-    "situational": "el Auxiliary Crystal agota sus curas"
+    "chargesSpent": {
+     "slot": "battle",
+     "n": 2,
+     "durStat": "Auxiliary Crystal Duration (s)"
+    }
    }
   },
   "alesh": {
+   "ueOnEvent": [
+    {
+     "states": [
+      "solidification"
+     ],
+     "marks": [
+      "originium"
+     ],
+     "ue": 4,
+     "selfAdd": 8,
+     "cdS": 3
+    }
+   ],
    "comboTrigger": {
     "raw": "When the Arts Reaction or Originium Crystals of a nearby target is consumed.",
-    "situational": "se consume una Arts Reaction u Originium Crystals de un objetivo cercano"
+    "onConsume": ["combustion", "electrification", "solidification", "corrosion", "originium"]
+   },
+   "condHits": {
+    "combo_skill": [
+     {
+      "chance": {
+       "stat": "Chance to Catch the Rare Fin",
+       "attrScale": {
+        "attr": "intellect",
+        "per": 0.0005,
+        "max": 0.3
+       }
+      },
+      "multStat": "Enhanced DMG Multiplier",
+      "spStat": "Bonus SP Recovery",
+      "label": "Rare Fin (expected value)"
+     }
+    ]
+   },
+   "spOnConsume": {
+    "battle_skill": {
+     "state": "cryo_infl",
+     "keystone": {
+      "keystone": "Super Salty Comeback",
+      "add": 10
+     }
+    }
    }
   },
   "antal": {
+   "grants": {
+    "battle_skill": [
+     {
+      "state": "antal_focus",
+      "durStat": "Duration (s)",
+      "target": "enemy"
+     }
+    ]
+   },
    "comboTrigger": {
     "raw": "When an enemy with active Focus suffers a Physical Status or Arts Infliction.",
-    "situational": "enemigo con Focus (debuff de Antal) sufre Physical Status o Arts Infliction"
+    "all": [
+     {
+      "state": "antal_focus"
+     },
+     {
+      "any": [
+       {
+        "arts": true,
+        "event": true,
+        "whileState": "antal_focus"
+       },
+       {
+        "physStatus": true,
+        "whileState": "antal_focus"
+       }
+      ]
+     }
+    ]
    }
   },
   "arcane": {
+   "ultEnhance": "arc_array",
    "comboTrigger": {
     "raw": "When Nature Infliction or at least 2 stacks of non-Nature Arts Infliction are applied on an enemy.",
     "any": [
      {
-      "state": "nature_infl"
+      "state": "nature_infl",
+      "event": true
      },
      {
       "stacks": {
        "state": "heat_infl",
        "n": 2
-      }
+      },
+      "event": true
      },
      {
       "stacks": {
        "state": "electric_infl",
        "n": 2
-      }
+      },
+      "event": true
      },
      {
       "stacks": {
        "state": "cryo_infl",
        "n": 2
-      }
+      },
+      "event": true
      }
     ]
    },
@@ -600,16 +1210,10 @@
     "ultimate": [
      {
       "state": "arc_array",
-      "durStat": "Gloompurger Array Duration (s)"
-     }
-    ]
-   },
-   "condHits": {
-    "seq5": [
-     {
-      "requires": "arc_array",
-      "multStat": "Cluster Strike Total DMG Multiplier",
-      "label": "Cluster Strike (2 hits, total)"
+      "durStat": "Gloompurger Array Duration (s)",
+      "options": [
+       1
+      ]
      }
     ]
    },
@@ -633,18 +1237,124 @@
     "will": {
      "comboTrigger": {
       "raw": "When an Arts Infliction is applied on an enemy.",
-      "arts": true
+      "arts": true,
+      "event": true
      }
     }
    },
    "exclude": [
     "Bonus DMG Multiplier"
-   ]
+   ],
+   "mechanicHits": [
+    "Cluster Strike Total DMG Multiplier"
+   ],
+   "arcana": {
+    "array": "arc_array",
+    "clusterStrike": {
+     "multStat": "Cluster Strike Total DMG Multiplier",
+     "max": 2
+    },
+    "arcanaWhen": 2,
+    "explosion": {
+     "state": "imprisonment",
+     "stat": "Explosion DMG Multiplier",
+     "staggerStat": "Explosion Stagger"
+    },
+    "detonation": {
+     "mode": "int",
+     "state": "imprisonment",
+     "bonusStat": "Bonus DMG Multiplier",
+     "spStat": "SP Return",
+     "spKeystone": {
+      "keystone": "Watcher of the Sea",
+      "add": 10
+     },
+     "suscBuff": "arcane-1d"
+    },
+    "comboCdCut": {
+     "mode": "will",
+     "keystone": "Homeward Glance",
+     "remaining": 0.3
+    },
+    "corrosion": {
+     "durAdd": 10,
+     "debuffMult": 1.1,
+     "keystone": {
+      "keystone": "Wielder of Stone",
+      "durAdd": 5,
+      "debuffMult": 1.3
+     }
+    }
+   }
   },
   "liino": {
+   "spNext": {
+    "from": "combo_skill",
+    "durS": 30,
+    "slot": "battle_skill",
+    "elements": [
+     "electric",
+     "nature"
+    ],
+    "add": 10,
+    "ret": true
+   },
+   "grants": {
+    "battle_skill": [
+     {
+      "state": "liino_vocalist",
+      "durStat": "Vocalist Stance Duration (s)",
+      "endsOn": ["ultimate", "battle_skill"],
+      "options": [1]
+     }
+    ],
+    "ultimate": [
+     {
+      "state": "liino_cosmo",
+      "durStat": "Cosmovoice Stance Duration (s)",
+      "endsOn": ["battle_skill"]
+     }
+    ]
+   },
+   "variant": {
+    "battle_skill": {
+     "sel": "whileSelf",
+     "state": ["liino_vocalist", "liino_cosmo"],
+     "options": [
+      {
+       "when": 1,
+       "multStat": "First ATK Multiplier",
+       "staggerStat": "Stagger"
+      },
+      {
+       "when": 2,
+       "free": true
+      }
+     ]
+    }
+   },
+   "mechanicHits": ["Additional ATK DMG Multiplier", "DMG Multiplier per Beat"],
+   "periodic": [
+    {
+     "slot": "battle_skill",
+     "state": "liino_vocalist",
+     "everyS": 10,
+     "multStat": "Additional ATK DMG Multiplier"
+    },
+    {
+     "slot": "ultimate",
+     "state": "liino_cosmo",
+     "everyS": 1.5,
+     "multStat": "DMG Multiplier per Beat",
+     "endMult": 3,
+     "durStat": "Cosmovoice Stance Duration (s)"
+    }
+   ],
    "comboTrigger": {
     "raw": "While Vocalist Stance is active, an Arts Reaction is consumed or is applied on an enemy.",
+    "whileSelf": "liino_vocalist",
     "reaction": true,
+    "event": true,
     "onConsume": [
      "combustion",
      "electrification",
@@ -654,12 +1364,86 @@
    }
   },
   "purrchena": {
+   "hits": {
+    "combo_skill": {
+     "Bomb: DMG Multiplier": {
+      "hits": [0],
+      "weight": 0.3333,
+      "staggerStat": "Bomb: Stagger"
+     },
+     "Handicraft: DMG Multiplier": {
+      "at": [0],
+      "weight": 0.3333
+     }
+    },
+    "ultimate": {
+     "Bomb: DMG Multiplier": {
+      "hits": [0],
+      "weight": 1.5,
+      "staggerStat": "Bomb: Stagger"
+     },
+     "Handicraft: DMG Multiplier": {
+      "hits": [0],
+      "weight": 1.5
+     }
+    }
+   },
+   "chanceStacks": {
+    "from": "battle_skill",
+    "option": 1,
+    "per": 0.1,
+    "max": 3,
+    "to": "ultimate"
+   },
+   "ueAdd": {
+    "battle_skill": {
+     "add": 10,
+     "option": 1
+    }
+   },
    "comboTrigger": {
     "raw": "When the controlled operator is attacked.",
     "situational": "controlado atacado"
    },
+   "variant": {
+    "battle_skill": {
+     "sel": "cycle",
+     "options": [
+      {
+       "when": 1,
+       "spStat": ["SP Return", "Additional SP Return"]
+      },
+      {
+       "when": 2,
+       "multStat": "Headbutt DMG Multiplier",
+       "staggerStat": "Headbutt Stagger"
+      }
+     ]
+    }
+   },
+   "condHits": {
+    "ultimate": [
+     {
+      "chance": {
+       "stat": "Ambassador's Special: Base Chance",
+       "times": 3,
+       "replaces": true,
+       "ksMult": {
+        "keystone": "Warm Like the Sun",
+        "mult": 1.5
+       }
+      },
+      "multStat": "Ambassador's Special: DMG Multiplier",
+      "staggerStat": "Ambassador's Special: Stagger",
+      "boost": {
+       "keystone": "Hot Like a BBQ Fire",
+       "mult": 1.2
+      },
+      "label": "Ambassador's Special (expected value, 3 boxes)"
+     }
+    ]
+   },
    "exclude": [
-    "Handicraft: DMG Multiplier",
     "Ambassador's Special: DMG Multiplier"
    ]
   },

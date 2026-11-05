@@ -19,6 +19,7 @@
     "name_es": "Akekuri",
     "name_ja": "アケクリ",
     "name_zh": "秋栗",
+    "name_zh-TW": "秋栗",
     "common_gear": {
       "gear": [
         "frontiers_armor",
@@ -31,7 +32,24 @@
       "count": 1,
       "builds": 2
     },
-    "name_ko": "아케쿠리"
+    "name_ko": "아케쿠리",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 9
+      },
+      "combo_skill": {
+        "lv": 9
+      },
+      "ultimate": {
+        "lv": 12,
+        "stat": "SP Recovery",
+        "stat_es": "Recuperación de PH",
+        "stat_zh": "恢复技力",
+        "stat_zh-TW": "回復技力",
+        "stat_ja": "SP回復量",
+        "stat_ko": "스킬 게이지 회복"
+      }
+    }
   },
   {
     "id": "alesh",
@@ -52,6 +70,7 @@
     "name_es": "Alesh",
     "name_ja": "アレッシュ",
     "name_zh": "阿列什",
+    "name_zh-TW": "阿列什",
     "common_gear": {
       "gear": [
         "redeemer_armor",
@@ -64,7 +83,36 @@
       "count": 1,
       "builds": 5
     },
-    "name_ko": "알레쉬"
+    "name_ko": "알레쉬",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 10,
+        "stat": "SP Recovery by Consuming 1 Infliction Stack",
+        "stat_es": "Rec. de PH al Consumir 1 Acumulación de imposición.",
+        "stat_zh": "消耗一层附着时恢复技力",
+        "stat_zh-TW": "消耗一層附著時回復技力",
+        "stat_ja": "付着1段階消費時のSP回復量",
+        "stat_ko": "부착 1스택 소모 시 회복하는 스킬 게이지"
+      },
+      "combo_skill": {
+        "lv": 12,
+        "stat": "SP Recovery",
+        "stat_es": "Recuperación de PH",
+        "stat_zh": "技力恢复",
+        "stat_zh-TW": "技力回復",
+        "stat_ja": "SP回復量",
+        "stat_ko": "스킬 게이지 회복"
+      },
+      "ultimate": {
+        "lv": 10,
+        "stat": "Base SP Recovery",
+        "stat_es": "Recuperación de PH de base",
+        "stat_zh": "基础恢复技力",
+        "stat_zh-TW": "基礎回復技力",
+        "stat_ja": "基礎SP回復量",
+        "stat_ko": "기초 상태에서 회복하는 스킬 게이지"
+      }
+    }
   },
   {
     "id": "antal",
@@ -85,6 +133,7 @@
     "name_es": "Antal",
     "name_ja": "アンタル",
     "name_zh": "安塔尔",
+    "name_zh-TW": "安塔爾",
     "common_gear": {
       "gear": [
         "tide_fall_light_armor",
@@ -97,7 +146,30 @@
       "count": 3,
       "builds": 6
     },
-    "name_ko": "안탈"
+    "name_ko": "안탈",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 12,
+        "stat": "Electric Susceptibility",
+        "stat_es": "Susceptibilidad eléctrica",
+        "stat_zh": "电磁脆弱效果",
+        "stat_zh-TW": "電磁脆弱效果",
+        "stat_ja": "電磁脆弱効果",
+        "stat_ko": "전기 취약 효과"
+      },
+      "combo_skill": {
+        "lv": 9
+      },
+      "ultimate": {
+        "lv": 12,
+        "stat": "Electric Amp",
+        "stat_es": "Amp eléctrico",
+        "stat_zh": "电磁增幅效果",
+        "stat_zh-TW": "電磁增幅效果",
+        "stat_ja": "電磁増幅効果",
+        "stat_ko": "전기 증폭 효과"
+      }
+    }
   },
   {
     "id": "arclight",
@@ -119,6 +191,7 @@
     "name_es": "Arclight",
     "name_ja": "アークライト",
     "name_zh": "弧光",
+    "name_zh-TW": "弧光",
     "common_gear": {
       "gear": [
         "frontiers_armor",
@@ -131,7 +204,36 @@
       "count": 2,
       "builds": 8
     },
-    "name_ko": "아크라이트"
+    "name_ko": "아크라이트",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 12,
+        "stat": "SP Recovery",
+        "stat_es": "Recuperación de PH",
+        "stat_zh": "恢复技力",
+        "stat_zh-TW": "回復技力",
+        "stat_ja": "SP回復量",
+        "stat_ko": "스킬 게이지 회복"
+      },
+      "combo_skill": {
+        "lv": 10,
+        "stat": "SP Recovery",
+        "stat_es": "Recuperación de PH",
+        "stat_zh": "恢复技力",
+        "stat_zh-TW": "回復技力",
+        "stat_ja": "SP回復量",
+        "stat_ko": "스킬 게이지 회복"
+      },
+      "ultimate": {
+        "lv": 10,
+        "stat": "SEQ 1 Stagger",
+        "stat_es": "Tambaleo de SEC 1",
+        "stat_zh": "第一段失衡值",
+        "stat_zh-TW": "第一段失衡值",
+        "stat_ja": "1段目ブレイク値",
+        "stat_ko": "제1단계 불균형치"
+      }
+    }
   },
   {
     "id": "ardelia",
@@ -152,6 +254,7 @@
     "name_es": "Ardelia",
     "name_ja": "アルデリア",
     "name_zh": "艾尔黛拉",
+    "name_zh-TW": "艾爾黛拉",
     "common_gear": {
       "gear": [
         "bonekrusha_poncho_t1",
@@ -164,7 +267,30 @@
       "count": 2,
       "builds": 5
     },
-    "name_ko": "아델리아"
+    "name_ko": "아델리아",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 12,
+        "stat": "Susceptibility",
+        "stat_es": "Susceptibilidad",
+        "stat_zh": "脆弱效果",
+        "stat_zh-TW": "脆弱效果",
+        "stat_ja": "脆弱効果",
+        "stat_ko": "취약 효과"
+      },
+      "combo_skill": {
+        "lv": 9
+      },
+      "ultimate": {
+        "lv": 10,
+        "stat": "Stagger",
+        "stat_es": "Tambaleo",
+        "stat_zh": "失衡值",
+        "stat_zh-TW": "失衡值",
+        "stat_ja": "ブレイク値",
+        "stat_ko": "불균형치"
+      }
+    }
   },
   {
     "id": "avywenna",
@@ -180,6 +306,7 @@
     "name_es": "Avywenna",
     "name_ja": "アイビーエナ",
     "name_zh": "艾维文娜",
+    "name_zh-TW": "艾維文娜",
     "common_gear": {
       "gear": [
         "bonekrusha_poncho_t1",
@@ -192,7 +319,24 @@
       "count": 2,
       "builds": 3
     },
-    "name_ko": "아비웨나"
+    "name_ko": "아비웨나",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 9
+      },
+      "combo_skill": {
+        "lv": 9
+      },
+      "ultimate": {
+        "lv": 10,
+        "stat": "Stagger",
+        "stat_es": "Tambaleo",
+        "stat_zh": "失衡值",
+        "stat_zh-TW": "失衡值",
+        "stat_ja": "ブレイク値",
+        "stat_ko": "불균형치"
+      }
+    }
   },
   {
     "id": "catcher",
@@ -213,6 +357,7 @@
     "name_es": "Catcher",
     "name_ja": "キャッチャー",
     "name_zh": "卡契尔",
+    "name_zh-TW": "卡契爾",
     "support_bis_weapons": [
       "wpn_claym_0006"
     ],
@@ -228,7 +373,24 @@
       "count": 1,
       "builds": 1
     },
-    "name_ko": "카치르"
+    "name_ko": "카치르",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 9
+      },
+      "combo_skill": {
+        "lv": 9
+      },
+      "ultimate": {
+        "lv": 10,
+        "stat": "Weakness Effect",
+        "stat_es": "Efecto de debilidad",
+        "stat_zh": "虚弱效果",
+        "stat_zh-TW": "虛弱效果",
+        "stat_ja": "弱体化効果",
+        "stat_ko": "허약 효과"
+      }
+    }
   },
   {
     "id": "chenqianyu",
@@ -249,6 +411,7 @@
     "name_es": "Chen Qianyu",
     "name_ja": "チェン・センユー",
     "name_zh": "陈千语",
+    "name_zh-TW": "陳千語",
     "common_gear": {
       "gear": [
         "swordmancer_heavy_armor",
@@ -265,7 +428,24 @@
       "wpn_sword_0011",
       "wpn_sword_0013"
     ],
-    "name_ko": "진천우"
+    "name_ko": "진천우",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 12,
+        "stat": "Lift Duration (s)",
+        "stat_es": "Duración Levantar (s)",
+        "stat_zh": "浮空时间（秒）",
+        "stat_zh-TW": "浮空時間（秒）",
+        "stat_ja": "浮遊時間（秒）",
+        "stat_ko": "공중에 뜸 상태 시간(초)"
+      },
+      "combo_skill": {
+        "lv": 9
+      },
+      "ultimate": {
+        "lv": 9
+      }
+    }
   },
   {
     "id": "dapan",
@@ -284,8 +464,26 @@
       "swordmancer_nav_beacon"
     ],
     "name_zh": "大潘",
+    "name_zh-TW": "大潘",
     "name_ja": "ダパン",
-    "name_ko": "판"
+    "name_ko": "판",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 9
+      },
+      "combo_skill": {
+        "lv": 12,
+        "stat": "Crush DMG Bonus",
+        "stat_es": "Bonificación de DAÑ por Triturar",
+        "stat_zh": "猛击伤害额外提升",
+        "stat_zh-TW": "猛擊傷害額外提升",
+        "stat_ja": "猛撃ダメージ追加UP",
+        "stat_ko": "추가로 증가하는 강타 피해"
+      },
+      "ultimate": {
+        "lv": 9
+      }
+    }
   },
   {
     "id": "ember",
@@ -307,7 +505,19 @@
     "name_es": "Ember",
     "name_ja": "エンバー",
     "name_zh": "余烬",
-    "name_ko": "엠버"
+    "name_zh-TW": "餘燼",
+    "name_ko": "엠버",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 9
+      },
+      "combo_skill": {
+        "lv": 9
+      },
+      "ultimate": {
+        "lv": 9
+      }
+    }
   },
   {
     "id": "endministrator",
@@ -329,6 +539,7 @@
     "name_es": "Endministrator",
     "name_ja": "管理人",
     "name_zh": "管理员",
+    "name_zh-TW": "管理員",
     "name_ko": "관리자",
     "common_gear": {
       "gear": [
@@ -341,6 +552,23 @@
       "setCount": 1,
       "count": 1,
       "builds": 1
+    },
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 9
+      },
+      "combo_skill": {
+        "lv": 12,
+        "stat": "Seal Duration (s)",
+        "stat_es": "Duración Sello (s)",
+        "stat_zh": "封印时间（秒）",
+        "stat_zh-TW": "封印時間（秒）",
+        "stat_ja": "封印時間（秒）",
+        "stat_ko": "봉인 시간(초)"
+      },
+      "ultimate": {
+        "lv": 9
+      }
     }
   },
   {
@@ -363,6 +591,7 @@
     "name_es": "Estella",
     "name_ja": "エステーラ",
     "name_zh": "埃特拉",
+    "name_zh-TW": "埃特拉",
     "common_gear": {
       "gear": [
         "swordmancer_light_armor",
@@ -375,7 +604,30 @@
       "count": 1,
       "builds": 1
     },
-    "name_ko": "에스텔라"
+    "name_ko": "에스텔라",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 9
+      },
+      "combo_skill": {
+        "lv": 10,
+        "stat": "Physical Susceptibility Multiplier",
+        "stat_es": "Multiplicador de Suscep. fís.",
+        "stat_zh": "物理脆弱倍率",
+        "stat_zh-TW": "物理脆弱倍率",
+        "stat_ja": "物理脆弱倍率",
+        "stat_ko": "물리 취약 배율"
+      },
+      "ultimate": {
+        "lv": 10,
+        "stat": "Stagger",
+        "stat_es": "Tambaleo",
+        "stat_zh": "失衡值",
+        "stat_zh-TW": "失衡值",
+        "stat_ja": "ブレイク値",
+        "stat_ko": "불균형치"
+      }
+    }
   },
   {
     "id": "zhuangfangyi",
@@ -397,6 +649,7 @@
     "name_es": "Zhuang Fangyi",
     "name_ja": "ゾアン・ファンイ",
     "name_zh": "庄方宜",
+    "name_zh-TW": "莊方宜",
     "common_gear": {
       "gear": [
         "xiranflow_light_armor",
@@ -409,7 +662,18 @@
       "count": 5,
       "builds": 8
     },
-    "name_ko": "장방이"
+    "name_ko": "장방이",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 9
+      },
+      "combo_skill": {
+        "lv": 9
+      },
+      "ultimate": {
+        "lv": 9
+      }
+    }
   },
   {
     "id": "fluorite",
@@ -429,6 +693,7 @@
     "name_es": "Fluorite",
     "name_ja": "フローライト",
     "name_zh": "萤石",
+    "name_zh-TW": "螢石",
     "common_gear": {
       "gear": [
         "type_50_yinglung_heavy_armor_t1",
@@ -441,7 +706,18 @@
       "count": 2,
       "builds": 3
     },
-    "name_ko": "플루라이트"
+    "name_ko": "플루라이트",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 9
+      },
+      "combo_skill": {
+        "lv": 9
+      },
+      "ultimate": {
+        "lv": 9
+      }
+    }
   },
   {
     "id": "gilberta",
@@ -462,6 +738,7 @@
     "name_es": "Gilberta",
     "name_ja": "ギルベルタ",
     "name_zh": "洁尔佩塔",
+    "name_zh-TW": "潔爾佩塔",
     "common_gear": {
       "gear": [
         "eternal_xiranite_armor",
@@ -470,11 +747,28 @@
         "eternal_xiranite_auxiliary_arm"
       ],
       "set": "Eternal Xiranite",
-      "setCount": 14,
+      "setCount": 15,
       "count": 8,
-      "builds": 16
+      "builds": 17
     },
-    "name_ko": "질베르타"
+    "name_ko": "질베르타",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 9
+      },
+      "combo_skill": {
+        "lv": 9
+      },
+      "ultimate": {
+        "lv": 10,
+        "stat": "Base Arts Susceptibility",
+        "stat_es": "Suscep. a art. básica",
+        "stat_zh": "基础法术脆弱效果",
+        "stat_zh-TW": "基礎法術脆弱效果",
+        "stat_ja": "基礎アーツ脆弱効果",
+        "stat_ko": "기초 아츠 취약 효과"
+      }
+    }
   },
   {
     "id": "laevatain",
@@ -498,6 +792,7 @@
     "name_es": "Laevatain",
     "name_ja": "レーヴァテイン",
     "name_zh": "莱万汀",
+    "name_zh-TW": "萊萬汀",
     "common_gear": {
       "gear": [
         "tide_fall_light_armor",
@@ -506,11 +801,22 @@
         "hot_work_pyrometer"
       ],
       "set": "Hot Work",
-      "setCount": 3,
+      "setCount": 4,
       "count": 2,
-      "builds": 3
+      "builds": 4
     },
-    "name_ko": "레바테인"
+    "name_ko": "레바테인",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 9
+      },
+      "combo_skill": {
+        "lv": 9
+      },
+      "ultimate": {
+        "lv": 9
+      }
+    }
   },
   {
     "id": "lastrite",
@@ -532,6 +838,7 @@
     "name_es": "Last Rite",
     "name_ja": "ラストライト",
     "name_zh": "别礼",
+    "name_zh-TW": "別禮",
     "common_gear": {
       "gear": [
         "wave_swell_heavy_armor",
@@ -540,11 +847,22 @@
         "lynx_slab"
       ],
       "set": "Tide Surge",
-      "setCount": 3,
-      "count": 2,
-      "builds": 3
+      "setCount": 5,
+      "count": 4,
+      "builds": 5
     },
-    "name_ko": "라스트 라이트"
+    "name_ko": "라스트 라이트",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 9
+      },
+      "combo_skill": {
+        "lv": 9
+      },
+      "ultimate": {
+        "lv": 9
+      }
+    }
   },
   {
     "id": "lifeng",
@@ -565,6 +883,7 @@
     "name_es": "Lifeng",
     "name_ja": "リーフォン",
     "name_zh": "黎风",
+    "name_zh-TW": "黎風",
     "common_gear": {
       "gear": [
         "swordmancer_heavy_armor_t1",
@@ -577,7 +896,24 @@
       "count": 1,
       "builds": 2
     },
-    "name_ko": "여풍"
+    "name_ko": "여풍",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 12,
+        "stat": "Physical Susceptibility",
+        "stat_es": "Susceptibilidad física",
+        "stat_zh": "物理脆弱效果",
+        "stat_zh-TW": "物理脆弱效果",
+        "stat_ja": "物理脆弱効果",
+        "stat_ko": "물리 취약 효과"
+      },
+      "combo_skill": {
+        "lv": 9
+      },
+      "ultimate": {
+        "lv": 9
+      }
+    }
   },
   {
     "id": "perlica",
@@ -598,6 +934,7 @@
     "name_es": "Perlica",
     "name_ja": "ペリカ",
     "name_zh": "佩丽卡",
+    "name_zh-TW": "佩麗卡",
     "common_gear": {
       "gear": [
         "pulser_labs_disruptor_suit",
@@ -614,7 +951,18 @@
       "wpn_funnel_0009",
       "wpn_funnel_0004"
     ],
-    "name_ko": "펠리카"
+    "name_ko": "펠리카",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 9
+      },
+      "combo_skill": {
+        "lv": 9
+      },
+      "ultimate": {
+        "lv": 9
+      }
+    }
   },
   {
     "id": "pogranichnik",
@@ -635,6 +983,7 @@
     "name_es": "Pogranichnik",
     "name_ja": "ポグラニチニク",
     "name_zh": "骏卫",
+    "name_zh-TW": "駿衛",
     "common_gear": {
       "gear": [
         "frontiers_protection_suit",
@@ -647,7 +996,30 @@
       "count": 3,
       "builds": 9
     },
-    "name_ko": "포그라니치니크"
+    "name_ko": "포그라니치니크",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 10,
+        "stat": "SP Recovery by Consuming 2 Vulnerability Stacks",
+        "stat_es": "Recuperación de PH al consumir 2 acumulaciones de Vulnerabilidad",
+        "stat_zh": "消耗二层破防时技力恢复",
+        "stat_zh-TW": "消耗二層破防時技力回復",
+        "stat_ja": "クラッシュ2段階消費時のSP回復量",
+        "stat_ko": "방어 불능 2스택 소모 시 회복하는 스킬 게이지"
+      },
+      "combo_skill": {
+        "lv": 9
+      },
+      "ultimate": {
+        "lv": 10,
+        "stat": "Harass SP Recovery",
+        "stat_es": "Rec. de PH de Acoso",
+        "stat_zh": "袭扰恢复技力",
+        "stat_zh-TW": "襲擾回復技力",
+        "stat_ja": "撹乱のSP回復量",
+        "stat_ko": "교란 스킬 게이지 회복"
+      }
+    }
   },
   {
     "id": "rossi",
@@ -669,6 +1041,7 @@
     "name_es": "Rossi",
     "name_ja": "ロッシ",
     "name_zh": "洛茜",
+    "name_zh-TW": "洛西",
     "common_gear": {
       "gear": [
         "mi_security_armor_t1",
@@ -677,11 +1050,34 @@
         "mi_security_scope_t1"
       ],
       "set": "MI Security",
-      "setCount": 7,
-      "count": 5,
-      "builds": 7
+      "setCount": 8,
+      "count": 6,
+      "builds": 8
     },
-    "name_ko": "로시"
+    "name_ko": "로시",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 12,
+        "stat": "SEQ 2 Stagger",
+        "stat_es": "Tambaleo de SEC 2",
+        "stat_zh": "第二段失衡值",
+        "stat_zh-TW": "第二段失衡值",
+        "stat_ja": "2段目ブレイク値",
+        "stat_ko": "제2단계 불균형치"
+      },
+      "combo_skill": {
+        "lv": 12,
+        "stat": "Critical Rate Boost",
+        "stat_es": "Aumento de probabilidad de crítico",
+        "stat_zh": "暴击率提升",
+        "stat_zh-TW": "暴擊率提升",
+        "stat_ja": "会心率UP",
+        "stat_ko": "치명타 확률 증가"
+      },
+      "ultimate": {
+        "lv": 9
+      }
+    }
   },
   {
     "id": "snowshine",
@@ -702,7 +1098,25 @@
     "name_es": "Snowshine",
     "name_ja": "スノーシャイン",
     "name_zh": "昼雪",
-    "name_ko": "스노우샤인"
+    "name_zh-TW": "晝雪",
+    "name_ko": "스노우샤인",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 9
+      },
+      "combo_skill": {
+        "lv": 9
+      },
+      "ultimate": {
+        "lv": 10,
+        "stat": "Stagger",
+        "stat_es": "Tambaleo",
+        "stat_zh": "失衡值",
+        "stat_zh-TW": "失衡值",
+        "stat_ja": "ブレイク値",
+        "stat_ko": "불균형치"
+      }
+    }
   },
   {
     "id": "tangtang",
@@ -723,19 +1137,37 @@
     "name_es": "Tangtang",
     "name_ja": "タンタン",
     "name_zh": "汤汤",
+    "name_zh-TW": "湯湯",
     "common_gear": {
       "gear": [
-        "bonekrusha_heavy_armor",
-        "bonekrusha_wristband_t1",
-        "aic_fieldwork_ember",
+        "bonekrusha_heavy_armor_t2",
+        "mi_security_gloves",
+        "bonekrusha_mask_t2",
         "bonekrusha_mask_t2"
       ],
       "set": "Bonekrusha",
-      "setCount": 5,
-      "count": 3,
-      "builds": 8
+      "setCount": 9,
+      "count": 5,
+      "builds": 12
     },
-    "name_ko": "탕탕"
+    "name_ko": "탕탕",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 12,
+        "stat": "Arts Susceptibility (2 Waterspouts)",
+        "stat_es": "Susceptibilidad a Artes (2 Trombas marinas)",
+        "stat_zh": "两个水龙卷法术脆弱",
+        "stat_zh-TW": "兩個水龍捲法術脆弱",
+        "stat_ja": "2つの水竜巻によるアーツ脆弱",
+        "stat_ko": "용오름 2개일 시 부여하는 아츠 취약"
+      },
+      "combo_skill": {
+        "lv": 9
+      },
+      "ultimate": {
+        "lv": 9
+      }
+    }
   },
   {
     "id": "wulfgard",
@@ -755,6 +1187,7 @@
     "name_es": "Wulfgard",
     "name_ja": "ウルフガード",
     "name_zh": "狼卫",
+    "name_zh-TW": "狼衛",
     "common_gear": {
       "gear": [
         "qingbo_heavy_armor",
@@ -770,7 +1203,18 @@
     "support_bis_weapons": [
       "wpn_pistol_0012"
     ],
-    "name_ko": "울프가드"
+    "name_ko": "울프가드",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 9
+      },
+      "combo_skill": {
+        "lv": 9
+      },
+      "ultimate": {
+        "lv": 9
+      }
+    }
   },
   {
     "id": "xaihi",
@@ -791,6 +1235,7 @@
     "name_es": "Xaihi",
     "name_ja": "ザイヒ",
     "name_zh": "赛希",
+    "name_zh-TW": "賽希",
     "common_gear": {
       "gear": [
         "eternal_xiranite_light_armor_t1",
@@ -803,7 +1248,30 @@
       "count": 5,
       "builds": 20
     },
-    "name_ko": "자이히"
+    "name_ko": "자이히",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 12,
+        "stat": "Arts Amp",
+        "stat_es": "Amp de artes",
+        "stat_zh": "法术增幅效果",
+        "stat_zh-TW": "法術增幅效果",
+        "stat_ja": "アーツ増幅効果",
+        "stat_ko": "아츠 증폭 효과"
+      },
+      "combo_skill": {
+        "lv": 9
+      },
+      "ultimate": {
+        "lv": 12,
+        "stat": "Base Cryo Amp",
+        "stat_es": "Amp criogénica inicial",
+        "stat_zh": "基础寒冷增幅效果",
+        "stat_zh-TW": "基礎寒冷增幅效果",
+        "stat_ja": "基礎寒冷増幅効果",
+        "stat_ko": "기초 냉기 증폭 효과"
+      }
+    }
   },
   {
     "id": "yvonne",
@@ -825,6 +1293,7 @@
     "name_es": "Yvonne",
     "name_ja": "イヴォンヌ",
     "name_zh": "伊冯",
+    "name_zh-TW": "伊馮",
     "common_gear": {
       "gear": [
         "mi_security_overalls",
@@ -833,11 +1302,22 @@
         "mi_security_toolkit"
       ],
       "set": "MI Security",
-      "setCount": 10,
+      "setCount": 11,
       "count": 3,
-      "builds": 10
+      "builds": 11
     },
-    "name_ko": "이본"
+    "name_ko": "이본",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 9
+      },
+      "combo_skill": {
+        "lv": 9
+      },
+      "ultimate": {
+        "lv": 9
+      }
+    }
   },
   {
     "id": "mifu",
@@ -853,6 +1333,7 @@
     "name_es": "Mi Fu",
     "name_ja": "ミ・フ",
     "name_zh": "弭弗",
+    "name_zh-TW": "弭弗",
     "common_gear": {
       "gear": [
         "grizzled_edge_armor",
@@ -865,7 +1346,18 @@
       "count": 4,
       "builds": 11
     },
-    "name_ko": "미브"
+    "name_ko": "미브",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 9
+      },
+      "combo_skill": {
+        "lv": 9
+      },
+      "ultimate": {
+        "lv": 9
+      }
+    }
   },
   {
     "id": "camille",
@@ -889,6 +1381,7 @@
     "name_es": "Camille",
     "name_ja": "カミーユ",
     "name_zh": "卡缪",
+    "name_zh-TW": "卡繆",
     "common_gear": {
       "gear": [
         "frontiers_protection_suit",
@@ -897,11 +1390,34 @@
         "redeemer_seal"
       ],
       "set": "Frontiers",
-      "setCount": 6,
-      "count": 3,
-      "builds": 8
+      "setCount": 9,
+      "count": 4,
+      "builds": 11
     },
-    "name_ko": "카뮤"
+    "name_ko": "카뮤",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 12,
+        "stat": "Weakness Effect",
+        "stat_es": "Efecto de debilidad",
+        "stat_zh": "虚弱效果",
+        "stat_zh-TW": "虛弱效果",
+        "stat_ja": "弱体化効果",
+        "stat_ko": "허약 효과"
+      },
+      "combo_skill": {
+        "lv": 10,
+        "stat": "SP Recovery",
+        "stat_es": "Recuperación de PH",
+        "stat_zh": "技力恢复",
+        "stat_zh-TW": "技力回復",
+        "stat_ja": "SP回復量",
+        "stat_ko": "스킬 게이지 회복"
+      },
+      "ultimate": {
+        "lv": 9
+      }
+    }
   },
   {
     "id": "arcane",
@@ -926,6 +1442,7 @@
           "es": "Forma INT — Daño",
           "en": "INT form — Damage",
           "zh": "智识形态 — 输出",
+          "zh-TW": "智識形態 — 輸出",
           "ja": "知性フォーム — アタッカー",
           "ko": "지능 형태 — 딜러"
         },
@@ -944,6 +1461,7 @@
           "es": "Modo daño. Subestadísticas: Intellect (mantenlo por encima del Will para no salir de la forma) y Will. El cuarto slot es una LYNX Slab suelta por el atributo principal.",
           "en": "Damage mode. Substats: Intellect (keep it above Will so you stay in form) and Will. The fourth slot is a loose LYNX Slab for the main attribute.",
           "zh": "输出模式。副能力：智识（保持高于意志以维持形态）和意志。第四个槽位放一块散件生物辅助护板补主能力。",
+          "zh-TW": "輸出模式。副能力：智識（保持高於意志以維持形態）和意志。第四個槽位放一塊散件生物輔助護板補主能力。",
           "ja": "ダメージモード。サブ能力：知性（フォームを維持するため意志より高く保つ）と意志。4つ目の枠はメイン能力用の単品の生物補助プレート。",
           "ko": "딜러 모드. 보조 능력치: 지능(형태를 유지하려면 의지보다 높게)과 의지. 네 번째 슬롯은 주요 능력치용 단품 생체 보조 보호판."
         }
@@ -953,6 +1471,7 @@
           "es": "Forma WILL — Soporte",
           "en": "WILL form — Support",
           "zh": "意志形态 — 辅助",
+          "zh-TW": "意志形態 — 輔助",
           "ja": "意志フォーム — サポート",
           "ko": "의지 형태 — 서포터"
         },
@@ -973,6 +1492,7 @@
           "es": "Modo soporte. Subestadística: Will (apílalo para entrar y mantener la forma, hasta 640). Con 640 de Will o si necesitas más carga, cambia una Bracing Slab por la Auxiliary Arm.",
           "en": "Support mode. Substat: Will (stack it to enter and hold the form, up to 640). At 640 Will or if you need more charge, swap a Bracing Slab for the Auxiliary Arm.",
           "zh": "辅助模式。副能力：意志（堆到进入并维持形态，最高640）。意志到640或需要更多充能时，把一块加固板换成辅助臂。",
+          "zh-TW": "輔助模式。副能力：意志（堆到進入並維持形態，最高640）。意志到640或需要更多蓄能時，把一塊加固板換成輔助臂。",
           "ja": "サポートモード。サブ能力：意志（フォームに入り維持するために積む、最大640）。意志が640か、さらにチャージが要るなら、補強板1枚をロボットアームに替える。",
           "ko": "서포터 모드. 보조 능력치: 의지(형태에 들어가고 유지하도록 쌓기, 최대 640). 의지 640이거나 충전이 더 필요하면 강화판 하나를 보조 어깨로 바꾸세요."
         }
@@ -981,6 +1501,7 @@
     "name_es": "Arcane",
     "name_ja": "オクギ",
     "name_zh": "诀",
+    "name_zh-TW": "訣",
     "common_gear": {
       "gear": [
         "hot_work_exo_rig",
@@ -989,11 +1510,28 @@
         "lynx_slab"
       ],
       "set": "Hot Work",
-      "setCount": 15,
-      "count": 7,
-      "builds": 25
+      "setCount": 18,
+      "count": 10,
+      "builds": 31
     },
-    "name_ko": "결"
+    "name_ko": "결",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 9
+      },
+      "combo_skill": {
+        "lv": 12,
+        "stat": "Max Bonus Susceptibility from Will",
+        "stat_es": "Susceptibilidad adicional Máx. por Voluntad",
+        "stat_zh": "意志提供最大额外脆弱效果",
+        "stat_zh-TW": "意志提供最大額外脆弱效果",
+        "stat_ja": "意志による最大追加脆弱効果",
+        "stat_ko": "의지가 제공하는 최대 추가 취약 효과"
+      },
+      "ultimate": {
+        "lv": 9
+      }
+    }
   },
   {
     "id": "liino",
@@ -1014,19 +1552,43 @@
     "name_es": "Liino",
     "name_ja": "リーノ",
     "name_zh": "梨诺",
+    "name_zh-TW": "梨諾",
     "common_gear": {
       "gear": [
-        "eternal_xiranite_light_armor",
-        "eternal_xiranite_hands",
-        "eternal_xiranite_auxiliary_arm",
+        "lynx_cuirass_t1",
+        "lynx_gauntlets_t1",
+        "eternal_xiranite_bracing_slab_t1",
         "lynx_slab"
       ],
-      "set": "Eternal Xiranite",
-      "setCount": 5,
+      "set": "LYNX",
+      "setCount": 7,
       "count": 4,
-      "builds": 9
+      "builds": 12
     },
-    "name_ko": "리노"
+    "name_ko": "리노",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 12,
+        "stat": "ATK Boost",
+        "stat_es": "Refuerzo de ATQ",
+        "stat_zh": "攻击力提升",
+        "stat_zh-TW": "攻擊力提升",
+        "stat_ja": "攻撃力UP",
+        "stat_ko": "공격력 증가"
+      },
+      "combo_skill": {
+        "lv": 9
+      },
+      "ultimate": {
+        "lv": 12,
+        "stat": "Amp Increase per Will",
+        "stat_es": "Incremento de Amp por Voluntad",
+        "stat_zh": "每点意志提升的增幅效果",
+        "stat_zh-TW": "每點意志提升的增幅效果",
+        "stat_ja": "意志1ごとの増幅UP効果",
+        "stat_ko": "의지 1포인트마다 증가하는 증폭 효과"
+      }
+    }
   },
   {
     "id": "typhoeus",
@@ -1060,7 +1622,25 @@
     },
     "name_ja": "ティフォロス",
     "name_zh": "提弗洛斯",
-    "name_ko": "티프로스"
+    "name_zh-TW": "提弗洛斯",
+    "name_ko": "티프로스",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 9
+      },
+      "combo_skill": {
+        "lv": 12,
+        "stat": "Nature Burst DMG Boost",
+        "stat_es": "Aumento de DAÑ de Ráfaga de naturaleza",
+        "stat_zh": "自然爆发伤害提高",
+        "stat_zh-TW": "自然爆發傷害提高",
+        "stat_ja": "自然爆発ダメージUP",
+        "stat_ko": "자연 폭발 피해 증가"
+      },
+      "ultimate": {
+        "lv": 9
+      }
+    }
   },
   {
     "id": "purrchena",
@@ -1080,6 +1660,7 @@
     ],
     "name_es": "Purrchena",
     "name_zh": "噗切娜",
+    "name_zh-TW": "噗切娜",
     "name_ja": "プチエナ",
     "name_ko": "푸치나",
     "common_gear": {
@@ -1093,6 +1674,23 @@
       "setCount": 5,
       "count": 4,
       "builds": 5
+    },
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 9
+      },
+      "combo_skill": {
+        "lv": 9
+      },
+      "ultimate": {
+        "lv": 12,
+        "stat": "Ambassador's Special: Base Chance",
+        "stat_es": "Especial de la embajadora: Probabilidad base",
+        "stat_zh": "代言人的特殊赠礼：基础概率",
+        "stat_zh-TW": "代言人的特殊贈禮：基礎機率",
+        "stat_ja": "アンバサダーのスペシャルギフト：基礎出現確率",
+        "stat_ko": "홍보대사의 특수 선물: 기본 확률"
+      }
     }
   },
   {
@@ -1104,8 +1702,16 @@
     "role": "Buffer",
     "icon": "<img src='assets/characters/si_card.webp' class='char-av-img' loading='lazy'>",
     "bis_weapon": "wpn_claym_0018",
+    "recommended_set": "Type 50 Yinglung",
+    "recommended_gear": [
+      "type_50_yinglung_soft_armor",
+      "type_50_yinglung_gloves_intellect_strength",
+      "type_50_yinglung_beacon",
+      "redeemer_seal"
+    ],
     "name_es": "Si",
     "name_zh": "祀",
+    "name_zh-TW": "祀",
     "name_ja": "スー",
     "name_ko": "사",
     "common_gear": {
@@ -1116,9 +1722,26 @@
         "type_50_yinglung_beacon"
       ],
       "set": "Type 50 Yinglung",
-      "setCount": 5,
-      "count": 5,
-      "builds": 5
+      "setCount": 12,
+      "count": 6,
+      "builds": 13
+    },
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 9
+      },
+      "combo_skill": {
+        "lv": 9
+      },
+      "ultimate": {
+        "lv": 12,
+        "stat": "Amp",
+        "stat_es": "Amp",
+        "stat_zh": "增幅效果",
+        "stat_zh-TW": "增幅效果",
+        "stat_ja": "増幅効果",
+        "stat_ko": "증폭 효과"
+      }
     }
   },
   {
@@ -1129,9 +1752,29 @@
     "r": 6,
     "role": "Damage",
     "icon": "<img src='assets/characters/argentflow_card.webp' class='char-av-img' loading='lazy'>",
+    "bis_weapon": "wpn_sword_0025",
+    "recommended_set": "Pulser Labs",
+    "recommended_gear": [
+      "pulser_labs_light_armor",
+      "pulser_labs_light_gauntlets",
+      "pulser_labs_armor_slab",
+      "lynx_slab"
+    ],
     "name_es": "Argent Flow",
     "name_zh": "明河",
+    "name_zh-TW": "明河",
     "name_ja": "ミンホ",
-    "name_ko": "명하"
+    "name_ko": "명하",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 9
+      },
+      "combo_skill": {
+        "lv": 9
+      },
+      "ultimate": {
+        "lv": 9
+      }
+    }
   }
 ]

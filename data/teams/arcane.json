@@ -21,7 +21,7 @@
       "playstyle": {
         "difficulty": { "es": "Media", "en": "Mid" },
         "tags": [
-          { "es": "Naturaleza", "en": "Nature", "jp": "自然", "zh": "自然" },
+          { "es": "Naturaleza", "en": "Nature", "jp": "自然", "zh": "自然", "zh-TW": "自然" },
           { "es": "Burst", "en": "Burst" },
           { "es": "Corrosion", "en": "Corrosion" },
           { "es": "Control (Imprison)", "en": "Control (Imprison)" }
@@ -171,7 +171,7 @@
       "playstyle": {
         "difficulty": { "es": "Baja", "en": "Low" },
         "tags": [
-          { "es": "Criogénico", "en": "Cryo", "jp": "寒冷", "zh": "寒冷" },
+          { "es": "Criogénico", "en": "Cryo", "jp": "寒冷", "zh": "寒冷", "zh-TW": "寒冷" },
           { "es": "Formulaico", "en": "Formulaic" },
           { "es": "Soporte de Infliction", "en": "Infliction support" },
           { "es": "Control (Imprison)", "en": "Control (Imprison)" }
@@ -337,7 +337,7 @@
       "playstyle": {
         "difficulty": { "es": "Baja", "en": "Low" },
         "tags": [
-          { "es": "Naturaleza", "en": "Nature", "jp": "自然", "zh": "自然" },
+          { "es": "Naturaleza", "en": "Nature", "jp": "自然", "zh": "自然", "zh-TW": "自然" },
           { "es": "Formulaico", "en": "Formulaic" },
           { "es": "Control (Imprison)", "en": "Control (Imprison)" },
           { "es": "Burst", "en": "Burst" }
@@ -1066,7 +1066,8 @@
             "es": "Corrosion",
             "en": "Corrosion",
             "jp": "腐食",
-            "zh": "腐蚀"
+            "zh": "腐蚀",
+            "zh-TW": "腐蝕"
           },
           {
             "es": "Silla de ruedas",
@@ -1407,9 +1408,9 @@
           "weaponId": "wpn_funnel_0016",
           "gearRec": [
             "hot_work_exo_rig",
+            "hot_work_hands_ppe",
             "hot_work_insulation_slab",
-            "lynx_slab",
-            "hot_work_hands_ppe"
+            "lynx_slab"
           ],
           "weaponNote": {
             "es": "Type 42: Solemn Phalanx (四二式·肃阵), su arma BIS, con Junction Point (联结点) como segunda opción de la ficha.",
@@ -1430,8 +1431,8 @@
           "weaponId": "wpn_lance_0014",
           "gearRec": [
             "eternal_xiranite_light_armor",
-            "eternal_xiranite_auxiliary_arm",
             "eternal_xiranite_hands",
+            "eternal_xiranite_auxiliary_arm",
             "lynx_slab"
           ],
           "weaponNote": {
@@ -1453,9 +1454,9 @@
           "weaponId": "wpn_lance_0015",
           "gearRec": [
             "frontiers_protection_suit",
+            "frontiers_fiber_gloves_t1",
             "frontiers_comm",
-            "redeemer_seal",
-            "frontiers_fiber_gloves_t1"
+            "redeemer_seal"
           ],
           "weaponNote": {
             "es": "Blessing of Lustrous Carmine (镀红祝福), su arma BIS, con Beacon of Duty (灯火使命) como segunda opción de la ficha.",
@@ -1476,9 +1477,9 @@
           "weaponId": "wpn_pistol_0012",
           "gearRec": [
             "qingbo_heavy_armor",
+            "qingbo_gloves",
             "qingbo_bamboo_cutter",
-            "redeemer_seal",
-            "qingbo_gloves"
+            "redeemer_seal"
           ],
           "weaponNote": {
             "es": "OBJ Velocitous (O.B.J.迅极) encabeza la ficha, con Rational Farewell (理性告别) detrás.",
@@ -1594,7 +1595,8 @@
             "es": "Corrosion",
             "en": "Corrosion",
             "jp": "腐食",
-            "zh": "腐蚀"
+            "zh": "腐蚀",
+            "zh-TW": "腐蝕"
           },
           {
             "es": "Metrónomo de SP",
@@ -2105,7 +2107,8 @@
             "es": "Corrosion",
             "en": "Corrosion",
             "jp": "腐食",
-            "zh": "腐蚀"
+            "zh": "腐蚀",
+            "zh-TW": "腐蝕"
           },
           {
             "es": "Doble Cryo",
@@ -2404,9 +2407,9 @@
           "weaponId": "wpn_funnel_0016",
           "gearRec": [
             "hot_work_exo_rig",
+            "hot_work_hands_ppe",
             "hot_work_insulation_slab",
-            "lynx_slab",
-            "hot_work_hands_ppe"
+            "lynx_slab"
           ],
           "weaponNote": {
             "es": "Type 42: Solemn Phalanx (四二式·肃阵), su arma BIS, o la del pase grande según el autor; el panel lista Junction Point (联结点) y Oblivion (遗忘) detrás.",
@@ -2427,8 +2430,8 @@
           "weaponId": "wpn_lance_0014",
           "gearRec": [
             "eternal_xiranite_light_armor",
-            "eternal_xiranite_auxiliary_arm",
             "eternal_xiranite_hands",
+            "eternal_xiranite_auxiliary_arm",
             "lynx_slab"
           ],
           "weaponNote": {
@@ -2450,9 +2453,9 @@
           "weaponId": "wpn_funnel_0008",
           "gearRec": [
             "eternal_xiranite_light_armor_t1",
+            "eternal_xiranite_gloves_t1",
             "eternal_xiranite_bracing_slab",
-            "frontiers_extra_o2_tube",
-            "eternal_xiranite_gloves_t1"
+            "frontiers_extra_o2_tube"
           ],
           "weaponNote": {
             "es": "Detonation Unit (爆破单元) primero y Chivalric Virtues (骑士精神) después, en el orden del propio autor.",
@@ -2473,9 +2476,9 @@
           "weaponId": "wpn_pistol_0011",
           "gearRec": [
             "qingbo_heavy_armor",
+            "qingbo_gauntlets",
             "qingbo_positioning_kit",
-            "lynx_slab",
-            "qingbo_gauntlets"
+            "lynx_slab"
           ],
           "weaponNote": {
             "es": "Brigand's Calling (落草), su arma BIS, con Home Longing (望乡) como segunda opción del panel.",
@@ -2601,7 +2604,8 @@
             "es": "Corrosion",
             "en": "Corrosion",
             "jp": "腐食",
-            "zh": "腐蚀"
+            "zh": "腐蚀",
+            "zh-TW": "腐蝕"
           },
           {
             "es": "Cadenas contadas",
@@ -3699,9 +3703,9 @@
           "weaponId": "wpn_funnel_0016",
           "gearRec": [
             "hot_work_exo_rig",
+            "hot_work_hands_ppe",
             "hot_work_insulation_slab",
-            "lynx_slab",
-            "hot_work_hands_ppe"
+            "lynx_slab"
           ],
           "weaponNote": {
             "es": "Type 42: Solemn Phalanx (四二式·肃阵), su arma BIS, con Junction Point (联结点) como segunda opción de la ficha.",
@@ -3722,9 +3726,9 @@
           "weaponId": "wpn_sword_0021",
           "gearRec": [
             "swordmancer_heavy_armor_t1",
+            "redeemer_gloves",
             "swordmancer_dagger",
-            "swordmancer_dagger",
-            "redeemer_gloves"
+            "swordmancer_dagger"
           ],
           "weaponNote": {
             "es": "Grand Vision (宏愿) encabeza la ficha, con Lupine Scarlet (狼之绯), Rapid Ascent (扶摇) y Sundering Steel (钢铁余音) detrás.",
@@ -3745,9 +3749,9 @@
           "weaponId": "wpn_funnel_0010",
           "gearRec": [
             "eternal_xiranite_light_armor_t1",
+            "aic_fieldwork_wraps",
             "eternal_xiranite_bracing_slab",
-            "eternal_xiranite_bracing_slab",
-            "aic_fieldwork_wraps"
+            "eternal_xiranite_bracing_slab"
           ],
           "weaponNote": {
             "es": "Chivalric Virtues (骑士精神) primero, con Stanza of Memorials (悼亡诗) como segunda opción de la ficha.",
@@ -3768,9 +3772,9 @@
           "weaponId": "wpn_sword_0012",
           "gearRec": [
             "redeemer_armor",
+            "frontiers_fiber_gloves_t1",
             "frontiers_extra_o2_tube_t1",
-            "frontiers_extra_o2_tube_t1",
-            "frontiers_fiber_gloves_t1"
+            "frontiers_extra_o2_tube_t1"
           ],
           "weaponNote": {
             "es": "Thermite Cutter (热熔切割器), sola en la ficha: el autor lo llama «un lanzador de Thermite Cutter».",
@@ -3840,6 +3844,1300 @@
             "swap": {
               "es": "Alesh pasa a la ficha de 44,6 %: Frontiers Protection Suit, Extra O2 Tube T1, Redeemer Seal y Fiber Gloves T1. En 斧柄纪年, sellos de carga en Arcane y Alesh hacen «universal» al mini-combo.",
               "en": "Alesh moves to the 44.6% card: Frontiers Protection Suit, Extra O2 Tube T1, Redeemer Seal and Fiber Gloves T1. In 斧柄纪年, charge seals on Arcane and Alesh make the mini-combo «universal»."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": {
+        "es": "YZ-月咒 - Arcane INT con Si, Tangtang y Liino",
+        "en": "YZ-月咒 - INT Arcane with Si, Tangtang and Liino"
+      },
+      "subtitle": {
+        "es": "Si · Tangtang · Liino",
+        "en": "Si · Tangtang · Liino"
+      },
+      "blurb": {
+        "es": "El primer equipo de Si del autor en esta versión, que él llama «silla de ruedas»: sencillo, cómodo y que sirve casi en cualquier contenido. Contra un objetivo, la Corrosion de Arcane INT reduce la resistencia; contra grupos, Si, Tangtang y Arcane limpian bien, y Liino cura y reduce el daño recibido. Tres vueltas de carga idénticas y una de burst. Sin Tangtang, Camille o Wulfgard (comps aparte).",
+        "en": "The author's first Si team this version, which the author calls a \"wheelchair\": simple, comfortable and good in almost any content. Against one target, INT Arcane's Corrosion cuts resistance; against groups, Si, Tangtang and Arcane clear well, and Liino heals and reduces damage taken. Three identical charge loops and one burst loop. Without Tangtang, Camille or Wulfgard (separate comps)."
+      },
+      "guideVideoId": "arcb11",
+      "simple": {
+        "whatItDoes": {
+          "es": "Arcane en forma INT es la carry. Su Combo aplica Imprisonment y Susceptibility; si su Battle Skill golpea a un objetivo con Imprisonment, lo termina antes con Explosion DMG, golpes extra y SP de vuelta, y su Nature Infliction sobre la Cryo provoca Corrosion. Si y Tangtang ponen la Cryo. Esa reacción dispara el Combo de Si y, con Liino en Vocalist Stance, el de Liino. El Ultimate de Si da Cryo Amp y el de Liino, Nature Amp.",
+          "en": "INT-form Arcane is the carry. Her Combo applies Imprisonment and Susceptibility; if her Battle Skill hits an Imprisoned target, it ends it early with Explosion DMG, bonus hits and SP back, and her Nature Infliction on the Cryo causes Corrosion. Si and Tangtang put the Cryo. That reaction fires Si's Combo and, with Liino in Vocalist Stance, Liino's. Si's Ultimate gives Cryo Amp and Liino's, Nature Amp."
+        },
+        "steps": [
+          {
+            "who": "liino",
+            "do": {
+              "es": "Antes de empezar, Battle Skill de Liino para entrar en Vocalist Stance.",
+              "en": "Before starting, Liino's Battle Skill to enter Vocalist Stance."
+            }
+          },
+          {
+            "who": "si",
+            "do": {
+              "es": "Battle Skill de Si y Combo de Tangtang: 1.ª acumulación de Cryo y la marca de Si.",
+              "en": "Si's Battle Skill and Tangtang's Combo: 1st Cryo stack and Si's mark."
+            }
+          },
+          {
+            "who": "tangtang",
+            "do": {
+              "es": "Dos Final Strikes; con 1,8-2 barras de SP, Battle Skill de Tangtang (2.ª) y sale el Combo de Arcane.",
+              "en": "Two Final Strikes; at 1.8-2 SP bars, Tangtang's Battle Skill (2nd) and Arcane's Combo comes out."
+            }
+          },
+          {
+            "who": "arcane",
+            "do": {
+              "es": "Battle Skill de Arcane para detonar el Combo y poner Corrosion; Combos de Si y Liino.",
+              "en": "Arcane's Battle Skill to detonate the Combo and apply Corrosion; Si's and Liino's Combos."
+            },
+            "key": true
+          },
+          {
+            "who": "si",
+            "do": {
+              "es": "Final Strikes hasta que estalle la marca de Si; tres vueltas así y después el burst con las Ultimates de Arcane, Liino y Si.",
+              "en": "Final Strikes until Si's mark bursts; three loops like this, then the burst with Arcane's, Liino's and Si's Ultimates."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "arcane",
+            "line": {
+              "es": "Type 42: Solemn Phalanx. Hot Work al 3 (Exo-Rig, Hands PPE, Insulation Slab) con LYNX Slab: su arma ya da carga.",
+              "en": "Type 42: Solemn Phalanx. 3-piece Hot Work (Exo-Rig, Hands PPE, Insulation Slab) with LYNX Slab: her weapon already gives charge."
+            }
+          },
+          {
+            "id": "si",
+            "line": {
+              "es": "Jade Vessel (o Long Heritage, Khravengger). Type 50 Yinglung al 3 con LYNX Slab; Redeemer Seal si hace falta alinear las Ultimates.",
+              "en": "Jade Vessel (or Long Heritage, Khravengger). 3-piece Type 50 Yinglung with LYNX Slab; Redeemer Seal if you need to line up the Ultimates."
+            }
+          },
+          {
+            "id": "tangtang",
+            "line": {
+              "es": "Brigand's Calling. Bonekrusha al 3 con MI Security Gloves o con LYNX Slab. Sin Qingbo.",
+              "en": "Brigand's Calling. 3-piece Bonekrusha with MI Security Gloves or with LYNX Slab. No Qingbo."
+            }
+          },
+          {
+            "id": "liino",
+            "line": {
+              "es": "Bedazzling Night Debut (o Golden Age). LYNX al 3 con Eternal Xiranite Bracing Slab T1 (supervivencia) o Eternal Xiranite al 3 con LYNX Slab (más daño).",
+              "en": "Bedazzling Night Debut (or Golden Age). 3-piece LYNX with Eternal Xiranite Bracing Slab T1 (survival) or 3-piece Eternal Xiranite with LYNX Slab (more damage)."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "El autor lo recomienda por tres razones: es sencillo, cómodo y vale para casi todo. Contra un objetivo, la Corrosion aporta reducción de resistencia; contra grupos, Si, Tangtang y Arcane tienen buen alcance, y en los contenidos con presión de supervivencia Liino mantiene la vida del equipo. La demostración contra grupos, en el tercer piso de Umbral Monument de la versión anterior (con SP limitado), es simple: Battle Skill de Tangtang, Battle Skill de Arcane y los Combos de los cuatro. La rotación contra un objetivo es de tres vueltas de carga idénticas y una de burst. Siempre se empieza con la Battle Skill de Liino para entrar en Vocalist Stance. La Battle Skill de Si tiene fases: la primera marca al objetivo y guarda el daño (13% con la Battle Skill en especialización 3, un multiplicador independiente que no sube con los bonus de daño); la segunda saca un Inksoul, sin bonus de daño, que solo sirve para pegarle a algo quieto cuando el jefe es difícil de alcanzar. Cada vuelta empieza cuando estalla la marca anterior: se ve en la mariposa verde del enemigo o en la cuenta atrás del icono de la Battle Skill de Si. En la demo, la marca guardó unos 530.000 de daño en una vuelta. Si no tienes a Tangtang, Camille o Wulfgard la sustituyen en la Posición 01; si no tienes a Liino, el autor pasa a Xaihi y a Arcane en forma WILL.",
+        "en": "The author recommends it for three reasons: it is simple, comfortable and works for almost everything. Against one target, Corrosion brings resistance reduction; against groups, Si, Tangtang and Arcane have good reach, and in content with survival pressure Liino keeps the team's HP up. The group demo, on the third floor of the previous version's Umbral Monument (with limited SP), is simple: Tangtang's Battle Skill, Arcane's Battle Skill and all four Combos. The single-target rotation is three identical charge loops and one burst loop. It always starts with Liino's Battle Skill to enter Vocalist Stance. Si's Battle Skill has phases: the first marks the target and stores damage (13% with the Battle Skill at specialization 3, an independent multiplier that damage bonuses do not raise); the second pulls out an Inksoul, with no damage bonus, only useful to hit something stationary when the boss is hard to reach. Each loop starts when the previous mark bursts: watch the green butterfly on the enemy or the countdown on Si's Battle Skill icon. In the demo, the mark stored about 530,000 damage in one loop. Without Tangtang, Camille or Wulfgard replace her in Team Position 01; without Liino, the author switches to Xaihi and WILL-form Arcane."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Baja («silla de ruedas» del autor)",
+          "en": "Low (the author's \"wheelchair\")"
+        },
+        "content": {
+          "es": "Jefe, grupos y supervivencia",
+          "en": "Boss, groups and survival"
+        },
+        "tags": [
+          {
+            "es": "Nature / Cryo",
+            "en": "Nature / Cryo"
+          },
+          {
+            "es": "Corrosion",
+            "en": "Corrosion"
+          },
+          {
+            "es": "3 de carga + 1 de burst",
+            "en": "3 charge + 1 burst"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "Tres vueltas de carga iguales: se aprende una sola secuencia.",
+          "en": "Three identical charge loops: you learn a single sequence."
+        },
+        {
+          "es": "Bueno contra grupos: Si, Tangtang y Arcane tienen buen alcance.",
+          "en": "Good against groups: Si, Tangtang and Arcane have good reach."
+        },
+        {
+          "es": "Liino cura y, en sus stances, reduce el daño recibido: seguro en contenidos con presión de supervivencia.",
+          "en": "Liino heals and, in her stances, reduces damage taken: safe in content with survival pressure."
+        },
+        {
+          "es": "Arcane no necesita piezas de Ultimate Gain: su arma ya da carga.",
+          "en": "Arcane needs no Ultimate Gain pieces: her weapon already gives charge."
+        }
+      ],
+      "cons": [
+        {
+          "es": "Hay que esperar a que estalle la marca de Si entre vueltas.",
+          "en": "You have to wait for Si's mark to burst between loops."
+        },
+        {
+          "es": "La carga mínima de Arcane depende de los potenciales del equipo (133-138% con todos a potencial 0).",
+          "en": "Arcane's minimum charge depends on the team's potentials (133-138% with everyone at Potential 0)."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "El Combo de Arcane INT se detona",
+            "en": "INT Arcane's Combo gets detonated"
+          },
+          "body": {
+            "es": "En forma INT, si la Battle Skill de Arcane golpea a un objetivo con el Imprisonment de su Combo, lo termina antes: Explosion DMG, otra aplicación de Nature y Cryo Susceptibility, golpes extra y SP de vuelta. Su Nature Infliction sobre la Cryo de Si y Tangtang provoca además Corrosion.",
+            "en": "In INT form, if Arcane's Battle Skill hits a target with her Combo's Imprisonment, it ends it early: Explosion DMG, another round of Nature and Cryo Susceptibility, bonus hits and SP back. Her Nature Infliction on Si's and Tangtang's Cryo also causes Corrosion."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Una reacción, dos Combos",
+            "en": "One reaction, two Combos"
+          },
+          "body": {
+            "es": "La Corrosion consume la Cryo: sale el Combo de Si, que pega según las acumulaciones consumidas, y, con Liino en Vocalist Stance, el Combo de Liino, que sale con cada Arts Reaction. Tras su Combo, la siguiente Battle Skill de un operador Nature o Electric devuelve SP (talento de Liino).",
+            "en": "Corrosion consumes the Cryo: Si's Combo fires, hitting based on the stacks consumed, and, with Liino in Vocalist Stance, so does Liino's Combo, which fires on every Arts Reaction. After her Combo, the next Battle Skill from a Nature or Electric operator returns SP (Liino's talent)."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Amp para el burst",
+            "en": "Amp for the burst"
+          },
+          "body": {
+            "es": "El Ultimate de Liino da Nature y Electric Amp al equipo, y el de Si, Cryo y Heat Amp. El Ultimate de Arcane INT fuerza Corrosion en el área y le da Arts Amp mientras dura.",
+            "en": "Liino's Ultimate gives the team Nature and Electric Amp, and Si's gives Cryo and Heat Amp. INT Arcane's Ultimate forces Corrosion in its area and gives her Arts Amp while it lasts."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Vuelta de carga (×3)",
+            "en": "Charge loop (×3)"
+          },
+          "action": {
+            "es": "Battle Skill de Si + Combo de Tangtang → dos Final Strikes → Battle Skill de Tangtang → Combo de Arcane → Battle Skill de Arcane → Combos de Si y Liino.",
+            "en": "Si's Battle Skill + Tangtang's Combo → two Final Strikes → Tangtang's Battle Skill → Arcane's Combo → Arcane's Battle Skill → Si's and Liino's Combos."
+          },
+          "steps": [
+            {
+              "who": "liino",
+              "do": {
+                "es": "Solo al empezar el combate: Battle Skill de Liino para entrar en Vocalist Stance.",
+                "en": "Only when the fight starts: Liino's Battle Skill to enter Vocalist Stance."
+              }
+            },
+            {
+              "who": "si",
+              "do": {
+                "es": "Battle Skill de Si y Combo de Tangtang: 1.ª acumulación de Cryo, y la marca de Si empieza a guardar daño.",
+                "en": "Si's Battle Skill and Tangtang's Combo: 1st Cryo stack, and Si's mark starts storing damage."
+              }
+            },
+            {
+              "who": "tangtang",
+              "do": {
+                "es": "Dos Final Strikes para el SP; con 1,8-2 barras, Battle Skill de Tangtang: 2.ª acumulación y sale el Combo de Arcane.",
+                "en": "Two Final Strikes for SP; at 1.8-2 bars, Tangtang's Battle Skill: 2nd stack and Arcane's Combo comes out."
+              }
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Combo de Arcane y su Battle Skill para detonarlo: golpes extra y Corrosion. Combos de Si y de Liino.",
+                "en": "Arcane's Combo and her Battle Skill to detonate it: bonus hits and Corrosion. Si's and Liino's Combos."
+              },
+              "key": true
+            },
+            {
+              "who": "si",
+              "do": {
+                "es": "Final Strikes hasta que estalle la marca de Si (mariposa verde o cuenta atrás en su icono). Entonces, la siguiente vuelta.",
+                "en": "Final Strikes until Si's mark bursts (green butterfly or countdown on her icon). Then the next loop."
+              }
+            }
+          ],
+          "tip": {
+            "es": "La segunda fase de la Battle Skill de Si (el Inksoul) no suma daño: úsala solo si te cuesta alcanzar al jefe.",
+            "en": "The second phase of Si's Battle Skill (the Inksoul) adds no damage: only use it if the boss is hard to reach."
+          }
+        },
+        {
+          "phase": {
+            "es": "Burst",
+            "en": "Burst"
+          },
+          "action": {
+            "es": "Ultimates de Arcane, Liino y Si → dos Final Strikes → Battle Skill y Combo de Tangtang → Ultimate de Tangtang + Dive Attack → Combo y Battle Skill de Arcane → segunda fase del Ultimate de Arcane → Combo de Si.",
+            "en": "Arcane's, Liino's and Si's Ultimates → two Final Strikes → Tangtang's Battle Skill and Combo → Tangtang's Ultimate + Dive Attack → Arcane's Combo and Battle Skill → second phase of Arcane's Ultimate → Si's Combo."
+          },
+          "steps": [
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Ultimates de Arcane, Liino y Si. Dos Final Strikes para desbloquear la segunda fase del Ultimate de Arcane.",
+                "en": "Arcane's, Liino's and Si's Ultimates. Two Final Strikes to unlock the second phase of Arcane's Ultimate."
+              }
+            },
+            {
+              "who": "tangtang",
+              "do": {
+                "es": "Battle Skill y Combo de Tangtang (1.ª acumulación); Ultimate de Tangtang y un Dive Attack dentro (2.ª): sale el Combo de Arcane.",
+                "en": "Tangtang's Battle Skill and Combo (1st stack); Tangtang's Ultimate and a Dive Attack inside it (2nd): Arcane's Combo comes out."
+              },
+              "key": true
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Combo de Arcane, Battle Skill para detonarlo, segunda fase de su Ultimate y Combo de Si para cerrar.",
+                "en": "Arcane's Combo, Battle Skill to detonate it, the second phase of her Ultimate and Si's Combo to close."
+              }
+            }
+          ],
+          "tip": {
+            "es": "Si al Ultimate de Si le falta un poco en el burst, el autor lo atribuye al potencial 1 de Tangtang, que devuelve SP: gasta 15 SP en la segunda fase de la Battle Skill de Si para completar la energía.",
+            "en": "If Si's Ultimate is a little short in the burst, the author blames Tangtang's Potential 1, which returns SP: spend 15 SP on the second phase of Si's Battle Skill to top up the energy."
+          }
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "arcane",
+          "order": {
+            "es": "Combo / Ultimate (esp. 3) · Battle Skill / Ataque básico (9 o esp. 3)",
+            "en": "Combo / Ultimate (spec. 3) · Battle Skill / Basic attack (9 or spec. 3)"
+          },
+          "note": {
+            "es": "Refinado: Intellect = DMG Heat y Nature = atributo principal > Will.",
+            "en": "Artificing: Intellect = Heat and Nature DMG = main attribute > Will."
+          },
+          "assumeRanks": {
+            "combo_skill": 12,
+            "ultimate": 12,
+            "battle_skill": 9
+          }
+        },
+        {
+          "charId": "si",
+          "order": {
+            "es": "Combo > Battle Skill = Ultimate > Ataque básico",
+            "en": "Combo > Battle Skill = Ultimate > Basic attack"
+          },
+          "note": {
+            "es": "La mayor parte de su daño viene del Combo, sea carry o soporte. En especialización 3, la marca guarda el 13% y el Amp del Ultimate llega al 36% (30% a rango 9). El ataque básico, al máximo si es carry; si es soporte, según haga falta.",
+            "en": "Most of her damage comes from her Combo, carry or support. At specialization 3, the mark stores 13% and the Ultimate's Amp reaches 36% (30% at rank 9). Basic attack maxed if she is the carry; as needed if support."
+          }
+        },
+        {
+          "charId": "tangtang",
+          "order": {
+            "es": "Battle Skill (esp. 3); Ultimate = Ataque básico = Combo (9)",
+            "en": "Battle Skill (spec. 3); Ultimate = Basic attack = Combo (9)"
+          },
+          "note": {
+            "es": "Refinado: Agility, DMG de Battle Skill y DMG Cryo primero; Strength después. Aquí no necesita Ultimate Gain.",
+            "en": "Artificing: Agility, Battle Skill DMG and Cryo DMG first; Strength after. She needs no Ultimate Gain here."
+          },
+          "assumeRanks": {
+            "battle_skill": 12,
+            "combo_skill": 9,
+            "ultimate": 9
+          }
+        },
+        {
+          "charId": "liino",
+          "order": {
+            "es": "Battle Skill = Ultimate > Combo > Ataque básico",
+            "en": "Battle Skill = Ultimate > Combo > Basic attack"
+          },
+          "note": {
+            "es": "El ATK Boost de su Battle Skill y el Amp de su Ultimate llegan al máximo en especialización 3. Refinado: Will, atributo principal, Ultimate Gain y Agility.",
+            "en": "Her Battle Skill's ATK Boost and her Ultimate's Amp peak at specialization 3. Artificing: Will, main attribute, Ultimate Gain and Agility."
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Empezar sin la Battle Skill de Liino: el autor abre siempre con su Vocalist Stance.",
+          "en": "Starting without Liino's Battle Skill: the author always opens with her Vocalist Stance."
+        },
+        {
+          "es": "Lanzar la siguiente vuelta antes de que estalle la marca de Si.",
+          "en": "Starting the next loop before Si's mark bursts."
+        },
+        {
+          "es": "Usar la Battle Skill de Arcane sin el Imprisonment de su Combo en el objetivo: en forma INT pierdes la detonación, los golpes extra y el SP de vuelta.",
+          "en": "Using Arcane's Battle Skill without her Combo's Imprisonment on the target: in INT form you lose the detonation, the bonus hits and the SP back."
+        },
+        {
+          "es": "Saltarse las dos Final Strikes tras el Ultimate de Arcane: sin ellas no sale su segunda fase.",
+          "en": "Skipping the two Final Strikes after Arcane's Ultimate: without them her second phase does not come out."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "YZ-月咒 - Nature main-C con Liino",
+            "en": "YZ-月咒 - Nature main-C with Liino"
+          },
+          "verdict": {
+            "es": "El mismo núcleo de Arcane INT, Liino y Tangtang, con Xaihi en lugar de Si.",
+            "en": "Same INT Arcane, Liino and Tangtang core, with Xaihi instead of Si."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "arcane",
+          "role": "Carry",
+          "weaponId": "wpn_funnel_0016",
+          "gearRec": [
+            "hot_work_exo_rig",
+            "hot_work_hands_ppe",
+            "hot_work_insulation_slab",
+            "lynx_slab"
+          ],
+          "weaponNote": {
+            "es": "Type 42: Solemn Phalanx (BIS): a P5 ≈120% de la fuerza de equipo a P0. Junction Point ≈80% a P0 y ≈90% a P5. Su arma ya da carga, así que el gear no lleva Ultimate Gain.",
+            "en": "Type 42: Solemn Phalanx (BIS): at P5 ≈120% of team strength at P0. Junction Point ≈80% at P0 and ≈90% at P5. Her weapon already gives charge, so the gear carries no Ultimate Gain."
+          },
+          "gearNote": {
+            "es": "Hot Work al 3 (Exo-Rig, Hands PPE, Insulation Slab) con LYNX Slab. Carga mínima según los potenciales del equipo: 133-138% a potencial 0, 135-140% a potencial 1 y 115-119% a potencial 4 (100% base más el gear).",
+            "en": "3-piece Hot Work (Exo-Rig, Hands PPE, Insulation Slab) with LYNX Slab. Minimum charge by team potential: 133-138% at Potential 0, 135-140% at Potential 1 and 115-119% at Potential 4 (100% base plus gear)."
+          },
+          "deepNote": {
+            "es": "Forma INT. Su Combo aplica Nature y Cryo Susceptibility e Imprisonment; su Battle Skill sobre un objetivo con Imprisonment lo termina con Explosion DMG, otra Susceptibility, golpes extra y SP de vuelta. Su Ultimate fuerza Corrosion y le da Arts Amp; tras dos Final Strikes pasa a su segunda fase.",
+            "en": "INT form. Her Combo applies Nature and Cryo Susceptibility and Imprisonment; her Battle Skill on an Imprisoned target ends it with Explosion DMG, another Susceptibility, bonus hits and SP back. Her Ultimate forces Corrosion and gives her Arts Amp; after two Final Strikes it moves to its second phase."
+          }
+        },
+        {
+          "id": "si",
+          "role": "Buffer",
+          "weaponId": "wpn_claym_0018",
+          "gearRec": [
+            "type_50_yinglung_soft_armor",
+            "type_50_yinglung_gloves_intellect_strength",
+            "type_50_yinglung_beacon",
+            "lynx_slab"
+          ],
+          "weaponNote": {
+            "es": "Jade Vessel (BIS), con Long Heritage y Khravengger como alternativas. Fuerza de equipo contra Jade Vessel a P0: Jade Vessel a P5 ≈115% con Si de carry, ≈110% de soporte; Long Heritage ≈85-90%.",
+            "en": "Jade Vessel (BIS), with Long Heritage and Khravengger as alternatives. Team strength against Jade Vessel at P0: Jade Vessel at P5 ≈115% with Si as carry, ≈110% as support; Long Heritage ≈85-90%."
+          },
+          "gearNote": {
+            "es": "Type 50 Yinglung al 3 (Soft Armor, Gloves, Beacon) con LYNX Slab: según el autor, en la mayoría de equipos Si va con build de daño. Si hace falta alinear las Ultimates, cambia el LYNX Slab por Redeemer Seal.",
+            "en": "3-piece Type 50 Yinglung (Soft Armor, Gloves, Beacon) with LYNX Slab: per the author, Si wears a damage build in most teams. If you need to line up the Ultimates, swap the LYNX Slab for a Redeemer Seal."
+          },
+          "deepNote": {
+            "es": "Su Battle Skill aplica Cryo Infliction y marca con Artful Intent durante 20 s; la segunda fase saca un Inksoul (gasta 15 SP). Su Combo sale con cada consumo de Arts Infliction y su Ultimate da Cryo y Heat Amp al equipo.",
+            "en": "Her Battle Skill applies Cryo Infliction and marks with Artful Intent for 20 s; the second phase pulls out an Inksoul (costs 15 SP). Her Combo fires with every Arts Infliction consumption and her Ultimate gives the team Cryo and Heat Amp."
+          }
+        },
+        {
+          "id": "tangtang",
+          "role": "Buffer",
+          "weaponId": "wpn_pistol_0011",
+          "gearRec": [
+            "bonekrusha_heavy_armor_t2",
+            "mi_security_gloves",
+            "bonekrusha_mask_t2",
+            "bonekrusha_mask_t2"
+          ],
+          "weaponNote": {
+            "es": "Brigand's Calling (BIS), Home Longing o Wedge.",
+            "en": "Brigand's Calling (BIS), Home Longing or Wedge."
+          },
+          "gearNote": {
+            "es": "Bonekrusha al 3 con MI Security Gloves o con LYNX Slab. Según el autor, en este equipo no necesita recortar el cooldown de su Combo, así que no hace falta Qingbo.",
+            "en": "3-piece Bonekrusha with MI Security Gloves or with LYNX Slab. Per the author, in this team she does not need Combo cooldown, so Qingbo is not needed."
+          },
+          "deepNote": {
+            "es": "Su Combo sale al aplicarse Cryo Infliction; su Battle Skill crea Waterspouts que aplican Cryo Infliction (con varios, también Arts Susceptibility). En el burst, un Dive Attack dentro de su Ultimate crea otro Waterspout.",
+            "en": "Her Combo fires when Cryo Infliction is applied; her Battle Skill creates Waterspouts that apply Cryo Infliction (with several, also Arts Susceptibility). In the burst, a Dive Attack inside her Ultimate creates another Waterspout."
+          }
+        },
+        {
+          "id": "liino",
+          "role": "Buffer",
+          "weaponId": "wpn_lance_0014",
+          "gearRec": [
+            "lynx_cuirass_t1",
+            "lynx_gauntlets_t1",
+            "lynx_slab",
+            "eternal_xiranite_bracing_slab_t1"
+          ],
+          "weaponNote": {
+            "es": "Bedazzling Night Debut (BIS): a P5 ≈110% de la fuerza de equipo a P0. Golden Age ≈84% a P0 y ≈85% a P5.",
+            "en": "Bedazzling Night Debut (BIS): at P5 ≈110% of team strength at P0. Golden Age ≈84% at P0 and ≈85% at P5."
+          },
+          "gearNote": {
+            "es": "Dos opciones del autor. Supervivencia: LYNX al 3 (Cuirass T1, Gauntlets T1, Slab) con Eternal Xiranite Bracing Slab T1, con supervivencia al máximo, reducción de daño y curación extra. Daño: Eternal Xiranite al 3 (Light Armor, Hands, Bracing Slab T1) con LYNX Slab, que suma el buff de Eternal Xiranite. Carga mínima: 143-146% a potencial 0, 145-148% a potencial 1 y 124-126% a potencial 4.",
+            "en": "Two options from the author. Survival: 3-piece LYNX (Cuirass T1, Gauntlets T1, Slab) with Eternal Xiranite Bracing Slab T1, with max survival, damage reduction and extra healing. Damage: 3-piece Eternal Xiranite (Light Armor, Hands, Bracing Slab T1) with LYNX Slab, adding the Eternal Xiranite buff. Minimum charge: 143-146% at Potential 0, 145-148% at Potential 1 and 124-126% at Potential 4."
+          },
+          "deepNote": {
+            "es": "Su Battle Skill la pone en Vocalist Stance: ATK Boost para el equipo, curación y ataques extra. Mientras dura, su Combo sale con cada Arts Reaction. Su Ultimate da Nature y Electric Amp (más con Will) y fuerza Electrification. En sus stances, el equipo recibe menos daño.",
+            "en": "Her Battle Skill puts her in Vocalist Stance: team ATK Boost, healing and extra attacks. While it lasts, her Combo fires on every Arts Reaction. Her Ultimate gives Nature and Electric Amp (more with Will) and forces Electrification. In her stances, the team takes less damage."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Fichas del autor al final de la P1, con la fuerza de equipo por arma y la carga mínima de Arcane y de Liino según los potenciales del equipo.",
+          "en": "The author's cards at the end of part 1, with team strength per weapon and Arcane's and Liino's minimum charge by team potential."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Sin Tangtang",
+              "en": "Without Tangtang"
+            },
+            "swap": {
+              "es": "Camille o Wulfgard, y siempre en la Posición 01. Cada uno tiene su comp en esta lista.",
+              "en": "Camille or Wulfgard, always in Team Position 01. Each has its own comp in this list."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Sin Liino",
+              "en": "Without Liino"
+            },
+            "swap": {
+              "es": "El autor pasa a Xaihi y cambia a Arcane a forma WILL (lo deja para otro video).",
+              "en": "The author switches to Xaihi and moves Arcane to WILL form (left for another video)."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Si sin Ultimate alineado",
+              "en": "Si's Ultimate out of sync"
+            },
+            "swap": {
+              "es": "Redeemer Seal en lugar del LYNX Slab.",
+              "en": "Redeemer Seal instead of the LYNX Slab."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": {
+        "es": "YZ-月咒 - SIN Tangtang: Arcane INT con Si, Camille y Liino",
+        "en": "YZ-月咒 - NO Tangtang: INT Arcane with Si, Camille and Liino"
+      },
+      "subtitle": {
+        "es": "Si · Camille · Liino",
+        "en": "Si · Camille · Liino"
+      },
+      "blurb": {
+        "es": "La versión del equipo de Arcane INT con Si y Liino para quien no tiene a Tangtang: Camille en la Posición 01, así que la Battle Skill de Si aplica Heat. Tres vueltas de carga iguales; el video solo explica bien la vuelta de carga.",
+        "en": "The INT Arcane team with Si and Liino for players without Tangtang: Camille in Team Position 01, so Si's Battle Skill applies Heat. Three identical charge loops; the video only explains the charge loop clearly."
+      },
+      "guideVideoId": "arcb11",
+      "simple": {
+        "whatItDoes": {
+          "es": "Arcane en forma INT es la carry: su Battle Skill detona el Imprisonment de su Combo y su Nature convierte la Heat en Corrosion. Si y Camille ponen la Heat (la de Si es Heat porque Camille va en la Posición 01). La reacción dispara los Combos de Si, Liino y Camille.",
+          "en": "INT-form Arcane is the carry: her Battle Skill detonates her Combo's Imprisonment and her Nature turns the Heat into Corrosion. Si and Camille put the Heat (Si's is Heat because Camille sits in Team Position 01). The reaction fires Si's, Liino's and Camille's Combos."
+        },
+        "steps": [
+          {
+            "who": "liino",
+            "do": {
+              "es": "Antes de empezar, Battle Skill de Liino (Vocalist Stance).",
+              "en": "Before starting, Liino's Battle Skill (Vocalist Stance)."
+            }
+          },
+          {
+            "who": "si",
+            "do": {
+              "es": "Battle Skill de Si (1.ª acumulación de Heat) y dos Final Strikes.",
+              "en": "Si's Battle Skill (1st Heat stack) and two Final Strikes."
+            }
+          },
+          {
+            "who": "camille",
+            "do": {
+              "es": "Battle Skill de Camille: 2.ª acumulación y sale el Combo de Arcane.",
+              "en": "Camille's Battle Skill: 2nd stack and Arcane's Combo comes out."
+            }
+          },
+          {
+            "who": "arcane",
+            "do": {
+              "es": "Combo y Battle Skill de Arcane; los tres Combos que salgan. Tres vueltas así, esperando a que estalle la marca de Si.",
+              "en": "Arcane's Combo and Battle Skill; the three Combos that come out. Three loops like this, waiting for Si's mark to burst."
+            },
+            "key": true
+          }
+        ],
+        "gear": [
+          {
+            "id": "arcane",
+            "line": {
+              "es": "Type 42: Solemn Phalanx. Hot Work al 3 (Exo-Rig, Hands PPE, Insulation Slab) con LYNX Slab: su arma ya da carga.",
+              "en": "Type 42: Solemn Phalanx. 3-piece Hot Work (Exo-Rig, Hands PPE, Insulation Slab) with LYNX Slab: her weapon already gives charge."
+            }
+          },
+          {
+            "id": "si",
+            "line": {
+              "es": "Jade Vessel (o Long Heritage, Khravengger). Type 50 Yinglung al 3 con LYNX Slab; Redeemer Seal si hace falta alinear las Ultimates.",
+              "en": "Jade Vessel (or Long Heritage, Khravengger). 3-piece Type 50 Yinglung with LYNX Slab; Redeemer Seal if you need to line up the Ultimates."
+            }
+          },
+          {
+            "id": "camille",
+            "line": {
+              "es": "Frontiers Protection Suit, Fiber Gloves T1 y Extra O2 Tube T1 con Redeemer Seal (descripción del video).",
+              "en": "Frontiers Protection Suit, Fiber Gloves T1 and Extra O2 Tube T1 with Redeemer Seal (video description)."
+            }
+          },
+          {
+            "id": "liino",
+            "line": {
+              "es": "Bedazzling Night Debut (o Golden Age). LYNX al 3 con Eternal Xiranite Bracing Slab T1 (supervivencia) o Eternal Xiranite al 3 con LYNX Slab (más daño).",
+              "en": "Bedazzling Night Debut (or Golden Age). 3-piece LYNX with Eternal Xiranite Bracing Slab T1 (survival) or 3-piece Eternal Xiranite with LYNX Slab (more damage)."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "Las páginas 2 y 3 del video: el equipo de Arcane INT, Si y Liino con Camille en lugar de Tangtang. Según la descripción del video, el sustituto tiene que ir en la Posición 01. Ahí, Camille hace que la Battle Skill de Si aplique Heat en lugar de Cryo. La vuelta de carga, que se repite tres veces: Battle Skill de Liino al empezar; Battle Skill de Si (1.ª acumulación de Heat) y dos Final Strikes; Battle Skill de Camille (2.ª), Combo de Arcane y su Battle Skill para detonarlo y poner Corrosion; y los tres Combos que salen. Entre vuelta y vuelta se espera a que estalle la marca de Si. El burst de la demo se interrumpe (al autor le cortan la Battle Skill de Liino) y no se explica limpio, así que aquí no se detalla. Contra grupos (P3), el autor usa la Battle Skill de Camille, el Combo de Arcane y el de Si: con poca vida en los enemigos basta una acumulación de Heat; con mucha, dos.",
+        "en": "Parts 2 and 3 of the video: the INT Arcane, Si and Liino team with Camille instead of Tangtang. Per the video description, the replacement has to sit in Team Position 01. There, Camille makes Si's Battle Skill apply Heat instead of Cryo. The charge loop, repeated three times: Liino's Battle Skill at the start; Si's Battle Skill (1st Heat stack) and two Final Strikes; Camille's Battle Skill (2nd), Arcane's Combo and her Battle Skill to detonate it and apply Corrosion; and the three Combos that come out. Between loops you wait for Si's mark to burst. The demo's burst gets interrupted (Liino's Battle Skill is cancelled) and is not explained cleanly, so it is not detailed here. Against groups (part 3), the author uses Camille's Battle Skill, Arcane's Combo and Si's: with low enemy HP one Heat stack is enough; with high HP, two."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Baja-media",
+          "en": "Low-medium"
+        },
+        "content": {
+          "es": "Jefe y grupos",
+          "en": "Boss and groups"
+        },
+        "tags": [
+          {
+            "es": "Nature / Heat",
+            "en": "Nature / Heat"
+          },
+          {
+            "es": "Corrosion",
+            "en": "Corrosion"
+          },
+          {
+            "es": "Sin Tangtang",
+            "en": "No Tangtang"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "Para quien no tiene a Tangtang.",
+          "en": "For players without Tangtang."
+        },
+        {
+          "es": "Misma vuelta de carga repetida tres veces.",
+          "en": "Same charge loop repeated three times."
+        }
+      ],
+      "cons": [
+        {
+          "es": "Camille tiene que ir en la Posición 01 para que Si aplique Heat.",
+          "en": "Camille has to sit in Team Position 01 for Si to apply Heat."
+        },
+        {
+          "es": "El video no explica limpio el burst de esta versión.",
+          "en": "The video does not explain this version's burst cleanly."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "Si aplica Heat",
+            "en": "Si applies Heat"
+          },
+          "body": {
+            "es": "Con Camille en la Posición 01, la Battle Skill de Si aplica Heat Infliction en vez de Cryo. Por eso el autor insiste en que el sustituto de Tangtang vaya ahí: la Heat de Si y la de Camille suman las acumulaciones que el Combo de Arcane necesita, y la Nature de la Battle Skill de Arcane las convierte en Corrosion.",
+            "en": "With Camille in Team Position 01, Si's Battle Skill applies Heat Infliction instead of Cryo. That is why the author insists Tangtang's replacement goes there: Si's and Camille's Heat add up the stacks Arcane's Combo needs, and the Nature from Arcane's Battle Skill turns them into Corrosion."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "El Combo de Arcane INT se detona",
+            "en": "INT Arcane's Combo gets detonated"
+          },
+          "body": {
+            "es": "En forma INT, si la Battle Skill de Arcane golpea a un objetivo con el Imprisonment de su Combo, lo termina antes: Explosion DMG, otra aplicación de Nature y Cryo Susceptibility, golpes extra y SP de vuelta. Su Nature Infliction sobre la Cryo de Si y Tangtang provoca además Corrosion.",
+            "en": "In INT form, if Arcane's Battle Skill hits a target with her Combo's Imprisonment, it ends it early: Explosion DMG, another round of Nature and Cryo Susceptibility, bonus hits and SP back. Her Nature Infliction on Si's and Tangtang's Cryo also causes Corrosion."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Vuelta de carga (×3)",
+            "en": "Charge loop (×3)"
+          },
+          "action": {
+            "es": "Battle Skill de Si → dos Final Strikes → Battle Skill de Camille → Combo de Arcane → Battle Skill de Arcane → tres Combos.",
+            "en": "Si's Battle Skill → two Final Strikes → Camille's Battle Skill → Arcane's Combo → Arcane's Battle Skill → three Combos."
+          },
+          "steps": [
+            {
+              "who": "liino",
+              "do": {
+                "es": "Al empezar el combate, Battle Skill de Liino.",
+                "en": "When the fight starts, Liino's Battle Skill."
+              }
+            },
+            {
+              "who": "si",
+              "do": {
+                "es": "Battle Skill de Si (1.ª acumulación de Heat) y dos Final Strikes.",
+                "en": "Si's Battle Skill (1st Heat stack) and two Final Strikes."
+              }
+            },
+            {
+              "who": "camille",
+              "do": {
+                "es": "Battle Skill de Camille: 2.ª acumulación.",
+                "en": "Camille's Battle Skill: 2nd stack."
+              }
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Combo de Arcane y su Battle Skill para detonarlo; los tres Combos que salgan. Final Strikes hasta que estalle la marca de Si.",
+                "en": "Arcane's Combo and her Battle Skill to detonate it; the three Combos that come out. Final Strikes until Si's mark bursts."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "Contra grupos: Battle Skill de Camille, Combo de Arcane y Combo de Si; una acumulación de Heat si los enemigos tienen poca vida, dos si tienen mucha.",
+            "en": "Against groups: Camille's Battle Skill, Arcane's Combo and Si's Combo; one Heat stack if enemies have low HP, two if they have a lot."
+          }
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "arcane",
+          "order": {
+            "es": "Combo / Ultimate (esp. 3) · Battle Skill / Ataque básico (9 o esp. 3)",
+            "en": "Combo / Ultimate (spec. 3) · Battle Skill / Basic attack (9 or spec. 3)"
+          },
+          "note": {
+            "es": "Refinado: Intellect = DMG Heat y Nature = atributo principal > Will.",
+            "en": "Artificing: Intellect = Heat and Nature DMG = main attribute > Will."
+          },
+          "assumeRanks": {
+            "combo_skill": 12,
+            "ultimate": 12,
+            "battle_skill": 9
+          }
+        },
+        {
+          "charId": "si",
+          "order": {
+            "es": "Combo > Battle Skill = Ultimate > Ataque básico",
+            "en": "Combo > Battle Skill = Ultimate > Basic attack"
+          },
+          "note": {
+            "es": "La mayor parte de su daño viene del Combo, sea carry o soporte. En especialización 3, la marca guarda el 13% y el Amp del Ultimate llega al 36% (30% a rango 9). El ataque básico, al máximo si es carry; si es soporte, según haga falta.",
+            "en": "Most of her damage comes from her Combo, carry or support. At specialization 3, the mark stores 13% and the Ultimate's Amp reaches 36% (30% at rank 9). Basic attack maxed if she is the carry; as needed if support."
+          }
+        },
+        {
+          "charId": "liino",
+          "order": {
+            "es": "Battle Skill = Ultimate > Combo > Ataque básico",
+            "en": "Battle Skill = Ultimate > Combo > Basic attack"
+          },
+          "note": {
+            "es": "El ATK Boost de su Battle Skill y el Amp de su Ultimate llegan al máximo en especialización 3. Refinado: Will, atributo principal, Ultimate Gain y Agility.",
+            "en": "Her Battle Skill's ATK Boost and her Ultimate's Amp peak at specialization 3. Artificing: Will, main attribute, Ultimate Gain and Agility."
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Poner a Camille fuera de la Posición 01: la Battle Skill de Si volvería a aplicar Cryo.",
+          "en": "Moving Camille out of Team Position 01: Si's Battle Skill would go back to applying Cryo."
+        },
+        {
+          "es": "Lanzar la siguiente vuelta antes de que estalle la marca de Si.",
+          "en": "Starting the next loop before Si's mark bursts."
+        },
+        {
+          "es": "Usar la Battle Skill de Arcane sin el Imprisonment de su Combo en el objetivo: en forma INT pierdes la detonación, los golpes extra y el SP de vuelta.",
+          "en": "Using Arcane's Battle Skill without her Combo's Imprisonment on the target: in INT form you lose the detonation, the bonus hits and the SP back."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "YZ-月咒 - Arcane INT con Si, Tangtang y Liino",
+            "en": "YZ-月咒 - INT Arcane with Si, Tangtang and Liino"
+          },
+          "verdict": {
+            "es": "La versión con Tangtang, la principal del video.",
+            "en": "The Tangtang version, the video's main one."
+          }
+        },
+        {
+          "name": {
+            "es": "YZ-月咒 - SIN Tangtang ni Camille: Arcane INT con Si, Wulfgard y Liino",
+            "en": "YZ-月咒 - NO Tangtang or Camille: INT Arcane with Si, Wulfgard and Liino"
+          },
+          "verdict": {
+            "es": "Sin Camille tampoco: Wulfgard en la Posición 01, con el burst explicado.",
+            "en": "Without Camille too: Wulfgard in Team Position 01, with the burst explained."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "arcane",
+          "role": "Carry",
+          "weaponId": "wpn_funnel_0016",
+          "gearRec": [
+            "hot_work_exo_rig",
+            "hot_work_hands_ppe",
+            "hot_work_insulation_slab",
+            "lynx_slab"
+          ],
+          "weaponNote": {
+            "es": "Type 42: Solemn Phalanx (BIS): a P5 ≈120% de la fuerza de equipo a P0. Junction Point ≈80% a P0 y ≈90% a P5. Su arma ya da carga, así que el gear no lleva Ultimate Gain.",
+            "en": "Type 42: Solemn Phalanx (BIS): at P5 ≈120% of team strength at P0. Junction Point ≈80% at P0 and ≈90% at P5. Her weapon already gives charge, so the gear carries no Ultimate Gain."
+          },
+          "gearNote": {
+            "es": "Hot Work al 3 (Exo-Rig, Hands PPE, Insulation Slab) con LYNX Slab. Carga mínima según los potenciales del equipo: 133-138% a potencial 0, 135-140% a potencial 1 y 115-119% a potencial 4 (100% base más el gear).",
+            "en": "3-piece Hot Work (Exo-Rig, Hands PPE, Insulation Slab) with LYNX Slab. Minimum charge by team potential: 133-138% at Potential 0, 135-140% at Potential 1 and 115-119% at Potential 4 (100% base plus gear)."
+          },
+          "deepNote": {
+            "es": "Forma INT. Su Combo aplica Nature y Cryo Susceptibility e Imprisonment; su Battle Skill sobre un objetivo con Imprisonment lo termina con Explosion DMG, otra Susceptibility, golpes extra y SP de vuelta. Su Ultimate fuerza Corrosion y le da Arts Amp; tras dos Final Strikes pasa a su segunda fase.",
+            "en": "INT form. Her Combo applies Nature and Cryo Susceptibility and Imprisonment; her Battle Skill on an Imprisoned target ends it with Explosion DMG, another Susceptibility, bonus hits and SP back. Her Ultimate forces Corrosion and gives her Arts Amp; after two Final Strikes it moves to its second phase."
+          }
+        },
+        {
+          "id": "si",
+          "role": "Buffer",
+          "weaponId": "wpn_claym_0018",
+          "gearRec": [
+            "type_50_yinglung_soft_armor",
+            "type_50_yinglung_gloves_intellect_strength",
+            "type_50_yinglung_beacon",
+            "lynx_slab"
+          ],
+          "weaponNote": {
+            "es": "Jade Vessel (BIS), con Long Heritage y Khravengger como alternativas. Fuerza de equipo contra Jade Vessel a P0: Jade Vessel a P5 ≈115% con Si de carry, ≈110% de soporte; Long Heritage ≈85-90%.",
+            "en": "Jade Vessel (BIS), with Long Heritage and Khravengger as alternatives. Team strength against Jade Vessel at P0: Jade Vessel at P5 ≈115% with Si as carry, ≈110% as support; Long Heritage ≈85-90%."
+          },
+          "gearNote": {
+            "es": "Type 50 Yinglung al 3 (Soft Armor, Gloves, Beacon) con LYNX Slab: según el autor, en la mayoría de equipos Si va con build de daño. Si hace falta alinear las Ultimates, cambia el LYNX Slab por Redeemer Seal.",
+            "en": "3-piece Type 50 Yinglung (Soft Armor, Gloves, Beacon) with LYNX Slab: per the author, Si wears a damage build in most teams. If you need to line up the Ultimates, swap the LYNX Slab for a Redeemer Seal."
+          },
+          "deepNote": {
+            "es": "Con un operador Heat en la Posición 01, su Battle Skill aplica Heat Infliction en lugar de Cryo y marca con Artful Intent durante 20 s. Su Combo sale con cada consumo de Arts Infliction y su Ultimate da Cryo y Heat Amp al equipo.",
+            "en": "With a Heat operator in Team Position 01, her Battle Skill applies Heat Infliction instead of Cryo and marks with Artful Intent for 20 s. Her Combo fires with every Arts Infliction consumption and her Ultimate gives the team Cryo and Heat Amp."
+          }
+        },
+        {
+          "id": "camille",
+          "role": "Enabler",
+          "weaponId": null,
+          "gearRec": [
+            "frontiers_protection_suit",
+            "frontiers_fiber_gloves_t1",
+            "frontiers_extra_o2_tube_t1",
+            "redeemer_seal"
+          ],
+          "weaponNote": {
+            "es": "El video no la muestra.",
+            "en": "Not shown in the video."
+          },
+          "gearNote": {
+            "es": "La build de la descripción del video: Frontiers Protection Suit, Fiber Gloves T1 y Extra O2 Tube T1 con Redeemer Seal.",
+            "en": "The build from the video description: Frontiers Protection Suit, Fiber Gloves T1 and Extra O2 Tube T1 with Redeemer Seal."
+          },
+          "deepNote": {
+            "es": "Va en la Posición 01. Su Battle Skill aplica Heat Infliction y deja Weakness y Heat Susceptibility. Su Combo sale cuando se consume o absorbe una Heat Infliction, recupera SP y, si golpea a un objetivo con sus Firefang Vesperwings, da un Link.",
+            "en": "He sits in Team Position 01. His Battle Skill applies Heat Infliction and leaves Weakness and Heat Susceptibility. His Combo fires when a Heat Infliction is consumed or absorbed, restores SP and, if it hits a target with his Firefang Vesperwings, grants a Link."
+          }
+        },
+        {
+          "id": "liino",
+          "role": "Buffer",
+          "weaponId": "wpn_lance_0014",
+          "gearRec": [
+            "lynx_cuirass_t1",
+            "lynx_gauntlets_t1",
+            "lynx_slab",
+            "eternal_xiranite_bracing_slab_t1"
+          ],
+          "weaponNote": {
+            "es": "Bedazzling Night Debut (BIS): a P5 ≈110% de la fuerza de equipo a P0. Golden Age ≈84% a P0 y ≈85% a P5.",
+            "en": "Bedazzling Night Debut (BIS): at P5 ≈110% of team strength at P0. Golden Age ≈84% at P0 and ≈85% at P5."
+          },
+          "gearNote": {
+            "es": "Dos opciones del autor. Supervivencia: LYNX al 3 (Cuirass T1, Gauntlets T1, Slab) con Eternal Xiranite Bracing Slab T1, con supervivencia al máximo, reducción de daño y curación extra. Daño: Eternal Xiranite al 3 (Light Armor, Hands, Bracing Slab T1) con LYNX Slab, que suma el buff de Eternal Xiranite. Carga mínima: 143-146% a potencial 0, 145-148% a potencial 1 y 124-126% a potencial 4.",
+            "en": "Two options from the author. Survival: 3-piece LYNX (Cuirass T1, Gauntlets T1, Slab) with Eternal Xiranite Bracing Slab T1, with max survival, damage reduction and extra healing. Damage: 3-piece Eternal Xiranite (Light Armor, Hands, Bracing Slab T1) with LYNX Slab, adding the Eternal Xiranite buff. Minimum charge: 143-146% at Potential 0, 145-148% at Potential 1 and 124-126% at Potential 4."
+          },
+          "deepNote": {
+            "es": "Su Battle Skill la pone en Vocalist Stance: ATK Boost para el equipo, curación y ataques extra. Mientras dura, su Combo sale con cada Arts Reaction. Su Ultimate da Nature y Electric Amp (más con Will) y fuerza Electrification. En sus stances, el equipo recibe menos daño.",
+            "en": "Her Battle Skill puts her in Vocalist Stance: team ATK Boost, healing and extra attacks. While it lasts, her Combo fires on every Arts Reaction. Her Ultimate gives Nature and Electric Amp (more with Will) and forces Electrification. In her stances, the team takes less damage."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Las fichas de Arcane, Si y Liino son las de la P1; la build de Camille sale de la descripción del video.",
+          "en": "Arcane's, Si's and Liino's cards are part 1's; Camille's build comes from the video description."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Sin Camille",
+              "en": "Without Camille"
+            },
+            "swap": {
+              "es": "Wulfgard en la Posición 01 (comp aparte en esta lista).",
+              "en": "Wulfgard in Team Position 01 (separate comp in this list)."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": {
+        "es": "YZ-月咒 - SIN Tangtang ni Camille: Arcane INT con Si, Wulfgard y Liino",
+        "en": "YZ-月咒 - NO Tangtang or Camille: INT Arcane with Si, Wulfgard and Liino"
+      },
+      "subtitle": {
+        "es": "Si · Wulfgard · Liino",
+        "en": "Si · Wulfgard · Liino"
+      },
+      "blurb": {
+        "es": "La versión del equipo de Arcane INT con Si y Liino para quien no tiene ni a Tangtang ni a Camille: Wulfgard en la Posición 01. El mismo esquema de tres vueltas de carga y una de burst, ahora con Heat: con Wulfgard en la Posición 01, la Battle Skill de Si aplica Heat.",
+        "en": "The INT Arcane team with Si and Liino for players with neither Tangtang nor Camille: Wulfgard in Team Position 01. The same three charge loops and one burst, now with Heat: with Wulfgard in Team Position 01, Si's Battle Skill applies Heat."
+      },
+      "guideVideoId": "arcb11",
+      "simple": {
+        "whatItDoes": {
+          "es": "Arcane en forma INT es la carry: su Battle Skill detona el Imprisonment de su Combo y su Nature convierte la Heat en Corrosion. Si y Wulfgard ponen la Heat (la de Si es Heat porque Wulfgard va en la Posición 01). La reacción dispara los Combos de Si y de Liino.",
+          "en": "INT-form Arcane is the carry: her Battle Skill detonates her Combo's Imprisonment and her Nature turns the Heat into Corrosion. Si and Wulfgard put the Heat (Si's is Heat because Wulfgard sits in Team Position 01). The reaction fires Si's and Liino's Combos."
+        },
+        "steps": [
+          {
+            "who": "liino",
+            "do": {
+              "es": "Antes de empezar, Battle Skill de Liino (Vocalist Stance).",
+              "en": "Before starting, Liino's Battle Skill (Vocalist Stance)."
+            }
+          },
+          {
+            "who": "si",
+            "do": {
+              "es": "Battle Skill de Si y Combo de Wulfgard: 2 acumulaciones de Heat.",
+              "en": "Si's Battle Skill and Wulfgard's Combo: 2 Heat stacks."
+            }
+          },
+          {
+            "who": "wulfgard",
+            "do": {
+              "es": "Con unas 2 barras de SP, Battle Skill de Wulfgard: 3.ª acumulación.",
+              "en": "At about 2 SP bars, Wulfgard's Battle Skill: 3rd stack."
+            }
+          },
+          {
+            "who": "arcane",
+            "do": {
+              "es": "Combo y Battle Skill de Arcane; Combos de Si y Liino. Tres vueltas así y el burst.",
+              "en": "Arcane's Combo and Battle Skill; Si's and Liino's Combos. Three loops like this, then the burst."
+            },
+            "key": true
+          }
+        ],
+        "gear": [
+          {
+            "id": "arcane",
+            "line": {
+              "es": "Type 42: Solemn Phalanx. Hot Work al 3 (Exo-Rig, Hands PPE, Insulation Slab) con LYNX Slab: su arma ya da carga.",
+              "en": "Type 42: Solemn Phalanx. 3-piece Hot Work (Exo-Rig, Hands PPE, Insulation Slab) with LYNX Slab: her weapon already gives charge."
+            }
+          },
+          {
+            "id": "si",
+            "line": {
+              "es": "Jade Vessel (o Long Heritage, Khravengger). Type 50 Yinglung al 3 con LYNX Slab; Redeemer Seal si hace falta alinear las Ultimates.",
+              "en": "Jade Vessel (or Long Heritage, Khravengger). 3-piece Type 50 Yinglung with LYNX Slab; Redeemer Seal if you need to line up the Ultimates."
+            }
+          },
+          {
+            "id": "wulfgard",
+            "line": {
+              "es": "El video no da su build.",
+              "en": "The video does not give his build."
+            }
+          },
+          {
+            "id": "liino",
+            "line": {
+              "es": "Bedazzling Night Debut (o Golden Age). LYNX al 3 con Eternal Xiranite Bracing Slab T1 (supervivencia) o Eternal Xiranite al 3 con LYNX Slab (más daño).",
+              "en": "Bedazzling Night Debut (or Golden Age). 3-piece LYNX with Eternal Xiranite Bracing Slab T1 (survival) or 3-piece Eternal Xiranite with LYNX Slab (more damage)."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "Las páginas 4 y 5 del video: el equipo de Arcane INT, Si y Liino con Wulfgard en lugar de Tangtang, para quien no tiene ni a Tangtang ni a Camille. Según la descripción del video, el sustituto tiene que ir en la Posición 01. Contra un objetivo, el esquema es el de siempre: tres vueltas de carga y una de burst, con la Battle Skill de Liino al empezar. En cada vuelta de carga, la Battle Skill de Si y el Combo de Wulfgard dejan dos acumulaciones de Heat; con unas dos barras de SP, la Battle Skill de Wulfgard pone la tercera, y el Combo y la Battle Skill de Arcane la convierten en Corrosion y disparan los Combos de Si y de Liino. Entre vuelta y vuelta, igual que con Tangtang, se espera a que estalle la marca de Si. En el burst, el autor encadena la Battle Skill de Si, el Combo de Wulfgard y una Ultimate («tres de fuego»), las demás Ultimates, un Finisher y una Final Strike, y cierra con la Battle Skill de Arcane, su Ultimate y su segunda fase, que deja una Corrosion de nivel 4. Contra grupos (P5) no usa la Battle Skill de Wulfgard: Battle Skill de Si, Combo de Wulfgard y Combo y Battle Skill de Arcane.",
+        "en": "Parts 4 and 5 of the video: the INT Arcane, Si and Liino team with Wulfgard instead of Tangtang, for players with neither Tangtang nor Camille. Per the video description, the replacement has to sit in Team Position 01. Against one target, the scheme is the usual: three charge loops and one burst, with Liino's Battle Skill at the start. In each charge loop, Si's Battle Skill and Wulfgard's Combo leave two Heat stacks; at about two SP bars, Wulfgard's Battle Skill puts the third, and Arcane's Combo and Battle Skill turn it into Corrosion and fire Si's and Liino's Combos. Between loops, as with Tangtang, you wait for Si's mark to burst. In the burst, the author chains Si's Battle Skill, Wulfgard's Combo and an Ultimate (\"three fires\"), the other Ultimates, a Finisher and a Final Strike, and closes with Arcane's Battle Skill, her Ultimate and its second phase, which leaves a level-4 Corrosion. Against groups (part 5) he skips Wulfgard's Battle Skill: Si's Battle Skill, Wulfgard's Combo and Arcane's Combo and Battle Skill."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Baja-media",
+          "en": "Low-medium"
+        },
+        "content": {
+          "es": "Jefe y grupos",
+          "en": "Boss and groups"
+        },
+        "tags": [
+          {
+            "es": "Nature / Heat",
+            "en": "Nature / Heat"
+          },
+          {
+            "es": "Corrosion",
+            "en": "Corrosion"
+          },
+          {
+            "es": "Sin Tangtang ni Camille",
+            "en": "No Tangtang or Camille"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "Para quien no tiene ni a Tangtang ni a Camille: Wulfgard es un 5 estrellas.",
+          "en": "For players with neither Tangtang nor Camille: Wulfgard is a 5-star."
+        },
+        {
+          "es": "El mismo esquema que el equipo con Tangtang: tres vueltas de carga iguales y un burst.",
+          "en": "Same scheme as the Tangtang team: three identical charge loops and a burst."
+        }
+      ],
+      "cons": [
+        {
+          "es": "Wulfgard tiene que ir en la Posición 01 para que Si aplique Heat.",
+          "en": "Wulfgard has to sit in Team Position 01 for Si to apply Heat."
+        },
+        {
+          "es": "El video no da la build de Wulfgard.",
+          "en": "The video does not give Wulfgard's build."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "Si aplica Heat",
+            "en": "Si applies Heat"
+          },
+          "body": {
+            "es": "Con Wulfgard en la Posición 01, la Battle Skill de Si aplica Heat Infliction en vez de Cryo. Por eso el autor insiste en que el sustituto de Tangtang vaya ahí: la Heat de Si y la de Wulfgard suman las acumulaciones que el Combo de Arcane necesita, y la Nature de la Battle Skill de Arcane las convierte en Corrosion.",
+            "en": "With Wulfgard in Team Position 01, Si's Battle Skill applies Heat Infliction instead of Cryo. That is why the author insists Tangtang's replacement goes there: Si's and Wulfgard's Heat add up the stacks Arcane's Combo needs, and the Nature from Arcane's Battle Skill turns them into Corrosion."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "El Combo de Arcane INT se detona",
+            "en": "INT Arcane's Combo gets detonated"
+          },
+          "body": {
+            "es": "En forma INT, si la Battle Skill de Arcane golpea a un objetivo con el Imprisonment de su Combo, lo termina antes: Explosion DMG, otra aplicación de Nature y Cryo Susceptibility, golpes extra y SP de vuelta. Su Nature Infliction sobre la Cryo de Si y Tangtang provoca además Corrosion.",
+            "en": "In INT form, if Arcane's Battle Skill hits a target with her Combo's Imprisonment, it ends it early: Explosion DMG, another round of Nature and Cryo Susceptibility, bonus hits and SP back. Her Nature Infliction on Si's and Tangtang's Cryo also causes Corrosion."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Vuelta de carga (×3)",
+            "en": "Charge loop (×3)"
+          },
+          "action": {
+            "es": "Battle Skill de Si → Combo de Wulfgard → (unas 2 barras de SP) Battle Skill de Wulfgard → Combo de Arcane → Battle Skill de Arcane → Combos de Si y Liino.",
+            "en": "Si's Battle Skill → Wulfgard's Combo → (about 2 SP bars) Wulfgard's Battle Skill → Arcane's Combo → Arcane's Battle Skill → Si's and Liino's Combos."
+          },
+          "steps": [
+            {
+              "who": "liino",
+              "do": {
+                "es": "Al empezar el combate, Battle Skill de Liino.",
+                "en": "When the fight starts, Liino's Battle Skill."
+              }
+            },
+            {
+              "who": "si",
+              "do": {
+                "es": "Battle Skill de Si y Combo de Wulfgard: 2 acumulaciones de Heat.",
+                "en": "Si's Battle Skill and Wulfgard's Combo: 2 Heat stacks."
+              }
+            },
+            {
+              "who": "wulfgard",
+              "do": {
+                "es": "Con unas 2 barras de SP, Battle Skill de Wulfgard: 3.ª acumulación.",
+                "en": "At about 2 SP bars, Wulfgard's Battle Skill: 3rd stack."
+              }
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Combo de Arcane y Battle Skill para detonarlo; Combos de Si y de Liino. Final Strikes hasta que estalle la marca de Si.",
+                "en": "Arcane's Combo and Battle Skill to detonate it; Si's and Liino's Combos. Final Strikes until Si's mark bursts."
+              },
+              "key": true
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Burst",
+            "en": "Burst"
+          },
+          "action": {
+            "es": "Battle Skill de Si → Combo de Wulfgard → una Ultimate y los Combos de Si y Liino → demás Ultimates → Finisher y Final Strike → Battle Skill de Arcane + 2 Combos → Ultimate de Arcane y su segunda fase.",
+            "en": "Si's Battle Skill → Wulfgard's Combo → an Ultimate and Si's and Liino's Combos → other Ultimates → Finisher and Final Strike → Arcane's Battle Skill + 2 Combos → Arcane's Ultimate and its second phase."
+          },
+          "steps": [
+            {
+              "who": "wulfgard",
+              "do": {
+                "es": "Battle Skill de Si, Combo de Wulfgard, una Ultimate y los dos Combos: lo que el autor llama «tres de fuego».",
+                "en": "Si's Battle Skill, Wulfgard's Combo, an Ultimate and the two Combos: what the author calls \"three fires\"."
+              },
+              "key": true
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Las demás Ultimates, Finisher y una Final Strike; Battle Skill de Arcane para los dos Combos, y su Ultimate con la segunda fase: Corrosion de nivel 4.",
+                "en": "The other Ultimates, Finisher and a Final Strike; Arcane's Battle Skill for the two Combos, and her Ultimate with its second phase: level-4 Corrosion."
+              }
+            }
+          ],
+          "tip": {
+            "es": "Contra grupos el autor no usa la Battle Skill de Wulfgard: Battle Skill de Si, Combo de Wulfgard y Combo y Battle Skill de Arcane.",
+            "en": "Against groups the author skips Wulfgard's Battle Skill: Si's Battle Skill, Wulfgard's Combo and Arcane's Combo and Battle Skill."
+          }
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "arcane",
+          "order": {
+            "es": "Combo / Ultimate (esp. 3) · Battle Skill / Ataque básico (9 o esp. 3)",
+            "en": "Combo / Ultimate (spec. 3) · Battle Skill / Basic attack (9 or spec. 3)"
+          },
+          "note": {
+            "es": "Refinado: Intellect = DMG Heat y Nature = atributo principal > Will.",
+            "en": "Artificing: Intellect = Heat and Nature DMG = main attribute > Will."
+          },
+          "assumeRanks": {
+            "combo_skill": 12,
+            "ultimate": 12,
+            "battle_skill": 9
+          }
+        },
+        {
+          "charId": "si",
+          "order": {
+            "es": "Combo > Battle Skill = Ultimate > Ataque básico",
+            "en": "Combo > Battle Skill = Ultimate > Basic attack"
+          },
+          "note": {
+            "es": "La mayor parte de su daño viene del Combo, sea carry o soporte. En especialización 3, la marca guarda el 13% y el Amp del Ultimate llega al 36% (30% a rango 9). El ataque básico, al máximo si es carry; si es soporte, según haga falta.",
+            "en": "Most of her damage comes from her Combo, carry or support. At specialization 3, the mark stores 13% and the Ultimate's Amp reaches 36% (30% at rank 9). Basic attack maxed if she is the carry; as needed if support."
+          }
+        },
+        {
+          "charId": "liino",
+          "order": {
+            "es": "Battle Skill = Ultimate > Combo > Ataque básico",
+            "en": "Battle Skill = Ultimate > Combo > Basic attack"
+          },
+          "note": {
+            "es": "El ATK Boost de su Battle Skill y el Amp de su Ultimate llegan al máximo en especialización 3. Refinado: Will, atributo principal, Ultimate Gain y Agility.",
+            "en": "Her Battle Skill's ATK Boost and her Ultimate's Amp peak at specialization 3. Artificing: Will, main attribute, Ultimate Gain and Agility."
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Poner a Wulfgard fuera de la Posición 01: la Battle Skill de Si volvería a aplicar Cryo.",
+          "en": "Moving Wulfgard out of Team Position 01: Si's Battle Skill would go back to applying Cryo."
+        },
+        {
+          "es": "Lanzar la Battle Skill de Wulfgard antes de tener unas 2 barras de SP: el autor la espera para no quedarse sin la de Arcane.",
+          "en": "Casting Wulfgard's Battle Skill before about 2 SP bars: the author waits for it so Arcane's does not run short."
+        },
+        {
+          "es": "Lanzar la siguiente vuelta antes de que estalle la marca de Si.",
+          "en": "Starting the next loop before Si's mark bursts."
+        },
+        {
+          "es": "Usar la Battle Skill de Arcane sin el Imprisonment de su Combo en el objetivo: en forma INT pierdes la detonación, los golpes extra y el SP de vuelta.",
+          "en": "Using Arcane's Battle Skill without her Combo's Imprisonment on the target: in INT form you lose the detonation, the bonus hits and the SP back."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "YZ-月咒 - Arcane INT con Si, Tangtang y Liino",
+            "en": "YZ-月咒 - INT Arcane with Si, Tangtang and Liino"
+          },
+          "verdict": {
+            "es": "La versión con Tangtang, la principal del video.",
+            "en": "The Tangtang version, the video's main one."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "arcane",
+          "role": "Carry",
+          "weaponId": "wpn_funnel_0016",
+          "gearRec": [
+            "hot_work_exo_rig",
+            "hot_work_hands_ppe",
+            "hot_work_insulation_slab",
+            "lynx_slab"
+          ],
+          "weaponNote": {
+            "es": "Type 42: Solemn Phalanx (BIS): a P5 ≈120% de la fuerza de equipo a P0. Junction Point ≈80% a P0 y ≈90% a P5. Su arma ya da carga, así que el gear no lleva Ultimate Gain.",
+            "en": "Type 42: Solemn Phalanx (BIS): at P5 ≈120% of team strength at P0. Junction Point ≈80% at P0 and ≈90% at P5. Her weapon already gives charge, so the gear carries no Ultimate Gain."
+          },
+          "gearNote": {
+            "es": "Hot Work al 3 (Exo-Rig, Hands PPE, Insulation Slab) con LYNX Slab. Carga mínima según los potenciales del equipo: 133-138% a potencial 0, 135-140% a potencial 1 y 115-119% a potencial 4 (100% base más el gear).",
+            "en": "3-piece Hot Work (Exo-Rig, Hands PPE, Insulation Slab) with LYNX Slab. Minimum charge by team potential: 133-138% at Potential 0, 135-140% at Potential 1 and 115-119% at Potential 4 (100% base plus gear)."
+          },
+          "deepNote": {
+            "es": "Forma INT. Su Combo aplica Nature y Cryo Susceptibility e Imprisonment; su Battle Skill sobre un objetivo con Imprisonment lo termina con Explosion DMG, otra Susceptibility, golpes extra y SP de vuelta. Su Ultimate fuerza Corrosion y le da Arts Amp; tras dos Final Strikes pasa a su segunda fase.",
+            "en": "INT form. Her Combo applies Nature and Cryo Susceptibility and Imprisonment; her Battle Skill on an Imprisoned target ends it with Explosion DMG, another Susceptibility, bonus hits and SP back. Her Ultimate forces Corrosion and gives her Arts Amp; after two Final Strikes it moves to its second phase."
+          }
+        },
+        {
+          "id": "si",
+          "role": "Buffer",
+          "weaponId": "wpn_claym_0018",
+          "gearRec": [
+            "type_50_yinglung_soft_armor",
+            "type_50_yinglung_gloves_intellect_strength",
+            "type_50_yinglung_beacon",
+            "lynx_slab"
+          ],
+          "weaponNote": {
+            "es": "Jade Vessel (BIS), con Long Heritage y Khravengger como alternativas. Fuerza de equipo contra Jade Vessel a P0: Jade Vessel a P5 ≈115% con Si de carry, ≈110% de soporte; Long Heritage ≈85-90%.",
+            "en": "Jade Vessel (BIS), with Long Heritage and Khravengger as alternatives. Team strength against Jade Vessel at P0: Jade Vessel at P5 ≈115% with Si as carry, ≈110% as support; Long Heritage ≈85-90%."
+          },
+          "gearNote": {
+            "es": "Type 50 Yinglung al 3 (Soft Armor, Gloves, Beacon) con LYNX Slab: según el autor, en la mayoría de equipos Si va con build de daño. Si hace falta alinear las Ultimates, cambia el LYNX Slab por Redeemer Seal.",
+            "en": "3-piece Type 50 Yinglung (Soft Armor, Gloves, Beacon) with LYNX Slab: per the author, Si wears a damage build in most teams. If you need to line up the Ultimates, swap the LYNX Slab for a Redeemer Seal."
+          },
+          "deepNote": {
+            "es": "Con un operador Heat en la Posición 01, su Battle Skill aplica Heat Infliction en lugar de Cryo y marca con Artful Intent durante 20 s. Su Combo sale con cada consumo de Arts Infliction y su Ultimate da Cryo y Heat Amp al equipo.",
+            "en": "With a Heat operator in Team Position 01, her Battle Skill applies Heat Infliction instead of Cryo and marks with Artful Intent for 20 s. Her Combo fires with every Arts Infliction consumption and her Ultimate gives the team Cryo and Heat Amp."
+          }
+        },
+        {
+          "id": "wulfgard",
+          "role": "Enabler",
+          "weaponId": null,
+          "gearRec": null,
+          "weaponNote": {
+            "es": "El video no la muestra.",
+            "en": "Not shown in the video."
+          },
+          "gearNote": {
+            "es": "El video no da su build.",
+            "en": "The video does not give his build."
+          },
+          "deepNote": {
+            "es": "Va en la Posición 01. Su Combo sale con cada Arts Infliction y pone Heat Infliction; su Battle Skill pone otra (o consume Combustion o Electrification para un disparo extra). Su Ultimate fuerza Combustion con cinco golpes de Heat.",
+            "en": "He sits in Team Position 01. His Combo fires on every Arts Infliction and puts Heat Infliction; his Battle Skill puts another (or consumes Combustion or Electrification for an extra shot). His Ultimate forces Combustion with five Heat hits."
+          }
+        },
+        {
+          "id": "liino",
+          "role": "Buffer",
+          "weaponId": "wpn_lance_0014",
+          "gearRec": [
+            "lynx_cuirass_t1",
+            "lynx_gauntlets_t1",
+            "lynx_slab",
+            "eternal_xiranite_bracing_slab_t1"
+          ],
+          "weaponNote": {
+            "es": "Bedazzling Night Debut (BIS): a P5 ≈110% de la fuerza de equipo a P0. Golden Age ≈84% a P0 y ≈85% a P5.",
+            "en": "Bedazzling Night Debut (BIS): at P5 ≈110% of team strength at P0. Golden Age ≈84% at P0 and ≈85% at P5."
+          },
+          "gearNote": {
+            "es": "Dos opciones del autor. Supervivencia: LYNX al 3 (Cuirass T1, Gauntlets T1, Slab) con Eternal Xiranite Bracing Slab T1, con supervivencia al máximo, reducción de daño y curación extra. Daño: Eternal Xiranite al 3 (Light Armor, Hands, Bracing Slab T1) con LYNX Slab, que suma el buff de Eternal Xiranite. Carga mínima: 143-146% a potencial 0, 145-148% a potencial 1 y 124-126% a potencial 4.",
+            "en": "Two options from the author. Survival: 3-piece LYNX (Cuirass T1, Gauntlets T1, Slab) with Eternal Xiranite Bracing Slab T1, with max survival, damage reduction and extra healing. Damage: 3-piece Eternal Xiranite (Light Armor, Hands, Bracing Slab T1) with LYNX Slab, adding the Eternal Xiranite buff. Minimum charge: 143-146% at Potential 0, 145-148% at Potential 1 and 124-126% at Potential 4."
+          },
+          "deepNote": {
+            "es": "Su Battle Skill la pone en Vocalist Stance: ATK Boost para el equipo, curación y ataques extra. Mientras dura, su Combo sale con cada Arts Reaction. Su Ultimate da Nature y Electric Amp (más con Will) y fuerza Electrification. En sus stances, el equipo recibe menos daño.",
+            "en": "Her Battle Skill puts her in Vocalist Stance: team ATK Boost, healing and extra attacks. While it lasts, her Combo fires on every Arts Reaction. Her Ultimate gives Nature and Electric Amp (more with Will) and forces Electrification. In her stances, the team takes less damage."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Las fichas de Arcane, Si y Liino son las de la P1; el video no da la de Wulfgard.",
+          "en": "Arcane's, Si's and Liino's cards are part 1's; the video does not give Wulfgard's."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Con Camille",
+              "en": "With Camille"
+            },
+            "swap": {
+              "es": "Camille en la Posición 01 (comp aparte en esta lista).",
+              "en": "Camille in Team Position 01 (separate comp in this list)."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Con Tangtang",
+              "en": "With Tangtang"
+            },
+            "swap": {
+              "es": "El equipo principal del video.",
+              "en": "The video's main team."
             }
           }
         ]

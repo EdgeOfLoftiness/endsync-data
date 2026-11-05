@@ -21,7 +21,7 @@
       "playstyle": {
         "difficulty": { "es": "Media (avanzado: Alta)", "en": "Mid (advanced: High)" },
         "tags": [
-          { "es": "Calor", "en": "Heat", "jp": "灼熱", "zh": "灼热" },
+          { "es": "Calor", "en": "Heat", "jp": "灼熱", "zh": "灼热", "zh-TW": "灼熱" },
           { "es": "Burst", "en": "Burst" },
           { "es": "Molten", "en": "Molten" },
           { "es": "Dos ejes (simple/avanzado)", "en": "Two axes (simple/advanced)" },
@@ -267,7 +267,8 @@
             "es": "Calor",
             "en": "Heat",
             "jp": "灼熱",
-            "zh": "灼热"
+            "zh": "灼热",
+            "zh-TW": "灼熱"
           },
           {
             "es": "Molten",
@@ -854,6 +855,516 @@
             "line": {
               "es": "Tres Qingbo + Redeemer Seal.",
               "en": "Three Qingbo + Redeemer Seal."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": {
+        "es": "终末协约攻略组 - Fuego con Si: Camille · Arcane (WILL)",
+        "en": "终末协约攻略组 - Fire with Si: Camille · Arcane (WILL)"
+      },
+      "subtitle": {
+        "es": "Camille · Si · Arcane (WILL)",
+        "en": "Camille · Si · Arcane (WILL)"
+      },
+      "guideVideoId": "laevb3",
+      "blurb": {
+        "es": "El equipo de fuego de Laevatain con Si, del video de Si de 终末协约攻略组 narrado por 棉被. Sin eje que memorizar: se juega con Laevatain, básicos sin parar, Combos en cuanto se iluminan, y las Battle Skills según una regla simple por personaje. Con un operador Heat en la Posición 01, la Battle Skill de Si aplica Heat Infliction y alimenta el Melting Flame de Laevatain. Sin Arcane, Wulfgard.",
+        "en": "Laevatain's fire team with Si, from 终末协约攻略组's Si video narrated by 棉被. No axis to memorize: play Laevatain, basic attack nonstop, press Combos as soon as they light up, and use Battle Skills by a simple rule per character. With a Heat operator in Team Position 01, Si's Battle Skill applies Heat Infliction and feeds Laevatain's Melting Flame. Without Arcane, Wulfgard."
+      },
+      "simple": {
+        "whatItDoes": {
+          "es": "Laevatain es la carry. Sus Final Strikes absorben la Heat Infliction del enemigo y cada acumulación absorbida le da un Melting Flame; con 4, su Battle Skill las consume, fuerza Combustion en un área grande y le da Ultimate Energy. Camille, Si y Arcane le ponen Heat Infliction: Camille con su Battle Skill (que además deja Heat Susceptibility), Si con la suya (aplica Heat en vez de Cryo porque hay un operador Heat en la Posición 01) y Arcane con su Combo y su Ultimate en forma WILL, que añaden otra acumulación del mismo elemento. La Combustion dispara el Combo de Laevatain, que le da otro Melting Flame.",
+          "en": "Laevatain is the carry. Her Final Strikes absorb the enemy's Heat Infliction and each absorbed stack gives her one Melting Flame; at 4, her Battle Skill consumes them, forces Combustion in a large area and gives her Ultimate Energy. Camille, Si and Arcane put Heat Infliction on the enemy: Camille with his Battle Skill (which also leaves Heat Susceptibility), Si with hers (it applies Heat instead of Cryo because a Heat operator is in Team Position 01) and Arcane with her WILL-form Combo and Ultimate, which add another stack of the same element. Combustion fires Laevatain's Combo, which gives her another Melting Flame."
+        },
+        "steps": [
+          {
+            "who": "laevatain",
+            "do": {
+              "es": "Controla a Laevatain: básicos sin parar y Combos en cuanto se iluminen.",
+              "en": "Control Laevatain: basic attack nonstop and press Combos as soon as they light up."
+            }
+          },
+          {
+            "who": "camille",
+            "do": {
+              "es": "Abre con las Battle Skills de Camille y de Si: el enemigo llega a 3 acumulaciones de Heat Infliction.",
+              "en": "Open with Camille's and Si's Battle Skills: the enemy reaches 3 Heat Infliction stacks."
+            }
+          },
+          {
+            "who": "laevatain",
+            "do": {
+              "es": "La Final Strike las convierte en Melting Flame. Con 4, Battle Skill de Laevatain: fuerza Combustion y sale su Combo.",
+              "en": "The Final Strike turns them into Melting Flame. At 4, Laevatain's Battle Skill: it forces Combustion and her Combo comes out."
+            }
+          },
+          {
+            "who": "camille",
+            "do": {
+              "es": "Battle Skill de Camille cada cierto tiempo; la de Si, al principio y justo después de las Ultimates para guardar el daño del burst.",
+              "en": "Camille's Battle Skill every so often; Si's at the start and right after the Ultimates to store the burst's damage."
+            }
+          },
+          {
+            "who": "si",
+            "do": {
+              "es": "Burst: Ultimates de Si y de Camille, Hunter Pursuit de Camille y otra Battle Skill de Laevatain con 4 Melting Flame. Repite.",
+              "en": "Burst: Si's and Camille's Ultimates, Camille's Hunter Pursuit and another Laevatain Battle Skill at 4 Melting Flame. Repeat."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "laevatain",
+            "line": {
+              "es": "Forgeborn Scathe (mejor que Umbral Torch). Redeemer Armor con Hot Work Gauntlets, Pyrometer e Insulation Slab.",
+              "en": "Forgeborn Scathe (better than Umbral Torch). Redeemer Armor with Hot Work Gauntlets, Pyrometer and Insulation Slab."
+            }
+          },
+          {
+            "id": "camille",
+            "line": {
+              "es": "Blessing of Lustrous Carmine (o Beacon of Duty). Frontiers Protection Suit, Fiber Gloves T1 y Comm con Redeemer Seal.",
+              "en": "Blessing of Lustrous Carmine (or Beacon of Duty). Frontiers Protection Suit, Fiber Gloves T1 and Comm with Redeemer Seal."
+            }
+          },
+          {
+            "id": "si",
+            "line": {
+              "es": "Jade Vessel (o Long Heritage). Type 50 Yinglung Soft Armor, Rift Trekker Gloves y dos Type 50 Yinglung Beacon.",
+              "en": "Jade Vessel (or Long Heritage). Type 50 Yinglung Soft Armor, Rift Trekker Gloves and two Type 50 Yinglung Beacons."
+            }
+          },
+          {
+            "id": "arcane",
+            "line": {
+              "es": "Type 42: Solemn Phalanx. Eternal Xiranite (Light Armor, Wraps, Bracing Slab, Auxiliary Arm) para buffear al equipo.",
+              "en": "Type 42: Solemn Phalanx. Eternal Xiranite (Light Armor, Wraps, Bracing Slab, Auxiliary Arm) to buff the team."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "La P2 del video de Si de 终末协约攻略组, con la misma filosofía que el resto del video: lo esencial sin eje largo. La Posición 01 puede ser Laevatain o Camille, y según el autor la diferencia es pequeña. Con Laevatain ahí, el Ultimate de Si le recorta el cooldown del Combo y puede encadenar sus Battle Skills con 4 Melting Flame sin perder Melting Flame por tener el Combo en cooldown. Con Camille ahí, se recupera más SP y se ganan Links extra, pero hace falta un eje concreto para notarlo. Las dos son operadores Heat, así que la Battle Skill de Si aplica Heat Infliction en lugar de Cryo. El reparto del SP: Laevatain lanza su Battle Skill cuando tiene 4 Melting Flame (y a veces una suelta para completarlos), Camille la usa cada cierto tiempo para poner Heat Infliction, Weakness y Heat Susceptibility, y Si la usa al principio, para poner Heat y empezar a guardar daño, y justo después de las Ultimates, para guardar el daño del burst con su Artful Intent. El ciclo: los soportes cargan Heat Infliction, las Final Strikes de Laevatain lo absorben como Melting Flame, y con 4 su Battle Skill pega fuerte, fuerza Combustion y le carga el Ultimate. Si no tienes a Arcane, el autor propone a Wulfgard, con su propia ficha.",
+        "en": "Part 2 of 终末协约攻略组's Si video, with the same philosophy as the rest of the video: the essentials without a long axis. Team Position 01 can be Laevatain or Camille, and per the author the difference is small. With Laevatain there, Si's Ultimate cuts her Combo cooldown and she can chain her 4-Melting-Flame Battle Skills without wasting Melting Flame because her Combo is on cooldown. With Camille there, you recover more SP and gain extra Links, but it takes a specific axis to notice. Both are Heat operators, so Si's Battle Skill applies Heat Infliction instead of Cryo. SP split: Laevatain fires her Battle Skill at 4 Melting Flame (and occasionally a plain one to top them up), Camille uses his every so often to apply Heat Infliction, Weakness and Heat Susceptibility, and Si uses hers at the start, to apply Heat and start storing damage, and right after the Ultimates, to store the burst's damage with her Artful Intent. The cycle: supports load Heat Infliction, Laevatain's Final Strikes absorb it as Melting Flame, and at 4 her Battle Skill hits hard, forces Combustion and charges her Ultimate. Without Arcane, the author suggests Wulfgard, with his own card."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Baja (sin eje que memorizar)",
+          "en": "Low (no axis to memorize)"
+        },
+        "content": {
+          "es": "Jefe / Single-target",
+          "en": "Boss / Single-target"
+        },
+        "tags": [
+          {
+            "es": "Heat",
+            "en": "Heat"
+          },
+          {
+            "es": "Melting Flame",
+            "en": "Melting Flame"
+          },
+          {
+            "es": "Sin eje",
+            "en": "No axis"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "No hay eje que memorizar: una regla por personaje para las Battle Skills y los Combos en cuanto se iluminan.",
+          "en": "No axis to memorize: one rule per character for Battle Skills, and Combos as soon as they light up."
+        },
+        {
+          "es": "Si encaja en un equipo de fuego: con un operador Heat en la Posición 01 aplica Heat Infliction, y su Ultimate da Heat Amp al equipo.",
+          "en": "Si fits a fire team: with a Heat operator in Team Position 01 she applies Heat Infliction, and her Ultimate gives the team Heat Amp."
+        },
+        {
+          "es": "La Posición 01 admite a Laevatain o a Camille con poca diferencia.",
+          "en": "Team Position 01 takes Laevatain or Camille with little difference."
+        }
+      ],
+      "cons": [
+        {
+          "es": "El autor lo presenta como el núcleo del equipo, no como el máximo: hay ejes más largos para subir el techo.",
+          "en": "The author presents it as the team's core, not its ceiling: longer axes raise the cap."
+        },
+        {
+          "es": "La versión de Camille en la Posición 01 necesita un eje concreto para notar la diferencia.",
+          "en": "The Camille-in-Position-01 version needs a specific axis to make a difference."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "Si aplica Heat",
+            "en": "Si applies Heat"
+          },
+          "body": {
+            "es": "La Battle Skill de Si aplica Heat Infliction en vez de Cryo si hay un operador Heat en la Posición 01. Aquí lo hay siempre (Laevatain o Camille), así que su Battle Skill suma Heat para el Melting Flame de Laevatain además de marcar al objetivo con Artful Intent, que guarda parte del daño recibido y lo suelta al terminar.",
+            "en": "Si's Battle Skill applies Heat Infliction instead of Cryo if a Heat operator is in Team Position 01. Here there always is one (Laevatain or Camille), so her Battle Skill adds Heat for Laevatain's Melting Flame on top of marking the target with Artful Intent, which stores part of the damage taken and releases it at the end."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Absorber Heat es Combo gratis",
+            "en": "Absorbing Heat is free Combos"
+          },
+          "body": {
+            "es": "La Final Strike de Laevatain absorbe la Heat Infliction del enemigo para su Melting Flame. Esa absorción dispara los Combos de Camille y de Si, que salen cuando se consume o absorbe una Heat Infliction. El de Camille, si golpea a un objetivo con sus Firefang Vesperwings encima, da además un Link.",
+            "en": "Laevatain's Final Strike absorbs the enemy's Heat Infliction for her Melting Flame. That absorption fires Camille's and Si's Combos, which come out when a Heat Infliction is consumed or absorbed. Camille's, if it hits a target with his Firefang Vesperwings on it, also grants a Link."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "La Combustion encadena",
+            "en": "Combustion chains"
+          },
+          "body": {
+            "es": "Con 4 Melting Flame, la Battle Skill de Laevatain los consume, pega un golpe extra y fuerza Combustion. La Combustion dispara su Combo, que le da otro Melting Flame y Ultimate Energy: el siguiente ciclo ya empieza con uno.",
+            "en": "At 4 Melting Flame, Laevatain's Battle Skill consumes them, lands an extra hit and forces Combustion. Combustion fires her Combo, which gives her another Melting Flame and Ultimate Energy: the next cycle already starts with one."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Apertura",
+            "en": "Opener"
+          },
+          "action": {
+            "es": "Battle Skills de Camille y Si → Final Strike (3 Melting Flame) → Combo de Camille → Battle Skill de Laevatain (4) → Battle Skill de Laevatain con 4 Melting Flame → Combo de Laevatain.",
+            "en": "Camille's and Si's Battle Skills → Final Strike (3 Melting Flame) → Camille's Combo → Laevatain's Battle Skill (4) → Laevatain's 4-Melting-Flame Battle Skill → Laevatain's Combo."
+          },
+          "steps": [
+            {
+              "who": "camille",
+              "do": {
+                "es": "Battle Skills de Camille y de Si: el enemigo llega a 3 acumulaciones de Heat Infliction.",
+                "en": "Camille's and Si's Battle Skills: the enemy reaches 3 Heat Infliction stacks."
+              }
+            },
+            {
+              "who": "laevatain",
+              "do": {
+                "es": "Final Strike de Laevatain: las 3 acumulaciones pasan a 3 Melting Flame y sale el Combo de Camille, con su Link.",
+                "en": "Laevatain's Final Strike: the 3 stacks become 3 Melting Flame and Camille's Combo comes out, with its Link."
+              },
+              "key": true
+            },
+            {
+              "who": "laevatain",
+              "do": {
+                "es": "Con dos barras de SP, una Battle Skill de Laevatain para llegar a 4 Melting Flame y otra para consumirlos: fuerza Combustion y sale su Combo (+1 Melting Flame).",
+                "en": "With two SP bars, one Laevatain Battle Skill to reach 4 Melting Flame and another to consume them: it forces Combustion and her Combo comes out (+1 Melting Flame)."
+              },
+              "key": true
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Carga",
+            "en": "Charge"
+          },
+          "action": {
+            "es": "Battle Skill de Camille → Combo de Arcane → Ultimate de Arcane → Final Strike (4 Melting Flame) → Combos de Si y Camille → Battle Skill de Laevatain → Final Strikes → segunda fase del Ultimate de Arcane.",
+            "en": "Camille's Battle Skill → Arcane's Combo → Arcane's Ultimate → Final Strike (4 Melting Flame) → Si's and Camille's Combos → Laevatain's Battle Skill → Final Strikes → second phase of Arcane's Ultimate."
+          },
+          "steps": [
+            {
+              "who": "camille",
+              "do": {
+                "es": "Battle Skill de Camille: una acumulación más de Heat y sale el Combo de Arcane, que llena su Ultimate. Ultimate de Arcane: el enemigo vuelve a 3 acumulaciones.",
+                "en": "Camille's Battle Skill: one more Heat stack and Arcane's Combo comes out, filling her Ultimate. Arcane's Ultimate: the enemy is back at 3 stacks."
+              }
+            },
+            {
+              "who": "laevatain",
+              "do": {
+                "es": "Final Strike: 4 Melting Flame, y salen los Combos de Si y de Camille. Battle Skill de Laevatain con 4 Melting Flame, que también dispara su Combo.",
+                "en": "Final Strike: 4 Melting Flame, and Si's and Camille's Combos come out. Laevatain's 4-Melting-Flame Battle Skill, which also fires her Combo."
+              }
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Más Final Strikes para la segunda fase del Ultimate de Arcane. Para entonces el Ultimate de Laevatain está lleno.",
+                "en": "More Final Strikes for the second phase of Arcane's Ultimate. By then Laevatain's Ultimate is full."
+              }
+            }
+          ],
+          "tip": {
+            "es": "Si no te acostumbras a cambiar de personaje para el Finisher, el autor recomienda hacer el Finisher con Laevatain y abrir el burst después.",
+            "en": "If you are not used to switching characters for the Finisher, the author recommends doing it with Laevatain and opening the burst afterwards."
+          }
+        },
+        {
+          "phase": {
+            "es": "Burst",
+            "en": "Burst"
+          },
+          "action": {
+            "es": "Battle Skill de Si → Combo de Arcane → Ultimates de Si y Camille → Final Strike (4 Melting Flame) → Combos de Si y Camille → Hunter Pursuit de Camille → Battle Skill de Laevatain con 4 Melting Flame.",
+            "en": "Si's Battle Skill → Arcane's Combo → Si's and Camille's Ultimates → Final Strike (4 Melting Flame) → Si's and Camille's Combos → Camille's Hunter Pursuit → Laevatain's 4-Melting-Flame Battle Skill."
+          },
+          "steps": [
+            {
+              "who": "si",
+              "do": {
+                "es": "Battle Skill de Si para guardar el daño del burst; su Heat dispara el Combo de Arcane.",
+                "en": "Si's Battle Skill to store the burst's damage; its Heat fires Arcane's Combo."
+              },
+              "key": true
+            },
+            {
+              "who": "si",
+              "do": {
+                "es": "Cuando las Ultimates estén listas, Ultimates de Si y de Camille: el enemigo llega a 3 acumulaciones.",
+                "en": "When the Ultimates are ready, Si's and Camille's Ultimates: the enemy reaches 3 stacks."
+              }
+            },
+            {
+              "who": "laevatain",
+              "do": {
+                "es": "Final Strike: 4 Melting Flame y Combos de Si y de Camille. Hunter Pursuit de Camille (su Battle Skill tras el Ultimate) para otro Link, y Battle Skill de Laevatain con 4 Melting Flame.",
+                "en": "Final Strike: 4 Melting Flame and Si's and Camille's Combos. Camille's Hunter Pursuit (his Battle Skill after his Ultimate) for another Link, and Laevatain's 4-Melting-Flame Battle Skill."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "Después, el mismo ciclo: los soportes cargan Heat, Laevatain lo convierte en Melting Flame y lo suelta con su Battle Skill.",
+            "en": "After that, the same cycle: supports load Heat, Laevatain turns it into Melting Flame and releases it with her Battle Skill."
+          }
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "laevatain",
+          "order": {
+            "es": "Battle Skill (esp. 3) > Ultimate (esp. 3) = Combo (esp. 3) > Ataque básico",
+            "en": "Battle Skill (spec. 3) > Ultimate (spec. 3) = Combo (spec. 3) > Basic attack"
+          },
+          "note": {
+            "es": "Refinado: Intellect, DMG Bonus y Strength.",
+            "en": "Artificing: Intellect, DMG Bonus and Strength."
+          },
+          "assumeRanks": {
+            "battle_skill": 12,
+            "combo_skill": 12,
+            "ultimate": 12
+          }
+        },
+        {
+          "charId": "camille",
+          "order": {
+            "es": "Combo (esp. 3) > Battle Skill (esp. 3) > Ultimate (esp. 3)",
+            "en": "Combo (spec. 3) > Battle Skill (spec. 3) > Ultimate (spec. 3)"
+          },
+          "note": {
+            "es": "Refinado: Intellect y Ultimate Gain.",
+            "en": "Artificing: Intellect and Ultimate Gain."
+          },
+          "assumeRanks": {
+            "battle_skill": 12,
+            "combo_skill": 12,
+            "ultimate": 12
+          }
+        },
+        {
+          "charId": "si",
+          "order": {
+            "es": "Combo (esp. 3) > Battle Skill (esp. 3) ≈ Ultimate (esp. 3) > Ataque básico",
+            "en": "Combo (spec. 3) > Battle Skill (spec. 3) ≈ Ultimate (spec. 3) > Basic attack"
+          },
+          "note": {
+            "es": "Refinado: Intellect y DMG de Combo.",
+            "en": "Artificing: Intellect and Combo DMG."
+          },
+          "assumeRanks": {
+            "battle_skill": 12,
+            "combo_skill": 12,
+            "ultimate": 12
+          }
+        },
+        {
+          "charId": "arcane",
+          "order": {
+            "es": "Combo (esp. 3) > Ultimate > Battle Skill = Ataque básico",
+            "en": "Combo (spec. 3) > Ultimate > Battle Skill = Basic attack"
+          },
+          "note": {
+            "es": "Refinado: Will y atributo secundario (build de buff de equipo); con la build Hot Work, Will, Ultimate Gain y Arts Intensity.",
+            "en": "Artificing: Will and secondary attribute (team-buff build); with the Hot Work build, Will, Ultimate Gain and Arts Intensity."
+          },
+          "assumeRanks": {
+            "combo_skill": 12
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Usar la Battle Skill de Laevatain sin 4 Melting Flame cuando no hace falta: el autor la guarda para los 4, salvo alguna suelta para completarlos.",
+          "en": "Using Laevatain's Battle Skill without 4 Melting Flame when it is not needed: the author saves it for 4, except the odd one to top them up."
+        },
+        {
+          "es": "Gastar la Battle Skill de Si a mitad de ciclo: el autor la usa al principio y justo después de las Ultimates, para que su Artful Intent guarde el daño del burst.",
+          "en": "Spending Si's Battle Skill mid-cycle: the author uses it at the start and right after the Ultimates, so her Artful Intent stores the burst's damage."
+        },
+        {
+          "es": "Poner a alguien que no sea Heat en la Posición 01: la Battle Skill de Si volvería a aplicar Cryo.",
+          "en": "Putting a non-Heat operator in Team Position 01: Si's Battle Skill would go back to applying Cryo."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "YZ-月咒 - Fuego con Arcane (Camille · Wulfgard)",
+            "en": "YZ-月咒 - Fire with Arcane (Camille · Wulfgard)"
+          },
+          "verdict": {
+            "es": "Mismo núcleo de Laevatain, Camille y Arcane, con Wulfgard en lugar de Si.",
+            "en": "Same Laevatain, Camille and Arcane core, with Wulfgard instead of Si."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "laevatain",
+          "role": "Carry",
+          "weaponId": "wpn_sword_0006",
+          "gearRec": [
+            "redeemer_armor",
+            "hot_work_gauntlets",
+            "hot_work_pyrometer",
+            "hot_work_insulation_slab"
+          ],
+          "weaponNote": {
+            "es": "Forgeborn Scathe (BIS) por delante de Umbral Torch, según la ficha.",
+            "en": "Forgeborn Scathe (BIS) ahead of Umbral Torch, per the card."
+          },
+          "gearNote": {
+            "es": "Para el burst: Redeemer Armor con Hot Work Gauntlets, Pyrometer e Insulation Slab. La ficha da otra para cuando Ardelia sustituye a Camille: Hot Work Exo-Rig, Gauntlets y Pyrometer con LYNX Slab (refinado: Intellect y atributo principal).",
+            "en": "For the burst: Redeemer Armor with Hot Work Gauntlets, Pyrometer and Insulation Slab. The card gives another for when Ardelia replaces Camille: Hot Work Exo-Rig, Gauntlets and Pyrometer with LYNX Slab (artificing: Intellect and main attribute)."
+          },
+          "deepNote": {
+            "es": "Tras una Final Strike o un Finisher del personaje controlado, absorbe la Heat Infliction de los enemigos cercanos: cada acumulación es un Melting Flame (máx. 4). Con 4, su Battle Skill los consume, pega un golpe extra, fuerza Combustion y le da Ultimate Energy. Su Combo sale con Combustion o Corrosion y le da otro Melting Flame.",
+            "en": "After the controlled operator's Final Strike or Finisher, she absorbs Heat Infliction from nearby enemies: each stack is one Melting Flame (max 4). At 4, her Battle Skill consumes them, lands an extra hit, forces Combustion and gives her Ultimate Energy. Her Combo fires on Combustion or Corrosion and gives her another Melting Flame."
+          }
+        },
+        {
+          "id": "camille",
+          "role": "Enabler",
+          "weaponId": "wpn_lance_0015",
+          "gearRec": [
+            "frontiers_protection_suit",
+            "frontiers_fiber_gloves_t1",
+            "frontiers_comm",
+            "redeemer_seal"
+          ],
+          "weaponNote": {
+            "es": "Blessing of Lustrous Carmine (BIS) o Beacon of Duty.",
+            "en": "Blessing of Lustrous Carmine (BIS) or Beacon of Duty."
+          },
+          "gearNote": {
+            "es": "Frontiers Protection Suit, Fiber Gloves T1 y Comm con Redeemer Seal: carga para su Ultimate y buff de daño para el equipo, según la ficha.",
+            "en": "Frontiers Protection Suit, Fiber Gloves T1 and Comm with Redeemer Seal: charge for his Ultimate and a damage buff for the team, per the card."
+          },
+          "deepNote": {
+            "es": "Su Battle Skill aplica Heat Infliction y deja sus Firefang Vesperwings sobre el objetivo, con Weakness y Heat Susceptibility. Su Combo sale cuando se consume o absorbe una Heat Infliction, recupera SP y, si golpea a un objetivo con las Vesperwings encima, da un Link. Tras su Ultimate, su Battle Skill pasa a ser Hunter Pursuit: cuenta como Combo, no cuesta SP y también da Link.",
+            "en": "His Battle Skill applies Heat Infliction and leaves his Firefang Vesperwings on the target, with Weakness and Heat Susceptibility. His Combo fires when a Heat Infliction is consumed or absorbed, restores SP and, if it hits a target with the Vesperwings on it, grants a Link. After his Ultimate, his Battle Skill becomes Hunter Pursuit: it counts as a Combo, costs no SP and also grants Link."
+          }
+        },
+        {
+          "id": "si",
+          "role": "Buffer",
+          "weaponId": "wpn_claym_0018",
+          "gearRec": [
+            "type_50_yinglung_soft_armor",
+            "rift_trekker_gloves",
+            "type_50_yinglung_beacon",
+            "type_50_yinglung_beacon"
+          ],
+          "weaponNote": {
+            "es": "Jade Vessel (BIS) o Long Heritage.",
+            "en": "Jade Vessel (BIS) or Long Heritage."
+          },
+          "gearNote": {
+            "es": "Para el daño de Combo: Type 50 Yinglung Soft Armor, Rift Trekker Gloves y dos Type 50 Yinglung Beacon (la misma ficha que en su equipo de Last Rite).",
+            "en": "For Combo damage: Type 50 Yinglung Soft Armor, Rift Trekker Gloves and two Type 50 Yinglung Beacons (the same card as in their Last Rite team)."
+          },
+          "deepNote": {
+            "es": "Con un operador Heat en la Posición 01, su Battle Skill aplica Heat Infliction y marca con Artful Intent (guarda parte del daño recibido durante 20 s). Su Combo sale con cada Heat consumido o absorbido, y su Ultimate da Cryo y Heat Amp al equipo; su talento recorta el cooldown del Combo de quien está en la Posición 01.",
+            "en": "With a Heat operator in Team Position 01, her Battle Skill applies Heat Infliction and marks with Artful Intent (stores part of the damage taken for 20 s). Her Combo fires with every Heat consumed or absorbed, and her Ultimate gives the team Cryo and Heat Amp; her talent cuts the Combo cooldown of whoever is in Team Position 01."
+          }
+        },
+        {
+          "id": "arcane",
+          "role": "Enabler",
+          "weaponId": "wpn_funnel_0016",
+          "gearRec": [
+            "eternal_xiranite_light_armor",
+            "eternal_xiranite_wraps",
+            "eternal_xiranite_bracing_slab",
+            "eternal_xiranite_auxiliary_arm"
+          ],
+          "weaponNote": {
+            "es": "Type 42: Solemn Phalanx (BIS), Detonation Unit o Junction Point.",
+            "en": "Type 42: Solemn Phalanx (BIS), Detonation Unit or Junction Point."
+          },
+          "gearNote": {
+            "es": "Para buffear al equipo: Eternal Xiranite (Light Armor, Wraps, Bracing Slab y Auxiliary Arm). La ficha da también la versión Hot Work (Light Armor de Eternal Xiranite, Hot Work Gloves y dos Hot Work Power Cartridge) para subir Arts Intensity y la reducción de resistencia de la Corrosion.",
+            "en": "To buff the team: Eternal Xiranite (Light Armor, Wraps, Bracing Slab and Auxiliary Arm). The card also gives the Hot Work version (Eternal Xiranite Light Armor, Hot Work Gloves and two Hot Work Power Cartridges) to raise Arts Intensity and Corrosion's resistance reduction."
+          },
+          "deepNote": {
+            "es": "Forma WILL. Su Combo y su Ultimate añaden otra acumulación del mismo elemento, aquí Heat. Las dos Final Strikes dentro de su Ultimate desbloquean la segunda fase.",
+            "en": "WILL form. Her Combo and Ultimate add another stack of the same element, Heat here. The two Final Strikes inside her Ultimate unlock its second phase."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Fichas del autor al principio de la P2, una por operador, con la de Wulfgard aparte para quien no tenga a Arcane.",
+          "en": "The author's cards at the start of part 2, one per operator, with Wulfgard's separate for those without Arcane."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Sin Arcane",
+              "en": "Without Arcane"
+            },
+            "swap": {
+              "es": "Wulfgard: Clannibal, Rational Farewell u OBJ Velocitous, con Qingbo Heavy Armor, Gloves y Bamboo Cutter más Redeemer Seal (refinado: Ultimate Gain). La ficha lo da como soporte puro: no hace falta subirle skills.",
+              "en": "Wulfgard: Clannibal, Rational Farewell or OBJ Velocitous, with Qingbo Heavy Armor, Gloves and Bamboo Cutter plus Redeemer Seal (artificing: Ultimate Gain). The card lists him as a pure support: no need to level his skills."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Camille en la Posición 01",
+              "en": "Camille in Team Position 01"
+            },
+            "swap": {
+              "es": "Más SP y Links extra, pero el autor avisa que hace falta un eje concreto para notarlo.",
+              "en": "More SP and extra Links, but the author warns it takes a specific axis to notice."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Ardelia en lugar de Camille",
+              "en": "Ardelia instead of Camille"
+            },
+            "swap": {
+              "es": "Solo aparece en la ficha de Laevatain: Hot Work Exo-Rig, Gauntlets y Pyrometer con LYNX Slab. El video no la juega.",
+              "en": "Only on Laevatain's card: Hot Work Exo-Rig, Gauntlets and Pyrometer with LYNX Slab. The video does not play it."
             }
           }
         ]

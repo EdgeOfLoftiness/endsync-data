@@ -3,60 +3,116 @@
   "Lupine Scarlet": {
    "operator": "rossi",
    "passive": "Fracture: Gnashing Wolves",
-   "leadingAtkByDupe": [
-    25.6,
-    29.44,
-    33.28,
-    37.12,
-    40.96,
-    44.8
-   ],
    "buffs": [
     {
-     "id": "lupine_wolven16",
-     "src": "Wolven Blood (16 stacks)",
+     "id": "lupine_wolven_stacks",
+     "src": "Lupine Scarlet",
      "target": "self",
-     "pendingModel": "crit-proc probabilístico (acumula al infligir Critical DMG con skill, hasta 16 stacks); NO derivable de un timeline ideal → toggle-solo del calc de Daño, inerte en la Rotación a propósito. Candidato EV-movible",
+     "mechanic": "wolvenBlood.stacks",
      "cond": {
-      "es": "tras infligir Critical DMG con skill; acumula a 16 stacks; +per-stack x16 + bono a 16 stacks, 20s",
-      "en": "after dealing Critical DMG with a skill; stacks up to 16; +per-stack x16 + bonus at 16 stacks, 20s",
-      "zh": "用技能造成暴击伤害后；最多叠16层；每层 ×16 + 16层时的额外加成，20秒",
-      "ja": "スキルで会心ダメージを与えた後。最大16スタック、1スタックごと ×16 ＋ 16スタック時のボーナス、20秒",
-      "ko": "스킬로 치명타 피해를 준 뒤. 최대 16중첩, 중첩당 ×16 + 16중첩 시 보너스, 20초"
+      "es": "Después de que la habilidad del portador inflige DAÑ crítico, el portador obtiene 1 acumulación de Sangre lupina, que otorga DAÑ físico y DAÑ por calor infligido +2.8%. Sangre lupina puede alcanzar 16 acumulaciones.",
+      "en": "After the wielder's skill deals Critical DMG, the wielder gains 1 stack of Wolven Blood that grants Physical and Heat DMG Dealt +2.8%. Wolven Blood can reach 16 stacks.",
+      "zh": "装备者造成暴击伤害后，获得1层狼血，物理和灼热伤害+2.8%，最多叠加16层。",
+      "zh-TW": "裝備者造成暴擊傷害後，獲得1層狼血，物理和灼熱傷害+2.8%，最多疊加16層。",
+      "ja": "装備中、自身が会心ダメージを与えると狼の血を1段階獲得し、物理と灼熱ダメージ+2.8%（16段階まで重ね掛け可能）",
+      "ko": "장착자가 치명타 피해를 준 후, 늑대의 피 1스택을 획득하며, 물리 및 열기 피해 +2.8%, 최대 16스택까지 중첩됩니다."
      },
      "mods": [
       {
        "type": "dmgAdd",
        "element": "physical",
-       "byDupe": [
-        0.64,
-        0.736,
-        0.832,
-        0.928,
-        1.024,
-        1.12
+       "byNode": [
+        0.16,
+        0.192,
+        0.224,
+        0.256,
+        0.288,
+        0.32,
+        0.352,
+        0.384,
+        0.448
        ]
       },
       {
        "type": "dmgAdd",
        "element": "heat",
-       "byDupe": [
-        0.64,
-        0.736,
-        0.832,
-        0.928,
-        1.024,
-        1.12
+       "byNode": [
+        0.16,
+        0.192,
+        0.224,
+        0.256,
+        0.288,
+        0.32,
+        0.352,
+        0.384,
+        0.448
        ]
       }
      ],
      "label": {
-      "en": "Fracture: Gnashing Wolves (16 stacks)",
-      "es": "Fractura: Lobos voraces (16 stacks)",
-      "zh": "切骨·群狼啃噬（16层）",
-      "ja": "切骨・噛みつく群狼（16スタック）",
-      "ko": "골절 · 군랑의 포식 (16중첩)"
-     }
+      "en": "Fracture: Gnashing Wolves (Wolven Blood, 16 stacks)",
+      "es": "Fractura: Lobos voraces (Sangre lupina, 16 acumulaciones)",
+      "zh": "切骨·群狼啃噬（狼血，16层）",
+      "zh-TW": "切骨·群狼啃噬（狼血，16層）",
+      "ja": "切骨・噛みつく群狼（狼の血、16段階）",
+      "ko": "골절 · 군랑의 포식 (늑대의 피 16스택)"
+     },
+     "assumeIdeal": "valor esperado: cada golpe del portador (cualquier crítico, confirmado por el usuario; también las reacciones) suma a las acumulaciones su probabilidad de crítico vigente, con tope 16; el bono se abre cuando el acumulado esperado llega a 16. Con muchos golpes juntos el número de críticos se acerca al esperado"
+    },
+    {
+     "id": "lupine_wolven_full",
+     "src": "Lupine Scarlet",
+     "target": "self",
+     "mechanic": "wolvenBlood.bonus",
+     "cond": {
+      "es": "Tras alcanzar 16 acumulaciones, el portador obtiene otro DAÑ físico y DAÑ por calor infligido +67.2% durante 20 s. Cuando termina la duración, se eliminan todas las acumulaciones de Sangre lupina.",
+      "en": "After reaching 16 stacks, the wielder gains another Physical and Heat DMG Dealt +67.2% for 20s. After the duration ends, all Wolven Blood stacks are removed.",
+      "zh": "当狼血叠加至16层后，物理和灼热伤害额外+67.2%，持续20秒。持续时间结束后，清空所有狼血叠加层数。",
+      "zh-TW": "當狼血疊加至16層後，物理和灼熱傷害額外+67.2%，持續20秒。持續時間結束後，清空所有狼血疊加層數。",
+      "ja": "狼の血が16段階になると、20秒間物理と灼熱ダメージがさらに+67.2% 持続時間が終了すると、狼の血の段階数は0になる",
+      "ko": "늑대의 피가 16스택까지 중첩된 후, 물리 및 열기 피해가 추가로 +67.2%, 20초 동안 지속. 지속 시간이 종료된 후, 모든 늑대의 피의 중첩 스택 수치를 초기화합니다."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "physical",
+       "byNode": [
+        0.24,
+        0.288,
+        0.336,
+        0.384,
+        0.432,
+        0.48,
+        0.528,
+        0.576,
+        0.672
+       ]
+      },
+      {
+       "type": "dmgAdd",
+       "element": "heat",
+       "byNode": [
+        0.24,
+        0.288,
+        0.336,
+        0.384,
+        0.432,
+        0.48,
+        0.528,
+        0.576,
+        0.672
+       ]
+      }
+     ],
+     "label": {
+      "en": "Fracture: Gnashing Wolves (at 16 stacks)",
+      "es": "Fractura: Lobos voraces (al llegar a 16 acumulaciones)",
+      "zh": "切骨·群狼啃噬（叠至16层后）",
+      "zh-TW": "切骨·群狼啃噬（疊至16層後）",
+      "ja": "切骨・噛みつく群狼（16段階到達後）",
+      "ko": "골절 · 군랑의 포식 (16스택 도달 후)"
+     },
+     "durS": 20
     }
    ]
   },
@@ -71,14 +127,18 @@
      "cond": {
       "es": "cuando una skill del portador recupera SP; +ATK a todo el equipo 20s",
       "en": "when the wielder's skill recovers SP; team +ATK for 20s",
-      "zh": "持有者的技能回复 技力时；全队攻击力提升，20秒",
+      "zh": "持有者的技能恢复技力时；全队攻击力提升，20秒",
+      "zh-TW": "持有者的技能回復技力時；全隊攻擊力提升，20秒",
       "ja": "装備者のスキルが SP を回復したとき、チームの攻撃力アップ、20秒",
       "ko": "장착자의 스킬이 SP를 회복할 때, 팀 공격력 증가, 20초"
      },
      "mods": [
       {
        "type": "atkPct",
-       "byDupe": [
+       "byNode": [
+        0.06,
+        0.072,
+        0.084,
         0.096,
         0.108,
         0.12,
@@ -96,7 +156,8 @@
      "label": {
       "en": "Flow: Absolver of Guilt — SP recovery (team ATK)",
       "es": "Flujo: Absolvedor de culpa — recuperar SP (ATK de equipo)",
-      "zh": "流转·汲罪 — 回复 技力（队伍攻击力）",
+      "zh": "流转·汲罪 — 恢复技力（队伍攻击力）",
+      "zh-TW": "流轉·汲罪 — 回復技力（隊伍攻擊力）",
       "ja": "流回・汲罪 — SP 回復（チーム攻撃力）",
       "ko": "흐름 · 심판 — SP 회복 (팀 공격력)"
      }
@@ -109,6 +170,7 @@
       "es": "cuando una skill del portador aplica Heat Infliction; +Heat DMG Dealt a todo el equipo 20s",
       "en": "when the wielder's skill applies Heat Infliction; team +Heat DMG Dealt for 20s",
       "zh": "持有者的技能施加灼热附着时；全队灼热伤害提升，20秒",
+      "zh-TW": "持有者的技能施加灼熱附著時；全隊灼熱傷害提升，20秒",
       "ja": "装備者のスキルが灼熱付着を付与したとき、チームの灼熱ダメージアップ、20秒",
       "ko": "장착자의 스킬이 열기 부착을 적용할 때, 팀 열기 피해 증가, 20초"
      },
@@ -116,7 +178,10 @@
       {
        "type": "dmgAdd",
        "element": "heat",
-       "byDupe": [
+       "byNode": [
+        0.06,
+        0.072,
+        0.084,
         0.096,
         0.108,
         0.12,
@@ -135,6 +200,7 @@
       "en": "Flow: Absolver of Guilt — Heat Infliction (team Heat DMG)",
       "es": "Flujo: Absolvedor de culpa — Heat Infliction (Heat DMG de equipo)",
       "zh": "流转·汲罪 — 灼热附着（队伍灼热伤害）",
+      "zh-TW": "流轉·汲罪 — 灼熱附著（隊伍灼熱傷害）",
       "ja": "流回・汲罪 — 灼熱付着（チーム灼熱ダメージ）",
       "ko": "흐름 · 심판 — 열기 부착 (팀 열기 피해)"
      }
@@ -155,6 +221,7 @@
       "es": "Arts DMG Dealt permanente de la pasiva (escala por nodo de esencia).",
       "en": "Permanent Arts DMG Dealt from the passive (scales per essence node).",
       "zh": "被动提供的永久法术伤害（随基质节点成长）。",
+      "zh-TW": "被動提供的永久法術傷害（隨基質節點成長）。",
       "ja": "パッシブによる永続のアーツダメージ（基質ノードでスケール）。",
       "ko": "패시브의 영구 아츠 피해(기질 노드에 따라 증가)."
      },
@@ -179,6 +246,7 @@
       "en": "Suppression: Astrophysics (permanent)",
       "es": "Supresión: astrofísica (permanente)",
       "zh": "压制·太空物理学（常驻）",
+      "zh-TW": "壓制·太空物理學（常駐）",
       "ja": "圧制・宇宙空間物理学（常時）",
       "ko": "억제 · 천체 물리학 (상시)"
      }
@@ -194,6 +262,7 @@
       "es": "Al castear una battle skill: Arts DMG Dealt +valor por 15s (no se apila consigo mismo).",
       "en": "When the wielder casts a battle skill: Arts DMG Dealt +value for 15s (does not stack with itself).",
       "zh": "持有者施放战技时：法术伤害 +数值，15秒（不与自身叠加）。",
+      "zh-TW": "持有者施放戰技時：法術傷害 +數值，15秒（不與自身疊加）。",
       "ja": "装備者が戦技を発動したとき：アーツダメージ ＋値、15秒（自身とは重複しない）。",
       "ko": "장착자가 배틀 스킬을 사용할 때: 아츠 피해 +값, 15초(자신과 중첩되지 않음)."
      },
@@ -218,6 +287,7 @@
       "en": "Suppression: Astrophysics (after Battle Skill)",
       "es": "Supresión: astrofísica (tras Battle Skill)",
       "zh": "压制·太空物理学（战技后）",
+      "zh-TW": "壓制·太空物理學（戰技後）",
       "ja": "圧制・宇宙空間物理学（戦技後）",
       "ko": "억제 · 천체 물리학 (배틀 스킬 후)"
      }
@@ -233,6 +303,7 @@
       "es": "Al castear una combo skill: Arts DMG Dealt +valor por 15s (efecto separado del de battle skill; no se apila consigo mismo).",
       "en": "When the wielder casts a combo skill: Arts DMG Dealt +value for 15s (separate effect from the battle-skill one; does not stack with itself).",
       "zh": "持有者施放连携技时：法术伤害 +数值，15秒（与战技的效果分开；不与自身叠加）。",
+      "zh-TW": "持有者施放連攜技時：法術傷害 +數值，15秒（與戰技的效果分開；不與自身疊加）。",
       "ja": "装備者が連携技を発動したとき：アーツダメージ ＋値、15秒（戦技の効果とは別枠。自身とは重複しない）。",
       "ko": "장착자가 연계 스킬을 사용할 때: 아츠 피해 +값, 15초(배틀 스킬 효과와는 별개, 자신과 중첩되지 않음)."
      },
@@ -257,6 +328,7 @@
       "en": "Suppression: Astrophysics (after Combo Skill)",
       "es": "Supresión: astrofísica (tras Combo Skill)",
       "zh": "压制·太空物理学（连携技后）",
+      "zh-TW": "壓制·太空物理學（連攜技後）",
       "ja": "圧制・宇宙空間物理学（連携技後）",
       "ko": "억제 · 천체 물리학 (연계 스킬 후)"
      }
@@ -280,6 +352,7 @@
       "es": "Cuando el portador aplica Electrification: el equipo gana Physical DMG Dealt y Electric DMG Dealt +valor por 15s (no se apila consigo mismo). El Arts Intensity +10..28 de la pasiva ya está contado aparte.",
       "en": "When the wielder applies Electrification: the team gains Physical DMG Dealt and Electric DMG Dealt +value for 15s (does not stack with itself). The passive's Arts Intensity +10..28 is already counted separately.",
       "zh": "持有者施加导电时：全队物理伤害和电磁伤害 +数值，15秒（不与自身叠加）。被动的源石技艺强度 +10..28已另行计入。",
+      "zh-TW": "持有者施加導電時：全隊物理傷害和電磁傷害 +數值，15秒（不與自身疊加）。被動的源石技藝強度 +10..28已另行計入。",
       "ja": "装備者が感電を付与したとき：チームの物理ダメージと電磁ダメージ ＋値、15秒（自身とは重複しない）。パッシブのアーツ強度 +10〜28は別に計上済み。",
       "ko": "장착자가 감전을 적용할 때: 팀 물리 피해와 전기 피해 +값, 15초(자신과 중첩되지 않음). 패시브의 오리지늄 아츠 강도 +10..28은 따로 계산됨."
      },
@@ -319,6 +392,7 @@
       "en": "Infliction: Wilderness Cluster",
       "es": "Imposición: Cúmulo de área silvestre",
       "zh": "附术·荒芜集簇",
+      "zh-TW": "附術·荒蕪集簇",
       "ja": "付術・荒廃集積",
       "ko": "고통 · 황무지 군집"
      }
@@ -337,6 +411,7 @@
       "es": "Bonificación de daño Heat permanente.",
       "en": "Permanent Heat DMG bonus.",
       "zh": "永久灼热伤害加成。",
+      "zh-TW": "永久灼熱傷害加成。",
       "ja": "永続の灼熱ダメージボーナス。",
       "ko": "영구 열기 피해 보너스."
      },
@@ -368,6 +443,7 @@
       "es": "Tras lanzar la Definitiva, +DMG de Ataque Básico por 20s.",
       "en": "After casting Ultimate, +Basic Attack DMG for 20s.",
       "zh": "施放终结技后，普攻伤害提升，20秒。",
+      "zh-TW": "施放終結技後，普攻傷害提升，20秒。",
       "ja": "必殺技の発動後、通常攻撃ダメージアップ、20秒。",
       "ko": "궁극기 사용 후 일반 공격 피해 증가, 20초."
      },
@@ -406,6 +482,7 @@
       "es": "Bonus permanente de daño físico.",
       "en": "Permanent Physical DMG Dealt bonus.",
       "zh": "永久物理伤害加成。",
+      "zh-TW": "永久物理傷害加成。",
       "ja": "永続の物理ダメージボーナス。",
       "ko": "영구 물리 피해 보너스."
      },
@@ -436,7 +513,8 @@
      "cond": {
       "es": "Tras recuperar SP con sus skills: portador +8% Physical (nodo 4); el cálculo lo reparte mitad propia y mitad de equipo (el portador suma ambas). Apila a 5; duración por stack independiente (30s).",
       "en": "After recovering SP with own skills: wielder +8% Physical (node 4); the calculation splits it half self and half team (the wielder adds both). Stacks to 5; per-stack duration counted separately (30s).",
-      "zh": "用自身技能回复 技力后：持有者物理 +8%（节点4）；计算拆为一半自身、一半队伍（持有者两者都加）。最多5层；每层持续时间单独计算（30秒）。",
+      "zh": "用自身技能恢复技力后：持有者物理 +8%（节点4）；计算拆为一半自身、一半队伍（持有者两者都加）。最多5层；每层持续时间单独计算（30秒）。",
+      "zh-TW": "用自身技能回復技力後：持有者物理 +8%（節點4）；計算拆為一半自身、一半隊伍（持有者兩者都加）。最多5層；每層持續時間單獨計算（30秒）。",
       "ja": "自身のスキルで SP を回復した後：装備者は物理 +8%（ノード4）。計算では自身半分・チーム半分に分ける（装備者は両方）。最大5スタック、各スタックの持続は個別（30秒）。",
       "ko": "자신의 스킬로 SP를 회복한 뒤: 장착자 물리 +8%(노드 4). 계산은 절반 자신, 절반 팀으로 나눕니다(장착자는 둘 다). 최대 5중첩, 중첩별 지속 시간 별도(30초)."
      },
@@ -459,7 +537,8 @@
      ],
      "trigger": {
       "onSpRecover": true,
-      "maxStacks": 5
+      "maxStacks": 5,
+      "cooldownS": 0.1
      },
      "durS": 30
     },
@@ -470,7 +549,8 @@
      "cond": {
       "es": "Tras que el portador recupere SP con sus skills: el resto del equipo gana la mitad (+4% a nodo 4). Apila a 5; duración por stack independiente (30s).",
       "en": "After the wielder recovers SP with their own skills: the rest of the team gains half (+4% at node 4). Stacks to 5; per-stack duration counted separately (30s).",
-      "zh": "持有者用自身技能回复 技力后：队伍其他人获得一半（节点4时 +4%）。最多5层；每层持续时间单独计算（30秒）。",
+      "zh": "持有者用自身技能恢复技力后：队伍其他人获得一半（节点4时 +4%）。最多5层；每层持续时间单独计算（30秒）。",
+      "zh-TW": "持有者用自身技能回復技力後：隊伍其他人獲得一半（節點4時 +4%）。最多5層；每層持續時間單獨計算（30秒）。",
       "ja": "装備者が自身のスキルで SP を回復した後：他のメンバーは半分を得る（ノード4で +4%）。最大5スタック、各スタックの持続は個別（30秒）。",
       "ko": "장착자가 자신의 스킬로 SP를 회복한 뒤: 팀의 나머지는 절반을 얻습니다(노드 4에서 +4%). 최대 5중첩, 중첩별 지속 시간 별도(30초)."
      },
@@ -493,7 +573,8 @@
      ],
      "trigger": {
       "onSpRecover": true,
-      "maxStacks": 5
+      "maxStacks": 5,
+      "cooldownS": 0.1
      },
      "durS": 30
     }
@@ -511,6 +592,7 @@
       "es": "ATK +16% permanente",
       "en": "Permanent ATK +16%",
       "zh": "永久攻击力 +16%",
+      "zh-TW": "永久攻擊力 +16%",
       "ja": "永続の攻撃力 +16%",
       "ko": "영구 공격력 +16%"
      },
@@ -538,11 +620,12 @@
      "src": "Thermite Cutter",
      "target": "team",
      "cond": {
-      "es": "Tras recuperar SP la skill del portador, el equipo entero gana ATK +8% por 20s. Apila a 2; duración por stack independiente.",
-      "en": "After the wielder's skill recovers SP, the entire team gains ATK +8% for 20s. Stacks to 2; per-stack duration counted separately.",
-      "zh": "持有者的技能回复 技力后，全队攻击力 +8%，20秒。最多2层；每层持续时间单独计算。",
-      "ja": "装備者のスキルが SP を回復した後、チーム全員の攻撃力 +8%、20秒。最大2スタック、各スタックの持続は個別。",
-      "ko": "장착자의 스킬이 SP를 회복한 뒤 팀 전체 공격력 +8%, 20초. 최대 2중첩, 중첩별 지속 시간 별도."
+      "es": "Después de que la habilidad del portador recupere PH u otorgue un estado de Enlace, el equipo completo obtiene ATQ +14.0% durante 20 s. Acumulaciones Máx. Para efectos con el mismo nombre: 2. La duración de cada acumulación se cuenta por separado.",
+      "en": "After the wielder's skill recovers SP or grants a Link state, the entire team gains ATK +14% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately.",
+      "zh": "装备者通过自身技能恢复技力或获得连击状态后，全队攻击力+14.0%，持续20秒。同名效果最多叠加2层，每层单独计算持续时间。",
+      "zh-TW": "裝備者透過自身技能回復技力或獲得連擊狀態後，全隊攻擊力+14.0%，持續20秒。同名效果最多疊加2層，每層單獨計算持續時間。",
+      "ja": "装備中、自身のスキルでSPを回復するか、リンク状態を獲得すると、20秒間チーム全員の攻撃力+14.0% 同名効果は2回まで重ね掛け可能 効果の持続時間は個別にカウントされる",
+      "ko": "장착자가 자신의 스킬로 스킬 게이지를 회복하거나 연타 상태를 획득한 후, 팀 전체의 공격력 +14.0%, 20초 동안 지속. 같은 이름의 효과는 최대 2스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다."
      },
      "mods": [
       {
@@ -561,7 +644,14 @@
       }
      ],
      "trigger": {
-      "onSpRecover": true,
+      "onAny": [
+       {
+        "onSpRecover": true
+       },
+       {
+        "onGrantLink": true
+       }
+      ],
       "maxStacks": 2
      },
      "durS": 20
@@ -580,6 +670,7 @@
       "es": "Bonificacion permanente de DMG Fisico.",
       "en": "Permanent Physical DMG dealt bonus.",
       "zh": "永久物理伤害加成。",
+      "zh-TW": "永久物理傷害加成。",
       "ja": "永続の物理ダメージボーナス。",
       "ko": "영구 물리 피해 보너스."
      },
@@ -611,6 +702,7 @@
       "es": "Tras impactar con Habilidad de Combate o Definitiva: +DMG Fisico durante 30s (hasta 3 acumulaciones).",
       "en": "After Battle Skill or Ultimate hits: +Physical DMG for 30s (up to 3 stacks).",
       "zh": "战技或终结技命中后：物理伤害提升，30秒（最多3层）。",
+      "zh-TW": "戰技或終結技命中後：物理傷害提升，30秒（最多3層）。",
       "ja": "戦技または必殺技が当たった後：物理ダメージアップ、30秒（最大3スタック）。",
       "ko": "배틀 스킬 또는 궁극기 명중 후: 물리 피해 증가, 30초(최대 3중첩)."
      },
@@ -631,9 +723,16 @@
        ]
       }
      ],
-     "anchor": "battle_skill",
      "durS": 30,
-     "noStack": true
+     "trigger": {
+      "onCastSlot": [
+       "battle",
+       "ult"
+      ],
+      "perHit": true,
+      "maxStacks": 3,
+      "cooldownS": 0.1
+     }
     }
    ]
   },
@@ -649,12 +748,13 @@
       "es": "Aumenta el DMG de todas las habilidades.",
       "en": "Increases DMG dealt by all skills.",
       "zh": "提升所有技能造成的伤害。",
+      "zh-TW": "提升所有技能造成的傷害。",
       "ja": "すべてのスキルの与ダメージを上げる。",
       "ko": "모든 스킬이 주는 피해 증가."
      },
      "mods": [
       {
-       "type": "dmgMult",
+       "type": "dmgAdd",
        "slot": "skill",
        "byNode": [
         0.2,
@@ -680,6 +780,7 @@
       "es": "Cuando la Habilidad de Combate aplica Inflicción de Cryo: +DMG de Cryo 15s.",
       "en": "When Battle Skill applies Cryo Infliction: +Cryo DMG dealt for 15s.",
       "zh": "战技施加寒冷附着时：寒冷伤害提升，15秒。",
+      "zh-TW": "戰技施加寒冷附著時：寒冷傷害提升，15秒。",
       "ja": "戦技が寒冷付着を付与したとき：寒冷ダメージアップ、15秒。",
       "ko": "배틀 스킬이 냉기 부착을 적용할 때: 냉기 피해 증가, 15초."
      },
@@ -701,7 +802,8 @@
       }
      ],
      "trigger": {
-      "onApplyInfliction": "cryo_infl"
+      "onApplyInfliction": "cryo_infl",
+      "slot": "battle"
      },
      "durS": 15,
      "noStack": true
@@ -714,6 +816,7 @@
       "es": "Cuando la Habilidad Combo golpea a un enemigo con Inflicción de Cryo: +DMG de Cryo 15s.",
       "en": "When Combo Skill DMG hits an enemy with Cryo Infliction: +Cryo DMG dealt for 15s.",
       "zh": "连携技伤害命中带有寒冷附着的敌人时：寒冷伤害提升，15秒。",
+      "zh-TW": "連攜技傷害命中帶有寒冷附著的敵人時：寒冷傷害提升，15秒。",
       "ja": "連携技のダメージが寒冷付着の敵に当たったとき：寒冷ダメージアップ、15秒。",
       "ko": "연계 스킬 피해가 냉기 부착 상태의 적에게 명중할 때: 냉기 피해 증가, 15초."
      },
@@ -734,9 +837,12 @@
        ]
       }
      ],
-     "anchor": "combo_skill",
      "durS": 15,
-     "noStack": true
+     "noStack": true,
+     "trigger": {
+      "onCastSlot": "combo",
+      "ifState": "cryo_infl"
+     }
     }
    ]
   },
@@ -752,6 +858,7 @@
       "es": "Bonificación de daño físico permanente.",
       "en": "Permanent Physical DMG dealt bonus.",
       "zh": "永久物理伤害加成。",
+      "zh-TW": "永久物理傷害加成。",
       "ja": "永続の物理ダメージボーナス。",
       "ko": "영구 물리 피해 보너스."
      },
@@ -783,6 +890,7 @@
       "es": "Al lanzar habilidad de combate (o de combo): +daño físico durante 20s, hasta 3 acumulaciones.",
       "en": "On casting a battle skill (or combo skill): +Physical DMG dealt for 20s, up to 3 stacks.",
       "zh": "施放战技（或连携技）时：物理伤害提升，20秒，最多3层。",
+      "zh-TW": "施放戰技（或連攜技）時：物理傷害提升，20秒，最多3層。",
       "ja": "戦技（または連携技）の発動時：物理ダメージアップ、20秒、最大3スタック。",
       "ko": "배틀 스킬(또는 연계 스킬) 사용 시: 물리 피해 증가, 20초, 최대 3중첩."
      },
@@ -803,9 +911,16 @@
        ]
       }
      ],
-     "anchor": "battle_skill",
      "durS": 20,
-     "noStack": true
+     "trigger": {
+      "onCastSlot": [
+       "battle",
+       "combo"
+      ],
+      "atCast": true,
+      "maxStacks": 3,
+      "cooldownS": 0.1
+     }
     }
    ]
   },
@@ -821,6 +936,7 @@
       "es": "Permanente",
       "en": "Permanent",
       "zh": "永久",
+      "zh-TW": "永久",
       "ja": "永続",
       "ko": "영구"
      },
@@ -841,7 +957,8 @@
         0.448
        ]
       }
-     ]
+     ],
+     "replacesLeading": true
     },
     {
      "id": "brigands_calling_cryo_infl",
@@ -851,11 +968,16 @@
       "es": "Tras aplicar Inflicción Cryo con habilidad de combate o definitiva",
       "en": "After applying Cryo Infliction via battle skill or ultimate",
       "zh": "通过战技或终结技施加寒冷附着后",
+      "zh-TW": "透過戰技或終結技施加寒冷附著後",
       "ja": "戦技または必殺技で寒冷付着を付与した後",
       "ko": "배틀 스킬 또는 궁극기로 냉기 부착을 적용한 뒤"
      },
      "trigger": {
-      "onApplyInfliction": "cryo_infl"
+      "onApplyInfliction": "cryo_infl",
+      "slot": [
+       "battle",
+       "ult"
+      ]
      },
      "durS": 20,
      "noStack": true,
@@ -876,6 +998,48 @@
        ]
       }
      ]
+    },
+    {
+     "id": "brigands_calling_arts_taken",
+     "src": "Detonate: Brigand's Bane",
+     "target": "team",
+     "cond": {
+      "es": "Cuando la habilidad de batalla o la máxima del portador aplica Susceptibilidad a Artes, el objetivo enemigo sufre DAÑ por artes recibido +16.8% durante 20 s. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+      "en": "When the wielder's battle skill or ultimate applies Arts Susceptibility, the target enemy suffers Arts DMG Taken +16.8% for 20s. The two effects apply separately and do not stack with themselves.",
+      "zh": "装备者通过战技或终结技施加法术脆弱时，使目标敌人受到的法术伤害+16.8%，持续20秒。两种效果独立生效，且均无法叠加。",
+      "zh-TW": "裝備者透過戰技或終結技施加法術脆弱時，使目標敵人受到的法術傷害+16.8%，持續20秒。兩種效果獨立生效，且均無法疊加。",
+      "ja": "自身の戦技または必殺技でアーツ脆弱を付与するとき、20秒間目標の受けるアーツダメージ+16.8% 2つの効果はそれぞれ存在し、重ね掛け不可",
+      "ko": "장착자가 배틀 스킬 또는 궁극기로 아츠 취약을 부여하면, 적이 받는 아츠 피해 +16.8%, 20초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다."
+     },
+     "trigger": {
+      "onApplyDebuff": {
+       "type": "enemySusc",
+       "element": "arts"
+      },
+      "slot": [
+       "battle",
+       "ult"
+      ]
+     },
+     "durS": 20,
+     "noStack": true,
+     "mods": [
+      {
+       "type": "enemyDmgTaken",
+       "element": "arts",
+       "byNode": [
+        0.06,
+        0.072,
+        0.084,
+        0.096,
+        0.108,
+        0.12,
+        0.132,
+        0.144,
+        0.168
+       ]
+      }
+     ]
     }
    ]
   },
@@ -891,6 +1055,7 @@
       "es": "Bonus permanente de dano Arts.",
       "en": "Permanent Arts DMG amp.",
       "zh": "永久法术伤害增幅。",
+      "zh-TW": "永久法術傷害增幅。",
       "ja": "永続のアーツダメージ増幅。",
       "ko": "영구 아츠 피해 증폭."
      },
@@ -915,30 +1080,29 @@
      ]
     },
     {
-     "id": "clannibal_arts_taken",
-     "src": "Clannibal",
+     "id": "clannibal_taken_heat",
+     "src": "Infliction: Vicious Purge",
      "target": "team",
      "cond": {
-      "es": "Tras consumir una Reaccion Arts, el enemigo recibe +dano Arts (del elemento indicado) 15s.",
-      "en": "After consuming an Arts Reaction, target enemy takes more Arts DMG (of the specified element) for 15s.",
-      "zh": "消耗法术异常后，目标敌人受到更多（指定属性的）法术伤害，15秒。",
-      "ja": "アーツ異常を消費した後、対象の敵は（指定属性の）アーツダメージをより多く受ける、15秒。",
-      "ko": "아츠 이상을 소모한 뒤 대상 적이 (지정 속성의) 아츠 피해를 더 받음, 15초."
+      "es": "Después de que el portador consume una Reacción a artes, el enemigo objetivo sufre DAÑ por Artes recibido +28.0% (del elemento especificado) durante 15 s. Cada efecto se aplica por separado y no se acumula consigo mismo. El efecto solo se activa una vez cada 25s.",
+      "en": "After the wielder consumes an Arts Reaction, target enemy suffers Arts DMG Taken +28% (for the specified element) for 15s. Effect only triggers once every 25s.",
+      "zh": "装备者消耗法术异常后，使目标敌人受到对应属性的伤害+28.0%，持续15秒。每种效果独立生效，且均无法叠加，每25秒最多触发一次。",
+      "zh-TW": "裝備者消耗法術異常後，使目標敵人受到對應屬性的傷害+28.0%，持續15秒。每種效果獨立生效，且均無法疊加，每25秒最多觸發一次。",
+      "ja": "装備中、自身がアーツ異常状態を消費すると、15秒間目標の敵が受けるその属性のダメージ+28.0% 効果はそれぞれ存在し、重ね掛け不可 この効果は25秒に1回まで発動可能",
+      "ko": "장착자가 아츠 이상 효과를 소모한 후, 목표가 받는 해당 속성 피해 +28.0%, 15초 동안 지속. 각 효과는 서로 독립적으로 적용되고, 중첩되지 않으며, 25초마다 최대 1회만 발동합니다."
      },
      "trigger": {
       "onConsume": [
-       "combustion",
-       "electrification",
-       "solidification",
-       "corrosion"
-      ]
+       "combustion"
+      ],
+      "cooldownS": 25
      },
      "durS": 15,
      "noStack": true,
      "mods": [
       {
        "type": "enemyDmgTaken",
-       "element": "arts",
+       "element": "heat",
        "byNode": [
         0.1,
         0.12,
@@ -951,7 +1115,153 @@
         0.28
        ]
       }
-     ]
+     ],
+     "label": {
+      "en": "Infliction: Vicious Purge (Heat)",
+      "es": "Imposición: Purga violenta (Calor)",
+      "zh": "附术·残酷清洗（灼热）",
+      "zh-TW": "附術·殘酷清洗（灼熱）",
+      "ja": "付術・残酷粛清（灼熱）",
+      "ko": "고통 · 가차 없는 숙청 (열기)"
+     }
+    },
+    {
+     "id": "clannibal_taken_electric",
+     "src": "Infliction: Vicious Purge",
+     "target": "team",
+     "cond": {
+      "es": "Después de que el portador consume una Reacción a artes, el enemigo objetivo sufre DAÑ por Artes recibido +28.0% (del elemento especificado) durante 15 s. Cada efecto se aplica por separado y no se acumula consigo mismo. El efecto solo se activa una vez cada 25s.",
+      "en": "After the wielder consumes an Arts Reaction, target enemy suffers Arts DMG Taken +28% (for the specified element) for 15s. Effect only triggers once every 25s.",
+      "zh": "装备者消耗法术异常后，使目标敌人受到对应属性的伤害+28.0%，持续15秒。每种效果独立生效，且均无法叠加，每25秒最多触发一次。",
+      "zh-TW": "裝備者消耗法術異常後，使目標敵人受到對應屬性的傷害+28.0%，持續15秒。每種效果獨立生效，且均無法疊加，每25秒最多觸發一次。",
+      "ja": "装備中、自身がアーツ異常状態を消費すると、15秒間目標の敵が受けるその属性のダメージ+28.0% 効果はそれぞれ存在し、重ね掛け不可 この効果は25秒に1回まで発動可能",
+      "ko": "장착자가 아츠 이상 효과를 소모한 후, 목표가 받는 해당 속성 피해 +28.0%, 15초 동안 지속. 각 효과는 서로 독립적으로 적용되고, 중첩되지 않으며, 25초마다 최대 1회만 발동합니다."
+     },
+     "trigger": {
+      "onConsume": [
+       "electrification"
+      ],
+      "cooldownS": 25
+     },
+     "durS": 15,
+     "noStack": true,
+     "mods": [
+      {
+       "type": "enemyDmgTaken",
+       "element": "electric",
+       "byNode": [
+        0.1,
+        0.12,
+        0.14,
+        0.16,
+        0.18,
+        0.2,
+        0.22,
+        0.24,
+        0.28
+       ]
+      }
+     ],
+     "label": {
+      "en": "Infliction: Vicious Purge (Electric)",
+      "es": "Imposición: Purga violenta (Eléctrico)",
+      "zh": "附术·残酷清洗（电磁）",
+      "zh-TW": "附術·殘酷清洗（電磁）",
+      "ja": "付術・残酷粛清（電磁）",
+      "ko": "고통 · 가차 없는 숙청 (전기)"
+     }
+    },
+    {
+     "id": "clannibal_taken_cryo",
+     "src": "Infliction: Vicious Purge",
+     "target": "team",
+     "cond": {
+      "es": "Después de que el portador consume una Reacción a artes, el enemigo objetivo sufre DAÑ por Artes recibido +28.0% (del elemento especificado) durante 15 s. Cada efecto se aplica por separado y no se acumula consigo mismo. El efecto solo se activa una vez cada 25s.",
+      "en": "After the wielder consumes an Arts Reaction, target enemy suffers Arts DMG Taken +28% (for the specified element) for 15s. Effect only triggers once every 25s.",
+      "zh": "装备者消耗法术异常后，使目标敌人受到对应属性的伤害+28.0%，持续15秒。每种效果独立生效，且均无法叠加，每25秒最多触发一次。",
+      "zh-TW": "裝備者消耗法術異常後，使目標敵人受到對應屬性的傷害+28.0%，持續15秒。每種效果獨立生效，且均無法疊加，每25秒最多觸發一次。",
+      "ja": "装備中、自身がアーツ異常状態を消費すると、15秒間目標の敵が受けるその属性のダメージ+28.0% 効果はそれぞれ存在し、重ね掛け不可 この効果は25秒に1回まで発動可能",
+      "ko": "장착자가 아츠 이상 효과를 소모한 후, 목표가 받는 해당 속성 피해 +28.0%, 15초 동안 지속. 각 효과는 서로 독립적으로 적용되고, 중첩되지 않으며, 25초마다 최대 1회만 발동합니다."
+     },
+     "trigger": {
+      "onConsume": [
+       "solidification"
+      ],
+      "cooldownS": 25
+     },
+     "durS": 15,
+     "noStack": true,
+     "mods": [
+      {
+       "type": "enemyDmgTaken",
+       "element": "cryo",
+       "byNode": [
+        0.1,
+        0.12,
+        0.14,
+        0.16,
+        0.18,
+        0.2,
+        0.22,
+        0.24,
+        0.28
+       ]
+      }
+     ],
+     "label": {
+      "en": "Infliction: Vicious Purge (Cryo)",
+      "es": "Imposición: Purga violenta (Criogénico)",
+      "zh": "附术·残酷清洗（寒冷）",
+      "zh-TW": "附術·殘酷清洗（寒冷）",
+      "ja": "付術・残酷粛清（寒冷）",
+      "ko": "고통 · 가차 없는 숙청 (냉기)"
+     }
+    },
+    {
+     "id": "clannibal_taken_nature",
+     "src": "Infliction: Vicious Purge",
+     "target": "team",
+     "cond": {
+      "es": "Después de que el portador consume una Reacción a artes, el enemigo objetivo sufre DAÑ por Artes recibido +28.0% (del elemento especificado) durante 15 s. Cada efecto se aplica por separado y no se acumula consigo mismo. El efecto solo se activa una vez cada 25s.",
+      "en": "After the wielder consumes an Arts Reaction, target enemy suffers Arts DMG Taken +28% (for the specified element) for 15s. Effect only triggers once every 25s.",
+      "zh": "装备者消耗法术异常后，使目标敌人受到对应属性的伤害+28.0%，持续15秒。每种效果独立生效，且均无法叠加，每25秒最多触发一次。",
+      "zh-TW": "裝備者消耗法術異常後，使目標敵人受到對應屬性的傷害+28.0%，持續15秒。每種效果獨立生效，且均無法疊加，每25秒最多觸發一次。",
+      "ja": "装備中、自身がアーツ異常状態を消費すると、15秒間目標の敵が受けるその属性のダメージ+28.0% 効果はそれぞれ存在し、重ね掛け不可 この効果は25秒に1回まで発動可能",
+      "ko": "장착자가 아츠 이상 효과를 소모한 후, 목표가 받는 해당 속성 피해 +28.0%, 15초 동안 지속. 각 효과는 서로 독립적으로 적용되고, 중첩되지 않으며, 25초마다 최대 1회만 발동합니다."
+     },
+     "trigger": {
+      "onConsume": [
+       "corrosion"
+      ],
+      "cooldownS": 25
+     },
+     "durS": 15,
+     "noStack": true,
+     "mods": [
+      {
+       "type": "enemyDmgTaken",
+       "element": "nature",
+       "byNode": [
+        0.1,
+        0.12,
+        0.14,
+        0.16,
+        0.18,
+        0.2,
+        0.22,
+        0.24,
+        0.28
+       ]
+      }
+     ],
+     "label": {
+      "en": "Infliction: Vicious Purge (Nature)",
+      "es": "Imposición: Purga violenta (Naturaleza)",
+      "zh": "附术·残酷清洗（自然）",
+      "zh-TW": "附術·殘酷清洗（自然）",
+      "ja": "付術・残酷粛清（自然）",
+      "ko": "고통 · 가차 없는 숙청 (자연)"
+     }
     }
    ]
   },
@@ -967,6 +1277,7 @@
       "es": "Pasiva permanente de ataque",
       "en": "Permanent ATK boost",
       "zh": "永久攻击力提升",
+      "zh-TW": "永久攻擊力提升",
       "ja": "永続の攻撃力アップ",
       "ko": "영구 공격력 증가"
      },
@@ -997,6 +1308,7 @@
       "es": "Tras usar Habilidad de Combo, la siguiente Habilidad de Batalla gana DMG de Hielo y Naturaleza (20s, acumula 2)",
       "en": "After casting a Combo Skill, the next Battle Skill gains Cryo and Nature DMG dealt (20s, stacks to 2)",
       "zh": "施放连携技后，下一次战技获得寒冷和自然伤害提升（20秒，最多2层）",
+      "zh-TW": "施放連攜技後，下一次戰技獲得寒冷和自然傷害提升（20秒，最多2層）",
       "ja": "連携技の発動後、次の戦技が寒冷・自然ダメージアップを得る（20秒、最大2スタック）",
       "ko": "연계 스킬 사용 후 다음 배틀 스킬이 냉기·자연 피해 증가를 얻음(20초, 최대 2중첩)"
      },
@@ -1004,6 +1316,7 @@
       {
        "type": "dmgAdd",
        "element": "cryo",
+       "slot": "battle_skill",
        "byNode": [
         0.08,
         0.096,
@@ -1019,6 +1332,7 @@
       {
        "type": "dmgAdd",
        "element": "nature",
+       "slot": "battle_skill",
        "byNode": [
         0.08,
         0.096,
@@ -1053,6 +1367,7 @@
       "es": "Pasivo permanente del arma",
       "en": "Permanent weapon passive",
       "zh": "永久武器被动",
+      "zh-TW": "永久武器被動",
       "ja": "永続の武器パッシブ",
       "ko": "영구 무기 패시브"
      },
@@ -1083,11 +1398,13 @@
       "es": "Al aplicar Solidificacion a enemigos (valores base; se duplican si lo activa el portador)",
       "en": "When Solidification is applied to enemies (base values; doubled if triggered by the wielder)",
       "zh": "对敌人施加冻结时（基础数值；由持有者触发时翻倍）",
+      "zh-TW": "對敵人施加凍結時（基礎數值；由持有者觸發時翻倍）",
       "ja": "敵に凍結を付与したとき（基礎値。装備者が発動した場合は2倍）",
       "ko": "적에게 동결을 적용할 때(기본값, 장착자가 발동하면 두 배)"
      },
      "trigger": {
-      "onApplyReaction": "solidification"
+      "onApplyReaction": "solidification",
+      "team": true
      },
      "durS": 15,
      "noStack": true,
@@ -1136,7 +1453,8 @@
         0.056
        ]
       }
-     ]
+     ],
+     "stackGroup": "navigator_applied"
     },
     {
      "id": "navigator_corrosion",
@@ -1146,11 +1464,13 @@
       "es": "Al aplicar Corrosion a enemigos (valores base; se duplican si lo activa el portador)",
       "en": "When Corrosion is applied to enemies (base values; doubled if triggered by the wielder)",
       "zh": "对敌人施加腐蚀时（基础数值；由持有者触发时翻倍）",
+      "zh-TW": "對敵人施加腐蝕時（基礎數值；由持有者觸發時翻倍）",
       "ja": "敵に腐食を付与したとき（基礎値。装備者が発動した場合は2倍）",
       "ko": "적에게 부식을 적용할 때(기본값, 장착자가 발동하면 두 배)"
      },
      "trigger": {
-      "onApplyReaction": "corrosion"
+      "onApplyReaction": "corrosion",
+      "team": true
      },
      "durS": 15,
      "noStack": true,
@@ -1199,7 +1519,84 @@
         0.056
        ]
       }
-     ]
+     ],
+     "stackGroup": "navigator_applied"
+    },
+    {
+     "id": "navigator_self",
+     "src": "Infliction: Lone and Distant Sail",
+     "target": "self",
+     "cond": {
+      "es": "Cuando se aplique Solidificación o Corrosión a enemigos, el portador obtiene DAÑ criogénico infligido y DAÑ por naturaleza infligido +9.8%, e Índice crítico +5.6% durante 15 s. Si este efecto lo activa el portador, se duplica el aumento obtenido. Los efectos con el mismo nombre no se pueden acumular.",
+      "en": "When Solidification or Corrosion is applied to enemies, the wielder gains Cryo DMG Dealt and Nature DMG Dealt +9.8%, and Critical Rate +5.6% for 15s. If this effect is triggered by the wielder, double the increase gained. Effects of the same name cannot stack.",
+      "zh": "场上有敌人被施加冻结或腐蚀时，获得寒冷和自然伤害+9.8%，暴击率+5.6%，持续15秒。若由装备者触发该效果，提升的数值翻倍。同名效果无法叠加。",
+      "zh-TW": "場上有敵人被施加凍結或腐蝕時，獲得寒冷和自然傷害+9.8%，暴擊率+5.6%，持續15秒。若由裝備者觸發該效果，提升的數值翻倍。同名效果無法疊加。",
+      "ja": "戦闘中、敵が凍結または腐食状態になるとき、15秒間寒冷ダメージと自然ダメージ+9.8%、会心率+5.6% 効果の発動者が自身の場合、この効果が2倍になる 同名効果は重ね掛け不可",
+      "ko": "적이 동결 혹은 부식 상태를 부여받을 때, 냉기와 자연 피해 +9.8%, 치명타 확률 +5.6%, 15초 동안 지속. 장착자가 해당 효과를 발동할 경우, 증가 수치가 2배가 됩니다. 같은 이름의 효과는 중첩되지 않습니다."
+     },
+     "trigger": {
+      "onApplyReaction": [
+       "solidification",
+       "corrosion"
+      ]
+     },
+     "durS": 15,
+     "noStack": true,
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "cryo",
+       "byNode": [
+        0.035,
+        0.042,
+        0.049,
+        0.056,
+        0.063,
+        0.07,
+        0.077,
+        0.084,
+        0.098
+       ]
+      },
+      {
+       "type": "dmgAdd",
+       "element": "nature",
+       "byNode": [
+        0.035,
+        0.042,
+        0.049,
+        0.056,
+        0.063,
+        0.07,
+        0.077,
+        0.084,
+        0.098
+       ]
+      },
+      {
+       "type": "critRate",
+       "byNode": [
+        0.02,
+        0.024,
+        0.028,
+        0.032,
+        0.036,
+        0.04,
+        0.044,
+        0.048,
+        0.056
+       ]
+      }
+     ],
+     "label": {
+      "en": "Infliction: Lone and Distant Sail (triggered by the wielder)",
+      "es": "Imposición: Velero solitario y distante (lo activa el portador)",
+      "zh": "附术·远影孤帆（由装备者触发）",
+      "zh-TW": "附術·遠影孤帆（由裝備者觸發）",
+      "ja": "付術・遠影孤帆（発動者が自身）",
+      "ko": "고통 · 외로운 항해 (장착자가 발동)"
+     },
+     "assumeIdeal": "la segunda mitad del doble: la base (navigator_solidification / navigator_corrosion) más este buff"
     }
    ]
   },
@@ -1215,6 +1612,7 @@
       "es": "Electric DMG Dealt permanente.",
       "en": "Permanent Electric DMG Dealt.",
       "zh": "永久电磁伤害。",
+      "zh-TW": "永久電磁傷害。",
       "ja": "永続の電磁ダメージ。",
       "ko": "영구 전기 피해."
      },
@@ -1246,6 +1644,7 @@
       "es": "La habilidad de combate consume Reacciones de Arts.",
       "en": "Battle skill consumes Arts Reactions.",
       "zh": "战技消耗法术异常。",
+      "zh-TW": "戰技消耗法術異常。",
       "ja": "戦技がアーツ異常を消費する。",
       "ko": "배틀 스킬이 아츠 이상을 소모."
      },
@@ -1273,10 +1672,12 @@
        "electrification",
        "solidification",
        "corrosion"
-      ]
+      ],
+      "maxStacks": 2,
+      "cooldownS": 0.1,
+      "slot": "battle"
      },
-     "durS": 20,
-     "noStack": true
+     "durS": 20
     },
     {
      "id": "lone_barge_bs_on_ult",
@@ -1286,6 +1687,7 @@
       "es": "Tras lanzar la definitiva.",
       "en": "After casting ultimate.",
       "zh": "施放终结技后。",
+      "zh-TW": "施放終結技後。",
       "ja": "必殺技の発動後。",
       "ko": "궁극기 사용 후."
      },
@@ -1325,6 +1727,7 @@
       "es": "Bonus permanente de DMG Nature del portador.",
       "en": "Wielder's permanent Nature DMG bonus.",
       "zh": "持有者的永久自然伤害加成。",
+      "zh-TW": "持有者的永久自然傷害加成。",
       "ja": "装備者の永続の自然ダメージボーナス。",
       "ko": "장착자의 영구 자연 피해 보너스."
      },
@@ -1356,6 +1759,7 @@
       "es": "Tras aplicar Lifted con la Habilidad de Combo del portador, el equipo gana DMG Arts.",
       "en": "After the wielder's combo skill applies Lifted, the team gains Arts DMG.",
       "zh": "持有者的连携技施加击飞后，队伍获得法术伤害。",
+      "zh-TW": "持有者的連攜技施加擊飛後，隊伍獲得法術傷害。",
       "ja": "装備者の連携技が浮遊を付与した後、チームはアーツダメージを得る。",
       "ko": "장착자의 연계 스킬이 띄우기를 적용한 뒤 팀이 아츠 피해를 얻음."
      },
@@ -1376,9 +1780,49 @@
        ]
       }
      ],
-     "anchor": "combo_skill",
      "durS": 15,
-     "noStack": true
+     "noStack": true,
+     "trigger": {
+      "onApplyPhysStatus": "lift",
+      "slot": "combo"
+     }
+    },
+    {
+     "id": "delivery_guaranteed_per_lifted",
+     "src": "Pursuit: Duty Fulfilled",
+     "target": "team",
+     "cond": {
+      "es": "Por cada enemigo Levantado, el equipo obtiene DAÑ por Artes infligido adicional +9.8%, hasta un Máx. de +29.4%. Los efectos con el mismo nombre no se pueden acumular.",
+      "en": "For every enemy Lifted, the team gains bonus Arts DMG Dealt +9.8%, up to a max of +29.4%. Effects of the same name cannot stack.",
+      "zh": "每有一个被击飞的敌人，全队造成的法术伤害额外+9.8%，最多+29.4%。同名效果无法叠加。",
+      "zh-TW": "每有一個被擊飛的敵人，全隊造成的法術傷害額外+9.8%，最多+29.4%。同名效果無法疊加。",
+      "ja": "浮遊させた敵1体につき、追加でチーム全員のアーツダメージ+9.8%（最大+29.4%） 同名効果は重ね掛け不可",
+      "ko": "띄우기 피해를 받은 적이 있을 때마다, 팀 전체가 주는 아츠 피해 +9.8%, 최대 +29.4%. 같은 이름의 효과는 중첩되지 않습니다."
+     },
+     "trigger": {
+      "onApplyPhysStatus": "lift",
+      "slot": "combo"
+     },
+     "durS": 15,
+     "noStack": true,
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "arts",
+       "byNode": [
+        0.035,
+        0.042,
+        0.049,
+        0.056,
+        0.063,
+        0.07,
+        0.077,
+        0.084,
+        0.098
+       ]
+      }
+     ],
+     "assumeIdeal": "un enemigo levantado (el texto suma el bono por cada enemigo levantado, hasta 3: reach.json › perTarget)"
     }
    ]
   },
@@ -1394,6 +1838,7 @@
       "es": "Tras consumir Corrosión, el enemigo objetivo recibe +Daño Arts recibido durante 25s (no acumulable).",
       "en": "After consuming Corrosion, target enemy suffers +Arts DMG Taken for 25s (does not stack).",
       "zh": "消耗腐蚀后，目标敌人受到的法术伤害提升，25秒（不叠加）。",
+      "zh-TW": "消耗腐蝕後，目標敵人受到的法術傷害提升，25秒（不疊加）。",
       "ja": "腐食を消費した後、対象の敵の受けるアーツダメージがアップ、25秒（重複なし）。",
       "ko": "부식을 소모한 뒤 대상 적이 받는 아츠 피해 증가, 25초(중첩 없음)."
      },
@@ -1436,6 +1881,7 @@
       "es": "Aumento permanente de Prob. Crítica.",
       "en": "Permanent Critical Rate increase.",
       "zh": "永久暴击率提升。",
+      "zh-TW": "永久暴擊率提升。",
       "ja": "永続の会心率アップ。",
       "ko": "영구 치명타 확률 증가."
      },
@@ -1466,6 +1912,7 @@
       "es": "Tras lanzar el Ultimate: Daño de Artes aumentado durante 15s.",
       "en": "After casting Ultimate: Arts DMG dealt increased for 15s.",
       "zh": "施放终结技后：法术伤害提升，15秒。",
+      "zh-TW": "施放終結技後：法術傷害提升，15秒。",
       "ja": "必殺技の発動後：アーツダメージアップ、15秒。",
       "ko": "궁극기 사용 후: 아츠 피해 증가, 15초."
      },
@@ -1498,6 +1945,7 @@
       "es": "Tras lanzar la Habilidad de Combo: Daño de Artes aumentado durante 15s.",
       "en": "After casting Combo Skill: Arts DMG dealt increased for 15s.",
       "zh": "施放连携技后：法术伤害提升，15秒。",
+      "zh-TW": "施放連攜技後：法術傷害提升，15秒。",
       "ja": "連携技の発動後：アーツダメージアップ、15秒。",
       "ko": "연계 스킬 사용 후: 아츠 피해 증가, 15초."
      },
@@ -1536,6 +1984,7 @@
       "es": "Pasiva del arma (permanente).",
       "en": "Weapon passive (permanent).",
       "zh": "武器被动（永久）。",
+      "zh-TW": "武器被動（永久）。",
       "ja": "武器パッシブ（永続）。",
       "ko": "무기 패시브(영구)."
      },
@@ -1561,11 +2010,12 @@
     {
      "id": "opus_etch_arts",
      "src": "Opus: Etch Figure",
-     "target": "team",
+     "target": "allies",
      "cond": {
       "es": "Cuando la Habilidad de Combate del portador aplica Aflicción Naturaleza.",
       "en": "When the wielder's Battle Skill applies a Nature Infliction.",
       "zh": "持有者的战技施加自然附着时。",
+      "zh-TW": "持有者的戰技施加自然附著時。",
       "ja": "装備者の戦技が自然付着を付与したとき。",
       "ko": "장착자의 배틀 스킬이 자연 부착을 적용할 때."
      },
@@ -1587,10 +2037,48 @@
       }
      ],
      "trigger": {
-      "onApplyInfliction": "nature_infl"
+      "onApplyInfliction": "nature_infl",
+      "slot": "battle"
      },
      "durS": 15,
      "noStack": true
+    },
+    {
+     "id": "opus_etch_per_enemy",
+     "src": "Suppression: Tillite Etchings",
+     "target": "allies",
+     "cond": {
+      "es": "Por cada enemigo que sufra la Imposición de naturaleza aplicada por dicha habilidad de batalla, los demás operadores del equipo obtienen DAÑ por artes infligido adicional +5.6%, hasta un Máx. de +16.8%. Los efectos con el mismo nombre no se pueden acumular.",
+      "en": "For every enemy suffering from Nature Infliction applied by the said battle skill, other operators in the team gain bonus Arts DMG Dealt +5.6%, up to a max of +16.8%. Effects of the same name cannot stack.",
+      "zh": "每有一个被自然附着的敌人，小队内其他干员获得法术伤害额外+5.6%，最多+16.8%。同名效果无法叠加。",
+      "zh-TW": "每有一個被自然附著的敵人，小隊內其他幹員獲得法術傷害額外+5.6%，最多+16.8%。同名效果無法疊加。",
+      "ja": "自然付着状態の敵1体につき、追加でチーム内の他のオペレーターのアーツダメージ+5.6%（最大+16.8%） 同名効果は重ね掛け不可",
+      "ko": "자연 부착이 부여된 적이 있을 때마다, 팀 내의 다른 오퍼레이터가 주는 아츠 피해 추가 +5.6%, 최대 +16.8%. 같은 이름의 효과는 중첩되지 않습니다."
+     },
+     "trigger": {
+      "onApplyInfliction": "nature_infl",
+      "slot": "battle"
+     },
+     "durS": 15,
+     "noStack": true,
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "arts",
+       "byNode": [
+        0.02,
+        0.024,
+        0.028,
+        0.032,
+        0.036,
+        0.04,
+        0.044,
+        0.048,
+        0.056
+       ]
+      }
+     ],
+     "assumeIdeal": "un enemigo con Nature Infliction (el texto suma el bono por cada enemigo, hasta 3); a los demás operadores como dicen zh, ja y es (el inglés: «the team»)"
     }
    ]
   },
@@ -1606,6 +2094,7 @@
       "es": "Siempre activo",
       "en": "Always active",
       "zh": "始终生效",
+      "zh-TW": "始終生效",
       "ja": "常時有効",
       "ko": "항상 활성"
      },
@@ -1636,6 +2125,7 @@
       "es": "Cuando la habilidad de combate del portador aplica Solidificacion",
       "en": "When the wielder's Battle Skill applies Solidification",
       "zh": "持有者的战技施加冻结时",
+      "zh-TW": "持有者的戰技施加凍結時",
       "ja": "装備者の戦技が凍結を付与したとき",
       "ko": "장착자의 배틀 스킬이 동결을 적용할 때"
      },
@@ -1657,7 +2147,8 @@
       }
      ],
      "trigger": {
-      "onApplyReaction": "solidification"
+      "onApplyReaction": "solidification",
+      "slot": "battle"
      },
      "durS": 15,
      "noStack": true
@@ -1676,6 +2167,7 @@
       "es": "Siempre activo",
       "en": "Always active",
       "zh": "始终生效",
+      "zh-TW": "始終生效",
       "ja": "常時有効",
       "ko": "항상 활성"
      },
@@ -1706,6 +2198,7 @@
       "es": "Arts Intensity +valor por nodo (2ª oración de la pasiva — antes se perdía).",
       "en": "Arts Intensity +value by node (2nd sentence of the passive — previously lost).",
       "zh": "按节点的源石技艺强度 +数值（被动的第二句——之前遗漏）。",
+      "zh-TW": "按節點的源石技藝強度 +數值（被動的第二句——之前遺漏）。",
       "ja": "ノードごとのアーツ強度 ＋値（パッシブの2文目。以前は抜けていた）。",
       "ko": "노드별 오리지늄 아츠 강도 +값(패시브의 두 번째 문장 — 이전에 누락)."
      },
@@ -1740,7 +2233,8 @@
      "cond": {
       "es": "Tras recuperar SP con la habilidad del portador, el equipo gana Daño Heat y Daño Electric +8.4% por 20s (hasta 3 acumulaciones independientes).",
       "en": "After the wielder recovers SP by their own skill, the entire team gains Heat DMG Dealt and Electric DMG Dealt +8.4% for 20s (up to 3 separately-counted stacks).",
-      "zh": "持有者用自身技能回复 技力后，全队灼热伤害和电磁伤害 +8.4%，20秒（最多3层，分别计时）。",
+      "zh": "持有者用自身技能恢复技力后，全队灼热伤害和电磁伤害 +8.4%，20秒（最多3层，分别计时）。",
+      "zh-TW": "持有者用自身技能回復技力後，全隊灼熱傷害和電磁傷害 +8.4%，20秒（最多3層，分別計時）。",
       "ja": "装備者が自身のスキルで SP を回復した後、チーム全員の灼熱ダメージと電磁ダメージ +8.4%、20秒（最大3スタック、個別計時）。",
       "ko": "장착자가 자신의 스킬로 SP를 회복한 뒤 팀 전체 열기·전기 피해 +8.4%, 20초(최대 3중첩, 별도 계시)."
      },
@@ -1777,10 +2271,10 @@
       }
      ],
      "trigger": {
-      "onSpRecover": true
+      "onSpRecover": true,
+      "maxStacks": 3
      },
-     "durS": 20,
-     "noStack": true
+     "durS": 20
     }
    ]
   },
@@ -1796,6 +2290,7 @@
       "es": "ATK base del arma",
       "en": "Base weapon ATK",
       "zh": "武器基础攻击力",
+      "zh-TW": "武器基礎攻擊力",
       "ja": "武器の基礎攻撃力",
       "ko": "무기 기본 공격력"
      },
@@ -1823,11 +2318,12 @@
      "src": "Sundering Steel",
      "target": "self",
      "cond": {
-      "es": "Tras infligir un Estado Fisico",
-      "en": "After dealing a Physical Status",
-      "zh": "造成物理异常后",
-      "ja": "物理異常を与えた後",
-      "ko": "물리 이상을 준 뒤"
+      "es": "Al aplicar un Estado físico (Levantar, Derribar, Triturar o Brecha; no cuenta la aplicación que solo deja Vulnerable al enemigo, sí la forzada): ATK +N% durante 20s (máx. 2 acumulaciones, duración por separado; una vez cada 0.1s)",
+      "en": "On applying a Physical Status (Lift, Knock Down, Crush or Breach; an application that only makes the enemy Vulnerable does not count, a forced one does): ATK +N% for 20s (max 2 stacks, durations counted separately; once every 0.1s)",
+      "zh": "造成物理异常时（击飞、倒地、猛击或碎甲；只让敌人进入破防状态的那次不计入，强制触发的计入）：攻击力 +N%，持续20秒（同名效果最多叠加2层，每层单独计算持续时间，每0.1秒最多触发一次）",
+      "zh-TW": "造成物理異常時（擊飛、倒地、猛擊或碎甲；只讓敵人進入破防狀態的那次不計入，強制觸發的計入）：攻擊力 +N%，持續20秒（同名效果最多疊加2層，每層單獨計算持續時間，每0.1秒最多觸發一次）",
+      "ja": "物理異常を与えるとき（浮遊・転倒・猛撃・破砕。敵をクラッシュ状態にするだけの付与は数えず、強制的なものは数える）：20秒間攻撃力 +N%（同名効果は2回まで重ね掛け可能、持続時間は個別にカウント、0.1秒に1回まで発動）",
+      "ko": "적에게 물리 이상 효과를 줄 때(띄우기·넘어뜨리기·강타·갑옷 파괴. 적을 방어 불능 상태로만 만드는 적용은 세지 않고, 강제 효과는 셈): 공격력 +N%, 20초 동안 지속(같은 이름의 효과는 최대 2스택, 지속 시간은 따로 계산, 0.1초마다 최대 1회)"
      },
      "mods": [
       {
@@ -1846,10 +2342,11 @@
       }
      ],
      "trigger": {
-      "onApplyInfliction": "physical_infl"
+      "onApplyPhysStatus": true,
+      "maxStacks": 2,
+      "cooldownS": 0.1
      },
-     "durS": 20,
-     "noStack": true
+     "durS": 20
     }
    ]
   },
@@ -1865,6 +2362,7 @@
       "es": "Tras consumir una Reacción de Arts, ATK +N% durante 20s (máx. 2 acumulaciones, duración por separado)",
       "en": "After consuming an Arts Reaction, ATK +N% for 20s (max 2 stacks, durations counted separately)",
       "zh": "消耗法术异常后，攻击力 +N%，20秒（最多2层，分别计时）",
+      "zh-TW": "消耗法術異常後，攻擊力 +N%，20秒（最多2層，分別計時）",
       "ja": "アーツ異常を消費した後、攻撃力 +N%、20秒（最大2スタック、個別計時）",
       "ko": "아츠 이상을 소모한 뒤 공격력 +N%, 20초(최대 2중첩, 별도 계시)"
      },
@@ -1890,10 +2388,10 @@
        "corrosion",
        "solidification",
        "combustion"
-      ]
+      ],
+      "maxStacks": 2
      },
-     "durS": 20,
-     "noStack": true
+     "durS": 20
     }
    ]
   },
@@ -1909,6 +2407,7 @@
       "es": "Aumento permanente de DMG de Habilidad de Combo",
       "en": "Permanent Combo Skill DMG dealt boost",
       "zh": "永久连携技伤害提升",
+      "zh-TW": "永久連攜技傷害提升",
       "ja": "永続の連携技ダメージアップ",
       "ko": "영구 연계 스킬 피해 증가"
      },
@@ -1940,6 +2439,7 @@
       "es": "Tras usar Habilidad de Combo, la siguiente Habilidad de Batalla gana DMG de Electricidad (30s, acumula 3)",
       "en": "After casting a Combo Skill, the next Battle Skill gains Electric DMG dealt (30s, stacks to 3)",
       "zh": "施放连携技后，下一次战技获得电磁伤害提升（30秒，最多3层）",
+      "zh-TW": "施放連攜技後，下一次戰技獲得電磁傷害提升（30秒，最多3層）",
       "ja": "連携技の発動後、次の戦技が電磁ダメージアップを得る（30秒、最大3スタック）",
       "ko": "연계 스킬 사용 후 다음 배틀 스킬이 전기 피해 증가를 얻음(30초, 최대 3중첩)"
      },
@@ -1975,6 +2475,39 @@
    "passive": "Infliction: Conquest of Icy Peaks",
    "buffs": [
     {
+     "id": "obj_razorhorn_vs_cryo",
+     "src": "Infliction: Conquest of Icy Peaks",
+     "target": "self",
+     "cond": {
+      "es": "Contra enemigos con Imposición criogénica o Solidificación, el portador obtiene DAÑ infligido +22.4%.",
+      "en": "To enemies with Cryo Infliction or Solidification, the wielder gains DMG Dealt 22.4%.",
+      "zh": "装备者对处于寒冷附着和冻结状态的敌人造成的伤害+22.4%。",
+      "zh-TW": "裝備者對處於寒冷附著和凍結狀態的敵人造成的傷害+22.4%。",
+      "ja": "装備中、自身の寒冷付着と凍結状態の敵へのダメージ+22.4%",
+      "ko": "장착자가 냉기 부착과 동결 상태의 적에게 주는 피해 +22.4%."
+     },
+     "whenState": [
+      "cryo_infl",
+      "solidification"
+     ],
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "byNode": [
+        0.08,
+        0.096,
+        0.112,
+        0.128,
+        0.144,
+        0.16,
+        0.176,
+        0.192,
+        0.224
+       ]
+      }
+     ]
+    },
+    {
      "id": "obj_razorhorn_solid_atk",
      "src": "OBJ Razorhorn",
      "target": "self",
@@ -1982,6 +2515,7 @@
       "es": "Tras consumir Solidificacion: ATK +33.6% durante 15s",
       "en": "After consuming Solidification: ATK +33.6% for 15s",
       "zh": "消耗冻结后：攻击力 +33.6%，15秒",
+      "zh-TW": "消耗凍結後：攻擊力 +33.6%，15秒",
       "ja": "凍結を消費した後：攻撃力 +33.6%、15秒",
       "ko": "동결을 소모한 뒤: 공격력 +33.6%, 15초"
      },
@@ -2023,6 +2557,7 @@
       "es": "Tras el Ultimate del portador, los operadores de OTRO elemento que el portador ganan ATK +[máx +22.4%] 20s. No acumulable (efectos del mismo nombre). BIS F2P de Ardelia/Gilberta (Nature): buffea a todo el equipo no-Nature.",
       "en": "After the wielder casts an Ultimate, operators whose element differs from the wielder gain ATK +[max +22.4%] for 20s. Effects of the same name cannot stack. F2P BIS for Ardelia/Gilberta (Nature): buffs the whole non-Nature team.",
       "zh": "持有者施放终结技后，与持有者属性不同的干员获得攻击力 +[最高 +22.4%]，20秒。同名效果不叠加。艾尔黛拉/洁尔佩塔（自然）的 F2P BIS：强化整个非自然队伍。",
+      "zh-TW": "持有者施放終結技後，與持有者屬性不同的幹員獲得攻擊力 +[最高 +22.4%]，20秒。同名效果不疊加。艾爾黛拉/潔爾佩塔（自然）的 F2P BIS：強化整個非自然隊伍。",
       "ja": "装備者が必殺技を発動した後、装備者と属性の違うオペレーターが攻撃力 +[最大 +22.4%] を20秒間得る。同名効果は重複しない。アルデリア/ギルベルタ（自然）の F2P BIS：自然以外のチーム全員を強化する。",
       "ko": "장착자가 궁극기를 사용한 뒤 장착자와 속성이 다른 오퍼레이터가 공격력 +[최대 +22.4%]를 20초 동안 얻음. 같은 이름의 효과는 중첩 불가. 아델리아/질베르타(자연)의 무과금 BIS: 자연이 아닌 팀 전체를 강화."
      },
@@ -2063,6 +2598,7 @@
       "es": "ATK permanente de la pasiva (escala por nodo de esencia).",
       "en": "Permanent ATK from the passive (scales per essence node).",
       "zh": "被动提供的永久攻击力（随基质节点成长）。",
+      "zh-TW": "被動提供的永久攻擊力（隨基質節點成長）。",
       "ja": "パッシブによる永続の攻撃力（基質ノードでスケール）。",
       "ko": "패시브의 영구 공격력(기질 노드에 따라 증가)."
      },
@@ -2086,6 +2622,7 @@
       "en": "Infliction: Covetous Buildup (permanent)",
       "es": "Imposición: Acumulación codiciosa (permanente)",
       "zh": "附术·觊觎堆叠（常驻）",
+      "zh-TW": "附術·覬覦堆疊（常駐）",
       "ja": "付術・欲望堆積（常時）",
       "ko": "고통 · 쌓이는 탐욕 (상시)"
      }
@@ -2098,14 +2635,17 @@
       "onApplyReaction": [
        "combustion",
        "corrosion"
-      ]
+      ],
+      "maxStacks": 2,
+      "cooldownS": 0.1,
+      "team": true
      },
      "durS": 20,
-     "noStack": true,
      "cond": {
       "es": "Cuando se aplica Combustion o Corrosion a un enemigo, el portador gana Heat DMG Dealt y Nature DMG Dealt +valor por 20s. Max 2 stacks (duracion contada por separado); solo se activa una vez cada 0.1s.",
       "en": "Whenever Combustion or Corrosion is applied to an enemy, the wielder gains Heat and Nature DMG Dealt +value for 20s. Max 2 stacks (duration counted separately); triggers once every 0.1s.",
       "zh": "每当对敌人施加燃烧或腐蚀，持有者获得灼热和自然伤害 +数值，20秒。最多2层（分别计时）；每0.1秒最多触发一次。",
+      "zh-TW": "每當對敵人施加燃燒或腐蝕，持有者獲得灼熱和自然傷害 +數值，20秒。最多2層（分別計時）；每0.1秒最多觸發一次。",
       "ja": "敵に燃焼または腐食を付与するたび、装備者は灼熱・自然ダメージ ＋値を20秒間得る。最大2スタック（個別計時）、0.1秒に1回発動。",
       "ko": "적에게 연소나 부식을 적용할 때마다 장착자가 열기·자연 피해 +값을 20초 동안 얻음. 최대 2중첩(별도 계시), 0.1초마다 한 번 발동."
      },
@@ -2145,6 +2685,7 @@
       "en": "Infliction: Covetous Buildup",
       "es": "Imposición: Acumulación codiciosa",
       "zh": "附术·觊觎堆叠",
+      "zh-TW": "附術·覬覦堆疊",
       "ja": "付術・欲望堆積",
       "ko": "고통 · 쌓이는 탐욕"
      }
@@ -2163,6 +2704,7 @@
       "es": "Bonif. de DMG de Artes permanente.",
       "en": "Permanent Arts DMG Dealt bonus.",
       "zh": "永久法术伤害加成。",
+      "zh-TW": "永久法術傷害加成。",
       "ja": "永続のアーツダメージボーナス。",
       "ko": "영구 아츠 피해 보너스."
      },
@@ -2194,6 +2736,7 @@
       "es": "Tras aplicar Combustion o Electrification, DMG de Artes durante 15s (no acumula).",
       "en": "After applying Combustion or Electrification, Arts DMG Dealt for 15s (no stack).",
       "zh": "施加燃烧或导电后，法术伤害提升，15秒（不叠加）。",
+      "zh-TW": "施加燃燒或導電後，法術傷害提升，15秒（不疊加）。",
       "ja": "燃焼または感電を付与した後、アーツダメージアップ、15秒（重複なし）。",
       "ko": "연소나 감전을 적용한 뒤 아츠 피해 증가, 15초(중첩 없음)."
      },
@@ -2212,6 +2755,20 @@
         0.288,
         0.336
        ]
+      },
+      {
+       "type": "artsInt",
+       "byNode": [
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+        60,
+        70
+       ]
       }
      ],
      "trigger": {
@@ -2222,12 +2779,6 @@
      },
      "durS": 15,
      "noStack": true
-    }
-   ],
-   "deferredWindows": [
-    {
-     "window": "On applying Combustion or Electrification, wielder also gains Arts Intensity +N for 15s (node-4 +40, node-9 +70)",
-     "reason": "no artsInt mod type"
     }
    ]
   },
@@ -2243,6 +2794,7 @@
       "es": "Bonus permanente de daño Arts",
       "en": "Permanent Arts DMG Dealt bonus",
       "zh": "永久法术伤害加成",
+      "zh-TW": "永久法術傷害加成",
       "ja": "永続のアーツダメージボーナス",
       "ko": "영구 아츠 피해 보너스"
      },
@@ -2274,6 +2826,7 @@
       "es": "Tras lanzar una Habilidad de Combate",
       "en": "After casting a Battle Skill",
       "zh": "施放战技后",
+      "zh-TW": "施放戰技後",
       "ja": "戦技の発動後",
       "ko": "배틀 스킬 사용 후"
      },
@@ -2306,6 +2859,7 @@
       "es": "Cuando la Habilidad de Combate aplica una Reacción Arts",
       "en": "When the Battle Skill applies an Arts Reaction",
       "zh": "战技施加法术异常时",
+      "zh-TW": "戰技施加法術異常時",
       "ja": "戦技がアーツ異常を付与したとき",
       "ko": "배틀 스킬이 아츠 이상을 적용할 때"
      },
@@ -2332,7 +2886,8 @@
        "electrification",
        "solidification",
        "corrosion"
-      ]
+      ],
+      "slot": "battle"
      },
      "durS": 15,
      "noStack": true
@@ -2351,6 +2906,7 @@
       "es": "Bono permanente de daño Heat",
       "en": "Permanent Heat DMG bonus",
       "zh": "永久灼热伤害加成",
+      "zh-TW": "永久灼熱傷害加成",
       "ja": "永続の灼熱ダメージボーナス",
       "ko": "영구 열기 피해 보너스"
      },
@@ -2382,6 +2938,7 @@
       "es": "Cuando la skill del portador aplica Heat Infliction",
       "en": "When the wielder's skill applies Heat Infliction",
       "zh": "持有者的技能施加灼热附着时",
+      "zh-TW": "持有者的技能施加灼熱附著時",
       "ja": "装備者のスキルが灼熱付着を付与したとき",
       "ko": "장착자의 스킬이 열기 부착을 적용할 때"
      },
@@ -2422,52 +2979,59 @@
      },
      "durS": 20,
      "noStack": true
-    }
-   ],
-   "deferredWindows": [
+    },
     {
-     "cond": {
-      "es": "Cuando la skill del portador aplica Heat Susceptibility, todo el equipo gana Physical y Heat DMG Dealt +11.2% durante 30s",
-      "en": "When the wielder's skill applies Heat Susceptibility, the entire team gains Physical and Heat DMG Dealt +11.2% for 30s",
-      "zh": "持有者的技能施加灼热脆弱时，全队物理和灼热伤害 +11.2%，30秒",
-      "ja": "装備者のスキルが灼熱脆弱を付与したとき、チーム全員の物理・灼熱ダメージ +11.2%、30秒",
-      "ko": "장착자의 스킬이 열기 취약을 적용할 때 팀 전체 물리·열기 피해 +11.2%, 30초"
-     },
+     "id": "wpn_lance_0007_heat_susc",
+     "src": "Efficacy: Fuel for the Torch",
      "target": "team",
+     "cond": {
+      "es": "Cuando la habilidad del portador aplica Susceptibilidad al calor, todo el equipo obtiene DAÑ físico y por calor infligido +11.2% durante 30 s. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+      "en": "When the wielder's skill applies Heat Susceptibility, the entire team gains Physical and Heat DMG Dealt +11.2% for 30s. The two effects apply separately and do not stack with themselves.",
+      "zh": "装备者通过自身技能施加灼热脆弱时，全队物理和灼热伤害+11.2%，持续30秒。两种效果独立生效，且均无法叠加。",
+      "zh-TW": "裝備者透過自身技能施加灼熱脆弱時，全隊物理和灼熱傷害+11.2%，持續30秒。兩種效果獨立生效，且均無法疊加。",
+      "ja": "自身のスキルで灼熱脆弱を付与するとき、30秒間チーム全員の物理と灼熱ダメージ+11.2% 2つの効果はそれぞれ存在し、重ね掛け不可",
+      "ko": "장착자가 자신의 스킬로 열기 취약을 부여할 때, 팀 전체의 물리 및 열기 피해 +11.2%, 30초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다."
+     },
+     "trigger": {
+      "onApplyDebuff": {
+       "type": "enemySusc",
+       "element": "heat"
+      }
+     },
+     "durS": 30,
+     "noStack": true,
      "mods": [
       {
        "type": "dmgAdd",
        "element": "physical",
        "byNode": [
-        4,
-        4.8,
-        5.6,
-        6.4,
-        7.2,
-        8,
-        8.8,
-        9.6,
-        11.2
+        0.04,
+        0.048,
+        0.056,
+        0.064,
+        0.072,
+        0.08,
+        0.088,
+        0.096,
+        0.112
        ]
       },
       {
        "type": "dmgAdd",
        "element": "heat",
        "byNode": [
-        4,
-        4.8,
-        5.6,
-        6.4,
-        7.2,
-        8,
-        8.8,
-        9.6,
-        11.2
+        0.04,
+        0.048,
+        0.056,
+        0.064,
+        0.072,
+        0.08,
+        0.088,
+        0.096,
+        0.112
        ]
       }
-     ],
-     "durS": 30,
-     "reason": "gate = wielder APPLIES Heat Susceptibility; onApplyBuff (applying a Susceptibility) is a still-missing primitive"
+     ]
     }
    ]
   },
@@ -2483,6 +3047,7 @@
       "es": "Habilidades de combate y definitivas ganan Daño Físico infligido +N%",
       "en": "Battle Skills and Ultimates gain Physical DMG Dealt +N%",
       "zh": "战技和终结技获得物理伤害 +N%",
+      "zh-TW": "戰技和終結技獲得物理傷害 +N%",
       "ja": "戦技と必殺技が物理ダメージ +N%を得る",
       "ko": "배틀 스킬과 궁극기가 물리 피해 +N%를 얻음"
      },
@@ -2522,29 +3087,52 @@
      ],
      "permanent": true,
      "replacesLeading": true
-    }
-   ],
-   "deferredWindows": [
+    },
     {
+     "id": "rapid_ascent_staggered",
+     "src": "Twilight: Azure Clouds",
+     "target": "self",
      "cond": {
-      "es": "Contra enemigos Aturdidos, las habilidades de combate y definitivas también ganan Daño infligido +N%",
-      "en": "Against Staggered enemies, Battle Skills and Ultimates also gain DMG Dealt +N%",
-      "zh": "对失衡敌人，战技和终结技还获得伤害 +N%",
-      "ja": "ブレイク状態の敵に対して、戦技と必殺技はさらに与ダメージ +N%",
-      "ko": "불균형 상태의 적에게 배틀 스킬과 궁극기가 추가로 피해 +N%"
+      "es": "Contra enemigos Tambaleados, las habilidades de batalla y las máximas también otorgan DAÑ infligido +98.0%.",
+      "en": "Against Staggered enemies, battle skills and ultimates also gain DMG Dealt +98.0%.",
+      "zh": "对处于失衡状态的敌人造成的伤害+98.0%。",
+      "zh-TW": "對處於失衡狀態的敵人造成的傷害+98.0%。",
+      "ja": "ブレイク状態の敵へのダメージ+98.0%",
+      "ko": "불균형 상태의 적에게 주는 피해 +98.0%"
      },
-     "byNode": [
-      50,
-      60,
-      70,
-      80,
-      90,
-      100,
-      110,
-      120,
-      140
-     ],
-     "reason": "enemy-state gate (Staggered) — whenState for enemy states not reliable yet"
+     "whenState": "staggered",
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "slot": "battle_skill",
+       "byNode": [
+        0.35,
+        0.42,
+        0.49,
+        0.56,
+        0.63,
+        0.7,
+        0.77,
+        0.84,
+        0.98
+       ]
+      },
+      {
+       "type": "dmgAdd",
+       "slot": "ultimate",
+       "byNode": [
+        0.35,
+        0.42,
+        0.49,
+        0.56,
+        0.63,
+        0.7,
+        0.77,
+        0.84,
+        0.98
+       ]
+      }
+     ]
     }
    ]
   },
@@ -2560,6 +3148,7 @@
       "es": "Siempre activo",
       "en": "Always active",
       "zh": "始终生效",
+      "zh-TW": "始終生效",
       "ja": "常時有効",
       "ko": "항상 활성"
      },
@@ -2581,23 +3170,43 @@
      ],
      "permanent": true,
      "replacesLeading": true
-    }
-   ],
-   "deferredWindows": [
+    },
     {
-     "desc": "When the wielder's skill applies Vulnerability, during the next ultimate cast within 30s: DMG Dealt +33.6% (dmgAdd). Max 3 stacks (separately timed), triggers once/0.5s.",
-     "byNode": [
-      12,
-      14.4,
-      16.8,
-      19.2,
-      21.6,
-      24,
-      26.4,
-      28.8,
-      33.6
-     ],
-     "reason": "next-Ultimate anchor gated on APPLYING Vulnerability — requires onApplyBuff primitive (applying a Susceptibility/Vulnerability is not supported; it is not a reaction so cannot map to onApplyReaction+anchor)"
+     "id": "wpn_sword_0017_vuln_ult",
+     "src": "Twilight: Lingering Glow",
+     "target": "self",
+     "cond": {
+      "es": "Cuando la habilidad del portador aplica Vulnerabilidad, durante el siguiente lanzamiento de la máxima dentro de 30 s, el portador obtiene DAÑ infligido +33.6%. Acumulaciones Máx. por efectos con el mismo nombre: 3. La duración de cada acumulación se cuenta por separado. El efecto solo se activa una vez cada 0.5 s.",
+      "en": "When the wielder's skill applies Vulnerability, during the next ultimate cast within 30s, the wielder gains DMG Dealt +33.6%. Max stacks for effects of the same name: 3. Duration of each stack is counted separately. Effect is only triggered once every 0.5s.",
+      "zh": "装备者通过技能施加破防时，30秒内的下次终结技期间造成的伤害+33.6%。同名效果最多叠加3层，每层单独计算持续时间，每0.5秒最多触发一次。",
+      "zh-TW": "裝備者透過技能施加破防時，30秒內的下次終結技期間造成的傷害+33.6%。同名效果最多疊加3層，每層單獨計算持續時間，每0.5秒最多觸發一次。",
+      "ja": "装備中、自身がスキルでクラッシュを付与するとき、30秒以内に発動した次の必殺技の期間中、与えるダメージ+33.6% 同名効果は3回まで重ね掛け可能 効果の持続時間は個別にカウントされ、0.5秒に1回まで発動可能",
+      "ko": "장착자가 스킬로 방어 불능을 부여하면, 30초 내에 사용한 다음 궁극기의 지속 시간 동안 주는 피해 +33.6%. 같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.5초마다 최대 1회만 발동합니다."
+     },
+     "trigger": {
+      "onApplyInfliction": "vulnerability",
+      "maxStacks": 3,
+      "cooldownS": 0.5,
+      "untilNext": "ult"
+     },
+     "durS": 30,
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "slot": "ultimate",
+       "byNode": [
+        0.12,
+        0.144,
+        0.168,
+        0.192,
+        0.216,
+        0.24,
+        0.264,
+        0.288,
+        0.336
+       ]
+      }
+     ]
     }
    ]
   },
@@ -2613,6 +3222,7 @@
       "es": "Siempre activo",
       "en": "Always active",
       "zh": "始终生效",
+      "zh-TW": "始終生效",
       "ja": "常時有効",
       "ko": "항상 활성"
      },
@@ -2643,6 +3253,7 @@
       "es": "Tras aplicar una Reaccion de Artes; hasta 2 acumulaciones (duracion por acumulacion)",
       "en": "After the wielder applies an Arts Reaction; up to 2 stacks (each stack timed separately)",
       "zh": "持有者施加法术异常后；最多2层（每层分别计时）",
+      "zh-TW": "持有者施加法術異常後；最多2層（每層分別計時）",
       "ja": "装備者がアーツ異常を付与した後。最大2スタック（各スタック個別計時）",
       "ko": "장착자가 아츠 이상을 적용한 뒤, 최대 2중첩(중첩별 별도 계시)"
      },
@@ -2668,7 +3279,9 @@
        "electrification",
        "solidification",
        "corrosion"
-      ]
+      ],
+      "maxStacks": 2,
+      "cooldownS": 0.1
      },
      "durS": 20
     }
@@ -2686,6 +3299,7 @@
       "es": "Bonificacion de dano de Habilidad de Combate",
       "en": "Battle Skill DMG Dealt",
       "zh": "战技伤害",
+      "zh-TW": "戰技傷害",
       "ja": "戦技ダメージ",
       "ko": "배틀 스킬 피해"
      },
@@ -2706,7 +3320,8 @@
        ]
       }
      ],
-     "permanent": true
+     "permanent": true,
+     "replacesLeading": true
     },
     {
      "id": "rational_farewell_burst",
@@ -2716,6 +3331,7 @@
       "es": "Cuando el combo aplica Arts Burst o Combustion: ATK +valor 15s (no acumula).",
       "en": "When the combo applies Arts Burst or Combustion: ATK +value for 15s (non-stacking).",
       "zh": "连携施加法术爆发或燃烧时：攻击力 +数值，15秒（不叠加）。",
+      "zh-TW": "連攜施加法術爆發或燃燒時：攻擊力 +數值，15秒（不疊加）。",
       "ja": "連携がアーツ爆発または燃焼を付与したとき：攻撃力 ＋値、15秒（重複なし）。",
       "ko": "연계가 아츠 폭발이나 연소를 적용할 때: 공격력 +값, 15초(중첩 없음)."
      },
@@ -2739,7 +3355,8 @@
       "onApplyReaction": [
        "burst",
        "combustion"
-      ]
+      ],
+      "slot": "combo"
      },
      "durS": 15,
      "noStack": true
@@ -2758,6 +3375,7 @@
       "es": "Al aplicar un Arts Burst: el enemigo recibe +Arts DMG 15s (no acumula).",
       "en": "On applying an Arts Burst: the enemy takes +Arts DMG for 15s (non-stacking).",
       "zh": "施加法术爆发时：敌人受到的法术伤害提升，15秒（不叠加）。",
+      "zh-TW": "施加法術爆發時：敵人受到的法術傷害提升，15秒（不疊加）。",
       "ja": "アーツ爆発を付与したとき：敵の受けるアーツダメージがアップ、15秒（重複なし）。",
       "ko": "아츠 폭발을 적용할 때: 적이 받는 아츠 피해 증가, 15초(중첩 없음)."
      },
@@ -2795,11 +3413,12 @@
      "src": "Seeker of Dark Lung",
      "target": "self",
      "cond": {
-      "es": "Al aplicar un Arts Burst: ATK +valor por 30s (máx 3 stacks; el cálculo cuenta 1).",
-      "en": "On applying an Arts Burst: ATK +value for 30s (max 3 stacks; the calculation counts 1).",
-      "zh": "施加法术爆发时：攻击力 +数值，30秒（最多3层；计算按1层计）。",
-      "ja": "アーツ爆発を付与したとき：攻撃力 ＋値、30秒（最大3スタック。計算では1として数える）。",
-      "ko": "아츠 폭발을 적용할 때: 공격력 +값, 30초(최대 3중첩, 계산은 1로 셈)."
+      "es": "Al aplicar un Arts Burst: ATK +valor por 30s (máx 3 stacks, duración por separado).",
+      "en": "On applying an Arts Burst: ATK +value for 30s (max 3 stacks, durations counted separately).",
+      "zh": "施加法术爆发时：攻击力 +数值，30秒（最多3层，分别计时）。",
+      "zh-TW": "施加法術爆發時：攻擊力 +數值，30秒（最多3層，分別計時）。",
+      "ja": "アーツ爆発を付与したとき：攻撃力 ＋値、30秒（最大3スタック、個別計時）。",
+      "ko": "아츠 폭발을 적용할 때: 공격력 +값, 30초(최대 3중첩, 별도 계시)."
      },
      "mods": [
       {
@@ -2818,10 +3437,11 @@
       }
      ],
      "trigger": {
-      "onApplyReaction": "burst"
+      "onApplyReaction": "burst",
+      "maxStacks": 3,
+      "cooldownS": 0.1
      },
-     "durS": 30,
-     "noStack": true
+     "durS": 30
     }
    ]
   },
@@ -2834,11 +3454,12 @@
      "src": "OBJ Arts Identifier",
      "target": "team",
      "cond": {
-      "es": "Al aplicar Arts Burst o un Estado Físico (Crush/Breach): equipo +Heat y +Electric DMG 15s (no acumula).",
-      "en": "On applying Arts Burst or a Physical Status (Crush/Breach): team +Heat and +Electric DMG for 15s (non-stacking).",
-      "zh": "施加法术爆发或物理异常（猛击/碎甲）时：全队灼热和电磁伤害提升，15秒（不叠加）。",
-      "ja": "アーツ爆発または物理異常（猛撃/破砕）を付与したとき：チームの灼熱・電磁ダメージアップ、15秒（重複なし）。",
-      "ko": "아츠 폭발이나 물리 이상(강타/갑옷 파괴)를 적용할 때: 팀 열기·전기 피해 증가, 15초(중첩 없음)."
+      "es": "Cuando la habilidad de combo del portador aplica Ráfaga de artes o un Estado físico, todo el equipo obtiene DAÑ por calor infligido y DAÑ eléctrico infligido +22.4% durante 15 s. Los efectos con el mismo nombre no se pueden acumular.",
+      "en": "When the wielder's combo skill applies Arts Burst or Physical Status, the entire team gains Heat DMG Dealt and Electric DMG Dealt +22.4% for 15s. Effects of the same name cannot stack.",
+      "zh": "通过自身连携技造成法术爆发或物理异常时，全队获得灼热和电磁伤害+22.4%，持续15秒。同名效果无法叠加。",
+      "zh-TW": "透過自身連攜技造成法術爆發或物理異常時，全隊獲得灼熱和電磁傷害+22.4%，持續15秒。同名效果無法疊加。",
+      "ja": "自身の連携技でアーツ爆発または物理異常を与えるとき、15秒間チーム全員の灼熱ダメージと電磁ダメージ+22.4% 同名効果は重ね掛け不可",
+      "ko": "자신의 연계 스킬로 적에게 아츠 폭발 혹은 물리 이상 효과를 부여할 때, 팀 전체가 주는 열기와 전기 피해 +22.4%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
      },
      "mods": [
       {
@@ -2873,11 +3494,15 @@
       }
      ],
      "trigger": {
-      "onApplyReaction": [
-       "burst",
-       "crush",
-       "breach"
-      ]
+      "onAny": [
+       {
+        "onApplyReaction": "burst"
+       },
+       {
+        "onApplyPhysStatus": true
+       }
+      ],
+      "slot": "combo"
      },
      "durS": 15,
      "noStack": true
@@ -2893,25 +3518,26 @@
      "src": "Sundered Prince",
      "target": "self",
      "cond": {
-      "es": "Tras un Final Strike: ATK +valor por 8s (no acumula). El doble + Stagger del operador controlado no está incluido en el cálculo.",
-      "en": "After a Final Strike: ATK +value for 8s (non-stacking). The controlled operator's doubled value + Stagger is not included in the calculation.",
-      "zh": "重击后：攻击力 +数值，8秒（不叠加）。主控干员的翻倍数值 + 失衡未计入计算。",
-      "ja": "重攻撃の後：攻撃力 ＋値、8秒（重複なし）。操作オペレーターの2倍の値とブレイク値は計算に含めていない。",
-      "ko": "강력한 일격 후: 공격력 +값, 8초(중첩 없음). 조작 오퍼레이터의 두 배 값과 불균형은 계산에 포함하지 않았습니다."
+      "es": "Cuando el portador realiza un Golpe final en el enemigo, el portador obtiene ATQ +28.0% durante 8 s. Si el portador también es el operador controlado, se duplica el aumento de ATQ obtenido y se potencia el Golpe final para que inflija Tambaleo +33.6% al enemigo. Los efectos con el mismo nombre no se pueden acumular.",
+      "en": "When the wielder performs a Final Strike on the enemy, the wielder gains ATK +28.0% for 8s. If the wielder is also the controlled operator, double the ATK increase gained and buff the Final Strike so that it deals Stagger +33.6% to the enemy. Effects of the same name cannot stack.",
+      "zh": "装备者对敌人造成重击时，获得攻击力+28.0%，持续8秒。 若装备者为主控干员，攻击力提升的数值翻倍，且重击对敌人造成的失衡值+33.6%。 同名效果无法叠加。",
+      "zh-TW": "裝備者對敵人造成重擊時，獲得攻擊力+28.0%，持續8秒。 若裝備者為主控幹員，攻擊力提升的數值翻倍，且重擊對敵人造成的失衡值+33.6%。 同名效果無法疊加。",
+      "ja": "装備中、自身が敵に重攻撃を与えるとき、8秒間攻撃力+28.0% 自身が操作中のオペレーターの場合、攻撃力の上昇値が倍になり、重攻撃による敵へのブレイク値+33.6% 同名効果は重ね掛け不可",
+      "ko": "장착자가 적에게 강력한 일격 피해를 줄 때, 공격력 +28.0%, 8초 동안 지속. 장착자가 메인 컨트롤 오퍼레이터일 경우, 공격력의 증가 수치가 2배로 증가하고 강력한 일격으로 적에게 주는 불균형치 +33.6%. 같은 이름의 효과는 중첩되지 않습니다."
      },
      "mods": [
       {
        "type": "atkPct",
        "byNode": [
-        0.1,
-        0.12,
-        0.14,
-        0.16,
-        0.18,
         0.2,
-        0.22,
         0.24,
-        0.28
+        0.28,
+        0.32,
+        0.36,
+        0.4,
+        0.44,
+        0.48,
+        0.56
        ]
       }
      ],
@@ -2919,7 +3545,29 @@
       "onFinalStrike": true
      },
      "durS": 8,
-     "noStack": true
+     "noStack": true,
+     "finalStrikeStagger": {
+      "byNode": [
+       0.12,
+       0.144,
+       0.168,
+       0.192,
+       0.216,
+       0.24,
+       0.264,
+       0.288,
+       0.336
+      ]
+     },
+     "assumeIdeal": "quien da el Final Strike es el operador controlado (la convención del motor: el Espejismo de Last Rite, Melting Flame y el modo de Arcane cuentan el Final Strike de cualquier carril como el del controlado), así que el portador gana el doble y su Final Strike hace Stagger +33,6 % (finalStrikeStagger, solo en la Rotación)",
+     "label": {
+      "en": "Crusher: Princely Deterrence (controlled operator)",
+      "es": "Triturador: Disuasión principesca (operador controlado)",
+      "zh": "粉碎·君王威慑（主控干员）",
+      "zh-TW": "粉碎·君王威懾（主控幹員）",
+      "ja": "破砕・君主威圧（操作中のオペレーター）",
+      "ko": "분쇄 · 군왕의 위세 (메인 컨트롤 오퍼레이터)"
+     }
     }
    ]
   },
@@ -2935,6 +3583,7 @@
       "es": "ATK +valor (término inicial de la pasiva, por nodo).",
       "en": "ATK +value (leading term of the passive, by node).",
       "zh": "攻击力 +数值（被动的首项，按节点）。",
+      "zh-TW": "攻擊力 +數值（被動的首項，按節點）。",
       "ja": "攻撃力 ＋値（パッシブの主項、ノードごと）。",
       "ko": "공격력 +값(패시브의 주 항목, 노드별)."
      },
@@ -2962,17 +3611,29 @@
      "src": "Eminent Repute",
      "target": "self",
      "cond": {
-      "es": "Al consumir Vulnerability (Crush/Breach): portador ATK +[8%+4%×stacks] (nodo 4), 20s, no acumula. Modelado mitad self + mitad team (el portador suma ambas = total del texto).",
-      "en": "On consuming Vulnerability (Crush/Breach): wielder ATK +[8%+4%×stacks] (node 4), 20s, non-stacking. Modeled half self + half team (the wielder adds both = the text's total).",
-      "zh": "消耗破防（猛击/碎甲）时：持有者攻击力 +[8%+4%×层数]（节点4），20秒，不叠加。建模为一半自身 + 一半队伍（持有者两者都加 = 文本总量）。",
-      "ja": "クラッシュ（猛撃/破砕）を消費したとき：装備者の攻撃力 +[8%+4%×スタック]（ノード4）、20秒、重複なし。自身半分＋チーム半分でモデル化（装備者は両方＝テキストの合計）。",
-      "ko": "방어 불능(강타/갑옷 파괴) 소모 시: 장착자 공격력 +[8%+4%×중첩](노드 4), 20초, 중첩 없음. 절반 자신 + 절반 팀으로 모델링(장착자는 둘 다 = 텍스트의 합계)."
+      "es": "Después de que el portador consuma acumulaciones de Vulnerabilidad, el portador obtiene ATQ +[14.0%+7.0%×Acumulaciones consumidas] mientras que los demás operadores del equipo obtienen la mitad de este incremento durante 20 s. Los efectos con el mismo nombre no se acumulan.",
+      "en": "After the wielder consumes Vulnerability stack(s), the wielder gains ATK +[14% + 7%×Stacks Consumed] while other operators in the team gain half of this buff for 20s. Effects of the same name cannot stack.",
+      "zh": "装备者消耗破防层数后，自身攻击力+[14.0%+7.0%×消耗层数]，小队内其他干员获得一半的效果，持续20秒。同名效果无法叠加。",
+      "zh-TW": "裝備者消耗破防層數後，自身攻擊力+[14.0%+7.0%×消耗層數]，小隊內其他幹員獲得一半的效果，持續20秒。同名效果無法疊加。",
+      "ja": "装備中、自身がクラッシュ段階を消費すると、20秒間自身の攻撃力+[14.0%+7.0%×消費した段階数]、チーム内の他のオペレーターにはその半分の効果が付与される 同名効果は重ね掛け不可",
+      "ko": "장착자가 방어 불능 스택 수치를 소모한 후, 자신의 공격력 +[14.0%+7.0%×소모 스택 수치], 팀 내 다른 오퍼레이터는 절반의 효과를 획득함, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
      },
      "mods": [
       {
        "type": "atkPct",
        "perStack": {
         "base": [
+         0.05,
+         0.06,
+         0.07,
+         0.08,
+         0.09,
+         0.1,
+         0.11,
+         0.12,
+         0.14
+        ],
+        "per": [
          0.025,
          0.03,
          0.035,
@@ -2982,17 +3643,6 @@
          0.055,
          0.06,
          0.07
-        ],
-        "per": [
-         0.0125,
-         0.015,
-         0.0175,
-         0.02,
-         0.0225,
-         0.025,
-         0.0275,
-         0.03,
-         0.035
         ]
        }
       }
@@ -3004,18 +3654,27 @@
       ]
      },
      "durS": 20,
-     "noStack": true
+     "noStack": true,
+     "label": {
+      "en": "Brutality: Disciplinarian (wielder)",
+      "es": "Brutalidad: Disciplinario (portador)",
+      "zh": "残暴·规行矩止（装备者）",
+      "zh-TW": "殘暴·規行矩止（裝備者）",
+      "ja": "残虐・規則遵守（自身）",
+      "ko": "잔혹 · 엄격한 규율 (장착자)"
+     }
     },
     {
      "id": "eminent_repute_consume_team",
      "src": "Eminent Repute",
-     "target": "team",
+     "target": "allies",
      "cond": {
-      "es": "El resto del equipo gana la MITAD del buff: ATK +[4%+2%×stacks] (nodo 4), 20s, no acumula.",
-      "en": "The rest of the team gains HALF the buff: ATK +[4%+2%×stacks] (node 4), 20s, non-stacking.",
-      "zh": "队伍其他人获得一半增益：攻击力 +[4%+2%×层数]（节点4），20秒，不叠加。",
-      "ja": "他のメンバーはバフの半分を得る：攻撃力 +[4%+2%×スタック]（ノード4）、20秒、重複なし。",
-      "ko": "팀의 나머지는 버프의 절반을 얻음: 공격력 +[4%+2%×중첩](노드 4), 20초, 중첩 없음."
+      "es": "Después de que el portador consuma acumulaciones de Vulnerabilidad, el portador obtiene ATQ +[14.0%+7.0%×Acumulaciones consumidas] mientras que los demás operadores del equipo obtienen la mitad de este incremento durante 20 s. Los efectos con el mismo nombre no se acumulan.",
+      "en": "After the wielder consumes Vulnerability stack(s), the wielder gains ATK +[14% + 7%×Stacks Consumed] while other operators in the team gain half of this buff for 20s. Effects of the same name cannot stack.",
+      "zh": "装备者消耗破防层数后，自身攻击力+[14.0%+7.0%×消耗层数]，小队内其他干员获得一半的效果，持续20秒。同名效果无法叠加。",
+      "zh-TW": "裝備者消耗破防層數後，自身攻擊力+[14.0%+7.0%×消耗層數]，小隊內其他幹員獲得一半的效果，持續20秒。同名效果無法疊加。",
+      "ja": "装備中、自身がクラッシュ段階を消費すると、20秒間自身の攻撃力+[14.0%+7.0%×消費した段階数]、チーム内の他のオペレーターにはその半分の効果が付与される 同名効果は重ね掛け不可",
+      "ko": "장착자가 방어 불능 스택 수치를 소모한 후, 자신의 공격력 +[14.0%+7.0%×소모 스택 수치], 팀 내 다른 오퍼레이터는 절반의 효과를 획득함, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
      },
      "mods": [
       {
@@ -3053,7 +3712,15 @@
       ]
      },
      "durS": 20,
-     "noStack": true
+     "noStack": true,
+     "label": {
+      "en": "Brutality: Disciplinarian (other operators)",
+      "es": "Brutalidad: Disciplinario (otros operadores)",
+      "zh": "残暴·规行矩止（其他干员）",
+      "zh-TW": "殘暴·規行矩止（其他幹員）",
+      "ja": "残虐・規則遵守（他のオペレーター）",
+      "ko": "잔혹 · 엄격한 규율 (다른 오퍼레이터)"
+     }
     }
    ]
   },
@@ -3069,6 +3736,7 @@
       "es": "Physical DMG Dealt +valor (término inicial de la pasiva, por nodo).",
       "en": "Physical DMG Dealt +value (leading term of the passive, by node).",
       "zh": "物理伤害 +数值（被动的首项，按节点）。",
+      "zh-TW": "物理傷害 +數值（被動的首項，按節點）。",
       "ja": "物理ダメージ ＋値（パッシブの主項、ノードごと）。",
       "ko": "물리 피해 +값(패시브의 주 항목, 노드별)."
      },
@@ -3100,6 +3768,7 @@
       "es": "Al aplicar Crush: Physical DMG +[base+per×stacks consumidos] 30s (no acumula). AI+84 al aplicar Phys Susceptibility: diferida.",
       "en": "On applying Crush: Physical DMG +[base+per×stacks consumed] 30s (non-stacking). AI+84 on Phys Susceptibility: deferred.",
       "zh": "施加猛击时：物理伤害 +[基础+每层×消耗层数]，30秒（不叠加）。物理脆弱时的源石技艺强度 +84：延后。",
+      "zh-TW": "施加猛擊時：物理傷害 +[基礎+每層×消耗層數]，30秒（不疊加）。物理脆弱時的源石技藝強度 +84：延後。",
       "ja": "猛撃を付与したとき：物理ダメージ +[基礎＋消費スタック×係数]、30秒（重複なし）。物理脆弱時のアーツ強度 +84は保留。",
       "ko": "강타를 적용할 때: 물리 피해 +[기본+소모 중첩×계수], 30초(중첩 없음). 물리 취약 시 오리지늄 아츠 강도 +84는 보류."
      },
@@ -3138,6 +3807,43 @@
      },
      "durS": 30,
      "noStack": true
+    },
+    {
+     "id": "amaranthine_phys_susc",
+     "src": "Combative: Amaranthine Cleave",
+     "target": "self",
+     "cond": {
+      "es": "Cuando el portador aplica Susceptibilidad física, obtiene Intensidad de artes +84 durante 20 s.",
+      "en": "When the wielder applies Physical Susceptibility, the wielder gains Arts Intensity +84 for 20s.",
+      "zh": "装备者施加物理脆弱时，源石技艺强度+84，持续20秒。",
+      "zh-TW": "裝備者施加物理脆弱時，源石技藝強度+84，持續20秒。",
+      "ja": "装備中、自身が敵に物理脆弱を付与するとき、20秒間アーツ強度+84",
+      "ko": "장착자가 물리 취약을 부여할 때, 오리지늄 아츠 강도 +84, 20초 동안 지속."
+     },
+     "trigger": {
+      "onApplyDebuff": {
+       "type": "enemySusc",
+       "element": "physical"
+      }
+     },
+     "durS": 20,
+     "noStack": true,
+     "mods": [
+      {
+       "type": "artsInt",
+       "byNode": [
+        30,
+        36,
+        42,
+        48,
+        54,
+        60,
+        66,
+        72,
+        84
+       ]
+      }
+     ]
     }
    ]
   },
@@ -3153,6 +3859,7 @@
       "es": "Arts Intensity +valor (término inicial de la pasiva, por nodo).",
       "en": "Arts Intensity +value (leading term of the passive, per node).",
       "zh": "源石技艺强度 +数值（被动的首项，按节点）。",
+      "zh-TW": "源石技藝強度 +數值（被動的首項，按節點）。",
       "ja": "アーツ強度 ＋値（パッシブの主項、ノードごと）。",
       "ko": "오리지늄 아츠 강도 +값(패시브의 주 항목, 노드별)."
      },
@@ -3183,6 +3890,7 @@
       "es": "Al consumir Vulnerability (Crush/Breach): Physical DMG +[per×stacks] 20s (no acumula).",
       "en": "On consuming Vulnerability (Crush/Breach): Physical DMG +[per×stacks] 20s (non-stacking).",
       "zh": "消耗破防（猛击/碎甲）时：物理伤害 +[每层×层数]，20秒（不叠加）。",
+      "zh-TW": "消耗破防（猛擊/碎甲）時：物理傷害 +[每層×層數]，20秒（不疊加）。",
       "ja": "クラッシュ（猛撃/破砕）を消費したとき：物理ダメージ +[係数×スタック]、20秒（重複なし）。",
       "ko": "방어 불능(강타/갑옷 파괴) 소모 시: 물리 피해 +[계수×중첩], 20초(중첩 없음)."
      },
@@ -3229,6 +3937,7 @@
       "es": "ATK +valor (término inicial de la pasiva, por nodo).",
       "en": "ATK +value (leading term of the passive, by node).",
       "zh": "攻击力 +数值（被动的首项，按节点）。",
+      "zh-TW": "攻擊力 +數值（被動的首項，按節點）。",
       "ja": "攻撃力 ＋値（パッシブの主項、ノードごと）。",
       "ko": "공격력 +값(패시브의 주 항목, 노드별)."
      },
@@ -3256,11 +3965,12 @@
      "src": "OBJ Velocitous",
      "target": "self",
      "cond": {
-      "es": "Al consumir una Arts Infliction (cualquier reacción Arts): Nature DMG +[per×stacks consumidos] 20s (no acumula).",
-      "en": "On consuming an Arts Infliction (any Arts reaction): Nature DMG +[per×stacks consumed] 20s (non-stacking).",
-      "zh": "消耗法术附着（任意法术异常）时：自然伤害 +[每层×消耗层数]，20秒（不叠加）。",
-      "ja": "アーツ付着（任意のアーツ異常）を消費したとき：自然ダメージ +[係数×消費スタック]、20秒（重複なし）。",
-      "ko": "아츠 부착(모든 아츠 이상) 소모 시: 자연 피해 +[계수×소모 중첩], 20초(중첩 없음)."
+      "es": "Al consumir una Arts Infliction: Nature DMG +[per×stacks consumidos] 20s (no acumula).",
+      "en": "On consuming an Arts Infliction: Nature DMG +[per×stacks consumed] 20s (non-stacking).",
+      "zh": "消耗法术附着时：自然伤害 +[每层×消耗层数]，20秒（不叠加）。",
+      "zh-TW": "消耗法術附著時：自然傷害 +[每層×消耗層數]，20秒（不疊加）。",
+      "ja": "アーツ付着を消費したとき：自然ダメージ +[係数×消費スタック]、20秒（重複なし）。",
+      "ko": "아츠 부착 소모 시: 자연 피해 +[계수×소모 중첩], 20초(중첩 없음)."
      },
      "mods": [
       {
@@ -3283,11 +3993,11 @@
       }
      ],
      "trigger": {
-      "onApplyReaction": [
-       "combustion",
-       "electrification",
-       "solidification",
-       "corrosion"
+      "onConsume": [
+       "heat_infl",
+       "electric_infl",
+       "cryo_infl",
+       "nature_infl"
       ]
      },
      "durS": 20,
@@ -3307,6 +4017,7 @@
       "es": "ATK +valor (término inicial de la pasiva, por nodo).",
       "en": "ATK +value (leading term of the passive, by node).",
       "zh": "攻击力 +数值（被动的首项，按节点）。",
+      "zh-TW": "攻擊力 +數值（被動的首項，按節點）。",
       "ja": "攻撃力 ＋値（パッシブの主項、ノードごと）。",
       "ko": "공격력 +값(패시브의 주 항목, 노드별)."
      },
@@ -3330,15 +4041,16 @@
      "replacesLeading": true
     },
     {
-     "id": "valiant_hit_vuln",
+     "id": "valiant_hit_physstatus",
      "src": "Valiant",
      "target": "self",
      "cond": {
-      "es": "Al aplicar un Physical Status (Vulnerability): golpe extra de X% ATK físico. Mismo set de eventos que Steel Oath.",
-      "en": "On applying a Physical Status (Vulnerability): extra hit of X% ATK Physical. Same event set as Steel Oath.",
-      "zh": "施加物理异常（破防）时：额外一击 X%攻击力的物理伤害。与「钢铁誓言」相同的事件集合。",
-      "ja": "物理異常（クラッシュ）を付与したとき：攻撃力 X%の物理の追加ヒット。「鋼の誓い」と同じイベント群。",
-      "ko": "물리 이상(방어 불능)를 적용할 때: 공격력 X%의 물리 추가 타격. 「강철의 맹세」와 같은 이벤트 집합."
+      "es": "Al aplicar un Estado físico (Levantar, Derribar, Triturar o Brecha; no cuenta la aplicación que solo deja Vulnerable al enemigo, sí la forzada): golpe extra de X% ATK físico, uno por estado.",
+      "en": "On applying a Physical Status (Lift, Knock Down, Crush or Breach; an application that only makes the enemy Vulnerable does not count, a forced one does): extra hit of X% ATK Physical, one per status.",
+      "zh": "造成物理异常后（击飞、倒地、猛击或碎甲；只让敌人进入破防状态的那次不计入，强制触发的计入）：额外造成自身攻击力X%的物理伤害，每次物理异常一次。",
+      "zh-TW": "造成物理異常後（擊飛、倒地、猛擊或碎甲；只讓敵人進入破防狀態的那次不計入，強制觸發的計入）：額外造成自身攻擊力X%的物理傷害，每次物理異常一次。",
+      "ja": "物理異常を発動させると（浮遊・転倒・猛撃・破砕。敵をクラッシュ状態にするだけの付与は数えず、強制的なものは数える）：追加で攻撃力X%分の物理ダメージ、物理異常1回につき1回。",
+      "ko": "물리 이상 효과를 준 후(띄우기·넘어뜨리기·강타·갑옷 파괴. 적을 방어 불능 상태로만 만드는 적용은 세지 않고, 강제 효과는 셈): 추가로 자신의 공격력 X%의 물리 피해, 물리 이상 1회마다 1회."
      },
      "mods": [
       {
@@ -3358,42 +4070,7 @@
       }
      ],
      "trigger": {
-      "onApplyInfliction": "vulnerability"
-     }
-    },
-    {
-     "id": "valiant_hit_physreact",
-     "src": "Valiant",
-     "target": "self",
-     "cond": {
-      "es": "Al aplicar un Physical Status (Crush/Breach): golpe extra de X% ATK físico. Mismo set de eventos que Steel Oath.",
-      "en": "On applying a Physical Status (Crush/Breach): extra hit of X% ATK Physical. Same event set as Steel Oath.",
-      "zh": "施加物理异常（猛击/碎甲）时：额外一击 X%攻击力的物理伤害。与「钢铁誓言」相同的事件集合。",
-      "ja": "物理異常（猛撃/破砕）を付与したとき：攻撃力 X%の物理の追加ヒット。「鋼の誓い」と同じイベント群。",
-      "ko": "물리 이상(강타/갑옷 파괴)를 적용할 때: 공격력 X%의 물리 추가 타격. 「강철의 맹세」와 같은 이벤트 집합."
-     },
-     "mods": [
-      {
-       "type": "addedHit",
-       "element": "physical",
-       "byNode": [
-        1.2,
-        1.44,
-        1.68,
-        1.92,
-        2.16,
-        2.4,
-        2.64,
-        2.88,
-        3.36
-       ]
-      }
-     ],
-     "trigger": {
-      "onApplyReaction": [
-       "crush",
-       "breach"
-      ]
+      "onApplyPhysStatus": true
      }
     }
    ]
@@ -3410,6 +4087,7 @@
       "es": "Critical Rate +valor (término inicial de la pasiva, por nodo).",
       "en": "Critical Rate +value (leading term of the passive, by node).",
       "zh": "暴击率 +数值（被动的首项，按节点）。",
+      "zh-TW": "暴擊率 +數值（被動的首項，按節點）。",
       "ja": "会心率 ＋値（パッシブの主項、ノードごと）。",
       "ko": "치명타 확률 +값(패시브의 주 항목, 노드별)."
      },
@@ -3437,11 +4115,12 @@
      "src": "Chimeric Justice",
      "target": "self",
      "cond": {
-      "es": "Al aplicar Vulnerability: ATK +valor 15s (no acumula). La precondición «enemigo sin stacks» no se gatea (aprox: cada apply).",
-      "en": "On applying Vulnerability: ATK +value 15s (non-stacking). The \"enemy with no stacks\" precondition is not gated (approx: every apply).",
-      "zh": "施加破防时：攻击力 +数值，15秒（不叠加）。「敌人无层数」的前提未做门控（近似：每次施加都算）。",
-      "ja": "クラッシュを付与したとき：攻撃力 ＋値、15秒（重複なし）。「スタックのない敵」の前提条件は判定していない（近似：付与のたびに）。",
-      "ko": "방어 불능을 적용할 때: 공격력 +값, 15초(중첩 없음). '중첩 없는 적' 전제 조건은 판정하지 않음(근사: 적용마다)."
+      "es": "Cuando el portador aplique Vulnerabilidad a un enemigo sin acumulaciones de Vulnerabilidad, el portador obtiene ATQ +42.0% durante 15 s. Los efectos con el mismo nombre no se acumulan.",
+      "en": "When the wielder applies Vulnerable to an enemy with no Vulnerable stacks, the wielder gains ATK +42.0% for 15s. Effects of the same name cannot stack.",
+      "zh": "装备者对没有破防层数的敌人施加破防时，获得攻击力+42.0%，持续15秒。同名效果无法叠加。",
+      "zh-TW": "裝備者對沒有破防層數的敵人施加破防時，獲得攻擊力+42.0%，持續15秒。同名效果無法疊加。",
+      "ja": "装備中、自身がクラッシュ状態でない敵にクラッシュを付与するとき、15秒間攻撃力+42.0% 同名効果は重ね掛け不可",
+      "ko": "장착자가 방어 불능 스택 수치가 쌓이지 않은 적에게 방어 불능을 부여할 때, 공격력 +42.0%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
      },
      "mods": [
       {
@@ -3460,7 +4139,8 @@
       }
      ],
      "trigger": {
-      "onApplyInfliction": "vulnerability"
+      "onApplyInfliction": "vulnerability",
+      "firstStack": true
      },
      "durS": 15,
      "noStack": true
@@ -3479,6 +4159,7 @@
       "es": "Arts Intensity +valor (término inicial de la pasiva, por nodo).",
       "en": "Arts Intensity +value (leading term of the passive, per node).",
       "zh": "源石技艺强度 +数值（被动的首项，按节点）。",
+      "zh-TW": "源石技藝強度 +數值（被動的首項，按節點）。",
       "ja": "アーツ強度 ＋値（パッシブの主項、ノードごと）。",
       "ko": "오리지늄 아츠 강도 +값(패시브의 주 항목, 노드별)."
      },
@@ -3506,11 +4187,12 @@
      "src": "Grand Vision",
      "target": "self",
      "cond": {
-      "es": "Al aplicar Solidification: Physical DMG en Battle/Ult por 20s (aproximación del «next cast»). Los Originium Crystals no están incluidos en el cálculo.",
-      "en": "On applying Solidification: Physical DMG on Battle/Ult for 20s (approximation of the \"next cast\"). Originium Crystals are not included in the calculation.",
-      "zh": "施加冻结时：战技/终结技的物理伤害提升，20秒（对「下一次施放」的近似）。源石结晶未计入计算。",
-      "ja": "凍結を付与したとき：戦技/必殺技の物理ダメージアップ、20秒（「次の発動」の近似）。オリジニウム結晶は計算に含めていない。",
-      "ko": "동결을 적용할 때: 배틀/궁극기의 물리 피해 증가, 20초('다음 사용'의 근사). 오리지늄 결정은 계산에 포함하지 않았습니다."
+      "es": "Cuando el portador aplica Cristales de Originio o Solidificación, durante el siguiente lanzamiento de habilidad de batalla o máxima en 20 s, el portador obtiene DAÑ físico infligido +100.8%. Los efectos con el mismo nombre no se pueden acumular.",
+      "en": "When the wielder applies Originium Crystals or Solidification, during the next battle skill or ultimate cast within 20s, the wielder gains Physical DMG Dealt +100.8%. Effects of the same name cannot stack.",
+      "zh": "装备者施加源石结晶或冻结时，20秒内的下次战技或终结技期间，造成的物理伤害+100.8%。同名效果无法叠加。",
+      "zh-TW": "裝備者施加源石結晶或凍結時，20秒內的下次戰技或終結技期間，造成的物理傷害+100.8%。同名效果無法疊加。",
+      "ja": "装備中、自身が敵に源石結晶または凍結を付与するとき、20秒以内に発動した次の戦技または必殺技の期間中、敵への物理ダメージ+100.8% 同名効果は重ね掛け不可",
+      "ko": "장착자가 적에게 오리지늄 결정 혹은 동결을 부여했을 때, 20초 내에 사용한 다음 배틀 스킬 혹은 궁극기의 지속 시간 동안 주는 물리 피해 +100.8%. 같은 이름의 효과는 중첩되지 않습니다."
      },
      "mods": [
       {
@@ -3547,7 +4229,18 @@
       }
      ],
      "trigger": {
-      "onApplyReaction": "solidification"
+      "onAny": [
+       {
+        "onApplyReaction": "solidification"
+       },
+       {
+        "onApplyMark": "originium"
+       }
+      ],
+      "untilNext": [
+       "battle",
+       "ult"
+      ]
      },
      "durS": 20,
      "noStack": true
@@ -3566,6 +4259,7 @@
       "es": "Ultimate DMG +valor (término inicial de la pasiva, por nodo).",
       "en": "Ultimate DMG +value (leading term of the passive, by node).",
       "zh": "终结技伤害 +数值（被动的首项，按节点）。",
+      "zh-TW": "終結技傷害 +數值（被動的首項，按節點）。",
       "ja": "必殺技ダメージ ＋値（パッシブの主項、ノードごと）。",
       "ko": "궁극기 피해 +값(패시브의 주 항목, 노드별)."
      },
@@ -3594,11 +4288,12 @@
      "src": "Aspirant",
      "target": "self",
      "cond": {
-      "es": "Al aplicar Lifted: Physical DMG en la próxima Ult por 30s (aproximado por ventana). Apila a 3.",
-      "en": "On applying Lifted: Physical DMG on the next Ultimate for 30s (window approximation). Stacks to 3.",
-      "zh": "施加击飞时：下一次终结技的物理伤害提升，30秒（窗口近似）。最多3层。",
-      "ja": "浮遊を付与したとき：次の必殺技の物理ダメージアップ、30秒（時間帯の近似）。最大3スタック。",
-      "ko": "띄우기를 적용할 때: 다음 궁극기의 물리 피해 증가, 30초(구간 근사). 최대 3중첩."
+      "es": "Después de que el portador aplica Levantar, durante el siguiente lanzamiento de máxima en un plazo de 30 s, el portador obtiene DAÑ físico infligido +33.6%. Acumulaciones Máx. por efectos con el mismo nombre: 3. La duración de cada acumulación se cuenta por separado. El efecto solo se activa una vez cada 0.5 s.",
+      "en": "After the wielder applies Lifted, during the next ultimate cast within 30s, the wielder gains Physical DMG Dealt +33.6%. Max stacks for effects of the same name: 3. Duration of each stack is counted separately. Effect only triggers once every 0.5s.",
+      "zh": "装备者造成击飞后，30秒内的下次终结技期间造成的物理伤害+33.6%。同名效果最多叠加3层，每层单独计算持续时间，每0.5秒最多触发一次。",
+      "zh-TW": "裝備者造成擊飛後，30秒內的下次終結技期間造成的物理傷害+33.6%。同名效果最多疊加3層，每層單獨計算持續時間，每0.5秒最多觸發一次。",
+      "ja": "装備中、自身が敵を浮遊させると、30秒以内に発動した次の必殺技の期間中、敵への物理ダメージ+33.6% 同名効果は3回まで重ね掛け可能 効果の持続時間は個別にカウントされ、0.5秒に1回まで発動可能",
+      "ko": "장착자가 적에게 띄우기 피해를 준 후, 30초 내에 사용한 다음 궁극기의 지속 시간 동안 주는 물리 피해 +33.6% 같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.5초마다 최대 1회만 발동합니다."
      },
      "mods": [
       {
@@ -3619,8 +4314,10 @@
       }
      ],
      "trigger": {
-      "onApplyCC": "lift",
-      "maxStacks": 3
+      "onApplyPhysStatus": "lift",
+      "maxStacks": 3,
+      "cooldownS": 0.5,
+      "untilNext": "ult"
      },
      "durS": 30
     }
@@ -3638,6 +4335,7 @@
       "es": "Contra enemigos con Vulnerability: DMG +valor (todo elemento), por nodo.",
       "en": "Against Vulnerability enemies: DMG +value (all elements), by node.",
       "zh": "对破防敌人：伤害 +数值（全属性），按节点。",
+      "zh-TW": "對破防敵人：傷害 +數值（全屬性），按節點。",
       "ja": "クラッシュ状態の敵に対して：与ダメージ ＋値（全属性）、ノードごと。",
       "ko": "방어 불능 상태의 적에게: 피해 +값(모든 속성), 노드별."
      },
@@ -3660,18 +4358,93 @@
      "whenState": "vulnerability"
     },
     {
-     "id": "mountain_bearer_attr",
+     "id": "mountain_bearer_attr_vuln",
      "src": "Mountain Bearer",
      "target": "self",
-     "pendingModel": "All Attributes +% por 15s al aplicar Vulnerability/Phys Susceptibility con la battle skill: buff de ATRIBUTOS disparado — laneStats es estático (los atributos no cambian a mitad de rotación) → diferido",
      "cond": {
-      "es": "Battle aplica Vulnerability o Phys Susceptibility: All Attributes +% 15s (×2 stacks) — diferido (atributos dinámicos).",
-      "en": "Battle applies Vulnerability or Phys Susceptibility: All Attributes +% 15s (×2 stacks) — deferred (dynamic attributes).",
-      "zh": "战技施加破防或物理脆弱时：全属性 +%，15秒（×2层）——延后（动态属性）。",
-      "ja": "戦技がクラッシュまたは物理脆弱を付与したとき：全ステータス +%、15秒（×2スタック）。保留（動的なステータス）。",
-      "ko": "배틀 스킬이 방어 불능이나 물리 취약을 적용할 때: 모든 속성 +%, 15초(×2중첩) — 보류(동적 속성)."
+      "es": "Cuando la habilidad de batalla del portador aplique Vulnerabilidad, el portador obtiene todos los atributos +22.4% durante 15s. Ambos efectos se aplican por separado y no se acumulan entre sí.",
+      "en": "When the wielder's battle skill applies Vulnerability, the wielder gains All Attributes +22.4% for 15s. The two effects apply separately and do not stack with themselves.",
+      "zh": "装备者通过自身战技施加破防时，获得全能力+22.4%，持续15秒。两种效果独立生效，且均无法叠加。",
+      "zh-TW": "裝備者透過自身戰技施加破防時，獲得全能力+22.4%，持續15秒。兩種效果獨立生效，且均無法疊加。",
+      "ja": "装備中、自身の戦技でクラッシュを付与するとき、15秒間すべての能力値+22.4% 2つの効果はそれぞれ存在し、重ね掛け不可",
+      "ko": "장착자가 자신의 배틀 스킬로 방어 불능 상태를 부여할 때, 모든 능력치 +22.4%, 15초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다."
      },
-     "mods": []
+     "trigger": {
+      "onApplyInfliction": "vulnerability",
+      "slot": "battle"
+     },
+     "durS": 15,
+     "noStack": true,
+     "mods": [
+      {
+       "type": "attrPctAll",
+       "byNode": [
+        0.08,
+        0.096,
+        0.112,
+        0.128,
+        0.144,
+        0.16,
+        0.176,
+        0.192,
+        0.224
+       ]
+      }
+     ],
+     "label": {
+      "en": "Efficacy: Weight of Mountain (Vulnerability)",
+      "es": "Eficacia: el peso de la montaña (Vulnerabilidad)",
+      "zh": "效益·山川在我（破防）",
+      "zh-TW": "效益·山川在我（破防）",
+      "ja": "効率・山河在り（クラッシュ）",
+      "ko": "효율 · 하나 되는 자연 (방어 불능)"
+     }
+    },
+    {
+     "id": "mountain_bearer_attr_susc",
+     "src": "Mountain Bearer",
+     "target": "self",
+     "cond": {
+      "es": "Después de que la habilidad de batalla del portador aplique Susceptibilidad física, el portador obtiene todos los atributos +22.4% durante 15 s. Ambos efectos se aplican por separado y no se acumulan entre sí.",
+      "en": "When the wielder's battle skill applies Physical Susceptibility, the wielder gains all attributes +22.4% for 15s. The two effects apply separately and do not stack with themselves.",
+      "zh": "装备者通过自身战技施加物理脆弱时，获得全能力+22.4%，持续15秒。两种效果独立生效，且均无法叠加。",
+      "zh-TW": "裝備者透過自身戰技施加物理脆弱時，獲得全能力+22.4%，持續15秒。兩種效果獨立生效，且均無法疊加。",
+      "ja": "自身の戦技で物理脆弱を付与するとき、15秒間すべての能力値+22.4% 2つの効果はそれぞれ存在し、重ね掛け不可",
+      "ko": "장착자가 자신의 배틀 스킬로 물리 취약 상태를 부여할 때, 모든 능력치 +22.4%, 15초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다."
+     },
+     "trigger": {
+      "onApplyDebuff": {
+       "type": "enemySusc",
+       "element": "physical"
+      },
+      "slot": "battle"
+     },
+     "durS": 15,
+     "noStack": true,
+     "mods": [
+      {
+       "type": "attrPctAll",
+       "byNode": [
+        0.08,
+        0.096,
+        0.112,
+        0.128,
+        0.144,
+        0.16,
+        0.176,
+        0.192,
+        0.224
+       ]
+      }
+     ],
+     "label": {
+      "en": "Efficacy: Weight of Mountain (Physical Susceptibility)",
+      "es": "Eficacia: el peso de la montaña (Susceptibilidad física)",
+      "zh": "效益·山川在我（物理脆弱）",
+      "zh-TW": "效益·山川在我（物理脆弱）",
+      "ja": "効率・山河在り（物理脆弱）",
+      "ko": "효율 · 하나 되는 자연 (물리 취약)"
+     }
     }
    ]
   },
@@ -3687,6 +4460,7 @@
       "es": "Cryo DMG +valor (término inicial de la pasiva, por nodo).",
       "en": "Cryo DMG +value (leading term of the passive, by node).",
       "zh": "寒冷伤害 +数值（被动的首项，按节点）。",
+      "zh-TW": "寒冷傷害 +數值（被動的首項，按節點）。",
       "ja": "寒冷ダメージ ＋値（パッシブの主項、ノードごと）。",
       "ko": "냉기 피해 +값(패시브의 주 항목, 노드별)."
      },
@@ -3712,15 +4486,27 @@
     },
     {
      "id": "artzy_oncrit",
-     "src": "Artzy Tyrannical (on-crit)",
+     "src": "Artzy Tyrannical",
      "target": "self",
-     "pendingModel": "on-crit probabilístico (crítico con Battle/Combo) — NO derivable de un timeline ideal → toggle-solo del calc de Daño, inerte en la Rotación a propósito (misma clase que Wolven Blood)",
+     "trigger": {
+      "onCastSlot": [
+       "battle",
+       "combo"
+      ],
+      "perHit": true,
+      "chance": {
+       "crit": true
+      },
+      "maxStacks": 3,
+      "cooldownS": 0.1
+     },
      "cond": {
-      "es": "Tras crítico con Battle/Combo: Cryo DMG +valor 30s (máx 3 stacks) — toggle, no simulado.",
-      "en": "After a crit with Battle/Combo: Cryo DMG +value 30s (max 3 stacks) — toggle, not simulated.",
-      "zh": "战技/连携暴击后：寒冷伤害 +数值，30秒（最多3层）——开关，不做模拟。",
-      "ja": "戦技/連携で会心した後：寒冷ダメージ ＋値、30秒（最大3スタック）。切り替え式で、シミュレーションはしない。",
-      "ko": "배틀/연계로 치명타 후: 냉기 피해 +값, 30초(최대 3중첩) — 토글이며 시뮬레이션하지 않음."
+      "es": "Después de que el portador consigue un golpe crítico con una habilidad de batalla o una habilidad de combo, el portador obtiene DAÑ criogénico infligido +39.2% durante 30 s. Acumulaciones Máx. para efectos con el mismo nombre: 3. La duración de cada acumulación se cuenta por separado. El efecto solo se activa una vez cada 0.1 s.",
+      "en": "After the wielder scores a critical hit with a battle skill or combo skill, the wielder gains Cryo DMG Dealt +39.2% for 30s. Max stacks for effects of the same name: 3. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+      "zh": "装备者的战技或连携技造成暴击伤害后，寒冷伤害+39.2%，持续30秒。同名效果最多叠加3层，每层单独计算持续时间，每0.1秒最多触发一次。",
+      "zh-TW": "裝備者的戰技或連攜技造成暴擊傷害後，寒冷傷害+39.2%，持續30秒。同名效果最多疊加3層，每層單獨計算持續時間，每0.1秒最多觸發一次。",
+      "ja": "装備中、自身の戦技または連携技で会心ダメージが発生すると、30秒間寒冷ダメージ+39.2% 同名効果は3回まで重ね掛け可能 効果の持続時間は個別にカウントされ、0.1秒に1回まで発動可能",
+      "ko": "장착자의 배틀 스킬 혹은 연계 스킬이 적에게 치명타 피해를 준 후, 냉기 피해 +39.2%, 30초 동안 지속. 같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다."
      },
      "mods": [
       {
@@ -3744,9 +4530,11 @@
       "en": "Fracture: Artzy Exaggeration (on crit)",
       "es": "Fractura: Exageración artística (al criticar)",
       "zh": "切骨·艺术暴论（暴击时）",
+      "zh-TW": "切骨·藝術暴論（暴擊時）",
       "ja": "切骨・芸術暴論（会心時）",
       "ko": "골절 · 예술적 폭론 (치명타 시)"
-     }
+     },
+     "assumeIdeal": "valor esperado: cada golpe de la battle o el combo sale con su probabilidad de crítico vigente (la del golpe más los buffs de crítico de ese instante); el tope de 3 acumulaciones con la distribución exacta de los disparos vigentes"
     }
    ]
   },
@@ -3762,6 +4550,7 @@
       "es": "ATK +valor (término inicial de la pasiva, por nodo).",
       "en": "ATK +value (leading term of the passive, by node).",
       "zh": "攻击力 +数值（被动的首项，按节点）。",
+      "zh-TW": "攻擊力 +數值（被動的首項，按節點）。",
       "ja": "攻撃力 ＋値（パッシブの主項、ノードごと）。",
       "ko": "공격력 +값(패시브의 주 항목, 노드별)."
      },
@@ -3789,11 +4578,12 @@
      "src": "Flickers in the Mist",
      "target": "self",
      "cond": {
-      "es": "Al recibir Electric Amp: Electric DMG +valor por 30s (máx 3; el cálculo cuenta por lo bajo).",
-      "en": "On gaining Electric Amp: Electric DMG +value for 30s (max 3; the calculation under-counts).",
-      "zh": "获得电磁增幅时：电磁伤害 +数值，30秒（最多3层；计算有所低估）。",
-      "ja": "電磁増幅を得たとき：電磁ダメージ ＋値、30秒（最大3。計算では少なめに数えている）。",
-      "ko": "전기 증폭을 얻을 때: 전기 피해 +값, 30초(최대 3, 계산은 적게 셉니다)."
+      "es": "Al recibir Electric Amp: Electric DMG +valor por 30s (máx 3, duración por separado).",
+      "en": "On gaining Electric Amp: Electric DMG +value for 30s (max 3, durations counted separately).",
+      "zh": "获得电磁增幅时：电磁伤害 +数值，30秒（最多3层，分别计时）。",
+      "zh-TW": "獲得電磁增幅時：電磁傷害 +數值，30秒（最多3層，分別計時）。",
+      "ja": "電磁増幅を得たとき：電磁ダメージ ＋値、30秒（最大3、個別計時）。",
+      "ko": "전기 증폭을 얻을 때: 전기 피해 +값, 30초(최대 3, 별도 계시)."
      },
      "mods": [
       {
@@ -3816,10 +4606,11 @@
       "onGainBuff": {
        "type": "dmgAmp",
        "element": "electric"
-      }
+      },
+      "maxStacks": 3,
+      "cooldownS": 0.1
      },
-     "durS": 30,
-     "noStack": true
+     "durS": 30
     }
    ]
   },
@@ -3835,6 +4626,7 @@
       "es": "Al curar con una skill propia: TODO el equipo gana ATK +valor por 15s (no acumula). La Treatment Efficiency queda fuera del cálculo de daño.",
       "en": "On healing with an own skill: the WHOLE team gains ATK +value for 15s (non-stacking). Treatment Efficiency is not part of the damage calculation.",
       "zh": "用自身技能治疗时：全队攻击力 +数值，15秒（不叠加）。治疗效率不参与伤害计算。",
+      "zh-TW": "用自身技能治療時：全隊攻擊力 +數值，15秒（不疊加）。治療效率不參與傷害計算。",
       "ja": "自身のスキルで回復したとき：チーム全員の攻撃力 ＋値、15秒（重複なし）。回復効率はダメージ計算に含まれない。",
       "ko": "자신의 스킬로 치유할 때: 팀 전체 공격력 +값, 15초(중첩 없음). 치유 효율은 피해 계산에 포함되지 않습니다."
      },
@@ -3874,6 +4666,7 @@
       "es": "Arts Intensity +valor por nodo (segunda parte de la pasiva). El atributo principal inicial entra fijo.",
       "en": "Arts Intensity +value per node (the passive's second term). The leading Main Attribute enters as a fixed value.",
       "zh": "按节点的源石技艺强度 +数值（被动的第二项）。首项的主属性作为固定值计入。",
+      "zh-TW": "按節點的源石技藝強度 +數值（被動的第二項）。首項的主屬性作為固定值計入。",
       "ja": "ノードごとのアーツ強度 ＋値（パッシブの2項目）。主項のメイン属性は固定値として入る。",
       "ko": "노드별 오리지늄 아츠 강도 +값(패시브의 두 번째 항목). 주 항목의 메인 속성은 고정값으로 들어갑니다."
      },
@@ -3925,14 +4718,6 @@
   "Type 42: Solemn Phalanx": {
    "operator": "arcane",
    "passive": "Detonate: Debilitating Assault",
-   "leadingAtkByDupe": [
-    25.6,
-    28.8,
-    32,
-    35.2,
-    38.4,
-    44.8
-   ],
    "buffs": [
     {
      "id": "t42_int_artsdmg",
@@ -3943,6 +4728,7 @@
       "es": "INT ≥ Will: al aplicar Arts Infliction con skill propia, el portador gana Arts DMG Dealt +% por 20s (no acumula).",
       "en": "INT ≥ Will: on applying Arts Infliction with own skill, the wielder gains Arts DMG Dealt +% for 20s (non-stacking).",
       "zh": "智识 ≥ 意志：用自身技能施加法术附着时，持有者获得法术伤害 +%，20秒（不叠加）。",
+      "zh-TW": "智識 ≥ 意志：用自身技能施加法術附著時，持有者獲得法術傷害 +%，20秒（不疊加）。",
       "ja": "知性 ≥ 意志：自身のスキルでアーツ付着を付与したとき、装備者はアーツダメージ +%を20秒間得る（重複なし）。",
       "ko": "지능 ≥ 의지: 자신의 스킬로 아츠 부착을 적용할 때 장착자가 아츠 피해 +%를 20초 동안 얻음(중첩 없음)."
      },
@@ -3972,6 +4758,7 @@
       "en": "Detonate: Debilitating Assault — Arts Infliction (INT)",
       "es": "Detonación: Asalto debilitante — Arts Infliction (INT)",
       "zh": "迸发·陷坚挫锐 — 法术附着（智识）",
+      "zh-TW": "迸發·陷堅挫銳 — 法術附著（智識）",
       "ja": "噴発・堅陣破り — アーツ付着（知性）",
       "ko": "방출 · 철벽 돌파 — 아츠 부착 (지능)"
      }
@@ -3981,11 +4768,11 @@
      "src": "Detonate — Arts Susceptibility (INT)",
      "target": "self",
      "mode": "int",
-     "pendingModel": "trigger 'al aplicar Arts Susceptibility' no existe en el vocabulario del sim (Arcane INT la aplica con el combo) → toggle del calc por ahora.",
      "cond": {
       "es": "INT ≥ Will: al aplicar Arts Susceptibility con skill propia, el portador gana ATK +% por 20s (no acumula).",
       "en": "INT ≥ Will: on applying Arts Susceptibility with own skill, the wielder gains ATK +% for 20s (non-stacking).",
       "zh": "智识 ≥ 意志：用自身技能施加法术脆弱时，持有者获得攻击力 +%，20秒（不叠加）。",
+      "zh-TW": "智識 ≥ 意志：用自身技能施加法術脆弱時，持有者獲得攻擊力 +%，20秒（不疊加）。",
       "ja": "知性 ≥ 意志：自身のスキルでアーツ脆弱を付与したとき、装備者は攻撃力 +%を20秒間得る（重複なし）。",
       "ko": "지능 ≥ 의지: 자신의 스킬로 아츠 취약을 적용할 때 장착자가 공격력 +%를 20초 동안 얻음(중첩 없음)."
      },
@@ -4011,8 +4798,15 @@
       "en": "Detonate: Debilitating Assault — Arts Susceptibility (INT)",
       "es": "Detonación: Asalto debilitante — Arts Susceptibility (INT)",
       "zh": "迸发·陷坚挫锐 — 法术脆弱（智识）",
+      "zh-TW": "迸發·陷堅挫銳 — 法術脆弱（智識）",
       "ja": "噴発・堅陣破り — アーツ脆弱（知性）",
       "ko": "방출 · 철벽 돌파 — 아츠 취약 (지능)"
+     },
+     "trigger": {
+      "onApplyDebuff": {
+       "type": "enemySusc",
+       "element": "arts"
+      }
      }
     },
     {
@@ -4024,6 +4818,7 @@
       "es": "Will > INT: al aplicar Arts Burst O Arts Susceptibility con skill propia, el enemigo recibe +Arts DMG por 25s (no acumula; una sola instancia aunque disparen ambas rutas).",
       "en": "Will > INT: on applying Arts Burst OR Arts Susceptibility with own skill, the enemy takes +Arts DMG for 25s (non-stacking; single instance even if both routes trigger).",
       "zh": "意志 > 智识：用自身技能施加法术爆发或法术脆弱时，敌人受到的法术伤害提升，25秒（不叠加；两条路径都触发也只有一个实例）。",
+      "zh-TW": "意志 > 智識：用自身技能施加法術爆發或法術脆弱時，敵人受到的法術傷害提升，25秒（不疊加；兩條路徑都觸發也只有一個實例）。",
       "ja": "意志 > 知性：自身のスキルでアーツ爆発またはアーツ脆弱を付与したとき、敵の受けるアーツダメージがアップ、25秒（重複なし。両方の経路で発動しても1つだけ）。",
       "ko": "의지 > 지능: 자신의 스킬로 아츠 폭발이나 아츠 취약을 적용할 때 적이 받는 아츠 피해 증가, 25초(중첩 없음, 두 경로가 모두 발동해도 하나만)."
      },
@@ -4045,7 +4840,17 @@
       }
      ],
      "trigger": {
-      "onApplyReaction": "burst"
+      "onAny": [
+       {
+        "onApplyReaction": "burst"
+       },
+       {
+        "onApplyDebuff": {
+         "type": "enemySusc",
+         "element": "arts"
+        }
+       }
+      ]
      },
      "durS": 25,
      "noStack": true,
@@ -4053,6 +4858,7 @@
       "en": "Detonate: Debilitating Assault — Arts DMG taken (WILL)",
       "es": "Detonación: Asalto debilitante — Arts DMG recibido (WILL)",
       "zh": "迸发·陷坚挫锐 — 承受法术伤害（意志）",
+      "zh-TW": "迸發·陷堅挫銳 — 承受法術傷害（意志）",
       "ja": "噴発・堅陣破り — 被アーツダメージ（意志）",
       "ko": "방출 · 철벽 돌파 — 받는 아츠 피해 (의지)"
      }
@@ -4072,6 +4878,7 @@
       "es": "Nature DMG Dealt permanente de la pasiva (escala por nodo de esencia).",
       "en": "Permanent Nature DMG Dealt from the passive (scales per essence node).",
       "zh": "被动提供的永久自然伤害（随基质节点成长）。",
+      "zh-TW": "被動提供的永久自然傷害（隨基質節點成長）。",
       "ja": "パッシブによる永続の自然ダメージ（基質ノードでスケール）。",
       "ko": "패시브의 영구 자연 피해(기질 노드에 따라 증가)."
      },
@@ -4096,23 +4903,23 @@
       "en": "Efficacy: Feedback Loop — Nature DMG (permanent)",
       "es": "Eficacia: Bucle de retroalimentación — Nature DMG (permanente)",
       "zh": "效益·回环 — 自然伤害（常驻）",
+      "zh-TW": "效益·回環 — 自然傷害（常駐）",
       "ja": "効率・回環 — 自然ダメージ（常時）",
       "ko": "효율 · 순환 — 자연 피해 (상시)"
      }
     },
     {
      "id": "jp_feedback_team",
-     "src": "Feedback Loop — combo aplica Susc/Infliction (team)",
-     "target": "team",
-     "anchor": "combo_skill",
+     "src": "Junction Point",
+     "target": "allies",
      "durS": 20,
-     "noStack": true,
      "cond": {
-      "es": "Al aplicar Arts Susceptibility o Arts Infliction con la combo skill: el equipo gana ATK +% por 20s. En el juego apila hasta 2 (duración separada); el cálculo cuenta 1 stack.",
-      "en": "On applying Arts Susceptibility or Arts Infliction with the combo skill: the team gains ATK +% for 20s. In the game it stacks to 2 (separate durations); the calculation counts 1 stack.",
-      "zh": "用连携技施加法术脆弱或法术附着时：全队攻击力 +%，20秒。游戏中可叠2层（分别计时）；计算按1层计。",
-      "ja": "連携技でアーツ脆弱またはアーツ付着を付与したとき：チームの攻撃力 +%、20秒。ゲームでは2スタックまで（個別計時）、計算では1スタックとして数える。",
-      "ko": "연계 스킬로 아츠 취약이나 아츠 부착을 적용할 때: 팀 공격력 +%, 20초. 게임에서는 2중첩(별도 계시), 계산은 1중첩으로 셉니다."
+      "es": "Cuando el portador aplica Susceptibilidad a Artes o Imposición de artes con una habilidad de combo, el portador obtiene ATQ +16.8%, mientras que los otros operadores en el equipo obtienen ATQ +4.2%. Duración: 20 s. Acumulaciones Máx. por efectos con el mismo nombre: 2. La duración de cada acumulación se cuenta por separado.",
+      "en": "When the wielder applies Arts Susceptibility or Arts Infliction with a combo skill, the wielder gains ATK +16.8% while other operators in the team gain ATK +4.2%. Duration: 20s. Max stacks for effects of the same name: 2. Duration of each stack is counted separately.",
+      "zh": "装备者通过连携技施加法术脆弱或法术附着时，攻击力+16.8%，小队内其他干员攻击力+4.2%，持续20秒。同名效果最多叠加2层，每层单独计算持续时间。",
+      "zh-TW": "裝備者透過連攜技施加法術脆弱或法術附著時，攻擊力+16.8%，小隊內其他幹員攻擊力+4.2%，持續20秒。同名效果最多疊加2層，每層單獨計算持續時間。",
+      "ja": "装備中、自身の連携技でアーツ脆弱またはアーツ付着を付与するとき、20秒間攻撃力+16.8%、チーム内の他のオペレーターの攻撃力+4.2% 同名効果は2回まで重ね掛け可能 効果の持続時間は個別にカウントされる",
+      "ko": "장착자가 연계 스킬로 아츠 취약 또는 아츠 부착을 부여하면 공격력 +16.8%, 팀 내 기타 오퍼레이터의 공격력 +4.2%, 20초 동안 지속됩니다. 같은 이름의 효과는 최대 2스택까지 중첩되며, 각 스택의 지속 시간은 독립적으로 계산됩니다."
      },
      "mods": [
       {
@@ -4131,49 +4938,80 @@
       }
      ],
      "label": {
-      "en": "Efficacy: Feedback Loop — combo applies Susceptibility/Infliction (team)",
-      "es": "Eficacia: Bucle de retroalimentación — el combo aplica Susceptibility/Infliction (equipo)",
-      "zh": "效益·回环 — 连携技施加脆弱/附着（队伍）",
-      "ja": "効率・回環 — 連携技で脆弱/付着を付与（チーム）",
-      "ko": "효율 · 순환 — 연계 스킬로 취약/부착 부여 (팀)"
+      "en": "Efficacy: Feedback Loop (other operators)",
+      "es": "Eficacia: Bucle de retroalimentación (otros operadores)",
+      "zh": "效益·回环（其他干员）",
+      "zh-TW": "效益·回環（其他幹員）",
+      "ja": "効率・回環（他のオペレーター）",
+      "ko": "효율 · 순환 (다른 오퍼레이터)"
+     },
+     "trigger": {
+      "onAny": [
+       {
+        "onApplyInfliction": "arts"
+       },
+       {
+        "onApplyDebuff": {
+         "type": "enemySusc",
+         "element": "arts"
+        }
+       }
+      ],
+      "slot": "combo",
+      "maxStacks": 2
      }
     },
     {
      "id": "jp_feedback_self",
-     "src": "Feedback Loop — combo aplica Susc/Infliction (holder extra)",
+     "src": "Junction Point",
      "target": "self",
-     "anchor": "combo_skill",
      "durS": 20,
-     "noStack": true,
      "cond": {
-      "es": "El portador gana el ATK completo del texto: este buff aporta el EXTRA sobre la parte de equipo (propio + equipo = total). 20s; el cálculo cuenta 1 stack.",
-      "en": "The wielder gains the full ATK of the text: this buff carries the EXTRA over the team share (self + team = total). 20s; the calculation counts 1 stack.",
-      "zh": "持有者获得文本中的全部攻击力：此增益承载超出队伍份额的部分（自身 + 队伍 = 总量）。20秒；计算按1层计。",
-      "ja": "装備者はテキスト通りの攻撃力を全額得る。このバフはチーム分を超える追加分を担う（自身＋チーム＝合計）。20秒、計算では1スタック。",
-      "ko": "장착자는 텍스트의 공격력을 전부 얻습니다. 이 버프는 팀 몫을 넘는 추가분을 담당합니다(자신 + 팀 = 합계). 20초, 계산은 1중첩."
+      "es": "Cuando el portador aplica Susceptibilidad a Artes o Imposición de artes con una habilidad de combo, el portador obtiene ATQ +16.8%, mientras que los otros operadores en el equipo obtienen ATQ +4.2%. Duración: 20 s. Acumulaciones Máx. por efectos con el mismo nombre: 2. La duración de cada acumulación se cuenta por separado.",
+      "en": "When the wielder applies Arts Susceptibility or Arts Infliction with a combo skill, the wielder gains ATK +16.8% while other operators in the team gain ATK +4.2%. Duration: 20s. Max stacks for effects of the same name: 2. Duration of each stack is counted separately.",
+      "zh": "装备者通过连携技施加法术脆弱或法术附着时，攻击力+16.8%，小队内其他干员攻击力+4.2%，持续20秒。同名效果最多叠加2层，每层单独计算持续时间。",
+      "zh-TW": "裝備者透過連攜技施加法術脆弱或法術附著時，攻擊力+16.8%，小隊內其他幹員攻擊力+4.2%，持續20秒。同名效果最多疊加2層，每層單獨計算持續時間。",
+      "ja": "装備中、自身の連携技でアーツ脆弱またはアーツ付着を付与するとき、20秒間攻撃力+16.8%、チーム内の他のオペレーターの攻撃力+4.2% 同名効果は2回まで重ね掛け可能 効果の持続時間は個別にカウントされる",
+      "ko": "장착자가 연계 스킬로 아츠 취약 또는 아츠 부착을 부여하면 공격력 +16.8%, 팀 내 기타 오퍼레이터의 공격력 +4.2%, 20초 동안 지속됩니다. 같은 이름의 효과는 최대 2스택까지 중첩되며, 각 스택의 지속 시간은 독립적으로 계산됩니다."
      },
      "mods": [
       {
        "type": "atkPct",
        "byNode": [
-        0.045,
-        0.054,
-        0.063,
+        0.06,
         0.072,
-        0.081,
-        0.09,
-        0.099,
+        0.084,
+        0.096,
         0.108,
-        0.126
+        0.12,
+        0.132,
+        0.144,
+        0.168
        ]
       }
      ],
      "label": {
-      "en": "Efficacy: Feedback Loop — combo applies Susceptibility/Infliction (wielder extra)",
-      "es": "Eficacia: Bucle de retroalimentación — el combo aplica Susceptibility/Infliction (extra del portador)",
-      "zh": "效益·回环 — 连携技施加脆弱/附着（持有者额外）",
-      "ja": "効率・回環 — 連携技で脆弱/付着を付与（装備者追加）",
-      "ko": "효율 · 순환 — 연계 스킬로 취약/부착 부여 (착용자 추가)"
+      "en": "Efficacy: Feedback Loop (wielder)",
+      "es": "Eficacia: Bucle de retroalimentación (portador)",
+      "zh": "效益·回环（装备者）",
+      "zh-TW": "效益·回環（裝備者）",
+      "ja": "効率・回環（自身）",
+      "ko": "효율 · 순환 (장착자)"
+     },
+     "trigger": {
+      "onAny": [
+       {
+        "onApplyInfliction": "arts"
+       },
+       {
+        "onApplyDebuff": {
+         "type": "enemySusc",
+         "element": "arts"
+        }
+       }
+      ],
+      "slot": "combo",
+      "maxStacks": 2
      }
     }
    ]
@@ -4187,13 +5025,16 @@
      "target": "team",
      "durS": 20,
      "noStack": true,
-     "pendingModel": "ventana al ENTRAR en combate — sin vocabulario de inicio-de-combate en el sim (anchors: battle/combo/ult) → toggle-solo del calc de Daño. La Arts Intensity +28 de la ventana tampoco es representable (artsInt es permanent-only, misma limitación que Amaranthine/White Night Nova).",
      "cond": {
-      "es": "Al entrar en combate: el equipo gana DMG Dealt +%, Arts Intensity (+10..28, no incluida en el cálculo) y DEF +% por 20s; al expirar cura 122 HP al equipo (la DEF y la cura quedan fuera del cálculo de daño). No acumula.",
-      "en": "On entering battle: the team gains DMG Dealt +%, Arts Intensity (+10..28, not included in the calculation) and DEF +% for 20s; on expiry it restores 122 HP to the team (DEF and the heal are outside the damage calculation). Non-stacking.",
-      "zh": "进入战斗时：全队获得伤害 +%、源石技艺强度（+10..28，未计入计算）和防御 +%，20秒；结束时为队伍回复122 HP（防御和治疗在伤害计算之外）。不叠加。",
-      "ja": "戦闘開始時：チームは与ダメージ +%、アーツ強度（+10〜28、計算には含めない）、防御 +%を20秒間得る。終了時にチームの HP を122回復（防御と回復はダメージ計算外）。重複なし。",
-      "ko": "전투 시작 시: 팀이 피해 +%, 오리지늄 아츠 강도(+10..28, 계산에 포함하지 않음), 방어 +%를 20초 동안 얻음. 종료 시 팀 HP 122회복(방어와 치유는 피해 계산 밖). 중첩 없음."
+      "es": "Al entrar en batalla, todo el equipo obtiene la mejora Lucha por un sueño, que otorga DAÑ infligido +14.0%, Intensidad de artes +28 y DEF +8.4% durante 20 s. Cuando termina Lucha por un sueño, el portador restaura 122 PV a todo el equipo. Los efectos con el mismo nombre no se pueden acumular.",
+      "en": "When entering battle, the entire team gains the Dream Striving buff that grants DMG Dealt +14%, Arts Intensity +28, and DEF +8.4% for 20s. When Dream Striving ends, the wielder restores the entire team for 122 HP. Effects of the same name cannot stack.",
+      "zh": "当队伍进入战斗时，全队获得憧憬，造成的伤害+14.0%，源石技艺强度+28，防御力+8.4%，持续20秒；憧憬结束时，装备者为全队回复122点生命值。同名效果无法叠加。",
+      "zh-TW": "當隊伍進入戰鬥時，全隊獲得憧憬，造成的傷害+14.0%，源石技藝強度+28，防禦力+8.4%，持續20秒；憧憬結束時，裝備者為全隊回復122點生命值。同名效果無法疊加。",
+      "ja": "チームが戦闘に入るとき、チーム全員が憧憬を獲得し、20秒間与えるダメージ+14.0%、アーツ強度+28、防御力+8.4% 憧憬終了時、自身がチーム全員のHPを122回復する 同名効果は重ね掛け不可",
+      "ko": "주는 피해 +14.0%, 오리지늄 아츠 강도 +28, 방어력 +8.4%, 20초 동안 지속. 동경 종료 시, 장착자가 팀 전체에게 생명력 122포인트를 회복시킵니다. 같은 이름의 효과는 중첩되지 않습니다."
+     },
+     "trigger": {
+      "onCombatStart": true
      },
      "mods": [
       {
@@ -4209,12 +5050,27 @@
         0.12,
         0.14
        ]
+      },
+      {
+       "type": "artsInt",
+       "byNode": [
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        28
+       ]
       }
      ],
      "label": {
       "en": "Assault: Vision for Tomorrow (combat start)",
       "es": "Asalto: Visión del mañana (inicio de combate)",
       "zh": "强攻·明日之愿（战斗开始）",
+      "zh-TW": "強攻·明日之願（戰鬥開始）",
       "ja": "強攻・明日への祈り（戦闘開始時）",
       "ko": "강공 · 내일의 희망 (전투 시작)"
      }
@@ -4234,6 +5090,7 @@
       "es": "Arts DMG Dealt permanente de la pasiva (escala por nodo de esencia; a nodo máximo +44.8%).",
       "en": "Permanent Arts DMG Dealt from the passive (scales per essence node; +44.8% at max node).",
       "zh": "被动提供的永久法术伤害（随基质节点成长；满节点 +44.8%）。",
+      "zh-TW": "被動提供的永久法術傷害（隨基質節點成長；滿節點 +44.8%）。",
       "ja": "パッシブによる永続のアーツダメージ（基質ノードでスケール。最大ノードで +44.8%）。",
       "ko": "패시브의 영구 아츠 피해(기질 노드에 따라 증가, 최대 노드에서 +44.8%)."
      },
@@ -4258,6 +5115,7 @@
       "en": "Detonate: Hunter Instinct — Arts DMG (permanent)",
       "es": "Detonación: Instinto de cazador — Arts DMG (permanente)",
       "zh": "迸发·猎人本能 — 法术伤害（常驻）",
+      "zh-TW": "迸發·獵人本能 — 法術傷害（常駐）",
       "ja": "噴発・狩人の本能 — アーツダメージ（常時）",
       "ko": "방출 · 사냥꾼의 본능 — 아츠 피해 (상시)"
      }
@@ -4273,6 +5131,7 @@
       "es": "Tras lanzar la battle skill: Arts Intensity +98 y 4 stacks de Windform por 15s (el efecto entero no acumula). En la Rotación entra en las ráfagas y efectos de reacción de esa ventana; Daño calcula con Arts Intensity 0 a propósito.",
       "en": "After casting the battle skill: Arts Intensity +98 and 4 Windform stacks for 15s (the whole effect cannot stack). In the Rotation it applies to the bursts and reaction effects within that window; Damage deliberately calculates with Arts Intensity 0.",
       "zh": "施放战技后：源石技艺强度 +98和4层风形，15秒（整个效果不叠加）。轮换中应用于该窗口内的爆发和反应效果；伤害页面刻意按源石技艺强度0计算。",
+      "zh-TW": "施放戰技後：源石技藝強度 +98和4層風形，15秒（整個效果不疊加）。輪換中應用於該窗口內的爆發和反應效果；傷害頁面刻意按源石技藝強度0計算。",
       "ja": "戦技の発動後：アーツ強度 +98と風形4スタック、15秒（効果全体が重複しない）。ローテーションではその時間帯の爆発と反応効果に適用。ダメージではアーツ強度0で計算する仕様。",
       "ko": "배틀 스킬 사용 후: 오리지늄 아츠 강도 +98과 풍형 4중첩, 15초(효과 전체가 중첩되지 않음). 로테이션에서는 그 구간의 폭발과 반응 효과에 적용되며, 피해 페이지는 의도적으로 오리지늄 아츠 강도 0으로 계산합니다."
      },
@@ -4296,6 +5155,7 @@
       "en": "Detonate: Hunter Instinct — battle skill: Arts Intensity",
       "es": "Detonación: Instinto de cazador — battle skill: Arts Intensity",
       "zh": "迸发·猎人本能 — 战技：源石技艺强度",
+      "zh-TW": "迸發·獵人本能 — 戰技：源石技藝強度",
       "ja": "噴発・狩人の本能 — 戦技：アーツ強度",
       "ko": "방출 · 사냥꾼의 본능 — 배틀 스킬: 오리지늄 아츠 강도"
      }
@@ -4307,15 +5167,21 @@
      "trigger": {
       "onApplyReaction": "burst",
       "maxStacks": 4,
-      "cooldownS": 0.1
+      "cooldownS": 0.1,
+      "charges": {
+       "slot": "battle",
+       "n": 4,
+       "durS": 15
+      }
      },
      "durS": 30,
      "cond": {
-      "es": "Al aplicar un Arts Burst con Windform disponible: consume 1 stack y gana Arts DMG Dealt +11.2% por 30s, hasta 4 stacks (duración independiente). El cálculo asume que hay Windform (battle skill lanzada en los últimos 15s): cada Burst del portador suma un stack hasta 4.",
-      "en": "On applying an Arts Burst with Windform available: consumes 1 stack and gains Arts DMG Dealt +11.2% for 30s, up to 4 stacks (separate durations). The calculation assumes Windform is up (battle skill cast within the last 15s): every Burst by the wielder adds a stack up to 4.",
-      "zh": "风形可用时施加法术爆发：消耗1层并获得法术伤害 +11.2%，30秒，最多4层（分别计时）。计算假设风形处于生效状态（最近15秒内施放过战技）：持有者的每次爆发加一层，最多4层。",
-      "ja": "風形がある状態でアーツ爆発を付与：1スタックを消費してアーツダメージ +11.2%を30秒間得る。最大4スタック（個別計時）。計算では風形が有効（直近15秒以内に戦技を発動）と仮定し、装備者の爆発ごとに最大4までスタックを加える。",
-      "ko": "풍형이 있을 때 아츠 폭발 적용: 1중첩을 소모하고 아츠 피해 +11.2%를 30초 동안 얻음, 최대 4중첩(별도 계시). 계산은 풍형이 활성(최근 15초 내 배틀 스킬 사용)이라고 가정하며, 장착자의 폭발마다 최대 4까지 중첩을 더합니다."
+      "es": "Cuando el portador aplique una Ráfaga de Artes, consume 1 acumulación de Forma de viento para otorgarle DAÑ por Artes infligido +11.2% durante 30 s. Este efecto puede alcanzar 4 acumulaciones. La duración de cada acumulación se cuenta por separado. El efecto solo se activa una vez cada 0.1 s.",
+      "en": "When the wielder applies an Arts Burst, consume 1 stack of Windform to grant the wielder Arts DMG Dealt +11.2% for 30s. This effect can reach 4 stacks. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+      "zh": "装备者造成法术爆发时，消耗1层身形如风，法术伤害+11.2%，持续30秒。该效果最多叠加4层，每层单独计算持续时间，每0.1秒最多触发一次。",
+      "zh-TW": "裝備者造成法術爆發時，消耗1層身形如風，法術傷害+11.2%，持續30秒。該效果最多疊加4層，每層單獨計算持續時間，每0.1秒最多觸發一次。",
+      "ja": "自身がアーツ爆発を与えるとき、疾風の身を1段階消費して、30秒間アーツダメージ+11.2% この効果は4回まで重ね掛け可能 効果の持続時間は個別にカウントされ、0.1秒に1回まで発動可能",
+      "ko": "장착자가 아츠 폭발 피해를 줄 때, 바람을 따라 1스택을 소모하고, 아츠 피해 +11.2%, 30초 동안 지속. 해당 효과는 최대로 4스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다."
      },
      "mods": [
       {
@@ -4338,6 +5204,7 @@
       "en": "Detonate: Hunter Instinct — Arts Burst consumes Windform",
       "es": "Detonación: Instinto de cazador — Arts Burst consume Windform",
       "zh": "迸发·猎人本能 — 法术爆发消耗 Windform",
+      "zh-TW": "迸發·獵人本能 — 法術爆發消耗 Windform",
       "ja": "噴発・狩人の本能 — アーツ爆発で Windform を消費",
       "ko": "방출 · 사냥꾼의 본능 — 아츠 폭발로 Windform 소모"
      }
@@ -4357,6 +5224,7 @@
       "es": "Arts Intensity permanente de la pasiva (escala por nodo de esencia; a nodo máximo +42). La Rotación la suma al Arts Intensity del carril; Daño asume Arts Intensity 0.",
       "en": "Permanent Arts Intensity from the passive (scales per essence node; +42 at max node). The Rotation adds it to the lane Arts Intensity; Damage assumes Arts Intensity 0.",
       "zh": "被动提供的永久源石技艺强度（随基质节点成长；满节点 +42）。循环会把它加到通道的源石技艺强度上；伤害页面假设源石技艺强度为0。",
+      "zh-TW": "被動提供的永久源石技藝強度（隨基質節點成長；滿節點 +42）。循環會把它加到通道的源石技藝強度上；傷害頁面假設源石技藝強度為0。",
       "ja": "パッシブによる永続のアーツ強度（基質ノードでスケール。最大ノードで +42）。ローテーションはレーンのアーツ強度に加算し、ダメージはアーツ強度0を仮定する。",
       "ko": "패시브의 영구 오리지늄 아츠 강도(기질 노드에 따라 증가, 최대 노드에서 +42). 로테이션은 레인 오리지늄 아츠 강도에 더하고, 피해 페이지는 오리지늄 아츠 강도 0을 가정합니다."
      },
@@ -4380,6 +5248,7 @@
       "en": "Detonate: Dawn of the Long Night — Arts Intensity (permanent)",
       "es": "Detonación: Amanecer de la larga noche — Arts Intensity (permanente)",
       "zh": "迸发·长夜拂晓 — 源石技艺强度（常驻）",
+      "zh-TW": "迸發·長夜拂曉 — 源石技藝強度（常駐）",
       "ja": "噴発・長夜の暁 — アーツ強度（常時）",
       "ko": "방출 · 긴 밤의 여명 — 오리지늄 아츠 강도 (상시)"
      }
@@ -4398,6 +5267,7 @@
       "es": "Al aplicar un Arts Burst: Nature DMG Dealt +5.6% por 25s, hasta 4 stacks (duración independiente; una vez cada 0.1s).",
       "en": "On applying an Arts Burst: Nature DMG Dealt +5.6% for 25s, up to 4 stacks (separate durations; once every 0.1s).",
       "zh": "施加法术爆发时：自然伤害 +5.6%，25秒，最多4层（分别计时；每0.1秒一次）。",
+      "zh-TW": "施加法術爆發時：自然傷害 +5.6%，25秒，最多4層（分別計時；每0.1秒一次）。",
       "ja": "アーツ爆発を付与したとき：自然ダメージ +5.6%、25秒、最大4スタック（個別計時、0.1秒に1回）。",
       "ko": "아츠 폭발을 적용할 때: 자연 피해 +5.6%, 25초, 최대 4중첩(별도 계시, 0.1초마다 한 번)."
      },
@@ -4420,8 +5290,9 @@
      ],
      "label": {
       "en": "Detonate: Dawn of the Long Night — Arts Burst (stacks)",
-      "es": "Detonación: Amanecer de la larga noche — Arts Burst (stacks)",
+      "es": "Detonación: Amanecer de la larga noche — Arts Burst (acumulaciones)",
       "zh": "迸发·长夜拂晓 — 法术爆发（层数）",
+      "zh-TW": "迸發·長夜拂曉 — 法術爆發（層數）",
       "ja": "噴発・長夜の暁 — アーツ爆発（スタック）",
       "ko": "방출 · 긴 밤의 여명 — 아츠 폭발 (중첩)"
      }
@@ -4431,13 +5302,19 @@
      "src": "Dawn of the Long Night — bono a 4 stacks",
      "target": "self",
      "noStack": true,
-     "pendingModel": "Bono al llegar a 4 stacks del efecto anterior: no hay trigger por conteo de stacks de otro buff. Toggle del cálculo de Daño (máximo teórico), inerte en la Rotación a propósito.",
+     "trigger": {
+      "whileStacks": {
+       "bid": "send_burst_stack",
+       "n": 4
+      }
+     },
      "cond": {
-      "es": "Con 4 stacks del efecto anterior: Nature DMG Dealt +16.8% adicional (no acumula). En Daño es un toggle: actívalo si el portador llega a 4 Bursts en la ventana de 25s.",
-      "en": "At 4 stacks of the previous effect: an additional Nature DMG Dealt +16.8% (cannot stack). In Damage it is a toggle: enable it if the wielder reaches 4 Bursts within the 25s window.",
-      "zh": "前一效果达到4层时：额外自然伤害 +16.8%（不叠加）。在伤害页面中是开关：如果持有者在25秒窗口内达到4次爆发，就开启它。",
-      "ja": "前の効果が4スタックに達したとき：さらに自然ダメージ +16.8%（重複なし）。ダメージでは切り替え式：装備者が25秒の時間帯に爆発4回に達するならオンにする。",
-      "ko": "앞의 효과가 4중첩에 도달하면: 추가 자연 피해 +16.8%(중첩 불가). 피해 페이지에서는 토글이며, 장착자가 25초 구간 안에 폭발 4회에 도달하면 켜세요."
+      "es": "Con 4 acumulaciones, el efecto mencionado otorga DAÑ por naturaleza infligido adicional +16.8%. Este efecto no puede acumularse.",
+      "en": "At 4 stacks, the aforementioned effect grants an additional Nature DMG Dealt +16.8%. This effect cannot stack.",
+      "zh": "当上述效果为4层时，自然伤害额外+16.8%。该效果无法叠加。",
+      "zh-TW": "當上述效果為4層時，自然傷害額外+16.8%。該效果無法疊加。",
+      "ja": "前述の効果が4回まで重ね掛けられるとき、追加で自然ダメージ+16.8% この効果は重ね掛け不可",
+      "ko": "상기 효과가 4스택일 때, 추가 자연 피해 +16.8%. 해당 효과는 중첩되지 않습니다."
      },
      "mods": [
       {
@@ -4458,8 +5335,9 @@
      ],
      "label": {
       "en": "Detonate: Dawn of the Long Night — bonus at 4 stacks",
-      "es": "Detonación: Amanecer de la larga noche — bono a 4 stacks",
+      "es": "Detonación: Amanecer de la larga noche — bono a 4 acumulaciones",
       "zh": "迸发·长夜拂晓 — 4层时的额外加成",
+      "zh-TW": "迸發·長夜拂曉 — 4層時的額外加成",
       "ja": "噴発・長夜の暁 — 4スタック時のボーナス",
       "ko": "방출 · 긴 밤의 여명 — 4중첩 시 보너스"
      }
@@ -4475,7 +5353,8 @@
      "src": "Sweetness and Dreams — curación del combo (Arts DMG de equipo)",
      "target": "team",
      "trigger": {
-      "onHeal": true
+      "onHeal": true,
+      "slot": "combo"
      },
      "durS": 20,
      "noStack": true,
@@ -4483,6 +5362,7 @@
       "es": "Cuando la habilidad de combo del portador cura (la Caja de regalo da HP Treatment a los operadores cercanos): cada operador curado gana Arts DMG Dealt +valor por 20s (los efectos con el mismo nombre no se acumulan). Se aplica a TODO el equipo, que es a quien cura el combo. La Arts Intensity +14 de la misma ventana y el Max HP +28% quedan fuera del cálculo de daño.",
       "en": "When the wielder's combo skill heals (the Giftbox grants HP Treatment to nearby operators): each healed operator gains Arts DMG Dealt +value for 20s (effects of the same name cannot stack). Applied to the WHOLE team, which is who the combo heals. The Arts Intensity +14 of the same window and the Max HP +28% are outside the damage calculation.",
       "zh": "持有者的连携技治疗时（礼物匣子为范围内的干员提供治疗）：每名受到治疗的干员获得法术伤害 +数值，持续20秒（同名效果无法叠加）。按全队增益处理，因为连携技治疗的正是全队。同一窗口的源石技艺强度 +14和最大生命值 +28%不参与伤害计算。",
+      "zh-TW": "持有者的連攜技治療時（禮物匣子為範圍內的幹員提供治療）：每名受到治療的幹員獲得法術傷害 +數值，持續20秒（同名效果無法疊加）。按全隊增益處理，因為連攜技治療的正是全隊。同一窗口的源石技藝強度 +14和最大生命值 +28%不參與傷害計算。",
       "ja": "装備者の連携技で治療したとき（ギフトボックスが範囲内のオペレーターを治療）：治療を受けた各オペレーターはアーツダメージ ＋値を20秒間得る（同名効果は重複しない）。連携技はチーム全員を治療するため、チーム全体のバフとして扱う。同じ時間帯のアーツ強度 +14と最大HP +28%はダメージ計算に含めない。",
       "ko": "장착자의 연계 스킬이 치유할 때(선물 상자가 범위 내 오퍼레이터를 치유): 치유를 받은 각 오퍼레이터는 아츠 피해 +값을 20초 동안 얻습니다(같은 이름의 효과는 중첩되지 않음). 연계 스킬이 팀 전체를 치유하므로 팀 전체 버프로 처리합니다. 같은 구간의 오리지늄 아츠 강도 +14와 최대 생명력 +28%는 피해 계산에 포함하지 않습니다."
      },
@@ -4507,16 +5387,19 @@
       "en": "Medicant: Sweetness and Dreams — combo heal (team Arts DMG)",
       "es": "Medicante: Dulzura y sueños — curación del combo (Arts DMG de equipo)",
       "zh": "医疗·甜与梦 — 连携技治疗（全队法术伤害）",
+      "zh-TW": "醫療·甜與夢 — 連攜技治療（全隊法術傷害）",
       "ja": "治癒・甘さと夢 — 連携技の治療（チームのアーツダメージ）",
       "ko": "의료 · 달콤한 꿈 — 연계 스킬 치유 (팀 아츠 피해)"
-     }
+     },
+     "assumeIdeal": "la cura del combo llega a los cuatro operadores (la Caja de regalo cura a los «nearby operators»); el texto da el bono a quien recibe la cura"
     },
     {
      "id": "dessert_heal_artsint",
      "src": "Sweetness and Dreams — curación del combo (Arts Intensity)",
      "target": "team",
      "trigger": {
-      "onHeal": true
+      "onHeal": true,
+      "slot": "combo"
      },
      "durS": 20,
      "noStack": true,
@@ -4524,6 +5407,7 @@
       "es": "Misma ventana que el buff anterior: los operadores curados por el combo ganan Arts Intensity +valor (hasta +14) por 20s. En la Rotación entra en las ráfagas y efectos de reacción de esa ventana; Daño calcula con Arts Intensity 0 a propósito.",
       "en": "Same window as the previous buff: operators healed by the combo gain Arts Intensity +value (up to +14) for 20s. In the Rotation it applies to the bursts and reaction effects within that window; Damage deliberately calculates with Arts Intensity 0.",
       "zh": "与上一个增益同一窗口：受到连携技治疗的干员获得源石技艺强度 +数值（最高 +14），持续20秒。轮换中应用于该窗口内的爆发和反应效果；伤害页面刻意按源石技艺强度0计算。",
+      "zh-TW": "與上一個增益同一窗口：受到連攜技治療的幹員獲得源石技藝強度 +數值（最高 +14），持續20秒。輪換中應用於該窗口內的爆發和反應效果；傷害頁面刻意按源石技藝強度0計算。",
       "ja": "前のバフと同じ時間帯：連携技で治療を受けたオペレーターはアーツ強度 ＋値（最大 +14）を20秒間得る。ローテーションではその時間帯の爆発と反応効果に適用。ダメージではアーツ強度0で計算する仕様。",
       "ko": "앞의 버프와 같은 구간: 연계 스킬로 치유를 받은 오퍼레이터는 오리지늄 아츠 강도 +값(최대 +14)을 20초 동안 얻습니다. 로테이션에서는 그 구간의 폭발과 반응 효과에 적용되며, 피해 페이지는 의도적으로 오리지늄 아츠 강도 0으로 계산합니다."
      },
@@ -4547,9 +5431,475 @@
       "en": "Medicant: Sweetness and Dreams — combo heal (Arts Intensity)",
       "es": "Medicante: Dulzura y sueños — curación del combo (Arts Intensity)",
       "zh": "医疗·甜与梦 — 连携技治疗（源石技艺强度）",
+      "zh-TW": "醫療·甜與夢 — 連攜技治療（源石技藝強度）",
       "ja": "治癒・甘さと夢 — 連携技の治療（アーツ強度）",
       "ko": "의료 · 달콤한 꿈 — 연계 스킬 치유 (오리지늄 아츠 강도)"
-     }
+     },
+     "assumeIdeal": "la cura del combo llega a los cuatro operadores (la Caja de regalo cura a los «nearby operators»); el texto da el bono a quien recibe la cura"
+    }
+   ]
+  },
+  "Prominent Edge": {
+   "operator": "",
+   "passive": "Suppression: Emergency Boost",
+   "buffs": [
+    {
+     "id": "prominent_edge_bs_atk",
+     "src": "Suppression: Emergency Boost",
+     "target": "self",
+     "cond": {
+      "es": "Cuando la habilidad de batalla del portador golpea al enemigo, el portador obtiene ATQ +33.6% durante 20 s. Los efectos con el mismo nombre no se acumulan.",
+      "en": "When the wielder's battle skill hits the enemy, the wielder gains ATK +33.6% for 20s. Effects of the same name cannot stack.",
+      "zh": "装备者的战技命中敌人时，获得攻击力+33.6%，持续20秒。同名效果无法叠加。",
+      "zh-TW": "裝備者的戰技命中敵人時，獲得攻擊力+33.6%，持續20秒。同名效果無法疊加。",
+      "ja": "装備中、自身の戦技が敵に命中するとき、20秒間攻撃力+33.6% 同名効果は重ね掛け不可",
+      "ko": "장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +33.6%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.12,
+        0.144,
+        0.168,
+        0.192,
+        0.216,
+        0.24,
+        0.264,
+        0.288,
+        0.336
+       ]
+      }
+     ],
+     "anchor": "battle_skill",
+     "durS": 20,
+     "noStack": true
+    }
+   ]
+  },
+  "Industry 0.1": {
+   "operator": "",
+   "passive": "Suppression: Emergency Boost",
+   "buffs": [
+    {
+     "id": "industry_01_bs_atk",
+     "src": "Suppression: Emergency Boost",
+     "target": "self",
+     "cond": {
+      "es": "Cuando la habilidad de batalla del portador golpea al enemigo, el portador obtiene ATQ +33.6% durante 20 s. Los efectos con el mismo nombre no se acumulan.",
+      "en": "When the wielder's battle skill hits the enemy, the wielder gains ATK +33.6% for 20s. Effects of the same name cannot stack.",
+      "zh": "装备者的战技命中敌人时，获得攻击力+33.6%，持续20秒。同名效果无法叠加。",
+      "zh-TW": "裝備者的戰技命中敵人時，獲得攻擊力+33.6%，持續20秒。同名效果無法疊加。",
+      "ja": "装備中、自身の戦技が敵に命中するとき、20秒間攻撃力+33.6% 同名効果は重ね掛け不可",
+      "ko": "장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +33.6%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.12,
+        0.144,
+        0.168,
+        0.192,
+        0.216,
+        0.24,
+        0.264,
+        0.288,
+        0.336
+       ]
+      }
+     ],
+     "anchor": "battle_skill",
+     "durS": 20,
+     "noStack": true
+    }
+   ]
+  },
+  "Aggeloslayer": {
+   "operator": "",
+   "passive": "Suppression: Emergency Boost",
+   "buffs": [
+    {
+     "id": "aggeloslayer_bs_atk",
+     "src": "Suppression: Emergency Boost",
+     "target": "self",
+     "cond": {
+      "es": "Cuando la habilidad de batalla del portador golpea al enemigo, el portador obtiene ATQ +33.6% durante 20 s. Los efectos con el mismo nombre no se acumulan.",
+      "en": "When the wielder's battle skill hits the enemy, the wielder gains ATK +33.6% for 20s. Effects of the same name cannot stack.",
+      "zh": "装备者的战技命中敌人时，获得攻击力+33.6%，持续20秒。同名效果无法叠加。",
+      "zh-TW": "裝備者的戰技命中敵人時，獲得攻擊力+33.6%，持續20秒。同名效果無法疊加。",
+      "ja": "装備中、自身の戦技が敵に命中するとき、20秒間攻撃力+33.6% 同名効果は重ね掛け不可",
+      "ko": "장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +33.6%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.12,
+        0.144,
+        0.168,
+        0.192,
+        0.216,
+        0.24,
+        0.264,
+        0.288,
+        0.336
+       ]
+      }
+     ],
+     "anchor": "battle_skill",
+     "durS": 20,
+     "noStack": true
+    }
+   ]
+  },
+  "Howling Guard": {
+   "operator": "",
+   "passive": "Suppression: Emergency Boost",
+   "buffs": [
+    {
+     "id": "howling_guard_bs_atk",
+     "src": "Suppression: Emergency Boost",
+     "target": "self",
+     "cond": {
+      "es": "Cuando la habilidad de batalla del portador golpea al enemigo, el portador obtiene ATQ +33.6% durante 20 s. Los efectos con el mismo nombre no se acumulan.",
+      "en": "When the wielder's battle skill hits the enemy, the wielder gains ATK +33.6% for 20s. Effects of the same name cannot stack.",
+      "zh": "装备者的战技命中敌人时，获得攻击力+33.6%，持续20秒。同名效果无法叠加。",
+      "zh-TW": "裝備者的戰技命中敵人時，獲得攻擊力+33.6%，持續20秒。同名效果無法疊加。",
+      "ja": "装備中、自身の戦技が敵に命中するとき、20秒間攻撃力+33.6% 同名効果は重ね掛け不可",
+      "ko": "장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +33.6%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.12,
+        0.144,
+        0.168,
+        0.192,
+        0.216,
+        0.24,
+        0.264,
+        0.288,
+        0.336
+       ]
+      }
+     ],
+     "anchor": "battle_skill",
+     "durS": 20,
+     "noStack": true
+    }
+   ]
+  },
+  "Fluorescent Roc": {
+   "operator": "",
+   "passive": "Suppression: Emergency Boost",
+   "buffs": [
+    {
+     "id": "fluorescent_roc_bs_atk",
+     "src": "Suppression: Emergency Boost",
+     "target": "self",
+     "cond": {
+      "es": "Cuando la habilidad de batalla del portador golpea al enemigo, el portador obtiene ATQ +33.6% durante 20 s. Los efectos con el mismo nombre no se acumulan.",
+      "en": "When the wielder's battle skill hits the enemy, the wielder gains ATK +33.6% for 20s. Effects of the same name cannot stack.",
+      "zh": "装备者的战技命中敌人时，获得攻击力+33.6%，持续20秒。同名效果无法叠加。",
+      "zh-TW": "裝備者的戰技命中敵人時，獲得攻擊力+33.6%，持續20秒。同名效果無法疊加。",
+      "ja": "装備中、自身の戦技が敵に命中するとき、20秒間攻撃力+33.6% 同名効果は重ね掛け不可",
+      "ko": "장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +33.6%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.12,
+        0.144,
+        0.168,
+        0.192,
+        0.216,
+        0.24,
+        0.264,
+        0.288,
+        0.336
+       ]
+      }
+     ],
+     "anchor": "battle_skill",
+     "durS": 20,
+     "noStack": true
+    }
+   ]
+  },
+  "Wave Tide": {
+   "operator": "",
+   "passive": "Pursuit: Unending Cycle",
+   "buffs": [
+    {
+     "id": "wave_tide_combo_atk",
+     "src": "Pursuit: Unending Cycle",
+     "target": "self",
+     "cond": {
+      "es": "Cuando el portador lance una habilidad de combo, el portador obtiene ATQ +33.6% durante 20 s. Los efectos con el mismo nombre no se acumulan.",
+      "en": "When the wielder casts a combo skill, ATK +33.6% for 20s. Effects of the same name cannot stack.",
+      "zh": "装备者施放连携技时，获得攻击力+33.6%，持续20秒。同名效果无法叠加。",
+      "zh-TW": "裝備者施放連攜技時，獲得攻擊力+33.6%，持續20秒。同名效果無法疊加。",
+      "ja": "装備中、自身が連携技を発動するとき、20秒間攻撃力+33.6% 同名効果は重ね掛け不可",
+      "ko": "장착자가 연계 스킬을 사용할 때, 공격력 +33.6%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.12,
+        0.144,
+        0.168,
+        0.192,
+        0.216,
+        0.24,
+        0.264,
+        0.288,
+        0.336
+       ]
+      }
+     ],
+     "anchor": "combo_skill",
+     "durS": 20,
+     "noStack": true
+    }
+   ]
+  },
+  "Long Road": {
+   "operator": "",
+   "passive": "Pursuit: Unending Cycle",
+   "buffs": [
+    {
+     "id": "long_road_combo_atk",
+     "src": "Pursuit: Unending Cycle",
+     "target": "self",
+     "cond": {
+      "es": "Cuando el portador lance una habilidad de combo, el portador obtiene ATQ +33.6% durante 20 s. Los efectos con el mismo nombre no se acumulan.",
+      "en": "When the wielder casts a combo skill, the wielder gains ATK +33.6% for 20s. Effects of the same name cannot stack.",
+      "zh": "装备者施放连携技时，获得攻击力+33.6%，持续20秒。同名效果无法叠加。",
+      "zh-TW": "裝備者施放連攜技時，獲得攻擊力+33.6%，持續20秒。同名效果無法疊加。",
+      "ja": "装備中、自身が連携技を発動するとき、20秒間攻撃力+33.6% 同名効果は重ね掛け不可",
+      "ko": "장착자가 연계 스킬을 사용할 때, 공격력 +33.6%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.12,
+        0.144,
+        0.168,
+        0.192,
+        0.216,
+        0.24,
+        0.264,
+        0.288,
+        0.336
+       ]
+      }
+     ],
+     "anchor": "combo_skill",
+     "durS": 20,
+     "noStack": true
+    }
+   ]
+  },
+  "Quencher": {
+   "operator": "",
+   "passive": "Crusher: Honed into Legion",
+   "buffs": [
+    {
+     "id": "quencher_finisher_atk",
+     "src": "Crusher: Honed into Legion",
+     "target": "self",
+     "cond": {
+      "es": "Cuando el portador realice un Golpe final contra el enemigo, el portador obtiene ATQ +33.6% durante 10 s. Los efectos con el mismo nombre no se acumulan.",
+      "en": "When the wielder performs a Final Strike on the enemy, the wielder gains ATK +33.6% for 10s. Effects of the same name cannot stack.",
+      "zh": "装备者对敌人造成重击时，获得攻击力+33.6%，持续10秒。同名效果无法叠加。",
+      "zh-TW": "裝備者對敵人造成重擊時，獲得攻擊力+33.6%，持續10秒。同名效果無法疊加。",
+      "ja": "装備中、自身が敵に重攻撃を与えるとき、10秒間攻撃力+33.6% 同名効果は重ね掛け不可",
+      "ko": "장착자가 적에게 강력한 일격 피해를 줄 때, 공격력 +33.6%, 10초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.12,
+        0.144,
+        0.168,
+        0.192,
+        0.216,
+        0.24,
+        0.264,
+        0.288,
+        0.336
+       ]
+      }
+     ],
+     "trigger": {
+      "onFinalStrike": true
+     },
+     "durS": 10,
+     "noStack": true
+    }
+   ]
+  },
+  "Pathfinder's Beacon": {
+   "operator": "",
+   "passive": "Inspiring: Start of a Saga",
+   "buffs": [
+    {
+     "id": "pathfinders_beacon_hp_atk",
+     "src": "Inspiring: Start of a Saga",
+     "target": "self",
+     "cond": {
+      "es": "Cuando los PV del portador están por encima de 80%, ATQ +42.0%.",
+      "en": "When the wielder's HP is above 80%, ATK +42%.",
+      "zh": "当装备者的生命值高于80%时，攻击力+42.0%。",
+      "zh-TW": "當裝備者的生命值高於80%時，攻擊力+42.0%。",
+      "ja": "装備中、自身のHPが80%より高いとき、攻撃力+42.0%",
+      "ko": "장착자의 생명력이 80%보다 높을 때, 공격력 +42.0%"
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.15,
+        0.18,
+        0.21,
+        0.24,
+        0.27,
+        0.3,
+        0.33,
+        0.36,
+        0.42
+       ]
+      }
+     ],
+     "permanent": true,
+     "assumeIdeal": "el portador con más del 80 % de HP todo el combate"
+    }
+   ]
+  },
+  "Hypernova Auto": {
+   "operator": "",
+   "passive": "Inspiring: Start of a Saga",
+   "buffs": [
+    {
+     "id": "hypernova_auto_hp_atk",
+     "src": "Inspiring: Start of a Saga",
+     "target": "self",
+     "cond": {
+      "es": "Cuando los PV del portador están por encima de 80%, ATQ +42.0%.",
+      "en": "When the wielder's HP is above 80%, ATK +42%.",
+      "zh": "当装备者的生命值高于80%时，攻击力+42.0%。",
+      "zh-TW": "當裝備者的生命值高於80%時，攻擊力+42.0%。",
+      "ja": "装備中、自身のHPが80%より高いとき、攻撃力+42.0%",
+      "ko": "장착자의 생명력이 80%보다 높을 때, 공격력 +42.0%"
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.15,
+        0.18,
+        0.21,
+        0.24,
+        0.27,
+        0.3,
+        0.33,
+        0.36,
+        0.42
+       ]
+      }
+     ],
+     "permanent": true,
+     "assumeIdeal": "el portador con más del 80 % de HP todo el combate"
+    }
+   ]
+  },
+  "Bedazzling Night Debut": {
+   "operator": "liino",
+   "passive": "Medicant: Shimmering Curtain",
+   "buffs": [
+    {
+     "id": "bedazzling_heal_atk",
+     "src": "Medicant: Shimmering Curtain",
+     "target": "allies",
+     "cond": {
+      "es": "Cuando la habilidad del portador otorga Tratamiento de PV a otros operadores en el equipo, el operador que recibe el tratamiento del portador también obtiene +9.8% de ATQ durante 20 s. Acumulaciones Máx. por efectos con el mismo nombre: 4. La duración de cada acumulación se cuenta por separado. Cada operador puede obtener este efecto como mucho una vez cada 0.1s.",
+      "en": "When the wielder's skill grants HP Treatment to other operators in the team, the operator receiving the wielder's treatment also gains ATK +9.8% for 20s. Max stacks for effects of the same name: 4. Duration of each stack is counted separately. Each operator can gain this effect at most once every 0.1s.",
+      "zh": "装备者通过自身技能治疗小队内其他干员时，受到装备者治疗的干员攻击力+9.8%，持续20秒。同名效果最多叠加4层，每层单独计算持续时间，每名干员每0.1秒最多获得一次该效果。",
+      "zh-TW": "裝備者透過自身技能治療小隊內其他幹員時，受到裝備者治療的幹員攻擊力+9.8%，持續20秒。同名效果最多疊加4層，每層單獨計算持續時間，每名幹員每0.1秒最多獲得一次該效果。",
+      "ja": "装備中、自身のスキルでチーム内の他のオペレーターを治療したとき、20秒間その治療を受けたオペレーターの攻撃力+9.8% 同名効果は4回まで重ね掛け可能 効果の持続時間は個別にカウントされ、各オペレーターは0.1秒に1回までこの効果を獲得できる",
+      "ko": "장착자가 자신의 스킬로 팀 내 다른 오퍼레이터를 치유할 때, 장착자의 치유를 받은 오퍼레이터의 공격력 +9.8%, 20초 동안 지속. 같은 이름의 효과는 최대 4스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 각 오퍼레이터는 0.1초마다 최대 1회만 해당 효과를 얻을 수 있습니다."
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.035,
+        0.042,
+        0.049,
+        0.056,
+        0.063,
+        0.07,
+        0.077,
+        0.084,
+        0.098
+       ]
+      }
+     ],
+     "trigger": {
+      "onHeal": true,
+      "maxStacks": 4,
+      "cooldownS": 0.1
+     },
+     "durS": 20,
+     "assumeIdeal": "cada cura del portador llega a todos los demás operadores (el texto: a quien la recibe)"
+    }
+   ]
+  },
+  "Golden Age": {
+   "operator": "",
+   "passive": "Pursuit: Great Hero",
+   "buffs": [
+    {
+     "id": "golden_age_heal_arts",
+     "src": "Pursuit: Great Hero",
+     "target": "team",
+     "cond": {
+      "es": "Cuando la habilidad de combo del portador otorga Tratamiento de PV a otros operadores en el equipo, todo el equipo obtiene DAÑ por artes infligido +14.0% durante 20s. Los efectos con el mismo nombre no se pueden acumular.",
+      "en": "When the wielder's combo skill grants HP Treatment to other operators in the team, the entire team gains Arts DMG Dealt +14.0% for 20s. Effects of the same name cannot stack.",
+      "zh": "装备者通过连携技治疗小队内其他干员时，全队法术伤害+14.0%，持续20秒。同名效果无法叠加。",
+      "zh-TW": "裝備者透過連攜技治療小隊內其他幹員時，全隊法術傷害+14.0%，持續20秒。同名效果無法疊加。",
+      "ja": "自身の連携技でチーム内の他のオペレーターを治療したとき、20秒間チーム全員のアーツダメージ+14.0% 同名効果は重ね掛け不可",
+      "ko": "장착자가 연계 스킬로 팀 내 다른 오퍼레이터를 치유할 때, 팀 전체의 아츠 피해 +14.0%, 20초 동안 지속됩니다. 같은 이름의 효과는 중첩되지 않습니다."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "arts",
+       "byNode": [
+        0.05,
+        0.06,
+        0.07,
+        0.08,
+        0.09,
+        0.1,
+        0.11,
+        0.12,
+        0.14
+       ]
+      }
+     ],
+     "trigger": {
+      "onHeal": true,
+      "slot": "combo"
+     },
+     "durS": 20,
+     "noStack": true
     }
    ]
   },
@@ -4565,6 +5915,7 @@
       "en": "Efficacy: Dabbles of Ink (DMG Taken)",
       "es": "Eficacia: Salpicaduras de tinta (DAÑ recibido)",
       "zh": "效益·落墨添彩（受到的伤害）",
+      "zh-TW": "效益·落墨添彩（受到的傷害）",
       "ja": "効率・墨筆の彩り（受けるダメージ）",
       "ko": "효율 · 먹빛에 더한 색채 (받는 피해)"
      },
@@ -4572,6 +5923,7 @@
       "en": "When the wielder applies Immobilization on the enemy, the target enemy suffers DMG Taken +21.0% for 30s. The two effects apply separately and do not stack with themselves.",
       "es": "Cuando el portador aplica Inmovilización al enemigo, el enemigo objetivo sufre DAÑ recibido +21.0% durante 30 s. Los dos efectos se aplican por separado y no se acumulan entre sí.",
       "zh": "装备者对敌人施加定身时，使目标敌人受到的伤害+21.0%，持续30秒。两种效果独立生效，且均无法叠加。",
+      "zh-TW": "裝備者對敵人施加定身時，使目標敵人受到的傷害+21.0%，持續30秒。兩種效果獨立生效，且均無法疊加。",
       "ja": "装備中、自身が敵に行動停止を付与するとき、30秒間その敵の受けるダメージ+21.0% 2つの効果はそれぞれ存在し、重ね掛け不可",
       "ko": "장착자가 적에게 속박을 부여하면 해당 적이 받는 피해 +21.0%, 30초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다."
      },
@@ -4605,6 +5957,7 @@
       "en": "Efficacy: Dabbles of Ink (next combo skill)",
       "es": "Eficacia: Salpicaduras de tinta (siguiente habilidad de combo)",
       "zh": "效益·落墨添彩（下个连携技）",
+      "zh-TW": "效益·落墨添彩（下個連攜技）",
       "ja": "効率・墨筆の彩り（次の連携技）",
       "ko": "효율 · 먹빛에 더한 색채 (다음 연계 스킬)"
      },
@@ -4612,6 +5965,7 @@
       "en": "When the wielder applies Immobilization on the enemy or after the wielder casts an ultimate, the next combo skill cast within 20s gains DMG Dealt +70.0%. The two effects apply separately and do not stack with themselves.",
       "es": "Cuando el portador aplica Inmovilización al enemigo o después de que el portador lance una máxima, la siguiente habilidad de combo lanzada dentro de 20 s obtiene DAÑ infligido +70.0%. Los dos efectos se aplican por separado y no se acumulan entre sí.",
       "zh": "装备者对敌人施加定身或施放终结技后，20秒内的下个连携技造成的伤害+70.0%。两种效果独立生效，且均无法叠加。",
+      "zh-TW": "裝備者對敵人施加定身或施放終結技後，20秒內的下個連攜技造成的傷害+70.0%。兩種效果獨立生效，且均無法疊加。",
       "ja": "自身が敵に行動停止を付与するか必殺技を発動すると、20秒以内の次の連携技で与えるダメージ+70.0% 2つの効果はそれぞれ存在し、重ね掛け不可",
       "ko": "장착자가 적에게 속박을 부여하거나 궁극기를 사용한 후, 20초 내에 발동하는 다음 연계 스킬로 주는 피해 +70.0% 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다."
      },
@@ -4660,6 +6014,7 @@
       "en": "Efficacy: Secret History (Cryo DMG)",
       "es": "Eficacia: Historia secreta (DAÑ criogénico)",
       "zh": "效益·秘辛史话（寒冷伤害）",
+      "zh-TW": "效益·秘辛史話（寒冷傷害）",
       "ja": "効率・秘史（寒冷ダメージ）",
       "ko": "효율 · 숨겨진 역사 (냉기 피해)"
      },
@@ -4667,6 +6022,7 @@
       "en": "When the wielder's battle skill applies Cryo Infliction or Heat Infliction, the wielder gains Cryo DMG Dealt +16.8% for 20s. The two effects apply separately and do not stack with themselves.",
       "es": "Cuando la habilidad de batalla del portador aplica Imposición criogénica o Imposición de calor, el portador obtiene DAÑ criogénico infligido +16.8% durante 20 s. Los dos efectos se aplican por separado y no se acumulan entre sí.",
       "zh": "装备者通过战技施加寒冷附着或灼热附着时，寒冷伤害+16.8%，持续20秒。两种效果独立生效，且均无法叠加。",
+      "zh-TW": "裝備者透過戰技施加寒冷附著或灼熱附著時，寒冷傷害+16.8%，持續20秒。兩種效果獨立生效，且均無法疊加。",
       "ja": "装備中、自身の戦技で寒冷付着または灼熱付着を付与するとき、20秒間寒冷ダメージ+16.8% 2つの効果はそれぞれ存在し、重ね掛け不可",
       "ko": "장착자가 배틀 스킬로 냉기 부착 혹은 열기 부착을 부여하면 냉기 피해 +16.8%, 20초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다."
      },
@@ -4709,6 +6065,7 @@
       "en": "Efficacy: Secret History (team Arts DMG)",
       "es": "Eficacia: Historia secreta (DAÑ por artes del equipo)",
       "zh": "效益·秘辛史话（全队法术伤害）",
+      "zh-TW": "效益·秘辛史話（全隊法術傷害）",
       "ja": "効率・秘史（チーム全員のアーツダメージ）",
       "ko": "효율 · 숨겨진 역사 (팀 전체의 아츠 피해)"
      },
@@ -4716,6 +6073,7 @@
       "en": "When the wielder grants Arts Amp to another operator in the team, the entire team gains Arts DMG Dealt +11.2% for 20s. The two effects apply separately and do not stack with themselves.",
       "es": "Cuando el portador otorga Amp de artes a otro operador del equipo, todo el equipo obtiene DAÑ por artes infligido +11.2% durante 20 s. Los dos efectos se aplican por separado y no se acumulan entre sí.",
       "zh": "装备者对小队内其他干员施加法术增幅后，全队法术伤害+11.2%，持续20秒。两种效果独立生效，且均无法叠加。",
+      "zh-TW": "裝備者對小隊內其他幹員施加法術增幅後，全隊法術傷害+11.2%，持續20秒。兩種效果獨立生效，且均無法疊加。",
       "ja": "自身がチーム内の他のオペレーターにアーツ増幅を付与すると、20秒間チーム全員のアーツダメージ+11.2% 2つの効果はそれぞれ存在し、重ね掛け不可",
       "ko": "장착자가 팀 내 다른 오퍼레이터에게 아츠 증폭을 부여한 후, 팀 전체의 아츠 피해 +11.2%, 20초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다."
      },
@@ -4759,6 +6117,7 @@
       "en": "When the wielder's combo skill applies Electric Infliction, the wielder gains Arts Intensity +42 and Electric DMG Dealt +22.4% for 15s. Effects of the same name cannot stack.",
       "es": "Cuando la habilidad de combo del portador aplica Imposición eléctrica, el portador obtiene Intensidad de Artes +42 y DAÑ eléctrico infligido +22.4% durante 15 s. Los efectos con el mismo nombre no se pueden acumular.",
       "zh": "通过自身连携技施加电磁附着时，源石技艺强度+42，电磁伤害+22.4%，持续15秒。同名效果无法叠加。",
+      "zh-TW": "透過自身連攜技施加電磁附著時，源石技藝強度+42，電磁傷害+22.4%，持續15秒。同名效果無法疊加。",
       "ja": "装備中、自身の連携技で電磁付着を付与するとき、15秒間アーツ強度+42、電磁ダメージ+22.4% 同名効果は重ね掛け不可",
       "ko": "장착자가 자신의 연계 스킬로 전기 부착을 부여할 시, 오리지늄 아츠 강도 +42, 전기 피해 +22.4%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
      },
@@ -4805,6 +6164,125 @@
      "noStack": true
     }
    ]
+  },
+  "Lunar Calling": {
+    "operator": "argentflow",
+    "passive": "Infliction: Coursing Stars",
+    "buffs": [
+      {
+        "id": "lunar_calling_ai",
+        "src": "Lunar Calling",
+        "target": "self",
+        "permanent": true,
+        "replacesLeading": true,
+        "mods": [
+          {
+            "type": "artsInt",
+            "byNode": [
+              30,
+              36,
+              42,
+              48,
+              54,
+              60,
+              66,
+              72,
+              84
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lunar_calling_team_atk",
+        "src": "Infliction: Coursing Stars",
+        "target": "team",
+        "label": {
+          "en": "Infliction: Coursing Stars (team ATK)",
+          "es": "Imposición: Estrellas fugaces (ATQ del equipo)",
+          "zh": "附术·垂星渡野（全队攻击力）",
+          "zh-TW": "附術·垂星渡野（全隊攻擊力）",
+          "ja": "付術・星流る荒野（チーム全員の攻撃力）",
+          "ko": "고통 · 별빛의 들판 (팀 전체의 공격력)"
+        },
+        "cond": {
+          "en": "When wielder's skill applies Electrification, the entire team gains ATK +21.0% for 20s.",
+          "es": "Cuando la habilidad del portador aplica Electrificación, todo el equipo obtiene ATQ +21.0% durante 20 s.",
+          "zh": "装备者通过自身技能施加导电后，全队攻击力+21.0%，持续20秒。",
+          "zh-TW": "裝備者透過自身技能施加導電後，全隊攻擊力+21.0%，持續20秒。",
+          "ja": "装備中、自身のスキルで敵を感電状態にすると、20秒間チーム全員の攻撃力+21.0%",
+          "ko": "장착자가 자신의 스킬로 감전을 부여한 후, 팀 전체의 공격력 +21.0%, 20초 동안 지속."
+        },
+        "mods": [
+          {
+            "type": "atkPct",
+            "byNode": [
+              0.075,
+              0.09,
+              0.105,
+              0.12,
+              0.135,
+              0.15,
+              0.165,
+              0.18,
+              0.21
+            ]
+          }
+        ],
+        "trigger": {
+          "onApplyReaction": "electrification"
+        },
+        "durS": 20,
+        "noStack": true
+      },
+      {
+        "id": "lunar_calling_elec",
+        "src": "Infliction: Coursing Stars",
+        "target": "self",
+        "label": {
+          "en": "Infliction: Coursing Stars (Electric DMG)",
+          "es": "Imposición: Estrellas fugaces (DAÑ eléctrico)",
+          "zh": "附术·垂星渡野（电磁伤害）",
+          "zh-TW": "附術·垂星渡野（電磁傷害）",
+          "ja": "付術・星流る荒野（電磁ダメージ）",
+          "ko": "고통 · 별빛의 들판 (전기 피해)"
+        },
+        "cond": {
+          "en": "When the wielder consumes Arts Infliction, the wielder gains Electric DMG Dealt +33.6% for 20s.",
+          "es": "Cuando el portador consume Imposición de artes, obtiene DAÑ eléctrico infligido +33.6% durante 20 s.",
+          "zh": "装备者消耗法术附着后，电磁伤害+33.6%，持续20秒。",
+          "zh-TW": "裝備者消耗法術附著後，電磁傷害+33.6%，持續20秒。",
+          "ja": "自身がアーツ付着を消費すると、20秒間電磁ダメージ+33.6%",
+          "ko": "장착자가 아츠 부착을 소모한 후, 전기 피해 +33.6%, 20초 동안 지속."
+        },
+        "mods": [
+          {
+            "type": "dmgAdd",
+            "element": "electric",
+            "byNode": [
+              0.12,
+              0.144,
+              0.168,
+              0.192,
+              0.216,
+              0.24,
+              0.264,
+              0.288,
+              0.336
+            ]
+          }
+        ],
+        "trigger": {
+          "onConsume": [
+            "heat_infl",
+            "electric_infl",
+            "cryo_infl",
+            "nature_infl"
+          ]
+        },
+        "durS": 20,
+        "noStack": true
+      }
+    ]
   }
  }
 }

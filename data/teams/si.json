@@ -416,6 +416,101 @@
               }
             }
           ]
+        },
+        {
+          "name": {
+            "es": "终末协约攻略组: arranque y burst con Corrosion de 4",
+            "en": "终末协约攻略组: start-up and burst with 4-stack Corrosion"
+          },
+          "description": {
+            "es": "La P3 del video de Si de 终末协约攻略组, narrada por 棉被, con este mismo cuarteto y Si en la Posición 01 para acortar su propio Combo. La lógica: juntar 4 acumulaciones de Cryo Infliction y convertirlas con la Battle Skill de Arcane en una Corrosion de nivel 4, que reduce mucho la resistencia y dispara el Combo de Si. El autor avisa de que es más exigente que sus otros equipos: el momento de la Corrosion y el SP están justos, y conviene cambiar de personaje controlado para que Si y Tangtang aprovechen el buff de la Battle Skill de Xaihi.",
+            "en": "Part 3 of 终末协约攻略组's Si video, narrated by 棉被, with this same quartet and Si in Team Position 01 to shorten her own Combo. The logic: build 4 Cryo Infliction stacks and turn them, with Arcane's Battle Skill, into a level-4 Corrosion that cuts resistance hard and fires Si's Combo. The author warns it is more demanding than their other teams: Corrosion timing and SP are tight, and you should switch the controlled operator so both Si and Tangtang get the buff from Xaihi's Battle Skill."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Arranque",
+                "en": "Start-up"
+              },
+              "action": {
+                "es": "Battle Skills de Xaihi y Si → Combos de Arcane y Tangtang → Final Strike de Si y de Tangtang → Combos de Xaihi y Tangtang → Battle Skill de Tangtang → Battle Skill y Combo de Arcane seguidos.",
+                "en": "Xaihi's and Si's Battle Skills → Arcane's and Tangtang's Combos → Final Strike with Si and with Tangtang → Xaihi's and Tangtang's Combos → Tangtang's Battle Skill → Arcane's Battle Skill and Combo back to back."
+              },
+              "steps": [
+                {
+                  "who": "xaihi",
+                  "do": {
+                    "es": "Controlando a Si, Battle Skills de Xaihi y de Si; los Combos de Arcane y de Tangtang en cuanto salgan.",
+                    "en": "Controlling Si, Xaihi's and Si's Battle Skills; Arcane's and Tangtang's Combos as soon as they come out."
+                  }
+                },
+                {
+                  "who": "si",
+                  "do": {
+                    "es": "Una Final Strike con Si y otra con Tangtang, para que las dos aprovechen la Battle Skill de Xaihi. Con el Combo de Tangtang listo, los de Xaihi y Tangtang juntos: dos Whirlpools.",
+                    "en": "One Final Strike with Si and another with Tangtang, so both get Xaihi's Battle Skill. With Tangtang's Combo ready, Xaihi's and Tangtang's together: two Whirlpools."
+                  }
+                },
+                {
+                  "who": "arcane",
+                  "do": {
+                    "es": "Con los Combos de Arcane y Tangtang listos, Battle Skill de Tangtang (4.ª acumulación). Luego Battle Skill de Arcane y en seguida su Combo: la Battle Skill convierte las 4 en Corrosion y, según el autor, el Combo pulsado justo después sigue poniendo Cryo. Si tardas, pone Nature y hace falta otra Infliction para compensar.",
+                    "en": "With Arcane's and Tangtang's Combos ready, Tangtang's Battle Skill (4th stack). Then Arcane's Battle Skill and right away her Combo: the Battle Skill turns the 4 into Corrosion and, per the author, the Combo pressed right after still puts Cryo. If you are slow, it puts Nature and you need another Infliction to make up for it."
+                  },
+                  "key": true
+                },
+                {
+                  "who": "si",
+                  "do": {
+                    "es": "Final Strikes para el SP. Con el Combo de Arcane a medio cooldown, Battle Skill de Xaihi y otra Final Strike con Si y con Tangtang; con el Combo de Tangtang listo, Battle Skill de Si para guardar daño.",
+                    "en": "Final Strikes for SP. With Arcane's Combo halfway through its cooldown, Xaihi's Battle Skill and another Final Strike with Si and with Tangtang; with Tangtang's Combo ready, Si's Battle Skill to store damage."
+                  }
+                }
+              ]
+            },
+            {
+              "phase": {
+                "es": "Burst",
+                "en": "Burst"
+              },
+              "action": {
+                "es": "Con el enemigo cerca del Stagger: Combos de Xaihi y Arcane → Battle Skill de Arcane → Finisher → Ultimate de Xaihi → Battle Skill de Tangtang → Combo y Ultimate de Si → Ultimate de Arcane → Ultimate de Tangtang + Dive Attack → Combo de Arcane → Battle Skill de Arcane.",
+                "en": "With the enemy close to Stagger: Xaihi's and Arcane's Combos → Arcane's Battle Skill → Finisher → Xaihi's Ultimate → Tangtang's Battle Skill → Si's Combo and Ultimate → Arcane's Ultimate → Tangtang's Ultimate + Dive Attack → Arcane's Combo → Arcane's Battle Skill."
+              },
+              "steps": [
+                {
+                  "who": "arcane",
+                  "do": {
+                    "es": "Cuando el enemigo está por entrar en Stagger, el Combo de Arcane está listo y salió el de Xaihi: Combos de Xaihi y Arcane, y Battle Skill de Arcane para renovar la Corrosion y meterlo en Stagger. Por seguridad, Finisher.",
+                    "en": "When the enemy is about to be Staggered, Arcane's Combo is ready and Xaihi's has come out: Xaihi's and Arcane's Combos, and Arcane's Battle Skill to renew the Corrosion and Stagger it. To be safe, Finisher."
+                  },
+                  "key": true
+                },
+                {
+                  "who": "si",
+                  "do": {
+                    "es": "Ultimate de Xaihi, Battle Skill de Tangtang (Infliction), y Combo de Si seguido de su Ultimate, que le recorta el cooldown del Combo.",
+                    "en": "Xaihi's Ultimate, Tangtang's Battle Skill (Infliction), and Si's Combo followed by her Ultimate, which cuts her Combo cooldown."
+                  }
+                },
+                {
+                  "who": "tangtang",
+                  "do": {
+                    "es": "Ultimate de Arcane (2.ª acumulación, y sale el Combo de Tangtang). Ultimate de Tangtang y un Dive Attack (3.ª); Combo de Arcane (4.ª); Battle Skill de Arcane: Corrosion y segundo Combo de Si.",
+                    "en": "Arcane's Ultimate (2nd stack, and Tangtang's Combo comes out). Tangtang's Ultimate and a Dive Attack (3rd); Arcane's Combo (4th); Arcane's Battle Skill: Corrosion and Si's second Combo."
+                  },
+                  "key": true
+                },
+                {
+                  "who": "si",
+                  "do": {
+                    "es": "Si el daño alcanza, la tercera fase de la Battle Skill de Si cobra la marca y remata; si no, otra Battle Skill de Tangtang.",
+                    "en": "If the damage is enough, the third phase of Si's Battle Skill cashes in the mark and finishes; if not, another Tangtang Battle Skill."
+                  }
+                }
+              ]
+            }
+          ]
         }
       ],
       "skillPriority": [
@@ -644,6 +739,16 @@
             "swap": {
               "es": "Más de 7,5 skills: Type 50 Yinglung Heavy Armor T1 más una Slab en lugar del Redeemer Seal.",
               "en": "More than 7.5 skills: Type 50 Yinglung Heavy Armor T1 plus a Slab instead of the Redeemer Seal."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Fichas de 终末协约攻略组",
+              "en": "终末协约攻略组's cards"
+            },
+            "swap": {
+              "es": "Si: Type 50 Yinglung Soft Armor, Rift Trekker Gloves y dos Type 50 Yinglung Beacon. Tangtang: Bonekrusha Heavy Armor T2, Wristband T1 y Mask T2 con LYNX Slab. Xaihi: Eternal Xiranite Light Armor T1, Rift Trekker Gloves y dos Frontiers Extra O2 Tube T1. Arcane: Eternal Xiranite Light Armor con Hot Work Gloves y dos Hot Work Power Cartridge, para Arts Intensity y Ultimate Gain.",
+              "en": "Si: Type 50 Yinglung Soft Armor, Rift Trekker Gloves and two Type 50 Yinglung Beacons. Tangtang: Bonekrusha Heavy Armor T2, Wristband T1 and Mask T2 with LYNX Slab. Xaihi: Eternal Xiranite Light Armor T1, Rift Trekker Gloves and two Frontiers Extra O2 Tube T1. Arcane: Eternal Xiranite Light Armor with Hot Work Gloves and two Hot Work Power Cartridges, for Arts Intensity and Ultimate Gain."
             }
           }
         ]

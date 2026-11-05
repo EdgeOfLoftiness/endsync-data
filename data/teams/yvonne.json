@@ -114,7 +114,7 @@
           "en": "Boss / Single-target"
         },
         "tags": [
-          { "es": "Criogénico", "en": "Cryo", "jp": "寒冷", "zh": "寒冷" },
+          { "es": "Criogénico", "en": "Cryo", "jp": "寒冷", "zh": "寒冷", "zh-TW": "寒冷" },
           {
             "es": "Centrado en Ultimate",
             "en": "Ultimate-focused"
@@ -679,10 +679,10 @@
           }
         ]
       },
-      "rotationCode": "AX2MQQrCMBBFL_QXmczEpNkOuYCQA0QJGihViohCydmlm-qiuPk8eLx_pGXp7-dtmmokWDAEDmQ3TBJABKV1N_-ffuud-KuzyO5tf5V2bTFBiQ0SQ8lYJE9QFqilAZks90sbT3V-lKjBrMpDxTAyD_1e57GdS1QvUD44qFhCDu4D",
+      "rotationCode": "AY2LTQrCMBQGL_Qt-n7Sptk-cgEhB0glaKBUKSIKJWcXRIorcTUDwxxo29rzflmWEggMgcKBeNeoHo5gBPrqf1r8tSb27ZHruYYII-kQ5UMVWK9IwmM71Xkq6y0HGwkmOsC0k_d8LetcjznYoDDpHUyZkLx7AQ",
       "rotationCodeNote": {
-        "es": "Traducida de la guía (rotación 1+3). Adaptación nuestra: la barra de SP compartida de la sim no sostiene tantas Battle Skills, así que faltan la de Perlica del pre-ult y dos de Xaihi.",
-        "en": "Translated from the guide (the 1+3 rotation). Our adaptation: the sim's shared SP bar cannot sustain that many Battle Skills, so Perlica's pre-ult one and two of Xaihi's are left out."
+        "es": "Traducida de la guía (rotación 1+3). Adaptaciones nuestras: la barra de SP compartida de la sim no sostiene tantas Battle Skills, así que faltan la de Perlica del pre-ult y dos de Xaihi, y con ellas el Combo de Xaihi que encendían (su Combo sale cuando dos Final Strikes gastan las curaciones del Auxiliary Crystal). El básico tras la Battle Skill de Yvonne es su Final Strike instantáneo (talento Barrage of Technology). Cada Combo de Xaihi va tras el golpe del segundo Final Strike, y cada Combo de Gilberta tras el golpe del Combo de Perlica, que aplica la Electrification que lo enciende. Desde el 2026-10-14 la ult de Yvonne lleva dentro la ráfaga de su básico potenciado (75 disparos y el Final Strike, como en Endaxis), así que las dos cadenas de básico que la guía hace durante la ult no van como bloques aparte.",
+        "en": "Translated from the guide (the 1+3 rotation). Our adaptations: the sim's shared SP bar cannot sustain that many Battle Skills, so Perlica's pre-ult one and two of Xaihi's are left out, and with them the Xaihi Combo they lit (her Combo fires when two Final Strikes use up the Auxiliary Crystal's heals). The basic after Yvonne's Battle Skill is her instant Final Strike (Barrage of Technology talent). Each Xaihi Combo goes after the second Final Strike lands, and each Gilberta Combo after Perlica's Combo hits, which applies the Electrification that lights it. Since 2026-10-14 Yvonne's ultimate includes the burst of her enhanced basic attack (75 shots and the Final Strike, as in Endaxis), so the two basic-attack chains the guide performs during the ultimate are not separate blocks."
       },
       "rotationBurstAt": 40.5
     },
@@ -780,7 +780,7 @@
           "en": "General / Daily"
         },
         "tags": [
-          { "es": "Criogénico", "en": "Cryo", "jp": "寒冷", "zh": "寒冷" },
+          { "es": "Criogénico", "en": "Cryo", "jp": "寒冷", "zh": "寒冷", "zh-TW": "寒冷" },
           {
             "es": "Flexible",
             "en": "Flexible"
@@ -1051,7 +1051,7 @@
           "weaponId": "wpn_pistol_0010",
           "gearRec": [
             "mi_security_overalls",
-            "mi_security_armband",
+            "mi_security_hands_ppe",
             "mi_security_toolkit",
             "mi_security_toolkit"
           ],
@@ -1060,8 +1060,8 @@
             "en": "Priority: Artzy Tyrannical (BIS) > Wedge > Navigator. Artzy carries Crit Rate and a good chunk of Cryo DMG, exactly what Yvonne needs. Wedge reaches ~84% of Artzy at 0 potential (and at max potential can beat a 0 potential Artzy); Navigator, from the battle pass, ~79% 0 potential / 88% max potential and is easy to get. The other weapons have values too poor to spend investment on."
           },
           "gearNote": {
-            "es": "MI Security (4 piezas): Overalls + Armband + 2× Toolkit. Sus skills y talento dan mucho Crit DMG, así que el set de crítico es obligado, y los guantes/accesorios escalan Basic ATK DMG porque TODO el Ultimate cuenta como básico. El reparto da ~26.8% de Basic ATK DMG y ~20.7% de Crit Rate; con el 10% del set y el 5% propia llegas a ~35.7% (41.9% a refinado al máximo). El resto del Crit sale del arma — no pases del soft cap (su Ultimate ya da 30%). Late con todo al máximo: puedes cambiar un Toolkit por LYNX Slab (Main Attribute% que multiplica el Intellect).",
-            "en": "MI Security (4 pieces): Overalls + Armband + 2× Toolkit. Her skills and talent give a lot of Crit DMG, so the crit set is mandatory, and the gloves/accessories scale Basic ATK DMG because her ENTIRE Ultimate counts as basic. The split gives ~26.8% Basic ATK DMG and ~20.7% Crit Rate; with the set's 10% and her own 5% you reach ~35.7% (41.9% maxed). The rest of the Crit comes from the weapon — don't pass the soft cap (her Ultimate already gives 30%). Late game with everything maxed: you can swap a Toolkit for LYNX Slab (Main Attribute% that multiplies Intellect)."
+            "es": "MI Security (4 piezas): Overalls + Hands PPE + 2× Toolkit. Sus skills y talento dan mucho Crit DMG, así que el set de crítico es obligado, y los guantes/accesorios escalan Basic ATK DMG porque TODO el Ultimate cuenta como básico. El reparto da ~26.8% de Basic ATK DMG y ~20.7% de Crit Rate; con el 10% del set y el 5% propia llegas a ~35.7% (41.9% a refinado al máximo). El resto del Crit sale del arma — no pases del soft cap (su Ultimate ya da 30%). Late con todo al máximo: puedes cambiar un Toolkit por LYNX Slab (Main Attribute% que multiplica el Intellect).",
+            "en": "MI Security (4 pieces): Overalls + Hands PPE + 2× Toolkit. Her skills and talent give a lot of Crit DMG, so the crit set is mandatory, and the gloves/accessories scale Basic ATK DMG because her ENTIRE Ultimate counts as basic. The split gives ~26.8% Basic ATK DMG and ~20.7% Crit Rate; with the set's 10% and her own 5% you reach ~35.7% (41.9% maxed). The rest of the Crit comes from the weapon — don't pass the soft cap (her Ultimate already gives 30%). Late game with everything maxed: you can swap a Toolkit for LYNX Slab (Main Attribute% that multiplies Intellect)."
           },
           "deepNote": {
             "es": "Yvonne es una hyper-carry que no puede arrancar su propio motor: no aplica Inflictions fuera del Ultimate, así que el equipo existe para ponerle Cryo/Nature. Acumulas Inflictions y las consumes de golpe con su Battle Skill, que fuerza Solidification (no pega sola, pero suma daño al Battle Skill por capa y, sobre todo, genera energía). El talento le deja un Final Strike instantáneo tras Solidificar, y ese Final Strike dispara su Combo, que vuelve a aplicar Solidification con un retraso — por eso el Combo es la última acción antes de ultear. El Ultimate cuesta 220 y es casi todo su daño: ~7s de fuego rápido que apila Crit (a tope +30% Crit Rate y +60% Crit DMG) y termina con un disparo enorme que consume la Solidification. El Crit Rate es su mejor stat (su talento da Crit DMG contra Cryo, el doble si está Solidificado), de ahí el soft cap del 70%.",
@@ -1251,7 +1251,7 @@
           "en": "Boss / Single-target"
         },
         "tags": [
-          { "es": "Criogénico", "en": "Cryo", "jp": "寒冷", "zh": "寒冷" },
+          { "es": "Criogénico", "en": "Cryo", "jp": "寒冷", "zh": "寒冷", "zh-TW": "寒冷" },
           {
             "es": "Buffer premium",
             "en": "Premium buffer"
@@ -1474,7 +1474,7 @@
           "weaponId": "wpn_pistol_0010",
           "gearRec": [
             "mi_security_overalls",
-            "mi_security_armband",
+            "mi_security_hands_ppe",
             "mi_security_toolkit",
             "mi_security_toolkit"
           ],
@@ -1483,8 +1483,8 @@
             "en": "Artzy Tyrannical (BIS) > Wedge > Navigator — same as the daily comp."
           },
           "gearNote": {
-            "es": "MI Security (4 piezas): Overalls + Armband + 2× Toolkit, por Crit + Basic ATK DMG (su Ultimate cuenta como básico). Soft cap de Crit en 70%.",
-            "en": "MI Security (4 pieces): Overalls + Armband + 2× Toolkit, for Crit + Basic ATK DMG (her Ultimate counts as basic). Crit soft cap at 70%."
+            "es": "MI Security (4 piezas): Overalls + Hands PPE + 2× Toolkit, por Crit + Basic ATK DMG (su Ultimate cuenta como básico). Soft cap de Crit en 70%.",
+            "en": "MI Security (4 pieces): Overalls + Hands PPE + 2× Toolkit, for Crit + Basic ATK DMG (her Ultimate counts as basic). Crit soft cap at 70%."
           },
           "deepNote": {
             "es": "Sin cambios respecto a la comp diaria: hyper-carry que consume Cryo/Nature con su Battle Skill para forzar Solidification, encadena Final Strike → Combo, y descarga casi todo su daño en un Ultimate de 220 que apila Crit. La única diferencia en esta versión es de ritmo — con Ardelia en vez de un aplicador, su Ultimate ciclo de recarga más lento.",
@@ -1674,7 +1674,8 @@
             "es": "Criogénico",
             "en": "Cryo",
             "jp": "寒冷",
-            "zh": "寒冷"
+            "zh": "寒冷",
+            "zh-TW": "寒冷"
           },
           {
             "es": "Corrosion",
@@ -2090,6 +2091,7 @@
           "weaponId": "wpn_funnel_0016",
           "gearRec": [
             "eternal_xiranite_light_armor",
+            "aic_fieldwork_hands",
             "eternal_xiranite_auxiliary_arm",
             "eternal_xiranite_bracing_slab"
           ],
@@ -2307,7 +2309,8 @@
             "es": "Criogénico",
             "en": "Cryo",
             "jp": "寒冷",
-            "zh": "寒冷"
+            "zh": "寒冷",
+            "zh-TW": "寒冷"
           },
           {
             "es": "Solidification en bucle",
@@ -6100,6 +6103,95 @@
           }
         }
       ],
+      "rotationVariants": [
+        {
+          "name": {
+            "es": "Raaay丶: bucle corto sin pensar",
+            "en": "Raaay丶: short no-brain loop"
+          },
+          "description": {
+            "es": "Del video de Raaay丶 con este mismo cuarteto. Es un bucle corto que, según el autor, se repite sin más: el SP y los cooldowns de los Combos quedan alineados, y en el tiempo de dos Final Strikes vuelven los Combos de los cuatro. Para entrar al bucle hacen falta dos barras de SP y el Combo de Arcane listo; con un Finisher no hace falta esperar a que el Combo de Arcane vuelva del todo. El Ultimate de Arcane va siempre después del de Si.",
+            "en": "From Raaay丶's video with this same quartet. It is a short loop that, per the author, simply repeats: SP and Combo cooldowns stay aligned, and in the time of two Final Strikes all four Combos come back. Entering the loop takes two SP bars and Arcane's Combo ready; with a Finisher you do not need to wait for Arcane's Combo to fully come back. Arcane's Ultimate always goes after Si's."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Bucle",
+                "en": "Loop"
+              },
+              "action": {
+                "es": "Battle Skill de Xaihi + Final Strike → Battle Skill de Si + Final Strike → Combos de Arcane y Xaihi → Ultimates de Xaihi, Si y Arcane → Battle Skill de Yvonne → Combos → Ultimate de Yvonne → segunda fase del Ultimate de Arcane → Battle Skill y Combo de Xaihi → Battle Skill de Yvonne → Combos de Si y Yvonne.",
+                "en": "Xaihi's Battle Skill + Final Strike → Si's Battle Skill + Final Strike → Arcane's and Xaihi's Combos → Xaihi's, Si's and Arcane's Ultimates → Yvonne's Battle Skill → Combos → Yvonne's Ultimate → second phase of Arcane's Ultimate → Xaihi's Battle Skill and Combo → Yvonne's Battle Skill → Si's and Yvonne's Combos."
+              },
+              "steps": [
+                {
+                  "who": "xaihi",
+                  "do": {
+                    "es": "Battle Skill de Xaihi y una Final Strike; Battle Skill de Si y otra Final Strike.",
+                    "en": "Xaihi's Battle Skill and a Final Strike; Si's Battle Skill and another Final Strike."
+                  }
+                },
+                {
+                  "who": "arcane",
+                  "do": {
+                    "es": "Combos de Arcane y Xaihi, y las Ultimates de Xaihi, Si y Arcane, con la de Arcane siempre después de la de Si.",
+                    "en": "Arcane's and Xaihi's Combos, and Xaihi's, Si's and Arcane's Ultimates, with Arcane's always after Si's."
+                  },
+                  "key": true
+                },
+                {
+                  "who": "yvonne",
+                  "do": {
+                    "es": "Al terminar la animación, Battle Skill de Yvonne para consumir las 4 acumulaciones de Cryo, luego los Combos y en seguida el Ultimate de Yvonne.",
+                    "en": "When the animation ends, Yvonne's Battle Skill to consume the 4 Cryo stacks, then the Combos and right away Yvonne's Ultimate."
+                  },
+                  "key": true
+                },
+                {
+                  "who": "arcane",
+                  "do": {
+                    "es": "Al terminar el Ultimate de Yvonne, segunda fase del Ultimate de Arcane. Combo de Xaihi y dos Final Strikes, y el Combo de Xaihi en cuanto salga.",
+                    "en": "When Yvonne's Ultimate ends, second phase of Arcane's Ultimate. Xaihi's Combo and two Final Strikes, and Xaihi's Combo as soon as it comes out."
+                  }
+                },
+                {
+                  "who": "yvonne",
+                  "do": {
+                    "es": "Combo de Arcane y Battle Skill de Yvonne, con los Combos de Si y de Yvonne. Vuelta al principio.",
+                    "en": "Arcane's Combo and Yvonne's Battle Skill, with Si's and Yvonne's Combos. Back to the start."
+                  }
+                }
+              ]
+            },
+            {
+              "phase": {
+                "es": "Arranque en frío",
+                "en": "Cold start"
+              },
+              "action": {
+                "es": "Battle Skill de Xaihi + Final Strike → Battle Skill de Si → Combos de Arcane y Xaihi → Battle Skill de Yvonne → Combos de Si y Yvonne → al bucle.",
+                "en": "Xaihi's Battle Skill + Final Strike → Si's Battle Skill → Arcane's and Xaihi's Combos → Yvonne's Battle Skill → Si's and Yvonne's Combos → into the loop."
+              },
+              "steps": [
+                {
+                  "who": "xaihi",
+                  "do": {
+                    "es": "Como en el bucle, Battle Skill de Xaihi y una Final Strike, y luego la Battle Skill de Si. El Combo de Arcane puede ir antes o junto al de Xaihi.",
+                    "en": "As in the loop, Xaihi's Battle Skill and a Final Strike, then Si's Battle Skill. Arcane's Combo can go before or together with Xaihi's."
+                  }
+                },
+                {
+                  "who": "yvonne",
+                  "do": {
+                    "es": "Con la Cryo puesta, Battle Skill de Yvonne para consumirla y Combos de Si y de Yvonne; después, directo al bucle.",
+                    "en": "With the Cryo on, Yvonne's Battle Skill to consume it and Si's and Yvonne's Combos; then straight into the loop."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "skillPriority": [
         {
           "charId": "si",
@@ -6160,6 +6252,16 @@
           "verdict": {
             "es": "El DPS más alto del video según el autor: 86K en 60 segundos.",
             "en": "The highest DPS in the video per the author: 86K over 60 seconds."
+          }
+        },
+        {
+          "name": {
+            "es": "烟花弎月xyz - Si · Arcane (WILL) · Tangtang",
+            "en": "烟花弎月xyz - Si · Arcane (WILL) · Tangtang"
+          },
+          "verdict": {
+            "es": "Tangtang en lugar de Xaihi: más sencilla y con más Stagger. Ese autor da también la versión con Xaihi: más techo, un eje más estricto (la Battle Skill de Xaihi antes de la segunda vuelta) y una vuelta completa en 1:32 en la P2 de su video.",
+            "en": "Tangtang instead of Xaihi: simpler and with more Stagger. That author also gives the Xaihi version: higher ceiling, a stricter axis (Xaihi's Battle Skill before the second loop) and a full run in 1:32 in part 2 of the video."
           }
         }
       ],
@@ -6281,6 +6383,26 @@
             "swap": {
               "es": "Wedge (91% a P0, 99% a P5) o Navigator (89% / 95%).",
               "en": "Wedge (91% at P0, 99% at P5) or Navigator (89% / 95%)."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Builds de Raaay丶",
+              "en": "Raaay丶's builds"
+            },
+            "swap": {
+              "es": "Yvonne: MI Security Overalls, Hands PPE y Toolkit con LYNX Slab. Si: Eternal Xiranite Overalls, Gloves y Power Core con Redeemer Seal; umbral de Ultimate Gain de 152,4% en el bucle y 188,3% en el arranque en frío. El autor recomienda ir a Ultimate Gain completo si Si va de soporte. Arcane, con un umbral de 217,4%: Eternal Xiranite Light Armor, Wraps, Auxiliary Arm y Bracing Slab, tres piezas de Ultimate Gain y una de atributo secundario. Xaihi, con 137,2%: Redeemer Armor, Rift Trekker Gloves y dos Frontiers Extra O2 Tube T1, dos piezas de Ultimate Gain y dos de atributo secundario.",
+              "en": "Yvonne: MI Security Overalls, Hands PPE and Toolkit with LYNX Slab. Si: Eternal Xiranite Overalls, Gloves and Power Core with Redeemer Seal; Ultimate Gain threshold of 152.4% in the loop and 188.3% on the cold start. The author recommends full Ultimate Gain if Si plays support. Arcane, with a 217.4% threshold: Eternal Xiranite Light Armor, Wraps, Auxiliary Arm and Bracing Slab, three Ultimate Gain pieces and one secondary-attribute piece. Xaihi, with 137.2%: Redeemer Armor, Rift Trekker Gloves and two Frontiers Extra O2 Tube T1, two Ultimate Gain pieces and two secondary-attribute pieces."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Xaihi según 烟花弎月xyz",
+              "en": "Xaihi per 烟花弎月xyz"
+            },
+            "swap": {
+              "es": "Solo Chivalric Virtues: en su eje Xaihi casi no activa Detonation Unit. Eternal Xiranite con piezas sueltas de Ultimate Gain y atributo secundario, o completo de Ultimate Gain para ir más cómodo.",
+              "en": "Chivalric Virtues only: on that axis Xaihi barely triggers Detonation Unit. Eternal Xiranite with loose Ultimate Gain and secondary-attribute pieces, or full Ultimate Gain for comfort."
             }
           }
         ]
@@ -6693,6 +6815,497 @@
             "swap": {
               "es": "Si esperas a la «7.ª» skill antes del burst: Bonekrusha Heavy Armor T2 en lugar de la Heavy Armor base.",
               "en": "If you wait for the \"7th\" skill before the burst: Bonekrusha Heavy Armor T2 instead of the base Heavy Armor."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": {
+        "es": "烟花弎月xyz - Si · Arcane (WILL) · Tangtang",
+        "en": "烟花弎月xyz - Si · Arcane (WILL) · Tangtang"
+      },
+      "subtitle": {
+        "es": "Si · Arcane (WILL) · Tangtang",
+        "en": "Si · Arcane (WILL) · Tangtang"
+      },
+      "blurb": {
+        "es": "Yvonne con Si, Arcane en forma WILL y Tangtang, en la versión que el autor llama la más sencilla: Si resuelve el problema de Yvonne de quedarse sin Arts Infliction para su Battle Skill y su Combo. Con eje para Yvonne a potencial 1 y a potencial 0, y Arcane en la Posición 01.",
+        "en": "Yvonne with Si, WILL-form Arcane and Tangtang, in the version the author calls the simplest: Si fixes Yvonne's problem of running out of Arts Infliction for her Battle Skill and Combo. With an axis for Yvonne at Potential 1 and at Potential 0, and Arcane in Team Position 01."
+      },
+      "guideVideoId": "yv12",
+      "simple": {
+        "whatItDoes": {
+          "es": "Yvonne es la carry. Su Battle Skill consume las acumulaciones de Cryo (o Nature) Infliction del enemigo, fuerza Solidification y pega según cuántas consumió; después, su siguiente ataque básico es una Final Strike, y su Combo sale con una Final Strike sobre un enemigo con Solidification. Si le asegura la Cryo Infliction con su Battle Skill, su Combo sale con cada consumo y su Ultimate da Cryo Amp. Arcane en forma WILL añade acumulaciones con su Combo y va en la Posición 01, para que el Ultimate de Si le recorte el cooldown del Combo. Tangtang suma Cryo con su Battle Skill.",
+          "en": "Yvonne is the carry. Her Battle Skill consumes the enemy's Cryo (or Nature) Infliction stacks, forces Solidification and hits based on how many it consumed; after that, her next basic attack is a Final Strike, and her Combo fires on a Final Strike against a Solidified enemy. Si secures the Cryo Infliction with her Battle Skill, her Combo fires with every consumption and her Ultimate gives Cryo Amp. WILL-form Arcane adds stacks with her Combo and sits in Team Position 01, so Si's Ultimate cuts her Combo cooldown. Tangtang adds Cryo with her Battle Skill."
+        },
+        "steps": [
+          {
+            "who": "si",
+            "do": {
+              "es": "Battle Skill de Si y los dos Combos que salen.",
+              "en": "Si's Battle Skill and the two Combos that come out."
+            }
+          },
+          {
+            "who": "yvonne",
+            "do": {
+              "es": "Battle Skill de Yvonne, Final Strike y los dos Combos que salen.",
+              "en": "Yvonne's Battle Skill, Final Strike and the two Combos that come out."
+            }
+          },
+          {
+            "who": "yvonne",
+            "do": {
+              "es": "Básicos hasta que estalle la marca de Si (20 s); para entonces hay dos barras y media de SP. Repite lo anterior.",
+              "en": "Basics until Si's mark bursts (20 s); by then there are two and a half SP bars. Repeat the above."
+            }
+          },
+          {
+            "who": "si",
+            "do": {
+              "es": "Ultimates de Yvonne y de Si en seguida: el de Si recarga el Combo de Arcane. Battle Skill de Tangtang con 3 Waterspouts para sacar ese Combo.",
+              "en": "Yvonne's and Si's Ultimates right away: Si's recharges Arcane's Combo. Tangtang's Battle Skill with 3 Waterspouts to bring that Combo out."
+            }
+          },
+          {
+            "who": "yvonne",
+            "do": {
+              "es": "Al terminar el Ultimate de Yvonne, su Combo ya está listo: otra Battle Skill de Yvonne, Final Strike y los dos Combos cierran el ciclo.",
+              "en": "When Yvonne's Ultimate ends, her Combo is already ready: another Yvonne Battle Skill, Final Strike and the two Combos close the cycle."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "yvonne",
+            "line": {
+              "es": "MI Security al 3 (Overalls, Hands PPE, Toolkit) con LYNX Slab.",
+              "en": "3-piece MI Security (Overalls, Hands PPE, Toolkit) with LYNX Slab."
+            }
+          },
+          {
+            "id": "si",
+            "line": {
+              "es": "Ultimate Gain al máximo: el autor recomienda el set gratuito de prueba AIC Fieldwork (Plate, Hands, dos Ember).",
+              "en": "Max Ultimate Gain: the author recommends the free AIC Fieldwork trial set (Plate, Hands, two Embers)."
+            }
+          },
+          {
+            "id": "arcane",
+            "line": {
+              "es": "Eternal Xiranite al 4 (Light Armor, Wraps, dos Bracing Slab); más barato, con AIC Fieldwork Wraps y Auxiliary Arm.",
+              "en": "4-piece Eternal Xiranite (Light Armor, Wraps, two Bracing Slabs); cheaper, with AIC Fieldwork Wraps and Auxiliary Arm."
+            }
+          },
+          {
+            "id": "tangtang",
+            "line": {
+              "es": "Bonekrusha al 3 (Heavy Armor T2, dos Mask T2) con MI Security Gloves.",
+              "en": "3-piece Bonekrusha (Heavy Armor T2, two Mask T2) with MI Security Gloves."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "Para el autor, lo mejor de este equipo es que Si resuelve el problema de Yvonne de lanzar su Battle Skill o su Combo sin Arts Infliction en el enemigo: la Battle Skill de Si aplica Cryo de forma fiable. Gilberta puede ocupar un asiento, pero no aplica Cryo de forma estable y en sus pruebas se trababa. Para el 4.º asiento compiten Tangtang y Xaihi: Tangtang es más sencilla, provoca más Stagger y tiene un suelo más alto; Xaihi pide un eje más estricto por su Combo de dos Final Strikes, pero tiene más techo (es el equipo de Maygi en esta lista). La Posición 01 la ocupa Arcane. El Ultimate de Si recorta 20 s el cooldown del Combo de quien esté ahí, y lo lógico parecería poner a Yvonne o a Si. Pero en este equipo Si necesita mucha energía y no hace tanto daño, y el Combo de Yvonne ya está listo al terminar su Ultimate. El Combo de Arcane, en cambio, la apoya durante el Ultimate de Yvonne y añade Arts Infliction, lo que sube la siguiente Battle Skill de Yvonne y el Combo de Si y prepara la siguiente vuelta. El video demuestra el eje para Yvonne a potencial 1 (la clave es su potencial 1, que suma Ultimate Energy a su Combo; a potencial 0, una pieza de armadura con Ultimate Gain da un efecto parecido) y a potencial 0, con una Battle Skill de Tangtang más. Las vueltas completas, con tiempos de 1:32 (Xaihi) y 1:58 (Tangtang), van en las páginas siguientes del video.",
+        "en": "For the author, the best thing about this team is that Si fixes Yvonne's problem of casting her Battle Skill or Combo with no Arts Infliction on the enemy: Si's Battle Skill applies Cryo reliably. Gilberta can take a seat, but she does not apply Cryo reliably and stalled in the author's tests. Tangtang and Xaihi compete for the 4th seat: Tangtang is simpler, causes more Stagger and has a higher floor; Xaihi needs a stricter axis because of her two-Final-Strike Combo, but has a higher ceiling (that is Maygi's team in this list). Team Position 01 goes to Arcane. Si's Ultimate cuts 20 s off the Combo cooldown of whoever is there, and Yvonne or Si would seem the obvious picks. But in this team Si needs a lot of energy and does not deal that much damage, and Yvonne's Combo is already ready when her Ultimate ends. Arcane's Combo, on the other hand, supports her during Yvonne's Ultimate and adds Arts Infliction, which raises Yvonne's next Battle Skill and Si's Combo and sets up the next loop. The video shows the axis for Yvonne at Potential 1 (the key is her Potential 1, which adds Ultimate Energy to her Combo; at Potential 0, an armor piece with Ultimate Gain gives a similar effect) and at Potential 0, with one more Tangtang Battle Skill. The full runs, with times of 1:32 (Xaihi) and 1:58 (Tangtang), are in the video's later parts."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Baja con Tangtang; más exigente con Xaihi",
+          "en": "Low with Tangtang; harder with Xaihi"
+        },
+        "content": {
+          "es": "Jefe y mundo abierto",
+          "en": "Boss and open world"
+        },
+        "tags": [
+          {
+            "es": "Cryo",
+            "en": "Cryo"
+          },
+          {
+            "es": "Arcane en Posición 01",
+            "en": "Arcane in Position 01"
+          },
+          {
+            "es": "Potencial 1 o 0",
+            "en": "Potential 1 or 0"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "La Battle Skill de Si asegura la Cryo Infliction: Yvonne deja de lanzar Battle Skills y Combos en vacío.",
+          "en": "Si's Battle Skill secures the Cryo Infliction: Yvonne stops casting Battle Skills and Combos into nothing."
+        },
+        {
+          "es": "Contra enemigos que se mueven mucho, el autor dice que Si permite «rechazar la interacción» una vez dominadas las fases de su Battle Skill (el Inksoul de Initial Stroke da algo quieto a lo que pegar).",
+          "en": "Against enemies that move a lot, the author says Si lets you \"refuse to interact\" once you master her Battle Skill's phases (Initial Stroke's Inksoul gives you something stationary to hit)."
+        },
+        {
+          "es": "Con Tangtang, más Stagger y un suelo más alto; el autor lo recomienda para limpiar el mundo abierto sin pensar.",
+          "en": "With Tangtang, more Stagger and a higher floor; the author recommends it for clearing the open world without thinking."
+        },
+        {
+          "es": "Tiene eje para Yvonne a potencial 0.",
+          "en": "It has an axis for Yvonne at Potential 0."
+        }
+      ],
+      "cons": [
+        {
+          "es": "Si necesita mucha Ultimate Gain en este equipo, así que aporta poco daño propio.",
+          "en": "Si needs a lot of Ultimate Gain in this team, so she adds little damage of her own."
+        },
+        {
+          "es": "Hay que dominar las fases de la Battle Skill de Si para que el equipo sea fácil.",
+          "en": "You need to master the phases of Si's Battle Skill for the team to feel easy."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "Si alimenta la Battle Skill de Yvonne",
+            "en": "Si feeds Yvonne's Battle Skill"
+          },
+          "body": {
+            "es": "La Battle Skill de Yvonne necesita Cryo o Nature Infliction para consumirla y forzar Solidification, y su Combo sale con una Final Strike sobre un enemigo con Solidification. La Battle Skill de Si pone Cryo Infliction cada vez, y su Combo sale con cada consumo: cada Battle Skill de Yvonne trae también un Combo de Si.",
+            "en": "Yvonne's Battle Skill needs Cryo or Nature Infliction to consume it and force Solidification, and her Combo fires on a Final Strike against a Solidified enemy. Si's Battle Skill puts Cryo Infliction every time, and her Combo fires with every consumption: each Yvonne Battle Skill also brings a Si Combo."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Arcane en la Posición 01",
+            "en": "Arcane in Team Position 01"
+          },
+          "body": {
+            "es": "El talento del Ultimate de Si recorta el cooldown del Combo de quien está en la Posición 01. El autor se lo da a Arcane: su Combo en forma WILL añade otra acumulación del mismo elemento y aplica Cryo Susceptibility, así que en el Ultimate de Yvonne la apoya y deja Infliction para la siguiente Battle Skill de Yvonne y el siguiente Combo de Si.",
+            "en": "The talent on Si's Ultimate cuts the Combo cooldown of whoever is in Team Position 01. The author gives it to Arcane: her WILL-form Combo adds another stack of the same element and applies Cryo Susceptibility, so during Yvonne's Ultimate it supports her and leaves Infliction for Yvonne's next Battle Skill and Si's next Combo."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "El ritmo de la marca de Si",
+            "en": "The rhythm of Si's mark"
+          },
+          "body": {
+            "es": "La vuelta se apoya en el Artful Intent de Si, que dura 20 s: cuando estalla, el equipo ha juntado dos barras y media de SP, justo lo que cuesta repetir la secuencia de Battle Skills. Así el daño guardado se cobra entero en cada vuelta.",
+            "en": "The loop leans on Si's Artful Intent, which lasts 20 s: when it bursts, the team has built two and a half SP bars, exactly what repeating the Battle Skill sequence costs. That way the stored damage is cashed in full every loop."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Yvonne a potencial 1: dos vueltas cortas",
+            "en": "Yvonne at Potential 1: two short loops"
+          },
+          "action": {
+            "es": "Battle Skill de Si + 2 Combos → Battle Skill de Yvonne + Final Strike + 2 Combos → básicos hasta que estalle la marca de Si → repetir.",
+            "en": "Si's Battle Skill + 2 Combos → Yvonne's Battle Skill + Final Strike + 2 Combos → basics until Si's mark bursts → repeat."
+          },
+          "steps": [
+            {
+              "who": "si",
+              "do": {
+                "es": "Battle Skill de Si y los dos Combos que salen.",
+                "en": "Si's Battle Skill and the two Combos that come out."
+              }
+            },
+            {
+              "who": "yvonne",
+              "do": {
+                "es": "Battle Skill de Yvonne, Final Strike y los dos Combos que salen.",
+                "en": "Yvonne's Battle Skill, Final Strike and the two Combos that come out."
+              },
+              "key": true
+            },
+            {
+              "who": "yvonne",
+              "do": {
+                "es": "Básicos sin parar hasta que estalle el Artful Intent de Si (20 s). Para entonces hay dos barras y media de SP: repite los dos pasos anteriores.",
+                "en": "Basic attacks nonstop until Si's Artful Intent bursts (20 s). By then there are two and a half SP bars: repeat the two steps above."
+              }
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Burst",
+            "en": "Burst"
+          },
+          "action": {
+            "es": "Ultimates de Yvonne y Si → Battle Skill de Tangtang con 3 Waterspouts → Combo de Arcane → (al terminar el Ultimate de Yvonne) Battle Skill de Yvonne + Final Strike + 2 Combos.",
+            "en": "Yvonne's and Si's Ultimates → Tangtang's Battle Skill with 3 Waterspouts → Arcane's Combo → (when Yvonne's Ultimate ends) Yvonne's Battle Skill + Final Strike + 2 Combos."
+          },
+          "steps": [
+            {
+              "who": "si",
+              "do": {
+                "es": "Ultimates de Yvonne y de Si en seguida. El de Si recarga el Combo de Arcane.",
+                "en": "Yvonne's and Si's Ultimates right away. Si's recharges Arcane's Combo."
+              },
+              "key": true
+            },
+            {
+              "who": "tangtang",
+              "do": {
+                "es": "Battle Skill de Tangtang con 3 Waterspouts: saca el Combo de Arcane, junta todos los buffs y deja 2 acumulaciones de Cryo preparadas.",
+                "en": "Tangtang's Battle Skill with 3 Waterspouts: it brings out Arcane's Combo, stacks every buff and leaves 2 Cryo stacks ready."
+              }
+            },
+            {
+              "who": "yvonne",
+              "do": {
+                "es": "Al terminar el Ultimate de Yvonne su Combo está casi listo: en el momento justo, Battle Skill de Yvonne, Final Strike y los dos Combos. Vuelta completa, y la marca de Si se cobra entera.",
+                "en": "When Yvonne's Ultimate ends her Combo is almost ready: at the right moment, Yvonne's Battle Skill, Final Strike and the two Combos. Loop done, and Si's mark is cashed in full."
+              }
+            }
+          ],
+          "tip": {
+            "es": "Si estás dispuesto a darle Ultimate Gain a Arcane y a Tangtang, tendrás más ocasiones de aplicar Infliction.",
+            "en": "If you are willing to give Arcane and Tangtang Ultimate Gain, you get more chances to apply Infliction."
+          }
+        }
+      ],
+      "rotationVariants": [
+        {
+          "name": {
+            "es": "Yvonne a potencial 0",
+            "en": "Yvonne at Potential 0"
+          },
+          "description": {
+            "es": "A potencial 0 basta con una Battle Skill de Tangtang más para dar una acumulación extra entre las dos vueltas cortas. El autor lo prefiere a ponerle a Yvonne una armadura con Ultimate Gain: solo hay que esperar algo más de SP.",
+            "en": "At Potential 0 one more Tangtang Battle Skill is enough to give an extra stack between the two short loops. The author prefers it to giving Yvonne an Ultimate Gain armor: you just wait for a bit more SP."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Vuelta corta",
+                "en": "Short loop"
+              },
+              "action": {
+                "es": "Battle Skill de Si + 2 Combos → Battle Skill de Yvonne + Final Strike + 2 Combos → Battle Skill de Tangtang cuando su Combo vuelva a estar listo.",
+                "en": "Si's Battle Skill + 2 Combos → Yvonne's Battle Skill + Final Strike + 2 Combos → Tangtang's Battle Skill when her Combo is ready again."
+              },
+              "steps": [
+                {
+                  "who": "si",
+                  "do": {
+                    "es": "Battle Skill de Si y los dos Combos; Battle Skill de Yvonne, Final Strike y los dos Combos.",
+                    "en": "Si's Battle Skill and the two Combos; Yvonne's Battle Skill, Final Strike and the two Combos."
+                  }
+                },
+                {
+                  "who": "tangtang",
+                  "do": {
+                    "es": "Cuando el Combo de Tangtang vuelva a estar listo, su Battle Skill: cierra la vuelta corta.",
+                    "en": "When Tangtang's Combo is ready again, her Battle Skill: it closes the short loop."
+                  },
+                  "key": true
+                },
+                {
+                  "who": "yvonne",
+                  "do": {
+                    "es": "Con dos barras y media de SP, repite la vuelta.",
+                    "en": "With two and a half SP bars, repeat the loop."
+                  }
+                }
+              ]
+            },
+            {
+              "phase": {
+                "es": "Burst",
+                "en": "Burst"
+              },
+              "action": {
+                "es": "Ultimates de Yvonne y Si → Battle Skill de Tangtang → Combo de Arcane.",
+                "en": "Yvonne's and Si's Ultimates → Tangtang's Battle Skill → Arcane's Combo."
+              },
+              "steps": [
+                {
+                  "who": "si",
+                  "do": {
+                    "es": "Ultimates de Yvonne y de Si en seguida; el de Si recarga el Combo de Arcane, que sale con la Battle Skill de Tangtang. Deja 2 o más acumulaciones preparadas para la siguiente vuelta.",
+                    "en": "Yvonne's and Si's Ultimates right away; Si's recharges Arcane's Combo, which comes out with Tangtang's Battle Skill. Leave 2 or more stacks ready for the next loop."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "yvonne",
+          "order": {
+            "es": "La habitual",
+            "en": "The usual"
+          },
+          "note": {
+            "es": "El autor no da orden: «armas y skills habituales» para todos menos Si y Xaihi.",
+            "en": "The author gives no order: \"usual weapons and skills\" for everyone except Si and Xaihi."
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Empezar la segunda vuelta corta antes de que estalle la marca de Si: el autor espera los 20 s para que el daño guardado se cobre entero.",
+          "en": "Starting the second short loop before Si's mark bursts: the author waits the 20 s so the stored damage is cashed in full."
+        },
+        {
+          "es": "Poner a Yvonne o a Si en la Posición 01: el autor probó y Arcane es la mejor opción.",
+          "en": "Putting Yvonne or Si in Team Position 01: the author tested it and Arcane is the best pick."
+        },
+        {
+          "es": "Usar Gilberta en lugar de Tangtang: no aplica Cryo de forma estable y la rotación se traba.",
+          "en": "Using Gilberta instead of Tangtang: she does not apply Cryo reliably and the rotation stalls."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "Maygi - Si · Arcane (WILL) · Xaihi",
+            "en": "Maygi - Si · Arcane (WILL) · Xaihi"
+          },
+          "verdict": {
+            "es": "La versión con Xaihi: más techo y un eje más estricto, según este autor. La P2 del video la juega en 1:32.",
+            "en": "The Xaihi version: higher ceiling and a stricter axis, per this author. Part 2 of the video runs it in 1:32."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "yvonne",
+          "role": "Carry",
+          "weaponId": "wpn_pistol_0010",
+          "gearRec": [
+            "mi_security_overalls",
+            "mi_security_hands_ppe",
+            "mi_security_toolkit",
+            "lynx_slab"
+          ],
+          "weaponNote": {
+            "es": "El video no la muestra: «armas habituales». Artzy Tyrannical es su BIS.",
+            "en": "Not shown in the video: \"usual weapons\". Artzy Tyrannical is her BIS."
+          },
+          "gearNote": {
+            "es": "MI Security al 3 con un LYNX Slab, según el autor; las piezas (Overalls, Hands PPE, Toolkit) salen de su panel.",
+            "en": "3-piece MI Security with a LYNX Slab, per the author; the pieces (Overalls, Hands PPE, Toolkit) come from her panel."
+          },
+          "deepNote": {
+            "es": "Su Battle Skill consume la Cryo o Nature Infliction, fuerza Solidification y le da Ultimate Energy según las acumulaciones; su talento convierte el siguiente básico en Final Strike. Su Combo sale con una Final Strike sobre un enemigo con Solidification. Su potencial 1 suma 15 de Ultimate Energy al Combo: por eso el eje de potencial 1 es el más sencillo.",
+            "en": "Her Battle Skill consumes the Cryo or Nature Infliction, forces Solidification and gives her Ultimate Energy based on the stacks; her talent turns the next basic into a Final Strike. Her Combo fires on a Final Strike against a Solidified enemy. Her Potential 1 adds 15 Ultimate Energy to the Combo: that is why the Potential 1 axis is the simplest."
+          }
+        },
+        {
+          "id": "si",
+          "role": "Buffer",
+          "weaponId": "wpn_claym_0018",
+          "gearRec": [
+            "aic_fieldwork_plate",
+            "aic_fieldwork_hands",
+            "aic_fieldwork_ember",
+            "aic_fieldwork_ember"
+          ],
+          "weaponNote": {
+            "es": "El video no la muestra. Jade Vessel es su BIS.",
+            "en": "Not shown in the video. Jade Vessel is her BIS."
+          },
+          "gearNote": {
+            "es": "Necesita Ultimate Gain al máximo: el autor recomienda el set gratuito de prueba (AIC Fieldwork: Plate, Hands y dos Ember, 91,3% de Ultimate Gain en su panel) para no gastar materiales de refinado en uno propio.",
+            "en": "She needs max Ultimate Gain: the author recommends the free trial set (AIC Fieldwork: Plate, Hands and two Embers, 91.3% Ultimate Gain on the panel) so you do not spend artificing materials on your own."
+          },
+          "deepNote": {
+            "es": "Su Battle Skill aplica Cryo Infliction, inmoviliza y marca con Artful Intent durante 20 s. Su Combo sale con cada consumo de Arts Infliction. Su Ultimate da Cryo Amp al equipo y su talento recorta 20 s el cooldown del Combo de quien está en la Posición 01 (aquí, Arcane).",
+            "en": "Her Battle Skill applies Cryo Infliction, immobilizes and marks with Artful Intent for 20 s. Her Combo fires with every Arts Infliction consumption. Her Ultimate gives the team Cryo Amp and her talent cuts 20 s off the Combo cooldown of whoever is in Team Position 01 (Arcane here)."
+          }
+        },
+        {
+          "id": "arcane",
+          "role": "Enabler",
+          "weaponId": "wpn_funnel_0016",
+          "gearRec": [
+            "eternal_xiranite_light_armor",
+            "eternal_xiranite_wraps",
+            "eternal_xiranite_bracing_slab",
+            "eternal_xiranite_bracing_slab"
+          ],
+          "weaponNote": {
+            "es": "El video no la muestra: «armas habituales». Type 42: Solemn Phalanx es su BIS.",
+            "en": "Not shown in the video: \"usual weapons\". Type 42: Solemn Phalanx is her BIS."
+          },
+          "gearNote": {
+            "es": "Eternal Xiranite de atributo secundario y Ultimate Gain: Light Armor, Wraps y dos Bracing Slab. La versión más barata de la misma ficha: Light Armor, AIC Fieldwork Wraps, Bracing Slab y Auxiliary Arm.",
+            "en": "Eternal Xiranite with secondary attribute and Ultimate Gain: Light Armor, Wraps and two Bracing Slabs. The cheaper version from the same card: Light Armor, AIC Fieldwork Wraps, Bracing Slab and Auxiliary Arm."
+          },
+          "deepNote": {
+            "es": "Va en la Posición 01. Forma WILL: su Combo añade otra acumulación del mismo elemento y aplica Nature y Cryo Susceptibility. Con el Ultimate de Si su Combo vuelve antes y apoya el Ultimate de Yvonne.",
+            "en": "She sits in Team Position 01. WILL form: her Combo adds another stack of the same element and applies Nature and Cryo Susceptibility. With Si's Ultimate her Combo comes back sooner and supports Yvonne's Ultimate."
+          }
+        },
+        {
+          "id": "tangtang",
+          "role": "Buffer",
+          "weaponId": "wpn_pistol_0011",
+          "gearRec": [
+            "bonekrusha_heavy_armor_t2",
+            "mi_security_gloves",
+            "bonekrusha_mask_t2",
+            "bonekrusha_mask_t2"
+          ],
+          "weaponNote": {
+            "es": "El video no la muestra: «armas habituales». Brigand's Calling es su BIS.",
+            "en": "Not shown in the video: \"usual weapons\". Brigand's Calling is her BIS."
+          },
+          "gearNote": {
+            "es": "Bonekrusha al 3 con MI Security Gloves; las piezas salen de su panel (Heavy Armor T2 y dos Mask T2, cuadran con los totales).",
+            "en": "3-piece Bonekrusha with MI Security Gloves; the pieces come from her panel (Heavy Armor T2 and two Mask T2, matching the totals)."
+          },
+          "deepNote": {
+            "es": "Su Battle Skill crea Waterspouts que aplican Cryo Infliction; con varios aplican además Arts Susceptibility. En el burst, la Battle Skill con 3 Waterspouts saca el Combo de Arcane.",
+            "en": "Her Battle Skill creates Waterspouts that apply Cryo Infliction; with several they also apply Arts Susceptibility. In the burst, the 3-Waterspout Battle Skill brings out Arcane's Combo."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Paneles del autor al final de la P1 (Yvonne, Si y Tangtang) y su ficha de Arcane. Del resto, «armas y skills habituales».",
+          "en": "The author's panels at the end of part 1 (Yvonne, Si and Tangtang) and the author's Arcane card. For the rest, \"usual weapons and skills\"."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Xaihi en el 4.º asiento",
+              "en": "Xaihi in the 4th seat"
+            },
+            "swap": {
+              "es": "Solo Chivalric Virtues: en este eje casi no activa Detonation Unit. Eternal Xiranite con piezas sueltas de Ultimate Gain y atributo secundario o, para ir más cómodo, Eternal Xiranite completo de Ultimate Gain. Eje: su Battle Skill antes de la segunda vuelta, y su Combo después del Ultimate de Yvonne.",
+              "en": "Chivalric Virtues only: on this axis she barely triggers Detonation Unit. Eternal Xiranite with loose Ultimate Gain and secondary-attribute pieces or, for comfort, full Ultimate Gain Eternal Xiranite. Axis: her Battle Skill before the second loop, and her Combo after Yvonne's Ultimate."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Yvonne a potencial 0 sin cambiar el eje",
+              "en": "Yvonne at Potential 0 without changing the axis"
+            },
+            "swap": {
+              "es": "Una armadura con Ultimate Gain da un efecto parecido al potencial 1, aunque el autor prefiere el eje de potencial 0.",
+              "en": "An Ultimate Gain armor gives a similar effect to Potential 1, though the author prefers the Potential 0 axis."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Gilberta",
+              "en": "Gilberta"
+            },
+            "swap": {
+              "es": "Puede entrar, pero no aplica Cryo de forma estable: en las pruebas del autor la rotación se trababa.",
+              "en": "She can come in, but she does not apply Cryo reliably: in the author's tests the rotation stalled."
             }
           }
         ]

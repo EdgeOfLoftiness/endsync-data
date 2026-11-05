@@ -437,7 +437,8 @@
           "es": "Habilidad de combo",
           "en": "Combo Skill",
           "jp": "連携技",
-          "zh": "连携技"
+          "zh": "连携技",
+          "zh-TW": "連攜技"
          }
         },
         {
@@ -474,7 +475,8 @@
           "es": "Habilidad de combo",
           "en": "Combo Skill",
           "jp": "連携技",
-          "zh": "连携技"
+          "zh": "连携技",
+          "zh-TW": "連攜技"
          },
          "note": {
           "es": "Mismo timing dorado en el segundo ataque.",
@@ -849,12 +851,12 @@
      }
     ]
    },
-   "rotationCode": "AQsyrKmpK8ovLs60cjU0NtJxNtIJNa0rL81JS08sSrFyBQkZ64TquBqZG9YV5KcXJeZlJmfkZWZbgcQMjXScDQ3q0jNzklKLShKtnA0NTHRCLS0B",
+   "rotationCode": "ARXLWwqAIBAAwAtt4FpW-iteIPAA9jIpLLSQQDx79DswA-bFvxUhnFTJmvGNMZdwxuiEwq4FiQialfQcqzVhFqqmILEH3TBQlLFynTYY76bNu13o3_5EinXHuITbCIldD7rlHw",
    "rotationCodeNote": {
-    "es": "Traducida paso a paso de la guía: Ult de Pogranichnik, cadena de Wulfgard con el cancel aéreo, Clawmark + Combo de Rossi, doble Ult, Breach y Combo de Pogranichnik y la Battle Skill mejorada de Wulfgard. Sin el 2.º Combo de Wulfgard (su reset depende del potencial 5).",
-    "en": "Translated step by step from the guide: Pogranichnik's Ult, Wulfgard's chain with the aerial cancel, Rossi's Clawmark + Combo, double Ult, Pogranichnik's Breach and Combo, and Wulfgard's enhanced Battle Skill. Without Wulfgard's 2nd Combo (its reset needs potential 5)."
+    "es": "Traducida paso a paso de la guía: Ult de Pogranichnik, cadena de Wulfgard con el cancel aéreo, Clawmark + Combo de Rossi, doble Ult, Breach y Combo de Pogranichnik y la Battle Skill mejorada de Wulfgard. Sin el 2.º Combo de Wulfgard (su reset depende del potencial 5). Adaptación nuestra: el Combo de Wulfgard va tras el último disparo de su Battle Skill, el que aplica la Heat Infliction (en la sim cae 1,9 s después del cast), y el de Gilberta tras la Combustion de la Ult de Wulfgard. El Combo de Rossi espera a que llegue la Vulnerability (el golpe del Combo de Gilberta). Esperas agregadas el 2026-10-15 (2,2 s en total) para que alcance el SP: desde la parte 89 el SP no sube mientras una ult congela el combate.",
+    "en": "Translated step by step from the guide: Pogranichnik's Ult, Wulfgard's chain with the aerial cancel, Rossi's Clawmark + Combo, double Ult, Pogranichnik's Breach and Combo, and Wulfgard's enhanced Battle Skill. Without Wulfgard's 2nd Combo (its reset needs potential 5). Our adaptation: Wulfgard's Combo goes after the last shot of his Battle Skill, the one that applies Heat Infliction (in the sim it lands 1.9 s after the cast), and Gilberta's after the Combustion from Wulfgard's Ult. Rossi's Combo waits for the Vulnerability to land (the hit of Gilberta's Combo). Waits added on 2026-10-15 (2.2s in total) so SP is enough: since part 89, SP does not regenerate while an ultimate freezes combat."
    },
-   "rotationBurstAt": 6.6
+   "rotationBurstAt": 8.8
   },
   {
    "name": {
@@ -1465,10 +1467,10 @@
      }
     ]
    },
-   "rotationCode": "AYWKOwrDMBQEL7RF9ulnq33oAgEdQA4mCEQSZJdGZw9JkZTudmb2yuMY_bltNRICAwuHZKDgn09nItRNyJQZPztea2_1VmLyUPoANf57zfRm3Gtb1r6XqJwnqLEBmXSjPPbSolIEiRf5FIsc5A0",
+   "rotationCode": "AXWKTQrDIBQGL_QtfD-axO3DCxQ8gCmhCNIWk2Xw7IUuump2w8zc6DxHf-17jQSGQOFBfzERDCRXyc_IxAt-dry33uq9xCQORiowCd83U5DxqG3d-lGisVtgohMyOR3leZQWU4CxwrzMyBN_AA",
    "rotationCodeNote": {
-    "es": "Traducida de la guía. Adaptación nuestra: en la sim la Vulnerability dura unos 4,5 s, así que la Battle Skill de Rossi (Clawmark) va justo antes de cada Combo suyo, y la de Antal se retrasa para no vaciar la barra de SP en la apertura.",
-    "en": "Translated from the guide. Our adaptation: in the sim Vulnerability lasts about 4.5 s, so Rossi's Battle Skill (Clawmark) goes right before each of her Combos, and Antal's is delayed so the SP bar is not drained in the opener."
+    "es": "Traducida de la guía. Adaptaciones nuestras: en la sim la Vulnerability vence a los 10 s si nadie la renueva, así que la Battle Skill de Rossi (Clawmark) va justo antes de cada Combo suyo, y en la apertura espera a que haya SP (después de las de Antal y Perlica). La de Antal va antes que la de Perlica: su Combo pide que el enemigo con Focus reciba una Arts Infliction. Cada Combo de Gilberta va tras el golpe del Combo de Perlica, que aplica la Electrification que lo enciende.",
+    "en": "Translated from the guide. Our adaptations: in the sim Vulnerability expires after 10 s unless renewed, so Rossi's Battle Skill (Clawmark) goes right before each of her Combos, and in the opener it waits for SP (after Antal's and Perlica's). Antal's goes before Perlica's: his Combo needs the enemy with Focus to receive an Arts Infliction. Each Gilberta Combo goes after Perlica's Combo hits, which applies the Electrification that lights it."
    },
    "rotationBurstAt": 34.6
   },
@@ -1577,7 +1579,8 @@
       "es": "Fuego",
       "en": "Heat",
       "jp": "灼熱",
-      "zh": "灼热"
+      "zh": "灼热",
+      "zh-TW": "灼熱"
      },
      {
       "es": "Formulaico",
@@ -8277,6 +8280,547 @@
       "swap": {
        "es": "Farsight (遥望) en Purrchena: el buff de equipo sale al entrar en combate, pero dura 20 s.",
        "en": "Farsight (遥望) on Purrchena: the team buff comes out on entering combat, but lasts 20s."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "name": {
+    "es": "阿卡秋_ArkQiu - Doble C Rossi + Si (Gilberta · Camille)",
+    "en": "阿卡秋_ArkQiu - Rossi + Si Dual-C (Gilberta · Camille)"
+   },
+   "subtitle": {
+    "es": "Si · Gilberta · Camille",
+    "en": "Si · Gilberta · Camille"
+   },
+   "blurb": {
+    "es": "Rossi y Si como doble núcleo, con Gilberta y Camille. Todo el eje sale de una secuencia base de nueve acciones que el autor repite con variaciones: dos vueltas de carga y dos de ciclo. Incluye el eje avanzado «doble dragón», con un Combo de Si extra que baja su requisito de Ultimate Gain.",
+    "en": "Rossi and Si as a dual core, with Gilberta and Camille. The whole axis comes from a nine-action base sequence the author repeats with variations: two charge loops and two cycle loops. Includes the advanced \"double dragon\" axis, with an extra Si Combo that lowers her Ultimate Gain requirement."
+   },
+   "guideVideoId": "ro7",
+   "simple": {
+    "whatItDoes": {
+     "es": "Rossi pega con su Combo de dos fases, que sale cuando el enemigo tiene Vulnerability y Arts Infliction; la segunda fase consume las Arts Infliction y pega según cuántas había. Camille pone la Heat Infliction con su Battle Skill y su Combo da Links. La Battle Skill de Rossi aplica Lift, y si el enemigo ya tenía Vulnerability, su Wolven Ambrage deja Razor Clawmark. Si marca al objetivo con Artful Intent, guarda el daño de cada vuelta y lo suelta al final, y su Battle Skill inmoviliza para que acierte el Combo de Gilberta. Gilberta cierra el burst con la Arts Susceptibility de su Ultimate.",
+     "en": "Rossi hits with her two-sequence Combo, which fires when the enemy has Vulnerability and Arts Infliction; the second sequence consumes the Arts Infliction and hits based on how many there were. Camille puts Heat Infliction with his Battle Skill and his Combo grants Links. Rossi's Battle Skill applies Lift, and if the enemy already had Vulnerability, her Wolven Ambrage leaves Razor Clawmark. Si marks the target with Artful Intent, stores each loop's damage and releases it at the end, and her Battle Skill immobilizes so Gilberta's Combo lands. Gilberta closes the burst with her Ultimate's Arts Susceptibility."
+    },
+    "steps": [
+     {
+      "who": "camille",
+      "do": {
+       "es": "Battle Skill de Camille (Heat Infliction).",
+       "en": "Camille's Battle Skill (Heat Infliction)."
+      }
+     },
+     {
+      "who": "si",
+      "do": {
+       "es": "Battle Skill de Si a la vez que los Combos de Gilberta, Si y Camille: la inmovilización de Si ayuda a que acierte el de Gilberta.",
+       "en": "Si's Battle Skill together with Gilberta's, Si's and Camille's Combos: Si's immobilization helps Gilberta's land."
+      },
+      "key": true
+     },
+     {
+      "who": "rossi",
+      "do": {
+       "es": "Battle Skill de Rossi (Lift y Vulnerability; con Vulnerability ya puesta, Razor Clawmark).",
+       "en": "Rossi's Battle Skill (Lift and Vulnerability; with Vulnerability already on, Razor Clawmark)."
+      }
+     },
+     {
+      "who": "camille",
+      "do": {
+       "es": "Battle Skill de Camille: sale el Combo de Rossi. Su segunda fase, lo más tarde posible.",
+       "en": "Camille's Battle Skill: Rossi's Combo comes out. Its second sequence as late as possible."
+      },
+      "key": true
+     },
+     {
+      "who": "si",
+      "do": {
+       "es": "Antes de la siguiente vuelta, haz estallar la marca de Si con las fases dos y tres de su Battle Skill (o espera a que termine), para volver a tener la primera fase.",
+       "en": "Before the next loop, burst Si's mark with phases two and three of her Battle Skill (or wait for it to end), to get the first phase back."
+      }
+     }
+    ],
+    "gear": [
+     {
+      "id": "rossi",
+      "line": {
+       "es": "Lupine Scarlet (o Glorious Memory). MI Security (Armor T1, dos Scope T1) con Redeemer Gloves: 112,2% de Ultimate Gain.",
+       "en": "Lupine Scarlet (or Glorious Memory). MI Security (Armor T1, two Scope T1) with Redeemer Gloves: 112.2% Ultimate Gain."
+      }
+     },
+     {
+      "id": "si",
+      "line": {
+       "es": "Jade Vessel (o Long Heritage). Type 50 Yinglung al 3 con Redeemer Seal: 140,4% contra un umbral de 135,6%.",
+       "en": "Jade Vessel (or Long Heritage). 3-piece Type 50 Yinglung with Redeemer Seal: 140.4% against a 135.6% threshold."
+      }
+     },
+     {
+      "id": "gilberta",
+      "line": {
+       "es": "Stanza of Memorials (o Delivery Guaranteed). Eternal Xiranite (Light Armor, Wraps, dos Auxiliary Arm).",
+       "en": "Stanza of Memorials (or Delivery Guaranteed). Eternal Xiranite (Light Armor, Wraps, two Auxiliary Arms)."
+      }
+     },
+     {
+      "id": "camille",
+      "line": {
+       "es": "Blessing of Lustrous Carmine (o Beacon of Duty). Frontiers (Protection Suit, Fiber Gloves T1, Extra O2 Tube T1) con Redeemer Seal: umbral de 198,5%.",
+       "en": "Blessing of Lustrous Carmine (or Beacon of Duty). Frontiers (Protection Suit, Fiber Gloves T1, Extra O2 Tube T1) with Redeemer Seal: 198.5% threshold."
+      }
+     }
+    ]
+   },
+   "overview": {
+    "es": "El autor empieza aclarando las tres fases de la Battle Skill de Si. La primera marca al enemigo con Artful Intent (la mariposa): mientras dura, se guarda el daño que recibe (el número verde, en decenas de miles) y al terminar estalla. La segunda saca un Inksoul, y todo el daño que recibe lo recibe también el cuerpo. La tercera devuelve el Inksoul al cuerpo y cobra el daño guardado. El error frecuente, según el autor, es creer que hay que sacar el Inksoul para guardar daño: basta con que el cuerpo tenga la marca, así que se golpea a lo que sea más fácil, y el Inksoul sirve sobre todo contra enemigos que se mueven mucho. Todo el eje parte de una secuencia base: Battle Skill de Camille, Battle Skill de Si, Combos de Gilberta, Si y Camille, Battle Skill de Rossi, Battle Skill de Camille y las dos fases del Combo de Rossi. La vuelta de carga 2 y la de ciclo 2 son esa secuencia; la de carga 1 quita una Battle Skill de Rossi; la de ciclo 1 cambia la primera Battle Skill de Camille por su Ultimate, quita la segunda y mete las Ultimates de los demás y la Hunter Pursuit de Camille. Las fichas incluyen el umbral de Ultimate Gain de cada uno. El autor anuncia otro equipo de Si y Rossi en preparación.",
+    "en": "The author starts by clarifying the three phases of Si's Battle Skill. The first marks the enemy with Artful Intent (the butterfly): while it lasts, the damage it takes is stored (the green number, in tens of thousands) and it bursts at the end. The second pulls out an Inksoul, and all the damage it takes, the body takes too. The third sends the Inksoul back to the body and cashes in the stored damage. The common mistake, per the author, is thinking you need to pull out the Inksoul to store damage: the body just needs the mark, so hit whichever is easier, and the Inksoul is mostly for enemies that move a lot. The whole axis starts from one base sequence: Camille's Battle Skill, Si's Battle Skill, Gilberta's, Si's and Camille's Combos, Rossi's Battle Skill, Camille's Battle Skill and both sequences of Rossi's Combo. Charge loop 2 and cycle loop 2 are that sequence; charge loop 1 drops one Rossi Battle Skill; cycle loop 1 swaps Camille's first Battle Skill for his Ultimate, drops the second and adds the others' Ultimates and Camille's Hunter Pursuit. The cards include each member's Ultimate Gain threshold. The author mentions another Si and Rossi team in the works."
+   },
+   "playstyle": {
+    "difficulty": {
+     "es": "Media-alta (eje de 4 vueltas)",
+     "en": "Medium-high (4-loop axis)"
+    },
+    "content": {
+     "es": "Jefe / Single-target",
+     "en": "Boss / Single-target"
+    },
+    "tags": [
+     {
+      "es": "Doble C",
+      "en": "Dual carry"
+     },
+     {
+      "es": "Mixto Physical/Heat",
+      "en": "Mixed Physical/Heat"
+     },
+     {
+      "es": "Umbrales de Ultimate Gain",
+      "en": "Ultimate Gain thresholds"
+     }
+    ]
+   },
+   "pros": [
+    {
+     "es": "Una sola secuencia base que se repite con pequeñas variaciones.",
+     "en": "One base sequence repeated with small variations."
+    },
+    {
+     "es": "Umbrales de Ultimate Gain por operador en la ficha del autor.",
+     "en": "Per-operator Ultimate Gain thresholds on the author's card."
+    },
+    {
+     "es": "La inmovilización de Si hace más fácil acertar el Combo de Gilberta, que tarda en salir.",
+     "en": "Si's immobilization makes Gilberta's Combo, which is slow to come out, easier to land."
+    }
+   ],
+   "cons": [
+    {
+     "es": "Hay que vigilar si la marca de Si ya estalló antes de cada vuelta.",
+     "en": "You have to watch whether Si's mark has burst before each loop."
+    },
+    {
+     "es": "El umbral de Gilberta (230,1%) es el caso límite: con su arma BIS sobra, con Stanza of Memorials hay que acertar al menos un Combo cada dos vueltas.",
+     "en": "Gilberta's threshold (230.1%) is the extreme case: with her BIS it is easy, with Stanza of Memorials you have to land at least one Combo every two loops."
+    }
+   ],
+   "whyItWorks": [
+    {
+     "icon": "",
+     "title": {
+      "es": "Camille abre el Combo de Rossi",
+      "en": "Camille opens Rossi's Combo"
+     },
+     "body": {
+      "es": "El Combo de Rossi pide Vulnerability y Arts Infliction en el enemigo. Su Battle Skill aplica Lift, que da Vulnerability, y la Battle Skill de Camille pone la Heat Infliction: con las dos cosas sale el Combo de Rossi. Su segunda fase consume las Arts Infliction y pega según cuántas había. Si se lanza con el timing perfecto, deja otra acumulación de Vulnerability.",
+      "en": "Rossi's Combo needs Vulnerability and Arts Infliction on the enemy. Her Battle Skill applies Lift, which gives Vulnerability, and Camille's Battle Skill puts the Heat Infliction: with both, Rossi's Combo comes out. Its second sequence consumes the Arts Infliction and hits based on how many there were. Cast with perfect timing, it leaves another Vulnerability stack."
+     }
+    },
+    {
+     "icon": "",
+     "title": {
+      "es": "Si guarda la vuelta entera",
+      "en": "Si stores the whole loop"
+     },
+     "body": {
+      "es": "La marca de Si guarda parte de todo el daño que recibe el objetivo durante 20 s, Combos de Rossi incluidos, y lo suelta al terminar o al cobrarla con la tercera fase. El autor la cobra antes de la siguiente vuelta para que Si vuelva a tener la primera fase de su Battle Skill.",
+      "en": "Si's mark stores part of all the damage the target takes for 20 s, Rossi's Combos included, and releases it when it ends or when cashed in with the third phase. The author cashes it before the next loop so Si has the first phase of her Battle Skill again."
+     }
+    },
+    {
+     "icon": "",
+     "title": {
+      "es": "Dos Links para el Ultimate de Rossi",
+      "en": "Two Links for Rossi's Ultimate"
+     },
+     "body": {
+      "es": "En la vuelta de ciclo 1, el Combo de Camille da un Link al golpear al objetivo con sus Firefang Vesperwings, y su Hunter Pursuit (la Battle Skill tras su Ultimate) da otro. El Ultimate de Rossi se los lleva, y el de Gilberta añade su Arts Susceptibility, que sube con cada acumulación de Vulnerability del objetivo.",
+      "en": "In cycle loop 1, Camille's Combo grants a Link when it hits a target with his Firefang Vesperwings, and his Hunter Pursuit (the Battle Skill after his Ultimate) grants another. Rossi's Ultimate takes both, and Gilberta's adds its Arts Susceptibility, which grows with each Vulnerability stack on the target."
+     }
+    }
+   ],
+   "rotation": [
+    {
+     "phase": {
+      "es": "Carga 1",
+      "en": "Charge 1"
+     },
+     "action": {
+      "es": "Battle Skill de Camille → Battle Skill de Si + Combos de Gilberta, Si y Camille → Battle Skill de Camille → Combo de Rossi (2 fases) → fases 2 y 3 de la Battle Skill de Si.",
+      "en": "Camille's Battle Skill → Si's Battle Skill + Gilberta's, Si's and Camille's Combos → Camille's Battle Skill → Rossi's Combo (2 sequences) → phases 2 and 3 of Si's Battle Skill."
+     },
+     "steps": [
+      {
+       "who": "camille",
+       "do": {
+        "es": "Battle Skill de Camille: Heat Infliction.",
+        "en": "Camille's Battle Skill: Heat Infliction."
+       }
+      },
+      {
+       "who": "si",
+       "do": {
+        "es": "Battle Skill de Si: según el autor «absorbe» la Heat Infliction y salen los Combos de Gilberta, Si y Camille. Púlsalos a la vez que la Battle Skill de Si: el Combo de Gilberta tarda en salir y la inmovilización de Si ayuda a que acierte.",
+        "en": "Si's Battle Skill: per the author it \"absorbs\" the Heat Infliction and Gilberta's, Si's and Camille's Combos come out. Press them together with Si's Battle Skill: Gilberta's Combo is slow to come out and Si's immobilization helps it land."
+       },
+       "key": true
+      },
+      {
+       "who": "camille",
+       "do": {
+        "es": "Battle Skill de Camille: sale el Combo de Rossi. Lanza su segunda fase lo más tarde posible: alarga la Vulnerability y evita que el Combo de Rossi vuelva antes de la siguiente vuelta.",
+        "en": "Camille's Battle Skill: Rossi's Combo comes out. Cast its second sequence as late as possible: it extends the Vulnerability and keeps Rossi's Combo from coming back before the next loop."
+       }
+      },
+      {
+       "who": "si",
+       "do": {
+        "es": "El Combo de Rossi consume la Heat Infliction: si los Combos de Si y Camille ya volvieron, saldrán aquí. Son de la siguiente vuelta: ignóralos. Al final, fases 2 y 3 de la Battle Skill de Si para cobrar la marca (o espera a que estalle).",
+        "en": "Rossi's Combo consumes the Heat Infliction: if Si's and Camille's Combos are already back, they will come out here. They belong to the next loop: ignore them. At the end, phases 2 and 3 of Si's Battle Skill to cash in the mark (or wait for it to burst)."
+       }
+      }
+     ],
+     "tip": {
+      "es": "Es la secuencia base sin la Battle Skill de Rossi.",
+      "en": "It is the base sequence without Rossi's Battle Skill."
+     }
+    },
+    {
+     "phase": {
+      "es": "Carga 2 (la secuencia base)",
+      "en": "Charge 2 (the base sequence)"
+     },
+     "action": {
+      "es": "Battle Skill de Camille → Battle Skill de Si + 3 Combos → Battle Skill de Rossi → Battle Skill de Camille → Combo de Rossi (2 fases).",
+      "en": "Camille's Battle Skill → Si's Battle Skill + 3 Combos → Rossi's Battle Skill → Camille's Battle Skill → Rossi's Combo (2 sequences)."
+     },
+     "steps": [
+      {
+       "who": "si",
+       "do": {
+        "es": "Battle Skill de Camille, Battle Skill de Si y los tres Combos.",
+        "en": "Camille's Battle Skill, Si's Battle Skill and the three Combos."
+       }
+      },
+      {
+       "who": "rossi",
+       "do": {
+        "es": "Battle Skill de Rossi: Vulnerability y, si el enemigo ya la tenía, Razor Clawmark.",
+        "en": "Rossi's Battle Skill: Vulnerability and, if the enemy already had it, Razor Clawmark."
+       },
+       "key": true
+      },
+      {
+       "who": "camille",
+       "do": {
+        "es": "Battle Skill de Camille: Combo de Rossi, segunda fase tarde.",
+        "en": "Camille's Battle Skill: Rossi's Combo, second sequence late."
+       }
+      }
+     ]
+    },
+    {
+     "phase": {
+      "es": "Ciclo 1 (burst)",
+      "en": "Cycle 1 (burst)"
+     },
+     "action": {
+      "es": "Ultimate de Camille → cobrar la marca de Si si sigue activa → Ultimate de Si → Battle Skill de Si + 3 Combos → Hunter Pursuit de Camille → Ultimates de Rossi y Gilberta → Combo de Rossi → Battle Skill de Rossi.",
+      "en": "Camille's Ultimate → cash in Si's mark if it is still up → Si's Ultimate → Si's Battle Skill + 3 Combos → Camille's Hunter Pursuit → Rossi's and Gilberta's Ultimates → Rossi's Combo → Rossi's Battle Skill."
+     },
+     "steps": [
+      {
+       "who": "camille",
+       "do": {
+        "es": "Ultimate de Camille: Heat Infliction y su Battle Skill pasa a ser Hunter Pursuit.",
+        "en": "Camille's Ultimate: Heat Infliction, and his Battle Skill becomes Hunter Pursuit."
+       }
+      },
+      {
+       "who": "si",
+       "do": {
+        "es": "Si la marca de la vuelta anterior no se cobró, fases 2 y 3 de la Battle Skill de Si. Después, Ultimate de Si.",
+        "en": "If the previous loop's mark was not cashed, phases 2 and 3 of Si's Battle Skill. Then Si's Ultimate."
+       }
+      },
+      {
+       "who": "camille",
+       "do": {
+        "es": "Battle Skill de Si y los tres Combos: el de Camille da el primer Link. Hunter Pursuit de Camille: segundo Link.",
+        "en": "Si's Battle Skill and the three Combos: Camille's gives the first Link. Camille's Hunter Pursuit: second Link."
+       }
+      },
+      {
+       "who": "rossi",
+       "do": {
+        "es": "Ultimate de Rossi, que gasta los dos Links, con el Ultimate de Gilberta para la Arts Susceptibility. Después, el Combo de Rossi y su Battle Skill para renovar la Vulnerability.",
+        "en": "Rossi's Ultimate, which spends both Links, with Gilberta's Ultimate for the Arts Susceptibility. Then Rossi's Combo and her Battle Skill to refresh the Vulnerability."
+       },
+       "key": true
+      }
+     ],
+     "tip": {
+      "es": "Si la marca de Si sigue sin cobrar al final, cóbrala antes de la siguiente vuelta.",
+      "en": "If Si's mark is still uncashed at the end, cash it before the next loop."
+     }
+    },
+    {
+     "phase": {
+      "es": "Ciclo 2",
+      "en": "Cycle 2"
+     },
+     "action": {
+      "es": "Igual que la carga 2.",
+      "en": "Same as charge 2."
+     },
+     "steps": [
+      {
+       "who": "camille",
+       "do": {
+        "es": "Repite la secuencia base y vuelve al ciclo 1 cuando las Ultimates estén listas.",
+        "en": "Repeat the base sequence and go back to cycle 1 when the Ultimates are ready."
+       }
+      }
+     ]
+    }
+   ],
+   "rotationVariants": [
+    {
+     "name": {
+      "es": "Avanzado: «doble dragón»",
+      "en": "Advanced: \"double dragon\""
+     },
+     "description": {
+      "es": "La P2 del video, una mejora que el autor atribuye a un comentario. En la carga 2 y el ciclo 2 entra un Combo de Si extra, disparado al consumirse la Heat Infliction de la Battle Skill de Camille. Al empezar el ciclo 1, el Ultimate de Si (que va en la Posición 01) le recorta el cooldown del Combo, y lo usa otra vez: dos Combos de Si seguidos. Con ese Combo de más, el umbral de Ultimate Gain de Si baja a 116%.",
+      "en": "Part 2 of the video, an improvement the author credits to a comment. Charge 2 and cycle 2 gain an extra Si Combo, fired when the Heat Infliction from Camille's Battle Skill is consumed. At the start of cycle 1, Si's Ultimate (she sits in Team Position 01) cuts her Combo cooldown and she uses it again: two Si Combos in a row. With that extra Combo, Si's Ultimate Gain threshold drops to 116%."
+     },
+     "phases": [
+      {
+       "phase": {
+        "es": "Carga 2 y ciclo 2",
+        "en": "Charge 2 and cycle 2"
+       },
+       "action": {
+        "es": "La secuencia base, más un Combo de Si cuando se consume la Heat Infliction de Camille.",
+        "en": "The base sequence, plus one Si Combo when Camille's Heat Infliction is consumed."
+       },
+       "steps": [
+        {
+         "who": "si",
+         "do": {
+          "es": "Usa el Combo de Si que sale al consumirse la Heat Infliction de la Battle Skill de Camille.",
+          "en": "Use the Si Combo that comes out when the Heat Infliction from Camille's Battle Skill is consumed."
+         },
+         "key": true
+        }
+       ]
+      },
+      {
+       "phase": {
+        "es": "Inicio del ciclo 1",
+        "en": "Start of cycle 1"
+       },
+       "action": {
+        "es": "Ultimate de Si → Combo de Si otra vez.",
+        "en": "Si's Ultimate → Si's Combo again."
+       },
+       "steps": [
+        {
+         "who": "si",
+         "do": {
+          "es": "El Ultimate de Si le recorta el cooldown del Combo: úsalo otra vez.",
+          "en": "Si's Ultimate cuts her Combo cooldown: use it again."
+         },
+         "key": true
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "skillPriority": [
+    {
+     "charId": "rossi",
+     "order": {
+      "es": "El video no da orden",
+      "en": "No order in the video"
+     },
+     "note": {
+      "es": "El autor solo da las builds y los umbrales de Ultimate Gain.",
+      "en": "The author only gives the builds and Ultimate Gain thresholds."
+     }
+    }
+   ],
+   "pitfalls": [
+    {
+     "es": "Creer que hay que sacar el Inksoul de Si para guardar daño: basta con que el cuerpo tenga la marca.",
+     "en": "Thinking you must pull out Si's Inksoul to store damage: the body just needs the mark."
+    },
+    {
+     "es": "Empezar una vuelta con la marca de Si sin cobrar: la Battle Skill de Si no estará en su primera fase.",
+     "en": "Starting a loop with Si's mark uncashed: Si's Battle Skill will not be on its first phase."
+    },
+    {
+     "es": "Lanzar pronto la segunda fase del Combo de Rossi: acorta la Vulnerability y el Combo puede volver a salir antes de tiempo en la siguiente vuelta.",
+     "en": "Casting the second sequence of Rossi's Combo early: it shortens the Vulnerability and the Combo can come back too early in the next loop."
+    },
+    {
+     "es": "Usar los Combos de Si y de Camille que salen al final de la carga 1: son de la siguiente vuelta.",
+     "en": "Using the Si and Camille Combos that come out at the end of charge 1: they belong to the next loop."
+    }
+   ],
+   "vsOtherComps": [
+    {
+     "name": {
+      "es": "阿卡秋_ArkQiu - Doble C Rossi + Arcane INT",
+      "en": "阿卡秋_ArkQiu - Rossi + Arcane INT Dual-C"
+     },
+     "verdict": {
+      "es": "El mismo autor, con Arcane INT en lugar de Si.",
+      "en": "Same author, with INT Arcane instead of Si."
+     }
+    }
+   ],
+   "members": [
+    {
+     "id": "rossi",
+     "role": "Carry",
+     "weaponId": "wpn_sword_0022",
+     "gearRec": [
+      "mi_security_armor_t1",
+      "redeemer_gloves",
+      "mi_security_scope_t1",
+      "mi_security_scope_t1"
+     ],
+     "weaponNote": {
+      "es": "Lupine Scarlet (BIS); Glorious Memory como alternativa. Las dos llegan a 123% de Ultimate Gain con la build y el talento de Gilberta.",
+      "en": "Lupine Scarlet (BIS); Glorious Memory as the alternative. Both reach 123% Ultimate Gain with the build and Gilberta's talent."
+     },
+     "gearNote": {
+      "es": "MI Security Armor T1, Redeemer Gloves y dos MI Security Scope T1. Umbral de 112,2%: con el arma, el gear y el talento de Gilberta (que da Ultimate Gain a Guards, Casters y Supporters) llega a 123%.",
+      "en": "MI Security Armor T1, Redeemer Gloves and two MI Security Scope T1. Threshold 112.2%: with the weapon, gear and Gilberta's talent (Ultimate Gain to Guards, Casters and Supporters) she reaches 123%."
+     },
+     "deepNote": {
+      "es": "Su Battle Skill aplica Lift y, si el objetivo ya tiene Vulnerability, lanza Wolven Ambrage, que deja Razor Clawmark (Physical y Heat DMG Taken). Su Combo tiene dos fases: la segunda consume las Arts Infliction, pega según cuántas había, aplica Lift y, con timing perfecto, otra acumulación de Vulnerability.",
+      "en": "Her Battle Skill applies Lift and, if the target already has Vulnerability, unleashes Wolven Ambrage, which leaves Razor Clawmark (Physical and Heat DMG Taken). Her Combo has two sequences: the second consumes the Arts Infliction, hits based on how many there were, applies Lift and, with perfect timing, another Vulnerability stack."
+     }
+    },
+    {
+     "id": "si",
+     "role": "Carry",
+     "weaponId": "wpn_claym_0018",
+     "gearRec": [
+      "type_50_yinglung_soft_armor",
+      "type_50_yinglung_gloves_intellect_strength",
+      "type_50_yinglung_beacon",
+      "redeemer_seal"
+     ],
+     "weaponNote": {
+      "es": "Jade Vessel (BIS) o Long Heritage: las dos dan 140,4% de Ultimate Gain con la build.",
+      "en": "Jade Vessel (BIS) or Long Heritage: both give 140.4% Ultimate Gain with the build."
+     },
+     "gearNote": {
+      "es": "Type 50 Yinglung al 3 (Soft Armor, Gloves, Beacon) con Redeemer Seal: 140,4% contra un umbral de 135,6%. Con el eje «doble dragón», el umbral baja a 116%.",
+      "en": "3-piece Type 50 Yinglung (Soft Armor, Gloves, Beacon) with Redeemer Seal: 140.4% against a 135.6% threshold. With the \"double dragon\" axis, the threshold drops to 116%."
+     },
+     "deepNote": {
+      "es": "Va en la Posición 01. Su Battle Skill tiene tres fases: marca (Artful Intent), Inksoul y cobro. Su Combo sale con cada consumo o absorción de Arts Infliction, y su Ultimate da Cryo y Heat Amp al equipo; su talento le recorta el cooldown del Combo por estar en la Posición 01.",
+      "en": "She sits in Team Position 01. Her Battle Skill has three phases: mark (Artful Intent), Inksoul and cash-in. Her Combo fires with every Arts Infliction consumption or absorption, and her Ultimate gives the team Cryo and Heat Amp; her talent cuts her own Combo cooldown since she is in Team Position 01."
+     }
+    },
+    {
+     "id": "gilberta",
+     "role": "Buffer",
+     "weaponId": "wpn_funnel_0005",
+     "gearRec": [
+      "eternal_xiranite_light_armor",
+      "eternal_xiranite_wraps",
+      "eternal_xiranite_auxiliary_arm",
+      "eternal_xiranite_auxiliary_arm"
+     ],
+     "weaponNote": {
+      "es": "Stanza of Memorials en la ficha (213,8% de Ultimate Gain); Delivery Guaranteed, su BIS, como alternativa (260,2%). Con Stanza basta acertar al menos un Combo en dos vueltas; con Delivery Guaranteed se llena aunque fallen los dos, pero apoya menos que Stanza.",
+      "en": "Stanza of Memorials on the card (213.8% Ultimate Gain); Delivery Guaranteed, her BIS, as the alternative (260.2%). With Stanza you only need to land at least one Combo in two loops; with Delivery Guaranteed she fills even if both miss, but supports less than Stanza."
+     },
+     "gearNote": {
+      "es": "Eternal Xiranite (Light Armor, Wraps, dos Auxiliary Arm). El umbral de 230,1% es el caso límite que calcula el autor.",
+      "en": "Eternal Xiranite (Light Armor, Wraps, two Auxiliary Arms). The 230.1% threshold is the author's worst-case figure."
+     },
+     "deepNote": {
+      "es": "Su Combo sale con cada Arts Reaction y aplica Lift, pero tarda en salir: el autor lo pulsa a la vez que la Battle Skill de Si para aprovechar la inmovilización. Su Ultimate aplica Arts Susceptibility, que sube con cada acumulación de Vulnerability del objetivo, y su talento da Ultimate Gain a Guards, Casters y Supporters (Rossi y Si).",
+      "en": "Her Combo fires with every Arts Reaction and applies Lift, but it is slow to come out: the author presses it together with Si's Battle Skill to use the immobilization. Her Ultimate applies Arts Susceptibility, which grows with each Vulnerability stack on the target, and her talent gives Ultimate Gain to Guards, Casters and Supporters (Rossi and Si)."
+     }
+    },
+    {
+     "id": "camille",
+     "role": "Enabler",
+     "weaponId": "wpn_lance_0015",
+     "gearRec": [
+      "frontiers_protection_suit",
+      "frontiers_fiber_gloves_t1",
+      "frontiers_extra_o2_tube_t1",
+      "redeemer_seal"
+     ],
+     "weaponNote": {
+      "es": "Blessing of Lustrous Carmine (BIS, 204,9% de Ultimate Gain) o Beacon of Duty (222,6%).",
+      "en": "Blessing of Lustrous Carmine (BIS, 204.9% Ultimate Gain) or Beacon of Duty (222.6%)."
+     },
+     "gearNote": {
+      "es": "Frontiers Protection Suit, Fiber Gloves T1 y Extra O2 Tube T1 con Redeemer Seal. Umbral de 198,5%.",
+      "en": "Frontiers Protection Suit, Fiber Gloves T1 and Extra O2 Tube T1 with Redeemer Seal. Threshold 198.5%."
+     },
+     "deepNote": {
+      "es": "Su Battle Skill pone la Heat Infliction que abre el Combo de Rossi. Su Combo da un Link si golpea a un objetivo con sus Firefang Vesperwings. Tras su Ultimate, la Battle Skill pasa a ser Hunter Pursuit, que cuenta como Combo, no cuesta SP y da otro Link.",
+      "en": "His Battle Skill puts the Heat Infliction that opens Rossi's Combo. His Combo grants a Link if it hits a target with his Firefang Vesperwings. After his Ultimate, the Battle Skill becomes Hunter Pursuit, which counts as a Combo, costs no SP and grants another Link."
+     }
+    }
+   ],
+   "equipment": {
+    "intro": {
+     "es": "La tabla del autor (7:05): arma, arma alternativa, las cuatro piezas, Ultimate Gain total con cada arma y el umbral de cada operador.",
+     "en": "The author's table (7:05): weapon, alternative weapon, the four pieces, total Ultimate Gain with each weapon and each operator's threshold."
+    },
+    "alts": [
+     {
+      "scenario": {
+       "es": "Gilberta con su arma BIS",
+       "en": "Gilberta with her BIS"
+      },
+      "swap": {
+       "es": "Delivery Guaranteed (260,2%): llena el Ultimate aunque fallen los dos Combos, pero apoya menos que Stanza of Memorials.",
+       "en": "Delivery Guaranteed (260.2%): fills the Ultimate even if both Combos miss, but supports less than Stanza of Memorials."
+      }
+     },
+     {
+      "scenario": {
+       "es": "Eje «doble dragón»",
+       "en": "\"Double dragon\" axis"
+      },
+      "swap": {
+       "es": "Si baja a 116% de umbral.",
+       "en": "Si's threshold drops to 116%."
       }
      }
     ]

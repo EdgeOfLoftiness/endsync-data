@@ -25,6 +25,7 @@
           ],
           "name_es": "Multiplicador ATQB SEC 1",
           "name_zh": "普攻第一段倍率",
+          "name_zh-TW": "普攻第一段倍率",
           "name_ja": "通常攻撃1段目ダメージ倍率",
           "name_ko": "일반 공격 제1단계 배율"
         },
@@ -47,6 +48,7 @@
           ],
           "name_es": "Multiplicador ATQB SEC 2",
           "name_zh": "普攻第二段倍率",
+          "name_zh-TW": "普攻第二段倍率",
           "name_ja": "通常攻撃2段目ダメージ倍率",
           "name_ko": "일반 공격 제2단계 배율"
         },
@@ -69,6 +71,7 @@
           ],
           "name_es": "Multiplicador ATQB SEC 3",
           "name_zh": "普攻第三段倍率",
+          "name_zh-TW": "普攻第三段倍率",
           "name_ja": "通常攻撃3段目ダメージ倍率",
           "name_ko": "일반 공격 제3단계 배율"
         },
@@ -91,6 +94,7 @@
           ],
           "name_es": "Multiplicador ATQB SEC 4",
           "name_zh": "普攻第四段倍率",
+          "name_zh-TW": "普攻第四段倍率",
           "name_ja": "通常攻撃4段目ダメージ倍率",
           "name_ko": "일반 공격 제4단계 배율"
         },
@@ -113,6 +117,7 @@
           ],
           "name_es": "Multiplicador ATQB SEC 5",
           "name_zh": "普攻第五段倍率",
+          "name_zh-TW": "普攻第五段倍率",
           "name_ja": "通常攻撃5段目ダメージ倍率",
           "name_ko": "일반 공격 제5단계 배율"
         },
@@ -134,6 +139,7 @@
             900
           ],
           "name_zh": "处决攻击倍率",
+          "name_zh-TW": "處決攻擊倍率",
           "name_ja": "終撃ダメージ倍率",
           "name_ko": "처형 공격 배율",
           "name_es": "Multiplicador ATQ Remate"
@@ -157,6 +163,7 @@
           ],
           "name_es": "Multiplicador ATQ de Inmersión",
           "name_zh": "下落攻击倍率",
+          "name_zh-TW": "下墜攻擊倍率",
           "name_ja": "落下攻撃ダメージ倍率",
           "name_ko": "낙하 공격 배율"
         }
@@ -183,6 +190,7 @@
           ],
           "name_es": "Costo de PH (1)",
           "name_zh": "技力消耗 (1)",
+          "name_zh-TW": "技力消耗 (1)",
           "name_ja": "SP消費 (1)",
           "name_ko": "스킬 게이지 소모 (1)"
         },
@@ -204,6 +212,7 @@
           ],
           "name_es": "Costo de PH (2)",
           "name_zh": "技力消耗 (2)",
+          "name_zh-TW": "技力消耗 (2)",
           "name_ja": "SP消費 (2)",
           "name_ko": "스킬 게이지 소모 (2)"
         },
@@ -226,6 +235,7 @@
           ],
           "name_es": "Multiplicador de DAÑ de explosión base",
           "name_zh": "初始爆炸伤害倍率",
+          "name_zh-TW": "初始爆炸傷害倍率",
           "name_ja": "爆発ダメージ倍率（初回）",
           "name_ko": "초기 폭발 피해 배율"
         },
@@ -247,6 +257,7 @@
           ],
           "name_es": "Tambaleo por Explosión base",
           "name_zh": "初始爆炸失衡值",
+          "name_zh-TW": "初始爆炸失衡值",
           "name_ja": "爆発ブレイク値（初回）",
           "name_ko": "초기 폭발 불균형치"
         },
@@ -269,6 +280,7 @@
           ],
           "name_es": "Multiplicador de DAÑ continuo por SEQ",
           "name_zh": "持续伤害每段倍率",
+          "name_zh-TW": "持續傷害每段倍率",
           "name_ja": "持続ダメージ1段ごとの倍率",
           "name_ko": "단계별 지속 피해 배율"
         },
@@ -291,6 +303,7 @@
           ],
           "name_es": "Multiplicador de DAÑ de ATQ adicional",
           "name_zh": "追加伤害倍率",
+          "name_zh-TW": "追加傷害倍率",
           "name_ja": "追加ダメージ倍率",
           "name_ko": "추가 피해 배율"
         },
@@ -312,6 +325,7 @@
           ],
           "name_es": "Tambaleo de ATQ adicional",
           "name_zh": "追加失衡值",
+          "name_zh-TW": "追加失衡值",
           "name_ja": "追加ブレイク値",
           "name_ko": "추가 불균형치"
         },
@@ -333,6 +347,7 @@
           ],
           "name_es": "Duración (s) de Combustión",
           "name_zh": "燃烧时长（秒）",
+          "name_zh-TW": "燃燒時長（秒）",
           "name_ja": "燃焼時間（秒）",
           "name_ko": "연소 시간(초)"
         },
@@ -354,6 +369,7 @@
           ],
           "name_es": "Ganancia de Energía máxima por ATQ adicional",
           "name_zh": "追加攻击获得终结技能量",
+          "name_zh-TW": "追加攻擊獲得終結技能量",
           "name_ja": "追加攻撃の必殺チャージ回復量",
           "name_ko": "추가 공격으로 획득하는 궁극기 에너지"
         },
@@ -375,9 +391,10 @@
             330
           ],
           "name_es": "Durante la máxima: Multiplicador de SEC 1 de ATQB",
-          "name_zh": "终结技期间普攻第一段倍率",
-          "name_ja": "必殺技期間中通常攻撃1段目倍率",
-          "name_ko": "궁극기 사용 중 일반 공격 제1단계 배율"
+          "name_zh": "终结技期间第一段倍率",
+          "name_zh-TW": "終結技期間第一段倍率",
+          "name_ja": "必殺技期間中1段目倍率",
+          "name_ko": "궁극기 사용 중 제1단계 배율"
         },
         {
           "name": "During Ultimate: BATK SEQ 1 Stagger",
@@ -397,6 +414,7 @@
           ],
           "name_es": "Durante la máxima: Tambaleo de SEC 1 de ATQB",
           "name_zh": "终结技期间第一段失衡值",
+          "name_zh-TW": "終結技期間第一段失衡值",
           "name_ja": "必殺技期間中1段目ブレイク値",
           "name_ko": "궁극기 사용 중 제1단계 불균형치"
         },
@@ -418,9 +436,10 @@
             370
           ],
           "name_es": "Durante la máxima: Multiplicador de SEC 2 de ATQB",
-          "name_zh": "终结技期间普攻第二段倍率",
-          "name_ja": "必殺技期間中通常攻撃2段目倍率",
-          "name_ko": "궁극기 사용 중 일반 공격 제2단계 배율"
+          "name_zh": "终结技期间第二段倍率",
+          "name_zh-TW": "終結技期間第二段倍率",
+          "name_ja": "必殺技期間中2段目倍率",
+          "name_ko": "궁극기 사용 중 제2단계 배율"
         },
         {
           "name": "During Ultimate: BATK SEQ 2 Stagger",
@@ -440,6 +459,7 @@
           ],
           "name_es": "Durante la máxima: Tambaleo de SEC 2 de ATQB",
           "name_zh": "终结技期间第二段失衡值",
+          "name_zh-TW": "終結技期間第二段失衡值",
           "name_ja": "必殺技期間中2段目ブレイク値",
           "name_ko": "궁극기 사용 중 제2단계 불균형치"
         },
@@ -462,6 +482,7 @@
           ],
           "name_es": "Durante la máxima: Multiplicador de ATQ adicional",
           "name_zh": "终结技期间追加攻击倍率",
+          "name_zh-TW": "終結技期間追加攻擊倍率",
           "name_ja": "必殺技期間中追加攻撃倍率",
           "name_ko": "궁극기 사용 중 추가 공격 배율"
         },
@@ -483,6 +504,7 @@
           ],
           "name_es": "Durante la máxima: Tambaleo de ATQ adicional",
           "name_zh": "终结技期间追加攻击失衡值",
+          "name_zh-TW": "終結技期間追加攻擊失衡值",
           "name_ja": "必殺技期間中追加攻撃ブレイク値",
           "name_ko": "궁극기 사용 중 추가 공격 불균형치"
         },
@@ -504,6 +526,7 @@
           ],
           "name_es": "Durante la máxima: Duración (s) de Combustión",
           "name_zh": "终结技期间燃烧时长（秒）",
+          "name_zh-TW": "終結技期間燃燒時長（秒）",
           "name_ja": "必殺技期間中の燃焼時間（秒）",
           "name_ko": "궁극기 사용 중 연소 시간(초)"
         }
@@ -531,6 +554,7 @@
           "name_ko": "쿨타임",
           "name_es": "Tiempo de reutilización",
           "name_zh": "冷却",
+          "name_zh-TW": "冷卻",
           "name_ja": "クールタイム"
         },
         {
@@ -552,6 +576,7 @@
           ],
           "name_es": "Multiplicador de DAÑ",
           "name_zh": "伤害倍率",
+          "name_zh-TW": "傷害倍率",
           "name_ja": "ダメージ倍率",
           "name_ko": "피해 배율"
         },
@@ -573,6 +598,7 @@
           ],
           "name_es": "Tambaleo",
           "name_zh": "失衡值",
+          "name_zh-TW": "失衡值",
           "name_ja": "ブレイク値",
           "name_ko": "불균형치"
         },
@@ -594,6 +620,7 @@
           ],
           "name_es": "Ganancia de Energía máxima al golpear a 1 enemigo",
           "name_zh": "命中1个敌人获得终结技能量",
+          "name_zh-TW": "命中1個敵人獲得終結技能量",
           "name_ja": "敵1体命中時の必殺チャージ回復量",
           "name_ko": "1명의 적에게 명중할 때 획득하는 궁극기 에너지"
         },
@@ -615,6 +642,7 @@
           ],
           "name_es": "Ganancia de Energía máxima al golpear a 2 enemigos",
           "name_zh": "命中2个敌人获得终结技能量",
+          "name_zh-TW": "命中2個敵人獲得終結技能量",
           "name_ja": "敵2体命中時の必殺チャージ回復量",
           "name_ko": "2명의 적에게 명중할 때 획득하는 궁극기 에너지"
         },
@@ -636,6 +664,7 @@
           ],
           "name_es": "Ganancia de Energía máxima al golpear a 3 enemigos",
           "name_zh": "命中3个或以上敌人获得终结技能量",
+          "name_zh-TW": "命中3個或以上敵人獲得終結技能量",
           "name_ja": "敵3体以上命中時の必殺チャージ回復量",
           "name_ko": "3명 이상의 적에게 명중할 때 획득하는 궁극기 에너지"
         }
@@ -662,6 +691,7 @@
           ],
           "name_es": "Costo de energía máxima",
           "name_zh": "所需终结技能量",
+          "name_zh-TW": "所需終結技能量",
           "name_ja": "必殺チャージ消費",
           "name_ko": "필요한 궁극기 에너지"
         },
@@ -683,6 +713,7 @@
           ],
           "name_es": "Duración (s)",
           "name_zh": "持续时间（秒）",
+          "name_zh-TW": "持續時間（秒）",
           "name_ja": "持続時間（秒）",
           "name_ko": "지속 시간(초)"
         },
@@ -705,6 +736,7 @@
           ],
           "name_es": "Multiplicador ATQB SEC 1 mejorado",
           "name_zh": "强化普攻第一段倍率",
+          "name_zh-TW": "強化普攻第一段倍率",
           "name_ja": "強化通常攻撃1段目ダメージ倍率",
           "name_ko": "강화 일반 공격 제1단계 배율"
         },
@@ -727,6 +759,7 @@
           ],
           "name_es": "Multiplicador ATQB SEC 2 mejorado",
           "name_zh": "强化普攻第二段倍率",
+          "name_zh-TW": "強化普攻第二段倍率",
           "name_ja": "強化通常攻撃2段目ダメージ倍率",
           "name_ko": "강화 일반 공격 제2단계 배율"
         },
@@ -749,6 +782,7 @@
           ],
           "name_es": "Multiplicador ATQB SEC 3 mejorado",
           "name_zh": "强化普攻第三段倍率",
+          "name_zh-TW": "強化普攻第三段倍率",
           "name_ja": "強化通常攻撃3段目ダメージ倍率",
           "name_ko": "강화 일반 공격 제3단계 배율"
         },
@@ -771,6 +805,7 @@
           ],
           "name_es": "Multiplicador ATQB SEC 4 mejorado",
           "name_zh": "强化普攻第四段倍率",
+          "name_zh-TW": "強化普攻第四段倍率",
           "name_ja": "強化通常攻撃4段目ダメージ倍率",
           "name_ko": "강화 일반 공격 제4단계 배율"
         }

@@ -111,7 +111,8 @@
             "es": "Criogénico",
             "en": "Cryo",
             "jp": "寒冷",
-            "zh": "寒冷"
+            "zh": "寒冷",
+            "zh-TW": "寒冷"
           },
           {
             "es": "Conteo de Infliction",
@@ -1473,6 +1474,1071 @@
             "swap": {
               "es": "Sundered Prince (86% a P0, 95% a P5) sirve; Exemplar queda en 82%.",
               "en": "Sundered Prince (86% at P0, 95% at P5) is workable; Exemplar sits at 82%."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": {
+        "es": "YZ-月咒 - Si · Tangtang · Arcane (WILL)",
+        "en": "YZ-月咒 - Si · Tangtang · Arcane (WILL)"
+      },
+      "subtitle": {
+        "es": "Si · Tangtang · Arcane (WILL)",
+        "en": "Si · Tangtang · Arcane (WILL)"
+      },
+      "blurb": {
+        "es": "El equipo de Last Rite y Si que el autor llama «silla de ruedas»: tres vueltas de carga idénticas para llenar las Ultimates y una vuelta de burst con las cuatro seguidas. Contra un jefe, Si lo inmoviliza, el Combo de Arcane lo ralentiza y el de Last Rite cierra el castigo. Incluye la versión sin eje de 终末协约攻略组 y las fichas de los dos videos.",
+        "en": "The Last Rite and Si team the author calls a \"wheelchair\": three identical charge loops to fill the Ultimates and one burst loop with all four back to back. Against a boss, Si immobilizes it, Arcane's Combo slows it and Last Rite's closes the punish. Includes 终末协约攻略组's no-memorization version and both videos' build cards."
+      },
+      "guideVideoId": "lr4",
+      "simple": {
+        "whatItDoes": {
+          "es": "Last Rite es la carry: su Combo sale con 3 o más acumulaciones de Cryo Infliction, las consume todas y pega (y le da Ultimate Energy) según cuántas consumió. El equipo entero existe para llegar a 4 acumulaciones: la Battle Skill de Si pone la primera, el Combo de Arcane en forma WILL la segunda, el Mirage de la Battle Skill de Last Rite la tercera y los Waterspouts de Tangtang la cuarta. Cada consumo dispara además el Combo de Si, y su Ultimate da Cryo Amp a todo el equipo.",
+          "en": "Last Rite is the carry: her Combo fires with 3 or more Cryo Infliction stacks, consumes them all and hits (and gives her Ultimate Energy) based on how many it consumed. The whole team exists to reach 4 stacks: Si's Battle Skill puts the first, WILL-form Arcane's Combo the second, the Mirage from Last Rite's Battle Skill the third and Tangtang's Waterspouts the fourth. Each consumption also fires Si's Combo, and her Ultimate gives the whole team Cryo Amp."
+        },
+        "steps": [
+          {
+            "who": "si",
+            "do": {
+              "es": "Vuelta de carga: Battle Skill de Si (1.ª acumulación) y Combos de Tangtang y de Arcane (2.ª).",
+              "en": "Charge loop: Si's Battle Skill (1st stack) and Tangtang's and Arcane's Combos (2nd)."
+            }
+          },
+          {
+            "who": "lastrite",
+            "do": {
+              "es": "Battle Skill de Last Rite y una Final Strike (3.ª); Battle Skill de Tangtang (4.ª). Combo de Last Rite y, para cerrar, el de Si.",
+              "en": "Last Rite's Battle Skill and a Final Strike (3rd); Tangtang's Battle Skill (4th). Last Rite's Combo and, to close, Si's."
+            }
+          },
+          {
+            "who": "si",
+            "do": {
+              "es": "Final Strikes para recuperar SP hasta que estalle la marca de Si; repite la vuelta de carga dos veces más.",
+              "en": "Final Strikes to recover SP until Si's mark bursts; repeat the charge loop two more times."
+            }
+          },
+          {
+            "who": "tangtang",
+            "do": {
+              "es": "Burst: las cuatro Ultimates seguidas (Si, Last Rite, Tangtang y Arcane), Combo de Arcane y un Dive Attack dentro del Ultimate de Tangtang para la 4.ª acumulación.",
+              "en": "Burst: all four Ultimates back to back (Si, Last Rite, Tangtang and Arcane), Arcane's Combo and a Dive Attack inside Tangtang's Ultimate for the 4th stack."
+            }
+          },
+          {
+            "who": "lastrite",
+            "do": {
+              "es": "Combos de Last Rite y de Si; dos Final Strikes para la segunda fase del Ultimate de Arcane, y vuelta a empezar.",
+              "en": "Last Rite's and Si's Combos; two Final Strikes for the second phase of Arcane's Ultimate, and start over."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "lastrite",
+            "line": {
+              "es": "Khravengger (o Sundered Prince, Seeker of Dark Lung). Tide Surge al 3 (Wave Swell Heavy Armor, Tide Surge Gauntlets, Hanging River O2 Tube) con LYNX Slab.",
+              "en": "Khravengger (or Sundered Prince, Seeker of Dark Lung). 3-piece Tide Surge (Wave Swell Heavy Armor, Tide Surge Gauntlets, Hanging River O2 Tube) with LYNX Slab."
+            }
+          },
+          {
+            "id": "si",
+            "line": {
+              "es": "Jade Vessel (o Long Heritage). Type 50 Yinglung al 3 (Soft Armor, Gloves, Beacon) con LYNX Slab: este eje no necesita Ultimate Gain.",
+              "en": "Jade Vessel (or Long Heritage). 3-piece Type 50 Yinglung (Soft Armor, Gloves, Beacon) with LYNX Slab: this axis needs no Ultimate Gain."
+            }
+          },
+          {
+            "id": "tangtang",
+            "line": {
+              "es": "Brigand's Calling. Bonekrusha al 3 (Heavy Armor T2, dos Mask T2) con MI Security Gloves. Sin Qingbo: aquí no necesita recortar su Combo.",
+              "en": "Brigand's Calling. 3-piece Bonekrusha (Heavy Armor T2, two Mask T2) with MI Security Gloves. No Qingbo: she does not need Combo cooldown here."
+            }
+          },
+          {
+            "id": "arcane",
+            "line": {
+              "es": "Type 42: Solemn Phalanx. Eternal Xiranite al 3 (Light Armor, Auxiliary Arm, Bracing Slab) con AIC Fieldwork Wraps, hasta 640 de Will.",
+              "en": "Type 42: Solemn Phalanx. 3-piece Eternal Xiranite (Light Armor, Auxiliary Arm, Bracing Slab) with AIC Fieldwork Wraps, up to 640 Will."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "El autor lo presenta como un equipo de nivel T0 en la versión actual, bueno contra un solo objetivo y contra grupos, y sobre todo cómodo contra jefes: la Battle Skill de Si inmoviliza al objetivo, el Combo de Arcane en forma WILL le pone 6 segundos de Imprisonment, que ralentiza todas sus acciones, y el Combo de Last Rite llega encima. La rotación es de «tres de carga y una de burst»: las tres vueltas de carga son idénticas y sirven para llenar las Ultimates; la de burst encadena las cuatro. Toda vuelta persigue lo mismo, llevar al enemigo a 4 acumulaciones de Cryo Infliction antes del Combo de Last Rite, que las consume todas y pega y gana Ultimate Energy según cuántas consumió; el consumo dispara también el Combo de Si, que pega según la mayor cantidad de acumulaciones consumidas de un objetivo. La Battle Skill de Si marca además al objetivo con Artful Intent durante 20 segundos: guarda un porcentaje del daño que recibe (13% a rango 12) y lo suelta al terminar. El autor espera a que estalle esa marca antes de empezar la siguiente vuelta, y mientras tanto recupera SP con Final Strikes. Si va en la Posición 01, así que el talento de su Ultimate le recorta el cooldown de su propio Combo y lo deja listo para el burst. Si no tienes a Tangtang, el autor propone a Xaihi (el equipo de Maygi en esta lista); si no tienes a Arcane, a Fluorite, con el eje ajustado.",
+        "en": "The author pitches it as a T0 team in the current version, good against single targets and groups, and above all comfortable against bosses: Si's Battle Skill immobilizes the target, WILL-form Arcane's Combo puts 6 seconds of Imprisonment on it, which slows all its actions, and Last Rite's Combo lands on top. The rotation is \"three charge, one burst\": the three charge loops are identical and serve to fill the Ultimates; the burst loop chains all four. Every loop chases the same thing, bringing the enemy to 4 Cryo Infliction stacks before Last Rite's Combo, which consumes them all and hits and gains Ultimate Energy based on how many it consumed; the consumption also fires Si's Combo, which hits based on the highest number of stacks consumed from a target. Si's Battle Skill also marks the target with Artful Intent for 20 seconds: it stores a percentage of the damage the target takes (13% at rank 12) and releases it when it ends. The author waits for that mark to burst before starting the next loop, recovering SP with Final Strikes in the meantime. Si sits in Team Position 01, so her Ultimate's talent cuts the cooldown of her own Combo and has it ready for the burst. Without Tangtang, the author suggests Xaihi (Maygi's team in this list); without Arcane, Fluorite, with an adjusted axis."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Baja («silla de ruedas» del autor)",
+          "en": "Low (the author's \"wheelchair\")"
+        },
+        "content": {
+          "es": "Jefe y grupos",
+          "en": "Boss and groups"
+        },
+        "tags": [
+          {
+            "es": "Cryo",
+            "en": "Cryo"
+          },
+          {
+            "es": "3 de carga + 1 de burst",
+            "en": "3 charge + 1 burst"
+          },
+          {
+            "es": "Control de jefe",
+            "en": "Boss control"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "Las tres vueltas de carga son la misma secuencia: se aprende una y se repite.",
+          "en": "The three charge loops are the same sequence: learn one and repeat it."
+        },
+        {
+          "es": "Mucho control contra jefes: inmovilización de Si, Imprisonment de Arcane e inmovilización del Ultimate de Tangtang en el burst.",
+          "en": "Lots of boss control: Si's immobilization, Arcane's Imprisonment and Tangtang's Ultimate immobilization in the burst."
+        },
+        {
+          "es": "Si no necesita Ultimate Gain en este eje: puede llevar la build de daño de Combo entera.",
+          "en": "Si needs no Ultimate Gain on this axis: she can wear the full Combo damage build."
+        },
+        {
+          "es": "Funciona también contra grupos, según el autor.",
+          "en": "It also works against groups, per the author."
+        }
+      ],
+      "cons": [
+        {
+          "es": "Hay que esperar a que estalle la marca de Si entre vuelta y vuelta.",
+          "en": "You have to wait for Si's mark to burst between loops."
+        },
+        {
+          "es": "Pide tres 6 estrellas además de Last Rite: Si, Tangtang y Arcane.",
+          "en": "It needs three 6-stars besides Last Rite: Si, Tangtang and Arcane."
+        },
+        {
+          "es": "Arcane necesita 640 de Will para que su Susceptibility llegue al máximo.",
+          "en": "Arcane needs 640 Will for her Susceptibility to reach its maximum."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "Cuatro acumulaciones, cuatro fuentes",
+            "en": "Four stacks, four sources"
+          },
+          "body": {
+            "es": "Cada miembro aporta una acumulación de Cryo Infliction en cada vuelta de carga: la Battle Skill de Si, el Combo de Arcane en forma WILL (añade otra acumulación del mismo elemento), el Mirage que crea la siguiente Final Strike tras la Battle Skill de Last Rite y el Waterspout de la Battle Skill de Tangtang. Con 4 acumulaciones, el Combo de Last Rite pega y carga su Ultimate al máximo.",
+            "en": "Each member adds one Cryo Infliction stack per charge loop: Si's Battle Skill, WILL-form Arcane's Combo (adds another stack of the same element), the Mirage created by the next Final Strike after Last Rite's Battle Skill and the Waterspout from Tangtang's Battle Skill. At 4 stacks, Last Rite's Combo hits and charges her Ultimate as much as it can."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Un consumo, dos Combos",
+            "en": "One consumption, two Combos"
+          },
+          "body": {
+            "es": "El Combo de Si sale cuando se consume una Arts Infliction del enemigo y pega más según las acumulaciones consumidas. Cada vez que Last Rite consume las 4 acumulaciones, el Combo de Si llega detrás con el mismo valor.",
+            "en": "Si's Combo fires when an enemy's Arts Infliction is consumed and hits harder based on the stacks consumed. Every time Last Rite consumes the 4 stacks, Si's Combo follows with the same value."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "El burst se rellena solo",
+            "en": "The burst refills itself"
+          },
+          "body": {
+            "es": "En el burst, el Ultimate de Arcane en forma WILL añade una acumulación a los enemigos que ya tienen Arts Infliction, su Combo otra, y el Dive Attack del personaje controlado dentro del Ultimate de Tangtang adelanta la ola final y crea un Waterspout (su talento Riot Bringer). Así se vuelve a las 4 acumulaciones sin Battle Skills. El Ultimate de Si va primero: con Si en la Posición 01, su talento le recorta el cooldown del Combo y lo deja listo para el cierre.",
+            "en": "In the burst, WILL-form Arcane's Ultimate adds a stack to enemies that already have Arts Infliction, her Combo another, and the controlled operator's Dive Attack inside Tangtang's Ultimate brings the final wave forward and creates a Waterspout (her Riot Bringer talent). That gets back to 4 stacks without Battle Skills. Si's Ultimate goes first: with Si in Team Position 01, her talent cuts her Combo cooldown and has it ready for the finish."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Vuelta de carga I (igual que la II y la III)",
+            "en": "Charge loop I (same as II and III)"
+          },
+          "action": {
+            "es": "Battle Skill de Si → Combos de Tangtang y Arcane → Battle Skill de Last Rite + Final Strike → Battle Skill de Tangtang → Combo de Last Rite → Combo de Si.",
+            "en": "Si's Battle Skill → Tangtang's and Arcane's Combos → Last Rite's Battle Skill + Final Strike → Tangtang's Battle Skill → Last Rite's Combo → Si's Combo."
+          },
+          "steps": [
+            {
+              "who": "si",
+              "do": {
+                "es": "Battle Skill de Si: inmoviliza al jefe, aplica la 1.ª acumulación de Cryo Infliction y lo marca para guardar daño.",
+                "en": "Si's Battle Skill: immobilizes the boss, applies the 1st Cryo Infliction stack and marks it to store damage."
+              },
+              "key": true
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Combos de Tangtang y de Arcane: el de Arcane pone la 2.ª acumulación y el Imprisonment.",
+                "en": "Tangtang's and Arcane's Combos: Arcane's puts the 2nd stack and the Imprisonment."
+              }
+            },
+            {
+              "who": "lastrite",
+              "do": {
+                "es": "Battle Skill de Last Rite y una Final Strike: su Mirage pone la 3.ª acumulación.",
+                "en": "Last Rite's Battle Skill and a Final Strike: her Mirage puts the 3rd stack."
+              }
+            },
+            {
+              "who": "tangtang",
+              "do": {
+                "es": "Battle Skill de Tangtang: 4.ª acumulación.",
+                "en": "Tangtang's Battle Skill: 4th stack."
+              }
+            },
+            {
+              "who": "lastrite",
+              "do": {
+                "es": "Combo de Last Rite (consume las 4) y Combo de Si para cerrar.",
+                "en": "Last Rite's Combo (consumes all 4) and Si's Combo to close."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "El mismo orden en las tres vueltas de carga: es una sola secuencia repetida.",
+            "en": "Same order in all three charge loops: it is one sequence repeated."
+          }
+        },
+        {
+          "phase": {
+            "es": "Entre vueltas",
+            "en": "Between loops"
+          },
+          "action": {
+            "es": "Final Strikes para recuperar SP hasta que estalle la marca de Si.",
+            "en": "Final Strikes to recover SP until Si's mark bursts."
+          },
+          "steps": [
+            {
+              "who": "si",
+              "do": {
+                "es": "La siguiente vuelta empieza cuando estalla el Artful Intent de Si. Para verlo, mira el icono de mariposa verde sobre el enemigo o la cuenta atrás en el icono de la Battle Skill de Si. También puedes hacerlo estallar antes tú mismo.",
+                "en": "The next loop starts when Si's Artful Intent bursts. To spot it, watch the green butterfly icon over the enemy or the countdown on Si's Battle Skill icon. You can also burst it early yourself."
+              }
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Vuelta de burst IV",
+            "en": "Burst loop IV"
+          },
+          "action": {
+            "es": "Battle Skill y Combo de Tangtang → Ultimates de Si, Last Rite, Tangtang y Arcane → Combo de Arcane → Dive Attack dentro del Ultimate de Tangtang → Combos de Last Rite y Si → dos Final Strikes → segunda fase del Ultimate de Arcane.",
+            "en": "Tangtang's Battle Skill and Combo → Si's, Last Rite's, Tangtang's and Arcane's Ultimates → Arcane's Combo → Dive Attack inside Tangtang's Ultimate → Last Rite's and Si's Combos → two Final Strikes → second phase of Arcane's Ultimate."
+          },
+          "steps": [
+            {
+              "who": "tangtang",
+              "do": {
+                "es": "Battle Skill y Combo de Tangtang: 1.ª acumulación. Con eso las cuatro Ultimates quedan cargadas.",
+                "en": "Tangtang's Battle Skill and Combo: 1st stack. That leaves all four Ultimates charged."
+              }
+            },
+            {
+              "who": "si",
+              "do": {
+                "es": "Ultimate de Si primero (le recorta el cooldown del Combo), luego Last Rite y Tangtang, que inmoviliza al jefe.",
+                "en": "Si's Ultimate first (it cuts her Combo cooldown), then Last Rite and Tangtang, who immobilizes the boss."
+              },
+              "key": true
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Ultimate de Arcane (2.ª acumulación) y su Combo (3.ª).",
+                "en": "Arcane's Ultimate (2nd stack) and her Combo (3rd)."
+              }
+            },
+            {
+              "who": "tangtang",
+              "do": {
+                "es": "Dive Attack del personaje controlado dentro del Ultimate de Tangtang: adelanta la ola y su Waterspout pone la 4.ª.",
+                "en": "Dive Attack with the controlled operator inside Tangtang's Ultimate: it brings the wave forward and its Waterspout puts the 4th."
+              }
+            },
+            {
+              "who": "lastrite",
+              "do": {
+                "es": "Combo de Last Rite y Combo de Si.",
+                "en": "Last Rite's Combo and Si's Combo."
+              },
+              "key": true
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Dos Final Strikes y la segunda fase del Ultimate de Arcane, para que su Ultimate vuelva a cargarse en las siguientes vueltas.",
+                "en": "Two Final Strikes and the second phase of Arcane's Ultimate, so her Ultimate charges again over the next loops."
+              }
+            }
+          ],
+          "tip": {
+            "es": "Si al Ultimate de Si le falta un poco al llegar al burst, el autor lo atribuye al potencial 1 de Tangtang, que devuelve SP. Su solución: gastar 15 SP en el Initial Stroke de Si para completar la energía.",
+            "en": "If Si's Ultimate is a little short when the burst comes, the author blames Tangtang's Potential 1, which returns SP. The author's fix: spend 15 SP on Si's Initial Stroke to top up the energy."
+          }
+        }
+      ],
+      "rotationVariants": [
+        {
+          "name": {
+            "es": "Sin eje (终末协约攻略组): Arcane en la Posición 01",
+            "en": "No axis (终末协约攻略组): Arcane in Team Position 01"
+          },
+          "description": {
+            "es": "El P1 del video de 终末协约攻略组, narrado por 棉被, juega el mismo cuarteto sin eje que memorizar. Arcane va en la Posición 01: así el Ultimate de Si le recorta el cooldown del Combo y Arcane aplica Cryo con más frecuencia. Controlas a Arcane, haces ataques básicos sin parar y pulsas los Combos en cuanto se iluminan. El SP se reparte así: cada vuelta empieza con la Battle Skill de Last Rite, la de Tangtang va en cuanto se ilumina y la de Si se guarda para cuando las Ultimates están llenas y el enemigo está a punto del Stagger. Cuando las Ultimates están listas, Arcane, Si y Last Rite las abren seguidas.",
+            "en": "Part 1 of 终末协约攻略组's video, narrated by 棉被, plays the same quartet with no axis to memorize. Arcane goes in Team Position 01: that way Si's Ultimate cuts her Combo cooldown and Arcane applies Cryo more often. You control Arcane, basic attack nonstop and press Combos as soon as they light up. SP is split like this: every loop starts with Last Rite's Battle Skill, Tangtang's goes as soon as it lights up and Si's is saved for when the Ultimates are full and the enemy is close to Stagger. When the Ultimates are ready, Arcane, Si and Last Rite fire them back to back."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Vuelta base",
+                "en": "Base loop"
+              },
+              "action": {
+                "es": "Battle Skill de Last Rite → básicos de Arcane hasta la Final Strike (1.ª acumulación) → Combos de Arcane y Tangtang (2.ª) → otra Battle Skill de Last Rite → Final Strike (3.ª) → Combo de Last Rite → Combo de Si.",
+                "en": "Last Rite's Battle Skill → Arcane basics up to the Final Strike (1st stack) → Arcane's and Tangtang's Combos (2nd) → another Last Rite Battle Skill → Final Strike (3rd) → Last Rite's Combo → Si's Combo."
+              },
+              "steps": [
+                {
+                  "who": "lastrite",
+                  "do": {
+                    "es": "Battle Skill de Last Rite y básicos de Arcane hasta la Final Strike: el Mirage pone la 1.ª acumulación y salen los Combos de Arcane y de Tangtang.",
+                    "en": "Last Rite's Battle Skill and Arcane basics up to the Final Strike: the Mirage puts the 1st stack and Arcane's and Tangtang's Combos come out."
+                  }
+                },
+                {
+                  "who": "lastrite",
+                  "do": {
+                    "es": "Otra Battle Skill de Last Rite y básicos hasta la 3.ª acumulación: sale el Combo de Last Rite y, tras su consumo, el de Si.",
+                    "en": "Another Last Rite Battle Skill and basics up to the 3rd stack: Last Rite's Combo comes out and, after its consumption, Si's."
+                  }
+                },
+                {
+                  "who": "tangtang",
+                  "do": {
+                    "es": "Una Battle Skill más de Last Rite, otra Final Strike y el Combo de Tangtang: con dos Whirlpools en el campo, su Battle Skill se ilumina y se usa.",
+                    "en": "One more Last Rite Battle Skill, another Final Strike and Tangtang's Combo: with two Whirlpools on the field, her Battle Skill lights up and goes."
+                  }
+                }
+              ]
+            },
+            {
+              "phase": {
+                "es": "Burst",
+                "en": "Burst"
+              },
+              "action": {
+                "es": "Ultimates llenas: Battle Skill de Si para guardar daño → todos los Combos iluminados → Ultimates de Arcane, Si y Last Rite → Combo y Battle Skill de Tangtang → Ultimate de Tangtang → básicos hasta la segunda fase del Ultimate de Arcane.",
+                "en": "Full Ultimates: Si's Battle Skill to store damage → every lit Combo → Arcane's, Si's and Last Rite's Ultimates → Tangtang's Combo and Battle Skill → Tangtang's Ultimate → basics up to the second phase of Arcane's Ultimate."
+              },
+              "steps": [
+                {
+                  "who": "si",
+                  "do": {
+                    "es": "Con las Ultimates llenas, Battle Skill de Si para guardar el daño del burst, y todos los Combos que estén iluminados.",
+                    "en": "With the Ultimates full, Si's Battle Skill to store the burst's damage, and every Combo that is lit."
+                  }
+                },
+                {
+                  "who": "arcane",
+                  "do": {
+                    "es": "Ultimates de Arcane, Si y Last Rite. El Arts Burst que provocan dispara el Combo de Tangtang; su Battle Skill completa entonces su Ultimate, que va también.",
+                    "en": "Arcane's, Si's and Last Rite's Ultimates. The Arts Burst they cause fires Tangtang's Combo; her Battle Skill then completes her Ultimate, which goes too."
+                  }
+                },
+                {
+                  "who": "arcane",
+                  "do": {
+                    "es": "Básicos y Combos en cuanto se iluminen hasta que salga la segunda fase del Ultimate de Arcane.",
+                    "en": "Basics and Combos as they light up until the second phase of Arcane's Ultimate comes out."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "lastrite",
+          "order": {
+            "es": "Combo = Ultimate > Battle Skill > Ataque básico",
+            "en": "Combo = Ultimate > Battle Skill > Basic attack"
+          },
+          "note": {
+            "es": "Refinado: Strength, DMG Bonus y atributo principal. La ficha de 终末协约攻略组 sube el Ultimate y el Combo a especialización 3.",
+            "en": "Artificing: Strength, DMG Bonus and main attribute. 终末协约攻略组's card takes the Ultimate and Combo to specialization 3."
+          }
+        },
+        {
+          "charId": "si",
+          "order": {
+            "es": "Combo > Battle Skill = Ultimate > Ataque básico",
+            "en": "Combo > Battle Skill = Ultimate > Basic attack"
+          },
+          "note": {
+            "es": "Refinado: Intellect, DMG Bonus y atributo principal. El autor no da rangos en este video.",
+            "en": "Artificing: Intellect, DMG Bonus and main attribute. The author gives no ranks in this video."
+          }
+        },
+        {
+          "charId": "tangtang",
+          "order": {
+            "es": "Battle Skill (especialización 3); Ultimate = Ataque básico = Combo (9)",
+            "en": "Battle Skill (specialization 3); Ultimate = Basic attack = Combo (9)"
+          },
+          "note": {
+            "es": "Refinado: Agility, DMG de Battle Skill y DMG Cryo primero; Strength después. Aquí no necesita Ultimate Gain.",
+            "en": "Artificing: Agility, Battle Skill DMG and Cryo DMG first; Strength after. She needs no Ultimate Gain here."
+          },
+          "assumeRanks": {
+            "battle_skill": 12,
+            "combo_skill": 9,
+            "ultimate": 9
+          }
+        },
+        {
+          "charId": "arcane",
+          "order": {
+            "es": "Combo (especialización 3) > Ultimate / Battle Skill / Ataque básico",
+            "en": "Combo (specialization 3) > Ultimate / Battle Skill / Basic attack"
+          },
+          "note": {
+            "es": "La especialización 3 del Combo le quita 1 segundo de cooldown (19 a 18 s), lo que según el autor mejora la sensación de juego. Refinado: Will hasta 640.",
+            "en": "Specialization 3 on the Combo takes 1 second off its cooldown (19 to 18 s), which the author says makes it feel better. Artificing: Will up to 640."
+          },
+          "assumeRanks": {
+            "combo_skill": 12
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Empezar la siguiente vuelta de carga antes de que estalle la marca de Si: el autor espera al estallido o lo provoca.",
+          "en": "Starting the next charge loop before Si's mark bursts: the author waits for the burst or triggers it."
+        },
+        {
+          "es": "Usar el Combo de Last Rite antes de la 4.ª acumulación: sale con 3, pero el eje está pensado para que consuma 4.",
+          "en": "Using Last Rite's Combo before the 4th stack: it fires at 3, but the axis is built for it to consume 4."
+        },
+        {
+          "es": "Olvidar el Dive Attack dentro del Ultimate de Tangtang en el burst: es la 4.ª acumulación de esa vuelta.",
+          "en": "Forgetting the Dive Attack inside Tangtang's Ultimate in the burst: it is that loop's 4th stack."
+        },
+        {
+          "es": "Cerrar el burst sin las dos Final Strikes: sin ellas no sale la segunda fase del Ultimate de Arcane y su Ultimate no vuelve a cargarse para el siguiente ciclo.",
+          "en": "Closing the burst without the two Final Strikes: without them the second phase of Arcane's Ultimate does not come out and her Ultimate does not recharge for the next cycle."
+        },
+        {
+          "es": "Poner a Si fuera de la Posición 01: el autor la quiere ahí para que su Ultimate le recorte el cooldown de su propio Combo.",
+          "en": "Moving Si out of Team Position 01: the author wants her there so her Ultimate cuts her own Combo's cooldown."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "Maygi - Si · Arcane (WILL) · Xaihi",
+            "en": "Maygi - Si · Arcane (WILL) · Xaihi"
+          },
+          "verdict": {
+            "es": "Es la versión con Xaihi en lugar de Tangtang, la que el autor propone si no tienes a Tangtang.",
+            "en": "It is the version with Xaihi instead of Tangtang, the one the author suggests if you do not have Tangtang."
+          }
+        },
+        {
+          "name": {
+            "es": "Maygi - SIN Arcane: Si · Tangtang · Xaihi",
+            "en": "Maygi - NO Arcane: Si · Tangtang · Xaihi"
+          },
+          "verdict": {
+            "es": "Sin Arcane: Xaihi ocupa su asiento.",
+            "en": "Without Arcane: Xaihi takes her seat."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "lastrite",
+          "role": "Carry",
+          "weaponId": "wpn_claym_0013",
+          "gearRec": [
+            "wave_swell_heavy_armor",
+            "tide_surge_gauntlets",
+            "hanging_river_o2_tube",
+            "lynx_slab"
+          ],
+          "weaponNote": {
+            "es": "Khravengger (BIS), Sundered Prince o Seeker of Dark Lung en la ficha del autor. La de 终末协约攻略组 da las dos primeras.",
+            "en": "Khravengger (BIS), Sundered Prince or Seeker of Dark Lung on the author's card. 终末协约攻略组's gives the first two."
+          },
+          "gearNote": {
+            "es": "Tide Surge al 3 (Wave Swell Heavy Armor, Tide Surge Gauntlets, Hanging River O2 Tube) con LYNX Slab, en las fichas de los dos videos.",
+            "en": "3-piece Tide Surge (Wave Swell Heavy Armor, Tide Surge Gauntlets, Hanging River O2 Tube) with LYNX Slab, on both videos' cards."
+          },
+          "deepNote": {
+            "es": "Su Combo pide 3 o más acumulaciones de Cryo Infliction y las consume todas; daño y Ultimate Energy dependen de cuántas consumió. Solo gana Ultimate Energy con su Battle Skill y su Combo. Su Battle Skill hace que la siguiente Final Strike del personaje controlado cree un Mirage que aplica Cryo Infliction y devuelve SP.",
+            "en": "Her Combo needs 3 or more Cryo Infliction stacks and consumes them all; damage and Ultimate Energy depend on how many it consumed. She only gains Ultimate Energy from her Battle Skill and Combo. Her Battle Skill makes the controlled operator's next Final Strike create a Mirage that applies Cryo Infliction and returns SP."
+          }
+        },
+        {
+          "id": "si",
+          "role": "Buffer",
+          "weaponId": "wpn_claym_0018",
+          "gearRec": [
+            "type_50_yinglung_soft_armor",
+            "type_50_yinglung_gloves_intellect_strength",
+            "type_50_yinglung_beacon",
+            "lynx_slab"
+          ],
+          "weaponNote": {
+            "es": "Jade Vessel (BIS). Fuerza de equipo de la ficha del autor, contra Jade Vessel a P0: Jade Vessel a P5 ≈115% con Si de carry y ≈110% con Si de soporte; Long Heritage ≈85% a P0 y ≈90% a P5 (con Si de carry).",
+            "en": "Jade Vessel (BIS). Team strength from the author's card, against Jade Vessel at P0: Jade Vessel at P5 ≈115% with Si as carry and ≈110% with Si as support; Long Heritage ≈85% at P0 and ≈90% at P5 (with Si as carry)."
+          },
+          "gearNote": {
+            "es": "Type 50 Yinglung al 3 (Soft Armor, Gloves, Beacon) con LYNX Slab: el autor recalca que este eje alinea las Ultimates sin Ultimate Gain. 终末协约攻略组 cambia los Gloves por Rift Trekker Gloves y lleva dos Beacon.",
+            "en": "3-piece Type 50 Yinglung (Soft Armor, Gloves, Beacon) with LYNX Slab: the author stresses that this axis lines up the Ultimates without Ultimate Gain. 终末协约攻略组 swaps the Gloves for Rift Trekker Gloves and runs two Beacons."
+          },
+          "deepNote": {
+            "es": "Va en la Posición 01. Su Battle Skill aplica Cryo Infliction, inmoviliza y marca con Artful Intent (guarda parte del daño recibido durante 20 s y lo suelta al terminar). Su Combo sale con cada consumo de Arts Infliction y pega según las acumulaciones consumidas. Su Ultimate da Cryo y Heat Amp al equipo (36% a rango 12) y su talento recorta el cooldown del Combo de quien está en la Posición 01: ella misma.",
+            "en": "She sits in Team Position 01. Her Battle Skill applies Cryo Infliction, immobilizes and marks with Artful Intent (stores part of the damage taken for 20 s and releases it at the end). Her Combo fires with every Arts Infliction consumption and hits based on the stacks consumed. Her Ultimate gives the team Cryo and Heat Amp (36% at rank 12) and her talent cuts the Combo cooldown of whoever is in Team Position 01: herself."
+          }
+        },
+        {
+          "id": "tangtang",
+          "role": "Buffer",
+          "weaponId": "wpn_pistol_0011",
+          "gearRec": [
+            "bonekrusha_heavy_armor_t2",
+            "mi_security_gloves",
+            "bonekrusha_mask_t2",
+            "bonekrusha_mask_t2"
+          ],
+          "weaponNote": {
+            "es": "Brigand's Calling (BIS), Home Longing o Wedge.",
+            "en": "Brigand's Calling (BIS), Home Longing or Wedge."
+          },
+          "gearNote": {
+            "es": "Bonekrusha al 3 con MI Security Gloves (la ficha del autor: Heavy Armor T2 y dos Mask T2). En el audio da también Bonekrusha al 3 con un LYNX Slab. 终末协约攻略组 lleva Heavy Armor T2, Wristband T1 y Mask T2 con LYNX Slab.",
+            "en": "3-piece Bonekrusha with MI Security Gloves (the author's card: Heavy Armor T2 and two Mask T2). In the audio he also gives 3-piece Bonekrusha with a LYNX Slab. 终末协约攻略组 runs Heavy Armor T2, Wristband T1 and Mask T2 with LYNX Slab."
+          },
+          "deepNote": {
+            "es": "Su Combo sale al aplicarse Cryo Infliction y crea un Whirlpool. Su Battle Skill crea un Waterspout que aplica Cryo Infliction, y convierte en Waterspouts los Whirlpools cercanos (con varios, aplican Arts Susceptibility y devuelven SP). Su Ultimate inmoviliza; un Dive Attack dentro adelanta la ola final y crea otro Waterspout.",
+            "en": "Her Combo fires when Cryo Infliction is applied and creates a Whirlpool. Her Battle Skill creates a Waterspout that applies Cryo Infliction, and turns nearby Whirlpools into Waterspouts (with several, they apply Arts Susceptibility and return SP). Her Ultimate immobilizes; a Dive Attack inside it brings the final wave forward and creates another Waterspout."
+          }
+        },
+        {
+          "id": "arcane",
+          "role": "Enabler",
+          "weaponId": "wpn_funnel_0016",
+          "gearRec": [
+            "eternal_xiranite_light_armor",
+            "aic_fieldwork_wraps",
+            "eternal_xiranite_auxiliary_arm",
+            "eternal_xiranite_bracing_slab"
+          ],
+          "weaponNote": {
+            "es": "Type 42: Solemn Phalanx (BIS; a P5 ≈115% de la fuerza de equipo a P0, según la ficha). Junction Point ≈85% a P0 y ≈90% a P5. Detonation Unit también figura, sin cifra.",
+            "en": "Type 42: Solemn Phalanx (BIS; at P5 ≈115% of team strength at P0, per the card). Junction Point ≈85% at P0 and ≈90% at P5. Detonation Unit is also listed, with no figure."
+          },
+          "gearNote": {
+            "es": "Eternal Xiranite al 3 (Light Armor, Auxiliary Arm, Bracing Slab) con AIC Fieldwork Wraps: según el autor cubre la carga y llega a los 640 de Will. La ficha de 终末协约攻略组 da dos opciones: Eternal Xiranite al 4 (Light Armor, Wraps, dos Bracing Slab) para buffear al equipo, o Light Armor de Eternal Xiranite con Hot Work Gloves y dos Hot Work Power Cartridge para subir Arts Intensity y la reducción de resistencia de la Corrosion.",
+            "en": "3-piece Eternal Xiranite (Light Armor, Auxiliary Arm, Bracing Slab) with AIC Fieldwork Wraps: per the author it covers the charge and reaches 640 Will. 终末协约攻略组's card gives two options: 4-piece Eternal Xiranite (Light Armor, Wraps, two Bracing Slabs) to buff the team, or the Eternal Xiranite Light Armor with Hot Work Gloves and two Hot Work Power Cartridges to raise Arts Intensity and Corrosion's resistance reduction."
+          },
+          "deepNote": {
+            "es": "Forma WILL. Su Combo añade otra acumulación del mismo elemento, aplica Nature y Cryo Susceptibility y pone 6 s de Imprisonment, que ralentiza todas las acciones del objetivo. La Will sube esa Susceptibility hasta un máximo que a rango 12 pide 640 de Will. Su Ultimate añade una acumulación a los enemigos que ya tienen Arts Infliction; tras dos Final Strikes (Cluster Strikes) pasa a su segunda fase.",
+            "en": "WILL form. Her Combo adds another stack of the same element, applies Nature and Cryo Susceptibility and puts 6 s of Imprisonment, which slows all the target's actions. Will raises that Susceptibility up to a cap that at rank 12 needs 640 Will. Her Ultimate adds a stack to enemies that already have Arts Infliction; after two Final Strikes (Cluster Strikes) it moves to its second phase."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Fichas del autor al final del video, con el porcentaje de fuerza de equipo por arma frente a la BIS a P0; las de 终末协约攻略组 (P1 de su video) van como alternativas.",
+          "en": "The author's cards at the end of the video, with team-strength percentage per weapon against the BIS at P0; 终末协约攻略组's (part 1 of their video) are listed as alternatives."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Sin Tangtang",
+              "en": "Without Tangtang"
+            },
+            "swap": {
+              "es": "Xaihi en su lugar (el equipo de Maygi), con el eje ajustado.",
+              "en": "Xaihi in her place (Maygi's team), with an adjusted axis."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Sin Arcane",
+              "en": "Without Arcane"
+            },
+            "swap": {
+              "es": "Fluorite en su lugar, con el eje ajustado (P2 del video).",
+              "en": "Fluorite in her place, with an adjusted axis (part 2 of the video)."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Tangtang con otra build",
+              "en": "Tangtang with another build"
+            },
+            "swap": {
+              "es": "Bonekrusha al 3 con LYNX Slab, o la de 终末协约攻略组: Heavy Armor T2, Wristband T1 y Mask T2 con LYNX Slab.",
+              "en": "3-piece Bonekrusha with LYNX Slab, or 终末协约攻略组's: Heavy Armor T2, Wristband T1 and Mask T2 with LYNX Slab."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Arcane para la Corrosion",
+              "en": "Arcane for Corrosion"
+            },
+            "swap": {
+              "es": "Eternal Xiranite Light Armor + Hot Work Gloves + dos Hot Work Power Cartridge (ficha de 终末协约攻略组).",
+              "en": "Eternal Xiranite Light Armor + Hot Work Gloves + two Hot Work Power Cartridges (终末协约攻略组's card)."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": {
+        "es": "YZ-月咒 - SIN Arcane: Si · Tangtang · Fluorite",
+        "en": "YZ-月咒 - NO Arcane: Si · Tangtang · Fluorite"
+      },
+      "subtitle": {
+        "es": "Si · Tangtang · Fluorite",
+        "en": "Si · Tangtang · Fluorite"
+      },
+      "blurb": {
+        "es": "La versión del equipo de Last Rite y Si para quien no tiene a Arcane: Fluorite pone la acumulación de Cryo que ponía Arcane, una vuelta con su Combo y otra con su Ultimate. El mismo objetivo de 4 acumulaciones antes del Combo de Last Rite.",
+        "en": "The Last Rite and Si team for players without Arcane: Fluorite puts the Cryo stack Arcane used to, one loop with her Combo and another with her Ultimate. The same goal of 4 stacks before Last Rite's Combo."
+      },
+      "guideVideoId": "lr4",
+      "simple": {
+        "whatItDoes": {
+          "es": "Last Rite es la carry: su Combo consume las acumulaciones de Cryo Infliction y pega según cuántas había. Cada vuelta junta 4: la Battle Skill de Si, el Mirage de la Battle Skill de Last Rite, Fluorite (su Combo o su Ultimate añaden otra acumulación del elemento que ya tiene el enemigo) y la Battle Skill de Tangtang. Después del Combo de Last Rite, el de Si.",
+          "en": "Last Rite is the carry: her Combo consumes the Cryo Infliction stacks and hits based on how many there were. Each loop builds 4: Si's Battle Skill, the Mirage from Last Rite's Battle Skill, Fluorite (her Combo or Ultimate adds another stack of the element already on the enemy) and Tangtang's Battle Skill. After Last Rite's Combo, Si's."
+        },
+        "steps": [
+          {
+            "who": "si",
+            "do": {
+              "es": "Battle Skill de Si (1.ª) y Battle Skill de Last Rite con su Final Strike (2.ª).",
+              "en": "Si's Battle Skill (1st) and Last Rite's Battle Skill with its Final Strike (2nd)."
+            }
+          },
+          {
+            "who": "fluorite",
+            "do": {
+              "es": "Combo de Fluorite (3.ª) y Battle Skill de Tangtang (4.ª); en la vuelta siguiente, el Ultimate de Fluorite hace de 4.ª.",
+              "en": "Fluorite's Combo (3rd) and Tangtang's Battle Skill (4th); in the next loop, Fluorite's Ultimate is the 4th."
+            }
+          },
+          {
+            "who": "lastrite",
+            "do": {
+              "es": "Combo de Last Rite y Combo de Si.",
+              "en": "Last Rite's Combo and Si's Combo."
+            },
+            "key": true
+          },
+          {
+            "who": "tangtang",
+            "do": {
+              "es": "Tras la tercera vuelta, Battle Skill y Combo de Tangtang, tres Ultimates seguidas y un Dive Attack.",
+              "en": "After the third loop, Tangtang's Battle Skill and Combo, three Ultimates back to back and a Dive Attack."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "lastrite",
+            "line": {
+              "es": "Khravengger (o Sundered Prince, Seeker of Dark Lung). Tide Surge al 3 (Wave Swell Heavy Armor, Tide Surge Gauntlets, Hanging River O2 Tube) con LYNX Slab.",
+              "en": "Khravengger (or Sundered Prince, Seeker of Dark Lung). 3-piece Tide Surge (Wave Swell Heavy Armor, Tide Surge Gauntlets, Hanging River O2 Tube) with LYNX Slab."
+            }
+          },
+          {
+            "id": "si",
+            "line": {
+              "es": "Jade Vessel (o Long Heritage). Type 50 Yinglung al 3 (Soft Armor, Gloves, Beacon) con LYNX Slab: este eje no necesita Ultimate Gain.",
+              "en": "Jade Vessel (or Long Heritage). 3-piece Type 50 Yinglung (Soft Armor, Gloves, Beacon) with LYNX Slab: this axis needs no Ultimate Gain."
+            }
+          },
+          {
+            "id": "tangtang",
+            "line": {
+              "es": "Brigand's Calling. Bonekrusha al 3 (Heavy Armor T2, dos Mask T2) con MI Security Gloves. Sin Qingbo: aquí no necesita recortar su Combo.",
+              "en": "Brigand's Calling. 3-piece Bonekrusha (Heavy Armor T2, two Mask T2) with MI Security Gloves. No Qingbo: she does not need Combo cooldown here."
+            }
+          },
+          {
+            "id": "fluorite",
+            "line": {
+              "es": "Ultimate Gain completo: el set de Ultimate Gain que da el juego a nivel 60, según el autor.",
+              "en": "Full Ultimate Gain: the Ultimate Gain set the game gives at level 60, per the author."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "La P2 del video: el equipo de Last Rite y Si sin Arcane, con Fluorite en su asiento. Es una demo narrada en directo, sin subtítulos; aquí solo entra lo que coincide en las dos transcripciones. Fluorite hace el trabajo de Arcane de añadir una acumulación de Cryo: su Combo sale con 2 o más acumulaciones de Cryo o Nature y añade otra del elemento que ya tiene el enemigo, y su Ultimate añade otra si el último golpe impacta con 2 o más. El autor alterna: una vuelta con su Combo y otra con su Ultimate. La vuelta: Battle Skill de Si (1.ª), Battle Skill de Last Rite y una Final Strike (2.ª), Combo de Fluorite (3.ª) y Battle Skill de Tangtang (4.ª); el Combo de Last Rite consume las 4 y cierra el de Si. En la segunda vuelta, la 3.ª la pone la Battle Skill de Tangtang y la 4.ª el Ultimate de Fluorite. La tercera vuelta, después de esperar a que estalle la marca de Si, repite la primera y termina con la Battle Skill y el Combo de Tangtang, tres Ultimates seguidas, un Dive Attack y otra Battle Skill de Tangtang. A partir de ahí, el autor describe el ritmo como «carga, carga, burst». Fluorite va con Ultimate Gain completo.",
+        "en": "Part 2 of the video: the Last Rite and Si team without Arcane, with Fluorite in her seat. It is a live-narrated demo with no subtitles; only what matches in both transcriptions goes in here. Fluorite does Arcane's job of adding a Cryo stack: her Combo fires with 2 or more Cryo or Nature stacks and adds another of the element already on the enemy, and her Ultimate adds another if its last hit lands with 2 or more. The author alternates: one loop with her Combo and another with her Ultimate. The loop: Si's Battle Skill (1st), Last Rite's Battle Skill and a Final Strike (2nd), Fluorite's Combo (3rd) and Tangtang's Battle Skill (4th); Last Rite's Combo consumes all 4 and Si's closes. In the second loop, Tangtang's Battle Skill puts the 3rd and Fluorite's Ultimate the 4th. The third loop, after waiting for Si's mark to burst, repeats the first and ends with Tangtang's Battle Skill and Combo, three Ultimates back to back, a Dive Attack and another Tangtang Battle Skill. From there, the author describes the rhythm as \"charge, charge, burst\". Fluorite runs full Ultimate Gain."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Media (demo sin subtítulos)",
+          "en": "Medium (demo without subtitles)"
+        },
+        "content": {
+          "es": "Jefe / Single-target",
+          "en": "Boss / Single-target"
+        },
+        "tags": [
+          {
+            "es": "Cryo",
+            "en": "Cryo"
+          },
+          {
+            "es": "Sin Arcane",
+            "en": "No Arcane"
+          },
+          {
+            "es": "Carga, carga, burst",
+            "en": "Charge, charge, burst"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "Para quien no tiene a Arcane: Fluorite es una 4 estrellas.",
+          "en": "For players without Arcane: Fluorite is a 4-star."
+        },
+        {
+          "es": "Mismo objetivo de 4 acumulaciones que la versión con Arcane.",
+          "en": "Same 4-stack goal as the Arcane version."
+        }
+      ],
+      "cons": [
+        {
+          "es": "Fluorite necesita Ultimate Gain completo para alternar Combo y Ultimate.",
+          "en": "Fluorite needs full Ultimate Gain to alternate Combo and Ultimate."
+        },
+        {
+          "es": "Sin el Imprisonment ni la Susceptibility de Arcane.",
+          "en": "Without Arcane's Imprisonment or Susceptibility."
+        },
+        {
+          "es": "El video solo lo muestra como demo narrada, sin fichas propias.",
+          "en": "The video only shows it as a narrated demo, without its own cards."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "Fluorite en el papel de Arcane",
+            "en": "Fluorite in Arcane's role"
+          },
+          "body": {
+            "es": "El Combo de Fluorite sale con 2 o más acumulaciones de Cryo (o Nature) y añade otra del elemento que ya tiene el enemigo; su Ultimate añade otra si el último golpe impacta con 2 o más. Con eso, Fluorite pone la acumulación que en el equipo principal ponía Arcane.",
+            "en": "Fluorite's Combo fires with 2 or more Cryo (or Nature) stacks and adds another of the element already on the enemy; her Ultimate adds another if its last hit lands with 2 or more. With that, Fluorite puts the stack Arcane put in the main team."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Un consumo, dos Combos",
+            "en": "One consumption, two Combos"
+          },
+          "body": {
+            "es": "El Combo de Si sale cuando se consume una Arts Infliction del enemigo y pega más según las acumulaciones consumidas. Cada vez que Last Rite consume las 4 acumulaciones, el Combo de Si llega detrás con el mismo valor.",
+            "en": "Si's Combo fires when an enemy's Arts Infliction is consumed and hits harder based on the stacks consumed. Every time Last Rite consumes the 4 stacks, Si's Combo follows with the same value."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Vuelta 1",
+            "en": "Loop 1"
+          },
+          "action": {
+            "es": "Battle Skill de Si → Battle Skill de Last Rite + Final Strike → Combo de Fluorite → Battle Skill de Tangtang → Combo de Last Rite → Combo de Si.",
+            "en": "Si's Battle Skill → Last Rite's Battle Skill + Final Strike → Fluorite's Combo → Tangtang's Battle Skill → Last Rite's Combo → Si's Combo."
+          },
+          "steps": [
+            {
+              "who": "si",
+              "do": {
+                "es": "Battle Skill de Si: 1.ª acumulación.",
+                "en": "Si's Battle Skill: 1st stack."
+              }
+            },
+            {
+              "who": "lastrite",
+              "do": {
+                "es": "Battle Skill de Last Rite y una Final Strike: 2.ª.",
+                "en": "Last Rite's Battle Skill and a Final Strike: 2nd."
+              }
+            },
+            {
+              "who": "fluorite",
+              "do": {
+                "es": "Combo de Fluorite: 3.ª. Battle Skill de Tangtang: 4.ª.",
+                "en": "Fluorite's Combo: 3rd. Tangtang's Battle Skill: 4th."
+              }
+            },
+            {
+              "who": "lastrite",
+              "do": {
+                "es": "Combo de Last Rite (consume las 4) y Combo de Si.",
+                "en": "Last Rite's Combo (consumes all 4) and Si's Combo."
+              },
+              "key": true
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Vuelta 2",
+            "en": "Loop 2"
+          },
+          "action": {
+            "es": "Battle Skill de Si → Battle Skill de Last Rite + Final Strike → Battle Skill de Tangtang → Ultimate de Fluorite → Combo de Last Rite → Combo de Si.",
+            "en": "Si's Battle Skill → Last Rite's Battle Skill + Final Strike → Tangtang's Battle Skill → Fluorite's Ultimate → Last Rite's Combo → Si's Combo."
+          },
+          "steps": [
+            {
+              "who": "si",
+              "do": {
+                "es": "Battle Skill de Si (1.ª), Battle Skill de Last Rite (2.ª) y Battle Skill de Tangtang (3.ª).",
+                "en": "Si's Battle Skill (1st), Last Rite's Battle Skill (2nd) and Tangtang's Battle Skill (3rd)."
+              }
+            },
+            {
+              "who": "fluorite",
+              "do": {
+                "es": "Esta vez la 4.ª la pone el Ultimate de Fluorite.",
+                "en": "This time Fluorite's Ultimate puts the 4th."
+              },
+              "key": true
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Vuelta 3 y burst",
+            "en": "Loop 3 and burst"
+          },
+          "action": {
+            "es": "Esperar a que estalle la marca de Si → la vuelta 1 → Battle Skill y Combo de Tangtang → tres Ultimates → Dive Attack → Battle Skill de Tangtang.",
+            "en": "Wait for Si's mark to burst → loop 1 → Tangtang's Battle Skill and Combo → three Ultimates → Dive Attack → Tangtang's Battle Skill."
+          },
+          "steps": [
+            {
+              "who": "si",
+              "do": {
+                "es": "Espera a que estalle la marca de Si y repite la vuelta 1.",
+                "en": "Wait for Si's mark to burst and repeat loop 1."
+              }
+            },
+            {
+              "who": "tangtang",
+              "do": {
+                "es": "Battle Skill y Combo de Tangtang, tres Ultimates seguidas, un Dive Attack y otra Battle Skill de Tangtang.",
+                "en": "Tangtang's Battle Skill and Combo, three Ultimates back to back, a Dive Attack and another Tangtang Battle Skill."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "Después, el autor sigue con «carga, carga, burst».",
+            "en": "After that, the author keeps going with \"charge, charge, burst\"."
+          }
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "lastrite",
+          "order": {
+            "es": "Combo = Ultimate > Battle Skill > Ataque básico",
+            "en": "Combo = Ultimate > Battle Skill > Basic attack"
+          },
+          "note": {
+            "es": "Refinado: Strength, DMG Bonus y atributo principal. La ficha de 终末协约攻略组 sube el Ultimate y el Combo a especialización 3.",
+            "en": "Artificing: Strength, DMG Bonus and main attribute. 终末协约攻略组's card takes the Ultimate and Combo to specialization 3."
+          }
+        },
+        {
+          "charId": "si",
+          "order": {
+            "es": "Combo > Battle Skill = Ultimate > Ataque básico",
+            "en": "Combo > Battle Skill = Ultimate > Basic attack"
+          },
+          "note": {
+            "es": "Refinado: Intellect, DMG Bonus y atributo principal. El autor no da rangos en este video.",
+            "en": "Artificing: Intellect, DMG Bonus and main attribute. The author gives no ranks in this video."
+          }
+        },
+        {
+          "charId": "tangtang",
+          "order": {
+            "es": "Battle Skill (especialización 3); Ultimate = Ataque básico = Combo (9)",
+            "en": "Battle Skill (specialization 3); Ultimate = Basic attack = Combo (9)"
+          },
+          "note": {
+            "es": "Refinado: Agility, DMG de Battle Skill y DMG Cryo primero; Strength después. Aquí no necesita Ultimate Gain.",
+            "en": "Artificing: Agility, Battle Skill DMG and Cryo DMG first; Strength after. She needs no Ultimate Gain here."
+          },
+          "assumeRanks": {
+            "battle_skill": 12,
+            "combo_skill": 9,
+            "ultimate": 9
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Usar el Combo y el Ultimate de Fluorite en la misma vuelta: el autor los alterna, uno por vuelta.",
+          "en": "Using Fluorite's Combo and Ultimate in the same loop: the author alternates them, one per loop."
+        },
+        {
+          "es": "Empezar la siguiente vuelta de carga antes de que estalle la marca de Si: el autor espera al estallido o lo provoca.",
+          "en": "Starting the next charge loop before Si's mark bursts: the author waits for the burst or triggers it."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "YZ-月咒 - Si · Tangtang · Arcane (WILL)",
+            "en": "YZ-月咒 - Si · Tangtang · Arcane (WILL)"
+          },
+          "verdict": {
+            "es": "La versión con Arcane, la principal del video.",
+            "en": "The Arcane version, the video's main one."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "lastrite",
+          "role": "Carry",
+          "weaponId": "wpn_claym_0013",
+          "gearRec": [
+            "wave_swell_heavy_armor",
+            "tide_surge_gauntlets",
+            "hanging_river_o2_tube",
+            "lynx_slab"
+          ],
+          "weaponNote": {
+            "es": "Khravengger (BIS), Sundered Prince o Seeker of Dark Lung en la ficha del autor. La de 终末协约攻略组 da las dos primeras.",
+            "en": "Khravengger (BIS), Sundered Prince or Seeker of Dark Lung on the author's card. 终末协约攻略组's gives the first two."
+          },
+          "gearNote": {
+            "es": "Tide Surge al 3 (Wave Swell Heavy Armor, Tide Surge Gauntlets, Hanging River O2 Tube) con LYNX Slab, en las fichas de los dos videos.",
+            "en": "3-piece Tide Surge (Wave Swell Heavy Armor, Tide Surge Gauntlets, Hanging River O2 Tube) with LYNX Slab, on both videos' cards."
+          },
+          "deepNote": {
+            "es": "Su Combo pide 3 o más acumulaciones de Cryo Infliction y las consume todas; daño y Ultimate Energy dependen de cuántas consumió. Solo gana Ultimate Energy con su Battle Skill y su Combo. Su Battle Skill hace que la siguiente Final Strike del personaje controlado cree un Mirage que aplica Cryo Infliction y devuelve SP.",
+            "en": "Her Combo needs 3 or more Cryo Infliction stacks and consumes them all; damage and Ultimate Energy depend on how many it consumed. She only gains Ultimate Energy from her Battle Skill and Combo. Her Battle Skill makes the controlled operator's next Final Strike create a Mirage that applies Cryo Infliction and returns SP."
+          }
+        },
+        {
+          "id": "si",
+          "role": "Buffer",
+          "weaponId": "wpn_claym_0018",
+          "gearRec": [
+            "type_50_yinglung_soft_armor",
+            "type_50_yinglung_gloves_intellect_strength",
+            "type_50_yinglung_beacon",
+            "lynx_slab"
+          ],
+          "weaponNote": {
+            "es": "Jade Vessel (BIS). Fuerza de equipo de la ficha del autor, contra Jade Vessel a P0: Jade Vessel a P5 ≈115% con Si de carry y ≈110% con Si de soporte; Long Heritage ≈85% a P0 y ≈90% a P5 (con Si de carry).",
+            "en": "Jade Vessel (BIS). Team strength from the author's card, against Jade Vessel at P0: Jade Vessel at P5 ≈115% with Si as carry and ≈110% with Si as support; Long Heritage ≈85% at P0 and ≈90% at P5 (with Si as carry)."
+          },
+          "gearNote": {
+            "es": "Type 50 Yinglung al 3 (Soft Armor, Gloves, Beacon) con LYNX Slab: el autor recalca que este eje alinea las Ultimates sin Ultimate Gain. 终末协约攻略组 cambia los Gloves por Rift Trekker Gloves y lleva dos Beacon.",
+            "en": "3-piece Type 50 Yinglung (Soft Armor, Gloves, Beacon) with LYNX Slab: the author stresses that this axis lines up the Ultimates without Ultimate Gain. 终末协约攻略组 swaps the Gloves for Rift Trekker Gloves and runs two Beacons."
+          },
+          "deepNote": {
+            "es": "Va en la Posición 01. Su Battle Skill pone la 1.ª acumulación de Cryo Infliction de cada vuelta, inmoviliza y marca con Artful Intent (guarda parte del daño recibido durante 20 s). Su Combo cierra cada vuelta tras el de Last Rite, y su Ultimate da Cryo y Heat Amp al equipo.",
+            "en": "She sits in Team Position 01. Her Battle Skill puts each loop's 1st Cryo Infliction stack, immobilizes and marks with Artful Intent (stores part of the damage taken for 20 s). Her Combo closes each loop after Last Rite's, and her Ultimate gives the team Cryo and Heat Amp."
+          }
+        },
+        {
+          "id": "tangtang",
+          "role": "Buffer",
+          "weaponId": "wpn_pistol_0011",
+          "gearRec": [
+            "bonekrusha_heavy_armor_t2",
+            "mi_security_gloves",
+            "bonekrusha_mask_t2",
+            "bonekrusha_mask_t2"
+          ],
+          "weaponNote": {
+            "es": "Brigand's Calling (BIS), Home Longing o Wedge.",
+            "en": "Brigand's Calling (BIS), Home Longing or Wedge."
+          },
+          "gearNote": {
+            "es": "Bonekrusha al 3 con MI Security Gloves (la ficha del autor: Heavy Armor T2 y dos Mask T2). En el audio da también Bonekrusha al 3 con un LYNX Slab. 终末协约攻略组 lleva Heavy Armor T2, Wristband T1 y Mask T2 con LYNX Slab.",
+            "en": "3-piece Bonekrusha with MI Security Gloves (the author's card: Heavy Armor T2 and two Mask T2). In the audio he also gives 3-piece Bonekrusha with a LYNX Slab. 终末协约攻略组 runs Heavy Armor T2, Wristband T1 and Mask T2 with LYNX Slab."
+          },
+          "deepNote": {
+            "es": "Su Combo sale al aplicarse Cryo Infliction y crea un Whirlpool. Su Battle Skill crea un Waterspout que aplica Cryo Infliction, y convierte en Waterspouts los Whirlpools cercanos (con varios, aplican Arts Susceptibility y devuelven SP). Su Ultimate inmoviliza; un Dive Attack dentro adelanta la ola final y crea otro Waterspout.",
+            "en": "Her Combo fires when Cryo Infliction is applied and creates a Whirlpool. Her Battle Skill creates a Waterspout that applies Cryo Infliction, and turns nearby Whirlpools into Waterspouts (with several, they apply Arts Susceptibility and return SP). Her Ultimate immobilizes; a Dive Attack inside it brings the final wave forward and creates another Waterspout."
+          }
+        },
+        {
+          "id": "fluorite",
+          "role": "Buffer",
+          "weaponId": null,
+          "gearRec": null,
+          "weaponNote": {
+            "es": "El video no la muestra.",
+            "en": "Not shown in the video."
+          },
+          "gearNote": {
+            "es": "Ultimate Gain completo: el autor lleva el set de Ultimate Gain que da el juego a nivel 60. El video no muestra las piezas.",
+            "en": "Full Ultimate Gain: the author runs the Ultimate Gain set the game gives at level 60. The video does not show the pieces."
+          },
+          "deepNote": {
+            "es": "Su Combo sale con 2 o más acumulaciones de Cryo o Nature y añade otra del elemento que ya tiene el enemigo. Su Ultimate añade otra si el último golpe impacta a un objetivo con 2 o más. Aquí alterna Combo y Ultimate.",
+            "en": "Her Combo fires with 2 or more Cryo or Nature stacks and adds another of the element already on the enemy. Her Ultimate adds another if its last hit lands on a target with 2 or more. Here she alternates Combo and Ultimate."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Las fichas de Last Rite, Si y Tangtang son las de la P1; para Fluorite, el autor solo dice que lleva Ultimate Gain completo.",
+          "en": "Last Rite's, Si's and Tangtang's cards are part 1's; for Fluorite, the author only says she runs full Ultimate Gain."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Con Arcane",
+              "en": "With Arcane"
+            },
+            "swap": {
+              "es": "El equipo principal del video.",
+              "en": "The video's main team."
             }
           }
         ]
