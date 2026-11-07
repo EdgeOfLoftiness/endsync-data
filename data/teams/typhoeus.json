@@ -642,6 +642,16 @@
               "es": "La única alternativa con Ultimate Gain: 88% del daño de equipo frente al BIS. El resto del gear no cambia.",
               "en": "The only other option with Ultimate Gain: 88% of the team damage against the BIS. The rest of the gear does not change."
             }
+          },
+          {
+            "scenario": {
+              "es": "Build de 股神小炉 (mismo cuarteto, Arcane WILL)",
+              "en": "股神小炉's build (same quartet, WILL Arcane)"
+            },
+            "swap": {
+              "es": "De su guía de Typhoeus con Arcane WILL y dos 5★ libres. Typhoeus: cuatro Deep Rampart. Arcane: Eternal Xiranite Light Armor, Wraps, Bracing Slab y Auxiliary Arm. Gilberta: Delivery Guaranteed, Redeemer Armor, guantes Eternal Xiranite y dos Auxiliary Arm. Perlica: Stanza of Memorials, Pulser Labs Disruptor Suit, Hot Work Gloves y dos Pulser Labs Calibrator. Según el autor, Gilberta con Perlica rinde más con Arcane en forma INT.",
+              "en": "From his Typhoeus guide with WILL Arcane and two free 5★. Typhoeus: four Deep Rampart. Arcane: Eternal Xiranite Light Armor, Wraps, Bracing Slab and Auxiliary Arm. Gilberta: Delivery Guaranteed, Redeemer Armor, Eternal Xiranite gloves and two Auxiliary Arms. Perlica: Stanza of Memorials, Pulser Labs Disruptor Suit, Hot Work Gloves and two Pulser Labs Calibrators. Per the author, Gilberta with Perlica does better with INT-form Arcane."
+            }
           }
         ]
       }
@@ -3475,6 +3485,16 @@
               "es": "Fluorite en su asiento con el mismo plan, según el autor; el video no muestra su build.",
               "en": "Fluorite in her seat with the same plan, according to the author; the video does not show her build."
             }
+          },
+          {
+            "scenario": {
+              "es": "Build de 股神小炉 (mismo cuarteto)",
+              "en": "股神小炉's build (same quartet)"
+            },
+            "swap": {
+              "es": "De su guía de Typhoeus con Arcane WILL y dos 5★ libres. Arcane: Eternal Xiranite Light Armor, Wraps, Bracing Slab y Auxiliary Arm. Typhoeus: cuatro Deep Rampart. Perlica: Stanza of Memorials, Pulser Labs Disruptor Suit, Hot Work Gloves y dos Pulser Labs Calibrator. Xaihi: Detonation Unit, Redeemer Armor, unos guantes de nivel 60 con icono de AIC Fieldwork Wraps y dos Frontiers Extra O2 Tube T1.",
+              "en": "From his Typhoeus guide with WILL Arcane and two free 5★. Arcane: Eternal Xiranite Light Armor, Wraps, Bracing Slab and Auxiliary Arm. Typhoeus: four Deep Rampart. Perlica: Stanza of Memorials, Pulser Labs Disruptor Suit, Hot Work Gloves and two Pulser Labs Calibrators. Xaihi: Detonation Unit, Redeemer Armor, level-60 gloves with the AIC Fieldwork Wraps icon and two Frontiers Extra O2 Tube T1."
+            }
           }
         ]
       }
@@ -5153,6 +5173,82 @@
           }
         }
       ],
+      "rotationVariants": [
+        {
+          "name": {
+            "es": "股神小炉: condiciones y vuelta de salida",
+            "en": "股神小炉: conditions and output loop"
+          },
+          "description": {
+            "es": "El mismo cuarteto en la versión de 股神小炉, con la demo contra Skydrummer. Cada vuelta de daño pide cuatro condiciones: el Combo de Typhoeus encendido, 8 Signs, una Nature en el jefe y el Combo de Perlica encendido. Con ellas, Typhoeus despega y dispara cinco flechas reforzadas; al aterrizar se vuelven a preparar. Burst cada dos vueltas.",
+            "en": "The same quartet in 股神小炉's version, with the demo against Skydrummer. Each damage loop needs four conditions: Typhoeus's Combo lit, 8 Signs, one Nature on the boss and Perlica's Combo lit. With them, Typhoeus takes off and fires five boosted arrows; after landing you set them up again. Burst every two loops."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Apertura",
+                "en": "Opener"
+              },
+              "action": {
+                "es": "Ataques básicos hasta la Final Strike (Combo de Perlica), Battle Skill de Typhoeus y cinco flechas; durante el vuelo, primera pulsación de Purrchena (opcional). Al aterrizar: Combo de Typhoeus encendido y 8 Signs.",
+                "en": "Basic attacks to the Final Strike (Perlica's Combo), Typhoeus's Battle Skill and five arrows; during the flight, Purrchena's first press (optional). On landing: Typhoeus's Combo lit and 8 Signs."
+              }
+            },
+            {
+              "phase": {
+                "es": "Preparar",
+                "en": "Set up"
+              },
+              "action": {
+                "es": "Segunda pulsación de Purrchena (una Nature) y Final Strike para encender el Combo de Perlica. Si no usaste la primera pulsación, pulsa dos veces seguidas.",
+                "en": "Purrchena's second press (one Nature) and a Final Strike to light Perlica's Combo. If you did not use the first press, press twice in a row."
+              }
+            },
+            {
+              "phase": {
+                "es": "Salida",
+                "en": "Output"
+              },
+              "action": {
+                "es": "Combos de Typhoeus y Perlica (los dos refuerzan las flechas, por eso el de Typhoeus espera al de Perlica), segunda pulsación de Purrchena cuando el Combo de Typhoeus ya haya pegado (segunda Nature, Nature Burst) y Battle Skill de Typhoeus: cinco flechas.",
+                "en": "Typhoeus's and Perlica's Combos (both boost the arrows, which is why Typhoeus's waits for Perlica's), Purrchena's second press once Typhoeus's Combo has landed (second Nature, Nature Burst) and Typhoeus's Battle Skill: five arrows."
+              }
+            },
+            {
+              "phase": {
+                "es": "Burst (cada dos vueltas)",
+                "en": "Burst (every two loops)"
+              },
+              "action": {
+                "es": "Tras los dos Combos, los Ultimates de Xaihi y Perlica en cuanto estén; el de Purrchena, al despegar si está listo. Si quedan buffs tras las cinco flechas, Ultimate de Typhoeus: si puedes rematar al jefe, dispara las dos flechas del Ultimate y encadena los Combos en el aire; si no, aterriza y empieza de nuevo. En la demo, 12 flechas reforzadas en un burst.",
+                "en": "After the two Combos, Xaihi's and Perlica's Ultimates as soon as they are up; Purrchena's on takeoff if ready. If buffs remain after the five arrows, Typhoeus's Ultimate: if you can finish the boss, fire the Ultimate's two arrows and chain the Combos mid-air; if not, land and start over. In the demo, 12 boosted arrows in one burst."
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "es": "股神小炉: si aterrizas con menos de 8 Signs",
+            "en": "股神小炉: if you land with fewer than 8 Signs"
+          },
+          "description": {
+            "es": "Si la Nature de Purrchena provoca el Nature Burst antes de que pegue el Combo de Typhoeus (el Combo de Perlica ralentiza su animación), aterrizas con 7 Signs. No hace falta rehacer nada: se ajusta el orden.",
+            "en": "If Purrchena's Nature causes the Nature Burst before Typhoeus's Combo lands (Perlica's Combo slows its animation), you land with 7 Signs. No need to redo anything: you adjust the order."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Según los Signs",
+                "en": "By Signs"
+              },
+              "action": {
+                "es": "7: la condición pasa a ser el cooldown del Combo de Typhoeus; adelanta la Battle Skill de Purrchena para que su Nature Burst encienda el Combo. 6: adelanta la Battle Skill de Typhoeus y dispara una flecha para encender el Combo en el aire. 5: dos flechas. Menos de 5: no despegues; sube primero a 5 con más Battle Skills de Purrchena. Deja siempre una barra de SP para despegar.",
+                "en": "7: the condition becomes Typhoeus's Combo cooldown; bring Purrchena's Battle Skill forward so its Nature Burst lights the Combo. 6: bring Typhoeus's Battle Skill forward and fire one arrow to light the Combo mid-air. 5: two arrows. Fewer than 5: do not take off; first reach 5 with more Purrchena Battle Skills. Always keep one SP bar to take off."
+              }
+            }
+          ]
+        }
+      ],
       "skillPriority": [
         {
           "charId": "typhoeus",
@@ -5226,6 +5322,10 @@
         {
           "es": "El Combo de Purrchena no tiene hueco fijo: salta cuando atacan al operador controlado.",
           "en": "Purrchena's Combo has no fixed slot: it fires when the controlled operator is attacked."
+        },
+        {
+          "es": "(股神小炉) Pulsar la segunda Battle Skill de Purrchena antes de que pegue el Combo de Typhoeus: el Nature Burst llega antes de convertir los Signs y aterrizas con 7.",
+          "en": "(股神小炉) Pressing Purrchena's second Battle Skill before Typhoeus's Combo lands: the Nature Burst arrives before the Signs are converted and you land with 7."
         }
       ],
       "vsOtherComps": [
@@ -5388,6 +5488,1047 @@
             "swap": {
               "es": "Farsight (遥望) en Purrchena: el buff de equipo sale al entrar en combate, pero dura 20 s.",
               "en": "Farsight (遥望) on Purrchena: the team buff comes out on entering combat, but lasts 20s."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Build de 股神小炉",
+              "en": "股神小炉's build"
+            },
+            "swap": {
+              "es": "Typhoeus: Umbra of Frigid Eventide y cuatro Deep Rampart. Purrchena: Dessert Moment, Eternal Xiranite Light Armor, LYNX Gloves (o guantes de Treatment Efficiency para más supervivencia) y dos Eternal Xiranite Heavy Slab. Perlica: Stanza of Memorials con Qingbo Heavy Armor, guantes y dos Qingbo Cask. Xaihi: Junction Point, Redeemer Armor, Rift Trekker Gloves, Redeemer Seal y Frontiers Extra O2 Tube T1, con tres piezas de carga; si en combates largos no llega, cambia la de atributo secundario por otra de carga.",
+              "en": "Typhoeus: Umbra of Frigid Eventide and four Deep Rampart. Purrchena: Dessert Moment, Eternal Xiranite Light Armor, LYNX Gloves (or Treatment Efficiency gloves for more survival) and two Eternal Xiranite Heavy Slabs. Perlica: Stanza of Memorials with Qingbo Heavy Armor, gloves and two Qingbo Casks. Xaihi: Junction Point, Redeemer Armor, Rift Trekker Gloves, Redeemer Seal and Frontiers Extra O2 Tube T1, with three charge pieces; if it falls short in long fights, swap the secondary-attribute piece for another charge one."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Liino en lugar de Xaihi (股神小炉)",
+              "en": "Liino instead of Xaihi (股神小炉)"
+            },
+            "swap": {
+              "es": "Según 股神小炉, Liino sustituye a Xaihi sin problema y hace más daño.",
+              "en": "Per 股神小炉, Liino replaces Xaihi with no trouble and deals more damage."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": {
+        "es": "股神小炉 - Arcane (WILL) · Perlica · Ardelia",
+        "en": "股神小炉 - Arcane (WILL) · Perlica · Ardelia"
+      },
+      "subtitle": {
+        "es": "Arcane WILL · Perlica · Ardelia (o Xaihi)",
+        "en": "WILL Arcane · Perlica · Ardelia (or Xaihi)"
+      },
+      "blurb": {
+        "es": "Typhoeus con Arcane en forma WILL forma un circuito cerrado, y según el autor los otros dos asientos admiten casi cualquier 5★: aquí, Perlica y Ardelia. Enseña dos formas de jugarlo: un eje preciso para el máximo daño y un «sistema» de dos reglas para jugadores nuevos, que aguanta los errores y se corrige solo. Con él, tres estrellas en todo Echoes of War de la versión.",
+        "en": "Typhoeus with WILL-form Arcane forms a closed loop, and per the author the other two seats take almost any 5★: here, Perlica and Ardelia. He teaches two ways to play it: a precise axis for maximum damage and a two-rule \"system\" for new players that absorbs mistakes and fixes itself. With it, three stars on all of the version's Echoes of War."
+      },
+      "guideVideoId": "tyb6",
+      "simple": {
+        "whatItDoes": {
+          "es": "La Battle Skill de Arcane pone Nature y su Combo WILL suma otra: Nature Burst, que da un Sign a Typhoeus. Typhoeus despega con su Battle Skill y dispara Power Shots que fuerzan más Nature Bursts y consumen la Nature para más Signs; con 8, su Combo los convierte en Hunting Arrows y reinicia los disparos. Perlica pone Electrification y Ardelia convierte la Corrosion de su Combo en Susceptibility.",
+          "en": "Arcane's Battle Skill applies Nature and her WILL Combo adds another: a Nature Burst, which gives Typhoeus a Sign. Typhoeus takes off with her Battle Skill and fires Power Shots that force more Nature Bursts and consume the Nature for more Signs; at 8, her Combo turns them into Hunting Arrows and resets the shots. Perlica applies Electrification and Ardelia turns her Combo's Corrosion into Susceptibility."
+        },
+        "steps": [
+          {
+            "who": "perlica",
+            "do": {
+              "es": "Si los Combos de Arcane y Typhoeus están listos, pulsa los que estén encendidos (Perlica, Ardelia); si no, una Final Strike para encenderlos.",
+              "en": "If Arcane's and Typhoeus's Combos are ready, press whichever are lit (Perlica, Ardelia); if not, a Final Strike to light them."
+            }
+          },
+          {
+            "who": "arcane",
+            "do": {
+              "es": "Battle Skill de Arcane y su Combo: dos Nature y un Nature Burst.",
+              "en": "Arcane's Battle Skill and her Combo: two Nature and a Nature Burst."
+            }
+          },
+          {
+            "who": "typhoeus",
+            "do": {
+              "es": "Battle Skill de Typhoeus; los Ultimates que tengas (menos el de Typhoeus) y mantén el ataque: dispara sola y saca su Combo en el aire si está listo. Si tienes su Ultimate, al terminar, Ultimate y otras cinco flechas.",
+              "en": "Typhoeus's Battle Skill; whatever Ultimates you have (except Typhoeus's) and hold the attack: she shoots on her own and fires her Combo mid-air if it is ready. If you have her Ultimate, when done, Ultimate and another five arrows."
+            },
+            "key": true
+          },
+          {
+            "who": "arcane",
+            "do": {
+              "es": "Regla aparte: si llegas a tres barras de SP, lanza una Battle Skill de Arcane para no desperdiciarlo.",
+              "en": "Separate rule: if you reach three SP bars, cast an Arcane Battle Skill so it does not go to waste."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "typhoeus",
+            "line": {
+              "es": "Umbra of Frigid Eventide. Cuatro piezas Deep Rampart (Armor, Gauntlets, dos Comms).",
+              "en": "Umbra of Frigid Eventide. Four Deep Rampart pieces (Armor, Gauntlets, two Comms)."
+            }
+          },
+          {
+            "id": "arcane",
+            "line": {
+              "es": "Type 42: Solemn Phalanx. Eternal Xiranite: Light Armor, Wraps, Bracing Slab y Auxiliary Arm.",
+              "en": "Type 42: Solemn Phalanx. Eternal Xiranite: Light Armor, Wraps, Bracing Slab and Auxiliary Arm."
+            }
+          },
+          {
+            "id": "perlica",
+            "line": {
+              "es": "Stanza of Memorials. Pulser Labs Disruptor Suit, Hot Work Gloves y dos Pulser Labs Calibrator.",
+              "en": "Stanza of Memorials. Pulser Labs Disruptor Suit, Hot Work Gloves and two Pulser Labs Calibrators."
+            }
+          },
+          {
+            "id": "ardelia",
+            "line": {
+              "es": "Dreams of the Starry Beach. Con su Battle Skill, set Catastrophe; sin ella, Hot Work.",
+              "en": "Dreams of the Starry Beach. Using her Battle Skill, the Catastrophe set; without it, Hot Work."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "Undécima entrega de la serie para jugadores nuevos: Typhoeus con Arcane en forma WILL y dos 5★ cualesquiera. Según el autor, Typhoeus y Arcane WILL ya forman un circuito cerrado, así que los otros dos asientos admiten a quien quieras, siempre que puedan usar sus habilidades clave sin estorbar; quien tenga a Liino o a Gilberta también puede seguir este video. Antes de empezar, el autor corrige una idea extendida: Typhoeus perdona pocos errores (flechas que fallan, no poder esquivar en el aire, Signs que no se llenan si vas lento), pero eso no la hace débil. Hay dos formas de jugarla: un eje preciso para el máximo daño, que se descuadra al mínimo error, y un sistema de reglas fijas que, aunque falles, sigue funcionando y se corrige solo, con un daño algo menor. El autor explica las dos y se centra en la segunda, que considera la esencia de Typhoeus. Repasa su mecánica: hasta 4 Hunting Arrows y 8 Signs. Las Hunting Arrows salen de su Ultimate (dos) y de su Combo, que convierte 8 Signs en 4. Los Signs salen de cada Nature Burst sobre el enemigo y de cada Nature Infliction que consumen sus ataques aéreos (si coinciden varios a la vez, cuenta uno). Tras su Battle Skill hace cinco ataques aéreos; cada uno gasta una Hunting Arrow y se convierte en Power Shot, que fuerza un Nature Burst y pega más si consume Nature; el quinto siempre es Power Shot. Cada ataque aéreo alcanza a dos enemigos: con Nature en los dos solo suma un Sign, pero la energía de Ultimate cuenta doble. Lo que busca el equipo es disparar más Power Shots y que consuman Nature. Para el eje preciso usa un jefe único, Skydrummer en Umbral Monument, que según él no es el terreno de Typhoeus, sino de equipos que ponen anomalías rápido; aun así, se puede. Con el sistema hace una fase de Echoes of War de varias oleadas: los Signs suben y bajan como una montaña rusa, pero siempre dispara sus cinco Power Shots y la fase sale con tres estrellas. Según el autor, saca tres estrellas en las tres fases de Echoes of War de la versión y también sirve en Umbral Monument.",
+        "en": "The eleventh entry in the series for new players: Typhoeus with WILL-form Arcane and any two 5★. Per the author, Typhoeus and WILL Arcane already form a closed loop, so the other two seats take whoever you want, as long as they can use their key skills without getting in the way; anyone with Liino or Gilberta can follow this video too. Before starting, the author corrects a common idea: Typhoeus forgives few mistakes (missed arrows, no dodging in the air, Signs that do not fill if you are slow), but that does not make her weak. There are two ways to play her: a precise axis for maximum damage, which falls apart at the slightest mistake, and a fixed-rule system that keeps working even when you slip and fixes itself, for somewhat less damage. The author explains both and focuses on the second, which he sees as Typhoeus's essence. He recaps her mechanic: up to 4 Hunting Arrows and 8 Signs. Hunting Arrows come from her Ultimate (two) and from her Combo, which turns 8 Signs into 4. Signs come from each Nature Burst on the enemy and from each Nature Infliction her aerial attacks consume (several at once count as one). After her Battle Skill she makes five aerial attacks; each spends a Hunting Arrow and becomes a Power Shot, which forces a Nature Burst and hits harder if it consumes Nature; the fifth is always a Power Shot. Each aerial attack hits two enemies: with Nature on both it only adds one Sign, but the Ultimate energy counts double. What the team is after is firing more Power Shots and having them consume Nature. For the precise axis he uses a single boss, Skydrummer in Umbral Monument, which per him is not Typhoeus's ground but that of teams that apply anomalies fast; it is still doable. With the system he plays a multi-wave Echoes of War stage: the Signs go up and down like a roller coaster, but she always fires her five Power Shots and the stage comes out with three stars. Per the author, it three-stars all three of the version's Echoes of War stages and also works in Umbral Monument."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Baja con el sistema; alta con el eje",
+          "en": "Low with the system; high with the axis"
+        },
+        "content": {
+          "es": "Echoes of War, oleadas",
+          "en": "Echoes of War, waves"
+        },
+        "tags": [
+          {
+            "es": "Nature",
+            "en": "Nature"
+          },
+          {
+            "es": "Asientos libres",
+            "en": "Free seats"
+          },
+          {
+            "es": "Se corrige solo",
+            "en": "Self-correcting"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "El sistema aguanta los errores: si pierdes Signs, la siguiente vuelta los recupera sin cambiar nada.",
+          "en": "The system absorbs mistakes: if you lose Signs, the next loop gets them back without changing anything."
+        },
+        {
+          "es": "Los dos asientos libres admiten casi cualquier 5★ (y a Liino o Gilberta).",
+          "en": "The two free seats take almost any 5★ (and Liino or Gilberta)."
+        },
+        {
+          "es": "Daño estable en cada vuelta, sin depender de un burst concentrado.",
+          "en": "Steady damage every loop, without depending on a concentrated burst."
+        }
+      ],
+      "cons": [
+        {
+          "es": "El sistema hace menos daño que el eje preciso.",
+          "en": "The system deals less damage than the precise axis."
+        },
+        {
+          "es": "Contra un jefe único como Skydrummer, según el autor, no es el terreno de Typhoeus.",
+          "en": "Against a single boss like Skydrummer, per the author, it is not Typhoeus's ground."
+        },
+        {
+          "es": "En el aire no puede esquivar.",
+          "en": "She cannot dodge in the air."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "Arcane WILL alimenta los Signs",
+            "en": "WILL Arcane feeds the Signs"
+          },
+          "body": {
+            "es": "La Battle Skill de Arcane pone Nature y su Combo, que sale con esa Nature, suma otra acumulación del mismo elemento: Nature Burst, un Sign. Los Power Shots de Typhoeus consumen esa Nature y ganan más daño y más Signs.",
+            "en": "Arcane's Battle Skill applies Nature and her Combo, which fires on that Nature, adds another stack of the same element: a Nature Burst, one Sign. Typhoeus's Power Shots consume that Nature and gain more damage and more Signs."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "El Combo de Typhoeus, en el aire",
+            "en": "Typhoeus's Combo, mid-air"
+          },
+          "body": {
+            "es": "Si dispara la quinta flecha, Typhoeus aterriza y durante el aterrizaje no puede usar su Combo; despegar otra vez cuesta 100 SP. Por eso el Combo se lanza en el aire, antes de la quinta: le devuelve Hunting Arrows y reinicia los cinco disparos.",
+            "en": "If she fires the fifth arrow, Typhoeus lands and cannot use her Combo while landing; taking off again costs 100 SP. That is why the Combo goes out mid-air, before the fifth: it gives her Hunting Arrows back and resets the five shots."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Susceptibility de Ardelia",
+            "en": "Ardelia's Susceptibility"
+          },
+          "body": {
+            "es": "El Combo de Ardelia fuerza Corrosion tras una breve demora; su Battle Skill la consume y aplica Physical y Arts Susceptibility, que según el autor dura 30 s y supera el 20 %. Con su arma BIS, además, deja Arts DMG Taken durante 25 s.",
+            "en": "Ardelia's Combo forces Corrosion after a short delay; her Battle Skill consumes it and applies Physical and Arts Susceptibility, which per the author lasts 30 s and exceeds 20%. With her BIS weapon, it also leaves Arts DMG Taken for 25 s."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "El sistema (recomendado)",
+            "en": "The system (recommended)"
+          },
+          "action": {
+            "es": "Regla 1: Combos encendidos (o Final Strike para encenderlos) → Battle Skill de Arcane → Combo de Arcane → Battle Skill de Typhoeus → Ultimates → mantener el ataque. Regla 2: con tres barras de SP, Battle Skill de Arcane.",
+            "en": "Rule 1: lit Combos (or a Final Strike to light them) → Arcane's Battle Skill → Arcane's Combo → Typhoeus's Battle Skill → Ultimates → hold the attack. Rule 2: at three SP bars, Arcane's Battle Skill."
+          },
+          "steps": [
+            {
+              "who": "perlica",
+              "do": {
+                "es": "Si los Combos de Arcane y Typhoeus están listos, pulsa el de Perlica; si no hay Combos que pulsar, haz una Final Strike para encenderlos. Sin Perlica, pulsa lo que se encienda.",
+                "en": "If Arcane's and Typhoeus's Combos are ready, press Perlica's; if there are no Combos to press, land a Final Strike to light them. Without Perlica, press whatever lights up."
+              }
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Battle Skill de Arcane y su Combo.",
+                "en": "Arcane's Battle Skill and her Combo."
+              }
+            },
+            {
+              "who": "typhoeus",
+              "do": {
+                "es": "Battle Skill de Typhoeus, los Ultimates que tengas (menos el suyo) y mantén pulsado el ataque: dispara sola y lanza su Combo si lo tiene. Si tiene el Ultimate, lánzalo y dispara otras cinco.",
+                "en": "Typhoeus's Battle Skill, whatever Ultimates you have (except hers) and hold the attack: she shoots on her own and fires her Combo if she has it. If she has her Ultimate, cast it and fire another five."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "Mejoras cuando lo domines: en la apertura, sáltate la regla de los Combos y espera a que dispare cuatro flechas antes de mantener el ataque; empieza con el Combo de Perlica cuando los otros estén a punto (solo la Battle Skill de Arcane tiene que esperar a que su Combo esté listo); y si el Combo de Typhoeus sale antes de despegar y el de Arcane está a punto, lánzalo primero.",
+            "en": "Upgrades once you master it: in the opener, skip the Combo rule and wait until she fires four arrows before holding the attack; start with Perlica's Combo when the others are almost ready (only Arcane's Battle Skill has to wait for her Combo); and if Typhoeus's Combo comes out before takeoff and Arcane's is almost ready, fire it first."
+          }
+        },
+        {
+          "phase": {
+            "es": "Eje preciso: apertura",
+            "en": "Precise axis: opener"
+          },
+          "action": {
+            "es": "Final Strike → Combos de Ardelia y Perlica → Battle Skill de Typhoeus → cuatro flechas → Combo de Typhoeus → Battle Skill de Arcane → Combo de Arcane → Battle Skill de Ardelia → cinco flechas.",
+            "en": "Final Strike → Ardelia's and Perlica's Combos → Typhoeus's Battle Skill → four arrows → Typhoeus's Combo → Arcane's Battle Skill → Arcane's Combo → Ardelia's Battle Skill → five arrows."
+          },
+          "steps": [
+            {
+              "who": "typhoeus",
+              "do": {
+                "es": "Final Strike para los Combos de Ardelia y Perlica. Battle Skill de Typhoeus y cuatro flechas: según el autor, entra al combate con Hunting Arrows y 4 Signs, y esas cuatro flechas la dejan en 8.",
+                "en": "Final Strike for Ardelia's and Perlica's Combos. Typhoeus's Battle Skill and four arrows: per the author, she enters combat with Hunting Arrows and 4 Signs, and those four arrows take her to 8."
+              }
+            },
+            {
+              "who": "typhoeus",
+              "do": {
+                "es": "Sin disparar la quinta, Combo de Typhoeus: cuatro Hunting Arrows nuevas y cinco Power Shots más. Para y termina lo siguiente en menos de 2 s o aterriza.",
+                "en": "Without firing the fifth, Typhoeus's Combo: four new Hunting Arrows and five more Power Shots. Stop and finish the next part within 2 s or she lands."
+              }
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Battle Skill y Combo de Arcane (dos Nature, un Nature Burst) y, con el SP que te devuelve, Battle Skill de Ardelia. Después, las cinco flechas: el Nature Burst, las cinco y las dos Nature consumidas vuelven a llenar los Signs.",
+                "en": "Arcane's Battle Skill and Combo (two Nature, a Nature Burst) and, with the SP she returns, Ardelia's Battle Skill. Then the five arrows: the Nature Burst, the five shots and the two Nature consumed fill the Signs again."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "No dispares antes de que el Combo de Arcane ponga su Nature: la flecha se come la de la Battle Skill y pierdes el Nature Burst. Un truco del autor: al salir el Combo de Typhoeus, pulsa primero la Battle Skill de Arcane y luego el Combo de Typhoeus, porque la Battle Skill tarda en lanzarse; si vas tan lento que el Combo de Arcane sale antes que el de Typhoeus, sus Signs llegan antes de convertir los anteriores.",
+            "en": "Do not shoot before Arcane's Combo applies its Nature: the arrow eats the Battle Skill's and you lose the Nature Burst. A trick from the author: when Typhoeus's Combo comes out, press Arcane's Battle Skill first and then Typhoeus's Combo, because the Battle Skill takes a moment to cast; if you are so slow that Arcane's Combo lands before Typhoeus's, its Signs arrive before the old ones are converted."
+          }
+        },
+        {
+          "phase": {
+            "es": "Eje preciso: vuelta y burst",
+            "en": "Precise axis: loop and burst"
+          },
+          "action": {
+            "es": "La misma vuelta cuando el Combo de Arcane esté listo y los otros tres encendidos; Battle Skill de Ardelia cada dos vueltas; en el burst, Ultimates de Arcane y Perlica al despegar y el de Typhoeus tras las cinco flechas.",
+            "en": "The same loop once Arcane's Combo is ready and the other three are lit; Ardelia's Battle Skill every two loops; in the burst, Arcane's and Perlica's Ultimates on takeoff and Typhoeus's after the five arrows."
+          },
+          "steps": [
+            {
+              "who": "ardelia",
+              "do": {
+                "es": "La Battle Skill de Ardelia va cada dos vueltas, antes de despegar, cuando ya esté la Corrosion de su Combo (llega con 1,5 s de retraso). Si falta SP, sáltala; pero antes de un despegue de burst asegúrate de que su Susceptibility siga activa: necesitas unas dos barras y media o tres. Si no las tienes, haz otra ronda de Final Strike para volver a encender los Combos.",
+                "en": "Ardelia's Battle Skill goes every two loops, before takeoff, once her Combo's Corrosion is up (it lands 1.5 s late). If SP is short, skip it; but before a burst takeoff make sure her Susceptibility is still active: you need about two and a half or three bars. If you do not have them, do another Final Strike round to relight the Combos."
+              }
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Burst: Ultimates de Arcane y Perlica nada más despegar; el de Typhoeus, tras las cinco flechas, y a seguir disparando. Puedes abrir los de Arcane y Perlica aunque falte el de Typhoeus, que es un despegue gratis con dos Power Shots más: lo que importa es que el burst coincida con el Stagger.",
+                "en": "Burst: Arcane's and Perlica's Ultimates right after takeoff; Typhoeus's after the five arrows, then keep shooting. You can open Arcane's and Perlica's even without Typhoeus's, which is a free takeoff with two more Power Shots: what matters is that the burst matches the Stagger."
+              },
+              "key": true
+            },
+            {
+              "who": "ardelia",
+              "do": {
+                "es": "El Ultimate de Ardelia: para curar, o en un burst con Ultimate de Typhoeus tras las cinco flechas, para que su animación deje listo otra vez el Combo de Typhoeus y salgan cinco más.",
+                "en": "Ardelia's Ultimate: to heal, or in a burst with Typhoeus's Ultimate after the five arrows, so its animation readies Typhoeus's Combo again for five more."
+              }
+            }
+          ]
+        }
+      ],
+      "rotationVariants": [
+        {
+          "name": {
+            "es": "Con Xaihi y Ardelia",
+            "en": "With Xaihi and Ardelia"
+          },
+          "description": {
+            "es": "La otra pareja que el autor arma con Ardelia: Xaihi en el asiento de Perlica, con Stanza of Memorials. El sistema es el mismo; sin Perlica, pulsa los Combos que se enciendan.",
+            "en": "The other pair the author builds with Ardelia: Xaihi in Perlica's seat, with Stanza of Memorials. The system is the same; without Perlica, press whatever Combos light up."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Ficha",
+                "en": "Card"
+              },
+              "action": {
+                "es": "Xaihi: Stanza of Memorials, Redeemer Armor, unos guantes con el nombre tapado (icono de Rift Trekker Gloves) y dos Redeemer Seal. Ardelia: Dreams of the Starry Beach, Redeemer Armor, Hot Work Gloves y dos Hot Work Power Cartridge.",
+                "en": "Xaihi: Stanza of Memorials, Redeemer Armor, gloves with the name covered (Rift Trekker Gloves icon) and two Redeemer Seals. Ardelia: Dreams of the Starry Beach, Redeemer Armor, Hot Work Gloves and two Hot Work Power Cartridges."
+              }
+            }
+          ]
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "typhoeus",
+          "order": {
+            "es": "Combo (esp. 3) > Battle Skill (esp. 3) > Ultimate = Ataque básico (esp. 3)",
+            "en": "Combo (spec. 3) > Battle Skill (spec. 3) > Ultimate = Basic attack (spec. 3)"
+          },
+          "note": {
+            "es": "Del orden que da el autor en la descripción del video.",
+            "en": "From the order the author gives in the video description."
+          },
+          "assumeRanks": {
+            "combo_skill": 12,
+            "battle_skill": 12,
+            "ultimate": 12
+          }
+        },
+        {
+          "charId": "arcane",
+          "order": {
+            "es": "Combo = Ultimate (esp. 3)",
+            "en": "Combo = Ultimate (spec. 3)"
+          },
+          "assumeRanks": {
+            "combo_skill": 12,
+            "ultimate": 12
+          }
+        },
+        {
+          "charId": "ardelia",
+          "order": {
+            "es": "Battle Skill (esp. 3)",
+            "en": "Battle Skill (spec. 3)"
+          },
+          "assumeRanks": {
+            "battle_skill": 12
+          }
+        },
+        {
+          "charId": "perlica",
+          "order": {
+            "es": "Combo (esp. 3, opcional)",
+            "en": "Combo (spec. 3, optional)"
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Disparar la quinta flecha antes del Combo de Typhoeus: aterriza y el Combo ya no sale en el aire.",
+          "en": "Firing the fifth arrow before Typhoeus's Combo: she lands and the Combo no longer comes out mid-air."
+        },
+        {
+          "es": "Disparar antes de que el Combo de Arcane ponga su Nature: se pierde el Nature Burst y un Sign.",
+          "en": "Shooting before Arcane's Combo applies its Nature: the Nature Burst and a Sign are lost."
+        },
+        {
+          "es": "En el eje preciso, empeñarse en recuperar los Signs perdidos: el autor recomienda el sistema, que se corrige solo.",
+          "en": "In the precise axis, insisting on recovering lost Signs: the author recommends the system, which fixes itself."
+        },
+        {
+          "es": "Despegar para un burst sin la Susceptibility de Ardelia activa.",
+          "en": "Taking off for a burst without Ardelia's Susceptibility active."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "Maygi - Arcane · Ardelia · Liino",
+            "en": "Maygi - Arcane · Ardelia · Liino"
+          },
+          "verdict": {
+            "es": "Typhoeus, Arcane y Ardelia con Liino en el asiento de Perlica.",
+            "en": "Typhoeus, Arcane and Ardelia with Liino in Perlica's seat."
+          }
+        },
+        {
+          "name": {
+            "es": "YZ-月咒 - Arcane (WILL) · Perlica · Xaihi",
+            "en": "YZ-月咒 - Arcane (WILL) · Perlica · Xaihi"
+          },
+          "verdict": {
+            "es": "Otra de las parejas de este video, con la build de 股神小炉 en sus alternativas.",
+            "en": "Another of this video's pairs, with 股神小炉's build in its alternatives."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "typhoeus",
+          "role": "Carry",
+          "weaponId": "wpn_funnel_0019",
+          "gearRec": [
+            "deep_rampart_armor",
+            "deep_rampart_gauntlets",
+            "deep_rampart_comms",
+            "deep_rampart_comms"
+          ],
+          "weaponNote": {
+            "es": "Umbra of Frigid Eventide (BIS).",
+            "en": "Umbra of Frigid Eventide (BIS)."
+          },
+          "gearNote": {
+            "es": "Cuatro Deep Rampart, una build muy fija; según el autor, una pieza de atributo principal en lugar de un Comms apenas cambia.",
+            "en": "Four Deep Rampart, a very fixed build; per the author, a main-attribute piece instead of one Comms barely changes anything."
+          },
+          "deepNote": {
+            "es": "Su Battle Skill la eleva para cinco ataques aéreos; con Hunting Arrows cada uno es un Power Shot que fuerza un Nature Burst, y el quinto siempre lo es. Gana Signs con los Nature Bursts y con la Nature que consume; con 8 sale su Combo, que los convierte en Hunting Arrows y reinicia los disparos. Su Ultimate da dos Hunting Arrows y la vuelve a elevar.",
+            "en": "Her Battle Skill lifts her for five aerial attacks; with Hunting Arrows each is a Power Shot that forces a Nature Burst, and the fifth always is. She gains Signs from Nature Bursts and from the Nature she consumes; at 8 her Combo fires, turning them into Hunting Arrows and resetting the shots. Her Ultimate gives two Hunting Arrows and lifts her again."
+          }
+        },
+        {
+          "id": "arcane",
+          "role": "Enabler",
+          "weaponId": "wpn_funnel_0016",
+          "gearRec": [
+            "eternal_xiranite_light_armor",
+            "eternal_xiranite_wraps",
+            "eternal_xiranite_bracing_slab",
+            "eternal_xiranite_auxiliary_arm"
+          ],
+          "weaponNote": {
+            "es": "Type 42: Solemn Phalanx (BIS).",
+            "en": "Type 42: Solemn Phalanx (BIS)."
+          },
+          "gearNote": {
+            "es": "Eternal Xiranite: Light Armor, Wraps, Bracing Slab y Auxiliary Arm. Con el eje preciso, el autor cambia la pieza de carga por otra igual a la de buff y resuelve su Ultimate con el eje.",
+            "en": "Eternal Xiranite: Light Armor, Wraps, Bracing Slab and Auxiliary Arm. With the precise axis, the author swaps the charge piece for another buff one and solves her Ultimate with the axis."
+          },
+          "deepNote": {
+            "es": "Forma WILL. Su Battle Skill pone Nature; su Combo sale con ella y suma otra acumulación del mismo elemento, con Nature y Cryo Susceptibility.",
+            "en": "WILL form. Her Battle Skill applies Nature; her Combo fires on it and adds another stack of the same element, with Nature and Cryo Susceptibility."
+          }
+        },
+        {
+          "id": "perlica",
+          "role": "Enabler",
+          "weaponId": "wpn_funnel_0005",
+          "gearRec": [
+            "pulser_labs_disruptor_suit",
+            "hot_work_gloves",
+            "pulser_labs_calibrator",
+            "pulser_labs_calibrator"
+          ],
+          "weaponNote": {
+            "es": "Stanza of Memorials: su Ultimate es una de sus dos habilidades clave aquí.",
+            "en": "Stanza of Memorials: her Ultimate is one of her two key skills here."
+          },
+          "gearNote": {
+            "es": "Pulser Labs Disruptor Suit, Hot Work Gloves y dos Pulser Labs Calibrator, de Arts Intensity. También puede ir de carga, para lanzar más Ultimates y activar más el Stanza of Memorials; con Liino en el equipo, Qingbo.",
+            "en": "Pulser Labs Disruptor Suit, Hot Work Gloves and two Pulser Labs Calibrators, for Arts Intensity. She can also go charge, to cast more Ultimates and trigger Stanza of Memorials more often; with Liino in the team, Qingbo."
+          },
+          "deepNote": {
+            "es": "Su Combo sale con la Final Strike del personaje controlado y fuerza Electrification.",
+            "en": "Her Combo comes out on the controlled operator's Final Strike and forces Electrification."
+          }
+        },
+        {
+          "id": "ardelia",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0013",
+          "gearRec": null,
+          "weaponNote": {
+            "es": "Dreams of the Starry Beach (BIS): según el autor, su Battle Skill la activa y deja Arts DMG Taken durante 25 s.",
+            "en": "Dreams of the Starry Beach (BIS): per the author, her Battle Skill triggers it and leaves Arts DMG Taken for 25 s."
+          },
+          "gearNote": {
+            "es": "En la ficha: Pulser Labs Disruptor Suit, guantes y dos filtros del set Catastrophe (天灾防护), un set de nivel 50 que la app no recoge. El autor: si usas su Battle Skill, Catastrophe; si no, Hot Work; la armadura, de carga o de Arts Intensity según el contenido.",
+            "en": "On the card: Pulser Labs Disruptor Suit, gloves and two filters from the Catastrophe set (天灾防护), a level-50 set the app does not list. The author: if you use her Battle Skill, Catastrophe; if not, Hot Work; the armor, charge or Arts Intensity depending on content."
+          },
+          "deepNote": {
+            "es": "Su Combo sale con una Final Strike sobre un enemigo sin Vulnerability ni Arts Infliction y fuerza Corrosion tras una breve demora; su Battle Skill consume la Corrosion y aplica Physical y Arts Susceptibility.",
+            "en": "Her Combo comes out on a Final Strike against an enemy with no Vulnerability or Arts Infliction and forces Corrosion after a short delay; her Battle Skill consumes the Corrosion and applies Physical and Arts Susceptibility."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Fichas al final del video, una por pareja. Según el autor, en esta cuenta ni Ardelia ni Perlica tienen el equipo refinado: lo que importa es Typhoeus y Arcane.",
+          "en": "Cards at the end of the video, one per pair. Per the author, on this account neither Ardelia nor Perlica has refined gear: what matters is Typhoeus and Arcane."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Xaihi en lugar de Perlica",
+              "en": "Xaihi instead of Perlica"
+            },
+            "swap": {
+              "es": "Con Ardelia, Xaihi lleva Stanza of Memorials; gear de carga o de atributo secundario según el contenido (ver la variante).",
+              "en": "With Ardelia, Xaihi holds Stanza of Memorials; charge or secondary-attribute gear depending on content (see the variant)."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Con Gilberta",
+              "en": "With Gilberta"
+            },
+            "swap": {
+              "es": "El autor la empareja con Perlica, y cree que Gilberta con Perlica rinde más con Arcane en forma INT (el video siguiente de la serie).",
+              "en": "The author pairs her with Perlica, and thinks Gilberta with Perlica does better with INT-form Arcane (the series' next video)."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": {
+        "es": "股神小炉 - Arcane (INT) · Purrchena · Perlica",
+        "en": "股神小炉 - Arcane (INT) · Purrchena · Perlica"
+      },
+      "subtitle": {
+        "es": "Arcane INT · Purrchena · Perlica",
+        "en": "INT Arcane · Purrchena · Perlica"
+      },
+      "blurb": {
+        "es": "Typhoeus con Arcane en forma INT, para quien no tiene a Gilberta: Purrchena pone la Nature Infliction que Arcane INT no alcanza a cubrir sola con el SP. Contra un jefe único rinde menos que Typhoeus con Arcane WILL, pero Arcane INT limpia mejor los grupos y remata mejor en combates de varias oleadas. Una vuelta de dos partes: daño de Arcane y Signs hasta 8, y luego las flechas de Typhoeus.",
+        "en": "Typhoeus with INT-form Arcane, for anyone without Gilberta: Purrchena applies the Nature Infliction that INT Arcane cannot cover alone on SP. Against a single boss it does less than Typhoeus with WILL Arcane, but INT Arcane clears groups better and finishes off better in multi-wave fights. A two-part loop: Arcane's damage and Signs up to 8, then Typhoeus's arrows."
+      },
+      "guideVideoId": "tyb8",
+      "simple": {
+        "whatItDoes": {
+          "es": "El Combo de Perlica abre cada vuelta con Electrification. La segunda pulsación de la Battle Skill de Purrchena pone Nature, que enciende el Combo de Arcane, y la Battle Skill potenciada de Arcane pone otra: Nature Burst, y Typhoeus llega a 8 Signs. Su Combo los convierte en Hunting Arrows y su Battle Skill dispara cinco flechas.",
+          "en": "Perlica's Combo opens each loop with Electrification. The second press of Purrchena's Battle Skill applies Nature, which lights up Arcane's Combo, and Arcane's empowered Battle Skill applies another: a Nature Burst, and Typhoeus reaches 8 Signs. Her Combo turns them into Hunting Arrows and her Battle Skill fires five arrows."
+        },
+        "steps": [
+          {
+            "who": "perlica",
+            "do": {
+              "es": "Con barra y media de SP: Final Strike de Typhoeus y Combo de Perlica, la señal para empezar.",
+              "en": "With one and a half SP bars: Typhoeus's Final Strike and Perlica's Combo, the signal to start."
+            }
+          },
+          {
+            "who": "purrchena",
+            "do": {
+              "es": "Segunda pulsación de la Battle Skill de Purrchena (1.ª Nature) y Combo de Arcane.",
+              "en": "Second press of Purrchena's Battle Skill (1st Nature) and Arcane's Combo."
+            }
+          },
+          {
+            "who": "arcane",
+            "do": {
+              "es": "Battle Skill potenciada de Arcane (2.ª Nature): Nature Burst y Typhoeus a 8 Signs.",
+              "en": "Arcane's empowered Battle Skill (2nd Nature): Nature Burst and Typhoeus at 8 Signs."
+            },
+            "key": true
+          },
+          {
+            "who": "typhoeus",
+            "do": {
+              "es": "Combo de Typhoeus y su Battle Skill: cinco flechas, y aterriza con 7 Signs para la vuelta siguiente.",
+              "en": "Typhoeus's Combo and her Battle Skill: five arrows, and she lands with 7 Signs for the next loop."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "typhoeus",
+            "line": {
+              "es": "Umbra of Frigid Eventide. Cuatro piezas Deep Rampart (Armor, Gauntlets, dos Comms).",
+              "en": "Umbra of Frigid Eventide. Four Deep Rampart pieces (Armor, Gauntlets, two Comms)."
+            }
+          },
+          {
+            "id": "arcane",
+            "line": {
+              "es": "Type 42: Solemn Phalanx. Tide Fall Light Armor T1, Deepsink Gloves, Turbid Cutting Torch T1 y LYNX Slab.",
+              "en": "Type 42: Solemn Phalanx. Tide Fall Light Armor T1, Deepsink Gloves, Turbid Cutting Torch T1 and LYNX Slab."
+            }
+          },
+          {
+            "id": "purrchena",
+            "line": {
+              "es": "Dessert Moment. Eternal Xiranite Light Armor, LYNX Gloves y dos Eternal Xiranite Heavy Slab.",
+              "en": "Dessert Moment. Eternal Xiranite Light Armor, LYNX Gloves and two Eternal Xiranite Heavy Slabs."
+            }
+          },
+          {
+            "id": "perlica",
+            "line": {
+              "es": "Stanza of Memorials. Pulser Labs Disruptor Suit, Hot Work Gloves y dos Pulser Labs Calibrator; Qingbo también vale.",
+              "en": "Stanza of Memorials. Pulser Labs Disruptor Suit, Hot Work Gloves and two Pulser Labs Calibrators; Qingbo also works."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "El autor parte de una idea: sin Gilberta, Typhoeus con Arcane INT no alcanza en jefe único a Typhoeus con Arcane WILL, porque Arcane INT sola pone las Nature Infliction con el SP muy justo. Gilberta lo resolvía cargando rápido su Ultimate, que regala una Nature, y además es un soporte fuerte. Purrchena ocupa ese asiento con menos apoyo, pero, según el autor, pone una Nature con solo 60 a 80 de SP, así que ya se puede jugar Arcane INT sin Gilberta. La ventaja de cambiar la forma WILL por la INT es que limpia mejor los grupos y remata mejor en combates de muchas oleadas. Aviso del autor: si no tienes a Typhoeus y solo quieres a Arcane INT de carry, no lleves a Purrchena; sus otros equipos de Arcane INT rinden más. La demo es contra Skydrummer, y la vuelta tiene dos partes. Primero, el daño de Arcane: el Combo de Perlica (tras una Final Strike) pone Electrification, la segunda pulsación de la Battle Skill de Purrchena pone la 1.ª Nature y enciende el Combo de Arcane, y la Battle Skill potenciada de Arcane pone la 2.ª Nature, que provoca un Nature Burst y sube a Typhoeus a 8 Signs. Después, el daño de Typhoeus: su Combo, su Battle Skill y cinco flechas; aterriza con 7 Signs y vuelve a empezar. La primera pulsación de la Battle Skill de Purrchena (el escudo, que activa su bloqueo y el set Eternal Xiranite) puede ir en cualquier momento antes; si no la usaste, pulsa dos veces seguidas. Como el Combo de Perlica tiene más cooldown que el de Arcane, cuando sale el de Perlica el de Arcane ya está listo: el autor lo usa de toque de corneta para lanzar la vuelta, y solo hay que llevar barra y media de SP. La Electrification de ese Combo cubre la vuelta entera.",
+        "en": "The author starts from one idea: without Gilberta, Typhoeus with INT Arcane cannot match Typhoeus with WILL Arcane on a single boss, because INT Arcane alone applies the Nature Inflictions on very tight SP. Gilberta solved that by charging her Ultimate fast, which gives a free Nature, and she is a strong support too. Purrchena takes that seat with less support, but, per the author, she applies a Nature for just 60 to 80 SP, so INT Arcane becomes playable without Gilberta. The upside of switching from WILL to INT form is better group clearing and better finishing in many-wave fights. The author's warning: if you do not have Typhoeus and only want INT Arcane as carry, do not bring Purrchena; his other INT Arcane teams do more. The demo is against Skydrummer, and the loop has two parts. First, Arcane's damage: Perlica's Combo (after a Final Strike) applies Electrification, the second press of Purrchena's Battle Skill applies the 1st Nature and lights up Arcane's Combo, and Arcane's empowered Battle Skill applies the 2nd Nature, which causes a Nature Burst and takes Typhoeus to 8 Signs. Then, Typhoeus's damage: her Combo, her Battle Skill and five arrows; she lands with 7 Signs and it starts over. The first press of Purrchena's Battle Skill (the shield, which triggers her block and the Eternal Xiranite set) can go any time before; if you did not use it, press twice in a row. Since Perlica's Combo has a longer cooldown than Arcane's, when Perlica's comes up Arcane's is already ready: the author uses it as the bugle call to launch the loop, and you only need one and a half SP bars. That Combo's Electrification covers the whole loop."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Media (orden fijo)",
+          "en": "Medium (fixed order)"
+        },
+        "content": {
+          "es": "Jefe y oleadas",
+          "en": "Boss and waves"
+        },
+        "tags": [
+          {
+            "es": "Nature",
+            "en": "Nature"
+          },
+          {
+            "es": "Sin Gilberta",
+            "en": "No Gilberta"
+          },
+          {
+            "es": "Vuelta de cinco flechas",
+            "en": "Five-arrow loop"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "Juega Arcane INT con Typhoeus sin necesidad de Gilberta.",
+          "en": "Plays INT Arcane with Typhoeus without needing Gilberta."
+        },
+        {
+          "es": "Arcane INT limpia mejor los grupos y remata mejor en combates de muchas oleadas que la forma WILL.",
+          "en": "INT Arcane clears groups better and finishes off better in many-wave fights than the WILL form."
+        },
+        {
+          "es": "La vuelta casi nunca se atasca: el Combo de Perlica marca cuándo empezar y el de Arcane ya está listo.",
+          "en": "The loop almost never stalls: Perlica's Combo marks when to start and Arcane's is already ready."
+        }
+      ],
+      "cons": [
+        {
+          "es": "Contra un jefe único rinde menos que Typhoeus con Arcane WILL.",
+          "en": "Against a single boss it does less than Typhoeus with WILL Arcane."
+        },
+        {
+          "es": "Purrchena apoya menos que Gilberta y su Ultimate se carga de forma impredecible.",
+          "en": "Purrchena supports less than Gilberta and her Ultimate charges unpredictably."
+        },
+        {
+          "es": "El burst perfecto pide afinar detalles; el normal deja la segunda fase de Arcane sin la Electrification de Perlica.",
+          "en": "The perfect burst needs fine-tuning; the normal one leaves Arcane's second phase without Perlica's Electrification."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "Dos Nature, un Nature Burst, 8 Signs",
+            "en": "Two Nature, one Nature Burst, 8 Signs"
+          },
+          "body": {
+            "es": "La Nature de Purrchena enciende el Combo de Arcane (sale con una Nature Infliction) y la de la Battle Skill potenciada de Arcane cae sobre la primera: Nature Burst, que le da a Typhoeus un Sign. Al llegar a 8 sale su Combo, que convierte los Signs en Hunting Arrows y reinicia sus ataques aéreos.",
+            "en": "Purrchena's Nature lights up Arcane's Combo (it fires on a Nature Infliction) and the Nature from Arcane's empowered Battle Skill lands on the first: a Nature Burst, which gives Typhoeus a Sign. At 8 her Combo fires, turning the Signs into Hunting Arrows and resetting her aerial attacks."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "7 Signs al aterrizar, a propósito",
+            "en": "7 Signs on landing, on purpose"
+          },
+          "body": {
+            "es": "En la apertura de nueve flechas, la Nature de Purrchena y de Arcane cae mientras Typhoeus dispara, y sus flechas la consumen: falta un Nature Burst y aterriza con 7 Signs. Según el autor, el daño es casi el mismo que con 8, y así la vuelta queda más regular y más fácil.",
+            "en": "In the nine-arrow opener, Purrchena's and Arcane's Nature lands while Typhoeus is shooting, and her arrows consume it: one Nature Burst is missing and she lands with 7 Signs. Per the author, the damage is almost the same as with 8, and the loop becomes more regular and easier."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Electrification de principio a fin",
+            "en": "Electrification from start to finish"
+          },
+          "body": {
+            "es": "El Combo de Perlica sale con la Final Strike del personaje controlado y fuerza Electrification, que sube el Arts DMG Taken del jefe. En la demo, al terminar la vuelta todavía queda un poco: cubre todo el daño de Arcane y de Typhoeus.",
+            "en": "Perlica's Combo comes out on the controlled operator's Final Strike and forces Electrification, which raises the boss's Arts DMG Taken. In the demo, a little is still left when the loop ends: it covers all of Arcane's and Typhoeus's damage."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Apertura: nueve flechas",
+            "en": "Opener: nine arrows"
+          },
+          "action": {
+            "es": "Final Strike → Combo de Perlica → Battle Skill de Typhoeus → cuatro flechas → Combo de Typhoeus → Battle Skill de Purrchena (2.ª pulsación) → Combo de Arcane → Battle Skill potenciada de Arcane → cinco flechas.",
+            "en": "Final Strike → Perlica's Combo → Typhoeus's Battle Skill → four arrows → Typhoeus's Combo → Purrchena's Battle Skill (2nd press) → Arcane's Combo → Arcane's empowered Battle Skill → five arrows."
+          },
+          "steps": [
+            {
+              "who": "perlica",
+              "do": {
+                "es": "Una ronda de ataques básicos en el suelo hasta la Final Strike: Combo de Perlica (Electrification).",
+                "en": "One round of basic attacks on the ground up to the Final Strike: Perlica's Combo (Electrification)."
+              }
+            },
+            {
+              "who": "typhoeus",
+              "do": {
+                "es": "Battle Skill de Typhoeus: despega y dispara cuatro flechas; sale su Combo y dispara cinco más.",
+                "en": "Typhoeus's Battle Skill: she takes off and fires four arrows; her Combo comes out and she fires five more."
+              }
+            },
+            {
+              "who": "purrchena",
+              "do": {
+                "es": "Durante esas cinco: segunda pulsación de la Battle Skill de Purrchena, Combo de Arcane y su Battle Skill potenciada. Aterriza con 7 Signs.",
+                "en": "During those five: second press of Purrchena's Battle Skill, Arcane's Combo and her empowered Battle Skill. She lands with 7 Signs."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "La primera pulsación de Purrchena (escudo) puede ir antes, en cualquier momento; si no la usaste, pulsa su Battle Skill dos veces seguidas.",
+            "en": "Purrchena's first press (shield) can go earlier, at any time; if you did not use it, press her Battle Skill twice in a row."
+          }
+        },
+        {
+          "phase": {
+            "es": "Vuelta de cinco flechas",
+            "en": "Five-arrow loop"
+          },
+          "action": {
+            "es": "Final Strike → Combo de Perlica → Battle Skill de Purrchena (2.ª pulsación) → Combo de Arcane → Battle Skill potenciada de Arcane → Combo de Typhoeus → Battle Skill de Typhoeus → cinco flechas.",
+            "en": "Final Strike → Perlica's Combo → Purrchena's Battle Skill (2nd press) → Arcane's Combo → Arcane's empowered Battle Skill → Typhoeus's Combo → Typhoeus's Battle Skill → five arrows."
+          },
+          "steps": [
+            {
+              "who": "perlica",
+              "do": {
+                "es": "Con barra y media de SP: ataques básicos, Final Strike y Combo de Perlica.",
+                "en": "With one and a half SP bars: basic attacks, Final Strike and Perlica's Combo."
+              }
+            },
+            {
+              "who": "purrchena",
+              "do": {
+                "es": "Segunda pulsación de Purrchena (1.ª Nature) y Combo de Arcane.",
+                "en": "Purrchena's second press (1st Nature) and Arcane's Combo."
+              }
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Battle Skill potenciada de Arcane (2.ª Nature): Nature Burst y Typhoeus a 8 Signs.",
+                "en": "Arcane's empowered Battle Skill (2nd Nature): Nature Burst and Typhoeus at 8 Signs."
+              },
+              "key": true
+            },
+            {
+              "who": "typhoeus",
+              "do": {
+                "es": "Combo de Typhoeus, su Battle Skill y cinco flechas: aterriza con 7 Signs.",
+                "en": "Typhoeus's Combo, her Battle Skill and five arrows: she lands with 7 Signs."
+              }
+            }
+          ],
+          "tip": {
+            "es": "Mientras no lo domines, deja fijo este orden. La vuelta solo se atasca por falta de SP, que no pasa salvo que te derriben una y otra vez.",
+            "en": "Until you master it, keep this order fixed. The loop only stalls from lack of SP, which does not happen unless you keep getting knocked down."
+          }
+        },
+        {
+          "phase": {
+            "es": "Burst",
+            "en": "Burst"
+          },
+          "action": {
+            "es": "La misma vuelta con los Ultimates de Arcane, Perlica y Purrchena metidos según estén listos; Finisher y cinco flechas para la segunda fase de Arcane; Ultimate de Typhoeus al final.",
+            "en": "The same loop with Arcane's, Perlica's and Purrchena's Ultimates slotted in as they come up; Finisher and five arrows for Arcane's second phase; Typhoeus's Ultimate at the end."
+          },
+          "steps": [
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Lanza los Ultimates cuando estén listos: si pulsas rápido, todos aprovechan sus buffs. El daño de la Battle Skill potenciada de Arcane llega con retraso, así que aprovecha el Stanza of Memorials del Ultimate de Perlica aunque lo lances después.",
+                "en": "Cast the Ultimates when they are ready: if you press fast, all of them get their buffs. The damage from Arcane's empowered Battle Skill lands late, so it still gets the Stanza of Memorials from Perlica's Ultimate even if you cast it afterwards."
+              }
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "La segunda fase del Ultimate de Arcane pide dos Final Strikes o Finishers, y tiene que entrar al menos con el Stanza of Memorials de Perlica. Lo ideal: Stagger justo tras el Ultimate de Arcane, Finisher, y la quinta flecha de Typhoeus cuenta como Final Strike.",
+                "en": "The second phase of Arcane's Ultimate needs two Final Strikes or Finishers, and has to land at least with Perlica's Stanza of Memorials. Ideally: Stagger right after Arcane's Ultimate, Finisher, and Typhoeus's fifth arrow counts as a Final Strike."
+              },
+              "key": true
+            },
+            {
+              "who": "typhoeus",
+              "do": {
+                "es": "Si no controlas el Stagger, mete una ronda de ataques básicos después del Ultimate de Arcane y antes de la parte de Typhoeus. Ultimate de Typhoeus al final, como daño de apoyo tras las cinco flechas.",
+                "en": "If you cannot control the Stagger, slot a round of basic attacks after Arcane's Ultimate and before Typhoeus's part. Typhoeus's Ultimate at the end, as extra damage after the five arrows."
+              }
+            }
+          ],
+          "tip": {
+            "es": "El Ultimate de Purrchena se carga de forma impredecible: puedes guardarlo para lanzarlo junto al de Perlica.",
+            "en": "Purrchena's Ultimate charges unpredictably: you can hold it to cast together with Perlica's."
+          }
+        }
+      ],
+      "rotationVariants": [
+        {
+          "name": {
+            "es": "Burst perfecto (afinado)",
+            "en": "Perfect burst (fine-tuned)"
+          },
+          "description": {
+            "es": "En el burst normal, la segunda fase de Arcane no recibe la Electrification de Perlica. Para conseguirlo, el autor propone dos ajustes, que solo valen la pena con la vuelta dominada.",
+            "en": "In the normal burst, Arcane's second phase does not get Perlica's Electrification. To get it, the author suggests two tweaks, only worth it once you have the loop down."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Ajuste 1: acortar el hueco",
+                "en": "Tweak 1: shorten the gap"
+              },
+              "action": {
+                "es": "Empieza la vuelta cuando el Combo de Perlica esté a punto (y seguro de salir), para que caiga más tarde; tras el Ultimate de Arcane, saca la primera Final Strike lo antes posible y pasa enseguida a la parte de Typhoeus.",
+                "en": "Start the loop when Perlica's Combo is about to come up (and sure to fire), so it lands later; after Arcane's Ultimate, get the first Final Strike out as fast as possible and move straight to Typhoeus's part."
+              }
+            },
+            {
+              "phase": {
+                "es": "Ajuste 2: alargar el burst",
+                "en": "Tweak 2: lengthen the burst"
+              },
+              "action": {
+                "es": "Mete el Ultimate de Purrchena en el burst y dale a Perlica Qingbo y su Combo en especialización 3. Entre las dos partes no hagas Final Strike: hazla al aterrizar para volver a disparar el Combo de Perlica, y entonces la segunda fase de Arcane, mientras dure el Stanza of Memorials.",
+                "en": "Put Purrchena's Ultimate into the burst and give Perlica Qingbo and her Combo at specialization 3. Do no Final Strike between the two parts: land it after landing to fire Perlica's Combo again, then Arcane's second phase, while Stanza of Memorials is still active."
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "es": "Si te quedas corto de Signs",
+            "en": "If you run short on Signs"
+          },
+          "description": {
+            "es": "Con 7 Signs o menos al empezar la parte de Typhoeus, espera a su Combo, lanza primero su Battle Skill y dispara el Combo en el aire, a mitad de las flechas. Con menos de 5, repite la parte de Arcane hasta tener al menos 5.",
+            "en": "With 7 Signs or fewer when Typhoeus's part starts, wait for her Combo, cast her Battle Skill first and fire the Combo mid-air, partway through the arrows. With fewer than 5, repeat Arcane's part until you have at least 5."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Signs según los que tengas",
+                "en": "Signs by how many you have"
+              },
+              "action": {
+                "es": "7: Combo de Typhoeus en el aire tras despegar. 5-6: igual, pero pierdes 1-2 flechas reforzadas. Menos de 5: no despegues, repite la parte de Arcane.",
+                "en": "7: Typhoeus's Combo mid-air after takeoff. 5-6: the same, but you lose 1-2 boosted arrows. Fewer than 5: do not take off, repeat Arcane's part."
+              }
+            }
+          ]
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "perlica",
+          "order": {
+            "es": "Combo (esp. 3, para el burst afinado)",
+            "en": "Combo (spec. 3, for the fine-tuned burst)"
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Empezar la vuelta sin barra y media de SP: la Battle Skill potenciada de Arcane no llega a tiempo.",
+          "en": "Starting the loop without one and a half SP bars: Arcane's empowered Battle Skill does not arrive in time."
+        },
+        {
+          "es": "Gastar la Nature de Purrchena o de Arcane mientras Typhoeus dispara fuera de la apertura: sus flechas la consumen y se pierde el Nature Burst.",
+          "en": "Spending Purrchena's or Arcane's Nature while Typhoeus is shooting outside the opener: her arrows consume it and the Nature Burst is lost."
+        },
+        {
+          "es": "Lanzar la segunda fase del Ultimate de Arcane sin el Stanza of Memorials de Perlica activo.",
+          "en": "Casting the second phase of Arcane's Ultimate without Perlica's Stanza of Memorials active."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "Maygi - Arcane · Perlica · Gilberta",
+            "en": "Maygi - Arcane · Perlica · Gilberta"
+          },
+          "verdict": {
+            "es": "Gilberta en el asiento de Purrchena: según este autor, más apoyo y su Ultimate regala una Nature que alivia el SP.",
+            "en": "Gilberta in Purrchena's seat: per this author, more support, and her Ultimate gives a free Nature that eases SP."
+          }
+        },
+        {
+          "name": {
+            "es": "终末协约攻略组 - SIN Arcane: Purrchena · Perlica · Xaihi",
+            "en": "终末协约攻略组 - NO Arcane: Purrchena · Perlica · Xaihi"
+          },
+          "verdict": {
+            "es": "Purrchena y Perlica con Xaihi en lugar de Arcane, para quien todavía no la tiene.",
+            "en": "Purrchena and Perlica with Xaihi instead of Arcane, for anyone who does not have her yet."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "typhoeus",
+          "role": "Carry",
+          "weaponId": "wpn_funnel_0019",
+          "gearRec": [
+            "deep_rampart_armor",
+            "deep_rampart_gauntlets",
+            "deep_rampart_comms",
+            "deep_rampart_comms"
+          ],
+          "weaponNote": {
+            "es": "Umbra of Frigid Eventide (BIS).",
+            "en": "Umbra of Frigid Eventide (BIS)."
+          },
+          "gearNote": {
+            "es": "Cuatro piezas Deep Rampart: Armor, Gauntlets y dos Comms.",
+            "en": "Four Deep Rampart pieces: Armor, Gauntlets and two Comms."
+          },
+          "deepNote": {
+            "es": "Su Battle Skill la eleva y dispara cinco ataques aéreos; cada uno que pega a un enemigo con Nature consume una acumulación y le da un Sign, y con Hunting Arrows se convierte en Power Shot, que fuerza un Nature Burst. Con 8 Signs sale su Combo, que los convierte en Hunting Arrows y reinicia los ataques aéreos.",
+            "en": "Her Battle Skill lifts her up to fire five aerial attacks; each one hitting an enemy with Nature consumes a stack and gives her a Sign, and with Hunting Arrows it becomes a Power Shot that forces a Nature Burst. At 8 Signs her Combo comes out, turning them into Hunting Arrows and resetting the aerial attacks."
+          }
+        },
+        {
+          "id": "arcane",
+          "role": "Enabler",
+          "weaponId": "wpn_funnel_0016",
+          "gearRec": [
+            "tide_fall_light_armor_t1",
+            "deepsink_gloves",
+            "turbid_cutting_torch_t1",
+            "lynx_slab"
+          ],
+          "weaponNote": {
+            "es": "Type 42: Solemn Phalanx (BIS).",
+            "en": "Type 42: Solemn Phalanx (BIS)."
+          },
+          "gearNote": {
+            "es": "Tide Surge al 3 (Tide Fall Light Armor T1, Deepsink Gloves, Turbid Cutting Torch T1) con LYNX Slab, según la ficha del autor.",
+            "en": "3-piece Tide Surge (Tide Fall Light Armor T1, Deepsink Gloves, Turbid Cutting Torch T1) with LYNX Slab, per the author's card."
+          },
+          "deepNote": {
+            "es": "Forma INT. Su Combo sale con la Nature Infliction de Purrchena y aplica Imprisonment; su Battle Skill sobre el objetivo con Imprisonment pone otra Nature, con Explosion DMG, golpes extra y SP de vuelta. Su Ultimate pasa a la segunda fase tras dos Final Strikes o Finishers.",
+            "en": "INT form. Her Combo comes out on Purrchena's Nature Infliction and applies Imprisonment; her Battle Skill on the Imprisoned target applies another Nature, with Explosion DMG, bonus hits and SP back. Her Ultimate moves to its second phase after two Final Strikes or Finishers."
+          }
+        },
+        {
+          "id": "purrchena",
+          "role": "Enabler",
+          "weaponId": "wpn_sword_0023",
+          "gearRec": [
+            "eternal_xiranite_light_armor",
+            "lynx_gloves",
+            "eternal_xiranite_heavy_slab",
+            "eternal_xiranite_heavy_slab"
+          ],
+          "weaponNote": {
+            "es": "Dessert Moment (BIS).",
+            "en": "Dessert Moment (BIS)."
+          },
+          "gearNote": {
+            "es": "Eternal Xiranite Light Armor, LYNX Gloves y dos Eternal Xiranite Heavy Slab: el escudo de su primera pulsación activa el set Eternal Xiranite.",
+            "en": "Eternal Xiranite Light Armor, LYNX Gloves and two Eternal Xiranite Heavy Slabs: her first press's shield triggers the Eternal Xiranite set."
+          },
+          "deepNote": {
+            "es": "Primera pulsación de su Battle Skill: levanta el escudo, bloquea, devuelve SP y da Protection. Segunda: un cabezazo que pone Nature Infliction.",
+            "en": "First press of her Battle Skill: raises the shield, blocks, returns SP and gives Protection. Second: a headbutt that applies Nature Infliction."
+          }
+        },
+        {
+          "id": "perlica",
+          "role": "Enabler",
+          "weaponId": "wpn_funnel_0005",
+          "gearRec": [
+            "pulser_labs_disruptor_suit",
+            "hot_work_gloves",
+            "pulser_labs_calibrator",
+            "pulser_labs_calibrator"
+          ],
+          "weaponNote": {
+            "es": "Stanza of Memorials: al lanzar su Ultimate, los operadores de otro elemento ganan ATK; en el burst es el buff que más importa.",
+            "en": "Stanza of Memorials: casting her Ultimate gives ATK to operators of other elements; in the burst it is the buff that matters most."
+          },
+          "gearNote": {
+            "es": "Pulser Labs Disruptor Suit, Hot Work Gloves y dos Pulser Labs Calibrator. Según el autor, puede llevar Qingbo o no, con poca diferencia (para el burst afinado, Qingbo).",
+            "en": "Pulser Labs Disruptor Suit, Hot Work Gloves and two Pulser Labs Calibrators. Per the author, she can wear Qingbo or not, with little difference (for the fine-tuned burst, Qingbo)."
+          },
+          "deepNote": {
+            "es": "Su Combo sale con la Final Strike del personaje controlado y fuerza Electrification.",
+            "en": "Her Combo comes out on the controlled operator's Final Strike and forces Electrification."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Ficha de los cuatro antes de la segunda demo, contra varias oleadas y sin comentar. Según el autor, son builds clásicas; Perlica puede llevar Qingbo o no, con poca diferencia.",
+          "en": "Card of all four before the second demo, against several waves and uncommented. Per the author, these are classic builds; Perlica can wear Qingbo or not, with little difference."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Perlica con Qingbo",
+              "en": "Perlica with Qingbo"
+            },
+            "swap": {
+              "es": "Según el autor, la diferencia es pequeña.",
+              "en": "Per the author, the difference is small."
             }
           }
         ]

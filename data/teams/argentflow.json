@@ -1,0 +1,2172 @@
+{
+  "label": "ARGENT FLOW",
+  "guideCharId": "argentflow",
+  "tagline": {
+    "es": "Acumula Sunderization y deja que la Crush de su Ultimate lo detone todo.",
+    "en": "Build Sunderization and let his Ultimate's Crush detonate it all."
+  },
+  "comps": [
+    {
+      "name": {
+        "es": "股神小炉 - Arcane (WILL) · Gilberta · Liino",
+        "en": "股神小炉 - Arcane (WILL) · Gilberta · Liino"
+      },
+      "subtitle": {
+        "es": "Arcane (WILL) · Gilberta · Liino",
+        "en": "Arcane (WILL) · Gilberta · Liino"
+      },
+      "blurb": {
+        "es": "Argent Flow como único carry, con tres soportes. Todo el daño se concentra en su Ultimate: durante la pelea se acumula Sunderization y la Crush de la Ultimate lo detona. El objetivo del autor es llegar a 12 de Sunderization con Electrification de nivel 4. Incluye la versión más simple, sin esperar 3 barras de SP, y aportes de 终末协约攻略组 y Raaay丶.",
+        "en": "Argent Flow as the only carry, with three supports. All the damage is concentrated in his Ultimate: Sunderization builds up during the fight and the Ultimate's Crush detonates it. The author's goal is reaching 12 Sunderization with level 4 Electrification. Includes the simpler version, with no waiting for 3 SP bars, and contributions from 终末协约攻略组 and Raaay丶."
+      },
+      "guideVideoId": "af1",
+      "simple": {
+        "whatItDoes": {
+          "es": "La Battle Skill de Argent Flow aplica Lift, y eso da Vulnerability, que hace salir su Combo. El Combo pone Electric Infliction y cambia su Battle Skill por Bolt Rush. Bolt Rush fuerza una Electrification y sube un nivel por cada Electric Infliction que consume. Cada Electrification de Argent Flow añade tantas acumulaciones de Sunderization como su nivel, hasta 12. Su Ultimate aplica Crush, que detona todas las acumulaciones de golpe. Arcane en forma WILL duplica las Inflictions, Gilberta aporta Arts Susceptibility con su Ultimate y Liino da ATK y Electric Amp.",
+          "en": "Argent Flow's Battle Skill applies Lift, which gives Vulnerability and brings out his Combo. The Combo puts Electric Infliction and changes his Battle Skill to Bolt Rush. Bolt Rush forces an Electrification and goes up one level per Electric Infliction it consumes. Each of Argent Flow's Electrifications adds as many Sunderization stacks as its level, up to 12. His Ultimate applies Crush, which detonates all the stacks at once. WILL-form Arcane duplicates Inflictions, Gilberta brings Arts Susceptibility with her Ultimate and Liino gives ATK and Electric Amp."
+        },
+        "steps": [
+          {
+            "who": "liino",
+            "do": {
+              "es": "Al empezar, Battle Skill de Liino.",
+              "en": "At the start, Liino's Battle Skill."
+            }
+          },
+          {
+            "who": "argentflow",
+            "do": {
+              "es": "Battle Skill de Argent Flow, su Combo y el de Arcane. Después, Bolt Rush y los Combos de Liino y Gilberta. Cada vuelta suma 3 de Sunderization. Hazla dos veces.",
+              "en": "Argent Flow's Battle Skill, his Combo and Arcane's. Then Bolt Rush and Liino's and Gilberta's Combos. Each loop adds 3 Sunderization. Do it twice."
+            },
+            "key": true
+          },
+          {
+            "who": "argentflow",
+            "do": {
+              "es": "Con cerca de 3 barras de SP: Battle Skill, Combo y Bolt Rush de Argent Flow, sin pulsar el Combo de Arcane.",
+              "en": "With close to 3 SP bars: Argent Flow's Battle Skill, Combo and Bolt Rush, without pressing Arcane's Combo."
+            },
+            "key": true
+          },
+          {
+            "who": "arcane",
+            "do": {
+              "es": "Battle Skill de Arcane (Nature Infliction) y pulsa los Combos de Arcane, Liino y Gilberta.",
+              "en": "Arcane's Battle Skill (Nature Infliction) and press Arcane's, Liino's and Gilberta's Combos."
+            }
+          },
+          {
+            "who": "argentflow",
+            "do": {
+              "es": "Ultimates en orden 4-3-2-1: Liino, Gilberta, Arcane y Argent Flow. Su Crush detona 12 de Sunderization con Electrification de nivel 4.",
+              "en": "Ultimates in 4-3-2-1 order: Liino, Gilberta, Arcane and Argent Flow. His Crush detonates 12 Sunderization with level 4 Electrification."
+            },
+            "key": true
+          }
+        ],
+        "gear": [
+          {
+            "id": "argentflow",
+            "line": {
+              "es": "Lunar Calling (o Complexed Industry, White Night Nova). Pulser Labs al 3 (Light Armor, Light Gauntlets, Armor Slab) con LYNX Slab.",
+              "en": "Lunar Calling (or Complexed Industry, White Night Nova). 3-piece Pulser Labs (Light Armor, Light Gauntlets, Armor Slab) with LYNX Slab."
+            }
+          },
+          {
+            "id": "arcane",
+            "line": {
+              "es": "Type 42: Solemn Phalanx (o Junction Point). Eternal Xiranite (Light Armor, Hands y dos Bracing Slab). Tiene que quedar en forma WILL.",
+              "en": "Type 42: Solemn Phalanx (or Junction Point). Eternal Xiranite (Light Armor, Hands and two Bracing Slabs). She must end up in WILL form."
+            }
+          },
+          {
+            "id": "gilberta",
+            "line": {
+              "es": "Delivery Guaranteed (o Stanza of Memorials). Redeemer Armor con Eternal Xiranite (Gloves T1 y dos Auxiliary Arm). Con su arma BIS puede llevar Swordmancer.",
+              "en": "Delivery Guaranteed (or Stanza of Memorials). Redeemer Armor with Eternal Xiranite (Gloves T1 and two Auxiliary Arms). With her BIS she can wear Swordmancer."
+            }
+          },
+          {
+            "id": "liino",
+            "line": {
+              "es": "Bedazzling Night Debut (o Golden Age). LYNX (Cuirass T1, Gauntlets T1, Slab) con Eternal Xiranite Bracing Slab T1.",
+              "en": "Bedazzling Night Debut (or Golden Age). LYNX (Cuirass T1, Gauntlets T1, Slab) with Eternal Xiranite Bracing Slab T1."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "El autor parte del talento de Argent Flow: Sunderization, 330% de ATK por acumulación hasta 12, con bonus por Arts Intensity, y lo detona una Crush, la de su Ultimate. De ahí sale toda la lógica: acumular Sunderization y soltarlo todo en la Ultimate. Arcane da más acumulaciones; Gilberta, la Arts Susceptibility; Liino, ATK y Electric Amp. La vuelta normal (1EE1EE en su notación: 1 es la Battle Skill de Argent Flow y E, los Combos) cuesta 2 barras de SP, dispara cuatro Combos y suma 3 de Sunderization. Tras dos vueltas hay 6. La tercera se cambia por una de burst pensada para terminar con 12 de Sunderization y Electrification de nivel 4: 2 con el Bolt Rush y 4 con la Electrification final, que sale de cuatro Nature Infliction. Quien no quiera esperar 3 barras de SP puede hacer una tercera vuelta normal y soltar las Ultimates: quedan 11 de Sunderization con nivel 2. 终末协约攻略组 y Raaay丶 sacan videos del mismo cuarteto; sus aportes van como variantes y alternativas.",
+        "en": "The author starts from Argent Flow's talent: Sunderization, 330% ATK per stack up to 12, with a bonus from Arts Intensity, detonated by a Crush, the one on his Ultimate. All the logic comes from that: build Sunderization and release it all on the Ultimate. Arcane gives more stacks; Gilberta, the Arts Susceptibility; Liino, ATK and Electric Amp. The normal loop (1EE1EE in the author's notation: 1 is Argent Flow's Battle Skill and E, the Combos) costs 2 SP bars, fires four Combos and adds 3 Sunderization. After two loops there are 6. The third is swapped for a burst loop designed to end with 12 Sunderization and level 4 Electrification: 2 from Bolt Rush and 4 from the final Electrification, which comes from four Nature Inflictions. Anyone who does not want to wait for 3 SP bars can do a third normal loop and release the Ultimates: that leaves 11 Sunderization at level 2. 终末协约攻略组 and Raaay丶 have videos of the same quartet; their contributions go in as variants and alternatives."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Media (bucle corto; burst con 3 barras de SP)",
+          "en": "Medium (short loop; burst with 3 SP bars)"
+        },
+        "content": {
+          "es": "Jefe / Burst en Stagger",
+          "en": "Boss / Burst in Stagger"
+        },
+        "tags": [
+          {
+            "es": "Electric",
+            "en": "Electric"
+          },
+          {
+            "es": "Sunderization",
+            "en": "Sunderization"
+          },
+          {
+            "es": "Un solo burst",
+            "en": "Single burst"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "La vuelta normal es una sola secuencia repetida: 1EE1EE.",
+          "en": "The normal loop is one repeated sequence: 1EE1EE."
+        },
+        {
+          "es": "Demanda poco Ultimate Gain en el conjunto del equipo, según 终末协约攻略组 y Raaay丶, porque el ciclo es largo.",
+          "en": "Low overall Ultimate Gain demand on the team, per 终末协约攻略组 and Raaay丶, because the cycle is long."
+        },
+        {
+          "es": "Si esperar 3 barras de SP resulta difícil, hay una versión más simple: 3 vueltas normales y las Ultimates, con 11 de Sunderization.",
+          "en": "If waiting for 3 SP bars is hard, there is a simpler version: 3 normal loops and the Ultimates, with 11 Sunderization."
+        }
+      ],
+      "cons": [
+        {
+          "es": "El daño depende casi por completo de una ventana: según 终末协约攻略组, la de la Ultimate de Argent Flow. El video de 终末协约攻略组 lo recomienda para jefes de ciclo largo y un burst en Stagger.",
+          "en": "Damage depends almost entirely on one window: per 终末协约攻略组, Argent Flow's Ultimate. 终末协约攻略组's video recommends it for long-cycle bosses and a burst in Stagger."
+        },
+        {
+          "es": "La vuelta de burst obliga a contener el Combo de Arcane, que sale pero no debe pulsarse.",
+          "en": "The burst loop means holding back Arcane's Combo, which comes out but must not be pressed."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "Bolt Rush convierte Inflictions en Sunderization",
+            "en": "Bolt Rush turns Inflictions into Sunderization"
+          },
+          "body": {
+            "es": "Darkness Cowed aplica Lift y deja Vulnerability, y eso hace salir el Combo de Argent Flow, que pone 1 Electric Infliction. En la demo también sale el de Arcane, que en forma WILL añade otra. Bolt Rush fuerza una Electrification de nivel 1 y le suma un nivel por cada Electric Infliction consumida: con dos queda en nivel 3. Argent Flow aplica tantas acumulaciones de Sunderization como ese nivel, hasta 12. Como la Electrification se sustituye y la Sunderization se acumula, la vuelta siguiente deja otra vez nivel 3, pero ya 6 acumulaciones.",
+            "en": "Darkness Cowed applies Lift and leaves Vulnerability, which brings out Argent Flow's Combo, which puts 1 Electric Infliction. In the demo Arcane's also comes out, and in WILL form it adds another. Bolt Rush forces a level 1 Electrification and adds one level per Electric Infliction consumed: with two it ends at level 3. Argent Flow applies as many Sunderization stacks as that level, up to 12. Since Electrification overwrites and Sunderization stacks, the next loop leaves level 3 again, but already 6 stacks."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "La cuenta de los 12 con nivel 4",
+            "en": "The math for 12 at level 4"
+          },
+          "body": {
+            "es": "Tras dos vueltas hay 6. Si la Electrification final es de nivel 4, aporta 4 más, así que faltan 2: por eso el Bolt Rush del burst consume solo 1 Electric Infliction y deja nivel 2 con 2 acumulaciones. El nivel 4 sale de cuatro Nature Infliction: la Battle Skill de Arcane, su Combo, la Ultimate de Gilberta y la de Arcane. Según el autor, la Ultimate de Argent Flow pone primero la Electric Infliction y calcula después el daño, de modo que esa Infliction convierte las cuatro Nature en Electrification de nivel 4 antes de la detonación.",
+            "en": "After two loops there are 6. If the final Electrification is level 4, it adds 4 more, so 2 are missing: that is why the burst's Bolt Rush consumes only 1 Electric Infliction and leaves level 2 with 2 stacks. Level 4 comes from four Nature Inflictions: Arcane's Battle Skill, her Combo, Gilberta's Ultimate and Arcane's. Per the author, Argent Flow's Ultimate puts the Electric Infliction first and calculates damage afterwards, so that Infliction turns the four Nature into level 4 Electrification before the detonation."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Qué aporta cada soporte a la ventana",
+            "en": "What each support adds to the window"
+          },
+          "body": {
+            "es": "La Ultimate de Gilberta aplica Arts Susceptibility, que sube con cada acumulación de Vulnerability del objetivo. La Ultimate de Liino da Electric Amp, Nature Amp y ATK Boost al equipo. Arcane aporta Nature Infliction y, además, Nature Susceptibility y Cryo Susceptibility con su Combo. El orden 4-3-2-1 de las Ultimates hace, según Raaay丶, que todo el daño caiga con la Arts Susceptibility de Gilberta puesta.",
+            "en": "Gilberta's Ultimate applies Arts Susceptibility, which grows with each Vulnerability stack on the target. Liino's Ultimate gives the team Electric Amp, Nature Amp and ATK Boost. Arcane brings Nature Infliction and, with her Combo, Nature Susceptibility and Cryo Susceptibility. The 4-3-2-1 Ultimate order means, per Raaay丶, that all the damage lands with Gilberta's Arts Susceptibility on."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Apertura",
+            "en": "Opening"
+          },
+          "action": {
+            "es": "Battle Skill de Liino.",
+            "en": "Liino's Battle Skill."
+          },
+          "steps": [
+            {
+              "who": "liino",
+              "do": {
+                "es": "Battle Skill de Liino: entra en Vocalist Stance, que da ATK Boost y permite su Combo.",
+                "en": "Liino's Battle Skill: she enters Vocalist Stance, which gives ATK Boost and enables her Combo."
+              }
+            }
+          ],
+          "tip": {
+            "es": "En el video, la formación es Argent Flow, Arcane, Gilberta y Liino, en ese orden: es lo que usa la notación 1 / 2 / 4-3-2-1.",
+            "en": "In the video, the formation is Argent Flow, Arcane, Gilberta and Liino, in that order: that is what the 1 / 2 / 4-3-2-1 notation uses."
+          }
+        },
+        {
+          "phase": {
+            "es": "Vuelta normal, dos veces (1EE1EE)",
+            "en": "Normal loop, twice (1EE1EE)"
+          },
+          "action": {
+            "es": "Darkness Cowed → Combo de Argent Flow → Combo de Arcane → Bolt Rush → Combos de Liino y Gilberta. Suma 3 de Sunderization por vuelta.",
+            "en": "Darkness Cowed → Argent Flow's Combo → Arcane's Combo → Bolt Rush → Liino's and Gilberta's Combos. Adds 3 Sunderization per loop."
+          },
+          "steps": [
+            {
+              "who": "argentflow",
+              "do": {
+                "es": "Darkness Cowed cuando el Combo de Argent Flow esté listo: aplica Lift y deja Vulnerability.",
+                "en": "Darkness Cowed when Argent Flow's Combo is ready: it applies Lift and leaves Vulnerability."
+              }
+            },
+            {
+              "who": "argentflow",
+              "do": {
+                "es": "Combo de Argent Flow: 1 Electric Infliction, y su Battle Skill cambia a Bolt Rush.",
+                "en": "Argent Flow's Combo: 1 Electric Infliction, and his Battle Skill changes to Bolt Rush."
+              }
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Combo de Arcane: otra Electric Infliction. El autor señala que su cooldown coincide con el de Argent Flow, así que siempre llega a tiempo.",
+                "en": "Arcane's Combo: another Electric Infliction. The author points out her cooldown matches Argent Flow's, so it always arrives in time."
+              }
+            },
+            {
+              "who": "argentflow",
+              "do": {
+                "es": "Bolt Rush cuando el Combo de Gilberta esté a punto de volver: tiene una preparación. Electrification de nivel 3 y 3 de Sunderization, además de 1 de Vulnerability por consumir la Infliction.",
+                "en": "Bolt Rush when Gilberta's Combo is about to return: it has a windup. Level 3 Electrification and 3 Sunderization, plus 1 Vulnerability for consuming the Infliction."
+              },
+              "key": true
+            },
+            {
+              "who": "liino",
+              "do": {
+                "es": "La Electrification hace salir los Combos de Liino y Gilberta: púlsalos.",
+                "en": "The Electrification brings out Liino's and Gilberta's Combos: press them."
+              }
+            }
+          ],
+          "tip": {
+            "es": "Mientras esperas los cooldowns, básicos. Cada vuelta cuesta 2 barras de SP.",
+            "en": "While waiting for cooldowns, basics. Each loop costs 2 SP bars."
+          }
+        },
+        {
+          "phase": {
+            "es": "Burst (1E12EEE, y las Ultimates 4-3-2-1)",
+            "en": "Burst (1E12EEE, and Ultimates 4-3-2-1)"
+          },
+          "action": {
+            "es": "Con cerca de 3 barras de SP: Darkness Cowed → Combo de Argent Flow → Bolt Rush → Battle Skill de Arcane → Combos de Arcane, Liino y Gilberta → Ultimates de Liino, Gilberta, Arcane y Argent Flow.",
+            "en": "With close to 3 SP bars: Darkness Cowed → Argent Flow's Combo → Bolt Rush → Arcane's Battle Skill → Arcane's, Liino's and Gilberta's Combos → Liino's, Gilberta's, Arcane's and Argent Flow's Ultimates."
+          },
+          "steps": [
+            {
+              "who": "argentflow",
+              "do": {
+                "es": "Darkness Cowed y Combo de Argent Flow. El de Arcane sale, pero no lo pulses: se guarda para la Nature.",
+                "en": "Darkness Cowed and Argent Flow's Combo. Arcane's comes out, but do not press it: it is saved for the Nature."
+              },
+              "key": true
+            },
+            {
+              "who": "argentflow",
+              "do": {
+                "es": "Bolt Rush: consume solo 1 Electric Infliction y deja nivel 2, así que suma 2 de Sunderization (8 en total). Los Combos vuelven a salir: tampoco los pulses aún, porque el de Arcane pondría otra Electric Infliction y ya no queda otro Bolt Rush para consumirla.",
+                "en": "Bolt Rush: it consumes only 1 Electric Infliction and leaves level 2, adding 2 Sunderization (8 total). The Combos come out again: do not press them yet either, because Arcane's would put another Electric Infliction and there is no other Bolt Rush left to consume it."
+              },
+              "key": true
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Battle Skill de Arcane: 1.ª Nature Infliction. Queda 1 barra de SP para ella porque arrancaste con casi 3.",
+                "en": "Arcane's Battle Skill: 1st Nature Infliction. There is 1 SP bar left for it because you started with nearly 3."
+              }
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Pulsa E tres veces: Combos de Arcane (2.ª Nature, copiando el elemento), Liino y Gilberta. Después, las Ultimates.",
+                "en": "Press E three times: Arcane's (2nd Nature, copying the element), Liino's and Gilberta's Combos. Then the Ultimates."
+              }
+            },
+            {
+              "who": "liino",
+              "do": {
+                "es": "Ultimate de Liino.",
+                "en": "Liino's Ultimate."
+              }
+            },
+            {
+              "who": "gilberta",
+              "do": {
+                "es": "Ultimate de Gilberta: 3.ª Nature y Arts Susceptibility. Si vas muy rápido, deja un instante antes de la siguiente: puede que su Nature aún no se haya aplicado.",
+                "en": "Gilberta's Ultimate: 3rd Nature and Arts Susceptibility. If you go very fast, leave a moment before the next: her Nature may not have applied yet."
+              }
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Ultimate de Arcane: 4.ª Nature, copiando el elemento.",
+                "en": "Arcane's Ultimate: 4th Nature, copying the element."
+              }
+            },
+            {
+              "who": "argentflow",
+              "do": {
+                "es": "Ultimate de Argent Flow: su Electric Infliction convierte las cuatro Nature en Electrification de nivel 4 (+4 = 12 de Sunderization) y la Crush lo detona todo.",
+                "en": "Argent Flow's Ultimate: his Electric Infliction turns the four Nature into level 4 Electrification (+4 = 12 Sunderization) and the Crush detonates it all."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "El autor pide respetar el orden 4-3-2-1 de las Ultimates y ordenar los Combos en la formación como en su diagrama. Lo atribuye a cómo se encadenan los Combos: así el de Arcane pone Nature y la Ultimate de Gilberta no interrumpe su propio Combo.",
+            "en": "The author asks to keep the 4-3-2-1 Ultimate order and to arrange Combos in the formation as in the diagram. It comes down to how Combos chain: that way Arcane's puts Nature and Gilberta's Ultimate does not interrupt her own Combo."
+          }
+        }
+      ],
+      "rotationVariants": [
+        {
+          "name": {
+            "es": "Versión simple: tres vueltas normales",
+            "en": "Simple version: three normal loops"
+          },
+          "description": {
+            "es": "De 股神小炉, para quien no quiera esperar 3 barras de SP. Tras tres vueltas normales hay 9 de Sunderization; la Electrification final sale de nivel 2, con la Nature de Gilberta y la de Arcane, y quedan 11. Según el autor, el daño alcanza y se gasta una Battle Skill menos.",
+            "en": "From 股神小炉, for anyone who does not want to wait for 3 SP bars. After three normal loops there are 9 Sunderization; the final Electrification comes out at level 2, with Gilberta's and Arcane's Nature, leaving 11. Per the author, the damage is enough and one fewer Battle Skill is spent."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Tres vueltas normales y las Ultimates",
+                "en": "Three normal loops and the Ultimates"
+              },
+              "action": {
+                "es": "Battle Skill de Liino → 1EE1EE ×3 → Ultimates 4-3-2-1.",
+                "en": "Liino's Battle Skill → 1EE1EE ×3 → Ultimates 4-3-2-1."
+              },
+              "steps": [
+                {
+                  "who": "gilberta",
+                  "do": {
+                    "es": "Si tienes mucha velocidad de manos, deja un instante entre la Ultimate de Gilberta y la de Arcane: su Nature puede no llegar a aplicarse antes de que la de Arcane termine.",
+                    "en": "If you have very fast hands, leave a moment between Gilberta's Ultimate and Arcane's: her Nature may not apply before Arcane's finishes."
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": {
+            "es": "终末协约攻略组: sin memorizar el eje",
+            "en": "终末协约攻略组: no axis to memorize"
+          },
+          "description": {
+            "es": "Arcane es el personaje controlado y solo hace básicos durante toda la pelea. Liino lanza su Battle Skill al abrir y después se repite: Battle Skill de Argent Flow, Bolt Rush, y cada Combo de los demás en cuanto esté listo. El autor lo plantea para esperar el Stagger del jefe y soltar el burst entonces.",
+            "en": "Arcane is the controlled operator and only does basics for the whole fight. Liino casts her Battle Skill to open and then it repeats: Argent Flow's Battle Skill, Bolt Rush, and everyone else's Combo as soon as it is ready. The author proposes it for waiting for the boss's Stagger and releasing the burst then."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Base",
+                "en": "Base"
+              },
+              "action": {
+                "es": "Battle Skill de Liino → (Battle Skill y Combo de Argent Flow → Bolt Rush → los Combos que estén listos) en bucle.",
+                "en": "Liino's Battle Skill → (Argent Flow's Battle Skill and Combo → Bolt Rush → whichever Combos are ready) on loop."
+              },
+              "steps": [
+                {
+                  "who": "arcane",
+                  "do": {
+                    "es": "Básicos con Arcane durante toda la pelea, también mientras esperas los cooldowns de Combo.",
+                    "en": "Basics with Arcane for the whole fight, also while waiting for Combo cooldowns."
+                  }
+                },
+                {
+                  "who": "argentflow",
+                  "do": {
+                    "es": "Battle Skill y Combo de Argent Flow, Combo de Arcane y Bolt Rush.",
+                    "en": "Argent Flow's Battle Skill and Combo, Arcane's Combo and Bolt Rush."
+                  }
+                },
+                {
+                  "who": "gilberta",
+                  "do": {
+                    "es": "Combos de Gilberta y Liino en cuanto salgan. Solo recuerda mantener la Battle Skill de Liino.",
+                    "en": "Gilberta's and Liino's Combos as soon as they come out. Just remember to keep Liino's Battle Skill up."
+                  }
+                }
+              ]
+            },
+            {
+              "phase": {
+                "es": "Burst de esa versión",
+                "en": "That version's burst"
+              },
+              "action": {
+                "es": "Battle Skill y Combo de Argent Flow → Bolt Rush → Ultimate de Gilberta → Combo de Arcane → Combos de Gilberta y Liino → Ultimates de Arcane, Liino y Argent Flow.",
+                "en": "Argent Flow's Battle Skill and Combo → Bolt Rush → Gilberta's Ultimate → Arcane's Combo → Gilberta's and Liino's Combos → Arcane's, Liino's and Argent Flow's Ultimates."
+              },
+              "steps": [
+                {
+                  "who": "liino",
+                  "do": {
+                    "es": "La Ultimate de Liino no necesita esperar: mantén pulsada de una vez la de Argent Flow. Así la Electrification de Liino queda sustituida por la de nivel 3 de Argent Flow. Con esta versión el autor llega a nivel 3 y 10 de Sunderization.",
+                    "en": "Liino's Ultimate does not need to wait: hold Argent Flow's right away. That way Liino's Electrification gets overwritten by Argent Flow's level 3 one. With this version the author reaches level 3 and 10 Sunderization."
+                  },
+                  "key": true
+                },
+                {
+                  "who": "liino",
+                  "do": {
+                    "es": "Si el jefe sigue vivo tras el burst, el autor termina la Ultimate de Liino antes de tiempo, porque el daño de Argent Flow se concentra en su Ultimate. Según el kit, al terminarla antes no sale el golpe final de la postura.",
+                    "en": "If the boss is still alive after the burst, the author ends Liino's Ultimate early, since Argent Flow's damage is concentrated in his Ultimate. Per the kit, ending it early skips the stance's final hit."
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": {
+            "es": "终末协约攻略组: Corrosion",
+            "en": "终末协约攻略组: Corrosion"
+          },
+          "description": {
+            "es": "Se juega igual por parte de Argent Flow, pero separa los Combos para colocar una Corrosion: según el autor, se pagan 2 de Sunderization por una Corrosion de nivel 1, el Combo de Liino vuelve rápido y separar los Combos reduce la presión de Ultimate Gain. Raaay丶 advierte que en la versión simple sin Corrosion las diferencias de equipo apenas importan.",
+            "en": "Argent Flow plays the same, but the Combos are split to place a Corrosion: per the author, 2 Sunderization pay for a level 1 Corrosion, Liino's Combo returns quickly, and splitting Combos reduces Ultimate Gain pressure. Raaay丶 notes that in the simple version without Corrosion, gear differences barely matter."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Vuelta con Corrosion",
+                "en": "Corrosion loop"
+              },
+              "action": {
+                "es": "Battle Skill y Combo de Argent Flow → Bolt Rush → Combos de Arcane, Gilberta y Liino → Battle Skill de Arcane → Combo de Liino.",
+                "en": "Argent Flow's Battle Skill and Combo → Bolt Rush → Arcane's, Gilberta's and Liino's Combos → Arcane's Battle Skill → Liino's Combo."
+              },
+              "steps": [
+                {
+                  "who": "arcane",
+                  "do": {
+                    "es": "No pulses el Combo de Arcane hasta después de Bolt Rush.",
+                    "en": "Do not press Arcane's Combo until after Bolt Rush."
+                  }
+                },
+                {
+                  "who": "arcane",
+                  "do": {
+                    "es": "Battle Skill de Arcane tras Bolt Rush: convierte la Electric Infliction en Corrosion y vuelve a hacer salir el Combo de Liino.",
+                    "en": "Arcane's Battle Skill after Bolt Rush: it turns the Electric Infliction into Corrosion and brings out Liino's Combo again."
+                  },
+                  "key": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": {
+            "es": "终末协约攻略组: Combo de Argent Flow con el de Gilberta",
+            "en": "终末协约攻略组: Argent Flow's Combo via Gilberta's"
+          },
+          "description": {
+            "es": "El autor lo presenta como conocimiento avanzado. El Combo de Argent Flow sale al aplicarse Vulnerability, y el de Gilberta también la aplica mediante Lift. Si retrasas el segundo Combo de Gilberta hasta que el de Argent Flow esté por volver, te ahorras una Battle Skill de Argent Flow y gastas ese SP en otra de Arcane. Según el autor, su burst pasa de nivel 3 y 10 de Sunderization a nivel 4 y 11. Mientras el jefe no se mueva tanto como para fallar el Combo, el autor dice que compensa.",
+            "en": "The author presents it as advanced knowledge. Argent Flow's Combo fires when Vulnerability is applied, and Gilberta's also applies it through Lift. If you delay Gilberta's second Combo until Argent Flow's is about to return, you save one Argent Flow Battle Skill and spend that SP on another for Arcane. Per the author, the burst goes from level 3 and 10 Sunderization to level 4 and 11. As long as the boss does not move enough to whiff the Combo, the author says it pays off."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Preparación",
+                "en": "Setup"
+              },
+              "action": {
+                "es": "Bolt Rush → Combo de Arcane → Combo de Liino → Battle Skill de Arcane → Combo de Liino → Combo de Gilberta.",
+                "en": "Bolt Rush → Arcane's Combo → Liino's Combo → Arcane's Battle Skill → Liino's Combo → Gilberta's Combo."
+              },
+              "steps": [
+                {
+                  "who": "liino",
+                  "do": {
+                    "es": "Pon a Liino antes que Gilberta en la formación, para poder no pulsar el Combo de Gilberta.",
+                    "en": "Put Liino ahead of Gilberta in the formation, so you can leave Gilberta's Combo unpressed."
+                  }
+                },
+                {
+                  "who": "gilberta",
+                  "do": {
+                    "es": "No pulses el primer Combo de Gilberta; espera a que termine. El segundo también se retiene hasta que el Combo de Argent Flow esté por volver.",
+                    "en": "Do not press Gilberta's first Combo; wait for it to end. Hold the second too, until Argent Flow's Combo is about to return."
+                  },
+                  "key": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": {
+            "es": "Raaay丶: dos vueltas de carga y un burst",
+            "en": "Raaay丶: two charge loops and a burst"
+          },
+          "description": {
+            "es": "La misma estructura base, con tres matices: si la segunda vuelta va rápido y se queda sin Combo de Gilberta (1EE y 1E), no pasa nada, porque hay Ultimate Gain suficiente aunque Gilberta no lance ninguno. Antes del burst hay que esperar a casi 3 barras de SP, y Raaay丶 lo resume en que tres Battle Skills terminan la pelea. Al acabar el burst, dos Final Strikes activan el segundo Ultimate de Arcane.",
+            "en": "The same base structure, with three nuances: if the second loop goes fast and has no Gilberta Combo (1EE and 1E), it does not matter, because there is enough Ultimate Gain even if Gilberta casts none. Before the burst you wait for nearly 3 SP bars, and Raaay丶 sums it up as three Battle Skills ending the fight. When the burst ends, two Final Strikes enable Arcane's second Ultimate."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Lo que hay que recordar",
+                "en": "What to remember"
+              },
+              "action": {
+                "es": "Tres puntos del autor, sobre su diagrama.",
+                "en": "The author's three points, over the diagram."
+              },
+              "steps": [
+                {
+                  "who": "liino",
+                  "do": {
+                    "es": "Battle Skill de Liino al inicio de cada ciclo.",
+                    "en": "Liino's Battle Skill at the start of each cycle."
+                  }
+                },
+                {
+                  "who": "arcane",
+                  "do": {
+                    "es": "Tras el burst, dos Final Strikes: la Ultimate de Arcane cambia a Gloompurge Arcana y se puede lanzar.",
+                    "en": "After the burst, two Final Strikes: Arcane's Ultimate changes to Gloompurge Arcana and can be cast."
+                  }
+                },
+                {
+                  "who": "argentflow",
+                  "do": {
+                    "es": "En el burst, no pulses el Combo de Arcane tras el de Argent Flow. Es el paso difícil.",
+                    "en": "In the burst, do not press Arcane's Combo after Argent Flow's. It is the hard step."
+                  },
+                  "key": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "argentflow",
+          "order": {
+            "es": "Combo (especialización 3) > Ultimate (especialización 3) > Battle Skill (especialización 3) > Ataque básico (especialización 3)",
+            "en": "Combo (specialization 3) > Ultimate (specialization 3) > Battle Skill (specialization 3) > Basic attack (specialization 3)"
+          },
+          "note": {
+            "es": "Discrepan: 终末协约攻略组 da Battle Skill > Ultimate = Combo > Ataque básico, y Raaay丶 da Ultimate > Battle Skill > Combo (rango 9) > Ataque básico (rango 9). Refinado según 股神小炉: Ultimate Gain en el gear; después los demás atributos, el principal y el secundario. En su arma, primero el atributo 1 y 2, que de todos modos se llenan.",
+            "en": "They disagree: 终末协约攻略组 gives Battle Skill > Ultimate = Combo > Basic attack, and Raaay丶 gives Ultimate > Battle Skill > Combo (rank 9) > Basic attack (rank 9). Artificing per 股神小炉: Ultimate Gain on gear; then the other attributes, the main and the secondary. On his weapon, attributes 1 and 2 first, which get maxed anyway."
+          }
+        },
+        {
+          "charId": "arcane",
+          "order": {
+            "es": "Combo (especialización 3)",
+            "en": "Combo (specialization 3)"
+          },
+          "note": {
+            "es": "Es lo único que fija 股神小炉. 终末协约攻略组: Combo (especialización 3) > Ultimate > Battle Skill = Ataque básico. Arma: primero el atributo 2 (Ultimate Gain), luego el 3; el 1 no hace falta en este equipo.",
+            "en": "It is all 股神小炉 sets. 终末协约攻略组: Combo (specialization 3) > Ultimate > Battle Skill = Basic attack. Weapon: attribute 2 (Ultimate Gain) first, then 3; attribute 1 is not needed on this team."
+          }
+        },
+        {
+          "charId": "gilberta",
+          "order": {
+            "es": "Combo (especialización 3) = Ultimate (especialización 3)",
+            "en": "Combo (specialization 3) = Ultimate (specialization 3)"
+          },
+          "note": {
+            "es": "终末协约攻略组: Combo = Battle Skill > Ultimate, todo a especialización 3. Raaay丶 sube la Ultimate y deja el resto a rango 1. Gear: Ultimate Gain, salvo con su arma BIS, que no lo necesita, y sus atributos no hace falta refinarlos. Arma: primero el atributo 2 (Ultimate Gain). Con Delivery Guaranteed, también el 3; con Stanza of Memorials, los otros dos no hacen falta.",
+            "en": "终末协约攻略组: Combo = Battle Skill > Ultimate, all at specialization 3. Raaay丶 levels the Ultimate and leaves the rest at rank 1. Gear: Ultimate Gain, unless on her BIS, which does not need it, and her attributes do not need artificing. Weapon: attribute 2 (Ultimate Gain) first. With Delivery Guaranteed, also 3; with Stanza of Memorials, the other two are not needed."
+          }
+        },
+        {
+          "charId": "liino",
+          "order": {
+            "es": "Battle Skill (especialización 3) = Ultimate (especialización 3) > Combo (especialización 3)",
+            "en": "Battle Skill (specialization 3) = Ultimate (specialization 3) > Combo (specialization 3)"
+          },
+          "note": {
+            "es": "终末协约攻略组: Combo > Battle Skill = Ultimate > Ataque básico. Raaay丶: Ultimate y Battle Skill arriba, Combo y Ataque básico a rango 1. Arma: primero el atributo 3; el 2 (HP Treatment) depende de cuánta supervivencia necesites.",
+            "en": "终末协约攻略组: Combo > Battle Skill = Ultimate > Basic attack. Raaay丶: Ultimate and Battle Skill up, Combo and Basic attack at rank 1. Weapon: attribute 3 first; attribute 2 (HP Treatment) depends on how much survival you need."
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "En el burst, no pulses el Combo de Arcane ni tras el Combo de Argent Flow ni tras Bolt Rush: pondría Electric Infliction, y hacen falta Nature para el nivel 4.",
+          "en": "In the burst, do not press Arcane's Combo after Argent Flow's Combo or after Bolt Rush: it would put Electric Infliction, and Nature is what level 4 needs."
+        },
+        {
+          "es": "Si lanzas las Ultimates muy rápido, la Nature de Gilberta puede no aplicarse antes de que termine la de Arcane. Deja un instante entre las dos.",
+          "en": "If you cast the Ultimates very fast, Gilberta's Nature may not apply before Arcane's finishes. Leave a moment between the two."
+        },
+        {
+          "es": "El burst pide casi 3 barras de SP al arrancar: sin ellas no queda para la Battle Skill de Arcane.",
+          "en": "The burst wants nearly 3 SP bars at the start: without them there is none left for Arcane's Battle Skill."
+        },
+        {
+          "es": "Un Bolt Rush tiene preparación: lánzalo un poco antes de que vuelva el Combo de Gilberta para que el Combo coincida.",
+          "en": "Bolt Rush has a windup: cast it slightly before Gilberta's Combo returns so the Combo lines up."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "终末协约攻略组 - SIN Arcane: Antal · Gilberta · Liino",
+            "en": "终末协约攻略组 - NO Arcane: Antal · Gilberta · Liino"
+          },
+          "verdict": {
+            "es": "Es este equipo con Antal en lugar de Arcane. Según 终末协约攻略组, Antal rinde mucho con su Ultimate, pero acumula bastante menos Sunderization y pierde la Corrosion.",
+            "en": "It is this team with Antal instead of Arcane. Per 终末协约攻略组, Antal's Ultimate is strong, but stacks far less Sunderization and loses the Corrosion."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "argentflow",
+          "role": "Carry",
+          "weaponId": "wpn_sword_0025",
+          "gearRec": [
+            "pulser_labs_light_armor",
+            "pulser_labs_light_gauntlets",
+            "pulser_labs_armor_slab",
+            "lynx_slab"
+          ],
+          "weaponNote": {
+            "es": "Lunar Calling (BIS), Complexed Industry o White Night Nova en las fichas de 股神小炉 y Raaay丶. 终末协约攻略组 lista Lunar Calling y White Night Nova.",
+            "en": "Lunar Calling (BIS), Complexed Industry or White Night Nova on 股神小炉's and Raaay丶's cards. 终末协约攻略组 lists Lunar Calling and White Night Nova."
+          },
+          "gearNote": {
+            "es": "Pulser Labs al 3 con LYNX Slab, y el tercer complemento cambia según el autor: Armor Slab (股神小炉), Invasion Core (Raaay丶, por el daño de Ultimate; da 1425% sin contar Sunderization ni Crush) o Calibrator (终末协约攻略组).",
+            "en": "3-piece Pulser Labs with LYNX Slab, and the third accessory changes by author: Armor Slab (股神小炉), Invasion Core (Raaay丶, for Ultimate damage; 1425% without counting Sunderization or Crush) or Calibrator (终末协约攻略组)."
+          },
+          "deepNote": {
+            "es": "No necesita Ultimate Gain según 终末协约攻略组. En este equipo, la Crush que detona la Sunderization es la de su Ultimate. Bolt Rush da Arts Intensity a todo el equipo durante 20 s.",
+            "en": "Per 终末协约攻略组, he needs no Ultimate Gain. On this team, the Crush that detonates Sunderization is his Ultimate's. Bolt Rush grants Arts Intensity to the entire team for 20 s."
+          }
+        },
+        {
+          "id": "arcane",
+          "role": "Enabler",
+          "weaponId": "wpn_funnel_0016",
+          "gearRec": [
+            "eternal_xiranite_light_armor",
+            "eternal_xiranite_hands",
+            "eternal_xiranite_bracing_slab",
+            "eternal_xiranite_bracing_slab"
+          ],
+          "weaponNote": {
+            "es": "Type 42: Solemn Phalanx (BIS) o Junction Point en la ficha de 股神小炉. 终末协约攻略组 y Raaay丶 proponen Detonation Unit; 终末协约攻略组 dice que con su BIS no necesita Ultimate Gain y que con Detonation Unit basta con unos guantes de Ultimate Gain; a baja inversión falta un poco, y se recupera activando y desactivando la Battle Skill de Liino.",
+            "en": "Type 42: Solemn Phalanx (BIS) or Junction Point on 股神小炉's card. 终末协约攻略组 and Raaay丶 suggest Detonation Unit; 终末协约攻略组 says that with her BIS she needs no Ultimate Gain and with Detonation Unit one pair of Ultimate Gain gloves is enough; at low investment it falls slightly short, and you make it up by toggling Liino's Battle Skill."
+          },
+          "gearNote": {
+            "es": "Lo único que pide Raaay丶 es que sea forma WILL y cumpla el umbral de Ultimate Gain (133,1%), con cualquier gear; él usa Eternal Xiranite Light Armor, Qingbo Gloves y dos Qingbo Cask. Según Raaay丶, sin Corrosion hay poca diferencia entre sets. 终末协约攻略组 usa Hot Work: con BIS, Eternal Xiranite Armor, Hot Work Gloves y dos Power Cartridge; con Detonation Unit, Eternal Xiranite Armor, Eternal Xiranite Hands y dos Power Cartridge.",
+            "en": "All Raaay丶 asks is WILL form and meeting the Ultimate Gain threshold (133.1%), with any gear; they use Eternal Xiranite Light Armor, Qingbo Gloves and two Qingbo Casks. Per Raaay丶, without Corrosion there is little difference between sets. 终末协约攻略组 uses Hot Work: with BIS, Eternal Xiranite Armor, Hot Work Gloves and two Power Cartridges; with Detonation Unit, Eternal Xiranite Armor, Eternal Xiranite Hands and two Power Cartridges."
+          },
+          "deepNote": {
+            "es": "Tiene que estar en forma WILL: su Combo y su Ultimate aplican otra acumulación del mismo elemento de Arts Infliction.",
+            "en": "She must be in WILL form: her Combo and Ultimate apply another Arts Infliction stack of the same element."
+          }
+        },
+        {
+          "id": "gilberta",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0011",
+          "gearRec": [
+            "redeemer_armor",
+            "eternal_xiranite_gloves_t1",
+            "eternal_xiranite_auxiliary_arm",
+            "eternal_xiranite_auxiliary_arm"
+          ],
+          "weaponNote": {
+            "es": "Delivery Guaranteed (BIS) o Stanza of Memorials. 终末协约攻略组 lo divide por potencial: Delivery Guaranteed a potencial alto y Stanza of Memorials a bajo. Raaay丶 usa Stanza of Memorials o Detonation Unit, y entre Stanza, Detonation Unit y la BIS de Arcane reparte dos, una para Arcane y otra para Gilberta.",
+            "en": "Delivery Guaranteed (BIS) or Stanza of Memorials. 终末协约攻略组 splits it by potential: Delivery Guaranteed at high potential and Stanza of Memorials at low. Raaay丶 uses Stanza of Memorials or Detonation Unit, and from Stanza, Detonation Unit and Arcane's BIS shares two, one for Arcane and one for Gilberta."
+          },
+          "gearNote": {
+            "es": "Con su BIS, 股神小炉 cambia a Swordmancer: Heavy Armor, Eternal Xiranite Gloves T1 y dos NAV Beacon. Raaay丶: Eternal Xiranite (Light Armor, Hands y dos Auxiliary Arm), con umbral de Ultimate Gain de 119,8%, o 199,3% si fallan todos sus Combos; prefiere Eternal Xiranite porque así el ciclo funciona incluso con los tres Combos fallados. 终末协约攻略组: Eternal Xiranite Light Armor, Gloves T1 y dos Auxiliary Arm, para completar el Stagger y el Ultimate Gain.",
+            "en": "On her BIS, 股神小炉 switches to Swordmancer: Heavy Armor, Eternal Xiranite Gloves T1 and two NAV Beacons. Raaay丶: Eternal Xiranite (Light Armor, Hands and two Auxiliary Arms), with a 119.8% Ultimate Gain threshold, or 199.3% if all her Combos miss; they prefer Eternal Xiranite because the cycle works even with all three Combos missed. 终末协约攻略组: Eternal Xiranite Light Armor, Gloves T1 and two Auxiliary Arms, to fill Stagger and Ultimate Gain."
+          },
+          "deepNote": {
+            "es": "Su Combo aplica Lift a la fuerza y sale con cualquier Arts Reaction. Su Ultimate aplica Nature Infliction, Slow y Arts Susceptibility, que sube con la Vulnerability del objetivo.",
+            "en": "Her Combo forcibly applies Lift and fires on any Arts Reaction. Her Ultimate applies Nature Infliction, Slow and Arts Susceptibility, which grows with the target's Vulnerability."
+          }
+        },
+        {
+          "id": "liino",
+          "role": "Buffer",
+          "weaponId": "wpn_lance_0014",
+          "gearRec": [
+            "lynx_cuirass_t1",
+            "lynx_gauntlets_t1",
+            "eternal_xiranite_bracing_slab_t1",
+            "lynx_slab"
+          ],
+          "weaponNote": {
+            "es": "Bedazzling Night Debut (BIS) o Golden Age, en las tres fichas.",
+            "en": "Bedazzling Night Debut (BIS) or Golden Age, on all three cards."
+          },
+          "gearNote": {
+            "es": "Raaay丶 usa la misma lista, con umbral de Ultimate Gain de 152,2%, y explica que con dos LYNX Slab se queda justo corta. Si no subiste el talento de retorno de SP de Liino, propone Eternal Xiranite Light Armor y dos Slab de atributo principal para maximizar el burst; añade que con Gilberta a potencial 3 también vale. 终末协约攻略组: Eternal Xiranite Light Armor, LYNX Gauntlets T1 y dos LYNX Slab, para llenar su Ultimate con 6 Battle Skills y 3 Combos.",
+            "en": "Raaay丶 uses the same list, with a 152.2% Ultimate Gain threshold, and explains that two LYNX Slabs fall just short. If you have not raised Liino's SP-return talent, they suggest Eternal Xiranite Light Armor and two main-attribute Slabs to maximize the burst; they add that Gilberta at potential 3 also works. 终末协约攻略组: Eternal Xiranite Light Armor, LYNX Gauntlets T1 and two LYNX Slabs, to fill her Ultimate with 6 Battle Skills and 3 Combos."
+          },
+          "deepNote": {
+            "es": "Su Combo sale en Vocalist Stance, cuando se aplica o se consume una Arts Reaction; su cooldown es corto. Su Ultimate fuerza una Electrification, y 终末协约攻略组 la lanza antes que la de Argent Flow para que la de él la sustituya.",
+            "en": "Her Combo fires during Vocalist Stance, when an Arts Reaction is applied or consumed; its cooldown is short. Her Ultimate forces an Electrification, and 终末协约攻略组 casts it before Argent Flow's so his overwrites it."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Ficha de 股神小炉 al final de su video (el orden de skills está en la descripción). Las fichas de 终末协约攻略组 y Raaay丶 cambian piezas, armas y prioridades, y van anotadas aparte.",
+          "en": "股神小炉's card at the end of the video (skill order in the description). 终末协约攻略组's and Raaay丶's cards change pieces, weapons and priorities, and are noted separately."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Gilberta con su arma BIS",
+              "en": "Gilberta on her BIS"
+            },
+            "swap": {
+              "es": "Swordmancer Heavy Armor, Eternal Xiranite Gloves T1 y dos Swordmancer NAV Beacon (股神小炉).",
+              "en": "Swordmancer Heavy Armor, Eternal Xiranite Gloves T1 and two Swordmancer NAV Beacons (股神小炉)."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Argent Flow con mucha Arts Intensity",
+              "en": "Argent Flow with lots of Arts Intensity"
+            },
+            "swap": {
+              "es": "终末协约攻略组: a baja inversión, Pulser Labs Light Armor, Light Gauntlets, Calibrator y Hot Work Power Cartridge; a alta inversión, cuando talento y arma BIS ya acumulan Arts Intensity, cambia el Cartridge por LYNX Slab para subir el techo.",
+              "en": "终末协约攻略组: at low investment, Pulser Labs Light Armor, Light Gauntlets, Calibrator and Hot Work Power Cartridge; at high investment, once talent and BIS stack Arts Intensity, swap the Cartridge for LYNX Slab to raise the ceiling."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Sin Arcane",
+              "en": "Without Arcane"
+            },
+            "swap": {
+              "es": "Antal: ver el comp propio de 终末协约攻略组.",
+              "en": "Antal: see 终末协约攻略组's own comp."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": {
+        "es": "终末协约攻略组 - SIN Arcane: Antal · Gilberta · Liino",
+        "en": "终末协约攻略组 - NO Arcane: Antal · Gilberta · Liino"
+      },
+      "subtitle": {
+        "es": "Antal · Gilberta · Liino",
+        "en": "Antal · Gilberta · Liino"
+      },
+      "blurb": {
+        "es": "El mismo plan de Argent Flow como único carry, para quien no tiene a Arcane. Antal ocupa su lugar: su Combo reemplaza al de Arcane y hace falta una Battle Skill más para su Focus. Según el autor, su Ultimate rinde mucho, pero el equipo acumula bastante menos Sunderization y pierde la Corrosion.",
+        "en": "The same plan with Argent Flow as the only carry, for players without Arcane. Antal takes her place: his Combo replaces Arcane's and one more Battle Skill is needed for his Focus. Per the author, his Ultimate is strong, but the team stacks far less Sunderization and loses the Corrosion."
+      },
+      "guideVideoId": "af2",
+      "simple": {
+        "whatItDoes": {
+          "es": "La Battle Skill de Argent Flow aplica Lift y deja Vulnerability, y eso hace salir su Combo, que pone Electric Infliction y cambia su Battle Skill por Bolt Rush. Con el Focus de Antal puesto, el Combo de Antal aplica otra acumulación de la misma Infliction. Bolt Rush fuerza una Electrification que sube de nivel con cada Electric Infliction consumida, y añade tantas acumulaciones de Sunderization como ese nivel. La Crush de la Ultimate de Argent Flow las detona todas.",
+          "en": "Argent Flow's Battle Skill applies Lift and leaves Vulnerability, which brings out his Combo, which puts Electric Infliction and changes his Battle Skill to Bolt Rush. With Antal's Focus on, Antal's Combo applies another stack of the same Infliction. Bolt Rush forces an Electrification that goes up a level per Electric Infliction consumed, and adds as many Sunderization stacks as that level. The Crush on Argent Flow's Ultimate detonates them all."
+        },
+        "steps": [
+          {
+            "who": "liino",
+            "do": {
+              "es": "Al empezar, Battle Skill de Liino.",
+              "en": "At the start, Liino's Battle Skill."
+            }
+          },
+          {
+            "who": "antal",
+            "do": {
+              "es": "Battle Skill de Antal para poner su Focus: es la Battle Skill de más respecto a la versión con Arcane.",
+              "en": "Antal's Battle Skill to put his Focus: it is the extra Battle Skill compared to the Arcane version."
+            }
+          },
+          {
+            "who": "argentflow",
+            "do": {
+              "es": "Battle Skill y Combo de Argent Flow, Combo de Antal y Bolt Rush.",
+              "en": "Argent Flow's Battle Skill and Combo, Antal's Combo and Bolt Rush."
+            },
+            "key": true
+          },
+          {
+            "who": "gilberta",
+            "do": {
+              "es": "Combos de Gilberta y Liino en cuanto salgan. Repite y, en el Stagger del jefe, suelta las Ultimates con la de Argent Flow al final.",
+              "en": "Gilberta's and Liino's Combos as soon as they come out. Repeat and, in the boss's Stagger, release the Ultimates with Argent Flow's last."
+            },
+            "key": true
+          }
+        ],
+        "gear": [
+          {
+            "id": "argentflow",
+            "line": {
+              "es": "Lunar Calling o White Night Nova. Pulser Labs Light Armor, Light Gauntlets, Calibrator y Hot Work Power Cartridge; con mucha Arts Intensity, LYNX Slab en lugar del Cartridge.",
+              "en": "Lunar Calling or White Night Nova. Pulser Labs Light Armor, Light Gauntlets, Calibrator and Hot Work Power Cartridge; with lots of Arts Intensity, LYNX Slab instead of the Cartridge."
+            }
+          },
+          {
+            "id": "antal",
+            "line": {
+              "es": "Detonation Unit. Qingbo Heavy Armor, Qingbo Gloves, una pieza Qingbo cualquiera y Redeemer Seal. Sin refinar y sin subir skills.",
+              "en": "Detonation Unit. Qingbo Heavy Armor, Qingbo Gloves, any Qingbo piece and Redeemer Seal. No artificing and no skill leveling."
+            }
+          },
+          {
+            "id": "gilberta",
+            "line": {
+              "es": "Delivery Guaranteed a potencial alto, Stanza of Memorials a bajo. Eternal Xiranite Light Armor, Gloves T1 y dos Auxiliary Arm.",
+              "en": "Delivery Guaranteed at high potential, Stanza of Memorials at low. Eternal Xiranite Light Armor, Gloves T1 and two Auxiliary Arms."
+            }
+          },
+          {
+            "id": "liino",
+            "line": {
+              "es": "Bedazzling Night Debut o Golden Age. Eternal Xiranite Light Armor, LYNX Gauntlets T1 y dos LYNX Slab.",
+              "en": "Bedazzling Night Debut or Golden Age. Eternal Xiranite Light Armor, LYNX Gauntlets T1 and two LYNX Slabs."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "终末协约攻略组 presenta a Antal como reemplazo de Arcane en su equipo de Argent Flow, y lo explica en una frase: cambia cada Combo de Arcane por el de Antal, y suma una Battle Skill para su Focus. A cambio, aunque su Ultimate rinde mucho, se acumula bastante menos Sunderization y se pierde la Corrosion, que el autor valora mucho. También puede sustituir a Liino en casos especiales, sin más detalle. El video no muestra una demo propia de este equipo: la vuelta sale de aplicar esa sustitución sobre la versión con Arcane, y aquí se limita a lo que el autor indica. La versión con Arcane, con sus bursts y la cuenta de Sunderization, está en el comp de 股神小炉.",
+        "en": "终末协约攻略组 presents Antal as Arcane's replacement on their Argent Flow team, and explains it in one sentence: swap each Arcane Combo for Antal's, and add one Battle Skill for his Focus. In exchange, although his Ultimate is strong, far less Sunderization stacks and the Corrosion is lost, which the author values highly. He can also replace Liino in special cases, with no further detail. The video has no demo of this team of its own: the loop comes from applying that swap to the Arcane version, and here it stays within what the author says. The Arcane version, with its bursts and Sunderization math, is in 股神小炉's comp."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Baja (sin eje que memorizar)",
+          "en": "Low (no axis to memorize)"
+        },
+        "content": {
+          "es": "Jefe / Burst en Stagger",
+          "en": "Boss / Burst in Stagger"
+        },
+        "tags": [
+          {
+            "es": "Electric",
+            "en": "Electric"
+          },
+          {
+            "es": "Sin Arcane",
+            "en": "No Arcane"
+          },
+          {
+            "es": "Sunderization",
+            "en": "Sunderization"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "Sirve sin Arcane: solo cambia un Combo por otro y añade una Battle Skill.",
+          "en": "Works without Arcane: it only swaps one Combo for another and adds a Battle Skill."
+        },
+        {
+          "es": "Antal es barato: según la ficha, no hace falta refinarlo ni subirle skills.",
+          "en": "Antal is cheap: per the card, he needs no artificing or skill leveling."
+        },
+        {
+          "es": "Según el autor, la Ultimate de Antal rinde mucho.",
+          "en": "Per the author, Antal's Ultimate is strong."
+        }
+      ],
+      "cons": [
+        {
+          "es": "Acumula bastante menos Sunderization que la versión con Arcane, según el autor.",
+          "en": "Stacks far less Sunderization than the Arcane version, per the author."
+        },
+        {
+          "es": "Pierde la Corrosion, que el autor considera de mucho valor.",
+          "en": "Loses the Corrosion, which the author considers very valuable."
+        },
+        {
+          "es": "El Combo de Antal tarda en volver: por eso la ficha le da Qingbo.",
+          "en": "Antal's Combo is slow to return: that is why the card gives him Qingbo."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "Antal copia la Electric Infliction",
+            "en": "Antal copies the Electric Infliction"
+          },
+          "body": {
+            "es": "El Combo de Antal sale cuando un enemigo con su Focus recibe una Arts Infliction, y aplica otra acumulación de la misma Infliction. Por eso va primero su Battle Skill: es la que pone el Focus. Con ese Combo, el Bolt Rush de Argent Flow tiene más Electric Infliction que consumir, y la Electrification sale de más nivel.",
+            "en": "Antal's Combo fires when an enemy with his Focus suffers an Arts Infliction, and applies another stack of the same Infliction. That is why his Battle Skill comes first: it puts the Focus. With that Combo, Argent Flow's Bolt Rush has more Electric Infliction to consume, and the Electrification comes out at a higher level."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Qingbo para el cooldown",
+            "en": "Qingbo for the cooldown"
+          },
+          "body": {
+            "es": "El autor dice que el cooldown del Combo de Antal es demasiado largo y le da Qingbo para acelerarlo: el bonus de 3 piezas da Combo Skill CDR +15%.",
+            "en": "The author says Antal's Combo cooldown is too long and gives him Qingbo to speed it up: the 3-piece bonus gives Combo Skill CDR +15%."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "El resto del plan no cambia",
+            "en": "The rest of the plan does not change"
+          },
+          "body": {
+            "es": "Liino sigue dando ATK Boost y Electric Amp, y Gilberta la Arts Susceptibility de su Ultimate, que sube con la Vulnerability del objetivo. El daño sigue concentrándose en la Ultimate de Argent Flow, cuya Crush detona la Sunderization.",
+            "en": "Liino still gives ATK Boost and Electric Amp, and Gilberta the Arts Susceptibility from her Ultimate, which grows with the target's Vulnerability. Damage still concentrates on Argent Flow's Ultimate, whose Crush detonates Sunderization."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Base",
+            "en": "Base"
+          },
+          "action": {
+            "es": "Battle Skill de Liino → Battle Skill de Antal → (Battle Skill y Combo de Argent Flow → Combo de Antal → Bolt Rush → Combos de Gilberta y Liino) en bucle.",
+            "en": "Liino's Battle Skill → Antal's Battle Skill → (Argent Flow's Battle Skill and Combo → Antal's Combo → Bolt Rush → Gilberta's and Liino's Combos) on loop."
+          },
+          "steps": [
+            {
+              "who": "liino",
+              "do": {
+                "es": "Battle Skill de Liino al abrir.",
+                "en": "Liino's Battle Skill to open."
+              }
+            },
+            {
+              "who": "antal",
+              "do": {
+                "es": "Battle Skill de Antal para poner el Focus.",
+                "en": "Antal's Battle Skill to put the Focus."
+              },
+              "key": true
+            },
+            {
+              "who": "argentflow",
+              "do": {
+                "es": "Battle Skill y Combo de Argent Flow. Combo de Antal en lugar del de Arcane. Bolt Rush.",
+                "en": "Argent Flow's Battle Skill and Combo. Antal's Combo in place of Arcane's. Bolt Rush."
+              },
+              "key": true
+            },
+            {
+              "who": "gilberta",
+              "do": {
+                "es": "Combos de Gilberta y Liino en cuanto salgan.",
+                "en": "Gilberta's and Liino's Combos as soon as they come out."
+              }
+            }
+          ],
+          "tip": {
+            "es": "El autor no muestra una demo con Antal: esto es su indicación de sustituir cada Combo de Arcane.",
+            "en": "The author does not show a demo with Antal: this is their instruction to replace each Arcane Combo."
+          }
+        },
+        {
+          "phase": {
+            "es": "Burst",
+            "en": "Burst"
+          },
+          "action": {
+            "es": "En el Stagger del jefe: Battle Skill y Combo de Argent Flow → Bolt Rush → Ultimate de Gilberta → Combo de Antal → Combos de Gilberta y Liino → Ultimates de Antal, Liino y Argent Flow.",
+            "en": "In the boss's Stagger: Argent Flow's Battle Skill and Combo → Bolt Rush → Gilberta's Ultimate → Antal's Combo → Gilberta's and Liino's Combos → Antal's, Liino's and Argent Flow's Ultimates."
+          },
+          "steps": [
+            {
+              "who": "argentflow",
+              "do": {
+                "es": "Mismo orden que el burst con Arcane del autor, con el Combo de Antal en lugar del de Arcane. El autor destaca la Ultimate de Antal pero no marca su sitio: aquí queda donde iba la de Arcane.",
+                "en": "Same order as the author's Arcane burst, with Antal's Combo in place of Arcane's. The author highlights Antal's Ultimate but does not mark its spot: here it sits where Arcane's went."
+              },
+              "key": true
+            },
+            {
+              "who": "liino",
+              "do": {
+                "es": "La Ultimate de Liino no necesita esperar: lanza la de Argent Flow justo después, manteniéndola pulsada.",
+                "en": "Liino's Ultimate does not need to wait: cast Argent Flow's right after, holding the button."
+              }
+            }
+          ],
+          "tip": {
+            "es": "El autor no da una cifra de Sunderization ni de nivel para este burst con Antal.",
+            "en": "The author gives no Sunderization or level figure for this burst with Antal."
+          }
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "argentflow",
+          "order": {
+            "es": "Battle Skill (especialización 3) > Ultimate (especialización 3) = Combo (especialización 3) > Ataque básico",
+            "en": "Battle Skill (specialization 3) > Ultimate (specialization 3) = Combo (specialization 3) > Basic attack"
+          },
+          "note": {
+            "es": "Refinado sin un requisito fijo: primero Arts Intensity y, después, Will y otros atributos.",
+            "en": "Artificing with no fixed requirement: Arts Intensity first, then Will and other attributes."
+          }
+        },
+        {
+          "charId": "antal",
+          "order": {
+            "es": "No hace falta subir sus skills",
+            "en": "His skills do not need leveling"
+          },
+          "note": {
+            "es": "La ficha lo marca como soporte puro. Tampoco pide refinado.",
+            "en": "The card marks him as a pure support. It does not ask for artificing either."
+          }
+        },
+        {
+          "charId": "gilberta",
+          "order": {
+            "es": "Combo (especialización 3) = Battle Skill (especialización 3) > Ultimate (especialización 3)",
+            "en": "Combo (specialization 3) = Battle Skill (specialization 3) > Ultimate (specialization 3)"
+          },
+          "note": {
+            "es": "Refinado: Ultimate Gain.",
+            "en": "Artificing: Ultimate Gain."
+          }
+        },
+        {
+          "charId": "liino",
+          "order": {
+            "es": "Combo (especialización 3) > Battle Skill (especialización 3) = Ultimate (especialización 3) > Ataque básico",
+            "en": "Combo (specialization 3) > Battle Skill (specialization 3) = Ultimate (specialization 3) > Basic attack"
+          },
+          "note": {
+            "es": "Refinado: Ultimate Gain, Will y atributo principal.",
+            "en": "Artificing: Ultimate Gain, Will and main attribute."
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Sin el Focus puesto, el Combo de Antal no sale: no olvides la Battle Skill de más.",
+          "en": "Without the Focus on, Antal's Combo does not fire: do not forget the extra Battle Skill."
+        },
+        {
+          "es": "Esta versión no tiene Corrosion: no copies los pasos de Corrosion de la versión con Arcane.",
+          "en": "This version has no Corrosion: do not copy the Corrosion steps from the Arcane version."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "股神小炉 - Arcane (WILL) · Gilberta · Liino",
+            "en": "股神小炉 - Arcane (WILL) · Gilberta · Liino"
+          },
+          "verdict": {
+            "es": "Es la versión con Arcane. Según 终末协约攻略组, acumula más Sunderization y añade la Corrosion, aunque la Ultimate de Antal rinde mucho.",
+            "en": "It is the Arcane version. Per 终末协约攻略组, it stacks more Sunderization and adds the Corrosion, although Antal's Ultimate is strong."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "argentflow",
+          "role": "Carry",
+          "weaponId": "wpn_sword_0025",
+          "gearRec": [
+            "pulser_labs_light_armor",
+            "pulser_labs_light_gauntlets",
+            "pulser_labs_calibrator",
+            "hot_work_power_cartridge"
+          ],
+          "weaponNote": {
+            "es": "Lunar Calling (BIS) o White Night Nova.",
+            "en": "Lunar Calling (BIS) or White Night Nova."
+          },
+          "gearNote": {
+            "es": "A baja inversión, esta lista. A alta inversión, cuando el talento y el arma BIS ya acumulan Arts Intensity, LYNX Slab en lugar del Power Cartridge para subir el techo.",
+            "en": "This list at low investment. At high investment, once the talent and BIS stack Arts Intensity, LYNX Slab instead of the Power Cartridge to raise the ceiling."
+          },
+          "deepNote": {
+            "es": "Según el autor, no necesita Ultimate Gain.",
+            "en": "Per the author, he needs no Ultimate Gain."
+          }
+        },
+        {
+          "id": "antal",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0008",
+          "gearRec": [
+            "qingbo_heavy_armor",
+            "qingbo_gloves",
+            "redeemer_seal"
+          ],
+          "weaponNote": {
+            "es": "Detonation Unit, la única de la ficha.",
+            "en": "Detonation Unit, the only one on the card."
+          },
+          "gearNote": {
+            "es": "Qingbo al 3 con Redeemer Seal: Heavy Armor, Gloves y una pieza Qingbo cualquiera, que la ficha no fija.",
+            "en": "3-piece Qingbo with Redeemer Seal: Heavy Armor, Gloves and any Qingbo piece, which the card does not fix."
+          },
+          "deepNote": {
+            "es": "Su Battle Skill pone Focus, que dura mucho, y sobre el objetivo aplica Electric Susceptibility y Heat Susceptibility. Su Ultimate da Electric Amp y Heat Amp al equipo.",
+            "en": "His Battle Skill puts Focus, which lasts a long time, and applies Electric Susceptibility and Heat Susceptibility on the target. His Ultimate grants Electric Amp and Heat Amp to the team."
+          }
+        },
+        {
+          "id": "gilberta",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0011",
+          "gearRec": [
+            "eternal_xiranite_light_armor",
+            "eternal_xiranite_gloves_t1",
+            "eternal_xiranite_auxiliary_arm",
+            "eternal_xiranite_auxiliary_arm"
+          ],
+          "weaponNote": {
+            "es": "Delivery Guaranteed (BIS) a potencial alto; Stanza of Memorials a potencial bajo.",
+            "en": "Delivery Guaranteed (BIS) at high potential; Stanza of Memorials at low potential."
+          },
+          "gearNote": {
+            "es": "La ficha busca completar el Stagger y el Ultimate Gain.",
+            "en": "The card aims to fill Stagger and Ultimate Gain."
+          },
+          "deepNote": {
+            "es": "Su Combo aplica Lift a la fuerza y sale con cualquier Arts Reaction. Su Ultimate aplica Nature Infliction, Slow y Arts Susceptibility.",
+            "en": "Her Combo forcibly applies Lift and fires on any Arts Reaction. Her Ultimate applies Nature Infliction, Slow and Arts Susceptibility."
+          }
+        },
+        {
+          "id": "liino",
+          "role": "Buffer",
+          "weaponId": "wpn_lance_0014",
+          "gearRec": [
+            "eternal_xiranite_light_armor",
+            "lynx_gauntlets_t1",
+            "lynx_slab",
+            "lynx_slab"
+          ],
+          "weaponNote": {
+            "es": "Bedazzling Night Debut (BIS) o Golden Age.",
+            "en": "Bedazzling Night Debut (BIS) or Golden Age."
+          },
+          "gearNote": {
+            "es": "La ficha busca llenar su Ultimate con 6 Battle Skills y 3 Combos.",
+            "en": "The card aims to fill her Ultimate with 6 Battle Skills and 3 Combos."
+          },
+          "deepNote": {
+            "es": "Su Combo sale en Vocalist Stance cuando se aplica o se consume una Arts Reaction.",
+            "en": "Her Combo fires during Vocalist Stance when an Arts Reaction is applied or consumed."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Ficha de 终末协约攻略组 de su equipo de Argent Flow, con Antal en la columna de Arcane. El video también da la ficha de Arcane, en la nota de su comp.",
+          "en": "终末协约攻略组's card of their Argent Flow team, with Antal in Arcane's column. The video also gives Arcane's card, in the note on her comp."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Sin Liino, en casos especiales",
+              "en": "Without Liino, in special cases"
+            },
+            "swap": {
+              "es": "El autor dice que Antal también puede reemplazar a Liino, sin dar más detalle.",
+              "en": "The author says Antal can also replace Liino, with no further detail."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": {
+        "es": "阿卡秋_ArkQiu - Antal · Rossi · Camille (8 o 9 Sunderization)",
+        "en": "阿卡秋_ArkQiu - Antal · Rossi · Camille (8 or 9 Sunderization)"
+      },
+      "subtitle": {
+        "es": "Antal · Rossi · Camille",
+        "en": "Antal · Rossi · Camille"
+      },
+      "blurb": {
+        "es": "Argent Flow con Antal, Rossi y Camille. El eje normal son tres vueltas en orden 1-2-3 y acumula 8 de Sunderization para el Crush de su Ultimate: el autor pide memorizar una sola vuelta y el orden de las cuatro Ultimates. El eje avanzado cambia de sitio una Battle Skill de Rossi y rehace el burst para llegar a 9.",
+        "en": "Argent Flow with Antal, Rossi and Camille. The normal axis is three loops in 1-2-3 order and builds 8 Sunderization for his Ultimate's Crush: the author asks you to memorize only one loop and the order of the four Ultimates. The advanced axis moves one Rossi Battle Skill and reworks the burst to reach 9."
+      },
+      "guideVideoId": "af4",
+      "simple": {
+        "whatItDoes": {
+          "es": "La Battle Skill de Rossi aplica Lift y deja Vulnerability, y eso abre el Combo de Argent Flow, que pone Electric Infliction. El Combo de Antal, que copia el estado sobre el enemigo con Focus, pone otra. Bolt Rush consume las dos para una Electrification de nivel 3, que deja 3 de Sunderization y añade Vulnerability. La Battle Skill de Camille pone Heat Infliction: con eso sale el Combo de Rossi, que la consume y abre el de Camille. En el burst, las dos Ultimates de Heat dejan Heat Infliction y la Ultimate de Argent Flow la convierte en Electrification; su Crush detona toda la Sunderization.",
+          "en": "Rossi's Battle Skill applies Lift and leaves Vulnerability, which opens Argent Flow's Combo, which puts Electric Infliction. Antal's Combo, which copies the status on the enemy with Focus, puts another. Bolt Rush consumes both for a level 3 Electrification, which leaves 3 Sunderization and adds Vulnerability. Camille's Battle Skill puts Heat Infliction: with that, Rossi's Combo comes out, consumes it and opens Camille's. In the burst, the two Heat Ultimates leave Heat Infliction and Argent Flow's Ultimate converts it into Electrification; its Crush detonates all the Sunderization."
+        },
+        "steps": [
+          {
+            "who": "antal",
+            "do": {
+              "es": "Con 2 barras de SP: Battle Skill de Antal (solo en la primera vuelta) y de Rossi. Sale el Combo de Argent Flow.",
+              "en": "With 2 SP bars: Antal's Battle Skill (first loop only) and Rossi's. Argent Flow's Combo comes out."
+            }
+          },
+          {
+            "who": "argentflow",
+            "do": {
+              "es": "Combo de Argent Flow y, cuando termine, el de Antal: dos Electric Infliction.",
+              "en": "Argent Flow's Combo and, once it ends, Antal's: two Electric Infliction."
+            },
+            "key": true
+          },
+          {
+            "who": "argentflow",
+            "do": {
+              "es": "Bolt Rush: las convierte en Electrification de nivel 3.",
+              "en": "Bolt Rush: converts them into a level 3 Electrification."
+            },
+            "key": true
+          },
+          {
+            "who": "camille",
+            "do": {
+              "es": "Battle Skill de Camille: sale el Combo de Rossi. Pulsa los Combos que quedan: Rossi (2 fases) y Camille.",
+              "en": "Camille's Battle Skill: Rossi's Combo comes out. Press the remaining Combos: Rossi (2 sequences) and Camille."
+            }
+          },
+          {
+            "who": "argentflow",
+            "do": {
+              "es": "Tras dos vueltas de carga, el burst: Ultimates de Rossi, Antal y Camille, Hunter Pursuit de Camille y Ultimate de Argent Flow.",
+              "en": "After two charge loops, the burst: Rossi's, Antal's and Camille's Ultimates, Camille's Hunter Pursuit and Argent Flow's Ultimate."
+            },
+            "key": true
+          }
+        ],
+        "gear": [
+          {
+            "id": "argentflow",
+            "line": {
+              "es": "Lunar Calling (o Complexed Industry). Pulser Labs al 3 (Light Armor, Light Gauntlets, Armor Slab) con LYNX Slab: 132,1% contra un umbral de 124,0%.",
+              "en": "Lunar Calling (or Complexed Industry). 3-piece Pulser Labs (Light Armor, Light Gauntlets, Armor Slab) with LYNX Slab: 132.1% against a 124.0% threshold."
+            }
+          },
+          {
+            "id": "antal",
+            "line": {
+              "es": "Detonation Unit (u OBJ Arts Identifier). Eternal Xiranite (Overalls, Gloves, dos Power Core): 206,7% contra un umbral de 139,5%.",
+              "en": "Detonation Unit (or OBJ Arts Identifier). Eternal Xiranite (Overalls, Gloves, two Power Cores): 206.7% against a 139.5% threshold."
+            }
+          },
+          {
+            "id": "rossi",
+            "line": {
+              "es": "Lupine Scarlet (o Glorious Memory). MI Security (Armor T1, dos Scope T1) con Redeemer Gloves: 116,0% contra un umbral de 116,4%.",
+              "en": "Lupine Scarlet (or Glorious Memory). MI Security (Armor T1, two Scope T1) with Redeemer Gloves: 116.0% against a 116.4% threshold."
+            }
+          },
+          {
+            "id": "camille",
+            "line": {
+              "es": "Blessing of Lustrous Carmine (o Beacon of Duty). Frontiers (Protection Suit, Fiber Gloves T1, Extra O2 Tube T1) con Redeemer Seal: 204,9% contra un umbral de 201,5%.",
+              "en": "Blessing of Lustrous Carmine (or Beacon of Duty). Frontiers (Protection Suit, Fiber Gloves T1, Extra O2 Tube T1) with Redeemer Seal: 204.9% against a 201.5% threshold."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "El autor enseña primero un eje normal bastante simple, de tres vueltas: carga 1, carga 2 y burst, siempre en ese orden. Basta con memorizar una vuelta y el orden de las cuatro Ultimates. En la carga 1, los Combos de Argent Flow y Antal ponen dos Electric Infliction, Bolt Rush las convierte en Electrification de nivel 3, y los Combos de Rossi y Camille cierran. La carga 2 es la misma sin la Battle Skill de Antal. El burst abre con las Ultimates de Rossi, Antal y Camille, intercala la Hunter Pursuit de Camille y cierra con la Ultimate de Argent Flow. La segunda página es el eje avanzado: el Combo de Argent Flow de la carga 2 se activa con la segunda fase del Combo de Rossi de la vuelta anterior, la Battle Skill de Rossi pasa a después de Bolt Rush para que su Razor Clawmark llegue a su Ultimate, y el burst se rehace para que la Ultimate de Argent Flow consuma 3 Heat Infliction en lugar de 2. La tabla final da la build y el umbral de cada uno.",
+        "en": "The author first teaches a fairly simple normal axis of three loops: charge 1, charge 2 and burst, always in that order. You only need to memorize one loop and the order of the four Ultimates. In charge 1, Argent Flow's and Antal's Combos put two Electric Infliction, Bolt Rush converts them into a level 3 Electrification, and Rossi's and Camille's Combos close. Charge 2 is the same without Antal's Battle Skill. The burst opens with Rossi's, Antal's and Camille's Ultimates, fits in Camille's Hunter Pursuit and closes with Argent Flow's Ultimate. The second page is the advanced axis: Argent Flow's Combo in charge 2 is triggered by the second sequence of Rossi's Combo from the previous loop, Rossi's Battle Skill moves to after Bolt Rush so her Razor Clawmark reaches her Ultimate, and the burst is reworked so Argent Flow's Ultimate consumes 3 Heat Infliction instead of 2. The final table gives each member's build and threshold."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Media-baja (eje normal simple)",
+          "en": "Medium-low (simple normal axis)"
+        },
+        "content": {
+          "es": "Jefe / Single-target",
+          "en": "Boss / Single-target"
+        },
+        "tags": [
+          {
+            "es": "Sunderization",
+            "en": "Sunderization"
+          },
+          {
+            "es": "Mixto Electric/Heat",
+            "en": "Mixed Electric/Heat"
+          },
+          {
+            "es": "Eje en 3 vueltas",
+            "en": "3-loop axis"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "Solo hay que memorizar una vuelta y el orden de las cuatro Ultimates, según el autor.",
+          "en": "You only need to memorize one loop and the order of the four Ultimates, per the author."
+        },
+        {
+          "es": "Con la Ultimate de Antal, el equipo tiene Electric Amp y Heat Amp para las dos clases de daño.",
+          "en": "With Antal's Ultimate, the team has Electric Amp and Heat Amp for both damage types."
+        },
+        {
+          "es": "Camille no se queda corto de Ultimate Gain con su build normal, según el autor.",
+          "en": "Camille does not fall short on Ultimate Gain with his normal build, per the author."
+        },
+        {
+          "es": "Ficha con umbrales de Ultimate Gain por operador.",
+          "en": "Card with per-operator Ultimate Gain thresholds."
+        }
+      ],
+      "cons": [
+        {
+          "es": "Rossi queda justo: su set da 116,0% contra un umbral de 116,4%, y el autor avisa de que puede no llenar energía con las dos vueltas de carga.",
+          "en": "Rossi is tight: her set gives 116.0% against a 116.4% threshold, and the author warns she may not fill her energy with the two charge loops."
+        },
+        {
+          "es": "Hay un momento delicado en la carga 2: los Combos de Argent Flow y Antal pueden salir a la vez y no se deben pulsar juntos.",
+          "en": "There is a delicate moment in charge 2: Argent Flow's and Antal's Combos can come out together and must not be pressed at the same time."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "Dos Infliction, Electrification de nivel 3",
+            "en": "Two Inflictions, level 3 Electrification"
+          },
+          "body": {
+            "es": "La Battle Skill de Rossi aplica Lift, que deja Vulnerability, y eso abre el Combo de Argent Flow. Su último golpe pone Electric Infliction, y el Combo de Antal, que sale cuando el enemigo con Focus sufre una Infliction o un estado físico, pone otra acumulación del mismo estado. Bolt Rush, en que se convierte su Battle Skill tras el Combo, consume las dos y cada una sube un nivel la Electrification. Su talento deja tantas acumulaciones de Sunderization como ese nivel.",
+            "en": "Rossi's Battle Skill applies Lift, which leaves Vulnerability, and that opens Argent Flow's Combo. Its final hit puts Electric Infliction, and Antal's Combo, which fires when the enemy with Focus suffers an Infliction or Physical Status, puts another stack of the same status. Bolt Rush, which his Battle Skill becomes after the Combo, consumes both and each one raises the Electrification by one level. His talent leaves as many Sunderization stacks as that level."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Bolt Rush abre a Rossi y a Camille",
+            "en": "Bolt Rush opens Rossi and Camille"
+          },
+          "body": {
+            "es": "Tras consumir las Electric Infliction, Bolt Rush aplica 1 de Vulnerability. La Battle Skill de Camille pone Heat Infliction, y el Combo de Rossi pide las dos cosas. La segunda fase de ese Combo consume la Heat Infliction, y el Combo de Camille sale cuando se consume la suya.",
+            "en": "After consuming the Electric Infliction, Bolt Rush applies 1 Vulnerability. Camille's Battle Skill puts Heat Infliction, and Rossi's Combo needs both. That Combo's second sequence consumes the Heat Infliction, and Camille's Combo fires when his Heat Infliction is consumed."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "El burst: Heat Infliction en Sunderization",
+            "en": "The burst: Heat Infliction into Sunderization"
+          },
+          "body": {
+            "es": "Las Ultimates de Rossi y Camille dejan Heat Infliction. La Ultimate de Argent Flow aplica Electric Infliction sobre ellas, y esa reacción las consume para una Electrification de nivel 2, según el diagrama del autor. Después, su Crush detona toda la Sunderization: 3 + 3 + 2 = 8 en el eje normal, y 9 en el avanzado, con una tercera Heat Infliction. La Hunter Pursuit de Camille, justo antes, da un Link que consume esa misma Ultimate.",
+            "en": "Rossi's and Camille's Ultimates leave Heat Infliction. Argent Flow's Ultimate applies Electric Infliction on top, and that reaction consumes them for a level 2 Electrification, per the author's diagram. Then its Crush detonates all the Sunderization: 3 + 3 + 2 = 8 in the normal axis, and 9 in the advanced one, with a third Heat Infliction. Camille's Hunter Pursuit, right before, grants a Link that this same Ultimate consumes."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Carga 1",
+            "en": "Charge 1"
+          },
+          "action": {
+            "es": "Battle Skills de Antal y Rossi → Combos de Argent Flow y Antal → Bolt Rush → Battle Skill de Camille → Combo de Rossi (2 fases) → Combo de Camille.",
+            "en": "Antal's and Rossi's Battle Skills → Argent Flow's and Antal's Combos → Bolt Rush → Camille's Battle Skill → Rossi's Combo (2 sequences) → Camille's Combo."
+          },
+          "steps": [
+            {
+              "who": "antal",
+              "do": {
+                "es": "Gasta 2 barras de SP en la Battle Skill de Antal y la de Rossi. Sale el Combo de Argent Flow.",
+                "en": "Spend 2 SP bars on Antal's and Rossi's Battle Skills. Argent Flow's Combo comes out."
+              }
+            },
+            {
+              "who": "argentflow",
+              "do": {
+                "es": "Combo de Argent Flow y Combo de Antal: dos Electric Infliction.",
+                "en": "Argent Flow's Combo and Antal's Combo: two Electric Infliction."
+              },
+              "key": true
+            },
+            {
+              "who": "argentflow",
+              "do": {
+                "es": "Bolt Rush: convierte las dos en Electrification de nivel 3.",
+                "en": "Bolt Rush: converts both into a level 3 Electrification."
+              },
+              "key": true
+            },
+            {
+              "who": "camille",
+              "do": {
+                "es": "Battle Skill de Camille: sale el Combo de Rossi.",
+                "en": "Camille's Battle Skill: Rossi's Combo comes out."
+              }
+            },
+            {
+              "who": "rossi",
+              "do": {
+                "es": "Pulsa los Combos que quedan: Rossi (2 fases) y Camille.",
+                "en": "Press the remaining Combos: Rossi (2 sequences) and Camille."
+              }
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Carga 2",
+            "en": "Charge 2"
+          },
+          "action": {
+            "es": "La carga 1 sin la Battle Skill de Antal: Battle Skill de Rossi → Combo de Argent Flow → Combo de Antal → Bolt Rush → Battle Skill de Camille → Combo de Rossi (2 fases) → Combo de Camille.",
+            "en": "Charge 1 without Antal's Battle Skill: Rossi's Battle Skill → Argent Flow's Combo → Antal's Combo → Bolt Rush → Camille's Battle Skill → Rossi's Combo (2 sequences) → Camille's Combo."
+          },
+          "steps": [
+            {
+              "who": "rossi",
+              "do": {
+                "es": "Battle Skill de Rossi: puede activar a la vez los Combos de Argent Flow y Antal.",
+                "en": "Rossi's Battle Skill: it can trigger Argent Flow's and Antal's Combos at once."
+              }
+            },
+            {
+              "who": "argentflow",
+              "do": {
+                "es": "No los pulses juntos. Primero el de Argent Flow; cuando termine, el de Antal. A la vez, el de Antal aplica Vulnerability en lugar de Electric Infliction.",
+                "en": "Do not press them together. Argent Flow's first; once it ends, Antal's. Together, Antal's applies Vulnerability instead of Electric Infliction."
+              },
+              "key": true
+            },
+            {
+              "who": "argentflow",
+              "do": {
+                "es": "Bolt Rush y sigue igual que en la carga 1.",
+                "en": "Bolt Rush and continue as in charge 1."
+              }
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Burst",
+            "en": "Burst"
+          },
+          "action": {
+            "es": "Ultimates de Rossi, Antal y Camille → Hunter Pursuit de Camille → Ultimate de Argent Flow.",
+            "en": "Rossi's, Antal's and Camille's Ultimates → Camille's Hunter Pursuit → Argent Flow's Ultimate."
+          },
+          "steps": [
+            {
+              "who": "rossi",
+              "do": {
+                "es": "Ultimate de Rossi: Heat Infliction.",
+                "en": "Rossi's Ultimate: Heat Infliction."
+              }
+            },
+            {
+              "who": "antal",
+              "do": {
+                "es": "Ultimate de Antal: Electric Amp y Heat Amp.",
+                "en": "Antal's Ultimate: Electric Amp and Heat Amp."
+              }
+            },
+            {
+              "who": "camille",
+              "do": {
+                "es": "Ultimate de Camille: segunda Heat Infliction. Después, Hunter Pursuit (su Battle Skill tras la Ultimate) para ganar un Link.",
+                "en": "Camille's Ultimate: second Heat Infliction. Then Hunter Pursuit (his Battle Skill after the Ultimate) to gain a Link."
+              }
+            },
+            {
+              "who": "argentflow",
+              "do": {
+                "es": "Ultimate de Argent Flow: consume el Link, convierte las dos Heat Infliction en Electrification de nivel 2 y su Crush detona la Sunderization.",
+                "en": "Argent Flow's Ultimate: consumes the Link, converts the two Heat Infliction into a level 2 Electrification, and its Crush detonates the Sunderization."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "Después, vuelve a la carga 1 y repite 1-2-3.",
+            "en": "Then go back to charge 1 and repeat 1-2-3."
+          }
+        }
+      ],
+      "rotationVariants": [
+        {
+          "name": {
+            "es": "Eje avanzado (9 de Sunderization)",
+            "en": "Advanced axis (9 Sunderization)"
+          },
+          "description": {
+            "es": "De la segunda página del video. El autor aconseja aclararse primero con el eje normal. Orden: carga 1, carga 2, ciclo 1 y ciclo 2, que es igual a la carga 2. Sube a 3 las Heat Infliction que consume la Ultimate de Argent Flow y hace que Razor Clawmark llegue a la Ultimate de Rossi.",
+            "en": "From the video's second page. The author advises getting the normal axis clear first. Order: charge 1, charge 2, cycle 1 and cycle 2, which is the same as charge 2. It raises to 3 the Heat Infliction Argent Flow's Ultimate consumes and makes Razor Clawmark reach Rossi's Ultimate."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Carga 2 y ciclo 2",
+                "en": "Charge 2 and cycle 2"
+              },
+              "action": {
+                "es": "Combo de Argent Flow → Combo de Antal → Bolt Rush → Battle Skill de Rossi → Battle Skill de Camille → Combo de Rossi (2 fases) → Combo de Camille.",
+                "en": "Argent Flow's Combo → Antal's Combo → Bolt Rush → Rossi's Battle Skill → Camille's Battle Skill → Rossi's Combo (2 sequences) → Camille's Combo."
+              },
+              "steps": [
+                {
+                  "who": "argentflow",
+                  "do": {
+                    "es": "El Combo de Argent Flow ya no lo activa la Battle Skill de Rossi: lo activa la segunda fase del Combo de Rossi de la vuelta anterior.",
+                    "en": "Argent Flow's Combo is no longer triggered by Rossi's Battle Skill: it is triggered by the second sequence of Rossi's Combo from the previous loop."
+                  },
+                  "key": true
+                },
+                {
+                  "who": "rossi",
+                  "do": {
+                    "es": "La Battle Skill de Rossi pasa a después de Bolt Rush, para que su Razor Clawmark cubra la Ultimate de Rossi.",
+                    "en": "Rossi's Battle Skill moves to after Bolt Rush, so her Razor Clawmark covers Rossi's Ultimate."
+                  }
+                }
+              ]
+            },
+            {
+              "phase": {
+                "es": "Ciclo 1 (burst y carga en una vuelta)",
+                "en": "Cycle 1 (burst and charge in one loop)"
+              },
+              "action": {
+                "es": "Ultimate de Rossi → Ultimate de Antal → Battle Skill de Antal → Ultimate de Camille → Combo de Antal → Hunter Pursuit de Camille → Ultimate de Argent Flow → Combo de Rossi (2 fases, si salen) → Battle Skill de Rossi → Combo de Argent Flow → Bolt Rush → Battle Skill de Camille → Combo de Rossi (2 fases) → Combo de Camille.",
+                "en": "Rossi's Ultimate → Antal's Ultimate → Antal's Battle Skill → Camille's Ultimate → Antal's Combo → Camille's Hunter Pursuit → Argent Flow's Ultimate → Rossi's Combo (2 sequences, if they come out) → Rossi's Battle Skill → Argent Flow's Combo → Bolt Rush → Camille's Battle Skill → Rossi's Combo (2 sequences) → Camille's Combo."
+              },
+              "steps": [
+                {
+                  "who": "antal",
+                  "do": {
+                    "es": "Tras la Ultimate de Camille, el Combo de Antal: con él, la Ultimate de Argent Flow encuentra 3 Heat Infliction y deja Electrification de nivel 3.",
+                    "en": "After Camille's Ultimate, Antal's Combo: with it, Argent Flow's Ultimate finds 3 Heat Infliction and leaves a level 3 Electrification."
+                  },
+                  "key": true
+                },
+                {
+                  "who": "argentflow",
+                  "do": {
+                    "es": "Su Ultimate aplica primero Electric Infliction y después Crush: por eso puede salir el Combo de Rossi antes de que el Crush consuma la Vulnerability.",
+                    "en": "His Ultimate applies Electric Infliction first and Crush after: that is why Rossi's Combo can come out before the Crush consumes the Vulnerability."
+                  }
+                },
+                {
+                  "who": "rossi",
+                  "do": {
+                    "es": "Esos dos Combos de Rossi salen de paso: si no salen, no pasa nada.",
+                    "en": "Those two Rossi Combos come out incidentally: if they do not, it does not matter."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "skillPriority": [],
+      "pitfalls": [
+        {
+          "es": "En la carga 2, no pulses a la vez los Combos de Argent Flow y Antal: el de Antal copiaría la Vulnerability en lugar de la Electric Infliction, y Bolt Rush se quedaría con una acumulación menos. Espera a que termine el de Argent Flow.",
+          "en": "In charge 2, do not press Argent Flow's and Antal's Combos together: Antal's would copy the Vulnerability instead of the Electric Infliction, and Bolt Rush would have one stack less. Wait for Argent Flow's to end."
+        },
+        {
+          "es": "Rossi queda por debajo de su umbral. Para no preocuparte de su energía, el autor cambia dos piezas: los Redeemer Gloves por MI Security Gloves T1 y un Scope T1 por Rift Trekker Silver Blade.",
+          "en": "Rossi sits below her threshold. To stop worrying about her energy, the author swaps two pieces: Redeemer Gloves for MI Security Gloves T1 and one Scope T1 for Rift Trekker Silver Blade."
+        },
+        {
+          "es": "La Hunter Pursuit de Camille es su Battle Skill tras la Ultimate: no olvides lanzarla antes de la Ultimate de Argent Flow, que consume ese Link.",
+          "en": "Camille's Hunter Pursuit is his Battle Skill after the Ultimate: do not forget to cast it before Argent Flow's Ultimate, which consumes that Link."
+        }
+      ],
+      "vsOtherComps": [],
+      "members": [
+        {
+          "id": "argentflow",
+          "role": "Carry",
+          "weaponId": "wpn_sword_0025",
+          "gearRec": [
+            "pulser_labs_light_armor",
+            "pulser_labs_light_gauntlets",
+            "pulser_labs_armor_slab",
+            "lynx_slab"
+          ],
+          "weaponNote": {
+            "es": "Lunar Calling (BIS) o Complexed Industry como reemplazo: 132,1% con las dos.",
+            "en": "Lunar Calling (BIS) or Complexed Industry as the replacement: 132.1% with either."
+          },
+          "gearNote": {
+            "es": "Pulser Labs al 3 con LYNX Slab. Umbral de Ultimate Gain de la ficha: 124,0%.",
+            "en": "3-piece Pulser Labs with LYNX Slab. Card Ultimate Gain threshold: 124.0%."
+          },
+          "deepNote": {
+            "es": "Su Combo sale cuando el enemigo queda con Vulnerability, y su Battle Skill cambia entonces a Bolt Rush. Cada Electric Infliction consumida sube un nivel la Electrification, y cada nivel deja una acumulación de Sunderization, hasta 12. El Crush de su Ultimate las detona.",
+            "en": "His Combo fires when the enemy becomes Vulnerable, and his Battle Skill then changes to Bolt Rush. Each Electric Infliction consumed raises the Electrification by one level, and each level leaves one Sunderization stack, up to 12. His Ultimate's Crush detonates them."
+          }
+        },
+        {
+          "id": "antal",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0008",
+          "gearRec": [
+            "eternal_xiranite_overalls",
+            "eternal_xiranite_gloves",
+            "eternal_xiranite_power_core",
+            "eternal_xiranite_power_core"
+          ],
+          "weaponNote": {
+            "es": "Detonation Unit u OBJ Arts Identifier: 206,7% con las dos.",
+            "en": "Detonation Unit or OBJ Arts Identifier: 206.7% with either."
+          },
+          "gearNote": {
+            "es": "Eternal Xiranite al completo. El autor recuerda que Antal solo necesita 139,5% de Ultimate Gain.",
+            "en": "Full Eternal Xiranite. The author points out Antal only needs 139.5% Ultimate Gain."
+          },
+          "deepNote": {
+            "es": "Su Battle Skill aplica Focus. Su Combo sale cuando el enemigo con Focus sufre una Infliction o un estado físico, y aplica otra acumulación del mismo. Su Ultimate da Electric Amp y Heat Amp a todo el equipo.",
+            "en": "His Battle Skill applies Focus. His Combo fires when the enemy with Focus suffers an Infliction or Physical Status, and applies another stack of the same. His Ultimate grants Electric Amp and Heat Amp to the entire team."
+          }
+        },
+        {
+          "id": "rossi",
+          "role": "Enabler",
+          "weaponId": "wpn_sword_0022",
+          "gearRec": [
+            "mi_security_armor_t1",
+            "redeemer_gloves",
+            "mi_security_scope_t1",
+            "mi_security_scope_t1"
+          ],
+          "weaponNote": {
+            "es": "Lupine Scarlet (BIS) o Glorious Memory: 116,0% con las dos.",
+            "en": "Lupine Scarlet (BIS) or Glorious Memory: 116.0% with either."
+          },
+          "gearNote": {
+            "es": "MI Security al 3 con Redeemer Gloves. El umbral de 116,4% cuenta con el retorno de SP por baja de la keystone Applied Originium Theory de Antal, y el set da 116,0%: Rossi puede no llenar energía con las dos vueltas de carga. Alternativa más cómoda, en la ficha: MI Security Gloves T1 y Rift Trekker Silver Blade.",
+            "en": "3-piece MI Security with Redeemer Gloves. The 116.4% threshold counts the SP returned on kills by Antal's keystone Applied Originium Theory, and the set gives 116.0%: Rossi may not fill her energy with the two charge loops. A more comfortable alternative, on the card: MI Security Gloves T1 and Rift Trekker Silver Blade."
+          },
+          "deepNote": {
+            "es": "Su Combo sale con Vulnerability y una Arts Infliction en el enemigo, y su segunda fase consume las Arts Infliction y aplica Lift. Si el objetivo ya tiene Vulnerability, su Battle Skill suelta Wolven Ambrage, y su talento deja entonces Razor Clawmark.",
+            "en": "Her Combo fires with Vulnerability and an Arts Infliction on the enemy, and its second sequence consumes the Arts Infliction and applies Lift. If the target already has Vulnerability, her Battle Skill unleashes Wolven Ambrage, and her talent then leaves Razor Clawmark."
+          }
+        },
+        {
+          "id": "camille",
+          "role": "Enabler",
+          "weaponId": "wpn_lance_0015",
+          "gearRec": [
+            "frontiers_protection_suit",
+            "frontiers_fiber_gloves_t1",
+            "frontiers_extra_o2_tube_t1",
+            "redeemer_seal"
+          ],
+          "weaponNote": {
+            "es": "Blessing of Lustrous Carmine (204,9%) o Beacon of Duty (222,6%).",
+            "en": "Blessing of Lustrous Carmine (204.9%) or Beacon of Duty (222.6%)."
+          },
+          "gearNote": {
+            "es": "Frontiers al 3 con Redeemer Seal. Umbral de la ficha: 201,5%. Según el autor, con esta build normal no se atasca su Ultimate Gain.",
+            "en": "3-piece Frontiers with Redeemer Seal. Card threshold: 201.5%. Per the author, this normal build does not get stuck on Ultimate Gain."
+          },
+          "deepNote": {
+            "es": "Su Battle Skill aplica Heat Infliction y su Combo sale cuando se consume o absorbe la Heat Infliction del enemigo. Su Ultimate convierte su Battle Skill en Hunter Pursuit, que cuenta como Combo, no cuesta SP y da un Link.",
+            "en": "His Battle Skill applies Heat Infliction and his Combo fires when the enemy's Heat Infliction is consumed or absorbed. His Ultimate turns his Battle Skill into Hunter Pursuit, which counts as a Combo, costs no SP and grants a Link."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Tabla del autor al final de la primera página: arma, arma de reemplazo, las cuatro piezas, Ultimate Gain total y umbral de cada uno.",
+          "en": "The author's table at the end of the first page: weapon, replacement weapon, the four pieces, total Ultimate Gain and threshold for each."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Rossi sin preocuparte de su energía",
+              "en": "Rossi without worrying about her energy"
+            },
+            "swap": {
+              "es": "MI Security Gloves T1 en lugar de Redeemer Gloves, y Rift Trekker Silver Blade (Agility + Ultimate Gain) en lugar de un Scope T1.",
+              "en": "MI Security Gloves T1 instead of Redeemer Gloves, and Rift Trekker Silver Blade (Agility + Ultimate Gain) instead of one Scope T1."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": {
+        "es": "阿卡秋_ArkQiu - Doble C con Perlica (Gilberta · Arclight)",
+        "en": "阿卡秋_ArkQiu - Perlica Dual-C (Gilberta · Arclight)"
+      },
+      "subtitle": {
+        "es": "Perlica · Gilberta · Arclight",
+        "en": "Perlica · Gilberta · Arclight"
+      },
+      "blurb": {
+        "es": "Argent Flow y Perlica como doble carry, con Gilberta y Arclight. Según el autor es un eje simple y tolerante: una Final Strike activa los cuatro Combos, Arclight recupera SP con la Electrification de los dos carries y el burst son cuatro Ultimates seguidas. El punto fino es que las dos últimas Ultimates aprovechen el buff de Electric DMG de Arclight.",
+        "en": "Argent Flow and Perlica as dual carries, with Gilberta and Arclight. Per the author it is a simple, forgiving axis: one Final Strike triggers all four Combos, Arclight recovers SP from the Electrification both carries produce, and the burst is four Ultimates in a row. The fine point is making the last two Ultimates benefit from Arclight's Electric DMG buff."
+      },
+      "guideVideoId": "af5",
+      "simple": {
+        "whatItDoes": {
+          "es": "Una Final Strike activa el Combo de Perlica, que aplica Electrification. Eso abre los Combos de Arclight y Gilberta, y el Lift de Gilberta deja Vulnerability, que abre el de Argent Flow. El Combo de Argent Flow pone Electric Infliction y cambia su Battle Skill a Bolt Rush. La Battle Skill de Arclight consume la Electrification y devuelve SP, y la de Perlica suma Electric Infliction. Bolt Rush las consume todas para una Electrification de mayor nivel, que deja Sunderization. La Ultimate de Argent Flow detona la Sunderization con su Crush.",
+          "en": "One Final Strike triggers Perlica's Combo, which applies Electrification. That opens Arclight's and Gilberta's Combos, and Gilberta's Lift leaves Vulnerability, which opens Argent Flow's. Argent Flow's Combo puts Electric Infliction and changes his Battle Skill to Bolt Rush. Arclight's Battle Skill consumes the Electrification and returns SP, and Perlica's adds Electric Infliction. Bolt Rush consumes them all for a higher-level Electrification, which leaves Sunderization. Argent Flow's Ultimate detonates the Sunderization with its Crush."
+        },
+        "steps": [
+          {
+            "who": "perlica",
+            "do": {
+              "es": "Una Final Strike y pulsa los cuatro Combos: Perlica, Arclight, Gilberta y Argent Flow.",
+              "en": "One Final Strike, then press all four Combos: Perlica, Arclight, Gilberta and Argent Flow."
+            },
+            "key": true
+          },
+          {
+            "who": "arclight",
+            "do": {
+              "es": "Battle Skill de Arclight: consume la Electrification de Perlica y vuelve a salir su Combo.",
+              "en": "Arclight's Battle Skill: consumes Perlica's Electrification and her Combo comes out again."
+            }
+          },
+          {
+            "who": "perlica",
+            "do": {
+              "es": "Battle Skill de Perlica para sumar Electric Infliction: una en la primera vuelta y dos en la segunda.",
+              "en": "Perlica's Battle Skill to add Electric Infliction: one in the first loop and two in the second."
+            }
+          },
+          {
+            "who": "argentflow",
+            "do": {
+              "es": "Bolt Rush de Argent Flow las convierte en Electrification, y sale otro Combo de Arclight.",
+              "en": "Argent Flow's Bolt Rush converts them into Electrification, and another Arclight Combo comes out."
+            },
+            "key": true
+          },
+          {
+            "who": "gilberta",
+            "do": {
+              "es": "Tras dos vueltas de carga, las cuatro Ultimates seguidas: Arclight, Gilberta, Argent Flow y Perlica.",
+              "en": "After two charge loops, all four Ultimates in a row: Arclight, Gilberta, Argent Flow and Perlica."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "argentflow",
+            "line": {
+              "es": "Lunar Calling (o Complexed Industry). Pulser Labs al 3 (Light Armor, Light Gauntlets, Armor Slab) con LYNX Slab: 139,1% contra un umbral de 123,0%.",
+              "en": "Lunar Calling (or Complexed Industry). 3-piece Pulser Labs (Light Armor, Light Gauntlets, Armor Slab) with LYNX Slab: 139.1% against a 123.0% threshold."
+            }
+          },
+          {
+            "id": "perlica",
+            "line": {
+              "es": "Oblivion. MI Security al completo (Overalls T1, Hands PPE T1, dos Toolkit): 107,0% contra un umbral de 103,9%.",
+              "en": "Oblivion. Full MI Security (Overalls T1, Hands PPE T1, two Toolkits): 107.0% against a 103.9% threshold."
+            }
+          },
+          {
+            "id": "gilberta",
+            "line": {
+              "es": "Stanza of Memorials (o Delivery Guaranteed). Eternal Xiranite (Light Armor, Wraps, dos Auxiliary Arm): umbral de 137,5%.",
+              "en": "Stanza of Memorials (or Delivery Guaranteed). Eternal Xiranite (Light Armor, Wraps, two Auxiliary Arms): 137.5% threshold."
+            }
+          },
+          {
+            "id": "arclight",
+            "line": {
+              "es": "Thermite Cutter (o OBJ Edge of Lightness). Frontiers (Fiber Gloves T1, dos Extra O2 Tube T1) con Redeemer Armor: 143,4% contra un umbral de 101,4%.",
+              "en": "Thermite Cutter (or OBJ Edge of Lightness). Frontiers (Fiber Gloves T1, two Extra O2 Tube T1) with Redeemer Armor: 143.4% against a 101.4% threshold."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "El autor presenta un equipo de doble carry con Argent Flow y Perlica, y destaca que el eje es simple y deja bastante margen de error. Son tres vueltas. En la primera de carga, una Final Strike permite pulsar los cuatro Combos; Perlica y Argent Flow generan Electrification sin parar, y la Battle Skill de Arclight la consume para activar varias veces su Combo, que recupera SP. La segunda de carga es igual, con una Battle Skill de Perlica más. Según el autor, esas Battle Skills de Perlica no tienen un momento estricto. El burst son las cuatro Ultimates seguidas. La tabla final da la build y el umbral de Ultimate Gain de cada uno, y el último aviso es apurar lo que sigue a la segunda Battle Skill de Arclight para que las Ultimates de Argent Flow y Perlica aprovechen el buff de su talento.",
+        "en": "The author presents a dual-carry team with Argent Flow and Perlica, and stresses that the axis is simple and leaves plenty of room for error. There are three loops. In the first charge loop, one Final Strike lets you press all four Combos; Perlica and Argent Flow keep generating Electrification, and Arclight's Battle Skill consumes it to trigger her Combo several times, which recovers SP. The second charge loop is the same, with one more Perlica Battle Skill. Per the author, those Perlica Battle Skills have no strict timing. The burst is all four Ultimates in a row. The final table gives each member's build and Ultimate Gain threshold, and the last tip is to hurry everything after Arclight's second Battle Skill so Argent Flow's and Perlica's Ultimates benefit from her talent's buff."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Baja (el autor: simple y tolerante)",
+          "en": "Low (author: simple and forgiving)"
+        },
+        "content": {
+          "es": "Jefe / Single-target",
+          "en": "Boss / Single-target"
+        },
+        "tags": [
+          {
+            "es": "Doble C",
+            "en": "Dual carry"
+          },
+          {
+            "es": "Electric",
+            "en": "Electric"
+          },
+          {
+            "es": "Recuperación de SP",
+            "en": "SP recovery"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "Eje simple y con margen de error, según el autor.",
+          "en": "A simple axis with room for error, per the author."
+        },
+        {
+          "es": "Una Final Strike basta para que salgan los cuatro Combos.",
+          "en": "One Final Strike is enough for all four Combos to come out."
+        },
+        {
+          "es": "Las Battle Skills de Perlica no tienen un momento estricto en las vueltas de carga.",
+          "en": "Perlica's Battle Skills have no strict timing in the charge loops."
+        },
+        {
+          "es": "Umbrales de Ultimate Gain por operador en la ficha del autor.",
+          "en": "Per-operator Ultimate Gain thresholds on the author's card."
+        }
+      ],
+      "cons": [
+        {
+          "es": "Argent Flow y Perlica andan cortos de bonus de daño, según el autor: el burst depende del buff de Arclight y hay que apurar para aprovecharlo.",
+          "en": "Argent Flow and Perlica are short on damage bonuses, per the author: the burst relies on Arclight's buff and you have to hurry to use it."
+        },
+        {
+          "es": "El panel del autor muestra el buff de Arclight con dos activaciones, que son las del potencial máximo. Sin ese potencial hacen falta tres, y el diagrama del autor solo tiene dos Battle Skills de Arclight antes del burst.",
+          "en": "The author's panel shows Arclight's buff with two triggers, which is what maximum potential needs. Without that potential it takes three, and the author's diagram only has two Arclight Battle Skills before the burst."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "Una Final Strike enciende la cadena",
+            "en": "One Final Strike lights the chain"
+          },
+          "body": {
+            "es": "El Combo de Perlica sale con cualquier Final Strike del personaje controlado y fuerza Electrification. Esa Electrification abre el Combo de Arclight (sale cuando el enemigo sufre Electrification o se la consumen) y el de Gilberta (sale con una Arts Reaction). El Combo de Gilberta fuerza Lift, que deja Vulnerability, y eso abre el de Argent Flow. Por eso el autor los pulsa los cuatro tras una sola Final Strike.",
+            "en": "Perlica's Combo fires on any Final Strike by the controlled operator and forces Electrification. That Electrification opens Arclight's Combo (it fires when the enemy suffers Electrification or has it consumed) and Gilberta's (it fires on an Arts Reaction). Gilberta's Combo forces Lift, which leaves Vulnerability, and that opens Argent Flow's. That is why the author presses all four after a single Final Strike."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Arclight convierte Electrification en SP",
+            "en": "Arclight turns Electrification into SP"
+          },
+          "body": {
+            "es": "La Battle Skill de Arclight consume la Electrification activa para lanzar un ataque adicional de Electric DMG que recupera SP, y esa consumición vuelve a abrir su Combo, que también recupera SP. Bolt Rush genera otra Electrification y abre su Combo una vez más. Con un cooldown de 3 s, su Combo sale varias veces por vuelta: de ahí sale el SP que sostiene el eje.",
+            "en": "Arclight's Battle Skill consumes active Electrification to unleash an additional Electric DMG attack that recovers SP, and that consumption reopens her Combo, which also recovers SP. Bolt Rush generates another Electrification and opens her Combo once more. With a 3 s cooldown, her Combo comes out several times per loop: that is where the SP sustaining the axis comes from."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Bolt Rush, Sunderization y Crush",
+            "en": "Bolt Rush, Sunderization and Crush"
+          },
+          "body": {
+            "es": "El Combo de Argent Flow pone Electric Infliction y cambia su Battle Skill a Bolt Rush, y la Battle Skill de Perlica suma más. Bolt Rush consume todas las Electric Infliction: cada una sube un nivel la Electrification que aplica, y su talento deja tantas acumulaciones de Sunderization como ese nivel. Al llegar el burst, el Crush de su Ultimate las detona todas.",
+            "en": "Argent Flow's Combo puts Electric Infliction and changes his Battle Skill to Bolt Rush, and Perlica's Battle Skill adds more. Bolt Rush consumes all the Electric Infliction: each one raises the level of the Electrification it applies by one, and his talent leaves as many Sunderization stacks as that level. When the burst comes, his Ultimate's Crush detonates them all."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "El buff de Arclight para los dos carries",
+            "en": "Arclight's buff for both carries"
+          },
+          "body": {
+            "es": "El talento de Arclight da Electric DMG a todo el equipo según su Intellect durante 15 s, tras varias activaciones del efecto adicional de su Battle Skill. El autor insiste en esto porque Argent Flow y Perlica andan cortos de bonus de daño. El tiempo cuenta desde la segunda Battle Skill de Arclight, así que todo lo que sigue tiene que ir rápido.",
+            "en": "Arclight's talent grants the entire team Electric DMG based on her Intellect for 15 s, after several triggers of her Battle Skill's additional effect. The author stresses this because Argent Flow and Perlica are short on damage bonuses. The clock starts at Arclight's second Battle Skill, so everything after it has to be fast."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Carga 1",
+            "en": "Charge 1"
+          },
+          "action": {
+            "es": "Final Strike → Combos de Perlica, Arclight, Gilberta y Argent Flow → Battle Skill de Arclight → Combo de Arclight → Battle Skill de Perlica → Bolt Rush → Combo de Arclight.",
+            "en": "Final Strike → Perlica's, Arclight's, Gilberta's and Argent Flow's Combos → Arclight's Battle Skill → Arclight's Combo → Perlica's Battle Skill → Bolt Rush → Arclight's Combo."
+          },
+          "steps": [
+            {
+              "who": "perlica",
+              "do": {
+                "es": "Abre con una Final Strike y pulsa los cuatro Combos.",
+                "en": "Open with a Final Strike and press all four Combos."
+              },
+              "key": true
+            },
+            {
+              "who": "arclight",
+              "do": {
+                "es": "Battle Skill de Arclight: consume la Electrification de Perlica y sale su Combo.",
+                "en": "Arclight's Battle Skill: consumes Perlica's Electrification and her Combo comes out."
+              }
+            },
+            {
+              "who": "perlica",
+              "do": {
+                "es": "Battle Skill de Perlica: otra Electric Infliction, sumada a la del Combo de Argent Flow.",
+                "en": "Perlica's Battle Skill: another Electric Infliction, on top of the one from Argent Flow's Combo."
+              }
+            },
+            {
+              "who": "argentflow",
+              "do": {
+                "es": "Bolt Rush: consume las Electric Infliction y aplica Electrification.",
+                "en": "Bolt Rush: consumes the Electric Infliction and applies Electrification."
+              },
+              "key": true
+            },
+            {
+              "who": "arclight",
+              "do": {
+                "es": "Combo de Arclight para cerrar.",
+                "en": "Arclight's Combo to close."
+              }
+            }
+          ],
+          "tip": {
+            "es": "Las Battle Skills de Perlica de las vueltas de carga no tienen un momento estricto.",
+            "en": "Perlica's Battle Skills in the charge loops have no strict timing."
+          }
+        },
+        {
+          "phase": {
+            "es": "Carga 2",
+            "en": "Charge 2"
+          },
+          "action": {
+            "es": "Igual que la carga 1, con dos Battle Skills de Perlica antes de Bolt Rush.",
+            "en": "Same as charge 1, with two Perlica Battle Skills before Bolt Rush."
+          },
+          "steps": [
+            {
+              "who": "perlica",
+              "do": {
+                "es": "Final Strike y otra vez los cuatro Combos.",
+                "en": "A Final Strike and all four Combos again."
+              },
+              "key": true
+            },
+            {
+              "who": "arclight",
+              "do": {
+                "es": "Battle Skill de Arclight y su Combo. Es la segunda: desde aquí, ve rápido.",
+                "en": "Arclight's Battle Skill and her Combo. This is the second one: from here, go fast."
+              },
+              "key": true
+            },
+            {
+              "who": "perlica",
+              "do": {
+                "es": "Dos Battle Skills de Perlica: dos Electric Infliction.",
+                "en": "Two Perlica Battle Skills: two Electric Infliction."
+              }
+            },
+            {
+              "who": "argentflow",
+              "do": {
+                "es": "Bolt Rush las convierte en Electrification, y cierra el Combo de Arclight.",
+                "en": "Bolt Rush converts them into Electrification, and Arclight's Combo closes."
+              }
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Burst",
+            "en": "Burst"
+          },
+          "action": {
+            "es": "Ultimates de Arclight, Gilberta, Argent Flow y Perlica, seguidas.",
+            "en": "Arclight's, Gilberta's, Argent Flow's and Perlica's Ultimates, in a row."
+          },
+          "steps": [
+            {
+              "who": "arclight",
+              "do": {
+                "es": "Ultimate de Arclight.",
+                "en": "Arclight's Ultimate."
+              }
+            },
+            {
+              "who": "gilberta",
+              "do": {
+                "es": "Ultimate de Gilberta: Arts Susceptibility.",
+                "en": "Gilberta's Ultimate: Arts Susceptibility."
+              }
+            },
+            {
+              "who": "argentflow",
+              "do": {
+                "es": "Ultimate de Argent Flow: su Crush detona la Sunderization.",
+                "en": "Argent Flow's Ultimate: its Crush detonates the Sunderization."
+              },
+              "key": true
+            },
+            {
+              "who": "perlica",
+              "do": {
+                "es": "Ultimate de Perlica.",
+                "en": "Perlica's Ultimate."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "Las Ultimates de Argent Flow y Perlica son las que tienen que caer dentro de los 15 s del buff de Arclight.",
+            "en": "Argent Flow's and Perlica's Ultimates are the ones that have to land within the 15 s of Arclight's buff."
+          }
+        }
+      ],
+      "skillPriority": [],
+      "pitfalls": [
+        {
+          "es": "No te demores tras la segunda Battle Skill de Arclight: si tardas, las Ultimates de Argent Flow y Perlica se quedan sin su buff.",
+          "en": "Do not linger after Arclight's second Battle Skill: if you take too long, Argent Flow's and Perlica's Ultimates miss her buff."
+        },
+        {
+          "es": "Mira el potencial de Arclight: el aviso del autor se apoya en las dos activaciones del potencial máximo (keystone Servant of the Wildlands). Sin ella, su talento pide tres.",
+          "en": "Check Arclight's potential: the author's tip relies on the two triggers of maximum potential (keystone Servant of the Wildlands). Without it, her talent needs three."
+        }
+      ],
+      "vsOtherComps": [],
+      "members": [
+        {
+          "id": "argentflow",
+          "role": "Carry",
+          "weaponId": "wpn_sword_0025",
+          "gearRec": [
+            "pulser_labs_light_armor",
+            "pulser_labs_light_gauntlets",
+            "pulser_labs_armor_slab",
+            "lynx_slab"
+          ],
+          "weaponNote": {
+            "es": "Lunar Calling (BIS) o Complexed Industry como reemplazo: 139,1% con las dos.",
+            "en": "Lunar Calling (BIS) or Complexed Industry as the replacement: 139.1% with either."
+          },
+          "gearNote": {
+            "es": "Pulser Labs al 3 con LYNX Slab. Umbral de Ultimate Gain de la ficha: 123,0%.",
+            "en": "3-piece Pulser Labs with LYNX Slab. Card Ultimate Gain threshold: 123.0%."
+          },
+          "deepNote": {
+            "es": "Su Combo sale cuando el enemigo queda con Vulnerability, y su Battle Skill cambia entonces a Bolt Rush. Cada Electric Infliction consumida sube un nivel la Electrification, y cada nivel deja una acumulación de Sunderization, hasta 12. El Crush de su Ultimate las detona.",
+            "en": "His Combo fires when the enemy becomes Vulnerable, and his Battle Skill then changes to Bolt Rush. Each Electric Infliction consumed raises the Electrification by one level, and each level leaves one Sunderization stack, up to 12. His Ultimate's Crush detonates them."
+          }
+        },
+        {
+          "id": "perlica",
+          "role": "Carry",
+          "weaponId": "wpn_funnel_0009",
+          "gearRec": [
+            "mi_security_overalls_t1",
+            "mi_security_hands_ppe_t1",
+            "mi_security_toolkit",
+            "mi_security_toolkit"
+          ],
+          "weaponNote": {
+            "es": "Oblivion, sin reemplazo en la ficha.",
+            "en": "Oblivion, with no replacement on the card."
+          },
+          "gearNote": {
+            "es": "MI Security al completo, orientado a Critical Rate, como dice el autor. 107,0% contra un umbral de 103,9%.",
+            "en": "Full MI Security, geared for Critical Rate, as the author says. 107.0% against a 103.9% threshold."
+          },
+          "deepNote": {
+            "es": "Su Combo sale con cualquier Final Strike del personaje controlado y fuerza Electrification. Su Battle Skill aplica Electric Infliction.",
+            "en": "Her Combo fires on any Final Strike by the controlled operator and forces Electrification. Her Battle Skill applies Electric Infliction."
+          }
+        },
+        {
+          "id": "gilberta",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0005",
+          "gearRec": [
+            "eternal_xiranite_light_armor",
+            "eternal_xiranite_wraps",
+            "eternal_xiranite_auxiliary_arm",
+            "eternal_xiranite_auxiliary_arm"
+          ],
+          "weaponNote": {
+            "es": "Stanza of Memorials (213,7%) o Delivery Guaranteed (260,1%).",
+            "en": "Stanza of Memorials (213.7%) or Delivery Guaranteed (260.1%)."
+          },
+          "gearNote": {
+            "es": "Eternal Xiranite al completo. Umbral de Ultimate Gain de la ficha: 137,5%.",
+            "en": "Full Eternal Xiranite. Card Ultimate Gain threshold: 137.5%."
+          },
+          "deepNote": {
+            "es": "Su Combo sale con una Arts Reaction y fuerza Lift, que deja Vulnerability. Su Ultimate aplica Arts Susceptibility, que sube con cada acumulación de Vulnerability del objetivo.",
+            "en": "Her Combo fires on an Arts Reaction and forces Lift, which leaves Vulnerability. Her Ultimate applies Arts Susceptibility, which grows with each Vulnerability stack on the target."
+          }
+        },
+        {
+          "id": "arclight",
+          "role": "Enabler",
+          "weaponId": "wpn_sword_0012",
+          "gearRec": [
+            "redeemer_armor",
+            "frontiers_fiber_gloves_t1",
+            "frontiers_extra_o2_tube_t1",
+            "frontiers_extra_o2_tube_t1"
+          ],
+          "weaponNote": {
+            "es": "Thermite Cutter u OBJ Edge of Lightness: 143,4% con las dos.",
+            "en": "Thermite Cutter or OBJ Edge of Lightness: 143.4% with either."
+          },
+          "gearNote": {
+            "es": "Frontiers al 3 con Redeemer Armor. Umbral de Ultimate Gain de la ficha: 101,4%.",
+            "en": "3-piece Frontiers with Redeemer Armor. Card Ultimate Gain threshold: 101.4%."
+          },
+          "deepNote": {
+            "es": "Su Battle Skill consume la Electrification activa para un ataque adicional que recupera SP. Su talento da al equipo Electric DMG según su Intellect durante 15 s, tras 3 activaciones de ese ataque (2 con la keystone Servant of the Wildlands, de potencial 5).",
+            "en": "Her Battle Skill consumes active Electrification for an additional attack that recovers SP. Her talent grants the team Electric DMG based on her Intellect for 15 s, after 3 triggers of that attack (2 with the keystone Servant of the Wildlands, at potential 5)."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Tabla del autor al final del video: arma, arma de reemplazo, las cuatro piezas, Ultimate Gain total y umbral de cada uno.",
+          "en": "The author's table at the end of the video: weapon, replacement weapon, the four pieces, total Ultimate Gain and threshold for each."
+        },
+        "alts": []
+      }
+    }
+  ]
+}

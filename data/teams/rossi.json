@@ -8414,6 +8414,10 @@
     {
      "es": "La inmovilización de Si hace más fácil acertar el Combo de Gilberta, que tarda en salir.",
      "en": "Si's immobilization makes Gilberta's Combo, which is slow to come out, easier to land."
+    },
+    {
+     "es": "Eje de Raaay丶: aunque juegues lento, según el autor solo baja el provecho de los buffs en el Combo de Si; la Ultimate de Rossi, el grueso del daño, cae siempre con todos los buffs sobre el Inksoul.",
+     "en": "Raaay丶's axis: even if you play slowly, per the author only Si's Combo gets less from the buffs; Rossi's Ultimate, the bulk of the damage, always lands with every buff on the Inksoul."
     }
    ],
    "cons": [
@@ -8658,6 +8662,161 @@
        ]
       }
      ]
+    },
+    {
+     "name": {
+      "es": "Raaay丶: bucle único de burst (unos 45 s)",
+      "en": "Raaay丶: single burst loop (about 45 s)"
+     },
+     "description": {
+      "es": "Otro eje para el mismo cuarteto, del video de Raaay丶: no alterna vueltas de carga y de ciclo, sino que repite un solo bucle de burst de unos 45 s, contados de Ultimate de Rossi a Ultimate de Rossi. El autor lo describe como compacto pero simplificado, para no perder buffs. Si va en la Posición 01, porque su Ultimate recorta el cooldown del Combo de ese puesto y así usa dos Combos por vuelta; los otros tres van donde quieras. En la prioridad de Combos del editor de equipo pon Gilberta, Si, Camille y Rossi. Sus cuentas de SP: cinco Battle Skills más sacar el Inksoul cuestan 515, Camille recupera 120 y quedan 395 netos en 45 s, que según el autor alcanzan de sobra aunque no se pueda hacer Finisher. Salvo los dos puntos del eje que hay que esperar (Combo de Camille y Combo de Rossi listos), el autor usa las animaciones de las Ultimates y el retraso de las skills de Rossi y Camille para que los Combos estén listos sin mirarlos.",
+      "en": "Another axis for the same quartet, from Raaay丶's video: instead of alternating charge and cycle loops, it repeats a single burst loop of about 45 s, counted from Rossi's Ultimate to Rossi's Ultimate. The author describes it as compact but simplified, so buffs are not lost. Si sits in Team Position 01, because her Ultimate cuts that slot's Combo cooldown and she gets two Combos per loop; the other three go anywhere. In the team editor's Combo priority, set Gilberta, Si, Camille and Rossi. The author's SP math: five Battle Skills plus pulling out the Inksoul cost 515, Camille recovers 120, leaving 395 net in 45 s, which per the author is more than enough even when Finishers are not possible. Except for the two axis points you have to wait for (Camille's Combo ready and Rossi's Combo ready), the author uses the Ultimate animations and the delay of Rossi's and Camille's skills so Combos are ready without checking."
+     },
+     "phases": [
+      {
+       "phase": {
+        "es": "Apertura",
+        "en": "Opening"
+       },
+       "action": {
+        "es": "Battle Skill de Camille → Battle Skill de Si con el Combo de Camille listo → solo dos Combos (Gilberta y Si) → Ultimates de Camille y Si.",
+        "en": "Camille's Battle Skill → Si's Battle Skill with Camille's Combo ready → only two Combos (Gilberta and Si) → Camille's and Si's Ultimates."
+       },
+       "steps": [
+        {
+         "who": "camille",
+         "do": {
+          "es": "Battle Skill de Camille.",
+          "en": "Camille's Battle Skill."
+         }
+        },
+        {
+         "who": "si",
+         "do": {
+          "es": "Cuando el Combo de Camille esté listo, Battle Skill de Si: esa es la señal real de arranque. Es el punto más difícil del eje: pulsa solo dos Combos. Con la prioridad del autor, esos dos son los de Gilberta y Si. Cuando el bucle se repite, esta Battle Skill hace salir cuatro Combos, y también se pulsan solo los dos primeros.",
+          "en": "When Camille's Combo is ready, Si's Battle Skill: that is the real start signal. This is the hardest point of the axis: press only two Combos. With the author's priority, those two are Gilberta's and Si's. When the loop repeats, this Battle Skill brings out four Combos, and you still press only the first two."
+         },
+         "key": true
+        },
+        {
+         "who": "camille",
+         "do": {
+          "es": "Ultimates de Camille y de Si seguidas, para que el Amp de Si cubra la mayor parte del daño.",
+          "en": "Camille's and Si's Ultimates back to back, so Si's Amp covers most of the damage."
+         }
+        }
+       ]
+      },
+      {
+       "phase": {
+        "es": "Burst",
+        "en": "Burst"
+       },
+       "action": {
+        "es": "Hunter Pursuit de Camille → Battle Skill de Rossi → sacar el Inksoul → Combos de Camille, Rossi y Si → Ultimates de Rossi y Gilberta.",
+        "en": "Camille's Hunter Pursuit → Rossi's Battle Skill → pull out the Inksoul → Camille's, Rossi's and Si's Combos → Rossi's and Gilberta's Ultimates."
+       },
+       "steps": [
+        {
+         "who": "camille",
+         "do": {
+          "es": "Al terminar la animación de la Ultimate de Camille: Hunter Pursuit (su Battle Skill tras la Ultimate).",
+          "en": "When Camille's Ultimate animation ends: Hunter Pursuit (his Battle Skill after the Ultimate)."
+         }
+        },
+        {
+         "who": "rossi",
+         "do": {
+          "es": "Battle Skill de Rossi, y saca el Inksoul con la segunda fase de la Battle Skill de Si.",
+          "en": "Rossi's Battle Skill, and pull out the Inksoul with the second phase of Si's Battle Skill."
+         }
+        },
+        {
+         "who": "rossi",
+         "do": {
+          "es": "Cuando termine la animación de Rossi, Combos de Camille y de Rossi. En la primera vuelta con la energía ya cargada (hot start), puedes esperar al timing perfecto del Combo para llegar a 4 Vulnerability: según el autor, da 3% más de Susceptibility.",
+          "en": "When Rossi's animation ends, Camille's and Rossi's Combos. On the first loop with energy already charged (hot start), you can wait for the Combo's perfect timing to reach 4 Vulnerability: per the author, that gives 3% more Susceptibility."
+         }
+        },
+        {
+         "who": "si",
+         "do": {
+          "es": "Combo de Si y, justo después, Ultimates de Rossi y Gilberta, para que el Combo de Si aproveche lo más posible la Susceptibility de Gilberta.",
+          "en": "Si's Combo and, right after, Rossi's and Gilberta's Ultimates, so Si's Combo benefits as much as possible from Gilberta's Susceptibility."
+         },
+         "key": true
+        }
+       ]
+      },
+      {
+       "phase": {
+        "es": "Cierre",
+        "en": "Closing"
+       },
+       "action": {
+        "es": "Combo de Gilberta → ataques básicos unos 5-6 s → Battle Skill de Camille con el Combo de Rossi listo → todos los Combos → Battle Skill de Rossi sobre el cuerpo.",
+        "en": "Gilberta's Combo → basic attacks for about 5-6 s → Camille's Battle Skill with Rossi's Combo ready → all Combos → Rossi's Battle Skill on the body."
+       },
+       "steps": [
+        {
+         "who": "gilberta",
+         "do": {
+          "es": "Al terminar la Ultimate de Rossi, Combo de Gilberta.",
+          "en": "When Rossi's Ultimate ends, Gilberta's Combo."
+         }
+        },
+        {
+         "who": "camille",
+         "do": {
+          "es": "Ataques básicos unos 5-6 s hasta que el Combo de Rossi esté listo. Battle Skill de Camille y pulsa todos los Combos: te dan un Link.",
+          "en": "Basic attacks for about 5-6 s until Rossi's Combo is ready. Camille's Battle Skill and press all Combos: they give you a Link."
+         }
+        },
+        {
+         "who": "rossi",
+         "do": {
+          "es": "La Battle Skill de Rossi consume ese Link. Para entonces el Inksoul de Si está por terminar: no la lances contra él. Espera a que estalle y lánzala contra el cuerpo.",
+          "en": "Rossi's Battle Skill consumes that Link. By then Si's Inksoul is about to end: do not cast it at the Inksoul. Wait for it to burst and cast it at the body."
+         },
+         "key": true
+        }
+       ],
+       "tip": {
+        "es": "Luego vuelve al principio del bucle. Si la Battle Skill de Camille sale tarde puede activarse el Combo de Rossi: no lo uses, espera 5 s a que desaparezca.",
+        "en": "Then return to the start of the loop. If Camille's Battle Skill comes out late, Rossi's Combo may trigger: do not use it, wait 5 s for it to go away."
+       }
+      },
+      {
+       "phase": {
+        "es": "Arranque en frío",
+        "en": "Cold start"
+       },
+       "action": {
+        "es": "Battle Skills de Camille y Si → todos los Combos → Final Strikes hasta 1 barra de SP → Battle Skill de Rossi → Final Strikes hasta el Combo de Camille → Battle Skill de Camille → todos los Combos → Battle Skill de Rossi si hay SP.",
+        "en": "Camille's and Si's Battle Skills → all Combos → Final Strikes until 1 SP bar → Rossi's Battle Skill → Final Strikes until Camille's Combo → Camille's Battle Skill → all Combos → Rossi's Battle Skill if SP allows."
+       },
+       "steps": [
+        {
+         "who": "camille",
+         "do": {
+          "es": "Battle Skills de Camille y Si, y pulsa todos los Combos. Sigue con Final Strikes hasta tener 1 barra de SP y lanza la Battle Skill de Rossi para usar el Link.",
+          "en": "Camille's and Si's Battle Skills, and press all Combos. Keep landing Final Strikes until you have 1 SP bar and cast Rossi's Battle Skill to use the Link."
+         }
+        },
+        {
+         "who": "rossi",
+         "do": {
+          "es": "Sigue con Final Strikes para juntar SP hasta que el Combo de Camille esté listo. Battle Skill de Camille, todos los Combos y, si hay SP, otra Battle Skill de Rossi para usar el Link. La siguiente Battle Skill de Camille ya abre el bucle.",
+          "en": "Keep landing Final Strikes to build SP until Camille's Combo is ready. Camille's Battle Skill, all Combos and, if SP allows, another Rossi Battle Skill to use the Link. Camille's next Battle Skill opens the loop."
+         }
+        }
+       ],
+       "tip": {
+        "es": "El autor mide el fin del primer burst en arranque en frío real: unos 60 s con Blessing of Lustrous Carmine y Frontiers, y Camille con dos Links; 55 s con Beacon of Duty y Eternal Xiranite (dos Links); 50 s con lo mismo y un Link; 45 s con Arcane en lugar de Camille, sin Link. No son los tiempos perfectos de una herramienta de ejes. Según el autor, la diferencia es solo de la primera vuelta y de la build de Camille: en la segunda vuelta o en hot start, el bucle dura lo mismo.",
+        "en": "The author times the end of the first burst in a real cold start: about 60 s with Blessing of Lustrous Carmine and Frontiers, and Camille with two Links; 55 s with Beacon of Duty and Eternal Xiranite (two Links); 50 s with the same and one Link; 45 s with Arcane instead of Camille, no Link. These are not the perfect times of an axis tool. Per the author, the difference only affects the first loop and comes from Camille's build: on the second loop or in a hot start, the loop lasts the same."
+       }
+      }
+     ]
     }
    ],
    "skillPriority": [
@@ -8689,6 +8848,22 @@
     {
      "es": "Usar los Combos de Si y de Camille que salen al final de la carga 1: son de la siguiente vuelta.",
      "en": "Using the Si and Camille Combos that come out at the end of charge 1: they belong to the next loop."
+    },
+    {
+     "es": "Eje de Raaay丶: pulsar más de dos Combos tras la primera Battle Skill de Si. Solo van los de Gilberta y Si.",
+     "en": "Raaay丶's axis: pressing more than two Combos after Si's first Battle Skill. Only Gilberta's and Si's go."
+    },
+    {
+     "es": "Eje de Raaay丶: lanzar la última Battle Skill de Rossi contra un Inksoul a punto de terminar. Según el autor, Wolven Ambrage puede no salir, o no conectar y no devolver energía. Espera a que estalle y pega al cuerpo.",
+     "en": "Raaay丶's axis: casting Rossi's last Battle Skill at an Inksoul about to end. Per the author, Wolven Ambrage may not come out, or may miss and return no energy. Wait for it to burst and hit the body."
+    },
+    {
+     "es": "Eje de Raaay丶: con Blessing of Lustrous Carmine a P0 hay que sacar el Inksoul sí o sí. Si se te olvida en su sitio, puedes hacerlo en cualquier momento después de la Ultimate de Gilberta.",
+     "en": "Raaay丶's axis: with Blessing of Lustrous Carmine at P0 you must pull out the Inksoul. If you forget at its spot, you can do it any time after Gilberta's Ultimate."
+    },
+    {
+     "es": "Eje de Raaay丶: arrancar por la Battle Skill de Camille si tardó y salió el Combo de Rossi. No uses ese Combo: la señal de arranque es la Battle Skill de Si.",
+     "en": "Raaay丶's axis: treating Camille's Battle Skill as the start when it came late and Rossi's Combo appeared. Do not use that Combo: the start signal is Si's Battle Skill."
     }
    ],
    "vsOtherComps": [
@@ -8821,6 +8996,1993 @@
       "swap": {
        "es": "Si baja a 116% de umbral.",
        "en": "Si's threshold drops to 116%."
+      }
+     },
+     {
+      "scenario": {
+       "es": "Eje de Raaay丶: Camille",
+       "en": "Raaay丶's axis: Camille"
+      },
+      "swap": {
+       "es": "Blessing of Lustrous Carmine a P0 con Frontiers Protection Suit, Fiber Gloves T1, Frontiers Comm y Redeemer Seal. Umbral 204,9% (209,1% si Rossi tiene potencial 1), y es lo que marca su pantalla de atributos. Con Rossi a P1, el autor pide además una de estas tres: Camille a P4, Gilberta a P3 o Blessing a P2. Su ficha añade que el eje también funciona con Beacon of Duty.",
+       "en": "Blessing of Lustrous Carmine at P0 with Frontiers Protection Suit, Fiber Gloves T1, Frontiers Comm and Redeemer Seal. Threshold 204.9% (209.1% if Rossi has potential 1), which is what the attribute screen shows. With Rossi at P1, the author also asks for one of these three: Camille at P4, Gilberta at P3 or Blessing at P2. The card adds that the axis also works with Beacon of Duty."
+      }
+     },
+     {
+      "scenario": {
+       "es": "Eje de Raaay丶: Si",
+       "en": "Raaay丶's axis: Si"
+      },
+      "swap": {
+       "es": "Jade Vessel o Long Heritage, con Type 50 Yinglung Soft Armor, Rift Trekker Gloves y dos Type 50 Yinglung Beacon. Umbral 126,1% (128,7% si Rossi tiene potencial 1).",
+       "en": "Jade Vessel or Long Heritage, with Type 50 Yinglung Soft Armor, Rift Trekker Gloves and two Type 50 Yinglung Beacons. Threshold 126.1% (128.7% if Rossi has potential 1)."
+      }
+     },
+     {
+      "scenario": {
+       "es": "Eje de Raaay丶: Rossi",
+       "en": "Raaay丶's axis: Rossi"
+      },
+      "swap": {
+       "es": "Las piezas de la ficha de esta guía, con Lupine Scarlet o Glorious Memory. Umbral 117,7% (119,4% si Rossi tiene potencial 1).",
+       "en": "The pieces on this guide's card, with Lupine Scarlet or Glorious Memory. Threshold 117.7% (119.4% if Rossi has potential 1)."
+      }
+     },
+     {
+      "scenario": {
+       "es": "Eje de Raaay丶: Gilberta",
+       "en": "Raaay丶's axis: Gilberta"
+      },
+      "swap": {
+       "es": "Stanza of Memorials o Delivery Guaranteed, con Eternal Xiranite Light Armor, Wraps y Auxiliary Arm más LYNX Slab. Umbral 168,4% (172,6% si Rossi tiene potencial 1). La ficha recomienda combinar Delivery Guaranteed con el set Swordmancer para sumar Stagger.",
+       "en": "Stanza of Memorials or Delivery Guaranteed, with Eternal Xiranite Light Armor, Wraps and Auxiliary Arm plus LYNX Slab. Threshold 168.4% (172.6% if Rossi has potential 1). The card recommends pairing Delivery Guaranteed with the Swordmancer set to add Stagger."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "name": {
+    "es": "烟花弎月xyz - Rossi con Si · Arcane (WILL) · Gilberta",
+    "en": "烟花弎月xyz - Rossi with Si · Arcane (WILL) · Gilberta"
+   },
+   "subtitle": {
+    "es": "Si · Arcane (WILL) · Gilberta",
+    "en": "Si · Arcane (WILL) · Gilberta"
+   },
+   "blurb": {
+    "es": "Rossi de carry absoluto, con Si, Arcane en forma WILL y Gilberta. El autor enseña cinco ejes: del más simple, que repite dos veces la misma vuelta y abre todas las Ultimates, a uno pensado para matar al jefe en una sola tanda. Según el autor, Si aporta sobre todo que el Combo de Rossi deja de fallar contra enemigos de cierto tamaño. Incluye la versión reforzada del eje simple de YZ-月咒.",
+    "en": "Rossi as the absolute carry, with Si, WILL-form Arcane and Gilberta. The author teaches five axes: from the simplest, which repeats the same loop twice and opens every Ultimate, to one built to kill the boss in a single set. Per the author, what Si mainly brings is that Rossi's Combo stops missing against enemies of certain sizes. Includes YZ-月咒's reinforced version of the simple axis."
+   },
+   "guideVideoId": "ro8",
+   "simple": {
+    "whatItDoes": {
+     "es": "La Battle Skill de Si pone Cryo Infliction y la de Arcane la convierte en Corrosion. Esa reacción hace salir los Combos: el de Gilberta aplica Lift, que deja Vulnerability, y con eso y la Arts Infliction sale el de Rossi, cuya segunda fase consume las Arts Infliction y pega según cuántas había. Con dos vueltas iguales se llenan las Ultimates. La de Si da Cryo Amp y Heat Amp durante 12 s, y el daño de la Ultimate de Rossi es Heat. La de Gilberta aplica Arts Susceptibility mientras dura su campo.",
+     "en": "Si's Battle Skill puts Cryo Infliction and Arcane's turns it into Corrosion. That reaction brings out the Combos: Gilberta's applies Lift, which leaves Vulnerability, and with that and the Arts Infliction Rossi's comes out, whose second sequence consumes the Arts Inflictions and hits based on how many there were. Two identical loops fill the Ultimates. Si's grants Cryo Amp and Heat Amp for 12 s, and Rossi's Ultimate deals Heat DMG. Gilberta's applies Arts Susceptibility while its field lasts."
+    },
+    "steps": [
+     {
+      "who": "si",
+      "do": {
+       "es": "Ordena el equipo así: 1 Si, 2 Arcane, 3 Rossi, 4 Gilberta. Battle Skill de Si.",
+       "en": "Order the team like this: 1 Si, 2 Arcane, 3 Rossi, 4 Gilberta. Si's Battle Skill."
+      }
+     },
+     {
+      "who": "arcane",
+      "do": {
+       "es": "Battle Skill de Arcane: salen los Combos.",
+       "en": "Arcane's Battle Skill: the Combos come out."
+      }
+     },
+     {
+      "who": "gilberta",
+      "do": {
+       "es": "Combos seguidos de Arcane, Si, Gilberta y Rossi, con las dos fases del de Rossi.",
+       "en": "Arcane's, Si's, Gilberta's and Rossi's Combos in a row, with both sequences of Rossi's."
+      },
+      "key": true
+     },
+     {
+      "who": "rossi",
+      "do": {
+       "es": "Battle Skill de Rossi para cerrar. Junta 2 barras de SP y repite toda la vuelta.",
+       "en": "Rossi's Battle Skill to close. Build 2 SP bars and repeat the whole loop."
+      }
+     },
+     {
+      "who": "rossi",
+      "do": {
+       "es": "Tras la segunda vuelta, abre todas las Ultimates.",
+       "en": "After the second loop, open every Ultimate."
+      },
+      "key": true
+     }
+    ],
+    "gear": [
+     {
+      "id": "rossi",
+      "line": {
+       "es": "Lupine Scarlet (o Glorious Memory). MI Security al 3 (Armor T1, Gloves T1, Scope T1) con LYNX Slab.",
+       "en": "Lupine Scarlet (or Glorious Memory). 3-piece MI Security (Armor T1, Gloves T1, Scope T1) with LYNX Slab."
+      }
+     },
+     {
+      "id": "si",
+      "line": {
+       "es": "Jade Vessel (o Long Heritage). Type 50 Yinglung al 3 (Soft Armor, Gloves, Beacon) con Redeemer Seal.",
+       "en": "Jade Vessel (or Long Heritage). 3-piece Type 50 Yinglung (Soft Armor, Gloves, Beacon) with Redeemer Seal."
+      }
+     },
+     {
+      "id": "arcane",
+      "line": {
+       "es": "Type 42: Solemn Phalanx (o Junction Point, Detonation Unit). Eternal Xiranite Light Armor con Hot Work al 3 (Gloves y dos Power Cartridge).",
+       "en": "Type 42: Solemn Phalanx (or Junction Point, Detonation Unit). Eternal Xiranite Light Armor with 3-piece Hot Work (Gloves and two Power Cartridges)."
+      }
+     },
+     {
+      "id": "gilberta",
+      "line": {
+       "es": "Stanza of Memorials (o Delivery Guaranteed, Type 42, Junction Point). Eternal Xiranite (Light Armor, Gloves T1, dos Auxiliary Arm).",
+       "en": "Stanza of Memorials (or Delivery Guaranteed, Type 42, Junction Point). Eternal Xiranite (Light Armor, Gloves T1, two Auxiliary Arms)."
+      }
+     }
+    ]
+   },
+   "overview": {
+    "es": "Según el autor, es una variante del equipo de Rossi, Camille, Arcane y Gilberta, y por eso el eje simple se juega casi igual. Si añade algo de daño contra grupos, pero lo que más destaca es que su Inksoul evita que la segunda fase del Combo de Rossi falle contra ciertos tamaños de enemigo, un fallo que dejaba a Rossi sin Ultimate y sin su mejor momento de daño. También señala que Jade Vessel sube el DMG Taken general y no solo el de Arts: junto con el daño que guarda la Battle Skill de Si, ayuda incluso a los golpes de Rossi fuera de su Ultimate. Después enseña cinco ejes. Nomenclatura del autor: 1, 2 y 3 son las Battle Skills de las Posiciones 1, 2 y 3, y E es un Combo. Para el uso diario recomienda el eje simple y el avanzado; del resto dice que son para quien tiene potenciales altos, para buscar récords o para matar al jefe en una sola tanda. Las páginas 2 a 6 del video son las demos de cada eje, sin narración.",
+    "en": "Per the author, it is a variant of the Rossi, Camille, Arcane and Gilberta team, which is why the simple axis plays almost the same. Si adds some group damage, but the highlight is that her Inksoul keeps the second sequence of Rossi's Combo from missing against certain enemy sizes, a miss that left Rossi without her Ultimate and her best damage window. The author also points out that Jade Vessel raises general DMG Taken and not just Arts: together with the damage Si's Battle Skill stores, it helps even Rossi's hits outside her Ultimate. Then the author teaches five axes. The author's notation: 1, 2 and 3 are the Battle Skills of Team Positions 1, 2 and 3, and E is a Combo. For daily use the author recommends the simple and advanced axes; the rest are for high potentials, record chasing or killing the boss in a single set. Pages 2 to 6 of the video are the demos of each axis, without narration."
+   },
+   "playstyle": {
+    "difficulty": {
+     "es": "De baja a alta, según el eje (5 ejes)",
+     "en": "Low to high, by axis (5 axes)"
+    },
+    "content": {
+     "es": "Jefe / Single-target; algo de daño a grupos",
+     "en": "Boss / Single-target; some group damage"
+    },
+    "tags": [
+     {
+      "es": "Rossi carry",
+      "en": "Rossi carry"
+     },
+     {
+      "es": "Corrosion",
+      "en": "Corrosion"
+     },
+     {
+      "es": "Cinco ejes",
+      "en": "Five axes"
+     }
+    ]
+   },
+   "pros": [
+    {
+     "es": "El eje simple es la misma vuelta dos veces, seguida de todas las Ultimates.",
+     "en": "The simple axis is the same loop twice, followed by every Ultimate."
+    },
+    {
+     "es": "El Inksoul de Si evita que el Combo de Rossi falle contra ciertos tamaños de enemigo.",
+     "en": "Si's Inksoul keeps Rossi's Combo from missing against certain enemy sizes."
+    },
+    {
+     "es": "Hay un eje para cada caso: sin memorizar, con Combos extra de Si, con potenciales altos o para matar al jefe en una sola tanda.",
+     "en": "There is an axis for each case: no memorizing, with extra Si Combos, with high potentials, or to kill the boss in a single set."
+    }
+   ],
+   "cons": [
+    {
+     "es": "El eje simple desaprovecha la reducción de cooldown de la Ultimate de Si. Según el autor, eso solo cuesta el daño de un Combo.",
+     "en": "The simple axis wastes the cooldown reduction from Si's Ultimate. Per the author, that only costs one Combo's damage."
+    },
+    {
+     "es": "Con 5 Battle Skills, todos los miembros sufren para llenar su Ultimate: ese eje necesita potenciales altos.",
+     "en": "With 5 Battle Skills, every member struggles to fill their Ultimate: that axis needs high potentials."
+    },
+    {
+     "es": "Cambiar una pieza de Rossi por una de Ultimate Gain en lugar de su pieza de atributo principal hace caer mucho su daño, según el autor.",
+     "en": "Swapping a Rossi piece for an Ultimate Gain one instead of her main-attribute piece makes her damage drop sharply, per the author."
+    }
+   ],
+   "whyItWorks": [
+    {
+     "icon": "",
+     "title": {
+      "es": "Una Cryo Infliction hace salir cuatro Combos",
+      "en": "One Cryo Infliction brings out four Combos"
+     },
+     "body": {
+      "es": "La Battle Skill de Si pone Cryo Infliction, y el Combo de Arcane en forma WILL sale al aplicarse una Arts Infliction. La Nature Infliction de la Battle Skill de Arcane convierte la Cryo en Corrosion. Eso activa dos cosas: el Combo de Gilberta, que sale con una reacción, y el de Si, que sale cuando se consume Cryo o Heat Infliction. El Combo de Gilberta aplica Lift, que deja Vulnerability, y el de Rossi sale con Vulnerability y Arts Infliction.",
+      "en": "Si's Battle Skill puts Cryo Infliction, and Arcane's WILL-form Combo fires when an Arts Infliction is applied. The Nature Infliction from Arcane's Battle Skill turns the Cryo into Corrosion. That triggers two things: Gilberta's Combo, which fires on a reaction, and Si's, which fires when Cryo or Heat Infliction is consumed. Gilberta's Combo applies Lift, which leaves Vulnerability, and Rossi's fires with Vulnerability and Arts Infliction."
+     }
+    },
+    {
+     "icon": "",
+     "title": {
+      "es": "Por qué Si en la Posición 01",
+      "en": "Why Si in Team Position 01"
+     },
+     "body": {
+      "es": "El talento Proxy's Patronage hace que la Ultimate de Si recorte 10 o 20 s, según su nivel, el cooldown del Combo de quien esté en la Posición 01. El Combo de Si tiene 15 s de cooldown. El autor no lo aprovecha en el eje simple porque ahí los cuatro Combos ya están casi listos; en el avanzado lo usa para sacar dos Combos de Si seguidos. Si pones a Rossi en la Posición 01, lo que se recorta es su Combo: en eso se basa el eje rápido.",
+      "en": "The talent Proxy's Patronage makes Si's Ultimate cut 10 or 20 s, depending on its level, from the Combo cooldown of whoever is in Team Position 01. Si's Combo has a 15 s cooldown. The author does not use it in the simple axis because all four Combos are nearly ready there; in the advanced one it brings two Si Combos in a row. If you put Rossi in Team Position 01, her Combo is what gets cut: that is what the fast axis relies on."
+     }
+    },
+    {
+     "icon": "",
+     "title": {
+      "es": "Jade Vessel y el daño guardado",
+      "en": "Jade Vessel and the stored damage"
+     },
+     "body": {
+      "es": "Al aplicar Immobilization, Jade Vessel sube el DMG Taken del enemigo en general. El autor lo compara con las armas de Tangtang y Arcane y con Detonation Unit, que solo suben el Arts DMG Taken. Esto, junto con el daño que guarda Artful Intent, también ayuda a los golpes de Rossi fuera de su Ultimate.",
+      "en": "When applying Immobilization, Jade Vessel raises the enemy's general DMG Taken. The author compares it with Tangtang's and Arcane's weapons and with Detonation Unit, which only raise Arts DMG Taken. This, together with the damage Artful Intent stores, also helps Rossi's hits outside her Ultimate."
+     }
+    }
+   ],
+   "rotation": [
+    {
+     "phase": {
+      "es": "Carga (eje simple): 12EEEE3, dos veces",
+      "en": "Charge (simple axis): 12EEEE3, twice"
+     },
+     "action": {
+      "es": "Battle Skill de Si → Battle Skill de Arcane → Combos de Arcane, Si, Gilberta y Rossi (2 fases) → Battle Skill de Rossi. Junta 2 barras de SP y repite.",
+      "en": "Si's Battle Skill → Arcane's Battle Skill → Arcane's, Si's, Gilberta's and Rossi's Combos (2 sequences) → Rossi's Battle Skill. Build 2 SP bars and repeat."
+     },
+     "steps": [
+      {
+       "who": "si",
+       "do": {
+        "es": "Equipo en este orden: 1 Si, 2 Arcane, 3 Rossi, 4 Gilberta. Battle Skill de Si: Cryo Infliction.",
+        "en": "Team in this order: 1 Si, 2 Arcane, 3 Rossi, 4 Gilberta. Si's Battle Skill: Cryo Infliction."
+       }
+      },
+      {
+       "who": "arcane",
+       "do": {
+        "es": "Battle Skill de Arcane: su Nature Infliction convierte la Cryo en Corrosion.",
+        "en": "Arcane's Battle Skill: its Nature Infliction turns the Cryo into Corrosion."
+       }
+      },
+      {
+       "who": "gilberta",
+       "do": {
+        "es": "Pulsa seguidos los Combos de Arcane, Si, Gilberta y Rossi, y luego la segunda fase del de Rossi.",
+        "en": "Press Arcane's, Si's, Gilberta's and Rossi's Combos in a row, then the second sequence of Rossi's."
+       },
+       "key": true
+      },
+      {
+       "who": "rossi",
+       "do": {
+        "es": "Battle Skill de Rossi. Junta 2 barras de SP y repite la vuelta.",
+        "en": "Rossi's Battle Skill. Build 2 SP bars and repeat the loop."
+       }
+      }
+     ],
+     "tip": {
+      "es": "Ajusta el orden del equipo antes de empezar: los números del eje son las Posiciones.",
+      "en": "Set the team order before starting: the axis numbers are the Team Positions."
+     }
+    },
+    {
+     "phase": {
+      "es": "Burst (eje simple)",
+      "en": "Burst (simple axis)"
+     },
+     "action": {
+      "es": "Tras dos vueltas, abre las Ultimates de los cuatro.",
+      "en": "After two loops, open all four Ultimates."
+     },
+     "steps": [
+      {
+       "who": "rossi",
+       "do": {
+        "es": "El autor no fija aquí un orden: abre todas y listo. La variante de YZ-月咒 sí da uno detallado.",
+        "en": "The author sets no order here: just open them all. YZ-月咒's variant does give a detailed one."
+       }
+      }
+     ]
+    }
+   ],
+   "rotationVariants": [
+    {
+     "name": {
+      "es": "Avanzado 1.0: dos y tres Combos de Si",
+      "en": "Advanced 1.0: two and three Si Combos"
+     },
+     "description": {
+      "es": "El autor lo recomienda personalmente y lo llama 1(2E)EE. Pulsa casi a la vez la Battle Skill y el Combo de Arcane: si el Combo sale antes de que la Nature Infliction consuma la Cryo, cuenta la Cryo inicial y no la Nature. Según el autor, cuesta poco cogerle el truco. Su objetivo es que el Combo de Rossi consuma Cryo y active el de Si. El eje sigue siendo 123+123 sin contar los Combos. La pega es que Si necesita bastante Ultimate Gain, lo que resta daño a su Combo.",
+      "en": "The author personally recommends it and writes it as 1(2E)EE. Press Arcane's Battle Skill and Combo almost together: if the Combo comes out before the Nature Infliction consumes the Cryo, it counts the initial Cryo and not the Nature. Per the author, it takes little practice. The goal is for Rossi's Combo to consume Cryo and trigger Si's. The axis is still 123+123 without counting Combos. The drawback is that Si needs quite a lot of Ultimate Gain, which takes damage from her Combo."
+     },
+     "phases": [
+      {
+       "phase": {
+        "es": "Segunda vuelta de carga",
+        "en": "Second charge loop"
+       },
+       "action": {
+        "es": "Battle Skill de Si → Battle Skill de Arcane con su Combo a la vez → Combos → Ultimates de Arcane y Si antes de la segunda fase de Rossi → segunda fase de Rossi → Combo de Si otra vez.",
+        "en": "Si's Battle Skill → Arcane's Battle Skill with her Combo together → Combos → Arcane's and Si's Ultimates before Rossi's second sequence → Rossi's second sequence → Si's Combo again."
+       },
+       "steps": [
+        {
+         "who": "arcane",
+         "do": {
+          "es": "Tras la Battle Skill de Si, pulsa casi a la vez la Battle Skill y el Combo de Arcane.",
+          "en": "After Si's Battle Skill, press Arcane's Battle Skill and Combo almost together."
+         },
+         "key": true
+        },
+        {
+         "who": "gilberta",
+         "do": {
+          "es": "Combos de Si, Gilberta y la primera fase del de Rossi.",
+          "en": "Si's and Gilberta's Combos and the first sequence of Rossi's."
+         }
+        },
+        {
+         "who": "arcane",
+         "do": {
+          "es": "Antes de la segunda fase de Rossi, Ultimate de Arcane: activa su arma BIS y sus efectos de apoyo.",
+          "en": "Before Rossi's second sequence, Arcane's Ultimate: triggers her BIS weapon and her support effects."
+         }
+        },
+        {
+         "who": "si",
+         "do": {
+          "es": "Ultimate de Si: da Cryo Amp y Heat Amp durante 12 s y recorta el cooldown de su Combo.",
+          "en": "Si's Ultimate: grants Cryo Amp and Heat Amp for 12 s and cuts her Combo's cooldown."
+         },
+         "key": true
+        },
+        {
+         "who": "rossi",
+         "do": {
+          "es": "Segunda fase de Rossi: consume la Cryo y hace salir de nuevo el Combo de Si. Son dos Combos de Si seguidos, el «doble dragón» del autor.",
+          "en": "Rossi's second sequence: consumes the Cryo and brings out Si's Combo again. That is two Si Combos in a row, the author's \"double dragon\"."
+         }
+        }
+       ]
+      },
+      {
+       "phase": {
+        "es": "Burst",
+        "en": "Burst"
+       },
+       "action": {
+        "es": "Final Strike para retrasar un poco los Combos y juntar 1 barra de SP → Battle Skill de Rossi → Ultimates de Gilberta y Rossi → Combos de Arcane y Rossi → Battle Skill de Arcane → Combos de Gilberta y Si.",
+        "en": "Final Strike to delay the Combos a little and build 1 SP bar → Rossi's Battle Skill → Gilberta's and Rossi's Ultimates → Arcane's and Rossi's Combos → Arcane's Battle Skill → Gilberta's and Si's Combos."
+       },
+       "steps": [
+        {
+         "who": "rossi",
+         "do": {
+          "es": "Una Final Strike retrasa un poco los Combos y da tiempo a juntar 1 barra de SP. Con la Battle Skill de Rossi se completa su Ultimate.",
+          "en": "A Final Strike delays the Combos a little and gives time to build 1 SP bar. Rossi's Battle Skill completes her Ultimate."
+         }
+        },
+        {
+         "who": "gilberta",
+         "do": {
+          "es": "Ultimates de Rossi y Gilberta seguidas. Las animaciones aceleran la vuelta de los Combos de los cuatro.",
+          "en": "Rossi's and Gilberta's Ultimates back to back. The animations speed up the return of all four Combos."
+         }
+        },
+        {
+         "who": "arcane",
+         "do": {
+          "es": "Combos de Arcane y Rossi justo en el final de la Ultimate de Rossi.",
+          "en": "Arcane's and Rossi's Combos right at the end of Rossi's Ultimate."
+         }
+        },
+        {
+         "who": "si",
+         "do": {
+          "es": "Cuando el Combo de Si esté a punto, Battle Skill de Arcane: se come la Heat Infliction, renueva la Corrosion y hace salir los Combos de Gilberta y Si. El autor lo llama «triple dragón».",
+          "en": "When Si's Combo is nearly ready, Arcane's Battle Skill: it eats the Heat Infliction, renews the Corrosion and brings out Gilberta's and Si's Combos. The author calls it \"triple dragon\"."
+         },
+         "key": true
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": {
+      "es": "Avanzado 2.0: Battle Skill de Rossi antes (123+312)",
+      "en": "Advanced 2.0: Rossi's Battle Skill earlier (123+312)"
+     },
+     "description": {
+      "es": "Igual que el 1.0, pero en la segunda vuelta la Battle Skill de Rossi va primero: 123+312. Baja la presión de Ultimate Gain de todos, Si puede pasar de dos piezas de Ultimate Gain a una y entran más skills dentro de la Ultimate de Gilberta. La pega es que ya no renueva la Corrosion de la primera vuelta. Según el autor, este y el 1.0 son los mejores para el uso diario.",
+      "en": "Same as 1.0, but in the second loop Rossi's Battle Skill goes first: 123+312. It lowers everyone's Ultimate Gain pressure, Si can go from two Ultimate Gain pieces to one, and more skills fit inside Gilberta's Ultimate. The drawback is that it no longer renews the Corrosion from the first loop. Per the author, this and 1.0 are the best for daily use."
+     },
+     "phases": [
+      {
+       "phase": {
+        "es": "Segunda vuelta de carga",
+        "en": "Second charge loop"
+       },
+       "action": {
+        "es": "Battle Skill de Rossi → Battle Skill de Si → Battle Skill de Arcane, con los Combos como en el 1.0.",
+        "en": "Rossi's Battle Skill → Si's Battle Skill → Arcane's Battle Skill, with the Combos as in 1.0."
+       },
+       "steps": [
+        {
+         "who": "rossi",
+         "do": {
+          "es": "La Battle Skill de Rossi abre la segunda vuelta en lugar de cerrarla.",
+          "en": "Rossi's Battle Skill opens the second loop instead of closing it."
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": {
+      "es": "Límite (12+12+31): de 唐傀, para buscar récords",
+      "en": "Limit (12+12+31): by 唐傀, for record chasing"
+     },
+     "description": {
+      "es": "Para quien busca récords (el autor lo marca como «0+1», sin explicarlo). El eje es de 唐傀 y el video solo lo enseña en su página 4, sin narración: 12+12+31, sin contar los Combos. Saca el Inksoul de Si una y otra vez para reducir la falta de SP y terminar antes las vueltas. Según el autor, tiene un daño final y una cobertura de buffs muy altos, pero es muy difícil de repetir.",
+      "en": "For record chasing (the author labels it \"0+1\" without explaining it). The axis is by 唐傀 and the video only shows it on its page 4, without narration: 12+12+31, not counting Combos. It pulls Si's Inksoul again and again to reduce the SP shortfall and end the loops sooner. Per the author, it has very high final damage and buff coverage, but it is very hard to reproduce."
+     },
+     "phases": [
+      {
+       "phase": {
+        "es": "Carga",
+        "en": "Charge"
+       },
+       "action": {
+        "es": "12 → 12 → 31, sin contar los Combos. Mira la página 4 del video.",
+        "en": "12 → 12 → 31, not counting Combos. See page 4 of the video."
+       },
+       "steps": [
+        {
+         "who": "si",
+         "do": {
+          "es": "El video no detalla paso a paso esta vuelta: solo la muestra en la demo.",
+          "en": "The video does not detail this loop step by step: it only shows it in the demo."
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": {
+      "es": "Potencial máximo: 5 Battle Skills (123+12)",
+      "en": "Max potential: 5 Battle Skills (123+12)"
+     },
+     "description": {
+      "es": "Con 5 Battle Skills (500 SP) y no 6. Según el autor, resuelve los dos problemas del eje avanzado, pero todos los miembros sufren para llenar su Ultimate, así que necesita potenciales que reduzcan ese coste. Rossi a potencial máximo llena su Ultimate con Gilberta, 500 SP, una Battle Skill y dos Combos. Gilberta lleva aquí su arma BIS y Swordmancer. Rossi a potencial 0 puede imitarlo con una pieza de Ultimate Gain, pero el autor no lo recomienda: si sustituye a su pieza de atributo principal, su daño cae mucho.",
+      "en": "With 5 Battle Skills (500 SP) instead of 6. Per the author, it solves both problems of the advanced axis, but every member struggles to fill their Ultimate, so it needs potentials that lower that cost. Rossi at max potential fills her Ultimate with Gilberta, 500 SP, one Battle Skill and two Combos. Gilberta runs her BIS and Swordmancer here. Rossi at potential 0 can imitate it with an Ultimate Gain piece, but the author does not recommend it: if it replaces her main-attribute piece, her damage drops sharply."
+     },
+     "phases": [
+      {
+       "phase": {
+        "es": "Carga y burst",
+        "en": "Charge and burst"
+       },
+       "action": {
+        "es": "123 → 12 sin contar los Combos, y directo al burst.",
+        "en": "123 → 12 not counting Combos, and straight to the burst."
+       },
+       "steps": [
+        {
+         "who": "rossi",
+         "do": {
+          "es": "Con estas 5 Battle Skills ya se llenan todas las Ultimates: entra directo al burst. Demo en la página 5 del video.",
+          "en": "These 5 Battle Skills already fill every Ultimate: go straight to the burst. Demo on page 5 of the video."
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": {
+      "es": "Rápido: Rossi en la Posición 01, solo si matas en una tanda",
+      "en": "Fast: Rossi in Team Position 01, only if you kill in one set"
+     },
+     "description": {
+      "es": "Es una rareza del autor: Rossi a potencial 0 y con su pieza de atributo principal abre con 5 Battle Skills. Solo sirve si la primera tanda mata al jefe; si no, el autor pide volver al eje simple o al avanzado, y no lo recomienda para el uso diario. Tiene algo de dificultad. Según el autor, comprime la tanda hasta terminar la Ultimate de Rossi en 49 s.",
+      "en": "A curiosity from the author: Rossi at potential 0 with her main-attribute piece opens with 5 Battle Skills. It only works if the first set kills the boss; otherwise, the author says to go back to the simple or advanced axis, and does not recommend it for daily use. It has some difficulty. Per the author, it compresses the set so Rossi's Ultimate finishes at 49 s."
+     },
+     "phases": [
+      {
+       "phase": {
+        "es": "Una sola tanda",
+        "en": "A single set"
+       },
+       "action": {
+        "es": "Rossi en la Posición 01 y controlada: 123+12 sin contar los Combos → cancela la segunda fase de su último Combo con un esquive → Ultimates de Si y Arcane → Combo de Rossi → Ultimates de Gilberta y Rossi.",
+        "en": "Rossi in Team Position 01 and controlled: 123+12 not counting Combos → cancel the second sequence of her last Combo with a dodge → Si's and Arcane's Ultimates → Rossi's Combo → Gilberta's and Rossi's Ultimates."
+       },
+       "steps": [
+        {
+         "who": "rossi",
+         "do": {
+          "es": "La primera parte es igual que el eje de potencial máximo. Cuando salga la segunda fase del último Combo de Rossi, cancélala con un esquive para que no consuma las Infliction.",
+          "en": "The first part is the same as the max potential axis. When the second sequence of Rossi's last Combo comes out, cancel it with a dodge so it does not consume the Inflictions."
+         },
+         "key": true
+        },
+        {
+         "who": "si",
+         "do": {
+          "es": "En seguida, Ultimates de Si y Arcane: la de Arcane repone la Infliction y activa su arma BIS, y la de Si recorta el cooldown del Combo de Rossi, que vuelve a salir.",
+          "en": "Right away, Si's and Arcane's Ultimates: Arcane's replenishes the Infliction and triggers her BIS weapon, and Si's cuts the cooldown of Rossi's Combo, which comes out again."
+         }
+        },
+        {
+         "who": "rossi",
+         "do": {
+          "es": "Combo de Rossi inmediato: llena su Ultimate. Después, Ultimates de Gilberta y Rossi a la vez.",
+          "en": "Rossi's Combo immediately: fills her Ultimate. Then Gilberta's and Rossi's Ultimates together."
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": {
+      "es": "YZ-月咒: Corrosion de nivel 2 y burst detallado",
+      "en": "YZ-月咒: level 2 Corrosion and detailed burst"
+     },
+     "description": {
+      "es": "Del video de YZ-月咒, con el mismo cuarteto. También parte del 12EEEE3 y da la misma opción simple de hacerlo dos veces, pero en la segunda vuelta sube la Corrosion a nivel 2. Recomienda controlar a Arcane, aunque dice que puedes usar a otro si te resulta más cómodo. Su burst encadena las Ultimates dentro de la Ultimate de Gilberta.",
+      "en": "From YZ-月咒's video, with the same quartet. It also starts from 12EEEE3 and gives the same simple option of doing it twice, but in the second loop it raises Corrosion to level 2. YZ recommends controlling Arcane, though saying you can use someone else if that is more comfortable. The burst chains the Ultimates inside Gilberta's Ultimate."
+     },
+     "phases": [
+      {
+       "phase": {
+        "es": "Primera carga: 12EEEE3",
+        "en": "First charge: 12EEEE3"
+       },
+       "action": {
+        "es": "Igual que el eje simple: deja Corrosion de nivel 1.",
+        "en": "Same as the simple axis: leaves level 1 Corrosion."
+       },
+       "steps": [
+        {
+         "who": "rossi",
+         "do": {
+          "es": "Cierra con la Battle Skill de Rossi cuando haya SP. Antes de la segunda vuelta, usa Final Strikes para llegar a 2 barras de SP.",
+          "en": "Close with Rossi's Battle Skill when there is SP. Before the second loop, use Final Strikes to reach 2 SP bars."
+         }
+        }
+       ]
+      },
+      {
+       "phase": {
+        "es": "Segunda carga: 1E2EEE3",
+        "en": "Second charge: 1E2EEE3"
+       },
+       "action": {
+        "es": "Battle Skill de Si → Combo de Arcane → Battle Skill de Arcane → tres Combos → Battle Skill de Rossi cuando haya SP.",
+        "en": "Si's Battle Skill → Arcane's Combo → Arcane's Battle Skill → three Combos → Rossi's Battle Skill when there is SP."
+       },
+       "steps": [
+        {
+         "who": "si",
+         "do": {
+          "es": "Battle Skill de Si: 1.ª Cryo Infliction.",
+          "en": "Si's Battle Skill: 1st Cryo Infliction."
+         }
+        },
+        {
+         "who": "arcane",
+         "do": {
+          "es": "Combo de Arcane: 2.ª Cryo Infliction.",
+          "en": "Arcane's Combo: 2nd Cryo Infliction."
+         }
+        },
+        {
+         "who": "arcane",
+         "do": {
+          "es": "Battle Skill de Arcane: convierte las dos en Corrosion de nivel 2.",
+          "en": "Arcane's Battle Skill: turns both into level 2 Corrosion."
+         },
+         "key": true
+        },
+        {
+         "who": "rossi",
+         "do": {
+          "es": "Salen tres Combos: úsalos todos. Sigue con Final Strikes para recuperar SP y cierra con la Battle Skill de Rossi.",
+          "en": "Three Combos come out: use them all. Keep landing Final Strikes to recover SP and close with Rossi's Battle Skill."
+         }
+        }
+       ],
+       "tip": {
+        "es": "Aquí todas las Ultimates menos la de Arcane ya están llenas.",
+        "en": "At this point every Ultimate except Arcane's is full."
+       }
+      },
+      {
+       "phase": {
+        "es": "Burst",
+        "en": "Burst"
+       },
+       "action": {
+        "es": "Ultimate de Si → Ultimate de Rossi → Ultimate de Gilberta → Combo de Arcane → primera fase del Combo de Rossi → Ultimate de Arcane → segunda fase de Rossi → Combo de Si.",
+        "en": "Si's Ultimate → Rossi's Ultimate → Gilberta's Ultimate → Arcane's Combo → first sequence of Rossi's Combo → Arcane's Ultimate → Rossi's second sequence → Si's Combo."
+       },
+       "steps": [
+        {
+         "who": "si",
+         "do": {
+          "es": "Ultimate de Si para el Amp.",
+          "en": "Si's Ultimate for the Amp."
+         }
+        },
+        {
+         "who": "rossi",
+         "do": {
+          "es": "Ultimate de Rossi.",
+          "en": "Rossi's Ultimate."
+         }
+        },
+        {
+         "who": "gilberta",
+         "do": {
+          "es": "Ultimate de Gilberta: Arts Susceptibility y Nature Infliction. El último golpe de la Ultimate de Rossi pone Heat Infliction y convierte esa Nature en Combustion.",
+          "en": "Gilberta's Ultimate: Arts Susceptibility and Nature Infliction. The last hit of Rossi's Ultimate puts Heat Infliction and turns that Nature into Combustion."
+         },
+         "key": true
+        },
+        {
+         "who": "arcane",
+         "do": {
+          "es": "Combo de Arcane, que según el autor pone una Heat Infliction, y primera fase del Combo de Rossi.",
+          "en": "Arcane's Combo, which per the author puts one Heat Infliction, and the first sequence of Rossi's Combo."
+         }
+        },
+        {
+         "who": "arcane",
+         "do": {
+          "es": "Ultimate de Arcane: 2.ª Heat Infliction.",
+          "en": "Arcane's Ultimate: 2nd Heat Infliction."
+         }
+        },
+        {
+         "who": "rossi",
+         "do": {
+          "es": "Segunda fase de Rossi en seguida, sin esperar el destello dorado del timing perfecto: consume las dos Heat Infliction y hace salir el Combo de Si, que cierra.",
+          "en": "Rossi's second sequence right away, without waiting for the perfect-timing golden flash: it consumes both Heat Inflictions and brings out Si's Combo, which closes."
+         },
+         "key": true
+        }
+       ],
+       "tip": {
+        "es": "Mete el daño que puedas dentro de los 5 s de Arts Susceptibility de la Ultimate de Gilberta.",
+        "en": "Fit as much damage as you can inside the 5 s of Arts Susceptibility from Gilberta's Ultimate."
+       }
+      }
+     ]
+    }
+   ],
+   "skillPriority": [
+    {
+     "charId": "rossi",
+     "order": {
+      "es": "Ultimate > Combo > Battle Skill > Ataque básico, todas al máximo",
+      "en": "Ultimate > Combo > Battle Skill > Basic attack, all maxed"
+     },
+     "note": {
+      "es": "Según el autor, como carry absoluto del equipo, conviene subirlas todas. La ficha de YZ-月咒 ordena Ultimate = Combo > Battle Skill = Ataque básico.",
+      "en": "Per the author, as the team's absolute carry, she should have them all maxed. YZ-月咒's card orders Ultimate = Combo > Battle Skill = Basic attack."
+     },
+     "assumeRanks": {
+      "battle_skill": 12,
+      "combo_skill": 12,
+      "ultimate": 12
+     }
+    },
+    {
+     "charId": "si",
+     "order": {
+      "es": "Combo = Ultimate > Battle Skill > Ataque básico; las tres primeras al máximo",
+      "en": "Combo = Ultimate > Battle Skill > Basic attack; the first three maxed"
+     },
+     "note": {
+      "es": "La ficha de YZ-月咒 ordena Combo > Battle Skill = Ultimate > Ataque básico. Refinado, según YZ-月咒: Intellect, DMG Bonus y atributo principal.",
+      "en": "YZ-月咒's card orders Combo > Battle Skill = Ultimate > Basic attack. Artificing, per YZ-月咒: Intellect, DMG Bonus and main attribute."
+     },
+     "assumeRanks": {
+      "battle_skill": 12,
+      "combo_skill": 12,
+      "ultimate": 12
+     }
+    },
+    {
+     "charId": "arcane",
+     "order": {
+      "es": "Combo al máximo; el resto a gusto",
+      "en": "Combo maxed; the rest as you like"
+     },
+     "note": {
+      "es": "YZ-月咒 pide Combo a especialización 3 y el resto a rango 9. Refinado, según YZ-月咒: nivel 3 de Will en la armadura y nivel 2 de Will en una pieza, y después Arts Intensity, porque aquí la Corrosion está siempre puesta y la Arts Intensity aumenta su reducción de resistencia.",
+      "en": "YZ-月咒 asks for Combo at specialization 3 and the rest at rank 9. Artificing, per YZ-月咒: level 3 Will on the armor and level 2 Will on one piece, then Arts Intensity, because Corrosion is always up here and Arts Intensity raises its resistance reduction."
+     },
+     "assumeRanks": {
+      "combo_skill": 12
+     }
+    },
+    {
+     "charId": "gilberta",
+     "order": {
+      "es": "Ultimate a especialización 1; el resto a gusto",
+      "en": "Ultimate at specialization 1; the rest as you like"
+     },
+     "note": {
+      "es": "Los dos autores coinciden. Refinado, según YZ-月咒: cuando llegue a su umbral de Ultimate Gain, solo Arts Intensity.",
+      "en": "Both authors agree. Artificing, per YZ-月咒: once she reaches her Ultimate Gain threshold, only Arts Intensity."
+     },
+     "assumeRanks": {
+      "ultimate": 10
+     }
+    }
+   ],
+   "pitfalls": [
+    {
+     "es": "En el eje avanzado, si la Nature Infliction de Arcane consume la Cryo antes de pulsar su Combo, este ya no cuenta la Cryo. Pulsa los dos casi a la vez.",
+     "en": "In the advanced axis, if Arcane's Nature Infliction consumes the Cryo before you press her Combo, it no longer counts the Cryo. Press both almost together."
+    },
+    {
+     "es": "En el eje avanzado, lanza la Ultimate de Si antes de la segunda fase de Rossi: esa fase consume la Cryo y hace salir el Combo de Si.",
+     "en": "In the advanced axis, cast Si's Ultimate before Rossi's second sequence: that sequence consumes the Cryo and brings out Si's Combo."
+    },
+    {
+     "es": "No sustituyas la pieza de atributo principal de Rossi por una de Ultimate Gain para imitar el eje de 5 Battle Skills: según el autor, su daño se desploma.",
+     "en": "Do not replace Rossi's main-attribute piece with an Ultimate Gain one to imitate the 5 Battle Skill axis: per the author, her damage plummets."
+    },
+    {
+     "es": "El eje rápido es solo para matar en una tanda. Si no matas al jefe, vuelve al eje simple o al avanzado.",
+     "en": "The fast axis is only for killing in one set. If you do not kill the boss, go back to the simple or advanced axis."
+    },
+    {
+     "es": "En el burst de YZ-月咒, tras la Ultimate de Arcane pasa directo a la segunda fase de Rossi, sin esperar el destello dorado.",
+     "en": "In YZ-月咒's burst, after Arcane's Ultimate go straight to Rossi's second sequence, without waiting for the golden flash."
+    }
+   ],
+   "vsOtherComps": [
+    {
+     "name": {
+      "es": "YZ-月咒 - Silla de ruedas de Fuego",
+      "en": "YZ-月咒 - Fire Wheelchair"
+     },
+     "verdict": {
+      "es": "Es el equipo con Camille en lugar de Si. Los dos autores dicen que el eje simple se juega casi igual.",
+      "en": "It is the team with Camille instead of Si. Both authors say the simple axis plays almost the same."
+     }
+    },
+    {
+     "name": {
+      "es": "阿卡秋_ArkQiu - Doble C Rossi + Si (Gilberta · Camille)",
+      "en": "阿卡秋_ArkQiu - Rossi + Si Dual-C (Gilberta · Camille)"
+     },
+     "verdict": {
+      "es": "También junta a Rossi y Si, pero con Camille en lugar de Arcane y con Si como segundo núcleo.",
+      "en": "It also pairs Rossi and Si, but with Camille instead of Arcane and Si as a second core."
+     }
+    }
+   ],
+   "members": [
+    {
+     "id": "rossi",
+     "role": "Carry",
+     "weaponId": "wpn_sword_0022",
+     "gearRec": [
+      "mi_security_armor_t1",
+      "mi_security_gloves_t1",
+      "mi_security_scope_t1",
+      "lynx_slab"
+     ],
+     "weaponNote": {
+      "es": "Lupine Scarlet (BIS) o Glorious Memory. YZ-月咒 da, en fuerza de equipo: Lupine Scarlet a P5 ≈115-120% de la de P0; Glorious Memory ≈75-80% a P0 y ≈90% a P5.",
+      "en": "Lupine Scarlet (BIS) or Glorious Memory. YZ-月咒 gives, in team strength: Lupine Scarlet at P5 ≈115-120% of P0; Glorious Memory ≈75-80% at P0 and ≈90% at P5."
+     },
+     "gearNote": {
+      "es": "MI Security al 3 con LYNX Slab. La ficha del autor también admite Redeemer Seal en lugar del Slab; el autor nombra además piezas de Ultimate, Stagger o crítico. Umbral de YZ-月咒: P0 111,11% / 111,85%; a P4 no necesita Ultimate Gain.",
+      "en": "3-piece MI Security with LYNX Slab. The author's card also allows Redeemer Seal instead of the Slab; the author also names Ultimate, Stagger or crit pieces. YZ-月咒's threshold: P0 111.11% / 111.85%; at P4 she needs no Ultimate Gain."
+     },
+     "deepNote": {
+      "es": "Su Combo sale con Vulnerability y Arts Infliction en el enemigo. La segunda fase consume todas las Arts Infliction y pega según cuántas había. Su Ultimate hace daño Heat, así que aprovecha el Heat Amp de Si, y termina aplicando Heat Infliction.",
+      "en": "Her Combo fires with Vulnerability and Arts Infliction on the enemy. The second sequence consumes all Arts Inflictions and hits based on how many there were. Her Ultimate deals Heat DMG, so it benefits from Si's Heat Amp, and it ends by applying Heat Infliction."
+     }
+    },
+    {
+     "id": "si",
+     "role": "Buffer",
+     "weaponId": "wpn_claym_0018",
+     "gearRec": [
+      "type_50_yinglung_soft_armor",
+      "type_50_yinglung_gloves_intellect_strength",
+      "type_50_yinglung_beacon",
+      "redeemer_seal"
+     ],
+     "weaponNote": {
+      "es": "Jade Vessel (BIS) o Long Heritage. YZ-月咒 da, en fuerza de equipo: Jade Vessel a P5 ≈115% con Si de carry y ≈110% con Si de soporte; Long Heritage ≈85% a P0 y ≈90% a P5.",
+      "en": "Jade Vessel (BIS) or Long Heritage. YZ-月咒 gives, in team strength: Jade Vessel at P5 ≈115% with Si as carry and ≈110% with Si as support; Long Heritage ≈85% at P0 and ≈90% at P5."
+     },
+     "gearNote": {
+      "es": "Type 50 Yinglung al 3 con Redeemer Seal. La segunda columna es Redeemer Armor con Eternal Xiranite al 3 (Channeling Gloves, Rangefinder, Power Core). En los ejes en que Si abre su Ultimate antes, con 500 SP, necesita 2 piezas de Ultimate Gain o potencial; si la abre tras 6 Battle Skills, basta con una. Umbral de YZ-月咒: P0 135,59% / 137,10%; P4 115,25% / 116,54%, según el potencial 1 de Rossi.",
+      "en": "3-piece Type 50 Yinglung with Redeemer Seal. The second column is Redeemer Armor with 3-piece Eternal Xiranite (Channeling Gloves, Rangefinder, Power Core). In the axes where Si opens her Ultimate earlier, at 500 SP, she needs 2 Ultimate Gain pieces or potential; if she opens it after 6 Battle Skills, one is enough. YZ-月咒's threshold: P0 135.59% / 137.10%; P4 115.25% / 116.54%, depending on Rossi's potential 1."
+     },
+     "deepNote": {
+      "es": "Su Battle Skill aplica Cryo Infliction, Immobilization y Artful Intent. Su Combo sale cuando se consume o absorbe Cryo o Heat Infliction. Su Ultimate da Cryo Amp y Heat Amp durante 12 s a todo el equipo.",
+      "en": "Her Battle Skill applies Cryo Infliction, Immobilization and Artful Intent. Her Combo fires when Cryo or Heat Infliction is consumed or absorbed. Her Ultimate grants Cryo Amp and Heat Amp for 12 s to the entire team."
+     }
+    },
+    {
+     "id": "arcane",
+     "role": "Enabler",
+     "weaponId": "wpn_funnel_0016",
+     "gearRec": [
+      "eternal_xiranite_light_armor",
+      "hot_work_gloves",
+      "hot_work_power_cartridge",
+      "hot_work_power_cartridge"
+     ],
+     "weaponNote": {
+      "es": "Type 42: Solemn Phalanx (BIS), Junction Point o Detonation Unit. YZ-月咒 da, en fuerza de equipo: Type 42 a P5 ≈115% de la de P0; Junction Point ≈85% a P0 y ≈90% a P5.",
+      "en": "Type 42: Solemn Phalanx (BIS), Junction Point or Detonation Unit. YZ-月咒 gives, in team strength: Type 42 at P5 ≈115% of P0; Junction Point ≈85% at P0 and ≈90% at P5."
+     },
+     "gearNote": {
+      "es": "Hot Work al 3 para sacar más de la Corrosion, aunque según el autor aprieta el Ultimate Gain. La alternativa es Eternal Xiranite al 3 (Light Armor, Bracing Slab, Auxiliary Arm) con AIC Fieldwork Wraps, que refuerza el Cryo y da el buff de Eternal Xiranite; también cabe Qingbo, que combina Ultimate Gain y Corrosion. Umbral de YZ-月咒: P0 144,93% / 146,31%; P4 123,19% / 124,36%, según el SP que devuelve Rossi a potencial 1.",
+      "en": "3-piece Hot Work to get more from Corrosion, though per the author it tightens Ultimate Gain. The alternative is 3-piece Eternal Xiranite (Light Armor, Bracing Slab, Auxiliary Arm) with AIC Fieldwork Wraps, which reinforces Cryo and gives the Eternal Xiranite buff; Qingbo also fits, combining Ultimate Gain and Corrosion. YZ-月咒's threshold: P0 144.93% / 146.31%; P4 123.19% / 124.36%, depending on the SP Rossi returns at potential 1."
+     },
+     "deepNote": {
+      "es": "Va en forma WILL: su Combo sale al aplicarse cualquier Arts Infliction y aplica otra acumulación del mismo elemento. Su Ultimate también añade una acumulación del mismo elemento a quien ya tenga Arts Infliction.",
+      "en": "She runs WILL form: her Combo fires when any Arts Infliction is applied and applies another stack of the same element. Her Ultimate also adds a stack of the same element to enemies that already have Arts Infliction."
+     }
+    },
+    {
+     "id": "gilberta",
+     "role": "Buffer",
+     "weaponId": "wpn_funnel_0005",
+     "gearRec": [
+      "eternal_xiranite_light_armor",
+      "eternal_xiranite_gloves_t1",
+      "eternal_xiranite_auxiliary_arm",
+      "eternal_xiranite_auxiliary_arm"
+     ],
+     "weaponNote": {
+      "es": "Stanza of Memorials para el uso normal, según el autor. La ficha también lista Delivery Guaranteed (BIS), Type 42 y Junction Point.",
+      "en": "Stanza of Memorials for normal use, per the author. The card also lists Delivery Guaranteed (BIS), Type 42 and Junction Point."
+     },
+     "gearNote": {
+      "es": "Eternal Xiranite para el uso normal. Si en una carrera por acortar el eje falta Stagger, el autor pasa a Swordmancer con Delivery Guaranteed (Light Armor, Eternal Xiranite Gloves T1, dos NAV Beacon). Umbral de YZ-月咒: P0 152,54% / 154,24%; P4 129,66% / 131,11%, según el SP que devuelve Rossi a potencial 1.",
+      "en": "Eternal Xiranite for normal use. If Stagger falls short in a race to shorten the axis, the author moves to Swordmancer with Delivery Guaranteed (Light Armor, Eternal Xiranite Gloves T1, two NAV Beacons). YZ-月咒's threshold: P0 152.54% / 154.24%; P4 129.66% / 131.11%, depending on the SP Rossi returns at potential 1."
+     },
+     "deepNote": {
+      "es": "Su Combo sale con una reacción y aplica Lift. Su talento da Ultimate Gain a Guards, Casters y Supporters: aquí son los cuatro. Su Ultimate aplica Nature Infliction y Arts Susceptibility mientras dura su campo.",
+      "en": "Her Combo fires on a reaction and applies Lift. Her talent grants Ultimate Gain to Guards, Casters and Supporters: here that is all four. Her Ultimate applies Nature Infliction and Arts Susceptibility while its field lasts."
+     }
+    }
+   ],
+   "equipment": {
+    "intro": {
+     "es": "Fichas del autor al final de su video. Las de YZ-月咒 van como alternativas; sus umbrales de Ultimate Gain cuentan el 100% base, lo que da el equipo y el talento de Gilberta (7% o 12%).",
+     "en": "The author's cards at the end of the video. YZ-月咒's are listed as alternatives; the Ultimate Gain thresholds count the 100% base, what the gear gives and Gilberta's talent (7% or 12%)."
+    },
+    "alts": [
+     {
+      "scenario": {
+       "es": "Rossi: daño más estable (YZ-月咒)",
+       "en": "Rossi: steadier damage (YZ-月咒)"
+      },
+      "swap": {
+       "es": "MI Security al 3 (Armor T1, dos Scope T1) con Redeemer Gloves: más Critical Rate, para no depender tanto de la suerte en la Ultimate.",
+       "en": "3-piece MI Security (Armor T1, two Scope T1) with Redeemer Gloves: more Critical Rate, to rely less on luck in the Ultimate."
+      }
+     },
+     {
+      "scenario": {
+       "es": "Rossi: techo de daño (YZ-月咒)",
+       "en": "Rossi: damage ceiling (YZ-月咒)"
+      },
+      "swap": {
+       "es": "MI Security al 3 (Armor T1, Gloves T1, Scope T1) con Type 50 Yinglung Radar T1 o LYNX Slab: pega más cuando hay crítico.",
+       "en": "3-piece MI Security (Armor T1, Gloves T1, Scope T1) with Type 50 Yinglung Radar T1 or LYNX Slab: hits harder on a crit."
+      }
+     },
+     {
+      "scenario": {
+       "es": "Arcane sin su arma BIS (YZ-月咒)",
+       "en": "Arcane without her BIS (YZ-月咒)"
+      },
+      "swap": {
+       "es": "Detonation Unit con Eternal Xiranite al 3 (Armor, dos Bracing Slab T1) y Hot Work Gloves: da el buff de Eternal Xiranite, compensa el Ultimate Gain y suma Arts Intensity.",
+       "en": "Detonation Unit with 3-piece Eternal Xiranite (Armor, two Bracing Slab T1) and Hot Work Gloves: gives the Eternal Xiranite buff, makes up the Ultimate Gain and adds Arts Intensity."
+      }
+     },
+     {
+      "scenario": {
+       "es": "Gilberta con Swordmancer (YZ-月咒)",
+       "en": "Gilberta with Swordmancer (YZ-月咒)"
+      },
+      "swap": {
+       "es": "Delivery Guaranteed: Swordmancer Light Armor, Eternal Xiranite Wraps y dos NAV Beacon. Con Stanza of Memorials: Swordmancer Light Armor, TAC Gauntlets T1, NAV Beacon y Auxiliary Arm o Redeemer Seal. YZ-月咒 la prefiere porque sube el Stagger y el equipo puede poner la Ultimate de Rossi en Stagger; con Eternal Xiranite cree que puede faltar un poco.",
+       "en": "Delivery Guaranteed: Swordmancer Light Armor, Eternal Xiranite Wraps and two NAV Beacons. With Stanza of Memorials: Swordmancer Light Armor, TAC Gauntlets T1, NAV Beacon and Auxiliary Arm or Redeemer Seal. YZ-月咒 prefers it because it raises Stagger and the team can land Rossi's Ultimate in Stagger; with Eternal Xiranite, YZ thinks it may fall a little short."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "name": {
+    "es": "股神小炉 - Doble C Rossi + Si, SIN Arcane (Perlica · Gilberta)",
+    "en": "股神小炉 - Rossi + Si Dual-C, NO Arcane (Perlica · Gilberta)"
+   },
+   "subtitle": {
+    "es": "Si · Perlica · Gilberta",
+    "en": "Si · Perlica · Gilberta"
+   },
+   "blurb": {
+    "es": "Rossi y Si con Perlica y Gilberta, sin Arcane. El autor enseña una vuelta fija de tres teclas que no anda corta de SP y sirve para la mayoría del contenido, con el burst dentro de la misma vuelta. Añade un burst algo más difícil con dos Battle Skills de Perlica, que da un Combo de Si extra.",
+    "en": "Rossi and Si with Perlica and Gilberta, no Arcane. The author teaches a fixed three-key loop that does not run short on SP and works for most content, with the burst inside the same loop. They add a slightly harder burst with two Perlica Battle Skills, which gives an extra Si Combo."
+   },
+   "guideVideoId": "ro10",
+   "simple": {
+    "whatItDoes": {
+     "es": "La Battle Skill de Si pone Cryo Infliction y marca con Artful Intent, que guarda parte del daño. Una Final Strike hace salir el Combo de Perlica, que aplica Electrification; esa reacción hace salir el de Gilberta, que aplica Lift. Con Vulnerability y Arts Infliction en el enemigo sale el Combo de Rossi: su segunda fase consume las Arts Infliction y eso hace salir el de Si. Después, la segunda fase de la Battle Skill de Si saca el Inksoul, la Battle Skill de Rossi renueva Razor Clawmark y la tercera fase de Si cobra lo guardado.",
+     "en": "Si's Battle Skill puts Cryo Infliction and marks with Artful Intent, which stores part of the damage. A Final Strike brings out Perlica's Combo, which applies Electrification; that reaction brings out Gilberta's, which applies Lift. With Vulnerability and Arts Infliction on the enemy, Rossi's Combo comes out: its second sequence consumes the Arts Infliction and that brings out Si's. Then the second phase of Si's Battle Skill pulls out the Inksoul, Rossi's Battle Skill renews Razor Clawmark and Si's third phase cashes in what was stored."
+    },
+    "steps": [
+     {
+      "who": "si",
+      "do": {
+       "es": "Cuando aparezca el icono del Combo de Perlica, Battle Skill de Si.",
+       "en": "When Perlica's Combo icon appears, Si's Battle Skill."
+      }
+     },
+     {
+      "who": "perlica",
+      "do": {
+       "es": "Pulsa los Combos a medida que salgan: Perlica, Gilberta, las dos fases de Rossi y Si.",
+       "en": "Press the Combos as they come out: Perlica, Gilberta, Rossi's two sequences and Si."
+      },
+      "key": true
+     },
+     {
+      "who": "si",
+      "do": {
+       "es": "Segunda fase de la Battle Skill de Si (saca el Inksoul).",
+       "en": "Second phase of Si's Battle Skill (pulls out the Inksoul)."
+      }
+     },
+     {
+      "who": "rossi",
+      "do": {
+       "es": "Battle Skill de Rossi (renueva Razor Clawmark).",
+       "en": "Rossi's Battle Skill (renews Razor Clawmark)."
+      }
+     },
+     {
+      "who": "si",
+      "do": {
+       "es": "Tercera fase de la Battle Skill de Si (detona el Inksoul) y vuelve a golpear al jefe con Final Strikes.",
+       "en": "Third phase of Si's Battle Skill (detonates the Inksoul), then go back to hitting the boss with Final Strikes."
+      }
+     },
+     {
+      "who": "gilberta",
+      "do": {
+       "es": "Cuando las cuatro Ultimates estén listas, lánzalas seguidas justo después del Combo de Si.",
+       "en": "When all four Ultimates are ready, cast them in a row right after Si's Combo."
+      },
+      "key": true
+     }
+    ],
+    "gear": [
+     {
+      "id": "rossi",
+      "line": {
+       "es": "Lupine Scarlet (o el arma del pase mensual). MI Security (Armor T1, dos Scope T1) con Redeemer Gloves.",
+       "en": "Lupine Scarlet (or the monthly pass weapon). MI Security (Armor T1, two Scope T1) with Redeemer Gloves."
+      }
+     },
+     {
+      "id": "si",
+      "line": {
+       "es": "Jade Vessel (o el arma del pase mensual). Type 50 Yinglung al 3 (Soft Armor, dos Beacon) con Rift Trekker Gloves.",
+       "en": "Jade Vessel (or the monthly pass weapon). 3-piece Type 50 Yinglung (Soft Armor, two Beacons) with Rift Trekker Gloves."
+      }
+     },
+     {
+      "id": "perlica",
+      "line": {
+       "es": "Stanza of Memorials. Pulser Labs al 3 (Disruptor Suit, dos Calibrator) con Rift Trekker Gloves.",
+       "en": "Stanza of Memorials. 3-piece Pulser Labs (Disruptor Suit, two Calibrators) with Rift Trekker Gloves."
+      }
+     },
+     {
+      "id": "gilberta",
+      "line": {
+       "es": "Delivery Guaranteed (o Junction Point). Redeemer Armor con Eternal Xiranite al 3 (Gloves T1, dos Auxiliary Arm); Swordmancer si necesitas más Stagger.",
+       "en": "Delivery Guaranteed (or Junction Point). Redeemer Armor with 3-piece Eternal Xiranite (Gloves T1, two Auxiliary Arms); Swordmancer if you need more Stagger."
+      }
+     }
+    ]
+   },
+   "overview": {
+    "es": "El autor compara este equipo con otros suyos de Si: aquí no falta SP y, una vez aprendido, se juega con soltura. Enseña dos formas de jugarlo. La fija usa tres teclas (1 = Si, 2 = Rossi, E = Combo) con la secuencia 1EEEEE121, que se repite durante todo el combate; el burst es esa misma vuelta con las cuatro Ultimates tras el Combo de Si. La otra solo cambia el burst: dos Battle Skills de Perlica sacan un segundo Combo de Si y, según el autor, aprovechan mejor los buffs a cambio de algo más de trabajo. También enseña un ajuste de la primera vuelta para llenar las tres acumulaciones del set Type 50 Yinglung de Si. Para el día a día recomienda la vuelta fija con el burst simple, y que cada uno amplíe según su soltura y el contenido. Si tienes a Arcane, con Si y Rossi fijos, dice que Arcane, Perlica y Gilberta son tres para elegir dos, cada elección con otra forma de jugar, pero aquí no lo desarrolla.",
+    "en": "The author compares this team with their other Si teams: here SP is not short and, once learned, it plays smoothly. They teach two ways to play it. The fixed one uses three keys (1 = Si, 2 = Rossi, E = Combo) with the sequence 1EEEEE121, repeated throughout the fight; the burst is that same loop with the four Ultimates after Si's Combo. The other only changes the burst: two Perlica Battle Skills bring out a second Si Combo and, per the author, make better use of the buffs for a bit more work. They also show a first-loop adjustment to fill Si's three Type 50 Yinglung set stacks. For normal play they recommend the fixed loop with the simple burst, and expanding according to your skill and the content. If you have Arcane, with Si and Rossi fixed, they say Arcane, Perlica and Gilberta are three to pick two from, each choice with a different playstyle, but they do not develop it here."
+   },
+   "playstyle": {
+    "difficulty": {
+     "es": "Baja (tres teclas); burst complejo, media",
+     "en": "Low (three keys); complex burst, medium"
+    },
+    "content": {
+     "es": "La mayoría del contenido, según el autor",
+     "en": "Most content, per the author"
+    },
+    "tags": [
+     {
+      "es": "Doble C",
+      "en": "Dual carry"
+     },
+     {
+      "es": "Sin Arcane",
+      "en": "No Arcane"
+     },
+     {
+      "es": "Vuelta de tres teclas",
+      "en": "Three-key loop"
+     }
+    ]
+   },
+   "pros": [
+    {
+     "es": "No anda corto de SP, según el autor.",
+     "en": "It does not run short on SP, per the author."
+    },
+    {
+     "es": "La vuelta fija usa tres teclas, y el burst simple es la misma vuelta con las cuatro Ultimates.",
+     "en": "The fixed loop uses three keys, and the simple burst is the same loop with the four Ultimates."
+    },
+    {
+     "es": "El final de la vuelta (121) es flexible: la Battle Skill de Rossi y la detonación del Inksoul admiten margen.",
+     "en": "The end of the loop (121) is flexible: Rossi's Battle Skill and the Inksoul detonation have leeway."
+    }
+   ],
+   "cons": [
+    {
+     "es": "El Combo de Perlica necesita una Final Strike que acierte al jefe: si el Inksoul queda lejos, hay que prever esa Final Strike.",
+     "en": "Perlica's Combo needs a Final Strike that hits the boss: if the Inksoul is far away, you have to plan for that Final Strike."
+    },
+    {
+     "es": "El burst simple pega algo menos que el complejo, según el autor.",
+     "en": "The simple burst hits a little less than the complex one, per the author."
+    }
+   ],
+   "whyItWorks": [
+    {
+     "icon": "",
+     "title": {
+      "es": "Un Combo llama al siguiente",
+      "en": "One Combo calls the next"
+     },
+     "body": {
+      "es": "La cadena sale de las condiciones de cada Combo. El de Perlica sale con cualquier Final Strike del personaje controlado y aplica Electrification. Esa reacción activa el de Gilberta, que aplica Lift y deja Vulnerability. Con Vulnerability y la Cryo Infliction de la Battle Skill de Si, sale el de Rossi. Su segunda fase consume las Arts Infliction, y el de Si sale cuando se consume Cryo o Heat Infliction. Por eso, el autor señala que basta con esperar a que aparezca el icono de Perlica y pulsar los Combos en orden.",
+      "en": "The chain comes from each Combo's condition. Perlica's fires on any Final Strike by the controlled operator and applies Electrification. That reaction triggers Gilberta's, which applies Lift and leaves Vulnerability. With Vulnerability and the Cryo Infliction from Si's Battle Skill, Rossi's comes out. Its second sequence consumes the Arts Infliction, and Si's fires when Cryo or Heat Infliction is consumed. That is why the author notes you just wait for Perlica's icon and press the Combos in order."
+     }
+    },
+    {
+     "icon": "",
+     "title": {
+      "es": "Tres Battle Skills para el set de Si",
+      "en": "Three Battle Skills for Si's set"
+     },
+     "body": {
+      "es": "El 3pc de Type 50 Yinglung da una acumulación cada vez que el equipo lanza una Battle Skill, y cada una suma +20% de daño al siguiente Combo de quien lo lleva, hasta 3. En su ajuste de la primera vuelta, el autor cuenta tres Battle Skills antes del Combo de Si: las fases 1 y 2 de la de Si y la de Rossi.",
+      "en": "The Type 50 Yinglung 3pc gives a stack whenever the team casts a Battle Skill, and each adds +20% DMG to the wearer's next Combo, up to 3. In their first-loop adjustment, the author counts three Battle Skills before Si's Combo: phases 1 and 2 of Si's and Rossi's."
+     }
+    },
+    {
+     "icon": "",
+     "title": {
+      "es": "Un segundo Combo de Si en el burst",
+      "en": "A second Si Combo in the burst"
+     },
+     "body": {
+      "es": "El burst complejo juega con las Infliction. Una Battle Skill de Perlica antes de las Ultimates pone Electric Infliction, y la Ultimate de Gilberta, con su Nature Infliction, la convierte en Corrosion. Por eso, según el autor, la Heat Infliction de la Ultimate de Rossi se queda en el enemigo. La segunda Battle Skill de Perlica se la come, y eso vuelve a activar el Combo de Si. En el kit, Si en la Posición 01 baja su propio cooldown de Combo con su Ultimate.",
+      "en": "The complex burst plays with the Inflictions. A Perlica Battle Skill before the Ultimates puts Electric Infliction, and Gilberta's Ultimate, with its Nature Infliction, turns it into Corrosion. That is why, per the author, the Heat Infliction from Rossi's Ultimate stays on the enemy. Perlica's second Battle Skill eats it, and that triggers Si's Combo again. In the kit, Si in Position 01 lowers her own Combo cooldown with her Ultimate."
+     }
+    }
+   ],
+   "rotation": [
+    {
+     "phase": {
+      "es": "Vuelta fija (1EEEEE121)",
+      "en": "Fixed loop (1EEEEE121)"
+     },
+     "action": {
+      "es": "Battle Skill de Si → Combos de Perlica, Gilberta, Rossi (2 fases) y Si → 2.ª fase de Si → Battle Skill de Rossi → 3.ª fase de Si.",
+      "en": "Si's Battle Skill → Perlica's, Gilberta's, Rossi's (2 sequences) and Si's Combos → Si's 2nd phase → Rossi's Battle Skill → Si's 3rd phase."
+     },
+     "steps": [
+      {
+       "who": "si",
+       "do": {
+        "es": "Tecla 1 cuando aparezca el icono del Combo de Perlica: ojo, cuando salga, no cuando ya se haya lanzado. Si sabes que tu siguiente Final Strike acertará, puedes pulsar la Battle Skill de Si antes y hacer salir el Combo después.",
+        "en": "Key 1 when Perlica's Combo icon appears: note, when it comes out, not after it was cast. If you know your next Final Strike will land, you can press Si's Battle Skill first and bring out the Combo afterward."
+       },
+       "key": true
+      },
+      {
+       "who": "perlica",
+       "do": {
+        "es": "E hasta que no quede nada que pulsar: Perlica, Gilberta, las dos fases de Rossi y Si.",
+        "en": "E until nothing is left to press: Perlica, Gilberta, Rossi's two sequences and Si."
+       }
+      },
+      {
+       "who": "si",
+       "do": {
+        "es": "Tecla 1: segunda fase, que saca el Inksoul. Vale en cualquier momento, también en medio de las E. Si la pulsas pronto, el Combo de Gilberta acierta con seguridad al Inksoul.",
+        "en": "Key 1: second phase, which pulls out the Inksoul. Any moment works, even in the middle of the E presses. Press it early and Gilberta's Combo reliably hits the Inksoul."
+       }
+      },
+      {
+       "who": "rossi",
+       "do": {
+        "es": "Tecla 2: Battle Skill de Rossi. Solo sirve para poner Razor Clawmark, que dura mucho: desde la segunda vuelta puede ir más tarde, con tal de renovarla.",
+        "en": "Key 2: Rossi's Battle Skill. It is only there to put Razor Clawmark, which lasts long: from the second loop on it can go later, as long as you renew it."
+       }
+      },
+      {
+       "who": "si",
+       "do": {
+        "es": "Tecla 1: tercera fase, que detona el Inksoul. Hay margen, pero detónalo antes si el Inksoul está lejos del jefe: si se termina justo al ir a pegar, la Final Strike se pierde. El autor detona tras dos series de Final Strikes y vuelve a golpear al jefe.",
+        "en": "Key 1: third phase, which detonates the Inksoul. There is leeway, but detonate early if the Inksoul is far from the boss: if it ends just as you go to hit, the Final Strike is lost. The author detonates after two series of Final Strikes and goes back to hitting the boss."
+       }
+      }
+     ],
+     "tip": {
+      "es": "El 121 del final también admite otro orden: 2 antes que 1, o 1 antes que 2.",
+      "en": "The final 121 also allows another order: 2 before 1, or 1 before 2."
+     }
+    },
+    {
+     "phase": {
+      "es": "Burst simple (1EEEEE alt+1234 121)",
+      "en": "Simple burst (1EEEEE alt+1234 121)"
+     },
+     "action": {
+      "es": "La misma vuelta, con las cuatro Ultimates seguidas después del Combo de Si.",
+      "en": "The same loop, with all four Ultimates in a row after Si's Combo."
+     },
+     "steps": [
+      {
+       "who": "si",
+       "do": {
+        "es": "Tras dos vueltas, a mitad de la tercera, las Ultimates ya están listas. Espera a soltar todas las E.",
+        "en": "After two loops, midway through the third, the Ultimates are ready. Wait until all the E presses are out."
+       }
+      },
+      {
+       "who": "gilberta",
+       "do": {
+        "es": "Lanza las cuatro Ultimates seguidas: el orden no importa, solo que sean seguidas. En PC, Alt + número es lo más rápido. En móvil, deja para el final la de Rossi o la de Gilberta.",
+        "en": "Cast all four Ultimates in a row: the order does not matter, only that they are back to back. On PC, Alt + number is fastest. On mobile, leave Rossi's or Gilberta's for last."
+       },
+       "key": true
+      },
+      {
+       "who": "si",
+       "do": {
+        "es": "Sigue con 121: segunda fase de Si, Battle Skill de Rossi y tercera fase de Si.",
+        "en": "Continue with 121: Si's second phase, Rossi's Battle Skill and Si's third phase."
+       }
+      },
+      {
+       "who": "perlica",
+       "do": {
+        "es": "Al terminar, el Combo de Perlica vuelve a estar listo: tras detonar el Inksoul, enlaza otra vuelta. Cuando las cuatro Ultimates vuelvan a estar listas, repite el burst.",
+        "en": "When it ends, Perlica's Combo is ready again: after detonating the Inksoul, chain another loop. When the four Ultimates are ready again, repeat the burst."
+       }
+      }
+     ]
+    }
+   ],
+   "rotationVariants": [
+    {
+     "name": {
+      "es": "Burst complejo (1EEEE3E alt+1234 3E11)",
+      "en": "Complex burst (1EEEE3E alt+1234 3E11)"
+     },
+     "description": {
+      "es": "El resto de la vuelta es igual. Dos Battle Skills de Perlica dan un segundo Combo de Si en el burst. Al terminar se vuelve a la vuelta fija, pero hay que mirar el cooldown del Combo de Si.",
+      "en": "The rest of the loop stays the same. Two Perlica Battle Skills give a second Si Combo in the burst. Afterward you return to the fixed loop, but you have to watch Si's Combo cooldown."
+     },
+     "phases": [
+      {
+       "phase": {
+        "es": "Burst",
+        "en": "Burst"
+       },
+       "action": {
+        "es": "Battle Skill de Si → Combos de Perlica, Gilberta y Rossi (2 fases) → Battle Skill de Perlica → Combo de Si → Ultimates → Battle Skill de Perlica → Combo de Si → 2.ª y 3.ª fase de Si.",
+        "en": "Si's Battle Skill → Perlica's, Gilberta's and Rossi's (2 sequences) Combos → Perlica's Battle Skill → Si's Combo → Ultimates → Perlica's Battle Skill → Si's Combo → Si's 2nd and 3rd phases."
+       },
+       "steps": [
+        {
+         "who": "perlica",
+         "do": {
+          "es": "Antes de lanzar el Combo de Si, que ya salió por la segunda fase de Rossi: tecla 3, Battle Skill de Perlica, para poner Electric Infliction.",
+          "en": "Before casting Si's Combo, already brought out by Rossi's second sequence: key 3, Perlica's Battle Skill, to put Electric Infliction."
+         },
+         "key": true
+        },
+        {
+         "who": "si",
+         "do": {
+          "es": "Combo de Si y, a continuación, las cuatro Ultimates. La de Gilberta pone Nature Infliction, que convierte esa Electric en Corrosion; así la Heat Infliction de la Ultimate de Rossi queda en el enemigo.",
+          "en": "Si's Combo, then all four Ultimates. Gilberta's puts Nature Infliction, which turns that Electric into Corrosion; that way the Heat Infliction from Rossi's Ultimate stays on the enemy."
+         }
+        },
+        {
+         "who": "perlica",
+         "do": {
+          "es": "Tecla 3 otra vez: la Battle Skill de Perlica se come esa Heat Infliction.",
+          "en": "Key 3 again: Perlica's Battle Skill eats that Heat Infliction."
+         },
+         "key": true
+        },
+        {
+         "who": "si",
+         "do": {
+          "es": "Vuelve a salir el Combo de Si: es el golpe extra del burst. Termina con la segunda y la tercera fase de su Battle Skill.",
+          "en": "Si's Combo comes out again: that is the burst's extra hit. Finish with the second and third phases of her Battle Skill."
+         }
+        }
+       ],
+       "tip": {
+        "es": "Después de este burst, cuando salga el Combo de Perlica, mira si el de Si ya volvió. Si no, espera a que vuelva antes de empezar la vuelta siguiente.",
+        "en": "After this burst, when Perlica's Combo comes out, check whether Si's is back. If not, wait for it before starting the next loop."
+       }
+      }
+     ]
+    },
+    {
+     "name": {
+      "es": "Primera vuelta con el set lleno (11EE2EEE1)",
+      "en": "First loop with the full set (11EE2EEE1)"
+     },
+     "description": {
+      "es": "Ajuste para la primera vuelta del combate: las Battle Skills van antes del Combo de Si, para que llegue con las tres acumulaciones de Type 50 Yinglung.",
+      "en": "Adjustment for the fight's first loop: the Battle Skills go before Si's Combo, so it arrives with all three Type 50 Yinglung stacks."
+     },
+     "phases": [
+      {
+       "phase": {
+        "es": "Primera vuelta",
+        "en": "First loop"
+       },
+       "action": {
+        "es": "Battle Skill de Si → 2.ª fase de Si → Combos de Perlica y Gilberta → Battle Skill de Rossi → Combo de Rossi (2 fases) → Combo de Si → 3.ª fase de Si.",
+        "en": "Si's Battle Skill → Si's 2nd phase → Perlica's and Gilberta's Combos → Rossi's Battle Skill → Rossi's Combo (2 sequences) → Si's Combo → Si's 3rd phase."
+       },
+       "steps": [
+        {
+         "who": "si",
+         "do": {
+          "es": "La segunda fase de Si puede ir en cualquier punto antes de su Combo. El autor la pone justo después de la primera.",
+          "en": "Si's second phase can go anywhere before her Combo. The author places it right after the first."
+         }
+        },
+        {
+         "who": "rossi",
+         "do": {
+          "es": "La Battle Skill de Rossi va siempre después del Combo de Gilberta.",
+          "en": "Rossi's Battle Skill always goes after Gilberta's Combo."
+         }
+        },
+        {
+         "who": "rossi",
+         "do": {
+          "es": "Esa Battle Skill tiene dos partes: espera a que termine antes de pulsar el Combo de Rossi, o este puede tragarse la segunda parte.",
+          "en": "That Battle Skill has two parts: wait for it to finish before pressing Rossi's Combo, or it may swallow the second part."
+         },
+         "key": true
+        }
+       ],
+       "tip": {
+        "es": "En la vuelta fija, sacar el Inksoul siempre antes del Combo de Si también le da las tres acumulaciones cada vez.",
+        "en": "In the fixed loop, always pulling out the Inksoul before Si's Combo also gives her all three stacks every time."
+       }
+      }
+     ]
+    }
+   ],
+   "skillPriority": [
+    {
+     "charId": "rossi",
+     "order": {
+      "es": "Ultimate = Combo (especialización 3) > Battle Skill (especialización 3) > Ataque básico (especialización 3)",
+      "en": "Ultimate = Combo (specialization 3) > Battle Skill (specialization 3) > Basic attack (specialization 3)"
+     },
+     "note": {
+      "es": "Refinado: primero Ultimate Gain al máximo en el equipo.",
+      "en": "Artificing: first max out Ultimate Gain on the gear."
+     },
+     "assumeRanks": {
+      "ultimate": 12,
+      "combo_skill": 12,
+      "battle_skill": 12
+     }
+    },
+    {
+     "charId": "si",
+     "order": {
+      "es": "Combo = Ultimate = Battle Skill (especialización 3) > Ataque básico (especialización 3)",
+      "en": "Combo = Ultimate = Battle Skill (specialization 3) > Basic attack (specialization 3)"
+     },
+     "note": {
+      "es": "Refinado: primero Ultimate Gain al máximo en el equipo.",
+      "en": "Artificing: first max out Ultimate Gain on the gear."
+     },
+     "assumeRanks": {
+      "combo_skill": 12,
+      "ultimate": 12,
+      "battle_skill": 12
+     }
+    },
+    {
+     "charId": "perlica",
+     "order": {
+      "es": "Combo: puede ir a especialización 3",
+      "en": "Combo: can go to specialization 3"
+     },
+     "note": {
+      "es": "Los Combos de Perlica y Gilberta, los dos a especialización 3 o ninguno: en el kit, ambos bajan de 20 s a 19 s de cooldown a ese rango.",
+      "en": "Perlica's and Gilberta's Combos, both at specialization 3 or neither: in the kit, both drop from a 20 s to a 19 s cooldown at that rank."
+     }
+    },
+    {
+     "charId": "gilberta",
+     "order": {
+      "es": "Ultimate (especialización 3) > Combo (especialización 3)",
+      "en": "Ultimate (specialization 3) > Combo (specialization 3)"
+     },
+     "note": {
+      "es": "Su Combo, igual que el de Perlica: los dos a especialización 3 o ninguno.",
+      "en": "Her Combo, like Perlica's: both at specialization 3 or neither."
+     },
+     "assumeRanks": {
+      "ultimate": 12
+     }
+    }
+   ],
+   "pitfalls": [
+    {
+     "es": "El momento de empezar es cuando el icono del Combo de Perlica aparece en pantalla, no cuando lo lanzas.",
+     "en": "The time to start is when Perlica's Combo icon appears on screen, not when you cast it."
+    },
+    {
+     "es": "No pulses el Combo de Rossi antes de que termine su Battle Skill: puede tragarse su segunda parte.",
+     "en": "Do not press Rossi's Combo before her Battle Skill finishes: it may swallow the second part."
+    },
+    {
+     "es": "Si el Inksoul está lejos del jefe y se acaba justo cuando vas a hacer la Final Strike, esta se pierde y no sale el Combo de Perlica. Detónalo antes y golpea al jefe.",
+     "en": "If the Inksoul is far from the boss and ends just as you land the Final Strike, it is lost and Perlica's Combo does not come out. Detonate it early and hit the boss."
+    },
+    {
+     "es": "Tras el burst complejo, no empieces la vuelta sin mirar el cooldown del Combo de Si.",
+     "en": "After the complex burst, do not start the loop without checking Si's Combo cooldown."
+    }
+   ],
+   "vsOtherComps": [
+    {
+     "name": {
+      "es": "阿卡秋_ArkQiu - Doble C Rossi + Si (Gilberta · Camille)",
+      "en": "阿卡秋_ArkQiu - Rossi + Si Dual-C (Gilberta · Camille)"
+     },
+     "verdict": {
+      "es": "El mismo núcleo con Camille en lugar de Perlica, y un eje de cuatro vueltas más largo. Este se juega con una sola vuelta fija.",
+      "en": "The same core with Camille instead of Perlica, and a longer four-loop axis. This one plays with a single fixed loop."
+     }
+    },
+    {
+     "name": {
+      "es": "烟花弎月xyz - Rossi con Si · Arcane (WILL) · Gilberta",
+      "en": "烟花弎月xyz - Rossi with Si · Arcane (WILL) · Gilberta"
+     },
+     "verdict": {
+      "es": "Es el equipo con Arcane en forma WILL en lugar de Perlica. El autor de esta guía presenta a Arcane, Perlica y Gilberta como tres opciones para dos puestos, pero solo desarrolla esta forma.",
+      "en": "It is the team with WILL-form Arcane instead of Perlica. This guide's author presents Arcane, Perlica and Gilberta as three options for two seats, but only develops this form."
+     }
+    }
+   ],
+   "members": [
+    {
+     "id": "rossi",
+     "role": "Carry",
+     "weaponId": "wpn_sword_0022",
+     "gearRec": [
+      "mi_security_armor_t1",
+      "redeemer_gloves",
+      "mi_security_scope_t1",
+      "mi_security_scope_t1"
+     ],
+     "weaponNote": {
+      "es": "Lupine Scarlet (BIS). Sin ella, el arma del pase mensual. Essence al máximo, empezando por el atributo 3.",
+      "en": "Lupine Scarlet (BIS). Without it, the monthly pass weapon. Max out the Essence, starting with attribute 3."
+     },
+     "gearNote": {
+      "es": "MI Security al 3 con Redeemer Gloves. Refina primero el Ultimate Gain.",
+      "en": "3-piece MI Security with Redeemer Gloves. Refine Ultimate Gain first."
+     },
+     "deepNote": {
+      "es": "Va en el asiento 2 del autor. Su Combo pide Vulnerability y Arts Infliction en el enemigo. Su Battle Skill solo suelta Wolven Ambrage si el objetivo ya tiene Vulnerability, y es Wolven Ambrage quien aplica Razor Clawmark.",
+      "en": "She sits in the author's slot 2. Her Combo needs Vulnerability and Arts Infliction on the enemy. Her Battle Skill only unleashes Wolven Ambrage if the target already has Vulnerability, and Wolven Ambrage is what applies Razor Clawmark."
+     }
+    },
+    {
+     "id": "si",
+     "role": "Carry",
+     "weaponId": "wpn_claym_0018",
+     "gearRec": [
+      "type_50_yinglung_soft_armor",
+      "rift_trekker_gloves",
+      "type_50_yinglung_beacon",
+      "type_50_yinglung_beacon"
+     ],
+     "weaponNote": {
+      "es": "Jade Vessel (BIS). Sin ella, el arma del pase mensual. Essence al máximo, empezando por el atributo 3.",
+      "en": "Jade Vessel (BIS). Without it, the monthly pass weapon. Max out the Essence, starting with attribute 3."
+     },
+     "gearNote": {
+      "es": "Type 50 Yinglung al 3 con Rift Trekker Gloves. Refina primero el Ultimate Gain.",
+      "en": "3-piece Type 50 Yinglung with Rift Trekker Gloves. Refine Ultimate Gain first."
+     },
+     "deepNote": {
+      "es": "Va en la Posición 01. Su Combo sale cuando se consume o absorbe Cryo o Heat Infliction. Su Ultimate da Cryo Amp y Heat Amp a todo el equipo durante 12 s. La fase 2 de su Battle Skill cuesta 15 SP y la fase 3 no cuesta SP.",
+      "en": "She goes in Position 01. Her Combo fires when Cryo or Heat Infliction is consumed or absorbed. Her Ultimate grants Cryo Amp and Heat Amp to the entire team for 12 s. Phase 2 of her Battle Skill costs 15 SP and phase 3 costs none."
+     }
+    },
+    {
+     "id": "perlica",
+     "role": "Enabler",
+     "weaponId": "wpn_funnel_0005",
+     "gearRec": [
+      "pulser_labs_disruptor_suit",
+      "rift_trekker_gloves",
+      "pulser_labs_calibrator",
+      "pulser_labs_calibrator"
+     ],
+     "weaponNote": {
+      "es": "Stanza of Memorials. En la Essence, basta con el atributo 3.",
+      "en": "Stanza of Memorials. On the Essence, attribute 3 is enough."
+     },
+     "gearNote": {
+      "es": "Pulser Labs al 3, priorizando Arts Intensity, con unos guantes que tengan Ultimate Gain (Rift Trekker Gloves en la ficha).",
+      "en": "3-piece Pulser Labs, prioritizing Arts Intensity, with gloves that have Ultimate Gain (Rift Trekker Gloves on the card)."
+     },
+     "deepNote": {
+      "es": "Su Combo es el que arranca la cadena y sale con cualquier Final Strike del personaje controlado. Su Battle Skill aplica Electric Infliction, la base del burst complejo.",
+      "en": "Her Combo is what starts the chain and fires on any Final Strike by the controlled operator. Her Battle Skill applies Electric Infliction, the basis of the complex burst."
+     }
+    },
+    {
+     "id": "gilberta",
+     "role": "Buffer",
+     "weaponId": "wpn_funnel_0011",
+     "gearRec": [
+      "redeemer_armor",
+      "eternal_xiranite_gloves_t1",
+      "eternal_xiranite_auxiliary_arm",
+      "eternal_xiranite_auxiliary_arm"
+     ],
+     "weaponNote": {
+      "es": "Delivery Guaranteed (BIS). En la Essence, primero Ultimate Gain al máximo y después el atributo 3; el atributo 1 no hace falta. Sin ella, Junction Point.",
+      "en": "Delivery Guaranteed (BIS). On the Essence, first max out Ultimate Gain and then attribute 3; attribute 1 is not needed. Without it, Junction Point."
+     },
+     "gearNote": {
+      "es": "Ficha: Eternal Xiranite al 3 con Redeemer Armor. Con la BIS y su Essence al máximo no hace falta refinar el Ultimate Gain, con cualquiera de los dos sets.",
+      "en": "Card: 3-piece Eternal Xiranite with Redeemer Armor. With the BIS and its Essence maxed, you do not need to refine Ultimate Gain, with either set."
+     },
+     "deepNote": {
+      "es": "Su Combo sale cuando se aplica una Arts Reaction al enemigo y aplica Lift. Su Ultimate pone Nature Infliction y Arts Susceptibility, que sube con cada acumulación de Vulnerability del objetivo.",
+      "en": "Her Combo fires when an Arts Reaction is applied to the enemy and applies Lift. Her Ultimate puts Nature Infliction and Arts Susceptibility, which grows with each Vulnerability stack on the target."
+     }
+    }
+   ],
+   "equipment": {
+    "intro": {
+     "es": "Ficha del autor al final del video, con el arma y las cuatro piezas de cada miembro.",
+     "en": "The author's card at the end of the video, with each member's weapon and four pieces."
+    },
+    "alts": [
+     {
+      "scenario": {
+       "es": "Si necesitas hacer Stagger más rápido",
+       "en": "If you need to Stagger faster"
+      },
+      "swap": {
+       "es": "Set Swordmancer en Gilberta en lugar de Eternal Xiranite. Depende de la barra de Stagger del jefe: en el jefe del video no hace falta, porque ya coincide con el burst. La ficha no da las piezas.",
+       "en": "Swordmancer set on Gilberta instead of Eternal Xiranite. It depends on the boss's Stagger bar: the video's boss does not need it, since it already lines up with the burst. The card does not list the pieces."
+      }
+     },
+     {
+      "scenario": {
+       "es": "Si tienes a Arcane",
+       "en": "If you have Arcane"
+      },
+      "swap": {
+       "es": "Con Si y Rossi fijos, Arcane, Perlica y Gilberta son tres para elegir dos, cada elección con otra forma de jugar. El autor no lo desarrolla en este video.",
+       "en": "With Si and Rossi fixed, Arcane, Perlica and Gilberta are three to pick two from, each choice with a different playstyle. The author does not develop it in this video."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "name": {
+    "es": "阿卡秋_ArkQiu - SIN Si: Tangtang · Gilberta · Camille",
+    "en": "阿卡秋_ArkQiu - NO Si: Tangtang · Gilberta · Camille"
+   },
+   "subtitle": {
+    "es": "Tangtang · Gilberta · Camille",
+    "en": "Tangtang · Gilberta · Camille"
+   },
+   "blurb": {
+    "es": "Rossi de carry con Tangtang, Gilberta y Camille, sin Si. El eje tiene dos vueltas de carga y dos de ciclo, y todas salen de la primera con pocos cambios. El autor muestra una partida de 1:05 en 斧柄纪年 y deja un consejo para bajar del minuto.",
+    "en": "Rossi as carry with Tangtang, Gilberta and Camille, no Si. The axis has two charge loops and two cycle loops, all built from the first with few changes. The author shows a 1:05 run in 斧柄纪年 and leaves a tip for getting under a minute."
+   },
+   "guideVideoId": "ro12",
+   "simple": {
+    "whatItDoes": {
+     "es": "Las Battle Skills de Camille y Tangtang ponen Heat Infliction y Cryo Infliction: eso hace salir los Combos de Gilberta, Tangtang y Camille. El de Gilberta aplica Lift, que deja Vulnerability. Una segunda Battle Skill de Tangtang saca su Combo y el de Rossi, que pide Vulnerability y Arts Infliction en el enemigo. En el ciclo 1, la Ultimate de Camille pone la Heat Infliction y la de Tangtang, con un ataque en picado, la Cryo. Camille da dos Links, que se lleva la Ultimate de Rossi, y Gilberta suma la Arts Susceptibility de su Ultimate.",
+     "en": "Camille's and Tangtang's Battle Skills put Heat Infliction and Cryo Infliction: that brings out Gilberta's, Tangtang's and Camille's Combos. Gilberta's applies Lift, which leaves Vulnerability. A second Tangtang Battle Skill brings out her Combo and Rossi's, which needs Vulnerability and Arts Infliction on the enemy. In cycle 1, Camille's Ultimate puts the Heat Infliction and Tangtang's, with a dive attack, the Cryo. Camille grants two Links, which Rossi's Ultimate takes, and Gilberta adds her Ultimate's Arts Susceptibility."
+    },
+    "steps": [
+     {
+      "who": "camille",
+      "do": {
+       "es": "Battle Skills de Camille y Tangtang.",
+       "en": "Camille's and Tangtang's Battle Skills."
+      }
+     },
+     {
+      "who": "gilberta",
+      "do": {
+       "es": "Salen tres Combos: Gilberta, Tangtang y Camille. Púlsalos todos.",
+       "en": "Three Combos come out: Gilberta, Tangtang and Camille. Press them all."
+      },
+      "key": true
+     },
+     {
+      "who": "tangtang",
+      "do": {
+       "es": "Cuando vuelva el Combo de Tangtang, su Battle Skill: salen su Combo y el de Rossi.",
+       "en": "When Tangtang's Combo is back, her Battle Skill: her Combo and Rossi's come out."
+      },
+      "key": true
+     },
+     {
+      "who": "rossi",
+      "do": {
+       "es": "Las dos fases del Combo de Rossi. En la carga 2 y el ciclo 2 entra además su Battle Skill, que deja Razor Clawmark.",
+       "en": "Both sequences of Rossi's Combo. Charge 2 and cycle 2 also add her Battle Skill, which leaves Razor Clawmark."
+      }
+     }
+    ],
+    "gear": [
+     {
+      "id": "rossi",
+      "line": {
+       "es": "Lupine Scarlet (o Glorious Memory). MI Security (Armor T1, dos Scope T1) con Redeemer Gloves: umbral de Ultimate Gain 121%.",
+       "en": "Lupine Scarlet (or Glorious Memory). MI Security (Armor T1, two Scope T1) with Redeemer Gloves: 121% Ultimate Gain threshold."
+      }
+     },
+     {
+      "id": "tangtang",
+      "line": {
+       "es": "Brigand's Calling (o Home Longing). Qingbo: Heavy Armor, Gauntlets y dos Positioning Kit. Umbral 111%.",
+       "en": "Brigand's Calling (or Home Longing). Qingbo: Heavy Armor, Gauntlets and two Positioning Kits. 111% threshold."
+      }
+     },
+     {
+      "id": "gilberta",
+      "line": {
+       "es": "Stanza of Memorials (o Delivery Guaranteed). Eternal Xiranite: Light Armor, Wraps y dos Auxiliary Arm. Umbral 146,2%.",
+       "en": "Stanza of Memorials (or Delivery Guaranteed). Eternal Xiranite: Light Armor, Wraps and two Auxiliary Arms. 146.2% threshold."
+      }
+     },
+     {
+      "id": "camille",
+      "line": {
+       "es": "Beacon of Duty. Frontiers (Protection Suit, Fiber Gloves T1, Extra O2 Tube T1) con Redeemer Seal. Umbral 206,7%.",
+       "en": "Beacon of Duty. Frontiers (Protection Suit, Fiber Gloves T1, Extra O2 Tube T1) with Redeemer Seal. 206.7% threshold."
+      }
+     }
+    ]
+   },
+   "overview": {
+    "es": "El autor presenta el equipo aprovechando el regreso de Tangtang y empieza con el diagrama completo del eje. La carga 1 es la base; la carga 2 le añade una Battle Skill de Rossi. El ciclo 1 parte de la carga 1: la Ultimate de Camille sustituye la Heat Infliction de su Battle Skill, la Ultimate de Tangtang con un ataque en picado sustituye la Cryo Infliction de su Battle Skill, y se suman las Ultimates de Rossi y Gilberta. El ciclo 2 parte de la carga 2 y le añade delante otra Battle Skill de Rossi, para renovar la Vulnerability. Después enseña cada vuelta en combate, repasa la tabla de equipamiento con el umbral de Ultimate Gain de cada miembro y termina con una partida completa de 1:05 en 斧柄纪年.",
+    "en": "The author presents the team on the occasion of Tangtang's return and starts with the full axis diagram. Charge 1 is the base; charge 2 adds a Rossi Battle Skill. Cycle 1 starts from charge 1: Camille's Ultimate replaces his Battle Skill's Heat Infliction, Tangtang's Ultimate with a dive attack replaces her Battle Skill's Cryo Infliction, and Rossi's and Gilberta's Ultimates are added. Cycle 2 starts from charge 2 and adds another Rossi Battle Skill in front, to refresh Vulnerability. The author then shows each loop in combat, goes over the gear table with each member's Ultimate Gain threshold, and ends with a full 1:05 run in 斧柄纪年."
+   },
+   "playstyle": {
+    "difficulty": {
+     "es": "Eje de 4 vueltas",
+     "en": "4-loop axis"
+    },
+    "content": {
+     "es": "Jefe / Single-target",
+     "en": "Boss / Single-target"
+    },
+    "tags": [
+     {
+      "es": "Sin Si",
+      "en": "No Si"
+     },
+     {
+      "es": "Mixto Physical/Heat",
+      "en": "Mixed Physical/Heat"
+     },
+     {
+      "es": "Umbrales de Ultimate Gain",
+      "en": "Ultimate Gain thresholds"
+     }
+    ]
+   },
+   "pros": [
+    {
+     "es": "Las cuatro vueltas salen de la carga 1 con pocos cambios.",
+     "en": "All four loops come from charge 1 with few changes."
+    },
+    {
+     "es": "La tabla del autor da el umbral de Ultimate Gain de cada miembro.",
+     "en": "The author's table gives each member's Ultimate Gain threshold."
+    },
+    {
+     "es": "No usa a Si: sirve a quien tiene a Tangtang y no a Si.",
+     "en": "It does not use Si: it works for anyone with Tangtang but not Si."
+    }
+   ],
+   "cons": [
+    {
+     "es": "Camille tiene el umbral más alto (206,7%), y sin su potencial de carga o el de su arma BIS, el autor solo ve viable Beacon of Duty.",
+     "en": "Camille has the highest threshold (206.7%), and without his charge potential or his BIS weapon's potential, the author only sees Beacon of Duty as viable."
+    },
+    {
+     "es": "La partida del autor dura 1:05: para bajar del minuto hay que quitar dos skills (ver las trampas).",
+     "en": "The author's run takes 1:05: getting under a minute means cutting two skills (see the pitfalls)."
+    }
+   ],
+   "whyItWorks": [
+    {
+     "icon": "",
+     "title": {
+      "es": "Dos elementos abren tres Combos",
+      "en": "Two elements open three Combos"
+     },
+     "body": {
+      "es": "La Battle Skill de Camille pone Heat Infliction y la de Tangtang pone Cryo Infliction. Con eso se cumplen tres condiciones a la vez: el Combo de Gilberta sale al aplicarse una Arts Reaction, el de Camille al consumirse la Heat Infliction y el de Tangtang al aplicarse Cryo Infliction.",
+      "en": "Camille's Battle Skill puts Heat Infliction and Tangtang's puts Cryo Infliction. That meets three conditions at once: Gilberta's Combo fires when an Arts Reaction is applied, Camille's when Heat Infliction is consumed, and Tangtang's when Cryo Infliction is applied."
+     }
+    },
+    {
+     "icon": "",
+     "title": {
+      "es": "Tangtang abre el Combo de Rossi",
+      "en": "Tangtang opens Rossi's Combo"
+     },
+     "body": {
+      "es": "El Combo de Gilberta aplica Lift, que deja Vulnerability. El de Rossi pide Vulnerability y Arts Infliction, así que la segunda Battle Skill de Tangtang lo hace salir junto con el suyo propio. El set Qingbo reduce el cooldown del Combo: por eso, según el autor, Tangtang llega antes a su segundo Combo de cada vuelta.",
+      "en": "Gilberta's Combo applies Lift, which leaves Vulnerability. Rossi's needs Vulnerability and Arts Infliction, so Tangtang's second Battle Skill brings it out along with her own. The Qingbo set reduces Combo cooldown: that is why, per the author, Tangtang reaches her second Combo of each loop sooner."
+     }
+    },
+    {
+     "icon": "",
+     "title": {
+      "es": "Dos Links para la Ultimate de Rossi",
+      "en": "Two Links for Rossi's Ultimate"
+     },
+     "body": {
+      "es": "En el ciclo 1, el Combo de Camille da un Link al golpear a un objetivo con sus Firefang Vesperwings, y su Hunter Pursuit (la Battle Skill tras su Ultimate) da otro. La Ultimate de Rossi consume los dos, y justo después entra la de Gilberta con su Arts Susceptibility.",
+      "en": "In cycle 1, Camille's Combo grants a Link when it hits a target with his Firefang Vesperwings, and his Hunter Pursuit (the Battle Skill after his Ultimate) grants another. Rossi's Ultimate consumes both, and right after comes Gilberta's with her Arts Susceptibility."
+     }
+    }
+   ],
+   "rotation": [
+    {
+     "phase": {
+      "es": "Carga 1 (la base)",
+      "en": "Charge 1 (the base)"
+     },
+     "action": {
+      "es": "Battle Skills de Camille y Tangtang → Combos de Gilberta, Tangtang y Camille → Battle Skill de Tangtang → Combo de Tangtang → Combo de Rossi (2 fases).",
+      "en": "Camille's and Tangtang's Battle Skills → Gilberta's, Tangtang's and Camille's Combos → Tangtang's Battle Skill → Tangtang's Combo → Rossi's Combo (2 sequences)."
+     },
+     "steps": [
+      {
+       "who": "camille",
+       "do": {
+        "es": "Battle Skill de Camille y Battle Skill de Tangtang: salen tres Combos.",
+        "en": "Camille's Battle Skill and Tangtang's Battle Skill: three Combos come out."
+       }
+      },
+      {
+       "who": "gilberta",
+       "do": {
+        "es": "Pulsa los tres: Gilberta, Tangtang y Camille.",
+        "en": "Press all three: Gilberta, Tangtang and Camille."
+       },
+       "key": true
+      },
+      {
+       "who": "tangtang",
+       "do": {
+        "es": "Espera a que vuelva el Combo de Tangtang y lanza su Battle Skill: salen su Combo y el de Rossi.",
+        "en": "Wait for Tangtang's Combo to come back and cast her Battle Skill: her Combo and Rossi's come out."
+       },
+       "key": true
+      },
+      {
+       "who": "rossi",
+       "do": {
+        "es": "Combo de Tangtang y las dos fases del Combo de Rossi.",
+        "en": "Tangtang's Combo and both sequences of Rossi's Combo."
+       }
+      }
+     ]
+    },
+    {
+     "phase": {
+      "es": "Carga 2",
+      "en": "Charge 2"
+     },
+     "action": {
+      "es": "La carga 1 con una Battle Skill de Rossi antes de la segunda Battle Skill de Tangtang.",
+      "en": "Charge 1 with a Rossi Battle Skill before Tangtang's second Battle Skill."
+     },
+     "steps": [
+      {
+       "who": "camille",
+       "do": {
+        "es": "Igual que antes: Battle Skills de Camille y Tangtang, y sus tres Combos.",
+        "en": "As before: Camille's and Tangtang's Battle Skills, and their three Combos."
+       }
+      },
+      {
+       "who": "rossi",
+       "do": {
+        "es": "Battle Skill de Rossi: con Vulnerability ya puesta, su Wolven Ambrage deja Razor Clawmark.",
+        "en": "Rossi's Battle Skill: with Vulnerability already on, her Wolven Ambrage leaves Razor Clawmark."
+       },
+       "key": true
+      },
+      {
+       "who": "tangtang",
+       "do": {
+        "es": "Battle Skill de Tangtang: salen su Combo y el de Rossi (2 fases).",
+        "en": "Tangtang's Battle Skill: her Combo and Rossi's (2 sequences) come out."
+       }
+      }
+     ]
+    },
+    {
+     "phase": {
+      "es": "Ciclo 1 (burst)",
+      "en": "Cycle 1 (burst)"
+     },
+     "action": {
+      "es": "Ultimates de Camille y Tangtang → ataque en picado → Combos de Gilberta, Tangtang y Camille → Hunter Pursuit de Camille → Ultimates de Rossi y Gilberta → Battle Skill de Tangtang → Combo de Tangtang → Combo de Rossi (2 fases).",
+      "en": "Camille's and Tangtang's Ultimates → dive attack → Gilberta's, Tangtang's and Camille's Combos → Camille's Hunter Pursuit → Rossi's and Gilberta's Ultimates → Tangtang's Battle Skill → Tangtang's Combo → Rossi's Combo (2 sequences)."
+     },
+     "steps": [
+      {
+       "who": "camille",
+       "do": {
+        "es": "Ultimates de Camille y Tangtang, en ese orden.",
+        "en": "Camille's and Tangtang's Ultimates, in that order."
+       }
+      },
+      {
+       "who": "tangtang",
+       "do": {
+        "es": "Ataque en picado dentro de la zona de la Ultimate de Tangtang: salen tres Combos, los mismos de la carga.",
+        "en": "Dive attack inside the area of Tangtang's Ultimate: three Combos come out, the same as in the charge."
+       },
+       "key": true
+      },
+      {
+       "who": "camille",
+       "do": {
+        "es": "Tras los tres Combos, Hunter Pursuit de Camille: segundo Link.",
+        "en": "After the three Combos, Camille's Hunter Pursuit: second Link."
+       }
+      },
+      {
+       "who": "rossi",
+       "do": {
+        "es": "Ultimate de Rossi, que consume los dos Links, seguida de la de Gilberta.",
+        "en": "Rossi's Ultimate, which consumes both Links, followed by Gilberta's."
+       },
+       "key": true
+      },
+      {
+       "who": "tangtang",
+       "do": {
+        "es": "Al terminar la Ultimate de Rossi, Battle Skill de Tangtang: salen su Combo y el de Rossi (2 fases).",
+        "en": "When Rossi's Ultimate ends, Tangtang's Battle Skill: her Combo and Rossi's (2 sequences) come out."
+       }
+      }
+     ]
+    },
+    {
+     "phase": {
+      "es": "Ciclo 2",
+      "en": "Cycle 2"
+     },
+     "action": {
+      "es": "Battle Skill de Rossi para renovar la Vulnerability → Battle Skills de Camille y Tangtang → sus tres Combos → Battle Skill de Tangtang → Combo de Tangtang → Battle Skill de Rossi → Combo de Rossi (2 fases).",
+      "en": "Rossi's Battle Skill to refresh Vulnerability → Camille's and Tangtang's Battle Skills → their three Combos → Tangtang's Battle Skill → Tangtang's Combo → Rossi's Battle Skill → Rossi's Combo (2 sequences)."
+     },
+     "steps": [
+      {
+       "who": "rossi",
+       "do": {
+        "es": "Battle Skill de Rossi: renueva la Vulnerability.",
+        "en": "Rossi's Battle Skill: refreshes Vulnerability."
+       },
+       "key": true
+      },
+      {
+       "who": "camille",
+       "do": {
+        "es": "Sigue como en la carga 2. El autor dice que el resto es igual, aunque su diagrama pone la otra Battle Skill de Rossi después del segundo Combo de Tangtang.",
+        "en": "Continue as in charge 2. The author says the rest is the same, although the diagram places the other Rossi Battle Skill after Tangtang's second Combo."
+       }
+      }
+     ],
+     "tip": {
+      "es": "Luego vuelve al ciclo 1.",
+      "en": "Then return to cycle 1."
+     }
+    }
+   ],
+   "skillPriority": [],
+   "pitfalls": [
+    {
+     "es": "Llevar Blessing of Lustrous Carmine a P0 en Camille sin su potencial de carga ni el potencial de esa arma: según el autor, se queda corto de Ultimate Gain. En ese caso, Beacon of Duty.",
+     "en": "Running Blessing of Lustrous Carmine at P0 on Camille without his charge potential or that weapon's potential: per the author, he falls short on Ultimate Gain. In that case, Beacon of Duty."
+    },
+    {
+     "es": "Buscar menos de un minuto con el eje completo: el autor aconseja quitar Hunter Pursuit y la Ultimate de Gilberta para lograrlo.",
+     "en": "Going for under a minute with the full axis: the author advises cutting Hunter Pursuit and Gilberta's Ultimate to get there."
+    }
+   ],
+   "vsOtherComps": [
+    {
+     "name": {
+      "es": "阿卡秋_ArkQiu - Doble C Rossi + Si (Gilberta · Camille)",
+      "en": "阿卡秋_ArkQiu - Rossi + Si Dual-C (Gilberta · Camille)"
+     },
+     "verdict": {
+      "es": "El mismo autor con Si en lugar de Tangtang, y también con dos vueltas de carga y dos de ciclo. Rossi y Camille llevan aquí las mismas piezas de la ficha de Si, salvo los umbrales.",
+      "en": "Same author with Si instead of Tangtang, also with two charge loops and two cycle loops. Rossi and Camille wear the same pieces here as on the Si card, thresholds aside."
+     }
+    }
+   ],
+   "members": [
+    {
+     "id": "rossi",
+     "role": "Carry",
+     "weaponId": "wpn_sword_0022",
+     "gearRec": [
+      "mi_security_armor_t1",
+      "redeemer_gloves",
+      "mi_security_scope_t1",
+      "mi_security_scope_t1"
+     ],
+     "weaponNote": {
+      "es": "Lupine Scarlet (BIS) o Glorious Memory: 123% de Ultimate Gain total con las dos.",
+      "en": "Lupine Scarlet (BIS) or Glorious Memory: 123% total Ultimate Gain with either."
+     },
+     "gearNote": {
+      "es": "MI Security al 3 con Redeemer Gloves. Umbral 121%.",
+      "en": "3-piece MI Security with Redeemer Gloves. 121% threshold."
+     },
+     "deepNote": {
+      "es": "Su Combo pide Vulnerability y Arts Infliction en el enemigo. La segunda fase consume las Arts Infliction y pega según cuántas había. Su Battle Skill aplica Lift y, si el objetivo ya tiene Vulnerability, Wolven Ambrage deja Razor Clawmark.",
+      "en": "Her Combo needs Vulnerability and Arts Infliction on the enemy. The second sequence consumes the Arts Infliction and hits based on how many there were. Her Battle Skill applies Lift and, if the target already has Vulnerability, Wolven Ambrage leaves Razor Clawmark."
+     }
+    },
+    {
+     "id": "tangtang",
+     "role": "Enabler",
+     "weaponId": "wpn_pistol_0011",
+     "gearRec": [
+      "qingbo_heavy_armor",
+      "qingbo_gauntlets",
+      "qingbo_positioning_kit",
+      "qingbo_positioning_kit"
+     ],
+     "weaponNote": {
+      "es": "Brigand's Calling (BIS) o Home Longing: 123% de Ultimate Gain total con las dos.",
+      "en": "Brigand's Calling (BIS) or Home Longing: 123% total Ultimate Gain with either."
+     },
+     "gearNote": {
+      "es": "Qingbo: su reducción de cooldown de Combo adelanta el segundo Combo de cada vuelta. Umbral 111%.",
+      "en": "Qingbo: its Combo cooldown reduction brings each loop's second Combo sooner. 111% threshold."
+     },
+     "deepNote": {
+      "es": "Su Battle Skill crea un Waterspout que aplica Cryo Infliction. Un ataque en picado dentro de la zona de su Ultimate termina antes esa evolución y crea otro Waterspout: así sustituye la Battle Skill en el ciclo 1.",
+      "en": "Her Battle Skill creates a Waterspout that applies Cryo Infliction. A dive attack inside her Ultimate's area ends that evolution early and creates another Waterspout: that is how it replaces the Battle Skill in cycle 1."
+     }
+    },
+    {
+     "id": "gilberta",
+     "role": "Buffer",
+     "weaponId": "wpn_funnel_0005",
+     "gearRec": [
+      "eternal_xiranite_light_armor",
+      "eternal_xiranite_wraps",
+      "eternal_xiranite_auxiliary_arm",
+      "eternal_xiranite_auxiliary_arm"
+     ],
+     "weaponNote": {
+      "es": "Stanza of Memorials (213,8% de Ultimate Gain total) o Delivery Guaranteed (260,2%).",
+      "en": "Stanza of Memorials (213.8% total Ultimate Gain) or Delivery Guaranteed (260.2%)."
+     },
+     "gearNote": {
+      "es": "Eternal Xiranite. Umbral 146,2%. Para llenar antes la barra de Stagger, el autor propone el set Swordmancer.",
+      "en": "Eternal Xiranite. 146.2% threshold. To fill the Stagger bar faster, the author suggests the Swordmancer set."
+     },
+     "deepNote": {
+      "es": "Su Combo sale al aplicarse una Arts Reaction y aplica Lift. Su Ultimate aplica Nature Infliction, Slow y Arts Susceptibility, que sube con cada acumulación de Vulnerability del objetivo.",
+      "en": "Her Combo fires when an Arts Reaction is applied and applies Lift. Her Ultimate applies Nature Infliction, Slow and Arts Susceptibility, which grows with each Vulnerability stack on the target."
+     }
+    },
+    {
+     "id": "camille",
+     "role": "Enabler",
+     "weaponId": "wpn_lance_0007",
+     "gearRec": [
+      "frontiers_protection_suit",
+      "frontiers_fiber_gloves_t1",
+      "frontiers_extra_o2_tube_t1",
+      "redeemer_seal"
+     ],
+     "weaponNote": {
+      "es": "Beacon of Duty (222,6% de Ultimate Gain total), sin alternativa en la tabla. El autor la pone como única opción si Camille no tiene su potencial de carga o si su arma BIS no tiene potencial: Blessing of Lustrous Carmine a P0 se queda corta de Ultimate Gain.",
+      "en": "Beacon of Duty (222.6% total Ultimate Gain), with no alternative on the table. The author makes it the only option if Camille lacks his charge potential or his BIS weapon has no potential: Blessing of Lustrous Carmine at P0 falls short on Ultimate Gain."
+     },
+     "gearNote": {
+      "es": "Frontiers al 3 con Redeemer Seal. Umbral 206,7%.",
+      "en": "3-piece Frontiers with Redeemer Seal. 206.7% threshold."
+     },
+     "deepNote": {
+      "es": "Su Combo sale al consumirse la Heat Infliction y da un Link si golpea a un objetivo con Firefang Vesperwings. Su Ultimate aplica Heat Infliction y convierte su próxima Battle Skill en Hunter Pursuit, que también da un Link.",
+      "en": "His Combo fires when Heat Infliction is consumed and grants a Link if it hits a target with Firefang Vesperwings. His Ultimate applies Heat Infliction and turns his next Battle Skill into Hunter Pursuit, which also grants a Link."
+     }
+    }
+   ],
+   "equipment": {
+    "intro": {
+     "es": "Tabla del autor: arma, arma alternativa, las cuatro piezas, Ultimate Gain total con cada arma y el umbral de cada miembro. El video no da orden de skills.",
+     "en": "The author's table: weapon, alternative weapon, the four pieces, total Ultimate Gain with each weapon and each member's threshold. The video gives no skill order."
+    },
+    "alts": [
+     {
+      "scenario": {
+       "es": "Para llenar antes la barra de Stagger",
+       "en": "To fill the Stagger bar faster"
+      },
+      "swap": {
+       "es": "Gilberta con el set Swordmancer en lugar de Eternal Xiranite.",
+       "en": "Gilberta with the Swordmancer set instead of Eternal Xiranite."
       }
      }
     ]
