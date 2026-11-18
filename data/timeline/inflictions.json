@@ -421,13 +421,22 @@
           "options": [
             2
           ]
+        },
+        {
+          "el": "physical",
+          "requiresConsumed": "electric_infl",
+          "options": [
+            1
+          ]
         }
       ],
       "forces": [
         {
           "reaction": "electrification",
+          "label": {"en":"Bolt Rush","es":"Embestida relámpago","zh":"奔霆","zh-TW":"奔霆","ja":"奔雷","ko":"질주하는 천둥"},
           "noHit": true,
           "consumes": "electric_infl",
+          "allTypes": true,
           "options": [
             1
           ]
@@ -442,15 +451,21 @@
       ]
     },
     "ultimate": {
-      "applies": [
-        {
-          "el": "electric"
-        }
-      ],
       "consumes": [
         {
           "state": "vulnerability",
           "reaction": "crush"
+        }
+      ],
+      "applies": [
+        {
+          "el": "electric"
+        },
+        {
+          "el": "physical",
+          "unlessAny": [
+            "vulnerability"
+          ]
         }
       ]
     }

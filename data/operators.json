@@ -8144,7 +8144,7 @@
           "name_es": "Ataque DoS Distribuido",
           "sp_cost": 100,
           "dmg_type": null,
-          "description": "Summons an Auxiliary Crystal that orbits the operator for a while.<br/>When the controlled operator performs a <u>Final Strike</u> on the enemy, the Auxiliary Crystal restores the said operator's HP. This effect can trigger <b>2</b> times. The attribute of Will increases the amount of HP treatment.<br/>When the controlled operator is already at Max HP when triggering the HP restoration, grant the said operator a temporary <u>Arts Amp</u> instead. This effect cannot stack.",
+          "description": "Summons an Auxiliary Crystal that orbits the operator for a while.<br/>When the controlled operator performs a <u>Final Strike</u> on the enemy, the Auxiliary Crystal restores the said operator's HP. This effect can trigger <b>2</b> times. The attribute of Will increases the amount of HP treatment.<br/>When the controlled operator is already at Max HP when triggering the HP restoration, grant the said operator a temporary <u>Arts Amp</u> as well. This effect cannot stack.",
           "description_es": "Invoca un <u>Cristal auxiliar</u> que orbita alrededor del operador controlado por un momento.<br/>Después de que el operador controlado realiza un <u>Golpe final</u> sobre el enemigo, el Cristal auxiliar restaurará los PV de dicho operador. Este efecto puede activarse 2 veces. El atributo de Voluntad aumenta la cantidad de tratamiento de PV.<br/>Cuando el operador controlado ya tiene los PV Máx. al activar la recuperación de los PV, también se le otorga una <u>Amp de artes</u> temporal. Este efecto no se puede acumular.",
           "multipliers_max": [
             {
@@ -11900,7 +11900,6 @@
       "element": "Electric",
       "weapon_type": "Sword",
       "model_wip": {
-        "dmg": true,
         "rotation": true
       },
       "primary_attribute": "Will",

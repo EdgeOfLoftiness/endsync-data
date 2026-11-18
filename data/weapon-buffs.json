@@ -3100,6 +3100,14 @@
       "ja": "ブレイク状態の敵へのダメージ+98.0%",
       "ko": "불균형 상태의 적에게 주는 피해 +98.0%"
      },
+     "aviso": {
+       "es": "Solo contra enemigos en quiebre (Staggered): hay que llenar su barra de Stagger, y contra un jefe pasa pocas veces y dura unos segundos.",
+       "en": "Only against Staggered enemies: their Stagger meter has to be filled, and against a boss that happens rarely and lasts a few seconds.",
+       "zh": "仅对处于失衡状态的敌人生效：需要先打满失衡值，对首领来说次数很少，且只持续数秒。",
+       "zh-TW": "僅對處於失衡狀態的敵人生效：需要先打滿失衡值，對首領來說次數很少，且只持續數秒。",
+       "ja": "ブレイク状態の敵にのみ有効。ブレイク値を満たす必要があり、ボス相手では発生回数が少なく、数秒しか続かない。",
+       "ko": "불균형 상태의 적에게만 적용됩니다. 불균형치를 가득 채워야 하며, 보스를 상대로는 드물게 발생하고 몇 초만 지속됩니다."
+     },
      "whenState": "staggered",
      "mods": [
       {
@@ -3524,6 +3532,14 @@
       "zh-TW": "裝備者對敵人造成重擊時，獲得攻擊力+28.0%，持續8秒。 若裝備者為主控幹員，攻擊力提升的數值翻倍，且重擊對敵人造成的失衡值+33.6%。 同名效果無法疊加。",
       "ja": "装備中、自身が敵に重攻撃を与えるとき、8秒間攻撃力+28.0% 自身が操作中のオペレーターの場合、攻撃力の上昇値が倍になり、重攻撃による敵へのブレイク値+33.6% 同名効果は重ね掛け不可",
       "ko": "장착자가 적에게 강력한 일격 피해를 줄 때, 공격력 +28.0%, 8초 동안 지속. 장착자가 메인 컨트롤 오퍼레이터일 경우, 공격력의 증가 수치가 2배로 증가하고 강력한 일격으로 적에게 주는 불균형치 +33.6%. 같은 이름의 효과는 중첩되지 않습니다."
+     },
+     "aviso": {
+       "es": "El ATK doble y el Stagger extra solo si el portador es el operador controlado al dar el Final Strike. El cálculo supone que sí.",
+       "en": "The doubled ATK and the extra Stagger only apply if the wielder is the controlled operator when performing the Final Strike. The calculation assumes so.",
+       "zh": "攻击力翻倍与额外失衡值仅在装备者为主控干员并造成重击时生效。计算默认满足此条件。",
+       "zh-TW": "攻擊力翻倍與額外失衡值僅在裝備者為主控幹員並造成重擊時生效。計算預設滿足此條件。",
+       "ja": "攻撃力の倍増と追加のブレイク値は、装備者が操作中のオペレーターとして重攻撃を与えた場合のみ。計算はこの条件を満たす前提。",
+       "ko": "공격력 2배와 추가 불균형치는 장착자가 메인 컨트롤 오퍼레이터로서 강력한 일격 피해를 줄 때만 적용됩니다. 계산은 이 조건을 충족한다고 가정합니다."
      },
      "mods": [
       {
@@ -5366,6 +5382,14 @@
       "ja": "装備者の連携技で治療したとき（ギフトボックスが範囲内のオペレーターを治療）：治療を受けた各オペレーターはアーツダメージ ＋値を20秒間得る（同名効果は重複しない）。連携技はチーム全員を治療するため、チーム全体のバフとして扱う。同じ時間帯のアーツ強度 +14と最大HP +28%はダメージ計算に含めない。",
       "ko": "장착자의 연계 스킬이 치유할 때(선물 상자가 범위 내 오퍼레이터를 치유): 치유를 받은 각 오퍼레이터는 아츠 피해 +값을 20초 동안 얻습니다(같은 이름의 효과는 중첩되지 않음). 연계 스킬이 팀 전체를 치유하므로 팀 전체 버프로 처리합니다. 같은 구간의 오리지늄 아츠 강도 +14와 최대 생명력 +28%는 피해 계산에 포함하지 않습니다."
      },
+     "aviso": {
+       "es": "Solo los operadores que reciben la cura del combo (los que están cerca). El cálculo supone que llega a los cuatro.",
+       "en": "Only the operators who receive the combo's healing (those nearby). The calculation assumes it reaches all four.",
+       "zh": "仅对受到连携技治疗的干员（附近的干员）生效。计算默认四名干员都受到治疗。",
+       "zh-TW": "僅對受到連攜技治療的幹員（附近的幹員）生效。計算預設四名幹員都受到治療。",
+       "ja": "連携技の治療を受けたオペレーター（近くにいるオペレーター）のみ。計算は4人全員が治療を受ける前提。",
+       "ko": "연계 스킬의 치유를 받은 오퍼레이터(근처에 있는 오퍼레이터)에게만 적용됩니다. 계산은 4명 모두 치유를 받는다고 가정합니다."
+     },
      "mods": [
       {
        "type": "dmgAdd",
@@ -5410,6 +5434,14 @@
       "zh-TW": "與上一個增益同一窗口：受到連攜技治療的幹員獲得源石技藝強度 +數值（最高 +14），持續20秒。輪換中應用於該窗口內的爆發和反應效果；傷害頁面刻意按源石技藝強度0計算。",
       "ja": "前のバフと同じ時間帯：連携技で治療を受けたオペレーターはアーツ強度 ＋値（最大 +14）を20秒間得る。ローテーションではその時間帯の爆発と反応効果に適用。ダメージではアーツ強度0で計算する仕様。",
       "ko": "앞의 버프와 같은 구간: 연계 스킬로 치유를 받은 오퍼레이터는 오리지늄 아츠 강도 +값(최대 +14)을 20초 동안 얻습니다. 로테이션에서는 그 구간의 폭발과 반응 효과에 적용되며, 피해 페이지는 의도적으로 오리지늄 아츠 강도 0으로 계산합니다."
+     },
+     "aviso": {
+       "es": "Solo los operadores que reciben la cura del combo (los que están cerca). El cálculo supone que llega a los cuatro.",
+       "en": "Only the operators who receive the combo's healing (those nearby). The calculation assumes it reaches all four.",
+       "zh": "仅对受到连携技治疗的干员（附近的干员）生效。计算默认四名干员都受到治疗。",
+       "zh-TW": "僅對受到連攜技治療的幹員（附近的幹員）生效。計算預設四名幹員都受到治療。",
+       "ja": "連携技の治療を受けたオペレーター（近くにいるオペレーター）のみ。計算は4人全員が治療を受ける前提。",
+       "ko": "연계 스킬의 치유를 받은 오퍼레이터(근처에 있는 오퍼레이터)에게만 적용됩니다. 계산은 4명 모두 치유를 받는다고 가정합니다."
      },
      "mods": [
       {
@@ -5761,6 +5793,14 @@
       "ja": "装備中、自身のHPが80%より高いとき、攻撃力+42.0%",
       "ko": "장착자의 생명력이 80%보다 높을 때, 공격력 +42.0%"
      },
+     "aviso": {
+       "es": "Solo con la vida del portador por encima del 80 %. En cuanto recibe daño y baja de ahí, el ATK +42 % se pierde. El cálculo supone que nunca baja.",
+       "en": "Only while the wielder's HP is above 80%. As soon as they take damage and drop below it, the ATK +42% is lost. The calculation assumes it never drops.",
+       "zh": "仅在装备者生命值高于80%时生效。受到伤害降到80%以下时，攻击力+42%随之失效。计算默认生命值始终高于80%。",
+       "zh-TW": "僅在裝備者生命值高於80%時生效。受到傷害降到80%以下時，攻擊力+42%隨之失效。計算預設生命值始終高於80%。",
+       "ja": "装備者のHPが80%より高いときのみ。ダメージを受けて80%以下になると、攻撃力+42%は失われる。計算はHPが下がらない前提。",
+       "ko": "장착자의 생명력이 80%보다 높을 때만 적용됩니다. 피해를 받아 80% 이하로 떨어지면 공격력 +42%가 사라집니다. 계산은 생명력이 떨어지지 않는다고 가정합니다."
+     },
      "mods": [
       {
        "type": "atkPct",
@@ -5797,6 +5837,14 @@
       "zh-TW": "當裝備者的生命值高於80%時，攻擊力+42.0%。",
       "ja": "装備中、自身のHPが80%より高いとき、攻撃力+42.0%",
       "ko": "장착자의 생명력이 80%보다 높을 때, 공격력 +42.0%"
+     },
+     "aviso": {
+       "es": "Solo con la vida del portador por encima del 80 %. En cuanto recibe daño y baja de ahí, el ATK +42 % se pierde. El cálculo supone que nunca baja.",
+       "en": "Only while the wielder's HP is above 80%. As soon as they take damage and drop below it, the ATK +42% is lost. The calculation assumes it never drops.",
+       "zh": "仅在装备者生命值高于80%时生效。受到伤害降到80%以下时，攻击力+42%随之失效。计算默认生命值始终高于80%。",
+       "zh-TW": "僅在裝備者生命值高於80%時生效。受到傷害降到80%以下時，攻擊力+42%隨之失效。計算預設生命值始終高於80%。",
+       "ja": "装備者のHPが80%より高いときのみ。ダメージを受けて80%以下になると、攻撃力+42%は失われる。計算はHPが下がらない前提。",
+       "ko": "장착자의 생명력이 80%보다 높을 때만 적용됩니다. 피해를 받아 80% 이하로 떨어지면 공격력 +42%가 사라집니다. 계산은 생명력이 떨어지지 않는다고 가정합니다."
      },
      "mods": [
       {
@@ -5835,6 +5883,14 @@
       "ja": "装備中、自身のスキルでチーム内の他のオペレーターを治療したとき、20秒間その治療を受けたオペレーターの攻撃力+9.8% 同名効果は4回まで重ね掛け可能 効果の持続時間は個別にカウントされ、各オペレーターは0.1秒に1回までこの効果を獲得できる",
       "ko": "장착자가 자신의 스킬로 팀 내 다른 오퍼레이터를 치유할 때, 장착자의 치유를 받은 오퍼레이터의 공격력 +9.8%, 20초 동안 지속. 같은 이름의 효과는 최대 4스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 각 오퍼레이터는 0.1초마다 최대 1회만 해당 효과를 얻을 수 있습니다."
      },
+     "aviso": {
+       "es": "Solo los operadores que reciben la cura del portador (dentro de su área). El cálculo supone que cada cura llega a todos los demás.",
+       "en": "Only the operators who receive the wielder's healing (inside its area). The calculation assumes every heal reaches all the others.",
+       "zh": "仅对受到装备者治疗的干员（处于治疗范围内）生效。计算默认每次治疗都覆盖其他所有干员。",
+       "zh-TW": "僅對受到裝備者治療的幹員（處於治療範圍內）生效。計算預設每次治療都覆蓋其他所有幹員。",
+       "ja": "装備者の治療を受けたオペレーター（範囲内にいるオペレーター）のみ。計算は毎回の治療が他の全員に届く前提。",
+       "ko": "장착자의 치유를 받은 오퍼레이터(범위 안에 있는 오퍼레이터)에게만 적용됩니다. 계산은 매번 치유가 다른 모두에게 닿는다고 가정합니다."
+     },
      "mods": [
       {
        "type": "atkPct",
@@ -5852,7 +5908,7 @@
       }
      ],
      "trigger": {
-      "onHeal": true,
+      "onHeal": { "others": true },
       "maxStacks": 4,
       "cooldownS": 0.1
      },
@@ -5895,7 +5951,7 @@
       }
      ],
      "trigger": {
-      "onHeal": true,
+      "onHeal": { "others": true },
       "slot": "combo"
      },
      "durS": 20,

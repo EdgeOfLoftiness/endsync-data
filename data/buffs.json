@@ -89,6 +89,14 @@
           "ja": "M3「針は願う者の前に」：連携技「穴釣り術」で珍鱗を釣り上げると、チーム全員の攻撃力 +15%、10秒間（重複不可）。珍鱗は確率なので、連携技ごとに期待値で計算する：15% × 釣り上げる確率（ステータス「珍鱗釣上確率」10%＋素質「釣りの達人」で知性1ポイントにつき +0.05%、最大 +30%）。",
           "ko": "M3 「미끼 없는 낚시」: 연계 스킬 「얼음낚시 기술」로 진귀한 린수를 낚으면 팀 전체 공격력 +15%, 10초 동안(중첩 불가). 진귀한 린수는 확률이므로 연계 스킬마다 기댓값으로 계산합니다: 15% × 낚을 확률(능력치 「진귀한 린수를 낚을 확률」 10% + 재능 「낚시의 달인」으로 지능 포인트당 +0.05%, 최대 +30%)."
         },
+        "aviso": {
+          "es": "Al azar: depende de pescar una Rare Fin con el combo. El cálculo usa el promedio, no un valor seguro.",
+          "en": "Random: it depends on catching a Rare Fin with the combo skill. The calculation uses the average, not a guaranteed value.",
+          "zh": "随机效果：取决于连携技能否钓出珍鳞。计算使用的是平均值，并非必定获得。",
+          "zh-TW": "隨機效果：取決於連攜技能否釣出珍鱗。計算使用的是平均值，並非必定獲得。",
+          "ja": "ランダム：連携技で珍鱗を釣り上げられるかどうかによる。計算は平均値を使っており、確定ではない。",
+          "ko": "무작위: 연계 스킬로 진귀한 린수를 낚는지에 따라 달라집니다. 계산은 평균값을 사용하며, 확정된 값이 아닙니다."
+        },
         "mods": [
           {
             "type": "atkPct",
@@ -147,6 +155,14 @@
           "zh-TW": "M5「特大鱗訊」：終結技「大鱗，上鉤！」命中生命值低於50%的目標時，傷害倍率提升至原本的1.5倍。",
           "ja": "M5「特大鱗獣ニュース」：必殺技「大物、ヒット！」がHPが50%未満の敵に命中するとき、ダメージ倍率が1.5倍までアップする。",
           "ko": "M5 「초특급 입질」: 궁극기 「월척이다!」가 생명력이 50% 미만인 목표에 명중했을 때 피해 배율이 기존의 1.5배로 증가합니다."
+        },
+        "aviso": {
+          "es": "Solo contra enemigos con menos del 50 % de vida: durante la primera mitad del combate no cuenta.",
+          "en": "Only against enemies below 50% HP: it does not count during the first half of the fight.",
+          "zh": "仅对生命值少于50%的敌人生效：战斗前半段不计入。",
+          "zh-TW": "僅對生命值少於50%的敵人生效：戰鬥前半段不計入。",
+          "ja": "HPが50%未満の敵にのみ有効。戦闘の前半は適用されない。",
+          "ko": "생명력이 50% 미만인 적에게만 적용됩니다. 전투 전반부에는 적용되지 않습니다."
         },
         "mods": [
           {
@@ -622,6 +638,14 @@
           "ja": "HP 50%未満の敵への与ダメージ +20%。",
           "ko": "HP 50% 미만의 적에게 주는 피해 +20%."
         },
+        "aviso": {
+          "es": "Solo contra enemigos con menos del 50 % de vida: durante la primera mitad del combate no cuenta.",
+          "en": "Only against enemies below 50% HP: it does not count during the first half of the fight.",
+          "zh": "仅对生命值少于50%的敌人生效：战斗前半段不计入。",
+          "zh-TW": "僅對生命值少於50%的敵人生效：戰鬥前半段不計入。",
+          "ja": "HPが50%未満の敵にのみ有効。戦闘の前半は適用されない。",
+          "ko": "생명력이 50% 미만인 적에게만 적용됩니다. 전투 전반부에는 적용되지 않습니다."
+        },
         "mods": [
           {
             "type": "dmgAdd",
@@ -760,6 +784,14 @@
           "ja": "エンバーが敵からダメージを受けると、7秒間攻撃力+9%（最大3スタック）。戦技1回につき被弾1回として計算（戦技は発動中の被弾を条件とする）。",
           "ko": "엠버가 적에게 피해를 받으면 7초 동안 공격력 +9%(최대 3중첩). 배틀 스킬 1회마다 1회 피격으로 계산합니다(배틀 스킬은 시전 중 피격을 조건으로 함)."
         },
+        "aviso": {
+          "es": "Solo si a Ember le pega un enemigo mientras lanza su battle skill. Si no la golpean, no se activa. El cálculo supone un golpe recibido por cada battle skill.",
+          "en": "Only if an enemy hits Ember while she casts her battle skill. If she is not hit, it does not trigger. The calculation assumes one hit taken per battle skill.",
+          "zh": "仅当余烬在施放战技期间受到敌人的伤害时生效。没有被击中则不会触发。计算默认每次战技都受到一次伤害。",
+          "zh-TW": "僅當餘燼在施放戰技期間受到敵人的傷害時生效。沒有被擊中則不會觸發。計算預設每次戰技都受到一次傷害。",
+          "ja": "エンバーが戦技の発動中に敵からダメージを受けた場合のみ。攻撃を受けなければ発動しない。計算は戦技ごとに1回ダメージを受ける前提。",
+          "ko": "엠버가 배틀 스킬을 사용하는 도중 적에게 피해를 받았을 때만 적용됩니다. 공격받지 않으면 발동하지 않습니다. 계산은 배틀 스킬마다 한 번 피해를 받는다고 가정합니다."
+        },
         "mods": [
           {
             "type": "atkPct",
@@ -786,6 +818,14 @@
           "ja": "必殺技「誓約の炎」強化：シールド効果が1.2倍。このシールドを獲得したオペレーターは、効果が持続する間、攻撃力 +10%。この項目はエンバー自身の分（自分のシールド）。他のオペレーターの分は「鉄の誓い · チーム」。",
           "ko": "궁극기 「다시 불타오르는 맹세」 강화: 보호 효과 ×1.2. 보호가 유지되는 동안 보호를 받은 대상의 공격력 +10%. 이 항목은 엠버 자신의 몫(자신의 보호)이며, 다른 오퍼레이터의 몫은 「철의 서약 · 팀」입니다."
         },
+        "aviso": {
+          "es": "Solo mientras dure el escudo de la ult. Si el daño recibido lo rompe antes, el ATK +10 % se pierde. El cálculo supone que dura entero.",
+          "en": "Only while the ultimate's Shield lasts. If incoming damage breaks it early, the ATK +10% is lost. The calculation assumes it lasts its full duration.",
+          "zh": "仅在终结技的护盾存在期间生效。护盾被敌人的伤害提前击破时，攻击力+10%随之失效。计算默认护盾持续到结束。",
+          "zh-TW": "僅在終結技的護盾存在期間生效。護盾被敵人的傷害提前擊破時，攻擊力+10%隨之失效。計算預設護盾持續到結束。",
+          "ja": "必殺技のシールドが残っている間のみ。被ダメージでシールドが先に破られると、攻撃力+10%は失われる。計算はシールドが最後まで持続する前提。",
+          "ko": "궁극기의 보호막이 유지되는 동안에만 적용됩니다. 받은 피해로 보호막이 먼저 깨지면 공격력 +10%도 사라집니다. 계산은 보호막이 끝까지 유지된다고 가정합니다."
+        },
         "mods": [
           {
             "type": "atkPct",
@@ -808,6 +848,14 @@
           "zh-TW": "終結技使全隊獲得護盾：護盾存在期間，其他幹員同樣攻擊力 +10%（潛能「鐵誓」）。",
           "ja": "必殺技はチーム全員にシールドを付与する：シールドが持続する間、他のオペレーターも攻撃力 +10%（潜在「鉄の誓い」）。",
           "ko": "궁극기는 팀 전체에게 보호를 부여합니다: 보호가 유지되는 동안 다른 오퍼레이터도 공격력 +10%(잠재 능력 「철의 서약」)."
+        },
+        "aviso": {
+          "es": "Solo mientras dure el escudo de la ult. Si el daño recibido lo rompe antes, el ATK +10 % se pierde. El cálculo supone que dura entero.",
+          "en": "Only while the ultimate's Shield lasts. If incoming damage breaks it early, the ATK +10% is lost. The calculation assumes it lasts its full duration.",
+          "zh": "仅在终结技的护盾存在期间生效。护盾被敌人的伤害提前击破时，攻击力+10%随之失效。计算默认护盾持续到结束。",
+          "zh-TW": "僅在終結技的護盾存在期間生效。護盾被敵人的傷害提前擊破時，攻擊力+10%隨之失效。計算預設護盾持續到結束。",
+          "ja": "必殺技のシールドが残っている間のみ。被ダメージでシールドが先に破られると、攻撃力+10%は失われる。計算はシールドが最後まで持続する前提。",
+          "ko": "궁극기의 보호막이 유지되는 동안에만 적용됩니다. 받은 피해로 보호막이 먼저 깨지면 공격력 +10%도 사라집니다. 계산은 보호막이 끝까지 유지된다고 가정합니다."
         },
         "mods": [
           {
@@ -1184,12 +1232,12 @@
         "target": "team",
         "afterHit": 0,
         "cond": {
-          "es": "Ultimate: los enemigos en el Anomalous Gravity Field sufren Arts Susceptibility +30% base, +3% más por cada stack activo de Vulnerability (42% con 4 stacks; con M2 Wind Walker, +6% por stack y cuenta uno más, máx 4: hasta 54%). El campo nace con el golpe de la ult y dura 5 s desde ahí; ese golpe no cuenta la Susceptibility. Arts Susceptibility amplifica TODO el daño Arts (heat/cryo/electric/nature) de TODO el equipo → por eso Gilberta es S+ (solo no toca el daño físico; el de éter cuenta como Arts, aunque hoy ningún operador lo hace).",
-          "en": "Ultimate: enemies in the Anomalous Gravity Field suffer Arts Susceptibility +30% base, increased +3% per active Vulnerability stack (42% at 4 stacks; with M2 Wind Walker, +6% per stack and one extra stack, max 4: up to 54%). The field is created with the ultimate's hit and lasts 5s from then; that hit does not count the Susceptibility. Arts Susceptibility amplifies ALL Arts damage (heat/cryo/electric/nature) from the WHOLE team → this is why Gilberta is S+ (she only misses physical damage; aether counts as Arts, though no operator deals it yet).",
-          "zh": "终结技：重力紊乱区域内的敌人受到法术脆弱 +30%基础值，每层生效中的破防再 +3%（4层时42%；潜能「乘风而行」：每层+6%并额外计1层，最多4层，最高54%）。重力紊乱区域在终结技命中时生成，此后持续5秒；该次命中不计入法术脆弱。法术脆弱放大全队所有法术伤害（灼热/寒冷/电磁/自然） → 这就是洁尔佩塔是 S+ 的原因（她只漏掉物理伤害；超域伤害也算作法术伤害，虽然目前没有干员造成超域伤害）。",
-          "zh-TW": "終結技：重力紊亂區域內的敵人受到法術脆弱 +30%基礎值，每層生效中的破防再 +3%（4層時42%；潛能「乘風而行」：每層+6%並額外計1層，最多4層，最高54%）。重力紊亂區域在終結技命中時生成，此後持續5秒；該次命中不計入法術脆弱。法術脆弱放大全隊所有法術傷害（灼熱/寒冷/電磁/自然） → 這就是潔爾佩塔是 S+ 的原因（她只漏掉物理傷害；超域傷害也算作法術傷害，雖然目前沒有幹員造成超域傷害）。",
-          "ja": "必殺技：重力異常範囲の中の敵はアーツ脆弱 +30%（基礎）、有効なクラッシュ段階ごとに +3%（4段階で42%；潜在「風に乗って」：段階ごと+6%、さらに1段階分、最大4で最高54%）。重力異常範囲は必殺技の命中と同時に生成され、そこから5秒間持続する。その命中自体にはアーツ脆弱は乗らない。アーツ脆弱はチーム全員のアーツダメージ（灼熱/寒冷/電磁/自然）をすべて増幅 → ギルベルタが S+ である理由（取りこぼすのは物理ダメージだけ。超域ダメージもアーツダメージとして扱うが、現在超域ダメージを与えるオペレーターはいない）。",
-          "ko": "궁극기: 중력 혼란 구역 안의 적은 아츠 취약 +30% 기본, 활성 방어 불능 스택당 +3%(4스택에서 42%; 잠재 능력 「바람을 타고」: 스택당 +6%, 1스택 추가, 최대 4스택, 최대 54%). 중력 혼란 구역은 궁극기 타격과 함께 생성되어 그때부터 5초간 지속됩니다. 그 타격에는 아츠 취약이 적용되지 않습니다. 아츠 취약은 팀 전체의 모든 아츠 피해(열기/냉기/전기/자연)를 증폭 → 질베르타가 S+인 이유(물리 피해만 놓칩니다. 초자연 피해도 아츠 피해로 취급하지만, 아직 초자연 피해를 주는 오퍼레이터는 없습니다)."
+          "es": "Ultimate: los enemigos en el Anomalous Gravity Field sufren Arts Susceptibility +30% base, +3% más por cada stack activo de Vulnerability (42% con 4 stacks; con M2 Wind Walker, +6% por stack y cuenta uno más si hay al menos uno, máx 4: hasta 54%; con 0 stacks, solo el 30% base). El campo nace con el golpe de la ult y dura 5 s desde ahí; ese golpe no cuenta la Susceptibility. Arts Susceptibility amplifica TODO el daño Arts (heat/cryo/electric/nature) de TODO el equipo → por eso Gilberta es S+ (solo no toca el daño físico; el de éter cuenta como Arts, aunque hoy ningún operador lo hace).",
+          "en": "Ultimate: enemies in the Anomalous Gravity Field suffer Arts Susceptibility +30% base, increased +3% per active Vulnerability stack (42% at 4 stacks; with M2 Wind Walker, +6% per stack and one extra stack when the target has at least one, max 4: up to 54%; with 0 stacks, only the 30% base). The field is created with the ultimate's hit and lasts 5s from then; that hit does not count the Susceptibility. Arts Susceptibility amplifies ALL Arts damage (heat/cryo/electric/nature) from the WHOLE team → this is why Gilberta is S+ (she only misses physical damage; aether counts as Arts, though no operator deals it yet).",
+          "zh": "终结技：重力紊乱区域内的敌人受到法术脆弱 +30%基础值，每层生效中的破防再 +3%（4层时42%；潜能「乘风而行」：每层+6%，目标处于破防状态时额外计1层，最多4层，最高54%；无破防时仅30%基础值）。重力紊乱区域在终结技命中时生成，此后持续5秒；该次命中不计入法术脆弱。法术脆弱放大全队所有法术伤害（灼热/寒冷/电磁/自然） → 这就是洁尔佩塔是 S+ 的原因（她只漏掉物理伤害；超域伤害也算作法术伤害，虽然目前没有干员造成超域伤害）。",
+          "zh-TW": "終結技：重力紊亂區域內的敵人受到法術脆弱 +30%基礎值，每層生效中的破防再 +3%（4層時42%；潛能「乘風而行」：每層+6%，目標處於破防狀態時額外計1層，最多4層，最高54%；無破防時僅30%基礎值）。重力紊亂區域在終結技命中時生成，此後持續5秒；該次命中不計入法術脆弱。法術脆弱放大全隊所有法術傷害（灼熱/寒冷/電磁/自然） → 這就是潔爾佩塔是 S+ 的原因（她只漏掉物理傷害；超域傷害也算作法術傷害，雖然目前沒有幹員造成超域傷害）。",
+          "ja": "必殺技：重力異常範囲の中の敵はアーツ脆弱 +30%（基礎）、有効なクラッシュ段階ごとに +3%（4段階で42%；潜在「風に乗って」：段階ごと+6%、クラッシュ段階が1以上ならさらに1段階分、最大4で最高54%。段階0なら基礎の30%のみ）。重力異常範囲は必殺技の命中と同時に生成され、そこから5秒間持続する。その命中自体にはアーツ脆弱は乗らない。アーツ脆弱はチーム全員のアーツダメージ（灼熱/寒冷/電磁/自然）をすべて増幅 → ギルベルタが S+ である理由（取りこぼすのは物理ダメージだけ。超域ダメージもアーツダメージとして扱うが、現在超域ダメージを与えるオペレーターはいない）。",
+          "ko": "궁극기: 중력 혼란 구역 안의 적은 아츠 취약 +30% 기본, 활성 방어 불능 스택당 +3%(4스택에서 42%; 잠재 능력 「바람을 타고」: 스택당 +6%, 방어 불능 상태일 때 1스택 추가, 최대 4스택, 최대 54%; 0스택이면 기본 30%만). 중력 혼란 구역은 궁극기 타격과 함께 생성되어 그때부터 5초간 지속됩니다. 그 타격에는 아츠 취약이 적용되지 않습니다. 아츠 취약은 팀 전체의 모든 아츠 피해(열기/냉기/전기/자연)를 증폭 → 질베르타가 S+인 이유(물리 피해만 놓칩니다. 초자연 피해도 아츠 피해로 취급하지만, 아직 초자연 피해를 주는 오퍼레이터는 없습니다)."
         },
         "mods": [
           {
@@ -1203,6 +1251,7 @@
               "ksAdd": {
                 "keystone": "Wind Walker",
                 "add": 1,
+                "needsStack": true,
                 "perMult": 2
               }
             }
@@ -1633,6 +1682,14 @@
           "zh-TW": "對失衡敵人的傷害 +20/30%。",
           "ja": "ブレイク状態の敵への与ダメージ +20/30%。",
           "ko": "불균형 상태의 적에게 주는 피해 +20/30%."
+        },
+        "aviso": {
+          "es": "Solo contra enemigos en quiebre (Staggered): hay que llenar su barra de Stagger, y contra un jefe pasa pocas veces y dura unos segundos.",
+          "en": "Only against Staggered enemies: their Stagger meter has to be filled, and against a boss that happens rarely and lasts a few seconds.",
+          "zh": "仅对处于失衡状态的敌人生效：需要先打满失衡值，对首领来说次数很少，且只持续数秒。",
+          "zh-TW": "僅對處於失衡狀態的敵人生效：需要先打滿失衡值，對首領來說次數很少，且只持續數秒。",
+          "ja": "ブレイク状態の敵にのみ有効。ブレイク値を満たす必要があり、ボス相手では発生回数が少なく、数秒しか続かない。",
+          "ko": "불균형 상태의 적에게만 적용됩니다. 불균형치를 가득 채워야 하며, 보스를 상대로는 드물게 발생하고 몇 초만 지속됩니다."
         },
         "mods": [
           {
@@ -2489,6 +2546,14 @@
           "ja": "戦技「DDoS」：重攻撃を与えたオペレーター（どの枠でも）にアーツ増幅 +15%を25秒間付与。サポートクリスタルが操作中のオペレーターの周囲に展開している間（20秒）、最大2回発動。クリスタルはHPを回復し、HPが満タンの場合は追加でアーツ増幅を付与する（重ね掛け不可）。HP満タンを前提に計算。",
           "ko": "배틀 스킬 「디도스」: 강력한 일격을 준 오퍼레이터(어느 자리든)에게 아츠 증폭 +15%를 25초 동안 부여합니다. 지원 결정체가 메인 컨트롤 오퍼레이터를 따라다니는 동안(20초) 최대 2회 발동합니다. 결정체가 생명력을 회복시키며, 생명력이 최대치라면 아츠 증폭도 부여합니다(중첩 불가). 생명력이 최대치라고 가정합니다."
         },
+        "aviso": {
+          "es": "Solo si el operador que da el Final Strike está a vida máxima. Si le falta vida, el cristal solo lo cura y no da el Arts Amp. El cálculo supone vida máxima.",
+          "en": "Only if the operator performing the Final Strike is at Max HP. If they have lost HP, the crystal only heals them and grants no Arts Amp. The calculation assumes Max HP.",
+          "zh": "仅当造成重击的主控干员生命值已满时生效。生命值未满时，支援晶体只回复生命值，不施加法术增幅。计算默认生命值已满。",
+          "zh-TW": "僅當造成重擊的主控幹員生命值已滿時生效。生命值未滿時，支援晶體只回復生命值，不施加法術增幅。計算預設生命值已滿。",
+          "ja": "重攻撃を与えた操作中のオペレーターのHPが満タンの場合のみ。HPが減っていると、サポートクリスタルはHPを回復するだけでアーツ増幅は付与されない。計算はHP満タンを前提とする。",
+          "ko": "강력한 일격 피해를 준 메인 컨트롤 오퍼레이터의 생명력이 최대치일 때만 적용됩니다. 생명력이 줄어 있으면 지원 결정체는 생명력만 회복시키고 아츠 증폭은 부여하지 않습니다. 계산은 생명력이 최대치라고 가정합니다."
+        },
         "mods": [
           {
             "type": "dmgAmp",
@@ -2550,6 +2615,14 @@
           "zh-TW": "M1：支援晶體的法術增幅再 +5%（15% → 20%）。與基礎增益同一觸發和25秒窗口（主控幹員的重擊，每個晶體2次）；不可疊加。",
           "ja": "M1：サポートクリスタルのアーツ増幅がさらに +5%（15% → 20%）。基礎バフと同じ発動条件・25秒の時間帯（操作中のオペレーターの重攻撃、クリスタル1つにつき2回）、重複不可。",
           "ko": "M1: 지원 결정체의 아츠 증폭이 추가 +5%(15% → 20%). 기본 버프와 같은 발동 조건과 25초 구간(메인 컨트롤 오퍼레이터의 강력한 일격, 결정체당 2회), 중첩 불가."
+        },
+        "aviso": {
+          "es": "Solo si el operador que da el Final Strike está a vida máxima. Si le falta vida, el cristal solo lo cura y no da el Arts Amp. El cálculo supone vida máxima.",
+          "en": "Only if the operator performing the Final Strike is at Max HP. If they have lost HP, the crystal only heals them and grants no Arts Amp. The calculation assumes Max HP.",
+          "zh": "仅当造成重击的主控干员生命值已满时生效。生命值未满时，支援晶体只回复生命值，不施加法术增幅。计算默认生命值已满。",
+          "zh-TW": "僅當造成重擊的主控幹員生命值已滿時生效。生命值未滿時，支援晶體只回復生命值，不施加法術增幅。計算預設生命值已滿。",
+          "ja": "重攻撃を与えた操作中のオペレーターのHPが満タンの場合のみ。HPが減っていると、サポートクリスタルはHPを回復するだけでアーツ増幅は付与されない。計算はHP満タンを前提とする。",
+          "ko": "강력한 일격 피해를 준 메인 컨트롤 오퍼레이터의 생명력이 최대치일 때만 적용됩니다. 생명력이 줄어 있으면 지원 결정체는 생명력만 회복시키고 아츠 증폭은 부여하지 않습니다. 계산은 생명력이 최대치라고 가정합니다."
         },
         "mods": [
           {
@@ -2978,6 +3051,14 @@
           "ja": "M1：戦技または必殺技の命中後、[300+防御力×5]の物理ダメージを追加で1回与える（戦技の反撃は1回の使用につき1回として計算）。防御力は装備、「不屈の防壁」、M2から。",
           "ko": "M1: 배틀 스킬 또는 궁극기 명중 후, [300+방어력×5]의 물리 피해를 추가로 1회 줍니다(배틀 스킬의 반격은 사용마다 1회로 계산). 방어력은 장비, 「강인한 방어선」, M2에서 얻습니다."
         },
+        "aviso": {
+          "es": "En la battle, el golpe extra solo sale si el contraataque pega: a Catcher lo tienen que atacar mientras sostiene el escudo. En la ult sale siempre. El cálculo supone un contraataque por battle.",
+          "en": "On the battle skill, the extra strike only happens if the retaliation bash lands: Catcher has to be attacked while the shield is raised. On the ultimate it always happens. The calculation assumes one retaliation per battle skill.",
+          "zh": "战技的额外伤害只有在反击命中时才会发生：卡契尔必须在立盾期间受到攻击。终结技则必定触发。计算默认每次战技都发动一次反击。",
+          "zh-TW": "戰技的額外傷害只有在反擊命中時才會發生：卡契爾必須在立盾期間受到攻擊。終結技則必定觸發。計算預設每次戰技都發動一次反擊。",
+          "ja": "戦技では、反撃が命中したときのみ追加ダメージが発生する。盾を構えている間に攻撃を受ける必要がある。必殺技では必ず発生する。計算は戦技ごとに1回反撃する前提。",
+          "ko": "배틀 스킬에서는 반격이 명중해야만 추가 피해가 발생합니다. 방패를 들고 있는 동안 공격을 받아야 합니다. 궁극기에서는 항상 발생합니다. 계산은 배틀 스킬마다 한 번 반격한다고 가정합니다."
+        },
         "mods": [
           {
             "type": "addedHit",
@@ -3035,6 +3116,14 @@
           "ja": "スキルによる回復ごとに灼熱ダメージのスタックを2つ（40秒、最大5）：HPが満タンなら1回の発動で2スタック。装備者は1スタック +4%：計算では自身3%＋チーム1%に分ける（装備者は両方）。連携はすべて「罪追人」で回復する。",
           "ko": "스킬 치유마다 열기 피해 2중첩, 40초(최대 5): 생명력이 가득 차 있으면 발동마다 2중첩. 장착자는 중첩당 +4%: 계산은 자신 3% + 팀 1%로 나눕니다(장착자는 둘 다). 모든 연계는 「죄를 쫓는 자」으로 치유합니다."
         },
+        "aviso": {
+          "es": "Con Camille a vida máxima, cada cura da 2 acumulaciones; si le falta vida, solo 1. El cálculo supone vida máxima.",
+          "en": "With Camille at Max HP, each heal gives 2 stacks; if he has lost HP, only 1. The calculation assumes Max HP.",
+          "zh": "卡缪生命值已满时，每次治疗获得2层；生命值未满时只获得1层。计算默认生命值已满。",
+          "zh-TW": "卡繆生命值已滿時，每次治療獲得2層；生命值未滿時只獲得1層。計算預設生命值已滿。",
+          "ja": "カミーユのHPが満タンなら回復するたびに2段階、HPが減っていると1段階のみ。計算はHP満タンを前提とする。",
+          "ko": "카뮤의 생명력이 가득 찬 상태라면 치유할 때마다 2스택, 생명력이 줄어 있으면 1스택만 얻습니다. 계산은 생명력이 가득 찼다고 가정합니다."
+        },
         "mods": [
           {
             "type": "dmgAdd",
@@ -3062,6 +3151,14 @@
           "zh-TW": "其他幹員獲得效果的25%：每層灼熱傷害 +1%（最多5層，40秒）。",
           "ja": "他のオペレーターは効果の25%を得る：1スタックごとに灼熱ダメージ +1%（最大5、40秒）。",
           "ko": "다른 오퍼레이터는 효과의 25%를 얻습니다: 중첩당 열기 피해 +1%(최대 5, 40초)."
+        },
+        "aviso": {
+          "es": "Con Camille a vida máxima, cada cura da 2 acumulaciones; si le falta vida, solo 1. El cálculo supone vida máxima.",
+          "en": "With Camille at Max HP, each heal gives 2 stacks; if he has lost HP, only 1. The calculation assumes Max HP.",
+          "zh": "卡缪生命值已满时，每次治疗获得2层；生命值未满时只获得1层。计算默认生命值已满。",
+          "zh-TW": "卡繆生命值已滿時，每次治療獲得2層；生命值未滿時只獲得1層。計算預設生命值已滿。",
+          "ja": "カミーユのHPが満タンなら回復するたびに2段階、HPが減っていると1段階のみ。計算はHP満タンを前提とする。",
+          "ko": "카뮤의 생명력이 가득 찬 상태라면 치유할 때마다 2스택, 생명력이 줄어 있으면 1스택만 얻습니다. 계산은 생명력이 가득 찼다고 가정합니다."
         },
         "mods": [
           {
@@ -4109,6 +4206,14 @@
           "ja": "必殺技「悪いことは許しませ～ん！」：3つのギフトのいずれかから「アンバサダーのスペシャルギフト」が出現すると（1つあたり20%、M1で×1.5、素質1：前回の必殺技以降の戦技のブロック1回ごとに+10%、最大3回）、敵にアーツ脆弱+2.5%を5秒間付与する。ランダムなので期待値で計算：2.5% × その必殺技の3つのギフトのうち少なくとも1つで出る確率（M1と素質1なしで48.8%）。",
           "ko": "궁극기 「말썽 피우면 안 돼!」: 3개의 상자 중 「홍보대사의 특수 선물」이 나오면(상자당 20%, M1에서 ×1.5, 재능 1: 직전 궁극기 이후 배틀 스킬의 막기마다 +10%, 최대 3회) 적에게 아츠 취약 +2.5%를 5초간 부여합니다. 무작위이므로 기댓값으로 계산합니다: 2.5% × 그 궁극기의 3개 상자 중 적어도 하나에서 나올 확률(M1과 재능 1 없이 48.8%)."
         },
+        "aviso": {
+          "es": "Al azar: depende de que salga la Ambassador's Special en la ult. El cálculo usa el promedio y, con el T1, supone que cada battle skill bloquea un ataque.",
+          "en": "Random: it depends on the ultimate revealing the Ambassador's Special. The calculation uses the average and, with T1, assumes every battle skill blocks an attack.",
+          "zh": "随机效果：取决于终结技能否开出代言人的特殊赠礼。计算使用的是平均值，且在天赋1下默认每次战技都成功格挡一次攻击。",
+          "zh-TW": "隨機效果：取決於終結技能否開出代言人的特殊贈禮。計算使用的是平均值，且在天賦1下預設每次戰技都成功格擋一次攻擊。",
+          "ja": "ランダム：必殺技でアンバサダーのスペシャルギフトが出現するかどうかによる。計算は平均値を使い、才能1では戦技ごとに攻撃を1回ブロックする前提。",
+          "ko": "무작위: 궁극기에서 홍보대사의 특수 선물이 나오는지에 따라 달라집니다. 계산은 평균값을 사용하며, 재능 1에서는 배틀 스킬마다 공격을 한 번 막아낸다고 가정합니다."
+        },
         "mods": [
           {
             "type": "enemySusc",
@@ -4332,7 +4437,8 @@
       {
         "id": "argentflow-1",
         "src": "Zenith of Voltmancy",
-        "srcType": "talent",
+        "srcType": "battle_skill",
+        "reaccion": "electrification",
         "target": "team",
         "cond": {
           "en": "When Argent Flow applies Electrification, this Electrification also increases all types of DMG Taken of the target for the same duration, and he also applies Sunderization stack(s) on the target, the number of stacks is equal to the Electrification Status Level and maxes out at 12. Sunderization lasts for 60s.",
@@ -4342,15 +4448,38 @@
           "ja": "ミンホが感電状態を付与したとき、この感電効果は目標が受ける全種類のダメージをアップし、さらに目標に雷勢を付与する",
           "ko": "명하가 감전을 부여할 때, 이번 감전 효과로 적이 받는 모든 유형 피해가 증가하며, 부여한 감전의 이상 레벨과 동일한 스택 수치만큼 적에게 우레를 부여합니다. 우레는 최대 12스택까지 중첩되며, 우레 상태는 60초 동안 지속."
         },
-        "pendingModel": "Pendiente de la etapa de motor: Electrification de Argent Flow como DAÑ recibido de todo tipo y Sunderization (acumulaciones, estallido con Crush y ×1,2 al Crush). El cálculo todavía no lo suma.",
         "mods": [
           {
             "type": "enemyDmgTaken",
-            "value": 0,
-            "element": "physical"
+            "value": 0.24
           }
         ],
-        "whenState": "electrification"
+        "options": [
+          1
+        ],
+        "noStack": true
+      },
+      {
+        "id": "argentflow-1c",
+        "src": "Zenith of Voltmancy",
+        "srcType": "talent",
+        "target": "self",
+        "cond": {
+          "en": "When dealing Crush DMG to a target with Sunderization, this Crush DMG is increased to 1.2 times the original and detonates all Sunderization stacks. The explosion deals [Number of Sunderization stacks × 220%/330% ATK] of Electric DMG to the target and 40% of that DMG to other enemies near the said target.",
+          "es": "Al infligir DAÑ de Triturar a un objetivo con Hendimiento, este DAÑ de Triturar aumenta a 1.2 veces el original y detona todas las acumulaciones de Hendimiento. La explosión inflige [Cantidad de acumulaciones de Hendimiento × 220%/330% ATQ] de DAÑ eléctrico al objetivo y 40% de ese DAÑ a otros enemigos cercanos a dicho objetivo.",
+          "zh": "处于殷雷状态的目标受到猛击伤害时，本次猛击伤害提升至原本的1.2倍，同时引爆目标的所有殷雷，对目标造成[殷雷层数×220%/330%攻击力]的电磁伤害，对目标周围其他敌人只造成40%伤害。",
+          "zh-TW": "處於殷雷狀態的目標受到猛擊傷害時，本次猛擊傷害提升至原本的1.2倍，同時引爆目標的所有殷雷，對目標造成[殷雷層數×220%/330%攻擊力]的電磁傷害，對目標周圍其他敵人只造成40%傷害。",
+          "ja": "段階数はそのとき与えた感電の異常段階と同じで、最大12段階まで重ね掛け可能",
+          "ko": "우레 상태인 적이 강타 피해를 받으면 해당 강타 피해가 기존의 1.2배로 증가합니다. 동시에 적의 모든 우레를 폭발시켜 적에게 [우레 스택 수치×220%/330% 공격력]만큼의 전기 피해를 주며, 목표 주변의 다른 적에게는 40%의 피해만 줍니다."
+        },
+        "mods": [
+          {
+            "type": "dmgMult",
+            "value": 0.2,
+            "stat": "Crush"
+          }
+        ],
+        "permanent": true
       },
       {
         "id": "argentflow-2",
@@ -4391,12 +4520,14 @@
           "ja": "素質「天奔る稲妻」強化：雷勢状態の目標が猛撃を受けるとき、その猛撃のダメージが1.4倍までアップする さらに雷勢を起爆し、目標の周囲にいる他の敵へのダメージが50%までアップする",
           "ko": "재능 하늘을 가르는 번개 효과 강화: 우레 상태인 목표가 강타 피해를 받을 때, 해당 강타의 피해가 기존의 1.4배로 증가하며, 우레 폭발이 목표 주변의 다른 적에게 주는 피해가 50%까지 증가합니다."
         },
-        "pendingModel": "Pendiente de la etapa de motor: sube el Crush a ×1,4 y la parte de Sunderization que alcanza a los enemigos cercanos a 50 %.",
+        "reemplaza": [
+          "argentflow-1c"
+        ],
         "mods": [
           {
             "type": "dmgMult",
-            "value": 0,
-            "slot": "ultimate"
+            "value": 0.4,
+            "stat": "Crush"
           }
         ],
         "permanent": true

@@ -158,6 +158,50 @@
     "dt": {
       "battle_skill": "electric"
     },
+    "stacksSel": {
+      "ultimate": {
+        "min": 0,
+        "max": 12,
+        "default": 0,
+        "noSlot": true,
+        "aiScale": 0.006,
+        "ksAi": {
+          "keystone": "Invitation to Celestial Lights",
+          "mult": 1.2
+        },
+        "vecinos": 0.4,
+        "ksVecinos": {
+          "keystone": "Wildswept Storm",
+          "frac": 0.5
+        },
+        "crush": {
+          "label": {
+            "en": "Crush",
+            "es": "Triturar",
+            "zh": "猛击",
+            "zh-TW": "猛擊",
+            "ja": "猛撃",
+            "ko": "강타"
+          },
+          "vulnLabel": {
+            "en": "Vulnerability stacks this Crush consumes",
+            "es": "Acumulaciones de Vulnerabilidad que consume este Triturar",
+            "zh": "此次猛击消耗的破防层数",
+            "zh-TW": "此次猛擊消耗的破防層數",
+            "ja": "この猛撃が消費するクラッシュのスタック数",
+            "ko": "이 강타가 소모하는 방어 불능 중첩 수"
+          }
+        },
+        "label": {
+          "en": "Sunderization stacks the Crush detonates",
+          "es": "Acumulaciones de Hendimiento que detona el Triturar",
+          "zh": "猛击引爆的殷雷层数",
+          "zh-TW": "猛擊引爆的殷雷層數",
+          "ja": "猛撃で起爆する雷勢のスタック数",
+          "ko": "강타로 폭발하는 우레 중첩 수"
+        }
+      }
+    },
     "variant": {
       "battle_skill": {
         "sel": "cycle",
@@ -181,6 +225,11 @@
     }
   },
   "laevatain": {
+   "ueAdd": {
+    "combo_skill": {
+     "add": 25
+    }
+   },
    "ultEnhance": "lvt_ult",
    "dmgSlot": {
     "ultimate": "basic_attack"
@@ -750,6 +799,12 @@
     "raw": "When an enemy becomes Vulnerable.",
     "state": "vulnerability",
     "event": true
+   },
+   "hits": {
+    "ultimate": {
+     "Slash Multiplier": [0, 1, 2, 3, 4, 5],
+     "Final Strike DMG Multiplier": [6]
+    }
    }
   },
   "arclight": {
@@ -863,6 +918,7 @@
   },
   "camille": {
    "grantsLink": "combo_skill",
+   "heals": { "combo_skill": "self" },
    "linkDur": {
     "s": 15
    },
@@ -1012,6 +1068,7 @@
    }
   },
   "snowshine": {
+   "heals": { "combo_skill": { "who": "others", "everyStat": "Treatment Over Time Interval (s)", "durStat": "Duration (s)", "first": true } },
    "ueAdd": {
     "battle_skill": {
      "add": 10
@@ -1082,6 +1139,7 @@
    }
   },
   "xaihi": {
+   "heals": { "battle_skill": { "who": "others", "onFinalStrike": { "n": 2, "durStat": "Auxiliary Crystal Duration (s)" } } },
    "comboTrigger": {
     "raw": "When the Auxiliary Crystal uses up its HP treatments.",
     "chargesSpent": {
@@ -1288,6 +1346,10 @@
    }
   },
   "liino": {
+   "heals": {
+    "battle_skill": { "who": "others", "everyStat": "Beat Interval (s)", "state": "liino_vocalist", "first": false },
+    "ultimate": { "who": "team", "everyStat": "Beat Interval (s)", "state": "liino_cosmo", "first": true }
+   },
    "spNext": {
     "from": "combo_skill",
     "durS": 30,

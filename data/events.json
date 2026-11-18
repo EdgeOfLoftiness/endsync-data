@@ -260,6 +260,10 @@
       "accent": "#5f9b7a",
       "startsAt": "2026-10-14T23:00:00Z",
       "endsAt": "2026-11-05T04:00:00Z",
+      "byServer": {
+        "america": "2026-11-05T17:00:00Z",
+        "europe": "2026-11-05T17:00:00Z"
+      },
       "source": "https://endfield.gryphline.com/en-us/news/9560",
       "kicker": {
         "es": "Evento de guía · 1.6",
@@ -461,6 +465,14 @@
       "accent": "#c98a5a",
       "startsAt": "2026-10-22T04:00:00Z",
       "endsAt": "2026-11-04T20:00:00Z",
+      "startsByServer": {
+        "america": "2026-10-22T17:00:00Z",
+        "europe": "2026-10-22T17:00:00Z"
+      },
+      "byServer": {
+        "america": "2026-11-05T09:00:00Z",
+        "europe": "2026-11-05T09:00:00Z"
+      },
       "source": "https://endfield.gryphline.com/en-us/news/9560",
       "kicker": {
         "es": "Evento de cámara · 1.6",
@@ -658,6 +670,14 @@
       "accent": "#d0473f",
       "startsAt": "2026-10-22T04:00:00Z",
       "endsAt": "2026-11-04T20:00:00Z",
+      "startsByServer": {
+        "america": "2026-10-22T17:00:00Z",
+        "europe": "2026-10-22T17:00:00Z"
+      },
+      "byServer": {
+        "america": "2026-11-05T09:00:00Z",
+        "europe": "2026-11-05T09:00:00Z"
+      },
       "source": "https://endfield.gryphline.com/en-us/news/9560",
       "kicker": {
         "es": "Desafío por tiempo limitado · Monumento del Umbral",
@@ -859,6 +879,14 @@
       "accent": "#e04b3c",
       "startsAt": "2026-10-29T04:00:00Z",
       "endsAt": "2026-11-18T20:00:00Z",
+      "startsByServer": {
+        "america": "2026-10-29T17:00:00Z",
+        "europe": "2026-10-29T17:00:00Z"
+      },
+      "byServer": {
+        "america": "2026-11-19T09:00:00Z",
+        "europe": "2026-11-19T09:00:00Z"
+      },
       "source": "https://endfield.gryphline.com/en-us/news/9560",
       "kicker": {
         "es": "Evento de desafío · 1.6",
@@ -1122,6 +1150,14 @@
       "accent": "#7a4fd0",
       "startsAt": "2026-10-31T04:00:00Z",
       "endsAt": "2026-11-13T20:00:00Z",
+      "startsByServer": {
+        "america": "2026-10-31T17:00:00Z",
+        "europe": "2026-10-31T17:00:00Z"
+      },
+      "byServer": {
+        "america": "2026-11-14T09:00:00Z",
+        "europe": "2026-11-14T09:00:00Z"
+      },
       "source": "https://endfield.gryphline.com/en-us/news/9560",
       "kicker": {
         "es": "Evento de diversión y juegos · web",
@@ -1273,6 +1309,10 @@
       "accent": "#4c6ef5",
       "startsAt": "2026-11-05T04:00:00Z",
       "endsAt": "2026-11-25T22:00:00Z",
+      "startsByServer": {
+        "america": "2026-11-05T17:00:00Z",
+        "europe": "2026-11-05T17:00:00Z"
+      },
       "source": "https://endfield.gryphline.com/en-us/news/9560",
       "kicker": {
         "es": "Modo endgame · 2ª temporada",
@@ -1709,6 +1749,10 @@
       "accent": "#d9b44a",
       "startsAt": "2026-11-05T04:00:00Z",
       "endsAt": "2026-11-25T22:00:00Z",
+      "startsByServer": {
+        "america": "2026-11-05T17:00:00Z",
+        "europe": "2026-11-05T17:00:00Z"
+      },
       "source": "https://endfield.gryphline.com/en-us/news/9560",
       "kicker": {
         "es": "Evento de narrativa · Argent Flow",
@@ -1858,6 +1902,10 @@
       "cover": "https://edgeofloftiness.github.io/endsync-data/assets/events/delver-fade-beyond-banner.webp",
       "accent": "#6d8fb3",
       "startsAt": "2026-11-12T04:00:00Z",
+      "startsByServer": {
+        "america": "2026-11-12T17:00:00Z",
+        "europe": "2026-11-12T17:00:00Z"
+      },
       "source": "https://endfield.gryphline.com/en-us/news/9560",
       "kicker": {
         "es": "Acertijos · Explorador de lo críptico",
@@ -3189,37 +3237,83 @@
             "ko": "1.6 버전 시즌"
           },
           "body": {
-            "es": "La 1.6 abre dos temporadas nuevas, Fantasía y Fervor. Cada una sigue rotando etapas existentes y suma tres etapas nuevas, con enemigos y combinaciones de etapas actualizados y recompensas como Oroberyl.",
-            "en": "Version 1.6 opens two new seasons, Phantasia and Fervor. Each keeps rotating existing stages and adds three new ones, with updated enemies and stage combinations and rewards such as Oroberyl.",
-            "zh": "1.6 版本开放两个新赛季「异想」与「狂热」。每个赛季继续轮换已有关卡，并新增3个关卡，敌人与关卡组合也会更新，可获得嵌晶玉等奖励。",
-            "zh-TW": "1.6 版本開放兩個新賽季「異想」與「狂熱」。每個賽季繼續輪換已有關卡，並新增3個關卡，敵人與關卡組合也會更新，可獲得嵌晶玉等獎勵。",
-            "ja": "1.6では新シーズン「奇想」と「狂熱」が開催されます。各シーズンは既存ステージのローテーションを続けつつ新ステージを3つ追加し、敵とステージの組み合わせも更新されます。赤晶玉などを獲得できます。",
-            "ko": "1.6 버전에는 새 시즌 「이색」와 「열광」가 열립니다. 각 시즌은 기존 스테이지를 계속 순환하면서 신규 스테이지 3개를 추가하고, 적과 스테이지 조합도 갱신되며 오로베릴 등을 얻을 수 있습니다."
+            "es": "La 1.6 abre dos temporadas nuevas, Fantasía y Fervor. Cada una sigue rotando etapas existentes y suma tres etapas nuevas. Fervor empezó el 5 de noviembre a las 12:00 (hora del servidor) y cerró Fantasía a la misma hora; sus tres ciclos, según el aviso oficial:",
+            "en": "Version 1.6 opens two new seasons, Phantasia and Fervor. Each keeps rotating existing stages and adds three new ones. Fervor opened on Nov. 5 at 12:00 (server time), closing Phantasia at the same moment; its three cycles, per the official notice:",
+            "zh": "1.6 版本开放两个新赛季「异想」与「狂热」。每个赛季继续轮换已有关卡，并新增3个关卡。「狂热」于11月5日12:00（服务器时间）开启，「异想」同时结束。根据官方公告，三个周期如下：",
+            "zh-TW": "1.6 版本開放兩個新賽季「異想」與「狂熱」。每個賽季繼續輪換已有關卡，並新增3個關卡。「狂熱」於11月5日12:00（伺服器時間）開啟，「異想」同時結束。根據官方公告，三個週期如下：",
+            "ja": "1.6では新シーズン「奇想」と「狂熱」が開催されます。各シーズンは既存ステージのローテーションを続けつつ新ステージを3つ追加します。「狂熱」は11月5日12:00（サーバー時間）に開始し、同時に「奇想」が終了しました。公式告知による3つのサイクルは以下のとおりです。",
+            "ko": "1.6 버전에는 새 시즌 「이색」와 「열광」가 열립니다. 각 시즌은 기존 스테이지를 계속 순환하면서 신규 스테이지 3개를 추가합니다. 「열광」은 11월 5일 12:00(서버 시간)에 시작되었고 같은 시각 「이색」이 종료되었습니다. 공식 공지에 따른 세 사이클은 다음과 같습니다."
           },
           "points": [
             {
-              "es": "Fantasía (Phantasia): desde la actualización de la versión «Santuario de tinta».",
-              "en": "Phantasia: from the \"Sanctuary of Ink\" version update.",
-              "zh": "异想：「丹青渡」版本更新后。",
-              "zh-TW": "異想：「丹青渡」版本更新後。",
-              "ja": "奇想：バージョン「丹青渡」開始後。",
-              "ko": "이색: 「단청도」 버전 업데이트 후."
+              "es": "Ciclo de Fervor I: 5 nov. 12:00 – 12 nov. 03:59. Etapas: Avenger File: Bonekrusher (nueva), Construct File: Geist (nueva) y Pulverizing Ammunition.",
+              "en": "Cycle of Fervor I: Nov. 5 12:00 – Nov. 12 03:59. Stages: Avenger File: Bonekrusher (new), Construct File: Geist (new) and Pulverizing Ammunition.",
+              "zh": "狂热周期 I：11月5日12:00–11月12日03:59。关卡：Avenger File: Bonekrusher（新）、Construct File: Geist（新）、Pulverizing Ammunition。",
+              "zh-TW": "狂熱週期 I：11月5日12:00–11月12日03:59。關卡：Avenger File: Bonekrusher（新）、Construct File: Geist（新）、Pulverizing Ammunition。",
+              "ja": "狂熱サイクル I：11月5日12:00～11月12日03:59。ステージ：Avenger File: Bonekrusher（新）、Construct File: Geist（新）、Pulverizing Ammunition。",
+              "ko": "열광 사이클 I: 11월 5일 12:00 ~ 11월 12일 03:59. 스테이지: Avenger File: Bonekrusher(신규), Construct File: Geist(신규), Pulverizing Ammunition."
             },
             {
-              "es": "Fervor: desde el 5 de noviembre de 2026 (hora del servidor).",
-              "en": "Fervor: from Nov. 5, 2026 (server time).",
-              "zh": "狂热：2026年11月5日起（服务器时间）。",
-              "zh-TW": "狂熱：2026年11月5日起（伺服器時間）。",
-              "ja": "狂熱：2026年11月5日から（サーバー時間）。",
-              "ko": "열광: 2026년 11월 5일부터(서버 시간)."
+              "es": "Ciclo de Fervor II: 12 nov. 04:00 – 19 nov. 03:59. Etapas: Defense File: Shield (nueva), Scars of Landbreaking y Beastly Schemes.",
+              "en": "Cycle of Fervor II: Nov. 12 04:00 – Nov. 19 03:59. Stages: Defense File: Shield (new), Scars of Landbreaking and Beastly Schemes.",
+              "zh": "狂热周期 II：11月12日04:00–11月19日03:59。关卡：Defense File: Shield（新）、Scars of Landbreaking、Beastly Schemes。",
+              "zh-TW": "狂熱週期 II：11月12日04:00–11月19日03:59。關卡：Defense File: Shield（新）、Scars of Landbreaking、Beastly Schemes。",
+              "ja": "狂熱サイクル II：11月12日04:00～11月19日03:59。ステージ：Defense File: Shield（新）、Scars of Landbreaking、Beastly Schemes。",
+              "ko": "열광 사이클 II: 11월 12일 04:00 ~ 11월 19일 03:59. 스테이지: Defense File: Shield(신규), Scars of Landbreaking, Beastly Schemes."
             },
             {
-              "es": "Las horas exactas, los nombres de las etapas nuevas y sus mecánicas no están en las fuentes oficiales.",
-              "en": "The exact times, the new stages' names and their mechanics aren't in the official sources.",
-              "zh": "具体时间、新增关卡名称与机制，官方资料尚未公布。",
-              "zh-TW": "具體時間、新增關卡名稱與機制，官方資料尚未公布。",
-              "ja": "正確な時刻、新ステージの名称とギミックは公式情報に掲載されていません。",
-              "ko": "정확한 시간, 신규 스테이지 이름과 기믹은 공식 자료에 나와 있지 않습니다."
+              "es": "Ciclo de Fervor III: desde el 19 nov. 04:00 hasta el mantenimiento de la próxima versión. Etapas: Brief History of War, Glaiver File: Yinglung y Howling of Undying Beasts.",
+              "en": "Cycle of Fervor III: from Nov. 19 04:00 until the next version's maintenance. Stages: Brief History of War, Glaiver File: Yinglung and Howling of Undying Beasts.",
+              "zh": "狂热周期 III：11月19日04:00起，至下个版本更新维护前。关卡：Brief History of War、Glaiver File: Yinglung、Howling of Undying Beasts。",
+              "zh-TW": "狂熱週期 III：11月19日04:00起，至下個版本更新維護前。關卡：Brief History of War、Glaiver File: Yinglung、Howling of Undying Beasts。",
+              "ja": "狂熱サイクル III：11月19日04:00から次のバージョンアップメンテナンスまで。ステージ：Brief History of War、Glaiver File: Yinglung、Howling of Undying Beasts。",
+              "ko": "열광 사이클 III: 11월 19일 04:00부터 다음 버전 업데이트 점검 전까지. 스테이지: Brief History of War, Glaiver File: Yinglung, Howling of Undying Beasts."
+            },
+            {
+              "es": "Todas las horas son del servidor: UTC+8 en Asia, UTC-5 en Américas/Europa.",
+              "en": "All times are server time: UTC+8 on Asia, UTC-5 on Americas/Europe.",
+              "zh": "以上均为服务器时间：Asia 服务器为 UTC+8，Americas / Europe 服务器为 UTC-5。",
+              "zh-TW": "以上均為伺服器時間：Asia 伺服器為 UTC+8，Americas / Europe 伺服器為 UTC-5。",
+              "ja": "時刻はすべてサーバー時間です。Asiaサーバーは UTC+8、Americas / Europeサーバーは UTC-5。",
+              "ko": "모든 시간은 서버 시간입니다. Asia 서버는 UTC+8, Americas / Europe 서버는 UTC-5입니다."
+            }
+          ]
+        },
+        {
+          "type": "meta",
+          "id": "eow-fervor-traits",
+          "h": {
+            "es": "Fervor: rasgos de las etapas nuevas",
+            "en": "Fervor: new stage traits",
+            "zh": "狂热：新关卡特性",
+            "zh-TW": "狂熱：新關卡特性",
+            "ja": "狂熱：新ステージの特性",
+            "ko": "열광: 신규 스테이지 특성"
+          },
+          "points": [
+            {
+              "es": "Avenger File: Bonekrusher: sube la Intensidad de artes de todo el equipo y los operadores entran al combate con la energía de máxima llena.",
+              "en": "Avenger File: Bonekrusher: the whole team's Arts Intensity is increased, and operators enter battle with max Ultimate Energy.",
+              "zh": "Avenger File: Bonekrusher：全队源石技艺强度提升，干员进入战斗时终结技能量为满。",
+              "zh-TW": "Avenger File: Bonekrusher：全隊源石技藝強度提升，幹員進入戰鬥時終結技能量為滿。",
+              "ja": "Avenger File: Bonekrusher：チーム全体のアーツ強度が上昇し、オペレーターは必殺チャージ最大の状態で戦闘を開始します。",
+              "ko": "Avenger File: Bonekrusher: 팀 전체의 오리지늄 아츠 강도가 증가하고, 오퍼레이터가 궁극기 에너지가 가득 찬 상태로 전투를 시작합니다."
+            },
+            {
+              "es": "Construct File: Geist: los operadores entran con la energía de máxima llena, y Gloomwald's Rage empieza con cierta cantidad de cargas de escudo.",
+              "en": "Construct File: Geist: operators enter battle with max Ultimate Energy, and Gloomwald's Rage starts with a certain number of shield stacks.",
+              "zh": "Construct File: Geist：干员进入战斗时终结技能量为满；Gloomwald's Rage 开场即带有一定层数的护盾。",
+              "zh-TW": "Construct File: Geist：幹員進入戰鬥時終結技能量為滿；Gloomwald's Rage 開場即帶有一定層數的護盾。",
+              "ja": "Construct File: Geist：オペレーターは必殺チャージ最大の状態で戦闘を開始し、Gloomwald's Rage は一定数のシールドスタックを持った状態で始まります。",
+              "ko": "Construct File: Geist: 오퍼레이터가 궁극기 에너지가 가득 찬 상태로 전투를 시작하고, Gloomwald's Rage는 일정 수의 보호막 중첩을 가진 채 시작합니다."
+            },
+            {
+              "es": "Defense File: Shield: el aviso todavía no muestra su mecánica (abre con el Ciclo II, el 12 de noviembre).",
+              "en": "Defense File: Shield: the notice doesn't show its mechanic yet (it opens with Cycle II on Nov. 12).",
+              "zh": "Defense File: Shield：公告尚未公开其机制（随周期 II 于11月12日开放）。",
+              "zh-TW": "Defense File: Shield：公告尚未公開其機制（隨週期 II 於11月12日開放）。",
+              "ja": "Defense File: Shield：告知ではまだギミックが公開されていません（11月12日のサイクル II で開放）。",
+              "ko": "Defense File: Shield: 공지에 아직 기믹이 공개되지 않았습니다(11월 12일 사이클 II와 함께 개방)."
             }
           ]
         },
