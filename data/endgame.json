@@ -9,7 +9,12 @@
     "resetNote": {
       "es": "Fechas del servidor Américas/Europa; en Asia el corte cae en su propio reset.",
       "en": "Dates are Americas/Europe server; on Asia the cut falls on its own reset."
-    }
+    },
+    "difficulties": [
+      { "lv": 60, "name": { "en": "Normal", "es": "Normal", "zh": "普通", "zh-TW": "普通", "ja": "通常", "ko": "일반" } },
+      { "lv": 75, "name": { "en": "Hard", "es": "Difícil", "zh": "困难", "zh-TW": "困難", "ja": "苦難", "ko": "고난" } },
+      { "lv": 90, "name": { "en": "Brutal", "es": "Brutal", "zh": "残酷", "zh-TW": "殘酷", "ja": "苛烈", "ko": "잔혹" } }
+    ]
   },
   "seasons": [
     {
@@ -36,13 +41,103 @@
               "id": "old-tales-of-the-wild",
               "name": "Old Tales of the Wild",
               "mech": { "es": "Etapa nueva. Mecánica por confirmar.", "en": "New stage. Mechanic to be confirmed." },
-              "enemies": []
+              "enemies": ["eny-0092-slbomb", "eny-0073-slimerg", "eny-0050-hound", "eny-0096-hsmob2"],
+              "towerId": "indie_battletower002",
+              "hp": {
+                "eny-0092-slbomb": [135135, 277641, 500770],
+                "eny-0073-slimerg": [114345, 234927, 423730],
+                "eny-0050-hound": [114345, 234927, 423730],
+                "eny-0096-hsmob2": [218299, 448493, 808937]
+              },
+              "effects": [
+                {
+                  "en": "Defeating enemies recovers 15 SP.",
+                  "es": "Al derrotar enemigos se recuperan 15 PH.",
+                  "zh": "击败敌人时，恢复15点技力。",
+                  "zh-TW": "擊敗敵人時，回復15點技力。",
+                  "ja": "敵を倒すと、SPを15回復する。",
+                  "ko": "적 처치 시 스킬 게이지 15 포인트를 회복합니다."
+                },
+                {
+                  "en": "Battle Skill DMG Dealt +60%.",
+                  "es": "DAÑ de habilidad de batalla infligido +60%.",
+                  "zh": "战技伤害+60%。",
+                  "zh-TW": "戰技傷害+60%。",
+                  "ja": "戦技ダメージ+60%",
+                  "ko": "배틀 스킬 피해 +60%."
+                },
+                {
+                  "en": "Enemies have better stats.",
+                  "es": "Los enemigos tienen mejores estadísticas.",
+                  "zh": "敌人属性提升。",
+                  "zh-TW": "敵人屬性提升。",
+                  "ja": "敵のステータスが強化される。",
+                  "ko": "적의 속성이 증가합니다."
+                },
+                {
+                  "en": "Only HP Treatment tacticals and consumables can be used.",
+                  "es": "Solo se pueden usar items tácticos y consumibles para Tratamiento de PV.",
+                  "zh": "禁止使用回复生命值以外的战术物品和消耗品。",
+                  "zh-TW": "禁止使用回復生命值以外的戰術物品和消耗品。",
+                  "ja": "HP回復以外の戦闘補助アイテムおよび消耗品の使用が禁止される。",
+                  "ko": "생명력을 회복할 수 있는 전술 아이템 외, 다른 전술 아이템과 소모품을 사용할 수 없습니다."
+                }
+              ]
             },
             {
               "id": "brief-history-of-war",
               "name": "Brief History of War",
               "mech": { "es": "Etapa nueva. Mecánica por confirmar.", "en": "New stage. Mechanic to be confirmed." },
-              "enemies": []
+              "enemies": ["eny-0007-mimicw", "eny-0027-agscorp", "eny-0048-hvybow", "eny-0073-slimerg"],
+              "towerId": "indie_battletower008",
+              "hp": {
+                "eny-0007-mimicw": [485108, 996656, 1797641],
+                "eny-0027-agscorp": [569308, 1169647, 2109661],
+                "eny-0048-hvybow": [570248, 1171579, 2113144],
+                "eny-0073-slimerg": [84397, 173398, 312753]
+              },
+              "effects": [
+                {
+                  "en": "Defeating the Tunneling Nidwyrm grants SP Regen Rate +30%.",
+                  "es": "Derrotar al Nidwyrm Subterráneo otorga Índice de regeneración de PH +30%.",
+                  "zh": "击败潜地虬兽后，技力自然恢复速度+30%。",
+                  "zh-TW": "擊敗潛地虯獸後，技力自然回復速度+30%。",
+                  "ja": "潜地蛟獣を倒すと、SPの自然回復速度+30%",
+                  "ko": "터널링 니드웜 처치 후, 스킬 게이지 자연 회복 속도 +30%."
+                },
+                {
+                  "en": "Defeating the Heavy Sting grants Combo Skill Cooldown Reduction +50%.",
+                  "es": "Derrotar al Aguijón fuerte otorga Reducción de tiempo de reutilización de habilidad de combo +50%.",
+                  "zh": "击败重刺天使后，连携技冷却缩减+50%。",
+                  "zh-TW": "擊敗重刺天使後，連攜技冷卻縮減+50%。",
+                  "ja": "槍棘アンゲロスを倒すと、連携技CD短縮+50%",
+                  "ko": "삼미아겔로스 처치 후, 연계 스킬 쿨타임 감소 +50%."
+                },
+                {
+                  "en": "Defeating the Bonekrusher Ballista grants Ultimate Gain Efficiency +60%.",
+                  "es": "Derrotar al Balista Rompehuesos otorga Eficiencia de ganancia máxima +60%.",
+                  "zh": "击败碾骨射手后，终结技充能效率+60%。",
+                  "zh-TW": "擊敗碾骨射手後，終結技蓄能效率+60%。",
+                  "ja": "ボーンクラッシャーの狙撃手を倒すと、必殺チャージの回復効率+60%",
+                  "ko": "본 크러셔 사수 처치 후, 궁극기 충전 효율 +60%."
+                },
+                {
+                  "en": "Enemies have better stats.",
+                  "es": "Los enemigos tienen mejores estadísticas.",
+                  "zh": "敌人属性提升。",
+                  "zh-TW": "敵人屬性提升。",
+                  "ja": "敵のステータスが強化される。",
+                  "ko": "적의 속성이 증가합니다."
+                },
+                {
+                  "en": "Only HP Treatment tacticals and consumables can be used.",
+                  "es": "Solo se pueden usar items tácticos y consumibles para Tratamiento de PV.",
+                  "zh": "禁止使用回复生命值以外的战术物品和消耗品。",
+                  "zh-TW": "禁止使用回復生命值以外的戰術物品和消耗品。",
+                  "ja": "HP回復以外の戦闘補助アイテムおよび消耗品の使用が禁止される。",
+                  "ko": "생명력을 회복할 수 있는 전술 아이템 외, 다른 전술 아이템과 소모품을 사용할 수 없습니다."
+                }
+              ]
             },
             {
               "id": "howling-of-undying-beasts",
@@ -51,7 +146,43 @@
                 "es": "Jefe Skydrummer: no entra en Enraged, pero llega con +50 de resistencia elemental (así funcionó en Season of Recalling). Bonus de Brutal de esta temporada por confirmar.",
                 "en": "Skydrummer boss: it will not enter its Enraged state, but it comes with +50 elemental resistance (that is how it worked in Season of Recalling). This season's Brutal bonus is to be confirmed."
               },
-              "enemies": ["eny-0082-hsbear"]
+              "enemies": ["eny-0082-hsbear"],
+              "towerId": "indie_battletower007",
+              "hp": { "eny-0082-hsbear": [1069218, 2196709, 3962145] },
+              "effects": [
+                {
+                  "en": "The Skydrummer will not enter its Enraged state.",
+                  "es": "El tamborilero celestial no entrará en su estado Iracundo.",
+                  "zh": "天鼓不会进入愤怒状态。",
+                  "zh-TW": "天鼓不會進入憤怒狀態。",
+                  "ja": "天鼓は怒り状態に入らない。",
+                  "ko": "천고가 분노 상태에 진입하지 않습니다."
+                },
+                {
+                  "en": "After entering battle, the Skydrummer gains 50 Resistance against all elements.",
+                  "es": "Al entrar en combate, el tamborilero celestial obtiene 50 de resistencia contra todos los elementos.",
+                  "zh": "进入战斗后，天鼓获得50点全属性抗性。",
+                  "zh-TW": "進入戰鬥後，天鼓獲得50點全屬性抗性。",
+                  "ja": "戦闘に入ると、天鼓は全属性耐性50を獲得する。",
+                  "ko": "전투에 진입한 후, 천고가 50포인트의 전체 속성 저항을 획득합니다."
+                },
+                {
+                  "en": "Enemies have better stats.",
+                  "es": "Los enemigos tienen mejores estadísticas.",
+                  "zh": "敌人属性提升。",
+                  "zh-TW": "敵人屬性提升。",
+                  "ja": "敵のステータスが強化される。",
+                  "ko": "적의 속성이 증가합니다."
+                },
+                {
+                  "en": "Only HP Treatment tacticals and consumables can be used.",
+                  "es": "Solo se pueden usar items tácticos y consumibles para Tratamiento de los PV.",
+                  "zh": "禁止使用回复生命值以外的战术物品和消耗品。",
+                  "zh-TW": "禁止使用回復生命值以外的戰術物品和消耗品。",
+                  "ja": "HP回復以外の戦闘補助アイテムおよび消耗品の使用が禁止される。",
+                  "ko": "생명력을 회복할 수 있는 전술 아이템 외, 다른 전술 아이템과 소모품을 사용할 수 없습니다."
+                }
+              ]
             }
           ]
         },
@@ -61,14 +192,8 @@
     },
     {
       "id": "virtuality",
-      "name": {
-        "es": "Season of Virtuality",
-        "en": "Season of Virtuality"
-      },
-      "dateText": {
-        "es": "Por llegar · v1.5",
-        "en": "Upcoming · v1.5"
-      },
+      "name": { "es": "Season of Virtuality", "en": "Season of Virtuality" },
+      "dateText": { "es": "Por llegar · v1.5", "en": "Upcoming · v1.5" },
       "startsAt": null,
       "endsAt": null,
       "notes": [
@@ -80,30 +205,21 @@
       "cycles": [
         {
           "n": 1,
-          "dateText": {
-            "es": "Por confirmar",
-            "en": "To be confirmed"
-          },
+          "dateText": { "es": "Por confirmar", "en": "To be confirmed" },
           "startsAt": null,
           "endsAt": null,
           "stages": []
         },
         {
           "n": 2,
-          "dateText": {
-            "es": "Por confirmar",
-            "en": "To be confirmed"
-          },
+          "dateText": { "es": "Por confirmar", "en": "To be confirmed" },
           "startsAt": null,
           "endsAt": null,
           "stages": []
         },
         {
           "n": 3,
-          "dateText": {
-            "es": "Por confirmar",
-            "en": "To be confirmed"
-          },
+          "dateText": { "es": "Por confirmar", "en": "To be confirmed" },
           "startsAt": null,
           "endsAt": null,
           "stages": []
@@ -112,14 +228,8 @@
     },
     {
       "id": "illusion",
-      "name": {
-        "es": "Season of Illusion",
-        "en": "Season of Illusion"
-      },
-      "dateText": {
-        "es": "Por llegar · v1.5",
-        "en": "Upcoming · v1.5"
-      },
+      "name": { "es": "Season of Illusion", "en": "Season of Illusion" },
+      "dateText": { "es": "Por llegar · v1.5", "en": "Upcoming · v1.5" },
       "startsAt": null,
       "endsAt": null,
       "notes": [
@@ -131,30 +241,21 @@
       "cycles": [
         {
           "n": 1,
-          "dateText": {
-            "es": "Por confirmar",
-            "en": "To be confirmed"
-          },
+          "dateText": { "es": "Por confirmar", "en": "To be confirmed" },
           "startsAt": null,
           "endsAt": null,
           "stages": []
         },
         {
           "n": 2,
-          "dateText": {
-            "es": "Por confirmar",
-            "en": "To be confirmed"
-          },
+          "dateText": { "es": "Por confirmar", "en": "To be confirmed" },
           "startsAt": null,
           "endsAt": null,
           "stages": []
         },
         {
           "n": 3,
-          "dateText": {
-            "es": "Por confirmar",
-            "en": "To be confirmed"
-          },
+          "dateText": { "es": "Por confirmar", "en": "To be confirmed" },
           "startsAt": null,
           "endsAt": null,
           "stages": []
@@ -163,14 +264,8 @@
     },
     {
       "id": "phantasia",
-      "name": {
-        "es": "Fantasía",
-        "en": "Phantasia"
-      },
-      "dateText": {
-        "es": "Desde la actualización 1.6 (14 oct)",
-        "en": "Since the 1.6 update (Oct 14)"
-      },
+      "name": { "es": "Fantasía", "en": "Phantasia" },
+      "dateText": { "es": "Desde la actualización 1.6 (14 oct)", "en": "Since the 1.6 update (Oct 14)" },
       "startsAt": "2026-10-14T23:00:00Z",
       "endsAt": null,
       "notes": [
@@ -182,30 +277,21 @@
       "cycles": [
         {
           "n": 1,
-          "dateText": {
-            "es": "Por confirmar",
-            "en": "To be confirmed"
-          },
+          "dateText": { "es": "Por confirmar", "en": "To be confirmed" },
           "startsAt": null,
           "endsAt": null,
           "stages": []
         },
         {
           "n": 2,
-          "dateText": {
-            "es": "Por confirmar",
-            "en": "To be confirmed"
-          },
+          "dateText": { "es": "Por confirmar", "en": "To be confirmed" },
           "startsAt": null,
           "endsAt": null,
           "stages": []
         },
         {
           "n": 3,
-          "dateText": {
-            "es": "Por confirmar",
-            "en": "To be confirmed"
-          },
+          "dateText": { "es": "Por confirmar", "en": "To be confirmed" },
           "startsAt": null,
           "endsAt": null,
           "stages": []
@@ -214,52 +300,143 @@
     },
     {
       "id": "fervor",
-      "name": {
-        "es": "Fervor",
-        "en": "Fervor"
-      },
-      "dateText": {
-        "es": "Desde el 5 nov",
-        "en": "From Nov 5"
-      },
+      "name": { "es": "Fervor", "en": "Fervor" },
+      "dateText": { "es": "Desde el 5 nov", "en": "From Nov 5" },
       "startsAt": "2026-11-05T17:00:00Z",
-      "startsByServer": {
-        "asia": "2026-11-05T04:00:00Z"
-      },
+      "startsByServer": { "asia": "2026-11-05T04:00:00Z" },
       "endsAt": null,
       "notes": [
         {
-          "es": "Sigue a Fantasía dentro de la 1.6, desde el 5 de noviembre de 2026 (hora del servidor), también con tres etapas nuevas. Los nombres de etapa y la hora exacta se completan cuando el juego los publique.",
-          "en": "It follows Phantasia within 1.6, from Nov. 5, 2026 (server time), also with three new stages. Stage names and the exact time get filled in once the game publishes them."
+          "es": "Sigue a Fantasía dentro de la 1.6, desde el 5 de noviembre de 2026 (hora del servidor). Las etapas de los ciclos 2 y 3 se completan cuando abran.",
+          "en": "It follows Phantasia within 1.6, from Nov. 5, 2026 (server time). The stages of cycles 2 and 3 get filled in once they open."
         }
       ],
       "cycles": [
         {
           "n": 1,
-          "dateText": {
-            "es": "Por confirmar",
-            "en": "To be confirmed"
-          },
+          "dateText": { "es": "Desde el 5 nov", "en": "From Nov 5" },
           "startsAt": null,
           "endsAt": null,
-          "stages": []
+          "stages": [
+            {
+              "id": "avenger-file-bonekrusher",
+              "name": "Avenger File: Bonekrusher",
+              "enemies": ["eny-0066-lbhunt2", "eny-0075-lbroshan"],
+              "towerId": "indie_battletower017",
+              "hp": { "eny-0066-lbhunt2": [159888, 328488, 592487], "eny-0075-lbroshan": [512332, 1052590, 1898528] },
+              "effects": [
+                {
+                  "en": "The entire team's Arts Intensity +100%.",
+                  "es": "La Intensidad de artes de todo el equipo +100%.",
+                  "zh": "全队源石技艺强度+100%。",
+                  "zh-TW": "全隊源石技藝強度+100%。",
+                  "ja": "チーム全員のアーツ強度+100%",
+                  "ko": "팀 전체 오리지늄 아츠 강도 +100%."
+                },
+                {
+                  "en": "Operators enter battle with max Ultimate Energy.",
+                  "es": "Los operadores entran en combate con la Energía máxima al Máx.",
+                  "zh": "进入战斗后，干员充满终结技能量。",
+                  "zh-TW": "進入戰鬥後，幹員蓄滿終結技能量。",
+                  "ja": "戦闘開始後、オペレーターの必殺チャージが満タンになる。",
+                  "ko": "전투에 진입한 후, 오퍼레이터의 궁극기 에너지가 최대치로 충전됩니다."
+                },
+                {
+                  "en": "Enemies have better stats.",
+                  "es": "Los enemigos tienen mejores estadísticas.",
+                  "zh": "敌人属性提升。",
+                  "zh-TW": "敵人屬性提升。",
+                  "ja": "敵のステータスが強化される。",
+                  "ko": "적의 속성이 증가합니다."
+                },
+                {
+                  "en": "Only HP Treatment tacticals and consumables can be used.",
+                  "es": "Solo se pueden usar ítems tácticos y consumibles para Tratamiento de PV.",
+                  "zh": "禁止使用回复生命值以外的战术物品和消耗品。",
+                  "zh-TW": "禁止使用回復生命值以外的戰術物品和消耗品。",
+                  "ja": "HP回復以外の戦闘補助アイテムおよび消耗品の使用が禁止される。",
+                  "ko": "생명력을 회복할 수 있는 전술 아이템 외, 다른 전술 아이템과 소모품을 사용할 수 없습니다."
+                }
+              ]
+            },
+            {
+              "id": "construct-file-geist",
+              "name": "Construct File: Geist",
+              "enemies": ["eny-0127-bigents"],
+              "towerId": "indie_battletower019",
+              "hp": { "eny-0127-bigents": [2019631, 4149340, 7484056] },
+              "effects": [
+                {
+                  "en": "Operators enter battle with max Ultimate Energy.",
+                  "es": "Los operadores ingresan al combate con Energía máxima al máx.",
+                  "zh": "进入战斗后，干员充满终结技能量。",
+                  "zh-TW": "進入戰鬥後，幹員蓄滿終結技能量。",
+                  "ja": "戦闘開始後、オペレーターの必殺チャージが満タンになる。",
+                  "ko": "전투에 진입한 후, 오퍼레이터의 궁극기 에너지가 최대치로 충전됩니다."
+                },
+                {
+                  "en": "Gloomwald's Rage starts with 3 shield stack(s).",
+                  "es": "Furia de Gloomwald empieza con 3 acumulaciones de escudo.",
+                  "zh": "幽林之怒初始获得3层层叠护盾。",
+                  "zh-TW": "幽林之怒初始獲得3層層疊護盾。",
+                  "ja": "樹海の怒は初期状態で多重シールドを3段階獲得する。",
+                  "ko": "깊은 숲의 분노가 시작부터 중첩되는 보호 3스택을 획득합니다."
+                },
+                {
+                  "en": "Enemies have better stats.",
+                  "es": "Los enemigos tienen mejores estadísticas.",
+                  "zh": "敌人属性提升。",
+                  "zh-TW": "敵人屬性提升。",
+                  "ja": "敵のステータスが強化される。",
+                  "ko": "적의 속성이 증가합니다."
+                },
+                {
+                  "en": "Only HP Treatment tacticals and consumables can be used.",
+                  "es": "Solo se pueden usar ítems tácticos y consumibles para Tratamiento de PV.",
+                  "zh": "禁止使用回复生命值以外的战术物品和消耗品。",
+                  "zh-TW": "禁止使用回復生命值以外的戰術物品和消耗品。",
+                  "ja": "HP回復以外の戦闘補助アイテムおよび消耗品の使用が禁止される。",
+                  "ko": "생명력을 회복할 수 있는 전술 아이템 외, 다른 전술 아이템과 소모품을 사용할 수 없습니다."
+                }
+              ]
+            },
+            {
+              "id": "pulverizing-ammunition",
+              "name": "Pulverizing Ammunition",
+              "enemies": ["eny-0093-hshog", "eny-0055-hscrane"],
+              "towerId": "indie_battletower005",
+              "hp": { "eny-0093-hshog": [285124, 585788, 1056572], "eny-0055-hscrane": [228693, 469851, 847459] },
+              "effects": [
+                {
+                  "en": "Enemies have better stats.",
+                  "es": "Los enemigos tienen mejores estadísticas.",
+                  "zh": "敌人属性提升。",
+                  "zh-TW": "敵人屬性提升。",
+                  "ja": "敵のステータスが強化される。",
+                  "ko": "적의 속성이 증가합니다."
+                },
+                {
+                  "en": "Only HP Treatment tacticals and consumables can be used.",
+                  "es": "Solo se pueden usar items tácticos y consumibles para Tratamiento de PV.",
+                  "zh": "禁止使用回复生命值以外的战术物品和消耗品。",
+                  "zh-TW": "禁止使用回復生命值以外的戰術物品和消耗品。",
+                  "ja": "HP回復以外の戦闘補助アイテムおよび消耗品の使用が禁止される。",
+                  "ko": "생명력을 회복할 수 있는 전술 아이템 외, 다른 전술 아이템과 소모품을 사용할 수 없습니다."
+                }
+              ]
+            }
+          ]
         },
         {
           "n": 2,
-          "dateText": {
-            "es": "Por confirmar",
-            "en": "To be confirmed"
-          },
+          "dateText": { "es": "Por confirmar", "en": "To be confirmed" },
           "startsAt": null,
           "endsAt": null,
           "stages": []
         },
         {
           "n": 3,
-          "dateText": {
-            "es": "Por confirmar",
-            "en": "To be confirmed"
-          },
+          "dateText": { "es": "Por confirmar", "en": "To be confirmed" },
           "startsAt": null,
           "endsAt": null,
           "stages": []
@@ -290,7 +467,64 @@
                 "es": "Bonecrusher Vanguard, Arsonist y Executioner + Heavy Ram. Derrotar enemigos te da buffs de stat, pero la curación está restringida a HP Treatment. Bonus de Brutal: limpiar en 3 min.",
                 "en": "Bonecrusher Vanguard, Arsonist and Executioner + Heavy Ram. Defeating enemies grants stat buffs, but healing is restricted to HP Treatment. Brutal bonus: clear within 3 min."
               },
-              "enemies": ["eny-0023-aghornb"]
+              "enemies": ["eny-0074-lbshield", "eny-0023-aghornb", "eny-0047-firebat", "eny-0018-lbtough"],
+              "towerId": "indie_battletower006",
+              "hp": {
+                "eny-0074-lbshield": [310365, 637659, 1150127],
+                "eny-0023-aghornb": [451446, 927498, 1672906],
+                "eny-0047-firebat": [451446, 927498, 1672906],
+                "eny-0018-lbtough": [451447, 927499, 1672907]
+              },
+              "effects": [
+                {
+                  "en": "Defeating the Bonekrusher Vanguard grants Stagger Efficiency Bonus +50%.",
+                  "es": "Derrotar a la Vanguardia Rompehuesos otorga Bonificación de eficiencia de tambaleo +50%.",
+                  "zh": "击败碾骨先锋后，失衡效率加成+50%。",
+                  "zh-TW": "擊敗碾骨先鋒後，失衡效率加成+50%。",
+                  "ja": "ボーンクラッシャーの先鋒を倒すと、ブレイク効率UP+50%",
+                  "ko": "본 크러셔 돌격수 처치 후, 불균형 효율 보너스 +50%."
+                },
+                {
+                  "en": "Defeating the Bonekrusher Arsonist grants Arts Intensity +100.",
+                  "es": "Derrotar al Rompehuesos Pirómano otorga Intensidad de artes +100.",
+                  "zh": "击败碾骨清道夫后，源石技艺强度+100。",
+                  "zh-TW": "擊敗碾骨清道夫後，源石技藝強度+100。",
+                  "ja": "ボーンクラッシャーの始末屋を倒すと、アーツ強度+100",
+                  "ko": "본 크러셔 집행자 처치 후, 오리지늄 아츠 강도 +100."
+                },
+                {
+                  "en": "Defeating the Bonekrusher Executioner grants Skill DMG Dealt +100%.",
+                  "es": "Derrotar al Verdugo Rompehuesos otorga DAÑ de habilidad infligido +100%.",
+                  "zh": "击败碾骨行刑人后，技能伤害+100%。",
+                  "zh-TW": "擊敗碾骨行刑人後，技能傷害+100%。",
+                  "ja": "ボーンクラッシャーの処刑人を倒すと、スキルダメージ+100%",
+                  "ko": "본 크러셔 처형자 처치 후, 스킬 피해 +100%."
+                },
+                {
+                  "en": "Defeating the Heavy Ram grants Basic Attack DMG Dealt +100%.",
+                  "es": "Derrotar al Carnero grande otorga DAÑ de ataque básico infligido +100%.",
+                  "zh": "击败刚角天使后，普通攻击伤害+100%。",
+                  "zh-TW": "擊敗剛角天使後，普通攻擊傷害+100%。",
+                  "ja": "剛角アンゲロスを倒すと、通常攻撃ダメージ+100%",
+                  "ko": "쌍뿔아겔로스 처치 후, 일반 공격 피해 +100%."
+                },
+                {
+                  "en": "Enemies have better stats.",
+                  "es": "Los enemigos tienen mejores estadísticas.",
+                  "zh": "敌人属性提升。",
+                  "zh-TW": "敵人屬性提升。",
+                  "ja": "敵のステータスが強化される。",
+                  "ko": "적의 속성이 증가합니다."
+                },
+                {
+                  "en": "Only HP Treatment tacticals and consumables can be used.",
+                  "es": "Solo se pueden usar ítems tácticos y consumibles para Tratamiento de los PV.",
+                  "zh": "禁止使用回复生命值以外的战术物品和消耗品。",
+                  "zh-TW": "禁止使用回復生命值以外的戰術物品和消耗品。",
+                  "ja": "HP回復以外の戦闘補助アイテムおよび消耗品の使用が禁止される。",
+                  "ko": "생명력을 회복할 수 있는 전술 아이템 외, 다른 전술 아이템과 소모품을 사용할 수 없습니다."
+                }
+              ]
             },
             {
               "id": "silver-watercutter",
@@ -299,7 +533,39 @@
                 "es": "Tras aplicar Arts Infliction 20 veces, todos tus operadores ganan Final DMG Dealt +50%. Bonus de Brutal: limpiar en 3 min.",
                 "en": "After applying Arts Infliction 20 times, all your operators gain Final DMG Dealt +50%. Brutal bonus: clear within 3 min."
               },
-              "enemies": []
+              "enemies": ["eny-0106-wgthorns2", "eny-0105-wgslime2", "eny-0091-wgshoal"],
+              "towerId": "indie_battletower001",
+              "hp": {
+                "eny-0106-wgthorns2": [95785, 196790, 354944],
+                "eny-0105-wgslime2": [134098, 275503, 496918],
+                "eny-0091-wgshoal": [574703, 1180732, 2129653]
+              },
+              "effects": [
+                {
+                  "en": "After applying Arts Infliction 20 time(s), all operators gain Final DMG Dealt +50%.",
+                  "es": "Tras aplicar Imposición de artes 20 veces, todos los operadores obtienen DAÑ Final infligido +50%.",
+                  "zh": "造成20次法术附着后，干员造成的最终伤害+50%。",
+                  "zh-TW": "造成20次法術附著後，幹員造成的最終傷害+50%。",
+                  "ja": "アーツ付着を20回付与すると、オペレーターの与える最終ダメージ+50%",
+                  "ko": "아츠 부착 20회 부여 후, 오퍼레이터가 주는 최종 피해 +50%."
+                },
+                {
+                  "en": "Enemies have better stats.",
+                  "es": "Los enemigos tienen mejores estadísticas.",
+                  "zh": "敌人属性提升。",
+                  "zh-TW": "敵人屬性提升。",
+                  "ja": "敵のステータスが強化される。",
+                  "ko": "적의 속성이 증가합니다."
+                },
+                {
+                  "en": "Only HP Treatment tacticals and consumables can be used.",
+                  "es": "Solo se pueden usar items tácticos y consumibles para Tratamiento de PV.",
+                  "zh": "禁止使用回复生命值以外的战术物品和消耗品。",
+                  "zh-TW": "禁止使用回復生命值以外的戰術物品和消耗品。",
+                  "ja": "HP回復以外の戦闘補助アイテムおよび消耗品の使用が禁止される。",
+                  "ko": "생명력을 회복할 수 있는 전술 아이템 외, 다른 전술 아이템과 소모품을 사용할 수 없습니다."
+                }
+              ]
             },
             {
               "id": "howling-of-undying-beasts",
@@ -308,7 +574,43 @@
                 "es": "Jefe Skydrummer: no entra en Enraged, pero llega con +50 de resistencia elemental. Bonus de Brutal: limpiar en 3 min.",
                 "en": "Skydrummer boss: it won't enter its Enraged state, but it comes with +50 elemental resistance. Brutal bonus: clear within 3 min."
               },
-              "enemies": ["eny-0082-hsbear"]
+              "enemies": ["eny-0082-hsbear"],
+              "towerId": "indie_battletower007",
+              "hp": { "eny-0082-hsbear": [1069218, 2196709, 3962145] },
+              "effects": [
+                {
+                  "en": "The Skydrummer will not enter its Enraged state.",
+                  "es": "El tamborilero celestial no entrará en su estado Iracundo.",
+                  "zh": "天鼓不会进入愤怒状态。",
+                  "zh-TW": "天鼓不會進入憤怒狀態。",
+                  "ja": "天鼓は怒り状態に入らない。",
+                  "ko": "천고가 분노 상태에 진입하지 않습니다."
+                },
+                {
+                  "en": "After entering battle, the Skydrummer gains 50 Resistance against all elements.",
+                  "es": "Al entrar en combate, el tamborilero celestial obtiene 50 de resistencia contra todos los elementos.",
+                  "zh": "进入战斗后，天鼓获得50点全属性抗性。",
+                  "zh-TW": "進入戰鬥後，天鼓獲得50點全屬性抗性。",
+                  "ja": "戦闘に入ると、天鼓は全属性耐性50を獲得する。",
+                  "ko": "전투에 진입한 후, 천고가 50포인트의 전체 속성 저항을 획득합니다."
+                },
+                {
+                  "en": "Enemies have better stats.",
+                  "es": "Los enemigos tienen mejores estadísticas.",
+                  "zh": "敌人属性提升。",
+                  "zh-TW": "敵人屬性提升。",
+                  "ja": "敵のステータスが強化される。",
+                  "ko": "적의 속성이 증가합니다."
+                },
+                {
+                  "en": "Only HP Treatment tacticals and consumables can be used.",
+                  "es": "Solo se pueden usar items tácticos y consumibles para Tratamiento de los PV.",
+                  "zh": "禁止使用回复生命值以外的战术物品和消耗品。",
+                  "zh-TW": "禁止使用回復生命值以外的戰術物品和消耗品。",
+                  "ja": "HP回復以外の戦闘補助アイテムおよび消耗品の使用が禁止される。",
+                  "ko": "생명력을 회복할 수 있는 전술 아이템 외, 다른 전술 아이템과 소모품을 사용할 수 없습니다."
+                }
+              ]
             }
           ]
         },
@@ -318,21 +620,125 @@
           "stages": [
             {
               "id": "skirmishers-aethillu",
-              "name": "Skirmisher's Æthillu",
+              "name": "Skirmishers' Æthillu",
               "mech": { "es": "Mecánica sin documentar en la app.", "en": "Mechanic not documented in the app." },
-              "enemies": []
+              "enemies": ["eny-0033-lbhunt", "eny-0095-ethillu"],
+              "towerId": "indie_battletower003",
+              "hp": { "eny-0033-lbhunt": [77220, 158652, 286154], "eny-0095-ethillu": [19800, 40680, 73373] },
+              "effects": [
+                {
+                  "en": "Enemies cannot move but are harder to interrupt.",
+                  "es": "Los enemigos no pueden moverse, pero son más difíciles de interrumpir.",
+                  "zh": "敌人不会主动移动，更难被打断。",
+                  "zh-TW": "敵人不會主動移動，更難被打斷。",
+                  "ja": "敵は自発的に移動せず、中断されにくくなる。",
+                  "ko": "적이 주동적으로 이동하지 않고, 행동을 끊기가 더 어려워집니다."
+                },
+                {
+                  "en": "Æthillu that can only be damaged by finishers will appear in the battlefield.",
+                  "es": "En el campo de batalla aparecerá un Éthillu que solo puede recibir daño de remates.",
+                  "zh": "场地会生成仅受处决伤害的表象。",
+                  "zh-TW": "場地會生成僅受處決傷害的表象。",
+                  "ja": "フィールド上に、終撃ダメージのみを受けるイーサルーが出現する。",
+                  "ko": "처형 피해만 받는 잔영이 생성됩니다."
+                },
+                {
+                  "en": "Defeating an Æthillu will pull in all enemies, recover 50 SP, and give the controlled operator DMG Dealt +100% for 10s.",
+                  "es": "Al derrotar a un Éthillu, atraerás a todos los enemigos, recuperarás 50 PH y el operador controlado obtendrá DAÑ infligido +100% durante 10 s.",
+                  "zh": "击败表象时，会牵引所有敌人，恢复50点技力，并使主控干员造成的伤害+100%，持续10秒。",
+                  "zh-TW": "擊敗表象時，會牽引所有敵人，回復50點技力，並使主控幹員造成的傷害+100%，持續10秒。",
+                  "ja": "イーサルーを倒すと、すべての敵が引き寄せられ、SPを50回復し、10秒間操作中のオペレーターの与えるダメージ+100%",
+                  "ko": "잔영 처치 시 모든 적을 끌어당기고, 스킬 게이지 50포인트를 회복하며, 메인 컨트롤 오퍼레이터가 주는 피해 +100%, 10초간 지속됩니다."
+                },
+                {
+                  "en": "Defeat all Bonekrusher Ambushers to clear the stage; defeating the Æthillu is not required.",
+                  "es": "Derrota a todos los Emboscadores Rompehuesos para completar la fase; no es necesario derrotar a los Éthillu.",
+                  "zh": "通关仅需要击败所有碾骨伏击射手，无需击败表象。",
+                  "zh-TW": "通關僅需要擊敗所有碾骨伏擊射手，無需擊敗表象。",
+                  "ja": "クリア条件は、すべてのボーンクラッシャーの潜伏狙撃手を倒すこと。イーサルーを倒す必要はない。",
+                  "ko": "완료 조건은 모든 본 크러셔 저격수를 처치하는 것으로, 모든 잔영을 처치할 필요는 없습니다."
+                },
+                {
+                  "en": "Enemies have better stats.",
+                  "es": "Los enemigos tienen mejores estadísticas.",
+                  "zh": "敌人属性提升。",
+                  "zh-TW": "敵人屬性提升。",
+                  "ja": "敵のステータスが強化される。",
+                  "ko": "적의 속성이 증가합니다."
+                },
+                {
+                  "en": "Only HP Treatment tacticals and consumables can be used.",
+                  "es": "Solo se pueden usar items tácticos y consumibles para Tratamiento de los PV.",
+                  "zh": "禁止使用回复生命值以外的战术物品和消耗品。",
+                  "zh-TW": "禁止使用回復生命值以外的戰術物品和消耗品。",
+                  "ja": "HP回復以外の戦闘補助アイテムおよび消耗品の使用が禁止される。",
+                  "ko": "생명력을 회복할 수 있는 전술 아이템 외, 다른 전술 아이템과 소모품을 사용할 수 없습니다."
+                }
+              ]
             },
             {
               "id": "silver-watercutter",
               "name": "Silver Watercutter",
               "mech": { "es": "Repite del Ciclo I.", "en": "Repeats from Cycle I." },
-              "enemies": []
+              "enemies": ["eny-0106-wgthorns2", "eny-0105-wgslime2", "eny-0091-wgshoal"],
+              "towerId": "indie_battletower001",
+              "hp": {
+                "eny-0106-wgthorns2": [95785, 196790, 354944],
+                "eny-0105-wgslime2": [134098, 275503, 496918],
+                "eny-0091-wgshoal": [574703, 1180732, 2129653]
+              },
+              "effects": [
+                {
+                  "en": "After applying Arts Infliction 20 time(s), all operators gain Final DMG Dealt +50%.",
+                  "es": "Tras aplicar Imposición de artes 20 veces, todos los operadores obtienen DAÑ Final infligido +50%.",
+                  "zh": "造成20次法术附着后，干员造成的最终伤害+50%。",
+                  "zh-TW": "造成20次法術附著後，幹員造成的最終傷害+50%。",
+                  "ja": "アーツ付着を20回付与すると、オペレーターの与える最終ダメージ+50%",
+                  "ko": "아츠 부착 20회 부여 후, 오퍼레이터가 주는 최종 피해 +50%."
+                },
+                {
+                  "en": "Enemies have better stats.",
+                  "es": "Los enemigos tienen mejores estadísticas.",
+                  "zh": "敌人属性提升。",
+                  "zh-TW": "敵人屬性提升。",
+                  "ja": "敵のステータスが強化される。",
+                  "ko": "적의 속성이 증가합니다."
+                },
+                {
+                  "en": "Only HP Treatment tacticals and consumables can be used.",
+                  "es": "Solo se pueden usar items tácticos y consumibles para Tratamiento de PV.",
+                  "zh": "禁止使用回复生命值以外的战术物品和消耗品。",
+                  "zh-TW": "禁止使用回復生命值以外的戰術物品和消耗品。",
+                  "ja": "HP回復以外の戦闘補助アイテムおよび消耗品の使用が禁止される。",
+                  "ko": "생명력을 회복할 수 있는 전술 아이템 외, 다른 전술 아이템과 소모품을 사용할 수 없습니다."
+                }
+              ]
             },
             {
               "id": "age-of-axes",
               "name": "Age of Axes",
               "mech": { "es": "Mecánica sin documentar en la app.", "en": "Mechanic not documented in the app." },
-              "enemies": []
+              "enemies": ["eny-0068-lbtough2"],
+              "towerId": "indie_battletower004",
+              "hp": { "eny-0068-lbtough2": [516789, 1061743, 1915037] },
+              "effects": [
+                {
+                  "en": "Enemies have better stats.",
+                  "es": "Los enemigos tienen mejores estadísticas.",
+                  "zh": "敌人属性提升。",
+                  "zh-TW": "敵人屬性提升。",
+                  "ja": "敵のステータスが強化される。",
+                  "ko": "적의 속성이 증가합니다."
+                },
+                {
+                  "en": "Only HP Treatment tacticals and consumables can be used.",
+                  "es": "Solo se pueden usar items tácticos y consumibles para Tratamiento de PV.",
+                  "zh": "禁止使用回复生命值以外的战术物品和消耗品。",
+                  "zh-TW": "禁止使用回復生命值以外的戰術物品和消耗品。",
+                  "ja": "HP回復以外の戦闘補助アイテムおよび消耗品の使用が禁止される。",
+                  "ko": "생명력을 회복할 수 있는 전술 아이템 외, 다른 전술 아이템과 소모품을 사용할 수 없습니다."
+                }
+              ]
             }
           ]
         },
@@ -344,19 +750,116 @@
               "id": "pulverizing-ammunition",
               "name": "Pulverizing Ammunition",
               "mech": { "es": "Mecánica sin documentar en la app.", "en": "Mechanic not documented in the app." },
-              "enemies": []
+              "enemies": ["eny-0093-hshog", "eny-0055-hscrane"],
+              "towerId": "indie_battletower005",
+              "hp": { "eny-0093-hshog": [285124, 585788, 1056572], "eny-0055-hscrane": [228693, 469851, 847459] },
+              "effects": [
+                {
+                  "en": "Enemies have better stats.",
+                  "es": "Los enemigos tienen mejores estadísticas.",
+                  "zh": "敌人属性提升。",
+                  "zh-TW": "敵人屬性提升。",
+                  "ja": "敵のステータスが強化される。",
+                  "ko": "적의 속성이 증가합니다."
+                },
+                {
+                  "en": "Only HP Treatment tacticals and consumables can be used.",
+                  "es": "Solo se pueden usar items tácticos y consumibles para Tratamiento de PV.",
+                  "zh": "禁止使用回复生命值以外的战术物品和消耗品。",
+                  "zh-TW": "禁止使用回復生命值以外的戰術物品和消耗品。",
+                  "ja": "HP回復以外の戦闘補助アイテムおよび消耗品の使用が禁止される。",
+                  "ko": "생명력을 회복할 수 있는 전술 아이템 외, 다른 전술 아이템과 소모품을 사용할 수 없습니다."
+                }
+              ]
             },
             {
               "id": "scars-of-landbreaking",
               "name": "Scars of Landbreaking",
               "mech": { "es": "Repite del Ciclo I.", "en": "Repeats from Cycle I." },
-              "enemies": ["eny-0023-aghornb"]
+              "enemies": ["eny-0074-lbshield", "eny-0023-aghornb", "eny-0047-firebat", "eny-0018-lbtough"],
+              "towerId": "indie_battletower006",
+              "hp": {
+                "eny-0074-lbshield": [310365, 637659, 1150127],
+                "eny-0023-aghornb": [451446, 927498, 1672906],
+                "eny-0047-firebat": [451446, 927498, 1672906],
+                "eny-0018-lbtough": [451447, 927499, 1672907]
+              },
+              "effects": [
+                {
+                  "en": "Defeating the Bonekrusher Vanguard grants Stagger Efficiency Bonus +50%.",
+                  "es": "Derrotar a la Vanguardia Rompehuesos otorga Bonificación de eficiencia de tambaleo +50%.",
+                  "zh": "击败碾骨先锋后，失衡效率加成+50%。",
+                  "zh-TW": "擊敗碾骨先鋒後，失衡效率加成+50%。",
+                  "ja": "ボーンクラッシャーの先鋒を倒すと、ブレイク効率UP+50%",
+                  "ko": "본 크러셔 돌격수 처치 후, 불균형 효율 보너스 +50%."
+                },
+                {
+                  "en": "Defeating the Bonekrusher Arsonist grants Arts Intensity +100.",
+                  "es": "Derrotar al Rompehuesos Pirómano otorga Intensidad de artes +100.",
+                  "zh": "击败碾骨清道夫后，源石技艺强度+100。",
+                  "zh-TW": "擊敗碾骨清道夫後，源石技藝強度+100。",
+                  "ja": "ボーンクラッシャーの始末屋を倒すと、アーツ強度+100",
+                  "ko": "본 크러셔 집행자 처치 후, 오리지늄 아츠 강도 +100."
+                },
+                {
+                  "en": "Defeating the Bonekrusher Executioner grants Skill DMG Dealt +100%.",
+                  "es": "Derrotar al Verdugo Rompehuesos otorga DAÑ de habilidad infligido +100%.",
+                  "zh": "击败碾骨行刑人后，技能伤害+100%。",
+                  "zh-TW": "擊敗碾骨行刑人後，技能傷害+100%。",
+                  "ja": "ボーンクラッシャーの処刑人を倒すと、スキルダメージ+100%",
+                  "ko": "본 크러셔 처형자 처치 후, 스킬 피해 +100%."
+                },
+                {
+                  "en": "Defeating the Heavy Ram grants Basic Attack DMG Dealt +100%.",
+                  "es": "Derrotar al Carnero grande otorga DAÑ de ataque básico infligido +100%.",
+                  "zh": "击败刚角天使后，普通攻击伤害+100%。",
+                  "zh-TW": "擊敗剛角天使後，普通攻擊傷害+100%。",
+                  "ja": "剛角アンゲロスを倒すと、通常攻撃ダメージ+100%",
+                  "ko": "쌍뿔아겔로스 처치 후, 일반 공격 피해 +100%."
+                },
+                {
+                  "en": "Enemies have better stats.",
+                  "es": "Los enemigos tienen mejores estadísticas.",
+                  "zh": "敌人属性提升。",
+                  "zh-TW": "敵人屬性提升。",
+                  "ja": "敵のステータスが強化される。",
+                  "ko": "적의 속성이 증가합니다."
+                },
+                {
+                  "en": "Only HP Treatment tacticals and consumables can be used.",
+                  "es": "Solo se pueden usar ítems tácticos y consumibles para Tratamiento de los PV.",
+                  "zh": "禁止使用回复生命值以外的战术物品和消耗品。",
+                  "zh-TW": "禁止使用回復生命值以外的戰術物品和消耗品。",
+                  "ja": "HP回復以外の戦闘補助アイテムおよび消耗品の使用が禁止される。",
+                  "ko": "생명력을 회복할 수 있는 전술 아이템 외, 다른 전술 아이템과 소모품을 사용할 수 없습니다."
+                }
+              ]
             },
             {
               "id": "age-of-axes",
               "name": "Age of Axes",
               "mech": { "es": "Repite del Ciclo II.", "en": "Repeats from Cycle II." },
-              "enemies": []
+              "enemies": ["eny-0068-lbtough2"],
+              "towerId": "indie_battletower004",
+              "hp": { "eny-0068-lbtough2": [516789, 1061743, 1915037] },
+              "effects": [
+                {
+                  "en": "Enemies have better stats.",
+                  "es": "Los enemigos tienen mejores estadísticas.",
+                  "zh": "敌人属性提升。",
+                  "zh-TW": "敵人屬性提升。",
+                  "ja": "敵のステータスが強化される。",
+                  "ko": "적의 속성이 증가합니다."
+                },
+                {
+                  "en": "Only HP Treatment tacticals and consumables can be used.",
+                  "es": "Solo se pueden usar items tácticos y consumibles para Tratamiento de PV.",
+                  "zh": "禁止使用回复生命值以外的战术物品和消耗品。",
+                  "zh-TW": "禁止使用回復生命值以外的戰術物品和消耗品。",
+                  "ja": "HP回復以外の戦闘補助アイテムおよび消耗品の使用が禁止される。",
+                  "ko": "생명력을 회복할 수 있는 전술 아이템 외, 다른 전술 아이템과 소모품을 사용할 수 없습니다."
+                }
+              ]
             }
           ]
         }

@@ -1,6 +1,149 @@
 {
   "banners": [
     {
+      "id": "b17",
+      "title": {
+        "es": "Un yunque, una mochila y un tarro de miel — Kay",
+        "en": "Anvil, Backpack, Plus A Pot o'Honey — Kay",
+        "zh": "锻砧、行囊与蜜糖 — 小刻",
+        "zh-TW": "鍛砧、行囊與蜜糖 — 小刻",
+        "ja": "「かじ」とバッグとハチミツ！ — ケーちゃん",
+        "ko": "모루, 배낭, 그리고 벌꿀 — 케르"
+      },
+      "img": "assets/banners/anvil_backpack_pot_o_honey.webp",
+      "status": "upcoming",
+      "dateStart": "2026-11-25",
+      "dateEnd": "2026-12-23",
+      "version": "1.7",
+      "desc": {
+        "es": "Primer banner de Caza de reclutas certificada de la 1.7 «Conociéndote en el Mundo de los Hongos»: abre tras la actualización de la versión y cierra el 23 de diciembre de 2026 a las 11:59 (hora del servidor). Kay es una Vanguardia de naturaleza 6★ con Arma de asta: lanza su arma para aplicar Ráfaga de naturaleza y recuperar SP, y la recoge al tocarla o con su habilidad de batalla. Junto al banner: la Solicitud de Viajera casual con su arma Sweet Deal, el inicio de sesión de 7 días Roaming Wilderpaw (5 permisos para este banner), 5 permisos más en la Cuota del CAI y sus Simulacros de combate.",
+        "en": "First Chartered Headhunting banner of 1.7 \"Meeting You in the World o'Shrooms\": it opens after the version update and closes on Dec. 23, 2026 at 11:59 (server time). Kay is a 6★ Nature Vanguard with a Polearm: she throws her weapon to apply Nature Burst and recover SP, then picks it back up by touching it or with her battle skill. Alongside it: the Casual Roamer Issue with her weapon Sweet Deal, the 7-day sign-in Roaming Wilderpaw (5 permits for this banner), 5 more permits in the AIC Quota and her Combat Drills.",
+        "zh": "1.7版本「穿越甚大蘑境与你相逢」的第一个特许寻访：版本更新后开启，至2026年12月23日11:59（服务器时间）。小刻是使用长柄武器的6★自然先锋干员：扔出武器造成自然爆发并恢复技力，再通过触碰或战技收回武器。同期开启武库申领「恣游申领」（甜美交易）、7日签到「Roaming Wilderpaw」与集成配额兑换（各5张寻访凭证）以及作战演练。",
+        "zh-TW": "1.7版本「穿越甚大蘑境與你相逢」的第一個特許尋訪：版本更新後開啟，至2026年12月23日11:59（伺服器時間）。小刻是使用長柄武器的6★自然先鋒幹員：扔出武器造成自然爆發並回復技力，再透過觸碰或戰技收回武器。同期開啟武庫申領「恣遊申領」（甜美交易）、7日簽到「Roaming Wilderpaw」與集成配額兌換（各5張尋訪憑證）以及作戰演練。",
+        "ja": "バージョン1.7「キノコ菌グ！？君との大冒険！」最初の特別スカウト。バージョン開始後から2026年12月23日11:59（サーバー時間）まで。ケーちゃんは長柄武器を使う★6自然先鋒オペレーター：武器を投げて自然爆発を与えSPを回復し、触れるか戦技で武器を回収します。同時に武庫申請「巡旅・申請」（スウィートディール）、7日間スタンプラリー「Roaming Wilderpaw」と集成配給交換（各スカウト券5枚）、作戦訓練が開催されます。",
+        "ko": "버전 1.7 「뜻밖의 만남, 버섯 동산 대모험」의 첫 번째 특별 허가 헤드헌팅. 버전 업데이트 후부터 2026년 12월 23일 11:59(서버 시간)까지. 케르는 장병기를 쓰는 6★ 자연 뱅가드로, 무기를 던져 자연 폭발을 일으키고 스킬 게이지를 회복하며 접촉이나 배틀 스킬로 무기를 회수합니다. 무기고 신청 「유영 신청」(달콤한 거래), 7일 출석 체크 「Roaming Wilderpaw」와 통합 징표 교환(각 허가증 5장), 작전 훈련이 함께 열립니다."
+      },
+      "chars": [
+        {
+          "name": "Kay",
+          "el": "Nature",
+          "icon": "",
+          "tag": "6★",
+          "role": "Vanguard",
+          "confirmed": true,
+          "note": {
+            "es": "Rate-up limitado · 25 nov",
+            "en": "Limited rate-up · Nov 25",
+            "zh": "限定 UP · 11月25日",
+            "zh-TW": "限定 UP · 11月25日",
+            "ja": "限定ピックアップ・11月25日",
+            "ko": "한정 픽업 · 11월 25일"
+          },
+          "name_es": "Kay",
+          "name_zh": "小刻",
+          "name_zh-TW": "小刻",
+          "name_ja": "ケーちゃん",
+          "name_ko": "케르"
+        }
+      ]
+    },
+    {
+      "id": "b18",
+      "title": {
+        "es": "Para cada deseo flotante #1 (RE-Factor)",
+        "en": "To Every Wish Adrift #1 (RE-Factor)",
+        "zh": "致每一个飘游之愿 #1（重构）",
+        "zh-TW": "致每一個飄遊之願 #1（重構）",
+        "ja": "ひらり漂うすべての願いへ #1（再現）",
+        "ko": "떠도는 모든 소망에게 #1(재구축)"
+      },
+      "img": "assets/banners/to_every_wish_adrift.webp",
+      "status": "upcoming",
+      "dateStart": "2026-11-25",
+      "dateEnd": "2026-12-16",
+      "version": "1.7",
+      "kind": "refactor",
+      "desc": {
+        "es": "Caza de reclutas de RE-Factor con Gilberta en rate-up: abre tras la actualización de la versión y cierra el 16 de diciembre de 2026 a las 11:59 (hora del servidor). A la par, el Intercambio de Arsenal abre el RE-Factor Issue #1 Floaty Traveler Issue, con el arma 6★ Delivery Guaranteed (Arts Unit) en rate-up.",
+        "en": "RE-Factor Headhunting with Gilberta on rate-up: it opens after the version update and closes on Dec. 16, 2026 at 11:59 (server time). The Arsenal Exchange runs the Floaty Traveler Issue RE-Factor Issue #1 alongside it, with the 6★ Arts Unit Delivery Guaranteed on rate-up.",
+        "zh": "重构寻访，UP 6★干员为洁尔佩塔：版本更新后开启，至2026年12月16日11:59（服务器时间）。武库交易所同期开启重构申领「Floaty Traveler Issue」#1，UP 6★武器为施术单元「使命必达」。",
+        "zh-TW": "重構尋訪，UP 6★幹員為潔爾佩塔：版本更新後開啟，至2026年12月16日11:59（伺服器時間）。武庫交易所同期開啟重構申領「Floaty Traveler Issue」#1，UP 6★武器為施術單元「使命必達」。",
+        "ja": "再現スカウト。ピックアップ★6オペレーターはギルベルタ。バージョン開始後～2026年12月16日11:59（サーバー時間）。武庫交換所でも再現申請「Floaty Traveler Issue」#1 が同時開催され、ピックアップ★6武器はアーツユニット「使命必達」。",
+        "ko": "재구축 헤드헌팅으로, 픽업 6★ 오퍼레이터는 질베르타입니다. 버전 업데이트 후부터 2026년 12월 16일 11:59(서버 시간)까지. 무기고 거래소에서도 재구축 신청 「Floaty Traveler Issue」 #1이 함께 열리며, 픽업 6★ 무기는 아츠 유닛 「사명의 길」입니다."
+      },
+      "chars": [
+        {
+          "name": "Gilberta",
+          "el": "Nature",
+          "icon": "",
+          "tag": "6★",
+          "role": "Supporter",
+          "confirmed": true,
+          "note": {
+            "es": "Rate-up · 25 nov",
+            "en": "Rate-up · Nov 25",
+            "zh": "UP · 11月25日",
+            "zh-TW": "UP · 11月25日",
+            "ja": "ピックアップ・11月25日",
+            "ko": "픽업 · 11월 25일"
+          },
+          "name_es": "Gilberta",
+          "name_zh": "洁尔佩塔",
+          "name_zh-TW": "潔爾佩塔",
+          "name_ja": "ギルベルタ",
+          "name_ko": "질베르타"
+        }
+      ]
+    },
+    {
+      "id": "b19",
+      "title": {
+        "es": "Tesoro escarlata #1 (RE-Factor)",
+        "en": "Precious Scarlet #1 (RE-Factor)",
+        "zh": "绯红瑰宝 #1（重构）",
+        "zh-TW": "緋紅瑰寶 #1（重構）",
+        "ja": "スカーレットパール #1（再現）",
+        "ko": "붉은색의 진주 #1(재구축)"
+      },
+      "img": "assets/banners/precious_scarlet.webp",
+      "status": "upcoming",
+      "dateStart": "2026-12-16",
+      "dateEnd": "2027-01-06",
+      "version": "1.7",
+      "kind": "refactor",
+      "desc": {
+        "es": "Caza de reclutas de RE-Factor con Rossi en rate-up, justo después de la de Gilberta: del 16 de diciembre de 2026 a las 12:00 (hora del servidor) hasta el mantenimiento de la próxima versión. A la par, el Intercambio de Arsenal abre el RE-Factor Issue #1 Scarlet Claws Issue, con la Espada 6★ Lupine Scarlet en rate-up.",
+        "en": "RE-Factor Headhunting with Rossi on rate-up, right after Gilberta's: from Dec. 16, 2026 at 12:00 (server time) until the next version update maintenance. The Arsenal Exchange runs the Scarlet Claws Issue RE-Factor Issue #1 alongside it, with the 6★ Sword Lupine Scarlet on rate-up.",
+        "zh": "重构寻访，UP 6★干员为洛茜，接在洁尔佩塔之后：2026年12月16日12:00（服务器时间）至版本更新维护前。武库交易所同期开启重构申领「Scarlet Claws Issue」#1，UP 6★武器为单手剑「狼之绯」。",
+        "zh-TW": "重構尋訪，UP 6★幹員為洛西，接在潔爾佩塔之後：2026年12月16日12:00（伺服器時間）至版本更新維護前。武庫交易所同期開啟重構申領「Scarlet Claws Issue」#1，UP 6★武器為單手劍「狼之緋」。",
+        "ja": "再現スカウト。ピックアップ★6オペレーターはロッシで、ギルベルタの後に開催。2026年12月16日12:00（サーバー時間）～バージョンアップメンテナンス前。武庫交換所でも再現申請「Scarlet Claws Issue」#1 が同時開催され、ピックアップ★6武器は片手剣「狼緋」。",
+        "ko": "재구축 헤드헌팅으로, 질베르타에 이어 픽업 6★ 오퍼레이터는 로시입니다. 2026년 12월 16일 12:00(서버 시간)부터 버전 업데이트 점검 전까지. 무기고 거래소에서도 재구축 신청 「Scarlet Claws Issue」 #1이 함께 열리며, 픽업 6★ 무기는 한손검 「늑대의 혈흔」입니다."
+      },
+      "chars": [
+        {
+          "name": "Rossi",
+          "el": "Physical",
+          "icon": "",
+          "tag": "6★",
+          "role": "Guard",
+          "confirmed": true,
+          "note": {
+            "es": "Rate-up · 16 dic",
+            "en": "Rate-up · Dec 16",
+            "zh": "UP · 12月16日",
+            "zh-TW": "UP · 12月16日",
+            "ja": "ピックアップ・12月16日",
+            "ko": "픽업 · 12월 16일"
+          },
+          "name_es": "Rossi",
+          "name_zh": "洛茜",
+          "name_zh-TW": "洛西",
+          "name_ja": "ロッシ",
+          "name_ko": "로시"
+        }
+      ]
+    },
+    {
       "id": "b14",
       "title": {
         "es": "Rejuvenecimiento — Si",
@@ -60,7 +203,7 @@
       "img": "assets/banners/hearth_fire_starry_flow.webp",
       "status": "upcoming",
       "dateStart": "2026-11-05",
-      "dateEnd": "2026-11-25",
+      "dateEnd": "2026-11-24",
       "version": "1.6",
       "desc": {
         "es": "Segundo banner de Caza de reclutas certificada de la 1.6: del 5 de noviembre de 2026 a las 12:00 (hora del servidor) hasta el mantenimiento de la próxima versión. Argent Flow es un Guardia eléctrico 6★ con Espada: su Electrificación aumenta todo el daño que recibe el enemigo y además aplica y detona Hendimiento para infligir DAÑ de área. Junto al banner: Solicitud de Resplandor lunar con Lunar Calling, el inicio de sesión de 7 días Las estrellas están conmigo (5 Permisos de C.R. OTL de este banner), 5 permisos más en la Cuota del CAI, sus Simulacros de combate y, más adelante, su evento de narrativa De vuelta a lo rústico.",
@@ -1051,6 +1194,120 @@
   ],
   "patches": [
     {
+      "id": "p17",
+      "version": "1.7",
+      "date": "2026-11-25",
+      "title": {
+        "es": "v1.7 — Conociéndote en el Mundo de los Hongos (Meeting You in the World o'Shrooms)",
+        "en": "v1.7 — Meeting You in the World o'Shrooms",
+        "zh": "v1.7 — 穿越甚大蘑境与你相逢",
+        "zh-TW": "v1.7 — 穿越甚大蘑境與你相逢",
+        "ja": "v1.7 — キノコ菌グ！？君との大冒険！",
+        "ko": "v1.7 — 뜻밖의 만남, 버섯 동산 대모험"
+      },
+      "changes": [
+        {
+          "type": "new",
+          "text": {
+            "es": "Nueva operadora: Kay (Naturaleza, Vanguardia 6★, Arma de asta), operadora de Rhodes Island que recupera SP lanzando su arma para aplicar Ráfaga de naturaleza y la recoge al tocarla o con su habilidad de batalla. Banner Un yunque, una mochila y un tarro de miel (hasta el 23 dic), con la Solicitud de Viajera casual para su arma Sweet Deal, el inicio de sesión Roaming Wilderpaw y su evento de narrativa Sueño con waffles con miel",
+            "en": "New operator: Kay (Nature, 6★ Vanguard, Polearm), a Rhodes Island Operator who recovers SP by throwing her weapon to apply Nature Burst and picks it back up by touching it or with her battle skill. Banner Anvil, Backpack, Plus A Pot o'Honey (until Dec. 23), with the Casual Roamer Issue for her weapon Sweet Deal, the Roaming Wilderpaw sign-in and her narrative event I Dream of Honey Waffles",
+            "zh": "新干员：小刻（自然，6★先锋，长柄武器），罗德岛干员。扔出武器造成自然爆发并恢复技力，再通过触碰或战技收回武器。特许寻访「锻砧、行囊与蜜糖」（至12月23日），同期武库申领「恣游申领」（武器「甜美交易」）、签到「Roaming Wilderpaw」与叙事活动「蜜饼是我的祈愿」",
+            "zh-TW": "新幹員：小刻（自然，6★先鋒，長柄武器），羅德島幹員。扔出武器造成自然爆發並回復技力，再透過觸碰或戰技收回武器。特許尋訪「鍛砧、行囊與蜜糖」（至12月23日），同期武庫申領「恣遊申領」（武器「甜美交易」）、簽到「Roaming Wilderpaw」與敘事活動「蜜餅是我的祈願」",
+            "ja": "新オペレーター：ケーちゃん（自然、★6先鋒、長柄武器）。ロドス・アイランドのオペレーターで、武器を投げて自然爆発を与えSPを回復し、触れるか戦技で武器を回収する。特別スカウト「「かじ」とバッグとハチミツ！」（12月23日まで）、武庫申請「巡旅・申請」（武器「スウィートディール」）、スタンプラリー「Roaming Wilderpaw」、物語イベント「はちみつワッフルにお願い」",
+            "ko": "신규 오퍼레이터: 케르(자연, 6★ 뱅가드, 장병기). 로도스 아일랜드 오퍼레이터로, 무기를 던져 자연 폭발을 일으키고 스킬 게이지를 회복하며 접촉이나 배틀 스킬로 무기를 회수합니다. 특별 허가 헤드헌팅 「모루, 배낭, 그리고 벌꿀」(12월 23일까지), 무기고 신청 「유영 신청」(무기 「달콤한 거래」), 출석 체크 「Roaming Wilderpaw」, 스토리 이벤트 「내 소원은 벌꿀 와플」"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Operadora gratis: Mimino (Físico, Cooperadora 5★, Cañón de mano) y su arma Star of Tomorrow, las dos con Potencial máximo, en el evento de regalos Guardia de los Trabajadores: Pase de lista (16 dic – mantenimiento de la próxima versión)",
+            "en": "Free operator: Mimino (Physical, 5★ Supporter, Handcannon) and her weapon Star of Tomorrow, both at max Potential, through the giveaway event Workers' Guards: Roll Call (Dec. 16 – next version update)",
+            "zh": "免费干员：米米诺（物理，5★辅助，手铳）及其武器「明日之星」，均为满潜能，可在馈赠活动「行军者的报到」（12月16日至下次版本更新维护前）中获得",
+            "zh-TW": "免費幹員：米米諾（物理，5★輔助，手銃）及其武器「明日之星」，均為滿潛能，可在饋贈活動「行軍者的報到」（12月16日至下次版本更新維護前）中獲得",
+            "ja": "無料オペレーター：ミミノ（物理、★5補助、拳銃）と武器「ライジングスター」。どちらも潜在MAXで、配布イベント「ただいま着任であります！」（12月16日～次回バージョンアップメンテナンス前）で入手できる",
+            "ko": "무료 오퍼레이터: 미미노(물리, 5★ 서포터, 권총)와 무기 「떠오르는 별」. 둘 다 잠재 능력 최대치로, 증정 이벤트 「행군 부대의 도착 보고」(12월 16일 ~ 다음 버전 업데이트 점검 전)에서 얻을 수 있습니다"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Zona nueva: la Presa Antigua, en las afueras de Wuling, una presa sellada durante años convertida en reino de hongos (Cobertizos de trabajo abandonados, Pasillo de mantenimiento, Hueco de la presa, Oficinas antiguas). Evento de guía ¡Sombrerillos! ¡Setas! ¡HONGOS! hasta el 23 dic",
+            "en": "New area: the Old Dam outside Wuling, a dam sealed for years that has grown into a mushroom kingdom (Abandoned Work Shacks, Maintenance Corridor, Dam Hollow, Old Offices). Guide event Caps! Shrooms! FUNGI! until Dec. 23",
+            "zh": "新区域：武陵郊外的「旧水坝」，尘封多年后长成了蘑菇王国（废弃工棚、检修通道、坝体空腔、旧办公区）。引入活动「蘑菇！蕈类！真菌！」至12月23日",
+            "zh-TW": "新區域：武陵郊外的「舊水壩」，塵封多年後長成了蘑菇王國（廢棄工棚、檢修通道、壩體空腔、舊辦公區）。引入活動「蘑菇！蕈類！真菌！」至12月23日",
+            "ja": "新エリア：武陵の郊外にある「廃ダム」。長く閉ざされていたダムがキノコの国になった（ボロボロの作業場、ダムのうらぐち、ダムのふきぬけ、ふるい事務室）。案内イベント「キノコ！胞子！きんかく！」は12月23日まで",
+            "ko": "신규 구역: 무릉 외곽의 「옛 댐」. 오랫동안 잠들어 있던 댐이 버섯 왕국이 되었습니다(폐기된 작업장, 점검 통로, 댐 내부 공동, 옛 사무 구역). 기념 이벤트 「버섯! 균류! 진균!」은 12월 23일까지"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Nuevo modo permanente de fábrica Reconstrucción de la Zona de exclusión: abastece en cuatro fases la reconstrucción de la Zona de exclusión norte de Wuling, con la nueva Forja de Luminiscencia y los Conjuntos L, T y E. Evento de construcción Construcción de conjuntos: Repara la vieja grieta durante toda la versión",
+            "en": "New permanent factory mode Exclusion Zone Rebuilding: supply the rebuilding of the North Wuling Exclusion Zone in four phases with the new Forge of Luminance and its L-, T- and E-Arrays. Building event Array Building: Mend the Old Gash for the whole version",
+            "zh": "新常驻建设玩法「Exclusion Zone Rebuilding」：分四个阶段为北部禁区的重建供应物资，新增设备与L/T/E阵列。建设活动「阵列建设：旧伤弥合」贯穿整个版本",
+            "zh-TW": "新常駐建設玩法「Exclusion Zone Rebuilding」：分四個階段為北部禁區的重建供應物資，新增設備與L/T/E陣列。建設活動「陣列建設：舊傷彌合」貫穿整個版本",
+            "ja": "新しい常設建設コンテンツ「封鎖区域再建」：4段階で北部封鎖区域の再建に物資を供給する。新設備とL・T・Eアレイが登場。建設イベント「陣の建設：古傷の修復」はバージョン期間中ずっと開催",
+            "ko": "신규 상시 건설 콘텐츠 「Exclusion Zone Rebuilding」: 4단계에 걸쳐 북쪽 금지 구역 재건에 물자를 공급합니다. 신규 설비와 L·T·E 배열이 추가됩니다. 건설 이벤트 「배열 건설: 오래된 상처의 봉합」은 버전 기간 내내 진행"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Monumento del Umbral: nueva serie de alta dificultad Déspota armado (Triaggelos y Nefarith, 8 niveles de dificultad cada uno) desde el 2 dic, con el evento por tiempo limitado Revelación monumental: Tiranía (2 – 23 dic)",
+            "en": "Umbral Monument: new high-difficulty series Despot Weaponized (Triaggelos and Nefarith, 8 difficulty levels each) from Dec. 2, with the limited-time event Monumental Revelation: Tyranny (Dec. 2 – 23)",
+            "zh": "「影拓丰碑」：12月2日起新增高难度系列「暴君武装」（三位一体与聂菲斯，各8档难度），同期开启限时活动「丰碑揭示·暴虐」（12月2日～23日）",
+            "zh-TW": "「影拓豐碑」：12月2日起新增高難度系列「暴君武裝」（三位一體與聶菲斯，各8檔難度），同期開啟限時活動「豐碑揭示·暴虐」（12月2日～23日）",
+            "ja": "「映像の記念碑」：12月2日から高難度の新シリーズ「暴君の武装」（トリアンゲロスとネファリス、それぞれ8段階の難易度）。同時に期間限定イベント「記念碑が示すもの・暴虐」（12月2日～23日）",
+            "ko": "「그림자 이정표」: 12월 2일부터 고난도 신규 시리즈 「무장한 폭군」(트리아겔로스, 네파리스, 각 8단계 난이도). 기간 한정 이벤트 「이정표의 계시 · 폭정」(12월 2일 ~ 23일)도 함께 열립니다"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Desde el 16 dic: Los Juegos Maravillosos de Zanahoria de la suerte (dos juegos de cartas multijugador, Witch's Darkjack y Band Uprising) y ¡ÁLZATE! ¡MEGA ARENA! (equipos de hasta 2 operadores, con operadores de prueba). Evento web ¡Endmin! ¡Clasifiquemos los regalitos! desde el 23 dic y Suministro de Cordura del 9 al 31 dic",
+            "en": "From Dec. 16: Lucky Carrot's Games of Wonder (two multiplayer card games, Witch's Darkjack and Band Uprising) and RISE! MEGA ARENA! (teams of up to 2 operators, with trial operators). Web event Endmin! Let's Sort the Prezzies! from Dec. 23 and Sanity Supply from Dec. 9 to Dec. 31",
+            "zh": "12月16日起：「“幸运萝卜”的妙趣游乐」（两款多人卡牌游戏）与「方兴！竞技大会！」（最多两名干员编队，含试用干员）。网页活动「分拣吧！管礼员」12月23日开启，「理智补给」12月9日～31日",
+            "zh-TW": "12月16日起：「「幸運蘿蔔」的妙趣遊樂」（兩款多人卡牌遊戲）與「方興！競技大會！」（最多兩名幹員編隊，含試用幹員）。網頁活動「分揀吧！管禮員」12月23日開啟，「理智補給」12月9日～31日",
+            "ja": "12月16日から：「「ラッキーキャロット」のわくわくゲーム」（マルチプレイカードゲーム「巫数バトル」と「文明デュエル」）と「方興！アリーナ！」（最大2名で編成、臨時オペレーターあり）。Webイベント「仕分けの達人」は12月23日から、「理性補給」は12月9日～31日",
+            "ko": "12월 16일부터: 「'행운의 당근'의 별난 놀이」(멀티플레이 카드 게임 2종)와 「방흥! 경기 대회!」(최대 2명 편성, 체험용 오퍼레이터 포함). 웹 이벤트 「정리자! 선물을 관리할 시간이야!」는 12월 23일부터, 「이성 보급」은 12월 9일 ~ 31일"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "RE-Factor: Para cada deseo flotante #1 con Gilberta (hasta el 16 dic) y Tesoro escarlata #1 con Rossi (desde el 16 dic), con los RE-Factor Issues Floaty Traveler Issue (Delivery Guaranteed) y Scarlet Claws Issue (Lupine Scarlet)",
+            "en": "RE-Factor: To Every Wish Adrift #1 with Gilberta (until Dec. 16) and Precious Scarlet #1 with Rossi (from Dec. 16), with the RE-Factor Issues Floaty Traveler Issue (Delivery Guaranteed) and Scarlet Claws Issue (Lupine Scarlet)",
+            "zh": "重构寻访：「致每一个飘游之愿」#1（洁尔佩塔，至12月16日）与「绯红瑰宝」#1（洛茜，12月16日起），同期重构申领「Floaty Traveler Issue」（使命必达）与「Scarlet Claws Issue」（狼之绯）",
+            "zh-TW": "重構尋訪：「致每一個飄遊之願」#1（潔爾佩塔，至12月16日）與「緋紅瑰寶」#1（洛西，12月16日起），同期重構申領「Floaty Traveler Issue」（使命必達）與「Scarlet Claws Issue」（狼之緋）",
+            "ja": "再現スカウト：「ひらり漂うすべての願いへ」#1（ギルベルタ、12月16日まで）と「スカーレットパール」#1（ロッシ、12月16日から）。再現申請「Floaty Traveler Issue」（使命必達）と「Scarlet Claws Issue」（狼緋）も同時開催",
+            "ko": "재구축 헤드헌팅: 「떠도는 모든 소망에게」 #1(질베르타, 12월 16일까지)과 「붉은색의 진주」 #1(로시, 12월 16일부터). 재구축 신청 「Floaty Traveler Issue」(사명의 길)와 「Scarlet Claws Issue」(늑대의 혈흔)도 함께 진행"
+          }
+        },
+        {
+          "type": "new",
+          "text": {
+            "es": "Pase de protocolo: Shroom World, con suministro de arma 6★ a elección (nueva Arma de asta 6★ Raid Comet). Ecos de guerra suma dos temporadas, Scattering y Wariness; Explorador de lo críptico recibe su última actualización, la edición especial Esoteric Mycology (desde el 26 dic)",
+            "en": "Protocol Pass: Shroom World with a 6★ Weapon of Choice Supply (new 6★ polearm Raid Comet). Echoes of War gets two new seasons, Scattering and Wariness; Delver of the Cryptic gets its final update, the special edition Esoteric Mycology (from Dec. 26)",
+            "zh": "协议通行证·蘑境，含自选6星武器补给（新增6星长柄武器「突击流星」）。「战争回响」先后开启新赛季「Scattering」与「Wariness」；「密境行者」迎来作为常驻玩法的最后一次更新：特别篇「Esoteric Mycology」（12月26日起）",
+            "zh-TW": "協議通行證·蘑境，含自選6星武器補給（新增6星長柄武器「突擊流星」）。「戰爭迴響」先後開啟新賽季「Scattering」與「Wariness」；「密境行者」迎來作為常駐玩法的最後一次更新：特別篇「Esoteric Mycology」（12月26日起）",
+            "ja": "協約通行証。★6武器補給指定（新★6長柄武器「アサルトメテオ」）付き。「戦争残響」に新シーズン「Scattering」「Wariness」、「密境の探索者」は常設コンテンツとして最後のアップデートとなる特別編「Esoteric Mycology」（12月26日から）",
+            "ko": "프로토콜 통행증 · 버섯 동산, 자유 선택 6성 무기 보급(신규 6성 장병기 「유성 돌격」) 포함. 「전쟁의 메아리」에 새 시즌 「Scattering」, 「Wariness」, 「숨겨진 구역의 여행자」는 상시 콘텐츠로서 마지막 업데이트인 특별편 「Esoteric Mycology」(12월 26일부터)"
+          }
+        },
+        {
+          "type": "fix",
+          "text": {
+            "es": "Calidad de vida: en la pantalla Operadores - Matriz de habilidades aparecen primero los materiales que te faltan, y los Puertos de control de objetos y de tuberías se colocan directamente en los puertos de una instalación y se acoplan solos. Arknights: Endfield ya tiene la verificación de Steam Deck",
+            "en": "Quality of life: materials you are short of are shown first on the Operators - Ability Matrix screen, and Item and Pipe Control Ports can be placed directly on a facility's ports and snap into place. Arknights: Endfield is now Steam Deck Verified",
+            "zh": "体验优化：【干员 - 能力扩延】界面优先展示数量不足的材料；物品准入口与管道准入口可直接放置在设备的传送带口或管道口并自动吸附。《明日方舟：终末地》已通过 Steam Deck 认证",
+            "zh-TW": "體驗優化：【幹員 - 能力擴展】介面優先展示數量不足的材料；物品准入口與管道准入口可直接擺放在設備的傳送帶口或管道口並自動吸附。《明日方舟：終末地》已通過 Steam Deck 認證",
+            "ja": "体験改善：【オペレーター - 能力拡張】画面で不足している素材を優先表示。通過制御口とパイプ通過制御口を設備の出入口に直接設置でき、自動で吸着する。『アークナイツ：エンドフィールド』が Steam Deck 認証済みに",
+            "ko": "최적화: [오퍼레이터 - 능력 확장] 화면에서 부족한 재료를 우선 표시합니다. 아이템 컨트롤 포트와 파이프 컨트롤 포트를 설비의 연결부에 바로 배치하면 자동으로 부착됩니다. 명일방주: 엔드필드가 Steam Deck 인증을 받았습니다"
+          }
+        }
+      ]
+    },
+    {
       "id": "p16",
       "version": "1.6",
       "date": "2026-10-15",
@@ -1913,6 +2170,229 @@
   ],
   "gear": [
     {
+      "id": "g19",
+      "version": "1.7",
+      "date": "2026-11-25",
+      "title": {
+        "es": "Arma — Sweet Deal (Polearm, 6★)",
+        "en": "Weapon — Sweet Deal (Polearm, 6★)",
+        "zh": "武器 — 甜美交易（长柄武器，6★）",
+        "zh-TW": "武器 — 甜美交易（長柄武器，6★）",
+        "ja": "武器 — スウィートディール（長柄武器、6★）",
+        "ko": "무기 — 달콤한 거래(장병기, 6★)"
+      },
+      "tag": {
+        "es": "NUEVA",
+        "en": "NEW",
+        "zh": "新增",
+        "zh-TW": "新增",
+        "ja": "新登場",
+        "ko": "신규"
+      },
+      "img": "assets/weapons/wpn_lance_0017.webp",
+      "stats": [
+        {
+          "k": {
+            "es": "Tipo",
+            "en": "Type",
+            "zh": "类型",
+            "zh-TW": "類型",
+            "ja": "種類",
+            "ko": "유형"
+          },
+          "v": "Polearm"
+        },
+        {
+          "k": {
+            "es": "Rareza",
+            "en": "Rarity",
+            "zh": "稀有度",
+            "zh-TW": "稀有度",
+            "ja": "レアリティ",
+            "ko": "희귀도"
+          },
+          "v": "6★"
+        },
+        {
+          "k": {
+            "es": "Origen",
+            "en": "Source",
+            "zh": "来源",
+            "zh-TW": "來源",
+            "ja": "入手先",
+            "ko": "출처"
+          },
+          "v": {
+            "es": "Solicitud de Viajera casual",
+            "en": "Casual Roamer Issue",
+            "zh": "恣游申领",
+            "zh-TW": "恣遊申領",
+            "ja": "巡旅・申請",
+            "ko": "유영 신청"
+          }
+        }
+      ],
+      "desc": {
+        "es": "El arma de asta 6★ de Kay, en la Solicitud de Viajera casual (con el banner de Kay; termina tras 3 banners de Caza de reclutas certificada). Rasgos de esencia: Fuerza, DAÑ por naturaleza y Flujo: Función endulzante. Las stats base y la pasiva completa se suman cuando la versión esté disponible.",
+        "en": "Kay's 6★ polearm, in the Casual Roamer Issue (with Kay's banner; it ends after 3 Chartered Headhunting banners). Essence traits: Strength, Nature DMG and Flow: Sweetening Function. Base stats and the full passive are added once the version is live.",
+        "zh": "小刻的6★长柄武器，在武库申领「恣游申领」中登场（与小刻的寻访同期开启，于3次特许寻访后结束）。词条：力量提升、自然伤害提升、流转·甘甜动能。基础数值与完整被动将在版本上线后补充。",
+        "zh-TW": "小刻的6★長柄武器，在武庫申領「恣遊申領」中登場（與小刻的尋訪同期開啟，於3次特許尋訪後結束）。詞條：力量提升、自然傷害提升、流轉·甘甜動能。基礎數值與完整被動將在版本上線後補充。",
+        "ja": "ケーちゃんの★6長柄武器。武庫申請「巡旅・申請」に登場（ケーちゃんのスカウトと同時に開始し、特別スカウト3回分で終了）。特性：筋力UP、自然ダメージUP、流回・あまいエネルギー。基礎ステータスとパッシブの詳細はバージョン開始後に追加します。",
+        "ko": "케르의 6★ 장병기로, 무기고 신청 「유영 신청」에 등장합니다(케르의 헤드헌팅과 함께 열리며 특별 허가 헤드헌팅 3회 후 종료). 특성: 힘 증가, 자연 피해 증가, 흐름 · 달콤한 에너지. 기본 수치와 패시브 전체는 버전 업데이트 후 추가됩니다."
+      },
+      "chars": [
+        "Kay"
+      ]
+    },
+    {
+      "id": "g20",
+      "version": "1.7",
+      "date": "2026-12-16",
+      "title": {
+        "es": "Arma — Star of Tomorrow (Handcannon, 5★)",
+        "en": "Weapon — Star of Tomorrow (Handcannon, 5★)",
+        "zh": "武器 — 明日之星（手铳，5★）",
+        "zh-TW": "武器 — 明日之星（手銃，5★）",
+        "ja": "武器 — ライジングスター（拳銃、5★）",
+        "ko": "무기 — 떠오르는 별(권총, 5★)"
+      },
+      "tag": {
+        "es": "GRATIS",
+        "en": "FREE",
+        "zh": "免费",
+        "zh-TW": "免費",
+        "ja": "無料",
+        "ko": "무료"
+      },
+      "img": "assets/weapons/wpn_pistol_0013.webp",
+      "stats": [
+        {
+          "k": {
+            "es": "Tipo",
+            "en": "Type",
+            "zh": "类型",
+            "zh-TW": "類型",
+            "ja": "種類",
+            "ko": "유형"
+          },
+          "v": "Handcannon"
+        },
+        {
+          "k": {
+            "es": "Rareza",
+            "en": "Rarity",
+            "zh": "稀有度",
+            "zh-TW": "稀有度",
+            "ja": "レアリティ",
+            "ko": "희귀도"
+          },
+          "v": "5★"
+        },
+        {
+          "k": {
+            "es": "Origen",
+            "en": "Source",
+            "zh": "来源",
+            "zh-TW": "來源",
+            "ja": "入手先",
+            "ko": "출처"
+          },
+          "v": {
+            "es": "Guardia de los Trabajadores: Pase de lista",
+            "en": "Workers' Guards: Roll Call",
+            "zh": "行军者的报到",
+            "zh-TW": "行軍者的報到",
+            "ja": "ただいま着任であります！",
+            "ko": "행군 부대의 도착 보고"
+          }
+        }
+      ],
+      "desc": {
+        "es": "El Cañón de mano 5★ de Mimino, gratis y con Potencial máximo junto con ella en Guardia de los Trabajadores: Pase de lista (desde el 16 dic). Rasgos de esencia: Fuerza, Eficiencia MÁX. y Asalto: Soporte total.",
+        "en": "Mimino's 5★ handcannon, free and at max Potential together with her in Workers' Guards: Roll Call (from Dec. 16). Essence traits: Strength, ULT Efficiency and Assault: Total Support.",
+        "zh": "米米诺的5★手铳，在「行军者的报到」（12月16日起）中与她一同以满潜能免费获得。词条：力量提升、终结技充能效率提升、强攻·全般支援。",
+        "zh-TW": "米米諾的5★手銃，在「行軍者的報到」（12月16日起）中與她一同以滿潛能免費獲得。詞條：力量提升、終結技蓄能效率提升、強攻·全般支援。",
+        "ja": "ミミノの★5拳銃。「ただいま着任であります！」（12月16日から）で本人と一緒に潜在MAXで無料入手できる。特性：筋力UP、必殺技効率UP、強攻・全般支援。",
+        "ko": "미미노의 5★ 권총으로, 「행군 부대의 도착 보고」(12월 16일부터)에서 미미노와 함께 잠재 능력 최대치로 무료로 얻을 수 있습니다. 특성: 힘 증가, 궁극기 충전 효율 증가, 강공 · 전면적 지원."
+      },
+      "chars": [
+        "Mimino"
+      ]
+    },
+    {
+      "id": "g21",
+      "version": "1.7",
+      "date": "2026-11-25",
+      "title": {
+        "es": "Arma — Raid Comet (Polearm, 6★)",
+        "en": "Weapon — Raid Comet (Polearm, 6★)",
+        "zh": "武器 — 突击流星（长柄武器，6★）",
+        "zh-TW": "武器 — 突擊流星（長柄武器，6★）",
+        "ja": "武器 — アサルトメテオ（長柄武器、6★）",
+        "ko": "무기 — 유성 돌격(장병기, 6★)"
+      },
+      "tag": {
+        "es": "NUEVA",
+        "en": "NEW",
+        "zh": "新增",
+        "zh-TW": "新增",
+        "ja": "新登場",
+        "ko": "신규"
+      },
+      "img": "assets/weapons/raid_comet.webp",
+      "stats": [
+        {
+          "k": {
+            "es": "Tipo",
+            "en": "Type",
+            "zh": "类型",
+            "zh-TW": "類型",
+            "ja": "種類",
+            "ko": "유형"
+          },
+          "v": "Polearm"
+        },
+        {
+          "k": {
+            "es": "Rareza",
+            "en": "Rarity",
+            "zh": "稀有度",
+            "zh-TW": "稀有度",
+            "ja": "レアリティ",
+            "ko": "희귀도"
+          },
+          "v": "6★"
+        },
+        {
+          "k": {
+            "es": "Origen",
+            "en": "Source",
+            "zh": "来源",
+            "zh-TW": "來源",
+            "ja": "入手先",
+            "ko": "출처"
+          },
+          "v": {
+            "es": "Pase de protocolo: Shroom World",
+            "en": "Protocol Pass: Shroom World",
+            "zh": "协议通行证·蘑境",
+            "zh-TW": "協議通行證·蘑境",
+            "ja": "協約通行証",
+            "ko": "프로토콜 통행증 · 버섯 동산"
+          }
+        }
+      ],
+      "desc": {
+        "es": "Nueva arma de asta 6★ que se puede elegir en el suministro de arma 6★ a elección del Pase de protocolo: Shroom World. Sin stats ni rasgos publicados todavía.",
+        "en": "New 6★ polearm offered in the 6★ Weapon of Choice Supply of Protocol Pass: Shroom World. No stats or traits published yet.",
+        "zh": "新增6星长柄武器，可在「协议通行证·蘑境」的自选6星武器补给中选择。数值与词条尚未公布。",
+        "zh-TW": "新增6星長柄武器，可在「協議通行證·蘑境」的自選6星武器補給中選擇。數值與詞條尚未公布。",
+        "ja": "新しい★6長柄武器。協約通行証の★6武器補給指定で選択できます。ステータスと特性はまだ公開されていません。",
+        "ko": "신규 6성 장병기로, 「프로토콜 통행증 · 버섯 동산」의 자유 선택 6성 무기 보급에서 고를 수 있습니다. 수치와 특성은 아직 공개되지 않았습니다."
+      },
+      "chars": []
+    },
+    {
       "id": "g15",
       "version": "1.6",
       "date": "2026-10-15",
@@ -2207,382 +2687,890 @@
         }
       ],
       "chars": []
-    },
-    {
-      "id": "g10",
-      "version": "1.5",
-      "date": "2026-09-02",
-      "title": {
-        "es": "Arma — Umbra of Frigid Eventide (Arts Unit, 6★)",
-        "en": "Weapon — Umbra of Frigid Eventide (Arts Unit, 6★)",
-        "zh": "武器 — 寒夜幽影（施术单元，6★）",
-        "zh-TW": "武器 — 寒夜幽影（施術單元，6★）",
-        "ja": "武器 — 寒夜の影（アーツユニット、6★）",
-        "ko": "무기 — 추운 밤의 그림자(아츠 유닛, 6★)"
-      },
-      "tag": {
-        "es": "NUEVA",
-        "en": "NEW",
-        "zh": "新",
-        "zh-TW": "新",
-        "ja": "NEW",
-        "ko": "신규"
-      },
-      "img": "assets/weapons/wpn_funnel_0019.webp",
-      "desc": {
-        "es": "Arma de firma de Typhoeus, en el Arsenal Deep Cold Issue junto con el banner Winter Hunt. Stats y passive por confirmar: el preview oficial no dio números.",
-        "en": "The signature weapon of Typhoeus, on the Deep Cold Issue arsenal banner alongside Winter Hunt. Stats and passive are still to be confirmed: the official preview gave no numbers.",
-        "zh": "提弗洛斯的专属武器，出自与冬猎同期的武库申领「深寒兑换」。属性和被动待确认：官方前瞻未给出数值。",
-        "zh-TW": "提弗洛斯的專屬武器，出自與冬獵同期的武庫申領「深寒兌換」。屬性和被動待確認：官方前瞻未給出數值。",
-        "ja": "ティフォロスの専用武器。冬の狩りと同時開催の武庫申請「深寒」に登場。ステータスとパッシブは未確認：公式予告に数値はありませんでした。",
-        "ko": "티프로스의 전용 무기. 겨울 사냥과 함께 열리는 심한 추위 무기고 신청에 등장. 스탯과 패시브는 확인 예정: 공식 예고에 수치가 없었습니다."
-      },
-      "stats": [
-        {
-          "k": {
-            "es": "Tipo",
-            "en": "Type",
-            "zh": "类型",
-            "zh-TW": "類型",
-            "ja": "種類",
-            "ko": "유형"
-          },
-          "v": "Arts Unit"
-        },
-        {
-          "k": {
-            "es": "Rareza",
-            "en": "Rarity",
-            "zh": "稀有度",
-            "zh-TW": "稀有度",
-            "ja": "レアリティ",
-            "ko": "희귀도"
-          },
-          "v": "6★"
-        },
-        {
-          "k": {
-            "es": "Origen",
-            "en": "Source",
-            "zh": "来源",
-            "zh-TW": "來源",
-            "ja": "入手先",
-            "ko": "출처"
-          },
-          "v": {
-            "es": "Deep Cold Issue",
-            "en": "Deep Cold Issue",
-            "zh": "幽寒申领",
-            "zh-TW": "幽寒申領",
-            "ja": "極寒・申請",
-            "ko": "한기 신청"
-          }
-        }
-      ],
-      "chars": [
-        "Typhoeus"
-      ]
-    },
-    {
-      "id": "g11",
-      "version": "1.5",
-      "date": "2026-09-02",
-      "title": {
-        "es": "Arma — Artzy Tyrannical (6★)",
-        "en": "Weapon — Artzy Tyrannical (6★)",
-        "zh": "武器 — 艺术暴君（6★）",
-        "zh-TW": "武器 — 藝術暴君（6★）",
-        "ja": "武器 — 芸術の独裁者（6★）",
-        "ko": "무기 — 예술의 폭군(6★)"
-      },
-      "tag": {
-        "es": "NUEVA",
-        "en": "NEW",
-        "zh": "新",
-        "zh-TW": "新",
-        "ja": "NEW",
-        "ko": "신규"
-      },
-      "img": "assets/weapons/wpn_pistol_0010.webp",
-      "desc": {
-        "es": "Rate-up del primer RE-Factor Issue, Tag Artist Issue Fase I, que corre en paralelo al banner Resplendent Spectrum Fase I. Los primeros 8 intentos cuentan para la garantía y el progreso se arrastra a las fases siguientes. Tipo de arma y stats por confirmar.",
-        "en": "Rate-up of the first RE-Factor Issue, Tag Artist Issue Phase I, which runs alongside the Resplendent Spectrum Phase I banner. The first 8 attempts count toward the guarantee and the progress carries over to later phases. Weapon type and stats still to be confirmed.",
-        "zh": "首个重构申领「点绘申领第 I 期」的 UP 武器，与「绚丽异彩第 I 期」卡池同期。前8次尝试计入保底，进度继承到后续各期。武器类型和属性待确认。",
-        "zh-TW": "首個重構申領「點繪申領第 I 期」的 UP 武器，與「絢麗異彩第 I 期」卡池同期。前8次嘗試計入保底，進度繼承到後續各期。武器類型和屬性待確認。",
-        "ja": "初の再現申請「点描・申請第 I 期」のピックアップ。「超爆盛れカラフル第 I 期」バナーと同時開催。最初の8回が確定に数えられ、進行は後の期に引き継がれます。武器の種類とステータスは未確認。",
-        "ko": "첫 재구축 신청 「점묘 신청 1주차」의 픽업으로, 「찬란한 색채 1주차」 배너와 함께 진행됩니다. 첫 8회가 보장에 계산되고 진행도는 이후 기수로 이월됩니다. 무기 유형과 스탯은 확인 예정."
-      },
-      "stats": [
-        {
-          "k": {
-            "es": "Tipo",
-            "en": "Type",
-            "zh": "类型",
-            "zh-TW": "類型",
-            "ja": "種類",
-            "ko": "유형"
-          },
-          "v": {
-            "es": "Por confirmar",
-            "en": "TBC",
-            "zh": "待确认",
-            "zh-TW": "待確認",
-            "ja": "未確認",
-            "ko": "미정"
-          }
-        },
-        {
-          "k": {
-            "es": "Rareza",
-            "en": "Rarity",
-            "zh": "稀有度",
-            "zh-TW": "稀有度",
-            "ja": "レアリティ",
-            "ko": "희귀도"
-          },
-          "v": "6★"
-        },
-        {
-          "k": {
-            "es": "Origen",
-            "en": "Source",
-            "zh": "来源",
-            "zh-TW": "來源",
-            "ja": "入手先",
-            "ko": "출처"
-          },
-          "v": {
-            "es": "Tag Artist Issue · Fase I",
-            "en": "Tag Artist Issue · Phase I",
-            "zh": "点绘申领 · 一期",
-            "zh-TW": "點繪申領 · 一期",
-            "ja": "点描・申請 · 第1弾",
-            "ko": "점묘 신청 · 1주차"
-          }
-        }
-      ],
-      "chars": []
-    },
-    {
-      "id": "g12",
-      "version": "1.5",
-      "date": "2026-09-02",
-      "title": {
-        "es": "Arma — Dessert Moment (Sword, 5★)",
-        "en": "Weapon — Dessert Moment (Sword, 5★)",
-        "zh": "武器 — 点心时刻（单手剑，5★）",
-        "zh-TW": "武器 — 點心時刻（單手劍，5★）",
-        "ja": "武器 — スイーツタイム（片手剣、5★）",
-        "ko": "무기 — 간식 시간(한손검, 5★)"
-      },
-      "tag": {
-        "es": "GRATIS",
-        "en": "FREE",
-        "zh": "免费",
-        "zh-TW": "免費",
-        "ja": "無料",
-        "ko": "무료"
-      },
-      "img": "assets/weapons/wpn_sword_0023.webp",
-      "desc": {
-        "es": "Arma de Purrchena. Sale gratis en el evento de sorteo Purry Big Feline! RAWR!, y las misiones del sorteo dan cinco copias extra, así que la subes a potencial máximo sin gastar nada. No entra de inmediato al Arsenal.",
-        "en": "The weapon of Purrchena. It comes free from the Purry Big Feline! RAWR! giveaway event, and the giveaway missions hand out five extra copies, so you can max its potential without spending anything. It does not enter the arsenal right away.",
-        "zh": "噗切娜的武器。通过「我们的大菲林！来袭！」赠送活动免费获得，赠送任务还额外给五份，不花一分钱就能拉满潜能。它不会立即加入武库申领。",
-        "zh-TW": "噗切娜的武器。透過「我們的大菲林！來襲！」贈送活動免費獲得，贈送任務還額外給五份，不花一分錢就能拉滿潛能。它不會立即加入武庫申領。",
-        "ja": "プチエナの武器。配布イベント「でっかいフェリーン！襲来！」で無料入手でき、配布ミッションでさらに5本もらえるので、何も使わずに潜在を最大にできます。すぐには武庫申請に追加されません。",
-        "ko": "푸치나의 무기. 「우리의 거대한 필라인이 왔다!」 증정 이벤트에서 무료로 받고, 증정 임무로 다섯 개를 더 주므로 아무것도 쓰지 않고 잠재 능력을 최대로 올릴 수 있습니다. 바로 무기고 신청에 추가되지는 않습니다."
-      },
-      "stats": [
-        {
-          "k": {
-            "es": "Tipo",
-            "en": "Type",
-            "zh": "类型",
-            "zh-TW": "類型",
-            "ja": "種類",
-            "ko": "유형"
-          },
-          "v": "Sword"
-        },
-        {
-          "k": {
-            "es": "Rareza",
-            "en": "Rarity",
-            "zh": "稀有度",
-            "zh-TW": "稀有度",
-            "ja": "レアリティ",
-            "ko": "희귀도"
-          },
-          "v": "5★"
-        },
-        {
-          "k": {
-            "es": "Origen",
-            "en": "Source",
-            "zh": "来源",
-            "zh-TW": "來源",
-            "ja": "入手先",
-            "ko": "출처"
-          },
-          "v": {
-            "es": "Purry Big Feline! RAWR!",
-            "en": "Purry Big Feline! RAWR!",
-            "zh": "我们的大菲林！来袭！",
-            "zh-TW": "我們的大菲林！來襲！",
-            "ja": "でっかいフェリーン！襲来！",
-            "ko": "우리의 거대한 필라인이 왔다!"
-          }
-        }
-      ],
-      "chars": [
-        "Purrchena"
-      ]
-    },
-    {
-      "id": "g13",
-      "version": "1.5",
-      "date": "2026-09-02",
-      "title": {
-        "es": "Arma — Suffering's End (Arts Unit, 6★)",
-        "en": "Weapon — Suffering's End (Arts Unit, 6★)",
-        "zh": "武器 — 苦难的尽头（施术单元，6★）",
-        "zh-TW": "武器 — 苦難的盡頭（施術單元，6★）",
-        "ja": "武器 — 苦難の果（アーツユニット、6★）",
-        "ko": "무기 — 고난의 끝(아츠 유닛, 6★)"
-      },
-      "tag": {
-        "es": "NUEVA",
-        "en": "NEW",
-        "zh": "新",
-        "zh-TW": "新",
-        "ja": "NEW",
-        "ko": "신규"
-      },
-      "img": "assets/weapons/wpn_funnel_0020.webp",
-      "desc": {
-        "es": "Entra en el 6★ Weapon of Choice Supply de la temporada nueva del Protocol Pass, Gloomwald. Stats por confirmar.",
-        "en": "Part of the 6★ Weapon of Choice Supply in the new Protocol Pass season, Gloomwald. Stats still to be confirmed.",
-        "zh": "新协议通行证赛季「幽林」的6★自选武器补给的一部分。属性待确认。",
-        "zh-TW": "新協議通行證賽季「幽林」的6★自選武器補給的一部分。屬性待確認。",
-        "ja": "新しい協約通行証シーズン「樹海」の6★選択武器の補給に含まれます。ステータスは未確認。",
-        "ko": "새 프로토콜 통행증 시즌 「깊은 숲」의 6★ 선택 무기 보급에 포함. 스탯은 확인 예정."
-      },
-      "stats": [
-        {
-          "k": {
-            "es": "Tipo",
-            "en": "Type",
-            "zh": "类型",
-            "zh-TW": "類型",
-            "ja": "種類",
-            "ko": "유형"
-          },
-          "v": "Arts Unit"
-        },
-        {
-          "k": {
-            "es": "Rareza",
-            "en": "Rarity",
-            "zh": "稀有度",
-            "zh-TW": "稀有度",
-            "ja": "レアリティ",
-            "ko": "희귀도"
-          },
-          "v": "6★"
-        },
-        {
-          "k": {
-            "es": "Origen",
-            "en": "Source",
-            "zh": "来源",
-            "zh-TW": "來源",
-            "ja": "入手先",
-            "ko": "출처"
-          },
-          "v": {
-            "es": "Protocol Pass: Gloomwald",
-            "en": "Protocol Pass: Gloomwald",
-            "zh": "协议通行证·幽林",
-            "zh-TW": "協議通行證·幽林",
-            "ja": "協約通行証・樹海",
-            "ko": "프로토콜 통행증 · 깊은 숲"
-          }
-        }
-      ],
-      "chars": []
-    },
-    {
-      "id": "g14",
-      "version": "1.5",
-      "set": "Deep Rampart",
-      "date": "2026-09-02",
-      "title": {
-        "es": "Set — Deep Rampart Gear Pack",
-        "en": "Set — Deep Rampart Gear Pack",
-        "zh": "套装 — 险关装备组",
-        "zh-TW": "套裝 — 險關裝備組",
-        "ja": "セット — 天険セット",
-        "ko": "세트 — 관문 장비 세트"
-      },
-      "tag": {
-        "es": "NUEVO SET",
-        "en": "NEW SET",
-        "zh": "新套装",
-        "zh-TW": "新套裝",
-        "ja": "新セット",
-        "ko": "신규 세트"
-      },
-      "img": "assets/gear/deep_rampart_armor.webp",
-      "desc": {
-        "es": "Set de gear nuevo de la 1.5. En la misma versión actualizan piezas de Tide Surge, Eternal Xiranite y AIC Fieldwork, y los templates de AIC Fieldwork se consiguen apenas llegas a Wuling tras actualizar.",
-        "en": "New gear set in 1.5. The same version updates pieces of Tide Surge, Eternal Xiranite and AIC Fieldwork, and the AIC Fieldwork templates become available as soon as you reach Wuling after the update.",
-        "zh": "1.5 的新装备套装。同版本更新了潮涌、长息和集成实训的部件，更新后一到武陵即可获得集成实训模板。",
-        "zh-TW": "1.5 的新裝備套裝。同版本更新了潮湧、長息和集成實訓的部件，更新後一到武陵即可獲得集成實訓模板。",
-        "ja": "1.5 の新しい装備セット。同じバージョンで満潮、流転、集成訓練の部位も更新され、集成訓練のテンプレートは更新後に武陵へ着くとすぐ入手できます。",
-        "ko": "1.5의 새 장비 세트. 같은 버전에서 조류의 물결·식양의 숨결·통합 실전 훈련의 부위도 갱신되며, 통합 실전 훈련 템플릿은 업데이트 후 무릉에 도착하면 바로 얻을 수 있습니다."
-      },
-      "stats": [
-        {
-          "k": {
-            "es": "Tipo",
-            "en": "Type",
-            "zh": "类型",
-            "zh-TW": "類型",
-            "ja": "種類",
-            "ko": "유형"
-          },
-          "v": {
-            "es": "Paquete de equipamiento",
-            "en": "Gear Pack",
-            "zh": "装备组",
-            "zh-TW": "裝備組",
-            "ja": "セット",
-            "ko": "장비 세트"
-          }
-        },
-        {
-          "k": {
-            "es": "Origen",
-            "en": "Source",
-            "zh": "来源",
-            "zh-TW": "來源",
-            "ja": "入手先",
-            "ko": "출처"
-          },
-          "v": {
-            "es": "1.5 Dreamscape of Wind and Snow",
-            "en": "1.5 Dreamscape of Wind and Snow",
-            "zh": "1.5 雪凇幽梦",
-            "zh-TW": "1.5 雪淞幽夢",
-            "ja": "1.5 雪氷の幽夢",
-            "ko": "1.5 눈꽃 속에 피어난 고요한 꿈"
-          }
-        }
-      ],
-      "chars": []
     }
   ],
   "events": [
+    {
+      "id": "ev51",
+      "title": {
+        "es": "Reunión de hongos",
+        "en": "Shroomy Gathering",
+        "zh": "蕈属集群",
+        "zh-TW": "蕈屬集群",
+        "ja": "キノコ大量発生",
+        "ko": "버섯 군락"
+      },
+      "tag": {
+        "es": "INICIO DE SESIÓN",
+        "en": "SIGN-IN",
+        "zh": "签到",
+        "zh-TW": "簽到",
+        "ja": "スタンプラリー",
+        "ko": "출석 체크"
+      },
+      "dateStart": "2026-11-21",
+      "dateEnd": "2026-11-24",
+      "endsAt": "2026-11-24T22:00:00Z",
+      "desc": {
+        "es": "Inicio de sesión de 3 días por tiempo limitado, desde la actualización rápida del 21 de noviembre de 2026 hasta el mantenimiento de la versión: la antesala del mundo de hongos de la 1.7. Requiere la misión principal Capítulo I Proceso I: Rompiendo el asedio; iniciar sesión 3 días da, entre otras recompensas, Permiso de C.R. Básica ×2 y Oroberyl ×500.",
+        "en": "A 3-day limited-time sign-in from the Nov. 21, 2026 quick update until the version update maintenance: the warm-up for the 1.7 mushroom world. Requires the main mission Chapter I Process I: Break the Siege; signing in on 3 days gives rewards including Basic HH Permit ×2 and Oroberyl ×500.",
+        "zh": "限时签到活动，2026年11月21日快速维护更新后至版本更新维护前。参与条件为完成主线任务「第一章 - 进程I - 基地解围」；累计签到3日可领取基础寻访凭证×2、嵌晶玉×500等奖励。",
+        "zh-TW": "限時簽到活動，2026年11月21日快速維護更新後至版本更新維護前。參與條件為完成主線任務「第一章 - 進度I - 基地解圍」；累計簽到3日可領取基礎尋訪憑證×2、嵌晶玉×500等獎勵。",
+        "ja": "期間限定スタンプラリー。2026年11月21日のアップデート後～バージョンアップメンテナンス前。参加条件はメイン任務：第一章-プロセスⅠ「基地救援」のクリア。計3日間ログインすると、通常スカウト券×2、赤晶玉×500などの報酬を獲得できます。",
+        "ko": "기간 한정 출석 체크로, 2026년 11월 21일 순단 패치 점검 이후부터 버전 업데이트 점검 전까지 진행됩니다. 메인 임무 「1장 - 프로세스 I - 기지 구출」 완료가 참여 조건이며, 3일 출석 체크를 완료하면 기초 헤드헌팅 허가증×2, 오로베릴×500 등 보상을 받을 수 있습니다."
+      },
+      "rewards": {
+        "es": [
+          "Permiso de C.R. Básica ×2",
+          "Oroberyl ×500"
+        ],
+        "en": [
+          "Basic HH Permit ×2",
+          "Oroberyl ×500"
+        ],
+        "zh": [
+          "基础寻访凭证×2",
+          "嵌晶玉×500"
+        ],
+        "zh-TW": [
+          "基礎尋訪憑證×2",
+          "嵌晶玉×500"
+        ],
+        "ja": [
+          "通常スカウト券×2",
+          "赤晶玉×500"
+        ],
+        "ko": [
+          "기초 헤드헌팅 허가증×2",
+          "오로베릴×500"
+        ]
+      }
+    },
+    {
+      "id": "ev52",
+      "title": {
+        "es": "Guía de la nueva versión: Conociéndote en el Mundo de los Hongos",
+        "en": "New Version Guide: Meeting You in the World o'Shrooms",
+        "zh": "「穿越甚大蘑境与你相逢」新版本导览",
+        "zh-TW": "「穿越甚大蘑境與你相逢」新版本導覽",
+        "ja": "「キノコ菌グ！？君との大冒険！」新バージョン注目情報",
+        "ko": "「뜻밖의 만남, 버섯 동산 대모험」 신규 버전 가이드"
+      },
+      "tag": {
+        "es": "PÁGINA WEB",
+        "en": "WEB PAGE",
+        "zh": "专题网页",
+        "zh-TW": "專題網頁",
+        "ja": "特設ページ",
+        "ko": "웹페이지"
+      },
+      "dateStart": "2026-11-21",
+      "dateEnd": "2026-11-24",
+      "startsAt": "2026-11-21T12:00:00Z",
+      "endsAt": "2026-11-24T22:00:00Z",
+      "desc": {
+        "es": "Página web oficial con el contenido de la nueva versión. Las recompensas se reclaman del 21 de noviembre de 2026 a las 20:00 al 25 de noviembre a las 06:00 (UTC+8): inicia sesión en la página con tu cuenta (necesitas un personaje creado en Arknights: Endfield) y llegan al correo del juego.",
+        "en": "Official web page with the new version's content. Rewards can be claimed from Nov. 21, 2026 at 20:00 to Nov. 25 at 06:00 (UTC+8): log in on the page with your account (you need a character created in Arknights: Endfield) and they are sent to your in-game mail.",
+        "zh": "官方新版本导览网页。领取时间为2026年11月21日20:00至11月25日06:00（UTC+8）：在《明日方舟：终末地》中创建角色后登录该页面即可领取，奖励将发放至游戏内邮箱。",
+        "zh-TW": "官方新版本導覽網頁。領取時間為2026年11月21日20:00至11月25日06:00（UTC+8）：在《明日方舟：終末地》中建立角色後登入該頁面即可領取，獎勵將發放至遊戲內信箱。",
+        "ja": "新バージョンの公式特設ページ。受取期間は2026年11月21日20:00～11月25日06:00（UTC+8）。『アークナイツ：エンドフィールド』でキャラクターを作成後、ページにログインして受け取ると、報酬はゲーム内のメールボックスに送付されます。",
+        "ko": "새 버전 공식 가이드 웹페이지입니다. 수령 기간은 2026년 11월 21일 20:00부터 11월 25일 06:00(UTC+8)까지이며, 『명일방주: 엔드필드』에서 캐릭터를 생성한 뒤 페이지에 로그인해 수령하면 보상이 게임 내 우편함으로 발송됩니다."
+      },
+      "rewards": {
+        "es": [
+          "Oroberyl ×1.000"
+        ],
+        "en": [
+          "Oroberyl ×1,000"
+        ],
+        "zh": [
+          "嵌晶玉×1000"
+        ],
+        "zh-TW": [
+          "嵌晶玉×1000"
+        ],
+        "ja": [
+          "赤晶玉×1,000"
+        ],
+        "ko": [
+          "오로베릴×1,000"
+        ]
+      }
+    },
+    {
+      "id": "ev53",
+      "title": {
+        "es": "¡Sombrerillos! ¡Setas! ¡HONGOS!",
+        "en": "Caps! Shrooms! FUNGI!",
+        "zh": "蘑菇！蕈类！真菌！",
+        "zh-TW": "蘑菇！蕈類！真菌！",
+        "ja": "キノコ！胞子！きんかく！",
+        "ko": "버섯! 균류! 진균!"
+      },
+      "tag": {
+        "es": "EVENTO DE GUÍA",
+        "en": "GUIDE EVENT",
+        "zh": "引入活动",
+        "zh-TW": "引入活動",
+        "ja": "案内イベント",
+        "ko": "기념 이벤트"
+      },
+      "dateStart": "2026-11-25",
+      "dateEnd": "2026-12-23",
+      "startsAt": "2026-11-24T23:00:00Z",
+      "endsAt": "2026-12-23T17:00:00Z",
+      "byServer": {
+        "asia": "2026-12-23T04:00:00Z"
+      },
+      "desc": {
+        "es": "Evento de guía de la zona nueva, desde la actualización de la versión «Conociéndote en el Mundo de los Hongos» hasta el 23 de diciembre de 2026 a las 12:00 (hora del servidor). Una presa en las afueras de Wuling, sellada durante años, se convirtió en un reino de hongos: explora la Presa Antigua durante el evento para conseguir sus recompensas.",
+        "en": "Guide event of the new area, from the \"Meeting You in the World o'Shrooms\" version update until Dec. 23, 2026 at 12:00 (server time). A dam outside Wuling, sealed away for years, has grown into a mushroom kingdom: explore the Old Dam during the event to earn its rewards.",
+        "zh": "引入活动，「穿越甚大蘑境与你相逢」版本更新后至2026年12月23日12:00（服务器时间）。武陵郊外一座尘封多年的水坝长成了蘑菇王国，活动期间前往新区域「旧水坝」探索即可获得活动奖励。",
+        "zh-TW": "引入活動，「穿越甚大蘑境與你相逢」版本更新後至2026年12月23日12:00（伺服器時間）。武陵郊外一座塵封多年的水壩長成了蘑菇王國，活動期間前往新區域「舊水壩」探索即可獲得活動獎勵。",
+        "ja": "案内イベント。バージョン「キノコ菌グ！？君との大冒険！」開始後～2026年12月23日12:00（サーバー時間）。武陵の郊外で長く閉ざされていたダムがキノコの国に。イベント期間中、新エリア「廃ダム」を探索すると報酬を獲得できます。",
+        "ko": "기념 이벤트로, 「뜻밖의 만남, 버섯 동산 대모험」 버전 업데이트 후부터 2026년 12월 23일 12:00(서버 시간)까지 진행됩니다. 무릉 외곽에 오랫동안 잠들어 있던 댐이 버섯 왕국이 되었습니다. 이벤트 기간 동안 새로운 구역 「옛 댐」을 탐색하면 보상을 얻을 수 있습니다."
+      },
+      "rewards": {
+        "es": [
+          "Oroberyl ×1200",
+          "Mark of Perseverance ×7"
+        ],
+        "en": [
+          "Oroberyl ×1200",
+          "Mark of Perseverance ×7"
+        ],
+        "zh": [
+          "嵌晶玉×1200",
+          "存续的痕迹×7"
+        ],
+        "zh-TW": [
+          "嵌晶玉×1200",
+          "存續的痕跡×7"
+        ],
+        "ja": [
+          "赤晶玉×1,200",
+          "存続の痕跡×7"
+        ],
+        "ko": [
+          "오로베릴×1,200",
+          "존속의 흔적×7"
+        ]
+      }
+    },
+    {
+      "id": "ev54",
+      "title": {
+        "es": "Roaming Wilderpaw",
+        "en": "Roaming Wilderpaw",
+        "zh": "Roaming Wilderpaw",
+        "zh-TW": "Roaming Wilderpaw",
+        "ja": "Roaming Wilderpaw",
+        "ko": "Roaming Wilderpaw"
+      },
+      "tag": {
+        "es": "INICIO DE SESIÓN",
+        "en": "SIGN-IN",
+        "zh": "签到",
+        "zh-TW": "簽到",
+        "ja": "スタンプラリー",
+        "ko": "출석 체크"
+      },
+      "dateStart": "2026-11-25",
+      "dateEnd": "2026-12-23",
+      "startsAt": "2026-11-24T23:00:00Z",
+      "endsAt": "2026-12-23T16:59:00Z",
+      "byServer": {
+        "asia": "2026-12-23T03:59:00Z"
+      },
+      "desc": {
+        "es": "Inicio de sesión de 7 días por tiempo limitado que abre con la versión, junto al banner de Kay Un yunque, una mochila y un tarro de miel, hasta el 23 de diciembre de 2026 a las 11:59 (hora del servidor). Completarlo da, entre otras recompensas, 5 permisos de caza de reclutas para ese banner, y la Cuota del CAI ofrece 5 más.",
+        "en": "A 7-day limited-time sign-in that opens with the version, alongside Kay's banner Anvil, Backpack, Plus A Pot o'Honey, until Dec. 23, 2026 at 11:59 (server time). Completing it gives rewards including 5 HH Permits for that banner, and the AIC Quota Exchange stocks 5 more.",
+        "zh": "限时7日签到，与小刻的特许寻访「锻砧、行囊与蜜糖」同期开启，至2026年12月23日11:59（服务器时间）。累计签到7日可获得5张对应寻访的凭证等奖励；集成配额兑换中也可再兑换5张。",
+        "zh-TW": "限時7日簽到，與小刻的特許尋訪「鍛砧、行囊與蜜糖」同期開啟，至2026年12月23日11:59（伺服器時間）。累計簽到7日可獲得5張對應尋訪的憑證等獎勵；集成配額兌換中也可再兌換5張。",
+        "ja": "期間限定の7日間スタンプラリー。ケーちゃんの特別スカウト「「かじ」とバッグとハチミツ！」と同時に始まり、2026年12月23日11:59（サーバー時間）まで。7日間ログインすると対象スカウトの券×5などを獲得でき、集成配給交換でもさらに5枚交換できます。",
+        "ko": "기간 한정 7일 출석 체크로, 케르의 특별 허가 헤드헌팅 「모루, 배낭, 그리고 벌꿀」과 함께 열려 2026년 12월 23일 11:59(서버 시간)까지 진행됩니다. 출석을 완료하면 해당 헤드헌팅 허가증 5장 등을 얻을 수 있으며, 통합 징표 교환에서도 5장을 더 교환할 수 있습니다."
+      },
+      "rewards": {
+        "es": [
+          "Permiso de C.R. por tiempo limitado ×5"
+        ],
+        "en": [
+          "Limited-time HH Permit ×5"
+        ],
+        "zh": [
+          "限时寻访凭证×5"
+        ],
+        "zh-TW": [
+          "限時尋訪憑證×5"
+        ],
+        "ja": [
+          "期間限定スカウト券×5"
+        ],
+        "ko": [
+          "기간 한정 헤드헌팅 허가증×5"
+        ]
+      }
+    },
+    {
+      "id": "ev55",
+      "title": {
+        "es": "Sueño con waffles con miel",
+        "en": "I Dream of Honey Waffles",
+        "zh": "蜜饼是我的祈愿",
+        "zh-TW": "蜜餅是我的祈願",
+        "ja": "はちみつワッフルにお願い",
+        "ko": "내 소원은 벌꿀 와플"
+      },
+      "tag": {
+        "es": "EVENTO DE NARRATIVA",
+        "en": "NARRATIVE EVENT",
+        "zh": "叙事活动",
+        "zh-TW": "敘事活動",
+        "ja": "物語イベント",
+        "ko": "스토리 이벤트"
+      },
+      "dateStart": "2026-11-25",
+      "dateEnd": "",
+      "startsAt": "2026-11-24T23:00:00Z",
+      "desc": {
+        "es": "El evento de narrativa de Kay, abierto desde la actualización de la versión. Los habitantes de Wuling sufren alucinaciones extrañas; al investigarlas, el Endministrator conoce a Kay, una operadora de Rhodes Island que recorre Talos-II por su cuenta, y los secretos de la vieja presa.",
+        "en": "Kay's narrative event, open from the version update. The citizens of Wuling have been seeing strange hallucinations; investigating them leads the Endministrator to Kay, a Rhodes Island Operator who has been crossing Talos-II on her own, and to the secrets of the old dam.",
+        "zh": "小刻的叙事活动，版本更新后开启。武陵市民近来被古怪的幻觉困扰，管理员在调查中遇见了独自走遍塔卫二的罗德岛干员小刻，也触及了旧水坝的秘密。",
+        "zh-TW": "小刻的敘事活動，版本更新後開啟。武陵市民近來被古怪的幻覺困擾，管理員在調查中遇見了獨自走遍塔衛二的羅德島幹員小刻，也觸及了舊水壩的秘密。",
+        "ja": "ケーちゃんの物語イベント。バージョン開始後から開催。武陵の市民たちを悩ませる奇妙な幻覚を調べるうちに、管理人はひとりでタロⅡを旅してきたロドス・アイランドのオペレーター、ケーちゃんと出会い、古いダムの秘密に近づいていく。",
+        "ko": "케르의 스토리 이벤트로, 버전 업데이트 후 열립니다. 무릉 시민들을 괴롭히는 기묘한 환각을 조사하던 관리자는 홀로 탈로스 II를 누벼 온 로도스 아일랜드 오퍼레이터 케르를 만나고, 옛 댐의 비밀에 다가갑니다."
+      },
+      "rewards": {
+        "es": [],
+        "en": [],
+        "zh": [],
+        "zh-TW": [],
+        "ja": [],
+        "ko": []
+      }
+    },
+    {
+      "id": "ev56",
+      "title": {
+        "es": "Construcción de conjuntos: Repara la vieja grieta",
+        "en": "Array Building: Mend the Old Gash",
+        "zh": "阵列建设：旧伤弥合",
+        "zh-TW": "陣列建設：舊傷彌合",
+        "ja": "陣の建設：古傷の修復",
+        "ko": "배열 건설: 오래된 상처의 봉합"
+      },
+      "tag": {
+        "es": "EVENTO DE CONSTRUCCIÓN",
+        "en": "BUILDING EVENT",
+        "zh": "建设活动",
+        "zh-TW": "建設活動",
+        "ja": "建設イベント",
+        "ko": "건설 이벤트"
+      },
+      "dateStart": "2026-11-25",
+      "dateEnd": "2027-01-06",
+      "startsAt": "2026-11-24T23:00:00Z",
+      "endsAt": "2027-01-06T22:00:00Z",
+      "desc": {
+        "es": "Evento de construcción del nuevo modo permanente de fábrica Reconstrucción de la Zona de exclusión, desde la actualización de la versión hasta el mantenimiento de la próxima. En la Zona de exclusión norte de Wuling siguen abiertos ramales de grieta: entrega materiales en cuatro fases para reconstruirla, con la nueva Forja de Luminiscencia transformando productos en las cintas transportadoras. Las misiones de reconstrucción son por tiempo limitado; el modo se queda.",
+        "en": "Building event of the new permanent factory mode Exclusion Zone Rebuilding, from the version update until the next version update maintenance. Branch rifts still scar the North Wuling Exclusion Zone: supply materials across four phases to rebuild it, with the new Forge of Luminance transforming products on the transport belts. The rebuilding missions are limited-time; the mode itself stays.",
+        "zh": "建设活动，版本更新后至版本更新维护前。北部禁区仍残留大量分支裂隙带，分四个阶段供应材料完成重建，新设备可在传送带上转化产物。限时建设任务过期后无法参与，玩法本身常驻开放。",
+        "zh-TW": "建設活動，版本更新後至版本更新維護前。北部禁區仍殘留大量分支裂隙帶，分四個階段供應材料完成重建，新設備可在傳送帶上轉化產物。限時建設任務過期後無法參與，玩法本身常駐開放。",
+        "ja": "建設イベント。バージョン開始後～バージョンアップメンテナンス前。北部封鎖区域に残る裂け目帯を、4段階で素材を供給して再建します。ベルトコンベア上で製品を変換する新設備も登場。期間限定の建設クエストは期間終了後に参加できなくなりますが、コンテンツ自体は常時開放です。",
+        "ko": "건설 이벤트로, 버전 업데이트 후부터 버전 업데이트 점검 전까지 진행됩니다. 북쪽 금지 구역에 남은 파생 균열대를 4단계에 걸쳐 재료를 공급해 재건합니다. 컨베이어 벨트 위에서 제품을 변환하는 새 설비도 추가됩니다. 기간 한정 건설 임무는 기간이 끝나면 참여할 수 없지만 콘텐츠는 상시 개방됩니다."
+      },
+      "rewards": {
+        "es": [
+          "Oroberyl ×1000",
+          "Mark of Perseverance",
+          "Advanced Progression Selection Crate II",
+          "Advanced Cognitive Carrier"
+        ],
+        "en": [
+          "Oroberyl ×1000",
+          "Mark of Perseverance",
+          "Advanced Progression Selection Crate II",
+          "Advanced Cognitive Carrier"
+        ],
+        "zh": [
+          "嵌晶玉×1000",
+          "存续的痕迹",
+          "高阶培养自选箱Ⅱ",
+          "高级认知载体"
+        ],
+        "zh-TW": [
+          "嵌晶玉×1000",
+          "存續的痕跡",
+          "高階培養自選箱II",
+          "高級認知載體"
+        ],
+        "ja": [
+          "赤晶玉×1,000",
+          "存続の痕跡",
+          "上級育成強化ボックスⅡ",
+          "上級認識媒体"
+        ],
+        "ko": [
+          "오로베릴×1,000",
+          "존속의 흔적",
+          "고급 육성 선택 상자 II",
+          "고급 인지 매개체"
+        ]
+      }
+    },
+    {
+      "id": "ev57",
+      "title": {
+        "es": "Pase de protocolo: Shroom World",
+        "en": "Protocol Pass: Shroom World",
+        "zh": "协议通行证·蘑境",
+        "zh-TW": "協議通行證·蘑境",
+        "ja": "協約通行証・Shroom World",
+        "ko": "프로토콜 통행증 · 버섯 동산"
+      },
+      "tag": {
+        "es": "PASE DE PROTOCOLO",
+        "en": "PROTOCOL PASS",
+        "zh": "协议通行证",
+        "zh-TW": "協議通行證",
+        "ja": "協約通行証",
+        "ko": "프로토콜 통행증"
+      },
+      "dateStart": "2026-11-25",
+      "dateEnd": "",
+      "startsAt": "2026-11-24T23:00:00Z",
+      "desc": {
+        "es": "Temporada nueva del Pase de protocolo, con la versión «Conociéndote en el Mundo de los Hongos». Al desbloquear el pase correspondiente obtienes un suministro de arma 6★ a elección que incluye la nueva Arma de asta 6★ Cometa de incursión (Raid Comet), además del medicamento de Cordura Montón de waffles y un tema de perfil, un retrato, un marco y una calcomanía nuevos.",
+        "en": "A new Protocol Pass season, with the \"Meeting You in the World o'Shrooms\" version. Unlocking the corresponding pass gives a 6★ Weapon of Choice Supply that includes the new 6★ polearm Raid Comet, plus the Sanity Med Mound of Waffles and a new profile theme, portrait, portrait frame and sticker.",
+        "zh": "新一期协议通行证「蘑境」，随版本开启。解锁对应通行证后可获得自选6星武器补给（可选新增6星长柄武器「突击流星」），以及特殊理智药剂「蜜饼山」、名片主题、头像、头像框与贴纸。",
+        "zh-TW": "新一期協議通行證「蘑境」，隨版本開啟。解鎖對應通行證後可獲得自選6星武器補給（可選新增6星長柄武器「突擊流星」），以及特殊理智藥劑「蜜餅山」、名片主題、頭像、頭像框與貼紙。",
+        "ja": "新シーズンの協約通行証。バージョンと同時に開始。対応する通行証を解放すると、新しい★6長柄武器「アサルトメテオ」を選べる★6武器補給指定のほか、特別な理性回復剤「はちみつワッフルの山」、テーマ、アイコン、フレーム、ステッカーを獲得できます。",
+        "ko": "새 시즌 프로토콜 통행증 「버섯 동산」으로, 버전과 함께 열립니다. 해당 통행증을 해금하면 신규 6성 장병기 「유성 돌격」을 고를 수 있는 자유 선택 6성 무기 보급과 특별 이성 약제 「벌꿀 와플 산」, 명함 테마, 프로필, 프로필 프레임, 스티커를 얻을 수 있습니다."
+      },
+      "rewards": {
+        "es": [
+          "Suministro de arma 6★ a elección (nueva: Raid Comet)",
+          "Medicamento para la Cordura: Montón de waffles",
+          "Tema del perfil: Ciudad de hongos y miel",
+          "Retrato: Hongos hogareños",
+          "Marco de retrato: Colores tras una mordida",
+          "Calcomanía: Pegajoso y dulce"
+        ],
+        "en": [
+          "6★ Weapon of Choice Supply (new: Raid Comet)",
+          "Sanity Med: Mound of Waffles",
+          "Profile theme: City of Shrooms and Honey",
+          "Portrait: Homely Shrooms",
+          "Portrait frame: Colors After a Bite",
+          "Sticker: Clingy & Sweet"
+        ],
+        "zh": [
+          "自选6星武器补给（新增：突击流星）",
+          "理智药剂：蜜饼山",
+          "名片主题：蜜境蘑城",
+          "头像：蕈类住民",
+          "头像框：食用后的色彩",
+          "贴纸：黏腻与甜香"
+        ],
+        "zh-TW": [
+          "自選6星武器補給（新增：突擊流星）",
+          "理智藥劑：蜜餅山",
+          "名片主題：蜜境蘑城",
+          "頭像：蕈類住民",
+          "頭像框：食用後的色彩",
+          "貼紙：黏膩與甜香"
+        ],
+        "ja": [
+          "★6武器補給指定（新武器：アサルトメテオ）",
+          "理性回復剤：はちみつワッフルの山",
+          "テーマ：蜜境茸都",
+          "アイコン：キノコの住民たち",
+          "フレーム：食後に見える色彩",
+          "ステッカー：ねっとりと甘い"
+        ],
+        "ko": [
+          "자유 선택 6성 무기 보급(신규: 유성 돌격)",
+          "이성 약제: 벌꿀 와플 산",
+          "명함 테마: 버섯 동산의 도시",
+          "프로필: 버섯 동산의 주민들",
+          "프로필 프레임: 한입에 펼쳐지는 색채",
+          "스티커: 찐득 달콤"
+        ]
+      }
+    },
+    {
+      "id": "ev58",
+      "title": {
+        "es": "Revelación monumental: Tiranía",
+        "en": "Monumental Revelation: Tyranny",
+        "zh": "丰碑揭示·暴虐",
+        "zh-TW": "豐碑揭示·暴虐",
+        "ja": "記念碑が示すもの・暴虐",
+        "ko": "이정표의 계시 · 폭정"
+      },
+      "tag": {
+        "es": "EVENTO DE DESAFÍO",
+        "en": "CHALLENGE EVENT",
+        "zh": "挑战活动",
+        "zh-TW": "挑戰活動",
+        "ja": "上級者イベント",
+        "ko": "도전 이벤트"
+      },
+      "dateStart": "2026-12-02",
+      "dateEnd": "2026-12-23",
+      "startsAt": "2026-12-02T17:00:00Z",
+      "startsByServer": {
+        "asia": "2026-12-02T04:00:00Z"
+      },
+      "endsAt": "2026-12-23T09:00:00Z",
+      "byServer": {
+        "asia": "2026-12-22T20:00:00Z"
+      },
+      "desc": {
+        "es": "Desafío por tiempo limitado del 2 de diciembre de 2026 a las 12:00 al 23 de diciembre de 2026 a las 04:00 (hora del servidor). Abre junto con Déspota armado, la nueva serie permanente de alta dificultad del Monumento del Umbral, con dos jefes, Triaggelos y Nefarith, cada uno con 8 niveles de dificultad: supera sus etapas durante el evento para reclamar las recompensas.",
+        "en": "Limited-time challenge from Dec. 2, 2026 at 12:00 to Dec. 23, 2026 at 04:00 (server time). It opens together with Despot Weaponized, the new permanent high-difficulty series of Umbral Monument, with two bosses, Triaggelos and Nefarith, each with 8 difficulty levels: clear its stages during the event to claim the rewards.",
+        "zh": "挑战活动，2026年12月2日12:00至12月23日04:00（服务器时间）。与「影拓丰碑」新增的常驻高难度系列「暴君武装」同步开启，包含「三位一体」与「聂菲斯」两个挑战，各有8档难度，活动期间完成对应挑战即可领取奖励。",
+        "zh-TW": "挑戰活動，2026年12月2日12:00至12月23日04:00（伺服器時間）。與「影拓豐碑」新增的常駐高難度系列「暴君武裝」同步開啟，包含「三位一體」與「聶菲斯」兩個挑戰，各有8檔難度，活動期間完成對應挑戰即可領取獎勵。",
+        "ja": "上級者イベント。2026年12月2日12:00～12月23日04:00（サーバー時間）。「映像の記念碑」の常設高難度シリーズ「暴君の武装」と同時に開催。「暴君の武装・トリアンゲロス」と「暴君の武装・ネファリス」はそれぞれ8段階の難易度に挑戦でき、期間中に対応するステージをクリアすると報酬を獲得できます。",
+        "ko": "도전 이벤트로, 2026년 12월 2일 12:00부터 12월 23일 04:00(서버 시간)까지 진행됩니다. 「그림자 이정표」의 상시 고난도 신규 시리즈 「무장한 폭군」과 함께 열리며, 트리아겔로스와 네파리스 두 도전은 각각 8단계 난이도로 구성됩니다. 기간 중 해당 도전을 완료하면 보상을 얻을 수 있습니다."
+      },
+      "rewards": {
+        "es": [
+          "Oroberyl ×1200",
+          "Advanced Progression Selection Crate II",
+          "Advanced Cognitive Carrier",
+          "Arms INSP Set"
+        ],
+        "en": [
+          "Oroberyl ×1200",
+          "Advanced Progression Selection Crate II",
+          "Advanced Cognitive Carrier",
+          "Arms INSP Set"
+        ],
+        "zh": [
+          "嵌晶玉×1200",
+          "高阶培养自选箱Ⅱ",
+          "高级认知载体",
+          "武器检查套组"
+        ],
+        "zh-TW": [
+          "嵌晶玉×1200",
+          "高階培養自選箱II",
+          "高級認知載體",
+          "武器檢查套組"
+        ],
+        "ja": [
+          "赤晶玉×1,200",
+          "上級育成強化ボックスⅡ",
+          "上級認識媒体",
+          "武器検査ボックス"
+        ],
+        "ko": [
+          "오로베릴×1,200",
+          "고급 육성 선택 상자 II",
+          "고급 인지 매개체",
+          "무기 점검 세트"
+        ]
+      }
+    },
+    {
+      "id": "ev59",
+      "title": {
+        "es": "Suministro de Cordura",
+        "en": "Sanity Supply",
+        "zh": "理智补给",
+        "zh-TW": "理智補給",
+        "ja": "理性補給",
+        "ko": "이성 보급"
+      },
+      "tag": {
+        "es": "EVENTO POR TIEMPO LIMITADO",
+        "en": "LIMITED-TIME EVENT",
+        "zh": "限时活动",
+        "zh-TW": "限時活動",
+        "ja": "期間限定イベント",
+        "ko": "기간 한정 이벤트"
+      },
+      "dateStart": "2026-12-09",
+      "dateEnd": "2026-12-31",
+      "startsAt": "2026-12-09T09:00:00Z",
+      "startsByServer": {
+        "asia": "2026-12-08T20:00:00Z"
+      },
+      "endsAt": "2026-12-31T09:00:00Z",
+      "byServer": {
+        "asia": "2026-12-30T20:00:00Z"
+      },
+      "desc": {
+        "es": "Evento de Cordura por tiempo limitado de la 1.7, del 9 de diciembre de 2026 a las 04:00 al 31 de diciembre de 2026 a las 04:00 (hora del servidor). Durante el evento consigues Refuerzos de Cordura de emergencia y Permisos de uso de Cordura.",
+        "en": "Limited-time Sanity event of 1.7, from Dec. 9, 2026 at 04:00 to Dec. 31, 2026 at 04:00 (server time). During the event you earn Emergency Sanity Boosters and Sanity Usage Permits.",
+        "zh": "1.7版本的限时理智活动，2026年12月9日04:00至12月31日04:00（服务器时间）。活动期间可获得应急理智加强剂与理智消耗许可。",
+        "zh-TW": "1.7版本的限時理智活動，2026年12月9日04:00至12月31日04:00（伺服器時間）。活動期間可獲得緊急理智加強劑與理智消耗許可。",
+        "ja": "バージョン1.7の期間限定理性イベント。2026年12月9日04:00～12月31日04:00（サーバー時間）。期間中、初級理性回復剤や理性消費許可証を獲得できます。",
+        "ko": "버전 1.7의 기간 한정 이성 이벤트로, 2026년 12월 9일 04:00부터 12월 31일 04:00(서버 시간)까지 진행됩니다. 기간 중 응급 이성 강화제와 이성 소모 허가증을 얻을 수 있습니다."
+      },
+      "rewards": {
+        "es": [
+          "Refuerzos de Cordura de emergencia",
+          "Permisos de uso de Cordura"
+        ],
+        "en": [
+          "Emergency Sanity Boosters",
+          "Sanity Usage Permits"
+        ],
+        "zh": [
+          "应急理智加强剂",
+          "理智消耗许可"
+        ],
+        "zh-TW": [
+          "緊急理智加強劑",
+          "理智消耗許可"
+        ],
+        "ja": [
+          "初級理性回復剤",
+          "理性消費許可証"
+        ],
+        "ko": [
+          "응급 이성 강화제",
+          "이성 소모 허가증"
+        ]
+      }
+    },
+    {
+      "id": "ev60",
+      "title": {
+        "es": "Guardia de los Trabajadores: Pase de lista",
+        "en": "Workers' Guards: Roll Call",
+        "zh": "行军者的报到",
+        "zh-TW": "行軍者的報到",
+        "ja": "ただいま着任であります！",
+        "ko": "행군 부대의 도착 보고"
+      },
+      "tag": {
+        "es": "EVENTO DE REGALOS",
+        "en": "GIVEAWAY EVENT",
+        "zh": "馈赠活动",
+        "zh-TW": "饋贈活動",
+        "ja": "配布イベント",
+        "ko": "증정 이벤트"
+      },
+      "dateStart": "2026-12-16",
+      "dateEnd": "2027-01-06",
+      "startsAt": "2026-12-16T17:00:00Z",
+      "startsByServer": {
+        "asia": "2026-12-16T04:00:00Z"
+      },
+      "endsAt": "2027-01-06T22:00:00Z",
+      "desc": {
+        "es": "Evento de regalos del 16 de diciembre de 2026 a las 12:00 (hora del servidor) hasta el mantenimiento de la próxima versión. Completa el evento para obtener gratis a Mimino, Cooperadora física de 5★, con Potencial máximo, y su Cañón de mano 5★ Star of Tomorrow, también con Potencial máximo.",
+        "en": "Giveaway event from Dec. 16, 2026 at 12:00 (server time) until the next version update maintenance. Complete the event to get the 5★ Physical Supporter Mimino at max Potential and her 5★ handcannon Star of Tomorrow, also at max Potential, for free.",
+        "zh": "馈赠活动，2026年12月16日12:00（服务器时间）至版本更新维护前。完成活动即可免费获得满潜能的5★物理辅助干员米米诺，以及满潜能的5★手铳「明日之星」。",
+        "zh-TW": "饋贈活動，2026年12月16日12:00（伺服器時間）至版本更新維護前。完成活動即可免費獲得滿潛能的5★物理輔助幹員米米諾，以及滿潛能的5★手銃「明日之星」。",
+        "ja": "配布イベント。2026年12月16日12:00（サーバー時間）～バージョンアップメンテナンス前。イベントを完了すると、潜在MAXの★5物理補助オペレーター「ミミノ」と、潜在MAXの★5拳銃「ライジングスター」を無料で入手できます。",
+        "ko": "증정 이벤트로, 2026년 12월 16일 12:00(서버 시간)부터 버전 업데이트 점검 전까지 진행됩니다. 이벤트를 완료하면 잠재 능력 최대치의 5★ 물리 서포터 미미노와 잠재 능력 최대치의 5★ 권총 「떠오르는 별」을 무료로 얻을 수 있습니다."
+      },
+      "rewards": {
+        "es": [
+          "Mimino (Cooperadora 5★) con Potencial máximo",
+          "Star of Tomorrow (Cañón de mano 5★) con Potencial máximo"
+        ],
+        "en": [
+          "Mimino (5★ Supporter) at max Potential",
+          "Star of Tomorrow (5★ Handcannon) at max Potential"
+        ],
+        "zh": [
+          "干员米米诺（5★，满潜能）",
+          "明日之星（5★手铳，满潜能）"
+        ],
+        "zh-TW": [
+          "幹員米米諾（5★，滿潛能）",
+          "明日之星（5★手銃，滿潛能）"
+        ],
+        "ja": [
+          "ミミノ（★5、潜在MAX）",
+          "ライジングスター（★5拳銃、潜在MAX）"
+        ],
+        "ko": [
+          "미미노(5★, 잠재 능력 최대)",
+          "떠오르는 별(5★ 권총, 잠재 능력 최대)"
+        ]
+      }
+    },
+    {
+      "id": "ev61",
+      "title": {
+        "es": "Los Juegos Maravillosos de Zanahoria de la suerte",
+        "en": "Lucky Carrot's Games of Wonder",
+        "zh": "“幸运萝卜”的妙趣游乐",
+        "zh-TW": "「幸運蘿蔔」的妙趣遊樂",
+        "ja": "「ラッキーキャロット」のわくわくゲーム",
+        "ko": "'행운의 당근'의 별난 놀이"
+      },
+      "tag": {
+        "es": "DIVERSIÓN Y JUEGOS",
+        "en": "FUN & GAMES EVENT",
+        "zh": "趣味活动",
+        "zh-TW": "趣味活動",
+        "ja": "レジャーイベント",
+        "ko": "흥미 이벤트"
+      },
+      "dateStart": "2026-12-16",
+      "dateEnd": "2027-01-06",
+      "startsAt": "2026-12-16T17:00:00Z",
+      "startsByServer": {
+        "asia": "2026-12-16T04:00:00Z"
+      },
+      "endsAt": "2027-01-06T22:00:00Z",
+      "desc": {
+        "es": "Evento de diversión y juegos del 16 de diciembre de 2026 a las 12:00 (hora del servidor) hasta el mantenimiento de la próxima versión. Suma dos juegos de cartas multijugador, Witch's Darkjack y Band Uprising, que se juegan con amigos o por emparejamiento rápido; completar sus desafíos da recompensas en el intercambio del evento, Oroberyl incluido.",
+        "en": "Fun & Games event from Dec. 16, 2026 at 12:00 (server time) until the next version update maintenance. It adds two multiplayer card games, Witch's Darkjack and Band Uprising, that you can play with friends or through quick matchmaking; completing their challenges gives rewards at the event exchange, Oroberyl included.",
+        "zh": "趣味活动，2026年12月16日12:00（服务器时间）至版本更新维护前。新增两款多人卡牌对战，可邀请好友，也可快速匹配；完成对应挑战即可在活动商店兑换包括嵌晶玉在内的奖励。",
+        "zh-TW": "趣味活動，2026年12月16日12:00（伺服器時間）至版本更新維護前。新增兩款多人卡牌對戰，可邀請好友，也可快速匹配；完成對應挑戰即可在活動商店兌換包括嵌晶玉在內的獎勵。",
+        "ja": "レジャーイベント。2026年12月16日12:00（サーバー時間）～バージョンアップメンテナンス前。多人数で遊べるオンライン対戦「巫数バトル」と「文明デュエル」が登場。フレンドと対戦するほか、クイックマッチでも遊べます。チャレンジを達成すると交換所で赤晶玉などの報酬と交換できます。",
+        "ko": "흥미 이벤트로, 2026년 12월 16일 12:00(서버 시간)부터 버전 업데이트 점검 전까지 진행됩니다. 멀티플레이 카드 대전 2종이 추가되며, 친구와 함께하거나 빠른 매칭으로 참여할 수 있습니다. 도전 과제를 완료하면 교환소에서 오로베릴 등 보상을 받을 수 있습니다."
+      },
+      "rewards": {
+        "es": [
+          "Oroberyl ×1000",
+          "Mark of Perseverance",
+          "Advanced Progression Selection Crate II",
+          "Advanced Cognitive Carrier"
+        ],
+        "en": [
+          "Oroberyl ×1000",
+          "Mark of Perseverance",
+          "Advanced Progression Selection Crate II",
+          "Advanced Cognitive Carrier"
+        ],
+        "zh": [
+          "嵌晶玉×1000",
+          "存续的痕迹",
+          "高阶培养自选箱Ⅱ",
+          "高级认知载体"
+        ],
+        "zh-TW": [
+          "嵌晶玉×1000",
+          "存續的痕跡",
+          "高階培養自選箱II",
+          "高級認知載體"
+        ],
+        "ja": [
+          "赤晶玉×1,000",
+          "存続の痕跡",
+          "上級育成強化ボックスⅡ",
+          "上級認識媒体"
+        ],
+        "ko": [
+          "오로베릴×1,000",
+          "존속의 흔적",
+          "고급 육성 선택 상자 II",
+          "고급 인지 매개체"
+        ]
+      }
+    },
+    {
+      "id": "ev62",
+      "title": {
+        "es": "¡ÁLZATE! ¡MEGA ARENA!",
+        "en": "RISE! MEGA ARENA!",
+        "zh": "方兴！竞技大会！",
+        "zh-TW": "方興！競技大會！",
+        "ja": "方興！アリーナ！",
+        "ko": "방흥! 경기 대회!"
+      },
+      "tag": {
+        "es": "EVENTO DE DESAFÍO",
+        "en": "CHALLENGE EVENT",
+        "zh": "挑战活动",
+        "zh-TW": "挑戰活動",
+        "ja": "上級者イベント",
+        "ko": "도전 이벤트"
+      },
+      "dateStart": "2026-12-16",
+      "dateEnd": "2027-01-06",
+      "startsAt": "2026-12-16T17:00:00Z",
+      "startsByServer": {
+        "asia": "2026-12-16T04:00:00Z"
+      },
+      "endsAt": "2027-01-06T22:00:00Z",
+      "desc": {
+        "es": "Evento de desafío del 16 de diciembre de 2026 a las 12:00 (hora del servidor) hasta el mantenimiento de la próxima versión. Forma equipos de hasta 2 operadores para completar las fases del evento y obtener grandes recompensas; hay operadores de prueba disponibles.",
+        "en": "Challenge event from Dec. 16, 2026 at 12:00 (server time) until the next version update maintenance. Use teams of up to 2 operators to challenge the event stages and claim generous rewards; trial operators are available.",
+        "zh": "挑战活动，2026年12月16日12:00（服务器时间）至版本更新维护前。活动期间，管理员可在编队里编入最多两名干员，挑战活动关卡，领取丰厚奖励；含试用干员。",
+        "zh-TW": "挑戰活動，2026年12月16日12:00（伺服器時間）至版本更新維護前。活動期間，管理員可在編隊裡編入最多兩名幹員，挑戰活動關卡，領取豐厚獎勵；含試用幹員。",
+        "ja": "上級者イベント。2026年12月16日12:00（サーバー時間）～バージョンアップメンテナンス前。イベント期間中、最大2名のオペレーターを編成してステージに挑戦し、豪華な報酬を獲得できます。臨時オペレーターも使えます。",
+        "ko": "도전 이벤트로, 2026년 12월 16일 12:00(서버 시간)부터 버전 업데이트 점검 전까지 진행됩니다. 최대 2명의 오퍼레이터로 편성해 이벤트 스테이지에 도전하고 푸짐한 보상을 받을 수 있으며, 체험용 오퍼레이터도 사용할 수 있습니다."
+      },
+      "rewards": {
+        "es": [
+          "Marco de retrato del evento",
+          "Oroberyl ×1200",
+          "Advanced Progression Selection Crate II",
+          "Mark of Perseverance"
+        ],
+        "en": [
+          "Event portrait frame",
+          "Oroberyl ×1200",
+          "Advanced Progression Selection Crate II",
+          "Mark of Perseverance"
+        ],
+        "zh": [
+          "活动头像框",
+          "嵌晶玉×1200",
+          "高阶培养自选箱Ⅱ",
+          "存续的痕迹"
+        ],
+        "zh-TW": [
+          "活動頭像框",
+          "嵌晶玉×1200",
+          "高階培養自選箱II",
+          "存續的痕跡"
+        ],
+        "ja": [
+          "イベントのフレーム",
+          "赤晶玉×1,200",
+          "上級育成強化ボックスⅡ",
+          "存続の痕跡"
+        ],
+        "ko": [
+          "이벤트 프로필 프레임",
+          "오로베릴×1,200",
+          "고급 육성 선택 상자 II",
+          "존속의 흔적"
+        ]
+      }
+    },
+    {
+      "id": "ev63",
+      "title": {
+        "es": "¡Endmin! ¡Clasifiquemos los regalitos!",
+        "en": "Endmin! Let's Sort the Prezzies!",
+        "zh": "分拣吧！管礼员",
+        "zh-TW": "分揀吧！管禮員",
+        "ja": "仕分けの達人",
+        "ko": "정리자! 선물을 관리할 시간이야!"
+      },
+      "tag": {
+        "es": "DIVERSIÓN Y JUEGOS",
+        "en": "FUN & GAMES EVENT",
+        "zh": "趣味活动",
+        "zh-TW": "趣味活動",
+        "ja": "レジャーイベント",
+        "ko": "흥미 이벤트"
+      },
+      "dateStart": "2026-12-23",
+      "dateEnd": "2027-01-06",
+      "startsAt": "2026-12-23T17:00:00Z",
+      "startsByServer": {
+        "asia": "2026-12-23T04:00:00Z"
+      },
+      "endsAt": "2027-01-06T22:00:00Z",
+      "desc": {
+        "es": "Evento web del 23 de diciembre de 2026 a las 12:00 (hora del servidor) hasta el mantenimiento de la próxima versión. Las cajas de regalo de tus amigos llegan por las cintas transportadoras: clasifícalas y envía cada una al operador que corresponde.",
+        "en": "Web event from Dec. 23, 2026 at 12:00 (server time) until the next version update maintenance. Gift boxes for your friends come down the transport belts: sort them and send each one to the right operator.",
+        "zh": "网页活动，2026年12月23日12:00（服务器时间）至版本更新维护前。伙伴们的礼盒会顺着传送带送来，将它们分门别类，送到对应干员手中。",
+        "zh-TW": "網頁活動，2026年12月23日12:00（伺服器時間）至版本更新維護前。夥伴們的禮盒會順著傳送帶送來，將它們分門別類，送到對應幹員手中。",
+        "ja": "Webイベント。2026年12月23日12:00（サーバー時間）～バージョンアップメンテナンス前。ベルトコンベアで運ばれてくる仲間たちへのギフトを仕分けて、それぞれのオペレーターに届けます。",
+        "ko": "웹 이벤트로, 2026년 12월 23일 12:00(서버 시간)부터 버전 업데이트 점검 전까지 진행됩니다. 컨베이어 벨트로 운반되는 동료들의 선물 상자를 분류해 알맞은 오퍼레이터에게 전달합니다."
+      },
+      "rewards": {
+        "es": [
+          "Oroberyl",
+          "T-Creds"
+        ],
+        "en": [
+          "Oroberyl",
+          "T-Creds"
+        ],
+        "zh": [
+          "嵌晶玉",
+          "折金票"
+        ],
+        "zh-TW": [
+          "嵌晶玉",
+          "折金票"
+        ],
+        "ja": [
+          "赤晶玉",
+          "折金券"
+        ],
+        "ko": [
+          "오로베릴",
+          "탈로시안 화폐"
+        ]
+      }
+    },
+    {
+      "id": "ev64",
+      "title": {
+        "es": "Edición especial Explorador de lo críptico",
+        "en": "Delver of the Cryptic Special Edition",
+        "zh": "密境行者特别篇",
+        "zh-TW": "密境行者特別篇",
+        "ja": "密境の探索者特別編",
+        "ko": "숨겨진 구역의 여행자 특별편"
+      },
+      "tag": {
+        "es": "EVENTO DE RESOLUCIÓN DE ACERTIJOS",
+        "en": "PUZZLE-SOLVING EVENT",
+        "zh": "解谜活动",
+        "zh-TW": "解謎活動",
+        "ja": "チャレンジイベント",
+        "ko": "퍼즐 이벤트"
+      },
+      "dateStart": "2026-12-26",
+      "dateEnd": "",
+      "startsAt": "2026-12-26T17:00:00Z",
+      "startsByServer": {
+        "asia": "2026-12-26T04:00:00Z"
+      },
+      "desc": {
+        "es": "Evento de resolución de acertijos desde el 26 de diciembre de 2026 a las 12:00 (hora del servidor): una edición especial del modo permanente Explorador de lo críptico con un conjunto espacial nuevo, Esoteric Mycology. Según Gryphline, es la última actualización de Explorador de lo críptico como modo permanente. Una vez abierta, queda disponible.",
+        "en": "Puzzle-solving event from Dec. 26, 2026 at 12:00 (server time): a special edition of the permanent mode Delver of the Cryptic with a new spatial set, Esoteric Mycology. Gryphline says it is the final update for Delver of the Cryptic as a permanent mode. Once open, it stays available.",
+        "zh": "解谜活动，2026年12月26日12:00（服务器时间）开放：常驻玩法「密境行者」特别篇，新增空间组「Esoteric Mycology」。官方表示这是「密境行者」作为常驻玩法的最后一次更新。开放后长期可玩。",
+        "zh-TW": "解謎活動，2026年12月26日12:00（伺服器時間）開放：常駐玩法「密境行者」特別篇，新增空間組「Esoteric Mycology」。官方表示這是「密境行者」作為常駐玩法的最後一次更新。開放後長期可玩。",
+        "ja": "チャレンジイベント。2026年12月26日12:00（サーバー時間）開始：常設コンテンツ「密境の探索者」の特別編で、新しい空間群「Esoteric Mycology」が追加されます。公式によると、常設コンテンツとしての「密境の探索者」の最後のアップデートです。開始後は常時開放です。",
+        "ko": "퍼즐 이벤트로, 2026년 12월 26일 12:00(서버 시간)에 열립니다. 상시 콘텐츠 「숨겨진 구역의 여행자」의 특별편으로 새 공간 그룹 「Esoteric Mycology」가 추가됩니다. 공식 발표에 따르면 상시 콘텐츠로서 「숨겨진 구역의 여행자」의 마지막 업데이트입니다. 개방 후 상시 플레이할 수 있습니다."
+      },
+      "rewards": {
+        "es": [
+          "Oroberyl",
+          "Advanced Cognitive Carrier",
+          "Mark of Perseverance",
+          "T-Creds"
+        ],
+        "en": [
+          "Oroberyl",
+          "Advanced Cognitive Carrier",
+          "Mark of Perseverance",
+          "T-Creds"
+        ],
+        "zh": [
+          "嵌晶玉",
+          "高级认知载体",
+          "存续的痕迹",
+          "折金票"
+        ],
+        "zh-TW": [
+          "嵌晶玉",
+          "高級認知載體",
+          "存續的痕跡",
+          "折金票"
+        ],
+        "ja": [
+          "赤晶玉",
+          "上級認識媒体",
+          "存続の痕跡",
+          "折金券"
+        ],
+        "ko": [
+          "오로베릴",
+          "고급 인지 매개체",
+          "존속의 흔적",
+          "탈로시안 화폐"
+        ]
+      }
+    },
     {
       "id": "ev34",
       "title": {
@@ -2662,9 +3650,9 @@
         "ko": "흥미 이벤트"
       },
       "dateStart": "2026-10-15",
-      "dateEnd": "2026-11-25",
+      "dateEnd": "2026-11-24",
       "startsAt": "2026-10-14T23:00:00Z",
-      "endsAt": "2026-11-25T22:00:00Z",
+      "endsAt": "2026-11-24T22:00:00Z",
       "desc": {
         "es": "Modo permanente con misiones de gestión por tiempo limitado: las misiones duran desde la actualización hasta el mantenimiento de la próxima versión y después el modo sigue disponible. Administras una posada en la Mansión Yuanyuan: preparas platillos, ganas Dinero de Espíritu, subes de estrellas, amplías la granja y los corrales y desbloqueas temas y recetas. Estrena el Autoagricultor y la vista superior para los terrenos.",
         "en": "A permanent mode with limited-time innkeeping missions: the missions run from the update until the next version update maintenance, and the mode stays available afterwards. You run an inn at Yuanyuan Manor: cook dishes, earn Spirit Money, raise your star rating, expand the farmland and pens, and unlock themes and recipes. It debuts the Auto-Farmer and a top view for plots.",
@@ -2785,12 +3773,12 @@
         "ko": "출석 체크"
       },
       "dateStart": "2026-11-05",
-      "dateEnd": "2026-11-25",
+      "dateEnd": "2026-11-24",
       "startsAt": "2026-11-05T17:00:00Z",
       "startsByServer": {
         "asia": "2026-11-05T04:00:00Z"
       },
-      "endsAt": "2026-11-25T22:00:00Z",
+      "endsAt": "2026-11-24T22:00:00Z",
       "desc": {
         "es": "Inicio de sesión de 7 días desde el 5 de noviembre de 2026 a las 12:00 (hora del servidor) hasta el mantenimiento de la próxima versión, junto con el banner de Argent Flow. Al completarlo recibes Permiso de C.R. de Las estrellas están conmigo ×5 y otras recompensas; la Cuota del CAI suma 5 permisos más con descuento.",
         "en": "A 7-day sign-in from Nov. 5, 2026 at 12:00 (server time) until the next version update maintenance, alongside Argent Flow's banner. Completing it gives The Stars Are With Me HH Permit ×5 and other rewards; the AIC Quota Exchange adds up to 5 more permits at a discount.",
@@ -3133,12 +4121,12 @@
         "ko": "스토리 이벤트"
       },
       "dateStart": "2026-11-05",
-      "dateEnd": "2026-11-25",
+      "dateEnd": "2026-11-24",
       "startsAt": "2026-11-05T17:00:00Z",
       "startsByServer": {
         "asia": "2026-11-05T04:00:00Z"
       },
-      "endsAt": "2026-11-25T22:00:00Z",
+      "endsAt": "2026-11-24T22:00:00Z",
       "desc": {
         "es": "Evento de narrativa de Argent Flow, desde el 5 de noviembre de 2026. Argent Flow te envió un mensaje con texto ininteligible: decides averiguar qué pasó y hablar con él del pasado que mencionó. Para recuperar un burdenbeast perdido viajan juntos entre los pergaminos que dejó Si, donde aparece un Argent Flow muy distinto del que conocemos.",
         "en": "Argent Flow's narrative event, from Nov. 5, 2026. Argent Flow sent you a message of garbled text: you decide to find out what happened and talk to him about the past he mentioned. To recover a missing burdenbeast you travel together between the scrolls Si left behind, where a very different Argent Flow shows up.",
@@ -3193,12 +4181,12 @@
         "ko": "도전 이벤트"
       },
       "dateStart": "2026-11-05",
-      "dateEnd": "2026-11-25",
+      "dateEnd": "2026-11-24",
       "startsAt": "2026-11-05T17:00:00Z",
       "startsByServer": {
         "asia": "2026-11-05T04:00:00Z"
       },
-      "endsAt": "2026-11-25T22:00:00Z",
+      "endsAt": "2026-11-24T22:00:00Z",
       "desc": {
         "es": "Segunda temporada de Contrato de contingencia, del 5 de noviembre de 2026 a las 12:00 (hora del servidor) hasta el mantenimiento de la próxima versión, con contenido nuevo el 12 de noviembre a las 12:00. Tres criterios clave nuevos (Ambiente: Bloqueo de combo, Ambiente: Silencio y uno sorpresa), criterios especiales, criterios que les dan ataques nuevos a los enemigos e importación de varios criterios a la vez. Las misiones dan Índigo vitrificado, que se gasta en el Santuario secreto (abierto hasta el 3 de diciembre a las 04:00).",
         "en": "The second Contingency Contract season, from Nov. 5, 2026 at 12:00 (server time) until the next version update maintenance, with new content on Nov. 12 at 12:00. Three new Key Criteria (Ambient: Combo Lock, Ambient: Silence and a surprise one), special criteria, criteria that give enemies new attacks, and importing several criteria at once. The missions give Vitrified Indigo, spent at the Secret Sanctuary (open until Dec. 3 at 04:00).",

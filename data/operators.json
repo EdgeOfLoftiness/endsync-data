@@ -1,6 +1,6 @@
 {
   "game": "Arknights: Endfield",
-  "total_operators": 34,
+  "total_operators": 36,
   "note_skills": "Skill values shown at MAX level (skill rank 13). Talents show level 1/level 2 (max) values.",
   "note_talents": "talents = combat passives. keystones = manifest skill upgrades. base_talents = facility productivity bonuses.",
   "operators": {
@@ -12232,6 +12232,68 @@
           "description_ko": "재능 <u>번개의 향연</u> 효과 강화: 배틀 스킬 <u>질주하는 천둥</u> 사용 시, 팀 전체의 오리지늄 아츠 강도가 추가로 +<b>15</b>.<br/>자신의 오리지늄 아츠 강도 1포인트마다 적용되는 <u>우레 폭발</u> 피해의 증가 효과가 기존의 <b>1.2</b>배로 증가합니다."
         }
       ]
+    },
+    "kay": {
+      "name_display": "Kay",
+      "rarity": 6,
+      "class": "Vanguard",
+      "element": "Nature",
+      "weapon_type": "Polearm",
+      "upcoming": true,
+      "data_pending": true,
+      "skills": {
+        "basic_attack": {
+          "name": "Wild Wacky-Whack",
+          "description": "An attack with up to 5 sequences that deals <u>Physical DMG</u>. The finisher deals massive <u>Physical DMG</u> and restores some SP.",
+          "description_es": "Un ataque de hasta 5 secuencias que inflige <u>DAÑ físico</u>. El remate inflige <u>DAÑ físico</u> masivo y recupera algo de PH."
+        },
+        "battle_skill": {
+          "name": "Really Heavy Bash",
+          "description": "Kay leaps up to power up, salvages all her Weapons and slams her hammer into the ground: enemies in the area take <u>Nature DMG</u> that grows with her <u>Hot Edgy Naives</u> stacks and suffer <u>Nature Infliction</u>. It consumes all Hot Edgy Naives stacks; if it consumes 3 at once, it also applies <u>Combustion</u> to the enemies in the area. With her talent <u>Bottomless Arsenal</u>, Kay starts with 3 Weapons, and each Weapon salvaged during battle grants her 1 Hot Edgy Naives stack and increases the <u>Arts DMG</u> dealt by the whole team.",
+          "description_es": "Kay salta para cargar poder, recupera todas sus Armas y golpea el suelo con su martillo: los enemigos del área reciben <u>DAÑ por naturaleza</u>, que crece con sus acumulaciones de <u>Hot Edgy Naives</u>, y sufren <u>Imposición de naturaleza</u>. Consume todas las acumulaciones de Hot Edgy Naives; si consume 3 a la vez, también aplica <u>Combustión</u> a los enemigos del área. Con su talento <u>Bottomless Arsenal</u>, Kay empieza con 3 Armas, y cada Arma que recupera en combate le da 1 acumulación de Hot Edgy Naives y aumenta el <u>DAÑ por artes</u> infligido por todo el equipo."
+        },
+        "combo_skill": {
+          "name": "Really Kwik Smash",
+          "description": "Triggers when <u>Nature Infliction</u> is applied to an enemy or it takes <u>Arts Burst</u> DMG while Kay has at least 1 Weapon: Kay throws a Weapon that deals <u>Nature DMG</u>; the hit recovers some SP and forcibly triggers a <u>Nature Burst</u>. The Weapon then drops at a random point on the battlefield and is salvaged when the controlled operator touches it (or with her battle skill). It cannot trigger while all 3 of her Weapons are thrown.",
+          "description_es": "Se activa cuando a un enemigo se le aplica <u>Imposición de naturaleza</u> o recibe DAÑ por <u>Ráfaga de artes</u> mientras Kay tiene al menos 1 Arma: Kay lanza un Arma que inflige <u>DAÑ por naturaleza</u>; el impacto recupera algo de PH y provoca de forma forzada una <u>Ráfaga de naturaleza</u>. Después, el Arma cae en un punto al azar del campo de batalla y se recupera cuando el operador controlado la toca (o con su habilidad de batalla). No se puede activar si sus 3 Armas están lanzadas."
+        },
+        "ultimate": {
+          "name": "Really Sweet Combi-Bonker!",
+          "description": "Kay kitbashes a combi-bonker, swings it several times and throws it to cause an explosion that deals <u>Nature DMG</u> and applies <u>Nature Infliction</u> to enemies in the area; it recovers some SP and leaves several <u>Picnic Snacks</u> behind. When the controlled operator picks up a Picnic Snack, Kay grants them <u>HP Treatment</u> and restores some SP. With her talent <u>Have a Waffle!</u>, an enemy that is <u>Staggered</u> or reaches a <u>Stagger Node</u> drops 1 Picnic Waffle; this effect has a cooldown.",
+          "description_es": "Kay arma un combi-bonker improvisado, lo blande varias veces y lo lanza para causar una explosión que inflige <u>DAÑ por naturaleza</u> y aplica <u>Imposición de naturaleza</u> a los enemigos del área; recupera algo de PH y deja varios <u>Picnic Snacks</u> en el campo. Cuando el operador controlado recoge un Picnic Snack, Kay le otorga <u>Tratamiento de PV</u> y recupera algo de PH. Con su talento <u>Have a Waffle!</u>, un enemigo que queda <u>Tambaleado</u> o alcanza un <u>Nodo de tambaleo</u> suelta 1 Picnic Waffle; este efecto tiene tiempo de reutilización."
+        }
+      }
+    },
+    "mimino": {
+      "name_display": "Mimino",
+      "rarity": 5,
+      "class": "Supporter",
+      "element": "Physical",
+      "weapon_type": "Handcannon",
+      "upcoming": true,
+      "data_pending": true,
+      "skills": {
+        "basic_attack": {
+          "name": "CQB Tactics",
+          "description": "An attack with up to 5 sequences that deals <u>Physical DMG</u>. The finisher deals massive <u>Physical DMG</u> and restores some SP.",
+          "description_es": "Un ataque de hasta 5 secuencias que inflige <u>DAÑ físico</u>. El remate inflige <u>DAÑ físico</u> masivo y recupera algo de PH."
+        },
+        "battle_skill": {
+          "name": "Counter-Assault Tactic",
+          "description": "Throws a special portable device, the <u>Portable Defender</u>, that sticks to the enemy for a while. During that time, casting the battle skill again (<u>Zone Purging</u>) detonates it: it deals <u>Physical DMG</u> in a small area, applies 1 stack of <u>Vulnerability</u> and creates a <u>Temp DEF-Zone</u> on the ground that grants teammates inside <u>Protection</u> and <u>Physical Amp</u>. With her talent <u>Pre-Ops Mobilization</u>, the controlled operator regenerates Stamina faster inside the buff zones created by her Portable Defender.",
+          "description_es": "Lanza un dispositivo portátil especial, el <u>Portable Defender</u>, que se queda pegado al enemigo un tiempo. Mientras tanto, volver a usar la habilidad de batalla (<u>Zone Purging</u>) lo detona: inflige <u>DAÑ físico</u> en un área pequeña, aplica 1 acumulación de <u>Vulnerabilidad</u> y crea en el suelo una <u>Temp DEF-Zone</u>, una zona de mejora que otorga <u>Protección</u> y <u>Amp física</u> a los aliados que están dentro. Con su talento <u>Pre-Ops Mobilization</u>, el operador controlado regenera su energía (Stamina) más rápido dentro de las zonas de mejora que crea su Portable Defender."
+        },
+        "combo_skill": {
+          "name": "Concentrating Fusillade",
+          "description": "Triggers when <u>Lift</u>, <u>Knock Down</u>, <u>Solidification</u> or <u>Immobilization</u> is applied to an enemy that has a Portable Defender stuck to it: Mimino draws her \"Peacekeeper\" Rotary Guns and fires continuously at the target, dealing <u>Physical DMG</u>, and shoots the Portable Defender, which explodes, deals <u>Physical DMG</u> to enemies in a wide area and creates an <u>Armed DEF-Zone</u>: a bigger buff zone with stronger <u>Protection</u> and <u>Physical Amp</u>.",
+          "description_es": "Se activa cuando se aplica <u>Levantar</u>, <u>Derribar</u>, <u>Solidificación</u> o <u>Inmovilización</u> a un enemigo que tiene pegado un Portable Defender: Mimino saca sus ametralladoras rotativas “Peacekeeper” y dispara sin parar al objetivo, infligiendo <u>DAÑ físico</u>, y le dispara al Portable Defender, que explota, inflige <u>DAÑ físico</u> a los enemigos en un área amplia y crea una <u>Armed DEF-Zone</u>: una zona de mejora más grande con <u>Protección</u> y <u>Amp física</u> más fuertes."
+        },
+        "ultimate": {
+          "name": "Direct LOS Firing",
+          "description": "Mimino forcibly <u>Lifts</u> the target and applies <u>Physical Susceptibility</u> to it, then raises her Rotary Guns and unleashes continuous fire that deals massive <u>Physical DMG</u>. Higher Will further strengthens the Physical Susceptibility it applies.",
+          "description_es": "Mimino aplica <u>Levantar</u> de forma forzada al objetivo y le aplica <u>Susceptibilidad física</u>; luego alza sus ametralladoras rotativas y desata una ráfaga continua que inflige <u>DAÑ físico</u> masivo. Cuanta más Voluntad tenga, más fuerte es la Susceptibilidad física que aplica."
+        }
+      }
     }
   }
 }
