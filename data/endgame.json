@@ -20,10 +20,10 @@
     {
       "id": "delirating",
       "name": { "es": "Season of Delirating", "en": "Season of Delirating" },
-      "dateText": { "es": "Desde el 9 ago · cierre por confirmar", "en": "Since Aug 9 · end date TBC" },
+      "dateText": { "es": "9 ago – actualización 1.5", "en": "Aug 9 – 1.5 update" },
       "startsAt": "2026-08-09T17:00:00Z",
       "startsByServer": { "asia": "2026-08-09T04:00:00Z" },
-      "endsAt": null,
+      "endsAt": "2026-09-01T22:00:00Z",
       "notes": [
         {
           "es": "Temporada recién abierta: mecánicas, niveles recomendados y bonus de Brutal se confirman cuando el juego los muestra.",
@@ -265,9 +265,13 @@
     {
       "id": "phantasia",
       "name": { "es": "Fantasía", "en": "Phantasia" },
-      "dateText": { "es": "Desde la actualización 1.6 (14 oct)", "en": "Since the 1.6 update (Oct 14)" },
+      "dateText": {
+        "es": "Actualización 1.6 – 5 nov, 11:59 (hora del servidor)",
+        "en": "1.6 update – Nov 5, 11:59 (server time)"
+      },
       "startsAt": "2026-10-14T23:00:00Z",
-      "endsAt": null,
+      "endsAt": "2026-11-05T17:00:00Z",
+      "endsByServer": { "asia": "2026-11-05T04:00:00Z" },
       "notes": [
         {
           "es": "Según el programa oficial de la 1.6 y la New Version Guide, la temporada suma tres etapas nuevas a la rotación de etapas existentes. Los nombres de etapa y los ciclos se completan cuando el juego los publique.",
@@ -301,10 +305,10 @@
     {
       "id": "fervor",
       "name": { "es": "Fervor", "en": "Fervor" },
-      "dateText": { "es": "Desde el 5 nov", "en": "From Nov 5" },
+      "dateText": { "es": "5 nov – actualización 1.7", "en": "Nov 5 – 1.7 update" },
       "startsAt": "2026-11-05T17:00:00Z",
       "startsByServer": { "asia": "2026-11-05T04:00:00Z" },
-      "endsAt": null,
+      "endsAt": "2026-11-24T22:00:00Z",
       "notes": [
         {
           "es": "Sigue a Fantasía dentro de la 1.6, desde el 5 de noviembre de 2026 (hora del servidor). Las etapas de los ciclos 2 y 3 se completan cuando abran.",
@@ -440,6 +444,364 @@
           "startsAt": null,
           "endsAt": null,
           "stages": []
+        }
+      ]
+    },
+    {
+      "id": "scattering",
+      "name": { "es": "Dispersión", "en": "Scattering", "zh": "游离赛季", "zh-TW": "游離賽季", "ja": "遊離シーズン", "ko": "유영의 회상" },
+      "dateText": {
+        "es": "Tras la actualización 1.7 – 16 dic, 11:59 (hora del servidor)",
+        "en": "After the 1.7 update – Dec 16, 11:59 (server time)",
+        "zh": "1.7版本更新后 ~ 12/16 11:59（服务器时间）",
+        "zh-TW": "1.7版本更新後 ~ 12/16 11:59（伺服器時間）",
+        "ja": "バージョン1.7開始後～12/16 11:59（サーバー時間）",
+        "ko": "1.7 버전 업데이트 후 ~ 12/16 11:59(서버 시간)"
+      },
+      "startsAt": "2026-11-24T23:00:00Z",
+      "endsAt": "2026-12-16T17:00:00Z",
+      "endsByServer": { "asia": "2026-12-16T04:00:00Z" },
+      "notes": [
+        {
+          "es": "Según la infografía oficial del 24 de noviembre de 2026. De las tres etapas nuevas (Dominance File: Howler, Siege File: Heavy Armor y Pierced File: Ballista) van la mecánica y el enemigo que muestra; su HP se completa cuando el juego las abra.",
+          "en": "From the official infographic of Nov. 24, 2026. For the three new stages (Dominance File: Howler, Siege File: Heavy Armor and Pierced File: Ballista) it carries the mechanics and the enemy shown; their HP gets filled in once the game opens them."
+        }
+      ],
+      "cycles": [
+        {
+          "n": 1,
+          "dateText": {
+            "es": "Hasta el 2 dic, 03:59 (hora del servidor)",
+            "en": "Until Dec 2, 03:59 (server time)",
+            "zh": "~ 12/02 03:59（服务器时间）",
+            "zh-TW": "~ 12/02 03:59（伺服器時間）",
+            "ja": "～12/02 03:59（サーバー時間）",
+            "ko": "~ 12/02 03:59(서버 시간)"
+          },
+          "startsAt": "2026-11-24T23:00:00Z",
+          "endsAt": "2026-12-02T09:00:00Z",
+          "endsByServer": { "asia": "2026-12-01T20:00:00Z" },
+          "stages": [
+            {
+              "id": "dominance-file-howler",
+              "name": "Dominance File: Howler",
+              "enemies": ["eny-0114-jzmking"],
+              "effects": [
+                {
+                  "es": "La Regeneración de PH es más lenta.",
+                  "en": "SP regeneration is slower.",
+                  "zh": "技力自然恢复速度降低。",
+                  "zh-TW": "技力自然回復速度降低。",
+                  "ja": "SPの自然回復速度がダウンする。",
+                  "ko": "스킬 게이지의 자연 회복 속도가 감소합니다."
+                }
+              ]
+            },
+            {
+              "id": "siege-file-heavy-armor",
+              "name": "Siege File: Heavy Armor",
+              "enemies": ["eny-0075-lbroshan"],
+              "effects": [
+                {
+                  "es": "Por cada acumulación de Imposición de artes gastada o absorbida, aplica 1 acumulación de Vulnerabilidad al enemigo y recupera algunos PH.",
+                  "en": "For every 1 stack of Arts Infliction consumed or absorbed, apply 1 stack of Vulnerability on the enemy and recover some SP.",
+                  "zh": "每消耗或吸收1层法术附着，对敌人施加1层破防，并恢复一定技力。",
+                  "zh-TW": "每消耗或吸收1層法術附著，對敵人施加1層破防，並回復一定技力。",
+                  "ja": "アーツ付着を1段階消費または吸収するたびに、敵にクラッシュを1段階付与し、SPを一定量回復する。",
+                  "ko": "아츠 부착을 1스택 소모하거나 흡수할 때마다, 적에게 방어 불능을 1스택 부여하고 일정량의 스킬 게이지를 회복합니다."
+                },
+                {
+                  "es": "Por cada acumulación de Vulnerabilidad gastada o absorbida, aplica 1 acumulación de Imposición de artes (del elemento que se haya aplicado de primero en esta batalla) al enemigo y recupera algunos PH.",
+                  "en": "For every 1 stack of Vulnerability consumed or absorbed, apply 1 stack of Arts Infliction (of the element first applied in this battle) on the enemy and recover some SP.",
+                  "zh": "每消耗或吸收1层破防，对敌人施加1层本场战斗最先施加的法术附着，并恢复一定技力。",
+                  "zh-TW": "每消耗或吸收1層破防，對敵人施加1層本場戰鬥最先施加的法術附著，並回復一定技力。",
+                  "ja": "クラッシュを1段階消費または吸収するたびに、敵にこの戦闘で最初に付与したアーツ付着を1段階付与し、SPを一定量回復する。",
+                  "ko": "방어 불능을 1스택 소모하거나 흡수할 때마다, 해당 전투에서 적에게 가장 먼저 부여된 아츠 부착을 1스택 부여하고 일정량의 스킬 게이지를 회복합니다."
+                }
+              ]
+            },
+            {
+              "id": "old-tales-of-the-wild",
+              "name": "Old Tales of the Wild",
+              "enemies": ["eny-0092-slbomb", "eny-0073-slimerg", "eny-0050-hound", "eny-0096-hsmob2"],
+              "towerId": "indie_battletower002",
+              "hp": {
+                "eny-0092-slbomb": [135135, 277641, 500770],
+                "eny-0073-slimerg": [114345, 234927, 423730],
+                "eny-0050-hound": [114345, 234927, 423730],
+                "eny-0096-hsmob2": [218299, 448493, 808937]
+              },
+              "effects": [
+                {
+                  "en": "Defeating enemies recovers 15 SP.",
+                  "es": "Al derrotar enemigos se recuperan 15 PH.",
+                  "zh": "击败敌人时，恢复15点技力。",
+                  "zh-TW": "擊敗敵人時，回復15點技力。",
+                  "ja": "敵を倒すと、SPを15回復する。",
+                  "ko": "적 처치 시 스킬 게이지 15 포인트를 회복합니다."
+                },
+                {
+                  "en": "Battle Skill DMG Dealt +60%.",
+                  "es": "DAÑ de habilidad de batalla infligido +60%.",
+                  "zh": "战技伤害+60%。",
+                  "zh-TW": "戰技傷害+60%。",
+                  "ja": "戦技ダメージ+60%",
+                  "ko": "배틀 스킬 피해 +60%."
+                },
+                {
+                  "en": "Enemies have better stats.",
+                  "es": "Los enemigos tienen mejores estadísticas.",
+                  "zh": "敌人属性提升。",
+                  "zh-TW": "敵人屬性提升。",
+                  "ja": "敵のステータスが強化される。",
+                  "ko": "적의 속성이 증가합니다."
+                },
+                {
+                  "en": "Only HP Treatment tacticals and consumables can be used.",
+                  "es": "Solo se pueden usar items tácticos y consumibles para Tratamiento de PV.",
+                  "zh": "禁止使用回复生命值以外的战术物品和消耗品。",
+                  "zh-TW": "禁止使用回復生命值以外的戰術物品和消耗品。",
+                  "ja": "HP回復以外の戦闘補助アイテムおよび消耗品の使用が禁止される。",
+                  "ko": "생명력을 회복할 수 있는 전술 아이템 외, 다른 전술 아이템과 소모품을 사용할 수 없습니다."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "dateText": {
+            "es": "2 dic, 04:00 – 9 dic, 03:59 (hora del servidor)",
+            "en": "Dec 2, 04:00 – Dec 9, 03:59 (server time)",
+            "zh": "12/02 04:00 ~ 12/09 03:59（服务器时间）",
+            "zh-TW": "12/02 04:00 ~ 12/09 03:59（伺服器時間）",
+            "ja": "12/02 04:00～12/09 03:59（サーバー時間）",
+            "ko": "12/02 04:00 ~ 12/09 03:59(서버 시간)"
+          },
+          "startsAt": "2026-12-02T09:00:00Z",
+          "startsByServer": { "asia": "2026-12-01T20:00:00Z" },
+          "endsAt": "2026-12-09T09:00:00Z",
+          "endsByServer": { "asia": "2026-12-08T20:00:00Z" },
+          "stages": [
+            {
+              "id": "pierced-file-ballista",
+              "name": "Pierced File: Ballista",
+              "enemies": ["eny-0048-hvybow"],
+              "effects": [
+                {
+                  "es": "Se aumenta el DAÑ de habilidad de combo de los operadores.",
+                  "en": "Operators' Combo Skill DMG Dealt is increased.",
+                  "zh": "干员的连携技伤害提升。",
+                  "zh-TW": "幹員的連攜技傷害提升。",
+                  "ja": "オペレーターの連携技ダメージがアップする。",
+                  "ko": "오퍼레이터의 연계 스킬 피해가 증가합니다."
+                },
+                {
+                  "es": "Al usar una habilidad de combo, todo el equipo recibe Reducción de tiempo de reutilización de habilidad de combo (hasta llegar a un límite de acumulaciones) y recupera algunos PH.",
+                  "en": "When casting a combo skill, the entire team gains Combo Skill Cooldown Reduction (up to a stack limit) and recovers some SP.",
+                  "zh": "施放连携技时，全队获得连携技冷却缩减（最多叠加一定次数），并恢复一定技力。",
+                  "zh-TW": "施放連攜技時，全隊獲得連攜技冷卻縮減（最多疊加一定次數），並回復一定技力。",
+                  "ja": "連携技を発動するとき、チーム全員は連携技CD短縮の効果（一定回数まで重ね掛け可能）を獲得し、SPを一定量回復する。",
+                  "ko": "연계 스킬 사용 시, 팀 전체의 연계 스킬 쿨타임이 감소하고(일정 횟수까지 중첩 가능), 일정량의 스킬 게이지를 회복합니다."
+                }
+              ]
+            },
+            {
+              "id": "buried-frontlines",
+              "name": "Buried Frontlines",
+              "enemies": ["eny-0007-mimicw", "eny-0122-kltdbud"],
+              "towerId": "indie_battletower009",
+              "hp": { "eny-0007-mimicw": [115089, 236452, 426481], "eny-0122-kltdbud": [116325, 238995, 431065] },
+              "effects": [
+                {
+                  "en": "Enemies have better stats.",
+                  "es": "Los enemigos tienen mejores estadísticas.",
+                  "zh": "敌人属性提升。",
+                  "zh-TW": "敵人屬性提升。",
+                  "ja": "敵のステータスが強化される。",
+                  "ko": "적의 속성이 증가합니다."
+                },
+                {
+                  "en": "Only HP Treatment tacticals and consumables can be used.",
+                  "es": "Solo se pueden usar items tácticos y consumibles para Tratamiento de PV.",
+                  "zh": "禁止使用回复生命值以外的战术物品和消耗品。",
+                  "zh-TW": "禁止使用回復生命值以外的戰術物品和消耗品。",
+                  "ja": "HP回復以外の戦闘補助アイテムおよび消耗品の使用が禁止される。",
+                  "ko": "생명력을 회복할 수 있는 전술 아이템 외, 다른 전술 아이템과 소모품을 사용할 수 없습니다."
+                }
+              ]
+            },
+            {
+              "id": "blightshade-file-thunderclap",
+              "name": "Blightshade File: Thunderclap",
+              "enemies": ["eny-0120-klbear"],
+              "towerId": "indie_battletower015",
+              "hp": { "eny-0120-klbear": [2069130, 4251037, 7667488] },
+              "effects": [
+                {
+                  "en": "The Blitzcrash Blightshade will not enter its Enraged state.",
+                  "es": "La Sombra contaminada de Blitzcrash no entrará en su estado Iracundo.",
+                  "zh": "蚀影噪雷不会进入愤怒状态。",
+                  "zh-TW": "蝕影噪雷不會進入憤怒狀態。",
+                  "ja": "噪雷の蝕影は怒り状態に入らない。",
+                  "ko": "그림자에 물든 진뢰가 분노 상태에 진입하지 않습니다."
+                },
+                {
+                  "en": "Enemies have better stats.",
+                  "es": "Los enemigos tienen mejores estadísticas.",
+                  "zh": "敌人属性提升。",
+                  "zh-TW": "敵人屬性提升。",
+                  "ja": "敵のステータスが強化される。",
+                  "ko": "적의 속성이 증가합니다."
+                },
+                {
+                  "en": "Only HP Treatment tacticals and consumables can be used.",
+                  "es": "Solo se pueden usar ítems tácticos y consumibles para Tratamiento de PV.",
+                  "zh": "禁止使用回复生命值以外的战术物品和消耗品。",
+                  "zh-TW": "禁止使用回復生命值以外的戰術物品和消耗品。",
+                  "ja": "HP回復以外の戦闘補助アイテムおよび消耗品の使用が禁止される。",
+                  "ko": "생명력을 회복할 수 있는 전술 아이템 외, 다른 전술 아이템과 소모품을 사용할 수 없습니다."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "dateText": {
+            "es": "9 dic, 04:00 – 16 dic, 11:59 (hora del servidor)",
+            "en": "Dec 9, 04:00 – Dec 16, 11:59 (server time)",
+            "zh": "12/09 04:00 ~ 12/16 11:59（服务器时间）",
+            "zh-TW": "12/09 04:00 ~ 12/16 11:59（伺服器時間）",
+            "ja": "12/09 04:00～12/16 11:59（サーバー時間）",
+            "ko": "12/09 04:00 ~ 12/16 11:59(서버 시간)"
+          },
+          "startsAt": "2026-12-09T09:00:00Z",
+          "startsByServer": { "asia": "2026-12-08T20:00:00Z" },
+          "endsAt": "2026-12-16T17:00:00Z",
+          "endsByServer": { "asia": "2026-12-16T04:00:00Z" },
+          "stages": [
+            {
+              "id": "powerful-decapitation",
+              "name": "Powerful Decapitation",
+              "enemies": ["eny-0018-lbtough", "eny-0054-hsmino"],
+              "towerId": "indie_battletower013",
+              "hp": { "eny-0018-lbtough": [415806, 854276, 1540835], "eny-0054-hsmino": [495008, 1016995, 1834328] },
+              "effects": [
+                {
+                  "en": "Enemies only use charged skills, and are immune to battle skill DMG when charging up their skills. The enemy's charged skills cannot be interrupted by battle skills.",
+                  "es": "Los enemigos solo usan habilidades cargadas y son inmunes al DAÑ de la habilidad de batalla cuando están cargando sus habilidades. Las habilidades cargadas del enemigo no se pueden interrumpir con las habilidades de batalla.",
+                  "zh": "敌人只会施放蓄力技能，且处于蓄力状态时免疫战技伤害。蓄力状态无法用战技打断。",
+                  "zh-TW": "敵人只會施放蓄力技能，且處於蓄力狀態時免疫戰技傷害。蓄力狀態無法用戰技打斷。",
+                  "ja": "敵がチャージスキルのみを発動し、チャージ状態中は戦技によるダメージを受けない。また、チャージ状態は戦技で中断できない。",
+                  "ko": "적은 차지 스킬만 사용하며, 차지 상태에서는 배틀 스킬 피해에 면역됩니다. 차지 상태는 배틀 스킬로 끊을 수 없습니다."
+                },
+                {
+                  "en": "Enemies have better stats.",
+                  "es": "Los enemigos tienen mejores estadísticas.",
+                  "zh": "敌人属性提升。",
+                  "zh-TW": "敵人屬性提升。",
+                  "ja": "敵のステータスが強化される。",
+                  "ko": "적의 속성이 증가합니다."
+                },
+                {
+                  "en": "Only HP Treatment tacticals and consumables can be used.",
+                  "es": "Solo se pueden usar items tácticos y consumibles para Tratamiento de PV.",
+                  "zh": "禁止使用回复生命值以外的战术物品和消耗品。",
+                  "zh-TW": "禁止使用回復生命值以外的戰術物品和消耗品。",
+                  "ja": "HP回復以外の戦闘補助アイテムおよび消耗品の使用が禁止される。",
+                  "ko": "생명력을 회복할 수 있는 전술 아이템 외, 다른 전술 아이템과 소모품을 사용할 수 없습니다."
+                }
+              ]
+            },
+            {
+              "id": "pulverizing-ammunition",
+              "name": "Pulverizing Ammunition",
+              "enemies": ["eny-0093-hshog", "eny-0055-hscrane"],
+              "towerId": "indie_battletower005",
+              "hp": { "eny-0093-hshog": [285124, 585788, 1056572], "eny-0055-hscrane": [228693, 469851, 847459] },
+              "effects": [
+                {
+                  "en": "Enemies have better stats.",
+                  "es": "Los enemigos tienen mejores estadísticas.",
+                  "zh": "敌人属性提升。",
+                  "zh-TW": "敵人屬性提升。",
+                  "ja": "敵のステータスが強化される。",
+                  "ko": "적의 속성이 증가합니다."
+                },
+                {
+                  "en": "Only HP Treatment tacticals and consumables can be used.",
+                  "es": "Solo se pueden usar items tácticos y consumibles para Tratamiento de PV.",
+                  "zh": "禁止使用回复生命值以外的战术物品和消耗品。",
+                  "zh-TW": "禁止使用回復生命值以外的戰術物品和消耗品。",
+                  "ja": "HP回復以外の戦闘補助アイテムおよび消耗品の使用が禁止される。",
+                  "ko": "생명력을 회복할 수 있는 전술 아이템 외, 다른 전술 아이템과 소모품을 사용할 수 없습니다."
+                }
+              ]
+            },
+            {
+              "id": "scars-of-landbreaking",
+              "name": "Scars of Landbreaking",
+              "enemies": ["eny-0074-lbshield", "eny-0023-aghornb", "eny-0047-firebat", "eny-0018-lbtough"],
+              "towerId": "indie_battletower006",
+              "hp": {
+                "eny-0074-lbshield": [310365, 637659, 1150127],
+                "eny-0023-aghornb": [451446, 927498, 1672906],
+                "eny-0047-firebat": [451446, 927498, 1672906],
+                "eny-0018-lbtough": [451447, 927499, 1672907]
+              },
+              "effects": [
+                {
+                  "en": "Defeating the Bonekrusher Vanguard grants Stagger Efficiency Bonus +50%.",
+                  "es": "Derrotar a la Vanguardia Rompehuesos otorga Bonificación de eficiencia de tambaleo +50%.",
+                  "zh": "击败碾骨先锋后，失衡效率加成+50%。",
+                  "zh-TW": "擊敗碾骨先鋒後，失衡效率加成+50%。",
+                  "ja": "ボーンクラッシャーの先鋒を倒すと、ブレイク効率UP+50%",
+                  "ko": "본 크러셔 돌격수 처치 후, 불균형 효율 보너스 +50%."
+                },
+                {
+                  "en": "Defeating the Bonekrusher Arsonist grants Arts Intensity +100.",
+                  "es": "Derrotar al Rompehuesos Pirómano otorga Intensidad de artes +100.",
+                  "zh": "击败碾骨清道夫后，源石技艺强度+100。",
+                  "zh-TW": "擊敗碾骨清道夫後，源石技藝強度+100。",
+                  "ja": "ボーンクラッシャーの始末屋を倒すと、アーツ強度+100",
+                  "ko": "본 크러셔 집행자 처치 후, 오리지늄 아츠 강도 +100."
+                },
+                {
+                  "en": "Defeating the Bonekrusher Executioner grants Skill DMG Dealt +100%.",
+                  "es": "Derrotar al Verdugo Rompehuesos otorga DAÑ de habilidad infligido +100%.",
+                  "zh": "击败碾骨行刑人后，技能伤害+100%。",
+                  "zh-TW": "擊敗碾骨行刑人後，技能傷害+100%。",
+                  "ja": "ボーンクラッシャーの処刑人を倒すと、スキルダメージ+100%",
+                  "ko": "본 크러셔 처형자 처치 후, 스킬 피해 +100%."
+                },
+                {
+                  "en": "Defeating the Heavy Ram grants Basic Attack DMG Dealt +100%.",
+                  "es": "Derrotar al Carnero grande otorga DAÑ de ataque básico infligido +100%.",
+                  "zh": "击败刚角天使后，普通攻击伤害+100%。",
+                  "zh-TW": "擊敗剛角天使後，普通攻擊傷害+100%。",
+                  "ja": "剛角アンゲロスを倒すと、通常攻撃ダメージ+100%",
+                  "ko": "쌍뿔아겔로스 처치 후, 일반 공격 피해 +100%."
+                },
+                {
+                  "en": "Enemies have better stats.",
+                  "es": "Los enemigos tienen mejores estadísticas.",
+                  "zh": "敌人属性提升。",
+                  "zh-TW": "敵人屬性提升。",
+                  "ja": "敵のステータスが強化される。",
+                  "ko": "적의 속성이 증가합니다."
+                },
+                {
+                  "en": "Only HP Treatment tacticals and consumables can be used.",
+                  "es": "Solo se pueden usar ítems tácticos y consumibles para Tratamiento de los PV.",
+                  "zh": "禁止使用回复生命值以外的战术物品和消耗品。",
+                  "zh-TW": "禁止使用回復生命值以外的戰術物品和消耗品。",
+                  "ja": "HP回復以外の戦闘補助アイテムおよび消耗品の使用が禁止される。",
+                  "ko": "생명력을 회복할 수 있는 전술 아이템 외, 다른 전술 아이템과 소모품을 사용할 수 없습니다."
+                }
+              ]
+            }
+          ]
         }
       ]
     },
