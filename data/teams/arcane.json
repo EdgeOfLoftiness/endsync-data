@@ -8378,6 +8378,448 @@
           }
         ]
       }
+    },
+    {
+      "name": {
+        "es": "Maygi - INT con Kay · Xaihi · Tangtang",
+        "en": "Maygi - INT with Kay · Xaihi · Tangtang"
+      },
+      "subtitle": {
+        "es": "INT · Kay · Xaihi · Tangtang",
+        "en": "INT · Kay · Xaihi · Tangtang"
+      },
+      "blurb": {
+        "es": "El último equipo de la guía de Kay: Arcane en forma INT con Xaihi y Tangtang. Las dos activaciones de la Battle Skill de Xaihi se reparten entre Arcane y Tangtang mientras suben las acumulaciones, y el final junta los Ultimates de Xaihi, Arcane y Tangtang. Según la guía, su daño deja algo que desear frente a otras opciones de soporte de Arcane INT, pero sigue siendo bastante potente.",
+        "en": "The last team of the Kay guide: INT-form Arcane with Xaihi and Tangtang. The two procs of Xaihi's Battle Skill are shared between Arcane and Tangtang while the stacks go up, and the ending brings together Xaihi's, Arcane's and Tangtang's Ultimates. Per the guide, its damage leaves a bit to be desired next to some of INT Arcane's other support options, but it is still decently powerful."
+      },
+      "guideVideoId": "arc1",
+      "simple": {
+        "whatItDoes": {
+          "es": "Arcane en forma INT es la carry y Tangtang, la segunda fuente de daño. Cada Battle Skill de Xaihi da dos activaciones que se reparten entre las dos. Con 2 acumulaciones sale el Combo de Arcane y con 3 el de Tangtang. Al final se deja listo el Combo de Arcane y se encadenan los Ultimates.",
+          "en": "INT-form Arcane is the carry and Tangtang is the second source of damage. Each Xaihi Battle Skill gives two procs that are shared between them. At 2 stacks Arcane's Combo procs, and at 3 Tangtang's does. At the end you prep Arcane's Combo and chain the Ultimates."
+        },
+        "steps": [
+          {
+            "who": "xaihi",
+            "do": {
+              "es": "Battle Skill de Xaihi, una activación con Arcane y otra con Tangtang, y Combos de Xaihi y de Tangtang.",
+              "en": "Xaihi's Battle Skill, one proc on Arcane and one on Tangtang, and Xaihi's and Tangtang's Combos."
+            }
+          },
+          {
+            "who": "arcane",
+            "do": {
+              "es": "Repite hasta 2 acumulaciones: Combos de Xaihi, Arcane y Kay.",
+              "en": "Repeat up to 2 stacks: Xaihi's, Arcane's and Kay's Combos."
+            }
+          },
+          {
+            "who": "tangtang",
+            "do": {
+              "es": "Repite hasta 3 acumulaciones: Combos de Xaihi, Tangtang y Kay.",
+              "en": "Repeat up to 3 stacks: Xaihi's, Tangtang's and Kay's Combos."
+            }
+          },
+          {
+            "who": "tangtang",
+            "do": {
+              "es": "Battle Skill de Xaihi y, antes de acabar el segundo combo de básicos, Battle Skill de Tangtang, Combo y Battle Skill de Arcane y Combo de Kay. Termina los básicos y Combo de Xaihi.",
+              "en": "Xaihi's Battle Skill and, before finishing the second basic attack combo, Tangtang's Battle Skill, Arcane's Combo and Battle Skill, and Kay's Combo. Finish the basics and use Xaihi's Combo."
+            }
+          },
+          {
+            "who": "xaihi",
+            "do": {
+              "es": "Última Battle Skill de Xaihi hasta 2 acumulaciones y Combos de Xaihi y de Kay.",
+              "en": "Last Xaihi Battle Skill up to 2 stacks, and Xaihi's and Kay's Combos."
+            }
+          },
+          {
+            "who": "arcane",
+            "do": {
+              "es": "Burst: Ultimate de Xaihi, Combo y Ultimate de Arcane, Ultimate de Tangtang, Dive Attack, Battle Skill y Finisher de Arcane, y segunda parte de su Ultimate.",
+              "en": "Burst: Xaihi's Ultimate, Arcane's Combo and Ultimate, Tangtang's Ultimate, Arcane's Dive Attack, Battle Skill and Finisher, and the second part of her Ultimate."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "arcane",
+            "line": {
+              "es": "Type 42: Solemn Phalanx y Hot Work (Exo-Rig, Hands PPE e Insulation Slab) con LYNX Slab.",
+              "en": "Type 42: Solemn Phalanx and Hot Work (Exo-Rig, Hands PPE and Insulation Slab) with LYNX Slab."
+            }
+          },
+          {
+            "id": "tangtang",
+            "line": {
+              "es": "Brigand's Calling y Bonekrusha (Heavy Armor, Wristband T1 y Mask T2) con LYNX Slab, por el Ultimate Gain que le hace falta.",
+              "en": "Brigand's Calling and Bonekrusha (Heavy Armor, Wristband T1 and Mask T2) with LYNX Slab, for the Ultimate Gain she needs."
+            }
+          },
+          {
+            "id": "kay",
+            "line": {
+              "es": "Sweet Deal y Frontiers (Armor T1 y dos Compressed Slab) con Redeemer Hands.",
+              "en": "Sweet Deal and Frontiers (Armor T1 and two Compressed Slabs) with Redeemer Hands."
+            }
+          },
+          {
+            "id": "xaihi",
+            "line": {
+              "es": "Detonation Unit y Eternal Xiranite (Light Armor T1, Gloves T1 y Bracing Slab) con Frontiers Extra O2 Tube T1.",
+              "en": "Detonation Unit and Eternal Xiranite (Light Armor T1, Gloves T1 and Bracing Slab) with Frontiers Extra O2 Tube T1."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "Arcane lleva una build INT bastante típica y Tangtang necesita algo de Ultimate Gain, así que va con Bonekrusha Heavy Armor. La guía pide evitar Stanza of Memorials en Xaihi, porque el daño de Tangtang no es despreciable y conviene que reciba buffs. La rotación reparte las dos activaciones de la Battle Skill de Xaihi entre Arcane y Tangtang. La guía cierra diciendo que el daño total deja algo que desear frente a otras opciones de soporte de Arcane INT, pero que sigue siendo bastante potente.",
+        "en": "Arcane runs a fairly typical INT build and Tangtang needs a little Ultimate Gain, so she goes on Bonekrusha Heavy Armor. The guide asks you to avoid Stanza of Memorials on Xaihi, because Tangtang's damage is not negligible and you want her to be buffed. The rotation shares the two procs of Xaihi's Battle Skill between Arcane and Tangtang. The guide closes by saying that the overall damage leaves a bit to be desired next to some of INT Arcane's other support options, but that it is still decently powerful."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "La guía no la puntúa",
+          "en": "Not rated in the guide"
+        },
+        "content": {
+          "es": "Jefe / Single-target",
+          "en": "Boss / Single-target"
+        },
+        "tags": [
+          {
+            "es": "Forma INT",
+            "en": "INT form"
+          },
+          {
+            "es": "Cryo",
+            "en": "Cryo"
+          },
+          {
+            "es": "Amp compartido",
+            "en": "Shared Amp"
+          },
+          {
+            "es": "Burst de Ultimates",
+            "en": "Ultimate burst"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "Tangtang hace un daño que no es despreciable como segunda fuente.",
+          "en": "Tangtang deals non-negligible damage as the second source."
+        },
+        {
+          "es": "El equipo de Arcane es bastante típico de la forma INT.",
+          "en": "Arcane's gear is fairly typical for the INT form."
+        }
+      ],
+      "cons": [
+        {
+          "es": "El daño total deja algo que desear frente a otras opciones de soporte de Arcane INT, según la guía.",
+          "en": "The overall damage leaves a bit to be desired next to some of INT Arcane's other support options, per the guide."
+        },
+        {
+          "es": "Hay que repartir las activaciones de Xaihi entre dos operadoras y cortar un combo de básicos a tiempo.",
+          "en": "You have to share Xaihi's procs between two operators and cut a basic attack combo at the right time."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "Las dos activaciones de Xaihi",
+            "en": "Xaihi's two procs"
+          },
+          "body": {
+            "es": "Cada Battle Skill de Xaihi da dos activaciones, y la guía las reparte entre Arcane y Tangtang en lugar de darlas a una sola. Después de las dos van los Combos de la ronda.",
+            "en": "Each Xaihi Battle Skill gives two procs, and the guide shares them between Arcane and Tangtang instead of giving both to one. After both come that round's Combos."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Qué sale con cada acumulación",
+            "en": "What procs at each stack count"
+          },
+          "body": {
+            "es": "La primera ronda da los Combos de Xaihi y de Tangtang. Con 2 acumulaciones salen los de Arcane y Kay, y con 3, otra vez el de Tangtang. Antes del burst se vuelve a 2 para que el Combo de Arcane esté listo.",
+            "en": "The first round gives Xaihi's and Tangtang's Combos. At 2 stacks Arcane's and Kay's proc, and at 3, Tangtang's again. Before the burst you go back to 2 so that Arcane's Combo is ready."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "El Combo de Kay",
+            "en": "Kay's Combo"
+          },
+          "body": {
+            "es": "El Combo de Kay sale al aplicar Nature Infliction o al dispararse cualquier Arts Burst, siempre que le quede al menos una Weapon, y recupera SP para el equipo. Su Ultimate no se usa.",
+            "en": "Kay's Combo triggers when Nature Infliction is applied or any Arts Burst goes off, as long as she has at least one Weapon left, and it recovers SP for the team. Her Ultimate is not used."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Subir acumulaciones",
+            "en": "Building stacks"
+          },
+          "action": {
+            "es": "[Battle Skill de Xaihi → dos combos de básicos] ×3, con los Combos de Xaihi y Tangtang; de Xaihi, Arcane y Kay; y de Xaihi, Tangtang y Kay.",
+            "en": "[Xaihi's Battle Skill → two basic attack combos] ×3, with Xaihi's and Tangtang's Combos; Xaihi's, Arcane's and Kay's; and Xaihi's, Tangtang's and Kay's."
+          },
+          "steps": [
+            {
+              "who": "xaihi",
+              "do": {
+                "es": "Battle Skill de Xaihi. Reparte las dos activaciones entre Arcane y Tangtang y usa los Combos de Xaihi y de Tangtang.",
+                "en": "Xaihi's Battle Skill. Share the two procs between Arcane and Tangtang and use Xaihi's and Tangtang's Combos."
+              },
+              "key": true
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Repite hasta 2 acumulaciones: salen los Combos de Xaihi, de Arcane y de Kay.",
+                "en": "Repeat, getting to 2 stacks: Xaihi's, Arcane's and Kay's Combos proc."
+              }
+            },
+            {
+              "who": "tangtang",
+              "do": {
+                "es": "No pares ahí: repite hasta 3 acumulaciones y salen los Combos de Xaihi, de Tangtang y de Kay.",
+                "en": "Don't stop there: repeat, getting to 3 stacks, and Xaihi's, Tangtang's and Kay's Combos proc."
+              }
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Battle Skills de Tangtang y de Arcane",
+            "en": "Tangtang's and Arcane's Battle Skills"
+          },
+          "action": {
+            "es": "Battle Skill de Xaihi → combo de básicos → Battle Skill de Tangtang → Combo de Arcane → Battle Skill de Arcane → Combo de Kay → combo de básicos → Combo de Xaihi.",
+            "en": "Xaihi's Battle Skill → basic attack combo → Tangtang's Battle Skill → Arcane's Combo → Arcane's Battle Skill → Kay's Combo → basic attack combo → Xaihi's Combo."
+          },
+          "steps": [
+            {
+              "who": "xaihi",
+              "do": {
+                "es": "Battle Skill de Xaihi otra vez.",
+                "en": "Xaihi's Battle Skill again."
+              }
+            },
+            {
+              "who": "tangtang",
+              "do": {
+                "es": "Antes de terminar el segundo combo de básicos, Battle Skill de Tangtang, junto con el Combo y la Battle Skill de Arcane y el Combo de Kay.",
+                "en": "Before you finish the second basic attack combo, use Tangtang's Battle Skill, along with Arcane's Combo and Battle Skill, as well as Kay's Combo."
+              },
+              "key": true
+            },
+            {
+              "who": "xaihi",
+              "do": {
+                "es": "Termina el segundo combo de básicos y usa el Combo de Xaihi.",
+                "en": "Finish the second basic attack combo and use Xaihi's Combo."
+              }
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Preparar el burst",
+            "en": "Prepping the burst"
+          },
+          "action": {
+            "es": "Última Battle Skill de Xaihi → dos combos de básicos → Combos de Xaihi y Kay.",
+            "en": "Last Xaihi Battle Skill → two basic attack combos → Xaihi's and Kay's Combos."
+          },
+          "steps": [
+            {
+              "who": "xaihi",
+              "do": {
+                "es": "Battle Skill de Xaihi por última vez: hacen falta 2 acumulaciones para que el Combo de Arcane vuelva a salir en el burst. Combos de Xaihi y de Kay.",
+                "en": "Xaihi's Battle Skill one last time: you need to get to 2 stacks to proc Arcane's Combo again for the burst. Xaihi's and Kay's Combos."
+              },
+              "key": true
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Burst",
+            "en": "Burst"
+          },
+          "action": {
+            "es": "Ultimate de Xaihi → Combo de Arcane → Ultimate de Arcane → Combos de Tangtang y Kay → Ultimate de Tangtang → Dive Attack → Battle Skill de Arcane → Finisher → Battle Skill de Kay → Combos de Kay y Arcane → combo de básicos → Ultimate de Arcane (parte 2) → Battle Skill de Arcane.",
+            "en": "Xaihi's Ultimate → Arcane's Combo → Arcane's Ultimate → Tangtang's and Kay's Combos → Tangtang's Ultimate → Dive Attack → Arcane's Battle Skill → Finisher → Kay's Battle Skill → Kay's and Arcane's Combos → basic attack combo → Arcane's Ultimate (part 2) → Arcane's Battle Skill."
+          },
+          "steps": [
+            {
+              "who": "xaihi",
+              "do": {
+                "es": "En cuanto entre el Combo de Xaihi, su Ultimate.",
+                "en": "After landing Xaihi's Combo, her Ultimate."
+              }
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Combo y Ultimate de Arcane.",
+                "en": "Arcane's Combo and Ultimate."
+              }
+            },
+            {
+              "who": "tangtang",
+              "do": {
+                "es": "Combos de Tangtang y de Kay, y Ultimate de Tangtang.",
+                "en": "Tangtang's and Kay's Combos, and Tangtang's Ultimate."
+              }
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Dive Attack con Arcane, su Battle Skill y el Finisher, junto con la Battle Skill de Kay.",
+                "en": "Dive Attack on Arcane, her Battle Skill and the Finisher, along with Kay's Battle Skill."
+              },
+              "key": true
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Combos de Kay y de Arcane, un combo de básicos, la parte 2 del Ultimate de Arcane y otra Battle Skill.",
+                "en": "Kay's and Arcane's Combos, a basic attack combo, part 2 of Arcane's Ultimate and another Battle Skill."
+              }
+            }
+          ],
+          "tip": {
+            "es": "Con algo más de paciencia puedes usar también los Combos de Tangtang y de Kay y cancelar su pausa con el Ultimate de Arcane. En la toma de la guía salen después.",
+            "en": "If you're a little more patient, you can also hit Tangtang's and Kay's Combos and cancel their timestop with Arcane's Ultimate. In the guide's footage they come after it."
+          }
+        }
+      ],
+      "rotationVariants": [],
+      "skillPriority": [],
+      "pitfalls": [
+        {
+          "es": "Poner Stanza of Memorials en Xaihi: el daño de Tangtang no es despreciable y conviene que reciba buffs.",
+          "en": "Putting Stanza of Memorials on Xaihi: Tangtang's damage is not negligible and you want her to be buffed."
+        },
+        {
+          "es": "Dar las dos activaciones de Xaihi a la misma operadora: la guía las reparte entre Arcane y Tangtang.",
+          "en": "Giving both Xaihi procs to the same operator: the guide shares them between Arcane and Tangtang."
+        },
+        {
+          "es": "Entrar al burst sin las 2 acumulaciones: sin ellas no sale el Combo de Arcane.",
+          "en": "Entering the burst without the 2 stacks: without them Arcane's Combo doesn't proc."
+        }
+      ],
+      "vsOtherComps": [],
+      "members": [
+        {
+          "id": "arcane",
+          "role": "Carry",
+          "weaponId": "wpn_funnel_0016",
+          "gearRec": [
+            "hot_work_exo_rig",
+            "hot_work_hands_ppe",
+            "hot_work_insulation_slab",
+            "lynx_slab"
+          ],
+          "weaponNote": {
+            "es": "Type 42: Solemn Phalanx, la que lleva en el video.",
+            "en": "Type 42: Solemn Phalanx, the one she carries in the video."
+          },
+          "gearNote": {
+            "es": "Una build INT bastante típica: Hot Work (Exo-Rig, Hands PPE e Insulation Slab) y un LYNX Slab.",
+            "en": "A fairly typical INT build: Hot Work (Exo-Rig, Hands PPE and Insulation Slab) and a LYNX Slab."
+          },
+          "deepNote": {
+            "es": "Forma INT, como DPS. Su Combo sale con 2 acumulaciones y su Ultimate se usa en dos partes durante el burst.",
+            "en": "INT form, as the DPS. Her Combo procs at 2 stacks and her Ultimate is used in two parts during the burst."
+          }
+        },
+        {
+          "id": "xaihi",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0008",
+          "gearRec": [
+            "eternal_xiranite_light_armor_t1",
+            "eternal_xiranite_gloves_t1",
+            "eternal_xiranite_bracing_slab",
+            "frontiers_extra_o2_tube_t1"
+          ],
+          "weaponNote": {
+            "es": "Detonation Unit, la que lleva en el video. La guía pide evitar Stanza of Memorials en este equipo.",
+            "en": "Detonation Unit, the one she carries in the video. The guide asks you to avoid Stanza of Memorials in this team."
+          },
+          "gearNote": {
+            "es": "Eternal Xiranite (Light Armor T1, Gloves T1 y Bracing Slab) y Frontiers Extra O2 Tube T1.",
+            "en": "Eternal Xiranite (Light Armor T1, Gloves T1 and Bracing Slab) and Frontiers Extra O2 Tube T1."
+          },
+          "deepNote": {
+            "es": "Su Battle Skill se usa cinco veces y sus dos activaciones se reparten entre Arcane y Tangtang.",
+            "en": "Her Battle Skill is used five times, and its two procs are shared between Arcane and Tangtang."
+          }
+        },
+        {
+          "id": "kay",
+          "role": "Support",
+          "weaponId": "wpn_lance_0017",
+          "gearRec": [
+            "frontiers_armor_t1",
+            "redeemer_hands",
+            "frontiers_compressed_slab",
+            "frontiers_compressed_slab"
+          ],
+          "weaponNote": {
+            "es": "Sweet Deal, la que lleva en el video.",
+            "en": "Sweet Deal, the one she carries in the video."
+          },
+          "gearNote": {
+            "es": "Tres piezas Frontiers orientadas a daño (Armor T1 y dos Compressed Slab) con Redeemer Hands, porque en este equipo no se usa su Ultimate.",
+            "en": "Three damage-oriented Frontiers pieces (Armor T1 and two Compressed Slabs) with Redeemer Hands, since her Ultimate is not used in this team."
+          },
+          "deepNote": {
+            "es": "Su Combo sale en cada ronda desde la segunda y su Battle Skill entra en el burst, junto al Finisher de Arcane.",
+            "en": "Her Combo comes out in every round from the second one on, and her Battle Skill comes in during the burst, next to Arcane's Finisher."
+          }
+        },
+        {
+          "id": "tangtang",
+          "role": "Sub-DPS",
+          "weaponId": "wpn_pistol_0011",
+          "gearRec": [
+            "bonekrusha_heavy_armor",
+            "bonekrusha_wristband_t1",
+            "bonekrusha_mask_t2",
+            "lynx_slab"
+          ],
+          "weaponNote": {
+            "es": "Brigand's Calling, la que lleva en el video.",
+            "en": "Brigand's Calling, the one she carries in the video."
+          },
+          "gearNote": {
+            "es": "Necesita algo de Ultimate Gain, así que va con Bonekrusha Heavy Armor, además de Wristband T1, Mask T2 y un LYNX Slab.",
+            "en": "She requires a little bit of Ultimate Gain, so she uses Bonekrusha Heavy Armor, along with Wristband T1, Mask T2 and a LYNX Slab."
+          },
+          "deepNote": {
+            "es": "Segunda fuente de daño: recibe una de las dos activaciones de Xaihi, y su Ultimate sigue al de Arcane.",
+            "en": "Second source of damage: she takes one of Xaihi's two procs, and her Ultimate follows Arcane's."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Las piezas salen del panel del video; las armas, de las que llevan en la toma.",
+          "en": "The pieces come from the video's panel; the weapons, from the ones carried in the footage."
+        },
+        "alts": []
+      }
     }
   ]
 }

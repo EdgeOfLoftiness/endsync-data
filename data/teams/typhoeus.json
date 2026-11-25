@@ -2685,6 +2685,404 @@
     },
     {
       "name": {
+        "es": "Maygi - SIN Arcane: Kay · Gilberta · Xaihi",
+        "en": "Maygi - NO Arcane: Kay · Gilberta · Xaihi"
+      },
+      "subtitle": {
+        "es": "Kay · Gilberta · Xaihi",
+        "en": "Kay · Gilberta · Xaihi"
+      },
+      "blurb": {
+        "es": "La alternativa de la guía para quien no tiene Arcane, con una rotación algo más rápida. La mayor diferencia con el equipo principal es que la Battle Skill de Typhoeus no se usa hasta la ventana de burst. El resto del concepto es muy parecido: 4 acumulaciones de Cryo, Kay las convierte en Corrosion, una última Battle Skill de Xaihi, el Ultimate de Gilberta extiende la Corrosion y ahí Typhoeus descarga todo.",
+        "en": "The guide's alternative if you don't have Arcane, with a slightly faster-paced rotation. The biggest difference from the main team is that Typhoeus's Battle Skill is not used at all until the burst window. The rest of the concept is very similar: 4 Cryo stacks, Kay turns them into Corrosion, one final Xaihi Battle Skill, Gilberta's Ultimate extends the Corrosion, and then Typhoeus unloads everything."
+      },
+      "guideVideoId": "ty2",
+      "simple": {
+        "whatItDoes": {
+          "es": "Typhoeus es la carry y guarda su Battle Skill para el final. Mientras tanto el equipo junta 4 acumulaciones de Cryo y Kay, con una build de Arts Intensity, las convierte en Corrosion. Después van una última Battle Skill de Xaihi y el Ultimate de Gilberta, que extiende la Corrosion, y Typhoeus descarga todo el burst que pueda.",
+          "en": "Typhoeus is the carry and saves her Battle Skill for the end. Meanwhile the team builds 4 Cryo stacks and Kay, on an Arts Intensity build, turns them into Corrosion. Then come one final Xaihi Battle Skill and Gilberta's Ultimate, which extends the Corrosion, and Typhoeus unleashes as much burst as possible."
+        },
+        "steps": [
+          {
+            "who": "xaihi",
+            "do": {
+              "es": "Junta 4 acumulaciones de Cryo sin usar la Battle Skill de Typhoeus.",
+              "en": "Build up to 4 Cryo stacks without using Typhoeus's Battle Skill."
+            }
+          },
+          {
+            "who": "kay",
+            "do": {
+              "es": "Usa a Kay para convertirlas en Corrosion.",
+              "en": "Use Kay to turn them into Corrosion."
+            }
+          },
+          {
+            "who": "xaihi",
+            "do": {
+              "es": "Una última Battle Skill de Xaihi.",
+              "en": "One final Xaihi Battle Skill."
+            }
+          },
+          {
+            "who": "gilberta",
+            "do": {
+              "es": "Ultimate de Gilberta: extiende la Corrosion.",
+              "en": "Gilberta's Ultimate: it extends the Corrosion."
+            }
+          },
+          {
+            "who": "typhoeus",
+            "do": {
+              "es": "Ahora sí, Battle Skill de Typhoeus y todo el burst posible.",
+              "en": "Now use Typhoeus's Battle Skill and unleash as much burst as possible."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "typhoeus",
+            "line": {
+              "es": "Umbra of Frigid Eventide (BIS) y tres piezas Deep Rampart (Armor, Gauntlets y Comms) con Bonekrusha Mask, la variante de la guía para rotaciones de burst.",
+              "en": "Umbra of Frigid Eventide (BIS) and three Deep Rampart pieces (Armor, Gauntlets and Comms) with Bonekrusha Mask, the guide's variant for burst-oriented rotations."
+            }
+          },
+          {
+            "id": "kay",
+            "line": {
+              "es": "Sweet Deal, Rift Trekker Heavy Armor y Hot Work (Gloves y dos Power Bank) por la Arts Intensity.",
+              "en": "Sweet Deal, Rift Trekker Heavy Armor and Hot Work (Gloves and two Power Banks) for the Arts Intensity."
+            }
+          },
+          {
+            "id": "gilberta",
+            "line": {
+              "es": "Delivery Guaranteed y tres piezas Swordmancer (Light Armor y dos NAV Beacon) con Eternal Xiranite Wraps.",
+              "en": "Delivery Guaranteed and three Swordmancer pieces (Light Armor and two NAV Beacons) with Eternal Xiranite Wraps."
+            }
+          },
+          {
+            "id": "xaihi",
+            "line": {
+              "es": "Stanza of Memorials y Eternal Xiranite (Light Armor T1, Gloves T1 y Bracing Slab) con Frontiers Extra O2 Tube T1 para maximizar su Intellect.",
+              "en": "Stanza of Memorials and Eternal Xiranite (Light Armor T1, Gloves T1 and Bracing Slab) with Frontiers Extra O2 Tube T1 to maximize her Intellect."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "Es el equipo de Typhoeus y Kay con Gilberta en el lugar de Arcane. La guía lo propone si no tienes a Arcane, como una rotación algo más rápida. Gilberta va con Swordmancer y Kay cambia de papel: con tres piezas Hot Work y Rift Trekker Heavy Armor busca Arts Intensity, porque aquí es ella quien convierte las 4 acumulaciones de Cryo en Corrosion. La regla del equipo es no usar la Battle Skill de Typhoeus hasta la ventana de burst. Antes de abrirla se usa una última Battle Skill de Xaihi y el Ultimate de Gilberta extiende la Corrosion.",
+        "en": "This is the Typhoeus and Kay team with Gilberta in Arcane's place. The guide offers it if you don't have Arcane, as a slightly faster-paced rotation. Gilberta goes on Swordmancer and Kay changes roles: with three Hot Work pieces and Rift Trekker Heavy Armor she goes for Arts Intensity, because here she is the one turning the 4 Cryo stacks into Corrosion. The rule of the team is not using Typhoeus's Battle Skill at all until the burst window. Before opening it you use one final Xaihi Battle Skill, and Gilberta's Ultimate extends the Corrosion."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "La guía no la puntúa",
+          "en": "Not rated in the guide"
+        },
+        "content": {
+          "es": "Jefe / Single-target",
+          "en": "Boss / Single-target"
+        },
+        "tags": [
+          {
+            "es": "Nature",
+            "en": "Nature"
+          },
+          {
+            "es": "Corrosion",
+            "en": "Corrosion"
+          },
+          {
+            "es": "Ventana de burst",
+            "en": "Burst window"
+          },
+          {
+            "es": "SIN Arcane",
+            "en": "NO Arcane"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "No pide a Arcane.",
+          "en": "It doesn't ask for Arcane."
+        },
+        {
+          "es": "Rotación algo más rápida que la del equipo principal.",
+          "en": "A slightly faster-paced rotation than the main team's."
+        },
+        {
+          "es": "El concepto es muy parecido al del equipo principal: 4 acumulaciones de Cryo, Corrosion y burst.",
+          "en": "The concept is very similar to the main team's: 4 Cryo stacks, Corrosion and burst."
+        }
+      ],
+      "cons": [
+        {
+          "es": "Todo el daño de la Battle Skill de Typhoeus se guarda para el final de la rotación.",
+          "en": "All of the damage from Typhoeus's Battle Skill is saved for the end of the rotation."
+        },
+        {
+          "es": "La guía no da una lista de acciones para este equipo: explica el concepto y muestra la rotación en video.",
+          "en": "The guide gives no action list for this team: it explains the concept and shows the rotation on video."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "Kay como aplicadora de Corrosion",
+            "en": "Kay as the Corrosion applier"
+          },
+          "body": {
+            "es": "Sin Arcane, las 4 acumulaciones de Cryo las convierte Kay, y por eso deja la build Frontiers: Rift Trekker Heavy Armor, Hot Work Gloves y dos Hot Work Power Bank por la Arts Intensity. La guía la llama «Corrosion Support» en este equipo.",
+            "en": "Without Arcane, Kay is the one converting the 4 Cryo stacks, so she drops the Frontiers build: Rift Trekker Heavy Armor, Hot Work Gloves and two Hot Work Power Banks for the Arts Intensity. The guide calls her \"Corrosion Support\" in this team."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Gilberta extiende la Corrosion",
+            "en": "Gilberta extends the Corrosion"
+          },
+          "body": {
+            "es": "El Ultimate de Gilberta va después de la última Battle Skill de Xaihi y extiende la Corrosion. Solo entonces se usa la Battle Skill de Typhoeus.",
+            "en": "Gilberta's Ultimate goes after the final Xaihi Battle Skill and extends the Corrosion. Only then is Typhoeus's Battle Skill used."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Nature Bursts forzados: la munición de Typhoeus",
+            "en": "Forced Nature Bursts: Typhoeus's ammo"
+          },
+          "body": {
+            "es": "El Combo de Kay sale al aplicar Nature Infliction o al dispararse cualquier Arts Burst, siempre que le quede al menos una Weapon. Casi todo su daño está en el Nature Burst que fuerza, y así alimenta de munición a Typhoeus sin tener que apilar Nature Inflictions.",
+            "en": "Kay's Combo triggers when Nature Infliction is applied or any Arts Burst goes off, as long as she has at least one Weapon left. Most of its damage is in the Nature Burst it forces, and that feeds Typhoeus ammo without having to stack Nature Inflictions."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Hot Edgy Naives y la Battle Skill de Kay",
+            "en": "Hot Edgy Naives and Kay's Battle Skill"
+          },
+          "body": {
+            "es": "La Battle Skill de Kay recoge todas las Weapons del campo, aplica Nature Infliction y consume las Hot Edgy Naives, que aumentan su daño: para sacarle el máximo hay que haber usado su Combo 3 veces. Con 3 acumulaciones añade además una Combustion corta.",
+            "en": "Kay's Battle Skill picks up every Weapon on the field, applies Nature Infliction and consumes her Hot Edgy Naives, which increase its damage: to get the most out of it you need to have used her Combo 3 times. At 3 stacks it also adds a short Combustion."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Cuatro Cryo y la Corrosion",
+            "en": "Four Cryo and the Corrosion"
+          },
+          "action": {
+            "es": "4 acumulaciones de Cryo, sin la Battle Skill de Typhoeus → Kay las convierte en Corrosion.",
+            "en": "4 Cryo stacks, without Typhoeus's Battle Skill → Kay turns them into Corrosion."
+          },
+          "steps": [
+            {
+              "who": "xaihi",
+              "do": {
+                "es": "Junta 4 acumulaciones de Cryo. El concepto es muy parecido al de la rotación principal, pero sin Arcane.",
+                "en": "Build up to 4 Cryo stacks. The concept is very similar to the main rotation's, but without Arcane."
+              }
+            },
+            {
+              "who": "typhoeus",
+              "do": {
+                "es": "No uses la Battle Skill de Typhoeus hasta la ventana de burst.",
+                "en": "Don't use Typhoeus's Battle Skill at all until the burst window."
+              },
+              "key": true
+            },
+            {
+              "who": "kay",
+              "do": {
+                "es": "Usa a Kay para convertir las 4 acumulaciones en Corrosion.",
+                "en": "Use Kay to turn the 4 stacks into Corrosion."
+              }
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Preparar la ventana",
+            "en": "Setting up the window"
+          },
+          "action": {
+            "es": "Última Battle Skill de Xaihi → Ultimate de Gilberta.",
+            "en": "Final Xaihi Battle Skill → Gilberta's Ultimate."
+          },
+          "steps": [
+            {
+              "who": "xaihi",
+              "do": {
+                "es": "Una última Battle Skill de Xaihi. En la toma de la guía le sigue su Ultimate.",
+                "en": "One final Xaihi Battle Skill. In the guide's footage it is followed by her Ultimate."
+              }
+            },
+            {
+              "who": "gilberta",
+              "do": {
+                "es": "Ultimate de Gilberta: extiende la Corrosion.",
+                "en": "Gilberta's Ultimate: it extends the Corrosion."
+              },
+              "key": true
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Burst",
+            "en": "Burst"
+          },
+          "action": {
+            "es": "Battle Skill de Typhoeus → todo el burst posible.",
+            "en": "Typhoeus's Battle Skill → as much burst as possible."
+          },
+          "steps": [
+            {
+              "who": "typhoeus",
+              "do": {
+                "es": "Por fin, Battle Skill de Typhoeus y descarga todo el burst que puedas. En la toma entran los Combos de Kay y de Typhoeus.",
+                "en": "Finally, Typhoeus's Battle Skill and unleash as much burst as you can. In the footage, Kay's and Typhoeus's Combos go in here."
+              },
+              "key": true
+            }
+          ]
+        }
+      ],
+      "rotationVariants": [],
+      "skillPriority": [],
+      "pitfalls": [
+        {
+          "es": "Usar la Battle Skill de Typhoeus antes de la ventana de burst: es la mayor diferencia con la rotación principal.",
+          "en": "Using Typhoeus's Battle Skill before the burst window: that is the biggest difference from the main rotation."
+        },
+        {
+          "es": "Dejar a Kay con la build Frontiers: aquí va con Hot Work y Rift Trekker por la Arts Intensity.",
+          "en": "Leaving Kay on the Frontiers build: here she goes on Hot Work and Rift Trekker for the Arts Intensity."
+        }
+      ],
+      "vsOtherComps": [],
+      "members": [
+        {
+          "id": "typhoeus",
+          "role": "Carry",
+          "weaponId": "wpn_funnel_0019",
+          "gearRec": [
+            "deep_rampart_armor",
+            "deep_rampart_gauntlets",
+            "deep_rampart_comms",
+            "bonekrusha_mask"
+          ],
+          "weaponNote": {
+            "es": "Daño personal a P0 / P5 según el panel de Typhoeus: Umbra of Frigid Eventide (BIS) 100% / 128%, Suffering's End 73% / 82%, Detonation Unit 68% / 74%, Oblivion 59% / 64%.",
+            "en": "Personal damage at P0 / P5 per the Typhoeus panel: Umbra of Frigid Eventide (BIS) 100% / 128%, Suffering's End 73% / 82%, Detonation Unit 68% / 74%, Oblivion 59% / 64%."
+          },
+          "gearNote": {
+            "es": "Tres piezas Deep Rampart (Armor, Gauntlets y Comms) con Bonekrusha Mask: el panel la da como build alternativa para rotaciones de burst, «por ejemplo con Gilberta», y puede rendir algo más que LYNX Slab. Es menos efectiva en rotaciones largas.",
+            "en": "Three Deep Rampart pieces (Armor, Gauntlets and Comms) with Bonekrusha Mask: the panel gives it as the alternate build for burst-oriented rotations, \"e.g. with Gilberta\", and it can be slightly stronger than LYNX Slab. It is less effective in long rotations."
+          },
+          "deepNote": {
+            "es": "Guarda su Battle Skill para la ventana de burst, con la Corrosion ya extendida.",
+            "en": "She saves her Battle Skill for the burst window, with the Corrosion already extended."
+          }
+        },
+        {
+          "id": "kay",
+          "role": "Enabler",
+          "weaponId": "wpn_lance_0017",
+          "gearRec": [
+            "rift_trekker_heavy_armor",
+            "hot_work_gloves",
+            "hot_work_power_bank",
+            "hot_work_power_bank"
+          ],
+          "weaponNote": {
+            "es": "Sweet Deal, la que lleva en el video.",
+            "en": "Sweet Deal, the one she carries in the video."
+          },
+          "gearNote": {
+            "es": "Hot Work de tres piezas (Gloves y dos Power Bank) con Rift Trekker Heavy Armor, por la Arts Intensity.",
+            "en": "Hot Work 3-piece (Gloves and two Power Banks) with Rift Trekker Heavy Armor, for the Arts Intensity."
+          },
+          "deepNote": {
+            "es": "Es la que convierte las 4 acumulaciones de Cryo en Corrosion, y con 3 Hot Edgy Naives su Battle Skill añade además una Combustion corta.",
+            "en": "She is the one turning the 4 Cryo stacks into Corrosion, and at 3 Hot Edgy Naives her Battle Skill also adds a short Combustion."
+          }
+        },
+        {
+          "id": "gilberta",
+          "role": "Support",
+          "weaponId": "wpn_funnel_0011",
+          "gearRec": [
+            "swordmancer_light_armor",
+            "eternal_xiranite_wraps",
+            "swordmancer_nav_beacon",
+            "swordmancer_nav_beacon"
+          ],
+          "weaponNote": {
+            "es": "Delivery Guaranteed, la que lleva en la toma de este equipo.",
+            "en": "Delivery Guaranteed, the one she carries in this team's footage."
+          },
+          "gearNote": {
+            "es": "Swordmancer de tres piezas (Light Armor y dos NAV Beacon) con Eternal Xiranite Wraps.",
+            "en": "Swordmancer 3-piece (Light Armor and two NAV Beacons) with Eternal Xiranite Wraps."
+          },
+          "deepNote": {
+            "es": "Su Ultimate extiende la Corrosion antes del burst.",
+            "en": "Her Ultimate extends the Corrosion before the burst."
+          }
+        },
+        {
+          "id": "xaihi",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0005",
+          "gearRec": [
+            "eternal_xiranite_light_armor_t1",
+            "eternal_xiranite_gloves_t1",
+            "eternal_xiranite_bracing_slab",
+            "frontiers_extra_o2_tube_t1"
+          ],
+          "weaponNote": {
+            "es": "Stanza of Memorials, la que lleva en la toma de este equipo: tras su Ultimate sube el ATK de los demás. La guía la llama una opción sólida y accesible; prefiere Chivalric Virtues en la rotación principal, que no se concentra en la ventana de burst.",
+            "en": "Stanza of Memorials, the one she carries in this team's footage: after her Ultimate it raises the others' ATK. The guide calls it a solid and accessible choice; it prefers Chivalric Virtues in the main rotation, which isn't concentrated around the burst window."
+          },
+          "gearNote": {
+            "es": "La misma build que en el equipo principal: lleva el set Eternal Xiranite (Light Armor T1, Gloves T1 y Bracing Slab) y Frontiers Extra O2 Tube T1 para maximizar su Intellect. El panel de este equipo solo cambia a Kay y a Gilberta.",
+            "en": "The same build as in the main team: she holds the Eternal Xiranite set (Light Armor T1, Gloves T1 and Bracing Slab) with Frontiers Extra O2 Tube T1 to maximize her Intellect. This team's panel only changes Kay and Gilberta."
+          },
+          "deepNote": {
+            "es": "Pone el Cryo, y su última Battle Skill va después de la Corrosion y antes del Ultimate de Gilberta.",
+            "en": "She applies the Cryo, and her final Battle Skill goes after the Corrosion and before Gilberta's Ultimate."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Las piezas salen de los paneles del video. El de este equipo solo cambia a Kay y a Gilberta; Typhoeus y Xaihi van con sus paneles de build. Las armas de Kay, Gilberta y Xaihi son las que se ven en la toma.",
+          "en": "The pieces come from the video's panels. This team's panel only changes Kay and Gilberta; Typhoeus and Xaihi use their build panels. The weapons of Kay, Gilberta and Xaihi are the ones seen in the footage."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Typhoeus sin Bonekrusha Mask",
+              "en": "Typhoeus without Bonekrusha Mask"
+            },
+            "swap": {
+              "es": "LYNX Slab, el kit de su build general.",
+              "en": "LYNX Slab, the kit of her generic build."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": {
         "es": "YZ-月咒 - Arcane (WILL) · Perlica · Liino",
         "en": "YZ-月咒 - Arcane (WILL) · Perlica · Liino"
       },
