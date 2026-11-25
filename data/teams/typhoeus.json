@@ -2143,6 +2143,548 @@
     },
     {
       "name": {
+        "es": "Maygi - Kay · Arcane (WILL) · Xaihi",
+        "en": "Maygi - Kay · Arcane (WILL) · Xaihi"
+      },
+      "subtitle": {
+        "es": "Kay · Arcane (WILL) · Xaihi",
+        "en": "Kay · Arcane (WILL) · Xaihi"
+      },
+      "blurb": {
+        "es": "El equipo principal de la guía de Kay. Su Combo fuerza Nature Bursts, así que alimenta de munición a Typhoeus sin tener que apilar Nature Inflictions. Xaihi y Arcane juntan 4 acumulaciones de Cryo para una Corrosion, la renuevan una vez y el final es apilar Nature Infliction para el burst. Se juega con Typhoeus controlada toda la rotación. Reparto de daño de la guía: Typhoeus 82%, Arcane 9%, Kay 7%, Xaihi 2%.",
+        "en": "The main team of the Kay guide. Her Combo forces Nature Bursts, so she feeds Typhoeus ammo without having to stack Nature Inflictions. Xaihi and Arcane build 4 Cryo stacks for a Corrosion, refresh it once, and the ending is stacking Nature Infliction for the burst. You control Typhoeus for the whole rotation. Damage split from the guide: Typhoeus 82%, Arcane 9%, Kay 7%, Xaihi 2%."
+      },
+      "guideVideoId": "ty2",
+      "simple": {
+        "whatItDoes": {
+          "es": "Typhoeus es la carry y su munición sale de los Nature Bursts. El Combo de Kay, que sale al aplicar Nature Infliction o al saltar un Arts Burst mientras le quede alguna Weapon, fuerza uno y además recupera SP. El plan tiene tres partes: juntar 4 acumulaciones de Cryo con los Combos de Xaihi y de Arcane para una Corrosion, usar una última vez las Battle Skills de Xaihi y de Arcane para renovar el Amp y la Corrosion, y apilar Nature Infliction para el burst de Typhoeus.",
+          "en": "Typhoeus is the carry and her ammo comes from Nature Bursts. Kay's Combo, which triggers when Nature Infliction is applied or an Arts Burst goes off as long as she has a Weapon left, forces one and also recovers SP. The plan has three parts: build 4 Cryo stacks with Xaihi's and Arcane's Combos for a Corrosion, use Xaihi's and Arcane's Battle Skills one final time to refresh the Amp and the Corrosion, and stack Nature Infliction for Typhoeus's burst."
+        },
+        "steps": [
+          {
+            "who": "xaihi",
+            "do": {
+              "es": "Battle Skill de Xaihi y dos combos de ataques básicos con Typhoeus; después, Combos de Xaihi y de Arcane.",
+              "en": "Xaihi's Battle Skill and two basic attack combos on Typhoeus; then Xaihi's and Arcane's Combos."
+            }
+          },
+          {
+            "who": "typhoeus",
+            "do": {
+              "es": "Battle Skill de Typhoeus. Tras 4 ataques aéreos, Combos de Typhoeus y de Kay; termina los ataques aéreos y vuelve a usar el Combo de Kay.",
+              "en": "Typhoeus's Battle Skill. After 4 aerial attacks, Typhoeus's and Kay's Combos; finish the aerial attacks and use Kay's Combo again."
+            }
+          },
+          {
+            "who": "arcane",
+            "do": {
+              "es": "Otra vez Battle Skill de Xaihi y dos combos de básicos. Retén el Combo de Xaihi hasta que suba el de Arcane, úsalos y sigue con la Battle Skill de Arcane: es la Corrosion. Combos de Kay y de Typhoeus.",
+              "en": "Xaihi's Battle Skill and two basic attack combos again. Hold Xaihi's Combo until Arcane's is up, use both and follow with Arcane's Battle Skill: that is the Corrosion. Kay's and Typhoeus's Combos."
+            }
+          },
+          {
+            "who": "kay",
+            "do": {
+              "es": "Battle Skill de Typhoeus, descarga los ataques aéreos y usa la Battle Skill y el Combo de Kay.",
+              "en": "Typhoeus's Battle Skill, unload the aerial attacks and use Kay's Battle Skill and Combo."
+            }
+          },
+          {
+            "who": "arcane",
+            "do": {
+              "es": "Última Battle Skill de Xaihi, dos combos de básicos y Combo de Xaihi; Battle Skill y Combo de Arcane renuevan la Corrosion y empiezan a apilar Nature Infliction. Combo de Kay.",
+              "en": "Last Xaihi Battle Skill, two basic attack combos and Xaihi's Combo; Arcane's Battle Skill and Combo refresh the Corrosion and start stacking Nature Infliction. Kay's Combo."
+            }
+          },
+          {
+            "who": "typhoeus",
+            "do": {
+              "es": "Burst: Ultimate de Xaihi, Combo de Typhoeus, Ultimates de Arcane y de Kay, Combo de Kay con el Finisher de Typhoeus, y Battle Skill de Typhoeus con todos los ataques aéreos.",
+              "en": "Burst: Xaihi's Ultimate, Typhoeus's Combo, Arcane's and Kay's Ultimates, Kay's Combo along with Typhoeus's Finisher, and Typhoeus's Battle Skill with all the aerial attacks."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "typhoeus",
+            "line": {
+              "es": "Umbra of Frigid Eventide (BIS) y tres piezas Deep Rampart (Armor, Gauntlets y Comms) con LYNX Slab.",
+              "en": "Umbra of Frigid Eventide (BIS) and three Deep Rampart pieces (Armor, Gauntlets and Comms) with LYNX Slab."
+            }
+          },
+          {
+            "id": "kay",
+            "line": {
+              "es": "Sweet Deal (BIS) y tres piezas Frontiers (HVY Steel Plate, HVY Gauntlets y Compressed Slab) con AIC Fieldwork Ember, por el Ultimate Gain.",
+              "en": "Sweet Deal (BIS) and three Frontiers pieces (HVY Steel Plate, HVY Gauntlets and Compressed Slab) with AIC Fieldwork Ember, for the Ultimate Gain."
+            }
+          },
+          {
+            "id": "arcane",
+            "line": {
+              "es": "Type 42: Solemn Phalanx (BIS), Eternal Xiranite Light Armor y Hot Work (Gloves y dos Power Cartridge) por la Arts Intensity.",
+              "en": "Type 42: Solemn Phalanx (BIS), Eternal Xiranite Light Armor and Hot Work (Gloves and two Power Cartridges) for the Arts Intensity."
+            }
+          },
+          {
+            "id": "xaihi",
+            "line": {
+              "es": "Chivalric Virtues y Eternal Xiranite (Light Armor T1, Gloves T1 y Bracing Slab) con Frontiers Extra O2 Tube T1 para maximizar su Intellect.",
+              "en": "Chivalric Virtues and Eternal Xiranite (Light Armor T1, Gloves T1 and Bracing Slab) with Frontiers Extra O2 Tube T1 to maximize her Intellect."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "Kay es una Vanguard de Nature cuyo papel principal es recuperar SP para el equipo. Tiene un recurso propio, las Weapons: empieza con 3, cada Combo deja una en el suelo y se recuperan tocándolas o con su Battle Skill, que las recoge todas de golpe. Sin Weapons, el Combo deja de salir. Cada Weapon recogida le da una acumulación de Hot Edgy Naives y al equipo un pequeño bono de Arts DMG, que para Nature DMG es el doble. La guía la llama una compañera ideal para Typhoeus: como su Combo fuerza un Nature Burst, le da munición de forma constante sin apilar Nature Inflictions. La rotación junta 4 acumulaciones de Cryo para montar una Corrosion, usa la Battle Skill de Xaihi una última vez y después acumula Nature Inflictions, que suben el burst de Typhoeus y alargan esa Corrosion. El Ultimate de Typhoeus no se busca por defecto: no tiene tanto impacto y construir para él contra un solo objetivo sale muy caro.",
+        "en": "Kay is a Nature Vanguard whose primary role is recovering SP for her team. She has her own resource, Weapons: she starts with 3, each Combo drops one on the floor, and they are recovered by touching them or with her Battle Skill, which picks them all up at once. Without Weapons, the Combo stops triggering. Each Weapon picked up gives her one Hot Edgy Naives stack and the team a small Arts DMG bonus, which is doubled for Nature DMG. The guide calls her a prime partner for Typhoeus: since her Combo forces a Nature Burst, she constantly feeds her ammo without stacking Nature Inflictions. The rotation builds 4 Cryo stacks to set up a Corrosion, uses Xaihi's Battle Skill one last time and then layers Nature Inflictions, which buff Typhoeus's burst and extend that Corrosion. Typhoeus's Ultimate is not a goal by default: it is not that impactful, and building for it against a single target is very expensive."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "La guía no la puntúa",
+          "en": "Not rated in the guide"
+        },
+        "content": {
+          "es": "Jefe / Single-target",
+          "en": "Boss / Single-target"
+        },
+        "tags": [
+          {
+            "es": "Nature",
+            "en": "Nature"
+          },
+          {
+            "es": "Corrosion",
+            "en": "Corrosion"
+          },
+          {
+            "es": "Nature Burst",
+            "en": "Nature Burst"
+          },
+          {
+            "es": "Siempre en Typhoeus",
+            "en": "Always on Typhoeus"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "El Combo de Kay fuerza Nature Bursts y le da munición a Typhoeus de forma constante, sin apilar Nature Inflictions.",
+          "en": "Kay's Combo forces Nature Bursts and constantly feeds Typhoeus ammo, without stacking Nature Inflictions."
+        },
+        {
+          "es": "Arcane y Kay no hacen el grueso del daño, así que puedes quedarte en Typhoeus toda la rotación sin compartir el Amp de Xaihi.",
+          "en": "Arcane and Kay are not doing most of the damage, so you can stay on Typhoeus for the whole rotation without sharing Xaihi's Amp."
+        },
+        {
+          "es": "Kay recupera hasta 12 SP por Combo, 30 SP con el Ultimate y 10 SP más por cada uno de los 3 Picnic Snacks que deja.",
+          "en": "Kay recovers up to 12 SP per Combo, 30 SP with her Ultimate and 10 more SP for each of the 3 Picnic Snacks it drops."
+        },
+        {
+          "es": "Typhoeus puede recoger los Picnic Snacks incluso en Hovering, porque su zona vertical es algo más alta que la de las Weapons.",
+          "en": "Typhoeus can pick up the Picnic Snacks even while Hovering, because their vertical hitbox is slightly higher than that of the Weapons."
+        }
+      ],
+      "cons": [
+        {
+          "es": "El Ultimate de Kay es caro (150 de energía) y su Combo solo le da 5, frente a los 10 de la mayoría: necesita Ultimate Gain y un equipo que active su Combo todo el tiempo.",
+          "en": "Kay's Ultimate is expensive (150 energy) and her Combo only gives her 5, versus the 10 of most Combos: she needs Ultimate Gain and a team that constantly triggers her Combo."
+        },
+        {
+          "es": "Sus buffs no son gran cosa y, como cada acumulación cuenta su duración por separado, mantener las 3 todo el tiempo no es viable.",
+          "en": "Her buffs aren't much and, since each stack counts its duration separately, keeping all 3 up at all times is not feasible."
+        },
+        {
+          "es": "Las Weapons del suelo no se pueden recoger en Hovering, al revés que los Picnic Snacks.",
+          "en": "Weapons on the floor can't be picked up while Hovering, unlike the Picnic Snacks."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "Nature Bursts forzados: la munición de Typhoeus",
+            "en": "Forced Nature Bursts: Typhoeus's ammo"
+          },
+          "body": {
+            "es": "El Combo de Kay sale al aplicar Nature Infliction o al dispararse cualquier Arts Burst, siempre que le quede al menos una Weapon. Su daño base es muy bajo: casi todo está en el Nature Burst que fuerza. Cada Nature Burst que salta le da un Sign a Typhoeus, y con los Signs llenos se enciende su Combo, que los convierte en Hunting Arrows. El cooldown del Combo de Kay es bastante corto y recupera hasta 12 SP.",
+            "en": "Kay's Combo triggers when Nature Infliction is applied or any Arts Burst goes off, as long as she has at least one Weapon left. Its base damage is very low: most of it is in the Nature Burst it forces. Every Nature Burst that goes off gives Typhoeus a Sign, and with full Signs her Combo lights up and turns them into Hunting Arrows. The cooldown of Kay's Combo is fairly low and it recovers up to 12 SP."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "De 4 Cryo a Corrosion",
+            "en": "From 4 Cryo to Corrosion"
+          },
+          "body": {
+            "es": "El Combo de Xaihi aplica Cryo Infliction y el de Arcane en forma WILL añade otra acumulación del mismo elemento: dos rondas dejan las 4. La Battle Skill de Arcane, con su Nature Infliction, las convierte en Corrosion. La última Battle Skill de Xaihi y la de Arcane renuevan el Amp y la Corrosion, y a partir de ahí se acumula Nature Infliction en vez de Cryo para subir el burst de Typhoeus.",
+            "en": "Xaihi's Combo applies Cryo Infliction and Arcane's in WILL form adds another stack of the same element: two rounds leave all 4. Arcane's Battle Skill, with its Nature Infliction, turns them into Corrosion. The last Xaihi Battle Skill and Arcane's refresh the Amp and the Corrosion, and from there you stack Nature Infliction instead of Cryo to raise Typhoeus's burst."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Quedarse en Typhoeus",
+            "en": "Camping on Typhoeus"
+          },
+          "body": {
+            "es": "Compartir el Amp de Xaihi no compensa: lo que pierdes por dejar de hacer ataques básicos con Typhoeus es más de lo que ganas al amplificar a un soporte. Con Arcane en el 9% del daño y Kay en el 7%, la guía se queda en Typhoeus de principio a fin.",
+            "en": "Sharing Xaihi's Amp is not worth it: what you lose from the missing Typhoeus basic attacks is more than what you gain from amping a support. With Arcane at 9% of the damage and Kay at 7%, the guide stays on Typhoeus from start to finish."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Hot Edgy Naives y la Battle Skill de Kay",
+            "en": "Hot Edgy Naives and Kay's Battle Skill"
+          },
+          "body": {
+            "es": "La Battle Skill de Kay recoge todas las Weapons del campo, aplica Nature Infliction y consume las Hot Edgy Naives, que aumentan su daño: para sacarle el máximo hay que haber usado su Combo 3 veces. Con 3 acumulaciones añade además una Combustion corta (5 s). Cada Weapon recogida da al equipo +1,5% de Arts DMG y otro +1,5% de Nature DMG, hasta 3 acumulaciones.",
+            "en": "Kay's Battle Skill picks up every Weapon on the field, applies Nature Infliction and consumes her Hot Edgy Naives, which increase its damage: to get the most out of it you need to have used her Combo 3 times. At 3 stacks it also adds a short Combustion (5s). Each Weapon picked up gives the team +1.5% Arts DMG and another +1.5% Nature DMG, up to 3 stacks."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Apertura: las dos primeras de Cryo",
+            "en": "Opener: the first two Cryo stacks"
+          },
+          "action": {
+            "es": "Battle Skill de Xaihi → dos combos de básicos → Combos de Xaihi y de Arcane → Battle Skill de Typhoeus → 4 ataques aéreos → Combos de Typhoeus y de Kay → resto de ataques aéreos → Combo de Kay.",
+            "en": "Xaihi's Battle Skill → two basic attack combos → Xaihi's and Arcane's Combos → Typhoeus's Battle Skill → 4 aerial attacks → Typhoeus's and Kay's Combos → remaining aerial attacks → Kay's Combo."
+          },
+          "steps": [
+            {
+              "who": "xaihi",
+              "do": {
+                "es": "Empieza con la Battle Skill de Xaihi y haz dos combos de ataques básicos con Typhoeus.",
+                "en": "Start out with Xaihi's Battle Skill and do two basic attack combos on Typhoeus."
+              }
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Combo de Xaihi y Combo de Arcane.",
+                "en": "Xaihi's Combo and Arcane's Combo."
+              }
+            },
+            {
+              "who": "typhoeus",
+              "do": {
+                "es": "Battle Skill de Typhoeus. Tras 4 ataques aéreos, Combo de Typhoeus y Combo de Kay.",
+                "en": "Typhoeus's Battle Skill. After 4 aerial attacks, Typhoeus's Combo and Kay's Combo."
+              },
+              "key": true
+            },
+            {
+              "who": "kay",
+              "do": {
+                "es": "Termina los ataques aéreos que quedan y, después, otro Combo de Kay.",
+                "en": "Finish off the remaining aerial attacks and, after that, another Kay Combo."
+              }
+            }
+          ],
+          "tip": {
+            "es": "El Combo de Arcane se puede retener hasta el final de la primera tanda de ataques aéreos: ahorra tiempo ralentizado a cambio de algo de daño.",
+            "en": "Arcane's Combo can be held until the end of the first aerial attack set: it saves on timeslow at the cost of some damage."
+          }
+        },
+        {
+          "phase": {
+            "es": "Cuatro Cryo y la Corrosion",
+            "en": "Four Cryo and the Corrosion"
+          },
+          "action": {
+            "es": "Battle Skill de Xaihi → dos combos de básicos → Combos de Xaihi y de Arcane → Battle Skill de Arcane → Combos de Kay y de Typhoeus → Battle Skill de Typhoeus → ataques aéreos → Battle Skill de Kay → Combo de Kay.",
+            "en": "Xaihi's Battle Skill → two basic attack combos → Xaihi's and Arcane's Combos → Arcane's Battle Skill → Kay's and Typhoeus's Combos → Typhoeus's Battle Skill → aerial attacks → Kay's Battle Skill → Kay's Combo."
+          },
+          "steps": [
+            {
+              "who": "xaihi",
+              "do": {
+                "es": "Battle Skill de Xaihi otra vez y dos combos de ataques básicos. Retén el Combo de Xaihi hasta que suba el de Arcane.",
+                "en": "Xaihi's Battle Skill again and two basic attack combos. Hold Xaihi's Combo until Arcane's is up."
+              },
+              "key": true
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "En cuanto entren los dos Combos, Battle Skill de Arcane.",
+                "en": "As soon as both Combos hit, Arcane's Battle Skill."
+              }
+            },
+            {
+              "who": "kay",
+              "do": {
+                "es": "Combo de Kay: vuelve a activar el Combo de Typhoeus, úsalo.",
+                "en": "Kay's Combo: it triggers Typhoeus's Combo again, use it."
+              }
+            },
+            {
+              "who": "typhoeus",
+              "do": {
+                "es": "Battle Skill de Typhoeus y descarga sus ataques aéreos, además de la Battle Skill y el Combo de Kay.",
+                "en": "Typhoeus's Battle Skill and unload her aerial attacks, as well as Kay's Battle Skill and Combo."
+              }
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Renovar la Corrosion y pasar a Nature",
+            "en": "Refresh the Corrosion and switch to Nature"
+          },
+          "action": {
+            "es": "Última Battle Skill de Xaihi → dos combos de básicos → Combo de Xaihi → Battle Skill de Arcane → Combo de Arcane → Combo de Kay.",
+            "en": "Last Xaihi Battle Skill → two basic attack combos → Xaihi's Combo → Arcane's Battle Skill → Arcane's Combo → Kay's Combo."
+          },
+          "steps": [
+            {
+              "who": "xaihi",
+              "do": {
+                "es": "Battle Skill de Xaihi por última vez, dos combos de ataques básicos y Combo de Xaihi.",
+                "en": "Xaihi's Battle Skill one last time, two basic attack combos and Xaihi's Combo."
+              }
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Battle Skill y Combo de Arcane: renuevan la Corrosion y empiezan a acumular Nature Infliction en su lugar.",
+                "en": "Arcane's Battle Skill and Combo: they refresh the Corrosion and start stacking Nature Infliction instead."
+              },
+              "key": true
+            },
+            {
+              "who": "kay",
+              "do": {
+                "es": "Combo de Kay.",
+                "en": "Kay's Combo."
+              }
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Burst",
+            "en": "Burst"
+          },
+          "action": {
+            "es": "Ultimate de Xaihi → Combo de Typhoeus → Ultimate de Arcane → Ultimate de Kay → Combo de Kay + Finisher de Typhoeus → Battle Skill de Typhoeus → ataques aéreos.",
+            "en": "Xaihi's Ultimate → Typhoeus's Combo → Arcane's Ultimate → Kay's Ultimate → Kay's Combo + Typhoeus's Finisher → Typhoeus's Battle Skill → aerial attacks."
+          },
+          "steps": [
+            {
+              "who": "xaihi",
+              "do": {
+                "es": "Ultimate de Xaihi.",
+                "en": "Xaihi's Ultimate."
+              }
+            },
+            {
+              "who": "typhoeus",
+              "do": {
+                "es": "Combo de Typhoeus.",
+                "en": "Typhoeus's Combo."
+              }
+            },
+            {
+              "who": "arcane",
+              "do": {
+                "es": "Ultimate de Arcane y Ultimate de Kay.",
+                "en": "Arcane's Ultimate and Kay's Ultimate."
+              }
+            },
+            {
+              "who": "kay",
+              "do": {
+                "es": "Combo de Kay mientras haces el Finisher de Typhoeus.",
+                "en": "Kay's Combo as you use Typhoeus's Finisher."
+              }
+            },
+            {
+              "who": "typhoeus",
+              "do": {
+                "es": "Battle Skill de Typhoeus y todos sus ataques aéreos.",
+                "en": "Typhoeus's Battle Skill and all her aerial attacks."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "Si después de esto hace falta más daño, usa la Battle Skill de Kay cuando suba el Combo de Arcane: son 2 Nature Inflictions más, y en la lista de la guía le sigue otro Combo de Typhoeus. Sin hacerlo, Typhoeus tiene listo otro Combo en pocos segundos.",
+            "en": "If you need more damage after that, use Kay's Battle Skill as Arcane's Combo comes up: that is 2 more Nature Inflictions, and the guide's list follows it with another Typhoeus Combo. Even without that, Typhoeus has another Combo ready in a few seconds."
+          }
+        }
+      ],
+      "rotationVariants": [],
+      "skillPriority": [],
+      "pitfalls": [
+        {
+          "es": "Cambiar de operador para compartir el Amp de Xaihi: pierdes más por los ataques básicos de Typhoeus que faltan de lo que ganas en el soporte.",
+          "en": "Switching operators to share Xaihi's Amp: you lose more from the missing Typhoeus basic attacks than you gain on the support."
+        },
+        {
+          "es": "Usar el Combo de Xaihi apenas sube en la segunda ronda: se retiene hasta que el de Arcane esté listo.",
+          "en": "Using Xaihi's Combo as soon as it comes up in the second round: it is held until Arcane's is ready."
+        },
+        {
+          "es": "Dar a Kay JET o Bedazzling Night Debut con el mismo gear: ninguna trae Ultimate Gain, hace falta la build alternativa y aun así la rotación se atasca un poco.",
+          "en": "Giving Kay JET or Bedazzling Night Debut with the same gear: neither has Ultimate Gain, the alternate build is required, and even then the rotation stalls slightly."
+        },
+        {
+          "es": "Poner Detonation Unit en Arcane con la build normal: necesita la build con más Ultimate Gain y +0 al atributo principal en la Essence.",
+          "en": "Putting Detonation Unit on Arcane with the normal build: it needs the build with more Ultimate Gain and +0 to Main Attribute on the Essence."
+        }
+      ],
+      "vsOtherComps": [],
+      "members": [
+        {
+          "id": "typhoeus",
+          "role": "Carry",
+          "weaponId": "wpn_funnel_0019",
+          "gearRec": [
+            "deep_rampart_armor",
+            "deep_rampart_gauntlets",
+            "deep_rampart_comms",
+            "lynx_slab"
+          ],
+          "weaponNote": {
+            "es": "Daño personal a P0 / P5: Umbra of Frigid Eventide (BIS) 100% / 128%, Suffering's End 73% / 82%, Detonation Unit 68% / 74%, Oblivion 59% / 64%.",
+            "en": "Personal damage at P0 / P5: Umbra of Frigid Eventide (BIS) 100% / 128%, Suffering's End 73% / 82%, Detonation Unit 68% / 74%, Oblivion 59% / 64%."
+          },
+          "gearNote": {
+            "es": "Tres piezas Deep Rampart (Armor, Gauntlets y Comms). Como Kay ya aporta algo de Arts DMG, LYNX Slab pasa a ser mejor que Qingbo Bamboo Cutter como kit fuera del set.",
+            "en": "Three Deep Rampart pieces (Armor, Gauntlets and Comms). Since Kay already provides a little Arts DMG, LYNX Slab is now better than Qingbo Bamboo Cutter as the off-set kit."
+          },
+          "deepNote": {
+            "es": "Hace el 82% del daño del equipo y es la operadora controlada toda la rotación. Su Ultimate no se busca por defecto: no tiene tanto impacto y construir para él contra un solo objetivo es muy caro.",
+            "en": "She deals 82% of the team's damage and is the controlled operator for the whole rotation. Her Ultimate is not a goal by default: it is not that impactful, and building for it against a single target is very expensive."
+          }
+        },
+        {
+          "id": "kay",
+          "role": "Enabler",
+          "weaponId": "wpn_lance_0017",
+          "gearRec": [
+            "frontiers_hvy_steel_plate",
+            "frontiers_hvy_gauntlets",
+            "frontiers_compressed_slab",
+            "aic_fieldwork_ember"
+          ],
+          "weaponNote": {
+            "es": "Daño de equipo a P0 / P5: Sweet Deal (BIS) 100% / 106%, JET 93% / 95%, Raid Comet (pase de batalla) 92% / 94%, Bedazzling Night Debut 92% / 94%. Las opciones quedan muy cerca. JET rinde sobre el papel algo más que Raid Comet: el daño de Kay aquí es comparable al de Arcane WILL, y lo que JET le sube pesa más que el buff pequeño de Raid Comet. Con Bedazzling Night Debut es incómodo activar los buffs, porque hay que perseguir los Picnic Snacks y los Picnic Waffles del suelo.",
+            "en": "Team damage at P0 / P5: Sweet Deal (BIS) 100% / 106%, JET 93% / 95%, Raid Comet (battle pass) 92% / 94%, Bedazzling Night Debut 92% / 94%. The options are all close. On paper JET performs a bit better than Raid Comet: Kay's damage here is comparable to WILL Arcane's, and what JET adds to it outweighs Raid Comet's small buff. With Bedazzling Night Debut it is awkward to get the buffs, since you have to chase the Picnic Snacks and Picnic Waffles on the ground."
+          },
+          "gearNote": {
+            "es": "Tres piezas Frontiers (HVY Steel Plate, HVY Gauntlets y Compressed Slab) y AIC Fieldwork Ember, que es su kit más fuerte para conseguir el Ultimate Gain que le falta y no atascar la rotación. Es la build para Sweet Deal o Raid Comet, con las que el Ultimate llega listo al burst.",
+            "en": "Three Frontiers pieces (HVY Steel Plate, HVY Gauntlets and Compressed Slab) and AIC Fieldwork Ember, which is her strongest kit for getting the Ultimate Gain she lacks and not stalling the rotation. This is the build for Sweet Deal or Raid Comet, with which her Ultimate is ready at the burst."
+          },
+          "deepNote": {
+            "es": "Su Ultimate aplica Nature Infliction, recupera 30 SP y deja 3 Picnic Snacks de 10 SP cada uno, con algo de curación para quien los recoge. Con su segundo talento, al golpear un Stagger Node o al dejar a un enemigo en Stagger cae un Picnic Waffle, igual que los del Ultimate (cooldown de 20 s). Potenciales con este equipo como base (daño de equipo / daño propio de Kay): P1 +5,9% / +6,5%, P2 +6,4% / +14,3%, P3 +7,0% / +22,3%, P4 +7,5% / +30,7%, P5 +7,7% / +32,6%. El P1 alarga el buff de su talento y sube su valor base; los demás, según la guía, afectan a su daño propio. El P5 sube además un 30% el SP que recupera su Combo, y eso no está en estos cálculos.",
+            "en": "Her Ultimate applies Nature Infliction, recovers 30 SP and leaves 3 Picnic Snacks of 10 SP each, with some healing for whoever picks them up. With her second talent, hitting a Stagger Node or Staggering an enemy drops a Picnic Waffle, same as the ones from the Ultimate (20s cooldown). Potentials with this team as the baseline (team damage / Kay's own damage): P1 +5.9% / +6.5%, P2 +6.4% / +14.3%, P3 +7.0% / +22.3%, P4 +7.5% / +30.7%, P5 +7.7% / +32.6%. P1 extends her talent's buff and raises its base value; the others, per the guide, affect her personal damage. P5 also raises the SP her Combo recovers by 30%, which is not accounted for in these calcs."
+          }
+        },
+        {
+          "id": "arcane",
+          "role": "Enabler",
+          "weaponId": "wpn_funnel_0016",
+          "gearRec": [
+            "eternal_xiranite_light_armor",
+            "hot_work_gloves",
+            "hot_work_power_cartridge",
+            "hot_work_power_cartridge"
+          ],
+          "weaponNote": {
+            "es": "Daño de equipo a P0 / P5: Type 42: Solemn Phalanx (BIS) 100% / 113%, Detonation Unit 96% / 105%, Junction Point (pase de batalla) 87% / 91%.",
+            "en": "Team damage at P0 / P5: Type 42: Solemn Phalanx (BIS) 100% / 113%, Detonation Unit 96% / 105%, Junction Point (battle pass) 87% / 91%."
+          },
+          "gearNote": {
+            "es": "Build de Will enfocada en Arts Intensity para que la Corrosion pegue lo máximo: Eternal Xiranite Light Armor y el set Hot Work (Gloves y dos Power Cartridge). Maximiza la Arts Intensity a costa de Will. Es la build para Type 42: Solemn Phalanx o Junction Point.",
+            "en": "Will build focused on Arts Intensity to maximize Corrosion: Eternal Xiranite Light Armor and the Hot Work set (Gloves and two Power Cartridges). It maximizes Arts Intensity at the cost of Will. This is the build for Type 42: Solemn Phalanx or Junction Point."
+          },
+          "deepNote": {
+            "es": "En forma WILL su Combo suma otra acumulación del elemento presente, primero Cryo y al final Nature, y su Battle Skill es la que convierte las Cryo en Corrosion. Hace el 9% del daño del equipo.",
+            "en": "In WILL form her Combo adds another stack of the element present, Cryo first and Nature at the end, and her Battle Skill is what turns the Cryo into Corrosion. She deals 9% of the team's damage."
+          }
+        },
+        {
+          "id": "xaihi",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0010",
+          "gearRec": [
+            "eternal_xiranite_light_armor_t1",
+            "eternal_xiranite_gloves_t1",
+            "eternal_xiranite_bracing_slab",
+            "frontiers_extra_o2_tube_t1"
+          ],
+          "weaponNote": {
+            "es": "Daño de equipo a P0 / P5: Chivalric Virtues 100% / 107%, Detonation Unit 96% / 101%, Stanza of Memorials 97% / 100%. Stanza of Memorials es una opción sólida y accesible. Chivalric Virtues queda un poco por delante porque la rotación no se concentra en la ventana de burst: buffea la rotación entera, mientras que Detonation Unit se pierde la última parte.",
+            "en": "Team damage at P0 / P5: Chivalric Virtues 100% / 107%, Detonation Unit 96% / 101%, Stanza of Memorials 97% / 100%. Stanza of Memorials is a solid and accessible choice. Chivalric Virtues is slightly preferable because the rotation isn't concentrated around the burst window: it buffs the entire rotation, where Detonation Unit misses the last part."
+          },
+          "gearNote": {
+            "es": "Lleva el set Eternal Xiranite del equipo (Light Armor T1, Gloves T1 y Bracing Slab) y Frontiers Extra O2 Tube T1 para maximizar su Intellect.",
+            "en": "She holds the team's Eternal Xiranite set (Light Armor T1, Gloves T1 and Bracing Slab) with Frontiers Extra O2 Tube T1 to maximize her Intellect."
+          },
+          "deepNote": {
+            "es": "Pone la Cryo Infliction con su Combo y el Amp con su Battle Skill, siempre para Typhoeus. Su Battle Skill se usa tres veces y la última es la que renueva el Amp antes del burst.",
+            "en": "She applies the Cryo Infliction with her Combo and the Amp with her Battle Skill, always for Typhoeus. Her Battle Skill is used three times, and the last one is what refreshes the Amp before the burst."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Todas las builds salen de los paneles del video. Las comparativas de arma dan P0 y P5: en Typhoeus son de daño personal y en Kay, Arcane y Xaihi, de daño de equipo.",
+          "en": "All the builds come from the video's panels. The weapon comparisons give P0 and P5: for Typhoeus they are personal damage, and for Kay, Arcane and Xaihi, team damage."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Typhoeus con rotaciones de burst",
+              "en": "Typhoeus with burst-oriented rotations"
+            },
+            "swap": {
+              "es": "Bonekrusha Mask en lugar de LYNX Slab puede rendir un poco más (por ejemplo, con Gilberta). Es menos efectiva en rotaciones largas.",
+              "en": "Bonekrusha Mask instead of LYNX Slab can be a slightly stronger option (e.g. with Gilberta). It is less effective in long rotations."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Kay con JET o Bedazzling Night Debut",
+              "en": "Kay with JET or Bedazzling Night Debut"
+            },
+            "swap": {
+              "es": "Rift Trekker Silver Blade en lugar de AIC Fieldwork Ember: algo más de Ultimate Gain y algo menos de daño, porque esas armas no traen Ultimate Gain. Aun así la rotación se atasca un poco.",
+              "en": "Rift Trekker Silver Blade instead of AIC Fieldwork Ember: slightly more Ultimate Gain and slightly less damage, because those weapons have no Ultimate Gain. Even then the rotation stalls slightly."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Arcane con Detonation Unit",
+              "en": "Arcane with Detonation Unit"
+            },
+            "swap": {
+              "es": "Hot Work Exo-Rig, Hot Work Gloves, Hot Work Power Cartridge y Eternal Xiranite Auxiliary Arm: una build más débil con Ultimate Gain extra, y con +0 al atributo principal en la Essence. Si la Essence ya está mejorada, puedes cambiar la armadura o el kit Eternal Xiranite por variantes sin Intellect.",
+              "en": "Hot Work Exo-Rig, Hot Work Gloves, Hot Work Power Cartridge and Eternal Xiranite Auxiliary Arm: a weaker build with extra Ultimate Gain, and with +0 to Main Attribute on the Essence. If your Essence is already upgraded, you can replace the body or the Eternal Xiranite kit with variants that have no Intellect."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Xaihi con Stanza of Memorials",
+              "en": "Xaihi with Stanza of Memorials"
+            },
+            "swap": {
+              "es": "Opción sólida y accesible: 97% a P0 y 100% a P5 del daño de equipo, frente al 100% / 107% de Chivalric Virtues.",
+              "en": "A solid and accessible choice: 97% at P0 and 100% at P5 of the team damage, versus Chivalric Virtues' 100% / 107%."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": {
         "es": "YZ-月咒 - Arcane (WILL) · Perlica · Liino",
         "en": "YZ-月咒 - Arcane (WILL) · Perlica · Liino"
       },

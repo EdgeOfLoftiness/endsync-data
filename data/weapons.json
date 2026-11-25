@@ -1,6 +1,6 @@
 {
   "game": "Arknights: Endfield",
-  "total_weapons": 84,
+  "total_weapons": 86,
   "weapons": {
     "Sword": [
       {
@@ -13304,6 +13304,526 @@
         "stat1_ko": "의지 +156",
         "stat2_ko": "치유 효율 +46.4%",
         "passive_ko": "전기 피해 +16.8% 장착자가 연계 스킬로 피해를 줄 때, 치유 효율 +11.2%, 15초 동안 지속됩니다. 장착자가 연계 스킬로 팀 내 다른 오퍼레이터를 치유할 때, 팀 전체의 아츠 피해 +14.0%, 20초 동안 지속됩니다. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "id": "wpn_lance_0017",
+        "name": "Sweet Deal",
+        "type": "Polearm",
+        "rarity": 6,
+        "base_atk": 500,
+        "stat1": "Strength: +156",
+        "stat2": "Nature DMG Bonus: +43.3%",
+        "passive": "Ultimate Gain Efficiency +50.4%. After the wielder's skill recovers SP, the entire team gains ATK +5.6% for 30s. Max stacks for this effect: 3. Duration of each stack is counted separately. Effect only triggers once every 0.1s. After the wielder's skill applies an Arts Burst, the entire team gains Arts DMG Dealt +16.8% for 15s. This effect cannot stack.",
+        "scaling_by_rank": {
+          "base_atk": {
+            "min": 51,
+            "max": 500
+          },
+          "passives": [
+            {
+              "name": "Strength Boost [L]",
+              "ranks": [
+                "Strength +20",
+                "Strength +36",
+                "Strength +52",
+                "Strength +68",
+                "Strength +84",
+                "Strength +100",
+                "Strength +116",
+                "Strength +132",
+                "Strength +156"
+              ],
+              "name_es": "Fuerza [G]",
+              "name_zh": "力量提升·大",
+              "name_zh-TW": "力量提升·大",
+              "name_ja": "筋力UP・大",
+              "name_ko": "힘 증가 · 대",
+              "ranks_es": [
+                "Fuerza +20",
+                "Fuerza +36",
+                "Fuerza +52",
+                "Fuerza +68",
+                "Fuerza +84",
+                "Fuerza +100",
+                "Fuerza +116",
+                "Fuerza +132",
+                "Fuerza +156"
+              ],
+              "ranks_zh": [
+                "力量+20",
+                "力量+36",
+                "力量+52",
+                "力量+68",
+                "力量+84",
+                "力量+100",
+                "力量+116",
+                "力量+132",
+                "力量+156"
+              ],
+              "ranks_zh-TW": [
+                "力量+20",
+                "力量+36",
+                "力量+52",
+                "力量+68",
+                "力量+84",
+                "力量+100",
+                "力量+116",
+                "力量+132",
+                "力量+156"
+              ],
+              "ranks_ja": [
+                "筋力+20",
+                "筋力+36",
+                "筋力+52",
+                "筋力+68",
+                "筋力+84",
+                "筋力+100",
+                "筋力+116",
+                "筋力+132",
+                "筋力+156"
+              ],
+              "ranks_ko": [
+                "힘 +20",
+                "힘 +36",
+                "힘 +52",
+                "힘 +68",
+                "힘 +84",
+                "힘 +100",
+                "힘 +116",
+                "힘 +132",
+                "힘 +156"
+              ]
+            },
+            {
+              "name": "Nature DMG Boost [L]",
+              "ranks": [
+                "Nature DMG Dealt +5.6%",
+                "Nature DMG Dealt +10.0%",
+                "Nature DMG Dealt +14.4%",
+                "Nature DMG Dealt +18.9%",
+                "Nature DMG Dealt +23.3%",
+                "Nature DMG Dealt +27.8%",
+                "Nature DMG Dealt +32.2%",
+                "Nature DMG Dealt +36.7%",
+                "Nature DMG Dealt +43.3%"
+              ],
+              "name_es": "DAÑ por naturaleza [G]",
+              "name_zh": "自然伤害提升·大",
+              "name_zh-TW": "自然傷害提升·大",
+              "name_ja": "自然ダメージUP・大",
+              "name_ko": "자연 피해 증가 · 대",
+              "ranks_es": [
+                "DAÑ por naturaleza infligido +5.6%",
+                "DAÑ por naturaleza infligido +10.0%",
+                "DAÑ por naturaleza infligido +14.4%",
+                "DAÑ por naturaleza infligido +18.9%",
+                "DAÑ por naturaleza infligido +23.3%",
+                "DAÑ por naturaleza infligido +27.8%",
+                "DAÑ por naturaleza infligido +32.2%",
+                "DAÑ por naturaleza infligido +36.7%",
+                "DAÑ por naturaleza infligido +43.3%"
+              ],
+              "ranks_zh": [
+                "自然伤害+5.6%",
+                "自然伤害+10.0%",
+                "自然伤害+14.4%",
+                "自然伤害+18.9%",
+                "自然伤害+23.3%",
+                "自然伤害+27.8%",
+                "自然伤害+32.2%",
+                "自然伤害+36.7%",
+                "自然伤害+43.3%"
+              ],
+              "ranks_zh-TW": [
+                "自然傷害+5.6%",
+                "自然傷害+10.0%",
+                "自然傷害+14.4%",
+                "自然傷害+18.9%",
+                "自然傷害+23.3%",
+                "自然傷害+27.8%",
+                "自然傷害+32.2%",
+                "自然傷害+36.7%",
+                "自然傷害+43.3%"
+              ],
+              "ranks_ja": [
+                "自然ダメージ+5.6%",
+                "自然ダメージ+10.0%",
+                "自然ダメージ+14.4%",
+                "自然ダメージ+18.9%",
+                "自然ダメージ+23.3%",
+                "自然ダメージ+27.8%",
+                "自然ダメージ+32.2%",
+                "自然ダメージ+36.7%",
+                "自然ダメージ+43.3%"
+              ],
+              "ranks_ko": [
+                "자연 피해 +5.6%",
+                "자연 피해 +10.0%",
+                "자연 피해 +14.4%",
+                "자연 피해 +18.9%",
+                "자연 피해 +23.3%",
+                "자연 피해 +27.8%",
+                "자연 피해 +32.2%",
+                "자연 피해 +36.7%",
+                "자연 피해 +43.3%"
+              ]
+            },
+            {
+              "name": "Flow: Sweetening Function",
+              "ranks": [
+                "Ultimate Gain Efficiency +18.0%. After the wielder's skill recovers SP, the entire team gains ATK +2.0% for 30s. Max stacks for this effect: 3. Duration of each stack is counted separately. Effect only triggers once every 0.1s. After the wielder's skill applies an Arts Burst, the entire team gains Arts DMG Dealt +6.0% for 15s. This effect cannot stack.",
+                "Ultimate Gain Efficiency +21.6%. After the wielder's skill recovers SP, the entire team gains ATK +2.4% for 30s. Max stacks for this effect: 3. Duration of each stack is counted separately. Effect only triggers once every 0.1s. After the wielder's skill applies an Arts Burst, the entire team gains Arts DMG Dealt +7.2% for 15s. This effect cannot stack.",
+                "Ultimate Gain Efficiency +25.2%. After the wielder's skill recovers SP, the entire team gains ATK +2.8% for 30s. Max stacks for this effect: 3. Duration of each stack is counted separately. Effect only triggers once every 0.1s. After the wielder's skill applies an Arts Burst, the entire team gains Arts DMG Dealt +8.4% for 15s. This effect cannot stack.",
+                "Ultimate Gain Efficiency +28.8%. After the wielder's skill recovers SP, the entire team gains ATK +3.2% for 30s. Max stacks for this effect: 3. Duration of each stack is counted separately. Effect only triggers once every 0.1s. After the wielder's skill applies an Arts Burst, the entire team gains Arts DMG Dealt +9.6% for 15s. This effect cannot stack.",
+                "Ultimate Gain Efficiency +32.4%. After the wielder's skill recovers SP, the entire team gains ATK +3.6% for 30s. Max stacks for this effect: 3. Duration of each stack is counted separately. Effect only triggers once every 0.1s. After the wielder's skill applies an Arts Burst, the entire team gains Arts DMG Dealt +10.8% for 15s. This effect cannot stack.",
+                "Ultimate Gain Efficiency +36.0%. After the wielder's skill recovers SP, the entire team gains ATK +4.0% for 30s. Max stacks for this effect: 3. Duration of each stack is counted separately. Effect only triggers once every 0.1s. After the wielder's skill applies an Arts Burst, the entire team gains Arts DMG Dealt +12.0% for 15s. This effect cannot stack.",
+                "Ultimate Gain Efficiency +39.6%. After the wielder's skill recovers SP, the entire team gains ATK +4.4% for 30s. Max stacks for this effect: 3. Duration of each stack is counted separately. Effect only triggers once every 0.1s. After the wielder's skill applies an Arts Burst, the entire team gains Arts DMG Dealt +13.2% for 15s. This effect cannot stack.",
+                "Ultimate Gain Efficiency +43.2%. After the wielder's skill recovers SP, the entire team gains ATK +4.8% for 30s. Max stacks for this effect: 3. Duration of each stack is counted separately. Effect only triggers once every 0.1s. After the wielder's skill applies an Arts Burst, the entire team gains Arts DMG Dealt +14.4% for 15s. This effect cannot stack.",
+                "Ultimate Gain Efficiency +50.4%. After the wielder's skill recovers SP, the entire team gains ATK +5.6% for 30s. Max stacks for this effect: 3. Duration of each stack is counted separately. Effect only triggers once every 0.1s. After the wielder's skill applies an Arts Burst, the entire team gains Arts DMG Dealt +16.8% for 15s. This effect cannot stack."
+              ],
+              "name_es": "Flujo: Función endulzante",
+              "name_zh": "流转·甘甜动能",
+              "name_zh-TW": "流轉·甘甜動能",
+              "name_ja": "流回・あまいエネルギー",
+              "name_ko": "흐름 · 달콤한 에너지",
+              "ranks_es": [
+                "Eficiencia de ganancia máxima +18.0%. Después de que la habilidad del portador recupere PH, todo el equipo obtiene ATQ +2.0% durante 30 s. Acumulaciones Máx. de este efecto: 3. La duración de cada acumulación se cuenta por separado. El efecto solo se activa una vez cada 0.1 s. Después de que la habilidad del portador aplique una Ráfaga de artes, todo el equipo obtiene DAÑ por artes infligido +6.0% durante 15 s. Este efecto no se puede acumular.",
+                "Eficiencia de ganancia máxima +21.6%. Después de que la habilidad del portador recupere PH, todo el equipo obtiene ATQ +2.4% durante 30 s. Acumulaciones Máx. de este efecto: 3. La duración de cada acumulación se cuenta por separado. El efecto solo se activa una vez cada 0.1 s. Después de que la habilidad del portador aplique una Ráfaga de artes, todo el equipo obtiene DAÑ por artes infligido +7.2% durante 15 s. Este efecto no se puede acumular.",
+                "Eficiencia de ganancia máxima +25.2%. Después de que la habilidad del portador recupere PH, todo el equipo obtiene ATQ +2.8% durante 30 s. Acumulaciones Máx. de este efecto: 3. La duración de cada acumulación se cuenta por separado. El efecto solo se activa una vez cada 0.1 s. Después de que la habilidad del portador aplique una Ráfaga de artes, todo el equipo obtiene DAÑ por artes infligido +8.4% durante 15 s. Este efecto no se puede acumular.",
+                "Eficiencia de ganancia máxima +28.8%. Después de que la habilidad del portador recupere PH, todo el equipo obtiene ATQ +3.2% durante 30 s. Acumulaciones Máx. de este efecto: 3. La duración de cada acumulación se cuenta por separado. El efecto solo se activa una vez cada 0.1 s. Después de que la habilidad del portador aplique una Ráfaga de artes, todo el equipo obtiene DAÑ por artes infligido +9.6% durante 15 s. Este efecto no se puede acumular.",
+                "Eficiencia de ganancia máxima +32.4%. Después de que la habilidad del portador recupere PH, todo el equipo obtiene ATQ +3.6% durante 30 s. Acumulaciones Máx. de este efecto: 3. La duración de cada acumulación se cuenta por separado. El efecto solo se activa una vez cada 0.1 s. Después de que la habilidad del portador aplique una Ráfaga de artes, todo el equipo obtiene DAÑ por artes infligido +10.8% durante 15 s. Este efecto no se puede acumular.",
+                "Eficiencia de ganancia máxima +36.0%. Después de que la habilidad del portador recupere PH, todo el equipo obtiene ATQ +4.0% durante 30 s. Acumulaciones Máx. de este efecto: 3. La duración de cada acumulación se cuenta por separado. El efecto solo se activa una vez cada 0.1 s. Después de que la habilidad del portador aplique una Ráfaga de artes, todo el equipo obtiene DAÑ por artes infligido +12.0% durante 15 s. Este efecto no se puede acumular.",
+                "Eficiencia de ganancia máxima +39.6%. Después de que la habilidad del portador recupere PH, todo el equipo obtiene ATQ +4.4% durante 30 s. Acumulaciones Máx. de este efecto: 3. La duración de cada acumulación se cuenta por separado. El efecto solo se activa una vez cada 0.1 s. Después de que la habilidad del portador aplique una Ráfaga de artes, todo el equipo obtiene DAÑ por artes infligido +13.2% durante 15 s. Este efecto no se puede acumular.",
+                "Eficiencia de ganancia máxima +43.2%. Después de que la habilidad del portador recupere PH, todo el equipo obtiene ATQ +4.8% durante 30 s. Acumulaciones Máx. de este efecto: 3. La duración de cada acumulación se cuenta por separado. El efecto solo se activa una vez cada 0.1 s. Después de que la habilidad del portador aplique una Ráfaga de artes, todo el equipo obtiene DAÑ por artes infligido +14.4% durante 15 s. Este efecto no se puede acumular.",
+                "Eficiencia de ganancia máxima +50.4%. Después de que la habilidad del portador recupere PH, todo el equipo obtiene ATQ +5.6% durante 30 s. Acumulaciones Máx. de este efecto: 3. La duración de cada acumulación se cuenta por separado. El efecto solo se activa una vez cada 0.1 s. Después de que la habilidad del portador aplique una Ráfaga de artes, todo el equipo obtiene DAÑ por artes infligido +16.8% durante 15 s. Este efecto no se puede acumular."
+              ],
+              "ranks_zh": [
+                "终结技充能效率+18.0%。 装备者通过自身技能恢复技力后，全队攻击力+2.0%，持续30秒。 该效果最多叠加3层，每层单独计算持续时间，每0.1秒最多触发一次。 装备者造成法术爆发时，全队造成的法术伤害+6.0%，持续15秒。 该效果无法叠加。",
+                "终结技充能效率+21.6%。 装备者通过自身技能恢复技力后，全队攻击力+2.4%，持续30秒。 该效果最多叠加3层，每层单独计算持续时间，每0.1秒最多触发一次。 装备者造成法术爆发时，全队造成的法术伤害+7.2%，持续15秒。 该效果无法叠加。",
+                "终结技充能效率+25.2%。 装备者通过自身技能恢复技力后，全队攻击力+2.8%，持续30秒。 该效果最多叠加3层，每层单独计算持续时间，每0.1秒最多触发一次。 装备者造成法术爆发时，全队造成的法术伤害+8.4%，持续15秒。 该效果无法叠加。",
+                "终结技充能效率+28.8%。 装备者通过自身技能恢复技力后，全队攻击力+3.2%，持续30秒。 该效果最多叠加3层，每层单独计算持续时间，每0.1秒最多触发一次。 装备者造成法术爆发时，全队造成的法术伤害+9.6%，持续15秒。 该效果无法叠加。",
+                "终结技充能效率+32.4%。 装备者通过自身技能恢复技力后，全队攻击力+3.6%，持续30秒。 该效果最多叠加3层，每层单独计算持续时间，每0.1秒最多触发一次。 装备者造成法术爆发时，全队造成的法术伤害+10.8%，持续15秒。 该效果无法叠加。",
+                "终结技充能效率+36.0%。 装备者通过自身技能恢复技力后，全队攻击力+4.0%，持续30秒。 该效果最多叠加3层，每层单独计算持续时间，每0.1秒最多触发一次。 装备者造成法术爆发时，全队造成的法术伤害+12.0%，持续15秒。 该效果无法叠加。",
+                "终结技充能效率+39.6%。 装备者通过自身技能恢复技力后，全队攻击力+4.4%，持续30秒。 该效果最多叠加3层，每层单独计算持续时间，每0.1秒最多触发一次。 装备者造成法术爆发时，全队造成的法术伤害+13.2%，持续15秒。 该效果无法叠加。",
+                "终结技充能效率+43.2%。 装备者通过自身技能恢复技力后，全队攻击力+4.8%，持续30秒。 该效果最多叠加3层，每层单独计算持续时间，每0.1秒最多触发一次。 装备者造成法术爆发时，全队造成的法术伤害+14.4%，持续15秒。 该效果无法叠加。",
+                "终结技充能效率+50.4%。 装备者通过自身技能恢复技力后，全队攻击力+5.6%，持续30秒。 该效果最多叠加3层，每层单独计算持续时间，每0.1秒最多触发一次。 装备者造成法术爆发时，全队造成的法术伤害+16.8%，持续15秒。 该效果无法叠加。"
+              ],
+              "ranks_zh-TW": [
+                "終結技蓄能效率+18.0%。 裝備者透過自身技能回復技力後，全隊攻擊力+2.0%，持續30秒。 該效果最多疊加3層，每層單獨計算持續時間，每0.1秒最多觸發一次。 裝備者造成法術爆發時，全隊造成的法術傷害+6.0%，持續15秒。 該效果無法疊加。",
+                "終結技蓄能效率+21.6%。 裝備者透過自身技能回復技力後，全隊攻擊力+2.4%，持續30秒。 該效果最多疊加3層，每層單獨計算持續時間，每0.1秒最多觸發一次。 裝備者造成法術爆發時，全隊造成的法術傷害+7.2%，持續15秒。 該效果無法疊加。",
+                "終結技蓄能效率+25.2%。 裝備者透過自身技能回復技力後，全隊攻擊力+2.8%，持續30秒。 該效果最多疊加3層，每層單獨計算持續時間，每0.1秒最多觸發一次。 裝備者造成法術爆發時，全隊造成的法術傷害+8.4%，持續15秒。 該效果無法疊加。",
+                "終結技蓄能效率+28.8%。 裝備者透過自身技能回復技力後，全隊攻擊力+3.2%，持續30秒。 該效果最多疊加3層，每層單獨計算持續時間，每0.1秒最多觸發一次。 裝備者造成法術爆發時，全隊造成的法術傷害+9.6%，持續15秒。 該效果無法疊加。",
+                "終結技蓄能效率+32.4%。 裝備者透過自身技能回復技力後，全隊攻擊力+3.6%，持續30秒。 該效果最多疊加3層，每層單獨計算持續時間，每0.1秒最多觸發一次。 裝備者造成法術爆發時，全隊造成的法術傷害+10.8%，持續15秒。 該效果無法疊加。",
+                "終結技蓄能效率+36.0%。 裝備者透過自身技能回復技力後，全隊攻擊力+4.0%，持續30秒。 該效果最多疊加3層，每層單獨計算持續時間，每0.1秒最多觸發一次。 裝備者造成法術爆發時，全隊造成的法術傷害+12.0%，持續15秒。 該效果無法疊加。",
+                "終結技蓄能效率+39.6%。 裝備者透過自身技能回復技力後，全隊攻擊力+4.4%，持續30秒。 該效果最多疊加3層，每層單獨計算持續時間，每0.1秒最多觸發一次。 裝備者造成法術爆發時，全隊造成的法術傷害+13.2%，持續15秒。 該效果無法疊加。",
+                "終結技蓄能效率+43.2%。 裝備者透過自身技能回復技力後，全隊攻擊力+4.8%，持續30秒。 該效果最多疊加3層，每層單獨計算持續時間，每0.1秒最多觸發一次。 裝備者造成法術爆發時，全隊造成的法術傷害+14.4%，持續15秒。 該效果無法疊加。",
+                "終結技蓄能效率+50.4%。 裝備者透過自身技能回復技力後，全隊攻擊力+5.6%，持續30秒。 該效果最多疊加3層，每層單獨計算持續時間，每0.1秒最多觸發一次。 裝備者造成法術爆發時，全隊造成的法術傷害+16.8%，持續15秒。 該效果無法疊加。"
+              ],
+              "ranks_ja": [
+                "必殺チャージの回復効率+18.0% 装備中、自身のスキルでSPを回復すると、30秒間チーム全員の攻撃力+2.0% この効果は3回まで重ね掛け可能 効果の持続時間は個別にカウントされ、0.1秒に1回まで発動可能 自身がアーツ爆発を与えるとき、15秒間チーム全員のアーツダメージ+6.0% この効果は重ね掛け不可",
+                "必殺チャージの回復効率+21.6% 装備中、自身のスキルでSPを回復すると、30秒間チーム全員の攻撃力+2.4% この効果は3回まで重ね掛け可能 効果の持続時間は個別にカウントされ、0.1秒に1回まで発動可能 自身がアーツ爆発を与えるとき、15秒間チーム全員のアーツダメージ+7.2% この効果は重ね掛け不可",
+                "必殺チャージの回復効率+25.2% 装備中、自身のスキルでSPを回復すると、30秒間チーム全員の攻撃力+2.8% この効果は3回まで重ね掛け可能 効果の持続時間は個別にカウントされ、0.1秒に1回まで発動可能 自身がアーツ爆発を与えるとき、15秒間チーム全員のアーツダメージ+8.4% この効果は重ね掛け不可",
+                "必殺チャージの回復効率+28.8% 装備中、自身のスキルでSPを回復すると、30秒間チーム全員の攻撃力+3.2% この効果は3回まで重ね掛け可能 効果の持続時間は個別にカウントされ、0.1秒に1回まで発動可能 自身がアーツ爆発を与えるとき、15秒間チーム全員のアーツダメージ+9.6% この効果は重ね掛け不可",
+                "必殺チャージの回復効率+32.4% 装備中、自身のスキルでSPを回復すると、30秒間チーム全員の攻撃力+3.6% この効果は3回まで重ね掛け可能 効果の持続時間は個別にカウントされ、0.1秒に1回まで発動可能 自身がアーツ爆発を与えるとき、15秒間チーム全員のアーツダメージ+10.8% この効果は重ね掛け不可",
+                "必殺チャージの回復効率+36.0% 装備中、自身のスキルでSPを回復すると、30秒間チーム全員の攻撃力+4.0% この効果は3回まで重ね掛け可能 効果の持続時間は個別にカウントされ、0.1秒に1回まで発動可能 自身がアーツ爆発を与えるとき、15秒間チーム全員のアーツダメージ+12.0% この効果は重ね掛け不可",
+                "必殺チャージの回復効率+39.6% 装備中、自身のスキルでSPを回復すると、30秒間チーム全員の攻撃力+4.4% この効果は3回まで重ね掛け可能 効果の持続時間は個別にカウントされ、0.1秒に1回まで発動可能 自身がアーツ爆発を与えるとき、15秒間チーム全員のアーツダメージ+13.2% この効果は重ね掛け不可",
+                "必殺チャージの回復効率+43.2% 装備中、自身のスキルでSPを回復すると、30秒間チーム全員の攻撃力+4.8% この効果は3回まで重ね掛け可能 効果の持続時間は個別にカウントされ、0.1秒に1回まで発動可能 自身がアーツ爆発を与えるとき、15秒間チーム全員のアーツダメージ+14.4% この効果は重ね掛け不可",
+                "必殺チャージの回復効率+50.4% 装備中、自身のスキルでSPを回復すると、30秒間チーム全員の攻撃力+5.6% この効果は3回まで重ね掛け可能 効果の持続時間は個別にカウントされ、0.1秒に1回まで発動可能 自身がアーツ爆発を与えるとき、15秒間チーム全員のアーツダメージ+16.8% この効果は重ね掛け不可"
+              ],
+              "ranks_ko": [
+                "궁극기 충전 효율 +18.0% 장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체의 공격력 +2.0%, 30초 동안 지속. 해당 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다. 장착자가 아츠 폭발 피해를 주면, 팀 전체가 주는 아츠 피해 +6.0%, 15초 동안 지속. 해당 효과는 중첩되지 않습니다.",
+                "궁극기 충전 효율 +21.6% 장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체의 공격력 +2.4%, 30초 동안 지속. 해당 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다. 장착자가 아츠 폭발 피해를 주면, 팀 전체가 주는 아츠 피해 +7.2%, 15초 동안 지속. 해당 효과는 중첩되지 않습니다.",
+                "궁극기 충전 효율 +25.2% 장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체의 공격력 +2.8%, 30초 동안 지속. 해당 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다. 장착자가 아츠 폭발 피해를 주면, 팀 전체가 주는 아츠 피해 +8.4%, 15초 동안 지속. 해당 효과는 중첩되지 않습니다.",
+                "궁극기 충전 효율 +28.8% 장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체의 공격력 +3.2%, 30초 동안 지속. 해당 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다. 장착자가 아츠 폭발 피해를 주면, 팀 전체가 주는 아츠 피해 +9.6%, 15초 동안 지속. 해당 효과는 중첩되지 않습니다.",
+                "궁극기 충전 효율 +32.4% 장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체의 공격력 +3.6%, 30초 동안 지속. 해당 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다. 장착자가 아츠 폭발 피해를 주면, 팀 전체가 주는 아츠 피해 +10.8%, 15초 동안 지속. 해당 효과는 중첩되지 않습니다.",
+                "궁극기 충전 효율 +36.0% 장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체의 공격력 +4.0%, 30초 동안 지속. 해당 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다. 장착자가 아츠 폭발 피해를 주면, 팀 전체가 주는 아츠 피해 +12.0%, 15초 동안 지속. 해당 효과는 중첩되지 않습니다.",
+                "궁극기 충전 효율 +39.6% 장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체의 공격력 +4.4%, 30초 동안 지속. 해당 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다. 장착자가 아츠 폭발 피해를 주면, 팀 전체가 주는 아츠 피해 +13.2%, 15초 동안 지속. 해당 효과는 중첩되지 않습니다.",
+                "궁극기 충전 효율 +43.2% 장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체의 공격력 +4.8%, 30초 동안 지속. 해당 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다. 장착자가 아츠 폭발 피해를 주면, 팀 전체가 주는 아츠 피해 +14.4%, 15초 동안 지속. 해당 효과는 중첩되지 않습니다.",
+                "궁극기 충전 효율 +50.4% 장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체의 공격력 +5.6%, 30초 동안 지속. 해당 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다. 장착자가 아츠 폭발 피해를 주면, 팀 전체가 주는 아츠 피해 +16.8%, 15초 동안 지속. 해당 효과는 중첩되지 않습니다."
+              ]
+            }
+          ]
+        },
+        "name_es": "Oferta dulce",
+        "name_zh": "甜美交易",
+        "name_zh-TW": "甜美交易",
+        "name_ja": "スウィートディール",
+        "name_ko": "달콤한 거래",
+        "stat1_es": "Fuerza +156",
+        "stat2_es": "DAÑ por naturaleza infligido +43.3%",
+        "passive_es": "Eficiencia de ganancia máxima +50.4%. Después de que la habilidad del portador recupere PH, todo el equipo obtiene ATQ +5.6% durante 30 s. Acumulaciones Máx. de este efecto: 3. La duración de cada acumulación se cuenta por separado. El efecto solo se activa una vez cada 0.1 s. Después de que la habilidad del portador aplique una Ráfaga de artes, todo el equipo obtiene DAÑ por artes infligido +16.8% durante 15 s. Este efecto no se puede acumular.",
+        "stat1_zh": "力量+156",
+        "stat2_zh": "自然伤害+43.3%",
+        "passive_zh": "终结技充能效率+50.4%。 装备者通过自身技能恢复技力后，全队攻击力+5.6%，持续30秒。 该效果最多叠加3层，每层单独计算持续时间，每0.1秒最多触发一次。 装备者造成法术爆发时，全队造成的法术伤害+16.8%，持续15秒。 该效果无法叠加。",
+        "stat1_zh-TW": "力量+156",
+        "stat2_zh-TW": "自然傷害+43.3%",
+        "passive_zh-TW": "終結技蓄能效率+50.4%。 裝備者透過自身技能回復技力後，全隊攻擊力+5.6%，持續30秒。 該效果最多疊加3層，每層單獨計算持續時間，每0.1秒最多觸發一次。 裝備者造成法術爆發時，全隊造成的法術傷害+16.8%，持續15秒。 該效果無法疊加。",
+        "stat1_ja": "筋力+156",
+        "stat2_ja": "自然ダメージ+43.3%",
+        "passive_ja": "必殺チャージの回復効率+50.4% 装備中、自身のスキルでSPを回復すると、30秒間チーム全員の攻撃力+5.6% この効果は3回まで重ね掛け可能 効果の持続時間は個別にカウントされ、0.1秒に1回まで発動可能 自身がアーツ爆発を与えるとき、15秒間チーム全員のアーツダメージ+16.8% この効果は重ね掛け不可",
+        "stat1_ko": "힘 +156",
+        "stat2_ko": "자연 피해 +43.3%",
+        "passive_ko": "궁극기 충전 효율 +50.4% 장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체의 공격력 +5.6%, 30초 동안 지속. 해당 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다. 장착자가 아츠 폭발 피해를 주면, 팀 전체가 주는 아츠 피해 +16.8%, 15초 동안 지속. 해당 효과는 중첩되지 않습니다."
+      },
+      {
+        "id": "wpn_lance_0018",
+        "name": "Raid Comet",
+        "type": "Polearm",
+        "rarity": 6,
+        "base_atk": 485,
+        "stat1": "Strength: +156",
+        "stat2": "Ultimate Gain Efficiency: +46.40%",
+        "passive": "Nature DMG Dealt +19.6%. After the wielder applies a Nature Burst, the wielder gains Nature DMG Dealt +33.6% for 20s. After the wielder's skill recovers SP, the entire team gains Arts DMG Dealt +5.6% for 20s. The two effects apply separately and do not stack with themselves.",
+        "scaling_by_rank": {
+          "base_atk": {
+            "min": 49,
+            "max": 485
+          },
+          "passives": [
+            {
+              "name": "Strength Boost [L]",
+              "ranks": [
+                "Strength +20",
+                "Strength +36",
+                "Strength +52",
+                "Strength +68",
+                "Strength +84",
+                "Strength +100",
+                "Strength +116",
+                "Strength +132",
+                "Strength +156"
+              ],
+              "name_es": "Fuerza [G]",
+              "name_zh": "力量提升·大",
+              "name_zh-TW": "力量提升·大",
+              "name_ja": "筋力UP・大",
+              "name_ko": "힘 증가 · 대",
+              "ranks_es": [
+                "Fuerza +20",
+                "Fuerza +36",
+                "Fuerza +52",
+                "Fuerza +68",
+                "Fuerza +84",
+                "Fuerza +100",
+                "Fuerza +116",
+                "Fuerza +132",
+                "Fuerza +156"
+              ],
+              "ranks_zh": [
+                "力量+20",
+                "力量+36",
+                "力量+52",
+                "力量+68",
+                "力量+84",
+                "力量+100",
+                "力量+116",
+                "力量+132",
+                "力量+156"
+              ],
+              "ranks_zh-TW": [
+                "力量+20",
+                "力量+36",
+                "力量+52",
+                "力量+68",
+                "力量+84",
+                "力量+100",
+                "力量+116",
+                "力量+132",
+                "力量+156"
+              ],
+              "ranks_ja": [
+                "筋力+20",
+                "筋力+36",
+                "筋力+52",
+                "筋力+68",
+                "筋力+84",
+                "筋力+100",
+                "筋力+116",
+                "筋力+132",
+                "筋力+156"
+              ],
+              "ranks_ko": [
+                "힘 +20",
+                "힘 +36",
+                "힘 +52",
+                "힘 +68",
+                "힘 +84",
+                "힘 +100",
+                "힘 +116",
+                "힘 +132",
+                "힘 +156"
+              ]
+            },
+            {
+              "name": "Ultimate Gain Efficiency Boost [L]",
+              "ranks": [
+                "Ultimate Gain Efficiency +6.0%",
+                "Ultimate Gain Efficiency +10.7%",
+                "Ultimate Gain Efficiency +15.5%",
+                "Ultimate Gain Efficiency +20.2%",
+                "Ultimate Gain Efficiency +25.0%",
+                "Ultimate Gain Efficiency +29.8%",
+                "Ultimate Gain Efficiency +34.5%",
+                "Ultimate Gain Efficiency +39.3%",
+                "Ultimate Gain Efficiency +46.4%"
+              ],
+              "name_es": "Eficiencia MÁX. [G]",
+              "name_zh": "终结技充能效率提升·大",
+              "name_zh-TW": "終結技蓄能效率提升·大",
+              "name_ja": "必殺技効率UP・大",
+              "name_ko": "궁극기 충전 효율 증가 · 대",
+              "ranks_es": [
+                "Eficiencia de ganancia máxima +6.0%",
+                "Eficiencia de ganancia máxima +10.7%",
+                "Eficiencia de ganancia máxima +15.5%",
+                "Eficiencia de ganancia máxima +20.2%",
+                "Eficiencia de ganancia máxima +25.0%",
+                "Eficiencia de ganancia máxima +29.8%",
+                "Eficiencia de ganancia máxima +34.5%",
+                "Eficiencia de ganancia máxima +39.3%",
+                "Eficiencia de ganancia máxima +46.4%"
+              ],
+              "ranks_zh": [
+                "终结技充能效率+6.0%",
+                "终结技充能效率+10.7%",
+                "终结技充能效率+15.5%",
+                "终结技充能效率+20.2%",
+                "终结技充能效率+25.0%",
+                "终结技充能效率+29.8%",
+                "终结技充能效率+34.5%",
+                "终结技充能效率+39.3%",
+                "终结技充能效率+46.4%"
+              ],
+              "ranks_zh-TW": [
+                "終結技蓄能效率+6.0%",
+                "終結技蓄能效率+10.7%",
+                "終結技蓄能效率+15.5%",
+                "終結技蓄能效率+20.2%",
+                "終結技蓄能效率+25.0%",
+                "終結技蓄能效率+29.8%",
+                "終結技蓄能效率+34.5%",
+                "終結技蓄能效率+39.3%",
+                "終結技蓄能效率+46.4%"
+              ],
+              "ranks_ja": [
+                "必殺チャージの回復効率+6.0%",
+                "必殺チャージの回復効率+10.7%",
+                "必殺チャージの回復効率+15.5%",
+                "必殺チャージの回復効率+20.2%",
+                "必殺チャージの回復効率+25.0%",
+                "必殺チャージの回復効率+29.8%",
+                "必殺チャージの回復効率+34.5%",
+                "必殺チャージの回復効率+39.3%",
+                "必殺チャージの回復効率+46.4%"
+              ],
+              "ranks_ko": [
+                "궁극기 충전 효율 +6.0%",
+                "궁극기 충전 효율 +10.7%",
+                "궁극기 충전 효율 +15.5%",
+                "궁극기 충전 효율 +20.2%",
+                "궁극기 충전 효율 +25.0%",
+                "궁극기 충전 효율 +29.8%",
+                "궁극기 충전 효율 +34.5%",
+                "궁극기 충전 효율 +39.3%",
+                "궁극기 충전 효율 +46.4%"
+              ]
+            },
+            {
+              "name": "Detonate: Skybreaker",
+              "ranks": [
+                "Nature DMG Dealt +7.0%. After the wielder applies a Nature Burst, the wielder gains Nature DMG Dealt +12.0% for 20s. After the wielder's skill recovers SP, the entire team gains Arts DMG Dealt +2.0% for 20s. The two effects apply separately and do not stack with themselves.",
+                "Nature DMG Dealt +8.4%. After the wielder applies a Nature Burst, the wielder gains Nature DMG Dealt +14.4% for 20s. After the wielder's skill recovers SP, the entire team gains Arts DMG Dealt +2.4% for 20s. The two effects apply separately and do not stack with themselves.",
+                "Nature DMG Dealt +9.8%. After the wielder applies a Nature Burst, the wielder gains Nature DMG Dealt +16.8% for 20s. After the wielder's skill recovers SP, the entire team gains Arts DMG Dealt +2.8% for 20s. The two effects apply separately and do not stack with themselves.",
+                "Nature DMG Dealt +11.2%. After the wielder applies a Nature Burst, the wielder gains Nature DMG Dealt +19.2% for 20s. After the wielder's skill recovers SP, the entire team gains Arts DMG Dealt +3.2% for 20s. The two effects apply separately and do not stack with themselves.",
+                "Nature DMG Dealt +12.6%. After the wielder applies a Nature Burst, the wielder gains Nature DMG Dealt +21.6% for 20s. After the wielder's skill recovers SP, the entire team gains Arts DMG Dealt +3.6% for 20s. The two effects apply separately and do not stack with themselves.",
+                "Nature DMG Dealt +14.0%. After the wielder applies a Nature Burst, the wielder gains Nature DMG Dealt +24.0% for 20s. After the wielder's skill recovers SP, the entire team gains Arts DMG Dealt +4.0% for 20s. The two effects apply separately and do not stack with themselves.",
+                "Nature DMG Dealt +15.4%. After the wielder applies a Nature Burst, the wielder gains Nature DMG Dealt +26.4% for 20s. After the wielder's skill recovers SP, the entire team gains Arts DMG Dealt +4.4% for 20s. The two effects apply separately and do not stack with themselves.",
+                "Nature DMG Dealt +16.8%. After the wielder applies a Nature Burst, the wielder gains Nature DMG Dealt +28.8% for 20s. After the wielder's skill recovers SP, the entire team gains Arts DMG Dealt +4.8% for 20s. The two effects apply separately and do not stack with themselves.",
+                "Nature DMG Dealt +19.6%. After the wielder applies a Nature Burst, the wielder gains Nature DMG Dealt +33.6% for 20s. After the wielder's skill recovers SP, the entire team gains Arts DMG Dealt +5.6% for 20s. The two effects apply separately and do not stack with themselves."
+              ],
+              "name_es": "Detonación: Rompecielos",
+              "name_zh": "迸发·划破天际",
+              "name_zh-TW": "迸發·劃破天際",
+              "name_ja": "噴発・スカイブレイカー",
+              "name_ko": "방출 · 하늘 가르기",
+              "ranks_es": [
+                "DAÑ por naturaleza infligido +7.0%. Después de que el portador aplique una Ráfaga de naturaleza, obtiene DAÑ por naturaleza infligido +12.0% durante 20 s. Después de que la habilidad del portador recupere PH, todo el equipo obtiene DAÑ por Artes Infligido +2.0% durante 20 s. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+                "DAÑ por naturaleza infligido +8.4%. Después de que el portador aplique una Ráfaga de naturaleza, obtiene DAÑ por naturaleza infligido +14.4% durante 20 s. Después de que la habilidad del portador recupere PH, todo el equipo obtiene DAÑ por Artes Infligido +2.4% durante 20 s. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+                "DAÑ por naturaleza infligido +9.8%. Después de que el portador aplique una Ráfaga de naturaleza, obtiene DAÑ por naturaleza infligido +16.8% durante 20 s. Después de que la habilidad del portador recupere PH, todo el equipo obtiene DAÑ por Artes Infligido +2.8% durante 20 s. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+                "DAÑ por naturaleza infligido +11.2%. Después de que el portador aplique una Ráfaga de naturaleza, obtiene DAÑ por naturaleza infligido +19.2% durante 20 s. Después de que la habilidad del portador recupere PH, todo el equipo obtiene DAÑ por Artes Infligido +3.2% durante 20 s. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+                "DAÑ por naturaleza infligido +12.6%. Después de que el portador aplique una Ráfaga de naturaleza, obtiene DAÑ por naturaleza infligido +21.6% durante 20 s. Después de que la habilidad del portador recupere PH, todo el equipo obtiene DAÑ por Artes Infligido +3.6% durante 20 s. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+                "DAÑ por naturaleza infligido +14.0%. Después de que el portador aplique una Ráfaga de naturaleza, obtiene DAÑ por naturaleza infligido +24.0% durante 20 s. Después de que la habilidad del portador recupere PH, todo el equipo obtiene DAÑ por Artes Infligido +4.0% durante 20 s. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+                "DAÑ por naturaleza infligido +15.4%. Después de que el portador aplique una Ráfaga de naturaleza, obtiene DAÑ por naturaleza infligido +26.4% durante 20 s. Después de que la habilidad del portador recupere PH, todo el equipo obtiene DAÑ por Artes Infligido +4.4% durante 20 s. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+                "DAÑ por naturaleza infligido +16.8%. Después de que el portador aplique una Ráfaga de naturaleza, obtiene DAÑ por naturaleza infligido +28.8% durante 20 s. Después de que la habilidad del portador recupere PH, todo el equipo obtiene DAÑ por Artes Infligido +4.8% durante 20 s. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+                "DAÑ por naturaleza infligido +19.6%. Después de que el portador aplique una Ráfaga de naturaleza, obtiene DAÑ por naturaleza infligido +33.6% durante 20 s. Después de que la habilidad del portador recupere PH, todo el equipo obtiene DAÑ por Artes Infligido +5.6% durante 20 s. Los dos efectos se aplican por separado y no se acumulan entre sí."
+              ],
+              "ranks_zh": [
+                "自然伤害+7.0%。 装备者造成自然爆发时，自然伤害+12.0%，持续20秒。 装备者通过自身技能恢复技力后，全队造成的法术伤害+2.0%，持续20秒。 两种效果独立生效，且均无法叠加。",
+                "自然伤害+8.4%。 装备者造成自然爆发时，自然伤害+14.4%，持续20秒。 装备者通过自身技能恢复技力后，全队造成的法术伤害+2.4%，持续20秒。 两种效果独立生效，且均无法叠加。",
+                "自然伤害+9.8%。 装备者造成自然爆发时，自然伤害+16.8%，持续20秒。 装备者通过自身技能恢复技力后，全队造成的法术伤害+2.8%，持续20秒。 两种效果独立生效，且均无法叠加。",
+                "自然伤害+11.2%。 装备者造成自然爆发时，自然伤害+19.2%，持续20秒。 装备者通过自身技能恢复技力后，全队造成的法术伤害+3.2%，持续20秒。 两种效果独立生效，且均无法叠加。",
+                "自然伤害+12.6%。 装备者造成自然爆发时，自然伤害+21.6%，持续20秒。 装备者通过自身技能恢复技力后，全队造成的法术伤害+3.6%，持续20秒。 两种效果独立生效，且均无法叠加。",
+                "自然伤害+14.0%。 装备者造成自然爆发时，自然伤害+24.0%，持续20秒。 装备者通过自身技能恢复技力后，全队造成的法术伤害+4.0%，持续20秒。 两种效果独立生效，且均无法叠加。",
+                "自然伤害+15.4%。 装备者造成自然爆发时，自然伤害+26.4%，持续20秒。 装备者通过自身技能恢复技力后，全队造成的法术伤害+4.4%，持续20秒。 两种效果独立生效，且均无法叠加。",
+                "自然伤害+16.8%。 装备者造成自然爆发时，自然伤害+28.8%，持续20秒。 装备者通过自身技能恢复技力后，全队造成的法术伤害+4.8%，持续20秒。 两种效果独立生效，且均无法叠加。",
+                "自然伤害+19.6%。 装备者造成自然爆发时，自然伤害+33.6%，持续20秒。 装备者通过自身技能恢复技力后，全队造成的法术伤害+5.6%，持续20秒。 两种效果独立生效，且均无法叠加。"
+              ],
+              "ranks_zh-TW": [
+                "自然傷害+7.0%。 裝備者造成自然爆發時，自然傷害+12.0%，持續20秒。 裝備者透過自身技能回復技力後，全隊造成的法術傷害+2.0%，持續20秒。 兩種效果獨立生效，且均無法疊加。",
+                "自然傷害+8.4%。 裝備者造成自然爆發時，自然傷害+14.4%，持續20秒。 裝備者透過自身技能回復技力後，全隊造成的法術傷害+2.4%，持續20秒。 兩種效果獨立生效，且均無法疊加。",
+                "自然傷害+9.8%。 裝備者造成自然爆發時，自然傷害+16.8%，持續20秒。 裝備者透過自身技能回復技力後，全隊造成的法術傷害+2.8%，持續20秒。 兩種效果獨立生效，且均無法疊加。",
+                "自然傷害+11.2%。 裝備者造成自然爆發時，自然傷害+19.2%，持續20秒。 裝備者透過自身技能回復技力後，全隊造成的法術傷害+3.2%，持續20秒。 兩種效果獨立生效，且均無法疊加。",
+                "自然傷害+12.6%。 裝備者造成自然爆發時，自然傷害+21.6%，持續20秒。 裝備者透過自身技能回復技力後，全隊造成的法術傷害+3.6%，持續20秒。 兩種效果獨立生效，且均無法疊加。",
+                "自然傷害+14.0%。 裝備者造成自然爆發時，自然傷害+24.0%，持續20秒。 裝備者透過自身技能回復技力後，全隊造成的法術傷害+4.0%，持續20秒。 兩種效果獨立生效，且均無法疊加。",
+                "自然傷害+15.4%。 裝備者造成自然爆發時，自然傷害+26.4%，持續20秒。 裝備者透過自身技能回復技力後，全隊造成的法術傷害+4.4%，持續20秒。 兩種效果獨立生效，且均無法疊加。",
+                "自然傷害+16.8%。 裝備者造成自然爆發時，自然傷害+28.8%，持續20秒。 裝備者透過自身技能回復技力後，全隊造成的法術傷害+4.8%，持續20秒。 兩種效果獨立生效，且均無法疊加。",
+                "自然傷害+19.6%。 裝備者造成自然爆發時，自然傷害+33.6%，持續20秒。 裝備者透過自身技能回復技力後，全隊造成的法術傷害+5.6%，持續20秒。 兩種效果獨立生效，且均無法疊加。"
+              ],
+              "ranks_ja": [
+                "自然ダメージ+7.0% 装備中、自身が自然爆発を与えるとき、20秒間自然ダメージ+12.0% 自身のスキルでSPを回復すると、20秒間チーム全員のアーツダメージ+2.0% 2つの効果はそれぞれ存在し、重ね掛け不可",
+                "自然ダメージ+8.4% 装備中、自身が自然爆発を与えるとき、20秒間自然ダメージ+14.4% 自身のスキルでSPを回復すると、20秒間チーム全員のアーツダメージ+2.4% 2つの効果はそれぞれ存在し、重ね掛け不可",
+                "自然ダメージ+9.8% 装備中、自身が自然爆発を与えるとき、20秒間自然ダメージ+16.8% 自身のスキルでSPを回復すると、20秒間チーム全員のアーツダメージ+2.8% 2つの効果はそれぞれ存在し、重ね掛け不可",
+                "自然ダメージ+11.2% 装備中、自身が自然爆発を与えるとき、20秒間自然ダメージ+19.2% 自身のスキルでSPを回復すると、20秒間チーム全員のアーツダメージ+3.2% 2つの効果はそれぞれ存在し、重ね掛け不可",
+                "自然ダメージ+12.6% 装備中、自身が自然爆発を与えるとき、20秒間自然ダメージ+21.6% 自身のスキルでSPを回復すると、20秒間チーム全員のアーツダメージ+3.6% 2つの効果はそれぞれ存在し、重ね掛け不可",
+                "自然ダメージ+14.0% 装備中、自身が自然爆発を与えるとき、20秒間自然ダメージ+24.0% 自身のスキルでSPを回復すると、20秒間チーム全員のアーツダメージ+4.0% 2つの効果はそれぞれ存在し、重ね掛け不可",
+                "自然ダメージ+15.4% 装備中、自身が自然爆発を与えるとき、20秒間自然ダメージ+26.4% 自身のスキルでSPを回復すると、20秒間チーム全員のアーツダメージ+4.4% 2つの効果はそれぞれ存在し、重ね掛け不可",
+                "自然ダメージ+16.8% 装備中、自身が自然爆発を与えるとき、20秒間自然ダメージ+28.8% 自身のスキルでSPを回復すると、20秒間チーム全員のアーツダメージ+4.8% 2つの効果はそれぞれ存在し、重ね掛け不可",
+                "自然ダメージ+19.6% 装備中、自身が自然爆発を与えるとき、20秒間自然ダメージ+33.6% 自身のスキルでSPを回復すると、20秒間チーム全員のアーツダメージ+5.6% 2つの効果はそれぞれ存在し、重ね掛け不可"
+              ],
+              "ranks_ko": [
+                "자연 피해 +7.0% 장착자가 자연 폭발 피해를 주면, 자연 피해 +12.0%, 20초 동안 지속. 장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체가 주는 아츠 피해 +2.0%, 20초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다.",
+                "자연 피해 +8.4% 장착자가 자연 폭발 피해를 주면, 자연 피해 +14.4%, 20초 동안 지속. 장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체가 주는 아츠 피해 +2.4%, 20초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다.",
+                "자연 피해 +9.8% 장착자가 자연 폭발 피해를 주면, 자연 피해 +16.8%, 20초 동안 지속. 장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체가 주는 아츠 피해 +2.8%, 20초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다.",
+                "자연 피해 +11.2% 장착자가 자연 폭발 피해를 주면, 자연 피해 +19.2%, 20초 동안 지속. 장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체가 주는 아츠 피해 +3.2%, 20초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다.",
+                "자연 피해 +12.6% 장착자가 자연 폭발 피해를 주면, 자연 피해 +21.6%, 20초 동안 지속. 장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체가 주는 아츠 피해 +3.6%, 20초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다.",
+                "자연 피해 +14.0% 장착자가 자연 폭발 피해를 주면, 자연 피해 +24.0%, 20초 동안 지속. 장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체가 주는 아츠 피해 +4.0%, 20초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다.",
+                "자연 피해 +15.4% 장착자가 자연 폭발 피해를 주면, 자연 피해 +26.4%, 20초 동안 지속. 장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체가 주는 아츠 피해 +4.4%, 20초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다.",
+                "자연 피해 +16.8% 장착자가 자연 폭발 피해를 주면, 자연 피해 +28.8%, 20초 동안 지속. 장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체가 주는 아츠 피해 +4.8%, 20초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다.",
+                "자연 피해 +19.6% 장착자가 자연 폭발 피해를 주면, 자연 피해 +33.6%, 20초 동안 지속. 장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체가 주는 아츠 피해 +5.6%, 20초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다."
+              ]
+            }
+          ]
+        },
+        "name_es": "Cometa de incursión",
+        "name_zh": "突击流星",
+        "name_zh-TW": "突擊流星",
+        "name_ja": "アサルトメテオ",
+        "name_ko": "유성 돌격",
+        "stat1_es": "Fuerza +156",
+        "stat2_es": "Eficiencia de ganancia máxima +46.4%",
+        "passive_es": "DAÑ por naturaleza infligido +19.6%. Después de que el portador aplique una Ráfaga de naturaleza, obtiene DAÑ por naturaleza infligido +33.6% durante 20 s. Después de que la habilidad del portador recupere PH, todo el equipo obtiene DAÑ por Artes Infligido +5.6% durante 20 s. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+        "stat1_zh": "力量+156",
+        "stat2_zh": "终结技充能效率+46.4%",
+        "passive_zh": "自然伤害+19.6%。 装备者造成自然爆发时，自然伤害+33.6%，持续20秒。 装备者通过自身技能恢复技力后，全队造成的法术伤害+5.6%，持续20秒。 两种效果独立生效，且均无法叠加。",
+        "stat1_zh-TW": "力量+156",
+        "stat2_zh-TW": "終結技蓄能效率+46.4%",
+        "passive_zh-TW": "自然傷害+19.6%。 裝備者造成自然爆發時，自然傷害+33.6%，持續20秒。 裝備者透過自身技能回復技力後，全隊造成的法術傷害+5.6%，持續20秒。 兩種效果獨立生效，且均無法疊加。",
+        "stat1_ja": "筋力+156",
+        "stat2_ja": "必殺チャージの回復効率+46.4%",
+        "passive_ja": "自然ダメージ+19.6% 装備中、自身が自然爆発を与えるとき、20秒間自然ダメージ+33.6% 自身のスキルでSPを回復すると、20秒間チーム全員のアーツダメージ+5.6% 2つの効果はそれぞれ存在し、重ね掛け不可",
+        "stat1_ko": "힘 +156",
+        "stat2_ko": "궁극기 충전 효율 +46.4%",
+        "passive_ko": "자연 피해 +19.6% 장착자가 자연 폭발 피해를 주면, 자연 피해 +33.6%, 20초 동안 지속. 장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체가 주는 아츠 피해 +5.6%, 20초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다."
       }
     ],
     "Handcannon": [

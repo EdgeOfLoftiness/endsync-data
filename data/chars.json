@@ -144,7 +144,7 @@
       "set": "Eternal Xiranite",
       "setCount": 6,
       "count": 3,
-      "builds": 7
+      "builds": 14
     },
     "name_ko": "안탈",
     "skill_caps": {
@@ -194,15 +194,15 @@
     "name_zh-TW": "弧光",
     "common_gear": {
       "gear": [
-        "frontiers_armor",
+        "frontiers_protection_suit",
         "frontiers_fiber_gloves_t1",
-        "frontiers_comm",
-        "frontiers_o2_tube"
+        "frontiers_extra_o2_tube_t1",
+        "redeemer_seal"
       ],
       "set": "Frontiers",
-      "setCount": 8,
-      "count": 2,
-      "builds": 9
+      "setCount": 10,
+      "count": 3,
+      "builds": 11
     },
     "name_ko": "아크라이트",
     "skill_caps": {
@@ -315,9 +315,9 @@
         "bonekrusha_figurine"
       ],
       "set": "Bonekrusha",
-      "setCount": 3,
+      "setCount": 5,
       "count": 2,
-      "builds": 3
+      "builds": 5
     },
     "name_ko": "아비웨나",
     "skill_caps": {
@@ -420,9 +420,9 @@
         "swordmancer_dagger"
       ],
       "set": "Swordmancer",
-      "setCount": 4,
+      "setCount": 9,
       "count": 3,
-      "builds": 7
+      "builds": 13
     },
     "support_bis_weapons": [
       "wpn_sword_0011",
@@ -483,6 +483,18 @@
       "ultimate": {
         "lv": 9
       }
+    },
+    "common_gear": {
+      "gear": [
+        "rift_trekker_heavy_armor",
+        "swordmancer_tac_gauntlets_t1",
+        "swordmancer_nav_beacon",
+        "swordmancer_nav_beacon"
+      ],
+      "set": "Swordmancer",
+      "setCount": 1,
+      "count": 1,
+      "builds": 1
     }
   },
   {
@@ -543,15 +555,15 @@
     "name_ko": "관리자",
     "common_gear": {
       "gear": [
-        "type_50_yinglung_heavy_armor_t1",
+        "swordmancer_heavy_armor_t1",
         "grizzled_edge_gauntlets_t1",
         "grizzled_edge_push_knife_t1",
         "grizzled_edge_push_knife_t1"
       ],
       "set": "Grizzled Edge",
-      "setCount": 1,
+      "setCount": 2,
       "count": 1,
-      "builds": 2
+      "builds": 3
     },
     "skill_caps": {
       "battle_skill": {
@@ -747,9 +759,9 @@
         "eternal_xiranite_auxiliary_arm"
       ],
       "set": "Eternal Xiranite",
-      "setCount": 21,
+      "setCount": 23,
       "count": 8,
-      "builds": 23
+      "builds": 25
     },
     "name_ko": "질베르타",
     "skill_caps": {
@@ -892,9 +904,9 @@
         "eternal_xiranite_power_core"
       ],
       "set": "Eternal Xiranite",
-      "setCount": 1,
+      "setCount": 2,
       "count": 1,
-      "builds": 2
+      "builds": 3
     },
     "name_ko": "여풍",
     "skill_caps": {
@@ -945,7 +957,7 @@
       "set": "Pulser Labs",
       "setCount": 19,
       "count": 10,
-      "builds": 34
+      "builds": 36
     },
     "support_bis_weapons": [
       "wpn_funnel_0009",
@@ -992,9 +1004,9 @@
         "hot_work_power_cartridge"
       ],
       "set": "Frontiers",
-      "setCount": 5,
+      "setCount": 7,
       "count": 3,
-      "builds": 9
+      "builds": 13
     },
     "name_ko": "포그라니치니크",
     "skill_caps": {
@@ -1050,9 +1062,9 @@
         "mi_security_scope_t1"
       ],
       "set": "MI Security",
-      "setCount": 12,
-      "count": 9,
-      "builds": 12
+      "setCount": 14,
+      "count": 11,
+      "builds": 14
     },
     "name_ko": "로시",
     "skill_caps": {
@@ -1244,9 +1256,9 @@
         "frontiers_extra_o2_tube_t1"
       ],
       "set": "Eternal Xiranite",
-      "setCount": 18,
+      "setCount": 19,
       "count": 5,
-      "builds": 28
+      "builds": 29
     },
     "name_ko": "자이히",
     "skill_caps": {
@@ -1342,9 +1354,9 @@
         "grizzled_edge_push_knife"
       ],
       "set": "Grizzled Edge",
-      "setCount": 11,
-      "count": 4,
-      "builds": 11
+      "setCount": 13,
+      "count": 5,
+      "builds": 13
     },
     "name_ko": "미브",
     "skill_caps": {
@@ -1510,9 +1522,9 @@
         "lynx_slab"
       ],
       "set": "Hot Work",
-      "setCount": 25,
+      "setCount": 27,
       "count": 15,
-      "builds": 43
+      "builds": 50
     },
     "name_ko": "결",
     "skill_caps": {
@@ -1563,7 +1575,7 @@
       "set": "LYNX",
       "setCount": 12,
       "count": 5,
-      "builds": 18
+      "builds": 22
     },
     "name_ko": "리노",
     "skill_caps": {
@@ -1616,9 +1628,9 @@
         "deep_rampart_comms"
       ],
       "set": "Deep Rampart",
-      "setCount": 11,
+      "setCount": 12,
       "count": 6,
-      "builds": 11
+      "builds": 12
     },
     "name_ja": "ティフォロス",
     "name_zh": "提弗洛斯",
@@ -1722,9 +1734,9 @@
         "type_50_yinglung_beacon"
       ],
       "set": "Type 50 Yinglung",
-      "setCount": 18,
-      "count": 9,
-      "builds": 19
+      "setCount": 19,
+      "count": 10,
+      "builds": 20
     },
     "skill_caps": {
       "battle_skill": {
@@ -1784,9 +1796,9 @@
         "pulser_labs_armor_slab"
       ],
       "set": "Pulser Labs",
-      "setCount": 4,
-      "count": 3,
-      "builds": 4
+      "setCount": 17,
+      "count": 11,
+      "builds": 18
     }
   },
   {
@@ -1797,11 +1809,54 @@
     "r": 6,
     "role": "Enabler",
     "icon": "<img src='assets/characters/kay_card.webp' class='char-av-img' loading='lazy'>",
+    "bis_weapon": "wpn_lance_0017",
+    "recommended_set": "Frontiers",
+    "recommended_gear": [
+      "frontiers_hvy_steel_plate",
+      "frontiers_hvy_gauntlets",
+      "frontiers_composite_rha",
+      "rift_trekker_silver_blade"
+    ],
     "name_es": "Kay",
     "name_zh": "小刻",
     "name_zh-TW": "小刻",
     "name_ja": "ケーちゃん",
-    "name_ko": "케르"
+    "name_ko": "케르",
+    "skill_caps": {
+      "battle_skill": {
+        "lv": 9
+      },
+      "combo_skill": {
+        "lv": 12,
+        "stat": "SP Recovery",
+        "stat_es": "Recuperación de PH",
+        "stat_zh": "恢复技力",
+        "stat_zh-TW": "回復技力",
+        "stat_ja": "SP回復量",
+        "stat_ko": "스킬 게이지 회복"
+      },
+      "ultimate": {
+        "lv": 12,
+        "stat": "SP Recovery",
+        "stat_es": "Recuperación de PH",
+        "stat_zh": "恢复技力",
+        "stat_zh-TW": "回復技力",
+        "stat_ja": "SP回復量",
+        "stat_ko": "스킬 게이지 회복"
+      }
+    },
+    "common_gear": {
+      "gear": [
+        "frontiers_hvy_steel_plate",
+        "frontiers_hvy_gauntlets",
+        "aic_fieldwork_ember",
+        "frontiers_compressed_slab"
+      ],
+      "set": "Frontiers",
+      "setCount": 1,
+      "count": 1,
+      "builds": 1
+    }
   },
   {
     "id": "mimino",

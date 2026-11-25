@@ -1541,6 +1541,35 @@
      }
     }
    }
+  },
+  "kay": {
+   "comboTrigger": {
+    "raw": "While Kay has ≥ 1 Weapon and either Nature Infliction is applied OR Arts Burst DMG is dealt to the enemy.",
+    "any": [
+     {
+      "state": "nature_infl",
+      "event": true
+     },
+     {
+      "burst": true
+     }
+    ]
+   },
+   "condHits": {
+    "battle_skill": [
+     {
+      "requires": "hot_edgy_naives",
+      "multStat": "Bonus DMG Multiplier per Hot Edgy Naives",
+      "label": "per Hot Edgy Naives stack"
+     }
+    ]
+   },
+   "spMult": {
+    "combo_skill": {
+     "keystone": "Kwikker Smash",
+     "mult": 1.3
+    }
+   }
   }
  }
 }

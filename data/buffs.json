@@ -4612,6 +4612,149 @@
         "durS": 20,
         "noStack": true
       }
+    ],
+    "kay": [
+      {
+        "id": "kay-1",
+        "src": "Bottomless Arsenal",
+        "srcType": "talent",
+        "target": "team",
+        "cond": {
+          "en": "Salvaging a Weapon grants Kay 1 stack of Hot Edgy Naives and grants the entire team Arts DMG Dealt +1.5%, with Nature DMG Dealt getting another +1.5%. Duration: 15s. Max stacks for this effect: 3.",
+          "es": "Al recuperar un Arma, Kay obtiene 1 acumulación de Ingenuidad cortante y ardiente y todo el equipo obtiene DAÑ por artes infligido +1.5%, con otro aumento de DAÑ por Naturaleza infligido de +1.5%. Duración: 15 s. Acumulaciones Máx. de este efecto: 3.",
+          "zh": "收回武器时，小刻获得一层热切天性，并使全队造成的法术伤害+1.5%，自然伤害额外+1.5%，持续15秒，该效果最多叠加3层。",
+          "zh-TW": "收回武器時，小刻獲得一層熱切天性，並使全隊造成的法術傷害+1.5%，自然傷害額外+1.5%，持續15秒，該效果最多疊加3層。",
+          "ja": "武器を回収するとき、熱き天性を1段階獲得し、15秒間チーム全員の与えるアーツダメージ+1.5%、自然ダメージがさらに+1.5%（3回まで重ね掛け可能）",
+          "ko": "무기를 회수하면 케르가 뜨겁고 날카로운 천성을 1스택 획득하고, 팀 전체가 주는 아츠 피해 +1.5%, 자연 피해 추가로 +1.5%, 15초 동안 지속. 해당 효과는 최대 3스택까지 중첩됩니다."
+        },
+        "mods": [
+          {
+            "type": "dmgAdd",
+            "value": 0.015,
+            "element": "arts"
+          },
+          {
+            "type": "dmgAdd",
+            "value": 0.015,
+            "element": "nature"
+          }
+        ],
+        "trigger": {
+          "onMechanic": "weaponSalvage",
+          "maxStacks": 3
+        },
+        "durS": 15,
+        "pendingModel": "La Rotación todavía no tiene el evento «recuperar un Arma» (Kay está fuera de ella: model_wip.rotation). En Daño es un interruptor que cuenta 3 acumulaciones (el tope del texto)."
+      },
+      {
+        "id": "kay-k1",
+        "src": "Wildness Ignited",
+        "srcType": "keystone",
+        "target": "team",
+        "cond": {
+          "en": "Talent Bottomless Arsenal improved: Each Weapon salvage gives the entire team an additional Arts DMG Dealt +2.0%, with additional Nature DMG Dealt getting another +2.0%, for an additional duration of +10s.",
+          "es": "Talento Arsenal inagotable mejorado: Cada Arma recuperada otorga a todo el equipo DAÑ por Artes Infligido +2.0% adicional y DAÑ por naturaleza Infligido adicional de +2.0%, con una duración adicional de +10 s.",
+          "zh": "天赋无底武器库效果加强：每次收回武器，全队的法术伤害提升效果额外+2.0%，自然伤害再额外+2.0%，持续时间额外+10秒。",
+          "zh-TW": "天賦無底武器庫效果加強：每次收回武器，全隊的法術傷害提升效果額外+2.0%，自然傷害再額外+2.0%，持續時間額外+10秒。",
+          "ja": "素質「そこなし武器庫」強化：武器を回収するたびに、チーム全員のアーツダメージUP効果がさらに+2.0%、自然ダメージがさらに+2.0%、持続時間がさらに+10秒",
+          "ko": "재능 무한의 무기고 효과 강화: 무기를 회수할 때마다 팀 전체의 아츠 피해 증가 효과 추가로 +2.0%, 자연 피해 추가로 +2.0%, 해당 효과의 지속 시간이 추가로 +10초."
+        },
+        "mods": [
+          {
+            "type": "dmgAdd",
+            "value": 0.02,
+            "element": "arts"
+          },
+          {
+            "type": "dmgAdd",
+            "value": 0.02,
+            "element": "nature"
+          }
+        ],
+        "trigger": {
+          "onMechanic": "weaponSalvage",
+          "maxStacks": 3
+        },
+        "durS": 25,
+        "pendingModel": "La Rotación todavía no tiene el evento «recuperar un Arma» (Kay está fuera de ella: model_wip.rotation). En Daño es un interruptor que cuenta 3 acumulaciones (el tope del texto). Los 10 s de más del potencial valen también para kay-1."
+      },
+      {
+        "id": "kay-k2",
+        "src": "Expert Roamer",
+        "srcType": "keystone",
+        "target": "self",
+        "cond": {
+          "en": "Strength +20, Nature DMG Dealt +10%.",
+          "es": "Fuerza +20, DAÑ por Naturaleza Infligido +10%.",
+          "zh": "力量+20，造成的自然伤害+10%。",
+          "zh-TW": "力量+20，造成的自然傷害+10%。",
+          "ja": "筋力+20、与える自然ダメージ+10%",
+          "ko": "힘 +20, 주는 자연 피해 +10%"
+        },
+        "mods": [
+          {
+            "type": "attrFlat",
+            "attr": "strength",
+            "value": 20
+          },
+          {
+            "type": "dmgAdd",
+            "value": 0.1,
+            "element": "nature"
+          }
+        ],
+        "permanent": true
+      },
+      {
+        "id": "kay-k3",
+        "src": "Picnic Prep",
+        "srcType": "keystone",
+        "target": "self",
+        "cond": {
+          "en": "Battle skill \"Really Heavy Bash\" enhanced: Bonus DMG Multiplier per Hot Edgy Naives stack is increased to 1.2 times the original. Ultimate \"Really Sweet Combi-Bonker!\" improved: DMG Multiplier is increased to 1.2 times the original.",
+          "es": "Habilidad de batalla “Golpe superpesado” mejorada: El Multiplicador de DAÑ adicional por cada acumulación de Ingenuidad cortante y ardiente aumenta a 1.2 veces su valor original. Máxima “¡Combimazo superdulce!” mejorada: El Multiplicador de DAÑ aumenta a 1.2 veces el original.",
+          "zh": "每层热切天性为战技“很重地打”提供的额外伤害倍率提升至原本的1.2倍，终结技“超甜蜜复合重锤！”伤害倍率提升至原本的1.2倍。",
+          "zh-TW": "每層熱切天性為戰技「很重地打」提供的額外傷害倍率提升至原本的1.2倍，終結技「超甜蜜複合重錘！」傷害倍率提升至原本的1.2倍。",
+          "ja": "熱き天性1段階ごとに戦技「“おもいいちげき”」に付与される追加ダメージ倍率が1.2倍までアップし、必殺技「“超あまあま特製ハンマー”」のダメージ倍率が1.2倍までアップする",
+          "ko": "뜨겁고 날카로운 천성 1스택당 배틀 스킬 '엄청 묵직한' 한 방에 적용되는 추가 피해 배율이 기존의 1.2배로 증가하고, 궁극기 '엄청 달콤한' 합체 망치!의 피해 배율이 기존의 1.2배로 증가합니다."
+        },
+        "mods": [
+          {
+            "type": "dmgMult",
+            "value": 0.2,
+            "slot": "battle_skill",
+            "stat": "Bonus DMG Multiplier per Hot Edgy Naives"
+          },
+          {
+            "type": "dmgMult",
+            "value": 0.2,
+            "slot": "ultimate"
+          }
+        ],
+        "permanent": true
+      },
+      {
+        "id": "kay-k5",
+        "src": "Kwikker Smash",
+        "srcType": "keystone",
+        "target": "self",
+        "cond": {
+          "en": "Combo skill \"Really Kwik Smash\" improved: Length of cooldown -1s. DMG Multiplier is increased to 1.2 times the original. SP Recovery is increased to 1.3 times the original.",
+          "es": "Habilidad de combo “Golpe bien rápido” mejorada: Duración del tiempo de reutilización: -1 s. El Multiplicador de DAÑ aumenta a 1.2 veces el original. La Recuperación de PH aumenta a 1.3 veces la original.",
+          "zh": "连携技“很快地砸”冷却时间-1秒，伤害倍率提升至原本的1.2倍，技力恢复量提升至原本的1.3倍。",
+          "zh-TW": "連攜技「很快地砸」冷卻時間-1秒，傷害倍率提升至原本的1.2倍，技力回復量提升至原本的1.3倍。",
+          "ja": "連携技「“はやいいちげき”」のCD時間-1秒、ダメージ倍率が1.2倍までアップし、SP回復量が1.3倍までアップする",
+          "ko": "연계 스킬 '엄청 빠른' 내려치기의 쿨타임 -1초, 피해 배율이 기존의 1.2배로 증가하고, 스킬 게이지 회복량이 기존의 1.3배로 증가합니다."
+        },
+        "mods": [
+          {
+            "type": "dmgMult",
+            "value": 0.2,
+            "slot": "combo_skill"
+          }
+        ],
+        "permanent": true
+      }
     ]
   }
 }

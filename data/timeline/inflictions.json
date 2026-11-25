@@ -1020,6 +1020,40 @@
      }
     }
    }
+  },
+  "kay": {
+   "battle_skill": {
+    "applies": [
+     {
+      "el": "nature"
+     }
+    ],
+    "forces": [
+     {
+      "reaction": "combustion",
+      "label": {
+       "en": "3 Hot Edgy Naives stacks",
+       "es": "3 acumulaciones de Ingenuidad cortante y ardiente",
+       "zh": "3层热切天性",
+       "zh-TW": "3層熱切天性",
+       "ja": "熱き天性3段階",
+       "ko": "뜨겁고 날카로운 천성 3스택"
+      },
+      "noHit": true,
+      "durStat": "Combustion Duration (s)",
+      "requiresAny": [
+       "hot_edgy_naives_3"
+      ]
+     }
+    ]
+   },
+   "ultimate": {
+    "applies": [
+     {
+      "el": "nature"
+     }
+    ]
+   }
   }
  }
 }

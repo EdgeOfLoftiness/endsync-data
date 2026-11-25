@@ -12239,30 +12239,357 @@
       "class": "Vanguard",
       "element": "Nature",
       "weapon_type": "Polearm",
-      "upcoming": true,
-      "data_pending": true,
+      "model_wip": {
+        "dmg": true,
+        "rotation": true
+      },
+      "primary_attribute": "Strength",
+      "secondary_attribute": "Agility",
+      "stats_lv90": {
+        "hp": 5495,
+        "atk": 318,
+        "strength": 171,
+        "agility": 121,
+        "intellect": 89,
+        "will": 96
+      },
       "skills": {
         "basic_attack": {
           "name": "Wild Wacky-Whack",
-          "description": "An attack with up to 5 sequences that deals <u>Physical DMG</u>. The finisher deals massive <u>Physical DMG</u> and restores some SP.",
-          "description_es": "Un ataque de hasta 5 secuencias que inflige <u>DAÑ físico</u>. El remate inflige <u>DAÑ físico</u> masivo y recupera algo de PH."
+          "sequences": 5,
+          "dmg_type": "Physical",
+          "final_strike_stagger": 17,
+          "description": "An attack with up to 5 sequences that deals Physical DMG. As the controlled operator, <u>Final Strike</u> also deals <b>17</b> Stagger.",
+          "multipliers_max": {
+            "sequence_dmg_pct": [
+              48,
+              52,
+              60,
+              90,
+              132
+            ],
+            "dive_dmg_pct": 180,
+            "finisher_dmg_pct": 900
+          },
+          "effects": [
+            "Final Strike"
+          ],
+          "description_dive": "Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.",
+          "description_finisher": "Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+          "name_es": "Golpe alocado y salvaje",
+          "description_es": "Un ataque de hasta 5 secuencias que inflige DAÑ físico. Como operador controlado, el <u>Golpe final</u> también inflige <b>17</b> de Tambaleo.",
+          "description_dive_es": "El ataque básico realizado en el aire se convierte en un ataque de inmersión que inflige DAÑ físico a los enemigos cercanos.",
+          "description_finisher_es": "El ataque básico realizado cerca de un enemigo en estado Tambaleado se convierte en un Remate que inflige DAÑ físico masivo y recupera algunos PH.",
+          "name_zh": "野性打击",
+          "description_zh": "对敌人进行至多5段攻击，造成物理伤害。作为主控干员时，<u>重击</u>会造成<b>17</b>点失衡。",
+          "description_dive_zh": "处于空中时使用普通攻击，会下落并攻击附近敌人，造成物理伤害。",
+          "description_finisher_zh": "附近有敌人处于失衡状态时使用普通攻击，将处决该敌人，造成大量物理伤害并恢复一定技力。",
+          "name_zh-TW": "野性打擊",
+          "description_zh-TW": "對敵人進行最多5段攻擊，造成物理傷害。作為主控幹員時，<u>重擊</u>會造成<b>17</b>點失衡。",
+          "description_dive_zh-TW": "處於空中時使用普通攻擊，會下落並攻擊附近敵人，造成物理傷害。",
+          "description_finisher_zh-TW": "附近有敵人處於失衡狀態時使用普通攻擊，將處決該敵人，造成大量物理傷害並回復一定技力。",
+          "name_ja": "やせいのだげき",
+          "description_ja": "最大5段の攻撃で敵に物理ダメージを与える。操作中のオペレーターの場合、<u>重攻撃</u>はブレイク値<b>17</b>を与える。",
+          "description_dive_ja": "空中で通常攻撃を使用すると、落下して周囲の敵に物理ダメージを与える。",
+          "description_finisher_ja": "近くにブレイク状態の敵がいるときに通常攻撃を使用すると、その敵に終撃を行い、高い物理ダメージを与えてSPを一定量回復する。",
+          "name_ko": "야성의 일격",
+          "description_ko": "적에게 최대 5단 공격을 하여 물리 피해를 줍니다. 메인 컨트롤 오퍼레이터라면 <u>강력한 일격</u>이 <b>17</b>포인트의 불균형 피해를 줍니다.",
+          "description_dive_ko": "공중에 떴을 때, 일반 공격을 사용하면 낙하하며 주변의 적을 공격하고 물리 피해를 줍니다.",
+          "description_finisher_ko": "주변에 불균형 상태의 적이 있을 때, 일반 공격을 사용하면 해당 적을 처형하여 대량의 물리 피해를 주고 일정량의 스킬 게이지를 회복합니다."
         },
         "battle_skill": {
-          "name": "Really Heavy Bash",
-          "description": "Kay leaps up to power up, salvages all her Weapons and slams her hammer into the ground: enemies in the area take <u>Nature DMG</u> that grows with her <u>Hot Edgy Naives</u> stacks and suffer <u>Nature Infliction</u>. It consumes all Hot Edgy Naives stacks; if it consumes 3 at once, it also applies <u>Combustion</u> to the enemies in the area. With her talent <u>Bottomless Arsenal</u>, Kay starts with 3 Weapons, and each Weapon salvaged during battle grants her 1 Hot Edgy Naives stack and increases the <u>Arts DMG</u> dealt by the whole team.",
-          "description_es": "Kay salta para cargar poder, recupera todas sus Armas y golpea el suelo con su martillo: los enemigos del área reciben <u>DAÑ por naturaleza</u>, que crece con sus acumulaciones de <u>Hot Edgy Naives</u>, y sufren <u>Imposición de naturaleza</u>. Consume todas las acumulaciones de Hot Edgy Naives; si consume 3 a la vez, también aplica <u>Combustión</u> a los enemigos del área. Con su talento <u>Bottomless Arsenal</u>, Kay empieza con 3 Armas, y cada Arma que recupera en combate le da 1 acumulación de Hot Edgy Naives y aumenta el <u>DAÑ por artes</u> infligido por todo el equipo."
+          "name": "\"Really Heavy Bash\"",
+          "sp_cost": 100,
+          "dmg_type": "Nature",
+          "description": "Kay leaps into mid-air for a short power-up, salvages all her <u>Weapons</u>, then unleashes a powerful ground bash with her heavy hammer. The bash deals Nature DMG (based on her <u>Hot Edgy Naives</u> stacks), applies <u>Nature Infliction</u> on enemies within the area of effect, and consumes all Hot Edgy Naives stacks. If Kay consumes 3 Hot Edgy Naives stacks, she also forcibly applies <u>Combustion</u> on enemies.<br/>If ＞ 3 Hot Edgy Naives stacks are consumed, the effects will be the same as those for 3 stacks.",
+          "multipliers_max": [
+            {
+              "name": "DMG Multiplier",
+              "value": 300,
+              "formatted": "300%"
+            },
+            {
+              "name": "Stagger",
+              "value": 10,
+              "formatted": "10"
+            },
+            {
+              "name": "Bonus DMG Multiplier per Hot Edgy Naives",
+              "value": 100,
+              "formatted": "100%"
+            },
+            {
+              "name": "Combustion Duration (s)",
+              "value": 5,
+              "formatted": "5"
+            }
+          ],
+          "effects": [
+            "Nature Infliction",
+            "Combustion"
+          ],
+          "name_es": "“Golpe superpesado”",
+          "description_es": "Kay salta y realiza una breve concentración de energía en el aire, recupera todas sus <u>Armas</u> y luego asesta un potente golpe al suelo con su pesado martillo. El golpe inflige DAÑ por naturaleza (según sus acumulaciones de <u>Ingenuidad cortante y ardiente</u>), aplica <u>Imposición de naturaleza</u> a los enemigos del área de efecto y consume todas las acumulaciones de Ingenuidad cortante y ardiente. Si Kay consume 3 acumulaciones de Ingenuidad cortante y ardiente, también aplica <u>Combustión</u> forzada a los enemigos.<br/>Si consume > 3 acumulaciones de Ingenuidad cortante y ardiente, los efectos serán los mismos que con 3 acumulaciones.",
+          "name_zh": "“很重地打”",
+          "description_zh": "小刻跃向空中并蓄力，回收所有<u>武器</u>，随后将大锤重重砸向地面，对范围内敌人造成基于<u>热切天性</u>层数的自然伤害，施加<u>自然附着</u>并消耗所有热切天性。若小刻消耗了3层热切天性，还会对敌人强制施加<u>燃烧</u>。<br/>热切天性大于3层时，视为3层。",
+          "name_zh-TW": "「很重地打」",
+          "description_zh-TW": "小刻躍向空中並蓄力，回收所有<u>武器</u>，隨後將大錘重重砸向地面，對範圍內敵人造成基於<u>熱切天性</u>層數的自然傷害，施加<u>自然附著</u>並消耗所有熱切天性。若小刻消耗了3層熱切天性，還會對敵人強制施加<u>燃燒</u>。<br/>熱切天性大於3層時，視為3層。",
+          "name_ja": "“おもいいちげき”",
+          "description_ja": "空中に跳び上がって力を溜め、すべての<u>武器</u>を回収する。その後、大槌を地面に勢いよく叩きつけ、範囲内の敵に<u>熱き天性</u>の段階数に応じた自然ダメージを与え、<u>自然付着</u>を付与し、すべての熱き天性を消費する。熱き天性を3段階消費した場合、さらに敵を強制的に<u>燃焼</u>状態にする。<br/>熱き天性が3段階を超えている場合、3段階と見なされる。",
+          "name_ko": "'엄청 묵직한' 한 방",
+          "description_ko": "케르가 공중으로 뛰어올라 차지하며 <u>무기</u>를 모두 회수한 뒤, 대형 망치로 지면을 힘껏 내리칩니다. <u>뜨겁고 날카로운 천성</u>의 스택 수치에 따라 범위 내 적에게 자연 피해를 주고 <u>자연 부착</u>을 부여하며, 뜨겁고 날카로운 천성을 모두 소모합니다. 케르가 뜨겁고 날카로운 천성을 3스택 소모하면 적에게 <u>연소</u>를 강제로 부여합니다.<br/>뜨겁고 날카로운 천성이 3스택을 초과하면 3스택으로 계산합니다."
         },
         "combo_skill": {
-          "name": "Really Kwik Smash",
-          "description": "Triggers when <u>Nature Infliction</u> is applied to an enemy or it takes <u>Arts Burst</u> DMG while Kay has at least 1 Weapon: Kay throws a Weapon that deals <u>Nature DMG</u>; the hit recovers some SP and forcibly triggers a <u>Nature Burst</u>. The Weapon then drops at a random point on the battlefield and is salvaged when the controlled operator touches it (or with her battle skill). It cannot trigger while all 3 of her Weapons are thrown.",
-          "description_es": "Se activa cuando a un enemigo se le aplica <u>Imposición de naturaleza</u> o recibe DAÑ por <u>Ráfaga de artes</u> mientras Kay tiene al menos 1 Arma: Kay lanza un Arma que inflige <u>DAÑ por naturaleza</u>; el impacto recupera algo de PH y provoca de forma forzada una <u>Ráfaga de naturaleza</u>. Después, el Arma cae en un punto al azar del campo de batalla y se recupera cuando el operador controlado la toca (o con su habilidad de batalla). No se puede activar si sus 3 Armas están lanzadas."
+          "name": "\"Really Kwik Smash\"",
+          "cooldown_s": 6,
+          "trigger": "While Kay has ≥ 1 <u>Weapon</u> and either <u>Nature Infliction</u> is applied OR <u>Arts Burst</u> DMG is dealt to the enemy.",
+          "dmg_type": "Nature",
+          "description": "Kay throws a Weapon at the target to deal Nature DMG. Hitting the enemy recovers some SP and also forcibly applies a <u>Nature Burst</u>. The Weapon will then drop at a random location in the battlefield. Kay <u>salvages</u> the said Weapon when the controlled operator touches it.",
+          "multipliers_max": [
+            {
+              "name": "DMG Multiplier",
+              "value": 70,
+              "formatted": "70%"
+            },
+            {
+              "name": "Stagger",
+              "value": 5,
+              "formatted": "5"
+            },
+            {
+              "name": "Ultimate Energy Gain",
+              "value": 5,
+              "formatted": "5"
+            },
+            {
+              "name": "SP Recovery",
+              "value": 12,
+              "formatted": "12"
+            }
+          ],
+          "effects": [
+            "Nature Infliction",
+            "Arts Burst",
+            "Nature Burst"
+          ],
+          "name_es": "“Golpe bien rápido”",
+          "trigger_es": "Mientras Kay tenga ≥ 1 <u>arma</u> y se aplique ya sea <u>Imposición de naturaleza</u> O se inflija <u>DAÑ por ráfaga de artes</u> al enemigo.",
+          "description_es": "Kay lanza un Arma al objetivo para infligir DAÑ por naturaleza. Golpear al enemigo recupera algo de PH y también aplica una <u>Ráfaga de naturaleza</u> forzada. Luego, el Arma cae en un punto al azar del campo de batalla. Kay <u>recupera</u> dicha Arma cuando el operador controlado la toca.",
+          "name_zh": "“很快地砸”",
+          "trigger_zh": "在拥有至少一把<u>武器</u>的情况下，有敌人被施加<u>自然附着</u>或受到<u>法术爆发</u>伤害时可以发动。",
+          "description_zh": "向目标丢出武器，造成自然伤害、命中敌人后恢复一定技力并额外强制造成一次<u>自然爆发</u>，之后武器会随机掉落在场地中。主控干员触碰武器后，小刻收回该武器。",
+          "name_zh-TW": "「很快地砸」",
+          "trigger_zh-TW": "在持有至少一把<u>武器</u>的情況下，有敵人被施加<u>自然附著</u>或受到<u>法術爆發</u>傷害時可以發動。",
+          "description_zh-TW": "向目標扔出武器，造成自然傷害、命中敵人後回復一定技力並額外強制造成一次<u>自然爆發</u>，之後武器會隨機掉落在場地中。主控幹員觸碰武器後，小刻收回該武器。",
+          "name_ja": "“はやいいちげき”",
+          "trigger_ja": "<u>武器</u>を1本以上所持している状態で、敵が<u>自然付着</u>または<u>アーツ爆発</u>ダメージを受けたときに発動可能。",
+          "description_ja": "目標に武器を投げつけ、自然ダメージを与える。敵に命中すると、SPを一定量回復し、強制的に<u>自然爆発</u>を1回与える。その後、武器はフィールド内のランダムな位置にドロップする。操作中のオペレーターが武器に触れると、ケーちゃんがその武器を回収する。",
+          "name_ko": "'엄청 빠른' 내려치기",
+          "trigger_ko": "<u>무기</u>를 1개 이상 보유한 상태에서 <u>자연 부착</u>이 부여되거나 <u>아츠 폭발</u> 피해를 받은 적이 있을 때 발동할 수 있습니다.",
+          "description_ko": "목표를 향해 무기를 던져 자연 피해를 줍니다. 적에게 명중하면 일정량의 스킬 게이지를 회복하고 강제로 <u>자연 폭발</u> 피해를 1회 더 주며, 무기는 전장 내 임의의 위치에 떨어집니다. 메인 컨트롤 오퍼레이터가 무기에 접촉하면 케르가 해당 무기를 회수합니다."
         },
         "ultimate": {
-          "name": "Really Sweet Combi-Bonker!",
-          "description": "Kay kitbashes a combi-bonker, swings it several times and throws it to cause an explosion that deals <u>Nature DMG</u> and applies <u>Nature Infliction</u> to enemies in the area; it recovers some SP and leaves several <u>Picnic Snacks</u> behind. When the controlled operator picks up a Picnic Snack, Kay grants them <u>HP Treatment</u> and restores some SP. With her talent <u>Have a Waffle!</u>, an enemy that is <u>Staggered</u> or reaches a <u>Stagger Node</u> drops 1 Picnic Waffle; this effect has a cooldown.",
-          "description_es": "Kay arma un combi-bonker improvisado, lo blande varias veces y lo lanza para causar una explosión que inflige <u>DAÑ por naturaleza</u> y aplica <u>Imposición de naturaleza</u> a los enemigos del área; recupera algo de PH y deja varios <u>Picnic Snacks</u> en el campo. Cuando el operador controlado recoge un Picnic Snack, Kay le otorga <u>Tratamiento de PV</u> y recupera algo de PH. Con su talento <u>Have a Waffle!</u>, un enemigo que queda <u>Tambaleado</u> o alcanza un <u>Nodo de tambaleo</u> suelta 1 Picnic Waffle; este efecto tiene tiempo de reutilización."
+          "name": "\"Really Sweet Combi-Bonker!\"",
+          "cooldown_s": 20,
+          "energy_cost": 150,
+          "dmg_type": "Nature",
+          "description": "Kay kitbashes a combi-bonker that she swings multiple times before throwing it to cause an explosion that deals Nature DMG and applies <u>Nature Infliction</u> on enemies within the area of effect, recovers some SP, and leaves behind multiple <u>Picnic Snacks</u>. When the controlled operator touches a <u>Picnic Snack</u> and picks it up, Kay grants HP treatment to the said operator and recovers some SP. The attribute of Agility increases the amount of HP treatment.",
+          "multipliers_max": [
+            {
+              "name": "SEQ 1 DMG Multiplier",
+              "value": 160,
+              "formatted": "160%"
+            },
+            {
+              "name": "SEQ 2 DMG Multiplier",
+              "value": 200,
+              "formatted": "200%"
+            },
+            {
+              "name": "SEQ 3 DMG Multiplier",
+              "value": 240,
+              "formatted": "240%"
+            },
+            {
+              "name": "Stagger",
+              "value": 20,
+              "formatted": "20"
+            },
+            {
+              "name": "SP Recovery",
+              "value": 30,
+              "formatted": "30"
+            },
+            {
+              "name": "Base Treatment",
+              "value": 405,
+              "formatted": "405"
+            },
+            {
+              "name": "Treatment Increase per Agility",
+              "value": 0.95,
+              "formatted": "0.95"
+            },
+            {
+              "name": "SP Recovery per Picnic Snack",
+              "value": 10,
+              "formatted": "10"
+            }
+          ],
+          "effects": [
+            "Nature Infliction"
+          ],
+          "name_es": "“¡Combimazo superdulce!”",
+          "description_es": "Kay improvisa un combimazo que golpea varias veces antes de lanzarlo para provocar una explosión que inflige DAÑ por naturaleza y aplica <u>Imposición de naturaleza</u> a los enemigos en el área de efecto, recupera PH y deja caer varios <u>Bocadillos de pícnic</u>. Cuando el operador controlado toca y recoge un <u>Bocadillo de pícnic</u>, Kay le proporciona tratamiento de PV y recupera cierta cantidad de PH. El atributo de Agilidad aumenta la cantidad de tratamiento de PV.",
+          "name_zh": "“超甜蜜复合重锤！”",
+          "description_zh": "小刻打造一柄复合重锤多次挥舞，最后将重锤扔出造成爆炸，对范围内敌人造成自然伤害，施加<u>自然附着</u>，恢复一定技力并掉落多个<u>野餐点心</u>，主控干员触碰拾取野餐点心后，小刻为其回复生命值并恢复一定技力。敏捷可以额外提高治疗量。",
+          "name_zh-TW": "「超甜蜜複合重錘！」",
+          "description_zh-TW": "小刻打造一把複合重錘多次揮舞，最後將重錘扔出造成爆炸，對範圍內敵人造成自然傷害，施加<u>自然附著</u>，回復一定技力並掉落多個<u>野餐點心</u>，主控幹員觸碰拾取野餐點心後，小刻為其回復生命值並回復一定技力。敏捷可以額外提高治療量。",
+          "name_ja": "“超あまあま特製ハンマー”",
+          "description_ja": "特製ハンマーを作り出して複数回振り回し、最後に投げつけて爆発させる。範囲内の敵に自然ダメージを与え、<u>自然付着</u>を付与する。さらに、SPを一定量回復し、複数の<u>ピクニックのおやつ</u>をドロップする。操作中のオペレーターがピクニックのおやつに触れて拾うと、ケーちゃんがそのオペレーターのHPを回復させ、さらにSPを一定量回復する。回復量は敏捷の値に応じて追加でアップする。",
+          "name_ko": "'엄청 달콤한' 합체 망치!",
+          "description_ko": "케르가 합체 망치를 만들어 여러 차례 휘두른 후, 망치를 던져 폭발시킵니다. 폭발 범위 내의 적에게 자연 피해를 주고 <u>자연 부착</u>을 부여하며, 스킬 게이지를 일정량 회복하고 <u>소풍 간식</u>을 여러 개 떨어뜨립니다. 메인 컨트롤 오퍼레이터가 소풍 간식을 주우면 케르가 해당 오퍼레이터의 생명력을 회복시키고, 스킬 게이지도 일정량 회복시킵니다. 민첩에 따라 치유량이 추가로 증가합니다."
         }
-      }
+      },
+      "talents": [
+        {
+          "name": "Bottomless Arsenal",
+          "description": "Level 1: Kay starts with 3 <u>Weapons</u>. When the battle ends, Kay salvages all thrown Weapons.<br/>Salvaging a <u>Weapon</u> grants Kay 1 stack of <u>Hot Edgy Naives</u>.<br/>Level 2: Kay starts with 3 <u>Weapons</u>. When the battle ends, Kay salvages all thrown Weapons.<br/>Salvaging a <u>Weapon</u> grants Kay 1 stack of <u>Hot Edgy Naives</u> and grants the entire team <u>Arts DMG Dealt</u> +<b>1%</b>, with Nature DMG Dealt getting another +<b>1%</b>. Duration: <b>15</b>s. Max stacks for this effect: <b>3</b>.<br/>Level 3: Kay starts with 3 <u>Weapons</u>. When the battle ends, Kay salvages all thrown Weapons.<br/>Salvaging a <u>Weapon</u> grants Kay 1 stack of <u>Hot Edgy Naives</u> and grants the entire team <u>Arts DMG Dealt</u> +<b>1.5%</b>, with Nature DMG Dealt getting another +<b>1.5%</b>. Duration: <b>15</b>s. Max stacks for this effect: <b>3</b>.",
+          "effects": [],
+          "name_es": "Arsenal inagotable",
+          "name_zh": "无底武器库",
+          "name_zh-TW": "無底武器庫",
+          "name_ja": "そこなし武器庫",
+          "name_ko": "무한의 무기고",
+          "description_es": "Nivel 1: Kay comienza con 3 <u>Armas</u>. Al terminar el combate, Kay recupera todas las Armas que haya lanzado.<br/>Al recuperar un <u>Arma</u>, Kay obtiene 1 acumulación de <u>Ingenuidad cortante y ardiente</u>.<br/>Nivel 2: Kay comienza con 3 <u>Armas</u>. Al terminar el combate, Kay recupera todas las Armas que haya lanzado.<br/>Al recuperar un <u>Arma</u>, Kay obtiene 1 acumulación de <u>Ingenuidad cortante y ardiente</u> y todo el equipo obtiene <u>DAÑ por artes infligido</u> +<b>1%</b>, con otro aumento de DAÑ por Naturaleza infligido de +<b>1%</b>. Duración: <b>15</b> s. Acumulaciones Máx. de este efecto: <b>3</b>.<br/>Nivel 3: Kay comienza con 3 <u>Armas</u>. Al terminar el combate, Kay recupera todas las Armas que haya lanzado.<br/>Al recuperar un <u>Arma</u>, Kay obtiene 1 acumulación de <u>Ingenuidad cortante y ardiente</u> y todo el equipo obtiene <u>DAÑ por artes infligido</u> +<b>1.5%</b>, con otro aumento de DAÑ por Naturaleza infligido de +<b>1.5%</b>. Duración: <b>15</b> s. Acumulaciones Máx. de este efecto: <b>3</b>.",
+          "description_zh": "等级1：小刻初始拥有3把<u>武器</u>，战斗结束时，小刻会将扔出的武器全部收回。<br/>收回武器时，小刻获得一层<u>热切天性</u>。<br/>等级2：小刻初始拥有3把<u>武器</u>，战斗结束时，小刻会将扔出的武器全部收回。<br/>收回武器时，小刻获得一层<u>热切天性</u>，并使全队造成的<u>法术伤害</u>+<b>1%</b>，自然伤害额外+<b>1%</b>，持续<b>15</b>秒，该效果最多叠加<b>3</b>层。<br/>等级3：小刻初始拥有3把<u>武器</u>，战斗结束时，小刻会将扔出的武器全部收回。<br/>收回武器时，小刻获得一层<u>热切天性</u>，并使全队造成的<u>法术伤害</u>+<b>1.5%</b>，自然伤害额外+<b>1.5%</b>，持续<b>15</b>秒，该效果最多叠加<b>3</b>层。",
+          "description_zh-TW": "等級1：小刻初始持有3把<u>武器</u>，戰鬥結束時，小刻會將扔出的武器全部收回。<br/>收回武器時，小刻獲得一層<u>熱切天性</u>。<br/>等級2：小刻初始持有3把<u>武器</u>，戰鬥結束時，小刻會將扔出的武器全部收回。<br/>收回武器時，小刻獲得一層<u>熱切天性</u>，並使全隊造成的<u>法術傷害</u>+<b>1%</b>，自然傷害額外+<b>1%</b>，持續<b>15</b>秒，該效果最多疊加<b>3</b>層。<br/>等級3：小刻初始持有3把<u>武器</u>，戰鬥結束時，小刻會將扔出的武器全部收回。<br/>收回武器時，小刻獲得一層<u>熱切天性</u>，並使全隊造成的<u>法術傷害</u>+<b>1.5%</b>，自然傷害額外+<b>1.5%</b>，持續<b>15</b>秒，該效果最多疊加<b>3</b>層。",
+          "description_ja": "レベル1：初期状態で<u>武器</u>を3本所持する<br/>戦闘終了時、投げた武器をすべて回収する<br/>武器を回収するとき、<u>熱き天性</u>を1段階獲得する<br/>レベル2：初期状態で<u>武器</u>を3本所持する<br/>戦闘終了時、投げた武器をすべて回収する<br/>武器を回収するとき、<u>熱き天性</u>を1段階獲得し、<b>15</b>秒間チーム全員の与える<u>アーツダメージ</u>+<b>1%</b>、自然ダメージがさらに+<b>1%</b>（<b>3</b>回まで重ね掛け可能）<br/>レベル3：初期状態で<u>武器</u>を3本所持する<br/>戦闘終了時、投げた武器をすべて回収する<br/>武器を回収するとき、<u>熱き天性</u>を1段階獲得し、<b>15</b>秒間チーム全員の与える<u>アーツダメージ</u>+<b>1.5%</b>、自然ダメージがさらに+<b>1.5%</b>（<b>3</b>回まで重ね掛け可能）",
+          "description_ko": "레벨 1: 케르는 처음에 <u>무기</u> 3개를 보유하며, 전투가 끝나면 던진 무기를 모두 회수합니다.<br/>무기를 회수하면 케르가 <u>뜨겁고 날카로운 천성</u>을 1스택 획득합니다.<br/>레벨 2: 케르는 처음에 <u>무기</u> 3개를 보유하며, 전투가 끝나면 던진 무기를 모두 회수합니다.<br/>무기를 회수하면 케르가 <u>뜨겁고 날카로운 천성</u>을 1스택 획득하고, 팀 전체가 주는 <u>아츠 피해</u> +<b>1%</b>, 자연 피해 추가로 +<b>1%</b>, <b>15</b>초 동안 지속. 해당 효과는 최대 <b>3</b>스택까지 중첩됩니다.<br/>레벨 3: 케르는 처음에 <u>무기</u> 3개를 보유하며, 전투가 끝나면 던진 무기를 모두 회수합니다.<br/>무기를 회수하면 케르가 <u>뜨겁고 날카로운 천성</u>을 1스택 획득하고, 팀 전체가 주는 <u>아츠 피해</u> +<b>1.5%</b>, 자연 피해 추가로 +<b>1.5%</b>, <b>15</b>초 동안 지속. 해당 효과는 최대 <b>3</b>스택까지 중첩됩니다."
+        },
+        {
+          "name": "Have a Waffle!",
+          "description": "When an enemy is Staggered or triggers a <u>Stagger Node</u>, it drops 1 <u>Picnic Waffle</u>. Effect only triggers once every <b>30/20</b>s.<br/>Picnic Waffle has the same effects as Picnic Snack.",
+          "effects": [],
+          "name_es": "¡Toma un Waffle!",
+          "name_zh": "来块蜜饼吧！",
+          "name_zh-TW": "來塊蜜餅吧！",
+          "name_ja": "はちみつワッフルだよ！",
+          "name_ko": "벌꿀 와플 한 입 할래?",
+          "description_es": "Cuando un enemigo queda Tambaleado o activa un <u>Nodo de tambaleo</u>, suelta 1 <u>Waffle de pícnic</u>. El efecto solo se activa una vez cada <b>30/20</b> s.<br/>El Waffle de pícnic tiene los mismos efectos que el Bocadillo de pícnic.",
+          "description_zh": "当有敌人失衡或触发<u>失衡节点</u>时，掉落一个<u>野餐蜜饼</u>，该效果每<b>30/20</b>秒最多触发一次。<br/>野餐蜜饼的效果与野餐点心相同。",
+          "description_zh-TW": "當有敵人失衡或觸發<u>失衡節點</u>時，掉落一個<u>野餐蜜餅</u>，該效果每<b>30/20</b>秒最多觸發一次。<br/>野餐蜜餅的效果與野餐點心相同。",
+          "description_ja": "敵がブレイク状態になるか<u>ブレイク点</u>に到達したとき、<u>ピクニックのワッフル</u>を1つドロップする<br/>この効果は<b>30/20</b>秒に1回まで発動可能<br/>ピクニックのワッフルの効果はピクニックのおやつと同じ",
+          "description_ko": "불균형 상태 혹은 <u>불균형 지점</u>에 도달한 적이 있을 때 <u>소풍 벌꿀 와플</u>이 1개 드롭됩니다. 해당 효과는 <b>30/20</b>초마다 최대 1회 발동합니다.<br/>소풍 벌꿀 와플은 소풍 간식과 효과가 같습니다."
+        }
+      ],
+      "base_talents": [
+        {
+          "name": "Truly Wild Smithing",
+          "description": "Assign to Manufacturing Cabin to grant weapon EXP material production efficiency +20/30%",
+          "name_es": "Herrería realmente salvaje",
+          "name_zh": "野路子铁匠",
+          "name_zh-TW": "野路子鐵匠",
+          "name_ja": "ケーちゃん流「かじ」",
+          "name_ko": "야매 대장장이",
+          "description_es": "Asignar a la Cabina de manufactura para otorgar eficiencia de producción de materiales de EXP de Arma en un +20/30 %",
+          "description_zh": "进驻制造舱时，武器经验素材的生产效率提升20/30%",
+          "description_zh-TW": "進駐製造艙時，武器經驗材料的生產效率提升20/30%",
+          "description_ja": "製造室配属時、武器経験値素材の製造効率+20/30%",
+          "description_ko": "제조실에 배치 시, 무기 경험치 재료의 생산 효율 20/30% 증가"
+        },
+        {
+          "name": "Honey Waffle Break",
+          "description": "Assign to Manufacturing Cabin to slow Mood Drop of all operators in it by 14/18%",
+          "name_es": "Descanso de Waffle con miel",
+          "name_zh": "蜜饼小歇",
+          "name_zh-TW": "蜜餅小歇",
+          "name_ja": "ワッフルタイム",
+          "name_ko": "벌꿀 와플 한입의 휴식",
+          "description_es": "Asignar a la Cabina de manufactura para reducir la disminución del Estado de ánimo de todos los operadores en ella un 14/18 %",
+          "description_zh": "进驻制造舱时，舱室内干员心情消耗降低14/18%",
+          "description_zh-TW": "進駐製造艙時，艙室內幹員心情消耗降低14/18%",
+          "description_ja": "製造室配属時、船室内全員の体力消耗-14/18%",
+          "description_ko": "제조실에 배치 시, 선실에 있는 오퍼레이터의 컨디션 소모 속도 14/18% 감소"
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Wildness Ignited",
+          "description": "When entering battle, Kay gains 1 stack of <u>Hot Edgy Naives</u>.<br/>Talent <u>Bottomless Arsenal</u> improved: Each <u>Weapon</u> salvage gives the entire team an additional <u>Arts DMG Dealt</u> +<b>2.0%</b>, with additional Nature DMG Dealt getting another +<b>2.0%</b>, for an additional duration of +<b>10</b>s.",
+          "effects": [],
+          "name_es": "Naturaleza desatada",
+          "name_zh": "野性引燃",
+          "name_zh-TW": "野性引燃",
+          "name_ja": "もえるやせい",
+          "name_ko": "타오르는 야성",
+          "description_es": "Al entrar en combate, Kay obtiene 1 acumulación de <u>Ingenuidad cortante y ardiente</u>.<br/>Talento <u>Arsenal inagotable</u> mejorado: Cada <u>Arma</u> recuperada otorga a todo el equipo <u>DAÑ por Artes Infligido</u> +<b>2.0%</b> adicional y DAÑ por naturaleza Infligido adicional de +<b>2.0%</b>, con una duración adicional de +<b>10</b> s.",
+          "description_zh": "进入战斗时，小刻获得一层<u>热切天性</u>。<br/>天赋<u>无底武器库</u>效果加强：每次收回<u>武器</u>，全队的<u>法术伤害</u>提升效果额外+<b>2.0%</b>，自然伤害再额外+<b>2.0%</b>，持续时间额外+<b>10</b>秒。",
+          "description_zh-TW": "進入戰鬥時，小刻獲得一層<u>熱切天性</u>。<br/>天賦<u>無底武器庫</u>效果加強：每次收回<u>武器</u>，全隊的<u>法術傷害</u>提升效果額外+<b>2.0%</b>，自然傷害再額外+<b>2.0%</b>，持續時間額外+<b>10</b>秒。",
+          "description_ja": "戦闘開始時、<u>熱き天性</u>を1段階獲得する<br/>素質<u>「そこなし武器庫」</u>強化：<u>武器</u>を回収するたびに、チーム全員の<u>アーツダメージ</u>UP効果がさらに+<b>2.0%</b>、自然ダメージがさらに+<b>2.0%</b>、持続時間がさらに+<b>10</b>秒",
+          "description_ko": "전투에 진입하면 케르가 <u>뜨겁고 날카로운 천성</u>을 1스택 획득합니다.<br/>재능 <u>무한의 무기고</u> 효과 강화: <u>무기</u>를 회수할 때마다 팀 전체의 <u>아츠 피해</u> 증가 효과 추가로 +<b>2.0%</b>, 자연 피해 추가로 +<b>2.0%</b>, 해당 효과의 지속 시간이 추가로 +<b>10</b>초."
+        },
+        {
+          "name": "Expert Roamer",
+          "description": "Strength +<b>20</b>, Nature DMG Dealt +<b>10%</b>.",
+          "effects": [],
+          "name_es": "Exploradora experta",
+          "name_zh": "野游专家",
+          "name_zh-TW": "野遊專家",
+          "name_ja": "アウトドア専門家",
+          "name_ko": "소풍 전문가",
+          "description_es": "Fuerza +<b>20</b>, DAÑ por Naturaleza Infligido +<b>10%</b>.",
+          "description_zh": "力量+<b>20</b>，造成的自然伤害+<b>10%</b>。",
+          "description_zh-TW": "力量+<b>20</b>，造成的自然傷害+<b>10%</b>。",
+          "description_ja": "筋力+<b>20</b>、与える自然ダメージ+<b>10%</b>",
+          "description_ko": "힘 +<b>20</b>, 주는 자연 피해 +<b>10%</b>"
+        },
+        {
+          "name": "Picnic Prep",
+          "description": "Battle skill <u>\"Really Heavy Bash\"</u> enhanced: Bonus DMG Multiplier per <u>Hot Edgy Naives</u> stack is increased to <b>1.2</b> times the original. Ultimate <u>\"Really Sweet Combi-Bonker!\"</u> improved: DMG Multiplier is increased to <b>1.2</b> times the original.",
+          "effects": [],
+          "name_es": "Preparativos del pícnic",
+          "name_zh": "野餐准备",
+          "name_zh-TW": "野餐準備",
+          "name_ja": "ピクニックの準備",
+          "name_ko": "소풍 준비",
+          "description_es": "Habilidad de batalla <u>“Golpe superpesado”</u> mejorada: El Multiplicador de DAÑ adicional por cada acumulación de <u>Ingenuidad cortante y ardiente</u> aumenta a <b>1.2</b> veces su valor original. Máxima <u>“¡Combimazo superdulce!”</u> mejorada: El Multiplicador de DAÑ aumenta a <b>1.2</b> veces el original.",
+          "description_zh": "每层<u>热切天性</u>为战技<u>“很重地打”</u>提供的额外伤害倍率提升至原本的<b>1.2</b>倍，终结技<u>“超甜蜜复合重锤！”</u>伤害倍率提升至原本的<b>1.2</b>倍。",
+          "description_zh-TW": "每層<u>熱切天性</u>為戰技<u>「很重地打」</u>提供的額外傷害倍率提升至原本的<b>1.2</b>倍，終結技<u>「超甜蜜複合重錘！」</u>傷害倍率提升至原本的<b>1.2</b>倍。",
+          "description_ja": "<u>熱き天性</u>1段階ごとに戦技<u>「“おもいいちげき”」</u>に付与される追加ダメージ倍率が<b>1.2</b>倍までアップし、必殺技<u>「“超あまあま特製ハンマー”」</u>のダメージ倍率が<b>1.2</b>倍までアップする",
+          "description_ko": "<u>뜨겁고 날카로운 천성</u> 1스택당 배틀 스킬 <u>'엄청 묵직한' 한 방</u>에 적용되는 추가 피해 배율이 기존의 <b>1.2</b>배로 증가하고, 궁극기 <u>'엄청 달콤한' 합체 망치!</u>의 피해 배율이 기존의 <b>1.2</b>배로 증가합니다."
+        },
+        {
+          "name": "Bonkie I Made",
+          "description": "Ultimate <u>\"Really Sweet Combi-Bonker!\"</u> improved: Ultimate Energy cost -<b>15%</b>.",
+          "effects": [],
+          "name_es": "El martillito que hice",
+          "name_zh": "我打的锤",
+          "name_zh-TW": "我打的錘",
+          "name_ja": "おいらのハンマー",
+          "name_ko": "내 망치 맛 좀 보라고!",
+          "description_es": "Máxima <u>“¡Combimazo superdulce!”</u> mejorada: Costo de Energía máxima -<b>15%</b>.",
+          "description_zh": "终结技<u>“超甜蜜复合重锤！”</u>所需的终结技能量-<b>15%</b>。",
+          "description_zh-TW": "終結技<u>「超甜蜜複合重錘！」</u>所需的終結技能量-<b>15%</b>。",
+          "description_ja": "必殺技<u>「“超あまあま特製ハンマー”」</u>に必要な必殺チャージ-<b>15%</b>",
+          "description_ko": "궁극기 <u>'엄청 달콤한' 합체 망치!</u>의 사용에 필요한 궁극기 에너지 -<b>15%</b>"
+        },
+        {
+          "name": "Kwikker Smash",
+          "description": "Combo skill <u>\"Really Kwik Smash\"</u> improved: Length of cooldown <b>-1</b>s. DMG Multiplier is increased to <b>1.2</b> times the original. SP Recovery is increased to <b>1.3</b> times the original.",
+          "effects": [],
+          "name_es": "El golpe más rápido",
+          "name_zh": "更快地砸",
+          "name_zh-TW": "更快地砸",
+          "name_ja": "はやくたたく",
+          "name_ko": "'더 빨리' 내려치기",
+          "description_es": "Habilidad de combo <u>“Golpe bien rápido”</u> mejorada: Duración del tiempo de reutilización: <b>-1</b> s. El Multiplicador de DAÑ aumenta a <b>1.2</b> veces el original. La Recuperación de PH aumenta a <b>1.3</b> veces la original.",
+          "description_zh": "连携技<u>“很快地砸”</u>冷却时间<b>-1</b>秒，伤害倍率提升至原本的<b>1.2</b>倍，技力恢复量提升至原本的<b>1.3</b>倍。",
+          "description_zh-TW": "連攜技<u>「很快地砸」</u>冷卻時間<b>-1</b>秒，傷害倍率提升至原本的<b>1.2</b>倍，技力回復量提升至原本的<b>1.3</b>倍。",
+          "description_ja": "連携技<u>「“はやいいちげき”」</u>のCD時間<b>-1</b>秒、ダメージ倍率が<b>1.2</b>倍までアップし、SP回復量が<b>1.3</b>倍までアップする",
+          "description_ko": "연계 스킬 <u>'엄청 빠른' 내려치기</u>의 쿨타임 <b>-1</b>초, 피해 배율이 기존의 <b>1.2</b>배로 증가하고, 스킬 게이지 회복량이 기존의 <b>1.3</b>배로 증가합니다."
+        }
+      ]
     },
     "mimino": {
       "name_display": "Mimino",

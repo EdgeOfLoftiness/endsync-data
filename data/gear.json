@@ -1,7 +1,7 @@
 {
  "game": "Arknights: Endfield",
  "rarity": "Gold (Lv70 / max artificing)",
- "total_gear_pieces": 185,
+ "total_gear_pieces": 200,
  "gear": {
   "Xiranflow": {
    "pieces": [
@@ -3749,6 +3749,402 @@
      "name_zh": "拓荒增量供氧栓",
      "name_zh-TW": "拓荒增量供氧栓",
      "name_ko": "개척자 증량 산소 공급 장치",
+     "bonus_stat_es": "Atributo secundario: +26.9%",
+     "bonus_stat_zh": "副能力: +26.9%",
+     "bonus_stat_zh-TW": "副能力: +26.9%",
+     "bonus_stat_ja": "サブ能力: +26.9%",
+     "bonus_stat_ko": "보조 능력치: +26.9%"
+    },
+    {
+     "name": "Frontiers HVY Steel Plate",
+     "type": "Armor",
+     "version": "1.7",
+     "def": 56,
+     "attributes": {
+      "agility": 113,
+      "strength": 75
+     },
+     "bonus_stat": "Ultimate Gain Efficiency: +16%",
+     "artificing": {
+      "attributes": {
+       "agility": [
+        87,
+        95,
+        104,
+        113
+       ],
+       "strength": [
+        58,
+        63,
+        69,
+        75
+       ]
+      },
+      "bonus_stat": {
+       "name": "Ultimate Gain Efficiency",
+       "values": [
+        12.3,
+        13.6,
+        14.8,
+        16
+       ],
+       "name_es": "Eficiencia de ganancia máxima",
+       "name_zh": "终结技充能效率",
+       "name_zh-TW": "終結技蓄能效率",
+       "name_ja": "必殺チャージの回復効率",
+       "name_ko": "궁극기 충전 효율"
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50,
+      "comp_es": "Componente de Pirrolita",
+      "comp_zh": "灼铜装备原件",
+      "comp_zh-TW": "灼銅裝備原件",
+      "comp_ja": "焔銅装備部品",
+      "comp_ko": "작동 장비 부품",
+      "newest": {
+       "billN": 360,
+       "comp": "Pyrrolite Component",
+       "compN": 50
+      }
+     },
+     "name_es": "Placa de acero PES Fronteras",
+     "name_ja": "パイオニア重量鋼製防具",
+     "name_zh": "拓荒增重钢甲",
+     "name_zh-TW": "拓荒增重鋼甲",
+     "name_ko": "개척자 가중 강철 방어구",
+     "bonus_stat_es": "Eficiencia de ganancia máxima: +16%",
+     "bonus_stat_zh": "终结技充能效率: +16%",
+     "bonus_stat_zh-TW": "終結技蓄能效率: +16%",
+     "bonus_stat_ja": "必殺チャージの回復効率: +16%",
+     "bonus_stat_ko": "궁극기 충전 효율: +16%"
+    },
+    {
+     "name": "Frontiers HVY Gauntlets",
+     "type": "Gloves",
+     "version": "1.7",
+     "def": 42,
+     "attributes": {
+      "agility": 84,
+      "strength": 55
+     },
+     "bonus_stat": "Ultimate Gain Efficiency: +26.7%",
+     "artificing": {
+      "attributes": {
+       "agility": [
+        65,
+        71,
+        78,
+        84
+       ],
+       "strength": [
+        43,
+        47,
+        51,
+        55
+       ]
+      },
+      "bonus_stat": {
+       "name": "Ultimate Gain Efficiency",
+       "values": [
+        20.5,
+        22.6,
+        24.6,
+        26.7
+       ],
+       "name_es": "Eficiencia de ganancia máxima",
+       "name_zh": "终结技充能效率",
+       "name_zh-TW": "終結技蓄能效率",
+       "name_ja": "必殺チャージの回復効率",
+       "name_ko": "궁극기 충전 효율"
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50,
+      "comp_es": "Componente de Pirrolita",
+      "comp_zh": "灼铜装备原件",
+      "comp_zh-TW": "灼銅裝備原件",
+      "comp_ja": "焔銅装備部品",
+      "comp_ko": "작동 장비 부품",
+      "newest": {
+       "billN": 360,
+       "comp": "Pyrrolite Component",
+       "compN": 50
+      }
+     },
+     "name_es": "Guanteletes PES Fronteras",
+     "name_ja": "パイオニア重量ガントレット",
+     "name_zh": "拓荒增重手甲",
+     "name_zh-TW": "拓荒增重手甲",
+     "name_ko": "개척자 가중 금속 장갑",
+     "bonus_stat_es": "Eficiencia de ganancia máxima: +26.7%",
+     "bonus_stat_zh": "终结技充能效率: +26.7%",
+     "bonus_stat_zh-TW": "終結技蓄能效率: +26.7%",
+     "bonus_stat_ja": "必殺チャージの回復効率: +26.7%",
+     "bonus_stat_ko": "궁극기 충전 효율: +26.7%"
+    },
+    {
+     "name": "Frontiers Compressed Slab",
+     "type": "Kit",
+     "version": "1.7",
+     "def": 21,
+     "attributes": {
+      "will": 41,
+      "agility": 27
+     },
+     "bonus_stat": "Arts Intensity: +53",
+     "artificing": {
+      "attributes": {
+       "will": [
+        32,
+        35,
+        38,
+        41
+       ],
+       "agility": [
+        21,
+        23,
+        25,
+        27
+       ]
+      },
+      "bonus_stat": {
+       "name": "Arts Intensity",
+       "values": [
+        41,
+        45,
+        49,
+        53
+       ],
+       "name_es": "Intensidad de artes",
+       "name_zh": "源石技艺强度",
+       "name_zh-TW": "源石技藝強度",
+       "name_ja": "アーツ強度",
+       "name_ko": "오리지늄 아츠 강도"
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50,
+      "comp_es": "Componente de Pirrolita",
+      "comp_zh": "灼铜装备原件",
+      "comp_zh-TW": "灼銅裝備原件",
+      "comp_ja": "焔銅装備部品",
+      "comp_ko": "작동 장비 부품",
+      "newest": {
+       "billN": 360,
+       "comp": "Pyrrolite Component",
+       "compN": 50
+      }
+     },
+     "name_es": "Losa comprimida Fronteras",
+     "name_ja": "パイオニア積層板",
+     "name_zh": "拓荒压合板",
+     "name_zh-TW": "拓荒壓合板",
+     "name_ko": "개척자 압착판",
+     "bonus_stat_es": "Intensidad de artes: +53",
+     "bonus_stat_zh": "源石技艺强度: +53",
+     "bonus_stat_zh-TW": "源石技藝強度: +53",
+     "bonus_stat_ja": "アーツ強度: +53",
+     "bonus_stat_ko": "오리지늄 아츠 강도: +53"
+    },
+    {
+     "name": "Frontiers LITE Armor",
+     "type": "Armor",
+     "version": "1.7",
+     "def": 56,
+     "attributes": {
+      "will": 113,
+      "agility": 75
+     },
+     "bonus_stat": "Ultimate Gain Efficiency: +16%",
+     "artificing": {
+      "attributes": {
+       "will": [
+        87,
+        95,
+        104,
+        113
+       ],
+       "agility": [
+        58,
+        63,
+        69,
+        75
+       ]
+      },
+      "bonus_stat": {
+       "name": "Ultimate Gain Efficiency",
+       "values": [
+        12.3,
+        13.6,
+        14.8,
+        16
+       ],
+       "name_es": "Eficiencia de ganancia máxima",
+       "name_zh": "终结技充能效率",
+       "name_zh-TW": "終結技蓄能效率",
+       "name_ja": "必殺チャージの回復効率",
+       "name_ko": "궁극기 충전 효율"
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50,
+      "comp_es": "Componente de Pirrolita",
+      "comp_zh": "灼铜装备原件",
+      "comp_zh-TW": "灼銅裝備原件",
+      "comp_ja": "焔銅装備部品",
+      "comp_ko": "작동 장비 부품",
+      "newest": {
+       "billN": 360,
+       "comp": "Pyrrolite Component",
+       "compN": 50
+      }
+     },
+     "name_es": "Armadura LIGERA Fronteras",
+     "name_ja": "パイオニア軽量防具",
+     "name_zh": "拓荒减重护甲",
+     "name_zh-TW": "拓荒減重護甲",
+     "name_ko": "개척자 경량 방어구",
+     "bonus_stat_es": "Eficiencia de ganancia máxima: +16%",
+     "bonus_stat_zh": "终结技充能效率: +16%",
+     "bonus_stat_zh-TW": "終結技蓄能效率: +16%",
+     "bonus_stat_ja": "必殺チャージの回復効率: +16%",
+     "bonus_stat_ko": "궁극기 충전 효율: +16%"
+    },
+    {
+     "name": "Frontiers LITE Gloves",
+     "type": "Gloves",
+     "version": "1.7",
+     "def": 42,
+     "attributes": {
+      "will": 84,
+      "agility": 55
+     },
+     "bonus_stat": "Ultimate Gain Efficiency: +26.7%",
+     "artificing": {
+      "attributes": {
+       "will": [
+        65,
+        71,
+        78,
+        84
+       ],
+       "agility": [
+        43,
+        47,
+        51,
+        55
+       ]
+      },
+      "bonus_stat": {
+       "name": "Ultimate Gain Efficiency",
+       "values": [
+        20.5,
+        22.6,
+        24.6,
+        26.7
+       ],
+       "name_es": "Eficiencia de ganancia máxima",
+       "name_zh": "终结技充能效率",
+       "name_zh-TW": "終結技蓄能效率",
+       "name_ja": "必殺チャージの回復効率",
+       "name_ko": "궁극기 충전 효율"
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50,
+      "comp_es": "Componente de Pirrolita",
+      "comp_zh": "灼铜装备原件",
+      "comp_zh-TW": "灼銅裝備原件",
+      "comp_ja": "焔銅装備部品",
+      "comp_ko": "작동 장비 부품",
+      "newest": {
+       "billN": 360,
+       "comp": "Pyrrolite Component",
+       "compN": 50
+      }
+     },
+     "name_es": "Guantes LIGEROS Fronteras",
+     "name_ja": "パイオニア軽量プロテクター",
+     "name_zh": "拓荒减重护手",
+     "name_zh-TW": "拓荒減重護手",
+     "name_ko": "개척자 경량 보호 장갑",
+     "bonus_stat_es": "Eficiencia de ganancia máxima: +26.7%",
+     "bonus_stat_zh": "终结技充能效率: +26.7%",
+     "bonus_stat_zh-TW": "終結技蓄能效率: +26.7%",
+     "bonus_stat_ja": "必殺チャージの回復効率: +26.7%",
+     "bonus_stat_ko": "궁극기 충전 효율: +26.7%"
+    },
+    {
+     "name": "Frontiers Composite RHA",
+     "type": "Kit",
+     "version": "1.7",
+     "def": 21,
+     "attributes": {
+      "agility": 41,
+      "strength": 27
+     },
+     "bonus_stat": "Secondary Attribute: +26.9%",
+     "artificing": {
+      "attributes": {
+       "agility": [
+        32,
+        35,
+        38,
+        41
+       ],
+       "strength": [
+        21,
+        23,
+        25,
+        27
+       ]
+      },
+      "bonus_stat": {
+       "name": "Secondary Attribute",
+       "values": [
+        20.7,
+        22.8,
+        24.8,
+        26.9
+       ],
+       "name_es": "Atributo secundario",
+       "name_zh": "副能力",
+       "name_zh-TW": "副能力",
+       "name_ja": "サブ能力",
+       "name_ko": "보조 능력치"
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50,
+      "comp_es": "Componente de Pirrolita",
+      "comp_zh": "灼铜装备原件",
+      "comp_zh-TW": "灼銅裝備原件",
+      "comp_ja": "焔銅装備部品",
+      "comp_ko": "작동 장비 부품",
+      "newest": {
+       "billN": 360,
+       "comp": "Pyrrolite Component",
+       "compN": 50
+      }
+     },
+     "name_es": "RHA compuesto Fronteras",
+     "name_ja": "パイオニア多層鋼板",
+     "name_zh": "拓荒多层钢板",
+     "name_zh-TW": "拓荒多層鋼板",
+     "name_ko": "개척자 다층 강철판",
      "bonus_stat_es": "Atributo secundario: +26.9%",
      "bonus_stat_zh": "副能力: +26.9%",
      "bonus_stat_zh-TW": "副能力: +26.9%",
@@ -10255,6 +10651,72 @@
      "bonus_stat_zh-TW": "連攜技傷害加成: +53.8%",
      "bonus_stat_ja": "連携技ダメージUP: +53.8%",
      "bonus_stat_ko": "연계 스킬 피해 보너스: +53.8%"
+    },
+    {
+     "name": "Eternal Xiranite HVY Gauntlets",
+     "type": "Gloves",
+     "version": "1.7",
+     "def": 42,
+     "attributes": {
+      "will": 84,
+      "strength": 55
+     },
+     "bonus_stat": "Ultimate Gain Efficiency: +26.7%",
+     "artificing": {
+      "attributes": {
+       "will": [
+        65,
+        71,
+        78,
+        84
+       ],
+       "strength": [
+        43,
+        47,
+        51,
+        55
+       ]
+      },
+      "bonus_stat": {
+       "name": "Ultimate Gain Efficiency",
+       "values": [
+        20.5,
+        22.6,
+        24.6,
+        26.7
+       ],
+       "name_es": "Eficiencia de ganancia máxima",
+       "name_zh": "终结技充能效率",
+       "name_zh-TW": "終結技蓄能效率",
+       "name_ja": "必殺チャージの回復効率",
+       "name_ko": "궁극기 충전 효율"
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50,
+      "comp_es": "Componente de Pirrolita",
+      "comp_zh": "灼铜装备原件",
+      "comp_zh-TW": "灼銅裝備原件",
+      "comp_ja": "焔銅装備部品",
+      "comp_ko": "작동 장비 부품",
+      "newest": {
+       "billN": 360,
+       "comp": "Pyrrolite Component",
+       "compN": 50
+      }
+     },
+     "name_es": "Guanteletes PES de Xiranita eterna",
+     "name_ja": "流転ヘビーガントレット",
+     "name_zh": "长息重手甲",
+     "name_zh-TW": "長息重手甲",
+     "name_ko": "식양의 숨결 중형 금속 장갑",
+     "bonus_stat_es": "Eficiencia de ganancia máxima: +26.7%",
+     "bonus_stat_zh": "终结技充能效率: +26.7%",
+     "bonus_stat_zh-TW": "終結技蓄能效率: +26.7%",
+     "bonus_stat_ja": "必殺チャージの回復効率: +26.7%",
+     "bonus_stat_ko": "궁극기 충전 효율: +26.7%"
     }
    ],
    "set_bonus_3pc": "Flat HP +1000. When the wearer applies Amp, Protected, Susceptible, or Weakened, other teammates also gain DMG Dealt +16% for 15s. This effect cannot stack.",
@@ -10323,7 +10785,7 @@
      "name_ja": "渡淵重防具",
      "name_zh": "涉渊重甲",
      "name_zh-TW": "涉淵重甲",
-     "name_ko": "절망 중갑",
+     "name_ko": "심연을 건너는 자 중갑",
      "bonus_stat_es": "Intensidad de artes: +28",
      "bonus_stat_zh": "源石技艺强度: +28",
      "bonus_stat_zh-TW": "源石技藝強度: +28",
@@ -10382,7 +10844,7 @@
      "name_ja": "渡淵軽防具",
      "name_zh": "涉渊轻甲",
      "name_zh-TW": "涉淵輕甲",
-     "name_ko": "절망 경갑",
+     "name_ko": "심연을 건너는 자 경갑",
      "bonus_stat_es": "Bonificación de tratamiento: +14%",
      "bonus_stat_zh": "治疗效率加成: +14%",
      "bonus_stat_zh-TW": "治療效率加成: +14%",
@@ -10441,7 +10903,7 @@
      "name_ja": "渡淵プロテクター",
      "name_zh": "涉渊护手",
      "name_zh-TW": "涉淵護手",
-     "name_ko": "절망 보호 장갑",
+     "name_ko": "심연을 건너는 자 보호 장갑",
      "bonus_stat_es": "Eficiencia de ganancia máxima: +27.9%",
      "bonus_stat_zh": "终结技充能效率: +27.9%",
      "bonus_stat_zh-TW": "終結技蓄能效率: +27.9%",
@@ -10500,7 +10962,7 @@
      "name_ja": "渡淵グローブ",
      "name_zh": "涉渊手套",
      "name_zh-TW": "涉淵手套",
-     "name_ko": "절망 장갑",
+     "name_ko": "심연을 건너는 자 장갑",
      "bonus_stat_es": "Bonificación de DAÑ de habilidad de batalla: +46.8%",
      "bonus_stat_zh": "战技伤害加成: +46.8%",
      "bonus_stat_zh-TW": "戰技傷害加成: +46.8%",
@@ -10559,7 +11021,7 @@
      "name_ja": "渡淵装甲板",
      "name_zh": "涉渊护甲板",
      "name_zh-TW": "涉淵護甲板",
-     "name_ko": "절망 방탄 방어구",
+     "name_ko": "심연을 건너는 자 방탄 방어구",
      "bonus_stat_es": "Atributo secundario: +28.1%",
      "bonus_stat_zh": "副能力: +28.1%",
      "bonus_stat_zh-TW": "副能力: +28.1%",
@@ -10618,7 +11080,7 @@
      "name_ja": "渡淵鋼製防具",
      "name_zh": "涉渊钢甲",
      "name_zh-TW": "涉淵鋼甲",
-     "name_ko": "절망 강철 방어구",
+     "name_ko": "심연을 건너는 자 강철 방어구",
      "bonus_stat_es": "Bono de DAÑ de la habilidad de combo: +28.1%",
      "bonus_stat_zh": "连携技伤害加成: +28.1%",
      "bonus_stat_zh-TW": "連攜技傷害加成: +28.1%",
@@ -10677,7 +11139,7 @@
      "name_ja": "渡淵防護服",
      "name_zh": "涉渊防护服",
      "name_zh-TW": "涉淵防護服",
-     "name_ko": "절망 방호복",
+     "name_ko": "심연을 건너는 자 방호복",
      "bonus_stat_es": "Bonificación de DAÑ por calor y por naturaleza infligido: +15.6%",
      "bonus_stat_zh": "灼热和自然伤害加成: +15.6%",
      "bonus_stat_zh-TW": "灼熱和自然傷害加成: +15.6%",
@@ -10736,7 +11198,7 @@
      "name_ja": "渡淵ハンドガード",
      "name_zh": "涉渊裹手",
      "name_zh-TW": "涉淵裹手",
-     "name_ko": "절망 보호대",
+     "name_ko": "심연을 건너는 자 보호대",
      "bonus_stat_es": "Bonificación de DAÑ criogénico y eléctrico infligido: +26%",
      "bonus_stat_zh": "寒冷和电磁伤害加成: +26%",
      "bonus_stat_zh-TW": "寒冷和電磁傷害加成: +26%",
@@ -10795,7 +11257,7 @@
      "name_ja": "渡淵ガントレット",
      "name_zh": "涉渊手甲",
      "name_zh-TW": "涉淵手甲",
-     "name_ko": "절망 금속 장갑",
+     "name_ko": "심연을 건너는 자 금속 장갑",
      "bonus_stat_es": "Bonificación de DAÑ de ataque básico: +31.2%",
      "bonus_stat_zh": "普通攻击伤害加成: +31.2%",
      "bonus_stat_zh-TW": "普通攻擊傷害加成: +31.2%",
@@ -10854,19 +11316,314 @@
      "name_ja": "渡淵白刃",
      "name_zh": "涉渊白刃",
      "name_zh-TW": "涉淵白刃",
-     "name_ko": "절망 검날",
+     "name_ko": "심연을 건너는 자 검날",
      "bonus_stat_es": "Eficiencia de ganancia máxima: +33.4%",
      "bonus_stat_zh": "终结技充能效率: +33.4%",
      "bonus_stat_zh-TW": "終結技蓄能效率: +33.4%",
      "bonus_stat_ja": "必殺チャージの回復効率: +33.4%",
      "bonus_stat_ko": "궁극기 충전 효율: +33.4%"
+    },
+    {
+     "name": "Rift Trekker HVY Plate",
+     "type": "Armor",
+     "version": "1.7",
+     "def": 56,
+     "attributes": {
+      "strength": 149
+     },
+     "bonus_stat": "Cryo and Electric DMG Dealt Bonus: +15.6%",
+     "artificing": {
+      "attributes": {
+       "strength": [
+        115,
+        126,
+        138,
+        149
+       ]
+      },
+      "bonus_stat": {
+       "name": "Cryo and Electric DMG Dealt Bonus",
+       "values": [
+        12,
+        13.2,
+        14.4,
+        15.6
+       ],
+       "name_es": "Bonificación de DAÑ criogénico y eléctrico infligido",
+       "name_zh": "寒冷和电磁伤害加成",
+       "name_zh-TW": "寒冷和電磁傷害加成",
+       "name_ja": "寒冷&電磁ダメージUP",
+       "name_ko": "냉기와 전기 피해 보너스"
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50,
+      "comp_es": "Componente de Pirrolita",
+      "comp_zh": "灼铜装备原件",
+      "comp_zh-TW": "灼銅裝備原件",
+      "comp_ja": "焔銅装備部品",
+      "comp_ko": "작동 장비 부품",
+      "newest": {
+       "billN": 360,
+       "comp": "Pyrrolite Component",
+       "compN": 50
+      }
+     },
+     "name_es": "Placa PES de Trotagrietas",
+     "name_ja": "渡淵鋼製重防具",
+     "name_zh": "涉渊重钢甲",
+     "name_zh-TW": "涉淵重鋼甲",
+     "name_ko": "심연을 건너는 자 중형 강철 방어구",
+     "bonus_stat_es": "Bonificación de DAÑ criogénico y eléctrico infligido: +15.6%",
+     "bonus_stat_zh": "寒冷和电磁伤害加成: +15.6%",
+     "bonus_stat_zh-TW": "寒冷和電磁傷害加成: +15.6%",
+     "bonus_stat_ja": "寒冷&電磁ダメージUP: +15.6%",
+     "bonus_stat_ko": "냉기와 전기 피해 보너스: +15.6%"
+    },
+    {
+     "name": "Rift Trekker LITE Armor",
+     "type": "Armor",
+     "version": "1.7",
+     "def": 56,
+     "attributes": {
+      "will": 149
+     },
+     "bonus_stat": "Ultimate DMG: +35.1%",
+     "artificing": {
+      "attributes": {
+       "will": [
+        115,
+        126,
+        138,
+        149
+       ]
+      },
+      "bonus_stat": {
+       "name": "Ultimate DMG",
+       "values": [
+        27,
+        29.7,
+        32.4,
+        35.1
+       ],
+       "name_es": "Bonificación de DAÑ máximo",
+       "name_zh": "终结技伤害加成",
+       "name_zh-TW": "終結技傷害加成",
+       "name_ja": "必殺技ダメージUP",
+       "name_ko": "궁극기 피해 보너스"
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50,
+      "comp_es": "Componente de Pirrolita",
+      "comp_zh": "灼铜装备原件",
+      "comp_zh-TW": "灼銅裝備原件",
+      "comp_ja": "焔銅装備部品",
+      "comp_ko": "작동 장비 부품",
+      "newest": {
+       "billN": 360,
+       "comp": "Pyrrolite Component",
+       "compN": 50
+      }
+     },
+     "name_es": "Armadura LITE de Trotagrietas",
+     "name_ja": "渡淵ライトアーマー",
+     "name_zh": "涉渊轻护甲",
+     "name_zh-TW": "涉淵輕護甲",
+     "name_ko": "심연을 건너는 자 경량 방어구",
+     "bonus_stat_es": "Bonificación de DAÑ máximo: +35.1%",
+     "bonus_stat_zh": "终结技伤害加成: +35.1%",
+     "bonus_stat_zh-TW": "終結技傷害加成: +35.1%",
+     "bonus_stat_ja": "必殺技ダメージUP: +35.1%",
+     "bonus_stat_ko": "궁극기 피해 보너스: +35.1%"
+    },
+    {
+     "name": "Rift Trekker LITE Wraps",
+     "type": "Gloves",
+     "version": "1.7",
+     "def": 42,
+     "attributes": {
+      "intellect": 111
+     },
+     "bonus_stat": "Combo Skill DMG: +46.8%",
+     "artificing": {
+      "attributes": {
+       "intellect": [
+        86,
+        94,
+        103,
+        111
+       ]
+      },
+      "bonus_stat": {
+       "name": "Combo Skill DMG",
+       "values": [
+        36,
+        39.6,
+        43.2,
+        46.8
+       ],
+       "name_es": "Bono de DAÑ de la habilidad de combo",
+       "name_zh": "连携技伤害加成",
+       "name_zh-TW": "連攜技傷害加成",
+       "name_ja": "連携技ダメージUP",
+       "name_ko": "연계 스킬 피해 보너스"
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50,
+      "comp_es": "Componente de Pirrolita",
+      "comp_zh": "灼铜装备原件",
+      "comp_zh-TW": "灼銅裝備原件",
+      "comp_ja": "焔銅装備部品",
+      "comp_ko": "작동 장비 부품",
+      "newest": {
+       "billN": 360,
+       "comp": "Pyrrolite Component",
+       "compN": 50
+      }
+     },
+     "name_es": "Vendas LIGERAS de Trotagrietas",
+     "name_ja": "渡淵ライトハンドガード",
+     "name_zh": "涉渊轻裹手",
+     "name_zh-TW": "涉淵輕裹手",
+     "name_ko": "심연을 건너는 자 경량 보호대",
+     "bonus_stat_es": "Bono de DAÑ de la habilidad de combo: +46.8%",
+     "bonus_stat_zh": "连携技伤害加成: +46.8%",
+     "bonus_stat_zh-TW": "連攜技傷害加成: +46.8%",
+     "bonus_stat_ja": "連携技ダメージUP: +46.8%",
+     "bonus_stat_ko": "연계 스킬 피해 보너스: +46.8%"
+    },
+    {
+     "name": "Rift Trekker HVY Gauntlets",
+     "type": "Gloves",
+     "version": "1.7",
+     "def": 42,
+     "attributes": {
+      "agility": 111
+     },
+     "bonus_stat": "Heat and Nature DMG Dealt Bonus: +26%",
+     "artificing": {
+      "attributes": {
+       "agility": [
+        86,
+        94,
+        103,
+        111
+       ]
+      },
+      "bonus_stat": {
+       "name": "Heat and Nature DMG Dealt Bonus",
+       "values": [
+        20,
+        22,
+        24,
+        26
+       ],
+       "name_es": "Bonificación de DAÑ por calor y por naturaleza infligido",
+       "name_zh": "灼热和自然伤害加成",
+       "name_zh-TW": "灼熱和自然傷害加成",
+       "name_ja": "灼熱&自然ダメージUP",
+       "name_ko": "열기와 자연 피해 보너스"
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50,
+      "comp_es": "Componente de Pirrolita",
+      "comp_zh": "灼铜装备原件",
+      "comp_zh-TW": "灼銅裝備原件",
+      "comp_ja": "焔銅装備部品",
+      "comp_ko": "작동 장비 부품",
+      "newest": {
+       "billN": 360,
+       "comp": "Pyrrolite Component",
+       "compN": 50
+      }
+     },
+     "name_es": "Guanteletes PES de Trotagrietas",
+     "name_ja": "渡淵ヘビーガントレット",
+     "name_zh": "涉渊重手甲",
+     "name_zh-TW": "涉淵重手甲",
+     "name_ko": "심연을 건너는 자 중형 금속 장갑",
+     "bonus_stat_es": "Bonificación de DAÑ por calor y por naturaleza infligido: +26%",
+     "bonus_stat_zh": "灼热和自然伤害加成: +26%",
+     "bonus_stat_zh-TW": "灼熱和自然傷害加成: +26%",
+     "bonus_stat_ja": "灼熱&自然ダメージUP: +26%",
+     "bonus_stat_ko": "열기와 자연 피해 보너스: +26%"
+    },
+    {
+     "name": "Rift Trekker Rock Pick",
+     "type": "Kit",
+     "version": "1.7",
+     "def": 21,
+     "attributes": {
+      "strength": 55
+     },
+     "bonus_stat": "Battle Skill DMG: +56.2%",
+     "artificing": {
+      "attributes": {
+       "strength": [
+        43,
+        47,
+        51,
+        55
+       ]
+      },
+      "bonus_stat": {
+       "name": "Battle Skill DMG",
+       "values": [
+        43.2,
+        47.5,
+        51.8,
+        56.2
+       ],
+       "name_es": "Bonificación de DAÑ de habilidad de batalla",
+       "name_zh": "战技伤害加成",
+       "name_zh-TW": "戰技傷害加成",
+       "name_ja": "戦技ダメージUP",
+       "name_ko": "배틀 스킬 피해 보너스"
+      }
+     },
+     "assembly": {
+      "billN": 360,
+      "comp": "Pyrrolite Component",
+      "compN": 50,
+      "comp_es": "Componente de Pirrolita",
+      "comp_zh": "灼铜装备原件",
+      "comp_zh-TW": "灼銅裝備原件",
+      "comp_ja": "焔銅装備部品",
+      "comp_ko": "작동 장비 부품",
+      "newest": {
+       "billN": 360,
+       "comp": "Pyrrolite Component",
+       "compN": 50
+      }
+     },
+     "name_es": "Pico de roca de Trotagrietas",
+     "name_ja": "渡淵破岩錐",
+     "name_zh": "涉渊破岩锥",
+     "name_zh-TW": "涉淵破岩錐",
+     "name_ko": "심연을 건너는 자 암석 파쇄추",
+     "bonus_stat_es": "Bonificación de DAÑ de habilidad de batalla: +56.2%",
+     "bonus_stat_zh": "战技伤害加成: +56.2%",
+     "bonus_stat_zh-TW": "戰技傷害加成: +56.2%",
+     "bonus_stat_ja": "戦技ダメージUP: +56.2%",
+     "bonus_stat_ko": "배틀 스킬 피해 보너스: +56.2%"
     }
    ],
    "name_es": "Paquete de equipamiento de Trotagrietas",
    "name_zh": "涉渊装备组",
    "name_zh-TW": "涉淵裝備組",
    "name_ja": "渡淵セット",
-   "name_ko": "절망 장비 세트"
+   "name_ko": "심연을 건너는 자 장비 세트"
   },
   "AIC Fieldwork": {
    "set_bonus_3pc": "Wearer gains DMG Dealt +20% for all types of DMG, 10% DMG Reduction against all types of DMG, and Ultimate Gain Efficiency +10%.",
@@ -12058,6 +12815,204 @@
      "bonus_stat_zh-TW": "物理傷害提升: +25.6%",
      "bonus_stat_ja": "物理ダメージUP: +25.6%",
      "bonus_stat_ko": "물리 피해 증가: +25.6%"
+    },
+    {
+     "name": "AIC Fieldwork Mecha-Armor",
+     "type": "Armor",
+     "version": "1.7",
+     "def": 48,
+     "attributes": {
+      "main": 96,
+      "secondary": 63
+     },
+     "bonus_stat": "Critical Rate: +5.8%",
+     "artificing": {
+      "attributes": {
+       "main": [
+        74,
+        81,
+        88,
+        96
+       ],
+       "secondary": [
+        49,
+        53,
+        58,
+        63
+       ]
+      },
+      "bonus_stat": {
+       "name": "Critical Rate",
+       "values": [
+        4.4,
+        4.9,
+        5.3,
+        5.8
+       ],
+       "name_es": "Índice crítico",
+       "name_zh": "暴击率提升",
+       "name_zh-TW": "暴擊率提升",
+       "name_ja": "会心率UP",
+       "name_ko": "치명타 확률 증가"
+      }
+     },
+     "assembly": {
+      "billN": 3000,
+      "comp": "Xiranite Component",
+      "compN": 20,
+      "comp_es": "Componente de Xiranita",
+      "comp_zh": "息壤装备原件",
+      "comp_zh-TW": "息壤裝備原件",
+      "comp_ja": "息壌装備部品",
+      "comp_ko": "식양 장비 부품",
+      "newest": {
+       "billN": 30,
+       "comp": "Pyrrolite Component",
+       "compN": 2
+      }
+     },
+     "name_es": "Armadura mecánica para Trabajo de campo del CAI",
+     "name_ja": "集成訓練重装防具",
+     "name_zh": "集成实训重械护甲",
+     "name_zh-TW": "集成實訓重械護甲",
+     "name_ko": "통합 실전 훈련 중장비 방어구",
+     "bonus_stat_es": "Índice crítico: +5.8%",
+     "bonus_stat_zh": "暴击率提升: +5.8%",
+     "bonus_stat_zh-TW": "暴擊率提升: +5.8%",
+     "bonus_stat_ja": "会心率UP: +5.8%",
+     "bonus_stat_ko": "치명타 확률 증가: +5.8%"
+    },
+    {
+     "name": "AIC Fieldwork Mecha-Gloves",
+     "type": "Gloves",
+     "version": "1.7",
+     "def": 36,
+     "attributes": {
+      "main": 71,
+      "secondary": 48
+     },
+     "bonus_stat": "Critical Rate: +9.6%",
+     "artificing": {
+      "attributes": {
+       "main": [
+        55,
+        60,
+        66,
+        71
+       ],
+       "secondary": [
+        37,
+        40,
+        44,
+        48
+       ]
+      },
+      "bonus_stat": {
+       "name": "Critical Rate",
+       "values": [
+        7.4,
+        8.1,
+        8.8,
+        9.6
+       ],
+       "name_es": "Índice crítico",
+       "name_zh": "暴击率提升",
+       "name_zh-TW": "暴擊率提升",
+       "name_ja": "会心率UP",
+       "name_ko": "치명타 확률 증가"
+      }
+     },
+     "assembly": {
+      "billN": 3000,
+      "comp": "Xiranite Component",
+      "compN": 20,
+      "comp_es": "Componente de Xiranita",
+      "comp_zh": "息壤装备原件",
+      "comp_zh-TW": "息壤裝備原件",
+      "comp_ja": "息壌装備部品",
+      "comp_ko": "식양 장비 부품",
+      "newest": {
+       "billN": 30,
+       "comp": "Pyrrolite Component",
+       "compN": 2
+      }
+     },
+     "name_es": "Guantes mecánicos para Trabajo de campo del CAI",
+     "name_ja": "集成訓練重装プロテクター",
+     "name_zh": "集成实训重械护手",
+     "name_zh-TW": "集成實訓重械護手",
+     "name_ko": "통합 실전 훈련 중장비 보호 장갑",
+     "bonus_stat_es": "Índice crítico: +9.6%",
+     "bonus_stat_zh": "暴击率提升: +9.6%",
+     "bonus_stat_zh-TW": "暴擊率提升: +9.6%",
+     "bonus_stat_ja": "会心率UP: +9.6%",
+     "bonus_stat_ko": "치명타 확률 증가: +9.6%"
+    },
+    {
+     "name": "AIC Fieldwork Mecha-Slab",
+     "type": "Kit",
+     "version": "1.7",
+     "def": 18,
+     "attributes": {
+      "main": 35,
+      "secondary": 23
+     },
+     "bonus_stat": "Critical Rate: +11.5%",
+     "artificing": {
+      "attributes": {
+       "main": [
+        27,
+        29,
+        32,
+        35
+       ],
+       "secondary": [
+        18,
+        19,
+        21,
+        23
+       ]
+      },
+      "bonus_stat": {
+       "name": "Critical Rate",
+       "values": [
+        8.8,
+        9.7,
+        10.6,
+        11.5
+       ],
+       "name_es": "Índice crítico",
+       "name_zh": "暴击率提升",
+       "name_zh-TW": "暴擊率提升",
+       "name_ja": "会心率UP",
+       "name_ko": "치명타 확률 증가"
+      }
+     },
+     "assembly": {
+      "billN": 3000,
+      "comp": "Xiranite Component",
+      "compN": 20,
+      "comp_es": "Componente de Xiranita",
+      "comp_zh": "息壤装备原件",
+      "comp_zh-TW": "息壤裝備原件",
+      "comp_ja": "息壌装備部品",
+      "comp_ko": "식양 장비 부품",
+      "newest": {
+       "billN": 30,
+       "comp": "Pyrrolite Component",
+       "compN": 2
+      }
+     },
+     "name_es": "Losa mecánica para Trabajo de campo del CAI",
+     "name_ja": "集成訓練重装鋼板",
+     "name_zh": "集成实训重械钢板",
+     "name_zh-TW": "集成實訓重械鋼板",
+     "name_ko": "통합 실전 훈련 중장비 강철판",
+     "bonus_stat_es": "Índice crítico: +11.5%",
+     "bonus_stat_zh": "暴击率提升: +11.5%",
+     "bonus_stat_zh-TW": "暴擊率提升: +11.5%",
+     "bonus_stat_ja": "会心率UP: +11.5%",
+     "bonus_stat_ko": "치명타 확률 증가: +11.5%"
     }
    ],
    "name_es": "Trabajo de campo del CAI",

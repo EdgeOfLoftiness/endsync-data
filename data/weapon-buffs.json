@@ -6339,6 +6339,223 @@
         "noStack": true
       }
     ]
+  },
+  "Sweet Deal": {
+   "operator": "kay",
+   "passive": "Flow: Sweetening Function",
+   "buffs": [
+    {
+     "id": "sweet_deal_team_atk",
+     "src": "Flow: Sweetening Function",
+     "target": "team",
+     "label": {
+      "en": "Flow: Sweetening Function (team ATK)",
+      "es": "Flujo: Función endulzante (ATQ del equipo)",
+      "zh": "流转·甘甜动能（全队攻击力）",
+      "zh-TW": "流轉·甘甜動能（全隊攻擊力）",
+      "ja": "流回・あまいエネルギー（チーム全員の攻撃力）",
+      "ko": "흐름 · 달콤한 에너지 (팀 전체의 공격력)"
+     },
+     "cond": {
+      "en": "After the wielder's skill recovers SP, the entire team gains ATK +5.6% for 30s. Max stacks for this effect: 3. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+      "es": "Después de que la habilidad del portador recupere PH, todo el equipo obtiene ATQ +5.6% durante 30 s. Acumulaciones Máx. de este efecto: 3. La duración de cada acumulación se cuenta por separado. El efecto solo se activa una vez cada 0.1 s.",
+      "zh": "装备者通过自身技能恢复技力后，全队攻击力+5.6%，持续30秒。该效果最多叠加3层，每层单独计算持续时间，每0.1秒最多触发一次。",
+      "zh-TW": "裝備者透過自身技能回復技力後，全隊攻擊力+5.6%，持續30秒。該效果最多疊加3層，每層單獨計算持續時間，每0.1秒最多觸發一次。",
+      "ja": "装備中、自身のスキルでSPを回復すると、30秒間チーム全員の攻撃力+5.6% この効果は3回まで重ね掛け可能 効果の持続時間は個別にカウントされ、0.1秒に1回まで発動可能",
+      "ko": "장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체의 공격력 +5.6%, 30초 동안 지속. 해당 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다."
+     },
+     "mods": [
+      {
+       "type": "atkPct",
+       "byNode": [
+        0.02,
+        0.024,
+        0.028,
+        0.032,
+        0.036,
+        0.04,
+        0.044,
+        0.048,
+        0.056
+       ]
+      }
+     ],
+     "trigger": {
+      "onSpRecover": true,
+      "maxStacks": 3,
+      "cooldownS": 0.1
+     },
+     "durS": 30
+    },
+    {
+     "id": "sweet_deal_team_arts",
+     "src": "Flow: Sweetening Function",
+     "target": "team",
+     "label": {
+      "en": "Flow: Sweetening Function (team Arts DMG)",
+      "es": "Flujo: Función endulzante (DAÑ por artes del equipo)",
+      "zh": "流转·甘甜动能（全队法术伤害）",
+      "zh-TW": "流轉·甘甜動能（全隊法術傷害）",
+      "ja": "流回・あまいエネルギー（チーム全員のアーツダメージ）",
+      "ko": "흐름 · 달콤한 에너지 (팀 전체의 아츠 피해)"
+     },
+     "cond": {
+      "en": "After the wielder's skill applies an Arts Burst, the entire team gains Arts DMG Dealt +16.8% for 15s. This effect cannot stack.",
+      "es": "Después de que la habilidad del portador aplique una Ráfaga de artes, todo el equipo obtiene DAÑ por artes infligido +16.8% durante 15 s. Este efecto no se puede acumular.",
+      "zh": "装备者造成法术爆发时，全队造成的法术伤害+16.8%，持续15秒。该效果无法叠加。",
+      "zh-TW": "裝備者造成法術爆發時，全隊造成的法術傷害+16.8%，持續15秒。該效果無法疊加。",
+      "ja": "自身がアーツ爆発を与えるとき、15秒間チーム全員のアーツダメージ+16.8% この効果は重ね掛け不可",
+      "ko": "장착자가 아츠 폭발 피해를 주면, 팀 전체가 주는 아츠 피해 +16.8%, 15초 동안 지속. 해당 효과는 중첩되지 않습니다."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "arts",
+       "byNode": [
+        0.06,
+        0.072,
+        0.084,
+        0.096,
+        0.108,
+        0.12,
+        0.132,
+        0.144,
+        0.168
+       ]
+      }
+     ],
+     "trigger": {
+      "onApplyReaction": "burst"
+     },
+     "durS": 15,
+     "noStack": true
+    }
+   ]
+  },
+  "Raid Comet": {
+   "operator": "",
+   "passive": "Detonate: Skybreaker",
+   "buffs": [
+    {
+     "id": "raid_comet_nature",
+     "src": "Raid Comet",
+     "target": "self",
+     "permanent": true,
+     "replacesLeading": true,
+     "cond": {
+      "en": "Nature DMG Dealt +19.6%.",
+      "es": "DAÑ por naturaleza infligido +19.6%.",
+      "zh": "自然伤害+19.6%。",
+      "zh-TW": "自然傷害+19.6%。",
+      "ja": "自然ダメージ+19.6%",
+      "ko": "자연 피해 +19.6%"
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "nature",
+       "byNode": [
+        0.07,
+        0.084,
+        0.098,
+        0.112,
+        0.126,
+        0.14,
+        0.154,
+        0.168,
+        0.196
+       ]
+      }
+     ]
+    },
+    {
+     "id": "raid_comet_burst",
+     "src": "Detonate: Skybreaker",
+     "target": "self",
+     "label": {
+      "en": "Detonate: Skybreaker (Nature DMG)",
+      "es": "Detonación: Rompecielos (DAÑ por naturaleza)",
+      "zh": "迸发·划破天际（自然伤害）",
+      "zh-TW": "迸發·劃破天際（自然傷害）",
+      "ja": "噴発・スカイブレイカー（自然ダメージ）",
+      "ko": "방출 · 하늘 가르기 (자연 피해)"
+     },
+     "cond": {
+      "en": "After the wielder applies a Nature Burst, the wielder gains Nature DMG Dealt +33.6% for 20s. The two effects apply separately and do not stack with themselves.",
+      "es": "Después de que el portador aplique una Ráfaga de naturaleza, obtiene DAÑ por naturaleza infligido +33.6% durante 20 s. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+      "zh": "装备者造成自然爆发时，自然伤害+33.6%，持续20秒。两种效果独立生效，且均无法叠加。",
+      "zh-TW": "裝備者造成自然爆發時，自然傷害+33.6%，持續20秒。兩種效果獨立生效，且均無法疊加。",
+      "ja": "装備中、自身が自然爆発を与えるとき、20秒間自然ダメージ+33.6% 2つの効果はそれぞれ存在し、重ね掛け不可",
+      "ko": "장착자가 자연 폭발 피해를 주면, 자연 피해 +33.6%, 20초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "nature",
+       "byNode": [
+        0.12,
+        0.144,
+        0.168,
+        0.192,
+        0.216,
+        0.24,
+        0.264,
+        0.288,
+        0.336
+       ]
+      }
+     ],
+     "trigger": {
+      "onApplyReaction": "burst",
+      "element": "nature"
+     },
+     "durS": 20,
+     "noStack": true
+    },
+    {
+     "id": "raid_comet_team_arts",
+     "src": "Detonate: Skybreaker",
+     "target": "team",
+     "label": {
+      "en": "Detonate: Skybreaker (team Arts DMG)",
+      "es": "Detonación: Rompecielos (DAÑ por artes del equipo)",
+      "zh": "迸发·划破天际（全队法术伤害）",
+      "zh-TW": "迸發·劃破天際（全隊法術傷害）",
+      "ja": "噴発・スカイブレイカー（チーム全員のアーツダメージ）",
+      "ko": "방출 · 하늘 가르기 (팀 전체의 아츠 피해)"
+     },
+     "cond": {
+      "en": "After the wielder's skill recovers SP, the entire team gains Arts DMG Dealt +5.6% for 20s. The two effects apply separately and do not stack with themselves.",
+      "es": "Después de que la habilidad del portador recupere PH, todo el equipo obtiene DAÑ por Artes Infligido +5.6% durante 20 s. Los dos efectos se aplican por separado y no se acumulan entre sí.",
+      "zh": "装备者通过自身技能恢复技力后，全队造成的法术伤害+5.6%，持续20秒。两种效果独立生效，且均无法叠加。",
+      "zh-TW": "裝備者透過自身技能回復技力後，全隊造成的法術傷害+5.6%，持續20秒。兩種效果獨立生效，且均無法疊加。",
+      "ja": "自身のスキルでSPを回復すると、20秒間チーム全員のアーツダメージ+5.6% 2つの効果はそれぞれ存在し、重ね掛け不可",
+      "ko": "장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체가 주는 아츠 피해 +5.6%, 20초 동안 지속. 두 효과는 각각 독립적으로 적용되며, 동일한 효과는 중첩되지 않습니다."
+     },
+     "mods": [
+      {
+       "type": "dmgAdd",
+       "element": "arts",
+       "byNode": [
+        0.02,
+        0.024,
+        0.028,
+        0.032,
+        0.036,
+        0.04,
+        0.044,
+        0.048,
+        0.056
+       ]
+      }
+     ],
+     "trigger": {
+      "onSpRecover": true
+     },
+     "durS": 20,
+     "noStack": true
+    }
+   ]
   }
  }
 }
