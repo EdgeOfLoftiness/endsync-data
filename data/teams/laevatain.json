@@ -1369,6 +1369,1354 @@
           }
         ]
       }
+    },
+    {
+      "name": {
+        "es": "YZ-月咒 - Fuego tradicional con Antal",
+        "en": "YZ-月咒 - Traditional Fire with Antal"
+      },
+      "subtitle": {
+        "es": "Wulfgard · Ardelia · Antal",
+        "en": "Wulfgard · Ardelia · Antal"
+      },
+      "guideVideoId": "laevb4",
+      "blurb": {
+        "es": "El equipo de fuego «tradicional» de Laevatain, del video de YZ-月咒 de mayo de 2026: un 3 para 1 en el que Wulfgard pone Heat y Ardelia y Antal potencian a Laevatain. Enseña el arranque en caliente con todas las Ultimates listas, el arranque en frío con dos vueltas de carga y los trucos para no perder Melting Flame, con las builds de los cuatro.",
+        "en": "Laevatain's 'traditional' fire team, from YZ-月咒's May 2026 video: a three-for-one where Wulfgard applies Heat and Ardelia and Antal boost Laevatain. It teaches the hot start with every Ultimate ready, the cold start with two charge laps and the tricks to avoid losing Melting Flame, with builds for all four."
+      },
+      "simple": {
+        "whatItDoes": {
+          "es": "Laevatain es la carry: la Final Strike del personaje controlado absorbe la Heat Infliction del enemigo y cada acumulación es un Melting Flame. Con 4, su Battle Skill mejorada los consume, fuerza Combustion y le da Ultimate Energy. Wulfgard pone Heat con su Battle Skill y su Combo, y el Combo de Antal suma otra acumulación; la Battle Skill de Antal deja un Focus de 60 s con Susceptibility. El Combo de Ardelia aplica Corrosion, que dispara el Combo de Laevatain (+1 Melting Flame), y su Battle Skill convierte esa Corrosion en Susceptibility.",
+          "en": "Laevatain is the carry: the controlled operator's Final Strike absorbs the enemy's Heat Infliction and each stack becomes one Melting Flame. At 4, her Enhanced Battle Skill consumes them, forces Combustion and gives her Ultimate Energy. Wulfgard applies Heat with his Battle Skill and his Combo, and Antal's Combo adds another stack; Antal's Battle Skill leaves a 60 s Focus with Susceptibility. Ardelia's Combo applies Corrosion, which fires Laevatain's Combo (+1 Melting Flame), and her Battle Skill turns that Corrosion into Susceptibility."
+        },
+        "steps": [
+          {
+            "who": "laevatain",
+            "do": {
+              "es": "Controla a Laevatain. Durante su Ultimate: básicos sin soltar, Combos en cuanto se iluminen y Battle Skill mejorada cada vez que junte 4 Melting Flame (los cuatro pétalos rojos junto a su barra de vida).",
+              "en": "Control Laevatain. During her Ultimate: basic attack nonstop, press Combos as soon as they light up and use the Enhanced Battle Skill every time she has 4 Melting Flame (the four red petals next to her HP bar)."
+            }
+          },
+          {
+            "who": "antal",
+            "do": {
+              "es": "Arranque: Battle Skill de Antal (Focus de 60 s), Final Strike para el Combo de Ardelia y Battle Skill de Wulfgard: salen los Combos de Wulfgard y Antal y el enemigo queda con 3 acumulaciones de Heat.",
+              "en": "Start: Antal's Battle Skill (60 s Focus), a Final Strike for Ardelia's Combo and Wulfgard's Battle Skill: Wulfgard's and Antal's Combos come out and the enemy ends up with 3 Heat stacks."
+            }
+          },
+          {
+            "who": "laevatain",
+            "do": {
+              "es": "Final Strike: 3 Melting Flame. Combo de Laevatain, cancelado con esquiva: el cuarto. Battle Skill mejorada para cargar.",
+              "en": "Final Strike: 3 Melting Flame. Laevatain's Combo, cancelled with a dodge: the fourth. Enhanced Battle Skill to charge."
+            }
+          },
+          {
+            "who": "ardelia",
+            "do": {
+              "es": "La segunda vuelta es igual, con la Battle Skill de Ardelia en lugar de la de Antal. Con la build del video a potencial 0, espera a que vuelva el Combo de Laevatain y lánzalo tras la Battle Skill mejorada: 2 Battle Skills mejoradas y 3 Combos llenan el Ultimate.",
+              "en": "The second lap is the same, with Ardelia's Battle Skill instead of Antal's. With the video's build at potential 0, wait for Laevatain's Combo to come back and use it after the Enhanced Battle Skill: 2 Enhanced Battle Skills and 3 Combos fill the Ultimate."
+            }
+          },
+          {
+            "who": "laevatain",
+            "do": {
+              "es": "Burst: Ultimates de Laevatain, Wulfgard, Ardelia y Antal. Si el Ultimate de Laevatain está por acabar y el jefe no está para rematar, guarda los 4 Melting Flame para cargar después.",
+              "en": "Burst: Laevatain's, Wulfgard's, Ardelia's and Antal's Ultimates. If Laevatain's Ultimate is about to end and the boss is not low enough to finish, keep the 4 Melting Flame to charge afterwards."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "laevatain",
+            "line": {
+              "es": "Forgeborn Scathe. Hot Work Exo-Rig, Gauntlets y Pyrometer con LYNX Slab.",
+              "en": "Forgeborn Scathe. Hot Work Exo-Rig, Gauntlets and Pyrometer with LYNX Slab."
+            }
+          },
+          {
+            "id": "wulfgard",
+            "line": {
+              "es": "OBJ Velocitous. Type 50 Yinglung Heavy Armor T1, Eternal Xiranite Gloves y dos Eternal Xiranite Power Core.",
+              "en": "OBJ Velocitous. Type 50 Yinglung Heavy Armor T1, Eternal Xiranite Gloves and two Eternal Xiranite Power Cores."
+            }
+          },
+          {
+            "id": "ardelia",
+            "line": {
+              "es": "Dreams of the Starry Beach. LYNX Cuirass, Eternal Xiranite Gloves T1 y dos Eternal Xiranite Auxiliary Arm.",
+              "en": "Dreams of the Starry Beach. LYNX Cuirass, Eternal Xiranite Gloves T1 and two Eternal Xiranite Auxiliary Arms."
+            }
+          },
+          {
+            "id": "antal",
+            "line": {
+              "es": "Detonation Unit. Frontiers Protection Suit, Fiber Gloves T1 y Analyzer con Redeemer Seal.",
+              "en": "Detonation Unit. Frontiers Protection Suit, Fiber Gloves T1 and Analyzer with Redeemer Seal."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "YZ-月咒 lo plantea como un 3 para 1: Wulfgard se encarga de poner Heat, y Ardelia y Antal, de potenciar a Laevatain, que hace el daño. En caliente es cómodo: Ultimate de Laevatain, básicos sin soltar, Combos en cuanto se iluminan y Battle Skill mejorada a 4 Melting Flame. En frío pide algo más de técnica: cancelar con esquiva la Battle Skill mejorada si el jefe se mueve (si falla, se pierden los 4 Melting Flame) y cancelar la animación final del Combo de Laevatain para arrancar antes. La build de Laevatain del video (3 Hot Work + LYNX Slab) sirve a potencial 0 y a potencial máximo: con un eje más preciso, lleva una pieza de carga menos y gana daño.",
+        "en": "YZ-月咒 frames it as a three-for-one: Wulfgard handles applying Heat, and Ardelia and Antal boost Laevatain, who deals the damage. With a hot start it is comfortable: Laevatain's Ultimate, basic attack nonstop, Combos as soon as they light up and the Enhanced Battle Skill at 4 Melting Flame. A cold start takes a bit more technique: dodge-cancel the Enhanced Battle Skill if the boss moves (if it misses, the 4 Melting Flame are lost) and cancel the end of Laevatain's Combo animation to start sooner. The video's Laevatain build (3 Hot Work + LYNX Slab) works at potential 0 and at max potential: with a more precise axis she carries one less charge piece and gains damage."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Fácil en caliente; algo exigente en frío",
+          "en": "Easy hot start; a bit demanding cold"
+        },
+        "content": {
+          "es": "Jefe / Single-target",
+          "en": "Boss / Single-target"
+        },
+        "tags": [
+          {
+            "es": "Heat",
+            "en": "Heat"
+          },
+          {
+            "es": "Melting Flame",
+            "en": "Melting Flame"
+          },
+          {
+            "es": "3 para 1",
+            "en": "Three-for-one"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "En caliente, el burst es casi automático: básicos sin soltar, Combos al iluminarse y Battle Skill mejorada a 4 Melting Flame.",
+          "en": "With a hot start the burst is almost automatic: basic attack nonstop, Combos as they light up and the Enhanced Battle Skill at 4 Melting Flame."
+        },
+        {
+          "es": "La build de Laevatain del video vale a potencial 0 y a potencial máximo, con una pieza de carga menos para ganar daño.",
+          "en": "The video's Laevatain build works at potential 0 and at max potential, with one less charge piece to gain damage."
+        },
+        {
+          "es": "Una sola Battle Skill de Antal deja un Focus de 60 s con Susceptibility.",
+          "en": "A single Antal Battle Skill leaves a 60 s Focus with Susceptibility."
+        }
+      ],
+      "cons": [
+        {
+          "es": "En frío hay que cancelar con esquiva: la Battle Skill mejorada si el jefe se mueve (si falla, se pierden los 4 Melting Flame y 100 SP) y la animación final del Combo de Laevatain.",
+          "en": "A cold start needs dodge cancels: the Enhanced Battle Skill if the boss moves (if it misses, the 4 Melting Flame and 100 SP are lost) and the end of Laevatain's Combo animation."
+        },
+        {
+          "es": "A potencial 0 con la build del video, el Ultimate de Laevatain pide un Combo más: 2 Battle Skills mejoradas y 3 Combos.",
+          "en": "At potential 0 with the video's build, Laevatain's Ultimate needs one more Combo: 2 Enhanced Battle Skills and 3 Combos."
+        },
+        {
+          "es": "El Combo de Antal tiene 25 s de cooldown: necesita el set Frontiers para reducirlo y seguir el ritmo del Combo de Wulfgard.",
+          "en": "Antal's Combo has a 25 s cooldown: he needs the Frontiers set to reduce it and keep pace with Wulfgard's Combo."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "Un 3 para 1",
+            "en": "A three-for-one"
+          },
+          "body": {
+            "es": "Wulfgard pone Heat con su Battle Skill y su Combo. La Battle Skill de Antal deja un Focus de 60 s con Susceptibility en un solo enemigo, y su Combo le suma otra acumulación de la misma Infliction. Ardelia convierte su Corrosion en Susceptibility. Los tres trabajan para Laevatain.",
+            "en": "Wulfgard applies Heat with his Battle Skill and his Combo. Antal's Battle Skill leaves a 60 s Focus with Susceptibility on a single enemy, and his Combo adds another stack of the same Infliction. Ardelia turns her Corrosion into Susceptibility. All three work for Laevatain."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Melting Flame",
+            "en": "Melting Flame"
+          },
+          "body": {
+            "es": "La Final Strike del personaje controlado absorbe la Heat Infliction del enemigo y cada acumulación pasa a ser un Melting Flame; el Combo de Laevatain suma uno más. Con 4, la Battle Skill mejorada los consume, fuerza Combustion y le da Ultimate Energy. Según el autor, el Ultimate de Laevatain se carga sobre todo con Battle Skills mejoradas y Combos.",
+            "en": "The controlled operator's Final Strike absorbs the enemy's Heat Infliction and each stack becomes one Melting Flame; Laevatain's Combo adds one more. At 4, the Enhanced Battle Skill consumes them, forces Combustion and gives her Ultimate Energy. Per the author, Laevatain's Ultimate charges mainly through Enhanced Battle Skills and Combos."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Combos en cadena",
+            "en": "Chained Combos"
+          },
+          "body": {
+            "es": "Durante el Ultimate de Laevatain, la tercera secuencia de su ataque básico aplica Heat Infliction y dispara los Combos de Wulfgard y Antal, que ponen más Heat. El Combo de Laevatain sale con la Corrosion del Combo de Ardelia, con la Combustion del Ultimate de Wulfgard y con la de su propia Battle Skill mejorada: así se completa la carga cuando falta un poco, algo que según el autor pasa a menudo.",
+            "en": "During Laevatain's Ultimate, the third sequence of her basic attack applies Heat Infliction and fires Wulfgard's and Antal's Combos, which add more Heat. Laevatain's Combo comes out with the Corrosion from Ardelia's Combo, with the Combustion from Wulfgard's Ultimate and with the one from her own Enhanced Battle Skill: that is how you top up the charge when it falls a little short, which per the author happens often."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Ardelia",
+            "en": "Ardelia"
+          },
+          "body": {
+            "es": "El Combo de Ardelia sale con la Final Strike del personaje controlado y su nube aplica Corrosion. Su Battle Skill consume esa Corrosion y deja 30 s de Susceptibility.",
+            "en": "Ardelia's Combo comes out with the controlled operator's Final Strike and her cloud applies Corrosion. Her Battle Skill consumes that Corrosion and leaves 30 s of Susceptibility."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Arranque en frío: vuelta de carga 1",
+            "en": "Cold start: charge lap 1"
+          },
+          "action": {
+            "es": "Battle Skill de Antal → Final Strike (Combo de Ardelia) → Battle Skill de Wulfgard (Combos de Wulfgard y Antal: 3 de Heat) → Final Strike (3 Melting Flame) → Combo de Laevatain (4) → Battle Skill mejorada.",
+            "en": "Antal's Battle Skill → Final Strike (Ardelia's Combo) → Wulfgard's Battle Skill (Wulfgard's and Antal's Combos: 3 Heat) → Final Strike (3 Melting Flame) → Laevatain's Combo (4) → Enhanced Battle Skill."
+          },
+          "steps": [
+            {
+              "who": "antal",
+              "do": {
+                "es": "Battle Skill de Antal: Focus de 60 s con Susceptibility.",
+                "en": "Antal's Battle Skill: 60 s Focus with Susceptibility."
+              }
+            },
+            {
+              "who": "laevatain",
+              "do": {
+                "es": "Final Strike con Laevatain: sale el Combo de Ardelia.",
+                "en": "Final Strike with Laevatain: Ardelia's Combo comes out."
+              }
+            },
+            {
+              "who": "wulfgard",
+              "do": {
+                "es": "Battle Skill de Wulfgard: una acumulación de Heat Infliction que dispara a la vez los Combos de Wulfgard y Antal. El enemigo queda con 3.",
+                "en": "Wulfgard's Battle Skill: one Heat Infliction stack that fires Wulfgard's and Antal's Combos at once. The enemy ends up with 3."
+              }
+            },
+            {
+              "who": "laevatain",
+              "do": {
+                "es": "Final Strike de Laevatain: absorbe las 3 acumulaciones y las convierte en 3 Melting Flame (tres pétalos blancos junto a su barra de vida).",
+                "en": "Laevatain's Final Strike: she absorbs the 3 stacks and turns them into 3 Melting Flame (three white petals next to her HP bar)."
+              },
+              "key": true
+            },
+            {
+              "who": "laevatain",
+              "do": {
+                "es": "Combo de Laevatain, cancelando con esquiva su animación final: un Melting Flame más, 4 en total.",
+                "en": "Laevatain's Combo, dodge-cancelling the end of its animation: one more Melting Flame, 4 in total."
+              }
+            },
+            {
+              "who": "laevatain",
+              "do": {
+                "es": "Battle Skill mejorada para cargar el Ultimate.",
+                "en": "Enhanced Battle Skill to charge the Ultimate."
+              },
+              "key": true
+            },
+            {
+              "who": "laevatain",
+              "do": {
+                "es": "Final Strikes para recuperar SP mientras vuelven los Combos de Ardelia, Wulfgard y Antal.",
+                "en": "Final Strikes to recover SP while Ardelia's, Wulfgard's and Antal's Combos come back."
+              }
+            }
+          ],
+          "tip": {
+            "es": "A potencial 0, el Ultimate se llena con 2 Battle Skills mejoradas y 3 Combos; a potencial 4 o más, o a potencial 0 con una armadura de carga, con 2 y 2. El arranque es el mismo en los dos casos.",
+            "en": "At potential 0 the Ultimate fills with 2 Enhanced Battle Skills and 3 Combos; at potential 4 or higher, or at potential 0 with a charge armor, with 2 and 2. The start is the same in both cases."
+          }
+        },
+        {
+          "phase": {
+            "es": "Arranque en frío: vuelta de carga 2",
+            "en": "Cold start: charge lap 2"
+          },
+          "action": {
+            "es": "Final Strike (Combo de Ardelia) → Battle Skill de Wulfgard (Combos de Wulfgard y Antal) → Combo de Laevatain → Final Strike (4 Melting Flame) → Battle Skill de Ardelia → Battle Skill mejorada (+ Combo de Laevatain a potencial 0).",
+            "en": "Final Strike (Ardelia's Combo) → Wulfgard's Battle Skill (Wulfgard's and Antal's Combos) → Laevatain's Combo → Final Strike (4 Melting Flame) → Ardelia's Battle Skill → Enhanced Battle Skill (+ Laevatain's Combo at potential 0)."
+          },
+          "steps": [
+            {
+              "who": "laevatain",
+              "do": {
+                "es": "Arranca cuando los Combos de los tres compañeros estén casi listos: la barra blanca sobre la azul del panel del equipo, abajo a la izquierda, marca su cooldown.",
+                "en": "Start when the three teammates' Combos are nearly ready: the white bar above the blue one in the team panel, bottom left, shows their cooldown."
+              }
+            },
+            {
+              "who": "laevatain",
+              "do": {
+                "es": "Esta vez sin la Battle Skill de Antal: Final Strike con Laevatain y usa el Combo de Ardelia.",
+                "en": "No Antal Battle Skill this time: Final Strike with Laevatain and use Ardelia's Combo."
+              }
+            },
+            {
+              "who": "wulfgard",
+              "do": {
+                "es": "Battle Skill de Wulfgard: salen los Combos de Wulfgard y Antal y el enemigo queda con 3 acumulaciones de Heat Infliction.",
+                "en": "Wulfgard's Battle Skill: Wulfgard's and Antal's Combos come out and the enemy ends up with 3 Heat Infliction stacks."
+              }
+            },
+            {
+              "who": "laevatain",
+              "do": {
+                "es": "La Corrosion del Combo de Ardelia dispara el Combo de Laevatain: úsalo, +1 Melting Flame.",
+                "en": "The Corrosion from Ardelia's Combo fires Laevatain's Combo: use it, +1 Melting Flame."
+              }
+            },
+            {
+              "who": "laevatain",
+              "do": {
+                "es": "Final Strike: absorbe las 3 acumulaciones y Laevatain llega a 4 Melting Flame.",
+                "en": "Final Strike: she absorbs the 3 stacks and Laevatain reaches 4 Melting Flame."
+              },
+              "key": true
+            },
+            {
+              "who": "ardelia",
+              "do": {
+                "es": "Antes de que se acabe la Corrosion, Battle Skill de Ardelia: la convierte en Susceptibility.",
+                "en": "Before the Corrosion runs out, Ardelia's Battle Skill: it turns it into Susceptibility."
+              }
+            },
+            {
+              "who": "laevatain",
+              "do": {
+                "es": "A potencial 0 con una armadura de carga, o a potencial 4 (que abarata el Ultimate), la Battle Skill mejorada ya lo llena. Con la build del video a potencial 0, espera a que vuelva el Combo de Laevatain: la Battle Skill mejorada lo dispara y con él se llena el Ultimate (2 Battle Skills mejoradas y 3 Combos).",
+                "en": "At potential 0 with a charge armor, or at potential 4 (which makes the Ultimate cheaper), the Enhanced Battle Skill already fills it. With the video's build at potential 0, wait for Laevatain's Combo to come back: the Enhanced Battle Skill fires it and that fills the Ultimate (2 Enhanced Battle Skills and 3 Combos)."
+              },
+              "key": true
+            }
+          ]
+        },
+        {
+          "phase": {
+            "es": "Burst",
+            "en": "Burst"
+          },
+          "action": {
+            "es": "Ultimates de Laevatain, Wulfgard, Ardelia y Antal → básicos sin soltar, Combos al iluminarse y Battle Skill mejorada a 4 Melting Flame.",
+            "en": "Laevatain's, Wulfgard's, Ardelia's and Antal's Ultimates → basic attack nonstop, Combos as they light up and the Enhanced Battle Skill at 4 Melting Flame."
+          },
+          "steps": [
+            {
+              "who": "laevatain",
+              "do": {
+                "es": "Ultimates en este orden: Laevatain, Wulfgard, Ardelia y Antal.",
+                "en": "Ultimates in this order: Laevatain, Wulfgard, Ardelia and Antal."
+              },
+              "key": true
+            },
+            {
+              "who": "laevatain",
+              "do": {
+                "es": "Básicos sin soltar y Combos en cuanto se iluminen; Battle Skill mejorada cada vez que tenga 4 Melting Flame.",
+                "en": "Basic attack nonstop and Combos as soon as they light up; Enhanced Battle Skill every time she has 4 Melting Flame."
+              }
+            },
+            {
+              "who": "laevatain",
+              "do": {
+                "es": "Cancela con esquiva la animación final de cada Combo de Laevatain: el daño sale más fluido.",
+                "en": "Dodge-cancel the end of every Laevatain Combo animation: the damage flows better."
+              }
+            },
+            {
+              "who": "laevatain",
+              "do": {
+                "es": "Si el Ultimate está por acabar y tienes 4 Melting Flame, no gastes la Battle Skill mejorada: guárdala y úsala al terminar el Ultimate para cargar el siguiente.",
+                "en": "If the Ultimate is about to end and you have 4 Melting Flame, do not spend the Enhanced Battle Skill: keep it and use it when the Ultimate ends to charge the next one."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "Si el jefe está casi muerto cuando se acaba el Ultimate, esa Battle Skill mejorada sirve para rematarlo.",
+            "en": "If the boss is almost dead when the Ultimate ends, that Enhanced Battle Skill finishes it off."
+          }
+        }
+      ],
+      "rotationVariants": [
+        {
+          "name": {
+            "es": "Arranque en caliente (todas las Ultimates listas)",
+            "en": "Hot start (every Ultimate ready)"
+          },
+          "description": {
+            "es": "El primer caso del video: el equipo empieza con todas las Ultimates cargadas.",
+            "en": "The video's first case: the team starts with every Ultimate charged."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Apertura",
+                "en": "Opener"
+              },
+              "action": {
+                "es": "Battle Skill de Antal → Final Strike (Corrosion de Ardelia) → Ultimates de Laevatain, Wulfgard y Antal → Combo de Laevatain → Battle Skill de Ardelia.",
+                "en": "Antal's Battle Skill → Final Strike (Ardelia's Corrosion) → Laevatain's, Wulfgard's and Antal's Ultimates → Laevatain's Combo → Ardelia's Battle Skill."
+              },
+              "steps": [
+                {
+                  "who": "antal",
+                  "do": {
+                    "es": "Battle Skill de Antal: Focus de 60 s.",
+                    "en": "Antal's Battle Skill: 60 s Focus."
+                  }
+                },
+                {
+                  "who": "laevatain",
+                  "do": {
+                    "es": "Final Strike con el personaje controlado: el Combo de Ardelia aplica Corrosion.",
+                    "en": "Final Strike with the controlled operator: Ardelia's Combo applies Corrosion."
+                  }
+                },
+                {
+                  "who": "laevatain",
+                  "do": {
+                    "es": "Ultimates de Laevatain, Wulfgard y Antal, en ese orden. El de Ardelia puede guardarse para curar o para sumar Stagger.",
+                    "en": "Laevatain's, Wulfgard's and Antal's Ultimates, in that order. Ardelia's can be saved for healing or to add Stagger."
+                  },
+                  "key": true
+                },
+                {
+                  "who": "laevatain",
+                  "do": {
+                    "es": "Combo de Laevatain, cancelando con esquiva su animación final.",
+                    "en": "Laevatain's Combo, dodge-cancelling the end of its animation."
+                  }
+                },
+                {
+                  "who": "ardelia",
+                  "do": {
+                    "es": "Battle Skill de Ardelia: la Corrosion pasa a 30 s de Susceptibility.",
+                    "en": "Ardelia's Battle Skill: the Corrosion becomes 30 s of Susceptibility."
+                  }
+                }
+              ]
+            },
+            {
+              "phase": {
+                "es": "Burst",
+                "en": "Burst"
+              },
+              "action": {
+                "es": "Tercera secuencia del básico (Heat: Combos de Wulfgard y Antal) → Final Strike (Melting Flame) → Battle Skill mejorada → básicos y Combos.",
+                "en": "Third basic attack sequence (Heat: Wulfgard's and Antal's Combos) → Final Strike (Melting Flame) → Enhanced Battle Skill → basic attacks and Combos."
+              },
+              "steps": [
+                {
+                  "who": "laevatain",
+                  "do": {
+                    "es": "La tercera secuencia del básico de Laevatain aplica Heat Infliction y dispara los Combos de Wulfgard y Antal, que ponen más Heat.",
+                    "en": "The third sequence of Laevatain's basic attack applies Heat Infliction and fires Wulfgard's and Antal's Combos, which add more Heat."
+                  }
+                },
+                {
+                  "who": "laevatain",
+                  "do": {
+                    "es": "La última secuencia (la Final Strike) absorbe la Heat del enemigo: con los cuatro pétalos en rojo, Battle Skill mejorada.",
+                    "en": "The last sequence (the Final Strike) absorbs the enemy's Heat: with all four petals red, Enhanced Battle Skill."
+                  },
+                  "key": true
+                },
+                {
+                  "who": "laevatain",
+                  "do": {
+                    "es": "Básicos sin soltar y Combos en cuanto se iluminen, el de Laevatain incluido.",
+                    "en": "Basic attack nonstop and Combos as soon as they light up, Laevatain's included."
+                  }
+                },
+                {
+                  "who": "laevatain",
+                  "do": {
+                    "es": "Al final del Ultimate, con 4 Melting Flame: si el jefe tiene poca vida, Battle Skill mejorada para rematarlo; si no, guárdalos y úsala al acabar el Ultimate para cargar.",
+                    "en": "At the end of the Ultimate, with 4 Melting Flame: if the boss is low, Enhanced Battle Skill to finish it; if not, keep them and use it when the Ultimate ends to charge."
+                  },
+                  "key": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "laevatain",
+          "order": {
+            "es": "Ultimate / Battle Skill (Especialización 3) > Ataque básico / Combo (nivel 9 o Especialización 3)",
+            "en": "Ultimate / Battle Skill (Specialization 3) > Basic attack / Combo (level 9 or Specialization 3)"
+          },
+          "note": {
+            "es": "Refinado: Intellect, Heat DMG, Battle Skill DMG y atributo principal, por delante de Strength y Will.",
+            "en": "Artificing: Intellect, Heat DMG, Battle Skill DMG and main attribute, ahead of Strength and Will."
+          },
+          "assumeRanks": {
+            "battle_skill": 12,
+            "ultimate": 12,
+            "combo_skill": 9
+          }
+        },
+        {
+          "charId": "wulfgard",
+          "order": {
+            "es": "Las skills no importan: se pueden dejar sin subir",
+            "en": "Skills do not matter: they can stay unleveled"
+          },
+          "note": {
+            "es": "Si se suben, la ficha da prioridad a la Battle Skill, como sub-DPS.",
+            "en": "If you level them, the card prioritizes the Battle Skill, as a sub-DPS."
+          }
+        },
+        {
+          "charId": "ardelia",
+          "order": {
+            "es": "Battle Skill (nivel 9 o Especialización 3) > el resto",
+            "en": "Battle Skill (level 9 or Specialization 3) > the rest"
+          },
+          "note": {
+            "es": "Solo hace falta subir la Battle Skill.",
+            "en": "Only the Battle Skill needs leveling."
+          },
+          "assumeRanks": {
+            "battle_skill": 9
+          }
+        },
+        {
+          "charId": "antal",
+          "order": {
+            "es": "Battle Skill (nivel 7: 8 %; Especialización 1: 9 %; Especialización 3: 10 %) y Ultimate (nivel 9: 16 %; Especialización 3: 20 %)",
+            "en": "Battle Skill (level 7: 8%; Specialization 1: 9%; Specialization 3: 10%) and Ultimate (level 9: 16%; Specialization 3: 20%)"
+          },
+          "note": {
+            "es": "Solo Battle Skill y Ultimate; los porcentajes son los que la ficha da para cada nivel.",
+            "en": "Only Battle Skill and Ultimate; the percentages are the ones the card gives for each level."
+          },
+          "assumeRanks": {
+            "battle_skill": 7,
+            "ultimate": 9
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Lanzar la Battle Skill mejorada cuando el jefe se mueve: si falla, se pierden los 4 Melting Flame y 100 SP. Cancélala con esquiva: el SP se gasta igual, pero los 4 Melting Flame se quedan y no hay que volver a poner Heat.",
+          "en": "Casting the Enhanced Battle Skill when the boss moves: if it misses, the 4 Melting Flame and 100 SP are lost. Dodge-cancel it: the SP is still spent, but the 4 Melting Flame stay and you do not have to apply Heat again."
+        },
+        {
+          "es": "No cancelar la animación final del Combo de Laevatain: el arranque se alarga.",
+          "en": "Not cancelling the end of Laevatain's Combo animation: the start takes longer."
+        },
+        {
+          "es": "Gastar los 4 Melting Flame al final del Ultimate con el jefe todavía entero: el siguiente Ultimate se carga sobre todo con Battle Skills mejoradas y Combos.",
+          "en": "Spending the 4 Melting Flame at the end of the Ultimate with the boss still healthy: the next Ultimate charges mainly through Enhanced Battle Skills and Combos."
+        },
+        {
+          "es": "Buscar el Finisher con Laevatain durante su Ultimate: no puede hacerlo. Cambia a Wulfgard u otro miembro para el Finisher y, si Laevatain tiene 4 Melting Flame, aprovecha para su Battle Skill mejorada; después vuelve a ella.",
+          "en": "Going for the Finisher with Laevatain during her Ultimate: she cannot do it. Switch to Wulfgard or another member for the Finisher and, if Laevatain has 4 Melting Flame, use her Enhanced Battle Skill meanwhile; then switch back to her."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "YZ-月咒 - Fuego tradicional con Akekuri",
+            "en": "YZ-月咒 - Traditional Fire with Akekuri"
+          },
+          "verdict": {
+            "es": "Del video siguiente del autor: Antal va mejor contra un solo objetivo, porque su Focus de 60 s solo se aplica a un enemigo; Akekuri, contra grupos.",
+            "en": "From the author's next video: Antal is better against a single target, because his 60 s Focus only applies to one enemy; Akekuri, against groups."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "laevatain",
+          "role": "Carry",
+          "weaponId": "wpn_sword_0006",
+          "gearRec": [
+            "hot_work_exo_rig",
+            "hot_work_gauntlets",
+            "hot_work_pyrometer",
+            "lynx_slab"
+          ],
+          "weaponNote": {
+            "es": "Forgeborn Scathe, por delante de Umbral Torch, White Night Nova y Fortmaker, según la ficha.",
+            "en": "Forgeborn Scathe, ahead of Umbral Torch, White Night Nova and Fortmaker, per the card."
+          },
+          "gearNote": {
+            "es": "Set 1, para potencial 0 y potencial máximo: Hot Work Exo-Rig, Gauntlets y Pyrometer con LYNX Slab, una pieza de carga menos a cambio de daño. Refinado: Intellect, Heat DMG, Battle Skill DMG y atributo principal, por delante de Strength y Will. La ficha da el umbral de carga para 2 Battle Skills mejoradas y 2 Combos: 3,81 % con Laevatain a potencial 0 y 4,75 % a potencial 1; con 2 Battle Skills mejoradas y 3 Combos no hace falta umbral.",
+            "en": "Set 1, for potential 0 and max potential: Hot Work Exo-Rig, Gauntlets and Pyrometer with LYNX Slab, one less charge piece in exchange for damage. Artificing: Intellect, Heat DMG, Battle Skill DMG and main attribute, ahead of Strength and Will. The card gives the charge threshold for 2 Enhanced Battle Skills and 2 Combos: 3.81% with Laevatain at potential 0 and 4.75% at potential 1; with 2 Enhanced Battle Skills and 3 Combos no threshold is needed."
+          },
+          "deepNote": {
+            "es": "Tras una Final Strike del personaje controlado, absorbe la Heat Infliction de los enemigos cercanos: cada acumulación es un Melting Flame (máx. 4). Con 4, su Battle Skill los consume, fuerza Combustion y le da Ultimate Energy. Su Combo sale con Combustion o Corrosion y le da otro Melting Flame. Durante su Ultimate, la tercera secuencia del básico aplica Heat Infliction.",
+            "en": "After the controlled operator's Final Strike, she absorbs Heat Infliction from nearby enemies: each stack is one Melting Flame (max 4). At 4, her Battle Skill consumes them, forces Combustion and gives her Ultimate Energy. Her Combo fires on Combustion or Corrosion and gives her another Melting Flame. During her Ultimate, the third basic attack sequence applies Heat Infliction."
+          }
+        },
+        {
+          "id": "wulfgard",
+          "role": "Enabler",
+          "weaponId": "wpn_pistol_0012",
+          "gearRec": [
+            "type_50_yinglung_heavy_armor_t1",
+            "eternal_xiranite_gloves",
+            "eternal_xiranite_power_core",
+            "eternal_xiranite_power_core"
+          ],
+          "weaponNote": {
+            "es": "OBJ Velocitous, por delante de Clannibal, Wedge y Rational Farewell, según la ficha.",
+            "en": "OBJ Velocitous, ahead of Clannibal, Wedge and Rational Farewell, per the card."
+          },
+          "gearNote": {
+            "es": "Mientras cumpla el umbral de carga, el equipo es libre; el autor recomienda cuatro piezas de carga: Type 50 Yinglung Heavy Armor T1 y tres Eternal Xiranite (Gloves y dos Power Core), por los +1000 HP del set y algo más de Strength. También valen piezas sueltas de carga: cuanto antes tenga el Ultimate, mejor. Sin refinado. Umbrales de la ficha: con Laevatain a potencial 0, 52,54 % (Wulfgard a potencial 0) o 29,66 % (potencial 4); con Laevatain a potencial 1, tras su retorno de SP, 59,57 % o 35,64 %.",
+            "en": "As long as he meets the charge threshold, his gear is free; the author recommends four charge pieces: Type 50 Yinglung Heavy Armor T1 and three Eternal Xiranite (Gloves and two Power Cores), for the set's +1000 HP and a bit more Strength. Loose charge pieces also work: the sooner he has his Ultimate, the better. No artificing. The card's thresholds: with Laevatain at potential 0, 52.54% (Wulfgard at potential 0) or 29.66% (potential 4); with Laevatain at potential 1, after her SP return, 59.57% or 35.64%."
+          },
+          "deepNote": {
+            "es": "Su Battle Skill aplica Heat Infliction y su Combo sale cuando el enemigo recibe una Arts Infliction, con otra acumulación de Heat. Su Ultimate fuerza Combustion, que dispara el Combo de Laevatain. Con potencial 5, su Ultimate reinicia el cooldown del Combo: es el tri-fuego (Battle Skill, Combo, Ultimate antes de que aterrice del salto hacia atrás del Combo y otra vez Combo), 3 acumulaciones él solo.",
+            "en": "His Battle Skill applies Heat Infliction and his Combo fires when the enemy receives an Arts Infliction, adding another Heat stack. His Ultimate forces Combustion, which fires Laevatain's Combo. At potential 5 his Ultimate resets the Combo's cooldown: that is the triple fire (Battle Skill, Combo, Ultimate before he lands from the Combo's backflip, and Combo again), 3 stacks on his own."
+          }
+        },
+        {
+          "id": "ardelia",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0013",
+          "gearRec": [
+            "lynx_cuirass",
+            "eternal_xiranite_gloves_t1",
+            "eternal_xiranite_auxiliary_arm",
+            "eternal_xiranite_auxiliary_arm"
+          ],
+          "weaponNote": {
+            "es": "Dreams of the Starry Beach, la única de la ficha.",
+            "en": "Dreams of the Starry Beach, the only one on the card."
+          },
+          "gearNote": {
+            "es": "Tres Eternal Xiranite (Gloves T1 y dos Auxiliary Arm) con LYNX Cuirass: carga y curación a la vez. Sin refinado.",
+            "en": "Three Eternal Xiranite (Gloves T1 and two Auxiliary Arms) with LYNX Cuirass: charge and healing at once. No artificing."
+          },
+          "deepNote": {
+            "es": "Su Combo sale con la Final Strike del personaje controlado sobre un enemigo sin Vulnerability ni Arts Infliction, y su nube explota con retraso aplicando Corrosion, que dispara el Combo de Laevatain. Su Battle Skill consume la Corrosion y aplica Physical y Arts Susceptibility durante 30 s.",
+            "en": "Her Combo fires on the controlled operator's Final Strike against an enemy with no Vulnerability or Arts Infliction, and her cloud explodes after a delay applying Corrosion, which fires Laevatain's Combo. Her Battle Skill consumes the Corrosion and applies Physical and Arts Susceptibility for 30 s."
+          }
+        },
+        {
+          "id": "antal",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0008",
+          "gearRec": [
+            "frontiers_protection_suit",
+            "frontiers_fiber_gloves_t1",
+            "frontiers_analyzer",
+            "redeemer_seal"
+          ],
+          "weaponNote": {
+            "es": "Detonation Unit, por delante de Stanza of Memorials y OBJ Arts Identifier, según la ficha.",
+            "en": "Detonation Unit, ahead of Stanza of Memorials and OBJ Arts Identifier, per the card."
+          },
+          "gearNote": {
+            "es": "Tres Frontiers (Protection Suit, Fiber Gloves T1 y Analyzer) con Redeemer Seal: carga y menos cooldown de Combo, que en Antal es de 25 s, para ir al ritmo del Combo de Wulfgard. Cuanta más carga, mejor; con refinadores de sobra, refina la eficiencia de carga. Umbrales de la ficha: con Laevatain a potencial 0, 69,49 % (Antal a potencial 0) o 52,54 % (potencial 2); con Laevatain a potencial 1, tras su retorno de SP, 77,30 % o 59,57 %.",
+            "en": "Three Frontiers (Protection Suit, Fiber Gloves T1 and Analyzer) with Redeemer Seal: charge and a shorter Combo cooldown, which is 25 s on Antal, to keep pace with Wulfgard's Combo. The more charge, the better; with spare artificing material, artifice charge efficiency. The card's thresholds: with Laevatain at potential 0, 69.49% (Antal at potential 0) or 52.54% (potential 2); with Laevatain at potential 1, after her SP return, 77.30% or 59.57%."
+          },
+          "deepNote": {
+            "es": "Su Battle Skill deja un Focus de 60 s con Susceptibility en un solo enemigo. Su Combo sale cuando ese enemigo recibe una Arts Infliction y le pone otra acumulación de la misma.",
+            "en": "His Battle Skill leaves a 60 s Focus with Susceptibility on a single enemy. His Combo fires when that enemy receives an Arts Infliction and adds another stack of the same."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Fichas del autor al final del video, una por operador; Laevatain tiene dos sets.",
+          "en": "The author's cards at the end of the video, one per operator; Laevatain has two sets."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Laevatain: set 2",
+              "en": "Laevatain: set 2"
+            },
+            "swap": {
+              "es": "3 Hot Work (Gauntlets y dos Pyrometer) con una armadura de carga: Tide Fall Light Armor o Redeemer Armor. Una da un poco más de ataque y la otra un poco más de vida; la diferencia es pequeña. Refinado: Intellect, Heat DMG, Battle Skill DMG y atributo principal, por delante de Strength. Con este set, el Ultimate se llena con 2 Battle Skills mejoradas y 2 Combos.",
+              "en": "3 Hot Work (Gauntlets and two Pyrometers) with a charge armor: Tide Fall Light Armor or Redeemer Armor. One gives a little more attack and the other a little more HP; the difference is small. Artificing: Intellect, Heat DMG, Battle Skill DMG and main attribute, ahead of Strength. With this set the Ultimate fills with 2 Enhanced Battle Skills and 2 Combos."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": {
+        "es": "YZ-月咒 - Fuego tradicional con Akekuri",
+        "en": "YZ-月咒 - Traditional Fire with Akekuri"
+      },
+      "subtitle": {
+        "es": "Wulfgard · Ardelia · Akekuri",
+        "en": "Wulfgard · Ardelia · Akekuri"
+      },
+      "guideVideoId": "laevb5",
+      "blurb": {
+        "es": "El equipo de fuego «tradicional» de Laevatain con Akekuri, del video de YZ-月咒 de la versión 1.2, continuación del de Antal. Akekuri pone Heat en área y da Link con su Ultimate: el equipo arranca más rápido y va mejor contra grupos. Enseña el arranque en frío con dos vueltas de carga, el arranque en caliente y los trucos del autor, con las builds de los cuatro.",
+        "en": "Laevatain's 'traditional' fire team with Akekuri, from YZ-月咒's version 1.2 video, the follow-up to the Antal one. Akekuri applies area Heat and gives Link with her Ultimate: the team starts faster and does better against groups. It teaches the cold start with two charge laps, the hot start and the author's tricks, with builds for all four."
+      },
+      "simple": {
+        "whatItDoes": {
+          "es": "Laevatain es la carry: la Final Strike del personaje controlado absorbe la Heat Infliction del enemigo y cada acumulación es un Melting Flame. Con 4, su Battle Skill mejorada los consume, fuerza Combustion y le da Ultimate Energy. Akekuri y Wulfgard ponen Heat con sus Battle Skills y el Combo de Wulfgard suma la tercera acumulación. El Combo de Ardelia aplica Corrosion, que dispara el Combo de Laevatain (+1 Melting Flame), y su Battle Skill la convierte en Susceptibility. El Ultimate de Akekuri da Link: la Battle Skill mejorada que va justo después pega más.",
+          "en": "Laevatain is the carry: the controlled operator's Final Strike absorbs the enemy's Heat Infliction and each stack becomes one Melting Flame. At 4, her Enhanced Battle Skill consumes them, forces Combustion and gives her Ultimate Energy. Akekuri and Wulfgard apply Heat with their Battle Skills and Wulfgard's Combo adds the third stack. Ardelia's Combo applies Corrosion, which fires Laevatain's Combo (+1 Melting Flame), and her Battle Skill turns it into Susceptibility. Akekuri's Ultimate gives Link: the Enhanced Battle Skill right after it hits harder."
+        },
+        "steps": [
+          {
+            "who": "laevatain",
+            "do": {
+              "es": "Controla a Laevatain. Durante su Ultimate: básicos sin soltar, Combos en cuanto se iluminen y Battle Skill mejorada cada vez que junte 4 Melting Flame.",
+              "en": "Control Laevatain. During her Ultimate: basic attack nonstop, press Combos as soon as they light up and use the Enhanced Battle Skill every time she has 4 Melting Flame."
+            }
+          },
+          {
+            "who": "akekuri",
+            "do": {
+              "es": "Arranque: Battle Skills de Akekuri y Wulfgard (2 acumulaciones de Heat), Combo de Wulfgard (la tercera) y Final Strike: 3 Melting Flame.",
+              "en": "Start: Akekuri's and Wulfgard's Battle Skills (2 Heat stacks), Wulfgard's Combo (the third) and a Final Strike: 3 Melting Flame."
+            }
+          },
+          {
+            "who": "ardelia",
+            "do": {
+              "es": "El Combo de Ardelia aplica Corrosion y dispara el de Laevatain: el cuarto Melting Flame. Battle Skill mejorada. En la segunda vuelta, además, Battle Skill de Ardelia para la Susceptibility.",
+              "en": "Ardelia's Combo applies Corrosion and fires Laevatain's: the fourth Melting Flame. Enhanced Battle Skill. On the second lap, also Ardelia's Battle Skill for the Susceptibility."
+            }
+          },
+          {
+            "who": "laevatain",
+            "do": {
+              "es": "Burst: Ultimates de Laevatain, Wulfgard y Ardelia. Con 4 Melting Flame, Ultimate de Akekuri (Link) y enseguida la Battle Skill mejorada y el Combo de Laevatain.",
+              "en": "Burst: Laevatain's, Wulfgard's and Ardelia's Ultimates. At 4 Melting Flame, Akekuri's Ultimate (Link) and right away Laevatain's Enhanced Battle Skill and Combo."
+            }
+          }
+        ],
+        "gear": [
+          {
+            "id": "laevatain",
+            "line": {
+              "es": "Forgeborn Scathe. Hot Work Exo-Rig, Gauntlets y Pyrometer con LYNX Slab.",
+              "en": "Forgeborn Scathe. Hot Work Exo-Rig, Gauntlets and Pyrometer with LYNX Slab."
+            }
+          },
+          {
+            "id": "wulfgard",
+            "line": {
+              "es": "OBJ Velocitous. Type 50 Yinglung Heavy Armor T1, Eternal Xiranite Gloves y dos Eternal Xiranite Power Core (o Catastrophe si empiezas).",
+              "en": "OBJ Velocitous. Type 50 Yinglung Heavy Armor T1, Eternal Xiranite Gloves and two Eternal Xiranite Power Cores (or Catastrophe if you are starting out)."
+            }
+          },
+          {
+            "id": "ardelia",
+            "line": {
+              "es": "Dreams of the Starry Beach. LYNX Cuirass, Eternal Xiranite Gloves T1 y dos Eternal Xiranite Auxiliary Arm.",
+              "en": "Dreams of the Starry Beach. LYNX Cuirass, Eternal Xiranite Gloves T1 and two Eternal Xiranite Auxiliary Arms."
+            }
+          },
+          {
+            "id": "akekuri",
+            "line": {
+              "es": "Thermite Cutter. Redeemer Armor, Frontiers Fiber Gloves T1 y dos Redeemer Seal.",
+              "en": "Thermite Cutter. Redeemer Armor, Frontiers Fiber Gloves T1 and two Redeemer Seals."
+            }
+          }
+        ]
+      },
+      "overview": {
+        "es": "La segunda parte del «fuego tradicional» de YZ-月咒, con Akekuri en lugar de Antal. Según el autor, Antal va mejor contra un solo objetivo y Akekuri contra grupos: su Battle Skill pone Heat en un área pequeña y, con el Combo de Wulfgard (también en área), varios enemigos llegan pronto a 2 acumulaciones, así que Laevatain lanza más Battle Skills mejoradas, junta antes 4 Melting Flame y carga antes el Ultimate. Además, con su talento, el Ultimate de Akekuri da Link: según el autor, la siguiente Battle Skill pega un 30 % más y el siguiente Ultimate un 20 %, en un multiplicador aparte. El arranque en frío son dos vueltas de carga casi iguales; el burst, básicos sin soltar y Combos al iluminarse.",
+        "en": "The second part of YZ-月咒's 'traditional fire', with Akekuri instead of Antal. Per the author, Antal is better against a single target and Akekuri against groups: her Battle Skill applies Heat in a small area and, with Wulfgard's Combo (also an area one), several enemies quickly reach 2 stacks, so Laevatain casts more Enhanced Battle Skills, gets to 4 Melting Flame sooner and charges her Ultimate sooner. On top of that, with her talent, Akekuri's Ultimate gives Link: per the author, the next Battle Skill hits 30% harder and the next Ultimate 20%, in a separate multiplier. The cold start is two nearly identical charge laps; the burst is basic attack nonstop and Combos as they light up."
+      },
+      "playstyle": {
+        "difficulty": {
+          "es": "Burst sencillo; el tri-fuego pide rapidez",
+          "en": "Easy burst; triple fire needs fast hands"
+        },
+        "content": {
+          "es": "Grupos y jefes",
+          "en": "Groups and bosses"
+        },
+        "tags": [
+          {
+            "es": "Heat",
+            "en": "Heat"
+          },
+          {
+            "es": "Melting Flame",
+            "en": "Melting Flame"
+          },
+          {
+            "es": "Link",
+            "en": "Link"
+          }
+        ]
+      },
+      "pros": [
+        {
+          "es": "Contra grupos va mejor que la versión con Antal: Akekuri y Wulfgard ponen Heat en área y Laevatain encadena Battle Skills mejoradas.",
+          "en": "Against groups it does better than the Antal version: Akekuri and Wulfgard apply area Heat and Laevatain chains Enhanced Battle Skills."
+        },
+        {
+          "es": "El Link del Ultimate de Akekuri sube la Battle Skill mejorada que va justo después (+30 %, según el autor).",
+          "en": "The Link from Akekuri's Ultimate boosts the Enhanced Battle Skill right after it (+30%, per the author)."
+        },
+        {
+          "es": "Con el Ultimate puesto, el burst es cómodo: básicos sin soltar y Combos al iluminarse.",
+          "en": "With the Ultimate up, the burst is comfortable: basic attack nonstop and Combos as they light up."
+        }
+      ],
+      "cons": [
+        {
+          "es": "Sin el tri-fuego de Wulfgard, el arranque pide dos Battle Skills de Akekuri: 100 SP más que la versión con Antal, y al principio el SP aprieta.",
+          "en": "Without Wulfgard's triple fire, the start needs two Akekuri Battle Skills: 100 SP more than the Antal version, and SP feels tight early on."
+        },
+        {
+          "es": "El Combo de Akekuri solo sale cuando el enemigo entra en Stagger o llega a un nodo de Stagger, así que su Ultimate cuesta cuadrarlo con el eje: el autor le pone cuatro piezas de carga.",
+          "en": "Akekuri's Combo only fires when the enemy is Staggered or hits a Stagger Node, so her Ultimate is hard to sync with the axis: the author gives her four charge pieces."
+        },
+        {
+          "es": "El tri-fuego de Wulfgard pide su potencial 5 y manos rápidas.",
+          "en": "Wulfgard's triple fire needs his potential 5 and fast hands."
+        }
+      ],
+      "whyItWorks": [
+        {
+          "icon": "",
+          "title": {
+            "es": "Heat en área",
+            "en": "Area Heat"
+          },
+          "body": {
+            "es": "Según el autor, la Battle Skill de Akekuri pone Heat Infliction en un área pequeña, y el Combo de Wulfgard también es en área: contra grupos, varios enemigos llegan pronto a 2 acumulaciones. Laevatain lanza más Battle Skills mejoradas, junta antes 4 Melting Flame y carga antes el Ultimate.",
+            "en": "Per the author, Akekuri's Battle Skill applies Heat Infliction in a small area, and Wulfgard's Combo is an area one too: against groups, several enemies quickly reach 2 stacks. Laevatain casts more Enhanced Battle Skills, gets to 4 Melting Flame sooner and charges her Ultimate sooner."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "El Link de Akekuri",
+            "en": "Akekuri's Link"
+          },
+          "body": {
+            "es": "Con su talento, el Ultimate de Akekuri da Link. Según el autor, la siguiente Battle Skill hace un 30 % más de daño y el siguiente Ultimate un 20 %, en un multiplicador independiente. Por eso, con 4 Melting Flame, va el Ultimate de Akekuri y justo después la Battle Skill mejorada de Laevatain.",
+            "en": "With her talent, Akekuri's Ultimate gives Link. Per the author, the next Battle Skill deals 30% more damage and the next Ultimate 20%, in an independent multiplier. That is why, at 4 Melting Flame, Akekuri's Ultimate goes first and Laevatain's Enhanced Battle Skill right after."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Melting Flame",
+            "en": "Melting Flame"
+          },
+          "body": {
+            "es": "La Final Strike del personaje controlado absorbe la Heat Infliction y cada acumulación es un Melting Flame (los pétalos junto a la barra de vida de Laevatain); su Combo suma otro. Con 4, la Battle Skill mejorada los consume, fuerza Combustion y da Ultimate Energy. El Combo de Laevatain sale con la Corrosion de Ardelia, con la Combustion del Ultimate de Wulfgard y con la de la propia Battle Skill mejorada: así se completa la carga cuando falta un poco, algo que según el autor pasa a menudo.",
+            "en": "The controlled operator's Final Strike absorbs Heat Infliction and each stack becomes one Melting Flame (the petals next to Laevatain's HP bar); her Combo adds another. At 4, the Enhanced Battle Skill consumes them, forces Combustion and gives Ultimate Energy. Laevatain's Combo comes out with Ardelia's Corrosion, with the Combustion from Wulfgard's Ultimate and with the one from the Enhanced Battle Skill itself: that is how you top up the charge when it falls a little short, which per the author happens often."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "Ardelia",
+            "en": "Ardelia"
+          },
+          "body": {
+            "es": "La Final Strike del personaje controlado dispara el Combo de Ardelia, cuya nube explota con retraso y aplica Corrosion. Su Battle Skill la convierte en Susceptibility y su arma, Dreams of the Starry Beach, deja Arts DMG Taken en el enemigo al consumirla.",
+            "en": "The controlled operator's Final Strike fires Ardelia's Combo, whose cloud explodes after a delay and applies Corrosion. Her Battle Skill turns it into Susceptibility and her weapon, Dreams of the Starry Beach, leaves Arts DMG Taken on the enemy when it consumes it."
+          }
+        },
+        {
+          "icon": "",
+          "title": {
+            "es": "El tiempo del Ultimate",
+            "en": "Ultimate time"
+          },
+          "body": {
+            "es": "Las Battle Skills de Laevatain, normales o mejoradas, no gastan tiempo de su Ultimate: lo pausan. Según el autor, que lo muestra en el video, cada Combo de Laevatain lo alarga un poco.",
+            "en": "Laevatain's Battle Skills, normal or enhanced, do not use up her Ultimate's time: they pause it. Per the author, who shows it in the video, each Laevatain Combo extends it a little."
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "phase": {
+            "es": "Arranque en frío: vuelta de carga 1",
+            "en": "Cold start: charge lap 1"
+          },
+          "action": {
+            "es": "Battle Skills de Akekuri y Wulfgard → Combo de Wulfgard (3 de Heat) → Final Strike (3 Melting Flame) → Combo de Ardelia → Combo de Laevatain (4) → Battle Skill mejorada.",
+            "en": "Akekuri's and Wulfgard's Battle Skills → Wulfgard's Combo (3 Heat) → Final Strike (3 Melting Flame) → Ardelia's Combo → Laevatain's Combo (4) → Enhanced Battle Skill."
+          },
+          "steps": [
+            {
+              "who": "akekuri",
+              "do": {
+                "es": "Battle Skills de Akekuri y Wulfgard: 2 acumulaciones de Heat Infliction; sale el Combo de Wulfgard.",
+                "en": "Akekuri's and Wulfgard's Battle Skills: 2 Heat Infliction stacks; Wulfgard's Combo comes out."
+              }
+            },
+            {
+              "who": "wulfgard",
+              "do": {
+                "es": "Combo de Wulfgard: la tercera acumulación.",
+                "en": "Wulfgard's Combo: the third stack."
+              }
+            },
+            {
+              "who": "laevatain",
+              "do": {
+                "es": "Final Strike de Laevatain: absorbe las 3 y las convierte en 3 Melting Flame (tres pétalos blancos junto a su barra de vida).",
+                "en": "Laevatain's Final Strike: she absorbs the 3 and turns them into 3 Melting Flame (three white petals next to her HP bar)."
+              },
+              "key": true
+            },
+            {
+              "who": "ardelia",
+              "do": {
+                "es": "La nube del Combo de Ardelia explota con retraso y dispara el Combo de Laevatain.",
+                "en": "The cloud from Ardelia's Combo explodes after a delay and fires Laevatain's Combo."
+              }
+            },
+            {
+              "who": "laevatain",
+              "do": {
+                "es": "Combo de Laevatain, cancelando con esquiva su animación final: el cuarto Melting Flame.",
+                "en": "Laevatain's Combo, dodge-cancelling the end of its animation: the fourth Melting Flame."
+              }
+            },
+            {
+              "who": "laevatain",
+              "do": {
+                "es": "Battle Skill mejorada: consume los Melting Flame, suma daño y recupera Ultimate Energy.",
+                "en": "Enhanced Battle Skill: it consumes the Melting Flame, adds damage and restores Ultimate Energy."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "Las dos vueltas del arranque en frío son casi la misma tanda: con aprender una, basta.",
+            "en": "The two cold-start laps are almost the same sequence: learning one is enough."
+          }
+        },
+        {
+          "phase": {
+            "es": "Arranque en frío: vuelta de carga 2",
+            "en": "Cold start: charge lap 2"
+          },
+          "action": {
+            "es": "Mismo orden (3 de Heat → Final Strike → Combos de Ardelia y Laevatain: 4 Melting Flame) → Battle Skill de Ardelia → Battle Skill mejorada y Combo de Laevatain para llenar el Ultimate.",
+            "en": "Same order (3 Heat → Final Strike → Ardelia's and Laevatain's Combos: 4 Melting Flame) → Ardelia's Battle Skill → Laevatain's Enhanced Battle Skill and Combo to fill the Ultimate."
+          },
+          "steps": [
+            {
+              "who": "wulfgard",
+              "do": {
+                "es": "Antes de arrancar, mira el cooldown del Combo de Wulfgard (la barra blanca sobre la azul en el panel del equipo, abajo a la izquierda): sin él no salen las 3 acumulaciones de una vez.",
+                "en": "Before starting, check Wulfgard's Combo cooldown (the white bar above the blue one in the team panel, bottom left): without it the 3 stacks do not come out in one go."
+              }
+            },
+            {
+              "who": "akekuri",
+              "do": {
+                "es": "Battle Skills de Akekuri y Wulfgard y Combo de Wulfgard: 3 acumulaciones de Heat.",
+                "en": "Akekuri's and Wulfgard's Battle Skills and Wulfgard's Combo: 3 Heat stacks."
+              }
+            },
+            {
+              "who": "laevatain",
+              "do": {
+                "es": "Final Strike: 3 Melting Flame, y sale el Combo de Ardelia: úsalo.",
+                "en": "Final Strike: 3 Melting Flame, and Ardelia's Combo comes out: use it."
+              },
+              "key": true
+            },
+            {
+              "who": "ardelia",
+              "do": {
+                "es": "El Combo de Ardelia dispara el de Laevatain: +1, 4 Melting Flame.",
+                "en": "Ardelia's Combo fires Laevatain's: +1, 4 Melting Flame."
+              }
+            },
+            {
+              "who": "ardelia",
+              "do": {
+                "es": "Battle Skill de Ardelia: la Corrosion pasa a Susceptibility.",
+                "en": "Ardelia's Battle Skill: the Corrosion becomes Susceptibility."
+              }
+            },
+            {
+              "who": "laevatain",
+              "do": {
+                "es": "Con SP suficiente, Battle Skill mejorada y Combo de Laevatain: el Ultimate queda lleno. A potencial 0 con armadura de carga, o a potencial 4, bastan 2 Battle Skills mejoradas y 2 Combos. A potencial 0 con LYNX Slab (sin carga), espera a que vuelva el Combo de Laevatain antes de la Battle Skill mejorada: 2 Battle Skills mejoradas y 3 Combos.",
+                "en": "With enough SP, Laevatain's Enhanced Battle Skill and Combo: the Ultimate is full. At potential 0 with a charge armor, or at potential 4, 2 Enhanced Battle Skills and 2 Combos are enough. At potential 0 with LYNX Slab (no charge), wait for Laevatain's Combo to come back before the Enhanced Battle Skill: 2 Enhanced Battle Skills and 3 Combos."
+              },
+              "key": true
+            }
+          ],
+          "tip": {
+            "es": "Con el tri-fuego de Wulfgard en esta vuelta te ahorras la Battle Skill de Akekuri (100 SP) y arrancas antes, pero pide su potencial 5 y rapidez.",
+            "en": "With Wulfgard's triple fire on this lap you save Akekuri's Battle Skill (100 SP) and start sooner, but it needs his potential 5 and quick hands."
+          }
+        },
+        {
+          "phase": {
+            "es": "Burst",
+            "en": "Burst"
+          },
+          "action": {
+            "es": "Ultimates de Laevatain, Wulfgard y Ardelia → básicos y Combos (Wulfgard, Ardelia, Akekuri) → con 4 Melting Flame, Ultimate de Akekuri → Battle Skill mejorada → Combo de Laevatain.",
+            "en": "Laevatain's, Wulfgard's and Ardelia's Ultimates → basic attacks and Combos (Wulfgard, Ardelia, Akekuri) → at 4 Melting Flame, Akekuri's Ultimate → Enhanced Battle Skill → Laevatain's Combo."
+          },
+          "steps": [
+            {
+              "who": "laevatain",
+              "do": {
+                "es": "Ultimates de Laevatain, Wulfgard y Ardelia; los de Wulfgard y Ardelia, para el Stagger.",
+                "en": "Laevatain's, Wulfgard's and Ardelia's Ultimates; Wulfgard's and Ardelia's go toward Stagger."
+              },
+              "key": true
+            },
+            {
+              "who": "laevatain",
+              "do": {
+                "es": "Básicos sin soltar y Combos en cuanto se iluminen: Wulfgard, Ardelia y Akekuri.",
+                "en": "Basic attack nonstop and Combos as soon as they light up: Wulfgard, Ardelia and Akekuri."
+              }
+            },
+            {
+              "who": "akekuri",
+              "do": {
+                "es": "Con 4 Melting Flame, Ultimate de Akekuri: da Link.",
+                "en": "At 4 Melting Flame, Akekuri's Ultimate: it gives Link."
+              },
+              "key": true
+            },
+            {
+              "who": "laevatain",
+              "do": {
+                "es": "Battle Skill mejorada de Laevatain, que se lleva el Link, y luego su Combo.",
+                "en": "Laevatain's Enhanced Battle Skill, which takes the Link, then her Combo."
+              },
+              "key": true
+            },
+            {
+              "who": "laevatain",
+              "do": {
+                "es": "Sigue con básicos. En la siguiente Battle Skill mejorada, decide: si puedes matar al jefe, lánzala durante el Ultimate; si no, espera a que el Ultimate termine del todo y úsala para cargar.",
+                "en": "Keep basic attacking. At the next Enhanced Battle Skill, decide: if you can kill the boss, cast it during the Ultimate; if not, wait for the Ultimate to end completely and use it to charge."
+              }
+            }
+          ]
+        }
+      ],
+      "rotationVariants": [
+        {
+          "name": {
+            "es": "Arranque en caliente",
+            "en": "Hot start"
+          },
+          "description": {
+            "es": "Una preparación corta y después el burst sin pensar.",
+            "en": "A short setup and then a no-brainer burst."
+          },
+          "phases": [
+            {
+              "phase": {
+                "es": "Preparación",
+                "en": "Setup"
+              },
+              "action": {
+                "es": "Final Strike (Corrosion de Ardelia) → tri-fuego de Wulfgard → Battle Skill de Ardelia → Final Strike.",
+                "en": "Final Strike (Ardelia's Corrosion) → Wulfgard's triple fire → Ardelia's Battle Skill → Final Strike."
+              },
+              "steps": [
+                {
+                  "who": "laevatain",
+                  "do": {
+                    "es": "Final Strike con el personaje controlado: el Combo de Ardelia pone Corrosion.",
+                    "en": "Final Strike with the controlled operator: Ardelia's Combo applies Corrosion."
+                  }
+                },
+                {
+                  "who": "wulfgard",
+                  "do": {
+                    "es": "Tri-fuego de Wulfgard: Battle Skill, Combo y, antes de que aterrice del salto hacia atrás del Combo, Ultimate, que lo vuelve a disparar. Pide su potencial 5; sin él también se puede, con una acumulación menos.",
+                    "en": "Wulfgard's triple fire: Battle Skill, Combo and, before he lands from the Combo's backflip, Ultimate, which fires it again. It needs his potential 5; without it you can still do it, with one stack fewer."
+                  },
+                  "key": true
+                },
+                {
+                  "who": "ardelia",
+                  "do": {
+                    "es": "Battle Skill de Ardelia: la Corrosion pasa a Susceptibility.",
+                    "en": "Ardelia's Battle Skill: the Corrosion becomes Susceptibility."
+                  }
+                },
+                {
+                  "who": "laevatain",
+                  "do": {
+                    "es": "Final Strike: Laevatain absorbe la Heat.",
+                    "en": "Final Strike: Laevatain absorbs the Heat."
+                  }
+                }
+              ]
+            },
+            {
+              "phase": {
+                "es": "Burst",
+                "en": "Burst"
+              },
+              "action": {
+                "es": "Ultimate de Laevatain → Ultimate de Akekuri (4 Melting Flame) → Battle Skill mejorada → Combo de Laevatain → básicos y Combos.",
+                "en": "Laevatain's Ultimate → Akekuri's Ultimate (4 Melting Flame) → Enhanced Battle Skill → Laevatain's Combo → basic attacks and Combos."
+              },
+              "steps": [
+                {
+                  "who": "laevatain",
+                  "do": {
+                    "es": "Ultimate de Laevatain.",
+                    "en": "Laevatain's Ultimate."
+                  },
+                  "key": true
+                },
+                {
+                  "who": "akekuri",
+                  "do": {
+                    "es": "Con 4 Melting Flame, Ultimate de Akekuri: Link.",
+                    "en": "At 4 Melting Flame, Akekuri's Ultimate: Link."
+                  }
+                },
+                {
+                  "who": "laevatain",
+                  "do": {
+                    "es": "Battle Skill mejorada y después el Combo de Laevatain.",
+                    "en": "Enhanced Battle Skill and then Laevatain's Combo."
+                  },
+                  "key": true
+                },
+                {
+                  "who": "laevatain",
+                  "do": {
+                    "es": "Básicos sin soltar, Combos al iluminarse y Battle Skill mejorada cada vez que tenga 4 Melting Flame.",
+                    "en": "Basic attack nonstop, Combos as they light up and the Enhanced Battle Skill every time she has 4 Melting Flame."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "skillPriority": [
+        {
+          "charId": "laevatain",
+          "order": {
+            "es": "Ultimate / Battle Skill (Especialización 3) > Ataque básico / Combo (nivel 9 o Especialización 3)",
+            "en": "Ultimate / Battle Skill (Specialization 3) > Basic attack / Combo (level 9 or Specialization 3)"
+          },
+          "note": {
+            "es": "Refinado: Intellect, Heat DMG, Battle Skill DMG y atributo principal, por delante de Strength y Will.",
+            "en": "Artificing: Intellect, Heat DMG, Battle Skill DMG and main attribute, ahead of Strength and Will."
+          },
+          "assumeRanks": {
+            "battle_skill": 12,
+            "ultimate": 12,
+            "combo_skill": 9
+          }
+        },
+        {
+          "charId": "wulfgard",
+          "order": {
+            "es": "Las skills no importan: se pueden dejar sin subir",
+            "en": "Skills do not matter: they can stay unleveled"
+          },
+          "note": {
+            "es": "Si empiezas, no gastes recursos en él. Como sub-DPS (el autor no lo recomienda), la Battle Skill.",
+            "en": "If you are starting out, do not spend resources on him. As a sub-DPS (the author does not recommend it), the Battle Skill."
+          }
+        },
+        {
+          "charId": "ardelia",
+          "order": {
+            "es": "Battle Skill (nivel 9 o Especialización 3) > el resto",
+            "en": "Battle Skill (level 9 or Specialization 3) > the rest"
+          },
+          "note": {
+            "es": "Solo hace falta subir la Battle Skill.",
+            "en": "Only the Battle Skill needs leveling."
+          },
+          "assumeRanks": {
+            "battle_skill": 9
+          }
+        },
+        {
+          "charId": "akekuri",
+          "order": {
+            "es": "Solo Ultimate (nivel 9)",
+            "en": "Ultimate only (level 9)"
+          },
+          "note": {
+            "es": "Con nivel 9 basta; el resto se queda sin subir.",
+            "en": "Level 9 is enough; the rest stays unleveled."
+          },
+          "assumeRanks": {
+            "ultimate": 9
+          }
+        }
+      ],
+      "pitfalls": [
+        {
+          "es": "Lanzar la Battle Skill mejorada cuando el jefe se mueve: si falla, se pierden los 4 Melting Flame y 100 SP. Cancélala con esquiva: el SP se gasta igual, pero los 4 Melting Flame se quedan.",
+          "en": "Casting the Enhanced Battle Skill when the boss moves: if it misses, the 4 Melting Flame and 100 SP are lost. Dodge-cancel it: the SP is still spent, but the 4 Melting Flame stay."
+        },
+        {
+          "es": "No cancelar con esquiva la animación final de cada Combo de Laevatain.",
+          "en": "Not dodge-cancelling the end of every Laevatain Combo animation."
+        },
+        {
+          "es": "Arrancar la segunda vuelta sin el Combo de Wulfgard listo: sin él no salen las 3 acumulaciones de una vez.",
+          "en": "Starting the second lap without Wulfgard's Combo ready: without it the 3 stacks do not come out in one go."
+        },
+        {
+          "es": "Gastar la Battle Skill mejorada durante el Ultimate cuando no puedes matar al jefe: guárdala para cuando el Ultimate termine y úsala para cargar.",
+          "en": "Spending the Enhanced Battle Skill during the Ultimate when you cannot kill the boss: keep it for when the Ultimate ends and use it to charge."
+        },
+        {
+          "es": "Buscar el Finisher con Laevatain durante su Ultimate: no puede hacerlo. Cambia a Wulfgard u otro miembro para el Finisher y, si Laevatain tiene 4 Melting Flame, aprovecha para su Battle Skill mejorada; después vuelve a ella.",
+          "en": "Going for the Finisher with Laevatain during her Ultimate: she cannot do it. Switch to Wulfgard or another member for the Finisher and, if Laevatain has 4 Melting Flame, use her Enhanced Battle Skill meanwhile; then switch back to her."
+        }
+      ],
+      "vsOtherComps": [
+        {
+          "name": {
+            "es": "YZ-月咒 - Fuego tradicional con Antal",
+            "en": "YZ-月咒 - Traditional Fire with Antal"
+          },
+          "verdict": {
+            "es": "Antal va mejor contra un solo objetivo (su Focus de 60 s solo se aplica a un enemigo) y Akekuri contra grupos: arranca antes, pone Heat con más comodidad y Laevatain junta Melting Flame más fácil. A cambio, sin el tri-fuego, este equipo gasta 100 SP más en arrancar.",
+            "en": "Antal is better against a single target (his 60 s Focus only applies to one enemy) and Akekuri against groups: she starts faster, applies Heat more comfortably and Laevatain stacks Melting Flame more easily. In exchange, without the triple fire, this team spends 100 SP more to start."
+          }
+        }
+      ],
+      "members": [
+        {
+          "id": "laevatain",
+          "role": "Carry",
+          "weaponId": "wpn_sword_0006",
+          "gearRec": [
+            "hot_work_exo_rig",
+            "hot_work_gauntlets",
+            "hot_work_pyrometer",
+            "lynx_slab"
+          ],
+          "weaponNote": {
+            "es": "Forgeborn Scathe, por delante de Umbral Torch, White Night Nova y Fortmaker, según la ficha.",
+            "en": "Forgeborn Scathe, ahead of Umbral Torch, White Night Nova and Fortmaker, per the card."
+          },
+          "gearNote": {
+            "es": "Set 1, «daño al máximo», para potencial 0 y potencial máximo: Hot Work Exo-Rig, Gauntlets y Pyrometer con LYNX Slab. A potencial 0 el Ultimate pide 3 Combos y a potencial máximo, 2; el autor lo recomienda porque a potencial 0 Laevatain le parece corta de daño. Refinado: Intellect, Heat DMG, Battle Skill DMG y atributo principal, por delante de Strength y Will. La ficha da el umbral de carga para 2 Battle Skills mejoradas y 2 Combos: 3,81 % con Laevatain a potencial 0 y 4,75 % a potencial 1; con 2 Battle Skills mejoradas y 3 Combos no hace falta umbral.",
+            "en": "Set 1, 'max damage', for potential 0 and max potential: Hot Work Exo-Rig, Gauntlets and Pyrometer with LYNX Slab. At potential 0 the Ultimate needs 3 Combos and at max potential 2; the author recommends it because at potential 0 Laevatain feels short on damage to him. Artificing: Intellect, Heat DMG, Battle Skill DMG and main attribute, ahead of Strength and Will. The card gives the charge threshold for 2 Enhanced Battle Skills and 2 Combos: 3.81% with Laevatain at potential 0 and 4.75% at potential 1; with 2 Enhanced Battle Skills and 3 Combos no threshold is needed."
+          },
+          "deepNote": {
+            "es": "Tras una Final Strike del personaje controlado, absorbe la Heat Infliction de los enemigos cercanos: cada acumulación es un Melting Flame (máx. 4). Con 4, su Battle Skill los consume, fuerza Combustion y le da Ultimate Energy. Su Combo sale con Combustion o Corrosion y le da otro Melting Flame.",
+            "en": "After the controlled operator's Final Strike, she absorbs Heat Infliction from nearby enemies: each stack is one Melting Flame (max 4). At 4, her Battle Skill consumes them, forces Combustion and gives her Ultimate Energy. Her Combo fires on Combustion or Corrosion and gives her another Melting Flame."
+          }
+        },
+        {
+          "id": "wulfgard",
+          "role": "Enabler",
+          "weaponId": "wpn_pistol_0012",
+          "gearRec": [
+            "type_50_yinglung_heavy_armor_t1",
+            "eternal_xiranite_gloves",
+            "eternal_xiranite_power_core",
+            "eternal_xiranite_power_core"
+          ],
+          "weaponNote": {
+            "es": "OBJ Velocitous, por delante de Clannibal, Wedge y Rational Farewell, según la ficha.",
+            "en": "OBJ Velocitous, ahead of Clannibal, Wedge and Rational Farewell, per the card."
+          },
+          "gearNote": {
+            "es": "Set 2, para quien hace a menudo el tri-fuego: cuatro piezas de carga, Type 50 Yinglung Heavy Armor T1 y tres Eternal Xiranite (Gloves y dos Power Core) por sus +1000 HP; el efecto del set que sube el daño del equipo Wulfgard no lo activa. Apunta a más del 95 % de carga entre arma y equipo (más del 195 % en la ficha del personaje): cuanta más carga, mejor. Sin refinado. Umbrales de la ficha: con Laevatain a potencial 0, 52,54 % (Wulfgard a potencial 0) o 29,66 % (potencial 4); con Laevatain a potencial 1, tras su retorno de SP, 59,57 % o 35,64 %. Para quien empieza, el autor prefiere el set Catastrophe (en Equipo).",
+            "en": "Set 2, for those who do the triple fire often: four charge pieces, Type 50 Yinglung Heavy Armor T1 and three Eternal Xiranite (Gloves and two Power Cores) for their +1000 HP; Wulfgard does not trigger the set's team damage effect. Aim for over 95% charge between weapon and gear (over 195% on the character card): the more charge, the better. No artificing. The card's thresholds: with Laevatain at potential 0, 52.54% (Wulfgard at potential 0) or 29.66% (potential 4); with Laevatain at potential 1, after her SP return, 59.57% or 35.64%. For newcomers, the author prefers the Catastrophe set (under Equipment)."
+          },
+          "deepNote": {
+            "es": "Su Battle Skill aplica Heat Infliction y su Combo sale cuando el enemigo recibe una Arts Infliction, con otra acumulación de Heat (en área, según el autor). Su Ultimate fuerza Combustion, que dispara el Combo de Laevatain. Con potencial 5, su Ultimate reinicia el cooldown del Combo: es el tri-fuego (Battle Skill, Combo, Ultimate antes de que aterrice del salto hacia atrás del Combo y otra vez Combo), 3 acumulaciones él solo.",
+            "en": "His Battle Skill applies Heat Infliction and his Combo fires when the enemy receives an Arts Infliction, adding another Heat stack (in an area, per the author). His Ultimate forces Combustion, which fires Laevatain's Combo. At potential 5 his Ultimate resets the Combo's cooldown: that is the triple fire (Battle Skill, Combo, Ultimate before he lands from the Combo's backflip, and Combo again), 3 stacks on his own."
+          }
+        },
+        {
+          "id": "ardelia",
+          "role": "Buffer",
+          "weaponId": "wpn_funnel_0013",
+          "gearRec": [
+            "lynx_cuirass",
+            "eternal_xiranite_gloves_t1",
+            "eternal_xiranite_auxiliary_arm",
+            "eternal_xiranite_auxiliary_arm"
+          ],
+          "weaponNote": {
+            "es": "Dreams of the Starry Beach, la única de la ficha: al consumir Corrosion deja Arts DMG Taken en el enemigo.",
+            "en": "Dreams of the Starry Beach, the only one on the card: when it consumes Corrosion it leaves Arts DMG Taken on the enemy."
+          },
+          "gearNote": {
+            "es": "Tres Eternal Xiranite (Gloves T1 y dos Auxiliary Arm) con LYNX Cuirass: carga y curación a la vez. Sin refinado.",
+            "en": "Three Eternal Xiranite (Gloves T1 and two Auxiliary Arms) with LYNX Cuirass: charge and healing at once. No artificing."
+          },
+          "deepNote": {
+            "es": "Su Combo sale con la Final Strike del personaje controlado sobre un enemigo sin Vulnerability ni Arts Infliction, y su nube explota con retraso aplicando Corrosion, que dispara el Combo de Laevatain. Su Battle Skill consume la Corrosion y aplica Physical y Arts Susceptibility.",
+            "en": "Her Combo fires on the controlled operator's Final Strike against an enemy with no Vulnerability or Arts Infliction, and her cloud explodes after a delay applying Corrosion, which fires Laevatain's Combo. Her Battle Skill consumes the Corrosion and applies Physical and Arts Susceptibility."
+          }
+        },
+        {
+          "id": "akekuri",
+          "role": "Enabler",
+          "weaponId": "wpn_sword_0012",
+          "gearRec": [
+            "redeemer_armor",
+            "frontiers_fiber_gloves_t1",
+            "redeemer_seal",
+            "redeemer_seal"
+          ],
+          "weaponNote": {
+            "es": "Thermite Cutter, por delante de OBJ Edge of Lightness, según la ficha.",
+            "en": "Thermite Cutter, ahead of OBJ Edge of Lightness, per the card."
+          },
+          "gearNote": {
+            "es": "Cuatro piezas de carga (Redeemer Armor, Frontiers Fiber Gloves T1 y dos Redeemer Seal) para que su Ultimate vuelva antes y el bucle sea más estable: su Combo no sale cuando uno quiere y cuesta cuadrar el Ultimate con el eje. Sin refinado.",
+            "en": "Four charge pieces (Redeemer Armor, Frontiers Fiber Gloves T1 and two Redeemer Seals) so her Ultimate comes back sooner and the loop is steadier: her Combo does not fire on demand and her Ultimate is hard to sync with the axis. No artificing."
+          },
+          "deepNote": {
+            "es": "Su Battle Skill aplica Heat Infliction (según el autor, en un área pequeña). Su Combo sale cuando el enemigo entra en Stagger o llega a un nodo de Stagger. Con su talento, su Ultimate da Link: lo aprovecha la siguiente Battle Skill o Ultimate.",
+            "en": "Her Battle Skill applies Heat Infliction (in a small area, per the author). Her Combo fires when the enemy is Staggered or hits a Stagger Node. With her talent, her Ultimate gives Link: the next Battle Skill or Ultimate benefits from it."
+          }
+        }
+      ],
+      "equipment": {
+        "intro": {
+          "es": "Fichas del autor al final del video: dos sets para Laevatain y dos para Wulfgard.",
+          "en": "The author's cards at the end of the video: two sets for Laevatain and two for Wulfgard."
+        },
+        "alts": [
+          {
+            "scenario": {
+              "es": "Laevatain: set 2 (para quien empieza)",
+              "en": "Laevatain: set 2 (for newcomers)"
+            },
+            "swap": {
+              "es": "3 Hot Work (Gauntlets y dos Pyrometer) con una armadura de carga: Tide Fall Light Armor o Redeemer Armor (una da un poco más de ataque y la otra un poco más de vida). Es más sencillo y el autor lo recomienda a quien empieza. Refinado: Intellect, Heat DMG, Battle Skill DMG y atributo principal, por delante de Strength.",
+              "en": "3 Hot Work (Gauntlets and two Pyrometers) with a charge armor: Tide Fall Light Armor or Redeemer Armor (one gives a little more attack and the other a little more HP). It is simpler and the author recommends it to newcomers. Artificing: Intellect, Heat DMG, Battle Skill DMG and main attribute, ahead of Strength."
+            }
+          },
+          {
+            "scenario": {
+              "es": "Wulfgard: set 1 (para quien empieza)",
+              "en": "Wulfgard: set 1 (for newcomers)"
+            },
+            "swap": {
+              "es": "Catastrophe (天灾防护), de nivel 50, en armadura, guantes y un accesorio (重甲·壹型, 手套 y 净芯), con Redeemer Seal. Según el autor da 50 SP más, que alivian el arranque: sin el tri-fuego, este equipo necesita dos Battle Skills de Akekuri. Sin refinado. Este set no está en el catálogo de equipo de la app, que es de nivel 70.",
+              "en": "Catastrophe (天灾防护), level 50, on armor, gloves and one kit (重甲·壹型, 手套 and 净芯), with Redeemer Seal. Per the author it gives 50 extra SP, which eases the start: without the triple fire, this team needs two Akekuri Battle Skills. No artificing. This set is not in the app's gear catalog, which is level 70."
+            }
+          }
+        ]
+      }
     }
   ]
 }
